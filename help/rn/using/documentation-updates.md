@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
+source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
 
 ---
 
@@ -33,7 +33,9 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 복합 식별 키를 사용하여 프로필을 호출하는 방법에 대한 사용 사례가 추가되었습니다. [자세히 보기](../../developing/using/uc-calling-resource-id-key.md)
 
-매개 변수로 Worfkflow를 호출할 때 집계 기간 없이 반복 게재 사용에 대한 권장 사항이 추가되었습니다. [자세히 보기](../../automating/using/calling-a-workflow-with-external-parameters.md)
+매개 변수를 사용하여 워크플로우를 호출할 때 집계 기간 없이 반복되는 배달 사용에 대해 권장 사항이 추가되었습니다. [자세히 보기](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+이메일 디자이너의 조각으로 이메일 컨텐츠를 저장하는 방법에 대한 섹션이 업데이트되었습니다. [자세히 보기](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
