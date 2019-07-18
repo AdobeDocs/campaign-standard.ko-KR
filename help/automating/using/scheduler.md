@@ -15,7 +15,7 @@ context-tags: 일정, 기본
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: e3a627376a91eb394aea90b1d94c7958ad77fd40
 
 ---
 
@@ -45,10 +45,10 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 1. Specify the **[!UICONTROL Execution frequency]**:
 
    * **[!UICONTROL Once]**: 워크플로우는 한 번만 실행됩니다.
-   * **[!UICONTROL Several times a day]**: 워크플로우는 하루에 여러 번 실행됩니다.
+   * **[!UICONTROL Several times a day]**: 워크플로우는 하루에 여러 번 실행됩니다. 특정 시간에 또는 정기적으로 실행을 설정할 수 있습니다.
    * **[!UICONTROL Daily]**: 워크플로우는 하루에 한 번 특정 시간에 실행됩니다.
-   * **[!UICONTROL Weekly]**: 워크플로우는 지정된 순간에 한 번 또는 여러 번 실행됩니다.
-   * **[!UICONTROL Monthly]**: 워크플로우는 한 달에 한 번 또는 여러 번 지정된 시간에 실행됩니다.
+   * **[!UICONTROL Weekly]**: 워크플로우는 한 주 또는 여러 요일에 지정된 시간에 실행됩니다.
+   * **[!UICONTROL Monthly]**: 워크플로우는 한 달에 한 번 또는 여러 번 지정된 시간에 실행됩니다. 워크플로우가 필요한 경우 월을 선택할 수 있습니다. 해당 월의 지정된 평일 (예: 월의 두 번째 화요일) 에 실행을 설정할 수도 있습니다.
    * **[!UICONTROL Yearly]**: 워크플로우는 지정된 시간, 한 번 또는 몇 번씩 실행됩니다.
 
 1. 선택한 빈도에 따라 실행 세부 사항을 정의합니다. 세부 사항 필드는 사용된 빈도 (시간, 반복 빈도, 지정된 일 수 등) 에 따라 달라질 수 있습니다.
@@ -62,6 +62,8 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
    * **[!UICONTROL Never]**: 워크플로우는 지정된 빈도에 따라 시간 프레임 또는 반복 수에 대한 제한 없이 실행됩니다.
    * **[!UICONTROL After a certain number of iterations]**: 워크플로우는 지정된 빈도에 따라 실행되며 **, 한도에** 도달할 때까지 증가합니다. The **[!UICONTROL Number of iterations]** will therefore need to be specified.
    * **[!UICONTROL On a specific date]**: 워크플로우는 지정된 빈도에 따라 특정 날짜까지 실행됩니다. 따라서 실행 마감 기간을 지정해야 합니다.
+
+1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**.
 
 1. **[!UICONTROL Execution options]** 탭에서 **[!UICONTROL Time zone]** 필드에 스케줄러에 대한 시간대를 설정합니다. 이렇게 하면 특정 시간대에서 워크플로우를 시작할 수 있으며, 그렇지 않으면 기본적으로 서버 시간대에서 워크플로우가 실행됩니다.
 
