@@ -14,7 +14,7 @@ discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: b671da944fa3059d3a09bceda7d5142df984593c
 
 ---
 
@@ -191,21 +191,47 @@ There are two categories of content elements that you can use: **fragments** and
 
 ### Saving content as a fragment {#saving-content-as-a-fragment}
 
-이메일 디자이너와 함께 이메일을 편집할 때는 해당 이메일의 일부를 조각으로 직접 저장할 수 없습니다.
+이메일 디자이너로 이메일을 편집할 때 해당 이메일의 일부를 조각으로 직접 저장할 수 있습니다.
 
-새 조각에 저장할 섹션에 해당하는 HTML를 복사하여 붙여 넣어야 합니다.
+1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
+
+   ![](assets/email_designer_save-as-fragment.png)
+
+1. 작업 영역에서 조각을 구성할 구조를 선택합니다.
+
+   ![](assets/email_designer_save-as-fragment_select.png)
+
+   >[!NOTE]
+   >
+   >서로 인접한 구조만 선택할 수 있습니다.
+
+1. **[!UICONTROL Create]**&#x200B;을 클릭합니다.
+
+1. Add a label and a description if needed, then click **[!UICONTROL Save]**.
+
+   ![](assets/email_designer_save-as-fragment_popup.png)
+
+1. To find the fragment that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**.
+
+   ![](assets/email_designer_save-as-fragment_list.png)
+
+1. 새 조각을 사용하려면 다른 이메일 콘텐트를 열고 조각 목록에서 선택합니다.
+
+![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+<!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
 >[!NOTE]
 >
->이렇게 하려면 HTML 코드에 익숙해야 합니다.
+>To do this, you need to be familiar with HTML code.
 
-만든 일부 이메일 컨텐츠로 저장하려면 아래 단계를 따르십시오.
+To save as a fragment some email content that you created, follow the steps below.
 
-1. When editing an email in the Email Designer, select **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** to open the HTML version of that email.
-1. 저장할 부분에 해당하는 HTML를 선택하고 복사합니다.
-1. Go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
+1. When editing an email in the Email Designer, select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of that email.
+1. Select and copy the HTML corresponding to the part that you want to save.
+1. Go to **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** and click **[!UICONTROL Create]**.
 1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer and select **[!UICONTROL Fragment]** from the **[!UICONTROL HTML type]** drop-down list.
-1. **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** 를 선택하여 조각의 HTML 버전을 엽니다.
-1. 복사한 HTML를 해당 영역에 붙여넣습니다.
-1. **[!UICONTROL Edit]** 뷰로 다시 전환하여 결과를 확인하고 새 조각을 저장합니다.
+1. Select **[!UICONTROL Edit]** > **[!UICONTROL HTML]** to open the HTML version of the fragment.
+1. Paste the HTML that you copied where appropriate.
+1. Switch back to the **[!UICONTROL Edit]** view to check the result and save the new fragment.-->
 
