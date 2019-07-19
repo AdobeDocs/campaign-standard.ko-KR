@@ -15,7 +15,7 @@ context-tags: 증분, 기본
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 15bba7a6f76cbd17b07f1243075da0832619278b
+source-git-commit: 3e2081fc3377fe4edbdf3fb8c4765a9acda6d79e
 
 ---
 
@@ -79,7 +79,7 @@ The following example shows the configuration of an **[!UICONTROL Incremental qu
 
 ![](assets/incremental_query_example1.png)
 
-* **[!UICONTROL Scheduler]** A activity, to execute the workflow every monday at 7 am.
+* **[!UICONTROL Scheduler]** A activity, to execute the workflow every monday at 6 am.
 
    ![](assets/incremental_query_example2.png)
 
