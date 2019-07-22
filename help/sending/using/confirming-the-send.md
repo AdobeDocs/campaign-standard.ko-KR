@@ -15,7 +15,7 @@ context-tags: 전달, 배포, 뒤로
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
 
 ---
 
@@ -43,6 +43,10 @@ You will be asked to finalize the send definitively by clicking the **[!UICONTRO
 >[!NOTE]
 >
 >메시지가 예약되면 전송 시간이 경과하면 전송됩니다. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+
+집계 기간 없이 반복 배달을 사용하는 경우 배달이 전송되기 전에 확인을 요청할 수 있습니다. To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+
+![](assets/confirmation_recurring_deliveries.png)
 
 **[!UICONTROL Deployment]** 블록은 전송 진행률을 보여줍니다.
 
