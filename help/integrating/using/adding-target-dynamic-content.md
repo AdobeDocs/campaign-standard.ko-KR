@@ -14,7 +14,7 @@ discoiquuid: 45 DDF 7 B 7-98 F 7-4 FDD-BB 4 A -49 EC 8490 E 877
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Target 통합을 통해 다이내믹한 이미지를 전달에 추가하�
 
 Adobe Campaign에서 이미지에 액세스하려면 먼저 Adobe Target에서 다음 작업을 수행해야 합니다.
 
-* Create one or several [redirect offers](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html), in which you must specify the URL of the image you will be using.
+* Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
 * Create one or several [audiences](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html), to define the target of your activity.
 * Create a [Form-based experience composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. 각 경험에 대해 만든 리디렉션 오퍼 중 하나를 선택해야 합니다.
 * Adobe Campaign의 정보를 사용하여 세그먼트를 만들어 경험을 지정합니다. 오퍼의 선택 규칙에서 Adobe Campaign의 데이터를 사용하려면 Adobe Target의 rawbox에서 데이터를 지정해야 합니다.
