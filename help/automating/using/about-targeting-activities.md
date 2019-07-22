@@ -14,7 +14,7 @@ discoiquuid: 5 F 7607 A 1-5 F 71-4 D 66-9688-3 E 5 A 1774 F 1 B 4
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -40,3 +40,4 @@ The **[!UICONTROL Targeting]** section provides the following activities:
 * [중복 제거](../../automating/using/deduplication.md)
 * [enrichment](../../automating/using/enrichment.md)
 
+**[!UICONTROL Targeting]** 활동을 사용하면 아웃바운드 전환을 위한 **세그먼트 코드를** 정의할 수 있습니다. 그런 다음 이러한 세그먼트 코드를 기반으로 보고서를 만들어 광고 캠페인의 효율성을 측정할 수 있습니다. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
