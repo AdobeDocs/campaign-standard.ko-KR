@@ -15,7 +15,7 @@ context-tags: Deliverytransactionaltemplate, 개요
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
 
 ---
 
@@ -313,8 +313,6 @@ By selecting a transactional message, you can delete it with the **[!UICONTROL D
 
 이벤트가 실행 전달에 할당되면 받는 사람의 사서함이 꽉 찬 경우 임시 오류로 인해 트랜잭션 메시지가 실패할 수 있습니다. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-트랜잭션 이벤트가 실패한 실행 전달에 지정된 경우 이 이벤트는 나중에 연기되고 다시 실행됩니다. 다시 검색하면 새 실행 게시에 할당됩니다.
-
 >[!NOTE]
 >
 >이벤트가 실행 전달에 할당되면 이 실행 게재의 [전송 로그] 에 해당 이벤트가 표시됩니다. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message.
@@ -323,9 +321,7 @@ By selecting a transactional message, you can delete it with the **[!UICONTROL D
 
 **로그 업데이트 전송**
 
-트랜잭션 이벤트가 실패한 실행 전달에 할당되면 몇 분 후에 이 이벤트가 연기되고 다시 실행됩니다. 다시 검색하면 새 실행 게시에 할당됩니다.
-
-하지만 새 실행 게재의 전송 로그는 즉시 업데이트되지 않습니다 (업데이트는 예약된 워크플로우를 통해 수행됩니다). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
+재시도 프로세스에서는 새 실행 게재의 전송 로그가 즉시 업데이트되지 않습니다 (업데이트가 예약된 워크플로우를 통해 수행됨). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
 **실패한 실행 배달**
 
