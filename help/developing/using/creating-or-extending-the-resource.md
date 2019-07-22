@@ -14,7 +14,7 @@ discoiquuid: 8 DC 45 C 37-6908-407 E -8 E 41-4 A 4188 CBA 2 B 3
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: a7c7a46fdba2395c773582923c6bd647c2d6c9d6
 
 ---
 
@@ -43,6 +43,10 @@ source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
    * **[!UICONTROL Create a new resource]**: **[!UICONTROL Label]** AND **[!UICONTROL ID]** 필드를 입력합니다. The **[!UICONTROL ID]** field is mandatory. 레이블 필드를 비워 두면 ID에서 자동으로 완료됩니다.
 
       ![](assets/schema_extension_2.png)
+
+      >[!NOTE]
+      >
+      >최대 30 자를 사용하여 다시 명령을 수행할 수 있습니다.
 
    * **[!UICONTROL Extend an existing resource]**: 확장할 리소스를 선택합니다.
 
