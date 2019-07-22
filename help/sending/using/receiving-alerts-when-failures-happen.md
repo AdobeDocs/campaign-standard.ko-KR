@@ -14,7 +14,7 @@ discoiquuid: 0766 bd 57-c 5 f 1-4 f 56-ac 84-e 5 a 04 d 3819 ec
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
 
 >[!NOTE]
 >
->To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. 표준 사용자는 Adobe Campaign 인터페이스에서 대시보드에 액세스할 수 없습니다. 알림 알림만 수신할 수 있습니다. For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/types-of-users.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. 표준 사용자는 Adobe Campaign 인터페이스에서 대시보드에 액세스할 수 없습니다. 알림 알림만 수신할 수 있습니다. For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/users-management.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
@@ -182,7 +182,7 @@ To do this, you first need to extend the **Delivery** resource and add a new fil
 
 **관련 항목:**
 
-[리소스 추가 또는 확장](../../developing/using/key-steps-of-adding-a-resource.md)
+[리소스 추가 또는 확장](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Delivery alerting parameters {#delivery-alerting-parameters}
 
