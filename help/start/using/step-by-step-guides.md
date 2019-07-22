@@ -14,7 +14,7 @@ discoiquuid: D 7088 C 18-7 DAF -4 C 30-B 633-2 F 19496 B 1143
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 * [이메일을 디자인하는 주요 단계](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch): 처음부터 이메일 컨텐츠를 디자인하는 주요 단계를 읽어 보시기 바랍니다.
 * [Adobe Campaign와 함께 Experience Cloud 트리거 사용](../../integrating/using/abandonment-triggers-use-cases.md): 웹 사이트에서 Adobe Analytics로 추적된 특정 행동을 고객에게 이메일로 보낼 수 있습니다.
-* [리소스 추가 또는 확장](../../developing/using/key-steps-of-adding-a-resource.md): 새로운 리소스를 만들거나 기존 리소스를 확장하는 방법을 살펴볼 수 있습니다.
+* [리소스 추가 또는 확장](../../developing/using/key-steps-to-add-a-resource.md): 새로운 리소스를 만들거나 기존 리소스를 확장하는 방법을 살펴볼 수 있습니다.
 * [워크플로우 템플릿 가져오기](../../automating/using/importing-data.md#example--import-workflow-template): 가져오기 템플릿을 사용하여 동일한 구조의 파일을 정기적으로 가져올 수 있습니다.
 * [이중 옵트인 프로세스 설정](../../channels/using/setting-up-a-double-opt-in-process.md): 고객의 구독을 확인하기 위해 랜딩 페이지에 연결된 이메일을 보내는 방법을 알아봅니다.
 * [이메일 개인화](../../designing/using/example--email-personalization.md): 고객의 나이에 따라 이메일을 개인화합니다.
