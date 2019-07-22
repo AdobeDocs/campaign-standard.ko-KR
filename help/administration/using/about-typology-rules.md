@@ -15,7 +15,7 @@ context-tags: tyatype, 개요; Tyatype gyrule, main; Tyatype 규칙, 개요
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -85,10 +85,6 @@ A typology rule can be deactivated through its **[!UICONTROL Properties]** if yo
 By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
-
->[!NOTE]
->
->제어 규칙의 컨텐츠는 수정할 수 없으므로 기본적으로 사용되는 규칙을 필터링합니다.
 
 ## Typology rules execution order {#typology-rules-execution-order}
 
