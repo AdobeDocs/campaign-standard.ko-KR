@@ -14,7 +14,7 @@ discoiquuid: 1676 DA 91-55 E 3-414 F-BCD 3-BB 0804 B 682 BD
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 7c3b44a97af080ea7a1c28c7b7573d690d4df308
+source-git-commit: 267e30c603baf67020aadefad578f91b40dc042d
 
 ---
 
@@ -200,6 +200,10 @@ For more on how to use the activity, refer to the [dedicated section](../../auto
 >This action can be performed from any activity that lets you define a segment code like, for example, **[!UICONTROL Query]** or **[!UICONTROL Segmentation]** activities.
 
 ![](assets/extsignal_activities_segment.png)
+
+**배달 레이블**: 이벤트 변수를 기반으로 배달 레이블을 정의합니다.
+
+![](assets/extsignal_activities_label.png)
 
 ## Use case {#use-case}
 
