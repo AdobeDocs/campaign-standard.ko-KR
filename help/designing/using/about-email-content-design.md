@@ -14,7 +14,7 @@ discoiquuid: 39 B 86 FDA -7766-4 E 5 F-AB 48-BCC 536 AB 66 B 3
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
 
 ---
 
@@ -365,7 +365,10 @@ Adobe Campaign와 함께 보낼 모든 이메일에서 동일한 머리글과 �
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. 구성 요소를 숨길 수도 있습니다. 이 옵션을 선택하면 해당 구성 요소가 모바일 장치에 표시될 때 숨겨집니다.
+1. 모바일 장치에 표시될 때 구성 요소를 숨길 수 있습니다. To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
+데스크톱 장치에서 이 구성 요소를 숨기도록 선택할 수도 있습니다. 즉, 모바일 장치에서는 해당 구성 요소가 표시됩니다. To do this, select **[!UICONTROL Show only on mobile devices]**.
+예를 들어, 이 옵션을 사용하면 모바일 장치에서 특정 이미지를 표시하고 데스크톱 장치에서 다른 이미지를 표시할 수 있습니다.
+모바일 또는 데스크탑 보기에서 이 옵션을 설정할 수 있습니다.
 
    ![](assets/email_designer_mobile_hide.png)
 
