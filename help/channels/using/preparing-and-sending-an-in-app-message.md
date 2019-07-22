@@ -15,7 +15,7 @@ context-tags: 전달, 트리거, 뒤로; Deliverycreation, 마법사
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 90b478d1d58b67e763b8b6685c12530a5b5ee9c3
+source-git-commit: e3b71fdaf18a20dc87a05c2a964a3429c75dd3ce
 
 ---
 
@@ -36,6 +36,8 @@ Adobe Campaign 에서는 다음 세 가지 유형의 인앱 메시지를 사용�
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: 이 메시지 유형을 사용하면 Adobe Campaign에서 모바일 프로필이 있는 모바일 앱의 모든 알려진 사용자 또는 익명 사용자를 타깃팅할 수 있습니다. 이 메시지 유형은 개인화되지 않은 특성과 중요하지 않은 특성만 사용하여 개인화할 수 있으며 Mobile SDK와 Adobe Campaign의 앱 내 메시징 서비스 간에 핸드셰이크가 필요하지 않습니다.
 
    For more information on how to handle personal and sensitive data, refer to [Handling mobile profile fields with personal and sensitive data](../../channels/using/preparing-and-sending-an-in-app-message.md#handling-mobile-profile-fields-with-personal-and-sensitive-data).
+
+![](assets/diagram_inapp.png)
 
 ## Handling mobile profile fields with personal and sensitive data {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
