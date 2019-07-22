@@ -14,7 +14,7 @@ discoiquuid: 17 CF 126 A -7 CE 1-4 E 11-BB 5 E -2 BDCE 01 CFDED
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -277,7 +277,7 @@ To learn more on compatibility between dimensions and metrics, refer to this [ta
   </tr> 
   <tr> 
    <td> 클릭<br /> </td> 
-   <td> Number of times users interact with the push notification, e.g. clicks on the notification or button.<br /> </td> 
+   <td> 푸시 알림이 장치로 배달되고 사용자가 클릭한 횟수입니다. The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
   </tr> 
   <tr> 
    <td> Click through rate<br /> </td> 
@@ -293,7 +293,7 @@ To learn more on compatibility between dimensions and metrics, refer to this [ta
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
-   <td> Total of push notifications seen by recipients.<br /> </td> 
+   <td> 푸시 알림이 장치로 배달되고 알림 센터에서 변경되지 않은 횟수입니다. 대부분의 경우 노출 수는 배달된 번호와 비슷해야 합니다. This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
   </tr> 
   <tr> 
    <td> Processed/sent<br /> </td> 
@@ -301,7 +301,7 @@ To learn more on compatibility between dimensions and metrics, refer to this [ta
   </tr> 
   <tr> 
    <td> Open<br /> </td> 
-   <td> Total number of application launches when users open the push notification.<br /> </td> 
+   <td> 장치에 배달되고 사용자가 클릭해서 앱을 여는 총 푸시 알림 수입니다. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
   </tr> 
   <tr> 
    <td> Open rate<br /> </td> 
