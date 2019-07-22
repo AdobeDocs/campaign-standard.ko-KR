@@ -14,7 +14,7 @@ discoiquuid: 305 CADDE -6424-4 C 6 F-B 11 B -1 E 8 BDBAD 6 EF 1
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -58,3 +58,6 @@ Adobe Campaign에서 사용할 수 있는 기본 규칙 세트는 표준 제어�
 
    메시지 개인화가 완료되도록 하려면 이 단계를 선택합니다.
 
+>[!NOTE]
+>
+>보안상의 이유로 제어 규칙의 내용은 수정할 수 없습니다. The **[!UICONTROL Code]** field is read-only.
