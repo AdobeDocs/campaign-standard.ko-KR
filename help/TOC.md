@@ -3,7 +3,7 @@ product: Adobe Campaign Standard
 audience: 최종 사용자
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
+source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
 
 ---
 
@@ -175,6 +175,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [보고 인터페이스](reporting/using/reporting-interface.md)
       + [구성 요소 목록 ](reporting/using/list-of-components-.md)
       + [표시기 계산](reporting/using/indicator-calculation.md)
+      + [문제 해결](reporting/using/troubleshooting.md)
    + List of reports {#list-of-reports}
       + [보고서 기간 정의](reporting/using/defining-the-report-period.md)
       + [바운스 요약](reporting/using/bounce-summary.md)
@@ -196,6 +197,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [시각화 추가](reporting/using/adding-visualizations.md)
       + [구성 요소 추가](reporting/using/adding-components.md)
       + [사용자 지정 프로필 차원 만들기](reporting/using/creating-a-custom-profile-dimension.md)
+      + [워크플로우 세그먼트를 기반으로 보고서 만들기](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
    + [캠페인 통합 정보](integrating/using/about-campaign-integrations.md)
    + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
@@ -274,6 +276,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [조정](automating/using/reconciliation.md)
       + [파일 추출](automating/using/extract-file.md)
       + [구독 서비스](automating/using/subscription-services.md)
+      + [외부 API](automating/using/external-api.md)
    + Filtering data {#filtering-data}
       + [쿼리 편집](automating/using/editing-queries.md)
       + [고급 표현식 편집](automating/using/advanced-expression-editing.md)
@@ -291,7 +294,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [리소스 상태](developing/using/resource-statuses.md)
       + [데이터 모델 변경 모니터링](developing/using/monitoring-data-model-changes.md)
    + Adding or extending a resource {#adding-or-extending-a-resource}
-      + [리소스를 추가하는 주요 단계](developing/using/key-steps-of-adding-a-resource.md)
+      + [리소스를 추가하는 주요 단계](developing/using/key-steps-to-add-a-resource.md)
       + [리소스 만들기 또는 확장](developing/using/creating-or-extending-the-resource.md)
       + [리소스 데이터 구조 구성](developing/using/configuring-the-resource-s-data-structure.md)
       + [화면 정의 구성](developing/using/configuring-the-screen-definition.md)
@@ -311,7 +314,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
    + [Adobe Campaign 관리 정보](administration/using/about-administrating-adobe-campaign.md)
    + Users and security {#users-and-security}
       + [액세스 관리 정보](administration/using/about-access-management.md)
-      + [사용자 유형](administration/using/types-of-users.md)
+      + [사용자 관리](administration/using/users-management.md)
       + [조직 단위](administration/using/organizational-units.md)
       + [역할 목록](administration/using/list-of-roles.md)
       + [그룹 및 사용자 관리](administration/using/managing-groups-and-users.md)
