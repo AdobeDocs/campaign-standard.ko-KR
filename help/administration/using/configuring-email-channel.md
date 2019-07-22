@@ -15,7 +15,7 @@ context-tags: Extaccountemail, 개요; emailconfig, main; 규칙 세트, 개요;
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -143,7 +143,7 @@ This section details the list of parameters available in the properties screen o
 
 >[!NOTE]
 >
->일부 매개 변수는 템플릿에서만 사용할 수 있습니다. Parameters you can access [depend on your permissions](../../administration/using/types-of-users.md).
+>일부 매개 변수는 템플릿에서만 사용할 수 있습니다. Parameters you can access [depend on your permissions](../../administration/using/users-management.md).
 
 To edit the properties of an email or an email template, use the **[!UICONTROL Edit properties]** button.
 
@@ -250,7 +250,10 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
    >
    >**[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]****[!UICONTROL Typologies]** &gt; 메뉴를 통해 액세스할 수 있는 유형화는 [유형 지정](../../administration/using/about-typology-rules.md) 섹션에 표시됩니다.
 
-* **[!UICONTROL Compute the label during delivery analysis]**: 메시지 준비 단계 동안 이메일의 레이블 값을 계산할 수 있습니다.
+* **[!UICONTROL Compute the label during delivery preparation]**: 개인화 필드, 컨텐츠 블록 및 동적 텍스트를 사용하여 메시지 준비 단계 동안 이메일의 레이블 값을 계산할 수 있습니다.
+
+   또한 워크플로우의 외부 신호 활동으로 선언된 이벤트 변수를 사용하여 배달 레이블을 개인화할 수도 있습니다. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+
 * **[!UICONTROL Save SQL queries in the log]**: 이 옵션을 사용하면 준비 단계 동안 저널에서 SQL 쿼리 로그를 추가할 수 있습니다.
 
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}
