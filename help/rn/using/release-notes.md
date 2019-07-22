@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 830292bd6f5bbd143ad0c674aaac67b67abc5665
+source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
 
 ---
 
@@ -26,6 +26,117 @@ Adobe Campaign Standard의 특정 릴리스를 찾고 있습니까?
 각 릴리스에는 새로운 기능과 패치가 포함되어 있습니다. 컨텐츠를 보려면 릴리스를 클릭합니다. Consult the [Release Planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) to find out when the next release will happen.
 
 View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a previous release, consult these pages: [2018 Release Notes](../../rn/using/release-notes-2018.md), [2017 Release Notes](../../rn/using/release-notes-2017.md), [2015-2016 Release Notes](../../rn/using/release-notes-2015-2016.md). [더 이상 사용되지 않거나 제거된 기능 목록을](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)참조하십시오.
+
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
+
+### What's new? {#what-s-new-3}
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Functionality<br /> </th> 
+   <th> Description<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> External API Activity (Public Beta)<br /> </td> 
+   <td> <p>더 심층적인 개인화를 위해 외부 API 활동을 통해 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O 런타임 또는 Adobe Experience Cloud REST 엔드포인트 (예: 데이터 플랫폼, Target, Analytics, Campaign) 일 수 있습니다.</p><p>현재 이 기능은 공개 베타 버전입니다.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td> Report on workflow segment<br /> </td> 
+   <td> <p>이 기능을 사용하면 마케터는 세그먼트 코드별로 배달 성과를 분류할 수 있습니다. 워크플로우를 만들고 세그멘테이션 활동을 사용하여 세그먼트를 배달 모집단에 할당할 때, 이러한 세그먼트는 이제 동일한 배달으로 이동할 수 있습니다. 이렇게 하면 단일 배달 내의 여러 세그먼트를 기반으로 한 클릭/클릭 통계를 표시할 수 있습니다.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Security enhancements {#security-enhancements-2}
+
+* 잘못된 요청에 대한 서비스 거부 (DoS) 공격을 방지하기 위한 보안 문제를 해결했습니다. (CAMP -33454)
+
+### Email Designer enhancements {#email-designer-enhancements-3}
+
+* 구성 요소가 추가될 때마다 HTML 템플릿에 HTML 스타일 태그를 추가하여 템플릿 크기를 대폭 늘릴 수 있었던 문제를 수정했습니다. (CAMP -34694)
+* 오른쪽 상단 도구 모음 메뉴 옵션을 사용할 수 없는 문제를 해결했습니다. (CAMP -34577)
+* 미러 페이지 URL 콘텐츠 블록이 이메일 콘텐츠에 삽입되면 발생하던 문제가 해결되었습니다. (CAMP -34779)
+* 이메일에 JSPP 코드를 사용할 때 컨텐츠를 편집하기가 어려운 문제를 해결했습니다. (CAMP -34574)
+* 하이퍼링크가 추가되면 이미지가 맨 위에서 잘리는 문제가 수정되었습니다. (CAMP -34382)
+* Firefox에서 이메일 디자이너를 사용할 때 표시 문제가 해결되었습니다. (CAMP -34364)
+* 이메일에서 동적 컨텐츠를 정의할 때 고급 모드로 발생하는 여러 가지 문제를 수정했습니다. (CAMP -34351, CAMP -34333, CAMP -34331)
+* 다이내믹 컨텐츠 규칙 편집기에서 발생하던 몇 가지 문제가 수정되었습니다 (CAMP -34304, CAMP -34303).
+* 이메일 디자이너 설정 창에서 링크 필드가 표시되지 않는 문제를 해결했습니다 (CAMP -33749).
+* 보낸 이메일에서 큰 YouTube 아이콘 문제를 해결했습니다. (CAMP -33726)
+* 미러 페이지 컨텐츠를 편집 가능하게 만드는 보안 문제를 해결했습니다. (CAMP -33691)
+* 동적 컨텐츠에서 보다 큼 심볼을 사용할 때 HTML 출력을 끊는 문제를 해결했습니다. (CAMP -33688)
+* 이메일 디자이너에서 텍스트를 편집할 때 실행 취소 옵션을 사용하는 문제가 수정되었습니다. (CAMP -32565)
+* 스타일을 제거하지 않고 스타일을 취소할 때 추가 태그를 만든 문제를 수정했습니다. (CAMP -32359)
+* 이제 이메일에 사용된 각 이미지가 데스크탑 디바이스에서만 표시되거나 모바일 디바이스에서만 표시되는지를 정의할 수 있습니다.
+* 이제 소셜 컨텐츠 구성 요소의 너비와 높이를 설정할 수 있습니다.
+* 동적 컨텐츠 이전 소스 코드가 해당 동적 컨텐츠를 삭제한 후 제거되지 않는 문제를 해결했습니다.
+* 이메일이 수정된 후 업데이트되지 않는 문제를 해결했습니다.
+* N: N 열 구조를 작업 공간으로 드래그하여 놓을 수 없습니다.
+* 이메일 대시보드에서 메시지의 썸네일이 흐리게 표시되는 문제가 수정되었습니다.
+* Outlook에서 받은 이메일에 대해 배경이 올바르게 표시되지 않는 문제를 해결했습니다.
+* 이메일 디자이너 홈 페이지의 일부 정렬 문제를 해결했습니다.
+* 동적 컨텐츠를 사용할 때 변형 복제에 발생하던 문제를 수정했습니다.
+* 이메일 디자이너 설정 창에서 원치 않는 필드가 제거되었습니다.
+
+### Other improvements {#other-improvements-3}
+
+* Adobe Campaign 플랫폼 위치 서비스와의 통합을 통해 이제 Adobe Campaign는 Experience Platform SDK를 통해 모바일 애플리케이션의 가입자에게 위치 기반 마케팅 메시지를 전송할 수 있습니다. For more information, refer to the [detailed documentation](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md).
+* 향상된 경험을 위해 보고 기능이 개선되었습니다. 이 기능을 사용하려면 동적 보고 사용 계약에 동의해야 합니다. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* 워크플로우에서는 워크플로우의 다음 10 개 실행을 미리 보기 위한 새로운 옵션이 추가되었습니다. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* 스케줄러 활동에서 새 옵션을 사용하면 월별 배달에 특정 주의 특정 요일을 선택할 수 있습니다. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* 수집 기간 없이 반복 배달을 만들 때 배달 대시보드에서는 배달이 전송되기 전에 확인을 요청할 수 있습니다. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* 이제 워크플로우의 외부 신호 활동에서 선언한 이벤트 변수를 사용하여 배달 레이블을 개인화할 수 있습니다. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* GDPR 삭제 쿼리는 향상된 성능을 위해 향상되었습니다. (CAMP -33504)
+* «FTP» 옵션이 외부 계정 구성 인터페이스에서 제거되었습니다. (CAMP -34472)
+
+### Other changes {#other-changes-2}
+
+* 배달 속성 인터페이스에 경고가 추가되었습니다. 이 보고서는 배달을 기반으로 배달이 준비되고 워크플로우에 대해 하루에 여러 번 문의하도록 지정하는 것으로 지정합니다. (CAMP -34393)
+* 사용자 지정 리소스 구성 화면에 경고가 추가되었습니다. 사용자 정의 리소스 ID 에는 최대 30 자 이상을 사용하는 것이 좋습니다. 이것은 사용자 지정 리소스 필드, 키, 색인 및 링크에도 적용됩니다.
+* 이제 랜딩 페이지에서 확인 메시지로 사용되는 트랜잭션 메시지를 삭제하려고 하면 메시지가 표시됩니다.
+* 이제 활동이 6 시간 이상 실행 중이면 워크플로우에 경고가 표시됩니다. 이것은 푸시 알림, 전달, 신호, 시작, 종료, 포크어, 참여, 예약 및 대기 활동에 적용되지 않습니다.
+* 이제 동시에 실행 중인 최대 워크플로우 수에 도달하면 경고가 워크플로우에 표시됩니다.
+* 이제 7 일 이상 일시 중지 또는 실패 상태인 워크플로우가 디스크 공간을 적게 차지하기 위해 중지됩니다. 작업 흐름 로그에 정리 작업이 표시됩니다.
+* " 파일 전송 "활동을 사용할 때 파일 크기가 사용 가능한 디스크 공간을 초과하는 경우 오류가 기록됩니다.
+* 인앱 메시지의 보조 단추에 대해 대상으로 리디렉션 URL 작업을 더 이상 선택할 수 없습니다.
+
+### Patches {#patches-3}
+
+* GDPR 액세스 요청이 실패할 수 있는 문제를 해결했습니다.
+* 고유 프로필에 대해 여러 트리거를 받았을 때 트리거가 버려질 수 있는 문제를 해결했습니다.
+* 로그인 후 잘못된 사용자 지정 리소스 게시 오류 메시지가 표시되는 문제를 해결했습니다.
+* 사용자 지정 리소스를 만들거나 확장할 때 빈 페이지가 표시되는 문제를 해결했습니다.
+* 모바일 게시에 타깃팅 차원에서 Appsubscriptionrcp를 타깃팅 차원으로 사용할 수 없는 문제를 해결했습니다.
+* 하드 바운스 이메일 주소가 격리되지 않도록 하는 오류를 해결했습니다. (CAMP -24587)
+* 유형 유형을 추가한 다음 유형을 삭제하기 전에 삭제했던 문제를 수정했습니다. (CAMP -32789)
+* 동적 컨텐츠를 비활성화할 때 랜딩 페이지 컨텐츠가 표시되지 않는 문제를 해결했습니다. (CAMP -32924)
+* 마스터 게재 특성에 개인화를 사용할 때 발생하는 반복되는 배달 문제를 수정했습니다. (CAMP -32983)
+* 들어오는 SMS 메시지 데이터가 포함된 전환 결과를 읽을 수 없는 워크플로우에서 문제를 해결했습니다. (CAMP -33134)
+* 포크 및 제외 활동을 결합하여 대상을 만들 때 발생했던 워크플로우에서 발생하는 문제를 수정했습니다. (CAMP -33401)
+* 미러 페이지 컨텐츠가 표시되지 않게 할 수 있는 문제와 반복 배달용으로 전송되는 메시지가 수정되었습니다. (CAMP -33413)
+* 프로파일과 대상 간에 조합 활동을 사용할 때 오류가 발생하던 문제가 수정되었습니다. 이 문제는 입력 전환 시 식별 키가 비호환성으로 인해 발생합니다. (CAMP -33713)
+* " reccount "표현식이 두 번 클릭했을 때 올바른 구문을 사용하지 못하게 하던 테스트 활동의 문제를 수정했습니다. (CAMP -33756)
+* 과금 기술 워크플로우 로그를 열 때 오류 메시지가 표시되는 문제를 해결했습니다. (CAMP -34313)
+* 가입 시 확인란 필드를 구성할 때 발생할 수 있는 랜딩 페이지의 문제를 수정했습니다. (CAMP -34369)
+* 목록을 구성하고 "아이콘" 필드를 추가할 때 발생하던 문제를 수정했습니다. (CAMP -34585)
+* "|" and " %" 기호를 로드 파일 워크플로우 활동의 날짜 또는 시간 구분 기호로 사용합니다. (CAMP -34706)
+* 활동을 추가하고 워크플로우를 저장한 다음 브라우저의 "뒤로" 단추를 누를 때 워크플로우에서 발생하던 문제를 수정했습니다. 새로 추가된 활동이 작업 공간에서 제거되었습니다. (CAMP -34788)
+* 랜딩 페이지에서 확인란과 함께 가시성 조건을 사용할 때 발생하던 문제를 수정했습니다. (CAMP -34802)
+* 필터링 차원이 추적 로그로 설정되고 타겟 차원이 프로필로 설정되어 있는 경우, "추가 데이터" 탭에 필드가 표시되지 않는 강화 활동의 문제를 수정했습니다.
+* " Workflowtemplate "리소스를 내보낼 때 오류 메시지가 표시되는 문제를 해결했습니다.
+* 새 프로필을 만들 때 대화 상자에서 "국가/지역 코드" 필드를 선택한 경우 저장되지 않는 문제를 해결했습니다.
+* DM (Direct Mail Import) 템플릿 (updatequarantinesdeliverylogsdirectmail) 를 사용할 때 발생하는 몇 가지 문제가 해결되었습니다.
+* On-Demand 통합 관련 문제를 수정했습니다.
+* 타임라인 보기를 확대할 때 발생하던 문제가 수정되었습니다. (CAMP -33628)
+* 예약된 날짜와 시간이 포함된 이메일 메시지에 대한 교정본을 즉시 보내지 못하는 문제를 해결했습니다. (CAMP -33723)
+* 사용자가 로그아웃했을 때 오류 로그를 생성한 트랜잭션 메시징과 관련된 문제를 해결했습니다. (CAMP -31698)
+* 이메일 메시지를 예약할 때 특정 환경에서 발생할 수 있는 오류를 수정했습니다.
+* 업데이트 배달 실행 워크플로우가 실패하는 문제를 해결했습니다.
+* 제목 제목이 여러 줄로 포함된 경우 이메일 컨텐츠가 깨지는 보안 문제를 해결했습니다.
+
 
 ## Release 19.2.7 - July 2019 {#release-19-2-7---july-2019}
 
