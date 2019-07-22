@@ -14,7 +14,7 @@ discoiquuid: BBB 41 C 38-12 C 1-4625-85 D 5-69627 E 2 F 4 B 39
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 08b2363076adcc101b741ab66b85285e7a510baa
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 08b2363076adcc101b741ab66b85285e7a510baa
 
 >[!NOTE]
 >
->Only users with administration rights or with organizational units set to **All** can create or save a new report. For more on this, refer to this [section](../../administration/using/types-of-users.md).
+>Only users with administration rights or with organizational units set to **All** can create or save a new report. For more on this, refer to this [section](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
 
