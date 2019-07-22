@@ -14,7 +14,7 @@ discoiquuid: 3 F 968556-E 774-43 DC-A 0 B 8-7188 D 7665 FBC
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -99,7 +99,7 @@ It is possible to enrich the transactional message content with information from
 
 ![](assets/message-center_usecaseschema.png)
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-of-adding-a-resource.md).
+For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. **[!UICONTROL Enrichment]** 섹션에서 **[!UICONTROL Create element]** 단추를 클릭합니다.
 
@@ -307,7 +307,7 @@ As we want to identify our client via his CRM ID, first make sure that the **[!U
 
 In the same way, a custom resource corresponding to purchases must have been created and published, and must be linked to the **[!UICONTROL Profile]** resource. 이렇게 하면 이 리소스에서 정보를 검색하여 메시지 내용을 강화할 수 있습니다.
 
-For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-of-adding-a-resource.md).
+For more on resource creation and publishing, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. **[!UICONTROL Email]** 채널과 **[!UICONTROL Profile]** 타깃팅 차원을 사용하여 새 이벤트를 만듭니다 (이벤트 [](../../administration/using/configuring-transactional-messaging.md#creating-an-event)만들기 참조).
 1. 트랜잭션 메시지를 개인화하는 데 사용할 속성을 정의합니다. In our case, add the "CRM ID" and the "Product identifier" fields (see [Defining the event attributes](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
