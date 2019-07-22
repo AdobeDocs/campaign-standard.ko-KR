@@ -14,7 +14,7 @@ discoiquuid: 2 A 14500 F -5 EDE -4131-8 B 1 A-B 7 FD 65 B 7 E 3 AA
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 4d148014d1b90712e78b8af17d7ddee2659329ed
+source-git-commit: b9799c40bd7b6422409456db2c4f694f486b42f8
 
 ---
 
@@ -49,8 +49,8 @@ Experience Platform SDK 애플리케이션을 사용하여 푸시 알림 및 인
    For more information on extensions, refer to the [Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard-beta) documentation.
 
 1. Configure rules for your application in Adobe Launch, see [Configuring your application in Launch](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ConfiguringyourapplicationinLaunch)
-1. Configure your Adobe Launch application in Adobe Campaign Standard, see [Setting up your Adobe Launch application in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign) .
-1. Add channel specific configuration to your Mobile Application set-up, see [Channel-specific application configuration in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign) .
+1. Configure your Adobe Launch application in Adobe Campaign Standard, see [Setting up your Adobe Launch application in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign).
+1. Add channel specific configuration to your Mobile Application set-up, see [Channel-specific application configuration in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/launch_2.png)
 
@@ -75,7 +75,7 @@ Experience Platform SDK 애플리케이션을 사용하여 푸시 알림 및 인
 
 1. 애플리케이션 구독자로부터 수집할 데이터를 정의합니다. Adobe Campaign 데이터베이스에 프로필이 있는 모바일 응용 프로그램 구독자는 정의한 기준을 기반으로 조정됩니다.
 
-   For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication) .
+   For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication).
 
 1. 장치에서 모바일 애플리케이션을 실행하고 로그인하여 설정이 성공적으로 완료되었는지 확인합니다. 알림 수신을 선택해야 합니다.
 1. Then, in Adobe Campaign's advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**.
