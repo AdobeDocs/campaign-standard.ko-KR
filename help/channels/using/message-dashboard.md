@@ -15,7 +15,7 @@ context-tags: 전달, 기본
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 회색 막대는 메시지에 연결된 다양한 아이콘을 다시 그룹화합니다.
 
 * **[!UICONTROL Summary]**: 메시지와 관련된 기본 정보를 표시하거나 숨깁니다.
-* **[!UICONTROL Edit properties]**: 메시지의 고급 매개 변수를 편집할 수 있습니다.
+* **[!UICONTROL Edit properties]**: 메시지의 [고급 매개 변수를 편집할](../../administration/using/configuring-email-channel.md#list-of-email-properties)수 있습니다.
 * **[!UICONTROL Reports]**: 메시지와 관련된 보고서에 액세스할 수 있습니다.
 
 **관련 항목:**
