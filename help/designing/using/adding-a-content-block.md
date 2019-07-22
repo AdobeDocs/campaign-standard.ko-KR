@@ -14,7 +14,7 @@ discoiquuid: 3 ffda 143-f 42 a -4 cf 9-b 43 c-e 53 d 24549025
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 84bc011b079c9f620ea672bf081e54adc023aa07
 
 ---
 
@@ -91,6 +91,10 @@ Adobe Campaign 에서는 미리 구성된 컨텐츠 블록의 목록을 제공�
 1. Enter the content of the content block(s), and click the **[!UICONTROL Create]** button.
 
 이제 컨텐츠 블록을 메시지 또는 랜딩 페이지의 컨텐츠 편집기에서 사용할 수 있습니다.
+
+>[!CAUTION]
+>
+>When editing the content of a block, make sure there are no extra white spaces between the beginning and the end of your *if* statements. HTML에서 공백이 화면에 표시되면 컨텐츠 레이아웃에 영향을 줍니다.
 
 ## About targeting dimension {#about-targeting-dimension}
 
