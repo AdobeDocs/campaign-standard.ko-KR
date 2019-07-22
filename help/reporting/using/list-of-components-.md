@@ -14,7 +14,7 @@ discoiquuid: 17 CF 126 A -7 CE 1-4 E 11-BB 5 E -2 BDCE 01 CFDED
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -83,7 +83,7 @@ To learn more on compatibility between dimensions and metrics, refer to this [ta
   </tr> 
   <tr> 
    <td> Profiles<br /> </td> 
-   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-of-adding-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> 이 차원에 대한 데이터는 프로필 필드에 연결된 사용자 지정 리소스가 게시되자마자 검색됩니다.<br /> </td> 
+   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> 이 차원에 대한 데이터는 프로필 필드에 연결된 사용자 지정 리소스가 게시되자마자 검색됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push platform<br /> </td> 
