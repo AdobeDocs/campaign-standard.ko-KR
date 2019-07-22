@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -26,6 +26,16 @@ Adobe Campaign Standard 설명서에 대한 모든 최신 업데이트에 대해
 이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 새로운 기능 및 설명서 업데이트가 모두 나열됩니다.
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+
+## Release 19.3 - July 30 {#release-19-3---july-2019}
+
+### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
+
+Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. 이 보고서는 배달이 집계된 기간에 따라 준비되고 하루에 여러 번 워크플로우에 전화를 걸려는 경우 기간이 없도록 해야 합니다.
+
+워크플로우의 외부 신호 활동에서 선언한 이벤트 변수를 사용하여 배달 레이블을 개인화하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../../developing/using/uc-calling-resource-id-key.md)
 
 ## July 2019 {#release-july-2019}
 
@@ -201,7 +211,7 @@ The Configuring a mobile application using Adobe Experience Platform SDKs sectio
 
 Videos have been updated and moved [here](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
 
-사용자 유형 섹션이 업데이트되었습니다. [자세히 보기](../../administration/using/types-of-users.md)
+사용자 유형 섹션이 업데이트되었습니다. [자세히 보기](../../administration/using/users-management.md)
 
 ## Release 18.9 - September 2018 {#release-18-9---september-2018}
 
@@ -461,7 +471,7 @@ Adobe Analytics와 공유되는 KPI의 세부 목록입니다. [자세히 보기
 
 S 3 계정 추천을 추가했습니다. [자세히 보기](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
-다른 유형의 사용자에 대한 섹션이 업데이트되었습니다. [자세히 보기](../../administration/using/types-of-users.md)
+다른 유형의 사용자에 대한 섹션이 업데이트되었습니다. [자세히 보기](../../administration/using/users-management.md)
 
 이미지 소스 개인화에 대한 섹션이 업데이트되었습니다. [자세히 보기](../../designing/using/personalizing-an-image-source.md)
 
@@ -551,7 +561,7 @@ Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/a
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-14}
 
-섹션을 추가했습니다. [자세히 보기](../../administration/using/types-of-users.md)
+섹션을 추가했습니다. [자세히 보기](../../administration/using/users-management.md)
 
 워크플로우 가이드가 재구성되었습니다. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/executing-a-workflow.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
 
