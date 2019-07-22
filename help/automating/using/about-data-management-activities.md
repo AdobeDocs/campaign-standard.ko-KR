@@ -14,7 +14,7 @@ discoiquuid: 332 BD 6 BE -6 CA 3-4 D 38-B 608-8 A 66 C 156 D 080
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -36,3 +36,4 @@ The **[!UICONTROL Data management (ETL)]** section provides the following activi
 * [파일 추출](../../automating/using/extract-file.md)
 * [구독 서비스](../../automating/using/subscription-services.md)
 
+**[!UICONTROL Data management (ETL)]** 활동을 사용하면 아웃바운드 전환을 위한 **세그먼트 코드를** 정의할 수 있습니다. 그런 다음 이러한 세그먼트 코드를 기반으로 보고서를 만들어 광고 캠페인의 효율성을 측정할 수 있습니다. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
