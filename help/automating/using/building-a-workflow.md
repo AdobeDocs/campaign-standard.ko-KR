@@ -15,7 +15,7 @@ context-tags: Workflow, Wizard; 워크플로우, 기본
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -94,6 +94,10 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
    >[!NOTE]
    >
    >기존 활동을 복사하여 복사하여 복제할 수도 있습니다. 이렇게 하면 원래 정의된 설정을 유지합니다. For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+
+Once your workflow activities are linked together, you can personalize the transitions between them with the **label** of your choice. 이렇게 하려면 전환을 두 번 클릭하여 속성에 액세스합니다.
+
+Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. 그런 다음 이러한 세그먼트 코드를 기반으로 보고서를 만들어 광고 캠페인의 효율성을 측정할 수 있습니다. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 ## Configuring activities {#configuring-activities}
 
