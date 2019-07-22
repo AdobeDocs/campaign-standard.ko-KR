@@ -14,7 +14,7 @@ discoiquuid: A 425 CD 59-EDFD -42 C 5-A 6 BD -38773 C 353 FF 0
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -37,7 +37,7 @@ The first table **Push notification Engagement Summary** is split into three cat
 
 * **[!UICONTROL Processed/sent]**: 전송된 총 푸시 알림 수입니다.
 * **[!UICONTROL Delivered]**: 전송된 푸시 알림의 총 수와 관련하여 성공적으로 전송된 푸시 알림 수입니다.
-* **[!UICONTROL Impressions]**: 수신자가 볼 수 있는 푸시 알림의 합계입니다.
+* **[!UICONTROL Impressions]**: 푸시 알림이 장치로 배달되고 알림 센터에서 변경되지 않은 횟수입니다. 대부분의 경우 노출 수는 배달된 번호와 비슷해야 합니다. 이렇게 하면 장치가 메시지를 받아서 해당 정보를 서버로 다시 전송합니다.
 * **[!UICONTROL Unique impressions]**: 수령인별 노출 횟수.
 * **[!UICONTROL Click through rate]**: 푸시 알림과 상호 작용한 사용자의 비율입니다.
 * **[!UICONTROL Open rate]**: 열린 푸시 알림의 비율.
@@ -48,8 +48,8 @@ The second table **Push notification Clicks &amp; opens** is split into three ca
 
 * **[!UICONTROL Impressions]**: 수신자가 볼 수 있는 푸시 알림의 합계입니다.
 * **[!UICONTROL Unique impressions]**: 수령인별 노출 횟수.
-* **[!UICONTROL Click]**: 사용자가 푸시 알림과 상호 작용하는 횟수 (예: 알림이나 단추 클릭)
+* **[!UICONTROL Click]**: 푸시 알림이 장치에 전달되고 사용자가 클릭한 횟수입니다. 사용자는 알림을 보고, 이 알림을 통해 푸시 열기 추적을 푸시하거나, 페이지를 닫습니다.
 * **[!UICONTROL Unique clicks]**: 고유 사용자가 푸시 알림과 상호 작용하는 횟수 (예: 알림이나 단추 클릭)
-* **[!UICONTROL Open]**: 사용자가 푸시 알림을 열 때 총 애플리케이션 시작 수입니다.
+* **[!UICONTROL Open]**: 장치에 배달되고 사용자가 클릭해서 앱을 여는 총 푸시 알림 수입니다. 이것은 알림이 닫혔을 경우 푸시 열기 외에는 푸시 클릭이 트리거되지 않습니다.
 * **[!UICONTROL Unique Opens]**: 배달을 연 수신자 수입니다.
 
