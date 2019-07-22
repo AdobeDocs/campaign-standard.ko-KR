@@ -14,7 +14,7 @@ discoiquuid: 1 B 9 AEEC 5-70 BB -4 D 72-A 3 E 9-12342 ABF 08 F 7
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -85,7 +85,8 @@ Adobe Campaign 에서는 Experience Cloud에서 만든 트리거에 연결된 �
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. To dislay the message template, click the **[!UICONTROL More]** button, on the top right, then click **[!UICONTROL Trigger Transactional Template]**.
+1. To display the message template, click the **[!UICONTROL More]** button, on the top right, then click **[!UICONTROL Trigger Transactional Template]** .
+
 1. 콘텐츠 및 발신자 세부 정보를 개인화할 수 있습니다.
 
    ![](assets/trigger_uc_browse_8.png)
