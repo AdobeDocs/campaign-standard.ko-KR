@@ -15,7 +15,7 @@ context-tags: Cusresource, main
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 6b642a58fc88779f88f2f860c133b36934c59d21
 
 ---
 
@@ -44,6 +44,7 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
    >[!NOTE]
    >
    >**[!UICONTROL Label]** 필드를 비워 두면 ID에서 자동으로 완성됩니다.
+   >최대 30 자를 사용하는 것이 좋습니다.
 
    ![](assets/schema_extension_4.png)
 
@@ -83,6 +84,10 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
 
    **[!UICONTROL Label]** And **[!UICONTROL ID]** 필드는 기본적으로 완료되지만 편집할 수 있습니다.
 
+   >[!NOTE]
+   >
+   >최대 30 자를 사용하는 것이 좋습니다.
+
 1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
 
    ![](assets/schema_extension_7.png)
@@ -102,6 +107,11 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
    ![](assets/schema_extension_26.png)
 
 1. **[!UICONTROL Label]** And **[!UICONTROL ID]** 필드는 기본적으로 완료되지만 편집할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >최대 30 자를 사용하는 것이 좋습니다.
+
 1. 이 색인을 구성하는 요소를 정의하려면 이 리소스에 대해 만든 필드를 선택합니다.
 
    ![](assets/schema_extension_27.png)
@@ -135,6 +145,10 @@ The indexes that were created appear in the list in the **[!UICONTROL Index]** s
    ![](assets/schema_extension_29.png)
 
 1. **[!UICONTROL New link]** 화면에서 **[!UICONTROL Label]** 및 **[!UICONTROL ID]** 필드는 기본적으로 완료되지만 편집할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >최대 30 자를 사용하는 것이 좋습니다.
 
    >[!CAUTION]
    >
@@ -242,6 +256,11 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
    ![](assets/schema_extension_30.png)
 
 1. 필요한 경우 리소스의 레이블과 ID를 수정합니다.
+
+   >[!NOTE]
+   >
+   >최대 30 자를 사용하는 것이 좋습니다.
+
 1. 이 리소스에 대한 액세스를 특정 조직 단위로 제한하려면 여기에 지정합니다. 허가된 유닛의 사용자만 애플리케이션에서 이 리소스를 사용할 수 있습니다.
 1. 수정 내용을 저장합니다.
 
