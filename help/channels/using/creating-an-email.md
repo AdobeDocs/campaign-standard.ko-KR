@@ -14,7 +14,7 @@ discoiquuid: B 27 E 0170-E 73 F -4782-8568-02927 FB 374 F 4
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
 
 ---
 
@@ -62,7 +62,9 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
    >
    >이메일을 저장하려면 먼저 컨텐츠를 편집해야 합니다. If you click **[!UICONTROL Cancel]** at this point, you will not complete the wizard and your email will not be created.
 
-   그러면 이메일 대시보드가 표시됩니다. For more on this, see [Approving messages](../../sending/using/preparing-the-send.md).
+   그러면 이메일 대시보드가 표시됩니다. It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
+
+   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. 예를 들어 배달 준비 시간에 레이블이 계산되도록 이메일을 구성할 수 있습니다. Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
