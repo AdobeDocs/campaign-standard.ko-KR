@@ -14,7 +14,7 @@ discoiquuid: 1 A 24504 E -7 F 9 D -4297-B 39 E-C 5 F 085 B 0 F 388
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: 6dd0c32259d942a0fb790f345cd13800a57e814a
 
 ---
 
@@ -105,6 +105,7 @@ You need to create a specific [typology rule](../../administration/using/about-t
 1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
 1. Duplicate the out-of-box typology **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Once duplication confirmed, edit the new typology and enter the label **TYPOLOGY_PROFILE**.
+1. **블랙리스트에 추가된 주소** 규칙을 제거합니다.
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
 이제 이러한 유형을 확인 이메일에 연결할 수 있습니다.
