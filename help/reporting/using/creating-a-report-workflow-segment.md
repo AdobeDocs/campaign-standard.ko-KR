@@ -14,7 +14,7 @@ discoiquuid: B 6 D 3 DE 63-3 Add -4881-8917-04 A 6 F 8 B 6 BE 4 D
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 36e04227f300d28d2c48da440ddab3ccf9281168
+source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
 
 ---
 
@@ -58,7 +58,7 @@ Note that segment codes will be collected as soon as you enable the segment code
 
 ## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
 
-[!NOTE]
+>[!NOTE]
 >이메일 게재의 입력 전환이 비어 있으면 이전 전환의 세그먼트 코드가 기본적으로 추가됩니다.
 
 먼저 타깃팅된 다른 모집단을 사용하여 워크플로우를 만들어야 합니다. 여기에는 고객의 연령에 따라 개인화된 이메일을 보내드립니다. 프로파일은 20 ~ 30 세, 프로파일은 30 ~ 40 세 범위에 해당합니다.
