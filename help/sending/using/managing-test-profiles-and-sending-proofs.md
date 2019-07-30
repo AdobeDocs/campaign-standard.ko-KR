@@ -15,7 +15,7 @@ context-tags: Seedmember, 개요
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
 
 ---
 
@@ -128,3 +128,42 @@ You can manage your test profiles from the advanced menu **[!UICONTROL Profiles 
 **관련 항목:**
 
 [테스트 전송, 이메일 준비 및 보내기](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) 비디오
+
+## Sending proofs using additional data {#sending-proofs-using-additional-data}
+
+이 섹션에서는 허위 테스트 프로필 데이터를 사용하는 것과 달리 워크플로우를 통해 액세스할 수 있는 실제 고객 데이터를 사용하여 증거 자료를 전송하는 방법을 설명합니다. 워크플로우에 사용된 변수가 정확한지 확인하고 받는 사람이 받는 메시지를 확인할 수 있습니다.
+
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+
+   이 테스트 프로필은 타깃팅된 대상의 일부가 됩니다.
+
+   >[!NOTE]
+   >
+   >테스트 프로필을 트랩으로 사용할 때, 메시지의 모든 농축 필드에 대해 해당 추가 데이터는 실제 타깃팅된 프로필에서 임의로 선택되고 트랩 테스트 프로필에 할당됩니다.
+
+1. 마케팅 활동 목록에 액세스하고 테스트 워크플로우를 만듭니다.
+
+   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. **[!UICONTROL Query]** 워크플로우를 워크플로우로 드래그하여 놓고 엽니다.
+
+   The Query activity is presented in the [Query](../../automating/using/query.md) section.
+
+1. 연결된 표에서 추가 데이터를 추가합니다. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+1. **이메일 전달** 활동을 워크플로우로 드래그하여 놓고 엽니다.
+
+   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
+
+1. 이메일 메시지 대시보드에서 생성한 트랩 사용 시 테스트 프로필을 선택합니다.
+
+1. 쿼리 활동에 정의한 추가 데이터를 사용하여 이메일 컨텐츠 개인화 필드에 추가합니다.
+
+1. 이메일을 저장하고 워크플로우를 시작합니다.
+
+메시지 준비 중에 대상 수에 선택한 테스트 프로필이 포함됩니다.
+메시지가 전송되면 추가 데이터가 실제 프로필의 데이터로 대체됩니다.
+
+>[!NOTE]
+>
+>추가 데이터만 대체됩니다. 이름 또는 성과 같은 실제 프로필 데이터는 테스트 프로필에 사용할 수 없습니다.
