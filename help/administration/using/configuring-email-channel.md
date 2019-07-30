@@ -15,7 +15,7 @@ context-tags: Extaccountemail, 개요; emailconfig, main; 규칙 세트, 개요;
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 8f737b1f66b40862d0e0f64cf7d7f4a2d4d29518
 
 ---
 
@@ -177,8 +177,6 @@ You can also add a **[!UICONTROL Description]** in the corresponding field and e
 
 재시도 횟수는 전 세계 (Adobe 기술 관리자에게 문의) 또는 각 배달 또는 전달 템플릿에 대해 전체적으로 변경할 수 있습니다.
 
-**[!UICONTROL Test SMTP delivery]** 이 옵션을 사용하면 SMTP를 통해 메시지 전송을 테스트할 수 있습니다. SMTP 서버와 연결할 때까지 메시지가 처리되지만 전송되지 않습니다. For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
-
 #### Email format parameters {#email-format-parameters}
 
 전송할 이메일의 형식을 구성할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
@@ -191,6 +189,24 @@ You can also add a **[!UICONTROL Description]** in the corresponding field and e
    >이 옵션은 두 버전의 메시지를 포함합니다. 메시지 크기가 더 크므로 배달 처리량에 영향을 줍니다.
 
 * **모든 메시지를 텍스트 형식으로 보내기**: 메시지는 텍스트 형식으로 전송됩니다. HTML 형식은 전송되지 않지만 받는 사람이 메시지의 링크를 클릭할 때에만 미러 페이지에 사용됩니다.
+
+#### SMTP test mode {#smtp-test-mode}
+
+**[!UICONTROL Enable SMTP test mode]** 이 옵션을 사용하면 실제로 메시지를 보내지 않고도 SMTP 연결을 통해 이메일 전송을 테스트할 수 있습니다.
+SMTP 서버와 연결할 때까지 메시지가 처리되지만 전송되지 않습니다.
+
+![](assets/smtp-test-mode.png)
+
+이 옵션은 이메일 및 이메일 템플릿에 사용할 수 있습니다.
+
+이메일 템플릿에 대해 SMTP 테스트 모드 옵션을 활성화하면 이 템플릿에서 만든 모든 이메일 메시지에 이 옵션이 활성화됩니다.
+
+>[!CAUTION]
+>
+>이메일에 대해 이 옵션을 활성화하면 선택 취소될 때까지 메시지가 전송되지 않습니다.
+>이메일 또는 이메일 템플릿 대시보드에 경고가 표시됩니다.
+
+For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
 
 ### Validity period parameters {#validity-period-parameters}
 
