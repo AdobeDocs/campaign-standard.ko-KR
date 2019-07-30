@@ -14,7 +14,7 @@ discoiquuid: 08 C 8712 A -0066-4 B 8 B -8471-2656 B 8 FB 23 ED
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: ab329af94dc4e28651aaef17f4588d894fb48b74
 
 ---
 
@@ -124,13 +124,13 @@ Functional administrators are the only users who can access the **[!UICONTROL Ad
 
    ![](assets/create_user_4.png)
 
-이제 사용자가 만들어져서 사용자가 암호를 설정한 다음 사용 약관에 동의해야 하는 다음 창으로 리디렉션해야 합니다. 그러면 이 사용자는 Adobe Campaign Standard 인스턴스에 연결할 수 있습니다.
+이제 사용자가 만들어져서 사용자가 암호를 설정하고 사용 약관에 동의해야 하는 다음 창으로 리디렉션하는 이메일을 받게 됩니다. 그러면 이 사용자는 Adobe Campaign Standard 인스턴스에 연결할 수 있습니다.
 
 ![](assets/create_user_5.png)
 
-사용자가 인스턴스에 로그인하는 즉시 Adobe Campaign Standard와 동기화됩니다.
+사용자가 인스턴스에 로그인하는 즉시 Adobe Campaign Standard에 동기화됩니다.
 
-그런 다음 사용자가 Adobe Campaign와 올바르게 동기화되었는지 여부를 확인할 수 있습니다.
+그런 다음 사용자가 Adobe Campaign에 올바르게 동기화되었는지 여부를 확인할 수 있습니다.
 
 1. From the advanced menu **[!UICONTROL Administration > Users & Security > Users]** select your previously created user.
 
@@ -149,3 +149,5 @@ Functional administrators are the only users who can access the **[!UICONTROL Ad
 1. **[!UICONTROL Authorized connection zone]** 이 필드에서 사용자가 이 인스턴스에 연결하는 방법 (예: 내부 네트워크 또는 VPN) 를 선택합니다.
 
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+
+이제 사용자가 Adobe Campaign Standard를 사용할 수 있습니다.
