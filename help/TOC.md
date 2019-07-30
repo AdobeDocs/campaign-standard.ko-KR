@@ -3,7 +3,7 @@ product: Adobe Campaign Standard
 audience: 최종 사용자
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
+source-git-commit: 80d2d8a9a946d051b21c3d78bddc1b2bfa5fc1f5
 
 ---
 
@@ -240,6 +240,7 @@ source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
       + [워크플로우 데이터 사용](automating/using/using-workflow-data.md)
       + [워크플로우 실행](automating/using/executing-a-workflow.md)
       + [외부 매개 변수를 사용하여 워크플로우 호출](automating/using/calling-a-workflow-with-external-parameters.md)
+      + [워크플로우 우수 사례](automating/using/best-practices-workflows.md)
    + Targeting activities {#targeting-activities}
       + [타깃팅 활동 정보](automating/using/about-targeting-activities.md)
       + [쿼리](automating/using/query.md)
