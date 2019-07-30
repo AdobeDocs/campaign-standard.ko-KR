@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
+source-git-commit: 8c1e17942d03250bbe863b2b57a0c810eaec6fa3
 
 ---
 
@@ -41,7 +41,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>더 심층적인 개인화를 위해 외부 API 활동을 통해 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O 런타임 또는 Adobe Experience Cloud REST 엔드포인트 (예: 데이터 플랫폼, Target, Analytics, Campaign) 일 수 있습니다.</p><p>현재 이 기능은 공개 베타 버전입니다.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
+   <td> <p>더 심층적인 개인화를 위해 외부 API 활동을 통해 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O 런타임 또는 Adobe Experience Cloud REST 엔드포인트 (예: 데이터 플랫폼, Target, Analytics, Campaign) 일 수 있습니다.</p><p>현재 이 기능은 공개 베타 버전입니다.</p><p>For more information, refer to the <a href="../../automating/using/external-api.html">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
