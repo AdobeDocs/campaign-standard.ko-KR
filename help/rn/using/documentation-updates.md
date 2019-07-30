@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
 
 ---
 
@@ -27,9 +27,13 @@ Adobe Campaign Standard 설명서에 대한 모든 최신 업데이트에 대해
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
-## Release 19.3 - July 30 {#release-19-3---july-2019}
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+
+Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
@@ -37,7 +41,27 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 워크플로우의 외부 신호 활동에서 선언한 이벤트 변수를 사용하여 배달 레이블을 개인화하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../../developing/using/uc-calling-resource-id-key.md)
 
-## July 2019 {#release-july-2019}
+Adobe Campaign Standard에서 사용자를 만드는 방법을 설명하는 새로운 섹션이 추가되었습니다. [자세히 보기](../../administration/using/users-management.md)
+
+다이내믹 보고를 위해 문제 해결 기능이 추가되었습니다. [자세히 보기](../../reporting/using/troubleshooting.md)
+
+다양한 인앱 템플릿이 개인 정보를 처리하는 방식을 설명하는 다이어그램이 추가되었습니다. [자세히 보기](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
+이메일 디자이너의 조각으로 이메일 컨텐츠를 저장하는 방법에 대한 섹션이 업데이트되었습니다. [자세히 보기](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+
+추가 공백이 이메일 컨텐츠의 레이아웃에 미치는 영향에 대해 경고가 추가되었습니다. [자세히 보기](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+
+이메일 디자이너의 권장 업데이트에 대한 새 섹션이 추가되었습니다. [자세히 보기](../../designing/using/about-email-content-design.md#email-designer-updates)
+
+실제 고객 데이터를 사용하여 증거 자료를 전송하는 방법에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+
+워크플로우 우수 사례에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../../automating/using/best-practices-workflows.md)
+
+Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트되었습니다. [자세히 보기](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+사용자 지정 리소스 문서에 경고가 추가되었습니다. 사용자 정의 리소스 ID 에는 최대 30 자 이상을 사용하는 것이 좋습니다. 이것은 사용자 지정 리소스 필드, 키, 색인 및 링크에도 적용됩니다. [자세히 보기](../../developing/using/creating-or-extending-the-resource.md)
+
+## Documentation updates - July 2019 {#doc-updates-2019}
 
 랜딩 페이지에 새 페이지가 추가되었습니다. [자세히 보기](../../channels/using/landing-page-limitations.md)
 
@@ -45,7 +69,9 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 매개 변수를 사용하여 워크플로우를 호출할 때 집계 기간 없이 반복되는 배달 사용에 대해 권장 사항이 추가되었습니다. [자세히 보기](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-이메일 디자이너의 조각으로 이메일 컨텐츠를 저장하는 방법에 대한 섹션이 업데이트되었습니다. [자세히 보기](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트되었습니다. [자세히 보기](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+사용자 지정 리소스 문서에 경고가 추가되었습니다. 사용자 정의 리소스 ID 에는 최대 30 자 이상을 사용하는 것이 좋습니다. 이것은 사용자 지정 리소스 필드, 키, 색인 및 링크에도 적용됩니다. [자세히 보기](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
@@ -170,8 +196,6 @@ Added information on the new option in the Query ( [Read more](../../automating/
 업로드할 데이터에 대한 최대 일괄 처리 크기를 정의할 수 있는 새로운 일괄 크기 필드에서 데이터 업데이트 업데이트 섹션에 정보가 추가되었습니다. [자세히 보기](../../automating/using/update-data.md#configuration)
 
 아웃바운드 전환이 비어 있는 경우 파일 생성 프로세스를 비활성화할 수 있는 새 옵션의 파일 추출 추출 섹션에 정보가 추가되었습니다. [자세히 보기](../../automating/using/extract-file.md#configuration)
-
-Profiles &amp; Services Ext API를 업데이트하는 방법에 대한 새로운 technote가 추가되었습니다. [자세히 보기](https://helpx.adobe.com/campaign/kb/profile-service-api-update.html)
 
 ## Release 19.0 - January 2019 {#release-19-0---january-2019}
 
