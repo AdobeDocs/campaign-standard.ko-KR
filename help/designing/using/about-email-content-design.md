@@ -14,7 +14,7 @@ discoiquuid: 39 B 86 FDA -7766-4 E 5 F-AB 48-BCC 536 AB 66 B 3
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
+source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
 
 ---
 
@@ -128,6 +128,26 @@ For more on converting an existing email into an Email Designer-compatible email
 * 이메일 디자이너 내에서 편집하는 이메일의 일부 컨텐츠로 직접 저장할 수는 없습니다. 해당 컨텐츠에 해당하는 HTML를 새 조각에 복사하여 붙여 넣어야 합니다. For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * 스타일을 편집할 때 대부분의 이메일 클라이언트에서 공식적으로 지원되는 웹 글꼴만 사용할 수 있습니다.
 * 스타일은 나중에 재사용하기 위해 테마로 저장할 수 없습니다. 그러나 CSS 스타일은 컨텐츠 템플릿이나 이메일에 저장할 수 있습니다. For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+
+### Email Designer updates {#email-designer-updates}
+
+이메일 디자이너가 지속적으로 개선되었습니다. 처음부터 이메일 컨텐츠를 만들거나, 기본 템플릿을 사용하거나, 조각을 만든 경우 다음 번에 컨텐츠를 열 때 다음 업데이트 메시지가 표시될 수 있습니다.
+
+![](assets/email_designer_fragment-patch-message.png)
+
+CSS 충돌 문제와 같은 문제를 방지하려면 컨텐츠를 최신 버전으로 업데이트하는 것이 좋습니다. **[!UICONTROL Update now]**&#x200B;을 클릭합니다.
+
+컨텐츠 업데이트 중에 오류가 발생하면 HTML를 확인하고 이 업데이트를 다시 실행하기 전에 수정합니다.
+
+조각에 대해서는 다음에 유의하십시오.
+
+* 새 이메일 또는 템플릿에 조각을 추가하고 이 메시지가 표시되면 먼저 이 조각을 업데이트해야 합니다.
+
+* 여러 조각이 있는 경우 이메일 컨텐츠에 사용할 각 조각을 업데이트해야 합니다.
+
+* 현재 이메일 메시지가 준비 단계에 있거나 변경을 원하지 않는 특정 캠페인에서 현재 이메일 메시지에 영향을 주지 않도록 하려면 일부 조각을 업데이트하지 않도록 선택할 수 있습니다.
+
+* 아직 업데이트되지 않은 조각이 이미 사용되고 있지만 해당 조각은 편집할 수 없는 이메일을 보낼 수 있습니다.
 
 ## Designing an email content from scratch {#designing-an-email-content-from-scratch}
 
