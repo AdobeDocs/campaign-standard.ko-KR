@@ -14,7 +14,7 @@ discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: b671da944fa3059d3a09bceda7d5142df984593c
+source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
 
 ---
 
@@ -193,6 +193,10 @@ There are two categories of content elements that you can use: **fragments** and
 
 이메일 디자이너로 이메일을 편집할 때 해당 이메일의 일부를 조각으로 직접 저장할 수 있습니다.
 
+>[!CAUTION]
+>
+>개인화 필드, 동적 컨텐츠 또는 다른 조각이 들어 있는 구조로 저장할 수 없습니다.
+
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
    ![](assets/email_designer_save-as-fragment.png)
@@ -215,7 +219,7 @@ There are two categories of content elements that you can use: **fragments** and
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. 새 조각을 사용하려면 다른 이메일 콘텐트를 열고 조각 목록에서 선택합니다.
+1. 새 조각을 사용하려면 이메일 콘텐트를 열고 조각 목록에서 선택합니다.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
