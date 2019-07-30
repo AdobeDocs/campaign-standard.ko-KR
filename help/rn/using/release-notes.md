@@ -14,7 +14,7 @@ discoiquuid: 5 c 7 bfb 74-4002-4 ffe -87 e 8-bddb 41 d 34 b 41
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
+source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
 
 ---
 
@@ -41,11 +41,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>더 심층적인 개인화를 위해 외부 API 활동을 통해 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O 런타임 또는 Adobe Experience Cloud REST 엔드포인트 (예: 데이터 플랫폼, Target, Analytics, Campaign) 일 수 있습니다.</p><p>현재 이 기능은 공개 베타 버전입니다.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+   <td> <p>더 심층적인 개인화를 위해 외부 API 활동을 통해 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O 런타임 또는 Adobe Experience Cloud REST 엔드포인트 (예: 데이터 플랫폼, Target, Analytics, Campaign) 일 수 있습니다.</p><p>현재 이 기능은 공개 베타 버전입니다.</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>이 기능을 사용하면 마케터는 세그먼트 코드별로 배달 성과를 분류할 수 있습니다. 워크플로우를 만들고 세그멘테이션 활동을 사용하여 세그먼트를 배달 모집단에 할당할 때, 이러한 세그먼트는 이제 동일한 배달으로 이동할 수 있습니다. 이렇게 하면 단일 배달 내의 여러 세그먼트를 기반으로 한 클릭/클릭 통계를 표시할 수 있습니다.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>이 기능을 사용하면 마케터는 세그먼트 코드별로 배달 성과를 분류할 수 있습니다. 워크플로우를 만들고 세그멘테이션 활동을 사용하여 세그먼트를 배달 모집단에 할당할 때, 이러한 세그먼트는 이제 동일한 배달으로 이동할 수 있습니다. 이렇게 하면 단일 배달 내의 여러 세그먼트를 기반으로 한 클릭/클릭 통계를 표시할 수 있습니다.</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +70,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 동적 컨텐츠에서 보다 큼 심볼을 사용할 때 HTML 출력을 끊는 문제를 해결했습니다. (CAMP -33688)
 * 이메일 디자이너에서 텍스트를 편집할 때 실행 취소 옵션을 사용하는 문제가 수정되었습니다. (CAMP -32565)
 * 스타일을 제거하지 않고 스타일을 취소할 때 추가 태그를 만든 문제를 수정했습니다. (CAMP -32359)
-* 이제 이메일에 사용된 각 이미지가 데스크탑 디바이스에서만 표시되거나 모바일 디바이스에서만 표시되는지를 정의할 수 있습니다.
+* 이제 이메일에 사용된 각 구성 요소가 데스크톱 장치 또는 모바일 장치에서만 표시되는지를 정의할 수 있습니다.
 * 이제 소셜 컨텐츠 구성 요소의 너비와 높이를 설정할 수 있습니다.
 * 동적 컨텐츠 이전 소스 코드가 해당 동적 컨텐츠를 삭제한 후 제거되지 않는 문제를 해결했습니다.
 * 이메일이 수정된 후 업데이트되지 않는 문제를 해결했습니다.
@@ -91,6 +91,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 이제 워크플로우의 외부 신호 활동에서 선언한 이벤트 변수를 사용하여 배달 레이블을 개인화할 수 있습니다. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * GDPR 삭제 쿼리는 향상된 성능을 위해 향상되었습니다. (CAMP -33504)
 * «FTP» 옵션이 외부 계정 구성 인터페이스에서 제거되었습니다. (CAMP -34472)
+* 이제 각 이메일 메시지에 대해 SMTP 테스트 모드 옵션을 활성화하고 비활성화할 수 있습니다. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP -34602)
 
 ### Other changes {#other-changes-2}
 
@@ -123,7 +124,6 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 가입 시 확인란 필드를 구성할 때 발생할 수 있는 랜딩 페이지의 문제를 수정했습니다. (CAMP -34369)
 * 목록을 구성하고 "아이콘" 필드를 추가할 때 발생하던 문제를 수정했습니다. (CAMP -34585)
 * "|" and " %" 기호를 로드 파일 워크플로우 활동의 날짜 또는 시간 구분 기호로 사용합니다. (CAMP -34706)
-* 활동을 추가하고 워크플로우를 저장한 다음 브라우저의 "뒤로" 단추를 누를 때 워크플로우에서 발생하던 문제를 수정했습니다. 새로 추가된 활동이 작업 공간에서 제거되었습니다. (CAMP -34788)
 * 랜딩 페이지에서 확인란과 함께 가시성 조건을 사용할 때 발생하던 문제를 수정했습니다. (CAMP -34802)
 * 필터링 차원이 추적 로그로 설정되고 타겟 차원이 프로필로 설정되어 있는 경우, "추가 데이터" 탭에 필드가 표시되지 않는 강화 활동의 문제를 수정했습니다.
 * " Workflowtemplate "리소스를 내보낼 때 오류 메시지가 표시되는 문제를 해결했습니다.
