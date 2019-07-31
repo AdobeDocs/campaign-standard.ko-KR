@@ -15,7 +15,7 @@ context-tags: workflow, main; 워크플로우, 개요
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
 
 워크플로우 편집 화면은 다음 요소로 구성됩니다.
 
-* The [Palette](../../automating/using/workflow-interface.md#palette), which references the available activities
-* The [Workspace](../../automating/using/workflow-interface.md#workspace), in which the activities are configured and organized
+* [사용](../../automating/using/workflow-interface.md#palette)가능한 활동을 참조하는 팔레트입니다.
+* The [Workspace](../../automating/using/workflow-interface.md#workspace), in which the activities are configured and organized.
 * [작업 막대](../../automating/using/workflow-interface.md#action-bar)- 워크플로우 및/또는 해당 구성 요소와 상호 작용할 수 있는 단추로 구성됩니다.
 * The [Quick actions](../../automating/using/workflow-interface.md#quick-actions), which appear around a selected activity, allow you to interact with it.
 
