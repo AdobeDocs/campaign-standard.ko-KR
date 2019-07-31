@@ -14,7 +14,7 @@ discoiquuid: 39 B 86 FDA -7766-4 E 5 F-AB 48-BCC 536 AB 66 B 3
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
+source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
 
 ---
 
@@ -133,7 +133,7 @@ For more on converting an existing email into an Email Designer-compatible email
 
 이메일 디자이너가 지속적으로 개선되었습니다. 처음부터 이메일 컨텐츠를 만들거나, 기본 템플릿을 사용하거나, 조각을 만든 경우 다음 번에 컨텐츠를 열 때 다음 업데이트 메시지가 표시될 수 있습니다.
 
-![](assets/email_designer_fragment-patch-message.png)
+![](assets/email_designer_fragment_patch_message.png)
 
 CSS 충돌 문제와 같은 문제를 방지하려면 컨텐츠를 최신 버전으로 업데이트하는 것이 좋습니다. **[!UICONTROL Update now]**&#x200B;을 클릭합니다.
 
@@ -181,7 +181,7 @@ You can also check out this [introduction video](https://video.tv.adobe.com/v/22
 
 이 섹션에서는 기존 이메일을 이메일 디자이너 호환 이메일로 변환하는 방법을 설명합니다.
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in ' [compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
 
 그러나 여러 이메일에서 재사용하기 위해 결합할 수 있는 모듈형 템플릿과 조각 프레임워크를 구축하려는 경우 이메일 HTML를 이메일 디자이너 템플릿으로 변환하는 것을 고려해야 합니다.
 
