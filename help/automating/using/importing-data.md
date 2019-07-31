@@ -14,7 +14,7 @@ discoiquuid: 75 b 83165-DCBD -4 BB 7-B 703-ED 769 F 489 B 16
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -166,7 +166,7 @@ Adobe Campaign 데이터베이스의 데이터 일관성을 유지하려면 아�
 
       >[!NOTE]
       >
-      >이러한 프로필에 직접 메일을 전송할 계획이라면 우편 주소가 DM 공급자에게 반드시 있어야 하므로 우편 주소를 포함해야 합니다. Also make sure that the **[!UICONTROL Address specified]** box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the **[postalAddress/@addrDefined]** field as **[!UICONTROL Destination]**. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
+      >이러한 프로필에 직접 메일을 전송할 계획이라면 우편 주소가 DM 공급자에게 반드시 있어야 하므로 우편 주소를 포함해야 합니다. Also make sure that the **[!UICONTROL Address specified]** box in your profiles' information is checked. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the **postalAddress/@addrDefined** field as **[!UICONTROL Destination]**. For more on direct mail and the use of the **[!UICONTROL Address specified]** option, see [this document](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
 
