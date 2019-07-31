@@ -12,7 +12,7 @@ context-tags: Externalapi, Workflow, Main
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -197,7 +197,7 @@ This tab lets you activate the **outbound transition** and its label. This speci
   <tr> 
    <td> WKF -560246 - HTTP 헤더 키가 잘못되었습니다 (헤더 키: ' % s ').</td> 
    <td> <p>HTTP 헤더 키가 잘못되었습니다 (헤더 키: ' % s ').</p>
-   <p> 참고: 이 오류는 [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)에 따라 사용자 정의 헤더 키가 유효성 검사에 실패할 때 기록됩니다.</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
    <td> WKF -560248 - HTTP 헤더 키가 허용되지 않음 (헤더 키: ' % s ').</td> 
@@ -206,7 +206,7 @@ This tab lets you activate the **outbound transition** and its label. This speci
   <tr> 
    <td> WKF -560247 - AHTTP 헤더 값이 잘못되었습니다 (헤더 값: ' % s ').</td> 
    <td> <p>HTTP 헤더 값이 잘못되었습니다 (헤더 값: ' % s '). </p>
-    <p>참고: 이 오류는 [RFC] (https://tools.ietf.org/html/rfc7230#section-3.2.html)에 따라 사용자 정의 헤더 값이 유효성 검사에 실패할 때 기록됩니다.</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF -560240 - JSON 페이로드에 잘못된 속성 ' % s'이 (가) 있습니다.</td> 
