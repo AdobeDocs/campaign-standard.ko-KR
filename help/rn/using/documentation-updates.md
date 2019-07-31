@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign Standard에서 사용자를 만드는 방법을 설명하는 새�
 
 이메일 디자이너의 권장 업데이트에 대한 새 섹션이 추가되었습니다. [자세히 보기](../../designing/using/about-email-content-design.md#email-designer-updates)
 
-실제 고객 데이터를 사용하여 증거 자료를 전송하는 방법에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+<!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
 워크플로우 우수 사례에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../../automating/using/best-practices-workflows.md)
 
