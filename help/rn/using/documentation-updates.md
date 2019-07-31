@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
+source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
 
 ---
 
@@ -37,11 +37,17 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
-Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. 이 보고서는 배달이 집계된 기간에 따라 준비되고 하루에 여러 번 워크플로우에 전화를 걸려는 경우 기간이 없도록 해야 합니다.
+이제 Campaign Standard 구현 안내서가 라이브되었습니다.[자세히 보기](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-워크플로우의 외부 신호 활동에서 선언한 이벤트 변수를 사용하여 배달 레이블을 개인화하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../../developing/using/uc-calling-resource-id-key.md)
+Microsoft Dynamics 365 커넥터 구현 및 사용에 대해 새 도움말 집필 세트가 만들어졌습니다. 이 기능은 현재 제한적으로 제공되고 있습니다.[자세히 보기](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+
+워크플로우의 외부 신호 활동에서 선언한 이벤트 변수를 사용하여 배달 레이블을 개인화하는 방법에 대한 정보가 추가되었습니다. [자세히 보기](../../automating/using/external-signal.md)
 
 Adobe Campaign Standard에서 사용자를 만드는 방법을 설명하는 새로운 섹션이 추가되었습니다. [자세히 보기](../../administration/using/users-management.md)
+
+제품 문서 및 자습서 비디오에 대한 링크를 포함하여 마케팅 캠페인을 단순화하기 위한 팁과 함께 새 아티클이 제공됩니다.[자세히 보기](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
 다이내믹 보고를 위해 문제 해결 기능이 추가되었습니다. [자세히 보기](../../reporting/using/troubleshooting.md)
 
