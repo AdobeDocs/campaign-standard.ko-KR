@@ -14,7 +14,7 @@ discoiquuid: 39 B 86 FDA -7766-4 E 5 F-AB 48-BCC 536 AB 66 B 3
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
+source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
 
 ---
 
@@ -484,7 +484,7 @@ Dreamweaver와 Adobe Campaign Standard 통합을 통해 Dreamweaver 인터페이
 
 * **Dreamweaver에서 캠페인 개인화 추가**
 
-   For the email developer there is no longer a need to add text like [[FIRSTNAME_PLACEHOLDER]] nor to look up the syntax of your data model’s tables. Dreamweaver의 캠페인 도구 모음은 캠페인 인스턴스의 데이터 모델에 직접 연결됩니다. 즉, 개인화를 위해 개인화하려는 데이터를 원하는 이름으로 가져올 수 있습니다. 캠페인 내에 콘텐츠 블록을 만든 경우 Dreamweaver로 직접 가져올 수도 있습니다.
+   For the email developer there is no longer a need to add text like ```[[FIRSTNAME_PLACEHOLDER]]``` nor to look up the syntax of your data model’s tables. Dreamweaver의 캠페인 도구 모음은 캠페인 인스턴스의 데이터 모델에 직접 연결됩니다. 즉, 개인화를 위해 개인화하려는 데이터를 원하는 이름으로 가져올 수 있습니다. 캠페인 내에 콘텐츠 블록을 만든 경우 Dreamweaver로 직접 가져올 수도 있습니다.
 
 This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) is also available.
 
