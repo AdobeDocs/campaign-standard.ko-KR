@@ -14,14 +14,14 @@ discoiquuid: 4337 a 80 b -0 fb 9-4 a 37-bce 3-fe 2121 a 66586
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
 
 ---
 
 
-# Fatigue rules{#fatigue-rules}
+# 피로 규칙{#fatigue-rules}
 
-## About fatigue rules {#about-fatigue-rules}
+## 피로 규칙 정보 {#about-fatigue-rules}
 
 피로 규칙을 통해 마케터는 캠페인에서 요청되지 않은 프로필을 자동으로 제외시키는 글로벌 크로스채널 비즈니스 규칙을 설정할 수 있습니다.
 
@@ -37,15 +37,15 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 * [유형 관리](../../administration/using/about-typology-rules.md#managing-typologies)
 * [유형 규칙 규칙](../../administration/using/about-typology-rules.md#typology-rules)
 
-## Creating a fatigue rule {#creating-a-fatigue-rule}
+## 피로 규칙 만들기 {#creating-a-fatigue-rule}
 
 **[!UICONTROL Fatigue]** 유형 분석을 만들고 구성하려면 다음 단계를 적용합니다.
 
-1. Click the Adobe Campaign logo, in the top left corner of the interface, then select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**.
+1. 인터페이스의 왼쪽 상단에 있는 Adobe Campaign 로고를 클릭한 다음 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**&#x200B;를 선택합니다.
 
    ![](assets/fatigue4.png)
 
-1. From the list of typology rules, click **[!UICONTROL Create]**.
+1. 유형 유형 규칙 목록에서 **[!UICONTROL Create]**&#x200B;를 클릭합니다.
 
    ![](assets/fatigue.png)
 
@@ -53,21 +53,21 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
    ![](assets/fatigue3.png)
 
-1. **[!UICONTROL Channel]** 필드에서 규칙이 적용될 채널을 선택합니다. You can either select a single channel (email, SMS, direct mail, mobile application) or select **[!UICONTROL All channels]**. See [Choosing the channel](../../administration/using/fatigue-rules.md#choosing-the-channel).
+1. **[!UICONTROL Channel]** 필드에서 규칙이 적용될 채널을 선택합니다. 단일 채널 (이메일, SMS, DM, 모바일 애플리케이션) 를 선택하거나 **[!UICONTROL All channels]**&#x200B;선택할 수 있습니다. 채널 [선택을](../../administration/using/fatigue-rules.md#choosing-the-channel)참조하십시오.
 
    ![](assets/fatigue5.png)
 
-1. **[!UICONTROL General]** 탭에서 프로필당 최대 메시지 수를 계산하는 방법을 정의합니다. 상수 임계값 또는 변수를 선택할 수 있습니다. 프로필 및 게시에 대한 임계값을 조정할 수도 있습니다. For more on this, refer to [Defining the threshold](../../administration/using/fatigue-rules.md#defining-the-threshold).
+1. **[!UICONTROL General]** 탭에서 프로필당 최대 메시지 수를 계산하는 방법을 정의합니다. 상수 임계값 또는 변수를 선택할 수 있습니다. 프로필 및 게시에 대한 임계값을 조정할 수도 있습니다. 이에 대한 자세한 내용은 임계값 [정의를](../../administration/using/fatigue-rules.md#defining-the-threshold)참조하십시오.
 
    ![](assets/fatigue2.png)
 
-1. Choose a **[!UICONTROL Sliding period]** on which the typology rule will apply. For more on this, refer to [Setting the sliding period](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
+1. 유형 유형 규칙이 적용될 A **[!UICONTROL Sliding period]** 를 선택합니다. 이에 대한 자세한 내용은 슬라이딩 기간 [설정을](../../administration/using/fatigue-rules.md#setting-the-sliding-period)참조하십시오.
 
    ![](assets/fatigue6.png)
 
    이 예에서는 (이전 스크린샷 참조), 15 일의 슬라이딩 기간 동안 최대 4 개의 메시지를 보내도록 선택합니다.
 
-1. **[!UICONTROL Application criteria]** 탭에서 모든 제공에 이 규칙을 적용하도록 선택하거나 보낼 메시지에 따라 규칙의 적용 가능성을 제한할 수 있습니다. 이 규칙은 애플리케이션 조건이 충족되는 경우에만 실행됩니다. 예를 들어 지정된 단어부터 시작하거나 특정 문자가 포함된 ID가 포함된 메시지에만 규칙을 적용할 수 있습니다. See [Restricting the applicability of a filtering rule](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
+1. **[!UICONTROL Application criteria]** 탭에서 모든 제공에 이 규칙을 적용하도록 선택하거나 보낼 메시지에 따라 규칙의 적용 가능성을 제한할 수 있습니다. 이 규칙은 애플리케이션 조건이 충족되는 경우에만 실행됩니다. 예를 들어 지정된 단어부터 시작하거나 특정 문자가 포함된 ID가 포함된 메시지에만 규칙을 적용할 수 있습니다. 필터링 규칙의 적용 가능성 [제한을 참조하십시오](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
 
    ![](assets/fatigue20.png)
 
@@ -79,7 +79,7 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
    >
    >유형화는 배달 템플릿에 정의하여 이 템플릿을 사용하여 만든 모든 게시에 자동으로 적용할 수 있습니다.
 
-배달 준비 중에, 프로필은 이미 전송된 배달의 수에 따라 해당하는 경우 배달에서 제외됩니다. 배달 로그에서 피로 규칙 실행 결과를 볼 수 있습니다. See [Viewing the fatigue results](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results).
+배달 준비 중에, 프로필은 이미 전송된 배달의 수에 따라 해당하는 경우 배달에서 제외됩니다. 배달 로그에서 피로 규칙 실행 결과를 볼 수 있습니다. 피로 결과 [보기를 참조하십시오](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results).
 
 ![](assets/fatigue16.png)
 
@@ -87,9 +87,9 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 >
 >피로도 규칙이 작동하려면 배달에 대한 연락처 날짜를 정의해야 합니다. 메시지를 즉시 보내도록 선택하면 피로 규칙이 적용되지 않습니다.
 
-## Choosing the channel {#choosing-the-channel}
+## 채널 선택 {#choosing-the-channel}
 
-피로 규칙은 다양한 채널에 사용할 수 있습니다. The channel is defined in the **[!UICONTROL Channel]** field of the typology rule settings. You can either select a single channel or select **[!UICONTROL All channels]**.
+피로 규칙은 다양한 채널에 사용할 수 있습니다. 채널은 유형 규칙 규칙 설정의 **[!UICONTROL Channel]** 필드에 정의됩니다. 단일 채널을 선택하거나 **[!UICONTROL All channels]**&#x200B;선택할 수 있습니다.
 
 ![](assets/fatigue5.png)
 
@@ -112,9 +112,9 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 피로 규칙은 모든 배달 유형과 호환됩니다. 한 번의 샷 전달, 반복되는 전달, 워크플로우 전달 및 트랜잭션 메시지.
 
-**트랜잭션 메시지는** 리마케팅 메시지와 같은 마케팅 메시지 (타깃팅 프로필) 는 물론 이벤트 (Rtevent) 를 타깃팅하는 서비스 메시지를 전송하는 데 사용할 수 있습니다. 피로 규칙은 마케팅 메시지만 (타깃팅 프로필) 와 호환됩니다. 이벤트 트랜잭션 메시지에는 프로필 정보가 포함되어 있지 않으므로, 프로필이 있는 취약점의 경우에도, 피로도 규칙과 호환되지 않습니다. With the support of marketing messages in transactional messaging, you can **apply a fatigue rule to all channels including marketing transactional messages**.
+**트랜잭션 메시지는** 리마케팅 메시지와 같은 마케팅 메시지 (타깃팅 프로필) 는 물론 이벤트 (Rtevent) 를 타깃팅하는 서비스 메시지를 전송하는 데 사용할 수 있습니다. 피로 규칙은 마케팅 메시지만 (타깃팅 프로필) 와 호환됩니다. 이벤트 트랜잭션 메시지에는 프로필 정보가 포함되어 있지 않으므로, 프로필이 있는 취약점의 경우에도, 피로도 규칙과 호환되지 않습니다. 트랜잭션 메시징에서 마케팅 메시지를 지원하므로 마케팅 거래 메시지를 포함한 모든 채널에 피로 규칙을 **적용할**&#x200B;수 있습니다.
 
-## Defining the threshold {#defining-the-threshold}
+## 임계값 정의 {#defining-the-threshold}
 
 각 피로 규칙은 임계값을 정의합니다. 즉, 지정된 기간 동안 하나의 프로필로 전송할 수 있는 최대 메시지 수를 정의합니다. 이 임계값에 도달하면, 고려된 기간이 끝날 때까지 더 이상 배달을 수행할 수 없습니다. 이 프로세스를 사용하면 메시지가 설정된 임계값을 초과하는 경우 배달에서 프로파일을 자동으로 제외하여 과도하게 요청되지 않아도 됩니다.
 
@@ -130,48 +130,48 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 **변수 임계값 사용**
 
-To define a variable threshold, select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Threshold type]** field.
+변수 임계값을 정의하려면 필드에서 값을 **[!UICONTROL Depends on the recipient]****[!UICONTROL Threshold type]** 선택합니다.
 
 ![](assets/fatigue15.png)
 
 다음 두 가지 옵션이 있습니다.
 
-* 프로필 필드를 선택합니다. 임계값은 선택한 필드에 따라 각 프로필에 따라 다릅니다. For example, if you have extended the profiles resource with a 'Communication frequency' field, click the button on the right of the **[!UICONTROL Threshold computation formula]** field and select your field. 각 프로필에 대해 임계값은'통신 빈도'필드의 값을 가져옵니다.
+* 프로필 필드를 선택합니다. 임계값은 선택한 필드에 따라 각 프로필에 따라 다릅니다. 예를 들어,' 통신 빈도'필드로 프로필 리소스를 확장한 경우 **[!UICONTROL Threshold computation formula]** 필드 오른쪽의 단추를 클릭하고 필드를 선택합니다. 각 프로필에 대해 임계값은'통신 빈도'필드의 값을 가져옵니다.
 
    ![](assets/fatigue21.png)
 
-* define a formula: click the second button on the right of the **[!UICONTROL Threshold computation formula]** field to define an advanced threshold calculation formula. 예를 들어 프로필이 속한 세그먼트에 따라 승인 메시지의 수를 인덱싱할 수 있습니다. 즉,' 웹'세그먼트에 속하는 프로필은 다른 프로필보다 더 많은 메시지를 받을 수 있음을 의미합니다. **[!UICONTROL Iif (@origin='Web', 5, 3)]** 유형 공식은 5 개의 메시지를 웹 세그먼트의 프로필로 전달하고 다른 세그먼트에 대해 3 개의 메시지를 전달합니다.
+* 공식을 정의합니다. **[!UICONTROL Threshold computation formula]** 필드 오른쪽의 두 번째 단추를 클릭하여 고급 임계값 계산 공식을 정의합니다. 예를 들어 프로필이 속한 세그먼트에 따라 승인 메시지의 수를 인덱싱할 수 있습니다. 즉,' 웹'세그먼트에 속하는 프로필은 다른 프로필보다 더 많은 메시지를 받을 수 있음을 의미합니다. **[!UICONTROL Iif (@origin='Web', 5, 3)]** 유형 공식은 5 개의 메시지를 웹 세그먼트의 프로필로 전달하고 다른 세그먼트에 대해 3 개의 메시지를 전달합니다.
 
    ![](assets/fatigue14.png)
 
 **프로필 및 전달 기준 개선**
 
-기본적으로 모든 메시지는 임계값 계산에 고려됩니다. Check the **[!UICONTROL Refine Threshold on profiles and deliveries]** box to filter the profiles and deliveries to count when preparing the delivery.
+기본적으로 모든 메시지는 임계값 계산에 고려됩니다. 배달을 준비할 때 카운트하도록 프로필 및 배달을 필터링하려면 **[!UICONTROL Refine Threshold on profiles and deliveries]** 상자를 선택합니다.
 
-In the following example, only male profiles are counted and only deliveries with a label starting with **Newsletters** are counted.
+다음 예에서는 남성 프로파일만 계산되며 **뉴스레터로** 시작하는 레이블이 있는 전달만 계산됩니다.
 
 ![](assets/fatigue13.png)
 
-Refining the threshold on deliveries is different than restricting the applicability of the entire rule ( **[!UICONTROL Application criteria]** tab):
+납품의 임계값을 조정하는 것은 전체 규칙 ( **[!UICONTROL Application criteria]** 탭) 의 적용 가능성을 제한하는 것과 다릅니다.
 
 * **[!UICONTROL Application criteria]**: 특정 기준에 따라 규칙을 실행하도록 선택할 수 있습니다. 예를 들어 응용 프로그램 조건이'Newsletter로 시작'인 경우 규칙은 이러한 조건을 준수하는 배달물에만 적용됩니다. 배달 레이블이'홍보'로 시작하는 경우 규칙이 전혀 실행되지 않습니다.
 * **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: 이 유형 규칙을 사용한 모든 배달은 규칙을 실행하지만, 과거 및 예약된 배달을 계산하려는 배달 중에 결정합니다. 예를 들어 제한이'뉴스레터로 시작'인 경우 배달 레이블이'판촉 행사'로 시작되는 경우에도 규칙이 실행됩니다. 선택한 슬라이딩 기간 동안 레이블이'뉴스레터'로 시작하는 배달의 수를 계산합니다.
 
-## Setting the sliding period {#setting-the-sliding-period}
+## 슬라이딩 기간 설정 {#setting-the-sliding-period}
 
-피로 규칙은 N 일 순환 기간에 정의됩니다. The period is configured in the **[!UICONTROL Sliding period]** section, for example 2 weeks, 7 days or 5 hours.
+피로 규칙은 N 일 순환 기간에 정의됩니다. 기간은 **[!UICONTROL Sliding period]** 섹션에 구성됩니다 (예: 2 주, 7 일 또는 5 시간).
 
 ![](assets/fatigue6.png)
 
 규칙이 실행되면 이전 배달과 예약된 배달이 모두 고려됩니다. 이렇게 하면 지정된 슬라이딩 기간 동안 임계값을 초과하지 않습니다.
 
-For example, if you define a 48-hour period, the system will be looking 48 hours **before the contact date ** and 48 hours **after the contact date**. 따라서 선택한 기간은 두 배로 증가하여 이전 배달과 이전 배달의 통합을 가능하게 합니다.
+예를 들어, 48 시간 기간을 정의하는 경우 시스템은 연락처 날짜 48 시간 **전이나 연락처** 날짜 48 시간 **후에 보게**&#x200B;됩니다. 따라서 선택한 기간은 두 배로 증가하여 이전 배달과 이전 배달의 통합을 가능하게 합니다.
 
-To restrict the deliveries taken into account to a 2-week period, enter **Day** and **7** or 1 week in the **Sliding period** section. 배달일로부터 7 일까지 보내지고 규칙이 적용되는 배달 날짜 이후 7 일까지 예약된 배달은 계산에 고려된다.
+2 주 기간으로 전달되는 배달을 제한하려면 [슬라이딩 기간] 섹션에 **하루** , **7** 또는 **1 주를** 입력합니다. 배달일로부터 7 일까지 보내지고 규칙이 적용되는 배달 날짜 이후 7 일까지 예약된 배달은 계산에 고려된다.
 
-## Viewing the fatigue results {#viewing-the-fatigue-results}
+## 피로 결과 보기 {#viewing-the-fatigue-results}
 
-배달 준비 중에, 프로필은 이미 전송된 배달의 수에 따라 해당하는 경우 배달에서 제외됩니다. To view fatigue rule execution results, click the button in the bottom right corner of the **[!UICONTROL Deployment]** block.
+배달 준비 중에, 프로필은 이미 전송된 배달의 수에 따라 해당하는 경우 배달에서 제외됩니다. 피로 규칙 실행 결과를 보려면 **[!UICONTROL Deployment]** 블록의 오른쪽 하단에 있는 단추를 클릭합니다.
 
 ![](assets/fatigue22.png)
 
@@ -189,7 +189,7 @@ To restrict the deliveries taken into account to a 2-week period, enter **Day** 
 
    ![](assets/fatigue19.png)
 
-## Viewing the fatigue rule summary report {#viewing-the-fatigue-rule-summary-report}
+## 피로 규칙 요약 보고서 보기 {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaign는 캠페인의 적용 방법을 이해하는 데 도움이 되는 피로 규칙에 대한 전용 보고서를 제공합니다. 이를 통해 캠페인이 서로에게 미치는 영향을 파악하고 적절한 조정을 할 수 있습니다.
 
@@ -218,11 +218,11 @@ Adobe Campaign는 캠페인의 적용 방법을 이해하는 데 도움이 되�
 >
 >표시되는 데이터는 보고서에 액세스하는 프로그램, 메시지 또는 캠페인에는 컨텍스트가 없습니다. 이 보고서에는 모든 조직 단위에 대한 모든 피로 규칙 및 배달이 표시됩니다. 이렇게 하면 캠페인이 다른 사람들의 영향을 받는 방법을 이해하기 위해 모든 게재의 전체 보기를 얻을 수 있습니다.
 
-## Examples {#examples}
+## examples {#examples}
 
 피로 관리 구현에는 여러 가지 가능성이 있습니다. 다음은 수행할 수 있는 작업의 예입니다.
 
-* Create a fatigue rule using a **constant threshold** that applies to **all channels**:
+* 모든 채널에 적용되는 **상수 임계값을** 사용하여 피로 규칙을 **만듭니다**.
 
    7 일의 슬라이딩 기간 동안 상수 임계값 3 이 있는 멀티채널 규칙을 만든다고 가정합니다.
 
@@ -230,7 +230,7 @@ Adobe Campaign는 캠페인의 적용 방법을 이해하는 데 도움이 되�
 
    ![](assets/fatigue23.png)
 
-* Create a fatigue rule using a **variable threshold** based on a **profile field**:
+* 프로필 필드를 기반으로 **변수 임계값을** 사용하여 피로 **규칙을 만듭니다**.
 
    ' Communication Limit'필드로 프로필 리소스를 확장하여 각 프로필에 대해 다른 임계값을 정의했습니다. 피로 규칙에서 이 필드를 기반으로 변수 임계값을 정의하고 슬라이딩 기간을 2 일로 선택합니다. 프로필의 예를 살펴보겠습니다. John의 커뮤니케이션 제한은 1 이고 David의 한계값은 2 입니다. 모두 어제 뉴스레터 이메일을 받았습니다. 지금 다른 이메일을 보내 주십시오. John 이 Target에서 제외되었기 때문에 David 만이 이를 받게 됩니다.
 
@@ -238,7 +238,7 @@ Adobe Campaign는 캠페인의 적용 방법을 이해하는 데 도움이 되�
 
 * **임계값 계산 공식을 사용하여 피로 규칙을 만듭니다**.
 
-   프로필 연령에 따라 임계값을 변경하려고 합니다. 프로필이 40 미만이면 제한 4와 이전 프로필에 대한 제한 2를 정의합니다. 확장 필드가 있는 각 프로필에 대해 이 임계값을 정의하는 대신, 피로도 규칙에 공식을 직접 만들어 프로필 연령에 따른 임계값을 계산할 수 있습니다. In our example, the formula would be **[!UICONTROL Iif (@age<40, 4, 2)]**.
+   프로필 연령에 따라 임계값을 변경하려고 합니다. 프로필이 40 미만이면 제한 4와 이전 프로필에 대한 제한 2를 정의합니다. 확장 필드가 있는 각 프로필에 대해 이 임계값을 정의하는 대신, 피로도 규칙에 공식을 직접 만들어 프로필 연령에 따른 임계값을 계산할 수 있습니다. 이 예에서는 공식이 **[!UICONTROL Iif (@age<40, 4, 2)]**&#x200B;있을 것입니다.
 
    ![](assets/fatigue25.png)
 
@@ -246,7 +246,7 @@ Adobe Campaign는 캠페인의 적용 방법을 이해하는 데 도움이 되�
    >
    >이 섹션에는 한계값 계산 공식을 사용한 피로 규칙의 단계별 예가 포함되어 있습니다.
 
-* Create a fatigue rule that **refines the threshold** on profiles and deliveries:
+* 프로필 및 배달의 임계값을 **조정하는** 피로 규칙을 만듭니다.
 
    ' 점수'필드를 사용하여 프로필 리소스를 확장했으며'유형'필드로 배달 리소스를 확장했습니다. 상수 임계값 3를 정의하려고 하지만, 유형'alert'또는'black friday'유형의 모든 배달과 점수가 10 이상인 모든 프로필에서 제외하려고 합니다. 규칙이 실행되면 과거 및 예약된 배달 중에 점수가 10 보다 작은 프로필에 전송되는'alert'또는'black friday'유형이 아닌 모든 배달이 계산됩니다.
 
@@ -256,12 +256,12 @@ Adobe Campaign는 캠페인의 적용 방법을 이해하는 데 도움이 되�
 
 이 사례에서는 매주 2 개 이상의 메시지를 프리미엄 프로필로 전달하고 일주일에 2 개의 메시지를 표준 프로필에 전달하지 않도록 유형 지정 규칙을 만듭니다.
 
-To identify customers and prospects, we extended the profiles resource with the **[!UICONTROL Status]** field, which contains 0 for premium profiles and 1 for standard profiles.
+고객 및 잠재 고객을 파악하기 위해 프리미엄 프로필의 경우 0, 표준 프로필의 경우 1 이 포함된 프로필 리소스를 **[!UICONTROL Status]** 필드에 추가했습니다.
 
 규칙을 만들려면 다음 단계를 적용합니다.
 
 1. **새 피로** 유형 유형 유형을 만듭니다.
-1. **[!UICONTROL Threshold]** 섹션에서 각 프로필에 따라 임계값을 계산하는 공식을 만듭니다. Select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Threshold type]** field, then click the icon the second button on the right of the **[!UICONTROL Threshold computation formula]** field.
+1. **[!UICONTROL Threshold]** 섹션에서 각 프로필에 따라 임계값을 계산하는 공식을 만듭니다. 필드에서 **[!UICONTROL Depends on the recipient]** 값을 선택한 **[!UICONTROL Threshold type]** 다음 **[!UICONTROL Threshold computation formula]** 필드 오른쪽의 두 번째 단추 아이콘을 클릭합니다.
 
    ![](assets/fatigue7.png)
 
@@ -269,22 +269,22 @@ To identify customers and prospects, we extended the profiles resource with the 
 
    ![](assets/fatigue8.png)
 
-1. Then select the profile's **Status** in the **[!UICONTROL Available fields]** section.
+1. 그런 다음 섹션에서 프로필 **상태를** **[!UICONTROL Available fields]** 선택합니다.
 
    ![](assets/fatigue9.png)
 
-1. Enter the desired values to create the following formula: **Iif(@status=0,2,4)**
+1. 원하는 값을 입력하여 다음 공식을 만듭니다. **IIF (@ status = 0,2,4)**
 
    ![](assets/fatigue10.png)
 
    이 공식을 사용하면 상태가 0 이면 2를 지정하고 다른 모든 상태에 대해 4를 지정할 수 있습니다.
 
-1. Click **[!UICONTROL Confirm]** to approve the formula.
-1. Indicate the **[!UICONTROL Sliding period]** on which the rule will apply: 7 days in this case, to restrict the deliveries taken into account to a 2-week period.
+1. 공식을 **[!UICONTROL Confirm]** 승인하려면을 클릭합니다.
+1. 규칙이 **[!UICONTROL Sliding period]** 적용되는 대상을 지정합니다. 이 경우 7 일 동안 2 주 기간으로 배달된 배달을 제한합니다.
 
    ![](assets/fatigue11.png)
 
-1. 이제 방금 만든 규칙을 배달에 적용하기 위해 유형 유형에 연결합니다. To do this, select the **[!UICONTROL Typologies]** tab, click **[!UICONTROL Create element]** and select the typology used for your deliveries.
+1. 이제 방금 만든 규칙을 배달에 적용하기 위해 유형 유형에 연결합니다. 이렇게 하려면 **[!UICONTROL Typologies]** 탭을 선택하고 **[!UICONTROL Create element]** 게시에 사용된 유형을 선택합니다.
 
    ![](assets/fatigue12.png)
 
