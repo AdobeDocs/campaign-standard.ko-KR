@@ -14,14 +14,14 @@ discoiquuid: A 9 AFBB 76-D 2 B 3-44 C 7-B 97 A -1694501 AA 913
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 82df97bb1fe4d65f204fc55ebcedd0c47337a8e7
 
 ---
 
 
-# SMS report{#sms-report}
+# SMS 보고서{#sms-report}
 
-** SMS** 보고서는 배달된 비율과 바운스 비율 등 SMS 게시에 대한 세부 정보를 제공합니다.
+**SMS** 보고서는 배달된 비율 및 바운스 비율과 같은 SMS 게시에 대한 세부 정보를 제공합니다.
 
 ![](assets/dynamic_report_sms.png)
 
