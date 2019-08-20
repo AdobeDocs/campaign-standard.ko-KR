@@ -14,76 +14,76 @@ discoiquuid: A 967 C 6 CC-C 53 B -41 B 4-866 B -90860 D 78 F 463
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 60365021e10d3d0e3197f57c6e410af3b8ec0c1d
+source-git-commit: d857bee3e7cb54ec179a73d9c256a14771cbd474
 
 ---
 
 
-# Configuring Campaign-Points of Interest data integration{#configuring-campaign-points-of-interest-data-integration}
+# 캠페인 관심 영역 데이터 통합 구성{#configuring-campaign-points-of-interest-data-integration}
 
-## Configuring Campaign-Points of Interest data integration with Adobe Experience Platform SDKs {#configuring-campaign-poi-aep-sdk}
+## Adobe Experience Platform SDK와 캠페인 관심 영역 데이터 통합 구성 {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
->Adobe Experience Platform SDK를 사용하여 이미 Adobe Campaign Standard에서 모바일 애플리케이션을 구성해야 합니다. For the detailed steps, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+>Adobe Experience Platform SDK를 사용하여 이미 Adobe Campaign Standard에서 모바일 애플리케이션을 구성해야 합니다. 자세한 단계는 이 [페이지를](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)참조하십시오.
 
-The mobile applications used to collect location data must be configured by an **administrator** in the Adobe Campaign interface.
+위치 데이터를 수집하는 데 사용되는 모바일 애플리케이션은 Adobe Campaign 인터페이스에서 **관리자가** 구성해야 합니다.
 
 Adobe Experience Platform SDK로 구성된 모바일 애플리케이션과 함께 Adobe Experience Platform 위치 서비스를 사용하려면 다음을 수행해야 합니다.
 
-1. Add the **[!UICONTROL Places]** and **[!UICONTROL Places Monitor]** extensions to your mobile app configuration in Adobe Experience Platform Launch. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. See [Install the Places extension in Adobe Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) and [Install the Places Monitor extension in Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension).
+1. Adobe Experience Platform Launch에서 모바일 앱 구성에 **[!UICONTROL Places]** 및 **[!UICONTROL Places Monitor]** 익스텐션을 추가할 수 있습니다. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. Adobe Experience Platform에 위치 확장 [설치](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) 및 [Experience Platform Launch에서 장소 모니터 확장 설치를 참조하십시오](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension).
 
-1. Once your extensions are set up, create data elements within **[!UICONTROL Adobe Experience Platform Launch]** to retrieve data from these extensions. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) to create your data elements.
+1. 익스텐션이 설정되면 해당 **[!UICONTROL Adobe Experience Platform Launch]** 익스텐션에서 데이터를 검색할 데이터 요소를 만듭니다. 데이터 요소를 만들려면 이 [페이지를](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 참조하십시오.
 
-1. Then, in **[!UICONTROL Adobe Experience Platform Launch]**, you need to create rules to support mobile use cases between Point of Interests and Adobe Campaign.\
-   This rule will be triggered when a user enters a geo-fenced **[!UICONTROL Point of Interest]**. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) to create your rule.
+1. 그런 다음, 관심 **[!UICONTROL Adobe Experience Platform Launch]**&#x200B;영역 및 Adobe Campaign 간의 모바일 사용 사례를 지원하는 규칙을 만들어야 합니다.\
+   이 규칙은 사용자가 geo-fenced에 들어올 때 **[!UICONTROL Point of Interest]**&#x200B;트리거됩니다. 규칙을 만들려면 이 [페이지를](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) 참조하십시오.
 
-1. **[!UICONTROL Points of Interest]** 어디에서나 사용자 정의 See [Create a Point of Interest](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi).
+1. **[!UICONTROL Points of Interest]** 어디에서나 사용자 정의 관심 영역 [만들기를](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi)참조하십시오.
 
-1. Adobe Campaign에서 모바일 응용 프로그램 및 수집된 위치 데이터에 액세스해야 합니다. See [Accessing mobile apps used to collect location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
+1. Adobe Campaign에서 모바일 응용 프로그램 및 수집된 위치 데이터에 액세스해야 합니다. 위치 [데이터를](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) 수집하고 수집된 위치 데이터에 [액세스하는 데 사용되는 모바일 앱 액세스를 참조하십시오](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
 
-## Configuring Campaign-Points of Interest data integration using SDK V4 {#configuring-campaign-poi-sdkv4}
+## SDK v 4를 사용하여 캠페인 관심 영역 데이터 통합 구성 {#configuring-campaign-poi-sdkv4}
 
-The mobile applications used to collect location data must be configured by an **administrator** in the Adobe Campaign interface.
+위치 데이터를 수집하는 데 사용되는 모바일 애플리케이션은 Adobe Campaign 인터페이스에서 **관리자가** 구성해야 합니다.
 
 SDK v 4로 구성된 모바일 애플리케이션에서 관심 영역 데이터 기능을 사용하려면 다음을 수행해야 합니다.
 
 1. 모바일용 Adobe Analytics에 액세스할 수 있습니다. 자세한 내용은 라이선스 계약을 확인하거나 Adobe 계정 관리자에게 문의하십시오.
-1. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
-1. Adobe Mobile Services 인터페이스에서 모바일 애플리케이션을 설정합니다. 이렇게 하면 Adobe Mobile Services에서 수집한 데이터가 Adobe Campaign로 전송되도록 할 수 있습니다. See [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
+1. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. 캠페인에서 모바일 앱 [설정을 참조하십시오](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
+1. Adobe Mobile Services 인터페이스에서 모바일 애플리케이션을 설정합니다. 이렇게 하면 Adobe Mobile Services에서 수집한 데이터가 Adobe Campaign로 전송되도록 할 수 있습니다. Adobe Mobile Services에서 모바일 앱 [구성을 참조하십시오](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
 1. 모바일 응용 프로그램의 특정 설정을 수행합니다.
 
    * Adobe Mobile Services 인터페이스에서 다운로드한 구성 파일을 모바일 응용 프로그램과 패키지화합니다.
-   * 모바일 애플리케이션에 Experience Cloud Mobile SDK 통합 See [Integrating the SDK into a mobile application](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#integrating-the-sdk-into-a-mobile-application).
+   * 모바일 애플리케이션에 Experience Cloud Mobile SDK 통합 모바일 애플리케이션에 SDK [통합을 참조하십시오](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#integrating-the-sdk-into-a-mobile-application).
 
-1. Adobe Mobile Services 인터페이스에 관심 영역을 정의합니다. See [Defining Points of Interest in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#defining-points-of-interest-in-adobe-mobile-services).
-1. 모바일 애플리케이션 구독자로부터 수집할 데이터를 정의합니다. See [Collecting subscribers' Points of interest data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#collecting-subscribers--points-of-interest-data).
-1. Adobe Campaign에서 모바일 응용 프로그램 및 수집된 위치 데이터에 액세스해야 합니다. See [Accessing mobile apps used to collect location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
+1. Adobe Mobile Services 인터페이스에 관심 영역을 정의합니다. Adobe Mobile Services에서 관심 [영역 정의를 참조하십시오](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#defining-points-of-interest-in-adobe-mobile-services).
+1. 모바일 애플리케이션 구독자로부터 수집할 데이터를 정의합니다. 구독자 관심 영역 데이터 [수집을 참조하십시오](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#collecting-subscribers--points-of-interest-data).
+1. Adobe Campaign에서 모바일 응용 프로그램 및 수집된 위치 데이터에 액세스해야 합니다. 위치 [데이터를](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) 수집하고 수집된 위치 데이터에 [액세스하는 데 사용되는 모바일 앱 액세스를 참조하십시오](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
 
-### Setting up a mobile app in Adobe Campaign using SDK V4 {#setting-up-a-mobile-app-in-campaign}
+### SDK v 4를 사용하여 Adobe Campaign에서 모바일 앱 설정 {#setting-up-a-mobile-app-in-campaign}
 
 Adobe Campaign를 사용하여 관심 영역 데이터를 수집하려면 Adobe Campaign 이 데이터를 수신할 모바일 애플리케이션을 구성해야 합니다.
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**.
-1. Click **[!UICONTROL Create]** to set up an application.
+1. 왼쪽 위 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]****[!UICONTROL Mobile app]**&#x200B;를 선택합니다.
+1. 을 **[!UICONTROL Create]** 클릭하여 애플리케이션을 설정합니다.
 1. **[!UICONTROL Application name]** 필드에 이름을 입력하고 **[!UICONTROL Create]**&#x200B;를 클릭합니다.
 
    **[!UICONTROL Device-specific settings]** 섹션을 채우지 마십시오. 이것은 푸시 알림을 수신하는 응용 프로그램을 구성하는 경우에만 적용됩니다.
 
-**[!UICONTROL Mobile application properties]** 이 섹션에서는 두 URL 이 나열됩니다. **[!UICONTROL Collect PII endpoint]** **[!UICONTROL Location Services endpoint]** And. Adobe Mobile Services 인터페이스에서 사용됩니다. See [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
+**[!UICONTROL Mobile application properties]** 이 섹션에서는 두 URL 이 나열됩니다. **[!UICONTROL Collect PII endpoint]** **[!UICONTROL Location Services endpoint]** And. Adobe Mobile Services 인터페이스에서 사용됩니다. Adobe Mobile Services에서 모바일 앱 [구성을 참조하십시오](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
 
-* The **[!UICONTROL Collect PII endpoint]** URL is used to collect the users' Experience Cloud IDs and registration tokens from the mobile application when it is launched. 사용자가 이메일, 이름, 성 등과 같은 자격 증명을 사용하여 애플리케이션에 로그인하면, 이 데이터도 수집되어 Adobe Campaign 프로필과 사용자의 등록 토큰을 조정하는 데 사용됩니다.
+* URL는 **[!UICONTROL Collect PII endpoint]** 모바일 응용 프로그램이 시작될 때 사용자의 Experience Cloud ID와 등록 토큰을 수집하는 데 사용됩니다. 사용자가 이메일, 이름, 성 등과 같은 자격 증명을 사용하여 애플리케이션에 로그인하면, 이 데이터도 수집되어 Adobe Campaign 프로필과 사용자의 등록 토큰을 조정하는 데 사용됩니다.
 * **[!UICONTROL Location Services endpoint]** URL는 관심 영역에서 사용자의 위도, 경도 및 반경과 같은 위치 데이터를 수집하는 데 사용됩니다.
 
-You can now use these values in Adobe Mobile Services to finish the configuration, as explained in the [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services) section.
+이제 Adobe Mobile Services에서 모바일 앱 [구성](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services) 섹션에 설명된 대로, Adobe Mobile Services에서 이러한 값을 사용하여 구성을 완료할 수 있습니다.
 
 ![](assets/poi_mobile_app_properties.png)
 
-### Configuring a V4 mobile app in Adobe Mobile Services {#configuring-a-mobile-app-in-adobe-mobile-services}
+### Adobe Mobile Services에서 v 4 모바일 앱 구성 {#configuring-a-mobile-app-in-adobe-mobile-services}
 
 Adobe Mobile Services에서 수집한 데이터를 Adobe Campaign로 전송하려면 Mobile Services 인터페이스에서 포스트백을 구성해야 합니다.
 
-You will need specific information that you can find in the mobile application parameters set in Adobe Campaign (see [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)):
+Adobe Campaign에 설정된 모바일 애플리케이션 매개 변수에서 찾을 수 있는 특정 정보가 필요합니다 (캠페인의 모바일 앱 [설정 참조](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)).
 
 * **[!UICONTROL IMS Organization ID]**
 * **[!UICONTROL Collect PII Endpoint]**
@@ -94,7 +94,7 @@ You will need specific information that you can find in the mobile application p
 1. [mobilemarketing.adobe.com](http://mobilemarketing.adobe.com/)에 로그인합니다.
 1. 애플리케이션을 만들거나 기존 애플리케이션을 선택합니다.
 1. **[!UICONTROL Manage App Settings]** 페이지로 이동합니다.
-1. In the **Visitor ID Service ** section, check **Enable** and select your organization from the drop-down list. ****&#x200B;저장을 클릭합니다.
+1. **방문자 ID 서비스** 섹션에서 **활성화** 여부를 확인하고 드롭다운 목록에서 조직을 선택합니다. ****&#x200B;저장을 클릭합니다.
 
    >[!CAUTION]
    >
@@ -103,8 +103,8 @@ You will need specific information that you can find in the mobile application p
 1. **[!UICONTROL Manage Postbacks]**&#x200B;을 클릭합니다.
 1. 포스트백을 만듭니다.
 
-   * Select **[!UICONTROL PII]** as the **[!UICONTROL Postback Type]**.
-   * **[!UICONTROL URL]** 이 필드에 Adobe Campaign 인터페이스에서 구성한 모바일 응용 프로그램의 **[!UICONTROL Collect PII Endpoint]** URL 앞에 서버 이름을 복사합니다. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
+   * 으로 선택합니다 **[!UICONTROL PII]****[!UICONTROL Postback Type]**.
+   * **[!UICONTROL URL]** 이 필드에 Adobe Campaign 인터페이스에서 구성한 모바일 응용 프로그램의 **[!UICONTROL Collect PII Endpoint]** URL 앞에 서버 이름을 복사합니다. 캠페인에서 모바일 앱 [설정을 참조하십시오](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
    * **[!UICONTROL Post Body]** 필드를 다음과 같이 입력합니다.
 
       iOS의 경우:
@@ -134,13 +134,13 @@ You will need specific information that you can find in the mobile application p
       ```
 
    * **컨텐츠 유형을** 다음으로 **[!UICONTROL application/json]**&#x200B;설정합니다.
-   * In the **Which Data Tags Trigger the Postback?**, select any event, typically **[!UICONTROL Launched]** and **[!UICONTROL exists]**.
+   * 포스트백을 **트리거하는 데이터 태그에서**, select any event, typically **[!UICONTROL Launched]** and **[!UICONTROL exists]**.
    * **[!UICONTROL Save & Activate]**&#x200B;을 클릭합니다.
 
 1. 두 번째 포스트백을 만듭니다.
 
-   * Select **[!UICONTROL Postback]** as the **[!UICONTROL Postback Type]**.
-   * **[!UICONTROL URL]** 이 필드에 Adobe Campaign 인터페이스에서 구성한 모바일 응용 프로그램의 **[!UICONTROL Location Services Endpoint]** URL 앞에 서버 이름을 복사합니다. See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
+   * 으로 선택합니다 **[!UICONTROL Postback]****[!UICONTROL Postback Type]**.
+   * **[!UICONTROL URL]** 이 필드에 Adobe Campaign 인터페이스에서 구성한 모바일 응용 프로그램의 **[!UICONTROL Location Services Endpoint]** URL 앞에 서버 이름을 복사합니다. 캠페인에서 모바일 앱 [설정을 참조하십시오](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
    * **[!UICONTROL Post Body]** 필드를 다음과 같이 입력합니다.
 
       ```
@@ -161,61 +161,61 @@ You will need specific information that you can find in the mobile application p
       ```
 
    * **컨텐츠 유형을** 다음으로 **[!UICONTROL application/json]**&#x200B;설정합니다.
-   * In the **Which Data Tags Trigger the Postback?**, select **[!UICONTROL campaign.test]** and **[!UICONTROL exists]**.
+   * 포스트백을 **트리거하는 데이터 태그에서**, select **[!UICONTROL campaign.test]** and **[!UICONTROL exists]**.
    * **[!UICONTROL Save & Activate]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
->For detailed information on configuring postbacks, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html).
+>포스트백 구성에 대한 자세한 내용은 [Adobe Mobile Services 설명서를](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html)참조하십시오.
 
-### Integrating the SDK into a mobile application {#integrating-the-sdk-into-a-mobile-application}
+### 모바일 애플리케이션에 SDK 통합 {#integrating-the-sdk-into-a-mobile-application}
 
 모바일 코어 서비스 SDK (Software Development Kit) 를 사용하면 모바일 애플리케이션을 Adobe Campaign에 쉽게 통합할 수 있습니다.
 
-This step is described in this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+이 단계는 이 [페이지에 설명되어](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)있습니다.
 
-### Defining Points of Interest in Adobe Mobile Services {#defining-points-of-interest-in-adobe-mobile-services}
+### Adobe Mobile Services에서 관심 영역 정의 {#defining-points-of-interest-in-adobe-mobile-services}
 
 위치 데이터를 수집하는 데 사용되는 관심 영역을 정의하려면:
 
 1. Adobe Mobile Services 인터페이스로 이동합니다.
 1. 애플리케이션을 추가합니다.
 
-   For more information on managing applications in Mobile Services, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/t_new_app.html).
+   Mobile Services에서 응용 프로그램을 관리하는 방법에 대한 자세한 내용은 [Adobe Mobile Services 설명서를](https://marketing.adobe.com/resources/help/en_US/mobile/t_new_app.html)참조하십시오.
 
 1. 관심 영역을 정의합니다.
 
-   For more information on managing Points of Interest, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html).
+   관심 영역 관리에 대한 자세한 내용은 [Adobe Mobile Services 설명서를](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html)참조하십시오.
 
-### Collecting subscribers' Points of interest data {#collecting-subscribers--points-of-interest-data}
+### 가입자의 관심 영역 데이터 수집 {#collecting-subscribers--points-of-interest-data}
 
 특정 사용자 지정 리소스를 사용하면 애플리케이션 구독자로부터 수집할 데이터를 정의할 수 있습니다.
 
-This step is described in the [Configuring a mobile application using SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) page.
+이 단계는 SDK [v 4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 페이지를 사용하여 모바일 애플리케이션 구성에서 설명합니다.
 
 
-## Accessing mobile apps used to collect location data {#accessing-mobile-apps-used-to-collect-location-data}
+## 위치 데이터를 수집하는 데 사용된 모바일 앱 액세스 {#accessing-mobile-apps-used-to-collect-location-data}
 
 Adobe Campaign에서 성공적으로 만든 애플리케이션에 액세스하려면:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. 왼쪽 위 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭합니다.
 1. **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app (SDK v4)]** 또는 SDK에 **[!UICONTROL Mobile app (AEP SDK)]** 따라 선택합니다.
 1. 목록에서 모바일 애플리케이션을 선택하여 속성을 표시합니다.
 
    ![](assets/poi_mobile_app_subscribers.png)
 
-A list of the application's subscribers is also displayed in the **[!UICONTROL Mobile application subscribers]** tab. 구독자는 모바일 장치에 애플리케이션을 설치한 모든 사용자입니다. Adobe Campaign 데이터베이스 프로필은 등록 토큰으로 식별됩니다.
+응용 프로그램의 구독자 목록이 **[!UICONTROL Mobile application subscribers]** 탭에도 표시됩니다. 구독자는 모바일 장치에 애플리케이션을 설치한 모든 사용자입니다. Adobe Campaign 데이터베이스 프로필은 등록 토큰으로 식별됩니다.
 
-## Accessing collected location data {#accessing-collected-location-data}
+## 수집된 위치 데이터에 액세스 {#accessing-collected-location-data}
 
-Once the setup is done, the collected Points of Interest data is listed in the **[!UICONTROL Places]** tab of each profile. 목록에 액세스하려면:
+설정이 완료되면 수집된 관심 영역 데이터가 각 프로필의 **[!UICONTROL Places]** 탭에 나열됩니다. 목록에 액세스하려면:
 
 1. 프로필을 선택합니다.
-1. Click the **[!UICONTROL Edit profile properties]** button on the right.
+1. 오른쪽에 있는 **[!UICONTROL Edit profile properties]** 버튼을 클릭합니다.
 1. **[!UICONTROL Places]** 탭을 선택합니다.
 
    ![](assets/poi_profile_places.png)
 
 현재 프로필에 대한 수집된 관심 영역 데이터가 나열됩니다. 위치 데이터는 6 개월간 Adobe Campaign 데이터베이스에 저장됩니다.
 
-For more information on accessing and editing profiles, see [Profiles](../../audiences/using/about-profiles.md).
+프로필 액세스 및 편집에 대한 자세한 내용은 [프로필을](../../audiences/using/about-profiles.md)참조하십시오.
