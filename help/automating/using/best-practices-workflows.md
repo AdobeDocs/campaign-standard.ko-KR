@@ -14,7 +14,7 @@ context-tags: workflow, overview; 워크플로우, 기본
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
+source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
 
 ---
 
@@ -116,7 +116,7 @@ Adobe Campaign를 사용하면 대규모 작업 범위를 수행하도록 모든
 
 ## 목록 내보내기{#exporting-lists}
 
-[내보내기 목록] 옵션을 사용하면 기본적으로 최대 100,000 개의 선을 내보낼 수 있으며 **NMS_ exportlistlimit 옵션으로 정의할**&#x200B;수 있습니다. 이 옵션은 기능 관리자가 **관리** &gt; **응용 프로그램 설정** &gt; **옵션에서 관리할 수**있습니다.
+[내보내기 목록] 옵션을 사용하면 기본적으로 최대 100,000 개의 선을 내보낼 수 있으며 **NMS_ exportlistlimit 옵션으로 정의할**&#x200B;수 있습니다. 이 옵션은 &gt; **[!UICONTROL Administration]****[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**에서 기능 관리자가 관리할 수 있습니다.
 자세한 내용은 목록 [내보내기를](../../automating/using/exporting-lists.md)참조하십시오.
 
 ## 문제 해결{#workflow-troubleshooting}
@@ -133,15 +133,15 @@ Adobe Campaign 에서는 워크플로우 문제를 더 잘 이해할 수 있도�
 
 로그 탭에서 SQL 쿼리를 분석할 수 있습니다.
 
-1. 워크플로우 작업 영역에서 속성 **편집을**&#x200B;클릭합니다.
-1. **[일반** ] &gt; **[실행**] 에서 로그에 SQL 쿼리를 **저장하고** **[엔진** 옵션] 에서 실행하고 **[확인**] 를 클릭합니다.
+1. 워크플로우 작업 영역에서 **[!UICONTROL Edit properties]**&#x200B;를 클릭합니다.
+1. 에서 **[!UICONTROL General]****[!UICONTROL Execution]****[!UICONTROL Save SQL queries in the log]** 및 **[!UICONTROL Execute in the engine]** 옵션을 선택하고를 클릭합니다 **[!UICONTROL Confirm]**.
 
 **로그에서 SQL 쿼리를 보려면 다음을 수행하십시오.**
-1. **[로그 및 작업**] 를 클릭합니다.
-1. **로그** 탭에서 **검색** 패널을 엽니다.
-1. SQL 로그 **표시를 선택합니다**.
+1. **[!UICONTROL Log and Tasks]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Logs]** 탭에서 **[!UICONTROL Search]** 패널을 엽니다.
+1. **[!UICONTROL Display SQL logs only]**&#x200B;확인합니다.
 
-쿼리는 로그의 **메시지** 열에 표시됩니다.
+쿼리는 로그 **[!UICONTROL Message]** 열에 표시됩니다.
 
 ### 배달 로그 사용{#using-delivery-logs}
 
