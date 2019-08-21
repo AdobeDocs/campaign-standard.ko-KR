@@ -14,7 +14,7 @@ discoiquuid: 39 B 86 FDA -7766-4 E 5 F-AB 48-BCC 536 AB 66 B 3
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
+source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
 
 ---
 
@@ -125,7 +125,6 @@ source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
 ### 이메일 디자이너 제한 사항 {#email-designer-limitations}
 
 * 세그먼트에서 개인화 필드를 사용할 수 없습니다. 조각에 대한 자세한 내용은 [이 섹션을](../../designing/using/defining-the-email-structure.md#about-fragments)참조하십시오.
-* 이메일 디자이너 내에서 편집하는 이메일의 일부 컨텐츠로 직접 저장할 수는 없습니다. 해당 컨텐츠에 해당하는 HTML를 새 조각에 복사하여 붙여 넣어야 합니다. 이에 대한 자세한 내용은 컨텐츠 조각을 조각으로 [저장을](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)참조하십시오.
 * 스타일을 편집할 때 대부분의 이메일 클라이언트에서 공식적으로 지원되는 웹 글꼴만 사용할 수 있습니다.
 * 스타일은 나중에 재사용하기 위해 테마로 저장할 수 없습니다. 그러나 CSS 스타일은 컨텐츠 템플릿이나 이메일에 저장할 수 있습니다. 스타일에 대한 자세한 내용은 [이 섹션을](../../designing/using/editing-email-styles.md)참조하십시오.
 
