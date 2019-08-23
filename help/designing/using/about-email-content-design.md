@@ -14,7 +14,7 @@ discoiquuid: 39 B 86 FDA -7766-4 E 5 F-AB 48-BCC 536 AB 66 B 3
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -177,6 +177,7 @@ CSS 충돌 문제와 같은 문제를 방지하려면 컨텐츠를 최신 버전
 * [예약 메시지](../../sending/using/about-scheduling-messages.md)
 * [메시지 미리 보기](../../sending/using/previewing-messages.md)
 * [이메일 렌더링](../../sending/using/email-rendering.md)
+* [HTML 없이도 개인화된 이메일 구축](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## 기존 콘텐트를 사용하여 이메일 디자인 {#designing-an-email-using-existing-contents}
 
