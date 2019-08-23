@@ -14,7 +14,7 @@ discoiquuid: 4337 a 80 b -0 fb 9-4 a 37-bce 3-fe 2121 a 66586
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -36,6 +36,7 @@ source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
 * [준비](../../administration/using/configuring-email-channel.md#preparation)
 * [유형 관리](../../administration/using/about-typology-rules.md#managing-typologies)
 * [유형 규칙 규칙](../../administration/using/about-typology-rules.md#typology-rules)
+* [연락 피로도를 방지하기 위해 통신 빈도 최적화](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## 피로 규칙 만들기 {#creating-a-fatigue-rule}
 
