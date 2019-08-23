@@ -14,25 +14,25 @@ discoiquuid: B 6 D 3 DE 63-3 Add -4881-8917-04 A 6 F 8 B 6 BE 4 D
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
 
-# Creating a custom profile dimension{#creating-a-custom-profile-dimension}
+# 사용자 지정 프로필 차원 만들기{#creating-a-custom-profile-dimension}
 
 프로필 사용자 지정 리소스 확장 기간 동안 생성된 사용자 지정 프로필 데이터를 기반으로 보고서를 만들고 관리할 수도 있습니다.
 
-In this example, we want to create the custom profile field **Loyalty programs** which will be divided into three levels: gold, silver and bronze. 이 사용자 지정 프로필은 동적 보고서에서 사용자 지정 프로필 차원으로 사용할 수 있게 확장됩니다.
+이 예에서는 세 가지 수준으로 나눌 사용자 지정 프로필 필드 **충성도 프로그램을** 만듭니다. 골드, 실버 및 브론즈. 이 사용자 지정 프로필은 동적 보고서에서 사용자 지정 프로필 차원으로 사용할 수 있게 확장됩니다.
 
 * [1 단계: 새 프로필 필드 만들기](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--create-a-new-profile-field)
 * [2 단계: 프로필 필드를 사용하여 전송 로그 확장](../../reporting/using/creating-a-custom-profile-dimension.md#step-2--extend-the-sending-logs-with-the-profile-field)
 * [3 단계: 충성도 프로그램에 등록된 배달 타깃팅 수신자 만들기](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
 * [4 단계: 사용자 지정 프로필 차원으로 수신자를 필터링하는 동적 보고서 만들기](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
-## Step 1: Create a new profile field {#step-1--create-a-new-profile-field}
+## 1 단계: 새 프로필 필드 만들기 {#step-1--create-a-new-profile-field}
 
-We first need to create the new profile field **Loyalty program** that will assign loyalty level to our recipients: gold, silver or bronze.
+먼저 받는 사람에게 충성도 수준을 지정할 새 프로필 필드 **충성도 프로그램을** 만들어야 합니다. 골드, 실버 또는 브론즈.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ We first need to create the new profile field **Loyalty program** that will assi
 
 이렇게 하려면:
 
-1. From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** then the **[!UICONTROL Profile (profile)]** custom resource.
+1. 고급 메뉴에서 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]****[!UICONTROL Profile (profile)]** 사용자 지정 리소스를 선택합니다.
 
    ![](assets/custom_profile_1.png)
 
@@ -48,7 +48,7 @@ We first need to create the new profile field **Loyalty program** that will assi
 
    ![](assets/custom_profile_2.png)
 
-1. Enter the **[!UICONTROL Label]**, **[!UICONTROL ID]** and select the custom resource **[!UICONTROL Type]**. Here, we selected **[!UICONTROL Text]** since recipients will have the choice between gold, silver and bronze.
+1. 을 입력하고 **[!UICONTROL Label]****[!UICONTROL ID]** 사용자 지정 리소스를 **[!UICONTROL Type]**&#x200B;선택합니다. 골드, 실버 **[!UICONTROL Text]** 및 브론즈 중에서 선택할 수 있습니다.
 
    ![](assets/custom_profile_3.png)
 
@@ -56,11 +56,11 @@ We first need to create the new profile field **Loyalty program** that will assi
 
    ![](assets/custom_profile_12.png)
 
-1. Here, we need to specify the authorized values by checking **[!UICONTROL Specify a list of authorized valued]** and create each value by clicking **[!UICONTROL Create element]**.
+1. 여기서는을 클릭하여 **[!UICONTROL Specify a list of authorized valued]** 인증 값을 지정하고를 클릭하여 각 값을 지정해야 **[!UICONTROL Create element]**&#x200B;합니다.
 
    ![](assets/custom_profile_13.png)
 
-1. Enter the **[!UICONTROL Label]** and **[!UICONTROL Value]** then click **[!UICONTROL Add]**. 이 예에서는 골드, 실버 및 브론즈를 만들어야 합니다. Click **[!UICONTROL Confirm]** when done.
+1. 을 입력한 **[!UICONTROL Label]****[!UICONTROL Value]****[!UICONTROL Add]**&#x200B;다음을 클릭합니다. 이 예에서는 골드, 실버 및 브론즈를 만들어야 합니다. 완료되면 **[!UICONTROL Confirm]** 클릭합니다.
 
    ![](assets/custom_profile_14.png)
 
@@ -68,18 +68,18 @@ We first need to create the new profile field **Loyalty program** that will assi
 
    ![](assets/custom_profile_4.png)
 
-1. **[!UICONTROL Add an element]** 단추를 클릭하여 새 섹션을 만듭니다. Select the **[!UICONTROL Type]**: **[!UICONTROL Input field]**, **[!UICONTROL Value]** or **[!UICONTROL List]**, then the field to add in this new section.
+1. **[!UICONTROL Add an element]** 단추를 클릭하여 새 섹션을 만듭니다. 다음을 선택합니다 **[!UICONTROL Type]**. **[!UICONTROL Input field]**, **[!UICONTROL Value]** or **[!UICONTROL List]**, then the field to add in this new section.
 
    ![](assets/custom_profile_5.png)
 
-1. You can also add a title to your section in the field **[!UICONTROL Customize the title of the section where the fields will be displayed]**.
+1. 필드의 섹션에 제목을 추가할 **[!UICONTROL Customize the title of the section where the fields will be displayed]**&#x200B;수도 있습니다.
 
-   Click **[!UICONTROL Save]** when the configuration is done.
+   구성이 **[!UICONTROL Save]** 완료되면 클릭합니다.
 
    ![](assets/custom_profile_6.png)
 
-1. From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** to start publishing your custom resource.
-1. Click **[!UICONTROL Prepare publication]** then when the preparation is done, click the **[!UICONTROL Publish]** button.
+1. 고급 메뉴에서 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** 를 선택하여 사용자 지정 리소스 게시를 시작합니다.
+1. 을 클릭하고 **[!UICONTROL Prepare publication]** 준비가 완료되면 **[!UICONTROL Publish]** 단추를 클릭합니다.
 
    ![](assets/custom_profile_7.png)
 
@@ -87,35 +87,35 @@ We first need to create the new profile field **Loyalty program** that will assi
 
 ![](assets/custom_profile_8.png)
 
-## Step 2: Extend the sending logs with the profile field {#step-2--extend-the-sending-logs-with-the-profile-field}
+## 2 단계: 프로필 필드를 사용하여 전송 로그 확장 {#step-2--extend-the-sending-logs-with-the-profile-field}
 
 프로필 필드가 만들어지면 프로필 필드를 사용하여 보내기 로그를 확장하여 동적 보고서에서 관련 사용자 지정 프로필 차원을 만들어야 합니다.
 
-Before extending the log with our profile field, make sure that the PII window was accepted to have access to the **[!UICONTROL Sending logs extension]** tab. For more on this, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+프로필 필드로 로그를 확장하기 전에 PII 창이 **[!UICONTROL Sending logs extension]** 탭에 액세스할 수 있도록 허용되었는지 확인합니다. 이에 대한 자세한 내용은 이 [페이지를](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)참조하십시오.
 
 >[!NOTE]
 >
 >관리자는 프로필 필드로만 로그를 확장할 수 있습니다.
 
-1. From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]** then the **[!UICONTROL Profile (profile)]** custom resource.
-1. Open the **[!UICONTROL Sending logs extension]** drop-down.
+1. 고급 메뉴에서 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom resources]****[!UICONTROL Profile (profile)]** 사용자 지정 리소스를 선택합니다.
+1. 드롭다운을 **[!UICONTROL Sending logs extension]** 엽니다.
 1. **[!UICONTROL Create element]** 단추를 클릭합니다.
 
    ![](assets/custom_profile_9.png)
 
-1. Select your previously created field and click **[!UICONTROL Confirm]**.
-1. Check **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** to create your custom profile dimension.
+1. 이전에 만든 필드를 선택하고 **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
+1. 사용자 **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** 지정 프로필 차원을 만들려면 확인하십시오.
 
    ![](assets/custom_profile_10.png)
 
-   이 옵션은 PII 창이 허용된 경우에만 사용할 수 있습니다. For more on this, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+   이 옵션은 PII 창이 허용된 경우에만 사용할 수 있습니다. 이에 대한 자세한 내용은 이 [페이지를](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)참조하십시오.
 
-1. Click **[!UICONTROL Add]** then save your custom resource.
+1. 그런 **[!UICONTROL Add]** 다음 사용자 지정 리소스를 저장합니다.
 1. 사용자 지정 리소스가 수정되었으므로 새 변경 사항을 구현하려면 이를 게시해야 합니다.
 
-   From the advanced menu, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** to start publishing your custom resource.
+   고급 메뉴에서 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Publication]** 를 선택하여 사용자 지정 리소스 게시를 시작합니다.
 
-1. Click **[!UICONTROL Prepare publication]** then when the preparation is done, click the **[!UICONTROL Publish]** button.
+1. 을 클릭하고 **[!UICONTROL Prepare publication]** 준비가 완료되면 **[!UICONTROL Publish]** 단추를 클릭합니다.
 
    ![](assets/custom_profile_7.png)
 
@@ -123,14 +123,14 @@ Before extending the log with our profile field, make sure that the PII window w
 
 이제 필드를 만들고 이 프로필 필드로 로그를 전송하는 경우 배달에서 받는 사람 타깃팅을 시작할 수 있습니다.
 
-## Step 3: Create a delivery targeting recipients enrolled in the loyalty program {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## 3 단계: 충성도 프로그램에 등록된 배달 타깃팅 수신자 만들기 {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
 프로필 필드가 게시되면 전달을 시작할 수 있습니다. 이 예에서는 충성도 프로그램에 등록된 모든 수신자를 타깃팅합니다.
 
 1. **[!UICONTROL Marketing activities]** 탭에서 **[!UICONTROL Create]****[!UICONTROL Email]**&#x200B;아이콘을 클릭한 다음 선택합니다.
-1. Choose an **[!UICONTROL Email type]** then enter your email's properties.
-1. To target recipient enrolled in the loyalty program, drag and drop the **[!UICONTROL Profiles (attributes)]** activity.
-1. Select your previously created field from the **[!UICONTROL Field]** drop-down.
+1. 을 선택하고 **[!UICONTROL Email type]** 이메일 속성을 입력합니다.
+1. 충성도 프로그램에 등록된 수신자에게 **[!UICONTROL Profiles (attributes)]** 활동을 드래그하여 놓습니다.
+1. 드롭다운에서 이전에 만든 필드를 선택합니다 **[!UICONTROL Field]** .
 
    ![](assets/custom_profile_16.png)
 
@@ -138,18 +138,18 @@ Before extending the log with our profile field, make sure that the PII window w
 
    ![](assets/custom_profile_17.png)
 
-1. Click **[!UICONTROL Confirm]** then when done filtering, click **[!UICONTROL Next]**.
-1. 메시지 컨텐츠, 발신자 이름 및 제목을 정의하고 개인화합니다. For more information on email creation refer to this [page](../../designing/using/about-email-content-design.md#about-the-email-designer).
+1. 을 클릭하고 **[!UICONTROL Confirm]** 필터링을 완료한 다음을 클릭합니다 **[!UICONTROL Next]**.
+1. 메시지 컨텐츠, 발신자 이름 및 제목을 정의하고 개인화합니다. 이메일 생성에 대한 자세한 내용은 이 [페이지를](../../designing/using/about-email-content-design.md#about-the-email-designer)참조하십시오.
 
    **[!UICONTROL Create]**&#x200B;그런 다음을 클릭합니다.
 
-1. 준비가 되면 메시지를 미리 보고 보낼 수 있습니다. For more information on how to prepare and send your message, refer to this [page](../../sending/using/preparing-the-send.md).
+1. 준비가 되면 메시지를 미리 보고 보낼 수 있습니다. 메시지를 준비하고 보내는 방법에 대한 자세한 내용은 [이 페이지를](../../sending/using/preparing-the-send.md)참조하십시오.
 
 이메일이 선택한 수신자에게 올바로 전송되면 데이터 필터링을 시작하고 보고서를 통해 전달 성공률을 추적할 수 있습니다.
 
-## Step 4: Create a dynamic report to filter recipients with the custom profile dimension {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
+## 4 단계: 사용자 지정 프로필 차원으로 수신자를 필터링하는 동적 보고서 만들기 {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
-After sending your delivery, you can breakdown reports using your custom profile dimension from the **[!UICONTROL Profile]** table.
+배달을 전송한 후 **[!UICONTROL Profile]** 테이블에서 사용자 지정 프로필 차원을 사용하여 보고서를 분류할 수 있습니다.
 
 1. **[!UICONTROL Reports]** 탭에서 즉시 사용할 수 있는 보고서를 선택하거나 **[!UICONTROL Create]** 단추를 클릭하여 처음부터 새로 시작합니다.
 
@@ -167,3 +167,6 @@ After sending your delivery, you can breakdown reports using your custom profile
 
    ![](assets/custom_profile_21.png)
 
+**관련 항목:**
+
+* [사용자 지정 프로필 데이터를 사용하여 통찰력 있는 보고서 만들기](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
