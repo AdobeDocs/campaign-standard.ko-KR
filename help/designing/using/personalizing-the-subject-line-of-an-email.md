@@ -14,14 +14,14 @@ discoiquuid: F 7 A 5 E 935-54 CF -422 E -8459-27221409 A 200
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
 
-# Personalizing the subject line of an email{#personalizing-the-subject-line-of-an-email}
+# 이메일의 제목 맞춤화{#personalizing-the-subject-line-of-an-email}
 
-## Personalizing an email subject {#personalizing-an-email-subject}
+## 이메일 제목 개인화 {#personalizing-an-email-subject}
 
 메시지 제목은 메시지를 준비하고 보내는 것이 필수적입니다.
 
@@ -29,7 +29,7 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 >
 >제목 라인이 비어 있으면 메시지 대시보드와 이메일 디자이너에 경고가 표시됩니다.
 
-To configure the email subject, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
+이메일 제목을 구성하려면 홈 아이콘을 통해 액세스 가능한 이메일 디자이너 홈 페이지의 **[!UICONTROL Properties]** 탭으로 이동하여 **[!UICONTROL Subject]** 섹션을 채웁니다.
 
 ![](assets/email_designer_subject.png)
 
@@ -41,7 +41,7 @@ To configure the email subject, go the **[!UICONTROL Properties]** tab of the Em
 * [컨텐츠 블록 추가](../../designing/using/adding-a-content-block.md)
 * [이메일에서 동적 컨텐츠 정의](../../designing/using/defining-dynamic-content-in-an-email.md)
 
-## Predictive subject line {#predictive-subject-line}
+## 예측 제목 라인 {#predictive-subject-line}
 
 이메일을 편집할 때 다른 제목 선을 시험해 보고 보내기 전에 열린 비율을 예측할 수 있습니다.
 
@@ -51,7 +51,7 @@ To configure the email subject, go the **[!UICONTROL Properties]** tab of the Em
 >
 >이 기능은 이메일 메시지와 영어 컨텐츠만 포함된 데이터베이스에 사용할 수 있습니다. 교육 모델은 일관성이 없고 인스턴스에 다른 언어로 이메일이 포함된 경우 잘못된 결과가 표시됩니다. 제목을 테스트할 수 있는 옵션은 인스턴스에서 모델을 이미 사용할 수 있는 경우에만 표시됩니다.
 
-### Testing a subject {#testing-a-subject}
+### 피사체 테스트 {#testing-a-subject}
 
 제목 라인을 테스트하려면 다음을 수행하십시오.
 
@@ -80,28 +80,28 @@ To configure the email subject, go the **[!UICONTROL Properties]** tab of the Em
 
 ![](assets/predictive_subject_line_example.png)
 
-### Importing models {#importing-models}
+### 모델 가져오기 {#importing-models}
 
 기본적으로 Adobe Campaign 서버에서 실행 중인 모델은 없습니다. 모델을 가져오고 기능을 활성화하는 방법에는 두 가지가 있습니다.
 
 * 이전 이메일 메시지의 데이터에서 로컬 모델을 트레이닝할 수 있습니다.
 
    * 이미 Adobe Campaign를 사용하고 있는 경우 이미 보낸 메시지에 대해 로컬 모델이 자동으로 트레이닝됩니다.
-   * Adobe Campaign를 처음 사용하는 경우 4 개의 열이 포함된 이전 시스템/ESP에서 CSV 파일을 추출할 수 있습니다. 날짜, 제목, 전송됨. To do that, go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** and follow the instructions provided on the successive screens. 주제 업로드가 완료되면 아래 설명된 대로 로컬 모델을 가져옵니다. 로컬 모델은 업로드한 데이터로 자동으로 트레이닝됩니다.
+   * Adobe Campaign를 처음 사용하는 경우 4 개의 열이 포함된 이전 시스템/ESP에서 CSV 파일을 추출할 수 있습니다. 날짜, 제목, 전송됨. 이렇게 하려면 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** 를 클릭하고 연속된 화면에 제공된 지침을 따르십시오. 주제 업로드가 완료되면 아래 설명된 대로 로컬 모델을 가져옵니다. 로컬 모델은 업로드한 데이터로 자동으로 트레이닝됩니다.
    * Adobe Campaign를 처음 사용하고 위에서 설명한 CSV 파일을 가져올 수 없는 경우 사전 훈련된 모델을 사용하거나 시스템에 있는 배달 데이터가 충분히 있을 때까지 기다렸다가 해당 지역의 모델을 교육할 수 있습니다. 시스템은 현재 데이터 세트에 패턴을 인식하고 모델을 트레이닝할 충분한 데이터가 포함되어 있는지 자동으로 결정합니다.
 
       >[!NOTE]
       >
       >자신의 모델을 교육하는 데 필요한 제목 줄의 수는 정해져 있지 않습니다. 트레이닝을 하려면 제목 라인이 다양해야 하며 중복되지 않아야 합니다. 처리할 데이터가 충분하지 않으면 시스템은 모델을 트레이닝할 수 없게 됩니다. 인스턴스에는 교육 모델이 하나만 있을 수 있습니다.
-   To train a local model, download the subjectLineTraining.xml from [here](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) and use the [package import](../../automating/using/managing-packages.md) feature to upload it to your Adobe Campaign instance. 기술 워크플로우는 자동으로 교육을 수행합니다.
+   로컬 모델을 트레이닝하려면 [여기에서](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) subjectLineTraining.xml를 다운로드하고 [패키지 가져오기](../../automating/using/managing-packages.md) 기능을 사용하여 Adobe Campaign 인스턴스에 업로드합니다. 기술 워크플로우는 자동으로 교육을 수행합니다.
 
-   The first time you want to train a model, an administrator can force the **[!UICONTROL SubjectLine Training workflow]** to start from the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]** menu.
+   모델을 처음 트레이닝할 때 관리자는 **[!UICONTROL SubjectLine Training workflow]****[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]****[!UICONTROL Workflows]** &gt; 메뉴에서 강제로 시작할 수 있습니다.
 
    모델이 업로드되고 트레이닝되면 기능이 자동으로 활성화되고 메시지의 제목 라인 필드 옆에 새로운 옵션이 나타납니다.
 
    그러면 기술 워크플로우에서 매주 모델을 자동으로 교육할 수 있습니다.
 
-* 특정 업계 (의료 등) 에 특화된 사전 교육을 받은 모델을 가져올 수 있습니다. [패키지 가져오기](../../automating/using/managing-packages.md) 기능 사용을 참조하십시오. These models are available [here](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) and cannot be trained.
+* 특정 업계 (의료 등) 에 특화된 사전 교육을 받은 모델을 가져올 수 있습니다. [패키지 가져오기](../../automating/using/managing-packages.md) 기능 사용을 참조하십시오. 이러한 모델은 여기에서 사용할 수 있으며 [교육을](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) 받을 수 없습니다.
 
    모델이 업로드되면 기능이 자동으로 활성화되고 메시지의 제목 라인 필드 옆에 새로운 옵션이 나타납니다.
 
@@ -116,3 +116,6 @@ To configure the email subject, go the **[!UICONTROL Properties]** tab of the Em
 * 의료 업계: subjectInsightMedical.xml
 * Model to Train: Subjectlinetraining. xml를 참조하십시오.
 
+**관련 항목:**
+
+* [Adobe Sensei 예측으로 제목 최적화](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
