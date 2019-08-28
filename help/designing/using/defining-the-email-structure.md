@@ -14,7 +14,7 @@ discoiquuid: 207 fdf 6 d -165 a -41 af-ad 53-ba 97 d 3403 b 62
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -167,10 +167,10 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
 1. 이동 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]****[!UICONTROL Create]**&#x200B;를 클릭합니다.
 1. 이메일 디자이너의 탭에 **[!UICONTROL Properties]** 액세스하려면 이메일 레이블을 클릭합니다.
-1. 인식 가능한 레이블을 지정하고 다음 매개 변수를 선택하여 새 이메일의 조각을 찾으십시오.
+1. 인식 가능한 레이블을 지정하고 다음 매개 변수를 선택하여 이메일 컨텐츠를 편집할 때 조각을 찾습니다.
 
    * 조각은 이메일과 호환되므로 **[!UICONTROL Delivery]****[!UICONTROL Content type]** 드롭다운 목록에서를 선택합니다.
-   * 이 **[!UICONTROL Fragment]** 컨텐츠를 이메일에서 조각으로 사용하려면 **[!UICONTROL HTML type]** 드롭다운 목록에서를 선택합니다.
+   * 이 **[!UICONTROL Fragment]** 컨텐츠를 조각으로 사용하려면 **[!UICONTROL HTML type]** 드롭다운 목록에서 선택합니다.
    ![](assets/email_designer_createfragment.png)
 
 1. 필요한 경우 조각의 썸네일로 사용될 이미지를 설정할 수 있습니다. 템플릿 속성의 **[!UICONTROL Thumbnail]** 탭에서 선택합니다.
@@ -179,23 +179,29 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
    이 축소판은 이메일을 편집할 때 조각의 레이블 옆에 표시됩니다.
 
-1. 변경 내용을 저장하여 주 작업 영역으로 돌아갑니다.
-1. 필요에 따라 사용자 지정할 수 있는 구조 구성 요소와 컨텐츠 구성 요소를 추가합니다.
+1. **[!UICONTROL Properties]** 탭을 닫아 기본 작업 영역으로 돌아갑니다.
+1. 필요에 따라 사용자 지정할 수 있는 구성 요소 및 컨텐츠 구성 요소를 추가합니다.
+
+   >[!NOTE]
+   >
+   >조각에는 개인화 필드, 동적 컨텐츠 또는 다른 조각을 포함할 수 없습니다.
+   >[모바일 보기는](../../designing/using/about-email-content-design.md#switching-to-mobile-view) 조각에서 사용할 수 없습니다.
+
 1. 편집된 조각을 저장합니다.
 
-이제 조각을 이메일 디자이너로 작성한 이메일에 사용할 수 있습니다. 팔레트 **[!UICONTROL Fragments]** 섹션 아래에 나타납니다.
+이제 이 조각을 이메일 디자이너로 작성한 모든 이메일에 사용할 수 있습니다. 팔레트 **[!UICONTROL Fragments]** 섹션 아래에 나타납니다.
 
 >[!NOTE]
 >
->이메일에서 사용되는 경우가 아니라면 조각 안에 개인화 필드를 삽입할 수 없습니다. 이렇게 하려면 이 조각의 잠금을 해제해야 합니다. 조각 [정보를](../../designing/using/defining-the-email-structure.md#about-fragments)참조하십시오.
+>이메일 및 잠금이 해제되지 않은 경우 조각 안에 개인화 필드를 삽입할 수 없습니다. 조각 [정보를](../../designing/using/defining-the-email-structure.md#about-fragments)참조하십시오.
 
 ### 컨텐츠를 조각으로 저장 {#saving-content-as-a-fragment}
 
 이메일 디자이너로 이메일을 편집할 때 해당 이메일의 일부를 조각으로 직접 저장할 수 있습니다.
 
->[!CAUTION]
->
->개인화 필드, 동적 컨텐츠 또는 다른 조각이 들어 있는 구조로 저장할 수 없습니다.
+* 개인화 필드, 동적 컨텐츠 또는 다른 조각이 들어 있는 구조로 저장할 수 없습니다.
+* 서로 인접한 구조만 선택할 수 있습니다.
+<!--* You cannot select an empty structure.-->
 
 1. 이메일 디자이너의 이메일을 편집할 때 주 도구 모음에서 **[!UICONTROL Save as fragment]** 를 선택합니다.
 
@@ -207,9 +213,10 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
    >[!NOTE]
    >
-   >서로 인접한 구조만 선택할 수 있습니다.
+   >개인화 필드, 동적 컨텐츠 또는 다른 조각이 포함되지 않은 구조를 선택해야 합니다.
+   <!--You cannot select an empty structure.-->
 
-1. **[!UICONTROL Create]**&#x200B;을 클릭합니다.
+1. Click **[!UICONTROL Create]**.
 
 1. 필요한 경우 레이블 및 설명을 추가한 다음을 클릭합니다 **[!UICONTROL Save]**.
 
@@ -222,6 +229,9 @@ source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 1. 새 조각을 사용하려면 이메일 콘텐트를 열고 조각 목록에서 선택합니다.
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
+
+>[!NOTE]
+>[모바일 보기는](../../designing/using/about-email-content-design.md#switching-to-mobile-view) 조각에서 사용할 수 없습니다. 이메일 모바일 보기를 편집하려면 콘텐츠를 조각으로 저장하기 전에 이를 수행하십시오.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
