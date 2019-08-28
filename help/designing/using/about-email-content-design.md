@@ -14,7 +14,7 @@ discoiquuid: 39 B 86 FDA -7766-4 E 5 F-AB 48-BCC 536 AB 66 B 3
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
+source-git-commit: 2ac7fa8be4c408d75d77d3035af4cec25ac001c2
 
 ---
 
@@ -429,6 +429,10 @@ Adobe Campaign와 함께 보낼 모든 이메일에서 동일한 머리글과 �
    이제 데스크톱 보기에서 정의된 배경색이 적용됩니다. 회색으로 바뀝니다 (비어 있지 않음).
 
    유일한 예외는 **[!UICONTROL Border color]** 설정입니다. 모바일 보기에서 비활성화하면 테두리 색상이 데스크톱 보기에 정의되어 있어도 더 이상 테두리가 적용되지 않습니다.
+
+>[!NOTE]
+>
+>모바일 보기는 조각에서 [사용할](../../designing/using/defining-the-email-structure.md#about-fragments)수 없습니다.
 
 ## 일반 텍스트 및 HTML 모드 {#plain-text-and-html-modes}
 
