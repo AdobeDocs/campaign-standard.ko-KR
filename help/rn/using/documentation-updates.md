@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
+source-git-commit: feec1991a3c8730e97ab4a990ef5edd29d1a5964
 
 ---
 
@@ -32,6 +32,10 @@ Adobe Campaign [릴리스 노트를 참조할](../../rn/using/release-notes.md)�
 [로그] 탭에서 SQL 쿼리를 표시하는 방법에 대한 [워크플로우 문제 해결] 섹션에 프로시저가 추가되었습니다. [자세히 보기](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
 컨트롤 패널 내의 하위 도메인 및 인증서 관리와 관련된 정보가 포함된 새 도움말 문서가 추가되었습니다. [자세히 보기](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+
+컨텐츠 템플릿 및 조각을 설명하는 섹션이 업데이트되었습니다. [자세히 보기](../../start/using/about-templates.md#content-templates)
+
+이메일 디자이너의 템플릿으로 이메일 컨텐츠를 저장하는 방법에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../../start/using/about-templates.md#saving-content-as-template)
 
 ## 릴리스 19.3 - 2019 년 7 월 {#release-19-3---july-2019}
 
