@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: feec1991a3c8730e97ab4a990ef5edd29d1a5964
+source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
 
 ---
 
@@ -28,6 +28,8 @@ Adobe Campaign Standard 설명서에 대한 모든 최신 업데이트에 대해
 Adobe Campaign [릴리스 노트를 참조할](../../rn/using/release-notes.md)수도 있습니다.
 
 ## 설명서 업데이트 - 2019 년 8 월 {#doc-updates-august-2019}
+
+쿼리에 주력하는 워크플로우에 대한 사용 사례가 있는 새 섹션이 추가되었습니다. [자세히 보기](../../automating/using/workflow-created-query-with-complement.md)
 
 [로그] 탭에서 SQL 쿼리를 표시하는 방법에 대한 [워크플로우 문제 해결] 섹션에 프로시저가 추가되었습니다. [자세히 보기](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
