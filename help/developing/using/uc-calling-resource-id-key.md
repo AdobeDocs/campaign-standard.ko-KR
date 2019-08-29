@@ -4,7 +4,7 @@ seo-title: 복합 ID 키를 사용하여 리소스 호출
 description: 복합 ID 키를 사용하여 리소스 호출
 seo-description: 복합 식별키를 사용하여 리소스를 호출하는 방법 학습
 translation-type: tm+mt
-source-git-commit: b9bc9163cc02efea8549a21fa947956dc9d3824a
+source-git-commit: ff9861a2b8a59843cc668cec9f89b9ea76822d66
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: b9bc9163cc02efea8549a21fa947956dc9d3824a
 
 경우에 따라, 리소스에 대해 두 개의 필드로 구성된 식별 키를 정의해야 할 수 있습니다. ID 키가 구성되면 캠페인 표준 인터페이스 또는 API에서 이 식별 키를 사용하여 리소스를 호출할 수 있도록 필터 정의를 구성해야 합니다.
 
-In this use case, the **Profile** resource has been extended with custom **"CRM ID"** and **"category"** field. 프로필 리소스에 대한 ID 키가 생성됩니다. 이 키는 두 개의 필드로 구성됩니다. 그런 다음 필터 정의를 구성하면 ID 키를 사용하여 프로필 리소스에 액세스할 수 있습니다.
+이 사용 사례에서는 **프로필** 리소스가 사용자 지정 **"CRM ID"** 및 **"카테고리"** 필드로 확장되었습니다. 프로필 리소스에 대한 ID 키가 생성됩니다. 이 키는 두 개의 필드로 구성됩니다. 그런 다음 필터 정의를 구성하면 ID 키를 사용하여 프로필 리소스에 액세스할 수 있습니다.
 
-이 사용 사례의 기본 단계는 다음과 같습니다.
+이 사용 사례의 주요 단계는 다음과 같습니다.
 
 1. 두 필드를 기반으로 프로필 리소스에 대한 식별 키를 구성합니다.
 1. ID 키를 사용하여 프로필 리소스를 호출할 수 있도록 필터 정의를 구성합니다.
@@ -30,7 +30,7 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 ## 1 단계: ID 키 구성
 
 >[!NOTE]
-> Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+> 식별 키를 구성할 때 전역 개념이 이 섹션에 자세히 [](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)설명되어 있습니다.
 
 1. ID 키를 구성하기 전에 리소스가 원하는 필드로 확장되었고 게시되었는지 확인하십시오. For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
 
@@ -42,19 +42,19 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
    ![](assets/uc_idkey2.png)
 
-1. Add the two custom "CRM ID" and "Category" fields, then click **[!UICONTROL Confirm]**.
+1. 두 개의 사용자 지정 "CRM ID" 및 "카테고리" 필드를 추가한 다음을 클릭합니다 **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[!UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > 프로필 인터페이스에서 두 개의 사용자 지정 필드를 표시하려면 **[!UICONTROL Screen definition]** 탭을 구성합니다. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
 
 1. 이제 ID 키를 사용하여 리소스를 호출할 수 있도록 필터 정의를 구성할 수 있습니다.
 
 ## 2 단계: 필터 정의 구성
 
 >[!NOTE]
-> Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
+> 필터 정의를 구성할 때 전역 개념이 이 섹션에 자세히 [](../../developing/using/configuring-filter-definition.md)설명되어 있습니다.
 
 1. **[!UICONTROL Filter definition]** 탭에서를 클릭하고 **[!UICONTROL Add an element]**&#x200B;필터 정의의 레이블 및 ID를 입력합니다.
 
@@ -66,7 +66,7 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
    ![](assets/uc_idkey5.png)
 
-1. Select the first field used in the identification key ("CRM ID"), then activate the **[!UICONTROL Switch to parameters]** option.
+1. ID 키 ("CRM ID") 에 사용된 첫 번째 필드를 선택하고 **[!UICONTROL Switch to parameters]** 이 옵션을 활성화합니다.
 
    ![](assets/uc_idkey6.png)
 
@@ -87,7 +87,7 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
 식별 키와 해당 필터 정의가 구성되면, 캠페인 표준 인터페이스 또는 REST API에서 리소스를 호출하는 데 사용할 수 있습니다.
 
-To use the filter definition from the interface, use a **[!UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). 그런 다음 왼쪽 창에서 필터를 사용할 수 있습니다.
+인터페이스에서 필터 정의를 사용하려면 워크플로우에서 **[!UICONTROL Query]** 활동을 사용합니다 ( [이 섹션](../../automating/using/query.md)참조). 그런 다음 왼쪽 창에서 필터를 사용할 수 있습니다.
 
 ![](assets/uc_idkey9.png)
 
@@ -103,4 +103,4 @@ In our case, the syntax to retrieve a profile from the "spring" category and wit
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
+자세한 내용은 [Campaign Standard REST API 설명서를](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)참조하십시오.
