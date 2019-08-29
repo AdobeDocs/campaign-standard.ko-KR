@@ -15,7 +15,7 @@ context-tags: 워크플로우, 활용 사례, 세분화
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -42,15 +42,14 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 세그먼트 위로 마우스를 가져간 다음 ![](assets/edit_darkgrey-24px.png) 올해 데이터베이스에 추가된 타겟 고객을 클릭합니다.
 1. 필터 유형을 드래그하여 놓고 **[!UICONTROL Profiles]** 선택합니다 **[!UICONTROL Created]****[!UICONTROL Relative]**.
 1. **[!UICONTROL Level of precision]** To **[!UICONTROL Year]** &amp; Select **[!UICONTROL This year]**&#x200B;를 변경합니다.
-
->[!NOTE]
->
->규칙의 구조를 관찰하려면 **[!UICONTROL Advanced Mode]**&#x200B;을 클릭합니다.
-
 1. 두 **[!UICONTROL Confirm]** 번 클릭합니다.
 1. 에서 **[!UICONTROL Advanced Options]**&#x200B;나머지 **[!UICONTROL Generate complement]** 수신자를 대상으로 하는 세그먼트를 만들려면을 선택합니다.
 1. **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+
+>[!NOTE]
+>
+>규칙의 구조를 관찰하려면 **[!UICONTROL Advanced Mode]**&#x200B;을 클릭합니다.
 
 ## 이메일 배달 만들기 {#create-an-email-delivery}
 
@@ -62,11 +61,10 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 이메일의 레이아웃을 만들려면 **[!UICONTROL Email Designer]**&#x200B;을 클릭합니다.
 1. 요소를 삽입하거나 기존 템플릿을 선택합니다.
 1. 각 전달 상황에 맞는 제안을 이메일로 개인화할 수 있습니다.
-
-자세한 내용은 이메일 [디자인을](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)참조하십시오.
-
 1. 레이아웃을 **[!UICONTROL Preview]** 확인하려면을 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+
+자세한 내용은 이메일 [디자인을](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)참조하십시오.
 
 **관련 항목:**
 
