@@ -15,7 +15,7 @@ context-tags: '워크플로우, 사용 사례, 쿼리, 세분화, 전달 '
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -45,11 +45,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
 1. In **[!UICONTROL List of outbound segments]**, click **[!UICONTROL Add an element]** and click on ![](assets/edit_darkgrey-24px.png) to create a segment targeting people in the second city. Here Chicago.
 1. 연산자를 드래그하여 놓고 **[!UICONTROL Location]****[!UICONTROL City]** 연산자로 **[!UICONTROL equals to]** 선택하고 값을 **[!UICONTROL Chicago]** 입력합니다.
-
->[!NOTE]
->
->시카고에 입력한 모든 사람에게 도달하려면 대/소문자를 구분하지 않는 옵션을 선택 취소합니다.
-
+1. 시카고에 입력한 모든 사람에게 도달하려면 대/소문자를 구분하지 않는 옵션을 선택 취소합니다.
 1. **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
 
 ## 이메일 배달 만들기{#creating-an-email-delivery}
