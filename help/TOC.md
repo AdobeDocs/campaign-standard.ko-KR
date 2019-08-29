@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: 최종 사용자
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
+source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 
 ---
 
@@ -290,6 +290,12 @@ source-git-commit: 0a6476c1c8b57bd3cda4942e9a772ca59596398d
       + [로그 내보내기](automating/using/exporting-logs.md)
       + [패키지 관리](automating/using/managing-packages.md)
       + [목록 내보내기](automating/using/exporting-lists.md)
+   + 사용 사례: 워크플로우 {#workflow-use-case}
+      + [보완을 통한 전달 창출](automating/using/workflow-created-query-with-complement.md)
+      + [작성 날짜에 배달 만들기](automating/using/workflow-creation-date-query.md)
+      + [주별 배달 만들기](automating/using/workflow-weekly-offer.md)
+      + [위치에 세그멘테이션 만들기](automating/using/workflow-segmentation-location.md)
+      + [비개방적인 리타겟팅](automating/using/workflow-cross-channel-retargeting.md)
 + developing {#developing}
    + 사용자 정의 리소스 정보 {#about-custom-resources}
       + [데이터 모델 개념](developing/using/data-model-concepts.md)
