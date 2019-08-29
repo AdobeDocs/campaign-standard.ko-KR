@@ -15,7 +15,7 @@ context-tags: 워크플로우, 사용 사례, 쿼리
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -36,14 +36,13 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 에서 **[!UICONTROL Execution frequency]****[!UICONTROL Daily]**&#x200B;를 선택합니다.
 1. 워크플로우에 대한 실행 **[!UICONTROL Time]****[!UICONTROL Repetition frequency]** 및 실행을 선택합니다.
 1. 날짜와 워크플로우의 **[!UICONTROL Start]****[!UICONTROL Expiration]** 날짜를 선택합니다.
+1. 활동을 확인하고 워크플로우를 저장합니다.
 
 >[!NOTE]
 >
 >특정 시간대에서 워크플로우를 시작하려면&#x200B;**[!UICONTROL Execution options]**&#x200B;탭에서 스케줄러에 대한 표준 시간대를 **[!UICONTROL Time zone]**&#x200B;설정합니다.
 
 ![](assets/time_zone.png)
-
-1. 활동을 확인하고 워크플로우를 저장합니다.
 
 ## 쿼리 활동 만들기 {#creating-a-query-activity}
 
@@ -75,13 +74,13 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. **[!UICONTROL Query]** 편집기에서 첫 번째 쿼리를 선택하고 복제합니다.
 1. 복제를 엽니다.
 1. 쿼리에서 **[!UICONTROL Day]****[!UICONTROL Month]** 로 바꿉니다.
-이것으로 끝내야 합니다.
-
-``` Month(@created) = Month(GetDate()) ```
-
 1. **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
 
 ![](assets/month_rule.png)
+
+이것으로 끝내야 합니다.
+
+``` Month(@created) = Month(GetDate()) ```
 
 최종 쿼리가 표시됩니다.
 
