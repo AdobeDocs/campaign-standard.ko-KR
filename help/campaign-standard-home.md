@@ -1,18 +1,18 @@
 ---
-keywords: Campaign Standard; 홈; 인기 항목
+keywords: Campaign Standard;home;popular topics
 seo-title: Adobe Campaign Standard 제품 설명서
 solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d7c3ffc46d6d0975bc8d068438aea8d13501af21
 
 ---
 
 
-# Help Center {#campaign-standard-documentation}
+# 도움말 센터 {#campaign-standard-documentation}
 
-Adobe Campaign Standard 제품 설명서를 사용하여 기본 사항을 배우고 기술을 세밀하게 수정할 수 있습니다.
+Adobe Campaign Standard 제품 설명서를 사용하여 기본 사항을 익히고 기술력을 다듬어 보십시오.
 
 |  |  |  |
 |:---:|:---:|:---:|
