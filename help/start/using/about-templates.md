@@ -14,7 +14,7 @@ discoiquuid: 95218 EBE -5430-42 A 2-B 900-1 DADBBC 92 D 99
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
+source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
 
 ---
 
@@ -58,7 +58,7 @@ HTML 컨텐츠 템플릿은 고급 메뉴의 **[!UICONTROL Resources]** &gt; **[
 
 ![](assets/content_templates_list.png)
 
-기본 컨텐츠 템플릿은 읽기 전용입니다. 이 중 하나를 편집하려면 먼저 복제해야 합니다.
+기본 컨텐츠 템플릿은 읽기 전용입니다. 이 중 하나를 편집하려면 먼저 원하는 템플릿을 복제해야 합니다.
 
 새 템플릿 또는 조각을 만들고 고유한 컨텐츠를 정의할 수 있습니다. 이에 대한 자세한 내용은 컨텐츠 템플릿 [만들기](../../start/using/about-templates.md#creating-a-content-template) 및 컨텐츠 조각 [만들기를](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment)참조하십시오.
 
