@@ -14,14 +14,14 @@ discoiquuid: 382 EA 74 E -1662-4 C 64-96 D 7-676040586913
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Targeting data{#targeting-data}
+# 타깃팅 데이터{#targeting-data}
 
-## Selecting data {#selecting-data}
+## 데이터 선택 {#selecting-data}
 
 다음 활동을 사용하여 데이터를 선택할 수 있습니다.
 
@@ -29,7 +29,7 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 * **[!UICONTROL Incremental query]** 활동을 통해 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이렇게 하면 새 요소만 타깃팅할 수 있습니다. [증분 쿼리](../../automating/using/incremental-query.md) 섹션을 참조하십시오.
 * **[!UICONTROL Read audience]** 활동을 사용하면 기존 대상을 검색하고 추가 필터링 조건을 적용하여 중재할 수 있습니다. 대상자 [읽기](../../automating/using/read-audience.md) 섹션을 참조하십시오.
 
-## Segmenting data {#segmenting-data}
+## 데이터 세그먼트화 {#segmenting-data}
 
 Adobe Campaign를 사용하면 인바운드 데이터에 대한 세트를 처리할 수 있습니다. 따라서 여러 모집단을 결합하거나, 일부를 제외하거나, 여러 대상에만 공통되는 데이터를 유지할 수 있습니다.
 
@@ -38,13 +38,19 @@ Adobe Campaign를 사용하면 인바운드 데이터에 대한 세트를 처리
 * **[!UICONTROL Exclusion]** 활동을 통해 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다. [제외](../../automating/using/exclusion.md) 섹션을 참조하십시오.
 * **[!UICONTROL Segmentation]** 활동을 사용하면 워크플로우 이전에 제출한 활동에 의해 계산된 모집단으로부터 하나 또는 여러 세그먼트를 만들 수 있습니다. 활동이 종료되면 하나의 전환 또는 다른 전환을 통해 처리할 수 있습니다. [세그멘테이션](../../automating/using/segmentation.md) 섹션을 참조하십시오.
 
-## Enriching data {#enriching-data}
+## 데이터 강화 {#enriching-data}
 
 식별되고 수집된 데이터는 Target 건설을 최적화하기 위해 농축되고, 집계되고, 조작할 수 있습니다. 데이터 마트에서 모델링되지 않은 데이터를 포함하여 타깃팅 프로세스를 단순화하고 최적화할 수 있습니다.
 
-The **[!UICONTROL Additional data]** tab of the **[!UICONTROL Query]** and **[!UICONTROL Incremental query]** activities allows you to enrich the data targeted by the query and transfer this data to the following workflow activities, where it can be utilized. 특히 다음을 추가할 수 있습니다.
+AND **[!UICONTROL Additional data]****[!UICONTROL Query]****[!UICONTROL Incremental query]** 활동 탭에서는 쿼리에 의해 타깃팅된 데이터를 강화하고 이 데이터를 활용할 수 있는 다음 워크플로우 활동에 전송할 수 있습니다. 특히 다음을 추가할 수 있습니다.
 
 * 간단한 데이터
 * 집계
 * 컬렉션
 
+**관련 항목**
+
+* [사용 사례: 일주일에 한 번 이메일 배달 만들기](../../automating/using/workflow-weekly-offer.md)
+* [사용 사례: 위치에서 세그먼트화된 배달 만들기](../../automating/using/workflow-segmentation-location.md)
+* [사용 사례: 보완을 통한 전달 창출](../../automating/using/workflow-created-query-with-complement.md)
+* [사용 사례: 새 배달을 오프닝으로 전송하는 재타깃팅 워크플로우](../../automating/using/workflow-cross-channel-retargeting.md)
