@@ -15,7 +15,7 @@ context-tags: '워크플로우, 사용 사례, 쿼리, 세분화, 전달 '
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -35,6 +35,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. 에서 **[!UICONTROL Shortcuts]**&#x200B;연산자와 함께 **[!UICONTROL Profiles]** 필드를 **[!UICONTROL email]** 드래그하여 놓습니다 **[!UICONTROL is not empty]**.
 1. 에서 **[!UICONTROL Shortcuts]**&#x200B;값이 있는 필드를 **[!UICONTROL Profiles]****[!UICONTROL no longer contact by email]** 드래그하여 놓은 **[!UICONTROL no]**&#x200B;다음 선택합니다.
 1. 두 **[!UICONTROL Confirm]** 번 클릭합니다.
+
+![](assets/wf-complement-query.png)
 
 ## 세그멘테이션 활동 만들기{#creating-a-segmentation-activity}
 
@@ -63,6 +65,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 1. 레이아웃을 **[!UICONTROL Preview]** 확인하려면을 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+
+![](assets/wf-segmentation-location.png)
 
 **관련 항목:**
 
