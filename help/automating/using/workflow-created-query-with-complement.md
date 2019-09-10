@@ -15,7 +15,7 @@ context-tags: 워크플로우, 활용 사례, 세분화
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. 에서 **[!UICONTROL Shortcuts]**&#x200B;값을 드래그하여 놓고 **[!UICONTROL Profiles]** 선택합니다 **[!UICONTROL no longer contact by email]****[!UICONTROL no]**.
 1. **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
 
+![](assets/wf-complement-query.png)
+
 ## 세그멘테이션 활동 만들기 {#create-a-segmentation-activity}
 
 1. 에서 **[!UICONTROL Activities]****[!UICONTROL Targeting]****[!UICONTROL Segmentation]** 활동을 드래그하여 놓고 두 번 클릭합니다.
@@ -46,6 +48,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. 에서 **[!UICONTROL Advanced Options]**&#x200B;나머지 **[!UICONTROL Generate complement]** 수신자를 대상으로 하는 세그먼트를 만들려면을 선택합니다.
 1. **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+
+![](assets/wf-complement-segmentation.png)
 
 >[!NOTE]
 >
@@ -65,6 +69,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
 자세한 내용은 이메일 [디자인을](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)참조하십시오.
+
+![](assets/wf-deliveries-with-a-complement.png)
 
 **관련 항목:**
 
