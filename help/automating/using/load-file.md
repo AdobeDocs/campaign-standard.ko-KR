@@ -15,20 +15,20 @@ context-tags: Fileimport, Main
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: fc3c687328c5a460b442b8b2497965ccab3be50b
 
 ---
 
 
-# Load file{#load-file}
+# 파일 로드{#load-file}
 
-## Description {#description}
+## description {#description}
 
 ![](assets/data_loading.png)
 
 **[!UICONTROL Load file]** 활동을 통해 데이터를 Adobe Campaign에서 사용할 수 있도록 구조화된 형태로 가져올 수 있습니다. 데이터는 일시적으로 가져온 것이며 다른 활동은 Adobe Campaign 데이터베이스에 명확하게 통합하기 위해 필요합니다.
 
-## Context of use {#context-of-use}
+## 사용 상황 {#context-of-use}
 
 데이터가 추출될 방법은 활동이 구성될 때 정의됩니다. 로드할 파일은 연락처 목록이 될 수 있습니다.
 
@@ -38,10 +38,10 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 다음을 수행할 수 있습니다.
 
-* Use the file structure to apply it to another file's data (recovered using the **[!UICONTROL Transfer file]** activity) or,
+* 파일 구조를 사용하여 **[!UICONTROL Transfer file]** 다른 파일의 데이터 (활동을 사용하여 복구됨) 또는,
 * 파일의 구조 및 데이터를 사용하여 Adobe Campaign로 가져옵니다.
 
-## Configuration {#configuration}
+## 구성 {#configuration}
 
 활동 구성은 두 단계로 이루어집니다. 먼저 샘플 파일을 업로드하여 예상 파일 구조를 정의해야 합니다. 이 작업이 끝나면 데이터를 가져올 파일의 원본을 지정할 수 있습니다.
 
@@ -50,21 +50,21 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 >샘플 파일의 데이터는 활동을 구성하는 데 사용되지만 가져오지는 않습니다. 데이터가 거의 들어 있는 샘플 파일을 사용하는 것이 좋습니다.
 
 1. **[!UICONTROL Load file]** 워크플로우를 워크플로우로 드래그하여 놓습니다.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 단추를 사용하여 엽니다.
 1. 최종 파일을 가져올 때 예상되는 구조를 정의할 수 있는 샘플 파일을 업로드합니다.
 
    ![](assets/wkf_file_loading.png)
 
-   Once the data file is uploaded, two new tabs appear in the activity: **[!UICONTROL File structure]** and **[!UICONTROL Column definition]**.
+   데이터 파일이 업로드되면 활동에 두 개의 새 탭이 나타납니다. **[!UICONTROL File structure]** **[!UICONTROL Column definition]** And.
 
 1. **[!UICONTROL File structure]** 탭으로 이동하여 샘플 파일에서 자동으로 감지된 구조를 봅니다.
 
    파일 구조가 잘못 탐지된 경우 가능한 오류를 수정할 수 있는 옵션이 몇 가지 있습니다.
 
-   * You can choose to use the structure of another file by selecting the **[!UICONTROL Detect structure from a new file]** option.
-   * 기본 감지 매개 변수를 수정하여 파일에 적용할 수 있습니다. **[!UICONTROL File type]** 이 필드에서 가져오려는 파일이 고정 길이의 열로 이루어져 있는지 지정할 수 있습니다. In that case, you must also specify the maximum number of characters for each column in the **[!UICONTROL Column definition]** tab.
+   * 옵션을 선택하여 다른 파일의 구조를 사용하도록 **[!UICONTROL Detect structure from a new file]** 선택할 수 있습니다.
+   * 기본 감지 매개 변수를 수정하여 파일에 적용할 수 있습니다. **[!UICONTROL File type]** 이 필드에서 가져오려는 파일이 고정 길이의 열로 이루어져 있는지 지정할 수 있습니다. 이 경우, 탭의 각 열에 대한 최대 문자 수를 지정해야 **[!UICONTROL Column definition]** 합니다.
 
-      All of the detection options necessary to correctly recover the data from the file are regrouped in **[!UICONTROL File format]**. 이러한 새로운 설정을 고려하여 활동에 로드된 마지막 파일의 구조를 다시 감지할 수 있습니다. To do this, use the **[!UICONTROL Apply configuration]** button. 예를 들어, 다른 열 구분 기호를 지정할 수 있습니다.
+      파일에서 데이터를 올바르게 복구하는 데 필요한 모든 감지 옵션이 다시 **[!UICONTROL File format]**&#x200B;그룹화됩니다. 이러한 새로운 설정을 고려하여 활동에 로드된 마지막 파일의 구조를 다시 감지할 수 있습니다. 이렇게 하려면 **[!UICONTROL Apply configuration]** 단추를 사용합니다. 예를 들어, 다른 열 구분 기호를 지정할 수 있습니다.
 
       >[!NOTE]
       >
@@ -84,7 +84,7 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
    예를 들어, 열의 레이블을 변경할 수 있습니다 (문자열, 정수, 날짜 등). 오류 처리를 지정할 수도 있습니다.
 
-   For more information, refer to the [Column format](../../automating/using/load-file.md#column-format) section.
+   자세한 내용은 [열 형식](../../automating/using/load-file.md#column-format) 섹션을 참조하십시오.
 
    ![](assets/wkf_file_loading4.png)
 
@@ -92,11 +92,11 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
    * 워크플로우에서 인바운드 전환을 가져옵니다.
    * 는 이전 단계에서 업로드한 항목입니다.
-   * 은 로컬 컴퓨터에서 업로드할 새 파일입니다. The **[!UICONTROL Upload a new file from local machine]** option appears if uploading a first file was already defined in the workflow. 이렇게 하면 현재 파일이 사용자의 요구 사항에 맞지 않는 경우 처리할 다른 파일을 업로드할 수 있습니다.
+   * 은 로컬 컴퓨터에서 업로드할 새 파일입니다. 이 **[!UICONTROL Upload a new file from local machine]** 옵션은 워크플로우에 첫 번째 파일을 업로드한 경우 나타납니다. 이렇게 하면 현재 파일이 사용자의 요구 사항에 맞지 않는 경우 처리할 다른 파일을 업로드할 수 있습니다.
 
       ![](assets/wkf_file_loading1.png)
 
-1. If the file that you want to load the data from is compressed into a GZIP file (.gz), select the **[!UICONTROL Decompression]** option in the **[!UICONTROL Add a pre-processing step]** field. 이렇게 하면 데이터를 로드하기 전에 파일의 압축을 해제할 수 있습니다. 이 옵션은 해당 파일이 활동의 인바운드 전환에서 오는 경우에만 사용할 수 있습니다.
+1. 데이터를 로드할 파일이 GZIP 파일 (.gz로 압축되는 경우 필드에서 **[!UICONTROL Decompression]** 해당 옵션을 **[!UICONTROL Add a pre-processing step]** 선택합니다. 이렇게 하면 데이터를 로드하기 전에 파일의 압축을 해제할 수 있습니다. 이 옵션은 해당 파일이 활동의 인바운드 전환에서 오는 경우에만 사용할 수 있습니다.
 1. **[!UICONTROL Keep the rejects in a file]** 이 옵션을 사용하면 가져오는 동안 발생한 오류가 포함된 파일을 다운로드하고 후처리 단계에 적용할 수 있습니다.
 
    >[!NOTE]
@@ -107,11 +107,11 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 1. 활동의 구성을 확인하고 워크플로우를 저장합니다.
 
-## Column format {#column-format}
+## 열 형식 {#column-format}
 
 샘플 파일을 로드할 때 각 데이터 유형에 대한 기본 매개 변수와 함께 열 형식이 자동으로 검색됩니다. 특히 오류 또는 빈 값이 있을 때 데이터에 적용할 특정 프로세스를 지정할 수 있도록 이러한 기본 매개 변수를 수정할 수 있습니다.
 
-To do this, select **[!UICONTROL Edit properties]** from the quick actions of the column whose format you would like to define. 열 형식 세부 사항 창이 열립니다.
+이렇게 하려면 형식을 정의할 열의 빠른 작업 **[!UICONTROL Edit properties]** 중에서 선택합니다. 열 형식 세부 사항 창이 열립니다.
 
 ![](assets/wkf_file_loading4.png)
 
@@ -152,20 +152,74 @@ To do this, select **[!UICONTROL Edit properties]** from the quick actions of th
    * **[!UICONTROL Insert NULL in the corresponding field]**: 빈 값을 허용합니다. null 값이 삽입됩니다.
    * **[!UICONTROL Generate an error]**: 값이 비어 있으면 오류를 생성합니다.
 
-## Example {#example}
+## 예제 1: 데이터베이스 업데이트 {#example-1-update-the-database}
 
 로드 파일 활동은 주로 기존 데이터에 데이터를 통합하기 위해 전송 파일 활동의 데이터를 구조화합니다.
 
 다음 예는 파일 전송 활동을 통해 자동으로 다운로드한 로드 파일 활동의 결과와 그 뒤에 데이터 업데이트 기능을 보여 줍니다. 이 워크플로우는 Adobe Campaign 데이터베이스를 새 프로필로 보강하거나 가져온 파일에서 복구된 데이터를 사용하여 기존 프로필을 업데이트하는 것을 목표로 합니다.
 
+![](assets/load_file_workflow_ex1.png)
+
 1. **[!UICONTROL Transfer file]** 워크플로우를 워크플로우로 드래그하여 놓고 원하는 파일을 복구하도록 구성합니다.
 1. **[!UICONTROL Load file]** 활동을 워크플로우로 드래그하여 놓고 **[!UICONTROL Transfer file]** 활동 뒤에 배치합니다.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. In the **[!UICONTROL File to load]** section of the **[!UICONTROL Execution]** tab, check the **[!UICONTROL Use the file specified in the inbound transition]** option.
+1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 단추를 사용하여 엽니다.
+1. 탭의 **[!UICONTROL File to load]** 섹션에서 **[!UICONTROL Execution]****[!UICONTROL Use the file specified in the inbound transition]** 옵션을 선택합니다.
 
    ![](assets/wkf_file_loading8.png)
 
 1. 이전에 지정한 대로 활동을 구성합니다.
-1. **[!UICONTROL Update data]** 활동을 워크플로우로 드래그하여 놓고 **[!UICONTROL Load file]** 활동 뒤에 배치한 다음 구성합니다. Refer to [Update data](../../automating/using/update-data.md).
+1. **[!UICONTROL Update data]** 활동을 워크플로우로 드래그하여 놓고 **[!UICONTROL Load file]** 활동 뒤에 배치한 다음 구성합니다. 데이터 [업데이트를 참조하십시오](../../automating/using/update-data.md).
 
 워크플로우가 시작되면 업로드된 파일의 데이터가 추출되어 Adobe Campaign 데이터베이스를 보강하는 데 사용됩니다.
+
+## 예제 2: 강화된 필드가 포함된 이메일 전송 {#example-2-email-with-enriched-fields}
+
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+
+또한 파일 로드 활동을 통해 동일한 워크플로우에서 외부 파일의 추가 데이터로 강화된 이메일을 보낼 수 있습니다.
+
+아래 예제는 로드 파일 활동을 통해 외부 파일에서 검색된 추가 데이터를 사용하여 이메일을 전송하는 방법을 보여줍니다. 이 예에서 외부 파일에는 연결된 계정 번호와 함께 프로필 목록이 포함되어 있습니다. 이 데이터를 가져와서 계정 번호와 함께 각 프로필에 이메일을 보냅니다.
+
+![](assets/load_file_workflow_ex2.png)
+
+1. **[!UICONTROL Query]** 활동을 워크플로우로 드래그하여 놓고 열어서 기본 타겟을 정의합니다.
+
+   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
+
+1. 활동에 일부 데이터를 할당하려면 **[!UICONTROL Load file]** 활동을 끌어다 놓으십시오. 이 예에서는 데이터베이스의 일부 프로필에 해당하는 계정 번호가 들어 있는 파일을 로드합니다.
+
+   ![](assets/load_file_activity.png)
+
+1. **[!UICONTROL Enrichment]** 활동을 워크플로우로 드래그하여 놓고 로드 파일과 쿼리 활동을 연결합니다.
+
+1. 강화 활동의 **[!UICONTROL Advanced relations]** 탭에서를 선택하고 **[!UICONTROL 0 or 1 cardinality simple link]** 조정에 사용할 필드를 정의합니다. 여기서는 성을 사용하여 데이터를 데이터베이스 프로파일과 조정합니다.
+
+   ![](assets/load_file_enrichment_relation.png)
+
+1. **[!UICONTROL Additional data]** 탭에서 이메일에 사용할 요소를 선택합니다. 여기에서 계정 번호 (로드 파일 활동을 통해 검색한 파일에서 열) 를 선택합니다.
+
+   ![](assets/load_file_enrichment_select_element.png)
+
+   <!--![](assets/load_file_enrichment_additional_data.png)-->
+
+   이에 대한 자세한 내용은 [강화](../../automating/using/enrichment.md) 섹션을 참조하십시오.
+
+1. **[!UICONTROL Segmentation]** 활동을 워크플로우로 드래그하여 놓고 열면 기본 타겟이 세분화됩니다.
+
+   ![](assets/load_file_segmentation.png)
+
+   이에 대한 자세한 내용은 [세그멘테이션](../../automating/using/segmentation.md) 섹션을 참조하십시오.
+
+1. **[!UICONTROL Email delivery]** 워크플로우를 워크플로우로 드래그하여 놓고 엽니다.
+
+   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
+
+1. 개인화 필드를 추가하고 **[!UICONTROL Additional data (targetData)]** 노드에서 강화 활동 (계정 번호) 에 정의된 추가 데이터를 선택합니다. 이렇게 하면 이메일 컨텐츠에서 각 프로필의 계정 번호를 동적으로 검색할 수 있습니다.
+
+   ![](assets/load_file_perso_field.png)
+
+1. 이메일을 저장하고 워크플로우를 시작합니다.
+
+이메일이 Target로 전송됩니다. 각 프로필은 해당 계정 번호와 함께 이메일을 받습니다.
+
+![](assets/load_file_email.png)
