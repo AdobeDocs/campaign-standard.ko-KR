@@ -15,7 +15,7 @@ context-tags: '워크플로우, 사용 사례, 쿼리, 대기, 전달 '
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 에서 **[!UICONTROL Shortcuts]**&#x200B;값을 드래그하여 놓고 **[!UICONTROL Profiles]** 선택합니다 **[!UICONTROL no longer contact by email]****[!UICONTROL no ]**.
 1. **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
 
+![](assets/wf-complement-query.png)
+
 ## 이메일 배달 만들기{#creating-an-email-delivery}
 
 1. 각 세그먼트 다음에****[!UICONTROL Email delivery]이메일 배달을 드래그하여 놓습니다.
@@ -44,7 +46,6 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. **[!UICONTROL Add an outbound transition without the population]****[!UICONTROL Next]**&#x200B;을 선택하고 클릭합니다.
 1. 이메일 템플릿을 선택하고 **[!UICONTROL Next]**&#x200B;를 클릭합니다.
 1. 이메일 속성을 입력하고 **[!UICONTROL Next]**&#x200B;를 클릭합니다.
-1. 이메일 **이메일 오퍼의 이름을 변경합니다**.
 1. 이메일의 레이아웃을 만들려면 **[!UICONTROL Using the Email Designer]**&#x200B;을 클릭합니다.
 1. 요소를 삽입하거나 기존 템플릿을 선택합니다.
 1. 각 위치에 맞는 제안을 이메일로 개인화할 수 있습니다. 자세한 내용은 이메일 [디자인을](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)참조하십시오.
@@ -76,6 +77,8 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 자세한 내용은 SMS [디자인을](../../channels/using/creating-an-sms-message.md)참조하십시오.
 1. 레이아웃을 **[!UICONTROL Preview]** 확인하려면을 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+
+![](assets/wf-retargeting-non-openers.png)
 
 **관련 항목:**
 
