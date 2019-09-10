@@ -15,12 +15,12 @@ context-tags: Workflow, Wizard; 워크플로우, 기본
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Building a workflow{#building-a-workflow}
+# 워크플로우 구축{#building-a-workflow}
 
 이 섹션에서는 새 워크플로우를 만드는 기본 원칙과 우수 사례를 자세히 설명합니다.
 
@@ -28,11 +28,11 @@ source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 * 활동 추가 및 연결.
 * 활동 구성을 참조하십시오.
 
-## Creating a workflow {#creating-a-workflow}
+## 워크플로우 만들기 {#creating-a-workflow}
 
 프로그램, 캠페인 또는 마케팅 활동 목록에서 워크플로우를 만들 수 있습니다.
 
-Creating a marketing activity is detailed in the [Creating marketing activities](../../start/using/marketing-activities.md#creating-a-marketing-activity) section.
+마케팅 활동 만들기는 마케팅 활동 [만들기](../../start/using/marketing-activities.md#creating-a-marketing-activity) 섹션에 자세히 설명되어 있습니다.
 
 1. 워크플로우 유형 마케팅 활동을 만들었으면 사용할 템플릿을 선택합니다.
 
@@ -40,7 +40,7 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
    >[!NOTE]
    >
-   >각 마케팅 활동은 기본적으로 여러 유형을 제공합니다. 이를 통해 필요에 따라 특정 매개 변수를 미리 구성할 수 있습니다. For more information, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   >각 마케팅 활동은 기본적으로 여러 유형을 제공합니다. 이를 통해 필요에 따라 특정 매개 변수를 미리 구성할 수 있습니다. 자세한 내용은 템플릿 [관리](../../start/using/about-templates.md) 섹션을 참조하십시오.
 
 1. 워크플로우의 일반 속성을 입력합니다.
 
@@ -56,13 +56,13 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
    Adobe는 예상한 방식으로 수행하지 않는 경우 더 쉽게 찾고 문제를 해결할 수 있도록 하기 때문에 워크플로우에 적절한 이름과 레이블을 제공할 것을 권장합니다. 워크플로우의 설명 필드를 채워 연산자가 작업을 쉽게 이해할 수 있도록 프로세스를 요약합니다.
 
-1. 활동 만들기를 확인하면 해당 활동에 대한 대시보드가 표시됩니다. For more on this, refer to the [Workflow interface](../../automating/using/workflow-interface.md) section.
+1. 활동 만들기를 확인하면 해당 활동에 대한 대시보드가 표시됩니다. 이에 대한 자세한 내용은 [워크플로우 인터페이스](../../automating/using/workflow-interface.md) 섹션을 참조하십시오.
 
 **관련 항목:**
 
 [워크플로우](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-workflow-feature-video-use.html) 비디오 만들기
 
-## Adding and linking activities {#adding-and-linking-activities}
+## 활동 추가 및 연결 {#adding-and-linking-activities}
 
 이제 다양한 활동을 정의하고 다이어그램에서 함께 링크해야 합니다.
 
@@ -81,9 +81,9 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
 1. 팔레트에서 활동을 끌어 다이어그램에 놓아 활동을 추가합니다.
 
-   For example, add a **Start** activity and then an **Email delivery** activity on the diagram.
+   예를 들어 **시작** 활동을 추가한 다음 다이어그램에 **이메일 게재** 활동을 추가합니다.
 
-1. Link the activities together by dragging the **Start** activity transition and dropping it on to the **Email delivery** activity.
+1. 활동 **시작을** 드래그하여 **이메일 게재** 활동에 놓아 활동을 연결합니다.
 
    >[!NOTE]
    >
@@ -93,20 +93,26 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
 
    >[!NOTE]
    >
-   >기존 활동을 복사하여 복사하여 복제할 수도 있습니다. 이렇게 하면 원래 정의된 설정을 유지합니다. For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+   >기존 활동을 복사하여 복사하여 복제할 수도 있습니다. 이렇게 하면 원래 정의된 설정을 유지합니다. 이에 대한 자세한 내용은 워크플로우 활동 [복제를](../../automating/using/workflow-interface.md#duplicating-workflow-activities)참조하십시오.
 
-Once your workflow activities are linked together, you can personalize the transitions between them with the **label** of your choice. 이렇게 하려면 전환을 두 번 클릭하여 속성에 액세스합니다.
+워크플로우 활동을 함께 연결하면 원하는 **레이블로** 전환율을 개인화할 수 있습니다. 이렇게 하려면 전환을 두 번 클릭하여 속성에 액세스합니다.
 
-Moreover, **[!UICONTROL Targeting]** and **[!UICONTROL Data management (ETL)]** activities allows you to define **segment codes** for their outbound transitions. 그런 다음 이러한 세그먼트 코드를 기반으로 보고서를 만들어 광고 캠페인의 효율성을 측정할 수 있습니다. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+또한 **[!UICONTROL Targeting]****[!UICONTROL Data management (ETL)]** , 활동을 통해 아웃바운드 전환을 위한 **세그먼트 코드를** 정의할 수 있습니다. 그런 다음 이러한 세그먼트 코드를 기반으로 보고서를 만들어 광고 캠페인의 효율성을 측정할 수 있습니다. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
-## Configuring activities {#configuring-activities}
+**워크플로우 사용 사례:**
+
+* [사용 사례: 일주일에 한 번 이메일 배달 만들기](../../automating/using/workflow-weekly-offer.md)
+* [사용 사례: 위치에서 세그먼트화된 배달 만들기](../../automating/using/workflow-segmentation-location.md)
+* [사용 사례: 보완을 통한 전달 창출](../../automating/using/workflow-created-query-with-complement.md)
+* [사용 사례: 새 배달을 오프닝으로 전송하는 재타깃팅 워크플로우](../../automating/using/workflow-cross-channel-retargeting.md)
+
+## 활동 구성 {#configuring-activities}
 
 기본적으로 활동은 설정되지 않고 데이터가 구성되지 않은 경우 올바르게 처리되지 않습니다. 각 활동에는 아웃바운드 전환, 레이블 등과 같은 일반 옵션과 특정 구성을 관리하는 여러 개의 탭이 포함되어 있습니다.
 
 1. 모든 활동이 올바르게 연결되어 있는지 확인합니다. 일부 활동은 올바른 구성 옵션을 제공하기 위해 들어오는 데이터의 구조 또는 특성을 감지해야 합니다.
-1. Double-click an activity or select it and click the **[!UICONTROL Edit]** contextual action to open its configuration window.
+1. 활동을 두 번 클릭하거나 해당 활동을 선택하고 **[!UICONTROL Edit]** 컨텍스트 작업을 클릭하여 구성 창을 엽니다.
 1. 활동 레이블을 편집합니다.
 1. 데이터를 처리하는 데 필요한 모든 옵션을 정의합니다. 각 활동에 대한 가능한 옵션을 알려면 이 설명서의 활동 특정 섹션을 참조하십시오.
 1. 활동을 저장하고 워크플로우의 각 활동에 대해 이러한 작업을 반복합니다.
 1. 워크플로우를 저장합니다.
-
