@@ -15,7 +15,7 @@ context-tags: 워크플로우, 사용 사례, 쿼리, 전달, 스케줄러
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -52,6 +52,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. **[!UICONTROL is not empty]** 연산자로 선택합니다.
 1. &gt; **[!UICONTROL Shortcuts]****[!UICONTROL General]**&#x200B;프로필을 추가하고 값을 **[!UICONTROL no longer contact by email]****[!UICONTROL No]**&#x200B;선택합니다.
 1. **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
+
+![](assets/wf-complement-query.png)
 
 ## 이메일 배달 만들기{#creating-an-email-delivery}
 
