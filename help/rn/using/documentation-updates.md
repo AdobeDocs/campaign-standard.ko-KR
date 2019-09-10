@@ -14,7 +14,7 @@ discoiquuid: dcee 9711-7 fa 6-4773-ba 21-1 d 54 cda 20 c 05
 internal: n
 snippet: Y
 translation-type: tm+mt
-source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
+source-git-commit: 815a0aba5a31346e3cd8dcaf0c24ee311da81ed1
 
 ---
 
@@ -26,6 +26,14 @@ Adobe Campaign Standard 설명서에 대한 모든 최신 업데이트에 대해
 이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 새로운 기능 및 설명서 업데이트가 모두 나열됩니다.
 
 Adobe Campaign [릴리스 노트를 참조할](../../rn/using/release-notes.md)수도 있습니다.
+
+## 설명서 업데이트 - 2019 년 9 월 {#doc-updates-september-2019}
+
+푸시 알림 섹션에 모바일 응용 프로그램 구독 데이터를 기반으로 프로필 정보를 만들고 업데이트하는 새로운 섹션이 추가되었습니다. [자세히 보기](../../channels/using/updating-profile-with-mobile-app-data.md)
+
+로드 파일 활동에서 검색된 추가 데이터가 포함된 이메일을 전송하는 방법을 보여주는 새로운 예가 추가되었습니다. [자세히 보기](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+
+트랩 사용 방법에 대한 새로운 섹션이 추가되었습니다. [자세히 보기](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
 
 ## 설명서 업데이트 - 2019 년 8 월 {#doc-updates-august-2019}
 
