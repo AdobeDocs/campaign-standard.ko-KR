@@ -2,66 +2,66 @@
 title: Adobe 솔루션과 통합
 seo-title: Adobe 솔루션과 통합
 description: Adobe 솔루션과 통합
-seo-description: Adobe Experience Cloud 코어 서비스와 Adobe Analytics 및 Adobe Experience Manager와 같은 솔루션을 통해 심도 있는 인사이트 및 편리한 컨텐츠 관리를 통해 Adobe Campaign 전략을 향상시킬 수 있는 방법을 살펴볼 수 있습니다.
-page-status-flag: 정품 인증 안 함
-uuid: e 142 e 449-1 cf 4-4 d 3 f-a 318-6572 d 78 e 6 f 85
-contentOwner: Sauviat
-products: sg_ campaign/standard
+seo-description: Adobe Experience Cloud 핵심 서비스 및 Adobe Analytics 및 Experience Manager와 같은 솔루션을 통합하면 심도 있는 인사이트와 편리한 컨텐츠 관리를 통해 Adobe Campaign 전략을 향상시키는 방법을 살펴볼 수 있습니다.
+page-status-flag: 활성화 안 함
+uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: 참조
+content-type: reference
 topic-tags: about-adobe-campaign
-discoiquuid: 3 AEBC 89 c-ed 08-46 ab -909 c-e 077 ce 2 ab 5 da
+discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Integrating with Adobe solutions{#integrating-with-adobe-solutions}
+# Adobe 솔루션과 통합{#integrating-with-adobe-solutions}
 
-다른 Adobe Experience Cloud 솔루션과의 통합으로 초기 구성을 조정할 수 있습니다. 자세한 내용은 Adobe 기술 관리자에게 문의하십시오.
+다른 Adobe Experience Cloud 솔루션과 통합하려면 초기 구성을 수정해야 할 수 있습니다. 자세한 내용은 Adobe 기술 관리자에게 문의하십시오.
 
-Adobe Experience Cloud 솔루션과 Adobe Campaign를 결합한 다음 다음을 수행할 수 있습니다.
+Adobe Experience Cloud 솔루션과 Adobe Campaign을 함께 사용하면 다음과 같은 이점을 얻을 수 있습니다.
 
-* Adobe Campaign 메시지에서 Adobe Experience Manager로 만든 컨텐츠를 사용합니다.
+* Adobe Campaign 메시지에서 Adobe Experience Manager에서 만든 콘텐츠를 사용합니다.
 
-   For more on this, refer to [Working with Campaign and Experience Manager](../../integrating/using/integrating-with-experience-manager.md).
+   자세한 내용은 캠페인 및 [Experience Manager를 사용한 작업을 참조하십시오](../../integrating/using/integrating-with-experience-manager.md).
 
-* 다른 Adobe Experience Cloud 솔루션에서 공유 대상을 가져와 Adobe Campaign에서 사용하고 Adobe Campaign 대상을 Adobe Experience Cloud로 내보내 다른 솔루션에서 사용할 수 있습니다.
+* Adobe Campaign에서 사용할 수 있도록 다른 Experience Cloud 솔루션의 공유 대상을 가져오고 Adobe Campaign 대상을 Adobe Experience Cloud로 내보내 다른 솔루션에서 사용할 수 있습니다.
 
-   For more on this, refer to [Working with Campaign and People Core Service](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+   자세한 내용은 캠페인 및 [사용자 코어 서비스 작업을 참조하십시오](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
-* Adobe Target에서 생성한 다이내믹 이미지를 Adobe Campaign 메시지에 삽입합니다.
+* Adobe Target에서 생성된 동적 이미지를 Adobe Campaign 메시지에 삽입합니다.
 
-   For more on this, refer to [Working with Campaign and Target](../../integrating/using/about-campaign-target-integration.md).
+   자세한 내용은 캠페인 및 [타겟 작업을 참조하십시오](../../integrating/using/about-campaign-target-integration.md).
 
-* Adobe Campaign 메시지와 랜딩 페이지에서 Adobe Experience Cloud에서 공유한 리소스를 사용할 수 있습니다.
+* Adobe Campaign 메시지 및 랜딩 페이지에서 Adobe Experience Cloud에서 공유된 리소스를 사용합니다.
 
-   For more on this, refer to [Working with Campaign and Assets core service](../../integrating/using/working-with-campaign-and-assets-core-service.md).
+   자세한 내용은 캠페인 및 자산 [핵심 서비스](../../integrating/using/working-with-campaign-and-assets-core-service.md)작업을 참조하십시오.
 
-* Adobe Analytics에서 이메일 전달의 성공 여부를 추적할 수 있습니다.
+* Adobe Analytics에서 직접 이메일 전달의 성공 여부를 추적할 수 있습니다.
 
-   For more on this, refer to [Working with Campaign and Analytics](../../integrating/using/about-campaign-analytics-integration.md).
+   자세한 내용은 캠페인 및 분석 [작업을 참조하십시오](../../integrating/using/about-campaign-analytics-integration.md).
 
-* 모바일용 Adobe Analytics 와의 통합을 통해 모바일 애플리케이션의 구독자로부터 수집한 관심 영역 데이터를 사용하여 개인화된 마케팅 메시지를 보낼 수 있습니다.
+* 모바일용 Adobe Analytics와의 통합을 통해 모바일 애플리케이션 가입자로부터 수집한 관심 영역 데이터를 사용하여 개인화된 마케팅 메시지를 전송할 수 있습니다.
 
-   For more on this, refer to [Working with Campaign and Analytics for mobile/Points of Interest data](../../integrating/using/about-campaign-points-of-interest-data-integration.md).
+   자세한 내용은 모바일/관심 [영역 데이터를](../../integrating/using/about-campaign-points-of-interest-data-integration.md)위해 캠페인 및 분석을 사용한 작업을 참조하십시오.
 
-* Dreamweaver에서 이메일의 컨텐츠를 제작하고 수정합니다.
+* Dreamweaver에서 이메일 컨텐츠를 만들고 수정할 수 있습니다.
 
-   For more on this refer to [Editing content in Dreamweaver](../../designing/using/about-email-content-design.md#editing-content-in-dreamweaver).
+   자세한 내용은 Dreamweaver에서 [컨텐츠 편집을 참조하십시오](../../designing/using/using-integrations.md#editing-content-in-dreamweaver).
 
-* Adobe Campaign에서 웹 사이트에서 추적되는 특정 행동에 대한 반응으로 Adobe Campaign의 고객에게 개인화된 이메일을 보낼 수 있습니다.
+* Adobe Analytics에서 웹 사이트에서 추적한 특정 행동에 대한 반응으로 Adobe Campaign에서 개인화된 이메일을 고객에게 보냅니다.
 
-   For more on this refer to [Use Experience Cloud Triggers in Campaign Standard](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+   자세한 내용은 Campaign Standard에서 [Experience Cloud 트리거 사용을 참조하십시오](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
-* 편집 툴이다. 이제는 실시간 미리보기를 통해 더
+* Adobe Creative SDK에서 제공하는 완벽한 기능을 사용하여 컨텐츠 편집기에서 바로 이미지를 향상시킬 수 있습니다
 
-   For more on this refer to [Modifying images with the Adobe Creative SDK](../../designing/using/modifying-images-with-the-adobe-creative-sdk.md)
+   자세한 내용은 Adobe Creative [SDK를 사용하여 이미지 수정을 참조하십시오.](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
-* Adobe Experience Platform SDK를 사용하여 Adobe Campaign의 모바일 앱 속성 활성화 과정을 자동화합니다.
+* Adobe Experience Platform SDK 파섹
 
-   For more on this refer to [Configuring a mobile application using Experience Platform SDKs](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+   자세한 내용은 Experience Platform SDK [를 사용하여 모바일 애플리케이션 구성을 참조하십시오.](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
