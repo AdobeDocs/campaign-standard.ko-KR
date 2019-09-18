@@ -2,40 +2,40 @@
 title: 메시지를 보내는 주요 단계
 seo-title: 메시지를 보내는 주요 단계
 description: 메시지를 보내는 주요 단계
-seo-description: 다음 단계에 따라 Adobe Campaign를 사용하여 메시지를 만들고 보냅니다.
-page-status-flag: 정품 인증 안 함
-uuid: d 3 fbb 1 e 6-6444-4 b 56-b 9 d 6-ae 39 bd 8 d 4804
-contentOwner: Sauviat
-products: sg_ campaign/standard
+seo-description: 다음 단계에 따라 Adobe Campaign을 사용하여 메시지를 만들고 보냅니다.
+page-status-flag: 활성화 안 함
+uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 채널
-content-type: 참조
-topic-tags: About-communication-channels
-discoiquuid: A 51351 EE-E 3 B 6-4996-9 E 68-B 7 D 5157 B 8207
+content-type: reference
+topic-tags: 정보 통신 채널
+discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Key steps to send a message{#key-steps-to-send-a-message}
+# 메시지를 보내는 주요 단계{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) getting started.
+배포 우수 사례에 대한 자세한 내용은 [배포 우수 사례를](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) 참조하십시오.
 
-메시지를 만들고 보내는 단계는 다음과 같습니다.
+메시지를 만들고 전송하는 단계는 다음과 같습니다.
 
-1. Create an **[!UICONTROL Email]**, a **[!UICONTROL SMS]**, a **[!UICONTROL direct mail]** or a **[!UICONTROL push notification]** marketing activity. Refer to [Creating an email](../../channels/using/creating-an-email.md), [Creating a SMS](../../channels/using/creating-an-sms-message.md), [Creating a direct mail delivery](../../channels/using/creating-the-direct-mail.md) and [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md).
-1. 메시지 대상자를 선택합니다. Refer to [Creating audiences](../../audiences/using/creating-audiences.md).
-1. 메시지 컨텐츠 및 개인화 요소를 정의합니다. Refer to the [content editor](../../designing/using/about-email-content-design.md) for email or specific content for other channels.
-1. 전송을 준비하고 타겟 모집단을 계산하고 메시지 컨텐츠를 생성합니다. Refer to [Approving messages](../../sending/using/preparing-the-send.md).
+1. 마케팅 활동 **[!UICONTROL Email]**, **[!UICONTROL SMS]**&#x200B;또는 **[!UICONTROL direct mail]** **[!UICONTROL push notification]** 마케팅 활동을 만듭니다. 이메일 [만들기, SMS](../../channels/using/creating-an-email.md)[작성](../../channels/using/creating-an-sms-message.md), [직접 메일 배달](../../channels/using/creating-the-direct-mail.md) 만들기 및 푸시 알림 [](../../channels/using/preparing-and-sending-a-push-notification.md)만들기를 참조하십시오.
+1. 메시지의 대상을 선택합니다. 대상자 [만들기를 참조하십시오](../../audiences/using/creating-audiences.md).
+1. 메시지 컨텐츠 및 개인화 요소를 정의합니다. 이메일이나 다른 채널에 대한 특정 컨텐츠는 [컨텐츠 편집기를](../../designing/using/overview.md) 참조하십시오.
+1. 대상 모집단을 계산하고 메시지 내용을 생성하기 위한 보내기 준비를 시작합니다. 메시지 [승인을](../../sending/using/preparing-the-send.md)참조하십시오.
 
    >[!NOTE]
    >
-   >캠페인에서 오버레이된 프로필을 자동으로 제외시키는 글로벌 크로스채널 피로도 규칙을 설정할 수 있습니다. [피로 규칙을 참조하십시오](../../administration/using/fatigue-rules.md).
+   >캠페인에서 과다 복제된 프로파일을 자동으로 제외시키는 글로벌 크로스 채널 피로 규칙을 설정할 수 있습니다. 피로 [규칙을](../../administration/using/fatigue-rules.md)참조하십시오.
 
-1. 증거 자료 전송 Refer to [Sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
-1. 메시지를 보내고 배달을 확인합니다. Refer to [Sending messages](../../sending/using/confirming-the-send.md).
-1. 전용 배달 보고서를 확인하십시오. Refer to [Accessing reports](../../reporting/using/about-dynamic-reports.md).
+1. 증거 자료 전송 교정본 [전송을 참조하십시오](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs).
+1. 메시지를 보내고 전달을 확인합니다. 메시지 [전송을 참조하십시오](../../sending/using/confirming-the-send.md).
+1. 전용 배달 보고서를 확인합니다. 보고서 [액세스를](../../reporting/using/about-dynamic-reports.md)참조하십시오.
 
-Advanced message parameters are detailed in the [Configuring channels](../../administration/using/about-channel-configuration.md) sections.
+고급 메시지 매개 변수는 채널 구성 [섹션에서](../../administration/using/about-channel-configuration.md) 자세히 설명합니다.
