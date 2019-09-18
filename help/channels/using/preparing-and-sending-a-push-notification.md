@@ -3,94 +3,94 @@ title: 푸시 알림 준비 및 전송
 seo-title: 푸시 알림 준비 및 전송
 description: 푸시 알림 준비 및 전송
 seo-description: 다음 단계에 따라 Adobe Campaign에서 단일 전송 푸시 알림을 만듭니다.
-page-status-flag: 정품 인증 안 함
-uuid: 01997725-CA 0 A -420 C -9 E 81-5 EA 801652 F 87
-contentOwner: Sauviat
-products: sg_ campaign/standard
+page-status-flag: 활성화 안 함
+uuid: 01997725-ca0a-420c-9e81-5ea801652f87
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 채널
-content-type: 참조
+content-type: reference
 topic-tags: 푸시 알림
-discoiquuid: EC 930 CD 4-6365-4 E 54-Babe -9 DC 2 EED 041 FC
-context-tags: delivery, mobileappcontent, back
+discoiquuid: ec930cd4-6365-4e54-babe-9dc2ed041fc
+context-tags: delivery,mobileAppContent,뒤로
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Preparing and sending a push notification{#preparing-and-sending-a-push-notification}
+# 푸시 알림 준비 및 전송{#preparing-and-sending-a-push-notification}
 
-## Preparing the notification {#preparing-the-notification}
+## 알림 준비 {#preparing-the-notification}
 
-Adobe Campaign를 사용하여 푸시 알림을 만드는 단계는 다음과 같습니다.
+Adobe Campaign을 사용하여 푸시 알림을 만드는 단계는 다음과 같습니다.
 
-1. **[!UICONTROL Marketing activities]** 창에서 새 마케팅 활동을 [만듭니다](../../start/using/marketing-activities.md#creating-a-marketing-activity).
+1. 창에서 새 마케팅 활동을 **[!UICONTROL Marketing activities]** [](../../start/using/marketing-activities.md#creating-a-marketing-activity)만듭니다.
 
-   Note that a single push notification can also be created from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity) or from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page).
+   단일 푸시 알림은 [캠페인](../../start/using/marketing-activities.md#creating-a-marketing-activity) 또는 Adobe Campaign [홈 페이지에서](../../start/using/interface-description.md#home-page)만들 수도 있습니다.
 
-   워크플로우에서 푸시 알림 전송 활동을 사용할 수도 있습니다. This activity is presented in the [Push notification delivery](../../automating/using/push-notification-delivery.md) section.
+   워크플로우에서 푸시 알림 배달 활동을 사용할 수도 있습니다. 이 활동은 푸시 알림 [배달](../../automating/using/push-notification-delivery.md) 섹션에 표시됩니다.
 
-1. **[!UICONTROL Push notification]** Select.
+1. 을 **[!UICONTROL Push notification]**&#x200B;선택합니다.
 1. 템플릿을 선택합니다.
 
    ![](assets/push_notif_type.png)
 
    기본적으로 다음 두 템플릿 중 하나를 선택할 수 있습니다.
 
-   * **[!UICONTROL Send push to Campaign profiles]**: 이 템플릿을 사용하여 모바일 애플리케이션을 구독하고 푸시 알림 수신에 동의한 Adobe Campaign CRM 프로필을 타게팅합니다. You can insert [personalization](../../designing/using/inserting-a-personalization-field.md) fields into your push notification, such as the recipient's first name.
-   * **[!UICONTROL Send push to app subscribers]**: 이 템플릿을 사용하여 애플리케이션에서 알림을 받도록 선택한 모든 알려진 익명 모바일 애플리케이션 사용자에게 푸시 알림을 전송할 수 있습니다. 모바일 애플리케이션에서 수집한 데이터로 이러한 메시지를 개인화할 수 있습니다.
-   다국어 템플릿을 선택할 수도 있습니다. For more information, refer to [Creating a multilingual push notification](../../channels/using/creating-a-multilingual-push-notification.md).
+   * **[!UICONTROL Send push to Campaign profiles]**:이 템플릿을 사용하여 모바일 응용 프로그램에 가입하고 푸시 알림 수신에 동의한 Adobe Campaign CRM 프로필을 타깃팅합니다. 수신자의 이름과 같은 [개인화](../../designing/using/personalization.md#inserting-a-personalization-field) 필드를 푸시 알림에 삽입할 수 있습니다.
+   * **[!UICONTROL Send push to app subscribers]**:이 템플릿을 사용하여 응용 프로그램에서 알림을 받도록 선택한 모든 알려진 익명 모바일 응용 프로그램 사용자에게 푸시 알림을 전송할 수 있습니다. 모바일 애플리케이션에서 수집한 데이터를 사용하여 이러한 메시지를 개인화할 수 있습니다.
+   다국어 템플릿을 선택할 수도 있습니다. 자세한 내용은 다국어 푸시 [알림](../../channels/using/creating-a-multilingual-push-notification.md)만들기를 참조하십시오.
 
-   For more on templates, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   템플릿에 대한 자세한 내용은 템플릿 [관리](../../start/using/about-templates.md) 섹션을 참조하십시오.
 
-1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
+1. 푸시 알림 속성을 입력하고 **[!UICONTROL Associate a Mobile App to a delivery]** 필드에서 모바일 앱을 선택합니다.
 
-   드롭다운에는 SDK v 4 및 Experience Platform SDK 애플리케이션이 모두 표시됩니다.
+   드롭다운에 SDK V4 및 Experience Platform SDK 애플리케이션이 모두 표시됩니다.
 
    ![](assets/push_notif_properties.png)
 
-   푸시 알림을 캠페인에 연결할 수 있습니다. 이렇게 하려면 이미 만들어진 캠페인에서 선택합니다.
+   푸시 알림을 캠페인에 연결할 수 있습니다. 이렇게 하려면 이미 만든 캠페인에서 선택합니다.
 
-1. 다음 화면에서 대상자를 지정할 수 있습니다. 예를 들어 특정 모바일 애플리케이션을 구독한 모든 VIP 고객을 지정할 수 있습니다. For more on this, see [Creating audiences](../../audiences/using/creating-audiences.md).
+1. 다음 화면에서 특정 모바일 애플리케이션을 구독한 모든 VIP 고객을 지정할 수 있습니다. 자세한 내용은 대상자 [만들기를](../../audiences/using/creating-audiences.md)참조하십시오.
 
-   대상은 이전 단계에서 선택한 모바일 애플리케이션을 기반으로 자동으로 필터링됩니다.
+   대상은 이전 단계에서 선택한 모바일 애플리케이션에 따라 자동으로 필터링됩니다.
 
    ![](assets/push_notif_audience.png)
 
-1. 이제 푸시 알림을 사용자 정의할 수 있습니다. First, choose the message style: **[!UICONTROL Alert/Message/Badge]** or **[!UICONTROL Silent push]**. The push notification types are described in the [About push notifications](../../channels/using/about-push-notifications.md) section.
+1. 이제 푸시 알림을 사용자 정의할 수 있습니다. 먼저 메시지 스타일을 선택합니다. **[!UICONTROL Alert/Message/Badge]** 또는 **[!UICONTROL Silent push]**. 푸시 알림 유형은 푸시 알림 [정보](../../channels/using/about-push-notifications.md) 섹션에 설명되어 있습니다.
 
-   푸시 알림의 내용을 편집하고 고급 옵션을 정의합니다. See [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
+   푸시 알림의 컨텐츠를 편집하고 고급 옵션을 정의합니다. 푸시 [알림](../../channels/using/customizing-a-push-notification.md)사용자 지정을 참조하십시오.
 
    ![](assets/push_notif_content.png)
 
-   여기에 구성된 푸시 알림 컨텐츠 및 옵션은 페이로드 형식으로 모바일 앱에 전달됩니다. The detailed structure of the payload is described in the [Understanding ACS push notifications payload structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) technote.
+   여기에 구성된 푸시 알림 컨텐츠 및 옵션은 페이로드 형태로 모바일 앱으로 전달됩니다. 페이로드에 대한 자세한 구조는 ACS 푸시 알림 페이로드 [구조](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) 이해 기술 문서에 설명되어 있습니다.
 
-1. **[!UICONTROL Create]**&#x200B;을 클릭합니다.
+1. Click **[!UICONTROL Create]**.
 
    ![](assets/push_notif_content_2.png)
 
-1. 알림을 보내기 전에 테스트 프로필로 테스트한 다음 배달을 보내기 전에 받는 사람이 보게 될 내용을 정확히 확인할 수 있습니다. Select **[!UICONTROL Audiences]** from your delivery summary and click the **[!UICONTROL Test profiles]** tab.
+1. 알림을 전송하기 전에 테스트 프로필로 테스트한 다음 배달을 보내기 전에 받는 사람이 보게 될 내용을 정확히 확인할 수 있습니다. 배달 **[!UICONTROL Audiences]** 요약에서 선택하고 **[!UICONTROL Test profiles]** 탭을 클릭합니다.
 
-   For more on sending tests, refer to [Test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+   테스트 전송에 대한 자세한 내용은 테스트 프로필을 [참조하십시오](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
-1. Select your test profiles and click **[!UICONTROL Preview]** to display the notification: content is personalized with the test profile data.
-1. 다른 장치에서 푸시 알림 레이아웃을 확인합니다. 렌더링을 미리 보려면 iPhone, Android 폰, iPad 또는 Android 태블릿을 선택합니다.
+1. 테스트 프로필을 선택하고 을 클릭하여 알림을 **[!UICONTROL Preview]** 표시합니다.컨텐츠는 테스트 프로필 데이터를 통해 개인화됩니다.
+1. 다른 장치에서 푸시 알림 레이아웃을 확인합니다.iPhone, Android 폰, iPad 또는 Android 태블릿을 선택하여 렌더링을 미리 봅니다.
 
    ![](assets/push_notif_preview.png)
 
-1. The **[!UICONTROL Estimated Payload Size]** is an estimate based on test profile data. 실제 페이로드 크기는 다를 수 있습니다. 메시지 제한은 4 KB 입니다.
+1. 이 **[!UICONTROL Estimated Payload Size]** 값은 테스트 프로필 데이터를 기반으로 한 예측입니다. 실제 페이로드 크기는 다를 수 있습니다. 메시지 제한은 4KB입니다.
 
    >[!CAUTION]
    >
-   >페이로드 크기가 4 KB 제한을 초과하는 경우 메시지가 배달되지 않습니다. 개인화 데이터는 메시지 크기에 영향을 줍니다.
+   >페이로드 크기가 4KB 제한을 초과하면 메시지가 배달되지 않습니다. 개인화 데이터는 메시지 크기에 영향을 줍니다.
 
-## Sending the notification {#sending-the-notification}
+## 알림 보내기 {#sending-the-notification}
 
-푸시 알림은 대상 기준을 정의하여 Adobe Campaign에서 선택한 대상자에게 보낼 수 있습니다. 아래의 예에서, 선택된 대상자는 4 개의 타깃팅된 모바일 앱 가입자로 구성됩니다.
+대상 기준을 정의하여 Adobe Campaign에서 선택한 대상자에게 푸시 알림을 보낼 수 있습니다. 아래 예를 들어 선택한 대상은 4명의 타깃팅된 모바일 앱 구독자로 구성됩니다.
 
-1. Click **[!UICONTROL Prepare]** to compute the target and generate the notifications.
+1. 을 **[!UICONTROL Prepare]** 클릭하여 대상을 계산하고 알림을 생성합니다.
 
    ![](assets/push_send_1.png)
 
@@ -98,35 +98,35 @@ Adobe Campaign를 사용하여 푸시 알림을 만드는 단계는 다음과 �
 
    ![](assets/push_send_2.png)
 
-1. **[!UICONTROL Exclusion logs]** 탭에서, 전송된 Target에서 제외된 모든 메시지 목록과 이 제외의 이유를 찾을 수 있습니다.
+1. 이 **[!UICONTROL Exclusion logs]** 탭에서 전송된 대상에서 제외된 모든 메시지 목록과 이 제외의 이유를 찾을 수 있습니다.
 
-   여기에서, 주소가 블랙리스트에 추가되어 있고 프로필이 중복되었기 때문에 모바일 앱 구독자 중 한 명이 제외되었습니다.
+   여기에서 모바일 앱 구독자 중 한 명이 차단된 것을 확인할 수 있습니다. 주소는 블랙리스트에 추가되었고 다른 구독자는 프로필이 중복되었기 때문입니다.
 
    ![](assets/push_send_5.png)
 
-1. Click the **[!UICONTROL Exclusion causes]** tab to display the volume of excluded messages.
+1. 제외된 메시지 볼륨을 표시하려면 **[!UICONTROL Exclusion causes]** 탭을 클릭합니다.
 
    ![](assets/push_send_7.png)
 
-1. You can now click **[!UICONTROL Confirm]** to start sending push notifications.
-1. 메시지 대시보드 및 로그에서 배달 상태를 확인합니다. For more on this, see [Sending messages](../../sending/using/confirming-the-send.md) and [Delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+1. 이제 아이콘을 클릭하여 푸시 알림 전송을 **[!UICONTROL Confirm]** 시작할 수 있습니다.
+1. 메시지 대시보드 및 로그를 통해 배달 상태를 확인합니다. 자세한 내용은 메시지 [보내기 및](../../sending/using/confirming-the-send.md) 배달 로그를 [참조하십시오](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-   이 예에서 메시지 대시보드에는 Adobe Campaign 이 두 개의 푸시 알림을 전송하려고 시도했다는 메시지가 표시됩니다. One were delivered successfully to the device and another one failed. To know why the delivery has errors, click the ![](assets/lp_link_properties.png) button at the bottom of the **[!UICONTROL Deployment]** window.
+   이 예에서 메시지 대시보드에는 Adobe Campaign이 두 개의 푸시 알림을 전송하려고 시도했다는 내용이 표시됩니다.이 중 하나가 장치에 성공적으로 배달되었으며 다른 하나가 실패했습니다. 배달에 오류가 있는 이유를 알려면 창 아래쪽에 있는 ![](assets/lp_link_properties.png) 단추를 클릭합니다 **[!UICONTROL Deployment]** .
 
    ![](assets/push_send_4.png)
 
-1. **[!UICONTROL Deployment]** 창에서 **[!UICONTROL Sending logs]** 탭을 클릭하여 전송된 푸시 알림 및 해당 상태 목록에 액세스합니다. 이 게시에 대해 한 푸시 알림이 성공적으로 전송되었지만 잘못된 장치 토큰으로 인해 다른 알림이 전송되었습니다. 이 구독자는 추후 배달을 통해 블랙리스트에 추가됩니다.
+1. 창에서 탭을 클릭하여 보낸 푸시 알림 목록과 **[!UICONTROL Deployment]** 해당 상태에 액세스합니다 **[!UICONTROL Sending logs]** . 이 배달의 경우 한 푸시 알림이 성공적으로 전송되었으며 다른 푸시 알림은 장치 토큰이 잘못되어 실패했습니다. 그러면 이 구독자는 추가 배달에서 블랙리스트에 추가됩니다.
 
    >[!NOTE]
    >
-   >Adobe Campaign에 다운스트림으로 실패하는 원인은 없습니다. APNS 및 FCM와 같은 제공업체의 오류가 발생하는 경우 이러한 이유도 반영됩니다. For more information on provider failures, you can refer to the [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) and [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref) documentation.
+   >원인은 Adobe Campaign의 다운스트림으로 인한 오류일 수 있습니다. apns, fcm과 같은 제공업체의 장애 시, 그 이유도 이를 반영합니다. 공급자 실패에 대한 자세한 내용은 Apple 및 Android [설명서를](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) 참조하십시오 [](https://firebase.google.com/docs/cloud-messaging/http-server-ref) .
 
    ![](assets/push_send_6.png)
 
-이제 동적 보고서를 통해 푸시 알림 전달 효과를 측정할 수 있습니다.
+이제 동적 보고서를 사용하여 푸시 알림 배달의 영향을 측정할 수 있습니다.
 
 **관련 항목:**
 
 * [푸시 알림 보고서](../../reporting/using/push-notification-report.md)
-* [워크플로우 내에서 푸시 알림 전송](../../automating/using/push-notification-delivery.md)
+* [워크플로우 내에서 푸시 알림 보내기](../../automating/using/push-notification-delivery.md)
 
