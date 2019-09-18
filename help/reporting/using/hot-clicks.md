@@ -1,82 +1,82 @@
 ---
-title: 클릭 수
-seo-title: 클릭 수
-description: 클릭 수
-seo-description: 즉시 즉시 사용할 수 있는 보고서를 통해 고객이 어디에서 배달을 클릭했는지 알 수 있습니다.
-page-status-flag: 정품 인증 안 함
-uuid: 7 ed 49 dd 3-d 7 ee -466 a -9 a 7 b-d 2 aa 16961667
-contentOwner: Sauviat
-products: sg_ campaign/standard
+title: 핫 클릭
+seo-title: 핫 클릭
+description: 핫 클릭
+seo-description: 즉시 사용 가능한 보고서를 클릭하여 고객이 어디에서 배달을 클릭했는지 확인할 수 있습니다.
+page-status-flag: 활성화 안 함
+uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 보고
-content-type: 참조
-topic-tags: list-of-reports
-discoiquuid: ECBC 1 ADE -63 D 9-4 AC 2-9828-380 A 1 AA 95094
-context-tags: Deliveryhotclicksreport, Main
+content-type: reference
+topic-tags: 보고서 목록
+discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
+context-tags: deliveryHotClicksReport,main
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
 
-# Hot clicks{#hot-clicks}
+# 핫 클릭{#hot-clicks}
 
-This report can be accessed from the **[!UICONTROL Reports]** button in each delivery or transactional message.
+이 보고서는 각 배달 또는 트랜잭션 메시지의 **[!UICONTROL Reports]** 단추에서 액세스할 수 있습니다.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-각 링크에 대한 클릭 수의 백분율을 사용하여 메시지 컨텐츠 (HTML 및/또는 텍스트) 를 표시합니다.
+각 링크에 대한 클릭 수와 함께 메시지 내용(HTML 및/또는 텍스트)을 표시합니다.
 
 ![](assets/delivery_reports_10.png)
 
-게재를 위한 동적 컨텐츠를 만든 경우 정의한 각 조건에 대한 백분율을 볼 수 있습니다. For more on inserting conditional content in a delivery, see [Defining dynamic content](../../designing/using/defining-dynamic-content-in-a-landing-page.md).
+게재에 대한 동적 컨텐츠를 만든 경우 정의한 각 조건에 대한 백분율을 볼 수 있습니다. 전달에 조건부 컨텐츠 삽입에 대한 자세한 내용은 동적 컨텐츠 [정의를 참조하십시오](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
 
-예를 들어 다음과 같은 조건으로 배달을 만들었다고 가정합니다.
+예를 들어 다음과 같은 조건으로 배달을 만들었다고 가정해 봅시다.
 
-* 받는 사람이 남성 또는 여성인 경우 주 이미지의 링크는 서로 다릅니다.
-* 25 세 이상의 수신자만 볼 수 있는 특별 오퍼에 대한 링크가 추가되었습니다.
+* 받는 사람이 남자이거나 여자인 경우 기본 이미지에 있는 링크는 다릅니다.
+* 또한 25세 이상의 수신자만 볼 수 있는 특별 오퍼에 대한 링크를 추가했습니다.
 
-Once your message is sent, select **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** from the delivery dashboard.
+메시지가 전송되면 배달 대시보드에서 **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** 를 선택합니다.
 
-기본적으로 [프로필 없음] 이 선택되어 있습니다. 성별은 알 수 없는 수신자와 25 세 미만이거나 나이를 알 수 없는 수신자에 대한 클릭만 표시됩니다.
+기본적으로 선택된 프로필은 없습니다. 성을 알 수 없는 수신자와 25세 미만이거나 연령을 알 수 없는 수신자에 대한 클릭 수만 표시됩니다.
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-To display clicks for women, click the **[!UICONTROL Change profile]** button and select a female test profile. 남성용 클릭 수를 표시하려면 유사하게 진행하며 남성 테스트 프로필을 선택합니다.
+여성 클릭 수를 표시하려면 **[!UICONTROL Change profile]** 단추를 클릭하고 여성 테스트 프로필을 선택합니다. 남성용 클릭 수를 표시하려면 비슷하게 진행하고 남성 테스트 프로필을 선택합니다.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-To display clicks for recipients over 25, click the **[!UICONTROL Change profile]** button and select a test profile whose birth date is matching this condition.
+25세 이상의 수신자에 대한 클릭 수를 표시하려면 **[!UICONTROL Change profile]** 단추를 클릭하고 생년월일이 이 조건과 일치하는 테스트 프로필을 선택합니다.
 
-For more on test profiles, see [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
-
->[!NOTE]
->
->특정 링크에 대한 클릭 수는 게시에 있는 모든 조건부 컨텐츠에 대한 총 클릭 수의 백분율입니다. 따라서 동적 컨텐츠를 정의한 경우 특정 테스트 프로필에 대해 표시되는 백분율의 합계는 100 이 아닐 수 있습니다.
-
-마찬가지로 반복되는 배달 및 트랜잭션 메시지의 경우 표시할 동적 컨텐츠에 해당하는 테스트 프로필을 선택할 수 있지만 선택한 실행 전달에 따라 클릭 백분율을 볼 수도 있습니다.
-
-실행 배달은 다음과 같은 경우에 만들어지는 실행 불가능하고 기능적인 기술적인 메시지입니다.
-
-* 반복 배달이 실행될 때마다 또는 업데이트됩니다.
-
-   예를 들어, 이 배달을 관리하는 워크플로우가 한 달에 한 번 실행되면 매월 하나의 실행 배달이 발생합니다. 이와 더불어, 게재의 컨텐츠가 업데이트될 때마다 추가 실행 배달이 생성됩니다.
-
-   For more on recurring email deliveries, see [Email delivery](../../automating/using/email-delivery.md).
-
-* 트랜잭션 메시지의 경우 한 달에 한 번, 트랜잭션 메시지는 편집 및 게시할 때마다 기본적으로 한 번씩 표시됩니다.
-
-   For more on transactional messages, see [About transactional messaging](../../channels/using/about-transactional-messaging.md).
+테스트 프로필에 대한 자세한 내용은 테스트 [프로필](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)정보를 참조하십시오.
 
 >[!NOTE]
 >
->추적된 URL의 ID는 실행마다 다르므로, 지정된 메시지의 모든 실행에 대해 핫 클릭 데이터를 집계할 수 없습니다. 한 번에 하나의 실행 전달에만 표시할 수 있습니다.
+>특정 링크에 대한 클릭 수는 게재의 모든 조건부 컨텐츠에 대한 총 클릭 수의 백분율입니다. 따라서 동적 컨텐츠를 정의한 경우 특정 테스트 프로필에 대해 표시되는 백분율의 합계가 100이 아닐 수 있습니다.
 
-Once your message is sent, select **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** from the delivery dashboard.
+마찬가지로 반복 게재와 트랜잭션 메시지의 경우 표시할 동적 컨텐츠에 해당하는 테스트 프로파일을 선택할 수 있지만 선택한 실행 배달에 따라 클릭 비율을 볼 수도 있습니다.
 
-기본적으로 마지막 실행 게재가 선택되어 있습니다. **[!UICONTROL Change execution delivery]** 단추를 클릭하여 다른 단추를 선택합니다.
+실행 배달은 다음 경우에 만들어지는 실행 불가능한 비기능 기술 메시지입니다.
+
+* 반복 배달이 실행되거나 업데이트될 때마다
+
+   예를 들어, 이 배달을 관리하는 워크플로우가 한 달에 한 번 실행되면 한 달에 한 번 실행 배달을 수행합니다. 또한 게재 컨텐츠가 업데이트될 때마다 추가 실행 게시가 생성됩니다.
+
+   반복되는 이메일 게재에 대한 자세한 내용은 이메일 [배달을](../../automating/using/email-delivery.md)참조하십시오.
+
+* 트랜잭션 메시지의 경우 기본적으로 한 달에 한 번, 트랜잭션 메시지가 편집되고 다시 게시될 때마다 이러한 메시지가 나타납니다.
+
+   트랜잭션 메시지에 대한 자세한 내용은 트랜잭션 [메시지](../../channels/using/about-transactional-messaging.md)정보를 참조하십시오.
+
+>[!NOTE]
+>
+>추적된 URL의 ID는 각 실행마다 다르므로 해당 메시지의 모든 실행 배달에 대해 핫 클릭 데이터를 집계할 수 없습니다. 한 번에 한 실행에만 표시할 수 있습니다.
+
+메시지가 전송되면 배달 대시보드에서 **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** 를 선택합니다.
+
+기본적으로 마지막 실행 배달이 선택됩니다. 단추를 클릭하여 다른 **[!UICONTROL Change execution delivery]** 단추를 선택합니다.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
-선택한 배달 실행에 대한 클릭 백분율만 표시됩니다.
+선택한 배달 실행에 대한 클릭 비율만 표시됩니다.
