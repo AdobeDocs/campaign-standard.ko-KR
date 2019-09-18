@@ -1,71 +1,71 @@
 ---
-title: 관심 영역 데이터와 캠페인 메시지 개인화
-seo-title: 관심 영역 데이터와 캠페인 메시지 개인화
-description: 관심 영역 데이터와 캠페인 메시지 개인화
-seo-description: 관심 영역 데이터 통합으로 가입자의 위치를 기반으로 개인화된 메시지를 만드는 방법을 살펴볼 수 있습니다.
-page-status-flag: 정품 인증 안 함
-uuid: d 74 c 3 e 55-f 130-441 b-bc 2 a -06 ddcd 5 d 9784
-contentOwner: Sauviat
-products: sg_ campaign/standard
+title: 관심 영역 데이터를 사용하여 캠페인 메시지 개인화
+seo-title: 관심 영역 데이터를 사용하여 캠페인 메시지 개인화
+description: 관심 영역 데이터를 사용하여 캠페인 메시지 개인화
+seo-description: POV 데이터 통합을 통해 사용자의 위치를 기반으로 개인화된 메시지를 만드는 방법을 살펴볼 수 있습니다.
+page-status-flag: 활성화 안 함
+uuid: d74c3e55-f130-44 파섹
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 통합
-content-type: 참조
+content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: A 1736 BA 3-5121-4 D 01-BF 04-EBB 7 E 701 E 2 E 0
+discoiquuid: a1736ba3-5121-4d01-bf04-sew7e701e2e0
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 ---
 
 
-# Personalizing Campaign messages with Point of Interest data{#personalizing-campaign-messages-with-point-of-interest-data}
+# 관심 영역 데이터를 사용하여 캠페인 메시지 개인화{#personalizing-campaign-messages-with-point-of-interest-data}
 
-Adobe Campaign 에서는 모바일 애플리케이션의 구독자로부터 수집한 관심 영역 데이터를 사용하여 이메일과 같은 개인화된 마케팅 메시지를 보낼 수 있습니다.
+Adobe Campaign에서 모바일 애플리케이션의 구독자로부터 수집한 관심 영역 데이터를 사용하여 이메일 같은 개인화된 마케팅 메시지를 보낼 수 있습니다.
 
-표준 배달을 통해 관심 영역 데이터에만 반응할 수 있습니다. [트랜잭션 메시지는](../../channels/using/about-transactional-messaging.md) 위치 데이터를 사용할 수 없습니다.
+표준 게재와 함께 관심 영역 데이터만 응답할 수 있습니다. [트랜잭션 메시지는](../../channels/using/about-transactional-messaging.md) 위치 데이터를 사용할 수 없습니다.
 
-가장 빨리 반응할 수 있는 시간은 약 10 분입니다.
+반응할 수 있는 가장 빠른 시간은 약 10분입니다.
 
-이 경우 지난 2 주 내에 보스톤 스토어를 방문한 모든 가입자에게 이메일을 전송하기로 결정했습니다.
+이 경우, 지난 2주 이내에 Boston 스토어를 방문한 모든 가입자에게 이메일을 전송하기로 합니다.
 
-1. 이메일 마케팅 활동 만들기를 참조하십시오.
-1. When defining the delivery's audience, drag and drop the **[!UICONTROL Subscriptions to an application]** element into the workspace.
+1. 이메일 마케팅 활동을 만듭니다.
+1. 전달 대상을 정의할 때 요소를 작업 공간으로 드래그하여 놓습니다. **[!UICONTROL Subscriptions to an application]**
 
    ![](assets/poi_subscriptions_app.png)
 
-   Managing audiences is detailed in the [Defining audiences](../../audiences/using/creating-audiences.md) section.
+   대상 관리는 대상 정의 [섹션에서](../../audiences/using/creating-audiences.md) 자세히 설명합니다.
 
-1. **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** 창에서 **[!UICONTROL POI Location Subscription]** 요소를 드래그하여 작업 공간으로 놓습니다.
+1. 창에서 **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** **[!UICONTROL POI Location Subscription]** 요소를 작업 공간으로 드래그하여 놓습니다.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. In the **[!UICONTROL Add a rule - POI Location Subscription]** window, enter the label of the Point of Interest that you want to use.
+1. 창에서 사용할 관심 영역의 레이블을 **[!UICONTROL Add a rule - POI Location Subscription]** 입력합니다.
 
    ![](assets/poi_location_subscription.png)
 
-1. **[!UICONTROL Filter type]** 필드에서 **[!UICONTROL Relative]**&#x200B;를 선택합니다.
-1. **[!UICONTROL Preceding days]** 옵션을 확인하고 해당 **[!UICONTROL 15]** 필드에 입력합니다.
+1. 필드에서 **[!UICONTROL Filter type]** 을 선택합니다 **[!UICONTROL Relative]**.
+1. 옵션을 **[!UICONTROL Preceding days]** 선택하고 해당 **[!UICONTROL 15]** 필드에 입력합니다.
 1. 사용자가 관심 영역을 방문한 횟수를 정의합니다.
-1. Click **[!UICONTROL Confirm]** to save your audience.
+1. 대상자를 저장하려면 **[!UICONTROL Confirm]** 클릭합니다.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
-1. 이메일에 콘텐츠를 추가합니다.
+1. 이메일에 컨텐츠 추가
 
    ![](assets/poi_email_content.png)
 
-1. 이메일 대시보드를 보려면 활동 만들기를 확인합니다.
-1. 메시지를 전송합니다.
+1. 이메일 대시보드를 볼 활동 만들기를 확인합니다.
+1. 메시지 보내기
 
-다음과 같은 이유로 10% 할인 혜택이 포함된 이메일이 가입자에게 전송됩니다.
+10% 할인 혜택이 포함된 이메일은 다음과 같은 가입자에게 발송됩니다.
 
-* 지난 2 주 동안 보스톤 스토어를 최소 한 번 방문했습니다.
-* 모바일 애플리케이션이 방문 중에 적어도 한 번 전경에 있었습니다.
+* 지난 2주 내에 최소한 한 번은 보스턴 스토어를 방문했어요.
+* 방문 중에 모바일 애플리케이션을 최소한 한 번 전경에 배치했습니다.
 
 **관련 항목:**
 
 * [이메일 만들기](../../channels/using/creating-an-email.md)
-* [컨텐츠 정의](../../designing/using/example--email-personalization.md)
+* [컨텐츠 정의](../../designing/using/personalization.md#example-email-personalization)
 * [메시지 보내기](../../sending/using/confirming-the-send.md)
 
