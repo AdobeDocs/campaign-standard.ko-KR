@@ -2,111 +2,111 @@
 title: 캠페인 통합 정보
 seo-title: 캠페인 통합 정보
 description: 캠페인 통합 정보
-seo-description: Adobe Campaign를 사용하면 다른 Adobe 솔루션을 사용하고 다양한 기능을 결합할 수 있습니다.
-page-status-flag: 정품 인증 안 함
-uuid: 59 d 7 cd 99-a 6 f 7-47 f 1-9 b 5 c-c 50 e 27 a 2 bef 8
-contentOwner: Sauviat
-products: sg_ campaign/standard
+seo-description: Adobe Campaign을 사용하면 다른 Adobe 솔루션을 사용하여 다양한 기능을 결합할 수 있습니다.
+page-status-flag: 활성화 안 함
+uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 통합
-content-type: 참조
+content-type: reference
 topic-tags: 캠페인 통합
-discoiquuid: 9633 E 9 CA -3323-499 B -8259-45165 D 59 A 4 D 0
+discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 337f2270f3f66d5172084a4e2a19d6185bf097ff
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# About Campaign integrations{#about-campaign-integrations}
+# 캠페인 통합 정보{#about-campaign-integrations}
 
-이 섹션에서는 현재 버전의 Adobe Campaign와 다른 솔루션 및 서비스 간에 사용할 수 있는 기능 통합에 대해 자세히 설명합니다.
+이 섹션에서는 현재 버전의 Adobe Campaign과 다른 솔루션 및 서비스 간에 사용할 수 있는 기능 통합에 대해 자세히 설명합니다.
 
-아래 표시된 서로 다른 통합을 통해 Adobe Campaign의 게재 및 고급 캠페인 관리 기능과 사용자 경험을 개인화할 수 있도록 만들어진 솔루션 세트를 결합할 수 있습니다.
-
->[!NOTE]
->
-> 기본적으로 Adobe Campaign는 이미 Adobe Experience Cloud 계정에 연결되어 있습니다.
-
-환경에 따라 다른 솔루션도 Adobe Experience Cloud에 연결할 수 있습니다. 이들은 조직 (테넌트 라고도 함) 로 연결됩니다.
-
-조직은 관리자가 그룹과 사용자를 구성하고 Experience Cloud에서 Single Sign-On를 제어할 수 있는 개체입니다. 조직은 모든 Experience Cloud 제품과 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그러나 회사는 여러 조직을 가질 수 있습니다. User and organization management is detailed in the [Adobe Experience Cloud help portal](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
-
-If you would like to integrate data flows from other systems with Adobe Campaign, have a look at our [API documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+아래 나와 있는 다양한 통합을 통해 Adobe Campaign의 전달 및 고급 캠페인 관리 기능과 사용자 경험을 개인화할 수 있도록 만들어진 솔루션을 결합할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Campaign Standard는 Microsoft Dynamics 365 에도 연결할 수 있습니다. 이러한 통합을 통해 CRM 시스템에서 사용 가능한 모든 연락처 데이터를 동기화하여 캠페인 활동에 사용할 수 있는 모든 관련 연락처 데이터를 만들 수 있습니다. For more on this integration, refer to [Working with Campaign and Dynamics 365](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+> 기본적으로 Adobe Campaign은 이미 Adobe Experience Cloud 계정에 연결되어 있습니다.
+
+환경에 따라 다른 솔루션도 Adobe Experience Cloud에 연결할 수 있습니다. 조직(임차인이라고도 함)으로 연결됩니다.
+
+조직은 관리자가 그룹과 사용자를 구성하고 Experience Cloud에서 Single Sign-On을 제어할 수 있도록 해주는 개체입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그러나 회사는 많은 조직을 보유할 수 있습니다. 사용자 및 조직 관리는 Adobe Experience Cloud [도움말 포털에서](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)자세히 설명합니다.
+
+다른 시스템의 데이터 흐름을 Adobe Campaign과 통합하려면 API 설명서를 [참조하십시오](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+
+>[!NOTE]
+>
+>Adobe Campaign Standard는 Microsoft Dynamics 365에도 연결할 수 있습니다.이 통합을 통해 CRM 시스템에서 사용 가능한 모든 연락처 데이터를 동기화할 수 있으므로 모든 관련 연락처 데이터를 캠페인 활동에 사용할 수 있습니다. 이 통합에 대한 자세한 내용은 캠페인 및 [Dynamics 365를 사용한 작업을 참조하십시오](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
 
 <table> 
  <thead> 
   <tr> 
-   <th> Solution<br /> </th> 
-   <th> Use Case<br /> </th> 
-   <th> Refer to<br /> </th> 
+   <th> 솔루션<br /> </th> 
+   <th> 사용 사례<br /> </th> 
+   <th> 자세한 내용은<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4<br /> </td> 
-   <td> Allows you to create email contents or forms mapped to the Adobe Campaign database directly in Adobe Experience Manager.<br /> </td> 
+   <td> Adobe Experience Manager에서 직접 Adobe Campaign 데이터베이스에 매핑된 이메일 콘텐츠 또는 양식을 만들 수 있습니다.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign 및 Experience Manager를 사용하여 작업</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager와 Campaign Standard</a> <br/>통합, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Experience Manager와 Campaign를 사용한 이메일 제작</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Adobe Campaign 및 Experience Manager</a><br/>, Adobe Experience Manager <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">및 Campaign Standard를</a> 통합하여 <br/>Adobe Experience Manager 및 Campaign을 사용하여 이메일 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">제작</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic, Standard<br /> </td> 
-   <td> Allows you to insert images that are dynamically computed by Adobe Target when an email created and sent by Adobe Campaign is opened.<br /> </td> 
+   <td> Adobe Campaign에서 만들고 보낸 이메일을 열 때 Adobe Target에서 동적으로 계산된 이미지를 삽입할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">캠페인 및 Target</a> <br/>사용, <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">캠페인 및 Target 통합</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간 비디오에서 이메일 이미지</a> 개인화 (3 단계)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign 및 Target을</a> 사용한 <br/>작업, <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html">Campaign 및 Target</a><br/>통합, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">이메일 이미지</a> 개인화(3단계)
     </td> 
   </tr> 
   <tr> 
    <td> Analytics<br /> Standard, Premium <br /> </td> 
-   <td> Allows you to track the success of your email deliveries directly in Adobe Analytics.<br /> </td> 
+   <td> Adobe Analytics에서 직접 이메일 전달의 성공 여부를 추적할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Analytics와 캠페인 데이터 공유</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">통합 캠페인 리포팅</a> 비디오에 대한 KPI 공유 (1 단계)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Analytics와 캠페인 데이터 공유</a><br/>, 통합 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">캠페인 보고를</a> 위한 KPI 공유 비디오(1단계
     </td> 
   </tr> 
   <tr> 
-   <td> Adobe Audience Manager and People core service (Profiles &amp; Audiences)<br /> </td> 
-   <td> Allow you to exchange audiences with the different Adobe Experience Cloud applications that you use.<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People 코어 서비스 (Profiles &amp; Audiences)</a><br /> </td> 
+   <td> Adobe Audience Manager 및 사용자 핵심 서비스(프로필 및 대상)<br /> </td> 
+   <td> 사용하는 다른 Adobe Experience Cloud 애플리케이션과 대상을 교환할 수 있습니다.<br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">사람 핵심 서비스(프로필 및 대상)</a><br /> </td> 
   </tr> 
   <tr> 
-   <td> Asset core service and Assets On Demand<br /> </td> 
-   <td> Allows you to insert assets from your Adobe Experience Cloud library into emails and landing pages created in Adobe Campaign.<br /> </td> 
-   <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets 핵심 서비스</a> 또는 On-Demand 자산<br /> </td> 
+   <td> 자산 핵심 서비스 및 Assets On Demand<br /> </td> 
+   <td> Adobe Experience Cloud 라이브러리의 에셋을 Adobe Campaign에서 만든 이메일 및 랜딩 페이지에 삽입할 수 있습니다.<br /> </td> 
+   <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">자산 핵심 서비스</a> 또는 Assets On Demand<br /> </td> 
   </tr> 
   <tr> 
-   <td> Points of Interest (Analytics for Mobile)<br /> </td> 
-   <td> Allows you to collect Points of Interest data from your mobile application's subscribers to send personalized marketing messages with Adobe Campaign.<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">캠페인 및 관심 영역 데이터를 사용하여 위치 기반 마케팅 메시지 전송</a> (모바일 분석)<br /> </td> 
+   <td> 관심 영역(모바일용 분석)<br /> </td> 
+   <td> 모바일 애플리케이션의 가입자로부터 관심 영역 데이터를 수집하여 Adobe Campaign을 통해 개인화된 마케팅 메시지를 전송할 수 있습니다.<br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">캠페인 및 관심 영역 데이터를</a> 사용하여 위치 기반 마케팅 메시지 보내기(모바일용 분석)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Experience Cloud Triggers<br /> </td> 
-   <td> Allows you to send personalized emails to your customers in Adobe Campaign as a reaction to specific behaviors that are tracked on your website by Adobe Analytics.<br /> </td> 
+   <td> Experience Cloud 트리거<br /> </td> 
+   <td> Adobe Analytics를 통해 웹 사이트에서 추적되는 특정 행동에 대한 반응으로 Adobe Campaign에서 개인화된 이메일을 고객에게 보낼 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign Standard에서 Experience Cloud 트리거 사용</a><br/>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">포기 트리거-캠페인 사용 사례</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">사이트 활동</a> 비디오를 기반으로 재마케팅 메시지 트리거 (2 단계)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign Standard의 Experience Cloud 트리거</a><br/>사용, <a href="../../integrating/using/abandonment-triggers-use-cases.md">포기 트리거-캠페인 사용 사례</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">사이트 활동 비디오를 기반으로 리마케팅 메시지</a> 트리거(2단계)
     </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver<br /> </td> 
-   <td> Allows you to edit an email content from Dreamweaver and synchronize it with Adobe Campaign.<br /> </td> 
+   <td> Dreamweaver에서 이메일 컨텐츠를 편집하고 Adobe Campaign과 동기화할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Dreamweaver</a> 비디오를 <br/>사용하여 개인화된 이메일 제작, <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver 용 Campaign 익스텐션 사용</a> 
+    <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Dreamweaver 비디오를 사용하여 개인화된 이메일</a> 제작, <br/>Dreamweaver용 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">캠페인 확장 사용</a> 
   </td> 
   </tr> 
   <tr> 
    <td> Creative SDK<br /> </td> 
-   <td> Allows you to edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor.<br /> </td> 
-   <td> <a href="../../designing/using/modifying-images-with-the-adobe-creative-sdk.md">Adobe Creative SDK를 사용하여 이미지 수정</a><br /> </td> 
+   <td> Adobe Creative SDK에서 제공하는 완벽한 기능을 사용하여 컨텐츠 편집기에서 바로 이미지를 향상시킬 수 있습니다.<br /> </td> 
+   <td> <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">Adobe Creative SDK를 사용하여 이미지 수정</a><br /> </td> 
   </tr> 
   <tr> 
-   <td> Experience Platform SDKs<br /> </td> 
-   <td> Allows automation of the Mobile App Property activation process in Adobe Campaign using the Experience Platform SDKs.<br /> </td> 
+   <td> Experience Platform SDK<br /> </td> 
+   <td> Experience Platform SDK를 사용하여 Adobe Campaign에서 모바일 앱 속성 활성화 프로세스를 자동화할 수 있습니다.<br /> </td> 
    <td> <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">Experience Platform SDK를 사용하여 모바일 애플리케이션 구성</a><br /> </td> 
   </tr> 
  </tbody> 
