@@ -2,39 +2,42 @@
 title: SMS 메시지 개인화
 seo-title: SMS 메시지 개인화
 description: SMS 메시지 개인화
-seo-description: SMS 메시지를 개인화할 때 음소거 옵션의 특징을 알아봅니다.
-page-status-flag: 정품 인증 안 함
-uuid: 123 fe 70 c-c 279-40 a 3-88 b 6-6 bfb 2453 ec 83
-contentOwner: Sauviat
-products: sg_ campaign/standard
+seo-description: SMS 메시지를 개인화할 때 문법 변환 옵션의 정확성을 살펴볼 수 있습니다.
+page-status-flag: 활성화 안 함
+uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 채널
-content-type: 참조
-topic-tags: sms-messages
-discoiquuid: 7 c 64785 c-e 3 c 2-4 caa-a 547-002990 aae 3 f 9
-delivercontext-tags: Deliverycreation, Wizard; delivery, smscontent, back; 전달, Smscontent, 뒤로
+content-type: reference
+topic-tags: sms 메시지
+discoiquuid: 7c64785c-e3c2-4caa-a547-002990aae3f9
+delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Personalizing SMS messages{#personalizing-sms-messages}
+# SMS 메시지 개인화{#personalizing-sms-messages}
 
-The principles for personalizing SMS messages are the same as those for [emails](../../designing/using/inserting-a-personalization-field.md). 따라서 음성 변환 옵션은 인코딩에 영향을 주므로 보낼 SMS 메시지의 수는 알고 있어야 합니다. For more on this, refer to the [Transliteration and SMS length](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+SMS 메시지를 개인화하는 원칙은 [이메일과](../../designing/using/personalization.md#inserting-a-personalization-field)동일합니다. 그럼에도 불구하고 이러한 옵션이 인코딩에 영향을 줄 수 있으므로 전송할 SMS 메시지 수에 영향을 줄 수 있으므로 음역 옵션을 알고 있어야 합니다. 자세한 내용은 Translation and SMS [길이](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 섹션을 참조하십시오.
 
-여기에서, 번역이 선택되었는지 여부에 따라 동일한 수의 전송을 생성하지 않는 개인화 필드가 들어 있는 샘플 SMS 메시지가 표시됩니다.
+여기서는 개인화 필드가 포함된 샘플 SMS 메시지를 사용합니다. 이 메시지는 음역 선택 여부에 따라 동일한 수의 전송을 생성하지 않습니다.
 
-**&lt; Firstname &gt; &lt; lastname &gt; 님, 지금 새 제품을 사용할 수 있습니다. Come and check them out in store!**
+**&lt; FirstName &gt; &lt; LastName &gt; 님, 이제 새로운 제품을 사용할 수 있습니다. 와서 가게에 가서 확인해 보세요!**
 
-* ' John Smith'라는 이름의 수신자에게 특수 문자가 포함되어 있지 않으므로 Adobe Campaign 에서는 SMS 인코딩당 최대 160 자를 승인하는 GSM 인코딩을 선택합니다. 그러면 메시지가 한 부분으로 전송됩니다.
-* ' raphaël forêt'라는 수신자의 경우,' ë'와'ê'문자는 GSM에서 인코딩할 수 없습니다. 음소거 활성화 여부에 따라 Adobe Campaign에서 다음 두 가지 비헤이비어를 선택할 수 있습니다.
+* 'John Smith'라는 받는 사람에 대해 특수 문자가 없으므로 Adobe Campaign은 SMS 메시지당 최대 160자를 인증하는 GSM 인코딩을 선택합니다. 따라서 메시지는 한 부분으로 전송됩니다.
+* '라팔 포레'라는 이름의 수신자는 '레크'와 '려'를 GSM으로 인코딩할 수 없습니다. Adobe Campaign은 번역 활성화 여부에 따라 다음 두 가지 비헤이비어 중에서 선택할 수 있습니다.
 
-   * 변환이'ë'이고'ê'가'e'로 대체되면, GSM 인코딩을 사용할 수 있으므로 최대 160 자까지 SMS에 사용할 수 있습니다. 이 메시지는 단일 SMS 메시지로 보내지지만 약간 변경됩니다.
-   * 변환이 승인되지 않은 경우 Adobe Campaign에서 메시지를 이진 형식 (유니코드) 로 보내게 됩니다. 따라서 모든 문자가 이와 같이 전송됩니다. 유니코드의 SMS 메시지가 70 자로 제한되므로 Adobe Campaign에서 메시지를 두 부분으로 보내야 합니다.
+   * 음역을 '레크'로 인가된 경우 'e'로 대체되므로 GSM 인코딩을 사용할 수 있으며 SMS에서 최대 160자까지 사용할 수 있습니다. 이 메시지는 단일 SMS 메시지로 전송되지만 약간 변경됩니다.
+   * 음역 지정이 인증되지 않은 경우 Adobe Campaign은 메시지를 바이너리 형식(유니코드)으로 전송하도록 선택합니다.따라서 모든 문자가 그대로 전송됩니다. 유니코드의 SMS 메시지는 70자로 제한되므로 Adobe Campaign은 두 부분으로 메시지를 보내야 합니다.
 
 >[!NOTE]
 >
->최적의 인코딩을 자동으로 선택하는 알고리즘은 사례별로 각 메시지에 대해 독립적으로 실행됩니다. 유니코드 인코딩이 필요한 개인화된 메시지만 유니코드로 전송됩니다. 다른 모든 사용자는 GSM 인코딩을 사용합니다.
+>최적의 인코딩을 자동으로 선택하는 알고리즘은 대소문자를 구분하여 각 메시지에 개별적으로 실행됩니다. 이렇게 하면 유니코드 인코딩이 필요한 개인화된 메시지만 유니코드로 전송됩니다.다른 모든 프로그램은 GSM 인코딩을 사용합니다.
 
+## SMS 보낸 사람 {#sms-sender}
+
+SMS 발신자의 이름을 개인화할 수 있습니다. 자세한 내용은 SMS [구성](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) 섹션을 참조하십시오.
