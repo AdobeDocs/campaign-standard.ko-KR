@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
+source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
 
 ---
 
@@ -29,27 +29,27 @@ source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
 
 이메일 제목을 구성하려면 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스 가능)의 **[!UICONTROL Properties]** 탭으로 이동하여 **[!UICONTROL Subject]** 섹션을 채웁니다.
 
-**이메일의**&#x200B;제목 줄을 정의하려면
+**To define the subject line of an email**:
 
-1. 이메일을 만듭니다.
-1. 홈 페이지를 닫습니다.
-1. 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스)의 **[!UICONTROL Properties]** 탭으로 이동하여 **[!UICONTROL Subject]** 섹션을 채웁니다.
+1. Create an email.
+1. Close homepage.
+1. Go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
 
 ![](assets/email_designer_subject.png)
 
-해당 아이콘을 클릭하여 개인화 필드, 콘텐츠 블록 및 동적 컨텐츠를 제목 줄에 추가할 수도 있습니다.
+You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
 
-**관련 항목:**
+**Related topics:**
 
-* [개인화 필드 삽입](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [콘텐츠 블록 추가](../../designing/using/personalization.md#adding-a-content-block)
-* [이메일에서 동적 컨텐츠 정의](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## 예측 제목 줄 {#predictive-subject-line}
+## Predictive subject line {#predictive-subject-line}
 
-이메일을 편집할 때 다른 제목 줄을 시도해 보고 보내기 전에 공개 비율을 예측할 수 있습니다.
+When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
 
-이 기능은 기본적으로 비활성화됩니다. 첫 번째 모델을 가져올 때 활성화됩니다. 모델은 해당 업계별 교육 데이터 세트의 결과입니다. 모델을 사용하면 시스템에서 새 제목 줄이 제출될 때 이메일 공개 비율을 예측할 수 있습니다.
+This feature is disabled by default. It is enabled when the first model is imported. A model is the result of training data sets specific to a given industry. Models allow the system to predict the open rate of the email when a new subject line is submitted.
 
 >[!NOTE]
 >
