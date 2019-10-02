@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: aeb0e7bc6765b23042fafd34fb360d4e3046adcd
 
 ---
 
@@ -40,35 +40,35 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 입력 필드는 Campaign 데이터베이스에 데이터를 저장하거나 업데이트하는 데 사용됩니다. 이렇게 하려면 데이터베이스 필드를 입력 영역, 라디오 단추 또는 확인란 유형 블록과 연결해야 합니다. 이렇게 하려면:
 
-1. 랜딩 페이지에서 블록을 선택합니다.
+1. Select a block in the landing page.
 1. 팔레트에서 **[!UICONTROL Form data]** 부품을 완료합니다.
 
    ![](assets/editing_lp_content_4.png)
 
-1. 선택 영역의 양식 필드에 연결할 데이터베이스 필드를 **[!UICONTROL Field]** 선택합니다.
+1. Choose a database field to link with the form field in the **[!UICONTROL Field]** selection zone.
 
-   이 **[!UICONTROL Mandatory]** 옵션을 선택하면 사용자가 이 필드를 완료한 경우에만 페이지를 제출할 수 있습니다. 필수 필드가 완료되지 않으면 사용자가 페이지의 유효성을 검사할 때 오류 메시지가 나타납니다.
+   When the **[!UICONTROL Mandatory]** option is checked, the page can only be submitted if the user has completed this field. If a mandatory field is not completed, an error message will appear when the user validates the page.
 
    >[!NOTE]
    >
-   >랜딩 페이지는 프로파일과 매핑만 할 수 **있습니다**.
+   >Landing pages can only be mapped with **Profiles**.
 
-1. 선택 영역(예: **[!UICONTROL Text]****[!UICONTROL Number]**&#x200B;또는 **[!UICONTROL Date]** 선택 영역)을 선택하여 필드 유형을 정의합니다 **[!UICONTROL HTML type of the field]** .
+1. Define the field type by choosing, for example , , or  in the  selection area.**[!UICONTROL Text]****[!UICONTROL Number]****[!UICONTROL Date]****[!UICONTROL HTML type of the field]**
 
 >[!NOTE]
 >
->기본 제공 랜딩 페이지의 기본 필드는 미리 구성되어 있습니다. 필요에 따라 수정할 수 있습니다.
+>The default fields of the built-in landing pages are preconfigured. You can modify them as needed.
 
-## 양식 제출 {#submitting-the-form}
+## Submitting the form {#submitting-the-form}
 
-방문자가 전송 단추를 클릭할 때 수행할 작업을 선택할 수 있습니다. 이렇게 하려면:
+You can select the action to perform when the visitor clicks the submit button. To do this:
 
-1. 랜딩 페이지의 제출 단추를 선택합니다.
-1. 왼쪽 패널의 드롭다운 목록에서 동작을 선택합니다. 가능한 작업은 다음과 같습니다.(페이지를 새로 고치려면) **[!UICONTROL Refresh]** 및 **[!UICONTROL Next page]** (확인 페이지 표시).
+1. Select the submit button of the landing page.
+1. Select the action in the drop-down list in the left panel. Possible actions are:  (to refresh the page) and  (to display the confirmation page).**[!UICONTROL Refresh]****[!UICONTROL Next page]**
 
    ![](assets/editing_lp_content_5.png)
 
-또한 단추의 레이블을 변경하거나 특정 링크를 구성할 수 있습니다. 이렇게 하려면:
+또한 단추의 레이블을 변경하거나 특정 링크를 구성할 수 있습니다. To do this:
 
 1. 제출 단추를 선택합니다.
 1. 왼쪽 패널에서 ![](assets/lp_link_properties.png) 버튼을 클릭합니다.
@@ -116,41 +116,41 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 랜딩 페이지에 대한 액세스는 Campaign에서 보낸 메시지의 링크에서 온 식별된 방문자로 제한됩니다. 이 경우 랜딩 페이지에서 데이터를 미리 로드할 수 있습니다. 이렇게 하려면:
 
-1. 랜딩 페이지 대시보드의 ![](assets/edit_darkgrey-24px.png) 아이콘을 통해 액세스한 랜딩 페이지 속성을 편집하고 **[!UICONTROL Access & loading]** 매개 변수를 표시합니다.
+1. Edit the landing page properties accessed via the  icon in the landing page dashboard, and display the  parameters.![](assets/edit_darkgrey-24px.png)**[!UICONTROL Access & loading]**
 
    ![](assets/lp_edit_properties_button.png)
 
 1. 을 **[!UICONTROL Preload visitor data]**&#x200B;선택합니다.
 
-   페이지의 방문자가 데이터베이스의 프로필에 해당하는 경우 해당 데이터는 데이터베이스 데이터와 매핑된 양식의 필드에 표시되고 랜딩 페이지의 개인화 요소가 고려됩니다.
+   If a visitor to the page corresponds to a profile in the database, their data is displayed in the form's fields that are mapped with the database data and the landing page's personalization elements are taken into account.
 
    ![](assets/lp_parameters_3.png)
 
-다음을 수행할 수도 있습니다.
+You can also:
 
-* 다음 **[!UICONTROL Authorize visitor identification via URL parameters]** 옵션을 사용하여 URL 매개 변수를 사용하여 방문자를 식별합니다.그런 다음 로드 키를 선택하고 필터 매개 변수를 해당 URL의 매개 변수와 매핑해야 합니다.
-* 이 **[!UICONTROL Authorize unidentified visitors]** 옵션을 사용하여 랜딩 페이지에 액세스할 방문자를 허용합니다.
+* Use the URL parameters to identify the visitors, using the  option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.**[!UICONTROL Authorize visitor identification via URL parameters]**
+* Authorize any visitor to access the landing page, using the  option.**[!UICONTROL Authorize unidentified visitors]**
 
-## Google reCAPTCHA 설정 {#setting-google-recaptcha}
+## Setting Google reCAPTCHA {#setting-google-recaptcha}
 
-랜딩 페이지에서 Google reCAPTCHA V3를 설정하여 스팸과 봇에 의한 남용으로부터 보호할 수 있습니다. 랜딩 페이지에서 사용하려면 먼저 외부 계정을 만들어야 합니다. 구성 방법에 대한 자세한 내용은 이 [섹션을](../../administration/using/external-accounts.md#google-recaptcha-external-account)참조하십시오.
+You can set up Google reCAPTCHA V3 with your landing page to protect it from spam and abuse caused by bots. To be able to use it with your landing page, you first need to create an external account. For more information on how to configure it, refer to this section.[](../../administration/using/external-accounts.md#google-recaptcha-external-account)
 
 Google reCAPTCHA V3 외부 계정이 설정되면 랜딩 페이지에 추가할 수 있습니다.
 
-1. 랜딩 페이지를 게시하기 전에 랜딩 페이지 대시보드의 아이콘을 통해 액세스한 페이지 속성에 액세스합니다. ![](assets/edit_darkgrey-24px.png)
+1. Before publishing your landing page, access the page properties accessed via the  icon from you landing page dashboard.![](assets/edit_darkgrey-24px.png)
 
    ![](assets/lp_parameters_google3.png)
 
-1. 메뉴를 **[!UICONTROL Access & loading]** 펼쳐라.
-1. 옵션을 **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** 선택합니다.
-1. 이전에 만든 Google reCAPTCHA 외부 계정을 선택합니다.
+1. Unfold the  menu.**[!UICONTROL Access & loading]**
+1. Check the  option.**[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]**
+1. Select your previously created Google reCAPTCHA external account.
 
    ![](assets/lp_parameters_google.png)
 
 1. Click **[!UICONTROL Confirm]**.
 
-랜딩 페이지는 이제 페이지 하단에 표시되는 Google reCAPTCHA로 설정됩니다.
+Your landing page is now set up with Google reCAPTCHA which can be seen at the bottom of your page.
 
 ![](assets/lp_parameters_google2.png)
 
-그러면 Google reCAPTCHA가 사용자의 페이지 상호 작용을 기반으로 점수를 반환합니다. 점수를 확인하려면 Google 관리 콘솔에 [연결합니다](https://g.co/recaptcha/admin).
+Google reCAPTCHA will then return a score based on users' interactions with your page. 점수를 확인하려면 Google 관리 콘솔에 [연결합니다](https://g.co/recaptcha/admin).
