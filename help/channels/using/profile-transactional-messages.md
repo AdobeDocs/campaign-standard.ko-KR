@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 차이점이 아래에 나와 있습니다.
 
 1. 편집하기 위해 만든 트랜잭션 메시지로 이동합니다.
-1. 트랜잭션 메시지에서 **[!UICONTROL Content]** 섹션을 클릭합니다. 트랜잭션 템플릿 외에 타깃팅하는 기본 이메일 템플릿을 선택할 수도 **[!UICONTROL Profile]**&#x200B;있습니다.
+1. 트랜잭션 메시지에서 **[!UICONTROL Content]** 섹션을 클릭합니다. 트랜잭션 템플릿 외에 이메일 템플릿 타깃팅을 선택할 수도 **[!UICONTROL Profile]**&#x200B;있습니다.
 
    ![](assets/message-center_marketing_templates.png)
 
