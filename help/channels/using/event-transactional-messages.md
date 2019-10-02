@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,개요
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 ---
 
@@ -83,21 +83,27 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 트랜잭션 메시지에서 개인화를 설정하려면 아래 단계를 따르십시오.
 
-1. 메시지의 제목과 내용을 수정하려면 **[!UICONTROL Content]** 블록을 클릭합니다. 이 예에서는 이미지, 스타일 시트 및 HTML 파일이 포함된 HTML 템플릿을 가져옵니다. HTML 템플릿 가져오기는 기존 컨텐츠 [로드](../../designing/using/using-existing-content.md) 섹션에 표시됩니다.
+1. 메시지의 제목과 내용을 수정하려면 **[!UICONTROL Content]** 블록을 클릭합니다. 이 예에서는 이미지와 텍스트가 포함된 템플릿을 선택합니다. 이메일 컨텐츠 템플릿에 대한 자세한 내용은 템플릿을 [사용하여](../../designing/using/using-reusable-content.md#designing-templates)디자인을 참조하십시오.
 
    ![](assets/message-center_6.png)
 
-1. 메시지 내용을 입력합니다. 이 예에서는 세 개의 개인화 필드를 추가했습니다.성, 마지막 제품 상담, 총 장바구니 금액. 중단된 장바구니에 대한 링크는 사용자를 장바구니에 리디렉션하는 외부 URL에 대한 링크입니다. 이 매개 변수는 Adobe Campaign에서 관리되지 않습니다.
+1. 제목을 추가하고 필요에 따라 메시지 내용을 편집합니다.
 
-   이벤트를 만들 때 정의한 필드를 추가하려면(이벤트 구성 참조) [메시지](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)내용에 개인화 필드를 삽입합니다. 필드를 찾으려면 **[!UICONTROL Transactional event]** &gt; **[!UICONTROL Event context]**&#x200B;을 선택합니다.
+   >[참고]
+   >
+   >중단된 장바구니에 대한 링크는 사용자를 장바구니에 리디렉션하는 외부 URL에 대한 링크입니다. 이 매개 변수는 Adobe Campaign에서 관리되지 않습니다.
+
+1. 이 예에서는 이벤트를 [만들 때 정의한 필드를](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)세 개 추가하려고 합니다.이름, 마지막 제품 상담, 총 장바구니 금액 이렇게 하려면 메시지 컨텐츠에 개인화 필드를 [삽입합니다](../../designing/using/personalization.md#inserting-a-personalization-field) .
+
+1. &gt; **[!UICONTROL Context]****[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**&#x200B;을 통해 해당 필드를 찾습니다.
 
    ![](assets/message-center_7.png)
 
-1. 메시지의 컨텐츠를 강화하려면 이벤트를 연결한 표에서 필드를 선택하여 필드를 추가합니다. 이 예제에서는 **[!UICONTROL Title (salutation)]** 표의 **[!UICONTROL Profile]** 필드를 선택합니다.
+1. 메시지의 컨텐츠를 강화하려면 이벤트를 연결한 표에서 필드를 선택하여 필드를 추가합니다. 이 예제에서는 &gt; &gt; &gt; 를 통해 **[!UICONTROL Title (salutation)]** 표의 **[!UICONTROL Profile]** 필드를 선택합니다 **[!UICONTROL Context]** **[!UICONTROL Real-time event]** **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
-   개인화 필드 삽입 단계는 개인화 필드 [삽입](../../designing/using/personalization.md#inserting-a-personalization-field) 섹션에 자세히 설명되어 있습니다.
+1. 필요한 모든 필드를 삽입합니다.
 
    ![](assets/message-center_8.png)
 
