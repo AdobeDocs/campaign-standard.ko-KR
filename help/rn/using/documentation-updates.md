@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4f9d8ec6c5fc8dec8e4ad16930a183cda665a15
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -26,6 +26,12 @@ Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아
 이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/using/release-notes.md).
+
+## 설명서 업데이트 - 2019년 10월 {#doc-updates-october-2019}
+
+특정 서비스에 구독하는 프로필에 자동 사용자 정의 확인 이메일을 보내는 방법에 대해 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../audiences/using/confirming-subscription-to-a-service.md)
+
+트랜잭션 메시징 섹션이 이메일 디자이너의 컨텐츠 편집을 포함하여 최신 UI 업데이트를 사용하여 수정되었습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
 
 ## 설명서 업데이트 - 2019년 9월 {#doc-updates-september-2019}
 
