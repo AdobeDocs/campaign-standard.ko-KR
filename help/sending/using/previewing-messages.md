@@ -14,7 +14,7 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+source-git-commit: fba337604c678bad17cb03796aeb24d14549605c
 
 ---
 
@@ -34,6 +34,9 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
    ![](assets/sending_anti-spam_analysis.png)
 
 1. 단추를 **[!UICONTROL Change profile]** 선택하여 개인화 요소를 테스트할 테스트 프로필을 선택합니다.
+
+   ![](assets/sending_test-profile.png)
+
 1. 모드를 종료하려면 **[!UICONTROL Preview]** 화면 왼쪽 상단에 있는 **[!UICONTROL Edit]** 단추를 클릭합니다.
 
    ![](assets/sending_preview_edit.png)
