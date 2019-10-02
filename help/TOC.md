@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: 최종 사용자
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
+source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
 
 ---
 
@@ -36,21 +36,21 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [타임라인](start/using/timeline.md)
    + 템플릿 관리 {#managing-templates}
       + [템플릿 정보](start/using/about-templates.md)
-      + [Creating a new template](start/using/creating-a-new-template.md)
-      + [Creating a multilingual template](start/using/creating-a-multilingual-template.md)
-      + [Using a template](start/using/using-a-template.md)
-   + Tutorials {#tutorials}
-      + [Step-by-step guides](start/using/step-by-step-guides.md)
-      + [How-to videos](start/using/how-to-videos.md)
-+ Profiles and audiences {#profiles-and-audiences}
-   + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
-   + Managing profiles {#managing-profiles}
-      + [About profiles](audiences/using/about-profiles.md)
-      + [Creating profiles](audiences/using/creating-profiles.md)
-      + [Editing profiles](audiences/using/editing-profiles.md)
-      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
-      + [Active profiles](audiences/using/active-profiles.md)
-   + Managing audiences {#managing-audiences}
+      + [새 템플릿 만들기](start/using/creating-a-new-template.md)
+      + [다국어 템플릿 만들기](start/using/creating-a-multilingual-template.md)
+      + [템플릿 사용](start/using/using-a-template.md)
+   + 자습서 {#tutorials}
+      + [단계별 가이드](start/using/step-by-step-guides.md)
+      + [사용 방법 비디오](start/using/how-to-videos.md)
++ 프로필 및 대상 {#profiles-and-audiences}
+   + [프로필 및 대상 정보](audiences/using/about-profiles-and-audiences.md)
+   + 프로필 관리 {#managing-profiles}
+      + [프로필 정보](audiences/using/about-profiles.md)
+      + [프로필 만들기](audiences/using/creating-profiles.md)
+      + [프로필 편집](audiences/using/editing-profiles.md)
+      + [통합된 고객 프로필](audiences/using/integrated-customer-profile.md)
+      + [활성 프로파일](audiences/using/active-profiles.md)
+   + 대상 관리 {#managing-audiences}
       + [대상 정보](audiences/using/about-audiences.md)
       + [대상자 만들기](audiences/using/creating-audiences.md)
       + [메시지에서 대상자 선택](audiences/using/selecting-an-audience-in-a-message.md)
@@ -59,6 +59,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [서비스 만들기](audiences/using/creating-a-service.md)
       + [서비스 홍보](audiences/using/promoting-a-service.md)
       + [구독 모니터링](audiences/using/monitoring-subscriptions.md)
+      + [서비스 가입 확인](audiences/using/confirming-subscription-to-a-service.md)
    + 옵트인 및 옵트아웃 프로세스 이해 {#understanding-opt-in-and-opt-out-processes}
       + [캠페인 옵트인 및 옵트아웃 정보](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Campaign에서 옵트인 및 옵트아웃 관리](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -81,21 +82,21 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [수신 SMS 관리](channels/using/managing-incoming-sms.md)
       + [SMS 및 푸시 컨텐츠 디자인 정보](channels/using/about-sms-and-push-content-design.md)
       + [SMS 및 푸시 컨텐츠 편집기 인터페이스](channels/using/sms-and-push-content-editor-interface.md)
-      + [Defining dynamic text](channels/using/defining-dynamic-text.md)
-   + Push notifications {#push-notifications}
-      + [About push notifications](channels/using/about-push-notifications.md)
-      + [Preparing and sending a push notification](channels/using/preparing-and-sending-a-push-notification.md)
-      + [Customizing a push notification](channels/using/customizing-a-push-notification.md)
-      + [Creating a multilingual push notification](channels/using/creating-a-multilingual-push-notification.md)
-      + [Creating and updating profile information based on mobile application data](channels/using/updating-profile-with-mobile-app-data.md)
-   + In-App messaging {#in-app-messaging}
-      + [About In-App messaging](channels/using/about-in-app-messaging.md)
-      + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Customizing an In-App message](channels/using/customizing-an-in-app-message.md)
-   + Direct mail {#direct-mail}
-      + [About direct mail](channels/using/about-direct-mail.md)
-      + [Return to sender](channels/using/return-to-sender.md)
-      + [Creating the direct mail](channels/using/creating-the-direct-mail.md)
+      + [동적 텍스트 정의](channels/using/defining-dynamic-text.md)
+   + 푸시 알림 {#push-notifications}
+      + [푸시 알림 정보](channels/using/about-push-notifications.md)
+      + [푸시 알림 준비 및 전송](channels/using/preparing-and-sending-a-push-notification.md)
+      + [푸시 알림 사용자 정의](channels/using/customizing-a-push-notification.md)
+      + [다국어 푸시 알림 만들기](channels/using/creating-a-multilingual-push-notification.md)
+      + [모바일 애플리케이션 데이터를 기반으로 프로파일 정보 만들기 및 업데이트](channels/using/updating-profile-with-mobile-app-data.md)
+   + 인앱 메시지 {#in-app-messaging}
+      + [인앱 메시지 정보](channels/using/about-in-app-messaging.md)
+      + [인앱 메시지 준비 및 보내기](channels/using/preparing-and-sending-an-in-app-message.md)
+      + [인앱 메시지 사용자 지정](channels/using/customizing-an-in-app-message.md)
+   + DM {#direct-mail}
+      + [DM 정보](channels/using/about-direct-mail.md)
+      + [보낸 사람에게 돌아가기](channels/using/return-to-sender.md)
+      + [다이렉트 메일 만들기](channels/using/creating-the-direct-mail.md)
       + [DM 대상자 정의](channels/using/defining-the-direct-mail-audience.md)
       + [DM 컨텐츠 정의](channels/using/defining-the-direct-mail-content.md)
       + [워크플로우의 DM 예](channels/using/example-of-direct-mail-in-a-workflow.md)
@@ -124,20 +125,21 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
    + [제목 라인 및 발신자 정의](designing/using/subject-line.md)
    + [처음부터 이메일 디자인](designing/using/designing-from-scratch.md)
    + [기존 컨텐츠를 사용하여 이메일 디자인](designing/using/using-existing-content.md)
-   + [Designing emails using reusable content](designing/using/using-reusable-content.md)
+   + [재사용 가능한 컨텐츠를 사용하여 이메일 디자인](designing/using/using-reusable-content.md)
    + [멀티 솔루션 이메일 디자인](designing/using/using-integrations.md)
-   + [Personalization](designing/using/personalization.md)
-   + [Plain text and HTML modes](designing/using/plain-text-html-modes.md)
-   + [Managing styles](designing/using/styles.md)
-   + [Managing links](designing/using/links.md)
-   + [Managing images](designing/using/images.md)
-+ Testing and Sending {#testing-and-sending}
-   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
-   + Preparing and testing messages {#preparing-and-testing-messages}
-      + [Previewing messages](sending/using/previewing-messages.md)
-      + [Preparing the send](sending/using/preparing-the-send.md)
-      + [Managing test profiles and sending proofs](sending/using/managing-test-profiles-and-sending-proofs.md)
-      + [Email rendering](sending/using/email-rendering.md)
+   + [개인화](designing/using/personalization.md)
+   + [일반 텍스트 및 HTML 모드](designing/using/plain-text-html-modes.md)
+   + [스타일 관리](designing/using/styles.md)
+   + [링크 관리](designing/using/links.md)
+   + [이미지 관리](designing/using/images.md)
++ 테스트 및 전송 {#testing-and-sending}
+   + [Campaign을 사용하여 메시지 보내기 정보](sending/using/about-sending-messages-with-campaign.md)
+   + 메시지 준비 및 테스트 {#preparing-and-testing-messages}
+      + [메시지 미리 보기](sending/using/previewing-messages.md)
+      + [보내기 준비](sending/using/preparing-the-send.md)
+      + [테스트 프로파일 관리 및 증명 전송](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [이메일의 제목 줄 테스트](sending/using/testing-subject-line-email.md)
+      + [이메일 렌더링](sending/using/email-rendering.md)
    + 메시지 예약 {#sheduling-messages}
       + [메시지 예약 정보](sending/using/about-scheduling-messages.md)
       + [전송 시간 최적화](sending/using/optimizing-the-sending-time.md)
@@ -164,16 +166,16 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [도메인별 분류](reporting/using/breakdown-by-domains.md)
       + [불만](reporting/using/complaints.md)
       + [배달 요약](reporting/using/delivery-summary.md)
-      + [Delivery throughput](reporting/using/delivery-throughput.md)
-      + [In-App report](reporting/using/in-app-report.md)
+      + [전달 처리량](reporting/using/delivery-throughput.md)
+      + [인앱 보고서](reporting/using/in-app-report.md)
       + [비제공 서비스 및 바운스](reporting/using/non-deliverables-and-bounces.md)
-      + [Opens](reporting/using/opens.md)
-      + [Push notification report](reporting/using/push-notification-report.md)
+      + [열기](reporting/using/opens.md)
+      + [푸시 알림 보고서](reporting/using/push-notification-report.md)
       + [SMS 보고서](reporting/using/sms-report.md)
-      + [Tracking indicators](reporting/using/tracking-indicators.md)
-      + [Unsubscriptions](reporting/using/unsubscriptions.md)
+      + [추적 표시기](reporting/using/tracking-indicators.md)
+      + [구독 취소](reporting/using/unsubscriptions.md)
       + [URL 및 스트림 클릭](reporting/using/urls-and-click-streams.md)
-      + [Hot clicks](reporting/using/hot-clicks.md)
+      + [핫 클릭](reporting/using/hot-clicks.md)
    + 보고서 사용자 지정 {#customizing-reports}
       + [패널 추가](reporting/using/adding-panels.md)
       + [시각화 추가](reporting/using/adding-visualizations.md)
