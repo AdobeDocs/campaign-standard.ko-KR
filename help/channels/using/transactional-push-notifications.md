@@ -14,7 +14,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign을 사용하여 iOS 및 Android 모바일 장치에서 트랜잭�
 
    ![](assets/message-center_push_content.png)
 
-   이러한 필드를 찾으려면 항목 옆에 있는 연필을 클릭하고 **[!UICONTROL Insert personalization field]** 을 클릭한 다음 **[!UICONTROL Transactional event]** &gt; 를 **[!UICONTROL Event context]**&#x200B;선택합니다.
+   이러한 필드를 찾으려면 항목 옆에 있는 연필을 클릭하고 **[!UICONTROL Insert personalization field]** 을 클릭한 다음 **[!UICONTROL Context]** &gt; **[!UICONTROL Real-time event]** &gt; **[!UICONTROL Event context]**&#x200B;를 선택합니다.
 
    ![](assets/message-center_push_personalization.png)
 
@@ -113,13 +113,13 @@ Adobe Campaign을 사용하여 iOS 및 Android 모바일 장치에서 트랜잭�
 
 1. 편집하기 위해 만든 트랜잭션 메시지로 이동합니다. 이벤트 [트랜잭션 메시지를](../../channels/using/event-transactional-messages.md)참조하십시오.
 
-   ![](assets/message-center_push_message_profile.png)
+   <!--![](assets/message-center_push_message_profile.png)-->
 
 1. 메시지의 제목과 본문을 수정하려면 **[!UICONTROL Content]** 블록을 클릭합니다.
 
    실시간 이벤트를 기반으로 하는 구성과 달리 모든 프로필 정보에 직접 액세스하여 메시지를 개인화할 수 있습니다. 개인화 [필드](../../designing/using/personalization.md#inserting-a-personalization-field)삽입을 참조하십시오.
 
-   ![](assets/message-center_push_content_profile.png)
+   <!--![](assets/message-center_push_content_profile.png)-->
 
    푸시 알림 컨텐츠 편집에 대한 자세한 내용을 살펴보십시오. 푸시 [알림](../../channels/using/preparing-and-sending-a-push-notification.md)만들기를 참조하십시오.
 
