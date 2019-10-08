@@ -14,7 +14,7 @@ discoiquuid: a3ce6b80-1858-4 파섹
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
  <tbody> 
   <tr> 
    <td> 전달 가능성 제외 규칙<br /> </td> 
-   <td> 이제 암호화된 전역 억제 목록이 전달 가능 인스턴스에서 관리되므로 악의적인 활동, 특히 Spamtrap 사용으로 인해 블랙리스트에 추가되지 않습니다.<br /> 각 이메일 배달에 대해 두 가지 기본 유형 규칙이 수신자 이메일 주소와 이 목록에 포함된 금지된 주소 또는 도메인 이름을 비교합니다. 일치하는 항목이 있으면 해당 수신자가 대상 모집단에서 제외됩니다.<br /> 자세한 내용은 <a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> 이제 암호화된 전역 억제 목록이 전달 가능 인스턴스에서 관리되므로 악의적인 활동, 특히 Spamtrap 사용으로 인해 블랙리스트에 추가되지 않습니다.<br /> 각 이메일 배달에 대해 두 가지 기본 유형 분류 규칙은 수신자 이메일 주소와 이 목록에 포함된 금지된 주소 또는 도메인 이름을 비교합니다. 일치하는 항목이 있으면 해당 수신자가 대상 모집단에서 제외됩니다.<br /> 자세한 내용은 <a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 일반 최적화<br /> </td> 
@@ -84,7 +84,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 #### 사용자 정의 리소스 {#custom-resources}
 
-* 확장된 API 필드의 두 발행물 간 향상된 API 로그 미리 보기
+* 확장 API 필드의 두 발행물 간의 향상된 API 로그 미리 보기
 * 사용자 지정 리소스가 게시되기 전에 삭제되지 않는 문제를 해결했습니다.
 * 프로파일이 확장되지 않고 식별자 키가 동적 필드로 설정되지 않는 문제를 해결했습니다.
 * 사용자 지정 리소스에 링크를 추가할 때 발생할 수 있는 문제를 수정했습니다.
@@ -688,7 +688,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 * 쿼리를 수행할 수 없는 필드가 특정 워크플로우 활동에 표시되던 오류를 수정했습니다.
 * 사용자가 아웃바운드 전환의 게재에서 추가된 KPI를 찾을 수 없는 오류를 **[!UICONTROL Query]** 수정했습니다.
 * 파일을 워크플로우로 가져온 후 파일 대상자가 생성되지 않는 문제를 해결했습니다.
-* 리소스의 **위치/주소3** 필드를 사용하는 경우 프로필에서 데이터가 업데이트되지 않는 오류를 해결했습니다.
+* 리소스의 **위치/주소3** 필드를 사용하는 경우 프로필에서 데이터가 업데이트되지 않는 오류를 수정했습니다.
 * 다양한 활동 컬렉션이 워크플로우에서 중복되지 않던 문제를 수정했습니다.
 * SQL이 표시되지 않도록 하여 워크플로우에서 반복적으로 배달할 수 있는 오류를 진단하는 문제를 해결했습니다.
 
@@ -879,7 +879,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
   </tr> 
   <tr> 
    <td> 디지털 컨텐츠 편집기 - 다이내믹한 컨텐츠<br /> </td> 
-   <td> 동적 컨텐츠 인터페이스가 개선되었습니다. 이제 이메일 본문에서 직접 서로 다른 동적 내용 간을 탐색할 수 있는 화살표가 나타납니다.<br /> 이 기능 사용에 대한 자세한 내용은 <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> 동적 컨텐츠 인터페이스가 개선되었습니다. 이제 이메일 본문에서 직접 서로 다른 동적 내용 간을 탐색할 수 있는 화살표가 나타납니다.<br /> 이 기능 사용에 대한 자세한 내용은 <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 디지털 컨텐츠 편집기 - 동적 텍스트<br /> </td> 
@@ -963,7 +963,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
   </tr> 
   <tr> 
    <td> 컨텐츠 편집기:동적 컨텐츠<br /> </td> 
-   <td> 표현식 편집기를 통해 정의된 조건에 따라 사용자에게 동적으로 표시되는 다양한 컨텐츠를 정의할 수 있습니다.<br /> 자세한 <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">설명서를</a>참조하십시오.<br /> </td> 
+   <td> 표현식 편집기를 통해 정의된 조건에 따라 사용자에게 동적으로 표시되는 다양한 컨텐츠를 정의할 수 있습니다.<br /> 자세한 <a href="../../designing/using/personalization.md#defining-dynamic-content-in-an-email">설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 이메일<br /> </td> 
@@ -1057,7 +1057,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
   </tr> 
   <tr> 
    <td> 디지털 콘텐츠 편집기:블록 <strong>선택기</strong><br /> </td> 
-   <td> HTML 컨텐츠 편집기에서 블록을 선택하면 편집 영역의 아래쪽에 탐색 표시가 표시됩니다. 이렇게 하면 다른 요소로 쉽게 이동하고 선택할 수 있습니다.<br /> 자세한 <a href="../../channels/using/managing-landing-page-structure-and-style.md">설명서를</a>참조하십시오.<br /> </td> 
+   <td> HTML 컨텐츠 편집기에서 블록을 선택하면 편집 영역의 아래쪽에 탐색 표시가 표시됩니다. 이렇게 하면 다른 요소로 쉽게 이동하고 선택할 수 있습니다.<br /> 자세한 <a href="../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style">설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
