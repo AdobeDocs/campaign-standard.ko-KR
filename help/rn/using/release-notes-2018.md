@@ -14,7 +14,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -114,7 +114,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
   </tr> 
   <tr> 
    <td> 메시지 준비 중 URL에서 자동 컨텐츠 가져오기<br /> </td> 
-   <td> 이제 준비 단계 동안 URL에서 이메일 컨텐츠를 가져올 수 있습니다. 반복되는 이메일 게재의 경우, 메시지가 이메일을 보낼 때 컨텐츠가 항상 최신 상태로 유지되도록 준비할 때마다 최신 HTML 컨텐츠가 검색됩니다. 또한 이 기능을 사용하면 컨텐츠가 아직 준비되지 않은 경우에도 URL의 컨텐츠가 포함된 예약된 전달을 만들 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> 이제 준비 단계 동안 URL에서 이메일 컨텐츠를 가져올 수 있습니다. 반복되는 이메일 게재의 경우, 메시지가 이메일을 보낼 때 항상 콘텐츠가 최신 상태로 유지되도록 준비할 때마다 최신 HTML 콘텐츠가 검색됩니다. 또한 이 기능을 사용하면 컨텐츠가 아직 준비되지 않은 경우에도 URL의 컨텐츠가 포함된 예약된 전달을 만들 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 캠페인 릴리스 알림 메시지<br /> </td> 
@@ -159,7 +159,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 ### 향상된 기능 {#improvements-2}
 
-* API가 **[!UICONTROL History]** Adobe.IO에 추가되었습니다. 프로필의 마케팅 내역과 관련된 정보에 액세스할 수 있습니다.터치포인트 수, 보낸 배달, 미러 페이지 URL 등 자세한 내용은 [전용 사용 사례를](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) 참조하십시오.
+* API가 **[!UICONTROL History]** Adobe.IO에 추가되었습니다. 프로필의 마케팅 내역과 관련된 정보에 액세스할 수 있습니다.터치포인트 수, 보낸 배달, 미러 페이지 URL 등 자세한 내용은 [전용 사용 사례를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) 참조하십시오.
 * 기술 워크플로우는 데이터베이스 백업에 대한 성능을 향상시키기 위해 최적화되었습니다. **[!UICONTROL Database cleanup]**
 * Creative Designer for Email은 이제 프랑스어 및 독일어로도 제공됩니다.
 
@@ -415,7 +415,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 * 전달 준비 단계가 개선되어 성능이 향상되었습니다.
 * 일부 틈새 상황에서 추적 로그가 손상될 수 있는 몇 가지 문제를 수정했습니다.
-* 연락처 날짜가 배달 준비 및 확인 간에 변경될 때 발생하는 연락처 날짜 업데이트 문제를 해결했습니다. 이제 준비 후 연락처 날짜를 변경하면 전송을 확인하기 전에 다시 배송을 준비해야 합니다. 자세한 [설명서를](../../sending/using/preparing-the-send.md)참조하십시오.
+* 연락처 날짜가 배달 준비 및 확인 간에 변경될 때 발생하는 연락처 날짜 업데이트 문제를 해결했습니다. 이제 준비 후 연락 날짜를 변경하면 전송을 확인하기 전에 다시 배송을 준비해야 합니다. 자세한 [설명서를](../../sending/using/preparing-the-send.md)참조하십시오.
 
 #### 푸시 알림 {#push-notifications}
 
@@ -481,7 +481,7 @@ Campaign 인터페이스의 컨텍스트 도움말 링크를 사용할 때 일�
   </tr> 
   <tr> 
    <td> API 신호 활동 트리거<br /> </td> 
-   <td> 이제 Adobe Campaign Standard API에서 직접 워크플로우에 대한 신호 활동을 트리거할 수 있습니다.<br /> 자세한 내용은 <a class="anchorLink" href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">자세한 설명서를</a> 참조하십시오.<br /> </td> 
+   <td> 이제 Adobe Campaign Standard API에서 직접 워크플로우에 대한 신호 활동을 트리거할 수 있습니다.<br /> 자세한 내용은 <a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">자세한 설명서를</a> 참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
