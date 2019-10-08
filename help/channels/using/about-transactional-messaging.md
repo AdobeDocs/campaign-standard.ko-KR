@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign에서는 두 가지 유형의 트랜잭션 메시지를 사용할
 >
 >Adobe Campaign은 다른 전달보다 트랜잭션 메시지 처리를 우선합니다.
 
-트랜잭션 메시지는 Adobe Campaign Standard API에서도 사용할 수 있습니다. 자세한 내용은 [전용 설명서를](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)참조하십시오.
+트랜잭션 메시지는 Adobe Campaign Standard API에서도 사용할 수 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)참조하십시오.
 
 ## 트랜잭션 메시징 운영 원칙 {#transactional-messaging-operating-principle}
 
@@ -63,6 +63,10 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 사이트 사
 이러한 모든 단계가 수행되면 사용자가 장바구니에 제품을 주문하지 않고 사이트를 떠나면 알림 이메일을 자동으로 받게 됩니다.
 
 ## 트랜잭션 메시징 제한 사항 {#transactional-messaging-limitations}
+
+>[!NOTE]
+>
+>트랜잭션 메시지에 액세스하려면 관리 권한이 있어야 합니다.
 
 ### 디자인 및 출판 {#design-and-publication}
 
@@ -95,13 +99,13 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 사이트 사
 
 ### 권한 및 브랜딩 {#permissions-and-branding}
 
-브랜드 [관리 측면에서](../../administration/using/branding.md) 트랜잭션 메시징은 표준 메시징보다 유연성이 떨어집니다. 거래 메시지에 사용된 모든 브랜드를 **[!UICONTROL All]** 조직 단위에 연결하는 것이 좋습니다. 자세한 내용은 아래 설명을 참조하십시오.
+브랜드 [관리 측면에서](../../administration/using/branding.md) 트랜잭션 메시징은 표준 메시징보다 유연성이 떨어집니다. 거래 메시지에 사용된 모든 브랜드를 **[!UICONTROL All]**[조직 구성 요소에](../../administration/using/organizational-units.md)연결하는 것이 좋습니다. 자세한 내용은 아래 설명을 참조하십시오.
 
 거래 메시지를 편집할 때 브랜드 이름이나 브랜드 로고와 같은 일부 매개 변수를 자동으로 적용할 수 있도록 브랜드에 연결할 수 있습니다. 트랜잭션 메시지 속성에서 기본적으로 **[!UICONTROL Default brand]** 이 선택됩니다.
 
 ![](assets/message-center_branding.png)
 
-트랜잭션 메시지에 액세스하려면 **[!UICONTROL Message Center agents]** (mcExec) 보안 그룹의 구성원이어야 합니다. 이 그룹은 **[!UICONTROL Message Center]**[조직](../../administration/using/organizational-units.md)구성 단위에연결되어 있습니다. 따라서 트랜잭션 메시지에 사용된 모든 개체(브랜딩 포함)는 **[!UICONTROL Message Center]** 조직 구성 요소에서 볼 수 있어야 합니다. 즉, 이러한 개체는 **[!UICONTROL Message Center]** 또는 **[!UICONTROL All]** 조직 단위로 표시되어야 합니다.
+트랜잭션 메시지에 사용된 모든 개체(브랜딩 포함)는 **[!UICONTROL Message Center]** 조직 구성 요소에서 볼 수 있어야 합니다. 즉, 이러한 개체는 **[!UICONTROL Message Center]** 또는 **[!UICONTROL All]** 조직 단위로 표시되어야 합니다.
 
 하지만 메시지 속성에서 선택한 브랜드가 조직 구성 단위와 연결되어 **[!UICONTROL Message Center]** 있거나 다른 **[!UICONTROL All]**&#x200B;경우 오류가 발생하며 트랜잭션 메시지를 보낼 수 없습니다.
 
