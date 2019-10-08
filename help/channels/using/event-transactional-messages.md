@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,개요
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 443b374506d388009fbd43108577001d35f406ee
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -32,7 +32,9 @@ source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 >[!NOTE]
 >
->트랜잭션 메시지에 액세스하려면 관리 권한이 있거나 **[!UICONTROL Message Center agents]** (mcExec) 보안 그룹에 표시되어야 합니다. 거래 메시지에 프로필 정보가 포함되어 있지 않으므로 피로 규칙과 호환하지 않습니다(프로필로 인해 농축된 경우에도). 피로 [규칙을](../../administration/using/fatigue-rules.md#choosing-the-channel)참조하십시오.
+>트랜잭션 메시지에 액세스하려면 **[!UICONTROL Administrators (all units)]** 보안 그룹의 일부여야 합니다.
+>
+>거래 메시지에 프로필 정보가 포함되어 있지 않으므로 피로 규칙과 호환하지 않습니다(프로필로 인해 농축된 경우에도). 피로 [규칙을](../../administration/using/fatigue-rules.md#choosing-the-channel)참조하십시오.
 
 ## 트랜잭션 메시지에서 테스트 프로필 정의 {#defining-a-test-profile-in-a-transactional-message}
 
@@ -109,7 +111,7 @@ source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 1. 이 이벤트에 대해 정의한 프로필을 선택하여 메시지를 미리 봅니다.
 
-   메시지 미리 보기 단계는 메시지 [미리 보기](../../sending/using/preparing-the-send.md) 섹션에 자세히 설명되어 있습니다.
+   메시지 미리 보기 단계는 메시지 [미리 보기](../../sending/using/previewing-messages.md) 섹션에 자세히 설명되어 있습니다.
 
    ![](assets/message-center_9.png)
 
@@ -258,7 +260,7 @@ source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 예를 들어 메시지에 포함된 데이터를 수정하는 **[!UICONTROL Pause]** 단추와 같은 방법으로 트랜잭션 메시지 게시를 일시 중지할 수 있습니다. 따라서 이벤트는 더 이상 처리되지 않고 대신 Adobe Campaign 데이터베이스의 큐에 보관됩니다.
 
-큐에 있는 이벤트는 REST API에 정의된 기간 동안(REST API [설명서](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)참조) 또는 트리거 코어 서비스를 사용하는 경우 트리거 이벤트에서 보관됩니다(캠페인 및 Experience Cloud 트리거 [작업 참조](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+큐에 있는 이벤트는 REST API에 정의된 기간 동안(REST API [설명서](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)참조) 또는 트리거 코어 서비스를 사용하는 경우 트리거 이벤트에서 보관됩니다(캠페인 및 Experience Cloud 트리거 [작업 참조](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
