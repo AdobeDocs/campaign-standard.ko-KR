@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -35,13 +35,13 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 전송하려면 먼저 
 
 1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** &gt; **[!UICONTROL Event configuration]**&#x200B;를 선택합니다.
 1. 단추를 **[!UICONTROL Create]** 클릭합니다.
-1. 이벤트에 **[!UICONTROL Label]** 유용한 정보를 **[!UICONTROL ID]** 제공합니다. The  field is mandatory and should begin with the prefix "EVT". **[!UICONTROL ID]** If you do not use this prefix, it is automatically added once you click .**[!UICONTROL Create]**
+1. 이벤트에 **[!UICONTROL Label]** 유용한 정보를 **[!UICONTROL ID]** 제공합니다. 이 **[!UICONTROL ID]** 필드는 필수로 사용할 수 있으며 접두사 "EVT"로 시작해야 합니다. 이 접두사를 사용하지 않으면 클릭하면 자동으로 추가됩니다 **[!UICONTROL Create]**.
 
    ![](assets/message-center_1.png)
 
    >[!CAUTION]
    >
-   >The ID must not exceed 64 characters, including EVT prefix.
+   >ID는 EVT 접두사를 포함하여 64자를 초과할 수 없습니다.
 
 1. 트랜잭션 메시지를 보내는 데 사용할 채널을 **[!UICONTROL Email]**&#x200B;선택하거나 **[!UICONTROL Mobile (SMS)]** (푸시 알림) **[!UICONTROL Mobile application]** 을 선택합니다.
 
@@ -186,7 +186,7 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
 
 트랜잭션 메시징 운영 [원칙](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) 섹션에 설명된 예에서, 클라이언트 중 하나가 장바구니에서 제품을 구매하기 전에 웹 사이트를 떠날 때마다 "장바구니 포기" 이벤트를 트리거할 수 있습니다. 이렇게 하려면 웹 사이트 웹 개발자가 Adobe Campaign Standard REST API를 사용해야 합니다.
 
-REST [API 설명서를 참조하십시오](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
+REST [API 설명서를 참조하십시오](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
 
 ## 트랜잭션 이벤트 특정 구성 {#transactional-event-specific-configurations}
 
