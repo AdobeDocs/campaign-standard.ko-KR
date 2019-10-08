@@ -2,69 +2,69 @@
 title: 프로필 편집
 seo-title: 프로필 편집
 description: 프로필 편집
-seo-description: 기존 프로필을 편집하고 연락처 정보, 선호 채널, 추적 로그, 구독 등을 액세스하는 방법을 알아봅니다.
-page-status-flag: 정품 인증 안 함
-uuid: 6 FCDB 719-6149-48 FC-B 400-64 C 24 A 51487 F
-contentOwner: Sauviat
-products: sg_ campaign/standard
-audience: 대상
-content-type: 참조
-topic-tags: managing-profiles
-discoiquuid: 8 d 3 ba 7 bf -90 ae -4 c 6 d-aaeb-a 48572 a 69 f 2 f
+seo-description: 기존 프로필을 편집하고 연락처 정보, 기본 채널, 추적 로그, 구독 등에 액세스하는 방법을 알아봅니다.
+page-status-flag: 활성화 안 함
+uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: 프로필 관리
+discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Editing profiles{#editing-profiles}
+# 프로필 편집{#editing-profiles}
 
-## Accessing profile properties {#accessing-profile-properties}
+## 프로필 속성 액세스 {#accessing-profile-properties}
 
-기존 프로필을 편집하고 그와 연관된 데이터를 참조하거나 수정할 수 있도록 단계는 다음과 같습니다.
+기존 프로파일을 편집하고 이와 관련된 데이터를 참조하거나 수정하려면 다음과 같이 하십시오.
 
-1. From the Adobe Campaign home page, click the **[!UICONTROL Customer profiles]** card or the **[!UICONTROL Profiles]** tab.
+1. Adobe Campaign 홈 페이지에서 **[!UICONTROL Customer profiles]** 카드나 **[!UICONTROL Profiles]** 탭을 클릭합니다.
 1. 연락처를 선택합니다.
-1. **[!UICONTROL Edit profile properties]** 아이콘을 클릭하여 프로필의 세부 정보에 액세스합니다.
+1. 프로필의 세부 정보에 액세스하려면 **[!UICONTROL Edit profile properties]** 아이콘을 클릭합니다.
 
    ![](assets/profile_creation2.png)
 
-   프로필의 속성 창은 모든 프로필 정보에 액세스할 수 있는 여러 탭을 제공합니다.
+   프로필의 속성 창에는 모든 프로필 정보에 액세스할 수 있는 여러 탭이 있습니다.
 
-   다른 탭은 Adobe Campaign에서 만들었거나 확장된 사용자 지정 리소스에 따라 나타날 수도 있습니다. For more information about custom resources, see [About custom resources](../../developing/using/data-model-concepts.md).
+   Adobe Campaign에서 만들거나 확장된 사용자 지정 리소스에 따라 다른 탭이 표시될 수도 있습니다. 사용자 지정 리소스에 대한 자세한 내용은 사용자 지정 [리소스](../../developing/using/data-model-concepts.md)정보를 참조하십시오.
 
    >[!NOTE]
    >
-   >You can only modify the information in the **[!UICONTROL General]** tab - except for the **[!UICONTROL Traceability]** section.
+   >탭에서만 정보를 수정할 수 있습니다( **[!UICONTROL General]** **[!UICONTROL Traceability]** 섹션 제외).
 
-Adobe Campaign Standard API를 사용하여 프로필 에디션을 만들 수도 있습니다. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) .
+Adobe Campaign Standard API를 사용하여 프로필 에디션을 사용할 수도 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) 참조하십시오.
 
 관련 항목:
 
-* [통합된 고객 프로파일](../../audiences/using/integrated-customer-profile.md)
-* [수신자의 시간대에서 전송](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
+* [통합된 고객 프로필](../../audiences/using/integrated-customer-profile.md)
+* [받는 사람의 시간대에서 보내기](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
-## General profile data {#general-profile-data}
+## 일반 프로필 데이터 {#general-profile-data}
 
-**[!UICONTROL General]** 탭에는 프로필에 대한 다음 정보가 그룹화됩니다.
+이 **[!UICONTROL General]** 탭에는 프로필에 대한 다음 정보가 그룹화됩니다.
 
-* Contact information, which contains the recipient's first name, last name, date of birth, photo, preferred language (for [multilingual emails](../../channels/using/creating-a-multilingual-email.md)), etc.
-* 수신자의 이메일 주소, 휴대폰 번호, 옵트아웃 정보가 포함된 프로필을 연결할 수 있는 채널입니다.
-* Postal address (for [direct mail](../../channels/using/about-direct-mail.md)), and the contact's time zone (to [schedule messages in its time zone](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)).
-* Access authorization, which indicates the recipient's organisational unit (to [manage permissions](../../administration/using/about-access-management.md)). [프로필 분할을 참조하십시오](../../administration/using/organizational-units.md#partitioning-profiles).
+* 받는 사람의 이름, 성, 생년월일, 사진, 기본 언어( [다국어 이메일](../../channels/using/creating-a-multilingual-email.md)) 등이 포함된 연락처 정보.
+* 받는 사람의 이메일 주소, 휴대폰 번호, 수신 거부 정보가 포함된 프로필에 연결할 수 있는 채널입니다.
+* 우편 주소( [DM용](../../channels/using/about-direct-mail.md)) 및 연락처의 시간대(표준 시간대에서 [메시지를](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)예약하기 위한).
+* 권한 [관리를 위해 받는 사람의 조직 구성 단위를 나타내는 액세스 권한](../../administration/using/about-access-management.md). 파티션 [프로필을](../../administration/using/organizational-units.md#partitioning-profiles)참조하십시오.
 
 ![](assets/profile_creation4.png)
 
-## Sending and tracking logs {#sending-and-tracking-logs}
+## 로그 전송 및 추적 {#sending-and-tracking-logs}
 
-**[!UICONTROL Sending logs]** AND **[!UICONTROL Tracking logs]** 탭은 프로필로 전송된 배달 목록과 관련된 모든 추적 데이터를 그룹화합니다.
+및 **[!UICONTROL Sending logs]** **[!UICONTROL Tracking logs]** 탭에서는 프로필로 전송된 배달 목록과 모든 관련 추적 데이터를 그룹화합니다.
 
-For more on sending and tracking logs, refer to the [delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs) and the [tracking messages](../../sending/using/tracking-messages.md) sections.
+로그 전송 및 추적에 대한 자세한 내용은 [배달 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs) 및 [추적 메시지](../../sending/using/tracking-messages.md) 섹션을 참조하십시오.
 
-## Subscriptions {#subscriptions}
+## 구독 {#subscriptions}
 
-해당 탭에 연락처의 구독이 나열됩니다. For more on subscribing to a service, refer to [this section](../../audiences/using/about-subscriptions.md).
+연락처의 구독은 해당 탭에 나열됩니다. 서비스 구독에 대한 자세한 내용은 [이 섹션을](../../audiences/using/about-subscriptions.md)참조하십시오.
 
-**[!UICONTROL Mobile App Subscriptions]** 탭은 푸시 알림을 참조합니다. For more information, refer to the [Push notification](../../channels/using/about-push-notifications.md) channel.
+이 **[!UICONTROL Mobile App Subscriptions]** 탭은 푸시 알림을 나타냅니다. 자세한 내용은 푸시 알림 [채널을](../../channels/using/about-push-notifications.md) 참조하십시오.
