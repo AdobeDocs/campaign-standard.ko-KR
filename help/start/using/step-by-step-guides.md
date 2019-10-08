@@ -14,7 +14,7 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
 
 ---
 
@@ -25,7 +25,6 @@ source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 * [개인화된 이메일](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html)만들기:개인화된 이메일을 만들어 대상에게 보낼 수 있습니다.
 * [서비스에](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedLandingPages.html)대한 구독 제공:랜딩 페이지를 사용하여 뉴스레터에 대한 구독을 만듭니다.
-* [랜딩 페이지](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html)만들기:랜딩 페이지 템플릿을 관리하고 사용할 수 있는 새 랜딩 페이지를 만듭니다.
 * [사용자 정의 리소스](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html)패키지 내보내기 및 가져오기:개발 환경에서 프로덕션 환경으로 사용자 정의 리소스 패키지를 내보내고 가져옵니다.
 * [크로스 채널 메시지 워크플로우](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html)만들기:모집단을 세그먼트화하여 이메일 전달 및 SMS 전달을 전송하여 워크플로우를 만듭니다.
 * [Experience Manager 및 Campaign을 사용하여 이메일 만들기](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html):adobe Experience Manager에서 이메일 컨텐츠를 만들어 Adobe Campaign Standard의 이메일에 사용합니다.
@@ -35,13 +34,11 @@ source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 다음 사용 사례 및 예를 확인하여 Adobe Campaign에 대한 자세한 내용을 살펴보십시오.
 
-* [프로필](../../automating/using/importing-data.md#example--import-workflow-template)가져오기:워크플로우를 통해 새 클라이언트 프로필을 Adobe Campaign 인스턴스로 가져와 데이터베이스를 업데이트하고 이메일을 전송할 수 있습니다.
+* [워크플로우 템플릿](../../automating/using/importing-data.md#example--import-workflow-template)가져오기:CRM에서 새 클라이언트 프로필을 정기적으로 가져오고 Campaign 데이터베이스를 업데이트하도록 워크플로 템플릿을 설정합니다.
 * [메시지를](../../channels/using/key-steps-to-send-a-message.md)보내는 주요 단계:단계별 메시지 작성 및 전송 방법을 살펴볼 수 있습니다.
-
 * [이메일을](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)디자인하는 주요 단계:이메일 컨텐츠를 처음부터 디자인하는 주요 단계를 살펴볼 수 있습니다.
 * [Adobe Campaign에서 Experience Cloud 트리거 사용](../../integrating/using/abandonment-triggers-use-cases.md):웹 사이트에서 Adobe Analytics에서 추적한 특정 행동을 따라 개인화된 이메일을 고객에게 보낼 수 있습니다.
 * [리소스](../../developing/using/key-steps-to-add-a-resource.md)추가 또는 확장:새로운 리소스를 만들거나 기존 리소스를 확장하는 방법을 살펴볼 수 있습니다.
-* [워크플로우 템플릿](../../automating/using/importing-data.md#example--import-workflow-template)가져오기:가져오기 템플릿을 사용하여 동일한 구조의 파일을 정기적으로 가져올 수 있습니다.
+* [워크플로우 템플릿](../../automating/using/importing-data.md#example--import-workflow-template)가져오기:
 * [이중 옵트인 프로세스](../../channels/using/setting-up-a-double-opt-in-process.md)설정:랜딩 페이지에 연결된 이메일을 전송하여 고객의 구독을 확인하는 방법을 알아봅니다.
 * [이메일](../../designing/using/personalization.md#example-email-personalization)개인화:고객의 나이에 따라 이메일을 개인화합니다.
-
