@@ -15,7 +15,7 @@ context-tags: 서비스,마법사;서비스,주
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
+source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
 
 ---
 
@@ -36,25 +36,25 @@ source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
 
 1. 필드를 **[!UICONTROL Service label]** 채웁니다. 사용자 지정 확인 메시지를 사용하는 경우 서비스 레이블은 필수입니다.
 
-1. 구독 및 가입 취소에 대한 확인 메시지 템플릿을 선택합니다. Three modes are available:
+1. 구독 및 가입 취소에 대한 확인 메시지 템플릿을 선택합니다. 다음 세 가지 모드를 사용할 수 있습니다.
 
-   * **[!UICONTROL No message]**: this mode allows you to create a service without a confirmation message.
-   * **[!UICONTROL Default message]**: this mode will use the default subscription or unsubscription confirmation transactional message. The default confirmation messages are generic and will be the same for all services that use the default mode.
+   * **[!UICONTROL No message]**:이 모드에서는 확인 메시지 없이 서비스를 만들 수 있습니다.
+   * **[!UICONTROL Default message]**:이 모드는 기본 구독 또는 구독 취소 확인 트랜잭션 메시지를 사용합니다. 기본 확인 메시지는 일반적이며 기본 모드를 사용하는 모든 서비스에 대해 동일합니다.
 
-      >[NOTE]
+      >[!NOTE]
       >
-      >You can modify a default message by clicking its label in the  section or by selecting it from the Adobe Campaign transactional message list, after checking the  box.**[!UICONTROL Service properties]****[!UICONTROL Show internal transactional messages]**
+      >확인란을 선택한 후 **[!UICONTROL Service properties]** 섹션에서 해당 레이블을 클릭하거나 Adobe Campaign 트랜잭션 메시지 목록에서 선택하여 기본 메시지를 수정할 수 **[!UICONTROL Show internal transactional messages]** 있습니다.
 
-   * **[!UICONTROL Custom message]**: this mode allows you to handle custom confirmation messages, specific for each service. You then select the **[!UICONTROL Custom subscription event configuration]** which is associated with a specific [transactional message](../../channels/using/about-transactional-messaging.md) template. For more on this, see Confirming subscription to a service.[](../../audiences/using/confirming-subscription-to-a-service.md)
+   * **[!UICONTROL Custom message]**:이 모드에서는 각 서비스별 사용자 지정 확인 메시지를 처리할 수 있습니다. 그런 다음 특정 **[!UICONTROL Custom subscription event configuration]** 거래 메시지 [](../../channels/using/about-transactional-messaging.md) 템플릿과 연결된 항목을 선택합니다. 자세한 내용은 서비스 [가입](../../audiences/using/confirming-subscription-to-a-service.md)확인을 참조하십시오.
 
-1. Save the service. It is now ready to be used.
+1. 서비스를 저장합니다. 이제 사용할 준비가 되었습니다.
 
-Once a service has been created, you can start promoting it.
+서비스가 만들어지면 홍보를 시작할 수 있습니다.
 
-**Related topics:**
+**관련 항목:**
 
-* [Managing a service and subscriptions video](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html)
-* [Promoting a service](../../audiences/using/promoting-a-service.md)
+* [서비스 및 구독](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) 관리 비디오
+* [서비스 홍보](../../audiences/using/promoting-a-service.md)
 * [가입자로 구성된 대상 만들기](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [랜딩 페이지에서 서비스에 양식 연결](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
 
