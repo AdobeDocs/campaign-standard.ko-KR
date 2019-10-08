@@ -1,45 +1,45 @@
 ---
-title: 통합된 고객 프로파일
-seo-title: 통합된 고객 프로파일
-description: 통합된 고객 프로파일
-seo-description: '" 모든 고객과의 인터랙션을 하나의 관점에서 추적할 수 있습니다. Adobe Campaign 통합 고객 프로필은 고객 라이프사이클 전반에서 업데이트됩니다. "'
-page-status-flag: 정품 인증 안 함
-uuid: da 2 eb 13 a -2268-4 a 99-939 c-c 6388 f 5 d 34 f 3
-contentOwner: Sauviat
-products: sg_ campaign/standard
-audience: 대상
-content-type: 참조
-topic-tags: managing-profiles
-discoiquuid: d 44656 e 8-e 652-45 fc-a 05 c -0 d 5 ffe 456 ecb
-context-tags: Marketinghistory, Main
+title: 통합된 고객 프로필
+seo-title: 통합된 고객 프로필
+description: 통합된 고객 프로필
+seo-description: '"하나의 관점에서 모든 고객 인터랙션을 추적할 수 있습니다.Adobe Campaign 통합 고객 프로필은 고객 라이프사이클 전반에서 업데이트됩니다."'
+page-status-flag: 활성화 안 함
+uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: 프로필 관리
+discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
+context-tags: marketingHistory,main
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Integrated customer profile{#integrated-customer-profile}
+# 통합된 고객 프로필{#integrated-customer-profile}
 
-통합된 고객 프로파일은 데이터베이스의 각 연락처에 사용할 수 있습니다. 이 마케팅 내역은 고객과의 접촉에 관련된 모든 관련 마케팅 정보를 하나의 단일 뷰로 결합합니다. 그런 다음 중앙 위치에서 모든 디지털 행동, 온라인 및 오프라인 거래를 이용할 수 있습니다. 연락처 정보, 받은 이메일, 추적 로그, 구독 및 구독 취소 등
+통합 고객 프로필은 데이터베이스의 각 연락처에 대해 사용할 수 있습니다. 이 마케팅 내역은 고객과의 접점에 관한 모든 관련 마케팅 정보를 하나의 뷰로 결합합니다. 그런 다음 모든 디지털 행동, 온라인 및 오프라인 거래를 중앙에서 액세스할 수 있습니다.연락처 정보, 수신 이메일, 추적 로그, 구독 및 구독 취소 등
 
-통합된 고객 프로파일에 액세스하기 위해 단계는 다음과 같습니다.
+통합된 고객 프로파일에 액세스하려면 다음 단계를 수행하십시오.
 
-1. From the Adobe Campaign home page, click the **[!UICONTROL Customer profiles]** card or the **Profiles** tab.
+1. Adobe Campaign 홈 페이지에서 **[!UICONTROL Customer profiles]** 카드나 프로필 **탭을 클릭합니다** .
 1. 연락처를 선택합니다.
 
    ![](assets/mkt_hist_access.png)
 
-You can then access the **Marketing history** of this contact.
+그런 다음 이 연락처의 **마케팅 기록에** 액세스할 수 있습니다.
 
 ![](assets/mkt_hist_view.png)
 
-이벤트에 대한 주요 정보는 이벤트 목록과 함께 이 페이지에 수집됩니다.
+프로필에 대한 주요 정보는 이벤트 목록과 함께 이 페이지에 수집됩니다.
 
-목록에서 이벤트를 클릭하여 엽니다. 전송한 메시지 또는 프로파일이 가입한 서비스를 액세스할 수 있습니다.
+목록에서 이벤트를 클릭하여 엽니다.전송된 메시지 또는 프로필이 가입한 서비스에 액세스할 수 있습니다.
 
 >[!NOTE]
 >
->마케팅 내역은 Adobe Campaign Standard API를 사용하여 액세스할 수도 있습니다. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
+>마케팅 내역은 Adobe Campaign Standard API를 사용하여 액세스할 수도 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) 참조하십시오.
 
