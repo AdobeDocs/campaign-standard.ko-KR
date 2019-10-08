@@ -14,7 +14,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해
 
 마케팅 캠페인의 효율성을 높이려면 컨텐츠를 개인화합니다. 개인화 [필드](../../designing/using/personalization.md#inserting-a-personalization-field) 삽입 및 컨텐츠 [블록](../../designing/using/personalization.md#adding-a-content-block)추가를 참조하십시오.
 
-각 프로필에 따라 달라지는 동적 컨텐츠를 정의할 수도 있습니다. 이메일에서 [동적 컨텐츠](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 정의 및 랜딩 페이지에서 [동적 컨텐츠 정의를 참조하십시오](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
+각 프로필에 따라 달라지는 동적 컨텐츠를 정의할 수도 있습니다. 이메일에서 [동적 컨텐츠](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 정의 및 랜딩 페이지에서 [동적 컨텐츠 정의를 참조하십시오](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
 
 링크 및 이미지를 사용하여 메시지와 랜딩 페이지를 향상시킬 수 있습니다. 링크 [삽입](../../designing/using/links.md#inserting-a-link) 및 이미지 [삽입을](../../designing/using/images.md#inserting-images)참조하십시오.
 
