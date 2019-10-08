@@ -15,7 +15,7 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ![](assets/delivery_reports_10.png)
 
-게재에 대한 동적 컨텐츠를 만든 경우 정의한 각 조건에 대한 백분율을 볼 수 있습니다. 전달에 조건부 컨텐츠 삽입에 대한 자세한 내용은 동적 컨텐츠 [정의를 참조하십시오](../../channels/using/defining-dynamic-content-in-a-landing-page.md).
+게재에 대한 동적 컨텐츠를 만든 경우 정의한 각 조건에 대한 백분율을 볼 수 있습니다. 전달에 조건부 컨텐츠 삽입에 대한 자세한 내용은 동적 컨텐츠 [정의를 참조하십시오](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 예를 들어 다음과 같은 조건으로 배달을 만들었다고 가정해 봅시다.
 
