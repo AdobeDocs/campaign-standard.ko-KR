@@ -14,7 +14,7 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 * 사전 [정의된 개인화 블록 삽입](../../designing/using/personalization.md#adding-a-content-block)
 * [이메일 또는 SMS의 발신자를](../../designing/using/subject-line.md) 개인화합니다.
 * [이메일 제목](../../designing/using/subject-line.md) 맞춤화 또는 예측 [제목](../../designing/using/subject-line.md#predictive-subject-line) 기능을 사용하여 이메일 최적화
-* 이메일 [또는 랜딩](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) [페이지에서 조건부 컨텐츠 만들기](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
+* 이메일 [또는 랜딩](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) [페이지에서 조건부 컨텐츠 만들기](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * SMS [메시지 또는 푸시 알림에 동적 텍스트](../../channels/using/defining-dynamic-text.md) 삽입
 
 ![](assets/delivery_content_43.png)
