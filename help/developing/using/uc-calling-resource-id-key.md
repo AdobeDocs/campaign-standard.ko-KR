@@ -4,7 +4,7 @@ seo-title: 복합 식별 키를 사용하여 리소스 호출
 description: 복합 식별 키를 사용하여 리소스 호출
 seo-description: 복합 식별 키를 사용하여 리소스를 호출하는 방법 학습
 translation-type: tm+mt
-source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 339dfbcc9b6443211079d116eb3e007db69c8b1a
 
 * [리소스 만들기 또는 확장](../../developing/using/creating-or-extending-the-resource.md)
 * [ID 키 정의](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Campaign Standard REST API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [Campaign Standard REST API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## 1단계:ID 키 구성{#step-1-configure-the-identification-key}
 
@@ -106,4 +106,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-자세한 내용은 Campaign Standard REST [API 설명서를 참조하십시오](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
+자세한 내용은 Campaign Standard REST [API 설명서를 참조하십시오](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
