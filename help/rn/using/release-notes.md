@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -258,7 +258,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 * 이제 보안 그룹이 있는 패키지를 내보낼 때 각 그룹에 할당된 역할이 포함됩니다. (CAMP-32960)
 * 파일 로드 활동에서 새 옵션을 사용하면 업로드하는 파일의 열이 열 정의와 일치하는지 확인할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/load-file.md)참조하십시오. (CAMP-32229)
 * 이제 페이로드를 사용하여 워크플로우를 시작할 수 있으므로 워크플로우 내의 활동 간에 외부 매개 변수를 사용하고 공유할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/calling-a-workflow-with-external-parameters.md)참조하십시오. (CAMP-29412 &amp; CAMP-29413)
-* 이제 Campaign Standard API를 사용하여 페이로드를 사용하여 프로필의 지역 및 조직 단위를 업데이트할 수 있습니다. 자세한 내용은 [자세한 설명서를](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)참조하십시오.
+* 이제 Campaign Standard API를 사용하여 페이로드를 사용하여 프로필의 지역 및 조직 단위를 업데이트할 수 있습니다. 자세한 내용은 [자세한 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)참조하십시오.
 * 데이터베이스의 개체에 액세스할 수 없을 때의 오류 메시지가 명확하게 파악되었습니다.
 * Extract 파일 활동에서 내보낼 파일의 이름을 정의할 때 Javascript 기능이 업데이트되었습니다. 이제 formatDate 함수만 출력 필드에 사용할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/extract-file.md)참조하십시오.
 * 사용자 지정 리소스에 대해 자동 시퀀스 ID 생성이 개선되었습니다. 이제 새 사용자 지정 리소스의 기본 키는 기본적으로 64비트로 지정됩니다.
