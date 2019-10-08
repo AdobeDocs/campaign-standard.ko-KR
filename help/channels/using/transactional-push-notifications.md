@@ -14,7 +14,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign을 사용하여 iOS 및 Android 모바일 장치에서 트랜잭�
 
 >[!NOTE]
 >
->트랜잭션 메시지에 액세스하려면 관리 권한이 있거나 **[!UICONTROL Message Center agents]** (mcExec) 보안 그룹에 표시되어야 합니다.
+>트랜잭션 메시지에 액세스하려면 **[!UICONTROL Administrators (all units)]** 보안 그룹의 일부여야 합니다.
 
 ## 이벤트를 타깃팅하는 트랜잭션 푸시 알림 {#transactional-push-notifications-targeting-an-event}
 
