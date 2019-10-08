@@ -4,34 +4,34 @@ seo-title: 서비스 가입 확인
 description: 서비스 가입 확인
 seo-description: 다음 단계에 따라 Adobe Campaign에서 서비스 가입 프로필에 대한 확인 메시지를 설정합니다.
 page-status-flag: 활성화 안 함
-uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: sauviat
+uuid: 23e6c4c2-e2c7-47 파섹
+contentOwner: 자우비
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: managing-subscriptions
-discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
+topic-tags: 구독 관리
+discoiquuid: 1a24504e-7f9d-4297-b3 파섹
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
+source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 
 ---
 
 
 # 서비스 가입 확인{#confirming-subscription-to-a-service}
 
-## About sending subscription confirmation {#sending-subscription-confirmation}
+## 구독 확인 보내기 정보 {#sending-subscription-confirmation}
 
 이 섹션에서는 특정 서비스를 구독하는 프로필에 자동 사용자 정의 확인 이메일을 보내는 방법에 대해 설명합니다.
 
-When you want to send a confirmation message for a subscription (or unsubscription) to a service, you can use the default message or a custom message. 확인 메시지를 선택하는 단계는 서비스 [만들기](../../audiences/using/creating-a-service.md) 섹션에 나와 있습니다.
+서비스에 구독(또는 구독 취소)에 대한 확인 메시지를 보내려면 기본 메시지 또는 사용자 지정 메시지를 사용할 수 있습니다. 확인 메시지를 선택하는 단계는 서비스 [만들기](../../audiences/using/creating-a-service.md) 섹션에 나와 있습니다.
 
-If you choose to use the default message, you can edit its content with the following limitations:
-* You can only personalize the message content with limited fields from the event context.
+기본 메시지를 사용하도록 선택한 경우 다음 제한 사항을 사용하여 컨텐츠를 편집할 수 있습니다.
+* 이벤트 컨텍스트의 필드가 제한된 메시지 컨텐츠만 개인화할 수 있습니다.
 * 이 메시지는 기본 모드를 사용하는 모든 서비스에 대해 동일합니다.
 
-To send a specific confirmation email for a given service, you can create a custom message, in which you will also be able to leverage personalization fields from other resources. To do this, you must create and configure a transactional message. This message can be referenced :
+특정 서비스에 대한 특정 확인 이메일을 보내려면 사용자 지정 메시지를 만들어 다른 리소스의 개인화 필드를 활용할 수도 있습니다. 이렇게 하려면 트랜잭션 메시지를 만들고 구성해야 합니다. 이 메시지는 참조할 수 있습니다.
 * 서비스 자체에서 자세한 내용은 서비스의 [확인 메시지 구성을](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service)참조하십시오.
 * 구독 랜딩 페이지에서 자세한 내용은 랜딩 [페이지에서](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)확인 메시지 구성을 참조하십시오.
 
@@ -62,29 +62,29 @@ To send a specific confirmation email for a given service, you can create a cust
 
    ![](assets/confirmation_publicLabel-field.png)
 
-   >[참고]
+   >[!NOTE]
    >
-   >필수 **[!UICONTROL publicLabel]** 필드입니다. If you do not add it to the event data structure, Adobe Campaign will not be able to perform reconciliation with the service. When subscribing to a service, this field will be filled with the  of the corresponding service.**[!UICONTROL Service label]**
+   >필수 **[!UICONTROL publicLabel]** 필드입니다. 이벤트 데이터 구조에 추가하지 않으면 Adobe Campaign에서 서비스와 조정을 수행할 수 없습니다. 서비스를 구독하면 이 필드에 해당 서비스의 **[!UICONTROL Service label]** 내용이 채워집니다.
 
-1. In the  section, click  and select the  target resource.**[!UICONTROL Enrichment]****[!UICONTROL Create element]****[!UICONTROL Service]**
+1. 섹션에서 **[!UICONTROL Enrichment]** 타겟 리소스를 **[!UICONTROL Create element]** 클릭하고 **[!UICONTROL Service]** 선택합니다.
 
    ![](assets/confirmation_enrichment-service.png)
 
-1. In the  section, map the  field of the  resource with the  field of the event configuration.**[!UICONTROL Join definition]****[!UICONTROL publicLabel]****[!UICONTROL Service]****[!UICONTROL publicLabel]**
+1. 섹션에서 **[!UICONTROL Join definition]** 리소스의 **[!UICONTROL publicLabel]** 필드를 이벤트 구성의 **[!UICONTROL Service]** **[!UICONTROL publicLabel]** 필드와 매핑합니다.
 
    ![](assets/confirmation_publicLabel-join.png)
 
-   >[NOTE]
+   >[!NOTE]
    >
-   >This will enable you to use personalization fields from the  resource in the transactional message.**[!UICONTROL Service]**
+   >이렇게 하면 트랜잭션 메시지의 **[!UICONTROL Service]** 리소스의 개인화 필드를 사용할 수 있습니다.
 
-1. Save the event configuration and click  to publish the event.**[!UICONTROL Publish]**
+1. 이벤트 구성을 저장하고 을 클릭하여 이벤트를 **[!UICONTROL Publish]** 게시합니다.
 
-The event is ready. 이제 트랜잭션 이메일 메시지를 디자인할 수 있습니다.
+이벤트가 준비되었습니다. 이제 트랜잭션 이메일 메시지를 디자인할 수 있습니다.
 
 #### 확인 메시지 디자인 {#design-the-confirmation-message-1}
 
-The confirmation email is a transactional message based on the event that you just published.
+확인 이메일은 방금 게시한 이벤트를 기반으로 하는 트랜잭션 메시지입니다.
 
 1. Adobe Campaign 로고에서 **[!UICONTROL Marketing plans]** &gt; **[!UICONTROL Transactional messages]** 을 선택하고 **[!UICONTROL Transactional messages]**&#x200B;클릭합니다.
 1. 방금 게시한 이벤트에 해당하는 트랜잭션 이메일을 선택합니다.
@@ -109,7 +109,7 @@ The confirmation email is a transactional message based on the event that you ju
 
    ![](assets/confirmation_service-label.png)
 
-   >[참고]
+   >[!NOTE]
    >
    >트랜잭션 메시지로 조정을 활성화하려면 이 필드를 채워야 합니다.
 
@@ -120,7 +120,11 @@ The confirmation email is a transactional message based on the event that you ju
 
 1. 서비스를 **[!UICONTROL Confirm]** 클릭하여 저장합니다.
 
-이제 프로필이 이 서비스에 가입될 때마다, 그는 선택한 서비스에 매핑된 개인화된 필드를 사용하여 사용자가 정의한 트랜잭션 메시지를 받습니다. 사용자가 처음 구독할 때만 메시지가 전송됩니다.
+이제 프로필이 이 서비스에 가입될 때마다, 그는 선택한 서비스에 매핑된 개인화된 필드를 사용하여 사용자가 정의한 트랜잭션 메시지를 받습니다.
+
+>[!NOTE]
+>
+>사용자가 처음 구독할 때만 메시지가 전송됩니다.
 
 ## 랜딩 페이지에서 확인 메시지 구성 {#configuring-confirmation-message-from-landing-page}
 
@@ -128,11 +132,11 @@ The confirmation email is a transactional message based on the event that you ju
 
 랜딩 페이지에서 확인 메시지를 참조할 때, 랜딩 페이지가 제출될 때마다(프로파일이 이미 구독되었더라도) 메시지가 전송됩니다.
 
-### Step 1: Create the confirmation email {#step-1--create-the-confirmation-email-2}
+### 1단계:확인 이메일 만들기 {#step-1--create-the-confirmation-email-2}
 
 확인 이메일은 랜딩 페이지를 통해 뉴스레터에 가입하는 각 프로필에 자동으로 전송됩니다. 구독은 이벤트로 간주되며 이메일은 서비스에 가입한 각 프로필을 대상으로 하는 [트랜잭션 메시지입니다](../../channels/using/about-transactional-messaging.md) .
 
-이러한 요소를 만드는 단계는 아래에 설명되어 있습니다. As the transactional message will be referenced in the landing page, you need to create it first.
+이러한 요소를 만드는 단계는 아래에 설명되어 있습니다. 트랜잭션 메시지는 랜딩 페이지에서 참조되므로 먼저 만들어야 합니다.
 
 #### 이벤트 만들기 {#create-the-event-2}
 
@@ -147,7 +151,7 @@ The confirmation email is a transactional message based on the event that you ju
 
    ![](assets/confirmation_serviceName-field.png)
 
-   >[참고]
+   >[!NOTE]
    >
    >필수 **[!UICONTROL serviceName]** 필드입니다. 이벤트 데이터 구조에 추가하지 않는 경우 Adobe Campaign은 가입된 서비스와 조정을 수행할 수 없습니다.
 
@@ -156,7 +160,7 @@ The confirmation email is a transactional message based on the event that you ju
 
    ![](assets/confirmation_serviceName-join.png)
 
-   >[참고]
+   >[!NOTE]
    >
    >이렇게 하면 트랜잭션 메시지의 [!UICONTROL Service] 리소스의 개인화 필드를 사용할 수 있습니다.
 
@@ -192,6 +196,6 @@ The confirmation email is a transactional message based on the event that you ju
 
 이제 프로필이 랜딩 페이지를 제출하여 뉴스레터에 가입할 때마다 서비스에 매핑된 개인화된 필드로 정의한 확인 메시지를 받게 됩니다.
 
->[참고]
+>[!NOTE]
 >
 >프로필이 이미 구독되어 있어도 랜딩 페이지를 제출할 때마다 메시지가 전송됩니다.
