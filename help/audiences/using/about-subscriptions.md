@@ -3,32 +3,32 @@ title: 구독 정보
 seo-title: 구독 정보
 description: 구독 정보
 seo-description: null
-page-status-flag: 정품 인증 안 함
-uuid: B 0263 E 40-F 910-49 F 2-A 138-0 A 1302 AEEEC 6
-contentOwner: Sauviat
-products: sg_ campaign/standard
-audience: 대상
-content-type: 참조
-topic-tags: 관리 구독
-discoiquuid: 27 DE 5 A 13-7 B 7 C -4 C 91-BF 26-3 DFD 324 BEB 8 F
+page-status-flag: 활성화 안 함
+uuid: b0263e40-f910-49f2-a138-0a1302aeec6
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: 구독 관리
+discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# About subscriptions{#about-subscriptions}
+# 구독 정보{#about-subscriptions}
 
-Adobe Campaign allows you to create and manage newsletters and cross-channel communications, through a set of **services**: messages can only be sent to profiles who subscribed to the service (opt-in). 이러한 프로필은 메시지를 만들 때 전용 필터를 사용하여 식별됩니다.
+Adobe Campaign을 사용하면 다음과 같은 일련의 **서비스를**&#x200B;통해 뉴스레터와 채널 간 커뮤니케이션을 만들고 관리할 수 있습니다.메시지는 서비스를 구독한 프로필에만 보낼 수 있습니다(옵트인). 이러한 프로필은 메시지를 만들 때 전용 필터를 사용하여 식별됩니다.
 
-Subscription mechanisms can be set up to offer your customers a chance to subscribe to these services, notably though **emails** and **landing pages**.
+구독 메커니즘을 설정하여 고객이 이러한 서비스에 가입할 수 있는 기회를 제공할 수 있습니다. 특히 **이메일** 및 **랜딩 페이지에도**&#x200B;가입해야 합니다.
 
-각 서비스는 다음과 같습니다.
+각 서비스는 다음과 같이 제공됩니다.
 
-* **구독** (동의 거부) 및 (옵트아웃) **[!UICONTROL Unsubscription]** 메커니즘입니다.
-* Subscription and/or unsubscription **confirmation mechanisms**.
-* A subscription **history**.
+* **구독** (옵트인) 및 **[!UICONTROL Unsubscription]** (옵트아웃) 메커니즘.
+* 가입 및/또는 가입 해지 **확인 메커니즘**.
+* 구독 **내역**.
 
-Adobe Campaign Standard API를 사용하여 구독을 관리할 수도 있습니다. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
+구독은 Adobe Campaign Standard API를 사용하여 관리할 수도 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) 참조하십시오.
