@@ -2,42 +2,42 @@
 title: 프로필 만들기
 seo-title: 프로필 만들기
 description: 프로필 만들기
-seo-description: API, 가져오기 기능, 온라인 획득, 자동 또는 수동 업데이트를 사용하여 연락처에 프로파일을 생성하고 데이터를 수집하는 방법을 살펴봅니다.
-page-status-flag: 정품 인증 안 함
-uuid: A 5 F 5 A 58 A-E 798-400 F -8648-05 DC 843 D 5557
-contentOwner: Sauviat
-products: sg_ campaign/standard
-audience: 대상
-content-type: 참조
-topic-tags: managing-profiles
-discoiquuid: 4 ab 8 a 984-f 898-4 fff-ad 8 c-ed 8 f 95362 f 96
+seo-description: API, 가져오기 기능, 온라인 확보, 자동 또는 수동 업데이트를 사용하여 프로파일을 만들고 연락처에 데이터를 수집하는 방법을 알아봅니다.
+page-status-flag: 활성화 안 함
+uuid: a5f5a58a-e798-40 파섹
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: 프로필 관리
+discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: f883986392f6b739832093e0473591aa39dfcbfe
+source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
 
 ---
 
 
-# Creating profiles{#creating-profiles}
+# 프로필 만들기{#creating-profiles}
 
-Adobe Campaign에서 프로필은 기본적으로 메시지의 기본 대상을 정의하기 위해 사용됩니다.
+Adobe Campaign에서 프로필은 기본적으로 메시지의 주 대상을 정의하는 데 사용됩니다.
 
-캠페인에서 프로필을 만들거나 업데이트하려면 다음을 수행할 수 있습니다.
+Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행할 수 있습니다.
 
-* Import a profile list from a file, via a [workflow](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-* Collect data online, via [landing pages](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html)
-* Create bulk via [REST API](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-* [Microsoft Dynamics에서 프로필 동기화](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
-* 아래 설명된 대로 그래픽 인터페이스 화면을 사용하여 데이터를 입력합니다.
+* 워크플로우를 통해 파일에서 프로파일 목록 [가져오기](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* 랜딩 페이지를 통해 온라인 데이터 [수집](../../channels/using/about-landing-pages.md)
+* REST API를 통해 [벌크 만들기](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* Microsoft Dynamics에서 [프로필 동기화](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+* 아래에 설명된 대로 그래픽 인터페이스 화면을 사용하여 데이터를 입력합니다.
 
-예를 들어 사용자 인터페이스에서 직접 새 프로필을 만들려면 아래 단계를 수행하십시오.
+예를 들어 사용자 인터페이스에서 직접 새 프로파일을 만들려면 아래 단계를 따르십시오.
 
-1. From the Adobe Campaign home page, click the **Customer Profiles** card or the **Profiles** tab to access the list of profiles.
+1. Adobe Campaign 홈 페이지에서 고객 프로필 **카드나** 프로필 **탭을 클릭하여** 프로필 목록에 액세스합니다.
 
    ![](assets/profile_creation_1.png)
 
-1. **[!UICONTROL Create]**&#x200B;그런 다음을 클릭합니다.
+1. 그런 다음 을 **[!UICONTROL Create]**&#x200B;클릭합니다.
 
    ![](assets/profile_creation.png)
 
@@ -45,30 +45,30 @@ Adobe Campaign에서 프로필은 기본적으로 메시지의 기본 대상을 
 
    ![](assets/profile_creation1.png)
 
-   * The contact information, such as first name, last name, gender, date of birth, photo, preferred language (for [multilingual emails](../../channels/using/creating-a-multilingual-email.md)) helps better personalize deliveries.
-   * The profile's **[!UICONTROL Time zone]** is used to send deliveries at the profile's time zone. For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * The **[!UICONTROL Channels]** category, which contains the email address, mobile phone number, opt-out information, lets you know on which channel the profile is reachable.
-   * The **[!UICONTROL No longer contact]** category is updated as soon as the profile unsubscribe to a channel.
-   * **[!UICONTROL Address]** 이 프로필에는 **[!UICONTROL Address specified]** 이 프로필에 [직접 메일을](../../channels/using/about-direct-mail.md) 보내는 옵션과 함께 작성해야 하는 우편 주소가 포함되어 있습니다. **[!UICONTROL Address specified]** 이 옵션을 선택하지 않으면 모든 직접 메일 배달에서 이 프로필이 제외됩니다.
-   * **[!UICONTROL Access authorization]** 카테고리는 프로필의 조직 단위 (관리 권한) [를 나타냅니다](../../administration/using/about-access-management.md). [프로필 분할을 참조하십시오](../../administration/using/organizational-units.md#partitioning-profiles).
-   * **[!UICONTROL Traceability]** 카테고리는 프로필을 만들거나 변경한 사용자와 관련된 정보로 자동으로 업데이트됩니다.
+   * 이름, 성, 성별, 생년월일, 사진, 기본 언어( [다국어 이메일의](../../channels/using/creating-a-multilingual-email.md)경우)와 같은 연락처 정보는 전달 내용을 보다 효과적으로 개인화합니다.
+   * 프로필은 프로필의 시간대에서 배달을 보내는 데 **[!UICONTROL Time zone]** 사용됩니다. For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * 이메일 주소, 휴대폰 번호, 옵트아웃 정보가 포함된 **[!UICONTROL Channels]** 카테고리를 통해 프로필에 연결할 수 있는 채널을 알 수 있습니다.
+   * 이 **[!UICONTROL No longer contact]** 카테고리는 프로파일 가입 해지가 채널에 적용되는 즉시 업데이트됩니다.
+   * 카테고리에는 이 프로필에 **[!UICONTROL Address]** 직접 메일을 **[!UICONTROL Address specified]** [](../../channels/using/about-direct-mail.md) 보내는 옵션과 함께 채워야 하는 우편 주소가 포함되어 있습니다. 이 **[!UICONTROL Address specified]** 옵션을 선택하지 않으면 이 프로필은 모든 DM 전달에서 제외됩니다.
+   * 이 **[!UICONTROL Access authorization]** 카테고리는 프로필의 조직 구성 단위(권한 [관리](../../administration/using/about-access-management.md))를 나타냅니다. 파티션 [프로필을](../../administration/using/organizational-units.md#partitioning-profiles)참조하십시오.
+   * 이 **[!UICONTROL Traceability]** 카테고리는 프로파일을 만들거나 수정한 사용자와 관련된 정보를 자동으로 업데이트합니다.
 
-1. Click **[!UICONTROL Create]** to save the profile.
+1. 아이콘을 **[!UICONTROL Create]** 클릭하여 프로필을 저장합니다.
 
-이제 프로필이 목록에 표시됩니다.
-
->[!NOTE]
->
->Adobe Campaign Standard API를 사용하여 프로필을 만들 수도 있습니다. For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
-
-프로필은 조직 단위로 나눌 수도 있습니다. To add the organizational fields to your profiles, refer to the [Partitioning profiles](../../administration/using/organizational-units.md#partitioning-profiles) section.
+이제 프로필이 목록에 나타납니다.
 
 >[!NOTE]
 >
->다국어 메시지를 보낼 때 언어를 선택하는 데 기본 언어 필드를 사용합니다. For more information about the multilingual messages [refer to this page](../../channels/using/creating-a-multilingual-email.md).
+>Adobe Campaign Standard API를 사용하여 프로필을 만들 수도 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) 참조하십시오.
+
+또한 프로필은 조직 단위에 따라 분할할 수도 있습니다. 프로필에 조직 필드를 추가하려면 파티션 프로필 [섹션을 참조하십시오](../../administration/using/organizational-units.md#partitioning-profiles) .
+
+>[!NOTE]
+>
+>다국어 메시지를 보낼 때 언어를 선택하는 데 기본 언어 필드가 사용됩니다. 다국어 메시지에 대한 자세한 [내용은 이 페이지를](../../channels/using/creating-a-multilingual-email.md)참조하십시오.
 
 **관련 항목:**
 
-* [랜딩 페이지](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_CreateLandingPage.html) 단계별 안내서 만들기
+* [랜딩 페이지](../../channels/using/about-landing-pages.md) 단계별 안내서 정보
 * [프로필 가져오기](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
