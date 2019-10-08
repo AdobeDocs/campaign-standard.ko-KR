@@ -14,7 +14,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 조직은 관리자가 그룹과 사용자를 구성하고 Experience Cloud에서 Single Sign-On을 제어할 수 있도록 해주는 개체입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그러나 회사는 많은 조직을 보유할 수 있습니다. 사용자 및 조직 관리는 Adobe Experience Cloud [도움말 포털에서](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)자세히 설명합니다.
 
-다른 시스템의 데이터 흐름을 Adobe Campaign과 통합하려면 API 설명서를 [참조하십시오](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+다른 시스템의 데이터 흐름을 Adobe Campaign과 통합하려면 API 설명서를 [참조하십시오](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
 
 >[!NOTE]
 >
