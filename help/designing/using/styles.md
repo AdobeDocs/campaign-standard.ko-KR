@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
 
 ---
 
@@ -172,6 +172,30 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 1. 다른 열의 정렬 및 패딩을 조정하려면 비슷하게 진행하십시오.
 
    ![](assets/des_adjusting_columns.png)
+
+1. 변경 내용을 저장합니다.
+
+### 스타일 지정 링크 정보 {#about-styling-links}
+
+링크에 밑줄을 지정하고 이메일 디자이너에서 해당 색상과 대상을 선택할 수 있습니다.
+
+1. 링크가 삽입된 구성 요소에서 링크의 레이블 텍스트를 선택합니다.
+
+1. 구성 요소 설정에서 링크의 레이블 텍스트에 밑줄을 **[!UICONTROL Underline link]** 지정할지 선택합니다.
+
+   ![](assets/stylelinks-selecttext.png)
+
+1. 링크를 열 검색 컨텍스트를 선택하려면 링크를 선택합니다 **[!UICONTROL Target]**.
+
+   ![](assets/stylelinks-target.png)
+
+1. 링크의 색상을 변경하려면 을 클릭합니다 **[!UICONTROL Link color]**.
+
+   ![](assets/stylelinks-colorpicker.png)
+
+1. 원하는 색상을 선택할 수 있습니다.
+
+   ![](assets/stylelinks-colorchanged.png)
 
 1. 변경 내용을 저장합니다.
 
