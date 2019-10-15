@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 
 기본 템플릿에서 이메일을 작성하는 방법에 대한 자세한 내용은 이메일 [디자이너를 참조하십시오](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template).
 
-### 컨텐츠 템플릿 만들기 {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 필요에 따라 여러 번 사용할 수 있도록 고유한 컨텐츠 템플릿을 만들 수 있습니다.
 
@@ -199,9 +199,12 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 1. 탭을 **[!UICONTROL Properties]** 닫아서 주 작업 영역으로 돌아갑니다.
 1. 필요에 따라 사용자 정의할 수 있는 구조 구성 요소 및 컨텐츠 구성 요소를 추가합니다.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
    >조각에는 개인화 필드, 동적 컨텐츠 또는 다른 조각을 포함할 수 없습니다.
+   >
+   >빈 구조 구성 요소가 있는 조각 컨텐츠로 저장하지 마십시오. &gt;조각을 삽입하면 편집할 수 없습니다.
+   >
    >조각에서 [모바일 보기를](../../designing/using/styles.md#switching-to-mobile-view) 사용할 수 없습니다.
 
 1. 편집한 후에는 조각을 저장합니다.
