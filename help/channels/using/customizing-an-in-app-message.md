@@ -15,7 +15,7 @@ context-tags: 전달,inAppContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 ---
 
@@ -35,6 +35,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 * [인앱 메시지 보내기](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [인앱 보고](../../reporting/using/in-app-report.md)
+* [로컬 알림 추적 구현](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
 
 ## 메시지 템플릿으로 사용자 정의 {#customizing-with-a-message-template}
 
@@ -140,6 +141,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 ## 로컬 알림 메시지 유형 사용자 정의 {#customizing-a-local-notification-message-type}
 
 로컬 알림은 특정 시간 및 이벤트에 따라 앱에 의해서만 트리거될 수 있습니다. 이들은 인터넷에 접속하지 않고도 앱에서 어떤 일이 일어나고 있다고 사용자에게 알릴 것입니다.
+로컬 알림을 추적하는 방법에 대한 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)참조하십시오.
 
 로컬 알림을 사용자 정의하려면
 
