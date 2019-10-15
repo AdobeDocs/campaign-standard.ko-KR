@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
+source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
 
 ---
 
@@ -368,7 +368,8 @@ source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
 
 ## 권한 설정 및 사전 로드 데이터 {#setting-permissions-and-pre-loading-data}
 
-랜딩 페이지에 대한 액세스는 Campaign에서 보낸 메시지의 링크에서 온 식별된 방문자로 제한됩니다. 이 경우 랜딩 페이지에서 데이터를 미리 로드할 수 있습니다. 이렇게 하려면:
+랜딩 페이지에 대한 액세스는 Campaign에서 보낸 메시지의 링크에서 온 식별된 방문자 또는 특정 조직 단위로 제한할 수 있습니다.
+식별된 방문자의 경우 랜딩 페이지에서 해당 데이터를 미리 로드할 수 있습니다. 이렇게 하려면:
 
 1. 랜딩 페이지 대시보드의 ![](assets/edit_darkgrey-24px.png) 아이콘을 통해 액세스한 랜딩 페이지 속성을 편집하고 **[!UICONTROL Access & loading]** 매개 변수를 표시합니다.
 
@@ -384,6 +385,26 @@ source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
 
 * 다음 **[!UICONTROL Authorize visitor identification via URL parameters]** 옵션을 사용하여 URL 매개 변수를 사용하여 방문자를 식별합니다.그런 다음 로드 키를 선택하고 필터 매개 변수를 해당 URL의 매개 변수와 매핑해야 합니다.
 * 이 **[!UICONTROL Authorize unidentified visitors]** 옵션을 사용하여 랜딩 페이지에 액세스할 방문자를 허용합니다.
+
+랜딩 페이지는 조직 구성 단위에도 연결할 수 있습니다. 이렇게 하면 사용자의 다른 랜딩 페이지에 대한 액세스 권한이 정의됩니다. 조직 단위를 지정하려면
+
+1. 아이콘을 통해 랜딩 페이지 속성에 액세스합니다. **[!UICONTROL Edit properties]**
+
+   ![](assets/lp_parameters_google3.png)
+
+1. Folio를 **[!UICONTROL Access authorization]**&#x200B;펼치십시오.
+
+1. 드롭다운 메뉴를 클릭하고 조직 구성 단위를 선택합니다. 조직 단위를 만드는 방법에 대한 자세한 내용은 이 [페이지를](../../administration/using/organizational-units.md)참조하십시오.
+
+   ![](assets/lp_org_unit_2.png)
+
+1. 이 **[!UICONTROL Created by]**&#x200B;필드, **[!UICONTROL Created]****[!UICONTROL Access authorization]** 및 **[!UICONTROL Last modified]** 필드는 자동으로 완료됩니다.
+
+1. 을 **[!UICONTROL Confirm]** 클릭한 **[!UICONTROL Save]**&#x200B;다음
+
+이제 랜딩 페이지는 선택한 조직 구성 단위 내에서만 액세스 및 관리할 수 있습니다.
+
+![](assets/lp_org_unit_3.png)
 
 ## Google reCAPTCHA 설정 {#setting-google-recaptcha}
 
