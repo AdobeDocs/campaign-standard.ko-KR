@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1ffc4d5ab10cc2210b6d47466e556a1dcf9c722
+source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
 
 ---
 
@@ -49,8 +49,7 @@ source-git-commit: c1ffc4d5ab10cc2210b6d47466e556a1dcf9c722
    <p>Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 이외에도 Adobe는 CCPA에 대한 귀하의 준비 사항을 용이하게 하기 위해 추가 기능을 포함시킬 수 있는 기회를 드립니다.</p>
    <ul>
     <li>액세스 권한 및 삭제 권한:gdpr에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">자세한 내용</a> </li>
-    <li><p>개인 정보 보호 요청을 만들 때 이제 규칙 유형을 선택할 수 있습니다.GDPR 또는 CCPA.<p>
-      <p><strong>참고</strong>:이 새 필드는 필수입니다. 액세스 및 삭제 요청에 대해 캠페인 개인 정보 API를 사용하는 경우 페이로드에 포함해야 합니다. API <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">설명서를</a>참조하십시오.</p></li>
+    <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 코어 서비스에 규정 유형(GDPR 또는 CCPA)이 추가되었습니다. 이 메서드는 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 캠페인 API 및 인터페이스 사용은 더 이상 사용되지 않습니다. 그러나 19.4에서 이러한 메서드를 계속 사용해야 하는 경우, 규칙 유형은 Campaign 인터페이스 및 API에 추가되었으며 필수가 됩니다. 인터페이스의 경우 기본값은 GDPR로 설정됩니다. API의 경우 이 필드를 페이로드에 포함해야 합니다. API <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">설명서를</a>참조하십시오.</p></li>
     <li>Adobe <strong>Campaign 사용자가 소비자가 개인 정보</strong> 판매를 옵트아웃했는지 여부를 추적할 수 있도록 CPA 옵트아웃 필드가 프로필 리소스에 추가되었습니다. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">자세한 내용</a>.</li>
   </ul>
 </td> 
