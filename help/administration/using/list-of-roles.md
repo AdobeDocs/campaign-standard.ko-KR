@@ -2,45 +2,45 @@
 title: 역할 목록
 seo-title: 역할 목록
 description: 역할 목록
-seo-description: 사용자에게 할당할 수 있는 역할 목록을 확인합니다.
-page-status-flag: 정품 인증 안 함
-uuid: 128 AAF 9 B -9 B 7 D -49 F 3-9 E 1 F -72 E 79 A 29 BAA 0
-contentOwner: Sauviat
-products: sg_ campaign/standard
+seo-description: 사용자에게 지정할 수 있는 역할 목록을 확인합니다.
+page-status-flag: 활성화 안 함
+uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 관리
-content-type: 참조
+content-type: reference
 topic-tags: 사용자 및 보안
-discoiquuid: CEAA 3 C 94-9 E 1 A -4271-B 443-B 00 B 4068929 F
-context-tags: 역할, 개요; 역할, 기본
+discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
+context-tags: 역할,개요;역할,기본
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
 
 ---
 
 
-# List of roles{#list-of-roles}
+# 역할 목록{#list-of-roles}
 
-기본적으로 Adobe Campaign 에서는 사용자 및 사용자 그룹에 할당된 일회성 인증을 정의할 수 있는 일련의 역할을 제공합니다. 조직 단위와 결합된 역할은 사용자에게 인터페이스의 필터링된 보기를 제공하고 다른 기능에 대한 액세스 권한을 정의합니다. For more on this, refer to the [Roles and permissions table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+기본적으로 Adobe Campaign은 사용자 및 사용자 그룹에 할당된 단일 인증을 정의할 수 있는 일련의 역할을 제공합니다. 조직의 구성 단위와 결합되어 역할을 통해 사용자는 인터페이스에 대한 필터링된 뷰를 볼 수 있고 다른 기능에 대한 액세스를 정의할 수 있습니다. 자세한 내용은 역할 및 [권한 테이블을](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)참조하십시오.
 
-![](assets/user_management_3.png)
+[![이미지](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
-Roles can be managed from the **[!UICONTROL Administration > Users & Security > Roles]** menu.
+역할은 **[!UICONTROL Administration > Users & Security > Roles]** 메뉴에서 관리할 수 있습니다.
 
-기본 권리는 다음과 같습니다.
+기본 권한은 다음과 같습니다.
 
-* **[!UICONTROL Administration]**: 일반 관리 권한.
-* **[!UICONTROL Datamodel]**: 발행물을 실행하고 사용자 지정 리소스를 만드는 권한.
-* **[!UICONTROL Export]**: 데이터 내보내기 권한.
-* **[!UICONTROL Generic import]**: 데이터에 대한 일반 가져오기를 실행하는 권한. For this to work, you need to link the **[!UICONTROL Generic import]** role to the **[!UICONTROL Workflow]** role.
-* **[!UICONTROL Prepare deliveries]**: 제작 준비, 편집, 전달 준비 및 증거 자료 전송
-* **[!UICONTROL Start deliveries]**: 이전에 준비된 배달을 확인할 권리.
-* **[!UICONTROL Workflow]**: 워크플로우 사용 권한.
+* **[!UICONTROL Administration]**:일반 관리 권한
+* **[!UICONTROL Datamodel]**:발행물을 실행하고 맞춤형 리소스를 제작할 수 있습니다.
+* **[!UICONTROL Export]**:데이터를 내보낼 수 있습니다.
+* **[!UICONTROL Generic import]**:데이터에 대한 일반 가져오기를 실행할 수 있습니다. 이를 수행하려면 역할을 역할에 **[!UICONTROL Generic import]** 연결해야 합니다 **[!UICONTROL Workflow]** .
+* **[!UICONTROL Prepare deliveries]**:게재를 생성, 수정, 준비 및 삭제할 수 있는 권한 이 역할을 가진 사용자는 배달을 준비할 수 있지만 보낼 수는 없습니다.
+* **[!UICONTROL Start deliveries]**:전달을 생성, 수정, 준비, 전송 및 삭제할 수 있는 권한
+* **[!UICONTROL Workflow]**:워크플로우를 생성, 수정, 시작 및 삭제할 수 있습니다. 이 역할을 가진 사용자는 워크플로우에서도 배달을 보낼 수 없습니다.
 
 >[!CAUTION]
 >
->배달 가능성 역할은 Adobe 관리자에게만 사용됩니다. 사용자에게 부여되면 안 됩니다.
+>이 **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]**&#x200B;및 **[!UICONTROL File access]** **[!UICONTROL Message Center push]** 역할은 Adobe 관리자의 내부용입니다. 사용자에게 허용되어서는 안 됩니다.
 
 **관련 항목:**
 
