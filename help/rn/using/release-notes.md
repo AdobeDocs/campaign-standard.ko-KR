@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
+source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
 
 ---
 
@@ -52,13 +52,14 @@ source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
     <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 코어 서비스에 규정 유형(GDPR 또는 CCPA)이 추가되었습니다. 이 메서드는 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 캠페인 API 및 인터페이스 사용은 더 이상 사용되지 않습니다. 그러나 19.4에서 이러한 메서드를 계속 사용해야 하는 경우, 규칙 유형은 Campaign 인터페이스 및 API에 추가되었으며 필수가 됩니다. 인터페이스의 경우 기본값은 GDPR로 설정됩니다. API의 경우 이 필드를 페이로드에 포함해야 합니다. API <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">설명서를</a>참조하십시오.</p></li>
     <li>Adobe <strong>Campaign 사용자가 소비자가 개인 정보</strong> 판매를 옵트아웃했는지 여부를 추적할 수 있도록 CPA 옵트아웃 필드가 프로필 리소스에 추가되었습니다. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">자세한 내용</a>.</li>
   </ul>
+    <p>사용 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">방법 비디오를</a>참조하십시오.</p>
 </td> 
   </tr> 
   <tr> 
    <td> Microsoft Dynamics 365 통합(GA)<br /> </td> 
    <td> 
     <p>이제 Adobe Campaign Standard와 Microsoft Dynamics 365 간의 통합을 사용할 수 있습니다. 연락처 및 사용자 지정 개체 레코드를 Dynamics 365에서 Campaign으로 전송하고 이메일 이벤트 데이터를 Campaign에서 Dynamics 365로 가져와 세일즈/마케팅 정렬을 향상시킬 수 있습니다.</p>
-    <p>이 통합을 설정하려면 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">자세한 설명서를</a> 참조하십시오.</p>
+    <p>이 통합을 설정하고 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">사용 방법 비디오를</a> <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html"></a>보려면 자세한 설명서를 참조하십시오.</p>
   </td>
   </tr> 
  </tbody> 
