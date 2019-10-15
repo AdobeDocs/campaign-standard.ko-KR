@@ -2,83 +2,83 @@
 title: 문제 해결
 seo-title: 문제 해결
 description: 문제 해결
-seo-description: 동적 보고와 관련된 일반적인 질문을 살펴보십시오.
-page-status-flag: 정품 인증 안 함
-uuid: A 84 A 18 BD -4 E 33-466 E-A 6 CE-D 7008 FE 12746
-contentOwner: Beneat
-products: sg_ campaign/standard
+seo-description: 다이내믹 보고 관련 일반적인 질문을 살펴보십시오.
+page-status-flag: 활성화 안 함
+uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
+contentOwner: 벤치
+products: SG_CAMPAIGN/STANDARD
 audience: 보고
-content-type: 참조
+content-type: reference
 topic-tags: 문제 해결
-discoiquuid: BBB 41 C 38-12 C 1-4625-85 D 5-69627 E 2 F 4 B 39
+discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: e0cbdfecde495d7c9f8bfa33dd5ee8598cdfe60a
+source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
 
 ---
 
 
-# Troubleshooting{#troubleshooting}
+# 문제 해결{#troubleshooting}
 
-이 섹션에서는 동적 보고와 관련된 일반적인 질문을 찾을 수 있습니다.
+이 섹션에서는 동적 보고 관련 일반적인 질문을 찾을 수 있습니다.
 
-## For Unique opens and Unique clicks, the count in the aggregate row is not matching the ones in individual rows {#unique-open-clicks-no-match}
+## 고유 열기 및 고유 클릭 수의 경우 집계 행의 카운트가 개별 행의 카운트와 일치하지 않습니다 {#unique-open-clicks-no-match}
 
-예상되는 동작입니다.
-다음 예제를 통해 이러한 행동을 설명할 수 있습니다.
+이는 예상 동작입니다.
+다음 예를 통해 이러한 행동을 설명할 수 있습니다.
 
-이메일이 프로필 P 1 및 P 2로 전송됩니다.
+프로필 P1 및 P2로 이메일이 전송됩니다.
 
-P 1는 첫 날에는 이메일을 두 번, 두 번째 날에는 트리 시간을 엽니다.
+P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에 세 번 이메일을 엽니다.
 
-반면에 P 2는 첫 날에 이메일을 한 번 열고 다음 날 다시 열지 않습니다.
-다음은 보낸 이메일과 프로필의 상호 작용을 시각적으로 나타낸 것입니다.
+반면에 P2는 첫 날에 이메일을 한 번 열고 다음 날 다시 열지 않습니다.
+전송된 이메일과 프로필의 상호 작용을 시각적으로 보여줍니다.
 
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>day</strong><br /> </th> 
-   <th align="center"> <strong>opens</strong><br /> </th> 
+   <th align="center"> <strong>일</strong><br /> </th> 
+   <th align="center"> <strong>열기</strong><br /> </th> 
    <th align="center"> <strong>고유 열기</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Day 1<br /> </td> 
+   <td align="center"> 1일<br /> </td> 
    <td align="center"> 2 + 1 = 3<br /> </td> 
    <td align="center"> 1 + 1 = 2<br /> </td> 
   </tr> 
   <tr> 
-   <td align="center"> Day 2<br /> </td> 
+   <td align="center"> 2일<br /> </td> 
    <td align="center"> 3 + 0 = 3<br /> </td> 
    <td align="center"> 1 + 0 = 1<br /> </td> 
   </tr>
  </tbody> 
 </table>
 
-To understand the overall number of unique opens, we need to sum up the row counts of **[!UICONTROL Unique Opens]** which gives us the value 3. 그러나 이메일이 2 개의 프로필만 대상으로 지정되었으므로 공개율은 150%가 되어야 합니다.
+전체 고유 열기 수를 이해하려면 값 3을 **[!UICONTROL Unique Opens]** 제공하는 행 카운트를 합산해야 합니다. 그러나 이메일이 2개의 프로필만 대상으로 작성되었으므로 공개 비율은 150%로 표시되어야 합니다.
 
-To not obtain percentage higher than 100, the definition of **[!UICONTROL Unique Opens]** is maintained to be the number of unique broadlogs that were opened. 이 경우 P 1 이 1 일과 2 일에 이메일을 열어도 자신의 고유 열기는 여전히 1 입니다.
+100보다 높은 백분율을 획득하지 **[!UICONTROL Unique Opens]** 않도록 의 정의는 열린 고유 브로드로그 수로 유지됩니다. 이 경우, P1이 1일과 2일에 이메일을 열더라도, 그의 고유 열기는 여전히 1입니다.
 
-이렇게 하면 다음 표가 만들어집니다.
+그러면 다음 표가 나타납니다.
 
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>day</strong><br /> </th> 
-   <th align="center"> <strong>opens</strong><br /> </th> 
+   <th align="center"> <strong>일</strong><br /> </th> 
+   <th align="center"> <strong>열기</strong><br /> </th> 
    <th align="center"> <strong>고유 열기</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> Day 1<br /> </td> 
+   <td align="center"> 1일<br /> </td> 
    <td align="center"> 6<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
-   <td align="center"> Day 2<br /> </td> 
+   <td align="center"> 2일<br /> </td> 
    <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td> 
   </tr> 
@@ -87,43 +87,43 @@ To not obtain percentage higher than 100, the definition of **[!UICONTROL Unique
 
 >[!NOTE]
 >
->고유 카운트는 HLL 기반 스케치를 기반으로 하며, 이로 인해 매우 부정확할 수 있습니다.
+>고유 카운트는 HLL 기반 스케치를 기반으로 하므로 큰 스케치에서 약간 부정확할 수 있습니다.
 
-## Open counts do not match the Database count {#open-counts-no-match-database}
+## 열린 카운트가 데이터베이스 수와 일치하지 않습니다. {#open-counts-no-match-database}
 
-This may be due to the fact that, heuristics are used in Dynamic reporting to track opens even when we can't track the **[!UICONTROL Open]** action.
+이는 동작을 추적할 수 없을 때에도 열림 추적을 추적하기 위해 동적 보고에 추론이 사용되기 때문일 수 **[!UICONTROL Open]** 있습니다.
 
-For example, if a user has disabled images on their client and click on a link in the email, the **[!UICONTROL Open]** may not be tracked by the database but the **[!UICONTROL Click]** will.
+예를 들어, 사용자가 클라이언트에서 이미지를 비활성화하고 이메일의 링크를 클릭하는 경우, 데이터베이스가 **[!UICONTROL Open]** 아니라 **[!UICONTROL Click]** 의도할 것입니다.
 
-Therefore, the **[!UICONTROL Open]** tracking logs counts may not have the same count in the database.
+따라서 **[!UICONTROL Open]** 추적 로그 카운트는 데이터베이스에 동일한 카운트가 없을 수 있습니다.
 
-Such occurrences are added as **"an email click implies an email open"**.
+이러한 항목은 **"이메일 클릭은 이메일 열기를 의미합니다"**.
 
 >[!NOTE]
 >
->고유한 카운트는 HLL 기반 스케치를 기반으로 하므로, 카운트 간의 사소한 불일치를 경험할 수 있습니다.
+>고유 수는 HLL 기반 스케치를 기반으로 하므로 카운트 간의 사소한 불일치를 경험할 수 있습니다.
 
-## 반복/거래 게재 횟수는 어떻게 계산됩니까?
+## 반복/트랜잭션 게재 수는 어떻게 계산됩니까?
 
-반복 및 거래 배달을 사용하여 작업할 때 카운트는 상위 및 하위 배달 모두에 귀속됩니다.
+반복 및 거래 게재 작업 시 해당 카운트는 상위 및 하위 게재 모두에 적용됩니다.
 
-We can take the example of a recurring delivery named **R1** set to run every day on day 1 (RC1), day 2 (RC2) and day 3 (RC3).
+1일(RC1), **2일(RC2) 및 3일(RC3)에 매일 실행되도록 설정된 R1** 반복 배달을 예로 들 수 있습니다.
 
-한 사람만 모든 하위 배달을 여러 번 열었다고 가정합니다. In this case, the individual recurring child deliveries will show the **[!UICONTROL Open]** count as 1 for each.
+한 사람만이 모든 하위 배달을 여러 번 열었다고 가정해 봅시다. 이 경우 개별 반복 하위 배달은 각 횟수에 대해 **[!UICONTROL Open]** 카운트를 1로 표시합니다.
 
-However, since the same person clicked on all the deliveries, the parent recurring delivery will also have **[!UICONTROL Unique open]** as 1.
+하지만 동일한 사람이 모든 배달을 클릭했으므로 상위 반복 배달도 **[!UICONTROL Unique open]** 1입니다.
 
-After the Adobe Campaign Standard 19.2.1 release, the definition of **Unique counts** is changed from **Number of unique persons interacting with the delivery** to **Number of unique messages interacted**.
+Adobe Campaign Standard 19.2.1 릴리스 이후 고유 카운트의 **정의는** 게재와 **상호 작용하는** 고유 **사람 수에서 대화형 처리된**&#x200B;고유 메시지수로 변경됩니다.
 
-Adobe Campaign Standard 19.2.1 릴리스 전에 보고서는 다음과 같이 표시되었습니다.
+Adobe Campaign Standard 19.2.1 릴리스 전에는 보고서가 다음과 같이 표시되었습니다.
 
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>배달</strong><br /> </th> 
-   <th align="center"> <strong>sent</strong><br /> </th> 
+   <th align="center"> <strong>전달</strong><br /> </th> 
+   <th align="center"> <strong>전송됨</strong><br /> </th> 
    <th align="center"> <strong>배달됨</strong><br /> </th>
-   <th align="center"> <strong>opens</strong><br /> </th> 
+   <th align="center"> <strong>열기</strong><br /> </th> 
    <th align="center"> <strong>고유 열기</strong><br /> </th>
   </tr> 
  </thead> 
@@ -159,15 +159,15 @@ Adobe Campaign Standard 19.2.1 릴리스 전에 보고서는 다음과 같이 �
  </tbody> 
 </table>
 
-Adobe Campaign Standard 19.2.1 릴리스 이후 보고서는 다음과 같이 표시됩니다.
+Adobe Campaign Standard 19.2.1 릴리스 이후 보고서는 다음과 같습니다.
 
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>배달</strong><br /> </th> 
-   <th align="center"> <strong>sent</strong><br /> </th> 
+   <th align="center"> <strong>전달</strong><br /> </th> 
+   <th align="center"> <strong>전송됨</strong><br /> </th> 
    <th align="center"> <strong>배달됨</strong><br /> </th>
-   <th align="center"> <strong>opens</strong><br /> </th> 
+   <th align="center"> <strong>열기</strong><br /> </th> 
    <th align="center"> <strong>고유 열기</strong><br /> </th>
   </tr> 
  </thead> 
@@ -203,16 +203,26 @@ Adobe Campaign Standard 19.2.1 릴리스 이후 보고서는 다음과 같이 �
  </tbody> 
 </table>
 
-## What is the colors' signification in my reports' table? {#reports-color-signification}
+## 보고서 테이블의 색상 표시는 무엇입니까? {#reports-color-signification}
 
-보고서에 표시된 색상은 임의로 처리되며 개인화할 수 없습니다. 진행률 표시줄을 나타내며 보고서에서 도달한 최대 값을 더 잘 강조 표시하는 데 도움이 됩니다.
+보고서에 표시되는 색상은 무작위 지정되므로 개인화할 수 없습니다. 진행률 표시줄을 나타내며 보고서에서 도달한 최대값을 더 잘 강조 표시할 수 있도록 표시됩니다.
 
-아래 예에서 셀은 값이 100% 이기 때문에 동일한 색상을 갖습니다.
+아래 예에서 셀의 값은 100%이기 때문에 셀은 같은 색입니다.
 
 ![](assets/troubleshooting_1.png)
 
-**조건부 서식을** 사용자 정의로 변경하면 값이 상한에 도달하면 더 흐리게 표시됩니다. 반면에 더 낮은 한도에 도달하면 Redder가 생성됩니다.
+사용자 **[!UICONTROL Conditional formatting]** 지정으로 변경하면 값이 상한에 도달하면 셀이 더 푸르게 됩니다. 반면에, 그것이 더 낮은 제한에 도달하면, 더 붉어질 것입니다.
 
-For example, here, we set the **Upper limit** to 500 and **Lower limit** to 0.
+예를 들어 여기에서 를 500 및 ** **[!UICONTROL Upper limit]**[!UICONTROL Lower limit**] 0으로 설정합니다.
 
 ![](assets/troubleshooting_2.png)
+
+## 내 보고서에 N/A 값이 표시되는 이유는 무엇입니까?
+
+![](assets/troubleshooting_3.png)
+
+값 N/ **A** 값이 동적 보고서에 나타나는 경우가 있습니다. 다음 두 가지 이유로 표시할 수 있습니다.
+
+* 게재가 삭제되었으며 결과에 불일치가 발생하지 않도록 **N/A로** 여기에 표시됩니다.
+* 차원을 **[!UICONTROL Transactional Delivery]** 보고서에 끌어다 놓으면 값 N/ **A** 가 결과로 나타날 수 있습니다. 이 문제는 다이내믹 보고서가 트랜잭션 대상이 아닌 경우에도 모든 전달을 가져오기 때문에 발생합니다.
+이 문제는 **[!UICONTROL Delivery]** 차원을 보고서에 끌어다 놓을 때에도 발생할 수 있지만 이 경우 N/A **값이 트랜잭션 배달을** 나타냅니다.
