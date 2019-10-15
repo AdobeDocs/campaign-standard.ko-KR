@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
 
 ---
 
@@ -61,6 +61,14 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 사이트 사
 1. 또한 클라이언트가 장바구니를 포기하면 이벤트가 트리거되도록 하려면 Adobe Campaign Standard REST API를 사용하여 회사의 웹 사이트에서 이 이벤트를 전송해야 합니다. 사이트 [통합을](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)참조하십시오.
 
 이러한 모든 단계가 수행되면 사용자가 장바구니에 제품을 주문하지 않고 사이트를 떠나면 알림 이메일을 자동으로 받게 됩니다.
+
+## 트랜잭션 메시지 게시 프로세스 {#transactional-messaging-pub-process}
+
+아래 차트는 트랜잭션 메시지 게시 프로세스를 보여줍니다.
+
+![](assets/message-center_pub-process.png)
+
+이벤트 구성 단계에 대한 자세한 내용은 트랜잭션 [메시징 구성을](../../administration/using/configuring-transactional-messaging.md)참조하십시오.
 
 ## 트랜잭션 메시징 제한 사항 {#transactional-messaging-limitations}
 
