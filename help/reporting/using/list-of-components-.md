@@ -2,454 +2,466 @@
 title: '구성 요소 목록 '
 seo-title: '구성 요소 목록 '
 description: '구성 요소 목록 '
-seo-description: 동적 보고서에서 사용할 수 있는 모든 구성 요소 목록과 그 정의를 확인하십시오.
-page-status-flag: 정품 인증 안 함
-uuid: a 2403806-8 df 4-4 bb 1-bac 2-2689 dc 584 ae 0
-contentOwner: Sauviat
-products: sg_ campaign/standard
+seo-description: 동적 보고서에서 사용할 수 있는 모든 구성 요소 목록과 해당 정의를 참조하십시오.
+page-status-flag: 활성화 안 함
+uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 보고
-content-type: 참조
-topic-tags: 보고 정보
-discoiquuid: 17 CF 126 A -7 CE 1-4 E 11-BB 5 E -2 BDCE 01 CFDED
+content-type: reference
+topic-tags: 정보 보고
+discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfed
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
 
-# List of components {#list-of-components}
+# 구성 요소 목록 {#list-of-components}
 
-To learn more on compatibility between dimensions and metrics, refer to this [table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
+차원과 지표 간 호환성에 대한 자세한 내용은 이 [표를](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)참조하십시오. 두 구성 요소가 호환되지 않으면 셀에 없음 값이 **표시됩니다**.
 
 ![](assets/dynamic_report_compatibility.png)
 
-## Dimensions {#dimensions}
+## 차원 {#dimensions}
 
-아래 표는 보고서 및 해당 정의에 사용된 차원 목록을 제공합니다.
+아래 표에는 보고서에 사용된 차원 목록과 해당 정의가 나와 있습니다.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimension<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 차원<br /> </th> 
+   <th> 정의<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Browser<br /> </td> 
-   <td> Browser from which the message was opened or clicked on.<br /> </td> 
+   <td> 브라우저<br /> </td> 
+   <td> 메시지를 열거나 클릭한 브라우저입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign<br /> </td> 
-   <td> Label and ID of your campaign.<br /> </td> 
+   <td> 캠페인<br /> </td> 
+   <td> 캠페인의 레이블 및 ID입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> City<br /> </td> 
-   <td> City registered in the recipient's profile.<br /> </td> 
+   <td> 구/군/시<br /> </td> 
+   <td> 받는 사람 프로필에 등록된 구/군/시<br /> </td> 
   </tr> 
   <tr> 
-   <td> Country<br /> </td> 
-   <td> Country registered in the recipient's profile.<br /> </td> 
+   <td> 국가<br /> </td> 
+   <td> 받는 사람 프로필에 등록된 국가.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery<br /> </td> 
-   <td> Label and ID of the delivery.<br /> </td> 
+   <td> 전달<br /> </td> 
+   <td> 게재의 레이블 및 ID입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Device<br /> </td> 
-   <td> Device from which the email/SMS/push notification was opened/viewed/clicked on.<br /> </td> 
+   <td> 장치<br /> </td> 
+   <td> 이메일/SMS/푸시 알림을 연 장치/본 장치/클릭한 장치.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Gender<br /> </td> 
-   <td> 남성 또는 여성과 같은 수신자의 성별. If the gender field is empty in the recipient's profile, the value will be none.<br /> </td> 
+   <td> 실패 이유<br /> </td> 
+   <td> 사용자 알 수 없음, 잘못된 도메인 또는 사서함이 꽉 찬 경우와 같이 각 배달에 대한 바운스를 발생시킨 오류 유형.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App message actions<br /> </td> 
-   <td> Actions on the In-App message delivered, e.g. actions on button 1 or 2 or dismissals.<br /> </td> 
+   <td> 성별<br /> </td> 
+   <td> 받는 사람의 성별(예: 남성 또는 여성) 받는 사람 프로필에 성별 필드가 비어 있으면 값이 none이 됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Message type<br /> </td> 
-   <td> Channel used for the delivery, such as email, SMS, push notification or In-App.<br /> </td> 
+   <td> 인앱 메시지 작업<br /> </td> 
+   <td> 전달된 인앱 메시지에 대한 작업(예: 단추 1, 2 또는 해고의 작업)입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mobile App name<br /> </td> 
-   <td> Name of the mobile application<br /> </td> 
+   <td> 메시지 유형<br /> </td> 
+   <td> 이메일, SMS, 푸시 알림 또는 인앱 등 전달에 사용되는 채널입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Platform<br /> </td> 
-   <td> Platform of the device from which the message was opened/viewed/clicked on.<br /> </td> 
+   <td> 모바일 앱 이름<br /> </td> 
+   <td> 모바일 응용 프로그램의 이름<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profiles<br /> </td> 
-   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> 이 차원에 대한 데이터는 프로필 필드에 연결된 사용자 지정 리소스가 게시되자마자 검색됩니다.<br /> </td> 
+   <td> 플랫폼<br /> </td> 
+   <td> 메시지를 연/본/클릭한 장치의 플랫폼입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Push platform<br /> </td> 
-   <td> Platform of the device from which the push notification was opened, such as iOS or Android.<br /> </td> 
+   <td> 프로필<br /> </td> 
+   <td> 프로필 리소스 확장 중에 만든 기본 및 사용자 지정 프로필 필드를 재그룹화합니다. 자세한 내용은 이 <a href="../../developing/using/key-steps-to-add-a-resource.md">페이지</a> 또는 이 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">예를</a>참조하십시오.<br /> 프로필 필드에 연결된 사용자 지정 리소스가 게시되는 즉시 이 차원에 대한 데이터가 검색됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Recipient domain<br /> </td> 
-   <td> Domain used to open the email.<br /> </td> 
+   <td> 푸시 플랫폼<br /> </td> 
+   <td> 푸시 알림이 열린 장치의 플랫폼(예: iOS 또는 Android).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Recurring delivery<br /> </td> 
-   <td> Label and ID of the recurring delivery.<br /> </td> 
+   <td> 수신자 도메인<br /> </td> 
+   <td> 이메일을 여는 데 사용되는 도메인입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sender domain<br /> </td> 
-   <td> Domain used to send the email.<br /> </td> 
+   <td> 반복 전달<br /> </td> 
+   <td> 반복 게재의 레이블 및 ID입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sender IP<br /> </td> 
-   <td> IP used to send the email.<br /> </td> 
+   <td> 보낸 사람 도메인<br /> </td> 
+   <td> 이메일을 보내는 데 사용되는 도메인입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> State<br /> </td> 
-   <td> State registered in the recipient's profile.<br /> </td> 
+   <td> 보낸 사람 IP<br /> </td> 
+   <td> 이메일을 보내는 데 사용되는 IP입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL<br /> </td> 
-   <td> URL that was clicked on by the user from the message.<br /> </td> 
+   <td> 주<br /> </td> 
+   <td> 받는 사람 프로필에 등록된 상태.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL category<br /> </td> 
-   <td> Category assigned to the tracking URL.<br /> </td> 
+   <td> 추적 URL<br /> </td> 
+   <td> 사용자가 메시지에서 클릭한 URL입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL label<br /> </td> 
-   <td> Label given to the URL, such as mirror page, contact us or open.<br /> </td> 
+   <td> 추적 URL 범주<br /> </td> 
+   <td> 추적 URL에 지정된 카테고리.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional delivery<br /> </td> 
-   <td> Label and ID of the transactional delivery.<br /> </td> 
+   <td> 추적 URL 레이블<br /> </td> 
+   <td> 미러 페이지와 같은 URL에 지정된 레이블은 Adobe에 문의하거나 엽니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Variant<br /> </td> 
-   <td> Variant of the email in case of A/B testing.<br /> </td> 
+   <td> 트랜잭션 전달<br /> </td> 
+   <td> 트랜잭션 배달의 레이블 및 ID입니다.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 변형<br /> </td> 
+   <td> A/B 테스트의 경우 이메일의 변수입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Metrics {#metrics}
+## 지표 {#metrics}
 
-아래 표는 배달 유형에 따라 보고서 및 해당 정의에 사용된 지표 목록을 제공합니다.
+아래 표는 보고서에 사용된 지표 목록과 배달 유형에 따라 그 정의를 제공합니다.
 
-### Email and SMS metrics {#email-and-sms-metrics}
+### 이메일 및 SMS 지표 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 지표<br /> </th> 
+   <th> 정의<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Blacklisted<br /> </td> 
-   <td> Number of recipients who have declared an email as spam or junk.<br /> </td> 
+   <td> 블랙리스트에 추가됨<br /> </td> 
+   <td> 이메일을 스팸 또는 정크 메일로 선언한 받는 사람 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted rate<br /> </td> 
-   <td> Percentage of deliveries marked as blacklisted.<br /> </td> 
+   <td> 블랙리스트에 추가된 속도<br /> </td> 
+   <td> 블랙리스트에 추가된 배달의 백분율.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
-   <td> Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.<br /> </td> 
+   <td> 바운스 수 + 오류<br /> </td> 
+   <td> 총 보낸 메시지 수와 관련하여 배달 및 자동 반환 처리 중에 누적된 총 오류 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
-   <td> Percentage of emails that bounced compared to email sent.<br /> </td> 
+   <td> 바운스 + 오류 비율<br /> </td> 
+   <td> 전송된 이메일과 비교하여 바운스된 이메일의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 클릭<br /> </td> 
-   <td> Number of times a content was clicked in a delivery.<br /> </td> 
+   <td> 게재에서 컨텐츠를 클릭한 횟수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
-   <td> Percentage of clicks in a delivery.<br /> </td> 
+   <td> 클릭스루 비율<br /> </td> 
+   <td> 배달에서 클릭의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Number of messages successfully sent, in relation to the total number of sent messages.<br /> </td> 
+   <td> 배달됨<br /> </td> 
+   <td> 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
-   <td> Percentage of messages successfully sent.<br /> </td> 
+   <td> 배달 비율<br /> </td> 
+   <td> 성공적으로 보낸 메시지의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounce<br /> </td> 
-   <td> Total number of permanent errors, such as a wrong email address.<br /> </td> 
+   <td> 하드 바운스<br /> </td> 
+   <td> 잘못된 이메일 주소와 같은 총 영구 오류 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounce rate<br /> </td> 
-   <td> Percentage of deliveries that failed due to permanent errors.<br /> </td> 
+   <td> 하드 바운스 비율<br /> </td> 
+   <td> 영구 오류로 인해 실패한 배달 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br /> </td> 
-   <td> Number of recipients who clicked on the mirror page link.<br /> </td> 
+   <td> 미러 페이지<br /> </td> 
+   <td> 미러 페이지 링크를 클릭한 받는 사람 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
-   <td> Percentage of clicks on the mirror page link compared to the total delivery messages.<br /> </td> 
+   <td> 미러 페이지 속도<br /> </td> 
+   <td> 전체 배달 메시지와 비교하여 미러 페이지 링크에 대한 클릭의 백분율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Offer clicks<br /> </td> 
-   <td> Number of time an offer was clicked on in a delivery.<br /> </td> 
+   <td> 오퍼 클릭<br /> </td> 
+   <td> 배달에서 오퍼를 클릭한 횟수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Offer click rate<br /> </td> 
-   <td> Percentage of clicks on an offer.<br /> </td> 
+   <td> 오퍼 클릭률<br /> </td> 
+   <td> 오퍼에 대한 클릭 비율.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
-   <td> Number of times a message was opened in a delivery.<br /> </td> 
+   <td> 열기<br /> </td> 
+   <td> 배달에서 메시지를 연 횟수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
-   <td> Percentage of opened messages.<br /> </td> 
+   <td> 개방 비율<br /> </td> 
+   <td> 연 메시지의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of sends for the delivery.<br /> </td> 
+   <td> 처리/전송<br /> </td> 
+   <td> 배달의 총 전송 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br /> </td> 
-   <td> Number of messages that bounced and resulted in the quarantine of the address.<br /> </td> 
+   <td> 격리<br /> </td> 
+   <td> 반송되고 주소가 격리된 메시지 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
-   <td> Percentage of quarantines compared to sent messages.<br /> </td> 
+   <td> 검역률<br /> </td> 
+   <td> 보낸 메시지와 비교하여 검역소의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br /> </td> 
-   <td> Number of messages classified as spam by the SMTP servers.<br /> </td> 
+   <td> 거부됨<br /> </td> 
+   <td> SMTP 서버별로 스팸으로 분류된 메시지 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
-   <td> Percentage of messages marked as rejected.<br /> </td> 
+   <td> 거부된 비율<br /> </td> 
+   <td> 거부됨으로 표시된 메시지의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
-   <td> Total number of temporary errors, such as a full inbox.<br /> </td> 
+   <td> 소프트 바운스<br /> </td> 
+   <td> 전체 받은 편지함과 같은 총 임시 오류 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce rate<br /> </td> 
-   <td> Percentage of deliveries that failed due to temporary reason.<br /> </td> 
+   <td> 소프트 바운스 비율<br /> </td> 
+   <td> 일시적인 이유로 인해 실패한 배달 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
-   <td> Number of recipients who clicked on a content in a delivery.<br /> </td> 
+   <td> 고유한 클릭 수<br /> </td> 
+   <td> 배달에서 콘텐츠를 클릭한 받는 사람 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
+   <td> 고유 열기<br /> </td> 
+   <td> 배달을 연 받는 사람 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
-   <td> Percentage of unsubscriptions by recipient compared to the delivered messages.<br /> </td> 
+   <td> 구독 취소 비율<br /> </td> 
+   <td> 수신자별 구독 취소 비율과 배달된 메시지 비교<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribed<br /> </td> 
-   <td> Number of clicks on the unsubscription link.<br /> </td> 
+   <td> 구독 취소<br /> </td> 
+   <td> 구독 취소 링크에 대한 클릭 수입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Push notification metrics {#push-notification-metrics}
+### 푸시 알림 지표 {#push-notification-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 지표<br /> </th> 
+   <th> 정의<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
-   <td> Total of errors cumulated during delivery in relation to the total number of sent messages, e.g. errors from MCPNS or provider.<br /> </td> 
+   <td> 바운스 수 + 오류<br /> </td> 
+   <td> MCPNS 또는 공급자의 오류와 같이 전송 중에 누적된 총 오류 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
-   <td> Percentage of push notifications that bounced compared to push notifications sent.<br /> </td> 
+   <td> 바운스 + 오류 비율<br /> </td> 
+   <td> 전송된 푸시 알림과 비교하여 바운스된 푸시 알림의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 클릭<br /> </td> 
-   <td> 푸시 알림이 장치로 배달되고 사용자가 클릭한 횟수입니다. The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
+   <td> 푸시 알림이 장치에 배달되고 사용자가 클릭한 횟수입니다. 사용자가 알림을 보려고 하면 푸시 열기 추적으로 이동되거나 해지됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
-   <td> Percentage of users who interacted with the push notification.<br /> </td> 
+   <td> 클릭스루 비율<br /> </td> 
+   <td> 푸시 알림과 상호 작용한 사용자의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Number of push notifications successfully sent, in relation to the total number of sent push notifications.<br /> </td> 
+   <td> 배달됨<br /> </td> 
+   <td> 전송된 총 푸시 알림 수와 관련하여 성공적으로 전송된 푸시 알림 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
-   <td> Percentage of push notifications successfully sent.<br /> </td> 
+   <td> 배달 비율<br /> </td> 
+   <td> 푸시 알림을 성공적으로 전송한 비율.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
-   <td> 푸시 알림이 장치로 배달되고 알림 센터에서 변경되지 않은 횟수입니다. 대부분의 경우 노출 수는 배달된 번호와 비슷해야 합니다. This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
+   <td> 노출 횟수<br /> </td> 
+   <td> 푸시 알림이 장치에 전달되고 알림 센터에 그대로 남아 있는 횟수입니다. 대부분의 경우 노출 횟수는 배달된 번호와 비슷해야 합니다. 이렇게 하면 장치가 메시지를 받고 해당 정보를 다시 서버로 전달합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of push notifications sent.<br /> </td> 
+   <td> 처리/전송<br /> </td> 
+   <td> 전송된 총 푸시 알림 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
-   <td> 장치에 배달되고 사용자가 클릭해서 앱을 여는 총 푸시 알림 수입니다. This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
+   <td> 열기<br /> </td> 
+   <td> 장치에 배달되고 사용자가 클릭한 총 푸시 알림 수입니다. 따라서 앱이 열립니다. 이 방법은 푸시 클릭과 유사하지만, 알림이 해제된 경우 푸시 열기가 트리거되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
-   <td> Percentage of opened push notifications.<br /> </td> 
+   <td> 개방 비율<br /> </td> 
+   <td> 열린 푸시 알림의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique click<br /> </td> 
-   <td> Number of times a unique user interacts with the push notification, e.g. clicks on the notification or button.<br /> </td> 
+   <td> 고유 클릭<br /> </td> 
+   <td> 고유 사용자가 푸시 알림과 상호 작용하는 횟수(예: 알림 또는 단추 클릭).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> Number of impressions by recipient.<br /> </td> 
+   <td> 고유 노출 수<br /> </td> 
+   <td> 수신자별 노출 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique Opens<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### In-App metrics {#in-app-metrics}
-
-<table> 
- <thead> 
-  <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Total number of In-App messages delivered to the device by the service provider.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Impressions<br /> </td> 
-   <td> Total of In-App messages seen by recipients depending on whether trigger criterion was met.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App clicks <br /> </td> 
-   <td> Total number of recipients who clicked on Button 1 or Button 2.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App click through rate<br /> </td> 
-   <td> Percentage of users who clicked on Button 1 or Button 2 compared to users who saw the message.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App dismissal<br /> </td> 
-   <td> Total number of messages that recipients dismissed either by clicking the close button or auto-dismiss.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App dismissal rate<br /> </td> 
-   <td> Percentage of In-App messages that recipients dismissed.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of In-App messages sent from Adobe Campaign as part of the delivery sent process.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> Number of impressions by a unique recipient.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Unique In-App clicks<br /> </td> 
-   <td> Number of times recipients clicked on Button 1 or Button 2.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Unique In-App dismissals<br /> </td> 
-   <td> Number of time recipients dismissed an In-App message.<br /> </td> 
+   <td> 고유 열기<br /> </td> 
+   <td> 배달을 연 받는 사람 수입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Segments {#segments}
-
-아래 표는 보고서 및 해당 정의에 사용된 세그먼트 목록을 제공합니다.
+### 인앱 지표 {#in-app-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Segment<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 지표<br /> </th> 
+   <th> 정의<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Age: Boomers 1<br /> </td> 
-   <td> Recipients born from 1946 to 1954.<br /> </td> 
+   <td> 배달됨<br /> </td> 
+   <td> 서비스 공급자가 장치에 제공한 총 인앱 메시지 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Boomers 2<br /> </td> 
-   <td> Recipients born from 1955 to 1965.<br /> </td> 
+   <td> 노출 횟수<br /> </td> 
+   <td> 트리거 기준이 충족되었는지 여부에 따라 받는 사람이 본 인앱 메시지의 합계입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 18 to 25<br /> </td> 
-   <td> Recipients from 18 to 25 years old.<br /> </td> 
+   <td> 인앱 클릭 <br /> </td> 
+   <td> 단추 1 또는 단추 2를 클릭한 총 받는 사람 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 26 to 30<br /> </td> 
-   <td> Recipients from 26 to 30 years old.<br /> </td> 
+   <td> 인앱 클릭스루 비율<br /> </td> 
+   <td> 단추 1 또는 단추 2를 클릭한 사용자의 백분율과 메시지를 본 사용자의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 31 to 40<br /> </td> 
-   <td> Recipients from 31 to 40 years old.<br /> </td> 
+   <td> 인앱 해지<br /> </td> 
+   <td> 닫기 단추 또는 자동 해지를 클릭하여 받는 사람이 해지한 총 메시지 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 41 to 50<br /> </td> 
-   <td> Recipients from 41 to 50 years old.<br /> </td> 
+   <td> 인앱 기각률<br /> </td> 
+   <td> 받는 사람이 해지한 인앱 메시지의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation X<br /> </td> 
-   <td> Recipients born from 1966 to 1976.<br /> </td> 
+   <td> 처리/전송<br /> </td> 
+   <td> 전송 프로세스의 일부로 Adobe Campaign에서 전송된 총 인앱 메시지 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation Y (Millennials)<br /> </td> 
-   <td> Recipients born from 1977 to 1994.<br /> </td> 
+   <td> 고유 노출 수<br /> </td> 
+   <td> 고유 수신자의 노출 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation Z<br /> </td> 
-   <td> Recipients born from 1995 to today.<br /> </td> 
+   <td> 고유한 인앱 클릭<br /> </td> 
+   <td> 받는 사람이 단추 1 또는 단추 2를 클릭한 횟수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Greater than 50<br /> </td> 
-   <td> Recipients whose age is greater than 50.<br /> </td> 
+   <td> 고유한 인앱 폐기<br /> </td> 
+   <td> 인앱 메시지를 보낸 사람의 수입니다.<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 세그먼트 {#segments}
+
+>[!NOTE]
+>
+>기본적으로 **[!UICONTROL Exclude proof]** 세그먼트는 보고서를 필터링하도록 이미 선택되지만 필요한 경우 변경할 수 있습니다.
+
+아래 표에는 보고서에 사용된 세그먼트 목록과 해당 정의가 나와 있습니다.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> 세그먼트<br /> </th> 
+   <th> 정의<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> 연령:부머 1<br /> </td> 
+   <td> 1946년부터 1954년까지 태어난 수신자<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 25<br /> </td> 
-   <td> Recipients whose age is less than 25.<br /> </td> 
+   <td> 연령:부머 2<br /> </td> 
+   <td> 1955년부터 1965년까지 태어난 수신자<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 30<br /> </td> 
-   <td> Recipients whose age is less than 30.<br /> </td> 
+   <td> 연령:18에서 25까지<br /> </td> 
+   <td> 18세에서 25세 사이의 수신을 받습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 40<br /> </td> 
-   <td> Recipients whose age is less than 40.<br /> </td> 
+   <td> 연령:26~30<br /> </td> 
+   <td> 26세에서 30세 사이의 수혜 대상자입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 50<br /> </td> 
-   <td> Recipients whose age is less than 50.<br /> </td> 
+   <td> 연령:31~40<br /> </td> 
+   <td> 31세에서 40세 사이의 수혜자.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Silent Generation<br /> </td> 
-   <td> Recipients born in 1945 or before.<br /> </td> 
+   <td> 연령:41~50<br /> </td> 
+   <td> 41세부터 50세까지의 수신자입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> All visits<br /> </td> 
-   <td> Every recipient<br /> </td> 
+   <td> 연령:생성 X<br /> </td> 
+   <td> 1966년부터 1976년까지 태어난 수신자<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 연령:Y 세대(밀레니엄 세대)<br /> </td> 
+   <td> 1977년부터 1994년까지 태어난 수신자<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 연령:Z 세대<br /> </td> 
+   <td> 1995년 출생부터 오늘까지<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 연령:50개 이상<br /> </td> 
+   <td> 50세 이상인 수신자입니다.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 연령:25 미만<br /> </td> 
+   <td> 25세 미만의 수신자입니다.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 연령:30 미만<br /> </td> 
+   <td> 30세 미만의 수신자.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 연령:40 미만<br /> </td> 
+   <td> 40세 미만의 수신자<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 연령:50 미만<br /> </td> 
+   <td> 50세 미만의 수신자입니다.<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 연령:자동 생성<br /> </td> 
+   <td> 1945년 또는 그 이전에 태어난 수신자<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 모든 방문<br /> </td> 
+   <td> 모든 수신자<br /> </td> 
+  </tr> 
+    <tr> 
+   <td> 증명 제외<br /> </td> 
+   <td> 보고서에서 교정본 제외(Campaign 19.4 릴리스 시작만 해당)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
