@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
 
 ---
 
@@ -26,6 +26,24 @@ Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아
 이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/using/release-notes.md).
+
+## 릴리스 19.4 - 2019년 10월 {#release-19-4---october-2019}
+
+### 릴리스에 포함된 새로운 기능 {#new-capabilities-included-in-the-release-20}
+
+CPA(California Consumer Privacy Act) - [자세한 내용](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+
+Microsoft Dynamics 365 통합(GA) - [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-18}
+
+Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제 GDPR 및 CPA를 비롯한 개인 정보 관리 설명서입니다. [자세한 내용](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+
+트랜잭션 메시징 게시 프로세스를 설명하는 새 차트가 추가되었습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+
+배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## 설명서 업데이트 - 2019년 10월 {#doc-updates-october-2019}
 
