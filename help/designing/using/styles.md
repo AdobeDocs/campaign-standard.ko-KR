@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
+source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 
 ---
 
@@ -176,6 +176,10 @@ source-git-commit: f76e88798c1c570b02442aec316a3f24e3615a4a
 1. 변경 내용을 저장합니다.
 
 ### 스타일 지정 링크 정보 {#about-styling-links}
+
+>[!NOTE]
+>
+>이 기능은 Campaign Standard 19.4 릴리스부터 사용할 수 있습니다.
 
 링크에 밑줄을 지정하고 이메일 디자이너에서 해당 색상과 대상을 선택할 수 있습니다.
 
