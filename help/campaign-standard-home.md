@@ -5,7 +5,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
+source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
 
 ## 새로운 기능
 
-* **[이메일 디자이너](channels/using/event-transactional-messages.md)**<br/>트랜잭션 메시지에 이메일 디자이너를 사용합니다.
+* **[개인 정보 관리](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Adobe Campaign에서 제공하는 툴에 대해 자세히 알아보십시오.
 
-* **[워크플로우](reporting/using/creating-a-report-workflow-segment.md)**<br/>세그먼트워크플로우 세그먼트를 기반으로 보고서를 만듭니다.
+* **[전달 우수](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>사례 전달 디자인 및 전송과 관련된 모범 사례에 대한 자세한 내용을 살펴보십시오.
 
-* **[새로운 워크플로우 사용 사례](automating/using/workflow-created-query-with-complement.md)**<br/>워크플로우 쿼리 사용 사례를 확인하십시오.
+* **[이메일 디자이너](designing/using/designing-content-in-adobe-campaign.md)**<br/>재구성된 이메일 디자이너 설명서를 참조하십시오.
 
-* **[파일 활동](automating/using/load-file.md)**<br/>로드 파일 활동을 사용하여 추가 데이터가 포함된 이메일을 전송합니다.
+* **[랜딩](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>페이지랜딩 페이지를 설정하는 방법에 대한 자세한 내용을 살펴보십시오.
 
 [업데이트를 더 보려면 여기를 클릭하십시오.](rn/using/documentation-updates.md)
 
