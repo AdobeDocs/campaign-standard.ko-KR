@@ -1,139 +1,147 @@
 ---
-title: Audience Manager 또는 People 핵심 서비스와의 통합 제공 및 구성
-seo-title: Audience Manager 또는 People 핵심 서비스와의 통합 제공 및 구성
-description: Audience Manager 또는 People 핵심 서비스와의 통합 제공 및 구성
-seo-description: 'Audience Manager/People 핵심 서비스 통합을 구성하여 다른 Adobe Experience Cloud 솔루션과 대상 또는 세그먼트를 공유하는 방법을 알아봅니다. '
-page-status-flag: 정품 인증 안 함
-uuid: E 7329644-0033-4729-B 4 A 7-61 BEF 137 F 4 B 5
-contentOwner: Sauviat
-products: sg_ campaign/standard
+title: Audience Manager 또는 People 코어 서비스와의 통합 제공 및 구성
+seo-title: Audience Manager 또는 People 코어 서비스와의 통합 제공 및 구성
+description: Audience Manager 또는 People 코어 서비스와의 통합 제공 및 구성
+seo-description: '다른 Adobe Experience Cloud 솔루션을 사용하여 대상이나 세그먼트를 공유하도록 Audience Manager/People 핵심 서비스 통합을 구성하는 방법을 알아봅니다. '
+page-status-flag: 활성화 안 함
+uuid: e7329644-0033-4729-b4a7-61bef137f4b5
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 통합
-content-type: 참조
+content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: EB 24 F 4 EA -325 F -433 A -91 A 0-C 45906320 BCB
+discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
 
 ---
 
 
-# Provisioning and configuring integration with Audience Manager or People core service{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# Audience Manager 또는 People 코어 서비스와의 통합 제공 및 구성{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-The provisioning and configuring of Audience Manager and People core in Adobe Campaign take two steps: [Submitting request to Adobe](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#submitting-request-to-adobe) then [Configuring the integration in Adobe Campaign](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#configuring-the-integration-in-adobe-campaign).
+Adobe Campaign에서 Audience Manager 및 사람 코어의 제공 및 구성은 다음 두 단계를 수행합니다.Adobe [에 요청을 제출한](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#submitting-request-to-adobe) 다음 [Adobe Campaign에서 통합 구성을 참조하십시오](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#configuring-the-integration-in-adobe-campaign).
 
-## Submitting request to Adobe {#submitting-request-to-adobe}
+## Adobe에 요청 제출 {#submitting-request-to-adobe}
 
-Audience Manager (AAM) 또는 핵심 서비스 통합을 통해 Adobe Campaign에서 고객 또는 세그먼트를 가져오거나 내보낼 수 있습니다.
+Audience Manager(AAM) 또는 People 핵심 서비스 통합을 통해 Adobe Campaign에서 대상자 또는 세그먼트를 가져오고 내보낼 수 있습니다.
 
-이 통합을 먼저 구성해야 합니다. To request provisioning of this integration, write an email to [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) with the following information:
+먼저 이 통합을 구성해야 합니다. 이 통합의 프로비저닝을 요청하려면 Digital-Request@adobe.com [에](mailto:Digital-Request@adobe.com) 다음 정보를 이메일로 보내주십시오.
 
 <table> 
  <tbody> 
   <tr> 
    <td> <strong>요청 유형:</strong><br /> </td> 
-   <td> AAM/People 핵심 서비스 캠페인 통합 구성 </td> 
+   <td> AAM/사람 핵심 서비스-캠페인 통합 구성 </td> 
   </tr> 
   <tr> 
    <td> <strong>조직명:</strong><br /> </td> 
-   <td> 조직명 </td> 
+   <td> 조직 이름 </td> 
   </tr> 
   <tr> 
    <td> <strong>IMS 조직 ID</strong><br /> </td> 
-   <td> IMS 조직 ID * </td> 
+   <td> IMS 조직 ID. <br> **관리** 메뉴에서 Experience Cloud에서 IMS 조직 ID를 찾을 수 있습니다. Adobe Experience Cloud에 처음 연결할 때도 제공됩니다. </td> 
   </tr> 
   <tr> 
    <td> <strong>환경:</strong><br /> </td> 
-   <td> 예: 프로덕션 </td> 
+   <td> 예:프로덕션 </td> 
   </tr> 
   <tr> 
-   <td> <strong>AAM 또는 People 서비스</strong><br /> </td> 
-   <td> 예: Adobe Audience Manager </td> 
+   <td> <strong>AAM 또는 사용자 서비스</strong><br /> </td> 
+   <td> 예:Adobe Audience Manager </td> 
   </tr> 
   <tr> 
    <td> <strong>선언된 ID 또는 방문자 ID</strong><br /> </td> 
-   <td> 예: 선언된 ID </td> 
+   <td> 예:선언된 ID </td> 
   </tr> 
   <tr> 
    <td> <strong>추가 정보</strong><br /> </td> 
-   <td> 유용한 정보 또는 주석 </td> 
+   <td> 유용한 정보 또는 의견 </td> 
   </tr> 
  </tbody> 
 </table>
 
-* You can find your IMS Org ID on the Experience Cloud, in the **Administration** menu. Adobe Experience Cloud에 처음 연결할 때도 제공됩니다.
+* **[!UICONTROL Declared ID]** 모든 공유 대상 통합에 대해 작동합니다. People 코어 서비스를 사용하는 경우 솔루션 사용에 따라 변경될 **[!UICONTROL Declared ID]** 수 있습니다.
 
-## Configuring the integration in Adobe Campaign {#configuring-the-integration-in-adobe-campaign}
+* 대상이 Adobe Campaign에서 Adobe Target으로 공유되는 경우, 핵심 서비스를 통해 프로비저닝할 **[!UICONTROL Declared ID]** 수 있습니다.
+* People 코어 서비스를 통해 Adobe Campaign에서 Ad Cloud로 대상을 공유하는 경우, 대상자의 과거 채우기에 **[!UICONTROL Declared ID]** 프로비전을 사용할 수 없습니다. 대상을 빌드할 때 일부 지연이 예상됩니다.
+* 대상자가 Adobe Analytics에서 People 코어 서비스를 통해 Adobe Campaign으로 공유되는 경우, 세그먼트는 Adobe Campaign에서 다음으로 채워지지 않습니다 **[!UICONTROL Declared ID]**.
 
-이 요청을 제출하면 Adobe는 귀하를 위해 통합의 제공을 계속하고, 구성을 완료해야 하는 세부 정보와 정보를 제공하기 위해 사용자에게 연락합니다.
+사람 코어 서비스 대신 Adobe Audience Manager를 사용하는 경우 모든 시나리오에서 **[!UICONTROL Declared ID]** 작동합니다.
 
-* [1 단계: Adobe Campaign에서 외부 계정 구성 또는 확인](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
-* [2 단계: Data Sources 구성](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)
-* [3 단계: 캠페인 추적 서버 구성](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server)
-* [4 단계: 방문자 ID 서비스 구성](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-4--configure-the-visitor-id-service)
+다음 주소로 **[!UICONTROL Declared ID]** 프로비전을 요청할 수 있습니다.Digital-Request@adobe.com [](mailto:Digital-Request@adobe.com).
 
-### Step 1: Configure or check the external accounts in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+## Adobe Campaign에서 통합 구성 {#configuring-the-integration-in-adobe-campaign}
 
-먼저 Adobe Campaign에서 외부 계정을 구성하거나 확인해야 합니다. 이러한 계정은 Adobe에 의해 구성되어 있어야 하며 필요한 정보가 사용자에게 전달되었어야 합니다.
+이 요청을 제출한 후 Adobe는 사용자를 위해 통합 프로비저닝을 계속 진행할 것이며 구성을 완료하기 위해 필요한 세부 정보와 정보를 제공할 것입니다.
 
-이렇게 하려면:
+* [1단계:Adobe Campaign에서 외부 계정 구성 또는 확인](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+* [2단계:데이터 소스 구성](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)
+* [3단계:캠페인 추적 서버 구성](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server)
+* [4단계:방문자 ID 서비스 구성](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-4--configure-the-visitor-id-service)
 
-1. From the advanced menu, select **Administration &gt; Application settings &gt; External accounts**.
+### 1단계:Adobe Campaign에서 외부 계정 구성 또는 확인 {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
-   이 통합에 사용할 수 있는 외부 계정 중 하나를 선택합니다.
+먼저 Adobe Campaign에서 외부 계정을 구성하거나 확인해야 합니다. 이러한 계정은 Adobe에 의해 구성되어야 하며 필요한 정보는 귀하에게 전달되어야 합니다.
+
+이렇게 하려면 다음을 수행하십시오.
+
+1. 고급 메뉴에서 관리 &gt; 응용 프로그램 **설정 &gt; 외부 계정을**&#x200B;선택합니다.
+
+   이 통합에 사용할 수 있는 다음 외부 계정 중 하나를 선택합니다.
 
    ![](assets/integration_aam_1.png)
 
-1. Enter **[!UICONTROL Receiver server]** in following format
-1. Enter the **[!UICONTROL AWS Access Key ID]**, **[!UICONTROL Secret Access Key]** and **[!UICONTROL AWS Region]**.
+1. 다음 **[!UICONTROL Receiver server]** 형식으로 입력하십시오.
+1. 를 **[!UICONTROL AWS Access Key ID]**&#x200B;입력하고 **[!UICONTROL Secret Access Key]** 를 **[!UICONTROL AWS Region]**&#x200B;입력합니다.
 
-이제 이 통합에 대해 외부 계정이 구성됩니다.
+이제 외부 계정이 이 통합에 대해 구성됩니다.
 
-### Step 2: Configure the Data Sources {#step-2--configure-the-data-sources}
+### 2단계:데이터 소스 구성 {#step-2--configure-the-data-sources}
 
-다음 두 데이터 소스가 Audience Manager 내에서 생성됩니다. Adobe Campaign (MID) 및 Adobe Campaign (declaredid) 를 추가했습니다. 이와 동시에 이 두 데이터 소스는 Adobe Campaign에서 사용할 수 있습니다.
+다음 두 개의 데이터 소스는 Audience Manager 내에서 만들어집니다.Adobe Campaign(MID) 및 Adobe Campaign(선언된 ID). 이와 동시에 다음 두 개의 데이터 소스를 Adobe Campaign에서 사용할 수 있습니다.
 
-* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: 방문자 ID에 대해 기본적으로 구성된 기본 데이터 소스입니다. 캠페인에서 만들어진 세그먼트는 이 데이터 소스의 일부가 됩니다.
-* **선언된 ID** 데이터 소스: 이 데이터 소스는 Audience Manager의 **[!UICONTROL DeclaredId]** 데이터 소스 정의와 만들고 매핑해야 합니다.
+* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**:방문자 ID에 대해 기본적으로 구성된 기본 데이터 소스입니다. Campaign에서 생성된 세그먼트는 이 데이터 소스의 일부가 됩니다.
+* **선언된 ID** 데이터 소스:이 데이터 소스를 만들고 Audience Manager의 **[!UICONTROL DeclaredId]** 데이터 소스 정의와 매핑해야 합니다.
 
-도메인이 다른 여러 웹 사이트의 경우 Adobe Campaign는 ECID를 기반으로 조정을 지원하지 않습니다.
+도메인이 다른 여러 웹 사이트의 경우 Adobe Campaign은 ECID를 기반으로 하는 조정을 지원하지 않습니다.
 
-To configure the **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** data source:
+데이터 소스를 구성하려면 **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** 다음을 수행하십시오.
 
-1. In **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Shared Data Sources]**, select **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
+1. &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Shared Data Sources]**&#x200B;에서 **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**&#x200B;선택합니다.
 
    ![](assets/integration_aam_2.png)
 
-1. **[!UICONTROL Adobe Campaign]****[!UICONTROL Data Source/ Alias]** 드롭다운에서 선택합니다.
-1. Enter the **[!UICONTROL AAM Destination ID]** provided by Adobe.
+1. 드롭다운에서 **[!UICONTROL Adobe Campaign]** **[!UICONTROL Data Source/ Alias]** 선택합니다.
+1. Adobe에서 **[!UICONTROL AAM Destination ID]** 제공한 항목을 입력합니다.
 
    ![](assets/integration_aam_3.png)
 
-1. **[!UICONTROL Reconciliation process]** 카테고리에서는 조정 기준을 변경하지 않고 항상을 **[!UICONTROL Visitor ID]**&#x200B;사용할 것을 권장합니다.
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. 이 **[!UICONTROL Reconciliation process]** 카테고리에서, 조정 기준을 변경하지 말고 항상 을 사용하는 것이 좋습니다. **[!UICONTROL Visitor ID]**
+1. Click **[!UICONTROL Save]**.
 
-**[!UICONTROL Declared ID]** 데이터 소스를 만들려면:
+데이터 소스를 만들려면 **[!UICONTROL Declared ID]** 다음을 수행하십시오.
 
-1. In **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Shared Data Sources]**, click the **[!UICONTROL Create]** button.
-1. Edit the **[!UICONTROL Label]** of your data source.
-1. **[!UICONTROL Data Source/ Alias]** 드롭다운에서 Audience Manager의 **[!UICONTROL DeclaredID]** 데이터 소스에 해당하는 데이터 소스를 선택합니다.
-1. Configure your data source by entering the **[!UICONTROL Data Source / Alias]** and **[!UICONTROL AAM Destination ID]** provided by Adobe.
-1. **[!UICONTROL Reconciliation process]** 필요에 따라 설정합니다.
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Shared Data Sources]**&#x200B;에서 **[!UICONTROL Create]** 단추를 클릭합니다.
+1. 데이터 **[!UICONTROL Label]** 소스의 편집
+1. 드롭다운에서 Audience Manager의 데이터 소스에 해당하는 데이터 소스를 **[!UICONTROL Data Source/ Alias]** **[!UICONTROL DeclaredID]** 선택합니다.
+1. Adobe에서 **[!UICONTROL Data Source / Alias]** 제공하고 제공하는 데이터 소스를 **[!UICONTROL AAM Destination ID]** 입력합니다.
+1. 필요에 따라 **[!UICONTROL Reconciliation process]** 설정합니다.
+1. Click **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->The **[!UICONTROL AAM Destination ID]** field is not required if you are configuring the shared data source for the [Campaign-Triggers integration](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** 는 트리거 - 캠페인 통합을 구성할 때에만 필요합니다. 우선 순위는 먼저 구성할 데이터 소스를 결정합니다. 우선 순위는 1 또는 100와 같은 임의의 숫자일 수 있습니다. 우선 순위가 높을수록 조정 중에 선호도가 높아집니다.
+>캠페인 트리거 통합을 **[!UICONTROL AAM Destination ID]** 위해 공유 데이터 소스를 구성하는 경우에는 [](../../integrating/using/configuring-triggers-in-experience-cloud.md)필드가 필요하지 않습니다. **[!UICONTROL Priority]** 은 트리거 - 캠페인 통합을 구성할 때만 필요합니다. 우선 순위는 먼저 구성할 데이터 소스를 결정합니다. 우선 순위는 1 또는 100과 같은 숫자일 수 있습니다. 우선 순위가 높을수록 조정 중 선호도가 높습니다.
 
-### Step 3: Configure Campaign Tracking server {#step-3--configure-campaign-tracking-server}
+### 3단계:캠페인 추적 서버 구성 {#step-3--configure-campaign-tracking-server}
 
-사용자 핵심 서비스 또는 Audience Manager 와의 통합에 대한 구성을 위해 캠페인 추적 서버를 구성해야 합니다.
+People 코어 서비스 또는 Audience Manager와의 통합을 구성하려면 캠페인 추적 서버를 구성해야 합니다.
 
-여기에서 캠페인 추적 서버가 도메인 (CNAME) 에 등록되어 있는지 확인해야 합니다. You can find more information about domain name delegation in [this article](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
+여기서는 캠페인 추적 서버가 도메인(CNAME)에 등록되어 있는지 확인해야 합니다. 도메인 이름 위임에 대한 자세한 내용은 [이 문서에서](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf)참조할 수 있습니다.
 
-### Step 4: Configure the Visitor ID Service {#step-4--configure-the-visitor-id-service}
+### 4단계:방문자 ID 서비스 구성 {#step-4--configure-the-visitor-id-service}
 
-In the case that your Visitor ID service has never been configured on your web properties or websites, refer to the following [document](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) to learn how to configure your service or the following [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+방문자 ID 서비스가 웹 속성 또는 웹 사이트에 구성되지 않은 경우 다음 [문서를](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-aam-analytics.html) 참조하여 서비스 또는 다음 [비디오를](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)구성하는 방법을 알아보십시오.
 
-구성 및 프로비저닝이 종결되면 통합을 사용하여 대상 또는 세그먼트를 가져오고 내보낼 수 있습니다.
+구성 및 프로비저닝이 완료되어 이제 통합으로 대상 또는 세그먼트를 가져오고 내보낼 수 있습니다.
