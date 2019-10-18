@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
+source-git-commit: a206521e458620c7b452f403353fec482fe18dee
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
 
 * [캠페인 릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [최신 설명서 업데이트](../../rn/using/documentation-updates.md)
-* [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 * [제어판](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * 이전 릴리스 노트: [2018](../../rn/using/release-notes-2018.md)[](../../rn/using/release-notes-2017.md)[,2017,2015-2016](../../rn/using/release-notes-2015-2016.md)
 
