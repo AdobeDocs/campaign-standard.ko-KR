@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 통합(GA) - [자세한 내용](https://helpx.adobe.com/c
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-18}
 
-Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard 및 Campaign Classic에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제 GDPR 및 CPA를 비롯한 개인 정보 관리 설명서입니다. [자세한 내용](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
