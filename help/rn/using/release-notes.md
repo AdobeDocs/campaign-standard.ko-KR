@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03fe22d7a209bb65b13149c04bd9ab4a432e6a5b
+source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 03fe22d7a209bb65b13149c04bd9ab4a432e6a5b
  <tbody> 
   <tr> 
    <td> CPA(California Consumer Privacy Act)<br /> </td> 
-   <td> <p>CCPA는 2020년 1월 1일부터 적용되는 캘리포니아 주의 새로운 개인 정보 보호 요건의 조화와 현대화를 위해 마련되었습니다. CCPA는 캘리포니아에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
+   <td> <p>CCPA는 2020년 1월 1일부터 시행된 데이터 보호 요구 사항을 통합하고 현대화한 캘리포니아 주의 새로운 개인 정보 보호 법입니다. CCPA는 캘리포니아에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
    <p>Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 이외에도 Adobe는 CCPA에 대한 귀하의 준비 사항을 용이하게 하기 위해 추가 기능을 포함시킬 수 있는 기회를 드립니다.</p>
    <ul>
     <li>액세스 권한 및 삭제 권한:gdpr에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">자세한 내용</a> </li>
