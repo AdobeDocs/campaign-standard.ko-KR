@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
 * Adobe Experience Cloud에서 공유된 이미지 - 캠페인 및 [자산 핵심 서비스](../../integrating/using/working-with-campaign-and-assets-core-service.md) /Assets On Demand 작업을 참조하십시오.
 * Adobe Target의 동적 이미지 - 캠페인 [및 타겟 작업을 참조하십시오.](../../integrating/using/about-campaign-target-integration.md)
 
-활성화된 경우 Adobe Creative SDK를 사용하여 이미지를 수정할 수 있습니다. Adobe [Creative SDK를 사용하여 이미지 수정을 참조하십시오](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk).
+활성화된 경우 Adobe Creative SDK를 사용하여 이미지를 수정할 수 있습니다. Adobe [Creative SDK를 사용하여 이미지 수정을 참조하십시오](images.md#modifying-images-with-the-adobe-creative-sdk).
 
 >[!CAUTION]
 >
