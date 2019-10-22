@@ -14,7 +14,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 차원과 지표 간 호환성에 대한 자세한 내용은 이 [표를](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)참조하십시오. 두 구성 요소가 호환되지 않으면 셀에 없음 값이 **표시됩니다**.
 
-![](assets/dynamic_report_compatibility.png)
+[![이미지](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 ## 차원 {#dimensions}
 
@@ -50,7 +50,7 @@ source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
    <td> 받는 사람 프로필에 등록된 구/군/시<br /> </td> 
   </tr> 
   <tr> 
-   <td> 국가<br /> </td> 
+   <td> 국가/지역<br /> </td> 
    <td> 받는 사람 프로필에 등록된 국가.<br /> </td> 
   </tr> 
   <tr> 
