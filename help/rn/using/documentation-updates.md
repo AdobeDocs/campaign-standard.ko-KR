@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
 
 ---
 
@@ -45,7 +45,7 @@ GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제
 
 배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-새 섹션이 추가되었습니다. Adobe Campaign Standard 데이터베이스를 보완할 수 있는 다양한 방법에 대한 개요를 제공합니다. [자세한 내용](../../start/using/enriching-campaign-database.md)
+<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
 
 ## 설명서 업데이트 - 2019년 10월 {#doc-updates-october-2019}
 
