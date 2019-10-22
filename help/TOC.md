@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: 최종 사용자
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
+source-git-commit: 5b5784d6c80e96e3303bbb372e171889bbb29f99
 
 ---
 
@@ -136,7 +136,7 @@ source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
       + [테스트 프로파일 관리 및 증명 전송](sending/using/managing-test-profiles-and-sending-proofs.md)
       + [이메일의 제목 줄 테스트](sending/using/testing-subject-line-email.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
-   + 메시지 예약 {#sheduling-messages}
+   + 메시지 예약 {#scheduling-messages}
       + [메시지 예약 정보](sending/using/about-scheduling-messages.md)
       + [전송 시간 최적화](sending/using/optimizing-the-sending-time.md)
       + [받는 사람의 시간대에서 메시지 보내기](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
