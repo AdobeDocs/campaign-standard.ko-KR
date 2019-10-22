@@ -1,47 +1,47 @@
 ---
-title: 통신 채널 검색
-seo-title: 통신 채널 검색
-description: 통신 채널 검색
-seo-description: 다양한 채널에서 개인화된 메시지를 전송하고 수신자를 보다 효과적으로 공략할 수 있는 크로스채널 캠페인을 만드는 방법을 살펴볼 수 있습니다.
-page-status-flag: 정품 인증 안 함
-uuid: 5 D 61 D 8 DF -8256-4 F 28-8 DD 3-E 791891 E 312 F
-contentOwner: Sauviat
-products: sg_ campaign/standard
+title: 커뮤니케이션 채널 검색
+seo-title: 커뮤니케이션 채널 검색
+description: 커뮤니케이션 채널 검색
+seo-description: 다양한 채널에서 개인화된 메시지를 전송하고 크로스채널 캠페인을 제작하여 수신자를 효과적으로 타겟팅하는 방법을 살펴볼 수 있습니다.
+page-status-flag: 활성화 안 함
+uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 채널
-content-type: 참조
-topic-tags: About-communication-channels
-discoiquuid: 5214 BECF -005 B -42 AC -97 D 2-2 BCE 5 BA 2 ECB 5
+content-type: reference
+topic-tags: 정보 통신 채널
+discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
 
 ---
 
 
-# Discovering communication channels{#discovering-communication-channels}
+# 커뮤니케이션 채널 검색{#discovering-communication-channels}
 
-Adobe Campaign를 사용하면 다양한 채널에서 개인화된 메시지를 작성하여 보내고 전용 보고서를 통해 효과를 측정할 수 있습니다.
+Adobe Campaign을 사용하면 다양한 채널에서 개인화된 메시지를 만들어 전송하고 전용 보고서를 통해 효과를 측정할 수 있습니다.
 
-또한 크로스채널 캠페인을 만들어 수신자를 더 잘 공략할 수 있습니다.
+또한 크로스채널 캠페인을 만들어 수신자를 보다 효과적으로 타겟팅할 수 있습니다.
 
-Adobe Campaign에서 4 개의 메시징 채널을 사용할 수 있습니다.
+Adobe Campaign에서 사용할 수 있는 메시지 채널은
 
-* Email, presented in the [Creating an email](../../channels/using/creating-an-email.md) section.
-* SMS, presented in the [Creating an SMS message](../../channels/using/creating-an-sms-message.md) section.
-* Push notification, presented in the [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md) section.
-* In-App messages, presented in the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
-* Direct mail, presented in the [Creating a direct mail delivery](../../channels/using/creating-the-direct-mail.md) section.
+* 이메일 만들기 섹션에 [나와 있는](../../channels/using/about-emails.md) 이메일.
+* SMS 만들기 [메시지](../../channels/using/about-sms-messages.md) 섹션에 나와 있는 SMS
+* 푸시 알림 만들기 섹션에 [나와 있는 푸시](../../channels/using/about-push-notifications.md) 알림입니다.
+* 인앱 메시지 만들기 섹션에 [나와 있는 인앱](../../channels/using/about-in-app-messaging.md) 메시지.
+* DM 배달 [](../../channels/using/about-direct-mail.md) 만들기 섹션에 표시된 DM
 
-모든 마케팅 활동은 템플릿을 기반으로 합니다. 템플릿을 사용하여 자주 사용하는 속성을 구성하는 데 사용할 수 있으므로 메시징 전략을 통해 시간과 일관성을 유지할 수 있습니다.
+모든 마케팅 활동은 템플릿을 기반으로 합니다. 템플릿을 사용하여 자주 사용하는 속성을 구성할 수 있으므로 메시징 전략에서 시간과 일관성을 유지할 수 있습니다.
 
 템플릿 구성을 담당하는 기능 관리자는 이메일 템플릿의 경우 다음을 정의할 수 있습니다.
 
-* 대상, 일정 또는 컨텐츠와 같은 이메일의 표준 매개 변수
+* 대상, 일정 또는 컨텐츠와 같은 이메일의 표준 매개 변수입니다.
 * 전송, 유효성, 추적 등과 관련된 고급 매개 변수
-* 타깃팅 및 개인화 (타깃팅 컨텍스트) 와 관련된 사전 구성 매개 변수.
+* 타깃팅 및 개인화에 대한 사전 구성 매개 변수(타깃팅 컨텍스트).
 
 **관련 항목**:
 
-* [전달 가능성 최적화](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
+* [전달 능력 최적화](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
 
