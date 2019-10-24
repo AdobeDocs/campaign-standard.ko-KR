@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: 최종 사용자
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
+source-git-commit: cceab9f275a0e40804c548d127c54030b75b7cbc
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
 # Adobe Campaign Standard 도움말 {#using}
 
 + [제품 설명서](campaign-standard-home.md)
-+ 릴리스 노트 {#release-notes}
++ Release Notes {#release-notes}
    + [릴리스 노트](rn/using/release-notes.md)
    + [릴리스 노트 2018](rn/using/release-notes-2018.md)
    + [릴리스 노트 2017](rn/using/release-notes-2017.md)
@@ -25,7 +25,6 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [다이내믹하고 개인화된 컨텐츠](start/using/dynamic-and-personalized-content.md)
       + [추적, 모니터링 및 보고](start/using/tracking--monitoring-and-reporting.md)
       + [Adobe 솔루션과 통합](start/using/integrating-with-adobe-solutions.md)
-      + [캠페인 데이터베이스 강화](start/using/enriching-campaign-database.md)
    + 인터페이스 검색 {#discovering-the-interface}
       + [인터페이스 정보](start/using/about-the-interface.md)
       + [인터페이스 설명](start/using/interface-description.md)
@@ -42,7 +41,7 @@ source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
       + [템플릿 사용](start/using/using-a-template.md)
    + 자습서 {#tutorials}
       + [단계별 가이드](start/using/step-by-step-guides.md)
-      + [사용 방법 비디오](start/using/how-to-videos.md)
+      + [사용법 비디오](start/using/how-to-videos.md)
 + 프로필 및 대상 {#profiles-and-audiences}
    + [프로필 및 대상 정보](audiences/using/about-profiles-and-audiences.md)
    + 프로필 관리 {#managing-profiles}
