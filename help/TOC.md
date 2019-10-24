@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: 최종 사용자
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 5b5784d6c80e96e3303bbb372e171889bbb29f99
+source-git-commit: 207fd31f65a426de230ee3d7f0374d3721c09e13
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: 5b5784d6c80e96e3303bbb372e171889bbb29f99
       + [다이내믹하고 개인화된 컨텐츠](start/using/dynamic-and-personalized-content.md)
       + [추적, 모니터링 및 보고](start/using/tracking--monitoring-and-reporting.md)
       + [Adobe 솔루션과 통합](start/using/integrating-with-adobe-solutions.md)
+      + [캠페인 데이터베이스 강화](start/using/enriching-campaign-database.md)
    + 인터페이스 검색 {#discovering-the-interface}
       + [인터페이스 정보](start/using/about-the-interface.md)
       + [인터페이스 설명](start/using/interface-description.md)
