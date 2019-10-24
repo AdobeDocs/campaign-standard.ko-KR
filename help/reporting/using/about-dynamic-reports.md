@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7df9d0d4a3cb801619d703857fb71f2ee9ccb435
+source-git-commit: 4388d4f07e633651a4cad6ff6ec8b25b47111b83
 
 ---
 
@@ -88,8 +88,8 @@ Dynamic Reporting은 사용자 정의 가능하고 실시간 보고서를 제공
 
 | 지역 | 동적 보고 | Microsoft Dynamics 365 커넥터 |
 |---|---|---|
-| 미국 및 APAC(아시아 태평양) | **사용 가능한**&#x200B;기능 <br> ExternalID를 제외하고 즉시 사용 가능한 사용자 지정 프로필 정보가 미국 보고 센터로 푸시되지 않습니다. | **사용 가능한**&#x200B;기능 <br>외부 ID 및 수신자 ID를 제외하고 미국 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>세그먼트 코드 및 미러 페이지 ID를 제외하고 미국 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드. |
-| EMEA(유럽 중동 및 아프리카) | **사용 가능한**&#x200B;기능 <br>ExternalID를 제외하고 EMEA 보고 센터로 푸시된 특별 및 사용자 지정 프로필 정보가 없습니다. | **기능 제공** 외부 <br>ID 및 수신자 ID를 제외하고 EMEA 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>세그먼트 코드 및 미러 페이지 ID를 제외하고 EMEA 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드.  <br>**[!UICONTROL Control data]** 이 파일에는 Adobe I/O 등록 데이터와 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID가 들어 있습니다. |
+| 미국 및 APAC(아시아 태평양) | **사용 가능한**&#x200B;기능 <br> ExternalID를 제외하고 즉시 사용 가능한 사용자 지정 프로필 정보가 미국 보고 센터로 푸시되지 않습니다. | **사용 가능한**&#x200B;기능 <br>외부 ID 및 수신자 ID를 제외하고 미국 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 미국 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드. |
+| EMEA(유럽 중동 및 아프리카) | **사용 가능한**&#x200B;기능 <br>ExternalID를 제외하고 EMEA 보고 센터로 푸시된 특별 및 사용자 지정 프로필 정보가 없습니다. | **기능 제공** 외부 <br>ID 및 수신자 ID를 제외하고 EMEA 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 EMEA 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드.  <br>**[!UICONTROL Control data]** 이 파일에는 Adobe I/O 등록 데이터와 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID가 들어 있습니다. |
 
 이 선택 사항은 최종본이 아닙니다. &gt; **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** &gt; **[!UICONTROL Administration]** **[!UICONTROL Application Settings]** **[!UICONTROL Options]**&#x200B;에서 선택하여 언제든지 변경할 수 있습니다.
 
