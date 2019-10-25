@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
+source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
 
 ---
 
@@ -49,16 +49,16 @@ source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 1. 구조 구성 요소(이메일에서 직접 또는 왼쪽 팔레트에서 사용 가능한 구조 트리 사용)를 **선택합니다**.
 1. 컨텍스트 **도구 모음에서**&#x200B;을 클릭하여 원하는 열을 **[!UICONTROL Select a column]** 선택합니다.
 
-이 [섹션의](../../designing/using/styles.md#example--adjusting-vertical-alignment-and-padding)예를 참조하십시오.
+이 [섹션의](#example--adjusting-vertical-alignment-and-padding)예를 참조하십시오.
 
 ### 스타일 설정 조정 {#adjusting-style-settings}
 
-1. 이메일에서 요소를 선택합니다. 자세한 내용은 요소 [선택을](../../designing/using/styles.md#selecting-an-element)참조하십시오.
+1. 이메일에서 요소를 선택합니다. 자세한 내용은 요소 [선택을](#selecting-an-element)참조하십시오.
 1. 필요에 따라 설정을 조정합니다. 선택한 각 요소는 다른 설정 세트를 제공합니다.
 
-   배경 삽입, 크기 변경, 수평 또는 수직 정렬 수정, 색상 관리, [패딩 또는 여백](../../designing/using/styles.md#selecting-an-element)추가 등을 수행할 수 있습니다.
+   배경 삽입, 크기 변경, 수평 또는 수직 정렬 수정, 색상 관리, [패딩 또는 여백](#selecting-an-element)추가 등을 수행할 수 있습니다.
 
-   이렇게 하려면 **[!UICONTROL Settings]** 창에 표시된 옵션을 사용하거나 인라인 스타일 속성을 [추가합니다](../../designing/using/styles.md#adding-inline-styling-attributes).
+   이렇게 하려면 **[!UICONTROL Settings]** 창에 표시된 옵션을 사용하거나 인라인 스타일 속성을 [추가합니다](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -220,7 +220,7 @@ source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 
 모바일 디스플레이를 위한 모든 스타일 옵션을 별도로 편집하여 이메일의 반응형 디자인을 세밀하게 조정할 수 있습니다. 예를 들어 여백과 패딩을 조정하고, 더 작거나 큰 글꼴 크기를 사용하거나, 단추를 변경하거나, 이메일의 모바일 버전에 맞는 다른 배경색을 적용할 수 있습니다.
 
-모든 스타일 옵션은 모바일 보기에서 사용할 수 있습니다. 이메일 디자이너 스타일 설정은 [이메일 스타일](../../designing/using/styles.md) 편집 섹션에 표시됩니다.
+모든 스타일 옵션은 모바일 보기에서 사용할 수 있습니다. 이메일 디자이너 스타일 설정은 [이메일 스타일](#editing-email-styles) 편집 섹션에 표시됩니다.
 
 1. 이메일을 만들고 컨텐츠 편집을 시작합니다. 자세한 내용은 처음부터 [이메일 컨텐츠 디자인을 참조하십시오](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. 전용 모바일 보기에 액세스하려면 **[!UICONTROL Switch to mobile view]** 단추를 선택합니다.
