@@ -14,7 +14,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1ddabbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -60,9 +60,9 @@ HTML 컨텐츠 템플릿은 고급 메뉴의 **[!UICONTROL Resources]** &gt; **[
 
 기본 컨텐츠 템플릿은 읽기 전용입니다. 이러한 템플릿 중 하나를 편집하려면 먼저 원하는 템플릿을 복제해야 합니다.
 
-새 템플릿 또는 조각을 만들고 자신만의 컨텐츠를 정의할 수 있습니다. 자세한 내용은 컨텐츠 템플릿 [만들기 및](../../start/using/about-templates.md#creating-a-content-template) 컨텐츠 조각 [만들기를 참조하십시오](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+새 템플릿 또는 조각을 만들고 자신만의 컨텐츠를 정의할 수 있습니다. 자세한 내용은 컨텐츠 템플릿 [만들기 및](#creating-a-content-template) 컨텐츠 조각 [만들기를 참조하십시오](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
-이메일 디자이너를 사용하여 컨텐츠를 편집할 때 컨텐츠를 조각 또는 템플릿으로 저장하여 컨텐츠 템플릿을 만들 수도 있습니다. 자세한 내용은 컨텐츠를 템플릿으로 [저장 및](../../start/using/about-templates.md#saving-content-as-template) 컨텐츠를 조각으로 [저장을 참조하십시오](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+이메일 디자이너를 사용하여 컨텐츠를 편집할 때 컨텐츠를 조각 또는 템플릿으로 저장하여 컨텐츠 템플릿을 만들 수도 있습니다. 자세한 내용은 컨텐츠를 템플릿으로 [저장 및](#saving-content-as-template) 컨텐츠를 조각으로 [저장을 참조하십시오](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 ### 즉시 사용 가능한 이메일 컨텐츠 템플릿 {#email-content-templates}
 
@@ -77,7 +77,7 @@ HTML 컨텐츠 템플릿은 고급 메뉴의 **[!UICONTROL Resources]** &gt; **[
 * 이 [비디오에서](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)콘텐츠 템플릿을 개인화하는 방법을 살펴보십시오.
 * 컨텐츠 편집에 대한 자세한 내용은 이메일 [컨텐츠 디자인](../../designing/using/overview.md)정보를 참조하십시오.
 
-### 컨텐츠 템플릿 만들기 {#creating-a-content-template}
+### Creating a content template {#creating-a-content-template}
 
 필요에 따라 여러 번 사용할 수 있도록 고유한 컨텐츠 템플릿을 만들 수 있습니다.
 
