@@ -14,7 +14,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 이동하여
 
 * 페이지 왼쪽 상단에 있는 **[!UICONTROL Adobe Campaign]** 로고를 통해 고급 기능 및 구성을 이용할 수 있습니다. 메뉴는 프로필 및 권한에 따라 다릅니다.
 
-   고급 메뉴는 고급 [메뉴](../../start/using/interface-description.md#advanced-menu) 섹션에 표시됩니다.
+   고급 메뉴는 고급 [메뉴](#advanced-menu) 섹션에 표시됩니다.
 
 * 이 **[!UICONTROL Home]** 링크를 통해 Adobe Campaign 홈 페이지를 표시할 수 있습니다.
 * 이 **[!UICONTROL Marketing activities]**&#x200B;링크, **[!UICONTROL Programs & Campaigns]****[!UICONTROL Profiles]**&#x200B;및 **[!UICONTROL Audiences]** **[!UICONTROL Reports]** 링크를 통해 이러한 기능에 연결된 보기에 액세스할 수 있습니다.
