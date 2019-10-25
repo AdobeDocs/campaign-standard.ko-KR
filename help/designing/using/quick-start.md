@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
+source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
 
 ---
 
@@ -24,14 +24,14 @@ source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
 
 새로 시작하는 이메일을 만들 수 있습니다.
 
-* 구조 및 컨텐츠 구성 요소를 손쉽게 추가하여 빈 캔버스에서 이메일을 만들고 컨텐츠를 개인화하여 신속하게 전달할 수 있습니다. 스타일 요소를 완벽하게 관리할 수도 있습니다. 자세한 내용은 [빠르게](../../designing/using/quick-start.md#from-scratch-email) 시작하거나 [전체 설명서를](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)참조하십시오.
+* 구조 및 컨텐츠 구성 요소를 손쉽게 추가하여 빈 캔버스에서 이메일을 만들고 컨텐츠를 개인화하여 신속하게 전달할 수 있습니다. 스타일 요소를 완벽하게 관리할 수도 있습니다. 자세한 내용은 [빠르게](#from-scratch-email) 시작하거나 [전체 설명서를](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)참조하십시오.
 
-* 템플릿을 선택하고 여기에서 새 이메일 컨텐츠를 작성하여 바로 사용할 수 있는 템플릿에서 이메일을 만들 수 있습니다. [자세한 내용](quick-start.md#building-content-from-an-out-of-the-box-template)
+* 템플릿을 선택하고 여기에서 새 이메일 컨텐츠를 작성하여 바로 사용할 수 있는 템플릿에서 이메일을 만들 수 있습니다. [자세한 내용](#building-content-from-an-out-of-the-box-template)
 
 기존 컨텐츠가 있는 이메일을 만들 수도 있습니다.
 
-* 기존 HTML 컨텐츠(외부에서 또는 레거시 편집기에서 작성)를 변환할 수 있습니다. [자세한 내용](quick-start.md#converting-an-html-content)
-* 호환성 모드에서 기존 HTML 컨텐츠를 바로 가져올 수 있습니다. [자세한 내용](quick-start.md#compatibility-mode)
+* 기존 HTML 컨텐츠(외부에서 또는 레거시 편집기에서 작성)를 변환할 수 있습니다. [자세한 내용](#converting-an-html-content)
+* 호환성 모드에서 기존 HTML 컨텐츠를 바로 가져올 수 있습니다. [자세한 내용](#compatibility-mode)
 
 ## 기존 컨텐츠 없음 {#without-existing-content}
 
