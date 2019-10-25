@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7de545e9eec675444245576cddc6eaf8dce05f4
+source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
 
 ---
 
@@ -39,8 +39,8 @@ Adobe Campaign에는 시작하는 데 도움이 되는 미리 정의된 콘텐�
 
    * [컨텐츠 템플릿](../../designing/using/using-reusable-content.md#content-templates):탭을 **[!UICONTROL Templates]** 클릭합니다.
    * [처음부터](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)새로 시작하는 콘텐츠:단추를 **[!UICONTROL Create]** 클릭합니다.
-   * [컴퓨터의 콘텐트를 ZIP 또는 HTML 파일로](../../designing/using/using-existing-content.md#importing-content-from-a-file)저장:단추를 **[!UICONTROL Upload]** 클릭합니다.
-   * [기존 URL의 컨텐츠](../../designing/using/using-existing-content.md#importing-content-from-a-url) (이메일만 해당):단추를 **[!UICONTROL Import from URL]** 클릭합니다.
+   * [컴퓨터의 콘텐트를 ZIP 또는 HTML 파일로](#importing-content-from-a-file)저장:단추를 **[!UICONTROL Upload]** 클릭합니다.
+   * [기존 URL의 컨텐츠](#importing-content-from-a-url) (이메일만 해당):단추를 **[!UICONTROL Import from URL]** 클릭합니다.
    ![](assets/des_loading_2.png)
 
 1. 컨텐츠를 로드합니다. 선택한 컨텐츠가 현재 컨텐츠를 대체합니다.
@@ -49,7 +49,7 @@ Adobe Campaign에는 시작하는 데 도움이 되는 미리 정의된 콘텐�
 
    >[!NOTE]
    >
-   >이메일 [디자이너는](../../designing/using/overview.md) 특정 태깅을 사용합니다. Campaign에 업로드된 표준 HTML 컨텐츠는 이메일 디자이너에서 완벽하게 호환되고 편집할 수 있도록 예상되는 태그 지정 기능과 일치해야 합니다. 일치하지 않으면 콘텐트가 [호환성 모드로](../../designing/using/using-existing-content.md#compatibility-mode)업로드됩니다. 기존 내용을 호환되게 하려면 [이 섹션을](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer)참조하십시오.
+   >이메일 [디자이너는](../../designing/using/overview.md) 특정 태깅을 사용합니다. Campaign에 업로드된 표준 HTML 컨텐츠는 이메일 디자이너에서 완벽하게 호환되고 편집할 수 있도록 예상되는 태그 지정 기능과 일치해야 합니다. 일치하지 않으면 콘텐트가 [호환성 모드로](#compatibility-mode)업로드됩니다. 기존 내용을 호환되게 하려면 [이 섹션을](#editing-existing-contents-with-the-email-designer)참조하십시오.
 
 **관련 항목:**
 
@@ -58,9 +58,9 @@ Adobe Campaign에는 시작하는 데 도움이 되는 미리 정의된 콘텐�
 
 ## 이메일 디자이너를 사용하여 기존 컨텐츠 편집{#editing-existing-contents-with-the-email-designer}
 
-이메일 디자이너의 에디션의 가능성을 완전히 활용하려면 [업로드된](../../designing/using/overview.md)HTML에 WYSIWYG 편집기와 호환되도록 특정 태그가 포함되어야 합니다.
+이메일 디자이너의 에디션의 가능성을 완전히 활용하려면 [업로드된](../../designing/using/overview.md)HTML에 WYSIWYG 편집기와 호환되도록 특정 태그 지정이 포함되어야 합니다.
 
-HTML의 전체 또는 일부에 이러한 태깅이 없는 경우 컨텐츠가 ' [호환성 모드](../../designing/using/using-existing-content.md#compatibility-mode)'로 로드됩니다.
+HTML의 전체 또는 일부에 이러한 태깅이 없는 경우 컨텐츠가 ' [호환성 모드](#compatibility-mode)'로 로드됩니다.
 
 이메일 디자이너 내에서 기존 외부 컨텐츠를 완전히 편집할 수 있게 하려면 [기존 컨텐츠를](../../designing/using/using-existing-content.md) 사용하여 이메일 디자인 섹션을 참조하십시오.
 
