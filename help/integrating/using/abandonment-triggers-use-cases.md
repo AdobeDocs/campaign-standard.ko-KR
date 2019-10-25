@@ -14,7 +14,7 @@ discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,8 +23,8 @@ source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
 
 이 섹션에서는 Adobe Campaign과 Experience Cloud 트리거 간의 통합을 사용하여 구현할 수 있는 다양한 사용 사례를 제공합니다. 다음 두 가지 사용 사례를 확인할 수 있습니다.
 
-* [포기 트리거 찾아보기](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger):웹 사이트에서 방문을 포기한 고객에게 메시지를 보냅니다.
-* [검색 포기 트리거](../../integrating/using/abandonment-triggers-use-cases.md#search-abandonment-trigger):웹 사이트에서 검색을 했지만 구매하지 않은 방문자와 다시 연결할 수 있습니다.
+* [포기 트리거 찾아보기](#browse-abandonment-trigger):웹 사이트에서 방문을 포기한 고객에게 메시지를 보냅니다.
+* [검색 포기 트리거](#search-abandonment-trigger):웹 사이트에서 검색을 했지만 구매하지 않은 방문자와 다시 연결할 수 있습니다.
 
 >[!NOTE]
 >
@@ -123,11 +123,11 @@ Adobe Campaign에서 Experience Cloud에서 만든 트리거에 연결된 트리
 
 ## 검색 포기 트리거 {#search-abandonment-trigger}
 
-이 사용 사례에서는 여행 예약 웹 사이트를 방문하고, 대상을 검색하고, 성공적인 결과를 찾지 못했으며, 그 이후에 예약하지 않은 방문자와 다시 연결할 수 있는 트리거를 만들 것입니다. 일반 프로세스는 이전 사용 사례와 동일합니다(검색 포기 트리거 [참조](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger)). 리마케팅 이메일 메시지를 개인화하는 방법에 초점을 맞출 것입니다.
+이 사용 사례에서는 여행 예약 웹 사이트를 방문하고, 대상을 검색하고, 성공적인 결과를 찾지 못했으며, 그 이후에 예약하지 않은 방문자와 다시 연결할 수 있는 트리거를 만들 것입니다. 일반 프로세스는 이전 사용 사례와 동일합니다(검색 포기 트리거 [참조](#browse-abandonment-trigger)). 리마케팅 이메일 메시지를 개인화하는 방법에 초점을 맞출 것입니다.
 
 ### Experience Cloud 트리거 만들기 {#creating-an-experience-cloud-trigger-1}
 
-Experience Cloud Trigger를 만들려면 이전 사용 사례에 설명된 단계를 따르십시오. Experience [Cloud 트리거 만들기를 참조하십시오](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger). 주요 차이점은 트리거 정의입니다.
+Experience Cloud Trigger를 만들려면 이전 사용 사례에 설명된 단계를 따르십시오. Experience [Cloud 트리거 만들기를 참조하십시오](#creating-an-experience-cloud-trigger). 주요 차이점은 트리거 정의입니다.
 
 ![](assets/trigger_uc_search_1.png)
 
@@ -135,7 +135,7 @@ Experience Cloud Trigger를 만들려면 이전 사용 사례에 설명된 단�
 
 ### Adobe Campaign에서 트리거 사용 {#using-the-trigger-in-adobe-campaign-1}
 
-1. Adobe Campaign에서 트리거를 만들려면 이전 사용 사례에 설명된 단계를 따르십시오. Adobe [Campaign에서 트리거 사용을 참조하십시오](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign). 주요 차이점은 Adobe Campaign에서 트리거 페이로드에서 푸시된 메타 데이터에 액세스하고 사용하는 방법입니다.
+1. Adobe Campaign에서 트리거를 만들려면 이전 사용 사례에 설명된 단계를 따르십시오. Adobe [Campaign에서 트리거 사용을 참조하십시오](#using-the-trigger-in-adobe-campaign). 주요 차이점은 Adobe Campaign에서 트리거 페이로드에서 푸시된 메타 데이터에 액세스하고 사용하는 방법입니다.
 1. Adobe Campaign에서 만든 검색 포기 트리거에서 아이콘을 클릭하여 Adobe Campaign으로 푸시된 페이로드를 봅니다. **[!UICONTROL Event content and enrichment]**
 
    ![](assets/trigger_uc_search_2.png)
