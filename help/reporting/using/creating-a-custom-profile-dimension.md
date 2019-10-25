@@ -14,7 +14,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ad558fce83006879455a791127594157456f0c4
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,10 +25,10 @@ source-git-commit: 4ad558fce83006879455a791127594157456f0c4
 
 이 예에서는 세 가지 수준으로 나눌 사용자 지정 프로필 필드 **충성도 프로그램을** 만듭니다.금, 은, 동. 이 사용자 지정 프로필은 동적 보고서에서 사용자 지정 프로필 차원으로 사용할 수 있도록 확장됩니다.
 
-* [1단계:새 프로필 필드 만들기](../../reporting/using/creating-a-custom-profile-dimension.md#step-1--create-a-new-profile-field)
-* [2단계:프로필 필드를 사용하여 전송 로그 확장](../../reporting/using/creating-a-custom-profile-dimension.md#step-2--extend-the-sending-logs-with-the-profile-field)
-* [3단계:충성도 프로그램에 등록한 전달 타깃팅 받는 사람 만들기](../../reporting/using/creating-a-custom-profile-dimension.md#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [4단계:동적 보고서를 만들어 사용자 지정 프로필 차원으로 수신자를 필터링합니다.](../../reporting/using/creating-a-custom-profile-dimension.md#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [1단계:새 프로필 필드 만들기](#step-1--create-a-new-profile-field)
+* [2단계:프로필 필드를 사용하여 전송 로그 확장](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [3단계:충성도 프로그램에 등록한 전달 타깃팅 받는 사람 만들기](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [4단계:동적 보고서를 만들어 사용자 지정 프로필 차원으로 수신자를 필터링합니다.](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## 1단계:새 프로필 필드 만들기 {#step-1--create-a-new-profile-field}
 
