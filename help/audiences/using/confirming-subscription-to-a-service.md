@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b3 파섹
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -32,8 +32,8 @@ source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 * 이 메시지는 기본 모드를 사용하는 모든 서비스에 대해 동일합니다.
 
 특정 서비스에 대한 특정 확인 이메일을 보내려면 사용자 지정 메시지를 만들어 다른 리소스의 개인화 필드를 활용할 수도 있습니다. 이렇게 하려면 트랜잭션 메시지를 만들고 구성해야 합니다. 이 메시지는 참조할 수 있습니다.
-* 서비스 자체에서 자세한 내용은 서비스의 [확인 메시지 구성을](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service)참조하십시오.
-* 구독 랜딩 페이지에서 자세한 내용은 랜딩 [페이지에서](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)확인 메시지 구성을 참조하십시오.
+* 서비스 자체에서 자세한 내용은 서비스의 [확인 메시지 구성을](#configuring-confirmation-message-from-service)참조하십시오.
+* 구독 랜딩 페이지에서 자세한 내용은 랜딩 [페이지에서](#configuring-confirmation-message-from-landing-page)확인 메시지 구성을 참조하십시오.
 
 ## 서비스의 확인 메시지 구성 {#configuring-confirmation-message-from-service}
 
@@ -166,7 +166,7 @@ source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 
 #### 확인 메시지 디자인 {#design-the-confirmation-message-2}
 
-트랜잭션 메시지를 디자인하는 단계는 이 [섹션에](../../audiences/using/confirming-subscription-to-a-service.md#design-the-confirmation-message-1)설명되어 있습니다.
+트랜잭션 메시지를 디자인하는 단계는 이 [섹션에](#design-the-confirmation-message-1)설명되어 있습니다.
 
 ### 2단계:서비스 만들기 및 구성 {#step-2--create-and-configure-the-service-2}
 
