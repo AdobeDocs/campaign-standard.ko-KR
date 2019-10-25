@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
+source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
 
 ---
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365 통합(GA) - [자세한 내용](https://helpx.adobe.com/c
 
 Campaign Standard 및 Campaign Classic에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제 GDPR 및 CPA를 비롯한 개인 정보 관리 설명서입니다. [자세한 내용](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제 GDPR 및 CPA를 비롯한 개인 정보 관리 설명서입니다. [자세한 내용](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 트랜잭션 메시징 게시 프로세스를 설명하는 새 차트가 추가되었습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
