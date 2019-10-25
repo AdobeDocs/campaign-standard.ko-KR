@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 전송하려면 먼저 
 
 이벤트 구성은 **관리자가** 아래 단계에 따라 수행해야 합니다.
 
-구성은 전송하려는 트랜잭션 메시지 유형에 따라 달라질 수 있습니다. 자세한 내용은 트랜잭션 이벤트 [특정 구성을 참조하십시오.](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)
+구성은 전송하려는 트랜잭션 메시지 유형에 따라 달라질 수 있습니다. 자세한 내용은 트랜잭션 이벤트 [특정 구성을 참조하십시오.](#transactional-event-specific-configurations)
 
 이벤트가 게시되면 해당 트랜잭션 메시지가 자동으로 만들어집니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 페이지를](../../channels/using/about-transactional-messaging.md)참조하십시오.
 
@@ -51,7 +51,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 전송하려면 먼저 
 
 1. 원하는 이벤트 구성에 해당하는 타깃팅 차원을 선택하고 을 **[!UICONTROL Create]**&#x200B;클릭합니다.
 
-   이벤트 기반 트랜잭션 메시지 대상 데이터는 이벤트 자체에 포함된 반면 프로필 기반 트랜잭션 메시지는 Adobe Campaign 데이터베이스에 들어 있는 대상 데이터입니다. 자세한 내용은 트랜잭션 이벤트 [특정 구성을](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)참조하십시오.
+   이벤트 기반 트랜잭션 메시지 대상 데이터는 이벤트 자체에 포함된 반면 프로필 기반 트랜잭션 메시지는 Adobe Campaign 데이터베이스에 들어 있는 대상 데이터입니다. 자세한 내용은 트랜잭션 이벤트 [특정 구성을](#transactional-event-specific-configurations)참조하십시오.
 
 ## 이벤트 속성 정의 {#defining-the-event-attributes}
 
@@ -90,8 +90,8 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 전송하려면 먼저 
 
 **관련 항목:**
 
-* [이벤트 미리 보기 및 게시](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
-* [트랜잭션 메시지에서 제품 목록 사용](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+* [이벤트 미리 보기 및 게시](#previewing-and-publishing-the-event)
+* [트랜잭션 메시지에서 제품 목록 사용](#using-product-listings-in-a-transactional-message)
 
 ## 트랜잭션 메시지 컨텐츠 강화 {#enriching-the-transactional-message-content}
 
@@ -113,7 +113,7 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
 
    ![](assets/message-center_new-enrichment.png)
 
-1. 이 **[!UICONTROL Create element]** 단추를 사용하여 선택한 리소스의 필드를 이전에 이벤트에 추가한 필드 중 하나로 연결합니다(이벤트 속성 [정의 참조](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
+1. 이 **[!UICONTROL Create element]** 단추를 사용하여 선택한 리소스의 필드를 이전에 이벤트에 추가한 필드 중 하나로 연결합니다(이벤트 속성 [정의 참조](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
 
@@ -131,20 +131,20 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
 
 **관련 항목:**
 
-* [이벤트](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)미리 보기 및 게시.
+* [이벤트](#previewing-and-publishing-the-event)미리 보기 및 게시.
 * [트랜잭션 메시지](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)개인화
 
 ## 이벤트 미리 보기 및 게시 {#previewing-and-publishing-the-event}
 
 이벤트를 사용하기 전에 미리 보고 게시해야 합니다.
 
-1. 웹 사이트 개발자가 REST API를 게시하기 전에 사용할 시뮬레이션을 보려면 이 **[!UICONTROL API preview]** 단추를 클릭합니다. 이벤트가 게시되면 제작 중인 API의 미리 보기도 가능합니다. 웹 [사이트에서](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)이벤트 트리거 통합을 참조하십시오.
+1. 웹 사이트 개발자가 REST API를 게시하기 전에 사용할 시뮬레이션을 보려면 이 **[!UICONTROL API preview]** 단추를 클릭합니다. 이벤트가 게시되면 제작 중인 API의 미리 보기도 가능합니다. 웹 [사이트에서](#integrating-the-triggering-of-the-event-in-a-website)이벤트 트리거 통합을 참조하십시오.
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >REST API는 선택한 채널과 선택한 타깃팅 차원에 따라 다릅니다. 다양한 구성에 대한 자세한 내용은 트랜잭션 이벤트 [특정 구성을](../../administration/using/configuring-transactional-messaging.md#transactional-event-specific-configurations)참조하십시오.
+   >REST API는 선택한 채널과 선택한 타깃팅 차원에 따라 다릅니다. 다양한 구성에 대한 자세한 내용은 트랜잭션 이벤트 [특정 구성을](#transactional-event-specific-configurations)참조하십시오.
 
 1. 게시를 **[!UICONTROL Publish]** 시작하려면 클릭합니다.
 
@@ -166,7 +166,7 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
 
 ![](assets/message-center_messagegeneration.png)
 
-또한 이 트리거 이벤트를 웹 사이트에 통합해야 합니다. 웹 [사이트에서](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)이벤트 트리거 통합을 참조하십시오.
+또한 이 트리거 이벤트를 웹 사이트에 통합해야 합니다. 웹 [사이트에서](#integrating-the-triggering-of-the-event-in-a-website)이벤트 트리거 통합을 참조하십시오.
 
 ### 이벤트 게시 취소 {#unpublishing-an-event}
 
@@ -192,43 +192,43 @@ REST [API 설명서를 참조하십시오](https://final-docs.campaign.adobe.com
 
 트랜잭션 이벤트 구성은 전송하려는 트랜잭션 메시지 유형(이벤트 또는 프로필) 및 사용될 채널에 따라 달라질 수 있습니다.
 
-다음 섹션에서는 원하는 트랜잭션 메시지에 따라 어떤 구성을 설정해야 하는지 자세히 설명합니다. 이벤트 구성 일반 단계에 대한 자세한 내용은 이벤트 [만들기를](../../administration/using/configuring-transactional-messaging.md#creating-an-event)참조하십시오.
+다음 섹션에서는 원하는 트랜잭션 메시지에 따라 어떤 구성을 설정해야 하는지 자세히 설명합니다. 이벤트 구성 일반 단계에 대한 자세한 내용은 이벤트 [만들기를](#creating-an-event)참조하십시오.
 
 ### 이벤트 기반의 트랜잭션 메시지 {#event-based-transactional-messages}
 
 이벤트 기반 트랜잭션 메시지를 전송하려면 먼저 이벤트 자체에 포함된 데이터를 대상으로 하는 이벤트를 만들고 구성해야 합니다.
 자세한 내용은 트랜잭션 [메시징을](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)사용한 참여를 참조하십시오.
 
-1. 이벤트 구성을 만들 때 **[!UICONTROL Real-time event]** 타깃팅 차원을 선택합니다(이벤트 [만들기](../../administration/using/configuring-transactional-messaging.md#creating-an-event)참조).
-1. 트랜잭션 메시지를 개인화할 수 있도록 이벤트에 필드를 추가합니다(이벤트 속성 [정의 참조](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
-1. Adobe Campaign 데이터베이스의 추가 정보를 사용하려면 트랜잭션 메시지 컨텐츠를 [보완합니다(트랜잭션 메시지 컨텐츠](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)강화 참조).
+1. 이벤트 구성을 만들 때 **[!UICONTROL Real-time event]** 타깃팅 차원을 선택합니다(이벤트 [만들기](#creating-an-event)참조).
+1. 트랜잭션 메시지를 개인화할 수 있도록 이벤트에 필드를 추가합니다(이벤트 속성 [정의 참조](#defining-the-event-attributes)).
+1. Adobe Campaign 데이터베이스의 추가 정보를 사용하려면 트랜잭션 메시지 컨텐츠를 [보완합니다(트랜잭션 메시지 컨텐츠](#enriching-the-transactional-message-content)강화 참조).
 
    >[!NOTE]
    >
    >이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 받는 사람과 메시지 컨텐츠 개인화를 정의해야 합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 컨텐츠를 강화할 수 있습니다.
 
-1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)참조)
+1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](#previewing-and-publishing-the-event)참조)
 
    이벤트를 미리 볼 때 REST API에는 선택한 채널에 따라 이메일 주소 또는 휴대폰을 지정하는 속성이 포함됩니다.
 
    이벤트가 게시되면 새 이벤트에 연결된 트랜잭션 메시지가 자동으로 만들어집니다. 이벤트가 트랜잭션 메시지 전송을 트리거하려면 방금 만든 메시지를 수정 및 게시해야 합니다. 이벤트 트랜잭션 [메시지를](../../channels/using/event-transactional-messages.md)참조하십시오.
 
-1. 이벤트를 웹 사이트에 통합합니다(웹 사이트에서 [이벤트 트리거](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)통합 참조).
+1. 이벤트를 웹 사이트에 통합합니다(웹 사이트에서 [이벤트 트리거](#integrating-the-triggering-of-the-event-in-a-website)통합 참조).
 
 ### 프로파일 기반의 트랜잭션 메시지 {#profile-based-transactional-messages}
 
 프로필 기반 트랜잭션 메시지를 전송하려면 먼저 Adobe Campaign 데이터베이스에 포함된 이벤트 타깃팅 데이터를 만들고 구성해야 합니다.
 
-1. 이벤트 구성을 만들 때 **[!UICONTROL Profile event]** 타깃팅 차원을 선택합니다(이벤트 [만들기](../../administration/using/configuring-transactional-messaging.md#creating-an-event)참조).
-1. 트랜잭션 메시지를 개인화할 수 있도록 이벤트에 필드를 추가합니다(이벤트 속성 [정의 참조](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)). 농축하려면 최소한 하나의 필드를 추가해야 합니다. Adobe Campaign 데이터베이스의 개인화 필드를 사용할 수 있으므로 **이름** 및 **성과** 같은 다른 필드를 만들 필요가 없습니다.
-1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하려면 추가 정보 만들기를 참조하십시오(트랜잭션 메시지 컨텐츠 [](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)강화 참조). 타깃팅 차원을 사용할 때는 **[!UICONTROL Profile]** 데이터 웨어하우스를 만들어야 합니다.
-1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)참조)
+1. 이벤트 구성을 만들 때 **[!UICONTROL Profile event]** 타깃팅 차원을 선택합니다(이벤트 [만들기](#creating-an-event)참조).
+1. 트랜잭션 메시지를 개인화할 수 있도록 이벤트에 필드를 추가합니다(이벤트 속성 [정의 참조](#defining-the-event-attributes)). 농축하려면 최소한 하나의 필드를 추가해야 합니다. Adobe Campaign 데이터베이스의 개인화 필드를 사용할 수 있으므로 **이름** 및 **성과** 같은 다른 필드를 만들 필요가 없습니다.
+1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하려면 추가 정보 만들기를 참조하십시오(트랜잭션 메시지 컨텐츠 [](#enriching-the-transactional-message-content)강화 참조). 타깃팅 차원을 사용할 때는 **[!UICONTROL Profile]** 데이터 웨어하우스를 만들어야 합니다.
+1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](#previewing-and-publishing-the-event)참조)
 
    이벤트를 미리 볼 때 REST API에는 **[!UICONTROL Profile]** 리소스에서 검색할 이메일 주소 또는 휴대 전화를 지정하는 속성이 포함되어 있지 않습니다.
 
    이벤트가 게시되면 새 이벤트에 연결된 트랜잭션 메시지가 자동으로 만들어집니다. 이벤트가 트랜잭션 메시지 전송을 트리거하려면 방금 만든 메시지를 수정 및 게시해야 합니다. 프로필 트랜잭션 메시지 [전송을](../../channels/using/profile-transactional-messages.md#sending-a-profile-transactional-message)참조하십시오.
 
-1. 이벤트를 웹 사이트에 통합합니다(웹 사이트에서 [이벤트 트리거](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)통합 참조).
+1. 이벤트를 웹 사이트에 통합합니다(웹 사이트에서 [이벤트 트리거](#integrating-the-triggering-of-the-event-in-a-website)통합 참조).
 
 ### 이벤트 기반의 트랜잭션 푸시 알림 {#event-based-transactional-push-notifications}
 
@@ -242,15 +242,15 @@ REST [API 설명서를 참조하십시오](https://final-docs.campaign.adobe.com
 * 모바일 응용 프로그램 이름 **** (모든 장치용 하나 - Android 및 iOS). 사용자의 장치에서 푸시 알림을 받는 데 사용되는 Adobe Campaign에 구성된 모바일 애플리케이션의 ID입니다. 자세한 내용은 이 [페이지를 참조하십시오.](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 * Android의 경우 "gcm", iOS의 경우 "apns") **푸시 플랫폼** .
 
-1. 이벤트 구성을 만들 때 **[!UICONTROL Mobile application]** 채널과 **[!UICONTROL Real-time event]** 타깃팅 차원을 선택합니다(이벤트 [만들기 참조](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
-1. 트랜잭션 메시지를 개인화할 수 있도록 이벤트에 필드를 추가합니다(이벤트 속성 [정의 참조](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
-1. Adobe Campaign 데이터베이스의 추가 정보를 사용하려면 트랜잭션 메시지 컨텐츠를 [보완합니다(트랜잭션 메시지 컨텐츠](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)강화 참조).
+1. 이벤트 구성을 만들 때 **[!UICONTROL Mobile application]** 채널과 **[!UICONTROL Real-time event]** 타깃팅 차원을 선택합니다(이벤트 [만들기 참조](#creating-an-event)).
+1. 트랜잭션 메시지를 개인화할 수 있도록 이벤트에 필드를 추가합니다(이벤트 속성 [정의 참조](#defining-the-event-attributes)).
+1. Adobe Campaign 데이터베이스의 추가 정보를 사용하려면 트랜잭션 메시지 컨텐츠를 [보완합니다(트랜잭션 메시지 컨텐츠](#enriching-the-transactional-message-content)강화 참조).
 
    >[!NOTE]
    >
    >이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 받는 사람과 메시지 컨텐츠 개인화를 정의해야 합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 컨텐츠를 강화할 수 있습니다.
 
-1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)참조)
+1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](#previewing-and-publishing-the-event)참조)
 
    이벤트를 미리 볼 때 REST API에는 배달을 대상으로 하는 데 사용할 "registrationToken", "application" 및 "pushPlatform" 속성이 포함됩니다.
 
@@ -258,43 +258,43 @@ REST [API 설명서를 참조하십시오](https://final-docs.campaign.adobe.com
 
    이벤트가 게시되면 새 이벤트에 연결된 트랜잭션 푸시 알림이 자동으로 만들어집니다. 방금 만든 메시지를 수정하고 게시하려면 이벤트를 [타깃팅하는 트랜잭션 푸시 알림 전송을 참조하십시오](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-an-event).
 
-1. 이벤트를 웹 사이트에 통합합니다(웹 사이트에서 [이벤트 트리거](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)통합 참조).
+1. 이벤트를 웹 사이트에 통합합니다(웹 사이트에서 [이벤트 트리거](#integrating-the-triggering-of-the-event-in-a-website)통합 참조).
 
 ### 프로파일 기반의 트랜잭션 푸시 알림 {#profile-based-transactional-push-notifications}
 
 모바일 애플리케이션을 구독한 Adobe Campaign 프로필로 트랜잭션 푸시 알림을 전송하려면 먼저 Adobe Campaign 데이터베이스를 대상으로 하는 이벤트를 만들고 구성해야 합니다.
 
-1. 이벤트 구성을 만들 때 **[!UICONTROL Mobile application]** 채널과 **[!UICONTROL Profile]** 타깃팅 차원을 선택합니다(이벤트 [만들기 참조](../../administration/using/configuring-transactional-messaging.md#creating-an-event)).
+1. 이벤트 구성을 만들 때 **[!UICONTROL Mobile application]** 채널과 **[!UICONTROL Profile]** 타깃팅 차원을 선택합니다(이벤트 [만들기 참조](#creating-an-event)).
 
    기본적으로 트랜잭션 푸시 알림은 수신자가 가입한 모든 모바일 애플리케이션으로 전송됩니다. 푸시 알림을 특정 모바일 애플리케이션으로 전송하려면 목록에서 선택합니다. 다른 모바일 응용 프로그램은 메시지의 대상이 되지만 전송에서 제외됩니다.
 
    ![](assets/message-center_push_appfilter.png)
 
-1. 트랜잭션 메시지를 개인화하려면 이벤트에 필드를 추가합니다(이벤트 속성 [정의 참조](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
+1. 트랜잭션 메시지를 개인화하려면 이벤트에 필드를 추가합니다(이벤트 속성 [정의 참조](#defining-the-event-attributes)).
 
    >[!NOTE]
    >
    >농축하려면 최소한 하나의 필드를 추가해야 합니다. Adobe Campaign 데이터베이스의 개인화 필드를 사용할 수 있으므로 **이름** 및 **성과** 같은 다른 필드를 만들 필요가 없습니다.
 
-1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하려면 추가 정보 만들기를 참조하십시오(트랜잭션 메시지 컨텐츠 [](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)강화 참조). 타깃팅 차원을 사용할 때는 **[!UICONTROL Profile]** 데이터 웨어하우스를 만들어야 합니다.
-1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)참조)
+1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하려면 추가 정보 만들기를 참조하십시오(트랜잭션 메시지 컨텐츠 [](#enriching-the-transactional-message-content)강화 참조). 타깃팅 차원을 사용할 때는 **[!UICONTROL Profile]** 데이터 웨어하우스를 만들어야 합니다.
+1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](#previewing-and-publishing-the-event)참조)
 
    이벤트를 미리 볼 때 REST API에는 **[!UICONTROL Profile]** 리소스에서 검색할 등록 토큰, 응용 프로그램 이름 및 푸시 플랫폼을 지정하는 속성이 포함되어 있지 않습니다.
 
    이벤트가 게시되면 새 이벤트에 연결된 트랜잭션 푸시 알림이 자동으로 만들어집니다. 방금 만든 메시지를 수정 및 게시하려면 프로필을 [대상으로 하는 트랜잭션 푸시 알림 전송을 참조하십시오](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile).
 
-1. 이벤트를 웹 사이트에 통합합니다(웹 사이트에서 [이벤트 트리거](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)통합 참조).
+1. 이벤트를 웹 사이트에 통합합니다(웹 사이트에서 [이벤트 트리거](#integrating-the-triggering-of-the-event-in-a-website)통합 참조).
 
 ### 후속 메시지를 보내도록 이벤트 구성 {#configuring-an-event-to-send-a-follow-up-message}
 
 후속 메시지는 특정 트랜잭션 메시지의 수신자에게 메시지를 보내는 워크플로우에 사용할 수 있는 사전 정의된 마케팅 전달 템플릿입니다. 자세한 내용은 후속 [메시지를](../../channels/using/follow-up-messages.md)참조하십시오.
 
-1. 이벤트 트랜잭션 메시지를 전송하기 위해 만든 것과 동일한 이벤트 구성을 사용합니다. 이벤트 [기반의 트랜잭션 메시지를](../../administration/using/configuring-transactional-messaging.md#event-based-transactional-messages)참조하십시오.
+1. 이벤트 트랜잭션 메시지를 전송하기 위해 만든 것과 동일한 이벤트 구성을 사용합니다. 이벤트 [기반의 트랜잭션 메시지를](#event-based-transactional-messages)참조하십시오.
 1. 이벤트를 구성할 때 이벤트를 게시하기 전에 **[!UICONTROL Create follow-up delivery template for this event]** 상자를 선택합니다.
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)참조)
+1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](#previewing-and-publishing-the-event)참조)
 
    이벤트가 게시되면 트랜잭션 메시지와 새 이벤트에 연결된 후속 배달 템플릿이 자동으로 만들어집니다. 후속 메시지 사용에 대한 자세한 내용은 [후속 메시지](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)전송을 참조하십시오.
 
@@ -308,12 +308,12 @@ CRM ID를 통해 클라이언트를 확인하려면 먼저 이 새 필드를 사
 
 리소스 만들기 및 게시에 대한 자세한 내용은 [이 페이지를](../../developing/using/key-steps-to-add-a-resource.md)참조하십시오.
 
-1. 채널과 타깃팅 차원을 사용하여 새 이벤트를 **[!UICONTROL Email]** 만듭니다(이벤트 **[!UICONTROL Profile]** [](../../administration/using/configuring-transactional-messaging.md#creating-an-event)만들기 참조).
-1. 트랜잭션 메시지를 개인화하는 데 사용할 수 있는 속성을 정의합니다. 이 경우 "CRM ID" 및 "제품 식별자" 필드를 추가합니다(이벤트 속성 [정의 참조](../../administration/using/configuring-transactional-messaging.md#defining-the-event-attributes)).
+1. 채널과 타깃팅 차원을 사용하여 새 이벤트를 **[!UICONTROL Email]** 만듭니다(이벤트 **[!UICONTROL Profile]** [](#creating-an-event)만들기 참조).
+1. 트랜잭션 메시지를 개인화하는 데 사용할 수 있는 속성을 정의합니다. 이 경우 "CRM ID" 및 "제품 식별자" 필드를 추가합니다(이벤트 속성 [정의 참조](#defining-the-event-attributes)).
 
    ![](assets/message-center_usecase1.png)
 
-1. 클라이언트의 이전 구매와 관련된 정보로 메시지 컨텐츠를 강화하려면 **[!UICONTROL Purchase]** 리소스를 대상으로 [더 많은 기능을 만드십시오(트랜잭션 메시지 컨텐츠](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)강화 참조).
+1. 클라이언트의 이전 구매와 관련된 정보로 메시지 컨텐츠를 강화하려면 **[!UICONTROL Purchase]** 리소스를 대상으로 [더 많은 기능을 만드십시오(트랜잭션 메시지 컨텐츠](#enriching-the-transactional-message-content)강화 참조).
 
    ![](assets/message-center_usecase2.png)
 
@@ -321,6 +321,6 @@ CRM ID를 통해 클라이언트를 확인하려면 먼저 이 새 필드를 사
 
    ![](assets/message-center_usecase3.png)
 
-1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)참조)
-1. 웹 사이트에서 이벤트를 통합합니다(웹 [사이트에서](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)이벤트 트리거 통합 참조).
+1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](#previewing-and-publishing-the-event)참조)
+1. 웹 사이트에서 이벤트를 통합합니다(웹 [사이트에서](#integrating-the-triggering-of-the-event-in-a-website)이벤트 트리거 통합 참조).
 
