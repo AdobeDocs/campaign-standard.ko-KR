@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b3 파섹
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   이 컨텍스트는 이메일을 보낼 수 있도록 블랙 리스트 필드를 제거합니다. 확인 전에 첫 번째 랜딩 페이지에서 이 필드를 **true** 로 설정하여 확인되지 않은 프로필로 이메일을 보내지 않도록 합니다. 자세한 내용은 3단계를 [참조하십시오.획득 랜딩 페이지를](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page)만듭니다.
+   이 컨텍스트는 이메일을 보낼 수 있도록 블랙 리스트 필드를 제거합니다. 확인 전에 첫 번째 랜딩 페이지에서 이 필드를 **true** 로 설정하여 확인되지 않은 프로필로 이메일을 보내지 않도록 합니다. 자세한 내용은 3단계를 [참조하십시오.획득 랜딩 페이지를](#step-3--create-the-acquisition-landing-page)만듭니다.
 
 1. 랜딩 페이지의 컨텐츠를 사용자 정의합니다.예를 들어 개인화된 데이터를 표시하고 확인 단추의 레이블을 '여기를 클릭하여 구독을 확인할 수 있습니다'로 변경할 수 있습니다.
 
@@ -96,7 +96,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 1. 드롭다운 **[!UICONTROL Profile]** 목록에서 **[!UICONTROL Targeting enrichment]** 을 선택합니다.
 1. 이벤트를 **[!UICONTROL Publish]** 게시하려면 을 클릭합니다.
 
-이벤트가 준비되었습니다. 이제 이메일 템플릿을 디자인할 수 있습니다. 이 템플릿에는 이전에 만든 CONFIRMATION **랜딩** 페이지에 대한 링크가 포함되어야 합니다. 자세한 내용은 확인 [메시지](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message)디자인을 참조하십시오.
+이벤트가 준비되었습니다. 이제 이메일 템플릿을 디자인할 수 있습니다. 이 템플릿에는 이전에 만든 CONFIRMATION **랜딩** 페이지에 대한 링크가 포함되어야 합니다. 자세한 내용은 확인 [메시지](#design-the-confirmation-message)디자인을 참조하십시오.
 
 ### 유형 규칙 만들기 {#create-the-typology-rule}
 
@@ -136,7 +136,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
    값을 **true로**&#x200B;설정합니다.
 
-   이것은 블랙리스트를 강제하고 계약을 확인하지 않은 방문자에게 메시지를 보내는 것을 피하기 위해 의무적이다. 확인 랜딩 페이지의 유효성 검사에서는 확인 후 이 필드를 **false로** 설정합니다. 자세한 내용은 1단계를 [참조하십시오.확인 랜딩 페이지를](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page)만듭니다.
+   이것은 블랙리스트를 강제하고 계약을 확인하지 않은 방문자에게 메시지를 보내는 것을 피하기 위해 의무적이다. 확인 랜딩 페이지의 유효성 검사에서는 확인 후 이 필드를 **false로** 설정합니다. 자세한 내용은 1단계를 [참조하십시오.확인 랜딩 페이지를](#step-1--create-the-confirmation-landing-page)만듭니다.
 
 1. &gt; **[!UICONTROL Job]** 섹션에서 옵션을 **[!UICONTROL Specific actions]** 선택합니다 **[!UICONTROL Start sending messages]**.
 1. 연결된 드롭다운 목록에서 만든 CONFIRM **트랜잭션** 메시지 템플릿을 선택합니다.
