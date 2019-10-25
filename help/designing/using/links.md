@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
 
 ![](assets/des_link_edit.png)
 
-이메일 디자이너와 함께 이메일을 편집할 [때](../../designing/using/overview.md)이메일에 포함된 모든 URL을 나열하는 표에서 만든 링크에 쉽게 액세스하고 수정할 수 있습니다. 이 목록을 사용하면 중앙에서 보고 이메일 컨텐츠의 각 URL을 찾을 수 있습니다. 액세스하려면 추적된 [URL 정보를 참조하십시오](../../designing/using/links.md#about-tracked-urls).
+이메일 디자이너와 함께 이메일을 편집할 [때](../../designing/using/overview.md)이메일에 포함된 모든 URL을 나열하는 표에서 만든 링크에 쉽게 액세스하고 수정할 수 있습니다. 이 목록을 사용하면 중앙에서 보고 이메일 컨텐츠의 각 URL을 찾을 수 있습니다. 액세스하려면 추적된 [URL 정보를 참조하십시오](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
