@@ -14,7 +14,7 @@ discoiquuid: f9bb2235-d388-4 파섹
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 650be2faa35d7e6d1279c952e1207a995c3297c5
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -31,9 +31,9 @@ source-git-commit: 650be2faa35d7e6d1279c952e1207a995c3297c5
 
 푸시 알림 전달에 다국어 컨텐츠 변형을 사용하려면 다음 단계를 따르십시오.
 
-* [1단계:다국어 컨텐츠 변형 업로드](../../channels/using/creating-a-multilingual-push-notification.md#step-1--upload-multilingual-content-variant)
-* [2단계:다국어 컨텐츠 변형을 사용하여 푸시 알림 미리 보기 및 완료](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [3단계:다국어 푸시 알림 전송 및 분석](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [1단계:다국어 컨텐츠 변형 업로드](#step-1--upload-multilingual-content-variant)
+* [2단계:다국어 컨텐츠 변형을 사용하여 푸시 알림 미리 보기 및 완료](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [3단계:다국어 푸시 알림 전송 및 분석](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
 ## 1단계:다국어 컨텐츠 변형 업로드 {#step-1--upload-multilingual-content-variant}
 
