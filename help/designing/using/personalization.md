@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -23,11 +23,11 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 Adobe Campaign에서 제공하는 컨텐츠 및 메시지 표시는 여러 가지 방법으로 개인화할 수 있습니다. 이러한 방법은 프로파일에 따라 기준에 따라 결합할 수 있습니다. 일반적으로 Adobe Campaign을 사용하면 다음 작업을 수행할 수 있습니다.
 
-* 동적 개인화 필드를 삽입합니다. 개인화 [필드](../../designing/using/personalization.md#inserting-a-personalization-field)삽입을 참조하십시오.
-* 사전 정의된 개인화 블록을 삽입합니다. 컨텐츠 [블록](../../designing/using/personalization.md#adding-a-content-block)추가를 참조하십시오.
-* 이메일 보낸 사람을 개인화합니다. 발신자 [개인화를](../../designing/using/personalization.md#personalizing-the-sender)참조하십시오.
+* 동적 개인화 필드를 삽입합니다. 개인화 [필드](#inserting-a-personalization-field)삽입을 참조하십시오.
+* 사전 정의된 개인화 블록을 삽입합니다. 컨텐츠 [블록](#adding-a-content-block)추가를 참조하십시오.
+* 이메일 보낸 사람을 개인화합니다. 발신자 [개인화를](#personalizing-the-sender)참조하십시오.
 * 이메일 제목을 개인화합니다. 이메일의 [제목](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)맞춤화를 참조하십시오.
-* 조건부 컨텐츠 만들기 이메일에서 [동적 컨텐츠 정의 참조](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* 조건부 컨텐츠 만들기 이메일에서 [동적 컨텐츠 정의 참조](#defining-dynamic-content-in-an-email)
 
 ## 발신자 개인화 {#personalizing-the-sender}
 
@@ -148,7 +148,7 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
    * **[!UICONTROL Landing page]**:컨텐츠 블록은 랜딩 페이지에서만 사용할 수 있습니다.
    ![](assets/content_bloc_02.png)
 
-1. 을 선택할 수 **[!UICONTROL Targeting dimension]**&#x200B;있습니다. 자세한 내용은 타깃팅 [차원](../../designing/using/personalization.md#about-targeting-dimension)정보를 참조하십시오.
+1. 을 선택할 수 **[!UICONTROL Targeting dimension]**&#x200B;있습니다. 자세한 내용은 타깃팅 [차원](#about-targeting-dimension)정보를 참조하십시오.
 
    ![](assets/content_bloc_04.png)
 
@@ -178,9 +178,9 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 **관련 항목:**
 
-* [개인화 필드 삽입](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [콘텐츠 블록 추가](../../designing/using/personalization.md#adding-a-content-block)
-* [이메일에서 동적 컨텐츠 정의](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [개인화 필드 삽입](#inserting-a-personalization-field)
+* [콘텐츠 블록 추가](#adding-a-content-block)
+* [이메일에서 동적 컨텐츠 정의](#defining-dynamic-content-in-an-email)
 
 ## 이미지 소스 개인화{#personalizing-an-image-source}
 
@@ -228,7 +228,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
 이메일에서 표현식 편집기를 통해 정의된 조건에 따라 수신자에게 동적으로 표시되는 서로 다른 컨텐츠를 정의할 수 있습니다. 예를 들어 동일한 이메일에서 각 프로필에 연령 범위에 따라 다른 메시지가 표시되는지 확인할 수 있습니다.
 
-동적 컨텐츠를 정의하는 것은 가시성 조건을 [정의하는 것과](../../designing/using/personalization.md#defining-a-visibility-condition)다릅니다.
+동적 컨텐츠를 정의하는 것은 가시성 조건을 [정의하는 것과](#defining-a-visibility-condition)다릅니다.
 
 1. 조각, 구성 요소 또는 요소를 선택합니다. 이 예에서는 이미지를 선택합니다.
 1. 컨텍스트 도구 모음에서 **[!UICONTROL Dynamic content]** 아이콘을 클릭합니다.
@@ -261,7 +261,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
    ![](assets/dynamic_content_7.png)
 
-   컨텐츠는 위쪽에서 아래쪽으로 순서대로 팔레트에 표시됩니다. For more on priorities, refer to [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+   컨텐츠는 위쪽에서 아래쪽으로 순서대로 팔레트에 표시됩니다. For more on priorities, refer to [this section](#defining-dynamic-content-in-an-email).
 
 1. 방금 정의한 변형에 대한 새 이미지를 업로드합니다.
 
@@ -318,13 +318,13 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
    ![](assets/delivery_content_43.png)
 
-   동적 컨텐츠 추가 및 구성은 이메일 [](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 섹션의 동적 컨텐츠 정의에 자세히 설명되어 있습니다.
+   동적 컨텐츠 추가 및 구성은 이메일 [](#defining-dynamic-content-in-an-email) 섹션의 동적 컨텐츠 정의에 자세히 설명되어 있습니다.
 
 * 개인화 필드와 동적 컨텐츠가 텍스트에 적용됩니다. 프로필의 연령 범위에 따라 이메일은 프로필의 이름 또는 프로필의 제목과 성으로 시작됩니다.
 
    ![](assets/delivery_content_44.png)
 
-   개인화 필드 추가 및 구성은 개인화 필드 [삽입](../../designing/using/personalization.md#inserting-a-personalization-field) 섹션에서 자세히 설명합니다.
+   개인화 필드 추가 및 구성은 개인화 필드 [삽입](#inserting-a-personalization-field) 섹션에서 자세히 설명합니다.
 
 ### 이미지 구성 {#configuring-images}
 
@@ -371,7 +371,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 **18-27 사이의 프로파일을 타깃팅하려면**
 
 1. 원하는 구조 구성 요소를 선택하고 동적 컨텐츠를 추가합니다.
-1. 동적 컨텐츠를 편집하고 타깃팅 표현식을 구성합니다. 이미지 [구성을](../../designing/using/personalization.md#configuring-images)참조하십시오.
+1. 동적 컨텐츠를 편집하고 타깃팅 표현식을 구성합니다. 이미지 [구성을](#configuring-images)참조하십시오.
 1. 구조 구성 요소의 원하는 위치에서 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]** 아이콘을 클릭하고 **[!UICONTROL Insert personalization field]**&#x200B;선택합니다.
 
    ![](assets/delivery_content_53.png)
@@ -385,7 +385,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 **27세 이상의 사용자를 대상으로 하는 프로파일은 다음과 같습니다.**
 
 1. 원하는 구조 구성 요소를 선택하고 동적 컨텐츠를 추가합니다.
-1. 동적 컨텐츠를 편집하고 타깃팅 표현식을 구성합니다. 이미지 [구성을](../../designing/using/personalization.md#configuring-images)참조하십시오.
+1. 동적 컨텐츠를 편집하고 타깃팅 표현식을 구성합니다. 이미지 [구성을](#configuring-images)참조하십시오.
 1. 구조 구성 요소의 원하는 위치에서 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]** 아이콘을 클릭하고 **[!UICONTROL Insert personalization field]**&#x200B;선택합니다.
 1. 드롭다운 **[!UICONTROL Title]** 목록에서 선택합니다.
 1. 마찬가지로 **[!UICONTROL Last name]** 필드를 추가합니다.
