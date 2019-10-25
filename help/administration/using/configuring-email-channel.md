@@ -15,7 +15,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -173,7 +173,7 @@ SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
 
 일시적으로 배달되지 않은 메시지는 자동으로 다시 시도됩니다. 이 섹션은 전송을 시작한 다음 날 수행해야 하는 재시도 횟수와 재시도 사이의 최소 지연( **[!UICONTROL Max. number of retries]** **[!UICONTROL Retry period]** )을 나타냅니다.
 
-기본적으로 5회 재시도 횟수는 최소 1시간의 간격과 함께 하루 24시간 동안 분산됩니다. 1일 1회 재시도는 그 후 및 배달 마감일까지 프로그래밍되며, 이것은 유효성 기간 매개 변수 [](../../administration/using/configuring-email-channel.md#validity-period-parameters) 섹션에 정의됩니다.
+기본적으로 5회 재시도 횟수는 최소 1시간의 간격과 함께 하루 24시간 동안 분산됩니다. 1일 1회 재시도는 그 후 및 배달 마감일까지 프로그래밍되며, 이것은 유효성 기간 매개 변수 [](#validity-period-parameters) 섹션에 정의됩니다.
 
 전체(Adobe 기술 관리자에게 문의) 또는 각 배달 또는 배달 템플릿의 재시도 횟수를 변경할 수 있습니다.
 
@@ -206,7 +206,7 @@ SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
 >이메일에 대해 이 옵션을 활성화하면 메시지가 선택되지 않는 한 전송되지 않습니다.
 >이메일 또는 이메일 템플릿 대시보드에 경고가 표시됩니다.
 
-SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) 목록 섹션을 참조하십시오.
+SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-of-email-smtp-parameters) 목록 섹션을 참조하십시오.
 
 ### 유효 기간 매개변수 {#validity-period-parameters}
 
