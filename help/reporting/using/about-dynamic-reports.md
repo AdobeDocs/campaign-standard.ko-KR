@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
+source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
 
 ---
 
@@ -67,13 +67,13 @@ Dynamic Reporting은 사용자 정의 가능하고 실시간 보고서를 제공
 
 >[!NOTE]
 >
->이러한 변경 사항은 Campaign Standard 19.4 릴리스 시작에만 적용됩니다.
+> Campaign Standard 19.4 릴리스부터 동적 보고에 대한 동의 팝업이 Adobe Campaign Standard 및 Microsoft Dynamics 365 통합을 포함하도록 업데이트되었습니다.
 
 동적 보고 사용 계약서의 목적은 데이터 처리에 대한 팝업 동의로 작동하기 위한 것입니다. 기본적으로 계약은 표시만 되며 관리 권한이 부여된 사용자만 수락하거나 거부할 수 있습니다.
 
 다음 세 가지 옵션을 사용할 수 있습니다.
 
-* **[!UICONTROL Ask me later]**:나중에 묻기를 클릭하면 24시간 동안 창이 표시되지 않습니다.
+* **[!UICONTROL Ask me later]**:나중에 **묻기를**&#x200B;클릭하면 24시간 동안 창이 표시되지 않습니다. 사용자가 계약을 수락하거나 거부하기 전까지 프로필 차원은 보고서에 표시되지 않으며 고객의 개인 ID 정보는 수집되거나 전송되지 않습니다.
 * **[!UICONTROL Accept]**:본 계약을 수락하면 Adobe Campaign에서 고객의 개인 ID 정보를 수집하여 보고 또는 데이터 센터로 전송할 수 있습니다.
 * **[!UICONTROL Decline]**:계약을 거절하면 프로필 차원이 보고서에 표시되지 않고 고객의 개인 식별 정보가 수집되거나 전송되지 않습니다. 이 경우 externalID는 여전히 수집되어 최종 사용자를 식별하는 데 사용됩니다.
 
@@ -88,11 +88,13 @@ Dynamic Reporting은 사용자 정의 가능하고 실시간 보고서를 제공
 
 | 지역 | 동적 보고 | Microsoft Dynamics 365 커넥터 |
 |---|---|---|
-| 미국 및 APAC(아시아 태평양) | **사용 가능한**&#x200B;기능 <br> ExternalID를 제외하고 즉시 사용 가능한 사용자 지정 프로필 정보가 미국 보고 센터로 푸시되지 않습니다. | **사용 가능한**&#x200B;기능 <br>외부 ID 및 수신자 ID를 제외하고 미국 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 미국 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드. |
-| EMEA(유럽 중동 및 아프리카) | **사용 가능한**&#x200B;기능 <br>ExternalID를 제외하고 EMEA 보고 센터로 푸시된 특별 및 사용자 지정 프로필 정보가 없습니다. | **기능 제공** 외부 <br>ID 및 수신자 ID를 제외하고 EMEA 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 EMEA 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드.  <br>**[!UICONTROL Control data]** 이 파일에는 Adobe I/O 등록 데이터와 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID가 들어 있습니다. |
+| 미국 및 APAC(아시아 태평양) | **사용 가능한**&#x200B;기능 <br> ExternalID를 제외하고 즉시 사용 가능한 사용자 지정 프로필 정보가 미국 보고 센터로 푸시되지 않습니다. | **사용 가능한**&#x200B;기능 <br>외부 ID 및 수신자 ID를 제외하고 미국 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 미국 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드. <br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)참조하십시오. |
+| EMEA(유럽 중동 및 아프리카) | **사용 가능한**&#x200B;기능 <br>ExternalID를 제외하고 EMEA 보고 센터로 푸시된 특별 및 사용자 지정 프로필 정보가 없습니다. | **기능 제공** 외부 <br>ID 및 수신자 ID를 제외하고 EMEA 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 EMEA 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드.  <br>**[!UICONTROL Control data]** 이 파일에는 Adobe I/O 등록 데이터와 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID가 들어 있습니다.<br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)참조하십시오. |
 
 이 선택 사항은 최종본이 아닙니다. &gt; **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** &gt; **[!UICONTROL Administration]** **[!UICONTROL Application Settings]** **[!UICONTROL Options]**&#x200B;에서 선택하여 언제든지 변경할 수 있습니다.
 
 값은 언제든지 변경할 수 있습니다. 값 1은 **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** 및 3 **[!UICONTROL Accept]**&#x200B;에 해당합니다.
+
+Adobe Campaign Standard 19.4 이전 릴리스의 경우 -1 값은 **[!UICONTROL Ask me later]**, 0 **[!UICONTROL Decline]** 및 1 **[!UICONTROL Accept]**&#x200B;에 해당합니다.
 
 ![](assets/pii_window_2.png)
