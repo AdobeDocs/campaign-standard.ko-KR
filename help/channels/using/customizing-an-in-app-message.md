@@ -15,7 +15,7 @@ context-tags: 전달,inAppContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 인앱 콘텐츠 편집기를 사용하면 다음 두 가지 인앱 메시지 모드 중 하나를 선택할 수 있습니다.
 
-* [메시지 템플릿](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-message-template):이 템플릿을 사용하면 이미지 또는 비디오와 동작 버튼을 사용하여 인앱 기능을 완벽하게 사용자 정의할 수 있습니다.
-* [사용자 지정 메시지](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-custom-html-message):이 템플릿을 사용하면 사용자 지정 HTML을 가져올 수 있습니다.
+* [메시지 템플릿](#customizing-with-a-message-template):이 템플릿을 사용하면 이미지 또는 비디오와 동작 버튼을 사용하여 인앱 기능을 완벽하게 사용자 정의할 수 있습니다.
+* [사용자 지정 메시지](#customizing-with-a-custom-html-message):이 템플릿을 사용하면 사용자 지정 HTML을 가져올 수 있습니다.
 
 ![](assets/inapp_customize_1.png)
 
@@ -61,7 +61,7 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 * **[!UICONTROL Local notification]**:이 유형의 레이아웃은 배너 메시지로 표시됩니다.
 
-   사운드, 텍스트 및 대상만 지원할 수 있습니다. 로컬 알림에 대한 자세한 내용은 [로컬 알림 메시지 유형](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)맞춤화를 참조하십시오.
+   사운드, 텍스트 및 대상만 지원할 수 있습니다. 로컬 알림에 대한 자세한 내용은 [로컬 알림 메시지 유형](#customizing-a-local-notification-message-type)맞춤화를 참조하십시오.
 
 각 유형의 레이아웃은 휴대폰, 태블릿, 플랫폼(예: Android 또는 iOS) 및 방향(예: 컨텐츠 편집기의 오른쪽 창에서 가로 또는 세로)과 같은 다양한 디바이스에서 미리 볼 수 있습니다.
 
@@ -125,7 +125,7 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 1. 작업을 선택한 경우 웹 URL을 입력하거나 **[!UICONTROL Destination URL]** 필드에 **[!UICONTROL Redirect]** 링크를 입력합니다.
 1. 미리 보기 창에서 또는 미리 보기 단추를 클릭하여 메시지 내용을 확인합니다.
 
-   인앱 [메시지](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message) 미리 보기 페이지를 참조하십시오.
+   인앱 [메시지](#previewing-the-in-app-message) 미리 보기 페이지를 참조하십시오.
 
    ![](assets/inapp_customize_11.png)
 
