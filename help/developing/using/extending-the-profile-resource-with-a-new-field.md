@@ -14,7 +14,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -29,10 +29,10 @@ source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
 
 이렇게 하려면 아래 절차를 따르십시오.
 
-* [1단계:프로필 리소스 확장](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
-* [2단계:테스트 프로필 확장](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [3단계:사용자 지정 리소스 게시](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [4단계:워크플로우를 통해 프로파일 업데이트 및 타깃팅](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [1단계:프로필 리소스 확장](#step-1--extend-the-profile-resource)
+* [2단계:테스트 프로필 확장](#step-2--extend-the-test-profile)
+* [3단계:사용자 지정 리소스 게시](#step-3--publish-your-custom-resource)
+* [4단계:워크플로우를 통해 프로파일 업데이트 및 타깃팅](#step-4--update-and-target-profiles-with-a-workflow)
 
 그러면 다음 필드가 프로필에 추가되고 전달에서 타깃팅될 수 있습니다.
 
