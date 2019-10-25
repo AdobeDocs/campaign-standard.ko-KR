@@ -15,7 +15,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
+source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
    예를 들어 열의 레이블을 변경하고 해당 유형(문자열, 정수, 날짜 등)을 선택할 수 있습니다.  오류 처리를 지정할 수도 있습니다.
 
-   자세한 내용은 열 [형식](../../automating/using/load-file.md#column-format) 섹션을 참조하십시오.
+   자세한 내용은 열 [형식](#column-format) 섹션을 참조하십시오.
 
    ![](assets/wkf_file_loading4.png)
 
@@ -176,7 +176,7 @@ source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
 ## 예 2:풍부한 필드가 포함된 이메일 보내기 {#example-2-email-with-enriched-fields}
 
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
 또한 파일 로드 작업을 사용하면 동일한 워크플로우에서 외부 파일의 추가 데이터가 포함된 이메일을 보낼 수 있습니다.
 
