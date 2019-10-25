@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78bb4189dea522bbdf3bf8248f405bb4ab381bae
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 78bb4189dea522bbdf3bf8248f405bb4ab381bae
 이메일 디자이너를 사용하여 이메일 컨텐츠를 처음부터 만들고 디자인하는 주요 단계는 다음과 같습니다.
 
 1. 이메일을 만들어 컨텐츠를 엽니다.
-1. 구조 구성 요소를 추가하여 이메일 모양을 만듭니다. 이메일 [구조](../../designing/using/designing-from-scratch.md#defining-the-email-structure)편집을 참조하십시오.
-1. 구조 구성 요소에 컨텐츠 구성 요소 및 조각을 삽입합니다. 조각 및 [컨텐츠 구성 요소](../../designing/using/designing-from-scratch.md#defining-the-email-structure)추가를 참조하십시오.
+1. 구조 구성 요소를 추가하여 이메일 모양을 만듭니다. 이메일 [구조](#defining-the-email-structure)편집을 참조하십시오.
+1. 구조 구성 요소에 컨텐츠 구성 요소 및 조각을 삽입합니다. 조각 및 [컨텐츠 구성 요소](#defining-the-email-structure)추가를 참조하십시오.
 1. 이미지를 추가하고 이메일 텍스트를 편집합니다. 이미지 [삽입을](../../designing/using/images.md#inserting-images)참조하십시오.
 1. 개인화 필드, 링크 등을 추가하여 이메일을 개인화할 수 있습니다. 개인화 [필드](../../designing/using/personalization.md#inserting-a-personalization-field)삽입, [링크](../../designing/using/links.md#inserting-a-link) 삽입 및 [이메일에](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)동적 컨텐츠 정의를 참조하십시오.
 1. 이메일의 제목 줄을 정의합니다. 이메일의 [제목](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)맞춤화를 참조하십시오.
