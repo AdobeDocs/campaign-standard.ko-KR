@@ -15,7 +15,7 @@ context-tags: 전달,smsContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -24,8 +24,8 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 SMS 및 푸시 컨텐츠 편집기는 메시지를 보고 편집할 수 있도록 두 개의 서로 다른 섹션으로 구성되어 있습니다.
 
-1. 작업 표시줄에는 **** 페이지에 대한 일반 옵션이 포함되어 있습니다. 개인화 필드 또는 콘텐츠 블록을 삽입하고 조건부 텍스트를 추가하고 SMS 콘텐츠를 여기에서 미리 볼 수 있습니다. SMS [및 푸시 컨텐츠 편집기 작업 막대를](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-editor-action-bar)참조하십시오.
-1. 화면의 **편집 영역을** 사용하면 문자 메시지를 직접 입력하고 개인화를 삽입할 위치를 선택할 수 있습니다. SMS [및 푸시 컨텐츠 에디션 모드를](../../channels/using/sms-and-push-content-editor-interface.md#sms-and-push-content-edition-modes)참조하십시오.
+1. 작업 표시줄에는 **** 페이지에 대한 일반 옵션이 포함되어 있습니다. 개인화 필드 또는 콘텐츠 블록을 삽입하고 조건부 텍스트를 추가하고 SMS 콘텐츠를 여기에서 미리 볼 수 있습니다. SMS [및 푸시 컨텐츠 편집기 작업 막대를](#sms-and-push-content-editor-action-bar)참조하십시오.
+1. 화면의 **편집 영역을** 사용하면 문자 메시지를 직접 입력하고 개인화를 삽입할 위치를 선택할 수 있습니다. SMS [및 푸시 컨텐츠 에디션 모드를](#sms-and-push-content-edition-modes)참조하십시오.
 
 ## SMS 및 푸시 컨텐츠 편집기 작업 표시줄 {#sms-and-push-content-editor-action-bar}
 
