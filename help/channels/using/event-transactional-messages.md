@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,개요
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -115,7 +115,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
    ![](assets/message-center_9.png)
 
-   개인화 필드가 테스트 프로필에 입력된 정보와 일치하는지 확인할 수 있습니다. 자세한 내용은 트랜잭션 [메시지에서](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)테스트 프로필 정의를 참조하십시오.
+   개인화 필드가 테스트 프로필에 입력된 정보와 일치하는지 확인할 수 있습니다. 자세한 내용은 트랜잭션 [메시지에서](#defining-a-test-profile-in-a-transactional-message)테스트 프로필 정의를 참조하십시오.
 
 ## 트랜잭션 메시지에서 제품 목록 사용 {#using-product-listings-in-a-transactional-message}
 
@@ -234,7 +234,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   거래 메시지에서 테스트 프로필을 정의하는 방법에 대한 자세한 내용은 [이 섹션을](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)참조하십시오.
+   거래 메시지에서 테스트 프로필을 정의하는 방법에 대한 자세한 내용은 [이 섹션을](#defining-a-test-profile-in-a-transactional-message)참조하십시오.
 
 ## 트랜잭션 메시지 테스트 {#testing-a-transactional-message}
 
@@ -274,9 +274,9 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 >[!NOTE]
 >
->메시지를 다시 게시하려면 해당 이벤트 구성으로 돌아가서 게시한 다음 메시지를 게시해야 합니다. 자세한 내용은 트랜잭션 메시지 [게시를 참조하십시오](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+>메시지를 다시 게시하려면 해당 이벤트 구성으로 돌아가서 게시한 다음 메시지를 게시해야 합니다. 자세한 내용은 트랜잭션 메시지 [게시를 참조하십시오](#publishing-a-transactional-message).
 
-일시 중지된 트랜잭션 메시지의 게시를 취소하는 경우 다시 게시하기 전에 최대 24시간을 기다려야 할 수 있습니다. 이는 **[!UICONTROL Database cleanup]** 워크플로우가 대기열로 전송된 모든 이벤트를 정리하도록 하기 위한 것입니다. 메시지 일시 중지 단계는 트랜잭션 메시지 [게시](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) 일시 중단 섹션에 자세히 설명되어 있습니다.
+일시 중지된 트랜잭션 메시지의 게시를 취소하는 경우 다시 게시하기 전에 최대 24시간을 기다려야 할 수 있습니다. 이는 **[!UICONTROL Database cleanup]** 워크플로우가 대기열로 전송된 모든 이벤트를 정리하도록 하기 위한 것입니다. 메시지 일시 중지 단계는 트랜잭션 메시지 [게시](#suspending-a-transactional-message-publication) 일시 중단 섹션에 자세히 설명되어 있습니다.
 
 매일 오전 4시에 실행되는 **[!UICONTROL Database cleanup]** 워크플로우는 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt;를 통해 액세스할 수 있습니다 **[!UICONTROL Workflows]**.
 
@@ -288,7 +288,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 * **트랜잭션 메시지**:트랜잭션 메시지를 삭제하려면 메시지를 게시 취소하고 일시 중지하지 않아야 합니다.
 
-   트랜잭션 메시지의 게시를 취소하면 다른 트랜잭션 메시지가 해당 이벤트에 연결되어 있지 않은 경우 트랜잭션 메시지를 성공적으로 삭제하려면 이벤트 구성의 게시를 취소해야 합니다. 트랜잭션 메시지의 게시 취소 방법에 대한 자세한 내용은 이 [섹션을](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)참조하십시오.
+   트랜잭션 메시지의 게시를 취소하면 다른 트랜잭션 메시지가 해당 이벤트에 연결되어 있지 않은 경우 트랜잭션 메시지를 성공적으로 삭제하려면 이벤트 구성의 게시를 취소해야 합니다. 트랜잭션 메시지의 게시 취소 방법에 대한 자세한 내용은 이 [섹션을](#unpublishing-a-transactional-message)참조하십시오.
 
    >[!CAUTION]
    >
@@ -304,8 +304,8 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 트랜잭션 메시지가 전송되지 않으면 두 개의 재시도 시스템이 있습니다.
 
-* 트랜잭션 메시징 수준에서, 이벤트를 실행 배달에 할당하기 전에 트랜잭션 메시지가 실패할 수 있습니다. 이는 이벤트 수신과 배달 준비 사이의 간격입니다. 이벤트 [처리 재시도 프로세스를](../../channels/using/event-transactional-messages.md#event-processing-retry-process)참조하십시오.
-* 전송 프로세스 수준에서 이벤트가 실행 전달에 할당되면 임시 오류로 인해 트랜잭션 메시지가 실패할 수 있습니다. 메시지 [전송 재시도 프로세스를](../../channels/using/event-transactional-messages.md#message-sending-retry-process)참조하십시오.
+* 트랜잭션 메시징 수준에서, 이벤트를 실행 배달에 할당하기 전에 트랜잭션 메시지가 실패할 수 있습니다. 이는 이벤트 수신과 배달 준비 사이의 간격입니다. 이벤트 [처리 재시도 프로세스를](#event-processing-retry-process)참조하십시오.
+* 전송 프로세스 수준에서 이벤트가 실행 전달에 할당되면 임시 오류로 인해 트랜잭션 메시지가 실패할 수 있습니다. 메시지 [전송 재시도 프로세스를](#message-sending-retry-process)참조하십시오.
 
 ### 이벤트 처리 다시 시도 프로세스 {#event-processing-retry-process}
 
