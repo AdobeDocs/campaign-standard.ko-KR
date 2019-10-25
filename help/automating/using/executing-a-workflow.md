@@ -15,7 +15,7 @@ context-tags: 워크플로,개요;워크플로,기본
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -86,7 +86,7 @@ API 설명서에서 REST 호출에 대한 자세한 내용 및 예를 확인할 
 
 * **오류** (빨간색)
 
-   워크플로우가 실행될 때 오류가 발생했습니다. 워크플로우가 중지되었으며 사용자가 작업을 수행해야 합니다. 이 오류에 대한 자세한 내용을 보려면 ![](assets/printpreview_darkgrey-24px.png) 단추를 사용하여 워크플로우 로그에 액세스하십시오(모니터링 [참조](../../automating/using/executing-a-workflow.md#monitoring)).
+   워크플로우가 실행될 때 오류가 발생했습니다. 워크플로우가 중지되었으며 사용자가 작업을 수행해야 합니다. 이 오류에 대한 자세한 내용을 보려면 ![](assets/printpreview_darkgrey-24px.png) 단추를 사용하여 워크플로우 로그에 액세스하십시오(모니터링 [참조](#monitoring)).
 
 마케팅 활동 목록을 사용하면 모든 워크플로우와 해당 상태를 표시할 수 있습니다. 자세한 내용은 마케팅 활동 [관리를](../../start/using/marketing-activities.md#about-marketing-activities)참조하십시오.
 
@@ -146,7 +146,7 @@ API 설명서에서 REST 호출에 대한 자세한 내용 및 예를 확인할 
 
 이 ![](assets/printpreview_darkgrey-24px.png) 아이콘은 워크플로우 로그 및 작업 메뉴를 엽니다.
 
-워크플로우 내역은 워크플로우 실행 옵션에 지정된 기간 동안 저장됩니다(워크플로우 속성 [참조](../../automating/using/executing-a-workflow.md#workflow-properties)). 따라서 이 기간 동안 다시 시작한 후에도 모든 메시지가 저장됩니다. 이전 실행에서 메시지를 저장하지 않으려면 ![](assets/delete_darkgrey-24px.png) 단추를 클릭하여 내역을 삭제해야 합니다.
+워크플로우 내역은 워크플로우 실행 옵션에 지정된 기간 동안 저장됩니다(워크플로우 속성 [참조](#workflow-properties)). 따라서 이 기간 동안 다시 시작한 후에도 모든 메시지가 저장됩니다. 이전 실행에서 메시지를 저장하지 않으려면 ![](assets/delete_darkgrey-24px.png) 단추를 클릭하여 내역을 삭제해야 합니다.
 
 이 **[!UICONTROL Log]** 탭에는 모든 활동 또는 선택한 활동의 실행 내역이 포함되어 있습니다. 시간 순서대로 수행 및 실행 오류를 인덱싱합니다.
 
@@ -174,9 +174,9 @@ API 설명서에서 REST 호출에 대한 자세한 내용 및 예를 확인할 
 
 >[!NOTE]
 >
->각 활동에 대해 이 구성을 개별적으로 적용할 수 있습니다. 이렇게 하려면 활동을 선택하고 빠른 작업을 사용하여 엽니다 ![](assets/edit_darkgrey-24px.png). 그런 다음 실행 옵션 **탭에서 오류 관리 모드를** 선택합니다. 활동 [실행 옵션을](../../automating/using/executing-a-workflow.md#activity-execution-options)참조하십시오.
+>각 활동에 대해 이 구성을 개별적으로 적용할 수 있습니다. 이렇게 하려면 활동을 선택하고 빠른 작업을 사용하여 엽니다 ![](assets/edit_darkgrey-24px.png). 그런 다음 실행 옵션 **탭에서 오류 관리 모드를** 선택합니다. 활동 [실행 옵션을](#activity-execution-options)참조하십시오.
 
-또한 워크플로우 **[!UICONTROL Execution]** 속성의 섹션을 통해 워크플로우 실행이 자동으로 일시 중단되기 전에 인증되는 **[!UICONTROL Consecutive errors]** 여러 가지 사항을 정의할 수 있습니다. 이 수에 도달하지 않으면 잘못된 요소는 무시되고 다른 워크플로우 분기는 정상적으로 실행됩니다. 이 수에 도달하면 워크플로우가 일시 중단되고 워크플로우 감독자에게 자동으로 알림(이메일 및 인앱 알림)이 표시됩니다. 워크플로우 [속성](../../automating/using/executing-a-workflow.md#workflow-properties) 및 Adobe [Campaign 알림을](../../administration/using/sending-internal-notifications.md)참조하십시오.
+또한 워크플로우 **[!UICONTROL Execution]** 속성의 섹션을 통해 워크플로우 실행이 자동으로 일시 중단되기 전에 인증되는 **[!UICONTROL Consecutive errors]** 여러 가지 사항을 정의할 수 있습니다. 이 수에 도달하지 않으면 잘못된 요소는 무시되고 다른 워크플로우 분기는 정상적으로 실행됩니다. 이 수에 도달하면 워크플로우가 일시 중단되고 워크플로우 감독자에게 자동으로 알림(이메일 및 인앱 알림)이 표시됩니다. 워크플로우 [속성](#workflow-properties) 및 Adobe [Campaign 알림을](../../administration/using/sending-internal-notifications.md)참조하십시오.
 
 워크플로우의 실행 속성에도 감독자를 정의할 수 있습니다.
 
