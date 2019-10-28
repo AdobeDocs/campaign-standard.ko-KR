@@ -27,7 +27,7 @@ Adobe Campaign에서 Audience Manager 및 사람 코어의 제공 및 구성은 
 
 Audience Manager(AAM) 또는 People 핵심 서비스 통합을 통해 Adobe Campaign에서 대상자 또는 세그먼트를 가져오고 내보낼 수 있습니다.
 
-먼저 이 통합을 구성해야 합니다. 이 통합의 프로비저닝을 요청하려면 Digital-Request@adobe.com [에](mailto:Digital-Request@adobe.com) 다음 정보를 이메일로 보내주십시오.
+먼저 이 통합을 구성해야 합니다. 이 통합의 프로비저닝을 요청하려면 에 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) 다음 정보를 이메일로 보내주십시오.
 
 <table> 
  <tbody> 
@@ -70,7 +70,7 @@ Audience Manager(AAM) 또는 People 핵심 서비스 통합을 통해 Adobe Camp
 
 사람 코어 서비스 대신 Adobe Audience Manager를 사용하는 경우 모든 시나리오에서 **[!UICONTROL Declared ID]** 작동합니다.
 
-다음 주소로 **[!UICONTROL Declared ID]** 프로비전을 요청할 수 있습니다.Digital-Request@adobe.com [](mailto:Digital-Request@adobe.com).
+다음 주소로 **[!UICONTROL Declared ID]** 프로비전을 요청할 수 있습니다. [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Adobe Campaign에서 통합 구성 {#configuring-the-integration-in-adobe-campaign}
 
