@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
+source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
 
 ---
 
@@ -45,7 +45,9 @@ GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제
 
 배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
+새 섹션이 추가되었습니다. Adobe Campaign Standard 데이터베이스를 보완할 수 있는 다양한 방법에 대한 개요를 제공합니다. [자세한 내용](../../start/using/enriching-campaign-database.md)
+
+이메일 디자이너와 링크의 스타일을 지정하는 방법을 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../designing/using/styles.md#about-styling-links)
 
 ## 설명서 업데이트 - 2019년 10월 {#doc-updates-october-2019}
 
@@ -56,6 +58,8 @@ GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제
 트랜잭션 메시징 섹션이 이메일 디자이너의 컨텐츠 편집을 포함하여 최신 UI 업데이트를 사용하여 수정되었습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
 
 랜딩 페이지 장이 재구성되었습니다. 또한 랜딩 페이지를 설정하는 단계를 자세히 설명하는 새로운 섹션이 추가되었습니다. [자세한 내용](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+선언된 ID 변경 사항을 반영하도록 Audience Manager 통합 **페이지가** 업데이트되었습니다. [자세한 내용](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## 설명서 업데이트 - 2019년 9월 {#doc-updates-september-2019}
 
