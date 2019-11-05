@@ -1,8 +1,6 @@
 ---
-title: 릴리스 노트 2015-2016
-seo-title: 릴리스 노트 2015-2016
-description: 릴리스 노트 2015-2016
-seo-description: 이 페이지에는 Adobe Campaign Standard 2015 및 2016 릴리스의 모든 목록이 표시됩니다.
+title: 2015년-2016년 릴리스 정보
+description: 이 페이지에는 Adobe Campaign Standard 2015 및 2016 릴리스의 모든 목록이 표시됩니다.
 page-status-flag: 활성화 안 함
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: a3ce6b80-1858-4 파섹
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 릴리스 노트 2015-2016{#release-notes}
+# 2015년-2016년 릴리스 정보{#release-notes}
 
 Adobe Campaign Standard의 특정 2015-2016 릴리스를 찾고 계십니까?
 
@@ -839,7 +837,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 * 워크플로우 실행 로그의 **메시지** 열을 올바르게 내보내지 못하는 오류를 수정했습니다.
 
-#### 프로필 및 대상 {#profiles-and-audiences}
+#### 프로필 및 대상자 {#profiles-and-audiences}
 
 * 요소가 중복 또는 삭제된 시기를 이중 확인하도록 하는 오류를 수정했습니다. **Internet Explorer 11만**&#x200B;사용하는 하이브리드 장치.
 
@@ -1083,7 +1081,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
    <td> 워크플로우에서 사용 가능한 <strong>데이터</strong> 업데이트 활동에는 새로운 옵션이 있으며, 이를 통해 인바운드 데이터 필드를 응용 프로그램 스키마의 필드와 자동으로 연결할 수 있습니다. 이렇게 하면 필드 업데이트를 위한 선택 프로세스를 용이하게 할 수 있습니다.<br /> 자세한 <a href="../../automating/using/update-data.md">설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 이메일 전달<br /> </td> 
+   <td> 이메일 게재<br /> </td> 
    <td> 워크플로우에서 이제 작업 표시줄의 <strong>특정 단추를 통해 이메일 배달</strong> 활동의 고급 옵션에 액세스할 수 있습니다. 이 단추는 이메일 배달 <strong>활동을</strong> 선택한 경우에만 사용할 수 있습니다. 주된 이점은 활동에 아웃바운드 전환을 추가하고 워크플로우에 표시되는 활동 이름을 편집할 수 있다는 것입니다.<br /> 자세한 <a href="../../automating/using/email-delivery.md">설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
