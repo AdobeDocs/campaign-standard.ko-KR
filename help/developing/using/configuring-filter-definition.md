@@ -1,65 +1,63 @@
 ---
 title: 필터 정의 구성
-seo-title: 필터 정의 구성
-description: 필터 정의 구성
-seo-description: 필터 기능을 사용하여 큰 데이터 세트를 관리합니다.
-page-status-flag: 정품 인증 안 함
-uuid: c 9 db 95 fe-e 9 aa -40 f 8-9 c 0 a-e 74 bb 21 ac 14 b
-contentOwner: Sauviat
-products: sg_ campaign/standard
-audience: developing
-content-type: 참조
+description: 필터 기능을 사용하여 대용량 데이터 세트를 관리합니다.
+page-status-flag: 활성화 안 함
+uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
+audience: 개발
+content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 993 AB 2 BD-E 05 F -468 E -9 EF 8-A 603761247 F 8
-context-tags: Cusresource, main
+discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
+context-tags: cusResource,main
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configuring filter definition{#configuring-filter-definition}
+# 필터 정의 구성{#configuring-filter-definition}
 
-**[!UICONTROL Filter definition]** 이 탭에서 사용자가 대상을 정의할 때 같이 복잡한 쿼리를 만들 때 바로 액세스할 수 있는 고급 필터를 만들 수 있습니다.
+탭에서 대상을 정의할 때와 같이 복잡한 쿼리를 만들 때 사용자가 직접 액세스할 수 있는 고급 필터를 만들 수 있습니다. **[!UICONTROL Filter definition]**
 
-워크플로우, 대상 및 REST API를 통해 리소스를 채우고 데이터에 액세스할 수 있으므로 이 단계는 필수가 아닙니다.
+워크플로우, 대상 및 REST API를 통해 리소스를 채우고 해당 데이터에 액세스할 수 있으므로 이 단계는 필수가 아닙니다.
 
 ![](assets/custom_resource_filter-definition.png)
 
-이러한 필터는 사전 구성된 규칙 형태의 쿼리 편집기에서 사용됩니다. 이 도구를 사용하면 원하는 구성을 얻는 데 필요한 단계를 제한할 수 있으며, 반복되는 세그먼트화에 특히 유용합니다.
+이러한 필터는 사전 구성된 규칙 형태로 쿼리 편집기에서 사용됩니다. 이러한 구성 요소를 사용하면 원하는 구성을 얻는 데 필요한 단계 수를 제한할 수 있으며, 이는 특히 반복 세그먼트에 유용합니다.
 
-예를 들어, 필터를 만들어 지난 3 개월 이내에 특정 금액보다 큰 모든 거래를 선택할 수 있습니다.
+예를 들어 필터를 만들어 지난 3개월 이내에 특정 금액보다 큰 모든 트랜잭션을 선택할 수 있습니다.
 
-To do this, you need to extend the **[!UICONTROL Profiles]** resource and define a filter linking to a transaction table (that you have previously created) with a rule indicating that the transaction price must be greater than or equal to a given parameter and that the transaction date must fall within a range corresponding to the last three months.
+이렇게 하려면 **[!UICONTROL Profiles]** 자원을 확장하고 트랜잭션 테이블(이전에 생성한 항목)에 대한 필터를 정의해야 합니다. 트랜잭션 가격이 지정된 매개변수보다 크거나 같아야 하며 트랜잭션 일자가 지난 3개월에 해당하는 범위 내에 있어야 함을 나타내는 규칙을 포함해야 합니다.
 
-1. 거래 테이블을 만들고 게시해야 합니다. See [Creating or extending the resource](../../developing/using/creating-or-extending-the-resource.md).
+1. 트랜잭션 테이블을 만들고 게시해야 합니다. See [Creating or extending the resource](../../developing/using/creating-or-extending-the-resource.md).
 
    >[!NOTE]
    >
-   >이 절차에서는 사용자 지정 트랜잭션 테이블의 예를 사용합니다. 비즈니스 요구 사항에 맞게 조정하십시오.
+   >이 절차에서는 사용자 지정 트랜잭션 테이블의 예를 사용합니다. 고객의 경우 비즈니스 요구 사항에 맞게 조정할 수 있습니다.
 
-1. **[!UICONTROL Profiles]** 리소스에 있는 트랜잭션 테이블과 관련된 필터를 정의하기 전에 이 테이블에 대한 링크를 정의하고 변경 내용을 게시해야 합니다. See [Defining links with other resources](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) and [Updating the database structure](../../developing/using/updating-the-database-structure.md).
-1. In the **[!UICONTROL Definition]** tab of your new filter's definition screen, select the transaction table.
+1. 리소스의 트랜잭션 테이블과 관련된 필터를 정의하기 전에 이 테이블에 대한 링크를 정의하고 변경 내용을 게시해야 합니다. **[!UICONTROL Profiles]** 다른 [리소스와](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) 링크 정의 및 [데이터베이스 구조](../../developing/using/updating-the-database-structure.md)업데이트를 참조하십시오.
+1. 새 필터 정의 화면의 **[!UICONTROL Definition]** 탭에서 트랜잭션 테이블을 선택합니다.
 
    ![](assets/custom_resource_filter-definition_example-empty.png)
 
-1. **[!UICONTROL Add a rule - Profiles/Transactions]** 창에서 트랜잭션 테이블을 작업 공간으로 드래그하여 놓습니다. 표시되는 다음 창에서 사용할 필드를 선택합니다.
+1. 창에서 트랜잭션 테이블을 작업 공간으로 드래그하여 놓습니다. **[!UICONTROL Add a rule - Profiles/Transactions]** 표시되는 다음 창에서 사용할 필드를 선택합니다.
 
    ![](assets/custom_resource_filter-definition_example-field.png)
 
-1. In the **[!UICONTROL Optional parameter settings]** of the **[!UICONTROL Add a rule - Transactions]** window, check the **[!UICONTROL Switch to parameters]** box.
+1. 창 **[!UICONTROL Optional parameter settings]** 맨 **[!UICONTROL Add a rule - Transactions]** 앞에 있는 **[!UICONTROL Switch to parameters]** 상자를 선택합니다.
 
-   In the **[!UICONTROL Filter conditions]**, select the **[!UICONTROL Greater than or equal to]** operator. **[!UICONTROL Parameters]** 필드에 이름을 입력하고 더하기 기호를 클릭하여 새 매개 변수를 만듭니다.
+   에서 **[!UICONTROL Filter conditions]**&#x200B;연산자를 선택합니다 **[!UICONTROL Greater than or equal to]** . 필드에 이름을 입력하고 더하기 기호를 클릭하여 새 매개 변수를 만듭니다. **[!UICONTROL Parameters]**
 
    ![](assets/custom_resource_filter-definition_example-parameter.png)
 
-1. 변경 사항을 확인합니다. 이 정의는 사용자가 나중에 쿼리를 실행하기 위해 채워야 하는 구성 가능한 필드에 해당합니다.
+1. 변경 사항을 확인합니다. 이 정의는 사용자가 쿼리를 실행하기 위해 나중에 입력해야 하는 구성 가능한 필드에 해당합니다.
 
    ![](assets/custom_resource_filter-definition_ex_edit-rule.png)
 
-1. 거래 날짜가 지난 3 개월에 해당하는 범위에 속해야 함을 지정하는 다른 규칙과 이 규칙을 결합합니다.
+1. 이 규칙을 다른 규칙과 결합하여 거래 날짜가 지난 3개월에 해당하는 범위 내에 있어야 함을 지정합니다.
 
    ![](assets/custom_resource_filter-definition_example.png)
 
@@ -67,21 +65,21 @@ To do this, you need to extend the **[!UICONTROL Profiles]** resource and define
 
    ![](assets/custom_resource_filter-definition_category.png)
 
-1. In the **[!UICONTROL Parameters]** tab of the filter definition screen, modify the description and the label to clearly indicate the subject of your filter to the users. 이 정보는 쿼리 편집기에 나타납니다.
+1. 필터 정의 화면의 **[!UICONTROL Parameters]** 탭에서 설명과 레이블을 수정하여 사용자에게 필터의 제목을 명확히 지정합니다. 이 정보는 쿼리 편집기에 표시됩니다.
 
    ![](assets/custom_resource_filter-definition_parameters.png)
 
    구성 가능한 여러 필드를 정의하는 경우 인터페이스에 표시되는 순서를 수정할 수 있습니다.
 
-1. 변경 내용을 저장하고 리소스를 게시합니다. For more on this, refer to the [Updating the database structure](../../developing/using/updating-the-database-structure.md) section.
+1. 변경 내용을 저장하고 리소스를 게시합니다. 자세한 내용은 데이터베이스 구조 [업데이트](../../developing/using/updating-the-database-structure.md) 섹션을 참조하십시오.
 
-**[!UICONTROL Profiles]** 리소스 확장이 게시되면 사용자는 [쿼리 편집기](../../automating/using/editing-queries.md) 인터페이스의 단축키 탭 아래에 이 필터를 볼 수 있습니다.
+리소스 확장자가 게시되면 사용자는 **[!UICONTROL Profiles]** 쿼리 편집기 [](../../automating/using/editing-queries.md) 인터페이스의 바로 가기 탭 아래에 이 필터가 표시됩니다.
 
-이를 통해 사용자는 지난 3 개월 동안 일정 금액을 초과하여 보낸 모든 고객에게 이메일을 보낼 때 사용자를 쉽게 정의할 수 있습니다.
+이렇게 하면 사용자가 이메일을 만들 때 고객을 쉽게 정의하여 지난 3개월 동안 일정 금액 이상을 보낸 모든 클라이언트에 보낼 수 있습니다.
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 
-직접 구성하는 대신 표시되는 대화 상자에 원하는 금액을 입력해야 합니다.
+직접 구성하는 대신 나타나는 대화 상자에 원하는 금액을 입력해야 합니다.
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
