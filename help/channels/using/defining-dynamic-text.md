@@ -1,8 +1,6 @@
 ---
 title: 동적 텍스트 정의
-seo-title: 동적 텍스트 정의
-description: 동적 텍스트 정의
-seo-description: Adobe Campaign에 정의된 조건에 따라 사용자에게 동적으로 다른 텍스트를 표시하는 방법을 알아봅니다.
+description: Adobe Campaign에 정의된 조건에 따라 사용자에게 동적으로 다른 텍스트를 표시하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
