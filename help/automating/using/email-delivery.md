@@ -1,8 +1,6 @@
 ---
-title: 이메일 전달
-seo-title: 이메일 전달
-description: 이메일 전달
-seo-description: 이메일 배달 활동을 사용하면 워크플로우에서 하나의 이메일 전송 또는 반복 이메일을 보내도록 구성할 수 있습니다.
+title: 이메일 게재
+description: 이메일 배달 활동을 사용하면 워크플로우에서 하나의 이메일 전송 또는 반복 이메일을 보내도록 구성할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: 전달,워크플로,기본
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 이메일 전달{#email-delivery}
+# 이메일 게재{#email-delivery}
 
 ## 설명 {#description}
 
