@@ -1,8 +1,6 @@
 ---
-title: 템플릿 정보
-seo-title: 템플릿 정보
-description: 템플릿 정보
-seo-description: '"Adobe Campaign 템플릿을 사용하면 필요에 따라 매개 변수를 미리 구성할 수 있습니다.템플릿은 마케팅 활동의 전체 또는 부분 구성을 포함할 수 있으며, 기술적인 지식이 없는 최종 사용자를 위해 Adobe Campaign 사용을 단순화합니다."'
+title: 템플릿 기본 정보
+description: '"Adobe Campaign 템플릿을 사용하면 필요에 따라 매개 변수를 미리 구성할 수 있습니다.템플릿은 마케팅 활동의 전체 또는 부분 구성을 포함할 수 있으며, 기술적인 지식이 없는 최종 사용자를 위해 Adobe Campaign 사용을 단순화합니다."'
 page-status-flag: 활성화 안 함
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 95218ebe-5430-42a2-b900-1ddabbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 템플릿 정보{#about-templates}
+# 템플릿 기본 정보{#about-templates}
 
 ## 마케팅 활동 템플릿 {#marketing-activity-templates}
 
