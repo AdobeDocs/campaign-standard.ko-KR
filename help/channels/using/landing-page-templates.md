@@ -1,8 +1,6 @@
 ---
 title: 랜딩 페이지 템플릿
-seo-title: 랜딩 페이지 템플릿
-description: 랜딩 페이지 템플릿
-seo-description: 랜딩 페이지 템플릿에 대한 자세한 내용을 살펴보십시오.
+description: 랜딩 페이지 템플릿에 대한 자세한 내용을 살펴보십시오.
 page-status-flag: 활성화 안 함
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: 여우원숭이
@@ -15,12 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 랜딩 페이지 템플릿 정보 {#landing-page-templates}
+# 랜딩 페이지 템플릿 기본 정보 {#landing-page-templates}
 
 Campaign에는 다음과 같은 내장 랜딩 페이지 템플릿이 포함되어 있습니다.
 
