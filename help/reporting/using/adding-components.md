@@ -1,8 +1,6 @@
 ---
 title: 구성 요소 추가
-seo-title: 구성 요소 추가
-description: 구성 요소 추가
-seo-description: 구성 요소를 자유 형식 테이블로 끌어다 놓아 데이터 필터링을 시작하고 보고서를 작성합니다.
+description: 구성 요소를 자유 형식 테이블로 끌어다 놓아 데이터 필터링을 시작하고 보고서를 작성합니다.
 page-status-flag: 활성화 안 함
 uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
