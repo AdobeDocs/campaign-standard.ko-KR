@@ -1,8 +1,6 @@
 ---
 title: 핫 클릭
-seo-title: 핫 클릭
-description: 핫 클릭
-seo-description: 즉시 사용 가능한 보고서를 클릭하여 고객이 어디에서 배달을 클릭했는지 확인할 수 있습니다.
+description: 즉시 사용 가능한 보고서를 클릭하여 고객이 어디에서 배달을 클릭했는지 확인할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
