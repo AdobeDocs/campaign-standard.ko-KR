@@ -1,8 +1,6 @@
 ---
 title: 외부 신호
-seo-title: 외부 신호
-description: 외부 신호
-seo-description: 외부 신호 활동은 다른 워크플로우에서 일부 조건이 성공적으로 충족되면 워크플로우를 트리거합니다.
+description: 외부 신호 활동은 다른 워크플로우에서 일부 조건이 성공적으로 충족되면 워크플로우를 트리거합니다.
 page-status-flag: 활성화 안 함
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: 신호,주
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
