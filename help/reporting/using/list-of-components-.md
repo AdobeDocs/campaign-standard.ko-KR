@@ -1,8 +1,6 @@
 ---
 title: '구성 요소 목록 '
-seo-title: '구성 요소 목록 '
-description: '구성 요소 목록 '
-seo-description: 동적 보고서에서 사용할 수 있는 모든 구성 요소 목록과 해당 정의를 참조하십시오.
+description: 동적 보고서에서 사용할 수 있는 모든 구성 요소 목록과 해당 정의를 참조하십시오.
 page-status-flag: 활성화 안 함
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
