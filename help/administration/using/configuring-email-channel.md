@@ -1,8 +1,6 @@
 ---
 title: 이메일 채널 구성
-seo-title: 이메일 채널 구성
-description: 이메일 채널 구성
-seo-description: 이메일 채널을 구성하는 방법을 알아봅니다.
+description: 이메일 채널을 구성하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -56,7 +54,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 **관련 항목**:
 
-[검역 관리 이해](../../sending/using/understanding-quarantine-management.md)
+[스팸 차단 관리 이해](../../sending/using/understanding-quarantine-management.md)
 
 ## 이메일 라우팅 계정 {#email-routing-accounts}
 
