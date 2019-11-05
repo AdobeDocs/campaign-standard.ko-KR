@@ -1,8 +1,6 @@
 ---
-title: 다이내믹하고 개인화된 컨텐츠
-seo-title: 다이내믹하고 개인화된 컨텐츠
-description: 다이내믹하고 개인화된 컨텐츠
-seo-description: Adobe Campaign을 사용하면 고객 선호도 및 데이터를 사용하여 이메일, SMS, 푸시 알림, InApp 메시지 또는 DM을 통해 개인화된 캠페인을 만들 수 있습니다.
+title: 동적이고 개인화된 콘텐츠
+description: Adobe Campaign을 사용하면 고객 선호도 및 데이터를 사용하여 이메일, SMS, 푸시 알림, InApp 메시지 또는 DM을 통해 개인화된 캠페인을 만들 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: a36a581e-25d4-426d-865a-c646519c961d
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 다이내믹하고 개인화된 컨텐츠{#dynamic-and-personalized-content}
+# 동적이고 개인화된 콘텐츠{#dynamic-and-personalized-content}
 
 프로파일, 선호도 및 활동에 따라 개인화된 컨텐츠와 헤더를 사용하여 고객의 관심을 유도하고 응답률을 향상시킬 수 있습니다. 모든 클라이언트 정보는 Adobe Campaign에서 중앙 집중화되므로 다양한 채널을 통해 수정된 컨텐츠가 포함된 메시지를 제공할 수 있습니다.
 
