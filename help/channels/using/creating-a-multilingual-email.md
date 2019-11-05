@@ -1,8 +1,6 @@
 ---
 title: 다국어 이메일 만들기
-seo-title: 다국어 이메일 만들기
-description: 다국어 이메일 만들기
-seo-description: 다음 단계에 따라 다양한 기본 언어를 사용하는 다국어 이메일 타깃팅 수신자를 만듭니다.
+description: 다음 단계에 따라 다양한 기본 언어를 사용하는 다국어 이메일 타깃팅 수신자를 만듭니다.
 page-status-flag: 활성화 안 함
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
