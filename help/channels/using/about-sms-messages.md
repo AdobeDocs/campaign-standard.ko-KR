@@ -1,8 +1,6 @@
 ---
-title: SMS 메시지 정보
-seo-title: SMS 메시지 정보
-description: SMS 메시지 정보
-seo-description: Adobe Campaign에서 SMS 채널의 주요 특성을 살펴볼 수 있습니다.
+title: SMS 메시지 기본 정보
+description: Adobe Campaign에서 SMS 채널의 주요 특성을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
 contentOwner: 자우비
@@ -15,12 +13,12 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# SMS 메시지 정보{#about-sms-messages}
+# SMS 메시지 기본 정보{#about-sms-messages}
 
 Adobe Campaign을 사용하면 SMS(Short Message Service) 메시지를 전달할 수 있습니다.
 
