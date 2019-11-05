@@ -1,8 +1,6 @@
 ---
 title: DM 대상자 정의
-seo-title: DM 대상자 정의
-description: DM 대상자 정의
-seo-description: DM 전달 대상을 정의하는 방법을 알아봅니다.
+description: DM 전달 대상을 정의하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: delivery,directMailContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -38,7 +36,7 @@ DM의 경우 대상 프로필은 DM 공급자에게 보낼 추출 파일에 포�
 
 ## 테스트 및 트랩 프로파일 추가 {#adding-test-and-trap-profiles}
 
-적은 수의 프로파일로 파일을 테스트할 수 있도록 테스트 프로필을 추가합니다. 이 플러그인을 사용하면 실제 파일을 준비하기 전에 구조를 테스트하고 확인할 수 있는 파일 샘플을 신속하게 만들 수 있습니다. 테스트 [프로파일 관리 및 증명](../../sending/using/managing-test-profiles-and-sending-proofs.md)전송을 참조하십시오.
+적은 수의 프로파일로 파일을 테스트할 수 있도록 테스트 프로필을 추가합니다. 이 플러그인을 사용하면 실제 파일을 준비하기 전에 구조를 테스트하고 확인할 수 있는 파일 샘플을 신속하게 만들 수 있습니다. See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
 우편 배달은 덫을 사용하는 것이 필수적이다. 이러한 기능을 사용하면 다이렉트 메일 공급자가 실제로 통신을 보내고 있는지, 그리고 해당 공급자가 클라이언트 목록을 다른 공급자에게 보내지 않는지 확인할 수 있습니다. 트랩 [사용을](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)참조하십시오.
 
