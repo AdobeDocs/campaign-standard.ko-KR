@@ -1,8 +1,6 @@
 ---
-title: DM 컨텐츠 정의
-seo-title: DM 컨텐츠 정의
-description: DM 컨텐츠 정의
-seo-description: 다이렉트 메일 배달에 사용할 컨텐츠를 정의하는 방법을 알아봅니다.
+title: DM 콘텐츠 정의
+description: 다이렉트 메일 배달에 사용할 컨텐츠를 정의하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: delivery,directMailContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# DM 컨텐츠 정의{#defining-the-direct-mail-content}
+# DM 콘텐츠 정의{#defining-the-direct-mail-content}
 
 작성 마법사의 마지막 화면에서 또는 배달 대시보드의 컨텐츠 **섹션을 클릭하여 컨텐츠를** 정의할 수 있습니다.
 
