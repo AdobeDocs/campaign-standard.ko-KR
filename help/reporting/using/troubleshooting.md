@@ -1,8 +1,6 @@
 ---
 title: 문제 해결
-seo-title: 문제 해결
-description: 문제 해결
-seo-description: 다이내믹 보고 관련 일반적인 질문을 살펴보십시오.
+description: 다이내믹 보고 관련 일반적인 질문을 살펴보십시오.
 page-status-flag: 활성화 안 함
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: 벤치
@@ -14,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -39,7 +37,7 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에 세 번 �
  <thead> 
   <tr> 
    <th align="center"> <strong>일</strong><br /> </th> 
-   <th align="center"> <strong>열기</strong><br /> </th> 
+   <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
    <th align="center"> <strong>고유 열기</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -67,7 +65,7 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에 세 번 �
  <thead> 
   <tr> 
    <th align="center"> <strong>일</strong><br /> </th> 
-   <th align="center"> <strong>열기</strong><br /> </th> 
+   <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
    <th align="center"> <strong>고유 열기</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -123,7 +121,7 @@ Adobe Campaign Standard 19.2.1 릴리스 전에는 보고서가 다음과 같이
    <th align="center"> <strong>전달</strong><br /> </th> 
    <th align="center"> <strong>전송됨</strong><br /> </th> 
    <th align="center"> <strong>배달됨</strong><br /> </th>
-   <th align="center"> <strong>열기</strong><br /> </th> 
+   <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
    <th align="center"> <strong>고유 열기</strong><br /> </th>
   </tr> 
  </thead> 
@@ -167,7 +165,7 @@ Adobe Campaign Standard 19.2.1 릴리스 이후 보고서는 다음과 같습니
    <th align="center"> <strong>전달</strong><br /> </th> 
    <th align="center"> <strong>전송됨</strong><br /> </th> 
    <th align="center"> <strong>배달됨</strong><br /> </th>
-   <th align="center"> <strong>열기</strong><br /> </th> 
+   <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
    <th align="center"> <strong>고유 열기</strong><br /> </th>
   </tr> 
  </thead> 
