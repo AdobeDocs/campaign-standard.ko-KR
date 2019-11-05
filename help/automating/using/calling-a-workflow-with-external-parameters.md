@@ -1,8 +1,6 @@
 ---
-title: 외부 매개 변수를 사용하여 워크플로우 호출
-seo-title: 외부 매개 변수를 사용하여 워크플로우 호출
-description: 외부 매개 변수를 사용하여 워크플로우 호출
-seo-description: 이 섹션에서는 외부 매개 변수를 사용하여 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
+title: 외부 파라미터로 워크플로우 호출
+description: 이 섹션에서는 외부 매개 변수를 사용하여 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
 page-status-flag: 활성화 안 함
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 외부 매개 변수를 사용하여 워크플로우 호출{#calling-a-workflow-with-external-parameters}
+# 외부 파라미터로 워크플로우 호출{#calling-a-workflow-with-external-parameters}
 
 Campaign Standard를 사용하면 매개 변수(타깃팅할 대상 이름, 가져올 파일 이름, 메시지 내용의 일부 등)가 있는 워크플로우를 호출할 수 있습니다. 이렇게 하면 캠페인 자동화를 외부 시스템과 쉽게 통합할 수 있습니다.
 
@@ -87,7 +85,7 @@ Campaign Standard를 사용하면 매개 변수(타깃팅할 대상 이름, 가�
 
    ![](assets/extsignal_monitoring_3.png)
 
-## 외부 매개 변수를 사용하여 워크플로우 사용자 정의 {#customizing-a-workflow-with-external-parameters}
+## Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
 
 워크플로우가 실행되면 매개 변수가 이벤트 변수에 인제스트되어 워크플로우의 활동을 사용자 지정하는 데 사용할 수 있습니다.
 
