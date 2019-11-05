@@ -1,8 +1,6 @@
 ---
 title: '"워크플로우 사용 사례:프로필 생성 날짜에 배달 만들기"'
-seo-title: '"워크플로우 사용 사례:프로필 생성 날짜에 배달 만들기"'
 description: '"워크플로우 사용 사례:프로필 생성 날짜에 배달 만들기"'
-seo-description: '"워크플로우 사용 사례:프로필 생성 날짜에 배달 만들기"'
 page-status-flag: 활성화 안 함
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: 워크플로,사용 사례,쿼리
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -105,6 +103,6 @@ Click **[!UICONTROL Confirm]**.
 **관련 항목:**
 
 * [쿼리](../../automating/using/query.md)
-* [스케줄러](../../automating/using/scheduler.md)
-* [이메일 전달](../../automating/using/email-delivery.md)
+* [예약](../../automating/using/scheduler.md)
+* [이메일 게재](../../automating/using/email-delivery.md)
 * [이메일 채널](../../channels/using/creating-an-email.md)
