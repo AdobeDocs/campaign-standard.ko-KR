@@ -1,8 +1,6 @@
 ---
-title: Experience Cloud에서 트리거 구성
-seo-title: Experience Cloud에서 트리거 구성
-description: Experience Cloud에서 트리거 구성
-seo-description: 'Adobe Experience Cloud 트리거 통합을 구성하여 이전 행동을 기반으로 고객에게 개인화된 전달을 전송하는 방법을 살펴볼 수 있습니다. '
+title: Experience Cloud 트리거 구성
+description: 'Adobe Experience Cloud 트리거 통합을 구성하여 이전 행동을 기반으로 고객에게 개인화된 전달을 전송하는 방법을 살펴볼 수 있습니다. '
 page-status-flag: 활성화 안 함
 uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Experience Cloud에서 트리거 구성{#configuring-triggers-in-experience-cloud}
+# Experience Cloud 트리거 구성{#configuring-triggers-in-experience-cloud}
 
 ## 기능 활성화 {#activating-the-functionality}
 
