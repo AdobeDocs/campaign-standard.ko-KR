@@ -1,8 +1,6 @@
 ---
 title: 랜딩 페이지 양식 데이터 관리
-seo-title: 랜딩 페이지 양식 데이터 관리
-description: 랜딩 페이지 양식 데이터 관리
-seo-description: 랜딩 페이지 양식 데이터를 관리하는 방법을 알아봅니다.
+description: 랜딩 페이지 양식 데이터를 관리하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: 여우원숭이
@@ -15,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
