@@ -1,8 +1,6 @@
 ---
-title: 커뮤니케이션 채널 검색
-seo-title: 커뮤니케이션 채널 검색
-description: 커뮤니케이션 채널 검색
-seo-description: 다양한 채널에서 개인화된 메시지를 전송하고 크로스채널 캠페인을 제작하여 수신자를 효과적으로 타겟팅하는 방법을 살펴볼 수 있습니다.
+title: 소통 채널 살펴보기
+description: 다양한 채널에서 개인화된 메시지를 전송하고 크로스채널 캠페인을 제작하여 수신자를 효과적으로 타겟팅하는 방법을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 커뮤니케이션 채널 검색{#discovering-communication-channels}
+# 소통 채널 살펴보기{#discovering-communication-channels}
 
 Adobe Campaign을 사용하면 다양한 채널에서 개인화된 메시지를 만들어 전송하고 전용 보고서를 통해 효과를 측정할 수 있습니다.
 
