@@ -1,8 +1,6 @@
 ---
-title: 테스트 프로파일 관리 및 증명 전송
-seo-title: 테스트 프로파일 관리 및 증명 전송
-description: 테스트 프로파일 관리 및 증명 전송
-seo-description: 테스트 프로파일 및 교정본을 관리하는 방법을 알아봅니다.
+title: 테스트 프로필 관리 및 증명 보내기
+description: 테스트 프로파일 및 교정본을 관리하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: seedMember,개요
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 테스트 프로파일 관리 및 증명 전송{#managing-test-profiles-and-sending-proofs}
+# 테스트 프로필 관리 및 증명 보내기{#managing-test-profiles-and-sending-proofs}
 
 ## 테스트 프로필 정보 {#about-test-profiles}
 
@@ -158,12 +156,12 @@ DM 대상에 트랩을 추가하는 방법에 대한 자세한 내용은 테스�
 
    ![](assets/trap_select.png)
 
-1. 메시지 내용이 준비되면 **[!UICONTROL Prepare]** 단추를 클릭합니다. 보내기 [준비를](../../sending/using/preparing-the-send.md)참조하십시오.
+1. 메시지 내용이 준비되면 **[!UICONTROL Prepare]** 단추를 클릭합니다. See [Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >기본 대상을 선택했는지 확인합니다. 그렇지 않으면 메시지를 보낼 수 없습니다.
 
-1. 단추를 **[!UICONTROL Confirm]** 클릭합니다. 보내기 [확인을](../../sending/using/confirming-the-send.md)참조하십시오.
+1. 단추를 **[!UICONTROL Confirm]** 클릭합니다. See [Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
