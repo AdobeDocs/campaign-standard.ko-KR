@@ -1,8 +1,6 @@
 ---
-title: 랜딩 페이지 정보
-seo-title: 랜딩 페이지 정보
-description: 랜딩 페이지 정보
-seo-description: 캠페인 랜딩 페이지와 라이프사이클을 검색합니다.
+title: 랜딩 페이지 기본 정보
+description: 캠페인 랜딩 페이지와 라이프사이클을 검색합니다.
 page-status-flag: 활성화 안 함
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0068746b0b90b85edfb2c93eb08a82e1adc2fca8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 랜딩 페이지 정보{#about-landing-pages}
+# 랜딩 페이지 기본 정보{#about-landing-pages}
 
 Campaign에는 고객 정보를 캡처하고, 서비스에 구독을 제공하고, 데이터를 표시하고, 데이터베이스를 확장하는 데 사용할 수 있는 웹 양식인 랜딩 페이지가 포함되어 있습니다. 랜딩 페이지는 기존 프로필을 가져오거나 업데이트하는 데에도 사용할 수 있습니다.
 
