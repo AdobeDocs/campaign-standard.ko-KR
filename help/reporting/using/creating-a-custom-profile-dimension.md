@@ -1,8 +1,6 @@
 ---
 title: 사용자 지정 프로필 차원 만들기
-seo-title: 사용자 지정 프로필 차원 만들기
-description: 사용자 지정 프로필 차원 만들기
-seo-description: 사용자 지정 프로필 데이터를 기반으로 사용자 지정 프로필 차원을 만드는 방법을 알아봅니다.
+description: 사용자 지정 프로필 데이터를 기반으로 사용자 지정 프로필 차원을 만드는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
