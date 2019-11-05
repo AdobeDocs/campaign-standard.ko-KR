@@ -1,8 +1,6 @@
 ---
-title: 릴리스 노트
-seo-title: 릴리스 노트
-description: 릴리스 노트
-seo-description: 이 페이지에는 Adobe Campaign Standard의 모든 최신 릴리스가 표시됩니다.
+title: 년 릴리스 정보
+description: 이 페이지에는 Adobe Campaign Standard의 모든 최신 릴리스가 표시됩니다.
 page-status-flag: 활성화 안 함
 uuid: 1cf2e40c-eca-43db-8261-a1820ee86ad3
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 릴리스 노트{#release-notes}
+# 릴리스 정보{#release-notes}
 
 새로운 기능 및 패치와 함께 모든 2019 릴리스가 이 페이지에 나열됩니다. 제어판 업데이트도 포함되어 있습니다.
 
@@ -28,12 +26,12 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 * [캠페인 릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [최신 설명서 업데이트](../../rn/using/documentation-updates.md)
 * [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [제어판](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [컨트롤 패널](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * 이전 릴리스 노트: [2018](../../rn/using/release-notes-2018.md)[](../../rn/using/release-notes-2017.md)[,2017,2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## 릴리스 19.4 - 2019년 10월 {#release-19-4---october-2019}
 
-### 새로운 기능 {#what-s-new-5}
+### What's new? {#what-s-new-5}
 
 <table> 
  <thead> 
@@ -150,7 +148,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 제어판 업데이트 - 2019년 8월 {#controlpanel-update---august-2019}
 
-### 새로운 기능 {#what-s-new-4}
+### What's new? {#what-s-new-4}
 
 관리 사용자가 도메인에 대한 SSL 인증서가 만료되기 전에 알림을 수신할 수 있는 새로운 기능을 추가했습니다. 자세한 내용은 [자세한 설명서를](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)참조하십시오.
 
@@ -160,7 +158,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 릴리스 19.3 - 2019년 7월 {#release-19-3---july-2019}
 
-### 새로운 기능 {#what-s-new-3}
+### What's new? {#what-s-new-3}
 
 <table> 
  <thead> 
@@ -280,13 +278,13 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 릴리스 19.2.4 - 2019년 6월 {#release-19-2-4---june-2019}
 
-### 이메일 디자이너 {#email-designer-2}
+### Email Designer {#email-designer-2}
 
 * HTML에서 빈 스타일 태그를 사용할 때 사용자가 조각을 편집할 수 없는 문제를 수정했습니다. 이것은 19.2.3의 CAMP-33778에 대한 후속 픽스입니다.
 
 ## 릴리스 19.2.3 - 2019년 6월 {#release-19-2-3---june-2019}
 
-### 이메일 디자이너 {#email-designer-1}
+### Email Designer {#email-designer-1}
 
 19.2 릴리스에서 조각을 최적화하기 위한 일련의 개선 사항 및 수정 사항이 도입되었습니다. 새로 만든 조각은 원활하게 작동합니다. 이전에 작성된 조각은 회색으로 표시되었으며 새 형식으로 마이그레이션해야 합니다. 이렇게 하려면 각 조각을 클릭하고 새 형식으로 마이그레이션된 내용을 확인합니다. 일부 조각을 모두 마이그레이션하기 전에 테스트하는 것이 좋습니다.
 
@@ -305,7 +303,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 릴리스 19.2 - 2019년 5월 {#release-19-2---may-2019}
 
-### 새로운 기능 {#what-s-new-}
+### What's new? {#what-s-new-}
 
 <table> 
  <thead> 
@@ -316,7 +314,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
  </thead> 
  <tbody> 
   <tr> 
-   <td> 제어판<br /> </td> 
+   <td> 컨트롤 패널<br /> </td> 
    <td> <p>관리 사용자로서의 작업의 효율성을 높이기 위해 손쉽게 용량을 모니터링하고 인스턴스 설정을 관리할 수 있습니다(SFTP 서버 관리부터 시작).</p><p>자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">방법 비디오를</a>참조하십시오.</p></td> 
   </tr> 
   <tr> 
@@ -423,7 +421,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 릴리스 19.1 - 2019년 2월 {#release-19-1---february-2019}
 
-### 새로운 기능 {#what-s-new--1}
+### What's new? {#what-s-new--1}
 
 <table> 
  <thead> 
@@ -529,7 +527,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 
 ## 릴리스 19.0 - 2019년 1월 {#release-19-0---january-2019}
 
-### 새로운 기능 {#what-s-new--2}
+### What's new? {#what-s-new--2}
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -581,7 +579,7 @@ source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
 * 프로필 주소를 정의할 때 사용할 수 있는 국가 목록이 향상되었습니다. (CAMP-26707)
 * 이제 기본 제공 워크플로우를 가져오려고 하면 오류 메시지가 표시됩니다.
 
-### 이메일 디자이너 {#email-designer}
+### Email Designer {#email-designer}
 
 * 이메일 템플릿 또는 이메일 디자이너와 함께 만들어진 컨텐츠 조각에서 지리적 단위 기능을 활성화하여 Adobe Campaign에서 이 기능이 비활성화되어 다시 액세스하려고 할 때 템플릿 또는 조각을 사용할 수 없게 했던 문제를 수정했습니다. (CAMP-28174)
 * 이메일 디자이너에서 컨텐츠를 편집할 때 동적 컨텐츠 조건이 저장되지 않는 문제를 해결했습니다. (CAMP-27905)
