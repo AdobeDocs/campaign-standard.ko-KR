@@ -1,8 +1,6 @@
 ---
-title: 푸시 알림 정보
-seo-title: 푸시 알림 정보
-description: 푸시 알림 정보
-seo-description: Adobe Campaign에서 푸시 알림 채널의 주요 특성을 살펴볼 수 있습니다.
+title: 푸시 알림 기본 정보
+description: Adobe Campaign에서 푸시 알림 채널의 주요 특성을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: mobileApp,개요
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 푸시 알림 정보{#about-push-notifications}
+# 푸시 알림 기본 정보{#about-push-notifications}
 
 >[!CAUTION]
 >
@@ -52,7 +50,7 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 
 **관련 컨텐츠:**
 
-* [푸시 알림 준비 및 전송](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [푸시 알림 준비 및 보내기](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [다국어 푸시 알림 만들기](../../channels/using/creating-a-multilingual-push-notification.md)
 * [푸시 알림 보고서](../../reporting/using/push-notification-report.md)
 * [푸시 및 인앱 FAQ](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
