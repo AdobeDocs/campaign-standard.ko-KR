@@ -1,53 +1,51 @@
 ---
-title: 응용 프로그램 리소스에 대한 구독 확장
-seo-title: 응용 프로그램 리소스에 대한 구독 확장
-description: 응용 프로그램 리소스에 대한 구독 확장
-seo-description: null
-page-status-flag: 정품 인증 안 함
-uuid: 8879 B 427-B 31 B -4311-BF 54-258 A 91 B 1 FB 78
-contentOwner: Sauviat
-products: sg_ campaign/standard
-audience: developing
-content-type: 참조
-topic-tags: 사용 사례—Extending-resources
-discoiquuid: 59 FAA 74 E -86 FC -42 D 3-90 DA-F 48580 B 5 EC 13
+title: 구독을 확장해 애플리케이션 리소스로 만들기
+description: null
+page-status-flag: 활성화 안 함
+uuid: 8879b427-b31b-4311-bf54-258a91b1fb78
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
+audience: 개발
+content-type: reference
+topic-tags: use-cases—extending-resources
+discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Extending the subscriptions to an application resource{#extending-the-subscriptions-to-an-application-resource}
+# 구독을 확장해 애플리케이션 리소스로 만들기{#extending-the-subscriptions-to-an-application-resource}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers. For more information on custom resources, refer to this [page](../../developing/using/key-steps-to-add-a-resource.md).
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers. 사용자 지정 리소스에 대한 자세한 내용은 이 [페이지를](../../developing/using/key-steps-to-add-a-resource.md)참조하십시오.
 
-모바일 장치에서 Adobe Campaign로 전송할 데이터를 수집하도록 이 리소스를 확장할 수 있습니다.
+이 리소스를 확장하여 모바일 장치에서 Adobe Campaign으로 전송할 데이터를 수집할 수 있습니다.
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
-1. Click **[!UICONTROL Create]** and choose the **[!UICONTROL Extend an existing resource]** option.
-1. **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 리소스를 선택하고 **[!UICONTROL Create]**&#x200B;를 클릭합니다.
+1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**&#x200B;을 선택한 다음 **[!UICONTROL Custom resources]**&#x200B;선택합니다.
+1. 을 **[!UICONTROL Create]** 클릭하고 **[!UICONTROL Extend an existing resource]** 옵션을 선택합니다.
+1. 리소스를 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 선택하고 을 클릭합니다 **[!UICONTROL Create]**.
 
    ![](assets/in_app_personal_data_4.png)
 
-1. In the **[!UICONTROL Fields]** category of the **[!UICONTROL Data structure]** tab, define the customer data that you want to retrieve from your mobile application by clicking the **[!UICONTROL Add field]** button.
+1. 탭의 **[!UICONTROL Fields]** 카테고리에서 **[!UICONTROL Data structure]** **[!UICONTROL Add field]** 단추를 클릭하여 모바일 애플리케이션에서 검색할 고객 데이터를 정의합니다.
 
    >[!NOTE]
    >
-   >여러 모바일 애플리케이션을 관리하는 경우 모든 애플리케이션에서 사용하는 모든 필드를 나열해야 합니다. iOS 또는 Android 수집 수집은 각 응용 프로그램에서 캡처한 필드를 정의합니다.
+   >여러 모바일 애플리케이션을 관리하는 경우 모든 애플리케이션에서 사용하는 모든 필드가 나열되어야 합니다. iOS 또는 Android 수집 PII 호출은 각 애플리케이션에서 캡처되는 필드를 정의합니다.
 
    ![](assets/in_app_personal_data.png)
 
-1. Add a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to your new field. Select your field's **[!UICONTROL Type]**.
+1. 새 필드에 **[!UICONTROL Label]** 및 **[!UICONTROL ID]** 를 추가합니다. 필드를 **[!UICONTROL Type]**&#x200B;선택합니다.
 
    ![](assets/schema_extension_uc9.png)
 
-1. **[!UICONTROL Link to profiles]** 카테고리에서 Adobe Campaign 데이터베이스의 프로필을 이메일과 같은 응용 프로그램의 가입자에게 연결하는 데 사용되는 조정 키를 구성합니다.
+1. 카테고리에서 Adobe Campaign 데이터베이스의 프로필을 이메일과 같은 애플리케이션의 구독자에게 연결하는 데 사용되는 조정 키를 구성합니다. **[!UICONTROL Link to profiles]**
 
-   In-App 메시지는 모든 모바일 애플리케이션에 대해 하나의 조정 키만 정의할 수 있습니다.
+   인앱 메시지의 경우 모든 모바일 애플리케이션에 대해 하나의 조정 키만 정의할 수 있습니다.
 
    ![](assets/in_app_personal_data_3.png)
 
-1. **[!UICONTROL Save]** 사용자 지정 리소스를 게시할 수 있습니다. For more information on custom resource publication, refer to this [page](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. **[!UICONTROL Save]** 사용자 지정 리소스를 게시할 수 있습니다. 사용자 지정 리소스 게시에 대한 자세한 내용은 이 [페이지를](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)참조하십시오.
 
