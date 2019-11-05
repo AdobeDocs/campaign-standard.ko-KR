@@ -1,8 +1,6 @@
 ---
 title: 마케팅 활동
-seo-title: 마케팅 활동
-description: 마케팅 활동
-seo-description: '"마케팅 활동을 만들고 관리하는 방법을 알아봅니다.캠페인, 이메일, SMS 및 푸시 알림 전달, 랜딩 페이지, 워크플로우 새로운 활동을 손쉽게 디자인하고 기존 활동을 편집한 다음 해당 활동의 상태와 유효성을 확인할 수 있습니다."'
+description: '"마케팅 활동을 만들고 관리하는 방법을 알아봅니다.캠페인, 이메일, SMS 및 푸시 알림 전달, 랜딩 페이지, 워크플로우 새로운 활동을 손쉽게 디자인하고 기존 활동을 편집한 다음 해당 활동의 상태와 유효성을 확인할 수 있습니다."'
 page-status-flag: 활성화 안 함
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: 활동,개요
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
