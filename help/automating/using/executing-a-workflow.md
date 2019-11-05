@@ -1,8 +1,6 @@
 ---
 title: 워크플로우 실행
-seo-title: 워크플로우 실행
-description: 워크플로우 실행
-seo-description: 워크플로우를 실행 및 모니터링하는 방법을 알아봅니다.
+description: 워크플로우를 실행 및 모니터링하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: 워크플로,개요;워크플로,기본
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
