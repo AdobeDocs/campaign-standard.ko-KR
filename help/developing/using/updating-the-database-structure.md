@@ -1,8 +1,6 @@
 ---
 title: 데이터베이스 구조 업데이트
-seo-title: 데이터베이스 구조 업데이트
-description: 데이터베이스 구조 업데이트
-seo-description: Adobe Campaign 데이터베이스를 업데이트하는 방법을 알아봅니다.
+description: Adobe Campaign 데이터베이스를 업데이트하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: deploy,main;eventCusResource,개요
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -34,7 +32,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 >[!NOTE]
 >
->이벤트에 사용된 사용자 지정 리소스의 필드를 수정하거나 삭제하면 해당 이벤트의 게시를 자동으로 취소됩니다. 트랜잭션 [메시지 구성을 참조하십시오](../../administration/using/configuring-transactional-messaging.md).
+>이벤트에 사용된 사용자 지정 리소스의 필드를 수정하거나 삭제하면 해당 이벤트의 게시를 자동으로 취소됩니다. See [Configuring Transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
 1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**&#x200B;을 선택한 다음 **[!UICONTROL Publishing]**&#x200B;선택합니다.
 1. 기본적으로 이 옵션이 선택되어 **[!UICONTROL Determine modifications since the last publication]** 있으므로 마지막 업데이트 이후 수행된 변경 사항만 적용됩니다.
