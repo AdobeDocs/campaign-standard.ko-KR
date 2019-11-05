@@ -1,8 +1,6 @@
 ---
 title: SMS 메시지 만들기
-seo-title: SMS 메시지 만들기
-description: SMS 메시지 만들기
-seo-description: 다음 단계에 따라 Adobe Campaign에서 단일 전송 SMS 메시지를 만듭니다.
+description: 다음 단계에 따라 Adobe Campaign에서 단일 전송 SMS 메시지를 만듭니다.
 page-status-flag: 활성화 안 함
 uuid: 591ae-2d19-4f93-be4b-d8d20f1d2d12
 contentOwner: 자우비
@@ -15,7 +13,7 @@ delivercontext-tags: deliveryCreation,마법사
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -55,7 +53,7 @@ SMS 메시지를 만들어 휴대폰에 보내려면 다음이 필요합니다.
 
 1. SMS에 컨텐츠 추가 SMS 만들기가 완료되면 배달 대시보드의 **[!UICONTROL Content]** 섹션을 클릭하여 컨텐츠를 정의할 수도 있습니다. SMS [컨텐츠 디자인](../../channels/using/about-sms-and-push-content-design.md)정보를 참조하십시오.
 
-   개인화 필드 또는 조건부 텍스트를 SMS 메시지의 내용에 삽입한 경우 메시지 길이는 받는 사람마다 다를 수 있습니다. 실제로, 이러한 요소들은 GSM 인코딩에 의해 고려되지 않는 문자를 도입할 수 있습니다. 개인화가 수행되면 메시지 길이를 평가해야 하는 이유입니다. SMS [메시지 개인화를](../../channels/using/personalizing-sms-messages.md)참조하십시오.
+   개인화 필드 또는 조건부 텍스트를 SMS 메시지의 내용에 삽입한 경우 메시지 길이는 받는 사람마다 다를 수 있습니다. 실제로, 이러한 요소들은 GSM 인코딩에 의해 고려되지 않는 문자를 도입할 수 있습니다. 개인화가 수행되면 메시지 길이를 평가해야 하는 이유입니다. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_creation_4.png)
 
