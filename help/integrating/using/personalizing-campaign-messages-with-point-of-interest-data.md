@@ -1,8 +1,6 @@
 ---
-title: 관심 영역 데이터를 사용하여 캠페인 메시지 개인화
-seo-title: 관심 영역 데이터를 사용하여 캠페인 메시지 개인화
-description: 관심 영역 데이터를 사용하여 캠페인 메시지 개인화
-seo-description: POV 데이터 통합을 통해 사용자의 위치를 기반으로 개인화된 메시지를 만드는 방법을 살펴볼 수 있습니다.
+title: Points of Interest 데이터로 Campaign 메시지 개인화
+description: POV 데이터 통합을 통해 사용자의 위치를 기반으로 개인화된 메시지를 만드는 방법을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: d74c3e55-f130-44 파섹
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: a1736ba3-5121-4d01-bf04-sew7e701e2e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 관심 영역 데이터를 사용하여 캠페인 메시지 개인화{#personalizing-campaign-messages-with-point-of-interest-data}
+# Points of Interest 데이터로 Campaign 메시지 개인화{#personalizing-campaign-messages-with-point-of-interest-data}
 
 Adobe Campaign에서 모바일 애플리케이션의 구독자로부터 수집한 관심 영역 데이터를 사용하여 이메일 같은 개인화된 마케팅 메시지를 보낼 수 있습니다.
 
