@@ -1,8 +1,6 @@
 ---
 title: 빠른 시작 이메일 컨텐츠 디자인
-seo-title: 빠른 시작 이메일 컨텐츠 디자인
-description: 빠른 시작 이메일 컨텐츠 디자인
-seo-description: 이메일 디자이너를 사용하여 이메일 컨텐츠 작성을 시작합니다.
+description: 이메일 디자이너를 사용하여 이메일 컨텐츠 작성을 시작합니다.
 page-status-flag: 활성화 안 함
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
