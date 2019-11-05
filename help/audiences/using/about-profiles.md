@@ -1,8 +1,6 @@
 ---
-title: 프로필 정보
-seo-title: 프로필 정보
-description: 프로필 정보
-seo-description: 연락처는 Campaign 데이터베이스에 프로필로 저장되고 전체 라이프사이클에서 업데이트됩니다.
+title: 프로필 기본 정보
+description: 연락처는 Campaign 데이터베이스에 프로필로 저장되고 전체 라이프사이클에서 업데이트됩니다.
 page-status-flag: 활성화 안 함
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: 수신자,개요
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 프로필 정보{#about-profiles}
+# 프로필 기본 정보{#about-profiles}
 
 Adobe Campaign을 사용하면 전체 라이프사이클 동안 연락처를 관리할 수 있습니다.제작, 가져오기, 타깃팅, 작업 추적, 업데이트 등 연락처는 데이터베이스에 연결된 정보를 포함하는 프로필로 저장됩니다.성, 이름, 주소, 구독, 배달 등
 
