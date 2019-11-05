@@ -1,8 +1,6 @@
 ---
 title: 인앱 메시지 준비 및 보내기
-seo-title: 인앱 메시지 준비 및 보내기
-description: 인앱 메시지 준비 및 보내기
-seo-description: 인앱 메시지를 만들어 특정 콘텐츠로 애플리케이션 가입자를 타깃팅합니다.
+description: 인앱 메시지를 만들어 특정 콘텐츠로 애플리케이션 가입자를 타깃팅합니다.
 page-status-flag: 활성화 안 함
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -126,7 +124,7 @@ Adobe Campaign을 사용하여 독립 실행형 인앱 메시지를 만드는 �
 
    ![](assets/inapp_creating_5.png)
 
-1. 메시지 내용을 편집하고 고급 옵션을 정의합니다. 인앱 [메시지 맞춤화를 참조하십시오](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. 메시지 내용을 편집하고 고급 옵션을 정의합니다. See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
