@@ -1,8 +1,6 @@
 ---
-title: 유형 규칙 정보
-seo-title: 유형 규칙 정보
-description: 유형 규칙 정보
-seo-description: Adobe Campaign에서 Typical 규칙이 작동하는 방식을 살펴볼 수 있습니다.
+title: 유형화 규칙 기본 정보
+description: Adobe Campaign에서 Typical 규칙이 작동하는 방식을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: 유형 분류,개요;유형 분류;규칙,main;유형 분류 규�
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 유형 규칙 정보{#about-typology-rules}
+# 유형화 규칙 기본 정보{#about-typology-rules}
 
 유형은 메시지 분석 단계 동안 실행되는 규칙 집합으로서, 대상, 컨텐트 및 다음 요소의 구성을 확인할 수 있습니다.제목, URL, 이미지, 구독 취소 링크, 증명 크기 등
 
