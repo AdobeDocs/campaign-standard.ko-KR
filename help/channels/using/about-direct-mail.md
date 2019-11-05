@@ -1,62 +1,60 @@
 ---
-title: DM 요약 정보
-seo-title: DM 요약 정보
-description: DM 요약 정보
-seo-description: Adobe Campaign에서 다이렉트 메일 채널의 주요 특징을 살펴볼 수 있습니다.
-page-status-flag: 정품 인증 안 함
-uuid: 24 Add 992-2 EFE -4 B 73-81 C 9-CDA 3 E 921 AB 16
-contentOwner: Sauviat
-products: sg_ campaign/standard
+title: DM 기본 정보
+description: Adobe Campaign에서 DM 채널의 주요 특성을 살펴볼 수 있습니다.
+page-status-flag: 활성화 안 함
+uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 채널
-content-type: 참조
-topic-tags: DM
-discoiquuid: E 1 FBF 39 C -9 C 30-493 C -8322-9 C 71 E 18 CE 98 C
-context-tags: 전달, Directmailcontent, 뒤로; Deliverycreation, 마법사
+content-type: reference
+topic-tags: 다이렉트 메일
+discoiquuid: e1fbf39c-9c30-49 파섹
+context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About direct mail{#about-direct-mail}
+# DM 기본 정보{#about-direct-mail}
 
-DM는 다이렉트 메일 제공업체가 요구하는 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다. 이를 통해 고객 여정 전반에서 온라인 채널과 오프라인 채널을 혼합할 수 있습니다.
+DM은 DM 제공업체가 요구하는 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다. 고객 여정의 온라인 및 오프라인 채널을 혼합할 수 있습니다.
 
 >[!NOTE]
 >
->이 기능은 선택 사항입니다. 사용권 계약을 확인하십시오. The **[!UICONTROL Export]** role is required to use direct mail. 관리자에게 문의하십시오.
+>이 기능은 선택 사항입니다. 사용권 계약을 확인하십시오. DM을 사용하려면 **[!UICONTROL Export]** 역할이 필요합니다. 관리자에게 문의하십시오.
 
-온라인 채널을 통해 메시지 (이메일, SMS, 모바일 앱 전달 등) 를 Adobe Campaign에서 바로 고객에게 보낼 수 있습니다. 오프라인 채널은 서로 다릅니다. 직접 메일 배달을 준비하면 Adobe Campaign에서 모든 타깃팅된 프로필 및 선택한 연락처 정보 (예: 우편 주소) 를 포함하는 파일을 생성합니다. 그런 다음 실제 전송을 담당할 직접 메일 공급자에게 이 파일을 보낼 수 있습니다.
+온라인 채널을 통해 메시지(이메일, SMS, 모바일 앱 전달 등)를 만들 수 있습니다. Adobe Campaign에서 바로 고객에게 보낼 수 있습니다. 오프라인 채널에서는 다릅니다. Direct Mail 배달을 준비하면 Adobe Campaign은 타깃팅된 모든 프로필 및 선택한 연락처 정보(예: 우편 주소)를 포함하는 파일을 생성합니다. 그러면 이 파일을 다이렉트 메일 제공업체에 보낼 수 있습니다. 이 제공자는 실제 전송을 처리합니다.
 
-다음 섹션에서는 1 shot direct mail delivery를 만들고 생성하는 방법을 설명합니다. 또한 워크플로우에 다이렉트 메일 활동을 포함시켜 온라인 및 오프라인 채널을 결합한 캠페인을 오케스트레이션할 수 있습니다. For more on this, refer to the [Workflows](../../automating/using/workflow-data-and-processes.md) guide.
+다음 섹션에서는 DM(One-Shot Direct Mail) 배달을 만들고 생성하는 방법에 대해 설명합니다. 또한 워크플로우에 직접 메일 활동을 포함하여 온라인 및 오프라인 채널을 결합하는 캠페인을 구성할 수도 있습니다. 자세한 내용은 워크플로우 [안내서를 참조하십시오](../../automating/using/workflow-data-and-processes.md) .
 
 Adobe Campaign의 사용자 프로세스는 다음과 같습니다.
 
 1. 배달 만들기
-1. 대상 선택
+1. 대상자 선택
 1. 컨텐츠 정의
 1. 연락처 날짜 설정
 1. 파일 생성
 
 ## Recommendations {#recommendations}
 
-### Direct mail providers {#direct-mail-providers}
+### DM 공급자 {#direct-mail-providers}
 
-먼저 다이렉트 메일 제공업체에 연락하여 추천을 수집해야 합니다. 추출 파일에 포함해야 하는 프로파일 정보를 식별하고 커뮤니케이션을 개인화하여 고객에게 전송할 수 있습니다. 예를 들어 이름, 우편 주소, 프로모션 코드 등을 들 수 있습니다. These fields are the ones that you will add in the [Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) tab of the direct mail's content.
+우선 다이렉트 메일 제공업체에 연락하여 추천을 수집해야 합니다. 추출 파일에 포함시켜야 하는 프로필 정보를 확인하여 개인화하여 고객에게 보낼 수 있습니다. 예를 들어, 이름과 성, 우편 주소, 프로모션 코드 등이 있습니다. 이러한 필드는 DM 컨텐츠의 추출 [정의](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 탭에서 추가할 필드입니다.
 
-Make sure you have checked the **[!UICONTROL Address specified]** box in your profiles' information. 이 옵션이 활성화되면 프로필이 타겟에 추가됩니다. It is not, it will excluded by a typology rule during the preparation phase (see [Creating the direct mail](../../channels/using/creating-the-direct-mail.md)). 프로필 가져오기 중에 이 필드를 업데이트해야 합니다.
+프로필 정보에 있는 **[!UICONTROL Address specified]** 상자를 선택했는지 확인합니다. 이 옵션을 활성화하면 프로필이 대상에 추가됩니다. 준비 단계 동안 유형 지정 규칙에 의해 제외되지 않습니다(DM [만들기](../../channels/using/creating-the-direct-mail.md)참조). 프로필을 가져오는 동안 이 필드를 업데이트하는 것을 잊지 마십시오.
 
 ![](assets/direct_mail_22.png)
 
-### Postal addresses {#postal-addresses}
+### 우편 주소 {#postal-addresses}
 
-When you add the fields to include in the extraction file, the postal address fields are available in the **[!UICONTROL Location]** node.
+추출 파일에 포함할 필드를 추가하면 **[!UICONTROL Location]** 노드에서 우편 주소 필드를 사용할 수 있습니다.
 
-Adobe Campaign는 가장 일반적인 우편 주소 정규화 다음에 미리 정의된 계산된 필드를 제공합니다. The fields are available in the **[!UICONTROL Postal address]** node.
+Adobe Campaign은 가장 일반적인 우편 주소 정규화를 따르는 미리 정의된 계산된 필드 세트를 제공합니다. 이 필드는 **[!UICONTROL Postal address]** 노드에서 사용할 수 있습니다.
 
-An address can contain up to six lines by default: the first calculated field ( **[!UICONTROL Line 1]** contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city.
+주소는 기본적으로 최대 6개의 줄을 포함할 수 있습니다.첫 번째 계산된 필드(이름과 성을 **[!UICONTROL Line 1]** 포함함, 다음 줄에는 우편 주소(도로 등)가 포함되고, 마지막 줄에는 우편 번호 및 우편 번호 및 시/도가 포함됩니다.
 
 ![](assets/direct_mail_23.png)
 
