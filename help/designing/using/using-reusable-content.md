@@ -1,8 +1,6 @@
 ---
 title: '재사용 가능한 컨텐츠 만들기 및 사용 '
-seo-title: 재사용 가능한 컨텐츠 만들기 및 사용
-description: 재사용 가능한 컨텐츠 만들기 및 사용
-seo-description: 이메일 디자이너를 사용하여 재사용 가능한 이메일 컨텐츠 작성을 시작합니다.
+description: 이메일 디자이너를 사용하여 재사용 가능한 이메일 컨텐츠 작성을 시작합니다.
 page-status-flag: 활성화 안 함
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
