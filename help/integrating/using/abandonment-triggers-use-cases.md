@@ -1,8 +1,6 @@
 ---
 title: 포기 트리거 사용 사례
-seo-title: 포기 트리거 사용 사례
-description: 포기 트리거 사용 사례
-seo-description: Experience Cloud Triggers 통합을 사용하는 방법을 알아봅니다.
+description: Experience Cloud Triggers 통합을 사용하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 9e236165-afd5-4155-9151-c1941dc0af99
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
