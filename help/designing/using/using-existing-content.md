@@ -1,8 +1,6 @@
 ---
-title: '기존 컨텐츠를 사용하여 이메일 디자인 '
-seo-title: '기존 컨텐츠를 사용하여 이메일 디자인 '
-description: '기존 컨텐츠를 사용하여 이메일 디자인 '
-seo-description: 이메일 디자이너의 기존 컨텐츠 이메일 컨텐츠를 사용하여 이메일을 디자인하는 방법을 살펴볼 수 있습니다.
+title: '기존 콘텐츠를 사용한 이메일 디자인 '
+description: 이메일 디자이너의 기존 컨텐츠 이메일 컨텐츠를 사용하여 이메일을 디자인하는 방법을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 자우비
@@ -14,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe2f9ef93e87bfd269a3503eb6d8c88461caf694
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
-# 기존 컨텐츠를 사용하여 디자인 {#designing-using-existing-content}
+# Designing using existing content {#designing-using-existing-content}
 
 ## 기존 컨텐츠 선택{#selecting-an-existing-content}
 
