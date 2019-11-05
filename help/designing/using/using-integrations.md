@@ -1,8 +1,6 @@
 ---
 title: 'Adobe Campaign 통합을 통해 이메일 디자인 '
-seo-title: 'Adobe Campaign 통합을 통해 이메일 디자인  '
-description: 'Adobe Campaign 통합을 통해 이메일 디자인 '
-seo-description: 이메일 디자이너의 Adobe Campaign 통합을 통해 이메일을 디자인하는 방법을 살펴볼 수 있습니다.
+description: 이메일 디자이너의 Adobe Campaign 통합을 통해 이메일을 디자인하는 방법을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -50,7 +48,7 @@ Adobe Campaign은 다양한 이메일 작성 옵션을 제공합니다. 아래 �
  <thead> 
   <tr> 
    <th> </th> 
-   <th> 이메일 디자이너<br /> </th> 
+   <th> Email Designer<br /> </th> 
    <th> Adobe Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -129,7 +127,7 @@ Adobe Campaign은 다양한 이메일 작성 옵션을 제공합니다. 아래 �
   <tr> 
    <td> <strong>자세한 내용</strong><br /> </td> 
    <td> 이메일 <a href="../../designing/using/overview.md">디자이너 정보 보기</a><br /> </td> 
-   <td> Experience <a href="../../integrating/using/integrating-with-experience-manager.md">Manager와 통합을 참조하십시오.</a><br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
    <td> Dreamweaver <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">및 Campaign</a> 보기 및 이 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">비디오 보기</a><br /> </td> 
   </tr> 
  </tbody> 
