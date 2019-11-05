@@ -1,8 +1,6 @@
 ---
 title: 사용자 관리
-seo-title: 사용자 관리
-description: 사용자 관리
-seo-description: 'Adobe Campaign 사용자는 특정 역할을 보유합니다. 기본 사용자 유형을 살펴보십시오. '
+description: 'Adobe Campaign 사용자는 특정 역할을 보유합니다. 기본 사용자 유형을 살펴보십시오. '
 page-status-flag: 활성화 안 함
 uuid: 8c4cc74a-815f-4 파섹
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
