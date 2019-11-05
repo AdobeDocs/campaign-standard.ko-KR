@@ -1,8 +1,6 @@
 ---
 title: 외부 API
-seo-title: 외부 API
-description: 외부 API
-seo-description: null
+description: null
 contentOwner: 자우비
 products: SG_CAMPAIGN/STANDARD
 audience: 자동화
@@ -12,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 597396beb733c8f0b739720e951d2a42f5645af6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
