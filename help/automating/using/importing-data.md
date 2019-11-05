@@ -1,8 +1,6 @@
 ---
 title: 데이터 가져오기
-seo-title: 데이터 가져오기
-description: 데이터 가져오기
-seo-description: 워크플로우를 통해 데이터를 가져오는 방법을 살펴봅니다.
+description: 워크플로우를 통해 데이터를 가져오는 방법을 살펴봅니다.
 page-status-flag: 활성화 안 함
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
