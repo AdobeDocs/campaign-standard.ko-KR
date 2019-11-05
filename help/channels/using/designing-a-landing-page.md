@@ -1,8 +1,6 @@
 ---
 title: 랜딩 페이지 디자인
-seo-title: 랜딩 페이지 디자인
-description: 랜딩 페이지 디자인
-seo-description: 랜딩 페이지의 컨텐츠를 디자인하고 서비스에 연결하려면 다음 단계를 따르십시오.
+description: 랜딩 페이지의 컨텐츠를 디자인하고 서비스에 연결하려면 다음 단계를 따르십시오.
 page-status-flag: 활성화 안 함
 uuid: de6fe190-835c-40fd-8101-a809b430b423
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
