@@ -1,8 +1,6 @@
 ---
 title: Campaign에서 옵트인 및 옵트아웃 관리
-seo-title: Campaign에서 옵트인 및 옵트아웃 관리
-description: Campaign에서 옵트인 및 옵트아웃 관리
-seo-description: Adobe Campaign에서 옵트인 및 옵트아웃을 관리하는 방법을 이해합니다.
+description: Adobe Campaign에서 옵트인 및 옵트아웃을 관리하는 방법을 이해합니다.
 page-status-flag: 활성화 안 함
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
