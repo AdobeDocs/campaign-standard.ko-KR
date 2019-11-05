@@ -1,8 +1,6 @@
 ---
-title: 릴리스 노트 2017
-seo-title: 릴리스 노트 2017
-description: 릴리스 노트 2017
-seo-description: 이 페이지에는 Adobe Campaign Standard 2017 릴리스의 모든 목록이 표시됩니다.
+title: 2017년 릴리스 정보
+description: 이 페이지에는 Adobe Campaign Standard 2017 릴리스의 모든 목록이 표시됩니다.
 page-status-flag: 활성화 안 함
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7a091f0fd4b191a9f81dfe3a8c74e1624de72f12
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 릴리스 노트 2017{#release-notes}
+# 2017년 릴리스 정보{#release-notes}
 
 Adobe Campaign Standard의 2017 특정 릴리스를 찾고 계십니까?
 
@@ -92,7 +90,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 * 활동 관련 문제를 **[!UICONTROL Reconciliation]** 수정했습니다.
 * 활동에서 와일드카드 문자를 사용하는 문제를 **[!UICONTROL File Transfer]** 수정했습니다.
 
-#### 프로필 및 대상 {#profiles-and-audiences}
+#### 프로필 및 대상자 {#profiles-and-audiences}
 
 * 특정 경우에 쿼리 조건을 올바로 고려하지 않아 잘못된 결과가 발생하는 문제를 수정했습니다.
 * 미리 준비했지만 전송되지 않고 만료되지 않은 메시지에서 프로필이 타깃팅된 경우 프로필이 액세스하지 못하게 하는 문제를 해결했습니다.
@@ -173,7 +171,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 * 이제 eVar 및 이벤트가 분석 및 캠페인 통합에 대해 지원됩니다.
 * 중단된 장바구니의 컨텐츠가 포함된 이메일을 보낼 때 장바구니에서 제거된 요소에 대한 페이로드 매개 변수는 이제 선택 사항입니다.
 
-#### 프로필 및 대상 {#profiles-and-audiences-1}
+#### 프로필 및 대상자 {#profiles-and-audiences-1}
 
 * 이제 Adobe Campaign에서 활성 프로필 수를 표시하는 보고서를 제공합니다. 이 보고서는 단지 유익할 뿐이며, 대금 청구에 직접적인 영향을 주지 않습니다. 자세한 내용은 [자세한 설명서를](../../audiences/using/active-profiles.md)참조하십시오.
 * 프로필 및 서비스 API를 사용할 때 프로필이 서비스에 구독되지 않는 문제를 해결했습니다.
