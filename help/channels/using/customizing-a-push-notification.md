@@ -1,8 +1,6 @@
 ---
 title: 푸시 알림 사용자 정의
-seo-title: 푸시 알림 사용자 정의
-description: 푸시 알림 사용자 정의
-seo-description: 다양한 고급 옵션을 사용하여 푸시 알림을 사용자 지정하는 방법을 알아봅니다.
+description: 다양한 고급 옵션을 사용하여 푸시 알림을 사용자 지정하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: delivery,mobileAppContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12134f388c6406b1b7c5821a1ae49c2332ae33cb
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
