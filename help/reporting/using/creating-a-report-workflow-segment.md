@@ -1,8 +1,6 @@
 ---
-title: 워크플로우 세그먼트를 기반으로 보고서 만들기
-seo-title: 워크플로우 세그먼트를 기반으로 보고서 만들기
-description: 워크플로우 세그먼트를 기반으로 보고서 만들기
-seo-description: 보고서에서 워크플로우 세그먼트에 따라 게재의 성공을 확인하는 방법을 알아봅니다.
+title: 워크플로우 세그먼트 기반 보고서 만들기
+description: 보고서에서 워크플로우 세그먼트에 따라 게재의 성공을 확인하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: 벤치
@@ -14,12 +12,12 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 워크플로우 세그먼트를 기반으로 보고서 만들기{#creating-a-report-workflow-segment}
+# 워크플로우 세그먼트 기반 보고서 만들기{#creating-a-report-workflow-segment}
 
 워크플로우를 만들고 인구를 다른 타깃팅된 대상으로 필터링한 후 이 타깃팅 워크플로우에 정의된 세그먼트를 기반으로 마케팅 캠페인의 효율성을 측정할 수 있습니다.
 보고서에서 이러한 세그먼트를 타게팅하려면:
