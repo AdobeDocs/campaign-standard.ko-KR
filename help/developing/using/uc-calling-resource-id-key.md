@@ -1,15 +1,13 @@
 ---
-title: 복합 식별 키를 사용하여 리소스 호출
-seo-title: 복합 식별 키를 사용하여 리소스 호출
-description: 복합 식별 키를 사용하여 리소스 호출
-seo-description: 복합 식별 키를 사용하여 리소스를 호출하는 방법 학습
+title: 복합 식별 키로 리소스 호출
+description: 복합 식별 키를 사용하여 리소스를 호출하는 방법 학습
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 복합 식별 키를 사용하여 리소스 호출{#calling-a-resource-using-a-composite-identification-key}
+# 복합 식별 키로 리소스 호출{#calling-a-resource-using-a-composite-identification-key}
 
 경우에 따라 두 필드로 구성된 리소스 및 ID 키를 정의해야 할 수 있습니다. 식별 키가 구성되면 Campaign Standard 인터페이스 또는 API에서 이 식별 키로 리소스를 호출할 수 있도록 필터 정의를 구성해야 합니다.
 
