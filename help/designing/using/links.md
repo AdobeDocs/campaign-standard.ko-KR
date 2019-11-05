@@ -1,8 +1,6 @@
 ---
 title: 링크 관리
-seo-title: 링크 관리
-description: '링크 관리 '
-seo-description: 이메일 디자이너와 링크를 관리하는 방법을 알아봅니다.
+description: 이메일 디자이너와 링크를 관리하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
