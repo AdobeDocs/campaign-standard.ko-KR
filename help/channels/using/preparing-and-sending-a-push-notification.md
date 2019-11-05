@@ -1,8 +1,6 @@
 ---
-title: 푸시 알림 준비 및 전송
-seo-title: 푸시 알림 준비 및 전송
-description: 푸시 알림 준비 및 전송
-seo-description: 다음 단계에 따라 Adobe Campaign에서 단일 전송 푸시 알림을 만듭니다.
+title: 푸시 알림 준비 및 보내기
+description: 다음 단계에 따라 Adobe Campaign에서 단일 전송 푸시 알림을 만듭니다.
 page-status-flag: 활성화 안 함
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: delivery,mobileAppContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 푸시 알림 준비 및 전송{#preparing-and-sending-a-push-notification}
+# 푸시 알림 준비 및 보내기{#preparing-and-sending-a-push-notification}
 
 ## 알림 준비 {#preparing-the-notification}
 
@@ -61,7 +59,7 @@ Adobe Campaign을 사용하여 푸시 알림을 만드는 단계는 다음과 �
 
 1. 이제 푸시 알림을 사용자 정의할 수 있습니다. 먼저 메시지 스타일을 선택합니다. **[!UICONTROL Alert/Message/Badge]** 또는 **[!UICONTROL Silent push]**. 푸시 알림 유형은 푸시 알림 [정보](../../channels/using/about-push-notifications.md) 섹션에 설명되어 있습니다.
 
-   푸시 알림의 컨텐츠를 편집하고 고급 옵션을 정의합니다. 푸시 [알림](../../channels/using/customizing-a-push-notification.md)사용자 지정을 참조하십시오.
+   푸시 알림의 컨텐츠를 편집하고 고급 옵션을 정의합니다. See [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/push_notif_content.png)
 
@@ -119,7 +117,7 @@ Adobe Campaign을 사용하여 푸시 알림을 만드는 단계는 다음과 �
 
    >[!NOTE]
    >
-   >원인은 Adobe Campaign의 다운스트림으로 인한 오류일 수 있습니다. apns, fcm과 같은 제공업체의 장애 시, 그 이유도 이를 반영합니다. 공급자 실패에 대한 자세한 내용은 Apple 및 Android [설명서를](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) 참조하십시오 [](https://firebase.google.com/docs/cloud-messaging/http-server-ref) .
+   >원인은 Adobe Campaign의 다운스트림으로 인한 오류일 수 있습니다. apns, fcm과 같은 제공업체에서 오류가 발생하는 경우, 그 이유는 이러한 문제를 반영하게 됩니다. 공급자 실패에 대한 자세한 내용은 Apple 및 Android [설명서를](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) 참조하십시오 [](https://firebase.google.com/docs/cloud-messaging/http-server-ref) .
 
    ![](assets/push_send_6.png)
 
