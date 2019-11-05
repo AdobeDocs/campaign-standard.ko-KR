@@ -1,27 +1,25 @@
 ---
 title: 데이터 모델 변경 모니터링
-seo-title: 데이터 모델 변경 모니터링
-description: 데이터 모델 변경 모니터링
-seo-description: Adobe Campaign 데이터 모델을 진단하는 방법을 알아봅니다.
-page-status-flag: 정품 인증 안 함
-uuid: 994 F 1 E 85-107 D -4348-A 197-87 A 95853 FCA 6
-contentOwner: Sauviat
-products: sg_ campaign/standard
-audience: developing
-content-type: 참조
-topic-tags: About-custom-resources
-discoiquuid: c 6375 a 92-339 f -4123-bc 69-b 0 da 1 deaf 577
+description: Adobe Campaign 데이터 모델을 진단하는 방법을 알아봅니다.
+page-status-flag: 활성화 안 함
+uuid: 994f1e85-107d-4348-a197-87a95853fca6
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
+audience: 개발
+content-type: reference
+topic-tags: about-custom-resources
+discoiquuid: c6375a92-339f-4123-bc69-b0da1audience577
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Monitoring data model changes{#monitoring-data-model-changes}
+# 데이터 모델 변경 모니터링{#monitoring-data-model-changes}
 
-**[!UICONTROL Diagnosis]** 메뉴를 통해 애플리케이션에서 생성된 다양한 기술 개체를 분석할 수 있습니다.
+이 **[!UICONTROL Diagnosis]** 메뉴에서는 응용 프로그램에서 생성된 서로 다른 기술 개체를 분석하여 분석할 수 있습니다.
 
 >[!NOTE]
 >
@@ -29,11 +27,11 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
 
 ![](assets/diagnostic.png)
 
-다음과 같은 유형의 개체를 볼 수 있습니다.
+다음 유형의 객체를 볼 수 있습니다.
 
 * 데이터 스키마
 * 웹 페이지
 * 필터
-* 내비게이션
+* 탐색
 * 일괄 작업
 
