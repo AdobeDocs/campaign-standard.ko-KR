@@ -1,8 +1,6 @@
 ---
-title: SMS 및 푸시 컨텐츠 편집기 인터페이스
-seo-title: SMS 및 푸시 컨텐츠 편집기 인터페이스
-description: SMS 및 푸시 컨텐츠 편집기 인터페이스
-seo-description: 편집기의 다양한 섹션을 사용하여 SMS를 수정하고 콘텐츠를 푸시하는 방법을 알아봅니다.
+title: SMS 및 푸시 콘텐츠 편집기 인터페이스
+description: 편집기의 다양한 섹션을 사용하여 SMS를 수정하고 콘텐츠를 푸시하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: 전달,smsContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# SMS 및 푸시 컨텐츠 편집기 인터페이스{#sms-and-push-content-editor-interface}
+# SMS 및 푸시 콘텐츠 편집기 인터페이스{#sms-and-push-content-editor-interface}
 
 SMS 및 푸시 컨텐츠 편집기는 메시지를 보고 편집할 수 있도록 두 개의 서로 다른 섹션으로 구성되어 있습니다.
 
@@ -75,7 +73,7 @@ SMS 및 푸시 컨텐츠 편집기는 메시지를 보고 편집할 수 있도�
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">동적 텍스트</span> 활성화 <br /> </td> 
    <td> SMS 및 푸시<br /> </td> 
-   <td> 컨텐츠에 동적 텍스트를 삽입할 수 있습니다. 동적 <a href="../../channels/using/defining-dynamic-text.md" target="_blank">텍스트</a>정의를 참조하십시오.<br /> </td> 
+   <td> 컨텐츠에 동적 텍스트를 삽입할 수 있습니다. See <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Defining dynamic text</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
