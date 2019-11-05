@@ -1,8 +1,6 @@
 ---
-title: 배달 실패 이해
-seo-title: 배달 실패 이해
-description: 배달 실패 이해
-seo-description: Campaign을 사용하여 배달 실패를 관리하는 방법을 알아봅니다.
+title: 게재 실패 이해
+description: Campaign을 사용하여 배달 실패를 관리하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 배달 실패 이해{#understanding-delivery-failures}
+# 게재 실패 이해{#understanding-delivery-failures}
 
 ## 배달 실패 정보 {#about-delivery-failures}
 
@@ -35,7 +33,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 **관련 항목:**
 
-* [검역 관리 이해](../../sending/using/understanding-quarantine-management.md)
+* [스팸 차단 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [Campaign에서 블랙 목록 관리](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## 메시지에 대한 배달 실패 식별 {#identifying-delivery-failures-for-a-message}
