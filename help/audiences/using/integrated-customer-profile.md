@@ -1,8 +1,6 @@
 ---
-title: 통합된 고객 프로필
-seo-title: 통합된 고객 프로필
-description: 통합된 고객 프로필
-seo-description: '"하나의 관점에서 모든 고객 인터랙션을 추적할 수 있습니다.Adobe Campaign 통합 고객 프로필은 고객 라이프사이클 전반에서 업데이트됩니다."'
+title: Integrated customer profile
+description: '"하나의 관점에서 모든 고객 인터랙션을 추적할 수 있습니다.Adobe Campaign 통합 고객 프로필은 고객 라이프사이클 전반에서 업데이트됩니다."'
 page-status-flag: 활성화 안 함
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 통합된 고객 프로필{#integrated-customer-profile}
+# Integrated customer profile{#integrated-customer-profile}
 
 통합 고객 프로필은 데이터베이스의 각 연락처에 대해 사용할 수 있습니다. 이 마케팅 내역은 고객과의 접점에 관한 모든 관련 마케팅 정보를 하나의 뷰로 결합합니다. 그런 다음 모든 디지털 행동, 온라인 및 오프라인 거래를 중앙에서 액세스할 수 있습니다.연락처 정보, 수신 이메일, 추적 로그, 구독 및 구독 취소 등
 
