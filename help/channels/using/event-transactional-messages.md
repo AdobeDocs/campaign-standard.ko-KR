@@ -1,8 +1,6 @@
 ---
 title: 이벤트 트랜잭션 메시지
-seo-title: 이벤트 트랜잭션 메시지
-description: 이벤트 트랜잭션 메시지
-seo-description: 이벤트 트랜잭션 메시지를 만들고 게시하는 방법에 대해 알아봅니다.
+description: 이벤트 트랜잭션 메시지를 만들고 게시하는 방법에 대해 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,개요
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
