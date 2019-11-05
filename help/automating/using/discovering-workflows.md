@@ -1,8 +1,6 @@
 ---
-title: 워크플로우 검색
-seo-title: 워크플로우 검색
-description: 워크플로우 검색
-seo-description: Adobe Campaign은 프로세스를 설계 및 자동화할 수 있는 포괄적인 그래픽 환경을 제공합니다.
+title: 워크플로우 살펴보기
+description: Adobe Campaign은 프로세스를 설계 및 자동화할 수 있는 포괄적인 그래픽 환경을 제공합니다.
 page-status-flag: 활성화 안 함
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 워크플로우 검색{#discovering-workflows}
+# 워크플로우 살펴보기{#discovering-workflows}
 
 Adobe Campaign은 세그멘테이션, 캠페인 실행, 파일 처리, 승인 등 [복잡한 프로세스를](../../automating/using/workflow-interface.md) 디자인할 수 있는 포괄적인 [그래픽 환경을](../../automating/using/workflow-operating-principles.md) 제공합니다. 원칙 및 우수 사례는 [이 섹션에](../../automating/using/building-a-workflow.md)설명되어 있습니다.
 
@@ -39,7 +37,7 @@ Adobe Campaign은 세그멘테이션, 캠페인 실행, 파일 처리, 승인 �
 **관련 항목:**
 
 * [워크플로우 운영 원칙](../../automating/using/workflow-operating-principles.md)
-* [데이터 가져오기 및 내보내기 정보](../../automating/using/about-data-import-and-export.md)
+* [데이터 가져오기 및 내보내기 기본 정보](../../automating/using/about-data-import-and-export.md)
 * [사용 사례:일주일에 한 번 이메일 전달 만들기](../../automating/using/workflow-weekly-offer.md)
 * [사용 사례:위치에 세그먼트화된 배달 만들기](../../automating/using/workflow-segmentation-location.md)
 * [사용 사례:보충으로 배달 만들기](../../automating/using/workflow-created-query-with-complement.md)
