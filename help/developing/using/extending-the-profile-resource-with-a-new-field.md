@@ -1,8 +1,6 @@
 ---
-title: 새 필드를 사용하여 프로필 리소스 확장
-seo-title: 새 필드를 사용하여 프로필 리소스 확장
-description: 새 필드를 사용하여 프로필 리소스 확장
-seo-description: 프로필 리소스를 확장하는 방법을 알아봅니다.
+title: 새 필드로 프로필 리소스 확장
+description: 프로필 리소스를 확장하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 9b99e95c-9 파섹
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 새 필드를 사용하여 프로필 리소스 확장{#extending-the-profile-resource-with-a-new-field}
+# 새 필드로 프로필 리소스 확장{#extending-the-profile-resource-with-a-new-field}
 
 ## 프로파일 확장 정보 {#about-extending-profiles}
 
@@ -40,7 +38,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 관련 항목:
 
-* [사용자 지정 리소스 정보](../../developing/using/data-model-concepts.md)
+* [사용자 지정 리소스 기본 정보](../../developing/using/data-model-concepts.md)
 * [프로필 관리](../../audiences/using/about-profiles.md)
 * [테스트 프로필 관리](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
 
