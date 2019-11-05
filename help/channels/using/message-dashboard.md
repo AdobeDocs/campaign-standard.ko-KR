@@ -1,8 +1,6 @@
 ---
 title: 메시지 대시보드
-seo-title: 메시지 대시보드
-description: 메시지 대시보드
-seo-description: 작업 표시줄 및 다양한 기능 블록을 포함하여 메시지 대시보드가 무엇으로 구성되어 있는지 살펴볼 수 있습니다.
+description: 작업 표시줄 및 다양한 기능 블록을 포함하여 메시지 대시보드가 무엇으로 구성되어 있는지 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: 배달, 기본
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -76,5 +74,5 @@ source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 * **[!UICONTROL Deployment]**:메시지 준비 또는 전송의 진행 상태를 추적할 수 있습니다. 이 블록의 오른쪽 아래에 있는 단추를 클릭하여 보내기 및 분석 로그에 액세스합니다. 이 블록은 전송을 준비한 경우에만 나타납니다. 자세한 내용 보내기 [확인을](../../sending/using/confirming-the-send.md)참조하십시오.
 * **[!UICONTROL Audience]**:테스트 프로필뿐만 아니라 메시지의 주 대상을 설정할 수 있습니다. 대상자 [만들기를](../../audiences/using/creating-audiences.md)참조하십시오.
 * **[!UICONTROL Schedule]**:메시지를 보낼 날짜를 지정할 수 있습니다. 예약을 [참조하십시오](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**:메시지의 컨텐츠를 정의하고 미리 볼 수 있습니다. 메시지를 [보내려면 주요 단계를 참조하십시오](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Content]**:메시지의 컨텐츠를 정의하고 미리 볼 수 있습니다. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
