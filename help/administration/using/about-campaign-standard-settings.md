@@ -1,8 +1,6 @@
 ---
-title: Campaign Standard 설정 정보
-seo-title: Campaign Standard 설정 정보
-description: Campaign Standard 설정 정보
-seo-description: Campaign Standard 설정 정보
+title: Campaign Standard 설정 기본 정보
+description: Campaign Standard 설정 기본 정보
 page-status-flag: 활성화 안 함
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: 자우비
@@ -15,12 +13,12 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,개요
 translation-type: tm+mt
-source-git-commit: c6c6d2a2a2b898486447826e358e98f679888aa1
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Campaign Standard 설정 정보{#about-campaign-standard-settings}
+# Campaign Standard 설정 기본 정보{#about-campaign-standard-settings}
 
 [!DNL Campaign] Standard에는 요구 사항에 맞게 구성할 수 있는 다양한 애플리케이션 요소가 포함되어 있습니다. 예를 들면 다음과 같습니다.
 
