@@ -1,106 +1,104 @@
 ---
-title: Analytics의 캠페인 차원 및 지표
-seo-title: Analytics의 캠페인 차원 및 지표
-description: Analytics의 캠페인 차원 및 지표
-seo-description: Adobe Analytics에서 제공되는 다양한 차원을 살펴보고 Adobe Campaign에서 이메일 배달을 추적할 수 있습니다.
-page-status-flag: 정품 인증 안 함
-uuid: Effa 1028-66 B 2-4 BEF-B 5 E 4-7319 DBB 23 D 5 D
-contentOwner: Sauviat
-products: sg_ campaign/standard
+title: Analytics에서 Campaign 차원 및 지표 보기
+description: Adobe Analytics에서 찾을 수 있는 다양한 차원을 학습하여 Adobe Campaign에서 이메일 게재 추적을 시작합니다.
+page-status-flag: 활성화 안 함
+uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 통합
-content-type: 참조
-topic-tags: Working-with-campaign-and-analytics
-discoiquuid: EB 3639 F 5-7246-46 c 4-8 DDB-DA 9413 B 40 C 32
+content-type: reference
+topic-tags: working-with-campaign-and-analytics
+discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Campaign dimensions and metrics in Analytics{#campaign-dimensions-and-metrics-in-analytics}
+# Analytics에서 Campaign 차원 및 지표 보기{#campaign-dimensions-and-metrics-in-analytics}
 
-Adobe Campaign와 Adobe Analytics 통합을 통해 Adobe Analytics에서 이메일 게재 성과를 추적할 수 있습니다.
+Adobe Campaign 및 Adobe Analytics와의 통합을 통해 Adobe Analytics에서 직접 이메일 전달의 성공을 추적할 수 있습니다.
 
-Campaign **[!UICONTROL dimensions]** found in Analytics are listed below:
+Analytics에서 **[!UICONTROL dimensions]** 찾은 캠페인은 다음과 같습니다.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimension<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 차원<br /> </th> 
+   <th> 정의<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Campaign ID<br /> </td> 
-   <td> Campaign's internal name as seen in Campaign<br /> </td> 
+   <td> 캠페인 ID<br /> </td> 
+   <td> 캠페인에서 본 캠페인의 내부 이름<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign label<br /> </td> 
-   <td> Campaign's label as seen in Campaign<br /> </td> 
+   <td> 캠페인 레이블<br /> </td> 
+   <td> 캠페인에 표시된 캠페인 레이블<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery ID<br /> </td> 
-   <td> 캠페인에서 볼 때의 내부 이름.<br /> 예를 들어 DM 1는 매주 하위 배달을 전송하도록 예약된 반복 배달입니다. DM 2, DM 3 및 DM 4는 처음 3 주 동안 전송됩니다. The Delivery ID dimension will then display the results for every delivery, namely DM1 to DM4. <br /> </td> 
+   <td> 배달 ID<br /> </td> 
+   <td> Campaign에 표시된 게재 내부 이름입니다.<br /> 예를 들어 DM1은 매주 하위 배달 전송을 보내도록 예약된 반복 배달입니다. DM2, DM3 및 DM4는 처음 3주 동안 전송됩니다. 그런 다음 배달 ID 차원은 모든 배달(즉, DM1 - DM4)에 대한 결과를 표시합니다. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery label<br /> </td> 
-   <td> Delivery's label as seen in Campaign<br /> </td> 
+   <td> 배달 레이블<br /> </td> 
+   <td> 캠페인에 표시된 게재 레이블<br /> </td> 
   </tr> 
   <tr> 
-   <td> Executed delivery ID<br /> </td> 
-   <td> 캠페인에서 볼 때의 내부 이름. 이는 캠페인에서 실행 중인 전달에만 적용됩니다.<br /> 예를 들어 DM 1는 매주 하위 배달을 전송하도록 예약된 반복 배달입니다. DM 2, DM 3 및 DM 4는 처음 3 주 동안 전송됩니다. The Executed delivery ID dimension will then display the results for the executed deliveries, namely the child deliveries DM2, DM3 and DM4. <br /> </td> 
+   <td> 수행된 배달 ID<br /> </td> 
+   <td> Campaign에 표시된 게재 내부 이름입니다. 이는 Campaign의 실행에 대한 전달에만 해당됩니다.<br /> 예를 들어 DM1은 매주 하위 배달 전송을 보내도록 예약된 반복 배달입니다. DM2, DM3 및 DM4는 처음 3주 동안 전송됩니다. 그런 다음 실행된 배달 ID 차원은 하위 배달 DM2, DM3 및 DM4 등의 실행 결과를 표시합니다. <br /> </td> 
   </tr> 
   <tr> 
-   <td> Executed delivery label<br /> </td> 
-   <td> 캠페인에서 본 게재 레이블입니다. This only concerns delivery in execution in Campaign.<br /> </td> 
+   <td> 수행된 배달 레이블<br /> </td> 
+   <td> 게재 레이블에 표시됩니다. 이는 Campaign의 실행에 대한 전달에만 해당됩니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Campaign **[!UICONTROL metrics]** found in Analytics are listed below:
+Analytics에서 **[!UICONTROL metrics]** 찾은 캠페인은 다음과 같습니다.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 지표<br /> </th> 
+   <th> 정의<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Clicked<br /> </td> 
-   <td> Number of times a content was clicked in a delivery.<br /> </td> 
+   <td> 클릭됨<br /> </td> 
+   <td> 게재에서 컨텐츠를 클릭한 횟수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Number of messages successfully sent, in relation to the total number of sent messages.<br /> </td> 
+   <td> 배달됨<br /> </td> 
+   <td> 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Opened<br /> </td> 
-   <td> Number of times a message was opened in a delivery.<br /> </td> 
+   <td> 열림<br /> </td> 
+   <td> 배달에서 메시지를 연 횟수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sent<br /> </td> 
-   <td> Total number of sends for the delivery.<br /> </td> 
+   <td> 전송<br /> </td> 
+   <td> 배달의 총 전송 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Total Bounces<br /> </td> 
-   <td> Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.<br /> </td> 
+   <td> 총 바운스 수<br /> </td> 
+   <td> 총 보낸 메시지 수와 관련하여 배달 및 자동 반환 처리 중에 누적된 총 오류 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique Open<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
+   <td> 고유 열기<br /> </td> 
+   <td> 배달을 연 받는 사람 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique Click<br /> </td> 
-   <td> Number of recipients who clicked on a content in a delivery.<br /> </td> 
+   <td> 고유 클릭<br /> </td> 
+   <td> 배달에서 콘텐츠를 클릭한 받는 사람 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribed<br /> </td> 
-   <td> Number of clicks on the unsubscription link.<br /> </td> 
+   <td> 구독 취소<br /> </td> 
+   <td> 구독 취소 링크에 대한 클릭 수입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
