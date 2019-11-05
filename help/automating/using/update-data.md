@@ -1,81 +1,79 @@
 ---
 title: 데이터 업데이트
-seo-title: 데이터 업데이트
-description: 데이터 업데이트
-seo-description: 데이터 업데이트 기능을 사용하면 데이터베이스의 필드에 대한 대량 업데이트를 수행할 수 있습니다.
-page-status-flag: 정품 인증 안 함
-uuid: 1 dc 55 db 5-affd -4688-b 673-adfb 8 c 1338 b 5
-contentOwner: Sauviat
-products: sg_ campaign/standard
+description: 데이터 업데이트 작업을 사용하면 데이터베이스의 필드에 대한 대량 업데이트를 수행할 수 있습니다.
+page-status-flag: 활성화 안 함
+uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 자동화
-content-type: 참조
+content-type: reference
 topic-tags: 데이터 관리 활동
-discoiquuid: 4 DB 83 C 95-4 B 75-4 A 16-8 DBF-BD 8940431 FA 9
-context-tags: writer, main
+discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
+context-tags: 작성자,기본
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Update data{#update-data}
+# 데이터 업데이트{#update-data}
 
-## Description {#description}
+## 설명 {#description}
 
 ![](assets/data_update.png)
 
-**[!UICONTROL Update data]** 활동을 통해 데이터베이스의 필드에 대해 대량 업데이트를 수행할 수 있습니다.
+이 **[!UICONTROL Update data]** 활동을 통해 데이터베이스의 필드에 대한 대량 업데이트를 수행할 수 있습니다.
 
-## Context of use {#context-of-use}
+## 사용 상황 {#context-of-use}
 
-The **Update data** activity can be used after importing a file in order to insert the data recovered into the Adobe Campaign database. 여러 옵션을 사용하여 데이터 업데이트를 개인화할 수 있습니다.
+파일 **가져오기 후 Adobe Campaign 데이터베이스에 복구된 데이터를 삽입하기 위해 데이터** 업데이트 활동을 사용할 수 있습니다. 몇 가지 옵션을 사용하여 데이터 업데이트를 개인화할 수 있습니다.
 
-## Configuration {#configuration}
+## 구성 {#configuration}
 
-1. **[!UICONTROL Update data]** 워크플로우를 워크플로우로 드래그하여 놓습니다.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Specify the **[!UICONTROL Operation type]** to be carried out:
+1. 워크플로우를 워크플로우로 드래그하여 **[!UICONTROL Update data]** 놓을 수 있습니다.
+1. 활동을 선택한 다음 나타나는 빠른 작업의 ![](assets/edit_darkgrey-24px.png) 단추를 사용하여 엽니다.
+1. 수행할 **[!UICONTROL Operation type]** 작업을 지정합니다.
 
-   * **[!UICONTROL Insert or update]**: 데이터가 이미 데이터베이스에 있는 경우 데이터를 삽입하거나 업데이트합니다.
-   * **[!UICONTROL Insert only]**: 데이터만 삽입. 이미 존재하는 레코드는 업데이트되지 않습니다. 조정 기준을 정의하면 중재되지 않은 레코드만 추가됩니다.
+   * **[!UICONTROL Insert or update]**:데이터베이스에 레코드가 이미 있으면 데이터를 삽입하거나 업데이트합니다.
+   * **[!UICONTROL Insert only]**:삽입에만 사용할 수 있습니다. 이미 존재하는 레코드는 업데이트되지 않습니다. 조정 기준이 정의된 경우, 대사되지 않은 레코드만 추가됩니다.
 
-      Check the **[!UICONTROL Generate an outbound transition for rejects]** box if the data imported contains certain records that already exist in the database to avoid any possible errors.
+      가져온 데이터에 가능한 오류가 발생하지 않도록 데이터베이스에 이미 존재하는 특정 레코드가 포함되어 있는 **[!UICONTROL Generate an outbound transition for rejects]** 경우 이 확인란을 선택합니다.
 
-   * **[!UICONTROL Update]**: 데이터베이스에 이미 존재하는 레코드만 업데이트합니다.
-   * **[!UICONTROL Delete]**: 데이터 삭제.
+   * **[!UICONTROL Update]**:데이터베이스에 이미 존재하는 레코드의 데이터를 업데이트합니다.
+   * **[!UICONTROL Delete]**:데이터를 삭제합니다.
    >[!NOTE]
    >
-   >**[!UICONTROL Batch size]** 이 필드에서 업로드할 데이터의 최대 일괄 처리 크기를 정의할 수 있습니다.
+   >이 **[!UICONTROL Batch size]** 필드를 사용하면 업로드할 데이터의 최대 배치 크기를 정의할 수 있습니다.
 
-1. **[!UICONTROL Identification]** 탭에서 데이터베이스에서 레코드를 식별하는 방법을 지정합니다.
+1. 탭에서 데이터베이스의 레코드를 식별하는 방법을 지정합니다. **[!UICONTROL Identification]**
 
-   * **[!UICONTROL Using the targeting dimension]**: 을 선택하고 **[!UICONTROL Dimension to update]****[!UICONTROL Keys for finding records]**&#x200B;를 지정합니다. For more this, refer to [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * If the data entered matches an existing targeting dimension, select the **[!UICONTROL Using one or more links]** option. **[!UICONTROL Dimension to update]**&#x200B;그런 다음을 선택합니다.
+   * **[!UICONTROL Using the targeting dimension]**:을 **[!UICONTROL Dimension to update]** 선택한 다음 **[!UICONTROL Keys for finding records]**&#x200B;을 지정합니다. 자세한 내용은 타깃팅 [차원 및 리소스를](../../automating/using/query.md#targeting-dimensions-and-resources)참조하십시오.
+   * 입력한 데이터가 기존 타깃팅 차원과 일치하는 경우 **[!UICONTROL Using one or more links]** 옵션을 선택합니다. 그런 다음 를 **[!UICONTROL Dimension to update]**&#x200B;선택합니다.
    선택한 작업 유형에 업데이트가 필요한 경우 조정 키를 사용해야 합니다.
 
-1. **[!UICONTROL Fields to update]** 탭에서 업데이트가 적용될 필드를 지정하고 필요한 경우 조건을 추가하여 이 업데이트가 수행되도록 합니다. To do this, use the **[!UICONTROL Taken into account if]** column. 조건이 목록 순서대로 적용됩니다. 오른쪽의 화살표를 사용하여 업데이트 순서를 변경합니다. 동일한 대상 필드를 여러 번 사용할 수 있습니다.
+1. 탭에서 업데이트를 적용할 필드를 지정하고 필요한 경우 조건을 추가하여 이 업데이트가 수행되도록 합니다. **[!UICONTROL Fields to update]** 이렇게 하려면 **[!UICONTROL Taken into account if]** 열을 사용합니다. 조건이 목록 순서에서 차례로 적용됩니다. 오른쪽의 화살표를 사용하여 업데이트 순서를 변경합니다. 동일한 대상 필드를 여러 번 사용할 수 있습니다.
 
-   You can automatically link fields using the ![](assets/wkf_magic_wand-24px.png) button. 자동 연결은 이름이 같은 필드를 감지합니다.
+   단추를 사용하여 필드를 자동으로 연결할 수 ![](assets/wkf_magic_wand-24px.png) 있습니다. 자동 연결은 동일한 이름의 필드를 감지합니다.
 
-   **[!UICONTROL Insert or update]** 유형 작업 중에 각 필드에 적용할 작업을 개별적으로 선택할 수 있습니다. To do this, select the value you would like in the **[!UICONTROL Operation]** column.
+   유형 작업 동안 각 필드에 적용할 작업을 개별적으로 선택할 수 있습니다. **[!UICONTROL Insert or update]** 이렇게 하려면 **[!UICONTROL Operation]** 열에서 원하는 값을 선택합니다.
 
    >[!NOTE]
    >
-   >**업데이트를** **[!UICONTROL lastModified]**&#x200B;관리하는 작업은 **[!UICONTROL modifiedBy]****[!UICONTROL created]****[!UICONTROL createdBy]** 필드 업데이트 테이블에서 해당 구성이 명시적으로 수행되지 않는 한 업데이트 데이터 활동이 실행될 때 자동으로 업데이트됩니다. 업데이트는 하나 이상의 차이가 감지된 레코드에서만 수행됩니다. 값이 동일하면 업데이트가 수행되지 않습니다.
+   >**업데이트** 관리 **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]**&#x200B;데이터 업데이트 활동이 실행될 때 필드 업데이트 테이블에서 해당 구성이 명시적으로 수행되지 않는 한, **[!UICONTROL created]****[!UICONTROL createdBy]** , 및 필드는 자동으로 업데이트됩니다. 업데이트는 하나 이상의 차이가 감지된 레코드에서만 수행됩니다. 값이 동일하면 업데이트가 수행되지 않습니다.
 
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
+1. 필요한 경우 활동의 전환을 관리하여 [아웃바운드](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) 모형에 대한 고급 옵션에 액세스합니다.
 
-   If you have selected **[!UICONTROL Insert only]** and the data imported may contain records that are already present in the database, check the **[!UICONTROL Generate an outbound transition for the rejects]** box to avoid any possible errors.
+   이 옵션을 선택한 **[!UICONTROL Insert only]** 경우 가져온 데이터에 데이터베이스에 이미 있는 레코드가 포함될 수 있는 경우 **[!UICONTROL Generate an outbound transition for the rejects]** 이 확인란을 선택하여 오류가 발생하지 않도록 하십시오.
 
-1. 활동의 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로우를 저장합니다.
 
-## Example {#example}
+## 예 {#example}
 
-The following activity shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. 이 워크플로의 목표는 파일에서 복구된 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 것입니다. 사용된 조정 키는 이메일 주소입니다.
+다음 활동은 **[!UICONTROL Update data]** 활동 이후 **[!UICONTROL Load file]** 활동의 구성을 보여줍니다. 이 워크플로우의 목적은 파일에서 복구된 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 것입니다. 사용된 조정 키는 이메일 주소입니다.
 
-The file loaded is a **.txt** format file containing the following example data:
+로드된 파일은 다음 예제 데이터를 포함하는 **.txt** 형식 파일입니다.
 
 ```
 lastname;firstname;email;birthdate
@@ -90,7 +88,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-**[!UICONTROL Update data]** 활동은 다음과 같이 구성됩니다.
+활동은 다음과 같이 구성됩니다. **[!UICONTROL Update data]**
 
 ![](assets/deduplication_example2_writer1.png)
 
