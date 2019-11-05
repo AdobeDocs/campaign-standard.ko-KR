@@ -1,8 +1,6 @@
 ---
-title: 캠페인에서 트리거 사용
-seo-title: 캠페인에서 트리거 사용
-description: 캠페인에서 트리거 사용
-seo-description: null
+title: Campaign에서 트리거 사용
+description: null
 page-status-flag: 활성화 안 함
 uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 캠페인에서 트리거 사용{#using-triggers-in-campaign}
+# Campaign에서 트리거 사용{#using-triggers-in-campaign}
 
 ## Campaign에서 매핑된 트리거 만들기 {#creating-a-mapped-trigger-in-campaign}
 
