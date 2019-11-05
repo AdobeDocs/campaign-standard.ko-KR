@@ -1,8 +1,6 @@
 ---
-title: 동적 보고서 정보
-seo-title: 동적 보고서 정보
-description: 동적 보고서 정보
-seo-description: 동적 보고서를 사용하면 변수 및 차원을 자유 형식 환경으로 드래그하여 놓고 캠페인의 성공을 분석할 수 있습니다.
+title: 동적 보고서 기본 정보
+description: 동적 보고서를 사용하면 변수 및 차원을 자유 형식 환경으로 드래그하여 놓고 캠페인의 성공을 분석할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 동적 보고서 정보{#about-dynamic-reports}
+# 동적 보고서 기본 정보{#about-dynamic-reports}
 
 >[!NOTE]
 >
