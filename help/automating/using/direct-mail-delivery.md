@@ -1,8 +1,6 @@
 ---
-title: 직접 메일 배달
-seo-title: 직접 메일 배달
-description: 직접 메일 배달
-seo-description: DM 배달 활동을 사용하면 워크플로우에서 단일 DM 또는 반복 DM 전송을 구성할 수 있습니다.
+title: DM 게재
+description: DM 배달 활동을 사용하면 워크플로우에서 단일 DM 또는 반복 DM 전송을 구성할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: b8ce4788ed
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: directMail,워크플로,기본
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 직접 메일 배달{#direct-mail-delivery}
+# DM 게재{#direct-mail-delivery}
 
 ## 설명 {#description}
 
