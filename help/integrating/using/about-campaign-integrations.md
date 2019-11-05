@@ -1,8 +1,6 @@
 ---
-title: 캠페인 통합 정보
-seo-title: 캠페인 통합 정보
-description: 캠페인 통합 정보
-seo-description: Adobe Campaign을 사용하면 다른 Adobe 솔루션을 사용하여 다양한 기능을 결합할 수 있습니다.
+title: Campaign 통합 기본 정보
+description: Adobe Campaign을 사용하면 다른 Adobe 솔루션을 사용하여 다양한 기능을 결합할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 캠페인 통합 정보{#about-campaign-integrations}
+# Campaign 통합 기본 정보{#about-campaign-integrations}
 
 이 섹션에서는 현재 버전의 Adobe Campaign과 다른 솔루션 및 서비스 간에 사용할 수 있는 기능 통합에 대해 자세히 설명합니다.
 
@@ -86,7 +84,7 @@ source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">캠페인 및 관심 영역 데이터를</a> 사용하여 위치 기반 마케팅 메시지 보내기(모바일용 분석)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Experience Cloud 트리거<br /> </td> 
+   <td> Experience Cloud Triggers<br /> </td> 
    <td> Adobe Analytics를 통해 웹 사이트에서 추적되는 특정 행동에 대한 반응으로 Adobe Campaign에서 개인화된 이메일을 고객에게 보낼 수 있습니다.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign Standard의 Experience Cloud 트리거</a><br/>사용, <a href="../../integrating/using/abandonment-triggers-use-cases.md">포기 트리거-캠페인 사용 사례</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">사이트 활동 비디오를 기반으로 리마케팅 메시지</a> 트리거(2단계)
