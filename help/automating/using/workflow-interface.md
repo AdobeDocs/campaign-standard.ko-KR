@@ -1,8 +1,6 @@
 ---
 title: 워크플로우 인터페이스
-seo-title: 워크플로우 인터페이스
-description: 워크플로우 인터페이스
-seo-description: 워크플로우를 생성, 편집 및 실행하는 인터페이스와 옵션에 대해 알아봅니다.
+description: 워크플로우를 생성, 편집 및 실행하는 인터페이스와 옵션에 대해 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: 워크플로,기본;워크플로,개요
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
