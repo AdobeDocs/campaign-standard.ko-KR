@@ -1,8 +1,6 @@
 ---
-title: 새 템플릿 만들기
-seo-title: 새 템플릿 만들기
-description: 새 템플릿 만들기
-seo-description: 이메일, SMS, 푸시 알림 전달 등을 위한 기존 기본 활동 템플릿에서 새 템플릿을 만드는 방법을 알아봅니다.
+title: 템플릿 새로 만들기
+description: 이메일, SMS, 푸시 알림 전달 등을 위한 기존 기본 활동 템플릿에서 새 템플릿을 만드는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplat
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 새 템플릿 만들기{#creating-a-new-template}
+# 템플릿 새로 만들기{#creating-a-new-template}
 
 메시지 템플릿은 플랫폼의 기능 관리자가 **[!UICONTROL Resources > Templates]** 메뉴에서 관리할 수 있습니다. 기본 템플릿은 수정하거나 삭제할 수 없습니다. 새 템플릿을 만들려면 기존 템플릿을 복제해야 합니다.
 
