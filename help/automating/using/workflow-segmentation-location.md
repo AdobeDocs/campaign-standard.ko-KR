@@ -1,8 +1,6 @@
 ---
 title: '"워크플로우 사용 사례:위치 세그먼테이션"'
-seo-title: '"워크플로우 사용 사례:위치 세그먼테이션"'
 description: '"워크플로우 사용 사례:위치 세그먼테이션"'
-seo-description: '"워크플로우 사용 사례:위치 세그먼테이션"'
 page-status-flag: 활성화 안 함
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: '워크플로,사용 사례,쿼리,세그멘테이션,전달 '
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -72,4 +70,4 @@ source-git-commit: f7e56dcb4c2bbdc802c9d271d4a44d9a72b239ed
 
 * [쿼리 활동](../../automating/using/query.md)
 * [세그멘테이션 활동](../../automating/using/segmentation.md)
-* [이메일 전달](../../automating/using/email-delivery.md)
+* [이메일 게재](../../automating/using/email-delivery.md)
