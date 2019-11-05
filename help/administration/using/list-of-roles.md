@@ -1,8 +1,6 @@
 ---
 title: 역할 목록
-seo-title: 역할 목록
-description: 역할 목록
-seo-description: 사용자에게 지정할 수 있는 역할 목록을 확인합니다.
+description: 사용자에게 지정할 수 있는 역할 목록을 확인합니다.
 page-status-flag: 활성화 안 함
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: 역할,개요;역할,기본
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -44,6 +42,6 @@ source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
 
 **관련 항목:**
 
-* [액세스 관리 정보](../../administration/using/about-access-management.md)
+* [액세스 관리 기본 정보](../../administration/using/about-access-management.md)
 * [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md)
 
