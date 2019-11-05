@@ -1,8 +1,6 @@
 ---
-title: 트랜잭션 메시지 프로파일링
-seo-title: 트랜잭션 메시지 프로파일링
-description: 트랜잭션 메시지 프로파일링
-seo-description: 프로필 트랜잭션 메시지를 만들고 게시하는 방법에 대해 알아봅니다.
+title: 프로필 트랜잭션 메시지
+description: 프로필 트랜잭션 메시지를 만들고 게시하는 방법에 대해 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 트랜잭션 메시지 프로파일링{#profile-transactional-messages}
+# 프로필 트랜잭션 메시지{#profile-transactional-messages}
 
 고객 마케팅 프로필을 기반으로 트랜잭션 메시지를 전송할 수 있으므로 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -42,7 +40,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ## 프로필 트랜잭션 메시지 보내기 {#sending-a-profile-transactional-message}
 
-프로필 트랜잭션 메시지를 만들고, 개인화하고, 게시하기 위한 단계는 이벤트 트랜잭션 메시지의 경우와 동일합니다. 이벤트 [트랜잭션 메시지를](../../channels/using/event-transactional-messages.md)참조하십시오.
+프로필 트랜잭션 메시지를 만들고, 개인화하고, 게시하기 위한 단계는 이벤트 트랜잭션 메시지의 경우와 동일합니다. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 차이점이 아래에 나와 있습니다.
 
