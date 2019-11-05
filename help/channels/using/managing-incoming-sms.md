@@ -1,8 +1,6 @@
 ---
 title: 수신 SMS 관리
-seo-title: 수신 SMS 관리
-description: 수신 SMS 관리
-seo-description: Adobe Campaign에서 STOP SMS를 관리하고 수신 SMS를 저장하는 방법을 알아봅니다.
+description: Adobe Campaign에서 STOP SMS를 관리하고 수신 SMS를 저장하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: f063052b-96ef-41b6-bf1b-4006de73f0b9
 contentOwner: 자우비
@@ -15,7 +13,7 @@ delivercontext-tags: 전달,smsContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
