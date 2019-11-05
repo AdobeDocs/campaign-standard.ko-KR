@@ -1,8 +1,6 @@
 ---
 title: 이메일의 이미지 관리
-seo-title: 이메일의 이미지 관리
-description: 이메일의 이미지 관리
-seo-description: 이메일 디자이너를 사용하여 이메일의 이미지를 관리하는 방법을 살펴볼 수 있습니다.
+description: 이메일 디자이너를 사용하여 이메일의 이미지를 관리하는 방법을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
