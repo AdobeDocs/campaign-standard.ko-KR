@@ -1,8 +1,6 @@
 ---
-title: 단계별 가이드
-seo-title: 단계별 가이드
-description: 단계별 가이드
-seo-description: 간단한 단계별 절차를 통해 Adobe Campaign의 기본 사항을 학습하고 강력한 솔루션을 경험할 수 있습니다.
+title: 단계별 지침
+description: 간단한 단계별 절차를 통해 Adobe Campaign의 기본 사항을 학습하고 강력한 솔루션을 경험할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 8d6d5f62-e564-4b5b-86ef-2b7ac5f8ab62
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 단계별 가이드{#step-by-step-guides}
+# 단계별 지침{#step-by-step-guides}
 
 직관적인 단계별 가이드를 통해 Adobe Campaign을 시작합니다.
 
