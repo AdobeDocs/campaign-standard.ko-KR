@@ -1,8 +1,6 @@
 ---
-title: 인앱 메시지 정보
-seo-title: 인앱 메시지 정보
-description: 인앱 메시지 정보
-seo-description: 인앱 메시징을 사용하여 모바일 애플리케이션 내에서 메시지 또는 경고를 표시합니다.
+title: 인앱 메시지 기본 정보
+description: 인앱 메시징을 사용하여 모바일 애플리케이션 내에서 메시지 또는 경고를 표시합니다.
 page-status-flag: 활성화 안 함
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: 배달, 트리거, 뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 인앱 메시지 정보{#about-in-app-messaging}
+# 인앱 메시지 기본 정보{#about-in-app-messaging}
 
 인앱 메시지는 사용자가 모바일 애플리케이션 내에서 활성 상태일 때 메시지를 표시할 수 있는 메시지 채널입니다. 이 메시지 유형은 사용자의 전화의 알림 센터로 전달되는 푸시 알림에 대해 무료로 사용할 수 있습니다. 푸시 알림 채널에 대한 자세한 내용은 이 [섹션을](../../channels/using/about-push-notifications.md)참조하십시오.
 
