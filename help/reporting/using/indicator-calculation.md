@@ -1,66 +1,64 @@
 ---
-title: 표시기 계산
-seo-title: 표시기 계산
-description: 표시기 계산
-seo-description: 모든 지표의 공식 목록을 사용하여 보고서의 결과를 파악합니다.
-page-status-flag: 정품 인증 안 함
-uuid: dfbc 9 d 7 e -62 db -4 e 77-bb 8 e -0 ac 826 ec 7333
-contentOwner: Sauviat
-products: sg_ campaign/standard
+title: 지표 계산
+description: 모든 지표의 공식 목록을 사용하여 보고서 결과를 이해합니다.
+page-status-flag: 활성화 안 함
+uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec733
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 보고
-content-type: 참조
-topic-tags: 보고 정보
-discoiquuid: 45 B 11631-6 B 32-4074-8 C 8 D-AFFD 06407810
+content-type: reference
+topic-tags: 정보 보고
+discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Indicator calculation{#indicator-calculation}
+# 지표 계산{#indicator-calculation}
 
-아래 표는 배달 유형에 따라 다른 보고서와 그 계산 공식에 사용된 지표 목록을 제공합니다.
+아래 표에는 배달 유형에 따라 다른 보고서에 사용된 지표 목록과 계산 공식이 나와 있습니다.
 
-## Email delivery {#email-delivery}
+## 이메일 게재 {#email-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>label</strong><br /> </th> 
+   <th> <strong>레이블</strong><br /> </th> 
    <th> <strong>필드 이름</strong><br /> </th> 
-   <th> <strong>표시기 계산 공식</strong><br /> </th> 
+   <th> <strong>지표 계산 공식</strong><br /> </th> 
    <th> <strong>댓글</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Account disabled<br /> </td> 
+   <td> 계정 비활성화<br /> </td> 
    <td> @disabled<br /> </td> 
    <td> count(@failureReason=4)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted<br /> </td> 
-   <td> @blacklisted<br /> </td> 
+   <td> 블랙리스트에 추가됨<br /> </td> 
+   <td> @차단됨<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted rate<br /> </td> 
-   <td> @rateBlacklisted<br /> </td> 
-   <td> @blacklisted/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 블랙리스트에 추가된 속도<br /> </td> 
+   <td> @rateBlacked<br /> </td> 
+   <td> @차단됨/@전송됨<br /> </td> 
+   <td> 비율 계산을 위한 분모는 보낸 횟수(배달됨 + 바운스)를 기반으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
+   <td> 바운스 수 + 오류<br /> </td> 
    <td> @bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> 바운스 + 오류 비율<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
@@ -68,161 +66,161 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
   <tr> 
    <td> 클릭<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> count(@trackingUrlType=1 or 10 or 11)<br /> </td> 
+   <td> count(@trackingUrlType=1 또는 10 또는 11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
-   <td> @clickthrough<br /> </td> 
+   <td> 클릭스루 비율<br /> </td> 
+   <td> @클릭스루<br /> </td> 
    <td> @uniqueclicks/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 비율 계산을 위한 분모는 배달된 것만 기준으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> @delivered<br /> </td> 
+   <td> 배달됨<br /> </td> 
+   <td> @배달됨<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> 배달 비율<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 비율 계산을 위한 분모는 보낸 횟수(배달됨 + 바운스)를 기반으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces<br /> </td> 
+   <td> 하드 바운스<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 AND @failureReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounces rate<br /> </td> 
+   <td> 하드 바운스 비율<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 비율 계산을 위한 분모는 보낸 횟수(배달됨 + 바운스)를 기반으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Invalid domain<br /> </td> 
+   <td> 잘못된 도메인<br /> </td> 
    <td> @invalidDomain<br /> </td> 
    <td> count(@failureReason=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mailbox full<br /> </td> 
+   <td> 사서함 꽉 참<br /> </td> 
    <td> @mailBoxFull<br /> </td> 
    <td> count(@failureReason=5)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br /> </td> 
+   <td> 미러 페이지<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 비율 계산을 위한 분모는 배달된 것만 기준으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
+   <td> 미러 페이지 속도<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@delivered<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Not connected<br /> </td> 
+   <td> 연결되지 않음<br /> </td> 
    <td> @notConnected<br /> </td> 
    <td> count(@failureReason=6)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> 열기<br /> </td> 
    <td> @opens<br /> </td> 
-   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
+   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2)))<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
+   <td> 개방 비율<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> @opens/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 비율 계산을 위한 분모는 배달된 것만 기준으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br /> </td> 
+   <td> 격리<br /> </td> 
    <td> @quarantine<br /> </td> 
    <td> isQuarantine=true<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
+   <td> 검역률<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 비율 계산을 위한 분모는 보낸 횟수(배달됨 + 바운스)를 기반으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Refused<br /> </td> 
-   <td> @refused<br /> </td> 
+   <td> 거부됨<br /> </td> 
+   <td> @거부됨<br /> </td> 
    <td> count(@failureReason=20)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br /> </td> 
-   <td> @rejected<br /> </td> 
+   <td> 거부됨<br /> </td> 
+   <td> @거부됨<br /> </td> 
    <td> count(@failureReason=20, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
+   <td> 거부된 비율<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 비율 계산을 위한 분모는 보낸 횟수(배달됨 + 바운스)를 기반으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 처리/전송<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @delivered + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
+   <td> 소프트 바운스<br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@failureType=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce rate<br /> </td> 
+   <td> 소프트 바운스 비율<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> Denominator for rate calculation is based on Sent count (Delivered + Bounces).<br /> </td> 
+   <td> 비율 계산을 위한 분모는 보낸 횟수(배달됨 + 바운스)를 기반으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
+   <td> 고유한 클릭 수<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unique clicks is calculated using ThetaSketch concepts.<br /> </td> 
+   <td> ThetaSketch 개념을 사용하여 고유 클릭 수를 계산합니다.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
-   <td> @uniqueopens<br /> </td> 
+   <td> 고유 열기<br /> </td> 
+   <td> @uniquopens<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unreachable <br /> </td> 
+   <td> 연결할 수 없음 <br /> </td> 
    <td> @unreachable<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe<br /> </td> 
-   <td> @unsubscribes<br /> </td> 
+   <td> 구독 취소<br /> </td> 
+   <td> @구독 취소<br /> </td> 
    <td> count(@trackingUrlType=3)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
-   <td> @rateUnsubscribes<br /> </td> 
-   <td> @unsubscribes/@delivered<br /> </td> 
-   <td> Denominator for rate calculation is based on Delivered only.<br /> </td> 
+   <td> 구독 취소 비율<br /> </td> 
+   <td> @rate구독 취소<br /> </td> 
+   <td> @unsubscribers/@delivered<br /> </td> 
+   <td> 비율 계산을 위한 분모는 배달된 것만 기준으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> User unknown<br /> </td> 
+   <td> 사용자를 알 수 없음<br /> </td> 
    <td> @unknownUser<br /> </td> 
    <td> count(@failureReason=1)<br /> </td> 
    <td> </td> 
@@ -230,60 +228,60 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
  </tbody> 
 </table>
 
-## Push notification delivery {#push-notification-delivery}
+## 푸시 알림 게재 {#push-notification-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>label</strong><br /> </th> 
+   <th> <strong>레이블</strong><br /> </th> 
    <th> <strong>필드 이름</strong><br /> </th> 
-   <th> <strong>표시기 계산 공식</strong><br /> </th> 
+   <th> <strong>지표 계산 공식</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 처리/전송<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> @delivered<br /> </td> 
+   <td> 배달됨<br /> </td> 
+   <td> @배달됨<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> 배달 비율<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> 바운스 + 오류 비율<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> 열기<br /> </td> 
    <td> @opens<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
+   <td> 개방 비율<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
-   <td> @uniqueopens<br /> </td> 
-   <td> Unique opens is calculated using ThetaSketch concepts of unique RecipientIds.<br /> </td> 
+   <td> 고유 열기<br /> </td> 
+   <td> @uniquopens<br /> </td> 
+   <td> 고유 열기는 고유한 RecipientIds의 ThetaSketch 개념을 사용하여 계산됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
+   <td> 노출 횟수<br /> </td> 
    <td> @impressions<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> @uniqueimpressions<br /> </td> 
+   <td> 고유 노출 수<br /> </td> 
+   <td> @uniquexpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
@@ -292,88 +290,88 @@ source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
    <td> @count(status=interact)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
+   <td> 고유한 클릭 수<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> Unique clicks is calculated using ThetaSketch concepts.<br /> </td> 
+   <td> ThetaSketch 개념을 사용하여 고유 클릭 수를 계산합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
-   <td> @clickthrough<br /> </td> 
+   <td> 클릭스루 비율<br /> </td> 
+   <td> @클릭스루<br /> </td> 
    <td> (@interact/@delivered)*100<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## In-App delivery {#in-app-delivery}
+## 인앱 게재 {#in-app-delivery}
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>label</strong><br /> </th> 
+   <th> <strong>레이블</strong><br /> </th> 
    <th> <strong>필드 이름</strong><br /> </th> 
-   <th> <strong>표시기 계산 공식</strong><br /> </th> 
+   <th> <strong>지표 계산 공식</strong><br /> </th> 
    <th> <strong>댓글</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 처리/전송<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
    <td> sent=delivered<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> @delivered<br /> </td> 
+   <td> 배달됨<br /> </td> 
+   <td> @배달됨<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
-   <td> delivered=sent<br /> </td> 
+   <td> deliver=sent<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
+   <td> 노출 횟수<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=view) or @count(status=button 1 click + button 2 click + dismissals)<br /> </td> 
+   <td> @count(status=view) 또는 @count(status=button 1 클릭 + 단추 2 클릭 + 해지)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> @uniqueimpressions<br /> </td> 
+   <td> 고유 노출 수<br /> </td> 
+   <td> @uniquexpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> For <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> template, user = Recipient Id.<br /> for <span class="uicontrol">target all users of a mobile app (inappbroadcast)</span> and <span class="uicontrol">target users based on their mobile profile (inapp)</span> templates, user = mc ID or equivalent that represent a unique combination of user, mobile app and device.<br /> </td> 
+   <td> 캠페인 <span class="uicontrol">프로필(inAppProfile)</span> 템플릿을 기반으로 하는 Target 사용자의 경우 사용자 = 수신자 ID입니다.<br /> 모바일 <span class="uicontrol">앱(inAppBroadcast)</span> 및 모바일 프로파일(inApp) <span class="uicontrol"></span> 템플릿을 기반으로 Target 사용자를 모두 타게팅하는 경우 사용자 = MC Id 또는 사용자, 모바일 앱 및 디바이스의 고유한 조합을 나타냅니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App clicks <br /> </td> 
+   <td> 인앱 클릭 <br /> </td> 
    <td> @inappclicks<br /> </td> 
-   <td> @count (status=click)<br /> </td> 
+   <td> @count(status=click)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App clicks<br /> </td> 
-   <td> @uniqueinapp<br /> </td> 
-   <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> For <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> template, user = Recipient Id.<br /> for <span class="uicontrol">target all users of a mobile app (inappbroadcast)</span> and <span class="uicontrol">target users based on their mobile profile (inapp)</span> templates, user = mc ID or equivalent that represent a unique combination of user, mobile app and device.<br /> </td> 
+   <td> 고유한 인앱 클릭<br /> </td> 
+   <td> @uniquinapp<br /> </td> 
+   <td> @unique(@count(상태=클릭)<br /> </td> 
+   <td> 캠페인 <span class="uicontrol">프로필(inAppProfile)</span> 템플릿을 기반으로 하는 Target 사용자의 경우 사용자 = 수신자 ID입니다.<br /> 모바일 <span class="uicontrol">앱(inAppBroadcast)</span> 및 모바일 프로파일(inApp) <span class="uicontrol"></span> 템플릿을 기반으로 Target 사용자를 모두 타게팅하는 경우 사용자 = MC Id 또는 사용자, 모바일 앱 및 디바이스의 고유한 조합을 나타냅니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App click through rate<br /> </td> 
+   <td> 인앱 클릭스루 비율<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> Total clicks on Button 1 or Button 2/total impressions*100<br /> </td> 
+   <td> 단추 1 또는 단추 2/총 노출 횟수*100에 대한 총 클릭 수<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal<br /> </td> 
-   <td> @dismissal<br /> </td> 
-   <td> @count (status=close)<br /> </td> 
+   <td> 인앱 해지<br /> </td> 
+   <td> @해고<br /> </td> 
+   <td> @count(status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App dismissals<br /> </td> 
-   <td> @uniquedismissal<br /> </td> 
+   <td> 고유한 인앱 폐기<br /> </td> 
+   <td> @uniquefuting<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> For <span class="uicontrol">Target users based on their Campaign profile (inAppProfile)</span> template, user = Recipient Id.<br /> for <span class="uicontrol">target all users of a mobile app (inappbroadcast)</span> and <span class="uicontrol">target users based on their mobile profile (inapp)</span> templates, user = mc ID or equivalent that represent a unique combination of user, mobile app and device.<br /> </td> 
+   <td> 캠페인 <span class="uicontrol">프로필(inAppProfile)</span> 템플릿을 기반으로 하는 Target 사용자의 경우 사용자 = 수신자 ID입니다.<br /> 모바일 <span class="uicontrol">앱(inAppBroadcast)</span> 및 모바일 프로파일(inApp) <span class="uicontrol"></span> 템플릿을 기반으로 Target 사용자를 모두 타게팅하는 경우 사용자 = MC Id 또는 사용자, 모바일 앱 및 디바이스의 고유한 조합을 나타냅니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal rate<br /> </td> 
+   <td> 인앱 기각률<br /> </td> 
    <td> @dismissalrate<br /> </td> 
-   <td> Total close/total impressions*100<br /> </td> 
+   <td> 총 닫기/총 노출 수*100<br /> </td> 
    <td> </td> 
   </tr> 
  </tbody> 
