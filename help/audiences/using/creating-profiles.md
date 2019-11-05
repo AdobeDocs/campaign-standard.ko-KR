@@ -1,8 +1,6 @@
 ---
 title: 프로필 만들기
-seo-title: 프로필 만들기
-description: 프로필 만들기
-seo-description: API, 가져오기 기능, 온라인 확보, 자동 또는 수동 업데이트를 사용하여 프로파일을 만들고 연락처에 데이터를 수집하는 방법을 알아봅니다.
+description: API, 가져오기 기능, 온라인 확보, 자동 또는 수동 업데이트를 사용하여 프로파일을 만들고 연락처에 데이터를 수집하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: a5f5a58a-e798-40 파섹
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7f1c2af4ad8c4b8632e84b6d945a9db8187b6a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
