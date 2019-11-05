@@ -1,8 +1,6 @@
 ---
 title: 메시지 추적
-seo-title: 메시지 추적
-description: 메시지 추적
-seo-description: 전달 받는 사람의 동작을 추적하는 방법을 알아봅니다.
+description: 전달 받는 사람의 동작을 추적하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
