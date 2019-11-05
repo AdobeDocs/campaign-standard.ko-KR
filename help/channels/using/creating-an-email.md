@@ -1,8 +1,6 @@
 ---
 title: 이메일 만들기
-seo-title: 이메일 만들기
-description: 이메일 만들기
-seo-description: 다음 단계에 따라 Adobe Campaign에서 이메일을 한 번만 보냅니다.
+description: 다음 단계에 따라 Adobe Campaign에서 이메일을 한 번만 보냅니다.
 page-status-flag: 활성화 안 함
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -72,7 +70,7 @@ source-git-commit: 68d96b23f34f505c0a47a74a5e33bc3530fc4d72
 
    ![](assets/delivery_planning.png)
 
-1. 메시지를 준비하여 대상을 분석합니다. 보내기 [준비를](../../sending/using/confirming-the-send.md)참조하십시오.
+1. 메시지를 준비하여 대상을 분석합니다. See [Preparing the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
