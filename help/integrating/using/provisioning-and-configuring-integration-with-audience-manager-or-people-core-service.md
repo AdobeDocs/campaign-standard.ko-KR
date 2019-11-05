@@ -1,8 +1,6 @@
 ---
-title: Audience Manager 또는 People 코어 서비스와의 통합 제공 및 구성
-seo-title: Audience Manager 또는 People 코어 서비스와의 통합 제공 및 구성
-description: Audience Manager 또는 People 코어 서비스와의 통합 제공 및 구성
-seo-description: '다른 Adobe Experience Cloud 솔루션을 사용하여 대상이나 세그먼트를 공유하도록 Audience Manager/People 핵심 서비스 통합을 구성하는 방법을 알아봅니다. '
+title: Audience Manager 또는 People 핵심 서비스와의 통합 제공 및 구성
+description: '다른 Adobe Experience Cloud 솔루션을 사용하여 대상이나 세그먼트를 공유하도록 Audience Manager/People 핵심 서비스 통합을 구성하는 방법을 알아봅니다. '
 page-status-flag: 활성화 안 함
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Audience Manager 또는 People 코어 서비스와의 통합 제공 및 구성{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# Audience Manager 또는 People 핵심 서비스와의 통합 제공 및 구성{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
 Adobe Campaign에서 Audience Manager 및 사람 코어의 제공 및 구성은 다음 두 단계를 수행합니다.Adobe [에 요청을 제출한](#submitting-request-to-adobe) 다음 [Adobe Campaign에서 통합 구성을 참조하십시오](#configuring-the-integration-in-adobe-campaign).
 
@@ -27,7 +25,7 @@ Adobe Campaign에서 Audience Manager 및 사람 코어의 제공 및 구성은 
 
 Audience Manager(AAM) 또는 People 핵심 서비스 통합을 통해 Adobe Campaign에서 대상자 또는 세그먼트를 가져오고 내보낼 수 있습니다.
 
-먼저 이 통합을 구성해야 합니다. 이 통합의 프로비저닝을 요청하려면 에 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) 다음 정보를 이메일로 보내주십시오.
+먼저 이 통합을 구성해야 합니다. 이 통합의 프로비저닝을 요청하려면 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)에 다음 정보를 이메일로 보내주십시오.
 
 <table> 
  <tbody> 
@@ -70,7 +68,7 @@ Audience Manager(AAM) 또는 People 핵심 서비스 통합을 통해 Adobe Camp
 
 사람 코어 서비스 대신 Adobe Audience Manager를 사용하는 경우 모든 시나리오에서 **[!UICONTROL Declared ID]** 작동합니다.
 
-다음 주소로 **[!UICONTROL Declared ID]** 프로비전을 요청할 수 있습니다. [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
+You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Adobe Campaign에서 통합 구성 {#configuring-the-integration-in-adobe-campaign}
 
