@@ -1,8 +1,6 @@
 ---
 title: A/B 테스트 이메일 디자인
-seo-title: A/B 테스트 이메일 디자인
-description: A/B 테스트 이메일 디자인
-seo-description: A/B 테스트 기능을 살펴보고 다음 단계에 따라 Adobe Campaign의 A/B 테스트 템플릿에서 이메일을 만듭니다.
+description: A/B 테스트 기능을 살펴보고 다음 단계에 따라 Adobe Campaign의 A/B 테스트 템플릿에서 이메일을 만듭니다.
 page-status-flag: 활성화 안 함
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -30,7 +28,7 @@ Adobe Campaign의 A/B 테스트 기능을 사용하면 2-3개의 이메일 변�
 >
 >Adobe Experience Manager에서 만든 이메일에 대해 A/B 테스트를 수행할 수 없습니다.
 
-## A/B 테스트 이메일 만들기 {#creating-an-a-b-test-email}
+## Creating an A/B test email {#creating-an-a-b-test-email}
 
 A/B 테스트는 A/B 테스트 구성 단계가 추가되는 표준 이메일 작성 마법사를 사용하여 생성할 수 있습니다. 표준 이메일 만들기는 이메일 [만들기](../../channels/using/creating-an-email.md) 섹션에서 자세히 설명합니다.
 
