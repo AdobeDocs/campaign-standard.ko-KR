@@ -1,8 +1,6 @@
 ---
-title: Target 동적 컨텐츠 추가
-seo-title: Target 동적 컨텐츠 추가
-description: Target 동적 컨텐츠 추가
-seo-description: Adobe Campaign 게재 중 하나에서 Adobe Target 동적 컨텐츠를 추가하는 방법을 알아봅니다.
+title: Target 다이내믹 콘텐츠 추가
+description: Adobe Campaign 게재 중 하나에서 Adobe Target 동적 컨텐츠를 추가하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Target 동적 컨텐츠 추가{#adding-target-dynamic-content}
+# Target 다이내믹 콘텐츠 추가{#adding-target-dynamic-content}
 
 Adobe Target과의 통합을 통해 동적 이미지를 전달에 추가하여 경험에 따라 콘텐츠를 개인화할 수 있습니다.
 
