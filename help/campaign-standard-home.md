@@ -1,11 +1,10 @@
 ---
 keywords: Campaign Standard;home;popular topics
-seo-title: Adobe Campaign Standard 제품 설명서
 solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
-translation-type: ht
-source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -16,9 +15,9 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ## 새로운 기능
 
-* **[개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/>Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오.
+* **[개인 정보 관리](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오.
 
-* **[게재 우수 사례](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)**<br/>게재 디자인 및 전송과 관련된 우수 사례에 대해 자세히 알아보십시오.
+* **[게재 우수 사례](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>게재 디자인 및 전송과 관련된 우수 사례에 대해 자세히 알아보십시오.
 
 * **[이메일 디자이너](designing/using/designing-content-in-adobe-campaign.md)**<br/>재구성된 이메일 디자이너 설명서를 참조하십시오.
 
@@ -54,7 +53,7 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
     <div>
     <strong>개발자를 위한 자료</strong>
     </div>
-    <p><em><a href="https://docs.campaign.adobe.com/doc/standard/kr/api/ACS_API.html">Adobe Campaign API</a></em></p>
+    <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a></em></p>
     <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud 트리거</a></em></p>
     <br>
   </td>
@@ -66,10 +65,10 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 * [릴리스 정보](rn/using/release-notes.md)
 
-* [컨트롤 패널](https://helpx.adobe.com/kr/campaign/kb/control-panel.html)
+* [컨트롤 패널](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
-* [사용법 비디오](https://docs.adobe.com/content/help/kr/campaign-learn/campaign-standard-tutorials/overview.html)
+* [사용법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [릴리스 계획 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html)
+* [릴리스 계획 안내서](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-* [사용 중단되거나 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
+* [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
