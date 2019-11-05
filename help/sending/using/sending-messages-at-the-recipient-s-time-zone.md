@@ -1,8 +1,6 @@
 ---
-title: 받는 사람의 시간대에서 메시지 보내기
-seo-title: 받는 사람의 시간대에서 메시지 보내기
-description: 받는 사람의 시간대에서 메시지 보내기
-seo-description: 수신자의 시간대에서 메시지를 보내는 방법을 알아봅니다.
+title: 받는 사람의 시간대에 맞추어 메시지 보내기
+description: 수신자의 시간대에서 메시지를 보내는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 70228c07-451f-4ddb-8d26-92a5a4814e3a
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 받는 사람의 시간대에서 메시지 보내기{#sending-messages-at-the-recipient-s-time-zone}
+# 받는 사람의 시간대에 맞추어 메시지 보내기{#sending-messages-at-the-recipient-s-time-zone}
 
 날짜와 시간이 중요한 캠페인을 관리할 때 각 수신자의 현지 시간을 고려하여 배달을 예약할 수 있습니다.이메일, SMS 또는 푸시 알림을 사용자가 예약된 시간에 수신하게 됩니다.
 
