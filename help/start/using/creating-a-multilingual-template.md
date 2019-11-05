@@ -1,65 +1,63 @@
 ---
 title: 다국어 템플릿 만들기
-seo-title: 다국어 템플릿 만들기
-description: 다국어 템플릿 만들기
-seo-description: 자동 세그먼트화된 고객의 기본 언어를 기반으로 한 단일 배달을 통해 다국어 이메일/SMS 전달 방식을 정의하고 실행하는 방법을 살펴봅니다. 언어 및 개별 수준까지 다운로드에 대한 성과를 보고합니다.
-page-status-flag: 정품 인증 안 함
-uuid: 7 a 2 CD 5 F 7-C 0 FC -4825-A 770-A 72816 C 66 B 3 F
-contentOwner: Sauviat
-products: sg_ campaign/standard
+description: 자동으로 세그먼트화된 고객의 선호 언어를 기반으로 한 단일 전달을 통해 다국어 이메일/SMS 전달을 정의하고 실행하는 방법을 알아봅니다. 언어 및 개별 수준에 대한 모든 전달의 성과를 보고합니다.
+page-status-flag: 활성화 안 함
+uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: 참조
+content-type: reference
 topic-tags: 관리 템플릿
-discoiquuid: 064 c 5 c 4 a-f 579-4 bab-adf 3-51 c 92 eb 4518 f
+discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Creating a multilingual template{#creating-a-multilingual-template}
+# 다국어 템플릿 만들기{#creating-a-multilingual-template}
 
 다국어 템플릿은 다국어 메시지를 관리하는 특정 템플릿입니다.
 
-This kind of template is available for **Email and SMS messages** and useable in standalone mode, within a workflow or in a recurring delivery.
+이러한 유형의 템플릿은 이메일 및 SMS **메시지에** 사용할 수 있으며 워크플로우 내에서 또는 반복 전달에서 독립형 모드로 사용할 수 있습니다.
 
 다국어 기능 템플릿에서 언어 관리는 변형을 기반으로 합니다. **각 변형은 하나의 언어를 나타냅니다.**
 
-Adobe Campaign Standard는 최대 40 개의 변형을 설정할 수 있습니다.
+Adobe Campaign Standard는 최대 40개의 변형을 설정할 수 있습니다.
 
-Adobe Campaign는 기본 언어가 en로 설정되어 있습니다. 기본 언어는 다른 변형으로 변경할 수 있지만 절대 삭제되지 않아야 합니다.
+Adobe Campaign은 EN으로 설정된 기본 언어와 함께 제공됩니다. 기본 언어를 다른 변형으로 변경할 수 있지만 삭제할 수 없습니다.
 
-템플릿 작성 중에 메시지에서 필요한 언어 수에 해당하는 변형 수를 추가할 수 있습니다.
+템플릿을 만드는 동안 메시지의 필요한 언어 수에 해당하는 변형 수를 추가할 수 있습니다.
 
-SMS 또는 이메일 템플릿을 만들려면 다음 단계를 수행하십시오.
+SMS 또는 이메일 템플릿을 만들려면 다음 단계를 따르십시오.
 
-1. 기존 다국어 템플릿 (SMS 또는 이메일) 를 복제할 수 있습니다.
+1. 기존 다국어 템플릿(SMS 또는 이메일)을 복제합니다.
 
    ![](assets/multi_template_duplicate.png)
 
    >[!NOTE]
    >
-   >You can also modify an existing standard template in a multilingual template by clicking on the **[!UICONTROL Initialize content variant]** button in the template properties.
+   >템플릿 속성에 있는 **[!UICONTROL Initialize content variant]** 단추를 클릭하여 다국어 템플릿의 기존 표준 템플릿을 수정할 수도 있습니다.
 
-1. 속성을 수정하여 레이블, 추적 등을 사용자 지정합니다.
+1. 속성을 수정하여 레이블, 추적 등을 사용자 정의합니다.
 1. 변형 타일을 클릭하여 원하는 변형 수를 수정합니다. 변형 창이 표시됩니다.
 
    ![](assets/multi_template_variants.png)
 
-   변형을 추가하거나 제거할 수 있습니다. To add a variant, complete the **[!UICONTROL New content variant]** window.
+   변형을 추가하거나 제거할 수 있습니다. 변형을 추가하려면 **[!UICONTROL New content variant]** 창을 완료하십시오.
 
    ![](assets/multi_template_newvariant.png)
 
    >[!NOTE]
    >
-   >" 기본 "변형이 완료된 기본 언어 매개 변수 없이 프로필에 전송된 변형이므로 삭제하지 마십시오.
+   >완성된 기본 언어 매개 변수 없이 프로파일로 전송된 변형이므로 "기본" 변형을 삭제하지 마십시오.
 
 1. 필요한 경우 레이블 변형을 사용자 지정하고 확인을 클릭합니다.
-1. 각 변형에 대한 컨텐츠를 직접 추가할 수도 있습니다.
+1. 각 변형의 컨텐츠를 직접 추가할 수도 있습니다.
 
-이제 이 다국어 템플릿을 기반으로 이메일 또는 SMS 메시지를 만들 준비가 되었습니다.
+다국어 템플릿을 기반으로 이메일 또는 SMS 메시지를 만들 준비가 되었습니다.
 
 **관련 항목:**
 
