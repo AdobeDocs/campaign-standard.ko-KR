@@ -1,8 +1,6 @@
 ---
-title: 캠페인 관심 영역 데이터 통합 구성
-seo-title: 캠페인 관심 영역 데이터 통합 구성
-description: 캠페인 관심 영역 데이터 통합 구성
-seo-description: Adobe Campaign의 관심 영역 데이터 기능을 구성하여 구독자의 위치를 기반으로 개인화된 메시지를 전송하는 방법을 살펴볼 수 있습니다.
+title: Campaign-Points of Interest 데이터 통합 구성
+description: Adobe Campaign의 관심 영역 데이터 기능을 구성하여 구독자의 위치를 기반으로 개인화된 메시지를 전송하는 방법을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 캠페인 관심 영역 데이터 통합 구성{#configuring-campaign-points-of-interest-data-integration}
+# Campaign-Points of Interest 데이터 통합 구성{#configuring-campaign-points-of-interest-data-integration}
 
 ## Adobe Experience Platform SDK와 캠페인 관심 영역 데이터 통합 구성 {#configuring-campaign-poi-aep-sdk}
 
