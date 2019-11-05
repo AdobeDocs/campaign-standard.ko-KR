@@ -1,30 +1,28 @@
 ---
-title: '" 1 단계: 프로필 리소스에 확장 필드 추가 "'
-seo-title: '" 1 단계: 프로필 리소스에 확장 필드 추가 "'
-description: '" 1 단계: 프로필 리소스에 확장 필드 추가 "'
-seo-description: 프로필 리소스를 확장하는 방법을 알아봅니다.
-page-status-flag: 정품 인증 안 함
-uuid: CB 93 ED 40-3 B 00-458 D -9554-883954565 FDB
-contentOwner: Sauviat
-products: sg_ campaign/standard
-audience: developing
-content-type: 참조
-topic-tags: 사용 사례—extending-the-api
-discoiquuid: e 9 a 7 d 1 ab -9 a 4 a -49 d 2-a 725-7 bcf 8 fc 240 d 6
+title: '"1단계: 프로필 리소스에 확장 필드 추가"'
+description: 프로필 리소스를 확장하는 방법을 알아봅니다.
+page-status-flag: 활성화 안 함
+uuid: cb93ed40-3b00-458d-9554-883954565fdb
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
+audience: 개발
+content-type: reference
+topic-tags: use-case—extending-the-api
+discoiquuid: e9a7d1ab-9a4a-49d2-a725-7bcf8fc240d6
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Step 1: Add extension fields to the profile resource{#step-add-extension-fields-to-the-profile-resource}
+# 1단계: 프로필 리소스에 확장 필드 추가{#step-add-extension-fields-to-the-profile-resource}
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
-1. **[!UICONTROL Create]** 아이콘을 클릭하여 새 사용자 지정 리소스를 만듭니다.
-1. **[!UICONTROL Extend an existing resource]** 옵션을 선택합니다.
-1. **[!UICONTROL Profile]** 리소스를 선택합니다.
-1. **[!UICONTROL Create]**&#x200B;을 클릭합니다.
-1. Add the **[!UICONTROL Text]** type **[!UICONTROL Promo code]** field with the **[!UICONTROL Brand]** ID in the resource fields.
+1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**&#x200B;을 선택한 다음 **[!UICONTROL Custom resources]**&#x200B;선택합니다.
+1. 아이콘을 클릭하여 새 사용자 지정 리소스를 만듭니다. **[!UICONTROL Create]**
+1. 옵션을 **[!UICONTROL Extend an existing resource]** 선택합니다.
+1. 리소스를 **[!UICONTROL Profile]** 선택합니다.
+1. Click **[!UICONTROL Create]**.
+1. 리소스 필드에 ID가 있는 **[!UICONTROL Text]** 유형 **[!UICONTROL Promo code]** **[!UICONTROL Brand]** 필드를 추가합니다.
 
