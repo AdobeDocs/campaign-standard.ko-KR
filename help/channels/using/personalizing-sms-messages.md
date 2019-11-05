@@ -1,8 +1,6 @@
 ---
 title: SMS 메시지 개인화
-seo-title: SMS 메시지 개인화
-description: SMS 메시지 개인화
-seo-description: SMS 메시지를 개인화할 때 문법 변환 옵션의 정확성을 살펴볼 수 있습니다.
+description: SMS 메시지를 개인화할 때 문법 변환 옵션의 정확성을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 123fe70c-c279-40a3-88b6-6bfb2453ec83
 contentOwner: 자우비
@@ -15,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,s
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
