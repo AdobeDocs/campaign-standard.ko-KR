@@ -1,8 +1,6 @@
 ---
 title: 외부 계정
-seo-title: 외부 계정
-description: 외부 계정
-seo-description: SFTP 서버와 같은 외부 시스템과의 연결을 설정하도록 외부 계정을 구성합니다.
+description: SFTP 서버와 같은 외부 시스템과의 연결을 설정하도록 외부 계정을 구성합니다.
 page-status-flag: 활성화 안 함
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: 자우비
@@ -15,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,개요
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
