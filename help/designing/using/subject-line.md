@@ -1,8 +1,6 @@
 ---
 title: 제목 줄 및 이메일 보낸 사람 정의
-seo-title: 제목 줄 및 이메일 보낸 사람 정의
-description: 제목 줄 및 이메일 보낸 사람 정의
-seo-description: 이메일 디자이너에서 제목 줄 및 이메일 보낸 사람을 정의하는 방법을 알아봅니다.
+description: 이메일 디자이너에서 제목 줄 및 이메일 보낸 사람을 정의하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 자우비
@@ -14,34 +12,34 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5847c89b97ede8b03e75d1d90f31c88ed5c8a84e
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Defining the subject line and the sender of an email{#defining-the-subject-line-of-an-email}
+# 제목 줄 및 이메일 보낸 사람 정의{#defining-the-subject-line-of-an-email}
 
 메시지 제목은 메시지를 준비하고 전송해야 합니다.
 
 >[!NOTE]
 >
->If the subject line is empty, a warning is displayed in the message dashboard and in the Email Designer.
+>제목 줄이 비어 있으면 메시지 대시보드 및 이메일 디자이너에 경고가 표시됩니다.
 
-To configure the email subject, go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
+이메일 제목을 구성하려면 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스 가능)의 **[!UICONTROL Properties]** 탭으로 이동하여 **[!UICONTROL Subject]** 섹션을 채웁니다.
 
-**To define the subject line of an email:**
+**이메일의**&#x200B;제목 줄을 정의하려면
 
-1. Create an email.
+1. 이메일을 만듭니다.
 1. 홈 페이지를 닫습니다.
-1. Go the  tab of the Email Designer home page (accessible through the home icon) and fill in the  section.**[!UICONTROL Properties]****[!UICONTROL Subject]**
+1. 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스)의 **[!UICONTROL Properties]** 탭으로 이동하여 **[!UICONTROL Subject]** 섹션을 채웁니다.
 
 ![](assets/email_designer_subject.png)
 
-You can also add personalization fields, content blocks and dynamic content to the subject line by clicking the corresponding icons.
+해당 아이콘을 클릭하여 개인화 필드, 콘텐츠 블록 및 동적 컨텐츠를 제목 줄에 추가할 수도 있습니다.
 
-**Related topics:**
+**관련 항목:**
 
-* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [개인화 필드 삽입](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [콘텐츠 블록 추가](../../designing/using/personalization.md#adding-a-content-block)
 * [이메일에서 동적 컨텐츠 정의](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
@@ -57,7 +55,7 @@ You can also add personalization fields, content blocks and dynamic content to t
 
 **관련 항목**
 
-* [이메일의 제목 줄 테스트](../../sending/using/testing-subject-line-email.md)
+* [이메일의 제목란 테스트](../../sending/using/testing-subject-line-email.md)
 
 ## 이메일 보낸 사람 {#email-sender}
 
@@ -65,11 +63,11 @@ You can also add personalization fields, content blocks and dynamic content to t
 
 ![](assets/delivery_content_edition16.png)
 
-* The  field allows you to enter the sender name. **[!UICONTROL From: name]** By default, the default Sender name block is automatically entered in the field. **** Adobe Campaign refers to the email channel configuration (from the advanced menu  via the Adobe Campaign logo) to designate this sender.**[!UICONTROL Administration > Channels > Email > Email accounts]**
+* 이 **[!UICONTROL From: name]** 필드를 사용하면 발신자 이름을 입력할 수 있습니다. 기본적으로 필드에 기본 **보낸 사람 이름** 블록이 자동으로 입력됩니다. Adobe Campaign은 이메일 채널 구성(Adobe Campaign 로고를 **[!UICONTROL Administration > Channels > Email > Email accounts]** 통한 고급 메뉴)을 참조하여 이 발신자를 지정합니다.
 
    발신자 이름 **** 블록을 클릭하여 발신자 이름을 변경할 수 있습니다. 그런 다음 필드를 편집할 수 있으며 사용할 이름을 입력할 수 있습니다.
 
-   This field can be personalized. 이렇게 하려면 발신자 이름 아래의 아이콘을 클릭하여 개인화 필드, 콘텐츠 블록 및 동적 컨텐츠를 추가할 수 있습니다.
+   이 필드는 개인화할 수 있습니다. 이렇게 하려면 발신자 이름 아래의 아이콘을 클릭하여 개인화 필드, 콘텐츠 블록 및 동적 컨텐츠를 추가할 수 있습니다.
 
 * 이 섹션에서 필드를 편집할 수 **[!UICONTROL From: email address]** 없습니다. 대시보드에서 이메일 속성을 편집하여 변경할 수 있습니다. 자세한 내용은 이메일 [고급 매개 변수](../../administration/using/configuring-email-channel.md#advanced-parameters)목록을 참조하십시오.
 
