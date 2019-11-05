@@ -1,31 +1,29 @@
 ---
 title: 템플릿 사용
-seo-title: 템플릿 사용
-description: 템플릿 사용
-seo-description: 기존 템플릿을 사용하기 위한 간단한 단계별 절차를 살펴보십시오.
-page-status-flag: 정품 인증 안 함
-uuid: 733383 AC -1271-4621-83 A 4-DB 9 BC 5 AD 74 A 4
-contentOwner: Sauviat
-products: sg_ campaign/standard
+description: 간단한 단계별 절차를 통해 기존 템플릿을 사용할 수 있습니다.
+page-status-flag: 활성화 안 함
+uuid: 73383ac-1271-4621-83a4-db9bc5ad74a4
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: start
-content-type: 참조
+content-type: reference
 topic-tags: 관리 템플릿
-discoiquuid: 66 E 4 A 473-0 DC 0-4 AA 8-AD 8 B -511 F 4588 A 1 B 0
+discoiquuid: 66e4a473-0dc0-4aa8-ad8b-511f4588a1b0
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Using a template{#using-a-template}
+# 템플릿 사용{#using-a-template}
 
-이전 섹션에서 만든 이메일 템플릿을 사용하는 방법을 살펴보겠습니다.
+이제 이전 섹션에서 만든 이메일 템플릿을 사용하는 방법을 살펴보겠습니다.
 
 >[!NOTE]
 >
->템플릿을 기반으로 하는 마케팅 활동을 만드는 것은 일반적으로 표준 사용자 유형 프로필에 의해 수행됩니다.
+>템플릿을 기반으로 마케팅 활동을 만드는 것은 일반적으로 표준 사용자 유형 프로필에 의해 수행됩니다.
 
 1. 새 마케팅 활동을 만듭니다.
 
