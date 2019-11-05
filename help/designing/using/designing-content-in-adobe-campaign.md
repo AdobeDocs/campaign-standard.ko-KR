@@ -1,8 +1,6 @@
 ---
 title: Adobe Campaign에서 컨텐츠 디자인
-seo-title: Adobe Campaign에서 컨텐츠 디자인
-description: Adobe Campaign에서 컨텐츠 디자인
-seo-description: Adobe Campaign을 사용하여 컨텐츠에서 정의할 수 있는 모든 요소에 대해 알아봅니다.
+description: Adobe Campaign을 사용하여 컨텐츠에서 정의할 수 있는 모든 요소에 대해 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 캠페인 이메일 디자이너{#designing-content-in-adobe-campaign}
+# Campaign 이메일 디자이너{#designing-content-in-adobe-campaign}
 
 Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해야 합니다.
 
