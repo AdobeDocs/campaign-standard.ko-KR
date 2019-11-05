@@ -1,8 +1,6 @@
 ---
-title: 장애 발생 시 경고 받기
-seo-title: 장애 발생 시 경고 받기
-description: 장애 발생 시 경고 받기
-seo-description: 경고 관리 시스템을 사용하는 방법을 알아봅니다.
+title: 게재 실패 시 경고 받기
+description: 경고 관리 시스템을 사용하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 장애 발생 시 경고 받기{#receiving-alerts-when-failures-happen}
+# 게재 실패 시 경고 받기{#receiving-alerts-when-failures-happen}
 
 ## 전달 경고 정보 {#about-delivery-alerting}
 
@@ -277,7 +275,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 **관련 항목:**
 
-* [배달 실패 이해](../../sending/using/understanding-delivery-failures.md)
-* [검역 관리 이해](../../sending/using/understanding-quarantine-management.md)
+* [게재 실패 이해](../../sending/using/understanding-delivery-failures.md)
+* [스팸 차단 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [Campaign에서 블랙 목록 관리](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
