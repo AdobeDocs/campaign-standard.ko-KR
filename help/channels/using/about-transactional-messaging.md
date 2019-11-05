@@ -1,8 +1,6 @@
 ---
-title: 트랜잭션 메시징 정보
-seo-title: 트랜잭션 메시징 정보
-description: 트랜잭션 메시징 정보
-seo-description: 전송할 수 있는 다양한 유형의 트랜잭션 메시지와 Adobe Campaign에서 사용되는 방식을 살펴볼 수 있습니다.
+title: 트랜잭션 메시지 기본 정보
+description: 전송할 수 있는 다양한 유형의 트랜잭션 메시지와 Adobe Campaign에서 사용되는 방식을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 트랜잭션 메시징 정보{#about-transactional-messaging}
+# 트랜잭션 메시지 기본 정보{#about-transactional-messaging}
 
 Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 수 있습니다.
 
@@ -57,7 +55,7 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 사이트 사
 이 문제를 해결하는 단계는 다음과 같습니다.
 
 1. "장바구니 포기"라는 이름을 지정할 이벤트를 구성하고 트랜잭션 메시지를 자동으로 생성하는 이 이벤트 구성을 게시합니다. 이벤트 만들기 및 게시는 이벤트 트랜잭션 메시지 [](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 전송을 위한 이벤트 구성 섹션에 나와 있습니다.
-1. 트랜잭션 메시지는 개인화된 후 테스트한 다음 게시해야 합니다. 이벤트 [트랜잭션 메시지를](../../channels/using/event-transactional-messages.md)참조하십시오.
+1. 트랜잭션 메시지는 개인화된 후 테스트한 다음 게시해야 합니다. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 1. 또한 클라이언트가 장바구니를 포기하면 이벤트가 트리거되도록 하려면 Adobe Campaign Standard REST API를 사용하여 회사의 웹 사이트에서 이 이벤트를 전송해야 합니다. 사이트 [통합을](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)참조하십시오.
 
 이러한 모든 단계가 수행되면 사용자가 장바구니에 제품을 주문하지 않고 사이트를 떠나면 알림 이메일을 자동으로 받게 됩니다.
@@ -81,7 +79,7 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 사이트 사
 트랜잭션 메시지를 디자인하고 게시할 때 수행해야 하는 일부 단계는 되돌릴 수 없습니다. 다음 제한 사항을 알고 있어야 합니다.
 
 * 각 이벤트 구성에는 하나의 채널만 사용할 수 있습니다. 이벤트 [만들기를](../../administration/using/configuring-transactional-messaging.md#creating-an-event)참조하십시오.
-* 이벤트가 만들어지면 채널을 변경할 수 없습니다. 따라서 메시지가 성공적으로 전송되지 않으면 워크플로우를 사용하여 다른 채널에서 메시지를 보낼 수 있는 메커니즘을 설계해야 합니다. 워크플로우 [데이터 및 프로세스를](../../automating/using/workflow-data-and-processes.md)참조하십시오.
+* 이벤트가 만들어지면 채널을 변경할 수 없습니다. 따라서 메시지가 성공적으로 전송되지 않으면 워크플로우를 사용하여 다른 채널에서 메시지를 보낼 수 있는 메커니즘을 설계해야 합니다. See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
 * 이벤트를 만든 후에는 타깃팅 차원( **[!UICONTROL Real-time event]** 또는 **[!UICONTROL Profile]** )을 변경할 수 없습니다. 이벤트 [만들기를](../../administration/using/configuring-transactional-messaging.md#creating-an-event)참조하십시오.
 * 발행물을 롤백할 수는 없지만 이벤트를 게시 취소할 수 있습니다.이 작업을 수행하면 이벤트와 관련 트랜잭션 메시지에 액세스할 수 없게 됩니다. 이벤트 [게시 취소를 참조하십시오](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * 이벤트와 연결할 수 있는 유일한 트랜잭션 메시지는 해당 이벤트를 게시하면 자동으로 만들어지는 메시지입니다. 이벤트 [미리 보기 및 게시를](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)참조하십시오.
@@ -92,14 +90,14 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 사이트 사
 
 **이벤트 기반의 트랜잭션 메시지**:
 
-* 개인화 정보는 이벤트 자체에 포함된 데이터에서 가져옵니다. 이벤트 [트랜잭션 메시지를](../../channels/using/event-transactional-messages.md)참조하십시오.
+* 개인화 정보는 이벤트 자체에 포함된 데이터에서 가져옵니다. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 * 이벤트 트랜잭션 메시지에는 **구독 취소 링크** 내용 블록을 사용할 수 없습니다.
 * 이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 받는 사람과 메시지 컨텐츠 개인화를 정의해야 합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 컨텐츠를 강화할 수 있습니다. 트랜잭션 [메시지 컨텐츠](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)강화를 참조하십시오.
 * 트랜잭션 메시지에 프로필 정보가 포함되어 있지 않은 경우 프로필 정보가 포함된 경우에도 피로 규칙과 호환되지 않습니다. 피로 [규칙을](../../administration/using/fatigue-rules.md)참조하십시오.
 
 **프로파일 기반의 트랜잭션 메시지**:
 
-* 개인화 정보는 이벤트에 포함된 데이터나 조정된 프로필 레코드에서 가져올 수 있습니다. 트랜잭션 [메시지](../../channels/using/profile-transactional-messages.md)프로필을 참조하십시오.
+* 개인화 정보는 이벤트에 포함된 데이터나 조정된 프로필 레코드에서 가져올 수 있습니다. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 * 프로필 트랜잭션 **메시지에서 구독 취소 링크** 콘텐츠 블록을 사용할 수 있습니다. 컨텐츠 [블록](../../designing/using/personalization.md#adding-a-content-block)추가를 참조하십시오.
 * 피로 규칙은 프로필 트랜잭션 메시지와 호환됩니다. 피로 [규칙을](../../administration/using/fatigue-rules.md)참조하십시오.
 
