@@ -1,8 +1,6 @@
 ---
-title: 서비스 가입 확인
-seo-title: 서비스 가입 확인
-description: 서비스 가입 확인
-seo-description: 다음 단계에 따라 Adobe Campaign에서 서비스 가입 프로필에 대한 확인 메시지를 설정합니다.
+title: 서비스 구독 확인
+description: 다음 단계에 따라 Adobe Campaign에서 서비스 가입 프로필에 대한 확인 메시지를 설정합니다.
 page-status-flag: 활성화 안 함
 uuid: 23e6c4c2-e2c7-47 파섹
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 1a24504e-7f9d-4297-b3 파섹
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 서비스 가입 확인{#confirming-subscription-to-a-service}
+# 서비스 구독 확인{#confirming-subscription-to-a-service}
 
 ## 구독 확인 보내기 정보 {#sending-subscription-confirmation}
 
