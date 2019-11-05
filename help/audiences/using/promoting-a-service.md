@@ -1,8 +1,6 @@
 ---
 title: 서비스 홍보
-seo-title: 서비스 홍보
-description: 서비스 홍보
-seo-description: Adobe Campaign을 사용하여 전용 랜딩 페이지, 이메일 또는 웹 사이트에서 직접 서비스를 홍보하고 고객의 참여를 유도할 수 있습니다.
+description: Adobe Campaign을 사용하여 전용 랜딩 페이지, 이메일 또는 웹 사이트에서 직접 서비스를 홍보하고 고객의 참여를 유도할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 2b71d2a1-3e48-4a21-ab21-4a360abc1d36
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
