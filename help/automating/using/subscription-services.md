@@ -1,8 +1,6 @@
 ---
 title: 구독 서비스
-seo-title: 구독 서비스
-description: 구독 서비스
-seo-description: 가입 서비스 활동을 통해 프로파일을 대량으로 가져와 서비스에 가입하거나 서비스에서 가입을 해지할 수 있습니다.
+description: 가입 서비스 활동을 통해 프로파일을 대량으로 가져와 서비스에 가입하거나 서비스에서 가입을 해지할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
