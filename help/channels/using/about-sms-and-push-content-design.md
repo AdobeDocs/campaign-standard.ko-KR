@@ -1,8 +1,6 @@
 ---
-title: SMS 및 푸시 컨텐츠 디자인 정보
-seo-title: SMS 및 푸시 컨텐츠 디자인 정보
-description: SMS 및 푸시 컨텐츠 디자인 정보
-seo-description: Adobe Campaign에서 SMS 메시지 및 푸시 알림의 컨텐츠를 수정하는 데 사용되는 편집기에 대해 알아봅니다.
+title: SMS 및 푸시 콘텐츠 디자인 기본 정보
+description: Adobe Campaign에서 SMS 메시지 및 푸시 알림의 컨텐츠를 수정하는 데 사용되는 편집기에 대해 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 99277e46-e4f7-49a9-ba27-b8780f90da
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: 전달,smsContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# SMS 및 푸시 컨텐츠 디자인 정보{#about-sms-and-push-content-design}
+# SMS 및 푸시 콘텐츠 디자인 기본 정보{#about-sms-and-push-content-design}
 
 콘텐츠 편집기를 사용하여 Adobe Campaign에서 SMS 메시지 및 푸시 알림의 컨텐츠를 정의, 수정 및 개인화할 수 있습니다.
 
