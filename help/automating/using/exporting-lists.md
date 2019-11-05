@@ -1,63 +1,61 @@
 ---
 title: 목록 내보내기
-seo-title: 목록 내보내기
-description: 목록 내보내기
-seo-description: 'Adobe Campaign 에서는 나중에 사용할 수 있도록 개요 화면의 목록으로 표시된 데이터를 파일로 직접 내보낼 수 있습니다. '
-page-status-flag: 정품 인증 안 함
-uuid: C 64 FE 706-BD 6 E -4746-958 E-F 94226 F 4 E 2 CB
-contentOwner: Sauviat
-products: sg_ campaign/standard
+description: 'Adobe Campaign을 사용하면 나중에 사용할 수 있도록 개요 화면에서 목록으로 표시된 데이터를 파일에 직접 내보낼 수 있습니다. '
+page-status-flag: 활성화 안 함
+uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 자동화
-content-type: 참조
+content-type: reference
 topic-tags: 가져오기 및 내보내기 데이터
-discoiquuid: 12 c 874 DA -435 F -44 B 6-A 3 C 8-873301 E 177 CC
+discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Exporting lists{#exporting-lists}
+# 목록 내보내기{#exporting-lists}
 
-Adobe Campaign를 사용하면 나중에 사용할 수 있도록 파일로 직접 목록을 내보낼 수 있습니다. Exporting a list in a file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.
+Adobe Campaign을 사용하면 나중에 사용할 수 있도록 목록을 파일로 직접 내보낼 수 있습니다. 파일의 목록을 내보내면 **[!UICONTROL Export audits]** 메뉴에서 로그 항목이 생성됩니다. 내보내기 감사에 대한 자세한 내용은 감사 내보내기 [섹션을](../../administration/using/auditing-export-logs.md) 참조하십시오.
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** menu.
+내보내기 목록 옵션을 사용하면 기본적으로 최대 100,000개의 줄을 내보내고 Nms_ExportListLimit **옵션으로 정의할 수** 있습니다. 이 옵션은 기능 관리자가 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** 메뉴에서 관리할 수 있습니다.
 
-Export list is available in all the screens that have a **List** mode view, for users with the **[!UICONTROL EXPORT (export)]** role.
+목록 내보내기 목록은 목록 **모드 보기가 있는** 모든 화면에서 **[!UICONTROL EXPORT (export)]** 역할을 가진 사용자를 위해 사용할 수 있습니다.
 
-1. Go to your chosen **List** screen. For example, the test profile overview screen ( **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]** ).
-1. Check that the screen is in **List** mode.
+1. 선택한 목록 **화면으로** 이동합니다. 예를 들어 테스트 프로필 개요 화면( **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]** )을 참조하십시오.
+1. 화면이 목록 **모드인지** 확인합니다.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organize the columns in the list in the order that you want to export them using the **[!UICONTROL Configure list]** button, in the top right corner. 구성된 열 외에도 리소스의 기본 키를 내보냅니다.
-1. 원하는 경우 필터를 적용할 수 있습니다. 이렇게 하려면 왼쪽 상단의 단추를 클릭하여 검색 창을 표시합니다.
+1. 오른쪽 상단 모서리의 **[!UICONTROL Configure list]** 단추를 사용하여 내보낼 순서대로 목록의 열을 구성합니다. 구성된 열 외에도 리소스의 기본 키도 내보내집니다.
+1. 원하는 경우 필터를 적용할 수 있습니다. 이렇게 하려면 왼쪽 상단 모서리의 단추를 클릭하여 검색 창을 표시합니다.
 
-   다른 리소스가 포함된 목록에서 내보내기를 수행하는 경우 목록에 한 가지 유형의 리소스만 표시되도록 필터를 적용해야 합니다.
+   다른 리소스가 포함된 목록에서 내보내기를 수행하는 경우 목록에 리소스 유형이 하나만 표시되도록 필터를 적용해야 합니다.
 
 1. 원하는 경우 선택한 열을 정렬합니다.
-1. Select the export button ![](assets/exportlistbutton.png).
+1. 내보내기 단추를 ![](assets/exportlistbutton.png)선택합니다.
 
-   팝업을 확인하는 팝업이 나타납니다. 내보내기를 확인하면 파일이 자동으로 컴퓨터에 다운로드됩니다.
+   팝업이 표시되어 내보내기를 확인합니다. 내보내기를 확인하면 파일이 자동으로 컴퓨터에 다운로드됩니다.
 
-내보내기가 iOS에서 수행되지 않는 한 파일이 txt 형식인 경우 파일이 CSV 형식으로 생성됩니다. 내보낸 리소스와 내보내기 날짜에 따라 이름이 지정됩니다. 예를 들면 다음과 같습니다. Profilebase_ 20150426_ 120253. csv 라는 이름은 2015 년 4 월 26 일 12:02:53에 수행한 프로필 내보내기에 적용됩니다. UTF -8 형식으로 인코딩됩니다.
+iOS에서 내보내기를 수행하지 않는 한 CSV 형식으로 파일이 생성됩니다. 이 경우 생성된 파일은 TXT 형식으로 생성됩니다. 내보낸 리소스 및 내보내기 날짜에 따라 이름이 지정됩니다. 예:profileBase_20150426_120253.csv라는 이름은 2015년 4월 26일 12:02:53에 수행된 프로필 내보내기에 적용됩니다. UTF-8 형식으로 인코딩됩니다.
 
-숫자 값과 날짜는 내보내기를 수행하는 사용자의 현지 시간 (로케일) 를 고려합니다. 예를 들면 다음과 같습니다. dd-mm-yyyy 또는 mm-dd-yyyy.
+숫자 값과 날짜는 내보내기를 수행하는 사용자의 현지 시간(로케일)을 고려합니다. 예:DD-MM-YYYY 또는 MM-DD-YYYY.
 
-이 값보다 큰 내보내기를 수행하려면 전용 워크플로우를 만들어야 합니다. Refer to the [Extract file](../../automating/using/extract-file.md) section.
+이보다 큰 내보내기를 수행하려면 전용 워크플로우를 만들어야 합니다. Extract [파일](../../automating/using/extract-file.md) 섹션을 참조하십시오.
 
-**example**
+**예**
 
-다음 예는 아래 정의된 프로필 목록에서 수행한 내보내기입니다.
+다음 예는 아래에 정의된 프로필 목록에서 수행된 내보내기입니다.
 
-* 표시된 열 (순서대로): 성, 이름, 생년월일, 이메일 주소.
-* 이름은 알파벳순으로 정렬됩니다.
+* 표시된 열(순서대로):성, 이름, 생년월일, 이메일 주소.
+* 이름은 알파벳 순으로 정렬됩니다.
 
 ![](assets/export_list_example1.png)
 
-생성된 파일은 다음과 같이 표시됩니다 (처음 10 개 레코드에 대해).
+생성된 파일은 처음 10개의 레코드에 대해 다음과 같이 표시됩니다.
 
 ```
 Last name;First name;Birth date;Email;Zip code
