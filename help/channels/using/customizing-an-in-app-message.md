@@ -1,8 +1,6 @@
 ---
 title: 인앱 메시지 사용자 지정
-seo-title: 인앱 메시지 사용자 지정
-description: 인앱 메시지 사용자 지정
-seo-description: 다양한 옵션을 사용하여 인앱 메시지를 사용자 지정하는 방법을 알아봅니다.
+description: 다양한 옵션을 사용하여 인앱 메시지를 사용자 지정하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 1d9c08ed-4de5-44 파섹
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: 전달,inAppContent,뒤로
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
