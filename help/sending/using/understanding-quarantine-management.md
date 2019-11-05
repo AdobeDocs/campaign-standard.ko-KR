@@ -1,8 +1,6 @@
 ---
-title: 검역 관리 이해
-seo-title: 검역 관리 이해
-description: 검역 관리 이해
-seo-description: 격리 관리를 통해 전달 능력을 최적화하는 방법을 살펴볼 수 있습니다.
+title: 스팸 차단 관리 이해
+description: 격리 관리를 통해 전달 능력을 최적화하는 방법을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 검역 관리 이해{#understanding-quarantine-management}
+# 스팸 차단 관리 이해{#understanding-quarantine-management}
 
 ## 검열에 대해 {#about-quarantines}
 
