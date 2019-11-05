@@ -1,8 +1,6 @@
 ---
-title: Adobe 솔루션과 통합
-seo-title: Adobe 솔루션과 통합
-description: Adobe 솔루션과 통합
-seo-description: Adobe Experience Cloud 핵심 서비스 및 Adobe Analytics 및 Experience Manager와 같은 솔루션을 통합하면 심도 있는 인사이트와 편리한 컨텐츠 관리를 통해 Adobe Campaign 전략을 향상시키는 방법을 살펴볼 수 있습니다.
+title: Adobe 솔루션과 통합 사용
+description: Adobe Experience Cloud 핵심 서비스 및 Adobe Analytics 및 Experience Manager와 같은 솔루션을 통합하면 심도 있는 인사이트와 편리한 컨텐츠 관리를 통해 Adobe Campaign 전략을 향상시키는 방법을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Adobe 솔루션과 통합{#integrating-with-adobe-solutions}
+# Adobe 솔루션과 통합 사용{#integrating-with-adobe-solutions}
 
 다른 Adobe Experience Cloud 솔루션과 통합하려면 초기 구성을 수정해야 할 수 있습니다. 자세한 내용은 Adobe 기술 관리자에게 문의하십시오.
 
