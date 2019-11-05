@@ -1,8 +1,6 @@
 ---
 title: 패널 추가
-seo-title: 패널 추가
-description: 패널 추가
-seo-description: 동적 보고서를 사용하면 선택한 기간에 따라 패널을 추가하여 데이터를 보다 효과적으로 필터링할 수 있습니다.
+description: 동적 보고서를 사용하면 선택한 기간에 따라 패널을 추가하여 데이터를 보다 효과적으로 필터링할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 8e76e837-5epc-4250-8192-dee1a0bd62fe
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
