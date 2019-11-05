@@ -1,8 +1,6 @@
 ---
 title: 다국어 푸시 알림 만들기
-seo-title: 다국어 푸시 알림 만들기
-description: 다국어 푸시 알림 만들기
-seo-description: 다국어 푸시 알림을 만들어 사용자가 원하는 언어와 지역에 맞게 타깃팅할 수 있습니다.
+description: 다국어 푸시 알림을 만들어 사용자가 원하는 언어와 지역에 맞게 타깃팅할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: f9bb2235-d388-4 파섹
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
