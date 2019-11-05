@@ -1,8 +1,6 @@
 ---
 title: 후속 메시지
-seo-title: 후속 메시지
-description: 후속 메시지
-seo-description: 후속 메시지를 만들고 게시하는 방법을 알아봅니다.
+description: 후속 메시지를 만들고 게시하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f94666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -127,5 +125,5 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 >[!NOTE]
 >
->이벤트 구성을 만들 때 타깃팅 **[!UICONTROL Profile]** 차원을 선택한 경우 후속 메시지도 Adobe Campaign 마케팅 데이터베이스를 활용합니다. 트랜잭션 [메시지](../../channels/using/profile-transactional-messages.md)프로필을 참조하십시오.
+>이벤트 구성을 만들 때 타깃팅 **[!UICONTROL Profile]** 차원을 선택한 경우 후속 메시지도 Adobe Campaign 마케팅 데이터베이스를 활용합니다. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 
