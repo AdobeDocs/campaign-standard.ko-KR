@@ -1,8 +1,6 @@
 ---
 title: 쿼리
-seo-title: 쿼리
-description: 쿼리
-seo-description: 쿼리 활동을 사용하면 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다.
+description: 쿼리 활동을 사용하면 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: b3c629fa-37 파섹
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: 쿼리,기본
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
