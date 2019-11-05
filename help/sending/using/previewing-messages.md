@@ -1,8 +1,6 @@
 ---
 title: 메시지 미리 보기
-seo-title: 메시지 미리 보기
-description: 메시지 미리 보기
-seo-description: 콘텐츠 편집기 또는 이메일 디자이너에서 메시지를 미리 보는 방법을 알아봅니다.
+description: 콘텐츠 편집기 또는 이메일 디자이너에서 메시지를 미리 보는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fba337604c678bad17cb03796aeb24d14549605c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
