@@ -1,75 +1,73 @@
 ---
 title: 로그 내보내기
-seo-title: 로그 내보내기
-description: 로그 내보내기
-seo-description: 로그 데이터는 배달 또는 구독과 관련이 있는지 여부를 간단한 워크플로우를 통해 내보낼 수 있습니다.
-page-status-flag: 정품 인증 안 함
-uuid: 954 E 919 C -0 A 33-47 C 3-9 A 3 C -63 C 7 A 2 A 4 EDC 4
-contentOwner: Sauviat
-products: sg_ campaign/standard
+description: 배달 또는 구독과 관련된 로그 데이터는 간단한 워크플로우를 통해 내보낼 수 있습니다.
+page-status-flag: 활성화 안 함
+uuid: 954e919c-0a33-47c3-9a3c-63c7a2a4edc4
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
 audience: 자동화
-content-type: 참조
+content-type: reference
 topic-tags: 가져오기 및 내보내기 데이터
-discoiquuid: CA 8 A 95 D 8-523 F -4085-A 2 FC-E 1 D 8262 CFBAE
+discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Exporting logs{#exporting-logs}
+# 로그 내보내기{#exporting-logs}
 
-로그 데이터는 배달 또는 구독과 관련이 있는지 여부를 간단한 워크플로우를 통해 내보낼 수 있습니다. 이 도구를 사용하면 자체 보고 또는 BI 도구에서 캠페인 결과를 분석할 수 있습니다.
+배달 또는 구독과 관련된 로그 데이터는 간단한 워크플로우를 통해 내보낼 수 있습니다. 또한 자체 보고 또는 BI 도구에서 캠페인 결과를 분석할 수 있습니다.
 
-By using an **[!UICONTROL Incremental query]** that only retrieves new logs every time the workflow is executed and a simple **[!UICONTROL Extract file]** activity to define the output columns, you can get a file with the format and all the data you need. Then use a **[!UICONTROL Transfer file]** activity to retrieve the final file. Each workflow execution is planned by a **[!UICONTROL Scheduler]**.
+워크플로우가 실행될 때마다 새 로그만 **[!UICONTROL Incremental query]** 검색하는 작업과 출력 열을 정의하는 간단한 **[!UICONTROL Extract file]** 작업을 사용하면 파일과 필요한 모든 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Transfer file]** 활동을 사용하여 최종 파일을 검색합니다. 각 워크플로우 실행은 한 **[!UICONTROL Scheduler]**&#x200B;곳에서 계획됩니다.
 
-내보내기 로그 작업은 표준 사용자가 수행할 수 있습니다. Private resources such as: broadlogs, tracking logs, exclusion logs subscription logs and subscription history logs on **Profiles** can only be managed by functional administrator.
+내보내기 로그 작업은 표준 사용자가 수행할 수 있습니다. 다음과 같은 개인 리소스프로파일의 브로드캐스트 로그, 추적 로그, 제외 로그 및 구독 **기록** 로그는 기능 관리자만 관리할 수 있습니다.
 
-1. Create a new workflow as detailed in [this section](../../automating/using/building-a-workflow.md#creating-a-workflow).
-1. **[!UICONTROL Scheduler]** 활동을 추가하고 필요에 따라 설정합니다. 다음은 월별 실행의 예입니다.
+1. 이 [섹션에](../../automating/using/building-a-workflow.md#creating-a-workflow)설명된 대로 새 워크플로우를 만듭니다.
+1. 활동을 **[!UICONTROL Scheduler]** 추가하고 필요에 따라 설정합니다. 다음은 월별 실행의 예입니다.
 
    ![](assets/export_logs_scheduler.png)
 
-1. **[!UICONTROL Incremental query]** 활동을 추가하고 필요한 로그를 선택하도록 구성합니다. 예를 들어, 새로 추가되거나 업데이트된 모든 확장 로그를 선택하려면 (프로필 배달 로그):
+1. 필요한 로그를 선택하도록 **[!UICONTROL Incremental query]** 활동을 추가하고 구성합니다. 예를 들어, 새 브로드캐스트 또는 업데이트된 모든 브로드캐스트(프로필 배달 로그)를 선택하려면 다음을 수행합니다.
 
-   * **[!UICONTROL Properties]** 탭에서 대상 리소스를 **배달 로그** (Broadlogrcp) 로 변경합니다.
+   * 탭에서 대상 리소스를 배달 로그 **[!UICONTROL Properties]** **** (broadLogRcp)로 변경합니다.
 
       ![](assets/export_logs_query_properties.png)
 
-   * **[!UICONTROL Target]** 탭에서 2016 년 이후에 전송된 배달에 해당하는 모든 배달 로그를 검색할 조건을 설정합니다. For more information, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
+   * 탭에서 조건을 **[!UICONTROL Target]** 설정하여 2016년 또는 그 이후에 전송된 게재에 해당하는 모든 배달 로그를 검색합니다. 자세한 내용은 쿼리 [편집](../../automating/using/editing-queries.md#creating-queries) 섹션을 참조하십시오.
 
       ![](assets/export_logs_query_target.png)
 
-   * **[!UICONTROL Processed data]** 탭에서 **[!UICONTROL Use a date field]****Lastmodified** 필드를 선택하고 선택합니다. 다음 워크플로우의 실행 시 마지막 실행 후에 수정되거나 만들어진 로그만 검색됩니다.
+   * 탭에서 **[!UICONTROL Processed data]** 마지막 수정 **[!UICONTROL Use a date field]** 필드를 선택하고 **선택합니다** . 워크플로우의 다음 실행에서는 마지막 실행 후에 수정되거나 만들어지는 로그만 검색됩니다.
 
       ![](assets/export_logs_query_processeddata.png)
 
-      워크플로우의 처음 실행 후 다음 실행에 사용할 마지막 실행 날짜를 이 탭에서 확인할 수 있습니다. 워크플로우가 실행될 때마다 자동으로 업데이트됩니다. 필요에 따라 새 값을 수동으로 입력하여 이 값을 무시할 수 있습니다.
+      워크플로우가 처음 실행된 후 다음 실행에 사용될 마지막 실행 날짜를 이 탭에서 볼 수 있습니다. 워크플로우가 실행될 때마다 자동으로 업데이트됩니다. 필요에 맞게 새 값을 수동으로 입력하여 이 값을 재정의할 수도 있습니다.
 
-1. Add an **[!UICONTROL Extract file]** activity that will export the queried data in a file:
+1. 쿼리된 데이터를 파일에 내보낼 **[!UICONTROL Extract file]** 활동을 추가합니다.
 
-   * **[!UICONTROL Extraction]** 탭에서 파일 이름을 지정합니다. 이 이름은 내보내기 날짜로 자동으로 완료되어 추출된 모든 파일이 고유한지 확인합니다.
+   * 탭에서 파일 이름을 **[!UICONTROL Extraction]** 지정합니다. 이 이름은 추출된 모든 파일이 고유하도록 내보내기 날짜와 함께 자동으로 완성됩니다.
 
-      파일에서 내보낼 열을 선택합니다. 여기에는 배달 또는 프로필 정보와 같은 관련 리소스에서 오는 데이터를 선택할 수 있습니다. 최종 파일을 구성하려면 정렬을 적용할 수 있습니다. 예를 들어, 아래 예에서 보듯이 로그 날짜에 표시됩니다.
+      파일에서 내보낼 열을 선택합니다. 배달 또는 프로필 정보와 같은 관련 리소스에서 제공되는 데이터를 여기서 선택할 수 있습니다. 최종 파일을 구성하려면 정렬을 적용할 수 있습니다. 예를 들어 아래 예와 같이 로그 날짜에 표시됩니다.
 
       ![](assets/export_logs_extractfile_extraction.png)
 
       >[!NOTE]
       >
-      >로그 리소스의 고유 식별자 (기본 키) 는 내보낼 수 없습니다.
+      >로그 리소스의 고유 식별자(기본 키)를 내보낼 수 없습니다.
 
-   * **[!UICONTROL File structure]** 탭에서 사용자의 요구 사항에 맞는 출력 파일의 형식을 정의합니다.
+   * 탭에서 **[!UICONTROL File structure]** 필요에 맞게 출력 파일의 형식을 정의합니다.
 
-      Check the **[!UICONTROL Export labels instead of internal values of enumerations]** option in case you export enumeration values. 이 옵션을 사용하면 ID 대신 이해하기 쉬운 짧은 레이블을 검색할 수 있습니다.
+      열거형 값을 내보낼 경우 이 **[!UICONTROL Export labels instead of internal values of enumerations]** 옵션을 선택합니다. 이 옵션을 사용하면 ID 대신 이해하기 쉬운 짧은 레이블을 검색할 수 있습니다.
 
-1. **[!UICONTROL Transfer file]** 활동을 추가하고 새로 만든 파일을 Sftp 서버와 같이 액세스할 수 있는 다른 위치에 Adobe Campaign Server에서 전송하도록 구성합니다.
+1. 활동을 추가하고 새로 만든 파일을 Adobe Campaign 서버에서 SFTP 서버와 같은 액세스 가능한 다른 위치로 전송하도록 **[!UICONTROL Transfer file]** 구성합니다.
 
-   * **[!UICONTROL General]** 탭에서 **[!UICONTROL File upload]** Adobe Campaign의 파일을 다른 서버로 전송하는 용도이므로 선택합니다.
-   * **[!UICONTROL Protocol]** 탭에서 전송 매개 변수를 지정하고 사용할 [외부 계정을](../../administration/using/external-accounts.md#creating-an-external-account) 선택합니다.
+   * Adobe **[!UICONTROL General]** Campaign **[!UICONTROL File upload]** 에서 다른 서버로 파일을 전송할 목적으로 탭에서 선택합니다.
+   * 탭에서 전송 매개 변수를 지정하고 사용할 **[!UICONTROL Protocol]** 외부 계정을 [](../../administration/using/external-accounts.md#creating-an-external-account) 선택합니다.
 
-1. **[!UICONTROL End]** 활동을 추가하여 제대로 끝났는지 확인하고 워크플로우를 저장합니다.
+1. 작업을 추가하여 **[!UICONTROL End]** 작업이 제대로 종료되고 워크플로우가 저장되도록 합니다.
 
    ![](assets/export_logs_example_workflow.png)
 
