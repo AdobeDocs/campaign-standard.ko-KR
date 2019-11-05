@@ -1,8 +1,6 @@
 ---
 title: 이중 옵트인 프로세스 설정
-seo-title: 이중 옵트인 프로세스 설정
-description: 이중 옵트인 프로세스 설정
-seo-description: 다음 단계에 따라 Adobe Campaign의 랜딩 페이지를 사용하여 이중 옵트인 프로세스를 설정합니다.
+description: 다음 단계에 따라 Adobe Campaign의 랜딩 페이지를 사용하여 이중 옵트인 프로세스를 설정합니다.
 page-status-flag: 활성화 안 함
 uuid: 23e6c4c2-e2c7-47 파섹
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b3 파섹
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
