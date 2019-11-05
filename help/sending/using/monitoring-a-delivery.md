@@ -1,8 +1,6 @@
 ---
-title: 배달 모니터링
-seo-title: 배달 모니터링
-description: 배달 모니터링
-seo-description: 배달을 모니터링하는 방법을 알아봅니다.
+title: 게재 모니터링
+description: 배달을 모니터링하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 772c607-debd-40fd-8322-4d49119979b4
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: 배달, 기본
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 배달 모니터링{#monitoring-a-delivery}
+# 게재 모니터링{#monitoring-a-delivery}
 
 전달을 모니터링하고 영향력을 측정하는 방법에는 몇 가지가 있습니다.
 
@@ -44,7 +42,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 **관련 항목:**
 
-* [장애 발생 시 경고 받기](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [게재 실패 시 경고 받기](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [보고서](../../reporting/using/about-dynamic-reports.md)
 
 ## 배달 로그 {#delivery-logs}
