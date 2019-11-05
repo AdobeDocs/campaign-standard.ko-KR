@@ -1,8 +1,6 @@
 ---
-title: 랜딩 페이지를 설정하는 기본 단계
-seo-title: 랜딩 페이지를 설정하는 기본 단계
-description: 랜딩 페이지를 설정하는 기본 단계
-seo-description: 랜딩 페이지를 설정하는 기본 단계 학습
+title: 랜딩 페이지 설정 주요 단계
+description: 랜딩 페이지를 설정하는 기본 단계 학습
 page-status-flag: 활성화 안 함
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: 여우원숭이
@@ -15,12 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f100f6b041c6dbb298113b4ecc7830951714131
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 랜딩 페이지를 설정하는 기본 단계 {#main-steps-create-a-landing-page}
+# 랜딩 페이지 설정 주요 단계 {#main-steps-create-a-landing-page}
 
 ## 랜딩 페이지 만들기 정보
 
