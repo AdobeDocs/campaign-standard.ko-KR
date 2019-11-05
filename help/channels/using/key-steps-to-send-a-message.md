@@ -1,8 +1,6 @@
 ---
-title: 메시지를 보내는 주요 단계
-seo-title: 메시지를 보내는 주요 단계
-description: 메시지를 보내는 주요 단계
-seo-description: 다음 단계에 따라 Adobe Campaign을 사용하여 메시지를 만들고 보냅니다.
+title: 메시지 보내기 주요 단계
+description: 다음 단계에 따라 Adobe Campaign을 사용하여 메시지를 만들고 보냅니다.
 page-status-flag: 활성화 안 함
 uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 메시지를 보내는 주요 단계{#key-steps-to-send-a-message}
+# 메시지 보내기 주요 단계{#key-steps-to-send-a-message}
 
 배포 우수 사례에 대한 자세한 내용은 [배포 우수 사례를](http://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) 참조하십시오.
 
