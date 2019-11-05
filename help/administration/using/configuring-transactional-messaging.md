@@ -1,8 +1,6 @@
 ---
 title: 트랜잭션 메시지 구성
-seo-title: 트랜잭션 메시지 구성
-description: 트랜잭션 메시지 구성
-seo-description: 트랜잭션 메시지를 구성하는 방법을 알아봅니다.
+description: 트랜잭션 메시지를 구성하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -63,7 +61,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 전송하려면 먼저 
 
 >[!NOTE]
 >
->다국어 트랜잭션 메시지를 만들려면 ID로 추가 이벤트 속성을 **[!UICONTROL AC_language]** 정의합니다. 이것은 이벤트 트랜잭션 메시지에만 적용됩니다. 이벤트가 게시되면 다국어 트랜잭션 메시지의 컨텐츠를 편집하는 단계는 다국어 표준 이메일과 동일합니다. 다국어 [이메일](../../channels/using/creating-a-multilingual-email.md)만들기를 참조하십시오.
+>다국어 트랜잭션 메시지를 만들려면 ID로 추가 이벤트 속성을 **[!UICONTROL AC_language]** 정의합니다. 이것은 이벤트 트랜잭션 메시지에만 적용됩니다. 이벤트가 게시되면 다국어 트랜잭션 메시지의 컨텐츠를 편집하는 단계는 다국어 표준 이메일과 동일합니다. See [Creating a multilingual email](../../channels/using/creating-a-multilingual-email.md).
 
 ## 데이터 컬렉션 정의 {#defining-data-collections}
 
@@ -160,7 +158,7 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
 >
 >이벤트를 수정할 때마다 웹 사이트 개발자가 사용할 업데이트된 REST API를 생성하려면 **[!UICONTROL Publish]** 다시 클릭해야 합니다.
 
-이벤트가 게시되면 새 이벤트에 연결된 트랜잭션 메시지가 자동으로 만들어집니다. 이 이벤트가 트랜잭션 메시지 전송을 트리거하려면 방금 만든 메시지를 수정하고 게시해야 합니다. 이벤트 [트랜잭션 메시지를](../../channels/using/event-transactional-messages.md)참조하십시오.
+이벤트가 게시되면 새 이벤트에 연결된 트랜잭션 메시지가 자동으로 만들어집니다. 이 이벤트가 트랜잭션 메시지 전송을 트리거하려면 방금 만든 메시지를 수정하고 게시해야 합니다. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 왼쪽 영역의 링크에서 직접 만든 트랜잭션 메시지에 액세스할 수 있습니다.
 
