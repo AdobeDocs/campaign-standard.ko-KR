@@ -1,8 +1,6 @@
 ---
-title: 세분화 및 타깃팅
-seo-title: 세분화 및 타깃팅
-description: 세분화 및 타깃팅
-seo-description: '"Adobe Campaign에서 프로필, 타깃팅 및 고객 제작에 대해 알아봅니다.고객을 구축하고, Adobe Experience Cloud 솔루션을 통해 고객을 공유하고, 마케팅 피로도를 방지할 수 있습니다."'
+title: 세분화 및 타겟팅
+description: '"Adobe Campaign에서 프로필, 타깃팅 및 고객 제작에 대해 알아봅니다.고객을 구축하고, Adobe Experience Cloud 솔루션을 통해 고객을 공유하고, 마케팅 피로도를 방지할 수 있습니다."'
 page-status-flag: 활성화 안 함
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 세분화 및 타깃팅{#segmentation-and-targeting}
+# 세분화 및 타겟팅{#segmentation-and-targeting}
 
 ## 프로필 {#profiles}
 
