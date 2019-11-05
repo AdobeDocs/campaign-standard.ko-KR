@@ -1,8 +1,6 @@
 ---
 title: 패키지 관리
-seo-title: 패키지 관리
-description: 패키지 관리
-seo-description: 관리자는 구조화된 XML 파일을 통해 여러 Adobe Campaign 인스턴스 간에 리소스를 교환하기 위한 패키지를 정의할 수 있습니다.
+description: 관리자는 구조화된 XML 파일을 통해 여러 Adobe Campaign 인스턴스 간에 리소스를 교환하기 위한 패키지를 정의할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
 contentOwner: 자우비
@@ -15,7 +13,7 @@ context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
