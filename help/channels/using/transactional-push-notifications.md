@@ -1,8 +1,6 @@
 ---
 title: 트랜잭션 푸시 알림
-seo-title: 트랜잭션 푸시 알림
-description: 트랜잭션 푸시 알림
-seo-description: 트랜잭션 푸시 알림을 만들고 게시하는 방법에 대해 알아봅니다.
+description: 트랜잭션 푸시 알림을 만들고 게시하는 방법에 대해 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -54,7 +52,7 @@ Adobe Campaign을 사용하여 iOS 및 Android 모바일 장치에서 트랜잭�
 
 이 회사는 단일 장치를 통해 하나의 모바일 애플리케이션을 사용하여 사용자당 하나의 트랜잭션 푸시 알림(등록 토큰으로 식별됨)을 전송합니다.
 
-1. 편집하기 위해 만든 트랜잭션 메시지로 이동합니다. 이벤트 [트랜잭션 메시지를](../../channels/using/event-transactional-messages.md)참조하십시오.
+1. 편집하기 위해 만든 트랜잭션 메시지로 이동합니다. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
    ![](assets/message-center_push_message.png)
 
@@ -111,7 +109,7 @@ Adobe Campaign을 사용하여 iOS 및 Android 모바일 장치에서 트랜잭�
 
 예를 들어, 한 항공사 회사는 모바일 애플리케이션에 가입한 모든 Adobe Campaign 사용자에게 탑승에 대한 마지막 전화를 발송하려고 합니다.
 
-1. 편집하기 위해 만든 트랜잭션 메시지로 이동합니다. 이벤트 [트랜잭션 메시지를](../../channels/using/event-transactional-messages.md)참조하십시오.
+1. 편집하기 위해 만든 트랜잭션 메시지로 이동합니다. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
    <!--![](assets/message-center_push_message_profile.png)-->
 
