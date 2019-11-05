@@ -1,8 +1,6 @@
 ---
 title: 프로필 편집
-seo-title: 프로필 편집
-description: 프로필 편집
-seo-description: 기존 프로필을 편집하고 연락처 정보, 기본 채널, 추적 로그, 구독 등에 액세스하는 방법을 알아봅니다.
+description: 기존 프로필을 편집하고 연락처 정보, 기본 채널, 추적 로그, 구독 등에 액세스하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -43,7 +41,7 @@ Adobe Campaign Standard API를 사용하여 프로필 에디션을 사용할 수
 
 관련 항목:
 
-* [통합된 고객 프로필](../../audiences/using/integrated-customer-profile.md)
+* [Integrated customer profile](../../audiences/using/integrated-customer-profile.md)
 * [받는 사람의 시간대에서 보내기](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 
 ## 일반 프로필 데이터 {#general-profile-data}
@@ -57,7 +55,7 @@ Adobe Campaign Standard API를 사용하여 프로필 에디션을 사용할 수
 
 ![](assets/profile_creation4.png)
 
-## 로그 전송 및 추적 {#sending-and-tracking-logs}
+## Sending and tracking logs {#sending-and-tracking-logs}
 
 및 **[!UICONTROL Sending logs]** **[!UICONTROL Tracking logs]** 탭에서는 프로필로 전송된 배달 목록과 모든 관련 추적 데이터를 그룹화합니다.
 
