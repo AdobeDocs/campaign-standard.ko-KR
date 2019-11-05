@@ -1,8 +1,6 @@
 ---
 title: 구독 모니터링
-seo-title: 구독 모니터링
-description: 구독 모니터링
-seo-description: 대시보드 및 보고서를 사용하여 가입자를 추적하고 서비스의 성공을 측정하는 방법을 알아봅니다.
+description: 대시보드 및 보고서를 사용하여 가입자를 추적하고 서비스의 성공을 측정하는 방법을 알아봅니다.
 page-status-flag: 활성화 안 함
 uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
