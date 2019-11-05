@@ -1,8 +1,6 @@
 ---
-title: 피로 규칙
-seo-title: 피로 규칙
-description: 피로 규칙
-seo-description: 피로 규칙을 만들어 프로필로 인한 과잉 통신을 관리합니다.
+title: 피로도 규칙
+description: 피로 규칙을 만들어 프로필로 인한 과잉 통신을 관리합니다.
 page-status-flag: 활성화 안 함
 uuid: fa5e3d-36c2-4f16-b97a-119b85adf679
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a6586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 피로 규칙{#fatigue-rules}
+# 피로도 규칙{#fatigue-rules}
 
 ## 피로 규칙 정보 {#about-fatigue-rules}
 
