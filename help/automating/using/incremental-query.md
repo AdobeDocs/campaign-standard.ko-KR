@@ -1,8 +1,6 @@
 ---
-title: 증분 쿼리
-seo-title: 증분 쿼리
-description: 증분 쿼리
-seo-description: 증분 쿼리 활동을 사용하면 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다.
+title: 증가식 쿼리
+description: 증분 쿼리 활동을 사용하면 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: 자우비
@@ -15,12 +13,12 @@ context-tags: 증분,기본
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 증분 쿼리{#incremental-query}
+# 증가식 쿼리{#incremental-query}
 
 ## 설명 {#description}
 
@@ -95,7 +93,7 @@ source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
    자세한 내용은 이메일 배달 [및](../../automating/using/email-delivery.md) 이메일 컨텐츠 [정의](../../designing/using/personalization.md) 섹션을 참조하십시오.
 
-그런 다음 워크플로우 실행을 시작합니다. 새 구독자는 매주 프로모션 코드와 함께 환영 이메일을 수신하게 됩니다.
+그런 다음 워크플로우 실행을 시작합니다. 새 구독자는 매주 프로모션 코드와 함께 환영 이메일을 받게 됩니다.
 
 ## 예:배달 로그의 증분 쿼리 {#example--incremental-query-on-delivery-logs}
 
