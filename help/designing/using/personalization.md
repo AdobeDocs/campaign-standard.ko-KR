@@ -1,8 +1,6 @@
 ---
 title: 개인화
-seo-title: 개인화
-description: 개인화
-seo-description: 이메일 디자이너에서 이메일을 개인화하는 방법을 살펴볼 수 있습니다.
+description: 이메일 디자이너에서 이메일을 개인화하는 방법을 살펴볼 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,7 +24,7 @@ Adobe Campaign에서 제공하는 컨텐츠 및 메시지 표시는 여러 가�
 * 동적 개인화 필드를 삽입합니다. 개인화 [필드](#inserting-a-personalization-field)삽입을 참조하십시오.
 * 사전 정의된 개인화 블록을 삽입합니다. 컨텐츠 [블록](#adding-a-content-block)추가를 참조하십시오.
 * 이메일 보낸 사람을 개인화합니다. 발신자 [개인화를](#personalizing-the-sender)참조하십시오.
-* 이메일 제목을 개인화합니다. 이메일의 [제목](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)맞춤화를 참조하십시오.
+* 이메일 제목을 개인화합니다. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 * 조건부 컨텐츠 만들기 이메일에서 [동적 컨텐츠 정의 참조](#defining-dynamic-content-in-an-email)
 
 ## 발신자 개인화 {#personalizing-the-sender}
