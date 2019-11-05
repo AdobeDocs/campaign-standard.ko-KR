@@ -1,151 +1,149 @@
 ---
 title: 대상자 만들기
-seo-title: 대상자 만들기
-description: 대상자 만들기
-seo-description: Adobe Campaign에서 고객을 만드는 방법을 살펴볼 수 있습니다.
-page-status-flag: 정품 인증 안 함
-uuid: FE 99 B 31 B-A 949-4832-B 0 E 6-2 B 36 D 1 C 8 BE 80
-contentOwner: Sauviat
-products: sg_ campaign/standard
-audience: 대상
-content-type: 참조
-topic-tags: 관리 대상
-discoiquuid: DF 8 bdcfb-BE 5 E -4044-BC 26-AA 3466 Accbbe
-context-tags: Readaudience, main; 고객, 개요,전달, 고객, 뒤로
+description: Adobe Campaign에서 대상을 만드는 방법을 알아봅니다.
+page-status-flag: 활성화 안 함
+uuid: fe99b31b-a949-4832-b0e6-2b36d1c8be80
+contentOwner: 자우비
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
+content-type: reference
+topic-tags: 고객 관리
+discoiquuid: df8bdcfb-be5e-4044-bc26-aa3466acbe
+context-tags: readAudience,main;audience,overview;delivery,audience,back
 internal: n
-snippet: Y
+snippet: y
 translation-type: tm+mt
-source-git-commit: 866567d63dd2798eb56d42d4e163e5484c9b4d68
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Creating audiences{#creating-audiences}
+# 대상자 만들기{#creating-audiences}
 
-## Creating query audiences {#creating-query-audiences}
+## 쿼리 대상자 만들기 {#creating-query-audiences}
 
-This section describes how to create a **Query** audience. You can also create audiences from importing a file or targeting in a [workflow](../../automating/using/discovering-workflows.md).
+이 섹션에서는 쿼리 대상을 만드는 방법을 **설명합니다** . 또한 [워크플로우에서](../../automating/using/discovering-workflows.md)파일 가져오기 또는 타깃팅에서 대상을 만들 수도 있습니다.
 
 대상 목록에서 Adobe Campaign 프로필에 대한 쿼리를 수행하거나 Adobe Experience Cloud 대상을 가져와서 대상을 만들 수 있습니다.
 
-1. Go to the audience list via the **[!UICONTROL Audiences]** tab or card.
+1. 탭이나 카드를 통해 대상 목록으로 **[!UICONTROL Audiences]** 이동합니다.
 
    ![](assets/audiences_query_1.png)
 
-1. Select **[!UICONTROL Create]** to access the screen to create a new audience.
+1. 화면에 **[!UICONTROL Create]** 액세스하여 새 대상자를 만듭니다.
 
    ![](assets/audiences_query.png)
 
 1. 고객 이름 지정 대상 레이블은 대상 목록과 쿼리 도구의 팔레트에서 사용됩니다.
-1. **[!UICONTROL Query]** 대상 유형을 선택합니다. 쿼리에 의해 정의된 대상은 각 추가 사용시 다시 계산됩니다.
+1. 대상자 유형을 **[!UICONTROL Query]** 선택합니다.쿼리에 의해 정의된 대상은 추가로 사용할 때마다 다시 계산됩니다.
 
    ![](assets/audience_type_selection.png)
 
-1. Then select the **[!UICONTROL Targeting dimension]** that you would like to use to filter your customers. 각 대상은 단일 타깃팅 차원으로 구성됩니다. 예를 들어 프로필, 테스트 프로필 및 구독자 모두로 구성된 대상자를 만들 수 없습니다. For more on targeting dimensions, refer to [this page](../../automating/using/query.md#targeting-dimensions-and-resources).
-1. 대상 모집단을 정의하는 쿼리를 만듭니다. Refer to the section on [editing queries](../../automating/using/editing-queries.md).
-1. Click the **[!UICONTROL Create]** button to save your audience.
+1. 그런 다음 **[!UICONTROL Targeting dimension]** 고객을 필터링하는 데 사용할 항목을 선택합니다. 각 대상은 단일 타깃팅 차원으로 구성됩니다. 예를 들어 프로필, 테스트 프로필 및 구독자로 구성된 대상은 만들 수 없습니다. 차원 타깃팅에 대한 자세한 내용은 [이 페이지를](../../automating/using/query.md#targeting-dimensions-and-resources)참조하십시오.
+1. 대상 인구를 정의하는 쿼리를 만듭니다. 쿼리 [편집에](../../automating/using/editing-queries.md)대한 섹션을 참조하십시오.
+1. 대상을 저장하려면 **[!UICONTROL Create]** 단추를 클릭합니다.
 
 >[!NOTE]
 >
->You can add a description to this audience and define the access authorizations via the **[!UICONTROL Edit properties]** icon.
+>이 대상에 설명을 추가하고 **[!UICONTROL Edit properties]** 아이콘을 통해 액세스 권한을 정의할 수 있습니다.
 
-## Creating list audiences {#creating-list-audiences}
+## 목록 대상 만들기 {#creating-list-audiences}
 
-This section describes how to create a **List** audience after targeting in a workflow. You can also create audiences by importing a file into a [workflow](../../automating/using/discovering-workflows.md) or via a query from the **[!UICONTROL Audiences]** menu.
+이 섹션에서는 워크플로우에서 타깃팅 **후 목록** 대상을 만드는 방법에 대해 설명합니다. 파일을 [워크플로로](../../automating/using/discovering-workflows.md) 가져오거나 **[!UICONTROL Audiences]** 메뉴에서 쿼리를 통해 대상을 만들 수도 있습니다.
 
-**목록** 대상자를 만들기 위해 단계는 다음과 같습니다.
+목록 대상을 **만들려면** 다음 단계를 수행하십시오.
 
-1. **마케팅 활동** 탭에서 **만들기를** 클릭한 다음 **워크플로우를 선택합니다**.
+1. 마케팅 활동 **탭에서 만들기를** 클릭한 **다음** 워크플로우를 **선택합니다**.
 
    ![](assets/audiences_list_1.png)
 
-1. **알려진** 차원이 있는 모집단을 선택할 수 있도록 타깃팅 활동을 드래그 앤 드롭한 다음 구성합니다. The list of available activities and their configuration are detailed in the [Targeting activities](../../automating/using/about-targeting-activities.md) section.
+1. 드래그 앤 드롭한 다음 **알려진** 차원이 있는 모집단을 선택할 수 있는 타깃팅 활동을 구성합니다. 사용 가능한 활동 및 구성 목록은 타깃팅 활동 [](../../automating/using/about-targeting-activities.md) 섹션에서 자세히 설명합니다.
 
-   You can use a **[!UICONTROL Query]** activity, or import data using a **[!UICONTROL Load file]** activity before using a **[!UICONTROL Reconciliation]** activity to identify the dimension of the data imported. Here, we want to target recipients who subscribed to the Sport Newsletter with a **[!UICONTROL Query]** activity .
+   활동을 사용하여 가져온 데이터의 차원을 식별하기 전에 **[!UICONTROL Query]** 활동을 사용하거나 **[!UICONTROL Load file]** **[!UICONTROL Reconciliation]** 활동을 사용하여 데이터를 가져올 수 있습니다. 여기에서 **[!UICONTROL Query]** 활동을 통해 스포츠 뉴스레터를 구독한 수신자를 타깃팅하려고 합니다.
 
    ![](assets/audiences_list_2.png)
 
-1. After your targeting, drag and drop a **[!UICONTROL Save audience]** activity into your workflow. For example, you can chose to **[!UICONTROL Create or update an audience]**, this allows you to create then automatically update your audience with new data. In this case, add a **[!UICONTROL Scheduler]** activity at the beginning of your workflow.
+1. 타깃팅 후 **[!UICONTROL Save audience]** 활동을 워크플로우로 드래그하여 놓습니다. 예를 들어, 이렇게 선택할 수 **[!UICONTROL Create or update an audience]**&#x200B;있습니다. 이렇게 하면 새 데이터로 대상을 자동으로 업데이트할 수 있습니다. 이 경우 워크플로우의 시작 부분에 **[!UICONTROL Scheduler]** 활동을 추가합니다.
 
-   For more information on configuring this activity, refer to the [Save audience](../../automating/using/save-audience.md) section.
+   이 활동 구성에 대한 자세한 내용은 대상 [저장](../../automating/using/save-audience.md) 섹션을 참조하십시오.
 
    ![](assets/audiences_list_3.png)
 
 1. 워크플로우를 저장하고 시작합니다.
 
-   As the **[!UICONTROL Save audience]** is placed after a targeting with a known dimension, the audiences created via this activity are **List** audiences.
+   알려진 차원이 있는 타깃팅 다음에 **[!UICONTROL Save audience]** 배치되면 이 활동을 통해 생성된 대상은 목록 **대상입니다** .
 
-   저장된 대상의 컨텐츠는 대상 목록을 통해 액세스할 수 있는 대상의 세부 보기에서 사용할 수 있습니다. 이 보기에서 사용할 수 있는 열은 워크플로우의 저장 활동 전환 전환 열에 해당합니다. 예를 들면 다음과 같습니다. 가져온 파일의 열 (쿼리에서 추가 데이터)
+   이렇게 저장된 대상자의 컨텐츠는 대상 목록을 통해 액세스할 수 있는 대상의 세부 보기에서 사용할 수 있습니다. 이 보기에서 사용할 수 있는 열은 워크플로우의 저장 활동의 인바운드 전환 열에 해당합니다. 예:가져온 파일의 열, 쿼리에서 추가된 추가 데이터.
 
    ![](assets/audiences_list_4.png)
 
-## Creating file audiences {#creating-file-audiences}
+## 파일 대상 만들기 {#creating-file-audiences}
 
-This section details how to create a **File** audience by importing a file into a workflow. [워크플로우나](../../automating/using/discovering-workflows.md) **[!UICONTROL Audiences]** 메뉴에서 쿼리를 통해 타깃팅 활동에서 대상을 만들 수도 있습니다.
+이 섹션에서는 파일을 워크플로우로 가져와서 **파일** 대상을 만드는 방법에 대해 자세히 설명합니다. 또한 [워크플로우의](../../automating/using/discovering-workflows.md) 타깃팅 활동이나 **[!UICONTROL Audiences]** 메뉴에서 쿼리를 통해 대상을 만들 수 있습니다.
 
-**파일** 대상자를 만들기 위해 단계는 다음과 같습니다.
+파일 대상을 **만들려면** 다음 단계를 수행하십시오.
 
-1. **마케팅 활동** 탭에서 **만들기를** 클릭한 다음 **워크플로우를 선택합니다**.
-1. Drag and drop, and then configure a **[!UICONTROL Load file]** activity which will allow you to import a population that has an **unknown** dimension when the workflow is executed. For more information on configuring this activity, refer to the [Load file](../../automating/using/load-file.md) section.
+1. 마케팅 활동 **탭에서 만들기를** 클릭한 **다음** 워크플로우를 **선택합니다**.
+1. 드래그 앤 드롭한 다음 워크플로우가 실행될 때 **[!UICONTROL Load file]** 알 수 없는 **차원이 있는 모집단 가져오기를 허용하는** 활동을 구성합니다. 이 활동 구성에 대한 자세한 내용은 파일 [로드](../../automating/using/load-file.md) 섹션을 참조하십시오.
 
    ![](assets/audience_files_1.png)
 
-1. Drag and drop a **[!UICONTROL Save audience]** activity after the **[!UICONTROL Load file]** activity. For more information on configuring this activity, refer to the [Save audience](../../automating/using/save-audience.md) section.
+1. 활동 후에 **[!UICONTROL Save audience]** 활동을 드래그하여 **[!UICONTROL Load file]** 놓습니다. 이 활동 구성에 대한 자세한 내용은 대상 [저장](../../automating/using/save-audience.md) 섹션을 참조하십시오.
 1. 워크플로우를 저장하고 시작합니다.
 
    ![](assets/audience_files_2.png)
 
-   As the **[!UICONTROL Save audience]** is placed after an import, the data dimension is unknown and the audiences created via this activity are **File** audiences.
+   가져오기 후 **[!UICONTROL Save audience]** 가 배치되면 데이터 차원을 알 수 없으며 이 활동을 통해 생성된 대상은 파일 **대상입니다** .
 
-   저장된 대상의 컨텐츠는 대상 목록을 통해 액세스할 수 있는 대상의 세부 보기에서 사용할 수 있습니다. 이 보기에서 사용할 수 있는 열은 워크플로우의 저장 활동 전환 전환 열에 해당합니다. 예를 들면 다음과 같습니다. 가져온 파일의 열 (쿼리에서 추가 데이터 추가)
+   이렇게 저장된 대상자의 컨텐츠는 대상 목록을 통해 액세스할 수 있는 대상의 세부 보기에서 사용할 수 있습니다. 이 보기에서 사용할 수 있는 열은 워크플로우의 저장 활동의 인바운드 전환 열에 해당합니다. 예:가져온 파일의 열, 쿼리에서 추가된 추가 데이터.
 
    ![](assets/audience_files_3.png)
 
-## Creating Experience Cloud audiences {#creating-experience-cloud-audiences}
+## Experience Cloud 대상 만들기 {#creating-experience-cloud-audiences}
 
-Adobe Campaign를 사용하면 Adobe Experience Cloud를 통해 고객을 공유하고 공유할 수 있습니다. **Experience Cloud** 유형 대상은 **[!UICONTROL Import shared audience]** 기술 워크플로우를 통해 핵심 서비스에서 Adobe Campaign로 직접 가져옵니다.
+Adobe Campaign을 사용하면 Adobe Experience Cloud를 통해 고객을 공유하고 교환할 수 있습니다. Adobe **Experience Cloud** 유형의 대상은 **[!UICONTROL Import shared audience]** 기술 워크플로우를 통해 사람 코어 서비스에서 Adobe Campaign으로 바로 가져올 수 있습니다.
 
-Unlike **Query** type audience which will query profiles from Adobe Campaign, the **Experience Cloud** audience is composed of a list of Visitor IDs.
+Adobe **Campaign에서** 프로파일을 쿼리할 쿼리 **** 유형 대상과는 달리 Experience Cloud 대상은 방문자 ID 목록으로 구성됩니다.
 
-이 통합이 작동하려면 먼저 구성해야 합니다. For more information on configuration and how to import or export audiences with People core service, refer to the following [section](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
+이 통합이 작동하려면 먼저 통합을 구성해야 합니다. 구성 및 사람 핵심 서비스를 사용하여 대상을 가져오거나 내보내는 방법에 대한 자세한 내용은 다음 [섹션을](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)참조하십시오.
 
 ![](assets/audience_peoplecore.png)
 
-## Editing audiences {#editing-audiences}
+## 대상자 편집 {#editing-audiences}
 
-대상자 유형에 따라 대상자를 편집하는 방법은 다양합니다.
+대상자 유형에 따라 대상을 편집하는 방법은 다양합니다.
 
-* **쿼리** 대상자를 편집하려면 **[!UICONTROL Audiences]** 메뉴 또는 Adobe Campaign 홈 페이지에서 **[!UICONTROL Audiences]** 카드를 통해 대상 목록으로 이동합니다.
+* 쿼리 **대상을** 편집하려면 **[!UICONTROL Audiences]** 메뉴를 통해 대상자 목록으로 이동하거나 Adobe Campaign 홈 페이지에서 **[!UICONTROL Audiences]** 카드로 이동합니다.
 
-   고객 관계 파악 이전에 만든 대상의 모든 요소를 편집할 수 있습니다.
+   고객과 연관성 높은 콘텐츠 전달 이전에 만든 대상의 모든 요소를 편집할 수 있습니다.
 
    >[!CAUTION]
    >
-   >If you change the **[!UICONTROL Filtering dimension]** in the query, the rules that have previously been defined will be lost.
+   >쿼리에서 **[!UICONTROL Filtering dimension]** 을 변경하면 이전에 정의된 규칙이 손실됩니다.
 
-* **목록** 또는 **파일** 대상을 편집하려면, 만들어진 워크플로우를 편집하고 **[!UICONTROL Save audience]** 활동을 수정합니다. 대상이 수정되도록 워크플로우를 시작합니다.
-* **Experience Cloud** 대상을 편집하려면 People 핵심 서비스 영역으로 대상 [가져오기/내보내기를](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) 참조하십시오.
+* 목록 또는 **파일** 대상을 **편집하려면** 만든 워크플로우를 편집하고 **[!UICONTROL Save audience]** 활동을 수정합니다. 대상이 수정되도록 워크플로우를 시작합니다.
+* Experience Cloud **대상을** 편집하려면 [핵심 서비스를](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) 사용하여 대상 가져오기/내보내기 섹션을 참조하십시오.
 
-## Deleting audiences {#deleting-audiences}
+## 대상자 삭제 {#deleting-audiences}
 
-두 가지 방법으로 한 명 또는 여러 대상을 삭제할 수 있습니다. 먼저 대상 만료 날짜를 추가할 수 있습니다.
+하나 또는 여러 대상을 삭제하는 방법은 두 가지가 있습니다. 먼저 고객에게 만료 날짜를 추가할 수 있습니다
 
-이렇게 하려면:
+이렇게 하려면 다음을 수행하십시오.
 
-1. 고객 중 한 사람 한 사람에게 액세스
-1. Click the ![](assets/edit_darkgrey-24px.png) button to access your audience's configuration.
+1. 고객 중 한 사람에게 액세스
+1. 대상의 구성에 액세스하려면 ![](assets/edit_darkgrey-24px.png) 단추를 클릭합니다.
 
    ![](assets/audience_delete_2.png)
 
-1. **[!UICONTROL Expires on]** 필드에 만료 날짜를 대상에 추가합니다.
+1. 필드에서 **[!UICONTROL Expires on]** 사용자에게 만료 날짜를 추가합니다.
 
    ![](assets/audience_delete_3.png)
 
-1. **[!UICONTROL Confirm]****[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. 을 **[!UICONTROL Confirm]** 클릭한 **[!UICONTROL Save]**&#x200B;다음
 
-이제 만료 날짜가 구성됩니다. 이 날짜에 도달하면 대상이 자동으로 삭제됩니다.
+이제 만료 날짜가 구성됩니다. 이 날짜가 되면 대상이 자동으로 삭제됩니다.
 
-Or if you need to delete an audience, you can simply select one or several audiences then click the **[!UICONTROL Delete element]** button.
+또는 대상을 삭제해야 하는 경우 한 명 또는 여러 명의 대상을 선택한 다음 **[!UICONTROL Delete element]** 단추를 클릭하면 됩니다.
 
 ![](assets/audience_delete_1.png)
 
