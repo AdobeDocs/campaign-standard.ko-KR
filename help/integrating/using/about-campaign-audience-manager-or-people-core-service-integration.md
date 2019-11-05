@@ -1,8 +1,6 @@
 ---
-title: Campaign-Audience Manager 또는 People 핵심 서비스 통합 정보
-seo-title: Campaign-Audience Manager 또는 People 핵심 서비스 통합 정보
-description: Campaign-Audience Manager 또는 People 핵심 서비스 통합 정보
-seo-description: Audience Manager/People 핵심 서비스 통합을 통해 다양한 Adobe Experience Cloud 솔루션 내에서 고객 또는 세그먼트를 공유할 수 있습니다.
+title: Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보
+description: Audience Manager/People 핵심 서비스 통합을 통해 다양한 Adobe Experience Cloud 솔루션 내에서 고객 또는 세그먼트를 공유할 수 있습니다.
 page-status-flag: 활성화 안 함
 uuid: 39e3c78e-ccd-4823-afe9-abc7f8aef034
 contentOwner: 자우비
@@ -14,12 +12,12 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Campaign-Audience Manager 또는 People 핵심 서비스 통합 정보{#about-campaign-audience-manager-or-people-core-service-integration}
+# Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보{#about-campaign-audience-manager-or-people-core-service-integration}
 
 Adobe Campaign을 사용하면 다양한 Adobe Experience Cloud 애플리케이션과 고객/세그먼트를 교환하고 공유할 수 있습니다. Adobe **Campaign과** **People 코어 서비스** (프로필 및 **대상 핵심 서비스라고도 함**) 또는 Adobe Audience Manager를 통합하면 다음 작업을 수행할 수 있습니다.
 
