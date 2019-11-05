@@ -1,8 +1,6 @@
 ---
 title: 이메일 렌더링
-seo-title: 이메일 렌더링
-description: 이메일 렌더링
-seo-description: 이메일 렌더링 기능을 살펴보십시오.
+description: 이메일 렌더링 기능을 살펴보십시오.
 page-status-flag: 활성화 안 함
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -67,7 +65,7 @@ Adobe Campaign에서 이메일 렌더링에 **** 사용할 수 있는 모바일,
 **관련 항목**:
 
 * [이메일 만들기](../../channels/using/creating-an-email.md)
-* [테스트 프로파일 관리 및 증명 전송](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [테스트 프로필 관리 및 증명 보내기](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [쿼리 편집기](../../automating/using/editing-queries.md#about-query-editor)
 
 ## 이메일 렌더링 보고서 설명 {#email-rendering-report-description}
