@@ -1,8 +1,6 @@
 ---
 title: 인터페이스 설명
-seo-title: 인터페이스 설명
-description: 인터페이스 설명
-seo-description: '"Adobe Campaign 작업 영역을 탐색하고 사용하는 방법을 알아봅니다.홈 페이지, 상단 막대, 고급 메뉴 및 작업 막대"를 참조하십시오.'
+description: '"Adobe Campaign 작업 영역을 탐색하고 사용하는 방법을 알아봅니다.홈 페이지, 상단 막대, 고급 메뉴 및 작업 막대"를 참조하십시오.'
 page-status-flag: 활성화 안 함
 uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
 contentOwner: 자우비
@@ -14,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
