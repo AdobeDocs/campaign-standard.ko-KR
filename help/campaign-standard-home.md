@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
@@ -72,3 +72,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [릴리스 계획 안내서](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
 * [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+* [기술 정보](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
+
+* [Adobe Campaign Standard 구현 안내서](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
