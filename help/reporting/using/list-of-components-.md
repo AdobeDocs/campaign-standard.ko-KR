@@ -12,16 +12,16 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
 
 ---
 
 
 # 구성 요소 목록 {#list-of-components}
 
-차원과 지표 간 호환성에 대한 자세한 내용은 이 [표를](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)참조하십시오. 두 구성 요소가 호환되지 않으면 셀에 없음 값이 **표시됩니다**.
+차원과 지표 간 호환성에 대한 자세한 내용은 이 [표를](/help/reporting/using/assets/dynamic_report_compatibility.pdf)참조하십시오. 두 구성 요소가 호환되지 않으면 셀에 없음 값이 **표시됩니다**.
 
-[![이미지](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+![](assets/dynamic_report_compatibility.png)
 
 ## 차원 {#dimensions}
 
