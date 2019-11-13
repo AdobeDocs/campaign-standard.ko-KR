@@ -13,16 +13,16 @@ context-tags: 역할,개요;역할,기본
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
 
 # 역할 목록{#list-of-roles}
 
-기본적으로 Adobe Campaign은 사용자 및 사용자 그룹에 할당된 단일 인증을 정의할 수 있는 일련의 역할을 제공합니다. 조직의 구성 단위와 결합되어 역할을 통해 사용자는 인터페이스에 대한 필터링된 뷰를 볼 수 있고 다른 기능에 대한 액세스를 정의할 수 있습니다. 자세한 내용은 역할 및 [권한 테이블을](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)참조하십시오.
+기본적으로 Adobe Campaign은 사용자 및 사용자 그룹에 할당된 단일 인증을 정의할 수 있는 일련의 역할을 제공합니다. 조직의 구성 단위와 결합되어 역할을 통해 사용자는 인터페이스에 대한 필터링된 뷰를 볼 수 있고 다른 기능에 대한 액세스를 정의할 수 있습니다. 자세한 내용은 역할 및 [권한 테이블을](/help/administration/using/assets/acs_rights.pdf)참조하십시오.
 
-[![이미지](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+![](assets/user_management_3.png)
 
 역할은 **[!UICONTROL Administration > Users & Security > Roles]** 메뉴에서 관리할 수 있습니다.
 
