@@ -1,18 +1,18 @@
 ---
 title: Audience Manager 또는 People 핵심 서비스와의 통합 제공 및 구성
 description: '다른 Adobe Experience Cloud 솔루션을 사용하여 대상이나 세그먼트를 공유하도록 Audience Manager/People 핵심 서비스 통합을 구성하는 방법을 알아봅니다. '
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 통합
+audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
 
 ---
 
@@ -66,7 +66,9 @@ Audience Manager(AAM) 또는 People 핵심 서비스 통합을 통해 Adobe Camp
 * People 코어 서비스를 통해 Adobe Campaign에서 Ad Cloud로 대상을 공유하는 경우, 대상자의 과거 채우기에 **[!UICONTROL Declared ID]** 프로비전을 사용할 수 없습니다. 대상을 빌드할 때 일부 지연이 예상됩니다.
 * 대상자가 Adobe Analytics에서 People 코어 서비스를 통해 Adobe Campaign으로 공유되는 경우, 세그먼트는 Adobe Campaign에서 다음으로 채워지지 않습니다 **[!UICONTROL Declared ID]**.
 
-사람 코어 서비스 대신 Adobe Audience Manager를 사용하는 경우 모든 시나리오에서 **[!UICONTROL Declared ID]** 작동합니다.
+>[!NOTE]
+>
+>사람 코어 서비스 대신 Adobe Audience Manager를 사용하는 경우 모든 시나리오에서 **[!UICONTROL Declared ID]** 작동합니다.
 
 You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
