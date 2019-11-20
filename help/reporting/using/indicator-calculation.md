@@ -1,18 +1,18 @@
 ---
 title: 지표 계산
 description: 모든 지표의 공식 목록을 사용하여 보고서 결과를 이해합니다.
-page-status-flag: 활성화 안 함
-uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec733
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보고
+audience: reporting
 content-type: reference
-topic-tags: 정보 보고
+topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
 
 ---
 
@@ -131,7 +131,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 열기<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @uniqueOpens<br /> </td> 
    <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2)))<br /> </td> 
    <td> </td> 
   </tr> 
