@@ -1,9 +1,9 @@
 ---
 title: 설명서 업데이트 정보
 description: Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
 
 ---
 
@@ -24,6 +24,10 @@ Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아
 이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/using/release-notes.md).
+
+## 설명서 업데이트 - 2019년 11월 {#doc-updates-november-2019}
+
+Campaign Standard의 워크플로우를 사용하여 제어 그룹을 만드는 방법을 설명하는 새로운 사용 사례가 추가되었습니다. 자세한[내용 보기](../../automating/using/workflow-control-group.md)
 
 ## 릴리스 19.4 - 2019년 10월 {#release-19-4---october-2019}
 
