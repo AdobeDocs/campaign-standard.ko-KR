@@ -1,18 +1,18 @@
 ---
 title: 프로필 만들기
 description: API, 가져오기 기능, 온라인 확보, 자동 또는 수동 업데이트를 사용하여 프로파일을 만들고 연락처에 데이터를 수집하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
-uuid: a5f5a58a-e798-40 파섹
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: a5f5a58a-e798-400f-8648-05dc843d5557
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: 프로필 관리
+topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -25,7 +25,7 @@ Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행�
 
 * 워크플로우를 통해 파일에서 프로파일 목록 [가져오기](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 * 랜딩 페이지를 통해 온라인 데이터 [수집](../../channels/using/about-landing-pages.md)
-* REST API를 통해 [벌크 만들기](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* REST API를 통해 [벌크 만들기](../../api/using/about-campaign-standard-apis.md)
 * Microsoft Dynamics에서 [프로필 동기화](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * 아래에 설명된 대로 그래픽 인터페이스 화면을 사용하여 데이터를 입력합니다.
 
@@ -57,7 +57,7 @@ Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행�
 
 >[!NOTE]
 >
->Adobe Campaign Standard API를 사용하여 프로필을 만들 수도 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) 참조하십시오.
+>Adobe Campaign Standard API를 사용하여 프로필을 만들 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-profiles.md)참조하십시오.
 
 또한 프로필은 조직 단위에 따라 분할할 수도 있습니다. 프로필에 조직 필드를 추가하려면 파티션 프로필 [섹션을 참조하십시오](../../administration/using/organizational-units.md#partitioning-profiles) .
 
