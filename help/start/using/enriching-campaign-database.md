@@ -1,9 +1,9 @@
 ---
 title: 데이터베이스 강화
 description: 데이터베이스를 보강하는 다양한 방법에 대해 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: 여우원숭이
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -66,7 +66,7 @@ Microsoft Dynamics 365와 Campaign Standard의 통합을 통해 Microsoft Dynami
 
 Campaign Standard API를 사용하면 프로필 또는 서비스의 생성, 업데이트 또는 삭제와 같은 데이터베이스를 업데이트하는 작업을 수행할 수 있습니다.
 
-API를 사용하는 방법에 대한 자세한 내용은 [전용 설명서를](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)참조하십시오.
+API를 사용하는 방법에 대한 자세한 내용은 [전용 설명서를](../../api/using/about-campaign-standard-apis.md)참조하십시오.
 
 >[!CAUTION]
 >
