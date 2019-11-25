@@ -1,19 +1,19 @@
 ---
 title: 워크플로우 실행
 description: 워크플로우를 실행 및 모니터링하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
-context-tags: 워크플로,개요;워크플로,기본
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 REST API를 사용하면 워크플로우를 **시작**, **일시 중지**, **다시 시작** 및 **중지할** 수 있습니다.
 
-API 설명서에서 REST 호출에 대한 자세한 내용 및 예를 확인할 [수 있습니다.](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+API 설명서에서 REST 호출에 대한 자세한 내용 및 예를 확인할 [수 있습니다.](../../api/using/managing-workflows.md)
 
 ## 라이프 사이클 {#life-cycle}
 
