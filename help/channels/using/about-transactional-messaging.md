@@ -1,18 +1,18 @@
 ---
 title: 트랜잭션 메시지 기본 정보
 description: 전송할 수 있는 다양한 유형의 트랜잭션 메시지와 Adobe Campaign에서 사용되는 방식을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 트랜잭션 메시지
+topic-tags: transactional-messaging
 discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 트랜잭션 메시지는 웹 사이트와 같은 공급자가 사용자에게 보내는 개별 고유한 통신입니다.
 
 * 받는 사람이 확인하거나 확인하려는 정보가 포함되어 있으므로 이러한 유형의 메시지가 특히 필요합니다. 예를 들어 계정을 만든 후 환영 메시지가 될 수도 있고, 주문이 배송되었다는 확인, 청구 또는 암호 변경을 확인하는 메시지가 될 수도 있습니다.
-* 클라이언트 관계를 정의하는 중요한 메시지입니다.사용자는 실시간으로 전송될 것으로 예상하고 있습니다. 이벤트가 트리거되는 것과 메시지가 도착하는 것 사이의 지연은 매우 짧아야 합니다.
+* 클라이언트 관계를 정의하는 중요한 메시지입니다.사용자는 실시간으로 전송될 것으로 예상하고 있습니다. 따라서 이벤트가 트리거되는 것과 전달되는 메시지 사이의 지연은 매우 짧아야 합니다.
 * 트랜잭션 메시지는 일반적으로 개방률이 높습니다.
 
 Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메시지로 변환할 이벤트를 전송하는 정보 시스템과 통합할 수 있습니다.
@@ -44,7 +44,7 @@ Adobe Campaign에서는 두 가지 유형의 트랜잭션 메시지를 사용할
 >
 >Adobe Campaign은 다른 전달보다 트랜잭션 메시지 처리를 우선합니다.
 
-트랜잭션 메시지는 Adobe Campaign Standard API에서도 사용할 수 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)참조하십시오.
+트랜잭션 메시지는 Adobe Campaign Standard API에서도 사용할 수 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-transactional-messages.md)참조하십시오.
 
 ## 트랜잭션 메시징 운영 원칙 {#transactional-messaging-operating-principle}
 
