@@ -1,9 +1,9 @@
 ---
 title: 2018년 릴리스 정보
 description: 이 페이지에는 Adobe Campaign Standard 2018 릴리스의 모든 목록이 표시됩니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -61,7 +61,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 * 캠페인 속성을 정의하는 동안 모바일 앱을 선택하여 특정 모바일 앱에서 사용자를 타깃팅합니다. 이 기능은 푸시 및 인앱 메시지 채널 모두에 적용됩니다.
 
-   자세한 내용은 [자세한 설명서를](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)참조하십시오.
+    자세한 내용은 [자세한 설명서를](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)참조하십시오.
 
 * Creative Designer 인터페이스를 사용하여 콘텐츠 블록을 선택하면 목록에 있는 모든 콘텐츠 블록이 로드되어 표시됩니다. (CAMP-27311)
 
@@ -104,7 +104,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
  <tbody> 
   <tr> 
    <td> Android 푸시 알림에 대한 높은 우선 순위 플래그<br /> </td> 
-   <td> Android용 우선 순위 플래그 - 대기 중인 장치가 일어나 일부 제한된 처리를 실행하도록 하는 Android 앱에 대해 우선 순위가 높은 푸시 알림을 제공할 수 있습니다. 기본 우선 순위는 Normal(표준)로, 배터리 저장을 위해 메시지 전달을 지연시킬 수 있습니다. <br /> 자세한 내용은 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> Android에 대한 우선 순위가 높은 플래그 - 대기 중인 장치가 일어나 일부 제한된 처리를 실행하는 Android 앱에 대해 우선 순위가 높은 푸시 알림을 제공할 수 있습니다. 기본 우선 순위는 Normal(표준)로, 배터리 저장을 위해 메시지 전달을 지연시킬 수 있습니다. <br /> 자세한 내용은 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 모바일 앱 가입자를 위한 유형 필터<br /> </td> 
@@ -112,7 +112,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
   </tr> 
   <tr> 
    <td> 메시지 준비 중 URL에서 자동 컨텐츠 가져오기<br /> </td> 
-   <td> 이제 준비 단계 동안 URL에서 이메일 컨텐츠를 가져올 수 있습니다. 반복되는 이메일 게재의 경우, 메시지가 이메일을 보낼 때 항상 콘텐츠가 최신 상태로 유지되도록 준비할 때마다 최신 HTML 콘텐츠가 검색됩니다. 또한 이 기능을 사용하면 컨텐츠가 아직 준비되지 않은 경우에도 URL의 컨텐츠가 포함된 예약된 전달을 만들 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> 이제 준비 단계 동안 URL에서 이메일 컨텐츠를 가져올 수 있습니다. 반복되는 이메일 게재의 경우, 메시지가 이메일을 보낼 때 컨텐츠가 항상 최신 상태로 유지되도록 준비할 때마다 최신 HTML 컨텐츠가 검색됩니다. 또한 이 기능을 사용하면 컨텐츠가 아직 준비되지 않은 경우에도 URL의 컨텐츠가 포함된 예약된 전달을 만들 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 캠페인 릴리스 알림 메시지<br /> </td> 
@@ -157,7 +157,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 ### 향상된 기능 {#improvements-2}
 
-* API가 **[!UICONTROL History]** Adobe.IO에 추가되었습니다. 프로필의 마케팅 내역과 관련된 정보에 액세스할 수 있습니다.터치포인트 수, 보낸 배달, 미러 페이지 URL 등 자세한 내용은 [전용 사용 사례를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) 참조하십시오.
+* API가 **[!UICONTROL History]** Adobe.IO에 추가되었습니다. 프로필의 마케팅 내역과 관련된 정보에 액세스할 수 있습니다.터치포인트 수, 보낸 배달, 미러 페이지 URL 등 자세한 내용은 [전용 사용 사례를](../../api/using/interacting-with-marketing-history.md) 참조하십시오.
 * 기술 워크플로우는 데이터베이스 백업에 대한 성능을 향상시키기 위해 최적화되었습니다. **[!UICONTROL Database cleanup]**
 * Creative Designer for Email은 이제 프랑스어 및 독일어로도 제공됩니다.
 
@@ -217,7 +217,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
     <ul> 
      <li> "고정" 데이터로 확장 브로드로그 내보내기:마케터로서 세그먼트 코드가 "A"인 모든 프로파일을 내보내려고 합니다(워크플로우 엔진에서 제공). </li> 
      <li> "동결" 데이터에 대한 세그먼테이션:마케터로서 마지막 전송 이후 1,000개의 로열티 포인트 획득 또는 세그먼트 코드가 "A"와 동일한 위치를 가진 모든 프로파일을 <strong>리타겟팅하고자</strong> 합니다. </li> 
-    </ul> 자세한 내용은 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">자세한 설명서를</a>참조하십시오.<br /> </td> 
+    </ul>  자세한 내용은 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 사용자 지정 프로필 데이터를 사용한 동적 보고<br /> </td> 
@@ -307,7 +307,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
     <ul> 
      <li> 액세스 권한:데이터 주체가 Adobe Campaign에 저장된 데이터를 포함하여 데이터 관리자가 캡처한 개인 데이터의 사본을 수신할 수 있도록 허용합니다. </li> 
      <li> 삭제할 권한:데이터 주체가 데이터 관리자에 의해 캡처한 개인 데이터를 삭제하도록 권한을 부여하며, 여기에는 Adobe Campaign에 저장된 데이터가 포함됩니다. </li> 
-    </ul> 자세한 내용은 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">자세한 설명서를</a>참조하십시오.<br /> </td> 
+    </ul>  자세한 내용은 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 이메일을 위한 Creative Designer(베타)<br /> </td> 
@@ -329,7 +329,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
     <ul> 
      <li> 사용자 정의 필드를 조정 기준으로 활용하여 트랜잭션 메시지를 프로필에 일치시킵니다. </li> 
      <li> 전체 프로파일, 서비스 및 연결된 데이터를 활용하여 트랜잭션 메시지 개인화 </li> 
-    </ul> 자세한 내용은 <a href="../../administration/using/configuring-transactional-messaging.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+    </ul>  자세한 내용은 <a href="../../administration/using/configuring-transactional-messaging.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -479,7 +479,7 @@ Campaign 인터페이스의 컨텍스트 도움말 링크를 사용할 때 일�
   </tr> 
   <tr> 
    <td> API 신호 활동 트리거<br /> </td> 
-   <td> 이제 Adobe Campaign Standard API에서 직접 워크플로우에 대한 신호 활동을 트리거할 수 있습니다.<br /> 자세한 내용은 <a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">자세한 설명서를</a> 참조하십시오.<br /> </td> 
+   <td> 이제 Adobe Campaign Standard API에서 직접 워크플로우에 대한 신호 활동을 트리거할 수 있습니다.<br /> 자세한 내용은 <a class="anchorLink" href="../../api/using/managing-workflows.md">자세한 설명서를</a> 참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
