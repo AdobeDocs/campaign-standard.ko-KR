@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: e059232068d79a512afda98dcde60578809656b2
+source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
 
 ---
 
@@ -343,3 +343,28 @@ source-git-commit: e059232068d79a512afda98dcde60578809656b2
       + [내부 알림 보내기](administration/using/sending-internal-notifications.md)
       + [데이터 유지](administration/using/data-retention.md)
       + [업데이트 및 유지 관리 작업](administration/using/updates-and-maintenance-operations.md)
++ API 작업 {#working-with-apis}
+   + Campaign Standard API 정보 {#about-campaign-standard-apis}
+      + [개요](api/using/about-campaign-standard-apis.md)
+      + [Campaign Standard API를 사용하는 이유](api/using/why-using-campaign-standard-apis.md)
+      + [API 액세스 설정](api/using/setting-up-api-access.md)
+   + 글로벌 개념 {#global-concepts}
+      + [필수 읽기](api/using/must-read.md)
+      + [끝점](api/using/endpoints.md)
+      + [메타데이터 메커니즘](api/using/metadata-mechanism.md)
+      + [동사](api/using/verbs.md)
+      + 추가 작업 {#additional-operations}
+         + [정렬](api/using/sorting.md)
+         + [필터링](api/using/filtering.md)
+         + [카운트](api/using/counting.md)
+         + [페이지 매김](api/using/pagination.md)
+      + [사용자 정의 리소스](api/using/custom-resources.md)
+   + [프로필 관리](api/using/managing-profiles.md)
+   + [서비스 및 구독 관리](api/using/managing-services-and-subscriptions.md)
+   + [마케팅 이력 활용](api/using/interacting-with-marketing-history.md)
+   + [개인 정보 관리](api/using/privacy-management.md)
+   + [트랜잭션 메시지 관리](api/using/managing-transactional-messages.md)
+   + [워크플로우 관리](api/using/managing-workflows.md)
+   + [조직 단위 관리](api/using/managing-organizational-units.md)
+   + [지리적 단위 관리](api/using/managing-geographical-units.md)
+   + [문제 해결](api/using/troubleshooting.md)
