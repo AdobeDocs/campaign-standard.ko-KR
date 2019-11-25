@@ -1,18 +1,18 @@
 ---
 title: 외부 파라미터로 워크플로우 호출
 description: 이 섹션에서는 외부 매개 변수를 사용하여 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -49,7 +49,7 @@ Campaign Standard를 사용하면 매개 변수(타깃팅할 대상 이름, 가�
 
 ## 워크플로우 호출 시 매개 변수 정의 {#defining-the-parameters-when-calling-the-workflow}
 
-이 섹션에서는 워크플로우를 호출할 때 매개 변수를 정의하는 방법에 대해 자세히 설명합니다. API 호출에서 이 작업을 수행하는 방법에 대한 자세한 내용은 REST API [설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)참조하십시오.
+이 섹션에서는 워크플로우를 호출할 때 매개 변수를 정의하는 방법에 대해 자세히 설명합니다. API 호출에서 이 작업을 수행하는 방법에 대한 자세한 내용은 REST API [설명서를](../../api/using/managing-workflows.md)참조하십시오.
 
 매개 변수를 정의하기 전에 다음을 확인하십시오.
 
@@ -223,7 +223,7 @@ $(vars/@parameterName)
 
 ### 1단계:API 호출 구성 {#step-1--configuring-the-api-call}
 
-매개 변수를 사용하여 Workflow 1을 트리거하는 API 호출을 만듭니다. API 호출 구문에 대한 자세한 내용은 Campaign Standard REST [API 설명서를 참조하십시오](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+매개 변수를 사용하여 Workflow 1을 트리거하는 API 호출을 만듭니다. API 호출 구문에 대한 자세한 내용은 Campaign Standard REST [API 설명서를 참조하십시오](../../api/using/managing-workflows.md).
 
 Adobe의 경우 아래 매개 변수를 사용하여 워크플로우를 호출하려고 합니다.
 
