@@ -1,9 +1,9 @@
 ---
 title: 세분화 및 타겟팅
 description: '"Adobe Campaign에서 프로필, 타깃팅 및 고객 제작에 대해 알아봅니다.고객을 구축하고, Adobe Experience Cloud 솔루션을 통해 고객을 공유하고, 마케팅 피로도를 방지할 수 있습니다."'
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign 프로필은 데이터베이스에 저장된 모든 연락처를 
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign은 프로파일 획득을 위한 다양한 메커니즘을 제안합니다.온라인 [랜딩 페이지](../../channels/using/about-landing-pages.md)수집, 수동 또는 [자동화된 가져오기 메커니즘](../../automating/using/about-data-import-and-export.md), Adobe Campaign 인터페이스의 [직접 입력](../../audiences/using/creating-profiles.md) , Campaign APIs Bulk를 통해 [](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)직접 생성
+Adobe Campaign은 프로파일 획득을 위한 다양한 메커니즘을 제안합니다.온라인 [랜딩 페이지](../../channels/using/about-landing-pages.md)수집, 수동 또는 [자동화된 가져오기 메커니즘](../../automating/using/about-data-import-and-export.md), Adobe Campaign 인터페이스의 [직접 입력](../../audiences/using/creating-profiles.md) , Campaign APIs Bulk를 통해 [](../../api/using/about-campaign-standard-apis.md)직접 생성
 
 **관련 항목:**
 
