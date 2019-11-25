@@ -1,19 +1,19 @@
 ---
 title: 이벤트 트랜잭션 메시지
 description: 이벤트 트랜잭션 메시지를 만들고 게시하는 방법에 대해 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 트랜잭션 메시지
+topic-tags: transactional-messaging
 discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
-context-tags: deliveryTransactionalTemplate,개요
+context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -258,11 +258,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 예를 들어 메시지에 포함된 데이터를 수정하는 **[!UICONTROL Pause]** 단추와 같은 방법으로 트랜잭션 메시지 게시를 일시 중지할 수 있습니다. 따라서 이벤트는 더 이상 처리되지 않고 대신 Adobe Campaign 데이터베이스의 큐에 보관됩니다.
 
-큐에 있는 이벤트는 REST API에 정의된 기간 동안(REST API [설명서](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)참조) 또는 트리거 코어 서비스를 사용하는 경우 트리거 이벤트에서 보관됩니다(캠페인 및 Experience Cloud 트리거 [작업 참조](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+큐에 있는 이벤트는 REST API에 정의된 기간 동안(REST API [설명서](../../api/using/about-campaign-standard-apis.md)참조) 또는 트리거 코어 서비스를 사용하는 경우 트리거 이벤트에서 보관됩니다(캠페인 및 Experience Cloud 트리거 [작업 참조](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
-을 클릭하면 **[!UICONTROL Resume]**&#x200B;큐에 있는 모든 이벤트(만료되지 않은 경우)가 처리됩니다. 이제 템플릿 게시가 일시 중단된 동안 수행된 모든 수정 사항이 포함됩니다.
+을 클릭하면 **[!UICONTROL Resume]**&#x200B;큐에 있는 모든 이벤트(만료되지 않은 경우)가 처리됩니다. 템플릿 게시가 일시 중단된 동안 수행된 모든 수정 사항이 포함되어 있습니다.
 
 ## 트랜잭션 메시지 게시 취소 {#unpublishing-a-transactional-message}
 
