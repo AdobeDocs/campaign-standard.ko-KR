@@ -1,19 +1,19 @@
 ---
 title: Integrated customer profile
 description: '"하나의 관점에서 모든 고객 인터랙션을 추적할 수 있습니다.Adobe Campaign 통합 고객 프로필은 고객 라이프사이클 전반에서 업데이트됩니다."'
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: 프로필 관리
+topic-tags: managing-profiles
 discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
 context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
 
 ---
 
@@ -39,5 +39,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->마케팅 내역은 Adobe Campaign Standard API를 사용하여 액세스할 수도 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) 참조하십시오.
-
+>마케팅 내역은 Adobe Campaign Standard API를 사용하여 액세스할 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/interacting-with-marketing-history.md) 참조하십시오.
