@@ -1,18 +1,18 @@
 ---
 title: API 확장 기본 정보
-description: null
-page-status-flag: 활성화 안 함
+description: 공개 프로필 API에서 사용자 지정 리소스 프로필의 확장 필드를 표시하는 방법을 알아봅니다.
+page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 개발
+audience: developing
 content-type: reference
-topic-tags: use-case—extending-the-api
-discoiquuid: 304e779-42d2-430a-9704-8c599a4eb1da
+topic-tags: use-case--extending-the-api
+discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -30,5 +30,4 @@ API를 게시하려면 **[!UICONTROL Datamodel]** 역할이 있어야 합니다.
 **관련 항목:**
 
 * [사용자 지정 리소스 기본 정보](../../developing/using/data-model-concepts.md)
-* [API 설명서](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-
+* [API 설명서](../../api/using/about-campaign-standard-apis.md)
