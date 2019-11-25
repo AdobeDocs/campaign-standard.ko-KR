@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
+source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
 
 ---
 
@@ -28,6 +28,8 @@ Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/usin
 ## 설명서 업데이트 - 2019년 11월 {#doc-updates-november-2019}
 
 Campaign Standard의 워크플로우를 사용하여 제어 그룹을 만드는 방법을 설명하는 새로운 사용 사례가 추가되었습니다. 자세한[내용 보기](../../automating/using/workflow-control-group.md)
+
+API 설명서 세트는 Campaign Standard 설명서에 통합되었습니다.[자세한 내용](../../api/using/about-campaign-standard-apis.md)
 
 ## 릴리스 19.4 - 2019년 10월 {#release-19-4---october-2019}
 
@@ -50,6 +52,8 @@ GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제
 새 섹션이 추가되었습니다. Adobe Campaign Standard 데이터베이스를 보완할 수 있는 다양한 방법에 대한 개요를 제공합니다. [자세한 내용](../../start/using/enriching-campaign-database.md)
 
 이메일 디자이너와 링크의 스타일을 지정하는 방법을 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../designing/using/styles.md#about-styling-links)
+
+개인 정보와 관련된 정보가 API 문서에 추가되었습니다. [여기를 클릭하십시오.](../../api/using/privacy-management.md)
 
 ## 설명서 업데이트 - 2019년 10월 {#doc-updates-october-2019}
 
@@ -167,7 +171,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황에 맞는 도움말 링�
 
 파일 **** 전송 작업의 새로운 정렬 옵션에 정보가 추가되었습니다. [자세한 내용](../../automating/using/transfer-file.md)
 
-REST [API 설명서가](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) 업데이트되었습니다.
+REST [API 설명서가](../../api/using/about-campaign-standard-apis.md) 업데이트되었습니다.
 
 * Campaign Standard REST API를 사용하는 이유에 대한 일반 정보와 함께 새 섹션이 추가되었습니다.
 * 미리 디자인된 API 요청의 컬렉션을 사용할 수 있으며 일반적인 사용 사례를 나타냅니다.
@@ -347,7 +351,7 @@ Creative Designer를 완벽하게 준수하기 위한 HTML 속성 목록을 이�
 
 ### 릴리스에 포함된 새로운 기능 {#new-capabilities-included-in-the-release-5}
 
-API 설명서가 작업 내역 API에 대한 정보로 **업데이트되었습니다** . 프로필로 보낸 배달을 위해 미러 페이지를 검색하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+API 설명서가 작업 내역 API에 대한 정보로 **업데이트되었습니다** . 프로필로 보낸 배달을 위해 미러 페이지를 검색하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](../../api/using/interacting-with-marketing-history.md)
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-5}
 
@@ -361,7 +365,7 @@ API 설명서가 작업 내역 API에 대한 정보로 **업데이트되었습�
 
 게재에서 특정 링크를 클릭한 프로파일을 타깃팅하는 방법에 대한 샘플이 쿼리 활동 섹션에 추가되었습니다. [자세한 내용](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-API 설명서에서 **사용자 정의 필터와**&#x200B;관련된 섹션을 추가했습니다. [자세한 내용](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+API 설명서에서 **사용자 정의 필터와**&#x200B;관련된 섹션을 추가했습니다. [자세한 내용](../../api/using/filtering.md)
 
 ## 릴리스 18.5 - 2018년 5월 {#release-18-5---may-2018}
 
@@ -411,7 +415,7 @@ EU 개인 정보 보호 규정(GDPR) - [자세한 내용](https://docs.campaign.
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-7}
 
-GDPR API는 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그룹화합니다. [자세한 내용](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
+GDPR API는 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그룹화합니다. [자세한 내용](../../api/using/privacy-management.md)
 
 수신자에게 블랙리스트에 추가될 수 있는 기능을 제공하기 위해 랜딩 페이지를 설정하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -485,7 +489,7 @@ SMS 자동 회신 사용 방법에 대한 단계별 사용 사례를 추가했�
 
 시간대에 최적화된 전달 - [자세한 내용](../../automating/using/scheduler.md)
 
-API 신호 활동 트리거 - [자세한 내용](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+API 신호 활동 트리거 - [자세한 내용](../../api/using/managing-workflows.md)
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-9}
 
@@ -535,11 +539,11 @@ Adobe Marketing Cloud [Mobile SDK를 모바일 앱과 통합하여 Adobe Campaig
 
 SMS 설명서가 SMS 자동 회신 [섹션에](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 몇 가지 설명이 추가되어 업데이트되었습니다.
 
-API를 통한 워크플로우 관리 전용 새로운 섹션 [자세한 내용](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
+API를 통한 워크플로우 관리 전용 새로운 섹션 [자세한 내용](../../api/using/managing-workflows.md)
 
-기본 키에 대한 새 섹션과 API의 키로 비즈니스 ID 사용. [자세한 내용](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
+기본 키에 대한 새 섹션과 API의 키로 비즈니스 ID 사용. [자세한 내용](../../api/using/about-campaign-standard-apis.md)
 
-API의 단순 및 다중 필터링에 대한 정보가 추가되었습니다. [자세한 내용](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+API의 단순 및 다중 필터링에 대한 정보가 추가되었습니다. [자세한 내용](../../api/using/filtering.md)
 
 ## 릴리스 17.9 - 2017년 9월 {#release-17-9---september-2017}
 
@@ -689,7 +693,7 @@ REST API의 리소스 연결 - [자세한 내용](../../developing/using/updatin
 
 트리거 통합:두 개의 사용 사례가 추가되었습니다. [자세한 내용](../../integrating/using/abandonment-triggers-use-cases.md)
 
-개발자 API 설명서를 새로 디자인하여 사용자 환경을 개선하기 위해 새로운 정보와 코드 조각을 추가했습니다. [자세한 내용](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+개발자 API 설명서를 새로 디자인하여 사용자 환경을 개선하기 위해 새로운 정보와 코드 조각을 추가했습니다. [자세한 내용](../../api/using/about-campaign-standard-apis.md)
 
 새로운 대상 읽기 및 [외부 신호](../../automating/using/read-audience.md) 워크플로우 [활동의](../../automating/using/external-signal.md) 예를 살펴볼 수 있습니다.
 
@@ -699,7 +703,7 @@ REST API의 리소스 연결 - [자세한 내용](../../developing/using/updatin
 
 외부 보고를 위한 로그 내보내기 - [자세한 내용](../../automating/using/exporting-logs.md)
 
-트랜잭션 메시징 API - [자세한 내용](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+트랜잭션 메시징 API - [자세한 내용](../../api/using/about-campaign-standard-apis.md)
 
 트랜잭션 메시지를 위한 마케팅 기능 - [자세한 내용](../../channels/using/profile-transactional-messages.md)
 
@@ -723,7 +727,7 @@ URL 변경:사람 핵심 서비스 - [자세한 내용](../../integrating/using/
 
 사용자 권한 이해:사용 사례가 추가되었습니다. 또한 [사용자 권한 매트릭스를](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)참조하십시오.
 
-API 작업:api [확장 사용 사례가](../../developing/using/about-extending-the-api.md) 추가되었습니다. API [설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)참조하십시오.
+API 작업:api [확장 사용 사례가](../../developing/using/about-extending-the-api.md) 추가되었습니다. API [설명서를](../../api/using/about-campaign-standard-apis.md)참조하십시오.
 
 캠페인 오류 메시지:버전 및 언어별로 필터링된 Campaign v6 및 Standard의 전체 오류 메시지 목록에 액세스합니다. [자세한 내용](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
