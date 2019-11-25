@@ -1,18 +1,18 @@
 ---
 title: Campaign 통합 기본 정보
 description: Adobe Campaign을 사용하면 다른 Adobe 솔루션을 사용하여 다양한 기능을 결합할 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 통합
+audience: integrating
 content-type: reference
-topic-tags: 캠페인 통합
+topic-tags: about-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 조직은 관리자가 그룹과 사용자를 구성하고 Experience Cloud에서 Single Sign-On을 제어할 수 있도록 해주는 개체입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그러나 회사는 많은 조직을 보유할 수 있습니다. 사용자 및 조직 관리는 Adobe Experience Cloud [도움말 포털에서](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)자세히 설명합니다.
 
-다른 시스템의 데이터 흐름을 Adobe Campaign과 통합하려면 API 설명서를 [참조하십시오](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+다른 시스템의 데이터 흐름을 Adobe Campaign과 통합하려면 API 설명서를 [참조하십시오](../../api/using/about-campaign-standard-apis.md).
 
 >[!NOTE]
 >
