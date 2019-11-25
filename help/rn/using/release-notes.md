@@ -1,9 +1,9 @@
 ---
 title: 년 릴리스 정보
 description: 이 페이지에는 Adobe Campaign Standard의 모든 최신 릴리스가 표시됩니다.
-page-status-flag: 활성화 안 함
-uuid: 1cf2e40c-eca-43db-8261-a1820ee86ad3
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -150,7 +150,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### What's new? {#what-s-new-4}
 
-관리 사용자가 도메인에 대한 SSL 인증서가 만료되기 전에 알림을 수신할 수 있는 새로운 기능을 추가했습니다. 자세한 내용은 [자세한 설명서를](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)참조하십시오.
+관리 사용자가 도메인에 대한 SSL 인증서가 만료되기 전에 알림을 수신할 수 있는 새로운 기능을 추가했습니다.  자세한 내용은 [자세한 설명서를](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)참조하십시오.
 
 또한 관리 사용자는 이제 SFTP 서버에 액세스하기 위해 추가된 SSH 키를 삭제할 수 있습니다.
 
@@ -212,7 +212,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 기타 개선 사항 {#other-improvements-3}
 
-* Adobe Experience Platform 위치 서비스와의 통합을 통해 Adobe Campaign은 이제 Experience Platform SDK를 통해 모바일 애플리케이션의 가입자에게 위치 기반 마케팅 메시지를 전송하는 데 호환됩니다. 자세한 내용은 [자세한 설명서를](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)참조하십시오.
+* Adobe Experience Platform 위치 서비스와의 통합을 통해 Adobe Campaign은 이제 Experience Platform SDK를 통해 모바일 애플리케이션의 가입자에게 위치 기반 마케팅 메시지를 전송하는 데 호환됩니다.  자세한 내용은 [자세한 설명서를](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)참조하십시오.
 * 보고 기능이 개선되어 더 나은 환경을 제공합니다. 이 기능을 사용하려면 동적 보고 사용 계약에 동의해야 합니다. 자세한 내용은 [자세한 설명서를](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)참조하십시오.
 * 워크플로우에서 다음 10개의 워크플로우 실행을 미리 보기 위한 새로운 옵션이 추가되었습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/scheduler.md)참조하십시오.
 * 스케줄러 활동에서 새 옵션을 사용하면 월간 게재에 대해 특정 주의 특정 일을 선택할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/scheduler.md)참조하십시오.
@@ -319,7 +319,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 로컬 알림<br /> </td> 
-   <td> <p>로컬 알림 메시징을 사용하면 앞쪽에서 실행되는 인터넷이나 모바일 애플리케이션에 액세스하지 않고도 모바일 애플리케이션 내에서 새로운 데이터를 사용할 수 있게 되면 사용자에게 알릴 수 있습니다. 로컬 알림은 특정 시간과 이벤트에 따라 모바일 애플리케이션에 의해 트리거됩니다.</p><p>자세한 내용은 <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">자세한 설명서를</a>참조하십시오.</p></td> 
+   <td> <p>로컬 알림 메시징을 사용하면 앞쪽에서 실행되는 인터넷이나 모바일 애플리케이션에 액세스하지 않고도 모바일 애플리케이션 내에서 새로운 데이터를 사용할 수 있게 되면 사용자에게 알릴 수 있습니다. 로컬 알림은 특정 시간과 이벤트에 따라 모바일 애플리케이션에 의해 트리거됩니다.</p><p> 자세한 내용은 <a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">자세한 설명서를</a>참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 향상된 워크플로우 - 외부 신호 활동에 페이로드 추가<br /> </td> 
@@ -327,7 +327,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 랜딩 페이지 개선 사항 - Google reCAPTCHA<br /> </td> 
-   <td> <p>Google reCAPTCHA를 활용하여 고객의 작업 없이도 랜딩 페이지에서 스팸을 방지할 수 있습니다.</p><p>자세한 내용은 <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">자세한 설명서를</a>참조하십시오.</p></td> 
+   <td> <p>Google reCAPTCHA를 활용하여 고객의 작업 없이도 랜딩 페이지에서 스팸을 방지할 수 있습니다.</p><p> 자세한 내용은 <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">자세한 설명서를</a>참조하십시오.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,14 +375,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * Zip 코드 차원이 Dynamic Reporting에서 제거되었습니다. 시, 국가, 시/도 크기를 대신 사용하는 것이 좋습니다.
 * 인앱 메시지에 대한 '첫 번째 실행' 라이프사이클 이벤트 트리거가 제거되었습니다.
 * 이제 보안 그룹이 있는 패키지를 내보낼 때 각 그룹에 할당된 역할이 포함됩니다. (CAMP-32960)
-* 파일 로드 활동에서 새 옵션을 사용하면 업로드하는 파일의 열이 열 정의와 일치하는지 확인할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/load-file.md)참조하십시오. (CAMP-32229)
-* 이제 페이로드를 사용하여 워크플로우를 시작할 수 있으므로 워크플로우 내의 활동 간에 외부 매개 변수를 사용하고 공유할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/calling-a-workflow-with-external-parameters.md)참조하십시오. (CAMP-29412 &amp; CAMP-29413)
-* 이제 Campaign Standard API를 사용하여 페이로드를 사용하여 프로필의 지역 및 조직 단위를 업데이트할 수 있습니다. 자세한 내용은 [자세한 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)참조하십시오.
+* 파일 로드 활동에서 새 옵션을 사용하면 업로드하는 파일의 열이 열 정의와 일치하는지 확인할 수 있습니다.  자세한 내용은 [자세한 설명서를](../../automating/using/load-file.md)참조하십시오. (CAMP-32229)
+* 이제 페이로드를 사용하여 워크플로우를 시작할 수 있으므로 워크플로우 내의 활동 간에 외부 매개 변수를 사용하고 공유할 수 있습니다.  자세한 내용은 [자세한 설명서를](../../automating/using/calling-a-workflow-with-external-parameters.md)참조하십시오. (CAMP-29412 &amp; CAMP-29413)
+* 이제 Campaign Standard API를 사용하여 페이로드를 사용하여 프로필의 지역 및 조직 단위를 업데이트할 수 있습니다.  자세한 내용은 [자세한 설명서를](../../api/using/about-campaign-standard-apis.md)참조하십시오.
 * 데이터베이스의 개체에 액세스할 수 없을 때의 오류 메시지가 명확하게 파악되었습니다.
-* Extract 파일 활동에서 내보낼 파일의 이름을 정의할 때 Javascript 기능이 업데이트되었습니다. 이제 formatDate 함수만 출력 필드에 사용할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/extract-file.md)참조하십시오.
+* Extract 파일 활동에서 내보낼 파일의 이름을 정의할 때 Javascript 기능이 업데이트되었습니다. 이제 formatDate 함수만 출력 필드에 사용할 수 있습니다.  자세한 내용은 [자세한 설명서를](../../automating/using/extract-file.md)참조하십시오.
 * 사용자 지정 리소스에 대해 자동 시퀀스 ID 생성이 개선되었습니다. 이제 새 사용자 지정 리소스의 기본 키는 기본적으로 64비트로 지정됩니다.
-* 사용자 지정 리소스 게시 테스트 모드가 개선되었습니다. 이제 마지막 사용자 지정 리소스 게시가 실패하여 수정되지 않은 경우 사용자에게 경고 메시지가 표시됩니다. 사용자 지정 리소스 게시가 실패한 후 마지막 작업 버전으로 롤백할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)참조하십시오.
-* 파일 전송 작업에 새 옵션이 추가되었습니다. SFTP 모드에서 파일 다운로드 작업을 사용할 때 파일을 정렬할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/transfer-file.md)참조하십시오. (CAMP-33109)
+* 사용자 지정 리소스 게시 테스트 모드가 개선되었습니다. 이제 마지막 사용자 지정 리소스 게시가 실패하여 수정되지 않은 경우 사용자에게 경고 메시지가 표시됩니다. 사용자 지정 리소스 게시가 실패한 후 마지막 작업 버전으로 롤백할 수 있습니다.  자세한 내용은 [자세한 설명서를](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)참조하십시오.
+* 파일 전송 작업에 새 옵션이 추가되었습니다. SFTP 모드에서 파일 다운로드 작업을 사용할 때 파일을 정렬할 수 있습니다.  자세한 내용은 [자세한 설명서를](../../automating/using/transfer-file.md)참조하십시오. (CAMP-33109)
 
 ### 패치 {#patches}
 
@@ -433,11 +433,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
  <tbody> 
   <tr> 
    <td> 향상된 푸시 채널 보고<br /> </td> 
-   <td> <p>푸시 채널 보고에 사용자 참여를 보다 직관적으로 측정할 수 있도록 몇 가지 향상된 기능이 추가되었습니다. 이번 릴리스에서는 푸시 채널 지표 목록을 세 개의 다른 지표로 확장합니다.푸시 알림과 사용자의 상호 작용을 보다 효과적으로 측정하고 분석하는 데 도움이 되는 노출 수, 클릭 수, 열기(앱 열기). 이와 함께 Adobe는 이러한 지표의 정의 및 구현을 표준화하고 있습니다. 푸시 알림 기본 제공 보고서도 일반적으로 사용되는 시각화 및 지표와 함께 향상되었습니다.</p><p> 자세한 내용은 <a href="../../reporting/using/push-notification-report.md">자세한 설명서를</a>참조하십시오.</p> </td> 
+   <td> <p>푸시 채널 보고에 사용자 참여를 보다 직관적으로 측정할 수 있도록 몇 가지 향상된 기능이 추가되었습니다. 이번 릴리스에서는 푸시 채널 지표 목록을 세 개의 다른 지표로 확장합니다.푸시 알림과 사용자의 상호 작용을 보다 효과적으로 측정하고 분석하는 데 도움이 되는 노출 수, 클릭 수, 열기(앱 열기). 이와 함께 Adobe는 이러한 지표의 정의 및 구현을 표준화하고 있습니다. 푸시 알림 기본 제공 보고서도 일반적으로 사용되는 시각화 및 지표와 함께 향상되었습니다.</p><p>  자세한 내용은 <a href="../../reporting/using/push-notification-report.md">자세한 설명서를</a>참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 모바일 앱용 통합 실행<br /> </td> 
-   <td> <p>이 릴리스에는 Adobe Campaign과 Adobe Experience Platform Launch 및 Mobile SDK의 GA 버전의 Android 및 Adobe Campaign Standard용 iOS 익스텐션이 통합되어 있습니다. 이러한 익스텐션은 푸시 메시지, 인앱 메시지 및 모바일 앱 프로파일 업데이트를 지원합니다.</p><p> 자세한 내용은 <a href="../../administration/using/about-typology-rules.md#typology-rules">자세한 설명서를</a>참조하십시오.</p> </td> 
+   <td> <p>이 릴리스에는 Adobe Campaign과 Adobe Experience Platform Launch 및 Mobile SDK의 GA 버전의 Android 및 Adobe Campaign Standard용 iOS 익스텐션이 통합되어 있습니다. 이러한 익스텐션은 푸시 메시지, 인앱 메시지 및 모바일 앱 프로파일 업데이트를 지원합니다.</p><p>  자세한 내용은 <a href="../../administration/using/about-typology-rules.md#typology-rules">자세한 설명서를</a>참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 모바일 인앱 메시지<br /> </td> 
@@ -447,8 +447,8 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> 향상된 워크플로우<br /> </td> 
    <td> <p>다음 워크플로우 기능이 추가되었습니다.</p> 
     <ul> 
-     <li> 이제 동일한 Campaign 인스턴스에서 워크플로우 또는 다른 워크플로우 내에서 활동을 복사하여 붙여넣을 수 있습니다. 이렇게 하면 전체 워크플로우 또는 특정 활동을 쉽게 복제하고 처음에 정의된 설정을 유지할 수 있습니다. 자세한 내용은 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">자세한 설명서를</a>참조하십시오. (CAMP-20014) </li> 
-     <li> 이제 파일 <strong>로드</strong> 활동을 사용할 때 거부된 레코드가 들어 있는 파일의 이름에 타임스탬프를 추가할 수 있습니다. 자세한 내용은 <a href="../../automating/using/load-file.md#configuration">자세한 설명서를</a>참조하십시오. </li> 
+     <li> 이제 동일한 Campaign 인스턴스에서 워크플로우 또는 다른 워크플로우 내에서 활동을 복사하여 붙여넣을 수 있습니다. 이렇게 하면 전체 워크플로우 또는 특정 활동을 쉽게 복제하고 처음에 정의된 설정을 유지할 수 있습니다.  자세한 내용은 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">자세한 설명서를</a>참조하십시오. (CAMP-20014) </li> 
+     <li> 이제 파일 <strong>로드</strong> 활동을 사용할 때 거부된 레코드가 들어 있는 파일의 이름에 타임스탬프를 추가할 수 있습니다.  자세한 내용은 <a href="../../automating/using/load-file.md#configuration">자세한 설명서를</a>참조하십시오. </li> 
      <li> <strong>이제 쿼리</strong> 및 <strong>세그멘테이션</strong> 활동을 통해 활동이 데이터를 검색하지 않는 경우 아웃바운드 전환을 활성화할 수 있습니다. </li> 
     </ul> </td> 
   </tr> 
@@ -463,19 +463,19 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * 이제 Behance 아티스트가 디자인한 4개의 동급 최강의 반응형 이메일 템플릿을 사용할 수 있습니다.
 
-   자세한 내용은 [자세한 설명서를](../../designing/using/using-reusable-content.md#content-templates)참조하십시오.
+    자세한 내용은 [자세한 설명서를](../../designing/using/using-reusable-content.md#content-templates)참조하십시오.
 
 * Adobe의 새로운 온보딩(On-Bounding) 경험은 이메일을 보다 신속하게 제작할 수 있도록 지원하고 설명서 및 자습서를 보다 손쉽게 이용할 수 있도록 도와줍니다.
 
-   자세한 내용은 [자세한 설명서를](../../designing/using/overview.md#email-designer-home-page)참조하십시오.
+    자세한 내용은 [자세한 설명서를](../../designing/using/overview.md#email-designer-home-page)참조하십시오.
 
 * 이제 요구 사항에 따라 열과 너비의 수를 유연하게 구성할 수 있습니다.
 
-   자세한 내용은 [자세한 설명서를](../../designing/using/designing-from-scratch.md#defining-the-email-structure)참조하십시오.
+    자세한 내용은 [자세한 설명서를](../../designing/using/designing-from-scratch.md#defining-the-email-structure)참조하십시오.
 
 * 모바일 보기에서 편집할 때 모바일 디스플레이에서만 특정 구성 요소를 숨겨 공간을 효율적으로 사용할 수 있습니다.
 
-   자세한 내용은 [자세한 설명서를](../../designing/using/styles.md#switching-to-mobile-view)참조하십시오.
+    자세한 내용은 [자세한 설명서를](../../designing/using/styles.md#switching-to-mobile-view)참조하십시오.
 
 * 이제 이미 사용 가능한 채널 위에 있는 이메일 템플릿에 사용자 지정 소셜 채널을 추가할 수 있습니다.
 * 18개 이상의 구조를 사용할 때 구조 메뉴를 아래로 스크롤하지 못하는 문제를 해결했습니다. (CAMP-31173)
@@ -495,7 +495,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 프로필 작성 화면의 표준 시간대 드롭다운 목록이 주소 섹션에서 인터페이스의 위쪽 섹션으로 이동되었습니다.
 * 이제 사용자 지정 리소스 화면을 구성할 때 구분자를 추가할 수 있으므로 필드를 카테고리로 구성할 수 있습니다.
 
-   자세한 내용은 [자세한 설명서를](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)참조하십시오.
+    자세한 내용은 [자세한 설명서를](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)참조하십시오.
 
 ### 기타 변경 사항 {#other-changes-1}
 
@@ -546,7 +546,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
      <li> 준비 시 URL에서 컨텐츠를 자동으로 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">검색할 수 있는 기능</a> </li> 
      <li> 즉시 <a href="../../designing/using/using-reusable-content.md#content-templates">사용할 수 있는 컨텐츠 템플릿을</a>준수합니다. </li> 
     </ul> 
-    <p>자세한 내용은 <a href="../../designing/using/overview.md">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">방법 비디오를</a>참조하십시오. 개선 사항 및 수정 사항은 아래에 나와 있습니다.</p><p>따라서 기존 이메일 컨텐츠 편집기는 이제 더 이상 사용되지 않습니다. 자세한 내용은 이 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">페이지를</a>참조하십시오.</p> </td> 
+    <p>자세한 내용은 <a href="../../designing/using/overview.md">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">방법 비디오를</a>참조하십시오. 개선 사항 및 수정 사항은 아래에 나와 있습니다.</p><p>따라서 기존 이메일 컨텐츠 편집기는 이제 더 이상 사용되지 않습니다.  자세한 내용은 이 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">페이지를</a>참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 이메일의 제품 목록<br /> </td> 
@@ -554,7 +554,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 이메일 디자이너의 모바일 보기<br /> </td> 
-   <td> <p>이제 이메일 컨텐츠를 편집할 때 전용 모바일 보기로 전환할 수 있습니다. 이렇게 하면 여백, 작은 글꼴 크기, 다른 배경색 등과 같은 모바일 디스플레이를 위한 모든 스타일 옵션을 별도로 편집하여 이메일의 반응형 디자인을 세밀하게 조정할 수 있습니다.</p><p> 자세한 내용은 <a href="../../designing/using/styles.md#switching-to-mobile-view">자세한 설명서를</a>참조하십시오.</p> </td> 
+   <td> <p>이제 이메일 컨텐츠를 편집할 때 전용 모바일 보기로 전환할 수 있습니다. 이렇게 하면 여백, 작은 글꼴 크기, 다른 배경색 등과 같은 모바일 디스플레이를 위한 모든 스타일 옵션을 별도로 편집하여 이메일의 반응형 디자인을 세밀하게 조정할 수 있습니다.</p><p>  자세한 내용은 <a href="../../designing/using/styles.md#switching-to-mobile-view">자세한 설명서를</a>참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 인앱 메시징 베타 개선 사항<br /> </td> 
@@ -564,7 +564,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
      <li> Analytics API와 통합하여 트리거 드롭다운을 채웁니다. </li> 
      <li> 전달 템플릿의 직관적인 모양 및 설명 </li> 
      <li> 유용성 측면에서 향상된 작성 인터페이스 </li> 
-    </ul> <p>자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">자세한 설명서를</a>참조하십시오.</p> </td> 
+    </ul> <p> 자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">자세한 설명서를</a>참조하십시오.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -585,7 +585,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 이메일 디자이너에서 컨텐츠를 편집할 때 동적 컨텐츠 조건이 저장되지 않는 문제를 해결했습니다. (CAMP-27905)
 * 메시지의 일반 텍스트 버전을 편집하고 이메일 디자이너에서 HTML 동기화를 중단하면 이메일 컨텐츠에서 HTML 버전이 제거되는 문제를 수정했습니다. (CAMP-28507)
 * Internet Explorer 11을 사용할 때 이메일 디자이너 인터페이스가 열리지 않는 문제를 해결했습니다. (CAMP-28273)
-* 이메일 디자이너를 사용하여 단추에 적용된 스타일 설정의 Microsoft Outlook 렌더링을 왜곡하는 문제를 수정했습니다.
+* 이메일 디자이너와 함께 단추에 적용된 스타일 설정의 Microsoft Outlook 렌더링을 왜곡했던 문제를 수정했습니다.
 * 이메일에 사용된 컨텐츠 조각에서 URL을 편집할 수 있게 하는 이메일 디자이너의 문제를 수정했습니다. 조각은 기본적으로 잠겼으므로 예상되지 않았습니다.
 * 이메일 디자이너 구분선 구성 요소가 Microsoft Office에 표시되지 않는 문제를 해결했습니다.
 * 기존 이메일 컨텐츠 편집기를 사용하여 AEM에서 동기화된 컨텐츠를 볼 때 특정 인터넷 브라우저에서 페이지가 멈추는 문제를 해결했습니다. (CAMP-29068)
