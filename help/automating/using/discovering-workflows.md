@@ -1,18 +1,18 @@
 ---
 title: 워크플로우 살펴보기
 description: Adobe Campaign은 프로세스를 설계 및 자동화할 수 있는 포괄적인 그래픽 환경을 제공합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
-topic-tags: 정보 워크플로우 및 데이터 관리
+topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign은 세그멘테이션, 캠페인 실행, 파일 처리, 승인 �
 * 데이터를 Campaign 데이터베이스로 가져옵니다. 자세한 내용은 데이터 [가져오기 및 내보내기를](../../automating/using/about-data-import-and-export.md)참조하십시오.
 * 데이터베이스 정리, 추적 정보 복구 등과 같은 기술 프로세스 이 [섹션의](../../administration/using/technical-workflows.md)기술 워크플로우에 대한 자세한 내용을 살펴보십시오.
 
-워크플로우는 Adobe Campaign Standard API에서도 액세스할 수 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows)참조하십시오.
+워크플로우는 Adobe Campaign Standard API에서도 액세스할 수 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-workflows.md)참조하십시오.
 
 **관련 항목:**
 
