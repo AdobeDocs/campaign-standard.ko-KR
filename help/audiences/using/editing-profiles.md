@@ -1,18 +1,18 @@
 ---
 title: 프로필 편집
 description: 기존 프로필을 편집하고 연락처 정보, 기본 채널, 추적 로그, 구독 등에 액세스하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: 프로필 관리
+topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    >
    >탭에서만 정보를 수정할 수 있습니다( **[!UICONTROL General]** **[!UICONTROL Traceability]** 섹션 제외).
 
-Adobe Campaign Standard API를 사용하여 프로필 에디션을 사용할 수도 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#updating-profiles) 참조하십시오.
+Adobe Campaign Standard API를 사용하여 프로필 에디션을 사용할 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-profiles.md) 참조하십시오.
 
 관련 항목:
 
