@@ -1,19 +1,19 @@
 ---
 title: 프로필 기본 정보
 description: 연락처는 Campaign 데이터베이스에 프로필로 저장되고 전체 라이프사이클에서 업데이트됩니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: 프로필 관리
-discoiquuid: a35e736c-a17b-420c-8411-0dec3c6275a
-context-tags: 수신자,개요
+topic-tags: managing-profiles
+discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
+context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign을 사용하면 전체 라이프사이클 동안 연락처를 관
 
 >[!NOTE]
 >
->Adobe Campaign Standard API를 사용하여 프로필을 사용할 수도 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) 참조하십시오.
+>Adobe Campaign Standard API를 사용하여 프로필을 사용할 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-profiles.md)참조하십시오.
 
 ![](assets/marketing_history.png)
 
