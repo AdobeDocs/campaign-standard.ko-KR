@@ -1,18 +1,18 @@
 ---
 title: 구독 기본 정보
-description: null
-page-status-flag: 활성화 안 함
-uuid: b0263e40-f910-49f2-a138-0a1302aeec6
-contentOwner: 자우비
+description: Campaign Standard의 서비스 및 구독에 대한 자세한 내용을 살펴보십시오.
+page-status-flag: never-activated
+uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: 구독 관리
+topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -29,4 +29,4 @@ Adobe Campaign을 사용하면 다음과 같은 일련의 **서비스를**&#x200
 * 가입 및/또는 가입 해지 **확인 메커니즘**.
 * 구독 **내역**.
 
-구독은 Adobe Campaign Standard API를 사용하여 관리할 수도 있습니다. 자세한 내용은 [전용 설명서를](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) 참조하십시오.
+구독은 Adobe Campaign Standard API를 사용하여 관리할 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-services-and-subscriptions.md) 참조하십시오.
