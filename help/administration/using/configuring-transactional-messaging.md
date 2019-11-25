@@ -1,18 +1,18 @@
 ---
 title: 트랜잭션 메시지 구성
 description: 트랜잭션 메시지를 구성하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
-topic-tags: 구성 채널
+topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -184,7 +184,7 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
 
 트랜잭션 메시징 운영 [원칙](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) 섹션에 설명된 예에서, 클라이언트 중 하나가 장바구니에서 제품을 구매하기 전에 웹 사이트를 떠날 때마다 "장바구니 포기" 이벤트를 트리거할 수 있습니다. 이렇게 하려면 웹 사이트 웹 개발자가 Adobe Campaign Standard REST API를 사용해야 합니다.
 
-REST [API 설명서를 참조하십시오](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) .
+REST [API 설명서를 참조하십시오](../../api/using/managing-transactional-messages.md) .
 
 ## 트랜잭션 이벤트 특정 구성 {#transactional-event-specific-configurations}
 
