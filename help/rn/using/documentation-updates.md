@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
+source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
 
 ---
 
@@ -29,7 +29,17 @@ Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/usin
 
 Campaign Standard의 워크플로우를 사용하여 제어 그룹을 만드는 방법을 설명하는 새로운 사용 사례가 추가되었습니다. 자세한[내용 보기](../../automating/using/workflow-control-group.md)
 
+랜딩 페이지의 속성과 관련된 정보가 전용 섹션으로 이동되었습니다. [자세한 내용](../../channels/using/configuring-landing-page.md)
+
+Control Panel 문서는 새로운 협업 설명서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+
+지표 **계산** 테이블이 업데이트되었습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
+
 API 설명서 세트는 Campaign Standard 설명서에 통합되었습니다.[자세한 내용](../../api/using/about-campaign-standard-apis.md)
+
+개인화된 이메일 만들기 시작 안내서가 이동되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+
+배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## 릴리스 19.4 - 2019년 10월 {#release-19-4---october-2019}
 
@@ -47,7 +57,7 @@ GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제
 
 트랜잭션 메시징 게시 프로세스를 설명하는 새 차트가 추가되었습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+시작 안내서가 이동되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 새 섹션이 추가되었습니다. Adobe Campaign Standard 데이터베이스를 보완할 수 있는 다양한 방법에 대한 개요를 제공합니다. [자세한 내용](../../start/using/enriching-campaign-database.md)
 
@@ -63,7 +73,7 @@ GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제
 
 트랜잭션 메시징 섹션이 이메일 디자이너의 컨텐츠 편집을 포함하여 최신 UI 업데이트를 사용하여 수정되었습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
 
-랜딩 페이지 장이 재구성되었습니다. 또한 랜딩 페이지를 설정하는 단계를 자세히 설명하는 새로운 섹션이 추가되었습니다. [자세한 내용](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+랜딩 페이지 장이 재구성되었습니다. 또한 랜딩 페이지를 설정하는 단계를 자세히 설명하는 새로운 섹션이 추가되었습니다. [자세한 내용](../../channels/using/getting-started-with-landing-pages.md)
 
 선언된 ID 변경 사항을 반영하도록 Audience Manager 통합 **페이지가** 업데이트되었습니다. [자세한 내용](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -133,7 +143,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트�
 
 ## 설명서 업데이트 - 2019년 7월 {#doc-updates-2019}
 
-랜딩 페이지 제한에 대한 새 페이지를 추가했습니다. [자세한 내용](../../channels/using/about-landing-pages.md#landing-page-limitations)
+랜딩 페이지 제한에 대한 새 페이지를 추가했습니다. [자세한 내용](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 복합 식별 키를 사용하여 프로필을 호출하는 방법에 사용 사례가 추가되었습니다. [자세한 내용](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -153,7 +163,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트�
 
 향상된 워크플로우 - 외부 신호 활동에 페이로드 추가 - [자세한 내용](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-랜딩 페이지 개선 - Google reCAPTCHA - [자세한 내용](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+랜딩 페이지 개선 - Google reCAPTCHA - [자세한 내용](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release}
 
