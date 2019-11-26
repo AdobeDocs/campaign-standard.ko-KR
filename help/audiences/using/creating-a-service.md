@@ -1,19 +1,19 @@
 ---
 title: 서비스 만들기
 description: 첫 번째 서비스를 만들고 구독자에게 이메일 확인을 보내도록 구성하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: 구독 관리
+topic-tags: managing-subscriptions
 discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
-context-tags: 서비스,마법사;서비스,주
+context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -54,5 +54,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [서비스 및 구독](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) 관리 비디오
 * [서비스 홍보](../../audiences/using/promoting-a-service.md)
 * [가입자로 구성된 대상 만들기](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [랜딩 페이지에서 서비스에 양식 연결](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
-
+* [랜딩 페이지를 서비스에 연결](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
