@@ -1,18 +1,18 @@
 ---
 title: 새 필드로 프로필 리소스 확장
 description: 프로필 리소스를 확장하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
-uuid: 9b99e95c-9 파섹
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 개발
+audience: developing
 content-type: reference
-topic-tags: use-cases—extending-resources
+topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -147,7 +147,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 4단계:워크플로우를 통해 프로파일 업데이트 및 타깃팅 {#step-4--update-and-target-profiles-with-a-workflow}
 
-새 사용자 정의 필드의 데이터로 프로파일을 업데이트하려면 **[!UICONTROL Profile acquisition]** 템플릿을 사용하여 랜딩 페이지를 만들 수 있습니다. 랜딩 페이지에 대한 자세한 내용은 이 [페이지를](../../channels/using/about-landing-pages.md)참조하십시오.
+새 사용자 정의 필드의 데이터로 프로파일을 업데이트하려면 **[!UICONTROL Profile acquisition]** 템플릿을 사용하여 랜딩 페이지를 만들 수 있습니다. 랜딩 페이지에 대한 자세한 내용은 이 [페이지를](../../channels/using/getting-started-with-landing-pages.md)참조하십시오.
 
 이 필드를 채우지 않은 워크플로우 프로필에서 타깃팅하려고 합니다. 개인화된 뉴스레터와 제안을 받기 위해 프로필을 업데이트하라는 이메일을 받게 됩니다. 각 프로필은 선택한 관심사에 따라 개인화된 뉴스레터를 수신하게 됩니다.
 
