@@ -1,9 +1,9 @@
 ---
 title: 프로필 및 대상자 기본 정보
 description: '"Adobe Campaign의 프로필 및 고객 관리에 대해 알아봅니다.타겟팅된 모집단을 정의하고 대상을 선택하고 수신자를 필터링하며 데이터를 수집하고 프로필을 업데이트합니다."'
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign을 사용하면 풍부한 고객 프로파일을 실시간으로 
 
    워크플로우 및 쿼리 편집기를 사용하여 보유한 정보, 활동 및 마케팅 내역에 따라 마케팅 캠페인이 타깃팅할 대상을 구성할 수 있습니다. 이렇게 하면 가입된 프로필을 필터링하거나, 샘플을 만들거나, 제한 없는 기준에 따라 타겟 대상을 만들 수 있습니다.
 
-대화 상대에게 메시지를 보내기 전에 대화 상대에게 권한이 있는지 확인해야 합니다. 그렇지 않은 경우 이메일이 스팸으로 표시되어 플랫폼 제공 기능에 영향을 줄 수 있습니다. 올바른 프로필 데이터베이스를 만들려면 이 권한을 첫 번째 단계로 확보하십시오. Adobe Campaign을 사용하면 [서비스를](../../audiences/using/creating-a-service.md)통해 간편한 옵트인 및 옵트아웃 메커니즘을 사용하고 [랜딩 페이지를](../../channels/using/about-landing-pages.md) 사용하여 연락처 정보를 업데이트하고 데이터베이스를 확장하는 것이 좋습니다.
+대화 상대에게 메시지를 보내기 전에 대화 상대에게 권한이 있는지 확인해야 합니다. 그렇지 않은 경우 이메일이 스팸으로 표시되어 플랫폼 제공 기능에 영향을 줄 수 있습니다. 올바른 프로필 데이터베이스를 만들려면 이 권한을 첫 번째 단계로 확보하십시오. Adobe Campaign을 사용하면 [서비스를](../../audiences/using/creating-a-service.md)통해 간편한 옵트인 및 옵트아웃 메커니즘을 사용하고 [랜딩 페이지를](../../channels/using/getting-started-with-landing-pages.md) 사용하여 연락처 정보를 업데이트하고 데이터베이스를 확장하는 것이 좋습니다.
 
 메시지에 구독 취소 링크를 제공하면 필요에 따라 프로필이 블랙리스트에 추가되어 플랫폼 제공 능력을 향상시킬 수 있습니다. 블랙리스트에 대한 자세한 내용은 [옵트인 및 옵트아웃 캠페인을 참조하십시오](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
