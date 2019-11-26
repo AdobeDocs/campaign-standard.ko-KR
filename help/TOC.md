@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -108,12 +108,13 @@ source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
       + [트랜잭션 푸시 알림](channels/using/transactional-push-notifications.md)
       + [후속 메시지](channels/using/follow-up-messages.md)
    + 랜딩 페이지 {#landing-pages}
-      + [랜딩 페이지 기본 정보](channels/using/about-landing-pages.md)
-      + [랜딩 페이지 설정 주요 단계](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [랜딩 페이지 기본 정보](channels/using/getting-started-with-landing-pages.md)
+      + [랜딩 페이지 설정 주요 단계](channels/using/getting-started-with-landing-pages.md)
       + [랜딩 페이지 템플릿 기본 정보](channels/using/landing-page-templates.md)
+      + [랜딩 페이지 구성](channels/using/configuring-landing-page.md)
       + [랜딩 페이지 디자인](channels/using/designing-a-landing-page.md)
       + [랜딩 페이지 양식 데이터 관리](channels/using/managing-landing-page-form-data.md)
-      + [랜딩 페이지 공유](channels/using/sharing-a-landing-page.md)
+      + [랜딩 페이지 테스트 및 게시](channels/using/testing-publishing-landing-page.md)
       + [이중 옵트인 프로세스 설정](channels/using/setting-up-a-double-opt-in-process.md)
 + 이메일 콘텐츠 디자인 {#designing-content}
    + [Campaign 이메일 디자이너](designing/using/designing-content-in-adobe-campaign.md)
