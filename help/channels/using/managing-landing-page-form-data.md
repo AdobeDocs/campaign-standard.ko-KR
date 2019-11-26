@@ -1,19 +1,19 @@
 ---
 title: 랜딩 페이지 양식 데이터 관리
 description: 랜딩 페이지 양식 데이터를 관리하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
-contentOwner: 여우원숭이
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 랜딩 페이지
+topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -51,26 +51,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >[!NOTE]
 >
 >기본 제공 랜딩 페이지의 기본 필드는 미리 구성되어 있습니다. 필요에 따라 수정할 수 있습니다.
-
-## 서비스에 양식 연결 {#linking-a-form-to-a-service}
-
-랜딩 페이지의 유효성을 검사할 때 특정 서비스에 프로필을 가입할 수 있도록 양식을 서비스에 연결할 수 있습니다.
-
-랜딩 페이지 연결에 대한 매개 변수를 사용하여 수행한 작업 유형과 랜딩 페이지가 특정 단일 서비스에 연결되어 있는지 또는 일반적인지를 지정할 수 있습니다.
-
-연결할 서비스를 선택하려면 다음을 수행해야 합니다.
-
-1. 랜딩 페이지 대시보드의 ![](assets/edit_darkgrey-24px.png) 아이콘을 통해 액세스한 랜딩 페이지 속성을 편집하고 **[!UICONTROL Job]** 매개 변수를 표시합니다.
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. 드롭다운 **[!UICONTROL Subscription]** 목록에서 **[!UICONTROL Specific actions]** 선택합니다.
-
-   ![](assets/lp_parameters_5.png)
-
-1. 랜딩 페이지를 단일 서비스에 **[!UICONTROL Specific service]** 연결하려면 선택합니다. 랜딩 페이지에서 여러 서비스를 사용하려면 이 옵션을 선택하지 마십시오.
-
-   여러 서비스에 랜딩 페이지를 사용할 수 있도록 하려면 이 **[!UICONTROL Specified service in the URL]** 옵션을 사용합니다. 따라서 서비스를 구성할 때 랜딩 페이지를 참조해야 합니다.
 
 ## 데이터 저장 및 조정{#data-storage-and-reconciliation}
 
