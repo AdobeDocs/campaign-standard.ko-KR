@@ -1,18 +1,18 @@
 ---
 title: 이중 옵트인 프로세스 설정
 description: 다음 단계에 따라 Adobe Campaign의 랜딩 페이지를 사용하여 이중 옵트인 프로세스를 설정합니다.
-page-status-flag: 활성화 안 함
-uuid: 23e6c4c2-e2c7-47 파섹
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 랜딩 페이지
-discoiquuid: 1a24504e-7f9d-4297-b3 파섹
+topic-tags: landing-pages
+discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 이 랜딩 페이지를 만들고 구성하려면 다음을 수행해야 합니다.
 
-1. 템플릿을 기반으로 [새 랜딩 페이지를](../../channels/using/about-landing-pages.md) 디자인합니다 **[!UICONTROL Profile acquisition (acquisition)]** . 'CONFIRMATION' 레이블을&#x200B;**입력합니다**.
+1. 템플릿을 기반으로 [새 랜딩 페이지를](../../channels/using/getting-started-with-landing-pages.md) 디자인합니다 **[!UICONTROL Profile acquisition (acquisition)]** . 'CONFIRMATION' 레이블을&#x200B;**입력합니다**.
 
    서비스를 [사용해야 하는 경우](../../audiences/using/about-subscriptions.md)**[!UICONTROL Subscription (sub)]** 템플릿을 사용할 수도 있습니다.
 
@@ -67,7 +67,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [랜딩 페이지를 테스트하고 게시합니다](../../channels/using/sharing-a-landing-page.md) .
+1. [랜딩 페이지를 테스트하고 게시합니다](../../channels/using/testing-publishing-landing-page.md) .
 
 ## 2단계:확인 이메일 만들기 {#step-2--create-the-confirmation-email}
 
@@ -127,7 +127,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 이 랜딩 페이지를 만들고 구성하려면 다음을 수행해야 합니다.
 
-1. 템플릿을 기반으로 [새 랜딩 페이지를](../../channels/using/about-landing-pages.md) 디자인합니다 **[!UICONTROL Profile acquisition (acquisition)]** . 'ACQUISITION' 레이블을&#x200B;**입력합니다**.
+1. 템플릿을 기반으로 [새 랜딩 페이지를](../../channels/using/getting-started-with-landing-pages.md) 디자인합니다 **[!UICONTROL Profile acquisition (acquisition)]** . 'ACQUISITION' 레이블을&#x200B;**입력합니다**.
 1. 랜딩 페이지 속성을 편집합니다.&gt; **[!UICONTROL Job]** 섹션에서 을 클릭하고 다음 컨텍스트 경로를 **[!UICONTROL Additional data]** **[!UICONTROL Add an element]** 입력합니다.
 
    /context/profile/blackList
@@ -149,6 +149,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [랜딩 페이지를 테스트하고 게시합니다](../../channels/using/sharing-a-landing-page.md) .
+1. [랜딩 페이지를 테스트하고 게시합니다](../../channels/using/testing-publishing-landing-page.md) .
 
 이제 이중 옵트인 메커니즘이 구성됩니다. 이 **[!UICONTROL ACQUISITION]** 랜딩 페이지의 공개 URL부터 시작하여 이 절차를 처음부터 끝까지 실행하고 테스트할 수 있습니다. 이 URL은 랜딩 페이지 대시보드에 표시됩니다.
