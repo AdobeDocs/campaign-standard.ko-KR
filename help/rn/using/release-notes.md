@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -327,7 +327,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
   </tr> 
   <tr> 
    <td> 랜딩 페이지 개선 사항 - Google reCAPTCHA<br /> </td> 
-   <td> <p>Google reCAPTCHA를 활용하여 고객의 작업 없이도 랜딩 페이지에서 스팸을 방지할 수 있습니다.</p><p> 자세한 내용은 <a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">자세한 설명서를</a>참조하십시오.</p></td> 
+   <td> <p>Google reCAPTCHA를 활용하여 고객의 작업 없이도 랜딩 페이지에서 스팸을 방지할 수 있습니다.</p><p> 자세한 내용은 <a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">자세한 설명서를</a>참조하십시오.</p></td> 
   </tr> 
  </tbody> 
 </table>
