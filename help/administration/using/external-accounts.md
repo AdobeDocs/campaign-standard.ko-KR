@@ -1,19 +1,19 @@
 ---
 title: 외부 계정
 description: SFTP 서버와 같은 외부 시스템과의 연결을 설정하도록 외부 계정을 구성합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
-context-tags: extAccount,main;extAccount,개요
+context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -134,7 +134,7 @@ Adobe Experience Manager 외부 계정은 Adobe Experience Manager와 Campaign�
 
 Google reCAPTCHA 메커니즘을 사용하면 보트가 초래하는 스팸 및 남용으로부터 랜딩 페이지를 보호할 수 있습니다. 이는 고객과의 상호 작용이 필요하지 않고 사이트와의 상호 작용을 기반으로 하기 때문에 고객에게 영향을 주지 않습니다. 사이트를 등록하려면 이 [페이지를](https://www.google.com/recaptcha/admin/create)참조하십시오. V3 reCAPTCHA 유형을 선택해야 합니다.
 
-Google reCAPTCHA V3을 랜딩 페이지에 추가하려면 먼저 외부 계정에서 구성해야 합니다. 랜딩 페이지에 추가하는 방법에 대한 자세한 내용은 이 [섹션을](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)참조하십시오.
+Google reCAPTCHA V3을 랜딩 페이지에 추가하려면 먼저 외부 계정에서 구성해야 합니다. 랜딩 페이지에 추가하는 방법에 대한 자세한 내용은 이 [섹션을](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)참조하십시오.
 
 Google reCAPTCHA V3 외부 계정의 경우 다음 세부 정보를 제공합니다.
 
@@ -146,4 +146,3 @@ Google reCAPTCHA V3 외부 계정의 경우 다음 세부 정보를 제공합니
    0.0 **[!UICONTROL Threshold]** 값은 보트 가능성이 높고 1.0이 적절한 상호 작용일 가능성이 있음을 의미합니다. 기본적으로 임계값 0.5를 사용할 수 있습니다.
 
 ![](assets/external_accounts_3.png)
-
