@@ -1,18 +1,18 @@
 ---
 title: 서비스 구독 확인
 description: 다음 단계에 따라 Adobe Campaign에서 서비스 가입 프로필에 대한 확인 메시지를 설정합니다.
-page-status-flag: 활성화 안 함
-uuid: 23e6c4c2-e2c7-47 파섹
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: 구독 관리
-discoiquuid: 1a24504e-7f9d-4297-b3 파섹
+topic-tags: managing-subscriptions
+discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -179,7 +179,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 이 랜딩 페이지를 만들고 구성하려면 아래 단계를 따르십시오.
 
-1. 템플릿을 기반으로 [새 랜딩 페이지를](../../channels/using/about-landing-pages.md) 디자인합니다 **[!UICONTROL Subscription]** .
+1. 템플릿을 기반으로 [새 랜딩 페이지를](../../channels/using/getting-started-with-landing-pages.md) 디자인합니다 **[!UICONTROL Subscription]** .
 1. 랜딩 페이지 속성을 편집합니다. &gt; **[!UICONTROL Job]** 섹션에서 **[!UICONTROL Specific actions]** **[!UICONTROL Specific service]** 옵션을 선택하고 드롭다운 목록에서 방금 만든 서비스를 선택합니다.
 
    ![](assets/confirmation_lp-specific-service.png)
@@ -190,7 +190,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 랜딩 페이지의 컨텐츠를 사용자 정의합니다.
 
-1. [랜딩 페이지를 테스트하고 게시합니다](../../channels/using/sharing-a-landing-page.md) .
+1. [랜딩 페이지를 테스트하고 게시합니다](../../channels/using/testing-publishing-landing-page.md) .
 
 이제 프로필이 랜딩 페이지를 제출하여 뉴스레터에 가입할 때마다 서비스에 매핑된 개인화된 필드로 정의한 확인 메시지를 받게 됩니다.
 
