@@ -1,18 +1,18 @@
 ---
 title: 사용자 관리
 description: 'Adobe Campaign 사용자는 특정 역할을 보유합니다. 기본 사용자 유형을 살펴보십시오. '
-page-status-flag: 활성화 안 함
-uuid: 8c4cc74a-815f-4 파섹
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
-topic-tags: 사용자 및 보안
+topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -94,7 +94,7 @@ Adobe Campaign의 다양한 작업이 다음 세 가지 주요 사용자 유형 
 * [프로그램 및 캠페인](../../start/using/programs-and-campaigns.md)관리:다양한 유형의 활동(이메일, SMS 메시지, 푸시 알림, 워크플로우, 랜딩 페이지)을 비롯한 마케팅 캠페인을 제작할 수 있습니다.
 * 프로필 [관리](../../audiences/using/about-profiles.md) 및 [테스트 프로필](../../sending/using/managing-test-profiles-and-sending-proofs.md):배달이 타깃팅할 식별된 수신자와 테스트 수신자를 관리합니다. 이름, 성, 연락처 정보, 구독, 이메일 등과 같은 정보를 추가합니다.
 * [메시지](../../sending/using/confirming-the-send.md)만들기 및 보내기:메시지를 만들고, 대상을 선택하고, 메시지 컨텐츠와 개인화 요소를 정의하고, 교정본을 보내고, 최종 메시지를 고객에게 보냅니다.
-* [랜딩 페이지](../../channels/using/about-landing-pages.md)만들기 및 게시:구독 또는 구독 취소 양식과 같이 고객에게 제공할 서비스 세트를 만들고 관리합니다.
+* [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md)만들기 및 게시:구독 또는 구독 취소 양식과 같이 고객에게 제공할 서비스 세트를 만들고 관리합니다.
 * [캠페인 워크플로우](../../automating/using/building-a-workflow.md)만들기 및 실행:워크플로우를 사용하여 캠페인 프로세스를 자동화할 수 있습니다.
 * [사용 가능한 보고서를](../../reporting/using/defining-the-report-period.md)통해 마케팅 활동을 모니터링합니다.
 
