@@ -1,19 +1,19 @@
 ---
 title: 마케팅 활동
 description: '"마케팅 활동을 만들고 관리하는 방법을 알아봅니다.캠페인, 이메일, SMS 및 푸시 알림 전달, 랜딩 페이지, 워크플로우 새로운 활동을 손쉽게 디자인하고 기존 활동을 편집한 다음 해당 활동의 상태와 유효성을 확인할 수 있습니다."'
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
-topic-tags: 마케팅 계획
+topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
-context-tags: 활동,개요
+context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,7 +88,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [푸시 알림 만들기](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [InApp 메시지 만들기](../../channels/using/about-in-app-messaging.md)
 * [워크플로우 만들기](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [랜딩 페이지 만들기](../../channels/using/about-landing-pages.md)
+* [랜딩 페이지 만들기](../../channels/using/getting-started-with-landing-pages.md)
 * [캠페인 만들기](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [프로그램 만들기](../../start/using/programs-and-campaigns.md#creating-a-program)
 
