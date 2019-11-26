@@ -1,18 +1,18 @@
 ---
 title: Campaign에서 옵트인 및 옵트아웃 관리
 description: Adobe Campaign에서 옵트인 및 옵트아웃을 관리하는 방법을 이해합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: 옵트인 및 옵트아웃 프로세스 이해
+topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -35,9 +35,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->랜딩 페이지를 사용하여 서비스 구독을 활성화할 수도 있습니다. For more on this, refer to [this page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service).
+>랜딩 페이지를 사용하여 서비스 구독을 활성화할 수도 있습니다. For more on this, refer to [this page](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
 
-1. 랜딩 **[!UICONTROL Profile acquisition]** 페이지를 만듭니다( [이 섹션](../../channels/using/about-landing-pages.md)참조).
+1. 랜딩 **[!UICONTROL Profile acquisition]** 페이지를 만듭니다( [이 섹션](../../channels/using/getting-started-with-landing-pages.md)참조).
 1. 원하는 각 채널의 랜딩 페이지 컨텐츠에 확인란을 추가한 다음 캠페인 데이터베이스의 해당 필드에 연결합니다.
 
    ![](assets/optin_landingpage_1.png)
@@ -53,7 +53,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 모든 배달에서 옵트아웃하도록 랜딩 페이지 설정 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-사용자에게 모든 게재에서 옵트아웃할 수 있는 기능을 제공하려면 **[!UICONTROL BlackList]** 랜딩 페이지를 만들고 게시해야 합니다. 랜딩 페이지 만들기에 대한 자세한 내용은 [이 페이지를](../../channels/using/about-landing-pages.md)참조하십시오.
+사용자에게 모든 게재에서 옵트아웃할 수 있는 기능을 제공하려면 **[!UICONTROL BlackList]** 랜딩 페이지를 만들고 게시해야 합니다. 랜딩 페이지 만들기에 대한 자세한 내용은 [이 페이지를](../../channels/using/getting-started-with-landing-pages.md)참조하십시오.
 
 사용자가 랜딩 페이지 링크를 클릭하면 프로필의 **[!UICONTROL No longer contact (by any channel)]** 옵션이 자동으로 선택됩니다.
 
