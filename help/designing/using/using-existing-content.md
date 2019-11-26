@@ -1,18 +1,18 @@
 ---
 title: '기존 콘텐츠를 사용한 이메일 디자인 '
 description: 이메일 디자이너의 기존 컨텐츠 이메일 컨텐츠를 사용하여 이메일을 디자인하는 방법을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 디자인
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -52,11 +52,11 @@ Adobe Campaign에는 시작하는 데 도움이 되는 미리 정의된 콘텐�
 **관련 항목:**
 
 * [이메일 만들기](../../channels/using/creating-an-email.md)
-* [랜딩 페이지 관리](../../channels/using/about-landing-pages.md)
+* [랜딩 페이지 관리](../../channels/using/getting-started-with-landing-pages.md)
 
 ## 이메일 디자이너를 사용하여 기존 컨텐츠 편집{#editing-existing-contents-with-the-email-designer}
 
-이메일 디자이너의 에디션의 가능성을 완전히 활용하려면 [업로드된](../../designing/using/overview.md)HTML에 WYSIWYG 편집기와 호환되도록 특정 태그 지정이 포함되어야 합니다.
+이메일 디자이너의 에디션의 가능성을 완전히 활용하려면 [업로드된](../../designing/using/overview.md)HTML에 WYSIWYG 편집기와 호환되도록 특정 태그가 포함되어야 합니다.
 
 HTML의 전체 또는 일부에 이러한 태깅이 없는 경우 컨텐츠가 ' [호환성 모드](#compatibility-mode)'로 로드됩니다.
 
