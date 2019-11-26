@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign에서 프로필은 기본적으로 메시지의 주 대상을 정
 Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행할 수 있습니다.
 
 * 워크플로우를 통해 파일에서 프로파일 목록 [가져오기](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-* 랜딩 페이지를 통해 온라인 데이터 [수집](../../channels/using/about-landing-pages.md)
+* 랜딩 페이지를 통해 온라인 데이터 [수집](../../channels/using/getting-started-with-landing-pages.md)
 * REST API를 통해 [벌크 만들기](../../api/using/about-campaign-standard-apis.md)
 * Microsoft Dynamics에서 [프로필 동기화](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * 아래에 설명된 대로 그래픽 인터페이스 화면을 사용하여 데이터를 입력합니다.
@@ -67,6 +67,6 @@ Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행�
 
 **관련 항목:**
 
-* [랜딩 페이지](../../channels/using/about-landing-pages.md) 단계별 안내서 정보
+* [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md) 단계별 안내서 정보
 * [프로필 가져오기](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 
