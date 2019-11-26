@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -49,7 +49,7 @@ Campaign Standard는 마케팅 데이터베이스를 확장하는 데 도움이 
 * 각 입력 필드를 데이터베이스의 해당 필드에 매핑합니다.
 * 랜딩 페이지를 웹 사이트를 통해 또는 메시지에 대한 직접 링크를 통해 온라인으로 사용할 수 있도록 합니다.
 
-랜딩 페이지에 대한 자세한 내용은 [전용 설명서를](../../channels/using/about-landing-pages.md)참조하십시오.
+랜딩 페이지에 대한 자세한 내용은 [전용 설명서를](../../channels/using/getting-started-with-landing-pages.md)참조하십시오.
 
 ## Microsoft Dynamics 365에서 프로필 동기화
 
