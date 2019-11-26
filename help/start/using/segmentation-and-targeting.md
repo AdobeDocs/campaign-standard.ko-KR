@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign 프로필은 데이터베이스에 저장된 모든 연락처를 
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaign은 프로파일 획득을 위한 다양한 메커니즘을 제안합니다.온라인 [랜딩 페이지](../../channels/using/about-landing-pages.md)수집, 수동 또는 [자동화된 가져오기 메커니즘](../../automating/using/about-data-import-and-export.md), Adobe Campaign 인터페이스의 [직접 입력](../../audiences/using/creating-profiles.md) , Campaign APIs Bulk를 통해 [](../../api/using/about-campaign-standard-apis.md)직접 생성
+Adobe Campaign은 프로파일 획득을 위한 다양한 메커니즘을 제안합니다.온라인 [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md)수집, 수동 또는 [자동화된 가져오기 메커니즘](../../automating/using/about-data-import-and-export.md), Adobe Campaign 인터페이스의 [직접 입력](../../audiences/using/creating-profiles.md) , Campaign APIs Bulk를 통해 [](../../api/using/about-campaign-standard-apis.md)직접 생성
 
 **관련 항목:**
 
