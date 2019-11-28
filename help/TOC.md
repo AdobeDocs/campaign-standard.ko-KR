@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: be26edfc30f6cbfcd6fbb449e0751f71924a1944
 
 ---
 
@@ -108,8 +108,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
       + [트랜잭션 푸시 알림](channels/using/transactional-push-notifications.md)
       + [후속 메시지](channels/using/follow-up-messages.md)
    + 랜딩 페이지 {#landing-pages}
-      + [랜딩 페이지 기본 정보](channels/using/getting-started-with-landing-pages.md)
-      + [랜딩 페이지 설정 주요 단계](channels/using/getting-started-with-landing-pages.md)
+      + [랜딩 페이지 시작하기](channels/using/getting-started-with-landing-pages.md)
       + [랜딩 페이지 템플릿 기본 정보](channels/using/landing-page-templates.md)
       + [랜딩 페이지 구성](channels/using/configuring-landing-page.md)
       + [랜딩 페이지 디자인](channels/using/designing-a-landing-page.md)
