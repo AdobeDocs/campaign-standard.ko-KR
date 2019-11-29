@@ -12,13 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 206bb19acfd4c1bcbc7e8839cdf2d13a6279642f
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
 
 # 사용자 정의 리소스와 상호 작용 {#interacting-with-custom-resources}
-
 
 /customResources **종단점을** 사용하면 REST에 ACS 사용자 지정 엔티티를 표시할 수 있습니다. 이 API를 기반으로 사용자 지정 엔티티와 외부 끝점 간의 통합을 사용할 수 있습니다.
 
