@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
@@ -40,6 +40,10 @@ API 설명서 세트는 Campaign Standard 설명서에 통합되었습니다.[�
 개인화된 이메일 만들기 시작 안내서가 이동되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
 배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+데이터 모델은 Campaign Standard 설명서에 통합되었습니다. [자세한 내용](../../developing/using/datamodel-audience.md)
+
+새 API 끝점 **/customResources** 가 API 설명서에 추가되었습니다.[자세한 내용](../../api/using/interacting-with-custom-resources.md)
 
 ## 릴리스 19.4 - 2019년 10월 {#release-19-4---october-2019}
 
