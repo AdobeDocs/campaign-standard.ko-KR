@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: be26edfc30f6cbfcd6fbb449e0751f71924a1944
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
@@ -365,6 +365,7 @@ source-git-commit: be26edfc30f6cbfcd6fbb449e0751f71924a1944
    + [개인 정보 관리](api/using/privacy-management.md)
    + [트랜잭션 메시지 관리](api/using/managing-transactional-messages.md)
    + [워크플로우 관리](api/using/managing-workflows.md)
+   + [사용자 정의 리소스와 상호 작용](api/using/interacting-with-custom-resources.md)
    + [조직 단위 관리](api/using/managing-organizational-units.md)
    + [지리적 단위 관리](api/using/managing-geographical-units.md)
    + [문제 해결](api/using/troubleshooting.md)
