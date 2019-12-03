@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -57,7 +57,7 @@ Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행�
 
 >[!NOTE]
 >
->Adobe Campaign Standard API를 사용하여 프로필을 만들 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-profiles.md)참조하십시오.
+>Adobe Campaign Standard API를 사용하여 프로필을 만들 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/creating-profiles.md)참조하십시오.
 
 또한 프로필은 조직 단위에 따라 분할할 수도 있습니다. 프로필에 조직 필드를 추가하려면 파티션 프로필 [섹션을 참조하십시오](../../administration/using/organizational-units.md#partitioning-profiles) .
 
