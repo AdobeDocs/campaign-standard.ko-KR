@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab5725b326de2f1cb4c5d15d0d3c0303a6bf0f06
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -89,7 +89,7 @@ Adobe.io는 유효하지 않은 URI를 선언합니다.요청하려는 URI가 �
 
 * **작성 후 프로필이 표시되지 않음**
 
-인스턴스 구성에 따라 생성된 프로파일을 orgUnit에 연결해야 **합니다**. 작성에서 이 필드를 추가하는 방법을 이해하려면 [이 섹션을](../../api/using/managing-profiles.md)참조하십시오.
+인스턴스 구성에 따라 생성된 프로파일을 orgUnit에 연결해야 **합니다**. 작성에서 이 필드를 추가하는 방법을 이해하려면 [이 섹션을](../../api/using/creating-profiles.md)참조하십시오.
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 
