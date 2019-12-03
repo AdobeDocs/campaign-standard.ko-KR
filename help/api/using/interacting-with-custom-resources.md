@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -46,4 +46,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >개인 정보 API 끝점 및 워크플로(/privacy/privacyTool)가 프로필 엔티티에 연결되지 않은 사용자 지정 리소스를 관리하지 않습니다.
->이러한 사용자 정의 리소스에 대한 PII를 관리하고 정리할 책임이 있습니다. 개인 정보 보호 도구에 대한 자세한 내용을 보려면 여기를 [클릭하십시오](../../api/using/privacy-management.md).
+>이러한 사용자 정의 리소스에 대한 PII를 관리하고 정리할 책임이 있습니다. 개인 정보 보호 도구에 대한 자세한 내용을 보려면 여기를 [클릭하십시오](../../api/using/creating-a-privacy-request.md).
+
