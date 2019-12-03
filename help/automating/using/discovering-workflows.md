@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign은 세그멘테이션, 캠페인 실행, 파일 처리, 승인 �
 * 데이터를 Campaign 데이터베이스로 가져옵니다. 자세한 내용은 데이터 [가져오기 및 내보내기를](../../automating/using/about-data-import-and-export.md)참조하십시오.
 * 데이터베이스 정리, 추적 정보 복구 등과 같은 기술 프로세스 이 [섹션의](../../administration/using/technical-workflows.md)기술 워크플로우에 대한 자세한 내용을 살펴보십시오.
 
-워크플로우는 Adobe Campaign Standard API에서도 액세스할 수 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-workflows.md)참조하십시오.
+워크플로우는 Adobe Campaign Standard API에서도 액세스할 수 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/controlling-a-workflow.md)참조하십시오.
 
 **관련 항목:**
 
