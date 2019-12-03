@@ -12,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
    >
    >탭에서만 정보를 수정할 수 있습니다( **[!UICONTROL General]** **[!UICONTROL Traceability]** 섹션 제외).
 
-Adobe Campaign Standard API를 사용하여 프로필 에디션을 사용할 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-profiles.md) 참조하십시오.
+Adobe Campaign Standard API를 사용하여 프로필 에디션을 사용할 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/updating-profiles.md) 참조하십시오.
 
 관련 항목:
 
