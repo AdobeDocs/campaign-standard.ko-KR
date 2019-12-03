@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -359,13 +359,32 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
          + [카운트](api/using/counting.md)
          + [페이지 매김](api/using/pagination.md)
       + [사용자 정의 리소스](api/using/custom-resources.md)
-   + [프로필 관리](api/using/managing-profiles.md)
-   + [서비스 및 구독 관리](api/using/managing-services-and-subscriptions.md)
-   + [마케팅 이력 활용](api/using/interacting-with-marketing-history.md)
-   + [개인 정보 관리](api/using/privacy-management.md)
-   + [트랜잭션 메시지 관리](api/using/managing-transactional-messages.md)
-   + [워크플로우 관리](api/using/managing-workflows.md)
    + [사용자 정의 리소스와 상호 작용](api/using/interacting-with-custom-resources.md)
-   + [조직 단위 관리](api/using/managing-organizational-units.md)
-   + [지리적 단위 관리](api/using/managing-geographical-units.md)
+   + 프로필 관리 {#managing-profiles}
+      + [프로파일 검색](api/using/retrieving-profiles.md)
+      + [프로필 업데이트](api/using/updating-profiles.md)
+      + [프로필 만들기](api/using/creating-profiles.md)
+   + 서비스 및 구독 관리 {#managing-services-and-subscriptiopns}
+      + [서비스 만들기](api/using/creating-a-service.md)
+      + [구독 검색 중](api/using/retrieving-subscriptions.md)
+      + [구독 수행](api/using/perform-subscriptions.md)
+      + [구독 삭제](api/using/deleting-subscriptions.md)
+   + [마케팅 이력 활용](api/using/interacting-with-marketing-history.md)
+   + 개인 정보 관리 {#privacy-management}
+      + [개인 정보 요청 만들기](api/using/creating-a-privacy-request.md)
+      + [개인 정보 요청 모니터링](api/using/monitoring-a-privacy-request.md)
+      + [개인 정보 데이터 파일 검색](api/using/retrieving-privacy-data-files.md)
+      + [CPA 옵트아웃 관리](api/using/managing-ccpa-opt-out.md)
+   + [트랜잭션 메시지 관리](api/using/managing-transactional-messages.md)
+   + 워크플로우 관리 {#managing-workflows}
+      + [워크플로우 제어](api/using/controlling-a-workflow.md)
+      + [신호 활동 트리거](api/using/triggering-a-signal-activity.md)
+   + 조직 단위 관리 {#managing-organizational-units}
+      + [프로필의 조직 단위 검색](api/using/retrieving-an-organizational-unit.md)
+      + [프로필의 조직 구성 단위 업데이트](api/using/updating-profile-organizational-unit.md)
+      + [조직 단위 속성 업데이트](api/using/updating-organizational-unit-attributes.md)
+   + 지리적 단위 관리 {#managing-geographical-units}
+      + [프로필의 지리적 단위 검색](api/using/retrieving-a-geographical-unit.md)
+      + [프로필의 지리적 단위 업데이트](api/using/updating-a-geographical-unit.md)
+      + [지역 단위 속성 갱신](api/using/updating-geographical-unit-attributes.md)
    + [문제 해결](api/using/troubleshooting.md)
