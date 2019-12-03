@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 554bf4a441a0fb4daea3c5eddd95b0197ca12ae6
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
@@ -24,8 +24,8 @@ Adobe Campaign REST API에 사용할 수 있는 끝점:
 * **/profileAndServices**:즉시 사용 가능한 필드와 상호 작용 이 끝점에서 확장 필드에 액세스할 수 없습니다.
 * **/profileAndServicesExt**:프로필 또는 서비스 사용자 지정 리소스 확장 중에 추가된 사용자 정의 필드와 상호 작용합니다. For more on custom resources, refer to [this section](../../api/using/custom-resources.md).
 * **/&lt;transactionalAPI&gt;**:트랜잭션 메시지 API와 상호 작용(API 끝점의 이름은 인스턴스 구성에 따라 다름) For more on this, refer to [this section](../../api/using/managing-transactional-messages.md).
-* **/workflow/execution**:워크플로우와 인터랙션 For more on this, refer to [this section](../../api/using/managing-workflows.md).
-* **/privacy/privacy도구**:개인정보 보호 API와 상호 작용하여 개인 정보 보호 요청의 자동 프로세스를 허용합니다. For more on this, refer to [this section](../../api/using/privacy-management.md).
+* **/workflow/execution**:워크플로우와 인터랙션 For more on this, refer to [this section](../../api/using/controlling-a-workflow.md).
+* **/privacy/privacy도구**:개인정보 보호 API와 상호 작용하여 개인 정보 보호 요청의 자동 프로세스를 허용합니다. For more on this, refer to [this section](../../api/using/creating-a-privacy-request.md).
 * **/history**:프로파일의 마케팅 내역을 검색합니다. Campaign의 통합 고객 프로파일에 대한 자세한 내용은 Campaign [설명서를](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)참조하십시오.
 
 profileAndServices 및 profileAndServicesExt API에 사용할 수 있는 기본 **리소스는** 기본적으로 **다음과** 같습니다.
