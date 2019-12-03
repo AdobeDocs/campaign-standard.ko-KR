@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 REST API를 사용하면 워크플로우를 **시작**, **일시 중지**, **다시 시작** 및 **중지할** 수 있습니다.
 
-API 설명서에서 REST 호출에 대한 자세한 내용 및 예를 확인할 [수 있습니다.](../../api/using/managing-workflows.md)
+API 설명서에서 REST 호출에 대한 자세한 내용 및 예를 확인할 [수 있습니다.](../../api/using/controlling-a-workflow.md)
 
 ## 라이프 사이클 {#life-cycle}
 
