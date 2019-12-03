@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -67,7 +67,7 @@ GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제
 
 이메일 디자이너와 링크의 스타일을 지정하는 방법을 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../designing/using/styles.md#about-styling-links)
 
-개인 정보와 관련된 정보가 API 문서에 추가되었습니다. [여기를 클릭하십시오.](../../api/using/privacy-management.md)
+개인 정보와 관련된 정보가 API 문서에 추가되었습니다. [여기를 클릭하십시오.](../../api/using/creating-a-privacy-request.md)
 
 ## 설명서 업데이트 - 2019년 10월 {#doc-updates-october-2019}
 
@@ -429,7 +429,7 @@ EU 개인 정보 보호 규정(GDPR) - [자세한 내용](https://docs.campaign.
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-7}
 
-GDPR API는 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그룹화합니다. [자세한 내용](../../api/using/privacy-management.md)
+GDPR API는 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그룹화합니다. [자세한 내용](../../api/using/creating-a-privacy-request.md)
 
 수신자에게 블랙리스트에 추가될 수 있는 기능을 제공하기 위해 랜딩 페이지를 설정하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -503,7 +503,7 @@ SMS 자동 회신 사용 방법에 대한 단계별 사용 사례를 추가했�
 
 시간대에 최적화된 전달 - [자세한 내용](../../automating/using/scheduler.md)
 
-API 신호 활동 트리거 - [자세한 내용](../../api/using/managing-workflows.md)
+API 신호 활동 트리거 - [자세한 내용](../../api/using/triggering-a-signal-activity.md)
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-9}
 
@@ -553,7 +553,7 @@ Adobe Marketing Cloud [Mobile SDK를 모바일 앱과 통합하여 Adobe Campaig
 
 SMS 설명서가 SMS 자동 회신 [섹션에](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 몇 가지 설명이 추가되어 업데이트되었습니다.
 
-API를 통한 워크플로우 관리 전용 새로운 섹션 [자세한 내용](../../api/using/managing-workflows.md)
+API를 통한 워크플로우 관리 전용 새로운 섹션 [자세한 내용](../../api/using/controlling-a-workflow.md)
 
 기본 키에 대한 새 섹션과 API의 키로 비즈니스 ID 사용. [자세한 내용](../../api/using/about-campaign-standard-apis.md)
 
