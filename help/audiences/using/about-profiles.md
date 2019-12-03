@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign을 사용하면 전체 라이프사이클 동안 연락처를 관
 
 >[!NOTE]
 >
->Adobe Campaign Standard API를 사용하여 프로필을 사용할 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-profiles.md)참조하십시오.
+>Adobe Campaign Standard API를 사용하여 프로필을 사용할 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/retrieving-profiles.md)참조하십시오.
 
 ![](assets/marketing_history.png)
 
