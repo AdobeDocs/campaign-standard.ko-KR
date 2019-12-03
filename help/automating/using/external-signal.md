@@ -13,7 +13,7 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 이 **[!UICONTROL External signal]** 활동은 동일한 고객 여정의 일부인 다양한 프로세스를 다양한 워크플로우로 구성하고 조정하는 데 사용됩니다. 또한 다른 워크플로우에서 워크플로우를 시작하여 보다 복잡한 고객 여정을 지원할 수 있을 뿐만 아니라 문제 발생 시 보다 효과적으로 모니터링하고 대응할 수 있습니다.
 
-활동은 **[!UICONTROL External signal]** 워크플로우의 첫 번째 활동으로 배치되도록 디자인되었습니다. 다른 워크플로우의 **[!UICONTROL End]** 활동 또는 REST API 호출에서 트리거할 수 있습니다(자세한 내용은 API 설명서를 [참조하십시오](../../api/using/managing-workflows.md)).
+활동은 **[!UICONTROL External signal]** 워크플로우의 첫 번째 활동으로 배치되도록 디자인되었습니다. 다른 워크플로우의 **[!UICONTROL End]** 활동 또는 REST API 호출에서 트리거할 수 있습니다(자세한 내용은 API 설명서를 [참조하십시오](../../api/using/triggering-a-signal-activity.md)).
 
 트리거되면 외부 매개 변수를 정의하고 워크플로 이벤트 변수에서 사용할 수 있습니다. 외부 매개 변수를 사용하여 워크플로우를 호출하는 프로세스는 [이 섹션에](../../automating/using/calling-a-workflow-with-external-parameters.md)자세히 설명되어 있습니다.
 
@@ -56,7 +56,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
    >[!NOTE]
    >
-   >다른 워크플로우에서 대상 워크플로우를 트리거하려면 다음 단계를 진행합니다. REST API 호출에서 대상 워크플로우를 트리거하려면 API [설명서를](../../api/using/managing-workflows.md) 참조하십시오.
+   >다른 워크플로우에서 대상 워크플로우를 트리거하려면 다음 단계를 진행합니다. REST API 호출에서 대상 워크플로우를 트리거하려면 API [설명서를](../../api/using/triggering-a-signal-activity.md) 참조하십시오.
 
 1. 소스 워크플로우를 열고 **[!UICONTROL End]** 활동을 선택합니다. 사용할 수 있는 **[!UICONTROL End]** 활동이 없는 경우, 워크플로우의 분기의 마지막 활동 뒤에 활동을 추가합니다.
 
