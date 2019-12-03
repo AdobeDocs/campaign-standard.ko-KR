@@ -12,7 +12,7 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -29,4 +29,4 @@ Adobe Campaign을 사용하면 다음과 같은 일련의 **서비스를**&#x200
 * 가입 및/또는 가입 해지 **확인 메커니즘**.
 * 구독 **내역**.
 
-구독은 Adobe Campaign Standard API를 사용하여 관리할 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-services-and-subscriptions.md) 참조하십시오.
+구독은 Adobe Campaign Standard API를 사용하여 관리할 수도 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/creating-a-service.md) 참조하십시오.
