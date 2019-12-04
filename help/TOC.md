@@ -20,7 +20,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
    + [설명서 업데이트 정보](rn/using/documentation-updates.md)
 + 시작 {#getting-started}
    + Adobe Campaign 기본 정보 {#about-adobe-campaign}
-      + [Campaign 결합](start/using/campaign-orchestration.md)
+      + [캠페인 오케스트레이션](start/using/campaign-orchestration.md)
       + [세분화 및 타겟팅](start/using/segmentation-and-targeting.md)
       + [동적이고 개인화된 콘텐츠](start/using/dynamic-and-personalized-content.md)
       + [추적, 모니터링 및 보고](start/using/tracking--monitoring-and-reporting.md)
@@ -299,15 +299,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
    + 사용 사례: 리소스 확장 {#use-cases--extending-resources}
       + [새 필드로 프로필 리소스 확장](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [구독을 확장해 애플리케이션 리소스로 만들기](developing/using/extending-the-subscriptions-to-an-application-resource.md)
-   + Datamodel {#datamodel}
-      + [고객](developing/using/datamodel-audience.md)
+   + 데이터모델 {#datamodel}
+      + [대상자](developing/using/datamodel-audience.md)
       + [캠페인](developing/using/datamodel-campaign.md)
-      + [전달](developing/using/datamodel-delivery.md)
+      + [게재](developing/using/datamodel-delivery.md)
       + [랜딩 페이지](developing/using/datamodel-landingpage.md)
-      + [마케팅 내역](developing/using/datamodel-history.md)
+      + [마케팅 이력](developing/using/datamodel-history.md)
       + [프로필](developing/using/datamodel-profile.md)
       + [프로그램](developing/using/datamodel-program.md)
-      + [시드 멤버](developing/using/datamodel-seed.md)
+      + [초기 멤버](developing/using/datamodel-seed.md)
       + [서비스](developing/using/datamodel-service.md)
       + [구독 이벤트](developing/using/datamodel-subscription.md)
       + [추적 로그](developing/using/datamodel-tracking.md)
@@ -346,18 +346,18 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 + API 작업 {#working-with-apis}
    + Campaign Standard API 정보 {#about-campaign-standard-apis}
       + [개요](api/using/about-campaign-standard-apis.md)
-      + [Campaign Standard API를 사용하는 이유](api/using/why-using-campaign-standard-apis.md)
+      + [Campaign Standard API의 장점](api/using/why-using-campaign-standard-apis.md)
       + [API 액세스 설정](api/using/setting-up-api-access.md)
-   + 글로벌 개념 {#global-concepts}
-      + [필수 읽기](api/using/must-read.md)
-      + [끝점](api/using/endpoints.md)
+   + 전반적 개념 {#global-concepts}
+      + [반드시 알아야 할 사항](api/using/must-read.md)
+      + [엔드포인트](api/using/endpoints.md)
       + [메타데이터 메커니즘](api/using/metadata-mechanism.md)
       + [동사](api/using/verbs.md)
       + 추가 작업 {#additional-operations}
          + [정렬](api/using/sorting.md)
          + [필터링](api/using/filtering.md)
-         + [카운트](api/using/counting.md)
-         + [페이지 매김](api/using/pagination.md)
+         + [카운팅](api/using/counting.md)
+         + [쪽 매기기](api/using/pagination.md)
       + [사용자 정의 리소스](api/using/custom-resources.md)
    + [사용자 정의 리소스와 상호 작용](api/using/interacting-with-custom-resources.md)
    + 프로필 관리 {#managing-profiles}
@@ -383,7 +383,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [프로필의 조직 단위 검색](api/using/retrieving-an-organizational-unit.md)
       + [프로필의 조직 구성 단위 업데이트](api/using/updating-profile-organizational-unit.md)
       + [조직 단위 속성 업데이트](api/using/updating-organizational-unit-attributes.md)
-   + 지리적 단위 관리 {#managing-geographical-units}
+   + 지리 단위 관리 {#managing-geographical-units}
       + [프로필의 지리적 단위 검색](api/using/retrieving-a-geographical-unit.md)
       + [프로필의 지리적 단위 업데이트](api/using/updating-a-geographical-unit.md)
       + [지역 단위 속성 갱신](api/using/updating-geographical-unit-attributes.md)
