@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 554bf4a441a0fb4daea3c5eddd95b0197ca12ae6
+source-git-commit: 4f7217a114454781b9e7cca261fd2d47717f3636
 
 ---
 
@@ -27,6 +27,10 @@ Adobe Campaign Standard API를 사용하면 다음 기능에 액세스할 수 �
 * 서비스 구독 관리
 * 트랜잭션 메시지 보내기
 * 사용자 정의된 데이터 모델에서 데이터 검색
+
+>[!NOTE]
+>
+>API 호출을 수행하기 전에 라이선스 계약에 해당하는 크기 제한 사항을 확인하십시오. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
 Campaign Standard API를 사용하려면 Adobe I/O 계정이 필요합니다. 이 단계는 API 기능을 계속 진행하여 검색하기 위한 필수 첫 번째 단계입니다.
 For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
