@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
 
 ---
 
@@ -62,7 +62,7 @@ HTML의 전체 또는 일부에 이러한 태깅이 없는 경우 컨텐츠가 '
 
 이메일 디자이너 내에서 기존 외부 컨텐츠를 완전히 편집할 수 있게 하려면 [기존 컨텐츠를](../../designing/using/using-existing-content.md) 사용하여 이메일 디자인 섹션을 참조하십시오.
 
-## 가져오기 {#importing}
+## 기존 이메일 컨텐츠 가져오기 {#importing}
 
 ### 파일에서 콘텐트 가져오기 {#importing-content-from-a-file}
 
@@ -211,7 +211,7 @@ URL에서 기존 컨텐츠를 검색하려면 아래 단계를 따르십시오.
 1. 구조 구성 요소를 추가합니다. 자세한 내용은 이메일 [구조](../../designing/using/designing-from-scratch.md#defining-the-email-structure)편집을 참조하십시오.
 1. HTML 구성 요소를 추가합니다. 자세한 내용은 조각 및 [구성 요소](../../designing/using/designing-from-scratch.md#defining-the-email-structure)추가를 참조하십시오.
 1. HTML을 해당 구성 요소에 복사하여 붙여 넣습니다.
-1. 모바일 보기로 전환합니다. 자세한 내용은 [이 섹션을](../../designing/using/styles.md#switching-to-mobile-view)참조하십시오.
+1. 모바일 보기로 전환합니다. 자세한 내용은 [이 섹션을](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)참조하십시오.
 
    CSS가 없으므로 반응형 보기가 끊어집니다.
 
@@ -228,6 +228,15 @@ URL에서 기존 컨텐츠를 검색하려면 아래 단계를 따르십시오.
 
    >[!NOTE]
    >
-   >이메일 디자이너가 생성한 CSS는 수정하지 마십시오. `<style acrite-template-css="true">` 및 `<style acrite-custom-styles="" type="text/css">`Adobe 이 후에 스타일을 추가해야 합니다.
+   >이 스타일 뒤에 다른 사용자 지정 스타일 태그에 스타일을 추가해야 합니다.
+   >
+   >이메일 디자이너가 생성한 CSS는 수정하지 마십시오.
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
+
 
 1. 모바일 보기로 돌아가 콘텐츠가 올바르게 표시되는지 확인하고 변경 내용을 저장합니다.
