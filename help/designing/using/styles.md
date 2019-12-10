@@ -1,27 +1,25 @@
 ---
 title: 스타일 관리
 description: 이메일 디자이너에서 이메일 스타일을 관리하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 디자인
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ---
 
 
 # 스타일 관리 {#managing-styles}
 
-## 이메일 스타일 편집{#editing-email-styles}
-
-### 요소 편집 {#editing-an-element}
+## 요소 편집 {#editing-an-element}
 
 이메일 디자이너의 요소를 선택할 때 선택한 컨텐츠 유형과 관련된 몇 가지 옵션이 **[!UICONTROL Settings]** 창에 표시됩니다. 이러한 옵션을 사용하여 이메일 스타일을 손쉽게 변경할 수 있습니다.
 
@@ -49,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 이 [섹션의](#example--adjusting-vertical-alignment-and-padding)예를 참조하십시오.
 
-### 스타일 설정 조정 {#adjusting-style-settings}
+## 스타일 설정 조정 {#adjusting-style-settings}
 
 1. 이메일에서 요소를 선택합니다. 자세한 내용은 요소 [선택을](#selecting-an-element)참조하십시오.
 1. 필요에 따라 설정을 조정합니다. 선택한 각 요소는 다른 설정 세트를 제공합니다.
@@ -62,7 +60,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 콘텐츠를 저장합니다.
 
-### 패딩 및 여백 정보 {#about-padding-and-margin}
+## 패딩 및 여백 정보 {#about-padding-and-margin}
 
 이메일 디자이너 인터페이스를 사용하면 패딩 및 여백 설정을 신속하게 조정할 수 있습니다.
 
@@ -88,7 +86,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/des_padding_lock_icon.png)
 
-### 정렬 정보 {#about-alignment}
+## 스타일 정렬 {#about-alignment}
 
 * **텍스트 정렬**:텍스트 위에 마우스 커서를 놓고 상황에 맞는 툴바를 사용하여 텍스트를 정렬할 수 있습니다.
 
@@ -102,7 +100,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/des_set_vertical_alignment.png)
 
-### 배경 정보 {#about-backgrounds}
+## 배경 설정 {#about-backgrounds}
 
 이메일 디자이너와 배경을 설정하는 방법은 다음과 같습니다.
 
@@ -144,7 +142,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    열 수준에서 배경 이미지를 설정할 수도 있지만 거의 사용되지 않습니다.
 
-#### 예:세로 정렬 및 패딩 조정 {#example--adjusting-vertical-alignment-and-padding}
+### 예:세로 정렬 및 패딩 조정 {#example--adjusting-vertical-alignment-and-padding}
 
 3개의 열로 구성된 구조 구성 요소 내에서 패딩 및 세로 정렬을 조정할 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
 
@@ -173,7 +171,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 변경 내용을 저장합니다.
 
-### 스타일 지정 링크 정보 {#about-styling-links}
+## 스타일 지정 링크 {#about-styling-links}
 
 >[!NOTE]
 >
@@ -201,7 +199,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 변경 내용을 저장합니다.
 
-### 인라인 스타일 특성 추가 {#adding-inline-styling-attributes}
+## 인라인 스타일 특성 추가 {#adding-inline-styling-attributes}
 
 이메일 디자이너 인터페이스에서 요소를 선택하고 사이드 패널에 해당 설정을 표시하면 해당 특정 요소에 대한 인라인 특성 및 해당 값을 사용자 정의할 수 있습니다.
 
@@ -218,7 +216,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 모바일 디스플레이를 위한 모든 스타일 옵션을 별도로 편집하여 이메일의 반응형 디자인을 세밀하게 조정할 수 있습니다. 예를 들어 여백과 패딩을 조정하고, 더 작거나 큰 글꼴 크기를 사용하거나, 단추를 변경하거나, 이메일의 모바일 버전에 맞는 다른 배경색을 적용할 수 있습니다.
 
-모든 스타일 옵션은 모바일 보기에서 사용할 수 있습니다. 이메일 디자이너 스타일 설정은 [이메일 스타일](#editing-email-styles) 편집 섹션에 표시됩니다.
+모든 스타일 옵션은 모바일 보기에서 사용할 수 있습니다. 이메일 디자이너 스타일 설정은 이 페이지의 이전에 제공되었습니다.
 
 1. 이메일을 만들고 컨텐츠 편집을 시작합니다. 자세한 내용은 처음부터 [이메일 컨텐츠 디자인을 참조하십시오](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. 전용 모바일 보기에 액세스하려면 **[!UICONTROL Switch to mobile view]** 단추를 선택합니다.
