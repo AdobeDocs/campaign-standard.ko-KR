@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
 
 ---
 
@@ -24,6 +24,14 @@ Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아
 이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/using/release-notes.md).
+
+## 설명서 업데이트 - 2019년 12월 {#doc-updates-december-2019}
+
+S3 외부 계정 구성 설명서를 업데이트했습니다. [자세한 내용](../../administration/using/external-accounts.md#amazon-s3-external-account)
+
+이메일 컨텐츠 디자인 섹션이 재구성되었습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
+
+제공 기능 시작 가이드가 핵심 문서에 통합되어 업데이트되었습니다. [자세한 내용](../../sending/using/about-deliverability.md)
 
 ## 설명서 업데이트 - 2019년 11월 {#doc-updates-november-2019}
 
@@ -289,7 +297,7 @@ Adobe Campaign에서 바로 사용할 수 있는 컨텍스트 기반의 도움�
 
 트랜잭션 이메일의 제품 목록 - [자세한 내용](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-이메일 디자이너의 모바일 뷰 - [자세한 내용](../../designing/using/styles.md#switching-to-mobile-view)
+이메일 디자이너의 모바일 뷰 - [자세한 내용](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
 인앱 메시징 베타 개선 - [자세한 내용](../../channels/using/about-in-app-messaging.md)
 
