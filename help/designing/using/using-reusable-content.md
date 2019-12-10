@@ -1,18 +1,18 @@
 ---
 title: '재사용 가능한 컨텐츠 만들기 및 사용 '
 description: 이메일 디자이너를 사용하여 재사용 가능한 이메일 컨텐츠 작성을 시작합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 디자인
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 이메일 컨텐츠 에디션을 마스터하는 방법을 살펴보십시오. 이메일 디자이너를 사용하면 사전 정의된 컨텐츠로 템플릿과 조각을 만들어 다음 게재에 재사용할 수 있습니다.
 
-## 템플릿을 사용하여 디자인 {#designing-templates}
+## 템플릿을 사용하여 이메일 디자인 {#designing-templates}
 
 >[!NOTE]
 >
@@ -203,7 +203,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    >
    >빈 구조 구성 요소가 있는 조각 컨텐츠로 저장하지 마십시오. &gt;조각을 삽입하면 편집할 수 없습니다.
    >
-   >조각에서 [모바일 보기를](../../designing/using/styles.md#switching-to-mobile-view) 사용할 수 없습니다.
+   >조각에서 [모바일 보기를](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) 사용할 수 없습니다.
 
 1. 편집한 후에는 조각을 저장합니다.
 
@@ -249,7 +249,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->조각에서 [모바일 보기를](../../designing/using/styles.md#switching-to-mobile-view) 사용할 수 없습니다. 이메일 모바일 보기를 편집하려면 컨텐츠를 조각으로 저장하기 전에 먼저 편집합니다.
+>조각에서 [모바일 보기를](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) 사용할 수 없습니다. 이메일 모바일 보기를 편집하려면 컨텐츠를 조각으로 저장하기 전에 먼저 편집합니다.
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
