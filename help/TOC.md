@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
 
 ---
 
@@ -117,15 +117,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [이중 옵트인 프로세스 설정](channels/using/setting-up-a-double-opt-in-process.md)
 + 이메일 콘텐츠 디자인 {#designing-content}
    + [Campaign 이메일 디자이너](designing/using/designing-content-in-adobe-campaign.md)
-   + [빠른 시작](designing/using/quick-start.md)
-   + [사용 및 추천](designing/using/overview.md)
+   + [이메일 디자이너 시작하기](designing/using/quick-start.md)
    + [제목란 및 발신자 정의](designing/using/subject-line.md)
-   + [이메일 디자인 기초](designing/using/designing-from-scratch.md)
-   + [기존 콘텐츠를 사용한 이메일 디자인](designing/using/using-existing-content.md)
-   + [재사용 가능 콘텐츠를 사용한 이메일 디자인](designing/using/using-reusable-content.md)
-   + [멀티 솔루션 이메일 디자인](designing/using/using-integrations.md)
-   + [개인화](designing/using/personalization.md)
-   + [일반 텍스트 및 HTML 모드](designing/using/plain-text-html-modes.md)
+   + 이메일 콘텐츠 디자인{#designing-email-content}
+      + [이메일 디자인 기초](designing/using/designing-from-scratch.md)
+      + [기존 콘텐츠를 사용한 이메일 디자인](designing/using/using-existing-content.md)
+      + [재사용 가능 콘텐츠를 사용한 이메일 디자인](designing/using/using-reusable-content.md)
+      + [멀티 솔루션 통합을 사용하여 이메일 디자인](designing/using/using-integrations.md)
+      + [일반 텍스트, HTML 및 모바일 이메일 편집](designing/using/plain-text-html-modes.md)
+   + [이메일 컨텐츠 개인화](designing/using/personalization.md)
    + [이메일 스타일 관리](designing/using/styles.md)
    + [링크 관리](designing/using/links.md)
    + [이미지 관리](designing/using/images.md)
@@ -150,6 +150,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [게재 실패 시 경고 받기](sending/using/receiving-alerts-when-failures-happen.md)
       + [게재 실패 이해](sending/using/understanding-delivery-failures.md)
       + [스팸 차단 관리 이해](sending/using/understanding-quarantine-management.md)
+   + 전달 능력 관리 {#managing-deliverability}
+      + [전달 정보](sending/using/about-deliverability.md)
+      + [새 플랫폼 시작](sending/using/starting-new-platform.md)
+      + [이메일 컨텐츠 제어](sending/using/control-email-content.md)
+      + [평판 향상](sending/using/improving-reputation.md)
+      + [화이트 리스트](sending/using/whitelists.md)
+      + [기술 추천](sending/using/technical-recommendations.md)
+      + [전달 능력 모니터링](sending/using/monitor-deliverability.md)
+      + [문제 해결](sending/using/troubleshooting.md)
 + 보고 {#reporting}
    + 보고 기본 정보 {#about-reporting}
       + [동적 보고서 기본 정보](reporting/using/about-dynamic-reports.md)
