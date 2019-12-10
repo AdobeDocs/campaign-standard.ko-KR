@@ -1,37 +1,42 @@
 ---
-title: 빠른 시작 이메일 컨텐츠 디자인
+title: 이메일 디자이너 시작하기
 description: 이메일 디자이너를 사용하여 이메일 컨텐츠 작성을 시작합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 디자인
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 
 ---
 
-# 빠른 시작 이메일 컨텐츠 디자인{#quick-start}
+# 이메일 디자이너 시작하기 {#quick-start}
 
 이메일 디자이너는 이메일을 만드는 네 가지 방법을 제공합니다.
 
-새로 시작하는 이메일을 만들 수 있습니다.
+이메일 디자이너에서 새로 [시작하는 이메일을 만들 수 있습니다](#without-existing-content).
 
 * 구조 및 컨텐츠 구성 요소를 손쉽게 추가하여 빈 캔버스에서 이메일을 만들고 컨텐츠를 개인화하여 신속하게 전달할 수 있습니다. 스타일 요소를 완벽하게 관리할 수도 있습니다. 자세한 내용은 [빠르게](#from-scratch-email) 시작하거나 [전체 설명서를](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)참조하십시오.
 
 * 템플릿을 선택하고 여기에서 새 이메일 컨텐츠를 작성하여 바로 사용할 수 있는 템플릿에서 이메일을 만들 수 있습니다. [자세한 내용](#building-content-from-an-out-of-the-box-template)
 
-기존 컨텐츠가 있는 이메일을 만들 수도 있습니다.
+기존 컨텐츠가 [있는 이메일을](#with-existing-content)만들 수도 있습니다.
 
 * 기존 HTML 컨텐츠(외부에서 또는 레거시 편집기에서 작성)를 변환할 수 있습니다. [자세한 내용](#converting-an-html-content)
-* 호환성 모드에서 기존 HTML 컨텐츠를 바로 가져올 수 있습니다. [자세한 내용](#compatibility-mode)
+* 호환성 모드에서 기존 HTML 콘텐츠를 바로 가져올 수 있습니다. [자세한 내용](#compatibility-mode)
 
-## 기존 컨텐츠 없음 {#without-existing-content}
+| 컨텐츠 없이 | 컨텐츠 사용 |
+|---|---|
+| 처음부터 이메일 만들기 | 기존 HTML 컨텐츠 변환 |
+| 기본 템플릿에서 컨텐츠 작성 | 기존 HTML 가져오기 |
+
+## 편집기를 사용하여 이메일 디자인 {#without-existing-content}
 
 ### 처음부터 이메일 만들기 {#from-scratch-email}
 
@@ -63,7 +68,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 이미지, 텍스트 및 버튼과 같은 여러 컨텐츠 구성 요소를 이메일에 추가할 수 있습니다. 자세한 내용은 컨텐츠 구성 [요소를](../../designing/using/designing-from-scratch.md#about-content-components)참조하십시오.
 
-* 이미지
+* **이미지**
 
 1. 컨텐츠 **구성**&#x200B;요소에서 이미지를 드래그하여 구조 구성 요소 중 하나에 놓습니다.
 1. 찾아보기를 **클릭합니다**.
@@ -71,7 +76,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/browse-image-quick-start.png)
 
-* 개인화를 통한 텍스트 제작
+* **개인화를 통한 텍스트 제작**
 
 1. 컨텐츠 **구성**&#x200B;요소에서 텍스트를 드래그하여 구조 구성 요소 중 하나에 놓습니다.
 1. 구성 요소를 클릭하고 텍스트를 입력합니다.
@@ -80,7 +85,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/edit-text-quick-start.png)
 
-* HTML
+* **HTML**
 
 1. 컨텐츠 **구성**&#x200B;요소에서 HTML을 드래그하여 구조 구성 요소 중 하나로 드롭합니다.
 1. 소스 **코드**&#x200B;표시를 클릭합니다.
@@ -123,7 +128,7 @@ HTML에 익숙한 경우 컨텐츠 구성 요소를 사용하여 원래 바닥�
 1. 필요에 따라 각 요소의 컨텐츠를 수정합니다.이미지, 텍스트, 링크.
 1. 필요한 경우 컨텐츠에 스타일 옵션을 적용할 수 있습니다. 자세한 내용은 이메일 [스타일](../../designing/using/styles.md)편집을 참조하십시오.
 
-## 기존 컨텐츠 사용 {#with-existing-content}
+## 기존 이메일 컨텐츠 사용 {#with-existing-content}
 
 여러 이메일에 재사용할 수 있도록 결합할 수 있는 모듈형 템플릿과 단편의 프레임워크를 구축하려면 이메일 HTML을 이메일 디자이너 템플릿으로 변환하는 것이 좋습니다.
 
@@ -171,7 +176,7 @@ HTML에 익숙한 경우 컨텐츠 구성 요소를 사용하여 원래 바닥�
 1. 구조 구성 요소를 추가합니다. 자세한 내용은 이메일 [구조](../../designing/using/designing-from-scratch.md#defining-the-email-structure)편집을 참조하십시오.
 1. HTML 구성 요소를 추가합니다. 자세한 내용은 조각 및 [구성 요소](../../designing/using/designing-from-scratch.md#defining-the-email-structure)추가를 참조하십시오.
 1. HTML을 해당 구성 요소에 복사하여 붙여 넣습니다.
-1. 모바일 보기로 전환합니다. 자세한 내용은 [이 섹션을](../../designing/using/styles.md#switching-to-mobile-view)참조하십시오.
+1. 모바일 보기로 전환합니다. 자세한 내용은 [이 섹션을](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)참조하십시오.
 
    CSS가 없으므로 반응형 보기가 끊어집니다.
 
