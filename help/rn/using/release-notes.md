@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
 
 ---
 
@@ -437,7 +437,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
   </tr> 
   <tr> 
    <td> 모바일 앱용 통합 실행<br /> </td> 
-   <td> <p>이 릴리스에는 Adobe Campaign과 Adobe Experience Platform Launch 및 Mobile SDK의 GA 버전의 Android 및 Adobe Campaign Standard용 iOS 익스텐션이 통합되어 있습니다. 이러한 익스텐션은 푸시 메시지, 인앱 메시지 및 모바일 앱 프로파일 업데이트를 지원합니다.</p><p>  자세한 내용은 <a href="../../administration/using/about-typology-rules.md#typology-rules">자세한 설명서를</a>참조하십시오.</p> </td> 
+   <td> <p>이 릴리스에는 Adobe Campaign과 Adobe Experience Platform Launch 및 Mobile SDK의 GA 버전의 Android 및 Adobe Campaign Standard용 iOS 익스텐션이 통합되어 있습니다. 이러한 익스텐션은 푸시 메시지, 인앱 메시지 및 모바일 앱 프로파일 업데이트를 지원합니다.</p><p>  자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">자세한 설명서를</a>참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 모바일 인앱 메시지<br /> </td> 
@@ -475,7 +475,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 * 모바일 보기에서 편집할 때 모바일 디스플레이에서만 특정 구성 요소를 숨겨 공간을 효율적으로 사용할 수 있습니다.
 
-    자세한 내용은 [자세한 설명서를](../../designing/using/styles.md#switching-to-mobile-view)참조하십시오.
+    자세한 내용은 [자세한 설명서를](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)참조하십시오.
 
 * 이제 이미 사용 가능한 채널 위에 있는 이메일 템플릿에 사용자 지정 소셜 채널을 추가할 수 있습니다.
 * 18개 이상의 구조를 사용할 때 구조 메뉴를 아래로 스크롤하지 못하는 문제를 해결했습니다. (CAMP-31173)
@@ -554,7 +554,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
   </tr> 
   <tr> 
    <td> 이메일 디자이너의 모바일 보기<br /> </td> 
-   <td> <p>이제 이메일 컨텐츠를 편집할 때 전용 모바일 보기로 전환할 수 있습니다. 이렇게 하면 여백, 작은 글꼴 크기, 다른 배경색 등과 같은 모바일 디스플레이를 위한 모든 스타일 옵션을 별도로 편집하여 이메일의 반응형 디자인을 세밀하게 조정할 수 있습니다.</p><p>  자세한 내용은 <a href="../../designing/using/styles.md#switching-to-mobile-view">자세한 설명서를</a>참조하십시오.</p> </td> 
+   <td> <p>이제 이메일 컨텐츠를 편집할 때 전용 모바일 보기로 전환할 수 있습니다. 이렇게 하면 여백, 작은 글꼴 크기, 다른 배경색 등과 같은 모바일 디스플레이를 위한 모든 스타일 옵션을 별도로 편집하여 이메일의 반응형 디자인을 세밀하게 조정할 수 있습니다.</p><p>  자세한 내용은 <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">자세한 설명서를</a>참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 인앱 메시징 베타 개선 사항<br /> </td> 
