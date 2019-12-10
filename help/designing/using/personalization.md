@@ -1,23 +1,23 @@
 ---
-title: 개인화
+title: 이메일 컨텐츠 개인화
 description: 이메일 디자이너에서 이메일을 개인화하는 방법을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 디자인
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
 
-# 개인화 {#personalization}
+# 이메일 컨텐츠 개인화 {#personalization}
 
 Adobe Campaign에서 제공하는 컨텐츠 및 메시지 표시는 여러 가지 방법으로 개인화할 수 있습니다. 이러한 방법은 프로파일에 따라 기준에 따라 결합할 수 있습니다. 일반적으로 Adobe Campaign을 사용하면 다음 작업을 수행할 수 있습니다.
 
