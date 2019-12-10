@@ -1,19 +1,19 @@
 ---
 title: 게재 처리량
 description: Delivery throughput out-of-the-box 보고서를 사용하면, 배달의 성공에 대해 학습합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 51888b63-f507-43ea-8faf-5b3c00eb1800
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보고
+audience: reporting
 content-type: reference
-topic-tags: 보고서 목록
-discoiquuid: 394402ac-0290-4 파섹
+topic-tags: list-of-reports
+discoiquuid: 394402ac-0290-41e7-a8e2-e7cdd9addf28
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 
 ---
 
@@ -26,4 +26,3 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 재시도 횟수가 가장 많은 5회 게재를 보여주는 **[!UICONTROL Top 5 deliveries]** 테이블 및 보완적 요약 번호입니다.
 
 ![](assets/delivery_reports_1.png)
-
