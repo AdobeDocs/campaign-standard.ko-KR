@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 68921819a5335626e45678ec569172ffef46a636
 
 ---
 
@@ -105,7 +105,11 @@ Amazon S3 서버 필드는 다음과 같이 채워야 합니다.
 
 필요한 정보는 일반적으로 연결 중인 서버 공급자가 제공합니다.
 
-종단점에 **[!UICONTROL AWS Region]** 연결된 항목을 지정합니다. 공식 Amazon S3 설명서에서 [지원되는 지역 및 서명 버전을 확인할](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) 수 있습니다.
+종단점에 **[!UICONTROL AWS Region]** 연결된 항목을 지정합니다. 공식 Amazon S3 설명서에서 [지원되는 지역 및 서명 버전을 확인할](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)수 있습니다.
+
+>[!NOTE]
+>
+>AWS 리전 없이 **[!UICONTROL Receiver server]** 입력해야 하며 나중에 URL에 자동으로 추가됩니다.
 
 ### Amazon S3 계정 권장 사항 {#amazon-s3-account-recommendations}
 
