@@ -1,22 +1,25 @@
 ---
 title: 'Adobe Campaign 통합을 통해 이메일 디자인 '
 description: 이메일 디자이너의 Adobe Campaign 통합을 통해 이메일을 디자인하는 방법을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 디자인
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
 
 ---
 
+
 # 멀티 솔루션 이메일 디자인 {#multi-solution-email-design}
+
+Adobe Campaign은 다양한 이메일 작성 옵션을 제공합니다. Dreamweaver와 같은 솔루션을 사용하여 이메일 컨텐츠를 편집하고 이메일 디자이너에서 응답형 메시지를 만들 수 있습니다. 또한 Adobe Experience Manager를 사용하여 콘텐츠를 이메일로 전송하고 Adobe Campaign Standard의 이메일에 사용할 수 있습니다.
 
 ## Dreamweaver에서 컨텐츠 편집 {#editing-content-in-dreamweaver}
 
@@ -99,36 +102,44 @@ Adobe Campaign은 다양한 이메일 작성 옵션을 제공합니다. 아래 �
   <tr> 
    <td> <strong>이점</strong><br /> </td> 
    <td> 
-     - 드래그 앤 드롭 경험을<br/>통한 간편한 이메일 제작 - 기존 컨텐츠 편집기와<br/>유사한 기능 - 조각을 사용한 재사용 가능한 컨텐츠
+     <p>- 드래그 앤 드롭 방식으로 손쉽게 이메일 제작</p>
+     <p>- 기존 컨텐츠 편집기와 유사한 기능</p>
+     <p>- 조각을 사용한 재사용 가능한 컨텐츠</p>
   </td> 
    <td> 
-     - 이메일에서<br/>웹 사이트의 에셋 재사용 - 이메일 컨텐츠에서 Adobe Experience Manager 활용
+     <p>- 이메일에서 웹 사이트의 에셋 재사용</p>
+     <p>- 이메일 컨텐츠에 Experience Manager의 강력한 기능 활용</p>
     </td> 
    <td> 
-    - 개발자가 직접 이메일을<br/>코딩할 수 있는 기능 - 양방향 동기화<br/>- Dreamweaver에서 오프라인으로 편집하고 나중에<br/>동기화 - Dreamweaver를 통해 Adobe Campaign에 이미지 업로드
+    <p>- 개발자가 직접 이메일을 코딩하는 기능</p>
+    <p>- 양방향 동기화</p>
+    <p>- Dreamweaver에서 오프라인으로 편집 및 나중에 동기화</p>
+    <p>- Dreamweaver를 통해 Adobe Campaign에 이미지 업로드</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>제한 사항</strong><br /> </td> 
    <td> 
-     - 조각<br/>내에 조건부 컨텐츠 없음 - Experience Manager 조각 사용을 할 수 없습니다.
+     <p>- 조각 내에 조건부 컨텐츠 없음</p>
+     <p>- Adobe Experience Manager 조각 사용 불가</p>
   </td> 
    <td> 
-     - 구현하기<br/>어려운 고급 개인화 - Adobe Campaign에서 테스트를 전송해야 함
+     <p>- 고급 개인화를 구현하기 어려움</p>
+     <p>- Adobe Campaign에서 테스트 보내기 필요</p>
   </td> 
    <td> 동적 콘텐츠가 지원되지 않음<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>고객</strong><br /> </td> 
+   <td> <strong>대상자</strong><br /> </td> 
    <td> 드래그 앤 드롭 기능과 함께 HTML 구성 요소를 유연하게 사용하려는 마케터<br /> </td> 
    <td> 마케터는 이미 Adobe Experience Manager를 사용하여 개인화를 거의 하지 않고 표준 이메일 템플릿을 사용하고 있습니다.<br /> </td> 
    <td> 이메일 컨텐츠를 코딩하고 Adobe Campaign과 직접 통합하려는 개발자<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>자세한 내용</strong><br /> </td> 
-   <td> 이메일 <a href="../../designing/using/overview.md">디자이너 정보 보기</a><br /> </td> 
-   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
-   <td> Dreamweaver <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">및 Campaign</a> 보기 및 이 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">비디오 보기</a><br /> </td> 
+   <td> 이메일 <a href="../../designing/using/overview.md">디자이너 정보를 참조하십시오</a>.<br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
+   <td> Dreamweaver <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">및 Campaign</a> 을 참조하고 이 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">비디오를</a>시청하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
