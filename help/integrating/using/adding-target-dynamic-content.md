@@ -1,18 +1,18 @@
 ---
 title: Target 다이내믹 콘텐츠 추가
 description: Adobe Campaign 게재 중 하나에서 Adobe Target 동적 컨텐츠를 추가하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 통합
+audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -26,8 +26,8 @@ Adobe Target과의 통합을 통해 동적 이미지를 전달에 추가하여 �
 Adobe Campaign에서 이미지에 액세스하려면 먼저 Adobe Target에서 다음 작업을 수행해야 합니다.
 
 * 사용할 이미지의 URL을 지정해야 하는 하나 이상의 [리디렉션 오퍼를](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html)만듭니다.
-* 하나 또는 여러 [대상을](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html)만들어 활동 대상을 정의합니다.
-* 양식 [기반 경험 작성기](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) 활동을 만듭니다. 이 활동을 만들려면 rawbox를 선택하고 생성된 리디렉션 오퍼 수에 따라 여러 경험을 지정해야 합니다. 각 경험에 대해 생성된 리디렉션 오퍼 중 하나를 선택해야 합니다.
+* 하나 또는 여러 [대상을](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)만들어 활동 대상을 정의합니다.
+* 양식 [기반 경험 작성기](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) 활동을 만듭니다. 이 활동을 만들려면 rawbox를 선택하고 생성된 리디렉션 오퍼 수에 따라 여러 경험을 지정해야 합니다. 각 경험에 대해 생성된 리디렉션 오퍼 중 하나를 선택해야 합니다.
 * Adobe Campaign의 정보를 사용하여 세그먼트를 만들어 경험을 지정합니다. 오퍼의 선택 규칙에서 Adobe Campaign의 데이터를 사용하려면 Adobe Target의 rawbox에 데이터를 지정해야 합니다.
 
 1. 이메일 배달 만들기
@@ -54,6 +54,6 @@ Adobe Campaign에서 이미지에 액세스하려면 먼저 Adobe Target에서 �
 **관련 항목:**
 
 * [Adobe Target 포털](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
-* [이메일 컨텐츠 디자인 정보](../../designing/using/overview.md)
+* [이메일 컨텐츠 디자인 정보](../../designing/using/designing-content-in-adobe-campaign.md)
 * [실시간 비디오로 이메일 이미지](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) 개인화
 
