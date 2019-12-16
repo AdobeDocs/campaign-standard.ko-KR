@@ -12,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
+source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
 
 ---
 
@@ -47,7 +47,7 @@ Audience Manager(AAM) 또는 People 핵심 서비스 통합을 통해 Adobe Camp
   </tr> 
   <tr> 
    <td> <strong>AAM 또는 사용자 서비스</strong><br /> </td> 
-   <td> 예:Adobe Audience Manager </td> 
+   <td> 예:Adobe Audience Manager. Audience Manager 라이선스를 보유하고 있는지 여부와 상관없이 프로비저닝 팀에 문의하십시오.</td> 
   </tr> 
   <tr> 
    <td> <strong>선언된 ID 또는 방문자 ID</strong><br /> </td> 
@@ -59,18 +59,6 @@ Audience Manager(AAM) 또는 People 핵심 서비스 통합을 통해 Adobe Camp
   </tr> 
  </tbody> 
 </table>
-
-* **[!UICONTROL Declared ID]** 모든 공유 대상 통합에 대해 작동합니다. People 코어 서비스를 사용하는 경우 솔루션 사용에 따라 변경될 **[!UICONTROL Declared ID]** 수 있습니다.
-
-* 대상이 Adobe Campaign에서 Adobe Target으로 공유되는 경우, 핵심 서비스를 통해 프로비저닝할 **[!UICONTROL Declared ID]** 수 있습니다.
-* People 코어 서비스를 통해 Adobe Campaign에서 Ad Cloud로 대상을 공유하는 경우, 대상자의 과거 채우기에 **[!UICONTROL Declared ID]** 프로비전을 사용할 수 없습니다. 대상을 빌드할 때 일부 지연이 예상됩니다.
-* 대상자가 Adobe Analytics에서 People 코어 서비스를 통해 Adobe Campaign으로 공유되는 경우, 세그먼트는 Adobe Campaign에서 다음으로 채워지지 않습니다 **[!UICONTROL Declared ID]**.
-
->[!NOTE]
->
->사람 코어 서비스 대신 Adobe Audience Manager를 사용하는 경우 모든 시나리오에서 **[!UICONTROL Declared ID]** 작동합니다.
-
-You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Adobe Campaign에서 통합 구성 {#configuring-the-integration-in-adobe-campaign}
 
