@@ -1,19 +1,19 @@
 ---
 title: 이메일 게재
 description: 이메일 배달 활동을 사용하면 워크플로우에서 하나의 이메일 전송 또는 반복 이메일을 보내도록 구성할 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
-topic-tags: 채널 활동
-discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-801026054bb
-context-tags: 전달,워크플로,기본
+topic-tags: channel-activities
+discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
+context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 이메일 유형을 선택합니다. 이메일 유형은 **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** 메뉴에 정의된 이메일 템플릿에서 가져옵니다.
 1. 이메일의 일반 속성을 입력합니다. 기존 캠페인에 연결할 수도 있습니다. 워크플로우의 배달 활동의 레이블이 이메일 레이블로 업데이트됩니다.
-1. 이메일 컨텐츠를 정의합니다. 컨텐츠 [편집에](../../designing/using/overview.md)대한 섹션을 참조하십시오.
+1. 이메일 컨텐츠를 정의합니다. 컨텐츠 [편집에](../../designing/using/designing-content-in-adobe-campaign.md)대한 섹션을 참조하십시오.
 1. 기본적으로 이 **[!UICONTROL Email delivery]** 활동에는 아웃바운드 전환이 포함되지 않습니다. 활동에 아웃바운드 전환을 추가하려면 고급 활동 옵션(활동의 빠른 동작에 있는 **[!UICONTROL Email delivery]** 단추)의 **[!UICONTROL General]** ![](assets/dlv_activity_params-24px.png) 탭으로 이동한 다음 다음 다음 옵션 중 하나를 선택합니다.
 
    * **[!UICONTROL Add outbound transition without the population]**:이를 통해 인바운드 전환과 정확히 동일한 인구를 포함하는 아웃바운드 전환을 생성할 수 있습니다.
