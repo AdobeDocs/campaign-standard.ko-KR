@@ -1,18 +1,18 @@
 ---
 title: '구성 요소 목록 '
 description: 동적 보고서에서 사용할 수 있는 모든 구성 요소 목록과 해당 정의를 참조하십시오.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보고
+audience: reporting
 content-type: reference
-topic-tags: 정보 보고
-discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfed
+topic-tags: about-reporting
+discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
    <td> 받는 사람 프로필에 등록된 국가.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 전달<br /> </td> 
+   <td> 게재<br /> </td> 
    <td> 게재의 레이블 및 ID입니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -459,7 +459,7 @@ source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
   </tr> 
     <tr> 
    <td> 증명 제외<br /> </td> 
-   <td> 보고서에서 교정본 제외(Campaign 19.4 릴리스 시작만 해당)<br /> </td> 
+   <td> 보고서에서 교정본 제외<br /> </td> 
   </tr> 
  </tbody> 
 </table>
