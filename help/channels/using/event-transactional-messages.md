@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -121,7 +121,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 >[!CAUTION]
 >
->제품 목록은 이메일 디자이너 인터페이스를 통해 트랜잭션 이메일 메시지를 편집할 때만 [사용할 수](../../designing/using/overview.md#email-designer) 있습니다.
+>제품 목록은 이메일 디자이너 인터페이스를 통해 트랜잭션 이메일 메시지를 편집할 때만 [사용할 수](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 있습니다.
 
 트랜잭션 메시지에 중단된 제품 목록을 추가하려면 아래 단계를 따르십시오.
 
