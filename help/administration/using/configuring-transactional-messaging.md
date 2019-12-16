@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 전송하려면 먼저 
 **관련 항목:**
 
 * [이벤트 미리 보기 및 게시](#previewing-and-publishing-the-event)
-* [트랜잭션 메시지에서 제품 목록 사용](#using-product-listings-in-a-transactional-message)
+* [트랜잭션 메시지에서 제품 목록 사용](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 ## 트랜잭션 메시지 컨텐츠 강화 {#enriching-the-transactional-message-content}
 
