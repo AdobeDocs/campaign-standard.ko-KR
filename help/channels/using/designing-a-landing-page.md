@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 >[!NOTE]
 >
->Adobe Campaign Standard 19.0 릴리스 전에 인스턴스가 설치된 경우 기존 이메일 컨텐츠 편집기에 액세스할 수 있습니다. 인터페이스, 사용 원칙 및 구성은 랜딩 페이지에 대해 아래에 설명된 것과 거의 동일합니다. 그러나 19.0 릴리스부터 더 이상 사용되지 않는 기존 이메일 컨텐츠 편집기에서 모든 기능을 사용할 수 없거나 유지 관리할 수 없습니다. 다양한 기능을 갖춘 드래그 앤 드롭 인터페이스를 통해 이메일 컨텐츠를 신속하게 편집하려면 이메일 [디자이너를 사용하십시오](../../designing/using/overview.md).
+>Adobe Campaign Standard 19.0 릴리스 전에 인스턴스가 설치된 경우 기존 이메일 컨텐츠 편집기에 액세스할 수 있습니다. 인터페이스, 사용 원칙 및 구성은 랜딩 페이지에 대해 아래에 설명된 것과 거의 동일합니다. 그러나 19.0 릴리스부터 더 이상 사용되지 않는 기존 이메일 컨텐츠 편집기에서 모든 기능을 사용할 수 없거나 유지 관리할 수 없습니다. 다양한 기능을 갖춘 드래그 앤 드롭 인터페이스를 통해 이메일 컨텐츠를 신속하게 편집하려면 이메일 [디자이너를 사용하십시오](../../designing/using/designing-content-in-adobe-campaign.md).
 
 이 페이지에서는 랜딩 페이지 컨텐츠 편집기의 특성에 대해 설명합니다. 하나 이상의 마케팅 활동에 공통되는 작업에 대한 자세한 내용은 이메일 컨텐츠 **디자인** 안내서의 다음 섹션을 참조하십시오.
 
@@ -38,7 +38,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 * [콘텐츠 블록](../../designing/using/personalization.md#adding-a-content-block)추가
 * [링크](../../designing/using/links.md#inserting-a-link)삽입.
 * [이미지](../../designing/using/images.md)삽입
-* [컨텐츠 디자인을](../../designing/using/overview.md#content-design-best-practices)위한 일반적인 모범 사례
+* [컨텐츠 디자인을](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)위한 일반적인 모범 사례
 
 >[!NOTE]
 >HTML 형식으로 이미 사전 정의된 랜딩 페이지가 있는 경우 **[!UICONTROL Change content]** 단추를 사용하여 직접 가져올 수 있습니다.
