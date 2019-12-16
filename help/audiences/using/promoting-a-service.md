@@ -12,7 +12,7 @@ discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -31,4 +31,4 @@ Adobe Campaign을 사용하여 다음과 같은 방법으로 서비스를 홍보
    >
    >가입자에게 가입 해지 가능성을 제공하는 것도 중요하다. 이렇게 하려면 서비스 속성에 <b>정의된 확인 이메일(서비스 속성에 정의)과</b> 향후 뉴스레터 이메일에 서비스 가입 취소 링크를 삽입합니다.
 
-* 웹 사이트에서 구독 또는 구독 취소 랜딩 페이지를 사용할 수 있도록 합니다. 랜딩 페이지에 액세스할 수 있는 URL은 연결된 서비스와 같은 매개 변수와 여기에 액세스하는 프로필 ID를 지정해야 합니다. 이 ID는 랜딩 페이지 매개 변수에 정의할 수 있습니다(랜딩 [페이지](../../channels/using/configuring-landing-page.md#)구성 참조).
+* 웹 사이트에서 구독 또는 구독 취소 랜딩 페이지를 사용할 수 있도록 합니다. 랜딩 페이지에 액세스할 수 있는 URL은 연결된 서비스와 같은 매개 변수와 여기에 액세스하는 프로필 ID를 지정해야 합니다. 이 ID는 랜딩 페이지 매개 변수에 정의할 수 있습니다(랜딩 [페이지](../../channels/using/configuring-landing-page.md)구성 참조).
