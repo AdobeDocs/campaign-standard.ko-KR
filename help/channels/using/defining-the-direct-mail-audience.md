@@ -1,19 +1,19 @@
 ---
 title: DM 대상자 정의
 description: DM 전달 대상을 정의하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 다이렉트 메일
+topic-tags: direct-mail
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
-context-tags: delivery,directMailContent,뒤로
+context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 DM의 경우 대상 프로필은 DM 공급자에게 보낼 추출 파일에 포함될 프로필입니다.
 
-각 대상 프로필에 대해 추출 파일에 새 줄이 추가됩니다. 각 수신자에 대해 포함될 프로파일 정보의 양은 추출 정의 [화면에 정의됩니다](#defining-the-extraction) .
+각 대상 프로필에 대해 추출 파일에 새 줄이 추가됩니다. 각 수신자에 대해 포함될 프로파일 정보의 양은 추출 정의 [화면에 정의됩니다](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) .
 
 >[!CAUTION]
 >
