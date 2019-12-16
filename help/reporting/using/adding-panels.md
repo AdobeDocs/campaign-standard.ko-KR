@@ -1,18 +1,18 @@
 ---
 title: 패널 추가
 description: 동적 보고서를 사용하면 선택한 기간에 따라 패널을 추가하여 데이터를 보다 효과적으로 필터링할 수 있습니다.
-page-status-flag: 활성화 안 함
-uuid: 8e76e837-5epc-4250-8192-dee1a0bd62fe
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보고
+audience: reporting
 content-type: reference
-topic-tags: 사용자 정의 보고서
+topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Campaign 19.4 릴리스를 시작하는 경우 기본적으로 **[!UICONTROL Exclude proof]** 이 이미 선택됩니다. 필요한 경우 탭 중 하나를 상단 막대로 드래그하여 놓아 변경할 **[!UICONTROL Segments]** 수 **[!UICONTROL Components]** 있습니다.
+1. 기본적으로 **[!UICONTROL Exclude proof]** 세그먼트가 이미 선택되어 있습니다. 필요한 경우 탭 중 하나를 상단 막대로 드래그하여 놓아 변경할 **[!UICONTROL Segments]** 수 **[!UICONTROL Components]** 있습니다.
 
    ![](assets/dynamic_report_panel_3.png)
 
