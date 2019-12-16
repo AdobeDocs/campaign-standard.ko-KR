@@ -1,18 +1,18 @@
 ---
 title: 링크 관리
 description: 이메일 디자이너와 링크를 관리하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 디자인
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->아래 이미지는 이메일에 이메일 디자이너를 사용하여 링크를 삽입하는 [방법을](../../designing/using/overview.md) 보여줍니다.
+>아래 이미지는 이메일에 이메일 디자이너를 사용하여 링크를 삽입하는 [방법을](../../designing/using/designing-content-in-adobe-campaign.md) 보여줍니다.
 
 1. 요소를 선택하고 컨텍스트 도구 모음에서 **[!UICONTROL Insert link]** 을 클릭합니다.
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/des_link_edit.png)
 
-이메일 디자이너와 함께 이메일을 편집할 [때](../../designing/using/overview.md)이메일에 포함된 모든 URL을 나열하는 표에서 만든 링크에 쉽게 액세스하고 수정할 수 있습니다. 이 목록을 사용하면 중앙에서 보고 이메일 컨텐츠의 각 URL을 찾을 수 있습니다. 액세스하려면 추적된 [URL 정보를 참조하십시오](#about-tracked-urls).
+이메일 디자이너와 함께 이메일을 편집할 [때](../../designing/using/designing-content-in-adobe-campaign.md)이메일에 포함된 모든 URL을 나열하는 표에서 만든 링크에 쉽게 액세스하고 수정할 수 있습니다. 이 목록을 사용하면 중앙에서 보고 이메일 컨텐츠의 각 URL을 찾을 수 있습니다. 액세스하려면 추적된 [URL 정보를 참조하십시오](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
