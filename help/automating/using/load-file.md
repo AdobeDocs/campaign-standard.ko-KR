@@ -1,24 +1,24 @@
 ---
 title: 파일 로드
 description: 파일 로드 활동을 사용하면 Adobe Campaign에서 이 데이터를 사용하기 위해 구조화된 하나의 양식으로 데이터를 가져올 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
-topic-tags: 데이터 관리 활동
+topic-tags: data-management-activities
 discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
 
-# 파일 로드{#load-file}
+# 파일 로드 {#load-file}
 
 ## 설명 {#description}
 
@@ -80,7 +80,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    이 **[!UICONTROL Column definition]** 탭에서는 오류가 포함되지 않은 데이터(예: null 관리 사용)를 가져와서 이후 작업을 위해 Adobe Campaign 데이터베이스에 이미 있는 유형과 일치하도록 하기 위해 각 열의 데이터 구조를 정확하게 지정할 수 있습니다.
 
-   예를 들어 열의 레이블을 변경하고 해당 유형(문자열, 정수, 날짜 등)을 선택할 수 있습니다.  오류 처리를 지정할 수도 있습니다.
+   예를 들어 열의 레이블을 변경하고 해당 유형(문자열, 정수, 날짜 등)을 선택할 수 있습니다. 오류 처리를 지정할 수도 있습니다.
 
    자세한 내용은 열 [형식](#column-format) 섹션을 참조하십시오.
 
