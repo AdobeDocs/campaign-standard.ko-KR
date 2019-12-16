@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 조정 값에 연결된 모든 정보가 포함된 파일을 검색하려면 다음 3단계 절차를 따르십시오.
 
-1. POST **요청을 수행하여** 속성 **type="access"**&#x200B;로 새 요청을 만듭니다 [.](#creating-a-privacy-request)새 개인 정보 요청만들기를 참조하십시오.
+1. POST **요청을 수행하여** 속성 **type="access"**&#x200B;로 새 요청을 만듭니다 [.](../../api/using/creating-a-privacy-request.md)새 개인 정보 요청만들기를 참조하십시오.
 
 1. GET **요청을** 수행하여 요청에 대한 정보를 검색합니다.
 
