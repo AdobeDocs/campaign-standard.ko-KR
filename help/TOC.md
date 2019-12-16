@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
+source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
 
 ---
 
@@ -279,6 +279,7 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [로그 내보내기](automating/using/exporting-logs.md)
       + [패키지 관리](automating/using/managing-packages.md)
       + [목록 내보내기](automating/using/exporting-lists.md)
+      + [사용 사례:사용자 정의 리소스 내보내기/가져오기](automating/using/exporting-importing-custom-resources.md)
    + 사용 사례:워크플로우 {#workflow-use-case}
       + [보충 자료를 넣어 게재](automating/using/workflow-created-query-with-complement.md)
       + [날짜에 맞춰 게재](automating/using/workflow-creation-date-query.md)
