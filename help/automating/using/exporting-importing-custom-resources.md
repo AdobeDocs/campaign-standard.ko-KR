@@ -12,7 +12,7 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
 * [패키지 배포:운영 원칙](../../developing/using/data-model-concepts.md)
 * [리소스 추가 또는 확장](../../developing/using/key-steps-to-add-a-resource.md)
 
-## 1단계:구조 내보내기 {#exporting-the-structure}
+## 구조 내보내기 {#exporting-the-structure}
 
 이 섹션에서는 사용자 지정 리소스 데이터의 물리적 구조를 자세히 설명하는 첫 번째 패키지 내보내기를 수행합니다.
 
