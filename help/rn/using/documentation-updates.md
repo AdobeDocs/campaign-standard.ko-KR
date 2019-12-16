@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -143,7 +143,7 @@ Adobe Campaign Standard에서 사용자를 만드는 방법을 자세히 설명�
 
 추가 공백이 이메일 컨텐츠 레이아웃에 영향을 줄 수 있는 방법에 대한 경고가 추가되었습니다. [자세한 내용](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-이메일 디자이너의 새로운 권장 업데이트가 추가되었습니다. [자세한 내용](../../designing/using/overview.md#email-designer-updates)
+이메일 디자이너의 새로운 권장 업데이트가 추가되었습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -247,7 +247,7 @@ Dreamweaver 통합 섹션이 업데이트되고 향상되었습니다. [자세�
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-1}
 
-이메일 디자이너를 위한 새로운 온보딩 환경이 이메일 컨텐츠 편집 장에 추가되었습니다. [자세한 내용](../../designing/using/overview.md#email-designer-home-page)
+이메일 디자이너를 위한 새로운 온보딩 환경이 이메일 컨텐츠 편집 장에 추가되었습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 트랜잭션 메시지 제한에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
@@ -293,7 +293,7 @@ Adobe Campaign에서 바로 사용할 수 있는 컨텍스트 기반의 도움�
 
 ### 릴리스에 포함된 새로운 기능 {#new-capabilities-included-in-the-release-2}
 
-이메일 디자이너 일반 가용성 - [자세한 내용](../../designing/using/overview.md)
+이메일 디자이너 일반 가용성 - [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
 트랜잭션 이메일의 제품 목록 - [자세한 내용](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
@@ -303,7 +303,7 @@ Adobe Campaign에서 바로 사용할 수 있는 컨텍스트 기반의 도움�
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-2}
 
-콘텐츠 디자인 가이드가 이메일 디자이너의 일반적인 사용 가능 여부와 기존 이메일 컨텐츠 편집기의 사용 중단을 반영하도록 업데이트되었습니다. [자세한 내용](../../designing/using/overview.md)
+콘텐츠 디자인 가이드가 이메일 디자이너의 일반적인 사용 가능 여부와 기존 이메일 컨텐츠 편집기의 사용 중단을 반영하도록 업데이트되었습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
 인앱 [및 푸시](../../channels/using/about-in-app-messaging.md) 알림 [문서를 업데이트했습니다](../../channels/using/about-push-notifications.md) .
 
@@ -359,7 +359,7 @@ SMS 커넥터 프로토콜 및 설정에 대한 새 기술 문서를 추가했�
 
 Adobe Campaign 설명서와 Experience Manager 통합을 업데이트했습니다. [자세한 내용](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-"콘텐츠 디자인" 가이드는 완전히 재구성되었으며, 특히 이메일에 사용할 컨텐츠를 디자인할 수 있는 두 가지 편집기를 제공합니다. [자세한 내용](../../designing/using/overview.md)
+"콘텐츠 디자인" 가이드는 완전히 재구성되었으며, 특히 이메일에 사용할 컨텐츠를 디자인할 수 있는 두 가지 편집기를 제공합니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
 기존 이메일에서 조각을 만들어 Creative SDK를 통해 외부 컨텐츠를 완전히 편집할 수 있도록 하는 방법을 살펴봅니다. [자세한 내용](../../designing/using/designing-from-scratch.md)
 
@@ -421,7 +421,7 @@ Adobe 호스팅 SFTP 서버 사용에 대한 우수 사례를 알아봅니다. [
 
 트리거와 통합을 위해 지원되는 Analytics SKU 목록이 업데이트되었습니다. [자세한 내용](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-컨텐츠 편집기 설명서의 일부 페이지가 병합되어 사용 가능한 다양한 작업에 대한 보다 포괄적인 보기를 제공합니다. [자세한 내용](../../designing/using/overview.md)
+컨텐츠 편집기 설명서의 일부 페이지가 병합되어 사용 가능한 다양한 작업에 대한 보다 포괄적인 보기를 제공합니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## 릴리스 18.3 - 2018년 3월 {#release-18-3---march-2018}
 
@@ -429,7 +429,7 @@ Adobe 호스팅 SFTP 서버 사용에 대한 우수 사례를 알아봅니다. [
 
 EU 개인 정보 보호 규정(GDPR) - [자세한 내용](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-이메일을 위한 Creative Designer - [자세한 내용](../../designing/using/overview.md)
+이메일을 위한 Creative Designer - [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
 다국어 푸시 배달 - [자세한 내용](../../channels/using/creating-a-multilingual-push-notification.md)
 
@@ -443,7 +443,7 @@ GDPR API는 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그룹
 
 트랜잭션 [메시징](../../administration/using/configuring-transactional-messaging.md) 구성 섹션이 다시 구성되었으며 [단계별 사용 사례가](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 추가되었습니다.
 
-푸시 알림에 사용할 다국어 CSV 파일을 생성하는 방법에 대한 기술 문서를 추가했습니다. [자세한 내용](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)보기
+푸시 알림에 사용할 다국어 CSV 파일을 생성하는 방법에 대한 기술 문서를 추가했습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)보기
 
 DM(Direct Mail) **격리와 배달 로그** 가져오기 템플릿에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/defining-import-templates.md)
 
@@ -751,7 +751,7 @@ URL 변경:사람 핵심 서비스 - [자세한 내용](../../integrating/using/
 
 API 작업:api [확장 사용 사례가](../../developing/using/about-extending-the-api.md) 추가되었습니다. API [설명서를](../../api/using/about-campaign-standard-apis.md)참조하십시오.
 
-캠페인 오류 메시지:버전 및 언어별로 필터링된 Campaign v6 및 Standard의 전체 오류 메시지 목록에 액세스합니다. [자세한 내용](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+캠페인 오류 메시지:버전 및 언어별로 필터링된 Campaign v6 및 Standard의 전체 오류 메시지 목록에 액세스합니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 다중 브랜딩 사용 사례 - [자세한 내용](../../administration/using/branding.md)
 
