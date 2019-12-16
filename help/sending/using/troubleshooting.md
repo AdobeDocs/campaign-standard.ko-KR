@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b2df5ca4d38e35f57815924ffbe0313dc1a22b29
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -52,8 +52,8 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, ISP에�
 **내 IP 중 하나가 블랙리스트에 추가되었는지 어떻게 알 수 있습니까? 내 IP의 블랙 리스트 해제는 어떻게 합니까?**
 
 IP 주소가 블랙리스트에 추가되었는지 확인하려면 다양한 웹 사이트를 사용하여 확인할 수 있습니다.
-* http://mxtoolbox.com/
-* http://whatismyipaddress.com/blacklist-check
+* https://mxtoolbox.com/
+* https://whatismyipaddress.com/blacklist-check
 * http://www.blacklistalert.org/
 
 일반적으로 IP 주소 확인 결과는 블랙 리스트의 세부 사항과 IP 주소를 블랙리스트에 올린 웹 사이트의 이름이 포함된 목록을 반환합니다.
