@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ### 컨텐츠 템플릿 {#content-templates}
 
-이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 제공되는 HTML 콘텐츠를 관리할 [수](../../designing/using/overview.md) 있습니다. 다양한 템플릿은 여러 유형의 요소를 다양하게 조합하여 제공합니다. 예를 들어 '페더' 템플릿에는 여백이 있지만 '아스트로' 템플릿에는 여백이 없습니다. 자세한 내용은 컨텐츠 [템플릿을](#content-templates)참조하십시오.
+이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 제공되는 HTML 콘텐츠를 관리할 [수](../../designing/using/designing-content-in-adobe-campaign.md) 있습니다. 다양한 템플릿은 여러 유형의 요소를 다양하게 조합하여 제공합니다. 예를 들어 '페더' 템플릿에는 여백이 있지만 '아스트로' 템플릿에는 여백이 없습니다. 자세한 내용은 컨텐츠 [템플릿을](#content-templates)참조하십시오.
 
 ![](assets/template_content.png)
 
@@ -52,7 +52,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   이 축소판은 이메일 디자이너 **[!UICONTROL Templates]** 홈 페이지의 [탭에](../../designing/using/overview.md#about-the-email-designer) 표시됩니다.
+   이 축소판은 이메일 디자이너 **[!UICONTROL Templates]** 홈 페이지의 [탭에](../../designing/using/designing-content-in-adobe-campaign.md) 표시됩니다.
 
 1. 탭을 **[!UICONTROL Properties]** 닫아서 주 작업 영역으로 돌아갑니다.
 1. 필요에 따라 사용자 정의할 수 있는 구조 구성 요소 및 컨텐츠 구성 요소를 추가합니다.
@@ -61,7 +61,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
    > 콘텐츠 템플릿 내에는 개인화 필드 또는 조건부 콘텐츠를 삽입할 수 없습니다.
 1. 편집한 후에는 템플릿을 저장합니다.
 
-이제 이메일 디자이너와 함께 작성된 모든 이메일에서 이 템플릿을 사용할 수 있습니다. 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 [선택합니다](../../designing/using/overview.md#about-the-email-designer) .
+이제 이메일 디자이너와 함께 작성된 모든 이메일에서 이 템플릿을 사용할 수 있습니다. 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 [선택합니다](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 ![](assets/content_template_new.png)
 
@@ -83,7 +83,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 1. 방금 만든 템플릿을 찾으려면 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**&#x200B;로 이동합니다.
 
-1. 새 템플릿을 사용하려면 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 [템플릿을](../../designing/using/overview.md#about-the-email-designer) 선택합니다.
+1. 새 템플릿을 사용하려면 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 [템플릿을](../../designing/using/designing-content-in-adobe-campaign.md) 선택합니다.
 
    ![](assets/content_template_new.png)
 
@@ -170,7 +170,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 1. 이메일에 추가해야 하는 모든 요소에 대해 이 절차를 반복합니다.
 1. 이메일 저장
 
-이메일 구조가 채워지면 각 컨텐츠 요소의 스타일을 편집할 수 있습니다. 요소 [편집을 참조하십시오](../../designing/using/styles.md#editing-an-element).
+이메일 구조가 채워지면 각 컨텐츠 요소의 스타일을 편집할 수 있습니다. 요소 [편집을 참조하십시오](../../designing/using/styles.md).
 
 >[!NOTE]
 >
