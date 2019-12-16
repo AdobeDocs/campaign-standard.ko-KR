@@ -1,18 +1,18 @@
 ---
 title: 게재 실패 시 경고 받기
 description: 경고 관리 시스템을 사용하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보내기
+audience: sending
 content-type: reference
-topic-tags: 모니터링 메시지
+topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -263,7 +263,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
    * 격리된 받는 사람과 같은 배달 분석 중에 메시지 대상의 한 부분을 제외하는 필터링 유형 규칙을 만듭니다. 필터링 [규칙](../../administration/using/filtering-rules.md)만들기를 참조하십시오.
    * 고객 데이터베이스를 정기적으로 업데이트하여 철저한 격리 관리 프로세스를 유지할 수 있습니다. 검역을 [참조하십시오](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * 일반적으로 말해서, 가능한 한 최상의 결과물을 얻을 수 있습니다. Adobe Campaign v7 전달 [기능](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 관리 상세 안내서를 참조하고 Adobe Campaign 관리자에게 지원을 문의하십시오.
+   * 일반적으로 말해서, 가능한 한 최상의 결과물을 얻을 수 있습니다. Adobe Campaign 전달 [기능에](../../sending/using/about-deliverability.md) 대한 자세한 설명서를 참조하고 Adobe Campaign 관리자에게 문의하십시오.
 
 
 
