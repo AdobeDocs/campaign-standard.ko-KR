@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f7217a114454781b9e7cca261fd2d47717f3636
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -43,4 +43,4 @@ REST 인터페이스 및 JSON 페이로드와 함께 **표준 개념을** 사용
 
 모든 끝점은 API, 전체 API 참조, 코드 예제 및 빠른 시작 안내선을 조작하기 위해 알아야 하는 일반적인 개념과 함께 이 설명서에서 광범위하게 설명됩니다.
 
-누락되었거나 잘못된 것 같으면 [커뮤니티에](http://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html)문의하십시오.
+누락되었거나 잘못된 것 같으면 [커뮤니티에](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html)문의하십시오.
