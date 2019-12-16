@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
+source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
 * [컨트롤 패널](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * 이전 릴리스 노트: [2018](../../rn/using/release-notes-2018.md)[](../../rn/using/release-notes-2017.md)[,2017,2015-2016](../../rn/using/release-notes-2015-2016.md)
 
-## 릴리스 19.4 - 2019년 10월 {#release-19-4---october-2019}
+## 릴리스 19.4 - 2019년 12월 {#release-19-4---october-2019}
 
 ### What's new? {#what-s-new-5}
 
@@ -81,6 +81,8 @@ source-git-commit: 0ebe0ac4b9d9ba9c24e056cc7e2745e9f69e2004
 
 ### 향상된 이메일 디자이너 {#email-designer-enhancements-4}
 
+* 이메일에 삽입할 때 구독 취소, 구독 및 랜딩 페이지 링크가 추적되지 않는 문제를 해결했습니다. (CAMP-37809)
+* 새 이메일을 만들고 템플릿을 선택할 때 오류가 발생하던 문제를 수정했습니다. (CAMP-38000)
 * 이메일 디자이너를 사용하여 링크를 편집할 때 이제 밑줄 **링크** 옵션을 사용할 수 있습니다. 또한 **Target** 속성이 기본값이 없음으로 설정된 상태로 **추가되었습니다**. [자세한 내용](../../designing/using/styles.md#about-styling-links)
 * 이메일 본문에 있는 텍스트 구성 요소의 링크에 대한 색상 문제를 수정했습니다. (CAMP-37330)
 * 이미지를 삭제할 때 연결된 링크가 제거되지 않는 문제를 해결했습니다. (CAMP-37234)
