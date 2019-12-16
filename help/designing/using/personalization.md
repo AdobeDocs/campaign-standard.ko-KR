@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -61,11 +61,11 @@ Adobe Campaign을 사용하면 데이터베이스의 필드를 프로필의 이�
 
 >[!NOTE]
 >
->아래 이미지는 이메일에 대해 이메일 디자이너를 사용하여 개인화 [필드를](../../designing/using/overview.md) 삽입하는 방법을 보여줍니다.
+>아래 이미지는 이메일에 대해 이메일 디자이너를 사용하여 개인화 [필드를](../../designing/using/designing-content-in-adobe-campaign.md) 삽입하는 방법을 보여줍니다.
 
 컨텐츠에 개인화 필드를 추가하려면:
 
-1. 텍스트 블록 내부를 클릭하고 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]** 아이콘을 클릭한 다음 **[!UICONTROL Insert personalization field]**&#x200B;선택합니다. 이메일 디자이너 인터페이스에 대한 자세한 내용은 [이 섹션을](../../designing/using/overview.md#email-designer-interface)참조하십시오.
+1. 텍스트 블록 내부를 클릭하고 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]** 아이콘을 클릭한 다음 **[!UICONTROL Insert personalization field]**&#x200B;선택합니다. 이메일 디자이너 인터페이스에 대한 자세한 내용은 [이 섹션을](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)참조하십시오.
 
    ![](assets/email_perso_field_1.png)
 
@@ -91,11 +91,11 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 >[!NOTE]
 >
->아래 이미지는 이메일에 이메일 디자이너를 사용하여 컨텐츠 블록을 삽입하는 [방법을](../../designing/using/overview.md) 보여줍니다.
+>아래 이미지는 이메일에 이메일 디자이너를 사용하여 컨텐츠 블록을 삽입하는 [방법을](../../designing/using/designing-content-in-adobe-campaign.md) 보여줍니다.
 
 컨텐츠 블록을 추가하려면:
 
-1. 텍스트 블록 내부를 클릭하고 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]** 아이콘을 클릭한 다음 **[!UICONTROL Insert content block]**&#x200B;선택합니다. 이메일 디자이너 인터페이스에 대한 자세한 내용은 [이 섹션을](../../designing/using/overview.md#email-designer-interface)참조하십시오.
+1. 텍스트 블록 내부를 클릭하고 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]** 아이콘을 클릭한 다음 **[!UICONTROL Insert content block]**&#x200B;선택합니다. 이메일 디자이너 인터페이스에 대한 자세한 내용은 [이 섹션을](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)참조하십시오.
 
    ![](assets/email_content_block_1.png)
 
