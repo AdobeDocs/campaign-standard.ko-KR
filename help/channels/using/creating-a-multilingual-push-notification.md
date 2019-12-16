@@ -1,18 +1,18 @@
 ---
 title: 다국어 푸시 알림 만들기
 description: 다국어 푸시 알림을 만들어 사용자가 원하는 언어와 지역에 맞게 타깃팅할 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 푸시 알림
-discoiquuid: f9bb2235-d388-4 파섹
+topic-tags: push-notifications
+discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 창에서 파일을 드래그 앤 드롭하거나 컴퓨터에서 파일을 선택합니다. **[!UICONTROL Manage Content Variants]**
 
-   파일은 UTF8로 인코딩되어야 하며 **[!UICONTROL Download the sample file]** 옵션을 클릭하여 찾을 수 있는 특정 레이아웃이 있어야 합니다. 로케일 값에 적절한 구문을 사용해야 합니다. 파일 형식 및 지원되는 로케일에 대한 자세한 내용은 이 [기술 문서를 참조하십시오](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+   파일은 UTF8로 인코딩되어야 하며 **[!UICONTROL Download the sample file]** 옵션을 클릭하여 찾을 수 있는 특정 레이아웃이 있어야 합니다. 로케일 값에 적절한 구문을 사용해야 합니다. 파일 형식 및 지원되는 로케일에 대한 자세한 내용은 이 [기술 문서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
    ![](assets/multivariant_push_4.png)
 
