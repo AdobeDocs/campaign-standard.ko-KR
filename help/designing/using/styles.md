@@ -12,18 +12,17 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
+source-git-commit: ddbf8ea62c4f8bba4ea53dc1daa7064704c97db2
 
 ---
 
 
 # 스타일 관리 {#managing-styles}
 
-## 요소 편집 {#editing-an-element}
 
 이메일 디자이너의 요소를 선택할 때 선택한 컨텐츠 유형과 관련된 몇 가지 옵션이 **[!UICONTROL Settings]** 창에 표시됩니다. 이러한 옵션을 사용하여 이메일 스타일을 손쉽게 변경할 수 있습니다.
 
-### 요소 선택 {#selecting-an-element}
+## 요소 선택 {#selecting-an-element}
 
 이메일 디자이너 인터페이스에서 요소를 선택하려면 다음 중 하나를 수행합니다.
 
