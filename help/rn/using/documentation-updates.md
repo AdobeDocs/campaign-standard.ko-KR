@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bfb5ee7dd97ff46dbe285270275f37f39d2b5231
+source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
 
 ---
 
@@ -32,6 +32,8 @@ S3 외부 계정 구성 설명서를 업데이트했습니다. [자세한 내용
 이메일 컨텐츠 디자인 섹션이 재구성되었습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
 제공 기능 시작 가이드가 핵심 문서에 통합되어 업데이트되었습니다. [자세한 내용](../../sending/using/about-deliverability.md)
+
+사용자 정의 리소스를 내보내기/가져오는 방법에 대한 시작 가이드가 핵심 문서에 통합되었습니다. [자세한 내용](../../automating/using/exporting-importing-custom-resources.md)
 
 ## 설명서 업데이트 - 2019년 11월 {#doc-updates-november-2019}
 
@@ -86,8 +88,6 @@ GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제
 트랜잭션 메시징 섹션이 이메일 디자이너의 컨텐츠 편집을 포함하여 최신 UI 업데이트를 사용하여 수정되었습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
 
 랜딩 페이지 장이 재구성되었습니다. 또한 랜딩 페이지를 설정하는 단계를 자세히 설명하는 새로운 섹션이 추가되었습니다. [자세한 내용](../../channels/using/getting-started-with-landing-pages.md)
-
-선언된 ID 변경 사항을 반영하도록 Audience Manager 통합 **페이지가** 업데이트되었습니다. [자세한 내용](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## 설명서 업데이트 - 2019년 9월 {#doc-updates-september-2019}
 
