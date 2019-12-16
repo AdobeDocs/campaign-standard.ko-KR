@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
 * **구독 취소 링크 및 랜딩 페이지**:구독 취소 링크는 필수입니다. 이 형식은 표시되고 유효해야 하며, 반드시 작동해야 합니다.
 * **Adobe Campaign에서 제공하는 툴을** 사용하여 이메일 컨텐츠를 최적화할 수 있습니다(전달 분석, 스팸 방지 분석).
 
-이메일 컨텐츠 편집에 대한 자세한 내용은 이메일 [디자이너 개요](../../designing/using/designing-content-in-adobe-campaign.md) 및 [메시지 디자인 모범 사례를](../../designing/using/overview.md#content-design-best-practices)참조하십시오.
+이메일 컨텐츠 편집에 대한 자세한 내용은 이메일 [디자이너 개요](../../designing/using/designing-content-in-adobe-campaign.md) 및 [메시지 디자인 모범 사례를](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)참조하십시오.
 
 ## 보낸 사람 이름 및 주소 {#sender-name}
 
