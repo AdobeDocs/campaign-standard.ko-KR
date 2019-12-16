@@ -1,19 +1,19 @@
 ---
 title: 인앱 메시지 준비 및 보내기
 description: 인앱 메시지를 만들어 특정 콘텐츠로 애플리케이션 가입자를 타깃팅합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 인앱 메시지
+topic-tags: in-app-messaging
 discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
 context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Campaign을 사용하여 독립 실행형 인앱 메시지를 만드는 �
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 인앱 메시지 속성을 입력하고 **[!UICONTROL Associate a Mobile App to a delivery]** 필드에서 모바일 앱을 선택합니다.
+1. 인앱 메시지 속성을 입력하고 **[!UICONTROL Associate a Mobile App to a delivery]** 필드에서 모바일 앱을 선택합니다. Adobe Campaign Standard로 모바일 앱을 구성하지 않은 경우 목록에 표시되지 않습니다. 모바일 애플리케이션 구성에 대한 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)참조하십시오.
 
    ![](assets/inapp_creating_3.png)
 
