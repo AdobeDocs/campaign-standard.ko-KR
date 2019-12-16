@@ -1,19 +1,19 @@
 ---
 title: 템플릿 새로 만들기
 description: 이메일, SMS, 푸시 알림 전달 등을 위한 기존 기본 활동 템플릿에서 새 템플릿을 만드는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
-topic-tags: 관리 템플릿
+topic-tags: managing-templates
 discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
 context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -39,5 +39,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 **관련 항목:**
 
 * [브랜딩](../../administration/using/branding.md)
-* [컨텐츠 디자인](../../designing/using/overview.md)
+* [컨텐츠 디자인](../../designing/using/designing-content-in-adobe-campaign.md)
 
