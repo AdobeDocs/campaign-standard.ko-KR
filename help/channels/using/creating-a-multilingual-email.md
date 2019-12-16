@@ -1,18 +1,18 @@
 ---
 title: 다국어 이메일 만들기
 description: 다음 단계에 따라 다양한 기본 언어를 사용하는 다국어 이메일 타깃팅 수신자를 만듭니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 이메일 메시지
+topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    필요한 경우 **[!UICONTROL Add an element]** 단추를 사용하여 변형을 추가합니다. **[!UICONTROL Default]** variant는 삭제할 수 없습니다. 로 **[!UICONTROL default]**&#x200B;설정하면 [프로파일의 기본 언어가](../../audiences/using/creating-profiles.md) 변형을 선택하는 데 사용됩니다. 다른 언어로 변형을 설정할 수도 **[!UICONTROL Default]** 있습니다.
 
 1. 이메일 작성 확인:그러면 이메일 대시보드가 표시됩니다.
-1. 각 변형의 이메일 컨텐츠를 정의합니다. 선택한 템플릿에 따라 여러 주체, 여러 보낸 사람 이름 또는 여러 개의 서로 다른 컨텐츠를 정의할 수 있습니다. 드롭다운 메뉴를 사용하여 요소의 다양한 변형을 탐색합니다. 자세한 내용은 [컨텐츠 편집기](../../designing/using/overview.md) 섹션을 참조하십시오.
+1. 각 변형의 이메일 컨텐츠를 정의합니다. 선택한 템플릿에 따라 여러 주체, 여러 보낸 사람 이름 또는 여러 개의 서로 다른 컨텐츠를 정의할 수 있습니다. 드롭다운 메뉴를 사용하여 요소의 다양한 변형을 탐색합니다. 자세한 내용은 [컨텐츠 편집기](../../designing/using/designing-content-in-adobe-campaign.md) 섹션을 참조하십시오.
 
    ![](assets/multi_selectcontent.png)
 
