@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
+source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
 
 ---
 
@@ -119,7 +119,7 @@ source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
    + [Campaign 이메일 디자이너](designing/using/designing-content-in-adobe-campaign.md)
    + [이메일 디자이너 시작하기](designing/using/quick-start.md)
    + [제목란 및 발신자 정의](designing/using/subject-line.md)
-   + 이메일 콘텐츠 디자인{#designing-email-content}
+   + 이메일 컨텐츠 제작{#building-email-content}
       + [이메일 디자인 기초](designing/using/designing-from-scratch.md)
       + [기존 콘텐츠를 사용한 이메일 디자인](designing/using/using-existing-content.md)
       + [재사용 가능 콘텐츠를 사용한 이메일 디자인](designing/using/using-reusable-content.md)
