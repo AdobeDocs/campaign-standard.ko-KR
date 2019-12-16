@@ -1,19 +1,19 @@
 ---
 title: 푸시 알림 사용자 정의
 description: 다양한 고급 옵션을 사용하여 푸시 알림을 사용자 지정하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 푸시 알림
+topic-tags: push-notifications
 discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
-context-tags: delivery,mobileAppContent,뒤로
+context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 
 ---
 
@@ -107,10 +107,6 @@ Adobe Campaign에서 모바일 애플리케이션을 구성하려면 다음 기�
 사용자의 작업에 따라 관련 작업을 수행할 수 있도록 응용 프로그램에 알림이 표시됩니다.
 
 ## 만료 날짜 추가 {#add-expiration-date}
-
->[!NOTE]
->
->이러한 변경 사항은 Campaign Standard 19.4 릴리스 시작에만 적용됩니다.
 
 만료 날짜를 푸시 알림으로 설정하면 메시지가 더 이상 Apple(APNS) 또는 Android(FCM)에서 전송되지 않는 특정 만료[날짜를](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)설정할[수 있습니다](https://firebase.google.com/docs/cloud-messaging/concept-options).
 
