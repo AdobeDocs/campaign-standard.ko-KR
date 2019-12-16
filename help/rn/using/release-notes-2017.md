@@ -1,9 +1,9 @@
 ---
 title: 2017년 릴리스 정보
 description: 이 페이지에는 Adobe Campaign Standard 2017 릴리스의 모든 목록이 표시됩니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -135,19 +135,19 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 #### 플랫폼 {#platform-1}
 
-* 일부 고객은 고유한 키를 관리하여 자신의 레코드를 식별하지 못하므로 Adobe Campaign Standard에서 제공하는 ID를 이용할 수 있어야 합니다. 이 ID(**ACS** ID)는 데이터를 업데이트하는 동안 조정 키로 사용할 수 있을 뿐만 아니라 내보낼 수 있습니다. 자세한 내용은 [자세한 설명서를](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)참조하십시오.
+* 일부 고객은 고유한 키를 관리하여 자신의 레코드를 식별하지 못하므로 Adobe Campaign Standard에서 제공하는 ID를 이용할 수 있어야 합니다. 이 ID(**ACS** ID)는 데이터를 업데이트하는 동안 조정 키로 사용할 수 있을 뿐만 아니라 내보낼 수 있습니다.  자세한 내용은 [자세한 설명서를](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)참조하십시오.
 * FTP 프로토콜은 더 이상 사용되지 않습니다. 이제 SFTP를 사용해야 합니다. 기존 구현을 차단하지 않기 위해 FTP의 기존 구성은 이전과 같이 작동하지만 새 활동에 대해서는 옵션이 표시되지 않습니다.
 
 #### 이메일, SMS 메시지 및 DM {#emails--sms-messages-and-direct-mail-1}
 
-* 이제 전달 알림 알림에 사용할 새 경고 기준을 만들 수 있습니다. 자세한 내용은 [자세한 설명서를](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)참조하십시오.
+* 이제 전달 알림 알림에 사용할 새 경고 기준을 만들 수 있습니다.  자세한 내용은 [자세한 설명서를](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)참조하십시오.
 * 전달 알림 알림에 새로운 디자인이 추가되었으며 전달 알림 대시보드 사용자 환경이 개선되었습니다.
 * 라우팅 외부 계정이 비활성화되면 영향을 받는 배달(이메일, SMS 및 푸시)에 경고가 표시되고 미리 **보기** 단추가 이러한 게재에서 숨겨집니다.
 * 제목 라인에서 동적 텍스트를 활성화했을 때 이메일 컨텐츠에서 A/B 테스트 미리 보기에서 오류가 발생하는 문제를 해결했습니다.
 
 #### 트랜잭션 메시지 {#transactional-messages}
 
-* 이제 트랜잭션 메시지를 보낸 후 3일 등 후속 메시지를 보낼 시기를 정의할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)참조하십시오.
+* 이제 트랜잭션 메시지를 보낸 후 3일 등 후속 메시지를 보낼 시기를 정의할 수 있습니다.  자세한 내용은 [자세한 설명서를](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)참조하십시오.
 * 이제 이벤트에 연결된 트랜잭션 메시지를 전송해야 하는 날짜부터 정의할 수 있습니다.
 * 수신 및 처리된 이벤트에 연결된 프로필을 삭제한 후 후속 메시지가 포함된 워크플로우를 실행할 때 SQL 오류가 발생하는 문제를 해결했습니다.
 * 이벤트에 연결된 프로파일을 삭제할 수 없었던 오류를 수정했습니다.
@@ -156,7 +156,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 #### 보고서 {#reports-1}
 
-* 핫 **클릭** 보고서가 개선되었습니다. 또한 이제 게시에 정의된 각 조건부 컨텐츠에 따라 핫 클릭을 표시할 수 있으며 반복되는 게재 또는 트랜잭션 메시지의 각 실행에 대한 핫 클릭을 표시할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)참조하십시오.
+* 핫 **클릭** 보고서가 개선되었습니다. 또한 이제 게시에 정의된 각 조건부 컨텐츠에 따라 핫 클릭을 표시할 수 있으며 반복되는 게재 또는 트랜잭션 메시지의 각 실행에 대한 핫 클릭을 표시할 수 있습니다.  자세한 내용은 [자세한 설명서를](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)참조하십시오.
 * 격리 지표가 올바른 데이터를 검색하지 못하는 문제를 해결했습니다.
 * 달력 위젯에 새 사전 설정 시간대가 추가되었습니다.
 * 보다 일관성 있게 [동적 보고서 지표](../../reporting/using/indicator-calculation.md) 및 [캠페인의 KPI](../../sending/using/confirming-the-send.md) (보낸 메시지의 대시보드에 표시)가 정렬되었습니다.
@@ -173,7 +173,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 #### 프로필 및 대상자 {#profiles-and-audiences-1}
 
-* 이제 Adobe Campaign에서 활성 프로필 수를 표시하는 보고서를 제공합니다. 이 보고서는 단지 유익할 뿐이며, 대금 청구에 직접적인 영향을 주지 않습니다. 자세한 내용은 [자세한 설명서를](../../audiences/using/active-profiles.md)참조하십시오.
+* 이제 Adobe Campaign에서 활성 프로필 수를 표시하는 보고서를 제공합니다. 이 보고서는 단지 유익할 뿐이며, 대금 청구에 직접적인 영향을 주지 않습니다.  자세한 내용은 [자세한 설명서를](../../audiences/using/active-profiles.md)참조하십시오.
 * 프로필 및 서비스 API를 사용할 때 프로필이 서비스에 구독되지 않는 문제를 해결했습니다.
 
 ## 릴리스 17.7 - 2017년 7월 {#release-17-7---july-2017}
@@ -190,27 +190,27 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
  <tbody> 
   <tr> 
    <td> 다국어 이메일 및 SMS 전달<br /> </td> 
-   <td> 자동으로 세그먼트화된 고객의 선호 언어를 기반으로 한 단일 전달을 통해 다국어 이메일 및 SMS 전달을 정의하고 실행할 수 있습니다. 언어 및 개별 수준에 대한 모든 전달의 성과를 보고합니다.<br /> 점점 더 많은 기업이 국내뿐만 아니라 해외에서 성장함에 따라 여러 언어로 컨텐츠를 전달하는 데 어려움을 겪고 있습니다. 이와 같이 로컬라이즈된 메시지 전달을 간소화하는 것은 다국적 기업을 위한 효과적인 고객 커뮤니케이션 전략의 핵심입니다.여러 언어를 사용하는 국가의 기업고객이 거주하는 위치에 상관없이 언어 수준에서 컨텐츠를 더욱 개인화하고자 하는 기업 자세한 내용은 <a href="../../channels/using/creating-a-multilingual-email.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> 자동으로 세그먼트화된 고객의 선호 언어를 기반으로 한 단일 전달을 통해 다국어 이메일 및 SMS 전달을 정의하고 실행할 수 있습니다. 언어 및 개별 수준에 대한 모든 전달의 성과를 보고합니다.<br /> 점점 더 많은 기업이 국내뿐만 아니라 해외에서 성장함에 따라 여러 언어로 컨텐츠를 전달하는 데 어려움을 겪고 있습니다. 이와 같이 로컬라이즈된 메시지 전달을 간소화하는 것은 다국적 기업을 위한 효과적인 고객 커뮤니케이션 전략의 핵심입니다.여러 언어를 사용하는 국가의 기업고객이 거주하는 위치에 상관없이 언어 수준에서 컨텐츠를 더욱 개인화하고자 하는 기업  자세한 내용은 <a href="../../channels/using/creating-a-multilingual-email.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign 알림<br /> </td> 
-   <td> Adobe Campaign Standard에서 바로 중요한 시스템 활동에 대한 알림을 받을 수 있습니다. 예를 들어 진행 중인 배달 진행 상황 또는 워크플로우에 오류가 있는 경우 알림을 받게 됩니다.<br /> 실시간 알림은 관련 이해 관계자에게 정보를 제공하고 사용자에게 애플리케이션 내에서 활동 알림에 대해 즉시 조치를 취할 수 있는 기능을 제공합니다. 팀은 민첩성, 효율성 및 원활한 캠페인 실행을 통해 성과를 달성할 수 있습니다. 자세한 내용은 <a href="../../administration/using/sending-internal-notifications.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> Adobe Campaign Standard에서 바로 중요한 시스템 활동에 대한 알림을 받을 수 있습니다. 예를 들어 진행 중인 배달 진행 상황 또는 워크플로우에 오류가 있는 경우 알림을 받게 됩니다.<br /> 실시간 알림은 관련 이해 관계자에게 정보를 제공하고 사용자에게 애플리케이션 내에서 활동 알림에 대해 즉시 조치를 취할 수 있는 기능을 제공합니다. 팀은 민첩성, 효율성 및 원활한 캠페인 실행을 통해 성과를 달성할 수 있습니다.  자세한 내용은 <a href="../../administration/using/sending-internal-notifications.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 전달 경고<br /> </td> 
-   <td> Adobe Campaign Standard에서 바로 알림을 볼 수 있을 뿐만 아니라, 이제 Adobe Campaign은 사용자 또는 외부 이해 관계자에게 중요한 시스템 활동에 대한 이메일 경고를 트리거하는 이메일 알림 시스템을 제공합니다. 사용자 정의 가능한 알림 및 대시보드를 생성, 관리 및 수신하여 전달 성공 또는 실패를 추적할 수 있습니다.<br /> Adobe Campaign 전달 알림은 이메일 및 대시보드를 통해 회사의 모든 관련 Adobe Campaign 사용자에게 배달 실행 상태에 대한 정보를 자동으로 알려 효율성을 높입니다. 자세한 내용은 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> Adobe Campaign Standard에서 바로 알림을 볼 수 있을 뿐만 아니라, 이제 Adobe Campaign은 사용자 또는 외부 이해 관계자에게 중요한 시스템 활동에 대한 이메일 경고를 트리거하는 이메일 알림 시스템을 제공합니다. 사용자 정의 가능한 알림 및 대시보드를 생성, 관리 및 수신하여 전달 성공 또는 실패를 추적할 수 있습니다.<br /> Adobe Campaign 전달 알림은 이메일 및 대시보드를 통해 회사의 모든 관련 Adobe Campaign 사용자에게 배달 실행 상태에 대한 정보를 자동으로 알려 효율성을 높입니다.  자세한 내용은 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 데이터소스의 암호화된 선언된 ID<br /> </td> 
-   <td> 암호화된 연락처 정보(이메일 주소 또는 전화 번호)를 선언된 ID로 사용하여 Campaign의 기존 프로필 없이도 이메일 및 SMS 트리거를 보낼 수 있습니다. 암호화된 선언된 ID는 Adobe Campaign Standard에서 디코딩할 수 있으므로, Adobe Campaign은 이전에 알 수 없는 연락처가 포함된 다른 Experience Cloud 솔루션에서 대상을 수신할 때 새로운 마케팅 가능 프로파일을 만들 수 있습니다.<br /> 이메일 및 SMS를 통해 실시간으로 고객 및 알려지지 않은 잠재 고객을 타깃팅하여 기존 고객층의 충성도를 높이고 신규 고객을 확보할 수 있습니다. 잠재 고객이 Adobe Campaign에서 이러한 인사이트를 인증하고 활용하면 Adobe Audience Manager*에서 자사 쿠키 데이터를 최대한 활용할 수 있습니다. <br /> *Adobe Audience Manager가 필요합니다. 자세한 내용은 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> 암호화된 연락처 정보(이메일 주소 또는 전화 번호)를 선언된 ID로 사용하여 Campaign의 기존 프로필 없이도 이메일 및 SMS 트리거를 보낼 수 있습니다. 암호화된 선언된 ID는 Adobe Campaign Standard에서 디코딩할 수 있으므로, Adobe Campaign은 이전에 알 수 없는 연락처가 포함된 다른 Experience Cloud 솔루션에서 대상을 수신할 때 새로운 마케팅 가능 프로파일을 만들 수 있습니다.<br /> 이메일 및 SMS를 통해 실시간으로 고객 및 알려지지 않은 잠재 고객을 타깃팅하여 기존 고객층의 충성도를 높이고 신규 고객을 확보할 수 있습니다. 잠재 고객이 Adobe Campaign에서 이러한 인사이트를 인증하고 활용하면 Adobe Audience Manager*에서 자사 쿠키 데이터를 최대한 활용할 수 있습니다. <br /> *Adobe Audience Manager가 필요합니다.  자세한 내용은 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign에서 Analytics로 KPI 공유<br /> </td> 
-   <td> Adobe Analytics와 캠페인 데이터를 공유하여 전환율을 통한 다른 마케팅 및 광고 활동과 함께 Campaign의 이메일 마케팅 지표를 측정하고 클릭 전/후 행동을 통합할 수 있습니다.<br /> 전체 성과를 직접 추적하고 Analytics에서 외부 프로그램과의 시너지 효과를 확인할 수 있습니다. 통합된 보기에서 얻은 학습 내용을 캠페인에 다시 적용하십시오.궁극적으로 개방, 클릭률 및 전환율을 향상시킴으로써 매출 및 전체 캠페인 성과를 높일 수 있습니다. <br /> Adobe Analytics가 필요합니다. 자세한 내용은 <a href="../../integrating/using/about-campaign-analytics-integration.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> Adobe Analytics와 캠페인 데이터를 공유하여 전환율을 통한 다른 마케팅 및 광고 활동과 함께 Campaign의 이메일 마케팅 지표를 측정하고 클릭 전/후 행동을 통합할 수 있습니다.<br /> 전체 성과를 직접 추적하고 Analytics에서 외부 프로그램과의 시너지 효과를 확인할 수 있습니다. 통합된 보기에서 얻은 학습 내용을 캠페인에 다시 적용하십시오.궁극적으로 개방, 클릭률 및 전환율을 향상시킴으로써 매출 및 전체 캠페인 성과를 높일 수 있습니다. <br /> Adobe Analytics가 필요합니다.  자세한 내용은 <a href="../../integrating/using/about-campaign-analytics-integration.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> DM 채널 - 보낸 사람에게 돌아가기<br /> </td> 
-   <td> 이제 보낸 사람에게 반환 정보가 포함된 DM 공급자와의 기본 파일 교환이 지원됩니다. 이 DM(Direct Mail) 채널의 향상된 기능을 통해 해당 우편 주소를 향후 통신에서 제외할 수 있습니다.<br /> 이를 통해 마케터는 잘못된 주소를 알리고 다른 채널을 통해 고객과 교류하거나 우편 주소를 업데이트하도록 권장할 수 있습니다. 이로 인해 마케터가 잘못된 주소로 메일을 보내지 않으므로 마케팅 비용이 낭비되는 횟수가 줄어듭니다. <br /> Direct Mail은 Add-on 채널로 사용할 수 있습니다. 자세한 내용은 <a href="../../channels/using/return-to-sender.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> 이제 보낸 사람에게 반환 정보가 포함된 DM 공급자와의 기본 파일 교환이 지원됩니다. 이 DM(Direct Mail) 채널의 향상된 기능을 통해 해당 우편 주소를 향후 통신에서 제외할 수 있습니다.<br /> 이를 통해 마케터는 잘못된 주소를 알리고 다른 채널을 통해 고객과 교류하거나 우편 주소를 업데이트하도록 권장할 수 있습니다. 이로 인해 마케터가 잘못된 주소로 메일을 보내지 않으므로 마케팅 비용이 낭비되는 횟수가 줄어듭니다. <br /> Direct Mail은 Add-on 채널로 사용할 수 있습니다.  자세한 내용은 <a href="../../channels/using/return-to-sender.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -329,7 +329,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
   </tr> 
   <tr> 
    <td> Dreamweaver 통합 라이브<br /> </td> 
-   <td> Adobe Campaign과 Dreamweaver 간의 통합이 이제 실시간으로 진행됩니다. Dreamweaver(17.0.2)의 공식 최신 버전과 연동됩니다.<br /> 이를 위해서는 Adobe Campaign 통합 익스텐션을 여기에서 설치해야 합니다.http://adobe.ly/acdw_addon <a href="http://adobe.ly/acdw_addon"></a><br /> 자세한 내용은 이 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">비디오를</a>참조하십시오.<br /> </td> 
+   <td> Adobe Campaign과 Dreamweaver 간의 통합이 이제 실시간으로 진행됩니다. Dreamweaver(17.0.2)의 공식 최신 버전과 연동됩니다.<br /> 이를 위해서는 Adobe Campaign 통합 익스텐션을 여기에서 설치해야 합니다.https://adobe.ly/acdw_addon <a href="http://adobe.ly/acdw_addon"></a><br /> 자세한 내용은 이 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">비디오를</a>참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -410,7 +410,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
     <ul> 
      <li> 모든 수신자는 시간대를 고려하여 메시지를 받습니다. </li> 
      <li> 각 수신자는 수식에 의해 정의된 계산된 날짜와 시간에 메시지를 받습니다. </li> 
-    </ul> 자세한 내용은 <a href="../../sending/using/optimizing-the-sending-time.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+    </ul>  자세한 내용은 <a href="../../sending/using/optimizing-the-sending-time.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 푸시 알림 새로운 기능<br /> </td> 
@@ -421,7 +421,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
      <li> 인터랙티브한 푸시 </li> 
      <li> 리치 컨텐츠 지원 </li> 
      <li> 페이로드 크기 계산기 </li> 
-    </ul> 자세한 내용은 <a href="../../channels/using/about-push-notifications.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+    </ul>  자세한 내용은 <a href="../../channels/using/about-push-notifications.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 워크플로우:새로운 신호 활동<br /> </td> 
@@ -429,7 +429,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
     <ul> 
      <li> <span class="uicontrol">종료</span> 활동:새 탭에서는 이 활동이 실행된 후 트리거할 워크플로우를 지정할 수 있습니다. </li> 
      <li> <span class="uicontrol">데이터</span> 활동 업데이트:새로운 빈 아웃바운드 전환을 사용하여 다른 워크플로우를 <strong>트리거하는</strong> 종료 활동을 추가합니다. 빈 아웃바운드 전환은 데이터를 전달하지 않으며 시스템에서 불필요한 공간을 사용하지 않습니다. </li> 
-    </ul> 자세한 내용은 <a href="../../automating/using/external-signal.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+    </ul>  자세한 내용은 <a href="../../automating/using/external-signal.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 워크플로우:새로운 읽기 대상 활동<br /> </td> 
@@ -495,7 +495,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
      <li> 메시지 내에 구독 취소 링크를 포함합니다. </li> 
      <li> 트랜잭션 메시지를 전역 배달 보고에 추가합니다. </li> 
      <li> 고객 여정의 트랜잭션 메시지 활용 </li> 
-    </ul> 자세한 내용은 <a href="../../channels/using/profile-transactional-messages.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+    </ul>  자세한 내용은 <a href="../../channels/using/profile-transactional-messages.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 메시징 API<br /> </td> 
