@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
+source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 
 | 컨텐츠 없이 | 컨텐츠 사용 |
 |---|---|
-| 처음부터 이메일 만들기 | 기존 HTML 컨텐츠 변환 |
-| 기본 템플릿에서 컨텐츠 작성 | 기존 HTML 가져오기 |
+| [처음부터 이메일 만들기](#from-scratch-email) | [기존 HTML 컨텐츠 변환](#converting-an-html-content) |
+| [기본 템플릿에서 컨텐츠 작성](#building-content-from-an-out-of-the-box-template) | [기존 HTML 가져오기](#compatibility-mode) |
 
 ## 편집기를 사용하여 이메일 디자인 {#without-existing-content}
 
