@@ -1,18 +1,18 @@
 ---
 title: Campaign-Points of Interest 데이터 통합 구성
 description: Adobe Campaign의 관심 영역 데이터 기능을 구성하여 구독자의 위치를 기반으로 개인화된 메시지를 전송하는 방법을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 통합
+audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -29,14 +29,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Adobe Experience Platform SDK 파섹
 
-1. Adobe Experience Platform Launch에서 모바일 앱 구성에 **[!UICONTROL Places]** 및 **[!UICONTROL Places Monitor]** 확장을 추가합니다. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. Adobe [Experience Platform Launch에서 위치 확장](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) 설치 및 [Experience Platform Launch에서 위치 모니터 확장 설치를 참조하십시오](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension).
+1. Adobe Experience Platform Launch에서 모바일 앱 구성에 **[!UICONTROL Places]** 및 **[!UICONTROL Places Monitor]** 확장을 추가합니다. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. Adobe [Experience Platform Launch에서 위치 확장](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) 설치 및 [Experience Platform Launch에서 위치 모니터 확장 설치를 참조하십시오](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
 1. 익스텐션이 설정되면 데이터 요소를 만들어 이러한 익스텐션에서 데이터를 **[!UICONTROL Adobe Experience Platform Launch]** 검색합니다. 데이터 요소를 만들려면 이 [페이지를](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 참조하십시오.
 
 1. 그런 **[!UICONTROL Adobe Experience Platform Launch]**&#x200B;다음 관심 영역과 Adobe Campaign 간의 모바일 사용 사례를 지원하는 규칙을 만들어야 합니다.\
    이 규칙은 사용자가 지리적 울타리로 들어갈 때 트리거됩니다 **[!UICONTROL Point of Interest]**. 규칙을 만들려면 이 [페이지를](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) 참조하십시오.
 
-1. 위치에서 **[!UICONTROL Points of Interest]** 사용자 정의 관심 [영역 만들기를 참조하십시오](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi).
+1. 위치에서 **[!UICONTROL Points of Interest]** 사용자 정의 관심 [영역 만들기를 참조하십시오](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html).
 
 1. Adobe Campaign에서 모바일 애플리케이션 및 수집된 위치 데이터에 액세스해야 합니다. 위치 [데이터를](#accessing-mobile-apps-used-to-collect-location-data) 수집하는 데 사용되는 모바일 앱 액세스 및 [수집된 위치 데이터](#accessing-collected-location-data)액세스를 참조하십시오.
 
@@ -89,7 +89,7 @@ Adobe Campaign에 설정된 모바일 애플리케이션 매개 변수에서 찾
 
 다음 구성을 수행하려면 Adobe Analytics에 액세스할 수 있어야 합니다. Adobe Analytics 사용자가 아닌 경우 Adobe Campaign 관리자에게 문의하십시오.
 
-1. mobilemarketing. [adobe.com에](http://mobilemarketing.adobe.com/)로그인합니다.
+1. mobilemarketing. [adobe.com에](https://mobilemarketing.adobe.com/)로그인합니다.
 1. 애플리케이션을 만들거나 기존 애플리케이션을 선택합니다.
 1. 페이지로 **[!UICONTROL Manage App Settings]** 이동합니다.
 1. 방문자 **ID 서비스** 섹션에서 **활성화를** 선택하고 드롭다운 목록에서 조직을 선택합니다. 저장을 **클릭합니다**.
