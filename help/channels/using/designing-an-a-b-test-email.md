@@ -1,19 +1,19 @@
 ---
 title: A/B 테스트 이메일 디자인
 description: A/B 테스트 기능을 살펴보고 다음 단계에 따라 Adobe Campaign의 A/B 테스트 템플릿에서 이메일을 만듭니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 이메일 메시지
+topic-tags: email-messages
 discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -57,7 +57,7 @@ A/B 테스트의 특정 컨텍스트에서:
       모든 추적 데이터를 수집하고 올바른 계산에 포함시켜 우승 변형을 선택하려면 테스트가 최소한 1시간 이상이어야 합니다.
    ![](assets/ab_parameters.png)
 
-1. A/B 테스트 매개 변수가 정의되면 마법사의 다음 단계로 전달하여 이메일 컨텐츠를 정의합니다. 선택한 템플릿에 따라 여러 주체, 여러 보낸 사람 이름 또는 여러 개의 서로 다른 컨텐츠를 정의할 수 있습니다. 회전판을 사용하여 요소의 다른 변형을 탐색합니다. 자세한 내용은 [컨텐츠 편집기](../../designing/using/overview.md) 섹션을 참조하십시오.
+1. A/B 테스트 매개 변수가 정의되면 마법사의 다음 단계로 전달하여 이메일 컨텐츠를 정의합니다. 선택한 템플릿에 따라 여러 주체, 여러 보낸 사람 이름 또는 여러 개의 서로 다른 컨텐츠를 정의할 수 있습니다. 회전판을 사용하여 요소의 다른 변형을 탐색합니다. 자세한 내용은 [컨텐츠 편집기](../../designing/using/designing-content-in-adobe-campaign.md) 섹션을 참조하십시오.
 
    ![](assets/create_ab_testing2.png)
 
