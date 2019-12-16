@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign에는 시작하는 데 도움이 되는 미리 정의된 콘텐�
 
 >[!NOTE]
 >
->아래 이미지는 이메일 디자이너를 사용하여 기존 컨텐츠를 로드하는 방법을 [보여줍니다](../../designing/using/overview.md).
+>아래 이미지는 이메일 디자이너를 사용하여 기존 컨텐츠를 로드하는 방법을 [보여줍니다](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. 이메일 또는 랜딩 페이지를 만든 후 해당 컨텐츠를 엽니다.
 1. 홈 아이콘을 클릭하여 **[!UICONTROL Email Designer]** 홈 페이지에 액세스합니다.
@@ -47,7 +47,7 @@ Adobe Campaign에는 시작하는 데 도움이 되는 미리 정의된 콘텐�
 
    >[!NOTE]
    >
-   >이메일 [디자이너는](../../designing/using/overview.md) 특정 태깅을 사용합니다. Campaign에 업로드된 표준 HTML 컨텐츠는 이메일 디자이너에서 완벽하게 호환되고 편집할 수 있도록 예상되는 태그 지정 기능과 일치해야 합니다. 일치하지 않으면 콘텐트가 [호환성 모드로](#compatibility-mode)업로드됩니다. 기존 내용을 호환되게 하려면 [이 섹션을](#editing-existing-contents-with-the-email-designer)참조하십시오.
+   >이메일 [디자이너는](../../designing/using/designing-content-in-adobe-campaign.md) 특정 태깅을 사용합니다. Campaign에 업로드된 표준 HTML 컨텐츠는 이메일 디자이너에서 완벽하게 호환되고 편집할 수 있도록 예상되는 태그 지정 기능과 일치해야 합니다. 일치하지 않으면 콘텐트가 [호환성 모드로](#compatibility-mode)업로드됩니다. 기존 내용을 호환되게 하려면 [이 섹션을](#editing-existing-contents-with-the-email-designer)참조하십시오.
 
 **관련 항목:**
 
@@ -56,7 +56,7 @@ Adobe Campaign에는 시작하는 데 도움이 되는 미리 정의된 콘텐�
 
 ## 이메일 디자이너를 사용하여 기존 컨텐츠 편집{#editing-existing-contents-with-the-email-designer}
 
-이메일 디자이너의 에디션의 가능성을 완전히 활용하려면 [업로드된](../../designing/using/overview.md)HTML에 WYSIWYG 편집기와 호환되도록 특정 태그가 포함되어야 합니다.
+이메일 디자이너의 에디션의 가능성을 완전히 활용하려면 [업로드된](../../designing/using/designing-content-in-adobe-campaign.md)HTML에 WYSIWYG 편집기와 호환되도록 특정 태그가 포함되어야 합니다.
 
 HTML의 전체 또는 일부에 이러한 태깅이 없는 경우 컨텐츠가 ' [호환성 모드](#compatibility-mode)'로 로드됩니다.
 
