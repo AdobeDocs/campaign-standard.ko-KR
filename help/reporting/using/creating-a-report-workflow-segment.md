@@ -1,18 +1,18 @@
 ---
 title: 워크플로우 세그먼트 기반 보고서 만들기
 description: 보고서에서 워크플로우 세그먼트에 따라 게재의 성공을 확인하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: 벤치
+contentOwner: beneat
 products: SG_CAMPAIGN/STANDARD
-audience: 보고
+audience: reporting
 content-type: reference
-topic-tags: 사용자 정의 보고서
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -92,7 +92,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/report_segment_3.png)
 
-1. 타깃팅된 모집단에 따라 게재를 개인화합니다. 이메일 생성에 대한 자세한 내용은 이 [페이지를](../../designing/using/overview.md)참조하십시오.
+1. 타깃팅된 모집단에 따라 게재를 개인화합니다. 이메일 생성에 대한 자세한 내용은 이 [페이지를](../../designing/using/designing-content-in-adobe-campaign.md)참조하십시오.
 
 1. 워크플로우를 저장합니다.
 
