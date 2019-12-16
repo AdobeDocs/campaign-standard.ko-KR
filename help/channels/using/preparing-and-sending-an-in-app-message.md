@@ -13,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -118,7 +118,7 @@ Adobe Campaign을 사용하여 독립 실행형 인앱 메시지를 만드는 �
 
 1. 트리거를 사용하는 경우 **[!UICONTROL Places]** 배치 컨텍스트 데이터, 위치 사용자 지정 메타데이터 또는 위치 이벤트 유형은 Adobe Places에서 만든 모든 라이브러리 및 관심 영역을 기반으로 자동으로 채워집니다.
 
-   이 트리거는 Experience Platform Launch의 위치 확장 기능에서 선택한 라이브러리의 관심 영역에만 적용됩니다. 위치 확장 프로그램 및 설치 방법에 대한 자세한 내용은 이 [설명서를](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension)참조하십시오.
+   이 트리거는 Experience Platform Launch의 위치 확장 기능에서 선택한 라이브러리의 관심 영역에만 적용됩니다. 위치 확장 프로그램 및 설치 방법에 대한 자세한 내용은 이 [설명서를](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)참조하십시오.
 
 1. 탭에서 트리거 빈도, 시작 및 종료 날짜, 요일 및 인앱 메시지가 활성화되는 시간을 선택합니다. **[!UICONTROL Frequency & duration]**
 
