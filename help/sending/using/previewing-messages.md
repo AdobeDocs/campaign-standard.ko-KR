@@ -1,18 +1,18 @@
 ---
 title: 메시지 미리 보기
 description: 콘텐츠 편집기 또는 이메일 디자이너에서 메시지를 미리 보는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 8dffca95-59fe-4e9b-93cb-73b33ffde020
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보내기
+audience: sending
 content-type: reference
-topic-tags: preparing and-testing-messages
-discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3d
+topic-tags: preparing-and-testing-messages
+discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 창에서 테스트 프로필을 추가한 후 메시지를 미리 보고 개인화와 수신자가 전달을 어떻게 볼 수 있는지 확인할 수 있습니다. **[!UICONTROL Audience]**
 
-1. 이메일 [디자이너에서](../../designing/using/overview.md)단추를 클릭합니다 **[!UICONTROL Preview]** .
+1. 이메일 [디자이너에서](../../designing/using/designing-content-in-adobe-campaign.md)단추를 클릭합니다 **[!UICONTROL Preview]** .
 
    ![](assets/sending_preview.png)
 
