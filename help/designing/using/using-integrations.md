@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -137,7 +137,7 @@ Adobe Campaign은 다양한 이메일 작성 옵션을 제공합니다. 아래 �
   </tr> 
   <tr> 
    <td> <strong>자세한 내용</strong><br /> </td> 
-   <td> 이메일 <a href="../../designing/using/overview.md">디자이너 정보를 참조하십시오</a>.<br /> </td> 
+   <td> 이메일 <a href="../../designing/using/designing-content-in-adobe-campaign.md">디자이너 정보를 참조하십시오</a>.<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
    <td> Dreamweaver <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">및 Campaign</a> 을 참조하고 이 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">비디오를</a>시청하십시오.<br /> </td> 
   </tr> 
