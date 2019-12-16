@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -133,7 +133,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 ### 기타 변경 사항 {#other-changes-1}
 
 * 제한 시간이 1~4분으로 증가하여 제한 시간 오류가 발생하지 않도록 했습니다.
-* 이메일의 컨텐츠를 편집할 때 기본적으로 새 Creative Designer가 열립니다. 원할 경우 변경 내용을 저장한 후에도 언제든지 기본 컨텐츠 편집기로 돌아갈 수 있습니다. 자세한 내용은 [자세한 설명서를](../../designing/using/overview.md)참조하십시오.
+* 이메일의 컨텐츠를 편집할 때 기본적으로 새 Creative Designer가 열립니다. 원할 경우 변경 내용을 저장한 후에도 언제든지 기본 컨텐츠 편집기로 돌아갈 수 있습니다. 자세한 내용은 [자세한 설명서를](../../designing/using/designing-content-in-adobe-campaign.md)참조하십시오.
 * 이제 Creative Designer에서 새로운 컨텐츠 구성 요소를 이메일에 추가할 수 있습니다.회전판입니다. 자세한 내용은 [자세한 설명서를](../../designing/using/designing-from-scratch.md#about-content-components)참조하십시오.
 * 트랜잭션 메시지 핫 클릭 보고서에서 프로필 **변경** 단추를 클릭하면 이제 트랜잭션 메시지에 대해 정의한 이벤트에 연결된 테스트 프로필만 나열됩니다.
 
@@ -317,7 +317,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
      <li> 이메일 컨텐츠 템플릿 작성 및 저장 및 저장된 템플릿을 활용하여 이메일 작성 확대 </li> 
      <li> 컨텐츠 조각(머리글, 바닥글, 아티클 등)을 만들고 저장합니다. 컨텐츠 제작 간소화 및 브랜드 일관성 보장 </li> 
      <li> 드래그 앤 드롭 인터페이스에서 만들기 간을 원활하게 전환할 수 있고 단추 클릭 시 이메일의 HTML을 직접 편집할 수 있습니다 </li> 
-    </ul> 이메일용 Creative Designer는 영어로만 제공됩니다.<br /> 자세한 내용은 <a href="../../designing/using/overview.md">자세한 설명서를</a> 참조하고 이 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">비디오를</a>시청하십시오.<br /> </td> 
+    </ul> 이메일용 Creative Designer는 영어로만 제공됩니다.<br /> 자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서를</a> 참조하고 이 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">비디오를</a>시청하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 다국어 푸시 배달<br /> </td> 
