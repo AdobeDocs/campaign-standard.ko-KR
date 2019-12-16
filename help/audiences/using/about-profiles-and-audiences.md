@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign을 사용하면 풍부한 고객 프로파일을 실시간으로 
 
 >[!CAUTION]
 >
->귀하는 항상 Adobe Campaign에서 [허용되는 사용 정책을](http://www.adobe.com/legal/terms/aup.html)존중해야 합니다.
+>귀하는 항상 Adobe Campaign에서 [허용되는 사용 정책을](https://www.adobe.com/legal/terms/aup.html)존중해야 합니다.
 
 GDPR은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호 법입니다. GDPR은 EU에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다. Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 이외에도 Adobe는 데이터 프로세서로서의 기능을 활용하여 특정 GDPR 요청에 대한 데이터 컨트롤러로서의 준비를 용이하게 합니다.
 
