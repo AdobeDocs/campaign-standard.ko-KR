@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 68921819a5335626e45678ec569172ffef46a636
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -115,9 +115,9 @@ Amazon S3 서버 필드는 다음과 같이 채워야 합니다.
 
 Amazon S3 계정을 설정하는 데 도움이 되도록 다음 권장 사항을 따르도록 권장합니다.
 
-* 엄격한 버킷 정책을 만들어 S3 버킷에 대한 액세스를 제한합니다. 버킷을 만드는 동안 버킷 정책을 구성할 수 있습니다. 자세한 내용은 Amazon S3 [설명서를](http://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)참조하십시오.
+* 엄격한 버킷 정책을 만들어 S3 버킷에 대한 액세스를 제한합니다. 버킷을 만드는 동안 버킷 정책을 구성할 수 있습니다. 자세한 내용은 Amazon S3 [설명서를](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)참조하십시오.
 * 외부 계정을 만드는 동안 **[!UICONTROL Keep files in S3 encrypted]** 상자를 선택하여 암호화를 활성화하여 S3 버킷에 중요한 데이터를 저장합니다.
-* 버킷 권한을 부여하여 버킷에서 개체에 액세스할 수 있는 사용자를 지정합니다. 버킷 권한에 대한 자세한 내용은 Amazon S3 [설명서를 참조하십시오.](http://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)
+* 버킷 권한을 부여하여 버킷에서 개체에 액세스할 수 있는 사용자를 지정합니다. 버킷 권한에 대한 자세한 내용은 Amazon S3 [설명서를](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)참조하십시오.
 
 ## Adobe Experience Manager 외부 계정 {#adobe-experience-manager-external-account}
 
