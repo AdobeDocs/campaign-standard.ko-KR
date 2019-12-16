@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 * 알 수 없는 컨텍스트 매개 변수를 사용하여 트랜잭션 메시지 이벤트가 제출되면 이제 Campaign은 "500" 대신 "400" 오류 메시지를 반환합니다. (CAMP-28632)
 * 동적 **보고에 새로운 제외** 증명 세그먼트가 추가되었습니다. 이제 이 세그먼트가 기본적으로 선택되어 보고서를 필터링합니다. [자세한 내용](../../reporting/using/list-of-components-.md#segments)
 * 메시지 **만료** 옵션이 푸시 알림에 추가되었습니다. APNS(Apple) 또는 Android(FCM)에서 더 이상 메시지를 보내지 않을 만료 날짜를 지정할 수 있습니다. [자세한 내용](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* 파일 로드 **작업이** 개선되었습니다.워크플로우 로그가 파일을 로드하지 못할 때 발생하는 오류에 대해 보다 명확하고 자세히 설명했습니다. 파일에 거부 유지 옵션을 활성화할 때 생성된 **아웃바운드 전환의 이름이 거부로** 변경되었습니다 ****. [자세한 내용](../../automating/using/load-file.md#load-files)
+* 파일 로드 **작업이** 개선되었습니다.워크플로우 로그가 파일을 로드하지 못할 때 발생하는 오류에 대해 보다 명확하고 자세히 설명했습니다. 파일에 거부 유지 옵션을 활성화할 때 생성된 **아웃바운드 전환의 이름이 거부로** 변경되었습니다 ****. [자세한 내용](../../automating/using/load-file.md)
 * 다국어 관련 로그가 업로드된 CSV 파일의 누락된 언어로 인해 전송 오류를 더 잘 이해할 수 있도록 전송 로그에 추가되었습니다.
 
 ### 향상된 보안 기능 {#security-enhancements-3}
@@ -469,7 +469,7 @@ source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 
 * Adobe의 새로운 온보딩(On-Bounding) 경험은 이메일을 보다 신속하게 제작할 수 있도록 지원하고 설명서 및 자습서를 보다 손쉽게 이용할 수 있도록 도와줍니다.
 
-    자세한 내용은 [자세한 설명서를](../../designing/using/overview.md#email-designer-home-page)참조하십시오.
+    자세한 내용은 [자세한 설명서를](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)참조하십시오.
 
 * 이제 요구 사항에 따라 열과 너비의 수를 유연하게 구성할 수 있습니다.
 
@@ -548,7 +548,7 @@ source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
      <li> 준비 시 URL에서 컨텐츠를 자동으로 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">검색할 수 있는 기능</a> </li> 
      <li> 즉시 <a href="../../designing/using/using-reusable-content.md#content-templates">사용할 수 있는 컨텐츠 템플릿을</a>준수합니다. </li> 
     </ul> 
-    <p>자세한 내용은 <a href="../../designing/using/overview.md">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">방법 비디오를</a>참조하십시오. 개선 사항 및 수정 사항은 아래에 나와 있습니다.</p><p>따라서 기존 이메일 컨텐츠 편집기는 이제 더 이상 사용되지 않습니다.  자세한 내용은 이 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">페이지를</a>참조하십시오.</p> </td> 
+    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">방법 비디오를</a>참조하십시오. 개선 사항 및 수정 사항은 아래에 나와 있습니다.</p><p>따라서 기존 이메일 컨텐츠 편집기는 이제 더 이상 사용되지 않습니다.  자세한 내용은 이 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">페이지를</a>참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 이메일의 제품 목록<br /> </td> 
