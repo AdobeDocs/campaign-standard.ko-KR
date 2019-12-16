@@ -1,25 +1,25 @@
 ---
 title: 모바일 애플리케이션 구성
 description: SDK V4 또는 Experience Platform SDK 파섹
-page-status-flag: 활성화 안 함
-uuid: 63e1476a-7875-4f4 파섹
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 63e1476a-7875-4f48-ba9e-97f1a0007e42
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
-topic-tags: 구성 채널
-discoiquuid: 2a14500f-5edge-4131-8b1a-b7fd65b7e3aa
+topic-tags: configuring-channels
+discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
 
 ---
 
 
 # 모바일 애플리케이션 구성{#configuring-a-mobile-application}
 
-푸시 알림 또는 인앱 메시지는 사용하려는 채널에 따라 먼저 Adobe Mobile Services에서 구성해야 하는 모바일 애플리케이션에서 수신됩니다.
+푸시 알림 또는 인앱 메시지는 사용하려는 채널에 따라 먼저 Adobe Campaign Standard에서 구성해야 하는 모바일 애플리케이션에서 수신됩니다.
 
 * 인앱 메시지와 푸시 알림을 전송하려면 Adobe Experience Platform SDK를 활용하여 모바일 애플리케이션을 Adobe Campaign에서 설정해야 합니다. Adobe [Experience Platform SDK 사용을 참조하십시오](#using-adobe-experience-platform-sdk).
 
