@@ -1,18 +1,18 @@
 ---
 title: 템플릿 기본 정보
 description: '"Adobe Campaign 템플릿을 사용하면 필요에 따라 매개 변수를 미리 구성할 수 있습니다.템플릿은 마케팅 활동의 전체 또는 부분 구성을 포함할 수 있으며, 기술적인 지식이 없는 최종 사용자를 위해 Adobe Campaign 사용을 단순화합니다."'
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
-topic-tags: 관리 템플릿
-discoiquuid: 95218ebe-5430-42a2-b900-1ddabbc92d99
+topic-tags: managing-templates
+discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -64,7 +64,7 @@ HTML 컨텐츠 템플릿은 고급 메뉴의 **[!UICONTROL Resources]** &gt; **[
 
 ### 즉시 사용 가능한 이메일 컨텐츠 템플릿 {#email-content-templates}
 
-이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 제공되는 HTML 콘텐츠를 관리할 [수](../../designing/using/overview.md) 있습니다.
+이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 제공되는 HTML 콘텐츠를 관리할 [수](../../designing/using/designing-content-in-adobe-campaign.md) 있습니다.
 
 즉시 사용 가능한 이메일 컨텐츠 템플릿에는 18개의 모바일에 최적화된 레이아웃과 Behance 아티스트가 디자인한 4개의 동급 최강의 반응형 템플릿이 포함되어 있습니다. 이러한 메시지는 고객 환영 메시지, 뉴스레터 및 재참여 이메일과 같은 최신 사용에 해당합니다. 또한 브랜드 콘텐츠로 손쉽게 맞춤화하여 처음부터 이메일 디자인 프로세스를 간소화할 수 있습니다.
 
@@ -73,7 +73,7 @@ HTML 컨텐츠 템플릿은 고급 메뉴의 **[!UICONTROL Resources]** &gt; **[
 **관련 항목:**
 
 * 이 [비디오에서](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)콘텐츠 템플릿을 개인화하는 방법을 살펴보십시오.
-* 컨텐츠 편집에 대한 자세한 내용은 이메일 [컨텐츠 디자인](../../designing/using/overview.md)정보를 참조하십시오.
+* 컨텐츠 편집에 대한 자세한 내용은 이메일 [컨텐츠 디자인](../../designing/using/designing-content-in-adobe-campaign.md)정보를 참조하십시오.
 
 ### Creating a content template {#creating-a-content-template}
 
@@ -93,7 +93,7 @@ HTML 컨텐츠 템플릿은 고급 메뉴의 **[!UICONTROL Resources]** &gt; **[
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   이 축소판은 이메일 디자이너 **[!UICONTROL Templates]** 홈 페이지의 [탭에](../../designing/using/overview.md) 표시됩니다.
+   이 축소판은 이메일 디자이너 **[!UICONTROL Templates]** 홈 페이지의 [탭에](../../designing/using/designing-content-in-adobe-campaign.md) 표시됩니다.
 
 1. 탭을 **[!UICONTROL Properties]** 닫아서 주 작업 영역으로 돌아갑니다.
 1. 필요에 따라 사용자 정의할 수 있는 구조 구성 요소 및 컨텐츠 구성 요소를 추가합니다.
@@ -102,7 +102,7 @@ HTML 컨텐츠 템플릿은 고급 메뉴의 **[!UICONTROL Resources]** &gt; **[
    > 콘텐츠 템플릿 내에는 개인화 필드 또는 조건부 콘텐츠를 삽입할 수 없습니다.
 1. 편집한 후에는 템플릿을 저장합니다.
 
-이제 이메일 디자이너와 함께 작성된 모든 이메일에서 이 템플릿을 사용할 수 있습니다. 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 [선택합니다](../../designing/using/overview.md) .
+이제 이메일 디자이너와 함께 작성된 모든 이메일에서 이 템플릿을 사용할 수 있습니다. 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 [선택합니다](../../designing/using/designing-content-in-adobe-campaign.md) .
 
 ![](assets/content_template_new.png)
 
@@ -124,7 +124,7 @@ HTML 컨텐츠 템플릿은 고급 메뉴의 **[!UICONTROL Resources]** &gt; **[
 
 1. 방금 만든 템플릿을 찾으려면 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**&#x200B;로 이동합니다.
 
-1. 새 템플릿을 사용하려면 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 [템플릿을](../../designing/using/overview.md) 선택합니다.
+1. 새 템플릿을 사용하려면 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 [템플릿을](../../designing/using/designing-content-in-adobe-campaign.md) 선택합니다.
 
    ![](assets/content_template_new.png)
 
