@@ -1,18 +1,18 @@
 ---
 title: Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보
 description: Audience Manager/People 핵심 서비스 통합을 통해 다양한 Adobe Experience Cloud 솔루션 내에서 고객 또는 세그먼트를 공유할 수 있습니다.
-page-status-flag: 활성화 안 함
-uuid: 39e3c78e-ccd-4823-afe9-abc7f8aef034
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 통합
+audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 0062079addfbcd577faa1b16096f4588a05a8f78
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign을 사용하면 다양한 Adobe Experience Cloud 애플리케이�
 통합은 두 가지 유형의 Adobe Experience Cloud ID를 지원합니다.
 
 * **방문자 ID**:이 유형의 ID를 사용하면 Adobe Experience Cloud 방문자를 Adobe Campaign 프로필과 조정할 수 있습니다.
-* **선언된 ID**:이 유형의 ID를 사용하면 모든 유형의 데이터를 Adobe Campaign 데이터베이스의 프로필과 조정할 수 있습니다. 이 통합은 일반 선언된 ID, 해시된 선언된 ID 및 암호화된 선언된 ID를 지원합니다. 유효성에 대한 자세한 내용은 이 **[!UICONTROL Declared ID]** 페이지를 [](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)참조하십시오.
+* **선언된 ID**:이 유형의 ID를 사용하면 모든 유형의 데이터를 Adobe Campaign 데이터베이스의 프로필과 조정할 수 있습니다. 이 통합은 일반 선언된 ID, 해시된 선언된 ID 및 암호화된 선언된 ID를 지원합니다.
 
    암호화를 사용하면 암호화 알고리즘을 지정하여 선언된 ID를 사용하여 데이터 소스(예: PII)에서 암호화된 데이터를 공유할 수 있습니다.
 
