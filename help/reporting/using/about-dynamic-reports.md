@@ -1,18 +1,18 @@
 ---
 title: 동적 보고서 기본 정보
 description: 동적 보고서를 사용하면 변수 및 차원을 자유 형식 환경으로 드래그하여 놓고 캠페인의 성공을 분석할 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보고
+audience: reporting
 content-type: reference
-topic-tags: 정보 보고
+topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -63,10 +63,6 @@ Dynamic Reporting은 사용자 정의 가능하고 실시간 보고서를 제공
 
 ## 동적 보고 사용 계약서 {#dynamic-reporting-usage-agreement}
 
->[!NOTE]
->
-> Campaign Standard 19.4 릴리스부터 동적 보고에 대한 동의 팝업이 Adobe Campaign Standard 및 Microsoft Dynamics 365 통합을 포함하도록 업데이트되었습니다.
-
 동적 보고 사용 계약서의 목적은 데이터 처리에 대한 팝업 동의로 작동하기 위한 것입니다. 기본적으로 계약은 표시만 되며 관리 권한이 부여된 사용자만 수락하거나 거부할 수 있습니다.
 
 다음 세 가지 옵션을 사용할 수 있습니다.
@@ -92,7 +88,5 @@ Dynamic Reporting은 사용자 정의 가능하고 실시간 보고서를 제공
 이 선택 사항은 최종본이 아닙니다. &gt; **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** &gt; **[!UICONTROL Administration]** **[!UICONTROL Application Settings]** **[!UICONTROL Options]**&#x200B;에서 선택하여 언제든지 변경할 수 있습니다.
 
 값은 언제든지 변경할 수 있습니다. 값 1은 **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** 및 3 **[!UICONTROL Accept]**&#x200B;에 해당합니다.
-
-Adobe Campaign Standard 19.4 이전 릴리스의 경우 -1 값은 **[!UICONTROL Ask me later]**, 0 **[!UICONTROL Decline]** 및 1 **[!UICONTROL Accept]**&#x200B;에 해당합니다.
 
 ![](assets/pii_window_2.png)
