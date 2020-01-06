@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
+source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
 
@@ -34,12 +34,8 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
    + 마케팅 계획 {#marketing-plans}
       + [프로그램 및 캠페인](start/using/programs-and-campaigns.md)
       + [마케팅 활동](start/using/marketing-activities.md)
+      + [마케팅 활동 템플릿](start/using/marketing-activity-templates.md)
       + [타임라인](start/using/timeline.md)
-   + 템플릿 관리 {#managing-templates}
-      + [템플릿 기본 정보](start/using/about-templates.md)
-      + [템플릿 새로 만들기](start/using/creating-a-new-template.md)
-      + [다국어 템플릿 만들기](start/using/creating-a-multilingual-template.md)
-      + [템플릿 사용](start/using/using-a-template.md)
    + 튜토리얼 {#tutorials}
       + [단계별 지침](start/using/step-by-step-guides.md)
       + [사용법 비디오](start/using/how-to-videos.md)
