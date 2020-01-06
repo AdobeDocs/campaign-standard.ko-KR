@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -24,15 +24,15 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 서비스를 구성하려면:
 
-1. 고급 메뉴 **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Services]** Adobe Campaign 로고를 통해 새 서비스를 추가하거나 기존 서비스를 선택합니다. 새 서비스를 만드는 경우 화면에 표시된 단계를 따르기만 하면 됩니다.
+1. 고급 메뉴 **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Services]** Adobe Campaign 로고를 통해 새 서비스를 추가하거나 기존 서비스를 선택합니다. 새 서비스를 만드는 경우 화면에 표시된 단계를 따르기만 하면 됩니다.
 
-   기본 서비스 템플릿을 사용할 수 있습니다. 이 템플릿은 기본 랜딩 페이지와 확인 이메일로 미리 구성됩니다. 다른 템플릿을 만들어 특정 구성을 정의할 수 있습니다. 자세한 내용은 템플릿 [관리](../../start/using/about-templates.md) 섹션을 참조하십시오.
+   기본 서비스 템플릿을 사용할 수 있습니다. 이 템플릿은 기본 랜딩 페이지와 확인 이메일로 미리 구성됩니다. 다른 템플릿을 만들어 특정 구성을 정의할 수 있습니다. 자세한 내용은 템플릿 [관리](../../start/using/marketing-activity-templates.md) 섹션을 참조하십시오.
 
-1. 서비스 **[!UICONTROL Service properties]** ![](assets/edit_darkgrey-24px.png) 대시보드의 단추를 통해 액세스하는 섹션에서 구독 및 가입 취소에 대한 확인 메시지를 구성합니다.
+1. 서비스 **[!UICONTROL Service properties]**![](assets/edit_darkgrey-24px.png)대시보드의 단추를 통해 액세스하는 섹션에서 구독 및 가입 취소에 대한 확인 메시지를 구성합니다.
 
    ![](assets/lp_service_parameters.png)
 
-1. 필드를 **[!UICONTROL Service label]** 채웁니다. 사용자 지정 확인 메시지를 사용하는 경우 서비스 레이블은 필수입니다.
+1. 필드를 **[!UICONTROL Service label]**채웁니다. 사용자 지정 확인 메시지를 사용하는 경우 서비스 레이블은 필수입니다.
 
 1. 구독 및 가입 취소에 대한 확인 메시지 템플릿을 선택합니다. 다음 세 가지 모드를 사용할 수 있습니다.
 
@@ -41,9 +41,9 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
       >[!NOTE]
       >
-      >확인란을 선택한 후 **[!UICONTROL Service properties]** 섹션에서 해당 레이블을 클릭하거나 Adobe Campaign 트랜잭션 메시지 목록에서 선택하여 기본 메시지를 수정할 수 **[!UICONTROL Show internal transactional messages]** 있습니다.
+      >확인란을 선택한 후 **[!UICONTROL Service properties]**섹션에서 해당 레이블을 클릭하거나 Adobe Campaign 트랜잭션 메시지 목록에서 선택하여 기본 메시지를 수정할 수**[!UICONTROL Show internal transactional messages]** 있습니다.
 
-   * **[!UICONTROL Custom message]**:이 모드에서는 각 서비스별 사용자 지정 확인 메시지를 처리할 수 있습니다. 그런 다음 특정 **[!UICONTROL Custom subscription event configuration]** 거래 메시지 [](../../channels/using/about-transactional-messaging.md) 템플릿과 연결된 항목을 선택합니다. 자세한 내용은 서비스 [가입](../../audiences/using/confirming-subscription-to-a-service.md)확인을 참조하십시오.
+   * **[!UICONTROL Custom message]**:이 모드에서는 각 서비스별 사용자 지정 확인 메시지를 처리할 수 있습니다. 그런 다음 특정**[!UICONTROL Custom subscription event configuration]** 거래 메시지 [](../../channels/using/about-transactional-messaging.md) 템플릿과 연결된 항목을 선택합니다. 자세한 내용은 서비스 [가입](../../audiences/using/confirming-subscription-to-a-service.md)확인을 참조하십시오.
 
 1. 서비스를 저장합니다. 이제 사용할 준비가 되었습니다.
 
