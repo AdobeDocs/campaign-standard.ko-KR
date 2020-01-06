@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
 
 ---
 
@@ -23,13 +23,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 1. 이메일 마케팅 활동 만들기를 시작한 후 사용할 템플릿을 선택합니다.
 
-   기본적으로 각 마케팅 활동에 대해 여러 템플릿 중에서 선택할 수 있습니다. 이를 통해 필요에 따라 특정 매개 변수를 미리 구성할 수 있고 브랜드는 게재에 할당할 수도 있습니다. 자세한 내용은 템플릿 [관리를](../../start/using/about-templates.md)참조하십시오.
+   기본적으로 각 마케팅 활동에 대해 여러 템플릿 중에서 선택할 수 있습니다. 이를 통해 필요에 따라 특정 매개 변수를 미리 구성할 수 있고 브랜드는 게재에 할당할 수도 있습니다. 자세한 내용은 템플릿 [관리를](../../start/using/marketing-activity-templates.md)참조하십시오.
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >후속 작업 및 A/B 테스트 템플릿은 기본적으로 숨겨집니다. 표시하려면 왼쪽( **[!UICONTROL Filter]** 측면 패널)의 상자를 선택합니다.
+   >후속 작업 및 A/B 테스트 템플릿은 기본적으로 숨겨집니다. 표시하려면 왼쪽( **[!UICONTROL Filter]**측면 패널)의 상자를 선택합니다.
 
 1. 이메일의 일반 속성을 입력합니다. 레이블 필드에 이름을 입력하고 **ID를** 편집할 수 있습니다. 활동 이름과 해당 ID는 인터페이스에 모두 표시되지만 메시지 수신자는 볼 수 없습니다.
 
@@ -58,11 +58,11 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    >[!NOTE]
    >
-   >이메일을 저장하려면 먼저 컨텐츠를 편집해야 합니다. 이 **[!UICONTROL Cancel]** 지점을 클릭하면 마법사가 완료되지 않고 이메일이 생성되지 않습니다.
+   >이메일을 저장하려면 먼저 컨텐츠를 편집해야 합니다. 이 **[!UICONTROL Cancel]**지점을 클릭하면 마법사가 완료되지 않고 이메일이 생성되지 않습니다.
 
    그러면 이메일 대시보드가 표시됩니다. 메시지를 확인하고 전송을 [준비할 수 있습니다](../../sending/using/preparing-the-send.md).
 
-   오른쪽 상단 모서리의 **[!UICONTROL Edit properties]** 단추를 사용하여 이메일의 속성을 편집할 수 있습니다. 예를 들어 배달 준비 시 레이블이 계산되도록 이메일을 구성할 수 있습니다.  사용 가능한 매개 변수가 [이 섹션에](../../administration/using/configuring-email-channel.md#list-of-email-properties)나열됩니다.
+   오른쪽 상단 모서리의 **[!UICONTROL Edit properties]**단추를 사용하여 이메일의 속성을 편집할 수 있습니다. 예를 들어 배달 준비 시 레이블이 계산되도록 이메일을 구성할 수 있습니다.  사용 가능한 매개 변수가[이 섹션에](../../administration/using/configuring-email-channel.md#list-of-email-properties)나열됩니다.
 
    ![](assets/delivery_dashboard_2.png)
 
