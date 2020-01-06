@@ -1,19 +1,19 @@
 ---
 title: 브랜딩
 description: 브랜딩 ID를 관리하는 데 사용할 수 있는 모든 툴을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
-context-tags: 브랜딩,개요;브랜딩,기본
+context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -31,14 +31,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 브랜드 구성 및 사용의 주요 원칙은 다음과 같습니다.
 
 1. 브랜드 만들기 및 구성 - 이 작업은 특정 권한이 필요하며 Adobe Campaign 기술 관리자가 수행합니다.
-1. 이 브랜드에 대해 하나 또는 여러 개의 배달 및 랜딩 페이지 템플릿을 만듭니다. 템플릿 [만들기](../../start/using/about-templates.md) 섹션을 참조하십시오.
+1. 이 브랜드에 대해 하나 또는 여러 개의 배달 및 랜딩 페이지 템플릿을 만듭니다. 템플릿 [만들기](../../start/using/marketing-activity-templates.md) 섹션을 참조하십시오.
 1. 이 템플릿을 기반으로 메시지와 랜딩 페이지를 만듭니다. 이메일 [만들기](../../channels/using/creating-an-email.md) 및 랜딩 페이지 [](../../channels/using/designing-a-landing-page.md) 만들기 섹션을 참조하십시오.
 
 >[!CAUTION]
 >
 >최종 사용자가 브랜드를 만들거나 수정할 수 없습니다.이러한 작업은 Adobe Campaign 기술 관리자가 수행해야 합니다. 요청 시 Adobe 고객 지원 센터에 문의하십시오. 트랜잭션 메시지 컨텍스트에서는 다중 브랜딩을 사용할 수 없습니다. 자세한 내용은 트랜잭션 메시지 [및 브랜딩을](../../channels/using/about-transactional-messaging.md#permissions-and-branding)참조하십시오.
 
-브랜드는 **[!UICONTROL Administration > Instance settings > Brand configuration]** 메뉴에서 찾을 수 있습니다.
+브랜드는 **[!UICONTROL Administration > Instance settings > Brand configuration]**메뉴에서 찾을 수 있습니다.
 
 기본적으로 새로 만든 브랜드는 관리자가 해당 권한을 가진 사용자만 볼 수 있습니다.
 
@@ -53,7 +53,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    * **브랜드의 웹 사이트** URL **및 웹 사이트 레이블**
    * **브랜드 로고**
 
-* **[!UICONTROL Header parameters of sent emails]** 캠페인 수신자가 보게 될 내용을 개인화합니다. 이 섹션에는 다음 필드가 포함되어 있습니다.
+* **[!UICONTROL Header parameters of sent emails]**캠페인 수신자가 보게 될 내용을 개인화합니다. 이 섹션에는 다음 필드가 포함되어 있습니다.
 
    ![](assets/branding_04_header.png)
 
@@ -74,7 +74,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    * **배달 중 추적된 URL로 사용되는 추적 서버의** 외부 URL입니다.
    * **게재에서 기본 미러 페이지로 사용되는 미러 페이지 서버의** 외부 URL입니다.
 
-* **[!UICONTROL Tracking URL configuration (Web Analytics)]**&#x200B;에 대한 URL 추적 구성을 정의합니다.
+* **[!UICONTROL Tracking URL configuration (Web Analytics)]**에 대한 URL 추적 구성을 정의합니다.
 
    Adobe Analytics 또는 Google Analytics와 같은 웹 분석 도구와 같은 외부 시스템에서 링크를 추적할 수 있도록 하는 추가 매개 변수가 여기에 정의되어 있습니다.
 
@@ -88,11 +88,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->템플릿 만들기에 대한 자세한 내용은 템플릿 [만들기](../../start/using/about-templates.md) 섹션을 참조하십시오.
+>템플릿 만들기에 대한 자세한 내용은 템플릿 [만들기](../../start/using/marketing-activity-templates.md) 섹션을 참조하십시오.
 
 템플릿이 만들어지면 브랜드에 연결할 수 있습니다. 이렇게 하려면:
 
-1. 템플릿 속성에 액세스하려면 **[!UICONTROL Edit properties]** 단추를 클릭합니다.
+1. 템플릿 속성에 액세스하려면 **[!UICONTROL Edit properties]**단추를 클릭합니다.
 
    ![](assets/branding_04.png)
 
@@ -100,11 +100,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >기본적으로 **[!UICONTROL Default brand (branding)]** 이 선택됩니다.
+   >기본적으로 **[!UICONTROL Default brand (branding)]**이 선택됩니다.
 
    ![](assets/branding_05.png)
 
-   선택한 브랜드가 구성되는 방식을 보려면 **[!UICONTROL Navigate to the detail of the element selected]** 아이콘을 클릭합니다.
+   선택한 브랜드가 구성되는 방식을 보려면 **[!UICONTROL Navigate to the detail of the element selected]**아이콘을 클릭합니다.
 
    ![](assets/branding_06.png)
 
@@ -122,7 +122,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >브랜드 구성은 특정 권한 및 기술 설정이 필요하므로 Adobe에서만 관리됩니다.
 
-1. Adobe Campaign 관리자가 브랜드를 만듭니다 **[!UICONTROL Administration > Instance settings > Brand configuration]**. 그는 고급 **메뉴에서 열대지방의 휴가** 요소를 추가하고 브랜드에 대한 **[!UICONTROL ID]** 정보를 구성합니다 **[!UICONTROL Header parameters of sent emails]** .
+1. Adobe Campaign 관리자가 브랜드를 만듭니다 **[!UICONTROL Administration > Instance settings > Brand configuration]**. 그는 고급**&#x200B;메뉴에서 열대지방의 휴가&#x200B;**요소를 추가하고 브랜드에 대한**[!UICONTROL ID]** 정보를 구성합니다 **[!UICONTROL Header parameters of sent emails]**.
 
    ![](assets/branding_07.png)
 
@@ -138,7 +138,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 배달 관리자는 새 브랜드를 사용할 배달 템플릿을 만들어야 합니다. 이를 위해서는 아래 단계를 따르십시오.
 
-1. 고급 메뉴에서 기본 제공 템플릿을 **[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;복제하여 새 배달 템플릿을 구성합니다.
+1. 고급 메뉴에서 기본 제공 템플릿을 **[!UICONTROL Resources > Templates > Delivery templates]**복제하여 새 배달 템플릿을 구성합니다.
 
    ![](assets/branding_08.png)
 
@@ -157,11 +157,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 브랜드에 연결된 이메일을 만들려면 아래 단계를 따르십시오.
 
-1. 메뉴에서 **[!UICONTROL Create]** 단추를 클릭합니다 **[!UICONTROL Marketing activities]** .
+1. 메뉴에서 **[!UICONTROL Create]**단추를 클릭합니다**[!UICONTROL Marketing activities]** .
 
    ![](assets/branding_14.png)
 
-1. 활동을 **[!UICONTROL Email]** 선택한 다음 새 브랜드에 연결된 템플릿을 선택합니다.
+1. 활동을 **[!UICONTROL Email]**선택한 다음 새 브랜드에 연결된 템플릿을 선택합니다.
 
    ![](assets/branding_15.png)
 
