@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: b26f83cd84d85d4794278af5df5d4308b2de467f
 
 ---
 
@@ -24,15 +24,30 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 >[!NOTE]
 >
-> Adobe Campaign Standard에서는 리소스 &gt; 템플릿 메뉴에서 액세스할 수 있는 다양한 유형의 템플릿을 **만들** 수 **** 있습니다. 이메일 디자이너에서 사용되는 템플릿은 컨텐츠 템플릿입니다. 자세한 내용은 템플릿 [정보를](../../start/using/about-templates.md)참조하십시오.
+> Adobe Campaign Standard에서는 리소스 > 템플릿 메뉴에서 액세스할 수 있는 다양한 유형의 템플릿을 **만들** 수 **** 있습니다. 이메일 디자이너에서 사용되는 템플릿은 컨텐츠 템플릿입니다. 자세한 내용은 템플릿 [정보를](../../start/using/marketing-activity-templates.md)참조하십시오.
 
-### 컨텐츠 템플릿 {#content-templates}
+### 컨텐츠 템플릿 정보 {#content-templates}
 
-이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 제공되는 HTML 콘텐츠를 관리할 [수](../../designing/using/designing-content-in-adobe-campaign.md) 있습니다. 다양한 템플릿은 여러 유형의 요소를 다양하게 조합하여 제공합니다. 예를 들어 '페더' 템플릿에는 여백이 있지만 '아스트로' 템플릿에는 여백이 없습니다. 자세한 내용은 컨텐츠 [템플릿을](#content-templates)참조하십시오.
+이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]**탭에서 제공되는 HTML 콘텐츠를 관리할[수](../../designing/using/designing-content-in-adobe-campaign.md)있습니다.
+
+즉시 사용 가능한 이메일 컨텐츠 템플릿에는 18개의 모바일에 최적화된 레이아웃과 Behance 아티스트가 디자인한 4개의 동급 최강의 반응형 템플릿이 포함되어 있습니다. 이러한 메시지는 고객 환영 메시지, 뉴스레터 및 재참여 이메일과 같은 최신 사용에 해당합니다. 또한 브랜드 콘텐츠로 손쉽게 맞춤화하여 처음부터 이메일 디자인 프로세스를 간소화할 수 있습니다.
 
 ![](assets/template_content.png)
 
-기본 템플릿에서 이메일을 작성하는 방법에 대한 자세한 내용은 이메일 [디자이너를 참조하십시오](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template).
+HTML 컨텐츠 템플릿은 고급 메뉴의 **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]** 화면에서 액세스할 [수 있습니다](../../start/using/interface-description.md#advanced-menu). 여기에서 랜딩 페이지 컨텐츠 템플릿, 이메일 컨텐츠 템플릿 및 조각을 관리할 수 있습니다.
+
+![](assets/content_templates_list.png)
+
+기본 컨텐츠 템플릿은 읽기 전용입니다. 이러한 템플릿 중 하나를 편집하려면 먼저 원하는 템플릿을 복제해야 합니다.
+
+새 템플릿 또는 조각을 만들고 자신만의 컨텐츠를 정의할 수 있습니다. 자세한 내용은 컨텐츠 템플릿 [만들기 및](#creating-a-content-template) 컨텐츠 조각 [만들기를 참조하십시오](#creating-a-content-fragment).
+
+이메일 디자이너를 사용하여 컨텐츠를 편집할 때 컨텐츠를 조각 또는 템플릿으로 저장하여 컨텐츠 템플릿을 만들 수도 있습니다. 자세한 내용은 컨텐츠를 템플릿으로 [저장 및](#saving-content-as-template) 컨텐츠를 조각으로 [저장을 참조하십시오](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+
+**관련 항목:**
+
+* 이 [비디오에서](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)콘텐츠 템플릿을 개인화하는 방법을 살펴보십시오.
+* 컨텐츠 편집에 대한 자세한 내용은 이메일 [컨텐츠 디자인](../../designing/using/designing-content-in-adobe-campaign.md)정보를 참조하십시오.
 
 ### Creating a content template {#creating-a-content-template}
 
@@ -40,28 +55,28 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 다음 예는 이메일 컨텐츠 템플릿을 만드는 방법을 보여줍니다.
 
-1. &gt; **[!UICONTROL Resources]** 로 **[!UICONTROL Content templates & fragments]** 이동한 다음 을 클릭합니다 **[!UICONTROL Create]**.
-1. 이메일 디자이너의 **[!UICONTROL Properties]** 탭에 액세스하려면 이메일 레이블을 클릭합니다.
+1. > **[!UICONTROL Resources]**로**[!UICONTROL Content templates & fragments]** 이동한 다음 을 클릭합니다 **[!UICONTROL Create]**.
+1. 이메일 디자이너의 **[!UICONTROL Properties]**탭에 액세스하려면 이메일 레이블을 클릭합니다.
 1. 인식할 수 있는 레이블을 지정하고 이 템플릿을 이메일에 사용할 수 있도록 다음 매개 변수를 선택합니다.
 
-   * **[!UICONTROL Shared]** **[!UICONTROL Delivery]** **[!UICONTROL Content type]** 드롭다운 목록에서 또는 을 선택합니다.
-   * 드롭다운 **[!UICONTROL Template]** 목록에서 **[!UICONTROL HTML type]** 선택합니다.
+   * **[!UICONTROL Shared]****[!UICONTROL Delivery]** **[!UICONTROL Content type]**드롭다운 목록에서 또는 을 선택합니다.
+   * 드롭다운 **[!UICONTROL Template]**목록에서**[!UICONTROL HTML type]** 선택합니다.
    ![](assets/email_designer_create-template.png)
 
-1. 필요한 경우 템플릿의 축소판으로 사용할 이미지를 설정할 수 있습니다. 템플릿 속성의 **[!UICONTROL Thumbnail]** 탭에서 선택합니다.
+1. 필요한 경우 템플릿의 축소판으로 사용할 이미지를 설정할 수 있습니다. 템플릿 속성의 **[!UICONTROL Thumbnail]**탭에서 선택합니다.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   이 축소판은 이메일 디자이너 **[!UICONTROL Templates]** 홈 페이지의 [탭에](../../designing/using/designing-content-in-adobe-campaign.md) 표시됩니다.
+   이 축소판은 이메일 디자이너 **[!UICONTROL Templates]**홈 페이지의[탭에](../../designing/using/designing-content-in-adobe-campaign.md)표시됩니다.
 
-1. 탭을 **[!UICONTROL Properties]** 닫아서 주 작업 영역으로 돌아갑니다.
+1. 탭을 **[!UICONTROL Properties]**닫아서 주 작업 영역으로 돌아갑니다.
 1. 필요에 따라 사용자 정의할 수 있는 구조 구성 요소 및 컨텐츠 구성 요소를 추가합니다.
    >[!NOTE]
    >
    > 콘텐츠 템플릿 내에는 개인화 필드 또는 조건부 콘텐츠를 삽입할 수 없습니다.
 1. 편집한 후에는 템플릿을 저장합니다.
 
-이제 이메일 디자이너와 함께 작성된 모든 이메일에서 이 템플릿을 사용할 수 있습니다. 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 [선택합니다](../../designing/using/designing-content-in-adobe-campaign.md) .
+이제 이메일 디자이너와 함께 작성된 모든 이메일에서 이 템플릿을 사용할 수 있습니다. 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]**탭에서[선택합니다](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ![](assets/content_template_new.png)
 
@@ -73,7 +88,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. 이메일 **[!UICONTROL Save as template]** 디자이너 기본 도구 모음에서 선택합니다.
+1. 이메일 **[!UICONTROL Save as template]**디자이너 기본 도구 모음에서 선택합니다.
 
    ![](assets/email_designer_save-as-template.png)
 
@@ -81,9 +96,9 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. 방금 만든 템플릿을 찾으려면 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**&#x200B;로 이동합니다.
+1. 방금 만든 템플릿을 찾으려면 **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]**&#x200B;로 이동합니다.
 
-1. 새 템플릿을 사용하려면 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]** 탭에서 [템플릿을](../../designing/using/designing-content-in-adobe-campaign.md) 선택합니다.
+1. 새 템플릿을 사용하려면 이메일 디자이너 홈 페이지의 **[!UICONTROL Templates]**탭에서[템플릿을](../../designing/using/designing-content-in-adobe-campaign.md)선택합니다.
 
    ![](assets/content_template_new.png)
 
@@ -97,11 +112,11 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   HTML 코드에 익숙한 경우 원본 이메일의 보다 복잡한 요소를 복사하여 붙여넣을 수 있는 구성 요소를 활용하는 것이 좋습니다. **[!UICONTROL Html]** 기타 구성 요소( **[!UICONTROL Button]**&#x200B;예: **[!UICONTROL Image]** 또는 **[!UICONTROL Text]** 나머지 컨텐츠)를 사용합니다. 자세한 내용은 컨텐츠 구성 [요소](../../designing/using/designing-from-scratch.md#about-content-components)정보를 참조하십시오.
+   HTML 코드에 익숙한 경우 원본 이메일의 보다 복잡한 요소를 복사하여 붙여넣을 수 있는 구성 요소를 활용하는 것이 좋습니다. **[!UICONTROL Html]**기타 구성 요소(**[!UICONTROL Button]**&#x200B;예: **[!UICONTROL Image]**또는**[!UICONTROL Text]** 나머지 컨텐츠)를 사용합니다. 자세한 내용은 컨텐츠 구성 [요소](../../designing/using/designing-from-scratch.md#about-content-components)정보를 참조하십시오.
 
    >[!NOTE]
    >
-   >구성 **[!UICONTROL Html]** 요소를 사용하면 제한된 옵션으로 편집할 수 있는 구성 요소가 생성됩니다. 이 구성 요소를 선택하기 전에 HTML 코드를 처리하는 방법을 알고 있어야 합니다.
+   >구성 **[!UICONTROL Html]**요소를 사용하면 제한된 옵션으로 편집할 수 있는 구성 요소가 생성됩니다. 이 구성 요소를 선택하기 전에 HTML 코드를 처리하는 방법을 알고 있어야 합니다.
 
 1. 컨텐츠 구성 요소를 최대한 원본 이메일에 맞게 조정할 수 있습니다.
 
@@ -128,7 +143,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 ## 조각 정보 {#about-fragments}
 
 조각은 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다.
-이러한 템플릿은 리소스 &gt; 컨텐츠 **조각** 및 **템플릿**&#x200B;아래의 인터페이스에서 찾을 수 있습니다.
+이러한 템플릿은 리소스 > 컨텐츠 **조각** 및 **템플릿**&#x200B;아래의 인터페이스에서 찾을 수 있습니다.
 
 이메일 디자이너에서 조각을 가장 잘 사용하려면
 
@@ -180,34 +195,34 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 필요에 따라 하나 이상의 이메일에서 사용할 컨텐츠 조각을 직접 만들 수 있습니다.
 
-1. &gt; **[!UICONTROL Resources]** 로 **[!UICONTROL Content templates & fragments]** 이동한 다음 을 클릭합니다 **[!UICONTROL Create]**.
-1. 이메일 디자이너의 **[!UICONTROL Properties]** 탭에 액세스하려면 이메일 레이블을 클릭합니다.
+1. > **[!UICONTROL Resources]**로**[!UICONTROL Content templates & fragments]** 이동한 다음 을 클릭합니다 **[!UICONTROL Create]**.
+1. 이메일 디자이너의 **[!UICONTROL Properties]**탭에 액세스하려면 이메일 레이블을 클릭합니다.
 1. 인식 가능한 레이블을 지정하고 이메일 컨텐츠를 편집할 때 조각을 찾으려면 다음 매개 변수를 선택합니다.
 
-   * 조각은 이메일만 호환되므로 **[!UICONTROL Delivery]** 드롭다운 **[!UICONTROL Content type]** 목록에서 선택합니다.
-   * 이 컨텐츠를 조각으로 사용할 수 **[!UICONTROL Fragment]** 있도록 **[!UICONTROL HTML type]** 드롭다운 목록에서 선택합니다.
+   * 조각은 이메일만 호환되므로 **[!UICONTROL Delivery]**드롭다운**[!UICONTROL Content type]** 목록에서 선택합니다.
+   * 이 컨텐츠를 조각으로 사용할 수 **[!UICONTROL Fragment]**있도록**[!UICONTROL HTML type]** 드롭다운 목록에서 선택합니다.
    ![](assets/email_designer_createfragment.png)
 
-1. 필요한 경우 조각의 축소판으로 사용할 이미지를 설정할 수 있습니다. 템플릿 속성의 **[!UICONTROL Thumbnail]** 탭에서 선택합니다.
+1. 필요한 경우 조각의 축소판으로 사용할 이미지를 설정할 수 있습니다. 템플릿 속성의 **[!UICONTROL Thumbnail]**탭에서 선택합니다.
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
    이 축소판은 이메일을 편집할 때 조각 레이블 옆에 표시됩니다.
 
-1. 탭을 **[!UICONTROL Properties]** 닫아서 주 작업 영역으로 돌아갑니다.
+1. 탭을 **[!UICONTROL Properties]**닫아서 주 작업 영역으로 돌아갑니다.
 1. 필요에 따라 사용자 정의할 수 있는 구조 구성 요소 및 컨텐츠 구성 요소를 추가합니다.
 
    >[!CAUTION]
    >
    >조각에는 개인화 필드, 동적 컨텐츠 또는 다른 조각을 포함할 수 없습니다.
    >
-   >빈 구조 구성 요소가 있는 조각 컨텐츠로 저장하지 마십시오. &gt;조각을 삽입하면 편집할 수 없습니다.
+   >빈 구조 구성 요소가 있는 조각 컨텐츠로 저장하지 마십시오. >조각을 삽입하면 편집할 수 없습니다.
    >
    >조각에서 [모바일 보기를](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) 사용할 수 없습니다.
 
 1. 편집한 후에는 조각을 저장합니다.
 
-이제 이 조각은 이메일 디자이너와 함께 빌드된 모든 이메일에서 사용할 수 있습니다. 팔레트의 섹션 아래에 나타납니다 **[!UICONTROL Fragments]** .
+이제 이 조각은 이메일 디자이너와 함께 빌드된 모든 이메일에서 사용할 수 있습니다. 팔레트의 섹션 아래에 나타납니다 **[!UICONTROL Fragments]**.
 
 >[!NOTE]
 >
@@ -221,7 +236,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * 서로 인접한 구조물만 선택할 수 있습니다.
 <!-- - You cannot select an empty structure.-->
 
-1. 이메일 디자이너에서 이메일을 편집할 때 기본 도구 모음에서 **[!UICONTROL Save as fragment]** 을 선택합니다.
+1. 이메일 디자이너에서 이메일을 편집할 때 기본 도구 모음에서 **[!UICONTROL Save as fragment]**을 선택합니다.
 
    ![](assets/email_designer_save-as-fragment.png)
 
@@ -234,13 +249,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
    >개인화 필드, 동적 컨텐츠 또는 다른 조각을 포함하지 않는 구조를 선택해야 합니다.
    <!--You cannot select an empty structure.-->
 
-1. Click **[!UICONTROL Create]**.
+1. 클릭 **[!UICONTROL Create]**.
 
 1. 필요한 경우 레이블과 설명을 추가한 다음 을 클릭합니다 **[!UICONTROL Save]**.
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. 방금 생성한 조각을 찾으려면 **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**&#x200B;로 이동합니다.
+1. 방금 생성한 조각을 찾으려면 **[!UICONTROL Resources]**>**[!UICONTROL Content templates & fragments]**&#x200B;로 이동합니다.
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
@@ -273,7 +288,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 이렇게 하려면 아래 절차를 따르십시오.
 
-1. Adobe Campaign에서 **[!UICONTROL Resources]** &gt;로 이동하여 **[!UICONTROL Content templates & fragments]** 헤더의 조각을 만듭니다. 자세한 내용은 컨텐츠 [조각](#creating-a-content-fragment)만들기를 참조하십시오.
+1. Adobe Campaign에서 **[!UICONTROL Resources]**>로 이동하여**[!UICONTROL Content templates & fragments]** 헤더의 조각을 만듭니다. 자세한 내용은 컨텐츠 [조각](#creating-a-content-fragment)만들기를 참조하십시오.
 1. 조각에 필요한 만큼 구조 구성 요소를 추가합니다.
 
 ![](assets/des_loading_compatible_fragment_1.png)
