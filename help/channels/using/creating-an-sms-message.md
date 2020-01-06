@@ -1,19 +1,19 @@
 ---
 title: SMS 메시지 만들기
 description: 다음 단계에 따라 Adobe Campaign에서 단일 전송 SMS 메시지를 만듭니다.
-page-status-flag: 활성화 안 함
-uuid: 591ae-2d19-4f93-be4b-d8d20f1d2d12
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: sms 메시지
+topic-tags: sms-messages
 discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
-delivercontext-tags: deliveryCreation,마법사
+delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -26,7 +26,7 @@ SMS 배달을 만드는 것은 일반 이메일을 만드는 것과 매우 유�
 
 SMS 메시지를 만들어 휴대폰에 보내려면 다음이 필요합니다.
 
-* 모드로 채널에 구성된 **[!UICONTROL Routing]** 외부 계정 **[!UICONTROL Mobile (SMS)]** **[!UICONTROL Bulk delivery]** . 자세한 내용은 라우팅 [섹션을 참조하십시오](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) .
+* 모드로 채널에 구성된 **[!UICONTROL Routing]**외부 계정**[!UICONTROL Mobile (SMS)]** **[!UICONTROL Bulk delivery]**. 자세한 내용은 라우팅[섹션을 참조하십시오](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 * 이 외부 계정에 올바르게 연결된 배달 템플릿입니다.
 
 1. SMS 전달 만들기 Adobe Campaign [홈 페이지](../../start/using/interface-description.md#home-page), [캠페인](../../start/using/marketing-activities.md#creating-a-marketing-activity) 또는 [마케팅 활동 목록에서](../../start/using/programs-and-campaigns.md#creating-a-campaign)이 작업을 수행할 수 있습니다.
@@ -51,7 +51,7 @@ SMS 메시지를 만들어 휴대폰에 보내려면 다음이 필요합니다.
 
    ![](assets/sms_creation_3.png)
 
-1. SMS에 컨텐츠 추가 SMS 만들기가 완료되면 배달 대시보드의 **[!UICONTROL Content]** 섹션을 클릭하여 컨텐츠를 정의할 수도 있습니다. SMS [컨텐츠 디자인](../../channels/using/about-sms-and-push-content-design.md)정보를 참조하십시오.
+1. SMS에 컨텐츠 추가 SMS 만들기가 완료되면 배달 대시보드의 **[!UICONTROL Content]**섹션을 클릭하여 컨텐츠를 정의할 수도 있습니다. SMS[컨텐츠 디자인](../../channels/using/about-sms-and-push-content-design.md)정보를 참조하십시오.
 
    개인화 필드 또는 조건부 텍스트를 SMS 메시지의 내용에 삽입한 경우 메시지 길이는 받는 사람마다 다를 수 있습니다. 실제로, 이러한 요소들은 GSM 인코딩에 의해 고려되지 않는 문자를 도입할 수 있습니다. 개인화가 수행되면 메시지 길이를 평가해야 하는 이유입니다. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
@@ -79,6 +79,6 @@ SMS 메시지를 만들어 휴대폰에 보내려면 다음이 필요합니다.
 **관련 항목:**
 
 * [SMS 및 푸시 컨텐츠 에디션 정보](../../channels/using/about-sms-and-push-content-design.md)
-* [템플릿 관리](../../start/using/about-templates.md)
+* [템플릿 관리](../../start/using/marketing-activity-templates.md)
 * [SMS 전달](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) 비디오 만들기
 
