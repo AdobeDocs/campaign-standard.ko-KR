@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
 
 ---
 
@@ -111,7 +111,7 @@ Launch_ **URL_Campaign** 옵션에 대한 메모가 페이지에 추가되었습
 
 컨텐츠 템플릿 및 조각을 설명하는 섹션이 업데이트되었습니다. [자세한 내용](../../designing/using/using-reusable-content.md#content-templates)
 
-이메일 컨텐츠를 이메일 디자이너의 템플릿으로 저장하는 방법에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../start/using/about-templates.md#saving-content-as-template)
+이메일 컨텐츠를 이메일 디자이너의 템플릿으로 저장하는 방법에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
 ## 릴리스 19.3 - 2019년 7월 {#release-19-3---july-2019}
 
@@ -359,13 +359,13 @@ SMS 커넥터 프로토콜 및 설정에 대한 새 기술 문서를 추가했�
 
 Adobe Campaign 설명서와 Experience Manager 통합을 업데이트했습니다. [자세한 내용](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-"콘텐츠 디자인" 가이드는 완전히 재구성되었으며, 특히 이메일에 사용할 컨텐츠를 디자인할 수 있는 두 가지 편집기를 제공합니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
+&quot;콘텐츠 디자인&quot; 가이드는 완전히 재구성되었으며, 특히 이메일에 사용할 컨텐츠를 디자인할 수 있는 두 가지 편집기를 제공합니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
 기존 이메일에서 조각을 만들어 Creative SDK를 통해 외부 컨텐츠를 완전히 편집할 수 있도록 하는 방법을 살펴봅니다. [자세한 내용](../../designing/using/designing-from-scratch.md)
 
 Creative Designer를 완벽하게 준수하기 위한 HTML 속성 목록을 이제 이 [섹션에서](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer)사용할 수 있습니다.
 
-다국어 템플릿의 기본 언어에 대한 정보가 추가되었습니다. [자세한 내용](../../start/using/creating-a-multilingual-template.md)
+다국어 템플릿의 기본 언어에 대한 정보가 추가되었습니다. [자세한 내용](../../channels/using/multilingual-messages-template.md)
 
 사용자 및 보안 안내서는 18.7 릴리스부터 새 캠페인 표준 인스턴스에 대한 지리적 단위 기능 감가 상각뿐만 아니라 지리적 단위를 만들지 않은 기존 인스턴스에 반영하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -415,7 +415,7 @@ Analytics에 있는 캠페인 지표 목록을 추가했습니다. [자세한 �
 
 쿼리 활동 섹션이 쿼리 샘플로 업데이트되었습니다. [자세한 내용](../../automating/using/query.md#query-samples)
 
-블랙리스트 전용 섹션의 이름이 "옵트인 및 옵트아웃 프로세스 이해"로 변경되었습니다. 특정 채널에 대한 옵트인 관리 방법 및 옵트인 및 옵트아웃을 관리하기 위한 랜딩 페이지 설정 방법에 대한 정보가 업데이트되었습니다. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+블랙리스트 전용 섹션의 이름이 &quot;옵트인 및 옵트아웃 프로세스 이해&quot;로 변경되었습니다. 특정 채널에 대한 옵트인 관리 방법 및 옵트인 및 옵트아웃을 관리하기 위한 랜딩 페이지 설정 방법에 대한 정보가 업데이트되었습니다. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Adobe 호스팅 SFTP 서버 사용에 대한 우수 사례를 알아봅니다. [자세한 내용](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -473,15 +473,15 @@ Campaign 및 Adobe 솔루션 통합에 대한 대부분의 URL이 변경되었�
 
 릴리스 노트는 두 페이지로 재구성되었으므로 서로 다른 모든 릴리스를 보다 전체적으로 볼 수 있습니다.최신 [릴리스 노트](../../rn/using/release-notes.md) 및 [이전 릴리스 노트](../../rn/using/release-notes-2015-2016.md)
 
-향상된 가시성을 위해 **[!UICONTROL Working with typologies]** 섹션이 업데이트되었습니다. [자세한 내용](../../administration/using/about-typology-rules.md)
+향상된 가시성을 위해 **[!UICONTROL Working with typologies]**섹션이 업데이트되었습니다.[자세한 내용](../../administration/using/about-typology-rules.md)
 
-이제 한 번에 많은 추가 데이터를 정의할 때 성능을 얻을 수 있는 새로운 옵션을 사용할 **[!UICONTROL Query]** 수 있습니다. [자세한 내용](../../automating/using/query.md)
+이제 한 번에 많은 추가 데이터를 정의할 때 성능을 얻을 수 있는 새로운 옵션을 사용할 **[!UICONTROL Query]**수 있습니다.[자세한 내용](../../automating/using/query.md)
 
 프로필 가져오기 예제가 몇 가지 팁으로 업데이트되어 프로필을 수신하여 직접 메일을 받을 수 있도록 했습니다. [자세한 내용](../../automating/using/importing-data.md)
 
-워크플로우에서 새 활동을 사용할 수 있습니다.활동을 **[!UICONTROL Enrichment]** 참조하십시오. [자세한 내용](../../automating/using/enrichment.md)
+워크플로우에서 새 활동을 사용할 수 있습니다.활동을 **[!UICONTROL Enrichment]**참조하십시오.[자세한 내용](../../automating/using/enrichment.md)
 
-단일 파일을 사용하여 여러 서비스에 대한 구독을 업데이트하는 등 더 많은 사용 사례를 지원하도록 **[!UICONTROL Subscription Services]** 활동이 업데이트되었습니다. [자세한 내용](../../automating/using/subscription-services.md)
+단일 파일을 사용하여 여러 서비스에 대한 구독을 업데이트하는 등 더 많은 사용 사례를 지원하도록 **[!UICONTROL Subscription Services]**활동이 업데이트되었습니다.[자세한 내용](../../automating/using/subscription-services.md)
 
 전달 준비 방법에 대한 단계별 사용 사례를 추가했습니다. [자세한 내용](../../sending/using/preparing-the-send.md)
 
@@ -491,7 +491,7 @@ SMS 자동 회신 사용 방법에 대한 단계별 사용 사례를 추가했�
 
 반복되는 워크플로우에서 사용자의 시간대에 따라 배달을 보내는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-단계별 사용 사례를 사용하여 **[!UICONTROL Customizing a push notification]** 섹션을 재구성합니다. [자세한 내용](../../channels/using/customizing-a-push-notification.md)
+단계별 사용 사례를 사용하여 **[!UICONTROL Customizing a push notification]**섹션을 재구성합니다.[자세한 내용](../../channels/using/customizing-a-push-notification.md)
 
 블랙리스트 관리 전용 새로운 섹션. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
@@ -539,7 +539,7 @@ Audience Manager 또는 사용자 핵심 서비스와의 통합을 구성하는 
 
 A/B 테스트 샘플이 업데이트되었습니다. [자세한 내용](../../channels/using/designing-an-a-b-test-email.md)
 
-모바일 앱에서 'PII 수집' 데이터를 보낼 때 프로필 데이터를 만들거나 업데이트하는 방법에 대한 새로운 기술 노트입니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-updating-profile-based-on-subscription.html)
+모바일 앱에서 &#39;PII 수집&#39; 데이터를 보낼 때 프로필 데이터를 만들거나 업데이트하는 방법에 대한 새로운 기술 노트입니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-updating-profile-based-on-subscription.html)
 
 새 내보내기 추적 기능에 대한 섹션이 추가되었습니다. [자세한 내용](../../administration/using/auditing-export-logs.md)
 
@@ -551,7 +551,7 @@ A/B 테스트 샘플이 업데이트되었습니다. [자세한 내용](../../ch
 
 배달 [경고](../../sending/using/receiving-alerts-when-failures-happen.md) 섹션이 이동 및 재구성되었습니다.
 
-필터 [정의 방법에](../../developing/using/configuring-filter-definition.md)대한 보다 자세한 절차를 통해 '사용자 정의 리소스' 섹션이 명확히 설명되었습니다.
+필터 [정의 방법에](../../developing/using/configuring-filter-definition.md)대한 보다 자세한 절차를 통해 &#39;사용자 정의 리소스&#39; 섹션이 명확히 설명되었습니다.
 
 Adobe Marketing Cloud [Mobile SDK를 모바일 앱과 통합하여 Adobe Campaign](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) Standard 푸시 알림을 수신하는 방법에 대한 기술 문서를 업데이트하고 명확히 했습니다.
 
@@ -605,7 +605,7 @@ ACS ID에 추가된 설명서 [자세한 내용](../../developing/using/configur
 
 파일 전송 워크플로우 활동에 대한 섹션이 업데이트되었습니다. [자세한 내용](../../automating/using/transfer-file.md)
 
-이메일 배달 워크플로우 활동의 "메시지를 보내기 전에 확인 요청" 옵션에 추가된 정보입니다. [자세한 내용](../../automating/using/email-delivery.md)
+이메일 배달 워크플로우 활동의 &quot;메시지를 보내기 전에 확인 요청&quot; 옵션에 추가된 정보입니다. [자세한 내용](../../automating/using/email-delivery.md)
 
 ## 릴리스 17.7 - 2017년 7월 {#release-17-7---july-2017}
 
@@ -649,11 +649,11 @@ DM - [자세한 내용](../../channels/using/about-direct-mail.md)
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-13}
 
-"배달" 안내서가 재구성되었으며 "채널"으로 이름이 변경되었습니다. [자세한 내용](../../channels/using/discovering-communication-channels.md)
+&quot;배달&quot; 안내서가 재구성되었으며 &quot;채널&quot;으로 이름이 변경되었습니다. [자세한 내용](../../channels/using/discovering-communication-channels.md)
 
 인터페이스 변경 사항을 반영하도록 많은 스크린샷이 업데이트되었습니다.
 
-이제 새 기술 문서를 사용할 수 있습니다."모바일 앱과 Adobe Mobile SDK 통합"을 참조하십시오. [자세한 내용](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
+이제 새 기술 문서를 사용할 수 있습니다.&quot;모바일 앱과 Adobe Mobile SDK 통합&quot;을 참조하십시오. [자세한 내용](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Adobe Campaign과 사람 핵심 서비스 또는 Audience Manager 통합 구성 지침이 업데이트되었습니다. [자세한 내용](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
