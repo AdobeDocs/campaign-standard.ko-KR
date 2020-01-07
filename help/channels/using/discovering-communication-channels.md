@@ -1,18 +1,18 @@
 ---
 title: 소통 채널 살펴보기
 description: 다양한 채널에서 개인화된 메시지를 전송하고 크로스채널 캠페인을 제작하여 수신자를 효과적으로 타겟팅하는 방법을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 정보 통신 채널
+topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
@@ -41,5 +41,4 @@ Adobe Campaign에서 사용할 수 있는 메시지 채널은
 
 **관련 항목**:
 
-* [전달 능력 최적화](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [전달 능력 최적화](../../sending/using/about-deliverability.md)
