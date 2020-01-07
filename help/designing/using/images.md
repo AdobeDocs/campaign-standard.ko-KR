@@ -1,23 +1,23 @@
 ---
-title: 이메일의 이미지 관리
+title: 이미지 작업
 description: 이메일 디자이너를 사용하여 이메일의 이미지를 관리하는 방법을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 디자인
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 
 ---
 
 
-# 이미지 {#images}
+# 이미지 작업 {#images}
 
 ## 이미지 삽입{#inserting-images}
 
@@ -33,16 +33,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->이메일의 HTML 버전을 편집하여 직접 이미지를 추가하도록 선택한 경우 HTML 페이지의 &lt;script&gt; 태그에서 **외부 파일을** 호출해서는 안 됩니다. 이러한 파일은 Adobe Campaign 서버로 가져오지 않습니다.
+>이메일의 HTML 버전을 편집하여 직접 이미지를 추가하도록 선택한 경우 HTML 페이지의 &lt;script> 태그에서 **외부 파일을** 호출해서는 안 됩니다. 이러한 파일은 Adobe Campaign 서버로 가져오지 않습니다.
 
 ### 이메일에 이미지 삽입 {#inserting-images-in-an-email}
 
 1. 구조 구성 요소를 추가합니다. 자세한 내용은 이메일 [구조](../../designing/using/designing-from-scratch.md#defining-the-email-structure)편집을 참조하십시오.
-1. 이 구조 구성 요소 내에서 **[!UICONTROL Image]** 콘텐츠 구성 요소를 추가합니다.
+1. 이 구조 구성 요소 내에서 **[!UICONTROL Image]**콘텐츠 구성 요소를 추가합니다.
 
    ![](assets/des_insert_images_1.png)
 
-1. Click **[!UICONTROL Browse]**. 이미지를 드래그하여 놓거나 클릭하여 컴퓨터에서 파일을 선택합니다.
+1. 클릭 **[!UICONTROL Browse]**. 이미지를 드래그하여 놓거나 클릭하여 컴퓨터에서 파일을 선택합니다.
 
    ![](assets/des_insert_images_2.png)
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 이메일을 편집할 때 **스타일을** 사용하면 이미지 크기, 배경 및 테두리를 지정할 수 있습니다.
 * 랜딩 페이지를 편집할 때 **차원을** 사용하면 이미지 크기를 픽셀 단위로 지정할 수 있습니다.
 
-편집기를 사용하면 브라우저와 호환되는 **모든 이미지 유형을** 사용하여 작업할 수 있습니다. 편집기와 호환되려면 **"Flash" 유형 애니메이션을** 다음과 같이 HTML 페이지에 삽입해야 합니다.
+편집기를 사용하면 브라우저와 호환되는 **모든 이미지 유형을** 사용하여 작업할 수 있습니다. 편집기와 호환되려면 **&quot;Flash&quot; 유형 애니메이션을** 다음과 같이 HTML 페이지에 삽입해야 합니다.
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
@@ -89,7 +89,7 @@ Adobe Creative SDK를 사용하여 이미지를 수정하려면:
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. 수정이 **[!UICONTROL Save]** 완료되면 을 클릭합니다. 업데이트된 이미지가 Adobe Campaign 서버에 저장되고 사용할 준비가 되었습니다.
+1. 수정이 **[!UICONTROL Save]**완료되면 을 클릭합니다. 업데이트된 이미지가 Adobe Campaign 서버에 저장되고 사용할 준비가 되었습니다.
 
 >[!NOTE]
 이미지 편집기에 제공된 도구를 사용자 지정할 수 없습니다.
