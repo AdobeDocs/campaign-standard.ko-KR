@@ -1,18 +1,18 @@
 ---
 title: Campaign에서 메시지 보내기 기본 정보
 description: 메시지를 테스트하고 전송하는 다양한 단계를 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
-uuid: 5866444-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보내기
+audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: ae2eba1c-24ad-4839-afa9-5a297570d9b
+discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
@@ -40,5 +40,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [테스트 프로필 관리 및 증명 보내기](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [이메일 렌더링](../../sending/using/email-rendering.md)
 * [게재 실패 시 경고 받기](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [전달 능력 최적화](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [전달 능력 최적화](../../sending/using/about-deliverability.md)
