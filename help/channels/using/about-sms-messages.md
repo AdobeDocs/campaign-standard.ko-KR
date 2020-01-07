@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -42,6 +42,7 @@ SMS 메시지를 휴대폰에 전달하려면 다음을 수행하십시오.
 * [템플릿 관리](../../start/using/marketing-activity-templates.md)
 * [SMS 구성](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS 보고서](../../reporting/using/sms-report.md)
+* [Campaign Standard 모바일 안내서](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## SMS 배달 템플릿 {#sms-delivery-template}
 
