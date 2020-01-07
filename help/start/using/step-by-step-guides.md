@@ -12,7 +12,7 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 667496c4a1bfeb78ff51762ffd6983df77cdd9c9
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
 
 * [개인화된 이메일](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)만들기:개인화된 이메일을 만들어 대상에게 보낼 수 있습니다.
 * [사용자 정의 리소스](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html)패키지 내보내기 및 가져오기:개발 환경에서 프로덕션 환경으로 사용자 정의 리소스 패키지를 내보내고 가져옵니다.
-* [크로스 채널 메시지 워크플로우](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html)만들기:모집단을 세그먼트화하여 이메일 전달 및 SMS 전달을 전송하여 워크플로우를 만듭니다.
+* [크로스 채널 메시지 워크플로우](../../automating/using/workflow-cross-channel-delivery.md)만들기:모집단을 세그먼트화하여 이메일 전달 및 SMS 전달을 전송하여 워크플로우를 만듭니다.
 * [Experience Manager 및 Campaign을 사용하여 이메일 만들기](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html):adobe Experience Manager에서 이메일 컨텐츠를 만들어 Adobe Campaign Standard의 이메일에 사용합니다.
 * [Adobe Campaign을 사용하여 제공](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html):adobe Campaign을 통해 제공할 수 있는 몇 가지 모범 사례를 살펴보십시오.
 * [전달](../../sending/using/about-deliverability.md)최적화:전달을 최적화하기 위해 Adobe Campaign에서 제공하는 툴뿐만 아니라 전달 능력과 관련된 주요 개념 및 모범 사례를 살펴볼 수 있습니다.
