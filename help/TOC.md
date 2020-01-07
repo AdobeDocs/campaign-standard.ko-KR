@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: 5c6d5f307a5d0b90a4a616a73d17b540d115f041
 
 ---
 
@@ -117,9 +117,9 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
    + [제목란 및 발신자 정의](designing/using/subject-line.md)
    + 이메일 컨텐츠 제작{#building-email-content}
       + [이메일 디자인 기초](designing/using/designing-from-scratch.md)
-      + [기존 콘텐츠를 사용한 이메일 디자인](designing/using/using-existing-content.md)
-      + [재사용 가능 콘텐츠를 사용한 이메일 디자인](designing/using/using-reusable-content.md)
-      + [멀티 솔루션 통합을 사용하여 이메일 디자인](designing/using/using-integrations.md)
+      + [기존 컨텐츠 사용](designing/using/using-existing-content.md)
+      + [재사용 가능한 컨텐츠 작업](designing/using/using-reusable-content.md)
+      + [멀티 솔루션 통합 사용](designing/using/using-integrations.md)
       + [일반 텍스트, HTML 및 모바일 이메일 편집](designing/using/plain-text-html-modes.md)
    + [이메일 컨텐츠 개인화](designing/using/personalization.md)
    + [이메일 스타일 관리](designing/using/styles.md)
@@ -187,8 +187,9 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 + Adobe Cloud와 통합 사용 {#integrating-with-adobe-cloud}
    + [Campaign 통합 기본 정보](integrating/using/about-campaign-integrations.md)
    + Campaign을 Experience Manager와 함께 사용하기 {#working-with-campaign-and-experience-manager}
-      + [Experience Manager와 통합 사용](integrating/using/integrating-with-experience-manager.md)
-      + [Experience Manager에서 Campaign 양식 만들기 ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Campaign-Experience Manager 통합 정보](integrating/using/integrating-with-experience-manager.md)
+      + [Adobe Experience Manager에서 이메일 컨텐츠 만들기](integrating/using/creating-email-experience-manager.md)
+      + [Experience Manager에서 Campaign 양식 만들기](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign을 Target과 함께 사용하기 {#working-with-campaign-and-target}
       + [Campaign-Target 통합 기본 정보](integrating/using/about-campaign-target-integration.md)
       + [Campaign-Target 통합 구성](integrating/using/configuring-the-campaign-target-integration.md)
@@ -283,6 +284,7 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
       + [위치에 세분화 만들기](automating/using/workflow-segmentation-location.md)
       + [열지 않은 사용자 재타겟팅](automating/using/workflow-cross-channel-retargeting.md)
       + [컨트롤 그룹 만들기](automating/using/workflow-control-group.md)
+      + [크로스 채널 배달 만들기](automating/using/workflow-cross-channel-delivery.md)
 + 개발 {#developing}
    + 사용자 지정 리소스 기본 정보 {#about-custom-resources}
       + [데이터 모델 기본 개념](developing/using/data-model-concepts.md)
