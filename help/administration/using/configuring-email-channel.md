@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ---
 
@@ -240,7 +240,13 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
 
 이 **[!UICONTROL Advanced parameters]**섹션에는 여러 매개 변수가 포함되어 있습니다.
 
-처음 두 필드를 사용하면 이메일 메시지 머리말(회신 주소 및 회신 주소 텍스트)을 작성하는 데 필요한 정보를 입력할 수 있습니다. 이러한 정보는 개인화할 수 있습니다. 이렇게 하려면 변경할 필드의 오른쪽에 있는 단추를 클릭한 다음 개인화 필드를 추가합니다. 개인화 필드 삽입 및 사용은 개인화 필드 [삽입](../../designing/using/personalization.md#inserting-a-personalization-field) 섹션에 자세히 설명되어 있습니다.
+첫 번째 필드를 사용하면 이메일 메시지 헤더를 작성하는 데 필요한 정보를 입력할 수 있습니다. 여기에서 회신 주소 및 텍스트와 발신자 주소(&quot;보낸 사람:&quot; 필드 채우기)를 관리할 수 있습니다. 이러한 정보는 개인화할 수 있습니다.
+
+변경할 필드의 오른쪽에 있는 단추를 클릭한 다음 개인화 필드, 콘텐츠 블록 또는 동적 텍스트를 추가합니다.
+
+![](assets/advancedparameters.png)
+
+개인화 컨텐츠 삽입 및 사용은 이메일 컨텐츠 [개인화](../../designing/using/personalization.md) 문서에 자세히 설명되어 있습니다.
 
 #### 타겟 컨텍스트 {#target-context}
 
@@ -326,4 +332,3 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
 >[!NOTE]
 >
 >BCC 주소로 보낸 이메일이 열리고 클릭스루되는 경우, 전송 분석에서 **[!UICONTROL Total opens]**및**[!UICONTROL Clicks]** 수신하게 되므로 계산 오류가 발생할 수 있습니다.
-
