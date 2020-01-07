@@ -1,18 +1,18 @@
 ---
 title: 함수 목록
 description: 쿼리 편집 도구를 사용하면 고급 기능을 사용하여 복잡한 필터링을 수행할 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
-topic-tags: 필터링
+topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 함수 정보 {#about-functions}
 
-쿼리 편집 도구를 사용하면 고급 기능을 사용하여 복잡한 필터링을 수행할 수 있습니다. 이를 위해 도구 팔레트에는 작업 공간에서 사용할 수 있는 **[!UICONTROL Expression]** 요소가 포함되어 있습니다. 이 요소에 대한 자세한 내용은 [특정 섹션에](../../automating/using/advanced-expression-editing.md)설명되어 있습니다.
+쿼리 편집 도구를 사용하면 고급 기능을 사용하여 복잡한 필터링을 수행할 수 있습니다. 이를 위해 도구 팔레트에는 작업 공간에서 사용할 수 있는 **[!UICONTROL Expression]**요소가 포함되어 있습니다. 이 요소에 대한 자세한 내용은[특정 섹션에](../../automating/using/advanced-expression-editing.md)설명되어 있습니다.
 
 이 요소를 사용하면 조건을 수동으로 입력할 수 있습니다. 여기에서 다음 섹션에 정의된 함수를 사용할 수 있습니다.
 
@@ -321,7 +321,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> <strong>플로어</strong><br /> </td> 
-   <td> 숫자보다 크거나 같은 최대 정수를 반환합니다.<br /> </td> 
+   <td> 숫자보다 작거나 같은 최대 정수를 반환합니다.<br /> </td> 
    <td> Floor(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -662,7 +662,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 집계 {#aggregates}
 
-집계 함수는 워크플로우의 [활동에서 추가 데이터를](../../automating/using/query.md#enriching-data) **[!UICONTROL Query]** 추가할 때만 사용할 수 있습니다.
+집계 함수는 워크플로우의 [활동에서 추가 데이터를](../../automating/using/query.md#enriching-data) **[!UICONTROL Query]**추가할 때만 사용할 수 있습니다.
 
 집계 함수는 값 세트에 대한 계산을 수행하는 데 사용됩니다.
 
