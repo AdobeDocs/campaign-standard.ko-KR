@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해
 * 콘텐츠 제작에 대한 자세한 내용:
    * 처음부터 이메일 [디자인을 참조하십시오](../../designing/using/designing-from-scratch.md).
    * 기존 컨텐츠 사용을 참조하십시오. [기존 컨텐츠를](../../designing/using/using-existing-content.md)사용하여 디자인을 참조하십시오.
-   * 통합 기능을 사용하면 멀티 [솔루션 이메일 디자인을](../../designing/using/using-integrations.md)참조하십시오.
+   * Creative Cloud 통합 기능을 사용하면 멀티 [솔루션 이메일 디자인을](../../designing/using/using-integrations.md)참조하십시오.
 * 개인화에 대한 자세한 내용은 개인화를 [참조하십시오](../../designing/using/personalization.md).
 
 이메일을 만들 때 사전 정의된 템플릿을 사용하거나 다른 소스에서 기존 컨텐츠를 로드하도록 선택할 수 있습니다. 기존 [컨텐츠](../../designing/using/using-existing-content.md#selecting-an-existing-content)선택을 참조하십시오.
@@ -69,27 +69,27 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해
 
 ### 이메일 디자이너 홈 페이지 {#email-designer-home-page}
 
-이메일을 [만들](../../channels/using/creating-an-email.md)때 이메일 컨텐츠를 선택하면 **[!UICONTROL Email Designer]** 홈 페이지가 자동으로 표시됩니다.
+이메일을 [만들](../../channels/using/creating-an-email.md)때 이메일 컨텐츠를 선택하면 **[!UICONTROL Email Designer]**홈 페이지가 자동으로 표시됩니다.
 
 ![](assets/email_designer_home_page.png)
 
-이 **[!UICONTROL Properties]** 탭에서는 레이블, 발신자의 주소 및 이름 또는 이메일 제목과 같은 이메일 세부 사항을 편집할 수 있습니다. 화면 상단에 있는 이메일 레이블을 클릭하여 이 탭에 액세스할 수도 있습니다.
+이 **[!UICONTROL Properties]**탭에서는 레이블, 발신자의 주소 및 이름 또는 이메일 제목과 같은 이메일 세부 사항을 편집할 수 있습니다. 화면 상단에 있는 이메일 레이블을 클릭하여 이 탭에 액세스할 수도 있습니다.
 
 ![](assets/email_designer_home_properties.png)
 
-이 **[!UICONTROL Templates]** 탭을 사용하면 곧바로 사용할 수 있는 HTML 컨텐츠 또는 이미 만든 템플릿 중에서 선택하여 이메일 디자인을 신속하게 시작할 수 있습니다. 컨텐츠 [템플릿을](../../designing/using/using-reusable-content.md#content-templates)참조하십시오.
+이 **[!UICONTROL Templates]**탭을 사용하면 곧바로 사용할 수 있는 HTML 컨텐츠 또는 이미 만든 템플릿 중에서 선택하여 이메일 디자인을 신속하게 시작할 수 있습니다. 컨텐츠[템플릿을](../../designing/using/using-reusable-content.md#content-templates)참조하십시오.
 
 ![](assets/email_designer_home_templates.png)
 
-이 **[!UICONTROL Learn & support]** 탭에서는 관련 설명서 및 자습서에 손쉽게 액세스할 수 있습니다.
+이 **[!UICONTROL Learn & support]**탭에서는 관련 설명서 및 자습서에 손쉽게 액세스할 수 있습니다.
 
 ![](assets/email_designer_home_support.png)
 
 템플릿을 선택하지 않으면 이메일 디자이너 홈 페이지에서 컨텐츠 디자인 시작 방법을 선택할 수도 있습니다.
 
-* 단추를 클릭하여 새 컨텐츠를 처음부터 시작합니다. **[!UICONTROL Create]** 이메일 [컨텐츠를 처음부터](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)디자인을 참조하십시오.
-* 컴퓨터에서 파일을 업로드하려면 **[!UICONTROL Upload]** 단추를 클릭합니다. 파일에서 [컨텐츠](../../designing/using/using-existing-content.md#importing-content-from-a-file)가져오기를 참조하십시오.
-* URL에서 기존 컨텐츠를 검색하려면 **[!UICONTROL Import from URL]** 단추를 클릭합니다. URL [에서 콘텐트 가져오기를 참조하십시오](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* 단추를 클릭하여 새 컨텐츠를 처음부터 시작합니다. **[!UICONTROL Create]**이메일[컨텐츠를 처음부터](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)디자인을 참조하십시오.
+* 컴퓨터에서 파일을 업로드하려면 **[!UICONTROL Upload]**단추를 클릭합니다. 파일에서[컨텐츠](../../designing/using/using-existing-content.md#importing-content-from-a-file)가져오기를 참조하십시오.
+* URL에서 기존 컨텐츠를 검색하려면 **[!UICONTROL Import from URL]**단추를 클릭합니다. URL[에서 콘텐트 가져오기를 참조하십시오](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ## 용어 {#terminology}
 
@@ -105,7 +105,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해
 
 이메일 디자이너를 적절하게 사용하고 최상의 이메일을 만들려면 다음 원칙을 적용하는 것이 좋습니다.
 
-* HTML의 &lt;head&gt; 섹션에서 별도의 CSS 및 CSS가 아닌 인라인 스타일을 사용할 수 있습니다. 인라인 스타일을 사용하여 컨텐츠 조각 저장 및 재사용을 최적화할 수 있습니다.
+* HTML의 &lt;head> 섹션에서 별도의 CSS 및 CSS가 아닌 인라인 스타일을 사용할 수 있습니다. 인라인 스타일을 사용하여 컨텐츠 조각 저장 및 재사용을 최적화할 수 있습니다.
 
    인라인 [스타일 특성](../../designing/using/styles.md#adding-inline-styling-attributes)추가를 참조하십시오.
 
@@ -127,7 +127,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-CSS 충돌 문제와 같은 문제를 방지하려면 컨텐츠를 최신 버전으로 업데이트하는 것이 좋습니다. Click **[!UICONTROL Update now]**.
+CSS 충돌 문제와 같은 문제를 방지하려면 컨텐츠를 최신 버전으로 업데이트하는 것이 좋습니다. 클릭 **[!UICONTROL Update now]**.
 
 컨텐츠 업데이트 중에 오류가 발생하는 경우 이 업데이트를 다시 실행하기 전에 HTML을 확인하고 수정합니다.
 
