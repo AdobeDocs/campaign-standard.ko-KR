@@ -1,5 +1,5 @@
 ---
-title: 링크 관리
+title: 링크 추가
 description: 이메일 디자이너와 링크를 관리하는 방법을 알아봅니다.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,12 +12,12 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
 
 ---
 
 
-# 링크 {#links}
+# 링크 추가 {#links}
 
 ## 링크 삽입 {#inserting-a-link}
 
@@ -29,7 +29,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 >
 >아래 이미지는 이메일에 이메일 디자이너를 사용하여 링크를 삽입하는 [방법을](../../designing/using/designing-content-in-adobe-campaign.md) 보여줍니다.
 
-1. 요소를 선택하고 컨텍스트 도구 모음에서 **[!UICONTROL Insert link]** 을 클릭합니다.
+1. 요소를 선택하고 컨텍스트 도구 모음에서 **[!UICONTROL Insert link]**을 클릭합니다.
 
    ![](assets/des_insert_link.png)
 
@@ -79,7 +79,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 Adobe Campaign을 사용하면 수신자가 이메일에 포함된 URL을 클릭할 때 받는 사람의 동작을 추적할 수 있습니다. 추적에 대한 자세한 내용은 [이 섹션을](../../sending/using/tracking-messages.md#about-tracking)참조하십시오.
 
-작업 표시줄의 **[!UICONTROL Links]** 아이콘은 추적할 컨텐츠의 모든 URL 목록을 자동으로 표시합니다.
+작업 표시줄의 **[!UICONTROL Links]**아이콘은 추적할 컨텐츠의 모든 URL 목록을 자동으로 표시합니다.
 
 ![](assets/des_links.png)
 
@@ -106,11 +106,11 @@ Adobe Campaign을 사용하면 수신자가 이메일에 포함된 URL을 클릭
 >
 >기본적으로 Adobe Campaign에서 미러 페이지 URL 및 가입 **취소** 링크를 제외한 모든 컨텐츠 URL이 **추적됩니다** .
 
-메시지에 사용된 URL에 따라 **[!UICONTROL Category]** 필드를 편집하여 URL을 다시 그룹화할 수 있습니다. 이러한 카테고리는 URL 및 클릭 스트림과 같이 [보고서를](../../reporting/using/urls-and-click-streams.md)표시할 수 있습니다.
+메시지에 사용된 URL에 따라 **[!UICONTROL Category]**필드를 편집하여 URL을 다시 그룹화할 수 있습니다. 이러한 카테고리는 URL 및 클릭 스트림과 같이[보고서를](../../reporting/using/urls-and-click-streams.md)표시할 수 있습니다.
 
 ![](assets/des_link_tracking_category.png)
 
-보고서를 작성할 때, **[!UICONTROL Components]** 탭에서 목록을 선택하고 **[!UICONTROL Dimension]** 아래로 스크롤하여 추적 구성 요소에 액세스합니다. 예를 들어 작업 **[!UICONTROL Tracking URL Category]** 영역으로 드래그하여 놓으면 클릭한 각 URL의 추적 범주에 따라 결과가 표시됩니다.
+보고서를 작성할 때, **[!UICONTROL Components]**탭에서 목록을 선택하고**[!UICONTROL Dimension]** 아래로 스크롤하여 추적 구성 요소에 액세스합니다. 예를 들어 작업 **[!UICONTROL Tracking URL Category]**영역으로 드래그하여 놓으면 클릭한 각 URL의 추적 범주에 따라 결과가 표시됩니다.
 
 ![](assets/des_link_tracking_report.png)
 
