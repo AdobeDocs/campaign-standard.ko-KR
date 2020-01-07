@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: f7bf000a9191a73664b88f78cadff57d97a820af
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign에서 프로필은 기본적으로 메시지의 주 대상을 정
 
 Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행할 수 있습니다.
 
-* 워크플로우를 통해 파일에서 프로파일 목록 [가져오기](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* 워크플로우를 통해 파일에서 프로파일 목록 [가져오기](../../automating/using/importing-data.md#example--import-workflow-template)
 * 랜딩 페이지를 통해 온라인 데이터 [수집](../../channels/using/getting-started-with-landing-pages.md)
 * REST API를 통해 [벌크 만들기](../../api/using/about-campaign-standard-apis.md)
 * Microsoft Dynamics에서 [프로필 동기화](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
@@ -35,7 +35,7 @@ Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행�
 
    ![](assets/profile_creation_1.png)
 
-1. 그런 다음 을 **[!UICONTROL Create]**&#x200B;클릭합니다.
+1. 그런 다음 을 **[!UICONTROL Create]**클릭합니다.
 
    ![](assets/profile_creation.png)
 
@@ -44,14 +44,14 @@ Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행�
    ![](assets/profile_creation1.png)
 
    * 이름, 성, 성별, 생년월일, 사진, 기본 언어( [다국어 이메일의](../../channels/using/creating-a-multilingual-email.md)경우)와 같은 연락처 정보는 전달 내용을 보다 효과적으로 개인화합니다.
-   * 프로필은 프로필의 시간대에서 배달을 보내는 데 **[!UICONTROL Time zone]** 사용됩니다. For more on this, refer to this [section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
-   * 이메일 주소, 휴대폰 번호, 옵트아웃 정보가 포함된 **[!UICONTROL Channels]** 카테고리를 통해 프로필에 연결할 수 있는 채널을 알 수 있습니다.
-   * 이 **[!UICONTROL No longer contact]** 카테고리는 프로파일 가입 해지가 채널에 적용되는 즉시 업데이트됩니다.
-   * 카테고리에는 이 프로필에 **[!UICONTROL Address]** 직접 메일을 **[!UICONTROL Address specified]** [](../../channels/using/about-direct-mail.md) 보내는 옵션과 함께 채워야 하는 우편 주소가 포함되어 있습니다. 이 **[!UICONTROL Address specified]** 옵션을 선택하지 않으면 이 프로필은 모든 DM 전달에서 제외됩니다.
-   * 이 **[!UICONTROL Access authorization]** 카테고리는 프로필의 조직 구성 단위(권한 [관리](../../administration/using/about-access-management.md))를 나타냅니다. 파티션 [프로필을](../../administration/using/organizational-units.md#partitioning-profiles)참조하십시오.
-   * 이 **[!UICONTROL Traceability]** 카테고리는 프로파일을 만들거나 수정한 사용자와 관련된 정보를 자동으로 업데이트합니다.
+   * 프로필은 프로필의 시간대에서 배달을 보내는 데 **[!UICONTROL Time zone]**사용됩니다. For more on this, refer to this[section](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+   * 이메일 주소, 휴대폰 번호, 옵트아웃 정보가 포함된 **[!UICONTROL Channels]**카테고리를 통해 프로필에 연결할 수 있는 채널을 알 수 있습니다.
+   * 이 **[!UICONTROL No longer contact]**카테고리는 프로파일 가입 해지가 채널에 적용되는 즉시 업데이트됩니다.
+   * 카테고리에는 이 프로필에 **[!UICONTROL Address]**직접 메일을**[!UICONTROL Address specified]** [](../../channels/using/about-direct-mail.md) 보내는 옵션과 함께 채워야 하는 우편 주소가 포함되어 있습니다. 이 **[!UICONTROL Address specified]**옵션을 선택하지 않으면 이 프로필은 모든 DM 전달에서 제외됩니다.
+   * 이 **[!UICONTROL Access authorization]**카테고리는 프로필의 조직 구성 단위(권한[관리](../../administration/using/about-access-management.md))를 나타냅니다. 파티션[프로필을](../../administration/using/organizational-units.md#partitioning-profiles)참조하십시오.
+   * 이 **[!UICONTROL Traceability]**카테고리는 프로파일을 만들거나 수정한 사용자와 관련된 정보를 자동으로 업데이트합니다.
 
-1. 아이콘을 **[!UICONTROL Create]** 클릭하여 프로필을 저장합니다.
+1. 아이콘을 **[!UICONTROL Create]**클릭하여 프로필을 저장합니다.
 
 이제 프로필이 목록에 나타납니다.
 
@@ -68,5 +68,4 @@ Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행�
 **관련 항목:**
 
 * [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md) 단계별 안내서 정보
-* [프로필 가져오기](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-
+* [프로필](https://video.tv.adobe.com/v/24993?captions=kor) 가져오기 비디오
