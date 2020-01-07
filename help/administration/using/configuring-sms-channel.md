@@ -1,39 +1,37 @@
 ---
 title: SMS 채널 구성
 description: '"SMS 구성 단계를 살펴보십시오.라우팅, 인코딩, 형식 및 고급 속성을 설정할 수 있습니다. "'
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
-topic-tags: 구성 채널
+topic-tags: configuring-channels
 discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3325194881662dee94648ae3d5a03b2bdb6b41ba
 
 ---
 
 
 # SMS 채널 구성{#configuring-sms-channel}
 
-SMS 메시지를 전송하려면 관리자가 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL SMS]** &gt; **[!UICONTROL SMS accounts]** 메뉴 아래에 하나 이상의 외부 계정을 구성해야 합니다.
+SMS 메시지를 전송하려면 관리자가 **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL SMS]**>**[!UICONTROL SMS accounts]** 메뉴 아래에 하나 이상의 외부 계정을 구성해야 합니다.
 
 외부 계정을 만들고 수정하는 단계는 외부 계정 [섹션에서](../../administration/using/external-accounts.md) 자세히 설명합니다. SMS 메시지 전송을 위한 외부 계정 관련 매개 변수는 아래와 같습니다.
 
 ## SMS 라우팅 정의 {#defining-an-sms-routing}
 
-외부 계정은 기본적으로 **[!UICONTROL SMS routing via SMPP]** 제공되지만 다른 계정을 추가하는 것이 유용할 수 있습니다.
+외부 계정은 기본적으로 **[!UICONTROL SMS routing via SMPP]**제공되지만 다른 계정을 추가하는 것이 유용할 수 있습니다.
 
 SMPP 프로토콜을 사용하려면 새 외부 계정을 만들 수도 있습니다. SMS 프로토콜 및 설정에 대한 자세한 내용은 이 [기술 문서를](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)참조하십시오.
 
 1. 새 외부 계정을 만듭니다 **[!UICONTROL Administration > Application settings > External accounts]**.
-1. 계정 유형을 **[!UICONTROL Routing]**&#x200B;로, 채널은 **[!UICONTROL Mobile (SMS)]** 로, 배달 모드는 으로 **[!UICONTROL Bulk delivery]**&#x200B;정의합니다.
-
-   이러한 라우팅 매개 변수가 정의되면 SMS 커넥터( **[!UICONTROL Generic SMPP]** )가 자동으로 선택됩니다. 이 커넥터를 사용하면 Adobe Campaign이 SMPP 프로토콜을 통해 SMS-C(Short Message Service Center)에 연결하여 대상 프로필에 SMS 메시지를 바로 보낼 수 있습니다.
+1. 계정 유형을 **[!UICONTROL Routing]**로, 채널은**[!UICONTROL Mobile (SMS)]** 로, 배달 모드는 으로 **[!UICONTROL Bulk delivery]**정의합니다.
 
    ![](assets/sms_routing.png)
 
@@ -43,30 +41,30 @@ SMPP 프로토콜을 사용하려면 새 외부 계정을 만들 수도 있습�
 
    ![](assets/sms_connection.png)
 
-   이 **[!UICONTROL Enable TLS over SMPP]** 옵션을 사용하면 SMPP 트래픽을 암호화할 수 있습니다.
+   이 **[!UICONTROL Enable TLS over SMPP]**옵션을 사용하면 SMPP 트래픽을 암호화할 수 있습니다.
 
-   **[!UICONTROL Enable verbose SMPP traces in the log file]** 모든 SMPP 트래픽을 로그 파일에 덤프할 수 있습니다. 커넥터 문제를 해결하고 공급자가 보는 트래픽과 비교하려면 이 옵션을 활성화해야 합니다.
+   **[!UICONTROL Enable verbose SMPP traces in the log file]**모든 SMPP 트래픽을 로그 파일에 덤프할 수 있습니다. 커넥터 문제를 해결하고 공급자가 보는 트래픽과 비교하려면 이 옵션을 활성화해야 합니다.
 
 1. 선택한 공급자에 따라 필드에 입력할 값을 제공하는 Adobe에 문의하십시오. **[!UICONTROL SMS-C implementation name]**
 1. SMPP 채널 설정을 정의합니다. SMS 인코딩 및 [포맷](#sms-encoding-and-formats) 섹션에서 자세한 내용을 살펴볼 수 있습니다.
 
-   들어오는 모든 SMS를 inSMS 테이블에 저장하려면 를 **[!UICONTROL Store incoming MO in the database]** 활성화합니다. 수신 SMS를 검색하는 방법에 대한 자세한 내용은 이 [섹션을](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)참조하십시오.
+   들어오는 모든 SMS를 inSMS 테이블에 저장하려면 를 **[!UICONTROL Store incoming MO in the database]**활성화합니다. 수신 SMS를 검색하는 방법에 대한 자세한 내용은 이[섹션을](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)참조하십시오.
 
-   이 **[!UICONTROL Enable Real-time KPI updates during SR processing]** 옵션을 사용하면 **[!UICONTROL Delivered]** 또는 **[!UICONTROL Bounces + Errors]** KPI를 게재한 후 실시간으로 업데이트할 수 있습니다. 이러한 KPI는 **[!UICONTROL Deployment]** 창에서 찾을 수 있으며 공급자로부터 받은 SR(상태 보고서)에서 직접 재계산됩니다.
+   이 **[!UICONTROL Enable Real-time KPI updates during SR processing]**옵션을 사용하면**[!UICONTROL Delivered]** 또는 **[!UICONTROL Bounces + Errors]**KPI를 게재한 후 실시간으로 업데이트할 수 있습니다. 이러한 KPI는**[!UICONTROL Deployment]** 창에서 찾을 수 있으며 공급자로부터 받은 SR(상태 보고서)에서 직접 재계산됩니다.
 
    ![](assets/sms_connection_1.png)
 
-1. 매개 변수를 **[!UICONTROL Throughput and timeouts]** 정의합니다.
+1. 매개 변수를 **[!UICONTROL Throughput and timeouts]**정의합니다.
 
-   초당 MT로 아웃바운드 메시지의 최대 처리량("MT", Mobile Terminated)을 지정할 수 있습니다. 해당 필드에 "0"을 입력하면 처리량은 무제한이 됩니다.
+   초당 MT로 아웃바운드 메시지의 최대 처리량(&quot;MT&quot;, Mobile Terminated)을 지정할 수 있습니다. 해당 필드에 &quot;0&quot;을 입력하면 처리량은 무제한이 됩니다.
 
    기간에 해당하는 모든 필드의 값을 초 단위로 완료해야 합니다.
 
 1. 특정 인코딩 매핑을 정의해야 하는 경우에 대비해 SMS-C 특정 매개 변수를 정의합니다. 자세한 내용은 SMSC 세부 [사항](#smsc-specifics) 섹션을 참조하십시오.
 
-   SMPP 프로토콜을 준수하지 않을 경우 **[!UICONTROL Send full phone number (send characters other than digits)]** 옵션을 활성화하고 SMS-C(SMS 공급자)의 서버에 **[!UICONTROL +]** 접두사를 전송합니다.
+   SMPP 프로토콜을 준수하지 않을 경우 **[!UICONTROL Send full phone number (send characters other than digits)]**옵션을 활성화하고 SMS-C(SMS 공급자)의 서버에**[!UICONTROL +]** 접두사를 전송합니다.
 
-   그러나 특정 제공업체에서 **[!UICONTROL +]** 접두사를 사용해야 하는 경우 공급자에게 확인하면 필요한 경우 이 옵션을 활성화하라는 메시지가 나타납니다.
+   그러나 특정 제공업체에서 **[!UICONTROL +]**접두사를 사용해야 하는 경우 공급자에게 확인하면 필요한 경우 이 옵션을 활성화하라는 메시지가 나타납니다.
 
 1. 필요한 경우 자동 답글을 정의하여 회신 내용에 따라 작업을 트리거합니다. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 1. SMS 라우팅 외부 계정의 구성을 저장합니다.
@@ -91,7 +89,7 @@ GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, SMS당 153자로 �
 
 교역은 GSM 표준으로 간주되지 않을 때 SMS의 한 문자를 다른 문자로 바꾸는 것으로 이루어집니다.
 
-* 음역 **인증이**&#x200B;되면 메시지가 전송될 때 고려되지 않은 각 문자가 GSM 문자로 대체됩니다. 예를 들어 "레크"는 "e"로 대체됩니다. 따라서 메시지는 약간 변경되지만 문자 제한은 그대로 유지됩니다.
+* 음역 **인증이**&#x200B;되면 메시지가 전송될 때 고려되지 않은 각 문자가 GSM 문자로 대체됩니다. 예를 들어 &quot;레크&quot;는 &quot;e&quot;로 대체됩니다. 따라서 메시지는 약간 변경되지만 문자 제한은 그대로 유지됩니다.
 * 음역 지정이 인증되지 **않은**&#x200B;경우, 고려되지 않은 문자가 포함된 각 메시지는 바이너리 형식(유니코드)으로 전송됩니다.따라서 모든 문자가 그대로 전송됩니다. 그러나 유니코드를 사용하는 SMS 메시지는 70자(여러 부분으로 전송된 메시지의 경우 SMS당 67자)로 제한됩니다. 최대 문자 수가 초과되면 몇 개의 메시지가 전송되어 추가 비용이 발생할 수 있습니다.
 
 >[!CAUTION]
@@ -293,23 +291,23 @@ CR:캐리지 리턴
 
 SMS 메시지를 보낼 때 Adobe Campaign은 하나 또는 여러 개의 텍스트 인코딩을 사용할 수 있습니다. 각 인코딩에는 고유한 문자 집합이 있으며 SMS 메시지에 맞는 문자 수를 결정합니다.
 
-이 **[!UICONTROL DATA_CODING]** 필드를 사용하면 Adobe Campaign이 인코딩이 사용되는 SMS-C와 통신할 수 있습니다.
+이 **[!UICONTROL DATA_CODING]**필드를 사용하면 Adobe Campaign이 인코딩이 사용되는 SMS-C와 통신할 수 있습니다.
 
 >[!NOTE]
 >
 >data_coding **** 값과 실제로 사용된 인코딩 간의 매핑이 표준화되어 있습니다. 그러나 특정 SMS-C에는 고유한 매핑이 있습니다.이 경우 Adobe Campaign **관리자가** 이 매핑을 선언해야 합니다. 자세한 내용은 제공업체에 문의하십시오.
 
-이 **[!UICONTROL Define a specific mapping of encodings]** 기능을 사용하면 **data_code를** 선언하고 필요한 경우 인코딩을 강제 적용할 수 있습니다.이렇게 하려면 표에 단일 인코딩을 지정합니다.
+이 **[!UICONTROL Define a specific mapping of encodings]**기능을 사용하면** data_code를&#x200B;**선언하고 필요한 경우 인코딩을 강제 적용할 수 있습니다.이렇게 하려면 표에 단일 인코딩을 지정합니다.
 
 **구성**
 
-* 이 **[!UICONTROL Define a specific mapping of encodings]** 기능이 선택되지 않으면 커넥터는 일반 동작을 수행합니다.
+* 이 **[!UICONTROL Define a specific mapping of encodings]**기능이 선택되지 않으면 커넥터는 일반 동작을 수행합니다.
 
    * GSM 인코딩을 사용하여 **data_coding = 0을**&#x200B;지정합니다.
    * GSM 인코딩이 실패할 경우 **UCS2** 인코딩을 사용하여 값을 **data_coding = 8**&#x200B;지정합니다.
    ![](assets/sms_data_coding.png)
 
-* 이 **[!UICONTROL Define a specific mapping of encodings]** 기능을 선택하면 사용할 인코딩과 연결된 **[!UICONTROL data_coding]** 필드 값을 정의할 수 있습니다. Adobe Campaign은 목록에서 첫 번째 인코딩을 사용하려고 시도하지만 첫 번째 인코딩이 불가능할 경우 다음을 수행합니다.
+* 이 **[!UICONTROL Define a specific mapping of encodings]**기능을 선택하면 사용할 인코딩과 연결된**[!UICONTROL data_coding]** 필드 값을 정의할 수 있습니다. Adobe Campaign은 목록에서 첫 번째 인코딩을 사용하려고 시도하지만 첫 번째 인코딩이 불가능할 경우 다음을 수행합니다.
 
    선언의 순서는 중요합니다.각 SMS 메시지에서 가능한 한 많은 문자를 입력할 수 있도록 인코딩을 **위해 목록을 오름차순으로** 입력하는 것이 좋습니다.
 
@@ -327,13 +325,13 @@ For more information, refer to [this section](../../channels/using/managing-inco
 
 이 섹션에서는 SMS 배달 또는 SMS 템플릿의 속성 화면에서 SMS에 고유한 매개 변수 목록을 자세히 설명합니다.
 
-SMS 메시지 전송을 위한 특정 매개 변수는 **[!UICONTROL Send]** 및 **[!UICONTROL Advanced parameters]** 섹션에서 다시 그룹화됩니다.
+SMS 메시지 전송을 위한 특정 매개 변수는 **[!UICONTROL Send]**및**[!UICONTROL Advanced parameters]** 섹션에서 다시 그룹화됩니다.
 
 ![](assets/sms_options.png)
 
-* 이 **[!UICONTROL From]** 옵션을 사용하면 문자열을 사용하여 SMS 메시지 발신자의 이름을 개인화할 수 있습니다. 받는 사람의 휴대폰 전화에서 SMS 메시지의 발신자 이름으로 표시되는 이름입니다.
+* 이 **[!UICONTROL From]**옵션을 사용하면 문자열을 사용하여 SMS 메시지 발신자의 이름을 개인화할 수 있습니다. 받는 사람의 휴대폰 전화에서 SMS 메시지의 발신자 이름으로 표시되는 이름입니다.
 
-   이 필드가 비어 있으면, 이 필드는 사용될 외부 계정에 제공된 소스 번호가 됩니다. 소스 번호가 제공되지 않으면 사용할 짧은 코드가 됩니다. SMS 전달과 관련된 외부 계정은 외부 SMS [계정](#defining-an-sms-routing) 섹션에 나와 있습니다.
+   이 필드가 비어 있으면, 이 필드는 사용될 외부 계정에 제공된 소스 번호가 됩니다. 소스 번호가 제공되지 않으면 사용할 짧은 코드가 됩니다. SMS 전달과 관련된 외부 계정은 SMS 라우팅 [정의](#defining-an-sms-routing) 섹션에 표시됩니다.
 
    ![](assets/sms_smpp.png)
 
@@ -341,13 +339,13 @@ SMS 메시지 전송을 위한 특정 매개 변수는 **[!UICONTROL Send]** 및
    >
    >발신자 주소 수정과 관련하여 귀하의 국가에서 해당 법률을 확인하십시오. 또한 SMS 서비스 제공업체에 문의하여 이 기능을 제공하는지 확인해야 합니다.
 
-* 이 **[!UICONTROL Maximum number of SMS per message]** 옵션을 사용하면 메시지를 보내는 데 사용할 SMS 메시지 수를 정의할 수 있습니다. 이 수를 초과하면 메시지가 전송되지 않습니다.
+* 이 **[!UICONTROL Maximum number of SMS per message]**옵션을 사용하면 메시지를 보내는 데 사용할 SMS 메시지 수를 정의할 수 있습니다. 이 수를 초과하면 메시지가 전송되지 않습니다.
 
    >[!CAUTION]
    >
    >개인화 필드 또는 조건부 텍스트를 SMS 메시지 컨텐츠에 삽입한 경우 메시지의 길이에 따라 보낼 SMS 메시지 수가 받는 사람마다 다를 수 있습니다. 자세한 내용은 SMS 메시지 [개인화](../../channels/using/personalizing-sms-messages.md) 섹션을 참조하십시오.
 
-* 이 **[!UICONTROL Transmission mode]** 필드를 통해 SMS 메시지의 전달 방법을 결정할 수 있습니다.
+* 이 **[!UICONTROL Transmission mode]**필드를 통해 SMS 메시지의 전달 방법을 결정할 수 있습니다.
 
    * **[!UICONTROL Saved on SIM card]**:메시지는 수신자의 전화 SIM 카드에 저장됩니다.
    * **[!UICONTROL Saved on mobile]**:메시지는 전화의 내부 메모리에 저장됩니다.
