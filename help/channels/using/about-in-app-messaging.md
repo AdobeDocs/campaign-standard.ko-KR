@@ -1,19 +1,19 @@
 ---
 title: 인앱 메시지 기본 정보
 description: 인앱 메시징을 사용하여 모바일 애플리케이션 내에서 메시지 또는 경고를 표시합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 인앱 메시지
+topic-tags: in-app-messaging
 discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
-context-tags: 배달, 트리거, 뒤로
+context-tags: delivery,triggers,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인앱 메시지를 전송하려면 다음 사전 요구 사항을 충족해야 합니다.
 
-1. Adobe Campaign에서 채널에 액세스할 수 있는지 확인합니다. **[!UICONTROL In-App]** 이러한 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
+1. Adobe Campaign에서 채널에 액세스할 수 있는지 확인합니다. **[!UICONTROL In-App]**이러한 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
 
 1. Adobe Campaign Standard에서 Experience Cloud SDK 애플리케이션을 사용하여 모바일 사용 사례를 활용하려면 Adobe Experience Platform Launch에서 모바일 앱을 제작하고 Adobe Campaign Standard에서 구성해야 합니다. 단계별 안내서는 이 [페이지를](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)참조하십시오.
 
@@ -43,3 +43,4 @@ Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인�
 * [인앱 보고서](../../reporting/using/in-app-report.md)
 * [푸시 및 인앱 FAQ](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 * [Adobe Campaign Standard에서 지원되는 모바일 사용 사례](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Campaign Standard 모바일 안내서](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
