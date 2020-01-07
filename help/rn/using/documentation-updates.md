@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
+source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
 
 ---
 
@@ -24,6 +24,16 @@ Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아
 이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/using/release-notes.md).
+
+## 설명서 업데이트 - 2020년 1월 {#doc-updates-january-2020}
+
+&#39;크로스 채널 전달 워크플로우 만들기&#39; 시작 안내서가 업데이트되어 핵심 문서에 포함되어 있습니다. [자세한 내용](../../automating/using/workflow-cross-channel-delivery.md)
+
+동적 보고서의 지표 계산 섹션이 업데이트되었습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
+
+Adobe Campaign Standard의 모바일 게재에 대한 일반 가이드라인에 대한 새 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+
+캠페인 및 Experience Manager를 사용한 작업 설명서가 Campaign-Experience **Manager 통합을**&#x200B;사용하는 방법에 대한 팁 단원으로 업데이트되었습니다. [자세한 내용](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 ## 설명서 업데이트 - 2019년 12월 {#doc-updates-december-2019}
 
