@@ -12,12 +12,16 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
+source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 ---
 
 
 # 지표 계산{#indicator-calculation}
+
+>[!NOTE]
+>
+>대량 및 실시간 분석을 보다 효과적으로 처리하고 관리하기 위해 Dynamic Reporting은 정확한 집계 결과를 바탕으로 대략적인 집계 결과를 사용합니다. 대략적인 집계는 제한적인 메모리 사용량을 제공하며, 종종 정확한 계산보다 빠릅니다.
 
 아래 표에는 배달 유형에 따라 다른 보고서에 사용된 지표 목록과 계산 공식이 나와 있습니다.
 
@@ -152,13 +156,7 @@ source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
    <td> 비율 계산을 위한 분모는 보낸 횟수(배달됨 + 바운스)를 기반으로 합니다.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 거부됨<br /> </td> 
-   <td> @거부됨<br /> </td> 
-   <td> count(@failureReason=20)<br /> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> 거부됨<br /> </td> 
    <td> @거부됨<br /> </td> 
