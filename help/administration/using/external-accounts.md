@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 >
 >기타 유형의 외부 계정은 제품 제공 프로세스 중에 Adobe에서 사용됩니다. Campaign Standard 17.9 릴리스에서는 FTP 외부 계정을 여전히 정의할 수 있지만 새 워크플로우 활동에서는 더 이상 사용할 수 없습니다. 이미 연결을 설정한 경우 여전히 활성화됩니다.
 
-외부 계정은 **[!UICONTROL Administration > Application settings > External accounts]** 메뉴 아래에 관리자가 구성할 수 있습니다.
+외부 계정은 **[!UICONTROL Administration > Application settings > External accounts]**메뉴 아래에 관리자가 구성할 수 있습니다.
 
 ## 외부 계정 만들기 {#creating-an-external-account}
 
@@ -44,7 +44,7 @@ Adobe Campaign은 사전 정의된 외부 계정 세트와 함께 제공됩니�
 
 외부 계정은 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용됩니다. 워크플로우에서 파일 전송을 설정하거나 다른 응용 프로그램(Adobe Target, Experience Manager 등)과 데이터 교환을 설정할 때 외부 계정을 선택해야 합니다.
 
-1. 단추를 **[!UICONTROL Create]** 클릭합니다.
+1. 단추를 **[!UICONTROL Create]**클릭합니다.
 1. 레이블을 입력합니다. 워크플로우에서 외부 계정을 선택할 때 레이블과 ID가 사용됩니다.
 1. 만들 계정 유형을 선택합니다.
 1. 자격 증명, 서버 주소, 포트 번호 및 관련 시 키를 지정하여 계정에 대한 액세스를 구성합니다.
@@ -84,12 +84,12 @@ ETL을 위해 파일 및 데이터를 관리할 때 이러한 파일은 Adobe에
 
 또한 SFTP 연결을 시작하려는 공개 IP는 캠페인 인스턴스에서 허용 목록에 포함되어야 합니다. 인증에 사용할 공개 키를 제공하는 것과 함께 [지원 티켓을](https://support.neolane.net)통해 IP 주소 허용 목록을 요청할 수 있습니다.
 
-SFTP 서버는 제어판에서 관리할 수 있습니다. 자세한 내용은 제어판 설명서를 [참조하십시오](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
+SFTP 서버는 제어판에서 관리할 수 있습니다. 자세한 내용은 제어판 설명서를 [참조하십시오](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
 >제어판은 AWS에서 호스팅하는 고객의 관리 사용자만 사용할 수 있습니다.
-인스턴스가 [여기에서](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID)호스팅되는지 확인하십시오.
+인스턴스가 [여기에서](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id)호스팅되는지 확인하십시오.
 
 ## Amazon S3 외부 계정 {#amazon-s3-external-account}
 
@@ -99,24 +99,24 @@ Amazon S3 서버 필드는 다음과 같이 채워야 합니다.
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-파일을 S3 암호화 모드로 저장하려면 **[!UICONTROL Keep files in S3 encrypted]** 상자를 선택합니다.
+파일을 S3 암호화 모드로 저장하려면 **[!UICONTROL Keep files in S3 encrypted]**상자를 선택합니다.
 
 ![](assets/external_accounts_2.png)
 
 필요한 정보는 일반적으로 연결 중인 서버 공급자가 제공합니다.
 
-종단점에 **[!UICONTROL AWS Region]** 연결된 항목을 지정합니다. 공식 Amazon S3 설명서에서 [지원되는 지역 및 서명 버전을 확인할](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)수 있습니다.
+종단점에 **[!UICONTROL AWS Region]**연결된 항목을 지정합니다. 공식 Amazon S3 설명서에서[지원되는 지역 및 서명 버전을 확인할](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)수 있습니다.
 
 >[!NOTE]
 >
->AWS 리전 없이 **[!UICONTROL Receiver server]** 입력해야 하며 나중에 URL에 자동으로 추가됩니다.
+>AWS 리전 없이 **[!UICONTROL Receiver server]**입력해야 하며 나중에 URL에 자동으로 추가됩니다.
 
 ### Amazon S3 계정 권장 사항 {#amazon-s3-account-recommendations}
 
 Amazon S3 계정을 설정하는 데 도움이 되도록 다음 권장 사항을 따르도록 권장합니다.
 
 * 엄격한 버킷 정책을 만들어 S3 버킷에 대한 액세스를 제한합니다. 버킷을 만드는 동안 버킷 정책을 구성할 수 있습니다. 자세한 내용은 Amazon S3 [설명서를](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)참조하십시오.
-* 외부 계정을 만드는 동안 **[!UICONTROL Keep files in S3 encrypted]** 상자를 선택하여 암호화를 활성화하여 S3 버킷에 중요한 데이터를 저장합니다.
+* 외부 계정을 만드는 동안 **[!UICONTROL Keep files in S3 encrypted]**상자를 선택하여 암호화를 활성화하여 S3 버킷에 중요한 데이터를 저장합니다.
 * 버킷 권한을 부여하여 버킷에서 개체에 액세스할 수 있는 사용자를 지정합니다. 버킷 권한에 대한 자세한 내용은 Amazon S3 [설명서를](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)참조하십시오.
 
 ## Adobe Experience Manager 외부 계정 {#adobe-experience-manager-external-account}
@@ -142,11 +142,11 @@ Google reCAPTCHA V3을 랜딩 페이지에 추가하려면 먼저 외부 계정�
 
 Google reCAPTCHA V3 외부 계정의 경우 다음 세부 정보를 제공합니다.
 
-* 외부 계정 **[!UICONTROL Label]** 및 **[!UICONTROL ID]** A
+* 외부 계정 **[!UICONTROL Label]**및**[!UICONTROL ID]** A
 * **[!UICONTROL Type]**:Google reCAPTCHA
-* Your **[!UICONTROL Site key]** and **[!UICONTROL Site secret]**
-* 0~1 **[!UICONTROL Threshold]** 사이의 A
+* Your **[!UICONTROL Site key]**and**[!UICONTROL Site secret]**
+* 0~1 **[!UICONTROL Threshold]**사이의 A
 
-   0.0 **[!UICONTROL Threshold]** 값은 보트 가능성이 높고 1.0이 적절한 상호 작용일 가능성이 있음을 의미합니다. 기본적으로 임계값 0.5를 사용할 수 있습니다.
+   0.0 **[!UICONTROL Threshold]**값은 보트 가능성이 높고 1.0이 적절한 상호 작용일 가능성이 있음을 의미합니다. 기본적으로 임계값 0.5를 사용할 수 있습니다.
 
 ![](assets/external_accounts_3.png)
