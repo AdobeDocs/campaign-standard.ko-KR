@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 * **[게재 우수 사례](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>게재 디자인 및 전송과 관련된 우수 사례에 대해 자세히 알아보십시오.
 
-* **[이메일 디자이너](designing/using/designing-content-in-adobe-campaign.md)**<br/>재구성된 이메일 디자이너 설명서를 참조하십시오.
+* **[이메일](designing/using/designing-content-in-adobe-campaign.md)**<br/>디자이너 재구성된 이메일 디자이너 설명서를 참조하십시오.
 
 * **[Campaign Standard Mobile 안내서](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>모바일 전달에 대한 일반 가이드라인에 대해 자세히 알아보십시오.
 
@@ -46,7 +46,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>이메일 디자인</strong></a>
     </div>
-    <em>이메일 디자이너를 사용하여 반응형 및 개인화 이메일을 만드는 방법을 알아보십시오.</em>    <br>
+    <em>이메일 디자이너를 사용하여 반응형 이메일을</em>만드는 방법 살펴보기 <br>
   </td>
   <td valign="top">
        <img alt="개발자" src="start/using/assets/dev.png" />
