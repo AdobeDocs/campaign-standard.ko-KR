@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* 이메일 콘텐츠를 만드는 방법을 알아보려면 이메일 [디자이너](../../designing/using/quick-start.md)시작을 참조하십시오.
+* 이메일 콘텐츠를 만드는 방법을 알아보려면 이메일 [디자이너 시작을 참조하십시오](../../designing/using/quick-start.md).
 * 이메일 디자이너에 대한 개요는 이메일 [디자이너 사용을 참조하십시오](../../designing/using/designing-content-in-adobe-campaign.md).
 * 콘텐츠 제작에 대한 자세한 내용:
    * 처음부터 이메일 [디자인을 참조하십시오](../../designing/using/designing-from-scratch.md).
