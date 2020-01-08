@@ -13,7 +13,7 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
+source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
 워크플로우와 Adobe Campaign에서 사용할 수 있는 다양한 채널에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * [워크플로우 살펴보기](../../automating/using/discovering-workflows.md)
-* [소통 채널](../../channels/using/discovering-communication-channels.md)
+* [소통 채널 살펴보기](../../channels/using/discovering-communication-channels.md)
 
 ## 워크플로우 만들기 {#creating-workflow}
 
@@ -126,7 +126,7 @@ Adobe Campaign을 사용하면 워크플로우에 배달을 추가할 수 있습
 
 이메일 배달을 만들려면
 
-1. 첫 번째 세그먼트 **[!UICONTROL Email delivery]**다음에 를 드래그하여 놓습니다.
+1. 첫 번째 세그먼트 **[!UICONTROL Email delivery]**다음에 드래그하여 놓습니다.
 1. 활동을 두 번 클릭하여 편집합니다.
 1. 을 **[!UICONTROL Simple email]**선택합니다.
 1. 을 선택하고 **[!UICONTROL Add an outbound transition with the population]**클릭합니다**[!UICONTROL Next]**.
