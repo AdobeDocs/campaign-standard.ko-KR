@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 * [캠페인 릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [최신 설명서 업데이트](../../rn/using/documentation-updates.md)
 * [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [컨트롤 패널](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [제어판 릴리스 정보](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * 이전 릴리스 노트: [2018](../../rn/using/release-notes-2018.md)[](../../rn/using/release-notes-2017.md)[,2017,2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## 릴리스 19.4 - 2019년 12월 {#release-19-4---october-2019}
@@ -317,7 +317,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
  <tbody> 
   <tr> 
    <td> 컨트롤 패널<br /> </td> 
-   <td> <p>관리 사용자로서의 작업의 효율성을 높이기 위해 손쉽게 용량을 모니터링하고 인스턴스 설정을 관리할 수 있습니다(SFTP 서버 관리부터 시작).</p><p>자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/control-panel.html">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">방법 비디오를</a>참조하십시오.</p></td> 
+   <td> <p>관리 사용자로서의 작업의 효율성을 높이기 위해 손쉽게 용량을 모니터링하고 인스턴스 설정을 관리할 수 있습니다(SFTP 서버 관리부터 시작).</p><p>자세한 내용은 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">방법 비디오를</a>참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 로컬 알림<br /> </td> 
