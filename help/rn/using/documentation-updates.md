@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -117,7 +117,7 @@ Launch_ **URL_Campaign** 옵션에 대한 메모가 페이지에 추가되었습
 
 로그 탭에서 SQL 쿼리를 표시하는 방법에 대한 워크플로 문제 해결 섹션에 프로시저가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-제어판의 하위 도메인 및 인증서 관리와 관련된 정보와 함께 새 도움말 아티클이 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+제어판의 하위 도메인 및 인증서 관리와 관련된 정보와 함께 새 도움말 아티클이 추가되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 컨텐츠 템플릿 및 조각을 설명하는 섹션이 업데이트되었습니다. [자세한 내용](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -179,7 +179,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트�
 
 ### 릴리스에 포함된 새로운 기능 {#new-capabilities-included-in-the-release}
 
-제어판 - [자세한 내용](https://helpx.adobe.com/campaign/kb/control-panel.html)
+제어판 - [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 로컬 알림 - [자세한 내용](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
