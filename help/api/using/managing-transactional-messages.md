@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 >[!NOTE]
 >
->이벤트 만들기 및 게시는 캠페인 <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">설명서에</a>표시됩니다.
+>이벤트 만들기 및 게시는 [이 섹션에](../../administration/using/configuring-transactional-messaging.md)설명되어 있습니다.
 
-예를 들어 고객 중 한 명이 장바구니에서 제품을 구매하기 전에 웹 사이트를 떠날 때마다 "장바구니 포기" 이벤트를 트리거해야 합니다. 이렇게 하려면 웹 개발자가 REST 트랜잭션 메시지 API를 사용해야 합니다.
+예를 들어 고객 중 한 명이 장바구니에서 제품을 구매하기 전에 웹 사이트를 떠날 때마다 &quot;장바구니 포기&quot; 이벤트를 트리거해야 합니다. 이렇게 하려면 웹 개발자가 REST 트랜잭션 메시지 API를 사용해야 합니다.
 
 1. 개발자는 트랜잭션 이벤트의 [전송을 트리거하는 POST 메서드에 따라 요청을 보냅니다](#sending-a-transactional-event).
 1. POST 요청에 대한 응답에는 개발자가 GET 요청을 통해 하나 이상의 요청을 전송할 수 있는 기본 키가 포함되어 있습니다. 이렇게 하면 [이벤트 상태를](#transactional-event-status)얻을 수 있습니다.
@@ -40,21 +40,21 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;조직&gt;**:개인 조직 ID. 이 [섹션을](../../api/using/must-read.md)참조하십시오.
+* **&lt;조직>**:개인 조직 ID. 이 [섹션을](../../api/using/must-read.md)참조하십시오.
 
-* **&lt;transactionalAPI&gt;**:트랜잭션 메시지 API 끝점입니다.
+* **&lt;transactionalAPI>**:트랜잭션 메시지 API 끝점입니다.
 
-   트랜잭션 메시지 API 끝점의 이름은 인스턴스 구성에 따라 다릅니다. 이것은 "mc" 값 다음에 개인 조직 ID에 해당합니다. 조직 ID로 "geometrixx"를 사용하는 Geometrixx 회사의 예를 살펴보겠습니다. 이 경우 POST 요청은 다음과 같습니다.
+   트랜잭션 메시지 API 끝점의 이름은 인스턴스 구성에 따라 다릅니다. 이것은 &quot;mc&quot; 값 다음에 개인 조직 ID에 해당합니다. 조직 ID로 &quot;geometrixx&quot;를 사용하는 Geometrixx 회사의 예를 살펴보겠습니다. 이 경우 POST 요청은 다음과 같습니다.
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
    (트랜잭션 메시지 API 끝점은 API 미리 보기 중에도 볼 수 있습니다.)
 
-* **&lt;eventID&gt;**:전송할 이벤트 유형. 이 ID는 이벤트 정의를 만들 때 생성됩니다. 캠페인 설명서를 [참조하십시오](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID>**:전송할 이벤트 유형. 이 ID는 이벤트 정의를 만들 때 생성됩니다. 캠페인 설명서를 [참조하십시오](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### POST 요청 헤더
 
-요청에는 "콘텐츠 형식:application/json" 헤더입니다.
+요청에는 &quot;콘텐츠 형식:application/json&quot; 헤더입니다.
 
 문자 집합(예: **utf-8**)을 추가해야 합니다. 이 값은 사용 중인 REST 응용 프로그램에 따라 다릅니다.
 
@@ -78,7 +78,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 >[!NOTE]
 >
->"expiration" 및 "scheduled" 매개 변수의 값은 ISO 8601 형식을 따릅니다. ISO 8601은 대문자인 "T"를 사용하여 날짜와 시간을 구분합니다. 그러나 더 잘 읽을 수 있도록 입력 또는 출력에서 제거할 수 있습니다.
+>&quot;expiration&quot; 및 &quot;scheduled&quot; 매개 변수의 값은 ISO 8601 형식을 따릅니다. ISO 8601은 대문자인 &quot;T&quot;를 사용하여 날짜와 시간을 구분합니다. 그러나 더 잘 읽을 수 있도록 입력 또는 출력에서 제거할 수 있습니다.
 
 ### POST 요청에 대한 응답
 
@@ -88,7 +88,7 @@ POST 응답은 만들 때 트랜잭션 이벤트 상태를 반환합니다. 현�
 
 <br/>
 
-***샘플 요청***
+***샘플 요청&#x200B;***
 
 이벤트 전송을 위한 POST 요청.
 
@@ -136,7 +136,7 @@ POST 요청에 대한 응답입니다.
 
 ### 트랜잭션 이벤트 상태 {#transactional-event-status}
 
-응답에서 "상태" 필드를 사용하여 이벤트가 처리되었는지 여부를 알 수 있습니다.
+응답에서 &quot;상태&quot; 필드를 사용하여 이벤트가 처리되었는지 여부를 알 수 있습니다.
 
 * **보류 중**:이벤트가 보류 중입니다. 이벤트가 트리거되었을 때 이 상태가 발생합니다.
 * **처리**:이벤트가 배달 보류 중입니다. 메시지가 메시지로 변환되고 메시지가 전송됩니다.
