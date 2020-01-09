@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 646bd62d84c9c9b0bf8a6b3edfeafb435cb1d593
+source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 
 ---
 
@@ -367,6 +367,7 @@ source-git-commit: 646bd62d84c9c9b0bf8a6b3edfeafb435cb1d593
          + [카운팅](api/using/counting.md)
          + [쪽 매기기](api/using/pagination.md)
       + [사용자 정의 리소스](api/using/custom-resources.md)
+   + [사용자 정의 리소스와 상호 작용](api/using/interacting-with-custom-resources.md)
    + 프로필 관리 {#managing-profiles}
       + [프로파일 검색](api/using/retrieving-profiles.md)
       + [프로필 업데이트](api/using/updating-profiles.md)
@@ -376,7 +377,6 @@ source-git-commit: 646bd62d84c9c9b0bf8a6b3edfeafb435cb1d593
       + [구독 검색 중](api/using/retrieving-subscriptions.md)
       + [구독 수행](api/using/perform-subscriptions.md)
       + [구독 삭제](api/using/deleting-subscriptions.md)
-   + [사용자 정의 리소스와 상호 작용](api/using/interacting-with-custom-resources.md)
    + [마케팅 이력 활용](api/using/interacting-with-marketing-history.md)
    + 개인 정보 관리 {#privacy-management}
       + [개인 정보 요청 만들기](api/using/creating-a-privacy-request.md)
