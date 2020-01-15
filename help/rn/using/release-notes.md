@@ -1,5 +1,5 @@
 ---
-title: 년 릴리스 정보
+title: 최신 릴리스
 description: 이 페이지에는 Adobe Campaign Standard의 모든 최신 릴리스가 표시됩니다.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -12,37 +12,27 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
 
 ---
 
 
-# 릴리스 정보{#release-notes}
+# 최신 릴리스{#latest-release}
 
-새로운 기능 및 패치와 함께 모든 2019 릴리스가 이 페이지에 나열됩니다. 제어판 업데이트도 포함되어 있습니다.
-
-추가 리소스:
-
-* [캠페인 릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-* [최신 설명서 업데이트](../../rn/using/documentation-updates.md)
-* [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [제어판 릴리스 정보](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
-* 이전 릴리스 노트: [2018](../../rn/using/release-notes-2018.md)[](../../rn/using/release-notes-2017.md)[,2017,2015-2016](../../rn/using/release-notes-2015-2016.md)
+[릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [[제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) ]| [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 노트](../../rn/using/release-notes-2018.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 릴리스 19.4 - 2019년 12월 {#release-19-4---october-2019}
 
-### What&#39;s new? {#what-s-new-5}
+**새로운 기능**
 
 <table> 
  <thead> 
   <tr> 
-   <th> 기능<br /> </th> 
-   <th> 설명<br /> </th> 
+   <th> <strong>CPA(California Consumer Privacy Act)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> CPA(California Consumer Privacy Act)<br /> </td> 
    <td> <p>CCPA는 2020년 1월 1일부터 시행된 데이터 보호 요구 사항을 통합하고 현대화한 캘리포니아 주의 새로운 개인 정보 보호 법입니다. CCPA는 캘리포니아에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
    <p>Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 이외에도 Adobe는 CCPA에 대한 귀하의 준비 사항을 용이하게 하기 위해 추가 기능을 포함시킬 수 있는 기회를 드립니다.</p>
    <ul>
@@ -53,8 +43,17 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
     <p>사용 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">방법 비디오를</a>참조하십시오.</p>
 </td> 
   </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
   <tr> 
-   <td> Microsoft Dynamics 365 통합(GA)<br /> </td> 
+   <th> <strong>Microsoft Dynamics 365 통합(GA)</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
    <td> 
     <p>이제 Adobe Campaign Standard와 Microsoft Dynamics 365 간의 통합을 사용할 수 있습니다. 연락처 및 사용자 지정 개체 레코드를 Dynamics 365에서 Campaign으로 전송하고 이메일 이벤트 데이터를 Campaign에서 Dynamics 365로 가져와 세일즈/마케팅 정렬을 향상시킬 수 있습니다.</p>
     <p>이 통합을 설정하고 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">사용 방법 비디오를</a> <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html"></a>보려면 자세한 설명서를 참조하십시오.</p>
@@ -63,7 +62,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 향상된 기능 {#improvements-3}
+**향상된 기능**
 
 * 동적 보고에 대한 동의 팝업이 Adobe Campaign Standard 및 Microsoft Dynamics 365 통합을 포함하도록 업데이트되었습니다. 약관에 동의하면 Adobe Campaign Standard/Microsoft Dynamics 365 통합 및 Dynamic Reporting을 사용할 때 프로필 데이터가 포함됩니다. [자세한 내용](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 배달 알림을 받을 때 잘못된 연락처 날짜가 표시되던 문제를 수정했습니다.
@@ -73,13 +72,13 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 파일 로드 **작업이** 개선되었습니다.워크플로우 로그가 파일을 로드하지 못할 때 발생하는 오류에 대해 보다 명확하고 자세히 설명했습니다. 파일에 거부 유지 옵션을 활성화할 때 생성된 **아웃바운드 전환의 이름이 거부로** 변경되었습니다 ****. [자세한 내용](../../automating/using/load-file.md)
 * 다국어 관련 로그가 업로드된 CSV 파일의 누락된 언어로 인해 전송 오류를 더 잘 이해할 수 있도록 전송 로그에 추가되었습니다.
 
-### 향상된 보안 기능 {#security-enhancements-3}
+**향상된 보안 기능**
 
 * 개인 정보 요청을 통해 자격이 부여된 프로필의 정보를 삭제할 때 격리 목록의 이메일 주소를 제외한 모든 데이터가 제거되었던 문제를 수정했습니다.
 * 이메일 헤더에서 주입을 방지하기 위해 보안이 강화되었습니다.
 * xtk 표현식을 사용할 수 있는 SSRF 공격(이메일 HTML, 텍스트 컨텐츠 및 제목, SMS 및 푸시 알림 컨텐츠)에 대한 보안 기능이 향상되었습니다.
 
-### 향상된 이메일 디자이너 {#email-designer-enhancements-4}
+**향상된 이메일 디자이너**
 
 * 이메일에 삽입할 때 구독 취소, 구독 및 랜딩 페이지 링크가 추적되지 않는 문제를 해결했습니다. (CAMP-37809)
 * 새 이메일을 만들고 템플릿을 선택할 때 오류가 발생하던 문제를 수정했습니다. (CAMP-38000)
@@ -106,7 +105,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 템플릿 및 조각에서 단추 크기 문제를 수정했습니다.
 * 단추 구성 요소에 삽입할 때 이미지 크기 문제를 해결했습니다.
 
-### 기타 변경 사항 {#other-changes-3}
+**기타 변경 사항**
 
 * 배달 KPI 페이지와 동적 보고 페이지에 데이터가 표시되는 기본 시간 범위는 보고 결과의 불일치를 방지하기 위해 정렬되었습니다. (CAMP-35148)
 * 응용 프로그램 인증서가 만료되면 로그에 오류 메시지가 추가되었습니다.
@@ -121,7 +120,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * Campaign Standard API에서 키 값이 원본 키와 다른 경우 또는 Adobe에서 제공한 키 대신 고유한 비즈니스 키를 URI로 사용하는 경우에는 패치 작업을 사용하여 사용자 지정 키를 수정할 수 없습니다.
 * &quot;알바니아어 - 마케도니아&quot; 언어가 기본 언어 드롭다운 목록에 추가되었습니다. (CAMP-35396)
 
-### 패치 {#patches-4}
+**패치**
 
 * 예약된 보고서가 정렬되거나 검색되지 않던 문제를 수정했습니다.
 * AND 및 OR 규칙이 혼합되는 트리거 규칙 문제를 수정했습니다.
@@ -148,19 +147,9 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 배달이 완료되었지만 배달 상태를 &quot;시작 보류 중&quot;으로 남길 수 있는 문제를 해결했습니다. (CAMP-35355)
 * 활성화 후 SQL 로그를 비활성화한 후 워크플로우 로그가 표시되지 않는 문제를 해결했습니다.
 
-## 제어판 업데이트 - 2019년 8월 {#controlpanel-update---august-2019}
-
-### What&#39;s new? {#what-s-new-4}
-
-관리 사용자가 도메인에 대한 SSL 인증서가 만료되기 전에 알림을 수신할 수 있는 새로운 기능을 추가했습니다. 자세한 내용은 [자세한 설명서를](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)참조하십시오.
-
-또한 관리 사용자는 이제 SFTP 서버에 액세스하기 위해 추가된 SSH 키를 삭제할 수 있습니다.
-
-제어판은 AWS에서 호스팅하는 고객에게만 제공됩니다. 이 업데이트는 8월 26일에 제공됩니다.
-
 ## 릴리스 19.3 - 2019년 7월 {#release-19-3---july-2019}
 
-### What&#39;s new? {#what-s-new-3}
+**새로운 기능**
 
 <table> 
  <thead> 
@@ -181,11 +170,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 향상된 보안 기능 {#security-enhancements-2}
+**향상된 보안 기능**
 
 * 이미지를 가져오기 위한 잘못된 요청에 대한 서비스 거부(DoS) 공격을 방지하려는 보안 문제를 수정했습니다. (CAMP-33454)
 
-### 향상된 이메일 디자이너 {#email-designer-enhancements-3}
+**향상된 이메일 디자이너**
 
 * 구성 요소를 추가할 때마다 HTML 템플릿에 추가 HTML 스타일 태그를 추가함으로써 템플릿 크기를 크게 늘릴 수 있었던 문제를 수정했습니다. (CAMP-34694)
 * 오른쪽 상단 도구 모음 메뉴 옵션을 사용할 수 없는 문제를 수정했습니다. (CAMP-34577)
@@ -212,7 +201,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 동적 컨텐츠를 사용할 때 변형을 복제할 때 발생하는 문제를 수정했습니다.
 * [이메일 디자이너 설정] 창에서 원하지 않는 일부 필드가 제거되었습니다.
 
-### 기타 개선 사항 {#other-improvements-3}
+**기타 개선 사항**
 
 * Adobe Experience Platform 위치 서비스와의 통합을 통해 Adobe Campaign은 이제 Experience Platform SDK를 통해 모바일 애플리케이션의 가입자에게 위치 기반 마케팅 메시지를 전송하는 데 호환됩니다. 자세한 내용은 [자세한 설명서를](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)참조하십시오.
 * 보고 기능이 개선되어 더 나은 환경을 제공합니다. 이 기능을 사용하려면 동적 보고 사용 계약에 동의해야 합니다. 자세한 내용은 [자세한 설명서를](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)참조하십시오.
@@ -224,7 +213,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * &quot;ftp&quot; 옵션이 외부 계정 구성 인터페이스에서 제거되었습니다. (CAMP-34472)
 * 이제 각 이메일 메시지에 대해 SMTP 테스트 모드 옵션을 활성화 및 비활성화할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../administration/using/configuring-email-channel.md#smtp-test-mode)참조하십시오. (CAMP-34602)
 
-### 기타 변경 사항 {#other-changes-2}
+**기타 변경 사항**
 
 * 배달 속성 인터페이스에 경고가 추가되었습니다. 게재 집계 기간을 기반으로 준비를 하고 하루에 여러 번 워크플로를 호출할 수 있도록 변경하도록 지정하며 기간이 없는지 확인해야 합니다. (CAMP-34393)
 * 사용자 지정 리소스 구성 화면에 경고가 추가되었습니다. 사용자 지정 리소스 ID에 최대 30자를 사용하는 것이 좋습니다. 사용자 지정 리소스 필드, 키, 색인 및 링크에도 적용됩니다.
@@ -235,7 +224,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 이제 &quot;파일 전송&quot; 작업을 사용할 때 파일 크기가 사용 가능한 디스크 공간을 초과하는 경우 오류가 기록됩니다.
 * 더 이상 인앱 메시지의 보조 단추에 대해 대상 URL로 리디렉션 작업을 선택할 수 없습니다.
 
-### 패치 {#patches-3}
+**패치**
 
 * GDPR 액세스 요청이 실패하는 문제를 해결했습니다.
 * 고유한 프로필에 대해 여러 트리거를 받으면 트리거가 삭제되는 문제를 수정했습니다.
@@ -271,7 +260,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 릴리스 19.2.7 - 2019년 7월 {#release-19-2-7---july-2019}
 
-### 향상된 기능 {#improvements-2}
+**향상된 기능**
 
 * GDPR 삭제 쿼리가 개선되어 성능이 향상되었습니다.
 * 19.2 업그레이드 후 웹 충돌이 발생할 수 있는 문제를 수정했습니다. (CAMP-34862)
@@ -280,20 +269,20 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 릴리스 19.2.4 - 2019년 6월 {#release-19-2-4---june-2019}
 
-### Email Designer {#email-designer-2}
+**이메일 디자이너**
 
 * HTML에서 빈 스타일 태그를 사용할 때 사용자가 조각을 편집할 수 없는 문제를 수정했습니다. 이것은 19.2.3의 CAMP-33778에 대한 후속 픽스입니다.
 
 ## 릴리스 19.2.3 - 2019년 6월 {#release-19-2-3---june-2019}
 
-### Email Designer {#email-designer-1}
+**이메일 디자이너**
 
 19.2 릴리스에서 조각을 최적화하기 위한 일련의 개선 사항 및 수정 사항이 도입되었습니다. 새로 만든 조각은 원활하게 작동합니다. 이전에 작성된 조각은 회색으로 표시되었으며 새 형식으로 마이그레이션해야 합니다. 이렇게 하려면 각 조각을 클릭하고 새 형식으로 마이그레이션된 내용을 확인합니다. 일부 조각을 모두 마이그레이션하기 전에 테스트하는 것이 좋습니다.
 
 * 사용자가 조각을 잠금 해제한 후 편집할 수 없는 문제를 해결했습니다. 19.2로 업데이트할 때 기존 조각에 영향을 주었습니다. (CAMP-33778)
 * 동적 컨텐츠를 사용할 때 발생하는 문제를 수정했습니다. HTML에 추가 공백이 추가되었습니다.
 
-### 기타 개선 사항 {#other-improvements-2}
+**기타 개선 사항**
 
 * SMS 커넥터의 연결이 해제된 후 SMS 전송이 다시 시작되지 않는 문제를 해결했습니다.
 * TLS가 활성화된 경우 SMPP 연결을 닫을 수 있는 문제를 해결했습니다.
@@ -305,7 +294,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 릴리스 19.2 - 2019년 5월 {#release-19-2---may-2019}
 
-### What&#39;s new? {#what-s-new-}
+**새로운 기능**
 
 <table> 
  <thead> 
@@ -334,11 +323,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 향상된 보안 기능 {#security-enhancements}
+**향상된 보안 기능**
 
 * 보고 작업 공간에서 잠재적인 클릭재킹 보안 문제를 해결했습니다.
 
-### 향상된 이메일 디자이너 {#email-designer-enhancements}
+**향상된 이메일 디자이너**
 
 * 조각을 복제하고 이메일 디자이너에서 사용하려는 경우 발생하는 문제를 해결했습니다. (CAMP-33193)
 * 이메일 디자이너 인터페이스에서 인라인 요소를 사용할 때 원치 않는 공백이 생성되는 문제를 수정했습니다. (CAMP-32163)
@@ -358,7 +347,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * RGB 값을 사용하여 색상을 정의하려고 할 때 색상 피커에서 발생하는 문제를 수정했습니다.
 * 모바일에서 이메일을 수신할 때 미러 페이지가 반응하지 않는 문제를 해결했습니다.
 
-### 향상된 트랜잭션 메시지 {#transactional-messaging-enhancements}
+**향상된 트랜잭션 메시지**
 
 작업 및 성능을 최적화하기 위해 트랜잭션 메시징 채널에 몇 가지 개선 사항이 추가되었습니다.
 
@@ -370,7 +359,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 이벤트 구성 및 관련 트랜잭션 메시지와 함께 패키지를 가져올 때 발생하는 문제를 수정했습니다. 자세한 내용은 [자세한 설명서를](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages)참조하십시오.
 * 제품 목록을 포함하는 트랜잭션 메시지에 대해 생성된 테스트 프로필에서 수집 데이터를 삭제하는 문제를 해결했습니다.
 
-### 기타 변경 사항 {#other-changes}
+**기타 변경 사항**
 
 * SMS 외부 계정에 새 옵션이 추가되었습니다. SMS를 전송하는 최대 MTA 프로세스 수를 제한할 수 있으므로 병렬 연결 수를 보다 효과적으로 제어할 수 있습니다. 자세한 내용은 SMS 커넥터 [프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 기술 문서를 참조하십시오.
 * API 확장 기능이 있는 리소스를 게시할 때 API가 이미 게시되어 있으면 다시 게시할 때마다 자동으로 업데이트됩니다. 이전에는 이 작업이 수동적이며 API를 업데이트하지 않으면 이 API의 프로필 또는 서비스 리소스가 손실될 수 있었습니다. 자세한 내용은 [자세한 설명서를](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)참조하십시오.
@@ -386,7 +375,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 사용자 지정 리소스 게시 테스트 모드가 개선되었습니다. 이제 마지막 사용자 지정 리소스 게시가 실패하여 수정되지 않은 경우 사용자에게 경고 메시지가 표시됩니다. 사용자 지정 리소스 게시가 실패한 후 마지막 작업 버전으로 롤백할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)참조하십시오.
 * 파일 전송 작업에 새 옵션이 추가되었습니다. SFTP 모드에서 파일 다운로드 작업을 사용할 때 파일을 정렬할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/transfer-file.md)참조하십시오. (CAMP-33109)
 
-### 패치 {#patches}
+**패치**
 
 * SMS 설정을 다시 로드할 때 MTA로 메모리 누수가 발생할 수 있는 문제를 수정했습니다.
 * 복구 모드에서 데이터베이스 업데이트를 게시할 수 없는 문제를 해결했습니다.
@@ -409,13 +398,13 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 릴리스 19.1.3 - 2019년 3월 {#release-19-1-3---march-2019}
 
-### 향상된 이메일 디자이너 {#email-designer-enhancements-1}
+**향상된 이메일 디자이너**
 
 * 템플릿을 저장한 후 수정할 수 없는 문제를 수정했습니다.
 * 이메일에서 이전에 만든 템플릿을 사용할 때 발생하는 다양한 문제가 해결되었습니다.
 * 가져온 템플릿에서 구성 요소를 숨길 수 없는 문제를 수정했습니다.
 
-### 기타 개선 사항 {#other-improvements}
+**기타 개선 사항**
 
 * 유형 규칙을 볼 때 오류가 수정되었습니다. (CAMP-32059 &amp; CAMP-31849)
 * 유형 규칙을 편집할 수 없는 문제를 수정했습니다. (CAMP-31750)
@@ -423,7 +412,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 릴리스 19.1 - 2019년 2월 {#release-19-1---february-2019}
 
-### What&#39;s new? {#what-s-new--1}
+**새로운 기능**
 
 <table> 
  <thead> 
@@ -457,11 +446,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 향상된 보안 기능 {#security-enhancements-1}
+**향상된 보안 기능**
 
 * 생성된 랜딩 페이지 HTML 코드가 검색 엔진 인덱싱을 방지하기 위해 업데이트되었습니다.
 
-### 향상된 이메일 디자이너 {#email-designer-enhancements-2}
+**향상된 이메일 디자이너**
 
 * 이제 Behance 아티스트가 디자인한 4개의 동급 최강의 반응형 이메일 템플릿을 사용할 수 있습니다.
 
@@ -488,7 +477,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * YouTube 아이콘이 Social 컨텐츠 구성 요소에 **추가되었습니다** .
 * 목록 **보기가** 이메일 디자이너 팔레트에 표시되는 컨텐츠 구성 요소 및 조각에 추가되었습니다.
 
-### 기타 개선 사항 {#other-improvements-1}
+**기타 개선 사항**
 
 * Adobe Campaign은 이제 SDK V4 및 AEP SDK 앱 모두에 대해 완전히 FCM을 준수합니다.
 * Adobe Campaign은 Android의 Wear OS 및 Apple의 watchOS에서 푸시 알림을 지원합니다.
@@ -499,12 +488,12 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
    자세한 내용은 [자세한 설명서를](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)참조하십시오.
 
-### 기타 변경 사항 {#other-changes-1}
+**기타 변경 사항**
 
 * Adobe Campaign 및 Adobe Experience Cloud는 2019년 봄 및 Campaign Standard 19.2 릴리스에서 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정입니다. Microsoft Edge 또는 지원되는 다른 브라우저로 전환하십시오. 더 [이상 사용되지 않음 및 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) 페이지를 참조하십시오.
 * 프로필 **리소스의 국가 코드** 필드 이름이 국가/지역 **코드로**&#x200B;변경되었습니다.
 
-### 패치 {#patches-1}
+**패치**
 
 * 테스트 프로필을 이메일 트랜잭션 메시지에 추가할 때 메시지가 전송되지 않던 문제를 수정했습니다. (CAMP-29854)
 * 모든 채널에서 메시지 전송이 동시에 트리거될 때 한 채널에 대해 전송 속도가 낮을 경우 다른 채널에서 메시지를 보내는 속도가 느려지는 문제를 해결했습니다.
@@ -529,7 +518,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## 릴리스 19.0 - 2019년 1월 {#release-19-0---january-2019}
 
-### What&#39;s new? {#what-s-new--2}
+**새로운 기능**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -571,7 +560,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 향상된 기능 {#improvements}
+**향상된 기능**
 
 * 이제 데이터 로드 활동의 새로운 옵션을 사용하여 거부된 레코드가 포함된 파일에 사후 처리 단계를 적용할 수 있습니다(예: Zip 형식 압축). (CAMP-24521)
 * 이제 데이터 업데이트 활동의 새로운 옵션을 사용하여 업로드할 데이터의 최대 배치 크기를 구성할 수 있습니다. (CAMP-28400)
@@ -581,7 +570,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 프로필 주소를 정의할 때 사용할 수 있는 국가 목록이 향상되었습니다. (CAMP-26707)
 * 이제 기본 제공 워크플로우를 가져오려고 하면 오류 메시지가 표시됩니다.
 
-### Email Designer {#email-designer}
+**이메일 디자이너**
 
 * 이메일 템플릿 또는 이메일 디자이너와 함께 만들어진 컨텐츠 조각에서 지리적 단위 기능을 활성화하여 Adobe Campaign에서 이 기능이 비활성화되어 다시 액세스하려고 할 때 템플릿 또는 조각을 사용할 수 없게 했던 문제를 수정했습니다. (CAMP-28174)
 * 이메일 디자이너에서 컨텐츠를 편집할 때 동적 컨텐츠 조건이 저장되지 않는 문제를 해결했습니다. (CAMP-27905)
@@ -597,7 +586,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 이제 이메일 디자이너를 사용하여 프로필 트랜잭션 메시지를 만들 수 있습니다. (CAMP-28900)
 * 준비 시 URL에서 컨텐츠를 자동으로 검색할 때 컨텐츠를 편집할 수 있게 하는 이메일 디자이너의 오류를 수정했지만 컨텐츠를 잠가야 했습니다.
 
-### 패치 {#patches-2}
+**패치**
 
 * 동적 보고에서 잘못된 배달 로그가 표시되는 문제를 해결했습니다. (CAMP-23446)
 * 바운스 요약 보고서의 수에 영향을 줄 수 있는 문제를 수정했습니다(CAMP-28703).
