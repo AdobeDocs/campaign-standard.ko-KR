@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
 
 ---
 
@@ -34,6 +34,8 @@ Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/usin
 Adobe Campaign Standard의 모바일 게재에 대한 일반 가이드라인에 대한 새 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 캠페인 및 Experience Manager를 사용한 작업 설명서가 Campaign-Experience **Manager 통합을**&#x200B;사용하는 방법에 대한 팁 단원으로 업데이트되었습니다. [자세한 내용](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+
+APIs 설명서 홈 페이지는 다른 주제에 대한 리디렉션으로 개선되었습니다. [자세한 내용](../../api/using/about-campaign-standard-apis.md)
 
 ## 설명서 업데이트 - 2019년 12월 {#doc-updates-december-2019}
 
