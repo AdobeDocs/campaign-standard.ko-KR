@@ -12,14 +12,14 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
+source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
 
 ---
 
 
 # 최신 릴리스{#latest-release}
 
-[릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [[제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) ]| [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 노트](../../rn/using/release-notes-2018.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 노트](../../rn/using/release-notes-2018.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 릴리스 19.4 - 2019년 12월 {#release-19-4---october-2019}
 
