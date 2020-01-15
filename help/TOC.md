@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
+source-git-commit: 45045eba15b4b5f6cbf0541b04e443c20c30dc0b
 
 ---
 
@@ -12,12 +12,12 @@ source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 # Adobe Campaign Standard 도움말 {#using}
 
 + [제품 설명서](campaign-standard-home.md)
++ [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
-   + [릴리스 정보](rn/using/release-notes.md)
-   + [2018년 릴리스 정보](rn/using/release-notes-2018.md)
-   + [2017년 릴리스 정보](rn/using/release-notes-2017.md)
-   + [2015년-2016년 릴리스 정보](rn/using/release-notes-2015-2016.md)
-   + [설명서 업데이트 정보](rn/using/documentation-updates.md)
+   + [최신 릴리스](rn/using/release-notes.md)
+   + 이전 릴리스 {#previous-releases}
+      + [2018년 릴리스 정보](rn/using/release-notes-2018.md)
+      + [2017년 릴리스 정보](rn/using/release-notes-2017.md)
 + 시작 {#getting-started}
    + Adobe Campaign 기본 정보 {#about-adobe-campaign}
       + [캠페인 오케스트레이션](start/using/campaign-orchestration.md)
