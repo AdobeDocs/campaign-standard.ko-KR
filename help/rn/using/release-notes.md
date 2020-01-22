@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -306,7 +306,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
  <tbody> 
   <tr> 
    <td> 컨트롤 패널<br /> </td> 
-   <td> <p>관리 사용자로서의 작업의 효율성을 높이기 위해 손쉽게 용량을 모니터링하고 인스턴스 설정을 관리할 수 있습니다(SFTP 서버 관리부터 시작).</p><p>자세한 내용은 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">방법 비디오를</a>참조하십시오.</p></td> 
+   <td> <p>관리 사용자로서의 작업의 효율성을 높이기 위해 손쉽게 용량을 모니터링하고 인스턴스 설정을 관리할 수 있습니다(SFTP 서버 관리부터 시작).</p><p>자세한 내용은 <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">방법 비디오를</a>참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 로컬 알림<br /> </td> 
@@ -314,7 +314,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
   </tr> 
   <tr> 
    <td> 향상된 워크플로우 - 외부 신호 활동에 페이로드 추가<br /> </td> 
-   <td> <p>정의된 조건을 다른 워크플로우에서 성공적으로 충족하거나 REST API 호출을 통해 외부 시스템과 통합할 때 페이로드로 워크플로우를 시작합니다. 또한 이 기능에서 테스트를 실행할 수 있는 새로운 <strong>테스트</strong> 활동이 포함됩니다.</p><p>자세한 내용은 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">방법 비디오를</a>참조하십시오.</p></td> 
+   <td> <p>정의된 조건을 다른 워크플로우에서 성공적으로 충족하거나 REST API 호출을 통해 외부 시스템과 통합할 때 페이로드로 워크플로우를 시작합니다. 또한 이 기능에서 테스트를 실행할 수 있는 새로운 <strong>테스트</strong> 활동이 포함됩니다.</p><p>자세한 내용은 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">방법 비디오를</a>참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 랜딩 페이지 개선 사항 - Google reCAPTCHA<br /> </td> 
@@ -432,7 +432,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
   </tr> 
   <tr> 
    <td> 모바일 인앱 메시지<br /> </td> 
-   <td> <p>이 릴리스에는 Campaign의 인앱 채널의 GA 버전이 포함되어 있습니다. 기능 측면에서 베타 릴리스에 추가된 가장 주목할 만한 기능은 인앱 채널에 대한 동적 보고서와 SDK와 MCIAS(In-App 규칙을 SDK에 제공하는 Marketing Cloud 인앱 메시징 서비스) 간의 보안 핸드셰이크입니다. 보안 핸드셰이크를 사용하면 사용자의 PII 데이터가 악의적인 사용자에게 노출되지 않고 사용자가 로그아웃할 때마다 메시지 캐시를 지우면서 공유 장치에서 사용자의 개인 정보를 유지할 수 있습니다.</p><p>자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">자세한 설명서</a> 및 전용 인앱 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">자습서를</a>참조하십시오.</p> </td> 
+   <td> <p>이 릴리스에는 Campaign의 인앱 채널의 GA 버전이 포함되어 있습니다. 기능 측면에서 베타 릴리스에 추가된 가장 주목할 만한 기능은 인앱 채널에 대한 동적 보고서와 SDK와 MCIAS(In-App 규칙을 SDK에 제공하는 Marketing Cloud 인앱 메시징 서비스) 간의 보안 핸드셰이크입니다. 보안 핸드셰이크를 사용하면 사용자의 PII 데이터가 악의적인 사용자에게 노출되지 않고 사용자가 로그아웃할 때마다 메시지 캐시를 지우면서 공유 장치에서 사용자의 개인 정보를 유지할 수 있습니다.</p><p>자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">자세한 설명서</a> 및 전용 인앱 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">자습서를</a>참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 향상된 워크플로우<br /> </td> 
@@ -537,11 +537,11 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
      <li> 준비 시 URL에서 컨텐츠를 자동으로 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">검색할 수 있는 기능</a> </li> 
      <li> 즉시 <a href="../../designing/using/using-reusable-content.md#content-templates">사용할 수 있는 컨텐츠 템플릿을</a>준수합니다. </li> 
     </ul> 
-    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">방법 비디오를</a>참조하십시오. 개선 사항 및 수정 사항은 아래에 나와 있습니다.</p><p>따라서 기존 이메일 컨텐츠 편집기는 이제 더 이상 사용되지 않습니다. 자세한 내용은 이 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">페이지를</a>참조하십시오.</p> </td> 
+    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">방법 비디오를</a>참조하십시오. 개선 사항 및 수정 사항은 아래에 나와 있습니다.</p><p>따라서 기존 이메일 컨텐츠 편집기는 이제 더 이상 사용되지 않습니다. 자세한 내용은 이 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">페이지를</a>참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 이메일의 제품 목록<br /> </td> 
-   <td> <p>이제 트랜잭션 이메일 메시지에서 하나 이상의 제품 컬렉션을 참조할 수 있습니다. 예를 들어, 이미지, 가격 및 각 제품에 대한 링크가 포함된 모든 제품이 나열된 장바구니 포기 이메일을 자동으로 보낼 수 있습니다.</p><p>자세한 내용은 <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">자세한 설명서</a> 및 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">방법 비디오를</a>참조하십시오.</p> </td> 
+   <td> <p>이제 트랜잭션 이메일 메시지에서 하나 이상의 제품 컬렉션을 참조할 수 있습니다. 예를 들어, 이미지, 가격 및 각 제품에 대한 링크가 포함된 모든 제품이 나열된 장바구니 포기 이메일을 자동으로 보낼 수 있습니다.</p><p>자세한 내용은 <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">방법 비디오를</a>참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 이메일 디자이너의 모바일 보기<br /> </td> 
