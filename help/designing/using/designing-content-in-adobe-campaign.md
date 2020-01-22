@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해
 
 이메일 디자이너를 사용하면 이메일 컨텐츠를 만들고 이메일 컨텐츠 템플릿을 사용할 수 있습니다. 간단한 이메일, 트랜잭션 이메일, A/B 테스트 이메일, 다국어 이메일 및 반복 이메일과 호환됩니다.
 
-이메일 디자이너를 시작하려면 이메일 디자이너의 일반적인 기능과 이메일 디자인 방법 또는 템플릿을 사용하는 방법을 설명하는 이 [비디오](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) 세트를 시청하십시오.
+이메일 디자이너를 시작하려면 이메일 디자이너의 일반적인 기능과 이메일 디자인 방법 또는 템플릿을 사용하는 방법을 설명하는 이 [비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 세트를 시청하십시오.
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
