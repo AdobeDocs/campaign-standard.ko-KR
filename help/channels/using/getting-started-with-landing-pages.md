@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -34,7 +34,7 @@ Campaign에는 고객 정보를 캡처하고, 서비스에 구독을 제공하�
 
 **관련 항목:**
 
-* [랜딩 페이지 만들기 자습서 비디오](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) 비디오
+* [랜딩 페이지 만들기 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) 비디오
 * [서비스 만들기](../../audiences/using/creating-a-service.md)
 * [이중 옵트인 프로세스 설정](setting-up-a-double-opt-in-process.md)
 
@@ -44,12 +44,12 @@ Campaign에는 고객 정보를 캡처하고, 서비스에 구독을 제공하�
 
 **데이터 작성 및 업데이트**
 
-* 랜딩 페이지는 **[!UICONTROL Profile]** 및 **[!UICONTROL Subscription]** 리소스로만 제한됩니다. 기록을 저장 및 업데이트할 수 **[!UICONTROL Profile]** 있으며 구독/구독 취소 **[!UICONTROL Service]**가능
+* 랜딩 페이지는 **[!UICONTROL Profile]**및**[!UICONTROL Subscription]** 리소스로만 제한됩니다. 기록을 저장 및 업데이트할 수 **[!UICONTROL Profile]**있으며 구독/구독 취소**[!UICONTROL Service]**가능
 리소스 구성에 대한 자세한 내용은 [리소스의 데이터 구조](../../developing/using/configuring-the-resource-s-data-structure.md)구성을 참조하십시오.
 
 >[!CAUTION]
 >
->랜딩 페이지는 **[!UICONTROL Profile]** 및 이외의 다른 리소스에서 데이터를 표시하거나 업데이트할 수 없습니다 **[!UICONTROL Subscription]**.
+>랜딩 페이지는 **[!UICONTROL Profile]**및 이외의 다른 리소스에서 데이터를 표시하거나 업데이트할 수 없습니다**[!UICONTROL Subscription]**.
 
 **미리 로드**
 
@@ -79,7 +79,7 @@ Campaign에는 고객 정보를 캡처하고, 서비스에 구독을 제공하�
 
 랜딩 페이지를 설정하기 전에 첫 번째 단계는 필요에 맞는 랜딩 페이지 템플릿을 구성하는 것입니다. 템플릿이 준비되면 템플릿을 기반으로 하는 모든 랜딩 페이지가 원하는 매개 변수로 미리 구성됩니다.
 
-1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**&#x200B;를 선택한 다음 사용할 템플릿을 복제합니다.
+1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Resources]**/**[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]**를 선택한 다음 사용할 템플릿을 복제합니다.
 1. 템플릿 속성에서 랜딩 페이지에 공통으로 포함해야 하는 모든 매개 변수를 지정합니다. 예:타깃팅 차원, 식별되거나 식별되지 않은 방문자에 대한 페이지 액세스 매개 변수, 방문자의 양식 유효성 검사에 특정한 작업, 컨텐츠에 사용할 브랜드/로고 등. 랜딩 페이지의 속성에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../channels/using/configuring-landing-page.md)
 1. 수정 내용을 저장합니다.
 
@@ -130,7 +130,7 @@ Campaign에는 고객 정보를 캡처하고, 서비스에 구독을 제공하�
 
 ## 단계 랜딩 페이지 게시 {#publish-the-landing-page}
 
-테스트가 완료되면 대시보드의 작업 표시줄에서 **[!UICONTROL Publish]** 단추를 사용하여 랜딩 페이지를 게시할 수 있습니다. 모니터링 블록은 게시의 진행 상황과 상태를 보여줍니다.
+테스트가 완료되면 대시보드의 작업 표시줄에서 **[!UICONTROL Publish]**단추를 사용하여 랜딩 페이지를 게시할 수 있습니다. 모니터링 블록은 게시의 진행 상황과 상태를 보여줍니다.
 
 랜딩 페이지를 게시하면 온라인에서 액세스할 수 있습니다. 게시한 후에는 항상 업데이트할 수 있습니다.이렇게 하려면 각 수정 후에 다시 게시해야 합니다. 랜딩 페이지를 더 이상 사용할 수 없도록 언제든지 게시 취소할 수도 있습니다.
 
