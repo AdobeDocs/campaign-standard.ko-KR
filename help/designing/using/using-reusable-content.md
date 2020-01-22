@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b26f83cd84d85d4794278af5df5d4308b2de467f
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -46,7 +46,7 @@ HTML 컨텐츠 템플릿은 고급 메뉴의 **[!UICONTROL Resources]**>**[!UICO
 
 **관련 항목:**
 
-* 이 [비디오에서](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)콘텐츠 템플릿을 개인화하는 방법을 살펴보십시오.
+* 이 [비디오에서](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html)콘텐츠 템플릿을 개인화하는 방법을 살펴보십시오.
 * 컨텐츠 편집에 대한 자세한 내용은 이메일 [컨텐츠 디자인](../../designing/using/designing-content-in-adobe-campaign.md)정보를 참조하십시오.
 
 ### Creating a content template {#creating-a-content-template}
