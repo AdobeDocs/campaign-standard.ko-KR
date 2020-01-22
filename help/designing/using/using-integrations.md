@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -37,7 +37,7 @@ Dreamweaver와 Adobe Campaign Standard의 통합을 통해 Dreamweaver 인터페
 
    이메일 개발자의 경우 더 이상 데이터 모델 표의 구문과 같은 텍스트를 추가하거나 찾을 필요가 `[[FIRSTNAME_PLACEHOLDER]]` 없습니다. Dreamweaver의 캠페인 도구 모음은 캠페인 인스턴스의 데이터 모델에 직접 연결됩니다. 즉, 이름과 주소 등 개인화에 필요한 모든 데이터를 가져올 수 있습니다. Campaign 내에서 컨텐츠 블록을 만든 경우 Dreamweaver로 직접 가져올 수도 있습니다.
 
-이 기능은 [여기에서](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)액세스할 수 있는 Dreamweaver 문서에서 자세히 설명합니다. 데모 [비디오도](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) 제공됩니다.
+이 기능은 [여기에서](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)액세스할 수 있는 Dreamweaver 문서에서 자세히 설명합니다. 데모 [비디오도](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) 제공됩니다.
 
 ## Experience Manager에서 콘텐츠 편집 {#editing-content-in-experience-manager}
 
@@ -139,7 +139,7 @@ Adobe Campaign은 다양한 이메일 작성 옵션을 제공합니다. 아래 �
    <td> <strong>자세한 내용</strong><br /> </td> 
    <td> 이메일 <a href="../../designing/using/designing-content-in-adobe-campaign.md">디자이너 정보를 참조하십시오</a>.<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
-   <td> Dreamweaver <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">및 Campaign</a> 을 참조하고 이 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">비디오를</a>시청하십시오.<br /> </td> 
+   <td> Dreamweaver <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">및 Campaign</a> 을 참조하고 이 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">비디오를</a>시청하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
