@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -80,5 +80,5 @@ SMS 메시지를 만들어 휴대폰에 보내려면 다음이 필요합니다.
 
 * [SMS 및 푸시 컨텐츠 에디션 정보](../../channels/using/about-sms-and-push-content-design.md)
 * [템플릿 관리](../../start/using/marketing-activity-templates.md)
-* [SMS 전달](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) 비디오 만들기
+* [SMS 전달](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html) 비디오 만들기
 
