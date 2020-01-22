@@ -12,14 +12,14 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 66cd1df8723971fc4dc95b40d5ef46493a055306
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
 # 사용법 비디오{#how-to-videos}
 
-Adobe Campaign Standard 사용법 비디오를 [시청하여 주요 기능을](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)살펴볼 수 있습니다.
+Adobe Campaign Standard 사용법 비디오를 [시청하여 주요 기능을](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)살펴볼 수 있습니다.
 
 * [이메일](https://video.tv.adobe.com/v/23721?captions=kor)만들기:adobe Campaign의 홈 페이지에서 이메일을 만듭니다.
 * [랜딩 페이지](https://video.tv.adobe.com/v/24093?captions=kor)만들기:adobe Campaign에서 랜딩 페이지를 만들고 편집합니다.
