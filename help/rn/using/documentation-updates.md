@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
+source-git-commit: 957290fc6524d4eb7c69c914f9817414655a25fd
 
 ---
 
@@ -27,7 +27,9 @@ Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/usin
 
 ## 설명서 업데이트 - 2020년 1월 {#doc-updates-january-2020}
 
-&#39;크로스 채널 전달 워크플로우 만들기&#39; 시작 안내서가 업데이트되어 핵심 문서에 포함되어 있습니다. [자세한 내용](../../automating/using/workflow-cross-channel-delivery.md)
+IP 인증에 대한 새로운 섹션으로 제공 설명서를 업데이트했습니다. [자세한 내용](../../sending/using/ip-certification.md)
+
+크로스 채널 전달 워크플로우를 만드는 방법을 설명하는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../automating/using/workflow-cross-channel-delivery.md)
 
 동적 보고서의 지표 계산 섹션이 업데이트되었습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
@@ -197,7 +199,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트�
 
 Adobe Campaign에서 바로 사용할 수 있는 상황에 맞는 도움말 링크가 업데이트되었습니다.
 
-다음 [페이지가](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) Adobe Campaign Standard의 공식 비디오 페이지가 됩니다.
+다음 [페이지가](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) Adobe Campaign Standard의 공식 비디오 페이지가 됩니다.
 
 표준 테이블에 대한 기본 보존 값을 포함하여 데이터 유지에 대한 섹션을 추가했습니다. [자세한 내용](../../administration/using/data-retention.md)
 
@@ -337,7 +339,7 @@ SDK V4를 사용하여 모바일 애플리케이션 구성 섹션이 [여기에�
 
 Adobe Experience Platform SDK를 사용하여 모바일 애플리케이션 구성 섹션이 [여기에서](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)이동되었습니다.
 
-비디오가 업데이트되어 [여기로](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)이동되었습니다.
+비디오가 업데이트되어 [여기로](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)이동되었습니다.
 
 사용자 유형 섹션을 업데이트했습니다. [자세한 내용](../../administration/using/users-management.md)
 
@@ -685,7 +687,7 @@ Creative SDK를 통한 향상된 이미지 에디션 기능 - [자세한 내용]
 
 Amazon Simple Storage Service (S3) 커넥터 - [자세한 내용](../../administration/using/external-accounts.md)
 
-Dreamweaver 통합 라이브 - [자세한 내용](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver 통합 라이브 - [자세한 내용](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트 {#other-documentation-updates-coming-with-the-release-14}
 
@@ -709,7 +711,7 @@ Adobe Analytics for Mobile(관심 영역)과의 통합이 구성 단계 및 사�
 
 동적 보고 - [자세한 내용](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 통합(Labs) - [자세한 내용](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaver 통합(Labs) - [자세한 내용](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 수동 전송 시간 최적화 - [자세한 내용](../../sending/using/optimizing-the-sending-time.md)
 
