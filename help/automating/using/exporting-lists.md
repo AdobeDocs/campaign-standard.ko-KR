@@ -1,36 +1,36 @@
 ---
 title: 목록 내보내기
 description: 'Adobe Campaign을 사용하면 나중에 사용할 수 있도록 개요 화면에서 목록으로 표시된 데이터를 파일에 직접 내보낼 수 있습니다. '
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
-topic-tags: 가져오기 및 내보내기 데이터
+topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
 # 목록 내보내기{#exporting-lists}
 
-Adobe Campaign을 사용하면 나중에 사용할 수 있도록 목록을 파일로 직접 내보낼 수 있습니다. 파일의 목록을 내보내면 **[!UICONTROL Export audits]** 메뉴에서 로그 항목이 생성됩니다. 내보내기 감사에 대한 자세한 내용은 감사 내보내기 [섹션을](../../administration/using/auditing-export-logs.md) 참조하십시오.
+Adobe Campaign을 사용하면 나중에 사용할 수 있도록 목록을 파일로 직접 내보낼 수 있습니다. 파일의 목록을 내보내면 **[!UICONTROL Export audits]**메뉴에서 로그 항목이 생성됩니다. 내보내기 감사에 대한 자세한 내용은 감사 내보내기[섹션을](../../administration/using/auditing-export-logs.md)참조하십시오.
 
-내보내기 목록 옵션을 사용하면 기본적으로 최대 100,000개의 줄을 내보내고 Nms_ExportListLimit **옵션으로 정의할 수** 있습니다. 이 옵션은 기능 관리자가 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** 메뉴에서 관리할 수 있습니다.
+내보내기 목록 옵션을 사용하면 기본적으로 최대 100,000개의 줄을 내보내고 Nms_ExportListLimit **옵션으로 정의할 수** 있습니다. 이 옵션은 기능 관리자가 **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** > **[!UICONTROL Options]**메뉴에서 관리할 수 있습니다.
 
-목록 내보내기 목록은 목록 **모드 보기가 있는** 모든 화면에서 **[!UICONTROL EXPORT (export)]** 역할을 가진 사용자를 위해 사용할 수 있습니다.
+목록 내보내기 목록은 목록 **모드 보기가 있는** 모든 화면에서 **[!UICONTROL EXPORT (export)]**역할을 가진 사용자를 위해 사용할 수 있습니다.
 
-1. 선택한 목록 **화면으로** 이동합니다. 예를 들어 테스트 프로필 개요 화면( **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]** )을 참조하십시오.
+1. 선택한 목록 **화면으로** 이동합니다. 예를 들어 테스트 프로필 개요 화면( **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Test profiles]** )을 참조하십시오.
 1. 화면이 목록 **모드인지** 확인합니다.
 
    ![](assets/export_list_mode_switch.png)
 
-1. 오른쪽 상단 모서리의 **[!UICONTROL Configure list]** 단추를 사용하여 내보낼 순서대로 목록의 열을 구성합니다. 구성된 열 외에도 리소스의 기본 키도 내보내집니다.
+1. 오른쪽 상단 모서리의 **[!UICONTROL Configure list]**단추를 사용하여 내보낼 순서대로 목록의 열을 구성합니다. 구성된 열 외에도 리소스의 기본 키도 내보내집니다.
 1. 원하는 경우 필터를 적용할 수 있습니다. 이렇게 하려면 왼쪽 상단 모서리의 단추를 클릭하여 검색 창을 표시합니다.
 
    다른 리소스가 포함된 목록에서 내보내기를 수행하는 경우 목록에 리소스 유형이 하나만 표시되도록 필터를 적용해야 합니다.
@@ -75,5 +75,4 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [역할](../../administration/using/list-of-roles.md)
 * [목록 사용자 지정](../../start/using/customizing-lists.md)
-* [목록 비디오 구성](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
-
+* [목록 비디오 구성](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
