@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -94,7 +94,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
    <td> Dreamweaver<br /> </td> 
    <td> Dreamweaver에서 이메일 컨텐츠를 편집하고 Adobe Campaign과 동기화할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">Dreamweaver 비디오를 사용하여 개인화된 이메일</a> 제작, <br/>Dreamweaver용 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">캠페인 확장 사용</a> 
+    <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Dreamweaver 비디오를 사용하여 개인화된 이메일</a> 제작, <br/>Dreamweaver용 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">캠페인 확장 사용</a> 
   </td> 
   </tr> 
   <tr> 
