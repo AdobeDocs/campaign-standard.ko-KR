@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -29,16 +29,16 @@ Adobe Campaign에는 시작하는 데 도움이 되는 미리 정의된 콘텐�
 >아래 이미지는 이메일 디자이너를 사용하여 기존 컨텐츠를 로드하는 방법을 [보여줍니다](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. 이메일 또는 랜딩 페이지를 만든 후 해당 컨텐츠를 엽니다.
-1. 홈 아이콘을 클릭하여 **[!UICONTROL Email Designer]** 홈 페이지에 액세스합니다.
+1. 홈 아이콘을 클릭하여 **[!UICONTROL Email Designer]**홈 페이지에 액세스합니다.
 
    ![](assets/des_loading_1.png)
 
 1. 로드할 컨텐츠의 소스를 선택합니다.
 
-   * [컨텐츠 템플릿](../../designing/using/using-reusable-content.md#content-templates):탭을 **[!UICONTROL Templates]** 클릭합니다.
-   * [처음부터](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)새로 시작하는 콘텐츠:단추를 **[!UICONTROL Create]** 클릭합니다.
-   * [컴퓨터의 콘텐트를 ZIP 또는 HTML 파일로](#importing-content-from-a-file)저장:단추를 **[!UICONTROL Upload]** 클릭합니다.
-   * [기존 URL의 컨텐츠](#importing-content-from-a-url) (이메일만 해당):단추를 **[!UICONTROL Import from URL]** 클릭합니다.
+   * [컨텐츠 템플릿](../../designing/using/using-reusable-content.md#content-templates):탭을 **[!UICONTROL Templates]**클릭합니다.
+   * [처음부터](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)새로 시작하는 콘텐츠:단추를 **[!UICONTROL Create]**클릭합니다.
+   * [컴퓨터의 콘텐트를 ZIP 또는 HTML 파일로](#importing-content-from-a-file)저장:단추를 **[!UICONTROL Upload]**클릭합니다.
+   * [기존 URL의 컨텐츠](#importing-content-from-a-url) (이메일만 해당):단추를 **[!UICONTROL Import from URL]**클릭합니다.
    ![](assets/des_loading_2.png)
 
 1. 컨텐츠를 로드합니다. 선택한 컨텐츠가 현재 컨텐츠를 대체합니다.
@@ -58,7 +58,7 @@ Adobe Campaign에는 시작하는 데 도움이 되는 미리 정의된 콘텐�
 
 이메일 디자이너의 에디션의 가능성을 완전히 활용하려면 [업로드된](../../designing/using/designing-content-in-adobe-campaign.md)HTML에 WYSIWYG 편집기와 호환되도록 특정 태그가 포함되어야 합니다.
 
-HTML의 전체 또는 일부에 이러한 태깅이 없는 경우 컨텐츠가 ' [호환성 모드](#compatibility-mode)'로 로드됩니다.
+HTML의 전체 또는 일부에 이러한 태깅이 없는 경우 컨텐츠가 &#39; [호환성 모드](#compatibility-mode)&#39;로 로드됩니다.
 
 이메일 디자이너 내에서 기존 외부 컨텐츠를 완전히 편집할 수 있게 하려면 [기존 컨텐츠를](../../designing/using/using-existing-content.md) 사용하여 이메일 디자인 섹션을 참조하십시오.
 
@@ -66,7 +66,7 @@ HTML의 전체 또는 일부에 이러한 태깅이 없는 경우 컨텐츠가 '
 
 ### 파일에서 콘텐트 가져오기 {#importing-content-from-a-file}
 
-이메일 디자이너 홈 페이지에서 **[!UICONTROL Upload]** 단추를 클릭하여 컴퓨터에서 파일을 업로드한 다음 확인합니다.
+이메일 디자이너 홈 페이지에서 **[!UICONTROL Upload]**단추를 클릭하여 컴퓨터에서 파일을 업로드한 다음 확인합니다.
 
 zip 파일 구조에 제한이 없습니다. 그러나 HTML 파일을 참조하는 것은 상대적이어야 하며 zip 폴더의 트리 구조를 준수해야 합니다.
 
@@ -84,7 +84,7 @@ zip 파일 구조에 제한이 없습니다. 그러나 HTML 파일을 참조하�
 URL에서 컨텐츠를 가져오기 전에 아래 요구 사항을 따라야 합니다.
 
 * 이 URL을 통해 컨텐츠를 공개적으로 사용할 수 있어야 합니다.
-* 보안상의 이유로 다음으로 시작하는 URL만 **[!UICONTROL https]** 허용됩니다.
+* 보안상의 이유로 다음으로 시작하는 URL만 **[!UICONTROL https]**허용됩니다.
 * 모든 리소스(이미지, CSS)가 절대 링크와 HTTPS에서 설정되어 있는지 확인합니다. 그렇지 않으면 이메일을 보낸 후 미러 페이지가 리소스 없이 표시됩니다. 다음은 절대 링크 정의의 예입니다.
 
    ```
@@ -97,16 +97,16 @@ URL에서 컨텐츠를 가져오기 전에 아래 요구 사항을 따라야 합
 
 URL에서 기존 컨텐츠를 검색하려면 아래 단계를 따르십시오.
 
-1. 이메일 디자이너 홈 페이지에서 **[!UICONTROL Import from URL]** 단추를 선택합니다.
+1. 이메일 디자이너 홈 페이지에서 **[!UICONTROL Import from URL]**단추를 선택합니다.
 
    ![](assets/email_designer_importfromurl.png)
 
 1. 컨텐츠를 검색할 URL을 정의합니다.
-1. Click **[!UICONTROL Confirm]**.
+1. 클릭 **[!UICONTROL Confirm]**.
 
 **관련 항목:**
 
-[URL 비디오에서 컨텐츠](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent) 가져오기
+[URL 비디오에서 컨텐츠](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent) 가져오기
 
 ### 준비 시 자동으로 URL에서 컨텐츠 검색 {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -114,7 +114,7 @@ URL에서 기존 컨텐츠를 검색하려면 아래 단계를 따르십시오.
 
 준비 시 컨텐츠를 검색하려면 아래 단계를 따르십시오.
 
-1. 옵션을 **[!UICONTROL Content imported during preparation]** 선택합니다.
+1. 옵션을 **[!UICONTROL Content imported during preparation]**선택합니다.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -124,18 +124,18 @@ URL에서 기존 컨텐츠를 검색하려면 아래 단계를 따르십시오.
    >
    >이 단계에서는 컨텐츠 편집기의 HTML 표시를 고려해서는 안 됩니다. 준비 단계에서 검색됩니다.
 
-1. 검색된 URL 컨텐츠를 미리 보려면 메시지를 만든 후 **[!UICONTROL Preview]** 단추를 클릭합니다.
+1. 검색된 URL 컨텐츠를 미리 보려면 메시지를 만든 후 **[!UICONTROL Preview]**단추를 클릭합니다.
 
 컨텐츠를 검색할 원격 URL을 개인화할 수 있습니다. 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 화면 상단에 있는 이메일 레이블을 클릭하여 이메일 디자이너 **[!UICONTROL Properties]** 탭에 액세스합니다.
-1. 필드를 **[!UICONTROL Remote URL]** 찾습니다.
+1. 화면 상단에 있는 이메일 레이블을 클릭하여 이메일 디자이너 **[!UICONTROL Properties]**탭에 액세스합니다.
+1. 필드를 **[!UICONTROL Remote URL]**찾습니다.
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. 원하는 개인화 필드, 콘텐츠 블록 또는 동적 텍스트를 삽입합니다.
 
-   예를 들어 **[!UICONTROL Current date - YYYYMMDD]** 컨텐츠 블록을 사용하면 날짜를 삽입할 수 있습니다.
+   예를 들어 **[!UICONTROL Current date - YYYYMMDD]**컨텐츠 블록을 사용하면 날짜를 삽입할 수 있습니다.
 
    >[!NOTE]
    >
@@ -145,7 +145,7 @@ URL에서 기존 컨텐츠를 검색하려면 아래 단계를 따르십시오.
 
 컨텐츠를 업로드할 때 이메일 디자이너의 WYSIWYG 편집기와 완벽하게 호환되고 편집이 가능하려면 특정 태깅을 포함해야 합니다.
 
-업로드된 HTML의 전체 또는 일부가 예상 태그 지정 기능과 호환되지 않으면 컨텐츠가 '호환성 모드'로 로드되어 UI를 통해 버전 가능성을 제한합니다.
+업로드된 HTML의 전체 또는 일부가 예상 태그 지정 기능과 호환되지 않으면 컨텐츠가 &#39;호환성 모드&#39;로 로드되어 UI를 통해 버전 가능성을 제한합니다.
 
 콘텐트가 호환성 모드로 로드되면 여전히 인터페이스를 통해 다음 수정 작업을 수행할 수 있습니다(사용할 수 없는 작업은 숨겨짐).
 
