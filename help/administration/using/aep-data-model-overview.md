@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -27,7 +27,7 @@ XDM(Experience Data Model)은 Adobe Experience Platform 솔루션 및 제품과 
 
 XDM 스키마 생성 및 관리는 전용 API 또는 XDM 사용자 인터페이스를 통해 사용할 수 있습니다.
 
-## XDM 작업 영역(#xdm-workspace)
+## XDM 작업 영역 {#xdm-workspace}
 
 XDM 작업 공간에서는 데이터 스키마를 보고, 만들고, 확장할 수 있습니다.
 
