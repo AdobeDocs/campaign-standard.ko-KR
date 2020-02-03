@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ---
 
@@ -27,6 +27,8 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 >[!CAUTION]
 >
 >사용자가 어떤 장치에도 연결되어 있지 않으면 해당 사용자는 Adobe Campaign에 연결할 수 없습니다. 특정 사용자 또는 사용자 그룹에 대한 액세스를 제한하려면 **[!UICONTROL All]**장치에 연결하지 마십시오.
+>
+>기본적으로 조직 구성 **[!UICONTROL All (all)]**단위는**[!UICONTROL Administrators]** 보안 그룹에 할당됩니다. 읽기 전용이므로 수정할 수 없습니다.
 
 사용자는 상위 단위의 모든 객체에 대한 읽기 전용 액세스 권한을 가집니다. 그는 자기 부대의 모든 물건과 아동 부대의 모든 물건들을 읽고 쓸 수 있다. 사용자는 병렬 분기에서 객체에 액세스할 수 없습니다.
 
