@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
+source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/release-notes.md)
    + 이전 릴리스 {#previous-releases}
+      + [2019년 릴리스 정보](rn/using/release-notes-2019.md)
       + [2018년 릴리스 정보](rn/using/release-notes-2018.md)
       + [2017년 릴리스 정보](rn/using/release-notes-2017.md)
 + 시작 {#getting-started}
@@ -61,6 +62,10 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Campaign의 옵트인 및 옵트아웃 기본 정보](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Campaign에서 옵트인 및 옵트아웃 관리](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [게재할 옵트아웃 프로필 확인](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+   + Adobe Experience Platform을 사용한 작업 {#working-with-adobe-experience-platform}
+      + [대상 대상 서비스 정보](audiences/using/aep-about-audience-destinations-service.md)
+      + [Adobe Experience Platform 고객 관리](audiences/using/aep-managing-audiences.md)
+      + [통합 세그먼트 빌더 사용](audiences/using/aep-using-segment-builder.md)
 + 소통 채널 {#communication-channels}
    + 소통 채널 기본 정보 {#about-communication-channels}
       + [소통 채널 살펴보기](channels/using/discovering-communication-channels.md)
@@ -104,7 +109,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [트랜잭션 푸시 알림](channels/using/transactional-push-notifications.md)
       + [후속 메시지](channels/using/follow-up-messages.md)
    + 랜딩 페이지 {#landing-pages}
-      + [랜딩 페이지 시작하기](channels/using/getting-started-with-landing-pages.md)
+      + [랜딩 페이지 시작](channels/using/getting-started-with-landing-pages.md)
       + [랜딩 페이지 템플릿 기본 정보](channels/using/landing-page-templates.md)
       + [랜딩 페이지 구성](channels/using/configuring-landing-page.md)
       + [랜딩 페이지 디자인](channels/using/designing-a-landing-page.md)
@@ -113,15 +118,15 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [이중 옵트인 프로세스 설정](channels/using/setting-up-a-double-opt-in-process.md)
 + 이메일 콘텐츠 디자인 {#designing-content}
    + [Campaign 이메일 디자이너](designing/using/designing-content-in-adobe-campaign.md)
-   + [이메일 디자이너 시작하기](designing/using/quick-start.md)
+   + [이메일 디자이너 시작](designing/using/quick-start.md)
    + [제목란 및 발신자 정의](designing/using/subject-line.md)
-   + 이메일 컨텐츠 제작{#building-email-content}
+   + 이메일 콘텐츠 제작{#building-email-content}
       + [이메일 디자인 기초](designing/using/designing-from-scratch.md)
-      + [기존 컨텐츠 사용](designing/using/using-existing-content.md)
-      + [재사용 가능한 컨텐츠 작업](designing/using/using-reusable-content.md)
+      + [기존 콘텐츠 사용](designing/using/using-existing-content.md)
+      + [재사용 가능한 콘텐츠 작업](designing/using/using-reusable-content.md)
       + [멀티 솔루션 통합 사용](designing/using/using-integrations.md)
       + [일반 텍스트, HTML 및 모바일 이메일 편집](designing/using/plain-text-html-modes.md)
-   + [이메일 컨텐츠 개인화](designing/using/personalization.md)
+   + [이메일 콘텐츠 개인화](designing/using/personalization.md)
    + [이메일 스타일 관리](designing/using/styles.md)
    + [링크 관리](designing/using/links.md)
    + [이미지 관리](designing/using/images.md)
@@ -146,14 +151,14 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [게재 실패 시 경고 받기](sending/using/receiving-alerts-when-failures-happen.md)
       + [게재 실패 이해](sending/using/understanding-delivery-failures.md)
       + [스팸 차단 관리 이해](sending/using/understanding-quarantine-management.md)
-   + 전달 능력 관리 {#managing-deliverability}
-      + [전달 정보](sending/using/about-deliverability.md)
+   + 게재 기능 관리 {#managing-deliverability}
+      + [게재 기능 기본 정보](sending/using/about-deliverability.md)
       + [새 플랫폼 시작](sending/using/starting-new-platform.md)
-      + [이메일 컨텐츠 제어](sending/using/control-email-content.md)
-      + [평판 향상](sending/using/improving-reputation.md)
+      + [이메일 콘텐츠 제어](sending/using/control-email-content.md)
+      + [평판 개선](sending/using/improving-reputation.md)
       + [IP 인증](sending/using/ip-certification.md)
       + [기술 추천](sending/using/technical-recommendations.md)
-      + [전달 능력 모니터링](sending/using/monitor-deliverability.md)
+      + [게재 기능 모니터링](sending/using/monitor-deliverability.md)
       + [문제 해결](sending/using/troubleshooting.md)
 + 보고 {#reporting}
    + 보고 기본 정보 {#about-reporting}
@@ -178,6 +183,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [구독 취소](reporting/using/unsubscriptions.md)
       + [URL 및 클릭 스트림](reporting/using/urls-and-click-streams.md)
       + [핫 클릭](reporting/using/hot-clicks.md)
+      + [서비스 요약](reporting/using/service-summary.md)
    + 보고서 사용자 지정 {#customizing-reports}
       + [패널 추가](reporting/using/adding-panels.md)
       + [시각화 추가](reporting/using/adding-visualizations.md)
@@ -187,8 +193,8 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + Adobe Cloud와 통합 사용 {#integrating-with-adobe-cloud}
    + [Campaign 통합 기본 정보](integrating/using/about-campaign-integrations.md)
    + Campaign을 Experience Manager와 함께 사용하기 {#working-with-campaign-and-experience-manager}
-      + [Campaign-Experience Manager 통합 정보](integrating/using/integrating-with-experience-manager.md)
-      + [Adobe Experience Manager에서 이메일 컨텐츠 만들기](integrating/using/creating-email-experience-manager.md)
+      + [Campaign-Experience Manager 통합 기본 정보](integrating/using/integrating-with-experience-manager.md)
+      + [Adobe Experience Manager에서 이메일 콘텐츠 만들기](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager에서 Campaign 양식 만들기](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign을 Target과 함께 사용하기 {#working-with-campaign-and-target}
       + [Campaign-Target 통합 기본 정보](integrating/using/about-campaign-target-integration.md)
@@ -276,15 +282,18 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [로그 내보내기](automating/using/exporting-logs.md)
       + [패키지 관리](automating/using/managing-packages.md)
       + [목록 내보내기](automating/using/exporting-lists.md)
-      + [사용 사례:사용자 정의 리소스 내보내기/가져오기](automating/using/exporting-importing-custom-resources.md)
-   + 사용 사례:워크플로우 {#workflow-use-case}
+      + [사용 사례: 사용자 정의 리소스 내보내기/가져오기](automating/using/exporting-importing-custom-resources.md)
+   + 사용 사례: 워크플로우 {#workflow-use-case}
       + [보충 자료를 넣어 게재](automating/using/workflow-created-query-with-complement.md)
       + [날짜에 맞춰 게재](automating/using/workflow-creation-date-query.md)
       + [주간 게재](automating/using/workflow-weekly-offer.md)
       + [위치에 세분화 만들기](automating/using/workflow-segmentation-location.md)
       + [열지 않은 사용자 재타겟팅](automating/using/workflow-cross-channel-retargeting.md)
       + [컨트롤 그룹 만들기](automating/using/workflow-control-group.md)
-      + [크로스 채널 배달 만들기](automating/using/workflow-cross-channel-delivery.md)
+      + [채널 간 게재 만들기](automating/using/workflow-cross-channel-delivery.md)
+   + Adobe Experience Platform 고객 작업 {aep-audiences}
+      + [Adobe Experience Platform 고객 타깃팅](automating/using/aep-targeting-audiences.md)
+      + [Adobe Experience Platform 속성을 사용하여 캠페인 개인화](automating/using/aep-personalizing-campaigns.md)
 + 개발 {#developing}
    + 사용자 지정 리소스 기본 정보 {#about-custom-resources}
       + [데이터 모델 기본 개념](developing/using/data-model-concepts.md)
@@ -299,7 +308,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [데이터베이스 구조 업데이트](developing/using/updating-the-database-structure.md)
       + [리소스 삭제](developing/using/deleting-a-resource.md)
       + [복합 식별 키로 리소스 호출](developing/using/uc-calling-resource-id-key.md)
-   + 사용 사례:API 확장 {#use-case--extending-the-api}
+   + 사용 사례: API 확장 {#use-case--extending-the-api}
       + [API 확장 기본 정보](developing/using/about-extending-the-api.md)
       + [1단계: 프로필 리소스에 확장 필드 추가](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
       + [2단계: 확장 게시](developing/using/step-2--publish-the-extension.md)
@@ -308,6 +317,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [새 필드로 프로필 리소스 확장](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [구독을 확장해 애플리케이션 리소스로 만들기](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 데이터모델 {#datamodel}
+      + [소개](developing/using/datamodel-introduction.md)
       + [대상자](developing/using/datamodel-audience.md)
       + [캠페인](developing/using/datamodel-campaign.md)
       + [게재](developing/using/datamodel-delivery.md)
@@ -351,6 +361,12 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [내부 알림 보내기](administration/using/sending-internal-notifications.md)
       + [데이터 유지](administration/using/data-retention.md)
       + [업데이트 및 유지 관리 작업](administration/using/updates-and-maintenance-operations.md)
+   + Adobe Experience Platform 데이터 커넥터 {#mapping-campaign-and-aep-data}
+      + [Adobe Experience Platform 데이터 커넥터 정보](administration/using/aep-about-data-connector.md)
+      + [경험 플랫폼 데이터 모델 개요](administration/using/aep-data-model-overview.md)
+      + [매핑 정의](administration/using/aep-mapping-definition.md)
+      + [매핑 활성화](administration/using/aep-mapping-activation.md)
+      + [API를 통한 데이터 통합 트리거](administration/using/aep-triggering-data-ingestion.md)
 + API 작업 {#working-with-apis}
    + Campaign Standard API 정보 {#about-campaign-standard-apis}
       + [개요](api/using/about-campaign-standard-apis.md)
@@ -369,12 +385,12 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [사용자 정의 리소스](api/using/custom-resources.md)
    + [사용자 정의 리소스와 상호 작용](api/using/interacting-with-custom-resources.md)
    + 프로필 관리 {#managing-profiles}
-      + [프로파일 검색](api/using/retrieving-profiles.md)
+      + [프로필 검색](api/using/retrieving-profiles.md)
       + [프로필 업데이트](api/using/updating-profiles.md)
       + [프로필 만들기](api/using/creating-profiles.md)
    + 서비스 및 구독 관리 {#managing-services-and-subscriptiopns}
       + [서비스 만들기](api/using/creating-a-service.md)
-      + [구독 검색 중](api/using/retrieving-subscriptions.md)
+      + [구독 검색](api/using/retrieving-subscriptions.md)
       + [구독 수행](api/using/perform-subscriptions.md)
       + [구독 삭제](api/using/deleting-subscriptions.md)
    + [마케팅 이력 활용](api/using/interacting-with-marketing-history.md)
@@ -389,10 +405,10 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [신호 활동 트리거](api/using/triggering-a-signal-activity.md)
    + 조직 단위 관리 {#managing-organizational-units}
       + [프로필의 조직 단위 검색](api/using/retrieving-an-organizational-unit.md)
-      + [프로필의 조직 구성 단위 업데이트](api/using/updating-profile-organizational-unit.md)
-      + [조직 단위 속성 업데이트](api/using/updating-organizational-unit-attributes.md)
+      + [프로필의 조직 단위 업데이트](api/using/updating-profile-organizational-unit.md)
+      + [조직 단위 특성 업데이트](api/using/updating-organizational-unit-attributes.md)
    + 지리 단위 관리 {#managing-geographical-units}
-      + [프로필의 지리적 단위 검색](api/using/retrieving-a-geographical-unit.md)
-      + [프로필의 지리적 단위 업데이트](api/using/updating-a-geographical-unit.md)
-      + [지역 단위 속성 갱신](api/using/updating-geographical-unit-attributes.md)
+      + [프로필의 지리 단위 검색](api/using/retrieving-a-geographical-unit.md)
+      + [프로필의 지리 단위 업데이트](api/using/updating-a-geographical-unit.md)
+      + [지리 단위 특성 업데이트](api/using/updating-geographical-unit-attributes.md)
    + [문제 해결](api/using/troubleshooting.md)
