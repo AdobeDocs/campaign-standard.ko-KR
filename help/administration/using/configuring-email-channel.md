@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
+source-git-commit: 8ee995d10620c41b61de25132fae7ee975e4330e
 
 ---
 
@@ -78,13 +78,9 @@ source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 
 ### 바운스 메일 {#bounce-mails}
 
-이메일이 실패하면 원격 메시지 서버는 응용 프로그램 설정에 지정된 주소로 바운스 오류 메시지를 반환합니다. Adobe Campaign은 각 바운스 메일의 컨텐츠를 규칙 목록의 문자열에 대해 비교한 다음 세 가지 오류 유형 중 하나를 할당합니다.
+이메일이 실패하면 원격 메시지 서버는 응용 프로그램 설정에 지정된 주소로 바운스 오류 메시지를 반환합니다.
 
-사용자는 자신의 규칙을 만들 수 있습니다.
-
->[!IMPORTANT]
->
->패키지를 가져오고 전달 가능성을 위해 업데이트를 통해 데이터를 업데이트할 **때** 사용자가 만든 규칙을 덮어씁니다.
+Adobe Campaign은 각 바운스 메일의 컨텐츠를 규칙 목록의 문자열에 대해 비교한 다음 세 가지 오류 유형 중 하나를 할당합니다.
 
 >[!IMPORTANT]
 >
@@ -92,9 +88,23 @@ source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 >
 >Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
+사용자는 자신의 규칙을 만들 수 있습니다.
+
+>[!IMPORTANT]
+>
+>패키지를 가져오고 전달 가능성을 위해 업데이트를 통해 데이터를 업데이트할 **때** 사용자가 만든 규칙을 덮어씁니다.
+
 ### 이메일 도메인 관리 {#managing-email-domains}
 
-도메인 관리 규칙은 특정 도메인에 대한 나가는 이메일의 흐름을 제어하는 데 사용됩니다. 바운스 메시지를 샘플링하고 해당되는 경우 블록 전송을 수행합니다. Adobe Campaign 메시지 서버는 도메인과 관련된 규칙을 적용한 다음 규칙 목록에 별표로 표시되는 일반 사례에 대한 규칙을 적용합니다.
+도메인 관리 규칙은 특정 도메인에 대한 나가는 이메일의 흐름을 제어하는 데 사용됩니다. 바운스 메시지를 샘플링하고 해당되는 경우 블록 전송을 수행합니다.
+
+Adobe Campaign 메시지 서버는 도메인과 관련된 규칙을 적용한 다음 규칙 목록에 별표로 표시되는 일반 사례에 대한 규칙을 적용합니다.
+
+>[!IMPORTANT]
+>
+>고급 MTA로 업그레이드하면 향상된 MTA에서 DKIM(DomainKeys Identified Mail) 이메일 인증 서명을 수행합니다. 기본 캠페인 MTA의 DKIM 서명은 향상된 MTA 업그레이드의 일부로 **[!UICONTROL Domain management]**표 내에서 꺼집니다.
+>
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
 도메인 관리 규칙을 구성하려면 임계값을 설정하고 특정 SMTP 매개 변수를 선택하면 됩니다. 임계값은 **** 특정 도메인에 대한 모든 메시지가 차단되는 오류 백분율로 계산되는 한계입니다.
 
@@ -103,19 +113,7 @@ SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
 * 특정 식별 표준 및 암호화 키를 활성화하여 발신자 ID, 도메인 키, **DKIM**, **S/MIME**&#x200B;등과 같은 **도메인 이름을**&#x200B;확인할 **수**&#x200B;있습니다.
 * **SMTP 릴레이**:특정 도메인에 대한 릴레이 서버의 IP 주소와 포트를 구성할 수 있습니다.
 
->[!IMPORTANT]
->
->고급 MTA로 업그레이드하면 향상된 MTA에서 DKIM(DomainKeys Identified Mail) 이메일 인증 서명을 수행합니다. 기본 캠페인 MTA의 DKIM 서명은 향상된 MTA 업그레이드의 일부로 **[!UICONTROL Domain management]**표 내에서 꺼집니다.
->
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
-
 ### MX 관리 {#mx-management}
-
->[!IMPORTANT]
->
->향상된 MTA로 업그레이드하면 Adobe Campaign MX **관리** 전달 처리량 규칙이 더 이상 사용되지 않습니다. Enhanced MTA는 고유한 MX 규칙을 사용하여 사용자의 이전 이메일 명성에 따라 도메인별로 처리량을 사용자 정의하고 이메일을 전송하는 도메인에서 오는 실시간 피드백을 제공합니다.
->
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
 각 규칙은 MX의 주소 마스크를 정의합니다. 따라서 이 마스크와 이름이 일치하는 모든 MX를 사용할 수 있습니다. 마스크에는 &quot;*&quot; 및 &quot;?&quot;가 포함될 수 있습니다. 일반 문자.
 
@@ -131,6 +129,12 @@ SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
 * ?.mx.yahoo.com
 
 이러한 규칙은 순서대로 적용됩니다.대상 MX와 호환되는 MX 마스크의 첫 번째 규칙이 적용됩니다.
+
+>[!IMPORTANT]
+>
+>향상된 MTA로 업그레이드하면 Adobe Campaign MX **관리** 전달 처리량 규칙이 더 이상 사용되지 않습니다. Enhanced MTA는 고유한 MX 규칙을 사용하여 사용자의 이전 이메일 명성에 따라 도메인별로 처리량을 사용자 정의하고 이메일을 전송하는 도메인에서 오는 실시간 피드백을 제공합니다.
+>
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
 각 규칙에 대해 다음 매개 변수를 사용할 수 있습니다.
 
@@ -238,7 +242,7 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
 
    >[!IMPORTANT]
    >
-   >향상된 MTA로 업그레이드하면 캠페인 게재의 **[!UICONTROL Delivery duration] 매개 변수 **는 3.5일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다. 모든 영향은 Adobe Campaign 향상된 [MTA 문서에 자세히](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 설명되어 있습니다.
+   >향상된 MTA로 업그레이드하면 캠페인 게재의 **[!UICONTROL Delivery duration]**매개 변수가 3.5일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다. 모든 영향은 Adobe Campaign 향상된[MTA 문서에 자세히](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)설명되어 있습니다.
 
 * **[!UICONTROL Resource validity duration]**:이 필드는 주로 미러 페이지 및 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하려면).
 * **[!UICONTROL Mirror page management]**:미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 컨텐츠는 이메일 컨텐츠와 동일합니다. 기본적으로 링크가 메일 컨텐츠에 삽입된 경우 미러 페이지가 생성됩니다. 이 필드를 사용하면 이 페이지가 생성되는 방식을 수정할 수 있습니다.
