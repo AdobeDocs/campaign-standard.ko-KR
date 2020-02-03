@@ -1,18 +1,18 @@
 ---
 title: 워크플로우 모범 사례
 description: 워크플로우에 적용되는 모범 사례를 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-context-tags: 워크플로,개요;워크플로,기본
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign을 사용하면 모든 유형의 워크플로우를 설정하여 
 
 ## 워크플로우 복제{#duplicating-workflows}
 
-워크플로우를 복제할 수 있습니다. 워크플로우에서 **[!UICONTROL Marketing Activities]**&#x200B;마우스를 가져간 다음 을 클릭합니다 **[!UICONTROL Duplicate element]**. 워크플로우가 복제되면 워크플로우의 수정 사항이 워크플로우의 복사본으로 전달되지 않습니다. 워크플로우의 복사본을 편집할 수 있습니다.
+워크플로우를 복제할 수 있습니다. 워크플로우에서 **[!UICONTROL Marketing Activities]**마우스를 가져간 다음 을 클릭합니다**[!UICONTROL Duplicate element]**. 워크플로우가 복제되면 워크플로우의 수정 사항이 워크플로우의 복사본으로 전달되지 않습니다. 워크플로우의 복사본을 편집할 수 있습니다.
 
 ![](assets/duplicating_workflow.png)
 
@@ -66,13 +66,18 @@ Adobe Campaign을 사용하면 모든 유형의 워크플로우를 설정하여 
 
 자세한 내용은 워크플로우 [실행을 참조하십시오](../../automating/using//executing-a-workflow.md).
 
+### 시간대
+
+워크플로우 속성을 사용하면 모든 해당 활동에서 기본적으로 사용될 특정 시간대를 정의할 수 있습니다. 기본적으로 워크플로우의 표준 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
+
+
 ## 활동{#activity}
 
 ### 워크플로우 디자인
 
-워크플로우가 제대로 종료되도록 하려면 **[!UICONTROL End activity]** 워크플로우의 마지막 전환을 그대로 두지 마십시오.
+워크플로우가 제대로 종료되도록 하려면 **[!UICONTROL End activity]**워크플로우의 마지막 전환을 그대로 두지 마십시오.
 
-전환의 세부 사항 보기에 액세스하려면 워크플로우 속성의 실행 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택합니다.
+전환의 세부 사항 보기에 액세스하려면 워크플로우 속성의 실행 섹션에서 **[!UICONTROL Keep interim results]**옵션을 선택합니다.
 
 >[!CAUTION]
 >
@@ -91,9 +96,9 @@ Adobe Campaign을 사용하면 모든 유형의 워크플로우를 설정하여 
 
 ### 스케줄러 활동{#acheduler-activity}
 
-워크플로우를 구축할 때는 분기당 하나만 **[!UICONTROL Scheduler activity]** 사용합니다. 워크플로우의 동일한 분기에 여러 개의 스케줄러(서로 연결)가 있는 경우 실행될 작업 수를 기하급수적으로 곱하므로 데이터베이스가 상당히 오버로드됩니다.
+워크플로우를 구축할 때는 분기당 하나만 **[!UICONTROL Scheduler activity]**사용합니다. 워크플로우의 동일한 분기에 여러 개의 스케줄러(서로 연결)가 있는 경우 실행될 작업 수를 기하급수적으로 곱하므로 데이터베이스가 상당히 오버로드됩니다.
 
-을 클릭하여 워크플로우의 다음 10개 실행을 미리 볼 수 **[!UICONTROL Preview next executions]**&#x200B;있습니다.
+을 클릭하여 워크플로우의 다음 10개 실행을 미리 볼 수 **[!UICONTROL Preview next executions]**있습니다.
 
 ![](assets/preview_scheduler.png)
 
@@ -114,8 +119,8 @@ Adobe Campaign을 사용하면 모든 유형의 워크플로우를 설정하여 
 
 ## 목록 내보내기{#exporting-lists}
 
-내보내기 목록 옵션을 사용하면 기본적으로 최대 100,000개의 줄을 내보내고 Nms_ExportListLimit **옵션으로**&#x200B;정의할 수 있습니다. 이 옵션은 기능 관리자가 &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]**에서 관리할 수 있습니다.
-자세한 내용은 목록 [내보내기를](../../automating/using/exporting-lists.md)참조하십시오.
+내보내기 목록 옵션을 사용하면 기본적으로 최대 100,000개의 줄을 내보내고 Nms_ExportListLimit **옵션으로**&#x200B;정의할 수 있습니다. 이 옵션은 기능 관리자가 > **[!UICONTROL Administration]**>**[!UICONTROL Application settings]** > **[!UICONTROL Options]**에서 관리할 수 있습니다.
+자세한 내용은 목록[내보내기를](../../automating/using/exporting-lists.md)참조하십시오.
 
 ## 문제 해결{#workflow-troubleshooting}
 
@@ -132,14 +137,14 @@ Adobe Campaign은 워크플로우 문제를 더 잘 이해할 수 있도록 다�
 [로그] 탭에서 SQL 쿼리를 분석할 수 있습니다.
 
 1. 워크플로우 작업 영역에서 을 클릭합니다 **[!UICONTROL Edit properties]**.
-1. &gt; **[!UICONTROL General]** 에서 **[!UICONTROL Execution]**&#x200B;및 **[!UICONTROL Save SQL queries in the log]** 옵션을 선택하고 **[!UICONTROL Execute in the engine]** **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
+1. > **[!UICONTROL General]**에서**[!UICONTROL Execution]**&#x200B;및 **[!UICONTROL Save SQL queries in the log]**옵션을 선택하고**[!UICONTROL Execute in the engine]** **[!UICONTROL Confirm]**을 클릭합니다.
 
 **로그에서 SQL 쿼리를 보려면:**
-1. Click **[!UICONTROL Log and Tasks]**.
-1. 탭에서 **[!UICONTROL Logs]** **[!UICONTROL Search]** 패널을 엽니다.
-1. 확인해 **[!UICONTROL Display SQL logs only]**&#x200B;보십시오.
+1. 클릭 **[!UICONTROL Log and Tasks]**.
+1. 탭에서 **[!UICONTROL Logs]****[!UICONTROL Search]** 패널을 엽니다.
+1. 확인해 **[!UICONTROL Display SQL logs only]**보십시오.
 
-쿼리가 로그의 **[!UICONTROL Message]** 열에 표시됩니다.
+쿼리가 로그의 **[!UICONTROL Message]**열에 표시됩니다.
 
 ### 배달 로그 사용{#using-delivery-logs}
 
