@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,13 +25,10 @@ source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
 
 이 섹션에서는 XDM(경험 데이터 모델) 필드에 캠페인 표준 필드를 매핑하는 방법을 알아봅니다.
 
->[!NOTE]
->
->이 작업을 수행하려면 전제 조건이 다음과 같습니다.
->
-> * 인터페이스를 통해 또는 XDM과 연결된 REST API를 사용하여 XDM 스키마 정의
-> * xdm 스키마 정의를 기반으로 데이터 집합 생성
+이 작업을 수행하려면 전제 조건이 다음과 같습니다.
 
+* 인터페이스를 통해 또는 XDM과 연결된 REST API를 사용하여 XDM 스키마 정의
+* xdm 스키마 정의를 기반으로 데이터 집합 생성
 
 1. > **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**으로 이동하여**[!UICONTROL Data mappings]** 항목을 선택합니다.
 
@@ -78,8 +75,8 @@ XDM 값이 XDM 스키마에 열거형으로 정의된 경우 **lif 구문을 자
 
 XDM 매핑을 편집하려면 해당 매핑을 열고 원하는 정보를 수정한 다음 저장합니다.
 
+![](assets/aep_editmapping.png)
+
 >[!IMPORTANT]
 >
 >현재로서는 **[!UICONTROL Field mappings]**섹션에서 값을 편집한 다음 필드 외부를 클릭하면**[!UICONTROL Save]** 단추를 클릭하기 전까지 변경 사항이 인터페이스에 표시되지 않습니다. 이 동작은 편집할 페이지가 페이지의 첫 번째 편집일 때 한 번만 **[!UICONTROL Field Mappings]**발생합니다.
-
-![](assets/aep_editmapping.png)
