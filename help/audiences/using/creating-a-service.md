@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
 
 ---
 
@@ -31,6 +31,12 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 1. 서비스 **[!UICONTROL Service properties]**![](assets/edit_darkgrey-24px.png)대시보드의 단추를 통해 액세스하는 섹션에서 구독 및 가입 취소에 대한 확인 메시지를 구성합니다.
 
    ![](assets/lp_service_parameters.png)
+
+1. 사용료 지불 옵션의 유효 기간을 설정하려면 이 **[!UICONTROL Subscriptions with an expiration date]**옵션을 선택합니다.
+
+   ![](assets/lp_service_expiration.png)
+
+세그먼테이션 활동의 만료 날짜를 사용하여 만료되지 않은 서비스에 가입한 프로파일을 타깃팅할 수 있습니다.
 
 1. 필드를 **[!UICONTROL Service label]**채웁니다. 사용자 지정 확인 메시지를 사용하는 경우 서비스 레이블은 필수입니다.
 
