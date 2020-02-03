@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c85af1d7eebc59cba784a03803d23bef354dd8
+source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
 
 ---
 
@@ -31,9 +31,7 @@ Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/usin
 
 Adobe Experience Platform Data Connector(베타) - [자세한 내용](../../administration/using/aep-about-data-connector.md)
 
-대상 서비스(베타)와 통합 - [자세한 내용](../../audiences/using/aep-about-audience-destinations-service.md)
-
-트랜잭션 메시징을 위한 캠페인 향상된 MTA - [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+대상(베타) - [자세한 내용](../../audiences/using/aep-about-audience-destinations-service.md)
 
 ### 릴리스와 함께 제공되는 기타 설명서 업데이트
 
