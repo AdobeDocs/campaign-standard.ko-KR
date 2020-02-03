@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -60,6 +60,8 @@ source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
 >[!NOTE]
 >
 >Campaign Standard를 사용하면 모든 전달 채널 내에서 Adobe Experience Platform 고객을 타깃팅할 수 있습니다.이메일, SMS 메시지, DM 메시지, 푸시 알림 및 인앱 메시지
+>
+>*참고:모든 푸시 및 인앱 메시지의 경우 Campaign Standard는 알려진 프로필에 대해서만 게재를 지원합니다.
 
 워크플로우 및 전달 사용 방법에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
