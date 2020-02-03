@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 
 ---
 
@@ -28,19 +28,19 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 <br/>
 
-***샘플 요청***
+***샘플 요청&#x200B;***
 
 GET 요청을 사용하여 프로필의 마케팅 내역을 검색합니다.
 
 ```
--X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/History/"<PKEY>" \
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-"events" 노드는 프로필의 이벤트에 액세스할 수 있는 URL을 반환합니다.
+&quot;events&quot; 노드는 프로필의 이벤트에 액세스할 수 있는 URL을 반환합니다.
 
 ```
 {
@@ -65,7 +65,7 @@ GET 요청을 사용하여 프로필의 마케팅 내역을 검색합니다.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-"mirrorPage" 노드에서 페이지를 미러링하는 링크가 있는 프로필의 이벤트 목록을 반환합니다.
+&quot;mirrorPage&quot; 노드에서 페이지를 미러링하는 링크가 있는 프로필의 이벤트 목록을 반환합니다.
 
 ```
     {
