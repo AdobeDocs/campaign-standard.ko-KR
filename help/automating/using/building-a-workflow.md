@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 ---
 
@@ -55,6 +55,10 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    이러한 기능을 사용하면 예상대로 실행되지 않을 경우 쉽게 찾아 문제를 해결할 수 있으므로 Adobe에서는 워크플로우에 적합한 이름과 레이블을 지정하는 것이 좋습니다.워크플로우의 설명 필드를 채워 연산자가 쉽게 이해할 수 있도록 수행할 프로세스를 요약합니다.
 
 1. 활동을 만들고 해당 활동에 대한 대시보드가 표시되는지 확인합니다. 자세한 내용은 워크플로우 인터페이스 [섹션을](../../automating/using/workflow-interface.md) 참조하십시오.
+
+1. 워크플로우를 구성할 준비가 되면 **[!UICONTROL Edit properties]**단추를 클릭하여 추가 옵션에 액세스할 수 있습니다. 예를 들어 모든 워크플로우의 활동에서 기본적으로 사용할 특정 시간대를 정의할 수 있습니다. 기본적으로 워크플로우의 표준 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
+
+   ![](assets/workflow_properties.png)
 
 **관련 항목:**
 
