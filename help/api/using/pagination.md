@@ -1,5 +1,5 @@
 ---
-title: 페이지 매김
+title: 쪽 매기기
 description: 페이지 매김 작업을 수행하는 방법을 알아봅니다.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,28 +12,26 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
 
 ---
 
 
-# 페이지 매김
+# 쪽 매기기
 
 기본적으로 25개의 리소스가 목록에 로드됩니다.
 
 _lineCount **** 매개 변수를 사용하면 응답에 나열된 리소스 수를 제한할 수 있습니다.  그런 다음 **다음** 노드를 사용하여 다음 결과를 표시할 수 있습니다.
 
->[!NOTE]&gt;
+>[!NOTE]>
 >
 >항상 **다음** 노드에서 반환된 URL 값을 사용하여 페이지 매김 요청을 수행합니다.
 >
 >The **_lineStart** request is calculated and must be used within the URL returned in the **next** node.
 
-<!-- serverside pagination. quand table très longue (au delà de 100.000), on peut plus faire de next. doit utiliser à la place les trucs type lineStart etc. si false: voudra dirre que ça a atteint la limite-->
-
 <br/>
 
-***샘플 요청***
+***샘플 요청&#x200B;***
 
 프로필 리소스의 레코드 1개를 표시하는 샘플 GET 요청입니다.
 
@@ -45,9 +43,7 @@ _lineCount **** 매개 변수를 사용하면 응답에 나열된 리소스 수�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-<!-- dans l'exemple, avoir le node "next"-->
-
-요청에 대한 응답입니다.
+요청에 대한 응답으로, **다음** 노드가 페이지 매김을 수행합니다.
 
 ```
 {
@@ -60,6 +56,24 @@ _lineCount **** 매개 변수를 사용하면 응답에 나열된 리소스 수�
             ...
         }
     ],
+    "next": {
+        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10&_
+        lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
+    }
     ...
 }
 ```
+
+기본적으로 많은 양의 데이터를 갖는 테이블과 상호 작용할 때 **다음** 노드를 사용할 수 없습니다. 페이지 매김을 수행하려면 **_forcePagination=true** 매개 변수를 호출 URL에 추가해야 합니다.
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+>[!NOTE]
+>
+>테이블이 큰 것으로 간주되는 위의 레코드 수는 Campaign Standard XtkBigTableThreshold **옵션에서 정의됩니다** . 기본값은 100,000개의 레코드입니다.
