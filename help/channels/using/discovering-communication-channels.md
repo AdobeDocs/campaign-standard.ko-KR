@@ -12,7 +12,7 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: bc3f4285f6c5c0a7b7a374c26311358b73b30ba8
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign을 사용하면 다양한 채널에서 개인화된 메시지를 
 
 또한 크로스채널 캠페인을 만들어 수신자를 보다 효과적으로 타겟팅할 수 있습니다.
 
-Adobe Campaign에서 사용할 수 있는 메시지 채널은
+Adobe Campaign에서 5개의 메시지 채널을 사용할 수 있습니다.
 
 * 이메일 만들기 섹션에 [나와 있는](../../channels/using/about-emails.md) 이메일.
 * SMS 만들기 [메시지](../../channels/using/about-sms-messages.md) 섹션에 나와 있는 SMS
