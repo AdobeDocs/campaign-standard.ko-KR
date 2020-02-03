@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
+source-git-commit: cd559678dfadc575db42f3101e53bae2b971a049
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 
 >[!NOTE]
 >
->이벤트 만들기 및 게시는 캠페인 <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">설명서에</a>표시됩니다.
+>이벤트 만들기 및 게시는 캠페인 [설명서에](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)표시됩니다.
 
 예를 들어 고객 중 한 명이 장바구니에서 제품을 구매하기 전에 웹 사이트를 떠날 때마다 &quot;장바구니 포기&quot; 이벤트를 트리거해야 합니다. 이렇게 하려면 웹 개발자가 REST 트랜잭션 메시지 API를 사용해야 합니다.
 
