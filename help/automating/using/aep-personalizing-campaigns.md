@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2086bbb6fa87106692b3f3744c40ecf40e66caf3
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
@@ -31,11 +31,13 @@ source-git-commit: 2086bbb6fa87106692b3f3744c40ecf40e66caf3
 
 1. 활동을 **[!UICONTROL Read audience]**엽니다. 탭에서**[!UICONTROL Additional data]** **[!UICONTROL Create element]**단추를 클릭합니다.
 
-   >[!NOTE]
-   >
-   >이 **[!UICONTROL Additional data]**탭은 Adobe Experience Platform 대상을 선택한 후에만 사용할 수 있습니다.
+   이 **[!UICONTROL Additional data]**탭은 Adobe Experience Platform 대상자를 선택한 후에만 사용할 수 있습니다.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
+
+   >[!NOTE]
+   >
+   >이 기능에서는 배열 및 맵 데이터 유형이 지원되지 않습니다. 또한 결합 스키마의 데이터만 선택기에 표시됩니다.
 
 1. 목록에서 원하는 XDM 필드를 선택한 다음 을 **[!UICONTROL Confirm]**클릭합니다.
 
