@@ -1,19 +1,19 @@
 ---
 title: 그룹 및 사용자 관리
 description: 보안 그룹을 만들고 사용자를 관리하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: b3a3a2e3-9d69-4231-b724-8f37419f7a61
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
-topic-tags: 사용자 및 보안
+topic-tags: users-and-security
 discoiquuid: 12f896ab-ee79-4d96-976d-cf34643491b4
-context-tags: 사용자,개요;사용자,기본;보안,개요;보안,기본
+context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ---
 
@@ -38,7 +38,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 사용자가 보안 그룹에 연결되어 있지 않으면 Adobe Campaign에 액세스할 수 없습니다.
 
-사용자의 액세스를 제한하려면 **[!UICONTROL All]** 조직 구성 단위에 연결되어 있으므로 사용자를 Campaign Standard 사용자 그룹에 추가하지 마십시오.
+사용자의 액세스를 제한하려면 **[!UICONTROL All]**조직 구성 단위에 연결되어 있으므로 사용자를 Campaign Standard 사용자 그룹에 추가하지 마십시오.
+
+>[!NOTE]
+>
+>기본적으로 조직 구성 **[!UICONTROL All (all)]**단위는**[!UICONTROL Administrators]** 보안 그룹에 할당됩니다. 읽기 전용이므로 수정할 수 없습니다.
 
 ## 보안 그룹 만들기 및 사용자 할당 {#creating-a-security-group-and-assigning-users}
 
@@ -62,29 +66,29 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/manage_security_group_2.png)
 
-1. 단추를 **[!UICONTROL Add user]** 클릭하고 사용자의 이메일 주소를 입력합니다.
-1. 탭에서 인스턴스를 선택한 다음 드롭다운 목록에서 **[!UICONTROL Assign Products]** **[!UICONTROL Administrators]** 즉시 사용 가능한 보안 그룹을 선택합니다. 이렇게 하면 사용자가 관리 메뉴에 액세스하고 다음 보안 그룹을 만들 수 있습니다.
+1. 단추를 **[!UICONTROL Add user]**클릭하고 사용자의 이메일 주소를 입력합니다.
+1. 탭에서 인스턴스를 선택한 다음 드롭다운 목록에서 **[!UICONTROL Assign Products]****[!UICONTROL Administrators]** 즉시 사용 가능한 보안 그룹을 선택합니다. 이렇게 하면 사용자가 관리 메뉴에 액세스하고 다음 보안 그룹을 만들 수 있습니다.
 
    ![](assets/ootb_security_group_2.png)
 
-1. 동일한 **[!UICONTROL Save]** 절차를 클릭하여 **[!UICONTROL Standard Users]** 즉시 사용 가능한 보안 그룹을 새 사용자에게 할당합니다.
+1. 동일한 **[!UICONTROL Save]**절차를 클릭하여**[!UICONTROL Standard Users]** 즉시 사용 가능한 보안 그룹을 새 사용자에게 할당합니다.
 
    ![](assets/ootb_security_group_3.png)
 
-두 사용자가 즉시 사용 가능한 보안 그룹에 **[!UICONTROL Administrators]** 연결되면, 관리자는 사용자 역할을 할당하는 보안 그룹 Geometrixx와 Geometrixx Closes를 **[!UICONTROL Standard users]** 만들어 **기본 보안 그룹 외에도 사용자에게 조직 구성 단위를** 할당할 수 **** 있습니다.
+두 사용자가 즉시 사용 가능한 보안 그룹에 **[!UICONTROL Administrators]**연결되면, 관리자는 사용자 역할을 할당하는 보안 그룹 Geometrixx와 Geometrixx Closes를**[!UICONTROL Standard users]** 만들어 **기본 보안 그룹 외에도 사용자에게 조직 구성 단위를** 할당할 수 **** 있습니다.
 
 1. 관리 콘솔에서 인스턴스를 선택하고 제품 **탭을** 선택합니다.
 1. 새 **프로필** 단추를 클릭하여 Geometrixx **보안 그룹을** 만듭니다.
 
    ![](assets/create_security_1.png)
 
-1. 다음 정확한 구문을 **[!UICONTROL Profile name]** 입력하여 입력합니다.을 **[!UICONTROL Campaign Standard- instance name - ID of the security group]** 클릭하고 **[!UICONTROL Done]**&#x200B;을 클릭합니다.
+1. 다음 정확한 구문을 **[!UICONTROL Profile name]**입력하여 입력합니다.을**[!UICONTROL Campaign Standard- instance name - ID of the security group]** 클릭하고 **[!UICONTROL Done]**을 클릭합니다.
 
    선택한 ID는 Adobe Campaign에서 보안 그룹을 만드는 동안 사용됩니다.
 
    >[!NOTE]
    >
-   >위의 구문이 이전 인스턴스와 작동하지 않는 경우 이 구문을 바꿀 필요가 **[!UICONTROL Campaign - instance name - ID of the security group]**&#x200B;있습니다.
+   >위의 구문이 이전 인스턴스와 작동하지 않는 경우 이 구문을 바꿀 필요가 **[!UICONTROL Campaign - instance name - ID of the security group]**있습니다.
 
    ![](assets/manage_security_group_1.png)
 
@@ -93,15 +97,15 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/manage_security_group_2.png)
 
-1. 이전에 만든 사용자를 클릭한 다음 ![](assets/managing_security_group_10.png) 카테고리의 **[!UICONTROL Products]** 아이콘을 클릭합니다.
+1. 이전에 만든 사용자를 클릭한 다음 ![](assets/managing_security_group_10.png) 카테고리의 **[!UICONTROL Products]**아이콘을 클릭합니다.
 
-   새 보안 그룹을 사용자에게 할당하려면 **[!UICONTROL Edit products assigned directly]** 선택합니다.
+   새 보안 그룹을 사용자에게 할당하려면 **[!UICONTROL Edit products assigned directly]**선택합니다.
 
    ![](assets/manage_security_group_8.png)
 
 1. 탭에서 인스턴스를 선택한 다음 드롭다운 목록에서 이전에 만든 보안 그룹 Geometrixx를 선택하여 관리자 사용자에게 할당합니다. **[!UICONTROL Assign Products]**
 
-   Click **[!UICONTROL Save]**.
+   클릭 **[!UICONTROL Save]**.
 
    ![](assets/manage_security_group_3.png)
 
@@ -119,16 +123,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 관리자 사용자는 조직 단위를 할당하는 데 사용되는 보안 그룹 집합을 만들어야 합니다.Geometrixx 및 Geometrixx Clothing. 조직 단위를 만드는 방법에 대한 자세한 내용은 단위 [만들기 및 관리를](../../administration/using/organizational-units.md#creating-and-managing-units) 참조하십시오.
 
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Users & Security > Security groups]**&#x200B;선택합니다.
-1. 새 보안 그룹을 만들고 **[!UICONTROL Label]** 및 를 지정합니다 **[!UICONTROL ID]**.
+1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]**로고를 클릭한 다음**[!UICONTROL Administration > Users & Security > Security groups]**&#x200B;선택합니다.
+1. 새 보안 그룹을 만들고 **[!UICONTROL Label]**및 를 지정합니다**[!UICONTROL ID]**.
 
    ID는 관리 콘솔에서 선택한 ID와 같아야 합니다.
 
-1. 필드에서 조직 구성 단위를 **[!UICONTROL User access]** 지정합니다. 여기서는 Geometrixx 보안 그룹에 **[!UICONTROL All]** 조직 구성 단위가 할당됩니다.
+1. 필드에서 조직 구성 단위를 **[!UICONTROL User access]**지정합니다. 여기서는 Geometrixx 보안 그룹에**[!UICONTROL All]** 조직 구성 단위가 할당됩니다.
 
    ![](assets/manage_security_group_6.png)
 
-1. 보안 그룹에 역할을 할당할 수도 있습니다. 기본 보안 그룹 **[!UICONTROL Administrators]** **[!UICONTROL Standard users]** 및 역할을 할당하는 데 사용되므로 이 단계는 필요하지 않습니다.
+1. 보안 그룹에 역할을 할당할 수도 있습니다. 기본 보안 그룹 **[!UICONTROL Administrators]****[!UICONTROL Standard users]** 및 역할을 할당하는 데 사용되므로 이 단계는 필요하지 않습니다.
 1. 동일한 절차에 따라 마지막 보안 Geometrixx Clothing을 만들고 Geometrixx Clothing 구성 단위를 할당합니다.
 
    ![](assets/manage_security_group_7.png)
