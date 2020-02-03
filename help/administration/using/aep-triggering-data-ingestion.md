@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
 
 Adobe Campaign Standard를 사용하면 API를 통해 데이터 매핑의 즉각적인 인제스트를 트리거하고 통합 요청의 상태를 검색할 수 있습니다.
 
->[!NOTE]
->
->이 페이지에서는 데이터 매핑의 통합 상태를 트리거하고 검색하는 방법에 대해 설명합니다. Campaign Standard API에 대한 글로벌 정보는 [이 섹션을](../../api/using/about-campaign-standard-apis.md)참조하십시오.
+이 페이지에서는 데이터 매핑의 통합 상태를 트리거하고 검색하는 방법에 대해 설명합니다. Campaign Standard API에 대한 글로벌 정보는 [이 섹션을](../../api/using/about-campaign-standard-apis.md)참조하십시오.
 
 ## 사전 요구 사항 {#prerequisites}
 
@@ -38,7 +36,7 @@ API를 사용하기 전에 먼저 데이터 매핑이 Campaign Standard 인터�
 
 데이터 매핑이 만들어지면 언제든지 API에서 트리거할 수 있도록 데이터 매핑이 실행되지 않도록 해야 합니다. 이렇게 하려면 다음 단계를 따르십시오.
 
-1. Campaign Standard에서 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**!UICONTROL Status of data export to platform]**메뉴로 이동합니다.
+1. Campaign Standard에서 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**[!UICONTROL Status of data export to platform]** 메뉴로 이동합니다.
 
 1. 데이터 매핑을 두 번 클릭하여 연 다음 **[!UICONTROL Stop]**단추를 클릭합니다.
 
