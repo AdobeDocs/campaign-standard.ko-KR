@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17545fc4ea58e5220c66f90eafcbfcfca50bf661
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -77,6 +77,12 @@ source-git-commit: 17545fc4ea58e5220c66f90eafcbfcfca50bf661
 * **[!UICONTROL Events]**:&quot;2주 동안 두 번 주문하신 사람&quot;과 같이 회사의 고객 접점과 약간의 상호 작용을 가진 소비자를 식별하는 활동. Adobe Analytics에서 스트리밍하거나 서드파티 ETL 툴을 사용하여 Adobe Experience Platform으로 바로 인제스트할 수 있습니다.
 
    ![](assets/aep_audiences_eventstab.png)
+
+>[!NOTE]
+>
+>**다중 개체 세그먼테이션을** 사용하면 제품, 스토어 또는 기타 비프로필 클래스를 기반으로 한 추가 데이터로 프로필 데이터를 확장할 수 있습니다. 연결되면 추가 클래스의 데이터를 프로필 스키마가 기본인 것처럼 사용할 수 있습니다.
+>
+>자세한 내용은 [전용 설명서를](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)참조하십시오.
 
 기본적으로 통합 세그먼트 빌더에는 데이터가 있는 필드가 표시됩니다. 데이터가 없는 필드를 포함하여 전체 스키마를 표시하려면 설정에서 **[!UICONTROL Show full XDM schema]**옵션을 활성화합니다.
 
