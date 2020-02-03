@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Manager에서 이메일 콘텐츠 제작
+title: Adobe Experience Manager에서 이메일 콘텐츠 만들기.
 description: Adobe Experience Manager 통합을 통해 AEM에서 바로 컨텐츠를 제작하고 나중에 Adobe Campaign에서 사용할 수 있습니다.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1d89c8afad835810292689f4b77b0c4d6ba6a86c
+source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
 
 ---
 
 
-# Adobe Experience Manager에서 이메일 컨텐츠 만들기 {#creating-email-aem}
+# Adobe Experience Manager에서 이메일 콘텐츠 만들기 {#creating-email-aem}
 
 Adobe Campaign Standard와 Adobe Experience Manager의 이러한 통합을 통해 Adobe Campaign 이메일에서 Adobe Experience Manager에서 만든 콘텐츠를 사용할 수 있습니다.
 
@@ -46,7 +46,7 @@ Adobe Campaign Standard와 Adobe Experience Manager의 이러한 통합을 통�
    * Adobe Experience Manager 작성 및 게시 인스턴스 간 복제를 구성합니다.
    * 전용 구성을 통해 Adobe Experience Manager를 Adobe Campaign에 연결할 수 **[!UICONTROL Cloud Service]**있습니다.
 
-## Adobe Experience Manager에서 이메일 컨텐츠 만들기 {#use-case}
+## Adobe Experience Manager에서 이메일 콘텐츠 만들기 {#use-case}
 
 Adobe Experience Manager에서 이메일 컨텐츠를 만들려면
 
@@ -55,7 +55,7 @@ Adobe Experience Manager에서 이메일 컨텐츠를 만들려면
 1. 텍스트, 이미지, 개인화 등을 삽입하여 컨텐츠를 편집합니다.
 1. 컨텐츠의 유효성을 확인합니다.
 
-자세한 내용은 [자세한 설명서를](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/campaign.html)참조하십시오.
+자세한 내용은 [자세한 설명서를](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)참조하십시오.
 
 ![](assets/aem_content.png)
 
