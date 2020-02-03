@@ -12,7 +12,7 @@ discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 랜딩 페이지가 플랫폼과 데이터에 영향을 주므로 실행을 신중하게 테스트해야 합니다. 이렇게 하려면:
 
-1. 랜딩 페이지의 작업 표시줄에 있는 **[!UICONTROL Test]** 단추를 클릭합니다.
+1. 랜딩 페이지의 작업 표시줄에 있는 **[!UICONTROL Test]**단추를 클릭합니다.
 1. 테스트 화면에서 테스트 프로파일을 선택하고 랜딩 페이지가 구독을 관리하는 경우 테스트 서비스를 선택합니다.
 
    ![](assets/lp_test_2.png)
@@ -35,13 +35,17 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 1. 필드에 데이터를 입력하고 옵션을 선택합니다.
 1. 랜딩 페이지를 제출하고 데이터베이스에서 업데이트를 확인합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >양식이 제출되면 사용된 서비스 및 프로필이 업데이트됩니다.
 
 1. 다양한 프로파일과 데이터를 사용하여 이 과정을 반복합니다.
 
    이 화면에서 랜딩 페이지 축소판을 생성할 수도 있습니다.
+
+>[!NOTE]
+>
+>응용 프로그램 서버 URL이 안전하지 않은 경우(https://으로 시작하지 않은 경우), 랜딩 페이지 미리 보기를 Campaign 사용자 인터페이스에서 표시할 수 없습니다. 이 서버는 브랜드 [구성 시 정의됩니다](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## 유효성 매개 변수 설정 {#setting-up-validity-parameters}
 
@@ -51,7 +55,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
    ![](assets/lp_edit_properties_button.png)
 
-1. 다음 **[!UICONTROL Publication]** 섹션에서 만료 날짜 및 시간을 설정합니다.랜딩 페이지는 지정된 날짜에 자동으로 게시 취소되므로 더 이상 사용할 수 없습니다.
+1. 다음 **[!UICONTROL Publication]**섹션에서 만료 날짜 및 시간을 설정합니다.랜딩 페이지는 지정된 날짜에 자동으로 게시 취소되므로 더 이상 사용할 수 없습니다.
 
    이 날짜 및 시간을 고려할 시간대를 선택할 수 있습니다.
 
@@ -59,7 +63,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
    ![](assets/lp_settings_general.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >배포 날짜 및 시간을 정의할 수도 있습니다.그러면 랜딩 페이지가 지정된 날짜에 자동으로 게시됩니다.
 
@@ -67,4 +71,4 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 랜딩 페이지를 게시하면 라이브로 이동하고 방문자가 액세스할 수 있습니다.
 
-랜딩 페이지를 언제든지 **[!UICONTROL Publish]** 단추를 통해 게시 취소 또는 업데이트하거나 다시 게시할 수 있습니다. 그러나 재게시에 실패하고 랜딩 페이지의 게시를 아직 완료하지 않은 경우 첫 번째 버전은 온라인 상태로 유지됩니다.
+랜딩 페이지를 언제든지 **[!UICONTROL Publish]**단추를 통해 게시 취소 또는 업데이트하거나 다시 게시할 수 있습니다. 그러나 재게시에 실패하고 랜딩 페이지의 게시를 아직 완료하지 않은 경우 첫 번째 버전은 온라인 상태로 유지됩니다.
