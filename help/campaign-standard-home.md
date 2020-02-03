@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
+source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
 
 * **[개인 정보 관리](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오.
 
-* **[게재 우수 사례](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>게재 디자인 및 전송과 관련된 우수 사례에 대해 자세히 알아보십시오.
+* **[전달 모범 사례](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>전달 디자인 및 전송과 관련된 모범 사례에 대한 자세한 내용을 살펴보십시오.
 
 * **[이메일](designing/using/designing-content-in-adobe-campaign.md)**<br/>디자이너 재구성된 이메일 디자이너 설명서를 참조하십시오.
 
-* **[Campaign Standard Mobile 안내서](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>모바일 전달에 대한 일반 가이드라인에 대해 자세히 알아보십시오.
+* **[Campaign Standard Mobile 안내서](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>모바일 게재와 관련된 일반적인 지침에 대해 자세히 알아보십시오.
 
 [업데이트를 더 보려면 여기를 클릭하십시오.](rn/using/documentation-updates.md)
 
@@ -46,7 +46,7 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>이메일 디자인</strong></a>
     </div>
-    <em>이메일 디자이너를 사용하여 반응형 이메일을</em>만드는 방법 살펴보기 <br>
+    <em>이메일 디자이너를 사용하여 반응형 및 개인화 이메일을 만드는 방법을 알아보십시오.</em>    <br>
   </td>
   <td valign="top">
        <img alt="개발자" src="start/using/assets/dev.png" />
