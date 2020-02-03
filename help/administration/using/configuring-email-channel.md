@@ -1,6 +1,6 @@
 ---
-title: 이메일 채널 구성
-description: 이메일 채널을 구성하는 방법을 알아봅니다.
+title: Adobe Campaign Standard에서 이메일 채널 구성
+description: Adobe Campaign Standard에서 이메일 채널을 구성하는 방법을 알아봅니다.
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
+source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 
 ---
 
@@ -70,34 +70,52 @@ source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ## 이메일 처리 규칙 {#email-processing-rules}
 
+관리자는 **[!UICONTROL Email processing rules]**메뉴를 통해**[!UICONTROL Administration > Channels > Email]** 액세스할 수 있습니다.
+
 이러한 규칙에는 원격 서버에서 반환할 수 있는 문자 문자열 목록이 포함되어 있어 오류를 평가할 수 있습니다(**하드**, 소프트 **또는 무시됨******).
 
 기본 규칙은 다음과 같습니다.
 
-**바운스 메일**
+### 바운스 메일 {#bounce-mails}
 
 이메일이 실패하면 원격 메시지 서버는 응용 프로그램 설정에 지정된 주소로 바운스 오류 메시지를 반환합니다. Adobe Campaign은 각 바운스 메일의 컨텐츠를 규칙 목록의 문자열에 대해 비교한 다음 세 가지 오류 유형 중 하나를 할당합니다.
 
 사용자는 자신의 규칙을 만들 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >패키지를 가져오고 전달 가능성을 위해 업데이트를 통해 데이터를 업데이트할 **때** 사용자가 만든 규칙을 덮어씁니다.
 
-**이메일 도메인 관리**
+>[!IMPORTANT]
+>
+>향상된 MTA로 업그레이드하면 캠페인 테이블의 바운스 자격 **[!UICONTROL Message qualification]**조건은 더 이상 사용되지 않습니다. 동기 배달 실패 오류 메시지의 경우, 향상된 MTA는 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다. 비동기 바운스는 여전히 inMail 프로세스에서 자격을 갖습니다.
+>
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
-도메인 관리 규칙은 특정 도메인에 대한 나가는 이메일의 흐름을 제어하는 데 사용됩니다. 바운스 메시지를 샘플링하고 해당되는 경우 블록 전송을 수행합니다. Adobe Campaign 메시지 서버는 도메인과 관련된 규칙을 적용한 다음 규칙 목록에 별표로 표시되는 일반 사례에 대한 규칙을 적용합니다. Hotmail 및 MSN 도메인에 대한 규칙은 기본적으로 Adobe Campaign에서 사용할 수 있습니다.
+### 이메일 도메인 관리 {#managing-email-domains}
+
+도메인 관리 규칙은 특정 도메인에 대한 나가는 이메일의 흐름을 제어하는 데 사용됩니다. 바운스 메시지를 샘플링하고 해당되는 경우 블록 전송을 수행합니다. Adobe Campaign 메시지 서버는 도메인과 관련된 규칙을 적용한 다음 규칙 목록에 별표로 표시되는 일반 사례에 대한 규칙을 적용합니다.
 
 도메인 관리 규칙을 구성하려면 임계값을 설정하고 특정 SMTP 매개 변수를 선택하면 됩니다. 임계값은 **** 특정 도메인에 대한 모든 메시지가 차단되는 오류 백분율로 계산되는 한계입니다.
-
-예를 들어, 일반적으로 최소 300개의 메시지의 경우 오류 비율이 90%에 도달하면 이메일 전송이 3시간 동안 차단됩니다.
 
 SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
 
 * 특정 식별 표준 및 암호화 키를 활성화하여 발신자 ID, 도메인 키, **DKIM**, **S/MIME**&#x200B;등과 같은 **도메인 이름을**&#x200B;확인할 **수**&#x200B;있습니다.
 * **SMTP 릴레이**:특정 도메인에 대한 릴레이 서버의 IP 주소와 포트를 구성할 수 있습니다.
 
-**MX 관리**
+>[!IMPORTANT]
+>
+>고급 MTA로 업그레이드하면 향상된 MTA에서 DKIM(DomainKeys Identified Mail) 이메일 인증 서명을 수행합니다. 기본 캠페인 MTA의 DKIM 서명은 향상된 MTA 업그레이드의 일부로 **[!UICONTROL Domain management]**표 내에서 꺼집니다.
+>
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+
+### MX 관리 {#mx-management}
+
+>[!IMPORTANT]
+>
+>향상된 MTA로 업그레이드하면 Adobe Campaign MX **관리** 전달 처리량 규칙이 더 이상 사용되지 않습니다. Enhanced MTA는 고유한 MX 규칙을 사용하여 사용자의 이전 이메일 명성에 따라 도메인별로 처리량을 사용자 정의하고 이메일을 전송하는 도메인에서 오는 실시간 피드백을 제공합니다.
+>
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
 각 규칙은 MX의 주소 마스크를 정의합니다. 따라서 이 마스크와 이름이 일치하는 모든 MX를 사용할 수 있습니다. 마스크에는 &quot;*&quot; 및 &quot;?&quot;가 포함될 수 있습니다. 일반 문자.
 
@@ -127,7 +145,7 @@ SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
 * **최대 메시지**&#x200B;수:하나의 연결로 전송할 수 있는 최대 메시지 수입니다. 이 금액이 지나면 연결이 닫히고 새 연결이 다시 열립니다.
 * **[!UICONTROL Messages per hour]**:지정된 주소를 통해 MX에 대해 1시간 내에 전송할 수 있는 최대 메시지 수입니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* 매개 변수가 변경된 경우 배달 서버(MTA)를 다시 시작해야 합니다.
 >* 관리 규칙을 수정하거나 만드는 것은 전문가 사용자만을 위한 것입니다.
@@ -153,7 +171,7 @@ SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
 
 ![](assets/delivery_options_2.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ID는 고유해야 합니다.
 
@@ -182,7 +200,7 @@ SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
 * **수신자 환경 설정** 사용(기본 모드):메시지 형식은 수신자 프로필에 저장된 데이터에 따라 정의되며 기본적으로 이메일 형식 **** 필드(@emailFormat)에 저장됩니다. 수신자가 특정 형식으로 메시지를 수신하려는 경우 이 형식이 전송됩니다. 필드가 완료되지 않으면 다중 부분 대체 메시지가 전송됩니다(아래 참조).
 * **받는 사람 메일 클라이언트가 가장 적합한 형식(다중 부분 대체)**&#x200B;선택:메시지에는 두 가지 형식이 포함되어 있습니다.텍스트 및 HTML을 참조하십시오. 수신에 따라 표시되는 형식은 받는 사람의 메일 소프트웨어(다중 부분 대체)의 구성에 따라 달라집니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이 옵션에는 메시지의 두 버전이 모두 포함됩니다. 따라서 메시지 크기가 더 크기 때문에 배달 처리량에 영향을 줍니다.
 
@@ -199,7 +217,7 @@ SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
 
 이메일 템플릿에 대해 SMTP 테스트 모드 옵션을 활성화하면 이 템플릿에서 만든 모든 이메일 메시지에 이 옵션이 활성화됩니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >이메일에 대해 이 옵션을 활성화하면 메시지가 선택되지 않는 한 전송되지 않습니다.
 >이메일 또는 이메일 템플릿 대시보드에 경고가 표시됩니다.
@@ -208,14 +226,24 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
 
 ### 유효 기간 매개변수 {#validity-period-parameters}
 
-이 **[!UICONTROL Validity]**섹션에는 다음 매개 변수가 포함되어 있습니다.
+이 **[!UICONTROL Validity period]**섹션에는 다음 매개 변수가 포함되어 있습니다.
+
+![](assets/delivery-validity-period.png)
 
 * **[!UICONTROL Explicitly set validity dates]**:이 상자를 선택하지 않으면**[!UICONTROL Delivery duration]** 및 **[!UICONTROL Resource validity limit]**필드에 기간을 입력해야 합니다. 특정 시간과 날짜를 정의하려면 이 상자를 선택합니다.
+
+   ![](assets/delivery-set-explicit-dates.png)
+
 * **[!UICONTROL Delivery duration]**:Adobe Campaign은 시작 날짜에 시작되는 메시지를 전송합니다. 이 필드를 사용하면 메시지를 보낼 수 있는 기간을 지정할 수 있습니다.
+
+   >[!IMPORTANT]
+   >
+   >향상된 MTA로 업그레이드하면 캠페인 게재의 **[!UICONTROL Delivery duration] 매개 변수 **는 3.5일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다. 모든 영향은 Adobe Campaign 향상된 [MTA 문서에 자세히](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 설명되어 있습니다.
+
 * **[!UICONTROL Resource validity duration]**:이 필드는 주로 미러 페이지 및 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하려면).
 * **[!UICONTROL Mirror page management]**:미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 컨텐츠는 이메일 컨텐츠와 동일합니다. 기본적으로 링크가 메일 컨텐츠에 삽입된 경우 미러 페이지가 생성됩니다. 이 필드를 사용하면 이 페이지가 생성되는 방식을 수정할 수 있습니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >미러 페이지를 만들려면 이메일에 HTML 컨텐츠를 정의해야 합니다.
 
@@ -226,7 +254,7 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
 
 >[!NOTE]
 >
->트랜잭션 **[!UICONTROL Explicitly set validity dates]**메시지에는 및**[!UICONTROL Delivery duration]** 매개 변수가 적용되지 않습니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션을](../../channels/using/about-transactional-messaging.md)참조하십시오.
+>이 **[!UICONTROL Delivery duration]**매개 변수는 트랜잭션 메시지에 적용되지 않습니다. 트랜잭션 메시지에 대한 자세한 내용은[이 섹션을](../../channels/using/about-transactional-messaging.md)참조하십시오.
 
 ### 추적 매개 변수 {#tracking-parameters}
 
@@ -284,7 +312,7 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
 * **[!UICONTROL Bounce mails]**:기본적으로 바운스 메일은 플랫폼의 오류 받은 편지함에서 수신됩니다(**[!UICONTROL Administration]** > **[!UICONTROL Channels]**>**[!UICONTROL Email]** > **[!UICONTROL Configuration]**화면에 정의됨). 이메일의 특정 오류 주소를 정의하려면**[!UICONTROL Error address]** 필드에 주소를 입력합니다.
 * **[!UICONTROL Additional SMTP headers]**:이 옵션을 사용하면 메시지에 추가 SMTP 헤더를 추가할 수 있습니다. 필드에 입력한 스크립트는**[!UICONTROL Headers]** name:value ****&#x200B;형식으로 행당 하나의 헤더를 참조해야 합니다. 필요한 경우 값이 자동으로 인코딩됩니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >추가 SMTP 헤더 삽입을 위한 스크립트 추가는 고급 사용자를 위해 예약되어 있습니다. 이 스크립트의 구문은 다음 컨텐츠 유형의 요구 사항을 준수해야 합니다.사용하지 않은 공간, 빈 줄 등이 없습니다.
 
