@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
+source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
 
 _lineCount **** 매개 변수를 사용하면 응답에 나열된 리소스 수를 제한할 수 있습니다.  그런 다음 **다음** 노드를 사용하여 다음 결과를 표시할 수 있습니다.
 
->[!NOTE]>
+>[!NOTE]
 >
 >항상 **다음** 노드에서 반환된 URL 값을 사용하여 페이지 매김 요청을 수행합니다.
 >
