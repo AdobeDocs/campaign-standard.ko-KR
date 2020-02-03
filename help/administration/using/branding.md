@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 1. 이 브랜드에 대해 하나 또는 여러 개의 배달 및 랜딩 페이지 템플릿을 만듭니다. 템플릿 [만들기](../../start/using/marketing-activity-templates.md) 섹션을 참조하십시오.
 1. 이 템플릿을 기반으로 메시지와 랜딩 페이지를 만듭니다. 이메일 [만들기](../../channels/using/creating-an-email.md) 및 랜딩 페이지 [](../../channels/using/designing-a-landing-page.md) 만들기 섹션을 참조하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >최종 사용자가 브랜드를 만들거나 수정할 수 없습니다.이러한 작업은 Adobe Campaign 기술 관리자가 수행해야 합니다. 요청 시 Adobe 고객 지원 센터에 문의하십시오. 트랜잭션 메시지 컨텍스트에서는 다중 브랜딩을 사용할 수 없습니다. 자세한 내용은 트랜잭션 메시지 [및 브랜딩을](../../channels/using/about-transactional-messaging.md#permissions-and-branding)참조하십시오.
 
@@ -62,7 +62,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
    * **고객이 답글을 달 수 있는 이메일 주소로 회신(이메일 주소)** .
    * **(이름)** 브랜드 이름으로 회신합니다.
    * **오류(이메일 주소)** - 오류가 발생한 경우 사용할 이메일 주소입니다.
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이메일의 헤더 매개 변수를 업데이트한 후 보낸 사람의 이름과 이메일 주소가 템플릿에서 만든 이메일에서 변경되지 않은 경우 템플릿의 고급 설정을 확인하십시오.
 
@@ -73,6 +73,9 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
    * **사용자가 만든 다른 랜딩 페이지를 호스팅 및 액세스하는 데 사용되는 응용 프로그램 서버의** 외부 URL입니다.
    * **배달 중 추적된 URL로 사용되는 추적 서버의** 외부 URL입니다.
    * **게재에서 기본 미러 페이지로 사용되는 미러 페이지 서버의** 외부 URL입니다.
+   >[!NOTE]
+   >
+   >애플리케이션 서버 및 미러 페이지 서버 URL이 안전하지 않은 경우(https://으로 시작하지 않은 경우), 랜딩 페이지 미리 보기 및 미러 페이지 렌더링을 Campaign 사용자 인터페이스에서 표시할 수 없습니다.
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**에 대한 URL 추적 구성을 정의합니다.
 
@@ -118,7 +121,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 #### 새 브랜드 구성 {#configure-a-new-brand}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >브랜드 구성은 특정 권한 및 기술 설정이 필요하므로 Adobe에서만 관리됩니다.
 
