@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
+source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 ---
 
@@ -34,9 +34,8 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>
-   Adobe Experience Platform 데이터 커넥터는 이제 Adobe Campaign Standard와 통합되었습니다. XTK 데이터(캠페인에서 인화된 데이터)를 Adobe Experience Platform 데이터 모델(XDM)에 매핑하여 Adobe Experience Platform에서 캠페인 데이터를 사용할 수 있도록 만들 수 있습니다. </p>
-    <p>이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../administration/using/aep-about-data-connector.md">자세한 설명서를</a>참조하십시오.</p>
+   <td> <p>Adobe Experience Platform 데이터 커넥터는 이제 Adobe Campaign Standard와 통합되었습니다. XTK 데이터(캠페인에서 인화된 데이터)를 Adobe Experience Platform 데이터 모델(XDM)에 매핑하여 Adobe Experience Platform에서 캠페인 데이터를 사용할 수 있도록 만들 수 있습니다. </p>
+    <p>이 기능은 Azure에서 호스팅된 고객만 사용할 수 있습니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../administration/using/aep-about-data-connector.md">자세한 설명서를</a>참조하십시오.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -45,28 +44,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>대상 서비스(베타)와 통합 </strong><br /> </th> 
+   <th> <strong>대상(베타) </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>대상 대상 서비스가 이제 Adobe Campaign Standard와 통합되었습니다. 복잡한 대용량 데이터 세트를 기반으로 고도로 타겟팅된 고객을 구축하고 이러한 세그먼트를 거의 실시간으로 다른 Adobe Experience Cloud 솔루션과 공유할 수 있습니다.</p>
-    <p>이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../audiences/using/aep-about-audience-destinations-service.md">자세한 설명서를</a>참조하십시오.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>캠페인 트랜잭션 메시징을 위한 향상된 MTA</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>이제 트랜잭션 메시지는 개선된 전송 인프라를 제공하는 Adobe Campaign Enhanced MTA에 의해 전송되어 전달 능력, 처리량 및 바운스 처리를 향상시킬 수 있습니다.</p>
-    <p>자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html">자세한 설명서를</a>참조하십시오.</p>
+   <td> <p>대상 대상을 사용하면 Adobe Experience Platform에서 Adobe Campaign으로 세그먼트를 공유할 수 있습니다.</p>
+    <p>이 기능은 Azure에서 호스팅된 고객만 사용할 수 있습니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../audiences/using/aep-about-audience-destinations-service.md">자세한 설명서를</a>참조하십시오.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -74,11 +58,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 
 **향상된 기능**
 
+* 향상된 MTA의 글로벌 가용성:메시지(트랜잭션 메시지 포함)는 이제 Adobe Campaign Enhanced MTA에서 전송되며, 이 MTA는 향상된 전달 능력, 처리량 및 바운스 처리를 가능하게 해주는 업그레이드된 전송 인프라를 제공합니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
 * 시간대 관리가 향상되었습니다. 이제 전체 워크플로우에 대한 [특정 시간대를](../../automating/using/building-a-workflow.md) 정의할 수 있습니다. 선택한 시간대가 모든 워크플로우의 활동에 적용됩니다. 운영자나 서버에 대해 구성된 시간대에 대한 정보가 이제 인터페이스에 표시됩니다(로그인 및 시간대 선택 후). (CAMP-37672)
 
-* 이제 Campaign Standard API를 사용하여 큰 테이블을 사용할 때 호출 URL에 을 추가하여 페이지 매김을 수행할 `_forcePagination=true parameter` 수 있습니다. [자세한 내용](../../api/using/pagination.md)
+* 이제 Campaign Standard API를 사용하여 큰 테이블을 사용할 때 호출 URL에 매개 변수를 추가하여 페이지 매김을 수행할 수 `_forcePagination=true` 있습니다. [자세한 내용](../../api/using/pagination.md)
 
-* 이제 배달 로그 ID(각 로그의 고유 식별자)를 모든 타깃팅 차원에 대한 배달 로그 및 추적 로그 리소스에서 사용할 수 있습니다. 이렇게 하면 내보내기 시 전송 또는 추적 로그를 식별할 수 있습니다.
+* 이제 배달 로그 ID(각 로그의 고유 식별자)를 모든 타깃팅 차원에 대한 배달 로그 및 추적 로그 리소스에서 사용할 수 있습니다. 이렇게 하면 내보내기 시 전송 또는 추적 로그를 식별할 수 있습니다. [자세한 내용](../../automating/using/exporting-logs.md)
 
 **향상된 이메일 디자이너**
 
