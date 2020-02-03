@@ -1,5 +1,5 @@
 ---
-title: 대상자 관리
+title: Adobe Experience Platform 고객 관리
 description: Campaign Standard에서 Adobe Experience Platform을 관리하는 방법을 살펴보십시오.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,32 +13,34 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 19b22fa0780a0bf7c4b7a559270d7c8b32d89e38
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
 
-# 대상자 관리 {#about-audiences}
+# Adobe Experience Platform 고객 관리 {#about-audiences}
 
 >[!IMPORTANT]
 >
 >대상 서비스는 현재 베타 버전으로, 예고 없이 빈번한 업데이트가 적용될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
 
-## 대상 액세스
+## Adobe Experience Platform 고객 액세스
 
-Adobe Experience Platform 대상에 액세스하려면 Campaign Standard 홈 페이지에서 **[!UICONTROL Audiences]**카드를 선택하거나**[!UICONTROL Audiences]** 링크를 선택한 다음 **[!UICONTROL Adobe Experience Platform]**선택합니다.
+Adobe Experience Platform 세그먼트 빌더에 액세스하려면 Campaign Standard 홈 페이지(또는 헤더의 링크)의 **[!UICONTROL Audiences]**카드로 이동한**[!UICONTROL Audiences]** 다음 **[!UICONTROL Adobe Experience Platform]**옵션을 선택합니다.
 
 ![](assets/aep_audiences_access.png)
 
-만들어진 모든 Adobe Experience Platform 고객이 표시됩니다. 원하는 대상을 찾는 데 도움이 되는 검색 막대와 필터를 사용할 수 있습니다.
+먼저 Adobe Experience Platform 세그먼트 목록 페이지로 이동합니다. 기존 Adobe Experience Platform 세그먼트에 액세스하여 원하는 경우 추가로 편집할 수 있습니다.
+
+검색 막대와 필터를 사용하여 원하는 Adobe Experience Platform 세그먼트를 찾을 수 있습니다.
 
 ![](assets/aep_audiences_list.png)
 
-## 대상자 만들기
+## Adobe Experience Platform 고객 만들기
 
-대상은 Adobe Experience Platform 고객 목록에서 직접 생성됩니다. 이렇게 하려면 다음 단계를 따르십시오.
+Campaign Standard에서 바로 Adobe Experience Platform 고객을 만들려면 다음 단계를 따르십시오.
 
-1. 대상 목록으로 이동한 다음 **[!UICONTROL New audience]**단추를 클릭합니다.
+1. Adobe Experience Platform 세그먼트 목록 페이지에서 오른쪽 모서리에 있는 **[!UICONTROL New audience]**단추를 클릭합니다.
 
    ![](assets/aep_audiences_creation_create.png)
 
