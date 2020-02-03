@@ -13,7 +13,7 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -23,6 +23,12 @@ source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 이 보고서에는 전송 처리량과 관련된 데이터 또는 여러 전송이 포함되어 있습니다. 다음과 같은 이점을 제공합니다.
 
 * 시간당 처리된 메시지 수
-* 재시도 횟수가 가장 많은 5회 게재를 보여주는 **[!UICONTROL Top 5 deliveries]** 테이블 및 보완적 요약 번호입니다.
+* 재시도 횟수가 가장 많은 5회 게재를 보여주는 **[!UICONTROL Top 5 deliveries]**테이블 및 보완적 요약 번호입니다.
 
 ![](assets/delivery_reports_1.png)
+
+>[!IMPORTANT]
+>
+>Enhanced MTA로 업그레이드한 후 **[!UICONTROL Delivery throughput]**페이지에 더 이상 이메일 수신자에 대한 처리량이 표시되지 않습니다. Adobe Campaign에서 Enhanced MTA로 메시지 전달에 대한 처리량 속도를 표시합니다.
+>
+>Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
