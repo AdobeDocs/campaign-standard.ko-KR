@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign은 사전 정의된 데이터 모델과 함께 제공됩니다. �
 >
 >리소스를 만들고 수정하는 작업은 전문가 사용자만 수행해야 하는 민감한 작업입니다.
 
-Adobe Campaign 로고를 통해 액세스하는 **[!UICONTROL Administration]** &gt; 메뉴를 사용하면 **[!UICONTROL Development]** 사용자 지정 리소스를 **관리하고****게시하며** 진단 도구에 **액세스할 수**&#x200B;있습니다.
+Adobe Campaign 로고를 통해 액세스하는 **[!UICONTROL Administration]**> 메뉴를 사용하면**[!UICONTROL Development]** 사용자 지정 리소스를 **관리하고****게시하며** 진단 도구에 **액세스할 수**&#x200B;있습니다.
 
 Adobe Campaign에서 사용하는 데이터는 다른 리소스를 통해 정의됩니다. 구매 또는 제품 테이블과 같은 사용자 지정 리소스를 만들어 제공되는 데이터 템플릿을 **** 보완할 수 있습니다.
 
@@ -36,7 +36,7 @@ Adobe Campaign에서 사용하는 데이터는 다른 리소스를 통해 정의
 
 >[!NOTE]
 >
->기본 리소스에 대한 데이터 모델 표현을 [여기에서](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)찾을 수 있습니다.
+>기본 리소스에 대한 데이터 모델 표현을 [여기에서](../../developing/using/datamodel-introduction.md)찾을 수 있습니다.
 
 생성된 리소스에 해당하는 화면에서 내비게이션을 **** 구성할 수도 있습니다.
 
