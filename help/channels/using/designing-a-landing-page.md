@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
 
 ---
 
@@ -41,13 +41,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * [컨텐츠 디자인을](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)위한 일반적인 모범 사례
 
 >[!NOTE]
->HTML 형식으로 이미 사전 정의된 랜딩 페이지가 있는 경우 **[!UICONTROL Change content]** 단추를 사용하여 직접 가져올 수 있습니다.
+>HTML 형식으로 이미 사전 정의된 랜딩 페이지가 있는 경우 **[!UICONTROL Change content]**단추를 사용하여 직접 가져올 수 있습니다.
 >
 >Adobe Campaign에서 HTML 페이지를 가져오기 전에 HTML 페이지가 열리고 다양한 브라우저에서 올바로 표시되는지 확인하십시오. HTML 페이지에 JavaScript 스크립트가 있는 경우 편집기 외부에서 오류 없이 실행해야 합니다. 일반적으로 메시지 컨텐츠에서 스크립트를 사용하여 이메일 클라이언트가 올바로 처리하는지 확인하십시오.
 
 ## 랜딩 페이지 컨텐츠 편집기 인터페이스{#landing-page-content-editor-interface}
 
-랜딩 페이지 컨텐츠 편집기를 사용하면 Adobe Campaign에서 컨텐츠를 쉽게 정의, 수정 및 개인화할 수 있습니다. 액세스하려면 랜딩 페이지 대시보드에서 해당 **[!UICONTROL Content]** 블록을 클릭합니다.
+랜딩 페이지 컨텐츠 편집기를 사용하면 Adobe Campaign에서 컨텐츠를 쉽게 정의, 수정 및 개인화할 수 있습니다. 액세스하려면 랜딩 페이지 대시보드에서 해당 **[!UICONTROL Content]**블록을 클릭합니다.
 
 컨텐츠 편집기는 세 개의 서로 다른 섹션으로 구성됩니다. 이러한 섹션에서는 컨텐츠를 보고 편집할 수 있습니다.
 
@@ -135,13 +135,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
    <td> Adobe Campaign 랜딩 페이지에 액세스할 수 있습니다. 링크 구성 방법에 대한 자세한 내용은 링크 <a href="../../designing/using/links.md#inserting-a-link">삽입</a> 섹션에 나와 있습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">구독 링크</span><br /> </td> 
    <td> 모든 요소<br /> </td> 
    <td> 서비스 구독 링크를 삽입할 수 있습니다. 링크 구성 방법에 대한 자세한 내용은 링크 <a href="../../designing/using/links.md#inserting-a-link">삽입</a> 섹션에 나와 있습니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_unSubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">구독 취소 링크</span><br /> </td> 
    <td> 모든 요소<br /> </td> 
    <td> 서비스 구독 취소 링크를 삽입할 수 있습니다. 링크 구성 방법에 대한 자세한 내용은 링크 <a href="../../designing/using/links.md#inserting-a-link">삽입</a> 섹션에 나와 있습니다.<br /> </td> 
@@ -243,7 +243,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ### 컨텐츠 편집기에서 블록 관리 {#managing-blocks-in-the-content-editor}
 
-다른 HTML 컨텐츠 요소는 랜딩 페이지에 **&lt;div&gt;** **&lt;/div&gt;** 태그에 해당하는 블록으로 표시됩니다. 상호 작용할 블록을 선택합니다. 그러면 파란색 상자로 둘러싸일 것입니다.
+다른 HTML 컨텐츠 요소는 랜딩 페이지에 **&lt;div>** **&lt;/div>** 태그에 해당하는 블록으로 표시됩니다. 상호 작용할 블록을 선택합니다. 그러면 파란색 상자로 둘러싸일 것입니다.
 
 ![](assets/des_lp_content_1.png)
 
@@ -281,20 +281,20 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ![](assets/des_lp_content_7.png)
 
-* **왼쪽**&#x200B;정렬:선택한 블록의 왼쪽에 텍스트를 정렬합니다(style="text-align:left;").
-* **가운데**:선택한 블록의 텍스트 가운데 맞춤(style="text-align 추가:center;").
-* **오른쪽**&#x200B;정렬:선택한 블록의 오른쪽에 텍스트를 정렬합니다(style="text-align:right;").
+* **왼쪽**&#x200B;정렬:선택한 블록의 왼쪽에 텍스트를 정렬합니다(style=&quot;text-align:left;&quot;).
+* **가운데**:선택한 블록의 텍스트 가운데 맞춤(style=&quot;text-align 추가:center;&quot;).
+* **오른쪽**&#x200B;정렬:선택한 블록의 오른쪽에 텍스트를 정렬합니다(style=&quot;text-align:right;&quot;).
 
 도구 모음을 사용하여 글꼴 속성을 변경할 수도 있습니다.글꼴 크기를 조정하고, 텍스트를 굵게 또는 기울임꼴로 만들거나, 텍스트에 밑줄 또는 색상 변경을 적용할 수 있습니다. 이 [섹션을](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface)참조하십시오.
 
 ### 랜딩 페이지에 이미지 삽입 {#inserting-images-in-a-landing-page}
 
 1. 랜딩 페이지 내용에서 이미지가 포함된 블록을 선택합니다.
-1. 단추를 **[!UICONTROL Insert]** 선택합니다.
+1. 단추를 **[!UICONTROL Insert]**선택합니다.
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. 상황에 맞는 툴바에서 **[!UICONTROL Local image]** 선택할 수 있습니다.
+1. 상황에 맞는 툴바에서 **[!UICONTROL Local image]**선택할 수 있습니다.
 
    ![](assets/des_insert_images_lp_2.png)
 
@@ -336,7 +336,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/dynamic_content_lp_3.png)
 
-1. 블록에 적용된 모든 조건을 삭제하려면 해당 블록을 선택하고 **[!UICONTROL Disable dynamic content]** 아이콘을 클릭합니다.
+1. 블록에 적용된 모든 조건을 삭제하려면 해당 블록을 선택하고 **[!UICONTROL Disable dynamic content]**아이콘을 클릭합니다.
 1. 유지할 동적 컨텐츠를 선택합니다.
 
    ![](assets/dynamic_content_lp_5.png)
