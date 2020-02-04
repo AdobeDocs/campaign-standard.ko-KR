@@ -13,7 +13,7 @@ context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ## 보안 그룹 만들기 및 사용자 할당 {#creating-a-security-group-and-assigning-users}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >관리 콘솔에서 보안 그룹을 프로필이라고 합니다.
 
@@ -139,7 +139,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 이제 사용자가 보안 그룹에 할당되어 Adobe Campaign에 연결할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >관리 콘솔의 보안 그룹에서 사용자가 제거되면 사용자는 Adobe Campaign 보안 그룹의 일부로 남으며 더 이상 Adobe Campaign에 로그인할 수 없게 됩니다. 이 경우 관리 콘솔에서 사용자의 이메일 주소를 제거하여 중요한 정보를 수신하지 못하도록 합니다.
 
