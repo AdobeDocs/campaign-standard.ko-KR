@@ -1,16 +1,16 @@
 ---
 title: 외부 API
 description: null
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
-topic-tags: 타깃팅 활동
+topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/wf_externalAPI.png)
 
-이 **[!UICONTROL External API]** 활동은 REST API 호출을 통해 **외부 시스템에서** 워크플로우로 데이터를 **가져옵니다** .
+이 **[!UICONTROL External API]**활동은 REST API 호출을 통해**&#x200B;외부 시스템에서&#x200B;**워크플로우로 데이터를**&#x200B;가져옵니다&#x200B;**.
 
 REST 끝점은 고객 관리 시스템, Adobe I/O [런타임](https://www.adobe.io/apis/experienceplatform/runtime.html) 인스턴스 또는 Experience Cloud REST 끝점(데이터 플랫폼, Target, Analytics, Campaign 등)이 될 수 있습니다.
 
@@ -29,9 +29,9 @@ REST 끝점은 고객 관리 시스템, Adobe I/O [런타임](https://www.adobe.
 >
 >보안상의 이유로 JSSP의 사용은 캠페인 표준에서 지원되지 않습니다. 코드를 실행해야 하는 경우 외부 API 활동을 통해 Adobe I/O 런타임 인스턴스를 호출할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->이 기능은 현재 공개 베타에 있습니다. 외부 API 활동 사용을 시작하기 전에 사용 계약에 동의해야 합니다. 이 공개 베타 기능은 아직 Adobe에서 시판되지 않았기 때문에 Adobe Client Care에서 지원하지 않을 수 있으며 오류가 포함되어 있을 수 있으며 다른 릴리스된 기능뿐만 아니라 작동하지 않을 수 있습니다.
+>이 기능은 현재 베타 버전입니다. 외부 API 활동 사용을 시작하기 전에 사용 계약에 동의해야 합니다. 이 베타 기능은 아직 Adobe에서 시판되지 않았기 때문에 Adobe Client Care에서 지원하지 않을 수 있으며 오류가 포함되어 있을 수 있으며 다른 릴리스된 기능뿐만 아니라 작동하지 않을 수 있습니다.
 
 이 활동의 주요 특징은 다음과 같습니다.
 
@@ -45,7 +45,7 @@ REST 끝점은 고객 관리 시스템, Adobe I/O [런타임](https://www.adobe.
 * 요청 제한 시간은 60초입니다.
 * HTTP 리디렉션이 허용되지 않음
 * HTTPS가 아닌 URL이 거부됨
-* "수락:application/json" 요청 헤더와 "Content-Type:application/json" 응답 헤더가 허용됩니다.
+* &quot;수락:application/json&quot; 요청 헤더와 &quot;Content-Type:application/json&quot; 응답 헤더가 허용됩니다.
 
 >[!CAUTION]
 >
@@ -80,13 +80,13 @@ JSON 구조 패턴은 다음과 같습니다. `{“data”:[{“key”:“value�
 
 샘플 JSON 정의에는 **다음 특성이**&#x200B;있어야 합니다.
 
-* **data** is a mandatory property name in the JSON, the content of "data" is a JSON array.
+* **data** is a mandatory property name in the JSON, the content of &quot;data&quot; is a JSON array.
 * **배열 요소에는** 첫 번째 수준 속성이 포함되어야 합니다(더 깊은 수준은 지원되지 않음).
    **속성 이름은** 출력 임시 테이블의 출력 스키마에 대한 열 이름이 됩니다.
-* **열 이름** 정의는 "data" 배열의 첫 번째 요소를 기반으로 합니다.
+* **열 이름** 정의는 &quot;data&quot; 배열의 첫 번째 요소를 기반으로 합니다.
 열 정의(추가/제거) 및 속성 유형 값을 열 정의 **탭에서 편집할 수** 있습니다.
 
-구문 **분석이 유효하다면** 메시지가 나타나고 "열 정의" 탭에서 데이터 매핑을 사용자 정의할 수 있도록 초대합니다. 다른 경우 오류 메시지가 표시됩니다.
+구문 **분석이 유효하다면** 메시지가 나타나고 &quot;열 정의&quot; 탭에서 데이터 매핑을 사용자 정의할 수 있도록 초대합니다. 다른 경우 오류 메시지가 표시됩니다.
 
 ### 실행
 
