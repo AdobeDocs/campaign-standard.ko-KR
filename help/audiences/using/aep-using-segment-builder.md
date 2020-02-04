@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 1. 설정 창에서 원하는 병합 정책이 선택되었는지 확인합니다.
 
-   병합 정책에 대한 자세한 내용은 세그먼트 빌더 사용 안내서의 [전용 섹션을 참조하십시오](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   병합 정책에 대한 자세한 내용은 세그먼트 빌더 사용 안내서의 [전용 섹션을 참조하십시오](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 왼쪽 창에는 규칙을 구성하는 데 사용할 수 있는 모든 속성, 이벤트 및 대상이 나열됩니다.
 
-나열된 필드는 회사에서 캡처한 특성이며 XDM(Experience Data Model) [시스템을 통해 사용할 수 있습니다](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
+나열된 필드는 회사에서 캡처한 특성이며 XDM(Experience Data Model) [시스템을 통해 사용할 수 있도록 만들어졌습니다](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
 
 필드는 탭으로 구성됩니다.
 
@@ -138,7 +138,7 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. 원하는 대로 두 필드 사이에 연산자를 구성합니다. 이 예에서, 본사의 세그먼트는 홈 주소 우편 번호가 회사 주소 1과 같지 않아야 합니다.
+1. 원하는 대로 두 필드 사이에 연산자를 구성합니다. 이 예에서는 세그먼트가 직장 주소와 다른 홈 주소를 사용하는 프로파일을 타깃팅할 것입니다.
 
    ![](assets/aep_audiences_comparing_3.png)
 
