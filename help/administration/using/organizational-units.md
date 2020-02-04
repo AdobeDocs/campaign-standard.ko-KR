@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 플랫폼의 각 개체 및 사용자는 조직 구성 요소에 연결됩니다. 이 단위를 사용하면 사용자에게 필터링된 보기를 제공하기 위해 계층 구조를 정의할 수 있습니다. 사용자의 단위는 서로 다른 플랫폼 개체에 대한 액세스 수준을 정의합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >사용자가 어떤 장치에도 연결되어 있지 않으면 해당 사용자는 Adobe Campaign에 연결할 수 없습니다. 특정 사용자 또는 사용자 그룹에 대한 액세스를 제한하려면 **[!UICONTROL All]**장치에 연결하지 마십시오.
 >
@@ -103,7 +103,7 @@ Geometrixx 조직 구성 단위의 프로필은 읽기 전용이지만 사용자
 
 조직 구성 단위가 없는 프로필은 사용자가 액세스할 수 없습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >프로필을 가져오기 전에 이 옵션을 추가하는 것이 좋습니다. 고객 데이터베이스를 이미 가져온 경우 이미 가져온 프로필의 조직 단위 값을 설정하기 위해 업데이트가 필요합니다.
 
