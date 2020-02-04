@@ -1,5 +1,5 @@
 ---
-title: 다국어 템플릿 만들기
+title: 다국어 메시지 템플릿
 description: 자동으로 세그먼트화된 고객의 선호 언어를 기반으로 한 단일 전달을 통해 다국어 이메일/SMS 전달을 정의하고 실행하는 방법을 알아봅니다. 언어 및 개별 수준에 대한 모든 전달의 성과를 보고합니다.
 page-status-flag: never-activated
 uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
@@ -12,7 +12,7 @@ discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
