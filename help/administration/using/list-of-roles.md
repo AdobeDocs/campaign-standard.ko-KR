@@ -1,19 +1,19 @@
 ---
 title: 역할 목록
 description: 사용자에게 지정할 수 있는 역할 목록을 확인합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
-topic-tags: 사용자 및 보안
+topic-tags: users-and-security
 discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
-context-tags: 역할,개요;역할,기본
+context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,21 +24,21 @@ source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ![](assets/user_management_3.png)
 
-역할은 **[!UICONTROL Administration > Users & Security > Roles]** 메뉴에서 관리할 수 있습니다.
+역할은 **[!UICONTROL Administration > Users & Security > Roles]**메뉴에서 관리할 수 있습니다.
 
 기본 권한은 다음과 같습니다.
 
 * **[!UICONTROL Administration]**:일반 관리 권한
 * **[!UICONTROL Datamodel]**:발행물을 실행하고 맞춤형 리소스를 제작할 수 있습니다.
 * **[!UICONTROL Export]**:데이터를 내보낼 수 있습니다.
-* **[!UICONTROL Generic import]**:데이터에 대한 일반 가져오기를 실행할 수 있습니다. 이를 수행하려면 역할을 역할에 **[!UICONTROL Generic import]** 연결해야 합니다 **[!UICONTROL Workflow]** .
+* **[!UICONTROL Generic import]**:데이터에 대한 일반 가져오기를 실행할 수 있습니다. 이를 수행하려면 역할을 역할에**[!UICONTROL Generic import]** 연결해야 합니다 **[!UICONTROL Workflow]**.
 * **[!UICONTROL Prepare deliveries]**:게재를 생성, 수정, 준비 및 삭제할 수 있는 권한 이 역할을 가진 사용자는 배달을 준비할 수 있지만 보낼 수는 없습니다.
 * **[!UICONTROL Start deliveries]**:전달을 생성, 수정, 준비, 전송 및 삭제할 수 있는 권한
 * **[!UICONTROL Workflow]**:워크플로우를 생성, 수정, 시작 및 삭제할 수 있습니다. 이 역할을 가진 사용자는 워크플로우에서도 배달을 보낼 수 없습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->이 **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]**&#x200B;및 **[!UICONTROL File access]** **[!UICONTROL Message Center push]** 역할은 Adobe 관리자의 내부용입니다. 사용자에게 허용되어서는 안 됩니다.
+>이 **[!UICONTROL Deliverability]**,**[!UICONTROL Command execution]**, **[!UICONTROL Export]**및**[!UICONTROL File access]** **[!UICONTROL Message Center push]**역할은 Adobe 관리자의 내부용입니다. 사용자에게 허용되어서는 안 됩니다.
 
 **관련 항목:**
 
