@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
+source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
 
 ---
 
@@ -47,7 +47,7 @@ Administrators 보안 그룹과 관련된 정보가 추가되었으며, **[!UICO
 
 메시지 대시보드에 표시할 수 있는 경고를 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/message-dashboard.md#warnings)
 
-이제 Adobe Campaign 향상된 MTA 설명서를 사용할 수 있습니다. [자세히 보기](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+향상된 전달 능력, 처리량 및 바운스 처리를 허용하는 업그레이드된 전송 인프라를 설명하는 Adobe Campaign 향상된 MTA 설명서를 사용할 수 있습니다. [자세히 보기](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 Campaign 사용자 인터페이스에서 랜딩 페이지와 미러 페이지 미리 보기를 표시하기 위해 애플리케이션 서버 및 미러 페이지 서버 URL이 안전해야 함을 나타내는 메모가 추가되었습니다. [자세한 내용](../../administration/using/branding.md#configuring-and-using-brands)
 
