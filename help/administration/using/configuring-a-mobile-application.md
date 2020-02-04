@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
 
 모바일 애플리케이션이 Experience Cloud Mobile SDK V4 또는 Experience Platform SDK를 활용하여 Adobe Campaign에서 설정되면, 관리자가 [!UICONTROL Administration] > [!UICONTROL Channels] > [!UICONTROL Mobile app] 메뉴에서 이를 구성해야 합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >푸시 알림 및 인앱 구현은 전문가 사용자가 수행해야 합니다. 도움이 필요한 경우 Adobe 계정 담당자 또는 Professional 서비스 파트너에게 문의하십시오.
 
