@@ -13,7 +13,7 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3325194881662dee94648ae3d5a03b2bdb6b41ba
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -92,7 +92,7 @@ GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, SMS당 153자로 �
 * 음역 **인증이**&#x200B;되면 메시지가 전송될 때 고려되지 않은 각 문자가 GSM 문자로 대체됩니다. 예를 들어 &quot;레크&quot;는 &quot;e&quot;로 대체됩니다. 따라서 메시지는 약간 변경되지만 문자 제한은 그대로 유지됩니다.
 * 음역 지정이 인증되지 **않은**&#x200B;경우, 고려되지 않은 문자가 포함된 각 메시지는 바이너리 형식(유니코드)으로 전송됩니다.따라서 모든 문자가 그대로 전송됩니다. 그러나 유니코드를 사용하는 SMS 메시지는 70자(여러 부분으로 전송된 메시지의 경우 SMS당 67자)로 제한됩니다. 최대 문자 수가 초과되면 몇 개의 메시지가 전송되어 추가 비용이 발생할 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >SMS 메시지의 컨텐츠에 개인화 필드를 삽입하면 GSM 인코딩에 의해 고려되지 않는 문자가 삽입될 수 있습니다. 컨텐츠 예는 SMS 메시지 개인화 [섹션에서 제공됩니다](../../channels/using/personalizing-sms-messages.md) .
 
@@ -335,13 +335,13 @@ SMS 메시지 전송을 위한 특정 매개 변수는 **[!UICONTROL Send]**및*
 
    ![](assets/sms_smpp.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >발신자 주소 수정과 관련하여 귀하의 국가에서 해당 법률을 확인하십시오. 또한 SMS 서비스 제공업체에 문의하여 이 기능을 제공하는지 확인해야 합니다.
 
 * 이 **[!UICONTROL Maximum number of SMS per message]**옵션을 사용하면 메시지를 보내는 데 사용할 SMS 메시지 수를 정의할 수 있습니다. 이 수를 초과하면 메시지가 전송되지 않습니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >개인화 필드 또는 조건부 텍스트를 SMS 메시지 컨텐츠에 삽입한 경우 메시지의 길이에 따라 보낼 SMS 메시지 수가 받는 사람마다 다를 수 있습니다. 자세한 내용은 SMS 메시지 [개인화](../../channels/using/personalizing-sms-messages.md) 섹션을 참조하십시오.
 
@@ -350,4 +350,3 @@ SMS 메시지 전송을 위한 특정 매개 변수는 **[!UICONTROL Send]**및*
    * **[!UICONTROL Saved on SIM card]**:메시지는 수신자의 전화 SIM 카드에 저장됩니다.
    * **[!UICONTROL Saved on mobile]**:메시지는 전화의 내부 메모리에 저장됩니다.
    * **[!UICONTROL Flash]**:메시지가 수신자의 모바일 전화에 알림으로 표시되면 메시지를 저장하지 않고 사라집니다.
-
