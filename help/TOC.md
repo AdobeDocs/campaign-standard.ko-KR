@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
+source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 
 ---
 
@@ -72,6 +72,7 @@ source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
       + [메시지 보내기 주요 단계](channels/using/key-steps-to-send-a-message.md)
       + [메시지 액세스](channels/using/accessing-messages.md)
       + [메시지 대시보드](channels/using/message-dashboard.md)
+      + [다국어 메시지 템플릿](channels/using/multilingual-messages-template.md)
    + 이메일 메시지 {#email-messages}
       + [이메일 기본 정보](channels/using/about-emails.md)
       + [이메일 만들기](channels/using/creating-an-email.md)
