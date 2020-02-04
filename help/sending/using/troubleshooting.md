@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -33,9 +33,9 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, ISP에�
 
 **블랙리스트에 추가된 이메일 주소와 격리된 이메일 주소 간의 차이점은 무엇입니까?**
 
-상태는 피드백 루프의 **[!UICONTROL Blacklisted]** 결과입니다(사용자가 스팸으로 메시지를 보고하는 경우).
+상태는 피드백 루프의 **[!UICONTROL Blacklisted]**결과입니다(사용자가 스팸으로 메시지를 보고하는 경우).
 
-상태는 부드러운 또는 하드 바운스의 **[!UICONTROL Quarantined]** 결과입니다.
+상태는 부드러운 또는 하드 바운스의 **[!UICONTROL Quarantined]**결과입니다.
 
 **다른 격리 오류 이유는 무엇입니까?**
 
@@ -45,8 +45,8 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, ISP에�
 
 **내 받는 사람 중 한 명이 실수로 블랙리스트에 올랐다. 메시지를 다시 보낼 수 있도록 블랙리스트를 해제하려면 어떻게 해야 합니까?**
 
-* 로 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**&#x200B;이동합니다.
-* 해당 레코드의 세부 정보에서 **[!UICONTROL Status]** 필드 값을 로 설정합니다 **[!UICONTROL Valid]**.
+* 로 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**이동합니다.
+* 해당 레코드의 세부 정보에서 **[!UICONTROL Status]**필드 값을 로 설정합니다**[!UICONTROL Valid]**.
 * 레코드를 저장합니다.
 
 **내 IP 중 하나가 블랙리스트에 추가되었는지 어떻게 알 수 있습니까? 내 IP의 블랙 리스트 해제는 어떻게 합니까?**
@@ -54,7 +54,7 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, ISP에�
 IP 주소가 블랙리스트에 추가되었는지 확인하려면 다양한 웹 사이트를 사용하여 확인할 수 있습니다.
 * https://mxtoolbox.com/
 * https://whatismyipaddress.com/blacklist-check
-* http://www.blacklistalert.org/
+* https://www.blacklistalert.org/
 
 일반적으로 IP 주소 확인 결과는 블랙 리스트의 세부 사항과 IP 주소를 블랙리스트에 올린 웹 사이트의 이름이 포함된 목록을 반환합니다.
 
