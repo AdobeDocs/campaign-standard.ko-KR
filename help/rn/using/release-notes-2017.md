@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -329,7 +329,7 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> Dreamweaver 통합 라이브<br /> </td> 
-   <td> Adobe Campaign과 Dreamweaver 간의 통합이 이제 실시간으로 진행됩니다. Dreamweaver(17.0.2)의 공식 최신 버전과 연동됩니다.<br /> 이를 위해서는 Adobe Campaign 통합 익스텐션을 여기에서 설치해야 합니다.https://adobe.ly/acdw_addon <a href="http://adobe.ly/acdw_addon"></a><br /> 자세한 내용은 이 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">비디오를</a>참조하십시오.<br /> </td> 
+   <td> Adobe Campaign과 Dreamweaver 간의 통합이 이제 실시간으로 진행됩니다. Dreamweaver(17.0.2)의 공식 최신 버전과 연동됩니다.<br /> 이를 위해서는 Adobe Campaign 통합 익스텐션을 여기에서 설치해야 합니다.https://adobe.ly/acdw_addon <a href="https://adobe.ly/acdw_addon"></a><br /> 자세한 내용은 이 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">비디오를</a>참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
