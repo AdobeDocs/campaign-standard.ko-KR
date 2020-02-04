@@ -12,7 +12,7 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -38,4 +38,4 @@ Adobe Campaign Standard 사용법 비디오를 [시청하여 주요 기능을](h
 * [목록](https://video.tv.adobe.com/v/25288?captions=kor)구성:adobe Campaign에서 목록을 구성합니다.
 * [보고서](https://video.tv.adobe.com/v/25264?captions=kor)만들기:다이내믹 보고서를 직접 만듭니다.
 
-이 짧은 비디오와 자세한 비디오 외에도 Adobe 웹 사이트에서 [교육 과정과](https://training.adobe.com/training/courses.html) [프레젠테이션 비디오를](http://www.adobe.com/training/video.html) 찾을 수 있습니다.
+이 짧은 비디오와 자세한 비디오 외에도 Adobe 웹 사이트에서 [교육 과정과](https://training.adobe.com/training/courses.html) [프레젠테이션 비디오를](https://www.adobe.com/training/video.html) 찾을 수 있습니다.
