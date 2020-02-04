@@ -1,18 +1,18 @@
 ---
 title: 액세스 관리 기본 정보
 description: 역할, 그룹 및 조직 단위를 사용하여 Adobe Campaign 운영자를 관리합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
-topic-tags: 사용자 및 보안
-discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdef6
+topic-tags: users-and-security
+discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -26,11 +26,11 @@ Adobe Campaign을 사용하면 다른 사용자에게 할당된 권한을 정의
 
    조직의 구성 단위와 결합되어 역할을 통해 사용자는 인터페이스에 대한 필터링된 뷰를 볼 수 있고 다른 기능에 대한 액세스를 정의할 수 있습니다. 자세한 내용은 인증 [테이블을](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)참조하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >지리적 단위 기능은 더 이상 사용되지 않습니다. 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)참조하십시오.
 
-역할, 그룹 및 조직 단위는 플랫폼의 기능 관리자가 **[!UICONTROL Administration > Users & Security]** 메뉴 아래에 있는 관리할 수 있습니다.
+역할, 그룹 및 조직 단위는 플랫폼의 기능 관리자가 **[!UICONTROL Administration > Users & Security]**메뉴 아래에 있는 관리할 수 있습니다.
 
 ![](assets/user_management_1.png)
 
@@ -38,7 +38,7 @@ Adobe Campaign을 사용하면 다른 사용자에게 할당된 권한을 정의
 
 ![](assets/user_management_6.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >관리 권한이 있는 사용자만 사용자 관리에 액세스할 수 있습니다.
 
