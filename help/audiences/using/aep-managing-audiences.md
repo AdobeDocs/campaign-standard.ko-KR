@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ## Adobe Experience Platform 고객 액세스
 
-Adobe Experience Platform 세그먼트 빌더에 액세스하려면 Campaign Standard 홈 페이지(또는 헤더의 링크)의 **[!UICONTROL Audiences]**카드로 이동한**[!UICONTROL Audiences]** 다음 **[!UICONTROL Adobe Experience Platform]**옵션을 선택합니다.
+Adobe Experience Platform 세그먼트 빌더에 액세스하려면 Campaign Standard 홈 페이지(또는 헤더의 링크)의 **[!UICONTROL Audiences]**카드로 이동한**[!UICONTROL Audiences]** 다음 **[!UICONTROL Adobe Experience Platform]**환경을 선택합니다.
 
 ![](assets/aep_audiences_access.png)
 
-먼저 Adobe Experience Platform 세그먼트 목록 페이지로 이동합니다. 기존 Adobe Experience Platform 세그먼트에 액세스하여 원하는 경우 추가로 편집할 수 있습니다.
+먼저 Adobe Experience Platform 세그먼트 목록 페이지로 이동합니다. 이 페이지에서 기존 Adobe Experience Platform 세그먼트에 액세스하여 추가로 편집할 수 있습니다.
 
 검색 막대와 필터를 사용하여 원하는 Adobe Experience Platform 세그먼트를 찾을 수 있습니다.
 
