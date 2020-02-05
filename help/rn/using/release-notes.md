@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
+source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform 데이터 커넥터는 이제 Adobe Campaign Standard와 통합되었습니다. XTK 데이터(캠페인에서 인화된 데이터)를 Adobe Experience Platform 데이터 모델(XDM)에 매핑하여 Adobe Experience Platform에서 캠페인 데이터를 사용할 수 있도록 만들 수 있습니다. </p>
-    <p>이 기능은 Azure에서 호스팅된 고객만 사용할 수 있습니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../administration/using/aep-about-data-connector.md">자세한 설명서를</a>참조하십시오.</p>
+    <p>이 기능은 Azure에서 호스팅된 고객만 사용할 수 있습니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../administration/using/aep-about-data-connector.md">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">방법 비디오를</a>참조하십시오.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>대상 대상을 사용하면 Adobe Experience Platform에서 Adobe Campaign으로 세그먼트를 공유할 수 있습니다.</p>
-    <p>이 기능은 Azure에서 호스팅된 고객만 사용할 수 있습니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../audiences/using/aep-about-audience-destinations-service.md">자세한 설명서를</a>참조하십시오.</p>
+    <p>이 기능은 Azure에서 호스팅된 고객만 사용할 수 있습니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../audiences/using/aep-about-audience-destinations-service.md">자세한 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">방법 비디오를</a>참조하십시오. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,6 +87,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 **패치**
 
+* 개인 정보 삭제 요청을 수행할 때 사용자 데이터가 제외 로그에서 삭제되지 않는 문제를 해결했습니다. (CAMP-39003)
 * 컨테이너 요소의 텍스트 크기를 조정할 때 액세서빌러티 문제가 발생하는 문제를 해결했습니다.
 * 사용자가 마케팅 활동에 마우스로 표시되던 달력 팝업을 닫지 못하게 하는 문제를 수정했습니다.
 * 데이터가 수정되지 않았을 때에도 단추를 표시했던 **[!UICONTROL External API]**활동**[!UICONTROL Confirm]** 문제를 수정했습니다.
