@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
 
 ---
 
@@ -30,6 +30,8 @@ Adobe Experience Platform Data Connector를 사용하면 기존 고객이 Adobe 
 Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 지정 리소스를 **** 이해하고 고객의 전체 데이터 스키마가 Adobe Experience Platform 내에 어떻게 존재해야 하는지 알고 있는 데이터 엔지니어를 위해 마련되었습니다.
 
 다음 섹션에서는 Campaign Standard와 Adobe Experience Platform 간의 데이터 매핑을 수행하는 주요 단계에 대해 설명합니다. XDM 스키마와 데이터 세트 생성부터 시작됩니다.
+
+사용 방법 비디오는 [이 페이지에서도](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)사용할 수 있습니다.
 
 >[!NOTE]
 >Adobe Experience Platform Data Connector가 구성되고 데이터가 Adobe Experience Platform에 성공적으로 수집되면 데이터가 실시간 고객 프로필에 포함되도록 데이터 세트를 활성화해야 합니다.
