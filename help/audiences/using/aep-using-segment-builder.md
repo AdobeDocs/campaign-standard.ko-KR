@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 >
 >자세한 내용은 [전용 설명서를](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)참조하십시오.
 
-기본적으로 통합 세그먼트 빌더에는 데이터가 있는 필드가 표시됩니다. 데이터가 없는 필드를 포함하여 전체 스키마를 표시하려면 설정에서 **[!UICONTROL Show full XDM schema]**옵션을 활성화합니다.
+기본적으로 통합 세그먼트 빌더에는 데이터가 이미 있는 필드가 표시됩니다. 데이터가 없는 필드를 포함하여 전체 스키마를 표시하려면 설정에서 **[!UICONTROL Show full XDM schema]**옵션을 활성화합니다.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -116,7 +116,7 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
    원하는 만큼 추가 규칙을 추가하여 올바른 프로파일을 타깃팅할 수 있습니다.
 
-   컨테이너에 규칙을 추가하면 AND 연산자가 있는 기존 규칙에 추가됩니다. 연산자를 클릭하여 옵션에 액세스하여 OR로 변경합니다.
+   컨테이너에 규칙을 추가하면 AND 논리 연산자가 있는 기존 규칙에 추가됩니다. 필요한 경우 논리 연산자를 클릭하여 수정합니다.
 
    ![](assets/aep_audiences_andoperator.png)
 
