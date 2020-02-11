@@ -1,18 +1,18 @@
 ---
 title: 피로도 규칙
 description: 피로 규칙을 만들어 프로필로 인한 과잉 통신을 관리합니다.
-page-status-flag: 활성화 안 함
-uuid: fa5e3d-36c2-4f16-b97a-119b85adf679
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
-topic-tags: working-with-typical-rules
-discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a6586
+topic-tags: working-with-typology-rules
+discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 5f4a7f249a47def6776d8787b066e3d8256c3528
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 유형 **[!UICONTROL Fatigue]** 규칙을 만들고 구성하려면 다음 단계를 수행하십시오.
 
-1. 인터페이스 왼쪽 상단 모서리에서 Adobe Campaign 로고를 클릭한 다음 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**&#x200B;를 선택합니다.
+1. 인터페이스 왼쪽 상단 모서리에서 Adobe Campaign 로고를 클릭한 다음 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**&#x200B;를 선택합니다.
 
    ![](assets/fatigue4.png)
 
@@ -82,7 +82,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/fatigue16.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >피로 규칙이 작동하려면 납품에 대한 연락처 날짜를 정의해야 합니다. 메시지를 즉시 보내도록 선택하면 피로 규칙이 적용되지 않습니다.
 
@@ -101,7 +101,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * DM
 * 모바일 애플리케이션:이 채널을 사용하면 프로필 또는 앱 구독자에게 푸시 알림을 전송할 수 있습니다. 프로필로 알림을 보내도록 선택하면 다중 채널 사용 유무 규칙과 호환됩니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >피로 규칙은 앱 구독자에게 전송된 푸시 알림과 호환되지 않습니다. 앱 구독자에게 메시지를 보내는 경우 피로 규칙이 적용되지 않습니다.
 
@@ -135,11 +135,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 두 가지 옵션이 있습니다.
 
-* 프로필 필드를 선택합니다.임계값은 선택한 필드에 따라 각 프로필에 따라 달라집니다. 예를 들어 '통신 빈도' 필드로 프로필 리소스를 확장한 경우 필드 오른쪽의 단추를 클릭하고 필드를 선택합니다. **[!UICONTROL Threshold computation formula]** 각 프로필에 대해 임계값은 '통신 빈도' 필드의 값을 사용합니다.
+* 프로필 필드를 선택합니다.임계값은 선택한 필드에 따라 각 프로필에 따라 달라집니다. 예를 들어 &#39;통신 빈도&#39; 필드로 프로필 리소스를 확장한 경우 필드 오른쪽의 단추를 클릭하고 필드를 선택합니다. **[!UICONTROL Threshold computation formula]** 각 프로필에 대해 임계값은 &#39;통신 빈도&#39; 필드의 값을 사용합니다.
 
    ![](assets/fatigue21.png)
 
-* 공식을 정의합니다.필드 오른쪽의 두 번째 단추를 클릭하여 고급 임계값 계산 공식을 정의합니다. **[!UICONTROL Threshold computation formula]** 예를 들어 프로파일이 속한 세그먼트에 따라 허가된 메시지 수를 인덱싱할 수 있습니다. 즉, '웹' 세그먼트에 속하는 프로필은 다른 프로필보다 더 많은 메시지를 받을 수 있습니다. 유형 **[!UICONTROL Iif (@origin='Web', 5, 3)]** 공식은 웹 세그먼트의 프로필에 5개의 메시지를 전달하고 다른 세그먼트의 경우 3개의 메시지를 전달하도록 허용합니다.
+* 공식을 정의합니다.필드 오른쪽의 두 번째 단추를 클릭하여 고급 임계값 계산 공식을 정의합니다. **[!UICONTROL Threshold computation formula]** 예를 들어 프로파일이 속한 세그먼트에 따라 허가된 메시지 수를 인덱싱할 수 있습니다. 즉, &#39;웹&#39; 세그먼트에 속하는 프로필은 다른 프로필보다 더 많은 메시지를 받을 수 있습니다. 유형 **[!UICONTROL Iif (@origin='Web', 5, 3)]** 공식은 웹 세그먼트의 프로필에 5개의 메시지를 전달하고 다른 세그먼트의 경우 3개의 메시지를 전달하도록 허용합니다.
 
    ![](assets/fatigue14.png)
 
@@ -153,8 +153,8 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 게재에서 임계값을 조정하는 것은 전체 규칙의 적용 가능성을 제한하는 것과 다릅니다( **[!UICONTROL Application criteria]** 탭).
 
-* **[!UICONTROL Application criteria]**:규칙을 실행하거나 특정 기준에 따르지 않도록 선택합니다. 예를 들어 애플리케이션 조건이 'Label starts with Newsletter'인 경우 이 조건을 준수하는 게재에만 규칙이 적용됩니다. 게재 레이블이 '판촉'으로 시작하는 경우 규칙이 전혀 실행되지 않습니다.
-* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**:이 유형 규칙을 사용하는 모든 배달은 규칙을 실행하지만, 계산하려는 과거 및 예약된 배달 중에서 결정합니다. 예를 들어 'Label started with Newsletter'가 제한되면 배달 레이블이 'Promo'로 시작되더라도 규칙이 실행됩니다. 선택한 슬라이딩 기간 동안 레이블이 'Newsletter'로 시작하는 배달 수를 계산합니다.
+* **[!UICONTROL Application criteria]**:규칙을 실행하거나 특정 기준에 따르지 않도록 선택합니다. 예를 들어 애플리케이션 조건이 &#39;Label starts with Newsletter&#39;인 경우 이 조건을 준수하는 게재에만 규칙이 적용됩니다. 게재 레이블이 &#39;판촉&#39;으로 시작하는 경우 규칙이 전혀 실행되지 않습니다.
+* **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**:이 유형 규칙을 사용하는 모든 배달은 규칙을 실행하지만, 계산하려는 과거 및 예약된 배달 중에서 결정합니다. 예를 들어 &#39;Label started with Newsletter&#39;가 제한되면 배달 레이블이 &#39;Promo&#39;로 시작되더라도 규칙이 실행됩니다. 선택한 슬라이딩 기간 동안 레이블이 &#39;Newsletter&#39;로 시작하는 배달 수를 계산합니다.
 
 ## 슬라이딩 기간 설정 {#setting-the-sliding-period}
 
@@ -231,7 +231,7 @@ Adobe Campaign에는 유무 규칙에 대한 전용 보고서가 포함되어 �
 
 * **프로필 필드를** 기반으로 **변수 임계값을**&#x200B;사용하여 피로 규칙을 만듭니다.
 
-   프로필 리소스를 '통신 제한' 필드로 확장하여 각 프로필에 대해 다른 임계값을 정의했습니다. 피로 규칙에서 이 필드를 기반으로 변수 임계값을 정의하고 슬라이딩 기간을 2일로 선택합니다. 두 가지 프로필 예를 살펴보겠습니다.존은 통신량이 1이고 데이빗은 통화량이 2이다. 두 사람 모두 어제 이미 뉴스레터 이메일을 받았습니다. 오늘 다른 이메일을 보내기로 결정하셨습니다. 요한이 표적에서 제외되었기 때문에, 오직 다윗만이 그것을 받을 것이다.
+   프로필 리소스를 &#39;통신 제한&#39; 필드로 확장하여 각 프로필에 대해 다른 임계값을 정의했습니다. 피로 규칙에서 이 필드를 기반으로 변수 임계값을 정의하고 슬라이딩 기간을 2일로 선택합니다. 두 가지 프로필 예를 살펴보겠습니다.존은 통신량이 1이고 데이빗은 통화량이 2이다. 두 사람 모두 어제 이미 뉴스레터 이메일을 받았습니다. 오늘 다른 이메일을 보내기로 결정하셨습니다. 요한이 표적에서 제외되었기 때문에, 오직 다윗만이 그것을 받을 것이다.
 
    ![](assets/fatigue24.png)
 
@@ -247,7 +247,7 @@ Adobe Campaign에는 유무 규칙에 대한 전용 보고서가 포함되어 �
 
 * 프로필 및 전달에 대한 임계값을 **정화하는** 피로 규칙을 만듭니다.
 
-   '점수' 필드로 프로필 리소스를 확장했으며 '유형' 필드로 배달 리소스를 확장했습니다. 상수 임계값을 3으로 정의하려고 하지만 'Alert' 또는 'Black Friday' 유형의 모든 게재와 점수가 10보다 큰 모든 프로필에서 제외하려고 합니다. 규칙이 실행되면 과거 및 예약된 배달 중에서 점수가 10점 미만인 프로필에 '경고' 또는 '검은 금요일' 유형이 아닌 모든 배달이 전송됩니다.
+   &#39;점수&#39; 필드로 프로필 리소스를 확장했으며 &#39;유형&#39; 필드로 배달 리소스를 확장했습니다. 상수 임계값을 3으로 정의하려고 하지만 &#39;Alert&#39; 또는 &#39;Black Friday&#39; 유형의 모든 게재와 점수가 10보다 큰 모든 프로필에서 제외하려고 합니다. 규칙이 실행되면 과거 및 예약된 배달 중에서 점수가 10점 미만인 프로필에 &#39;경고&#39; 또는 &#39;검은 금요일&#39; 유형이 아닌 모든 배달이 전송됩니다.
 
    ![](assets/fatigue26.png)
 
