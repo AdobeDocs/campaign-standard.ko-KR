@@ -3,7 +3,7 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 
 ---
@@ -63,8 +63,8 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [Campaign에서 옵트인 및 옵트아웃 관리](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [게재할 옵트아웃 프로필 확인](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
    + Adobe Experience Platform을 사용한 작업 {#working-with-adobe-experience-platform}
-      + [대상 대상 서비스 정보](audiences/using/aep-about-audience-destinations-service.md)
-      + [Adobe Experience Platform 고객 관리](audiences/using/aep-managing-audiences.md)
+      + [Audience Destinations 서비스 정보](audiences/using/aep-about-audience-destinations-service.md)
+      + [Adobe Experience Platform 대상자 관리](audiences/using/aep-managing-audiences.md)
       + [통합 세그먼트 빌더 사용](audiences/using/aep-using-segment-builder.md)
 + 소통 채널 {#communication-channels}
    + 소통 채널 기본 정보 {#about-communication-channels}
@@ -292,9 +292,9 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [열지 않은 사용자 재타겟팅](automating/using/workflow-cross-channel-retargeting.md)
       + [컨트롤 그룹 만들기](automating/using/workflow-control-group.md)
       + [채널 간 게재 만들기](automating/using/workflow-cross-channel-delivery.md)
-   + Adobe Experience Platform 고객 작업 {aep-audiences}
-      + [Adobe Experience Platform 고객 타깃팅](automating/using/aep-targeting-audiences.md)
-      + [Adobe Experience Platform 속성을 사용하여 캠페인 개인화](automating/using/aep-personalizing-campaigns.md)
+   + Adobe Experience Platform 대상자를 사용한 작업 {working-with-aep-audiences}
+      + [Adobe Experience Platform 대상자 타겟팅](automating/using/aep-targeting-audiences.md)
+      + [Adobe Experience Platform 특성을 사용하여 캠페인 개인화](automating/using/aep-personalizing-campaigns.md)
 + 개발 {#developing}
    + 사용자 지정 리소스 기본 정보 {#about-custom-resources}
       + [데이터 모델 기본 개념](developing/using/data-model-concepts.md)
@@ -364,10 +364,10 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [업데이트 및 유지 관리 작업](administration/using/updates-and-maintenance-operations.md)
    + Adobe Experience Platform 데이터 커넥터 {#mapping-campaign-and-aep-data}
       + [Adobe Experience Platform 데이터 커넥터 정보](administration/using/aep-about-data-connector.md)
-      + [경험 플랫폼 데이터 모델 개요](administration/using/aep-data-model-overview.md)
+      + [Experience Platform 데이터 모델 개요](administration/using/aep-data-model-overview.md)
       + [매핑 정의](administration/using/aep-mapping-definition.md)
       + [매핑 활성화](administration/using/aep-mapping-activation.md)
-      + [API를 통한 데이터 통합 트리거](administration/using/aep-triggering-data-ingestion.md)
+      + [API를 통한 데이터 수집 트리거](administration/using/aep-triggering-data-ingestion.md)
 + API 작업 {#working-with-apis}
    + Campaign Standard API 정보 {#about-campaign-standard-apis}
       + [개요](api/using/about-campaign-standard-apis.md)
