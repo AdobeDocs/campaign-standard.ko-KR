@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign에서 제공하는 컨텐츠 및 메시지 표시는 여러 가�
 
 ## 발신자 개인화 {#personalizing-the-sender}
 
-보낸 메시지 헤더에 표시될 보낸 사람의 이름을 정의하려면, 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스 가능)의 **[!UICONTROL Properties]**탭으로 이동합니다. 자세한 내용은[이메일](../../designing/using/subject-line.md#email-sender)보낸 사람 정의를 참조하십시오.
+보낸 메시지 헤더에 표시될 보낸 사람의 이름을 정의하려면, 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스 가능)의 **[!UICONTROL Properties]** 탭으로 이동합니다. 자세한 내용은 [이메일](../../designing/using/subject-line.md#email-sender)보낸 사람 정의를 참조하십시오.
 
 발신자 이름 **** 블록을 클릭하여 발신자 이름을 변경할 수 있습니다. 그런 다음 필드를 편집할 수 있으며 사용할 이름을 입력할 수 있습니다.
 
@@ -65,7 +65,7 @@ Adobe Campaign을 사용하면 데이터베이스의 필드를 프로필의 이�
 
 컨텐츠에 개인화 필드를 추가하려면:
 
-1. 텍스트 블록 내부를 클릭하고 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]**아이콘을 클릭한 다음**[!UICONTROL Insert personalization field]**&#x200B;선택합니다. 이메일 디자이너 인터페이스에 대한 자세한 내용은 [이 섹션을](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)참조하십시오.
+1. 텍스트 블록 내부를 클릭하고 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]** 아이콘을 클릭한 다음 **[!UICONTROL Insert personalization field]**&#x200B;선택합니다. 이메일 디자이너 인터페이스에 대한 자세한 내용은 [이 섹션을](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)참조하십시오.
 
    ![](assets/email_perso_field_1.png)
 
@@ -95,7 +95,7 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 컨텐츠 블록을 추가하려면:
 
-1. 텍스트 블록 내부를 클릭하고 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]**아이콘을 클릭한 다음**[!UICONTROL Insert content block]**&#x200B;선택합니다. 이메일 디자이너 인터페이스에 대한 자세한 내용은 [이 섹션을](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)참조하십시오.
+1. 텍스트 블록 내부를 클릭하고 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]** 아이콘을 클릭한 다음 **[!UICONTROL Insert content block]**&#x200B;선택합니다. 이메일 디자이너 인터페이스에 대한 자세한 내용은 [이 섹션을](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)참조하십시오.
 
    ![](assets/email_content_block_1.png)
 
@@ -111,17 +111,17 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 즉시 사용 가능한 컨텐츠 블록은 다음과 같습니다.
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**:이 컨텐츠 블록은**&#x200B;배달에만 사용할 수 있습니다&#x200B;**.
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**:이 컨텐츠 블록은**&#x200B;배달에만 사용할 수 있습니다&#x200B;**.
-* **[!UICONTROL Link to mirror page (MirrorPage)]**:이 컨텐츠 블록은**&#x200B;배달에만 사용할 수 있습니다&#x200B;**.
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Link to mirror page (MirrorPage)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**:이 컨텐츠 블록은**&#x200B;배달에만 사용할 수 있습니다&#x200B;**.
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**:이 컨텐츠 블록은**&#x200B;랜딩 페이지에서만&#x200B;**사용할 수 있습니다.
-* **[!UICONTROL Default sender name (DefaultSenderName)]**:이 컨텐츠 블록은**&#x200B;배달에만 사용할 수 있습니다&#x200B;**.
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**:이 컨텐츠 블록은**&#x200B;배달에만 사용할 수 있습니다&#x200B;**.
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**:이 컨텐츠 블록은**&#x200B;배달에만 사용할 수 있습니다&#x200B;**.
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**:이 컨텐츠 블록은**&#x200B;배달에만 사용할 수 있습니다&#x200B;**.
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**:이 컨텐츠 블록은**&#x200B;배달에만 사용할 수 있습니다&#x200B;**.
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**:이 컨텐츠 블록은 **랜딩 페이지에서만**&#x200B;사용할 수 있습니다.
+* **[!UICONTROL Default sender name (DefaultSenderName)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
@@ -133,28 +133,28 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 컨텐츠 블록을 만들려면 다음 단계를 수행합니다.
 
-1. 고급 **[!UICONTROL Resources > Content blocks]**메뉴에서 을 클릭하여 컨텐츠 블록 목록에 액세스합니다.
-1. 단추를 **[!UICONTROL Create]**클릭하거나 기존 컨텐츠 블록을 복제합니다.
+1. 고급 **[!UICONTROL Resources > Content blocks]** 메뉴에서 을 클릭하여 컨텐츠 블록 목록에 액세스합니다.
+1. 단추를 **[!UICONTROL Create]** 클릭하거나 기존 컨텐츠 블록을 복제합니다.
 
    ![](assets/content_bloc_01.png)
 
 1. 레이블을 입력합니다.
-1. 블록의 목록을 **[!UICONTROL Content type]**선택합니다. 다음 세 가지 옵션을 사용할 수 있습니다.
+1. 블록의 목록을 **[!UICONTROL Content type]**&#x200B;선택합니다. 다음 세 가지 옵션을 사용할 수 있습니다.
 
    * **[!UICONTROL Shared]**:컨텐츠 블록은 배달 또는 랜딩 페이지에서 사용할 수 있습니다.
    * **[!UICONTROL Delivery]**:컨텐츠 블록은 전달에만 사용할 수 있습니다.
    * **[!UICONTROL Landing page]**:컨텐츠 블록은 랜딩 페이지에서만 사용할 수 있습니다.
    ![](assets/content_bloc_02.png)
 
-1. 을 선택할 수 **[!UICONTROL Targeting dimension]**있습니다. 자세한 내용은 타깃팅[차원](#about-targeting-dimension)정보를 참조하십시오.
+1. 을 선택할 수 **[!UICONTROL Targeting dimension]**&#x200B;있습니다. 자세한 내용은 타깃팅 [차원](#about-targeting-dimension)정보를 참조하십시오.
 
    ![](assets/content_bloc_04.png)
 
-1. 옵션을 선택하여 두 개의 서로 다른 블록을 정의할 수 **[!UICONTROL Depends on format]**있습니다.HTML 이메일용 및 텍스트 형식의 이메일용 그런 다음 두 개의 탭이 편집기(HTML 및 텍스트)에 표시되어 해당 컨텐츠를 정의합니다.
+1. 옵션을 선택하여 두 개의 서로 다른 블록을 정의할 수 **[!UICONTROL Depends on format]** 있습니다.HTML 이메일용 및 텍스트 형식의 이메일용 그런 다음 두 개의 탭이 편집기(HTML 및 텍스트)에 표시되어 해당 컨텐츠를 정의합니다.
 
    ![](assets/content_bloc_03.png)
 
-1. 컨텐츠 블록의 컨텐츠를 입력하고 **[!UICONTROL Create]**단추를 클릭합니다.
+1. 컨텐츠 블록의 컨텐츠를 입력하고 **[!UICONTROL Create]** 단추를 클릭합니다.
 
 이제 메시지 또는 랜딩 페이지의 컨텐츠 편집기에서 컨텐츠 블록을 사용할 수 있습니다.
 
@@ -168,7 +168,7 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 실제로 메시지를 편집할 때 해당 메시지의 타깃팅 차원과 호환되는 타깃팅 차원이 있는 컨텐츠 블록만 선택할 수 있습니다.
 
-예를 들어 블록의 타깃팅 차원은 **[!UICONTROL Unsubscription link]**리소스와 관련된 개인화 필드를 포함하기**[!UICONTROL Profiles]** **[!UICONTROL Profiles]**때문입니다. 따라서 해당 메시지 유형의 타깃팅 차원은**[!UICONTROL Unsubscription link]** 이기 때문에 [이벤트 거래 메시지에서](../../channels/using/event-transactional-messages.md)**[!UICONTROL Real-time events]**블록을 사용할 수 없습니다. 하지만**&#x200B;프로필 트랜잭션 메시지에서&#x200B;**구독 취소 링크[블록을 사용할 수 있습니다. 해당 유형의 메시지의 타깃팅 차원은 프로필이기 때문입니다](../../channels/using/profile-transactional-messages.md)****. 마지막으로, 블록에 타깃팅 차원이 없으므로**[!UICONTROL Link to mirror page]** 어떤 메시지에서도 사용할 수 있습니다.
+예를 들어 블록의 타깃팅 차원은 **[!UICONTROL Unsubscription link]** 리소스와 관련된 개인화 필드를 포함하기 **[!UICONTROL Profiles]** **[!UICONTROL Profiles]** 때문입니다. 따라서 해당 메시지 유형의 타깃팅 차원은 **[!UICONTROL Unsubscription link]** 이기 때문에 [이벤트 거래 메시지에서](../../channels/using/event-transactional-messages.md)**[!UICONTROL Real-time events]**&#x200B;블록을 사용할 수 없습니다. 하지만 **프로필 트랜잭션 메시지에서** 구독 취소 링크 [블록을 사용할 수 있습니다. 해당 유형의 메시지의 타깃팅 차원은 프로필이기 때문입니다](../../channels/using/profile-transactional-messages.md)****. 마지막으로, 블록에 타깃팅 차원이 없으므로 **[!UICONTROL Link to mirror page]** 어떤 메시지에서도 사용할 수 있습니다.
 
 이 필드를 비워 두면 타깃팅 차원이 무엇이든 상관없이 컨텐츠 블록은 모든 메시지와 호환됩니다. 타깃팅 차원을 설정하면 해당 블록은 동일한 타깃팅 차원이 있는 메시지와 호환됩니다.
 
@@ -185,13 +185,13 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를 하나 또는 여러 개 개인화하거나 추적을 사용할 수 있습니다. 개인화 필드, 컨텐츠 블록 또는 동적 컨텐츠를 이미지 소스에 삽입하여 수행할 수 있습니다. 이렇게 하려면:
 
 1. 메시지 내용에 이미지를 삽입하거나 이미 있는 이미지를 선택합니다.
-1. 이미지 속성 팔레트에서 **[!UICONTROL Enable personalization]**옵션을 선택합니다.
+1. 이미지 속성 팔레트에서 **[!UICONTROL Enable personalization]** 옵션을 선택합니다.
 
    ![](assets/des_personalize_images_1.png)
 
-   필드가 **[!UICONTROL Source]**표시되고 선택한 이미지가 편집기에**&#x200B;개인화된&#x200B;**것으로 표시됩니다.
+   필드가 **[!UICONTROL Source]** 표시되고 선택한 이미지가 편집기에 **개인화된** 것으로 표시됩니다.
 
-1. 개인화 옵션에 액세스하려면 **[!UICONTROL Source]**필드 단추 옆에 있는 연필을 클릭합니다.
+1. 개인화 옵션에 액세스하려면 **[!UICONTROL Source]** 필드 단추 옆에 있는 연필을 클릭합니다.
 1. 이미지 소스를 추가한 후 개인화 필드, 콘텐츠 블록 및 원하는 동적 콘텐츠를 추가합니다.
 
    ![](assets/des_personalize_images_2.png)
@@ -208,7 +208,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
 모든 요소에 가시성 조건을 지정할 수 있습니다. 조건이 존중되는 경우에만 표시됩니다.
 
-가시성 조건을 추가하려면 블록을 선택하고 설정 **[!UICONTROL Visibility condition]**필드에 유지할 조건을 입력합니다.
+가시성 조건을 추가하려면 블록을 선택하고 설정 **[!UICONTROL Visibility condition]** 필드에 유지할 조건을 입력합니다.
 
 ![](assets/delivery_content_5.png)
 
@@ -229,11 +229,11 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 동적 컨텐츠를 정의하는 것은 가시성 조건을 [정의하는 것과](#defining-a-visibility-condition)다릅니다.
 
 1. 조각, 구성 요소 또는 요소를 선택합니다. 이 예에서는 이미지를 선택합니다.
-1. 컨텍스트 도구 모음에서 **[!UICONTROL Dynamic content]**아이콘을 클릭합니다.
+1. 컨텍스트 도구 모음에서 **[!UICONTROL Dynamic content]** 아이콘을 클릭합니다.
 
    ![](assets/dynamic_content_2.png)
 
-   왼쪽 팔레트에 섹션이 나타납니다 **[!UICONTROL Dynamic content]**.
+   왼쪽 팔레트에 섹션이 나타납니다 **[!UICONTROL Dynamic content]** .
 
    ![](assets/dynamic_content_3.png)
 
@@ -247,7 +247,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
    ![](assets/dynamic_content_4.png)
 
-1. 레이블을 지정하고 조건으로 설정할 필드를 선택합니다. 예를 들어, **[!UICONTROL General]**노드에서**[!UICONTROL Age]** 필드를 선택합니다
+1. 레이블을 지정하고 조건으로 설정할 필드를 선택합니다. 예를 들어, **[!UICONTROL General]** 노드에서 **[!UICONTROL Age]** 필드를 선택합니다
 
    ![](assets/dynamic_content_5.png)
 
@@ -269,7 +269,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
    ![](assets/dynamic_content_10.png)
 
-1. 아이콘을 **[!UICONTROL Add a condition]**클릭하여 새 컨텐츠와 연결된 규칙을 추가합니다.
+1. 아이콘을 **[!UICONTROL Add a condition]** 클릭하여 새 컨텐츠와 연결된 규칙을 추가합니다.
 
    ![](assets/dynamic_content_9.png)
 
@@ -283,7 +283,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
 **관련 항목:**
 
-* [교정본 보내기](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)
+* [교정본 보내기](../../sending/using/sending-proofs.md)
 * [고급 표현식 편집](../../automating/using/editing-queries.md#about-query-editor)
 
 ### 우선 순위 순서 {#order-of-priority}
@@ -330,11 +330,11 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
 **18-27세 학생을 타깃으로 하려면:**
 
-1. 팔레트에서 동적 컨텐츠를 **[!UICONTROL Properties]**선택하고**[!UICONTROL Edit]** 단추를 클릭합니다.
+1. 팔레트에서 동적 컨텐츠를 **[!UICONTROL Properties]** 선택하고 **[!UICONTROL Edit]** 단추를 클릭합니다.
 
    ![](assets/delivery_content_48.png)
 
-1. 레이블을 편집한 다음 **[!UICONTROL Age]**노드에서**[!UICONTROL Profile]** 필드를 선택합니다.
+1. 레이블을 편집한 다음 **[!UICONTROL Age]** 노드에서 **[!UICONTROL Profile]** 필드를 선택합니다.
 
    ![](assets/delivery_content_49.png)
 
@@ -342,7 +342,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
    ![](assets/delivery_content_50.png)
 
-1. 새 **[!UICONTROL Age]**조건을 추가합니다.
+1. 새 **[!UICONTROL Age]** 조건을 추가합니다.
 
    값 **필드에서 보다 작거나 같음** 연산자, 27을 차례로 선택하여 27 **보다 작은 표현식을 만듭니다** .
 
@@ -353,7 +353,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 **27세 이상의 사용자를 대상으로 하는 프로파일은 다음과 같습니다.**
 
 1. 팔레트에서 동적 컨텐츠를 선택하고 편집합니다.
-1. 레이블을 편집한 다음 **[!UICONTROL Age]**노드에서**[!UICONTROL Profile]** 필드를 선택합니다.
+1. 레이블을 편집한 다음 **[!UICONTROL Age]** 노드에서 **[!UICONTROL Profile]** 필드를 선택합니다.
 1. 27 **보다** 긴 표현식을 만들려면 값 필드에 Greater than 연산자 다음에 27을 **** 추가합니다.
 
    ![](assets/delivery_content_52.png)
@@ -370,11 +370,11 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
 1. 원하는 구조 구성 요소를 선택하고 동적 컨텐츠를 추가합니다.
 1. 동적 컨텐츠를 편집하고 타깃팅 표현식을 구성합니다. 이미지 [구성을](#configuring-images)참조하십시오.
-1. 구조 구성 요소의 원하는 위치에서 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]**아이콘을 클릭하고**[!UICONTROL Insert personalization field]**&#x200B;선택합니다.
+1. 구조 구성 요소의 원하는 위치에서 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]** 아이콘을 클릭하고 **[!UICONTROL Insert personalization field]**&#x200B;선택합니다.
 
    ![](assets/delivery_content_53.png)
 
-1. 표시되는 목록에서 필드를 선택하고 **[!UICONTROL First name]**확인합니다.
+1. 표시되는 목록에서 필드를 선택하고 **[!UICONTROL First name]** 확인합니다.
 
    ![](assets/delivery_content_54.png)
 
@@ -384,9 +384,9 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
 1. 원하는 구조 구성 요소를 선택하고 동적 컨텐츠를 추가합니다.
 1. 동적 컨텐츠를 편집하고 타깃팅 표현식을 구성합니다. 이미지 [구성을](#configuring-images)참조하십시오.
-1. 구조 구성 요소의 원하는 위치에서 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]**아이콘을 클릭하고**[!UICONTROL Insert personalization field]**&#x200B;선택합니다.
-1. 드롭다운 **[!UICONTROL Title]**목록에서 선택합니다.
-1. 마찬가지로 **[!UICONTROL Last name]**필드를 추가합니다.
+1. 구조 구성 요소의 원하는 위치에서 컨텍스트 도구 모음에서 **[!UICONTROL Personalize]** 아이콘을 클릭하고 **[!UICONTROL Insert personalization field]**&#x200B;선택합니다.
+1. 드롭다운 **[!UICONTROL Title]** 목록에서 선택합니다.
+1. 마찬가지로 **[!UICONTROL Last name]** 필드를 추가합니다.
 
    ![](assets/delivery_content_56.png)
 
@@ -394,7 +394,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
 ### 이메일 미리 보기 {#previewing-emails}
 
-미리 보기를 사용하면 개인화 필드와 동적 컨텐츠가 전송하기 전에 올바르게 구성되어 있는지 확인할 수 **[!UICONTROL Proofs]**있습니다. 미리 보기 중에 이메일 대상에 해당하는 다른 테스트 프로필을 선택할 수 있습니다.
+미리 보기를 사용하면 개인화 필드와 동적 컨텐츠가 전송하기 전에 올바르게 구성되어 있는지 확인할 수 **[!UICONTROL Proofs]**&#x200B;있습니다. 미리 보기 중에 이메일 대상에 해당하는 다른 테스트 프로필을 선택할 수 있습니다.
 
 테스트 프로필이 없으면 기본적으로 표시되는 이메일은 다음과 같습니다.
 
