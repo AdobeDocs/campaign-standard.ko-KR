@@ -1,18 +1,18 @@
 ---
 title: 이메일 렌더링
 description: 이메일 렌더링 기능을 살펴보십시오.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보내기
+audience: sending
 content-type: reference
-topic-tags: preparing and-testing-messages
+topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign에서 이메일 렌더링에 **** 사용할 수 있는 모바일,
 
    ![](assets/email_rendering_05.png)
 
-1. 쿼리 편집기를 사용하여 이메일 렌더링을 **위한 테스트 프로필을 포함하여 사용할 테스트 프로필을** 정의합니다. 테스트 [프로필](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)정보를 참조하십시오.
+1. 쿼리 편집기를 사용하여 이메일 렌더링을 **위한 테스트 프로필을 포함하여 사용할 테스트 프로필을** 정의합니다. 테스트 [프로필](../../audiences/using/managing-test-profiles.md)정보를 참조하십시오.
 
    ![](assets/email_rendering_06.png)
 
@@ -48,7 +48,7 @@ Adobe Campaign에서 이메일 렌더링에 **** 사용할 수 있는 모바일,
 
    >[!NOTE]
    >
-   >이 **[!UICONTROL Proof + Email rendering]** 옵션을 사용하면 증명 자료를 보내고 이메일 렌더링 기능을 동시에 사용할 수 있습니다. 메시지를 인증된 수신자가 승인하도록 할 수 있으며 동시에 타깃팅된 받은 편지함에 따라 메시지가 수신되는 방식을 테스트할 수 있습니다. 이 경우 증명 테스트 프로필도 선택해야 합니다. 테스트 [프로필](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)정보를 참조하십시오.
+   >이 **[!UICONTROL Proof + Email rendering]** 옵션을 사용하면 증명 자료를 보내고 이메일 렌더링 기능을 동시에 사용할 수 있습니다. 메시지를 인증된 수신자가 승인하도록 할 수 있으며 동시에 타깃팅된 받은 편지함에 따라 메시지가 수신되는 방식을 테스트할 수 있습니다. 이 경우 증명 테스트 프로필도 선택해야 합니다. 테스트 [프로필](../../audiences/using/managing-test-profiles.md)정보를 참조하십시오.
 
    테스트 배달이 전송됩니다.
 
@@ -65,7 +65,7 @@ Adobe Campaign에서 이메일 렌더링에 **** 사용할 수 있는 모바일,
 **관련 항목**:
 
 * [이메일 만들기](../../channels/using/creating-an-email.md)
-* [테스트 프로필 관리 및 증명 보내기](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [교정본 보내기](../../sending/using/sending-proofs.md)
 * [쿼리 편집기](../../automating/using/editing-queries.md#about-query-editor)
 
 ## 이메일 렌더링 보고서 설명 {#email-rendering-report-description}
