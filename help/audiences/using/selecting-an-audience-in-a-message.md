@@ -1,19 +1,19 @@
 ---
 title: 메시지에서 대상자 선택
 description: '"이메일 고객을 선택하는 단계별 절차:주요 대상 모집단 및 테스트 프로필"'
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: 고객 관리
+topic-tags: managing-audiences
 discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Campaign을 사용하면 메시지의 대상자 내에 여러 프로필 �
 
 1. 이메일에 사용할 **[!UICONTROL Test profiles]** 항목을 정의합니다. 테스트 프로필은 이메일을 기본 타겟으로 보내기 전에 테스트하기 위해 전송할 수 있는 증명 자료를 받게 됩니다.
 
-   테스트 프로필 구성에 대한 자세한 내용은 테스트 프로필 [섹션을](../../sending/using/managing-test-profiles-and-sending-proofs.md) 참조하십시오.
+   테스트 프로필 구성에 대한 자세한 내용은 테스트 프로필 [섹션을](../../audiences/using/managing-test-profiles.md) 참조하십시오.
 
 그러면 대상 블록이 업데이트되고 해당 이메일에 대해 타겟 및 테스트 프로필이 선택되었음을 표시합니다.
 
