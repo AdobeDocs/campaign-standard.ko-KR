@@ -12,7 +12,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -40,17 +40,17 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 * [사용자 지정 리소스 기본 정보](../../developing/using/data-model-concepts.md)
 * [프로필 관리](../../audiences/using/about-profiles.md)
-* [테스트 프로필 관리](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
+* [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
 
 ## 1단계:프로필 리소스 확장 {#step-1--extend-the-profile-resource}
 
 프로파일에 대한 새 **관심** 필드를 만들려면 먼저 기본 **[!UICONTROL Profiles (profile)]** 리소스를 확장해야 합니다.
 
-1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**&#x200B;을 선택한 다음 **[!UICONTROL Custom resources]**&#x200B;선택합니다.
+1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Development]**&#x200B;을 선택한 다음 **[!UICONTROL Custom resources]**&#x200B;선택합니다.
 1. 아직 **[!UICONTROL Profiles]** 리소스를 연장하지 않은 경우 을 클릭합니다 **[!UICONTROL Create]**.
 1. 옵션을 **[!UICONTROL Extend an existing resource]** 선택합니다.
 1. 리소스를 **[!UICONTROL Profile (profile)]** 선택합니다.
-1. Click **[!UICONTROL Create]**.
+1. 클릭 **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc5.png)
 
@@ -100,11 +100,11 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 새로 만든 필드가 올바르게 구성되어 있는지 테스트하려면 테스트 프로필로 배달을 보내 테스트할 수 있습니다. 먼저 새 필드를 테스트 프로필로 전달해야 합니다.
 
-1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**&#x200B;을 선택한 다음 **[!UICONTROL Custom resources]**&#x200B;선택합니다.
+1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Development]**&#x200B;을 선택한 다음 **[!UICONTROL Custom resources]**&#x200B;선택합니다.
 1. 아직 **[!UICONTROL Profiles]** 리소스를 연장하지 않은 경우 을 클릭합니다 **[!UICONTROL Create]**.
 1. 옵션을 **[!UICONTROL Extend an existing resource]** 선택합니다.
 1. 리소스를 **[!UICONTROL Test profile (seedMember)]** 선택합니다.
-1. Click **[!UICONTROL Create]**.
+1. 클릭 **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc13.png)
 
@@ -117,7 +117,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
    ![](assets/schema_extension_uc16.png)
 
 1. 이 필드를 **[!UICONTROL Test profile]** 화면에 추가하려면 위의 확장 프로필 연습과 같은 단계를 11단계부터 13단계까지 수행합니다.
-1. Click **[!UICONTROL Save]**.
+1. 클릭 **[!UICONTROL Save]**.
 
 이제 프로파일과 테스트 프로필 모두 새 필드를 사용할 수 있습니다. 올바르게 구성되려면 사용자 지정 리소스를 게시해야 합니다.
 
@@ -125,7 +125,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 리소스에 대해 수행된 변경 사항을 적용하고 사용할 수 있으려면 데이터베이스 업데이트를 수행해야 합니다.
 
-1. 고급 메뉴에서 관리 &gt; **개발** , **게시**&#x200B;순으로 **선택합니다**.
+1. 고급 메뉴에서 관리 > **개발** , **게시**&#x200B;순으로 **선택합니다**.
 1. 기본적으로 이 옵션이 선택되어 **[!UICONTROL Determine modifications since the last publication]** 있으므로 마지막 업데이트 이후 수행된 변경 사항만 적용됩니다.
 
    ![](assets/schema_extension_uc14.png)
@@ -155,7 +155,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 1. 에서 **[!UICONTROL Marketing activities]**&#x200B;을 **[!UICONTROL Create]** 클릭한 다음 **[!UICONTROL Landing page]**&#x200B;선택합니다.
 1. 랜딩 페이지 유형을 선택합니다. 여기에서 프로필을 업데이트하려는 경우 선택하십시오 **[!UICONTROL Profile acquisition]**.
-1. Click **[!UICONTROL Create]**.
+1. 클릭 **[!UICONTROL Create]**.
 1. 랜딩 페이지의 컨텐츠 편집을 시작하려면 **[!UICONTROL Content]** 블록을 클릭합니다.
 
    ![](assets/schema_extension_uc21.png)
@@ -186,7 +186,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
    ![](assets/schema_extension_uc24.png)
 
-1. Click **[!UICONTROL Save]**. 이제 이메일이 준비되었으며 워크플로우로 돌아갈 수 있습니다.
+1. 클릭 **[!UICONTROL Save]**. 이제 이메일이 준비되었으며 워크플로우로 돌아갈 수 있습니다.
 1. 프로필을 랜딩 페이지를 채울 수 있도록 **[!UICONTROL Wait]** 활동을 추가합니다.
 1. 관심사에 따라 아웃바운드 전환을 분할할 **[!UICONTROL Segmentation]** 활동을 **추가합니다**.
 1. 각 관심 영역에 대한 아웃바운드 세그먼트를 **만듭니다**.
