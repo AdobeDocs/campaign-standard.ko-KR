@@ -1,19 +1,19 @@
 ---
 title: 핫 클릭
 description: 즉시 사용 가능한 보고서를 클릭하여 고객이 어디에서 배달을 클릭했는지 확인할 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보고
+audience: reporting
 content-type: reference
-topic-tags: 보고서 목록
+topic-tags: list-of-reports
 discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 받는 사람이 남자이거나 여자인 경우 기본 이미지에 있는 링크는 다릅니다.
 * 또한 25세 이상의 수신자만 볼 수 있는 특별 오퍼에 대한 링크를 추가했습니다.
 
-메시지가 전송되면 배달 대시보드에서 **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** 를 선택합니다.
+메시지가 전송되면 배달 대시보드에서 **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** 를 선택합니다.
 
 기본적으로 선택된 프로필은 없습니다. 성을 알 수 없는 수신자와 25세 미만이거나 연령을 알 수 없는 수신자에 대한 클릭 수만 표시됩니다.
 
@@ -47,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 25세 이상의 수신자에 대한 클릭 수를 표시하려면 **[!UICONTROL Change profile]** 단추를 클릭하고 생년월일이 이 조건과 일치하는 테스트 프로필을 선택합니다.
 
-테스트 프로필에 대한 자세한 내용은 테스트 [프로필](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)정보를 참조하십시오.
+테스트 프로필에 대한 자세한 내용은 테스트 [프로필](../../audiences/using/managing-test-profiles.md)정보를 참조하십시오.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >추적된 URL의 ID는 각 실행마다 다르므로 해당 메시지의 모든 실행 배달에 대해 핫 클릭 데이터를 집계할 수 없습니다. 한 번에 한 실행에만 표시할 수 있습니다.
 
-메시지가 전송되면 배달 대시보드에서 **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** 를 선택합니다.
+메시지가 전송되면 배달 대시보드에서 **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** 를 선택합니다.
 
 기본적으로 마지막 실행 배달이 선택됩니다. 단추를 클릭하여 다른 **[!UICONTROL Change execution delivery]** 단추를 선택합니다.
 
