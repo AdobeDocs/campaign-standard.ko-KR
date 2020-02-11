@@ -3,8 +3,8 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-translation-type: ht
-source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -48,6 +48,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [프로필 편집](audiences/using/editing-profiles.md)
       + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
       + [활성 프로필](audiences/using/active-profiles.md)
+      + [테스트 프로필 관리](audiences/using/managing-test-profiles.md)
    + 대상자 관리 {#managing-audiences}
       + [대상자 기본 정보](audiences/using/about-audiences.md)
       + [대상자 만들기](audiences/using/creating-audiences.md)
@@ -136,9 +137,10 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
    + 메시지 준비 및 테스트 {#preparing-and-testing-messages}
       + [메시지 미리 보기](sending/using/previewing-messages.md)
       + [보내기 준비](sending/using/preparing-the-send.md)
-      + [테스트 프로필 관리 및 증명 보내기](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [교정본 보내기](sending/using/sending-proofs.md)
       + [이메일의 제목란 테스트](sending/using/testing-subject-line-email.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
+      + [트랩 사용](sending/using/using-traps.md)
    + 메시지 예약 {#scheduling-messages}
       + [메시지 예약 기본 정보](sending/using/about-scheduling-messages.md)
       + [보내는 시각 최적화](sending/using/optimizing-the-sending-time.md)
