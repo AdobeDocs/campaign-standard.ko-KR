@@ -1,19 +1,19 @@
 ---
 title: 인앱 메시지 사용자 지정
 description: 다양한 옵션을 사용하여 인앱 메시지를 사용자 지정하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
-uuid: 1d9c08ed-4de5-44 파섹
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 인앱 메시지
+topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
-context-tags: 전달,inAppContent,뒤로
+context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -194,7 +194,7 @@ HTML을 가져오면 미리 보기 창에서 다른 디바이스에서 파일의
 
    ![](assets/inapp_sending_2.png)
 
-1. 단추를 클릭하고 테스트 프로필 중 하나를 선택하여 배달 미리 보기를 시작합니다. **[!UICONTROL Select a test profile]** 테스트 프로필에 대한 자세한 내용은 이 [섹션을](../../sending/using/managing-test-profiles-and-sending-proofs.md)참조하십시오.
+1. 단추를 클릭하고 테스트 프로필 중 하나를 선택하여 배달 미리 보기를 시작합니다. **[!UICONTROL Select a test profile]** 테스트 프로필에 대한 자세한 내용은 이 [섹션을](../../audiences/using/managing-test-profiles.md)참조하십시오.
 1. Android, iPhone 또는 태블릿과 같은 다양한 디바이스에서 메시지를 확인할 수 있습니다. 개인화 필드가 올바른 데이터를 검색하고 있는지 확인할 수도 있습니다.
 
    ![](assets/inapp_sending_3.png)
