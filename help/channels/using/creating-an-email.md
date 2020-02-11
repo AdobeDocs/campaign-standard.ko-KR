@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    >[!NOTE]
    >
-   >후속 작업 및 A/B 테스트 템플릿은 기본적으로 숨겨집니다. 표시하려면 왼쪽( **[!UICONTROL Filter]**측면 패널)의 상자를 선택합니다.
+   >후속 작업 및 A/B 테스트 템플릿은 기본적으로 숨겨집니다. 표시하려면 왼쪽( **[!UICONTROL Filter]** 측면 패널)의 상자를 선택합니다.
 
 1. 이메일의 일반 속성을 입력합니다. 레이블 필드에 이름을 입력하고 **ID를** 편집할 수 있습니다. 활동 이름과 해당 ID는 인터페이스에 모두 표시되지만 메시지 수신자는 볼 수 없습니다.
 
@@ -43,7 +43,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 1. 비즈니스 기준에 따라 메시지 대상을 정의합니다. 프로필 [관리를](../../audiences/using/about-profiles.md)참조하십시오.
 
-   메시지의 유효성을 검사할 테스트 프로필을 정의할 수도 있습니다. 테스트 [프로필](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)관리를 참조하십시오.
+   메시지의 유효성을 검사할 테스트 프로필을 정의할 수도 있습니다. 테스트 [프로필](../../audiences/using/managing-test-profiles.md)관리를 참조하십시오.
 
    ![](assets/email_creation_3.png)
 
@@ -58,11 +58,11 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    >[!NOTE]
    >
-   >이메일을 저장하려면 먼저 컨텐츠를 편집해야 합니다. 이 **[!UICONTROL Cancel]**지점을 클릭하면 마법사가 완료되지 않고 이메일이 생성되지 않습니다.
+   >이메일을 저장하려면 먼저 컨텐츠를 편집해야 합니다. 이 **[!UICONTROL Cancel]** 지점을 클릭하면 마법사가 완료되지 않고 이메일이 생성되지 않습니다.
 
    그러면 이메일 대시보드가 표시됩니다. 메시지를 확인하고 전송을 [준비할 수 있습니다](../../sending/using/preparing-the-send.md).
 
-   오른쪽 상단 모서리의 **[!UICONTROL Edit properties]**단추를 사용하여 이메일의 속성을 편집할 수 있습니다. 예를 들어 배달 준비 시 레이블이 계산되도록 이메일을 구성할 수 있습니다.  사용 가능한 매개 변수가[이 섹션에](../../administration/using/configuring-email-channel.md#list-of-email-properties)나열됩니다.
+   오른쪽 상단 모서리의 **[!UICONTROL Edit properties]** 단추를 사용하여 이메일의 속성을 편집할 수 있습니다. 예를 들어 배달 준비 시 레이블이 계산되도록 이메일을 구성할 수 있습니다.  사용 가능한 매개 변수가 [이 섹션에](../../administration/using/configuring-email-channel.md#list-of-email-properties)나열됩니다.
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -78,7 +78,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    >
    >캠페인에서 과다 복제된 프로파일을 자동으로 제외시키는 글로벌 크로스 채널 피로 규칙을 설정할 수 있습니다. 자세한 내용은 피로 [규칙을](../../administration/using/fatigue-rules.md)참조하십시오.
 
-1. 교정본을 보내 메시지를 확인 및 확인하고 받은 편지함 렌더링을 모니터링할 수 있습니다. 증명 [보내기를](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)참조하십시오.
+1. 교정본을 보내 메시지를 확인 및 확인하고 받은 편지함 렌더링을 모니터링할 수 있습니다. 증명 [보내기를](../../sending/using/sending-proofs.md)참조하십시오.
 
    ![](assets/bat_select.png)
 
