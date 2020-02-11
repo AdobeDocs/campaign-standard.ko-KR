@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eaba1e77be1c79bb079f6a210f332ba0c8b64b5f
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Platform Data Connector(베타) - [자세한 내용](../../admi
 
 릴리스 노트가 재구성되고 개선되었습니다. [자세한 내용](../../rn/using/release-notes.md)
 
-Administrators 보안 그룹과 관련된 정보가 추가되었으며, **[!UICONTROL All (all)]**조직 구성 단위가 할당되어 수정할 수 없음을 지정합니다.[자세한 내용](../../administration/using/managing-groups-and-users.md)
+Administrators 보안 그룹과 관련된 정보가 추가되었으며, **[!UICONTROL All (all)]** 조직 구성 단위가 할당되어 수정할 수 없음을 지정합니다. [자세한 내용](../../administration/using/managing-groups-and-users.md)
 
 워크플로우에서 기본적으로 사용할 특정 시간대를 정의하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/building-a-workflow.md)
 
@@ -137,7 +137,7 @@ GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제
 
 로드 파일 활동에서 검색된 추가 데이터가 포함된 이메일을 보내는 방법을 보여주는 새로운 예제가 추가되었습니다. [자세한 내용](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-트랩 사용 방법에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)보기
+트랩 사용 방법에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../../sending/using/using-traps.md)보기
 
 Launch_ **URL_Campaign** 옵션에 대한 메모가 페이지에 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -515,15 +515,15 @@ Campaign 및 Adobe 솔루션 통합에 대한 대부분의 URL이 변경되었�
 
 릴리스 노트는 여러 페이지에서 재구성되었으므로 서로 다른 모든 릴리스를 보다 전체적으로 볼 수 있습니다.
 
-향상된 가시성을 위해 **[!UICONTROL Working with typologies]**섹션이 업데이트되었습니다.[자세한 내용](../../administration/using/about-typology-rules.md)
+향상된 가시성을 위해 **[!UICONTROL Working with typologies]** 섹션이 업데이트되었습니다. [자세한 내용](../../administration/using/about-typology-rules.md)
 
-이제 한 번에 많은 추가 데이터를 정의할 때 성능을 얻을 수 있는 새로운 옵션을 사용할 **[!UICONTROL Query]**수 있습니다.[자세한 내용](../../automating/using/query.md)
+이제 한 번에 많은 추가 데이터를 정의할 때 성능을 얻을 수 있는 새로운 옵션을 사용할 **[!UICONTROL Query]** 수 있습니다. [자세한 내용](../../automating/using/query.md)
 
 프로필 가져오기 예제가 몇 가지 팁으로 업데이트되어 프로필을 수신하여 직접 메일을 받을 수 있도록 했습니다. [자세한 내용](../../automating/using/importing-data.md)
 
-워크플로우에서 새 활동을 사용할 수 있습니다.활동을 **[!UICONTROL Enrichment]**참조하십시오.[자세한 내용](../../automating/using/enrichment.md)
+워크플로우에서 새 활동을 사용할 수 있습니다.활동을 **[!UICONTROL Enrichment]** 참조하십시오. [자세한 내용](../../automating/using/enrichment.md)
 
-단일 파일을 사용하여 여러 서비스에 대한 구독을 업데이트하는 등 더 많은 사용 사례를 지원하도록 **[!UICONTROL Subscription Services]**활동이 업데이트되었습니다.[자세한 내용](../../automating/using/subscription-services.md)
+단일 파일을 사용하여 여러 서비스에 대한 구독을 업데이트하는 등 더 많은 사용 사례를 지원하도록 **[!UICONTROL Subscription Services]** 활동이 업데이트되었습니다. [자세한 내용](../../automating/using/subscription-services.md)
 
 전달 준비 방법에 대한 단계별 사용 사례를 추가했습니다. [자세한 내용](../../sending/using/preparing-the-send.md)
 
@@ -533,7 +533,7 @@ SMS 자동 회신 사용 방법에 대한 단계별 사용 사례를 추가했�
 
 반복되는 워크플로우에서 사용자의 시간대에 따라 배달을 보내는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-단계별 사용 사례를 사용하여 **[!UICONTROL Customizing a push notification]**섹션을 재구성합니다.[자세한 내용](../../channels/using/customizing-a-push-notification.md)
+단계별 사용 사례를 사용하여 **[!UICONTROL Customizing a push notification]** 섹션을 재구성합니다. [자세한 내용](../../channels/using/customizing-a-push-notification.md)
 
 블랙리스트 관리 전용 새로운 섹션. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
