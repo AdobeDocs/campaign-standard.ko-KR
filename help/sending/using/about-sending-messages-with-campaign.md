@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 * [메시지 예약 기본 정보](../../sending/using/about-scheduling-messages.md)
 * [보내기 준비](../../sending/using/preparing-the-send.md)
-* [테스트 프로필 관리 및 증명 보내기](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [교정본 보내기](../../sending/using/sending-proofs.md)
 * [이메일 렌더링](../../sending/using/email-rendering.md)
 * [게재 실패 시 경고 받기](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [전달 능력 최적화](../../sending/using/about-deliverability.md)
