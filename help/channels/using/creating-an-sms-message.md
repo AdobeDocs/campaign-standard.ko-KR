@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -26,7 +26,7 @@ SMS 배달을 만드는 것은 일반 이메일을 만드는 것과 매우 유�
 
 SMS 메시지를 만들어 휴대폰에 보내려면 다음이 필요합니다.
 
-* 모드로 채널에 구성된 **[!UICONTROL Routing]**외부 계정**[!UICONTROL Mobile (SMS)]** **[!UICONTROL Bulk delivery]**. 자세한 내용은 라우팅[섹션을 참조하십시오](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* 모드로 채널에 구성된 **[!UICONTROL Routing]** 외부 계정 **[!UICONTROL Mobile (SMS)]** **[!UICONTROL Bulk delivery]** . 자세한 내용은 라우팅 [섹션을 참조하십시오](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) .
 * 이 외부 계정에 올바르게 연결된 배달 템플릿입니다.
 
 1. SMS 전달 만들기 Adobe Campaign [홈 페이지](../../start/using/interface-description.md#home-page), [캠페인](../../start/using/marketing-activities.md#creating-a-marketing-activity) 또는 [마케팅 활동 목록에서](../../start/using/programs-and-campaigns.md#creating-a-campaign)이 작업을 수행할 수 있습니다.
@@ -51,7 +51,7 @@ SMS 메시지를 만들어 휴대폰에 보내려면 다음이 필요합니다.
 
    ![](assets/sms_creation_3.png)
 
-1. SMS에 컨텐츠 추가 SMS 만들기가 완료되면 배달 대시보드의 **[!UICONTROL Content]**섹션을 클릭하여 컨텐츠를 정의할 수도 있습니다. SMS[컨텐츠 디자인](../../channels/using/about-sms-and-push-content-design.md)정보를 참조하십시오.
+1. SMS에 컨텐츠 추가 SMS 만들기가 완료되면 배달 대시보드의 **[!UICONTROL Content]** 섹션을 클릭하여 컨텐츠를 정의할 수도 있습니다. SMS [컨텐츠 디자인](../../channels/using/about-sms-and-push-content-design.md)정보를 참조하십시오.
 
    개인화 필드 또는 조건부 텍스트를 SMS 메시지의 내용에 삽입한 경우 메시지 길이는 받는 사람마다 다를 수 있습니다. 실제로, 이러한 요소들은 GSM 인코딩에 의해 고려되지 않는 문자를 도입할 수 있습니다. 개인화가 수행되면 메시지 길이를 평가해야 하는 이유입니다. See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
@@ -67,7 +67,7 @@ SMS 메시지를 만들어 휴대폰에 보내려면 다음이 필요합니다.
    >
    >캠페인에서 과다 복제된 프로파일을 자동으로 제외시키는 글로벌 크로스 채널 피로 규칙을 설정할 수 있습니다. 피로 [규칙을](../../administration/using/fatigue-rules.md)참조하십시오.
 
-1. 교정본을 보내 메시지를 확인 및 확인하고 받은 편지함 렌더링을 모니터링할 수 있습니다. 전송 [증명](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) 섹션을 참조하십시오.
+1. 교정본을 보내 메시지를 확인 및 확인하고 받은 편지함 렌더링을 모니터링할 수 있습니다. 전송 [증명](../../sending/using/sending-proofs.md) 섹션을 참조하십시오.
 1. 메시지 전송을 확인합니다. 전송은 정의한 일정에 따라 시작됩니다.
 
    ![](assets/sms_creation_7.png)
