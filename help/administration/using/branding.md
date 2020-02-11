@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 >
 >최종 사용자가 브랜드를 만들거나 수정할 수 없습니다.이러한 작업은 Adobe Campaign 기술 관리자가 수행해야 합니다. 요청 시 Adobe 고객 지원 센터에 문의하십시오. 트랜잭션 메시지 컨텍스트에서는 다중 브랜딩을 사용할 수 없습니다. 자세한 내용은 트랜잭션 메시지 [및 브랜딩을](../../channels/using/about-transactional-messaging.md#permissions-and-branding)참조하십시오.
 
-브랜드는 **[!UICONTROL Administration > Instance settings > Brand configuration]**메뉴에서 찾을 수 있습니다.
+브랜드는 **[!UICONTROL Administration > Instance settings > Brand configuration]** 메뉴에서 찾을 수 있습니다.
 
 기본적으로 새로 만든 브랜드는 관리자가 해당 권한을 가진 사용자만 볼 수 있습니다.
 
@@ -53,7 +53,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
    * **브랜드의 웹 사이트** URL **및 웹 사이트 레이블**
    * **브랜드 로고**
 
-* **[!UICONTROL Header parameters of sent emails]**캠페인 수신자가 보게 될 내용을 개인화합니다. 이 섹션에는 다음 필드가 포함되어 있습니다.
+* **[!UICONTROL Header parameters of sent emails]** 캠페인 수신자가 보게 될 내용을 개인화합니다. 이 섹션에는 다음 필드가 포함되어 있습니다.
 
    ![](assets/branding_04_header.png)
 
@@ -75,9 +75,9 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
    * **게재에서 기본 미러 페이지로 사용되는 미러 페이지 서버의** 외부 URL입니다.
    >[!NOTE]
    >
-   >애플리케이션 서버 및 미러 페이지 서버 URL이 안전하지 않은 경우(https://으로 시작하지 않은 경우), 랜딩 페이지 미리 보기 및 미러 페이지 렌더링을 Campaign 사용자 인터페이스에서 표시할 수 없습니다.
+   >Campaign 사용자 인터페이스에 랜딩 페이지 미리 보기와 미러 페이지 렌더링을 표시하려면 애플리케이션 서버 및 미러 페이지 서버 URL의 보안이 유지되어야 합니다. 이러한 경우, 이러한 URL을 설정할 때 http://이 아닌 https://을 사용하십시오.
 
-* **[!UICONTROL Tracking URL configuration (Web Analytics)]**에 대한 URL 추적 구성을 정의합니다.
+* **[!UICONTROL Tracking URL configuration (Web Analytics)]**&#x200B;에 대한 URL 추적 구성을 정의합니다.
 
    Adobe Analytics 또는 Google Analytics와 같은 웹 분석 도구와 같은 외부 시스템에서 링크를 추적할 수 있도록 하는 추가 매개 변수가 여기에 정의되어 있습니다.
 
@@ -95,7 +95,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 템플릿이 만들어지면 브랜드에 연결할 수 있습니다. 이렇게 하려면:
 
-1. 템플릿 속성에 액세스하려면 **[!UICONTROL Edit properties]**단추를 클릭합니다.
+1. 템플릿 속성에 액세스하려면 **[!UICONTROL Edit properties]** 단추를 클릭합니다.
 
    ![](assets/branding_04.png)
 
@@ -103,11 +103,11 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
    >[!NOTE]
    >
-   >기본적으로 **[!UICONTROL Default brand (branding)]**이 선택됩니다.
+   >기본적으로 **[!UICONTROL Default brand (branding)]** 이 선택됩니다.
 
    ![](assets/branding_05.png)
 
-   선택한 브랜드가 구성되는 방식을 보려면 **[!UICONTROL Navigate to the detail of the element selected]**아이콘을 클릭합니다.
+   선택한 브랜드가 구성되는 방식을 보려면 **[!UICONTROL Navigate to the detail of the element selected]** 아이콘을 클릭합니다.
 
    ![](assets/branding_06.png)
 
@@ -125,7 +125,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 >
 >브랜드 구성은 특정 권한 및 기술 설정이 필요하므로 Adobe에서만 관리됩니다.
 
-1. Adobe Campaign 관리자가 브랜드를 만듭니다 **[!UICONTROL Administration > Instance settings > Brand configuration]**. 그는 고급**&#x200B;메뉴에서 열대지방의 휴가&#x200B;**요소를 추가하고 브랜드에 대한**[!UICONTROL ID]** 정보를 구성합니다 **[!UICONTROL Header parameters of sent emails]**.
+1. Adobe Campaign 관리자가 브랜드를 만듭니다 **[!UICONTROL Administration > Instance settings > Brand configuration]**. 그는 고급 **메뉴에서 열대지방의 휴가** 요소를 추가하고 브랜드에 대한 **[!UICONTROL ID]** 정보를 구성합니다 **[!UICONTROL Header parameters of sent emails]** .
 
    ![](assets/branding_07.png)
 
@@ -141,7 +141,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 배달 관리자는 새 브랜드를 사용할 배달 템플릿을 만들어야 합니다. 이를 위해서는 아래 단계를 따르십시오.
 
-1. 고급 메뉴에서 기본 제공 템플릿을 **[!UICONTROL Resources > Templates > Delivery templates]**복제하여 새 배달 템플릿을 구성합니다.
+1. 고급 메뉴에서 기본 제공 템플릿을 **[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;복제하여 새 배달 템플릿을 구성합니다.
 
    ![](assets/branding_08.png)
 
@@ -160,11 +160,11 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 브랜드에 연결된 이메일을 만들려면 아래 단계를 따르십시오.
 
-1. 메뉴에서 **[!UICONTROL Create]**단추를 클릭합니다**[!UICONTROL Marketing activities]** .
+1. 메뉴에서 **[!UICONTROL Create]** 단추를 클릭합니다 **[!UICONTROL Marketing activities]** .
 
    ![](assets/branding_14.png)
 
-1. 활동을 **[!UICONTROL Email]**선택한 다음 새 브랜드에 연결된 템플릿을 선택합니다.
+1. 활동을 **[!UICONTROL Email]** 선택한 다음 새 브랜드에 연결된 템플릿을 선택합니다.
 
    ![](assets/branding_15.png)
 
