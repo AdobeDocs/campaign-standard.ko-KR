@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
+source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 # 최신 릴리스{#latest-release}
 
 [릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 노트](../../rn/using/release-notes-2019.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## 릴리스 20.1.2 - 2020년 2월 {#release-20-1-2---february-2020}
+
+**향상된 이메일 디자이너**
+
+패치를 적용한 다음 컨텐츠를 저장할 때 오래된 조각에 HTML 태그 요소를 추가한 문제를 수정했습니다. (CAMP-40685)동적 컨텐츠를 사용할 때 공백을 추가하는 문제를 수정했습니다. (CAMP-40605)트랜잭션 이메일 템플릿을 구성할 때 발생하는 문제를 수정했습니다. (CAMP-40604)
 
 ## 릴리스 20.1 - 2020년 2월 {#release-20-1---february-2020}
 
@@ -90,9 +96,9 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 * 개인 정보 삭제 요청을 수행할 때 사용자 데이터가 제외 로그에서 삭제되지 않는 문제를 해결했습니다. (CAMP-39003)
 * 컨테이너 요소의 텍스트 크기를 조정할 때 액세서빌러티 문제가 발생하는 문제를 해결했습니다.
 * 사용자가 마케팅 활동에 마우스로 표시되던 달력 팝업을 닫지 못하게 하는 문제를 수정했습니다.
-* 데이터가 수정되지 않았을 때에도 단추를 표시했던 **[!UICONTROL External API]**활동**[!UICONTROL Confirm]** 문제를 수정했습니다.
-* 다른 대상 차원이 있는 쿼리에 **[!UICONTROL Union]**활동을 사용할 때 발생하는 문제를 수정했습니다. 전환 데이터는 기본 세트의 타깃팅 차원인 레코드만 표시했습니다. (CAMP-36831)
-* 두 개의 인바운드 활동(하나는 제외 활동)과 같이 특정 컨텍스트에서 **[!UICONTROL Reconciliation]**활동을 사용할 때 오류가 발생하던 문제를 수정했습니다. (CAMP-37490)
+* 데이터가 수정되지 않았을 때에도 단추를 표시했던 **[!UICONTROL External API]** 활동 **[!UICONTROL Confirm]** 문제를 수정했습니다.
+* 다른 대상 차원이 있는 쿼리에 **[!UICONTROL Union]** 활동을 사용할 때 발생하는 문제를 수정했습니다. 전환 데이터는 기본 세트의 타깃팅 차원인 레코드만 표시했습니다. (CAMP-36831)
+* 두 개의 인바운드 활동(하나는 제외 활동)과 같이 특정 컨텍스트에서 **[!UICONTROL Reconciliation]** 활동을 사용할 때 오류가 발생하던 문제를 수정했습니다. (CAMP-37490)
 * 테스트 프로필을 선택하고 업데이트할 때 발생할 수 있는 성능 문제를 수정했습니다. (CAMP-37976)
 * 랜딩 페이지를 통해 가입 또는 가입 해지 시 오류 페이지를 표시하는 문제를 해결했습니다. (CAMP-37771)
 * zip 형식의 콘텐트를 업로드할 때 HTML에서 참조되는 PNG 파일과 확장자가 대문자로 표시되는 문제가 해결되었습니다. (CAMP-37913)
