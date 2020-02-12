@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
+source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 **향상된 이메일 디자이너**
 
-패치를 적용한 다음 컨텐츠를 저장할 때 오래된 조각에 HTML 태그 요소를 추가한 문제를 수정했습니다. (CAMP-40685)동적 컨텐츠를 사용할 때 공백을 추가하는 문제를 수정했습니다. (CAMP-40605)트랜잭션 이메일 템플릿을 구성할 때 발생하는 문제를 수정했습니다. (CAMP-40604)
+* 패치를 적용한 다음 컨텐츠를 저장할 때 오래된 조각에 HTML 태그 요소를 추가한 문제를 수정했습니다. (CAMP-40685)
+* 동적 컨텐츠를 사용할 때 공백이 추가되는 문제를 수정했습니다. (CAMP-40605)
+* 트랜잭션 이메일 템플릿을 구성할 때 발생하는 문제를 수정했습니다. (CAMP-40604)
 
 ## 릴리스 20.1 - 2020년 2월 {#release-20-1---february-2020}
 
