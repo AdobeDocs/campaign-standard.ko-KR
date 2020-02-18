@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
+source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 # 최신 릴리스{#latest-release}
 
 [릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 노트](../../rn/using/release-notes-2019.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## 릴리스 20.1.3 - 2020년 2월 {#release-20-1-3---february-2020}
+
+* CAMP-39273에서 해당 허점을 사용하는 고객을 위해 20.1에 도입된 회귀 문제를 수정했습니다. CAMP-39273은 되돌려졌습니다.
 
 ## 릴리스 20.1.2 - 2020년 2월 {#release-20-1-2---february-2020}
 
@@ -116,3 +120,4 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 * 동적 보고에서 구독 취소 카운트가 일치하지 않던 문제를 수정했습니다. (CAMP-39949)
 * 인앱 메시지를 보낼 때 주소 전송 로그 화면에 표시되지 않는 문제를 해결했습니다.
 * SMS 전송 로그가 올바른 바운스 수로 업데이트되지 않는 문제를 해결했습니다. (CAMP-38395)
+* 응용 프로그램 구독 게시물 호출이 푸시 알림 토큰을 업데이트하도록 하는 허점을 해결했습니다. (CAMP-39273)
