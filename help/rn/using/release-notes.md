@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
+source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 
 ---
 
@@ -89,6 +89,8 @@ source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 * 텍스트 편집기에서 텍스트를 복사하고 붙여넣을 수 없는 문제를 해결했습니다. (CAMP-39028)
 * 단어 제안 기능이 표시되지 않는 문제를 해결했습니다. (CAMP-38970)
 * 사용자가 조각을 저장하지 못했던 문제를 수정했습니다. (ATU 파섹
+* 동적 구조가 중복되지 않는 문제를 해결했습니다. (CAMP-38367)
+* 동적 컨텐츠가 중복될 때 조건을 유지할 수 없는 문제를 해결했습니다. (CAMP-39051)
 
 **기타 변경 사항**
 
