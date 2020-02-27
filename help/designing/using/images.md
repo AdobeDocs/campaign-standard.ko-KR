@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
+source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
 
 ---
 
@@ -29,8 +29,6 @@ source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 * Adobe Experience Cloud에서 공유된 이미지 - 캠페인 및 [자산 핵심 서비스](../../integrating/using/working-with-campaign-and-assets-core-service.md) /Assets On Demand 작업을 참조하십시오.
 * Adobe Target의 동적 이미지 - 캠페인 [및 타겟 작업을 참조하십시오.](../../integrating/using/about-campaign-target-integration.md)
 
-활성화된 경우 Adobe Creative SDK를 사용하여 이미지를 수정할 수 있습니다. Adobe [Creative SDK를 사용하여 이미지 수정을 참조하십시오](#modifying-images-with-the-adobe-creative-sdk).
-
 >[!CAUTION]
 >
 >이메일의 HTML 버전을 편집하여 직접 이미지를 추가하도록 선택한 경우 HTML 페이지의 &lt;script> 태그에서 **외부 파일을** 호출해서는 안 됩니다. 이러한 파일은 Adobe Campaign 서버로 가져오지 않습니다.
@@ -38,7 +36,7 @@ source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 ### 이메일에 이미지 삽입 {#inserting-images-in-an-email}
 
 1. 구조 구성 요소를 추가합니다. 자세한 내용은 이메일 [구조](../../designing/using/designing-from-scratch.md#defining-the-email-structure)편집을 참조하십시오.
-1. 이 구조 구성 요소 내에서 **[!UICONTROL Image]**콘텐츠 구성 요소를 추가합니다.
+1. 이 구조 구성 요소 내에서 **[!UICONTROL Image]** 콘텐츠 구성 요소를 추가합니다.
 
    ![](assets/des_insert_images_1.png)
 
@@ -72,24 +70,27 @@ source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 </object>
 ```
 
-## Adobe Creative SDK를 사용하여 이미지 수정{#modifying-images-with-the-adobe-creative-sdk}
+<!--
+## Modifying images with the Adobe Creative SDK{#modifying-images-with-the-adobe-creative-sdk}
 
-이미지를 편집하고 Adobe Creative SDK에서 제공하는 전체 기능을 사용하여 이메일 또는 랜딩 페이지를 편집할 때 컨텐츠 편집기에서 바로 이미지를 향상시킬 수 있습니다.
+You can edit images and use a complete set of features powered by the Adobe Creative SDK to enhance your images directly in the content editor when editing emails or landing pages.
 
-이미지 편집기는 이미지를 편집하고 효과 및 프레임을 적용할 수 있는 강력하고 완벽한 기능을 갖춘 이미지 편집 UI 구성 요소를 제공하므로 원본 고품질의 스티커, 멋진 오버레이, 기울기 이동 및 색상 시작, 전문가 수준의 조정 등과 같은 재미있는 기능을 사용할 수 있습니다.
+The image editor offers a powerful, full-featured image editing UI component that allows you to edit images and apply effects and frames, original high-quality stickers, beautiful overlays, fun features like tilt shift and color splash, pro-level adjustments and more.
 
-Adobe Creative SDK를 사용하여 이미지를 수정하려면:
+To modify an image with the Adobe Creative SDK:
 
-1. 이미지를 선택합니다.
-1. 도구 모음에서 Creative Cloud 아이콘을 클릭합니다.
+1. Select the image.
+1. In the toolbar, click the Creative Cloud icon.
 
    ![](assets/des_creative_sdk_icon.png)
 
-1. 창 위쪽에 있는 아이콘을 통해 사용할 도구를 선택하여 이미지를 수정합니다.
+1. Select the tool you want to use through the icons on the top of the window to modify the image.
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. 수정이 **[!UICONTROL Save]**완료되면 을 클릭합니다. 업데이트된 이미지가 Adobe Campaign 서버에 저장되고 사용할 준비가 되었습니다.
+1. Click **[!UICONTROL Save]** when modifications are done. The updated image is saved on Adobe Campaign server and ready to be used.
 
 >[!NOTE]
-이미지 편집기에 제공된 도구를 사용자 지정할 수 없습니다.
+>
+>Tools offered in the image editor cannot be customized.
+-->
