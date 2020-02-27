@@ -1,9 +1,9 @@
 ---
 title: Adobe 솔루션과 통합 사용
 description: Adobe Experience Cloud 핵심 서비스 및 Adobe Analytics 및 Experience Manager와 같은 솔루션을 통합하면 심도 있는 인사이트와 편리한 컨텐츠 관리를 통해 Adobe Campaign 전략을 향상시키는 방법을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
@@ -12,7 +12,7 @@ discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -54,10 +54,6 @@ Adobe Experience Cloud 솔루션과 Adobe Campaign을 함께 사용하면 다음
 * Adobe Analytics에서 웹 사이트에서 추적한 특정 행동에 대한 반응으로 Adobe Campaign에서 개인화된 이메일을 고객에게 보냅니다.
 
    자세한 내용은 Campaign Standard에서 [Experience Cloud 트리거 사용을 참조하십시오](../../integrating/using/about-adobe-experience-cloud-triggers.md).
-
-* Adobe Creative SDK에서 제공하는 완벽한 기능을 사용하여 컨텐츠 편집기에서 바로 이미지를 향상시킬 수 있습니다
-
-   자세한 내용은 Adobe Creative [SDK를 사용하여 이미지 수정을 참조하십시오.](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
 * Adobe Experience Platform SDK 파섹
 
