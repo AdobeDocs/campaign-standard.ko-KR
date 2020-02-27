@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -96,11 +96,6 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    <td> 
     <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Dreamweaver 비디오를 사용하여 개인화된 이메일</a> 제작, <br/>Dreamweaver용 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">캠페인 확장 사용</a> 
   </td> 
-  </tr> 
-  <tr> 
-   <td> Creative SDK<br /> </td> 
-   <td> Adobe Creative SDK에서 제공하는 완벽한 기능을 사용하여 컨텐츠 편집기에서 바로 이미지를 향상시킬 수 있습니다.<br /> </td> 
-   <td> <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">Adobe Creative SDK를 사용하여 이미지 수정</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Experience Platform SDK<br /> </td> 
