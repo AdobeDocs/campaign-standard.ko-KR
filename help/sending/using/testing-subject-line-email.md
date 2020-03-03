@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
+source-git-commit: 7e61796376a14c279d38107905275172be0dd12d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
 
 1. 이메일을 만들거나 엽니다.
 1. 컨텐츠를 열고 해당 입력 필드에 이메일 제목을 입력합니다.
-1. 단추를 클릭하여 창에 액세스합니다. **[!UICONTROL Test subject]****[!UICONTROL Test your subject line]** 여전히 이 창에서 제목을 편집할 수 있습니다.
+1. 단추를 클릭하여 창에 액세스합니다. **[!UICONTROL Test subject]** **[!UICONTROL Test your subject line]** 여전히 이 창에서 제목을 편집할 수 있습니다.
 1. 개방 비율 예측을 고려하도록 올바른 모델을 선택합니다. 각 모델은 특정 업계에 해당하는 몇 가지 모델을 사용할 수 있습니다.
 1. 클릭 **[!UICONTROL Test]**.
 
@@ -52,7 +52,7 @@ source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
 * 이전 이메일 메시지의 데이터에서 로컬 모델을 교육할 수 있습니다.
 
    * 이미 Adobe Campaign을 사용하고 있는 경우 로컬 모델은 이미 보낸 메시지에 대해 자동으로 교육됩니다.
-   * Adobe Campaign을 처음 사용하는 경우 이전 시스템/ESP에서 4개의 열이 포함된 CSV 파일을 추출할 수 있습니다.날짜, 제목, 열기, 전송 이렇게 하려면 > **[!UICONTROL Administration]**>**[!UICONTROL Channels]** > **[!UICONTROL Email]**> >**[!UICONTROL Subject Line Import]** 로 이동하여 연속 화면에 제공된 지침을 따르십시오. 제목 업로드가 완료되면 아래 설명된 대로 로컬 모델을 가져옵니다. 로컬 모델은 업로드한 데이터로 자동 교육됩니다.
+   * Adobe Campaign을 처음 사용하는 경우 이전 시스템/ESP에서 4개의 열이 포함된 CSV 파일을 추출할 수 있습니다.날짜, 제목, 열기, 전송 이렇게 하려면 > **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > > **[!UICONTROL Subject Line Import]** 로 이동하여 연속 화면에 제공된 지침을 따르십시오. 제목 업로드가 완료되면 아래 설명된 대로 로컬 모델을 가져옵니다. 로컬 모델은 업로드한 데이터로 자동 교육됩니다.
    * Adobe Campaign을 처음 사용하고 위에서 설명한 대로 CSV 파일을 가져올 수 없는 경우, 사전 교육 모델을 사용하거나 로컬 모델을 교육하는 데 필요한 배달 데이터가 시스템에 충분히 있을 때까지 기다릴 수 있습니다. 시스템은 현재 데이터 세트에 패턴을 인식하고 모델을 교육할 충분한 데이터가 포함되어 있는지 자동으로 판별합니다.
 
       >[!NOTE]
@@ -60,13 +60,13 @@ source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
       >고유한 모델을 교육하는 데 필요한 제목 줄은 정의되어 있지 않습니다. 교육하려면 분야별 대사를 다양하게 변형하여 복제하지 않아도 됩니다. 처리할 데이터가 충분하지 않으면 시스템에서 모델을 교육할 수 없습니다. 인스턴스에 대해 하나의 교육된 모델만 가질 수 있습니다.
    로컬 모델을 교육하려면 [여기에서](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) subjectLineTraining.xml을 다운로드하고 [패키지 가져오기](../../automating/using/managing-packages.md) 기능을 사용하여 Adobe Campaign 인스턴스에 업로드합니다. 기술 워크플로우가 자동으로 트레이닝을 수행합니다.
 
-   모델을 처음 교육할 때 관리자는 > **[!UICONTROL SubjectLine Training workflow]**>**[!UICONTROL Administration]** 메뉴에서 **[!UICONTROL Application settings]****[!UICONTROL Workflows]** 시작하도록 설정할 수 있습니다.
+   모델을 처음 교육할 때 관리자는 > **[!UICONTROL SubjectLine Training workflow]** > **[!UICONTROL Administration]** 메뉴에서 **[!UICONTROL Application settings]** **[!UICONTROL Workflows]** 시작하도록 설정할 수 있습니다.
 
    모델이 업로드되고 교육되면 기능이 자동으로 활성화되고 메시지의 제목 필드 옆에 새로운 옵션이 나타납니다.
 
    그러면 기술 워크플로우는 매주 자동으로 모델을 교육합니다.
 
-* 특정 산업 분야(의료 등)에 맞는 미리 교육된 모델을 가져올 수 있습니다. 패키지 [가져오기](../../automating/using/managing-packages.md) 기능 사용. 이러한 모델은 [여기에서](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) 이용할 수 있으며 교육을 받을 수 없습니다.
+* 특정 산업 분야(의료 등)에 맞는 미리 교육된 모델을 가져올 수 있습니다. 패키지 [가져오기](../../automating/using/managing-packages.md) 기능 사용. 이러한 모델에 액세스하려면 [여기를](https://support.neolane.net/webApp/extranetLogin) 클릭하여 다운로드 **[센터로]**&#x200B;이동하십시오.이러한 모델은 교육할 수 없습니다.
 
    모델이 업로드되면 기능이 자동으로 활성화되고 메시지의 제목 줄 필드 옆에 새로운 옵션이 나타납니다.
 
