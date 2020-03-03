@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
+source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
 
 ---
 
@@ -94,6 +94,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [푸시 알림 준비 및 보내기](channels/using/preparing-and-sending-a-push-notification.md)
       + [푸시 알림 사용자 정의](channels/using/customizing-a-push-notification.md)
       + [다국어 푸시 알림 만들기](channels/using/creating-a-multilingual-push-notification.md)
+      + [다국어 푸시 알림에 대한 CSV 파일 생성](channels/using/generating-csv-multilingual-push.md)
       + [모바일 애플리케이션 데이터를 기반으로 프로필 정보 만들고 업데이트하기](channels/using/updating-profile-with-mobile-app-data.md)
    + 인앱 메시지 {#in-app-messaging}
       + [인앱 메시지 기본 정보](channels/using/about-in-app-messaging.md)
@@ -199,6 +200,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
    + [Campaign 통합 기본 정보](integrating/using/about-campaign-integrations.md)
    + Campaign을 Experience Manager와 함께 사용하기 {#working-with-campaign-and-experience-manager}
       + [Campaign-Experience Manager 통합 기본 정보](integrating/using/integrating-with-experience-manager.md)
+      + [Campaign-Experience Manager 통합 구성](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager에서 이메일 콘텐츠 만들기](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager에서 Campaign 양식 만들기](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign을 Target과 함께 사용하기 {#working-with-campaign-and-target}
@@ -214,7 +216,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [Audience Manager 또는 People 핵심 서비스와의 통합 제공 및 구성](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [문제 해결](integrating/using/troubleshooting.md)
       + [Audience Manager 또는 People 핵심 서비스와 대상자 공유](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-   + [Campaign을 Assets 핵심 서비스와 함께 사용하기](integrating/using/working-with-campaign-and-assets-core-service.md)
+      + [Campaign을 Assets 핵심 서비스와 함께 사용하기](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Campaign을 Analytics for Mobile과 함께 사용하기 {#working-with-campaign-and-analytics-for-mobile}
       + [Campaign-Points of Interest 데이터 통합 기본 정보](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Campaign-Points of Interest 데이터 통합 구성](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
@@ -304,6 +306,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [데이터 모델 기본 개념](developing/using/data-model-concepts.md)
       + [리소스 상태](developing/using/resource-statuses.md)
       + [데이터 모델 변경 모니터링](developing/using/monitoring-data-model-changes.md)
+      + [데이터 모델 모범 사례](developing/using/data-model-best-practices.md)
    + 리소스 추가 또는 확장 {#adding-or-extending-a-resource}
       + [리소스 추가 주요 단계](developing/using/key-steps-to-add-a-resource.md)
       + [리소스 만들기 또는 확장](developing/using/creating-or-extending-the-resource.md)
