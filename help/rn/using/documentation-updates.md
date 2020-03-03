@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
 
 ---
 
@@ -24,6 +24,18 @@ Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아
 이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/using/release-notes.md).
+
+## 설명서 업데이트 - 2020년 3월 {#doc-updates-march-2020}
+
+모바일 애플리케이션 문서 구성 및 관련 페이지가 SDK V4 감가상각을 반영하도록 업데이트되었습니다. [자세한 내용](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+
+Adobe Campaign Standard/Adobe Experience Manager 통합 문서가 업데이트되고 개선되었습니다. [자세한 내용](../../integrating/using/configure-experience-manager.md)
+
+캠페인 이메일 디자이너 문서 및 관련 페이지가 Adobe Creative SDK 감가 상각률을 반영하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+이제 Campaign Standard 데이터 모델 우수 사례 전용 섹션을 사용할 수 있습니다. [자세한 내용](../../developing/using/data-model-best-practices.md)
+
+기본 오른쪽에 정보가 **[!UICONTROL Workflow]** 추가되었습니다. [자세한 내용](../../administration/using/list-of-roles.md)
 
 ## 릴리스 20.1 - 2019년 2월 {#release-20-1---february-2020}
 
