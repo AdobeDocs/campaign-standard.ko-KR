@@ -31,7 +31,7 @@ source-git-commit: 9efce905cd767013a22afb2a4d642e42b6616ef1
 
 Adobe Experience Manager 제작 인스턴스에 로그인하고 사이트를 탐색하여 이메일 콘텐츠가 포함된 폴더에 액세스합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/29996)
+>[!VIDEO](https://images-tv.adobe.com/mpcv3/2674d459-d57b-413b-9d34-9fd941666023_1575035768.854x480at800_h264.mp4)
 
 ## Creating new email content in Adobe Experience Manager {#creating-email-content-aem}
 
