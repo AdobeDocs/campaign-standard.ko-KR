@@ -21,6 +21,10 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 [릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 노트](../../rn/using/release-notes-2019.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+## 릴리스 20.1.4 - 2020년 2월 {#release-20-1-4---february-2020}
+
+* 기존 워크플로우에서 대상자 읽기 **활동을** 열 때 발생하는 문제가 해결되었습니다. (CAMP-41002)
+
 ## 릴리스 20.1.3 - 2020년 2월 {#release-20-1-3---february-2020}
 
 * CAMP-39273에서 해당 허점을 사용하는 고객을 위해 20.1에 도입된 회귀 문제를 수정했습니다. CAMP-39273은 되돌려졌습니다.
