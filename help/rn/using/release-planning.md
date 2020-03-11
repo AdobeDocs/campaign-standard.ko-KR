@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
+source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
 
 ---
 
@@ -29,7 +29,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 구독을 통해 릴리스 알림을 [수신하면](https://www.adobe.com/subscription/priority-product-update.html) 받은 편지함에서 최신 Adobe Experience Cloud 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
 
-## 릴리스 20.1.4 - 2월 릴리스 업데이트 {#release-20-1-4---february-release-update}
+## 릴리스 20.2.1 - 4월 릴리스 {#release-20-2-april-release}
 
 환경 업데이트는 아래의 지정된 기간 동안 물결에서 발생합니다. 이 릴리스에 대한 자세한 내용은 릴리스 노트를 [참조하십시오](../../rn/using/release-notes.md). 추가 질문 사항이 있는 경우 Adobe Client Care [에 문의하십시오](https://support.neolane.net/webApp/extranetLogin).
 
@@ -43,11 +43,11 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
  <tbody> 
   <tr> 
    <td> 스테이지<br /> </td> 
-   <td> 2020년 2월 17일 - 18일<br /> </td> 
+   <td> 2020년 3월 23일 - 24<br /> </td> 
   </tr> 
   <tr> 
    <td> 프로덕션<br /> </td> 
-   <td> 2020년 2월 20일 - 2020년 3월 5일<br /> </td> 
+   <td> 2020년 3월 31일 - 4월 6일<br /> </td> 
   </tr> 
  </tbody> 
 </table>
