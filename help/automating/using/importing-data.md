@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ca603abd9b4ef1a9272a89acb62dee545b76114
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -206,7 +206,7 @@ Adobe Campaign 데이터베이스에서 데이터 일관성을 유지하려면 �
 
       >[!NOTE]
       >
-      >이러한 프로필로 직접 메일을 보낼 계획이라면 이 정보가 다이렉트 메일 제공업체에 필수이므로 우편 주소를 포함해야 합니다. 또한 프로필 정보에 있는 **[!UICONTROL Address specified]** 상자가 선택되어 있는지 확인합니다. 워크플로우에서 이 옵션을 업데이트하려면 업데이트할 필드에 요소를 추가한 다음 **1** 을 **[!UICONTROL Source]** 지정하고 `postalAddress/@addrDefined` 필드를 **[!UICONTROL Destination]**&#x200B;로 선택하면 됩니다. DM 및 옵션 사용에 대한 자세한 내용은 **[!UICONTROL Address specified]** 이 문서를 [](../../channels/using/about-direct-mail.md#recommendations)참조하십시오.
+      >이러한 프로필로 직접 메일을 보낼 계획이라면 이 정보가 다이렉트 메일 제공업체에 필수이므로 우편 주소를 포함해야 합니다. 또한 프로필 정보에 있는 **[!UICONTROL Address specified]** 상자가 선택되어 있는지 확인합니다. 워크플로우에서 이 옵션을 업데이트하려면 업데이트할 필드에 요소를 추가하고 **1** 을 **[!UICONTROL Source]** 지정하고 **postalAddress/@addrDefined** 필드를 **[!UICONTROL Destination]**&#x200B;선택합니다. DM 및 옵션 사용에 대한 자세한 내용은 **[!UICONTROL Address specified]** 이 문서를 [](../../channels/using/about-direct-mail.md#recommendations)참조하십시오.
 
 1. 조정되지 않은 프로필이 포함된 전환 뒤에 있는 **[!UICONTROL Deduplication]** 활동을 구성합니다.
 
