@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -209,7 +209,7 @@ Campaign Standard REST API를 사용하면 워크플로우를 **시작**, **일�
 
 * **[!UICONTROL Save SQL queries in the log]**:워크플로우의 SQL 쿼리를 로그에 저장할 수 있습니다.
 
-* ***[!UICONTROL Keep interim results]**:전환 세부 사항을 보려면 이 옵션을 선택합니다. 경고:이 옵션을 선택하면 워크플로우 실행이 크게 느려질 수 있습니다.
+* **[!UICONTROL Keep interim results]**:전환 세부 사항을 보려면 이 옵션을 선택합니다. 경고:이 옵션을 선택하면 워크플로우 실행이 크게 느려질 수 있습니다.
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**:개발 환경 테스트 목적으로 로컬에서 워크플로우를 실행할 수 있습니다.
 
