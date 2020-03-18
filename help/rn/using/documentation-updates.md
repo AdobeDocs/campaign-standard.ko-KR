@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
+source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
 
 ---
 
@@ -27,6 +27,10 @@ Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/usin
 
 ## 설명서 업데이트 - 2020년 3월 {#doc-updates-march-2020}
 
+향상된 MTA에 대한 자세한 정보가 핵심 문서에 추가되었습니다. 특히 이메일 처리 규칙 및 바운스 메일 자격 증명에 [대한 자세한 내용](../../administration/using/configuring-email-channel.md#email-processing-rules)
+
+이메일 BCC로 보관하기 위한 전용 섹션이 이동되고 업데이트되었습니다. [자세한 내용](../../sending/using/archiving.md)
+
 모바일 애플리케이션 문서 구성 및 관련 페이지가 SDK V4 감가상각을 반영하도록 업데이트되었습니다. [자세한 내용](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
 Adobe Campaign Standard/Adobe Experience Manager 통합 문서가 업데이트되고 개선되었습니다. [자세한 내용](../../integrating/using/configure-experience-manager.md)
@@ -36,6 +40,8 @@ Adobe Campaign Standard/Adobe Experience Manager 통합 문서가 업데이트�
 이제 Campaign Standard 데이터 모델 우수 사례 전용 섹션을 사용할 수 있습니다. [자세한 내용](../../developing/using/data-model-best-practices.md)
 
 기본 오른쪽에 정보가 **[!UICONTROL Workflow]** 추가되었습니다. [자세한 내용](../../administration/using/list-of-roles.md)
+
+워크플로우의 속성에 **[!UICONTROL History in days field]** 사용할 수 있는 정보가 추가되었습니다. [자세한 내용](../../automating/using/executing-a-workflow.md)
 
 ## 릴리스 20.1 - 2019년 2월 {#release-20-1---february-2020}
 
@@ -51,7 +57,7 @@ Adobe Experience Platform Data Connector(베타) - [자세한 내용](../../admi
 
 릴리스 노트가 재구성되고 개선되었습니다. [자세한 내용](../../rn/using/release-notes.md)
 
-Administrators 보안 그룹과 관련된 정보가 추가되었으며, **[!UICONTROL All (all)]** 조직 구성 단위가 할당되어 수정할 수 없음을 지정합니다. [자세한 내용](../../administration/using/managing-groups-and-users.md)
+Administrators 보안 그룹과 관련된 정보가 추가되어 조직 구성 단위가 할당되어 수정할 수 없음을 **[!UICONTROL All (all)]** 지정합니다. [자세한 내용](../../administration/using/managing-groups-and-users.md)
 
 워크플로우에서 기본적으로 사용할 특정 시간대를 정의하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/building-a-workflow.md)
 
@@ -85,7 +91,7 @@ S3 외부 계정 구성 설명서를 업데이트했습니다. [자세한 내용
 
 이메일 컨텐츠 디자인 섹션이 재구성되었습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
-제공 기능 시작 가이드가 핵심 문서에 통합되어 업데이트되었습니다. [자세한 내용](../../sending/using/about-deliverability.md)
+제공 기능 시작 안내서가 핵심 문서에 통합되어 업데이트되었습니다. [자세한 내용](../../sending/using/about-deliverability.md)
 
 사용자 정의 리소스를 내보내기/가져오는 방법에 대한 시작 가이드가 핵심 문서에 통합되었습니다. [자세한 내용](../../automating/using/exporting-importing-custom-resources.md)
 
