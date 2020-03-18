@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
+source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
 
 ---
 
@@ -78,84 +78,86 @@ source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
 
 ### 바운스 메일 {#bounce-mails}
 
-이메일이 실패하면 원격 메시지 서버는 응용 프로그램 설정에 지정된 주소로 바운스 오류 메시지를 반환합니다.
+동기 배달 실패 오류 메시지의 경우, 향상된 MTA는 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다. Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
-Adobe Campaign은 각 바운스 메일의 컨텐츠를 규칙 목록의 문자열에 대해 비교한 다음 세 가지 오류 유형 중 하나를 할당합니다.
-
->[!IMPORTANT]
->
->향상된 MTA로 업그레이드하면 캠페인 테이블의 바운스 자격 **[!UICONTROL Message qualification]** 조건은 더 이상 사용되지 않습니다. 동기 배달 실패 오류 메시지의 경우, 향상된 MTA는 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다. 비동기 바운스는 여전히 inMail 프로세스에서 자격을 갖습니다.
->
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
-
-사용자는 자신의 규칙을 만들 수 있습니다.
+비동기 바운스는 여전히 **[!UICONTROL Bounce mails]** 규칙을 통해 Campaign inMail 프로세스에서 자격을 갖습니다.
 
 >[!IMPORTANT]
 >
->패키지를 가져오고 전달 가능성을 위해 업데이트를 통해 데이터를 업데이트할 **때** 사용자가 만든 규칙을 덮어씁니다.
+>향상된 MTA로 업그레이드하면 캠페인 테이블의 바운스 자격 **[!UICONTROL Message qualification]** 조건은 더 이상 사용되지 않습니다. 바운스 메일 자격에 대한 자세한 내용은 이 [섹션을](../../sending/using/understanding-delivery-failures.md)참조하십시오.
+
+<!--The user can create his own rules.
+
+>[!IMPORTANT]
+>
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
 
 ### 이메일 도메인 관리 {#managing-email-domains}
 
-도메인 관리 규칙은 특정 도메인에 대한 나가는 이메일의 흐름을 제어하는 데 사용됩니다. 바운스 메시지를 샘플링하고 해당되는 경우 블록 전송을 수행합니다.
+<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
-Adobe Campaign 메시지 서버는 도메인과 관련된 규칙을 적용한 다음 규칙 목록에 별표로 표시되는 일반 사례에 대한 규칙을 적용합니다.
+The **SMTP parameters** act as filters applied for a blocking rule.
+
+* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
+* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
 
 >[!IMPORTANT]
 >
->고급 MTA로 업그레이드하면 향상된 MTA에서 DKIM(DomainKeys Identified Mail) 이메일 인증 서명을 수행합니다. 기본 캠페인 MTA의 DKIM 서명은 향상된 MTA 업그레이드의 일부로 **[!UICONTROL Domain management]** 표 내에서 꺼집니다.
->
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+>향상된 MTA로 업그레이드하면 Adobe Campaign **[!UICONTROL Domain management]** 규칙이 더 이상 사용되지 않습니다.
 
-도메인 관리 규칙을 구성하려면 임계값을 설정하고 특정 SMTP 매개 변수를 선택하면 됩니다. 임계값은 **** 특정 도메인에 대한 모든 메시지가 차단되는 오류 백분율로 계산되는 한계입니다.
+**DKIM(DomainKeys Identified Mail)** 이메일 인증 서명은 모든 도메인의 모든 메시지에 대해 향상된 MTA를 통해 수행됩니다. MTA 수준에 다른 **사항이**&#x200B;지정되지 않는 한 **발신자 ID**, DomainKeys **,** DKIM **또는** S/MIME으로 서명하지 않습니다.
 
-SMTP **매개 변수는** 차단 규칙에 적용된 필터 역할을 합니다.
-
-* 특정 식별 표준 및 암호화 키를 활성화하여 발신자 ID, 도메인 키, **DKIM**, **S/MIME**&#x200B;등과 같은 **도메인 이름을**&#x200B;확인할 **수**&#x200B;있습니다.
-* **SMTP 릴레이**:특정 도메인에 대한 릴레이 서버의 IP 주소와 포트를 구성할 수 있습니다.
+Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
 
 ### MX 관리 {#mx-management}
 
-각 규칙은 MX의 주소 마스크를 정의합니다. 따라서 이 마스크와 이름이 일치하는 모든 MX를 사용할 수 있습니다. 마스크에는 &quot;*&quot; 및 &quot;?&quot;가 포함될 수 있습니다. 일반 문자.
+<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
 
-예를 들어, 다음 주소가 있습니다.
+The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
-* a.mx.yahoo.com
-* b.mx.yahoo.com
+To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
+
+>[!IMPORTANT]
+>
+>Enhanced MTA로 업그레이드하면 Adobe Campaign **[!UICONTROL MX management]** 전달 처리량 규칙이 더 이상 사용되지 않습니다.
+
+Enhanced MTA는 고유한 MX 규칙을 사용하여 사용자의 이전 이메일 명성에 따라 도메인별로 처리량을 사용자 정의하고 이메일을 전송하는 도메인에서 오는 실시간 피드백을 제공합니다.
+
+Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+
+<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+
+For example, the following addresses:
+
+* a.mx.yahoo.com 
+* b.mx.yahoo.com 
 * c.mx.yahoo.com
 
-는 다음 마스크와 호환됩니다.
+are compatible with the following masks:
 
-* *.yahoo.com
+* &#42;.yahoo.com
 * ?.mx.yahoo.com
 
-이러한 규칙은 순서대로 적용됩니다.대상 MX와 호환되는 MX 마스크의 첫 번째 규칙이 적용됩니다.
+These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
+
+The following parameters are available for each rule:
+
+* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
+
+    * A number: the rule will only apply to this publicId.
+    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
+
+  If the field is empty, the rule applies to all IDs.
+
+* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
+* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
+* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
+* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
 
 >[!IMPORTANT]
 >
->향상된 MTA로 업그레이드하면 Adobe Campaign MX **관리** 전달 처리량 규칙이 더 이상 사용되지 않습니다. Enhanced MTA는 고유한 MX 규칙을 사용하여 사용자의 이전 이메일 명성에 따라 도메인별로 처리량을 사용자 정의하고 이메일을 전송하는 도메인에서 오는 실시간 피드백을 제공합니다.
->
->Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
-
-각 규칙에 대해 다음 매개 변수를 사용할 수 있습니다.
-
-* **[!UICONTROL Range of IDs]**:이 옵션을 사용하면 규칙이 적용되는 식별자(publicId)의 범위를 표시할 수 있습니다. 다음을 지정할 수 있습니다.
-
-   * 숫자:이 규칙은 이 publicId에만 적용됩니다.
-   * 숫자 범위(number1-number2):이 규칙은 이 두 숫자 사이의 모든 publicIds에 적용됩니다.
-   필드가 비어 있으면 규칙은 모든 ID에 적용됩니다.
-
-* **[!UICONTROL Shared]**:이 옵션은 시간당 최대 메시지 수와 연결 수가 이 규칙에 연결된 모든 MX에 적용됨을 나타냅니다.
-* **[!UICONTROL Maximum number of connections]**:지정된 주소에서 MX에 대한 최대 동시 연결 수입니다.
-* **최대 메시지**&#x200B;수:하나의 연결로 전송할 수 있는 최대 메시지 수입니다. 이 금액이 지나면 연결이 닫히고 새 연결이 다시 열립니다.
-* **[!UICONTROL Messages per hour]**:지정된 주소를 통해 MX에 대해 1시간 내에 전송할 수 있는 최대 메시지 수입니다.
-
->[!IMPORTANT]
->
->* 매개 변수가 변경된 경우 배달 서버(MTA)를 다시 시작해야 합니다.
->* 관리 규칙을 수정하거나 만드는 것은 전문가 사용자만을 위한 것입니다.
->
-
-
+>* The delivery server (MTA) must be restarted if the parameters have been changed. 
+>* The modification or creation of management rules is for expert users only. -->
 
 ## 이메일 속성 목록 {#list-of-email-properties}
 
@@ -331,37 +333,3 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
    >[관리] > [사용자 및 보안] **메뉴를 통해** 조직 단위를 구성할 **수** 있습니다.
 
 * 이 **[!UICONTROL Created by]**&#x200B;필드, **[!UICONTROL Created]****[!UICONTROL Modified by]** 및 **[!UICONTROL Last modified]** 필드는 자동으로 완료됩니다.
-
-## 이메일 보관 {#archiving-emails}
-
-플랫폼에서 보낸 이메일 사본을 유지하도록 Adobe Campaign을 구성할 수 있습니다.
-
-그러나 Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 외부 시스템을 사용하여 처리 및 보관할 수 있는 전용 주소로 원하는 메시지를 보낼 수 있습니다.
-
-배달 템플릿에서 활성화한 경우 이 기능을 사용하면 지정해야 하는 숨은 참조 이메일 주소(배달 받는 사람에게 보이지 않음)로 해당 메시지를 정확히 보낼 수 있습니다.
-
-### 권장 사항 및 제한 사항 {#recommendations-and-limitations}
-
-* 이 기능은 선택 사항입니다. 라이선스 계약서를 확인하고 계정 담당자에게 문의하여 활성화하십시오.
-* 선택한 BCC 주소는 Adobe 팀에 제공되어야 하며, Adobe 팀은 사용자를 위해 이 주소를 구성합니다.
-* 숨은 참조 이메일 주소는 하나만 사용할 수 있습니다.
-* 성공적으로 전송된 이메일만 고려됩니다. 바운스 수가 없습니다.
-* 개인 정보 보호를 위해 BCC 이메일은 PII(개인 식별 정보)를 안전하게 저장할 수 있는 보관 시스템에서 처리해야 합니다.
-* 새 배달 템플릿을 만들 때, 옵션을 구입했더라도 이메일 숨은 참조 기능이 기본적으로 활성화되지 않습니다. 사용할 각 배달 템플릿에서 수동으로 활성화해야 합니다.
-
-### 이메일 보관 활성화 {#activating-email-archiving}
-
-이메일 숨은 참조는 [이메일 템플릿에서](../../start/using/marketing-activity-templates.md)전용 옵션을 통해 활성화됩니다.
-
-1. 리소스 > **템플릿** > **배달** 템플릿으로 **이동합니다**.
-1. 기본 **[!UICONTROL Send via email]** 템플릿을 복제합니다.
-1. 중복된 템플릿을 선택합니다.
-1. 템플릿의 속성을 편집하려면 **[!UICONTROL Edit properties]** 단추를 클릭합니다.
-1. 섹션을 **[!UICONTROL Send]** 확장합니다.
-1. 이 템플릿을 기준으로 각 배달에 대해 보낸 모든 메시지의 복사본을 보관하려면 이 **[!UICONTROL Archive emails]** 상자를 선택합니다.
-
-   ![](assets/email_archiving.png)
-
->[!NOTE]
->
->BCC 주소로 보낸 이메일이 열리고 클릭스루되는 경우, 전송 분석에서 **[!UICONTROL Total opens]** 및 **[!UICONTROL Clicks]** 수신하게 되므로 계산 오류가 발생할 수 있습니다.
