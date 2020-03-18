@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
+source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 
 ---
 
@@ -152,6 +152,7 @@ source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
    + 메시지 보내기 및 추적 {#sending-and-tracking-messages}
       + [보내기 확인](sending/using/confirming-the-send.md)
       + [메시지 추적](sending/using/tracking-messages.md)
+      + [이메일 숨은 참조 보관](sending/using/archiving.md)
    + 메시지 모니터링 {#monitoring-messages}
       + [게재 모니터링](sending/using/monitoring-a-delivery.md)
       + [게재 실패 시 경고 받기](sending/using/receiving-alerts-when-failures-happen.md)
