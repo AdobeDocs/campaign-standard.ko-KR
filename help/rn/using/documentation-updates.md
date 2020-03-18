@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/usin
 
 ## 설명서 업데이트 - 2020년 3월 {#doc-updates-march-2020}
 
-향상된 MTA에 대한 자세한 정보가 핵심 문서에 추가되었습니다. 특히 이메일 처리 규칙 및 바운스 메일 자격 증명에 [대한 자세한 내용](../../administration/using/configuring-email-channel.md#email-processing-rules)
+향상된 MTA에 대한 자세한 정보가 핵심 문서에 추가되었으며, 특히 이메일 처리 규칙 및 바운스 메일 자격에 관한 정보입니다. [자세한 내용](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 이메일 BCC로 보관하기 위한 전용 섹션이 이동되고 업데이트되었습니다. [자세한 내용](../../sending/using/archiving.md)
 
