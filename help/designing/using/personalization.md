@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign에서 제공하는 컨텐츠 및 메시지 표시는 여러 가�
 * 동적 개인화 필드를 삽입합니다. 개인화 [필드](#inserting-a-personalization-field)삽입을 참조하십시오.
 * 사전 정의된 개인화 블록을 삽입합니다. 컨텐츠 [블록](#adding-a-content-block)추가를 참조하십시오.
 * 이메일 보낸 사람을 개인화합니다. 발신자 [개인화를](#personalizing-the-sender)참조하십시오.
-* 이메일 제목을 개인화합니다. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+* 이메일 제목을 개인화합니다. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
 * 조건부 컨텐츠 만들기 이메일에서 [동적 컨텐츠 정의를 참조하십시오](#defining-dynamic-content-in-an-email).
 
 ## 발신자 개인화 {#personalizing-the-sender}
@@ -292,9 +292,9 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지의 이미지를
 
 1. 다음과 같이 **두 가지 다른 조건으로**&#x200B;두 가지 서로 다른 동적 컨텐츠를 정의합니다.
 
-   **** 조건 1:프로필의 성별은 남성적이고
+   **조건 1:** 프로필의 성별은 남성적이고
 
-   **** 조건 2:프로파일은 20세에서 30세 사이입니다.
+   **조건 2:** 프로파일은 20세에서 30세 사이입니다.
 
    ![](assets/delivery_content_61.png)
 
