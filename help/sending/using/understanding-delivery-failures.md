@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -56,7 +56,7 @@ source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
 
 * **[!UICONTROL User unknown]** (하드 유형):주소가 없습니다. 이 프로필에 대해 추가 배달을 시도하지 않습니다.
 * **[!UICONTROL Quarantined address]** (하드 유형):그 주소는 검역소에 보관되었다.
-* **[!UICONTROL Unreachable]** (소프트/하드 유형):메시지 배달 체인에 오류가 발생했습니다(SMTP 중계에서의 장애, 도메인에 일시적으로 연결할 수 없음 등). 공급자가 반환한 오류에 따라 주소가 직접 격리 상태로 전송되거나 Campaign이 격리 상태를 강제 적용하거나 오류 수가 5개가 될 때까지 배달을 다시 시도합니다.
+* **[!UICONTROL Unreachable]** (소프트/하드 유형):메시지 배달 체인에서 오류가 발생했습니다(예: 일시적으로 액세스할 수 없는 도메인). 공급자가 반환한 오류에 따라 주소가 직접 격리 상태로 전송되거나 Campaign이 격리 상태를 강제 적용하거나 오류 수가 5개가 될 때까지 배달을 다시 시도합니다.
 * **[!UICONTROL Address empty]** (하드 유형):주소가 정의되지 않았습니다.
 * **[!UICONTROL Mailbox full]** (소프트 유형):이 사용자의 사서함이 가득 찼으므로 더 많은 메시지를 받을 수 없습니다. 이 주소를 격리 목록에서 제거하여 다시 시도할 수 있습니다. 30일 후 자동으로 제거됩니다.
 
