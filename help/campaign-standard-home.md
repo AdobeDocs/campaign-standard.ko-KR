@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
+source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ---
 
@@ -15,11 +15,9 @@ source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
 
 ## 새로운 기능
 
+* **[타깃팅된 프로파일을 사용한 이메일 테스트](sending/using/testing-messages-using-target.md)**실제 타깃팅된 프로필에서 이메일을 테스트하는 방법을 알아봅니다.
+
 * **[개인 정보 관리](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오.
-
-* **[게재 우수 사례](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>게재 디자인 및 전송과 관련된 우수 사례에 대해 자세히 알아보십시오.
-
-* **[이메일 디자이너](designing/using/designing-content-in-adobe-campaign.md)**<br/>재구성된 이메일 디자이너 설명서를 참조하십시오.
 
 * **[Campaign Standard Mobile 안내서](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>모바일 게재와 관련된 일반적인 지침에 대해 자세히 알아보십시오.
 
