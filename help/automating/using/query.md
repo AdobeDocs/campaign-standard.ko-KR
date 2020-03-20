@@ -1,19 +1,19 @@
 ---
 title: 쿼리
 description: 쿼리 활동을 사용하면 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다.
-page-status-flag: 활성화 안 함
-uuid: b3c629fa-37 파섹
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
-topic-tags: 타깃팅 활동
+topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
-context-tags: 쿼리,기본
+context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 
 ---
 
@@ -101,7 +101,7 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 
 하지만 멀리 떨어진 테이블에서 특정 레코드를 검색하려는 경우 타깃팅 차원과 다른 리소스를 사용하는 것이 유용할 수 있습니다.
 
-**예 1:"Welcome back!"**&#x200B;레이블을 사용하여 배달을 대상으로 하는 프로필을 식별합니다.
+**예 1:&quot;Welcome back!&quot;**&#x200B;레이블을 사용하여 배달을 대상으로 하는 프로필을 식별합니다.
 
 * 이 경우 프로파일을 타깃팅하려고 합니다. 타깃팅 차원을 다음으로 **[!UICONTROL Profiles (profile)]**&#x200B;설정합니다.
 * 배달 레이블에 따라 선택한 프로필을 필터링하려고 합니다. 따라서 리소스를 로 설정할 **[!UICONTROL Delivery logs]**&#x200B;것입니다. 이렇게 해서 배달 로그 테이블에서 바로 필터링하여 더 나은 성과를 제공합니다.
@@ -110,7 +110,7 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 
 ![](assets/targeting_dimension7.png)
 
-**예 2:"Welcome back!" 레이블이 있는 배달에서 타깃팅되지 않은 프로필 식별**
+**예 2:&quot;Welcome back!&quot; 레이블이 있는 배달에서 타깃팅되지 않은 프로필 식별**
 
 이전 예에서는 타깃팅 차원과 다른 리소스를 사용했습니다. 이 작업은 먼 테이블에 **있는** 레코드를 찾으려는 경우에만 가능합니다(예: 배달 로그).
 
@@ -135,7 +135,7 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 
 >[!NOTE]
 >
->별칭은 다음 구문 규칙을 준수해야 합니다.영숫자 문자와 "_" 문자만 허용됩니다. 별칭은 대소문자를 구분합니다. 별칭은 "@" 문자로 시작해야 합니다. "@" 바로 다음에 오는 문자는 숫자일 수 없습니다. 예:@myAlias_1 및 @_1별칭이 올바릅니다.반면에 @myAlias#1 및 @1별칭이 잘못되었습니다.
+>별칭은 다음 구문 규칙을 준수해야 합니다.영숫자 문자와 &quot;_&quot; 문자만 허용됩니다. 별칭은 대소문자를 구분합니다. 별칭은 &quot;@&quot; 문자로 시작해야 합니다. &quot;@&quot; 바로 다음에 오는 문자는 숫자일 수 없습니다. 예:@myAlias_1 및 @_1별칭이 올바릅니다.반면에 @myAlias#1 및 @1별칭이 잘못되었습니다.
 
 추가 데이터를 추가한 후 정의된 추가 데이터를 기반으로 조건을 만들어 처음에 타깃팅된 데이터에 추가 필터 수준을 적용할 수 있습니다.
 
@@ -150,7 +150,7 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 1. 탭에서 새 요소를 **[!UICONTROL Additional data]** 추가합니다.
 1. 표시되는 창의 **[!UICONTROL Expression]** 필드에서 타깃팅 차원이나 연결된 차원 중 하나에서 직접 사용할 수 있는 필드 중 하나를 선택합니다. 표현식을 편집하고 차원 필드에서 함수 또는 간단한 계산(합계 제외)을 사용할 수 있습니다.
 
-   단순 XPATH 경로가 아닌 표현식을 편집하면 가 자동으로 생성됩니다(예: **[!UICONTROL Alias]** "Year(&lt;@birthDate&gt;)"). 원하는 경우 수정할 수 있습니다. 필드를 하나만 선택하는 경우(예:"@age")를 **[!UICONTROL Alias]**&#x200B;정의하지 않아도 됩니다.
+   단순 XPATH 경로가 아닌 표현식을 편집하면 가 자동으로 생성됩니다(예: **[!UICONTROL Alias]** &quot;Year(&lt;@birthDate>)&quot;). 원하는 경우 수정할 수 있습니다. 필드를 하나만 선택하는 경우(예:&quot;@age&quot;)를 **[!UICONTROL Alias]**&#x200B;정의하지 않아도 됩니다.
 
 1. 추가 데이터에 필드를 **[!UICONTROL Add]** 추가하려면 선택합니다. 쿼리가 실행되면 추가된 필드에 해당하는 추가 열이 활동의 아웃바운드 전환에 표시됩니다.
 
@@ -159,6 +159,12 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 ### 집계 추가 {#adding-an-aggregate}
 
 집계를 사용하면 타깃팅 차원의 필드 또는 타깃팅 차원에 연결된 차원의 필드에서 값을 계산할 수 있습니다. 예:프로필에서 구매한 평균 금액.
+쿼리와 함께 합산을 사용할 때 해당 함수는 0으로 반환되고, 이 함수는 NULL로 간주됩니다. 쿼리의 **[!UICONTROL Output filtering]** 탭을 사용하여 집계된 값을 필터링합니다.
+
+* 0을 원하는 경우 필터링해야 **[!UICONTROL is null]**&#x200B;합니다.
+* 0으로 필터링하지 않으려는 **[!UICONTROL is not null]**&#x200B;경우
+
+집계에 정렬을 적용해야 하는 경우 0을 필터링해야 합니다. 그렇지 않으면 NULL 값이 가장 큰 숫자로 나타납니다.
 
 1. 탭에서 새 요소를 **[!UICONTROL Additional data]** 추가합니다.
 1. 표시되는 창에서 **[!UICONTROL Expression]** 필드에 집계를 만들 때 사용할 컬렉션을 선택합니다.
@@ -192,13 +198,13 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 1. 탭에서 새 요소를 **[!UICONTROL Additional data]** 추가합니다.
 1. 표시되는 창에서 **[!UICONTROL Expression]** 필드에 추가할 컬렉션을 선택합니다. 자동으로 **[!UICONTROL Alias]** 만들어집니다. 원하는 경우 쿼리의 **[!UICONTROL Additional data]** 탭으로 돌아가 수정할 수 있습니다.
 1. 을 **[!UICONTROL Add]**&#x200B;선택합니다. 표시할 컬렉션 데이터를 조정할 수 있는 새 창이 열립니다.
-1. 탭에서 추가하려는 컬렉션의 줄 수를 **[!UICONTROL Parameters]** **[!UICONTROL Collection]** 선택하고 정의합니다. 예를 들어 각 프로필에서 수행한 최근 3개 구매를 받으려면 **[!UICONTROL Number of lines to return]** 필드에 "3"을 입력합니다.
+1. 탭에서 추가하려는 컬렉션의 줄 수를 **[!UICONTROL Parameters]** **[!UICONTROL Collection]** 선택하고 정의합니다. 예를 들어 각 프로필에서 수행한 최근 3개 구매를 받으려면 **[!UICONTROL Number of lines to return]** 필드에 &quot;3&quot;을 입력합니다.
 
    >[!NOTE]
    >
    >1보다 크거나 같은 숫자를 입력해야 합니다.
 
-1. 탭에서 **[!UICONTROL Data]** 각 줄에 대해 표시할 컬렉션의 필드를 정의합니다.
+1. 탭에서 각 행에 대해 표시할 컬렉션의 필드를 **[!UICONTROL Data]** 정의합니다.
 
    ![](assets/enrichment_add_collection.png)
 
@@ -208,7 +214,7 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 
 1. 원하는 경우 데이터 정렬을 정의할 수 있습니다.
 
-   예를 들어, **[!UICONTROL Parameters]** 탭에서 반환할 3개의 라인을 선택하고 가장 최근 3개의 구매를 결정하려는 경우 트랜잭션에 해당하는 컬렉션의 "날짜" 필드에 내림차순 정렬을 정의할 수 있습니다.
+   예를 들어, **[!UICONTROL Parameters]** 탭에서 반환할 3개의 라인을 선택하고 가장 최근 3개의 구매를 결정하려는 경우 트랜잭션에 해당하는 컬렉션의 &quot;날짜&quot; 필드에 내림차순 정렬을 정의할 수 있습니다.
 
 1. 추가 데이터 [정렬](#sorting-additional-data) 섹션을 참조하십시오.
 1. 컬렉션을 **[!UICONTROL Confirm]** 추가하려면 선택합니다.
@@ -225,7 +231,7 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 
 쿼리의 데이터에 집계 또는 컬렉션을 추가할 때 필드의 값 또는 정의된 식을 기준으로 오름차순인지 내림차순인지를 정렬할지 여부를 지정할 수 있습니다.
 
-예를 들어, 프로필에서 가장 최근에 수행한 거래만 저장하려면 **[!UICONTROL Number of lines to return]** 탭의 **[!UICONTROL Parameters]** 필드에 "1"을 입력하고 **[!UICONTROL Sort]** 탭을 통해 거래 날짜에 해당하는 필드에 내림차순 정렬을 적용합니다.
+예를 들어, 프로필에서 가장 최근에 수행한 거래만 저장하려면 **[!UICONTROL Number of lines to return]** 탭의 **[!UICONTROL Parameters]** 필드에 &quot;1&quot;을 입력하고 **[!UICONTROL Sort]** 탭을 통해 거래 날짜에 해당하는 필드에 내림차순 정렬을 적용합니다.
 
 ![](assets/enrichment_sort_data.png)
 
@@ -269,7 +275,7 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 
       이렇게 하려면 컬렉션 구성 창의 **[!UICONTROL Data]** 탭에서 표시할 여러 필드를 추가해야 합니다.
 
-      가장 최근 트랜잭션만 반환하려면 에 대해 "1"을 **[!UICONTROL Number of lines to return]** 입력하고 **탭에서 컬렉션의 날짜** 필드에 **[!UICONTROL Sort]** 내림차순 정렬을 적용해야합니다.
+      가장 최근 트랜잭션만 반환하려면 에 대해 &quot;1&quot;을 **[!UICONTROL Number of lines to return]** 입력하고 **탭에서 컬렉션의 날짜** 필드에 **[!UICONTROL Sort]** 내림차순 정렬을 적용해야합니다.
 
       컬렉션 [추가 및](#adding-a-collection) 추가 데이터 [](#sorting-additional-data) 정렬 섹션을 참조하십시오.
    ![](assets/enrichment_example4.png)
@@ -294,7 +300,7 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 
 ### 이메일 특성에 대한 타깃팅 {#targeting-on-email-attributes}
 
-다음 예는 이메일 주소 도메인이 "orange.co.uk"인 프로필을 대상으로 구성된 쿼리 활동을 보여줍니다.
+다음 예는 이메일 주소 도메인이 &quot;orange.co.uk&quot;인 프로필을 대상으로 구성된 쿼리 활동을 보여줍니다.
 
 ![](assets/query_sample_emaildomain.png)
 
@@ -316,7 +322,7 @@ for **[!UICONTROL Deliveries (delivery)]** the list will contain the following t
 
 ### 특정 전달을 연 타깃팅 프로필 {#targeting-profiles-who-opened-a-specific-delivery}
 
-다음 예는 "여름 시간" 레이블이 있는 배달을 연 프로필을 필터링하도록 구성된 쿼리 활동을 보여줍니다.
+다음 예는 &quot;여름 시간&quot; 레이블이 있는 배달을 연 프로필을 필터링하도록 구성된 쿼리 활동을 보여줍니다.
 
 1. 쿼리에서 **[!UICONTROL Opened]** 필터를 드래그합니다.
 
