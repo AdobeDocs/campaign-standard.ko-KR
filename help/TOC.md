@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/release-notes.md)
    + 이전 릴리스 {#previous-releases}
+      + [2020년 릴리스 정보](rn/using/release-notes-2020.md)
       + [2019년 릴리스 정보](rn/using/release-notes-2019.md)
       + [2018년 릴리스 정보](rn/using/release-notes-2018.md)
       + [2017년 릴리스 정보](rn/using/release-notes-2017.md)
@@ -32,7 +33,6 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
    + 인터페이스 살펴보기 {#discovering-the-interface}
       + [인터페이스 기본 정보](start/using/about-the-interface.md)
       + [인터페이스 설명](start/using/interface-description.md)
-      + [호환 가능한 브라우저](start/using/compatible-browsers.md)
       + [목록 사용자 지정](start/using/customizing-lists.md)
    + 마케팅 계획 {#marketing-plans}
       + [프로그램 및 캠페인](start/using/programs-and-campaigns.md)
@@ -141,6 +141,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [메시지 미리 보기](sending/using/previewing-messages.md)
       + [보내기 준비](sending/using/preparing-the-send.md)
       + [교정본 보내기](sending/using/sending-proofs.md)
+      + [타깃팅된 프로파일을 사용하여 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
       + [이메일의 제목란 테스트](sending/using/testing-subject-line-email.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
       + [트랩 사용](sending/using/using-traps.md)
@@ -342,6 +343,10 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [방문자](developing/using/datamodel-visitor.md)
 + 관리 {#administrating}
    + [Adobe Campaign 관리 기본 정보](administration/using/about-administrating-adobe-campaign.md)
+   + 구성 지침 {#configuration-guidelines}
+      + [구성 지침 정보](administration/using/about-configuration-guidelines.md)
+      + [호환 가능한 브라우저](administration/using/compatible-browsers.md)
+      + [Campaign Standard 네트워크 끝점](administration/using/campaign-standard-network-endpoints.md)
    + 사용자 및 보안 {#users-and-security}
       + [액세스 관리 기본 정보](administration/using/about-access-management.md)
       + [사용자 관리](administration/using/users-management.md)
