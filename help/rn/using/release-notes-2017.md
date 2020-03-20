@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
 
 ---
 
@@ -84,11 +84,11 @@ _보고서_
 
 _워크플로우_
 
-* 활동에서 열을 수동으로 추가 및 제거한 후 오류가 발생할 수 있는 **[!UICONTROL Load file]**활동 문제를 수정했습니다.
-* 이제 **[!UICONTROL deliverabilityUpdate]**기술 워크플로우는 서버 시간으로 오전 2시에 실행되도록 예약되었습니다.
+* 활동에서 열을 수동으로 추가 및 제거한 후 오류가 발생할 수 있는 **[!UICONTROL Load file]** 활동 문제를 수정했습니다.
+* 이제 **[!UICONTROL deliverabilityUpdate]** 기술 워크플로우는 서버 시간으로 오전 2시에 실행되도록 예약되었습니다.
 * 내보내기 역할 없이 목록 내보내기를 수행할 수 있었던 보안 문제를 수정했습니다.
-* 활동 관련 문제를 **[!UICONTROL Reconciliation]**수정했습니다.
-* 활동에서 와일드카드 문자를 사용하는 문제를 **[!UICONTROL File Transfer]**수정했습니다.
+* 활동 관련 문제를 **[!UICONTROL Reconciliation]** 수정했습니다.
+* 활동에서 와일드카드 문자를 사용하는 문제를 **[!UICONTROL File Transfer]** 수정했습니다.
 
 _프로필 및 대상자_
 
@@ -219,17 +219,17 @@ _프로필 및 대상자_
 
 _일반_
 
-* 모든 사용자 내보내기 목록을 허용하는 문제를 수정했습니다. 이제 **[!UICONTROL Export]**역할을 가진 사용자만 사용할 수 있습니다.
+* 모든 사용자 내보내기 목록을 허용하는 문제를 수정했습니다. 이제 **[!UICONTROL Export]** 역할을 가진 사용자만 사용할 수 있습니다.
 
 _이메일, SMS 메시지 및 DM_
 
 * SMS 전달에 대해 **배달** 표시기를 0으로 **설정하는 updateDeliveryExecInfo** 작업 과정 문제를 수정했습니다.
 * 이제 **배달 템플릿 속성의 고급 매개 변수에서** 라우팅 **드롭다운** 목록에는 템플릿 메시지 유형에 해당하는 외부 계정만 표시됩니다. 예를 들어 이메일 배달 템플릿은 이메일 외부 계정만 표시합니다.
-* 테스트 프로필에 대해 정의된 **[!UICONTROL Text]**기본 이메일 형식 문제를 수정했습니다.
+* 테스트 프로필에 대해 정의된 **[!UICONTROL Text]** 기본 이메일 형식 문제를 수정했습니다.
 * 게재의 예약 정의 화면에서 기본 시간대를 선택할 때 Javascript 오류가 발생하는 문제를 수정했습니다.
 * 전송 로그에 트랩이 표시되지 않는 문제를 해결했습니다.
 * 이제 배달 만들기 마법사의 템플릿 선택 화면에서 후속 및 A/B 테스트 템플릿이 기본적으로 숨겨집니다. 자세한 내용은 [자세한 설명서를 참조하십시오](../../channels/using/creating-an-email.md).
-* 모든 사용자가 배달을 보낼 수 있는 문제를 수정했습니다. 이제 **[!UICONTROL Start deliveries]**역할을 가진 사용자만 사용할 수 있습니다. 자세한 내용은[자세한 설명서를 참조하십시오](../../sending/using/confirming-the-send.md).
+* 모든 사용자가 배달을 보낼 수 있는 문제를 수정했습니다. 이제 **[!UICONTROL Start deliveries]** 역할을 가진 사용자만 사용할 수 있습니다. 자세한 내용은 [자세한 설명서를 참조하십시오](../../sending/using/confirming-the-send.md).
 
 _푸시 알림_
 
@@ -270,7 +270,7 @@ _워크플로우_
   </tr> 
   <tr> 
    <td> 이메일 숨은 참조<br /> </td> 
-   <td> 이메일 BCC를 사용하면 개별 수신자에게 전송된 고유한 이메일 메시지를 저장할 수 있으므로 브랜드가 이러한 메시지를 보관할 수 있습니다. 모든 이메일에 BCC 이메일 주소를 추가하면 Adobe Campaign Standard 고객은 이 기능을 사용하여 각 이메일의 정확한 사본을 보관할 수 있습니다. 이는 금융 서비스 업계의 일반적인 법적 요구 사항이며 고객 서비스 센터에서 실시간으로 충돌을 해결하는 데 도움이 됩니다.<br /> 자세한 내용은 <a href="../../administration/using/configuring-email-channel.md#archiving-emails">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> 이메일 BCC를 사용하면 개별 수신자에게 전송된 고유한 이메일 메시지를 저장할 수 있으므로 브랜드가 해당 메시지를 보관할 수 있습니다. 모든 이메일에 BCC 이메일 주소를 추가하면 Adobe Campaign Standard 고객은 이 기능을 사용하여 각 이메일의 정확한 사본을 보관할 수 있습니다. 이는 금융 서비스 업계의 일반적인 법적 요구 사항이며 고객 서비스 센터에서 실시간으로 충돌을 해결하는 데 도움이 됩니다.<br /> 자세한 내용은 <a href="../../sending/using/archiving.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -279,19 +279,19 @@ _워크플로우_
 
 _인터페이스 업데이트_
 
-* 상단 막대에서 링크가 제거되어 에 대한 링크로 **[!UICONTROL Timeline]**바뀌었습니다**[!UICONTROL Programs & Campaigns]** .
+* 상단 막대에서 링크가 제거되어 에 대한 링크로 **[!UICONTROL Timeline]** 바뀌었습니다 **[!UICONTROL Programs & Campaigns]** .
 
 _이메일 및 SMS 메시지_
 
-* 배달 상태에 대해 잘못된 색상이 표시되던 문제를 **[!UICONTROL Retry in progress]**수정했습니다. 그 색깔은 파란색 대신 회색이다.
+* 배달 상태에 대해 잘못된 색상이 표시되던 문제를 **[!UICONTROL Retry in progress]** 수정했습니다. 그 색깔은 파란색 대신 회색이다.
 
 _워크플로우_
 
-* 작업에서 수행할 작업을 변경할 때 발생하는 문제를 **[!UICONTROL Transfer file]**수정했습니다.
+* 작업에서 수행할 작업을 변경할 때 발생하는 문제를 **[!UICONTROL Transfer file]** 수정했습니다.
 
 _보고서_
 
-* 지표 **[!UICONTROL Spam]**및**[!UICONTROL Spam rate]** 지표 계산이 변경되었습니다.
+* 지표 **[!UICONTROL Spam]** 및 **[!UICONTROL Spam rate]** 지표 계산이 변경되었습니다.
 * 보다 정확한 결과를 위해 지표가 개선되었습니다. **[!UICONTROL Bounce]**
 
 _푸시 알림_
@@ -355,14 +355,14 @@ _트랜잭션 메시지_
 
 _랜딩 페이지_
 
-* 랜딩 페이지에 사용된 **[!UICONTROL by email]**필터를 최적화하여 새 구독자를 데이터베이스 프로필로 조정합니다.
+* 랜딩 페이지에 사용된 **[!UICONTROL by email]** 필터를 최적화하여 새 구독자를 데이터베이스 프로필로 조정합니다.
 * 양식 구성에서 부울 필드를 사용할 때 확인란 대신 무료 텍스트 입력을 표시하는 문제를 해결했습니다.
 * 랜딩 페이지 축소판이 생성되지 않는 문제를 해결했습니다.
 
 _워크플로우_
 
-* Safari에서만 **[!UICONTROL End]**또는**[!UICONTROL External Signal]** 활동을 편집할 때 표시 오류를 수정했습니다.
-* 잘못된 대상이 포함된 **[!UICONTROL Read Audience]**활동을 편집할 때 표시되는 오류 메시지를 개선했습니다.
+* Safari에서만 **[!UICONTROL End]** 또는 **[!UICONTROL External Signal]** 활동을 편집할 때 표시 오류를 수정했습니다.
+* 잘못된 대상이 포함된 **[!UICONTROL Read Audience]** 활동을 편집할 때 표시되는 오류 메시지를 개선했습니다.
 * 구독 활동을 실행할 때 SQL 오류가 발생할 수 있는 문제를 해결했습니다.
 
 _통합_
@@ -454,7 +454,7 @@ _일반_
 
 _이메일 및 SMS 메시지_
 
-* 옵션을 선택 취소하고 배달을 저장한 후에도 옵션이 선택된 상태로 유지되던 문제를 **[!UICONTROL Request confirmation before sending messages]**수정했습니다.
+* 옵션을 선택 취소하고 배달을 저장한 후에도 옵션이 선택된 상태로 유지되던 문제를 **[!UICONTROL Request confirmation before sending messages]** 수정했습니다.
 * 트랜잭션 이메일의 게시 취소를 방지할 수 있는 문제를 수정했습니다.
 * 게재를 미리 보기 전에 최신 변경 사항과 컨텐츠를 제대로 동기화할 수 없던 문제를 수정했습니다.
 
@@ -464,8 +464,8 @@ _랜딩 페이지_
 
 _워크플로우_
 
-* 활동 거부 전환의 컨텐츠를 읽지 못하는 문제를 **[!UICONTROL Load file]**수정했습니다.
-* 활동 구성 시 교환된 열이 제대로 고려되지 않는 문제를 **[!UICONTROL Load file]**수정했습니다.
+* 활동 거부 전환의 컨텐츠를 읽지 못하는 문제를 **[!UICONTROL Load file]** 수정했습니다.
+* 활동 구성 시 교환된 열이 제대로 고려되지 않는 문제를 **[!UICONTROL Load file]** 수정했습니다.
 
 ## 릴리스 17.1 - 2017년 1월 {#release-17-1---january-2017}
 
@@ -513,7 +513,7 @@ _워크플로우_
 
 _일반_
 
-* 옵션이 랜딩 페이지 속성으로 **[!UICONTROL Access authorization]**돌아왔습니다.
+* 옵션이 랜딩 페이지 속성으로 **[!UICONTROL Access authorization]** 돌아왔습니다.
 * 올바른 이미지 대신 이전 이미지가 렌더링되는 문제를 수정했습니다. 이것은 배달 또는 랜딩 페이지의 컨텐츠 정의에서 소스 이미지가 업데이트된 경우에 발생했습니다.
 * 사용자가 기존 SFTP 외부 계정의 특정 필드를 편집할 수 없는 문제를 해결했습니다.
 * 여러 UI 문제가 해결되었습니다. 예를 들어 사용자는 이제 UI에 문제가 발생하지 않고 프로필 속성을 편집하고 수정 내용을 저장할 수 있습니다.
@@ -525,21 +525,21 @@ _이메일 및 SMS 메시지_
 _푸시 알림_
 
 * 애플리케이션에서 Adobe Campaign 서버로 포스트백을 하지 못했던 문제를 수정했습니다.
-* Android에 대해 고려하지 않고 **[!UICONTROL Play a sound]**고려할**[!UICONTROL Custom fields]** 수 있었던 문제를 수정했습니다.
+* Android에 대해 고려하지 않고 **[!UICONTROL Play a sound]** 고려할 **[!UICONTROL Custom fields]** 수 있었던 문제를 수정했습니다.
 * Emojis에 사용되는 유니코드 문자에 추가적인 이스케이프 문자가 추가되었을 수 있는 문제를 수정했습니다.
 * 가입자의 등록 토큰이 블랙리스트에 추가되면, 이제 해당 상태가 Adobe Campaign의 애플리케이션의 가입자 목록에서 즉시 업데이트됩니다.
 
 _워크플로우_
 
 * 이벤트 리소스(예: rtEvent)에 대한 쿼리 미리 보기가 되지 않았던 문제를 수정했습니다.
-* 이제 활동에 의해 생성된 거부 파일을 아웃바운드 전환에서 검색하고 다음 활동에서 처리할 수 있습니다. **[!UICONTROL Load file]**예를 들어 를 사용하여 SFTP 서버를 통해 거부 파일을 업로드합니다**[!UICONTROL Transfer file]** .
-* 의 **[!UICONTROL Temporary resource]**탭에서 선택한 경우 사용자가 세그먼트 모집단을 제한하지 못했던 문제를**[!UICONTROL General]** **[!UICONTROL Segmentation]**수정했습니다.
-* **[!UICONTROL Scheduler]**10분마다 한 번 이상 워크플로우를 트리거하도록 활동을 더 이상 설정할 수 없습니다.
-* 활동에서 제대로 **[!UICONTROL Use common columns]**작동하지 않았던 문제를**[!UICONTROL Union]** 수정했습니다.
+* 이제 활동에 의해 생성된 거부 파일을 아웃바운드 전환에서 검색하고 다음 활동에서 처리할 수 있습니다. **[!UICONTROL Load file]** 예를 들어 를 사용하여 SFTP 서버를 통해 거부 파일을 업로드합니다 **[!UICONTROL Transfer file]** .
+* 의 **[!UICONTROL Temporary resource]** 탭에서 선택한 경우 사용자가 세그먼트 모집단을 제한하지 못했던 문제를 **[!UICONTROL General]** **[!UICONTROL Segmentation]** 수정했습니다.
+* **[!UICONTROL Scheduler]** 10분마다 한 번 이상 워크플로우를 트리거하도록 활동을 더 이상 설정할 수 없습니다.
+* 활동에서 제대로 **[!UICONTROL Use common columns]** 작동하지 않았던 문제를 **[!UICONTROL Union]** 수정했습니다.
 
 _통합_
 
 * Adobe Campaign에서 이벤트 트리거를 배포할 때 오류가 발생하던 문제를 수정했습니다. 이 오류는 Adobe Marketing Cloud의 포기 트리거에 &quot;30일 후 반환 가능성&quot; 메타데이터가 추가되었을 때 발생했습니다.
 * 사람 핵심 서비스에서 대상을 가져올 때 기술 워크플로우가 타겟 차원 필드를 지우는 문제를 해결했습니다. 이후 쿼리는 가져온 대상을 검색할 수 없습니다.
-* 옵션을 선택할 때 워크플로우의 **[!UICONTROL Save audience]**활동이 실패했던 문제를**[!UICONTROL Share in Adobe Marketing Cloud]** 수정했습니다.
+* 옵션을 선택할 때 워크플로우의 **[!UICONTROL Save audience]** 활동이 실패했던 문제를 **[!UICONTROL Share in Adobe Marketing Cloud]** 수정했습니다.
 
