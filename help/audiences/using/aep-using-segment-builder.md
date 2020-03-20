@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 * 왼쪽 창에서는 원하는 필드를 세그먼트 빌더 작업 영역으로 드래그하여 놓아 세그먼트를 작성하는 데 사용할 수 있는 모든 속성, 이벤트 및 대상을 제공합니다.
 * 중심 영역에서는 사용 가능한 필드에서 규칙을 정의하고 결합하여 세그먼트를 작성하는 작업 공간을 제공합니다.
-* 머리글 및 오른쪽 창에는 세그먼트의 속성(예: 이름, 설명 및 세그먼트에 대한 예상 적격한 프로필)이 표시됩니다.
+* 머리글과 오른쪽 창에는 세그먼트의 속성(예: 이름, 설명 및 세그먼트에 대한 예상 적격한 프로필)이 표시됩니다.
 
 ![](assets/aep_audiences_interface.png)
 
@@ -60,7 +60,7 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. 단추를 **[!UICONTROL Create segment]**클릭합니다.
+1. 단추를 **[!UICONTROL Create segment]** 클릭합니다.
 
 ## 세그먼트에 적합한 필드 찾기
 
@@ -84,7 +84,7 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 >
 >자세한 내용은 [전용 설명서를](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)참조하십시오.
 
-기본적으로 통합 세그먼트 빌더에는 데이터가 이미 있는 필드가 표시됩니다. 데이터가 없는 필드를 포함하여 전체 스키마를 표시하려면 설정에서 **[!UICONTROL Show full XDM schema]**옵션을 활성화합니다.
+기본적으로 통합 세그먼트 빌더에는 데이터가 이미 있는 필드가 표시됩니다. 데이터가 없는 필드를 포함하여 전체 스키마를 표시하려면 설정에서 **[!UICONTROL Show full XDM schema]** 옵션을 활성화합니다.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -108,9 +108,9 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
    ![](assets/aep_audiences_malegender.png)
 
-   세그먼트에 해당하는 예상 모집단은 **[!UICONTROL Segment Properties]**섹션에서 자동으로 다시 계산됩니다.
+   세그먼트에 해당하는 예상 모집단은 **[!UICONTROL Segment Properties]** 섹션에서 자동으로 다시 계산됩니다.
 
-1. 이 **[!UICONTROL View Profiles]**단추를 사용하면 규칙에 해당하는 처음 20개 레코드의 미리 보기를 통해 세그먼트를 빠르게 확인할 수 있습니다.
+1. 이 **[!UICONTROL View Profiles]** 단추를 사용하면 규칙에 해당하는 처음 20개 레코드의 미리 보기를 통해 세그먼트를 빠르게 확인할 수 있습니다.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -134,7 +134,7 @@ source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 1. 첫 번째 필드와 비교할 두 번째 필드(예: 우편 번호)를 선택합니다.
 
-   상자를 첫 번째 필드와 같은 컨테이너에 있는 가운데 작업 영역으로 **[!UICONTROL Drop here to compare operands]**드래그합니다.
+   상자를 첫 번째 필드와 같은 컨테이너에 있는 가운데 작업 영역으로 **[!UICONTROL Drop here to compare operands]** 드래그합니다.
 
    ![](assets/aep_audiences_comparing_2.png)
 
