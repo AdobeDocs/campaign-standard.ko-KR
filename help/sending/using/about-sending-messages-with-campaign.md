@@ -12,14 +12,14 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
 
 ---
 
 
 # Campaign에서 메시지 보내기 기본 정보{#about-sending-messages-with-campaign}
 
-타겟을 정의하고 메시지 컨텐츠를 만들었다면, 기본 타겟으로 보내기 전에 이를 테스트하고 승인해야 합니다. 이렇게 하려면:
+타겟을 정의하고 메시지 컨텐츠를 만들었다면 메시지를 기본 타겟으로 보내기 전에 테스트하고 승인해야 합니다. 이렇게 하려면:
 
 * 테스트 프로필을 사용하여 배달을 미리 봅니다.
 * 전송을 예약합니다.메시지를 보낼 시기를 정의합니다.
