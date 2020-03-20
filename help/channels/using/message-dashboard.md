@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -96,7 +96,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
    이 메시지가 표시되면 IP 친화성 정의 수준 또는 전송 프로세스 수준에서 문제가 발생합니다. Adobe 관리자에게 문의하십시오.
 
-* *&quot;이 트랜잭션 메시지는 바로 사용할 수 있는 트랜잭션 메시지 템플릿입니다. 수정하려는 경우 복제한 후 복사해야 합니다.&quot;*
+* *&quot;이는 즉시 사용 가능한 트랜잭션 메시지 템플릿입니다. 수정하려는 경우 복제한 후 복사해야 합니다.&quot;*
 
    이러한 즉시 사용 가능한 트랜잭션 메시지 템플릿 중 일부는 내장된 랜딩 페이지 템플릿입니다. 자세한 내용은 [이 섹션을](../../channels/using/landing-page-templates.md)참조하십시오.
 
