@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -31,4 +31,3 @@ Adobe Campaign을 사용하면 전체 라이프사이클 동안 연락처를 관
 캠페인을 만들 때 단순 또는 고급 기준에 따라 프로파일을 선택하여 게재의 대상을 정의할 수 있습니다. 기술적으로 프로필은 데이터베이스의 항목으로서 타깃팅, 적격한 행동 및 추적에 필요한 모든 정보를 포함합니다.
 
 프로필은 다음과 같습니다.클라이언트, 잠재 고객, 뉴스레터에 가입된 개인, 수신자, 사용자 또는 조직에 따라 다른 모든 명칭 다양한 유형의 프로파일을 정의하려면 [타깃팅 차원을](../../automating/using/query.md#targeting-dimensions-and-resources)사용합니다.
-
