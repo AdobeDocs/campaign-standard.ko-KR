@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
 
 ---
 
@@ -60,12 +60,25 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 이동하여
 * 이 **[!UICONTROL Home]** 링크를 통해 Adobe Campaign 홈 페이지를 표시할 수 있습니다.
 * 이 **[!UICONTROL Marketing activities]**&#x200B;링크, **[!UICONTROL Programs & Campaigns]****[!UICONTROL Profiles]**&#x200B;및 **[!UICONTROL Audiences]** **[!UICONTROL Reports]** 링크를 통해 이러한 기능에 연결된 보기에 액세스할 수 있습니다.
 * 이 **[!UICONTROL Help]** 단추를 사용하면 제품 설명서 및 상황에 맞는 도움말, 릴리스 노트, 버전 번호, 법적 고지 사항, Adobe Experience Cloud 커뮤니티 및 고객 지원에 대한 링크를 이용할 수 있습니다.
-
-   ![](assets/ux_help.png)
-
-* 솔루션 **선택** 아이콘을 사용하면 다른 Adobe Experience Cloud 솔루션과 프로필 설정으로 전환할 수 있습니다.
+* 조직 단추
+* 솔루션 **전환기** 아이콘을 사용하면 다른 Adobe Experience Cloud 솔루션과 프로필 설정으로 전환할 수 있습니다.
 * 알림 **아이콘은** 최신 알림 또는 정보를 표시합니다.
 * 사용자 **아이콘을** 사용하면 프로필에 연결된 정보를 표시할 수 있습니다. 버튼에 액세스할 수 **[!UICONTROL Sign out]** 있습니다.
+
+### 도움말 {#help}
+
+* **[!UICONTROL Search]** 설명서, 아티클 및 비디오를 검색하고 솔루션별로 컨텐츠를 필터링할 수 있습니다.
+
+* **[!UICONTROL Help]** tab
+   * 링크를 통해 탐색 중인 페이지와 관련된 아티클, 설명서 및 비디오에 빠르게 액세스할 수 있습니다
+   * **[!UICONTROL Learning]** 이 링크를 통해 Experience League에 액세스할 수 있습니다.
+   * **[!UICONTROL Community]** 이 링크를 통해 ACS에 대한 귀하의 질문에 대한 포럼에 액세스할 수 있습니다.
+
+* **[!UICONTROL Support]** tab allows you to create a support ticket and contact us by phone or Twitter.
+
+* **[!UICONTROL Feedback ]** tab 키를 사용하여 솔루션에 대한 문제 및 아이디어를 공유할 수 있습니다.
+
+   ![](assets/ux_help.png)
 
 ## 고급 메뉴 {#advanced-menu}
 
@@ -142,4 +155,3 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 이동하여
 * 작업 **공간** 유형 화면과 관련된 작업은 작업 [과정의 작업 표시줄](../../automating/using/workflow-interface.md#action-bar) 섹션을 참조하십시오.
 * 대시보드 **화면과** 관련된 작업을 보려면 메시지 [대시보드](../../channels/using/message-dashboard.md) 섹션을 참조하십시오.
 * 목록 **유형 화면과** 관련된 작업은 아래 목록 [사용자 지정](../../start/using/customizing-lists.md) 섹션을 참조하십시오.
-
