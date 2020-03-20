@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ![](assets/wf_externalAPI.png)
 
-이 **[!UICONTROL External API]**활동은 REST API 호출을 통해**&#x200B;외부 시스템에서&#x200B;**워크플로우로 데이터를**&#x200B;가져옵니다&#x200B;**.
+이 **[!UICONTROL External API]** 활동은 REST API 호출을 통해 **외부 시스템에서** 워크플로우로 데이터를 **가져옵니다** .
 
 REST 끝점은 고객 관리 시스템, Adobe I/O [런타임](https://www.adobe.io/apis/experienceplatform/runtime.html) 인스턴스 또는 Experience Cloud REST 끝점(데이터 플랫폼, Target, Analytics, Campaign 등)이 될 수 있습니다.
 
@@ -41,8 +41,8 @@ REST 끝점은 고객 관리 시스템, Adobe I/O [런타임](https://www.adobe.
 
 이 활동에는 다음과 같은 가드레일이 이미 준비되어 있습니다.
 
-* 5MB http 응답 데이터 크기 제한
-* 요청 제한 시간은 60초입니다.
+* 50MB http 응답 데이터 크기 제한
+* 요청 제한 시간은 10분입니다.
 * HTTP 리디렉션이 허용되지 않음
 * HTTPS가 아닌 URL이 거부됨
 * &quot;수락:application/json&quot; 요청 헤더와 &quot;Content-Type:application/json&quot; 응답 헤더가 허용됩니다.
@@ -68,7 +68,7 @@ REST 끝점은 고객 관리 시스템, Adobe I/O [런타임](https://www.adobe.
 
 인바운드 **열** 섹션에서는 인바운드 전환 테이블에서 필드를 추가할 수 있습니다. 선택한 열이 데이터 개체의 키가 됩니다. JSON의 데이터 개체는 인바운드 전환 테이블의 각 행에서 선택한 열에 대한 데이터가 포함된 배열 목록이 됩니다.
 
-매개 변수 **사용자 지정** 텍스트 상자를 사용하면 외부 API에 필요한 추가 데이터가 포함된 유효한 JSON을 추가할 수 있습니다. 이 추가 데이터는 생성된 JSON의 params 개체에 추가됩니다.
+매개 변수 **사용자 지정** 텍스트 상자를 사용하면 외부 API에 필요한 추가 데이터가 포함된 유효한 JSON을 추가할 수 있습니다. 생성된 JSON의 params 개체에 이 추가 데이터가 추가됩니다.
 
 ### 아웃바운드 매핑
 
