@@ -1,19 +1,19 @@
 ---
 title: 구독 서비스
 description: 가입 서비스 활동을 통해 프로파일을 대량으로 가져와 서비스에 가입하거나 서비스에서 가입을 해지할 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 자동화
+audience: automating
 content-type: reference
-topic-tags: 데이터 관리 활동
+topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
       이 열에서 연산을 부울 또는 정수로 지정해야 합니다. 0 **을** 사용하여 기록 구독 취소 및 **1** 구독 신청
 
-      가져온 파일에 포함된 값이 위의 요구 사항과 일치하지 않는 경우에도 [활동에서 사용할 수 있는 값](../../automating/using/load-file.md#column-format) **[!UICONTROL Load file]** 다시 매핑 옵션을 사용할 수 있습니다
+      가져온 파일에 포함된 값이 위의 요구 사항과 일치하지 않는 경우에도 [활동에서 사용할 수 있는 값](../../automating/using/load-file.md#column-format) **[!UICONTROL Load file]** 다시 매핑 옵션을 사용할 수 있습니다.
 
 1. 인바운드 데이터에 서비스에 대한 프로필의 가입 날짜에 해당하는 열이 포함된 경우 해당 열을 선택합니다. 비워 둘 수 있지만 워크플로우를 실행할 때 구독 날짜가 설정되지 않습니다.
 1. 구독의 출처를 정의합니다. 옵션을 선택하여 인바운드 데이터의 필드 중 하나 또는 원하는 상수 값으로 설정할 수 **[!UICONTROL Set a constant as origin]** 있습니다. 워크플로우를 실행할 때 원본을 설정하지 않고 비워 둘 수 있습니다.
@@ -132,11 +132,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/subscription_example_load_file.png)
 
-   당신이 알아차렸겠지만, 그 수술은 파일에 "하위" 또는 "미확인범"으로 지정되어 있다. 시스템에서 수행할 작업을 **인식하려면 부울** 또는 **정수** 값이 필요합니다."0"을 클릭하여 구독을 취소하고 "1"을 구독하십시오. 이 요구 사항과 일치하도록 값의 다시 매핑이 "작업" 열의 세부 사항에서 수행됩니다.
+   아마 아시겠지만, 이 작업은 파일에 &quot;하위&quot; 또는 &quot;미확인자&quot;로 지정되어 있습니다. 시스템에서 수행할 작업을 **인식하려면 부울** 또는 **정수** 값이 필요합니다.&quot;0&quot;을 클릭하여 구독을 취소하고 &quot;1&quot;을 구독하십시오. 이 요구 사항과 일치하도록 값의 다시 매핑이 &quot;작업&quot; 열의 세부 사항에서 수행됩니다.
 
    ![](assets/subscription_example_remapping.png)
 
-   파일이 이미 "0" 및 "1"을 사용하여 작업을 식별하는 경우 해당 값을 다시 매핑할 필요가 없습니다. 열이 **탭에서 부울** 또는 정수로 **처리되도록** 해야 **[!UICONTROL Column definition]** 합니다.
+   파일이 이미 &quot;0&quot; 및 &quot;1&quot;을 사용하여 작업을 식별하는 경우 해당 값을 다시 매핑할 필요가 없습니다. 열이 **탭에서 부울** 또는 정수로 **처리되도록** 해야 **[!UICONTROL Column definition]** 합니다.
 
 * 활동은 파일의 데이터를 Adobe Campaign 데이터베이스의 프로필 차원에 속하는 것으로 식별합니다. **[!UICONTROL Reconciliation]** 이 **[!UICONTROL Identification]** 탭을 통해 파일의 **이메일** 필드가 프로필 리소스의 **이메일** 필드와 일치합니다.
 
