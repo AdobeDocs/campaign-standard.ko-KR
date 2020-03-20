@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 490908e5fe0810c0a07c73fef5040ddb42983019
+source-git-commit: d8ad3801dba50e357c21a7551e897e0e2c5aedc5
 
 ---
 
@@ -78,7 +78,7 @@ Campaign Standard 기능의 임박한 제거/대체를 알리기 위해 다음 �
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Campaign 19.4 릴리스를 시작하는 경우 액세스 및 삭제 요청에 대한 캠페인 API 및 인터페이스 사용은 더 이상 사용되지 않습니다. Adobe <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">개인정보 보호 코어 서비스를 사용하십시오</a>.</p></br>
+   <td> <p>Campaign 19.4 릴리스를 시작하는 경우 액세스 및 삭제 요청에 대한 캠페인 API 및 인터페이스 사용은 더 이상 사용되지 않습니다. 2단계 프로필 삭제는 사용할 수 없습니다. Adobe <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">개인정보 보호 코어 서비스를 사용하십시오</a>.</p></br>
    <p>Campaign <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Standard의 개인 정보 관리를 참조하십시오</a>.</p>
   <p> 대상 제거 날짜:2020년 7월 - Campaign 20.5 릴리스</p>
    </td> 
