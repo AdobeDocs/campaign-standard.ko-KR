@@ -12,7 +12,7 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 아래 예는 SMS 메시지에서 동적 텍스트를 정의하는 방법을 보여줍니다.
 
 1. 메시지 본문 또는 랜딩 페이지에서 텍스트를 선택합니다.
-1. Click **[!UICONTROL Enable dynamic text]**.
+1. 클릭 **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)
 
