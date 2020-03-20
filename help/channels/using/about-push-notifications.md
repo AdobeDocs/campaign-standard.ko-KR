@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 ---
 
@@ -26,19 +26,19 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 Adobe Campaign을 사용하면 개인화된 푸시 알림을 iOS 및 Android 모바일 디바이스에 전송할 수 있습니다.
 
-이러한 메시지는 Experience Cloud Mobile SDK V4 또는 Experience Platform SDK를 활용하여 Adobe Campaign에서 설정한 모바일 애플리케이션에서 수신됩니다. 자세한 내용은 SDK V4를 [사용하여 모바일 애플리케이션 구성](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 및 Adobe Experience Platform SDK를 [사용하여 모바일 애플리케이션 구성을 참조하십시오](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+이러한 메시지는 Experience Platform SDK를 활용하여 Adobe Campaign에서 설정한 모바일 애플리케이션에서 수신됩니다. 자세한 내용은 Adobe Experience [Platform SDK를 사용하여 모바일 애플리케이션 구성을 참조하십시오](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
 모바일 장치에서 Adobe Campaign으로 전송하려는 데이터를 수집하려면 이 리소스를 확장해야 합니다. 이렇게 하려면 이 [페이지를](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) 참조하십시오.
 
 Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있습니다.
 
-* **[!UICONTROL Alert/Message/Badge]**문자 알림을 사용하면 추가 컨텐츠(사운드, 배지, 디플링크 등)를 사용하여 표준 텍스트 기반 메시지를 전송할 수 있습니다. 섹션에서 정의할 수**[!UICONTROL Advanced options]** 있습니다.
+* **[!UICONTROL Alert/Message/Badge]** 문자 알림을 사용하면 추가 컨텐츠(사운드, 배지, 디플링크 등)를 사용하여 표준 텍스트 기반 메시지를 전송할 수 있습니다. 섹션에서 정의할 수 **[!UICONTROL Advanced options]** 있습니다.
 
-   이 알림 유형을 사용하면 개인화 필드를 사용할 수 있는 제목과 메시지를 추가할 수 있습니다. 메시지를 개인화할 수 있으려면 **[!UICONTROL Send push on profiles]**템플릿을 선택해야 합니다.
+   이 알림 유형을 사용하면 개인화 필드를 사용할 수 있는 제목과 메시지를 추가할 수 있습니다. 메시지를 개인화할 수 있으려면 **[!UICONTROL Send push on profiles]** 템플릿을 선택해야 합니다.
 
-* **[!UICONTROL Silent push]**문자 알림은 최종 사용자에 대한 메시지나 내용 없이 응용 프로그램에 자동으로 알리는 데 사용됩니다. 이러한 유형의 메시지의 일반적인 사용 사례는 응용 프로그램에서 다운로드할 서버에 사용 가능한 컨텐츠가 있음을 인식하도록 하는 것입니다.
+* **[!UICONTROL Silent push]** 문자 알림은 최종 사용자에 대한 메시지나 내용 없이 응용 프로그램에 자동으로 알리는 데 사용됩니다. 이러한 유형의 메시지의 일반적인 사용 사례는 응용 프로그램에서 다운로드할 서버에 사용 가능한 컨텐츠가 있음을 인식하도록 하는 것입니다.
 
 일부 특정 구성은 알림 동작을 정의하도록 설정할 수 있습니다. For more on this, refer to [this section](../../channels/using/customizing-a-push-notification.md).
 
@@ -61,11 +61,11 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 >Campaign의 푸시 알림 기능을 활용하려면 암호가 없는 .pem 형식의 유효한 푸시 인증서를 제공해야 합니다.
 유효한 p12 인증서가 있는 경우 온라인 리소스를 사용하여 .pem 파일로 손쉽게 변환할 수 있습니다.
 
-먼저 푸시 알림 전송을 시작하려면 SDK V4를 사용하여 모바일 애플리케이션을 구성해야 합니다. Experience Platform SDK를 사용하여 모바일 애플리케이션을 구성할 수도 있습니다. 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)참조하십시오.
+먼저 푸시 알림 전송을 시작하려면 Experience Platform SDK를 사용하여 모바일 애플리케이션을 구성해야 합니다. 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)참조하십시오.
 
 푸시 알림을 전송하기 전에 다음을 수행해야 합니다.
 
-1. Adobe Campaign에서 **[!UICONTROL Mobile app]**채널에 액세스할 수 있는지 확인하십시오.
+1. Adobe Campaign에서 **[!UICONTROL Mobile app]** 채널에 액세스할 수 있는지 확인하십시오.
 1. 모바일 응용 프로그램을 구성하는 방법:
 
    * Adobe Campaign
