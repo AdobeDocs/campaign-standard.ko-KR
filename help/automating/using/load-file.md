@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 >[!CAUTION]
 >
->예를 들어 .txt, .csv 등 "플랫" 구조 파일만 고려됩니다.
+>예를 들어 .txt, .csv 등 &quot;플랫&quot; 구조 파일만 고려됩니다.
 
 다음 작업을 수행할 수 있습니다.
 
@@ -95,7 +95,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
       ![](assets/wkf_file_loading1.png)
 
 1. 데이터를 로드할 파일이 GZIP 파일(.gz)로 압축되면 **[!UICONTROL Decompression]** **[!UICONTROL Add a pre-processing step]** 필드에서 옵션을 선택합니다. 데이터를 로드하기 전에 파일의 압축을 해제할 수 있습니다. 이 옵션은 활동이 인바운드 전환에서 파일을 가져오는 경우에만 사용할 수 있습니다.
-1. 이 **[!UICONTROL Keep the rejects in a file]** 옵션을 사용하면 가져오는 동안 발생한 오류가 포함된 파일을 다운로드하여 사후 처리 단계에 적용할 수 있습니다. 이 옵션이 활성화되면 아웃바운드 전환 이름이 "거부"로 바뀝니다.
+1. 이 **[!UICONTROL Keep the rejects in a file]** 옵션을 사용하면 가져오는 동안 발생한 오류가 포함된 파일을 다운로드하여 사후 처리 단계에 적용할 수 있습니다. 이 옵션이 활성화되면 아웃바운드 전환 이름이 &quot;거부&quot;로 바뀝니다.
 
    >[!NOTE]
    >
@@ -105,7 +105,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.
 
-워크플로우를 실행한 후 활동에 오류가 발생하는 경우 로그를 참조하여 파일에서 잘못된 값에 대한 자세한 내용을 확인하십시오. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
+워크플로우를 실행한 후 활동에 오류가 발생하는 경우 로그를 참조하여 파일에서 잘못된 값에 대한 자세한 내용을 확인하십시오. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
 
 ## 열 형식 {#column-format}
 
@@ -131,9 +131,9 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
    * **[!UICONTROL White space management]**:텍스트 데이터의 문자열에서 특정 공백을 무시할지 여부를 **지정합니다** .
    * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**:날짜, 시간 **및**&#x200B;날짜 **및 시간** 데이터의 형식을 **지정합니다** .
    * **[!UICONTROL Format]**:정수 및 부동 번호 데이터에 대한 숫자 값 형식을 정의할 **수** **** 있습니다.
-   * **[!UICONTROL Separator]**:separator를 열 컨텍스트(숫자 값의 천 또는 구분 기호, 날짜 및 시간의 **구분 문자)**, **시간**, **시간**, **날짜**&#x200B;및 시간 **, 정수,** 정수 및 부동 숫자 데이터로 정의합니다.
+   * **[!UICONTROL Separator]**:separator를 열 컨텍스트(숫자 값의 천 또는 구분 기호, 날짜 및 시간의 **구분 기호**) **,**&#x200B;시간 **,**&#x200B;날짜 및 시간 **, 정수**, **** 정수 및 부동 숫자 데이터로 정의합니다.
 
-* **[!UICONTROL Remapping of values]**:이 필드는 열 세부 사항 구성에서만 사용할 수 있습니다. 특정 값을 가져올 때 변형할 수 있습니다. 예를 들어 "3"을 "3"으로 변환할 수 있습니다.
+* **[!UICONTROL Remapping of values]**:이 필드는 열 세부 사항 구성에서만 사용할 수 있습니다. 특정 값을 가져올 때 변형할 수 있습니다. 예를 들어 &quot;3&quot;을 &quot;3&quot;으로 변환할 수 있습니다.
 * **[!UICONTROL Error processing]**:오류가 발생하는 경우 동작을 정의합니다.
 
    * **[!UICONTROL Ignore the value]**:값이 무시됩니다. 워크플로우 실행 로그에 경고가 생성됩니다.
@@ -143,7 +143,7 @@ source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
    * **[!UICONTROL Reject the line when there is no remapping value]**:잘못된 값에 대해 매핑을 정의하지 않으면 전체 줄이 처리되지 않습니다(위 **[!UICONTROL Remapping of values]** 옵션 참조).
    >[!NOTE]
    >
-   >**[!UICONTROL Error processing]** 가져온 파일의 값과 관련된 오류 발생. 예를 들어 잘못된 데이터 유형("정수" 열의 경우 모두 "4"), 허용된 최대 수보다 많은 문자를 포함하는 문자열, 잘못된 구분 기호가 있는 날짜 등이 있습니다. 그러나 이 옵션은 빈 값 관리로 생성된 오류에 대해서는 다루지 않습니다.
+   >**[!UICONTROL Error processing]** 가져온 파일의 값과 관련된 오류 발생. 예를 들어 잘못된 데이터 유형(&quot;정수&quot; 열의 경우 모두 &quot;4&quot;), 허용된 최대 수보다 많은 문자를 포함하는 문자열, 잘못된 구분 기호가 있는 날짜 등이 있습니다. 그러나 이 옵션은 빈 값 관리로 생성된 오류에 대해서는 다루지 않습니다.
 
 * **[!UICONTROL Default value]**:선택한 오류 처리에 따라 기본값을 지정합니다.
 * **[!UICONTROL Empty value management]**:데이터를 로드하는 동안 빈 값을 관리하는 방법을 지정합니다.
