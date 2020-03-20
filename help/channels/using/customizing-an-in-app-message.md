@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 ---
 
@@ -28,6 +28,10 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 * [사용자 지정 메시지](#customizing-with-a-custom-html-message):이 템플릿을 사용하면 사용자 지정 HTML을 가져올 수 있습니다.
 
 ![](assets/inapp_customize_1.png)
+
+>[!NOTE]
+>
+> 인앱 메시지 렌더링은 Android API 19 이상 버전에서만 지원됩니다.
 
 **관련 항목:**
 
@@ -131,7 +135,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 1. 범주에서 **[!UICONTROL Settings]** 빛과 어둡게 사이의 배경색을 선택합니다.
 1. 사용자에게 인앱 메시지를 취소할 수 있는 방법을 제공하는 **[!UICONTROL Show close button]** 옵션과 함께 닫기 단추를 표시하거나 표시하지 않도록 선택합니다.
-1. 단추 정렬이 **[!UICONTROL Button alignment]** 옵션과 함께 가로 또는 세로로 설정되는지 선택합니다.
+1. 단추 정렬이 **[!UICONTROL Button alignment]** 옵션과 함께 가로 또는 세로로 설정되었는지 선택합니다.
 1. 인앱 메시지를 몇 초 후 자동으로 해제할 수 있는지 여부를 선택합니다.
 
    ![](assets/inapp_customize_7.png)
