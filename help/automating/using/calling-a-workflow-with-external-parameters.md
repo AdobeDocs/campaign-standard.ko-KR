@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -95,7 +95,7 @@ Campaign Standard를 사용하면 매개 변수(타깃팅할 대상 이름, 가�
 
 ### 이벤트 변수 사용 {#using-events-variables}
 
-이벤트 변수는 Standard 구문을 **[](../../automating/using/advanced-expression-editing.md#standard-syntax)**&#x200B;준수해야 하는 표현식 내에서 사용됩니다.
+이벤트 변수는 Standard 구문을 **[](../../automating/using/advanced-expression-editing.md#standard-syntax)**준수해야 하는 표현식 내에서 사용됩니다.
 
 이벤트 변수를 사용하는 구문은 아래 형식을 따라야 하며 **[!UICONTROL External signal]** 활동에 정의된 매개 변수 이름을 사용해야 합니다(외부 신호 [활동에서 매개 변수 선언 참조](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)).
 
@@ -114,7 +114,7 @@ $(vars/@parameterName)
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png):워크플로우에서 사용할 수 있는 모든 변수 중에서 events 변수를 선택합니다( 참조).
+* ![](assets/extsignal_picker.png):워크플로우에서 사용할 수 있는 모든 변수 중에서 events 변수를 선택합니다.
 
    ![](assets/wkf_test_activity_variables.png)
 
@@ -162,7 +162,7 @@ $(vars/@parameterName)
 >
 >배달 매개 변수의 값은 배달을 준비할 때마다 검색됩니다.
 >
->반복 배달 준비는 배달 **집계 기간을**&#x200B;기반으로 합니다. 예를 들어, 합계 기간이 "일 기준"인 경우, 게재는 하루에 한 번만 다시 준비됩니다. 배달 매개 변수의 값이 일 중에 수정되는 경우, 이미 한 번 준비되었기 때문에 배달 시 업데이트되지 않습니다.
+>반복 배달 준비는 배달 **집계 기간을**&#x200B;기반으로 합니다. 예를 들어 집계 기간이 &quot;일 기준&quot;인 경우 하루 한 번만 배달이 다시 준비됩니다. 배달 매개 변수의 값이 일 중에 수정되는 경우, 이미 한 번 준비되었기 때문에 배달 시 업데이트되지 않습니다.
 >
 >워크플로우를 하루에 여러 번 호출하려는 경우 배달 매개 변수가 매번 업데이트되도록 [!UICONTROL No aggregation] 옵션을 사용합니다. 반복 배달 구성에 대한 자세한 내용은 [이 섹션을](/help/automating/using/email-delivery.md#configuration)참조하십시오.
 
@@ -255,7 +255,7 @@ Workflow 1은 다음과 같이 빌드됩니다.
 * **[!UICONTROL Load file]** 활동:가져온 파일의 데이터를 데이터베이스로 로드합니다.
 * **[!UICONTROL Update data]** 활동:가져온 파일의 데이터로 데이터베이스를 삽입하거나 업데이트합니다.
 * **[!UICONTROL Test]** 활동:가져온 데이터가 있는지 확인합니다.
-* **[!UICONTROL Save audience]** 활동:파일에 데이터가 들어 있으면, 프로필을 대상에 저장합니다.
+* **[!UICONTROL Save audience]** 활동:파일에 데이터가 들어 있으면 해당 프로파일을 대상에 저장합니다.
 * **[!UICONTROL End activity]** 활동:워크플로 2를 호출합니다.
 
 ![](assets/extsignal_uc_wkf1.png)
@@ -311,7 +311,7 @@ Workflow 1은 다음과 같이 빌드됩니다.
 1. 탭을 **[!UICONTROL External signal]** 선택한 다음 트리거할 워크플로우와 연관된 신호 활동을 지정합니다.
 1. Workflow 2에서 사용할 매개 변수와 관련 값을 정의합니다.
 
-   이 경우, API 호출에 원래 정의된 매개 변수(fileToTarget 및&#x200B;**discountDesc** ) **와**&#x200B;상수 값을 갖는 추가 **segmentCode** 매개 변수를 전달하려고 합니다("20% 할인").
+   이 경우, API 호출에 원래 정의된 매개 변수(fileToTarget 및&#x200B;**discountDesc** ) **와**&#x200B;상수 값을 갖는 추가 **segmentCode** 매개 변수를 전달하려고 합니다(&quot;20% 할인&quot;).
 
    ![](assets/extsignal_uc7.png)
 
