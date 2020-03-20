@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
+source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 
 ---
 
@@ -24,6 +24,34 @@ Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아
 이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/using/release-notes.md).
+
+## 릴리스 20.2 - 2020년 3월 {#release-20-2---march-2020}
+
+**릴리스에 포함된 새로운 기능**
+
+Azure Blob 통합 - [자세한 내용 보기](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+통합 Experience Cloud 인터페이스 및 도메인 - [자세한 내용](../../start/using/interface-description.md#top-bar)
+
+타깃팅된 프로파일을 사용한 이메일 테스트 - [자세한 내용](../../sending/using/testing-messages-using-target.md)
+
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
+
+인앱 메시지 렌더링에 제한이 추가되었습니다. [자세한 내용](../../channels/using/customizing-an-in-app-message.md)
+
+활동에서 집계를 사용하는 방법에 대한 정보가 추가되었습니다. **[!UICONTROL Query]** [자세한 내용](../../automating/using/query.md#adding-an-aggregate)
+
+모바일 애플리케이션을 구성할 때 MCPNS에 제한이 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+관리 안내서에 새 구성 지침 섹션이 추가되었습니다. 호환되는 브라우저 및 운영 체제에 대한 섹션이 시작 안내서에서 이 섹션으로 이동되었습니다. Campaign Standard 네트워크 끝점에 대한 기술 메모도 이 섹션에 추가되었습니다. [자세한 내용](../../administration/using/about-configuration-guidelines.md)
+
+이제 이벤트 구성을 삭제하는 방법을 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+이메일의 제목 줄을 테스트하여 공개 비율을 예측하는 방법을 설명하는 페이지(새로운 [문제 해결](../../sending/using/testing-subject-line-email.md#troubleshooting) 섹션 포함)가 업데이트되고 향상되었습니다. [자세한 내용](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+트랜잭션 메시징 섹션이 여러 사용자 인터페이스의 사소한 업데이트 및 개선 사항을 반영하도록 업데이트되었습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md)
+
+외부 API 활동 보증과 관련된 정보가 업데이트되었습니다. [자세한 내용](../../automating/using/external-api.md)
 
 ## 설명서 업데이트 - 2020년 3월 {#doc-updates-march-2020}
 
@@ -43,7 +71,7 @@ Adobe Campaign Standard/Adobe Experience Manager 통합 문서가 업데이트�
 
 워크플로우의 속성에 **[!UICONTROL History in days field]** 사용할 수 있는 정보가 추가되었습니다. [자세한 내용](../../automating/using/executing-a-workflow.md)
 
-## 릴리스 20.1 - 2019년 2월 {#release-20-1---february-2020}
+## 릴리스 20.1 - 2020년 2월 {#release-20-1---february-2020}
 
 **릴리스에 포함된 새로운 기능**
 
@@ -281,7 +309,7 @@ Designing content chapter는 기존 컨텐츠를 사용하여 이메일 디자�
 
 API 확장 기능이 있는 리소스 게시 섹션이 명확하고 최신 UI 변경 내용으로 업데이트되었습니다. [자세한 내용](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-이메일 보관 섹션의 이름이 변경되고 재구성되었습니다. [자세한 내용](../../administration/using/configuring-email-channel.md#archiving-emails)
+이메일 보관 섹션의 이름이 변경되고 재구성되었습니다. [자세한 내용](../../sending/using/archiving.md)
 
 최신 인터페이스 변경 사항을 반영하도록 이메일 만들기 섹션이 업데이트되었습니다. [자세한 내용](../../channels/using/creating-an-email.md)
 
@@ -315,7 +343,7 @@ Adobe Campaign의 다양한 이메일 작성 옵션을 비교한 새 섹션이 �
 
 사용자 지정 콘텐츠 블록 만들기 섹션이 타깃팅 차원에 대한 세부 사항과 함께 개선되었습니다. [자세한 내용](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-이메일 디자이너가 Internet Explorer 11을 지원하지 않는다는 경고가 추가되었습니다. [자세한 내용](../../start/using/compatible-browsers.md)
+이메일 디자이너가 Internet Explorer 11을 지원하지 않는다는 경고가 추가되었습니다. [자세한 내용](../../administration/using/compatible-browsers.md)
 
 다시 드래프팅의 영향에 대한 경고가 리소스 삭제 섹션에 추가되었습니다. [자세한 내용](../../developing/using/deleting-a-resource.md)
 
@@ -377,7 +405,7 @@ Adobe Campaign의 다양한 유형의 대상에 대한 자세한 정보를 추�
 
 이메일 [디자이너와 관련된 정보와 함께 URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) 문서에서 콘텐트 가져오기를 업데이트했습니다.
 
-Microsoft Edge(최신 버전)가 컴퓨터의 호환 브라우저 목록에 추가되었습니다. [자세한 내용](../../start/using/compatible-browsers.md)
+Microsoft Edge(최신 버전)가 컴퓨터의 호환 브라우저 목록에 추가되었습니다. [자세한 내용](../../administration/using/compatible-browsers.md)
 
 인바운드 전환이 비어 있는 경우 파일을 생성하지 못하는 Extract 파일 작업의 새 옵션에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/extract-file.md)
 
