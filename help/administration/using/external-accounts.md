@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
 
 ---
 
@@ -31,12 +31,13 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
 * Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
+* Microsoft Azure Blob 저장소. For more on this, refer to [this section](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
 >기타 유형의 외부 계정은 제품 제공 프로세스 중에 Adobe에서 사용됩니다. Campaign Standard 17.9 릴리스에서는 FTP 외부 계정을 여전히 정의할 수 있지만 새 워크플로우 활동에서는 더 이상 사용할 수 없습니다. 이미 연결을 설정한 경우 여전히 활성화됩니다.
 
-외부 계정은 **[!UICONTROL Administration > Application settings > External accounts]**메뉴 아래에 관리자가 구성할 수 있습니다.
+외부 계정은 **[!UICONTROL Administration > Application settings > External accounts]** 메뉴 아래에 관리자가 구성할 수 있습니다.
 
 ## 외부 계정 만들기 {#creating-an-external-account}
 
@@ -44,7 +45,7 @@ Adobe Campaign은 사전 정의된 외부 계정 세트와 함께 제공됩니�
 
 외부 계정은 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용됩니다. 워크플로우에서 파일 전송을 설정하거나 다른 응용 프로그램(Adobe Target, Experience Manager 등)과 데이터 교환을 설정할 때 외부 계정을 선택해야 합니다.
 
-1. 단추를 **[!UICONTROL Create]**클릭합니다.
+1. 단추를 **[!UICONTROL Create]** 클릭합니다.
 1. 레이블을 입력합니다. 워크플로우에서 외부 계정을 선택할 때 레이블과 ID가 사용됩니다.
 1. 만들 계정 유형을 선택합니다.
 1. 자격 증명, 서버 주소, 포트 번호 및 관련 시 키를 지정하여 계정에 대한 액세스를 구성합니다.
@@ -99,24 +100,24 @@ Amazon S3 서버 필드는 다음과 같이 채워야 합니다.
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-파일을 S3 암호화 모드로 저장하려면 **[!UICONTROL Keep files in S3 encrypted]**상자를 선택합니다.
+파일을 S3 암호화 모드로 저장하려면 **[!UICONTROL Keep files in S3 encrypted]** 상자를 선택합니다.
 
 ![](assets/external_accounts_2.png)
 
 필요한 정보는 일반적으로 연결 중인 서버 공급자가 제공합니다.
 
-종단점에 **[!UICONTROL AWS Region]**연결된 항목을 지정합니다. 공식 Amazon S3 설명서에서[지원되는 지역 및 서명 버전을 확인할](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)수 있습니다.
+종단점에 **[!UICONTROL AWS Region]** 연결된 항목을 지정합니다. 공식 Amazon S3 설명서에서 [지원되는 지역 및 서명 버전을 확인할](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)수 있습니다.
 
 >[!NOTE]
 >
->AWS 리전 없이 **[!UICONTROL Receiver server]**입력해야 하며 나중에 URL에 자동으로 추가됩니다.
+>AWS 리전 없이 **[!UICONTROL Receiver server]** 입력해야 하며 나중에 URL에 자동으로 추가됩니다.
 
 ### Amazon S3 계정 권장 사항 {#amazon-s3-account-recommendations}
 
 Amazon S3 계정을 설정하는 데 도움이 되도록 다음 권장 사항을 따르도록 권장합니다.
 
 * 엄격한 버킷 정책을 만들어 S3 버킷에 대한 액세스를 제한합니다. 버킷을 만드는 동안 버킷 정책을 구성할 수 있습니다. 자세한 내용은 Amazon S3 [설명서를](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)참조하십시오.
-* 외부 계정을 만드는 동안 **[!UICONTROL Keep files in S3 encrypted]**상자를 선택하여 암호화를 활성화하여 S3 버킷에 중요한 데이터를 저장합니다.
+* 외부 계정을 만드는 동안 **[!UICONTROL Keep files in S3 encrypted]** 상자를 선택하여 암호화를 활성화하여 S3 버킷에 중요한 데이터를 저장합니다.
 * 버킷 권한을 부여하여 버킷에서 개체에 액세스할 수 있는 사용자를 지정합니다. 버킷 권한에 대한 자세한 내용은 Amazon S3 [설명서를](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)참조하십시오.
 
 ## Adobe Experience Manager 외부 계정 {#adobe-experience-manager-external-account}
@@ -142,11 +143,61 @@ Google reCAPTCHA V3을 랜딩 페이지에 추가하려면 먼저 외부 계정�
 
 Google reCAPTCHA V3 외부 계정의 경우 다음 세부 정보를 제공합니다.
 
-* 외부 계정 **[!UICONTROL Label]**및**[!UICONTROL ID]** A
+* 외부 계정 **[!UICONTROL Label]** 및 **[!UICONTROL ID]** A
 * **[!UICONTROL Type]**:Google reCAPTCHA
-* Your **[!UICONTROL Site key]**and**[!UICONTROL Site secret]**
-* 0~1 **[!UICONTROL Threshold]**사이의 A
+* Your **[!UICONTROL Site key]** and **[!UICONTROL Site secret]**
+* 0~1 **[!UICONTROL Threshold]** 사이의 A
 
-   0.0 **[!UICONTROL Threshold]**값은 보트 가능성이 높고 1.0이 적절한 상호 작용일 가능성이 있음을 의미합니다. 기본적으로 임계값 0.5를 사용할 수 있습니다.
+   0.0 **[!UICONTROL Threshold]** 값은 보트 가능성이 높고 1.0이 적절한 상호 작용일 가능성이 있음을 의미합니다. 기본적으로 임계값 0.5를 사용할 수 있습니다.
 
 ![](assets/external_accounts_3.png)
+
+## Microsoft Azure Blob 저장소 외부 계정 {#microsoft-azure-external-account}
+
+>[!NOTE]
+>
+>Adobe Campaign Standard에서 외부 계정을 구성하는 데 필요한 정보는 **[!UICONTROL Settings]** > **[!UICONTROL Access keys]**&#x200B;을 선택하여 Azure 포털에서 찾을 수 있습니다.
+
+Microsoft Azure Blob 저장소 외부 계정의 경우 다음 세부 정보를 제공합니다.
+
+* 외부 계정 **[!UICONTROL Label]** 및 **[!UICONTROL ID]** A
+* **[!UICONTROL Type]**:Microsoft Azure Blob 저장소
+* 고객 **[!UICONTROL Account name]** 및 **[!UICONTROL Account key]**&#x200B;고객 계정 이름과 키를 찾을 위치를 알려면 이 [페이지를](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)참조하십시오.
+* 고객 **[!UICONTROL Endpoint suffix]**&#x200B;파악 Azure Portal **[!UICONTROL Connection string]** 의 **[!UICONTROL Access keys]** 메뉴 내에서 찾을 수 있습니다. 자세한 내용은 이 [페이지를](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)참조하십시오.
+* 네 **[!UICONTROL Container]** 이름 두 개 이상의 컨테이너를 사용하려면 외부 계정을 컨테이너만큼 만들어야 합니다.
+* 이 **[!UICONTROL Concurrency]** 옵션을 사용하면 파일 전송 속도를 세밀하게 조정할 수 있습니다.
+
+![](assets/external_accounts_4.png)
+
+구성이 완료되면 을 클릭하여 Adobe Campaign **[!UICONTROL Test connection]** 을 Microsoft Azure Blob 저장소에 연결합니다.
+
+### Microsoft Azure Blob 저장소 권장 사항 {#azure-blob-recommendations}
+
+**암호화**
+
+Adobe Campaign은 보안 연결(HTTPS)을 사용하여 Microsoft Azure Blob 저장소 계정에 액세스합니다.
+
+**계정 키**
+
+외부 계정을 구성할 때는 Azure Portal에서 **[!UICONTROL Account key]** 사용할 수 있는 계정 중 하나를 사용해야 합니다. 계정 키를 찾을 위치에 대한 자세한 내용은 이 [페이지를](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string)참조하십시오.
+
+**파일 전송 속도 최적화**
+
+이 **[!UICONTROL Concurrency]** 옵션을 사용하면 파일 전송 속도를 세밀하게 조정할 수 있습니다.
+파일 전송을 수행하는 데 사용할 스레드 수를 나타냅니다. 이러한 각 스레드는 Blob에서 약 1MB의 일부를 다운로드합니다. 그런 다음 디스크에 쓸 수 있도록 대기됩니다. 스레드 수가 증가하면 파일 전송 중에 애플리케이션에서 사용하는 리소스에 대한 로드도 증가합니다.
+
+파일 전송 완료 후 워크플로우 로그에서 성능 지표를 찾을 수 있습니다.
+
+**재시도**
+
+기본적으로 Azure Blob에 대한 파일 전송은 최대 4회 재시도 횟수를 갖습니다.  Azure 저장소 서비스가 503(서버 사용 중) 또는 500(작업 시간 초과)과 같은 오류 코드를 반환하는 경우, 이는 저장소 계정의 확장성에 접근하거나 초과하고 있음을 나타낼 수 있습니다. 이 문제는 새 계정을 사용하거나 테스트를 수행할 때 발생할 수 있습니다.
+
+오류가 계속되면 고급 메뉴 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;아래에 옵션을 만들어 재시도 횟수를 늘릴 수 있습니다.
+
+구현된 경우 다음과 같이 옵션을 만들어야 합니다.
+
+```
+ID:        AzureBlob_Max_Retries
+Date type: Integer
+Default:   <the number of retries needed>
+```
