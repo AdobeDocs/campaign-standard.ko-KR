@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
+source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
 
 ---
 
@@ -309,6 +309,10 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
    또한 워크플로우의 외부 신호 활동으로 선언된 이벤트 변수로 배달 레이블을 개인화할 수 있습니다. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**:이 옵션을 사용하면 준비 단계 동안 저널에 SQL 쿼리 로그를 추가할 수 있습니다.
+
+#### 증명 설정 {#proof-settings}
+
+이 섹션에서는 입술 교정기의 제목 줄에 사용할 기본 접두사를 구성할 수 있습니다. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
 ### 이메일 SMTP 매개 변수 목록 {#list-of-email-smtp-parameters}
 
