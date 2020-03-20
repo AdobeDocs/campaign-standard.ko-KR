@@ -12,14 +12,20 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 92f6a176a5c0e712170c7d7ef5a993af18d77295
 
 ---
 
 
-# 메시지 미리 보기{#previewing-messages}
+# 메시지 미리 보기 {#previewing-messages}
 
-창에서 테스트 프로필을 추가한 후 메시지를 미리 보고 개인화와 수신자가 전달을 어떻게 볼 수 있는지 확인할 수 있습니다. **[!UICONTROL Audience]**
+Campaign Standard를 사용하면 메시지를 전송하기 전에 메시지를 미리 볼 수 있으므로 개인화와 수신자가 메시지를 보게 되는 방식을 확인할 수 있습니다.
+
+메시지 미리 보기는 메시지 **대상에 추가하는 테스트 프로필을** 사용하여 수행됩니다.
+
+이메일 **** 메시지의 경우 Campaign Standard를 사용하면 테스트 프로필이 아닌 타깃팅된 프로필을 사용하여 메시지를 미리 볼 수 있습니다. 이렇게 하면 특정 프로필에서 받게 될 메시지를 정확하게 표현할 수 있습니다. 자세한 내용은 타깃팅된 프로필을 [사용하여 이메일 메시지 테스트를 참조하십시오](../../sending/using/testing-messages-using-target.md).
+
+테스트 프로필을 사용하여 메시지를 미리 보려면 다음 단계를 따르십시오.
 
 1. 이메일 [디자이너에서](../../designing/using/designing-content-in-adobe-campaign.md)단추를 클릭합니다 **[!UICONTROL Preview]** .
 
@@ -39,3 +45,8 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/sending_preview_edit.png)
 
+**관련 항목**
+
+* [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
+* [타깃팅된 프로파일을 사용하여 이메일 메시지 테스트](../../sending/using/testing-messages-using-target.md)
+* [교정본 보내기](../../sending/using/sending-proofs.md)
