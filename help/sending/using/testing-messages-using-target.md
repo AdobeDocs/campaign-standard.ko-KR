@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
 1. (선택 사항) 각 프로필에 대해 **접두사를** 정의하여 입증 제목 라인에 추가합니다.
 1. **이메일** 디자이너에서 프로필에 대한 메시지가 표시되는 방식을 미리 봅니다.
 1. 교정본을 보내
+
+글로벌 프로세스에 대한 자세한 내용은 [여기에서](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html)제공하는 자습서 비디오를 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -254,6 +256,6 @@ Campaign Standard를 사용하면 테스트에 사용할 수 있는 프로필 �
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. 교정쇄는 **[!UICONTROL 프로필[대체&#x200B;]**탭에 구성된 내용에 따라 전송됩니다.
+1. 교정본은 **[!UICONTROL Profile substitutions]** 탭에 구성된 내용에 따라 전송됩니다.
 
    ![](assets/substitution_uc_proofs.png)
