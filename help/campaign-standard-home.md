@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ## 새로운 기능
 
-* **[타깃팅된 프로파일을 사용한 이메일 테스트](sending/using/testing-messages-using-target.md)**실제 타깃팅된 프로필에서 이메일을 테스트하는 방법을 알아봅니다.
+* **[타깃팅된 프로파일을 사용한 이메일 테스트](sending/using/testing-messages-using-target.md)**<br/>실제 타깃팅된 프로필에서 이메일을 테스트하는 방법을 알아봅니다.
 
 * **[개인 정보 관리](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오.
 
