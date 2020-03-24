@@ -170,8 +170,8 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
 또한 이 트리거 이벤트를 웹 사이트에 통합해야 합니다. 웹 [사이트에서](#integrating-the-triggering-of-the-event-in-a-website)이벤트 트리거 통합을 참조하십시오.
 
 <!-->>[!NOTE]
->이전 발행물을 참조하려면 왼쪽 영역의 섹션 아래에 있는 **[!UICONTROL Latest transactional events]** **[!UICONTROL History]** 링크를 클릭합니다.—>
->
+>이전 발행물을 참조하려면 왼쪽 영역의 섹션 아래에 있는 **[!UICONTROL Latest transactional events]** **[!UICONTROL History]** 링크를 클릭합니다.-->
+
 ### 이벤트 게시 취소 {#unpublishing-an-event}
 
 이 **[!UICONTROL Unpublish]** 단추를 사용하면 이벤트 게시를 취소할 수 있으며, 이 게시물은 이전에 만든 이벤트에 해당하는 리소스를 REST API에서 삭제합니다. 이제 웹 사이트를 통해 이벤트가 트리거되더라도 해당 메시지는 더 이상 전송되지 않고 데이터베이스에 저장되지 않습니다.
