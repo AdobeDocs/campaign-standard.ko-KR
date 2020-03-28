@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
+source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
 
 ---
 
@@ -169,8 +169,11 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
 
 또한 이 트리거 이벤트를 웹 사이트에 통합해야 합니다. 웹 [사이트에서](#integrating-the-triggering-of-the-event-in-a-website)이벤트 트리거 통합을 참조하십시오.
 
-<!-->>[!NOTE]
->이전 발행물을 참조하려면 왼쪽 영역의 섹션 아래에 있는 **[!UICONTROL Latest transactional events]** **[!UICONTROL History]** 링크를 클릭합니다.-->
+<!--
+>[!NOTE]
+>
+>To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
+-->
 
 ### 이벤트 게시 취소 {#unpublishing-an-event}
 
@@ -179,7 +182,8 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
 ![](assets/message-center_unpublish.png)
 
 >[!NOTE]
-해당 트랜잭션 메시지를 이미 게시한 경우 트랜잭션 메시지 게시가 취소됩니다. 트랜잭션 [메시지](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)게시 취소를 참조하십시오.
+>
+>해당 트랜잭션 메시지를 이미 게시한 경우 트랜잭션 메시지 게시가 취소됩니다. 트랜잭션 [메시지](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)게시 취소를 참조하십시오.
 
 단추를 클릭하여 새 REST API를 생성합니다. **[!UICONTROL Publish]**
 
@@ -193,14 +197,16 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
-   이벤트 구성에 **[!UICONTROL Draft]** 상태가 있는지 확인하십시오. 그렇지 않으면 삭제할 수 없습니다. 상태는 아직 게시되지 않았거나 **[!UICONTROL Draft]** 게시 취소된 [](#unpublishing-an-event)이벤트에 적용됩니다.
+   >
+   >이벤트 구성에 **[!UICONTROL Draft]** 상태가 있는지 확인하십시오. 그렇지 않으면 삭제할 수 없습니다. 상태는 아직 게시되지 않았거나 **[!UICONTROL Draft]** 게시 취소된 [](#unpublishing-an-event)이벤트에 적용됩니다.
 
 1. 단추를 **[!UICONTROL Confirm]** 클릭합니다.
 
    ![](assets/message-center_delete-confirm.png)
 
 >[!IMPORTANT]
-게시되고 이미 사용된 이벤트 구성을 삭제하면 해당 트랜잭션 메시지와 해당 전송 및 추적 로그도 삭제됩니다.
+>
+>게시되고 이미 사용된 이벤트 구성을 삭제하면 해당 트랜잭션 메시지와 해당 전송 및 추적 로그도 삭제됩니다.
 
 ## 웹 사이트에서 이벤트 트리거 통합 {#integrating-the-triggering-of-the-event-in-a-website}
 
@@ -226,7 +232,8 @@ REST [API 설명서를 참조하십시오](../../api/using/managing-transactiona
 1. Adobe Campaign 데이터베이스의 추가 정보를 사용하려면 트랜잭션 메시지 컨텐츠를 [보완합니다(트랜잭션 메시지 컨텐츠](#enriching-the-transactional-message-content)강화 참조).
 
    >[!NOTE]
-   이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 받는 사람과 메시지 컨텐츠 개인화를 정의해야 합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 컨텐츠를 강화할 수 있습니다.
+   >
+   >이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 받는 사람과 메시지 컨텐츠 개인화를 정의해야 합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 컨텐츠를 강화할 수 있습니다.
 
 1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](#previewing-and-publishing-the-event)참조)
 
@@ -268,7 +275,8 @@ REST [API 설명서를 참조하십시오](../../api/using/managing-transactiona
 1. Adobe Campaign 데이터베이스의 추가 정보를 사용하려면 트랜잭션 메시지 컨텐츠를 [보완합니다(트랜잭션 메시지 컨텐츠](#enriching-the-transactional-message-content)강화 참조).
 
    >[!NOTE]
-   이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 받는 사람과 메시지 컨텐츠 개인화를 정의해야 합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 컨텐츠를 강화할 수 있습니다.
+   >
+   >이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 받는 사람과 메시지 컨텐츠 개인화를 정의해야 합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 컨텐츠를 강화할 수 있습니다.
 
 1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](#previewing-and-publishing-the-event)참조)
 
@@ -293,7 +301,8 @@ REST [API 설명서를 참조하십시오](../../api/using/managing-transactiona
 1. 트랜잭션 메시지를 개인화하려면 이벤트에 필드를 추가합니다(이벤트 속성 [정의 참조](#defining-the-event-attributes)).
 
    >[!NOTE]
-   농축하려면 최소한 하나의 필드를 추가해야 합니다. Adobe Campaign 데이터베이스의 개인화 필드를 사용할 수 있으므로 **이름** 및 **성과** 같은 다른 필드를 만들 필요가 없습니다.
+   >
+   >농축하려면 최소한 하나의 필드를 추가해야 합니다. Adobe Campaign 데이터베이스의 개인화 필드를 사용할 수 있으므로 **이름** 및 **성과** 같은 다른 필드를 만들 필요가 없습니다.
 
 1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하려면 추가 정보 만들기를 참조하십시오(트랜잭션 메시지 컨텐츠 [](#enriching-the-transactional-message-content)강화 참조). 타깃팅 차원을 사용할 때는 **[!UICONTROL Profile]** 데이터 웨어하우스를 만들어야 합니다.
 1. 이벤트 미리 보기 및 게시(이벤트 [미리 보기 및 게시](#previewing-and-publishing-the-event)참조)
