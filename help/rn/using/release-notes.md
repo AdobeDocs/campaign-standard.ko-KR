@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -35,21 +35,6 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
   <tr> 
    <td> <p>이제 Azure Blob 저장소 커넥터를 사용하여 파일 <strong>전송 워크플로 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼</strong> 수 있습니다. </p>
     <p>자세한 내용은 <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">자세한 설명서를</a>참조하십시오.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>통합 Experience Cloud 인터페이스</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>인터페이스 상단 막대가 모든 Experience Cloud 애플리케이션에서 경험을 향상하도록 개선되었습니다. 이제 헤더를 통해 솔루션 간에 보다 쉽게 전환할 수 있고 향상된 도움말 및 알림을 표시할 수 있습니다.</p>
-    <p>자세한 내용은 <a href="../../start/using/interface-description.md#top-bar">자세한 설명서를</a>참조하십시오. </p>
    </td> 
   </tr> 
  </tbody> 
