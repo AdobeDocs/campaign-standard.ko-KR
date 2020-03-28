@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -30,8 +30,6 @@ Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/usin
 **릴리스에 포함된 새로운 기능**
 
 Azure Blob 통합 - [자세한 내용 보기](../../administration/using/external-accounts.md#microsoft-azure-external-account)
-
-통합 Experience Cloud 인터페이스 및 도메인 - [자세한 내용](../../start/using/interface-description.md#top-bar)
 
 타깃팅된 프로파일을 사용한 이메일 테스트 - [자세한 내용](../../sending/using/testing-messages-using-target.md)
 
