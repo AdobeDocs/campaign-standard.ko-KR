@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
 
 ---
 
@@ -24,6 +24,17 @@ Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아
 이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
 
 Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/using/release-notes.md).
+
+## 설명서 업데이트 - 2020년 4월 {#doc-updates-april-2020}
+
+Adobe Campaign Standard 설명서와 Microsoft Dynamics 365 통합은 다른 솔루션과 통합 안내서의 핵심 문서에 통합되었습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+설명서 홈 페이지에 추가 리소스가 추가되었습니다. [자세한 내용](../../campaign-standard-home.md)
+
+Adobe Experience Platform Data Connector 설명서에는 ECID(Experience Cloud ID Service)에 대한 정보가 추가되었습니다. [자세한 내용](../../administration/using/aep-about-data-connector.md#key-concepts)
+
+트랜잭션 메시징 구성 섹션이 최신 트랜잭션 이벤트 및 업데이트된 스크린샷에 액세스하는 방법에 대한 정보를 제공하여 향상되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
 
 ## 릴리스 20.2 - 2020년 3월 {#release-20-2---march-2020}
 
@@ -45,7 +56,7 @@ Azure Blob 통합 - [자세한 내용 보기](../../administration/using/externa
 
 이제 이벤트 구성을 삭제하는 방법을 설명하는 새 섹션을 사용할 수 있습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
-이메일의 제목 줄을 테스트하여 공개 비율을 예측하는 방법을 설명하는 페이지(새로운 [문제 해결](../../sending/using/testing-subject-line-email.md#troubleshooting) 섹션 포함)가 업데이트되고 향상되었습니다. [자세한 내용](../../sending/using/testing-subject-line-email.md#troubleshooting)
+이메일의 제목 줄을 테스트하여 공개 비율을 예측하는 방법을 설명하는 페이지(새로운 [문제 해결](../../sending/using/testing-subject-line-email.md#troubleshooting) 섹션 포함)가 업데이트되고 향상되었습니다. [자세한 내용](../../sending/using/testing-subject-line-email.md)
 
 트랜잭션 메시징 섹션이 여러 사용자 인터페이스의 사소한 업데이트 및 개선 사항을 반영하도록 업데이트되었습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md)
 
@@ -147,7 +158,7 @@ API 설명서 세트는 Campaign Standard 설명서에 통합되었습니다.[�
 
 CPA(California Consumer Privacy Act) - [자세한 내용](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Microsoft Dynamics 365 통합(GA) - [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Microsoft Dynamics 365 통합(GA) - [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -211,7 +222,7 @@ Launch_ **URL_Campaign** 옵션에 대한 메모가 페이지에 추가되었습
 
 이제 Campaign Standard 구현 안내서가 라이브됩니다.[자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Microsoft Dynamics 365 커넥터 구현 및 사용에 대한 새 도움말 아티클이 만들어졌습니다. 이 기능은 현재 제한된 가용성에 있습니다.[자세한 내용](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Microsoft Dynamics 365 커넥터 구현 및 사용에 대한 새 도움말 아티클이 만들어졌습니다. 이 기능은 현재 제한된 가용성에 있습니다.[자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 전달 준비 및 [집계 기간에 대한 매개 변수](../../automating/using/calling-a-workflow-with-external-parameters.md) 섹션이 있는 워크플로우 호출 섹션에 메모가 추가되었습니다.
 
