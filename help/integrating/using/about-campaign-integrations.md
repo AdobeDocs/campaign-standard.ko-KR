@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -35,14 +35,14 @@ source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 >[!NOTE]
 >
->Adobe Campaign Standard는 Microsoft Dynamics 365에도 연결할 수 있습니다.이 통합을 통해 CRM 시스템에서 사용 가능한 모든 연락처 데이터를 동기화할 수 있으므로 모든 관련 연락처 데이터를 캠페인 활동에 사용할 수 있습니다. 이 통합에 대한 자세한 내용은 캠페인 및 [Dynamics 365를 사용한 작업을 참조하십시오](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+>Adobe Campaign Standard는 Microsoft Dynamics 365에도 연결할 수 있습니다.이 통합을 통해 CRM 시스템에서 사용 가능한 모든 연락처 데이터를 동기화할 수 있으므로 모든 관련 연락처 데이터를 캠페인 활동에 사용할 수 있습니다. 이 통합에 대한 자세한 내용은 캠페인 및 [Dynamics 365를 사용한 작업을 참조하십시오](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 
 <table> 
  <thead> 
   <tr> 
    <th> 솔루션<br /> </th> 
-   <th> 사용 사례<br /> </th> 
+   <th> Use Case<br /> </th> 
    <th> 자세한 내용은<br /> </th> 
   </tr> 
  </thead> 
