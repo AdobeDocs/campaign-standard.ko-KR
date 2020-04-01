@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
+source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
 
 ---
 
@@ -46,11 +46,7 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 * 기본적으로 Campaign Standard에서 제공되는 필드에만 기본 매핑을 사용할 수 있습니다. 모든 사용자 지정 필드 및 리소스를 수집하려면 각 고객이 자신의 매핑을 정의해야 합니다.
 
-* Adobe Experience Platform Data Connector는 정기적으로 플랫폼을 통해 프로필 데이터를 &#x200B; 푸시합니다. 간격 기간은 15분입니다. 이 값은 수정할 수 없습니다.
-
-   >[!NOTE]
-   >
-   >이 기간은 Adobe Experience Platform API를 사용하여 수정할 [수 있습니다](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+* Adobe Experience Platform Data Connector는 정기적으로 플랫폼을 통해 프로필 데이터를 &#x200B; 푸시합니다. 간격 기간은 15분입니다. Adobe Experience Platform API를 사용하여 이 값을 수정할 [수 있습니다](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
 * 데이터 엔지니어는 Campaign에서 Adobe Experience Platform으로 매핑을 게시, 수정 및 일시 중지할 수 있습니다.
 
@@ -61,6 +57,14 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 * 모든 Adobe Campaign Standard 또는 XDM 스키마 변경 사항을 수동으로 다시 매핑해야 &#x200B; 합니다.
 
 * 추적 로그 및 Broadlog 데이터는 경험 이벤트로 Adobe Experience Platform에 자동으로 수집됩니다. 이 인제스트는 Adobe Experience Platform으로 실시간으로 스트리밍됩니다.
+
+* ECID(Experience Cloud ID Service)는 기본적으로 경험 이벤트와 함께 전송되는 장치 식별자입니다.
+
+   이 ID는 방문자에게 지정된 고유하고 지속적인 ID로서, Platform Identity Service가 다른 Experience Cloud 솔루션에서 동일한 방문자와 해당 데이터를 식별하는 데 사용할 수 있습니다. 자세한 내용은 Experience Cloud ID 서비스 [도움말을 참조하십시오](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+
+   >[!NOTE]
+   >
+   >두 개 이상의 프로필이 동일한 장치를 공유하는 경우 통합 ID 서비스에서 두 프로필에 대해 ECID가 동일해야 합니다.
 
 ## 제한 사항 {#limitations}
 
