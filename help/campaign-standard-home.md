@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 ---
 
@@ -58,19 +58,13 @@ source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 </tr>
 </table>
 
-
 ## 추가 자료
 
-* [릴리스 정보](rn/using/release-notes.md)
-
-* [컨트롤 패널](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
-
-* [사용법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-
-* [릴리스 계획 안내서](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-
-* [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-
-* [기술 정보](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
-
-* [Adobe Campaign Standard 구현 안내서](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+| 유용한 페이지 | 개발자를 위한 자료 |
+|---|---|
+| [릴리스 정보](rn/using/release-notes.md) | [구현 안내서](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
+| [제어판 설명서](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [API 설명서](api/using/about-campaign-standard-apis.md) |
+| [사용법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [릴리스 계획 안내서](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Campaign Standard 데이터 모델](developing/using/datamodel-introduction.md) |
+| [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [캠페인 통합](integrating/using/about-campaign-integrations.md) |
+| [Campaign Standard 시작하기](start/using/campaign-orchestration.md) | [기술 정보](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
