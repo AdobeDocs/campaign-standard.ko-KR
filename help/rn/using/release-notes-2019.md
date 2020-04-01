@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 ## 릴리스 19.4 - 2019년 12월 {#release-19-4---october-2019}
 
-**새로운 기능**
+**새로운 기능?**
 
 <table> 
  <thead> 
@@ -56,7 +56,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
   <tr> 
    <td> 
     <p>이제 Adobe Campaign Standard와 Microsoft Dynamics 365 간의 통합을 사용할 수 있습니다. 연락처 및 사용자 지정 개체 레코드를 Dynamics 365에서 Campaign으로 전송하고 이메일 이벤트 데이터를 Campaign에서 Dynamics 365로 가져와 세일즈/마케팅 정렬을 향상시킬 수 있습니다.</p>
-    <p>이 통합을 설정하고 <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">사용 방법 비디오를</a> <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html"></a>보려면 자세한 설명서를 참조하십시오.</p>
+    <p>이 통합을 설정하고 <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">사용 방법 비디오를</a> <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html"></a>보려면 자세한 설명서를 참조하십시오.</p>
   </td>
   </tr> 
  </tbody> 
@@ -149,7 +149,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 ## 릴리스 19.3 - 2019년 7월 {#release-19-3---july-2019}
 
-**새로운 기능**
+**새로운 기능?**
 
 <table> 
  <thead> 
@@ -185,7 +185,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 * 이메일에서 동적 컨텐츠를 정의할 때 고급 모드에서 발생하는 몇 가지 문제를 수정했습니다. (CAMP-34351, CAMP-3433, CAMP-34331)
 * 동적 컨텐츠 규칙 편집기(CAMP-34304, CAMP-34303)에서 발생하는 몇 가지 문제가 해결되었습니다.
 * 이메일 디자이너 설정 창(CAMP-33749)에 링크 필드가 표시되지 않는 문제를 해결했습니다.
-* 보낸 이메일에서 YouTube 아이콘 크기를 초과한 문제가 해결되었습니다. (CAMP-33726)
+* 보낸 이메일에서 YouTube 아이콘 크기를 초과한 문제를 수정했습니다. (CAMP-33726)
 * 미러 페이지 컨텐츠를 편집할 수 있게 하는 보안 문제를 수정했습니다. (CAMP-33691)
 * 동적 내용에서 보다 큼 기호를 사용할 때 HTML 출력을 중단했던 문제를 수정했습니다. (CAMP-33688)
 * 이메일 디자이너에서 텍스트를 편집할 때 실행 취소 옵션을 사용할 때 발생하는 문제를 수정했습니다. (CAMP-32565)
@@ -294,7 +294,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 ## 릴리스 19.2 - 2019년 5월 {#release-19-2---may-2019}
 
-**새로운 기능**
+**새로운 기능?**
 
 <table> 
  <thead> 
@@ -325,7 +325,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 **향상된 보안 기능**
 
-* 보고 작업 공간에서 잠재적인 클릭재킹 보안 문제를 해결했습니다.
+* 보고 작업 공간에서 잠재적 클릭재킹 보안 문제를 해결했습니다.
 
 **향상된 이메일 디자이너**
 
@@ -362,14 +362,14 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 **기타 변경 사항**
 
 * SMS 외부 계정에 새 옵션이 추가되었습니다. SMS를 전송하는 최대 MTA 프로세스 수를 제한할 수 있으므로 병렬 연결 수를 보다 효과적으로 제어할 수 있습니다. 자세한 내용은 SMS 커넥터 [프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 기술 문서를 참조하십시오.
-* API 확장 기능이 있는 리소스를 게시할 때 API가 이미 게시되어 있으면 다시 게시할 때마다 자동으로 업데이트됩니다. 이전에는 이 작업이 수동적이며 API를 업데이트하지 않으면 이 API의 프로필 또는 서비스 리소스가 손실될 수 있었습니다. 자세한 내용은 [자세한 설명서를](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)참조하십시오.
+* API 확장 기능이 있는 리소스를 게시할 때 API가 이미 게시된 경우 게시될 때마다 자동으로 업데이트됩니다. 이전에는 이 작업이 수동적이며 API를 업데이트하지 않으면 이 API의 프로필 또는 서비스 리소스가 손실될 수 있었습니다. 자세한 내용은 [자세한 설명서를](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)참조하십시오.
 * Zip 코드 차원이 Dynamic Reporting에서 제거되었습니다. 시, 국가, 시/도 크기를 대신 사용하는 것이 좋습니다.
 * 인앱 메시지에 대한 &#39;첫 번째 실행&#39; 라이프사이클 이벤트 트리거가 제거되었습니다.
 * 이제 보안 그룹이 있는 패키지를 내보낼 때 각 그룹에 할당된 역할이 포함됩니다. (CAMP-32960)
 * 파일 로드 활동에서 새 옵션을 사용하면 업로드하는 파일의 열이 열 정의와 일치하는지 확인할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/load-file.md)참조하십시오. (CAMP-32229)
 * 이제 페이로드를 사용하여 워크플로우를 시작할 수 있으므로 워크플로우 내의 활동 간에 외부 매개 변수를 사용하고 공유할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/calling-a-workflow-with-external-parameters.md)참조하십시오. (CAMP-29412 &amp; CAMP-29413)
 * 이제 Campaign Standard API를 사용하여 페이로드를 사용하여 프로필의 지역 및 조직 단위를 업데이트할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../api/using/about-campaign-standard-apis.md)참조하십시오.
-* 데이터베이스의 개체에 액세스할 수 없을 때의 오류 메시지가 명확하게 파악되었습니다.
+* 데이터베이스의 객체에 액세스할 수 없을 때의 오류 메시지가 더 명확하여 파악되었습니다.
 * Extract 파일 활동에서 내보낼 파일의 이름을 정의할 때 Javascript 기능이 업데이트되었습니다. 이제 formatDate 함수만 출력 필드에 사용할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../automating/using/extract-file.md)참조하십시오.
 * 사용자 지정 리소스에 대해 자동 시퀀스 ID 생성이 개선되었습니다. 이제 새 사용자 지정 리소스의 기본 키는 기본적으로 64비트로 지정됩니다.
 * 사용자 지정 리소스 게시 테스트 모드가 개선되었습니다. 이제 마지막 사용자 지정 리소스 게시가 실패하여 수정되지 않은 경우 사용자에게 경고 메시지가 표시됩니다. 사용자 지정 리소스 게시가 실패한 후 마지막 작업 버전으로 롤백할 수 있습니다. 자세한 내용은 [자세한 설명서를](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)참조하십시오.
@@ -412,7 +412,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 ## 릴리스 19.1 - 2019년 2월 {#release-19-1---february-2019}
 
-**새로운 기능**
+**새로운 기능?**
 
 <table> 
  <thead> 
@@ -490,7 +490,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 **기타 변경 사항**
 
-* Adobe Campaign 및 Adobe Experience Cloud는 2019년 봄 및 Campaign Standard 19.2 릴리스에서 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정입니다. Microsoft Edge 또는 지원되는 다른 브라우저로 전환하십시오. 더 [이상 사용되지 않음 및 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) 페이지를 참조하십시오.
+* Adobe Campaign 및 Adobe Experience Cloud는 2019년 봄 및 Campaign Standard 19.2 릴리스에서 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정입니다. Microsoft Edge 또는 지원되는 다른 브라우저로 전환하십시오. 사용되지 [않음 및 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) 페이지를 참조하십시오.
 * 프로필 **리소스의 국가 코드** 필드 이름이 국가/지역 **코드로**&#x200B;변경되었습니다.
 
 **패치**
@@ -518,7 +518,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 ## 릴리스 19.0 - 2019년 1월 {#release-19-0---january-2019}
 
-**새로운 기능**
+**새로운 기능?**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -576,7 +576,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 * 이메일 디자이너에서 컨텐츠를 편집할 때 동적 컨텐츠 조건이 저장되지 않는 문제를 해결했습니다. (CAMP-27905)
 * 메시지의 일반 텍스트 버전을 편집하고 이메일 디자이너에서 HTML 동기화를 중단하면 이메일 컨텐츠에서 HTML 버전이 제거되는 문제를 수정했습니다. (CAMP-28507)
 * Internet Explorer 11을 사용할 때 이메일 디자이너 인터페이스가 열리지 않는 문제를 해결했습니다. (CAMP-28273)
-* 이메일 디자이너와 함께 단추에 적용된 스타일 설정의 Microsoft Outlook 렌더링을 왜곡했던 문제를 수정했습니다.
+* 이메일 디자이너를 사용하여 단추에 적용된 스타일 설정의 Microsoft Outlook 렌더링을 왜곡하는 문제를 수정했습니다.
 * 이메일에 사용된 컨텐츠 조각에서 URL을 편집할 수 있게 하는 이메일 디자이너의 문제를 수정했습니다. 조각은 기본적으로 잠겼으므로 예상되지 않았습니다.
 * 이메일 디자이너 구분선 구성 요소가 Microsoft Office에 표시되지 않는 문제를 해결했습니다.
 * 기존 이메일 컨텐츠 편집기를 사용하여 AEM에서 동기화된 컨텐츠를 볼 때 특정 인터넷 브라우저에서 페이지가 멈추는 문제를 해결했습니다. (CAMP-29068)
@@ -590,7 +590,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
 
 * 동적 보고에서 잘못된 배달 로그가 표시되는 문제를 해결했습니다. (CAMP-23446)
 * 바운스 요약 보고서의 수에 영향을 줄 수 있는 문제를 수정했습니다(CAMP-28703).
-* 이메일에서 선택할 때 자산이 표시되지 않도록 하는 캠페인 및 자산 핵심 서비스 통합 문제를 **[!UICONTROL Image shared from Adobe Experience Cloud]**수정했습니다(CAMP-28732).
+* 이메일에서 선택할 때 자산이 표시되지 않도록 하는 캠페인 및 자산 핵심 서비스 통합 문제를 **[!UICONTROL Image shared from Adobe Experience Cloud]** 수정했습니다(CAMP-28732).
 * &#39;oe&#39; 문자가 포함된 SMS 메시지가 SMPP 외부 계정에서 번역된 경우에도 전송되지 않던 문제를 수정했습니다. (CAMP-29041)
 * 워크플로우에서 세그멘테이션 활동을 사용할 때 중복 레코드를 표시할 수 있는 문제를 수정했습니다. (CAMP-28743)
 * 워크플로우 활동의 열에 있는 값 매핑 중 하나를 삭제하지 못했던 문제를 수정했습니다. (CAMP-28708)
