@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
+source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
 
 ---
 
@@ -27,7 +27,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 모든 릴리스 날짜는 변경될 수 있습니다.정기적으로 이 페이지를 방문하여 업데이트를 확인하는 것이 좋습니다.
 
-구독을 통해 릴리스 알림을 [수신하면](https://www.adobe.com/subscription/priority-product-update.html) 받은 편지함에서 최신 Adobe Experience Cloud 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
+구독을 통해 릴리스 알림을 [수신하면](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 받은 편지함에서 최신 Adobe Experience Cloud 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
 
 ## 릴리스 20.2.1 - 4월 릴리스 {#release-20-2-april-release}
 
