@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
