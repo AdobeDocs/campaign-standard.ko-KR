@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
+source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 >
 >대상 서비스는 현재 베타 버전으로, 예고 없이 빈번한 업데이트가 적용될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
 
-통합 세그먼트 빌더를 사용하면 통합 프로필 서비스에서 들어오는 데이터를 기반으로 규칙을 정의하여 대상을 [만들 수 있습니다](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html).
+통합 세그먼트 빌더를 사용하면 통합 프로필 서비스에서 들어오는 데이터를 기반으로 규칙을 정의하여 대상을 [만들 수 있습니다](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html).
 
-이 섹션에서는 세그먼트를 작성할 때 글로벌 개념을 제공합니다. 통합 세그먼트 빌더 자체에 대한 자세한 내용은 세그먼트 빌더 [사용 안내서를](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)참조하십시오.
+이 섹션에서는 세그먼트를 작성할 때 글로벌 개념을 제공합니다. 통합 세그먼트 빌더 자체에 대한 자세한 내용은 세그먼트 빌더 [사용 안내서를](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)참조하십시오.
 
 통합 세그먼트 빌더 인터페이스는 다음과 같이 구성됩니다.
 
@@ -48,7 +48,7 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 1. 설정 창에서 원하는 병합 정책이 선택되었는지 확인합니다.
 
-   병합 정책에 대한 자세한 내용은 세그먼트 빌더 사용 안내서의 [전용 섹션을 참조하십시오](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md).
+   병합 정책에 대한 자세한 내용은 세그먼트 빌더 사용 안내서의 [전용 섹션을 참조하십시오](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -82,7 +82,7 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 >
 >**다중 개체 세그먼테이션을** 사용하면 제품, 스토어 또는 기타 비프로필 클래스를 기반으로 한 추가 데이터로 프로필 데이터를 확장할 수 있습니다. 연결되면 추가 클래스의 데이터를 프로필 스키마가 기본인 것처럼 사용할 수 있습니다.
 >
->자세한 내용은 [전용 설명서를](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)참조하십시오.
+>자세한 내용은 [전용 설명서를](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)참조하십시오.
 
 기본적으로 통합 세그먼트 빌더에는 데이터가 이미 있는 필드가 표시됩니다. 데이터가 없는 필드를 포함하여 전체 스키마를 표시하려면 설정에서 **[!UICONTROL Show full XDM schema]** 옵션을 활성화합니다.
 
@@ -96,7 +96,7 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 >[!NOTE]
 >
->아래 섹션에서는 규칙 정의에 대한 글로벌 정보를 제공합니다. 자세한 내용은 세그먼트 빌더 [사용 안내서를](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)참조하십시오.
+>아래 섹션에서는 규칙 정의에 대한 글로벌 정보를 제공합니다. 자세한 내용은 세그먼트 빌더 [사용 안내서를](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)참조하십시오.
 
 규칙을 빌드하려면 다음 단계를 따르십시오.
 
