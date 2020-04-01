@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
+source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 
 ---
 
@@ -156,24 +156,25 @@ Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠�
 
    ![](assets/message-center_logs.png)
 
+   >[!IMPORTANT]
+   >
+   >이벤트를 수정할 때마다 웹 사이트 개발자가 사용할 업데이트된 REST API를 생성하려면 **[!UICONTROL Publish]** 다시 클릭해야 합니다.
 
->[!NOTE]
->
->이벤트를 수정할 때마다 웹 사이트 개발자가 사용할 업데이트된 REST API를 생성하려면 **[!UICONTROL Publish]** 다시 클릭해야 합니다.
+   이벤트가 게시되면 새 이벤트에 연결된 트랜잭션 메시지가 자동으로 만들어집니다.
 
-이벤트가 게시되면 새 이벤트에 연결된 트랜잭션 메시지가 자동으로 만들어집니다. 이 이벤트가 트랜잭션 메시지 전송을 트리거하려면 방금 만든 메시지를 수정하고 게시해야 합니다. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. 왼쪽 영역에 있는 링크를 통해 이 트랜잭션 메시지에 직접 액세스할 수 있습니다.
 
-왼쪽 영역의 링크에서 직접 만든 트랜잭션 메시지에 액세스할 수 있습니다.
+   ![](assets/message-center_messagegeneration.png)
 
-![](assets/message-center_messagegeneration.png)
+이벤트가 트랜잭션 메시지 전송을 트리거하려면 방금 만든 메시지를 수정하고 게시해야 합니다. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 또한 이 트리거 이벤트를 웹 사이트에 통합해야 합니다. 웹 [사이트에서](#integrating-the-triggering-of-the-event-in-a-website)이벤트 트리거 통합을 참조하십시오.
 
-<!--
->[!NOTE]
->
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
--->
+Adobe Campaign이 이 이 이벤트 구성과 관련된 이벤트를 수신하기 시작하면, **[!UICONTROL Latest transactional events]** **[!UICONTROL History]** 섹션 아래의 링크를 통해 타사 서비스가 전송하고 Adobe Campaign에서 처리하는 최신 이벤트에 액세스할 수 있습니다.
+
+![](assets/message-center_latest-events.png)
+
+이벤트(JSON 형식)는 가장 최근 것부터 가장 오래된 순으로 나열됩니다. 이 목록을 사용하면 컨텐츠 또는 이벤트 상태와 같은 데이터를 제어하고 디버깅할 수 있습니다.
 
 ### 이벤트 게시 취소 {#unpublishing-an-event}
 
@@ -345,7 +346,7 @@ CRM ID를 통해 클라이언트를 확인하려면 먼저 이 새 필드를 사
 
    ![](assets/message-center_usecase2.png)
 
-1. 이전에 메시지에 추가된 &quot;제품 식별자&quot; 필드와 **[!UICONTROL Purchase]** 리소스에서 해당 필드 사이에 조인 조건을 만듭니다
+1. 이전에 메시지에 추가된 &quot;제품 식별자&quot; 필드와 **[!UICONTROL Purchase]** 리소스의 해당 필드 사이에 조인 조건을 만듭니다.
 
    ![](assets/message-center_usecase3.png)
 
