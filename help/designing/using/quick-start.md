@@ -1,5 +1,5 @@
 ---
-title: 이메일 디자이너 시작하기
+title: 이메일 디자이너 시작
 description: 이메일 디자이너를 사용하여 이메일 컨텐츠 작성을 시작합니다.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
-# 이메일 디자이너 시작하기 {#quick-start}
+# 이메일 디자이너 시작 {#quick-start}
 
 이메일 디자이너는 이메일을 만드는 네 가지 방법을 제공합니다.
 
@@ -53,7 +53,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 이메일을 보낼 때는 제목이 필수입니다. 자세한 내용은 [이메일의](../../designing/using/subject-line.md)제목 줄 정의를 참조하십시오.
 
-1. 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스)의 **[!UICONTROL Properties]**탭으로 이동하여**[!UICONTROL Subject]** 섹션을 채웁니다.
+1. 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스)의 **[!UICONTROL Properties]** 탭으로 이동하여 **[!UICONTROL Subject]** 섹션을 채웁니다.
 
 ![](assets/subject-line-quick-start.png)
 
@@ -99,7 +99,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ![](assets/html-component-source-code.png)
 
-HTML에 익숙한 경우 컨텐츠 구성 요소를 사용하여 원래 바닥글의 HTML 코드를 복사하여 붙여넣을 수 있습니다. **[!UICONTROL Html]**자세한 내용은 컨텐츠 구성[요소](../../designing/using/designing-from-scratch.md#about-content-components)정보를 참조하십시오.
+HTML에 익숙한 경우 컨텐츠 구성 요소를 사용하여 원래 바닥글의 HTML 코드를 복사하여 붙여넣을 수 있습니다. **[!UICONTROL Html]** 자세한 내용은 컨텐츠 구성 [요소](../../designing/using/designing-from-scratch.md#about-content-components)정보를 참조하십시오.
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -122,12 +122,12 @@ HTML에 익숙한 경우 컨텐츠 구성 요소를 사용하여 원래 바닥�
 고객 환영 메시지, 뉴스레터 및 재참여 이메일과 같은 즉시 사용 가능한 템플릿으로 이메일을 작성하여 개인화할 수 있습니다.
 
 1. 이메일을 만들어 컨텐츠를 엽니다. 자세한 내용은 이메일 [만들기를](../../channels/using/creating-an-email.md)참조하십시오.
-1. 홈 아이콘을 클릭하여 **[!UICONTROL Email Designer]**홈 페이지에 액세스합니다.
-1. 탭을 **[!UICONTROL Templates]**클릭합니다.
+1. 홈 아이콘을 클릭하여 **[!UICONTROL Email Designer]** 홈 페이지에 액세스합니다.
+1. 탭을 **[!UICONTROL Templates]** 클릭합니다.
 1. 기본 HTML 템플릿을 선택합니다.
 다양한 템플릿은 여러 유형의 요소를 다양하게 조합하여 제공합니다. 예를 들어 &#39;페더&#39; 템플릿에는 여백이 있지만 &#39;아스트로&#39; 템플릿에는 여백이 없습니다. 자세한 내용은 컨텐츠 [템플릿을](../../designing/using/using-reusable-content.md#content-templates)참조하십시오.
-1. 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스)의 **[!UICONTROL Properties]**탭으로 이동하여**[!UICONTROL Subject]** 섹션을 채웁니다.
-1. 이러한 요소를 결합하여 다양한 이메일 변형을 만들 수 있습니다. 예를 들어 구조 구성 요소를 선택하고 컨텍스트 도구 모음에서 을 클릭하여 이메일 섹션을 복제할 **[!UICONTROL Duplicate]**수 있습니다.
+1. 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스)의 **[!UICONTROL Properties]** 탭으로 이동하여 **[!UICONTROL Subject]** 섹션을 채웁니다.
+1. 이러한 요소를 결합하여 다양한 이메일 변형을 만들 수 있습니다. 예를 들어 구조 구성 요소를 선택하고 컨텍스트 도구 모음에서 을 클릭하여 이메일 섹션을 복제할 **[!UICONTROL Duplicate]** 수 있습니다.
 1. 왼쪽에 있는 파란색 화살표를 사용하여 요소를 이동시켜 구조 구성 요소를 다른 요소 아래 또는 위로 드래그할 수 있습니다. 자세한 내용은 이메일 [구조](../../designing/using/designing-from-scratch.md#defining-the-email-structure)편집을 참조하십시오.
 1. 구성 요소를 이동하여 각 구조 요소의 구성을 변경할 수도 있습니다. 자세한 내용은 조각 및 [구성 요소](../../designing/using/designing-from-scratch.md#defining-the-email-structure)추가를 참조하십시오.
 1. 필요에 따라 각 요소의 컨텐츠를 수정합니다.이미지, 텍스트, 링크.
