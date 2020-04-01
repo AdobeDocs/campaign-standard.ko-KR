@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0aa1089ee744a86a95d344235feba7adb9150a4
+source-git-commit: 34a58e0ec028feacf928f9048378c3255a04a33d
 
 ---
 
@@ -95,9 +95,9 @@ Adobe Campaign 리소스에는 세 개의 식별자가 있으며 추가 식별�
 >
 >표시 이름은 Adobe Campaign 사용자 인터페이스를 통해 사용자에게 표시되는 필드의 이름입니다. 기술 이름은 리소스 정의(및 테이블 열 이름)의 실제 필드 이름입니다.
 
-| 표시 이름 | 기술 이름 | 설명 | 모범 사례 |
+| 표시 이름 | 기술 이름 | 설명 | 권장사항 |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey는 Adobe Campaign 테이블의 실제 기본 키입니다.</li><li>이 식별자는 일반적으로 특정 Adobe Campaign 인스턴스에 고유합니다.</li><li>Adobe Campaign Standard에서 이 값은 최종 사용자에게 표시되지 않습니다.</li></ul> | <ul><li>API [시스템을](../../api/using/about-campaign-standard-apis.md)통해 PKey 값(물리적 키가 아닌 생성/해시된 값)을 검색할 수 있습니다.</li><li>API를 통해 레코드를 검색, 업데이트 또는 삭제하는 것 외에는 사용하지 않는 것이 좋습니다.</li></ul> |
+|  | PKey | <ul><li>PKey는 Adobe Campaign 테이블의 실제 기본 키입니다.</li><li>이 식별자는 일반적으로 특정 Adobe Campaign 인스턴스에 고유합니다.</li><li>Adobe Campaign Standard에서 이 값은 최종 사용자가 볼 수 없습니다(URL에서는 제외).</li></ul> | <ul><li>API [시스템을](../../api/using/about-campaign-standard-apis.md)통해 PKey 값(물리적 키가 아닌 생성/해시된 값)을 검색할 수 있습니다.</li><li>API를 통해 레코드를 검색, 업데이트 또는 삭제하는 것 외에는 사용하지 않는 것이 좋습니다.</li></ul> |
 | ID | name 또는 internalName | <ul><li>이 정보는 테이블에 있는 레코드의 고유 식별자입니다. 이 값은 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 다른 Adobe Campaign 인스턴스에 배포할 때 값을 유지합니다. 패키지를 통해 내보낼 수 있도록 생성된 값과 다른 이름이 있어야 합니다.</li><li>이 키는 테이블의 실제 기본 키가 아닙니다.</li></ul> | <ul><li>공백 &quot;&quot;, 세미열 &quot;:&quot; 또는 하이픈 &quot;-&quot;과 같은 특수 문자는 사용하지 마십시오.</li><li>이러한 모든 문자는 밑줄 &quot;_&quot;(허용되는 문자)로 대체됩니다. 예를 들어 &quot;abc-def&quot; 및 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로를 덮어씁니다.</li></ul> |
 | 레이블 | label | <ul><li>레이블은 Adobe Campaign에서 개체 또는 레코드의 비즈니스 식별자입니다.</li><li>이 개체는 공백과 특수 문자를 허용합니다.</li><li>그렇다고 기록의 고유성을 보장하지 않는다.</li></ul> | <ul><li>개체 레이블의 구조를 결정하는 것이 좋습니다.</li><li>Adobe Campaign 사용자의 레코드 또는 개체를 식별하기 위한 가장 사용자 친화적인 솔루션입니다.</li></ul> |
 | ACS ID | acsId | <ul><li>추가 식별자를 생성할 수 있습니다.acs [ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Adobe Campaign 사용자 인터페이스에서 PKey를 사용할 수 없으므로 프로필 레코드를 삽입하는 동안 생성된 고유한 값을 가져오는 솔루션입니다.</li><li>레코드가 Adobe Campaign에 삽입되기 전에 리소스에서 옵션을 활성화한 경우에만 값이 자동으로 생성됩니다.</li></ul> | <ul><li>이 UUID를 조정 키로 사용할 수 있습니다.</li><li>자동 생성된 ACS ID는 워크플로우 또는 패키지 정의에서 참조로 사용할 수 없습니다.</li><li>이 값은 Adobe Campaign 인스턴스에만 적용됩니다.</li></ul> |
