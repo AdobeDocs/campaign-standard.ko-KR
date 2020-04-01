@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -198,37 +198,47 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [구성 요소 추가](reporting/using/adding-components.md)
       + [사용자 지정 프로필 차원 만들기](reporting/using/creating-a-custom-profile-dimension.md)
       + [워크플로우 세그먼트 기반 보고서 만들기](reporting/using/creating-a-report-workflow-segment.md)
-+ Adobe Cloud와 통합 사용 {#integrating-with-adobe-cloud}
++ 다른 솔루션과 통합 {#integrating-with-adobe-cloud}
    + [Campaign 통합 기본 정보](integrating/using/about-campaign-integrations.md)
-   + Campaign을 Experience Manager와 함께 사용하기 {#working-with-campaign-and-experience-manager}
+   + 캠페인 및 Experience Manager {#working-with-campaign-and-experience-manager}
       + [Campaign-Experience Manager 통합 기본 정보](integrating/using/integrating-with-experience-manager.md)
       + [Campaign-Experience Manager 통합 구성](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager에서 이메일 콘텐츠 만들기](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager에서 Campaign 양식 만들기](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Campaign을 Target과 함께 사용하기 {#working-with-campaign-and-target}
+   + 캠페인 및 타겟 {#working-with-campaign-and-target}
       + [Campaign-Target 통합 기본 정보](integrating/using/about-campaign-target-integration.md)
       + [Campaign-Target 통합 구성](integrating/using/configuring-the-campaign-target-integration.md)
       + [Target 다이내믹 콘텐츠 추가](integrating/using/adding-target-dynamic-content.md)
-   + Campaign을 Analytics과 함께 사용하기 {#working-with-campaign-and-analytics}
+   + 캠페인 및 분석 {#working-with-campaign-and-analytics}
       + [Campaign-Analytics 통합 기본 정보](integrating/using/about-campaign-analytics-integration.md)
       + [Campaign-Analytics 통합 구성](integrating/using/configure-campaign-analytics-integration.md)
       + [Analytics에서 Campaign 차원 및 지표 보기](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign을 Audience Manager 또는 People 핵심 서비스와 함께 사용하기 {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Audience Manager 또는 People 핵심 서비스와의 통합 제공 및 구성](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [문제 해결](integrating/using/troubleshooting.md)
       + [Audience Manager 또는 People 핵심 서비스와 대상자 공유](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Campaign을 Assets 핵심 서비스와 함께 사용하기](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Campaign을 Analytics for Mobile과 함께 사용하기 {#working-with-campaign-and-analytics-for-mobile}
+   + 모바일용 캠페인 및 분석 {#working-with-campaign-and-analytics-for-mobile}
       + [Campaign-Points of Interest 데이터 통합 기본 정보](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Campaign-Points of Interest 데이터 통합 구성](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Points of Interest 데이터로 Campaign 메시지 개인화](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campaign을 트리거와 함께 사용하기 {#working-with-campaign-and-triggers}
+   + 캠페인 및 트리거 {#working-with-campaign-and-triggers}
       + [Adobe Experience Cloud 트리거 기본 정보](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Experience Cloud 트리거 구성](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Campaign에서 트리거 사용](integrating/using/using-triggers-in-campaign.md)
       + [트리거 테스트](integrating/using/testing-your-triggers.md)
       + [포기 트리거 사용 사례](integrating/using/abandonment-triggers-use-cases.md)
+   + Campaign 및 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [Microsoft Dynamics 365용 Adobe IO 통합 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Campaign Standard 및 Microsoft Dynamics 365 작업]{#configuring-acs-ms-dynamics}
+         + [Campaign Standard 및 Microsoft Dynamics 365 작업](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [알림 및 추천](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [Campaign Standard 통합을 통해 Microsoft Dynamics 365 요청 및 구성](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [Microsoft Dynamics 365와 Campaign Standard 통합 사용](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Microsoft Dynamics 365 for Campaign 통합 구성](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Microsoft Dynamics 365용 Unifi 통합 구성](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [캠페인 사용자 지정 리소스 및 Dynamics 365 사용자 지정 엔터티 매핑](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + 프로세스 및 데이터 관리 {#managing-processes-and-data}
    + 워크플로우 및 데이터 관리 기본 정보 {#about-workflows-and-data-management}
       + [워크플로우 데이터 및 프로세스](automating/using/workflow-data-and-processes.md)
