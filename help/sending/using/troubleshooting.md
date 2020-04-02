@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
+source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
 
 ---
 
@@ -39,7 +39,8 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, ISP에�
 
    * 상태는 피드백 루프의 **[!UICONTROL Blacklisted]** 결과입니다(사용자가 스팸으로 메시지를 보고하는 경우).
 
-   * 상태는 부드러운 또는 하드 바운스의 **[!UICONTROL Quarantined]** 결과입니다. 자세한 내용은 이 [섹션을](../../sending/using/understanding-quarantine-management.md)참조하십시오.
+   * 상태는 부드러운 또는 하드 바운스의 **[!UICONTROL Quarantined]** 결과입니다.
+   자세한 내용은 이 [섹션을](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)참조하십시오.
 
 * **다른 격리 오류 이유는 무엇입니까?**
 
