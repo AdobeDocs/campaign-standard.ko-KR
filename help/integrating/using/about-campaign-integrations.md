@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Adobe Analytics에서 직접 이메일 전달의 성공 여부를 추적할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Analytics와 캠페인 데이터 공유</a><br/>, 통합 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">캠페인 보고를</a> 위한 KPI 공유 비디오(1단계
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Analytics와 캠페인 데이터 공유</a><br/>, 통합 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">캠페인 보고를</a> 위한 KPI 공유 비디오(1단계)
     </td> 
   </tr> 
   <tr> 
