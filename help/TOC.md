@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
 
 ---
 
@@ -231,7 +231,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
       + [포기 트리거 사용 사례](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 및 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Microsoft Dynamics 365용 Adobe IO 통합 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Campaign Standard 및 Microsoft Dynamics 365 작업]{#configuring-acs-ms-dynamics}
+      + Campaign Standard 및 Microsoft Dynamics 365 작업 {#working-with-campaign-standard-and-ms-dynamics}
          + [Campaign Standard 및 Microsoft Dynamics 365 작업](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [알림 및 추천](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Campaign Standard 통합을 통해 Microsoft Dynamics 365 요청 및 구성](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
