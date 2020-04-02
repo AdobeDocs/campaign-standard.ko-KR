@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74cc176a1b93a7983629ccccb1fea00628241952
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -60,4 +60,3 @@ Adobe Campaign과 Dynamics 365를 통합하면 CRM 시스템 내에서 각 연�
 >[!CAUTION]
 >
 >연락처 동기화의 경우 이 통합은 Dynamics 365를 진실의 소스로 간주합니다.  동기화된 연락처 속성에 대한 모든 변경 사항은 Campaign이 아니라 Dynamics 365에서 수행해야 합니다.  Campaign에서 변경한 경우 동기화 중에 덮어쓸 수 있습니다.
-
