@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -45,7 +45,7 @@ Microsoft Dynamics 365 인터페이스의 타임라인 보기에 Campaign Standa
 
 주요 단계는 다음 비디오에 요약되어 있습니다.
 
-** 비디오**
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 OAuth 액세스 토큰을 생성하려면 아래 설명된 단계를 따르십시오.
 
@@ -57,12 +57,12 @@ OAuth 액세스 토큰을 생성하려면 아래 설명된 단계를 따르십�
 
 1. 화면 **[!UICONTROL New registration]** 상단에서 을 클릭합니다.
 
-![](assets/MSdynACSIntegration-7.png)
+   ![](assets/MSdynACSIntegration-7.png)
 
-앱 등록 화면 채우기:
+1. 앱 등록 화면 채우기:
 
-* 이름:adobe campaign
-* 지원되는 계정 유형: **[!UICONTROL Accounts in this organizational directory only]** (기본값)
+   * 이름:adobe campaign
+   * 지원되는 계정 유형: **[!UICONTROL Accounts in this organizational directory only]** (기본값)
 
 새 응용 프로그램 만들기에 대한 자세한 내용은 [이 섹션을](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)참조하십시오.
 
@@ -104,25 +104,24 @@ OAuth 액세스 토큰을 생성하려면 아래 설명된 단계를 따르십�
 
 1. Dynamics 365 인스턴스로 이동하여 관리자로 로그인합니다.
 
-1. 오른쪽 위 모서리에 있는 기어 아이콘을 클릭하고 **[!UICONTROL Advanced Setting]**s를 클릭합니다.상단 배너에서 옆에 있는 드롭다운을 클릭하고 **[!UICONTROL Settings]**&#x200B;을 클릭합니다 **[!UICONTROL Security > Users]**.
+1. 오른쪽 위 모서리에 있는 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL Advanced Settings]**&#x200B;클릭합니다. 상단 배너에서 옆에 있는 드롭다운을 클릭하고 **[!UICONTROL Settings]**&#x200B;을 클릭합니다 **[!UICONTROL Security > Users]**.
 
 1. 드롭다운 메뉴를 클릭하여 이동합니다. **[!UICONTROL Application Users]** 클릭 **[!UICONTROL New]**.
 
 1. 사용자 아이콘 옆에 있는 드롭다운을 확인합니다. **[!UICONTROL USER:APPLICATION USER]**
 
-새 사용자의 화면을 채웁니다.  매개 변수 제안:
+   새 사용자의 화면을 채웁니다.  매개 변수 제안:
 
-* **[!UICONTROL User Name]** (이메일):adobeapi@`<hostname>`, where `<hostname>` is the hostname of your Dynamics 365 instance
-* **[!UICONTROL Application ID]**:Azure AD에 등록한 응용 프로그램의 ID(필수)
-* 빈칸으로 **[!UICONTROL Application ID URI]** 남겨주시면 **[!UICONTROL Azure AD Object ID]**
-* **[!UICONTROL Full Name]**:Adobe API
-* **[!UICONTROL Email]**:( **[!UICONTROL User Name]** 또는 원하는 경우 관리자 이메일과 동일)
-
-앱 사용자 생성에 대한 자세한 내용은 [이 섹션을](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)참조하십시오.
+   * **[!UICONTROL User Name]** (이메일):adobeapi@`<hostname>`, where `<hostname>` is the hostname of your Dynamics 365 instance
+   * **[!UICONTROL Application ID]**:Azure AD에 등록한 응용 프로그램의 ID(필수)
+   * 빈칸으로 **[!UICONTROL Application ID URI]** 남겨주시면 **[!UICONTROL Azure AD Object ID]**
+   * **[!UICONTROL Full Name]**:Adobe API
+   * **[!UICONTROL Email]**:( **[!UICONTROL User Name]** 또는 원하는 경우 관리자 이메일과 동일)
+   앱 사용자 생성에 대한 자세한 내용은 [이 섹션을](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)참조하십시오.
 
 1. 사용자 아이콘을 클릭하고 Adobe Campaign 아이콘을 업로드합니다.이 아이콘은 Dynamics 365에 새 Adobe 이벤트가 표시될 때 [타임라인] 보기에 표시됩니다.
 
-***getfile***
+<!-- ***getfile*** adobe campaign logo-->
 
 1. 상단 리본에서 을 클릭하여 사용자 역할 목록을 **[!UICONTROL MANAGE ROLES]** 엽니다.
 
