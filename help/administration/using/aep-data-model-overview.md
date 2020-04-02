@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -33,7 +33,7 @@ XDM 작업 공간에서는 데이터 스키마를 보고, 만들고, 확장할 �
 
 XDM 사용자 인터페이스에 액세스하려면 Adobe Experience Platform을 엽니다. 데이터 모델 창으로 이동하여 XDM 스키마를 만들거나 확장합니다.
 
-전체 XDM [작업 영역 설명서를](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/xdm_system/xdm_system_in_experience_platform.md)참조하십시오.
+전체 XDM [작업 영역 설명서를](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)참조하십시오.
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ XDM 스키마 API를 통해 다음 작업을 수행할 수 있습니다.
 * 스키마 설명자 보기
 * 스키마 설명자 만들기, 업데이트 및 삭제
 
-API 호출 조작에 대한 모든 세부 사항은 개발자 안내서를 [참조하십시오](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md).
+API 호출 조작에 대한 모든 세부 사항은 개발자 안내서를 [참조하십시오](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
