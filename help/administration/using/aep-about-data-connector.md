@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -38,15 +38,15 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 >
 >API 또는 Adobe Experience Platform 인터페이스를 통해 수행할 수 있습니다. 자세한 내용은 전용 설명서를 참조하십시오.
 >
->* [실시간 고객 프로파일에 대한 데이터 세트 활성화](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
->* [API를 사용하여 실시간 고객 프로필 및 ID 서비스에 대한 데이터 세트 구성](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
+>* [실시간 고객 프로파일에 대한 데이터 세트 활성화](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
+>* [API를 사용하여 실시간 고객 프로필 및 ID 서비스에 대한 데이터 세트 구성](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
 
 
 ## 주요 개념 {#key-concepts}
 
 * 기본적으로 Campaign Standard에서 제공되는 필드에만 기본 매핑을 사용할 수 있습니다. 모든 사용자 지정 필드 및 리소스를 수집하려면 각 고객이 자신의 매핑을 정의해야 합니다.
 
-* Adobe Experience Platform Data Connector는 정기적으로 플랫폼을 통해 프로필 데이터를 &#x200B; 푸시합니다. 간격 기간은 15분입니다. Adobe Experience Platform API를 사용하여 이 값을 수정할 [수 있습니다](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+* Adobe Experience Platform Data Connector는 정기적으로 플랫폼을 통해 프로필 데이터를 &#x200B; 푸시합니다. 간격 기간은 15분입니다. Adobe Experience Platform API를 사용하여 이 값을 수정할 [수 있습니다](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
 
 * 데이터 엔지니어는 Campaign에서 Adobe Experience Platform으로 매핑을 게시, 수정 및 일시 중지할 수 있습니다.
 
