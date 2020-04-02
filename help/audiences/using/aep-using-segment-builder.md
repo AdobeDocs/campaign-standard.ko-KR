@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 * 왼쪽 창에서는 원하는 필드를 세그먼트 빌더 작업 영역으로 드래그하여 놓아 세그먼트를 작성하는 데 사용할 수 있는 모든 속성, 이벤트 및 대상을 제공합니다.
 * 중심 영역에서는 사용 가능한 필드에서 규칙을 정의하고 결합하여 세그먼트를 작성하는 작업 공간을 제공합니다.
-* 머리글과 오른쪽 창에는 세그먼트의 속성(예: 이름, 설명 및 세그먼트에 대한 예상 적격한 프로필)이 표시됩니다.
+* 헤더와 오른쪽 창에는 세그먼트의 속성(예: 이름, 설명 및 세그먼트에 대한 예상 적격한 프로필)이 표시됩니다.
 
 ![](assets/aep_audiences_interface.png)
 
@@ -66,7 +66,7 @@ source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 왼쪽 창에는 규칙을 구성하는 데 사용할 수 있는 모든 속성, 이벤트 및 대상이 나열됩니다.
 
-나열된 필드는 회사에서 캡처한 특성이며 XDM(Experience Data Model) [시스템을 통해 사용할 수 있도록 만들어졌습니다](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
+나열된 필드는 회사에서 캡처한 특성이며 XDM(Experience Data Model) [시스템을 통해 사용할 수 있도록 만들어졌습니다](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 
 필드는 탭으로 구성됩니다.
 
