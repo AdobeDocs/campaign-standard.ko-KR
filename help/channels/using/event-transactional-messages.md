@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 >
 >트랜잭션 메시지에 액세스하려면 **[!UICONTROL Administrators (all units)]** 보안 그룹의 일부여야 합니다.
 >
->거래 메시지에 프로필 정보가 포함되어 있지 않으므로 피로 규칙과 호환하지 않습니다(프로필로 인해 농축된 경우에도). 피로 [규칙을](../../administration/using/fatigue-rules.md#choosing-the-channel)참조하십시오.
+>거래 메시지에 프로필 정보가 포함되어 있지 않으므로 피로 규칙과 호환하지 않습니다(프로필로 인해 농축된 경우에도). 피로 [규칙을](../../sending/using/fatigue-rules.md#choosing-the-channel)참조하십시오.
 
 ## 트랜잭션 메시지에서 테스트 프로필 정의 {#defining-a-test-profile-in-a-transactional-message}
 
@@ -119,7 +119,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 트랜잭션 이메일의 내용에서 하나 이상의 데이터 컬렉션을 참조하는 제품 목록을 만들 수 있습니다. 예를 들어 장바구니 포기 이메일에는 사용자가 웹 사이트를 떠날 때 장바구니에 있었던 모든 제품 목록과 이미지, 가격 및 각 제품에 대한 링크가 포함될 수 있습니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >제품 목록은 이메일 디자이너 인터페이스를 통해 트랜잭션 이메일 메시지를 편집할 때만 [사용할 수](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 있습니다.
 
@@ -209,7 +209,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
    > **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 노드에서 만든 컬렉션에 해당하는 노드(여기 **[!UICONTROL Product list]** )를 열고 만든 URL 필드(여기 **[!UICONTROL Product URL]** )를 선택합니다. 클릭 **[!UICONTROL Save]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >보안상의 이유로 올바른 정적 도메인 이름으로 시작하는 링크 내에 개인화 필드를 삽입해야 합니다.
 
@@ -266,39 +266,47 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ## 트랜잭션 메시지 게시 취소 {#unpublishing-a-transactional-message}
 
-을 **[!UICONTROL Unpublish]** 클릭하면 트랜잭션 메시지 게시를 취소할 수 있지만, 이전에 만든 이벤트에 해당하는 리소스를 REST API에서 삭제하는 해당 이벤트의 게시도 취소할 수 있습니다. 이제 웹 사이트를 통해 이벤트가 트리거되더라도 해당 메시지는 더 이상 전송되지 않고 데이터베이스에 저장되지 않습니다.
+을 **[!UICONTROL Unpublish]** 클릭하면 트랜잭션 메시지 게시를 취소할 수 있지만, 이전에 만든 이벤트에 해당하는 리소스를 REST API에서 삭제하는 해당 이벤트의 게시도 취소할 수 있습니다.
 
 ![](assets/message-center_unpublish-template.png)
+
+이제 웹 사이트를 통해 이벤트가 트리거되더라도 해당 메시지는 더 이상 전송되지 않고 데이터베이스에 저장되지 않습니다.
 
 >[!NOTE]
 >
 >메시지를 다시 게시하려면 해당 이벤트 구성으로 돌아가서 게시한 다음 메시지를 게시해야 합니다. 자세한 내용은 트랜잭션 메시지 [게시를 참조하십시오](#publishing-a-transactional-message).
 
-일시 중지된 트랜잭션 메시지의 게시를 취소하는 경우 다시 게시하기 전에 최대 24시간을 기다려야 할 수 있습니다. 이는 **[!UICONTROL Database cleanup]** 워크플로우가 대기열로 전송된 모든 이벤트를 정리하도록 하기 위한 것입니다. 메시지 일시 중지 단계는 트랜잭션 메시지 [게시](#suspending-a-transactional-message-publication) 일시 중단 섹션에 자세히 설명되어 있습니다.
+일시 중지된 트랜잭션 메시지의 게시를 취소하는 경우 다시 게시하기 전에 최대 24시간을 기다려야 할 수 있습니다. 이는 **[!UICONTROL Database cleanup]** 워크플로우가 대기열로 전송된 모든 이벤트를 정리하도록 하기 위한 것입니다.
+
+메시지 일시 중지 단계는 트랜잭션 메시지 [게시](#suspending-a-transactional-message-publication) 일시 중단 섹션에 자세히 설명되어 있습니다.
 
 매일 오전 4시에 실행되는 **[!UICONTROL Database cleanup]** 워크플로우는 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** >를 통해 액세스할 수 있습니다 **[!UICONTROL Workflows]**.
 
 ## 트랜잭션 메시지 삭제 {#deleting-a-transactional-message}
 
+트랜잭션 메시지의 게시를 취소했거나 트랜잭션 메시지가 아직 게시되지 않은 경우 트랜잭션 메시지 목록에서 삭제할 수 있습니다. 이렇게 하려면:
+
+1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**&#x200B;를 선택합니다.
+1. 마우스를 원하는 메시지 위로 가져갑니다.
+1. 단추를 **[!UICONTROL Delete element]** 클릭합니다.
+
 ![](assets/message-center_delete-template.png)
 
-트랜잭션 메시지를 선택하면 이미 게시된 **[!UICONTROL Delete element]** 단추와 함께 삭제할 수 있습니다. 그러나 트랜잭션 메시지를 삭제하는 것은 특정 조건에서만 수행할 수 있습니다.
+그러나 트랜잭션 메시지를 삭제하는 것은 특정 조건에서만 수행할 수 있습니다.
 
-* **트랜잭션 메시지**:트랜잭션 메시지를 삭제하려면 메시지를 게시 취소하고 일시 중지하지 않아야 합니다.
+* 트랜잭션 메시지에 **[!UICONTROL Draft]** 상태가 있는지 확인하십시오. 그렇지 않으면 메시지를 삭제할 수 없습니다. 이 **[!UICONTROL Draft]** 상태는 아직 게시되지 않았거나 [게시](#unpublishing-a-transactional-message) 안 됨( [일시 중지되지 않음](#suspending-a-transactional-message-publication)) 메시지에 적용됩니다.
 
-   트랜잭션 메시지의 게시를 취소하면 다른 트랜잭션 메시지가 해당 이벤트에 연결되어 있지 않은 경우 트랜잭션 메시지를 성공적으로 삭제하려면 이벤트 구성의 게시를 취소해야 합니다. 트랜잭션 메시지의 게시 취소 방법에 대한 자세한 내용은 이 [섹션을](#unpublishing-a-transactional-message)참조하십시오.
+* **트랜잭션 메시지**:다른 트랜잭션 메시지가 해당 이벤트에 연결되어 있지 않은 경우 트랜잭션 메시지의 게시를 취소할 경우 트랜잭션 메시지를 삭제하려면 이벤트 구성도 게시 취소해야 합니다. 자세한 내용은 이벤트 [게시 취소를 참조하십시오](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이미 알림을 보낸 트랜잭션 메시지를 삭제하면 해당 전송 및 추적 로그도 삭제됩니다.
 
-* **즉시 사용 가능한 이벤트 템플릿의 트랜잭션 메시지(내부 트랜잭션 메시지)**:내부 트랜잭션 메시지를 삭제하려면 메시지를 게시 취소하고 일시 중지하지 않아야 합니다.
+* **즉시 사용 가능한 이벤트 템플릿의 트랜잭션 메시지(내부 트랜잭션 메시지)**:내부 트랜잭션 메시지가 해당 내부 이벤트와 연결된 유일한 메시지인 경우 삭제할 수 없습니다. 먼저 복제하거나 > **[!UICONTROL Resources]** **[!UICONTROL Templates]** **[!UICONTROL Transactional message templates]** 메뉴를 통해 다른 트랜잭션 메시지를 만들어야 합니다.
 
-   또한 이벤트에 트랜잭션 메시지만 있으면 안 됩니다. 다른 메시지는 해당 이벤트에 연결되어 있어야 합니다.
+## 트랜잭션 메시지 다시 시도 프로세스 {#transactional-message-retry-process}
 
-## 트랜잭션 메시지 재시도 프로세스 {#transactional-message-retry-process}
-
-배달되지 않은 트랜잭션 메시지는 배달이 만료될 때까지 자동으로 다시 시도합니다. 배달 기간에 대한 자세한 내용은 유효 [기간 매개 변수를](../../administration/using/configuring-email-channel.md#validity-period-parameters)참조하십시오.
+배달되지 않은 트랜잭션 메시지는 배달이 만료될 때까지 자동으로 다시 시도할 수 있습니다. 배달 기간에 대한 자세한 내용은 유효 [기간 매개 변수를](../../administration/using/configuring-email-channel.md#validity-period-parameters)참조하십시오.
 
 트랜잭션 메시지가 전송되지 않으면 두 개의 재시도 시스템이 있습니다.
 
