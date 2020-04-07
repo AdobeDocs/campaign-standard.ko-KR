@@ -12,7 +12,7 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -77,7 +77,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 특정 기준을 기반으로 다른 사용자 그룹에 알림을 전송하려면 여러 개의 대시보드를 사용해야 합니다. 새 대시보드를 만들려면:
 
-1. &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**&#x200B;로 이동합니다.
+1. > **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**&#x200B;로 이동합니다.
 1. 을 선택하고 **[!UICONTROL Delivery alerting dashboards]** 클릭합니다 **[!UICONTROL Create]**.
 1. 현재 대시보드를 활성화하려면 **[!UICONTROL Enabled]** 확인란을 선택합니다.
 
@@ -96,7 +96,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 ### 경고 기준 정보 {#about-alerting-criteria}
 
-전달 경고 기준에 액세스하려면 **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]** 로 이동하여 **[!UICONTROL Delivery alerting criteria]**&#x200B;선택합니다.
+전달 경고 기준에 액세스하려면 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** 로 이동하여 **[!UICONTROL Delivery alerting criteria]**&#x200B;선택합니다.
 
 ![](assets/delivery-alerting_criteria.png)
 
@@ -146,7 +146,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 이렇게 하려면 먼저 배달 **리소스를 확장하고** 새 필터를 추가하여 **[!UICONTROL Finished]** 상태가 있는 게재만 선택할 수 있습니다.
 
-1. Adobe Campaign &gt; **관리** &gt; **개발** &gt; **개발** &gt; 사용자 지정 **리소스 및** **[!UICONTROL Create]**&#x200B;사용자 지정 클릭으로 이동합니다.
+1. Adobe Campaign > **관리** > **개발** > **개발** > 사용자 지정 **리소스 및** **[!UICONTROL Create]**&#x200B;사용자 지정 클릭으로 이동합니다.
 1. 을 **[!UICONTROL Extend an existing resource]**&#x200B;선택하고 드롭다운 목록에서 **[!UICONTROL Delivery]** 리소스를 선택한 다음 을 클릭하여 **[!UICONTROL Create]** 편집합니다.
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
@@ -167,7 +167,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
    필터가 만들어지며 이제 새 배달 경고 기준에서 선택할 수 있습니다.
 
-1. &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**&#x200B;로 이동하여 **[!UICONTROL Delivery alerting criteria]** 선택하고 **[!UICONTROL Create]**&#x200B;클릭합니다.
+1. > **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**&#x200B;로 이동하여 **[!UICONTROL Delivery alerting criteria]** 선택하고 **[!UICONTROL Create]**&#x200B;클릭합니다.
 1. 드롭다운 **[!UICONTROL Delivery filter applied by this criterion]** 목록에서 방금 만든 필터를 선택합니다.
 
    ![](assets/delivery-alerting_cus-filter.png)
@@ -213,7 +213,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 이 **[!UICONTROL Frequency of delivery alerting]** 옵션을 사용하면 두 경고 전송 사이의 지연을 정의할 수 있습니다. 기본적으로 10분으로 설정됩니다.
 
-이 설정은 **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** 메뉴를 통해 변경할 수 있습니다.
+이 설정은 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 메뉴를 통해 변경할 수 있습니다.
 
 >[!NOTE]
 >
@@ -245,7 +245,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
    * 개인화 필드에 잘못된 구문이 있습니다.
    * 타겟이 없습니다.
    * 배달이 크기 제한을 초과합니다.
-   자세한 내용은 전송 [준비를](../../sending/using/preparing-the-send.md)참조하십시오. 하지만 이러한 오류는 일반적으로 메시지 분석 중에 발견되었습니다. 제어 [규칙을](../../administration/using/control-rules.md)참조하십시오.
+   자세한 내용은 전송 [준비를](../../sending/using/preparing-the-send.md)참조하십시오. 하지만 이러한 오류는 일반적으로 메시지 분석 중에 발견되었습니다. 제어 [규칙을](../../sending/using/control-rules.md)참조하십시오.
 
 * 경고의 가능한 원인은 다음과 **[!UICONTROL Delivery with bad error ratio for soft bounces]** 같습니다.
 
@@ -261,7 +261,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
    * 받는 사람의 서버가 배달을 차단하고 있습니다.
    소프트 및 하드 바운스 오류를 방지하려면 아래 우수 사례를 따르십시오.
 
-   * 격리된 받는 사람과 같은 배달 분석 중에 메시지 대상의 한 부분을 제외하는 필터링 유형 규칙을 만듭니다. 필터링 [규칙](../../administration/using/filtering-rules.md)만들기를 참조하십시오.
+   * 격리된 받는 사람과 같은 배달 분석 중에 메시지 대상의 한 부분을 제외하는 필터링 유형 규칙을 만듭니다. 필터링 [규칙](../../sending/using/filtering-rules.md)만들기를 참조하십시오.
    * 고객 데이터베이스를 정기적으로 업데이트하여 철저한 격리 관리 프로세스를 유지할 수 있습니다. 검역을 [참조하십시오](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * 일반적으로 말해서, 가능한 한 최상의 결과물을 얻을 수 있습니다. Adobe Campaign 전달 [기능에](../../sending/using/about-deliverability.md) 대한 자세한 설명서를 참조하고 Adobe Campaign 관리자에게 문의하십시오.
 
