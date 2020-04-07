@@ -1,18 +1,18 @@
 ---
 title: 보내기 준비
 description: 보내기 전에 준비 사항을 정의하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 1038dae2-164c-4579-9294-bdf2a4eb12d6
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보내기
+audience: sending
 content-type: reference
-topic-tags: preparing and-testing-messages
+topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 **유형 규칙**
 
-Adobe Campaign은 메시지 준비 중에 적용되는 빌드-인 유형 규칙 세트와 함께 제공됩니다. 메시지가 유효한지, 품질 기준을 충족하는지 확인하는 데 사용됩니다. 유형 [지정을 참조하십시오](../../administration/using/about-typology-rules.md). 예를 들어, 고유한 유형 규칙을 정의할 수 있습니다. 예를 들어, 캠페인에서 과도한 프로필을 자동으로 제외시키는 전역 크로스 채널 피로 규칙을 설정할 수 있습니다. 피로 [규칙을](../../administration/using/fatigue-rules.md)참조하십시오.
+Adobe Campaign은 메시지 준비 중에 적용되는 빌드-인 유형 규칙 세트와 함께 제공됩니다. 메시지가 유효한지, 품질 기준을 충족하는지 확인하는 데 사용됩니다. 유형 [지정을 참조하십시오](../../sending/using/about-typology-rules.md). 예를 들어, 고유한 유형 규칙을 정의할 수 있습니다. 예를 들어, 캠페인에서 과도한 프로필을 자동으로 제외시키는 전역 크로스 채널 피로 규칙을 설정할 수 있습니다. 피로 [규칙을](../../sending/using/fatigue-rules.md)참조하십시오.
 
 **SMS 메시지 확인**
 
