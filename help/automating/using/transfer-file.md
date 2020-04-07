@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 
 ---
 
@@ -43,7 +43,8 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
    * **파일 다운로드**:파일을 다운로드할 수 있습니다.
    * **파일 업로드**:파일을 업로드할 수 있습니다. Adobe Campaign 파일에서 파일을 업로드하면 **[!UICONTROL Export audits]** 메뉴에서 로그 항목이 생성됩니다. 내보내기 감사에 대한 자세한 내용은 감사 내보내기 [섹션을](../../administration/using/auditing-export-logs.md) 참조하십시오.
    * **파일이 있는지**&#x200B;테스트:파일이 있는지 확인할 수 있습니다.
-   * **파일 목록**:adobe Campaign에 있는 파일을 나열할 수 있습니다.
+   * **파일 목록**:탭에 정의된 서버에 있는 파일을 나열할 수 **[!UICONTROL Protocol]** 있습니다. 이 작업은 주로 디버깅을 위해 사용되며 원격 서버에서 파일을 다운로드하기 전에 사용자의 요구 사항에 따라 활동이 구성되어 있는지 확인합니다.
+
 1. 사용할 프로토콜을 선택합니다.
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
@@ -55,7 +56,7 @@ source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**:이 옵션은 **[!UICONTROL File listing]** 작업을 선택할 때 사용할 수 있습니다. 이 변수를 사용하면 서버에 있는 모든 파일을 **vars.filenames** 이벤트 변수에서 파일 이름이 **&#39;n&#39;** 문자로 구분되는 인덱스를 만들 수 있습니다.
+   * **[!UICONTROL List all files]**:이 옵션은 **[!UICONTROL File listing]** 작업을 선택할 때 사용할 수 있습니다. **[!UICONTROL General]** . 이 변수를 사용하면 서버에 있는 모든 파일을 **vars.filenames** 이벤트 변수에서 파일 이름이 **&#39;n&#39;** 문자로 구분되는 인덱스를 만들 수 있습니다.
 
 1. 이 **[!UICONTROL If no files are found]** 탭의 **[!UICONTROL Advanced options]** 섹션에서 활동이 시작될 때 오류나 존재하지 않는 파일이 감지되면 특정 작업을 구성할 수 있습니다.
 
