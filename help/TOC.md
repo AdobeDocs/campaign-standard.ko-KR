@@ -2,9 +2,9 @@
 product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help
+user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
+source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 
 ---
 
@@ -168,6 +168,13 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [기술 추천](sending/using/technical-recommendations.md)
       + [게재 기능 모니터링](sending/using/monitor-deliverability.md)
       + [문제 해결](sending/using/troubleshooting.md)
+   + 유형화 규칙 작업 {#working-with-typology-rules}
+      + [유형 및 유형 규칙 정보](sending/using/about-typology-rules.md)
+      + [유형 관리](sending/using/managing-typologies.md)
+      + [유형 규칙 관리](sending/using/managing-typology-rules.md)
+      + [필터링 규칙](sending/using/filtering-rules.md)
+      + [피로도 규칙](sending/using/fatigue-rules.md)
+      + [제어 규칙](sending/using/control-rules.md)
 + 보고 {#reporting}
    + 보고 기본 정보 {#about-reporting}
       + [동적 보고서 기본 정보](reporting/using/about-dynamic-reports.md)
@@ -230,12 +237,12 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [트리거 테스트](integrating/using/testing-your-triggers.md)
       + [포기 트리거 사용 사례](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 및 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365용 Adobe IO 통합 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Campaign Standard 및 Microsoft Dynamics 365 작업 {#working-with-campaign-standard-and-ms-dynamics}
          + [Campaign Standard 및 Microsoft Dynamics 365 작업](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [알림 및 추천](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Campaign Standard 통합을 통해 Microsoft Dynamics 365 요청 및 구성](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Microsoft Dynamics 365와 Campaign Standard 통합 사용](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Microsoft Dynamics 365용 Adobe IO 통합 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Microsoft Dynamics 365 for Campaign 통합 구성](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Microsoft Dynamics 365용 Unifi 통합 구성](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [캠페인 사용자 지정 리소스 및 Dynamics 365 사용자 지정 엔터티 매핑](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -371,11 +378,6 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [SMS 채널 구성](administration/using/configuring-sms-channel.md)
       + [모바일 애플리케이션 구성](administration/using/configuring-a-mobile-application.md)
       + [트랜잭션 메시지 구성](administration/using/configuring-transactional-messaging.md)
-   + 유형화 규칙 작업 {#working-with-typology-rules}
-      + [유형화 규칙 기본 정보](administration/using/about-typology-rules.md)
-      + [필터링 규칙](administration/using/filtering-rules.md)
-      + [피로도 규칙](administration/using/fatigue-rules.md)
-      + [제어 규칙](administration/using/control-rules.md)
    + 애플리케이션 설정 {#application-settings}
       + [Campaign Standard 설정 기본 정보](administration/using/about-campaign-standard-settings.md)
       + [외부 계정](administration/using/external-accounts.md)
