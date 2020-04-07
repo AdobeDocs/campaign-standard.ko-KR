@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 8111dfd2fd3cf254f73d0b01917d606b0a70aa84
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 
 일부 특정 구성은 알림 동작을 정의하도록 설정할 수 있습니다. For more on this, refer to [this section](../../channels/using/customizing-a-push-notification.md).
 
-전문 사용자는 이러한 특정 구성을 정의하려면 모바일 앱 [기술 정보를 참조하십시오](https://helpx.adobe.com/campaign/kb/acs-article-list.html).
+전문 사용자는 이러한 특정 구성을 정의하려면 모바일 앱 [기술 정보를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 * [푸시 알림 준비 및 보내기](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [다국어 푸시 알림 만들기](../../channels/using/creating-a-multilingual-push-notification.md)
 * [푸시 알림 보고서](../../reporting/using/push-notification-report.md)
-* [Campaign Standard 모바일 안내서](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Campaign Standard 모바일 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)
 
 ## 사전 요구 사항 {#prerequisites}
 
@@ -61,21 +61,18 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 >Campaign의 푸시 알림 기능을 활용하려면 암호가 없는 .pem 형식의 유효한 푸시 인증서를 제공해야 합니다.
 유효한 p12 인증서가 있는 경우 온라인 리소스를 사용하여 .pem 파일로 손쉽게 변환할 수 있습니다.
 
-먼저 푸시 알림 전송을 시작하려면 Experience Platform SDK를 사용하여 모바일 애플리케이션을 구성해야 합니다. 자세한 내용은 이 [페이지를](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)참조하십시오.
-
 푸시 알림을 전송하기 전에 다음을 수행해야 합니다.
 
-1. Adobe Campaign에서 **[!UICONTROL Mobile app]** 채널에 액세스할 수 있는지 확인하십시오.
-1. 모바일 응용 프로그램을 구성하는 방법:
+1. Adobe Campaign에서 채널에 액세스할 수 있는지 확인합니다. **[!UICONTROL Push notification]** 이러한 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
 
-   * Adobe Campaign
-   * Adobe Mobile Services 인터페이스
+1. Adobe Campaign Standard 및 Experience Platform Launch에서 사용자에게 필요한 권한이 있는지 확인합니다.
 
-1. 모바일 응용 프로그램의 특정 설정을 수행합니다.
+1. Experience Platform Launch에서 모바일 속성을 만듭니다. 자세한 내용은 모바일 [속성](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)설정을 참조하십시오.
 
-   * Adobe Mobile Services 인터페이스에서 다운로드한 구성 파일을 모바일 응용 프로그램과 함께 패키징합니다.
-   * Experience Cloud Mobile SDK를 모바일 애플리케이션에 통합합니다.
+1. Experience Platform Launch에서 **[!UICONTROL Adobe Campaign Standard]** 익스텐션을 설치합니다.
 
-1. 애플리케이션의 가입자로부터 수집할 데이터를 정의합니다. Adobe Campaign 데이터베이스에 프로필이 있는 모바일 응용 프로그램의 구독자는 정의한 기준에 따라 조정됩니다.
+1. Adobe Campaign Standard에서 Experience Platform Launch에서 만든 모바일 속성을 구성합니다. 자세한 내용은 Adobe [Campaign에서 Experience Platform Launch 애플리케이션 설정을 참조하십시오](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
 
-모바일 애플리케이션을 구성한 후 이제 인앱 메시지 준비 및 전송을 시작할 수 있습니다. 자세한 내용은 푸시 알림 [준비 및 전송을 참조하십시오](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. 모바일 애플리케이션 설정에 채널별 구성을 추가합니다. 자세한 내용은 Adobe Campaign [의 채널별 애플리케이션 구성을 참조하십시오](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+
+1. 모바일 사용 사례 구현을 지원하려면 Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 [지원되는 Mobile 사용 사례의 확장, Experience Platform 시작 규칙 및 SDK 구현에 대한 자세한 지침을 참조하십시오](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
