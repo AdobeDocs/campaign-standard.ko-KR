@@ -1,18 +1,18 @@
 ---
 title: 프로필 트랜잭션 메시지
 description: 프로필 트랜잭션 메시지를 만들고 게시하는 방법에 대해 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 트랜잭션 메시지
+topic-tags: transactional-messaging
 discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 고객 마케팅 프로필을 기반으로 트랜잭션 메시지를 전송할 수 있으므로 다음과 같은 작업을 수행할 수 있습니다.
 
-* 마케팅 유형 규칙(예: **[!UICONTROL Blacklisted address]** 또는 [피로 규칙](../../administration/using/fatigue-rules.md))을 적용합니다.
+* 마케팅 유형 규칙(예: **[!UICONTROL Blacklisted address]** 또는 [피로 규칙](../../sending/using/fatigue-rules.md))을 적용합니다.
 * 메시지 내에 구독 취소 링크를 포함합니다.
 * 트랜잭션 메시지를 전역 배달 보고에 추가합니다.
 * 고객 여정의 트랜잭션 메시지 활용
@@ -36,7 +36,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >트랜잭션 메시지에 액세스하려면 **[!UICONTROL Administrators (all units)]** 보안 그룹의 일부여야 합니다.
 >
->피로 규칙은 프로필 트랜잭션 메시지와 호환됩니다. 피로 [규칙을](../../administration/using/fatigue-rules.md)참조하십시오.
+>피로 규칙은 프로필 트랜잭션 메시지와 호환됩니다. 피로 [규칙을](../../sending/using/fatigue-rules.md)참조하십시오.
 
 ## 프로필 트랜잭션 메시지 보내기 {#sending-a-profile-transactional-message}
 
@@ -84,5 +84,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 **관련 항목**:
 
 * [사이트 통합](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [유형 지정](../../administration/using/about-typology-rules.md)
+* [유형 지정](../../sending/using/about-typology-rules.md)
 
