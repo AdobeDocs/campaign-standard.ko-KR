@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ## 이메일 채널 매개 변수 {#email-channel-parameters}
 
-이메일 구성 화면에서는 이메일 채널에 대한 매개 변수를 정의할 수 있습니다.
+이메일 구성 화면에서는 이메일 채널에 대한 매개 변수를 정의할 수 있습니다. 관리자는 **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]**메뉴에서 이러한 구성에 액세스할 수 있습니다.
 
 ![](assets/channels_1.png)
 
@@ -38,23 +38,29 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
    Adobe Campaign은 시작 날짜에 시작되는 메시지를 전송합니다. 이 **[!UICONTROL Message delivery duration]** 필드를 사용하면 메시지를 보낼 기간을 지정할 수 있습니다.
 
+   >[!IMPORTANT]
+   >
+   >Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)캠페인 게재의 **[!UICONTROL Message delivery duration]** 매개 변수가 3.5일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+
    이 **[!UICONTROL Online resources validity duration]** 필드는 업로드된 리소스에 대해 주로 미러 페이지 및 이미지에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하려면).
 
 * **재시도**
 
-   일시적으로 배달되지 않은 메시지는 자동으로 다시 시도됩니다. 이 섹션은 전송을 시작한 다음 날 수행해야 하는 재시도 횟수(**재시도**&#x200B;횟수)와 재시도 사이의 최소 지연(**재시도 기간**)을 나타냅니다.
+   일시적으로 배달되지 않은 메시지는 자동으로 다시 시도됩니다. 자세한 내용은 배달 임시 실패 [후 재시도를](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)참조하십시오.
 
-   기본적으로 5회 재시도 횟수는 최소 1시간의 간격과 함께 하루 24시간 동안 분산됩니다. 일별 1회 재시도는 그 후 **[!UICONTROL Delivery parameters]** 섹션에 정의된 배달 마감일까지 프로그래밍됩니다.
+   >[!IMPORTANT]
+   >
+   >Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Campaign의 **재시도** 설정이 무시됩니다. 전송을 시작한 **[!UICONTROL Number of retries]** 날(재시도 횟수)와 IP가 과거 및 현재 지정된 도메인에서 모두 얼마나 잘 수행되는지를 기준으로, 향상된 MTA가 **[!UICONTROL Retry period]** 관리하는 경우(재시도 사이의 최소 지연)
+
+   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **이메일 격리 매개 변수**
 
-   실패 시 오류 카운터를 증가시키기 전에 응용 프로그램이 대기하는 시간을 정의하는 값을 **[!UICONTROL Time between two significant errors]** 필드에 입력합니다. 기본값:1일 동안 **&quot;1d&quot;**.
+   실패 시 오류 카운터를 증가시키기 전에 응용 프로그램이 대기하는 시간을 정의하는 값을 **[!UICONTROL Time between two significant errors]** 필드에 입력합니다. 기본값은 1일 동안 **&quot;1d&quot;**&#x200B;입니다.
 
-   값이 **[!UICONTROL Maximum number of errors before quarantine]** 도달하면 이메일 주소가 격리됩니다. 기본값: **&quot;5&quot;**:6번째 오류 시 주소가 격리됩니다. 즉, 연락처는 후속 배달에서 자동으로 제외됩니다.
+   값이 **[!UICONTROL Maximum number of errors before quarantine]** 도달하면 이메일 주소가 격리됩니다. 기본값은 **&quot;5&quot;**:다섯 번째 오류 때문에 주소가 격리될 것이다. 즉, 연락처는 후속 배달에서 자동으로 제외됩니다.
 
-**관련 항목**:
-
-[스팸 차단 관리 이해](../../sending/using/understanding-quarantine-management.md)
+   검역에 대한 자세한 내용은 검역 [관리](../../sending/using/understanding-quarantine-management.md)이해를 참조하십시오.
 
 ## 이메일 라우팅 계정 {#email-routing-accounts}
 
@@ -84,7 +90,7 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 >[!IMPORTANT]
 >
->향상된 MTA로 업그레이드하면 캠페인 테이블의 바운스 자격 **[!UICONTROL Message qualification]** 조건은 더 이상 사용되지 않습니다. 바운스 메일 자격에 대한 자세한 내용은 이 [섹션을](../../sending/using/understanding-delivery-failures.md)참조하십시오.
+>향상된 MTA로 업그레이드하면 캠페인 테이블의 바운스 자격 **[!UICONTROL Message qualification]** 조건은 더 이상 사용되지 않습니다. 바운스 메일 자격에 대한 자세한 내용은 이 [섹션을](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)참조하십시오.
 
 <!--The user can create his own rules.
 
@@ -193,11 +199,19 @@ The following parameters are available for each rule:
 
 #### 재시도 매개 변수 {#retries-parameters}
 
-일시적으로 배달되지 않은 메시지는 자동으로 다시 시도됩니다. 이 섹션은 전송을 시작한 다음 날 수행해야 하는 재시도 횟수와 재시도 사이의 최소 지연( **[!UICONTROL Max. number of retries]** **[!UICONTROL Retry period]** )을 나타냅니다.
+일시적으로 배달되지 않은 메시지는 자동으로 다시 시도됩니다. 자세한 내용은 배달 임시 실패 [후 재시도를](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)참조하십시오.
 
-기본적으로 5회 재시도 횟수는 최소 1시간의 간격과 함께 하루 24시간 동안 분산됩니다. 1일 1회 재시도는 그 후 및 배달 마감일까지 프로그래밍되며, 이것은 유효성 기간 매개 변수 [](#validity-period-parameters) 섹션에 정의됩니다.
+>[!IMPORTANT]
+>
+>Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Campaign의 **재시도** 설정이 무시됩니다. IP가 이전 **[!UICONTROL Retry period]** 및 현재 주어진 도메인에서 얼마나 잘 수행되고 있는지를 기준으로, (재시도 사이의 최소 지연) **[!UICONTROL Max. number of retries]** 및 (전송을 시작한 날로부터 얼마나 많은 재시도가 수행되어야 하는지) 향상된 MTA가 관리합니다.
 
-전체(Adobe 기술 관리자에게 문의) 또는 각 배달 또는 배달 템플릿의 재시도 횟수를 변경할 수 있습니다.
+<!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
+
+By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
+
+The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
+
+추진력은 Campaign의 배달 기간 설정(유효 기간 매개 변수 [섹션에](#validity-period-parameters) 정의됨)을 준수하지만 최대 3.5일만 적용됩니다. 이 시점에서 재시도 큐의 모든 메시지는 대기열에서 제거되고 다시 바운스로 전송됩니다. 배달 실패에 대한 자세한 내용은 이 [섹션을](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)참조하십시오.
 
 #### 이메일 형식 매개 변수 {#email-format-parameters}
 
@@ -236,17 +250,19 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
 
 ![](assets/delivery-validity-period.png)
 
-* **[!UICONTROL Explicitly set validity dates]**:이 상자를 선택하지 않으면 **[!UICONTROL Delivery duration]** 및 **[!UICONTROL Resource validity limit]** 필드에 기간을 입력해야 합니다. 특정 시간과 날짜를 정의하려면 이 상자를 선택합니다.
+* **[!UICONTROL Explicitly set validity dates]**:이 상자를 선택하지 않으면 **[!UICONTROL Delivery duration]** 및 **[!UICONTROL Resource validity limit]** 필드에 기간을 입력해야 합니다.
+
+   특정 시간과 날짜를 정의하려면 이 상자를 선택합니다.
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**:Adobe Campaign은 시작 날짜에 시작되는 메시지를 전송합니다. 이 필드를 사용하면 메시지를 보낼 수 있는 기간을 지정할 수 있습니다.
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**:Adobe Campaign은 시작 날짜에 시작되는 메시지를 전송합니다. 이 필드를 사용하면 메시지를 보낼 수 있는 기간을 지정할 수 있습니다.
 
    >[!IMPORTANT]
    >
-   >향상된 MTA로 업그레이드하면 캠페인 게재의 **[!UICONTROL Delivery duration]** 매개 변수가 3.5일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다. 모든 영향은 Adobe Campaign 향상된 [MTA 문서에 자세히](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 설명되어 있습니다.
+   >Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)캠페인 게재의 **[!UICONTROL Delivery duration]** 매개 변수가 3.5일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
-* **[!UICONTROL Resource validity duration]**:이 필드는 주로 미러 페이지 및 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하려면).
+* **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**:이 필드는 주로 미러 페이지 및 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하려면).
 * **[!UICONTROL Mirror page management]**:미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 컨텐츠는 이메일 컨텐츠와 동일합니다. 기본적으로 링크가 메일 컨텐츠에 삽입된 경우 미러 페이지가 생성됩니다. 이 필드를 사용하면 이 페이지가 생성되는 방식을 수정할 수 있습니다.
 
    >[!IMPORTANT]
@@ -302,7 +318,7 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
 
    >[!NOTE]
    >
-   >> **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 메뉴를 통해 액세스할 수 있는 유형 분류는 유형 지정 [섹션에](../../administration/using/about-typology-rules.md) 표시됩니다.
+   >> **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 메뉴를 통해 액세스할 수 있는 유형 분류는 유형 지정 [섹션에](../../sending/using/about-typology-rules.md) 표시됩니다.
 
 * **[!UICONTROL Compute the label during delivery preparation]**:개인화 필드, 컨텐츠 블록 및 동적 텍스트를 사용하여 메시지 준비 단계 동안 이메일의 레이블 값을 계산할 수 있습니다.
 
