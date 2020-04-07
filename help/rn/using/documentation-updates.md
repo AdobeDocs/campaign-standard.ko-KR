@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
+source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
 
 ---
 
@@ -35,6 +35,13 @@ Adobe Experience Platform Data Connector 설명서에는 ECID(Experience Cloud I
 
 트랜잭션 메시징 구성 섹션이 최신 트랜잭션 이벤트 및 업데이트된 스크린샷에 액세스하는 방법에 대한 정보를 제공하여 향상되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
+유형 및 유형 분류 규칙과 관련된 섹션이 바로 사용 가능한 유형 규칙에 대한 추가 정보로 개선되고 업데이트되었습니다. [자세한 내용](../../sending/using/about-typology-rules.md)
+
+활동의 작업에 대한 정보가 **[!UICONTROL Transfer file]** 추가되었습니다 **!UICONTROL File listing]** . [자세한 내용](../../automating/using/transfer-file.md)
+
+배달 임시 실패 후 재시도에 대한 설명서가 업데이트되었으며, 향상된 MTA로 업그레이드한 후 재시도를 관리하는 방법에 대한 자세한 내용이 추가되었습니다. [자세한 내용](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
+
+트랜잭션 메시지 삭제 섹션이 개선되어 명확해졌습니다. [자세한 내용](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 ## 릴리스 20.2 - 2020년 3월 {#release-20-2---march-2020}
 
@@ -72,7 +79,7 @@ Azure Blob 통합 - [자세한 내용 보기](../../administration/using/externa
 
 Adobe Campaign Standard/Adobe Experience Manager 통합 문서가 업데이트되고 개선되었습니다. [자세한 내용](../../integrating/using/configure-experience-manager.md)
 
-캠페인 이메일 디자이너 문서 및 관련 페이지가 Adobe Creative SDK 감가 상각률을 반영하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+캠페인 이메일 디자이너 문서 및 관련 페이지가 Adobe Creative SDK 감가 상각률을 반영하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
 
 이제 Campaign Standard 데이터 모델 우수 사례 전용 섹션을 사용할 수 있습니다. [자세한 내용](../../developing/using/data-model-best-practices.md)
 
@@ -116,7 +123,7 @@ IP 인증에 대한 새로운 섹션으로 제공 설명서를 업데이트했�
 
 동적 보고서의 지표 계산 섹션이 업데이트되었습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
-Adobe Campaign Standard의 모바일 게재에 대한 일반 가이드라인에 대한 새 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+Adobe Campaign Standard의 모바일 게재에 대한 일반 가이드라인에 대한 새 페이지가 추가되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)
 
 캠페인 및 Experience Manager를 사용한 작업 설명서가 Campaign-Experience **Manager 통합을**&#x200B;사용하는 방법에 대한 팁 단원으로 업데이트되었습니다. [자세한 내용](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
@@ -138,7 +145,7 @@ Campaign Standard의 워크플로우를 사용하여 제어 그룹을 만드는 
 
 랜딩 페이지의 속성과 관련된 정보가 전용 섹션으로 이동되었습니다. [자세한 내용](../../channels/using/configuring-landing-page.md)
 
-Control Panel 문서는 새로운 협업 설명서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Control Panel 문서는 새로운 협업 설명서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
 지표 **계산** 테이블이 업데이트되었습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
@@ -146,7 +153,7 @@ API 설명서 세트는 Campaign Standard 설명서에 통합되었습니다.[�
 
 개인화된 이메일 만들기 시작 안내서가 이동되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
-배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+배포 우수 사례 시작 안내서가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
 
 데이터 모델은 Campaign Standard 설명서에 통합되었습니다. [자세한 내용](../../developing/using/datamodel-audience.md)
 
@@ -168,7 +175,7 @@ GDPR 시작 가이드가 개선되었으며 더욱 향상되었습니다. 이제
 
 트랜잭션 메시징 게시 프로세스를 설명하는 새 차트가 추가되었습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-시작 안내서가 이동되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+시작 안내서가 이동되고 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
 
 새 섹션이 추가되었습니다. Adobe Campaign Standard 데이터베이스를 보완할 수 있는 다양한 방법에 대한 개요를 제공합니다. [자세한 내용](../../start/using/enriching-campaign-database.md)
 
@@ -220,7 +227,7 @@ Launch_ **URL_Campaign** 옵션에 대한 메모가 페이지에 추가되었습
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-이제 Campaign Standard 구현 안내서가 라이브됩니다.[자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+이제 Campaign Standard 구현 안내서가 라이브됩니다.[자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-standard-implementation-guide.html)
 
 Microsoft Dynamics 365 커넥터 구현 및 사용에 대한 새 도움말 아티클이 만들어졌습니다. 이 기능은 현재 제한된 가용성에 있습니다.[자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -266,7 +273,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트�
 
 **릴리스에 포함된 새로운 기능**
 
-제어판 - [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+제어판 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
 로컬 알림 - [자세한 내용](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -278,7 +285,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트�
 
 도메인 이름 위임 아티클이 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
-예정된 릴리스 날짜를 공유하기 위해 새로운 릴리스 계획 아티클이 게시되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+예정된 릴리스 날짜를 공유하기 위해 새로운 릴리스 계획 아티클이 게시되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html)
 
 Adobe Campaign에서 바로 사용할 수 있는 상황에 맞는 도움말 링크가 업데이트되었습니다.
 
@@ -326,7 +333,7 @@ SMS [커넥터 프로토콜 및 설정](https://helpx.adobe.com/campaign/kb/sms-
 
 시작하기 안내서가 풍부해지고 재구성되었습니다. [자세한 내용](../../start/using/campaign-orchestration.md)
 
-더 이상 사용되지 않음 및 제거된 기능 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+더 이상 사용되지 않음 및 제거된 기능 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
 
 Dreamweaver 통합 섹션이 업데이트되고 향상되었습니다. [자세한 내용](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -432,7 +439,7 @@ Adobe Experience Platform SDK를 사용하여 모바일 애플리케이션 구�
 
 인앱 메시지(베타) - [자세한 내용](../../channels/using/about-in-app-messaging.md)
 
-모바일 앱용 Adobe Launch 통합(베타) - [자세한 내용](../../administration/using/about-typology-rules.md#typology-rules)
+모바일 앱용 Adobe Launch 통합(베타) - [자세한 내용](../../sending/using/about-typology-rules.md#typology-rules)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -446,7 +453,7 @@ Adobe Experience Platform SDK를 사용하여 모바일 애플리케이션 구�
 
 **릴리스에 포함된 새로운 기능**
 
-[모바일 앱 가입자에 대한 높은 우선 순위 플래그](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 및 [유형](../../administration/using/about-typology-rules.md#typology-rules) 필터를 참조하십시오.
+[모바일 앱 가입자에 대한 높은 우선 순위 플래그](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 및 [유형](../../sending/using/about-typology-rules.md#typology-rules) 필터를 참조하십시오.
 
 준비 시 URL에서 자동 컨텐츠 가져오기 [자세한 내용](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -464,7 +471,7 @@ Creative Designer를 완벽하게 준수하기 위한 HTML 속성 목록을 이�
 
 다국어 템플릿의 기본 언어에 대한 정보가 추가되었습니다. [자세한 내용](../../channels/using/multilingual-messages-template.md)
 
-사용자 및 보안 안내서는 18.7 릴리스부터 새 캠페인 표준 인스턴스에 대한 지리적 단위 기능 감가 상각뿐만 아니라 지리적 단위를 만들지 않은 기존 인스턴스에 반영하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+사용자 및 보안 안내서는 18.7 릴리스부터 새 캠페인 표준 인스턴스에 대한 지리적 단위 기능 감가 상각뿐만 아니라 지리적 단위를 만들지 않은 기존 인스턴스에 반영하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## 릴리스 18.6 - 2018년 6월 {#release-18-6---june-2018}
 
@@ -570,7 +577,7 @@ Campaign 및 Adobe 솔루션 통합에 대한 대부분의 URL이 변경되었�
 
 릴리스 노트는 여러 페이지에서 재구성되었으므로 서로 다른 모든 릴리스를 보다 전체적으로 볼 수 있습니다.
 
-향상된 가시성을 위해 **[!UICONTROL Working with typologies]** 섹션이 업데이트되었습니다. [자세한 내용](../../administration/using/about-typology-rules.md)
+향상된 가시성을 위해 **[!UICONTROL Working with typologies]** 섹션이 업데이트되었습니다. [자세한 내용](../../sending/using/about-typology-rules.md)
 
 이제 한 번에 많은 추가 데이터를 정의할 때 성능을 얻을 수 있는 새로운 옵션을 사용할 **[!UICONTROL Query]** 수 있습니다. [자세한 내용](../../automating/using/query.md)
 
@@ -600,7 +607,7 @@ SMS 자동 회신 사용 방법에 대한 단계별 사용 사례를 추가했�
 
 **릴리스에 포함된 새로운 기능**
 
-피로 관리 보고 - [자세한 내용](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+피로 관리 보고 - [자세한 내용](../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
 보고서 공유 - [자세한 내용](../../reporting/using/reporting-interface.md#share-tab)
 
@@ -628,7 +635,7 @@ Audience Manager 또는 사용자 핵심 서비스와의 통합을 구성하는 
 
 **릴리스에 포함된 새로운 기능**
 
-피로 관리 - [자세한 내용](../../administration/using/fatigue-rules.md)
+피로 관리 - [자세한 내용](../../sending/using/fatigue-rules.md)
 
 콘텐츠 제작:URL에서 가져오기 - [자세한 내용](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
