@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 ---
 
@@ -137,7 +137,7 @@ Campaign에서 고객의 사용자 지정 리소스는 왼쪽 **[!UICONTROL Adob
 
 다음으로 사용자 지정 리소스의 연결을 지정합니다.  이 경우, Adobe는 **[!UICONTROL Vehicles]** 사용자 지정 엔티티(소스)에서 프로필 엔티티(대상)에 대한 링크를 a를 사용하여 **[!UICONTROL 1 cardinality simple link]**&#x200B;선택했습니다.
 
-(../assets/DefineTheLink.png)
+![](assets/DefineTheLink.png)
 
 1. 화면에서 **[!UICONTROL Link definitions]** 삭제 옵션을 선택합니다. **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** Adobe 프로필이 삭제되면 해당 프로필에 연결된 모든 **[!UICONTROL Vehicle]** 레코드도 삭제되도록 이 옵션을 선택합니다.
 1. 에서 **[!UICONTROL Join Definitions]**&#x200B;을 선택합니다 **[!UICONTROL Define specific join conditions]**.
