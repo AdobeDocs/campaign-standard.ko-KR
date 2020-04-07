@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
    >[!NOTE]
    >
-   >캠페인에서 과다 복제된 프로파일을 자동으로 제외시키는 글로벌 크로스 채널 피로 규칙을 설정할 수 있습니다. 자세한 내용은 피로 [규칙을](../../administration/using/fatigue-rules.md)참조하십시오.
+   >캠페인에서 과다 복제된 프로파일을 자동으로 제외시키는 글로벌 크로스 채널 피로 규칙을 설정할 수 있습니다. 자세한 내용은 피로 [규칙을](../../sending/using/fatigue-rules.md)참조하십시오.
 
 1. 교정본을 보내 메시지를 확인 및 확인하고 받은 편지함 렌더링을 모니터링할 수 있습니다. 증명 [보내기를](../../sending/using/sending-proofs.md)참조하십시오.
 
