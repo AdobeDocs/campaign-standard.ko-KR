@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 트랜잭션 메시지는 웹 사이트와 같은 공급자가 사용자에게 보내는 개별 고유한 통신입니다.
 
 * 받는 사람이 확인하거나 확인하려는 정보가 포함되어 있으므로 이러한 유형의 메시지가 특히 필요합니다. 예를 들어 계정을 만든 후 환영 메시지가 될 수도 있고, 주문이 배송되었다는 확인, 청구 또는 암호 변경을 확인하는 메시지가 될 수도 있습니다.
-* 클라이언트 관계를 정의하는 중요한 메시지입니다.사용자는 실시간으로 전송될 것으로 예상하고 있습니다. 따라서 이벤트가 트리거되는 것과 전달되는 메시지 사이의 지연은 매우 짧아야 합니다.
+* 클라이언트 관계를 정의하는 중요한 메시지입니다.사용자는 실시간으로 전송될 것으로 예상하고 있습니다. 이벤트가 트리거되는 것과 메시지가 도착하는 것 사이의 지연은 매우 짧아야 합니다.
 * 트랜잭션 메시지는 일반적으로 개방률이 높습니다.
 
 Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메시지로 변환할 이벤트를 전송하는 정보 시스템과 통합할 수 있습니다.
@@ -84,7 +84,7 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 사이트 사
 
 * 각 이벤트 구성에는 하나의 채널만 사용할 수 있습니다. 이벤트 [만들기를](../../administration/using/configuring-transactional-messaging.md#creating-an-event)참조하십시오.
 * 이벤트가 만들어지면 채널을 변경할 수 없습니다. 따라서 메시지가 성공적으로 전송되지 않으면 워크플로우를 사용하여 다른 채널에서 메시지를 보낼 수 있는 메커니즘을 설계해야 합니다. See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
-* 이벤트를 만든 후에는 타깃팅 차원( **[!UICONTROL Real-time event]**또는**[!UICONTROL Profile]** )을 변경할 수 없습니다. 이벤트 [만들기를](../../administration/using/configuring-transactional-messaging.md#creating-an-event)참조하십시오.
+* 이벤트를 만든 후에는 타깃팅 차원( **[!UICONTROL Real-time event]** 또는 **[!UICONTROL Profile]** )을 변경할 수 없습니다. 이벤트 [만들기를](../../administration/using/configuring-transactional-messaging.md#creating-an-event)참조하십시오.
 * 발행물을 롤백할 수는 없지만 이벤트를 게시 취소할 수 있습니다.이 작업을 수행하면 이벤트와 관련 트랜잭션 메시지에 액세스할 수 없게 됩니다. 이벤트 [게시 취소를 참조하십시오](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
 * 이벤트와 연결할 수 있는 유일한 트랜잭션 메시지는 해당 이벤트를 게시하면 자동으로 만들어지는 메시지입니다. 이벤트 [미리 보기 및 게시를](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)참조하십시오.
 
@@ -97,29 +97,29 @@ Adobe Campaign을 사용하면 장바구니에 제품을 추가한 사이트 사
 * 개인화 정보는 이벤트 자체에 포함된 데이터에서 가져옵니다. See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 * 이벤트 트랜잭션 메시지에는 **구독 취소 링크** 내용 블록을 사용할 수 없습니다.
 * 이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 받는 사람과 메시지 컨텐츠 개인화를 정의해야 합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 컨텐츠를 강화할 수 있습니다. 트랜잭션 [메시지 컨텐츠](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)강화를 참조하십시오.
-* 트랜잭션 메시지에 프로필 정보가 포함되어 있지 않은 경우 프로필 정보가 포함된 경우에도 피로 규칙과 호환되지 않습니다. 피로 [규칙을](../../administration/using/fatigue-rules.md)참조하십시오.
+* 트랜잭션 메시지에 프로필 정보가 포함되어 있지 않은 경우 프로필 정보가 포함된 경우에도 피로 규칙과 호환되지 않습니다. 피로 [규칙을](../../sending/using/fatigue-rules.md)참조하십시오.
 
 **프로파일 기반의 트랜잭션 메시지**:
 
 * 개인화 정보는 이벤트에 포함된 데이터나 조정된 프로필 레코드에서 가져올 수 있습니다. See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 * 프로필 트랜잭션 **메시지에서 구독 취소 링크** 콘텐츠 블록을 사용할 수 있습니다. 컨텐츠 [블록](../../designing/using/personalization.md#adding-a-content-block)추가를 참조하십시오.
-* 피로 규칙은 프로필 트랜잭션 메시지와 호환됩니다. 피로 [규칙을](../../administration/using/fatigue-rules.md)참조하십시오.
+* 피로 규칙은 프로필 트랜잭션 메시지와 호환됩니다. 피로 [규칙을](../../sending/using/fatigue-rules.md)참조하십시오.
 
 제품 목록은 트랜잭션 이메일 메시지만 사용할 수 있습니다. 트랜잭션 [메시지의](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)제품 목록 사용을 참조하십시오.
 
 ### 권한 및 브랜딩 {#permissions-and-branding}
 
-브랜드 [관리 측면에서](../../administration/using/branding.md) 트랜잭션 메시징은 표준 메시징보다 유연성이 떨어집니다. 거래 메시지에 사용된 모든 브랜드를 **[!UICONTROL All]**[조직 구성 요소에](../../administration/using/organizational-units.md)연결하는 것이 좋습니다. 자세한 내용은 아래 설명을 참조하십시오.
+브랜드 [관리 측면에서](../../administration/using/branding.md) 트랜잭션 메시징은 표준 메시징보다 유연성이 떨어집니다. 거래 메시지에 사용된 모든 브랜드를 **[!UICONTROL All]**[&#x200B;조직 구성 요소에](../../administration/using/organizational-units.md)연결하는 것이 좋습니다. 자세한 내용은 아래 설명을 참조하십시오.
 
-거래 메시지를 편집할 때 브랜드 이름이나 브랜드 로고와 같은 일부 매개 변수를 자동으로 적용할 수 있도록 브랜드에 연결할 수 있습니다. 트랜잭션 메시지 속성에서 기본적으로 **[!UICONTROL Default brand]**이 선택됩니다.
+거래 메시지를 편집할 때 브랜드 이름이나 브랜드 로고와 같은 일부 매개 변수를 자동으로 적용할 수 있도록 브랜드에 연결할 수 있습니다. 트랜잭션 메시지 속성에서 기본적으로 **[!UICONTROL Default brand]** 이 선택됩니다.
 
 ![](assets/message-center_branding.png)
 
-트랜잭션 메시지에 사용된 모든 개체(브랜딩 포함)는 **[!UICONTROL Message Center]**조직 구성 요소에서 볼 수 있어야 합니다. 즉, 이러한 개체는**[!UICONTROL Message Center]** 또는 **[!UICONTROL All]**조직 단위로 표시되어야 합니다.
+트랜잭션 메시지에 사용된 모든 개체(브랜딩 포함)는 **[!UICONTROL Message Center]** 조직 구성 요소에서 볼 수 있어야 합니다. 즉, 이러한 개체는 **[!UICONTROL Message Center]** 또는 **[!UICONTROL All]** 조직 단위로 표시되어야 합니다.
 
-하지만 메시지 속성에서 선택한 브랜드가 조직 구성 단위와 연결되어 **[!UICONTROL Message Center]**있거나 다른**[!UICONTROL All]**&#x200B;경우 오류가 발생하며 트랜잭션 메시지를 보낼 수 없습니다.
+하지만 메시지 속성에서 선택한 브랜드가 조직 구성 단위와 연결되어 **[!UICONTROL Message Center]** 있거나 다른 **[!UICONTROL All]**&#x200B;경우 오류가 발생하며 트랜잭션 메시지를 보낼 수 없습니다.
 
-따라서 트랜잭션 메시징의 컨텍스트에서 다중 브랜딩을 사용하려면 모든 브랜드를 **[!UICONTROL Message Center]**조직 구성 단위 또는**[!UICONTROL All]** 조직 구성 단위에 연결해야 합니다.
+따라서 트랜잭션 메시징의 컨텍스트에서 다중 브랜딩을 사용하려면 모든 브랜드를 **[!UICONTROL Message Center]** 조직 구성 단위 또는 **[!UICONTROL All]** 조직 구성 단위에 연결해야 합니다.
 
 ### 트랜잭션 메시지 내보내기 및 가져오기 {#exporting-and-importing-transactional-messages}
 
