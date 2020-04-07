@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
+source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
  <tbody> 
   <tr> 
    <td> 피로 관리<br /> </td> 
-   <td> 피로 관리를 사용하면 피로 규칙을 만들어 프로필로 인한 과잉 통신을 관리할 수 있습니다. 피로 규칙은 쉽게 만들어지지만, 여러 채널(트랜잭션 메시지 포함)에서 메시지 카운트, 특정 게재 계산, 특정 프로파일에 규칙 적용 등의 기능을 사용하면 매우 유연합니다.<br /> 자세한 내용은 <a href="../../administration/using/fatigue-rules.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
+   <td> 피로 관리를 사용하면 피로 규칙을 만들어 프로필로 인한 과잉 통신을 관리할 수 있습니다. 피로 규칙은 쉽게 만들어지지만, 여러 채널(트랜잭션 메시지 포함)에서 메시지 카운트, 특정 게재 계산, 특정 프로파일에 규칙 적용 등의 기능을 사용하면 매우 유연합니다.<br /> 자세한 내용은 <a href="../../sending/using/fatigue-rules.md">자세한 설명서를</a>참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 콘텐츠 제작:URL에서 가져오기<br /> </td> 
