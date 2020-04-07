@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -65,6 +65,6 @@ GDPR을 준수하는 데 도움이 되는 Adobe Campaign의 툴과 기능에 대
 
 **관련 항목:**
 
-* 샘플 세트를 통해 피로 규칙을 [디자인하는](../../administration/using/fatigue-rules.md#examples) 방법 살펴보기
-* 유형 [규칙 작성 방법 살펴보기](../../administration/using/about-typology-rules.md)
-* 필터 [규칙을](../../administration/using/filtering-rules.md) 사용하여 메시지 대상 세분화
+* 샘플 세트를 통해 피로 규칙을 [디자인하는](../../sending/using/fatigue-rules.md#examples) 방법 살펴보기
+* 유형 [규칙 작성 방법 살펴보기](../../sending/using/about-typology-rules.md)
+* 필터 [규칙을](../../sending/using/filtering-rules.md) 사용하여 메시지 대상 세분화
