@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
+source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 >[!NOTE]
 >
->**이메일** 오류 메시지(또는 &quot;바운스 수&quot;)는 inMail 프로세스에서 사용할 수 있습니다. **SMS** 오류 메시지(또는 &quot;상태 보고서&quot;의 경우 &quot;SR&quot;)는 MTA 프로세스에서 인증합니다.
+>**이메일** 오류 메시지(또는 &quot;바운스 수&quot;)는 향상된 MTA(동기 바운스) 또는 inMail 프로세스(비동기 바운스)에 의해 검증됩니다. **SMS** 오류 메시지(또는 &quot;상태 보고서&quot;의 경우 &quot;SR&quot;)는 MTA 프로세스에서 인증합니다.
 
 주소가 격리되거나 프로필이 차단되는 경우 배달 준비 중에 메시지를 제외할 수도 있습니다. 제외된 메시지는 배달 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 나열됩니다( [이 섹션](../../sending/using/monitoring-a-delivery.md#exclusion-logs)참조).
 
@@ -80,9 +80,21 @@ source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 무시됨 유형의 일시적인 오류로 인해 메시지가 **실패하면** 배달 기간 동안 재시도가 수행됩니다. 오류 유형에 대한 자세한 내용은 배달 [실패 유형 및 이유를](#delivery-failure-types-and-reasons)참조하십시오.
 
-배달 기간을 수정하려면 배달 또는 배달 템플릿의 고급 매개 변수로 이동하여 해당 필드에 원하는 기간을 지정합니다. 고급 배달 속성은 [이 섹션에](../../administration/using/configuring-email-channel.md#validity-period-parameters)있습니다.
+Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Campaign의 **재시도** 설정이 무시됩니다. IP가 이전 및 현재 지정된 도메인에서 얼마나 성과가 좋은지를 기준으로 하여, 재시도 횟수(전송을 시작한 다음 날에 수행해야 하는 재시도 횟수)와 재시도 사이의 최소 지연은 향상된 MTA에 의해 관리됩니다.
 
-기본 구성을 사용하면 1시간 간격으로 5회 재시도 후 4일 동안 하루에 1회 재시도를 할 수 있습니다. 전체(Adobe 기술 관리자에게 문의) 또는 각 배달 또는 배달 템플릿의 재시도 횟수( [이 섹션](../../administration/using/configuring-email-channel.md#sending-parameters)참조)를 변경할 수 있습니다.
+배달 기간을 수정하려면 전달 또는 배달 템플릿의 고급 매개 변수로 이동한 다음 유효성 기간 **[!UICONTROL Delivery duration]** 섹션의 [필드를 편집합니다](../../administration/using/configuring-email-channel.md#validity-period-parameters) .
+
+>[!IMPORTANT]
+>
+>Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)캠페인 게재의 **[!UICONTROL Delivery duration]** 매개 변수가 3.5일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+
+예를 들어 배달에 대한 재시도가 1일 후에 중지되도록 하려면 배달 기간을 **1d**&#x200B;로 설정하고, 향상된 MTA는 1일 후 재시도 큐에서 메시지를 제거하여 해당 설정을 적용합니다.
+
+>[!NOTE]
+>
+>3.5일 동안 향상된 MTA 대기열에 메시지가 전달되지 않으면 시간이 초과되고 **[!UICONTROL Sent]** 배달 로그에서 **[!UICONTROL Failed]** [](../../sending/using/monitoring-a-delivery.md#delivery-logs)상태가 업데이트됩니다.
+
+<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
