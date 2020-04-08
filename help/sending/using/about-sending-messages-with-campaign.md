@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
+source-git-commit: c49fcd793cbb13d26ccf3a47af145de7acd697e7
 
 ---
 
@@ -43,7 +43,6 @@ source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
 | 유용한 페이지 | 추가 리소스 |
 |---|---|
 | [전달 능력 최적화](../../sending/using/about-deliverability.md) | [피로 관리](../../sending/using/fatigue-rules.md) |
-| [게재 모니터링](../../audiences/using/creating-profiles.md) | [A/B 테스트 이메일 디자인](../../channels/using/designing-an-a-b-test-email.md) |
+| [Control Delivery throughput](../../reporting/using/delivery-throughput.md) | [A/B 테스트 이메일 디자인](../../channels/using/designing-an-a-b-test-email.md) |
 | [오류가 발생하면 알림 받기](../../sending/using/receiving-alerts-when-failures-happen.md) | [게재 모니터링](../../sending/using/monitoring-a-delivery.md) |
-| [컨트롤 그룹 만들기](../../automating/using/workflow-control-group.md) | [오류가 발생하면 알림 받기](../../sending/using/receiving-alerts-when-failures-happen.md) |
-| [Control Delivery throughput](../../reporting/using/delivery-throughput.md) | [게재 모니터링](../../sending/using/monitoring-a-delivery.md) |
+| [컨트롤 그룹 만들기](../../automating/using/workflow-control-group.md) | [후속 메시지 보내기](../../channels/using/follow-up-messages.md) |
