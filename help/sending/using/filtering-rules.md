@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
 아래 표는 기본 필터링 규칙 및 관련 채널에 대한 정보를 제공합니다.
 
 | 레이블 | 채널 | 설명 |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | 모두 | 지정된 주소(이메일, 우편 주소 등)가 없는 대상 모집단을 제외합니다. 를 선택한 채널에 따라). |
 | **[!UICONTROL Blacklisted address]** | 모두 | 차단된 주소를 제외합니다. |
 | **[!UICONTROL Duplicate]** | 모두 | 타겟 모집단 **[!UICONTROL Address]** 필드를 기반으로 중복 항목을 제외합니다. |
