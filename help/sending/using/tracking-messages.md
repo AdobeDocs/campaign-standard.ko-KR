@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2926b916ac8e8a2605694758407c48b1db359c60
+source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
 
 ---
 
@@ -51,7 +51,6 @@ Adobe Campaign Standard로 추적을 사용하면 다음 기능에 액세스할 
     </td>
     <td valign="top">
           <a href="../../reporting/using/tracking-indicators.md"><img width="60px" alt="조건" src="assets/icon_report.png"/></a>
-
 </tr>
 <tr>
 <td>이메일 추적</td>
@@ -60,7 +59,6 @@ Adobe Campaign Standard로 추적을 사용하면 다음 기능에 액세스할 
 <td>추적 로그</td>
 <td>추적 보고서</td>
 </tr>
-
 </table>
 
 ## Tracking logs {#tracking-logs}
@@ -69,7 +67,7 @@ Adobe Campaign Standard로 추적을 사용하면 다음 기능에 액세스할 
 
 >[!NOTE]
 >
->게재에 대한 추적을 사용할 수 없는 경우 이 탭이 표시되지 않습니다. 추적 로그는 **이메일** 및 **푸시 알림** 채널에만 사용할 수 있습니다.
+>게재에 대해 추적을 사용할 수 없는 경우 이 탭이 표시되지 않습니다. 추적 로그는 **이메일** 및 **푸시 알림** 채널에만 사용할 수 있습니다.
 
 ![](assets/tracking_logs.png)
 
