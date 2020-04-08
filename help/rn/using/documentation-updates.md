@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -31,13 +31,13 @@ Adobe Campaign Standard 설명서와 Microsoft Dynamics 365 통합은 다른 솔
 
 설명서 홈 페이지에 추가 리소스가 추가되었습니다. [자세한 내용](../../campaign-standard-home.md)
 
-Adobe Experience Platform Data Connector 설명서에는 ECID(Experience Cloud ID Service)에 대한 정보가 추가되었습니다. [자세한 내용](../../administration/using/aep-about-data-connector.md#key-concepts)
+Experience Cloud ID 서비스(ECID)에 대한 정보가 Adobe Experience Platform 데이터 커넥터 문서에 추가되었습니다. [자세한 내용](../../administration/using/aep-about-data-connector.md#key-concepts)
 
 트랜잭션 메시징 구성 섹션이 최신 트랜잭션 이벤트 및 업데이트된 스크린샷에 액세스하는 방법에 대한 정보를 제공하여 향상되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 유형 및 유형 분류 규칙과 관련된 섹션이 바로 사용 가능한 유형 규칙에 대한 추가 정보로 개선되고 업데이트되었습니다. [자세한 내용](../../sending/using/about-typology-rules.md)
 
-활동의 작업에 대한 정보가 **[!UICONTROL Transfer file]** 추가되었습니다 **!UICONTROL File listing]** . [자세한 내용](../../automating/using/transfer-file.md)
+활동의 작업에 대한 정보가 **[!UICONTROL Transfer file]** 추가되었습니다 **[!UICONTROL File listing]** . [자세한 내용](../../automating/using/transfer-file.md)
 
 배달 임시 실패 후 재시도에 대한 설명서가 업데이트되었으며, 향상된 MTA로 업그레이드한 후 재시도를 관리하는 방법에 대한 자세한 내용이 추가되었습니다. [자세한 내용](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
