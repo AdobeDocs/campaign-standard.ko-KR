@@ -12,14 +12,14 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
 
 # 신호 활동 트리거 {#triggering-a-signal-activity}
 
-Adobe Campaign Standard 워크플로우에는 하나 이상의 외부 신호 **활동이** 있을 수 있습니다. 이러한 활동은 트리거되기를 기다리는 '리스너'입니다.
+Adobe Campaign Standard 워크플로우에는 하나 이상의 외부 신호 **활동이** 있을 수 있습니다. 이러한 활동은 트리거되기를 기다리는 &#39;리스너&#39;입니다.
 
 Campaign Standard API를 사용하면 외부 **신호** 활동을 트리거하여 워크플로우를 호출할 수 있습니다. API 호출에는 워크플로우의 이벤트 변수(타깃팅할 대상 이름, 가져올 파일 이름, 메시지 내용의 일부 등)에 인제스트될 매개 변수가 포함될 수 있습니다. 이렇게 하면 캠페인 자동화를 외부 시스템과 쉽게 통합할 수 있습니다.
 
@@ -33,9 +33,9 @@ Campaign Standard API를 사용하면 외부 **신호** 활동을 트리거하�
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 반환된 **URL에** 대해 POST 요청을 수행하여 신호 활동을 트리거하고 페이로드에 **"source"** 매개 변수를 사용합니다. 이 속성은 필수이며, 트리거 요청 소스를 표시할 수 있습니다.
+1. 반환된 **URL에** 대해 POST 요청을 수행하여 신호 활동을 트리거하고 페이로드에 **&quot;source&quot;** 매개 변수를 사용합니다. 이 속성은 필수이며, 트리거 요청 소스를 표시할 수 있습니다.
 
-매개 변수를 사용하여 워크플로우를 호출하려면 **"parameters"** 속성을 사용하여 페이로드에 추가합니다. 구문은 매개 변수의 이름 뒤에 해당 값이 오도록 구성됩니다(다음 유형이 지원됩니다. **문자열**, **숫자**, **부울** , **날짜/시간,**&#x200B;시간).
+매개 변수를 사용하여 워크플로우를 호출하려면 **&quot;parameters&quot;** 속성을 사용하여 페이로드에 추가합니다. 구문은 매개 변수의 이름 뒤에 해당 값이 오도록 구성됩니다(다음 유형이 지원됩니다. **문자열**, **숫자**, **부울** , **날짜/시간,**&#x200B;시간).
 
 ```
   -X POST <TRIGGER_URL>
@@ -93,7 +93,7 @@ Campaign Standard API를 사용하면 외부 **신호** 활동을 트리거하�
 }
 ```
 
-신호 활동을 트리거하려면 트리거 URL에 "소스"를 사용하여 POST 요청을 수행합니다. 매개 변수를 사용하여 워크플로우를 호출하려면 "매개 변수" 속성을 추가합니다.
+신호 활동을 트리거하려면 트리거 URL에 &quot;소스&quot;를 사용하여 POST 요청을 수행합니다. 매개 변수를 사용하여 워크플로우를 호출하려면 &quot;매개 변수&quot; 속성을 추가합니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
