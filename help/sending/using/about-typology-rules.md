@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9c0e3cc4609e747bbfebeb90049862f29c9d8d9
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -32,5 +32,5 @@ Campaign Standard를 사용하면 메시지가 **유효하고 품질 기준을 �
 
 1. 유형 규칙을 만듭니다( [이 섹션](../../sending/using/managing-typology-rules.md#creating-a-typology-rule)참조).
 1. 유형을 만들고 여기에 만든 규칙을 참조합니다( [이 섹션](../../sending/using/managing-typologies.md#creating-a-typology)참조).
-1. 만든 유형을 사용하도록 배달 구성( [이 섹션](../../sending/using/managing-typologies.md#applying-typologies-to-messages)참조).
+1. 생성한 유형을 사용하도록 배달을 구성합니다( [이 섹션](../../sending/using/managing-typologies.md#applying-typologies-to-messages)참조).
 1. 메시지 준비 중에, 기준이 충족될 때 프로필이 제외됩니다. 로그를 확인하여 제외를 모니터링할 수 있습니다.
