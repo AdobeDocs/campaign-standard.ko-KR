@@ -12,18 +12,18 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
 
 # 최신 릴리스{#latest-release}
 
-[릴리스 계획](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 노트](../../rn/using/release-notes-2019.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 노트](../../rn/using/release-notes-2019.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
 
 [릴리스 알림을 구독하려면 여기를](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 클릭하십시오. 또한 받은 편지함에서 최신 Adobe Experience Cloud 릴리스에 대한 자세한 내용을 바로 확인할 수 있습니다.
 
-## 릴리스 20.2 - 2020년 3월 {#release-20-2---march-2020}
+## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
 **새로운 기능?**
 
