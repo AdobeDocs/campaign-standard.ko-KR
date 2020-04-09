@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
@@ -43,7 +43,7 @@ Experience Cloud ID 서비스(ECID)에 대한 정보가 Adobe Experience Platfor
 
 트랜잭션 메시지 삭제 섹션이 개선되어 명확해졌습니다. [자세한 내용](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-## 릴리스 20.2 - 2020년 3월 {#release-20-2---march-2020}
+## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
 **릴리스에 포함된 새로운 기능**
 
