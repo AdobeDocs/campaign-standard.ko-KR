@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
 
 ---
 
@@ -129,7 +129,7 @@ Campaign Standard를 사용하면 테스트에 사용할 수 있는 프로필 �
 >
 >동일한 대상을 다시 한 번 가져오는 경우, 다른 대체 주소 및/또는 접두사가 있는 경우, 프로필은 이전 가져오기의 프로필뿐만 아니라 목록에 추가됩니다.
 
-    ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_added.png)
 
 ## 대상 프로파일이 있는 메시지 미리 보기
 
