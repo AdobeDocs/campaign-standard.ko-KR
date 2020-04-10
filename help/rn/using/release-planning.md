@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
+source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
 
 ---
 
@@ -27,9 +27,9 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 모든 릴리스 날짜는 변경될 수 있습니다.정기적으로 이 페이지를 방문하여 업데이트를 확인하는 것이 좋습니다.
 
-구독을 통해 릴리스 알림을 [수신하면](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 받은 편지함에서 최신 Adobe Experience Cloud 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
+**새로운 기능!** Campaign [Standard 릴리스 알림을](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 구독하면 받은 편지함에서 예정된 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
 
-## 릴리스 20.2.1 - 4월 릴리스 {#release-20-2-april-release}
+## 릴리스 20.3.1 - 5월 릴리스 {#release-20-3-may-release}
 
 환경 업데이트는 아래의 지정된 기간 동안 물결에서 발생합니다. 이 릴리스에 대한 자세한 내용은 릴리스 노트를 [참조하십시오](../../rn/using/release-notes.md). 추가 질문 사항이 있는 경우 Adobe Client Care [에 문의하십시오](https://support.neolane.net/webApp/extranetLogin).
 
@@ -43,11 +43,11 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
  <tbody> 
   <tr> 
    <td> 스테이지<br /> </td> 
-   <td> 2020년 3월 31일 - 4월 1일<br /> </td> 
+   <td> 2020년 4월 27일 - 28<br /> </td> 
   </tr> 
   <tr> 
    <td> 프로덕션<br /> </td> 
-   <td> 2020년 4월 6일 - 9일<br /> </td> 
+   <td> 2020년 5월 4일 - 11일<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 **Q:어떤 영향을 미칩니까?**
 
-A:변경 사항은 관련 설명서에 대한 [링크를](../../rn/using/release-notes.md)포함하여 릴리스 노트에 나열됩니다. 더 이상 사용되지 않는 기능 및 [제거된 기능 페이지를](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)참조하십시오. 이러한 페이지는 스테이지 환경 업그레이드 날짜에 새 릴리스에 사용할 수 있습니다.
+A:변경 사항은 관련 설명서에 대한 [링크를](../../rn/using/release-notes.md)포함하여 릴리스 노트에 나열됩니다. 더 이상 사용되지 않는 기능 및 [제거된 기능 페이지를](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)참조하십시오. 이러한 페이지는 스테이지 환경 업그레이드 날짜에 새 릴리스에 사용할 수 있습니다.
 
 **Q:유효성 검사 과정이란 무엇입니까?**
 
