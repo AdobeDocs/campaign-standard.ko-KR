@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * Campaign이 처리된 후 Campaign에서 개인 정보 요청을 수동으로 삭제할 때 정리 후에도 요청에 연결된 데이터가 삭제되지 않는 문제를 해결했습니다.
 * Adobe Experience Manager의 특수 문자가 포함된 메시지를 미리 보거나 전송할 때 발생할 수 있는 문제를 수정했습니다.
 * 여러 인바운드 전환이 있는 활동을 실행할 때 워크플로우에서 발생할 수 있는 문제를 수정했습니다.
+* 표준 사용자가 워크플로 쿼리 또는 전달의 대상 차원으로 &#39;애플리케이션에 대한 구독&#39;을 사용하지 못했던 문제를 수정했습니다. (CAMP-37618)
