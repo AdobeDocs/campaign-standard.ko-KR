@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
+source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 ---
 
@@ -17,9 +17,10 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 * **[타깃팅된 프로파일을 사용한 이메일 테스트](sending/using/testing-messages-using-target.md)**<br/>실제 타깃팅된 프로필에서 이메일을 테스트하는 방법을 알아봅니다.
 
-* **[개인 정보 관리](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오.
+* **[개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오.
 
-* **[Campaign Standard Mobile 안내서](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>모바일 게재와 관련된 일반적인 지침에 대해 자세히 알아보십시오.
+* **[Campaign Standard Mobile 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)**<br/>
+모바일 게재와 관련된 일반적인 지침에 대해 자세히 알아보십시오.
 
 [업데이트를 더 보려면 여기를 클릭하십시오.](rn/using/documentation-updates.md)
 
@@ -62,9 +63,9 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 | 유용한 페이지 | 개발자를 위한 자료 |
 |---|---|
-| [릴리스 정보](rn/using/release-notes.md) | [구현 안내서](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
-| [제어판 설명서](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [API 설명서](api/using/about-campaign-standard-apis.md) |
+| [릴리스 정보](rn/using/release-notes.md) | [구현 안내서](https://helpx.adobe.com/kr/campaign/kb/campaign-standard-implementation-guide.html) |
+| [제어판 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [캠페인 API](api/using/about-campaign-standard-apis.md) |
 | [사용법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [릴리스 계획 안내서](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Campaign Standard 데이터 모델](developing/using/datamodel-introduction.md) |
-| [사용 중단되거나 제거된 기능](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [캠페인 통합](integrating/using/about-campaign-integrations.md) |
-| [Campaign Standard 시작하기](start/using/campaign-orchestration.md) | [기술 정보](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [릴리스 계획](rn/using/release-planning.md) | [캠페인 데이터 모델](developing/using/datamodel-introduction.md) |
+| [사용 중단되거나 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html) | [멀티 솔루션 가이드](integrating/using/about-campaign-integrations.md) |
+| [Campaign Standard 시작하기](start/using/campaign-orchestration.md) | [기술 정보](https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html) |
