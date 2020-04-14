@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
 
 >[!IMPORTANT]
 >
->Campaign Standard Data Service는 현재 베타 버전으로, 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
+>Adobe Experience Platform Data Connector는 현재 베타 버전으로, 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
 
-매핑 정의가 완료되면 매핑을 게시할 수 있습니다. 배포 단계 후 Campaign Standard와 Adobe Experience Platform 간의 데이터 복제가 자동으로 시작됩니다. 언제든지 **[!UICONTROL Stop]**버튼을 클릭하여 복제를 중지할 수 있습니다.
+매핑 정의가 완료되면 매핑을 게시할 수 있습니다. 배포 단계 후 Campaign Standard와 Adobe Experience Platform 간의 데이터 복제가 자동으로 시작됩니다. 언제든지 **[!UICONTROL Stop]** 버튼을 클릭하여 복제를 중지할 수 있습니다.
 
 매핑 수정에 따라 모든 레코드를 Adobe Experience Platform에 재전송하도록 선택할 수 있습니다.
 
@@ -33,11 +33,11 @@ source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
 
 ![](assets/aep_publog.png)
 
-이 **[!UICONTROL Export jobs]**탭에서 게시된 매핑에 대한 내보내기 작업을 모니터링할 수 있습니다.
+이 **[!UICONTROL Export jobs]** 탭에서 게시된 매핑에 대한 내보내기 작업을 모니터링할 수 있습니다.
 
 ![](assets/aep_jobstatus.png)
 
-모든 데이터 내보내기 작업을 모니터링하려면 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**[!UICONTROL Status of data export to platform]** 메뉴로 이동합니다.
+모든 데이터 내보내기 작업을 모니터링하려면 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 메뉴로 이동합니다.
 
 ![](assets/aep_statusmapping.png)
 
