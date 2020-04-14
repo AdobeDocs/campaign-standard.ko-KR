@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
+source-git-commit: b7894637d184c16221e03c909f3c356fbb6c5e79
 
 ---
 
@@ -125,11 +125,11 @@ Campaign Standard를 사용하면 테스트에 사용할 수 있는 프로필 �
 
 1. 단추를 **[!UICONTROL Import]** 클릭합니다. 메시지 대상에 해당하는 대상의 프로필은 **[!UICONTROL Profile substitution]** 탭뿐만 아니라 관련 대체 주소 및 접두사도 추가합니다.
 
-   ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_imported.png)
 
-   >[!NOTE]
-   >
-   >동일한 대상을 다시 한 번 가져오는 경우, 다른 대체 주소 및/또는 접두사가 있는 경우, 프로필은 이전 가져오기의 프로필뿐만 아니라 목록에 추가됩니다.
+>[!NOTE]
+>
+>동일한 대상을 다시 한 번 가져오는 경우, 다른 대체 주소 및/또는 접두사가 있는 경우, 프로필은 이전 가져오기의 프로필뿐만 아니라 목록에 추가됩니다.
 
 ## 대상 프로파일이 있는 메시지 미리 보기
 
