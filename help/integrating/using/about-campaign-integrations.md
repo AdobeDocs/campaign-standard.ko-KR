@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
+source-git-commit: 640286c66da3f216cac6264ab6c61652bba209ce
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 환경에 따라 다른 솔루션도 Adobe Experience Cloud에 연결할 수 있습니다. 조직(임차인이라고도 함)으로 연결됩니다.
 
-조직은 관리자가 그룹과 사용자를 구성하고 Experience Cloud에서 Single Sign-On을 제어할 수 있도록 해주는 개체입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그러나 회사는 많은 조직을 보유할 수 있습니다. 사용자 및 조직 관리는 Adobe Experience Cloud [도움말 포털에서](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)자세히 설명합니다.
+조직은 관리자가 그룹과 사용자를 구성하고 Experience Cloud에서 Single Sign-On을 제어할 수 있도록 해주는 개체입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사 이름입니다. 그러나 회사는 많은 조직을 가질 수 있습니다. 사용자 및 조직 관리는 Adobe Experience Cloud [도움말 포털에서](https://marketing.adobe.com/resources/help/ko_KR/mcloud/organizations.html)자세히 설명합니다.
 
 다른 시스템의 데이터 흐름을 Adobe Campaign과 통합하려면 API 설명서를 [참조하십시오](../../api/using/about-campaign-standard-apis.md).
 
@@ -48,7 +48,7 @@ source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4<br /> </td> 
+   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Adobe Experience Manager에서 직접 Adobe Campaign 데이터베이스에 매핑된 이메일 콘텐츠 또는 양식을 만들 수 있습니다.<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">Adobe Campaign 및 Experience Manager</a><br/>, Adobe Experience Manager <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">및 Campaign Standard를</a> 통합하여 <br/>Adobe Experience Manager 및 Campaign을 사용하여 이메일 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">제작</a> 
