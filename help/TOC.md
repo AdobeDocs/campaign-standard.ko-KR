@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
+source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
 
 ---
 
@@ -138,7 +138,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 + 테스트 및 보내기 {#testing-and-sending}
    + [Campaign에서 메시지 보내기 기본 정보](sending/using/about-sending-messages-with-campaign.md)
    + 메시지 준비 및 테스트 {#preparing-and-testing-messages}
-      + [메시지 미리 보기](sending/using/previewing-messages.md)
+      + [배달 미리 보기](sending/using/previewing-messages.md)
       + [보내기 준비](sending/using/preparing-the-send.md)
       + [교정본 보내기](sending/using/sending-proofs.md)
       + [타깃팅된 프로파일을 사용하여 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
