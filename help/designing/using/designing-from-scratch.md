@@ -1,18 +1,18 @@
 ---
 title: '이메일 디자인 기초 '
 description: 이메일 디자이너의 이메일 컨텐츠를 처음부터 디자인하는 방법을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 디자인
+audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### 이메일 구조 정의 {#defining-the-email-structure}
 
-이메일 디자이너를 사용하면 이메일의 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 동작으로 구조적 요소를 추가하고 이동하면 신속하게 이메일 모양을 디자인할 수 있습니다.
+이메일 디자이너를 사용하면 이메일의 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 방식으로 구조적 요소를 추가 및 이동하면 신속하게 이메일 모양을 디자인할 수 있습니다.
 
 이메일 구조를 편집하려면:
 
@@ -87,7 +87,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    단추를 다시 사용할 수 있는 조각으로 저장할 수도 있습니다. 자세한 내용은 컨텐츠 조각 [만들기 및](../../designing/using/using-reusable-content.md#creating-a-content-fragment) 컨텐츠를 [조각으로](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)저장을 참조하십시오.
 
-1. 이메일 **[!UICONTROL Fallback view]** 디자이너에서 폴백 이미지를 표시하려면 선택합니다.
+이메일 **[!UICONTROL Fallback view]** 디자이너에서 폴백 이미지를 표시하려면 선택합니다.
 
 - **[!UICONTROL Text]**
 
