@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
 
 ---
 
@@ -42,6 +42,8 @@ Experience Cloud ID 서비스(ECID)에 대한 정보가 Adobe Experience Platfor
 배달 임시 실패 후 재시도에 대한 설명서가 업데이트되었으며, 향상된 MTA로 업그레이드한 후 재시도를 관리하는 방법에 대한 자세한 내용이 추가되었습니다. [자세한 내용](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
 트랜잭션 메시지 삭제 섹션이 개선되어 명확해졌습니다. [자세한 내용](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+
+배달 미리 **보기** 섹션이 모바일 배달 예로 업데이트되었습니다.[자세한 내용](../../sending/using/previewing-messages.md)
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
