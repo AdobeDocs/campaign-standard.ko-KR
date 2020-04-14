@@ -1,5 +1,5 @@
 ---
-title: API를 통한 데이터 통합 트리거
+title: API를 통한 데이터 수집 트리거
 description: API를 통해 데이터 수집을 트리거하는 방법을 알아봅니다.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
@@ -12,16 +12,16 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
 
-# API를 통한 데이터 통합 트리거 {#triggering-data-ingestion-apis}
+# API를 통한 데이터 수집 트리거 {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
->Campaign Standard Data Service는 현재 베타 버전으로, 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
+>Adobe Experience Platform Data Connector는 현재 베타 버전으로, 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
 
 Adobe Campaign Standard를 사용하면 API를 통해 데이터 매핑의 즉각적인 인제스트를 트리거하고 통합 요청의 상태를 검색할 수 있습니다.
 
@@ -36,9 +36,9 @@ API를 사용하기 전에 먼저 데이터 매핑이 Campaign Standard 인터�
 
 데이터 매핑이 만들어지면 언제든지 API에서 트리거할 수 있도록 데이터 매핑이 실행되지 않도록 해야 합니다. 이렇게 하려면 다음 단계를 따르십시오.
 
-1. Campaign Standard에서 **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **[!UICONTROL Platform]**>**[!UICONTROL Status of data export to platform]** 메뉴로 이동합니다.
+1. Campaign Standard에서 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 메뉴로 이동합니다.
 
-1. 데이터 매핑을 두 번 클릭하여 연 다음 **[!UICONTROL Stop]**단추를 클릭합니다.
+1. 데이터 매핑을 두 번 클릭하여 연 다음 **[!UICONTROL Stop]** 단추를 클릭합니다.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -48,7 +48,7 @@ API를 사용하기 전에 먼저 데이터 매핑이 Campaign Standard 인터�
 
 ## 데이터 매핑의 즉각적인 통합 시작 {#starting-immediate-ingestion}
 
-XDM 매핑을 Adobe Experience Platform으로 즉시 수집하려면 POST 작업을 수행하십시오.
+XDM 매핑을 Adobe Experience Platform에 즉시 수집하려면 POST 작업을 수행하십시오.
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
@@ -104,7 +104,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-XDM 매핑 요청 상태 및 관련 작업에 대한 자세한 내용은 Campaign Standard 인터페이스에서 플랫폼에 데이터 내보내기 **!UICONTROL [상태]** 메뉴에서 사용할 수 있습니다(매핑 활성화 [참조](../../administration/using/aep-mapping-activation.md)).
+XDM 매핑 요청 상태 및 관련 작업에 대한 자세한 내용은 Campaign Standard 인터페이스에서 플랫폼에 데이터 내보내기 **!UICONTROL [상태&#x200B;]**메뉴에서 사용할 수 있습니다(매핑 활성화[참조](../../administration/using/aep-mapping-activation.md)).
 
 GET 작업은 아래 정보를 반환합니다.
 
