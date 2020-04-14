@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 >[!IMPORTANT]
 >
->Campaign Standard Data Service는 현재 베타 버전으로, 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
+>Adobe Experience Platform Data Connector는 현재 베타 버전으로, 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
 
 XDM(Experience Data Model)은 Adobe Experience Platform 솔루션 및 제품과 함께 사용하기 위해 데이터를 인제스트할 수 있는 데이터 스키마의 표준 세트입니다.
 
