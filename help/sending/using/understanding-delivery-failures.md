@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
+source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 >[!NOTE]
 >
->**이메일** 오류 메시지(또는 &quot;바운스 수&quot;)는 향상된 MTA(동기 바운스) 또는 inMail 프로세스(비동기 바운스)에 의해 검증됩니다. **SMS** 오류 메시지(또는 &quot;상태 보고서&quot;의 경우 &quot;SR&quot;)는 MTA 프로세스에서 인증합니다.
+>**이메일** 오류 메시지(또는 &quot;바운스 수&quot;)는 향상된 MTA(동기 바운스) 또는 inMail 프로세스(비동기 바운스)에 의해 검증됩니다.
+>
+>**SMS** 오류 메시지(또는 &quot;상태 보고서&quot;의 경우 &quot;SR&quot;)는 MTA 프로세스에서 인증합니다.
 
 주소가 격리되거나 프로필이 차단되는 경우 배달 준비 중에 메시지를 제외할 수도 있습니다. 제외된 메시지는 배달 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 나열됩니다( [이 섹션](../../sending/using/monitoring-a-delivery.md#exclusion-logs)참조).
 
@@ -80,13 +82,13 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 무시됨 유형의 일시적인 오류로 인해 메시지가 **실패하면** 배달 기간 동안 재시도가 수행됩니다. 오류 유형에 대한 자세한 내용은 배달 [실패 유형 및 이유를](#delivery-failure-types-and-reasons)참조하십시오.
 
-Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Campaign의 **재시도** 설정이 무시됩니다. IP가 이전 및 현재 지정된 도메인에서 얼마나 성과가 좋은지를 기준으로 하여, 재시도 횟수(전송을 시작한 다음 날에 수행해야 하는 재시도 횟수)와 재시도 사이의 최소 지연은 향상된 MTA에 의해 관리됩니다.
+다시 시도 횟수(전송을 시작한 다음 날에 수행해야 하는 재시도 횟수)와 IP가 이전 및 현재 지정된 도메인에서 모두 얼마나 잘 수행되는지를 기준으로 Adobe Campaign 향상된 MTA가 재시도 사이의 최소 지연을 관리합니다. 캠페인의 **재시도** 설정은 무시됩니다.
 
 배달 기간을 수정하려면 전달 또는 배달 템플릿의 고급 매개 변수로 이동한 다음 유효성 기간 **[!UICONTROL Delivery duration]** 섹션의 [필드를 편집합니다](../../administration/using/configuring-email-channel.md#validity-period-parameters) .
 
 >[!IMPORTANT]
 >
->Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)캠페인 게재의 **[!UICONTROL Delivery duration]** 매개 변수가 3.5일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+>**이제 캠페인 게재의&#x200B;**[!UICONTROL Delivery duration]**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일이 넘는 값을 정의하는 경우, Adobe Campaign 향상된 MTA에서 관리되므로 고려되지 않습니다.
 
 예를 들어 배달에 대한 재시도가 1일 후에 중지되도록 하려면 배달 기간을 **1d**&#x200B;로 설정하고, 향상된 MTA는 1일 후 재시도 큐에서 메시지를 제거하여 해당 설정을 적용합니다.
 
@@ -105,19 +107,13 @@ Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/
 
 ## 바운스 메일 자격 조건 {#bounce-mail-qualification}
 
-<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
-
-//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
-
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
-
->[!IMPORTANT]
->
->향상된 MTA로 업그레이드하면 캠페인 테이블의 바운스 자격 **[!UICONTROL Message qualification]** 조건은 더 이상 사용되지 않습니다.
-
-동기 배달 실패 오류 메시지의 경우, 향상된 MTA는 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다. Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
+동기 배달 실패 오류 메시지의 경우, 향상된 MTA는 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다.
 
 비동기 바운스는 여전히 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에서 자격을 갖습니다. 이러한 규칙에 액세스하려면 **[!UICONTROL Adobe Campaign]** 로고를 클릭하고 왼쪽 상단에 있는 을 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 선택하고 **[!UICONTROL Bounce mails]**&#x200B;선택합니다. 이 규칙에 대한 자세한 내용은 이 [섹션을](../../administration/using/configuring-email-channel.md#email-processing-rules)참조하십시오.
+
+>[!NOTE]
+>
+>이제 Adobe Campaign 향상된 MTA에서 바운스 메일 자격을 관리합니다. 캠페인 테이블의 바운스 자격 **[!UICONTROL Message qualification]** 조건은 더 이상 사용되지 않습니다.
 
 <!--Bounces can have the following qualification statuses:
 
