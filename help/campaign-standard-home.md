@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
+source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ---
 
@@ -48,12 +48,11 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
     <em>이메일 디자이너를 사용하여 반응형 및 개인화 이메일을 만드는 방법을 알아보십시오.</em>    <br>
   </td>
   <td valign="top">
-       <img alt="개발자" src="start/using/assets/dev.png" />
-    <div>
-    <strong>개발자를 위한 자료</strong>
+       <img alt="지원" src="start/using/assets/do-not-localize/help.jpeg" />
+    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    지원 <strong>받기</strong></a>
     </div>
-    <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud 트리거</a></em></p>
+    <p><em>FAQ, 모범 사례, 도움말 리소스를 액세스하고 Campaign 전문가와 교류할 수 있습니다.</em></p>
     <br>
   </td>
 </tr>
@@ -63,9 +62,9 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 | 유용한 페이지 | 개발자를 위한 자료 |
 |---|---|
-| [릴리스 정보](rn/using/release-notes.md) | [구현 안내서](https://helpx.adobe.com/kr/campaign/kb/campaign-standard-implementation-guide.html) |
+| [릴리스 정보](rn/using/release-notes.md) | [Experience Cloud 트리거](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [제어판 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [캠페인 API](api/using/about-campaign-standard-apis.md) |
-| [사용법 비디오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [구현 안내서](https://helpx.adobe.com/kr/campaign/kb/campaign-standard-implementation-guide.html) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [릴리스 계획](rn/using/release-planning.md) | [캠페인 데이터 모델](developing/using/datamodel-introduction.md) |
 | [사용 중단되거나 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html) | [멀티 솔루션 가이드](integrating/using/about-campaign-integrations.md) |
 | [Campaign Standard 시작하기](start/using/campaign-orchestration.md) | [기술 정보](https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html) |
