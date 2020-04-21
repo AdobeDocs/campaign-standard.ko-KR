@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
+source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
 
 ---
 
@@ -44,6 +44,10 @@ Experience Cloud ID 서비스(ECID)에 대한 정보가 Adobe Experience Platfor
 트랜잭션 메시지 삭제 섹션이 개선되어 명확해졌습니다. [자세한 내용](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 배달 미리 **보기** 섹션이 모바일 배달 예로 업데이트되었습니다.[자세한 내용](../../sending/using/previewing-messages.md)
+
+트랜잭션 메시징 및 사용하지 않은 실시간 이벤트 삭제와 관련하여 우수 사례가 추가되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+
+이메일 채널 구성 섹션이 이제 Adobe Campaign 향상된 MTA에서 관리하는 모든 이메일 설정에 대해 명확히 정보로 업데이트되었습니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
