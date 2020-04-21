@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
+source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 ---
 
@@ -30,6 +30,10 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 전송하려면 먼저 
 ## 이벤트 만들기 {#creating-an-event}
 
 먼저 필요에 따라 이벤트를 만듭니다.
+
+>[!NOTE]
+>
+>생성된 실시간 이벤트의 수는 플랫폼에 영향을 줄 수 있습니다. 최적의 성능을 얻으려면 더 이상 필요하지 않은 실시간 이벤트를 삭제해야 합니다. 이벤트 [삭제를](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)참조하십시오.
 
 1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**&#x200B;를 선택합니다.
 1. 단추를 **[!UICONTROL Create]** 클릭합니다.
@@ -95,7 +99,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 전송하려면 먼저 
 
 Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 컨텐츠를 강화하면 메시지를 개인화할 수 있습니다. 예를 들어 각 수신자의 성 또는 CRM ID에서 주소 또는 생년월일 또는 프로필 테이블에 추가된 기타 사용자 정의 필드와 같은 데이터를 복구하여 수신자에게 전송되는 정보를 개인화할 수 있습니다.
 
-확장된 **[!UICONTROL Profile]** 또는 **[!UICONTROL Service]** 리소스의 정보로 트랜잭션 메시지 컨텐츠를 보완할 수 있습니다.
+확장된 정보의 트랜잭션 메시지 컨텐츠를 보완할 수 **[!UICONTROL Profile and services Ext API]**&#x200B;있습니다. 자세한 내용은 API [확장을 참조하십시오.확장 프로그램 게시](../../developing/using/step-2--publish-the-extension.md)
 
 이 정보는 새 리소스에 저장할 수도 있습니다. 이 경우 리소스는 직접 또는 다른 표를 통해 **[!UICONTROL Profile]** 또는 **[!UICONTROL Service]** 리소스에 연결되어 있어야 합니다. 예를 들어 아래 구성에서 리소스가 **[!UICONTROL Product]** 리소스에 연결된 경우 제품 카테고리 또는 ID와 같은 **[!UICONTROL Product]** **[!UICONTROL Profile]** 리소스의 정보로 트랜잭션 메시지 컨텐츠를 보완할 수 있습니다.
 
