@@ -13,12 +13,24 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
+source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
 
 ---
 
 
 # 이메일 채널 구성{#configuring-email-channel}
+
+캠페인 [관리자는](../../administration/using/about-administrating-adobe-campaign.md)이메일 채널 설정을 구성할 수 있습니다. 이러한 고급 설정에는 일반 이메일 채널 매개 변수, 이메일 라우팅 계정, 이메일 처리 규칙 및 이메일 속성이 포함됩니다. 이 페이지에서는 일반 이메일의 기본값을 편집하고 매개 변수를 전송하는 방법을 알아봅니다.
+
+일부 이메일 설정은 이제 Adobe Campaign 향상된 MTA에서 관리됩니다. 따라서:
+* 캠페인 사용자 인터페이스의 일부 구성은 더 이상 적용되지 않습니다.
+   * [구성] **[!UICONTROL Retries]** 메뉴와 [이메일 속성의](#email-channel-parameters) 매개 변수 [보내기의](#retries-parameters) 설정입니다.
+   * 이메일 처리 규칙 메뉴의 **[!UICONTROL MX management]** 및 **[!UICONTROL Domain management]**[&#x200B;규칙입니다](#email-processing-rules).
+
+* 이제 일부 구성은 Campaign 내에서 계속 수행할 수 있지만, 다른 매개 변수는 향상된 MTA에서 부분적으로 관리됩니다. 영향을 받는 설정은 다음과 같습니다.
+   * 메뉴의 매개 **[!UICONTROL Message delivery duration]** 변수입니다 **[!UICONTROL Configuration]** . 자세한 내용은 [이 섹션을](#email-channel-parameters)참조하십시오.
+   * **[!UICONTROL Delivery duration]** 섹션의 **[!UICONTROL Validity limit for sending messages]** 또는 **[!UICONTROL Validity period]** 매개 변수입니다. 자세한 내용은 [이 섹션을](#validity-period-parameters)참조하십시오.
+   * The **[!UICONTROL Bounce mails]** rules in **[!UICONTROL Email processing rules]**. 자세한 내용은 [이 섹션을](#email-processing-rules)참조하십시오.
 
 ## 이메일 채널 매개 변수 {#email-channel-parameters}
 
@@ -28,11 +40,11 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 * **보낸 이메일의 헤더 매개 변수**
 
-   이 섹션에서는 발신자 주소와 오류 주소를 **[!UICONTROL masks]** 지정할 수 있습니다. 필요한 경우 이러한 마스크는 쉼표로 구분할 수 있습니다. 이 구성은 선택 사항입니다. 이러한 필드를 입력하면 메시지 준비 단계 동안 Adobe Campaign은 입력한 주소가 유효한지 확인합니다. 이 운영 모드에서는 배달 문제를 유발할 수 있는 주소가 사용되지 않습니다. 배달 서버에 배달 주소를 구성해야 합니다.
+   이 섹션에서는 발신자 주소와 오류 주소를 **[!UICONTROL masks]** 지정할 수 있습니다. 여러 개의 마스크를 사용하는 경우 쉼표로 구분해야 합니다. 이러한 필드를 채우면 Adobe Campaign은 메시지 준비 단계 동안 입력한 주소가 유효한지 확인합니다. 이 운영 모드에서는 배달 문제를 유발할 수 있는 주소가 사용되지 않습니다. 발신자와 오류 주소는 모두 Adobe에서 설정합니다. Adobe 고객 지원 센터에 연락하여 업데이트해야 합니다.
 
 * **전달 가능성**
 
-   이 ID는 지원에 의해 제공됩니다. 전달 가능한 보고서가 제대로 작동하려면 필요합니다.
+   이 ID는 Adobe 고객 지원 팀에서 제공합니다. 전달 가능 보고서가 제대로 작동하려면 필수입니다.
 
 * **전달 매개 변수**
 
@@ -40,7 +52,7 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)캠페인 게재의 **[!UICONTROL Message delivery duration]** 매개 변수가 3.5일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+   >**이제 Campaign의 이 매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일이 넘는 값을 정의하는 경우, Adobe Campaign 향상된 MTA에서 관리되므로 고려되지 않습니다.
 
    이 **[!UICONTROL Online resources validity duration]** 필드는 업로드된 리소스에 대해 주로 미러 페이지 및 이미지에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하려면).
 
@@ -48,9 +60,9 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
    일시적으로 배달되지 않은 메시지는 자동으로 다시 시도됩니다. 자세한 내용은 배달 임시 실패 [후 재시도를](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)참조하십시오.
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Campaign의 **재시도** 설정이 무시됩니다. 전송을 시작한 **[!UICONTROL Number of retries]** 날(재시도 횟수)와 IP가 과거 및 현재 지정된 도메인에서 모두 얼마나 잘 수행되는지를 기준으로, 향상된 MTA가 **[!UICONTROL Retry period]** 관리하는 경우(재시도 사이의 최소 지연)
+   >수행할 최대 재시도 횟수와 재시도 사이의 최소 지연 시간은 Adobe Campaign Enhanced MTA에 의해 관리됩니다. 이는 IP가 이전 및 현재 지정된 도메인에서 수행하는 성능을 기준으로 결정됩니다. 캠페인의 **재시도** 설정은 무시됩니다.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -76,94 +88,37 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 ## 이메일 처리 규칙 {#email-processing-rules}
 
-관리자는 **[!UICONTROL Email processing rules]** 메뉴를 통해 **[!UICONTROL Administration > Channels > Email]** 액세스할 수 있습니다.
+관리자는 메뉴를 통해 **[!UICONTROL Email processing rules]** 액세스할 수 **[!UICONTROL Administration > Channels > Email]** 있습니다.
 
-이러한 규칙에는 원격 서버에서 반환할 수 있는 문자 문자열 목록이 포함되어 있어 오류를 평가할 수 있습니다(**하드**, 소프트 **또는 무시됨******).
-
-기본 규칙은 다음과 같습니다.
+이제 이메일 도메인과 MX 규칙은 Adobe Campaign 향상된 MTA에서 관리됩니다.
+* **DKIM(DomainKeys Identified Mail)** 이메일 인증 서명은 모든 도메인의 모든 메시지에 대해 향상된 MTA를 통해 수행됩니다. 향상된 MTA 수준에서 **별도로**&#x200B;지정하지 않는 한 **발신자 ID**, **도메인** 키또는 S/MIME으로서명하지 않습니다.
+* Enhanced MTA는 고유한 MX 규칙을 사용하여 사용자의 과거 이메일 명성에 따라 도메인별로 처리량을 사용자 정의할 수 있고 이메일을 전송하는 도메인에서 오는 실시간 피드백을 제공합니다.
 
 ### 바운스 메일 {#bounce-mails}
 
-동기 배달 실패 오류 메시지의 경우, 향상된 MTA는 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다. Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
-
 비동기 바운스는 여전히 **[!UICONTROL Bounce mails]** 규칙을 통해 Campaign inMail 프로세스에서 자격을 갖습니다.
 
->[!IMPORTANT]
+이 규칙에는 원격 서버에서 반환할 수 있는 문자 문자열 목록이 포함되어 있어 오류를 평가할 수 있습니다(**하드**, 소프트 **또는 무시됨******).
+
+>[!NOTE]
 >
->향상된 MTA로 업그레이드하면 캠페인 테이블의 바운스 자격 **[!UICONTROL Message qualification]** 조건은 더 이상 사용되지 않습니다. 바운스 메일 자격에 대한 자세한 내용은 이 [섹션을](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)참조하십시오.
+>동기 배달 실패 오류 메시지의 경우 Adobe Campaign 향상된 MTA가 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송합니다.
 
-<!--The user can create his own rules.
+바운스 메일 자격에 대한 자세한 내용은 이 [섹션을](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)참조하십시오.
 
->[!IMPORTANT]
->
->When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
+<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-### 이메일 도메인 관리 {#managing-email-domains}
+### Management of email domains {#managing-email-domains}
 
-<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL Domain management]** rules are no longer used.
 
-The **SMTP parameters** act as filters applied for a blocking rule.
+**DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 
-* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
-* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
+### MX management {#mx-management}
 
->[!IMPORTANT]
->
->향상된 MTA로 업그레이드하면 Adobe Campaign **[!UICONTROL Domain management]** 규칙이 더 이상 사용되지 않습니다.
+The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-**DKIM(DomainKeys Identified Mail)** 이메일 인증 서명은 모든 도메인의 모든 메시지에 대해 향상된 MTA를 통해 수행됩니다. 향상된 MTA 수준에서 **별도로**&#x200B;지정하지 않는 한 **발신자 ID**, **도메인** 키또는 S/MIME으로서명하지 않습니다.
-
-Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
-
-### MX 관리 {#mx-management}
-
-<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
-
-The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
-
-To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
-
->[!IMPORTANT]
->
->Enhanced MTA로 업그레이드하면 Adobe Campaign **[!UICONTROL MX management]** 전달 처리량 규칙이 더 이상 사용되지 않습니다.
-
-Enhanced MTA는 고유한 MX 규칙을 사용하여 사용자의 이전 이메일 명성에 따라 도메인별로 처리량을 사용자 정의하고 이메일을 전송하는 도메인에서 오는 실시간 피드백을 제공합니다.
-
-Adobe Campaign 향상된 MTA에 대한 자세한 내용은 이 [문서를](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)참조하십시오.
-
-<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
-
-For example, the following addresses:
-
-* a.mx.yahoo.com 
-* b.mx.yahoo.com 
-* c.mx.yahoo.com
-
-are compatible with the following masks:
-
-* &#42;.yahoo.com
-* ?.mx.yahoo.com
-
-These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
-
-The following parameters are available for each rule:
-
-* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
-
-    * A number: the rule will only apply to this publicId.
-    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
-
-  If the field is empty, the rule applies to all IDs.
-
-* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
-* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
-* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
-* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
-
->[!IMPORTANT]
->
->* The delivery server (MTA) must be restarted if the parameters have been changed. 
->* The modification or creation of management rules is for expert users only. -->
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
 ## 이메일 속성 목록 {#list-of-email-properties}
 
@@ -201,9 +156,9 @@ The following parameters are available for each rule:
 
 일시적으로 배달되지 않은 메시지는 자동으로 다시 시도됩니다. 자세한 내용은 배달 임시 실패 [후 재시도를](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)참조하십시오.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Campaign의 **재시도** 설정이 무시됩니다. IP가 이전 **[!UICONTROL Retry period]** 및 현재 주어진 도메인에서 얼마나 잘 수행되고 있는지를 기준으로, (재시도 사이의 최소 지연) **[!UICONTROL Max. number of retries]** 및 (전송을 시작한 날로부터 얼마나 많은 재시도가 수행되어야 하는지) 향상된 MTA가 관리합니다.
+>이제 IP가 이전 및 현재 지정된 도메인에서 얼마나 잘 수행되고 있는지를 기준으로 하여 재시도 사이의 최소 지연 및 최대 재시도 횟수를 Adobe Campaign 향상된 MTA가 관리합니다. 캠페인 **재시도** 설정은 무시됩니다.
 
 <!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
 
@@ -211,7 +166,7 @@ By default, five retries are scheduled for the first day with a minimum interval
 
 The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
 
-추진력은 Campaign의 배달 기간 설정(유효 기간 매개 변수 [섹션에](#validity-period-parameters) 정의됨)을 준수하지만 최대 3.5일만 적용됩니다. 이 시점에서 재시도 큐의 모든 메시지는 대기열에서 제거되고 다시 바운스로 전송됩니다. 배달 실패에 대한 자세한 내용은 이 [섹션을](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)참조하십시오.
+Campaign에 **설정된** 배달 기간 설정 [(유효성](#validity-period-parameters) 기간 매개 변수 **섹션에 정의됨)은**&#x200B;그대로 유지되지만 최대 3.5일만유지됩니다. 이 시점에서 재시도 큐의 모든 메시지는 대기열에서 제거되고 다시 바운스로 전송됩니다. 배달 실패에 대한 자세한 내용은 이 [섹션을](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)참조하십시오.
 
 #### 이메일 형식 매개 변수 {#email-format-parameters}
 
@@ -260,7 +215,7 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign 향상된 [MTA로 업그레이드하면](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)캠페인 게재의 **[!UICONTROL Delivery duration]** 매개 변수가 3.5일 이내로 설정된 경우에만 사용됩니다. 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+   >이제 이 매개 변수는 Adobe Campaign 향상된 MTA에서 관리합니다. **최대 3.5일 값을 정의해야 합니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**:이 필드는 주로 미러 페이지 및 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하려면).
 * **[!UICONTROL Mirror page management]**:미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 컨텐츠는 이메일 컨텐츠와 동일합니다. 기본적으로 링크가 메일 컨텐츠에 삽입된 경우 미러 페이지가 생성됩니다. 이 필드를 사용하면 이 페이지가 생성되는 방식을 수정할 수 있습니다.
