@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 
 >[!NOTE]
 >
->현재 Adobe Campaign 향상된 MTA [를 사용하여](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)보관된 이메일을 보낼 수 없습니다.
+>현재 Adobe Campaign 향상된 MTA를 사용하면 향상된 MTA로 업그레이드된 경우에도 보관된 이메일을 보낼 수 없습니다.
 
 ## 이메일 보관 활성화 {#activating-email-archiving}
 
