@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
 
 ---
 
@@ -46,9 +46,9 @@ Adobe Campaign에서는 두 가지 유형의 트랜잭션 메시지를 사용할
 
 트랜잭션 메시지는 Adobe Campaign Standard API에서도 사용할 수 있습니다. 자세한 내용은 [전용 설명서를](../../api/using/managing-transactional-messages.md)참조하십시오.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->이제 Adobe Campaign 향상된 MTA를 통해 모든 트랜잭션 메시지를 전송하여 전달 능력, 처리량 및 바운스 처리를 향상시킬 수 있습니다. 모든 영향은 표준 마케팅 메시지와 동일합니다.
+>이제 Adobe Campaign 향상된 MTA를 통해 모든 트랜잭션 메시지를 전송하여 전달 능력, 처리량 및 바운스 처리를 향상시킬 수 있습니다. 모든 영향은 표준 마케팅 메시지와 동일합니다. 자세한 내용은 이 [섹션을](../../administration/using/configuring-email-channel.md)참조하십시오.
 
 ## 트랜잭션 메시징 운영 원칙 {#transactional-messaging-operating-principle}
 
