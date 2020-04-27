@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -15,12 +15,12 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ## 새로운 기능
 
-* **[타깃팅된 프로파일을 사용한 이메일 테스트](sending/using/testing-messages-using-target.md)**<br/>실제 타깃팅된 프로필에서 이메일을 테스트하는 방법을 알아봅니다.
+* **[타깃팅된 프로파일을 사용한 이메일 테스트](sending/using/testing-messages-using-target.md)**<br/>실제 타깃팅된 프로필에서 이메일을 테스트하는 방법 학습
 
-* **[개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오.
+* **[개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오
 
 * **[Campaign Standard Mobile 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)**<br/>
-모바일 게재와 관련된 일반적인 지침에 대해 자세히 알아보십시오.
+모바일 게재와 관련된 일반적인 지침에 대해 자세히 알아보십시오
 
 [업데이트를 더 보려면 여기를 클릭하십시오.](rn/using/documentation-updates.md)
 
@@ -35,7 +35,7 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
     <div>
     <a href="administration/using/about-access-management.md"><strong>역할 및 보안 그룹</strong></a>
     </div>
-    <em></em>허용 범위를 정의하고 Campaign 사용자에게 역할을 할당하는 방법을 알아보십시오.
+    <em></em>허용 범위를 정의하고 Campaign 사용자에게 역할을 할당하는 방법을 알아보십시오
     <br>
   </td>
   <td valign="top">
@@ -52,7 +52,7 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     지원 <strong>받기</strong></a>
     </div>
-    <p><em>FAQ, 모범 사례, 도움말 리소스를 액세스하고 Campaign 전문가와 교류할 수 있습니다.</em></p>
+    <p><em>FAQ, 모범 사례, 도움말 리소스 이용 및 전문가와 교류</em></p>
     <br>
   </td>
 </tr>
