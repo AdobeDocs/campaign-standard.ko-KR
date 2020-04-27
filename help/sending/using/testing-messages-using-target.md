@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
 
    교정본 제목 줄에 특정 접두사를 추가하려면 **[!UICONTROL Subject line prefix]** 필드를 채웁니다.
 
+   >[!NOTE]
+   >
+   >제목 줄 접두사는 최대 500자를 포함할 수 있습니다.
+
    ![](assets/substitution_address.png)
 
    접두사가 다음과 같이 표시됩니다.
@@ -116,6 +120,10 @@ Campaign Standard를 사용하면 테스트에 사용할 수 있는 프로필 �
    ![](assets/substitution_audience_import.png)
 
 1. 사용할 대상을 선택한 다음 대체 주소와 사용자에게 전송된 교정에 사용할 접두사를 입력합니다.
+
+   >[!NOTE]
+   >
+   >제목 줄 접두사는 최대 500자를 포함할 수 있습니다.
 
    ![](assets/substitution_audience_define.png)
 
