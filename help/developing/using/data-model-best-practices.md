@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a58e0ec028feacf928f9048378c3255a04a33d
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 34a58e0ec028feacf928f9048378c3255a04a33d
 >
 >사전 정의된 Adobe Campaign 데이터 모델을 확장하기 위해 리소스를 만들고 수정하려면 [이 섹션을](../../developing/using/key-steps-to-add-a-resource.md)참조하십시오.
 >
->기본 리소스의 데이터 모델 표현을 [여기에서](../../developing/using/datamodel-introduction.md)찾을 수 있습니다.
+>기본 제공 리소스의 데이터 모델 표현을 [이 페이지에서](../../developing/using/datamodel-introduction.md)찾을 수 있습니다.
 
 ## 개요 {#overview}
 
