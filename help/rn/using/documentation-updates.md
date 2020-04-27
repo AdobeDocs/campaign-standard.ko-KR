@@ -12,22 +12,32 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # 설명서 업데이트 정보{#documentation-updates}
 
-Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아봅니다.
+Adobe Campaign 릴리스 노트 [외에](../../rn/using/release-notes.md)이 페이지에는 Adobe Campaign Standard 설명서의 모든 새로운 업데이트가 나열됩니다.
 
-이 페이지에는 Adobe Campaign Standard의 각 릴리스에 대한 모든 새로운 기능과 설명서 업데이트가 나열됩니다.
+## 릴리스 20.3 - 2020년 5월 {#release-20-3---may-2020}
 
-Adobe Campaign 릴리스 노트를 참조할 수도 [있습니다](../../rn/using/release-notes.md).
+**릴리스에 포함된 새로운 기능**
+
+태국의 개인 데이터 보호법(PDPA) - [자세한 내용](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+
+외부 API 활동(GA) - [자세한 내용](../../automating/using/external-api.md)
+
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
+
+* 워크플로우의 속성에 있는 **[!UICONTROL History in days]** **[!UICONTROL Transfer file]** 필드에 활동이 다운로드한 파일을 포함하는 정보가 추가되었습니다. [자세한 내용](../../automating/using/executing-a-workflow.md)
+
+* 제목 줄 접두사의 500자 제한에 대한 정보가 프로필 대체 섹션에 추가되었습니다. [자세한 내용](../../sending/using/testing-messages-using-target.md)
 
 ## 설명서 업데이트 - 2020년 4월 {#doc-updates-april-2020}
 
-Adobe Campaign Standard 설명서와 Microsoft Dynamics 365 통합은 다른 솔루션과 통합 안내서의 핵심 문서에 통합되었습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Adobe Campaign Standard와 Microsoft Dynamics 365 통합 문서는 이제 핵심 문서에서 사용할 수 있습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 설명서 홈 페이지에 추가 리소스가 추가되었습니다. [자세한 내용](../../campaign-standard-home.md)
 
@@ -35,7 +45,7 @@ Experience Cloud ID 서비스(ECID)에 대한 정보가 Adobe Experience Platfor
 
 트랜잭션 메시징 구성 섹션이 최신 트랜잭션 이벤트 및 업데이트된 스크린샷에 액세스하는 방법에 대한 정보를 제공하여 향상되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
-유형 및 유형 분류 규칙과 관련된 섹션이 바로 사용 가능한 유형 규칙에 대한 추가 정보로 개선되고 업데이트되었습니다. [자세한 내용](../../sending/using/about-typology-rules.md)
+유형 및 유형 분류 규칙 설명서가 내장된 유형 분류 규칙에 대한 추가 정보와 함께 개선되고 업데이트되었습니다. [자세한 내용](../../sending/using/about-typology-rules.md)
 
 활동의 작업에 대한 정보가 **[!UICONTROL Transfer file]** 추가되었습니다 **[!UICONTROL File listing]** . [자세한 내용](../../automating/using/transfer-file.md)
 
@@ -48,6 +58,8 @@ Experience Cloud ID 서비스(ECID)에 대한 정보가 Adobe Experience Platfor
 트랜잭션 메시징 및 사용하지 않은 실시간 이벤트 삭제와 관련하여 우수 사례가 추가되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 이메일 채널 구성 섹션이 이제 Adobe Campaign 향상된 MTA에서 관리하는 모든 이메일 설정에 대해 명확히 정보로 업데이트되었습니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
+
+트랜잭션 메시지 구성 섹션은 이벤트 구성을 편집하는 데 필요한 권한과 트랜잭션 메시지의 컬렉션을 강화하는 방법에 대한 추가 정보로 업데이트되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md)보기
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
@@ -89,7 +101,7 @@ Adobe Campaign Standard/Adobe Experience Manager 통합 문서가 업데이트�
 
 이제 Campaign Standard 데이터 모델 우수 사례 전용 섹션을 사용할 수 있습니다. [자세한 내용](../../developing/using/data-model-best-practices.md)
 
-기본 오른쪽에 정보가 **[!UICONTROL Workflow]** 추가되었습니다. [자세한 내용](../../administration/using/list-of-roles.md)
+내장된 오른쪽에 정보가 **[!UICONTROL Workflow]** 추가되었습니다. [자세한 내용](../../administration/using/list-of-roles.md)
 
 워크플로우의 속성에 **[!UICONTROL History in days field]** 사용할 수 있는 정보가 추가되었습니다. [자세한 내용](../../automating/using/executing-a-workflow.md)
 
@@ -453,7 +465,7 @@ Adobe Experience Platform SDK를 사용하여 모바일 애플리케이션 구�
 
 대상을 삭제하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../audiences/using/creating-audiences.md#deleting-audiences)
 
-즉시 사용 가능한 보고서 섹션에서 푸시 알림을 업데이트했습니다. [자세한 내용](../../reporting/using/push-notification-report.md)
+푸시 알림 기본 제공 보고서 섹션이 업데이트되었습니다. [자세한 내용](../../reporting/using/push-notification-report.md)
 
 ## 릴리스 18.7 - 2018년 7월 {#release-18-7---july-2018}
 
@@ -577,7 +589,7 @@ Campaign 및 Adobe 솔루션 통합에 대한 도움말 자료 목록을 업데�
 
 Campaign 및 Adobe 솔루션 통합에 대한 대부분의 URL이 변경되었습니다. 책갈피를 확인하십시오! [자세한 내용](../../integrating/using/about-campaign-integrations.md)
 
-이제 데이터 모델 v1을 기본 리소스에 대한 SQL 구조와 함께 사용할 수 있습니다. 자세한 [내용](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+이제 데이터 모델 v1을 기본 제공 리소스를 위한 SQL 구조와 함께 사용할 수 있습니다. 자세한 [내용](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
 배달에서 메시지를 준비하는 방법에 대한 정보 추가자세한 [내용](../../sending/using/preparing-the-send.md)
 
@@ -653,7 +665,7 @@ A/B 테스트 샘플이 업데이트되었습니다. [자세한 내용](../../ch
 
 새 내보내기 추적 기능에 대한 섹션이 추가되었습니다. [자세한 내용](../../administration/using/auditing-export-logs.md)
 
-기본 패키지 내보내기에 대한 정밀도가 추가되었습니다. [자세한 내용](../../automating/using/managing-packages.md)
+내장 패키지 내보내기에 대한 정밀도가 추가되었습니다. [자세한 내용](../../automating/using/managing-packages.md)
 
 외부 계정 정의 및 샘플을 업데이트했습니다. [자세한 내용](../../administration/using/external-accounts.md)
 
