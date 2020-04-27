@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 1. 규칙 유형을 **[!UICONTROL Filtering]** 선택한 다음 원하는 채널을 지정합니다.
 
-1. sL **[!UICONTRO필터링 기준]** 탭에서 **[!UICONTROL Subscription]** 카테고리의 가입을 선택합니다.
+1. 탭의 **[!UICONTROL Filtering criteria]** 카테고리에서 가입을 선택합니다 **[!UICONTROL Subscription]** .
 
    ![](assets/typology_create-rule-subscription.png)
 
