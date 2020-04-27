@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -139,7 +139,7 @@ Unifi가 작업을 완료하면 알림 메시지를 수신하고 Unifi 인스턴
 >
 >기본적으로 SEND 마케팅 이벤트는 송신 작업에서 필터링됩니다.  Dynamics 365에서 SEND 마케팅 이벤트를 보려면 Unifi에서 송신 작업의 필터(5단계)를 수정해야 합니다.
 
-Unifi에는 소유자 사용자 및 읽기 전용 애널리스트 사용자, 두 개의 별도의 역할이 있습니다. 소유자 사용자는 작업 및 일정을 수정할 수 있지만 읽기 전용 분석가는 수정할 수 없습니다.  지정된 고객 인스턴스에 대해 하나의 소유자 사용자만 있을 수 있습니다.  고객이 소유자 사용자로 지정된 개인을 변경해야 하는 경우 adobe-support@unifisoftware.com [(mailto]:(adobe-support@unifisoftware.com))를 참조하십시오.
+Unifi에는 소유자 사용자 및 읽기 전용 애널리스트 사용자, 두 개의 별도의 역할이 있습니다. 소유자 사용자는 작업 및 일정을 수정할 수 있지만 읽기 전용 분석가는 수정할 수 없습니다.  지정된 고객 인스턴스에 대해 하나의 소유자 사용자만 있을 수 있습니다.  고객이 소유자 사용자로 지정된 개인을 변경해야 하는 경우 요청된 변경 사항이 있는 adobe-support@unifisoftware.com [으로](mailto:adobe-support@unifisoftware.com) 이메일을 보낼 수 있습니다.
 
 통합 구성, 작업 세부 사항, 설정 및 모니터링이 아래 비디오에 나와 있습니다.
 
