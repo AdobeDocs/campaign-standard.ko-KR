@@ -1,19 +1,19 @@
 ---
 title: 화면 정의 구성
 description: 리소스 데이터 구조를 기반으로 새로운 Adobe Campaign 화면을 정의하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 개발
+audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 9davb328-ac0c-49fd-8996-8d56341ee7ac
+discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -53,11 +53,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 섹션에서 **[!UICONTROL Simple search]** 을 **[!UICONTROL Specify the fields to be taken into account in the search]** 선택하여 검색에 포함할 필드를 정의합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >이 구성은 기본 검색에 사용되는 필드를 대체합니다.
 
-1. 섹션에서 **[!UICONTROL Advanced filtering]** **[!UICONTROL Add search fields]** 상자를 선택하여 단순 검색 필드 이외의 필드를 추가합니다. 예를 들어, 사용자가 만든 필드에서 "날짜" 필드를 선택하면 사용자는 날짜만 참조하는 검색을 수행할 수 있습니다.
+1. 섹션에서 **[!UICONTROL Advanced filtering]** **[!UICONTROL Add search fields]** 상자를 선택하여 단순 검색 필드 이외의 필드를 추가합니다. 예를 들어, 사용자가 만든 필드에서 &quot;날짜&quot; 필드를 선택하면 사용자는 날짜만 참조하는 검색을 수행할 수 있습니다.
 1. 두 검색 유형의 필드 순서를 수정할 수 있습니다.
 1. 고급 검색의 경우 연결된 리소스에 연결된 필드를 추가할 수 있습니다. 이러한 필터는 생성된 화면의 **[!UICONTROL Search]** 메뉴에 나타납니다.
 
@@ -103,4 +103,3 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * **[!UICONTROL Authorize duplicating]**:이 옵션을 사용하면 사용자 지정 리소스에 연결된 중복 레코드를 활성화할 수 있습니다.
 * **[!UICONTROL Authorize deleting]**:이 옵션을 사용하면 사용자 지정 리소스에 연결된 레코드 삭제를 활성화할 수 있습니다.
-
