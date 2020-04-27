@@ -13,7 +13,7 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 88d0f67683c5209ccf25d1ceae1ab23b3ac14e06
+source-git-commit: 18db1b8cade7d88294ef2609dd4fad95c55fbd37
 
 ---
 
@@ -34,15 +34,10 @@ source-git-commit: 88d0f67683c5209ccf25d1ceae1ab23b3ac14e06
 
 * **[!UICONTROL Administration]**:일반 관리 권한
 * **[!UICONTROL Datamodel]**:발행물을 실행하고 맞춤형 리소스를 제작할 수 있습니다.
-* **[!UICONTROL Export]**:데이터를 내보낼 수 있습니다.
 * **[!UICONTROL Generic import]**:데이터에 대한 일반 가져오기를 실행할 수 있습니다. 이를 수행하려면 역할을 역할에 **[!UICONTROL Generic import]** 연결해야 합니다 **[!UICONTROL Workflow]** .
 * **[!UICONTROL Prepare deliveries]**:게재를 생성, 수정, 준비 및 삭제할 수 있는 권한 이 역할을 가진 사용자는 배달을 준비할 수 있지만 보낼 수는 없습니다.
 * **[!UICONTROL Start deliveries]**:전달을 생성, 수정, 준비, 전송 및 삭제할 수 있는 권한
 * **[!UICONTROL Workflow]**:워크플로우 실행을 관리할 수 있는 권한(시작, 중지, 일시 중지 등) 이 역할을 가진 사용자는 워크플로우에서도 배달을 보낼 수 없습니다.
-
->[!IMPORTANT]
->
->이 **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]**&#x200B;및 **[!UICONTROL File access]** **[!UICONTROL Message Center push]** 역할은 Adobe 관리자의 내부용입니다. 사용자에게 허용되어서는 안 됩니다.
 
 **관련 항목:**
 
