@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
+source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
 ---
 
@@ -25,6 +25,11 @@ source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 ![](assets/file_transfer.png)
 
 이 **[!UICONTROL Transfer file]** 활동을 통해 파일을 수신하거나 보내고, 파일이 있는지 테스트하거나, Adobe Campaign에 파일을 나열할 수 있습니다.
+
+>[!CAUTION]
+>
+>20.3 릴리스부터는 **[!UICONTROL Transfer File]** 활동과 함께 다운로드한 파일이 X일 후 삭제됩니다. 여기서 X는 워크플로우 속성의 **[!UICONTROL History in days]** 메뉴 아래에 있는 **[!UICONTROL Execution]** 필드에 의해 결정됩니다.
+
 
 ## 사용 상황 {#context-of-use}
 
