@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -31,13 +31,13 @@ Campaign에는 다음과 같은 내장 랜딩 페이지 템플릿이 포함되�
 
 ![](assets/lp_creation_1.png)
 
-랜딩 페이지 템플릿에 액세스하려면 왼쪽 상단에 있는 Adobe Campaign 로고를 클릭하고 **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Landing page templates]**&#x200B;를 선택합니다.
+랜딩 페이지 템플릿에 액세스하려면 왼쪽 상단에 있는 Adobe Campaign 로고를 클릭하고 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**&#x200B;를 선택합니다.
 
 >[!NOTE]
 >
 >내장된 템플릿을 복제하여 고유한 템플릿을 만드는 것이 좋습니다. 일부 매개 변수는 랜딩 페이지 템플릿에서만 설정할 수 있으며 랜딩 페이지에서 직접 수정할 수 없습니다.
 
-템플릿을 작성할 때는 태그에 **'type'** 속성을 추가하는 것이 좋습니다. 이 정보는 편집자가 처리하며 웹 애플리케이션을 구성할 때 데이터베이스 필드를 양식 필드에 연결하는 데 도움이 됩니다.
+템플릿을 작성할 때는 태그에 **&#39;type&#39;** 속성을 추가하는 것이 좋습니다. 이 정보는 편집자가 처리하며 웹 애플리케이션을 구성할 때 데이터베이스 필드를 양식 필드에 연결하는 데 도움이 됩니다.
 
 템플릿의 HTML 코드 예:
 
@@ -45,4 +45,4 @@ Campaign에는 다음과 같은 내장 랜딩 페이지 템플릿이 포함되�
 <input id="email" type="email" name="email"/>
 ```
 
-'type' 속성의 공식 목록은 다음 주소로 사용할 수 있습니다. [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
+&#39;type&#39; 속성의 공식 목록은 다음 주소로 사용할 수 있습니다. [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
