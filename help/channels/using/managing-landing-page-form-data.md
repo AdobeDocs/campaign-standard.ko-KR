@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 8c24e048c698f7ad699e83a753c114fcfd25f6a0
 
 ---
 
@@ -38,15 +38,12 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
    ![](assets/editing_lp_content_4.png)
 
-1. 선택 영역의 양식 필드에 연결할 데이터베이스 필드를 **[!UICONTROL Field]** 선택합니다.
+1. 선택 영역의 양식 필드에 연결할 데이터베이스 필드를 **[!UICONTROL Field]** 선택합니다. 랜딩 페이지는 프로파일과 매핑만 할 수 **있습니다**.
 
-   이 **[!UICONTROL Mandatory]** 옵션을 선택하면 사용자가 이 필드를 완료한 경우에만 페이지를 제출할 수 있습니다. 필수 필드가 완료되지 않으면 사용자가 페이지의 유효성을 검사할 때 오류 메시지가 나타납니다.
-
-   >[!NOTE]
-   >
-   >랜딩 페이지는 프로파일과 매핑만 할 수 **있습니다**.
+1. 필요한 경우 **[!UICONTROL Mandatory]** 옵션을 선택합니다. 사용자가 이 필드를 완료한 경우에만 페이지를 제출할 수 있습니다. 필수 필드가 완료되지 않으면 사용자가 페이지의 유효성을 검사할 때 오류 메시지가 나타납니다.
 
 1. 선택 영역(예: **[!UICONTROL Text]**&#x200B;선택 영역 **[!UICONTROL Number]**&#x200B;또는 **[!UICONTROL Date]** **[!UICONTROL HTML type of the field]** 선택 영역)을 선택하여 필드 유형을 정의합니다.
+필수를 선택하는 **[!UICONTROL Checkbox]**&#x200B;경우 필수가 **[!UICONTROL Field]** 되어 있는지 확인합니다.
 
 >[!NOTE]
 >
