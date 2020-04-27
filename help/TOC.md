@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
+source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 
 ---
 
@@ -96,6 +96,9 @@ source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
       + [다국어 푸시 알림 만들기](channels/using/creating-a-multilingual-push-notification.md)
       + [다국어 푸시 알림에 대한 CSV 파일 생성](channels/using/generating-csv-multilingual-push.md)
       + [모바일 애플리케이션 데이터를 기반으로 프로필 정보 만들고 업데이트하기](channels/using/updating-profile-with-mobile-app-data.md)
+      + [푸시 추적 구현](channels/using/push-tracking.md)
+      + [Adobe Campaign Standard 푸시 알림의 이미지 표시](channels/using/image-push-notification.md)
+      + [Campaign Standard 푸시 알림 페이로드 구조 이해](channels/using/push-payload.md)
    + 인앱 메시지 {#in-app-messaging}
       + [인앱 메시지 기본 정보](channels/using/about-in-app-messaging.md)
       + [인앱 메시지 준비 및 보내기](channels/using/preparing-and-sending-an-in-app-message.md)
