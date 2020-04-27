@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -31,7 +31,7 @@ Campaign Standard는 마케팅 데이터베이스를 확장하는 데 도움이 
 
 두 가지 유형의 템플릿을 설정할 수 있습니다.
 
-* **워크플로우 템플릿**:이러한 워크플로우는 필요에 따라 한 번 설정할 수 있고 데이터를 가져오고 데이터베이스를 업데이트할 때마다 재사용할 수 있는 미리 구성된 워크플로우입니다.
+* **워크플로우 템플릿**:이러한 워크플로우는 필요에 따라 한 번 설정할 수 있으며 데이터를 가져오고 데이터베이스를 업데이트할 때마다 재사용할 수 있도록 미리 구성된 워크플로우입니다.
 
    데이터를 가져오는 워크플로우 템플릿의 예는 [이 섹션에](../../automating/using/importing-data.md#example--import-workflow-template)자세히 설명되어 있습니다.
 
