@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # 이메일 채널 구성{#configuring-email-channel}
 
-캠페인 [관리자는](../../administration/using/about-administrating-adobe-campaign.md)이메일 채널 설정을 구성할 수 있습니다. 이러한 고급 설정에는 일반 이메일 채널 매개 변수, 이메일 라우팅 계정, 이메일 처리 규칙 및 이메일 속성이 포함됩니다. 이 페이지에서는 일반 이메일의 기본값을 편집하고 매개 변수를 전송하는 방법을 알아봅니다.
+캠페인 [관리자는](../../administration/using/users-management.md#functional-administrators)이메일 채널 설정을 구성할 수 있습니다. 이러한 고급 설정에는 일반 이메일 채널 매개 변수, 이메일 라우팅 계정, 이메일 처리 규칙 및 이메일 속성이 포함됩니다. 이 페이지에서는 일반 이메일의 기본값을 편집하고 매개 변수를 전송하는 방법을 알아봅니다.
 
 일부 이메일 설정은 이제 Adobe Campaign 향상된 MTA에서 관리됩니다. 따라서:
 * 캠페인 사용자 인터페이스의 일부 구성은 더 이상 적용되지 않습니다.
@@ -273,7 +273,7 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 [변수](#list-o
 
    >[!NOTE]
    >
-   >> **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 메뉴를 통해 액세스할 수 있는 유형 분류는 유형 지정 [섹션에](../../sending/using/about-typology-rules.md) 표시됩니다.
+   >> **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 메뉴를 통해 액세스할 수 있는 Typhogies는 [이 섹션에](../../sending/using/about-typology-rules.md)표시됩니다.
 
 * **[!UICONTROL Compute the label during delivery preparation]**:개인화 필드, 컨텐츠 블록 및 동적 텍스트를 사용하여 메시지 준비 단계 동안 이메일의 레이블 값을 계산할 수 있습니다.
 
