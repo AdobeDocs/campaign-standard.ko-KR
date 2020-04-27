@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
 
 1. 유형 목록이 표시됩니다. 단추를 **[!UICONTROL Create]** 클릭합니다.
 
-   ![](assets/typologies-list.png)
+   ![](assets/typologies-create.png)
 
 1. 유형을 **[!UICONTROL Label]**&#x200B;정의한 다음 **[!UICONTROL Add an element]** 단추를 클릭하여 포함할 유형 규칙을 선택합니다. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
 
