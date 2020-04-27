@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -70,6 +70,9 @@ source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 * [접두사] 필드에서 대상 프로필을 **** 사용하여 [메시지를](../../sending/using/testing-messages-using-target.md) 테스트하기 위해 사용할 수 있는 문자 수가 32자에서 500자로 늘었습니다.
 * 인스턴스에 게시할 수 있는 최대 실시간 이벤트 수가 350개에서 2000개로 증가했습니다. (CAMP-41608)
+* syncWithLaunch 기술 워크플로우를 사용하여 Adobe Launch와 Campaign Standard 간의 동기화가 향상되었습니다. 이 워크플로우를 사용하면 모든 Adobe Launch 모바일 속성을 Adobe Campaign Standard로 자동으로 가져올 수 있습니다. 자세한 내용은 [이 페이지를](../../administration/using/technical-workflows.md)참조하십시오.
+
+   Adobe 고객 지원 센터(직접 또는 Adobe 담당자를 통해)에 티켓을 제출하여 Campaign 인스턴스에서 syncWithLaunch 기술 워크플로우를 활성화해야 합니다. (CAMP-40082)
 
 **향상된 이메일 디자이너**
 
