@@ -1,18 +1,18 @@
 ---
 title: 기술 워크플로우
 description: 기술 워크플로우는 Adobe Campaign의 백그라운드 기술 프로세스를 처리하기 위해 고안된 즉시 사용 가능한 워크플로우로서, 플랫폼의 올바른 동작을 보장합니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 관리
+audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -97,6 +97,12 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> <span class="uicontrol">kpiSharing</span><br /> </td> 
    <td> 이 워크플로우는 Adobe Campaign Standard에서 Adobe Analytics로 15분마다 KPI 데이터를 전달합니다.<br /> </td> 
   </tr> 
+    </tr> 
+   <tr> 
+   <td> <span class="uicontrol">Launch와</span> 동기화 <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
+   <td> 이 워크플로우는 Adobe Campaign Standard에서 가져온 Adobe Launch 모바일 속성을 동기화합니다. 15분마다 시작됩니다.<br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">배달 실행</span> 업데이트 <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span><br /> </td> 
@@ -110,7 +116,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   <tr> 
    <td> <span class="uicontrol">이벤트 상태</span> 업데이트 <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span><br /> </td> 
-   <td> 이 워크플로우에서는 상태를 이벤트에 지정할 수 있습니다. <br /> 다음 이벤트 상태를 사용할 수 있습니다.보류 <strong>중</strong>:이벤트가 대기열에 있습니다. 메시지 템플릿이 아직 지정되지 않았습니다.<br /> 배달 <span class="uicontrol">대기 중</span> :이벤트가 대기열에 있고 메시지 템플릿이 할당되어 전달에 의해 처리되는 중입니다.<br /> 전송 <strong></strong>:이 상태는 배달 로그에서 복사됩니다. 배달이 전송되었음을 의미합니다.<br /> 배달에서 <strong>무시됨</strong>:이 상태는 배달 로그에서 복사됩니다. 배달이 무시되었음을 의미합니다.<br /> 배달 <strong>실패</strong>:이 상태는 배달 로그에서 복사됩니다. 배달이 실패했다는 뜻입니다.<br /> <span class="uicontrol">이벤트가 고려되지</span> 않음:이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.<br /> </td> 
+   <td> 이 워크플로우에서는 상태를 이벤트에 지정할 수 있습니다. 다음 이벤트 상태를 사용할 수 있습니다.<br /> 보류 <strong>중</strong>:이벤트가 대기열에 있습니다. 메시지 템플릿이 아직 지정되지 않았습니다.<br /> 배달 <span class="uicontrol">대기 중</span> :이벤트가 대기열에 있고 메시지 템플릿이 할당되어 전달에 의해 처리되는 중입니다.<br /> 전송 <strong></strong>:이 상태는 배달 로그에서 복사됩니다. 배달이 전송되었음을 의미합니다.<br /> 배달에서 <strong>무시됨</strong>:이 상태는 배달 로그에서 복사됩니다. 배달이 무시되었음을 의미합니다.<br /> 배달 <strong>실패</strong>:이 상태는 배달 로그에서 복사됩니다. 배달이 실패했다는 뜻입니다.<br /> <span class="uicontrol">이벤트가 고려되지</span> 않음:이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">전달</span> 업데이트 <br /> </td> 
