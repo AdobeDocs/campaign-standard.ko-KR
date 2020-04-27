@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 546c79b4b9a2b1fdeeee69aee2ed85fa00279609
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign을 사용하면 풍부한 고객 프로파일을 실시간으로 
 
 ## 개인 정보 보호 규정 준수
 
-Adobe Campaign은 GDPR, CCPA 및 기타 개인 정보 보호 법에 대한 개인 정보 보호 규정 준수를 지원하는 다양한 툴을 제공합니다. 이 [문서에서](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html) 개인정보 보호 관리와 액세스 권한, 잊혀질 권리, 동의, 데이터 유지 및 사용자 역할을 관리하기 위해 제공하는 기능에 대해 자세히 알아보십시오. 또한 Adobe 서비스를 사용할 때 귀하의 개인정보 보호 규정 준수를 돕기 위해 최선의 방법을 찾을 수 있습니다.
+Adobe Campaign은 GDPR, CCPA 및 기타 개인 정보 보호 법에 대한 개인 정보 보호 규정 준수를 지원하는 다양한 툴을 제공합니다. 이 [문서에서](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html) 개인정보 보호 관리와 액세스 권한, 잊혀질 권리, 동의, 데이터 유지 및 사용자 역할을 관리하기 위해 제공하는 기능에 대해 자세히 알아보십시오. 또한 Adobe 서비스를 사용할 때 귀하의 개인정보 보호 규정 준수를 돕기 위한 모범 사례를 찾을 수 있습니다.
 
 ## 관련 항목
 
