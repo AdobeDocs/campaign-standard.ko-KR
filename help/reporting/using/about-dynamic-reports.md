@@ -12,20 +12,20 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
 
 ---
 
 
 # 동적 보고서 기본 정보{#about-dynamic-reports}
 
+Dynamic Reporting은 사용자 정의 가능하고 실시간 보고서를 제공합니다. 프로필 데이터에 대한 액세스 권한을 추가함으로써 열림 및 클릭과 같은 기능적인 이메일 캠페인 데이터 외에도 성별, 도시 및 연령 등의 프로필 차원별로 인구 통계 분석을 수행할 수 있습니다. 드래그 앤 드롭 인터페이스에서 데이터를 살펴보고 가장 중요한 고객 세그먼트에 대한 이메일 캠페인의 성과를 확인하고 수신자에게 미치는 영향을 측정할 수 있습니다.
+
 >[!NOTE]
 >
 >관리 권한이 있거나 조직 구성 단위를 모두(All)로 **설정한** 사용자만 새 보고서를 만들거나 저장할 수 있습니다. For more on this, refer to this [section](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
-
-Dynamic Reporting은 사용자 정의 가능하고 실시간 보고서를 제공합니다. 프로필 데이터에 대한 액세스 권한을 추가함으로써 열림 및 클릭과 같은 기능적인 이메일 캠페인 데이터 외에도 성별, 도시 및 연령 등의 프로필 차원별로 인구 통계 분석을 수행할 수 있습니다. 드래그 앤 드롭 인터페이스에서 데이터를 살펴보고 가장 중요한 고객 세그먼트에 대한 이메일 캠페인의 성과를 확인하고 수신자에게 미치는 영향을 측정할 수 있습니다.
 
 드래그 앤 드롭 메뉴와 사용자 정의 가능한 시각화 기능을 통해 다이내믹 보고서 기능을 사용하여 차원, 지표 및 시간 범위를 모든 조합에서 결합할 수 있으며, 무제한 분류 및 비교를 수행할 수 있습니다.
 
