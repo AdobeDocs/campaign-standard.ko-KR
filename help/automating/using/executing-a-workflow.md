@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
+source-git-commit: e5c21e1398d5fbe39761ab00ada24263317e6742
 
 ---
 
@@ -199,7 +199,7 @@ Campaign Standard REST API를 사용하면 워크플로우를 **시작**, **일�
 
 * **[!UICONTROL Default affinity]**:이 필드를 사용하면 특정 컴퓨터에서 워크플로우 또는 워크플로우 활동을 강제로 실행할 수 있습니다.
 
-* **[!UICONTROL History in days]**:내역을 삭제할 일 수를 지정합니다. 작업 내역은 로그, 작업, 이벤트와 같은 모든 요소로 이루어집니다. 기본 워크플로우 템플릿의 경우 기본값은 30일입니다.
+* **[!UICONTROL History in days]**:내역을 삭제할 일 수를 지정합니다. 작업 내역에는 워크플로와 관련된 요소가 포함되어 있습니다.로그, 작업, 이벤트(워크플로우 작업과 연결된 기술 개체) 및 **[!UICONTROL Transfer file]** 활동에 의해 다운로드한 파일 기본 워크플로우 템플릿의 경우 기본값은 30일입니다.
 
    작업 내역 제거는 데이터베이스 정리 기술 워크플로우에 의해 수행되며, 이 워크플로우는 기본적으로 매일 실행됩니다(기술 [워크플로우](../../administration/using/technical-workflows.md)목록 참조).
 
