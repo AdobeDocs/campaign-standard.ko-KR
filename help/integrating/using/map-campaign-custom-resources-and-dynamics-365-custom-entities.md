@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign Standard와 Microsoft Dynamics 365 간의 통합을 통해 사용
 
 사용자 지정 엔티티에 대한 통합을 설정하려면 adobe-support@unifisoftware.com [으로 이동하여](mailto:adobe-support@unifisoftware.com) 요청하십시오.  Unifi는 두 시스템의 사용자 지정 엔티티 테이블 이름과 원하는 속성 매핑이 필요합니다.  그러면 Unifi가 해당 작업 및 일정을 만듭니다.
 
-사용자 지정 엔티티 지원의 사용 사례는 사용 사례 [섹션에서](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC)확인할 수 있습니다.
+사용자 지정 엔티티 지원의 사용 예는 아래에 나와 있습니다.
 
 >[!CAUTION]
 >
@@ -44,7 +44,6 @@ Adobe Campaign Standard와 Microsoft Dynamics 365 간의 통합을 통해 사용
 
 
 ## 사용 사례
-
 
 ### 시작 상태
 
@@ -179,5 +178,5 @@ Campaign에서 고객의 사용자 지정 리소스는 왼쪽 **[!UICONTROL Adob
 
 **관련 항목**
 
-* Adobe Campaign Standard 작업 - Microsoft Dynamics 365
-* Campaign에서 사용자 지정 리소스를 추가하는 주요 단계
+* [Adobe Campaign Standard 작업 - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Campaign에서 사용자 지정 리소스를 추가하는 주요 단계](../../developing/using/key-steps-to-add-a-resource.md)
