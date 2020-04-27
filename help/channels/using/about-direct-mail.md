@@ -1,19 +1,19 @@
 ---
 title: DM 기본 정보
 description: Adobe Campaign에서 DM 채널의 주요 특성을 살펴볼 수 있습니다.
-page-status-flag: 활성화 안 함
+page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 채널
+audience: channels
 content-type: reference
-topic-tags: 다이렉트 메일
-discoiquuid: e1fbf39c-9c30-49 파섹
+topic-tags: direct-mail
+discoiquuid: e1fbf39c-9c30-493c-8322-9c71e18ce98c
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Campaign의 사용자 프로세스는 다음과 같습니다.
 
 Adobe Campaign은 가장 일반적인 우편 주소 정규화를 따르는 미리 정의된 계산된 필드 세트를 제공합니다. 이 필드는 **[!UICONTROL Postal address]** 노드에서 사용할 수 있습니다.
 
-주소는 기본적으로 최대 6개의 줄을 포함할 수 있습니다.첫 번째 계산된 필드(이름과 성을 **[!UICONTROL Line 1]** 포함함, 다음 줄에는 우편 주소(도로 등)가 포함되고, 마지막 줄에는 우편 번호 및 우편 번호 및 시/도가 포함됩니다.
+주소는 기본적으로 최대 6개의 줄을 포함할 수 있습니다.첫 번째 계산된 필드(**[!UICONTROL Line 1]** 이름과 성 포함, 다음 줄에는 우편 주소(도로 등)가 들어 있으며, 마지막 줄에는 우편 번호 및 우편 번호 및 시/도가 포함되어 있습니다.
 
 ![](assets/direct_mail_23.png)
 
