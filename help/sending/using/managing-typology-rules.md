@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -42,21 +42,21 @@ source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
 
 1. / **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** 메뉴를 클릭한 다음 **[!UICONTROL Create]**&#x200B;을 클릭합니다.
 
-![](assets/typology_create-rule.png)
+   ![](assets/typology_create-rule.png)
 
 1. 유형을 **[!UICONTROL Label]**&#x200B;입력한 다음 규칙을 적용할 유형을 **[!UICONTROL Channel]** 지정합니다.
 
-![](assets/typology-rule-label.png)
+   ![](assets/typology-rule-label.png)
 
 1. 유형 규칙을 **[!UICONTROL Type]**&#x200B;지정한 다음 필요에 따라 구성합니다. 유형 규칙 구성은 유형에 따라 다릅니다. 자세한 내용은 필터링 규칙 및 **[피로 규칙](../../sending/using/filtering-rules.md)**섹션을**[&#x200B;참조하십시오](../../sending/using/fatigue-rules.md)** .
 
 1. 새 규칙을 포함할 유형을 선택합니다. 이렇게 하려면 **[!UICONTROL Typologies]** 탭을 선택한 다음 **[!UICONTROL Create element]** 단추를 클릭합니다.
 
-![](assets/typology-typologies-tab.png)
+   ![](assets/typology-typologies-tab.png)
 
 1. 원하는 유형을 선택한 다음 을 **[!UICONTROL Confirm]**&#x200B;클릭합니다.
 
-![](assets/typology-link.png)
+   ![](assets/typology-link.png)
 
 1. 모든 유형 유형을 선택한 후 을 클릭하여 유형 규칙 생성을 **[!UICONTROL Create]** 확인합니다.
 
