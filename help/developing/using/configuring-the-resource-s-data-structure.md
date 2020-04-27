@@ -13,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
@@ -159,7 +159,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
    >
    >최대 30자를 사용합니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >만든 후에는 링크 이름을 변경할 수 없습니다. 링크 이름을 변경하려면 링크를 삭제하고 다시 만들어야 합니다.
 
@@ -198,7 +198,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
    ![](assets/custom_resource_link_to_profile_3.png)
 
-1. 필요한 경우, 구매를 편집하고 **이를 프로필에 연결할 수 있도록 세부** 화면을 정의할 수 있습니다.
+1. 필요한 경우 세부 사항 화면을 정의하여 구매를 편집하고 **프로필에** 연결할 수 있습니다.
 
    섹션을 **[!UICONTROL Detail screen configuration]** 펼쳐서 **[!UICONTROL Define a detail screen]** 리소스의 각 요소에 해당하는 화면을 구성하는 방법을 확인합니다. 이 확인란을 선택하지 않으면 이 리소스의 세부 사항 보기에 액세스할 수 없습니다.
 
@@ -254,7 +254,7 @@ source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 동적 보고에 대한 자세한 내용은 구성 요소 [목록을 참조하십시오](../../reporting/using/list-of-components-.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >동적 보고로 전송된 필드 수는 20개로 제한됩니다.
 
