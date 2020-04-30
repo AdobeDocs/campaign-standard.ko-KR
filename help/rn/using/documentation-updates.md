@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 ---
 
@@ -31,9 +31,15 @@ Adobe Campaign 릴리스 노트 [외에](../../rn/using/release-notes.md)이 페
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-* 워크플로우의 속성에 있는 **[!UICONTROL History in days]** **[!UICONTROL Transfer file]** 필드에 활동이 다운로드한 파일을 포함하는 정보가 추가되었습니다. [자세한 내용](../../automating/using/executing-a-workflow.md)
+워크플로우의 속성에 있는 **[!UICONTROL History in days]** **[!UICONTROL Transfer file]** 필드에 활동이 다운로드한 파일을 포함하는 정보가 추가되었습니다. [자세한 내용](../../automating/using/executing-a-workflow.md)
 
-* 제목 줄 접두사의 500자 제한에 대한 정보가 프로필 대체 섹션에 추가되었습니다. [자세한 내용](../../sending/using/testing-messages-using-target.md)
+제목 줄 접두사의 500자 제한에 대한 정보가 프로필 대체 섹션에 추가되었습니다. [자세한 내용](../../sending/using/testing-messages-using-target.md)
+
+개인 정보 및 동의 전용 섹션이 핵심 문서에 추가되었습니다. [자세한 내용](../../start/using/privacy.md)
+
+* 기존 편집기 이메일을 이메일 디자이너에게 변환할 수 있도록 사용 사례가 추가되었습니다. [자세한 내용](../../designing/using/converting-emails-from-legacy-editor.md)
+
+* 이메일 디자이너에 대한 FAQ 섹션이 추가되었습니다. [자세한 내용](../../designing/using/faq-email-designer.md)
 
 ## 설명서 업데이트 - 2020년 4월 {#doc-updates-april-2020}
 
