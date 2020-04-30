@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -59,15 +59,15 @@ Adobe Campaign Standard와 Microsoft Dynamics 365 간의 통합을 통해 사용
 
 Dynamics 365에서 이 고객의 사용자 지정 개체는 Dynamics 365 옆의 드롭다운을 클릭하여 판매 대시보드에서 볼 수 있습니다.  이 고객의 사용자 지정 개체는 아래에서 함께 **[!UICONTROL Extensions]**&#x200B;그룹화됩니다.
 
-![](assets/SalesDashboard.png)
+![](assets/do-not-localize/SalesDashboard.png)
 
 차량 데이터는 **[!UICONTROL vehicle]** 사용자 지정 엔티티를 클릭하여 볼 수 있습니다.  아래 차량 목록을 참조하십시오.
 
-![](assets/VehicleCustomEntity.png)
+![](assets/do-not-localize/VehicleCustomEntity.png)
 
 엔티티와 엔티티의 관계는 아래에 표시될 수 **[!UICONTROL vehicle]** **[!UICONTROL Contact]** 있습니다. **[!UICONTROL Parental]** 가 선택되었습니다 **[!UICONTROL Type of Behavior]**.
 
-![](assets/ContactToVehicle.png)
+![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Campaign Standard의 구성
 
@@ -102,7 +102,7 @@ Campaign에서 고객의 사용자 지정 리소스는 왼쪽 **[!UICONTROL Adob
 >
 >각 사용자 지정 리소스에는 externalId의 ID가 있는 고유한 필드가 있어야 합니다(정확히).  이 필드는 Dynamics 365에서 사용자 지정 리소스의 ID 필드에 매핑됩니다(아래 참조).
 
-![](assets/FieldsInDynamics.png)
+![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### 식별 키 정의
 
@@ -170,7 +170,7 @@ Campaign에서 고객의 사용자 지정 리소스는 왼쪽 **[!UICONTROL Adob
 
 고객이 Dynamics 365에서 차량 사용자 지정 엔티티를 이미 채우고 Unifi에서 차량 사용자 지정 개체 작업 및 일정을 설정했다고 가정할 경우 고객은 차량 엔티티의 수신 일정을 시작할 수 있습니다.
 
-![](assets/Schedule.png)
+![](assets/do-not-localize/Schedule.png)
 
 이제 수신 작업이 완료되면 Campaign에서 새로 채워진 **[!UICONTROL Vehicle]** 사용자 지정 리소스에서 차량 데이터를 볼 수 있습니다.
 
