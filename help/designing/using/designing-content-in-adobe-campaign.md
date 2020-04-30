@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해
 
 이메일 디자이너를 사용하면 Creative Cloud와의 통합을 통해 드래그 앤 드롭 인터페이스에서 개인화된 매력적인 이메일을 만들 수 있습니다. 빈 서판으로 시작하거나 기존 컨텐츠 조각이나 템플릿을 활용하는 경우 홍보 또는 트랜잭션 등 모든 이메일 컨텐츠를 디자인하고 세부적으로 수정할 수 있습니다.
 
-반응형 디자인에 최적화된 HTML을 제공하기 위해 고안된 이메일 디자이너를 사용하면 가시성 조건과 동적 컨텐츠를 사용자 인터페이스를 통해 이메일, 템플릿 또는 조각에 손쉽게 정의하고 적용할 수 있습니다. 단추 클릭 시 드래그 앤 드롭 인터페이스와 HTML 코드 간을 원활하게 전환할 수 있습니다.
+반응형 디자인에 최적화된 HTML을 전달하기 위해 개발된 이메일 디자이너를 사용하면 사용자 인터페이스를 통해 이메일, 템플릿 또는 단편에 가시성 조건과 동적 컨텐츠를 손쉽게 정의하고 적용할 수 있습니다. 단추 클릭 시 드래그 앤 드롭 인터페이스와 HTML 코드 간을 원활하게 전환할 수 있습니다.
 
 이메일 디자이너를 사용하면 이메일 컨텐츠를 만들고 이메일 컨텐츠 템플릿을 사용할 수 있습니다. 간단한 이메일, 트랜잭션 이메일, A/B 테스트 이메일, 다국어 이메일 및 반복 이메일과 호환됩니다.
 
@@ -69,27 +69,27 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해
 
 ### 이메일 디자이너 홈 페이지 {#email-designer-home-page}
 
-이메일을 [만들](../../channels/using/creating-an-email.md)때 이메일 컨텐츠를 선택하면 **[!UICONTROL Email Designer]**홈 페이지가 자동으로 표시됩니다.
+이메일을 [만들](../../channels/using/creating-an-email.md)때 이메일 컨텐츠를 선택하면 **[!UICONTROL Email Designer]** 홈 페이지가 자동으로 표시됩니다.
 
 ![](assets/email_designer_home_page.png)
 
-이 **[!UICONTROL Properties]**탭에서는 레이블, 발신자의 주소 및 이름 또는 이메일 제목과 같은 이메일 세부 사항을 편집할 수 있습니다. 화면 상단에 있는 이메일 레이블을 클릭하여 이 탭에 액세스할 수도 있습니다.
+이 **[!UICONTROL Properties]** 탭에서는 레이블, 발신자의 주소 및 이름 또는 이메일 제목과 같은 이메일 세부 사항을 편집할 수 있습니다. 화면 상단에 있는 이메일 레이블을 클릭하여 이 탭에 액세스할 수도 있습니다.
 
 ![](assets/email_designer_home_properties.png)
 
-이 **[!UICONTROL Templates]**탭을 사용하면 곧바로 사용할 수 있는 HTML 컨텐츠 또는 이미 만든 템플릿 중에서 선택하여 이메일 디자인을 신속하게 시작할 수 있습니다. 컨텐츠[템플릿을](../../designing/using/using-reusable-content.md#content-templates)참조하십시오.
+이 **[!UICONTROL Templates]** 탭을 사용하면 곧바로 사용할 수 있는 HTML 컨텐츠 또는 이미 만든 템플릿 중에서 선택하여 이메일 디자인을 신속하게 시작할 수 있습니다. 컨텐츠 [템플릿을](../../designing/using/using-reusable-content.md#content-templates)참조하십시오.
 
 ![](assets/email_designer_home_templates.png)
 
-이 **[!UICONTROL Learn & support]**탭에서는 관련 설명서 및 자습서에 손쉽게 액세스할 수 있습니다.
+이 **[!UICONTROL Learn & support]** 탭에서는 관련 설명서 및 자습서에 손쉽게 액세스할 수 있습니다.
 
 ![](assets/email_designer_home_support.png)
 
 템플릿을 선택하지 않으면 이메일 디자이너 홈 페이지에서 컨텐츠 디자인 시작 방법을 선택할 수도 있습니다.
 
-* 단추를 클릭하여 새 컨텐츠를 처음부터 시작합니다. **[!UICONTROL Create]**이메일[컨텐츠를 처음부터](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)디자인을 참조하십시오.
-* 컴퓨터에서 파일을 업로드하려면 **[!UICONTROL Upload]**단추를 클릭합니다. 파일에서[컨텐츠](../../designing/using/using-existing-content.md#importing-content-from-a-file)가져오기를 참조하십시오.
-* URL에서 기존 컨텐츠를 검색하려면 **[!UICONTROL Import from URL]**단추를 클릭합니다. URL[에서 콘텐트 가져오기를 참조하십시오](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* 단추를 클릭하여 새 컨텐츠를 처음부터 시작합니다. **[!UICONTROL Create]** 이메일 [컨텐츠를 처음부터](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)디자인을 참조하십시오.
+* 컴퓨터에서 파일을 업로드하려면 **[!UICONTROL Upload]** 단추를 클릭합니다. 파일에서 [컨텐츠](../../designing/using/using-existing-content.md#importing-content-from-a-file)가져오기를 참조하십시오.
+* URL에서 기존 컨텐츠를 검색하려면 **[!UICONTROL Import from URL]** 단추를 클릭합니다. URL [에서 콘텐트 가져오기를 참조하십시오](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ## 용어 {#terminology}
 
@@ -152,7 +152,7 @@ CSS 충돌 문제와 같은 문제를 방지하려면 컨텐츠를 최신 버전
 * 스타일을 편집할 때 대부분의 이메일 클라이언트에서 공식적으로 지원하는 웹 글꼴만 사용할 수 있습니다.
 * 향후 재사용을 위해 스타일을 테마로 저장할 수 없습니다. 그러나 CSS 스타일은 컨텐츠 템플릿 또는 이메일에 저장할 수 있습니다. 스타일에 대한 자세한 내용은 [이 섹션을](../../designing/using/styles.md)참조하십시오.
 
-**관련 항목**:
+**관련 항목**
 
 * [이메일 만들기](../../channels/using/creating-an-email.md)
 * [랜딩 페이지 디자인](../../channels/using/designing-a-landing-page.md)
