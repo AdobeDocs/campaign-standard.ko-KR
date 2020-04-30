@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
+source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
 Adobe Campaign에서는 두 가지 유형의 쿠키를 사용합니다.
 
 * 세션 쿠키(nlid). 여기에는 연락처로 보낸 이메일의 식별자(broadlogId)와 메시지 템플릿의 식별자(deliveryId)가 포함됩니다. Adobe Campaign에서 보낸 이메일에 포함된 URL을 클릭하면 방문자가 추가되며, 이를 통해 웹에서 해당 행동을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
-* Adobe Experience Cloud 솔루션 간에 공유된 쿠키입니다. 따라서 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 이 쿠키에 대한 설명은 다음 링크를 참조하십시오.https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html [](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
+* Adobe Experience Cloud 솔루션 간에 공유된 쿠키입니다. 따라서 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 이 쿠키에 대한 설명은 [여기에서](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)확인할 수 있습니다.
 
 Adobe Campaign Standard로 추적을 사용하면 다음 기능에 액세스할 수 있습니다.
 
@@ -67,7 +67,7 @@ Adobe Campaign Standard로 추적을 사용하면 다음 기능에 액세스할 
 
 >[!NOTE]
 >
->게재에 대해 추적을 사용할 수 없는 경우 이 탭이 표시되지 않습니다. 추적 로그는 **이메일** 및 **푸시 알림** 채널에만 사용할 수 있습니다.
+>게재에 대한 추적을 사용할 수 없는 경우 이 탭이 표시되지 않습니다. 추적 로그는 **이메일** 및 **푸시 알림** 채널에만 사용할 수 있습니다.
 
 ![](assets/tracking_logs.png)
 
