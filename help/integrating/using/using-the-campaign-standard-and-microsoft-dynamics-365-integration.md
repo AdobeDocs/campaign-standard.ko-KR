@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365와 Campaign Standard 통합 사용
+title: Microsoft Dynamics 365 통합 사용
 description: Adobe Campaign Standard와 통합된 Microsoft Dynamics 365를 사용하는 방법 살펴보기
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# Microsoft Dynamics 365와 Campaign Standard 통합 사용
+# Microsoft Dynamics 365 통합 사용
 
 이 통합이 수행하는 몇 가지 작업이 있습니다.
 
@@ -90,23 +90,23 @@ Single Sign-On을 통해 통합 세부 사항에 액세스하려면 캠페인 �
 
 아래에서 &quot;Dynamics 사용자&quot;에 대한 연락처 화면의 스냅숏을 볼 수 있습니다.  타임라인 보기에서는 Dynamics 사용자가 캠페인 이름 &quot;2019LoyaltyCamp&quot; 및 배달 이름 &quot;DM190&quot;과 연결된 이메일을 수신하게 됩니다.  Dynamics 사용자가 이메일을 열고 이메일의 URL을 클릭했습니다.이 두 작업 모두 아래 표시된 이벤트를 만들었습니다.  오른쪽 모퉁이를 보면 관계 도우미(RA) 카드가 표시됩니다.현재, 여기에는 클릭한 URL에 대한 후속 작업이 포함되어 있습니다.
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 Dynamics 사용자를 위한 타임라인 보기에 대한 자세한 내용은 아래를 참조하십시오.
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 다음은 RA(Relationship Assistant) 카드의 일부입니다.  AppSource 앱에는 Adobe 이메일 URL 클릭 이벤트를 확인하는 워크플로우가 포함되어 있습니다.  이 이벤트가 발생하면 작업을 만들고 기한을 설정합니다.  이렇게 하면 작업이 RA 카드에 표시되어 추가적인 가시성을 제공할 수 있습니다.  Adobe 이메일 바운스 이벤트에 대한 유사한 워크플로우가 있으며, 잘못된 이메일 주소를 조정하는 작업을 추가합니다.  이러한 워크플로우는 솔루션에서 끌 수 있습니다.
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 전송 이벤트의 제목을 클릭하면 아래 양식과 유사한 양식이 표시됩니다.  열린 이벤트와 바운스 이벤트의 양식은 유사합니다.
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 이메일 URL 클릭 이벤트에 대한 양식은 클릭한 URL에 대한 추가 속성을 추가합니다.
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 다음은 속성 및 설명 목록입니다.
 
