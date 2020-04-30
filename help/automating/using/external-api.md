@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
+source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 ---
 
@@ -39,7 +39,9 @@ source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
 
 Campaign Standard 20.3 릴리스에서 외부 API 기능은 Control Beta를 GA(일반 가용성)로 이동했습니다.
 
-따라서 베타 외부 API 활동을 사용하는 경우 모든 워크플로우에서 GA 외부 API 활동으로 교체해야 합니다.  External API의 베타 버전을 사용하는 워크플로우는 20.3 릴리스부터 작업을 중단합니다.
+>[!CAUTION]
+>
+>따라서 베타 외부 API 활동을 사용하는 경우 모든 워크플로우에서 GA 외부 API 활동으로 교체해야 합니다.  External API의 베타 버전을 사용하는 워크플로우는 20.3 릴리스부터 작업을 중단합니다.
 
 외부 API 활동을 대체할 때 새 외부 API 활동을 워크플로우에 추가하고 구성 세부 사항을 수동으로 복사한 다음 이전 활동을 삭제합니다.
 
