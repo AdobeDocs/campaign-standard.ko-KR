@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign Standard - Microsoft Dynamics 365 통합에 대해서는 [이 페
 
 ## 사전 요구 사항
 
-이 문서에서 프로비저닝 후 단계를 수행하기 전에 이미 프로비전되었으며 조직의 Microsoft Dynamics 365 인스턴스에 대한 관리자 액세스 권한이 있는 것으로 가정합니다.  이러한 문제가 발생하지 않은 경우 Microsoft 고객 지원에 문의하여 Dynamics 365 프로비저닝을 완료해야 합니다.
+이 문서에서 프로비전 후 단계를 수행하기 전에 이미 프로비전되었으며 조직의 Microsoft Dynamics 365 인스턴스에 대한 관리자 액세스 권한이 있는 것으로 가정합니다.  이러한 문제가 발생하지 않은 경우 Microsoft 고객 지원에 문의하여 Dynamics 365 프로비저닝을 완료해야 합니다.
 
 ## 애플리케이션 및 권한 설정
 
@@ -57,7 +57,7 @@ OAuth 액세스 토큰을 생성하려면 아래 설명된 단계를 따르십�
 
 1. 화면 **[!UICONTROL New registration]** 상단에서 을 클릭합니다.
 
-   ![](assets/MSdynACSIntegration-7.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. 앱 등록 화면 채우기:
 
@@ -74,7 +74,7 @@ OAuth 액세스 토큰을 생성하려면 아래 설명된 단계를 따르십�
 
 1. 앱 개요 화면에서 왼쪽의 하위 메뉴에서 **[!UICONTROL Certificates and Secrets > New client secret]**
 
-   ![](assets/MSdynACSIntegration-8.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. 설명을 입력하고 기간을 설정한 다음 을 클릭합니다 **[!UICONTROL OK]**.
 
@@ -90,11 +90,11 @@ OAuth 액세스 토큰을 생성하려면 아래 설명된 단계를 따르십�
 
 1. 이 화면 또는 앱 개요 화면에서 왼쪽의 하위 **[!UICONTROL API permissions]** 메뉴에서 을 클릭합니다.  클릭 **[!UICONTROL Add a permission]**&#x200B;후 메뉴에서 **[!UICONTROL Dynamics CRM]** 선택해야 합니다.
 
-   ![](assets/MSdynACSIntegration-9.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
 1. 그런 다음 확인란을 선택하고 **[!UICONTROL user_impersonation]**&#x200B;단추를 클릭합니다 **[!UICONTROL Add permissions]** .
 
-   ![](assets/MSdynACSIntegration-10.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
 권한 설정에 대한 자세한 내용은 [이 섹션을](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis)참조하십시오.
 
@@ -138,7 +138,7 @@ OAuth 액세스 토큰을 생성하려면 아래 설명된 단계를 따르십�
 Dynamics 365 앱을 Campaign Standard 환경에 통합하려면 아래 단계를 따르십시오.
 
 1. 다음 링크로 이동합니다.https://appsource.microsoft.com/en-us/marketplace/apps [](https://appsource.microsoft.com/en-us/marketplace/apps) 검색 _막대에서 Adobe Campaign_ for Dynamics 365를검색하고 있습니다.
-또는 이 [링크로](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview)이동할 수 있습니다.
+또는 이 [링크로](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)이동할 수 있습니다.
 1. 지침에 따라 Dynamics 365 인스턴스용 앱을 설치합니다.
 1. 설치되면 Dynamics 365 인스턴스로 이동하여 관리자로 로그인합니다.
 1. 오른쪽 위 모서리에 있는 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL Advanced Settings]**&#x200B;클릭합니다. 상단 배너에서 옆에 있는 드롭다운을 클릭하고 **[!UICONTROL Settings]**&#x200B;아래에서 을 **[!UICONTROL Processes]** 클릭합니다 **[!UICONTROL Process Center]**.
