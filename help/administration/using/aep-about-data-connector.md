@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 * 구독 이벤트의 기본 전송은 지원되지 않습니다. 구독 이벤트를 전송하려면 Adobe Experience Platform에서 해당 XDM 및 데이터 세트를 만든 다음 이러한 데이터에 대한 사용자 지정 데이터 매핑을 구성할 수 있습니다.
 
-* 개인정보 보호 요청과 관련하여, 고객은 액세스 및 삭제 작업을 위해 Campaign 핵심 개인 정보 보호 서비스와 Adobe Experience Platform에 대한 별도의 요청을 두어야 합니다.
+* 개인정보 보호 요청(액세스 및 삭제 작업 모두)과 관련하여 고객은 별도의 요청을 해야 합니다.하나는 Privacy Core Service 통합을 통해 Campaign용( [이 섹션](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)참조) 및 Adobe Experience Platform(개인정보 보호 서비스)을 통한 [것입니다](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa). 액세스 및 삭제 요청에 대한 자세한 내용은 [이 페이지를](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)참조하십시오.
 
 * 각 XDM 필드에 대해 DULE 레이블은 Adobe Experience Platform에서 수행해야 합니다. DULE 레이블을 적용하는 것은 고객의 책임입니다.
 
