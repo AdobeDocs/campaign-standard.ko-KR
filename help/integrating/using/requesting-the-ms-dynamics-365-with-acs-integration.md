@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard 통합을 통해 Microsoft Dynamics 365 요청 및 구성
+title: Microsoft Dynamics 365 통합 요청 및 구성
 description: Campaign Standard 통합을 사용하여 Microsoft Dynamics 365를 요청하고 구성하는 방법 살펴보기
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,14 +12,14 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Campaign Standard 통합을 통해 Microsoft Dynamics 365 요청
+# Microsoft Dynamics 365 통합 요청 및 구성
 
-이 통합을 제공하려면 아래 단계를 따라야 합니다.
+이 통합을 프로비저닝하려면 아래 단계를 따라야 합니다.
 
 이 통합은 타사 공급자인 Unifi를 사용합니다.  지원 요청 관련 Adobe는 Adobe Campaign 인스턴스 정보를 Unifi와 공유해야 할 수 있습니다.
 
@@ -83,7 +83,7 @@ UNIFI에서는 통합을 설정하고 매핑을 구성하거나 사용자 지정
 
 ## 지원 요청
 
-문제가 발생하는 경우 Unifi 고객 지원에 문의하십시오. [support@unifisoftware.atlassian.net](mailto:support@unifisoftware.atlassian.net).
+문제가 발생하는 경우 Unifi 고객 지원에 문의하십시오.support@unifisoftware.atlassian.net [](mailto:support@unifisoftware.atlassian.net).
 
 Unifi 예상 응답 시간:정규 미국 근무 시간 중 4시간(오전 9시에서 오후 5시, 월 - 금, 공휴일 제외)
 
