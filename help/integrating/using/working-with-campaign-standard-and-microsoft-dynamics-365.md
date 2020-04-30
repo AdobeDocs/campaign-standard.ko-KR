@@ -1,6 +1,6 @@
 ---
-title: Campaign Standard 및 Microsoft Dynamics 365 작업
-description: Campaign Standard 및 Microsoft Dynamics 365를 사용하여 작업하는 방법 살펴보기
+title: Microsoft Dynamics 365 통합 시작하기
+description: Microsoft Dynamics 365 통합을 시작하는 방법 살펴보기
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Campaign Standard 및 Microsoft Dynamics 365 작업
+# Microsoft Dynamics 365 통합 시작하기
 
 크로스 채널 커뮤니케이션에서 CRM 데이터 활성화:microsoft Dynamics 365에서 Adobe Campaign으로 연락처를 전달하고 캠페인 성과 데이터(전송, 열기, 클릭 및 바운스)를 Adobe Campaign에서 Microsoft Dynamics 365로 다시 공유하는 방법을 알아봅니다.
 
