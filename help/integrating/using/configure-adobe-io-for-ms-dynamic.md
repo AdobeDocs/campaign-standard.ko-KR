@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -136,7 +136,7 @@ If you enter '.', the field will be left blank.
 
 을 **[!UICONTROL Create Integration]**&#x200B;클릭합니다.
 
-![](assets/MSdynACSIntegration-4B.png)
+![](assets/do-not-localize/MSdynACSIntegration-4B.png)
 
 ### 통합 세부 사항 설정
 
@@ -144,13 +144,13 @@ If you enter '.', the field will be left blank.
 
 통합 세부 사항을 검토합니다.  Unifi 사후 프로비저닝 단계를 통해 실행할 때 다시 방문해야 합니다.
 
-![](assets/MSdynACSIntegration-5.png)
+![](assets/do-not-localize/MSdynACSIntegration-5.png)
 
 1. 탭을 클릭하여 **[!UICONTROL Services]** 추가 **[!UICONTROL I/O Events]** 및 **[!UICONTROL I/O Management API]** 서비스를 추가합니다.  서비스를 추가하려면 라디오 단추를 클릭한 다음 을 클릭합니다 **[!UICONTROL Add service]**.  서비스별로 따로 하시면 됩니다
 
 서비스가 완료되면 아래 그림과 같이 맨 위에 표시됩니다. JWT 및 액세스 토큰 생성에서 A-On 섹션을 완료할 필요가 없습니다.
 
-![](assets/MSdynACSIntegration-6.png)
+![](assets/do-not-localize/MSdynACSIntegration-6.png)
 
 이제 Campaign의 게시 프로비저닝이 완료되었습니다.  Microsoft Dynamics 365에 대한 [사후 프로비저닝 단계를 완료하십시오](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
