@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
+source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 + 시작 {#getting-started}
    + Adobe Campaign 기본 정보 {#about-adobe-campaign}
       + [캠페인 오케스트레이션](start/using/campaign-orchestration.md)
+      + [개인 정보 및 동의](start/using/privacy.md)
       + [세분화 및 타겟팅](start/using/segmentation-and-targeting.md)
       + [동적이고 개인화된 콘텐츠](start/using/dynamic-and-personalized-content.md)
       + [추적, 모니터링 및 보고](start/using/tracking--monitoring-and-reporting.md)
@@ -134,10 +135,12 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [재사용 가능한 콘텐츠 작업](designing/using/using-reusable-content.md)
       + [멀티 솔루션 통합 사용](designing/using/using-integrations.md)
       + [일반 텍스트, HTML 및 모바일 이메일 편집](designing/using/plain-text-html-modes.md)
+      + [이전 편집기 이메일을 이메일 디자이너에게 변환](designing/using/converting-emails-from-legacy-editor.md)
    + [이메일 콘텐츠 개인화](designing/using/personalization.md)
    + [이메일 스타일 관리](designing/using/styles.md)
    + [링크 관리](designing/using/links.md)
    + [이미지 관리](designing/using/images.md)
+   + [FAQ](designing/using/faq-email-designer.md)
 + 테스트 및 보내기 {#testing-and-sending}
    + [Campaign에서 메시지 보내기 기본 정보](sending/using/about-sending-messages-with-campaign.md)
    + 메시지 준비 및 테스트 {#preparing-and-testing-messages}
@@ -241,10 +244,10 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [포기 트리거 사용 사례](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 및 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + Campaign Standard 및 Microsoft Dynamics 365 작업 {#working-with-campaign-standard-and-ms-dynamics}
-         + [Campaign Standard 및 Microsoft Dynamics 365 작업](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [알림 및 추천](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [Campaign Standard 통합을 통해 Microsoft Dynamics 365 요청 및 구성](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [Microsoft Dynamics 365와 Campaign Standard 통합 사용](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+         + [Microsoft Dynamics 365 통합 시작하기](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [Microsoft Dynamics 365 통합 정보](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [Microsoft Dynamics 365 통합 요청 및 구성](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [Microsoft Dynamics 365 통합 사용](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [Microsoft Dynamics 365용 Adobe IO 통합 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Microsoft Dynamics 365 for Campaign 통합 구성](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Microsoft Dynamics 365용 Unifi 통합 구성](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
