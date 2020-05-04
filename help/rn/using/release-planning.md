@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard 릴리스 계획
+title: 캠페인 표준 릴리스 계획
 description: 이 페이지에는 Adobe Campaign Standard의 향후 릴리스가 나와 있습니다.
 page-status-flag: never-activated
 uuid: null
@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
+source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
 
 ---
 
@@ -23,65 +23,65 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 모든 Adobe Campaign Standard 인스턴스는 모든 새로운 릴리스로 업그레이드됩니다. 업그레이드하기 위해 필요한 작업은 없습니다.
 
-업그레이드는 두 단계로 배포됩니다. 먼저 Stage 인스턴스가 업그레이드되어 고객이 새로운 기능을 테스트하고 필요한 경우 구성을 변경할 수 있습니다. 그런 다음 프로덕션 인스턴스가 나중에 업그레이드됩니다.
+업그레이드는 두 단계로 배포됩니다. 먼저, Stage 인스턴스가 업그레이드되어 고객이 새로운 기능을 테스트하고 필요한 경우 구성을 변경할 수 있습니다. 그런 다음 프로덕션 인스턴스가 나중에 업그레이드됩니다.
 
-모든 릴리스 날짜는 변경될 수 있습니다.정기적으로 이 페이지를 방문하여 업데이트를 확인하는 것이 좋습니다.
+모든 릴리스 날짜는 변경될 수 있습니다. 업데이트를 확인하려면 정기적으로 이 페이지를 방문하는 것이 좋습니다.
 
 **새로운 기능!** Campaign [Standard 릴리스 알림을](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 구독하면 받은 편지함에서 예정된 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
 
 ## 릴리스 20.3.1 - 5월 릴리스 {#release-20-3-may-release}
 
-환경 업데이트는 아래의 지정된 기간 동안 물결에서 발생합니다. 이 릴리스에 대한 자세한 내용은 릴리스 노트를 [참조하십시오](../../rn/using/release-notes.md). 추가 질문 사항이 있는 경우 Adobe Client Care [에 문의하십시오](https://support.neolane.net/webApp/extranetLogin).
+환경 업데이트는 아래의 지정된 기간 동안 물결에서 발생합니다. 이 릴리스에 대한 자세한 내용은 릴리스 [노트를 참조하십시오](../../rn/using/release-notes.md). 추가 질문 사항이 있는 경우 [Adobe 클라이언트 지원팀에 문의하십시오](https://support.neolane.net/webApp/extranetLogin).
 
-<table> 
- <thead> 
-  <tr> 
-   <th> 환경<br /> </th> 
-   <th> 날짜<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> 스테이지<br /> </td> 
-   <td> 2020년 4월 27일 - 28<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 프로덕션<br /> </td> 
-   <td> 2020년 5월 4일 - 11일<br /> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <thead>
+  <tr>
+   <th> 환경<br /> </th>
+   <th> 날짜<br /> </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>스테이지<br /> </td>
+   <td><s>2020년 4월 27일 - 28일</s> 지연<br /> </td>
+  </tr>
+  <tr>
+   <td> 프로덕션<br /> </td>
+   <td><s>2020년 5월 4일 - 11일</s> 지연<br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 
 
 ## 질문 및 답변 {#questions-and-answers}
 
-**Q:어떤 영향을 미칩니까?**
+**Q: 어떤 효과가 있습니까?**
 
-A:변경 사항은 관련 설명서에 대한 [링크를](../../rn/using/release-notes.md)포함하여 릴리스 노트에 나열됩니다. 더 이상 사용되지 않는 기능 및 [제거된 기능 페이지를](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)참조하십시오. 이러한 페이지는 스테이지 환경 업그레이드 날짜에 새 릴리스에 사용할 수 있습니다.
+A: 변경 사항은 관련 설명서에 대한 링크를 포함하여 [릴리스](../../rn/using/release-notes.md)노트에 나열되어 있습니다. Adobe에서는 더 이상 사용되지 [않는 기능 및 제거된 기능 페이지를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html). 이러한 페이지는 스테이지 환경 업그레이드 날짜에 새 릴리스에 사용할 수 있습니다.
 
-**Q:유효성 검사 과정이란 무엇입니까?**
+**Q: 인증 과정은 무엇입니까?**
 
-A:스테이징 인스턴스가 업그레이드되면 프로세스 및 사용 사례가 이 새 버전에서 제대로 작동하는지 확인하고 문제를 Adobe Client Care에 보고하는 것이 [좋습니다](https://support.neolane.net/webApp/extranetLogin).
+A: 스테이징 인스턴스가 업그레이드되면 프로세스 및 사용 사례가 이 새로운 버전에서 제대로 작동하는지 확인하고 문제를 [Adobe 클라이언트 지원팀에 보고하는 것이 좋습니다](https://support.neolane.net/webApp/extranetLogin).
 
-**Q:업그레이드 과정 중에 인스턴스에 액세스할 수 있습니까?**
+**Q: 업그레이드 과정 중에 인스턴스에 액세스할 수 있습니까?**
 
-A:아니 인스턴스를 업그레이드하는 동안 몇 분 동안 데이터베이스에 액세스할 수 없습니다. 모든 프로세스가 자동으로 다시 시작됩니다.
+A: 아뇨 인스턴스 업그레이드 중 몇 분 동안에는 데이터베이스에 액세스할 수 없습니다. 모든 프로세스가 자동으로 다시 시작됩니다.
 
-**Q:메시지가 계속 전송됩니까?**
+**Q: 메시지가 계속 전송됩니까?**
 
-A:아니 몇 분 동안 메시지가 전송되지 않습니다. 업그레이드가 완료되면 프로세스가 자동으로 다시 시작됩니다.
+A: 아뇨 몇 분 동안 메시지가 전송되지 않습니다. 업그레이드가 완료되면 프로세스가 자동으로 다시 시작됩니다.
 
-**Q:워크플로우가 계속 실행되고 게재를 전송합니까?**
+**Q: 워크플로우가 계속 실행되고 게재를 전송합니까?**
 
-A:아니 빌드 업그레이드 동안 워크플로 서버와 MTA 모두 중지됩니다. 즉, 워크플로우는 실행되지 않고 몇 분 동안 배달이 전송되지 않습니다. 필요한 작업이 없습니다.인스턴스가 업그레이드되면 워크플로우가 다시 시작됩니다.
+A: 아뇨 업그레이드 빌드 중에 워크플로 서버와 MTA가 모두 중지됩니다. 즉, 워크플로우가 실행되지 않고 몇 분 동안 배달이 전송되지 않습니다. 필요한 작업이 없습니다. 인스턴스가 업그레이드되면 워크플로우가 다시 시작됩니다.
 
-**Q:업그레이드 중에도 메시지의 링크 추적이 계속 작동합니까?**
+**Q: 업그레이드 중에도 메시지의 링크 추적이 계속 작동합니까?**
 
-A:네, 작동될 거예요. 업그레이드 중에는 새 이메일을 보낼 수 없지만 이미 보낸 이메일에 포함된 추적 링크가 작동합니다.
+A: 네, 효과가 있을 거예요. 업그레이드 중에는 새 이메일을 보낼 수 없지만 이미 보낸 이메일에 포함된 추적 링크는 작동합니다.
 
-**Q:업그레이드가 완료되었는지 어떻게 알 수 있습니까?**
+**Q: 업그레이드가 완료되었는지 어떻게 알 수 있습니까?**
 
-A:Campaign에 로그인하면 릴리스 알림 팝업이 최신 버전으로 표시됩니다.
+A: Campaign에 로그인하면 최신 버전과 함께 릴리스 알림 팝업이 표시됩니다.
 
-기타 문의 사항은 Adobe [Client Care에 문의하십시오](https://support.neolane.net/webApp/extranetLogin).
+기타 문의 사항은 [Adobe Client Care에 문의하십시오](https://support.neolane.net/webApp/extranetLogin).
