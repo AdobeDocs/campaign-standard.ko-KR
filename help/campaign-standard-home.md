@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ## 새로운 기능
 
-* **[타깃팅된 프로파일을 사용한 이메일 테스트](sending/using/testing-messages-using-target.md)**<br/>실제 타깃팅된 프로필에서 이메일을 테스트하는 방법 학습
+* **[타깃팅된 프로필을 사용한 이메일 테스트](sending/using/testing-messages-using-target.md)**<br/>실제 타깃팅된 프로필에서 이메일을 테스트하는 방법 학습
 
 * **[개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오
 
@@ -50,7 +50,7 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
   <td valign="top">
        <img alt="지원" src="start/using/assets/do-not-localize/help.jpeg" />
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
-    지원 <strong>받기</strong></a>
+    <strong>지원 받기</strong></a>
     </div>
     <p><em>FAQ, 모범 사례, 도움말 리소스 이용 및 전문가와 교류</em></p>
     <br>
@@ -66,5 +66,5 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 | [제어판 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [캠페인 API](api/using/about-campaign-standard-apis.md) |
 | [구현 안내서](https://helpx.adobe.com/kr/campaign/kb/campaign-standard-implementation-guide.html) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [릴리스 계획](rn/using/release-planning.md) | [캠페인 데이터 모델](developing/using/datamodel-introduction.md) |
-| [사용 중단되거나 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html) | [멀티 솔루션 가이드](integrating/using/about-campaign-integrations.md) |
-| [Campaign Standard 시작하기](start/using/campaign-orchestration.md) | [기술 정보](https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html) |
+| [사용 중단되거나 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html) | [멀티 솔루션 가이드](integrating/using/get-started-campaign-integrations.md) |
+| [Campaign Standard 시작하기](start/using/about-campaign-standard.md) | [기술 정보](https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html) |
