@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
    * 발신자와 오류 주소는 모두 Adobe에서 설정합니다. 이러한 필드는 비워 둘 수 없습니다.
    * 이러한 필드는 편집할 수 없습니다. 주소를 업데이트하려면 Adobe 고객 지원 센터에 문의하십시오.
    * 다른 주소를 추가하려면 [제어판](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) 을 사용하여 새 하위 도메인을 설정하거나 Adobe 고객 지원 센터에 문의하십시오. 여러 개의 마스크를 사용하는 경우 쉼표로 구분됩니다.
-   * **@yourdomain.com과 같은 별을 사용하여 주소를 설정하는 것이 좋습니다*. 이렇게 하면 하위 도메인 이름으로 끝나는 주소를 사용할 수 있습니다.
+   * *@yourdomain.com과 같은 별을 사용하여 주소를 설정하는 것이 좋습니다. 이렇게 하면 하위 도메인 이름으로 끝나는 주소를 사용할 수 있습니다.
 
 * **전달 능력**
 
