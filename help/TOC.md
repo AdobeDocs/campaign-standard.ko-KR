@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
+source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
 
 ---
 
@@ -21,30 +21,21 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [2018년 릴리스 정보](rn/using/release-notes-2018.md)
       + [2017년 릴리스 정보](rn/using/release-notes-2017.md)
    + [릴리스 계획](rn/using/release-planning.md)
-   + [더 이상 사용되지 않는 기능](rn/using/deprecated-features.md)
+   + [사용되지 않는 기능](rn/using/deprecated-features.md)
 + 시작 {#getting-started}
-   + Adobe Campaign 기본 정보 {#about-adobe-campaign}
-      + [캠페인 오케스트레이션](start/using/campaign-orchestration.md)
-      + [개인 정보 및 동의](start/using/privacy.md)
-      + [세분화 및 타겟팅](start/using/segmentation-and-targeting.md)
-      + [동적이고 개인화된 콘텐츠](start/using/dynamic-and-personalized-content.md)
-      + [추적, 모니터링 및 보고](start/using/tracking--monitoring-and-reporting.md)
-      + [Adobe 솔루션과 통합 사용](start/using/integrating-with-adobe-solutions.md)
-      + [Campaign 데이터베이스 강화](start/using/enriching-campaign-database.md)
+   + [Adobe Campaign Standard 정보](start/using/about-campaign-standard.md)
+   + [개인 정보 및 동의](start/using/privacy.md)
    + 인터페이스 살펴보기 {#discovering-the-interface}
       + [인터페이스 기본 정보](start/using/about-the-interface.md)
       + [인터페이스 설명](start/using/interface-description.md)
       + [목록 사용자 지정](start/using/customizing-lists.md)
-   + 마케팅 계획 {#marketing-plans}
+   + 마케팅 활동 {#marketing-plans}
       + [프로그램 및 캠페인](start/using/programs-and-campaigns.md)
       + [마케팅 활동](start/using/marketing-activities.md)
       + [마케팅 활동 템플릿](start/using/marketing-activity-templates.md)
       + [타임라인](start/using/timeline.md)
-   + 튜토리얼 {#tutorials}
-      + [단계별 지침](start/using/step-by-step-guides.md)
-      + [사용법 비디오](start/using/how-to-videos.md)
 + 프로필 및 대상자 {#profiles-and-audiences}
-   + [프로필 및 대상자 기본 정보](audiences/using/about-profiles-and-audiences.md)
+   + [프로필 및 고객 시작하기](audiences/using/get-started-profiles-and-audiences.md)
    + 프로필 관리 {#managing-profiles}
       + [프로필 기본 정보](audiences/using/about-profiles.md)
       + [프로필 만들기](audiences/using/creating-profiles.md)
@@ -52,6 +43,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
       + [활성 프로필](audiences/using/active-profiles.md)
       + [테스트 프로필 관리](audiences/using/managing-test-profiles.md)
+      + [Campaign 데이터베이스 강화](audiences/using/enriching-campaign-database.md)
    + 대상자 관리 {#managing-audiences}
       + [대상자 기본 정보](audiences/using/about-audiences.md)
       + [대상자 만들기](audiences/using/creating-audiences.md)
@@ -71,8 +63,8 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Adobe Experience Platform 대상자 관리](audiences/using/aep-managing-audiences.md)
       + [통합 세그먼트 빌더 사용](audiences/using/aep-using-segment-builder.md)
 + 소통 채널 {#communication-channels}
+   + [커뮤니케이션 채널 시작하기](channels/using/get-started-communication-channels.md)
    + 소통 채널 기본 정보 {#about-communication-channels}
-      + [소통 채널 살펴보기](channels/using/discovering-communication-channels.md)
       + [메시지 보내기 주요 단계](channels/using/key-steps-to-send-a-message.md)
       + [메시지 액세스](channels/using/accessing-messages.md)
       + [메시지 대시보드](channels/using/message-dashboard.md)
@@ -95,11 +87,11 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [푸시 알림 준비 및 보내기](channels/using/preparing-and-sending-a-push-notification.md)
       + [푸시 알림 사용자 정의](channels/using/customizing-a-push-notification.md)
       + [다국어 푸시 알림 만들기](channels/using/creating-a-multilingual-push-notification.md)
-      + [다국어 푸시 알림에 대한 CSV 파일 생성](channels/using/generating-csv-multilingual-push.md)
+      + [다국어 푸시 알림용 CSV 파일 생성](channels/using/generating-csv-multilingual-push.md)
       + [모바일 애플리케이션 데이터를 기반으로 프로필 정보 만들고 업데이트하기](channels/using/updating-profile-with-mobile-app-data.md)
       + [푸시 추적 구현](channels/using/push-tracking.md)
       + [Adobe Campaign Standard 푸시 알림의 이미지 표시](channels/using/image-push-notification.md)
-      + [Campaign Standard 푸시 알림 페이로드 구조 이해](channels/using/push-payload.md)
+      + [캠페인 표준 푸시 알림 페이로드 구조 이해](channels/using/push-payload.md)
    + 인앱 메시지 {#in-app-messaging}
       + [인앱 메시지 기본 정보](channels/using/about-in-app-messaging.md)
       + [인앱 메시지 준비 및 보내기](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -135,18 +127,18 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [재사용 가능한 콘텐츠 작업](designing/using/using-reusable-content.md)
       + [멀티 솔루션 통합 사용](designing/using/using-integrations.md)
       + [일반 텍스트, HTML 및 모바일 이메일 편집](designing/using/plain-text-html-modes.md)
-      + [이전 편집기 이메일을 이메일 디자이너에게 변환](designing/using/converting-emails-from-legacy-editor.md)
+      + [기존 편집기 이메일을 이메일 디자이너에게 변환](designing/using/converting-emails-from-legacy-editor.md)
    + [이메일 콘텐츠 개인화](designing/using/personalization.md)
    + [이메일 스타일 관리](designing/using/styles.md)
    + [링크 관리](designing/using/links.md)
    + [이미지 관리](designing/using/images.md)
    + [FAQ](designing/using/faq-email-designer.md)
 + 테스트 및 보내기 {#testing-and-sending}
-   + [Campaign에서 메시지 보내기 기본 정보](sending/using/about-sending-messages-with-campaign.md)
+   + [테스트 및 전송 시작하기](sending/using/get-started-sending-messages.md)
    + 메시지 준비 및 테스트 {#preparing-and-testing-messages}
       + [배달 미리 보기](sending/using/previewing-messages.md)
       + [보내기 준비](sending/using/preparing-the-send.md)
-      + [교정본 보내기](sending/using/sending-proofs.md)
+      + [증명 전송](sending/using/sending-proofs.md)
       + [타깃팅된 프로파일을 사용하여 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
       + [이메일의 제목란 테스트](sending/using/testing-subject-line-email.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
@@ -175,13 +167,14 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [게재 기능 모니터링](sending/using/monitor-deliverability.md)
       + [문제 해결](sending/using/troubleshooting.md)
    + 유형화 규칙 작업 {#working-with-typology-rules}
-      + [유형 및 유형 규칙 정보](sending/using/about-typology-rules.md)
+      + [유형 및 유형 분류 규칙 정보](sending/using/about-typology-rules.md)
       + [유형 관리](sending/using/managing-typologies.md)
       + [유형 규칙 관리](sending/using/managing-typology-rules.md)
       + [필터링 규칙](sending/using/filtering-rules.md)
       + [피로도 규칙](sending/using/fatigue-rules.md)
       + [제어 규칙](sending/using/control-rules.md)
 + 보고 {#reporting}
+   + [동적 보고서 시작하기](reporting/using/get-started-reporting.md)
    + 보고 기본 정보 {#about-reporting}
       + [동적 보고서 기본 정보](reporting/using/about-dynamic-reports.md)
       + [보고 인터페이스](reporting/using/reporting-interface.md)
@@ -212,8 +205,8 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [사용자 지정 프로필 차원 만들기](reporting/using/creating-a-custom-profile-dimension.md)
       + [워크플로우 세그먼트 기반 보고서 만들기](reporting/using/creating-a-report-workflow-segment.md)
 + 다른 솔루션과 통합 {#integrating-with-adobe-cloud}
-   + [Campaign 통합 기본 정보](integrating/using/about-campaign-integrations.md)
-   + 캠페인 및 Experience Manager {#working-with-campaign-and-experience-manager}
+   + [Campaign 통합 시작하기](integrating/using/get-started-campaign-integrations.md)
+   + 캠페인 및 경험 관리자 {#working-with-campaign-and-experience-manager}
       + [Campaign-Experience Manager 통합 기본 정보](integrating/using/integrating-with-experience-manager.md)
       + [Campaign-Experience Manager 통합 구성](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager에서 이메일 콘텐츠 만들기](integrating/using/creating-email-experience-manager.md)
@@ -243,6 +236,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [트리거 테스트](integrating/using/testing-your-triggers.md)
       + [포기 트리거 사용 사례](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 및 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [Microsoft Dynamics 365용 Adobe IO 통합 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Campaign Standard 및 Microsoft Dynamics 365 작업 {#working-with-campaign-standard-and-ms-dynamics}
          + [Microsoft Dynamics 365 통합 시작하기](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Microsoft Dynamics 365 통합 정보](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -251,21 +245,18 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Microsoft Dynamics 365용 Adobe IO 통합 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Microsoft Dynamics 365 for Campaign 통합 구성](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Microsoft Dynamics 365용 Unifi 통합 구성](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [캠페인 사용자 지정 리소스 및 Dynamics 365 사용자 지정 엔터티 매핑](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [캠페인 사용자 지정 리소스 및 Dynamics 365 사용자 지정 개체 매핑](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + 프로세스 및 데이터 관리 {#managing-processes-and-data}
-   + 워크플로우 및 데이터 관리 기본 정보 {#about-workflows-and-data-management}
-      + [워크플로우 데이터 및 프로세스](automating/using/workflow-data-and-processes.md)
-      + [워크플로우 살펴보기](automating/using/discovering-workflows.md)
-      + [워크플로우 작업 원칙](automating/using/workflow-operating-principles.md)
-      + [워크플로우 인터페이스](automating/using/workflow-interface.md)
+   + [데이터 및 프로세스 관리 시작하기](automating/using/get-started-workflows.md)
    + 워크플로우 작업 일반 {#workflow-general-operation}
+      + [워크플로우 인터페이스](automating/using/workflow-interface.md)
       + [워크플로우 구축](automating/using/building-a-workflow.md)
       + [데이터 타겟팅](automating/using/targeting-data.md)
       + [데이터 가져오기](automating/using/importing-data.md)
       + [워크플로우 데이터 사용](automating/using/using-workflow-data.md)
       + [워크플로우 실행](automating/using/executing-a-workflow.md)
-      + [외부 파라미터로 워크플로우 호출](automating/using/calling-a-workflow-with-external-parameters.md)
       + [워크플로우 모범 사례](automating/using/best-practices-workflows.md)
+   + [외부 파라미터로 워크플로우 호출](automating/using/calling-a-workflow-with-external-parameters.md)
    + 타겟팅 활동 {#targeting-activities}
       + [타겟팅 활동 기본 정보](automating/using/about-targeting-activities.md)
       + [쿼리](automating/using/query.md)
@@ -327,6 +318,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Adobe Experience Platform 대상자 타겟팅](automating/using/aep-targeting-audiences.md)
       + [Adobe Experience Platform 특성을 사용하여 캠페인 개인화](automating/using/aep-personalizing-campaigns.md)
 + 개발 {#developing}
+   + [Campaign Standard 데이터 모델 시작하기](developing/using/get-started-data-model.md)
    + 사용자 지정 리소스 기본 정보 {#about-custom-resources}
       + [데이터 모델 기본 개념](developing/using/data-model-concepts.md)
       + [리소스 상태](developing/using/resource-statuses.md)
@@ -364,12 +356,15 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [추적 로그](developing/using/datamodel-tracking.md)
       + [구독 취소 이벤트](developing/using/datamodel-unsubscription.md)
       + [방문자](developing/using/datamodel-visitor.md)
+   + Adobe Experience Platform 데이터 커넥터 {#mapping-campaign-and-aep-data}
+      + [Adobe Experience Platform 데이터 커넥터 정보](developing/using/aep-about-data-connector.md)
+      + [Experience Platform 데이터 모델 개요](developing/using/aep-data-model-overview.md)
+      + [매핑 정의](developing/using/aep-mapping-definition.md)
+      + [매핑 활성화](developing/using/aep-mapping-activation.md)
+      + [API를 통한 데이터 수집 트리거](developing/using/aep-triggering-data-ingestion.md)
 + 관리 {#administrating}
-   + [Adobe Campaign 관리 기본 정보](administration/using/about-administrating-adobe-campaign.md)
-   + 구성 지침 {#configuration-guidelines}
-      + [구성 지침 정보](administration/using/about-configuration-guidelines.md)
-      + [호환 가능한 브라우저](administration/using/compatible-browsers.md)
-      + [Campaign Standard 네트워크 끝점](administration/using/campaign-standard-network-endpoints.md)
+   + [Campaign Standard 관리 시작하기](administration/using/get-started-campaign-administration.md)
+   + [구성 지침](administration/using/about-configuration-guidelines.md)
    + 사용자 및 보안 {#users-and-security}
       + [액세스 관리 기본 정보](administration/using/about-access-management.md)
       + [사용자 관리](administration/using/users-management.md)
@@ -393,15 +388,9 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [내부 알림 보내기](administration/using/sending-internal-notifications.md)
       + [데이터 유지](administration/using/data-retention.md)
       + [업데이트 및 유지 관리 작업](administration/using/updates-and-maintenance-operations.md)
-   + Adobe Experience Platform 데이터 커넥터 {#mapping-campaign-and-aep-data}
-      + [Adobe Experience Platform 데이터 커넥터 정보](administration/using/aep-about-data-connector.md)
-      + [Experience Platform 데이터 모델 개요](administration/using/aep-data-model-overview.md)
-      + [매핑 정의](administration/using/aep-mapping-definition.md)
-      + [매핑 활성화](administration/using/aep-mapping-activation.md)
-      + [API를 통한 데이터 수집 트리거](administration/using/aep-triggering-data-ingestion.md)
 + API 작업 {#working-with-apis}
+   + [Campaign Standard API 시작하기](api/using/about-campaign-standard-apis.md)
    + Campaign Standard API 정보 {#about-campaign-standard-apis}
-      + [개요](api/using/about-campaign-standard-apis.md)
       + [Campaign Standard API의 장점](api/using/why-using-campaign-standard-apis.md)
       + [API 액세스 설정](api/using/setting-up-api-access.md)
    + 전반적 개념 {#global-concepts}
