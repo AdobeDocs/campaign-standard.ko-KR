@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aeaddca2188e2bdeda71bd35299ccd14398f3c52
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -61,7 +61,7 @@ Campaign Standard **를 사용하면 사전 정의된 데이터 모델을** 강�
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Adobe Campaign Standard API를 사용하면 Adobe Campaign Standard에 대한 통합을 만들 수 있고 Campaign과 사용하는 기술의 패널을 통합하여 고유한 에코시스템을 구축할 수 있습니다. [Campaign Standard REST API 시작하기](../../api/using/about-campaign-standard-apis.md)
+Adobe Campaign Standard API를 사용하면 Adobe Campaign Standard에 대한 통합을 만들 수 있고 Campaign과 사용하는 기술의 패널을 통합하여 고유한 에코시스템을 구축할 수 있습니다. [Campaign Standard REST API 시작하기](../../api/using/get-started-apis.md)
 
 ## 추가 리소스
 
