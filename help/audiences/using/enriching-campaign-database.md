@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d62c8cdac83789cfdffb7fd5e0d6c086e81300b1
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -66,7 +66,7 @@ Microsoft Dynamics 365와 Campaign Standard의 통합을 통해 Microsoft Dynami
 
 Campaign Standard API를 사용하면 프로필 또는 서비스의 생성, 업데이트 또는 삭제와 같은 데이터베이스를 업데이트하는 작업을 수행할 수 있습니다.
 
-API 사용 방법에 대한 자세한 내용은 [전용 설명서를 참조하십시오](../../api/using/about-campaign-standard-apis.md).
+API 사용 방법에 대한 자세한 내용은 [전용 설명서를 참조하십시오](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
