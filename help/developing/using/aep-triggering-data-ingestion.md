@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
 
 Adobe Campaign Standard를 사용하면 API를 통해 데이터 매핑에 대한 즉각적인 인제스트를 트리거할 수 있으며 통합 요청의 상태를 검색할 수 있습니다.
 
-이 페이지에서는 데이터 매핑의 통합 상태를 트리거하고 검색하는 방법에 대해 설명합니다. Campaign Standard API에 대한 글로벌 정보는 [이 섹션을 참조하십시오](../../api/using/about-campaign-standard-apis.md).
+이 페이지에서는 데이터 매핑의 통합 상태를 트리거하고 검색하는 방법에 대해 설명합니다. Campaign Standard API에 대한 글로벌 정보는 [이 섹션을 참조하십시오](../../api/using/get-started-apis.md).
 
 ## 사전 요구 사항 {#prerequisites}
 
