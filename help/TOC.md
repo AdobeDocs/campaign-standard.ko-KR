@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -389,7 +389,7 @@ source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
       + [데이터 유지](administration/using/data-retention.md)
       + [업데이트 및 유지 관리 작업](administration/using/updates-and-maintenance-operations.md)
 + API 작업 {#working-with-apis}
-   + [Campaign Standard API 시작하기](api/using/about-campaign-standard-apis.md)
+   + [Campaign Standard API 시작하기](api/using/get-started-apis.md)
    + Campaign Standard API 정보 {#about-campaign-standard-apis}
       + [Campaign Standard API의 장점](api/using/why-using-campaign-standard-apis.md)
       + [API 액세스 설정](api/using/setting-up-api-access.md)
