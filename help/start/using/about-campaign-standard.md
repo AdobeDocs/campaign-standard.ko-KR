@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Campaign Standard는 온라인 및 오프라인 전략을 최적화하여 
 
 **고유한 필드 및 리소스로 Campaign Standard 데이터 모델을** 확장하고 모든 데이터 모델 변경 사항을 하나의 보기로 모니터링합니다. [Campaign Standard 데이터 모델 시작하기](../../developing/using/get-started-data-model.md)
 
-**REST API를** 활용하여 다양한 작업을 수행하고 Campaign Standard를 고유한 에코시스템과 통합합니다. [Campaign Standard REST API 시작하기](../../api/using/about-campaign-standard-apis.md)
+**REST API를** 활용하여 다양한 작업을 수행하고 Campaign Standard를 고유한 에코시스템과 통합합니다. [Campaign Standard REST API 시작하기](../../api/using/get-started-apis.md)
 
 **단일 보기에서 캠페인** 관리: 인스턴스를 모니터링하고 사용자의 권한을 관리합니다. 외부 서버를 설정하여 인스턴스에 연결하고 통신 채널의 매개 변수를 구성합니다. [Campaign Standard 관리 시작하기](../../administration/using/get-started-campaign-administration.md)
 
