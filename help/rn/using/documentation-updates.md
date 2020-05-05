@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -157,7 +157,7 @@ Adobe Campaign Standard의 모바일 전달에 대한 일반 가이드라인에 
 
 캠페인 및 Experience Manager를 사용한 작업 설명서가 Campaign-Experience Manager 통합 **을 사용하는 방법에 대한 새로운 섹션 팁으로 업데이트되었습니다**. [자세한 내용](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-APIs 설명서 홈 페이지는 다른 주제에 대한 방향을 변경하여 개선되었습니다. [자세한 내용](../../api/using/about-campaign-standard-apis.md)
+APIs 설명서 홈 페이지는 다른 주제에 대한 방향을 변경하여 개선되었습니다. [자세한 내용](../../api/using/get-started-apis.md)
 
 ## 설명서 업데이트 - 2019년 12월 {#doc-updates-december-2019}
 
@@ -179,7 +179,7 @@ Control Panel 문서는 새로운 공동 문서 세트에 통합되었습니다.
 
 지표 **계산** 테이블이 업데이트되었습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
-API 설명서 세트는 Campaign Standard 설명서에 통합되었습니다.[자세한 내용](../../api/using/about-campaign-standard-apis.md)
+API 설명서 세트는 Campaign Standard 설명서에 통합되었습니다.[자세한 내용](../../api/using/get-started-apis.md)
 
 개인화된 이메일 만들기 시작 안내서가 이동 및 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
@@ -327,7 +327,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황에 맞는 도움말 링�
 
 파일 전송 작업의 새 정렬 옵션에 **정보가** 추가되었습니다. [자세한 내용](../../automating/using/transfer-file.md)
 
-REST [API 설명서가](../../api/using/about-campaign-standard-apis.md) 업데이트되었습니다.
+REST [API 설명서가](../../api/using/get-started-apis.md) 업데이트되었습니다.
 
 * Campaign Standard REST API를 사용하는 이유에 대한 일반 정보와 함께 새 섹션이 추가되었습니다.
 * 미리 디자인된 API 요청의 컬렉션을 사용할 수 있으며 일반적인 사용 사례를 나타냅니다.
@@ -697,7 +697,7 @@ SMS 문서가 [SMS 자동 회신](../../channels/using/managing-incoming-sms.md#
 
 API를 통한 워크플로우 관리 전용 새로운 섹션. [자세한 내용](../../api/using/controlling-a-workflow.md)
 
-API의 키로 비즈니스 ID의 사용 및 기본 키에 대한 새 섹션. [자세한 내용](../../api/using/about-campaign-standard-apis.md)
+API의 키로 비즈니스 ID의 사용 및 기본 키에 대한 새 섹션. [자세한 내용](../../api/using/get-started-apis.md)
 
 API의 단순 및 다중 필터링에 추가된 정보입니다. [자세한 내용](../../api/using/filtering.md)
 
@@ -849,7 +849,7 @@ REST API의 리소스 연결 - [자세한 내용](../../developing/using/updatin
 
 트리거 통합: 두 개의 사용 사례가 추가되었습니다. [자세한 내용](../../integrating/using/abandonment-triggers-use-cases.md)
 
-개발자 API 설명서를 새로운 정보 및 코드 조각으로 재설계하여 사용자 경험을 개선했습니다. [자세한 내용](../../api/using/about-campaign-standard-apis.md)
+개발자 API 설명서를 새로운 정보 및 코드 조각으로 재설계하여 사용자 경험을 개선했습니다. [자세한 내용](../../api/using/get-started-apis.md)
 
 새로운 대상 [읽기](../../automating/using/read-audience.md) 및 [외부 신호](../../automating/using/external-signal.md) 워크플로우 활동의 예를 살펴볼 수 있습니다.
 
@@ -859,7 +859,7 @@ REST API의 리소스 연결 - [자세한 내용](../../developing/using/updatin
 
 외부 보고를 위한 로그 내보내기 - [자세한 내용](../../automating/using/exporting-logs.md)
 
-트랜잭션 메시징 API - [자세한 내용](../../api/using/about-campaign-standard-apis.md)
+트랜잭션 메시징 API - [자세한 내용](../../api/using/get-started-apis.md)
 
 트랜잭션 메시지를 위한 마케팅 기능 - [자세한 내용](../../channels/using/profile-transactional-messages.md)
 
