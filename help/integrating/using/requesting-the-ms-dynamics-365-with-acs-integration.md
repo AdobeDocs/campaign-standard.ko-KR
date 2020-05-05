@@ -83,7 +83,7 @@ UNIFI에서는 통합을 설정하고 매핑을 구성하거나 사용자 지정
 
 ## 지원 요청
 
-문제가 발생하는 경우 Unifi 고객 지원에 문의하십시오.support@unifisoftware.atlassian.net [](mailto:support@unifisoftware.atlassian.net).
+문제가 발생하는 경우 Unifi 고객 지원에 문의하십시오. [support@unifisoftware.atlassian.net](mailto:support@unifisoftware.atlassian.net).
 
 Unifi 예상 응답 시간:정규 미국 근무 시간 중 4시간(오전 9시에서 오후 5시, 월 - 금, 공휴일 제외)
 
