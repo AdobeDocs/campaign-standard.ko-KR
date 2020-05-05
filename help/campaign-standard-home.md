@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 | 유용한 페이지 | 개발자를 위한 자료 |
 |---|---|
 | [릴리스 정보](rn/using/release-notes.md) | [Experience Cloud 트리거](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [제어판 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [캠페인 API](api/using/about-campaign-standard-apis.md) |
+| [제어판 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [캠페인 API](api/using/get-started-apis.md) |
 | [구현 안내서](https://helpx.adobe.com/kr/campaign/kb/campaign-standard-implementation-guide.html) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [릴리스 계획](rn/using/release-planning.md) | [캠페인 데이터 모델](developing/using/datamodel-introduction.md) |
 | [사용 중단되거나 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html) | [멀티 솔루션 가이드](integrating/using/get-started-campaign-integrations.md) |
