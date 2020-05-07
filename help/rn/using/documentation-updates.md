@@ -12,7 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+workflow-type: tm+mt
+source-wordcount: '5775'
+ht-degree: 1%
 
 ---
 
@@ -717,7 +720,7 @@ API의 단순 및 다중 필터링에 추가된 정보입니다. [자세한 내�
 
 Adobe Analytics와 공유되는 KPI의 세부 목록입니다. [자세한 내용](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-새 동적 보고서 비디오. [자세한 내용](../../start/using/how-to-videos.md)
+새 동적 보고서 비디오.
 
 S3 계정 권장 사항이 추가되었습니다. [자세한 내용](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -759,7 +762,7 @@ DM 채널 - 보낸 사람에게 돌아가기, [자세한 내용 보기](../../ch
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-시작 가이드 [및](../../start/using/step-by-step-guides.md) 사용 방법 비디오가 [](../../start/using/how-to-videos.md) 전용 섹션에 다시 그룹화되었습니다.
+시작 가이드 및 방법 비디오가 전용 섹션에 다시 그룹화되었습니다.
 
 이메일 렌더링 설명서가 업데이트되었습니다. [자세한 내용](../../sending/using/email-rendering.md)
 
