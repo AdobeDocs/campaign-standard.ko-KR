@@ -13,13 +13,16 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # API 확장 기본 정보{#about-extending-the-api}
 
-이 사용 사례에서는 공개 프로필 API에서 사용자 지정 리소스 프로필에 대한 확장 필드 설명을 자세히 설명합니다. 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객의 프로필을 즉시 업데이트하려면
+이 사용 사례에서는 공개 프로필 API의 사용자 지정 리소스 프로필에 대한 확장 필드 설명을 자세히 설명합니다. 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객의 프로필을 즉시 업데이트하려면
 
 >[!NOTE]
 >
