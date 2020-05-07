@@ -3,6 +3,9 @@ title: 복합 식별 키로 리소스 호출
 description: 복합 식별 키를 사용하여 리소스를 호출하는 방법 학습
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
