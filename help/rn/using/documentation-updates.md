@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5807'
+ht-degree: 1%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 0%
 캠페인 표준 개요 페이지가 강화되어 주제 주제로 재구성되었습니다. [자세한 내용](../../start/using/about-campaign-standard.md)
 
 공인 마스크 필드 및 배달 보고서 ID에 대한 추가 정보와 함께 이메일 채널 매개 변수 섹션이 명확해졌습니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
+
+Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성은 이제 핵심 문서에서 Launch 기술 워크플로우에서 모바일 앱 AEPSDK 동기화에 대한 자세한 내용을 볼 수 있습니다. [자세한 내용](../../administration/using/configuring-a-mobile-application.md)
 
 ## 릴리스 20.3 - 2020년 5월 {#release-20-3---may-2020}
 
