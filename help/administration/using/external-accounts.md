@@ -13,7 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+workflow-type: tm+mt
+source-wordcount: '1551'
+ht-degree: 0%
 
 ---
 
@@ -158,7 +161,7 @@ Google reCAPTCHA V3 외부 계정의 경우 다음 세부 정보를 제공합니
 >
 >Adobe Campaign Standard에서 외부 계정을 구성하는 데 필요한 정보는 **[!UICONTROL Settings]** >을 선택하여 Azure 포털에서 확인할 수 **[!UICONTROL Access keys]**&#x200B;있습니다.
 
-Azure Blob 저장소 커넥터를 사용하여 전송 파일 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 **[!UICONTROLT내보낼 수]** 있습니다. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+Azure Blob 저장소 커넥터를 사용하여 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 **[!UICONTROL Transfer file]** 있습니다. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Microsoft Azure Blob 저장소 외부 계정의 경우 다음 세부 정보를 제공하십시오.
 
