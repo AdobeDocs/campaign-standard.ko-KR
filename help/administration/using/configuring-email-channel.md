@@ -13,7 +13,10 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **공인 마스크 필드**
 
-   수신자에게 이메일을 보내고 오류(오류 주소)를 알리는 데 사용할 수 있는 권한이 있는 이메일 주소가 **[!UICONTROL Header parameters of sent emails]** 나열됩니다.  Adobe Campaign은 메시지 준비 단계 동안 입력한 주소가 유효한지 확인합니다. 이 운영 모드에서는 전달 가능성 문제를 유발할 수 있는 주소가 사용되지 않습니다.
+   이 **[!UICONTROL Header parameters of sent emails]** 섹션에는 이메일을 받는 사람(보낸 사람 주소)에게 보내고 비동기 바운스, 사무실 밖 회신 등과 같은 자동 답글을 다시 보낼 수 있도록 사용할 수 있는 권한이 있는 이메일 주소가 나열됩니다. (오류 주소).  Adobe Campaign은 메시지 준비 단계 동안 입력한 주소가 유효한지 확인합니다. 이 운영 모드에서는 전달 가능성 문제를 유발할 수 있는 주소가 사용되지 않습니다.
    * 발신자와 오류 주소는 모두 Adobe에서 설정합니다. 이러한 필드는 비워 둘 수 없습니다.
    * 이러한 필드는 편집할 수 없습니다. 주소를 업데이트하려면 Adobe 고객 지원 센터에 문의하십시오.
    * 다른 주소를 추가하려면 [제어판](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) 을 사용하여 새 하위 도메인을 설정하거나 Adobe 고객 지원 센터에 문의하십시오. 여러 개의 마스크를 사용하는 경우 쉼표로 구분됩니다.
@@ -53,7 +56,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **전달 매개 변수**
 
-   Adobe Campaign은 시작 날짜에 시작되는 메시지를 전송합니다. 이 **[!UICONTROL Message delivery duration]** 필드에서는 메시지를 보낼 수 있는 기간을 지정할 수 있습니다.
+   Adobe Campaign은 시작 날짜에 시작되는 메시지를 전송합니다. 이 **[!UICONTROL Message delivery duration]** 필드를 사용하면 배달 중에 일시적인 오류나 소프트 바운스가 발생하는 메시지가 다시 시도될 시간대를 지정할 수 있습니다.
 
    >[!IMPORTANT]
    >
@@ -73,7 +76,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **이메일 격리 매개 변수**
 
-   실패 시 오류 카운터를 증가시키기 전에 응용 프로그램이 대기하는 시간을 정의하는 값을 **[!UICONTROL Time between two significant errors]** 필드에 입력합니다. 1일 동안 기본값은 **&quot;1d&quot;**&#x200B;입니다.
+   소프트 **[!UICONTROL Time between two significant errors]** 바운스 실패 시 응용 프로그램이 오류 카운터를 증가시키기 전에 기다리는 시간을 정의하는 값을 필드에 입력합니다. 1일 동안 기본값은 **&quot;1d&quot;**&#x200B;입니다.
 
    값이 **[!UICONTROL Maximum number of errors before quarantine]** 도달하면 이메일 주소가 격리됩니다. 기본값은 **&quot;5&quot;입니다**. 5번째 오류 때문에 주소가 격리될 것이다. 즉, 연락처는 후속 배달에서 자동으로 제외됩니다.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -104,7 +107,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 비동기 바운스는 여전히 규칙을 통해 Campaign inMail 프로세스에서 자격을 **[!UICONTROL Bounce mails]** 갖습니다.
 
-이 규칙에는 원격 서버에서 반환할 수 있는 문자 문자열 목록이 포함되어 있으므로 오류를 평가할 수 있습니다(**하드**, 소프트 **** 또는 **무시됨**).
+이러한 규칙에는 원격 서버에서 반환할 수 있는 문자 문자열 목록이 포함되어 있어 오류를 평가할 수 있습니다(**하드**, 소프트 **** 또는 **무시됨**).
 
 >[!NOTE]
 >
@@ -269,7 +272,7 @@ SMTP 구성에 대한 자세한 내용은 이메일 SMTP 매개 변수 [목록 �
 
 >[!NOTE]
 >
->외부 계정은 **[관리** ] > [응용 프로그램 설정 **]** > [ **외부 계정** ] 메뉴를 통해 액세스할 수있습니다.
+>외부 계정은 **관리** > 응용 프로그램 설정 **>** 외부 계정 **** 메뉴를 통해 액세스할 수있습니다.
 
 #### 준비 {#preparation}
 
