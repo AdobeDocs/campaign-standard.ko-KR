@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 workflow-type: tm+mt
 source-wordcount: '1441'
-ht-degree: 83%
+ht-degree: 93%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 83%
       + [2018년 릴리스 정보](rn/using/release-notes-2018.md)
       + [2017년 릴리스 정보](rn/using/release-notes-2017.md)
    + [릴리스 계획](rn/using/release-planning.md)
-   + [사용되지 않는 기능](rn/using/deprecated-features.md)
+   + [더 이상 사용되지 않는 기능](rn/using/deprecated-features.md)
 + 시작 {#getting-started}
    + [Adobe Campaign Standard 정보](start/using/about-campaign-standard.md)
    + [개인 정보 및 동의](start/using/privacy.md)
@@ -94,7 +94,7 @@ ht-degree: 83%
       + [모바일 애플리케이션 데이터를 기반으로 프로필 정보 만들고 업데이트하기](channels/using/updating-profile-with-mobile-app-data.md)
       + [푸시 추적 구현](channels/using/push-tracking.md)
       + [Adobe Campaign Standard 푸시 알림의 이미지 표시](channels/using/image-push-notification.md)
-      + [캠페인 표준 푸시 알림 페이로드 구조 이해](channels/using/push-payload.md)
+      + [Campaign Standard 푸시 알림 페이로드 구조 이해](channels/using/push-payload.md)
    + 인앱 메시지 {#in-app-messaging}
       + [인앱 메시지 기본 정보](channels/using/about-in-app-messaging.md)
       + [인앱 메시지 준비 및 보내기](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -139,10 +139,10 @@ ht-degree: 83%
 + 테스트 및 보내기 {#testing-and-sending}
    + [테스트 및 전송 시작하기](sending/using/get-started-sending-messages.md)
    + 메시지 준비 및 테스트 {#preparing-and-testing-messages}
-      + [배달 미리 보기](sending/using/previewing-messages.md)
+      + [게재 미리 보기](sending/using/previewing-messages.md)
       + [보내기 준비](sending/using/preparing-the-send.md)
-      + [증명 전송](sending/using/sending-proofs.md)
-      + [타깃팅된 프로파일을 사용하여 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
+      + [교정본 보내기](sending/using/sending-proofs.md)
+      + [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
       + [이메일의 제목란 테스트](sending/using/testing-subject-line-email.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
       + [트랩 사용](sending/using/using-traps.md)
@@ -154,7 +154,7 @@ ht-degree: 83%
    + 메시지 보내기 및 추적 {#sending-and-tracking-messages}
       + [보내기 확인](sending/using/confirming-the-send.md)
       + [메시지 추적](sending/using/tracking-messages.md)
-      + [이메일 숨은 참조 보관](sending/using/archiving.md)
+      + [이메일 숨은 참조를 통해 보관](sending/using/archiving.md)
    + 메시지 모니터링 {#monitoring-messages}
       + [게재 모니터링](sending/using/monitoring-a-delivery.md)
       + [게재 실패 시 경고 받기](sending/using/receiving-alerts-when-failures-happen.md)
@@ -170,9 +170,9 @@ ht-degree: 83%
       + [게재 기능 모니터링](sending/using/monitor-deliverability.md)
       + [문제 해결](sending/using/troubleshooting.md)
    + 유형화 규칙 작업 {#working-with-typology-rules}
-      + [유형 및 유형 분류 규칙 정보](sending/using/about-typology-rules.md)
-      + [유형 관리](sending/using/managing-typologies.md)
-      + [유형 규칙 관리](sending/using/managing-typology-rules.md)
+      + [유형화 및 유형화 규칙 기본 정보](sending/using/about-typology-rules.md)
+      + [유형화 관리](sending/using/managing-typologies.md)
+      + [유형화 규칙 관리](sending/using/managing-typology-rules.md)
       + [필터링 규칙](sending/using/filtering-rules.md)
       + [피로도 규칙](sending/using/fatigue-rules.md)
       + [제어 규칙](sending/using/control-rules.md)
@@ -209,46 +209,46 @@ ht-degree: 83%
       + [워크플로우 세그먼트 기반 보고서 만들기](reporting/using/creating-a-report-workflow-segment.md)
 + 다른 솔루션과 통합 {#integrating-with-adobe-cloud}
    + [Campaign 통합 시작하기](integrating/using/get-started-campaign-integrations.md)
-   + 캠페인 및 경험 관리자 {#working-with-campaign-and-experience-manager}
+   + Campaign 및 Experience Manager {#working-with-campaign-and-experience-manager}
       + [Campaign-Experience Manager 통합 기본 정보](integrating/using/integrating-with-experience-manager.md)
       + [Campaign-Experience Manager 통합 구성](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager에서 이메일 콘텐츠 만들기](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager에서 Campaign 양식 만들기](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + 캠페인 및 타겟 {#working-with-campaign-and-target}
+   + Campaign 및 타겟 {#working-with-campaign-and-target}
       + [Campaign-Target 통합 기본 정보](integrating/using/about-campaign-target-integration.md)
       + [Campaign-Target 통합 구성](integrating/using/configuring-the-campaign-target-integration.md)
       + [Target 다이내믹 콘텐츠 추가](integrating/using/adding-target-dynamic-content.md)
-   + 캠페인 및 분석 {#working-with-campaign-and-analytics}
+   + Campaign 및 Analytics {#working-with-campaign-and-analytics}
       + [Campaign-Analytics 통합 기본 정보](integrating/using/about-campaign-analytics-integration.md)
       + [Campaign-Analytics 통합 구성](integrating/using/configure-campaign-analytics-integration.md)
       + [Analytics에서 Campaign 차원 및 지표 보기](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign 및 Audience Manager 또는 People 핵심 서비스 {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Audience Manager 또는 People 핵심 서비스와의 통합 제공 및 구성](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [문제 해결](integrating/using/troubleshooting.md)
       + [Audience Manager 또는 People 핵심 서비스와 대상자 공유](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Campaign을 Assets 핵심 서비스와 함께 사용하기](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + 모바일용 캠페인 및 분석 {#working-with-campaign-and-analytics-for-mobile}
+   + 모바일용 Campaign 및 Analytics {#working-with-campaign-and-analytics-for-mobile}
       + [Campaign-Points of Interest 데이터 통합 기본 정보](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Campaign-Points of Interest 데이터 통합 구성](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Points of Interest 데이터로 Campaign 메시지 개인화](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + 캠페인 및 트리거 {#working-with-campaign-and-triggers}
+   + Campaign 및 트리거 {#working-with-campaign-and-triggers}
       + [Adobe Experience Cloud 트리거 기본 정보](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Experience Cloud 트리거 구성](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Campaign에서 트리거 사용](integrating/using/using-triggers-in-campaign.md)
       + [트리거 테스트](integrating/using/testing-your-triggers.md)
       + [포기 트리거 사용 사례](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 및 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365용 Adobe IO 통합 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Microsoft Dynamics 365 통합을 위해 Adobe IO 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Campaign Standard 및 Microsoft Dynamics 365 작업 {#working-with-campaign-standard-and-ms-dynamics}
          + [Microsoft Dynamics 365 통합 시작하기](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Microsoft Dynamics 365 통합 정보](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Microsoft Dynamics 365 통합 요청 및 구성](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Microsoft Dynamics 365 통합 사용](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Microsoft Dynamics 365용 Adobe IO 통합 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Microsoft Dynamics 365 for Campaign 통합 구성](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Microsoft Dynamics 365용 Unifi 통합 구성](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [캠페인 사용자 지정 리소스 및 Dynamics 365 사용자 지정 개체 매핑](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Microsoft Dynamics 365 통합을 위해 Adobe IO 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Campaign 통합을 위해 Microsoft Dynamics 365 구성](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Microsoft Dynamics 365 통합을 위해 Unifi 구성](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [Campaign 사용자 지정 리소스 및 Dynamics 365 사용자 지정 엔터티 매핑](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + 프로세스 및 데이터 관리 {#managing-processes-and-data}
    + [데이터 및 프로세스 관리 시작하기](automating/using/get-started-workflows.md)
    + 워크플로우 작업 일반 {#workflow-general-operation}
