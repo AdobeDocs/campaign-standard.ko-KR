@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 93%
+source-wordcount: '1451'
+ht-degree: 92%
 
 ---
 
@@ -239,7 +239,6 @@ ht-degree: 93%
       + [트리거 테스트](integrating/using/testing-your-triggers.md)
       + [포기 트리거 사용 사례](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 및 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365 통합을 위해 Adobe IO 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Campaign Standard 및 Microsoft Dynamics 365 작업 {#working-with-campaign-standard-and-ms-dynamics}
          + [Microsoft Dynamics 365 통합 시작하기](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Microsoft Dynamics 365 통합 정보](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -257,8 +256,14 @@ ht-degree: 93%
       + [데이터 타겟팅](automating/using/targeting-data.md)
       + [데이터 가져오기](automating/using/importing-data.md)
       + [워크플로우 데이터 사용](automating/using/using-workflow-data.md)
-      + [워크플로우 실행](automating/using/executing-a-workflow.md)
       + [워크플로우 모범 사례](automating/using/best-practices-workflows.md)
+   + [워크플로우 실행]{#executing-a-workflow}
+      + [워크플로우 실행 정보](automating/using/about-workflow-execution.md)
+      + [워크플로우 라이프사이클](automating/using/workflow-life-cycle.md)
+      + [실행 명령](automating/using/execution-commands.md)
+      + [워크플로우 실행 모니터링](automating/using/monitoring-workflow-execution.md)
+      + [실행 옵션 관리](automating/using/managing-execution-options.md)
+      + [활동 속성 관리](automating/using/activity-properties.md)
    + [외부 파라미터로 워크플로우 호출](automating/using/calling-a-workflow-with-external-parameters.md)
    + 타겟팅 활동 {#targeting-activities}
       + [타겟팅 활동 기본 정보](automating/using/about-targeting-activities.md)
