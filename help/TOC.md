@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
+source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
 workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 92%
@@ -257,7 +257,7 @@ ht-degree: 92%
       + [데이터 가져오기](automating/using/importing-data.md)
       + [워크플로우 데이터 사용](automating/using/using-workflow-data.md)
       + [워크플로우 모범 사례](automating/using/best-practices-workflows.md)
-   + [워크플로우 실행]{#executing-a-workflow}
+   + 워크플로우 실행 {#executing-a-workflow}
       + [워크플로우 실행 정보](automating/using/about-workflow-execution.md)
       + [워크플로우 라이프사이클](automating/using/workflow-life-cycle.md)
       + [실행 명령](automating/using/execution-commands.md)
