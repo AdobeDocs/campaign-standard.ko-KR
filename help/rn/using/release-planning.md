@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 292f4f65f2e0597ff4dc36ab3222551ab40cbafb
+source-git-commit: fb865ae08a4b0db42b71e58895976a973a2ed6b7
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
  <tbody>
   <tr>
    <td>스테이지<br /> </td>
-   <td>2020년 5월 25일 - 26일<br /> </td>
+   <td>2020년 5월 26일 - 27일<br /> </td>
   </tr>
   <tr>
    <td> 프로덕션<br /> </td>
