@@ -12,7 +12,10 @@ discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +56,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 1. 탭으로 **[!UICONTROL Workflow]** 이동합니다. 여기에서 필요에 따라 새 활동을 추가하여 기본적으로 제공되는 워크플로우를 강화할 수 있습니다.
 
-   워크플로우 활동을 구성하는 방법에 대한 자세한 내용은 다음 섹션에 설명된 사용 사례를 참조하십시오. [예: 워크플로우 템플릿을 가져옵니다](../../automating/using/importing-data.md#example--import-workflow-template). 이 사용 사례는 Adobe Campaign 데이터베이스의 CRM에서 가져오는 프로필을 가져오는 데 재사용할 수 있는 워크플로우를 설정하는 데 도움이 됩니다.
+   워크플로우 활동을 구성하는 방법에 대한 자세한 내용은 다음 섹션에 설명된 사용 사례를 참조하십시오. [예: 워크플로우 템플릿을 가져옵니다](../../automating/using/creating-import-workflow-templates.md). 이 사용 사례는 Adobe Campaign 데이터베이스의 CRM에서 가져오는 프로필을 가져오는 데 재사용할 수 있는 워크플로우를 설정하는 데 도움이 됩니다.
 
 1. 워크플로우의 구성을 올바로 고려할 수 있도록 템플릿을 저장합니다.
 1. 탭에서 샘플 파일을 **[!UICONTROL Properties]** 업로드합니다. 업로드된 파일에는 향후 가져오기 또는 샘플 데이터에 필요한 열만 있을 수 있습니다. 샘플 파일의 데이터를 사용하면 워크플로우가 정의된 후 간소화된 가져오기를 테스트할 수 있습니다.
@@ -84,6 +87,6 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 **관련 항목:**
 
 * [워크플로우](../../automating/using/get-started-workflows.md)
-* [데이터 가져오기](../../automating/using/importing-data.md)
-* [예: 워크플로우 템플릿 가져오기](../../automating/using/importing-data.md#example--import-workflow-template)
+* [데이터 가져오기 및 내보내기](../../automating/using/about-data-import-and-export.md)
+* [예: 워크플로우 템플릿 가져오기](../../automating/using/creating-import-workflow-templates.md)
 
