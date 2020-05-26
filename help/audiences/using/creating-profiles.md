@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Adobe Campaign에서 프로필은 기본적으로 메시지의 기본 대상을 
 
 Campaign에서 프로필을 만들거나 업데이트하려면 다음을 수행할 수 있습니다.
 
-* 워크플로우를 통해 파일에서 프로필 목록 [가져오기](../../automating/using/importing-data.md#example--import-workflow-template)
+* 워크플로우를 통해 파일에서 프로필 목록 [가져오기](../../automating/using/creating-import-workflow-templates.md)
 * 랜딩 페이지를 통해 온라인 데이터 [수집](../../channels/using/getting-started-with-landing-pages.md)
 * REST [API를 통해 벌크 만들기](../../api/using/get-started-apis.md)
 * Microsoft [Dynamics에서 프로필 동기화](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
