@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '5807'
+source-wordcount: '5809'
 ht-degree: 1%
 
 ---
@@ -244,7 +244,7 @@ Launch_URL_ **Campaign** 옵션에 대한 메모가 Adobe Experience Platform SD
 
 쿼리에 초점을 맞춘 워크플로우에 대한 사용 사례가 포함된 새로운 섹션이 추가되었습니다. [자세한 내용](../../automating/using/workflow-created-query-with-complement.md)
 
-[로그] 탭에서 SQL 쿼리를 표시하는 방법에 대한 워크플로 문제 해결 섹션에 프로시저가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+로그 탭에서 SQL 쿼리를 표시하는 방법에 대한 워크플로 문제 해결 섹션에 프로시저가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
 제어판의 하위 도메인 및 인증서 관리와 관련된 정보가 포함된 새 도움말 문서가 추가되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
@@ -584,7 +584,7 @@ GDPR API는 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그룹
 
 푸시 알림에 사용할 다국어 CSV 파일을 생성하는 방법을 학습하는 기술 문서를 추가했습니다. [자세한](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)내용
 
-DM( **Direct Mail) 검역서 및 배달 로그 가져오기 템플릿에 대한 정보가** 추가되었습니다. [자세한 내용](../../automating/using/defining-import-templates.md)
+DM( **Direct Mail) 검역서 및 배달 로그 가져오기 템플릿에 대한 정보가** 추가되었습니다. [자세한 내용](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 기술 워크플로우 목록이 업데이트되었습니다. [자세한 내용](../../administration/using/technical-workflows.md)
 
@@ -616,7 +616,7 @@ Campaign 및 Adobe 솔루션 통합에 대한 대부분의 URL이 변경되었�
 
 이제 한 번에 많은 추가 데이터를 정의할 때 성능을 얻을 수 있는 새로운 옵션을 사용할 수 **[!UICONTROL Query]** 있습니다. [자세한 내용](../../automating/using/query.md)
 
-프로필 가져오기 예제는 프로필을 수신하기 위한 몇 가지 팁으로 업데이트되었습니다. [자세한 내용](../../automating/using/importing-data.md)
+프로필 가져오기 예제는 프로필을 수신하기 위한 몇 가지 팁으로 업데이트되었습니다. [자세한 내용](../../automating/using/about-data-import-and-export.md)
 
 워크플로우에서 새 활동을 사용할 수 있습니다. 활동을 **[!UICONTROL Enrichment]** 참조하십시오. [자세한 내용](../../automating/using/enrichment.md)
 
@@ -818,7 +818,7 @@ Dreamweaver 통합 라이브 - [자세한 내용](https://docs.adobe.com/content
 
 다양한 유형의 Adobe Campaign 사용자에 섹션이 추가되었습니다. [자세한 내용](../../administration/using/users-management.md)
 
-워크플로우 가이드가 다시 구성 및 확장되었습니다. 워크플로우를 [구축](../../automating/using/building-a-workflow.md) 및 [실행하는](../../automating/using/about-workflow-execution.md) 방법, [타깃팅](../../automating/using/targeting-data.md) 및 [관리하는 방법, 데이터를 가져오는 방법, 데이터를 가져오는 방법](../../automating/using/targeting-data.md#enriching-data) , 워크플로 데이터를 사용하는 방법, 워크플로 데이터를 사용하는 방법,Data를 사용하는 방법, 데이터베이스를 업데이트하거나 전달을 보내는 방법 등을 [쉽게 찾을 수 있습니다](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) .
+워크플로우 가이드가 다시 구성 및 확장되었습니다. 워크플로우를 [구축](../../automating/using/building-a-workflow.md) 및 [실행하는](../../automating/using/about-workflow-execution.md) 방법, 데이터를 [타깃팅하고](../../automating/using/about-targeting-activities.md) 관리하는 방법, 데이터를 [타깃팅하고](../../automating/using/about-targeting-activities.md#enriching-data) 관리하는 방법, Facebook데이터를 가져오고 내보내는 방법, Workflow 데이터를 사용하여 데이터베이스를 업데이트하거나 전달을 전송하는 방법을 손쉽게 찾을 수 있습니다 [](../../automating/using/about-data-import-and-export.md) .
 
 이제 전체 설명 및 계산 공식을 포함한 동적 보고서에 보고서 지표 계산을 사용할 수 있습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
