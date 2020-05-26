@@ -12,9 +12,9 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Campaign Standard는 마케팅 데이터베이스를 확장하는 데 도움이 
 
 워크플로우를 사용하면 활동을 사용하여 데이터를 수집하고 Campaign 데이터베이스로 가져올 수 [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) 있습니다.
 
-워크플로우를 통해 데이터를 가져올 때의 일반 정보 및 우수 사례는 [이 섹션에 나와 있습니다](../../automating/using/importing-data.md).
+워크플로우를 통해 데이터를 가져올 때의 일반 정보 및 우수 사례는 [이 섹션에 나와 있습니다](../../automating/using/about-data-import-and-export.md).
 
 또한 데이터를 가져오기 위한 템플릿을 설정할 수 있습니다. 가져오기 템플릿을 사용하면 구조가 동일한 파일을 정기적으로 가져와야 하는 경우 가장 좋은 방법입니다.
 
@@ -36,7 +36,7 @@ Campaign Standard는 마케팅 데이터베이스를 확장하는 데 도움이 
 
 * **워크플로우 템플릿**: 이러한 워크플로우는 필요에 따라 한 번 설정하여 데이터를 가져오고 데이터베이스를 업데이트할 때마다 재사용할 수 있도록 미리 구성된 워크플로우입니다.
 
-   데이터를 가져오는 워크플로우 템플릿의 예는 [이 섹션에 자세히 설명되어 있습니다](../../automating/using/importing-data.md#example--import-workflow-template).
+   데이터를 가져오는 워크플로우 템플릿의 예는 [이 섹션에 자세히 설명되어 있습니다](../../automating/using/creating-import-workflow-templates.md).
 
 * **데이터 템플릿 가져오기**: 워크플로우 템플릿과 마찬가지로 데이터베이스를 업데이트하기 위해 파일을 업로드하도록 설정된 워크플로우를 기반으로 하는 템플릿입니다. 구성이 완료되면, **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** 메뉴 아래에 간소화된 보기를 가진 사용자가 사용할 수 있게 됩니다.
 
