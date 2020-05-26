@@ -12,7 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 5%
 
 ---
 
@@ -91,5 +94,5 @@ Campaign의 개인 정보 및 동의 및 관리 방법은 [이 섹션에 나와 
 * [대상 서비스 사용](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Microsoft Dynamics 365를 사용한 작업](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [Adobe 공유 대상](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [워크플로우를 사용하여 프로필 가져오기](../../automating/using/importing-data.md)
+* [워크플로우를 사용하여 프로필 가져오기](../../automating/using/creating-import-workflow-templates.md)
 * [프로필 및 대상 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
