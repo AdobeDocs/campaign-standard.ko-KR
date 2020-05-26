@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 92%
+source-wordcount: '1453'
+ht-degree: 91%
 
 ---
 
@@ -253,9 +253,6 @@ ht-degree: 92%
    + 워크플로우 작업 일반 {#workflow-general-operation}
       + [워크플로우 인터페이스](automating/using/workflow-interface.md)
       + [워크플로우 구축](automating/using/building-a-workflow.md)
-      + [데이터 타겟팅](automating/using/targeting-data.md)
-      + [데이터 가져오기](automating/using/importing-data.md)
-      + [워크플로우 데이터 사용](automating/using/using-workflow-data.md)
       + [워크플로우 모범 사례](automating/using/best-practices-workflows.md)
    + 워크플로우 실행 {#executing-a-workflow}
       + [워크플로우 실행 정보](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 92%
       + [함수 목록](automating/using/list-of-functions.md)
    + 데이터 가져오기 및 내보내기 {#importing-and-exporting-data}
       + [데이터 가져오기 및 내보내기 기본 정보](automating/using/about-data-import-and-export.md)
+      + [가져오기 모범 사례](automating/using/import-best-practices.md)
       + [가져오기 템플릿으로 데이터 가져오기](automating/using/importing-data-with-import-templates.md)
-      + [가져오기 템플릿 정의](automating/using/defining-import-templates.md)
+      + [데이터를 가져오기 위한 워크플로우 템플릿 만들기](automating/using/creating-import-workflow-templates.md)
+      + [암호화된 데이터 관리](automating/using/managing-encrypted-data.md)
       + [로그 내보내기](automating/using/exporting-logs.md)
       + [패키지 관리](automating/using/managing-packages.md)
       + [목록 내보내기](automating/using/exporting-lists.md)
