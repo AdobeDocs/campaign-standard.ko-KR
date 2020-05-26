@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '2536'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ Adobe Campaign을 사용하면 데이터베이스의 필드를 프로필 이름�
 
 >[!NOTE]
 >
->워크플로우에서 이메일을 만든 경우, 워크플로우에서 계산된 추가 데이터를 개인화 필드에서도 사용할 수 있습니다. 워크플로우에서 추가 데이터를 추가하는 방법에 대한 자세한 내용은 데이터 [](../../automating/using/targeting-data.md#enriching-data) 농축 섹션을 참조하십시오.
+>워크플로우에서 이메일을 만든 경우, 워크플로우에서 계산된 추가 데이터를 개인화 필드에서도 사용할 수 있습니다. 워크플로우에서 추가 데이터를 추가하는 방법에 대한 자세한 내용은 데이터 [](../../automating/using/about-targeting-activities.md#enriching-data) 농축 섹션을 참조하십시오.
 
 ## 콘텐츠 블록 추가{#adding-a-content-block}
 
@@ -283,7 +286,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지에 포함된 �
 
 **관련 항목:**
 
-* [증명 전송](../../sending/using/sending-proofs.md)
+* [교정본 보내기](../../sending/using/sending-proofs.md)
 * [고급 표현식 편집](../../automating/using/editing-queries.md#about-query-editor)
 
 ### 우선 순위 순서 {#order-of-priority}
