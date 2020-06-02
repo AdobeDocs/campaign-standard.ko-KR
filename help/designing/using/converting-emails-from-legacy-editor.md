@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
+source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 이메일 디자이너와 함께 작업을 시작하고 기존 편집기에서 만든 이메일 HTML에서 재사용 가능한 템플릿과 조각을 만들 수 있습니다.
 
->[!IMPORTANT]
->
->이 섹션은 HTML 코드에 익숙한 고급 사용자를 위한 것입니다.
-
 이 사용 사례에서는 HTML 이메일을 사용하여 이메일 디자이너 템플릿을 만들고 이메일 디자이너의 HTML 구성 요소로 나눌 수 있습니다.
 
 >[!NOTE]
 >
 >호환성 모드와 마찬가지로 HTML 구성 요소는 제한된 옵션을 사용하여 편집할 수 있습니다. 즉석 에디션만 수행할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>이 섹션은 HTML 코드에 익숙한 고급 사용자를 위한 것입니다.
 
 ## 이메일 컨텐츠 준비
 
@@ -114,7 +117,7 @@ HTML의 어느 섹션인지 식별하려면 선택할 수 있습니다.
 
 1. HTML 섹션을 삽입합니다.
 
-1. 클릭 **[!UICONTROL Save]**.
+1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
 
 이제 이메일의 렌더링을 확인할 수 있습니다.
 
