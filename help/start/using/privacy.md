@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ Adobe Experience Cloud 개인정보 보호에 대한 자세한 내용은 [이 �
 
 따라서 개인 데이터를 수집 및 공유하는 회사는 데이터 관리자이며, 클라이언트는 데이터 주체이며, Adobe Campaign은 데이터 프로세서의 역할을 합니다. 개인정보 보호 요청을 관리할 때와 같이 데이터 주체와의 관계를 처리하는 것은 데이터 [관리자로서 귀하의 책임입니다](#privacy-requests).
 
-대상 대상 서비스 [,](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Analytics [, Audience Manager 또는 핵심 서비스](../../integrating/using/about-campaign-analytics-integration.md)등 [, 또는 Microsoft Dynamics 365와 같은 다른 솔루션과 Adobe Experience Cloud를 통합하면](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)[](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)개인 데이터를 보호하기 위해 추가 비용을 지불해야 합니다.
+대상 대상 서비스 [,](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Analytics [, Audience Manager 또는 핵심 서비스](../../integrating/using/about-campaign-analytics-integration.md)등 [, 또는 Microsoft Dynamics 365와 같은 다른 솔루션과 Adobe Experience Cloud를 통합하면](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)[](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)개인 데이터를 보호하기 위해 추가 비용을 지불해야 합니다.
 
 ## 데이터 수집 {#data-acquisition}
 
