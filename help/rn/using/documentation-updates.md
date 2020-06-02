@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '5809'
-ht-degree: 1%
+source-wordcount: '5842'
+ht-degree: 9%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 1%
 # 설명서 업데이트 정보{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 노트](../../rn/using/release-notes.md)외에도 Adobe Campaign Standard 설명서의 모든 새로운 업데이트가 나열됩니다.
+
+## 설명서 업데이트 - 2020년 6월 {#doc-updates-june-2020}
+
+Campaign Standard - Microsoft Dynamics 365 통합을 현재 사용할 수 없습니다. 새 커넥터가 개발되고 있으며 향후 출시될 예정입니다. 자세한 내용은 Adobe 세일즈 담당자에게 문의하십시오.
 
 ## 설명서 업데이트 - 2020년 5월 {#doc-updates-may-2020}
 
@@ -76,7 +80,7 @@ Experience Cloud ID 서비스(ECID)에 대한 정보가 Adobe Experience Platfor
 
 이메일 채널 구성 섹션이 이제 Adobe Campaign 향상된 MTA에서 관리하는 모든 이메일 설정에 대해 명확히 정보로 업데이트되었습니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
 
-트랜잭션 메시지 구성 섹션은 이벤트 구성을 편집하는 데 필요한 권한과 트랜잭션 메시지로 컬렉션을 강화하는 방법에 대한 자세한 정보로 업데이트되었습니다. [자세한](../../administration/using/configuring-transactional-messaging.md)내용
+트랜잭션 메시지 구성 섹션은 이벤트 구성을 편집하는 데 필요한 권한과 트랜잭션 메시지로 컬렉션을 강화하는 방법에 대한 자세한 정보로 업데이트되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md)
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
@@ -176,7 +180,7 @@ S3 외부 계정 구성 설명서를 업데이트했습니다. [자세한 내용
 
 ## 설명서 업데이트 - 2019년 11월 {#doc-updates-november-2019}
 
-Campaign Standard의 워크플로우를 사용하여 제어 그룹을 만드는 방법을 설명하는 새로운 사용 사례가 추가되었습니다. [자세한 내용](../../automating/using/workflow-control-group.md)
+Campaign Standard의 워크플로우를 사용하여 제어 그룹을 만드는 방법을 설명하는 새로운 사용 사례가 추가되었습니다. [Read more](../../automating/using/workflow-control-group.md)
 
 랜딩 페이지의 속성과 관련된 정보가 전용 섹션으로 이동되었습니다. [자세한 내용](../../channels/using/configuring-landing-page.md)
 
@@ -234,7 +238,7 @@ GDPR 시작 가이드가 향상되어 더욱 풍부해졌습니다. 이제 GDPR 
 
 로드 파일 활동에서 검색된 추가 데이터가 포함된 이메일을 전송하는 방법을 보여주는 새로운 예제가 추가되었습니다. [자세한 내용](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-트랩 사용 방법에 대한 새로운 섹션이 추가되었습니다. [자세한](../../sending/using/using-traps.md)내용
+트랩 사용 방법에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../../sending/using/using-traps.md)
 
 Launch_URL_ **Campaign** 옵션에 대한 메모가 Adobe Experience Platform SDK를 사용하여 모바일 애플리케이션을 구성하는 방법에 대한 페이지에 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -582,7 +586,7 @@ GDPR API는 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그룹
 
 트랜잭션 메시지 [구성](../../administration/using/configuring-transactional-messaging.md) 섹션이 다시 구성되었으며 [단계별 사용 사례가](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 추가되었습니다.
 
-푸시 알림에 사용할 다국어 CSV 파일을 생성하는 방법을 학습하는 기술 문서를 추가했습니다. [자세한](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)내용
+푸시 알림에 사용할 다국어 CSV 파일을 생성하는 방법을 학습하는 기술 문서를 추가했습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)
 
 DM( **Direct Mail) 검역서 및 배달 로그 가져오기 템플릿에 대한 정보가** 추가되었습니다. [자세한 내용](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
@@ -590,7 +594,7 @@ DM( **Direct Mail) 검역서 및 배달 로그 가져오기 템플릿에 대한 
 
 스케줄러 활동 섹션이 업데이트되었습니다. [자세한 내용](../../automating/using/scheduler.md)
 
-Campaign 및 Adobe 솔루션 통합에 대한 도움말 자료 목록을 업데이트했습니다. [자세한](../../integrating/using/get-started-campaign-integrations.md)내용
+Campaign 및 Adobe 솔루션 통합에 대한 도움말 자료 목록을 업데이트했습니다. [자세한 내용](../../integrating/using/get-started-campaign-integrations.md)
 
 제품 내 상황에 맞는 도움말이 업데이트되었습니다.
 
@@ -694,7 +698,7 @@ A/B 테스트 샘플이 업데이트되었습니다. [자세한 내용](../../ch
 
 Adobe Marketing Cloud [Mobile SDK를 모바일 앱과 통합하여 Adobe Campaign Standard 푸시 알림을 수신하는](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) 방법에 대한 기술 문서를 업데이트하고 명시합니다.
 
-모바일 앱에서 받은 페이로드 구조를 설명하는 기술 노트를 추가했습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+모바일 앱에서 받은 페이로드 구조를 설명하는 기술 노트를 추가했습니다. [자세한 내용.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
 Adobe Mobile Services 인터페이스에서 포스트백을 정의할 때 추가할 OS 버전의 새로운 페이로드 데이터로 푸시 채널 구성 [섹션이](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 업데이트되었습니다.
 
