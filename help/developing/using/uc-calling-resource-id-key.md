@@ -2,10 +2,10 @@
 title: 복합 식별 키로 리소스 호출
 description: 복합 식별 키를 사용하여 리소스를 호출하는 방법 학습
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '589'
+ht-degree: 3%
 
 ---
 
@@ -99,7 +99,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->고객 필터를 호출하려면 [2단계에서 필터 정의를 구성할 때 정의된 필터 이름 뒤에 &quot;by&quot; 접두사를 사용하십시오](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>사용자 지정 필터를 호출하려면 [2단계에서 필터 정의를 구성할 때 정의된 필터 이름 뒤에 &quot;by&quot; 접두사를 사용하십시오](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
 이 경우 &quot;123456&quot; CRM ID가 있는 &quot;spring&quot; 카테고리에서 프로파일을 검색하는 구문은 다음과 같습니다.
 
