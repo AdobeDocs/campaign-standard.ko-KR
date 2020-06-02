@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
+source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
 workflow-type: tm+mt
 source-wordcount: '5842'
 ht-degree: 9%
@@ -26,7 +26,7 @@ ht-degree: 9%
 
 ## 설명서 업데이트 - 2020년 6월 {#doc-updates-june-2020}
 
-Campaign Standard - Microsoft Dynamics 365 통합을 현재 사용할 수 없습니다. 새 커넥터가 개발되고 있으며 향후 출시될 예정입니다. 자세한 내용은 Adobe 세일즈 담당자에게 문의하십시오.
+Campaign Standard - Microsoft Dynamics 365 통합을 현재 사용할 수 없습니다. 새 커넥터가 개발되고 있으며 향후 출시될 예정입니다. 관련 도움말 페이지가 제거되었습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## 설명서 업데이트 - 2020년 5월 {#doc-updates-may-2020}
 
@@ -248,7 +248,7 @@ Launch_URL_ **Campaign** 옵션에 대한 메모가 Adobe Experience Platform SD
 
 쿼리에 초점을 맞춘 워크플로우에 대한 사용 사례가 포함된 새로운 섹션이 추가되었습니다. [자세한 내용](../../automating/using/workflow-created-query-with-complement.md)
 
-로그 탭에서 SQL 쿼리를 표시하는 방법에 대한 워크플로 문제 해결 섹션에 프로시저가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+[로그] 탭에서 SQL 쿼리를 표시하는 방법에 대한 워크플로 문제 해결 섹션에 프로시저가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
 제어판의 하위 도메인 및 인증서 관리와 관련된 정보가 포함된 새 도움말 문서가 추가되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
