@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
+source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
 workflow-type: tm+mt
-source-wordcount: '5842'
+source-wordcount: '5876'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 9%
 이 페이지에는 Adobe Campaign [릴리스 노트](../../rn/using/release-notes.md)외에도 Adobe Campaign Standard 설명서의 모든 새로운 업데이트가 나열됩니다.
 
 ## 설명서 업데이트 - 2020년 6월 {#doc-updates-june-2020}
+
+기존 지원 웹 사이트에 대한 참조가 새 URL로 대체되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+
+사용자 지정 리트머스 계정 구성이 받은 편지함 렌더링 기능에서 제거되었습니다. [자세한 내용](../../sending/using/email-rendering.md)
 
 Campaign Standard - Microsoft Dynamics 365 통합을 현재 사용할 수 없습니다. 새 커넥터가 개발되고 있으며 향후 출시될 예정입니다. 관련 도움말 페이지가 제거되었습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -250,7 +254,7 @@ Launch_URL_ **Campaign** 옵션에 대한 메모가 Adobe Experience Platform SD
 
 [로그] 탭에서 SQL 쿼리를 표시하는 방법에 대한 워크플로 문제 해결 섹션에 프로시저가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-제어판의 하위 도메인 및 인증서 관리와 관련된 정보가 포함된 새 도움말 문서가 추가되었습니다. [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+제어판의 하위 도메인 및 인증서 관리와 관련된 정보가 포함된 새 도움말 문서가 추가되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 컨텐츠 템플릿 및 조각을 설명하는 섹션이 업데이트되었습니다. [자세한 내용](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -322,7 +326,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트�
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-도메인 이름 위임 아티클이 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
+도메인 이름 위임 아티클이 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html)
 
 예정된 릴리스 날짜를 공유하기 위해 새로운 릴리스 계획 아티클이 게시되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html)
 
