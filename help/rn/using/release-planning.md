@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fb865ae08a4b0db42b71e58895976a973a2ed6b7
+source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 1%
+source-wordcount: '458'
+ht-degree: 5%
 
 ---
 
@@ -32,9 +32,9 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 **새로운 기능!** Campaign [Standard 릴리스 알림을](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 구독하면 받은 편지함에서 예정된 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
 
-## 릴리스 20.3.1 - 5월 릴리스 {#release-20-3-may-release}
+## 릴리스 20.4 - 10월 릴리스 {#release-20-4-oct-release}
 
-환경 업데이트는 아래의 지정된 기간 동안 물결에서 발생합니다. 이 릴리스에 대한 자세한 내용은 릴리스 [노트를 참조하십시오](../../rn/using/release-notes.md). 추가 질문 사항이 있는 경우 [Adobe 클라이언트 지원팀에 문의하십시오](https://support.neolane.net/webApp/extranetLogin).
+환경 업데이트는 아래의 지정된 기간 동안 물결에서 발생합니다. 이 릴리스에 대한 자세한 내용은 릴리스 [노트를 참조하십시오](../../rn/using/release-notes.md). 추가 질문 사항이 있는 경우 [Adobe 클라이언트 지원팀에 문의하십시오](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html).
 
 <table>
  <thead>
@@ -46,11 +46,11 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
  <tbody>
   <tr>
    <td>스테이지<br /> </td>
-   <td>2020년 5월 26일 - 27일<br /> </td>
+   <td>2020년 9월 21일 - 22일<br /> </td>
   </tr>
   <tr>
    <td> 프로덕션<br /> </td>
-   <td>2020년 5월 28일 - 6월 1일<br /> </td>
+   <td>2020년 9월 28일 - 10월 5일<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ A: 변경 사항은 관련 설명서에 대한 링크를 포함하여 [릴리스
 
 **Q: 인증 과정은 무엇입니까?**
 
-A: 스테이징 인스턴스가 업그레이드되면 프로세스 및 사용 사례가 이 새로운 버전에서 제대로 작동하는지 확인하고 문제를 [Adobe 클라이언트 지원팀에 보고하는 것이 좋습니다](https://support.neolane.net/webApp/extranetLogin).
+A: 스테이징 인스턴스가 업그레이드되면 프로세스 및 사용 사례가 이 새로운 버전에서 제대로 작동하는지 확인하고 문제를 [Adobe 클라이언트 지원팀에 보고하는 것이 좋습니다](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html).
 
 **Q: 업그레이드 과정 중에 인스턴스에 액세스할 수 있습니까?**
 
@@ -87,4 +87,4 @@ A: 네, 효과가 있을 거예요. 업그레이드 중에는 새 이메일을 �
 
 A: Campaign에 로그인하면 최신 버전과 함께 릴리스 알림 팝업이 표시됩니다.
 
-기타 문의 사항은 [Adobe Client Care에 문의하십시오](https://support.neolane.net/webApp/extranetLogin).
+기타 문의 사항은 [Adobe Client Care에 문의하십시오](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html).
