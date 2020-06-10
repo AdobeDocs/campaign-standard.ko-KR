@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 0%
+source-wordcount: '1554'
+ht-degree: 3%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 0%
 
 다음 유형의 외부 계정을 설정할 수 있습니다.
 
-* SFTP. For more on this, refer to [this section](#sftp-external-account).
-* Amazon Storage Service(S3). For more on this, refer to [this section](#amazon-s3-external-account).
-* Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
-* Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
-* Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
-* Microsoft Azure Blob 저장소. For more on this, refer to [this section](#microsoft-azure-external-account).
+* SFTP. 이 작업에 대한 자세한 정보는 [이 섹션](#sftp-external-account)을 참조하십시오.
+* Amazon Storage Service(S3). 이 작업에 대한 자세한 정보는 [이 섹션](#amazon-s3-external-account)을 참조하십시오.
+* Adobe Experience Manager. 이 작업에 대한 자세한 정보는 [이 섹션](#adobe-experience-manager-external-account)을 참조하십시오.
+* Adobe Analytics. 이 작업에 대한 자세한 정보는 [이 섹션](../../integrating/using/configure-campaign-analytics-integration.md)을 참조하십시오.
+* Google reCAPTCHA. 이 작업에 대한 자세한 정보는 [이 섹션](#google-recaptcha-external-account)을 참조하십시오.
+* Microsoft Azure Blob 저장소. 이 작업에 대한 자세한 정보는 [이 섹션](#microsoft-azure-external-account)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Adobe Campaign에는 미리 정의된 외부 계정 세트가 포함되어 있�
 
 외부 계정은 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용됩니다. 워크플로우 또는 다른 응용 프로그램(Adobe Target, Experience Manager 등)과 데이터 교환에서 파일 전송을 설정할 때는 외부 계정을 선택해야 합니다.
 
-1. 단추를 **[!UICONTROL Create]** 클릭합니다.
+1. **[!UICONTROL Create]** 버튼을 클릭합니다. 
 1. 레이블을 입력합니다. 워크플로우에서 외부 계정을 선택할 때 레이블과 ID가 사용됩니다.
 1. 만들 계정 유형을 선택합니다.
 1. 자격 증명, 서버 주소, 포트 번호 및 관련 시 키를 지정하여 계정에 대한 액세스를 구성합니다.
@@ -86,9 +86,9 @@ ETL을 위해 파일 및 데이터를 관리할 때 이러한 파일은 Adobe에
 * SFTP에 로그인하여 그곳에 무엇이 있는지 직접 확인할 수 있습니다.
 * SFTP 디스크 관리는 주로 사용자의 책임입니다.
 
-또한 SFTP 연결을 시작하려는 공개 IP는 캠페인 인스턴스에서 허용 목록에 포함되어야 합니다. 인증에 사용할 공개 키를 제공하면서 [지원 티켓을 통해](https://support.neolane.net)IP 주소 허용 목록을 요청할 수 있습니다.
+또한 SFTP 연결을 시작하려는 공개 IP는 캠페인 인스턴스에서 허용 목록에 포함되어야 합니다. 인증에 사용할 공개 키를 제공하면서 [지원 티켓을 통해](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)IP 주소 허용 목록을 요청할 수 있습니다.
 
-SFTP 서버는 제어판에서 관리할 수 있습니다. 자세한 내용은 [제어판 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
+SFTP 서버는 제어판에서 관리할 수 있습니다. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Amazon S3 서버 필드는 다음과 같이 채워야 합니다.
 
 Amazon S3 계정을 설정하는 데 도움이 되도록 다음 권장 사항을 따를 것을 권장합니다.
 
-* 엄격한 버킷 정책을 만들어 S3 버킷에 대한 액세스를 제한합니다. 버킷을 만드는 동안 버킷 정책을 구성할 수 있습니다. 자세한 내용은 [Amazon S3 설명서를 참조하십시오](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
+* 엄격한 버킷 정책을 만들어 S3 버킷에 대한 액세스를 제한합니다. 버킷을 만드는 동안 버킷 정책을 구성할 수 있습니다. For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * 외부 계정을 만드는 동안 **[!UICONTROL Keep files in S3 encrypted]** 상자를 체크 표시하여 암호화를 활성화하여 S3 버킷에 민감한 데이터를 저장합니다.
 * 버킷 권한을 부여하여 버킷에서 개체에 액세스할 수 있는 사용자를 지정합니다. 버킷 권한에 대한 자세한 내용은 [Amazon S3 설명서를 참조하십시오](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html).
 
@@ -168,7 +168,7 @@ Microsoft Azure Blob 저장소 외부 계정의 경우 다음 세부 정보를 �
 * 외부 계정 **[!UICONTROL Label]** 의 A 및 **[!UICONTROL ID]** A
 * **[!UICONTROL Type]**: Microsoft Azure Blob 저장소
 * 고객 **[!UICONTROL Account name]** 과 **[!UICONTROL Account key]**&#x200B;고객 계정 이름과 키를 찾을 위치를 알려면 이 [페이지를 참조하십시오](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* 고객 **[!UICONTROL Endpoint suffix]**&#x200B;파악 Azure 포털의 메뉴 **[!UICONTROL Connection string]** 에서 찾을 수 **[!UICONTROL Access keys]** 있습니다. 자세한 내용은 이 [페이지를 참조하십시오](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* 고객 **[!UICONTROL Endpoint suffix]**&#x200B;파악 Azure 포털의 메뉴 **[!UICONTROL Connection string]** 에서 찾을 수 **[!UICONTROL Access keys]** 있습니다. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * 네 **[!UICONTROL Container]** 이름 두 개 이상의 컨테이너를 사용하려는 경우 외부 계정을 컨테이너만큼 만들어야 합니다.
 * 이 **[!UICONTROL Concurrency]** 옵션을 사용하면 파일 전송 속도를 세밀하게 조정할 수 있습니다.
 
