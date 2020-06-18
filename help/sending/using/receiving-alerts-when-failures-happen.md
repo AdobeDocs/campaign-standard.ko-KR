@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2031'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 * 처리량이 낮은 배달
 * 배달 진행 중
 
-알림 수신자는 Adobe Campaign에서 처리 중인 게재를 모니터링하고 실행 도중 문제가 발생하면 적절한 조치를 취할 수 있습니다.
+경고 수신자는 Adobe Campaign에서 처리 중인 전달을 모니터링하고 실행 도중 문제가 발생하면 적절한 조치를 취할 수 있습니다.
 
 이러한 경고 알림은 Adobe Campaign 인터페이스의 대시보드를 통해 정의된 특정 경고 기준에 따라 사용자 지정할 수 있습니다.
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->대시보드 및 경고 기준을 액세스하고 구성하려면 관리 권한이 있거나 **배달 관리자** 보안 그룹에 표시되어야 합니다. 표준 사용자는 Adobe Campaign 인터페이스에서 대시보드에 액세스할 수 없습니다. 경고 알림만 받을 수 있습니다. Adobe Campaign의 사용자 및 보안에 대한 자세한 내용은 [사용자](../../administration/using/users-management.md) 유형 및 보안 그룹 [을 참조하십시오](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>대시보드 및 경고 기준을 액세스하고 구성하려면 관리 권한이 있거나 **배달 관리자** 보안 그룹에 표시되어야 합니다. 표준 사용자는 Adobe Campaign 인터페이스에서 대시보드에 액세스할 수 없습니다. 경고 알림만 받을 수 있습니다. Adobe Campaign의 사용자 및 보안에 대한 자세한 내용은 사용자 [유형](../../administration/using/users-management.md) 및 보안 그룹 [을 참조하십시오](../../administration/using/managing-groups-and-users.md#about-security-groups).
 
 Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
@@ -149,7 +149,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 이렇게 하려면 먼저 **배달** 리소스를 확장하고 새 필터를 추가하여 **[!UICONTROL Finished]** 상태가 있는 배달만 선택할 수 있습니다.
 
-1. [ **Adobe Campaign** ] > [ **관리** ] > [ **개발** ] > [사용자 지정 리소스] **** **[!UICONTROL Create]**&#x200B;를 선택하고 []을 클릭합니다.
+1. Adobe Campaign **>** 관리 **> 개발** **** > 사용자 지정 리소스 **및** **[!UICONTROL Create]**&#x200B;클릭으로 이동합니다.
 1. 선택 **[!UICONTROL Extend an existing resource]**&#x200B;을 선택하고 드롭다운 목록에서 **[!UICONTROL Delivery]** 리소스를 선택한 다음 을 클릭하여 **[!UICONTROL Create]** 편집합니다.
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
@@ -224,7 +224,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 ## 전달 알림 이유 {#delivery-alerting-reasons}
 
-배달 경고 **** 기능은 관련된 모든 Adobe Campaign 사용자가 이메일 및 대시보드를 통해 배달 실행 상태에 대해 자동으로 알려 줍니다.
+전달 경고 **** 기능을 사용하면 관련된 모든 Adobe Campaign 사용자가 이메일 및 대시보드를 통해 전달 실행 상태를 자동으로 알 수 있습니다.
 
 이제 전달 알림 메시지를 수신하면 몇 가지 팁을 얻을 수 있습니다.
 
@@ -237,10 +237,10 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 * **[!UICONTROL Deliveries failed]**: 이 기준은 잘못된 상태로 모든 배달을 알려줍니다. 다음 때문일 수 있습니다.
 
    * 배달 서버(MTA, 메시지 전송 에이전트) 문제
-   * Adobe Campaign 게재 서버와 수신 서버 간의 연결 시간 초과
+   * Adobe Campaign 배달 서버와 수신 서버 간의 연결 시간 초과
    * 전달 가능 문제
    * 잘못된 워크플로우
-   워크플로우로 배달을 트리거하는 경우 해당 워크플로우가 올바르게 시작되었는지 확인하십시오. 자세한 내용은 워크플로우 [실행을 참조하십시오](../../automating/using/about-workflow-execution.md). 그렇지 않으면 Adobe Campaign 관리자에게 연락하여 문제를 해결하십시오.
+   워크플로우로 배달을 트리거하는 경우 해당 워크플로우가 올바르게 시작되었는지 확인하십시오. 자세한 내용은 워크플로우 [실행을 참조하십시오](../../automating/using/about-workflow-execution.md). 그렇지 않은 경우 Adobe Campaign 관리자에게 연락하여 문제를 해결하십시오.
 
 * **[!UICONTROL Deliveries with preparation failed]**: 다음 경우 배달 준비 중에 오류가 발생할 수 있습니다.
 
@@ -258,7 +258,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
    경고의 가능한 원인은 다음과 **[!UICONTROL Delivery with bad error ratio for hard bounces]** 같습니다.
 
-   * 받는 사람이 차단되어 있으므로 더 이상 연락을 받고 싶지 않습니다.
+   * 받는 사람이 블록 목록에 있으므로 더 이상 연락을 받고 싶지 않습니다.
    * 받는 사람의 이메일 주소가 없습니다.
    * 받는 사람의 도메인이 없습니다.
    * 받는 사람의 서버가 배달을 막고 있습니다.
@@ -266,7 +266,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
    * 격리된 받는 사람과 같은 전달 분석 동안 메시지 대상의 한 부분을 제외하는 필터링 유형 규칙을 만듭니다. 필터링 [규칙 만들기를 참조하십시오](../../sending/using/filtering-rules.md).
    * 적절한 격리 관리 프로세스를 유지하기 위해 고객 데이터베이스를 정기적으로 업데이트합니다. 검역을 [참조하십시오](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * 일반적으로 말해서, 가능한 한 최상의 방법으로 전달 능력을 향상시키십시오. Adobe Campaign 전달 [기능에](../../sending/using/about-deliverability.md) 대한 자세한 설명서를 참조하고 Adobe Campaign 관리자에게 문의하십시오.
+   * 일반적으로 말해서, 가능한 한 최상의 방법으로 전달 능력을 향상시키십시오. Adobe Campaign 제공 [기능에](../../sending/using/about-deliverability.md) 대한 자세한 설명서를 참조하고 Adobe Campaign 관리자에게 문의하십시오.
 
 
 
@@ -280,5 +280,5 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 * [게재 실패 이해](../../sending/using/understanding-delivery-failures.md)
 * [스팸 차단 관리 이해](../../sending/using/understanding-quarantine-management.md)
-* [캠페인에서 블랙 목록 관리](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
