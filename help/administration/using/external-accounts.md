@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 3%
 
 ---
@@ -38,15 +38,15 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->기타 유형의 외부 계정은 제품 제공 프로세스 동안 Adobe에서 사용합니다. Campaign Standard 17.9 릴리스에서는 FTP 외부 계정을 여전히 정의할 수 있지만 새로운 워크플로우 활동에서는 더 이상 사용할 수 없습니다. 이미 연결을 설정한 경우 여전히 활성화되어 있습니다.
+>기타 유형의 외부 계정은 제품 제공 프로세스 동안 Adobe에서 사용합니다. Campaign Standard 17.9 릴리스부터 FTP 외부 계정은 여전히 정의할 수 있지만 새로운 워크플로우 활동에서는 더 이상 사용할 수 없습니다. 이미 연결을 설정한 경우 여전히 활성화되어 있습니다.
 
 외부 계정은 **[!UICONTROL Administration > Application settings > External accounts]** 메뉴 아래에 관리자가 구성할 수 있습니다.
 
 ## 외부 계정 만들기 {#creating-an-external-account}
 
-Adobe Campaign에는 미리 정의된 외부 계정 세트가 포함되어 있습니다. 파일 전송에 사용되는 FTP 서버와 같은 외부 시스템과의 연결을 설정하려면 자체 외부 계정을 만들 수 있습니다.
+Adobe Campaign은 사전 정의된 외부 계정 세트와 함께 제공됩니다. 파일 전송에 사용되는 FTP 서버와 같은 외부 시스템과의 연결을 설정하려면 자체 외부 계정을 만들 수 있습니다.
 
-외부 계정은 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용됩니다. 워크플로우 또는 다른 응용 프로그램(Adobe Target, Experience Manager 등)과 데이터 교환에서 파일 전송을 설정할 때는 외부 계정을 선택해야 합니다.
+외부 계정은 기술 워크플로우 또는 캠페인 워크플로우와 같은 기술 프로세스에서 사용됩니다. 워크플로우 또는 다른 응용 프로그램(Adobe Target, Experience Manager 등)과 데이터 교환을 설정할 때 외부 계정을 선택해야 합니다.
 
 1. **[!UICONTROL Create]** 버튼을 클릭합니다. 
 1. 레이블을 입력합니다. 워크플로우에서 외부 계정을 선택할 때 레이블과 ID가 사용됩니다.
@@ -86,7 +86,7 @@ ETL을 위해 파일 및 데이터를 관리할 때 이러한 파일은 Adobe에
 * SFTP에 로그인하여 그곳에 무엇이 있는지 직접 확인할 수 있습니다.
 * SFTP 디스크 관리는 주로 사용자의 책임입니다.
 
-또한 SFTP 연결을 시작하려는 공개 IP는 캠페인 인스턴스에서 허용 목록에 포함되어야 합니다. 인증에 사용할 공개 키를 제공하면서 [지원 티켓을 통해](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)IP 주소 허용 목록을 요청할 수 있습니다.
+또한 SFTP 연결을 시작하려는 공개 IP를 캠페인 인스턴스의 허용 목록에 추가해야 합니다. 허용 목록에 IP 주소 추가는 인증에 사용할 공개 키를 제공하면서 [지원 티켓을](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)통해 요청할 수 있습니다.
 
 SFTP 서버는 제어판에서 관리할 수 있습니다. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -125,14 +125,14 @@ Amazon S3 계정을 설정하는 데 도움이 되도록 다음 권장 사항을
 
 ## Adobe Experience Manager 외부 계정 {#adobe-experience-manager-external-account}
 
-Adobe Experience Manager 외부 계정은 Campaign과 Experience Manager를 통합할 때 사용됩니다.
+Adobe Experience Manager 외부 계정은 캠페인과 Experience Manager을 통합할 때 사용됩니다.
 
 이 통합과 관련된 프로세스 및 요구 사항은 [이 문서에서 사용할 수 있습니다](../../integrating/using/get-started-campaign-integrations.md).
 
 이 새 외부 계정을 설정할 때 다음 세부 정보를 제공해야 합니다.
 
 * 서버: Adobe Experience Manager 서버의 URL을 입력합니다. 예: http://aem.domain.com:4502 ****.
-* AEM 계정 자격 증명: Adobe Experience Manager 인스턴스에 액세스할 계정을 사용하십시오. Experience Manager에서 캠페인 원격 그룹의 계정이어야 합니다.
+* AEM 계정 자격 증명: Adobe Experience Manager 인스턴스에 액세스할 계정을 사용합니다. Experience Manager에서 캠페인 원격 그룹의 계정이어야 합니다.
 
 ## Google reCAPTCHA 외부 계정 {#google-recaptcha-external-account}
 
@@ -159,9 +159,9 @@ Google reCAPTCHA V3 외부 계정의 경우 다음 세부 정보를 제공합니
 
 >[!NOTE]
 >
->Adobe Campaign Standard에서 외부 계정을 구성하는 데 필요한 정보는 **[!UICONTROL Settings]** >을 선택하여 Azure 포털에서 확인할 수 **[!UICONTROL Access keys]**&#x200B;있습니다.
+>Adobe Campaign Standard에서 외부 계정을 구성하는 데 필요한 정보는 **[!UICONTROL Settings]** >를 선택하여 Azure 포털에서 찾을 수 **[!UICONTROL Access keys]**&#x200B;있습니다.
 
-Azure Blob 저장소 커넥터를 사용하여 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 **[!UICONTROL Transfer file]** 있습니다. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+Azure Blob 저장소 커넥터를 사용하면 워크플로우 활동을 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보내는 데 사용할 수 **[!UICONTROL Transfer file]** 있습니다. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Microsoft Azure Blob 저장소 외부 계정의 경우 다음 세부 정보를 제공하십시오.
 
@@ -174,7 +174,7 @@ Microsoft Azure Blob 저장소 외부 계정의 경우 다음 세부 정보를 �
 
 ![](assets/external_accounts_4.png)
 
-구성이 완료되면 을 클릭하여 Adobe Campaign **[!UICONTROL Test connection]** 을 Microsoft Azure Blob 저장소에 연결합니다.
+구성이 완료되면 을 클릭하여 Adobe Campaign **[!UICONTROL Test connection]** 를 Microsoft Azure Blob 저장소에 연결합니다.
 
 ### Microsoft Azure Blob 저장소 권장 사항 {#azure-blob-recommendations}
 
