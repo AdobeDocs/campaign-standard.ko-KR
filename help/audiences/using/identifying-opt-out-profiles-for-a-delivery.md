@@ -1,27 +1,30 @@
 ---
 title: 게재할 옵트아웃 프로필 확인
 description: 전달에 대한 옵트아웃 프로필을 식별하는 방법을 알아봅니다.
-page-status-flag: 활성화 안 함
-uuid: ad09a4d3-7ad6-47b8-9c56-73baba6fa60
-contentOwner: 자우비
+page-status-flag: never-activated
+uuid: ad09a4d3-7ad6-47b8-9c56-73bbaba6fa60
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
-topic-tags: 옵트인 및 옵트아웃 프로세스 이해
+topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 896859da-a230-4f13-9b1f-cbff34b3c0e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 41%
 
 ---
 
 
 # 게재할 옵트아웃 프로필 확인{#identifying-opt-out-profiles-for-a-delivery}
 
-특정 전달에 대한 옵트아웃 프로필은 전달 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 준비 단계 후에 나열됩니다.
+특정 전달에 대한 그만두기 프로필은 전달 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 준비 단계 후에 나열됩니다.
 
-![](assets/exclusion_blacklisting.png)
+![](assets/exclusion_blocklisting.png)
 
 **관련 항목:**
 
