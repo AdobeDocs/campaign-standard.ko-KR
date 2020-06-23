@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5399'
+source-wordcount: '5401'
 ht-degree: 3%
 
 ---
@@ -130,7 +130,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using
 
 **향상된 기능**
 
-* 이제 Adobe Campaign 및 Adobe Target 통합을 통해 Target 권한 기능을 활용할 [수](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) 있습니다. 이제 이메일에 Adobe Target의 동적 이미지를 포함할 때 Target 속성(at_property 코드)을 지정할 수 있습니다.
+* 이제 Adobe Campaign 및 Adobe Target 통합을 통해 Target 권한 기능을 활용할 [수](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) 있습니다. 이제 이메일에 Adobe Target의 동적 이미지를 포함할 때 Target 속성(at_property 코드)을 지정할 수 있습니다.
 * 프로필 리소스에 대한 다운로드 링크가 있는 사용자 지정 리소스는 이제 GDPR 개인 정보 액세스/삭제 요청에 의해 고려됩니다. 1개의 카디널리티 단순 링크 및 N 카디널리티 수집 링크의 경우, 사용자 지정 리소스에서 &quot;대상 레코드를 삭제/복제하는 것은 링크가 참조하는 레코드를 삭제/복제하는 것을 의미함&quot;을 선택해야 합니다. 0개 또는 1개의 카디널리티 단순 링크의 경우 &quot;레코드를 삭제/복제하는 것은 링크에서 참조하는 대상 레코드를 삭제/복제하는 것을 의미함&quot;을 선택합니다.
 
 **기타 변경 사항**
