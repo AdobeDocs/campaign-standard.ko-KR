@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard 시작하기
+title: Campaign Standard 시작
 description: Adobe Campaign은 온라인 및 오프라인 전략을 최적화하여 개인화된 고객 경험을 구축할 수 있는 강력한 크로스채널 캠페인 관리 툴입니다.
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
@@ -12,17 +12,17 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '793'
+ht-degree: 1%
 
 ---
 
 
-# Campaign Standard 시작하기 {#about-campaign-standard}
+# Get Started with Campaign Standard {#about-campaign-standard}
 
-Adobe Campaign Standard는 온라인 및 오프라인 전략을 최적화하여 개인화된 고객 경험을 구축할 수 있는 강력한 크로스채널 캠페인 관리 툴입니다.
+Adobe Campaign Standard은 온라인 및 오프라인 전략을 최적화하여 개인화된 고객 경험을 구축할 수 있는 강력한 크로스채널 캠페인 관리 툴입니다.
 
 크로스 채널 캠페인을 작성, 실행 및 추적하는 전체 프로세스를 제어할 수 있을 뿐만 아니라 클라이언트의 프로필, 행동, 선호도 및 요구 사항에 따라 개인화된 메시지를 전송할 수 있습니다. 전체 마케팅 프로세스를 손쉽게 통합, 모델링 및 자동화하고 다른 Adobe 솔루션과 통합할 수 있습니다.
 
@@ -56,7 +56,7 @@ Adobe Campaign Standard는 온라인 및 오프라인 전략을 최적화하여 
 
 테스트 및 반응형 디자인 전략을 통해 다양한 디바이스를 위한 이메일 전달 최적화를 비롯한 온라인 및 오프라인 커뮤니케이션 채널을 통해 메시지를 디자인하고 전송할 수 있습니다.
 
-**Adobe Campaign 커뮤니케이션 채널을** 활용하여 마케팅 캠페인을 적소에 제공할 수 있습니다. 이메일, SMS, 푸시 알림, 인앱 메시지, 다이렉트 메일, 랜딩 페이지 모든 유형의 메시지(트랜잭션, 반복, 다국어 메시지)에 사용할 수 있는 템플릿을 만들어 메시지 전략에서 시간과 일관성을 유지할 수 있습니다. 개인화 및 다이내믹한 컨텐츠 기능을 사용하여 A/B 테스트를 실행하고 고객의 관심사를 캡처할 수 있습니다. [커뮤니케이션 채널 시작하기](../../channels/using/get-started-communication-channels.md)
+**Adobe Campaign 커뮤니케이션 채널을** 활용하여 마케팅 캠페인을 적소에 제공할 수 있습니다. 이메일, SMS, 푸시 알림, 인앱 메시지, 다이렉트 메일, 랜딩 페이지 모든 유형의 메시지(트랜잭션, 반복, 다국어 메시지)에 사용할 수 있는 템플릿을 만들어 메시지 전략에서 시간과 일관성을 유지할 수 있습니다. 개인화 및 동적 컨텐츠 기능을 사용하여 A/B 테스트를 수행하고 고객의 관심을 사로잡을 수 있습니다. [커뮤니케이션 채널 시작하기](../../channels/using/get-started-communication-channels.md)
 
 **캠페인 이메일 디자이너를** 사용하여 개별적으로 만든 매력적인 이메일 메시지를 만들 수 있습니다. 처음부터 새로 만들거나 내장된 컨텐츠 조각 또는 템플릿을 활용하여 반응형 디자인에 최적화된 HTML 포맷을 사용하여 이메일을 디자인할 수 있습니다. [이메일 컨텐츠 디자인 시작하기](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -66,7 +66,7 @@ Adobe Campaign Standard는 온라인 및 오프라인 전략을 최적화하여 
 
 <img width="60px" alt="조건" src="assets/icon_report.svg"/>
 
-마케팅 캠페인이 실행되고 서로 다른 메시지가 전송되면 Campaign Standard를 사용하여 마케팅 캠페인이 받는 사람의 행동뿐만 아니라 영향력을 추적할 수 있습니다.
+마케팅 캠페인이 실행되고 서로 다른 메시지가 전송되면 Campaign Standard을 통해 마케팅 캠페인이 받는 사람의 행동뿐만 아니라 영향력을 추적할 수 있습니다.
 
 **배달이 전송되면** 모니터링합니다. 배달에 대한 자세한 로그를 참조하여 내보냅니다. 각 수신자의 상태, 대상에서 제외된 메시지 및 더 많은 지표에 대한 정보를 검색합니다.
 전달 알림 기능을 활용하여 이메일 알림을 통해 전달 성공이나 실패를 추적할 수 있습니다. 자세한 내용 [메시지 모니터링 시작](../../sending/using/monitoring-a-delivery.md)
@@ -79,9 +79,9 @@ Adobe Campaign Standard는 온라인 및 오프라인 전략을 최적화하여 
 
 <img width="60px" alt="조건" src="assets/icon_admin.svg"/>
 
-**고유한 필드 및 리소스로 Campaign Standard 데이터 모델을** 확장하고 모든 데이터 모델 변경 사항을 하나의 보기로 모니터링합니다. [Campaign Standard 데이터 모델 시작하기](../../developing/using/get-started-data-model.md)
+**고유한 필드 및 리소스로 Campaign Standard 데이터 모델을** 확장하고 모든 데이터 모델 변경 사항을 하나의 뷰로 모니터링합니다. [Campaign Standard 데이터 모델 시작하기](../../developing/using/get-started-data-model.md)
 
-**REST API를** 활용하여 다양한 작업을 수행하고 Campaign Standard를 고유한 에코시스템과 통합합니다. [Campaign Standard REST API 시작하기](../../api/using/get-started-apis.md)
+**REST API를** 활용하여 다양한 작업을 수행하고 자체 에코시스템과 Campaign Standard을 통합할 수 있습니다. [Campaign Standard REST API 시작하기](../../api/using/get-started-apis.md)
 
 **단일 보기에서 캠페인** 관리: 인스턴스를 모니터링하고 사용자의 권한을 관리합니다. 외부 서버를 설정하여 인스턴스에 연결하고 통신 채널의 매개 변수를 구성합니다. [Campaign Standard 관리 시작하기](../../administration/using/get-started-campaign-administration.md)
 
