@@ -1,6 +1,6 @@
 ---
 title: 목록 사용자 지정
-description: '"Adobe Campaign Standard에서 디스플레이를 사용자 정의하고 목록 화면에서 작업하는 방법(요소 정렬, 필터링, 삭제 또는 복제)을 살펴봅니다. 화면에 하나 이상의 지정된 리소스의 요소가 표시됩니다."'
+description: '"Adobe Campaign Standard에서 디스플레이 사용자 정의 및 요소 정렬, 필터링, 삭제 또는 복제 등 목록 화면에 맞게 표시 기능을 지정하는 방법을 살펴봅니다. 화면에 하나 이상의 지정된 리소스의 요소가 표시됩니다."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 2%
+source-wordcount: '788'
+ht-degree: 4%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Campaign 프로필은 데이터베이스에 저장된 모든 연락처를 
 
 <img width="60px" alt="조건" src="assets/icon_populate.svg"/>
 
-Campaign Standard는 마케팅 데이터베이스를 확장하는 데 도움이 되는 몇 가지 도구를 제공합니다. 이 섹션에서는 전용 문서에 대한 참조와 함께 Campaign에 데이터를 주입하는 데 사용할 수 있는 다양한 방법에 대해 자세히 설명합니다.
+Campaign Standard은 마케팅 데이터베이스를 확장하는 데 도움이 되는 여러 도구를 제공합니다. 이 섹션에서는 전용 문서에 대한 참조와 함께 Campaign에 데이터를 주입하는 데 사용할 수 있는 다양한 방법에 대해 자세히 설명합니다.
 
 ### 워크플로우를 통해 데이터 가져오기 {#importing-data-through-workflows}
 
@@ -89,8 +89,8 @@ Campaign Standard는 마케팅 데이터베이스를 확장하는 데 도움이 
 
 ### Microsoft Dynamics 365에서 프로필 동기화
 
-Microsoft Dynamics 365와 Campaign Standard의 통합을 통해 Microsoft Dynamics 365의 연락처 데이터를 Campaign 데이터베이스로 전달할 수 있습니다.
-그런 다음 이러한 연락처를 프로필 목록에 볼 수 있으며 마케팅 캠페인에서 타깃팅할 수 있습니다. 이 통합에 대한 자세한 내용은 [전용 설명서를 참조하십시오](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
+Microsoft Dynamics 365와의 Campaign Standard 통합을 통해 Microsoft Dynamics 365의 연락처 데이터를 Campaign 데이터베이스로 전달할 수 있습니다.
+그런 다음 이러한 연락처를 프로필 목록에 볼 수 있으며 마케팅 캠페인에서 타깃팅할 수 있습니다. 이 통합에 대한 자세한 내용은 [전용 설명서를 참조하십시오](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Campaign Standard API를 사용하면 프로필 또는 서비스의 생성, 업�
 
 <img width="60px" alt="조건" src="assets/icon_audience.svg"/>
 
-Adobe Campaign은 고객의 관심사와 연관성 있고 효과적인 메시지를 전달하고 고객의 참여를 효과적으로 유도하기 위해 고급 분석 및 타깃팅 기능을 통합합니다.
+Adobe Campaign은 고객의 관심사와 연관성 있고 효과적인 메시지를 전달할 수 있고 고객의 참여를 효과적으로 유도하기 위해 고급 분석 및 타깃팅 기능을 통합합니다.
 
 워크플로우 및 쿼리 편집기 덕분에 데이터, 활동, 언어, 환경 설정 또는 마케팅 내역에 따라 다양한 캠페인이 타깃팅하는 대상을 만들 수 있습니다. 이렇게 하면 예를 들어 가입된 프로필을 필터링하거나 기준 수에 제한 없이 타겟 대상을 만들 수 있습니다.
 
@@ -132,9 +132,9 @@ Adobe Campaign은 고객의 관심사와 연관성 있고 효과적인 메시지
 
 <img width="60px" alt="조건" src="assets/icon_privacy.svg"/>
 
-GDPR은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 EU에 있는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다. Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 이외에도 Adobe는 데이터 프로세서로서 추가 기능을 제공하여 특정 GDPR 요청에 대해 데이터 컨트롤러로서 사용자의 준비를 용이하게 하기 위해 이 기회를 활용하고 있습니다.
+GDPR은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 EU에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다. Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 이외에도 Adobe는 데이터 프로세서로서 추가적인 기능을 추가하여 특정 GDPR 요청에 대해 데이터 컨트롤러로서 사용자의 준비를 촉진합니다.
 
-Adobe Campaign에서 제공하는 툴과 기능에 대한 자세한 내용은 이 [가이드를](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) 참조하십시오.
+GDPR을 준수하는 데 도움이 되는 Adobe Campaign의 툴과 기능에 대한 자세한 내용은 이 [가이드를](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) 참조하십시오.
 
 **자세한 내용**
 
