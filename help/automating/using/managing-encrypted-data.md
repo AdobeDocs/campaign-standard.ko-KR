@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adc5e92183b891a70cac4aa7a6ed96148d104a20
+source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 2%
+source-wordcount: '878'
+ht-degree: 1%
 
 ---
 
@@ -26,9 +26,13 @@ ht-degree: 2%
 
 경우에 따라, 캠페인 서버를 가져오려는 데이터를 암호화해야 할 수 있습니다(예: PII 데이터가 포함되어 있는 경우).
 
-암호화된 파일을 가져오거나 내보내려면 먼저 Adobe 고객 지원 센터에 연락하여 필요한 암호화/암호 해독 명령을 인스턴스에 제공해야 합니다.
+나가는 데이터를 암호화하고 들어오는 데이터를 해독하려면 [제어판을 사용하여 GPG 키를 관리해야 합니다](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html).
 
-이렇게 하려면 다음을 나타내는 요청을 제출합니다.
+>[!NOTE]
+>
+>제어판은 AWS에서 호스팅되는 모든 고객이 사용할 수 있습니다(마케팅 인스턴스를 전제에 호스트하는 고객 제외).
+
+제어판을 사용할 수 없는 경우 Adobe 고객 지원 센터에 연락하여 필요한 암호화/암호 해독 명령을 인스턴스에 제공해야 합니다. 이렇게 하려면 다음을 나타내는 요청을 제출합니다.
 
 * 명령을 사용하기 위해 캠페인 인터페이스에 표시되는 **레이블입니다** . 예: &quot;파일 암호화&quot;
 * 인스턴스에 설치하는 **명령입니다** .
@@ -36,12 +40,6 @@ ht-degree: 2%
 요청이 처리되면, 암호화/암호 해독 명령은 **[!UICONTROL Pre-processing stage]** 및 **[!UICONTROL Load file]** 활동의 필드 **[!UICONTROL Extract file]** 에서 사용할 수 있습니다. 이 암호를 사용하여 가져오거나 내보낼 파일의 암호를 해독하거나 암호화할 수 있습니다.
 
 ![](assets/preprocessing-encryption.png)
-
->[!NOTE]
->
->GPG 키는 AWS에서 호스팅되는 모든 고객이 사용할 수 있는 제어판을 사용하여 인스턴스에 추가할 수 있습니다(전지에서 마케팅 인스턴스를 호스팅하는 고객의 경우 제외).
->
->자세한 내용은 [제어판 설명서를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html).
 
 **관련 항목:**
 
