@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 * **오류** (빨간색)
 
-   워크플로우를 실행할 때 오류가 발생했습니다. 워크플로가 중지되었으며 사용자가 작업을 수행해야 합니다. 이 오류에 대한 자세한 내용을 보려면 ![](assets/printpreview_darkgrey-24px.png) 단추를 사용하여 워크플로우 로그에 [액세스하십시오(모니터링](#monitoring)참조).
+   워크플로우를 실행할 때 오류가 발생했습니다. 워크플로가 중지되었으며 사용자가 작업을 수행해야 합니다. 이 오류에 대한 자세한 내용을 보려면 ![](assets/printpreview_darkgrey-24px.png) 단추를 사용하여 워크플로우 로그에 [액세스하십시오(모니터링](../../automating/using/monitoring-workflow-execution.md)참조).
 
 마케팅 활동 목록을 사용하면 모든 워크플로우와 그 상태를 표시할 수 있습니다. 자세한 내용은 마케팅 활동 [관리를 참조하십시오](../../start/using/marketing-activities.md#about-marketing-activities).
 
