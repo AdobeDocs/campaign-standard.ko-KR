@@ -12,9 +12,9 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '656'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## 캠페인에서 매핑된 트리거 만들기 {#creating-a-mapped-trigger-in-campaign}
 
-Adobe Experience Cloud( **[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html). 트리거를 정의할 때 별칭을 활성화해야 합니다. 각 동작(탐색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대해 Adobe Experience Cloud에 새로운 트리거가 추가되어야 합니다.
+Adobe Experience Cloud( **[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html). 트리거를 정의할 때 별칭을 활성화해야 합니다. 각 동작(탐색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대해 Adobe Experience Cloud에 새로운 트리거가 추가되어야 합니다.
 
 이제 기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만들어야 합니다.
 
@@ -36,17 +36,17 @@ Adobe Experience Cloud( **[!UICONTROL Triggers]** 핵심 서비스)에서 미리
 
    ![](assets/remarketing_1.png)
 
-1. 단추를 **[!UICONTROL Create]** 클릭합니다. Adobe Experience Cloud에 정의된 모든 트리거의 목록이 표시되는 만들기 마법스입니다. 이 **[!UICONTROL Fired by Analytics]** 열에는 Adobe Experience Cloud 트리거에서 Campaign으로 보낸 이벤트 수가 표시됩니다. Experience Cloud 인터페이스에서 생성된 트리거의 매핑입니다.
+1. **[!UICONTROL Create]** 버튼을 클릭합니다. Adobe Experience Cloud에 정의된 모든 트리거의 목록이 표시되는 만들기 마법스입니다. 이 **[!UICONTROL Fired by Analytics]** 열에는 Adobe Experience Cloud 트리거에서 Campaign으로 보낸 이벤트 수가 표시됩니다. Experience Cloud 인터페이스에서 생성된 트리거의 매핑입니다.
 
    ![](assets/remarketing_2.png)
 
 1. 사용할 Adobe Experience Cloud 트리거를 선택하고 클릭합니다 **[!UICONTROL Next]**.
 1. 트리거의 일반 속성을 구성합니다. 마법사의 이 단계에서 트리거에 사용할 채널과 타깃팅 차원도 지정합니다( [타깃팅 차원 및 리소스](../../automating/using/query.md#targeting-dimensions-and-resources)참조). 그런 다음 트리거 만들기를 확인합니다.
-1. 페이로드 컨텐츠를 보려면 **[!UICONTROL Event content and enrichment]** 필드 오른쪽에 있는 단추를 클릭합니다. 또한 이 화면에서는 Adobe Campaign 데이터베이스에 저장된 프로필 데이터로 이벤트 데이터를 보완할 수 있습니다. 농축은 표준 트랜잭션 메시지와 같은 방식으로 수행됩니다.
+1. 페이로드 컨텐츠를 보려면 **[!UICONTROL Event content and enrichment]** 필드 오른쪽에 있는 단추를 클릭합니다. 이 화면에서는 Adobe Campaign 데이터베이스에 저장된 프로필 데이터로 이벤트 데이터를 보완할 수도 있습니다. 농축은 표준 트랜잭션 메시지와 같은 방식으로 수행됩니다.
 
    ![](assets/remarketing_3.png)
 
-1. 필드에서 **[!UICONTROL Transactional message validity duration]** Analytics에서 이벤트를 보낸 후 메시지가 유효한 기간을 정의합니다. 기간이 2일인 경우 해당 기간이 지난 후에는 더 이상 메시지가 전송되지 않습니다. 몇 개의 메시지를 대기 중인 경우 일정 시간 후에 다시 시작하면 해당 메시지가 전송되지 않습니다.
+1. 필드에서 **[!UICONTROL Transactional message validity duration]** Analytics이 이벤트를 보낸 후 메시지가 유효한 기간을 정의합니다. 기간이 2일인 경우 해당 기간이 지난 후에는 더 이상 메시지가 전송되지 않습니다. 몇 개의 메시지를 대기 중인 경우 일정 시간 후에 다시 시작하면 해당 메시지가 전송되지 않습니다.
 
    ![](assets/remarketing_4.png)
 
@@ -81,7 +81,7 @@ Adobe Campaign에서 전용 트리거 보고서를 보려면 이전에 만든 �
 
 ![](assets/remarketing_9.png)
 
-이 보고서는 Analytics에서 보낸 이벤트 수와 비교하여 처리된 이벤트 수를 보여줍니다. 또한 모든 최근 트리거 목록이 표시됩니다.
+이 보고서는 Analytics이 보낸 이벤트 수와 비교하여 처리된 이벤트 수를 보여줍니다. 또한 모든 최근 트리거 목록이 표시됩니다.
 
 ![](assets/trigger_uc_browse_14.png)
 
