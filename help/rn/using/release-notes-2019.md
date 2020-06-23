@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 3%
@@ -59,7 +59,7 @@ ht-degree: 3%
   <tr> 
    <td> 
     <p>이제 Adobe Campaign Standard과 Microsoft Dynamics 365 간의 통합을 사용할 수 있습니다. 연락처 및 사용자 지정 개체 레코드를 Dynamics 365에서 Campaign으로 전송하고 Campaign에서 Dynamics 365로 이메일 이벤트 데이터를 다시 가져와 세일즈/마케팅 정렬을 향상시킬 수 있습니다.</p>
-    <p>이 통합을 설정하고 <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">방법 비디오를 보려면</a> 자세한 설명서를 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">참조하십시오</a>.</p>
+    <p>이 통합을 설정하고 <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">방법 비디오를 보려면</a> 자세한 설명서를 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">참조하십시오</a>.</p>
   </td>
   </tr> 
  </tbody> 
