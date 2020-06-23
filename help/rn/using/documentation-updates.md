@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5923'
+source-wordcount: '5941'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 9%
 Adobe Campaign 릴리스 노트 [와](../../rn/using/release-notes.md)함께 이 페이지에는 Adobe Campaign Standard 설명서의 새로운 모든 업데이트가 나열됩니다.
 
 ## 설명서 업데이트 - 2020년 6월 {#doc-updates-june-2020}
+
+제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화하고](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) [해독하는](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 방법에 사용 사례가 추가되었습니다.
 
 &#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;blocklist&#39; 및 &#39;allowlist&#39;로 대체될 예정입니다.
 
@@ -484,7 +486,7 @@ Adobe Experience Platform SDK를 사용하여 모바일 애플리케이션 구�
 
 인앱 메시지(베타) - [자세한 내용](../../channels/using/about-in-app-messaging.md)
 
-모바일 앱용 Adobe Launch 통합(베타) - [자세한 내용](../../sending/using/about-typology-rules.md#typology-rules)
+모바일 앱용 Adobe Launch 통합(베타) - [자세한 내용](../../sending/using/managing-typologies.md)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -498,7 +500,7 @@ Adobe Experience Platform SDK를 사용하여 모바일 애플리케이션 구�
 
 **릴리스에 포함된 새로운 기능**
 
-[모바일 앱 가입자를 위한 높은 우선 순위 플래그](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 및 [유형](../../sending/using/about-typology-rules.md#typology-rules) 필터
+[모바일 앱 가입자를 위한 높은 우선 순위 플래그](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 및 [유형](../../sending/using/managing-typologies.md) 필터
 
 준비 시 URL에서 자동으로 컨텐츠 가져오기 [자세한 내용](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -794,7 +796,7 @@ DM 채널 - 보낸 사람에게 돌아가기, [자세한 내용 보기](../../ch
 
 DM - [자세한 내용](../../channels/using/about-direct-mail.md)
 
-이메일 숨은 참조 - [자세한 내용](../../administration/using/configuring-email-channel.md#archiving-emails)
+이메일 숨은 참조 - [자세한 내용](../../sending/using/archiving.md)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
