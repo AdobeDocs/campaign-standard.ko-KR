@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 92%
+source-wordcount: '1402'
+ht-degree: 91%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 92%
    + Adobe Experience Platform을 사용한 작업 {#working-with-adobe-experience-platform}
       + [Audience Destinations 서비스 정보](audiences/using/aep-about-audience-destinations-service.md)
       + [Adobe Experience Platform 대상자 관리](audiences/using/aep-managing-audiences.md)
-      + [통합 세그먼트 빌더 사용](audiences/using/aep-using-segment-builder.md)
+      + [세그먼트 빌더 사용](audiences/using/aep-using-segment-builder.md)
 + 소통 채널 {#communication-channels}
    + [커뮤니케이션 채널 시작하기](channels/using/get-started-communication-channels.md)
    + 소통 채널 기본 정보 {#about-communication-channels}
