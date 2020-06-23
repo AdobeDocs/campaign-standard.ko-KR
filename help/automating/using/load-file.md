@@ -1,6 +1,6 @@
 ---
 title: 파일 로드
-description: 파일 로드 활동을 사용하면 Adobe Campaign에서 이 데이터를 사용하기 위해 구조화된 하나의 양식으로 데이터를 가져올 수 있습니다.
+description: 파일 로드 작업을 사용하면 Adobe Campaign에서 이 데이터를 사용하기 위해 구조화된 하나의 양식으로 데이터를 가져올 수 있습니다.
 page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: sauviat
@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ![](assets/data_loading.png)
 
-이 **[!UICONTROL Load file]** 활동을 통해 Adobe Campaign에서 이 데이터를 사용하기 위해 구조화된 하나의 양식으로 데이터를 가져올 수 있습니다. 데이터를 일시적으로 가져오며 Adobe Campaign 데이터베이스에 통합하려면 다른 활동이 필요합니다.
+이 **[!UICONTROL Load file]** 활동을 통해 데이터를 구조화된 하나의 양식으로 가져와 Adobe Campaign에서 사용할 수 있습니다. 데이터를 일시적으로 가져오며 Adobe Campaign 데이터베이스에 통합하려면 다른 활동이 필요합니다.
 
 ## 사용 상황 {#context-of-use}
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 각 열에 대한 데이터 형식을 확인하고 필요한 경우 매개 변수를 조정합니다. **[!UICONTROL Column definition]**
 
-   이 **[!UICONTROL Column definition]** 탭에서는 오류가 없는 데이터(예: null 관리 사용)를 가져와서 향후 작업을 위해 Adobe Campaign 데이터베이스에 이미 있는 유형과 일치하도록 하기 위해 각 열의 데이터 구조를 정확하게 지정할 수 있습니다.
+   이 **[!UICONTROL Column definition]** 탭에서는 오류가 없는 데이터(예: null 관리 사용)를 가져와서 Adobe Campaign 데이터베이스에 이미 있는 유형과 일치하도록 하기 위해 각 열의 데이터 구조를 정확하게 지정할 수 있습니다.
 
    예를 들어 열의 레이블을 변경하고 해당 유형(문자열, 정수, 날짜 등)을 선택할 수 있습니다. 오류 처리를 지정할 수도 있습니다.
 
@@ -98,6 +98,9 @@ ht-degree: 0%
       ![](assets/wkf_file_loading1.png)
 
 1. 데이터를 로드할 파일이 GZIP 파일(.gz)로 압축되어 있는 경우 **[!UICONTROL Decompression]** 필드에서 **[!UICONTROL Add a pre-processing step]** 옵션을 선택합니다. 데이터를 로드하기 전에 파일의 압축을 해제할 수 있습니다. 이 옵션은 파일이 활동의 인바운드 전환에서 가져온 경우에만 사용할 수 있습니다.
+
+   또한 이 **[!UICONTROL Add a pre-processing step]** 필드에서 파일을 데이터베이스로 가져오기 전에 파일의 암호를 해독할 수도 있습니다. 암호화된 파일을 사용하는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오.](../../automating/using/managing-encrypted-data.md)
+
 1. 이 **[!UICONTROL Keep the rejects in a file]** 옵션을 사용하면 가져오는 동안 발생한 오류가 포함된 파일을 다운로드하여 사후 처리 단계에 적용할 수 있습니다. 이 옵션이 활성화되면 아웃바운드 전환 이름이 &quot;거부&quot;로 바뀝니다.
 
    >[!NOTE]
@@ -159,7 +162,7 @@ ht-degree: 0%
 
 로드 파일 활동은 주로 기존 데이터에 통합하기 위해 전송 파일 활동의 데이터를 구성합니다.
 
-다음 예제는 전송 파일 활동을 통해 자동으로 다운로드된 로드 파일 활동, 업데이트 데이터 활동의 결과를 보여줍니다. 이 워크플로우는 새 프로필로 Adobe Campaign 데이터베이스를 강화하거나 가져온 파일에서 복구한 데이터를 사용하여 기존 프로필을 업데이트하는 데 목적이 있습니다.
+다음 예제는 전송 파일 활동을 통해 자동으로 다운로드된 로드 파일 활동, 업데이트 데이터 활동의 결과를 보여줍니다. 이 워크플로우는 Adobe Campaign 데이터베이스를 새로운 프로파일로 보완하거나 가져온 파일에서 복구한 데이터를 사용하여 기존 프로파일을 업데이트하는 것을 목표로 합니다.
 
 ![](assets/load_file_workflow_ex1.png)
 
@@ -173,7 +176,7 @@ ht-degree: 0%
 1. 활동을 앞에서 지정한 대로 구성합니다.
 1. 활동을 워크플로에 끌어다 놓고 활동 뒤에 **[!UICONTROL Update data]** **[!UICONTROL Load file]** 놓은 다음 구성합니다. 데이터 [업데이트를 참조하십시오](../../automating/using/update-data.md).
 
-워크플로가 시작되면 업로드된 파일의 데이터가 추출된 다음 Adobe Campaign 데이터베이스를 보완하는 데 사용됩니다.
+워크플로우가 시작되면 업로드된 파일의 데이터가 추출된 다음 Adobe Campaign 데이터베이스를 보완하는 데 사용됩니다.
 
 ## 예 2: 풍부한 필드가 포함된 이메일 보내기 {#example-2-email-with-enriched-fields}
 
