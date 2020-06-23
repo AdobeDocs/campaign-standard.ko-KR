@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 이 ![](assets/printpreview_darkgrey-24px.png) 아이콘은 워크플로우 로그 및 작업 메뉴를 엽니다.
 
-워크플로우 내역은 워크플로우 실행 옵션에 지정된 기간 동안 저장됩니다(워크플로우 속성 참조 [](#workflow-properties)). 이 기간 동안 다시 시작한 후에도 모든 메시지가 저장됩니다. 이전 실행의 메시지를 저장하지 않으려면 ![](assets/delete_darkgrey-24px.png) 단추를 클릭하여 내역을 삭제해야 합니다.
+워크플로우 내역은 워크플로우 실행 옵션에 지정된 기간 동안 저장됩니다(워크플로우 속성 참조 [](../../automating/using/managing-execution-options.md)). 이 기간 동안 다시 시작한 후에도 모든 메시지가 저장됩니다. 이전 실행의 메시지를 저장하지 않으려면 ![](assets/delete_darkgrey-24px.png) 단추를 클릭하여 내역을 삭제해야 합니다.
 
 이 **[!UICONTROL Log]** 탭에는 모든 활동 또는 선택한 활동의 실행 내역이 포함되어 있습니다. 시간 순서대로 수행과 실행 오류를 색인화합니다.
 
@@ -55,9 +55,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->각 활동에 대해 이 구성을 개별적으로 적용할 수 있습니다. 이렇게 하려면 활동을 선택하고 빠른 작업을 사용하여 엽니다 ![](assets/edit_darkgrey-24px.png). 그런 다음 실행 옵션 **탭에서 오류 관리 모드를** 선택합니다. 활동 [실행 옵션을 참조하십시오](#activity-execution-options).
+>각 활동에 대해 이 구성을 개별적으로 적용할 수 있습니다. 이렇게 하려면 활동을 선택하고 빠른 작업을 사용하여 엽니다 ![](assets/edit_darkgrey-24px.png). 그런 다음 실행 옵션 **탭에서 오류 관리 모드를** 선택합니다. 활동 [실행 옵션을 참조하십시오](../../automating/using/activity-properties.md).
 
-워크플로우 [속성에서 오류 관리와 관련된 추가](#workflow-properties)옵션을 사용할 수 있습니다.
+워크플로우 [속성에서](../../automating/using/managing-execution-options.md)오류 관리와 관련된 추가 옵션을 사용할 수 있습니다.
 
 ![](assets/wkf_execution_error.png)
 
@@ -74,4 +74,4 @@ ht-degree: 0%
 
    * 지정된 숫자가 **[!UICONTROL 0]**&#x200B;되거나 지정된 수에 도달하지 않으면 오류가 발생하는 활동이 무시됩니다. 다른 워크플로우 분기는 정상적으로 실행됩니다.
 
-   * 지정된 수에 도달하면 전체 워크플로우가 일시 중단되어 종료됩니다 **[!UICONTROL Erroneous]**. 감독자가 정의된 경우 자동으로 이메일로 통보를 받게 됩니다. Adobe [Campaign 알림을 참조하십시오](../../administration/using/sending-internal-notifications.md).
+   * 지정된 수에 도달하면 전체 워크플로우가 일시 중단되어 종료됩니다 **[!UICONTROL Erroneous]**. 감독자가 정의된 경우 자동으로 이메일로 통보를 받게 됩니다. Adobe Campaign [알림을 참조하십시오](../../administration/using/sending-internal-notifications.md).
