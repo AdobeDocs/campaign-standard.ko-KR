@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
-source-wordcount: '1561'
+source-wordcount: '1559'
 ht-degree: 3%
 
 ---
@@ -131,7 +131,10 @@ Adobe Experience Manager 외부 계정은 캠페인과 Experience Manager을 통
 
 이 새 외부 계정을 설정할 때 다음 세부 정보를 제공해야 합니다.
 
-* 서버: Adobe Experience Manager 서버의 URL을 입력합니다. 예: http://aem.domain.com:4502 ****.
+* 서버: Adobe Experience Manager 서버의 URL을 입력합니다. 예:
+
+   ``` http://aem.domain.com:4502 ```
+
 * AEM 계정 자격 증명: Adobe Experience Manager 인스턴스에 액세스할 계정을 사용합니다. Experience Manager에서 캠페인 원격 그룹의 계정이어야 합니다.
 
 ## Google reCAPTCHA 외부 계정 {#google-recaptcha-external-account}
