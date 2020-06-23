@@ -12,7 +12,10 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 6%
 
 ---
 
@@ -25,16 +28,16 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 >[!CAUTION]
 >
->워크플로우 ID가 Adobe Campaign에서 변경되면 API 요청이 더 이상 작동하지 않습니다.
+>Adobe Campaign에서 워크플로우 ID가 변경되면 API 요청은 더 이상 작동하지 않습니다.
 
-다음 네 가지 실행 명령을 사용하여 워크플로우를 제어할 수 있습니다.
+워크플로우를 제어하는 데 다음 네 가지 실행 명령을 사용할 수 있습니다.
 
 * 시작
 * 일시 중지
 * 다시 시작
 * 중지
 
-실행 명령에 대한 자세한 내용은 Campaign [설명서를](https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html)참조하십시오.
+실행 명령에 대한 자세한 내용은 [캠페인 설명서를 참조하십시오](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
@@ -54,7 +57,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
    <!-- + réponse -->
 
-* 워크플로우 중지
+* 워크플로우를 중지합니다.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
