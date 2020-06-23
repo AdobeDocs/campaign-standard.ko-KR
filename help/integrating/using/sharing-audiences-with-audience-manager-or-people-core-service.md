@@ -12,7 +12,10 @@ discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ## 대상자 가져오기 {#importing-an-audience}
 
-사람 핵심 서비스 통합을 통해 데이터베이스를 더욱 강화하기 위한 기술 워크플로우를 통해 고객을 Adobe Campaign으로 직접 가져올 수 있습니다. 사람 핵심 서비스의 대상 공유에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html).
+사람 핵심 서비스 통합을 통해 고객을 Adobe Campaign으로 직접 가져와 데이터베이스를 강화할 수 있습니다. 사람 핵심 서비스의 대상 공유에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
-Adobe Campaign의 사람 핵심 서비스에서 대상/세그먼트 가져오기를 사용하면 IMS를 통해 연결된 사용자만 메뉴에서 수행할 수 있습니다(Adobe ID를 통한 인증). **[!UICONTROL Audiences]**
+Adobe Campaign의 사람 핵심 서비스에서 대상/세그먼트 가져오기를 사용하면 IMS를 통해 연결된 사용자만 메뉴에서 수행할 수 있습니다(Adobe ID을 통한 인증). **[!UICONTROL Audiences]**
 
 1. 메뉴로 **[!UICONTROL Audiences]** 가세요
 1. 작업 표시줄에서 화면 **[!UICONTROL Create]** 으로 이동하여 대상을 만듭니다.
@@ -43,17 +46,17 @@ Adobe Campaign의 사람 핵심 서비스에서 대상/세그먼트 가져오기
 
    그런 다음 대상을 기술 워크플로우를 통해 가져옵니다. 이 ID(&#39;방문자 ID&#39; 또는 &#39;선언된 ID&#39;)가 프로필 차원과 조정될 수 있었던 레코드로 구성됩니다. Adobe Campaign에서 인식할 수 없는 사람 핵심 서비스 세그먼트의 ID는 가져올 수 없습니다.
 
-이제 대상을 Adobe Campaign 데이터베이스에 가져옵니다. 사용자 핵심 서비스 또는 Audience Manager에서 직접 세그먼트를 가져오는 경우 가져오기 프로세스를 완료하는 데 24-36시간이 소요됩니다. 이 기간이 지나면 Adobe Campaign에서 새 대상을 찾아 사용할 수 있습니다.
+이제 대상을 Adobe Campaign 데이터베이스에 가져옵니다. 사용자 핵심 서비스 또는 Audience Manager에서 직접 세그먼트를 가져오는 경우 가져오기 프로세스를 완료하는 데 24-36시간이 소요됩니다. 이 기간이 지나면 Adobe Campaign에서 새 고객을 찾아 사용할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Analytics에서 Adobe Campaign으로 대상을 가져오는 경우, 먼저 이 대상을 사람 코어 서비스 또는 Audience Manager에서 공유해야 합니다. 이 프로세스는 12-24시간이 소요되며 Campaign과 24-36시간 동기화에 추가해야 합니다. 이 경우 대상 공유 기간은 최대 60시간까지 될 수 있습니다. People 코어 서비스 및 Audience Manager의 Adobe Analytics 대상 공유에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html).
+>Adobe Analytics에서 Adobe Campaign으로 대상을 가져오는 경우, 먼저 이 대상을 사람 코어 서비스 또는 Audience Manager에서 공유해야 합니다. 이 프로세스는 12-24시간이 소요되며 Campaign과 24-36시간 동기화에 추가해야 합니다. 이 경우 대상 공유 기간은 최대 60시간까지 될 수 있습니다. People 코어 서비스 및 Audience Manager에서 Adobe Analytics의 고객 공유에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## 대상 내보내기 {#exporting-an-audience}
 
-워크플로우 및 활동을 사용하여 대상을 Adobe Campaign에서 Audience Manager 또는 People 핵심 서비스로 내보낼 수 **[!UICONTROL Save audience]** 있습니다.
+워크플로우 및 활동을 사용하여 대상을 Adobe Campaign에서 Audience Manager 또는 사람 핵심 서비스로 내보낼 수 **[!UICONTROL Save audience]** 있습니다.
 
-새로운 워크플로우에서는 IMS를 통해 연결된 사용자만 수행할 수 있습니다(Adobe ID를 통한 인증).
+새로운 워크플로우에서 수행할 수 있으며 IMS를 통해 연결된 사용자만 수행할 수 있습니다(Adobe ID을 통한 인증).
 
 1. 프로그램, 캠페인 또는 마케팅 활동 목록에서 새 워크플로우를 만듭니다.
 1. 사용 가능한 다양한 활동을 사용하여 프로필 세트를 타깃팅합니다.
@@ -74,9 +77,9 @@ Adobe Campaign의 사람 핵심 서비스에서 대상/세그먼트 가져오기
 1. 해당 항목을 선택합니다 **[!UICONTROL Shared Data Source]**.
 1. 원하는 경우 내보낸 프로파일을 사용하려면 **[!UICONTROL Generate an outbound transition]** 확인란을 선택합니다. 조정할 수 있는 프로필만 내보냅니다.
 1. 활동의 구성을 확인하고 워크플로우를 저장합니다.
-1. 워크플로우를 시작하여 고객을 내보낼 수 있습니다. Adobe Campaign과 People 코어 서비스 간의 동기화는 몇 시간이 걸릴 수 있습니다.
+1. 워크플로우를 시작하여 고객을 내보낼 수 있습니다. Adobe Campaign과 사용자 핵심 서비스 간의 동기화는 몇 시간이 걸릴 수 있습니다.
 
-Adobe Campaign과 People 코어 서비스 간의 동기화는 24-36시간이 소요됩니다. 이 기간이 지나면 People 코어 서비스에서 새로운 고객을 찾아 다른 Adobe Experience Cloud 솔루션에서 재사용할 수 있습니다. Adobe Campaign의 공유 대상 사용에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/mcloud/t_audience_create.html).
+Adobe Campaign과 사용자 핵심 서비스 간의 동기화는 24-36시간이 소요됩니다. 이 기간이 지나면 People 코어 서비스에서 새로운 고객을 찾아 다른 Adobe Experience Cloud 솔루션에서 재사용할 수 있습니다. Adobe People 코어 서비스에서 Adobe Campaign 공유 대상 사용에 대한 자세한 내용은 이 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html).
 
 **관련 항목:**
 
