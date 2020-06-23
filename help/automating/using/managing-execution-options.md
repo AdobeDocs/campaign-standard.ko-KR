@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: 개발 환경 테스트 목적으로 로컬에서 워크플로우를 실행할 수 있습니다.
 
-* **[!UICONTROL Severity]**: Adobe Campaign 인스턴스에서 워크플로우 실행에 대한 우선 순위 수준을 지정할 수 있습니다. 중요한 워크플로우가 먼저 실행됩니다.
+* **[!UICONTROL Severity]**: Adobe Campaign 인스턴스에서 워크플로우를 실행하기 위한 우선 순위 수준을 지정할 수 있습니다. 중요한 워크플로우가 먼저 실행됩니다.
 
-이 **[!UICONTROL Error management]** 섹션에서는 오류가 발생하는 경우 워크플로우의 작동 방식을 관리할 수 있는 추가 옵션을 제공합니다. 이러한 옵션은 [오류 관리](#error-management) 섹션에 자세히 설명되어 있습니다.
+이 **[!UICONTROL Error management]** 섹션에서는 오류가 발생하는 경우 워크플로우의 작동 방식을 관리할 수 있는 추가 옵션을 제공합니다. 이러한 옵션은 [오류 관리](../../automating/using/monitoring-workflow-execution.md#error-management) 섹션에 자세히 설명되어 있습니다.
