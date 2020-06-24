@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
+source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 [릴리스 계획](../../rn/using/release-planning.md) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 노트](../../rn/using/release-notes-2020.md) | [사용되지 않는 기능](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 제어판 6월 릴리스** . 제어판 [릴리스 노트를 참조하십시오](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 제어판 6월 릴리스** . [자세한](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)내용
 
 ## 릴리스 20.3 - 2020년 5월 {#release-20-3---may-2020}
 
@@ -61,7 +61,7 @@ ht-degree: 0%
   <td> <p>외부 <strong>API</strong> 활동이 베타에서 GA로 전환되고 있습니다. 이 릴리스는 JSON 응답 본문 구문 분석기에 추가적인 유연성을 제공합니다. 이제 다음을 수행할 수 있습니다.</p>
 <ul>
 <li>최대 깊이가 10인 중첩된 JSON을 구문 분석합니다. </li>
-<li>선택한 속성을 JSON의 리프 노드로 분석하여 단일 테이블 행으로 병합합니다.</li>
+<li>선택한 속성을 JSON의 리프 노드로 구문 분석하고 단일 테이블 행으로 병합합니다.</li>
 <li>개체 이름을 "data"로 지정하거나 최상위 수준에 두지 않고 JSON에서 배열 개체를 선택하고 사용합니다.</li>
 </ul>
 <p><strong>주의:</strong> 고객은 워크플로우에서 모든 베타 외부 API 활동을 <strong>GA 외부 API 활동으로</strong> 대체해야 합니다.  외부 API의 베타 버전을 사용하는 워크플로우는 20.3에서 작동하지 않습니다.</p>
@@ -71,7 +71,7 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **새 제어판 CNAME 하위 도메인에 대한 인증서 갱신과 함께 릴리스** 할 수 있습니다. 제어판 [릴리스 노트를 참조하십시오](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **새 제어판 CNAME 하위 도메인에 대한 인증서 갱신과 함께 릴리스** 할 수 있습니다. [자세한](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)내용
 
 **향상된 기능**
 
