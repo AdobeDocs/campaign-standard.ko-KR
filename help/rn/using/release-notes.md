@@ -1,6 +1,6 @@
 ---
 title: 최신 릴리스
-description: 이 페이지에는 Adobe Campaign Standard의 모든 최근 릴리스가 나열됩니다.
+description: 이 페이지에는 모든 최근 Adobe Campaign Standard 릴리스가 나열됩니다.
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 # 최신 릴리스{#latest-release}
 
 [릴리스 계획](../../rn/using/release-planning.md) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 노트](../../rn/using/release-notes-2020.md) | [사용되지 않는 기능](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 제어판 6월 릴리스** . 제어판 [릴리스 노트를 참조하십시오](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## 릴리스 20.3 - 2020년 5월 {#release-20-3---may-2020}
 
@@ -59,7 +61,7 @@ ht-degree: 0%
   <td> <p>외부 <strong>API</strong> 활동이 베타에서 GA로 전환되고 있습니다. 이 릴리스는 JSON 응답 본문 구문 분석기에 추가적인 유연성을 제공합니다. 이제 다음을 수행할 수 있습니다.</p>
 <ul>
 <li>최대 깊이가 10인 중첩된 JSON을 구문 분석합니다. </li>
-<li>선택한 속성을 JSON의 리프 노드로 구문 분석하고 단일 테이블 행으로 병합합니다.</li>
+<li>선택한 속성을 JSON의 리프 노드로 분석하여 단일 테이블 행으로 병합합니다.</li>
 <li>개체 이름을 "data"로 지정하거나 최상위 수준에 두지 않고 JSON에서 배열 개체를 선택하고 사용합니다.</li>
 </ul>
 <p><strong>주의:</strong> 고객은 워크플로우에서 모든 베타 외부 API 활동을 <strong>GA 외부 API 활동으로</strong> 대체해야 합니다.  외부 API의 베타 버전을 사용하는 워크플로우는 20.3에서 작동하지 않습니다.</p>
@@ -69,15 +71,13 @@ ht-degree: 0%
 </tbody> 
 </table>
 
->[!NOTE]
->
->CNAME 하위 도메인에 대한 인증서 갱신은 5월에 캠페인 제어판에서 릴리스됩니다. 자세한 내용은 [제어판 릴리스 노트를 참조하십시오](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **새 제어판 CNAME 하위 도메인에 대한 인증서 갱신과 함께 릴리스** 할 수 있습니다. 제어판 [릴리스 노트를 참조하십시오](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **향상된 기능**
 
 * [접두사] **필드에서 대상 프로필을** 사용하여 메시지를 [테스트하기 위해 사용할 수 있는 문자 수가 32자에서 500자로 늘었습니다](../../sending/using/testing-messages-using-target.md) .
 * 인스턴스에 게시할 수 있는 최대 실시간 이벤트 수가 350개에서 2000개로 증가했습니다. (CAMP-41608)
-* syncWithLaunch 기술 워크플로우를 사용하여 Adobe Launch와 Campaign Standard 간의 동기화가 향상되었습니다. 이 워크플로우를 사용하면 모든 Adobe Launch 모바일 속성을 Adobe Campaign Standard로 자동으로 가져올 수 있습니다. 자세한 내용은 [이 페이지를 참조하십시오](../../administration/using/technical-workflows.md).
+* syncWithLaunch 기술 워크플로우를 사용하여 Adobe Launch와 Campaign Standard 간의 동기화가 향상되었습니다. 이 워크플로우에서는 모든 Adobe Launch 모바일 속성을 Adobe Campaign Standard으로 자동 가져올 수 있습니다. 자세한 내용은 [이 페이지를 참조하십시오](../../administration/using/technical-workflows.md).
 
    Adobe 고객 지원 센터(직접 또는 Adobe 담당자를 통해)에 티켓을 제출하여 Campaign 인스턴스에서 syncWithLaunch 기술 워크플로우를 활성화해야 합니다. (CAMP-40082)
 
@@ -100,9 +100,9 @@ ht-degree: 0%
 * 다국어 이메일에 대한 기본 언어 목록에 ES-US 언어가 추가되었습니다. (CAMP-42279)
 * 이제 전송 파일 활동으로 다운로드한 파일은 X일 후 삭제되며, 여기서 X는 워크플로우 속성의 **실행** 메뉴 아래에 있는 일 단위 **필드로** 결정됩니다. [자세한 내용](../../automating/using/managing-execution-options.md)
 
-**경험 플랫폼 통합**
+**Experience Platform 통합**
 
-* 더 나은 성능과 안정성을 제공하기 위해 [고객](../../automating/using/aep-targeting-audiences.md) 읽기 활동에서 Adobe Experience Platform 대상을 **** 활성화했습니다. 또한 워크플로우 로그가 정품 인증 작업에 대해 더욱 명확하고 자세히 설명되어 Adobe Experience Platform 고객을 읽을 때 보다 손쉽게 모니터링하고 문제를 해결할 수 있습니다.
+* 대상 [](../../automating/using/aep-targeting-audiences.md) 읽기 **** 활동에서 Adobe Experience Platform 대상을 활성화하면 더 나은 성능과 안정성을 제공할 수 있습니다. 또한 워크플로우 로그가 정품 인증 작업에 대해 더욱 명확하고 자세히 설명되어 Adobe Experience Platform 대상을 읽을 때 보다 손쉽게 모니터링하고 문제를 해결할 수 있습니다.
 
 **패치**
 
