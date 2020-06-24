@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
+source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 93%
+source-wordcount: '199'
+ht-degree: 91%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 93%
 
 ## 새로운 기능
 
-* &#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. [자세한 내용](rn/using/documentation-updates.md)
-
 * **[개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오
+
+* **[외부 API](automating/using/external-api.md)**<br/>외부 API 활동을 사용하여 외부 시스템의 워크플로우로 데이터를 가져옵니다
 
 * **[Campaign Standard Mobile 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)**<br/>
 모바일 게재와 관련된 일반적인 지침에 대해 자세히 알아보십시오
