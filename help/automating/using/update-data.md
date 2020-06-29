@@ -13,10 +13,10 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 0%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
@@ -31,7 +31,12 @@ ht-degree: 0%
 
 ## 사용 상황 {#context-of-use}
 
-파일을 가져온 후 **데이터** 업데이트 활동을 사용하여 복구된 데이터를 Adobe Campaign 데이터베이스에 삽입할 수 있습니다. 데이터 업데이트를 개인화할 수 있는 몇 가지 옵션을 제공합니다.
+파일을 가져온 후 **데이터** 업데이트 작업을 사용하여 복구된 데이터를 Adobe Campaign 데이터베이스에 삽입할 수 있습니다. 데이터 업데이트를 개인화할 수 있는 몇 가지 옵션을 제공합니다.
+
+**관련 항목:**
+
+* [사용 사례: 파일을 기반으로 데이터 업데이트](../../automating/using/update-database-file.md)
+* [자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
 
 ## 구성 {#configuration}
 
@@ -71,29 +76,3 @@ ht-degree: 0%
    선택한 데이터 **[!UICONTROL Insert only]** 가 데이터베이스에 이미 있는 레코드를 포함할 수 있는 경우, 발생 가능한 오류를 방지하려면 **[!UICONTROL Generate an outbound transition for the rejects]** 확인란을 선택하십시오.
 
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.
-
-## 예 {#example}
-
-다음 활동은 활동 **[!UICONTROL Update data]** 이후의 활동 구성을 **[!UICONTROL Load file]** 보여줍니다. 이 워크플로우의 목적은 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 것입니다. 사용되는 조정 키는 이메일 주소입니다.
-
-로드된 파일은 다음 예제 데이터가 포함된 **.txt** 형식 파일입니다.
-
-```
-lastname;firstname;email;birthdate
-jackman;megan;megan.jackman@testmail.com;07/08/1975
-phillips;edward;phillips@testmail.com;09/03/1986
-weaver;justin;justin_w@testmail.com;11/15/1990
-martin;babeth;babeth_martin@testmail.net;11/25/1964
-reese;richard;rreese@testmail.com;02/08/1987
-cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-grimes;daryl;daryl_890@testmail.com;12/06/1979
-tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-```
-
-이 **[!UICONTROL Update data]** 활동은 다음과 같이 구성됩니다.
-
-![](assets/deduplication_example2_writer1.png)
-
-![](assets/deduplication_example2_writer2.png)
-
