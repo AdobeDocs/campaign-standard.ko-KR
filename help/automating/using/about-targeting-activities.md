@@ -12,10 +12,10 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 4%
+source-wordcount: '434'
+ht-degree: 6%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 4%
 * [중복 제거](../../automating/using/deduplication.md)
 * [강화](../../automating/using/enrichment.md)
 
-**[!UICONTROL Targeting]** 활동을 통해 아웃바운드 전환의 **세그먼트 코드를** 정의할 수 있습니다. 그런 다음 마케팅 캠페인의 효율성을 측정하기 위해 이러한 세그먼트 코드를 기반으로 보고서를 만들 수 있습니다. For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Targeting]** 활동을 통해 아웃바운드 전환의 **세그먼트 코드를** 정의할 수 있습니다. 그런 다음 마케팅 캠페인의 효율성을 측정하기 위해 이러한 세그먼트 코드를 기반으로 보고서를 만들 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/creating-a-report-workflow-segment.md)을 참조하십시오.
 
 ## 데이터 선택 {#selecting-data}
 
@@ -70,9 +70,6 @@ Adobe Campaign을 사용하면 인바운드 데이터에 대한 설정을 처리
 * 집계
 * 컬렉션
 
-**관련 항목**
+**관련 항목:**
 
-* [사용 사례: 일주일에 한 번 이메일 전달 만들기](../../automating/using/workflow-weekly-offer.md)
-* [사용 사례: 위치에 세그먼트화된 배달 만들기](../../automating/using/workflow-segmentation-location.md)
-* [사용 사례: 보충으로 배달 만들기](../../automating/using/workflow-created-query-with-complement.md)
-* [사용 사례: 따개가 아닌 사람에게 새 배달을 보내는 다시 타깃팅 워크플로우](../../automating/using/workflow-cross-channel-retargeting.md)
+* [사용 사례: 추가 데이터를 사용하여 이메일 개인화](../../automating/using/personalizing-email-with-additional-data.md)
