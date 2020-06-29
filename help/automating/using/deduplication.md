@@ -13,9 +13,9 @@ context-tags: dedup,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,11 @@ ht-degree: 0%
 따라서 데이터 중복 제거는 인바운드 전환이 하나만 있는 것이 좋습니다. 이를 위해 조합 활동, 교차 활동 등과 같은 타깃팅 요구 사항에 해당하는 활동을 사용하여 서로 다른 쿼리를 결합할 수 있습니다. 예:
 
 ![](assets/dedup_bonnepratique.png)
+
+**관련 항목**
+
+* [사용 사례: 배달 전 중복 항목 식별](../../automating/using/identifying-duplicated-before-delivery.md)
+* [사용 사례: 가져온 파일에서 데이터 중복 제거](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 구성 {#configuration}
 
@@ -79,72 +84,3 @@ ht-degree: 0%
 
 1. 필요한 경우 활동의 전환 [을](../../automating/using/activity-properties.md) 관리하여 아웃바운드 모형에 대한 고급 옵션에 액세스합니다.
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.
-
-## 예 1: 배달 전 중복 항목 식별 {#example-1--identifying-duplicates-before-a-delivery}
-
-다음 예에서는 이메일을 보내기 전에 대상의 중복 제거를 제외할 수 있는 데이터 중복 제거를 보여 줍니다. 즉, 동일한 프로필에 여러 번 통신을 보내지 않습니다.
-
-워크플로우는 다음과 같이 구성됩니다.
-
-![](assets/deduplication_example_workflow.png)
-
-* 이메일 대상을 정의할 수 **[!UICONTROL Query]** 있는 도구입니다. 여기서 워크플로우는 1년 이상 클라이언트 데이터베이스에 있었던 18세에서 25세 사이의 모든 프로필을 대상으로 합니다.
-
-   ![](assets/deduplication_example_query.png)
-
-* 이전 **[!UICONTROL Deduplication]** 쿼리에서 얻은 중복을 식별할 수 있는 활동입니다. 이 예에서는 각 복제에 대해 하나의 레코드만 저장됩니다. 중복된 항목은 이메일 주소를 사용하여 식별됩니다. 즉, 각 이메일 주소가 타깃팅에 표시되도록 한 번만 이메일 배달을 보낼 수 있습니다.
-
-   선택한 데이터 중복 제거 방법입니다 **[!UICONTROL Non-empty value]**. 이 기능을 사용하면 중복 레코드 중에서 **이름이** 제공된 레코드에 우선 순위가 지정되도록 할 수 있습니다. 이메일 컨텐츠의 개인화 필드에 이름을 사용하는 경우 더욱 일관됩니다.
-
-   또한 중복 항목을 유지하고 나열할 수 있도록 추가 전환이 추가됩니다.
-
-   ![](assets/deduplication_example_dedup.png)
-
-* 데이터 중복 제거의 기본 아웃바운드 전환 이후 **[!UICONTROL Email delivery]** 가져옵니다. 이메일 전달에 대한 구성은 [이메일 배달](../../automating/using/email-delivery.md) 섹션에 자세히 설명되어 있습니다.
-* 중복 제거 추가 전환 후 중복된 항목을 중복 대상에 저장하기 위해 **[!UICONTROL Save audience]** 추가된 **** 활동입니다. 이 대상자는 모든 이메일 배달에서 구성원을 직접 제외하는 데 재사용할 수 있습니다.
-
-## 예 2: 가져온 파일에서 데이터 중복 제거 {#example-2--deduplicating-the-data-from-an-imported-file}
-
-이 예에서는 데이터를 데이터베이스에 로드하기 전에 가져온 파일에서 데이터를 중복 제거하는 방법을 보여 줍니다. 이 절차는 데이터베이스에 로드된 데이터의 품질을 향상시킵니다.
-
-워크플로우는 다음과 같이 구성됩니다.
-
-![](assets/deduplication_example2_workflow.png)
-
-* 프로필 목록이 포함된 파일은 **[!UICONTROL Load file]** 활동을 사용하여 가져옵니다. 이 예제에서 가져온 파일은 .csv 형식이며 10개의 프로필을 포함합니다.
-
-   ```
-   lastname;firstname;dateofbirth;email
-   Smith;Hayden;23/05/1989;hayden.smith@example.com
-   Mars;Daniel;17/11/1987;dannymars@example.com
-   Smith;Clara;08/02/1989;hayden.smith@example.com
-   Durance;Allison;15/12/1978;allison.durance@example.com
-   Lucassen;Jody;28/03/1988;jody.lucassen@example.com
-   Binder;Tom;19/01/1982;tombinder@example.com
-   Binder;Tommy;19/01/1915;tombinder@example.com
-   Connor;Jade;10/10/1979;connor.jade@example.com
-   Mack;Clarke;02/03/1985;clarke.mack@example.com
-   Ross;Timothy;04/07/1986;timross@example.com
-   ```
-
-   이 파일을 샘플 파일로 사용하여 열 형식을 감지하고 정의할 수도 있습니다. 탭에서 **[!UICONTROL Column definition]** 가져온 파일의 각 열이 올바르게 구성되어 있는지 확인합니다.
-
-   ![](assets/deduplication_example2_fileloading.png)
-
-* 활동 **[!UICONTROL Deduplication]** . 데이터 중복 제거는 파일을 가져온 후 데이터베이스에 데이터를 삽입하기 전에 직접 수행됩니다. 그러므로 그것은 활동으로부터 **[!UICONTROL Temporary resource]** 를 기준으로 **[!UICONTROL Load file]** 해야 합니다.
-
-   이 예에서는 파일에 포함된 고유한 이메일 주소당 하나의 항목을 보관하려고 합니다. 따라서 임시 리소스의 **이메일** 열에 중복 식별이 수행됩니다. 그러나 파일에 두 개의 이메일 주소가 나타납니다. 따라서 두 줄은 중복으로 간주됩니다.
-
-   ![](assets/deduplication_example2_dedup.png)
-
-* 데이터 **[!UICONTROL Update data]** 중복 제거 프로세스에서 유지된 데이터를 데이터베이스에 삽입할 수 있습니다. 가져온 데이터가 프로필 차원에 속하는 것으로 식별되는 경우에만 데이터가 업데이트됩니다.
-
-   데이터베이스에 아직 존재하지 않는 프로필 **[!UICONTROL Insert only]** 을 만듭니다. 이 작업을 수행하려면 프로필 **차원의 이메일** 필드 및 이메일 필드를 조정 키로 사용합니다.
-
-   ![](assets/deduplication_example2_writer1.png)
-
-   데이터를 삽입할 파일의 열과 탭의 데이터베이스 필드 간의 매핑을 **[!UICONTROL Fields to update]** 지정합니다.
-
-   ![](assets/deduplication_example2_writer2.png)
-
-그런 다음 워크플로우를 시작합니다. 데이터 중복 제거 프로세스에서 저장된 레코드가 데이터베이스의 프로파일에 추가됩니다.
