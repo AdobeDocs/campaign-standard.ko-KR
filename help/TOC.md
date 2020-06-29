@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 91%
+source-wordcount: '1524'
+ht-degree: 83%
 
 ---
 
@@ -105,7 +105,6 @@ ht-degree: 91%
       + [DM 만들기](channels/using/creating-the-direct-mail.md)
       + [DM 대상자 정의](channels/using/defining-the-direct-mail-audience.md)
       + [DM 콘텐츠 정의](channels/using/defining-the-direct-mail-content.md)
-      + [워크플로우 속 DM 사례](channels/using/example-of-direct-mail-in-a-workflow.md)
    + 트랜잭션 메시지 {#transactional-messaging}
       + [트랜잭션 메시지 기본 정보](channels/using/about-transactional-messaging.md)
       + [이벤트 트랜잭션 메시지](channels/using/event-transactional-messages.md)
@@ -305,14 +304,38 @@ ht-degree: 91%
       + [패키지 관리](automating/using/managing-packages.md)
       + [목록 내보내기](automating/using/exporting-lists.md)
       + [사용 사례: 사용자 정의 리소스 내보내기/가져오기](automating/using/exporting-importing-custom-resources.md)
-   + 사용 사례: 워크플로우 {#workflow-use-case}
-      + [보충 자료를 넣어 게재](automating/using/workflow-created-query-with-complement.md)
-      + [날짜에 맞춰 게재](automating/using/workflow-creation-date-query.md)
-      + [주간 게재](automating/using/workflow-weekly-offer.md)
-      + [위치에 세분화 만들기](automating/using/workflow-segmentation-location.md)
-      + [열지 않은 사용자 재타겟팅](automating/using/workflow-cross-channel-retargeting.md)
-      + [컨트롤 그룹 만들기](automating/using/workflow-control-group.md)
-      + [채널 간 게재 만들기](automating/using/workflow-cross-channel-delivery.md)
+   + 사용 사례 {#workflow-use-case}
+      + 배달 {#deliveries}
+         + [보충 자료를 넣어 게재](automating/using/workflow-created-query-with-complement.md)
+         + [프로필 생성 날짜에 배달 만들기](automating/using/workflow-creation-date-query.md)
+         + [주간 게재](automating/using/workflow-weekly-offer.md)
+         + [채널 간 게재 만들기](automating/using/workflow-cross-channel-delivery.md)
+         + [배달 전 중복 항목 식별](automating/using/identifying-duplicated-before-delivery.md)
+         + [생일 배달](automating/using/birthday-delivery.md)
+         + [이메일 및 DM 전달 연결](automating/using/coupling-email-direct-mail.md)
+         + [풍부한 필드가 포함된 이메일 보내기](automating/using/sending-email-enriched-fields.md)
+         + [추가 데이터를 사용하여 이메일 개인화](automating/using/personalizing-email-with-additional-data.md)
+      + 세분화 및 타겟팅 {#segmentation-targeting}
+         + [쿼리 샘플](automating/using/query-samples.md)
+         + [세련된 두 고객을 위한 결합](automating/using/union-on-two-refined-audiences.md)
+         + [위치에 세분화 만들기](automating/using/workflow-segmentation-location.md)
+         + [열지 않은 사용자 재타겟팅](automating/using/workflow-cross-channel-retargeting.md)
+         + [서비스 가입자에 대한 증분 쿼리](automating/using/incremental-query-on-subscribers.md)
+         + [연령 그룹에 따른 세분화](automating/using/segmentation-age-groups.md)
+         + [타깃팅 차원과 다른 리소스 사용](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [컨트롤 그룹 만들기](automating/using/workflow-control-group.md)
+      + 데이터 관리 {#data-management}
+         + [데이터베이스와 파일 대상 조정](automating/using/reconcile-file-audience-with-database.md)
+         + [가져온 파일에서 데이터 중복 제거](automating/using/deduplicating-data-imported-file.md)
+         + [파일에 포함된 데이터로 프로필 데이터 강화](automating/using/enriching-profile-data-file.md)
+         + [외부 신호 활동 및 데이터 가져오기](automating/using/external-signal-data-import.md)
+         + [외부 데이터로 데이터베이스 업데이트](automating/using/update-database-file.md)
+         + [자동 파일 다운로드를 기반으로 데이터 업데이트](automating/using/update-data-automatic-download.md)
+         + [관계를 사용한 데이터 조정](automating/using/reconciliation-using-relations.md)
+         + [조정을 사용한 데이터 업데이트](automating/using/data-update-reconciliation.md)
+         + [외부 파일에서 프로필 내보내기](automating/using/exporting-profiles-in-file.md)
+         + [파일에서 여러 구독 상태 업데이트](automating/using/updating-subscriptions-from-file.md)
+         + [파일에서 특정 서비스에 프로필 가입](automating/using/subscribing-profiles-from-file.md)
    + Adobe Experience Platform 대상자를 사용한 작업 {#working-with-aep-audiences}
       + [Adobe Experience Platform 대상자 타겟팅](automating/using/aep-targeting-audiences.md)
       + [Adobe Experience Platform 특성을 사용하여 캠페인 개인화](automating/using/aep-personalizing-campaigns.md)
