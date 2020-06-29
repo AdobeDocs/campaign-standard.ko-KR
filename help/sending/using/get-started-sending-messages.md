@@ -12,9 +12,9 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 9%
 
 ---
@@ -43,7 +43,7 @@ Campaign Standard **메시지 준비** 기능은 대상, 개인화 및 메시지
 
 **다양한 기능을 사용하여 메시지 미리 보기 및 테스트** : 교정을 보내 프로파일 또는 태그된 프로파일을 테스트하고, 이메일의 주제 라인을 테스트하며, 메시지 렌더링을 확인하여 다양한 웹 클라이언트, 웹 메일 및 디바이스에서 최적의 방식으로 표시되도록 할 수 있습니다.
 
-Campaign 예약 기능을 활용하여 메시지가 언제 전송될지 정의할 수 있습니다. 예를 들어, 수신자의 시간대에서 전송을 조정하고, 전송 시간을 최적화하거나, 전송 날짜를 계산할 수 있습니다.
+Campaign 예약 기능을 활용하여 메시지가 전송될 시기를 정의합니다. 예를 들어, 수신자의 시간대에서 전송을 조정하고, 전송 시간을 최적화하거나, 전송 날짜를 계산할 수 있습니다.
 
 유형 **을 사용하여 준비** 동안 메시지가 유효한지, 피로, 제어 및 타깃팅 규칙을 통해 품질 기준을 충족하는지 확인합니다. 예를 들어 이메일에 항상 제목 줄이 포함되어 있는지 확인하거나 메시지 받는 사람 중에서 구독하지 않은 사람을 제외합니다.
 
@@ -98,3 +98,4 @@ Campaign Standard은 배달된 메시지의 수를 향상시키는 데 도움이
 * [이메일 전달 및 보고서 검토(비디오)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [이메일 시작하기](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 * [전달 모범 사례](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
+* [사용 사례: 컨트롤 그룹 만들기](../../automating/using/workflow-control-group.md)
