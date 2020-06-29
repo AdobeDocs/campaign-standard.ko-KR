@@ -13,10 +13,10 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
+source-wordcount: '377'
+ht-degree: 1%
 
 ---
 
@@ -37,6 +37,10 @@ ht-degree: 0%
 
 이 **[!UICONTROL Union]** 활동은 세그멘테이션을 수행하거나 대상을 정의하거나 메시지 대상을 준비하는 경우 인바운드 전환에서 모집단을 결합하는 데 사용됩니다.
 
+**관련 항목:**
+
+* [사용 사례: 세련된 두 고객을 위한 결합](../../automating/using/union-on-two-refined-audiences.md)
+
 ## 구성 {#configuration}
 
 1. 활동을 워크플로우로 드래그하여 **[!UICONTROL Union]** 놓습니다.
@@ -55,6 +59,6 @@ ht-degree: 0%
 
 ## 예 {#example}
 
-다음 예에서는 18세에서 27세 사이의 Adobe Campaign 데이터베이스와 34세에서 40세 사이의 프로필을 재그룹화하는 것을 목표로 하는 두 개의 쿼리 활동 결과를 보여 줍니다. 결과에는 구성 중에 지정된 대로 두 쿼리의 모든 프로필 또는 해당되는 경우 최대 레코드 수가 포함됩니다.
+다음 예에서는 18세에서 27세 사이의 Adobe Campaign 데이터베이스와 34세에서 40세 사이의 프로파일을 재그룹화하는 두 개의 쿼리 활동 결과를 보여 줍니다. 결과에는 구성 중에 지정된 대로 두 쿼리의 모든 프로필 또는 해당되는 경우 최대 레코드 수가 포함됩니다.
 
 ![](assets/wkf_union_example.png)
