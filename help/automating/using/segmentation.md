@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,24 @@ ht-degree: 0%
 
 ![](assets/segmentation.png)
 
-이 **[!UICONTROL Segmentation]** 활동을 사용하면 워크플로우에서 이전에 배치한 활동에 의해 계산된 모집단 중에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다. 활동이 끝나면 단일 전환 또는 다른 전환 효과에서 처리할 수 있습니다.
+이 **[!UICONTROL Segmentation]** 활동을 사용하면 워크플로우에서 이전에 배치된 활동에 의해 계산된 모집단 중에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다. 활동이 끝나면 단일 전환 또는 다른 전환 효과에서 처리할 수 있습니다.
 
 >[!NOTE]
 >
 >기본적으로 인바운드 인구의 구성원은 하나의 세그먼트에만 속할 수 있습니다. 필터는 활동에서 세그먼트의 순서에 따라 적용됩니다.
 
+**관련 항목:**
+* [사용 사례: 위치 세분화](../../automating/using/workflow-segmentation-location.md)
+* [사용 사례: 컨트롤 그룹 만들기](../../automating/using/workflow-control-group.md)
+* [사용 사례: 연령 그룹에 따른 세분화](../../automating/using/segmentation-age-groups.md)
+
 ## 사용 상황 {#context-of-use}
 
 일반적으로 **[!UICONTROL Segmentation]** 활동은 타깃팅 활동(쿼리, 교차, 결합, 제외 등) 후에 배치됩니다. 세그먼트를 구성하는 기준으로 표준 모집단 정의
+
+**관련 항목**
+
+* [사용 사례: 연령 그룹에 따라 프로필 세그먼트화](../../automating/using/segmentation-age-groups.md).
 
 ## 구성 {#configuration}
 
@@ -91,31 +100,6 @@ ht-degree: 0%
 
    * 인바운드 인구의 구성원이 동시에 여러 세그먼트에 포함되도록 하려면 **[!UICONTROL Enable overlapping of outbound populations]** 옵션을 선택합니다. 활동의 아웃바운드 인구가 인바운드 인구를 초과할 수 있습니다.
    * 인바운드 모집단 **[!UICONTROL Concatenate the code of each segment]** 에 보관하려는 세그먼트 코드가 이미 할당된 경우 옵션을 선택합니다. 활동에 지정된 세그먼트 코드가 초기 세그먼트 코드에 추가됩니다.
-   * 나머지 인구를 이용하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다.
+   * 나머지 인구를 이용하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. 사용 [사례 참조: 보충으로 배달](../../automating/using/workflow-created-query-with-complement.md)생성
 
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.
-
-## 예 {#example}
-
-다음 예에서는 해당 연령 그룹에 따라 데이터베이스 프로필의 세그먼테이션을 보여줍니다. 워크플로우의 목표는 각 연령 그룹에 대해 특정 이메일을 보내는 것입니다. 이 워크플로가 테스트 캠페인의 일부라는 사실을 고려할 때, 제한적이고 동시에 대표적인 대상을 사용하기 위해 각 세그먼트는 임의로 선택된 최대 100개의 프로필만 포함할 수 있습니다.
-
-![](assets/wkf_segment_example_4.png)
-
-워크플로우는 다음 요소로 구성됩니다.
-
-* 워크플로우의 실행 날짜를 지정하는 **[!UICONTROL Scheduler]** 활동입니다. 스케줄러 [섹션을](../../automating/using/scheduler.md) 참조하십시오.
-* 생일 및 이메일 주소를 입력한 사람의 프로필을 타깃팅하는 **[!UICONTROL Query]** 활동입니다. 쿼리 [섹션을](../../automating/using/query.md) 참조하십시오.
-* 3개의 세그먼트를 다른 아웃바운드 전환으로 나눈 **[!UICONTROL Segmentation]** 활동: 18-25세, 26-32세, 그리고 32세 이상 된 프로파일. 세그먼트는 다음 매개 변수에 따라 정의됩니다.
-
-   ![](assets/wkf_segment_example_3.png)
-
-   * 세그먼트의 연령 그룹을 정의하는 페이지의 필터
-
-      ![](assets/wkf_segment_new_segment.png)
-
-   * 100 **[!UICONTROL Random sampling]** 으로 연결된 **[!UICONTROL Maximum size]** 형식 제한
-
-      ![](assets/wkf_segment_example_1.png)
-
-* 세그먼트당 **[!UICONTROL Email delivery]** 활동. 이메일 [배달](../../automating/using/email-delivery.md) 섹션을 참조하십시오.
-
