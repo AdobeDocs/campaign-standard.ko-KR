@@ -13,9 +13,9 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,14 @@ ht-degree: 0%
 이메일 수신자는 쿼리, 교차로 등과 같은 타깃팅 활동을 통해 동일한 워크플로우에서 활동의 업스트림으로 정의됩니다.
 
 메시지 준비는 워크플로우 실행 매개 변수에 따라 트리거됩니다. 메시지 대시보드에서 메시지를 보낼 수동 확인을 요청할지 여부를 선택할 수 있습니다(기본적으로 필요). 워크플로우를 수동으로 시작하거나 워크플로우에 스케줄러 활동을 배치하여 실행을 자동화할 수 있습니다.
+
+**관련 항목:**
+
+* [사용 사례: 일주일에 한 번 이메일 전달 만들기](../../automating/using/workflow-weekly-offer.md)
+* [사용 사례: 위치에 세그먼트화된 배달 만들기](../../automating/using/workflow-segmentation-location.md)
+* [사용 사례: 보충으로 배달 만들기](../../automating/using/workflow-created-query-with-complement.md)
+* [사용 사례: 따개가 아닌 사람에게 새 배달을 보내는 다시 타깃팅 워크플로우](../../automating/using/workflow-cross-channel-retargeting.md)
+* [사용 사례: 생일 배달](../../automating/using/birthday-delivery.md)
 
 ## 구성 {#configuration}
 
@@ -91,28 +99,3 @@ ht-degree: 0%
 마케팅 활동 목록에서 또는 관련 반복 실행을 통해 직접 액세스할 수 있는 상위 배달에서 처리된 총 전송 수를 볼 수 있습니다(활동이 구성되었을 때 지정된 집계 기간에 따라). **[!UICONTROL Email delivery]** 이렇게 하려면 상위 배달 블록의 세부 사항 보기를 선택하여 **[!UICONTROL Deployment]** 엽니다 ![](assets/wkf_dlv_detail_button.png).
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## 예 {#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-이 예제는 생일 워크플로우입니다. 매일 이메일이 그 날 생일을 맞는 프로필로 전송됩니다. 이렇게 하려면:
-
-* 이 **[!UICONTROL Scheduler]** 를 사용하면 매일 오전 8시에 워크플로우를 시작할 수 있습니다.
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* 이 **[!UICONTROL Query]** 활동을 통해 워크플로우를 실행할 때마다 이메일을 제공한 사람 및 이메일 생일이 현재 날짜인 프로필을 계산할 수 있습니다. 생일 계산은 쿼리 편집 도구의 팔레트에서 사용할 수 있는 사전 정의된 필터를 사용하여 수행됩니다.
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* 그 **[!UICONTROL Email]** 는 되풀이되고 있다. 센드는 월별로 집계됩니다. 따라서 한 달에 전송된 모든 이메일은 하나의 뷰로 집계됩니다. 따라서 1년 동안 365개 배달이 실행되지만 Adobe Campaign 인터페이스에서 12개의 보기( **반복 실행**)로 다시 그룹화됩니다. 내역 및 보고서 세부 사항은 매번 전송되지 않고 매월 표시됩니다.
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**관련 항목**
-
-* [사용 사례: 일주일에 한 번 이메일 전달 만들기](../../automating/using/workflow-weekly-offer.md)
-* [사용 사례: 위치에 세그먼트화된 배달 만들기](../../automating/using/workflow-segmentation-location.md)
-* [사용 사례: 보충으로 배달 만들기](../../automating/using/workflow-created-query-with-complement.md)
-* [사용 사례: 따개가 아닌 사람에게 새 배달을 보내는 다시 타깃팅 워크플로우](../../automating/using/workflow-cross-channel-retargeting.md)
