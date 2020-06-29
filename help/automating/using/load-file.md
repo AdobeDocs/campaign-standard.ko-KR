@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1341'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,13 @@ ht-degree: 0%
 
 * 파일 구조를 사용하여 다른 파일의 데이터에 적용(활동을 사용하여 복구) 또는, **[!UICONTROL Transfer file]**
 * 파일의 구조와 데이터를 사용하여 Adobe Campaign으로 가져옵니다.
+
+**관련 항목:**
+
+* [사용 사례: 외부 데이터로 데이터베이스 업데이트](../../automating/using/update-database-file.md)
+* [사용 사례: 자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
+* [사용 사례: 풍부한 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
+* [사용 사례: 데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 구성 {#configuration}
 
@@ -157,75 +164,3 @@ ht-degree: 0%
    * **[!UICONTROL Generate an error for numerical fields]**: 숫자 필드에 대해서만 오류를 생성하고, 그렇지 않으면 NULL 값을 삽입합니다.
    * **[!UICONTROL Insert NULL in the corresponding field]**: 빈 값을 허용합니다. 따라서 NULL 값이 삽입됩니다.
    * **[!UICONTROL Generate an error]**: 값이 비어 있는 경우 오류를 생성합니다.
-
-## 예 1: 데이터베이스 업데이트 {#example-1-update-the-database}
-
-로드 파일 활동은 주로 기존 데이터에 통합하기 위해 전송 파일 활동의 데이터를 구성합니다.
-
-다음 예제는 전송 파일 활동을 통해 자동으로 다운로드된 로드 파일 활동, 업데이트 데이터 활동의 결과를 보여줍니다. 이 워크플로우는 Adobe Campaign 데이터베이스를 새로운 프로파일로 보완하거나 가져온 파일에서 복구한 데이터를 사용하여 기존 프로파일을 업데이트하는 것을 목표로 합니다.
-
-![](assets/load_file_workflow_ex1.png)
-
-1. 작업을 워크플로우로 드래그하여 놓고 원하는 파일을 복구할 수 있도록 **[!UICONTROL Transfer file]** 구성합니다.
-1. 활동을 워크플로우로 드래그하여 놓고 활동 뒤에 **[!UICONTROL Load file]** **[!UICONTROL Transfer file]** 놓습니다.
-1. 활동을 선택한 다음 나타나는 빠른 작업의 ![](assets/edit_darkgrey-24px.png) 단추를 사용하여 활동을 엽니다.
-1. 탭 **[!UICONTROL File to load]** 의 **[!UICONTROL Execution]** 섹션에서 **[!UICONTROL Use the file specified in the inbound transition]** 옵션을 선택합니다.
-
-   ![](assets/wkf_file_loading8.png)
-
-1. 활동을 앞에서 지정한 대로 구성합니다.
-1. 활동을 워크플로에 끌어다 놓고 활동 뒤에 **[!UICONTROL Update data]** **[!UICONTROL Load file]** 놓은 다음 구성합니다. 데이터 [업데이트를 참조하십시오](../../automating/using/update-data.md).
-
-워크플로우가 시작되면 업로드된 파일의 데이터가 추출된 다음 Adobe Campaign 데이터베이스를 보완하는 데 사용됩니다.
-
-## 예 2: 풍부한 필드가 포함된 이메일 보내기 {#example-2-email-with-enriched-fields}
-
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
-
-또한 파일 로드 작업을 사용하면 동일한 워크플로우에서 외부 파일의 추가 데이터가 포함된 이메일을 보낼 수 있습니다.
-
-아래 예제는 파일 로드 작업을 통해 외부 파일에서 검색된 추가 데이터를 사용하여 이메일을 전송하는 방법을 보여줍니다. 이 예에서 외부 파일에는 관련 계정 번호와 함께 프로파일 목록이 들어 있습니다. 이 데이터를 가져와서 계정 번호와 함께 각 프로필에 이메일을 보내려는 경우
-
-![](assets/load_file_workflow_ex2.png)
-
-1. 작업을 워크플로우로 드래그하여 놓고 열어서 기본 대상을 정의합니다. **[!UICONTROL Query]**
-
-   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
-
-1. 활동을 드래그 앤 드롭하여 일부 데이터를 프로필에 할당합니다. **[!UICONTROL Load file]** 이 예에서는 데이터베이스의 일부 프로필에 해당하는 계정 번호가 포함된 파일을 로드합니다.
-
-   ![](assets/load_file_activity.png)
-
-1. 작업을 워크플로우로 드래그하여 놓고 로드 파일 및 쿼리 활동을 **[!UICONTROL Enrichment]** 워크플로우에 연결합니다.
-
-1. 농축활동 **[!UICONTROL Advanced relations]** 탭에서 조정을 위해 사용할 필드를 **[!UICONTROL 0 or 1 cardinality simple link]** 선택하고 정의합니다. 여기에서 마지막으로 이름을 사용하여 데이터를 데이터베이스 프로필과 조정합니다.
-
-   ![](assets/load_file_enrichment_relation.png)
-
-1. 탭에서 **[!UICONTROL Additional data]** 이메일에 사용할 요소를 선택합니다. 여기에서 계정 번호(로드 파일 활동을 통해 검색한 파일의 열)를 선택합니다.
-
-   ![](assets/load_file_enrichment_select_element.png)
-
-   <!--![](assets/load_file_enrichment_additional_data.png)-->
-
-   자세한 내용은 [데이터 연계](../../automating/using/enrichment.md) 섹션을 참조하십시오.
-
-1. 활동을 워크플로우로 드래그하여 놓고 **[!UICONTROL Segmentation]** 열어서 기본 타겟을 세분화합니다.
-
-   ![](assets/load_file_segmentation.png)
-
-   자세한 내용은 세그멘테이션 [섹션을](../../automating/using/segmentation.md) 참조하십시오.
-
-1. 활동을 워크플로우로 드래그하여 놓고 **[!UICONTROL Email delivery]** 엽니다.
-
-   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
-
-1. 개인화 필드를 추가하고 노드에서 농축활동(계정 번호)에 정의된 추가 데이터를 **[!UICONTROL Additional data (targetData)]** 선택합니다. 이를 통해 이메일 컨텐츠에 있는 각 프로필의 계정 번호를 동적으로 검색할 수 있습니다.
-
-   ![](assets/load_file_perso_field.png)
-
-1. 이메일을 저장하고 워크플로우를 시작합니다.
-
-이메일이 타겟으로 전송됩니다. 각 프로필은 해당 계정 번호와 함께 이메일을 수신합니다.
-
-![](assets/load_file_email.png)
