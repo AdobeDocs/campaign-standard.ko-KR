@@ -12,7 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 14%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
 </table>
 
 Adobe Campaign을 사용하면 모든 채널에서 캠페인을 실행, 측정 및 자동화할 수 있습니다.
-모든 마케팅 채널을 통합하는 것은 불가능한 일이 아닙니다. Adobe Campaign을 사용하면 다양한 시스템, 디바이스 및 채널의 고객 데이터를 하나의 프로파일에 가져올 수 있습니다. 고객 여정 전반에서 적합한 장소와 방법으로 고객을 만족시켜 주는 연관성 있는 캠페인을 적시에 전달할 수 있습니다.
+모든 마케팅 채널을 통합하는 것은 불가능한 일이 아닙니다. Adobe Campaign의 도움으로 다양한 시스템, 디바이스 및 채널의 고객 데이터를 하나의 프로파일에 가져올 수 있습니다. 고객 여정 전반에서 적합한 장소와 방법으로 고객을 만족시켜 주는 연관성 있는 캠페인을 적시에 전달할 수 있습니다.
 
 ## 전반적 개념 {#global-concepts}
 
@@ -50,7 +53,7 @@ Adobe Campaign을 사용하면 모든 채널에서 캠페인을 실행, 측정 �
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Adobe Campaign에서 5개의 커뮤니케이션 채널** 이용 가능: 이메일, SMS 메시지, 푸시 알림, 인앱 메시지 및 DM(Direct Mail)
+**Adobe Campaign에서 5개의 통신 채널** 사용 가능: 이메일, SMS 메시지, 푸시 알림, 인앱 메시지 및 DM(Direct Mail)
 
 각 채널에 대해 특정 기능을 사용할 수 있습니다. 예를 들어 이메일 채널을 사용하면 최대 3개의 버전의 이메일 메시지를 테스트하기 위해 A/B 테스트를 수행할 수 있습니다. SMS 채널을 통해 SMS 메시지를 관리하고 수신자로부터 받은 SMS를 데이터베이스에 저장할 수 있습니다.
 
@@ -95,7 +98,7 @@ Campaign에는 고객 **정보를**&#x200B;캡처하고, 서비스에 가입을 
 * [랜딩 페이지 양식 데이터 관리](../../channels/using/managing-landing-page-form-data.md)
 * [이중 옵트인 프로세스 설정](../../channels/using/setting-up-a-double-opt-in-process.md)
 
-## 추가 리소스
+## 추가 자료
 
 * [전달 능력 최적화](../../sending/using/about-deliverability.md)
 * [전달 모범 사례](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
@@ -103,3 +106,4 @@ Campaign에는 고객 **정보를**&#x200B;캡처하고, 서비스에 가입을 
 * [AEM 컨텐츠 가져오기](../../integrating/using/creating-email-experience-manager.md)
 * [워크플로우로 메시지 보내기](../../automating/using/about-channel-activities.md)
 * [통신 채널 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [사용 사례: 크로스채널 전달 만들기](../../automating/using/workflow-cross-channel-delivery.md)
