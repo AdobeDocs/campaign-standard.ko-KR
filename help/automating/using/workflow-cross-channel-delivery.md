@@ -1,6 +1,6 @@
 ---
-title: '"워크플로우 사용 사례: 크로스채널 전달"'
-description: '"워크플로우 사용 사례: 크로스채널 전달"'
+title: 크로스채널 전달
+description: 이 사용 사례에서는 크로스채널 배달을 만드는 방법을 보여줍니다
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '862'
+ht-degree: 1%
 
 ---
 
 
-# 워크플로우 사용 사례: 크로스채널 전달 만들기{#cross-channel-delivery}
+# 채널 간 게재 만들기{#cross-channel-delivery}
 
 이 문서에서는 표준 사용 사례를 통해 다음과 같은 Adobe Campaign 기능을 검색할 수 있습니다. 크로스 채널 전달 워크플로우 만들기
 
@@ -51,7 +54,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 워크플로우에 쿼리 활동을 삽입하여 배달을 받을 프로파일을 타깃팅합니다.
 
-1. > **[!UICONTROL Activities]** 에서 **[!UICONTROL Targeting]**&#x200B;끌어다 놓습니다 **[!UICONTROL Query activity]**.
+1. > **[!UICONTROL Activities]** 에서 **[!UICONTROL Targeting]**&#x200B;쿼리 활동을 끌어다 [놓습니다](../../automating/using/query.md) .
 1. 활동을 두 번 클릭합니다.
 1. 탭에서 **[!UICONTROL Target]** 단축키를 탐색하고 대상자 중 하나를 [선택합니다](../../audiences/using/about-audiences.md).
 1. 단축키를 드래그하여 편집 영역으로 놓습니다. 선택한 단축키 유형에 따라 창이 나타납니다.
@@ -63,13 +66,11 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 이 **[!UICONTROL Count]** 단추를 사용하여 쿼리를 기준으로 타깃팅된 프로필 수를 예측할 수 있습니다.
 
-쿼리 활동을 만드는 자세한 단계는 [쿼리 섹션에](../../automating/using/query.md) 표시됩니다.
-
 ## 세그멘테이션 활동 만들기 {#creating-segmentation-activity}
 
 쿼리 활동에서 타겟을 식별한 후에는 대상을 두 개의 다른 모집단으로 세그먼트화하는 기준을 선택해야 합니다. 한 사람은 이메일을 받고 다른 한 사람은 문자 메시지를 받게 된다.
 
-쿼리의 업스트림 모집단에서 하나 이상의 세그먼트를 만들려면 세그멘테이션 활동을 사용해야 합니다.
+쿼리의 업스트림 [에서 계산된](../../automating/using/segmentation.md) 모집단에서 하나 또는 여러 세그먼트를 만들려면 세그멘테이션 활동을 사용해야 합니다.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -114,19 +115,17 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ![](assets/wkf_segment_transitions.png)
 
-세그멘테이션 활동을 빌드하는 자세한 단계는 [세그멘테이션 섹션에](../../automating/using/segmentation.md) 설명되어 있습니다.
-
 ## 배달 만들기 {#creating-deliveries}
 
-두 개의 전환이 이미 생성되었으므로 이제 두 가지 유형의 전달을 세그멘테이션 활동의 아웃바운드 전환에 추가해야 합니다. an and **[!UICONTROL Email delivery]** an **[!UICONTROL SMS delivery]**.
+두 개의 전환이 이미 생성되었으므로 이제 두 가지 유형의 전달을 세그멘테이션 활동의 아웃바운드 전환에 추가해야 합니다. 이메일 [배달](../../automating/using/email-delivery.md) 활동 및 [SMS 배달](../../automating/using/sms-delivery.md) 활동
 
-Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습니다. 이렇게 하려면 워크플로우 활동 팔레트의 **[!UICONTROL Channels]** 범주에서 배달을 선택합니다.
+Adobe Campaign을 사용하면 워크플로우에 배달을 추가할 수 있습니다. 이렇게 하려면 워크플로우 활동 팔레트의 **[!UICONTROL Channels]** 범주에서 배달을 선택합니다.
 
 ![](assets/wkf_segment_deliveries1.png)
 
 이메일 배달을 만들려면
 
-1. 첫 번째 세그먼트 **[!UICONTROL Email delivery]** 뒤에 표를 드래그하여 놓습니다.
+1. 첫 번째 세그먼트 뒤에 [이메일 배달](../../automating/using/email-delivery.md) 활동을 드래그하여 놓습니다.
 1. 활동을 두 번 클릭하여 편집합니다.
 1. 선택합니다 **[!UICONTROL Simple email]**.
 1. 을 선택하고 **[!UICONTROL Add an outbound transition with the population]** 클릭합니다 **[!UICONTROL Next]**.
@@ -141,18 +140,14 @@ Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습
 1. 컨텐츠를 편집하고 저장할 수 있습니다.
 1. 메시지 대시보드 **[!UICONTROL Schedule]** 섹션에서 메시지를 보내기 전에 **[!UICONTROL 요청 확인]을 선택 취소합니다** .
 
-이메일 활동을 만드는 자세한 단계는 [이메일 배달](../../automating/using/email-delivery.md) 섹션에 나와 있습니다.
-
 SMS 배달을 만들려면
 
-1. 다른 세그먼트 **[!UICONTROL SMS delivery]** 다음에 끌어다 놓습니다.
+1. 다른 세그먼트 뒤에 [SMS 배달](../../automating/using/sms-delivery.md) 활동을 드래그하여 놓습니다.
 1. 활동을 두 번 클릭하여 편집합니다.
 1. 을 선택하고 **[!UICONTROL SMS]** 클릭합니다 **[!UICONTROL Next]**.
 1. SMS 템플릿을 선택하고 을 클릭합니다 **[!UICONTROL Next]**.
 1. SMS 속성을 입력하고 을 클릭합니다 **[!UICONTROL Next]**.
 1. 컨텐츠를 편집하고 저장할 수 있습니다.
-
-SMS 활동을 만드는 자세한 단계는 [SMS 전달](../../automating/using/sms-delivery.md) 섹션에 나와 있습니다.
 
 게재를 만들고 편집한 후에는 워크플로우를 시작할 준비가 되었습니다.
 
@@ -160,7 +155,7 @@ SMS 활동을 만드는 자세한 단계는 [SMS 전달](../../automating/using/
 
 ## 워크플로우 실행 {#running-the-workflow}
 
-워크플로우가 시작되면, 쿼리 활동의 타깃팅된 모집단 세그먼트화하여 이메일 또는 SMS 배달을 수신하게 됩니다.
+워크플로우가 시작되면 **[!UICONTROL Query]** 활동의 타깃팅된 모집단 세그먼트화되어 이메일 또는 SMS 전달이 수신됩니다.
 
 워크플로우를 실행하려면 작업 표시줄에서 **[!UICONTROL Start]** 단추를 클릭합니다.
 
