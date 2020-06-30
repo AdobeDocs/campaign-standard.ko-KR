@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
+source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
 workflow-type: tm+mt
-source-wordcount: '5941'
+source-wordcount: '5954'
 ht-degree: 9%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 9%
 Adobe Campaign 릴리스 노트 [와](../../rn/using/release-notes.md)함께 이 페이지에는 Adobe Campaign Standard 설명서의 새로운 모든 업데이트가 나열됩니다.
 
 ## 설명서 업데이트 - 2020년 6월 {#doc-updates-june-2020}
+
+워크플로우 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../automating/using/about-workflow-use-cases.md)
 
 제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화하고](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) [해독하는](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 방법에 사용 사례가 추가되었습니다.
 
