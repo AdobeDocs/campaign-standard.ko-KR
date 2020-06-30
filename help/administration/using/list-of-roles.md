@@ -13,9 +13,9 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c65cce2168219b3cd8cbd6704bdd0b6f3f55e3e6
+source-git-commit: 395791e69d0c4c8a888829539338e338387294de
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '203'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 여기에 대한 자세한 내용은 선택한 인증에 따라 인터페이스에서 사용할 수 있는 기능에 대한 [세부 정보를 제공하는 역할 및 권한 테이블을](/help/administration/using/assets/acs_rights.pdf)참조하십시오.
 
-[![image](assets/user_management_3.png](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![이미지](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
 역할은 **[!UICONTROL Administration > Users & Security > Roles]** 메뉴에서 관리할 수 있습니다.
 
