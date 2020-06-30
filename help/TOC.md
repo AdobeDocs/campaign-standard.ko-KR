@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1528'
 ht-degree: 83%
 
 ---
@@ -305,6 +305,7 @@ ht-degree: 83%
       + [목록 내보내기](automating/using/exporting-lists.md)
       + [사용 사례: 사용자 정의 리소스 내보내기/가져오기](automating/using/exporting-importing-custom-resources.md)
    + 사용 사례 {#workflow-use-case}
+      + [워크플로우 사용 사례 정보](automating/using/about-workflow-use-cases.md)
       + 배달 {#deliveries}
          + [보충 자료를 넣어 게재](automating/using/workflow-created-query-with-complement.md)
          + [프로필 생성 날짜에 배달 만들기](automating/using/workflow-creation-date-query.md)
