@@ -12,9 +12,9 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
+source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '938'
 ht-degree: 1%
 
 ---
@@ -50,12 +50,15 @@ ht-degree: 1%
 
 이 경우 제어판에서 생성된 키를 사용하여 외부 시스템에서 암호화된 데이터를 가져오기 위한 워크플로우를 구축할 예정입니다.
 
+GPG 키를 사용하여 데이터를 해독하는 방법을 보여주는 자습서 비디오도 [이 섹션에 있습니다](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html).
+
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
 1. 제어판을 사용하여 키 쌍(공개/비공개)을 생성합니다. 자세한 단계는 [제어판 설명서에서 확인할 수 있습니다](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * 공개 키는 Campaign으로 전송할 데이터를 암호화하는 데 사용하는 외부 시스템과 공유됩니다.
    * Campaign에서 들어오는 암호화된 데이터의 암호를 해독하는 데 개인 키가 사용됩니다.
+
    ![](assets/gpg_generate.png)
 
 1. 외부 시스템에서 제어판에서 다운로드한 공개 키를 사용하여 Campaign Standard으로 가져올 데이터를 암호화합니다.
@@ -92,6 +95,8 @@ ht-degree: 1%
 ## 사용 사례: 제어판에 설치된 키를 사용하여 데이터 암호화 및 내보내기 {#use-case-gpg-encrypt}
 
 이러한 경우 제어판에 설치된 키를 사용하여 데이터를 암호화하고 내보낼 수 있는 워크플로우를 구축할 예정입니다.
+
+GPG 키를 사용하여 데이터를 암호화하는 방법을 보여주는 자습서 비디오도 [이 섹션에서 사용할 수 있습니다](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html).
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
