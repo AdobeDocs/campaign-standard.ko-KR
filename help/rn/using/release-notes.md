@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 0%
   <td> <p>외부 <strong>API</strong> 활동이 베타에서 GA로 전환되고 있습니다. 이 릴리스는 JSON 응답 본문 구문 분석기에 추가적인 유연성을 제공합니다. 이제 다음을 수행할 수 있습니다.</p>
 <ul>
 <li>최대 깊이가 10인 중첩된 JSON을 구문 분석합니다. </li>
-<li>선택한 속성을 JSON의 리프 노드로 구문 분석하고 단일 테이블 행으로 병합합니다.</li>
+<li>선택한 속성을 JSON의 리프 노드로 분석하여 단일 테이블 행으로 병합합니다.</li>
 <li>개체 이름을 "data"로 지정하거나 최상위 수준에 두지 않고 JSON에서 배열 개체를 선택하고 사용합니다.</li>
 </ul>
 <p><strong>주의:</strong> 고객은 워크플로우에서 모든 베타 외부 API 활동을 <strong>GA 외부 API 활동으로</strong> 대체해야 합니다.  외부 API의 베타 버전을 사용하는 워크플로우는 20.3에서 작동하지 않습니다.</p>
@@ -71,7 +71,10 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **새 제어판 CNAME 하위 도메인에 대한 인증서 갱신과 함께 릴리스** 할 수 있습니다. [자세한](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)내용
+**추가 기능** (7월 13일부터 시작)
+
+* **AI 기반의 전송 시간 최적화 및 프로필 점수** - 이제 고객 여정의 디자인과 전달을 최적화하여 각 개인의 참여 선호도를 예측할 수 있습니다. 고객 여정 AI를 기반으로 하는 Adobe Campaign은 과거 참여 지표를 기반으로 개방 비율, 최적의 전송 시간, 예측 가능한 이탈을 분석하고 예측할 수 있습니다. [자세한 내용](../../sending/using/predictive.md)
+* **브라질의 새로운 개인 정보 보호 규정** - Adobe는 Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 대한 준비를 용이하게 하는 데 도움이 됩니다. 개인 정보 보호 요청을 만들 때 LGPD 규정이 Adobe 개인 정보 보호 코어 서비스에 추가되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
 
 **향상된 기능**
 
@@ -123,3 +126,6 @@ ht-degree: 0%
 * 트랜잭션 이메일에서 개인화를 사용할 때 데이터 불일치가 발생하는 문제를 수정했습니다. (CAMP-41842)
 * 푸시 알림 배달에서 사용자 지정 필드를 삭제할 때 발생하는 문제가 해결되었습니다. (CAMP-37586)
 * 사용자가 보고서를 변경할 수 없는 오류를 수정했습니다. (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **새 제어판 CNAME 하위 도메인에 대한 인증서 갱신과 함께 릴리스** 할 수 있습니다. [자세한](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)내용
