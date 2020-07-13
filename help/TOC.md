@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1530'
 ht-degree: 83%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 83%
       + [교정본 보내기](sending/using/sending-proofs.md)
       + [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
       + [이메일의 제목란 테스트](sending/using/testing-subject-line-email.md)
+      + [AI 기반의 이메일](sending/using/predictive.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
       + [트랩 사용](sending/using/using-traps.md)
    + 메시지 예약 {#scheduling-messages}
