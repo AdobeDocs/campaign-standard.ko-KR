@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 # 2019년 릴리스 정보{#release-notes-2019}
 
-[릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html) | [제어판 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [최신 릴리스 노트](../../rn/using/release-notes.md) | [사용되지 않는 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
+[릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html) | [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [최신 릴리스 노트](../../rn/using/release-notes.md) | [사용되지 않는 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Release 19.4 - December 2019 {#release-19-4---october-2019}
 
@@ -237,7 +237,7 @@ ht-degree: 3%
 * 강력한 바운스 이메일 주소를 격리하지 못하는 오류를 해결했습니다. (CAMP-24587)
 * 유형 분류 규칙을 추가한 다음 유형을 저장하기 전에 삭제하는 경우 발생하는 문제를 수정했습니다. (CAMP-32789)
 * 동적 컨텐츠를 비활성화할 때 랜딩 페이지 컨텐츠가 표시되지 않는 문제를 해결했습니다. (CAMP-32924)
-* 마스터 게재 속성에서 개인화를 사용할 때 발생하는 반복 게재 문제가 해결되었습니다. (CAMP-32983)
+* 기본 게재 속성에서 개인화를 사용할 때 발생하던 반복 게재 문제가 수정되었습니다. (CAMP-32983)
 * 들어오는 SMS 메시지 데이터가 포함된 전환에서 결과를 읽지 못하는 워크플로우의 문제가 해결되었습니다. (CAMP-33134)
 * 포크와 제외 활동을 결합하여 대상을 만들 때 발생하는 워크플로우의 문제를 수정했습니다. (CAMP-33401)
 * 미러 페이지 컨텐츠가 표시되지 않고 반복 게재에 대해 증명 메시지가 전송되지 않는 문제를 해결했습니다. (CAMP-33413)
@@ -617,7 +617,7 @@ ht-degree: 3%
 * 쿼리 편집기에서 브로드로그와 rtEvent에 대한 추적 로그 간의 연결 조건이 있는 문제를 해결했습니다. (CAMP-28780)
 * &quot;특정 작업&quot; 랜딩 페이지 옵션에 대한 수정 내용이 저장되지 않는 문제를 해결했습니다. (CAMP-29422)
 * 워크플로우에서 이벤트의 페이로드를 내보낼 수 없는 문제를 수정했습니다. (CAMP-29029)
-* 블록 목록의 SMS 번호가 SMS 메시지에서 제외되지 않는 문제를 해결했습니다. (CAMP-28898)
+* 차단 목록의 SMS 번호가 SMS 메시지에서 제외되지 않는 문제를 해결했습니다. (CAMP-28898)
 * 수신 메시지를 처리하는 동안 오류가 발생하는 경우 SMPP 공급자에 대한 알림을 받지 못하게 하는 문제가 해결되었습니다. (CAMP-29804)
 * 연결된 배달이 있는 외부 계정을 삭제할 수 있었던 문제를 수정했습니다. (CAMP-29738)
 * The sending throughput has been improved and stansued for SMS messages.
