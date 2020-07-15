@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->보안상의 이유로 JSSP의 사용은 캠페인 표준에서 지원되지 않습니다. 코드를 실행해야 하는 경우 외부 API 활동을 통해 Adobe I/O 런타임 인스턴스를 호출할 수 있습니다.
+>보안상의 이유로 JSSP의 사용은 Campaign Standard에서 지원되지 않습니다. 코드를 실행해야 하는 경우 외부 API 활동을 통해 Adobe I/O 런타임 인스턴스를 호출할 수 있습니다.
 
 이 활동의 주요 특징은 다음과 같습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ### 베타에서 GA로 전환 {#from-beta-to-ga}
 
-Campaign Standard 20.3 릴리스에서는 외부 API 기능이 제어 베타를 GA(일반 가용성)로 이동했습니다.
+Campaign Standard 20.3 릴리스에서 외부 API 기능은 Control Beta를 GA(General Availability)로 이동했습니다.
 
 >[!CAUTION]
 >
@@ -56,10 +56,10 @@ Campaign Standard 20.3 릴리스에서는 외부 API 기능이 제어 베타를 
 
 ### 제한 및 보장 {#guardrails}
 
-이 활동에는 다음과 같은 보증인이 배치되었다.
+이 활동에는 다음과 같은 보증인이 적용됩니다.
 
-* 50MB HTTP 응답 데이터 크기 제한
-* 요청 제한 시간은 10분입니다.
+* 5MB HTTP 응답 데이터 크기 제한
+* 요청 시간 초과는 1분입니다.
 * HTTP 리디렉션이 허용되지 않음
 * HTTPS가 아닌 URL이 거부됨
 * &quot;수락: application/json&quot; 요청 헤더 및 &quot;Content-Type: application/json&quot; 응답 헤더가 허용됩니다.
@@ -121,7 +121,7 @@ JSON 구문 분석기는 몇 가지 예외를 제외하고 표준 JSON 구조 �
 
 분리 확인란(기본값: 선택 안 함)은 JSON을 키/값 맵으로 병합할지 여부를 나타내기 위해 제공됩니다.
 
-* 이 **확인란을 선택 취소하지** 않으면 샘플 JSON을 구문 분석하여 배열 개체를 찾습니다. 사용자는 Adobe Campaign에서 사용자가 사용하려는 배열을 정확하게 파악할 수 있도록 트리밍된 버전의 API 응답 샘플 JSON 포맷을 제공해야 합니다. 워크플로우 작성 시, 중첩된 배열 개체의 경로가 결정 및 기록되므로 실행 시 API 호출에서 수신되는 JSON 응답 본문에서 해당 배열 개체에 액세스하는 데 사용할 수 있습니다.
+* 이 **확인란을 선택 취소하지** 않으면 샘플 JSON을 구문 분석하여 배열 개체를 찾습니다. 사용자는 Adobe Campaign이 사용자가 사용하고자 하는 배열을 정확하게 결정할 수 있도록 트리밍된 버전의 API 응답 샘플 JSON 포맷을 제공해야 합니다. 워크플로우 작성 시, 중첩된 배열 개체의 경로가 결정 및 기록되므로 실행 시 API 호출에서 수신되는 JSON 응답 본문에서 해당 배열 개체에 액세스하는 데 사용할 수 있습니다.
 
 * 이 **확인란을 활성화** (선택 사항)하면 샘플 JSON이 분리되고 제공된 샘플 JSON에 지정된 모든 속성이 출력 임시 테이블의 열을 만드는 데 사용되고 열 정의 탭에 표시됩니다. 샘플 JSON에 배열 개체가 있으면 해당 배열 개체의 모든 요소도 분리됩니다.
 
@@ -145,7 +145,7 @@ JSON 구문 분석기는 몇 가지 예외를 제외하고 표준 JSON 구조 �
 >
 >이 탭은 [아웃바운드 매핑] 탭에서 **응답 데이터 형식** 을 완료하고 검증한 경우에 나타납니다.
 
-열 정의 **** 탭을 사용하면 오류가 없는 데이터를 가져와서 향후 작업을 위해 Adobe Campaign 데이터베이스에 이미 있는 유형과 일치하도록 하기 위해 각 열의 데이터 구조를 정확하게 지정할 수 있습니다.
+열 정의 **탭을 사용하면 오류가 없는 데이터를 가져와서 Adobe Campaign 데이터베이스에 이미 있는 유형과 일치시켜 향후 작업을 수행할 수 있도록 각 열의 데이터 구조를 정확하게 지정할** 수 있습니다.
 
 ![](assets/externalAPI-column.png)
 
