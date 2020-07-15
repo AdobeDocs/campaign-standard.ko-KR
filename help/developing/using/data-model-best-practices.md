@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -23,12 +23,12 @@ ht-degree: 0%
 
 # 데이터 모델 모범 사례{#data-model-best-practices}
 
-이 문서에서는 Adobe Campaign 데이터 모델을 디자인하는 동안 주요 권장 사항에 대해 간략하게 설명합니다.
+이 문서는 Adobe Campaign 데이터 모델을 디자인하는 동안 주요 권장 사항에 대해 설명합니다.
 
 
 >[!NOTE]
 >
->사전 정의된 데이터 모델을 확장하기 위해 리소스를 만들고 수정하려면 [이 섹션을 참조하십시오](../../developing/using/key-steps-to-add-a-resource.md).
+>미리 정의된 데이터 모델을 확장하기 위해 리소스를 생성하고 수정하려면 [이 섹션을 참조하십시오](../../developing/using/key-steps-to-add-a-resource.md).
 >
 >이 페이지에서 기본 제공 리소스의 데이터 모델 표현을 찾을 수 [있습니다](../../developing/using/datamodel-introduction.md).
 
@@ -40,35 +40,35 @@ Adobe Campaign 시스템은 매우 유연하며 초기 구현 이상으로 확�
 
 ## 데이터 모델 아키텍처 {#data-model-architecture}
 
-Adobe Campaign Standard는 강력한 크로스채널 캠페인 관리 시스템으로 온라인과 오프라인 전략을 연계하여 개인화된 고객 경험을 제공할 수 있습니다.
+Adobe Campaign Standard은 개인화된 고객 경험을 제공하기 위해 온라인 및 오프라인 전략을 연계할 수 있는 강력한 크로스채널 캠페인 관리 시스템입니다.
 
 ### 고객 중심의 접근 방식 {#customer-centric-approach}
 
-대부분의 이메일 서비스 제공업체는 목록 중심의 접근 방식을 통해 고객과 커뮤니케이션하고 있지만 Adobe Campaign은 관계형 데이터베이스를 사용하여 고객과 고객의 속성을 보다 광범위하게 파악합니다.
+대부분의 이메일 서비스 제공업체는 목록 중심의 접근 방식을 통해 고객과 커뮤니케이션하고 있지만 Adobe Campaign은 고객과 고객의 속성을 보다 광범위하게 파악하기 위해 관계형 데이터베이스에 의존합니다.
 
 이 고객 중심의 접근 방법은 아래 차트에 나와 있습니다. 회색 **프로필** 리소스는 모든 것이 빌드되고 있는 주 고객 테이블을 나타냅니다.
 
 ![](assets/customer-centric-data-model.png)
 
-Adobe Campaign 기본 데이터 모델은 이 [섹션에 제공됩니다](../../developing/using/datamodel-introduction.md).
+Adobe Campaign 기본 데이터 모델이 이 [섹션에 표시됩니다](../../developing/using/datamodel-introduction.md).
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
 <!--### What is a customer? {#customer-definition}
 
-If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the master record. This master record should be the one sent to Adobe Campaign.
+If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a master customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
 
-### Adobe Campaign용 데이터 {#data-for-campaign}
+### Adobe Campaign 데이터 {#data-for-campaign}
 
-Adobe Campaign으로 전송할 데이터는 무엇입니까? 마케팅 활동에 필요한 데이터를 결정하는 것은 매우 중요합니다.
+어떤 데이터를 Adobe Campaign으로 전송해야 합니까? 마케팅 활동에 필요한 데이터를 결정하는 것은 매우 중요합니다.
 
 >[!NOTE]
 >
->Adobe Campaign은 데이터 웨어하우스가 아닙니다. 따라서 모든 가능한 고객 및 관련 정보를 Adobe Campaign으로 가져오려고 하지 마십시오.
+>Adobe Campaign은 data warehouse이 아닙니다. 따라서 모든 가능한 고객과 관련 정보를 Adobe Campaign으로 가져오려고 하지 마십시오.
 
 Adobe Campaign에서 속성이 필요한지 여부를 결정하려면 속성이 다음 카테고리 중 하나에 해당하는지 여부를 결정합니다.
 * 세그멘테이션에 사용되는 **속성**
@@ -76,13 +76,13 @@ Adobe Campaign에서 속성이 필요한지 여부를 결정하려면 속성이 
 * 개인화에 사용되는 **속성**
 * 보고에 사용되는 **속성** (사용자 지정 프로필 데이터를 기반으로 보고서를 만들 수 있음)
 
-이러한 속성에 해당되지 않는 경우 Adobe Campaign에서 이 속성이 필요하지 않을 가능성이 높습니다.
+이러한 속성 중 하나에 해당되지 않을 경우 Adobe Campaign에서 이 속성이 필요하지 않을 가능성이 높습니다.
 
 ### 데이터 유형 {#data-types}
 
 시스템의 우수한 아키텍처와 성능을 유지하려면 아래 모범 사례를 따라 Adobe Campaign에서 데이터를 설정하십시오.
-* 문자열 필드의 길이는 항상 열로 정의되어야 합니다. 기본적으로 Adobe Campaign의 최대 길이는 255자입니다. 그러나 크기가 짧은 길이를 초과하지 않을 것을 이미 알고 있는 경우 필드를 짧게 유지하는 것이 좋습니다.
-* 소스 시스템의 크기가 과대평가되어 도달하지 않을 것으로 확신하는 경우 Adobe Campaign의 필드가 소스 시스템보다 작으면 됩니다. 이는 Adobe Campaign에서 더 짧은 문자열 또는 더 작은 정수를 의미할 수 있습니다.
+* 문자열 필드의 길이는 항상 열로 정의되어야 합니다. 기본적으로 Adobe Campaign의 최대 길이는 255자입니다. 그러나 크기가 더 짧은 길이를 초과하지 않을 것을 이미 알고 있는 경우 필드를 짧게 유지하는 것이 좋습니다.
+* 소스 시스템의 크기가 과대평가되어 도달하지 않을 것으로 확신하는 경우 Adobe Campaign에서 소스 시스템보다 짧은 필드가 있을 수 있습니다. 이는 Adobe Campaign에서 더 짧은 문자열 또는 더 작은 정수를 의미할 수 있습니다.
 
 ## 데이터 구조 구성 {#configuring-data-structure}
 
@@ -100,14 +100,14 @@ Adobe Campaign 리소스에는 세 개의 식별자가 있으며 추가 식별�
 
 | 표시 이름 | 기술명 | 설명 | 권장사항 |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey는 Adobe Campaign 테이블의 실제 기본 키입니다.</li><li>이 식별자는 일반적으로 특정 Adobe Campaign 인스턴스에 고유합니다.</li><li>Adobe Campaign Standard에서 이 값은 최종 사용자(URL 제외)에게 표시되지 않습니다.</li></ul> | <ul><li>API 시스템 [](../../api/using/get-started-apis.md)을 통해 PKey 값(실제 키가 아닌 생성/해시된 값)을 검색할 수 있습니다.</li><li>API를 통해 레코드를 검색, 업데이트 또는 삭제하는 것 외에는 사용하지 않는 것이 좋습니다.</li></ul> |
-| ID | name 또는 internalName | <ul><li>이 정보는 테이블에 있는 레코드의 고유 식별자입니다. 이 값은 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 다른 Adobe Campaign 인스턴스에 배포할 때 값을 유지합니다. 패키지를 통해 내보낼 수 있는 생성된 값과 이름이 달라야 합니다.</li><li>테이블의 실제 기본 키가 아닙니다.</li></ul> | <ul><li>공백 &quot;&quot;, 세미열 &quot;:&quot; 또는 하이픈 &quot;-&quot;과 같은 특수 문자는 사용하지 마십시오.</li><li>이러한 모든 문자는 밑줄 &quot;_&quot;(허용되는 문자)로 대체됩니다. 예를 들어 &quot;abc-def&quot; 및 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로를 덮어씁니다.</li></ul> |
+|  | PKey | <ul><li>PKey는 Adobe Campaign 테이블의 물리적 기본 키입니다.</li><li>이 식별자는 일반적으로 특정 Adobe Campaign 인스턴스에 고유합니다.</li><li>Adobe Campaign Standard에서 이 값은 최종 사용자에게 표시되지 않습니다(URL에서는 제외).</li></ul> | <ul><li>API 시스템 [](../../api/using/get-started-apis.md)을 통해 PKey 값(실제 키가 아닌 생성/해시된 값)을 검색할 수 있습니다.</li><li>API를 통해 레코드를 검색, 업데이트 또는 삭제하는 것 외에는 사용하지 않는 것이 좋습니다.</li></ul> |
+| ID | name 또는 internalName | <ul><li>이 정보는 테이블에 있는 레코드의 고유 식별자입니다. 이 값은 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 다른 Adobe Campaign 인스턴스에 배포할 때 해당 값을 유지합니다. 패키지를 통해 내보낼 수 있는 생성된 값과 이름이 달라야 합니다.</li><li>테이블의 실제 기본 키가 아닙니다.</li></ul> | <ul><li>공백 &quot;&quot;, 세미열 &quot;:&quot; 또는 하이픈 &quot;-&quot;과 같은 특수 문자는 사용하지 마십시오.</li><li>이러한 모든 문자는 밑줄 &quot;_&quot;(허용되는 문자)로 대체됩니다. 예를 들어 &quot;abc-def&quot; 및 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로를 덮어씁니다.</li></ul> |
 | 레이블 | label | <ul><li>레이블은 Adobe Campaign에서 개체 또는 레코드의 비즈니스 식별자입니다.</li><li>이 개체는 공백과 특수 문자를 허용합니다.</li><li>그렇다고 기록의 고유성을 보장하지는 않는다.</li></ul> | <ul><li>개체 레이블의 구조를 결정하는 것이 좋습니다.</li><li>Adobe Campaign 사용자의 레코드 또는 개체를 식별하기 위한 가장 사용자 친화적인 솔루션입니다.</li></ul> |
-| ACS ID | acsId | <ul><li>추가 식별자를 생성할 수 있습니다. ACS [ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Adobe Campaign 사용자 인터페이스에서 PKey를 사용할 수 없으므로 프로필 레코드를 삽입하는 동안 생성된 고유한 값을 가져오는 솔루션입니다.</li><li>이 값은 레코드가 Adobe Campaign에 삽입되기 전에 리소스에서 옵션이 활성화된 경우에만 자동으로 생성할 수 있습니다.</li></ul> | <ul><li>이 UUID를 조정 키로 사용할 수 있습니다.</li><li>자동 생성된 ACS ID는 워크플로우 또는 패키지 정의에서 참조로 사용할 수 없습니다.</li><li>이 값은 Adobe Campaign 인스턴스에만 적용됩니다.</li></ul> |
+| ACS ID | acsId | <ul><li>추가 식별자를 생성할 수 있습니다. ACS [ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Adobe Campaign 사용자 인터페이스에서는 PKey를 사용할 수 없으므로 프로필 레코드를 삽입하는 동안 생성된 고유한 값을 가져오는 솔루션입니다.</li><li>레코드가 Adobe Campaign에 삽입되기 전에 리소스에서 옵션을 활성화한 경우에만 값이 자동으로 생성됩니다.</li></ul> | <ul><li>이 UUID를 조정 키로 사용할 수 있습니다.</li><li>자동 생성된 ACS ID는 워크플로우 또는 패키지 정의에서 참조로 사용할 수 없습니다.</li><li>이 값은 Adobe Campaign 인스턴스에만 적용됩니다.</li></ul> |
 
 ### 식별 키 {#keys}
 
-Adobe Campaign에서 만든 각 리소스에는 하나 이상의 고유한 [ID 키가 있어야 합니다](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+Adobe Campaign에서 만들어진 각 리소스에는 하나 이상의 고유한 [ID 키가 있어야 합니다](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
@@ -160,7 +160,7 @@ When you are performing an initial import with very high volumes of data insert 
 * 일일 프로세스 중 하나 또는 일부가 실패하여 같은 날에 실행해야 하는 경우 시스템 성능에 영향을 줄 수 있으므로 수동 프로세스를 시작할 때 실행 중인 프로세스가 충돌하지 않도록 하십시오.
 * 가져오기 프로세스 동안 또는 수동 프로세스가 실행될 때 일일 캠페인이 실행되지 않도록 하십시오.
 * 모든 행에서 필드를 복제하는 대신 하나 또는 여러 개의 참조 테이블을 사용합니다. 키/값 쌍을 사용할 때는 숫자 키를 선택하는 것이 좋습니다.
-* 짧은 문자열을 사용할 수 있습니다. 외부 시스템에서 참조 테이블이 이미 있는 경우 동일한 항목을 다시 사용하면 Adobe Campaign과의 데이터 통합이 수월해집니다.
+* 짧은 문자열을 사용할 수 있습니다. 외부 시스템에서 참조 테이블이 이미 있는 경우 동일한 항목을 다시 사용하면 Adobe Campaign와의 데이터 통합이 수월해집니다.
 
 ### 일대다 관계 {#one-to-many-relationships}
 
