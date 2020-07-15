@@ -12,7 +12,7 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 1%
@@ -106,7 +106,7 @@ Adobe [Experience Cloud 설명서를](https://docs.adobe.com/content/help/en/cor
 
 다음은 캠페인 - 트리거 통합 사용에 대한 우수 사례 및 제한 사항의 목록입니다.
 
-* Campaign Standard의 인스턴스가 여러 개 있는 경우 트리거가 동일한 IMS 조직 ID에 있는 한 모든 인스턴스에서 수신될 수 있습니다. Analytics은 동일한 IMS 조직 ID여야 합니다.
+* Campaign Standard 인스턴스가 여러 개 있는 경우 트리거가 동일한 IMS 조직 ID에 있는 한 모든 인스턴스에서 수신될 수 있습니다. Analytics은 동일한 IMS 조직 ID여야 합니다.
 * 두 개의 다른 보고서 세트의 이벤트를 사용하여 트리거 코어 서비스에 트리거를 만들 수 없습니다.
 * 트리거는 트랜잭션 메시지를 기반으로 합니다. 트랜잭션 메시지는 메시지를 매우 빠르게 보내야 할 때마다 사용됩니다. 트랜잭션 메시지를 대기열에 넣은 다음 일괄적으로 루프할 수 없습니다.
 * 트리거는 자연에서 결정적이지 않다. 트리거가 생성되면 쿠키와 연관된 모든 별칭을 전송하므로 소매 키오스크, 라이브러리, 사이버 카페 또는 집에서 공유 장치(동일한 장치에서 남편과 아내가 로그인)와 같은 공유 브라우저의 경우 올바른 ID에 매핑할 수 없습니다. 브라우저로 로그인하는 데 사용되는 모든 ID가 Campaign으로 전송되어 첫 번째 조정을 기반으로 메시지를 보냅니다. 조정할 수 있는 &quot;이메일 ID&quot;가 여러 개 있는 경우 Campaign은 이메일을 보내지 않습니다. Analytics에서 캡처 및 보내지 않는 한 Campaign이 올바른 이메일 ID를 알 수 있는 방법은 없습니다.
