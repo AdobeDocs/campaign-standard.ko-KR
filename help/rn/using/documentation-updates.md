@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '5969'
-ht-degree: 9%
+source-wordcount: '6084'
+ht-degree: 10%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 9%
 # 설명서 업데이트 정보{#documentation-updates}
 
 Adobe Campaign 릴리스 노트 [와](../../rn/using/release-notes.md)함께 이 페이지에는 Adobe Campaign Standard 설명서의 새로운 모든 업데이트가 나열됩니다.
+
+## 설명서 업데이트 - 2020년 7월 {#doc-updates--july-2020}
+
+Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/monitoring-guidelines.md)
+
+개인 정보 관리 개요 페이지는 태국 개인정보 보호법(Personal Data Protection Act)(PDPA) 및 브라질 레이제랄 데 프로테카앙 데 도도스(LGPD)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+모바일 채널 가이드가 다시 구성 및 개선되었습니다. 모바일 구성에 대한 기술 설명서와 함께 모바일 채널 구성에 대한 새 안내서가 추가되었습니다. [자세한 내용](../../administration/using/push-tracking.md)
+
+개인정보 보호 핵심 서비스 통합을 통해 개인 정보 요청을 관리하는 방법에 대한 설명을 포함하여 Campaign Standard의 개인 정보 관리 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 ## 설명서 업데이트 - 2020년 7월 {#doc-updates-july-2020}
 
@@ -32,9 +42,9 @@ Adobe Campaign 릴리스 노트 [와](../../rn/using/release-notes.md)함께 이
 
 워크플로우 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../automating/using/about-workflow-use-cases.md)
 
-제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화하고](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) [해독하는](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 방법에 사용 사례가 추가되었습니다.
+Campaign 컨트롤 패널 및 캠페인 워크플로우를 사용하여 데이터를 [암호화하고](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) [해독하는](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 방법에 사용 사례가 추가되었습니다.
 
-&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;&#39; 및 &#39;허용 목록에 추가하다&#39;로 차단 목록에 추가하다 대체될 것입니다.
+&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;차단 목록&#39; 과 &#39;허용 목록으로 대체될 것입니다.
 
 기존 지원 웹 사이트에 대한 참조가 새 URL로 대체되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -198,7 +208,7 @@ Campaign Standard의 워크플로를 사용하여 컨트롤 그룹을 만드는 
 
 랜딩 페이지의 속성과 관련된 정보가 전용 섹션으로 이동되었습니다. [자세한 내용](../../channels/using/configuring-landing-page.md)
 
-Control Panel 문서는 새로운 공동 문서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
+Campaign 컨트롤 패널 문서는 새로운 공동 문서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
 지표 **계산** 테이블이 업데이트되었습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
@@ -264,7 +274,7 @@ Adobe Experience Platform SDK를 사용하여 **모바일 애플리케이션을 
 
 로그 탭에서 SQL 쿼리를 표시하는 방법에 대한 워크플로 문제 해결 섹션에 프로시저가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-제어판의 하위 도메인 및 인증서 관리와 관련된 정보가 포함된 새 도움말 문서가 추가되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+Campaign 컨트롤 패널 내의 하위 도메인 및 인증서 관리와 관련된 정보가 포함된 새 도움말 아티클이 추가되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 컨텐츠 템플릿 및 조각을 설명하는 섹션이 업데이트되었습니다. [자세한 내용](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -326,7 +336,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록이 업데이트�
 
 **릴리스에 포함된 새로운 기능**
 
-제어판 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
+Campaign 컨트롤 패널 - [자세한 내용 보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
 로컬 알림 - [자세한 내용](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -812,7 +822,7 @@ DM - [자세한 내용](../../channels/using/about-direct-mail.md)
 
 이제 새 기술 문서를 사용할 수 있습니다. &quot;모바일 앱과 Adobe Mobile SDK 통합&quot;을 참조하십시오. [자세한 내용](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-People 코어 서비스 또는 Adobe Campaign와의 Audience Manager 통합 구성 지침: get-started-communication-channels.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+사람 핵심 서비스 또는 Adobe Campaign와의 Audience Manager 통합 구성 지침이 추가되었습니다. [자세한 내용](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 인증 테이블을 수정하여 특정 역할의 기능을 더욱 명확하게 합니다. [자세한 내용](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
