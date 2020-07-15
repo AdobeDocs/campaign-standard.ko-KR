@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 83%
+source-wordcount: '1557'
+ht-degree: 82%
 
 ---
 
@@ -92,9 +92,6 @@ ht-degree: 83%
       + [다국어 푸시 알림 만들기](channels/using/creating-a-multilingual-push-notification.md)
       + [다국어 푸시 알림용 CSV 파일 생성](channels/using/generating-csv-multilingual-push.md)
       + [모바일 애플리케이션 데이터를 기반으로 프로필 정보 만들고 업데이트하기](channels/using/updating-profile-with-mobile-app-data.md)
-      + [푸시 추적 구현](channels/using/push-tracking.md)
-      + [Adobe Campaign Standard 푸시 알림의 이미지 표시](channels/using/image-push-notification.md)
-      + [Campaign Standard 푸시 알림 페이로드 구조 이해](channels/using/push-payload.md)
    + 인앱 메시지 {#in-app-messaging}
       + [인앱 메시지 기본 정보](channels/using/about-in-app-messaging.md)
       + [인앱 메시지 준비 및 보내기](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -317,6 +314,7 @@ ht-degree: 83%
          + [이메일 및 DM 전달 연결](automating/using/coupling-email-direct-mail.md)
          + [풍부한 필드가 포함된 이메일 보내기](automating/using/sending-email-enriched-fields.md)
          + [추가 데이터를 사용하여 이메일 개인화](automating/using/personalizing-email-with-additional-data.md)
+         + [반복 푸시 알림 전송](automating/using/recurring-push-notifications.md)
       + 세분화 및 타겟팅 {#segmentation-targeting}
          + [쿼리 샘플](automating/using/query-samples.md)
          + [세련된 두 고객을 위한 결합](automating/using/union-on-two-refined-audiences.md)
@@ -388,6 +386,7 @@ ht-degree: 83%
       + [API를 통한 데이터 수집 트리거](developing/using/aep-triggering-data-ingestion.md)
 + 관리 {#administrating}
    + [Campaign Standard 관리 시작하기](administration/using/get-started-campaign-administration.md)
+   + [모니터링 지침](administration/using/monitoring-guidelines.md)
    + [구성 지침](administration/using/about-configuration-guidelines.md)
    + 사용자 및 보안 {#users-and-security}
       + [액세스 관리 기본 정보](administration/using/about-access-management.md)
@@ -403,6 +402,13 @@ ht-degree: 83%
       + [SMS 채널 구성](administration/using/configuring-sms-channel.md)
       + [모바일 애플리케이션 구성](administration/using/configuring-a-mobile-application.md)
       + [트랜잭션 메시지 구성](administration/using/configuring-transactional-messaging.md)
+   + 모바일 채널 구성 {#configuring-mobile}
+      + [푸시 추적 구현](administration/using/push-tracking.md)
+      + [Adobe Campaign Standard 푸시 알림의 이미지 표시](administration/using/image-push-notification.md)
+      + [Campaign Standard 푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
+      + [로컬 알림 추적 구현](administration/using/local-tracking.md)
+      + [SyncWithLaunch 기술 워크플로우 FAQ](administration/using/syncwithlaunch-faq.md)
+      + [Adobe Experience Platform SDK 및 Adobe Campaign 통합 FAQ](administration/using/aep-faq.md)
    + 애플리케이션 설정 {#application-settings}
       + [Campaign Standard 설정 기본 정보](administration/using/about-campaign-standard-settings.md)
       + [외부 계정](administration/using/external-accounts.md)
