@@ -12,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 6%
@@ -42,7 +42,7 @@ Audience Manager(AAM) 또는 사람 핵심 서비스 통합을 통해 Adobe Camp
   </tr> 
   <tr> 
    <td> <strong>IMS 조직 ID</strong><br /> </td> 
-   <td> IMS 조직 ID. <br> Experience Cloud의 관리 메뉴에서 IMS 조직 ID를 찾을 수 있습니다. Adobe Experience Cloud에 처음 연결할 때도 제공됩니다. </td> 
+   <td> IMS 조직 ID. <br> Experience Cloud의 [관리] 메뉴에서 IMS 조직 ID를 찾을 수 있습니다. Adobe Experience Cloud에 처음 연결할 때도 제공됩니다. </td> 
   </tr> 
   <tr> 
    <td> <strong>환경:</strong><br /> </td> 
