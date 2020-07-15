@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
 workflow-type: tm+mt
-source-wordcount: '6084'
+source-wordcount: '6092'
 ht-degree: 10%
 
 ---
@@ -27,6 +27,8 @@ Adobe Campaign 릴리스 노트 [와](../../rn/using/release-notes.md)함께 이
 ## 설명서 업데이트 - 2020년 7월 {#doc-updates--july-2020}
 
 Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/monitoring-guidelines.md)
+
+외부 API 보증인이 업데이트되었습니다.[자세한 내용](../../automating/using/external-api.md)
 
 개인 정보 관리 개요 페이지는 태국 개인정보 보호법(Personal Data Protection Act)(PDPA) 및 브라질 레이제랄 데 프로테카앙 데 도도스(LGPD)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -272,7 +274,7 @@ Adobe Experience Platform SDK를 사용하여 **모바일 애플리케이션을 
 
 쿼리에 초점을 맞춘 워크플로우에 대한 사용 사례가 포함된 새로운 섹션이 추가되었습니다. [자세한 내용](../../automating/using/workflow-created-query-with-complement.md)
 
-로그 탭에서 SQL 쿼리를 표시하는 방법에 대한 워크플로 문제 해결 섹션에 프로시저가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+[로그] 탭에서 SQL 쿼리를 표시하는 방법에 대한 워크플로 문제 해결 섹션에 프로시저가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
 Campaign 컨트롤 패널 내의 하위 도메인 및 인증서 관리와 관련된 정보가 포함된 새 도움말 아티클이 추가되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
