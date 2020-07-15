@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
+source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '6089'
 ht-degree: 10%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 10%
 
 Adobe Campaign 릴리스 노트 [와](../../rn/using/release-notes.md)함께 이 페이지에는 Adobe Campaign Standard 설명서의 새로운 모든 업데이트가 나열됩니다.
 
-## 설명서 업데이트 - 2020년 7월 {#doc-updates--july-2020}
+## 설명서 업데이트 - 2020년 7월 {#doc-updates-july-2020}
 
 Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/monitoring-guidelines.md)
 
-외부 API 보증인이 업데이트되었습니다.[자세한 내용](../../automating/using/external-api.md)
+외부 API 보증인이 업데이트되었습니다. [자세한 내용](../../automating/using/external-api.md)
 
 개인 정보 관리 개요 페이지는 태국 개인정보 보호법(Personal Data Protection Act)(PDPA) 및 브라질 레이제랄 데 프로테카앙 데 도도스(LGPD)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -36,9 +36,7 @@ Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추�
 
 개인정보 보호 핵심 서비스 통합을 통해 개인 정보 요청을 관리하는 방법에 대한 설명을 포함하여 Campaign Standard의 개인 정보 관리 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-## 설명서 업데이트 - 2020년 7월 {#doc-updates-july-2020}
-
-새로운 AI 기반의 이메일 기능: 전송 시간 최적화 및 프로필 점수 [보기](../../sending/using/predictive.md)
+새로운 AI 기반의 이메일 기능: 보내기 시간 최적화 및 프로필 점수 [자세한 내용](../../sending/using/predictive.md)
 
 ## 설명서 업데이트 - 2020년 6월 {#doc-updates-june-2020}
 
