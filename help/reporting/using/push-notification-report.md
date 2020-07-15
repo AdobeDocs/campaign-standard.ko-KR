@@ -1,18 +1,21 @@
 ---
 title: 푸시 알림 보고서
-description: 즉시 사용 가능한 푸시 알림 보고서를 사용하여 푸시 알림의 성공에 대해 알아봅니다.
-page-status-flag: 활성화 안 함
+description: 즉시 사용 가능한 푸시 알림 보고서를 사용하여 푸시 알림의 성공에 대해 알아보십시오.
+page-status-flag: never-activated
 uuid: 5b121a37-1c09-4749-a409-6989978ddc4c
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보고
+audience: reporting
 content-type: reference
-topic-tags: 보고서 목록
+topic-tags: list-of-reports
 discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 1%
 
 ---
 
@@ -21,33 +24,33 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->배달 유형에 따라 데이터를 분할하기 위해 이 경우 푸시 알림 배달에서 **[!UICONTROL Message type]** 지표를 테이블로 끌어다 놓아야 합니다.
+>배달 유형에 따라 데이터를 분할하기 위해(이 경우 푸시 알림 전달의 경우) **[!UICONTROL Message type]** 지표를 테이블에 끌어다 놓아야 합니다.
 
-푸시 **알림** 보고서는 Adobe Campaign의 푸시 알림의 마케팅 성능에 대한 세부 정보를 제공합니다. 이 기본 보고서는 사용자가 푸시 알림, 모바일 애플리케이션 및 게재와 어떻게 상호작용하는지를 이해하는 데 도움이 됩니다.
+푸시 **알림** 보고서는 Adobe Campaign에서 푸시 알림의 마케팅 성능에 대한 세부 정보를 제공합니다. 이 기본 보고서는 사용자가 푸시 알림, 모바일 애플리케이션 및 게재와 어떻게 상호 작용하는지 파악하는 데 도움이 됩니다.
 
-모바일 응용 프로그램에서 푸시 추적을 구현하려면 일부 구성이 필요합니다. 자세한 단계는 이 [페이지를](https://helpx.adobe.com/campaign/kb/push-tracking.html) 참조하십시오.
+모바일 응용 프로그램에서 푸시 추적을 구현하려면 일부 구성이 필요합니다. 자세한 단계는 이 [페이지를](../../administration/using/push-tracking.md) 참조하십시오.
 
 ![](assets/dynamic_report_push.png)
 
-각 표는 요약 번호와 차트로 표시됩니다. 각 시각화 설정에 세부 정보가 표시되는 방식을 변경할 수 있습니다.
+각 표는 요약 번호와 차트로 표시됩니다. 각각의 시각화 설정에 세부 정보가 표시되는 방식을 변경할 수 있습니다.
 
-첫 번째 테이블 푸시 **알림 참여 요약이** 다음 세 가지 카테고리로 분할됩니다.일별, 모바일 앱 및 전달별 여기에는 받는 사람이 배달로 재활동할 수 있는 데이터가 포함됩니다.
+첫 번째 테이블 **푸시 알림 참여** 요약은 다음 세 가지 카테고리로 분할됩니다. 일별, 모바일 앱별 및 배달별. 여기에는 배달로 재활성화할 수 있는 데이터가 포함됩니다.
 
-* **[!UICONTROL Processed/sent]**:전송된 총 푸시 알림 수입니다.
-* **[!UICONTROL Delivered]**:전송된 총 푸시 알림 수와 관련하여 성공적으로 전송된 푸시 알림 수입니다.
-* **[!UICONTROL Impressions]**:푸시 알림이 장치에 전달되고 알림 센터에 그대로 남아 있는 횟수입니다. 대부분의 경우 노출 횟수는 배달된 번호와 비슷해야 합니다. 이렇게 하면 장치가 메시지를 받고 해당 정보를 다시 서버로 전달합니다.
-* **[!UICONTROL Unique impressions]**:수신자별 노출 수입니다.
-* **[!UICONTROL Click through rate]**:푸시 알림과 상호 작용한 사용자의 비율입니다.
-* **[!UICONTROL Open rate]**:열린 푸시 알림의 비율입니다.
+* **[!UICONTROL Processed/sent]**: 전송된 총 푸시 알림 수입니다.
+* **[!UICONTROL Delivered]**: 보낸 총 푸시 알림 수와 관련하여 성공적으로 전송된 푸시 알림 수입니다.
+* **[!UICONTROL Impressions]**: 푸시 알림이 장치에 배달되고 알림 센터에 손상되지 않은 상태로 남아 있는 횟수입니다. 대부분의 경우 노출 횟수는 배달된 번호와 비슷해야 합니다. 이렇게 하면 장치가 메시지를 받고 해당 정보를 다시 서버로 전달합니다.
+* **[!UICONTROL Unique impressions]**: 수신자별 노출 횟수.
+* **[!UICONTROL Click through rate]**: 푸시 알림과 상호 작용한 사용자의 비율입니다.
+* **[!UICONTROL Open rate]**: 열린 푸시 알림 비율.
 
 ![](assets/dynamic_report_push_2.png)
 
-두 번째 테이블 푸시 **알림 클릭 및 열기는** 세 가지 카테고리로 분할됩니다.일별, 모바일 앱 및 전달별 배달당 수신자 동작에 사용할 수 있는 데이터가 포함되어 있습니다.
+두 번째 테이블 **푸시 알림 클릭 및 열기는** 세 가지 카테고리로 분할됩니다. 일별, 모바일 앱별 및 배달별. 배달당 받는 사람 행동에 사용할 수 있는 데이터가 포함되어 있습니다.
 
-* **[!UICONTROL Impressions]**:수신자가 본 총 푸시 알림 수
-* **[!UICONTROL Unique impressions]**:수신자별 노출 수입니다.
-* **[!UICONTROL Click]**:푸시 알림이 장치에 배달되고 사용자가 클릭한 횟수입니다. 사용자가 알림을 보려고 하면 푸시 열기 추적으로 이동되거나 해지됩니다.
-* **[!UICONTROL Unique clicks]**:고유 사용자가 푸시 알림과 상호 작용하는 횟수(예: 알림 또는 단추 클릭).
-* **[!UICONTROL Open]**:장치에 배달되고 사용자가 클릭한 총 푸시 알림 수입니다. 따라서 앱이 열립니다. 이 방법은 푸시 클릭과 유사하지만, 알림이 해제된 경우 푸시 열기가 트리거되지 않습니다.
-* **[!UICONTROL Unique Opens]**:배달을 연 받는 사람 수입니다.
+* **[!UICONTROL Impressions]**: 받는 사람이 본 푸시 알림의 총 수입니다.
+* **[!UICONTROL Unique impressions]**: 수신자별 노출 횟수.
+* **[!UICONTROL Click]**: 푸시 알림이 장치에 배달되고 사용자가 클릭한 횟수입니다. 사용자가 알림을 보거나 푸시 열기 추적으로 이동하려고 했습니다.
+* **[!UICONTROL Unique clicks]**: 고유 사용자가 푸시 알림과 상호 작용하는 횟수(예: 알림 또는 단추 클릭).
+* **[!UICONTROL Open]**: 장치에 배달되고 사용자가 클릭한 총 푸시 알림 수로 앱을 엽니다. 이 방법은 푸시 클릭과 비슷하지만 알림이 해제된 경우 공개 푸시가 트리거되지 않습니다.
+* **[!UICONTROL Unique Opens]**: 배달을 연 받는 사람 수입니다.
 
