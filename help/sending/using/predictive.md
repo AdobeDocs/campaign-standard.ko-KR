@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ Adobe Campaign Standard은 두 가지 새로운 기계 학습 모델을 제공�
 
 * **예측 참여 점수**: 예측 참여 점수 책정에서는 다음 이메일을 보낸 후 7일 이내에 메시지를 통해 참여하려는 수신자의 확률과 가입 해지(가입 해지)가 발생할 가능성을 예측합니다. 취약점, 보통 또는 낮음의 구체적인 위험에 따라 확률을 버킷으로 더 나눕니다. 이러한 모델을 통해 고객은 특정 고객의 다른 고객과 관련된 등급을 파악할 수 있는 위험 백분위수 등급을 제공합니다.
 
->[!NOTE]
-> **사전 요구 사항&#x200B;**
->
+>[!CAUTION]
 >이 기능은 제품의 일부로 즉시 사용할 수 없습니다. 이 구현을 위해서는 Adobe Consulting이 참여해야 합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >
 >이 기능은 고객이 제공해야 하는 Azure 저장소의 사용이 필요합니다.
