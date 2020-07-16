@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,12 +18,13 @@ ht-degree: 91%
 
 ## 새로운 기능
 
+* **[AI 기반의 이메일](sending/using/predictive.md)**<br/>AI 기반의 이메일을 사용하여 디자인 및 전달 최적화
+
 * **[개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오
 
 * **[외부 API](automating/using/external-api.md)**<br/>외부 API 활동을 사용하여 외부 시스템의 워크플로우로 데이터를 가져옵니다
 
-* **[Campaign Standard Mobile 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)**<br/>
-모바일 게재와 관련된 일반적인 지침에 대해 자세히 알아보십시오
+* **[모바일 전달 시작](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)**<br/>&#x200B;모바일 전달에 대한 일반 지침(SMS, 푸시, 인앱)에 대한 자세한 내용
 
 [업데이트를 더 보려면 여기를 클릭하십시오.](rn/using/documentation-updates.md)
 
