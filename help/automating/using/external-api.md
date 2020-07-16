@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
+source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,15 @@ Campaign Standard 20.3 릴리스에서 외부 API 기능은 Control Beta를 GA(G
 
 이 활동에는 다음과 같은 보증인이 적용됩니다.
 
-* 5MB HTTP 응답 데이터 크기 제한
-* 요청 시간 초과는 1분입니다.
+* 50MB HTTP 응답 데이터 크기 제한(5MB 권장)
+* 요청 제한 시간은 10분입니다.
 * HTTP 리디렉션이 허용되지 않음
 * HTTPS가 아닌 URL이 거부됨
 * &quot;수락: application/json&quot; 요청 헤더 및 &quot;Content-Type: application/json&quot; 응답 헤더가 허용됩니다.
 
->[!CAUTION]
+>[!NOTE]
 >
->활동은 대량의 데이터가 전송될 수 있으므로 각 프로필에 대한 특정 정보를 검색하는 것이 아니라 캠페인 전체 데이터(최신 오퍼 세트, 최신 점수 등)를 가져오기 위한 것입니다. 사용 사례에서 이를 필요로 하는 경우 파일 [전송 활동을](../../automating/using/transfer-file.md) 사용하는 것이 좋습니다.
-
+>Campaign 20.4 릴리스를 시작으로 http 응답 데이터 크기 제한 및 보안 기능이 5MB 및 1분으로 낮아집니다.  이 변경 사항은 새 외부 API 활동에만 영향을 미치지만, 현재 구현된 외부 API 활동이 이러한 새로운 지침에 따라 적용되는 것이 좋습니다.
 
 JSON에는 다음과 같은 특정 보증서가 있습니다.
 
@@ -75,12 +74,14 @@ JSON에는 다음과 같은 특정 보증서가 있습니다.
 * **JSON 최대 키 길이**: 생성된 내부 키의 최대 길이를 255로 제한합니다. 이 키는 열 ID와 연결됩니다.
 * **허용되는 JSON 최대 복제 키**:  열 ID로 사용되는 복제 JSON 속성 이름의 최대 총 개수를 150개로 제한합니다.
 
-
 활동은 다음과 같이 JSON 구조가 지원되지 않습니다.
 
 * 배열 개체와 다른 비 배열 요소 결합
 * JSON 배열 개체는 하나 이상의 중간 배열 개체 내에 중첩됩니다.
 
+>[!CAUTION]
+>
+>외부 API 활동은 대량의 데이터가 전송될 수 있으므로 각 프로필에 대한 특정 정보를 검색하는 것이 아니라 캠페인 전체 데이터(최신 오퍼 세트, 최신 점수 등)를 가져오기 위한 것입니다. 사용 사례에서 이를 필요로 하는 경우 파일 [전송 활동을](../../automating/using/transfer-file.md) 사용하는 것이 좋습니다.
 
 ## 구성 {#configuration}
 
