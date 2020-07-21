@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 3%
@@ -86,13 +86,13 @@ ETL을 위해 파일 및 데이터를 관리할 때 이러한 파일은 Adobe에
 * SFTP에 로그인하여 그곳에 무엇이 있는지 직접 확인할 수 있습니다.
 * SFTP 디스크 관리는 주로 사용자의 책임입니다.
 
-또한 SFTP 연결을 시작하려는 공개 IP를 캠페인 인스턴스의 허용 목록에 추가해야 합니다. 허용 목록에 IP 주소 추가는 인증에 사용할 공개 키를 제공하면서 [지원 티켓을](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)통해 요청할 수 있습니다.
+또한 SFTP 연결을 시작하려는 공개 IP는 캠페인 인스턴스의 허용 목록에 추가해야 합니다. 인증에 사용할 공개 키를 제공하는 것과 함께 [지원 티켓을](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)통해 허용 목록에 IP 주소를 추가할 수 있습니다.
 
-SFTP 서버는 제어판에서 관리할 수 있습니다. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
+SFTP 서버는 Campaign 컨트롤 패널에서 관리할 수 있습니다. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
->제어판은 AWS에서 호스팅된 고객의 관리 사용자만 사용할 수 있습니다.
+>Campaign 컨트롤 패널은 AWS에서 호스팅된 고객의 관리 사용자만 사용할 수 있습니다.
 인스턴스가 AWS에서 호스팅되는지 [확인하십시오](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id).
 
 ## Amazon S3 외부 계정 {#amazon-s3-external-account}
@@ -133,7 +133,9 @@ Adobe Experience Manager 외부 계정은 캠페인과 Experience Manager을 통
 
 * 서버: Adobe Experience Manager 서버의 URL을 입력합니다. 예:
 
-   ``` http://aem.domain.com:4502 ```
+   ```
+   http://aem.domain.com:4502
+   ```
 
 * AEM 계정 자격 증명: Adobe Experience Manager 인스턴스에 액세스할 계정을 사용합니다. Experience Manager에서 캠페인 원격 그룹의 계정이어야 합니다.
 
