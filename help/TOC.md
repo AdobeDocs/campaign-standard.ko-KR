@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 82%
+source-wordcount: '1550'
+ht-degree: 81%
 
 ---
 
@@ -404,11 +404,11 @@ ht-degree: 82%
       + [트랜잭션 메시지 구성](administration/using/configuring-transactional-messaging.md)
    + 모바일 채널 구성 {#configuring-mobile}
       + [푸시 추적 구현](administration/using/push-tracking.md)
-      + [Adobe Campaign Standard 푸시 알림의 이미지 표시](administration/using/image-push-notification.md)
-      + [Campaign Standard 푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
+      + [iOS 이미지 및 비디오 추가](administration/using/image-push-notification.md)
+      + [푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
       + [로컬 알림 추적 구현](administration/using/local-tracking.md)
       + [SyncWithLaunch 기술 워크플로우 FAQ](administration/using/syncwithlaunch-faq.md)
-      + [Adobe Experience Platform SDK 및 Adobe Campaign 통합 FAQ](administration/using/aep-faq.md)
+      + [Adobe Experience Platform SDK 및 캠페인 시작하기](administration/using/aep-faq.md)
    + 애플리케이션 설정 {#application-settings}
       + [Campaign Standard 설정 기본 정보](administration/using/about-campaign-standard-settings.md)
       + [외부 계정](administration/using/external-accounts.md)
