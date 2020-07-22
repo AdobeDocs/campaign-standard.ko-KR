@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Campaign Standard 20.3 릴리스에서 외부 API 기능은 Control Beta를 GA(G
 
 >[!NOTE]
 >
->Campaign 20.4 릴리스를 시작으로 http 응답 데이터 크기 제한 및 보안 기능이 5MB 및 1분으로 낮아집니다.  이 변경 사항은 새 외부 API 활동에만 영향을 미치지만, 현재 구현된 외부 API 활동이 이러한 새로운 지침에 따라 적용되는 것이 좋습니다.
+>Campaign 20.4 릴리스부터 각각 5MB 및 1분으로 http 응답 데이터 크기 제한 및 응답 시간 제한이 낮아집니다.  이 변경 사항은 새 외부 API 활동에만 영향을 주지만, 현재 구현된 외부 API 활동이 이러한 새로운 지침에 따라 적용되는 것이 좋습니다.
 
 JSON에는 다음과 같은 특정 보증서가 있습니다.
 
@@ -98,23 +98,23 @@ JSON에는 다음과 같은 특정 보증서가 있습니다.
 
 카운트 매개 변수 **추가** 확인란은 임시 테이블에서 나오는 각 행에 대한 카운트 값을 추가합니다. 이 확인란은 인바운드 활동이 임시 테이블을 생성하는 경우에만 사용할 수 있습니다.
 
-인바운드 **열** 섹션에서는 인바운드 전환 테이블에서 필드를 추가할 수 있습니다. 선택한 열이 데이터 개체의 키가 됩니다. JSON의 데이터 개체는 인바운드 전환 테이블의 각 행에서 선택한 열에 대한 데이터가 포함된 배열 목록이 됩니다.
+인바운드 **열** 섹션에서는 인바운드 전환 테이블에서 필드를 추가할 수 있습니다. The selected column(s) will be the keys in the data object. The data object in the JSON will be an array list containing data for selected columns from each row of the inbound transition table.
 
-사용자 **지정 매개 변수** 텍스트 상자를 사용하면 외부 API에 필요한 추가 데이터가 포함된 유효한 JSON을 추가할 수 있습니다. 생성된 JSON의 params 개체에 이 추가 데이터가 추가됩니다.
+사용자 **지정 매개 변수** 텍스트 상자를 사용하면 외부 API에 필요한 추가 데이터가 포함된 유효한 JSON을 추가할 수 있습니다. This additional data will be added to the params object in the generated JSON.
 
-### 아웃바운드 매핑
+### Outbound Mapping
 
-이 탭에서는 API 호출에서 반환되는 샘플 **JSON 구조를** 정의할 수 있습니다.
+This tab lets you define the sample **JSON structure** returned by the API Call.
 
 ![](assets/externalAPI-outbound.png)
 
-JSON 구문 분석기는 몇 가지 예외를 제외하고 표준 JSON 구조 패턴 유형을 수용하도록 설계되었습니다. 표준 패턴의 예는 다음과 같습니다.`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+The JSON parser is designed to accommodate standard JSON structure pattern types, with some exceptions. 표준 패턴의 예는 다음과 같습니다.`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
-샘플 JSON 정의에는 **다음 특성이 있어야 합니다**.
+The sample JSON definition must have the **following characteristics**:
 
-* **배열 요소에는** 첫 번째 수준 속성이 포함되어야 합니다(더 깊은 레벨은 지원되지 않음).
-   **속성 이름은** 출력 임시 테이블의 출력 스키마에 대한 열 이름이 됩니다.
-* **캡처할 JSON 요소는** JSON 응답 내에 10개 이하의 중첩 수준이어야 합니다.
+* **Array elements** must contain first-level properties (deeper levels are not supported).
+   **Property names** will end up becoming column names for the output schema of the output temporary table.
+* **JSON elements** to be captured must be at 10 or less levels of nesting within the JSON response.
 * **열 이름** 정의는 &quot;data&quot; 배열의 첫 번째 요소를 기반으로 합니다.
 열 정의(추가/제거) 및 속성의 유형 값은 열 정의 **탭에서 편집할 수** 있습니다.
 
@@ -122,21 +122,21 @@ JSON 구문 분석기는 몇 가지 예외를 제외하고 표준 JSON 구조 �
 
 분리 확인란(기본값: 선택 안 함)은 JSON을 키/값 맵으로 병합할지 여부를 나타내기 위해 제공됩니다.
 
-* 이 **확인란을 선택 취소하지** 않으면 샘플 JSON을 구문 분석하여 배열 개체를 찾습니다. 사용자는 Adobe Campaign이 사용자가 사용하고자 하는 배열을 정확하게 결정할 수 있도록 트리밍된 버전의 API 응답 샘플 JSON 포맷을 제공해야 합니다. 워크플로우 작성 시, 중첩된 배열 개체의 경로가 결정 및 기록되므로 실행 시 API 호출에서 수신되는 JSON 응답 본문에서 해당 배열 개체에 액세스하는 데 사용할 수 있습니다.
+* When the **checkbox is disabled** (unchecked), the sample JSON will be parsed to look for an array object. The user will need to provide a trimmed version of the API response sample JSON format so that Adobe Campaign can determine exactly which array the user is interested in using. At workflow authoring time, the path to the nested array object will be determined and recorded, so that it can be used at execution time to access that array object from the JSON response body received from the API call.
 
-* 이 **확인란을 활성화** (선택 사항)하면 샘플 JSON이 분리되고 제공된 샘플 JSON에 지정된 모든 속성이 출력 임시 테이블의 열을 만드는 데 사용되고 열 정의 탭에 표시됩니다. 샘플 JSON에 배열 개체가 있으면 해당 배열 개체의 모든 요소도 분리됩니다.
+* When the **checkbox is enabled** (checked), the sample JSON will be flattened and all the properties that are specified in the provided sample JSON will be used to create columns of the output temporary table, and displayed on the Column Definitions tab. Note that if there are any array object in the sample JSON, then all elements of those array objects will also be flattened.
 
 
 파싱이 **확인되면**&#x200B;메시지가 나타나고 &quot;열 정의&quot; 탭에서 데이터 매핑을 사용자 정의할 수 있도록 초대합니다. 다른 경우에는 오류 메시지가 표시됩니다.
 
 ### 실행
 
-이 탭에서는 ACS로 데이터를 전송할 **HTTPS 종단점을** 정의할 수 있습니다. 필요한 경우 아래 필드에 인증 정보를 입력할 수 있습니다.
+이 탭에서는 ACS로 데이터를 전송할 **HTTPS 종단점을** 정의할 수 있습니다. If needed, you can enter authentication information in the fields below.
 ![](assets/externalAPI-execution.png)
 
-### 속성
+### Properties
 
-이 탭에서는 UI에 표시된 레이블과 같은 외부 API 활동에 대한 **일반 속성을** 제어할 수 있습니다. 내부 ID를 사용자 지정할 수 없습니다.
+This tab lets you control **general properties** on the external API activity like the displayed label in the UI. 내부 ID를 사용자 지정할 수 없습니다.
 
 ![](assets/externalAPI-properties.png)
 
@@ -183,15 +183,15 @@ JSON 구문 분석기는 몇 가지 예외를 제외하고 표준 JSON 구조 �
  </thead> 
  <tbody> 
   <tr> 
-   <td> API URL '%s'을(를) 호출하는 중입니다.</td> 
-   <td> <p>API URL 'https://example.com/api/v1/web-coupon?count=2' 호출.</p></td> 
+   <td> Invoking API URL '%s'.</td> 
+   <td> <p>Invoking API URL 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
   </tr> 
   <tr> 
-   <td> API URL '%s'을(를) 다시 시도하고 있습니다. 이전 시도가 실패했습니다('%s').</td> 
-   <td> <p>API URL 'https://example.com/api/v1/web-coupon?count=2'을 다시 시도하는 중, 이전 시도가 실패했습니다('HTTP - 401').</p></td>
+   <td> Retrying API URL '%s', previous attempt failed ('%s').</td> 
+   <td> <p>Retrying API URL 'https://example.com/api/v1/web-coupon?count=2', previous attempt failed ('HTTP - 401').</p></td>
   </tr> 
   <tr> 
-   <td> '%s'(%s / %s)에서 컨텐츠를 전송하는 중입니다.</td> 
+   <td> Transferring content from '%s' (%s / %s).</td> 
    <td> <p>'https://example.com/api/v1/web-coupon?count=2'(1234 / 1234)에서 내용 전송.</p></td> 
   </tr>
  </tbody> 
@@ -199,7 +199,7 @@ JSON 구문 분석기는 몇 가지 예외를 제외하고 표준 JSON 구조 �
 
 ### 오류
 
-이러한 로그 메시지는 예기치 않은 오류 조건에 대한 정보를 기록하는 데 사용되며 이로 인해 워크플로우 활동이 실패할 수 있습니다.
+These log messages are used to log information about unexpected error conditions, that can eventually cause the workflow activity to fail.
 
 <table> 
  <thead> 
