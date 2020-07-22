@@ -13,19 +13,21 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 4%
+source-wordcount: '432'
+ht-degree: 2%
 
 ---
 
 
-# Adobe Campaign Standard 푸시 알림의 이미지 표시 {#image-push}
+# iOS 이미지 및 비디오 추가 {#image-push}
 
 >[!NOTE]
 >
 >이 문서는 iOS 장치에만 적용됩니다.
+
+이 문서에서는 Adobe Campaign Standard iOS 푸시 알림에서 이미지를 표시하는 방법을 알아봅니다.
 
 ## 1단계: 푸시 알림 설정 {#set-up-push}
 
@@ -41,11 +43,11 @@ Experience Cloud SDK 응용 프로그램을 사용하여 푸시 알림을 전송
 
 푸시 알림을 세밀하게 조정하기 위해 Adobe Campaign을 사용하면 푸시 알림을 디자인하는 동안 일련의 고급 옵션에 액세스할 수 있습니다.
 
-1. 푸시 알림을 만듭니다. 자세한 내용은 이 페이지를 참조하십시오.
+1. 푸시 알림을 만듭니다. For more on this, refer to this [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. 푸시 알림 컨텐츠 페이지에서 고급 옵션 섹션에 액세스합니다.
+1. 푸시 알림 컨텐츠 페이지에서 **[!UICONTROL Advanced options]** 섹션에 액세스합니다.
 
-1. 리치 미디어 컨텐츠 URL 필드에 파일의 URL을 입력합니다.
+1. 필드에 파일의 URL을 **[!UICONTROL Rich media content URL]** 입력합니다.
 iOS 10 이상의 경우 이미지, gif, 오디오 및 비디오 파일을 삽입할 수 있습니다.
 
    ![](assets/push_notif_advanced_6.png)
@@ -60,13 +62,13 @@ Adobe Campaign에서 푸시 알림을 사용자 지정한 후에는 장치에 �
 >
 >응용 프로그램이 목표-C에 있는 경우 다음 [설명서를 참조하십시오](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-앱이 Swift인 경우 아래 단계를 따르십시오.
+앱이 포함된 경우 아래 단계 [!DNL Swift]를 따르십시오.
 
-1. xCode 프로젝트를 엽니다.
+1. DNL [Xcode] 프로젝트를 엽니다.
 
-1. Xcode 프로젝트에서 **파일** > 새로 **만들기** > **Target을 선택합니다**.
+1. DNL [Xcode] 프로젝트에서 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**&#x200B;를 선택합니다.
 
-1. [알림 서비스 확장]을 선택합니다.
+1. 선택합니다 **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
