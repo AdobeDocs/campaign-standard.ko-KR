@@ -13,15 +13,15 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
 
 
-# Understanding Campaign Standard Push Notifications Payload Structure {#push-payload}
+# Understanding push notifications payload structure {#push-payload}
 
 Adobe Campaign을 사용하면 iOS 및 Android 모바일 디바이스에서 개인화된 푸시 알림을 모바일 애플리케이션(모바일 앱)으로 전송할 수 있습니다.
 
