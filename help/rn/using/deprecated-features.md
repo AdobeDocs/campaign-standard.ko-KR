@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
+source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Campaign Standard 기능을 제거/교체하기 위해 다음 규칙이 적용�
    <td> <p>Campaign 19.4 릴리스를 시작하면 액세스 및 삭제 요청에 대해 캠페인 API와 인터페이스를 사용하는 것이 더 이상 사용되지 않습니다. 2단계 프로필 삭제는 사용할 수 없습니다. Adobe <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Privacy Core Service를 사용하십시오</a>.</p></br>
    <p>Campaign Standard <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">의 개인 정보 관리를 참조하십시오</a>.</p>
   <p> 
-  <em>Target 제거 버전: Campaign 20.4 릴리스</em></p>
+  <em>Target 제거 날짜: 2021년</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Campaign Standard 기능을 제거/교체하기 위해 다음 규칙이 적용�
    <td> <p>Campaign 19.0 릴리스를 시작하면 기존 이메일 편집기는 더 이상 사용되지 않습니다. 새로운 이메일 디자이너 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">를</a> 사용하여 이메일 컨텐츠를 만들고 개인화합니다. </p></br>
    <p>새로운 편집기에 맞게 이메일 템플릿을 적용하는 방법을 살펴보려면 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">이 섹션을</a> 참조하십시오.</p></br>
   <p> 
-  <em>Target 제거 버전: 2021년</em></p>
+  <em>Target 제거 날짜: 2021년</em></p>
    </td> 
   </tr> 
  </tbody> 
