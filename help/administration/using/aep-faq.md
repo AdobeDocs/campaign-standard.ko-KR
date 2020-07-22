@@ -12,15 +12,32 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Experience Platform SDK 및 Adobe Campaign 통합 FAQ {#aep-faq}
+# Adobe Experience Platform SDK 및 Campaign Standard 시작하기 {#aep-faq}
+
+Experience Platform SDK 응용 프로그램과 함께 푸시 알림 및 인앱 메시지를 전송하려면 Adobe Experience Platform SDK에서 모바일 응용 프로그램을 설정하고 Adobe Campaign에 구성해야 합니다.
+
+아래 섹션에는 이 동기화에 대한 일반적인 질문이 나와 있습니다.
+
+푸시 또는 인앱(In-app)에 대한 자세한 내용은 다음 FAQ를 참조하십시오.
+
+* [푸시 알림 FAQ](../../channels/using/about-push-notifications.md#push-faq)
+* [인앱 FAQ](../../channels/using/about-push-notifications.md#in-app-faq)
+* [Launch 기술 워크플로우와 동기화 FAQ](../../administration/using/syncwithlaunch-faq.md)
+
+## 시작하기 전에 유용한 리소스 {#resource-mobile-property}
+
+Adobe Experience Platform SDK 및 Campaign Standard 통합에 대한 자세한 내용은 아래 리소스를 참조하십시오.
+
+* 실행/모바일 [개요 비디오](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* 시작/모바일 [팁 및 기법 가이드](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience Platform SDK 통합을 Adobe Campaign Standard 및 Adobe Campaign Classic 모두에 사용할 수 있습니까? {#aep-validity}
 
@@ -81,13 +98,6 @@ CollectPII 호출의 빈도와 디자인은 비즈니스 요구 사항에 따라
 ### Campaign 또는 Launch에서 Adobe Experience Platform 앱에 액세스하려고 하면 사용할 수 없는 속성이 발생하는 경우가 있습니다. {#aep-error}
 
 알려진 문제이며 토큰 만료 때문에 발생합니다. 로그인 후 로그인하십시오.
-
-## Adobe Experience Platform Launch에서 설정된 모바일 속성에 대해 자세히 알아보려면 유용한 리소스 권장 사항은 무엇입니까? {#resource-mobile-property}
-
-아래 리소스를 확인하십시오.
-
-* 실행/모바일 [개요 비디오](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* 시작/모바일 [팁 및 기법 가이드](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience Platform SDK(이전의 SDK V5)에 대해 자세히 알아보려면 유용한 리소스 권장 사항은 무엇입니까?{#resource-aep}
 
