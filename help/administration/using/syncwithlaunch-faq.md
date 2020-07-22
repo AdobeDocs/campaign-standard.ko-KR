@@ -1,6 +1,6 @@
 ---
-title: 액세스 관리 기본 정보
-description: 역할, 그룹 및 조직 단위를 사용하여 Adobe Campaign 연산자를 관리합니다.
+title: Launch 기술 워크플로우와 동기화 FAQ
+description: Launch 기술 워크플로우에 대한 일반적인 질문입니다.
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
@@ -12,19 +12,19 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 
-# SyncWithLaunch 기술 워크플로우 FAQ {#syncwithlaunch-faq}
+# Launch 기술 워크플로우와 동기화 FAQ {#syncwithlaunch-faq}
 
-이 **[!UICONTROL Sync with Launch]** 워크플로우를 통해 모든 Adobe Launch 모바일 속성을 Adobe Campaign Standard으로 자동으로 가져올 수 있습니다.
+전용 기술 워크플로우를 통해 Adobe Launch 모바일 속성을 Adobe Campaign Standard으로 가져올 수 **[!UICONTROL Sync with Launch]** 있습니다. 자세한 내용은 이 [페이지를 참조하십시오.](../../administration/using/technical-workflows.md)
 
-자세한 내용은 이 [페이지를 참조하십시오](../../administration/using/technical-workflows.md).
+아래 섹션에는 이 동기화에 대한 일반적인 질문이 나와 있습니다.
 
 >[!NOTE]
 >
