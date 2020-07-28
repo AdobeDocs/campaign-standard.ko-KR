@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 2%
 
 Adobe Campaign과 Adobe Mobile Services를 모두 구성하면 캠페인에 모바일 애플리케이션의 데이터를 사용할 수 있습니다. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Experience Cloud SDK 응용 프로그램을 사용하여 푸시 알림을 전송하려면 모바일 앱을 Adobe Experience Platform 실행 시 설정하고 Adobe Campaign에서 구성해야 합니다. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Experience Cloud SDK 응용 프로그램을 사용하여 푸시 알림을 전송하려면 Adobe Experience Platform Launch에서 모바일 앱을 설정하고 Adobe Campaign에서 구성해야 합니다. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
 ## 2단계: Adobe Campaign에서 푸시 알림 사용자 정의 {#customize-push}
 
@@ -64,9 +64,9 @@ Adobe Campaign에서 푸시 알림을 사용자 지정한 후에는 장치에 �
 
 앱이 포함된 경우 아래 단계 [!DNL Swift]를 따르십시오.
 
-1. DNL [Xcode] 프로젝트를 엽니다.
+1. 프로젝트를 [!DNL Xcode] 엽니다.
 
-1. DNL [Xcode] 프로젝트에서 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**&#x200B;를 선택합니다.
+1. 프로젝트에서 [!DNL Xcode] > **[!UICONTROL File]** > **[!UICONTROL New]** **[!UICONTROL Target]**&#x200B;를 선택합니다.
 
 1. 선택합니다 **[!UICONTROL Notification Service Extension]**.
 
