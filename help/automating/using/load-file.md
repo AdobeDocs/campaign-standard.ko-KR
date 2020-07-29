@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 # 파일 로드 {#load-file}
 
 ## 설명 {#description}
+
+>[!CAUTION]
+>
+>이 기능을 사용하는 동안 AdobeCampaign 계약에 따라 SFTP 저장소, DB 저장소 및 활성 프로필 제한에 주의하십시오.
 
 ![](assets/data_loading.png)
 
@@ -154,6 +158,7 @@ ht-degree: 0%
    * **[!UICONTROL Use a default value]**: 오류가 발생하는 값을 필드에 정의된 기본값으로 **[!UICONTROL Default value]** 바꿉니다.
    * **[!UICONTROL Use a default value in case the value is not remapped]**: 잘못된 값에 대해 매핑을 정의하지 않는 한 오류가 발생하는 값을 **[!UICONTROL Default value]** **[!UICONTROL Remapping of values]** 필드에 정의된 기본값으로 바꿉니다(위 옵션 참조).
    * **[!UICONTROL Reject the line when there is no remapping value]**: 잘못된 값에 대해 매핑이 정의되어 있지 않으면 전체 줄이 처리되지 않습니다(위 옵션 참조). **[!UICONTROL Remapping of values]**
+
    >[!NOTE]
    >
    >**[!UICONTROL Error processing]** 가져온 파일의 값과 관련된 오류 발생. 예를 들어 잘못된 데이터 유형(&quot;정수&quot; 열의 경우 모두 &quot;4&quot;), 허용되는 최대 수보다 많은 문자를 포함하는 문자열, 잘못된 구분 기호가 있는 날짜 등이 있습니다. 그러나 이 옵션은 빈 값 관리로 생성된 오류를 고려하지 않습니다.
