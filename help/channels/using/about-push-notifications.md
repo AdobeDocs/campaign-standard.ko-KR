@@ -1,6 +1,6 @@
 ---
 title: 푸시 알림 기본 정보
-description: Adobe Campaign에서 푸시 알림 채널의 주요 특성을 알아봅니다.
+description: Adobe Campaign 푸시 알림 채널의 주요 특성을 알아봅니다.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 2%
+ht-degree: 49%
 
 ---
 
@@ -25,60 +25,60 @@ ht-degree: 2%
 
 >[!CAUTION]
 >
->푸시 알림 구현은 전문가 사용자가 수행해야 합니다. 도움이 필요한 경우 Adobe 계정 담당자 또는 Professional 서비스 파트너에게 문의하십시오. 푸시 알림은 선택 기능입니다. 라이선스 계약을 확인하고 계정 관리자에게 문의하여 정품 인증을 받으십시오.
+>푸시 알림 구현은 전문가 사용자가 수행해야 합니다. 도움이 필요한 경우 Adobe 계정 담당자 또는 전문 서비스 파트너에게 문의하십시오. 푸시 알림은 선택 기능입니다. 라이선스 계약을 확인하고 계정 관리자에게 문의하여 기능을 활성화하십시오.
 
-Adobe Campaign을 사용하면 개인화된 푸시 알림을 iOS 및 Android 모바일 디바이스로 전송할 수 있습니다.
+Adobe Campaign을 통해 개인화 및 세그먼트화한 푸시 알림을 iOS 및 Android 모바일 디바이스로 전송할 수 있습니다.
 
-이러한 메시지는 Experience Platform SDK를 활용하여 Adobe Campaign에서 설정한 모바일 애플리케이션에서 수신됩니다. 자세한 내용은 Adobe Experience Platform SDK를 [사용하여 모바일 애플리케이션 구성을 참조하십시오](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+이 메시지는 Adobe Campaign에서 Experience Platform SDK를 활용하여 설정한 모바일 애플리케이션을 통해 수신됩니다. 자세한 내용은 [Adobe Experience Platform SDK를 사용하여 모바일 애플리케이션 구성](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html)을 참조하십시오.
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
+모바일 디바이스에서 전송한 모바일 프로필 속성 데이터는 Adobe Campaign의 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 리소스에 저장됩니다. 이를 통해 애플리케이션 구독자로부터 수집하려는 데이터를 정의할 수 있습니다.
 
-모바일 장치에서 Adobe Campaign으로 전송할 데이터를 수집하려면 이 리소스를 확장해야 합니다. 이렇게 하려면 이 [페이지를](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) 참조하십시오.
+모바일 디바이스에서 Adobe Campaign으로 전송하려는 데이터를 수집하려면 이 리소스를 확장해야 합니다. 자세한 단계는 이 [페이지](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)를 참조하십시오.
 
-두 가지 유형의 푸시 알림을 Adobe Campaign에서 사용할 수 있습니다.
+Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있습니다.
 
-* **[!UICONTROL Alert/Message/Badge]** 문자 알림을 사용하면 추가 컨텐츠(사운드, 배지, 디플링크 등)를 사용하여 표준 텍스트 기반 메시지를 보낼 수 있습니다. 섹션에서 정의할 수 **[!UICONTROL Advanced options]** 있습니다.
+* **[!UICONTROL Alert/Message/Badge]** 유형 알림을 사용하면 표준 텍스트 기반 메시지에 콘텐츠(사운드, 배지, 딥링크 등)를 추가하여 보낼 수 있습니다. 추가 콘텐츠는 **[!UICONTROL Advanced options]** 섹션에서 정의할 수 있습니다.
 
-   이 알림 유형을 사용하면 개인화 필드를 사용할 수 있는 제목과 메시지를 추가할 수 있습니다. 메시지를 개인화할 수 있으려면 **[!UICONTROL Send push on profiles]** 템플릿을 선택해야 합니다.
+   이 알림 유형을 사용하면 제목과 메시지를 추가하여 개인화 필드를 사용할 수 있습니다. 메시지를 개인화하려면 **[!UICONTROL Send push on profiles]** 템플릿을 선택해야 합니다.
 
-* **[!UICONTROL Silent push]** 문자 알림은 최종 사용자에 대한 메시지나 내용 없이 응용 프로그램을 자동으로 알리는 데 사용됩니다. 이러한 유형의 메시지의 일반적인 사용 사례는 응용 프로그램에서 다운로드할 서버에서 사용 가능한 컨텐츠가 있음을 인식하도록 하는 것입니다.
+* **[!UICONTROL Silent push]** 유형 알림은 최종 사용자를 위한 메시지나 콘텐츠 없이 애플리케이션에 조용히 알림을 보내는 데 사용됩니다. 이 유형의 메시지는 보통 서버에 다운로드할 콘텐츠가 있음을 애플리케이션에 알리는 데 사용됩니다.
 
-일부 특정 구성은 알림 동작을 정의하도록 설정할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../channels/using/customizing-a-push-notification.md)을 참조하십시오.
+몇 가지 특정한 구성을 설정하여 알림 동작을 정의할 수 있습니다. 자세한 정보는 [이 섹션](../../channels/using/customizing-a-push-notification.md)을 참조하십시오.
 
-전문가 사용자는 이러한 특정 구성을 정의하려면 모바일 앱 [기술 정보를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html).
+이와 같은 특정 구성을 정의하려는 전문가 사용자의 경우 모바일 앱 [기술 정보](https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html)를 참조하십시오.
 
 >[!NOTE]
 >
->개인정보 보호에 관한 법은 국가마다 다르다. 일부 국가에서는 모바일 애플리케이션에서 수집한 데이터 유형을 사용자에게 알려주어야 합니다. 해당 국가의 모바일 애플리케이션과 관련된 법을 확인하십시오. 모바일 응용 프로그램에 전송된 푸시 알림은 Apple(Apple Push Notification 서비스) 및 Google(Google Cloud Messaging 또는 Firebase Cloud Messaging)에서 지정한 사전 요구 사항 및 조건을 준수합니다.
+>개인 정보 보호에 관한 법은 국가마다 다릅니다. 일부 국가에서는 모바일 애플리케이션에서 수집하는 데이터의 유형을 사용자에게 고지하도록 요구합니다. 해당 국가의 모바일 애플리케이션 관련 법규를 확인하십시오. 모바일 애플리케이션에 전송되는 푸시 알림이 Apple(Apple Push Notification Service) 및 Google(Google Cloud Messaging 또는 Firebase Cloud Messaging)에서 지정한 사전 요구 사항 및 조건을 준수하는지 확인합니다.
 
-**관련 컨텐츠:**
+**관련 콘텐츠:**
 
 * [푸시 알림 준비 및 보내기](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [다국어 푸시 알림 만들기](../../channels/using/creating-a-multilingual-push-notification.md)
 * [푸시 알림 보고서](../../reporting/using/push-notification-report.md)
-* [Campaign Standard 모바일 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)
+* [Campaign Standard Mobile 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)
 
 ## 사전 요구 사항 {#prerequisites}
 
 >[!NOTE]
->Campaign의 푸시 알림 기능을 활용하려면 암호가 없는 .pem 형식의 유효한 푸시 인증서를 제공해야 합니다.
+>Campaign의 푸시 알림 기능을 활용하려면 암호가 없는 .pem 포맷의 유효한 푸시 인증서를 제공해야 합니다.
 유효한 p12 인증서가 있는 경우 온라인 리소스를 사용하여 .pem 파일로 손쉽게 변환할 수 있습니다.
 
 푸시 알림을 전송하기 전에 다음을 수행해야 합니다.
 
-1. Adobe Campaign에서 채널에 액세스할 수 있는지 **[!UICONTROL Push notification]** 확인합니다. 이러한 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
+1. Adobe Campaign에서 **[!UICONTROL Push notification]** 채널에 액세스할 수 있는지 확인합니다. 이 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
 
-1. Adobe Campaign Standard 및 Experience Platform Launch에서 필요한 권한이 있는지 확인합니다.
+1. Adobe Campaign Standard 및 Experience Platform Launch에서 사용자에게 필요한 권한이 있는지 확인합니다.
 
-1. Experience Platform Launch에서 모바일 속성을 만듭니다. 자세한 내용은 [모바일 속성 설정을 참조하십시오](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property).
+1. Experience Platform Launch에서 모바일 속성을 만듭니다. 자세한 내용은 [모바일 속성 설정](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)을 참조하십시오.
 
-1. Experience Platform Launch에서 익스텐션을 **[!UICONTROL Adobe Campaign Standard]** 설치합니다.
+1. Experience Platform Launch에서 **[!UICONTROL Adobe Campaign Standard]** 확장을 설치합니다.
 
-1. Adobe Campaign Standard에서 Experience Platform Launch에서 만든 모바일 속성을 구성합니다. 자세한 내용은 Adobe Campaign [에서 Experience Platform Launch 응용 프로그램 설정을 참조하십시오](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign).
+1. Adobe Campaign Standard에서 Experience Platform Launch에서 만든 모바일 속성을 구성합니다. 자세한 내용은 [Adobe Campaign에서 Experience Platform Launch 애플리케이션 설정](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)을 참조하십시오.
 
-1. 모바일 애플리케이션 설정에 채널별 구성을 추가합니다. 자세한 내용은 Adobe Campaign의 [채널별 애플리케이션 구성을 참조하십시오](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. 모바일 애플리케이션 설정에 채널별 구성을 추가합니다. 자세한 내용은 [Adobe Campaign의 채널별 애플리케이션 구성](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)을 참조하십시오.
 
-1. 모바일 사용 사례 구현을 지원하려면 Adobe Campaign Standard SDK를 사용하여 Adobe Experience Platform에서 지원되는 [Mobile 사용 사례에서의 확장, Experience Platform Launch 규칙 및 SDK 구현에 대한 자세한 지침을 참조하십시오](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
+1. 모바일 사용 사례 구현을 지원하려면 [Adobe Campaign Standard에서 Adobe Experience Platform SDK를 사용하여 지원되는 모바일 사용 사례](https://helpx.adobe.com/kr/campaign/kb/configure-launch-rules-acs-use-cases.html)에서 확장, Experience Platform Launch 규칙, SDK 구현에 대한 자세한 지침을 참조하십시오.
 
 ## 푸시 알림 FAQ {#push-faq}
 
@@ -86,14 +86,14 @@ In Adobe Campaign, mobile profile attributes data sent from mobile device are st
 
 아래 리소스를 확인하십시오.
 
-* [비디오 자습서](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [비디오 Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [제품 설명서](../../channels/using/about-push-notifications.md)
 * AEP SDK [설명서를 사용하여 구성](../../administration/using/configuring-a-mobile-application.md)
 * [커뮤니티 페이지](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Campaign에서 푸시 토큰을 획득하려면 어떻게 해야 합니까? {#push-token-acquisition}
 
-프로비저닝 팀이 Adobe Campaign Standard에서 푸시 채널 프로비전을 완료했는지 확인하십시오. SDK에서 setPushIdentifier API를 구현합니다. For more on this, refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging).
+프로비저닝 팀이 Adobe Campaign Standard에서 푸시 채널 프로비전을 완료했는지 확인하십시오. SDK에서 setPushIdentifier API를 구현합니다. 자세한 정보는 이 [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)를 참조하십시오.
 
 ### Campaign에 푸시 토큰 및 ECID가 있는 경우 푸시 알림을 전송해야 하는 또 다른 방법은 무엇입니까? {#sending-push}
 
