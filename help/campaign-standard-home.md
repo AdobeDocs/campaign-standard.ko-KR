@@ -6,8 +6,8 @@ topic: Premium
 translation-type: tm+mt
 source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 80%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 | 유용한 페이지 | 개발자를 위한 자료 |
 |---|---|
 | [릴리스 정보](rn/using/release-notes.md) | [Experience Cloud 트리거](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [제어판 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
+| [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
 | [구현 안내서](https://helpx.adobe.com/kr/campaign/kb/campaign-standard-implementation-guide.html) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [릴리스 계획](rn/using/release-planning.md) | [Campaign 데이터 모델](developing/using/datamodel-introduction.md) |
 | [사용이 중단되거나 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html) | [멀티 솔루션 안내서](integrating/using/get-started-campaign-integrations.md) |
