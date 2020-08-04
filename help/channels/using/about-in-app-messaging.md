@@ -1,6 +1,6 @@
 ---
 title: 인앱 메시지 기본 정보
-description: In-App 메시징을 사용하여 모바일 응용 프로그램 내에 메시지 또는 경고를 표시합니다.
+description: 인앱 메시지를 사용하여 모바일 애플리케이션 내에 메시지 또는 경고를 표시합니다.
 page-status-flag: never-activated
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: sauviat
@@ -16,36 +16,36 @@ translation-type: tm+mt
 source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 1%
+ht-degree: 28%
 
 ---
 
 
 # 인앱 메시지 기본 정보{#about-in-app-messaging}
 
-인앱 메시지는 사용자가 모바일 애플리케이션 내에서 활성 상태일 때 메시지를 표시할 수 있는 메시지 채널입니다. 이 메시지 유형은 사용자 전화의 알림 센터로 전달되는 푸시 알림에 대해 무료로 사용할 수 있습니다. 푸시 알림 채널에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../channels/using/about-push-notifications.md).
+인앱 메시지는 사용자가 모바일 애플리케이션 내에서 활성 상태일 때 메시지를 표시할 수 있는 메시지 채널입니다. 이 메시지 유형은 사용자 전화의 알림 센터로 전달되는 푸시 알림과 상호 보완적으로 사용할 수 있습니다. 푸시 알림 채널에 대한 자세한 내용은 이 [섹션](../../channels/using/about-push-notifications.md)을 참조하십시오.
 
-이 채널을 사용하려면 모바일 애플리케이션을 Adobe Experience Platform SDK와 통합해야 합니다. 이러한 앱은 인앱 전달을 위해 Adobe Campaign에서 사용할 수 있으려면 먼저 Adobe Experience Platform 론치에서 활성화해야 합니다.
+이 채널을 사용하려면 모바일 애플리케이션을 Adobe Experience Platform SDK와 통합해야 합니다. Adobe Campaign에서 인앱 게재를 사용하려면 해당 앱을 Adobe Experience Platform Launch에서 활성화해야 합니다.
 
 ![](assets/launch_campaign.png)
 
-Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인앱 메시지를 전송하려면 다음 사전 요구 사항을 충족해야 합니다.
+Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인앱 메시지를 보내기에 앞서 다음 사전 요구 사항을 충족해야 합니다.
 
-1. Adobe Campaign에서 채널에 액세스할 수 있는지 **[!UICONTROL In-App]** 확인합니다. 이러한 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
+1. Adobe Campaign에서 **[!UICONTROL In-App]** 채널에 액세스할 수 있는지 확인합니다. 이 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
 
-1. Experience Cloud SDK 응용 프로그램을 사용하여 Adobe Campaign Standard에서 모바일 사용 사례를 활용하려면 Adobe Experience Platform 론치에서 모바일 앱을 만들고 Adobe Campaign Standard에서 구성해야 합니다. 단계별 안내서는 이 [페이지를 참조하십시오](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+1. Adobe Campaign Standard와 Experience Cloud SDK 애플리케이션을 함께 사용하는 모바일 사용 사례를 활용하려면 Adobe Experience Platform Launch에서 모바일 앱을 제작하고 Adobe Campaign Standard에서 구성해야 합니다. 단계별 안내서는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html)를 참조하십시오.
 
-1. 구성된 경우 이제 인앱 메시지를 준비할 수 있습니다. For more on this, refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
+1. 구성하고 나면 이제 인앱 메시지를 준비할 수 있습니다. 자세한 정보는 이 [페이지](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)를 참조하십시오.
 
-1. 그런 다음 인앱 메시지 [또는](../../channels/using/customizing-an-in-app-message.md) 로컬 알림 메시지 유형 [사용자 지정을 전송하기로 결정할 수 있습니다](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
+1. 그런 다음 [인앱 메시지](../../channels/using/customizing-an-in-app-message.md)를 보낼지 [로컬 알림 메시지 유형 사용자 정의](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)를 보낼지 결정할 수 있습니다.
 
-1. 이제 배달을 보낼 준비가 되었습니다. 자세한 내용은 이 [페이지를 참조하십시오](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message).
+1. 이제 게재를 보낼 준비가 되었습니다. 자세한 내용은 이 [페이지](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)를 참조하십시오.
 
 **관련 컨텐츠:**
 
 * [인앱 보고서](../../reporting/using/in-app-report.md)
-* [Adobe Campaign Standard에서 지원되는 모바일 사용 사례](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Campaign Standard 모바일 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)
+* [Adobe Campaign Standard에서 지원되는 모바일 사용 사례](https://helpx.adobe.com/kr/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Campaign Standard Mobile 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)
 
 ## 인앱 FAQ {#in-app-faq}
 
@@ -53,7 +53,7 @@ Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인�
 
 아래 리소스를 확인하십시오.
 
-* [비디오 자습서](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [비디오 Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [블로그 게시물](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [커뮤니티 페이지](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
