@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '1825'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ ht-degree: 100%
 * 테스트 프로필을 선택하고 업데이트할 때 발생하는 성능 문제를 수정했습니다. (CAMP-37976)
 * 랜딩 페이지를 통해 구독 또는 구독 취소 시 오류 페이지를 표시하는 문제를 수정했습니다. (CAMP-37771)
 * zip 포맷의 콘텐츠를 업로드할 때 HTML에서 참조되는 PNG 파일과 확장자가 대문자로 표시되는 문제를 수정했습니다. (CAMP-37913)
-* 게재에 테스트 프로필을 추가할 때 인앱 메시지가 전송되지 않던 문제를 수정했습니다.
+* 게시에 테스트 프로필을 추가할 때 인앱 메시지가 전송되지 않던 문제를 수정했습니다.
 * 데이터 보강 활동에 연결할 때 실패하는 외부 API 워크플로우 활동 오류를 수정했습니다.
 * SMS 메시지 상태가 잘못 표시되는 문제를 수정했습니다.
 * 다른 API 엔드포인트에 중복 항목이 표시되는 사용자 지정 리소스 문제를 수정했습니다.
