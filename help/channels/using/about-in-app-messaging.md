@@ -49,7 +49,7 @@ Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인�
 
 ## 인앱 FAQ {#in-app-faq}
 
-### Adobe Campaign Standard의 인앱 채널에 대해 자세히 알아보려면 유용한 리소스 권장 사항은 무엇입니까? {#resources-inapp}
+### Adobe Campaign Standard의 인앱 채널에 대해 자세히 알아보려면 유용한 리소스 추천은 무엇입니까? {#resources-inapp}
 
 아래 리소스를 확인하십시오.
 
@@ -76,7 +76,7 @@ Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인�
 
 ### 인앱 채널에 사용할 수 있는 보고서는 무엇입니까? {#report-inapp}
 
-기본 보고서는 인앱 채널에 대해 Adobe Campaign에서 사용할 수 있습니다. 이 [설명서를 참조하십시오](../../reporting/using/in-app-report.md).
+최신 보고서는 인앱 채널에 대해 Adobe Campaign에서 사용할 수 있습니다. 이 [설명서를 참조하십시오](../../reporting/using/in-app-report.md).
 
 각 In-App 지표가 계산되는 방법을 이해하려면 이 [페이지를](../../reporting/using/indicator-calculation.md#in-app-delivery) 참조하십시오.
 
