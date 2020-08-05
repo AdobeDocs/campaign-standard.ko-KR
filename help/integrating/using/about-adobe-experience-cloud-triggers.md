@@ -13,10 +13,10 @@ context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 98%
+source-wordcount: '475'
+ht-degree: 96%
 
 ---
 
@@ -28,6 +28,10 @@ Experience Cloud Activation 핵심 서비스 **[!UICONTROL Triggers]**&#x200B;�
 Adobe Experience Cloud에서 모니터링하려는 고객 행동(예: 웹사이트 방문을 중단한 고객이나 웹사이트에서 검색을 했지만 구매하지 않은 고객, 심지어 세션이 만료된 고객까지)에 대해 다양한 트리거를 정의합니다. 트리거를 만들 때는 트리거의 조건과 해당 이벤트 시 Adobe Campaign으로 전송할 데이터(pload)를 정의합니다.
 
 Adobe Campaign에서 이전에 만든 트리거를 선택하고, 데이터마트 데이터로 이벤트 데이터를 강화하며, 해당 트리거에 연결된 트랜잭션 메시지 템플릿을 정의합니다. 예를 들어, 고객이 웹사이트 방문을 중단하면 Adobe Campaign으로 이벤트를 전송하여 15분 내로 해당 고객에게 보낼 리마케팅 이메일에 활용할 수 있습니다.
+
+다음 다이어그램에서는 이 통합이 작동하는 방식을 자세히 설명합니다.
+
+![](assets/triggers_diagram.png)
 
 **관련 항목:**
 
