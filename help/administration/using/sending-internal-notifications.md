@@ -12,7 +12,7 @@ discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 # 내부 알림 보내기{#sending-internal-notifications}
 
-Adobe Campaign을 사용하면 애플리케이션에서 바로 중요한 시스템 활동에 대한 알림을 받을 수 있습니다. 실시간 알림은 관련 이해 관계자에게 정보를 제공하고 사용자에게 애플리케이션 내에서 활동 알림에 즉시 대응할 수 있는 기능을 제공합니다. 팀은 민첩성, 효율성 및 원활한 캠페인 실행을 보장합니다.
+Adobe Campaign은 애플리케이션에서 바로 중요한 시스템 활동에 대한 알림을 받을 수 있는 기능을 제공합니다. 실시간 알림은 관련 이해 관계자에게 정보를 제공하고 사용자에게 애플리케이션 내에서 활동 알림에 즉시 대응할 수 있는 기능을 제공합니다. 팀은 민첩성, 효율성 및 원활한 캠페인 실행을 보장합니다.
 
 ![](assets/pulse_3.png)
 
