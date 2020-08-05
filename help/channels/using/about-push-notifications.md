@@ -156,7 +156,7 @@ Android의 경우 Campaign은 알림 페이로드가 아닌 데이터 페이로�
 
 ### 푸시 채널에 사용할 수 있는 보고서는 무엇입니까? {#push-report-available}
 
-기본 보고서는 푸시 채널에 대해 Adobe Campaign에서 사용할 수 있습니다. 이 [설명서를 참조하십시오](../../reporting/using/push-notification-report.md).
+최신 보고서는 푸시 채널에 대해 Adobe Campaign에서 사용할 수 있습니다. 이 [설명서를 참조하십시오](../../reporting/using/push-notification-report.md).
 
 각 푸시 지표가 계산되는 방법을 이해하려면 이 [페이지를](../../reporting/using/indicator-calculation.md#push-notification-delivery) 참조하십시오.
 
