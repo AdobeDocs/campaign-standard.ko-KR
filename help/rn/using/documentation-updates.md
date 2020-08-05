@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '6092'
 ht-degree: 94%
@@ -472,7 +472,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 콘텐츠 디자인 안내서에 이메일 디자이너의 일반 가용성과 레거시 이메일 콘텐츠 편집기의 사용 중단을 반영하여 업데이트했습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
-[인앱](../../channels/using/about-in-app-messaging.md) 및 [푸시 알림](../../channels/using/about-push-notifications.md) 설명서를 업데이트했습니다.
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 Adobe Campaign의 다양한 대상자 유형에 대해 자세한 정보를 추가했습니다. [자세한 내용](../../audiences/using/about-audiences.md)
 
@@ -822,7 +822,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 이제 새로운 기술 정보를 사용할 수 있습니다. &quot;모바일 앱과 Adobe Mobile SDK 통합&quot;을 참조하십시오. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/integrate-mobile-sdk.html)
 
-사람 핵심 서비스 또는 Adobe Campaign와의 Audience Manager 통합 구성 지침이 추가되었습니다. [자세한 내용](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+사람 핵심 서비스 또는 Adobe Campaign과의 Audience Manager 통합 구성 지침이 추가되었습니다. [자세한 내용](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 승인 표에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
