@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 88%
+source-wordcount: '1564'
+ht-degree: 87%
 
 ---
 
@@ -407,8 +407,10 @@ ht-degree: 88%
       + [iOS 이미지 및 비디오 추가](administration/using/image-push-notification.md)
       + [푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
       + [로컬 알림 추적 구현](administration/using/local-tracking.md)
-      + [SyncWithLaunch 기술 워크플로우 FAQ](administration/using/syncwithlaunch-faq.md)
-      + [Adobe Experience Platform SDK 및 캠페인 시작하기](administration/using/aep-faq.md)
+      + [Adobe 실행 동기화 FAQ](administration/using/syncwithlaunch-faq.md)
+      + [Experience Platform SDK 통합 FAQ](administration/using/aep-faq.md)
+      + [Adobe Campaign Standard 사용 사례를 지원하기 위한 론치 규칙 구성](administration/using/configuring-rules-launch.md)
+      + [Adobe Campaign Standard에서 지원되는 모바일 사용 사례](administration/using/supported-mobile-use-cases.md)
    + 애플리케이션 설정 {#application-settings}
       + [Campaign Standard 설정 기본 정보](administration/using/about-campaign-standard-settings.md)
       + [외부 계정](administration/using/external-accounts.md)
@@ -421,7 +423,7 @@ ht-degree: 88%
 + API 작업 {#working-with-apis}
    + [Campaign Standard API 시작](api/using/get-started-apis.md)
    + Campaign Standard API 기본 정보 {#about-campaign-standard-apis}
-      + [Campaign Standard API의 장점](api/using/why-using-campaign-standard-apis.md)
+      + [Campaign Standard API를 사용해야 하는 이유](api/using/why-using-campaign-standard-apis.md)
       + [API 액세스 설정](api/using/setting-up-api-access.md)
    + 전반적 개념 {#global-concepts}
       + [반드시 알아야 할 사항](api/using/must-read.md)
