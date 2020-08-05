@@ -1,6 +1,6 @@
 ---
 title: Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보
-description: Audience Manager/People 핵심 서비스 통합을 통해 다양한 Adobe Experience Cloud 솔루션 내에서 고객 또는 세그먼트를 공유할 수 있습니다.
+description: Audience Manager/사람 핵심 서비스 통합을 통해 다른 Adobe Experience Cloud 솔루션 내에서 대상 또는 세그먼트를 공유할 수 있습니다.
 page-status-flag: never-activated
 uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
 contentOwner: sauviat
@@ -12,28 +12,45 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0062079addfbcd577faa1b16096f4588a05a8f78
+source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 3%
 
 ---
 
 
 # Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보{#about-campaign-audience-manager-or-people-core-service-integration}
 
-Adobe Campaign을 사용하면 다양한 Adobe Experience Cloud 애플리케이션과 고객/세그먼트를 교환하고 공유할 수 있습니다. Adobe **Campaign과** **People 코어 서비스** (프로필 및 **대상 핵심 서비스라고도 함**) 또는 Adobe Audience Manager를 통합하면 다음 작업을 수행할 수 있습니다.
+>[!CAUTION]
+>
+>교환된 데이터에 따라 Adobe Campaign에서 대상을 가져오는 것은 법적 제한이 적용될 수 있습니다.
 
-* 다양한 Adobe Experience Cloud 솔루션의 고객/세그먼트를 Adobe Campaign으로 가져올 수 있습니다. 대상을 Adobe Campaign의 **[!UICONTROL Audiences]** 메뉴에서 가져올 수 있습니다.
-* 대상을 공유 대상/세그먼트로 내보낼 수 있습니다. 이러한 대상은 사용하는 다양한 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. 워크플로우에서 활동을 타깃팅한 후 **[!UICONTROL Save audience]** 활동을 사용하여 대상을 내보낼 수 있습니다.
+Adobe Campaign을 사용하면 다양한 Adobe Experience Cloud 애플리케이션과 대상/세그먼트를 교환하고 공유할 수 있습니다. 사용자 코어 서비스 **(** 프로필 및 대상 핵심 서비스라고도 함 **) 또는 Adobe Audience Manager과** Adobe Campaign ****&#x200B;를 통합하면 다음 작업을 수행할 수 있습니다.
+
+* 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져올 수 있습니다. 대상은 Adobe Campaign의 **[!UICONTROL Audiences]** 메뉴에서 가져올 수 있습니다.
+* 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상은 사용하는 다른 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. 워크플로우에서 활동을 타깃팅한 후 활동을 사용하여 대상을 내보낼 수 **[!UICONTROL Save audience]** 있습니다.
 
 통합은 두 가지 유형의 Adobe Experience Cloud ID를 지원합니다.
 
-* **방문자 ID**:이 유형의 ID를 사용하면 Adobe Experience Cloud 방문자를 Adobe Campaign 프로필과 조정할 수 있습니다.
-* **선언된 ID**:이 유형의 ID를 사용하면 모든 유형의 데이터를 Adobe Campaign 데이터베이스의 프로필과 조정할 수 있습니다. 이 통합은 일반 선언된 ID, 해시된 선언된 ID 및 암호화된 선언된 ID를 지원합니다.
+* **방문자 ID**: 이 유형의 ID를 사용하면 Adobe Experience Cloud 방문자를 Adobe Campaign 프로필과 조정할 수 있습니다. Adobe IMS를 통해 연결이 활성화되면 Marketing Cloud 방문자 ID 서비스가 활성화되며, 이 서비스는 Adobe Campaign에서 사용하는 영구 쿠키를 대체합니다. 방문자를 식별한 다음 프로필에 연결할 수 있습니다.
+   <br>방문자 ID는 프로필이 Adobe Campaign을 통해 보낸 이메일을 클릭하는 즉시 프로필에 연결됩니다.
+   * 프로필에 이미 방문자 ID가 있는 경우 프로필의 브라우저 데이터를 통해 Adobe Campaign이 프로필을 복구하여 방문자 ID에 자동으로 연결할 수 있습니다.
+   * 방문자 ID가 없는 경우 새 ID가 만들어집니다. 이 방문자 ID는 프로필 추적 로그에 저장됩니다.
+
+   그러면 ID가 동일한 CNAME의 다른 Adobe Marketing Cloud 애플리케이션에서 인식됩니다.
+
+* **선언된 ID**: 이 유형의 ID를 사용하면 모든 유형의 데이터를 Adobe Campaign 데이터베이스의 요소와 대사할 수 있습니다. Adobe Campaign에 사전 정의된 조정 키로 표시됩니다. 데이터를 교환할 때 Adobe Campaign 데이터베이스 식별자가 해시됩니다. 이렇게 해시된 ID는 가져오기 또는 내보내기와 관련된 Adobe Marketing Cloud 대상의 해시된 ID와 비교됩니다.
+   <br>이 통합은 정규적으로 선언된 ID, 해시된 선언된 ID 및 암호화된 선언된 ID를 지원합니다.
+
+   >[!CAUTION]
+   >
+   >선언된 ID는 Adobe Audience Manager에서만 작동합니다. 선언된 ID가 없으면 작동하지 않습니다.
 
    암호화를 사용하면 암호화 알고리즘을 지정하여 선언된 ID를 사용하여 데이터 소스(예: PII)에서 암호화된 데이터를 공유할 수 있습니다.
 
-   예를 들어 암호화된 이메일 주소 또는 SMS 번호를 해독할 수 있으므로 Adobe Campaign 데이터베이스에 프로필이 없더라도 사용자에게 트리거된 메시지를 보낼 수 있습니다.
+   예를 들어 암호화된 이메일 주소 또는 SMS 번호를 해독할 수 있으므로 Adobe Campaign 데이터베이스에 해당 프로필이 없더라도 사용자에게 트리거된 메시지를 보낼 수 있습니다.
 
->[!CAUTION]
->
->교환된 데이터에 따라 Adobe Campaign에서 대상을 가져오는 경우 법적 제한이 적용될 수 있습니다
+다음 다이어그램에서는 이 통합이 작동하는 방식을 자세히 설명합니다. 여기서 AAM은 Adobe Audience Manager과 Adobe Campaign Standard의 ACS를 말한다.
 
+![](assets/aam_diagram.png)
