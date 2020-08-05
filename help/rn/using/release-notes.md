@@ -73,7 +73,7 @@ ht-degree: 88%
 
 **추가 기능** (7월 13일부터 시작)
 
-* **AI 기반의 전송 시간 최적화 및 프로필 점수** - 이제 고객 여정의 디자인과 전달을 최적화하여 각 개인의 참여 선호도를 예측할 수 있습니다. 고객 여정 AI를 기반으로 하는 Adobe Campaign은 과거 참여 지표를 기반으로 개방 비율, 최적의 전송 시간, 예측 가능한 이탈을 분석하고 예측할 수 있습니다. [자세히 알아보기](../../sending/using/predictive.md)
+* **AI 기반의 전송 시간 최적화 및 프로필 점수** - 이제 고객 여정의 디자인과 전달을 최적화하여 각 개인의 참여 선호도를 예측할 수 있습니다. 고객 여정 AI를 기반으로 하는 Adobe Campaign은 과거 참여 지표를 기반으로 공개 비율, 최적의 전송 시간, 예측 이탈을 분석하고 예측할 수 있습니다. [자세히 알아보기](../../sending/using/predictive.md)
 * **브라질의 새로운 개인 정보 보호 규정** - Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도, Adobe은 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 대한 준비를 용이하게 하는 데 도움이 됩니다. 개인 정보 보호 요청을 만들 때 LGPD 규정이 Adobe 개인 정보 보호 코어 서비스에 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
 
 **향상된 기능**
