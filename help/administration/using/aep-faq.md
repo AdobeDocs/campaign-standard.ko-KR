@@ -12,21 +12,21 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 0%
+source-wordcount: '813'
+ht-degree: 2%
 
 ---
 
 
-# Adobe Experience Platform SDK 및 Campaign Standard 시작하기 {#aep-faq}
+# Experience Platform SDK 통합 FAQ {#aep-faq}
 
-Experience Platform SDK 응용 프로그램과 함께 푸시 알림 및 인앱 메시지를 전송하려면 Adobe Experience Platform SDK에서 모바일 응용 프로그램을 설정하고 Adobe Campaign에 구성해야 합니다.
+Experience Platform SDK 응용 프로그램과 함께 푸시 알림 및 인앱 메시지를 전송하려면, 모바일 응용 프로그램을 Adobe Experience Platform SDK에 설정하고 Adobe Campaign에 구성해야 합니다.
 
 아래 섹션에는 이 동기화에 대한 일반적인 질문이 나와 있습니다.
 
-푸시 또는 인앱(In-app)에 대한 자세한 내용은 다음 FAQ를 참조하십시오.
+푸시 또는 인앱(In-App)에 대한 자세한 내용은 다음 FAQ를 참조하십시오.
 
 * [푸시 알림 FAQ](../../channels/using/about-push-notifications.md#push-faq)
 * [인앱 FAQ](../../channels/using/about-push-notifications.md#in-app-faq)
@@ -39,7 +39,7 @@ Adobe Experience Platform SDK 및 Campaign Standard 통합에 대한 자세한 �
 * 실행/모바일 [개요 비디오](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
 * 시작/모바일 [팁 및 기법 가이드](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
-## Adobe Experience Platform SDK 통합을 Adobe Campaign Standard 및 Adobe Campaign Classic 모두에 사용할 수 있습니까? {#aep-validity}
+## Adobe Experience Platform SDK 통합을 Adobe Campaign Standard과 Adobe Campaign Classic에서 모두 사용할 수 있습니까? {#aep-validity}
 
 예. Adobe Campaign Standard과 Adobe Campaign Classic에서 모두 [!DNL Adobe Experience Platform SDK] 통합할 수 있습니다. 통합을 활성화하려면 해당 **[!UICONTROL Extension]** 을 [!DNL Adobe Launch] 설치해야 합니다.
 
@@ -51,16 +51,16 @@ Campaign Classic에 대한 자세한 내용은 이 [페이지](https://aep-sdks.
 
 ![](assets/faq.png)
 
->[!Note]
+>[!N참고]
 >
 >[!DNL Places] 통합에는 이벤트를 인앱 메시지(푸시 알림의 경우 N/A)의 트리거로 설정하여 데이터 및 로컬 알림 지원을 통해 프로필을 강화합니다. [!DNL Places] 자세한 내용은 이 [페이지를](../../channels/using/preparing-and-sending-an-in-app-message.md) 참조하십시오. <br>[!DNL Places] 제한된 통합에는 데이터와 프로파일 강화가 [!DNL Places] 포함됩니다.
 
-## Adobe Campaign Standard에서 Adobe Experience Platform SDK 통합이 용이하게 하는 사용 사례는? {#aep-use-cases}
+## Adobe Experience Platform SDK 통합이 Adobe Campaign Standard에서 용이하게 하는 사용 사례는? {#aep-use-cases}
 
 지원되는 사용 사례는 다음과 같습니다.
 
 * 캠페인 **[!UICONTROL Mobile Profile]** 에서 가져오기( **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** 탭에서 ECID로 확인)
-* Adobe Campaign **[!UICONTROL Mobile Profile]** 의 강화(appSubscriberRcp 테이블 **[!UICONTROL Custom resource Extension]** 필요)
+* Adobe Campaign **[!UICONTROL Mobile Profile]** 의 기능 강화(appSubscriberRcp 테이블 **[!UICONTROL Custom resource Extension]** 필요)
 * 푸시 메시지 전송을 위한 푸시 토큰 확보(푸시 메시지를 수신하려면 사용자 옵트인 필요)
 * 푸시 및 인앱 메시지 전송
 * 푸시 및 인앱 메시지와의 사용자 상호 작용을 추적하고 해당 메시지에 대한 보고서를 제공합니다.
@@ -70,14 +70,14 @@ Campaign Classic에 대한 자세한 내용은 이 [페이지](https://aep-sdks.
 이렇게 하려면 아래 절차를 따르십시오.
 
 1. In **[!UICONTROL Mobile property]** 을 구성합니다 [!DNL Launch].
-1. Adobe Campaign Standard 확장 설치 또한 Adobe Campaign Standard 확장 기능을 사용하려면 기본적으로 **[!UICONTROL Mobile Core]**&#x200B;에 설치되어 있는 **[!UICONTROL Profile]** 확장 기능 **[!UICONTROL Lifecycle]** 이 필요합니다 [!DNL Launch].
+1. Adobe Campaign Standard 익스텐션을 설치합니다. 또한 Adobe Campaign Standard 확장 기능을 사용하려면 기본적으로 **[!UICONTROL Mobile Core]**&#x200B;에 설치되어 있는 **[!UICONTROL Profile]** 확장 기능과 **[!UICONTROL Lifecycle]** 익스텐션이 필요합니다 [!DNL Launch].
    * 사용자는 라이프사이클 이벤트의 빈도에 영향을 주는 **[!UICONTROL Mobile Core]** 확장 시 세션 시간 초과를 구성해야 합니다.
    * 확장이 구성되면 사용자는 iOS용 코드 및 Android용 Grade를 사용하여 모바일 앱에 적절한 종속성을 추가해야 합니다. 여기 [에 있는 길을 따라가세요](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
    * 항상 최신 버전의 라이브러리를 사용할 수 있습니다.
    * 모바일 앱에서 등록, **[!UICONTROL Campaign]****[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**&#x200B;및 **[!UICONTROL Lifecycle]** 확장 **[!UICONTROL Signal]** 기능을 사용할 수 있습니다. 여기 [에 있는 길을 따라가세요](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
    * 익스텐션이 등록되면 ACPCore를 시작합니다. Android의 경우 setApplication onCreate()를 사용하십시오. Launch에서 모바일 속성에 대한 모바일 설치 지침에 제공된 지침을 따르십시오.
    * 다음 SDK API도 필요합니다. Android용 API와 iOS용 API에 대해 [여기](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) 설명된 대로 라이프사이클 시작 및 일시 중지 API를 구현합니다.
-1. Adobe Campaign Standard **[!UICONTROL Mobile Property]** 에서 을 구성합니다. 이 절차를 [따르십시오](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Adobe Campaign Standard **[!UICONTROL Mobile Property]** 에서 a를 구성합니다. 이 절차를 [따르십시오](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Campaign에서 모바일 프로필을 강화하려면 어떻게 해야 합니까? {#enrich-mobile-profile}
 
@@ -95,11 +95,11 @@ CollectPII 호출의 목적은 캠페인의 모바일 프로필을 강화시키�
 
 CollectPII 호출의 빈도와 디자인은 비즈니스 요구 사항에 따라 지정되어야 하며 DB에서 추가 로드를 생성하므로 맹목적으로 발사되어서는 안 됩니다.
 
-### Campaign 또는 Launch에서 Adobe Experience Platform 앱에 액세스하려고 하면 사용할 수 없는 속성이 발생하는 경우가 있습니다. {#aep-error}
+### Campaign 또는 Launch에서 Adobe Experience Platform 앱에 액세스하려고 하면 사용할 수 없는 속성이 오류가 발생하는 경우가 있습니다. {#aep-error}
 
 알려진 문제이며 토큰 만료 때문에 발생합니다. 로그인 후 로그인하십시오.
 
-## Adobe Experience Platform SDK(이전의 SDK V5)에 대해 자세히 알아보려면 유용한 리소스 권장 사항은 무엇입니까?{#resource-aep}
+## Adobe Experience Platform SDK(이전의 SDK V5)에 대한 자세한 내용을 살펴보려면 유용한 리소스 권장 사항은 무엇입니까?{#resource-aep}
 
 아래 리소스를 확인하십시오.
 
