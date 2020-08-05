@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform 대상자 타겟팅
-description: 워크플로우 내에서 Adobe Experience Platform 고객을 타깃팅하는 방법을 알아봅니다.
+description: 워크플로우 내에서 Adobe Experience Platform 고객을 타깃팅하는 방법을 살펴볼 수 있습니다.
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 5%
@@ -28,7 +28,7 @@ ht-degree: 5%
 
 세그먼트 빌더를 사용하여 [Adobe Experience Platform 대상을](../../audiences/using/aep-about-audience-destinations-service.md) 만든 후에는 워크플로우 내의 캠페인 대상처럼 사용하여 메시지를 개인화하고 보낼 수 있습니다.
 
-워크플로우에서 Adobe Experience Platform 대상을 활성화하려면 다음 단계를 수행합니다.
+Adobe Experience Platform 대상을 워크플로우로 활성화하려면 다음 단계를 수행합니다.
 
 1. 워크플로우에 **[!UICONTROL Read audience]** 활동을 추가한 다음 엽니다.
 
@@ -46,7 +46,7 @@ ht-degree: 5%
 
    >[!NOTE]
    >
-   >기본 키 외부에 있는 대상의 경우 사용자 지정 네임스페이스에 해당하는 사용자 지정 대상 매핑을 만들어야 합니다. 대상 매핑에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../administration/using/target-mappings-in-campaign.md).
+   >기본 키 외부에 있는 대상의 경우 사용자 지정 네임스페이스에 해당하는 사용자 지정 대상 매핑을 만들어야 합니다. For more information on Target Mapping, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
@@ -64,11 +64,11 @@ ht-degree: 5%
 >
 >Campaign Standard을 사용하면 모든 전달 채널 내에서 Adobe Experience Platform 대상을 타깃팅할 수 있습니다. 이메일, SMS 메시지, DM 메시지, 푸시 알림 및 인앱 메시지
 >
->*참고: 모든 푸시 및 인앱 메시지의 경우 Campaign Standard은 알려진 프로파일에 대해서만 배달을 지원합니다.
+>*참고: 모든 푸시 및 인앱 메시지의 경우 Campaign Standard은 알려진 프로필에 대해서만 제공을 지원합니다.
 
 워크플로우 및 전달 사용 방법에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [워크플로우 살펴보기](../../automating/using/get-started-workflows.md)
 * [워크플로우 구축](../../automating/using/building-a-workflow.md)
-* [소통 채널 살펴보기](../../channels/using/get-started-communication-channels.md)
+* [통신 채널 살펴보기](../../channels/using/get-started-communication-channels.md)
 * [채널 활동 기본 정보](../../automating/using/about-channel-activities.md)
