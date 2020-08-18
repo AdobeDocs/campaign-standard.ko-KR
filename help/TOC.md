@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
 workflow-type: tm+mt
 source-wordcount: '1564'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -136,13 +136,13 @@ ht-degree: 87%
    + [테스트 및 보내기 시작](sending/using/get-started-sending-messages.md)
    + 메시지 준비 및 테스트 {#preparing-and-testing-messages}
       + [게재 미리 보기](sending/using/previewing-messages.md)
-      + [보내기 준비](sending/using/preparing-the-send.md)
       + [교정본 보내기](sending/using/sending-proofs.md)
       + [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
       + [이메일의 제목란 테스트](sending/using/testing-subject-line-email.md)
       + [AI 기반의 이메일](sending/using/predictive.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
       + [트랩 사용](sending/using/using-traps.md)
+      + [보내기 준비](sending/using/preparing-the-send.md)
    + 메시지 예약 {#scheduling-messages}
       + [메시지 예약 기본 정보](sending/using/about-scheduling-messages.md)
       + [보내는 시각 최적화](sending/using/optimizing-the-sending-time.md)
@@ -303,8 +303,8 @@ ht-degree: 87%
       + [목록 내보내기](automating/using/exporting-lists.md)
       + [사용 사례: 사용자 정의 리소스 내보내기/가져오기](automating/using/exporting-importing-custom-resources.md)
    + 사용 사례 {#workflow-use-case}
-      + [워크플로우 사용 사례 정보](automating/using/about-workflow-use-cases.md)
-      + 배달 {#deliveries}
+      + [워크플로우 사용 사례 기본 정보](automating/using/about-workflow-use-cases.md)
+      + 게재 {#deliveries}
          + [보충 자료를 넣어 게재](automating/using/workflow-created-query-with-complement.md)
          + [프로필 생성 날짜에 배달 만들기](automating/using/workflow-creation-date-query.md)
          + [주간 게재](automating/using/workflow-weekly-offer.md)
