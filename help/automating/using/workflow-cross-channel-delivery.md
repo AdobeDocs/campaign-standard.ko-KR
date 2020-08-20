@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 86%
+source-wordcount: '856'
+ht-degree: 85%
 
 ---
 
@@ -138,7 +138,7 @@ Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습
 1. 전자 메일 속성을 입력하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 전자 메일 레이아웃을 만들려면 **[!UICONTROL Use the Email Designer]**&#x200B;을(를) 선택합니다.
 1. 콘텐츠를 편집하고 저장합니다.
-1. 메시지 대시보드 **[!UICONTROL Schedule]** 섹션에서 **[!UICONTROL Request confirmation before sending messages}**&#x200B;를 선택 취소합니다.
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
 
 SMS 게재를 만드는 방법:
 
