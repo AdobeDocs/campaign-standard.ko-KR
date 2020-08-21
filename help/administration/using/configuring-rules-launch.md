@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b8a25a90ea253666fb71c3f7aaf830d736e6c5b
+source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -128,15 +128,15 @@ ht-degree: 0%
 
    또한 PII 포스트백 수집에 라이프사이클 데이터를 전달하거나 이벤트 트리거에 따라 다른 포스트백을 전달할 수도 있습니다. 다음은 라이프사이클 데이터 JSON의 예입니다.
 
-       &quot;
-     {
-     
- marketingCloudId&quot;:&quot;{%%mcid%}&quot;,     &quot;cusDayslastlaunch&quot;: &quot;{%%DaysSinceLastUse%}&quot;,
- &quot;cusDay     Firstlaunch&quot;: &quot;{%%DaysSinceFirstUse%}&quot;,
-     &quot;cusLaunches&quot;: &quot;{%%Launches%}&quot;
-     }
-     &quot;
-   
+   ```
+   {
+   "marketingCloudId":"{%%mcid%%}",
+   "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
+   "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
+   "cusLaunches": "{%%Launches%%}"
+   }
+   ```
+
    %mcid%%, 같은%%mcid%% 등의 데이터 요소를 이중 비율로 묶어야 [!DNL Experience Platform Launch] 하며, 앱의 컨텍스트 변수는 단일 백분율로 묶어야 합니다(예: %contextdata.email%).
 
 1. 에서 **[!UICONTROL Content Type]** application/json **을 입력합니다**.
