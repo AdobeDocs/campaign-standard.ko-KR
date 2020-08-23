@@ -12,10 +12,10 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 5%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector는 현재 베타 버전이며, 사전 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스 권한을 원하는 경우 Adobe 고객 지원 센터에 문의하십시오.
+>Adobe Experience Platform 데이터 커넥터는 현재 베타 버전이며 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스 권한을 원하는 경우 Adobe 고객 지원 센터에 문의하십시오.
 
-Adobe Campaign Standard를 사용하면 API를 통해 데이터 매핑에 대한 즉각적인 인제스트를 트리거할 수 있으며 통합 요청의 상태를 검색할 수 있습니다.
+Adobe Campaign Standard을 사용하면 API를 통해 데이터 매핑의 즉각적인 인제스트를 트리거할 수 있으며 수집 요청의 상태를 검색할 수 있습니다.
 
-이 페이지에서는 데이터 매핑의 통합 상태를 트리거하고 검색하는 방법에 대해 설명합니다. Campaign Standard API에 대한 글로벌 정보는 [이 섹션을 참조하십시오](../../api/using/get-started-apis.md).
+이 페이지에서는 데이터 매핑의 통합 상태를 트리거하고 검색하는 방법에 대해 설명합니다. Campaign Standard API에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../api/using/get-started-apis.md).
 
 ## 사전 요구 사항 {#prerequisites}
 
@@ -45,19 +45,19 @@ API를 사용하기 전에 먼저 데이터 매핑이 Campaign Standard 인터�
 
    ![](assets/aep_datamapping_stop.png)
 
-1. 변경 내용 저장
+1. 변경 내용을 저장합니다
 
 이제 데이터 매핑 실행이 중지되었습니다. Campaign Standard API를 사용하여 수동으로 트리거할 수 있습니다.
 
 ## 데이터 매핑의 즉각적인 수집 시작 {#starting-immediate-ingestion}
 
-Adobe Experience Platform에 XDM 매핑을 즉시 수집하는 작업은 POST 작업으로 실행됩니다.
+POST 작업을 통해 XDM 매핑이 Adobe Experience Platform에 즉시 수집됩니다.
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->인제스트 POST API 호출을 실행하려면 사용자에게 **SQL 함수 실행** 역할이 있어야 합니다. 이 역할은 JS 스크립트 아래의 스크립트를 실행하여 캠페인 표준 관리자가 제공할 수 있습니다.
+>인제스트 POST API 호출을 실행하려면 사용자에게 **SQL 함수 실행** 역할이 있어야 합니다. 이 역할은 Campaign Standard 관리자가 JS 스크립트 아래의 스크립트를 실행하여 제공할 수 있습니다.
 >
 >`var sqlRoleObj = REST.head.roleBase.sql.get();
 REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
@@ -107,14 +107,14 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-XDM 매핑 요청 상태 및 관련 작업에 대한 자세한 내용은 Campaign Standard 인터페이스에서 플랫폼 **!UICONTROL [으로 데이터 내보내기&#x200B;]**상태 메뉴에서 사용할 수 있습니다(매핑 활성화[참조](../../developing/using/aep-mapping-activation.md)).
+XDM 매핑 요청 상태 및 관련 작업에 대한 자세한 내용은 **[!UICONTROL Status of data export to platform]** 메뉴(매핑 활성화 [참조)에서 확인할 수 있습니다](../../developing/using/aep-mapping-activation.md).
 
 GET 작업은 아래 정보를 반환합니다.
 
-* **batchId**: 이 필드는 일괄 준비 및 업로드 후에 오류가 발생한 경우에만 채워집니다.
-* **info**: XDM 매핑 ID,
-* **numRecords**: 인제스트한 레코드 수(성공 상태만),
-* **상태**: 인제스트 요청 상태(성공/실패/진행 중)
+* **batchId**:이 필드는 일괄 준비 및 업로드 후에 오류가 발생한 경우에만 채워집니다.
+* **info**:XDM 매핑 ID,
+* **numRecords**:인제스트한 레코드 수(성공 상태만),
+* **상태**:인제스트 요청 상태(성공/실패/진행 중)
 
 GET 작업에 대한 가능한 응답은 다음과 같습니다.
 
