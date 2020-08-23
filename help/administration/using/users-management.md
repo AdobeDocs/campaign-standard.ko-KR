@@ -12,9 +12,9 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1143'
 ht-degree: 100%
 
 ---
@@ -139,7 +139,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 1. 사용자의 보안 그룹을 확인합니다. 여기에서 해당 사용자에게 **[!UICONTROL Administrators]** 보안 그룹이 할당되었음을 확인할 수 있습니다.
 
-   >[!N참고]
+   >[!NOTE]
    >
    >보안 그룹을 제거하거나 사용자에게 추가하는 작업은 Admin Console에서만 수행할 수 있습니다.
 
