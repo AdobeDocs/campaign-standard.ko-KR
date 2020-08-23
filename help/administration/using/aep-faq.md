@@ -12,9 +12,9 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -51,9 +51,9 @@ Campaign Classic에 대한 자세한 내용은 이 [페이지](https://aep-sdks.
 
 ![](assets/faq.png)
 
->[!N참고]
+>[!NOTE]
 >
->[!DNL Places] 통합에는 이벤트를 인앱 메시지(푸시 알림의 경우 N/A)의 트리거로 설정하여 데이터 및 로컬 알림 지원을 통해 프로필을 강화합니다. [!DNL Places] 자세한 내용은 이 [페이지를](../../channels/using/preparing-and-sending-an-in-app-message.md) 참조하십시오. <br>[!DNL Places] 제한된 통합에는 데이터와 프로파일 강화가 [!DNL Places] 포함됩니다.
+>[!DNL Places] 통합에는 이벤트를 인앱 메시지(푸시 알림의 경우 N/A)의 트리거로 설정하여 데이터 및 로컬 알림 지원을 통해 프로필을 강화합니다. [!DNL Places] Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] 제한된 통합에는 데이터와 프로파일 강화가 [!DNL Places] 포함됩니다.
 
 ## Adobe Experience Platform SDK 통합이 Adobe Campaign Standard에서 용이하게 하는 사용 사례는? {#aep-use-cases}
 
