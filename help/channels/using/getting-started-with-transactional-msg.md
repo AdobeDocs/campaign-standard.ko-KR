@@ -13,9 +13,9 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9927fa9402c23766049afac0f3a10d83ed08236d
+source-git-commit: f85da747cc4e6226172d2ccda452aadb131daa99
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '729'
 ht-degree: 29%
 
 ---
@@ -27,8 +27,9 @@ ht-degree: 29%
 
 <table>
 <tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="90px"></td>
-<td class="noborder"><p>트랜잭션 메시지를 통해 고객에게 실시간으로 개별 메시지 <b>및 고유한 메시지를</b> 보낼 수 있습니다.<br>환영 메시지, 주문 확인, 암호 변경 등이 가능합니다.</p></td>
+<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
+<td class="noborder"><p>트랜잭션 메시지를 통해 고객에게 실시간으로 개별 메시지 <b>및 고유한 메시지를</b> 보낼 수 있습니다.</p></td>
+<td class="noborder"><p>환영 메시지, 주문 확인, 암호 변경 등이 가능합니다.</p></td>
 </tr>
 </table>
 
@@ -50,20 +51,28 @@ Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메�
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>트랜잭션 메시지</b></p></td>
-<td><p>웹 사이트와 같은 제공업체에서 전송하는 개인 및 고유한 통신입니다. 받는 사람이 확인하거나 확인하려는 중요한 정보가 포함되어 있으므로 특히 예상됩니다.</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+<td align="center"><br><p><b>트랜잭션 메시지</b></p></td>
+<td><p>웹 사이트와 같은 제공업체에서 전송하는 개인 및 고유한 통신입니다.</p></td>
+<td><p>받는 사람이 확인하거나 확인하려는 중요한 정보가 포함되어 있으므로 특히 예상됩니다.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>언제까지 해야 합니까?</b></p></td>
-<td><p> 이 메시지에는 중요한 정보가 포함되어 있으므로 사용자는 이 메시지가 실시간으로 전송될 것으로 예상하고 있습니다. 따라서 이벤트가 트리거되는 것과 도착하는 메시지 사이의 지연은 매우 짧아야 합니다.</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
+<td align="center"><p><b>언제까지 해야 합니까?</b></p></td>
+<td><p> 이 메시지에는 중요한 정보가 포함되어 있으므로 사용자는 이 메시지가 실시간으로 전송될 것으로 예상하고 있습니다.</p></td>
+<td><p>따라서 이벤트가 트리거되는 것과 도착하는 메시지 사이의 지연은 매우 짧아야 합니다.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>왜 중요하죠?</b></p></td>
-<td><p>일반적으로 트랜잭션 메시지는 높은 개방률을 가집니다. 따라서 고객의 행동에 강한 영향을 줄 수 있도록 신중하게 설계되어야 합니다. 클라이언트 관계를 정의합니다.</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
+<td align="center"><p><b>왜 중요하죠?</b></p></td>
+<td><p>일반적으로 트랜잭션 메시지는 높은 개방률을 가집니다. 그러므로 그것은 신중하게 설계되어야 한다.</p></td>
+<td><p>실제로 고객 관계를 정의하는 고객의 행동에 강한 영향을 미칠 수 있습니다.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>예제?</b></td>
-<td><p>계정 생성 후 환영 메시지, 주문 배송 확인, 송장, 암호 변경을 확인하는 메시지 또는 웹 사이트를 방문한 후 알림 메시지가 될 수 있습니다.</p></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
+<td align="center"><b>예제?</b></td>
+<td><p>계정 생성 후 환영 메시지, 주문 발송 확인, 송장..</p></td>
+<td><p>또한 암호 변경을 확인하는 메시지나 고객이 웹 사이트를 탐색한 후 알림을 받을 수 있습니다.</p></td>
 </tr>
 </table>
 
@@ -71,23 +80,25 @@ Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메�
 
 Adobe Campaign에서는 두 가지 유형의 트랜잭션 메시지를 사용할 수 있습니다.
 
-* [이벤트 트랜잭션 메시지](../../channels/using/event-transactional-messages.md)**는 이벤트를 타겟팅합니다**.<!--The data contained in the event itself is used to define the delivery target.-->
+<!--[Event transactional messages](../../channels/using/event-transactional-messages.md) targeting an **event**. The data contained in the event itself is used to define the delivery target.-->
 
-   <table>
-    <tr>
-    <td><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
-    <td><p><ul><li>프로필 정보는 포함하지 않습니다.</li><li>또한 <a href="../../sending/using/fatigue-rules.md">피로 규칙과는</a> 호환하지 않습니다(프로파일을 사용한 경우에도).</li><li>전달 대상은 이벤트 자체에 포함된 데이터로 정의됩니다.</li></ul></p></td>
-    </tr>
-    </table>
+<table>
+<tr>
+<td align="center"><a href="../../channels/using/event-transactional-messages.md">이벤트 트랜잭션 메시지</a><br><b>는 이벤트를 타겟팅합니다</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
+<td><p><ul><li>프로필 정보는 포함하지 않습니다.</li><li>또한 <a href="../../sending/using/fatigue-rules.md">피로 규칙과는</a> 호환하지 않습니다(프로파일을 사용한 경우에도).</li><li>전달 대상은 이벤트 자체에 포함된 데이터로 정의됩니다.</li></ul></p></td>
+</tr>
+</table>
 
-* [Adobe Campaign 마케팅 데이터베이스의 트랜잭션 메시지](../../channels/using/profile-transactional-messages.md) 타깃팅 **프로필을 프로파일링합니다**.<!--You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
+<!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
 
-   <table>
-    <tr>
-    <td><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
-    <td><p>트랜잭션 메시지를 프로파일링하여 다음을 수행할 수 있습니다.<ul><li>차단 목록 <b>또는</b> 피로 규칙의 <a href="../../sending/using/fatigue-rules.md">주소와 같은 마케팅 유형 규칙을 적용합니다</a>.</li><li>메시지에 구독 취소 링크를 포함합니다.</li><li>트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.</li><li>트랜잭션 메시지를 고객 여정에 활용합니다.</li></ul></p></td>
-    </tr>
-    </table>
+<table>
+<tr>
+<td align="center"><a href="../../channels/using/profile-transactional-messages.md">Adobe Campaign 마케팅</a><br>데이터베이스에서 트랜잭션 메시지 <b>타깃팅 프로필을 프로파일링합니다</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
+<td><p>트랜잭션 메시지를 프로파일링하여 다음을 수행할 수 있습니다.<ul><li>차단 목록 <b>또는</b> 피로 규칙의 <a href="../../sending/using/fatigue-rules.md">주소와 같은 마케팅 유형 규칙을 적용합니다</a>.</li><li>메시지에 구독 취소 링크를 포함합니다.</li><li>트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.</li><li>트랜잭션 메시지를 고객 여정에 활용합니다.</li></ul></p></td>
+</tr>
+</table>
 
 메시지 유형은 트랜잭션 메시지로 변환할 이벤트를 구성할 때 정의합니다. [트랜잭션 메시지 구성](../../administration/using/configuring-transactional-messaging.md)을 참조하십시오.
 
@@ -107,12 +118,9 @@ Adobe Campaign을 통해 장바구니에 제품을 추가한 사이트 사용자
 
 ### 1단계 - 이벤트 구성 만들기 및 게시 {#create-event-configuration}
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_config.svg" width="60px"></td>
-<td class="noborder"><p>"장바구니 포기"라는 이름을 지정할 이벤트를 구성하고 이 이벤트 구성을 게시합니다.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
+&quot;장바구니 포기&quot;라는 이름을 지정할 이벤트를 구성하고 이 이벤트 구성을 게시합니다.
 
 웹 사이트 개발자가 사용할 API가 배포되고 트랜잭션 메시지가 자동으로 생성됩니다.
 
@@ -120,23 +128,17 @@ Adobe Campaign을 통해 장바구니에 제품을 추가한 사이트 사용자
 
 ### 2단계 - 트랜잭션 메시지 편집 및 게시 {#create-transactional-message}
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>트랜잭션 메시지를 편집하고 개인화하여 테스트한 다음 게시할 수 있습니다.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+트랜잭션 메시지를 편집하고 개인화하여 테스트한 다음 게시할 수 있습니다.
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### 3단계 - 이벤트 트리거 통합 {#integrate-event-trigger}
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_api.svg" width="60px"></td>
-<td class="noborder"><p>REST 트랜잭션 메시지 API를 사용하여 이벤트를 웹 사이트에 통합합니다.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
+REST 트랜잭션 메시지 API를 사용하여 이벤트를 웹 사이트에 통합합니다.
 
 클라이언트가 장바구니를 포기하면 이벤트가 트리거됩니다.
 
@@ -146,12 +148,9 @@ For more on editing and publishing a transactional message, see [Event transacti
 
 <!--Once all of these steps have been carried out, the message can be delivered:-->
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_notification.svg" width="60px"></td>
-<td class="noborder"><p><br>사용자가 장바구니에 제품을 주문하지 않고 사이트를 떠나면 알림 이메일을 자동으로 받게 됩니다.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_notification.svg" width="60px">
+
+사용자가 장바구니에 제품을 주문하지 않고 사이트를 떠나면 알림 이메일을 자동으로 받게 됩니다.
 
 ## 주요 단계 {#key-steps}
 
