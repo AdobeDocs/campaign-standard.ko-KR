@@ -12,10 +12,10 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
 workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 0%
 
 ![](assets/dynamic_report_compatibility.png)
 
-## 차원 {#dimensions}
+## Dimension {#dimensions}
 
 아래 표는 보고서에 사용된 차원 목록과 해당 정의를 제공합니다.
 
 <table> 
  <thead> 
   <tr> 
-   <th> 차원<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> 정의<br /> </th> 
   </tr> 
  </thead> 
@@ -83,8 +83,8 @@ ht-degree: 0%
    <td> 모바일 응용 프로그램 이름<br /> </td> 
   </tr> 
   <tr> 
-   <td> Platform<br /> </td> 
-   <td> 메시지를 연/본/클릭한 장치의 Platform.<br /> </td> 
+   <td> 플랫폼<br /> </td> 
+   <td> 메시지를 연/본/클릭한 장치의 플랫폼.<br /> </td> 
   </tr> 
   <tr> 
    <td> 프로필<br /> </td> 
@@ -92,14 +92,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 푸시 플랫폼<br /> </td> 
-   <td> 푸시 알림이 열린 장치의 Platform(예: iOS 또는 Android).<br /> </td> 
+   <td> 푸시 알림이 열린 장치의 플랫폼(예: iOS 또는 Android).<br /> </td> 
   </tr> 
   <tr> 
    <td> 수신자 도메인<br /> </td> 
    <td> 이메일을 여는 데 사용되는 도메인입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 반복 전달<br /> </td> 
+   <td> 반복 게재<br /> </td> 
    <td> 반복 게재의 레이블 및 ID입니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -156,8 +156,8 @@ ht-degree: 0%
    <td> 이메일을 스팸 또는 정크 메일로 선언한 받는 사람 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 블록 목록 속도<br /> </td> 
-   <td> 블록 목록에 표시된 배달 비율.<br /> </td> 
+   <td> 차단 목록 속도<br /> </td> 
+   <td> 차단 목록에 표시된 배달 비율.<br /> </td> 
   </tr> 
   <tr> 
    <td> 바운스 수 + 오류<br /> </td> 
@@ -306,14 +306,14 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 열기<br /> </td> 
-   <td> 장치에 배달되고 사용자가 클릭한 총 푸시 알림 수로 앱을 엽니다. 이 방법은 푸시 클릭과 비슷하지만 알림이 해제된 경우 공개 푸시가 트리거되지 않습니다.<br /> </td> 
+   <td> 장치에 배달되고 사용자가 클릭한 총 푸시 알림 수로, 앱을 엽니다. 이 방법은 푸시 클릭과 비슷하지만 알림이 해제된 경우 공개 푸시가 트리거되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 개방 비율<br /> </td> 
    <td> 열린 푸시 알림 비율.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 고유 클릭<br /> </td> 
+   <td> 고유한 클릭 수<br /> </td> 
    <td> 고유 사용자가 푸시 알림과 상호 작용하는 횟수(예: 알림 또는 단추 클릭).<br /> </td> 
   </tr> 
   <tr> 
@@ -397,63 +397,63 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 연령: 부머스 1<br /> </td> 
+   <td> 연령:부머스 1<br /> </td> 
    <td> 1946년부터 1954년까지 태어난 수신자<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 부머스 2<br /> </td> 
+   <td> 연령:부머스 2<br /> </td> 
    <td> 1955년부터 1965년까지 태어난 수신자<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 18~25<br /> </td> 
-   <td> 18세에서 25세까지의 수신자입니다.<br /> </td> 
+   <td> 연령:18~25<br /> </td> 
+   <td> 18세에서 25세까지의 수령자<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 26에서 30까지<br /> </td> 
+   <td> 연령:26에서 30까지<br /> </td> 
    <td> 26살부터 30살까지 받는 사람<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 31~40<br /> </td> 
+   <td> 연령:31~40<br /> </td> 
    <td> 31세에서 40세까지의 수신자입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 41~50<br /> </td> 
+   <td> 연령:41~50<br /> </td> 
    <td> 41세부터 50세까지의 수신자입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 세대 X<br /> </td> 
+   <td> 연령:세대 X<br /> </td> 
    <td> 수령인.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: Y 세대(밀레니엄 세대)<br /> </td> 
+   <td> 연령:Y 세대(밀레니엄 세대)<br /> </td> 
    <td> 1977년부터 1994년까지 태어난 수신자<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: Z 세대<br /> </td> 
+   <td> 연령:Z 세대<br /> </td> 
    <td> 1995년생부터 오늘날까지<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 50개 이상<br /> </td> 
+   <td> 연령:50개 이상<br /> </td> 
    <td> 50세 이상인 수신자입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 25개 미만<br /> </td> 
+   <td> 연령:25개 미만<br /> </td> 
    <td> 25세 미만인 수신자입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 30개 미만<br /> </td> 
+   <td> 연령:30개 미만<br /> </td> 
    <td> 30세 미만의 수신자입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 40 미만<br /> </td> 
+   <td> 연령:40 미만<br /> </td> 
    <td> 40세 미만의 수신자입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 50개 미만<br /> </td> 
+   <td> 연령:50개 미만<br /> </td> 
    <td> 50세 미만의 수신자입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 연령: 자동 생성<br /> </td> 
+   <td> 연령:자동 생성<br /> </td> 
    <td> 1945년 또는 그 이전에 태어난 수신자<br /> </td> 
   </tr> 
   <tr> 
