@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >최종 사용자가 브랜드를 만들거나 수정할 수 없습니다. 이러한 작업은 Adobe Campaign 기술 관리자가 수행해야 합니다. 요청이 있으면 Adobe 고객 지원 센터에 문의하십시오.
 >
->트랜잭션 메시지 컨텍스트에서는 다중 브랜딩을 사용할 수 없습니다. 자세한 내용은 [트랜잭션 메시지 및 브랜딩](../../channels/using/about-transactional-messaging.md#permissions-and-branding)을 참조하십시오.
+>트랜잭션 메시지 컨텍스트에서는 다중 브랜딩을 사용할 수 없습니다. 자세한 내용은 [트랜잭션 메시지 및 브랜딩](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding)을 참조하십시오.
 
 브랜드는 **[!UICONTROL Administration > Instance settings > Brand configuration]** 메뉴에서 찾을 수 있습니다.
 
@@ -67,6 +67,7 @@ ht-degree: 100%
    * 고객이 회신할 수 있는 이메일 주소가 있는 **회신 대상(이메일 주소)**.
    * 브랜드 이름이 있는 **회신 대상(이름)**.
    * 오류가 발생한 경우 사용할 이메일 주소가 있는 **오류(이메일 주소)**.
+
    >[!IMPORTANT]
    >
    >이메일의 헤더 매개 변수를 업데이트한 후 템플릿에서 만든 이메일에서 발신자의 이름 및 이메일 주소가 변경되지 않은 경우, 템플릿의 고급 설정을 확인하십시오.
@@ -78,6 +79,7 @@ ht-degree: 100%
    * 사용자가 만드는 다른 랜딩 페이지를 호스팅 및 액세스하는 데 사용되는 **애플리케이션 서버의 외부 URL**.
    * 게재 중 추적된 URL로 사용되는 **추적 서버의 외부 URL**.
    * 게재에서 기본 미러 페이지로 사용되는 **미러 페이지 서버의 외부 URL**.
+
    >[!NOTE]
    >
    >Campaign 사용자 인터페이스에 랜딩 페이지 미리 보기 및 미러 페이지 렌더링을 표시하려면 애플리케이션 서버 및 미러 페이지 서버 URL의 보안이 안전해야 합니다. 이 경우, 이러한 URL을 설정할 때 http://가 아닌 https://를 사용하십시오.
