@@ -20,7 +20,7 @@ ht-degree: 100%
 ---
 
 
-# 사용자 지정 리소스 {#exporting-importing-custom-resources} 내보내기/가져오기 
+# 사용자 지정 리소스 내보내기/가져오기 {#exporting-importing-custom-resources}
 
 이 튜토리얼에서는 개발 환경에서 프로덕션 환경으로 사용자 지정 리소스 패키지를 내보내고 가져오는 방법에 대해 설명합니다.
 
