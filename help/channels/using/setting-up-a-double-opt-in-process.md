@@ -12,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 89%
@@ -80,7 +80,7 @@ ht-degree: 89%
 
 ### 이벤트 만들기 {#create-the-event}
 
-확인 이메일은 양식의 유효성 검사라는 이벤트에 반응하는 [트랜잭션 메시지](../../channels/using/about-transactional-messaging.md)입니다. 먼저 이벤트를 만든 다음 트랜잭션 메시지의 템플릿을 만들어야 합니다.
+확인 이메일은 양식의 유효성 검사라는 이벤트에 반응하는 [트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md)입니다. 먼저 이벤트를 만든 다음 트랜잭션 메시지의 템플릿을 만들어야 합니다.
 
 1. Adobe Campaign 로고에서 액세스할 수 있는 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 메뉴에서 이벤트를 만들고 &#39;**CONFIRM**&#39; 레이블을 입력합니다.
 1. **[!UICONTROL Profile]** 타겟팅 차원을 선택하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
