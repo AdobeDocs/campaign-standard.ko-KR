@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 99%
@@ -64,7 +64,7 @@ ht-degree: 99%
 
 **향상된 기능**
 
-* 트랜잭션 메시지 사용자 경험이 향상되었으며 인터페이스 일관성이 개선되었습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md)
+* 트랜잭션 메시지 사용자 경험이 향상되었으며 인터페이스 일관성이 개선되었습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 * 이제 Campaign Standard에서 워크플로우의 추가 데이터를 사용하여 테스트 프로필에 증명을 전송할 수 있습니다.
 * 외부 API 활동에 대한 보호 기능이 업데이트되었습니다. [자세한 내용](../../automating/using/external-api.md)
 
