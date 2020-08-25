@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
+source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 29%
@@ -35,8 +35,8 @@ Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메�
 >[!NOTE]
 >
 >트랜잭션 메시지는 옵션에 따라 이메일, SMS 또는 푸시 알림으로 보낼 수 있습니다. 사용권 계약을 확인하십시오.
->
->Adobe Campaign은 다른 배달보다 트랜잭션 메시지 처리에 우선 순위를 매깁니다.
+
+Adobe Campaign은 다른 배달보다 트랜잭션 메시지 처리에 우선 순위를 매깁니다.
 
 트랜잭션 메시지는 Adobe Campaign Standard API에서도 사용할 수 있습니다. 자세한 내용은 [전용 설명서](../../api/using/managing-transactional-messages.md)를 참조하십시오.
 
@@ -63,7 +63,7 @@ Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메�
 <td><p>실제로 고객 관계를 정의하는 고객의 행동에 강한 영향을 미칠 수 있습니다.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>예제?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><p><b>예제?</b></p></td>
 <td><p>계정 생성 후 환영 메시지, 주문 발송 확인, 송장..</p></td>
 <td><p>또한 암호 변경을 확인하는 메시지나 고객이 웹 사이트를 탐색한 후 알림을 받을 수 있습니다.</p></td>
 </tr>
@@ -77,11 +77,11 @@ Adobe Campaign에서는 두 가지 유형의 트랜잭션 메시지를 사용할
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">이벤트 트랜잭션 메시지</a><br><b>는 이벤트를 타겟팅합니다</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">이벤트 트랜잭션 메시지</a><br><b>는 이벤트를 타겟팅합니다</b></p></td>
 <td><p><ul><li>프로필 정보는 포함하지 않습니다.</li><li>또한 <a href="../../sending/using/fatigue-rules.md">피로 규칙과는</a> 호환하지 않습니다(프로파일을 사용한 경우에도).</li><li>전달 대상은 이벤트 자체에 포함된 데이터로 정의됩니다.</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">Adobe Campaign 마케팅</a><br>데이터베이스에서 트랜잭션 메시지 <b>타깃팅 프로필을 프로파일링합니다</b>.</td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b></p></td>
 <td><p>트랜잭션 메시지를 프로파일링하여 다음을 수행할 수 있습니다.<ul><li>차단 목록 <b>또는</b> 피로 규칙의 <a href="../../sending/using/fatigue-rules.md">주소와 같은 마케팅 유형 규칙을 적용합니다</a>.</li><li>메시지에 구독 취소 링크를 포함합니다.</li><li>트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.</li><li>트랜잭션 메시지를 고객 여정에 활용합니다.</li></ul></p></td>
 </tr>
 </table>
