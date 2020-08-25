@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b6607afe05e762c87a95fd88bda0196baa57f1e
+source-git-commit: 6c768132a297d324f6aec87c215222b3587091c6
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 88%
@@ -23,16 +23,13 @@ ht-degree: 88%
 
 # 트랜잭션 메시지 제한 사항 {#transactional-messaging-limitations}
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>아래의 섹션에는 트랜잭션 메시지 작성을 시작하기 전에 알아야 할 제한 사항이 나와 있습니다.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
+아래의 섹션에는 트랜잭션 메시지 작성을 시작하기 전에 알아야 할 제한 사항이 나와 있습니다.
 
 구성 및 작성 방법을 포함한 트랜잭션 메시지에 대한 자세한 내용은 트랜잭션 메시지 [시작하기를 참조하십시오](../../channels/using/getting-started-with-transactional-msg.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >트랜잭션 메시지에 액세스하려면 관리 권한이 있어야 합니다.
 
