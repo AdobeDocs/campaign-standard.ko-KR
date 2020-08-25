@@ -12,9 +12,9 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ ht-degree: 100%
       >
       >기본 메시지를 수정하려면 **[!UICONTROL Show internal transactional messages]** 상자를 선택한 후 해당 레이블을 **[!UICONTROL Service properties]** 섹션에서 클릭하거나 Adobe Campaign 트랜잭션 메시지 목록에서 선택합니다.
 
-   * **[!UICONTROL Custom message]**: 이 모드에서는 각 서비스의 사용자 정의 확인 메시지를 처리할 수 있습니다. 그 다음 [트랜잭션 메시지](../../channels/using/about-transactional-messaging.md) 템플릿에 연결된 **[!UICONTROL Custom subscription event configuration]**&#x200B;을(를) 선택합니다. 자세한 내용은 [서비스 구독 확인](../../audiences/using/confirming-subscription-to-a-service.md)을 참조하십시오.
+   * **[!UICONTROL Custom message]**: 이 모드에서는 각 서비스의 사용자 정의 확인 메시지를 처리할 수 있습니다. 그 다음 [트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md) 템플릿에 연결된 **[!UICONTROL Custom subscription event configuration]**&#x200B;을(를) 선택합니다. 자세한 내용은 [서비스 구독 확인](../../audiences/using/confirming-subscription-to-a-service.md)을 참조하십시오.
 
 1. 서비스를 저장합니다. 이제 사용할 준비가 되었습니다.
 
