@@ -11,9 +11,9 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ### 1단계: 확인 이메일 만들기 {#step-1--create-the-confirmation-email-1}
 
-뉴스레터를 구독(랜딩 페이지 또는 기타 수단을 통해)하는 각 프로필에 자동으로 확인 이메일을 보냅니다. 구독은 이벤트로 간주되며 이메일은 서비스를 구독하는 각 프로필을 타겟팅하는 [트랜잭션 메시지](../../channels/using/about-transactional-messaging.md)입니다.
+뉴스레터를 구독(랜딩 페이지 또는 기타 수단을 통해)하는 각 프로필에 자동으로 확인 이메일을 보냅니다. 구독은 이벤트로 간주되며 이메일은 서비스를 구독하는 각 프로필을 타겟팅하는 [트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md)입니다.
 
 확인 이메일을 만드는 단계는 아래에 설명되어 있습니다. 트랜잭션 메시지가 서비스에서 참조되므로, 이를 먼저 만들어야 합니다.
 
@@ -135,13 +135,13 @@ ht-degree: 100%
 
 ### 1단계: 확인 이메일 만들기 {#step-1--create-the-confirmation-email-2}
 
-랜딩 페이지를 통해 뉴스레터를 구독하는 각 프로필에 자동으로 확인 이메일을 보냅니다. 구독은 이벤트로 간주되며 이메일은 서비스에 가입한 각 프로필을 타겟팅하는 [트랜잭션 메시지](../../channels/using/about-transactional-messaging.md)입니다.
+랜딩 페이지를 통해 뉴스레터를 구독하는 각 프로필에 자동으로 확인 이메일을 보냅니다. 구독은 이벤트로 간주되며 이메일은 서비스에 가입한 각 프로필을 타겟팅하는 [트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md)입니다.
 
 이러한 요소를 만드는 단계는 아래에 설명되어 있습니다. 트랜잭션 메시지가 랜딩 페이지에서 참조되므로, 이를 먼저 만들어야 합니다.
 
 #### 이벤트 만들기 {#create-the-event-2}
 
-확인 이메일은 서비스 구독이라는 이벤트에 반응하는 [트랜잭션 메시지](../../channels/using/about-transactional-messaging.md)입니다. 이 메시지는 뉴스레터 구독을 확인하기 위해 전송됩니다.
+확인 이메일은 서비스 구독이라는 이벤트에 반응하는 [트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md)입니다. 이 메시지는 뉴스레터 구독을 확인하기 위해 전송됩니다.
 
 1. Adobe Campaign 로고에서 액세스할 수 있는 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 메뉴에서 이벤트를 만듭니다.
 1. 레이블을 입력하고 타겟팅 차원을 선택한 뒤 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
