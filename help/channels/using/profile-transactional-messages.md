@@ -12,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 94%
@@ -29,7 +29,7 @@ ht-degree: 94%
 * 트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.
 * 트랜잭션 메시지를 고객 여정에 활용합니다.
 
-이벤트(위 [예제](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)의 경우 장바구니 중단)를 만들어 게시하면 해당하는 트랜잭션 메시지가 자동으로 생성됩니다.
+이벤트(위 [예제](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)의 경우 장바구니 중단)를 만들어 게시하면 해당하는 트랜잭션 메시지가 자동으로 생성됩니다.
 
 구성 단계는 [프로필 트랜잭션 메시지를 보내기 위한 이벤트 구성](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 섹션에 있습니다.
 
