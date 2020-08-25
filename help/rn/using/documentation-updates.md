@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
 workflow-type: tm+mt
-source-wordcount: '6092'
-ht-degree: 94%
+source-wordcount: '6119'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 94%
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+## 설명서 업데이트 - 2020년 8월 {#doc-updates-august-2020}
+
+트랜잭션 메시지 시작을 위한 새로운 업데이트 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
+
+트랜잭션 메시지 제한 섹션이 이동되었습니다. [자세한 내용](../../channels/using/transactional-messaging-limitations.md)
 
 ## 설명서 업데이트 - 2020년 7월 {#doc-updates-july-2020}
 
@@ -36,21 +42,21 @@ Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추�
 
 개인정보 보호 핵심 서비스 통합을 통해 개인 정보 요청을 관리하는 방법에 대한 설명을 포함하여 Campaign Standard의 개인 정보 관리 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-새로운 AI 기반의 이메일 기능: 보내기 시간 최적화 및 프로필 점수 [자세한 내용](../../sending/using/predictive.md)
+새로운 AI 기반의 이메일 기능:보내기 시간 최적화 및 프로필 점수 [자세한 내용](../../sending/using/predictive.md)
 
 ## 설명서 업데이트 - 2020년 6월 {#doc-updates-june-2020}
 
 워크플로우 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../automating/using/about-workflow-use-cases.md)
 
-Campaign 컨트롤 패널 및 캠페인 워크플로우를 사용하여 데이터를 [암호화하고](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) [해독하는](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 방법에 사용 사례가 추가되었습니다.
+제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)하고 [해독](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)하는 방법에대한 사용 사례가 추가되었습니다.
 
-&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;차단 목록&#39; 과 &#39;허용 목록으로 대체될 것입니다.
+&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;차단 목록&#39; 및 &#39;허용 목록&#39;으로 대체될 것입니다.
 
 기존 지원 웹 사이트에 대한 참조가 새 URL로 대체되었습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
 사용자 지정 리트머스 계정 구성이 받은 편지함 렌더링 기능에서 제거되었습니다. [자세한 내용](../../sending/using/email-rendering.md)
 
-Campaign Standard - Microsoft Dynamics 365 통합을 현재 사용할 수 없습니다. 새 커넥터가 개발되고 있으며 향후 출시될 예정입니다. 관련 도움말 페이지가 제거되었습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard - Microsoft Dynamics 365 통합을 현재 사용할 수 없습니다. 새로운 커넥터가 개발되고 있으며 향후 출시될 예정입니다. 관련 도움말 페이지가 제거되었습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## 설명서 업데이트 - 2020년 5월 {#doc-updates-may-2020}
 
@@ -128,7 +134,7 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 
 이메일의 제목란을 테스트하여 오픈율을 예측하는 방법을 설명하는 페이지를 업데이트 및 개선했습니다. 또한 여기에 [문제 해결](../../sending/using/testing-subject-line-email.md#troubleshooting) 섹션을 새로 추가했습니다. [자세한 내용](../../sending/using/testing-subject-line-email.md)
 
-트랜잭션 메시지 섹션을 업데이트했습니다. 다중 사용자 인터페이스의 소규모 업데이트 및 개선 사항을 반영했습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md)
+트랜잭션 메시지 섹션을 업데이트했습니다. 다중 사용자 인터페이스의 소규모 업데이트 및 개선 사항을 반영했습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
 외부 API 활동 가드레일 관련 정보를 업데이트했습니다. [자세한 내용](../../automating/using/external-api.md)
 
@@ -208,7 +214,7 @@ Campaign Standard에서 워크플로우를 사용하여 컨트롤 그룹을 만�
 
 랜딩 페이지 속성과 관련된 정보를 전용 섹션으로 이동했습니다. [자세한 내용](../../channels/using/configuring-landing-page.md)
 
-Campaign 컨트롤 패널 설명서를 새로운 공동 작업 설명서 세트에 통합했습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
+제어판 설명서는 새로운 공동 작업 설명서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
 **지표 계산** 표를 업데이트했습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
@@ -216,7 +222,7 @@ API 설명서 세트를 Campaign Standard 설명서에 통합했습니다.[자�
 
 개인화된 이메일 만들기 시작 안내서를 이동 및 업데이트했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-get-started-with-emails.html)
 
-게재 모범 사례 시작 안내서를 업데이트했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
+게재 모범 사례 시작 가이드가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
 
 데이터 모델을 Campaign Standard 설명서에 통합했습니다. [자세한 내용](../../developing/using/datamodel-audience.md)
 
@@ -234,9 +240,9 @@ Microsoft Dynamics 365 통합(GA) - [자세한 내용](../../integrating/using/w
 
 Campaign Standard 및 Campaign Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-GDPR 시작 안내서를 개선 및 보강했습니다. 이 설명서는 GDPR 및 CCPA를 비롯한 개인 정보 관리 설명서입니다. [자세한 내용](https://helpx.adobe.com/content/help/kr/campaign/kb/campaign-privacy.html)
+GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/content/help/kr/campaign/kb/campaign-privacy.html)
 
-트랜잭션 메시지 게시 프로세스를 설명하는 새로운 차트를 추가했습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+트랜잭션 메시지 게시 프로세스를 설명하는 새로운 차트를 추가했습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 게재 모범 사례 시작 안내서를 이동 및 업데이트했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Dreamweaver 통합 섹션을 업데이트 및 개선했습니다. [자세한 내
 
 이메일 콘텐츠 편집 챕터에 이메일 콘텐츠 만들기에 대한 새로운 온보딩 경험과 이메일 디자이너의 기타 개선 사항을 추가했습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-트랜잭션 메시지 제한에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+트랜잭션 메시지 제한에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../channels/using/transactional-messaging-limitations.md)
 
 Adobe Campaign의 다양한 이메일 작성 옵션을 비교하는 새로운 섹션을 추가했습니다. [자세한 내용](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -846,7 +852,7 @@ Dreamweaver 통합 라이브 - [자세한 내용](https://docs.adobe.com/content
 
 Adobe Campaign의 다양한 사용자 유형에 대한 섹션을 추가했습니다. [자세한 내용](../../administration/using/users-management.md)
 
-워크플로우 안내서를 재구성 및 확장했습니다. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+워크플로우 가이드가 재구성 및 확장되었습니다. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
 
 이제 다이내믹 보고서에 대한 보고 지표 계산을 사용할 수 있습니다. 여기에는 완전한 설명 및 계산 공식이 포함됩니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
