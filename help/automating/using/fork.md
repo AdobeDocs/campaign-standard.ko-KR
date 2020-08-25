@@ -33,7 +33,7 @@ ht-degree: 100%
 
 **[!UICONTROL Fork]** 활동을 사용하면 동일한 워크플로우 내에서 독립적으로 여러 가지 다른 활동을 수행할 수 있습니다.
 
-## {#configuration} 구성
+## 구성{#configuration}
 
 1. **[!UICONTROL Fork]** 활동을 워크플로우로 끌어서 놓습니다.
 1. 쿼리와 같은 앞에 오는 다른 활동과 연결합니다.
