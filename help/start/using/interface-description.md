@@ -11,9 +11,9 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 * **[!UICONTROL Marketing activities]** - 자세한 내용은 [마케팅 활동 목록](../../start/using/marketing-activities.md#about-marketing-activities) 섹션을 참조하십시오.
 * **[!UICONTROL Programs & Campaigns]** - 자세한 내용은 [프로그램 목록](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) 섹션을 참조하십시오.
 * **[!UICONTROL Timeline]** - 자세한 내용은 [타임라인](../../start/using/timeline.md) 섹션을 참조하십시오.
-* **[!UICONTROL Deliveries]** 및 **[!UICONTROL Event configuration]** 하위 메뉴를 포함하는 **[!UICONTROL Transactional messages]** - 자세한 내용은 [트랜잭션 메시지](../../channels/using/about-transactional-messaging.md) 섹션을 참조하십시오.
+* **[!UICONTROL Deliveries]** 및 **[!UICONTROL Event configuration]** 하위 메뉴를 포함하는 **[!UICONTROL Transactional messages]** - 자세한 내용은 [트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md) 섹션을 참조하십시오.
 
 ### 프로필 및 대상자 {#profiles-e-audiences}
 
