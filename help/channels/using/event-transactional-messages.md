@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2478'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 이벤트를 타겟팅하는 이벤트 트랜잭션 메시지를 보낼 수 있습니다. 이 유형의 트랜잭션 메시지에 프로필 정보가 포함되어 있지 않습니다. 게재 대상은 이벤트 자체에 포함된 데이터로 정의됩니다.
 
-이벤트를 만들고 게시하면( [이 섹션](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)에 설명된 장바구니 포기) 해당 트랜잭션 메시지가 자동으로 만들어집니다.
+이벤트를 만들고 게시하면( [이 섹션](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)에 설명된 장바구니 포기) 해당 트랜잭션 메시지가 자동으로 만들어집니다.
 
 구성 단계는 [트랜잭션 메시지 전송을 위한 이벤트 구성](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 섹션에 나와 있습니다.
 
