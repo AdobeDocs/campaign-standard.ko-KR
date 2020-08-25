@@ -32,7 +32,7 @@ ht-degree: 100%
 
 **[!UICONTROL Intersection]** 활동은 일반적으로 인바운드 전환에서 모집단을 추가로 필터링하는 데 사용됩니다.
 
-## {#configuration} 구성
+## 구성{#configuration}
 
 1. **[!UICONTROL Intersection]** 활동을 워크플로우로 끌어서 놓습니다.
 1. 쿼리와 같은 앞에 오는 다른 활동과 연결합니다.
