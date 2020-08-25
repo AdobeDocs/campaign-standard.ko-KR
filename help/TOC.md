@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
+source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1569'
 ht-degree: 88%
 
 ---
@@ -103,7 +103,8 @@ ht-degree: 88%
       + [DM 대상자 정의](channels/using/defining-the-direct-mail-audience.md)
       + [DM 콘텐츠 정의](channels/using/defining-the-direct-mail-content.md)
    + 트랜잭션 메시지 {#transactional-messaging}
-      + [트랜잭션 메시지 기본 정보](channels/using/about-transactional-messaging.md)
+      + [트랜잭션 메시지 시작하기](channels/using/getting-started-with-transactional-msg.md)
+      + [트랜잭션 메시지 제한 사항](channels/using/transactional-messaging-limitations.md)
       + [이벤트 트랜잭션 메시지](channels/using/event-transactional-messages.md)
       + [프로필 트랜잭션 메시지](channels/using/profile-transactional-messages.md)
       + [트랜잭션 푸시 알림](channels/using/transactional-push-notifications.md)
