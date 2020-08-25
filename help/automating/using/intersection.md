@@ -28,7 +28,7 @@ ht-degree: 100%
 
 **[!UICONTROL Intersection]** 활동을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다.
 
-## {#context-of-use} 사용의 컨텍스트
+## 사용의 컨텍스트{#context-of-use}
 
 **[!UICONTROL Intersection]** 활동은 일반적으로 인바운드 전환에서 모집단을 추가로 필터링하는 데 사용됩니다.
 
