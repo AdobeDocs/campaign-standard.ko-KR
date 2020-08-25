@@ -12,9 +12,9 @@ discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '2331'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
 ## 전자 메일 채널 매개 변수 {#email-channel-parameters}
 
-전자 메일 구성 화면에서는 전자 메일 채널의 매개 변수를 정의할 수 있습니다. 관리자는 **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]**메뉴에서 이러한 구성에 액세스할 수 있습니다.
+전자 메일 구성 화면에서는 전자 메일 채널의 매개 변수를 정의할 수 있습니다. 관리자는 **[!UICONTROL Administration]>[!UICONTROL Channels]>[!UICONTROL Email]>[!UICONTROL Configuration]** 메뉴에서 이러한 구성에 액세스할 수 있습니다.
 
 ![](assets/channels_1.png)
 
@@ -240,7 +240,7 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery duration]** 매개 변수는 트랜잭션 메시지에 적용되지 않습니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션](../../channels/using/about-transactional-messaging.md)을 참조하십시오.
+>**[!UICONTROL Delivery duration]** 매개 변수는 트랜잭션 메시지에 적용되지 않습니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md)을 참조하십시오.
 
 ### 추적 매개 변수 {#tracking-parameters}
 
