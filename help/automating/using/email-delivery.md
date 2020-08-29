@@ -51,7 +51,7 @@ ht-degree: 94%
 * [사용 사례: 위치별로 분류된 게재 만들기](../../automating/using/workflow-segmentation-location.md)
 * [사용 사례: 보충 자료로 게재 만들기](../../automating/using/workflow-created-query-with-complement.md)
 * [사용 사례: 열지 않은 사용자에게 새 게재를 보내는 워크플로우 재타겟팅](../../automating/using/workflow-cross-channel-retargeting.md)
-* [사용 사례: 생일 배달](../../automating/using/birthday-delivery.md)
+* [사용 사례:생일 배달](../../automating/using/birthday-delivery.md)
 
 ## 구성 {#configuration}
 
