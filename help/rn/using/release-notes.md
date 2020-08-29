@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
 source-wordcount: '1160'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 [릴리스 계획](../../rn/using/release-planning.md) | [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2020.md) | [더 이상 사용되지 않는 기능](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **활성 프로파일 모니터링, 하위 도메인 전달 기능 감사 및 GPG 키 관리가 포함된 새로운 Campaign 컨트롤 패널 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## 릴리스 20.3 - 2020년 5월 {#release-20-3---may-2020}
 
@@ -74,7 +74,7 @@ ht-degree: 88%
 **추가 기능** (7월 13일부터 시작)
 
 * **AI 기반의 전송 시간 최적화 및 프로필 점수** - 이제 고객 여정의 디자인과 전달을 최적화하여 각 개인의 참여 선호도를 예측할 수 있습니다. 고객 여정 AI를 기반으로 하는 Adobe Campaign은 과거 참여 지표를 기반으로 공개 비율, 최적의 전송 시간, 예측 이탈을 분석하고 예측할 수 있습니다. [자세히 알아보기](../../sending/using/predictive.md)
-* **브라질의 새로운 개인 정보 보호 규정** - Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도, Adobe은 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 대한 준비를 용이하게 하는 데 도움이 됩니다. 개인 정보 보호 요청을 만들 때 LGPD 규정이 Adobe 개인 정보 보호 코어 서비스에 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
+* **브라질의 새로운 개인 정보 보호 규정** - Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도, Adobe은 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 대한 준비를 용이하게 하는 데 도움이 됩니다. 개인 정보 보호 요청을 만들 때 LGPD 규정이 Adobe 개인 정보 보호 코어 서비스에 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)
 
 **향상된 기능**
 
@@ -128,4 +128,4 @@ ht-degree: 88%
 * 사용자가 보고서를 변경할 수 없는 오류를 수정했습니다. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **새 Campaign 컨트롤 패널 CNAME 하위 도메인에 대한 인증서 갱신과 함께 릴리스** 가능합니다. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **새 Campaign 컨트롤 패널 CNAME 하위 도메인에 대한 인증서 갱신과 함께 릴리스** 가능합니다. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
