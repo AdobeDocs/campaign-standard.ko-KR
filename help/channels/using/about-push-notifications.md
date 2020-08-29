@@ -150,7 +150,7 @@ Android의 경우 Campaign은 알림 페이로드가 아닌 데이터 페이로�
 아래 단계를 따르십시오.
 
 * 푸시 추적 포스트백을 구성합니다. 지침은 [여기에서 확인할 수 있습니다](../../administration/using/configuring-a-mobile-application.md).
-* Mobile Core에서 trackAction API를 구현합니다. 자세한 내용은 이 [페이지를](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) 참조하십시오.
+* Mobile Core에서 trackAction API를 구현합니다. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
 
 자세한 지침은 이 [페이지에서 확인할 수 있습니다](../../administration/using/push-tracking.md).
 
