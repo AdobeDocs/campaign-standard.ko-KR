@@ -49,7 +49,7 @@ ht-degree: 98%
 
 **관련 항목**
 
-* [사용 사례: 서비스 가입자에 대한 증분 쿼리](../../automating/using/incremental-query-on-subscribers.md)
+* [사용 사례:서비스 가입자에 대한 증분 쿼리](../../automating/using/incremental-query-on-subscribers.md)
 
 ## 구성 {#configuration}
 
