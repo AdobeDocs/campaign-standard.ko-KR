@@ -51,9 +51,9 @@ ht-degree: 95%
 
 **관련 항목:**
 
-* [사용 사례: 관계를 사용한 데이터 조정](../../automating/using/reconciliation-using-relations.md)
-* [사용 사례: 조정을 사용한 데이터 업데이트](../../automating/using/data-update-reconciliation.md)
-* [사용 사례: 데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
+* [사용 사례:관계를 사용한 데이터 조정](../../automating/using/reconciliation-using-relations.md)
+* [사용 사례:조정을 사용한 데이터 업데이트](../../automating/using/data-update-reconciliation.md)
+* [사용 사례:데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 구성 {#configuration}
 
