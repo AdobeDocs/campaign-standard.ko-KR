@@ -29,7 +29,7 @@ ht-degree: 96%
 
 **[!UICONTROL Enrichment]** 활동은 워크플로우에서 처리할 추가 데이터를 정의할 수 있는 고급 활동입니다.
 
-## 사용의 컨텍스트{#context-of-use}
+## {#context-of-use} 사용의 컨텍스트
 
 일반적으로 **[!UICONTROL Enrichment]** 활동은 타겟팅 활동 다음이나 파일을 가져온 후 타겟팅된 데이터를 사용할 수 있는 활동 전에 사용됩니다.
 
@@ -39,8 +39,8 @@ ht-degree: 96%
 
 **관련 항목**
 
-* [사용 사례: 파일에 포함된 데이터로 프로파일 데이터](../../automating/using/enriching-profile-data-file.md)강화
-* [사용 사례: 풍부한 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
+* [사용 사례:파일에 포함된 데이터로 프로파일 데이터](../../automating/using/enriching-profile-data-file.md)강화
+* [사용 사례:풍부한 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
 
 ## 구성 {#configuration}
 
