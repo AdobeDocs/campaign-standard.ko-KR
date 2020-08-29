@@ -41,7 +41,7 @@ ht-degree: 99%
 
 **관련 항목:**
 
-* [사용 사례: 자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
+* [사용 사례:자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
 
 ## 구성 {#configuration}
 
