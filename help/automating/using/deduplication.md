@@ -41,8 +41,8 @@ ht-degree: 97%
 
 **관련 항목**
 
-* [사용 사례: 배달 전 중복 항목 식별](../../automating/using/identifying-duplicated-before-delivery.md)
-* [사용 사례: 가져온 파일에서 데이터 중복 제거](../../automating/using/deduplicating-data-imported-file.md)
+* [사용 사례:배달 전 중복 항목 식별](../../automating/using/identifying-duplicated-before-delivery.md)
+* [사용 사례:가져온 파일에서 데이터 중복 제거](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 구성 {#configuration}
 
