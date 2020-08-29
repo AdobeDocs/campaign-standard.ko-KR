@@ -47,7 +47,7 @@ DM 수신자는 쿼리, 교집합 등과 같은 타겟팅 활동을 통해 동�
 
 **관련 항목:**
 
-* [사용 사례: 이메일 및 DM 전달 연결](../../automating/using/coupling-email-direct-mail.md)
+* [사용 사례:이메일 및 DM 전달 연결](../../automating/using/coupling-email-direct-mail.md)
 * [DM 기본 정보](../../channels/using/about-direct-mail.md)
 
 ## 구성 {#configuration}
