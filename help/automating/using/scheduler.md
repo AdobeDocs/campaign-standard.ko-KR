@@ -41,8 +41,8 @@ ht-degree: 97%
 
 **관련 항목:**
 
-* [사용 사례: 프로필 생성 날짜에 배달 만들기](../../automating/using/workflow-creation-date-query.md)
-* [사용 사례: 매주 화요일 이메일 배달 만들기](../../automating/using/workflow-weekly-offer.md)
+* [사용 사례:프로필 생성 날짜에 배달 만들기](../../automating/using/workflow-creation-date-query.md)
+* [사용 사례:매주 화요일 이메일 배달 만들기](../../automating/using/workflow-weekly-offer.md)
 
 ## 구성 {#configuration}
 
