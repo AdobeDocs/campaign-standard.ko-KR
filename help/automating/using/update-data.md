@@ -29,13 +29,13 @@ ht-degree: 96%
 
 **[!UICONTROL Update data]** 활동을 사용하면 데이터베이스의 필드에 대한 대량 업데이트를 수행할 수 있습니다.
 
-## 사용의 컨텍스트{#context-of-use}
+## {#context-of-use} 사용의 컨텍스트
 
 파일을 가져온 후 **데이터 업데이트** 활동을 사용하여 복구된 데이터를 Adobe Campaign 데이터베이스에 삽입할 수 있습니다. 데이터 업데이트를 개인화할 수 있는 몇 가지 옵션을 제공합니다.
 
 **관련 항목:**
 
-* [사용 사례: 파일을 기반으로 데이터 업데이트](../../automating/using/update-database-file.md)
+* [사용 사례:파일을 기반으로 데이터 업데이트](../../automating/using/update-database-file.md)
 * [자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
 
 ## 구성 {#configuration}
