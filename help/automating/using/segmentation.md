@@ -34,9 +34,9 @@ ht-degree: 94%
 >기본적으로 인바운드 모집단의 멤버는 단일 세그먼트에만 속할 수 있습니다. 활동 내 세그먼트의 순서에 따라 필터가 적용됩니다.
 
 **관련 항목:**
-* [사용 사례: 위치 세분화](../../automating/using/workflow-segmentation-location.md)
-* [사용 사례: 컨트롤 그룹 만들기](../../automating/using/workflow-control-group.md)
-* [사용 사례: 연령 그룹에 따른 세분화](../../automating/using/segmentation-age-groups.md)
+* [사용 사례:위치 세분화](../../automating/using/workflow-segmentation-location.md)
+* [사용 사례:컨트롤 그룹 만들기](../../automating/using/workflow-control-group.md)
+* [사용 사례:연령 그룹에 따른 세분화](../../automating/using/segmentation-age-groups.md)
 
 ## 사용의 컨텍스트 {#context-of-use}
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 **관련 항목**
 
-* [사용 사례: 연령 그룹에 따라 프로필 세그먼트화](../../automating/using/segmentation-age-groups.md).
+* [사용 사례:연령 그룹에 따라 프로필 세그먼트화](../../automating/using/segmentation-age-groups.md).
 
 ## 구성 {#configuration}
 
