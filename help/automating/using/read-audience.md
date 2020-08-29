@@ -35,8 +35,8 @@ ht-degree: 92%
 
 **관련 항목**
 
-* [사용 사례: 세련된 두 고객을 위한 결합](../../automating/using/union-on-two-refined-audiences.md)
-* [사용 사례: 데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
+* [사용 사례:세련된 두 고객을 위한 결합](../../automating/using/union-on-two-refined-audiences.md)
+* [사용 사례:데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 구성 {#configuration}
 
