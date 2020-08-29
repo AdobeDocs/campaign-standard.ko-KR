@@ -39,7 +39,7 @@ ht-degree: 91%
 
 **관련 항목:**
 
-* [사용 사례: 외부 파일에서 프로필 내보내기](../../automating/using/exporting-profiles-in-file.md)
+* [사용 사례:외부 파일에서 프로필 내보내기](../../automating/using/exporting-profiles-in-file.md)
 
 ## 구성 {#configuration}
 
