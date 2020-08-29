@@ -48,10 +48,10 @@ ht-degree: 93%
 
 **관련 항목:**
 
-* [사용 사례: 외부 데이터로 데이터베이스 업데이트](../../automating/using/update-database-file.md)
-* [사용 사례: 자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
-* [사용 사례: 풍부한 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
-* [사용 사례: 데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
+* [사용 사례:외부 데이터로 데이터베이스 업데이트](../../automating/using/update-database-file.md)
+* [사용 사례:자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
+* [사용 사례:풍부한 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
+* [사용 사례:데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 구성 {#configuration}
 
