@@ -36,6 +36,6 @@ Adobe Campaign Standard API를 사용하여 구독을 관리할 수도 있습니
 
 **관련 항목**
 
-* [사용 사례: 서비스 가입자에 대한 증분 쿼리](../../automating/using/incremental-query-on-subscribers.md)
-* [사용 사례: 파일에서 여러 구독 상태 업데이트](../../automating/using/updating-subscriptions-from-file.md)
+* [사용 사례:서비스 가입자에 대한 증분 쿼리](../../automating/using/incremental-query-on-subscribers.md)
+* [사용 사례:파일에서 여러 구독 상태 업데이트](../../automating/using/updating-subscriptions-from-file.md)
 * [파일을 가져온 후 특정 서비스에 프로필 가입](../../automating/using/subscribing-profiles-from-file.md)
