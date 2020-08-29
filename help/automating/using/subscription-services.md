@@ -43,8 +43,8 @@ ht-degree: 98%
 
 **관련 항목:**
 
-* [사용 사례: 파일에서 여러 구독 상태 업데이트](../../automating/using/updating-subscriptions-from-file.md)
-* [사용 사례: 파일에서 특정 서비스에 프로필 가입](../../automating/using/subscribing-profiles-from-file.md)
+* [사용 사례:파일에서 여러 구독 상태 업데이트](../../automating/using/updating-subscriptions-from-file.md)
+* [사용 사례:파일에서 특정 서비스에 프로필 가입](../../automating/using/subscribing-profiles-from-file.md)
 
 ## 구성 {#configuration}
 
