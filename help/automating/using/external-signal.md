@@ -45,8 +45,8 @@ ht-degree: 96%
 
 **관련 항목**
 
-* [사용 사례: 외부 신호 활동 및 데이터 가져오기](../../automating/using/external-signal-data-import.md).
-* [사용 사례: 외부 매개 변수를 사용하여 파일에서 대상을 만들기 위한 워크플로우 호출](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [사용 사례:외부 신호 활동 및 데이터 가져오기](../../automating/using/external-signal-data-import.md).
+* [사용 사례:외부 매개 변수를 사용하여 파일에서 대상을 만들기 위한 워크플로우 호출](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
 
 ## 구성 {#configuration}
 
