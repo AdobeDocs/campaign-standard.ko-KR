@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
+source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
 workflow-type: tm+mt
-source-wordcount: '6119'
-ht-degree: 95%
+source-wordcount: '6144'
+ht-degree: 94%
 
 ---
 
@@ -24,11 +24,17 @@ ht-degree: 95%
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
 
+## 설명서 업데이트 - 2020년 9월 {#doc-updates-september-2020}
+
+이벤트 트랜잭션 메시지 섹션이 재구성되고 명확해졌습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
+
 ## 설명서 업데이트 - 2020년 8월 {#doc-updates-august-2020}
 
 트랜잭션 메시지 시작을 위한 새로운 업데이트 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
 트랜잭션 메시지 제한 섹션이 이동되었습니다. [자세한 내용](../../channels/using/transactional-messaging-limitations.md)
+
+보내기 준비 섹션이 이동되었습니다. [자세한 내용](../../sending/using/preparing-the-send.md)
 
 ## 설명서 업데이트 - 2020년 7월 {#doc-updates-july-2020}
 
