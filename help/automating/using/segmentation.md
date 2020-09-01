@@ -13,10 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 94%
+source-wordcount: '855'
+ht-degree: 92%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 94%
    * **[!UICONTROL Limit segment population]**: 세그먼트 크기를 제한할 수 있습니다.
    * **[!UICONTROL Filter and limit segment population]**: 세그먼트의 모집단을 필터링하고 크기를 제한할 수 있습니다.
    * **[!UICONTROL Label]**: 세그먼트 레이블입니다.
-   * **[!UICONTROL Segment code]**: 세그먼트 모집단에 지정된 코드입니다. 세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다([이벤트 변수를 사용하여 활동 사용자 지정](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 참조).
+   * **[!UICONTROL Segment code]**:코드를 세그먼트 모집단에 지정합니다.세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다(참조 [](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: 지정된 세그먼트를 활동의 아웃바운드 모집단에서 제외할 수 있습니다. 이 옵션은 **[!UICONTROL Generate all segments in the same transition]** 옵션을 선택한 경우에만 사용할 수 있습니다.
 
    ![](assets/wkf_segment_new_segment.png)
