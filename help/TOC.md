@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 88%
+source-wordcount: '1596'
+ht-degree: 86%
 
 ---
 
@@ -251,7 +251,12 @@ ht-degree: 88%
       + [워크플로우 실행 모니터링](automating/using/monitoring-workflow-execution.md)
       + [실행 옵션 관리](automating/using/managing-execution-options.md)
       + [활동 속성 관리](automating/using/activity-properties.md)
-   + [외부 파라미터로 워크플로우 호출](automating/using/calling-a-workflow-with-external-parameters.md)
+   + 외부 파라미터로 워크플로우 호출 {#calling-workflow-external-parameters}
+      + [외부 신호 활동에서 매개 변수 선언](automating/using/declaring-parameters-external-signal.md)
+      + [워크플로우 호출 시 매개 변수 정의](automating/using/defining-parameters-calling-workflow.md)
+      + [이벤트 변수 모니터링](automating/using/monitoring-events-variables.md)
+      + [외부 매개 변수를 사용하여 워크플로우 사용자 정의](automating/using/customizing-workflow-external-parameters.md)
+      + [사용 사례](automating/using/use-case-calling-workflow.md)
    + 타겟팅 활동 {#targeting-activities}
       + [타겟팅 활동 기본 정보](automating/using/about-targeting-activities.md)
       + [쿼리](automating/using/query.md)
