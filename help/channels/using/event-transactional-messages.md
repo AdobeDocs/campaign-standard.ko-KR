@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
+source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 100%
+source-wordcount: '2492'
+ht-degree: 93%
 
 ---
 
@@ -29,58 +29,26 @@ ht-degree: 100%
 
 구성 단계는 [트랜잭션 메시지 전송을 위한 이벤트 구성](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 섹션에 나와 있습니다.
 
-이벤트가 트랜잭션 메시지 전송을 트리거하려면 메시지를 개인화한 다음 테스트하여 게시해야 합니다.
-
 >[!NOTE]
->
->트랜잭션 메시지에 액세스하려면 **[!UICONTROL Administrators (all units)]** 보안 그룹의 일부여야 합니다.
 >
 >트랜잭션 메시지에 프로필 정보가 포함되어 있지 않으므로 피로 규칙과 호환되지 않습니다(프로필 정보가 보강된 경우도 포함). [피로 규칙](../../sending/using/fatigue-rules.md#choosing-the-channel)을 참조하십시오.
 
-## 트랜잭션 메시지에서 테스트 프로필 정의 {#defining-a-test-profile-in-a-transactional-message}
+이벤트가 트랜잭션 메시지 전송을 트리거하려면 메시지를 개인화한 다음 테스트하여 게시해야 합니다.
 
-메시지를 미리 보고 증명을 전송하여 확인할 수 있는 수정된 테스트 프로필을 정의합니다.
+## 트랜잭션 메시지 액세스 {#accessing-transactional-messages}
 
-### 트랜잭션 메시지 내에 테스트 프로필 만들기 {#creating-a-test-profile-within-the-transactional-----------message}
+만든 트랜잭션 메시지에 액세스하려면:
 
-1. 만든 메시지에 액세스하려면 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**&#x200B;을 선택합니다.
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
-1. 이벤트에 연결할 테스트 프로필을 만듭니다.
+1. 편집할 메시지를 클릭합니다.
 
-   ![](assets/message-center_test-profile.png)
-
-1. **[!UICONTROL Event data used for personalization]** 섹션에서 JSON 형식으로 전송할 정보를 지정합니다. 메시지를 미리 볼 때와 테스트 프로필에서 증명를 받을 때 사용할 콘텐츠입니다.
-
-   ![](assets/message-center_event-data.png)
-
-   >[!NOTE]
-   >
-   >프로필 테이블과 관련된 정보를 입력할 수도 있습니다. [트랜잭션 메시지 콘텐츠 보강](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)을 참조하십시오.
-
-1. 만들어진 후에는 트랜잭션 메시지에 테스트 프로필이 미리 지정됩니다. 메시지의 **[!UICONTROL Test profiles]** 블록을 클릭하여 증명의 대상을 확인합니다.
-
-   ![](assets/message-center_5.png)
-
-### 트랜잭션 메시지 외부에 테스트 프로필 만들기 {#creating-a-test-profile-outside-the-transactional-----------message}
-
-새 테스트 프로필을 만들거나 **[!UICONTROL Test profiles]** 메뉴에 이미 있는 테스트 프로필을 사용할 수도 있습니다.
-
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**&#x200B;을 선택합니다.
-1. 선택한 테스트 프로필 페이지의 **[!UICONTROL Event]** 섹션에서 방금 만든 이벤트를 선택합니다. 예제에서는 &quot;장바구니 포기(EVTcartAbandonment)&quot;를 선택합니다.
-1. **[!UICONTROL Event data]** 텍스트 상자에 JSON 형식으로 전송할 정보를 지정합니다.
-
-   ![](assets/message-center_3.png)
-
-1. 변경 내용을 저장합니다.
-
-이제 만든 메시지에 액세스하고 업데이트된 테스트 프로필을 선택할 수 있습니다.
-
-**관련 항목:**
-
-* [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
-* [대상자 정의](../../audiences/using/creating-audiences.md)
+>[!IMPORTANT]
+>
+>트랜잭션 메시지에 액세스하려면 **[!UICONTROL Administrators (all units)]** 보안 그룹의 일부여야 합니다.
 
 ## 트랜잭션 메시지 개인화 {#personalizing-a-transactional-message}
 
@@ -240,7 +208,47 @@ ht-degree: 100%
 
 ## 트랜잭션 메시지 테스트 {#testing-a-transactional-message}
 
-트랜잭션 메시지를 저장한 후에는 테스트하기 위한 증명을 보낼 수 있습니다.
+먼저 트랜잭션 메시지를 제대로 확인할 수 있는 특정 테스트 프로필을 만들어야 합니다.
+
+### 특정 테스트 프로필 정의 {#defining-specific-test-profile}
+
+메시지를 미리 보고 관련 증거를 전송할 수 있는 이벤트에 연결할 테스트 프로필을 정의합니다.
+
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
+
+   ![](assets/message-center_test-profile.png)
+
+1. **[!UICONTROL Event data used for personalization]** 섹션에서 JSON 형식으로 전송할 정보를 지정합니다. 메시지를 미리 볼 때와 테스트 프로필에서 증명를 받을 때 사용할 콘텐츠입니다.
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >프로필 테이블과 관련된 정보를 입력할 수도 있습니다. [트랜잭션 메시지 콘텐츠 보강](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)을 참조하십시오.
+
+1. 테스트 프로필이 만들어지면 트랜잭션 메시지에 미리 지정됩니다. 메시지의 **[!UICONTROL Test profiles]** 블록을 클릭하여 증명의 대상을 확인합니다.
+
+   ![](assets/message-center_5.png)
+
+새 테스트 프로필을 만들거나 **[!UICONTROL Test profiles]** 메뉴에 이미 있는 테스트 프로필을 사용할 수도 있습니다. 방법은 다음과 같습니다.
+
+1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**&#x200B;을 선택합니다.
+1. 섹션에서 방금 만든 이벤트를 **[!UICONTROL Event]** 선택합니다. 예제에서는 &quot;장바구니 포기(EVTcartAbandonment)&quot;를 선택합니다.
+1. **[!UICONTROL Event data]** 텍스트 상자에 JSON 형식으로 전송할 정보를 지정합니다.
+
+   ![](assets/message-center_3.png)
+
+1. 변경 내용을 저장합니다.
+1. 만든 메시지에 액세스하고 업데이트된 테스트 프로필을 선택합니다.
+
+**관련 항목:**
+
+* [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
+* [대상자 정의](../../audiences/using/creating-audiences.md)
+
+### 증명 전송 {#sending-proof}
+
+하나 이상의 특정 테스트 프로필을 만들고 트랜잭션 메시지를 저장한 후에는 이를 테스트하기 위한 증거를 보낼 수 있습니다.
 
 ![](assets/message-center_10.png)
 
@@ -258,7 +266,7 @@ ht-degree: 100%
 
 ![](assets/message-center_13.png)
 
-## 트랜잭션 메시지 게시 일시 중단 {#suspending-a-transactional-message-publication}
+### 트랜잭션 메시지 게시 일시 중단 {#suspending-a-transactional-message-publication}
 
 예를 들어 메시지에 포함된 데이터를 수정하기 위해 **[!UICONTROL Pause]** 버튼을 사용하여 트랜잭션 메시지 게시를 일시 중단할 수 있습니다. 그러면 이벤트는 더 이상 처리되지 않고 대신 Adobe Campaign 데이터베이스의 큐에 보관됩니다.
 
@@ -268,7 +276,7 @@ ht-degree: 100%
 
 **[!UICONTROL Resume]**&#x200B;을(를) 클릭하면 큐에 있는 모든 이벤트(만료되지 않은 경우)가 처리됩니다. 템플릿 게시가 일시 중단된 동안 수행된 모든 수정 사항이 포함되어 있습니다.
 
-## 트랜잭션 메시지 게시 취소 {#unpublishing-a-transactional-message}
+### 트랜잭션 메시지 게시 취소 {#unpublishing-a-transactional-message}
 
 **[!UICONTROL Unpublish]**&#x200B;을(를) 클릭하면 트랜잭션 메시지 게시를 취소할 수 있고 이전에 만든 이벤트에 해당하는 리소스를 REST API에서 삭제하는 해당 이벤트의 게시도 취소할 수 있습니다.
 
@@ -286,7 +294,7 @@ ht-degree: 100%
 
 매일 오전 4시에 실행되는 **[!UICONTROL Database cleanup]** 워크플로우는 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**&#x200B;을(를) 통해 액세스할 수 있습니다.
 
-## 트랜잭션 메시지 삭제 {#deleting-a-transactional-message}
+### 트랜잭션 메시지 삭제 {#deleting-a-transactional-message}
 
 트랜잭션 메시지 게시가 취소되었거나 트랜잭션 메시지가 아직 게시되지 않았으면 트랜잭션 메시지 목록에서 삭제할 수 있습니다. 삭제 방법:
 
@@ -333,9 +341,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이벤트가 실행 게재에 할당되면 오직 해당 실행 게재의 전송 로그에만 나타납니다. 실패한 게재는 트랜잭션 메시지의 **[!UICONTROL Execution list]** 탭에 표시됩니다.
+>이벤트가 실행 게재에 할당되면 오직 해당 실행 게재의 전송 로그에만 나타납니다. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### 제한 사항 {#limitations}
+### 재시도 프로세스 제한 {#limitations}
 
 **로그 업데이트 전송**
 
