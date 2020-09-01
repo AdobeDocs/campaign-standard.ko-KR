@@ -13,9 +13,9 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 694fd5802578001ba80b35f0983a068a0a630dd0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * 트랜잭션 메시지의 경우 기본적으로 한 달에 한 번, 트랜잭션 메시지가 편집되고 다시 게시됩니다.
 
-   트랜잭션 메시지에 대한 자세한 내용은 트랜잭션 메시지 [정보를 참조하십시오](../../channels/using/getting-started-with-transactional-msg.md).
+   트랜잭션 메시지에 대한 자세한 내용은 트랜잭션 메시지 [시작하기를 참조하십시오](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
