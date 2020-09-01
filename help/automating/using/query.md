@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1725'
-ht-degree: 98%
+source-wordcount: '1720'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
 
 1. **[!UICONTROL Transition]** 탭에서 **[!UICONTROL Enable an outbound transition]** 옵션을 사용하면 검색된 데이터가 없는 경우에도 쿼리 활동 뒤에 아웃바운드 전환을 추가할 수 있습니다.
 
-   아웃바운드 전환의 세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다([이벤트 변수를 사용하여 활동 사용자 지정](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 참조).
+   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.
 
