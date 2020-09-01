@@ -12,11 +12,11 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
-workflow-type: ht
-source-wordcount: '308'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 4c5fbb5e879bad114c4ca421cd2970f2ba5a3d50
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 1. 메시지 속성에 액세스합니다. 메시지 템플릿은 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** 탐색 메뉴에서 액세스할 수 있습니다.
 
-1. **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]** 섹션에서 메시지에 연결할 유형화를 선택합니다.
+1. **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** 섹션에서 메시지에 연결할 유형화를 선택합니다.
 
    ![](assets/typology_message.png)
 
