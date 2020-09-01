@@ -13,10 +13,10 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 **관련 항목**
 
 * [사용 사례:외부 신호 활동 및 데이터 가져오기](../../automating/using/external-signal-data-import.md).
-* [사용 사례:외부 매개 변수를 사용하여 파일에서 대상을 만들기 위한 워크플로우 호출](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
+* [사용 사례:외부 매개 변수를 사용하여 파일에서 대상을 만들기 위한 워크플로우 호출](../../automating/using/use-case-calling-workflow.md)
 
 ## 구성 {#configuration}
 
@@ -56,7 +56,7 @@ ht-degree: 96%
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. 활동의 레이블을 편집합니다. 이 레이블은 **[!UICONTROL External signal]**&#x200B;을(를) 트리거하는 소스 워크플로우를 구성할 때 필요합니다.
 
-   매개 변수를 사용하여 워크플로우를 호출하려면 **[!UICONTROL Parameters]** 영역을 사용하여 선언합니다. 자세한 정보는 [이 섹션](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)을 참조하십시오.
+   매개 변수를 사용하여 워크플로우를 호출하려면 **[!UICONTROL Parameters]** 영역을 사용하여 선언합니다. For more on this, refer to this section: [](../../automating/using/declaring-parameters-external-signal.md).
 
    ![](assets/external_signal_configuration.png)
 
@@ -78,7 +78,7 @@ ht-degree: 96%
 
    다른 워크플로우를 트리거하는 **[!UICONTROL End]** 활동을 설정하면 해당 아이콘이 추가 신호 심벌로 업데이트됩니다.
 
-   매개 변수를 사용하여 워크플로우를 호출하려면 **[!UICONTROL Parameters and values]** 영역을 사용합니다. 자세한 정보는 [이 섹션](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)을 참조하십시오.
+   매개 변수를 사용하여 워크플로우를 호출하려면 **[!UICONTROL Parameters and values]** 영역을 사용합니다. For more on this, refer to this section: [](../../automating/using/defining-parameters-calling-workflow.md).
 
    ![](assets/external_signal_end.png)
 
