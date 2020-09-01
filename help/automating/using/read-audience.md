@@ -13,10 +13,10 @@ context-tags: readAudience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 92%
+source-wordcount: '206'
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 92%
 
    **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]**, **[!UICONTROL Experience Cloud]** 유형의 대상자를 검색할 수 있습니다. 대상자 유형에 대한 자세한 내용은 [대상자](../../audiences/using/about-audiences.md) 설명서를 참조하십시오.
 
-   **[!UICONTROL Use a dynamic audience]** 옵션을 사용하면 워크플로우의 이벤트 변수를 기반으로 타겟팅할 대상자의 이름을 정의할 수 있습니다. 자세한 내용은 [이벤트 변수를 사용하여 활동 사용자 지정](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 섹션을 참조하십시오.
+   **[!UICONTROL Use a dynamic audience]** 옵션을 사용하면 워크플로우의 이벤트 변수를 기반으로 타겟팅할 대상자의 이름을 정의할 수 있습니다. For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md) section.
 
    ![](assets/readaudience_activity1.png)
 
