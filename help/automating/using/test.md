@@ -12,11 +12,11 @@ discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '176'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 91%
 
 ---
 
@@ -52,11 +52,10 @@ ht-degree: 100%
 
    **[!UICONTROL Condition]** 필드 편집 시 이벤트 변수를 호출하고 변수와 함수를 결합한 표현식을 편집하는 데 도움이 되는 버튼이 두 가지 있습니다.
 
-   * ![](assets/extsignal_picker.png): 워크플로우에서 사용할 수 있는 모든 변수 중에서 이벤트 변수를 선택합니다([외부 매개 변수로 워크플로우 사용자 정의](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters) 참조).
+   * ![](assets/extsignal_picker.png):워크플로우에서 사용할 수 있는 모든 변수 중에서 events 변수를 선택합니다( 참조). [](../../automating/using/customizing-workflow-external-parameters.md)
 
       ![](assets/wkf_test_activity_variables.png)
 
    * ![](assets/extsignal_expression_editor.png): 변수와 함수를 결합한 표현식을 편집합니다. 표현식 편집기에 대한 자세한 정보는 [이 섹션](../../automating/using/advanced-expression-editing.md)을 참조하십시오.
 
       ![](assets/wkf_test_activity_variables_expression.png)
-
