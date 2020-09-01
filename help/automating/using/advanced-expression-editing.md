@@ -12,11 +12,11 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 이 모드에서는 고급 기능을 사용할 수 있습니다. 이러한 함수를 사용하면 날짜, 문자열, 숫자 필드, 정렬 등과 같은 특정 쿼리를 수행하는 데 사용되는 값을 조작할 수 있습니다.
 
-표현식을 편집할 때 이벤트 변수를 사용할 수도 있습니다. 자세한 내용은 [이벤트 변수를 사용하여 활동 사용자 지정](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 섹션을 참조하십시오.
+표현식을 편집할 때 워크플로우의 이벤트 변수를 사용할 수도 있습니다. 자세한 내용은 [이벤트 변수를 사용하여 활동 사용자 지정](../../automating/using/customizing-workflow-external-parameters.md) 섹션을 참조하십시오.
 
 다음 절차를 수행하여 표현식을 편집할 수 있습니다.
 
@@ -51,13 +51,14 @@ ht-degree: 100%
    * 표현식이 정의된 입력 필드.
    * 표현식에서 사용할 수 있고 쿼리의 타겟팅 차원에 해당하는 사용 가능한 필드 목록([타겟팅 차원 및 리소스](../../automating/using/query.md#targeting-dimensions-and-resources) 참조).
    * 카테고리별로 정렬한 사용 가능한 함수 목록.
+
    ![](assets/expression_editor_1.png)
 
 1. 해당 필드에 직접 표현식을 입력하거나 사용 가능한 필드 및 함수 목록을 사용하여 표현식을 편집합니다.
 
    필드 또는 표현식을 두 번 클릭하면 커서가 위치한 표현식에 추가됩니다.
 
-   워크플로우의 이벤트 변수를 사용하여 표현식을 작성할 수 있습니다. 자세한 내용은 [이벤트 변수를 사용하여 활동 사용자 지정](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) 섹션을 참조하십시오.
+   워크플로우의 이벤트 변수를 사용하여 표현식을 작성할 수 있습니다. 자세한 내용은 [이벤트 변수를 사용하여 활동 사용자 지정](../../automating/using/customizing-workflow-external-parameters.md) 섹션을 참조하십시오.
 
 1. 필요한 경우 규칙에 특정 이름을 지정합니다. 입력한 이름이 쿼리 편집기 작업 영역에서 규칙 이름으로 표시됩니다.
 
@@ -79,6 +80,7 @@ ht-degree: 100%
    * **&lt;값1>**&#x200B;은 필드 또는 함수입니다. 예를 들어 프로필이 생성된 날짜의 경우 **@created** 또는 프로필이 생성된 연도의 경우 **Year(@created)**&#x200B;가 있습니다.
    * **&lt;비교 연산자>**&#x200B;는 [비교 연산자](../../automating/using/advanced-expression-editing.md#comparison-operators) 섹션에 나열된 연산자 중 하나입니다. 이 연산자는 **&lt;값1>**&#x200B;과 **&lt;값2>** 간의 비교 방법을 정의합니다.
    * **&lt;값2>**&#x200B;는 수동으로 입력되는 필드, 함수 또는 값입니다.
+
    >[!NOTE]
    >
    >**&lt;값1>** 및 **&lt;값2>**&#x200B;의 형식 데이터는 동일해야 합니다. 예를 들어 **&lt;값1>**&#x200B;이 날짜인 경우 **&lt;값2>**&#x200B;도 날짜여야 합니다.
@@ -107,6 +109,7 @@ JavaScript 표현식은 하나 이상의 조건으로 구성되며 다음 구문
    * **&lt;컨텍스트>**&#x200B;는 컨텍스트를 지정할 수 있는 필드 또는 함수입니다. 예를 들어 **context.profile@email**&#x200B;의 프로필 이메일 주소 또는 **context.profile.firstName.length()**&#x200B;의 프로필 이름의 문자 수가 있습니다.
    * **&lt;비교 연산자>**&#x200B;는 [비교 연산자](../../automating/using/advanced-expression-editing.md#comparison-operators) 섹션에 나열된 연산자 중 하나입니다. 이 연산자는 **&lt;컨텍스트>**&#x200B;와 **&lt;값2>** 간의 비교 방법을 정의합니다.
    * **&lt;값2>**&#x200B;는 수동으로 입력되는 필드, 함수 또는 값입니다.
+
    >[!NOTE]
    **&lt;컨텍스트>** 및 **&lt;값2>**&#x200B;의 형식 데이터는 동일해야 합니다. 예를 들어 **&lt;컨텍스트>**&#x200B;가 날짜인 경우 **&lt;값2>**&#x200B;도 날짜여야 합니다.
 
