@@ -29,7 +29,7 @@ ht-degree: 96%
 
 **[!UICONTROL Enrichment]** 활동은 워크플로우에서 처리할 추가 데이터를 정의할 수 있는 고급 활동입니다.
 
-## {#context-of-use} 사용의 컨텍스트
+## 사용의 컨텍스트 {#context-of-use}
 
 일반적으로 **[!UICONTROL Enrichment]** 활동은 타겟팅 활동 다음이나 파일을 가져온 후 타겟팅된 데이터를 사용할 수 있는 활동 전에 사용됩니다.
 
