@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: ht
-source-wordcount: '1046'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 
 ## 매개 변수를 사용한 워크플로우 호출{#workflow-with-parameters}
 
-워크플로우 호출 시 정의된 매개 변수의 이름 및 개수가 동일한지 확인합니다([워크플로우를 호출 시의 매개 변수 정의 참조](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). 매개 변수의 유형은 예상 값과 일치해야 합니다.
+워크플로우 호출 시 정의된 매개 변수의 이름 및 개수가 동일한지 확인합니다(참조 [](../../automating/using/defining-parameters-calling-workflow.md)). 매개 변수의 유형은 예상 값과 일치해야 합니다.
 
 **[!UICONTROL External signal activity]**&#x200B;에서 모든 매개 변수가 선언되었는지 확인합니다. 그렇지 않으면 활동을 실행할 때 오류가 발생합니다.
 
