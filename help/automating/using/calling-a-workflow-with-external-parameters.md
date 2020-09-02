@@ -12,9 +12,9 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: 5da41379d718d78d7990fd2d767ec21216487b0d
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '182'
 ht-degree: 1%
 
 ---
@@ -29,8 +29,7 @@ Campaign Standard을 사용하면 매개 변수(타깃팅할 대상 이름, 가�
 매개 변수를 사용하여 워크플로우를 호출하는 프로세스는 다음과 같습니다.
 
 1. 활동에서 매개 변수를 **[!UICONTROL External signal]** 선언합니다. 외부 신호 [활동에서 매개 변수 선언을 참조하십시오](../../automating/using/declaring-parameters-external-signal.md).
-1. 매개 변수를 정의하고 워크플로우 활동을 트리거하도록 **[!UICONTROL End]** 활동 또는 API 호출을 **[!UICONTROL External signal]** 구성합니다.
-
-워크플로우가 트리거되면 매개 변수가 워크플로우의 이벤트 변수로 수집되고 워크플로우 내에서 사용할 수 있습니다. [](../../automating/using/customizing-workflow-external-parameters.md)을 참조하십시오.
+1. 매개 변수를 정의하고 워크플로우 활동을 트리거하도록 **[!UICONTROL End]** 활동 또는 API 호출을 **[!UICONTROL External signal]** 구성합니다. See [](../../automating/using/defining-parameters-calling-workflow.md)
+1. 워크플로우가 트리거되면 매개 변수가 워크플로우의 이벤트 변수로 수집되고 워크플로우 내에서 사용할 수 있습니다. [](../../automating/using/customizing-workflow-external-parameters.md)을 참조하십시오.
 
 ![](assets/extsignal_process.png)
