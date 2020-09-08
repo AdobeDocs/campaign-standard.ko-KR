@@ -1,6 +1,6 @@
 ---
 title: 수신 SMS 관리
-description: STOP SMS를 관리하고 수신 SMS를 Adobe Campaign에 저장하는 방법을 알아봅니다.
+description: Adobe Campaign에서 STOP SMS를 관리하고 수신 SMS를 저장하는 방법을 알아봅니다.
 page-status-flag: never-activated
 uuid: f063052b-96ef-41b6-bf1b-4006de73f0b9
 contentOwner: sauviat
@@ -13,10 +13,10 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 1%
+source-wordcount: '594'
+ht-degree: 7%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 1%
 
 ## STOP SMS 관리 {#managing-stop-sms}
 
-Campaign을 통해 전송된 SMS 메시지에 프로필 응답이 있으면 수행할 작업은 물론 자동으로 다시 보내지는 메시지를 구성할 수 있습니다.
+Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 수행할 작업과 자동으로 다시 보낼 메시지를 구성할 수 있습니다.
 
 이 구성은 **[!UICONTROL Automatic reply sent to the MO]** SMS 라우팅 외부 계정 [](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)섹션에 정의되어 있습니다. MO는 모바일 어피티드(Mobile Incorporated)의 개념으로, SMS를 보낸 모바일 사용자에 대한 자동 답글을 구성할 수 있음을 의미합니다.
 
-이렇게 하려면:
+방법은 다음과 같습니다.
 
-1. 고급 메뉴에서 Adobe Campaign 로고를 통해 외부 계정 **[!UICONTROL Administration > Application settings > External accounts]** 을 선택한 다음 **[!UICONTROL SMS routing via SMPP]** 외부 계정을 선택합니다.
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]** then the **[!UICONTROL SMS routing via SMPP]** external account.
 1. 카테고리 아래에서 을 **[!UICONTROL Automatic reply sent to the MO]** 클릭하여 자동 회신 **[!UICONTROL Create element]** 구성을 시작합니다.
 
    ![](assets/sms_mo_1.png)
@@ -57,11 +57,12 @@ Campaign을 통해 전송된 SMS 메시지에 프로필 응답이 있으면 수�
    * 그 **[!UICONTROL Send to quarantine]** 조치는 자동으로 프로필 전화 번호를 격리한다.
    * 이 **[!UICONTROL Remove from quarantine]** 작업을 수행하면 프로필 전화 번호가 격리되지 않습니다.
    * 이 **[!UICONTROL None]** 작업을 수행하면 수신자에게 작업을 전달하지 않고도 메시지를 보낼 수 있습니다.
-   예를 들어, 아래 구성에서 수신자가 &quot;STOP&quot; 키워드를 전송하는 경우 구독 취소 확인 메시지가 자동으로 수신되고 전화 번호가 **[!UICONTROL On block list]** 상태가 포함된 검역으로 전송됩니다. 이 상태는 전화 번호만 가리키므로, 프로필이 차단 목록에 추가되지 않으므로 사용자가 계속 이메일 메시지를 수신하게 됩니다.
+
+   예를 들어, 아래 구성에서 수신자가 &quot;STOP&quot; 키워드를 전송하는 경우 구독 취소 확인 메시지가 자동으로 수신되고 전화 번호가 **[!UICONTROL Denylisted]** 상태가 포함된 검역으로 전송됩니다. 이 상태는 전화 번호만을 가리키므로, 프로필은 사용자가 계속 이메일 메시지를 수신하도록 차단 목록에 추가된 합니다.
 
    ![](assets/sms_mo.png)
 
-이제 수신자는 자동으로 메시지 구독 취소 및 이 자동 회신을 통해 격리 조치를 취할 수 있습니다. 격리된 받는 사람은 **[!UICONTROL Addresses]** > **[!UICONTROL Administration]** > **[!UICONTROL Channels]** **[!UICONTROL Quarantines]** 메뉴를 통해 사용할 수 있는 표에 나열되어 있습니다. 검역에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../sending/using/understanding-quarantine-management.md).
+이제 수신자는 자동으로 메시지 구독 취소 및 이 자동 회신을 통해 격리 조치를 취할 수 있습니다. 격리된 받는 사람은 **[!UICONTROL Addresses]** > **[!UICONTROL Administration]** > **[!UICONTROL Channels]** **[!UICONTROL Quarantines]** 메뉴를 통해 사용할 수 있는 표에 나열되어 있습니다. For more information on quarantines, refer to this [section](../../sending/using/understanding-quarantine-management.md).
 
 필요한 경우 이러한 수신 SMS를 저장할 수 있습니다. For more information on this, refer to this [section](#storing-incoming-sms).
 
@@ -73,19 +74,19 @@ Campaign을 통해 전송된 SMS 메시지에 프로필 응답이 있으면 수�
 
 카테고리 **[!UICONTROL Store incoming MO in the database]** 를 **[!UICONTROL SMPP channel settings]** 체크 인하면 모든 SMS가 inSMS 테이블에 저장되고 워크플로우의 쿼리 활동을 통해 검색할 수 있습니다.
 
-이렇게 하려면:
+방법은 다음과 같습니다.
 
-1. 필드에서 **[!UICONTROL SMPP channel settings]** 확인하십시오 **[!UICONTROL Store incoming MO in the database]**.
+1. In the **[!UICONTROL SMPP channel settings]** field, check **[!UICONTROL Store incoming MO in the database]**.
 
    ![](assets/sms_config_mo_2.png)
 
-1. 탭에서 을 **[!UICONTROL Marketing activities]** 클릭한 **[!UICONTROL Create]** 다음 선택합니다 **[!UICONTROL Workflow]**.
+1. In the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
 1. 워크플로우 유형을 선택합니다.
-1. 워크플로우의 속성을 편집한 다음 을 클릭합니다 **[!UICONTROL Create]**. 워크플로우 만들기에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../automating/using/building-a-workflow.md).
-1. 활동을 드래그 앤 드롭하고 **[!UICONTROL Query]** 활동을 두 번 클릭합니다.
+1. 워크플로우의 속성을 편집한 다음 을 클릭합니다 **[!UICONTROL Create]**. For more on workflows creation, refer to this [section](../../automating/using/building-a-workflow.md).
+1. Drag and drop a **[!UICONTROL Query]** activity and double-click the activity.
 1. 쿼리의 **[!UICONTROL Properties]** 탭에서 필드 **[!UICONTROL Incoming SMS (inSMS)]** 에서 선택합니다 **[!UICONTROL Resource]** .
 
    ![](assets/sms_config_mo_4.png)
@@ -94,7 +95,7 @@ Campaign을 통해 전송된 SMS 메시지에 프로필 응답이 있으면 수�
 
    ![](assets/sms_config_mo_5.png)
 
-1. 여기에서, 우리는 전날의 모든 수신 메시지를 타깃팅하고 싶습니다. 카테고리에서 **[!UICONTROL Field]** 을 선택합니다 **[!UICONTROL Creation date (created)]**.
+1. 여기에서, 우리는 전날의 모든 수신 메시지를 타깃팅하고 싶습니다. In the **[!UICONTROL Field]** category, select **[!UICONTROL Creation date (created)]**.
 1. 에서 **[!UICONTROL Filter type]**&#x200B;을 선택한 **[!UICONTROL Relative]** 다음 **[!UICONTROL Level of precision]**&#x200B;에서 을 선택합니다 **[!UICONTROL Day]**.
 
    ![](assets/sms_config_mo_6.png)
