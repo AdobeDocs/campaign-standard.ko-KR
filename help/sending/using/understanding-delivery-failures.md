@@ -12,9 +12,9 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1282'
 ht-degree: 81%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 81%
 >
 >**SMS** 오류 메시지(또는 &quot;상태 보고서&quot;의 경우 &quot;SR&quot;)는 MTA 프로세스에 의해 검증됩니다.
 
-또한 주소를 격리 수용하거나 차단 목록에 프로필이 있을 경우 배달 준비 중에 메시지를 제외할 수 있습니다. 제외된 메시지는 게재 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 나열됩니다([이 섹션](../../sending/using/monitoring-a-delivery.md#exclusion-logs) 참조).
+또한 주소가 격리되거나 프로필이 있을 경우 배달 준비 중에 메시지를 제외할 수 차단 목록에 추가된 있습니다. 제외된 메시지는 게재 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 나열됩니다([이 섹션](../../sending/using/monitoring-a-delivery.md#exclusion-logs) 참조).
 
 ![](assets/exclusion_logs.png)
 
@@ -69,8 +69,8 @@ ht-degree: 81%
 | **[!UICONTROL Refused]** | 부드러운/하드 | 스팸 보고서로 보안 피드백이 발생하여 주소가 격리되었습니다. 제공자가 반환하는 오류에 따라 Campaign이 격리 상태를 정당화하는 오류를 수신할 때까지 또는 오류 수가 5개에 도달할 때까지 주소가 직접 격리로 전송되거나 게재를 다시 시도합니다. |
 | **[!UICONTROL Duplicate]** | 무시됨 | 세그먼테이션에서 주소가 이미 검색되었습니다. |
 | **[!UICONTROL Not defined]** | 부드러운 | 오류가 아직 증가하지 않았기 때문에 주소가 적격 상태입니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. |
-| **[!UICONTROL Error ignored]** | 무시됨 | 주소는 허용 목록에 있으며 어떤 경우든 해당 주소로 이메일이 발송됩니다. |
-| **[!UICONTROL Address on block list]** | 하드 | 주소를 전송할 때 차단 목록에 추가되었습니다. |
+| **[!UICONTROL Error ignored]** | 무시됨 | 주소는 허용 목록에추가된 지정되며 어떤 경우에도 이메일이 발송됩니다. |
+| **[!UICONTROL Denylisted address]** | 하드 | 발송 차단 목록 당시 주소가에 추가되었습니다. |
 | **[!UICONTROL Account disabled]** | 부드러운/하드 | IAP(Internet Access Provider)가 장기간 동안 사용되지 않는 경우 사용자의 계정을 닫을 수 있습니다.그러면 사용자 주소로 배달할 수 없습니다. 소프트 또는 하드 유형은 받은 오류 유형에 따라 달라집니다. 6개월 동안 활동이 없어 계정이 일시적으로 비활성화되고 아직 활성화될 수 있는 경우 **[!UICONTROL Erroneous]** 상태가 할당되고 게재를 다시 시도합니다. 수신된 오류가 계정이 영구적으로 비활성화되었음을 나타내는 경우 해당 계정은 즉시 격리로 전송됩니다. |
 | **[!UICONTROL Not connected]** | 무시됨 | 메시지가 전송되면 프로필의 휴대폰이 꺼지거나 네트워크에 연결되지 않습니다. |
 | **[!UICONTROL Invalid domain]** | 부드러운 | 이메일 주소의 도메인이 잘못되었거나 더 이상 존재하지 않습니다. 이 프로필은 오류 수가 5개에 도달할 때까지 다시 타겟팅됩니다. 이후 레코드가 격리 상태로 설정되며 다시 시도되지 않습니다. |
