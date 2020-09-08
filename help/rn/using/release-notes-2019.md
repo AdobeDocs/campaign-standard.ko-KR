@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '7626'
+source-wordcount: '7622'
 ht-degree: 8%
 
 ---
@@ -293,7 +293,7 @@ ht-degree: 8%
 * &quot;Launch_URL_Campaign&quot; 옵션이 Adobe Mobile SDK로 만든 모바일 애플리케이션의 속성을 관리하기 위해 Campaign에 추가되었습니다.
 * 새로 만든 모바일 속성의 인증서를 업로드하고 모바일 응용 프로그램 속성 페이지를 종료한 후 샌드박스 환경 옵션이 선택 취소되는 오류가 수정되었습니다.
 * 서비스 리소스의 정보가 포함된 트랜잭션 메시지 내용을 누리지 못하는 문제가 해결되었습니다. (CAMP-33707)
-* 서비스에서 프로필 가입을 해지하려고 할 때 발생하는 차단 목록 랜딩 페이지의 문제를 수정했습니다.
+* 서비스에서 프로필 가입을 해지하려고 할 때 차단 목록 발생하는 랜딩 페이지의 문제를 수정했습니다.
 
 ## 릴리스 19.2 - 2019년 5월 {#release-19-2---may-2019}
 
@@ -617,7 +617,7 @@ ht-degree: 8%
 * 쿼리 편집기에서 브로드로그와 rtEvent에 대한 추적 로그 간의 연결 조건이 있는 문제를 해결했습니다. (CAMP-28780)
 * &quot;특정 작업&quot; 랜딩 페이지 옵션에 대한 수정 내용이 저장되지 않는 문제를 해결했습니다. (CAMP-29422)
 * 워크플로우에서 이벤트의 페이로드를 내보낼 수 없는 문제를 수정했습니다. (CAMP-29029)
-* 차단 목록의 SMS 번호가 SMS 메시지에서 제외되지 않는 문제를 해결했습니다. (CAMP-28898)
+* SMS 차단 목록에 추가된 번호가 SMS 메시지에서 제외되지 않는 문제를 해결했습니다. (CAMP-28898)
 * 수신 메시지를 처리하는 동안 오류가 발생하는 경우 SMPP 공급자에 대한 알림을 받지 못하게 하는 문제가 해결되었습니다. (CAMP-29804)
 * 연결된 배달이 있는 외부 계정을 삭제할 수 있었던 문제를 수정했습니다. (CAMP-29738)
 * The sending throughput has been improved and stansued for SMS messages.
