@@ -12,9 +12,9 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -152,12 +152,12 @@ ht-degree: 1%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 차단 목록<br /> </td> 
+   <td> 차단 목록에 추가된<br /> </td> 
    <td> 이메일을 스팸 또는 정크 메일로 선언한 받는 사람 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 차단 목록 속도<br /> </td> 
-   <td> 차단 목록에 표시된 배달 비율.<br /> </td> 
+   <td> 차단 목록 비율<br /> </td> 
+   <td> 에 표시된 배달 차단 목록 비율.<br /> </td> 
   </tr> 
   <tr> 
    <td> 바운스 수 + 오류<br /> </td> 
