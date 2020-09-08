@@ -12,7 +12,7 @@ discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da4be48018128a766c749e30301c3c86e9fcf9e9
+source-git-commit: 3534fb2cf9f77168eb3ca0021f4121a44a57916d
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 6%
@@ -38,5 +38,5 @@ Adobe Analytics의 핵심 서비스 트리거 **와** Adobe Campaign의 통합�
 **관련 항목:**
 
 * [Analytics 통합에 대한 Campaign Standard 개요](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
-* [Campaign Standard 통합] 구성(https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Campaign Standard 통합 구성](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Analytics에서 Campaign 차원 및 지표 보기](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
