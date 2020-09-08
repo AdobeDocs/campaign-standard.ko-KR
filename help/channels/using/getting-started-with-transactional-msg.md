@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07adae5bac947df794520e48361fd3c20eba5ff8
+source-git-commit: a5c5c11a3f29e83f7ec3b36087f9455c58a819e1
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 28%
+source-wordcount: '818'
+ht-degree: 26%
 
 ---
 
@@ -25,21 +25,16 @@ ht-degree: 28%
 
 ## 개요
 
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><p>트랜잭션 메시지 기능의 개념 <b>소개</b></p></td>
 <td ><br><p>트랜잭션 메시지를 통해 고객에게 실시간으로 개별 메시지 <b>및 고유한 메시지를</b> 보낼 수 있습니다.</p></td>
 <td>환영 메시지, 주문 확인, 암호 변경 등이 가능합니다.</td>
+<td>Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메시지로 변환할 이벤트를 전송하는 정보 시스템과 통합할 수 있습니다.</td>
 </tr>
 </table>
 
-Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메시지로 변환할 이벤트를 전송하는 정보 시스템과 통합할 수 있습니다.
-
->[!NOTE]
->
->트랜잭션 메시지는 옵션에 따라 이메일, SMS 또는 푸시 알림으로 보낼 수 있습니다. 사용권 계약을 확인하십시오.
+트랜잭션 메시지는 옵션에 따라 이메일, SMS 또는 푸시 알림으로 보낼 수 있습니다. 사용권 계약을 확인하십시오.
 
 Adobe Campaign은 다른 배달보다 트랜잭션 메시지 처리에 우선 순위를 매깁니다.
 
@@ -78,28 +73,22 @@ Adobe Campaign은 다른 배달보다 트랜잭션 메시지 처리에 우선 �
 
 Adobe Campaign에서는 두 가지 유형의 트랜잭션 메시지를 사용할 수 있습니다.
 
-<!--[Event transactional messages](../../channels/using/event-transactional-messages.md) targeting an **event**. The data contained in the event itself is used to define the delivery target.-->
-
 <table>
 <tr>
 <td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">이벤트 트랜잭션 메시지</a><br><b>는 이벤트를 타겟팅합니다</b></p></td>
-<td><p><ul><li>프로필 정보는 포함하지 않습니다.</li><li>또한 <a href="../../sending/using/fatigue-rules.md">피로 규칙과는</a> 호환하지 않습니다(프로파일을 사용한 경우에도).</li><li>전달 대상은 이벤트 자체에 포함된 데이터로 정의됩니다.</li></ul></p></td>
+<td><p><ul><li>이벤트 트랜잭션 메시지에 프로필 정보가 없습니다.</li><li>또한 <a href="../../sending/using/fatigue-rules.md">피로 규칙과는</a> 호환하지 않습니다(프로파일을 사용한 경우에도).</li><li>전달 대상은 이벤트 자체에 포함된 데이터로 정의됩니다.</li></ul></p></td>
 </tr>
 <tr>
 <td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Adobe Campaign 마케팅</a><br>데이터베이스의 트랜잭션 메시지 <b>타깃팅 프로필 프로필 프로필</b></p></td>
-<td><p>트랜잭션 메시지를 프로파일링하여 다음을 수행할 수 있습니다.<ul><li>차단 목록 <b>또는</b> 피로 규칙의 <a href="../../sending/using/fatigue-rules.md">주소와 같은 마케팅 유형 규칙을 적용합니다</a>.</li><li>메시지에 구독 취소 링크를 포함합니다.</li><li>트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.</li><li>트랜잭션 메시지를 고객 여정에 활용합니다.</li></ul></p></td>
+<td><p>트랜잭션 메시지를 프로파일링하여 다음을 수행할 수 있습니다.<ul><li>Apply marketing typology rules such as <b>denylisted address</b> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>메시지에 구독 취소 링크를 포함합니다.</li><li>트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.</li><li>트랜잭션 메시지를 고객 여정에 활용합니다.</li></ul></p></td>
 </tr>
 </table>
-
-<!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
 
 메시지 유형은 트랜잭션 메시지로 변환할 이벤트를 구성할 때 정의합니다. [트랜잭션 메시지 구성](../../administration/using/configuring-transactional-messaging.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
 >To access all transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
-
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). However, profile transactional messages are compatible. For more on fatigue rules, see [this section](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
 
 ## 트랜잭션 메시지 작동 원리 {#transactional-messaging-operating-principle}
 
@@ -111,18 +100,12 @@ Adobe Campaign을 통해 장바구니에 제품을 추가한 사이트 사용자
 
 ### 1단계 - 이벤트 구성 만들기 및 게시 {#create-event-configuration}
 
-<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
-
-Configure an event that will be named "Cart abandonment" and publish this event configuration.
-
-The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
-
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p><b>트랜잭션 이벤트 구성</b></p></td>
 <td><br><p>"장바구니 포기"라는 이름을 지정할 이벤트를 구성하고 이 이벤트 구성을 게시합니다.</p></td>
 <td>웹 사이트 개발자가 사용할 API가 배포되고 트랜잭션 메시지가 자동으로 생성됩니다.</td>
+<td>이 단계는 <a href="../../administration/using/users-management.md#functional-administrators">관리 권한이 있는 사용자가 수행해야 합니다</a>.</td>
 </tr>
 </table>
 
@@ -130,16 +113,12 @@ The API that will be used by your website developer is deployed and a transactio
 
 ### 2단계 - 트랜잭션 메시지 편집 및 게시 {#create-transactional-message}
 
-<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
-
-Edit and personalize the transactional message, test it, and then publish it.-->
-
-<img src="assets/do-not-localize/icon_notification.svg" width="45px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="40px"><br><p><b>트랜잭션 메시지 에디션</b></p></td>
 <td><br><p>트랜잭션 메시지를 편집하고 개인화하여 테스트한 다음 게시할 수 있습니다.</p></td>
 <td>트랜잭션 메시지를 보낼 준비가 됩니다.</td>
+<td>이 단계는 <a href="../../administration/using/users-management.md#basic-users">기본 액세스 권한이 있는 모든 마케팅 사용자가 수행할 수 있습니다</a>.
 </tr>
 </table>
 
@@ -147,18 +126,12 @@ For more on editing and publishing a transactional message, see [Event transacti
 
 ### 3단계 - 이벤트 트리거 통합 {#integrate-event-trigger}
 
-<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
-
-Use the REST Transactional Messages API to integrate the event into your website.
-
-The event will be triggered when a client abandons their cart.-->
-
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="55px"><br><p><b>이벤트 통합 트리거</b></p></td>
 <td><br><p>REST 트랜잭션 메시지 API를 사용하여 이벤트를 웹 사이트에 통합합니다.</p></td>
 <td>클라이언트가 장바구니를 포기하면 이벤트가 트리거됩니다.</td>
+<td>이 단계는 웹 사이트 개발자가 수행합니다.
 </tr>
 </table>
 
@@ -166,18 +139,12 @@ The event will be triggered when a client abandons their cart.-->
 
 ### 4단계 - 메시지 배달 {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:
-
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
-
-As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
-
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>웹 사이트에서 오는 외부 이벤트</b></p></td>
 <td><br><p>이러한 모든 단계를 수행한 후 메시지가 전달될 수 있습니다.</p></td>
-<td>사용자가 장바구니에 제품을 주문하지 않고 사이트를 떠나면 알림 이메일을 자동으로 받게 됩니다.</td>
+<td>사용자가 장바구니에서 제품을 주문하지 않고 사이트를 떠나면 해당 캠페인 이벤트가 트리거됩니다.</td>
+<td>그러면 사용자가 알림 이메일을 자동으로 수신하게 됩니다.</td>
 </tr>
 </table>
 
@@ -186,6 +153,11 @@ As soon as a user leaves the site without ordering the products in their cart, t
 Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 때의 주요 단계는 아래 차트에 요약되어 있습니다.
 
 ![](assets/message-center-overview.png)
+
+**관련 항목:**
+
+* [메시지 보내기 주요 단계](../../channels/using/key-steps-to-send-a-message.md)
+* [소통 채널 시작](../../channels/using/get-started-communication-channels.md)
 
 <!--## Transactional messaging publication process {#transactional-messaging-pub-process}
 
@@ -197,13 +169,7 @@ For more on the event configuration steps, see [Transactional messaging configur
 
 Read more:
 
-* [About transactional messaging](../../channels/using/about-transactional-messaging.md)
 * [Event transactional messages](../../channels/using/event-transactional-messages.md)
 * [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
 * [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
 * [Follow-up messages](../../channels/using/follow-up-messages.md)-->
-
-**관련 항목:**
-
-* [메시지 보내기 주요 단계](../../channels/using/key-steps-to-send-a-message.md)
-* [소통 채널 시작](../../channels/using/get-started-communication-channels.md)
