@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1557'
 ht-degree: 96%
 
 ---
@@ -86,7 +86,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 * 때때로 SFTP에 로그인하여 무엇이 있는지 직접 확인합니다.
 * SFTP 디스크 관리는 주로 사용자의 책임입니다.
 
-또한 SFTP 연결을 시작하려는 공개 IP는 캠페인 인스턴스의 허용 목록에 추가해야 합니다. Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+또한 SFTP 연결을 시작하려는 공개 IP는 캠페인 인스턴스의허용 목록에 추가하다에 추가해야 합니다. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 SFTP 서버는 Campaign 컨트롤 패널에서 관리할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/sftp-management/about-sftp-management.html)를 참조하십시오.
 
