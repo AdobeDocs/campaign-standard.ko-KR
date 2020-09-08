@@ -12,15 +12,15 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 87f65e6225f7f22ab347aac33ea9d769af299030
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 2%
 
 ---
 
 
-# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
+# Campaign Standard API의 장점 {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard은 기존 시스템이 ACS 플랫폼과 통합됨으로써 실시간 세계 문제를 해결할 수 있는 API를 제공합니다.
 
@@ -65,7 +65,7 @@ Adobe Campaign Standard은 기존 시스템이 ACS 플랫폼과 통합됨으로�
 
    ![대체 텍스트](assets/postman_collection.png)
 
-1. 프로필 **요청** 만들기를 선택한 다음 POST 요청과 **헤더** 탭을 사용자 고유의 정보로 업데이트합니다(&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). 자세한 정보는 [이 섹션](../../api/using/setting-up-api-access.md)을 참조하십시오.
+1. 프로필 **요청** 만들기를 선택한 다음 POST 요청과 **헤더** 탭을 사용자 고유의 정보로 업데이트합니다(&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). 이 작업에 대한 자세한 정보는 [이 섹션](../../api/using/setting-up-api-access.md)을 참조하십시오.
 
    ![대체 텍스트](assets/postman_uc1.png)
 
