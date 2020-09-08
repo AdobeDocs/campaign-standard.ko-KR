@@ -12,10 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 89%
+source-wordcount: '1146'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 89%
 
 이를 설정하려면 다음을 수행해야 합니다.
 
-1. 방문자가 등록하고 구독할 수 있도록 랜딩 페이지를 만들고 게시합니다. 이 랜딩 페이지는 웹 사이트에서 사용할 수 있습니다. Visitors who fill in and submit this landing page will be stored in the database but added to the block list, in order not to receive any communication before the final validation (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. 방문자가 등록하고 구독할 수 있도록 랜딩 페이지를 만들고 게시합니다. 이 랜딩 페이지는 웹 사이트에서 사용할 수 있습니다. Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. 확인 링크가 포함된 옵트인 이메일을 자동으로 작성하여 전송합니다. 이 이메일은 랜딩 페이지를 제출한 모집단을 타겟팅합니다. 이는 &#39;옵트아웃&#39; 프로필을 타겟팅할 수 있는 이메일 템플릿을 기반으로 합니다.
 1. 확인 랜딩 페이지로 리디렉션합니다. 이 최종 랜딩 페이지에는 확인 버튼이 표시됩니다. 방문자는 이 버튼을 클릭해야 합니다. 확인이 완료되면 전송할 환영 이메일을 디자인할 수 있으며, 예를 들어 새 수신자를 위해 이메일에 특별 오퍼를 추가할 수 있습니다.
 
@@ -54,13 +54,13 @@ ht-degree: 89%
 
 1. **[!UICONTROL Job]** > **[!UICONTROL Additional data]** 섹션에서 **[!UICONTROL Add an element]**&#x200B;을(를) 클릭하고 다음의 컨텍스트 경로를 입력합니다.
 
-   /context/profile/차단 목록에 추가하다
+   /context/profile/blackList
 
    값을 **false**&#x200B;로 설정하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   이 컨텍스트에서는 이메일을 보낼 수 있도록 &#39;차단 목록에서&#39; 필드를 제거합니다. 확인되지 않은 프로필로 이메일을 보내는 것을 방지하기 위해 첫 번째 랜딩 페이지에서 이 필드를 **true**&#x200B;로 설정했음을 나중에 확인할 수 있습니다. 자세한 내용은 [3단계: 확보 랜딩 페이지 만들기](#step-3--create-the-acquisition-landing-page)를 참조하십시오.
+   이 컨텍스트에서는 이메일을 보낼 수 있도록 &#39;차단 목록에 추가된&#39; 필드를 제거합니다. 확인되지 않은 프로필로 이메일을 보내는 것을 방지하기 위해 첫 번째 랜딩 페이지에서 이 필드를 **true**&#x200B;로 설정했음을 나중에 확인할 수 있습니다. 자세한 내용은 [3단계: 확보 랜딩 페이지 만들기](#step-3--create-the-acquisition-landing-page)를 참조하십시오.
 
 1. 랜딩 페이지의 콘텐츠를 사용자 지정합니다. 예를 들어 개인화된 데이터를 표시하고 확인 버튼의 레이블을 &#39;여기를 클릭하여 내 구독 확인&#39;으로 변경할 수 있습니다.
 
@@ -101,12 +101,12 @@ ht-degree: 89%
 
 ### 유형화 만들기 {#create-the-typology-rule}
 
-즉시 사용 가능한 유형화를 복제하여 특별한 [유형화](../../sending/using/about-typology-rules.md)를 만들어야 합니다. 이러한 유형 분석을 통해 아직 합의를 확인하지 않은 채 차단 목록에 있는 프로파일에 메시지를 보낼 수 있습니다. 기본적으로 유형 분류는 옵트아웃(예: 차단 목록) 프로파일을 제외합니다. 이 유형화를 만들려면 다음 단계를 수행합니다.
+즉시 사용 가능한 유형화를 복제하여 특별한 [유형화](../../sending/using/about-typology-rules.md)를 만들어야 합니다. 이러한 유형 분석을 통해 아직 합의를 확인하지 않고 여전히 차단 목록에 추가된 있는 프로파일에 메시지를 보낼 수 있습니다. 기본적으로 유형 분류는 옵트아웃(예: 차단 목록에 추가된) 프로파일을 제외합니다. 이 유형화를 만들려면 다음 단계를 수행합니다.
 
 1. Adobe Campaign 로고에서 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**&#x200B;을(를) 선택하고 **[!UICONTROL Typologies]**&#x200B;을(를) 클릭합니다.
 1. 즉시 사용 가능한 유형화 **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**&#x200B;을(를) 복제합니다.
 1. 복제를 확인한 후, 새 유형화를 편집하고 레이블 **TYPOLOGY_PROFILE**&#x200B;을 입력합니다.
-1. 차단 목록 **에서 주소를** 제거합니다.
+1. Remove the **Denylisted address** rule.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 이제 이러한 유형화를 확인 이메일과 연결할 수 있습니다.
@@ -133,11 +133,11 @@ ht-degree: 89%
 1. **[!UICONTROL Profile acquisition (acquisition)]** 템플릿을 기반으로 [새 랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md)를 디자인합니다. &#39;**ACQUISITION**&#39; 레이블을 입력합니다.
 1. 랜딩 페이지 속성을 편집합니다. **[!UICONTROL Job]** > **[!UICONTROL Additional data]** 섹션에서 **[!UICONTROL Add an element]**&#x200B;을(를) 클릭하고 다음의 컨텍스트 경로를 입력합니다.
 
-   /context/profile/차단 목록에 추가하다
+   /context/profile/blackList
 
    값을 **true**&#x200B;로 설정합니다.
 
-   차단 목록에 강제로 추가하고 계약을 확인하지 않은 방문자에게 메시지를 보내지 않도록 해야 합니다. CONFIRMATION 랜딩 페이지의 유효성 검사에서는 확인 후 이 필드를 **false**&#x200B;로 설정합니다. 자세한 내용은 [1단계: 확인 랜딩 페이지 만들기](#step-1--create-the-confirmation-landing-page)를 참조하십시오.
+   계약을 확인하지 않은 방문자에게 메시지를 보내지 않고에 차단 목록 강제로 추가해야 합니다. CONFIRMATION 랜딩 페이지의 유효성 검사에서는 확인 후 이 필드를 **false**&#x200B;로 설정합니다. 자세한 내용은 [1단계: 확인 랜딩 페이지 만들기](#step-1--create-the-confirmation-landing-page)를 참조하십시오.
 
 1. **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** 섹션에서 **[!UICONTROL Start sending messages]** 옵션을 선택합니다.
 1. 연결된 드롭다운 목록에서 생성한 **CONFIRM** 트랜잭션 메시지 템플릿을 선택합니다.
