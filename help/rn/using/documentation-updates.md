@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '6144'
+source-wordcount: '6097'
 ht-degree: 94%
 
 ---
@@ -55,8 +55,6 @@ Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추�
 워크플로우 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../automating/using/about-workflow-use-cases.md)
 
 제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)하고 [해독](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)하는 방법에대한 사용 사례가 추가되었습니다.
-
-&#39;화이트 리스트&#39;와 &#39;블랙 리스트&#39; 용어 모두 Adobe Campaign 문서에서 제거되었습니다. 이러한 용어의 일부 항목은 여전히 제품 UI, 옵션 이름 및 내부 코드에 존재할 수 있지만, 향후 캠페인 릴리스에서 &#39;차단 목록&#39; 및 &#39;허용 목록&#39;으로 대체될 것입니다.
 
 기존 지원 웹 사이트에 대한 참조가 새 URL로 대체되었습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -618,7 +616,7 @@ Adobe 호스팅 SFTP 서버 사용에 대한 모범 사례를 알아봅니다. [
 
 GDPR API에서 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그룹화합니다. [자세한 내용](../../api/using/creating-a-privacy-request.md)
 
-수신자에게 차단 목록에 추가할 수 있는 랜딩 페이지를 설정하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+수신자에게 제공할 수 있도록 랜딩 페이지를 설정하는 방법에 대한 정보가 차단 목록에 추가된 추가되었습니다. [자세한 내용](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 [트랜잭션 메시지 구성](../../administration/using/configuring-transactional-messaging.md) 섹션을 재구성하고 [단계별 사용 사례](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)를 추가했습니다.
 
@@ -672,7 +670,7 @@ SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 �
 
 **[!UICONTROL Customizing a push notification]** 섹션을 단계별 사용 사례에 따라 재구성했습니다. [자세한 내용](../../channels/using/customizing-a-push-notification.md)
 
-차단 목록 관리를 위한 새로운 섹션 [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+관리를 위한 새로운 차단 목록 섹션 [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 게재 실패 및 격리에 대한 정보를 업데이트했습니다. [자세한 내용](../../sending/using/monitoring-a-delivery.md)
 
