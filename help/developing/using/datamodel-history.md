@@ -10,10 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1204'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -48,43 +48,43 @@ ht-degree: 0%
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockList</td>
+                  <td>blackList</td>
                   <td>더 이상 연락하지 않음(모든 채널에서)</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListEmail</td>
+                  <td>blackListEmail</td>
                   <td>더 이상 이메일로 연락하지 않음</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListFax</td>
+                  <td>blackListFax</td>
                   <td>더 이상 팩스로 연락하지 않음</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListMobile</td>
+                  <td>blackListMobile</td>
                   <td>더 이상 SMS로 연락하지 않습니다.</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPhone</td>
+                  <td>blackListPhone</td>
                   <td>더 이상 전화로 연락 안 함</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPostalMail</td>
+                  <td>blackListPostalMail</td>
                   <td>더 이상 DM(Direct Mail)으로 연락하지 않음</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPushnotification</td>
+                  <td>blackListPushnotification</td>
                   <td>푸시 알림으로 더 이상 연락하지 않음</td>
                   <td>boolean </td>
                   <td> </td>
@@ -201,7 +201,7 @@ ht-degree: 0%
                <tr>
                   <td>lastName</td>
                   <td>성</td>
-                  <td>문자열(30)</td>
+                  <td>문자열(50)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -354,7 +354,7 @@ ht-degree: 0%
                         <li>(GMT) 몬로비아 - 아프리카_몬로비아 - 아프리카/몬로비아</li>
                         <li>(GMT-09:00) 알래스카 - 아메리카_앵커리지 - 아메리카/앵커리지</li>
                         <li>(GMT+01:00) 베오그라드, 브라티슬라바, 부다페스트, 류블랴나, 프라하 - 유럽_베오그라드 - 유럽/베오그라드</li>
-                        <li>(GMT) 레이키야비크 - 애틀랜틱_레이키야비치 - 애틀랜틱/레이키야비치</li>
+                        <li>(GMT) 레이키야비치 - 애틀랜틱_레이키야비치 - 애틀랜틱/레이키야비치</li>
                         <li>(GMT+02:00) 부커스트 - 유럽_부쿠레슈티 - 유럽/부쿠레슈티</li>
                         <li>(GMT+05:00) 그리니치 평균 시간 + 5시간 - Gmt_p5 - 기타/GMT-5</li>
                         <li>(GMT+04:00) 그리니치 표준시 + 4시간 - Gmt_p4 - 기타/GMT-4</li>
@@ -373,7 +373,7 @@ ht-degree: 0%
                         <li>(GMT-07:00) 록키 산맥(미국 및 캐나다) - 아메리카_덴버 - 아메리카/덴버</li>
                         <li>(GMT+01:00) 중앙 아프리카 - 서부 - 아프리카_루란다 - 아프리카/루다</li>
                         <li>(GMT+02:00) 헬싱키, 키예프, 리가, 소피아, 탈린, 빌뉴스 - 유럽_헬싱키 - 유럽/헬싱키</li>
-                        <li>(GMT) 그리니치 표준시: 더블린, 에든버러, 리스본, 런던 - Europe_London - Europe/London</li>
+                        <li>(GMT) 그리니치 표준시:더블린, 에든버러, 리스본, 런던 - Europe_London - Europe/London</li>
                         <li>(GMT-07:00) 애리조나 - 아메리카_피닉스 - 아메리카/피닉스</li>
                         <li>(GMT+02:00) 베이루트 - 아시아_베이루트 - 아시아/베이루트</li>
                         <li>(GMT+04:30) 카불 - 아시아_카불 - 아시아/카불</li>
