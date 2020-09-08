@@ -12,10 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -47,15 +47,15 @@ ht-degree: 1%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blocklisted<br /> </td> 
-   <td> @blocklisted<br /> </td> 
+   <td> 차단 목록에 추가된<br /> </td> 
+   <td> @차단됨<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 블록 등록 비율<br /> </td> 
-   <td> @rateBlocklisted<br /> </td> 
-   <td> @blocklisted/@sent<br /> </td> 
+   <td> 차단 목록 비율<br /> </td> 
+   <td> @rateBlacked<br /> </td> 
+   <td> @차단됨/@전송<br /> </td> 
    <td> 비율 계산의 분모는 전송 횟수(배달됨 + 바운스 수)를 기반으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
