@@ -13,10 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -431,7 +431,7 @@ ht-degree: 0%
          <td>열거형(바이트) </td>
          <td>
             <ul>
-               <li>Blocklist - blockList - 3</li>
+               <li>블랙 리스트 - 블랙 리스트 - 3</li>
                <li>특정 작업 없음 - 없음 - 0</li>
                <li>구독 취소 - 구독 취소 - 2</li>
                <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -576,7 +576,7 @@ ht-degree: 0%
                <li>(GMT) 몬로비아 - 아프리카_몬로비아 - 아프리카/몬로비아</li>
                <li>(GMT-09:00) 알래스카 - 아메리카_앵커리지 - 아메리카/앵커리지</li>
                <li>(GMT+01:00) 베오그라드, 브라티슬라바, 부다페스트, 류블랴나, 프라하 - 유럽_베오그라드 - 유럽/베오그라드</li>
-               <li>(GMT) 레이키야비크 - 애틀랜틱_레이키야비치 - 애틀랜틱/레이키야비치</li>
+               <li>(GMT) 레이키야비치 - 애틀랜틱_레이키야비치 - 애틀랜틱/레이키야비치</li>
                <li>(GMT+02:00) 부커스트 - 유럽_부쿠레슈티 - 유럽/부쿠레슈티</li>
                <li>(GMT+05:00) 그리니치 평균 시간 + 5시간 - Gmt_p5 - 기타/GMT-5</li>
                <li>(GMT+04:00) 그리니치 표준시 + 4시간 - Gmt_p4 - 기타/GMT-4</li>
@@ -595,7 +595,7 @@ ht-degree: 0%
                <li>(GMT-07:00) 록키 산맥(미국 및 캐나다) - 아메리카_덴버 - 아메리카/덴버</li>
                <li>(GMT+01:00) 중앙 아프리카 - 서부 - 아프리카_루란다 - 아프리카/루다</li>
                <li>(GMT+02:00) 헬싱키, 키예프, 리가, 소피아, 탈린, 빌뉴스 - 유럽_헬싱키 - 유럽/헬싱키</li>
-               <li>(GMT) 그리니치 표준시: 더블린, 에든버러, 리스본, 런던 - Europe_London - Europe/London</li>
+               <li>(GMT) 그리니치 표준시:더블린, 에든버러, 리스본, 런던 - Europe_London - Europe/London</li>
                <li>(GMT-07:00) 애리조나 - 아메리카_피닉스 - 아메리카/피닉스</li>
                <li>(GMT+02:00) 베이루트 - 아시아_베이루트 - 아시아/베이루트</li>
                <li>(GMT+04:30) 카불 - 아시아_카불 - 아시아/카불</li>
@@ -636,7 +636,7 @@ ht-degree: 0%
             <ul>
                <li>일반 - 일반 - 0</li>
                <li>서비스의 구독 취소 - 구독 취소 - 3</li>
-               <li>Blocklist - blockList - 4</li>
+               <li>블랙 리스트 - 4</li>
                <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                <li>획득 - 획득 - 1</li>
                <li>서비스 가입 - 구독 - 2</li>
