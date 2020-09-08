@@ -12,10 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 94%
+source-wordcount: '384'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 고객 마케팅 프로필을 기반으로 트랜잭션 메시지를 보내면 다음과 같은 작업을 수행할 수 있습니다.
 
-* **[!UICONTROL Address on block list]** 또는 [피로도 규칙](../../sending/using/fatigue-rules.md) 등 마케팅 유형화 규칙을 적용합니다.
+* **[!UICONTROL Denylisted address]** 또는 [피로도 규칙](../../sending/using/fatigue-rules.md) 등 마케팅 유형화 규칙을 적용합니다.
 * 메시지에 구독 취소 링크를 포함합니다.
 * 트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.
 * 트랜잭션 메시지를 고객 여정에 활용합니다.
@@ -74,11 +74,11 @@ ht-degree: 94%
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as denylisted addresses.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-**[!UICONTROL Address on block list]** 유형화 규칙이 옵트아웃한 프로필의 수신자를 모두 제외합니다.
+**[!UICONTROL Denylisted address]** 유형화 규칙이 옵트아웃한 프로필의 수신자를 모두 제외합니다.
 
 이 규칙은 **[!UICONTROL Profile]** 표를 기반으로 하는 모든 트랜잭션 메시지에 적용되는 특정 유형화 중 일부입니다.
 
