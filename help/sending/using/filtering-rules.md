@@ -12,10 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 2%
+source-wordcount: '650'
+ht-degree: 3%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 2%
 | 레이블 | 채널 | 설명 |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | 모두 | 지정된 주소(이메일, 우편 주소 등)가 없는 대상 모집단을 제외합니다. 를 참조하십시오. |
-| **[!UICONTROL Blocklisted address]** | 모두 | 블록 목록에 있는 주소를 제외합니다. |
+| **[!UICONTROL Denylisted address]** | 모두 | 에 있는 주소를 차단 목록 제외합니다. |
 | **[!UICONTROL Duplicate]** | 모두 | 대상 모집단 **[!UICONTROL Address]** 필드를 기반으로 중복 항목을 제외합니다. |
 | **[!UICONTROL Exclude mobile applications]** | 모바일 애플리케이션 | 메시지에 정의된 모바일 애플리케이션과 일치하지 않는 앱 구독을 제외합니다. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 인앱 | 메시지에 정의된 모바일 애플리케이션(인앱 템플릿)과 일치하지 않는 앱 구독을 제외합니다. |
@@ -47,13 +47,13 @@ ht-degree: 2%
 
 이메일 분석 중에 이러한 규칙은 받는 사람 이메일 주소와 배달 가능 인스턴스에서 관리되는 암호화된 전역 제외 목록에 포함된 금지된 주소 또는 도메인 이름과 비교합니다. 일치하는 메시지가 있으면 해당 받는 사람에게 메시지가 전송되지 않습니다.
 
-악의적인 활동, 특히 Spamtrap 사용으로 인해 블록 목록에 추가되지 않습니다. 예를 들어 웹 양식 중 하나를 통해 구독하는 데 Spamtrap을 사용하는 경우 확인 이메일이 자동으로 해당 Spamtrap에 전송되고 그러면 주소가 자동으로 블록 목록에 추가됩니다.
+이것은 악성 활동, 특히 차단 목록에 추가된 Spamtrap의 사용으로 인한 피해를 피하기 위한 것입니다. 예를 들어 웹 양식 중 하나를 통해 구독하는 데 Spamtrap을 사용하는 경우 확인 이메일이 자동으로 해당 Spamtrap에 전송되고 그러면 해당 주소가에 자동으로 차단 목록 추가됩니다.
 
 >[!NOTE]
 >
 >글로벌 제외 목록에 포함된 주소 및 도메인 이름은 숨겨집니다. 배달 분석 로그에는 제외된 받는 사람 수만 표시됩니다.
 
-## 필터링 규칙 만들기 {#creating-a-filtering-rule}
+## Creating a filtering rule {#creating-a-filtering-rule}
 
 필요에 따라 고유한 필터링 규칙을 만들 수 있습니다. 예를 들어 18세 미만의 구독자가 통신을 받지 않도록 뉴스레터의 대상 모집단을 필터링할 수 있습니다.
 
@@ -91,11 +91,11 @@ Campaign Standard을 사용하면 타깃팅할 데이터에 따라 **타깃팅**
 
 이렇게 하려면 분류 규칙 속성을 연 다음 **[!UICONTROL Advanced information]** 섹션에 액세스하십시오.
 
-기본적으로 필터링은 JavaScript 파일에 수행됩니다 **[!UICONTROL Profiles]**. 예를 들어 모바일 응용 프로그램을 대상으로 하는 규칙인 경우 이 규칙을 변경할 **[!UICONTROL Filtering dimension]** 수 있습니다 **[!UICONTROL Subscriptions to an application]**.
+By default, filtering is carried out on the **[!UICONTROL Profiles]**. 예를 들어 모바일 응용 프로그램을 대상으로 하는 규칙인 경우 이 규칙을 변경할 **[!UICONTROL Filtering dimension]** 수 있습니다 **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## 필터링 규칙의 적용 가능성 제한 {#restricting-the-applicability-of-a-filtering-rule}
+## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
 
 보낼 메시지에 따라 필터링 규칙의 적용 가능성을 제한할 수 있습니다.
 
