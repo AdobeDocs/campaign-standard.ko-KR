@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Standard의 전달 능력 정보
-description: 전달 시 최적화하기 위해 Adobe Campaign Standard에서 제공하는 도구 및 전달 능력과 관련된 개념과 모범 사례에 대해 알아보십시오.
+title: Adobe Campaign Standard의 제공 정보
+description: 배달 능력과 관련된 개념과 모범 사례뿐만 아니라 배달 전송을 최적화하기 위해 Adobe Campaign Standard이 제공하는 도구에 대해 알아봅니다.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 5%
+source-wordcount: '662'
+ht-degree: 6%
 
 ---
 
@@ -39,14 +39,14 @@ ht-degree: 5%
 
 Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래 나열된 우수 사례를 사용하는 것이 좋습니다. 제공 능력 문제는 일반적으로 인터넷 서비스 제공업체와 메일 서버 관리자가 시행하는 스팸으로부터 보호하는 조치와 관련이 있습니다.
 
-이메일 전달 능력은 메시지 수신, 이메일 주소를 통해, 짧은 시간 내에, 그리고 컨텐츠 및 형식 측면에서 예상되는 품질을 결정하는 일련의 특성입니다. 이러한 특성은 다음 네 가지 주요 카테고리로 분류됩니다. 데이터 품질, 메시지 및 컨텐츠, 전송 인프라 및 명성을 높일 수 있습니다. 이들은 성공적인 이메일 전달 프로그램의 기반이 됩니다.
+이메일 전달 능력은 메시지 수신, 이메일 주소를 통해, 짧은 시간 내에, 그리고 컨텐츠 및 형식 측면에서 예상되는 품질을 결정하는 일련의 특성입니다. 이러한 특성은 다음 네 가지 주요 카테고리로 분류됩니다.데이터 품질, 메시지 및 컨텐츠, 전송 인프라 및 명성을 높일 수 있습니다. 이들은 성공적인 이메일 전달 프로그램의 기반이 됩니다.
 
 배달율은 받는 사람에게 성공적으로 배달된 이메일의 수입니다.
 배달이 잘 되는지 확인할 수 있는 주요 사항 목록이 있습니다.
 
 ## 전달 기능 툴 {#deliverability-tools}
 
-먼저, Campaign Standard과 함께 제공되는 제공 툴에 대한 설명서를 참조하여 시작하십시오.
+먼저, Campaign Standard과 함께 제공되는 제공 툴에 대한 설명서를 참조하기 시작합니다.
 * [전달 모범 사례](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
 * [보낸 사람 이름 맞춤화](../../designing/using/personalization.md#personalizing-the-sender)
 * [이메일의 제목란 테스트](../../sending/using/testing-subject-line-email.md)
@@ -56,8 +56,8 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래 나열
 * [게재 모니터링](../../sending/using/monitoring-a-delivery.md)
 * [게재 실패 시 경고 받기](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [게재 실패 이해](../../sending/using/understanding-delivery-failures.md)
-* [스팸 차단 관리 이해](../../sending/using/understanding-quarantine-management.md)
-* [격리 및 블록 목록](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
+* [격리 대 차단 목록](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [동적 보고서](../../reporting/using/about-dynamic-reports.md)
 
 ## 네트워크 구성 확인 {#network-configuration}
@@ -66,7 +66,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래 나열
 
 ## 유효한 주소로 전송 {#valid-addresses}
 
-주소 생성기는 자주 이름과 성명 목록을 기반으로 사용한다. 또한 메일 서버에서 발송한 기술 알림은 거의 처리되지 않습니다. 잘못된 주소의 비율이 높은 것은 종종 스팸의 신호로 해석됩니다. 이중 옵트인 메커니즘과 효과적인 기술 바운스 메시지 처리를 통해 이러한 문제를 방지할 수 있습니다.
+주소 생성기는 자주 이름과 성명 목록을 기반으로 사용한다.또한 메일 서버에서 발송한 기술 알림은 거의 처리되지 않습니다. 잘못된 주소의 비율이 높은 것은 종종 스팸의 신호로 해석됩니다. 이중 옵트인 메커니즘과 효과적인 기술 바운스 메시지 처리를 통해 이러한 문제를 방지할 수 있습니다.
 
 ## 불만률 감소 {#reduce-complaint-rate}
 
