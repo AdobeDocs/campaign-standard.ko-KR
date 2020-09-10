@@ -13,10 +13,10 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 100%
+source-wordcount: '1252'
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 브랜드 구성 및 사용의 주요 원칙은 다음과 같습니다.
 
-1. 브랜드 만들기 및 구성 - 이 작업은 특정 권한이 필요하며 Adobe Campaign 기술 관리자가 수행합니다.
+1. 브랜드 만들기 및 구성 - 이 작업은 특정 권한이 필요하며 Adobe Campaign 기술 관리자가 수행합니다. Campaign에서 새 브랜드를 가져오기 위한 단계는 이 섹션 [에 자세히 설명되어 있습니다](#creating-a-brand).
 1. 이 브랜드에 대해 하나 또는 여러 개의 게재 및 랜딩 페이지 템플릿을 만듭니다. [템플릿 만들기](../../start/using/marketing-activity-templates.md) 섹션을 참조하십시오.
 1. 이 템플릿을 기반으로 메시지 및 랜딩 페이지를 만듭니다. [이메일 만들기](../../channels/using/creating-an-email.md) 및 [랜딩 페이지 만들기](../../channels/using/designing-a-landing-page.md) 섹션을 참조하십시오.
 
@@ -89,6 +89,26 @@ ht-degree: 100%
    Adobe Analytics 또는 Google Analytics와 같은 웹 분석 도구 등 외부 시스템에서 링크를 추적할 수 있도록 하는 추가 매개 변수가 여기에 정의되어 있습니다.
 
    ![](assets/branding_05.png)
+
+## Creating a new brand {#creating-a-brand}
+
+Campaign에서 조직의 새 엔티티를 추가하거나 다른 하위 도메인 아래에 보내야 하는 새 유형의 이메일을 만들 수 있습니다. 이 작업을 수행하려면 아래 단계를 수행하십시오.
+
+1. **새 하위 도메인** 위임 - 새 하위 도메인을 Adobe에서 사용하려면 첫 번째 단계를 위임해야 합니다. 이 작업은 [캠페인 Campaign 컨트롤 패널을](https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) 통해 수행하거나 Adobe 기술 담당자에게 문의하십시오. 이 문서에서 하위 도메인 위임 [에 대한 자세한 내용을 살펴보십시오](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html).
+
+1. **티켓** 만들기 - 하위 도메인이 위임되면 프로덕션 환경에서 Adobe을 설정해야 합니다. 이 요청을 [요청하려면 다음 정보를 사용하여 클라이언트 지원팀에](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 대한 티켓을 만듭니다.
+
+   * 제목: [ACS] 새 브랜드 설정
+
+   * 컨텐츠:새 도메인이 Adobe에 위임되었으며 ACS 플랫폼에서 설정되기를 원합니다
+
+   * 도메인:XXX
+
+   * 프로덕션 URL:XXX.campaign.adobe.com
+
+1. **배달 템플릿** 만들기 - 새 브랜드를 사용할 수 있게 되면 새 브랜드를 참조하는 빈 배달 템플릿을 하나 이상 새로 만드는 것이 좋습니다. [자세히 알아보기](#linking-a-brand-to-a-template)
+
+1. **전달 가능성 지침** 확인 - 새 도메인을 사용하기 전에 Adobe 제공 팀과 함께 전략에 대해 논의해야 합니다. 예를 들어 도메인 간에 IP를 분할하거나, 램프 업 계획을 정의해야 하는 경우, 우수 사례를 정의하는 데 도움이 됩니다. 이 섹션에서 제공 가능성 우수 사례 [에 대해 자세히 알아보십시오](../../sending/using/about-deliverability.md).
 
 ## 이메일에 브랜드 할당 {#assigning-a-brand-to-an-email}
 
