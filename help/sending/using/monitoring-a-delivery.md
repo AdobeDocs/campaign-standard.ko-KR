@@ -12,18 +12,21 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 86%
 
 ---
 
 
 # 게재 모니터링{#monitoring-a-delivery}
 
-게재를 모니터링하고 영향을 측정하는 방법에는 몇 가지가 있습니다.
+배송을 모니터링하고 그 효과를 측정하는 방법에는 여러 가지가 있습니다. 기능 관리자는 메시지 로그와 배달 로그에 액세스할 수 있습니다.
+>[!CAUTION]
+>
+>역할 및 액세스 권한이 있는 [기능](../../administration/using/users-management.md#functional-administrators)관리자만 **[!UICONTROL Administration]** 모든 **** 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블에서 시작합니다(프로필, 배달).
 
 * **메시지 로그**: 메시지 대시보드에서 로그에 직접 액세스할 수 있습니다. 여기에는 전송 세부 사항과 제외된 타겟 및 그 이유와 함께 오픈과 클릭 등의 추적 정보가 표시됩니다.
 
