@@ -12,11 +12,11 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 84%
 
 ---
 
@@ -44,3 +44,7 @@ Adobe Campaign에서 사용하는 데이터는 다양한 리소스를 통해 정
 또한 만든 리소스에 해당하는 화면에서 [내비게이션을 구성](configuring-the-screen-definition.md)할 수도 있습니다.
 
 사용자 정의 리소스를 **내보내기 및 가져오기**&#x200B;할 수 있습니다. 예를 들면 개발 환경에서 프로덕션 환경으로 가져오거나 내보낼 수 있습니다. 자세한 내용은 이 [단계별 사용 사례](../../automating/using/exporting-importing-custom-resources.md)를 참조하십시오.
+
+>[!CAUTION]
+>
+>역할 및 액세스 권한이 있는 [기능](../../administration/using/users-management.md#functional-administrators)관리자만 **[!UICONTROL Administration]** 모든 **** 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블에서 시작합니다(프로필, 배달).
