@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
+source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Mobile Core]**. 그런 **[!UICONTROL Experience Cloud ID]** 다음 **[!UICONTROL Data element]** 유형 드롭다운으로 이동합니다.
 
-   ![](assets/rules_1.png)
+   ![](assets/do-not-localize/rules_1.png)
 
 1. 키 데이터 요소를 만들려면 을 클릭합니다 **[!UICONTROL Add data element]**.
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_2.png)
+   ![](assets/do-not-localize/rules_2.png)
 
 이제 사용자 데이터가 Campaign으로 전송되도록 구성됩니다.
 
@@ -179,7 +179,7 @@ ht-degree: 0%
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_3.png)
+   ![](assets/do-not-localize/rules_3.png)
 
 ### 푸시 알림 포스트백 추적 {#push-tracking-postback}
 
@@ -264,4 +264,4 @@ ht-degree: 0%
 
 1. In **[!UICONTROL Timeout]**, select 5.
 
-   ![](assets/rules_4.png)
+   ![](assets/do-not-localize/rules_4.png)
