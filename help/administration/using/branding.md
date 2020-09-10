@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
+source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 80%
@@ -98,9 +98,9 @@ Campaign에서 조직의 새 엔티티를 추가하거나 다른 하위 도메�
 
 1. **티켓** 만들기 - 하위 도메인이 위임되면 프로덕션 환경에서 Adobe을 설정해야 합니다. 이 요청을 [요청하려면 다음 정보를 사용하여 클라이언트 지원팀에](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 대한 티켓을 만듭니다.
 
-   * 제목: [ACS] 새 브랜드 설정
+   * 제목:ACS 새 브랜드 설정
 
-   * 컨텐츠:새 도메인이 Adobe에 위임되었으며 ACS 플랫폼에서 설정되기를 원합니다
+   * 컨텐츠:새 도메인이 Adobe에 위임되었으며 캠페인 플랫폼에서 설정하려고 합니다
 
    * 도메인:XXX
 
