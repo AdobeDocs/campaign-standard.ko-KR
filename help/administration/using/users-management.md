@@ -12,10 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,10 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 ### 기능 관리자 {#functional-administrators}
 
 기능 관리자는 인터페이스의 가장 기술적인 부분에 액세스할 수 있는 사용자입니다. 이들은 **[!UICONTROL Administration]** 역할을 맡아서 마케터가 캠페인 게재에만 집중할 수 있도록 플랫폼이 제대로 설정되어 있는지 확인합니다.
+
+>[!CAUTION]
+>
+>역할 및 액세스 권한이 있는 **[!UICONTROL Administration]** 모든 **** 관리자만 전송 로그, 메시지 로그, 추적 로그, 제외 로그, 제안 로그 및 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블에서 시작합니다(프로필, 배달).
 
 기능 관리자만이 Adobe Campaign 인터페이스의 **[!UICONTROL Administration]** 메뉴에 액세스할 수 있습니다. 이 사용자들은 기술 리소스에 액세스해야 하므로 고급 역할(예: **[!UICONTROL Administration]** 및 **[!UICONTROL Datamodel]** 기본 역할)을 할당해 주어야 합니다. 이러한 역할은 **[!UICONTROL Administrators]** 기본 보안 그룹에 결합되어 있습니다. 자세한 정보는 이 [섹션](../../administration/using/list-of-roles.md)을 참조하십시오.
 
