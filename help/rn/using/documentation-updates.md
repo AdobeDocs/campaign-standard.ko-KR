@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '6097'
+source-wordcount: '6128'
 ht-degree: 94%
 
 ---
@@ -28,19 +28,23 @@ ht-degree: 94%
 
 이벤트 트랜잭션 메시지 섹션이 재구성되고 명확해졌습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
 
+사용자에게 로그 액세스와 관련된 권한 제한에 대해 경고하기 위해 주의 사항이 추가되었습니다. [자세한 내용](../../administration/using/users-management.md)
+
+새 브랜드를 만드는 프로세스를 자세히 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/branding.md#creating-a-brand)
+
 ## 설명서 업데이트 - 2020년 8월 {#doc-updates-august-2020}
 
 트랜잭션 메시지 시작을 위한 새로운 업데이트 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
-트랜잭션 메시지 제한 섹션이 이동되었습니다. [자세한 내용](../../channels/using/transactional-messaging-limitations.md)
+트랜잭션 **메시지 제한** 섹션이 [여기로 이동되었습니다.](../../channels/using/transactional-messaging-limitations.md)
 
-보내기 준비 섹션이 이동되었습니다. [자세한 내용](../../sending/using/preparing-the-send.md)
+보내기 **준비** 섹션이 [여기로 이동되었습니다.](../../sending/using/preparing-the-send.md)
 
 ## 설명서 업데이트 - 2020년 7월 {#doc-updates-july-2020}
 
 Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/monitoring-guidelines.md)
 
-외부 API 보안 및 제한 섹션이 업데이트되었습니다.[자세한 내용](../../automating/using/external-api.md#guardrails)
+외부 API 보안 및 제한 섹션이 업데이트되었습니다. [자세한 내용](../../automating/using/external-api.md#guardrails)
 
 개인 정보 관리 개요 페이지는 태국 개인정보 보호법(Personal Data Protection Act)(PDPA) 및 브라질 레이제랄 데 프로테카앙 데 도도스(LGPD)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
