@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 translation-type: tm+mt
-source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 86%
+source-wordcount: '1628'
+ht-degree: 85%
 
 ---
 
@@ -237,7 +237,14 @@ ht-degree: 86%
       + [트리거 테스트](integrating/using/testing-your-triggers.md)
       + [포기 트리거 사용 사례](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 및 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365 통합 시작](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [ Dynamics 365 통합 시작](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Campaign과 Dynamics 365 간의 데이터 관리](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [통합 요청](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Adobe I/O 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Campaign 통합을 위해 Dynamics 365 구성](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [캠페인 사용자 지정 리소스 및 Dynamics 365 사용자 지정 개체 매핑](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [ Dynamics 365 통합 사용](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [통합 보장](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + 프로세스 및 데이터 관리 {#managing-processes-and-data}
    + [데이터 및 프로세스 관리 시작](automating/using/get-started-workflows.md)
    + 워크플로우 일반 작업 {#workflow-general-operation}
