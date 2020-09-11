@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca6b418351cfbe539da9f1f4a542c2d7014dfc24
+source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -105,7 +105,8 @@ Dynamics 사용자를 위한 타임라인 보기에 대한 자세한 내용은 �
 >이메일 미러 페이지의 만료 기간은 해당 캠페인 이메일 채널 활동의 구성 화면에서 수정할 수 있습니다( [유효성 기간 매개 변수 참조](../../administration/using/configuring-email-channel.md#validity-period-parameters)).
 
 >[!NOTE]
-옵트아웃의 경우, 옵트아웃 속성이 Dynamics 365에서 수정되면 Dynamics 365에서 캠페인에 진입하거나 양방향 옵트아웃 구성을 선택한 경우 특정 속성이 올바르게 매핑되는 경우 캠페인에 반영됩니다.
+>
+>옵트아웃의 경우, 옵트아웃 속성이 Dynamics 365에서 수정되면 Dynamics 365에서 캠페인에 진입하거나 양방향 옵트아웃 구성을 선택한 경우 특정 속성이 올바르게 매핑되는 경우 캠페인에 반영됩니다.
 
 ## 데이터 흐름 {#data-flows}
 
@@ -124,7 +125,8 @@ Dynamics 사용자를 위한 타임라인 보기에 대한 자세한 내용은 �
 연락처 수신이 작동하려면 Campaign 프로필 테이블 특성 externalId를 Dynamics 365 연락처 특성 contactId로 채워야 합니다. 캠페인 사용자 지정 엔터티도 Dynamics 365 고유 ID 속성으로 채워야 합니다.하지만 이 속성은 모든 Campaign 사용자 지정 개체 속성에 저장할 수 있습니다(즉, externalId일 필요는 없음).
 
 >[!NOTE]
-사용자 지정 엔티티 수신의 경우 동기화된 사용자 지정 엔터티에 대해 Dynamics 365 내에서 변경 내용 추적이 활성화되어 있어야 합니다.
+>
+>사용자 지정 엔티티 수신의 경우 동기화된 사용자 지정 엔터티에 대해 Dynamics 365 내에서 변경 내용 추적이 활성화되어 있어야 합니다.
 
 ### 이메일 마케팅 이벤트 흐름
 
