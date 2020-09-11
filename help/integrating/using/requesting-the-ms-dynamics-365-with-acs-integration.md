@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
@@ -61,12 +61,12 @@ MICROSOFT DYNAMICS 365에서는 새 앱 등록을 만들고 응용 프로그램 
 
 통합 데이터 흐름과 관련된 문제에 대해서는 보고서 세트를 문제 설명의 일부로 포함시키고 다음 정보를 포함해야 합니다.
 
-* 프로세스 소유자:엔지니어링 건축가
+* **프로세스 소유자**:엔지니어링 건축가
 
-* ES 프로세스 ID: [온보딩 프로세스 중 제공]
+* **ES 프로세스 ID**:온보딩 프로세스 중 제공
 
-* 프로세스 제목:Dynamics 365 / Adobe Campaign Standard 통합
+* **프로세스 제목**:Dynamics 365 / Adobe Campaign Standard 통합
 
-* 문제 설명: [문제에 대한 설명]
+* **문제 설명**:문제에 대한 설명
 
 통합 지원 서비스는 현재 24x5(Adobe 휴가 및 휴가 제외)입니다.
