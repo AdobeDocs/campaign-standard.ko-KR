@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '6128'
+source-wordcount: '6140'
 ht-degree: 94%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 94%
 사용자에게 로그 액세스와 관련된 권한 제한에 대해 경고하기 위해 주의 사항이 추가되었습니다. [자세한 내용](../../administration/using/users-management.md)
 
 새 브랜드를 만드는 프로세스를 자세히 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/branding.md#creating-a-brand)
+
+새로운 Campaign Standard - Microsoft Dynamics 365 통합을 사용할 수 있습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## 설명서 업데이트 - 2020년 8월 {#doc-updates-august-2020}
 
