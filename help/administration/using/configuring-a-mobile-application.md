@@ -12,9 +12,9 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1283'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 # 모바일 애플리케이션 구성{#configuring-a-mobile-application}
 
-## Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성 {#using-adobe-experience-platform-sdk}
+## Configuring a mobile application using Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -58,8 +58,8 @@ Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지�
 1. Experience Platform Launch에서 **[!UICONTROL Extensions]** 탭을 클릭하고 이동 **[!UICONTROL Catalog]**&#x200B;후 확장자를 **[!UICONTROL Adobe Campaign Standard]** 검색합니다. 자세한 내용은 [Adobe Campaign Standard을 참조하십시오](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 1. Campaign Standard에서 위치 사용 사례를 지원하려면 익스텐션과 **[!UICONTROL Places]** 익스텐션을 **[!UICONTROL Places Monitor]** 설치합니다.
-   * Experience Platform Launch에 **[!UICONTROL Places]** 익스텐션을 설치합니다. 이 [페이지를 참조하십시오](https://docs.adobe.com/content/help/ko-KR/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Experience Platform Launch에 **[!UICONTROL Places Monitor]** 익스텐션을 설치합니다. 이 [페이지 참조](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+   * Experience Platform Launch에 **[!UICONTROL Places]** 익스텐션을 설치합니다. Refer to this [page](https://docs.adobe.com/content/help/ko-KR/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * Experience Platform Launch에 **[!UICONTROL Places Monitor]** 익스텐션을 설치합니다. Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
 1. Adobe Campaign Standard에서 Experience Platform Launch에서 만든 모바일 속성을 구성합니다. Adobe Campaign [에서 Adobe Experience Platform Launch 애플리케이션 설정을 참조하십시오](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
@@ -70,10 +70,6 @@ Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지�
 자세한 내용은 Experience Platform Launch 응용 프로그램 [삭제를 참조하십시오](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
 ## Launch 기술 워크플로우에서 모바일 앱 AEPSDK 동기화 {#aepsdk-workflow}
-
->[!IMPORTANT]
->
->이 기능은 릴리스 20.3을 기준으로 Adobe Campaign의 베타 기능입니다. Adobe Campaign 인스턴스에서 **[!UICONTROL sync Mobile app AEPSDK from Launch]** 기술 워크플로우를 사용하도록 설정하려면 Adobe 고객 지원 센터(직접 또는 Adobe 담당자를 통해)에 티켓을 제출해야 합니다.
 
 Experience Platform Launch에서 모바일 속성을 만들고 구성한 후 **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 기술 워크플로우는 이제 Adobe Campaign Standard에 가져온 Adobe Launch 모바일 속성을 동기화합니다.
 
@@ -94,11 +90,11 @@ Experience Platform Launch에서 모바일 속성을 만들고 구성한 후 **[
 
 ## Adobe Campaign에서 Adobe Experience Platform Launch 애플리케이션 설정 {#set-up-campaign}
 
-Campaign에서 Experience Platform Launch 모바일 속성을 사용하려면 이 속성을 Adobe Campaign에서 구성해야 합니다. Adobe Campaign에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필에 포함되어 있는지 확인합니다.
+Campaign에서 Experience Platform Launch 모바일 속성을 사용하려면 Adobe Campaign에서 이 속성을 구성해야 합니다. Adobe Campaign에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필에 포함되어 있는지 확인합니다.
 
-Launch 기술 워크플로우 기능 플래그를 통해 모바일 앱 AEPSDK 동기화 기능이 활성화된 사용자의 경우 기술 워크플로우가 실행되어 Launch 모바일 속성을 Adobe Campaign으로 동기화할 때까지 기다려야 합니다. 그런 다음 Adobe Campaign에서 구성할 수 있습니다.
+Launch 모바일 속성을 실행하고 Adobe Campaign에 동기화할 기술적인 워크플로우를 기다려야 합니다. 그런 다음 Adobe Campaign에서 구성할 수 있습니다.
 
-Launch 기술 워크플로우 기능 플래그의 모바일 앱 AEPSDK 동기화에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
+Launch 기술 워크플로우의 모바일 앱 AEPSDK 동기화에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
 >[!NOTE]
 >
@@ -168,7 +164,7 @@ Launch 기술 워크플로우 기능 플래그의 모바일 앱 AEPSDK 동기화
 
    ![](assets/launch_8.png)
 
-1. 구독자 목록 및 이러한 구독자에 대한 기타 정보(예: 사용자가 알림 수신 허용 여부)를 보려면 이 **[!UICONTROL Mobile application subscribers]** 탭을 클릭하십시오.
+1. 구독자의 목록 및 이러한 구독자에 대한 기타 정보(예: 사용자가 알림 수신 거부)를 보려면 이 **[!UICONTROL Mobile application subscribers]** 탭을 클릭하십시오.
 
 ## Adobe Experience Platform Launch 응용 프로그램 삭제 {#delete-app}
 
