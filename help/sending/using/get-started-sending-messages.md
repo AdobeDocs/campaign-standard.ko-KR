@@ -1,5 +1,5 @@
 ---
-title: 테스트 및 전송 시작하기
+title: 테스트 및 보내기 시작
 description: 메시지를 테스트하고 전송하는 다양한 단계를 살펴보십시오.
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
@@ -12,15 +12,15 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 9%
+source-wordcount: '580'
+ht-degree: 12%
 
 ---
 
 
-# 테스트 및 전송 시작하기 {#about-sending-messages-with-campaign}
+# 테스트 및 보내기 시작 {#about-sending-messages-with-campaign}
 
 <table>
 <tr>
@@ -41,9 +41,9 @@ ht-degree: 9%
 
 Campaign Standard **메시지 준비** 기능은 대상, 개인화 및 메시지의 유효성을 분석합니다. 이 단계 중 검색된 오류는 나중에 계속 진행하려면 먼저 수정해야 합니다.
 
-**다양한 기능을 사용하여 메시지 미리 보기 및 테스트** : 교정을 보내 프로파일 또는 태그된 프로파일을 테스트하고, 이메일의 주제 라인을 테스트하며, 메시지 렌더링을 확인하여 다양한 웹 클라이언트, 웹 메일 및 디바이스에서 최적의 방식으로 표시되도록 할 수 있습니다.
+**다양한 기능을 사용하여 메시지 미리 보기 및 테스트** :교정을 보내 프로파일 또는 태그된 프로파일을 테스트하고, 이메일의 주제 라인을 테스트하며, 메시지 렌더링을 확인하여 다양한 웹 클라이언트, 웹 메일 및 디바이스에서 최적의 방식으로 표시되도록 할 수 있습니다.
 
-Campaign 예약 기능을 활용하여 메시지가 전송될 시기를 정의합니다. 예를 들어, 수신자의 시간대에서 전송을 조정하고, 전송 시간을 최적화하거나, 전송 날짜를 계산할 수 있습니다.
+Campaign 예약 기능을 활용하여 메시지가 언제 전송될지 정의할 수 있습니다. 예를 들어, 수신자의 시간대에서 전송을 조정하고, 전송 시간을 최적화하거나, 전송 날짜를 계산할 수 있습니다.
 
 유형 **을 사용하여 준비** 동안 메시지가 유효한지, 피로, 제어 및 타깃팅 규칙을 통해 품질 기준을 충족하는지 확인합니다. 예를 들어 이메일에 항상 제목 줄이 포함되어 있는지 확인하거나 메시지 받는 사람 중에서 구독하지 않은 사람을 제외합니다.
 
@@ -51,7 +51,7 @@ Campaign 예약 기능을 활용하여 메시지가 전송될 시기를 정의�
 
 * [보내기 준비](../../sending/using/preparing-the-send.md)
 * [메시지 미리 보기](../../sending/using/previewing-messages.md)
-* [교정본 보내기](../../sending/using/sending-proofs.md)
+* [증명 보내기](../../sending/using/sending-proofs.md)
 * [이메일 렌더링](../../sending/using/email-rendering.md)
 * [메시지 예약](../../sending/using/about-scheduling-messages.md)
 * [유형화 및 유형화 규칙 기본 정보](../../sending/using/about-typology-rules.md)
@@ -60,7 +60,7 @@ Campaign 예약 기능을 활용하여 메시지가 전송될 시기를 정의�
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-메시지가 준비되면 전송 및 액세스 로그와 보고서를 확인하여 전달을 **모니터링하고 캠페인의 성공을 측정할** 수 있습니다. 또한 Adobe Campaign은 전달 성공이나 실패를 추적할 수 있는 이메일 경고 시스템과 검역 관리 기능도 제공합니다.
+메시지가 준비되면 전송 및 액세스 로그와 보고서를 확인하여 전달을 **모니터링하고 캠페인의 성공을 측정할** 수 있습니다. Adobe Campaign은 또한 배송 성공 또는 실패를 추적할 수 있는 이메일 경고 시스템과 검역 관리 기능을 제공합니다.
 
 **세션 및 영구 쿠키를 사용하여 추적 정보(클릭된 URL, 미러 페이지, 열린 메시지..)를 검색하여 메시지 수신자의 동작을** 추적합니다.
 
@@ -73,7 +73,7 @@ Campaign 예약 기능을 활용하여 메시지가 전송될 시기를 정의�
 * [이메일 숨은 참조를 통해 보관](../../sending/using/archiving.md)
 * [게재 모니터링](../../sending/using/monitoring-a-delivery.md)
 * [게재 실패 이해](../../sending/using/understanding-delivery-failures.md)
-* [스팸 차단 관리 이해](../../sending/using/understanding-quarantine-management.md)
+* [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
 
 ## 전달 가능성 지침 {#improve-deliverability}
 
@@ -81,7 +81,7 @@ Campaign 예약 기능을 활용하여 메시지가 전송될 시기를 정의�
 
 전달 기능을 사용하면 바운싱 또는 스팸으로 표시되지 않고도 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정할 수 있습니다.
 
-Campaign Standard은 배달된 메시지의 수를 향상시키는 데 도움이 되는 몇 가지 **전달 가능 도구를** 제공합니다. 전달 시간 보고서, 전송 시간 최적화, 메시지 미리 보기, 이메일 렌더링, 격리 관리 등
+Campaign Standard은 배달된 메시지의 수를 향상시키는 데 도움이 되는 몇 가지 **전달 가능 도구를** 제공합니다.전달 시간 보고서, 전송 시간 최적화, 메시지 미리 보기, 이메일 렌더링, 격리 관리 등
 
 자세한 내용:
 
@@ -91,11 +91,11 @@ Campaign Standard은 배달된 메시지의 수를 향상시키는 데 도움이
 * [기술 추천](../../sending/using/technical-recommendations.md)
 * [Control Delivery throughput](../../reporting/using/delivery-throughput.md)
 
-## 추가 자료
+## 추가 리소스
 
 * [A/B 테스트 이메일 디자인](../../channels/using/designing-an-a-b-test-email.md)
 * [테스트 보내기, 준비 및 이메일 보내기(비디오)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [이메일 전달 및 보고서 검토(비디오)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
-* [이메일 시작하기](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+* [이메일 시작하기](https://helpx.adobe.com/kr/campaign/kb/acs-get-started-with-emails.html)
 * [전달 모범 사례](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
-* [사용 사례: 컨트롤 그룹 만들기](../../automating/using/workflow-control-group.md)
+* [컨트롤 그룹 추가](../../sending/using/control-group.md)
