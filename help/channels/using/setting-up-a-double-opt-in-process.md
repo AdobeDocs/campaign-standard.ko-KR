@@ -12,9 +12,9 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1150'
 ht-degree: 90%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 90%
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   이 컨텍스트에서는 이메일을 보낼 수 있도록 &#39;차단 목록에 추가된&#39; 필드를 제거합니다. 확인되지 않은 프로필로 이메일을 보내는 것을 방지하기 위해 첫 번째 랜딩 페이지에서 이 필드를 **true**&#x200B;로 설정했음을 나중에 확인할 수 있습니다. 자세한 내용은 [3단계: 확보 랜딩 페이지 만들기](#step-3--create-the-acquisition-landing-page)를 참조하십시오.
+   이 컨텍스트에서는 이메일을 보낼 수 있도록 &#39;차단 목록온&#39; 필드를 제거합니다. 확인되지 않은 프로필로 이메일을 보내는 것을 방지하기 위해 첫 번째 랜딩 페이지에서 이 필드를 **true**&#x200B;로 설정했음을 나중에 확인할 수 있습니다. 자세한 내용은 [3단계: 확보 랜딩 페이지 만들기](#step-3--create-the-acquisition-landing-page)를 참조하십시오.
 
 1. 랜딩 페이지의 콘텐츠를 사용자 지정합니다. 예를 들어 개인화된 데이터를 표시하고 확인 버튼의 레이블을 &#39;여기를 클릭하여 내 구독 확인&#39;으로 변경할 수 있습니다.
 
@@ -101,12 +101,12 @@ ht-degree: 90%
 
 ### 유형화 만들기 {#create-the-typology-rule}
 
-즉시 사용 가능한 유형화를 복제하여 특별한 [유형화](../../sending/using/about-typology-rules.md)를 만들어야 합니다. 이러한 유형 분석을 통해 아직 합의를 확인하지 않고 여전히 차단 목록에 추가된 있는 프로파일에 메시지를 보낼 수 있습니다. 기본적으로 유형 분류는 옵트아웃(예: 차단 목록에 추가된) 프로파일을 제외합니다. 이 유형화를 만들려면 다음 단계를 수행합니다.
+즉시 사용 가능한 유형화를 복제하여 특별한 [유형화](../../sending/using/about-typology-rules.md)를 만들어야 합니다. 이러한 유형 분석을 통해 계약을 아직 확인하지 않고 여전히에 있는 프로파일에 메시지를 보낼 수 차단 목록 있습니다. 기본적으로 유형 분류는 옵트아웃(예:)차단 목록 프로파일을 제외합니다. 이 유형화를 만들려면 다음 단계를 수행합니다.
 
 1. Adobe Campaign 로고에서 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**&#x200B;을(를) 선택하고 **[!UICONTROL Typologies]**&#x200B;을(를) 클릭합니다.
 1. 즉시 사용 가능한 유형화 **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**&#x200B;을(를) 복제합니다.
 1. 복제를 확인한 후, 새 유형화를 편집하고 레이블 **TYPOLOGY_PROFILE**&#x200B;을 입력합니다.
-1. Remove the **Denylisted address** rule.
+1. **에서 주소 차단 목록 규칙을** 제거합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 이제 이러한 유형화를 확인 이메일과 연결할 수 있습니다.
