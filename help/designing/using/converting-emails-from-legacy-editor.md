@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->호환성 모드와 마찬가지로 HTML 구성 요소는 제한된 옵션을 사용하여 편집할 수 있습니다. 즉석 에디션만 수행할 수 있습니다.
+>호환성 모드와 마찬가지로 HTML 구성 요소는 제한된 옵션을 사용하여 편집할 수 있습니다.즉석 에디션만 수행할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -43,19 +43,19 @@ ht-degree: 0%
 ## 이메일 구조 만들기
 
 1. 을 열어 빈 이메일 컨텐츠 **[!UICONTROL Email Designer]** 를 만듭니다.
-1. 본문 수준 속성을 설정합니다. 배경색, 너비 등 자세한 내용은 이메일 스타일 [편집을 참조하십시오](../../designing/using/styles.md).
-1. 섹션이 있는 만큼 구조 구성 요소를 추가합니다. 자세한 내용은 이메일 구조 [편집을 참조하십시오](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. 본문 수준 속성을 설정합니다.배경색, 너비 등 자세한 내용은 [전자 메일 스타일 편집](../../designing/using/styles.md)을 참조하십시오.
+1. 섹션이 있는 만큼 구조 구성 요소를 추가합니다. 자세한 내용은 [전자 메일 구조 편집](../../designing/using/designing-from-scratch.md#defining-the-email-structure)을 참조하십시오.
 
 ## HTML 컨텐츠 추가
 
-1. 각 구조 구성 요소에 HTML 구성 요소를 추가합니다. 자세한 내용은 조각 및 구성 요소 [추가를 참조하십시오](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. 각 구조 구성 요소에 HTML 구성 요소를 추가합니다. 자세한 내용은 [조각 및 구성 요소 추가](../../designing/using/designing-from-scratch.md#defining-the-email-structure)를 참조하십시오.
 1. 모든 구성 요소에 HTML을 복사하여 붙여넣습니다.
 
 ## 이메일 스타일 관리 {#manage-the-style-of-your-email}
 
-1. 로 **[!UICONTROL Mobile view]**&#x200B;전환 자세한 내용은 [이 섹션을 참조하십시오](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
+1. 로 **[!UICONTROL Mobile view]**&#x200B;전환 자세한 내용은 [이 섹션](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)을 참조하십시오.
 
-1. 이를 해결하려면 소스 코드 모드로 전환한 다음 스타일 섹션을 새 스타일 섹션에 복사하여 붙여넣습니다. 예:
+1. 이를 해결하려면 소스 코드 모드로 전환한 다음 스타일 섹션을 새 스타일 섹션에 복사하여 붙여넣습니다. 예제:
 
    ```
    <style type="text/css">
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 기존 편집기에서 만든 이 이메일을 **[!UICONTROL Email Designer]** 템플릿으로 변환해 보겠습니다.
 
-## 이메일 섹션 식별
+### 이메일 섹션 식별
 
 이 이메일에서 11개의 섹션을 식별할 수 있습니다.
 
@@ -117,7 +117,7 @@ HTML의 어느 섹션인지 식별하려면 선택할 수 있습니다.
 
 1. HTML 섹션을 삽입합니다.
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 이제 이메일의 렌더링을 확인할 수 있습니다.
 
