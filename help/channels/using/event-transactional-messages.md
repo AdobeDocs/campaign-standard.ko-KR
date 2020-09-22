@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '2492'
 ht-degree: 93%
@@ -84,7 +84,7 @@ ht-degree: 93%
 
    ![](assets/message-center_9.png)
 
-   개인화 필드가 테스트 프로필에 입력한 정보와 일치하는지 확인할 수 있습니다. 자세한 내용은 [트랜잭션 메시지에서 테스트 프로필 정의](#defining-a-test-profile-in-a-transactional-message)를 참조하십시오.
+   개인화 필드가 테스트 프로필에 입력한 정보와 일치하는지 확인할 수 있습니다. 자세한 내용은 [트랜잭션 메시지에서 테스트 프로필 정의](../../channels/using/event-transactional-messages.md#defining-specific-test-profile)를 참조하십시오.
 
 ## 트랜잭션 메시지에서 제품 목록 사용 {#using-product-listings-in-a-transactional-message}
 
@@ -204,7 +204,7 @@ ht-degree: 93%
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   트랜잭션 메시지에서 테스트 프로필을 정의하는 방법에 대한 자세한 내용은 [이 섹션](#defining-a-test-profile-in-a-transactional-message)을 참조하십시오.
+   트랜잭션 메시지에서 테스트 프로필을 정의하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/event-transactional-messages.md#defining-specific-test-profile)을 참조하십시오.
 
 ## 트랜잭션 메시지 테스트 {#testing-a-transactional-message}
 
