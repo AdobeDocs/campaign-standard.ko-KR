@@ -13,9 +13,9 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1043'
 ht-degree: 98%
 
 ---
@@ -29,11 +29,7 @@ ht-degree: 98%
 
 **[!UICONTROL Transfer file]** 활동을 사용하면 Adobe Campaign에서 파일을 받거나 보내고, 파일이 있는지 테스트하거나, 파일 목록을 만들 수 있습니다.
 
->[!CAUTION]
->
->20.3 릴리스부터 **[!UICONTROL Transfer File]** 활동을 통해 다운로드한 파일은 X일 이후에 삭제됩니다. 여기서 X는 워크플로우 속성의 **[!UICONTROL Execution]** 메뉴 아래에 있는 **[!UICONTROL History in days]** 필드에 따라 결정됩니다.
-
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 활동을 구성할 때 데이터 추출 방법을 정의합니다. 예를 들어 로드할 파일이 연락처 목록이라고 해 보겠습니다.
 
