@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 제품 설명서
 topic: Premium
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: 351b8be616b1e293bd2899c2d4dbb489b1318578
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 80%
+source-wordcount: '227'
+ht-degree: 74%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 80%
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## 새로운 기능
+
+* **[그룹](sending/using/control-group.md)**<br/>대상의 일부를 제외하여 캠페인의 영향력을 측정합니다
 
 * **[AI 기반의 이메일](sending/using/predictive.md)**<br/>AI 기반의 이메일을 사용하여 디자인 및 전달 최적화
 
