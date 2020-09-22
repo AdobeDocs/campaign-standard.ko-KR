@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
+source-git-commit: f83259801fee2709aad48d364d16b4affe041a6d
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 85%
+source-wordcount: '1651'
+ht-degree: 84%
 
 ---
 
@@ -73,6 +73,14 @@ ht-degree: 85%
       + [메시지 액세스](channels/using/accessing-messages.md)
       + [메시지 대시보드](channels/using/message-dashboard.md)
       + [다국어 메시지 템플릿](channels/using/multilingual-messages-template.md)
+   + 전달 모범 사례 {#delivery-bestpractices}
+      + [모범 사례 학습](sending/using/delivery-best-practices.md)
+      + [전달 최적화](sending/using/optimize-delivery.md)
+      + [템플릿 사용](sending/using/use-templates.md)
+      + [개인화된 콘텐츠 제작](sending/using/design-and-personalize.md)
+      + [적합한 고객 정의](sending/using/define-the-right-audience.md)
+      + [보내기 전 확인](sending/using/check-before-sending.md)
+      + [추적 및 모니터](sending/using/track-and-monitor.md)
    + 이메일 메시지 {#email-messages}
       + [이메일 기본 정보](channels/using/about-emails.md)
       + [이메일 만들기](channels/using/creating-an-email.md)
