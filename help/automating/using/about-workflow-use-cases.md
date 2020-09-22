@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
+source-git-commit: 72d8c46bab80e572a55488eeb5b6a924c0a9e900
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 19%
+source-wordcount: '234'
+ht-degree: 17%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 19%
 * [서비스 가입자에 대한 증분 쿼리](../../automating/using/incremental-query-on-subscribers.md)
 * [연령 그룹에 따른 세분화](../../automating/using/segmentation-age-groups.md)
 * [타겟팅 차원과 다른 리소스 사용](../../automating/using/using-resources-different-from-targeting-dimensions.md)
-* [컨트롤 그룹 만들기](../../automating/using/workflow-control-group.md)
 
 ## 데이터 관리 {#management}
 
