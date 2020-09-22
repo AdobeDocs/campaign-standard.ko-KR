@@ -12,7 +12,10 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: cd2d38ec65ecc0ee5d6d60ce2ae46eb21da6cd45
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 10%
 
 ---
 
@@ -21,11 +24,11 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 ## 호환 가능한 브라우저{#compatible-browsers}
 
-Adobe Campaign Standard는 대부분의 컴퓨터 브라우저 및 태블릿용 기본 운영 체제와 호환됩니다.
+Adobe Campaign Standard은 대부분의 컴퓨터 브라우저와 태블릿용 주 운영 체제와 호환된다.
 
-Adobe Campaign Standard는 태블릿에서 가로 표시 모드만 지원합니다.
+Adobe Campaign Standard은 태블릿에서 가로 표시 모드만 지원합니다.
 
-다음은 Adobe Campaign Standard와 호환되는 브라우저 목록입니다.
+다음은 Adobe Campaign Standard과 호환되는 브라우저의 목록입니다.
 
 **컴퓨터:**
 
@@ -39,9 +42,9 @@ Adobe Campaign Standard는 태블릿에서 가로 표시 모드만 지원합니�
 * iOS(버전 7 이상)
 * Android(버전 4.4 이상)
 
-## Campaign Standard 네트워크 끝점 {#campaign-standard-network-endpoints}
+## Campaign Standard 네트워크 엔드포인트 {#campaign-standard-network-endpoints}
 
-다음은 Campaign Standard에서 사용되는 다른 끝점입니다.
+Campaign Standard에 사용되는 다른 끝점이 있습니다.
 
 | 컨텍스트 | URL |
 |--- |--- |
@@ -49,7 +52,6 @@ Adobe Campaign Standard는 태블릿에서 가로 표시 모드만 지원합니�
 | IMS. | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | 추적 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| 이미지 편집기용 Creative SDK | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/` |
 | 자산 통합 | `https://*.marketing-assets.adobe.com` |
 | 내부 Adobe 서비스 | `https://*.adobe.io` |
 | 설문 조사 | `https://adobe.allegiancetech.com` |
