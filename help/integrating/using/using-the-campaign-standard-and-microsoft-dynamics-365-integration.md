@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -157,13 +157,13 @@ Dynamics 사용자를 위한 타임라인 보기에 대한 자세한 내용은 �
 또는 시스템 간의 옵트아웃 동기화를 관리하는 별도의 프로세스가 있는 경우 통합의 옵트아웃 데이터 흐름을 비활성화할 수 있습니다.
 
 회사 간의 비즈니스 요구 사항이 다를 수 있으므로 고객이 옵트아웃 흐름 매핑을 지정해야 합니다.  캠페인 쪽에서는 옵트아웃 매핑에 OOTB 옵트아웃 속성만 사용할 수 있습니다.
-* 차단 목록에 추가하다
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPushnotification
+* 차단 목록
+* denyListEmail
+* denyListFax
+* denyListMobile
+* denyListPhone
+* denyListPostalMail
+* denyListPushnotification
 * ccpaOptOut
 
 Dynamics 365에서는 대부분의 옵트아웃 필드에 &quot;donot&quot; 접두어가 있습니다.그러나 데이터 유형이 호환하는 경우 옵트아웃 용도로 다른 속성을 활용할 수도 있습니다.
