@@ -12,9 +12,9 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4627'
 ht-degree: 8%
 
 ---
@@ -494,7 +494,7 @@ _워크플로우_
    <td> 트랜잭션 메시지를 위한 마케팅 기능<br /> </td> 
    <td> 이제 마케터는 고객 마케팅 프로필을 기반으로 트랜잭션 메시지를 보낼 수 있습니다. 이를 통해 다음과 같은 작업을 수행할 수 있습니다.<br /> 
     <ul> 
-     <li> 주소와 같은 마케팅 유형 규칙을 <span class="uicontrol">차단 목록에 추가된 적용합니다</span> . </li> 
+     <li> 의 주소와 같은 마케팅 유형 <span class="uicontrol">규칙을 차단 목록 적용합니다</span> . </li> 
      <li> 메시지에 구독 취소 링크를 포함합니다. </li> 
      <li> 트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다. </li> 
      <li> 트랜잭션 메시지를 고객 여정에 활용합니다. </li> 
@@ -530,7 +530,7 @@ _푸시 알림_
 * 애플리케이션에서 Adobe Campaign 서버로 포스트백을 보낼 수 없는 문제를 수정했습니다.
 * Android에 대해 고려하지 않고 **[!UICONTROL Play a sound]** 고려할 수 **[!UICONTROL Custom fields]** 있었던 문제를 수정했습니다.
 * Emojis에 사용되는 유니코드 문자에 추가 이스케이프 문자가 추가되었을 수 있는 문제를 수정했습니다.
-* 가입자의 등록 차단 목록에 추가된 토큰이 변경되면 해당 상태가 Adobe Campaign에 있는 애플리케이션의 가입자 목록에서 즉시 업데이트됩니다.
+* 가입자의 등록 토큰이에 차단 목록 추가되면 해당 상태가 Adobe Campaign에 있는 애플리케이션의 가입자 목록에서 즉시 업데이트됩니다.
 
 _워크플로우_
 
