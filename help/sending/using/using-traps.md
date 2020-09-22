@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 2%
@@ -67,4 +67,4 @@ DM 대상에 트랩을 추가하는 방법에 대한 자세한 내용은 테스�
 
 >[!NOTE]
 >
->테스트 프로필을 트랩으로 사용할 때, 메시지의 농축된 필드에 대해 해당 추가 데이터가 실제 타깃팅된 프로필에서 임의로 선택되고 트랩 테스트 프로필에 할당됩니다. 농축에 대한 자세한 내용은 [이 예를 참조하십시오](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file).
+>테스트 프로필을 트랩으로 사용할 때, 메시지의 농축된 필드에 대해 해당 추가 데이터가 실제 타깃팅된 프로필에서 임의로 선택되고 트랩 테스트 프로필에 할당됩니다. 농축에 대한 자세한 내용은 [이 예를 참조하십시오](../../automating/using/enriching-profile-data-file.md).
