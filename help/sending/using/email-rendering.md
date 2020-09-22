@@ -12,10 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+source-git-commit: 3af649cfaae195ae5e75406ca3a0743b9b1f65d2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 85%
 
 ---
 
@@ -78,6 +78,13 @@ Adobe Campaign에서 **전자 메일 렌더링을** 위해 사용할 수 있는 
 >[!NOTE]
 >
 >사용 가능한 렌더링 수는 사용권 계약에 나와 있습니다. **전자 메일 렌더링**&#x200B;이 활성화된 각 게재는 사용 가능한 렌더링(토큰으로 알려져 있음)을 하나씩 감소시킵니다.
+>
+>토큰은 각 개별 렌더링을 사용하며 전체 이메일 렌더링 보고서가 아닙니다. 즉,
+>
+>**받은 편지함 렌더링 보고서가 생성될 때마다** 메시징 클라이언트당 하나의 토큰을 공제합니다.Outlook 2000 렌더링을 위한 하나의 토큰, Outlook 렌더링을 위한 토큰, Apple Mail 렌더링을 위한 토큰.
+>
+>**동일한 전달의 경우**&#x200B;이메일 렌더링을 다시 생성하면 사용 가능한 토큰 수가 생성된 렌더링 수로 다시 감소합니다.
+
 
 보고서 요약에는 받은 메시지, 원치 않는 메시지(스팸), 받지 못한 메시지 또는 수신 대기 중인 메시지 수가 나와 있습니다.
 
