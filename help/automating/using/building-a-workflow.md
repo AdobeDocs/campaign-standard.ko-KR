@@ -12,10 +12,10 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
-workflow-type: ht
-source-wordcount: '929'
+translation-type: tm+mt
+source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
+workflow-type: tm+mt
+source-wordcount: '958'
 ht-degree: 100%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 100%
 워크플로우를 실행하기 전 또는 후에 활동을 열어 매개 변수를 확인하거나 편집할 수 있습니다.
 
 전환을 열어 워크플로우를 실행하는 중 또는 후에 전송된 데이터가 올바른지 확인할 수 있습니다. 전환의 세부 사항 보기에 액세스하려면 워크플로우 속성의 **[!UICONTROL Execution]** 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택해야 합니다.
+
+>[!CAUTION]
+>
+>이 옵션은 많은 디스크 공간을 소모하며 워크플로우를 빌드하고 적절한 구성과 동작이 되도록 설계되었습니다. 프로덕션 인스턴스에서 선택하지 않은 상태로 둡니다.
 
 ![](assets/workflow_overview.png)
 
@@ -96,7 +100,7 @@ ht-degree: 100%
 
 1. 팔레트에서 활동을 끌어서 다이어그램에 놓아 활동을 추가합니다.
 
-   예를 들어 **[시작](../../automating/using/start-and-end.md)**활동을 추가한 다음 다이어그램에**[&#x200B;이메일 게재](../../automating/using/email-delivery.md)** 활동을 추가합니다.
+   예를 들어 **[시작](../../automating/using/start-and-end.md)** 활동을 추가한 다음 다이어그램에 **[이메일 게재](../../automating/using/email-delivery.md)** 활동을 추가합니다.
 
 1. **시작** 활동 전환을 끌어서 **이메일 게재** 활동에 놓아 활동을 서로 연결합니다.
 
