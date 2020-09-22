@@ -13,10 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 97%
+source-wordcount: '552'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 97%
 1. 타겟팅 시작 시 적용되는 경우에는 규칙을 제어합니다.
 1. 필터링 규칙:
 
-   * 주소 자격에 대한 기본 응용 프로그램 규칙:정의된 주소/확인되지 않은 주소/차단 목록에 추가된 주소/격리된 주소/주소 품질
+   * 주소 자격에 대한 기본 응용 프로그램 규칙:정의된 주소/검증되지 않은 주소/차단 목록/격리된 주소/주소 품질
    * 사용자가 정의한 필터링 규칙.
 
 1. 타겟팅 끝에 적용되는 경우에는 규칙을 제어합니다.
