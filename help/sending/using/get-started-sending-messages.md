@@ -12,10 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 12%
+source-wordcount: '575'
+ht-degree: 11%
 
 ---
 
@@ -97,5 +97,5 @@ Campaign Standard은 배달된 메시지의 수를 향상시키는 데 도움이
 * [테스트 보내기, 준비 및 이메일 보내기(비디오)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [이메일 전달 및 보고서 검토(비디오)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [이메일 시작하기](https://helpx.adobe.com/kr/campaign/kb/acs-get-started-with-emails.html)
-* [전달 모범 사례](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
+* [전달 모범 사례](../../sending/using/delivery-best-practices.md)
 * [컨트롤 그룹 추가](../../sending/using/control-group.md)
