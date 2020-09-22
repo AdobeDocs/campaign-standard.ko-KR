@@ -12,9 +12,9 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 가져오기가 완료되면 Adobe Campaign은 다음 작업을 자동으로 수행합니다.
 
-* 프로필 수준차단 목록에 추가된에 잘못된 주소가 있습니다.
+* 프로필 수준에서 잘못된 주소차단 목록이에 추가됩니다.
 * 전달 기본 지표(KPI)가 업데이트되었습니다.
 * 배달 로그가 업데이트되었습니다.
 
