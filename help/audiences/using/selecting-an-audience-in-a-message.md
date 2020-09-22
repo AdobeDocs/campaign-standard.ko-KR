@@ -12,11 +12,11 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 83%
 
 ---
 
@@ -39,6 +39,7 @@ Adobe Campaign에서는 메시지 대상자 내에 여러 프로필 유형을 �
 
    * 타겟
    * 테스트 프로필
+
    ![](assets/delivery_audience_definition_2.png)
 
 1. 이메일의 주요 **[!UICONTROL Target]**&#x200B;을(를) 정의합니다. 이메일의 일반적인 타겟 대상자입니다.
@@ -54,6 +55,10 @@ Adobe Campaign에서는 메시지 대상자 내에 여러 프로필 유형을 �
 1. 이메일에 사용할 **[!UICONTROL Test profiles]**&#x200B;을(를) 정의합니다. 테스트 프로필에게 증명을 보내어 주요 타겟에게 보내기 전에 테스트할 수 있습니다.
 
    테스트 프로필 구성에 대한 자세한 내용은 [테스트 프로필](../../audiences/using/managing-test-profiles.md) 섹션을 참조하십시오.
+
+1. 필요한 경우 해당 탭을 사용하여 제어 그룹을 정의할 수 있습니다. 그러면 일부 프로필을 대상에서 제외하여 메시지가 수신되지 않게 됩니다. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. 대체 주소를 사용하여 프로필에서 받게 될 메시지를 정확하게 표현할 수도 있습니다.  자세한 내용은 [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](../../sending/using/testing-messages-using-target.md)를 참조하십시오.
 
 그러면 대상자 블록이 업데이트되고, 문제가 되는 이메일에 대해 타겟 및 테스트 프로필이 선택되었음을 표시합니다.
 
