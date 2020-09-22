@@ -13,9 +13,9 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a5c5c11a3f29e83f7ec3b36087f9455c58a819e1
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '814'
 ht-degree: 26%
 
 ---
@@ -80,7 +80,7 @@ Adobe Campaign에서는 두 가지 유형의 트랜잭션 메시지를 사용할
 </tr>
 <tr>
 <td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Adobe Campaign 마케팅</a><br>데이터베이스의 트랜잭션 메시지 <b>타깃팅 프로필 프로필 프로필</b></p></td>
-<td><p>트랜잭션 메시지를 프로파일링하여 다음을 수행할 수 있습니다.<ul><li>Apply marketing typology rules such as <b>denylisted address</b> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>메시지에 구독 취소 링크를 포함합니다.</li><li>트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.</li><li>트랜잭션 메시지를 고객 여정에 활용합니다.</li></ul></p></td>
+<td><p>트랜잭션 메시지를 프로파일링하여 다음을 수행할 수 있습니다.<ul><li>Apply marketing <a href="../../sending/using/managing-typology-rules.md">typology rules</a> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>메시지에 구독 취소 링크를 포함합니다.</li><li>트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.</li><li>트랜잭션 메시지를 고객 여정에 활용합니다.</li></ul></p></td>
 </tr>
 </table>
 
