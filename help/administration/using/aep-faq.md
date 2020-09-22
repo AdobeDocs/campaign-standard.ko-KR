@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 2%
@@ -29,7 +29,7 @@ Experience Platform SDK 응용 프로그램과 함께 푸시 알림 및 인앱 �
 푸시 또는 인앱(In-App)에 대한 자세한 내용은 다음 FAQ를 참조하십시오.
 
 * [푸시 알림 FAQ](../../channels/using/about-push-notifications.md#push-faq)
-* [인앱 FAQ](../../channels/using/about-push-notifications.md#in-app-faq)
+* [인앱 FAQ](../../channels/using/about-in-app-messaging.md#in-app-faq)
 * [Launch 기술 워크플로우와 동기화 FAQ](../../administration/using/syncwithlaunch-faq.md)
 
 ## 시작하기 전에 유용한 리소스 {#resource-mobile-property}
