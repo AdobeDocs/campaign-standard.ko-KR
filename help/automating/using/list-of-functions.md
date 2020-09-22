@@ -11,11 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
-workflow-type: ht
-source-wordcount: '1912'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,10 @@ ht-degree: 100%
 * 집계
 * 문자열 조작
 * 정렬
+
+>[!NOTE]
+>
+>외부 매개 변수를 사용한 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있도록 하는 모든 활동에서 추가 기능을 사용할 수 있습니다. 그것들은 [이 섹션에 자세히 나와 있다](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## 날짜 {#dates}
 
