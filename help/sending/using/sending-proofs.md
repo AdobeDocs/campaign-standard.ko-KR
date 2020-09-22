@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a07ccaf864c3aef881cb02042b5e00a43c48f0a9
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -60,6 +60,7 @@ ht-degree: 100%
    * **[!UICONTROL Email rendering]**: 이 옵션을 선택하면 타겟팅한 받은 편지함에 따른 메시지 수신 방식을 테스트할 수 있습니다. 자세한 내용은 [이메일 렌더링](../../sending/using/email-rendering.md)을 참조하십시오.
    * **[!UICONTROL Proof]**: 이 옵션을 선택하면 메시지를 주요 타겟에게 보내기 전에 테스트할 수 있습니다. 증명 수신자는 게재의 콘텐츠와 포맷을 모두 확인하여 승인해야 합니다. 
    * **[!UICONTROL Proof + Email rendering]**: 이 옵션은 앞의 두 옵션을 결합합니다.
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -108,7 +109,7 @@ ht-degree: 100%
 **관련 항목:**
 
 * [테스트 보내기, 이메일 준비 및 보내기](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html) 비디오
-* [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](../../sending/using/testing-messages-using-target.md).
-* [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md).
+* [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](../../sending/using/testing-messages-using-target.md)
+* [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
 * [메시지 미리 보기](../../sending/using/previewing-messages.md)
 * [이메일 채널 구성](../../administration/using/configuring-email-channel.md)
