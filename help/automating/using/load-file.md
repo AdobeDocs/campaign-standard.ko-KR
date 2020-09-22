@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -37,14 +37,14 @@ ht-degree: 93%
 
 활동을 구성할 때 데이터 추출 방법을 정의합니다. 예를 들어 로드할 파일이 연락처 목록이라고 해 보겠습니다.
 
->[!CAUTION]
->
->.txt, .csv 등의 &quot;단층” 구조 파일만 고려합니다.
-
 다음을 수행할 수 있습니다.
 
 * 파일 구조를 사용하여 다른 파일의 데이터(**[!UICONTROL Transfer file]** 활동을 사용하여 복구)에 적용하거나, 
 * 파일의 구조와 데이터를 사용하여 Adobe Campaign으로 가져옵니다.
+
+>[!IMPORTANT]
+>
+>.txt, .csv 등의 &quot;단층” 구조 파일만 고려합니다.
 
 **관련 항목:**
 
