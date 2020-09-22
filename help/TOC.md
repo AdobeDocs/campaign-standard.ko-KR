@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 85%
@@ -143,6 +143,7 @@ ht-degree: 85%
       + [이메일의 제목란 테스트](sending/using/testing-subject-line-email.md)
       + [AI 기반의 이메일](sending/using/predictive.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
+      + [컨트롤 그룹 추가](sending/using/control-group.md)
       + [트랩 사용](sending/using/using-traps.md)
       + [보내기 준비](sending/using/preparing-the-send.md)
    + 메시지 예약 {#scheduling-messages}
@@ -338,7 +339,6 @@ ht-degree: 85%
          + [서비스 가입자에 대한 증분 쿼리](automating/using/incremental-query-on-subscribers.md)
          + [연령 그룹에 따른 세분화](automating/using/segmentation-age-groups.md)
          + [타겟팅 차원과 다른 리소스 사용](automating/using/using-resources-different-from-targeting-dimensions.md)
-         + [컨트롤 그룹 만들기](automating/using/workflow-control-group.md)
       + 데이터 관리 {#data-management}
          + [데이터베이스와 파일 대상 조정](automating/using/reconcile-file-audience-with-database.md)
          + [가져온 파일에서 데이터 중복 제거](automating/using/deduplicating-data-imported-file.md)
