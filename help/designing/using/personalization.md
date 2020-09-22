@@ -12,23 +12,23 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 0%
+source-wordcount: '2570'
+ht-degree: 3%
 
 ---
 
 
 # 이메일 콘텐츠 개인화 {#personalization}
 
-Adobe Campaign에서 제공하는 메시지 내용 및 표시는 여러 가지 방법으로 개인화할 수 있습니다. 이러한 방법은 프로파일에 따라 기준에 따라 결합할 수 있습니다. 일반적으로 Adobe Campaign을 통해 다음을 수행할 수 있습니다.
+Adobe Campaign이 전달하는 메시지 내용 및 표시는 여러 가지 방법으로 개인화할 수 있습니다. 이러한 방법은 프로파일에 따라 기준에 따라 결합할 수 있습니다. 일반적으로 Adobe Campaign을 통해 다음을 수행할 수 있습니다.
 
-* 동적 개인화 필드 삽입 개인화 [필드 삽입을 참조하십시오](#inserting-a-personalization-field).
-* 사전 정의된 개인화 블록을 삽입합니다. 콘텐츠 [블록 추가를 참조하십시오](#adding-a-content-block).
+* 동적 개인화 필드를 삽입합니다. [개인화 필드 삽입](#inserting-a-personalization-field)을 참조하십시오.
+* 사전 정의된 개인화 블록 삽입. [콘텐츠 블록 추가](#adding-a-content-block)를 참조하십시오.
 * 이메일 보낸 사람을 개인화합니다. 발신자 [개인화를 참조하십시오](#personalizing-the-sender).
 * 이메일 제목 개인화 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
-* 조건부 컨텐츠 만들기 이메일에서 [동적 컨텐츠 정의를 참조하십시오](#defining-dynamic-content-in-an-email).
+* 조건부 콘텐츠 만들기 이메일에서 [동적 컨텐츠 정의를 참조하십시오](#defining-dynamic-content-in-an-email).
 
 ## 보낸 사람 개인화 {#personalizing-the-sender}
 
@@ -44,9 +44,9 @@ Adobe Campaign에서 제공하는 메시지 내용 및 표시는 여러 가지 �
 
 ## URL 개인화{#personalizing-urls}
 
-Adobe Campaign을 사용하면 개인화 필드, 콘텐츠 블록 또는 동적 컨텐츠를 추가하여 메시지에 하나 또는 여러 개의 URL을 개인화할 수 있습니다. 이렇게 하려면:
+Adobe Campaign을 사용하면 개인화 필드, 콘텐츠 블록 또는 동적 컨텐츠를 추가하여 메시지에 하나 또는 여러 개의 URL을 개인화할 수 있습니다. 방법은 다음과 같습니다.
 
-1. 외부 URL을 삽입하고 매개 변수를 지정합니다. 링크 [삽입을 참조하십시오](../../designing/using/links.md#inserting-a-link).
+1. 외부 URL을 삽입하고 매개 변수를 지정합니다. See [Inserting a link](../../designing/using/links.md#inserting-a-link).
 1. 표시되지 않으면 설정 창에서 선택한 URL 옆에 있는 연필을 클릭하여 개인화 옵션에 액세스합니다.
 1. 사용할 개인화 필드, 콘텐츠 블록 및 동적 콘텐츠를 추가합니다.
 
@@ -60,7 +60,7 @@ Adobe Campaign을 사용하면 개인화 필드, 콘텐츠 블록 또는 동적 
 
 ## 개인화 필드 삽입{#inserting-a-personalization-field}
 
-Adobe Campaign을 사용하면 데이터베이스의 필드를 프로필의 이름과 같은 페이지에 삽입할 수 있습니다.
+Adobe Campaign을 사용하면 데이터베이스의 필드를 프로필 이름과 같은 페이지에 삽입할 수 있습니다.
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ Adobe Campaign을 사용하면 데이터베이스의 필드를 프로필의 이�
 
    ![](assets/email_perso_field_2.png)
 
-1. **[!UICONTROL Confirm]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 필드 이름이 편집기에 나타나고 강조 표시됩니다.
 
@@ -88,7 +88,7 @@ Adobe Campaign을 사용하면 데이터베이스의 필드를 프로필의 이�
 >
 >워크플로우에서 이메일을 만든 경우, 워크플로우에서 계산된 추가 데이터를 개인화 필드에서도 사용할 수 있습니다. 워크플로우에서 추가 데이터를 추가하는 방법에 대한 자세한 내용은 데이터 [](../../automating/using/about-targeting-activities.md#enriching-data) 농축 섹션을 참조하십시오.
 
-## 콘텐츠 블록 추가{#adding-a-content-block}
+## Adding a content block{#adding-a-content-block}
 
 Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. 이러한 컨텐츠 블록은 다이내믹하고 개인적이며 특정 렌더링을 갖습니다. 예를 들어 미러 페이지에 인사말 또는 링크를 추가할 수 있습니다.
 
@@ -106,7 +106,7 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
    ![](assets/email_content_block_2.png)
 
-1. **[!UICONTROL Save]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 컨텐츠 블록의 이름이 편집기에 나타나고 노란색으로 강조 표시됩니다. 개인화가 생성되면 프로필에 자동으로 적용됩니다.
 
@@ -114,17 +114,17 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 바로 사용 가능한 컨텐츠 블록은 다음과 같습니다.
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: 이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: 이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
-* **[!UICONTROL Link to mirror page (MirrorPage)]**: 이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Link to mirror page (MirrorPage)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: 이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: 이 컨텐츠 블록은 **랜딩 페이지에서만 사용할 수 있습니다**.
-* **[!UICONTROL Default sender name (DefaultSenderName)]**: 이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: 이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: 이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: 이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: 이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**:이 컨텐츠 블록은 **랜딩 페이지에서만 사용할 수 있습니다**.
+* **[!UICONTROL Default sender name (DefaultSenderName)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**:이 컨텐츠 블록은 **배달에만 사용할 수 있습니다**.
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
@@ -144,16 +144,17 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 1. 레이블을 입력합니다.
 1. 블록 **[!UICONTROL Content type]**&#x200B;을 선택합니다. 다음 세 가지 옵션을 사용할 수 있습니다.
 
-   * **[!UICONTROL Shared]**: 컨텐츠 블록은 배달 또는 랜딩 페이지에서 사용할 수 있습니다.
-   * **[!UICONTROL Delivery]**: 컨텐츠 블록은 전달에만 사용할 수 있습니다.
-   * **[!UICONTROL Landing page]**: 컨텐츠 블록은 랜딩 페이지에서만 사용할 수 있습니다.
+   * **[!UICONTROL Shared]**:컨텐츠 블록은 배달 또는 랜딩 페이지에서 사용할 수 있습니다.
+   * **[!UICONTROL Delivery]**:컨텐츠 블록은 전달에만 사용할 수 있습니다.
+   * **[!UICONTROL Landing page]**:컨텐츠 블록은 랜딩 페이지에서만 사용할 수 있습니다.
+
    ![](assets/content_bloc_02.png)
 
 1. 을 선택할 수 있습니다 **[!UICONTROL Targeting dimension]**. 자세한 내용은 타깃팅 차원 [정보를 참조하십시오](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
-1. 옵션을 선택하여 두 개의 서로 다른 블록을 정의할 수 **[!UICONTROL Depends on format]** 있습니다. 하나는 HTML 이메일이고 다른 하나는 텍스트 형식의 이메일입니다. 그런 다음 두 개의 탭이 편집기(HTML 및 텍스트)에 표시되어 해당 컨텐츠를 정의합니다.
+1. 옵션을 선택하여 두 개의 서로 다른 블록을 정의할 수 **[!UICONTROL Depends on format]** 있습니다.하나는 HTML 이메일이고 다른 하나는 텍스트 형식의 이메일입니다. 그런 다음 두 개의 탭이 편집기(HTML 및 텍스트)에 표시되어 해당 컨텐츠를 정의합니다.
 
    ![](assets/content_bloc_03.png)
 
@@ -175,7 +176,7 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 이 필드를 비워 두면 타깃팅 차원이 무엇이든지 컨텐츠 블록은 모든 메시지와 호환됩니다. 타깃팅 차원을 설정하면 해당 블록은 타깃팅 차원이 동일한 메시지와 호환됩니다.
 
-자세한 내용은 [차원 및 리소스 타깃팅을 참조하십시오](../../automating/using/query.md#targeting-dimensions-and-resources).
+자세한 내용은 [차원 및 리소스 타겟팅](../../automating/using/query.md#targeting-dimensions-and-resources)을 참조하십시오.
 
 **관련 항목:**
 
@@ -185,7 +186,7 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 ## 이미지 소스 개인화{#personalizing-an-image-source}
 
-Adobe Campaign을 사용하면 특정 기준에 따라 메시지에서 하나 또는 여러 개의 이미지를 개인화하거나 추적을 사용할 수 있습니다. 개인화 필드, 컨텐츠 블록 또는 동적 컨텐츠를 이미지 소스에 삽입하여 수행할 수 있습니다. 이렇게 하려면:
+Adobe Campaign을 사용하면 특정 기준에 따라 메시지 내에서 하나 또는 여러 개의 이미지를 개인화하거나 추적을 사용할 수 있습니다. 개인화 필드, 컨텐츠 블록 또는 동적 컨텐츠를 이미지 소스에 삽입하여 수행할 수 있습니다. 방법은 다음과 같습니다.
 
 1. 메시지 내용에 이미지를 삽입하거나 이미 있는 이미지를 선택합니다.
 1. 이미지 속성 팔레트에서 옵션을 **[!UICONTROL Enable personalization]** 선택합니다.
@@ -201,11 +202,11 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지에서 하나 �
 
    >[!NOTE]
    >
-   >도메인 이름(http://mydomain.com)을 개인화할 수 없습니다. 수동으로 입력해야 합니다. 나머지 URL은 개인화할 수 있습니다. 예: http://mydomain.com/ `[Gender]` .jpg
+   >도메인 이름(http://mydomain.com)을 개인화할 수 없습니다. 수동으로 입력해야 합니다. 나머지 URL은 개인화할 수 있습니다. 예:http://mydomain.com/ `[Gender]` .jpg
 
 1. 변경 사항을 확인합니다.
 
-## 조건부 컨텐츠 {#conditional-content}
+## 조건부 콘텐츠 {#conditional-content}
 
 ### 가시성 조건 정의{#defining-a-visibility-condition}
 
@@ -215,7 +216,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지에서 하나 �
 
 ![](assets/delivery_content_5.png)
 
-이 옵션은 다음 요소에만 사용할 수 있습니다. 주소, BLOCKQUOTE, DIR, DIV, DL, FIELDSET, FORM, H1, H2, H3, H4, H5, H6, NOSCRIPT, OL, P, PRE, UL, TR, TD.
+이 옵션은 다음 요소에만 사용할 수 있습니다.주소, BLOCKQUOTE, DIR, DIV, DL, FIELDSET, FORM, H1, H2, H3, H4, H5, H6, NOSCRIPT, OL, P, PRE, UL, TR, TD.
 
 표현식 편집기가 [고급 표현식 편집](../../automating/using/editing-queries.md#about-query-editor) 섹션에 표시됩니다.
 
@@ -226,6 +227,11 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지에서 하나 �
 >동적 컨텐츠가 있는 하위 요소가 이미 포함된 블록이나 동적 컨텐츠를 이미 구성한 블록에 대해 조건을 정의할 수 없습니다. 드롭다운 목록과 같이 보이지 않는 동적 블록은 편집할 수 없습니다.
 
 ### 이메일에서 동적 컨텐츠 정의{#defining-dynamic-content-in-an-email}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="동적 컨텐츠 정의"
+>abstract="표현식 편집기를 통해 정의된 규칙에 따라 수신자에게 다양한 컨텐츠를 정의할 수 있습니다."
 
 이메일에서 표현식 편집기를 통해 정의된 조건에 따라 수신자에게 동적으로 표시되는 다양한 컨텐츠를 정의할 수 있습니다. 예를 들어 동일한 이메일에서 각 프로필의 연령 범위에 따라 다른 메시지를 수신하도록 할 수 있습니다.
 
@@ -240,7 +246,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지에서 하나 �
 
    ![](assets/dynamic_content_3.png)
 
-   기본적으로 이 섹션에는 두 가지 요소가 포함되어 있습니다. 기본 변형 및 새 변형
+   기본적으로 이 섹션에는 두 가지 요소가 포함되어 있습니다.기본 변형 및 새 변형
 
    >[!NOTE]
    >
@@ -286,7 +292,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지에서 하나 �
 
 **관련 항목:**
 
-* [교정본 보내기](../../sending/using/sending-proofs.md)
+* [증명 보내기](../../sending/using/sending-proofs.md)
 * [고급 표현식 편집](../../automating/using/editing-queries.md#about-query-editor)
 
 ### 우선 순위 순서 {#order-of-priority}
@@ -309,7 +315,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지에서 하나 �
 
 동적 컨텐츠당 우선 순위 순서를 하나만 정의할 수 있습니다.
 
-## 예: 이메일 개인화{#example-email-personalization}
+## 예:이메일 개인화{#example-email-personalization}
 
 이 예에서는 마케팅 서비스 팀의 한 구성원이 자신의 일부 고객에게 전용 오퍼가 있음을 알리는 이메일을 만들었습니다. 팀원은 고객의 연령에 따라 이메일을 개인화하기로 결정했다. 1827세 고객에게는 27세 이상의 고객이 받을 수 있는 이미지와 슬로건이 담긴 e메일을 받게 된다.
 
@@ -328,6 +334,11 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지에서 하나 �
    개인화 필드 추가 및 구성은 개인화 필드 [삽입 섹션에서](#inserting-a-personalization-field) 자세히 설명합니다.
 
 ### 이미지 구성 {#configuring-images}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="동적 이미지 관리"
+>abstract="표현식 편집기를 통해 정의된 규칙에 따라 다이내믹한 이미지로 이메일을 개인화합니다."
 
 이 예에서 이미지에 적용된 동적 컨텐츠는 다음과 같이 구성됩니다.
 
