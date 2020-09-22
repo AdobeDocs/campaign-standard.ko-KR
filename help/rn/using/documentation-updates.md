@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
+source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
 workflow-type: tm+mt
-source-wordcount: '6140'
-ht-degree: 94%
+source-wordcount: '6228'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,22 @@ ht-degree: 94%
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
+
+**릴리스에 포함된 새로운 기능**
+
+Control groups - [Read More](../../sending/using/control-group.md)
+
+외부 API(OAuth 지원) - [자세한 내용](../../automating/using/external-api.md)
+
+고객 여정 AI 통합 - [자세한 내용](../../sending/using/predictive.md)
+
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
+
+외부 매개 변수를 사용한 작업 흐름을 호출하는 방법에 대한 섹션이 표현식 편집기에서 사용할 수 있는 새로운 기능으로 향상되었습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md)
+
+워크플로우당 사용할 활동 수의 워크플로우 우수 사례에 권장 사항이 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#number-activities)
 
 ## 설명서 업데이트 - 2020년 9월 {#doc-updates-september-2020}
 
@@ -33,6 +49,8 @@ ht-degree: 94%
 새 브랜드를 만드는 프로세스를 자세히 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/branding.md#creating-a-brand)
 
 새로운 Campaign Standard - Microsoft Dynamics 365 통합을 사용할 수 있습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+활성 프로필 보고서의 익명 소스에 정보가 추가되었습니다. [자세한 내용](../../audiences/using/active-profiles.md)
 
 ## 설명서 업데이트 - 2020년 8월 {#doc-updates-august-2020}
 
@@ -220,7 +238,7 @@ S3 외부 계정 구성 설명서를 업데이트했습니다. [자세한 내용
 
 ## 설명서 업데이트 - 2019년 11월 {#doc-updates-november-2019}
 
-Campaign Standard에서 워크플로우를 사용하여 컨트롤 그룹을 만드는 방법을 설명하는 새로운 사용 사례를 추가했습니다. [자세한 내용](../../automating/using/workflow-control-group.md)
+Campaign Standard에서 워크플로우를 사용하여 컨트롤 그룹을 만드는 방법을 설명하는 새로운 사용 사례를 추가했습니다.
 
 랜딩 페이지 속성과 관련된 정보를 전용 섹션으로 이동했습니다. [자세한 내용](../../channels/using/configuring-landing-page.md)
 
@@ -276,7 +294,7 @@ Campaign Standard 설정에 대한 새로운 섹션을 추가했습니다. [자�
 
 푸시 알림 섹션에 모바일 애플리케이션 구독 데이터를 기반으로 프로필 정보를 만들고 업데이트하는 방법에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-파일 로드 활동에서 검색한 추가 데이터가 포함된 이메일을 보내는 방법을 보여주는 새로운 예제를 추가했습니다. [자세한 내용](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+파일 로드 활동에서 검색한 추가 데이터가 포함된 이메일을 보내는 방법을 보여주는 새로운 예제를 추가했습니다. [자세한 내용](../../automating/using/sending-email-enriched-fields.md)
 
 트랩 사용 방법에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../sending/using/using-traps.md).
 
@@ -466,7 +484,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 복사-붙여넣기 작업을 통해 워크플로우 활동을 복제하는 방법에 대한 새 섹션을 추가했습니다. [자세한 내용](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-쿼리([자세히 보기](../../automating/using/query.md))와 세분화([자세히 보기](../../automating/using/segmentation.md)) 활동의 새로운 옵션에 대한 정보를 추가했습니다. 이 옵션을 사용하면 데이터가 검색되지 않는 경우 활동 후 아웃바운드 전환을 추가할 수 있습니다.
+쿼리([자세히 보기](../../automating/using/query-samples.md))와 세분화([자세히 보기](../../automating/using/segmentation.md)) 활동의 새로운 옵션에 대한 정보를 추가했습니다. 이 옵션을 사용하면 데이터가 검색되지 않는 경우 활동 후 아웃바운드 전환을 추가할 수 있습니다.
 
 데이터 업데이트 활동 섹션에 새로운 일괄 처리 크기 필드에 대한 정보를 추가했습니다. 이 필드에서는 업로드할 데이터의 최대 일괄 처리 크기를 정의할 수 있습니다. [자세한 내용](../../automating/using/update-data.md#configuration)
 
@@ -568,7 +586,7 @@ Campaign을 Audience Manager 또는 People 핵심 서비스와 함께 사용하�
 
 게재 준비 역할 정의를 업데이트했습니다. [자세한 내용](../../administration/using/list-of-roles.md)
 
-쿼리 활동 섹션에 게재에서 특정 링크를 클릭한 프로필을 타겟팅하는 방법에 대한 샘플을 추가했습니다. [자세한 내용](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
+쿼리 활동 섹션에 게재에서 특정 링크를 클릭한 프로필을 타겟팅하는 방법에 대한 샘플을 추가했습니다. [자세한 내용](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 API 설명서에 **사용자 정의 필터**&#x200B;와 관련된 섹션을 추가했습니다. [자세한 내용](../../api/using/filtering.md)
 
@@ -622,7 +640,7 @@ Adobe 호스팅 SFTP 서버 사용에 대한 모범 사례를 알아봅니다. [
 
 GDPR API에서 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그룹화합니다. [자세한 내용](../../api/using/creating-a-privacy-request.md)
 
-수신자에게 제공할 수 있도록 랜딩 페이지를 설정하는 방법에 대한 정보가 차단 목록에 추가된 추가되었습니다. [자세한 내용](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+수신자에게을 제공할 수 있도록 랜딩 페이지를 설정하는 방법에 대한 정보가 차단 목록 추가되었습니다. [자세한 내용](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 [트랜잭션 메시지 구성](../../administration/using/configuring-transactional-messaging.md) 섹션을 재구성하고 [단계별 사용 사례](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)를 추가했습니다.
 
@@ -658,7 +676,7 @@ Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니
 
 **[!UICONTROL Working with typologies]** 섹션을 업데이트하여 가시성을 개선했습니다. [자세한 내용](../../sending/using/about-typology-rules.md)
 
-이제 **[!UICONTROL Query]**&#x200B;에서 여러 추가 데이터를 정의할 때 성능을 향상시킬 수 있는 새로운 옵션을 사용할 수 있습니다. [자세한 내용](../../automating/using/query.md)
+이제 **[!UICONTROL Query]**&#x200B;에서 여러 추가 데이터를 정의할 때 성능을 향상시킬 수 있는 새로운 옵션을 사용할 수 있습니다. [자세한 내용](../../automating/using/query-samples.md)
 
 프로필 가져오기 예제에 프로필에서 다이렉트 메일을 받을 수 있도록 하는 몇 가지 팁을 업데이트했습니다. [자세한 내용](../../automating/using/about-data-import-and-export.md)
 
@@ -672,7 +690,7 @@ Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니
 
 SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세한 내용](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-되풀이하는 워크플로우에서 사용자의 시간대에 따라 게재를 보내는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
+되풀이하는 워크플로우에서 사용자의 시간대에 따라 게재를 보내는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/recurring-push-notifications.md)
 
 **[!UICONTROL Customizing a push notification]** 섹션을 단계별 사용 사례에 따라 재구성했습니다. [자세한 내용](../../channels/using/customizing-a-push-notification.md)
 
