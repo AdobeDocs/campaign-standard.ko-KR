@@ -13,7 +13,7 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 2%
@@ -29,4 +29,4 @@ The **[!UICONTROL Complaints]** report identifies the deliveries that have recei
 
 받는 사람 **도메인별로 정렬된** [방향] 표에는 이메일 또는 정크 메일을 선언한 받는 사람 수가 표시됩니다. 표의 결과는 차트와 요약 번호로도 확인할 수 있습니다.
 
-배달된 사람 대차단 목록에 추가된의 **요금** 표에는 이메일을 스팸이나 정크 메일로 선언한 받는 사람 수가 나와 있습니다. 테이블은 배달별로 정렬됩니다.
+[ **배달됨] 및 [차단 목록온]** 표에는 이메일을 스팸이나 정크 메일로 선언한 받는 사람 수가 나열됩니다. 테이블은 배달별로 정렬됩니다.
