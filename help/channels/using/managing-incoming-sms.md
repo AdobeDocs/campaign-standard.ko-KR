@@ -13,9 +13,9 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '593'
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 수행�
    * 이 **[!UICONTROL Remove from quarantine]** 작업을 수행하면 프로필 전화 번호가 격리되지 않습니다.
    * 이 **[!UICONTROL None]** 작업을 수행하면 수신자에게 작업을 전달하지 않고도 메시지를 보낼 수 있습니다.
 
-   예를 들어, 아래 구성에서 수신자가 &quot;STOP&quot; 키워드를 전송하는 경우 구독 취소 확인 메시지가 자동으로 수신되고 전화 번호가 **[!UICONTROL Denylisted]** 상태가 포함된 검역으로 전송됩니다. 이 상태는 전화 번호만을 가리키므로, 프로필은 사용자가 계속 이메일 메시지를 수신하도록 차단 목록에 추가된 합니다.
+   예를 들어, 아래 구성에서 수신자가 &quot;STOP&quot; 키워드를 전송하는 경우 구독 취소 확인 메시지가 자동으로 수신되고 전화 번호가 **[!UICONTROL On denylist]** 상태가 포함된 검역으로 전송됩니다. 이 상태는 전화 번호만 가리키므로 프로필은 사용자가 이메일 메시지를 계속 수신하게 됩니다.
 
    ![](assets/sms_mo.png)
 
