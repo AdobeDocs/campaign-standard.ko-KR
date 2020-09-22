@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 6%
@@ -57,7 +57,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래 나열
 * [게재 실패 시 경고 받기](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [게재 실패 이해](../../sending/using/understanding-delivery-failures.md)
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
-* [격리 대 차단 목록](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [격리 대 차단 목록](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [동적 보고서](../../reporting/using/about-dynamic-reports.md)
 
 ## 네트워크 구성 확인 {#network-configuration}
