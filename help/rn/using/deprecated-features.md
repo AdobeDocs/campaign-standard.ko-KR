@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 18%
+source-wordcount: '664'
+ht-degree: 17%
 
 ---
 
@@ -134,7 +134,7 @@ Campaign Standard 기능을 제거/교체하기 위해 다음 규칙이 적용�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Creative SDK가 폐기되었습니다. 따라서 Campaign Standard 이메일에 포함된 Creative SDK에서 제공하는 이미지 에디션은 Campaign 20.2 릴리스부터 더 이상 사용할 수 없습니다.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK]이(가) 중단되었습니다. 따라서 Campaign Standard 이메일에서 [!DNL Creative SDK] 기반 이미지 에디션은 Campaign 20.2 릴리스부터 더 이상 사용할 수 없습니다.</p></br>
    </td> 
   </tr> 
  </tbody> 
