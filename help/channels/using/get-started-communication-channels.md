@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 17%
+source-wordcount: '521'
+ht-degree: 16%
 
 ---
 
@@ -102,7 +102,7 @@ Campaign에는 고객 **정보를**&#x200B;캡처하고, 서비스에 가입을 
 ## 추가 리소스
 
 * [전달 능력 최적화](../../sending/using/about-deliverability.md)
-* [전달 모범 사례](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
+* [전달 모범 사례](../../sending/using/delivery-best-practices.md)
 * [이메일 컨텐츠 디자인](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEM 컨텐츠 가져오기](../../integrating/using/creating-email-experience-manager.md)
 * [워크플로우로 메시지 보내기](../../automating/using/about-channel-activities.md)
