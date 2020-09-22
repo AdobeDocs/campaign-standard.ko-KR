@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b82a9dc86ec9e48e25f1ffe53188ba916a9d074
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2948'
 ht-degree: 95%
 
 ---
@@ -296,7 +296,7 @@ ht-degree: 95%
 * 관리자 보안 그룹의 조직 단위는 더 이상 변경할 수 없습니다.
 * 이제 프로필을 만들 때 조직 단위 필드를 채워야 합니다.
 * 이제 Experience Cloud 트리거는 연결된 이벤트 및 트랜잭션 템플릿이 모두 삭제된 경우에만 삭제할 수 있습니다.
-* Adobe Creative SDK가 폐기되었습니다. 이제 Campaign Standard에서 더 이상 사용되지 않습니다. [더 이상 사용되지 않는 기능 및 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html) 페이지를 참조하십시오.
+* [!DNL Adobe Creative SDK] 서비스가 중단되었습니다. 이제 Campaign Standard에서 더 이상 사용되지 않습니다. [더 이상 사용되지 않는 기능 및 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html) 페이지를 참조하십시오.
 
 
 **패치**
