@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 15%
@@ -53,7 +53,7 @@ ht-degree: 15%
 
 교정본을 전송하면 옵트아웃 링크, 미러 페이지 및 기타 링크를 확인하고, 메시지를 확인하고, 이미지가 표시되는지 확인하고, 가능한 오류 감지 등을 수행할 수 있습니다. 또한 다양한 디바이스에서 디자인과 렌더링을 확인할 수 있습니다.
 
-자세한 내용[이 섹션[에서](../../sending/using/sending-proofs.md).
+이 섹션 [에서 자세히 알아보십시오](../../sending/using/sending-proofs.md).
 
 ## A/B 테스트 배달 설정 {#a-b-testing-deliveries}
 
