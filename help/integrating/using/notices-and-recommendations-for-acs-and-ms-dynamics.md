@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621c29ae08770b50629ba3d27116f93f8b5c3f62
+source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,8 @@ Dynamics 365에서 담당자가 삭제될 때 Campaign에 대한 프로필 삭�
 
 Dynamics 365와 Campaign 간의 옵트아웃 속성 및 각 고객의 비즈니스 요구 사항의 차이로 인해 옵트아웃 매핑은 고객이 완료하기 위한 연습으로 남아 있습니다.  최종 사용자 옵트아웃 환경 설정이 유지되며 옵트아웃한 채널을 통해 통신을 받지 않도록 시스템 간에 옵트아웃을 올바르게 매핑해야 합니다.
 
-&quot;&quot; 접두어(예: blockListEmail)차단 목록에 추가하다 또는 CPA 옵트아웃에 대한 특정 속성을 가진 캠페인 속성만 옵트아웃 매핑에 사용할 수 있습니다.  Dynamics 365에서는 대부분의 옵트아웃 필드에 &quot;donot&quot; 접두어가 있습니다.그러나 데이터 유형이 호환하는 경우 옵트아웃 용도로 다른 속성을 활용할 수도 있습니다.
+&#39;더 이상 연락하지 않음&#39; 접두어(예: 더 이상 이메일로 연락하지 않음)가 있는 캠페인 속성이나 CPA 옵트아웃 매핑에서 특정 속성을 사용할 수 있습니다. [자세히 알아보기](../../developing/using/datamodel-profile.md).
+Dynamics 365에서는 대부분의 옵트아웃 필드에 &quot;donot&quot; 접두어가 있습니다.그러나 데이터 유형이 호환하는 경우 옵트아웃 용도로 다른 속성을 활용할 수도 있습니다.
 
 통합을 프로비저닝할 때 비즈니스에 필요한 옵트아웃 구성을 지정할 수 있습니다.
 
