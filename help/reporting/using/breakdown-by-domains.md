@@ -13,9 +13,9 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 # 도메인별 분류{#breakdown-by-domains}
 
-이 보고서에는 대상이 이메일 배달을 위해 나타내는 각 도메인에 대한 성능 데이터가 포함됩니다. 캠페인 또는 프로그램 보고서인 경우 성능 데이터를 여러 대상에 사용할 수 있습니다. 이 데이터를 사용하면 특정 이벤트에 대한 반응으로 각 도메인의 동작을 분석할 수 있습니다. 예를 들어 링크 표시, 차단 목록에 추가된 URL 등이 있습니다.
+이 보고서에는 대상이 이메일 배달을 위해 나타내는 각 도메인에 대한 성능 데이터가 포함됩니다. 캠페인 또는 프로그램 보고서인 경우 성능 데이터를 여러 대상에 사용할 수 있습니다. 이 데이터를 사용하면 특정 이벤트에 대한 반응으로 각 도메인의 동작을 분석할 수 있습니다. 예를 들어 링크 표시,차단 목록의 URL 등이 있습니다.
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ ht-degree: 3%
 * **다음을 클릭합니다**.게재에서 컨텐츠를 클릭한 횟수입니다.
 * **구독 취소**:구독 링크에 대한 클릭 수입니다.
 * **미러 페이지**:미러 페이지 링크에 대한 클릭 수입니다.
-* **차단 목록에 추가된**:이메일을 스팸 또는 정크 메일로 선언한 받는 사람 수입니다. [자세히 알아보기](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **설정 차단 목록**:이메일을 스팸 또는 정크 메일로 선언한 받는 사람 수입니다. [자세히 알아보기](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
