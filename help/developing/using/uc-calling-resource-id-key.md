@@ -2,10 +2,10 @@
 title: 복합 식별 키로 리소스 호출
 description: 복합 식별 키를 사용하여 리소스를 호출하는 방법 학습
 translation-type: tm+mt
-source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 3%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 경우에 따라 두 필드로 구성된 리소스 및 식별 키를 정의해야 할 수 있습니다. 식별 키가 구성되면 Campaign Standard 인터페이스 또는 API에서 이 식별 키로 리소스를 호출할 수 있도록 필터 정의를 구성해야 합니다.
 
-이 사용 사례에서 **프로필** 리소스는 사용자 지정 **&quot;CRM ID&quot;** 및 **&quot;카테고리** &quot;필드로확장되었습니다. 이 두 필드로 구성된 프로필 리소스에 대한 식별 키를 만듭니다. 그런 다음 필터 정의를 구성하여 식별 키를 사용하여 프로필 리소스에 액세스할 수 있습니다.
+이 사용 사례에서 **프로필** 리소스는 사용자 지정 **&quot;CRM** ID&quot; **및** &quot;카테고리&quot;필드로확장되었습니다. 이 두 필드로 구성된 프로필 리소스에 대한 식별 키를 만듭니다. 그런 다음 필터 정의를 구성하여 식별 키를 사용하여 프로필 리소스에 액세스할 수 있습니다.
 
 이 사용 사례에 대한 주요 단계는 다음과 같습니다.
 
@@ -28,18 +28,18 @@ ht-degree: 3%
 * [식별 키 정의](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST API](../../api/using/get-started-apis.md)
 
-## 1단계: 식별 키 구성{#step-1-configure-the-identification-key}
+## 1단계:식별 키 구성{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > 식별 키를 구성할 때의 글로벌 개념은 [이 섹션에 자세히 설명되어 있습니다](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. 식별 키를 구성하기 전에 리소스가 원하는 필드로 확장되었는지, 게시되었는지 확인하십시오. For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
+1. 식별 키를 구성하기 전에 리소스가 원하는 필드로 확장되었는지, 게시되었는지 확인하십시오. 이 작업에 대한 자세한 정보는 [이 섹션](../../developing/using/creating-or-extending-the-resource.md)을 참조하십시오.
 
 1. / **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** 메뉴로 이동한 다음 **[!UICONTROL Profile]** 리소스를 엽니다.
 
    ![](assets/uc_idkey1.png)
 
-1. 섹션에서 **[!UICONTROL Identification keys]** 단추를 **[!UICONTROL Create element]** 클릭합니다.
+1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/uc_idkey2.png)
 
@@ -48,11 +48,11 @@ ht-degree: 3%
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > 프로필 인터페이스에 두 개의 사용자 지정 필드를 표시하려면 **[!UICONTROL Screen definition]** 탭을 구성합니다. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > 프로필 인터페이스에 두 개의 사용자 지정 필드를 표시하려면 **[!UICONTROL Screen definition]** 탭을 구성합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../developing/using/configuring-the-screen-definition.md)을 참조하십시오.
 
 1. 이제 해당 식별 키를 사용하여 리소스를 호출할 수 있도록 필터 정의를 구성할 수 있습니다.
 
-## 2단계: 필터 정의 구성{#step-2-configure-the-filter-definition}
+## 2단계:필터 정의 구성{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
 > 필터 정의를 구성할 때의 글로벌 개념은 [이 섹션에 자세히 설명되어 있습니다](../../developing/using/configuring-filter-definition.md).
@@ -76,7 +76,7 @@ ht-degree: 3%
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > 더하기 단추를 클릭하면 매개 변수의 이름이 자동으로 생성됩니다. API의 필터를 사용하는 데 필요한 정보이므로 이 정보를 참고하십시오.
+   > Once you have click the **+** button, the parameter&#39;s name automatically generated. API의 필터를 사용하는 데 필요한 정보이므로 이 정보를 참고하십시오.
 
 1. 식별 키를 구성하는 모든 필드(&quot;카테고리&quot;)와 함께 위의 단계를 반복한 다음 변경 사항을 저장합니다.
 
@@ -84,7 +84,7 @@ ht-degree: 3%
 
 1. 이제 필터 정의가 구성됩니다. 필터를 사용할 수 있도록 리소스를 게시할 수 있습니다.
 
-## 3단계: 식별 키를 기준으로 리소스에 전화 걸기{#step-3-call-the-resource-based-on-its-identification-key}
+## 3단계:식별 키를 기준으로 리소스에 전화 걸기{#step-3-call-the-resource-based-on-its-identification-key}
 
 식별 키 및 해당 필터 정의가 구성되면 Campaign 표준 인터페이스 또는 REST API에서 해당 리소스를 호출하는 데 사용할 수 있습니다.
 
