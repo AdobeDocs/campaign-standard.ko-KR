@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2031'
 ht-degree: 2%
 
 ---
@@ -261,7 +261,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
    경고의 가능한 원인은 다음과 **[!UICONTROL Delivery with bad error ratio for hard bounces]** 같습니다.
 
-   * 받는 사람차단 목록에 추가된은 더 이상 연락을 받고 싶지 않음을 의미합니다.
+   * 받는 사람이에 차단 목록 추가되므로 더 이상 연락을 원하지 않습니다.
    * 받는 사람의 이메일 주소가 없습니다.
    * 받는 사람의 도메인이 없습니다.
    * 받는 사람의 서버가 배달을 막고 있습니다.
