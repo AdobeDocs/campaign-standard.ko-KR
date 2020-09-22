@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 6%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래 나열
 ## 전달 기능 툴 {#deliverability-tools}
 
 먼저, Campaign Standard과 함께 제공되는 제공 툴에 대한 설명서를 참조하기 시작합니다.
-* [전달 모범 사례](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
+* [전달 모범 사례](../../sending/using/delivery-best-practices.md)
 * [보낸 사람 이름 맞춤화](../../designing/using/personalization.md#personalizing-the-sender)
 * [이메일의 제목란 테스트](../../sending/using/testing-subject-line-email.md)
 * [보내는 시각 최적화](../../sending/using/optimizing-the-sending-time.md)
