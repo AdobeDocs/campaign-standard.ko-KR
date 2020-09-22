@@ -12,9 +12,9 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 100%
 
@@ -43,9 +43,11 @@ ht-degree: 100%
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->내보낸 리소스에 기본 ID가 있는 경우 패키지 내보내기가 승인되지 않습니다. 따라서 Adobe Campaign Standard에서 표준으로 제공하는 템플릿과 다른 이름을 사용하여 내보낼 수 있는 리소스의 ID를 변경해야 합니다. 예를 들어 테스트 프로필을 내보내려면 &quot;SDM&quot; 또는 &quot;sdm&quot; 값이 포함된 ID를 사용할 수 없습니다. 기본 ID가 포함된 패키지를 내보내려고 하면 다음과 같은 오류가 표시됩니다. &quot;&#39;브랜드(브랜딩)&#39; 엔터티 유형에서 패키지를 가져올 때 충돌을 야기할 수 있는 기본 ID(&#39;BRD1&#39;)를 사용합니다. 이 이름을 변경하고 작업을 반복하십시오.&quot;
+>내보낸 리소스에 기본 ID가 있는 경우 패키지 내보내기가 승인되지 않습니다. 따라서 Adobe Campaign Standard에서 표준으로 제공하는 템플릿과 다른 이름을 사용하여 내보낼 수 있는 리소스의 ID를 변경해야 합니다. 예를 들어 테스트 프로필을 내보내려면 &quot;SDM&quot; 또는 &quot;sdm&quot; 값이 포함된 ID를 사용할 수 없습니다.
+>
+>기본 ID가 포함된 패키지를 내보내려고 하면 다음과 같은 오류가 표시됩니다. &quot;&#39;브랜드(브랜딩)&#39; 엔터티 유형에서 패키지를 가져올 때 충돌을 야기할 수 있는 기본 ID(&#39;BRD1&#39;)를 사용합니다. 이 이름을 변경하고 작업을 반복하십시오.&quot;
 
 패키지를 내보내는 단계는 [패키지 내보내기](#exporting-a-package) 섹션에 설명되어 있습니다.
 
