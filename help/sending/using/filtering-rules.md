@@ -12,9 +12,9 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '653'
 ht-degree: 3%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 3%
 | 레이블 | 채널 | 설명 |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | 모두 | 지정된 주소(이메일, 우편 주소 등)가 없는 대상 모집단을 제외합니다. 를 참조하십시오. |
-| **[!UICONTROL Denylisted address]** | 모두 | 에 있는 주소를 차단 목록 제외합니다. |
+| **[!UICONTROL Address on denylist]** | 모두 | 에 있는 주소를 차단 목록 제외합니다. |
 | **[!UICONTROL Duplicate]** | 모두 | 대상 모집단 **[!UICONTROL Address]** 필드를 기반으로 중복 항목을 제외합니다. |
 | **[!UICONTROL Exclude mobile applications]** | 모바일 애플리케이션 | 메시지에 정의된 모바일 애플리케이션과 일치하지 않는 앱 구독을 제외합니다. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | 인앱 | 메시지에 정의된 모바일 애플리케이션(인앱 템플릿)과 일치하지 않는 앱 구독을 제외합니다. |
@@ -47,7 +47,7 @@ ht-degree: 3%
 
 이메일 분석 중에 이러한 규칙은 받는 사람 이메일 주소와 배달 가능 인스턴스에서 관리되는 암호화된 전역 제외 목록에 포함된 금지된 주소 또는 도메인 이름과 비교합니다. 일치하는 메시지가 있으면 해당 받는 사람에게 메시지가 전송되지 않습니다.
 
-이것은 악성 활동, 특히 차단 목록에 추가된 Spamtrap의 사용으로 인한 피해를 피하기 위한 것입니다. 예를 들어 웹 양식 중 하나를 통해 구독하는 데 Spamtrap을 사용하는 경우 확인 이메일이 자동으로 해당 Spamtrap에 전송되고 그러면 해당 주소가에 자동으로 차단 목록 추가됩니다.
+악성 활동, 특히 차단 목록 Spamtrap 사용으로 인해에 추가되지 않도록 하는 것입니다. 예를 들어 웹 양식 중 하나를 통해 구독하는 데 Spamtrap을 사용하는 경우 확인 이메일이 자동으로 해당 Spamtrap에 전송되고 그러면 해당 주소가에 자동으로 차단 목록 추가됩니다.
 
 >[!NOTE]
 >
