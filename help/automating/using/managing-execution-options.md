@@ -13,10 +13,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ebded956ef52bb742160d62ebbd8095c390d51c
+source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 2%
+source-wordcount: '264'
+ht-degree: 13%
 
 ---
 
@@ -41,7 +41,11 @@ ht-degree: 2%
 
 * **[!UICONTROL Save SQL queries in the log]**:워크플로우의 SQL 쿼리를 로그에 저장할 수 있습니다.
 
-* **[!UICONTROL Keep interim results]**:전환 세부 사항을 보려면 이 옵션을 선택합니다. 경고:이 옵션을 선택하면 워크플로우 실행이 크게 느려질 수 있습니다.
+* **[!UICONTROL Keep interim results]**:전환 세부 사항을 보려면 이 옵션을 선택합니다.
+
+   >[!CAUTION]
+   >
+   >이 옵션은 많은 디스크 공간을 소모하며 워크플로우를 빌드하고 적절한 구성과 동작이 되도록 설계되었습니다. 프로덕션 인스턴스에서 선택하지 않은 상태로 둡니다.
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**:개발 환경 테스트 목적으로 로컬에서 워크플로우를 실행할 수 있습니다.
 
