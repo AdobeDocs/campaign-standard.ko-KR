@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 8%
+source-wordcount: '613'
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 8%
 
 캠페인 또는 메시지를 만들 때 캠페인 데이터베이스의 연락처에서 선택하거나 단순 또는 고급 기준을 사용하거나 대상을 선택하여 게재의 대상을 지정할 수 있습니다.
 
-통합된 고객 프로파일과 **맞춤형 세그먼트를 사용하여 모든 채널에서 보다 효과적으로 고객을** 식별할 수 있습니다 ****. 고객, 관심사, 인구 통계, 채널 선호도를 파악하여 개인화된 경험을 손쉽게 제작할 수 있습니다.
+통합된 고객 프로파일 **,**&#x200B;맞춤형 세그먼트 **및** 관리 그룹을 사용하여 모든 채널에서 보다 효과적으로 고객을 식별할 수 **있습니다**. 고객, 관심사, 인구 통계, 채널 선호도를 파악하여 개인화된 경험을 손쉽게 제작할 수 있습니다.
 
 Adobe Campaign은 풍부한 고객 프로파일을 실시간으로 작성하여 고객의 취향 변화에 따라 연관성 있고 개인화된 제안을 제공할 수 있습니다. 또한 Adobe Campaign은 고급 분석, 데이터 관리 및 타깃팅 기능을 통합하여 고객을 유치합니다.
 
@@ -57,6 +57,7 @@ Adobe Campaign은 풍부한 고객 프로파일을 실시간으로 작성하여 
 * [Campaign 데이터베이스 강화](../../audiences/using/enriching-campaign-database.md)
 * [대상자 기본 정보](../../audiences/using/about-audiences.md)
 * [메시지에서 대상자 선택](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [컨트롤 그룹 추가](../../sending/using/control-group.md)
 
 ## 허가 및 동의 {#permission}
 
@@ -85,9 +86,7 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 
 본 문서에서 [](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html) 개인정보 보호 관리 및 액세스 권한, 잊혀질 권리, 동의, 데이터 유지 및 사용자 역할을 관리하기 위해 제공하는 기능에 대해 자세히 알아보십시오.
 
-Campaign의 개인 정보 및 동의 및 관리 방법은 [이 섹션에 나와 있습니다](../../start/using/privacy.md).
-
-또한 Adobe 서비스를 사용할 때 귀하의 개인정보 보호 규정 준수를 돕기 위해 최선의 방법을 찾을 수 있습니다.
+Campaign의 개인 정보 및 동의 및 관리 방법은 [이 섹션에 나와 있습니다](../../start/using/privacy.md). 또한 Adobe 서비스를 사용할 때 귀하의 개인정보 보호 규정 준수를 돕기 위해 최선의 방법을 찾을 수 있습니다.
 
 ## 추가 리소스
 
