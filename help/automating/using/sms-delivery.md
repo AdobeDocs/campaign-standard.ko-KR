@@ -13,7 +13,7 @@ context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
@@ -29,11 +29,10 @@ ht-degree: 100%
 
 ![](assets/recurrentsms.png)
 
-**[!UICONTROL SMS delivery]** 활동을 통해 워크플로우에서 SMS 전송을 구성할 수 있습니다. 한 번만 보내는 **단일 전송** SMS일 수도 있고 **반복** SMS일 수도 있습니다.
+**[!UICONTROL SMS delivery]** 활동을 통해 워크플로우에서 SMS 전송을 구성할 수 있습니다. 한 번만 보내는 단일 전송 SMS일 수도 있고 반복 SMS일 수도 있습니다.
 
-단일 전송 SMS 메시지는 한 번 전송되는 표준 SMS입니다.
-
-반복 SMS 메시지를 사용하면 정의된 기간 동안 동일한 SMS를 여러 타겟으로 여러 번 보낼 수 있습니다. 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
+* **단일 전송 SMS 메시지는 한 번 전송되는 표준 SMS입니다.**
+* **반복 SMS 메시지를 사용하면 정의된 기간 동안 동일한 SMS를 여러 타겟으로 여러 번 보낼 수 있습니다.** 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
 
 ## 사용의 컨텍스트 {#context-of-use}
 
