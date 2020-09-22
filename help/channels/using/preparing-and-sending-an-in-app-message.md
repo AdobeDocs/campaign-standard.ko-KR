@@ -13,10 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '1274'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
    ![](assets/inapp_creating_5.png)
 
-1. 메시지 내용을 편집하고 고급 옵션을 정의합니다. [인앱 메시지 사용자 지정](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/customizing-a-push-notification.html)을 참조하십시오.
+1. 메시지 내용을 편집하고 고급 옵션을 정의합니다. [인앱 메시지 사용자 지정](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html)을 참조하십시오.
 
    ![](assets/inapp_creating_6.png)
 
