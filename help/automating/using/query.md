@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 97%
+source-wordcount: '1708'
+ht-degree: 96%
 
 ---
 
@@ -71,9 +71,7 @@ ht-degree: 97%
 
 타겟팅 차원 및 리소스를 통해 쿼리의 기반이 되는 요소를 정의하여 게재 타겟을 결정할 수 있습니다.
 
-타겟팅 차원은 타겟 매핑에서 정의됩니다. 자세한 정보는 [이 섹션](../../administration/using/target-mappings-in-campaign.md)을 참조하십시오.
-
-워크플로우를 만들 때 쿼리 활동의 **[!UICONTROL Properties]** 탭에서 타겟팅 차원 및 리소스를 정의합니다.
+이 지표는 [대상 매핑에서](../../administration/using/target-mappings-in-campaign.md)구성되며, 작업 흐름을 만들 때 쿼리 활동의 **[!UICONTROL Properties]** 탭에서 정의됩니다.
 
 >[!NOTE]
 >
