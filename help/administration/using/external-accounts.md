@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 96%
+source-wordcount: '1774'
+ht-degree: 85%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 96%
 * Adobe Analytics. 자세한 정보는 [이 섹션](../../integrating/using/configure-campaign-analytics-integration.md)을 참조하십시오.
 * Google reCAPTCHA. 자세한 정보는 [이 섹션](#google-recaptcha-external-account)을 참조하십시오.
 * Microsoft Azure Blob 저장 공간. 자세한 정보는 [이 섹션](#microsoft-azure-external-account)을 참조하십시오.
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -94,6 +95,23 @@ SFTP 서버는 Campaign 컨트롤 패널에서 관리할 수 있습니다. 자�
 >
 >Campaign 컨트롤 패널은 AWS에서 호스팅된 고객의 관리자만 사용할 수 있습니다. 
 [여기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/faq.html#ims-org-id)에서 인스턴스가 AWS에서 호스팅되는지 확인하십시오.
+
+## OAuth 2.0 계정 {#oauth-account}
+
+OAuth 2.0 외부 계정의 경우 다음 세부 정보를 제공합니다.
+
+* 권한 **부여 유형**:클라이언트 자격 증명만 **지원됩니다** .
+* 보안 **API URL**:인증 끝점을 입력합니다.
+* **OAuth 2.0 중요 자격 증명**:이 섹션은 본질적으로 민감한 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 마스크됩니다.이때 읽을 수도 있고 편집할 수도 없습니다. 인증 종단점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
+* **OAuth 2.0의 민감한 자격 증명**:이 섹션은 본질적으로 중요하지 않은 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후에 화면에 표시됩니다.편집할 수도 있습니다.  인증 종단점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
+
+구성이 끝나면 **Test connector를** 클릭하여 외부 계정이 올바르게 설정되어 있는지 확인합니다.
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>자격 증명 &quot;컨텐츠 유형:application/x-www-form-urlencoded&quot; 및 &quot;grant_type=client_credentials&quot;가 자동으로 API 호출에 추가됩니다.따라서 자격 증명 섹션에 추가할 필요가 없습니다.
 
 ## Amazon S3 외부 계정 {#amazon-s3-external-account}
 
