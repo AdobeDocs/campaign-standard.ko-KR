@@ -12,10 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '725'
+ht-degree: 86%
 
 ---
 
@@ -50,14 +50,31 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
    ![](assets/remarketing_4.png)
 
-1. 트리거 이벤트 게시를 시작하려면 **[!UICONTROL Publish]** 버튼을 클릭합니다.
+1. 이제 트리거를 게시할 수 있습니다. 자세한 내용은 Campaign [에서 트리거 게시를 참조하십시오](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+
+## Campaign에서 트리거 게시 {#publishing-trigger-in-campaign}
+
+기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만든 후 게시해야 합니다.
+
+1. 이전에 만든 트리거에서 단추를 클릭하여 트리거 이벤트 게시를 시작합니다. **[!UICONTROL Publish]**
+
+   ![](assets/trigger_publish_1.png)
+
+1. 아래에서 트리거 게시의 진행 상태를 확인할 수 있습니다 **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_2.png)
+
+1. 게시가 완료되면 아래에 다음 메시지가 나타납니다 **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_3.png)
+
 1. 트리거 이벤트를 게시한 후에도 트리거 스키마를 변경해야 하는 경우, **[!UICONTROL Update schema]** 버튼을 클릭하여 최신 변경 사항을 재개합니다.
 
    이 작업은 트리거 및 트랜잭션 메시지를 게시 취소하므로 나중에 다시 게시해야 합니다.
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
-**[!UICONTROL Show Trigger in Experience Cloud]** 버튼을 사용하면 Adobe Experience Cloud에서 트리거 정의를 볼 수 있습니다.
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 이벤트가 게시되면 새 이벤트에 연결된 트랜잭션 템플릿이 자동으로 만들어집니다. 그런 다음 방금 만들어진 템플릿을 수정하고 게시해야 합니다. 자세한 내용은 [템플릿 편집](../../start/using/marketing-activity-templates.md) 섹션을 참조하십시오.
 
