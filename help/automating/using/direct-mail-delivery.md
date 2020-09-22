@@ -13,7 +13,7 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -29,11 +29,10 @@ ht-degree: 99%
 
 ![](assets/recurrentpaper.png)
 
-**[!UICONTROL Direct mail delivery]** 활동을 사용하면 DM 캠페인에 사용하려는 프로필 데이터가 포함된 파일을 구성하고 준비할 수 있습니다. 한 번만 사용되는 DM일 수도 있고 **반복** DM일 수도 있습니다.
+**[!UICONTROL Direct mail delivery]** 활동을 사용하면 DM 캠페인에 사용하려는 프로필 데이터가 포함된 파일을 구성하고 준비할 수 있습니다. 한 번만 사용되는 DM일 수도 있고 반복 DM일 수도 있습니다.
 
-표준 DM은 한 번 전송됩니다.
-
-반복 메일을 사용하면 정의된 기간 동안 동일한 DM을 여러 타겟에 여러 번 보낼 수 있습니다. 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
+* **표준 DM은 한 번 전송됩니다.**
+* **반복 메일을 사용하면 정의된 기간 동안 동일한 DM을 여러 타겟에 여러 번 보낼 수 있습니다.** 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
 
 ## 사용의 컨텍스트 {#context-of-use}
 
