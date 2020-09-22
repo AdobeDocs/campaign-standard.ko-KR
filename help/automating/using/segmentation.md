@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '849'
 ht-degree: 92%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 92%
 
 **관련 항목:**
 * [사용 사례:위치 세분화](../../automating/using/workflow-segmentation-location.md)
-* [사용 사례:컨트롤 그룹 만들기](../../automating/using/workflow-control-group.md)
 * [사용 사례:연령 그룹에 따른 세분화](../../automating/using/segmentation-age-groups.md)
 
 ## 사용의 컨텍스트 {#context-of-use}
