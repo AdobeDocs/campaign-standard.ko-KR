@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 # 평판 개선{#improving-reputation}
 
-받는 사람이 피곤하지 않도록 타겟에서 중복된 이메일 주소를 삭제합니다. 이 단계는 전송 명성을 보호하고 안전한 격리 관리를 보장합니다. Adobe Campaign은 이러한 권장 사항을 구현하고 ISP에 의한 위험을 차단 목록에 추가된 방지하는 데 필요한 도구를 제공합니다.
+받는 사람이 피곤하지 않도록 타겟에서 중복된 이메일 주소를 삭제합니다. 이 단계는 전송 명성을 보호하고 안전한 격리 관리를 보장합니다. Adobe Campaign은 이러한 권장 사항을 구현하고 ISP가에 추가하는 위험을 차단 목록 방지하는 데 필요한 도구를 제공합니다.
 
 아래에서 복제 및 격리 관리에 대한 세부 사항을 확인할 수 있습니다.
 
