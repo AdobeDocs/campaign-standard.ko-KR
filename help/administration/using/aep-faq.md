@@ -12,10 +12,10 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 2%
+source-wordcount: '798'
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Experience Platform SDK 및 Campaign Standard 통합에 대한 자세한 �
 
 예. Adobe Campaign Standard과 Adobe Campaign Classic에서 모두 [!DNL Adobe Experience Platform SDK] 통합할 수 있습니다. 통합을 활성화하려면 해당 **[!UICONTROL Extension]** 을 [!DNL Adobe Launch] 설치해야 합니다.
 
-Campaign Classic에 대한 자세한 내용은 이 [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) 및 Campaign Standard에 대한 이 [페이지를](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 참조하십시오.
+자세한 정보는 이 [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)를 참조하십시오.
 
 ## Adobe Experience Platform SDK 통합이 Adobe Campaign에서 용이하게 하는 기능은 무엇입니까? {#aep-capabilities}
 
