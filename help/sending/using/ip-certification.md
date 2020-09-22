@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ IP 인증은 스팸 방지 필터나 기타 이메일 차단 시스템에 의해
 
 현재 두 개의 공급업체에서 IP 인증을 제공합니다.반환 경로 및 인증된 보낸 사람 연합.
 
-인증된 발신자는 허용 목록에추가된 글로벌 사서함 제공업체 및 이메일 보안 회사에서 사용하는 발송자입니다. 이러한 상용 허용 목록은 발신자가 스팸 필터를 모두 우회하거나 시스템에 들어갈 때 점차적으로 포인트를 할당할 수 있는 시스템을 기반으로 합니다.
+인증된 발신자는 글로벌 사서함 제공업체와 이메일 보안 회사가 사용하는허용 목록에 추가하다에 속합니다. 이러한 상용 허용 목록은 발신자가 스팸 필터를 모두 우회하거나 시스템에 들어갈 때 점차적으로 포인트를 할당할 수 있는 시스템을 기반으로 합니다.
 
 반품 [경로 인증](https://www.validity.com/products/returnpath/certification/) 프로그램은 다음을 포함한 다양한 혜택을 제공합니다.
 * Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru와 같은 상위 사서함 제공업체에서 받은 편지함 배치로 상당한 증가
