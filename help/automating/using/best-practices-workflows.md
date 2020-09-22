@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 98%
+source-wordcount: '1069'
+ht-degree: 93%
 
 ---
 
@@ -73,12 +73,15 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 
 워크플로우 속성을 사용하면 모든 해당 활동에서 기본적으로 사용될 특정 시간대를 정의할 수 있습니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
 
-
 ## 활동{#activity}
+
+### 워크플로우당 활동 수 {#number-activities}
+
+하나의 워크플로우에서 최대 100개의 활동을 사용하는 것이 좋습니다. 100개 이상의 활동이 워크플로우를 설계 및 구성할 때 일부 성능 문제가 발생할 수 있습니다.
 
 ### 워크플로우 디자인
 
-워크플로우가 제대로 종료되는지 확인하려면 **[!UICONTROL End activity]**&#x200B;을(를) 사용합니다. 워크플로우의 자체 마지막 전환을 하지 마십시오.
+워크플로우가 제대로 종료되도록 하려면 Workflow를 사용하여 마지막으로 전환되는 것을 피하십시오 **[!UICONTROL End activity]**.
 
 전환의 세부 사항 보기에 액세스하려면 워크플로우 속성의 실행 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택합니다.
 
