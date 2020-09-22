@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '7622'
+source-wordcount: '7624'
 ht-degree: 8%
 
 ---
@@ -617,7 +617,7 @@ ht-degree: 8%
 * 쿼리 편집기에서 브로드로그와 rtEvent에 대한 추적 로그 간의 연결 조건이 있는 문제를 해결했습니다. (CAMP-28780)
 * &quot;특정 작업&quot; 랜딩 페이지 옵션에 대한 수정 내용이 저장되지 않는 문제를 해결했습니다. (CAMP-29422)
 * 워크플로우에서 이벤트의 페이로드를 내보낼 수 없는 문제를 수정했습니다. (CAMP-29029)
-* SMS 차단 목록에 추가된 번호가 SMS 메시지에서 제외되지 않는 문제를 해결했습니다. (CAMP-28898)
+* 의 SMS 번호가 SMS 메시지에서 차단 목록 제외되지 않는 문제를 해결했습니다. (CAMP-28898)
 * 수신 메시지를 처리하는 동안 오류가 발생하는 경우 SMPP 공급자에 대한 알림을 받지 못하게 하는 문제가 해결되었습니다. (CAMP-29804)
 * 연결된 배달이 있는 외부 계정을 삭제할 수 있었던 문제를 수정했습니다. (CAMP-29738)
 * The sending throughput has been improved and stansued for SMS messages.
