@@ -12,9 +12,9 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -154,6 +154,7 @@ ht-degree: 100%
    * **[!UICONTROL 1 cardinality simple link]**: 소스 테이블의 발생 항목 하나는 타겟 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
    * **[!UICONTROL N cardinality collection link]**: 소스 테이블의 발생 항목 하나는 타겟 테이블의 여러 발생 항목을 가질 수 있지만, 타겟 테이블의 발생 항목 하나는 소스 테이블의 해당 발생 항목을 최대 한 개까지 가질 수 있습니다.
    * **[!UICONTROL 0 or 1 cardinality simple link]**: 소스 테이블의 발생 항목 하나는 타겟 테이블의 해당 발생 항목을 최대 한 개까지 가질 수도 있고 가질 수 없을 수도 있습니다. 이러한 종류의 **[!UICONTROL Link type]**&#x200B;은(는) 성능 문제를 일으킬 수 있습니다.
+
    ![](assets/schema_extension_29.png)
 
 1. **[!UICONTROL New link]** 화면에서 **[!UICONTROL Label]** 및 **[!UICONTROL ID]** 필드는 기본적으로 작성되지만 편집할 수 있습니다.
@@ -161,8 +162,6 @@ ht-degree: 100%
    >[!NOTE]
    >
    >최대 30자를 사용할 수 있습니다.
-
-   >[!IMPORTANT]
    >
    >생성 후에는 링크 이름을 바꿀 수 없습니다. 링크의 이름을 변경하려면 링크를 삭제하고 다시 만들어야 합니다.
 
@@ -178,6 +177,7 @@ ht-degree: 100%
 
    * **[!UICONTROL Use the primary key to make the join]**: 이 조인 정의를 사용하면 프로필 기본 키를 사용하여 구매의 기본 키와 조정할 수 있습니다.
    * **[!UICONTROL Define specific join conditions]**: 이 조인 정의를 사용하면 두 리소스를 모두 조인할 필드를 수동으로 선택할 수 있습니다. 데이터가 올바르게 구성되지 않으면 **구매** 레코드가 표시되지 않습니다.
+
    ![](assets/schema_extension_17.png)
 
 생성된 링크는 **[!UICONTROL Links]** 섹션의 목록에 표시됩니다.
