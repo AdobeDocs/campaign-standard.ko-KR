@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '5398'
+source-wordcount: '5400'
 ht-degree: 6%
 
 ---
@@ -89,7 +89,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 * 카메라 및 세로 모드에서 업로드한 사진이 원하지 않는 회전 위치로 표시되는 문제를 해결했습니다.
 * Creative Designer에서 쿼리 편집기 인터페이스를 사용할 때 선택 정보가 불명확하게 표시되는 문제를 해결했습니다.
 * Creative Designer에서 쿼리 편집기 인터페이스를 사용할 때 요소를 올바르게 복제할 수 없는 문제를 해결했습니다.
-* 자동 회신을 통해 구독이 취소되었음에도 불구하고 목록에 없는 수신자에게 SMS 메시지를 계속 전달하는 문제를 해결했습니다. (CAMP-27128)
+* 자동 답글을 통해 구독이 해지되었음에도 불구하고의 수신자에게 SMS 메시지를 계속 전달하던 문제가 차단 목록 해결되었습니다. (CAMP-27128)
 * 데이터베이스 정리 워크플로가 실패했던 오류를 **표시하지** 못하는 문제를 해결했습니다. (CAMP-26876)
 * 푸시 알림 정의에서 사용자 정의 필드가 삭제되지 않는 문제를 해결했습니다. (CAMP-25588)
 
