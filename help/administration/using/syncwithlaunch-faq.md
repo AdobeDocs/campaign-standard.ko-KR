@@ -12,9 +12,9 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: 5396772ca53740c78c5a7df3ef75d27b838de8a0
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 0%
 전용 기술 워크플로우를 통해 Adobe Launch 모바일 속성을 Adobe Campaign Standard으로 가져올 수 **[!UICONTROL Sync with Launch]** 있습니다. For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
 아래 섹션에는 이 동기화에 대한 일반적인 질문이 나와 있습니다.
-
->[!NOTE]
->
->You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the **[!UICONTROL syncWithLaunch]** technical workflow enabled in your Campaign instance.
 
 ## (조직 단위 ALL의 비관리 [!DNL Launch] 로) 속성을 만들었습니다. 내 애플리케이션이 Adobe Campaign에서 구성 준비 상태에 있지만 해당 상태를 열거나 구성할 수 없습니다. {#configuring-property}
 
