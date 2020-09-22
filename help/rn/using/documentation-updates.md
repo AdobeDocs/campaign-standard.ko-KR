@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
+source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
 workflow-type: tm+mt
-source-wordcount: '6228'
-ht-degree: 93%
+source-wordcount: '6215'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,8 @@ Control groups - [Read More](../../sending/using/control-group.md)
 외부 매개 변수를 사용한 작업 흐름을 호출하는 방법에 대한 섹션이 표현식 편집기에서 사용할 수 있는 새로운 기능으로 향상되었습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md)
 
 워크플로우당 사용할 활동 수의 워크플로우 우수 사례에 권장 사항이 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#number-activities)
+
+배달 우수 사례에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
 ## 설명서 업데이트 - 2020년 9월 {#doc-updates-september-2020}
 
@@ -176,7 +178,7 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 
 Adobe Campaign Standard/Adobe Experience Manager 통합 설명서를 업데이트 및 개선했습니다. [자세한 내용](../../integrating/using/configure-experience-manager.md)
 
-Campaign 이메일 디자이너 설명서 및 관련 페이지에 Adobe Creative SDK 사용 중단을 반영하여 업데이트했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
 
 이제 Campaign Standard 데이터 모델 모범 사례를 다루는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../developing/using/data-model-best-practices.md)
 
@@ -248,9 +250,9 @@ Campaign Standard에서 워크플로우를 사용하여 컨트롤 그룹을 만�
 
 API 설명서 세트를 Campaign Standard 설명서에 통합했습니다.[자세한 내용](../../api/using/get-started-apis.md)
 
-개인화된 이메일 만들기 시작 안내서를 이동 및 업데이트했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-get-started-with-emails.html)
+개인화된 이메일 시작하기 섹션이 이동 및 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-get-started-with-emails.html)
 
-게재 모범 사례 시작 가이드가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
+게재 모범 사례 시작 가이드가 업데이트되었습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
 데이터 모델을 Campaign Standard 설명서에 통합했습니다. [자세한 내용](../../developing/using/datamodel-audience.md)
 
@@ -266,13 +268,13 @@ Microsoft Dynamics 365 통합(GA) - [자세한 내용](../../integrating/using/w
 
 **이 릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-Campaign Standard 및 Campaign Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Adobe Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/content/help/kr/campaign/kb/campaign-privacy.html)
+GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
 
 트랜잭션 메시지 게시 프로세스를 설명하는 새로운 차트를 추가했습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
-게재 모범 사례 시작 안내서를 이동 및 업데이트했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
+게재 모범 사례 시작 안내서를 이동 및 업데이트했습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
 새로운 섹션을 추가했습니다. 새 섹션에서는 Campaign Standard 데이터베이스를 보강하는 다양한 방법에 대한 개요를 제공합니다. [자세한 내용](../../audiences/using/enriching-campaign-database.md)
 
@@ -610,7 +612,7 @@ Analytics에 있는 Campaign 지표 목록을 추가했습니다. [자세한 내
 
 푸시 알림에서 사용자 정의 필드를 사용하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-게재 모범 사례 단계별 안내서를 업데이트했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
+게재 모범 사례 단계별 안내서를 업데이트했습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
 추적 로그 유형에 대한 정보를 추가했습니다. [자세한 내용](../../sending/using/tracking-messages.md#tracking-logs)
 
