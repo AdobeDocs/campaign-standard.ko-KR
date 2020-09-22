@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
+source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign Standard은 두 가지 새로운 기계 학습 모델을 제공�
 >[!CAUTION]
 >이 기능은 제품의 일부로 즉시 사용할 수 없습니다. 구현하려면 Adobe 컨설팅 서비스가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >
->이 기능은 고객이 제공해야 하는 Azure 저장소의 사용이 필요합니다.
+>이 기능을 사용하려면 고객이 제공해야 하는 Azure 저장소를 사용해야 합니다.
 
 ## 예측 전송 시간 최적화{#predictive-send-time}
 
