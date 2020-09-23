@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -149,7 +149,7 @@ HTML 컨텐츠 템플릿은 **[!UICONTROL Resources]** 고급 메뉴의 **[!UICO
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="조각 정보"
->abstract="조각은 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다."
+>abstract="조각은 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 컨텐츠 블록입니다."
 
 조각은 하나 이상의 이메일에서 참조할 수 있는 재사용 가능한 구성 요소입니다.
 이러한 템플릿은 리소스 > **컨텐츠 조각** 및 템플릿 아래의 인터페이스에서 찾을 수 **있습니다**.
