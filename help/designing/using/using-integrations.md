@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '709'
 ht-degree: 6%
 
 ---
@@ -51,7 +51,7 @@ Experience Manager에서 이메일 컨텐츠를 편집한 다음 Adobe Campaign 
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="제품 목록 사용"
->abstract="제품 목록을 사용하면 이메일 컨텐츠에서 하나 이상의 데이터 컬렉션을 참조할 수 있습니다."
+>abstract="제품 목록을 사용하면 데이터 수집을 참조하고 이메일 컨텐츠에 표시할 수 있습니다."
 
 제품 목록을 사용하면 이메일 컨텐츠에서 하나 이상의 데이터 컬렉션을 참조할 수 있습니다. 이러한 목록은 트랜잭션 이메일에 사용할 수 있습니다. 이 기능에 대한 전용 섹션을 [여기에서 사용할 수 있습니다](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
