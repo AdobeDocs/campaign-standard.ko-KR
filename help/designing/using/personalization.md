@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2573'
 ht-degree: 3%
 
 ---
@@ -231,7 +231,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지 내에서 하�
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="동적 컨텐츠 정의"
->abstract="표현식 편집기를 통해 정의된 규칙에 따라 수신자에게 다양한 컨텐츠를 정의할 수 있습니다."
+>abstract="정의할 조건에 따라서만 일부 프로필에 표시되는 서로 다른 컨텐츠를 정의합니다."
 
 이메일에서 표현식 편집기를 통해 정의된 조건에 따라 수신자에게 동적으로 표시되는 다양한 컨텐츠를 정의할 수 있습니다. 예를 들어 동일한 이메일에서 각 프로필의 연령 범위에 따라 다른 메시지를 수신하도록 할 수 있습니다.
 
@@ -338,7 +338,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지 내에서 하�
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="동적 이미지 관리"
->abstract="표현식 편집기를 통해 정의된 규칙에 따라 다이내믹한 이미지로 이메일을 개인화합니다."
+>abstract="정의할 조건에 따라 다이내믹한 이미지로 이메일을 개인화합니다."
 
 이 예에서 이미지에 적용된 동적 컨텐츠는 다음과 같이 구성됩니다.
 
