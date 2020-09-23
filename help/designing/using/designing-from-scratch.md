@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -46,12 +46,12 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="구조 구성 요소 정보"
->abstract="이메일의 레이아웃을 정의하는 구조 요소입니다."
+>abstract="구조 구성 요소는 이메일의 레이아웃을 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="이메일 열 정의"
->abstract="이메일 디자이너를 사용하면 이메일의 열 구조를 쉽게 정의할 수 있습니다."
+>abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 이메일의 레이아웃을 쉽게 정의할 수 있습니다."
 
 이메일 디자이너는 이메일의 구조를 쉽게 정의할 수 있도록 해줍니다. 간단한 드래그 앤 드롭 동작으로 구조적 요소를 추가하고 이동하여 몇 초 안에 이메일 모양을 디자인할 수 있습니다.
 
@@ -111,7 +111,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="컨텐츠 구성 요소 정보"
->abstract="컨텐츠 구성 요소는 원시 빈 구성 요소로서, 한 번 이메일에 배치되면 편집할 수 있습니다."
+>abstract="컨텐츠 구성 요소는 이메일을 만들기 위해 편집할 수 있는 빈 컨텐츠 자리 표시자입니다."
 
 컨텐츠 구성 요소는 원시 빈 구성 요소로서, 한 번 이메일에 배치되면 편집할 수 있습니다.
 
@@ -164,7 +164,9 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="비디오 설정"
->abstract="이 구성 요소를 사용하여 이메일에 비디오를 삽입합니다."
+>abstract="이 구성 요소를 사용하여 이메일에 비디오를 삽입합니다. 일부 이메일 클라이언트에서 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="추가 정보"
+
 
 비디오 구성 요소를 이메일의 구조 구성 요소에 삽입하고 에 비디오 링크를 입력합니다 **[!UICONTROL Component Settings]**.
 
@@ -187,7 +189,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="회전판 설정"
->abstract="콘텐츠에 회전판을 삽입하고 구성하는 방법을 알아봅니다."
+>abstract="컨텐츠에 회전판을 삽입하고 구성하는 방법에 대해 학습합니다.일부 이메일 클라이언트에서 회전판을 사용할 수 없으며 지원되지 않는 경우에 대비한 이미지가 표시됩니다."
 
 1. 구성 요소를 구조 구성 요소 안에 **[!UICONTROL Carousel]** 드래그하여 놓습니다.
 1. 컴퓨터에서 이미지를 찾아 선택합니다.
