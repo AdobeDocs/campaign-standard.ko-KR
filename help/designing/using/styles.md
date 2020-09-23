@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796490350855213578808651cd18df24b1d3f2d1
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 2%
+source-wordcount: '1052'
+ht-degree: 1%
 
 ---
 
@@ -107,7 +107,8 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="배경 설정"
->abstract="이메일 디자이너를 사용하면 콘텐츠의 배경색 또는 배경 이미지를 개인화할 수 있습니다."
+>abstract="이메일 디자이너를 사용하면 콘텐츠의 배경색 또는 배경 이미지를 맞춤화할 수 있습니다.배경 이미지는 일부 이메일 클라이언트에서 지원되지 않습니다."
+>additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="추가 정보"
 
 이메일 디자이너와 배경을 설정하는 경우 Adobe에서 다음을 권장합니다.
 
