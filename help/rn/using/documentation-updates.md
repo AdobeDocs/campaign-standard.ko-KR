@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '6215'
-ht-degree: 92%
+source-wordcount: '6247'
+ht-degree: 91%
 
 ---
 
@@ -41,6 +41,8 @@ Control groups - [Read More](../../sending/using/control-group.md)
 워크플로우당 사용할 활동 수의 워크플로우 우수 사례에 권장 사항이 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#number-activities)
 
 배달 우수 사례에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
+
+상태 및 마지막 이벤트 수신 시간에 따라 이벤트 구성을 검색할 수 있는 새로운 필터를 설명하는 섹션이 추가되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## 설명서 업데이트 - 2020년 9월 {#doc-updates-september-2020}
 
