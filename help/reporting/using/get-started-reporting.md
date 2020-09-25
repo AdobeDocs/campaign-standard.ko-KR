@@ -1,6 +1,6 @@
 ---
 title: 동적 보고 시작하기
-description: 동적 보고서를 사용하면 변수 및 차원을 자유 형식 환경으로 드래그 앤 드롭하여 캠페인의 성공을 분석할 수 있습니다.
+description: Campaign 내장 배달 보고서에 액세스하고, 변수 및 차원을 드래그하여 놓아 새 동적 보고서를 만들고, 캠페인의 성공을 분석합니다.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 787d1cb906acfba5887e6090f1d6b854bd096b0c
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 12%
 
 ---
