@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 관리 시작
-description: Adobe Campaign은 완벽한 관리 툴을 제공합니다. 사용자를 관리하고 채널을 구성하는 방법을 알아봅니다.
+description: 사용자를 관리하고 역할을 정의하며 권한을 부여하는 방법을 알아봅니다.모니터링 지침, 채널별 구성 및 대상 매핑, 기술 워크플로우, 브랜딩, 데이터 유지 등과 같은 애플리케이션 설정에 대해 알아보십시오.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '666'
 ht-degree: 14%
 
 ---
@@ -43,14 +43,14 @@ ht-degree: 14%
 
 사용할 수 있는 다양한 메뉴는 다음과 같습니다.
 
-* [사용자 및 보안](../../administration/using/about-access-management.md): 이 메뉴를 사용하면 플랫폼(사용자, 역할, 보안 그룹, 단위)에 대한 액세스를 관리할 수 있습니다.
-* [채널](../../administration/using/about-channel-configuration.md): 이 메뉴는 유형 및 격리 관리뿐만 아니라 다양한 플랫폼 채널(이메일, SMS)에 연결된 기술 매개 변수를 다시 그룹화합니다.
-* [애플리케이션 설정](../../administration/using/external-accounts.md): 이 메뉴를 사용하면 다른 애플리케이션 요소(외부 계정, 옵션, 기술 워크플로우)를 구성할 수 있습니다.
-* [개발](../../developing/using/data-model-concepts.md): 이 메뉴를 사용하면 사용자 지정 리소스를 관리하고 진단 도구에 액세스할 수 있습니다.
-* [인스턴스 설정](../../administration/using/branding.md): 이 메뉴에서는 다른 브랜드를 정의하고 해당 설정(로고, 추적 관리, 랜딩 페이지에 액세스하기 위한 URL 도메인 등)을 구성합니다.
-* [배포](../../automating/using/managing-packages.md): 이 메뉴는 패키지 가져오기 및 내보내기 옵션을 다시 그룹화합니다.
-* [고객 지표](../../audiences/using/active-profiles.md): Adobe Campaign은 활성 프로필 수를 표시하는 보고서를 제공합니다. 이 보고서는 단지 유익할 뿐, 대금 청구에는 직접적인 영향을 주지 않습니다.
-* [개인 정보 보호 도구](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html): 이 메뉴를 사용하면 GDPR 액세스를 만들고 요청을 삭제하고 진행 상황을 추적할 수 있습니다.
+* [사용자 및 보안](../../administration/using/about-access-management.md):이 메뉴를 사용하면 플랫폼(사용자, 역할, 보안 그룹, 단위)에 대한 액세스를 관리할 수 있습니다.
+* [채널](../../administration/using/about-channel-configuration.md):이 메뉴는 유형 및 격리 관리뿐만 아니라 다양한 플랫폼 채널(이메일, 모바일)에 연결된 기술 매개 변수를 다시 그룹화합니다.
+* [애플리케이션 설정](../../administration/using/external-accounts.md):이 메뉴를 사용하면 다른 애플리케이션 요소(외부 계정, 옵션, 기술 워크플로우)를 구성할 수 있습니다.
+* [개발](../../developing/using/data-model-concepts.md):이 메뉴를 사용하면 사용자 지정 리소스를 관리하고 진단 도구에 액세스할 수 있습니다.
+* [인스턴스 설정](../../administration/using/branding.md):이 메뉴에서는 다른 브랜드를 정의하고 해당 설정(로고, 추적 관리, 랜딩 페이지에 액세스하기 위한 URL 도메인 등)을 구성합니다.
+* [배포](../../automating/using/managing-packages.md):이 메뉴는 패키지 가져오기 및 내보내기 옵션을 다시 그룹화합니다.
+* [고객 지표](../../audiences/using/active-profiles.md):Adobe Campaign은 활성 프로필 수를 표시하는 보고서를 제공합니다. 이 보고서는 단지 유익할 뿐, 대금 청구에는 직접적인 영향을 주지 않습니다.
+* [개인 정보 보호 도구](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html):이 메뉴를 사용하면 GDPR 액세스를 만들고 요청을 삭제하고 진행 상황을 추적할 수 있습니다.
 
 ## 사용자 및 보안 {#users-security}
 
@@ -75,7 +75,7 @@ ht-degree: 14%
 
 메시지를 효과적으로 보낼 수 있도록 Adobe Campaign의 모든 통신 채널을 올바르게 구성해야 합니다. 메뉴를 사용하면 여러 채널에 연결된 기술 매개 변수를 관리할 수 있습니다. **[!UICONTROL Channel]**
 
-다양한 **이메일** 매개 변수 구성: 바운스, 검역소, 이메일 속성 및 라우팅 매개 변수에 대한 처리 규칙, typoly 규칙. SMS **채널과 SMS** 인코딩 및 포맷에 대한 라우팅 구성 및 속성을 정의합니다.
+다양한 **이메일** 매개 변수 구성:바운스, 검역소, 이메일 속성 및 라우팅 매개 변수에 대한 처리 규칙, typoly 규칙. SMS **채널과 SMS** 인코딩 및 포맷에 대한 라우팅 구성 및 속성을 정의합니다.
 
 Adobe Experience Platform SDK를 사용하여 인앱 메시지 및 푸시 알림을 전송할 수 있도록 **모바일 애플리케이션을** 설정하고 이벤트를 만들고 설정하여 **트랜잭션 메시지를** 구성할 수 있습니다.
 
@@ -106,7 +106,7 @@ Campaign Standard에는 요구 사항에 맞게 구성할 수 있는 다양한 �
 * [브랜딩](../../administration/using/branding.md)
 * [내부 알림 보내기](../../administration/using/sending-internal-notifications.md)
 
-## 추가 자료
+## 추가 리소스
 
 * [사용자 액세스 권한 관리(비디오)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
