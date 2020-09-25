@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign에서 컨텐츠 디자인
-description: Adobe Campaign에서 컨텐츠에서 정의할 수 있는 모든 요소에 대해 알아봅니다.
+description: 캠페인 이메일 디자이너를 사용하면 드래그 앤 드롭 인터페이스에서 개별적으로 맞춤화된 매력적인 이메일을 만들 수 있습니다. 빈 서판부터 시작하거나 기존 컨텐츠 조각 또는 템플릿을 활용하여 모든 이메일 컨텐츠를 디자인하고 세분화할 수 있습니다
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1162'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 Adobe Campaign에서 이메일을 만든 후에는 해당 컨텐츠를 정의해야 합니다.
 
-이메일 디자이너는 기본 Creative Cloud 통합으로 드래그 앤 드롭 인터페이스를 통해 개별적으로 개인화된 매력적인 이메일을 만들 수 있습니다. 처음부터 빈 화면으로 시작하거나 기존 컨텐츠 조각 또는 템플릿을 활용하는 경우 홍보 또는 거래 방식으로 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
+이메일 디자이너는 드래그 앤 드롭 인터페이스에서 개인화된 매력적인 이메일을 만들 수 있습니다. 처음부터 빈 화면으로 시작하거나 기존 컨텐츠 조각 또는 템플릿을 활용하는 경우 홍보 또는 거래 방식으로 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
 
 반응형 디자인에 최적화된 HTML을 전달하기 위해 구축된 이메일 디자이너는 가시성 조건과 동적 컨텐츠를 사용자 인터페이스를 통해 이메일, 템플릿 또는 단편에 손쉽게 정의하고 적용할 수 있습니다. 버튼을 클릭하면 드래그 앤 드롭 인터페이스와 HTML 코드 간에 원활하게 전환할 수 있습니다.
 
