@@ -1,6 +1,6 @@
 ---
 title: 소통 채널 시작
-description: 다양한 채널에서 개인화된 메시지를 보내고 수신자를 효과적으로 타겟팅할 수 있는 크로스채널 캠페인을 제작하는 방법을 살펴볼 수 있습니다.
+description: 다양한 채널(이메일, 푸시 알림, inApp, SMS 및 DM)에서 개인화된 메시지를 만드는 방법을 알아봅니다. 템플릿 사용, 랜딩 페이지 제작, 전달 모범 사례 확인 방법을 살펴볼 수 있습니다.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 16%
+source-wordcount: '532'
+ht-degree: 15%
 
 ---
 
