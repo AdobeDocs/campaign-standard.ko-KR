@@ -12,9 +12,9 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '3059'
+source-wordcount: '3169'
 ht-degree: 7%
 
 ---
@@ -201,12 +201,6 @@ Adobe Campaign이 이 이벤트 구성과 관련된 이벤트를 수신하기 �
 
 이벤트(JSON 형식)는 가장 최근 것부터 가장 오래된 것부터 가장 오래된 것까지 나열됩니다. 이 목록에서는 제어 및 디버깅 목적으로 컨텐츠나 이벤트 상태와 같은 데이터를 확인할 수 있습니다.
 
-### 트랜잭션 메시지 게시 프로세스 {#transactional-messaging-pub-process}
-
-아래 차트는 트랜잭션 메시지 게시 프로세스를 보여줍니다.
-
-![](assets/message-center_pub-process.png)
-
 ### 이벤트 게시 취소 {#unpublishing-an-event}
 
 이 **[!UICONTROL Unpublish]** 단추를 사용하면 이전에 만든 이벤트에 해당하는 리소스를 REST API에서 삭제하는 이벤트 게시를 취소할 수 있습니다. 이제 웹 사이트를 통해 이벤트가 트리거되더라도 해당 메시지는 더 이상 전송되지 않고 데이터베이스에 저장되지 않습니다.
@@ -218,6 +212,14 @@ Adobe Campaign이 이 이벤트 구성과 관련된 이벤트를 수신하기 �
 >해당 트랜잭션 메시지를 이미 게시한 경우 트랜잭션 메시지 게시가 취소됩니다. See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 단추를 **[!UICONTROL Publish]** 클릭하여 새 REST API를 생성합니다.
+
+### 트랜잭션 메시지 게시 프로세스 {#transactional-messaging-pub-process}
+
+아래 차트는 트랜잭션 메시지 게시 프로세스를 보여줍니다.
+
+![](assets/message-center_pub-process.png)
+
+트랜잭션 메시지 게시, 일시 중지 및 게시 취소에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
 ### 이벤트 삭제 {#deleting-an-event}
 
@@ -240,13 +242,31 @@ Adobe Campaign이 이 이벤트 구성과 관련된 이벤트를 수신하기 �
 >
 >게시되고 이미 사용된 이벤트 구성을 삭제하면 해당 트랜잭션 메시지와 해당 전송 및 추적 로그도 삭제됩니다.
 
+## 트랜잭션 이벤트 검색 {#searching-transactional-events}
+
+이미 만든 트랜잭션 이벤트에 액세스하고 검색하려면 아래 단계를 따르십시오.
+
+1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Show search]** 버튼을 클릭합니다.
+
+   ![](assets/message-center_search-events.png)
+
+1. 을 필터링할 수 있습니다 **[!UICONTROL Publication status]**. 이렇게 하면 게시된 이벤트(예:
+1. 이벤트를 **[!UICONTROL Last event received]** 예를 들어 10을 입력하면 10일 이전에 받은 마지막 이벤트가 있는 이벤트 구성만 표시됩니다. 이렇게 하면 지정된 기간 동안 비활성화된 이벤트를 표시할 수 있습니다.
+
+   ![](assets/message-center_last-event-received.png)
+
+   >[!NOTE]
+   >
+   >기본값은 0입니다. 그러면 모든 이벤트가 표시됩니다.
+
 ## 웹 사이트에서 이벤트 트리거 통합 {#integrating-the-triggering-of-the-event-in-a-website}
 
 이벤트를 만든 후에는 이 이벤트의 트리거가 웹 사이트에 통합되어야 합니다.
 
 트랜잭션 메시지 [운영 원칙](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 섹션에 설명된 예에서, 클라이언트 중 한 명이 장바구니에서 제품을 구매하기 전에 웹 사이트를 떠날 때마다 &quot;장바구니 포기&quot; 이벤트를 트리거할 수 있습니다. 이렇게 하려면 웹 사이트 웹 개발자가 Adobe Campaign Standard REST API를 사용해야 합니다.
 
-REST [API 설명서를 참조하십시오](../../api/using/managing-transactional-messages.md) .
+REST [API 설명서를 참조하십시오](../../api/using/managing-transactional-messages.md).
 
 ## 트랜잭션 이벤트 관련 구성 {#transactional-event-specific-configurations}
 
