@@ -1,6 +1,6 @@
 ---
 title: 프로세스 및 데이터 관리 시작하기
-description: Adobe Campaign은 프로세스를 설계 및 자동화할 수 있는 포괄적인 그래픽 환경을 제공합니다.
+description: Adobe Campaign의 워크플로우 기능을 활용하여 강력하고 포괄적인 그래픽 환경을 통해 프로세스를 자동화할 수 있습니다. 데이터 로드, 고객 관리, 메시지 전송, 데이터 관리 주기 구현, 기술 프로세스 자동화 등에 대해 알아봅니다.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 7%
+source-wordcount: '539'
+ht-degree: 8%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe Campaign은 세분화, 캠페인 실행, 파일 처리 등 복잡한 프�
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-쿼리 **편집기를** 활용하여 데이터베이스의 데이터를 필터링하고 수신자를 보다 정확하게 타겟팅할 수 있도록 모집단을 구성합니다. 쿼리 편집기를 사용하여 Campaign Standard에서 여러 작업을 수행할 수 있습니다. 워크플로우 활동에서 쿼리 유형 대상을 만들거나 전달 대상 또는 모집단을 정의할 수 있습니다.
+쿼리 **편집기를** 활용하여 데이터베이스의 데이터를 필터링하고 수신자를 보다 정확하게 타겟팅할 수 있도록 모집단을 구성합니다. 쿼리 편집기를 사용하여 Campaign Standard에서 여러 작업을 수행할 수 있습니다.워크플로우 활동에서 쿼리 유형 대상을 만들거나 전달 대상 또는 모집단을 정의할 수 있습니다.
 
 쿼리 편집기에는 **사전 정의된 필터와 규칙이** 포함되어 있어 빠르고 쉽게 필터링할 수 있습니다. 그러나 **고급 표현식 편집** 기능을 사용할 수도 있습니다. 따라서 고유한 규칙을 구성하기 위해 조건을 수동으로 입력하고 함수를 사용할 수 있습니다.
 
@@ -92,8 +92,8 @@ Campaign Standard에는 데이터를 가져오고 내보내는 데 필요한 여
 * [데이터 가져오기 및 내보내기](../../automating/using/about-data-import-and-export.md)
 * [사용 사례: 사용자 정의 리소스 내보내기/가져오기](../../automating/using/exporting-importing-custom-resources.md)
 
-## 추가 자료
+## 추가 리소스
 
 * [프로세스 및 데이터 관리 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [기술 워크플로우](../../administration/using/technical-workflows.md)
-* [Campaign Standard 데이터 모델 시작하기](../../developing/using/get-started-data-model.md)
+* [Campaign Standard 데이터 모델 시작](../../developing/using/get-started-data-model.md)
