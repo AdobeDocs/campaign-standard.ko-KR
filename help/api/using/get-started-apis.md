@@ -1,6 +1,6 @@
 ---
-title: Campaign Standard API 시작하기
-description: Campaign Standard API에 대한 자세한 내용을 살펴보십시오.
+title: Campaign Standard API 시작
+description: Campaign Standard API는 사용자가 사용하는 기술 패널과 Campaign을 연계하여 통합을 만들고 고유한 에코시스템을 구축할 수 있도록 하는 데 목적이 있습니다.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,17 +12,17 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 9%
+source-wordcount: '244'
+ht-degree: 15%
 
 ---
 
 
-# Get started with Campaign Standard APIs {#get-started-apis}
+# Campaign Standard API 시작 {#get-started-apis}
 
-Campaign Standard API는 Adobe Campaign Standard **를 위한 통합을** 만들고 사용하는 기술 패널과 Adobe Campaign Standard을 상호 연결하여 고유한 에코시스템을 **** 구축할 수 있도록 하기 위해 고안되었습니다.
+Campaign Standard API는 사용자가 사용하는 기술 패널과 Adobe Campaign Standard을 **연결하여 Adobe Campaign Standard** 용 통합 **을 만들고 고유한 에코시스템을** 구축할 수 있도록 하기 위한 것입니다.
 
 Adobe Campaign Standard API를 사용하면 다음 기능에 액세스할 수 있습니다.
 
@@ -34,7 +34,7 @@ Adobe Campaign Standard API를 사용하면 다음 기능에 액세스할 수 �
 </tr>
 <tr>
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="조건" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">개인 정보 관리</a></p></td>
-<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="조건" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">트랜잭션 메시지</a></p></td>
+<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="조건" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">트랜잭션 메시지 </a></p></td>
 <td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="조건" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">워크플로우</a></p></td>
 <td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="조건" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">조직 단위</a></p></td>
 </tr></table>
