@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 데이터 모델 시작
-description: 내장된 데이터 모델 설명에 액세스하고, 사용자 정의 필드 및 리소스로 Campaign Standard 데이터 모델을 확장하며, 모든 데이터 모델 변경 사항을 하나의 뷰로 모니터링할 수 있습니다.
+description: 사용자 정의 필드 및 리소스로 Campaign Standard 데이터 모델을 강화하고 REST API를 확장하여 확장된 필드를 표시할 수 있습니다.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 15%
+source-wordcount: '350'
+ht-degree: 16%
 
 ---
 
