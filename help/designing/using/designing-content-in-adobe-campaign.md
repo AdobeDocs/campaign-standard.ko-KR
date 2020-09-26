@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign에서 컨텐츠 디자인
-description: Campaign Email Designer를 사용하면 빈 슬레이트에서 시작하는 이메일 컨텐츠를 만들거나 기존 컨텐츠 조각 또는 템플릿을 활용할 수 있습니다.
+description: 처음부터 이메일 컨텐츠 제작, HTML 가져오기 또는 기존 템플릿 활용
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1138'
 ht-degree: 4%
 
 ---
