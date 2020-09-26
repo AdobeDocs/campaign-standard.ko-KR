@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign에서 컨텐츠 디자인
-description: 캠페인 이메일 디자이너를 사용하면 드래그 앤 드롭 인터페이스에서 개별적으로 맞춤화된 매력적인 이메일을 만들 수 있습니다. 빈 서판부터 시작하거나 기존 컨텐츠 조각 또는 템플릿을 활용하여 모든 이메일 컨텐츠를 디자인하고 세분화할 수 있습니다
+description: Campaign Email Designer를 사용하면 빈 슬레이트에서 시작하는 이메일 컨텐츠를 만들거나 기존 컨텐츠 조각 또는 템플릿을 활용할 수 있습니다.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1145'
 ht-degree: 4%
 
 ---
