@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 시작
-description: Adobe Campaign의 고급 캠페인 관리 기능과 Adobe Analytics, Experience Manager, Target, Dreamweaver 등과 같은 사용자 경험을 개인화할 수 있는 일련의 솔루션을 결합하는 방법을 살펴볼 수 있습니다.
+description: 다른 Adobe 솔루션을 사용하여 다양한 기능을 Campaign과 결합할 수 있습니다.
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '632'
 ht-degree: 7%
 
 ---
