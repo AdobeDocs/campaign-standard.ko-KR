@@ -1,6 +1,6 @@
 ---
 title: 테스트 및 보내기 시작
-description: 메시지 준비 및 테스트, 일정, 전송 및 모니터링, 오류 및 격리 관리 이해, 전달 능력 최적화 등의 방법을 살펴볼 수 있습니다.
+description: 메시지 준비, 테스트, 예약, 전송 및 모니터링
 page-status-flag: never-activated
 uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '573'
 ht-degree: 11%
 
 ---
