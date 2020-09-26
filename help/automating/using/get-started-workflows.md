@@ -1,6 +1,6 @@
 ---
 title: 프로세스 및 데이터 관리 시작하기
-description: 워크플로우, 데이터 로드, 고객 관리, 메시지 전송, 데이터 관리 주기 구현, 기술 프로세스 자동화 등을 통해 프로세스를 자동화할 수 있습니다.
+description: 워크플로우를 통해 프로세스를 자동화하고 데이터 및 고객을 관리하며 메시지 전송 등을 할 수 있습니다.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '519'
 ht-degree: 8%
 
 ---
