@@ -1,6 +1,6 @@
 ---
 title: 프로필 및 대상자 시작
-description: Adobe Campaign의 프로필 및 고객 관리에 대해 자세히 알아보십시오. 타깃팅된 모집단을 정의하고 대상을 선택하고 수신자를 필터링하며 데이터를 수집하고 프로필을 업데이트합니다.
+description: 타깃팅된 모집단을 정의하고 대상을 선택하고 수신자를 필터링하며 데이터를 수집하고 프로필을 업데이트합니다.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 7%
+source-wordcount: '604'
+ht-degree: 8%
 
 ---
 
