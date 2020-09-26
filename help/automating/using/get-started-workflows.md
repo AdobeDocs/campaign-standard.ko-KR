@@ -1,6 +1,6 @@
 ---
 title: 프로세스 및 데이터 관리 시작하기
-description: Adobe Campaign의 워크플로우 기능을 활용하여 강력하고 포괄적인 그래픽 환경을 통해 프로세스를 자동화할 수 있습니다. 데이터 로드, 고객 관리, 메시지 전송, 데이터 관리 주기 구현, 기술 프로세스 자동화 등에 대해 알아봅니다.
+description: 워크플로우, 데이터 로드, 고객 관리, 메시지 전송, 데이터 관리 주기 구현, 기술 프로세스 자동화 등을 통해 프로세스를 자동화할 수 있습니다.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '526'
 ht-degree: 8%
 
 ---
