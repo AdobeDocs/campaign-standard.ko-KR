@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard API 시작
-description: Campaign Standard API는 사용자가 사용하는 기술 패널과 Campaign을 연계하여 통합을 만들고 고유한 에코시스템을 구축할 수 있도록 하는 데 목적이 있습니다.
+description: Adobe Campaign과 다양한 기술의 통합을 통해 고유한 에코시스템을 구축할 수 있습니다.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '233'
 ht-degree: 15%
 
 ---
