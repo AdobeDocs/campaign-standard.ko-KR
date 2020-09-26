@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 관리 시작
-description: 사용자를 관리하고 역할을 정의하며 권한을 부여하는 방법을 알아봅니다.모니터링 지침, 채널별 구성 및 대상 매핑, 기술 워크플로우, 브랜딩, 데이터 유지 등과 같은 애플리케이션 설정에 대해 알아보십시오.
+description: 사용자 및 권한 관리, 모니터링 지침, 채널별 구성 및 애플리케이션 설정 지침 등을 살펴볼 수 있습니다.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '650'
 ht-degree: 14%
 
 ---
