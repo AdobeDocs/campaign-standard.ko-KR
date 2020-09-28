@@ -12,11 +12,11 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,10 @@ ht-degree: 100%
 
 파란색 세로선은 현재 날짜를 강조 표시하는 시간 표시기입니다. 기본적으로 화면 중간에 있습니다. 화면 내에서 오른쪽 또는 왼쪽으로 스크롤하여 표시되는 기간을 수정할 수 있습니다.
 
-![](assets/timeline_zoom_in.png) 및 ![](assets/timeline_zoom_out.png) 버튼을 사용하여 둘레를 늘리거나 줄일 수 있습니다. 또한 ![](assets/timeline_zoom_in.png) 버튼을 사용하면 날짜가 표시될 때까지 더 제한된 기간 동안 세부 정보 수준을 높이고 ![](assets/timeline_zoom_out.png) 버튼을 사용하면 더 광범위한 기간을 표시할 수 있습니다.
+아이콘을 사용하여 다음을 수행합니다.
+
+* ![](assets/timeline_zoom_in.png) 일 수가 표시될 때까지 주변 공간을 줄이거나 세부 정보 수준을 더 제한된 기간 동안 늘립니다.
+* ![](assets/timeline_zoom_out.png) 주변 공간을 늘리거나 더 큰 기간을 표시합니다.
 
 각 프로그램 이름의 오른쪽에 있는 화살표를 클릭하여 해당 콘텐츠를 표시합니다. 프로그램에는 하위 프로그램, 캠페인 및 랜딩 페이지가 포함될 수 있습니다. 캠페인은 프로그램과 동일한 방식으로 배포되며 이메일, SMS 및 랜딩 페이지를 포함할 수 있습니다.
 
@@ -49,12 +52,12 @@ ht-degree: 100%
 
 각 요소에는 각 유형에 해당하는 아이콘이 있습니다.
 
-* ![](assets/timeline_program_icon.png) : 프로그램
-* ![](assets/timeline_campaign_icon.png) : 캠페인
-* ![](assets/timeline_lp_icon.png) : 랜딩 페이지
-* ![](assets/timeline_email_icon.png) : 이메일
-* ![](assets/timeline_sms_icon.png) : SMS
-* ![](assets/timeline_push_icon.png) : 푸시 알림
+* ![](assets/timeline_program_icon.png) 프로그램
+* ![](assets/timeline_campaign_icon.png) 캠페인
+* ![](assets/timeline_lp_icon.png) 랜딩 페이지
+* ![](assets/timeline_email_icon.png) 이메일
+* ![](assets/timeline_sms_icon.png) SMS
+* ![](assets/timeline_push_icon.png) 푸시 알림
 
 각 상자의 왼쪽 테두리에 있는 색상 선은 관련 요소의 상태를 나타냅니다.
 
