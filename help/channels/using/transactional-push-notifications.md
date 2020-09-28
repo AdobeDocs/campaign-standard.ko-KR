@@ -12,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 13%
@@ -72,6 +72,7 @@ The configuration steps are presented in the [Configuring an event to send a tra
    푸시 알림 컨텐츠 편집에 대한 자세한 내용은 푸시 알림 [만들기를 참조하십시오](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 1. 변경 내용을 저장하고 메시지를 게시합니다. [트랜잭션 메시지 게시](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)를 참조하십시오.
+
 1. Adobe Campaign Standard REST API를 사용하여, Android(WeFlight)의 한 모바일 응용 프로그램(WeFlight)을 사용하여 보딩 데이터가 포함된 이벤트를 등록 토큰(ABCDEF123456789)으로 전송합니다.
 
    ```
@@ -114,13 +115,9 @@ The configuration steps are presented in the [Configuring an event to send a tra
 
 1. 만든 트랜잭션 메시지로 이동하여 편집합니다. [이벤트 트랜잭션 메시지](../../channels/using/event-transactional-messages.md)를 참조하십시오.
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
    실시간 이벤트 기반의 구성과 달리 모든 프로필 정보에 직접 액세스하여 메시지를 개인화할 수 있습니다. [개인화 필드 삽입](../../designing/using/personalization.md#inserting-a-personalization-field)을 참조하십시오.
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    푸시 알림 컨텐츠 편집에 대한 자세한 내용을 살펴보십시오. 푸시 [알림 만들기를 참조하십시오](../../channels/using/preparing-and-sending-a-push-notification.md).
 
@@ -142,4 +139,3 @@ The configuration steps are presented in the [Configuring an event to send a tra
    >[!NOTE]
    >
    >등록 토큰, 응용 프로그램 및 푸시 플랫폼 필드가 없습니다. 이 예에서는 이메일 필드를 사용하여 조정이 수행됩니다.
-
