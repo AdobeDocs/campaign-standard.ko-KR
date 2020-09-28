@@ -12,10 +12,10 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 80%
+source-wordcount: '222'
+ht-degree: 53%
 
 ---
 
@@ -34,8 +34,18 @@ Adobe Campaign에서는 일련의 **서비스**&#x200B;를 통해 뉴스레터 �
 
 Adobe Campaign Standard API를 사용하여 구독을 관리할 수도 있습니다. 자세한 내용은 [전용 설명서](../../api/using/creating-a-service.md)를 참조하십시오.
 
-**관련 항목**
+## 가입 설정 및 관리를 위한 주요 단계
+
+구독 메커니즘을 만들려면 아래 절차를 따르십시오.
+
+1. **서비스** 만들기 - 이 섹션 [에 설명된 단계에 따라 구독 서비스를 만듭니다](../../audiences/using/creating-a-service.md)
+1. **링크** 공유 - 이 페이지 [에서 서비스를 홍보하고 공유하는 방법 학습](../../audiences/using/promoting-a-service.md)
+1. **가입 모니터링** - 이 섹션에서 서비스에 대한 가입 [을 모니터링할 수 있는 여러 가지 방법 살펴보기](../../audiences/using/monitoring-subscriptions.md)
+1. **구독 확인** - [이 자습서에](../../audiences/using/confirming-subscription-to-a-service.md) 따라 구독 확인 메시지를 보냅니다.
+
+## 추가 리소스
 
 * [사용 사례:서비스 가입자에 대한 증분 쿼리](../../automating/using/incremental-query-on-subscribers.md)
 * [사용 사례:파일에서 여러 구독 상태 업데이트](../../automating/using/updating-subscriptions-from-file.md)
 * [파일을 가져온 후 특정 서비스에 프로필 가입](../../automating/using/subscribing-profiles-from-file.md)
+* [캠페인 옵트인 및 옵트아웃](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
