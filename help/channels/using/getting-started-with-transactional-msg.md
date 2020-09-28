@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 26%
 
 ## 개요
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><p>트랜잭션 메시지 기능의 개념 <b>소개</b></p></td>
-<td ><br><p>트랜잭션 메시지를 통해 고객에게 실시간으로 개별 메시지 <b>및 고유한 메시지를</b> 보낼 수 있습니다.</p></td>
-<td>환영 메시지, 주문 확인, 암호 변경 등이 가능합니다.</td>
-<td>Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메시지로 변환할 이벤트를 전송하는 정보 시스템과 통합할 수 있습니다.</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+트랜잭션 메시지 기능의 개념 **소개**
+
+트랜잭션 메시지를 통해 고객에게 실시간으로 개인화된 메시지를 보낼 수 있습니다.
+
+환영 메시지, 주문 발송 확인, 암호 업데이트 등이 가능합니다.
+Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메시지로 변환할 이벤트를 전송하는 정보 시스템과 통합할 수 있습니다.
 
 트랜잭션 메시지는 옵션에 따라 이메일, SMS 또는 푸시 알림으로 보낼 수 있습니다. 사용권 계약을 확인하십시오.
 
@@ -73,16 +73,30 @@ Adobe Campaign은 다른 배달보다 트랜잭션 메시지 처리에 우선 �
 
 Adobe Campaign에서는 두 가지 유형의 트랜잭션 메시지를 사용할 수 있습니다.
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">이벤트 트랜잭션 메시지</a><br><b>는 이벤트를 타겟팅합니다</b></p></td>
-<td><p><ul><li>이벤트 트랜잭션 메시지에 프로필 정보가 없습니다.</li><li>또한 <a href="../../sending/using/fatigue-rules.md">피로 규칙과는</a> 호환하지 않습니다(프로파일을 사용한 경우에도).</li><li>전달 대상은 이벤트 자체에 포함된 데이터로 정의됩니다.</li></ul></p></td>
-</tr>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">Adobe Campaign 마케팅</a><br>데이터베이스의 트랜잭션 메시지 <b>타깃팅 프로필 프로필 프로필</b></p></td>
-<td><p>트랜잭션 메시지를 프로파일링하여 다음을 수행할 수 있습니다.<ul><li>Apply marketing <a href="../../sending/using/managing-typology-rules.md">typology rules</a> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>메시지에 구독 취소 링크를 포함합니다.</li><li>트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.</li><li>트랜잭션 메시지를 고객 여정에 활용합니다.</li></ul></p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_event.svg" width="60px">
+
+[이벤트 트랜잭션 메시지](../../channels/using/event-transactional-messages.md)는 이벤트를 타겟팅합니다.
+
+* 이벤트 트랜잭션 메시지에 프로필 정보가 없습니다.
+
+* 또한 [피로 규칙과는](../../sending/using/fatigue-rules.md) 호환하지 않습니다(프로파일을 사용한 경우에도).
+
+* 전달 대상은 이벤트 자체에 포함된 데이터로 정의됩니다.
+
+
+<img src="assets/do-not-localize/icon_profile.svg" width="60px">
+
+[프로필 트랜잭션 메시지](../../channels/using/profile-transactional-messages.md)는 Campaign 마케팅 데이터베이스에 있는 프로필을 타겟팅합니다.
+
+트랜잭션 메시지 프로파일을 사용하여 다음을 수행할 수 있습니다.
+
+* Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md)
+
+* 메시지에 구독 취소 링크를 포함합니다.
+
+* 트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.
+
+* 트랜잭션 메시지를 고객 여정에 활용합니다.
 
 메시지 유형은 트랜잭션 메시지로 변환할 이벤트를 구성할 때 정의합니다. [트랜잭션 메시지 구성](../../administration/using/configuring-transactional-messaging.md)을 참조하십시오.
 
@@ -100,53 +114,57 @@ Adobe Campaign을 통해 장바구니에 제품을 추가한 사이트 사용자
 
 ### 1단계 - 이벤트 구성 만들기 및 게시 {#create-event-configuration}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p><b>트랜잭션 이벤트 구성</b></p></td>
-<td><br><p>"장바구니 포기"라는 이름을 지정할 이벤트를 구성하고 이 이벤트 구성을 게시합니다.</p></td>
-<td>웹 사이트 개발자가 사용할 API가 배포되고 트랜잭션 메시지가 자동으로 생성됩니다.</td>
-<td>이 단계는 <a href="../../administration/using/users-management.md#functional-administrators">관리 권한이 있는 사용자가 수행해야 합니다</a>.</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
+**트랜잭션 이벤트 구성**:
+
+* &quot;장바구니 포기&quot;라는 이름을 지정할 이벤트를 구성하고 이 이벤트 구성을 게시합니다.
+
+* 웹 사이트 개발자가 사용할 API가 배포되고 트랜잭션 메시지가 자동으로 생성됩니다.
+
+* 이 단계는 [관리 권한이 있는 사용자가 수행해야 합니다](../../administration/using/users-management.md#functional-administrators).
 
 이벤트 만들기와 게시에 대한 설명은 [이벤트 트랜잭션 메시지를 보내기 위한 이벤트 구성](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 섹션에 있습니다.
 
 ### 2단계 - 트랜잭션 메시지 편집 및 게시 {#create-transactional-message}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="40px"><br><p><b>트랜잭션 메시지 에디션</b></p></td>
-<td><br><p>트랜잭션 메시지를 편집하고 개인화하여 테스트한 다음 게시할 수 있습니다.</p></td>
-<td>트랜잭션 메시지를 보낼 준비가 됩니다.</td>
-<td>이 단계는 <a href="../../administration/using/users-management.md#basic-users">기본 액세스 권한이 있는 모든 마케팅 사용자가 수행할 수 있습니다</a>.
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+
+**트랜잭션 메시지 에디션**
+
+* 트랜잭션 메시지를 편집하고 개인화하여 테스트한 다음 게시할 수 있습니다.
+
+* 트랜잭션 메시지를 보낼 준비가 됩니다.
+
+* 이 단계는 [표준 사용자 액세스 권한을 가진 모든 마케팅 사용자가 수행할 수 있습니다](../../administration/using/users-management.md#basic-users).
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### 3단계 - 이벤트 트리거 통합 {#integrate-event-trigger}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="55px"><br><p><b>이벤트 통합 트리거</b></p></td>
-<td><br><p>REST 트랜잭션 메시지 API를 사용하여 이벤트를 웹 사이트에 통합합니다.</p></td>
-<td>클라이언트가 장바구니를 포기하면 이벤트가 트리거됩니다.</td>
-<td>이 단계는 웹 사이트 개발자가 수행합니다.
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_api.svg" width="55px">
+
+**이벤트 통합 트리거**
+
+* REST 트랜잭션 메시지 API를 사용하여 이벤트를 웹 사이트에 통합합니다.&lt;
+
+* 클라이언트가 장바구니를 포기하면 이벤트가 트리거됩니다.
+
+* 이 단계는 웹 사이트 개발자가 수행합니다.
 
 이벤트를 웹 사이트에 통합하는 방법에 대한 자세한 내용은 [사이트 통합을 참조하십시오](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
 
 ### 4단계 - 메시지 배달 {#message-delivery}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>웹 사이트에서 오는 외부 이벤트</b></p></td>
-<td><br><p>이러한 모든 단계를 수행한 후 메시지가 전달될 수 있습니다.</p></td>
-<td>사용자가 장바구니에서 제품을 주문하지 않고 사이트를 떠나면 해당 캠페인 이벤트가 트리거됩니다.</td>
-<td>그러면 사용자가 알림 이메일을 자동으로 수신하게 됩니다.</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
+**웹 사이트에서 오는 외부 이벤트**
+
+* 이러한 모든 단계를 수행한 후 메시지가 전달될 수 있습니다.
+
+* 사용자가 장바구니에서 제품을 주문하지 않고 사이트를 떠나면 해당 캠페인 이벤트가 트리거됩니다.
+
+* 그러면 사용자가 알림 이메일을 자동으로 수신하게 됩니다.
 
 ## 주요 단계 {#key-steps}
 
@@ -154,7 +172,7 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 ![](assets/message-center-overview.png)
 
-**관련 항목:**
+## 관련 항목
 
 * [메시지 보내기 주요 단계](../../channels/using/key-steps-to-send-a-message.md)
 * [소통 채널 시작](../../channels/using/get-started-communication-channels.md)
