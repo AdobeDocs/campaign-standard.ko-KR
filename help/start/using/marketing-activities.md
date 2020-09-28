@@ -13,10 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 83%
 
 ---
 
@@ -47,14 +47,14 @@ ht-degree: 99%
 
 주 영역에서 목록의 각 활동 유형에는 다음 아이콘이 있습니다.
 
-* ![](assets/marketing_program_icon.png) : 프로그램
-* ![](assets/marketing_campaign_icon.png) : 캠페인
-* ![](assets/marketing_email_icon.png) : 전자 메일
-* ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) : 푸시 알림
-* ![](assets/marketing_lp_icon.png) : 인앱 메시지
-* ![](assets/marketing_lp_icon.png) : 랜딩 페이지
-* ![](assets/marketing_workflow_icon.png) : 워크플로우
+* ![](assets/marketing_program_icon.png) 프로그램
+* ![](assets/marketing_campaign_icon.png) 캠페인
+* ![](assets/marketing_email_icon.png) 이메일
+* ![](assets/marketing_sms_icon.png) SMS
+* ![](assets/marketing_push_icon.png) 푸시 알림
+* ![](assets/marketing_lp_icon.png) 인앱 메시지
+* ![](assets/marketing_lp_icon.png) 랜딩 페이지
+* ![](assets/marketing_workflow_icon.png) 워크플로우
 
 유효 기간 및 상태에 따라 이 아이콘과 연관된 색상은 해당 활동의 실행 상태를 나타냅니다.
 
@@ -86,16 +86,16 @@ ht-degree: 99%
 
 컨텍스트에 따라 다음을 수행할 수 있습니다.
 
-* [전자 메일 만들기](../../channels/using/creating-an-email.md)
-* [SMS 만들기](../../channels/using/creating-an-sms-message.md)
-* [푸시 알림 만들기](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [인앱 메시지 만들기](../../channels/using/about-in-app-messaging.md)
-* [워크플로우 만들기](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [랜딩 페이지 만들기](../../channels/using/getting-started-with-landing-pages.md)
-* [캠페인 만들기](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [프로그램 만들기](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 이메일 만들기 - [자세한 내용](../../channels/using/creating-an-email.md)
+* SMS 만들기 - [자세한 내용](../../channels/using/creating-an-sms-message.md)
+* 푸시 알림 만들기 - [자세한 내용](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 인앱 메시지 만들기 - [자세한 내용](../../channels/using/about-in-app-messaging.md)
+* 워크플로우 만들기 - [자세한 내용](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 랜딩 페이지 만들기 - [자세한 내용](../../channels/using/getting-started-with-landing-pages.md)
+* 캠페인 만들기 - [자세한 내용](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* 프로그램 만들기 - [자세한 내용](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->마케팅 활동 목록에서 마케팅 활동을 만들 수도 있습니다. 이 경우 모든 유형의 활동을 만들 수 있습니다. 활동의 속성을 통해 마케팅 활동을 부모 캠페인(또는 프로그램을 만드는 경우 부모 프로그램)에 연결하도록 선택할 수 있습니다.
+>마케팅 활동 목록에서 마케팅 활동을 만들 수도 있습니다. 이 경우 모든 유형의 활동을 만들고, 활동의 속성을 통해 마케팅 활동을 상위 캠페인(또는 프로그램을 만드는 경우 상위 프로그램)에 연결하도록 선택할 수 있습니다.
 
