@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1208'
 ht-degree: 4%
 
 ---
@@ -154,6 +154,8 @@ Adobe은 CSS 충돌 문제와 같은 문제를 방지하려면 컨텐츠를 최�
 
 * 스타일을 편집할 때는 대부분의 이메일 클라이언트가 공식적으로 지원하는 웹 글꼴만 사용할 수 있습니다.
 * 향후 재사용을 위해 스타일을 테마로 저장할 수 없습니다. 그러나 CSS 스타일은 컨텐츠 템플릿 또는 이메일에 저장할 수 있습니다. For more on styles, see [this section](../../designing/using/styles.md).
+* 레퍼러 메타 태그는 이메일 디자이너에서 지원되지 않습니다.
+* 유니코드 문자 집합의 기본 다국어 평면에 포함되지 않은 문자를 2바이트(16비트)로 저장할 수 없으며 2UTF-16자로 인코딩해야 합니다. 이러한 문자에는 일부 CJK 비디오, 대부분의 이모지 및 일부 언어가 포함됩니다.<br>이러한 문자는 동적 텍스트에서 일부 비호환성 문제를 일으킬 수 있습니다. 메시지를 보내기 전에 강력한 테스트를 수행해야 합니다.
 
 **관련 항목**
 
