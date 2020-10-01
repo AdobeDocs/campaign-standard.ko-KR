@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+source-git-commit: 1dae1137a0187cec765156d9fb211408ef16fc68
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -27,7 +27,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->이 기능을 사용하는 동안 AdobeCampaign 계약에 따라 SFTP 저장소, DB 저장소 및 활성 프로필 제한에 주의하십시오.
+>이 기능을 사용하는 동안 Adobe Campaign 계약에 따라 SFTP 저장소, DB 저장소 및 활성 프로필 제한에 주의하십시오.
 
 ![](assets/data_loading.png)
 
