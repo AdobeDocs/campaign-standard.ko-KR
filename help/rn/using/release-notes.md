@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
+source-git-commit: 7168162baa26c960475d8c9c613989d0338f95c2
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2387'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,6 @@ ht-degree: 4%
 * **워크플로우 실행 개선** 사항(베타):워크플로우에 대한 글로벌 이니셔티브의 맥락에서 메모리 관리를 안정화하고, 지연을 줄이고, 실행 중에 워크플로우에서 사용되는 메모리를 최적화하기 위해 일부 주요 개선 사항이 개발되었습니다. 이러한 개선 사항은 현재 베타 버전으로 일부 고객에게만 제공됩니다. 2021년 초에 GA될 예정입니다.
 * 보안을 개선하기 위해 이제 Campaign은 이메일의 링크를 추적하는 **서명 메커니즘을** 사용합니다.
 * iOS 인증서 또는 Android 키를 업로드할 때 오류 메시지 **가** 더욱 명확해져 모바일 앱 구성이 향상되었습니다.
-* 이제 **새 배달 매핑** (mapRtEventAppSubRcp)을 트랜잭션 푸시 메시지 타깃팅 프로필에 사용할 수 있습니다. 이러한 게재에 대한 배달, 제외 및 추적 로그는 이제 broadLogAppSubRcp, excludeLogAppSubRcp 및 trackingLogAppSubRcp 테이블에서 사용할 수 있습니다. 프로필 대상 차원을 사용하여 트랜잭션 푸시 메시지를 전송할 때 배달 분석 **이** 실패하는 문제를 해결했습니다.
 * **SMS 오류 관리** 기능이 향상되어 너무 많은 프로필이 격리 목록에 추가되지 않습니다. 이제 기본적으로 SMS 오류가 하드 오류 대신 소프트 오류로 구성됩니다. [이 페이지](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html)를 참조하십시오.
 
 **향상된 이메일 디자이너**
