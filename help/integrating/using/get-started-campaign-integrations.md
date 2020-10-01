@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: d425e4b96604133fbdfc66fde38e4ca5c84baccd
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 7%
@@ -54,21 +54,21 @@ ht-degree: 7%
    <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Adobe Experience Manager에서 직접 Adobe Campaign 데이터베이스에 매핑된 이메일 내용 또는 양식을 만들 수 있습니다.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">캠페인 및 Experience Manager을 사용한 작업</a><br/>, Experience Manager 및 Campaign Standard <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html"></a> 통합, Experience Manager <br/>및 캠페인 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">을 사용하여 이메일 만들기</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">캠페인 및 Experience Manager을 사용한 작업</a>, Experience Manager 및 Campaign Standard <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">통합</a>, Experience Manager 및 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">캠페인이 포함된 이메일 만들기</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic, Standard<br /> </td> 
    <td> Adobe Campaign에서 만들고 보낸 이메일이 열려 있을 때 Adobe Target에서 동적으로 계산된 이미지를 삽입할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">캠페인 및 Target</a> 를 사용한 작업 <br/>, 캠페인 및 Target <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">통합,</a><br/>이메일 이미지 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">개인화(3단계</a> )
+    <a href="../../integrating/using/about-campaign-target-integration.md">캠페인 및 Target을 사용한</a>작업, 캠페인 <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">및 Target</a>통합, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">이메일 이미지</a> 개인화(3단계)
     </td> 
   </tr> 
   <tr> 
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Adobe Analytics에서 직접 이메일 배달 성공 여부를 추적할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Analytics와 캠페인 데이터 공유</a><br/>, 통합 캠페인 보고 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">비디오를 위한 KPI 공유</a> (1단계)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Analytics와 캠페인 데이터 공유</a>, 통합 캠페인 보고 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">비디오를 위한 KPI 공유</a> (1단계)
     </td> 
   </tr> 
   <tr> 
@@ -90,14 +90,14 @@ ht-degree: 7%
    <td> Experience Cloud 트리거<br /> </td> 
    <td> Adobe Analytics이 웹 사이트에서 추적하는 특정 행동에 대한 반응으로 Adobe Campaign의 고객에게 개인화된 이메일을 보낼 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign Standard</a><br/>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">포기 트리거-캠페인 사용 사례</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">사이트 활동</a> 비디오를 기반으로 리마케팅 메시지 트리거(2단계)의 Experience Cloud사용
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">포기 트리거-캠페인 사용 사례</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">사이트 활동</a> 비디오를 기반으로 리마케팅 메시지 트리거(2단계)의 Experience Cloud사용
     </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver<br /> </td> 
    <td> Dreamweaver의 이메일 컨텐츠를 편집하고 Adobe Campaign과 동기화할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Dreamweaver</a> 비디오로 개인화된 이메일 만들기, Dreamweaver용 <br/><a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">캠페인 확장 사용</a> 
+    <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Dreamweaver</a> 비디오로 개인화된 이메일 제작, Dreamweaver용 캠페인 <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">익스텐션 사용</a> 
   </td> 
   </tr> 
   <tr> 
