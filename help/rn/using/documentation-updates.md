@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '6247'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 91%
 
 **릴리스에 포함된 새로운 기능**
 
-Control groups - [Read More](../../sending/using/control-group.md)
+컨트롤 그룹 - [자세한 내용](../../sending/using/control-group.md)
 
 외부 API(OAuth 지원) - [자세한 내용](../../automating/using/external-api.md)
 
-고객 여정 AI 통합 - [자세한 내용](../../sending/using/predictive.md)
+Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-외부 매개 변수를 사용한 작업 흐름을 호출하는 방법에 대한 섹션이 표현식 편집기에서 사용할 수 있는 새로운 기능으로 향상되었습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md)
+외부 매개 변수를 사용한 워크플로우를 호출하는 방법에 대한 섹션이 표현식 편집기에서 사용할 수 있는 새로운 기능으로 향상되었습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md)
 
-워크플로우당 사용할 활동 수의 워크플로우 우수 사례에 권장 사항이 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#number-activities)
+워크플로우당 사용할 활동 수에 대한 워크플로우 모범 사례에 권장 사항이 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#number-activities)
 
 배달 우수 사례에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
@@ -48,11 +48,11 @@ Control groups - [Read More](../../sending/using/control-group.md)
 
 이벤트 트랜잭션 메시지 섹션이 재구성되고 명확해졌습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
 
-사용자에게 로그 액세스와 관련된 권한 제한에 대해 경고하기 위해 주의 사항이 추가되었습니다. [자세한 내용](../../administration/using/users-management.md)
+사용자에게 로그 액세스와 관련된 권한 제한에 대해 경고하기 위해 주의 사항이 추가되었습니다.  [자세한 내용](../../administration/using/users-management.md)
 
-새 브랜드를 만드는 프로세스를 자세히 설명하는 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/branding.md#creating-a-brand)
+새 브랜드를 만드는 과정을 자세히 설명한 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/branding.md#creating-a-brand)
 
-새로운 Campaign Standard - Microsoft Dynamics 365 통합을 사용할 수 있습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+새로운 Campaign Standard - 이제 Microsoft Dynamics 365 통합을 사용할 수 있습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 활성 프로필 보고서의 익명 소스에 정보가 추가되었습니다. [자세한 내용](../../audiences/using/active-profiles.md)
 
@@ -60,9 +60,9 @@ Control groups - [Read More](../../sending/using/control-group.md)
 
 트랜잭션 메시지 시작을 위한 새로운 업데이트 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
-트랜잭션 **메시지 제한** 섹션이 [여기로 이동되었습니다.](../../channels/using/transactional-messaging-limitations.md)
+**트랜잭션 메시지 제한** 섹션을 [여기](../../channels/using/transactional-messaging-limitations.md)로 이동했습니다.
 
-보내기 **준비** 섹션이 [여기로 이동되었습니다.](../../sending/using/preparing-the-send.md)
+**전송 준비** 섹션을 [여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
 
 ## 설명서 업데이트 - 2020년 7월 {#doc-updates-july-2020}
 
@@ -70,13 +70,13 @@ Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추�
 
 외부 API 보안 및 제한 섹션이 업데이트되었습니다. [자세한 내용](../../automating/using/external-api.md#guardrails)
 
-개인 정보 관리 개요 페이지는 태국 개인정보 보호법(Personal Data Protection Act)(PDPA) 및 브라질 레이제랄 데 프로테카앙 데 도도스(LGPD)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+개인 정보 관리 개요 페이지는 태국의 PDPA(개인 정보 보호법) 및 브라질의 LGPD(Lei Geral de Proteção de Dados)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-모바일 채널 가이드가 다시 구성 및 개선되었습니다. 모바일 구성에 대한 기술 설명서와 함께 모바일 채널 구성에 대한 새 안내서가 추가되었습니다. [자세한 내용](../../administration/using/push-tracking.md)
+모바일 채널 가이드가 다시 구성되고 개선되었습니다. 모바일 구성에 대한 기술 설명서와 함께 모바일 채널 구성에 대한 새 안내서가 추가되었습니다.  [자세한 내용](../../administration/using/push-tracking.md)
 
-개인정보 보호 핵심 서비스 통합을 통해 개인 정보 요청을 관리하는 방법에 대한 설명을 포함하여 Campaign Standard의 개인 정보 관리 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+개인정보 보호 핵심 서비스 통합을 통해 개인 정보 요청을 관리하는 방법에 대한 설명을 포함하여 Campaign Standard의 개인 정보 관리 페이지가 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-새로운 AI 기반의 이메일 기능:보내기 시간 최적화 및 프로필 점수 [자세한 내용](../../sending/using/predictive.md)
+새로운 AI 기반의 이메일 기능: 전송 시간 최적화 및 프로필 점수 책정 [자세한 내용](../../sending/using/predictive.md)
 
 ## 설명서 업데이트 - 2020년 6월 {#doc-updates-june-2020}
 
@@ -84,7 +84,7 @@ Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추�
 
 제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)하고 [해독](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)하는 방법에대한 사용 사례가 추가되었습니다.
 
-기존 지원 웹 사이트에 대한 참조가 새 URL로 대체되었습니다. [자세히 알아보기](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+기존 지원 웹 사이트에 대한 참조가 새 URL로 대체되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/ac-support.html#acs-support-req)
 
 사용자 지정 리트머스 계정 구성이 받은 편지함 렌더링 기능에서 제거되었습니다. [자세한 내용](../../sending/using/email-rendering.md)
 
@@ -100,13 +100,13 @@ Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했
 
 ## 릴리스 20.3 - 2020년 5월 {#release-20-3---may-2020}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 태국 개인 정보 보호법(Personal Data Protection Act, PDPA) - [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html)
 
 외부 API 활동(GA) - [자세한 내용](../../automating/using/external-api.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 워크플로우 속성의 **[!UICONTROL History in days]** 필드에 정보를 추가하여 이제 **[!UICONTROL Transfer file]** 활동으로 다운로드한 파일이 포함됩니다. [자세한 내용](../../automating/using/managing-execution-options.md)
 
@@ -146,13 +146,13 @@ Experience Cloud ID 서비스(ECID)에 대한 정보를 Adobe Experience Platfor
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 Azure Blob 통합 - [자세한 내용](../../administration/using/external-accounts.md#microsoft-azure-external-account)
 
 타겟팅 프로필을 사용하여 이메일 테스트 - [자세한 내용](../../sending/using/testing-messages-using-target.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 인앱 메시지 렌더링에 대한 제한을 추가했습니다. [자세한 내용](../../channels/using/customizing-an-in-app-message.md)
 
@@ -190,13 +190,13 @@ The Campaign Email Designer documentation and related pages have been updated to
 
 ## 릴리스 20.1 - 2020년 2월 {#release-20-1---february-2020}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 Adobe Experience Platform 데이터 커넥터(Beta) - [자세한 내용](../../developing/using/aep-about-data-connector.md)
 
 Audience Destinations(Beta) - [자세한 내용](../../audiences/using/aep-about-audience-destinations-service.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 개인 정보 관리 설명서를 업데이트했습니다. 사용자 지정 프로필 리소스에 CCPA 옵트아웃 필드를 만드는 방법에 대한 정보를 추가했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html)
 
@@ -262,13 +262,13 @@ API 설명서 세트를 Campaign Standard 설명서에 통합했습니다.[자�
 
 ## 릴리스 19.4 - 2019년 10월 {#release-19-4---october-2019}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 캘리포니아 소비자 개인 정보 보호법(California Consumer Privacy Act, CCPA) - [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ccpa)
 
 Microsoft Dynamics 365 통합(GA) - [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 Adobe Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -320,13 +320,13 @@ Campaign 컨트롤 패널 내에 하위 도메인 및 인증서 관리에 대한
 
 ## 릴리스 19.3 - 2019년 7월 {#release-19-3---july-2019}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 외부 API 활동(공개 Beta) - [자세한 내용](../../automating/using/external-api.md)
 
 워크플로우 세그먼트 보고서 - [자세한 내용](../../reporting/using/creating-a-report-workflow-segment.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 이제 Campaign Standard 구현 안내서를 사용할 수 있습니다.[자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-standard-implementation-guide.html)
 
@@ -372,7 +372,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트�
 
 ## 릴리스 19.2 - 2019년 5월 {#release-19-2---may-2019}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 Campaign 컨트롤 패널 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
 
@@ -382,7 +382,7 @@ Campaign 컨트롤 패널 - [자세한 내용](https://docs.adobe.com/content/he
 
 랜딩 페이지 개선 사항 - Google reCAPTCHA - [자세한 내용](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 도메인 이름 위임 문서를 업데이트했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html)
 
@@ -440,7 +440,7 @@ Dreamweaver 통합 섹션을 업데이트 및 개선했습니다. [자세한 내
 
 ## 릴리스 19.1 - 2019년 2월 {#release-19-1---february-2019}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 푸시 채널 보고 개선 사항 - [자세한 내용](../../reporting/using/push-notification-report.md)
 
@@ -450,7 +450,7 @@ Dreamweaver 통합 섹션을 업데이트 및 개선했습니다. [자세한 내
 
 워크플로우 개선 사항 - 자세한 내용은 [여기](../../automating/using/workflow-interface.md#duplicating-workflow-activities)와 [여기](../../automating/using/load-file.md#configuration)를 참조하십시오.
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 이메일 콘텐츠 편집 챕터에 이메일 콘텐츠 만들기에 대한 새로운 온보딩 경험과 이메일 디자이너의 기타 개선 사항을 추가했습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
@@ -496,7 +496,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 ## 릴리스 19.0 - 2019년 1월 {#release-19-0---january-2019}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 이메일 디자이너의 일반 가용성 - [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -506,11 +506,11 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 인앱 메시지 Beta 개선 사항 - [자세한 내용](../../channels/using/about-in-app-messaging.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 콘텐츠 디자인 안내서에 이메일 디자이너의 일반 가용성과 레거시 이메일 콘텐츠 편집기의 사용 중단을 반영하여 업데이트했습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+[인앱](../../channels/using/about-in-app-messaging.md) 및 [푸시 알림](../../channels/using/about-push-notifications.md) 설명서를 업데이트했습니다.
 
 Adobe Campaign의 다양한 대상자 유형에 대해 자세한 정보를 추가했습니다. [자세한 내용](../../audiences/using/about-audiences.md)
 
@@ -536,13 +536,13 @@ Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성 �
 
 ## 릴리스 18.9 - 2018년 9월 {#release-18-9---september-2018}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 인앱 메시지(Beta) - [자세한 내용](../../channels/using/about-in-app-messaging.md)
 
 모바일 앱에 Adobe Launch 통합(Beta) - [자세한 내용](../../sending/using/managing-typologies.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 푸시 알림 안내서에 인터페이스 변경 사항을 업데이트했습니다. [자세한 내용](../../channels/using/about-push-notifications.md)
 
@@ -552,13 +552,13 @@ Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성 �
 
 ## 릴리스 18.7 - 2018년 7월 {#release-18-7---july-2018}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 모바일 앱 구독자에 대한 [우선 순위 높음 플래그](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 및 [유형화 필터](../../sending/using/managing-typologies.md).
 
 준비 시 URL에서 자동으로 콘텐츠 가져오기. [자세한 내용](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 SMS 커넥터 프로토콜 및 설정에 대한 새로운 기술 정보를 추가했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html)
 
@@ -576,11 +576,11 @@ Experience Manager와 Adobe Campaign 통합 설명서를 업데이트했습니�
 
 ## 릴리스 18.6 - 2018년 6월 {#release-18-6---june-2018}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 API 설명서에 **내역** API에 대한 정보를 업데이트했습니다. 프로필로 보낸 게재에 대한 미러 페이지를 검색하는 방법에 대한 사용 사례를 추가했습니다. [자세한 내용](../../api/using/interacting-with-marketing-history.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 트리거 - Campaign 통합 설명서를 업데이트 및 재구성했습니다. [자세한 내용](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -596,7 +596,7 @@ API 설명서에 **사용자 정의 필터**&#x200B;와 관련된 섹션을 추�
 
 ## 릴리스 18.5 - 2018년 5월 {#release-18-5---may-2018}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 GDPR: 핵심 서비스 통합 - [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
 
@@ -606,7 +606,7 @@ GDPR: 핵심 서비스 통합 - [자세한 내용](https://helpx.adobe.com/kr/ca
 
 사용자 정의 프로필 데이터를 사용한 다이내믹 보고 - [자세한 내용](../../channels/using/creating-a-multilingual-push-notification.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 Analytics에 있는 Campaign 지표 목록을 추가했습니다. [자세한 내용](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -620,7 +620,7 @@ Analytics에 있는 Campaign 지표 목록을 추가했습니다. [자세한 내
 
 쿼리 활동 섹션에 쿼리 샘플을 업데이트했습니다. [자세한 내용](../../automating/using/query.md#query-samples)
 
-차단 목록 전용 섹션의 이름이 &quot;옵트인 및 옵트아웃 프로세스 이해&quot;로 변경되었습니다. 특정 채널에 대한 옵트인을 관리하는 방법 및 랜딩 페이지를 설정하여 옵트인 및 옵트아웃을 관리하는 방법에 대한 정보를 업데이트했습니다. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+차단 목록에 대한 섹션의 이름을 &quot;옵트인 및 옵트아웃 프로세스 이해&quot;로 바꾸었습니다. 특정 채널에 대한 옵트인을 관리하는 방법 및 랜딩 페이지를 설정하여 옵트인 및 옵트아웃을 관리하는 방법에 대한 정보를 업데이트했습니다. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Adobe 호스팅 SFTP 서버 사용에 대한 모범 사례를 알아봅니다. [자세한 내용](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -630,7 +630,7 @@ Adobe 호스팅 SFTP 서버 사용에 대한 모범 사례를 알아봅니다. [
 
 ## 릴리스 18.3 - 2018년 3월 {#release-18-3---march-2018}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 유럽연합 일반 데이터 보호 규칙(GDPR) - [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
 
@@ -640,11 +640,11 @@ Adobe 호스팅 SFTP 서버 사용에 대한 모범 사례를 알아봅니다. [
 
 트랜잭션 메시지에서 사용자 정의 리소스 사용 - [자세한 내용](../../administration/using/configuring-transactional-messaging.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 GDPR API에서 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그룹화합니다. [자세한 내용](../../api/using/creating-a-privacy-request.md)
 
-수신자에게을 제공할 수 있도록 랜딩 페이지를 설정하는 방법에 대한 정보가 차단 목록 추가되었습니다. [자세한 내용](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+수신자가 차단 목록에 오를 수 있는 기능을 제공하는 랜딩 페이지를 설정하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 [트랜잭션 메시지 구성](../../administration/using/configuring-transactional-messaging.md) 섹션을 재구성하고 [단계별 사용 사례](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)를 추가했습니다.
 
@@ -662,13 +662,13 @@ Campaign Standard 제품 내 상황별 도움말을 업데이트했습니다.
 
 ## 릴리스 18.2 - 2018년 2월 {#release-18-2---february-2018}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 구독 - 프로필 목록에서 여러 서비스 구독 또는 구독 취소 - [자세한 내용](../../automating/using/subscription-services.md)
 
 데이터 보강 활동 - 이전 전환을 기반으로 데이터 보강 - [자세한 내용](../../automating/using/enrichment.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니다! 책갈피를 확인해 주세요! [자세한 내용](../../integrating/using/get-started-campaign-integrations.md)
 
@@ -698,7 +698,7 @@ SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 �
 
 **[!UICONTROL Customizing a push notification]** 섹션을 단계별 사용 사례에 따라 재구성했습니다. [자세한 내용](../../channels/using/customizing-a-push-notification.md)
 
-관리를 위한 새로운 차단 목록 섹션 [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+차단 목록 관리에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 게재 실패 및 격리에 대한 정보를 업데이트했습니다. [자세한 내용](../../sending/using/monitoring-a-delivery.md)
 
@@ -706,7 +706,7 @@ SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 �
 
 ## 릴리스 18.1 - 2018년 1월 {#release-18-1---january-2018}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 피로도 관리 보고 - [자세한 내용](../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
@@ -718,7 +718,7 @@ SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 �
 
 API 신호 활동 트리거 - [자세한 내용](../../api/using/triggering-a-signal-activity.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 서비스 만들기 섹션을 업데이트했습니다. [자세한 내용](../../audiences/using/creating-a-service.md)
 
@@ -734,13 +734,13 @@ Audience Manager 또는 People 핵심 서비스와의 통합 구성 지침을 �
 
 ## 릴리스 17.10 - 2017년 10월 {#release-17-10---october-2017}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 피로도 관리 - [자세한 내용](../../sending/using/fatigue-rules.md)
 
 콘텐츠 만들기: URL에서 가져오기 - [자세한 내용](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 A/B 테스트 샘플을 업데이트했습니다. [자세한 내용](../../channels/using/designing-an-a-b-test-email.md)
 
@@ -774,7 +774,7 @@ API의 단순 및 다중 필터링에 대한 정보를 추가했습니다. [자�
 
 ## 릴리스 17.9 - 2017년 9월 {#release-17-9---september-2017}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 이메일 템플릿 라이브러리 - [자세한 내용](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -782,7 +782,7 @@ API의 단순 및 다중 필터링에 대한 정보를 추가했습니다. [자�
 
 대량 구독 개선 사항 - [자세한 내용](../../automating/using/subscription-services.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 다이내믹 보고서에서 사용할 수 있는 모든 구성 요소의 세부 목록 및 일부 공식 변경 사항을 추가했습니다. [자세한 내용](../../reporting/using/list-of-components-.md)
 
@@ -814,7 +814,7 @@ ACS ID에 대한 설명서를 추가했습니다. [자세한 내용](../../devel
 
 ## 릴리스 17.7 - 2017년 7월 {#release-17-7---july-2017}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 다국어 게재(이메일 및 SMS) - [자세한 내용](../../channels/using/creating-a-multilingual-email.md)
 
@@ -828,7 +828,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 다이렉트 메일 채널 - 발신자에게 반송, [자세한 내용 보기](../../channels/using/return-to-sender.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 시작 안내서 및 방법 비디오를 전용 섹션에 다시 정리했습니다.
 
@@ -846,13 +846,13 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 ## 릴리스 17.5 - 2017년 5월 {#release-17-5---may-2017}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 다이렉트 메일 - [자세한 내용](../../channels/using/about-direct-mail.md)
 
 이메일 BCC - [자세한 내용](../../sending/using/archiving.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 &quot;게재&quot; 안내서를 재구성하고 &quot;채널&quot;로 이름을 바꿨습니다. [자세한 내용](../../channels/using/get-started-communication-channels.md)
 
@@ -860,7 +860,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 이제 새로운 기술 정보를 사용할 수 있습니다. &quot;모바일 앱과 Adobe Mobile SDK 통합&quot;을 참조하십시오. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/integrate-mobile-sdk.html)
 
-사람 핵심 서비스 또는 Adobe Campaign과의 Audience Manager 통합 구성 지침이 추가되었습니다. [자세한 내용](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Adobe Campaign을 통한 사용자 핵심 서비스 또는 Audience Manager 통합을 구성하기 위한 지침을 추가했습니다. [자세한 내용](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 승인 표에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -868,7 +868,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 ## 릴리스 17.4 - 2017년 4월 {#release-17-4---april-2017}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 Creative SDK의 이미지 편집 기능 개선 사항 - [자세한 내용](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
@@ -880,11 +880,11 @@ Amazon Simple Storage Service(S3) 커넥터 - [자세한 내용](../../administr
 
 Dreamweaver 통합 라이브 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 Adobe Campaign의 다양한 사용자 유형에 대한 섹션을 추가했습니다. [자세한 내용](../../administration/using/users-management.md)
 
-워크플로우 가이드가 재구성 및 확장되었습니다. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+워크플로우 가이드가 재구성 및 확장되었습니다. 워크플로우를 [빌드](../../automating/using/building-a-workflow.md)하고 [실행](../../automating/using/about-workflow-execution.md)하는 방법, [타겟팅](../../automating/using/about-targeting-activities.md)하고 [관리](../../automating/using/about-targeting-activities.md#enriching-data) 하는 방법, 데이터를 [가져오기 및 내보내기](../../automating/using/about-data-import-and-export.md) 방법과 워크플로우 데이터를 사용하여 데이터베이스를 업데이트하는 방법 또는 게재를 보내는 방법을 쉽게 찾을 수 있습니다.
 
 이제 다이내믹 보고서에 대한 보고 지표 계산을 사용할 수 있습니다. 여기에는 완전한 설명 및 계산 공식이 포함됩니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
@@ -898,7 +898,7 @@ Campaign에서 이미지로 작업하는 방법에 대한 섹션을 업데이트
 
 ## 릴리스 17.2 - 2017년 3월 {#release-17-2---march-2017}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 다이내믹 보고 - [자세한 내용](../../reporting/using/about-dynamic-reports.md)
 
@@ -916,7 +916,7 @@ Dreamweaver 통합(Labs) - [자세한 내용](https://docs.adobe.com/content/hel
 
 REST API의 연결된 리소스 - [자세한 내용](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 트리거 통합: 사용 사례를 두 개 추가했습니다. [자세한 내용](../../integrating/using/abandonment-triggers-use-cases.md)
 
@@ -926,7 +926,7 @@ REST API의 연결된 리소스 - [자세한 내용](../../developing/using/upda
 
 ## 릴리스 17.1 - 2017년 1월 {#release-17-1---january-2017}
 
-**이 릴리스에 포함된 새로운 기능**
+**릴리스에 포함된 새로운 기능**
 
 외부 보고를 위한 로그 내보내기 - [자세한 내용](../../automating/using/exporting-logs.md)
 
@@ -934,7 +934,7 @@ REST API의 연결된 리소스 - [자세한 내용](../../developing/using/upda
 
 트랜잭션 메시지를 위한 마케팅 기능 - [자세한 내용](../../channels/using/profile-transactional-messages.md)
 
-**이 릴리스와 함께 제공되는 기타 설명서 업데이트**
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
 
 증분 쿼리 워크플로우 활동: 새로운 증분 모드 - [자세히 보기](../../automating/using/incremental-query.md)
 
