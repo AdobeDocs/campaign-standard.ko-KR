@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
@@ -19,15 +19,17 @@ ht-degree: 73%
 
 ## 새로운 기능
 
-* **[그룹](sending/using/control-group.md)**<br/>대상의 일부를 제외하여 캠페인의 영향력을 측정합니다
+* **[컨트롤 그룹](sending/using/control-group.md)**<br/>대상자의 일부를 제외하여 캠페인의 영향을 측정합니다
 
-* **[AI 기반의 이메일](sending/using/predictive.md)**<br/>AI 기반의 이메일을 사용하여 디자인 및 전달 최적화
+* **[AI 기반 이메일](sending/using/predictive.md)**<br/>AI 기반 이메일을 사용하여 디자인 및 게재를 최적화합니다.
 
-* **[개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아보십시오
+* **[개인 정보 관리](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)**<br/>
+Adobe Campaign에서 제공하는 개인 정보 보호 도구에 대해 알아봅니다.
 
 * **[외부 API](automating/using/external-api.md)**<br/>외부 API 활동을 사용하여 외부 시스템의 워크플로우로 데이터를 가져옵니다
 
-* **[모바일 전달 시작](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)**<br/>&#x200B;모바일 전달에 대한 일반 지침(SMS, 푸시, 인앱)에 대한 자세한 내용
+* **[모바일 게재 시작](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)**<br/>
+모바일 게재에 대한 일반 지침(SMS, 푸시, 인앱)에 대한 자세한 내용을 알아봅니다.
 
 [업데이트를 더 보려면 여기를 클릭하십시오.](rn/using/documentation-updates.md)
 
