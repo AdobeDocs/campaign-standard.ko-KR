@@ -11,9 +11,9 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -41,6 +41,7 @@ SMS 또는 이메일 템플릿을 만들려면 다음 단계를 수행하십시�
    >템플릿 속성에서 **[!UICONTROL Initialize content variant]** 버튼을 클릭하여 다국어 템플릿의 기존 표준 템플릿을 수정할 수도 있습니다.
 
 1. 속성을 수정하여 레이블, 추적 등을 사용자 정의합니다.
+
 1. 변형 타일을 클릭하여 원하는 변형 수를 수정합니다. 변형 창이 표시됩니다.
 
    ![](assets/multi_template_variants.png)
@@ -54,6 +55,7 @@ SMS 또는 이메일 템플릿을 만들려면 다음 단계를 수행하십시�
    >&quot;기본&quot; 변형을 삭제하면 안 됩니다. 선호 언어 매개 변수가 완성되지 않은 프로필에는 기본 변형이 전송되기 때문입니다.
 
 1. 필요한 경우 레이블 변형을 사용자 지정하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
+
 1. 각 변형에 대한 콘텐츠를 직접 추가할 수도 있습니다.
 
 이제 다국어 템플릿을 기반으로 이메일 또는 SMS 메시지를 만들 수 있습니다.
