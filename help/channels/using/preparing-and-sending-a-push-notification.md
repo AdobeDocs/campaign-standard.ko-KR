@@ -1,5 +1,5 @@
 ---
-title: 푸시 알림 준비 및 보내기
+title: 푸시 알림 만들기 및 전송
 description: 다음 단계에 따라 Adobe Campaign에서 단일 전송 푸시 알림을 만듭니다.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 5%
+source-wordcount: '856'
+ht-degree: 4%
 
 ---
 
@@ -86,7 +86,9 @@ Adobe Campaign과 함께 푸시 알림을 만드는 단계는 다음과 같습�
 
    >[!CAUTION]
    >
-   >페이로드 크기가 4KB 한도를 초과하면 메시지가 배달되지 않습니다. 개인화 데이터는 메시지 크기에 영향을 줍니다.
+   >페이로드 크기가 4KB 한도를 초과하면 메시지가 배달되지 않습니다.
+
+개인화 데이터는 메시지 크기에 영향을 줍니다.
 
 ## 알림 보내기 {#sending-the-notification}
 
@@ -131,4 +133,3 @@ Adobe Campaign과 함께 푸시 알림을 만드는 단계는 다음과 같습�
 
 * [푸시 알림 보고서](../../reporting/using/push-notification-report.md)
 * [워크플로우 내에서 푸시 알림 보내기](../../automating/using/push-notification-delivery.md)
-
