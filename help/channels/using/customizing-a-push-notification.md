@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -116,11 +116,7 @@ ht-degree: 99%
 
 푸시 알림에 만료 날짜를 추가하려면 다음을 수행합니다.
 
-1. **[!UICONTROL Expire message]** 옵션을 선택합니다.
-
-   >[!NOTE]
-   >
-   >**[!UICONTROL Expire message]** 옵션을 선택하면 지속 시간이 자동으로 0으로 설정됩니다.  값을 변경하지 않으면 APNS 및 FCM 모두 메시지를 즉시 보내려고 시도합니다. 실패하면 메시지가 다시 전송되지 않습니다.
+1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. 값을 변경하지 않으면 APNS 및 FCM 모두 메시지를 즉시 보내려고 시도합니다. 실패하면 메시지가 다시 전송되지 않습니다.
 
 1. **[!UICONTROL Duration]** 필드에서 푸시 알림의 유효성을 선택합니다.
 
@@ -191,4 +187,3 @@ Android의 경우 **리치 미디어 콘텐츠 URL** 필드에 파일의 URL을 
 **[!UICONTROL High priority]** 확인란을 통해 푸시 알림에 대해 높은 우선 순위 또는 일반적인 우선 순위를 설정할 수 있습니다. 메시지 우선 순위에 대한 자세한 내용은 [Google 개발자 설명서](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)를 참조하십시오.
 
 ![](assets/push_notif_advanced_11.png)
-
