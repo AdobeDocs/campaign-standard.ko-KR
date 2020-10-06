@@ -13,9 +13,9 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '587'
 ht-degree: 4%
 
 ---
@@ -52,21 +52,11 @@ ht-degree: 4%
 
    교정에 대한 자세한 내용은 증거 [전송 을 참조하십시오](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**:사용할 승인 모드를 선택할 수 있습니다. **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** 또는 둘 다 이메일에 해당합니다. 테스트 프로파일에 대한 자세한 내용은 증명 [보내기를 참조하십시오](../../sending/using/sending-proofs.md).
+* **[!UICONTROL Send a test]**:사용할 승인 모드를 선택할 수 있습니다. **[!UICONTROL Email rendering]** (이메일만 해당) **[!UICONTROL Proof]** 또는 둘 다. 테스트 프로파일에 대한 자세한 내용은 증명 [보내기를 참조하십시오](../../sending/using/sending-proofs.md). 이 단추는 테스트 프로필을 만든 후에만 활성화됩니다.
 
-   이 단추는 테스트 프로필을 설정한 후에만 활성화됩니다.
+* **[!UICONTROL Prepare send]**:전송을 준비하기 시작합니다. 블록이 **[!UICONTROL Deployment]** 나타나고 준비 결과가 표시됩니다. 이 단추는 타겟을 입력한 경우에만 나타납니다. 해당 단추를 사용하여 언제든지 준비를 중지할 수 있습니다. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-   >[!NOTE]
-   >
-   >SMS 메시지의 경우 다음과 같은 다른 방법이 없습니다.자동으로 **[!UICONTROL Proof]**&#x200B;사용됩니다.
-
-* **[!UICONTROL Prepare send]**:전송을 준비하기 시작합니다. 블록이 **[!UICONTROL Deployment]** 나타나고 준비 결과가 표시됩니다. 이 단추는 타겟을 입력한 경우에만 나타납니다. 해당 단추를 사용하여 언제든지 준비를 중지할 수 있습니다.
-
-   메시지 준비에 대한 자세한 내용은 전송 [준비를 참조하십시오](../../sending/using/preparing-the-send.md).
-
-* **[!UICONTROL Confirm send]**:메시지 보내기를 확인합니다. 전송 통계가 **[!UICONTROL Deployment]** 블록에 나타납니다. 이 단추는 전송을 준비한 후에만 나타납니다. 전송 **중지** 및 **[!UICONTROL Pause]** 단추를 사용하여 언제든지 전송을 중지하거나 일시 중지할 수 있습니다.
-
-   전송 확인에 대한 자세한 내용은 메시지 [전송을 참조하십시오](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**:메시지 보내기를 확인합니다. 전송 통계가 **[!UICONTROL Deployment]** 블록에 나타납니다. 이 단추는 전송을 준비한 후에만 나타납니다. 전송 **중지** 및 **[!UICONTROL Pause]** 단추를 사용하여 언제든지 전송을 중지하거나 일시 중지할 수 있습니다. 전송 확인에 대한 자세한 내용은 메시지 [보내기를 참조하십시오](../../sending/using/confirming-the-send.md).
 
 ## 블록 {#blocks}
 
