@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
 source-wordcount: '2948'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -73,8 +73,8 @@ ht-degree: 95%
 
 **추가 기능** (7월 13일부터 시작)
 
-* **AI 기반의 전송 시간 최적화 및 프로필 점수** - 이제 고객 여정의 디자인과 전달을 최적화하여 각 개인의 참여 선호도를 예측할 수 있습니다. 고객 여정 AI를 기반으로 하는 Adobe Campaign은 과거 참여 지표를 기반으로 공개 비율, 최적의 전송 시간, 예측 이탈을 분석하고 예측할 수 있습니다. [자세히 알아보기](../../sending/using/predictive.md)
-* **브라질의 새로운 개인 정보 보호 규정** - Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도, Adobe은 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 대한 준비를 용이하게 하는 데 도움이 됩니다. 개인 정보 보호 요청을 만들 때 LGPD 규정이 Adobe 개인 정보 보호 코어 서비스에 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)
+* **AI 기반의 전송 시간 최적화 및 프로필 점수 책정** - 이제 고객 여정의 디자인과 게재를 최적화하여 각 개인의 참여 선호도를 예측할 수 있습니다. Journey AI를 기반으로 하는 Adobe Campaign은 참여 지표 기록을 기반으로 공개 비율, 최적의 전송 시간, 가능한 이탈률을 분석하고 예측합니다. [자세히 알아보기](../../sending/using/predictive.md)
+* **브라질의 새로운 개인 정보 보호 규정** - Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 쉽게 대처할 수 있도록 도와줍니다. 개인 정보 보호 요청을 만들 때 Adobe 개인 정보 보호 핵심 서비스에 LGPD 규정이 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)
 
 **향상된 기능**
 
@@ -128,7 +128,7 @@ ht-degree: 95%
 * 사용자가 보고서를 변경할 수 없는 오류를 수정했습니다. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **새 Campaign 컨트롤 패널 CNAME 하위 도메인에 대한 인증서 갱신과 함께 릴리스** 가능합니다. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/cp-icon.png) **새 Campaign 컨트롤 패널 5월 릴리스**&#x200B;입니다. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
@@ -310,7 +310,7 @@ ht-degree: 95%
 * 테스트 프로필을 선택하고 업데이트할 때 발생하는 성능 문제를 수정했습니다. (CAMP-37976)
 * 랜딩 페이지를 통해 구독 또는 구독 취소 시 오류 페이지를 표시하는 문제를 수정했습니다. (CAMP-37771)
 * zip 포맷의 콘텐츠를 업로드할 때 HTML에서 참조되는 PNG 파일과 확장자가 대문자로 표시되는 문제를 수정했습니다. (CAMP-37913)
-* 게시에 테스트 프로필을 추가할 때 인앱 메시지가 전송되지 않던 문제를 수정했습니다.
+* 게재에 테스트 프로필을 추가할 때 인앱 메시지가 전송되지 않는 문제를 수정했습니다.
 * 데이터 보강 활동에 연결할 때 실패하는 외부 API 워크플로우 활동 오류를 수정했습니다.
 * SMS 메시지 상태가 잘못 표시되는 문제를 수정했습니다.
 * 다른 API 엔드포인트에 중복 항목이 표시되는 사용자 지정 리소스 문제를 수정했습니다.
