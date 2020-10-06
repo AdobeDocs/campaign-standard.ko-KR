@@ -12,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -28,22 +28,20 @@ CSV 파일을 업로드하여 배달할 컨텐츠를 생성하는 것은 다국�
 
 CSV 파일에 다국어 푸시가 필요한 열:
 
-* title
-* messageBody
-* 사운드
-* 배지
-* deplinkURI
-* category
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMutableContent
-* customFields
-* 로케일
-* language
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. title
+1. messageBody
+1. 사운드
+1. adge
+1. deplinkURI
+1. category
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMutableContent
+1. customFields
+1. 로케일
+1. language
+1. silentPush
 
 창에서 을 클릭하여 CSV 샘플 **[!UICONTROL Download a sample file]** 을 **[!UICONTROL Manage Content Variants]** 확인합니다. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -164,8 +162,8 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 | de_lu | 독일어 - 룩셈부르크 |
 | de_ch | 독일어 - 스위스 |
 | el_cy | 그리스어 - 키프로스 |
-| 이_gr | 그리스어 - 그리스 |
-| gu_in | 구자라티 - 인도 |
+| el_gr | 그리스어 - 그리스 |
+| 이_in | 구자라티 - 인도 |
 | he_il | 히브리어 - 이스라엘 |
 | hi_in | 힌디어 - 인도 |
 | hu_hu | 헝가리어 - 헝가리 |
