@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '2492'
-ht-degree: 93%
+source-wordcount: '2480'
+ht-degree: 89%
 
 ---
 
@@ -52,7 +52,9 @@ ht-degree: 93%
 
 ## 트랜잭션 메시지 개인화 {#personalizing-a-transactional-message}
 
-트랜잭션 메시지에서 개인화를 설정하려면 아래 단계를 따르십시오.
+이 예에서는 이벤트를 [만들 때 정의한 세 개의 필드를 추가하여 트랜잭션 메시지를 개인화하는 방법을 알아봅니다](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).이름, 마지막 제품 상담, 총 장바구니 금액
+
+To do this, you will [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
 
 1. 메시지 제목과 콘텐츠를 수정하려면 **[!UICONTROL Content]** 블록을 클릭합니다. 예제에서는 이미지와 텍스트가 포함된 템플릿을 선택합니다. 전자 메일 콘텐츠 템플릿에 대한 자세한 내용은 [템플릿을 사용하여 디자인](../../designing/using/using-reusable-content.md#designing-templates)을 참조하십시오.
 
@@ -64,9 +66,7 @@ ht-degree: 93%
    >
    >포기한 장바구니에 대한 링크는 사용자를 장바구니에 리디렉션하는 외부 URL에 대한 링크입니다. 이 매개 변수는 Adobe Campaign에서 관리되지 않습니다.
 
-1. 예제에서는 [이벤트를 만들 때](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 정의한 이름, 마지막 제품 상담, 총 장바구니 금액의 세 가지 필드를 추가하려고 합니다. 이렇게 하려면 메시지 콘텐츠에 [개인화 필드 삽입](../../designing/using/personalization.md#inserting-a-personalization-field)을 하십시오.
-
-1. **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;을(를) 통해 해당 필드를 찾아봅니다.
+1. 다음을 통해 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 개인화 필드를 찾습니다.이름, 마지막 제품 상담, 총 장바구니 금액
 
    ![](assets/message-center_7.png)
 
@@ -90,19 +90,17 @@ ht-degree: 93%
 
 트랜잭션 전자 메일의 콘텐츠에서 하나 이상의 데이터 컬렉션을 참조하는 제품 목록을 만들 수 있습니다. 예를 들어 장바구니 포기 전자 메일에는 사용자가 웹 사이트를 떠날 때 사용자의 카트에 들어 있던 모든 제품 목록과 이미지, 가격 및 각 제품에 대한 링크를 포함할 수 있습니다.
 
+이 [비디오에서 자세한 내용을 살펴보십시오](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
+
 >[!IMPORTANT]
 >
 >제품 목록은 [전자 메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 인터페이스를 통해 트랜잭션 전자 메일 메시지를 편집할 때만 사용할 수 있습니다.
-
-트랜잭션 메시지에 포기된 제품 목록을 추가하려면 아래 단계를 따르십시오.
-
-트랜잭션 전자 메일에서 제품 목록을 구성하는 데 필요한 단계를 설명하는 비디오 세트를 볼 수도 있습니다. 자세한 내용은 [이 페이지](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html)를 참조하십시오.
-
->[!NOTE]
 >
 >Adobe Campaign은 중첩된 제품 목록을 지원하지 않습니다. 즉, 다른 제품 목록 내에 제품 목록을 포함할 수 없습니다.
 
-### 제품 목록 정의 {#defining-a-product-listing}
+아래 예에서는 트랜잭션 메시지에 중단된 제품 목록을 추가하는 단계를 알아봅니다.
+
+### 1단계:제품 목록 정의 {#defining-a-product-listing}
 
 트랜잭션 메시지에서 제품 목록을 사용하려면 이벤트 수준에서 표시하려는 목록의 각 제품에 대한 제품 목록과 필드를 정의해야 합니다. 자세한 내용은 [데이터 컬렉션 정의](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)를 참조하십시오.
 
@@ -144,7 +142,7 @@ ht-degree: 93%
    >
    >목록의 요소를 세로( **[!UICONTROL Column]** )로 표시하려면 선택한 구조 구성 요소(2, 3 또는 4열)에 따라 최대 항목 수가 제한됩니다. 구조 구성 요소 선택에 대한 자세한 내용은 [전자 메일 구조 편집](../../designing/using/designing-from-scratch.md#defining-the-email-structure)을 참조하십시오.
 
-### 제품 목록 채우기 {#populating-the-product-listing}
+### 2단계:제품 목록 채우기 {#populating-the-product-listing}
 
 트랜잭션 전자 메일에 연결된 이벤트에서 오는 제품 목록을 표시하려면 아래 단계를 따르십시오.
 
