@@ -12,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 4%
@@ -129,4 +129,3 @@ The configuration steps are presented in the [Configuring an event to send a fol
 >[!NOTE]
 >
 >이벤트 구성을 만들 때 **[!UICONTROL Profile]** 타깃팅 차원을 선택한 경우 후속 메시지도 Adobe Campaign 마케팅 데이터베이스를 활용합니다. [프로필 트랜잭션 메시지](../../channels/using/profile-transactional-messages.md)를 참조하십시오.
-
