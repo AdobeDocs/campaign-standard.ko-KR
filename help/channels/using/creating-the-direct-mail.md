@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 96%
@@ -25,11 +25,11 @@ ht-degree: 96%
 
 DM 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사합니다. 다음 단계에서는 이 채널과 관련된 구성을 설명합니다. 기타 옵션에 대한 자세한 내용은 [이메일 만들기](../../channels/using/creating-an-email.md)를 참조하십시오.
 
-1. 새 DM 게재를 만듭니다. Adobe Campaign [홈페이지](../../start/using/interface-description.md#home-page), [캠페인](../../start/using/marketing-activities.md#creating-a-marketing-activity) 또는 [마케팅 활동 목록](../../start/using/programs-and-campaigns.md#creating-a-campaign)에서 만들 수 있습니다.
+>[!NOTE]
+>
+>워크플로우에서 DM 활동을 추가할 수도 있습니다. 자세한 내용은 [워크플로우](../../automating/using/direct-mail-delivery.md) 안내서를 참조하십시오.
 
-   >[!NOTE]
-   >
-   >워크플로우에서 DM 활동을 추가할 수도 있습니다. 자세한 내용은 [워크플로우](../../automating/using/direct-mail-delivery.md) 안내서를 참조하십시오.
+1. 새 DM 게재를 만듭니다. Adobe Campaign [홈페이지](../../start/using/interface-description.md#home-page), [캠페인](../../start/using/marketing-activities.md#creating-a-marketing-activity) 또는 [마케팅 활동 목록](../../start/using/programs-and-campaigns.md#creating-a-campaign)에서 만들 수 있습니다.
 
    ![](assets/direct_mail_1.png)
 
