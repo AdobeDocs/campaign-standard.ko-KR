@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 83%
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 83%
       + [DM 대상자 정의](channels/using/defining-the-direct-mail-audience.md)
       + [DM 콘텐츠 정의](channels/using/defining-the-direct-mail-content.md)
    + 트랜잭션 메시지 {#transactional-messaging}
-      + [트랜잭션 메시지 시작하기](channels/using/getting-started-with-transactional-msg.md)
+      + [트랜잭션 메시지 시작](channels/using/getting-started-with-transactional-msg.md)
       + [트랜잭션 메시지 제한 사항](channels/using/transactional-messaging-limitations.md)
       + [이벤트 트랜잭션 메시지](channels/using/event-transactional-messages.md)
       + [프로필 트랜잭션 메시지](channels/using/profile-transactional-messages.md)
@@ -148,8 +148,8 @@ ht-degree: 83%
       + [게재 미리 보기](sending/using/previewing-messages.md)
       + [교정본 보내기](sending/using/sending-proofs.md)
       + [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
-      + [이메일의 제목란 테스트](sending/using/testing-subject-line-email.md)
-      + [AI 기반의 이메일](sending/using/predictive.md)
+      + [이메일 제목란 테스트](sending/using/testing-subject-line-email.md)
+      + [AI 기반 이메일](sending/using/predictive.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
       + [컨트롤 그룹 추가](sending/using/control-group.md)
       + [트랩 사용](sending/using/using-traps.md)
@@ -252,9 +252,9 @@ ht-degree: 83%
       + [통합 요청](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
       + [Adobe I/O 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Campaign 통합을 위해 Dynamics 365 구성](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [캠페인 사용자 지정 리소스 및 Dynamics 365 사용자 지정 개체 매핑](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Campaign 사용자 지정 리소스 및 Dynamics 365 사용자 지정 엔터티 매핑](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
       + [ Dynamics 365 통합 사용](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [통합 보장](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [통합 가드 레일](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + 프로세스 및 데이터 관리 {#managing-processes-and-data}
    + [데이터 및 프로세스 관리 시작](automating/using/get-started-workflows.md)
    + 워크플로우 일반 작업 {#workflow-general-operation}
@@ -273,7 +273,7 @@ ht-degree: 83%
       + [외부 신호 활동에서 매개 변수 선언](automating/using/declaring-parameters-external-signal.md)
       + [워크플로우 호출 시 매개 변수 정의](automating/using/defining-parameters-calling-workflow.md)
       + [이벤트 변수 모니터링](automating/using/monitoring-events-variables.md)
-      + [외부 매개 변수를 사용하여 워크플로우 사용자 정의](automating/using/customizing-workflow-external-parameters.md)
+      + [외부 매개 변수를 사용하여 워크플로우 사용자 지정](automating/using/customizing-workflow-external-parameters.md)
       + [사용 사례](automating/using/use-case-calling-workflow.md)
    + 타겟팅 활동 {#targeting-activities}
       + [타겟팅 활동 기본 정보](automating/using/about-targeting-activities.md)
@@ -330,27 +330,27 @@ ht-degree: 83%
       + [워크플로우 사용 사례 기본 정보](automating/using/about-workflow-use-cases.md)
       + 게재 {#deliveries}
          + [보충 자료를 넣어 게재](automating/using/workflow-created-query-with-complement.md)
-         + [프로필 생성 날짜에 배달 만들기](automating/using/workflow-creation-date-query.md)
+         + [프로필이 만들어진 날짜에 게재 만들기](automating/using/workflow-creation-date-query.md)
          + [주간 게재](automating/using/workflow-weekly-offer.md)
          + [채널 간 게재 만들기](automating/using/workflow-cross-channel-delivery.md)
-         + [배달 전 중복 항목 식별](automating/using/identifying-duplicated-before-delivery.md)
-         + [생일 배달](automating/using/birthday-delivery.md)
-         + [이메일 및 DM 전달 연결](automating/using/coupling-email-direct-mail.md)
-         + [풍부한 필드가 포함된 이메일 보내기](automating/using/sending-email-enriched-fields.md)
+         + [게재 전 중복 식별](automating/using/identifying-duplicated-before-delivery.md)
+         + [생일 게재](automating/using/birthday-delivery.md)
+         + [이메일 및 DM 게재 연결](automating/using/coupling-email-direct-mail.md)
+         + [보강된 필드가 포함된 이메일 보내기](automating/using/sending-email-enriched-fields.md)
          + [추가 데이터를 사용하여 이메일 개인화](automating/using/personalizing-email-with-additional-data.md)
-         + [반복 푸시 알림 전송](automating/using/recurring-push-notifications.md)
+         + [되풀이하는 푸시 알림 전송](automating/using/recurring-push-notifications.md)
       + 세분화 및 타겟팅 {#segmentation-targeting}
          + [쿼리 샘플](automating/using/query-samples.md)
-         + [세련된 두 고객을 위한 결합](automating/using/union-on-two-refined-audiences.md)
+         + [정교화한 대상자 두 개 결합](automating/using/union-on-two-refined-audiences.md)
          + [위치에 세분화 만들기](automating/using/workflow-segmentation-location.md)
          + [열지 않은 사용자 재타겟팅](automating/using/workflow-cross-channel-retargeting.md)
-         + [서비스 가입자에 대한 증분 쿼리](automating/using/incremental-query-on-subscribers.md)
+         + [서비스의 구독자에 대한 증분 쿼리](automating/using/incremental-query-on-subscribers.md)
          + [연령 그룹에 따른 세분화](automating/using/segmentation-age-groups.md)
          + [타겟팅 차원과 다른 리소스 사용](automating/using/using-resources-different-from-targeting-dimensions.md)
       + 데이터 관리 {#data-management}
-         + [데이터베이스와 파일 대상 조정](automating/using/reconcile-file-audience-with-database.md)
+         + [데이터베이스로 파일 대상자 조정](automating/using/reconcile-file-audience-with-database.md)
          + [가져온 파일에서 데이터 중복 제거](automating/using/deduplicating-data-imported-file.md)
-         + [파일에 포함된 데이터로 프로필 데이터 강화](automating/using/enriching-profile-data-file.md)
+         + [ 파일에 포함된 데이터로 프로필 데이터 보강](automating/using/enriching-profile-data-file.md)
          + [외부 신호 활동 및 데이터 가져오기](automating/using/external-signal-data-import.md)
          + [외부 데이터로 데이터베이스 업데이트](automating/using/update-database-file.md)
          + [자동 파일 다운로드를 기반으로 데이터 업데이트](automating/using/update-data-automatic-download.md)
@@ -428,11 +428,11 @@ ht-degree: 83%
    + 모바일 채널 구성 {#configuring-mobile}
       + [푸시 추적 구현](administration/using/push-tracking.md)
       + [iOS 이미지 및 비디오 추가](administration/using/image-push-notification.md)
-      + [푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
+      + [ 푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
       + [로컬 알림 추적 구현](administration/using/local-tracking.md)
       + [Adobe 실행 동기화 FAQ](administration/using/syncwithlaunch-faq.md)
       + [Experience Platform SDK 통합 FAQ](administration/using/aep-faq.md)
-      + [Adobe Campaign Standard 사용 사례를 지원하기 위한 론치 규칙 구성](administration/using/configuring-rules-launch.md)
+      + [Adobe Campaign Standard 사용 사례를 지원하기 위한 Experience Platform Launch 규칙 구성](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard에서 지원되는 모바일 사용 사례](administration/using/supported-mobile-use-cases.md)
    + 애플리케이션 설정 {#application-settings}
       + [Campaign Standard 설정 기본 정보](administration/using/about-campaign-standard-settings.md)
@@ -446,7 +446,7 @@ ht-degree: 83%
 + API 작업 {#working-with-apis}
    + [Campaign Standard API 시작](api/using/get-started-apis.md)
    + Campaign Standard API 기본 정보 {#about-campaign-standard-apis}
-      + [Campaign Standard API를 사용해야 하는 이유](api/using/why-using-campaign-standard-apis.md)
+      + [Campaign Standard API의 장점](api/using/why-using-campaign-standard-apis.md)
       + [API 액세스 설정](api/using/setting-up-api-access.md)
    + 전반적 개념 {#global-concepts}
       + [반드시 알아야 할 사항](api/using/must-read.md)
