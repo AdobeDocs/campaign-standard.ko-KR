@@ -178,35 +178,35 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
  </thead> 
  <tbody> 
   <tr> 
-   <td> API URL '%s'을(를) 호출하는 중입니다.</td> 
+   <td> Invoking API URL '%s'.</td> 
    <td> <p>API URL 'https://example.com/api/v1/web-coupon?count=2'을(를) 호출하는 중입니다.</p></td> 
   </tr> 
   <tr> 
-   <td> %d ms에 있는 %s 때문에 API URL '%s'을(를) 재시도합니다. 시도 %d.</td> 
+   <td> Retrying API URL '%s' due to %s in %d ms, attempt %d.</td> 
    <td> <p>2364 ms에 있는 HTTP - 401 때문에 API URL 'https://example.com/api/v1/web-coupon?count=0'을 재시도합니다. 시도 2.</p></td>
   </tr> 
   <tr> 
-   <td> '%s'(%s / %s)에서 콘텐츠를 전송하는 중입니다.</td> 
+   <td> Transferring content from '%s' (%s / %s).</td> 
    <td> <p>'https://example.com/api/v1/web-coupon?count=2'(1234 / 1234)에서 콘텐츠를 전송하는 중입니다.</p></td> 
   </tr>
   <tr> 
-   <td> 공급자 ID '%s'에 대해 캐시된 액세스 토큰을 사용하는 중입니다.</td> 
+   <td> Using cached access token for provider ID '%s'.</td> 
    <td> <p>공급자 ID 'EXT25'에 대해 캐시된 액세스 토큰을 사용하는 중입니다. 참고: EXT25는 외부 계정의 ID(또는 이름)입니다. </p></td> 
   </tr>
   <tr> 
-   <td> 공급자 ID '%s'에 대한 서버에서 액세스 토큰을 가져왔습니다.</td> 
+   <td> Fetched access token from server for provider ID '%s'.</td> 
    <td> <p>공급자 ID 'EXT25'에 대한 액세스 토큰을 서버에서 가져왔습니다. 참고:EXT25는 외부 계정의 ID(또는 이름)입니다.</p></td> 
   </tr>
   <tr> 
-   <td> 오류로 인해 OAuth 액세스 토큰을 새로 고치는 중(HTTP:'%d').</td> 
+   <td> Refreshing OAuth access token due to error (HTTP: '%d').</td> 
    <td> <p>오류로 인해 OAuth 액세스 토큰을 새로 고치는 중(HTTP: '401').</p></td> 
   </tr>
   <tr> 
-   <td> OAuth 액세스 토큰을 새로 고치는 동안 오류가 발생했습니다(오류: '%d'). </td> 
+   <td> Error refreshing OAuth access token (error: '%d'). </td> 
    <td> <p>OAuth 액세스 토큰을 새로 고치는 동안 오류가 발생했습니다(오류: '404').</p></td> 
   </tr>
   <tr> 
-   <td> 시도 %d에서 지정된 외부 계정을 사용하여 OAuth 액세스 토큰을 가져오지 못했습니다. %d ms에서 다시 시도합니다.</td> 
+   <td> Failed to fetch the OAuth access token using the specified external account on attempt %d, retrying in %d ms.</td> 
    <td> <p>시도 1에서 지정된 외부 계정을 사용하여 OAuth 액세스 토큰을 가져오지 못했습니다. 1387 ms에서 다시 시도합니다.</p></td> 
   </tr>
  </tbody> 
@@ -225,92 +225,92 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 - API 요청 본문이 한도를 초과했습니다(한도: '%d').</td> 
+   <td> WKF-560250 - API request body exceeded limit (limit: '%d').</td> 
    <td> <p>API 요청 본문이 한도를 초과했습니다(한도: '5242880').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239 - API 응답이 한도를 초과했습니다(한도: '%d').</td> 
+   <td> WKF-560239 -  API response exceeded limit (limit: '%d').</td> 
    <td> <p>API 응답이 한도를 초과했습니다(한도: 5242880').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245 - API URL을 구문 분석할 수 없습니다(오류: '%d').</td> 
+   <td> WKF-560245 - API URL could not be parsed (error: '%d').</td> 
    <td> <p>API URL을 구문 분석할 수 없습니다(오류: '-2010').</p>
    <p> 참고: 이 오류는 API URL이 유효성 검사 규칙에 실패하면 기록됩니다.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - API URL 호스트는 'localhost' 또는 IP 주소 리터럴(URL 호스트: '%s')이 아니어야 합니다.</td> 
+   <td> WKF-560244 - API URL host must not be 'localhost', or IP address literal (URL host: '%s').</td> 
    <td> <p>API URL 호스트는 'localhost' 또는 IP 주소 리터럴(URL 호스트: 'localhost')이 아니어야 합니다.</p>
     <p>API URL 호스트는 'localhost' 또는 IP 주소 리터럴(URL 호스트: '192.168.0.5')이 아니어야 합니다.</p>
     <p>API URL 호스트는 'localhost' 또는 IP 주소 리터럴(URL 호스트: '[2001]')이 아니어야 합니다.</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238 - API URL은 보안 URL(https)이어야 합니다(요청된 URL: '%s').</td> 
+   <td> WKF-560238 - API URL must be a secure URL (https) (requested URL: '%s').</td> 
    <td> <p>API URL은 보안 URL(https)이어야 합니다(요청된 URL: 'https://example.com/api/v1/web-coupon?count=2').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 - 요청 본문 JSON을 만들지 못했습니다. '%s'을(를) 추가하는 동안 오류가 발생했습니다.</td> 
+   <td> WKF-560249 - 요청 본문 JSON을 만들지 못했습니다. Error when adding '%s'.</td> 
    <td> <p>요청 본문 JSON을 만들지 못했습니다. 'params'를 추가하는 동안 오류가 발생했습니다.</p>
     <p>요청 본문 JSON을 만들지 못했습니다. 'data'를 추가하는 동안 오류가 발생했습니다.</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246 - HTTP 헤더 키가 잘못되었습니다(헤더 키: '%s').</td> 
-   <td> <p>HTTP 헤더 키가 잘못되었습니다(헤더 키: '%s').</p>
+   <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
+   <td> <p>HTTP header key is bad (header key: '%s').</p>
    <p> 참고: 이 오류는 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>에 따라 사용자 지정 헤더 키의 유효성 검사에 실패하면 기록됩니다.</p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 - HTTP 헤더 키가 허용되지 않습니다(헤더 키: '%s').</td> 
+   <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
    <td> <p>HTTP 헤더 키가 허용되지 않습니다(헤더 키: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - HTTP 헤더 값이 잘못되었습니다(헤더 값: '%s').</td> 
-   <td> <p>HTTP 헤더 값이 잘못되었습니다(헤더 값: '%s'). </p>
+   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>참고: 이 오류는 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>에 따라 사용자 지정 헤더 값의 유효성 검사에 실패하면 기록됩니다.</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560240 - JSON 페이로드에 잘못된 속성 '%s'이(가) 있습니다.</td> 
+   <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
    <td> <p>JSON 페이로드에 잘못된 속성 'blah'가 있습니다.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560241 - 잘못된 포맷의 JSON 또는 허용되지 않는 포맷입니다.</td> 
+   <td> WKF-560241 - Malformed JSON or unacceptable format.</td> 
    <td> <p>잘못된 포맷의 JSON 또는 허용되지 않는 포맷입니다.</p>
    <p>참고: 이 메시지는 외부 API의 응답 본문을 구문 분석하는 경우에만 적용되며, 응답 본문이 이 활동에서 지정한 JSON 포맷을 준수하는지 여부를 유효성 검사하려고 할 때 기록됩니다.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 - 활동이 실패했습니다(이유: '%s').</td> 
+   <td> WKF-560246 - Activity failed (reason: '%s').</td> 
    <td> <p>HTTP 401 오류 응답으로 인해 활동이 실패하는 경우 - 활동이 실패했습니다(이유: 'HTTP - 401').</p>
         <p>내부 호출 실패로 인해 활동이 실패하는 경우 - 활동이 실패했습니다(이유: 'Rc - -N').</p>
         <p>잘못된 Content-Type 헤더로 인해 활동이 실패하는 경우 - 활동이 실패했습니다(이유: 'Content-Type - application/html').</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "OAuth 도우미를 초기화하는 동안 오류가 발생했습니다(오류:'%d')".</td> 
+   <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
    <td> <p>이 오류는 외부 계정에 구성된 특성을 사용하여 도우미를 초기화하는 동안 오류가 발생하여 활동이 내부 OAuth2.0 도우미 기능을 초기화할 수 없음을 나타냅니다.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - "HTTP 헤더 키가 허용되지 않습니다(헤더 키: '%s')."</td> 
+   <td> WKF-560279 - "HTTP header key is not allowed (header key: '%s')."</td> 
    <td> <p>이 경고(오류 아님) 메시지는 OAuth 2.0 외부 계정이 HTTP 헤더로 자격 증명을 추가하도록 구성되었지만, 사용되는 헤더 키는 예약된 헤더 키이므로 허용되지 않음을 나타냅니다.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 - '%s' ID의 외부 계정을 찾을 수 없습니다.</td> 
+   <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
    <td> <p>'EXT25' ID의 외부 계정을 찾을 수 없습니다.  참고: 이 오류는 더 이상 찾을 수 없는 외부 계정을 사용하도록 활동이 구성되어 있음을 나타냅니다. 이는 DB에서 계정이 삭제되었을 때 발생할 수 있으며 정상적인 운영 환경에서는 이러한 일이 발생하지 않을 가능성이 높습니다.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 - '%s' ID의 외부 계정을 사용할 수 없습니다.</td> 
+   <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
    <td> <p>'EXT25' ID의 외부 계정을 사용할 수 없습니다. 참고: 이 오류는 활동이 외부 계정을 사용하도록 구성되었지만 해당 계정이 비활성화되어 있거나 비활성 상태로 표시되었음을 나타냅니다.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 - 프로토콜이 지원되지 않습니다.</td> 
+   <td> WKF-560282 - Protocol not supported.</td> 
    <td> <p>이 오류는 활동과 연결된 외부 계정이 OAuth2.0 외부 계정이 아님을 나타냅니다. 따라서 활동 구성에 일부 손상 또는 수동 변경 사항이 없으면 이 오류가 발생하지 않습니다.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 - OAuth 액세스 토큰을 가져오지 못했습니다.</td> 
+   <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
    <td> <p>이 오류의 가장 일반적인 원인은 외부 계정의 잘못된 구성입니다(예: 연결 성공 여부를 테스트하지 않고 외부 계정 사용). 외부 계정의 URL/자격 증명이 변경될 수 있습니다.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 - 다음 위치에 페이지에 도달할 수 없습니다: %s.</td> 
+   <td> CRL-290199 - Cannot reach page at: %s.</td> 
    <td> <p>이 오류 메시지는 OAuth에 대해 설정할 때 외부 계정 UI 화면에 표시됩니다. 즉, 외부 인증 서버의 URL이 부정확하거나, 변경되었거나, 페이지 찾을 수 없음이라는 서버의 응답을 받았다는 뜻입니다.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 - 불완전하거나 잘못된 자격 증명.</td> 
+   <td> CRL-290200 - Incomplete/Incorrect credentials.</td> 
    <td> <p>이 오류 메시지는 OAuth에 대해 설정할 때 외부 계정 UI 화면에 표시됩니다. 즉, 인증 서버에 연결하기 위해 필요한 자격 증명이 잘못되었거나 누락되었다는 의미입니다.
 </p></td>
   </tr>
