@@ -12,7 +12,7 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -39,4 +39,3 @@ ht-degree: 2%
 * 프로필 수준에서 잘못된 주소차단 목록이에 추가됩니다.
 * 전달 기본 지표(KPI)가 업데이트되었습니다.
 * 배달 로그가 업데이트되었습니다.
-
