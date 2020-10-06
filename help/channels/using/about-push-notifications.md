@@ -13,10 +13,10 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -147,7 +147,7 @@ Android의 경우 Campaign은 알림 페이로드가 아닌 데이터 페이로�
 
 ### 캠페인에서 푸시 보고를 활성화하려면 어떻게 해야 합니까? {#push-reporting-enable}
 
-아래 단계를 따르십시오.
+아래의 단계를 수행하십시오.
 
 * 푸시 추적 포스트백을 구성합니다. 지침은 [여기에서 확인할 수 있습니다](../../administration/using/configuring-a-mobile-application.md).
 * Mobile Core에서 trackAction API를 구현합니다. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
@@ -164,5 +164,5 @@ Android의 경우 Campaign은 알림 페이로드가 아닌 데이터 페이로�
 
 예. 푸시 메시지는 기본 링크를 지원합니다. 링크는 다음을 포함해야 합니다.
 
-* 배달 추적이 제대로 작동하도록 하기 위해 배달 추적을 비활성화해야 한다고 말하는 언어입니다.
+* 배달 추적이 제대로 작동하도록 하기 위해 배달 추적을 비활성화해야 하는 언어입니다.
 * 링크 추적을 수행할 수 있는 파트너로 분기를 추가합니다. 분기 및 Adobe Campaign Standard 통합에 대한 자세한 내용은 이 [페이지를 참조하십시오](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
