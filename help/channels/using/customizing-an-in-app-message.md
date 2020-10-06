@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 100%
@@ -207,4 +207,3 @@ HTML을 가져온 후에는 여러 디바이스의 미리 보기 창에서 미�
    ![](assets/inapp_sending_3.png)
 
 1. 이제 메시지를 전송하고 게재 보고서를 통해 그 효과를 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../../reporting/using/in-app-report.md)을 참조하십시오.
-
