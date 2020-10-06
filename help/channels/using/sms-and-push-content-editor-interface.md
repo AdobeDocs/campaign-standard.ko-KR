@@ -12,9 +12,9 @@ discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -96,4 +96,3 @@ SMS 및 푸시 콘텐츠 편집기는 다음과 같은 기능을 제공합니다
 * 콘텐츠 블록 추가. 자세한 내용은 [콘텐츠 블록 추가](../../designing/using/personalization.md#adding-a-content-block)를 참조하십시오.
 * 다이내믹 텍스트 추가. 자세한 내용은 [다이내믹 텍스트 정의](../../channels/using/defining-dynamic-text.md)를 참조하십시오.
 * SMS 발신자명 개인화(SMS만 해당). 자세한 내용은 [SMS 구성](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)을 참조하십시오.
-
