@@ -12,11 +12,11 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Adobe Experience Cloud에서 모니터링하려는 고객 행동(예: 웹사이�
 
 Adobe Campaign에서 이전에 만든 트리거를 선택하고, 데이터마트 데이터로 이벤트 데이터를 강화하며, 해당 트리거에 연결된 트랜잭션 메시지 템플릿을 정의합니다. 예를 들어, 고객이 웹사이트 방문을 중단하면 Adobe Campaign으로 이벤트를 전송하여 15분 내로 해당 고객에게 보낼 리마케팅 이메일에 활용할 수 있습니다.
 
-다음 다이어그램에서는 이 통합이 작동하는 방식을 자세히 설명합니다.
+다음 다이어그램은 이 통합이 작동하는 방식을 자세히 설명합니다.
 
 ![](assets/triggers_diagram.png)
 
 **관련 항목:**
 
-* [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)에서 트리거의 여러 유형에 대해 알아봅니다.
+* [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/ko-KR/core-services/interface/activation/triggers.html)에서 트리거의 여러 유형에 대해 알아봅니다.
 * [사이트 활동에 기반한 리마케팅 메시지 트리거](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) 비디오를 시청합니다.
 * 두 가지 [중단 트리거 사용 사례](../../integrating/using/abandonment-triggers-use-cases.md)를 살펴봅니다.
 
