@@ -9,25 +9,26 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
 
 # 서비스 만들기 {#creating-a-service}
 
-서비스 생성은 서비스 리소스의 **POST** 요청을 사용하여 수행됩니다.
+서비스 생성은 서비스 리소스에 대한 **POST** 요청을 통해 수행됩니다.
 
-특정 특성을 사용하여 서비스를 만들려면 페이로드에 추가합니다. 그렇지 않으면 새 서비스가 기본 서비스로 만들어집니다.
+특정 특성을 가진 서비스를 만들려면 페이로드에 추가합니다. 그렇지 않으면 새 서비스가 기본 서비스로 만들어집니다.
 
 <br/>
 
 ***샘플 요청***
 
-특정 특성을 가진 서비스를 만들기 위한 샘플 POST 요청
+특정 특성을 가진 서비스를 만들기 위한 샘플 POST 요청.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
