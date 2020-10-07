@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -24,7 +22,7 @@ ht-degree: 86%
 
 ## Campaign에서 매핑된 트리거 만들기 {#creating-a-mapped-trigger-in-campaign}
 
-Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의함을 확인해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)를 참조하십시오. 트리거를 정의할 때 별칭을 활성화해야 합니다. Adobe Experience Cloud에 각 동작(검색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대한 새로운 트리거가 추가되어야 합니다.
+Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의함을 확인해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/ko-KR/core-services/interface/activation/triggers.html)를 참조하십시오. 트리거를 정의할 때 별칭을 활성화해야 합니다. Adobe Experience Cloud에 각 동작(검색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대한 새로운 트리거가 추가되어야 합니다.
 
 이제 기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만들어야 합니다.
 
