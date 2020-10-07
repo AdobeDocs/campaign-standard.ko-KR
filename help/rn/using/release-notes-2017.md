@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -408,7 +406,7 @@ _푸시 알림_
    <td> 이제 Adobe Campaign과 Dreamweaver의 통합을 통해 Adobe 솔루션을 사용하여 이메일 캠페인을 만드는 통합 프로세스를 경험할 수 있습니다.<br /> Dreamweaver에서 Adobe Campaign 이메일을 편집하고 두 솔루션 간에 컨텐츠를 완벽하게 동기화할 수 있습니다.<br /> 초기 릴리스의 경우 통합을 "Labs" 기능으로 사용할 수 있으며 Dreamweaver 시험판 베타에서만 작동합니다. 정품 인증을 받으려면 AC-DW-integration@adobe.com으로 문의하십시오.<br /> 자세한 내용은 이 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">비디오를 참조하십시오</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 수동 전송 시간 최적화<br /> </td> 
+   <td> Manual send time optimization<br /> </td> 
    <td> 이제 배달 수준에서 또는 워크플로우를 사용하여 수신자당 사용자 지정 전송 시간을 수동으로 정의할 수 있습니다. <br /> 두 가지 새로운 옵션을 사용할 수 있습니다. <br /> 
     <ul> 
      <li> 모든 수신자는 시간대를 고려하여 메시지를 수신합니다. </li> 
