@@ -10,66 +10,64 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
 
 # 쿼리 샘플 {#query-samples}
 
-이 섹션에서는 **[!UICONTROL Query]** 활동을 사용할 때의 사용 사례를 설명합니다. 활동 사용 방법에 대한 자세한 내용은 **[!UICONTROL Query]** 이 섹션을 참조하십시오 [](../../automating/using/query.md).
+이 섹션에서는 **[!UICONTROL Query]** 활동을 사용할 때의 사용 사례를 설명합니다. For more on how to use a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md).
 
-## 단순 프로필 속성에 대한 타깃팅 {#targeting-on-simple-profile-attributes}
+## 단순 프로필 속성에 대한 타겟팅 {#targeting-on-simple-profile-attributes}
 
-다음 예는 런던에 거주하는 18세에서 30세 사이의 남성을 대상으로 구성된 쿼리 활동을 보여줍니다.
+다음 예제에서는 런던에 거주하는 18세에서 30세 사이의 남성을 타겟으로 구성한 쿼리 활동을 보여줍니다.
 
 ![](assets/query_sample_1.png)
 
-## 이메일 특성에 대한 타깃팅 {#targeting-on-email-attributes}
+## 이메일 속성에 대한 타겟팅 {#targeting-on-email-attributes}
 
-다음 예는 이메일 주소 도메인이 &quot;orange.co.uk&quot;인 프로필을 대상으로 구성된 쿼리 활동을 보여줍니다.
+다음 예제에서는 이메일 주소 도메인이 &quot;orange.co.uk&quot;인 프로필을 타겟으로 구성한 쿼리 활동을 보여줍니다.
 
 ![](assets/query_sample_emaildomain.png)
 
-다음 예는 이메일 주소가 제공된 프로파일을 대상으로 구성된 쿼리 활동을 보여줍니다.
+다음 예제에서는 이메일 주소를 제공한 프로필을 타겟으로 구성한 쿼리 활동을 보여줍니다.
 
 ![](assets/query_sample_emailnotempty.png)
 
-## 오늘이 생일인 프로필 타깃팅 {#targeting-profiles-whose-birthday-is-today}
+## 오늘이 생일인 프로필 타겟팅 {#targeting-profiles-whose-birthday-is-today}
 
-다음 예에서는 생일이 오늘인 프로필을 대상으로 구성된 쿼리 활동을 보여줍니다.
+다음 예제에서는 생일이 오늘인 프로필을 타겟으로 구성한 쿼리 활동을 보여줍니다.
 
 1. 쿼리의 **[!UICONTROL Birthday]** 필터를 드래그합니다.
 
    ![](assets/query_sample_birthday.png)
 
-1. 을 **[!UICONTROL Filter type]** 설정하고 **[!UICONTROL Relative]** 선택합니다 **[!UICONTROL Today]**.
+1. **[!UICONTROL Filter type]**&#x200B;을(를) **[!UICONTROL Relative]**(으)로 설정하고 **[!UICONTROL Today]**&#x200B;을(를) 선택합니다.
 
    ![](assets/query_sample_birthday2.png)
 
-## 특정 배달을 연 타깃팅 프로필 {#targeting-profiles-who-opened-a-specific-delivery}
+## 특정 게재를 연 프로필 타겟팅 {#targeting-profiles-who-opened-a-specific-delivery}
 
-다음 예는 &quot;여름 시간&quot; 레이블이 있는 배달을 연 프로필을 필터링하도록 구성된 쿼리 활동을 보여줍니다.
+다음 예제에서는 &quot;Summer Time&quot; 레이블이 있는 게재를 연 프로필을 필터링하도록 구성한 쿼리 활동을 보여줍니다.
 
 1. 쿼리의 **[!UICONTROL Opened]** 필터를 드래그합니다.
 
    ![](assets/query_sample_opened.png)
 
-1. 배달을 선택하고 을 클릭합니다 **[!UICONTROL Confirm]**.
+1. 게재를 선택하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/query_sample_opened2.png)
 
-## 특정 이유로 배달이 실패한 타깃팅 프로필 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+## 특정한 이유로 게재에 실패한 프로필 타겟팅 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
-다음 예는 해당 사서함이 가득 차서 배달이 실패한 프로필을 필터링하도록 구성된 쿼리 활동을 보여줍니다. 이 쿼리는 관리 권한이 있고 조직 단위에 속하는 사용자만 사용할 수 있습니다( **[!UICONTROL All (all)]** 이 섹션 참조 [](../../administration/using/organizational-units.md)).
+다음 예제에서는 사서함이 가득 차서 게재에 실패한 프로필을 필터링하도록 구성한 쿼리 활동을 보여줍니다. 이 쿼리는 관리 권한이 있고 **[!UICONTROL All (all)]** 조직 단위에 속하는 사용자만 사용할 수 있습니다([이 섹션](../../administration/using/organizational-units.md) 참조).
 
-1. 배달 **[!UICONTROL Delivery logs]** 로그 테이블에서 직접 필터링하려면 리소스를 선택합니다(타깃팅 차원과 다른 리소스 [사용 참조](../../automating/using/using-resources-different-from-targeting-dimensions.md)).
+1. **[!UICONTROL Delivery logs]** 리소스를 선택하여 게재 로그 표에서 직접 필터링합니다([타겟팅 차원과 다른 리소스 사용](../../automating/using/using-resources-different-from-targeting-dimensions.md) 참조).
 
    ![](assets/query_sample_failure1.png)
 
@@ -77,19 +75,19 @@ ht-degree: 0%
 
    ![](assets/query_sample_failure2.png)
 
-1. 타깃팅할 실패 유형을 선택합니다. 우리의 경우 **[!UICONTROL Mailbox full]**.
+1. 타겟팅할 실패 유형을 선택합니다. 이 예제에서는 **[!UICONTROL Mailbox full]**&#x200B;입니다.
 
    ![](assets/query_sample_failure3.png)
 
-## 지난 7일 동안 타깃팅 프로필과 연결되지 않았습니다. {#targeting-profiles-not-contacted-during-the-last-7-days}
+## 지난 7일 동안 연락이 없는 프로필 타겟팅 {#targeting-profiles-not-contacted-during-the-last-7-days}
 
-다음 예는 지난 7일 동안 연락하지 않은 프로파일을 필터링하도록 구성된 쿼리 활동을 보여줍니다.
+다음 예제에서는 지난 7일 동안 연락하지 않은 프로필을 필터링하도록 구성한 쿼리 활동을 보여줍니다.
 
 1. 쿼리의 **[!UICONTROL Delivery logs (logs)]** 필터를 드래그합니다.
 
    ![](assets/query_sample_7days.png)
 
-   드롭다운 목록 **[!UICONTROL Does not exist]** 에서 선택한 다음 **[!UICONTROL Delivery]** 필터를 드래그합니다.
+   드롭다운 목록에서 **[!UICONTROL Does not exist]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Delivery]** 필터를 드래그합니다.
 
    ![](assets/query_sample_7days1.png)
 
@@ -97,16 +95,16 @@ ht-degree: 0%
 
    ![](assets/query_sample_7days2.png)
 
-## 특정 링크를 클릭한 대상 프로필 {#targeting-profiles-who-clicked-a-specific-link-}
+## 특정 링크를 클릭한 프로필 타겟팅 {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. 쿼리의 **[!UICONTROL Tracking logs (tracking)]** 필터를 드래그합니다.
 
    ![](assets/query_sample_trackinglogs.png)
 
-1. 필터를 **[!UICONTROL Label (urlLabel)]** 드래그합니다.
+1. **[!UICONTROL Label (urlLabel)]** 필터를 드래그합니다.
 
    ![](assets/query_sample_trackinglogs2.png)
 
-1. 필드에 **[!UICONTROL Value]** 배달에 링크를 삽입할 때 정의된 레이블을 입력한 다음 확인합니다.
+1. **[!UICONTROL Value]** 필드에서 게재에 링크를 삽입할 때 정의한 레이블을 입력한 다음 확인합니다.
 
    ![](assets/query_sample_trackinglogs3.png)
