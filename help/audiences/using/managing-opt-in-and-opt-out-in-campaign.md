@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -38,7 +36,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->랜딩 페이지를 사용하여 서비스 구독을 활성화할 수도 있습니다. For more on this, refer to [this page](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service).
+>랜딩 페이지를 사용하여 서비스 구독을 활성화할 수도 있습니다. 자세한 정보는 이 [페이지](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)를 참조하십시오.
 
 1. 랜딩 **[!UICONTROL Profile acquisition]** 페이지를 만듭니다( [이 섹션 참조](../../channels/using/getting-started-with-landing-pages.md)).
 1. 원하는 각 채널에 대한 랜딩 페이지 컨텐츠에 확인란을 추가한 다음 캠페인 데이터베이스의 해당 필드에 연결합니다.
