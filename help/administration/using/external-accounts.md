@@ -9,11 +9,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1774'
 ht-degree: 85%
@@ -94,7 +92,9 @@ SFTP 서버는 Campaign 컨트롤 패널에서 관리할 수 있습니다. 자�
 >[!NOTE]
 >
 >Campaign 컨트롤 패널은 AWS에서 호스팅된 고객의 관리자만 사용할 수 있습니다. 
-[여기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/faq.html#ims-org-id)에서 인스턴스가 AWS에서 호스팅되는지 확인하십시오.
+
+>
+>[여기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/faq.html#ims-org-id)에서 인스턴스가 AWS에서 호스팅되는지 확인하십시오.
 
 ## OAuth 2.0 계정 {#oauth-account}
 
