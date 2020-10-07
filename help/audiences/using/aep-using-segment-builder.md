@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Using the Segment Builder {#using-the-segment-builder}
+# 세그먼트 빌더 사용 {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
@@ -43,7 +41,7 @@ ht-degree: 2%
 
 세그먼트를 만들려면 다음 단계를 수행하십시오.
 
-이제 작업 공간에 세그먼트 빌더가 표시됩니다. 이 기능을 사용하면 대상을 만드는 데 사용될 Adobe Experience Platform의 데이터를 사용하여 세그먼트를 만들 수 있습니다.
+이제 작업 공간에 세그먼트 빌더가 표시됩니다. 이 플러그인을 사용하면 궁극적으로 고객을 만드는 데 사용할 Adobe Experience Platform 데이터를 사용하여 세그먼트를 만들 수 있습니다.
 
 1. 세그먼트 이름을 지정한 다음 설명을 입력합니다(선택 사항).
 
@@ -63,7 +61,7 @@ ht-degree: 2%
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. **[!UICONTROL Create segment]** 버튼을 클릭합니다. 
+1. **[!UICONTROL Create segment]** 버튼을 클릭합니다.
 
 ## 세그먼트에 적합한 필드 찾기
 
@@ -73,11 +71,11 @@ ht-degree: 2%
 
 필드는 탭으로 구성됩니다.
 
-* **[!UICONTROL Attributes]**: Adobe Campaign 데이터베이스 및/또는 Adobe Experience Platform에서 가져올 수 있는 기존 프로필 속성입니다. 프로필에는 첨부된 정적 정보(예: 이메일 주소, 거주 국가, 충성도 프로그램 상태 등)를 나타냅니다.
+* **[!UICONTROL Attributes]**:Adobe Campaign 데이터베이스 및/또는 Adobe Experience Platform에서 가져올 수 있는 기존 프로필 속성입니다. 프로필에는 첨부된 정적 정보(예: 이메일 주소, 거주 국가, 충성도 프로그램 상태 등)를 나타냅니다.
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: &quot;2주 동안 두 번 주문했던 사람&quot;과 같이 회사의 고객 접점과 약간의 상호 작용을 가진 소비자를 식별하는 활동입니다. Adobe Analytics에서 스트리밍하거나 타사 ETL 툴을 사용하여 Adobe Experience Platform으로 직접 유입할 수 있습니다.
+* **[!UICONTROL Events]**:&quot;2주 동안 두 번 주문했던 사람&quot;과 같이 회사의 고객 접점과 약간의 상호 작용을 가진 소비자를 식별하는 활동입니다. Adobe Analytics에서 스트리밍하거나 타사 ETL 툴을 사용하여 Adobe Experience Platform으로 직접 유입할 수 있습니다.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -85,7 +83,7 @@ ht-degree: 2%
 >
 >**다중 엔티티 세그먼테이션을** 사용하면 제품, 스토어 또는 기타 비프로필 클래스에 따라 추가 데이터로 프로필 데이터를 확장할 수 있습니다. 연결되면 추가 클래스의 데이터를 프로필 스키마가 기본인 것처럼 사용할 수 있습니다.
 >
->For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
+>자세한 내용은 [전용 설명서](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)를 참조하십시오.
 
 기본적으로 세그먼트 빌더에는 데이터가 이미 있는 필드가 표시됩니다. 데이터가 없는 필드를 포함하여 전체 스키마를 표시하려면 설정에서 **[!UICONTROL Show full XDM schema]** 옵션을 활성화합니다.
 
