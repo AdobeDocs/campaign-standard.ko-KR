@@ -1,5 +1,5 @@
 ---
-title: 프로필의 조직 구성 단위 업데이트
+title: 프로필의 조직 단위 업데이트
 description: API를 사용하여 프로필의 조직 구성 요소를 업데이트하는 방법을 알아봅니다.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
 
-# 프로필의 조직 구성 단위 업데이트 {#managing-organizational-units}
+# 프로필의 조직 단위 업데이트 {#managing-organizational-units}
 
-1. orgUnitBase **리소스에서 GET** 요청을 수행하여 조직 단위 PKey를 검색합니다.
+1. 조직 단위 PKey를 검색하려면 **orgUnitBase** 리소스에서 GET 요청을 수행합니다.
 1. 페이로드에서 원하는 조직 단위 PKey를 사용하여 프로필 PKey에서 PATCH 요청을 수행합니다.
 
 <br/>
@@ -52,7 +53,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 },
 ```
 
-페이로드에서 원하는 조직 단위의 PKey를 사용하여 프로파일에서 PATCH 요청을 수행합니다.
+페이로드에서 원하는 조직 단위의 PKey를 사용하여 프로필에 PATCH 요청을 수행합니다.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
