@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 9%
 
 ---
 
@@ -64,7 +65,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>emailRendering</td>
-                  <td>이메일 렌더링</td>
+                  <td>전자 메일 렌더링</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -142,7 +143,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>조직 구성 단위</td>
+                  <td>조직 단위</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -183,14 +184,14 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>stateLink(상태)</td>
+                  <td>stateLink(state)</td>
                   <td>주</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetData</td>
-                  <td>확장</td>
+                  <td>익스텐션</td>
                   <td>문자열 </td>
                   <td> </td>
                </tr>
