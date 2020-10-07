@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 7%
 
 ---
 
@@ -133,7 +134,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>조직 구성 단위</td>
+                  <td>조직 단위</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -150,7 +151,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
+                  <td>시작</td>
                   <td>시작 날짜</td>
                   <td>date </td>
                   <td> </td>
@@ -162,7 +163,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                   <td>
                      <ul>
                         <li>시작됨 - 시작됨 - 1</li>
-                        <li>편집 - 버전 - 0</li>
+                        <li>편집 - 에디션 - 0</li>
                         <li>완료 - 완료 - 2</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -199,7 +200,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
     </tr>
     <tr>
     <td>state</td>
-    <td>열거</td>
+    <td>열거형</td>
     </tr>
 </table>
 
@@ -242,7 +243,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
     </tr>
     <tr>
     <td>state</td>
-    <td>열거</td>
+    <td>열거형</td>
     </tr>
 </table>
 
@@ -259,7 +260,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
     </tr>
 </table>
 
-해당 기간에 대해 계획됨(계획별)
+지정된 기간(계획별)
 
 <table>
     <tr>
@@ -276,7 +277,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
     </tr>
 </table>
 
-주어진 기간 동안 제공(달력별)
+주어진 기간 동안(달력별)
 
 <table>
     <tr>
