@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 8d46ce28-0101-4f13-865a-2208ed6d6139
 context-tags: query,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
 
-# Personalizing an email with additional data {#example--personalizing-an-email-with-additional-data}
+# 추가 데이터를 사용하여 이메일 개인화 {#example--personalizing-an-email-with-additional-data}
 
 다음 예제에서는 쿼리에 다양한 유형의 데이터를 추가하여 이메일의 개인화 필드로 사용하는 방법을 보여줍니다. 활동에 의해 타깃팅된 데이터를 보강하는 방법에 대한 자세한 내용은 **[!UICONTROL Query]** 이 섹션을 참조하십시오 [](../../automating/using/query.md#enriching-data).
 
