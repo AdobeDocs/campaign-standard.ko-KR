@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
 discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 10%
@@ -22,7 +20,7 @@ ht-degree: 10%
 
 # Campaign을 Assets 핵심 서비스와 함께 사용하기{#working-with-campaign-and-assets-core-service}
 
-Assets 핵심 서비스 또는 Assets on Demand를 Adobe Campaign과 통합(Adobe Experience Cloud 환경의 구성에 따라 다름)하면 Adobe Campaign 이메일 및 랜딩 페이지에서 Adobe Experience Cloud 내에서 공유되는 모든 자산을 사용할 수 있습니다.
+자산 핵심 서비스 또는 자산 온디맨드(Adobe Experience Cloud 환경의 구성에 따라 다름)를 Adobe Campaign과 통합하면 Adobe Campaign 이메일 및 랜딩 페이지에서 Adobe Experience Cloud 내에서 공유되는 모든 자산을 사용할 수 있습니다.
 
 Adobe Experience Cloud에서 공유된 리소스는 이메일 및 랜딩 페이지에서 사용할 수 있습니다.
 
