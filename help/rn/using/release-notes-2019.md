@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '7624'
 ht-degree: 8%
@@ -540,7 +538,7 @@ ht-degree: 8%
      <li> 준비 시 URL에서 컨텐츠를 자동으로 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">검색하는 기능</a> </li> 
      <li> 즉시 사용 가능한 컨텐츠 템플릿 <a href="../../designing/using/using-reusable-content.md#content-templates">과 완벽하게 호환됩니다</a>. </li> 
     </ul> 
-    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">방법 비디오</a>를 참조하십시오. 개선 사항 및 수정 사항은 아래에 나와 있습니다.</p><p>따라서 기존 이메일 컨텐츠 편집기는 이제 더 이상 사용되지 않습니다. For more information, refer to this <a href="https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
+    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">방법 비디오</a>를 참조하십시오. 개선 사항 및 수정 사항은 아래에 나와 있습니다.</p><p>따라서 기존 이메일 컨텐츠 편집기는 이제 더 이상 사용되지 않습니다. For more information, refer to this <a href="https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
