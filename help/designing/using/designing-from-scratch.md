@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 2%
@@ -22,7 +20,7 @@ ht-degree: 2%
 
 # 이메일 디자인 기초 {#designing-an-email-content-from-scratch}
 
-이메일 컨텐츠 에디션을 마스터하는 방법을 살펴보십시오. 이메일 디자이너는 사전 정의된 컨텐츠 사용 여부와 상관없이 이메일 및 템플릿을 만들 수 있습니다.
+이메일 컨텐츠 에디션을 마스터하는 방법을 살펴보십시오. 이메일 디자이너는 사전 정의된 컨텐츠로 시작하거나 사용하지 않고 이메일 및 템플릿을 만들 수 있습니다.
 
 이메일 디자이너를 사용하여 이메일 컨텐츠를 처음부터 만들고 디자인하는 주요 단계는 다음과 같습니다.
 
@@ -32,7 +30,7 @@ ht-degree: 2%
 1. 이미지를 추가하고 이메일 텍스트를 편집합니다. 이미지 [삽입을 참조하십시오](../../designing/using/images.md#inserting-images).
 1. 개인화 필드, 링크 등을 추가하여 이메일을 개인화합니다. 개인화 필드 [삽입](../../designing/using/personalization.md#inserting-a-personalization-field), 링크 [삽입 및](../../designing/using/links.md#inserting-a-link) 이메일에 동적 컨텐트 [정의를 참조하십시오](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. 이메일의 제목 줄을 정의합니다. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. 이메일 미리 보기
+1. 이메일 미리 보기.
 1. 컨텐츠를 저장하고 대상을 정의하고 전송을 올바르게 예약했는지 확인한 후 메시지를 계속 진행합니다.
 
 이 [소개 비디오도 확인할 수 있습니다](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=kor).
