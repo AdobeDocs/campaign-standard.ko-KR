@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: f8ffe7af-e18c-4599-8fd0-fcd192565323
 context-tags: fork,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -29,11 +27,11 @@ ht-degree: 100%
 
 **[!UICONTROL Fork]** 활동을 사용하면 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다.
 
-## 사용의 컨텍스트{#context-of-use}
+## 사용의 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Fork]** 활동을 사용하면 동일한 워크플로우 내에서 독립적으로 여러 가지 다른 활동을 수행할 수 있습니다.
 
-## 구성{#configuration}
+## 구성 {#configuration}
 
 1. **[!UICONTROL Fork]** 활동을 워크플로우로 끌어서 놓습니다.
 1. 쿼리와 같은 앞에 오는 다른 활동과 연결합니다.
