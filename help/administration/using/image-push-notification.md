@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 2%
+ht-degree: 20%
 
 ---
 
@@ -29,21 +27,21 @@ ht-degree: 2%
 
 이 문서에서는 Adobe Campaign Standard iOS 푸시 알림에서 이미지를 표시하는 방법을 알아봅니다.
 
-## 1단계: 푸시 알림 설정 {#set-up-push}
+## 1단계:푸시 알림 설정 {#set-up-push}
 
 푸시 알림은 Experience Platform SDK에서 지원됩니다.
 
-푸시 알림을 수신하는 모바일 애플리케이션은 Adobe Campaign 인터페이스에서 관리자가 구성해야 합니다.
+푸시 알림을 수신하는 모바일 애플리케이션은 관리자가 Adobe Campaign 인터페이스에서 구성해야 합니다.
 
-Adobe Campaign과 Adobe Mobile Services를 모두 구성하면 캠페인에 모바일 애플리케이션의 데이터를 사용할 수 있습니다. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Adobe Campaign 및 Adobe Mobile Services를 모두 구성하면 캠페인에 대해 모바일 애플리케이션의 데이터를 사용할 수 있습니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html)를 참조하십시오.
 
-Experience Cloud SDK 응용 프로그램을 사용하여 푸시 알림을 전송하려면 Adobe Experience Platform Launch에서 모바일 앱을 설정하고 Adobe Campaign에서 구성해야 합니다. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Experience Cloud SDK 응용 프로그램을 사용하여 푸시 알림을 전송하려면 모바일 앱을 Adobe Experience Platform Launch에 설정하고 Adobe Campaign에 구성해야 합니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)를 참조하십시오.
 
-## 2단계: Adobe Campaign에서 푸시 알림 사용자 정의 {#customize-push}
+## 2단계:Adobe Campaign에서 푸시 알림 사용자 정의 {#customize-push}
 
-푸시 알림을 세밀하게 조정하기 위해 Adobe Campaign을 사용하면 푸시 알림을 디자인하는 동안 일련의 고급 옵션에 액세스할 수 있습니다.
+푸시 알림을 세밀하게 조정하기 위해 Adobe Campaign에서는 푸시 알림을 디자인하는 동안 고급 옵션 집합에 액세스할 수 있습니다.
 
-1. 푸시 알림을 만듭니다. For more on this, refer to this [page](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. 푸시 알림 만들기. 자세한 정보는 이 [페이지](../../channels/using/preparing-and-sending-a-push-notification.md)를 참조하십시오.
 
 1. 푸시 알림 컨텐츠 페이지에서 **[!UICONTROL Advanced options]** 섹션에 액세스합니다.
 
@@ -54,7 +52,7 @@ iOS 10 이상의 경우 이미지, gif, 오디오 및 비디오 파일을 삽입
 
 1. 푸시 알림을 미리 보고 저장합니다.
 
-## 3단계: 모바일 애플리케이션 코드 적용 {#mobile-app-code}
+## 3단계:모바일 애플리케이션 코드 적용 {#mobile-app-code}
 
 Adobe Campaign에서 푸시 알림을 사용자 지정한 후에는 장치에 이미지를 표시하도록 모바일 응용 프로그램을 구성해야 합니다.
 
@@ -68,7 +66,7 @@ Adobe Campaign에서 푸시 알림을 사용자 지정한 후에는 장치에 �
 
 1. 프로젝트에서 [!DNL Xcode] > **[!UICONTROL File]** > **[!UICONTROL New]** **[!UICONTROL Target]**&#x200B;를 선택합니다.
 
-1. 선택합니다 **[!UICONTROL Notification Service Extension]**.
+1. **[!UICONTROL Notification Service Extension]**&#x200B;을(를) 선택합니다.
 
    ![](assets/push_notif_advanced_12.png)
 
@@ -157,7 +155,7 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## 4단계: 푸시 전송 테스트 {#test-send-push}
+## 4단계:푸시 전송 테스트 {#test-send-push}
 
 이제 애플리케이션 구축 및 위의 2단계에서 만든 배달을 테스트할 수 있습니다. 푸시 알림 준비 및 전송에 대한 자세한 내용은 이 [페이지를 참조하십시오](../../channels/using/preparing-and-sending-a-push-notification.md).
 
