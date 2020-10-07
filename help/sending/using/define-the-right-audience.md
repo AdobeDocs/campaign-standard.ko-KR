@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 1%
 
 이 섹션에서 테스트 프로필 [에 대해 자세히 알아보십시오](../../audiences/using/managing-test-profiles.md).
 
-대상의 일부를 제외하여 [제어 그룹을](../../sending/using/control-group.md) 사용하여 캠페인의 영향력을 측정할 수 있습니다. 그러면 메시지를 받은 대상 모집단과 타깃팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기준으로 향후 캠페인에서 제어 그룹을 타깃팅할 수도 있습니다.
+You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. 그러면 메시지를 받은 대상 모집단과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기준으로 향후 캠페인에서 컨트롤 그룹을 타겟팅할 수도 있습니다.
 
 ## 중복 주소 제거 {#deduplicate-addresses}
 
