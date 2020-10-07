@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 5%
@@ -124,7 +122,7 @@ ht-degree: 5%
 
 고객 환영 메시지, 뉴스레터 및 재참여 이메일과 같은 즉시 사용 가능한 템플릿으로 이메일을 작성하고 개인화할 수 있습니다.
 
-1. 이메일을 만들어 내용을 엽니다. For more on this, see [Creating an email](../../channels/using/creating-an-email.md).
+1. 이메일을 만들어 내용을 엽니다. 자세한 내용은 이메일 [만들기를 참조하십시오](../../channels/using/creating-an-email.md).
 1. 홈 아이콘을 클릭하여 **[!UICONTROL Email Designer]** 홈 페이지에 액세스합니다.
 1. 탭을 **[!UICONTROL Templates]** 클릭합니다.
 1. 기본 HTML 템플릿을 선택합니다.
