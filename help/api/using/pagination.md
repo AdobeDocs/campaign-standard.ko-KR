@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
@@ -25,13 +26,13 @@ _lineCount **** 매개 변수를 사용하면 응답에 나열된 리소스 수�
 
 >[!NOTE]
 >
->항상 **다음** 노드에서 반환된 URL 값을 사용하여 페이지 매김 요청을 수행합니다.
+>페이지 매김 요청을 수행하려면 **다음** 노드에서 반환된 URL 값을 항상 사용하십시오.
 >
->The **_lineStart** request is calculated and must be used within the URL returned in the **next** node.
+>The **_lineStart** request is calculated and must always be used within the URL returned in the **next** node.
 
 <br/>
 
-***샘플 요청&#x200B;***
+***샘플 요청***
 
 프로필 리소스의 레코드 1개를 표시하는 샘플 GET 요청입니다.
 
@@ -64,7 +65,7 @@ _lineCount **** 매개 변수를 사용하면 응답에 나열된 리소스 수�
 }
 ```
 
-기본적으로 많은 양의 데이터를 갖는 테이블과 상호 작용할 때 **다음** 노드를 사용할 수 없습니다. 페이지 매김을 수행하려면 **_forcePagination=true** 매개 변수를 호출 URL에 추가해야 합니다.
+기본적으로 많은 양의 데이터로 테이블과 상호 작용할 때는 **다음** 노드를 사용할 수 없습니다. 페이지 매김을 수행하려면 호출 URL에 **_forcePagination=true** 매개 변수를 추가해야 합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -76,4 +77,4 @@ _lineCount **** 매개 변수를 사용하면 응답에 나열된 리소스 수�
 
 >[!NOTE]
 >
->테이블이 큰 것으로 간주되는 위의 레코드 수는 Campaign Standard XtkBigTableThreshold **옵션에서 정의됩니다** . 기본값은 100,000개의 레코드입니다.
+>테이블이 큰 것으로 간주되는 위의 레코드 수는 Campaign Standard **XtkBigTableThreshold** 옵션에서 정의됩니다. 기본값은 100,000개의 레코드입니다.
