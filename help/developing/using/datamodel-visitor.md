@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '144'
+ht-degree: 4%
 
 ---
 
@@ -52,7 +53,7 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
     </tr>
     <tr>
         <td>배달(배달)</td>
-        <td>전달</td>
+        <td>게재</td>
         <td>link </td>
         <td> </td>
     </tr>
@@ -118,7 +119,7 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
     </tr>
     <tr>
         <td>orgUnit(orgUnitBase)</td>
-        <td>조직 구성 단위</td>
+        <td>조직 단위</td>
         <td>link </td>
         <td> </td>
     </tr>
@@ -128,7 +129,7 @@ source-git-commit: 6263623a5a8999c475255709a7d0150437e68c0b
         <td>열거형(바이트) </td>
         <td>
             <ul>
-            <li>정의되지 않음 - 0</li>
+            <li>정의되지 않음 - 정의되지 않음 - 0</li>
             <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
             </ul>
         </td>
