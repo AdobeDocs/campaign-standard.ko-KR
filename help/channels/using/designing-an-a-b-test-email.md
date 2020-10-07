@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: email-messages
 discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
 
@@ -42,6 +40,7 @@ A/B 테스트의 특정 컨텍스트에서 다음을 수행합니다.
    * 발신자에 대한 A/B 테스트
    * 콘텐츠에 대한 A/B 테스트
    * 제목에 대한 A/B 테스트
+
    ![](assets/create_ab_testing.png)
 
    >[!NOTE]
