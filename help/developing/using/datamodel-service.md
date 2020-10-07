@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 5%
 
 ---
 
@@ -75,7 +76,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>history</td>
+                  <td>역사</td>
                   <td>구독 내역</td>
                   <td>collection </td>
                   <td> </td>
@@ -134,7 +135,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>입소문 - 입소문 - 1</li>
+                        <li>입소문 - 1</li>
                         <li>뉴스레터 - 뉴스레터 - 0</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -154,7 +155,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>조직 구성 단위</td>
+                  <td>조직 단위</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -165,7 +166,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
+                  <td>시작</td>
                   <td>시작 날짜</td>
                   <td>date </td>
                   <td> </td>
@@ -177,7 +178,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>subScenario(deliveryMCTemplateBase)</td>
+                  <td>subScenario (deliveryMCTemplateBase)</td>
                   <td>구독 확인</td>
                   <td>link </td>
                   <td> </td>
@@ -189,7 +190,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>구독</td>
+                  <td>가입</td>
                   <td>구독</td>
                   <td>collection </td>
                   <td> </td>
@@ -219,20 +220,20 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>ManigularLandingPage (landingPageUnsubscriptionBase)</td>
+                  <td>ManagementPage (landingPageUnsubscriptionBase)</td>
                   <td>구독 취소 랜딩 페이지</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>ManigularScenario(deliveryMCTemplateBase)</td>
+                  <td>Management(deliveryMCTemplateBase)</td>
                   <td>구독 취소 확인</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>MigratorScenarioEventType</td>
-                  <td>MigrantScenarioEventType</td>
+                  <td>MigratorScenarioEventType</td>
                   <td>문자열 </td>
                   <td> </td>
                </tr>
@@ -272,7 +273,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 </tr>
 <tr>
 <td>channel</td>
-<td>열거</td>
+<td>열거형</td>
 </tr>
 </table>
 
