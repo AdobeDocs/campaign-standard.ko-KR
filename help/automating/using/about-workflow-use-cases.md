@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72d8c46bab80e572a55488eeb5b6a924c0a9e900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 17%
+ht-degree: 71%
 
 ---
 
@@ -31,25 +29,25 @@ ht-degree: 17%
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 * [보충 자료를 넣어 게재](../../automating/using/workflow-created-query-with-complement.md)
-* [프로필 생성 날짜에 배달 만들기](../../automating/using/workflow-creation-date-query.md)
+* [프로필이 만들어진 날짜에 게재 만들기](../../automating/using/workflow-creation-date-query.md)
 * [주간 게재](../../automating/using/workflow-weekly-offer.md)
 * [채널 간 게재 만들기](../../automating/using/workflow-cross-channel-delivery.md)
-* [배달 전 중복 항목 식별](../../automating/using/identifying-duplicated-before-delivery.md)
-* [생일 배달](../../automating/using/birthday-delivery.md)
-* [이메일 및 DM 전달 연결](../../automating/using/coupling-email-direct-mail.md)
-* [풍부한 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
+* [게재 전 중복 식별](../../automating/using/identifying-duplicated-before-delivery.md)
+* [생일 게재](../../automating/using/birthday-delivery.md)
+* [이메일 및 DM 게재 연결](../../automating/using/coupling-email-direct-mail.md)
+* [보강된 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
 * [추가 데이터를 사용하여 이메일 개인화](../../automating/using/personalizing-email-with-additional-data.md)
-* [반복 푸시 알림 전송](../../automating/using/recurring-push-notifications.md)
+* [되풀이하는 푸시 알림 전송](../../automating/using/recurring-push-notifications.md)
 
 ## 세분화 및 타겟팅 {#segmentation-and-targeting}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [쿼리 샘플](../../automating/using/query-samples.md)
-* [세련된 두 고객을 위한 결합](../../automating/using/union-on-two-refined-audiences.md)
+* [정교화한 대상자 두 개 결합](../../automating/using/union-on-two-refined-audiences.md)
 * [위치에 세분화 만들기](../../automating/using/workflow-segmentation-location.md)
 * [열지 않은 사용자 재타겟팅](../../automating/using/workflow-cross-channel-retargeting.md)
-* [서비스 가입자에 대한 증분 쿼리](../../automating/using/incremental-query-on-subscribers.md)
+* [서비스의 구독자에 대한 증분 쿼리](../../automating/using/incremental-query-on-subscribers.md)
 * [연령 그룹에 따른 세분화](../../automating/using/segmentation-age-groups.md)
 * [타겟팅 차원과 다른 리소스 사용](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
@@ -57,9 +55,9 @@ ht-degree: 17%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
+* [데이터베이스로 파일 대상자 조정](../../automating/using/reconcile-file-audience-with-database.md)
 * [가져온 파일에서 데이터 중복 제거](../../automating/using/deduplicating-data-imported-file.md)
-* [파일에 포함된 데이터로 프로필 데이터 강화](../../automating/using/enriching-profile-data-file.md)
+* [ 파일에 포함된 데이터로 프로필 데이터 보강](../../automating/using/enriching-profile-data-file.md)
 * [외부 신호 활동 및 데이터 가져오기](../../automating/using/external-signal-data-import.md)
 * [외부 데이터로 데이터베이스 업데이트](../../automating/using/update-database-file.md)
 * [자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
