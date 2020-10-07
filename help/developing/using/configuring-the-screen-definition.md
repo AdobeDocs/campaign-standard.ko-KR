@@ -10,11 +10,9 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 100%
 
@@ -78,6 +76,7 @@ ht-degree: 100%
    * **[!UICONTROL Value]**: 읽기 전용 필드입니다.
    * **[!UICONTROL List]**: 테이블입니다.
    * **[!UICONTROL Separator]**: 요소를 카테고리로 나눕니다.
+
    ![](assets/schema_extension_23.png)
 
 1. 추가된 요소가 목록에 표시됩니다. 해당 레이블을 편집할 수 있습니다.
