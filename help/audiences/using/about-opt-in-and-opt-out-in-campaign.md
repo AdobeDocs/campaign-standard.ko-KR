@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -32,6 +30,6 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->옵트아웃은 **이메일 주소**&#x200B;또는 **전화 번호와** 연결된 검역이 아닌 **프로필**&#x200B;에 적용됩니다. 따라서 프로필을 선택 해제하면 프로필과 연결된 모든 주소가 배달에서 제외됩니다. 데이터베이스에 두 개의 프로필이 있을 경우 프로필 중 하나만 옵트아웃되므로 게재 타깃팅이 계속 됩니다. 그의 집안이 모두 배제되도록, 그것을 검역소에 넣으세요. For more on this, refer to [this page](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>옵트아웃은 **이메일 주소**&#x200B;또는 **전화 번호와** 연결된 검역이 아닌 **프로필**&#x200B;에 적용됩니다. 따라서 프로필을 선택 해제하면 프로필과 연결된 모든 주소가 배달에서 제외됩니다. 데이터베이스에 두 개의 프로필이 있을 경우 프로필 중 하나만 옵트아웃되므로 게재 타깃팅이 계속 됩니다. 그의 집안이 모두 배제되도록, 그것을 검역소에 넣으세요. 자세한 정보는 이 [페이지](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)를 참조하십시오.
 
-서비스 구독에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../audiences/using/about-subscriptions.md).
+For more on services subscriptions, refer to [this page](../../audiences/using/about-subscriptions.md).
