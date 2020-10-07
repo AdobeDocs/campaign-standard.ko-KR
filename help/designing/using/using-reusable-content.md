@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 0%
@@ -140,7 +138,7 @@ HTML 컨텐츠 템플릿은 **[!UICONTROL Resources]** 고급 메뉴의 **[!UICO
 
 **관련 항목**:
 
-* [전자 메일 만들기](../../channels/using/creating-an-email.md)
+* [이메일 만들기](../../channels/using/creating-an-email.md)
 * [이메일 디자이너를 위한 소개 비디오](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=kor)
 * [처음부터 이메일 컨텐츠 디자인](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
@@ -200,7 +198,7 @@ HTML 컨텐츠 템플릿은 **[!UICONTROL Resources]** 고급 메뉴의 **[!UICO
 >
 >조각을 수정하면 변경 사항이 사용된 이메일에 자동으로 전파됩니다. 자세한 내용은 조각 [정보를 참조하십시오](#about-fragments).
 
-### 컨텐츠 조각 만들기 {#creating-a-content-fragment}
+### Creating a content fragment {#creating-a-content-fragment}
 
 하나 이상의 이메일에서 필요에 따라 사용하도록 고유한 컨텐츠 조각을 만들 수 있습니다.
 
