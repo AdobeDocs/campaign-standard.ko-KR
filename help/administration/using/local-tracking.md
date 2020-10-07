@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -37,7 +35,7 @@ ht-degree: 0%
 
 Adobe Campaign Standard에 대한 추적을 구현하려면 모바일 응용 프로그램에 Mobile SDK가 포함되어야 합니다. 이러한 SDK는 [!DNL Adobe Mobile Services]
 
-추적 정보를 전송하려면 세 가지 변수가 필요합니다. 두 가지는 Adobe Campaign에서 받은 데이터의 일부이고 다른 하나는 노출, 클릭 또는 열기인지를 지정하는 작업 변수입니다.
+추적 정보를 전송하려면 세 가지 변수가 필요합니다.두 가지는 Adobe Campaign에서 받은 데이터의 일부이고 다른 하나는 노출, 클릭 또는 열기인지를 지정하는 작업 변수입니다.
 
 | 변수 | 값 |
 | :-: | :-: |
@@ -51,21 +49,21 @@ Adobe Campaign Standard에 대한 추적을 구현하려면 모바일 응용 프
 
 ### Android용 {#implement-local-impression-tracking-android}
 
-Adobe Experience Platform Mobile SDK는 로컬 알림을 트리거할 때 노출 횟수 추적을 시작합니다.
+Adobe Experience Platform 모바일 SDK는 로컬 알림을 트리거할 때 노출 횟수 추적을 시작합니다.
 
 ### iOS용 {#implement-local-impression-tracking-ios}
 
 노출 횟수 추적을 구현하는 방법을 설명하려면 애플리케이션의 세 가지 상태를 이해해야 합니다.
 
-* **전경**: 애플리케이션이 현재 활성 상태이고 전경의 화면에 있는 경우
+* **전경**:애플리케이션이 현재 활성 상태이고 전경의 화면에 있는 경우
 
-* **배경**: 응용 프로그램이 화면에 표시되지 않지만 프로세스를 닫지 않은 경우입니다. 홈 단추를 두 번 클릭하면 일반적으로 백그라운드에서 모든 애플리케이션이 표시됩니다.
+* **배경**:응용 프로그램이 화면에 표시되지 않지만 프로세스를 닫지 않은 경우입니다. 홈 단추를 두 번 클릭하면 일반적으로 백그라운드에서 모든 애플리케이션이 표시됩니다.
 
-* **해제/종료**: 응용 프로그램의 프로세스가 종료된 경우. 애플리케이션이 닫혀 있으면 Apple은 애플리케이션을 다시 시작할 때까지 해당 애플리케이션을 호출하지 않습니다. 즉, iOS에서 알림을 받은 시점을 절대로 알 수 없습니다.
+* **해제/종료**:응용 프로그램의 프로세스가 종료된 경우. 애플리케이션이 닫혀 있으면 Apple은 애플리케이션을 다시 시작할 때까지 해당 애플리케이션을 호출하지 않습니다. 즉, iOS에서 알림을 받은 시점을 절대로 알 수 없습니다.
 
 애플리케이션이 백그라운드에 있는 동안 노출 횟수 추적이 계속 작동하도록 하려면 &quot;컨텐츠 사용 가능&quot;을 전송하여 애플리케이션에서 추적을 수행해야 함을 알려야 합니다.
 
-Adobe Experience Platform Mobile SDK는 로컬 알림을 트리거할 때 노출 횟수 추적을 시작합니다.
+Adobe Experience Platform 모바일 SDK는 로컬 알림을 트리거할 때 노출 횟수 추적을 시작합니다.
 
 >[!CAUTION]
 >
@@ -153,7 +151,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 열린 상태를 추적하려면 의도를 만들어야 합니다. 의도 개체를 사용하면 특정 작업이 완료되면 Android OS에서 메서드를 호출할 수 있습니다. 이 경우 알림을 클릭하여 앱을 엽니다.
 
-이 코드는 클릭 노출 횟수 추적의 구현을 기반으로 합니다. 이제 의도 설정 시 추적 정보를 Adobe Campaign으로 다시 보내야 합니다. 이 경우 알림을 트리거한 Android View([!DNL Activity])는 사용자가 클릭함으로 인해 열리거나 전경 상태로 표시됩니다. 의 의도 개체에는 열림 추적에 사용할 수 있는 알림 데이터가 [!DNL Activity] 포함되어 있습니다.
+이 코드는 클릭 노출 횟수 추적의 구현을 기반으로 합니다. 이제 의도가 설정된 추적 정보를 Adobe Campaign으로 다시 보내야 합니다. 이 경우 알림을 트리거한 Android View([!DNL Activity])는 사용자가 클릭함으로 인해 열리거나 전경 상태로 표시됩니다. 의 의도 개체에는 열린 것을 추적하는 데 사용할 수 있는 알림 데이터가 [!DNL Activity] 포함되어 있습니다.
 
 MainActivity.java(확장 [!DNL Activity])
 
