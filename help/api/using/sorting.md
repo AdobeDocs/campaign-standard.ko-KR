@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 11%
 
 ---
 
@@ -21,13 +22,13 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 정렬은 오름차순이나 내림차순으로 사용할 수 있습니다. 이렇게 하려면 요청에 **%20desc** 또는 **%20asc** 매개 변수를 사용하십시오.
 
-필드를 정렬할 수 있는지 확인하려면 리소스 메타데이터에 "정렬 가능한" 매개 변수를 선택합니다. For more on this, refer to [this section](../../api/using/metadata-mechanism.md).
+필드를 정렬할 수 있는지 확인하려면 리소스 메타데이터에 &quot;정렬 가능한&quot; 매개 변수를 선택합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../api/using/metadata-mechanism.md)을 참조하십시오.
 
 <br/>
 
 ***샘플 요청***
 
-* GET 요청 샘플을 사용하여 알파벳순으로 정렬된 데이터베이스의 이메일을 검색합니다.
+* 알파벳순으로 정렬된 데이터베이스에서 이메일을 검색하기 위한 샘플 GET 요청입니다.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -37,7 +38,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   요청에 대한 응답입니다.
+   요청에 응답합니다.
 
    ```
    {
@@ -52,7 +53,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
    }
    ```
 
-* 데이터베이스에서 이메일을 내림차순으로 검색하는 샘플 GET 요청.
+* 데이터베이스에서 이메일을 내림차순으로 검색하기 위한 샘플 GET 요청입니다.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
@@ -62,7 +63,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   요청에 대한 응답입니다.
+   요청에 응답합니다.
 
    ```
    {
