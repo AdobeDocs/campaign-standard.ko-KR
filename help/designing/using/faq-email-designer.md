@@ -9,13 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c542859937ac60df9f76f5954a414575eac0e83d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -63,7 +61,7 @@ HTML 브레드크럼을 사용하여 패딩을 추가할 수 있습니다.
 
 ## 스타일을 테마로 저장할 수 있습니까?
 
-향후 재사용을 위해 스타일을 테마로 저장할 수 없습니다. 그러나 CSS 스타일은 컨텐츠 템플릿 또는 이메일에 저장할 수 있습니다.
+향후 재사용을 위해 스타일을 테마로 저장할 수 없습니다. 그러나 CSS 스타일은 콘텐츠 템플릿 또는 이메일에 저장할 수 있습니다.
 
 자세한 내용은 [스타일 참조](../../designing/using/styles.md)
 
