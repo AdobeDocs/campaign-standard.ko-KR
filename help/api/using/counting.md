@@ -1,5 +1,5 @@
 ---
-title: 카운트
+title: 카운팅
 description: 카운트 작업을 수행하는 방법을 알아봅니다.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,15 +9,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 2%
 
 ---
 
 
-# 카운트
+# 카운팅
 
 Adobe Campaign REST API는 요청에 있는 레코드 수를 계산할 수 있습니다. 이렇게 하려면 **카운트** 노드에서 반환되는 URL을 사용합니다.
 
@@ -25,7 +26,7 @@ Adobe Campaign REST API는 요청에 있는 레코드 수를 계산할 수 있�
 
 ***샘플 요청***
 
-"sms"에 해당하는 **messageType** 값이 있는 모든 서비스를 카운트하려면 **byChannel 필터로 GET 요청을** 수행하십시오.
+&quot;sms&quot;와 같은 **messageType** 값이 있는 모든 서비스를 계산하려면 채널 필터 **로 GET 요청을** 수행하십시오.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
