@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
@@ -26,7 +24,7 @@ ht-degree: 8%
 
 매개 변수를 정의하기 전에 다음을 확인하십시오.
 
-* 매개 변수가 **[!UICONTROL External Signal]** 활동에서 선언되었습니다. [](../../automating/using/declaring-parameters-external-signal.md)을 참조하십시오.
+* 매개 변수가 **[!UICONTROL External Signal]** 활동에서 선언되었습니다. [](../../automating/using/declaring-parameters-external-signal.md)을(를) 참조하십시오.
 * 신호 활동을 포함하는 워크플로우가 실행 중입니다.
 
 활동을 **[!UICONTROL End]** 구성하려면 아래 단계를 따르십시오.
