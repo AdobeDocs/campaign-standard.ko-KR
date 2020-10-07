@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -46,7 +47,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
         <td>emailFormat</td>
-        <td>이메일 포맷</td>
+        <td>이메일 형식</td>
         <td>열거형(바이트) </td>
         <td>
             <ul>
@@ -92,7 +93,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
 </table>
 
-상태 또는 유형(byStatusOrType)
+상태 또는 유형별(byStatusOrType)
 
 <table>
         <tr>
@@ -101,7 +102,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
         </tr>
         <tr>
         <td>status</td>
-        <td>열거</td>
+        <td>열거형</td>
         </tr>
         <tr>
         <td>type</td>
