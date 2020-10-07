@@ -9,29 +9,30 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
 
 # 프로필 만들기 {#creating-profiles}
 
-프로필 만들기는 프로필 리소스의 **POST** 요청을 사용하여 수행됩니다.
+프로필 만들기는 프로필 리소스에 대한 **POST** 요청을 사용하여 수행됩니다.
 
 >[!CAUTION]
 >
->orgUnit을 <b>생성된 프로필에</b> 연결하려면 프로필 리소스를 이 필드로 확장해야 하며, 확장자가 게시된 후에는 ProfileAndServicesExt <b>끝점에서 POST 요청을 수행해야 합니다</b> .
+>생성된 프로필에 <b>orgUnit</b> 을 연결하려면 프로필 리소스를 이 필드로 확장해야 하며, 확장자가 게시된 후에는 ProfileAndServicesExt <b>끝점에서 POST 요청을</b> 수행해야 합니다.
 >
->프로필의 리소스 확장에 대한 자세한 내용은 Campaign <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">설명서를 참조하십시오</a>.
+>프로필의 리소스 확장명에 대한 자세한 내용은 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">캠페인 설명서를 참조하십시오</a>.
 
 <br/>
 
 ***샘플 요청***
 
-"john.doe@mail.com" 이메일을 사용하여 프로파일을 만들기 위한 샘플 POST 요청.
+이메일 &quot;john.doe@mail.com&quot;으로 프로파일을 만들기 위한 샘플 POST 요청입니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -43,7 +44,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-새로 만든 프로필을 "john.doe@mail.com" 이메일 주소로 반환합니다.
+새로 만든 프로필을 &quot;john.doe@mail.com&quot; 이메일 주소로 반환합니다.
 
 ```
 {
