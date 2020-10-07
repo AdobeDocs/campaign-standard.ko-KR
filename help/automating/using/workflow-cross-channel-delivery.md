@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -54,7 +52,7 @@ ht-degree: 85%
 
 워크플로우에 쿼리 활동을 삽입하여 게재를 수신할 프로필을 타겟팅합니다.
 
-1. > **[!UICONTROL Activities]** 에서 **[!UICONTROL Targeting]**&#x200B;쿼리 활동을 끌어다 [놓습니다](../../automating/using/query.md) .
+1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
 1. **[!UICONTROL Target]** 탭에서 바로 가기를 탐색하고 [대상자](../../audiences/using/about-audiences.md) 중 하나를 선택합니다.
 1. 바로 가기를 편집 영역으로 끌어다 놓습니다. 선택한 바로 가기 유형에 따라 창이 나타납니다.
