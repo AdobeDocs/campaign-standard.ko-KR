@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -78,7 +76,7 @@ Adobe Campaign을 사용하면 모든 채널에서 캠페인을 실행, 측정 �
 자세한 내용:
 
 * [트랜잭션 메시지 기본 정보](../../channels/using/getting-started-with-transactional-msg.md)
-* [트랜잭션 메시지 시작하기](../../channels/using/getting-started-with-transactional-msg.md)
+* [트랜잭션 메시지 시작](../../channels/using/getting-started-with-transactional-msg.md)
 * [이벤트 트랜잭션 메시지](../../channels/using/event-transactional-messages.md)
 * [프로필 트랜잭션 메시지](../../channels/using/profile-transactional-messages.md)
 * [트랜잭션 푸시 알림](../../channels/using/transactional-push-notifications.md)
@@ -106,5 +104,5 @@ Campaign에는 고객 **정보를**&#x200B;캡처하고, 서비스에 가입을 
 * [이메일 컨텐츠 디자인](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEM 컨텐츠 가져오기](../../integrating/using/creating-email-experience-manager.md)
 * [워크플로우로 메시지 보내기](../../automating/using/about-channel-activities.md)
-* [통신 채널 자습서 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [통신 채널 자습서 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [사용 사례:크로스채널 전달 만들기](../../automating/using/workflow-cross-channel-delivery.md)
