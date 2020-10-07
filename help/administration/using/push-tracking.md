@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -39,7 +37,7 @@ ht-degree: 0%
 
 * **푸시 열기** - 푸시 알림이 장치에 전달되고 사용자가 알림을 클릭했을 때 앱이 열립니다.  이 방법은 푸시 클릭과 비슷하지만 알림이 해제된 경우 공개 푸시가 트리거되지 않습니다.
 
-Campaign Standard 추적을 구현하려면 모바일 앱에 Mobile SDK가 포함되어야 합니다. 이러한 SDK는 Adobe Mobile Services에서 사용할 수 있습니다. For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
+Campaign Standard 추적을 구현하려면 모바일 앱에 Mobile SDK가 포함되어야 합니다. 이러한 SDK는 Adobe Mobile Services에서 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../administration/using/configuring-a-mobile-application.md)를 참조하십시오.
 
 추적 정보를 전송하려면 세 가지 변수를 보내야 합니다. Campaign Standard에서 받은 데이터의 일부인 두 개 및 노출 수, **클릭**&#x200B;또는 **열기** 여부를 나타내는 작업 변수 **가**&#x200B;있습니다.
 
@@ -82,7 +80,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 * 사용자가 알림을 확인하지만 지웁니다.
 * 사용자가 알림을 보고 이를 클릭하여 열린 추적으로 전환합니다.
 
-이를 처리하려면 다음 두 가지 인터페이스를 사용해야 합니다. 알림을 클릭할 때와 알림을 취소할 수 있는 경우입니다.
+이를 처리하려면 다음 두 가지 인터페이스를 사용해야 합니다.알림을 클릭할 때와 알림을 취소할 수 있는 경우입니다.
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -154,7 +152,7 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 열기를 추적하려면 의도를 만들어야 합니다. 의도 개체를 사용하면 특정 작업이 완료될 때 Android OS에서 메서드를 호출할 수 있습니다. 이 경우 알림을 클릭하여 앱을 엽니다.
 
-이 코드는 클릭 노출 횟수 추적의 구현을 기반으로 합니다. 이제 **[!UICONTROL Intent]** 세트를 사용하여 추적 정보를 다시 Adobe Campaign Standard으로 보내야 합니다. 이 경우 앱을 앱의 특정 보기 **[!UICONTROL Open Intent]** 로 열도록 설정해야 합니다. 그러면 알림 데이터가 있는 onResume 메서드가 호출됩니다 **[!UICONTROL Intent Object]**.
+이 코드는 클릭 노출 횟수 추적의 구현을 기반으로 합니다. 이제 세트 **[!UICONTROL Intent]** 를 사용하여 추적 정보를 다시 Adobe Campaign Standard으로 보내야 합니다. 이 경우 앱을 앱의 특정 보기 **[!UICONTROL Open Intent]** 로 열도록 설정해야 합니다. 그러면 알림 데이터가 있는 onResume 메서드가 호출됩니다 **[!UICONTROL Intent Object]**.
 
 ```
 @Override
@@ -200,9 +198,9 @@ private void handleTracking() {
 
 iOS 알림의 작동 방식을 이해하려면 앱의 세 가지 상태를 자세히 설명해야 합니다.
 
-* **전경**: 앱이 현재 활성화되어 있고 현재 화면에 있는 경우(전경).
-* **배경**: is 앱이 화면에 표시되지 않지만 프로세스가 닫히지 않은 경우. 홈 단추를 두 번 클릭하면 일반적으로 백그라운드에 있는 모든 앱이 표시됩니다.
-* **해제/폐쇄**: 프로세스가 중단된 앱
+* **전경**:앱이 현재 활성화되어 있고 현재 화면에 있는 경우(전경).
+* **배경**:is 앱이 화면에 표시되지 않지만 프로세스가 닫히지 않은 경우. 홈 단추를 두 번 클릭하면 일반적으로 백그라운드에 있는 모든 앱이 표시됩니다.
+* **해제/폐쇄**:프로세스가 중단된 앱
 
 앱이 닫혀 있으면 Apple은 앱을 다시 시작할 때까지 앱을 호출하지 않습니다. 즉, iOS에서 알림을 받은 시점을 알 수 없습니다.
 
