@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 5%
@@ -49,7 +47,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래 나열
 먼저, Campaign Standard과 함께 제공되는 제공 툴에 대한 설명서를 참조하기 시작합니다.
 * [전달 모범 사례](../../sending/using/delivery-best-practices.md)
 * [보낸 사람 이름 맞춤화](../../designing/using/personalization.md#personalizing-the-sender)
-* [이메일의 제목란 테스트](../../sending/using/testing-subject-line-email.md)
+* [이메일 제목란 테스트](../../sending/using/testing-subject-line-email.md)
 * [보내는 시각 최적화](../../sending/using/optimizing-the-sending-time.md)
 * [메시지 미리 보기](../../sending/using/previewing-messages.md)
 * [이메일 렌더링](../../sending/using/email-rendering.md)
