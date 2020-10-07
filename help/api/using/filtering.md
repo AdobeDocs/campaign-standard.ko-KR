@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 1%
 
 ---
 
@@ -23,13 +24,13 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 각 리소스에 대해 필터를 사용할 수 있습니다. 리소스와 연결된 필터를 식별하려면 리소스 메타데이터에 대해 GET 요청을 수행해야 합니다. 이 요청은 지정된 리소스에 대해 모든 필터가 정의된 URL을 반환합니다. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
 
-필터의 메타데이터를 식별하고 필터 사용 방법을 결정하려면 이전에 반환한 URL에 대해 GET 요청을 수행해야 합니다.
+필터의 메타데이터를 식별하고 사용 방법을 결정하려면 이전에 반환된 URL에 대해 GET 요청을 수행해야 합니다.
 
 <br/>
 
 ***샘플 요청***
 
-아래의 샘플 페이로드에서는 "프로필" 리소스에 대한 "byText" 필터 메타데이터를 검색하는 방법을 보여줍니다. 먼저 "프로필" 리소스 메타데이터에 대해 GET 요청을 수행합니다.
+아래의 샘플 페이로드는 &quot;프로필&quot; 리소스에 대한 &quot;byText&quot; 필터 메타데이터를 검색하는 방법을 보여줍니다. 먼저 &quot;프로필&quot; 리소스 메타다에 대해 GET 요청을 수행합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -49,7 +50,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
   }
 ```
 
-URL에서 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터와 함께 프로필 리소스에 대한 필터 목록을 반환합니다.
+URL에 대해 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터와 함께 프로필 리소스에 대한 필터 목록을 반환합니다.
 
 ```
 {
@@ -69,9 +70,9 @@ URL에서 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터
 각 필터에 대해 동일한 메타데이터 구조를 사용할 수 있습니다.
 
 * @formType **및** @webPage **** 필드는 기술 필드입니다.
-* 필터 사용 방법에 대한 샘플이 **데이터** 필드에 제공됩니다.
-* 메타데이터 **** 노드는 필터 매개 변수에 대해 설명합니다.
-* 조건 **노드는** 필터의 용도를 설명합니다. 메타데이터 노드에 설명된 필터 매개 변수는 필터 조건을 만드는 데 사용됩니다. 각 필터 조건에 대해 **enabledIf** 가 true이면 **확장자가** 적용됩니다.
+* 데이터 **** 필드는 필터 사용 방법에 대한 샘플을 제공합니다.
+* 메타데이터 **** 노드는 필터 매개 변수를 설명합니다.
+* 조건 **노드는** 필터가 수행하려는 작업을 설명합니다. 메타데이터 노드에 설명된 필터 매개 변수는 필터 조건을 만드는 데 사용됩니다. 각 필터 조건에 대해 **enabledIf** 가 true이면 **expr** 이 적용됩니다.
 
 <br/>
 
@@ -95,7 +96,7 @@ URL에서 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
 
-단일 요청에 여러 필터를 결합할 수 있습니다.
+여러 필터를 단일 요청에 결합할 수 있습니다.
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/<filter1name>/<filter2name>?<filter1param>=<filter1value>&<filter2param>=<filter2value>`
 
@@ -103,7 +104,7 @@ URL에서 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터
 
 ***샘플 요청***
 
-* "이메일" 유형의 "서비스" 리소스를 검색하기 위한 샘플 GET 요청.
+* &quot;이메일&quot; 유형의 &quot;서비스&quot; 리소스를 검색하기 위한 샘플 GET 요청.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -113,7 +114,7 @@ URL에서 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   요청에 대한 응답입니다.
+   요청에 응답합니다.
 
    ```
    {
@@ -135,7 +136,7 @@ URL에서 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터
    }
    ```
 
-* 이메일 또는 성 필드에 "Doe"가 포함된 "프로필" 리소스를 검색하기 위한 샘플 GET 요청(byText 필터는 이메일 및 성 필드 모두를 검색합니다).
+* 이메일 또는 성 필드에서 &quot;Doe&quot;가 포함된 &quot;프로필&quot; 리소스를 검색하기 위한 샘플 GET 요청(byText 필터는 이메일 및 성 필드 모두를 검색합니다).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -145,7 +146,7 @@ URL에서 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   요청에 대한 응답입니다.
+   요청에 응답합니다.
 
    ```
    {
@@ -163,7 +164,7 @@ URL에서 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터
    }
    ```
 
-* "email" 유형 및 "sport" 레이블이 있는 서비스 리소스를 검색하기 위한 샘플 GET 요청.
+* &quot;email&quot; 유형 및 &quot;sport&quot; 레이블이 있는 서비스 리소스를 검색하기 위한 샘플 GET 요청.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -173,7 +174,7 @@ URL에서 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   요청에 대한 응답입니다.
+   요청에 응답합니다.
 
    ```
    {
@@ -197,20 +198,20 @@ URL에서 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터
 
 ## 사용자 정의 필터
 
-사용자 지정 필터를 사용하려면 Adobe Campaign Standard 인터페이스에서 사용자 정의 필터를 만들고 사용자 정의해야 합니다. 그러면 사용자 정의 필터는 박스 필터와 동일한 비헤이비어를 갖게 됩니다.
+사용자 정의 필터를 사용하려면 Adobe Campaign Standard 인터페이스에서 사용자 정의해야 합니다. 그러면 사용자 지정 필터는 박스 필터와 동일한 비헤이비어를 갖게 됩니다.
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
 자세한 내용은 Campaign Standard 설명서를 참조하십시오.
 
 * [필터 정의 구성](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [사용 사례:복합 식별 키를](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)사용하여 리소스 호출.
+* [사용 사례:복합 식별 키를 사용하여 리소스 호출](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
 ***샘플 요청***
 
-거래 금액이 100$ 이상인 "프로필" 리소스를 검색하기 위한 샘플 GET 요청. "byAmount" 필터는 Adobe Campaign Standard 인터페이스에서 처음 정의되었으며 "Transaction" 사용자 지정 테이블에 연결되었습니다.
+트랜잭션 금액이 100$ 이상인 &quot;프로필&quot; 리소스를 검색하기 위한 샘플 GET 요청. &quot;byAmount&quot; 필터는 먼저 Adobe Campaign Standard 인터페이스에서 정의되고 &quot;Transaction&quot; 사용자 지정 테이블에 연결되었습니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
