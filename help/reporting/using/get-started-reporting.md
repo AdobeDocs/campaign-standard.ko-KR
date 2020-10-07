@@ -1,5 +1,5 @@
 ---
-title: 동적 보고 시작하기
+title: 동적 보고 시작
 description: 내장된 보고서 또는 사용자 정의된 동적 보고서에서 캠페인의 성공을 분석합니다.
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -9,18 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
 
-# Get started with dynamic reporting {#get-started-reporting}
+# 동적 보고 시작 {#get-started-reporting}
 
 <table>
 <tr>
@@ -35,7 +33,7 @@ ht-degree: 12%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-동적 보고 **드래그 앤 드롭 인터페이스를**&#x200B;사용하면 데이터를 살펴보고 가장 중요한 고객 세그먼트에 대해 이메일 캠페인이 어떻게 수행되었는지 확인하고 한 곳에서 수신자에게 미치는 영향을 측정할 수 있습니다.
+With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
 
 **다양한 기능 덕분에 동적 보고서를** 관리할 수 있습니다.데이터를 실시간으로 새로 고치거나 보고서를 인쇄하거나 CSV 파일로 내보낼 수 있습니다. 또한 1샷 또는 반복 이메일을 통해 Campaign Standard 사용자와 보고서를 공유할 수도 있습니다.
 
