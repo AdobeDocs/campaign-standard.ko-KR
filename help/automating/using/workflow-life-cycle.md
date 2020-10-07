@@ -1,5 +1,5 @@
 ---
-title: 워크플로우 라이프사이클
+title: 워크플로우 수명 주기
 description: 워크플로우 라이프사이클에 대한 자세한 내용
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# 워크플로우 라이프사이클 {#life-cycle}
+# 워크플로우 수명 주기 {#life-cycle}
 
 워크플로우의 라이프 사이클에는 3개의 기본 단계가 포함되며 각 단계는 상태 및 색상으로 연결됩니다.
 
@@ -47,6 +45,6 @@ ht-degree: 0%
 
    워크플로우를 실행할 때 오류가 발생했습니다. 워크플로가 중지되었으며 사용자가 작업을 수행해야 합니다. 이 오류에 대한 자세한 내용을 보려면 ![](assets/printpreview_darkgrey-24px.png) 단추를 사용하여 워크플로우 로그에 [액세스하십시오(모니터링](../../automating/using/monitoring-workflow-execution.md)참조).
 
-마케팅 활동 목록을 사용하면 모든 워크플로우와 그 상태를 표시할 수 있습니다. 자세한 내용은 마케팅 활동 [관리를 참조하십시오](../../start/using/marketing-activities.md#about-marketing-activities).
+마케팅 활동 목록을 사용하면 모든 워크플로우와 그 상태를 표시할 수 있습니다. For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)
