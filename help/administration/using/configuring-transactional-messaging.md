@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '3169'
 ht-degree: 7%
@@ -34,7 +32,7 @@ Adobe Campaign에서 트랜잭션 메시지를 보내려면 먼저 이벤트 데
 
 * 웹 사이트 개발자가 사용할 API가 배포되고 이제 트랜잭션 이벤트를 전송할 수 있습니다. 웹 [사이트에서 이벤트 트리거 통합을 참조하십시오](#integrating-the-triggering-of-the-event-in-a-website).
 
-* 해당 트랜잭션 메시지가 자동으로 만들어집니다. 트랜잭션 [메시지 시작을 참조하십시오](../../channels/using/getting-started-with-transactional-msg.md).
+* 해당 트랜잭션 메시지가 자동으로 만들어집니다. See [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
 
 ## 이벤트 만들기 {#creating-an-event}
 
