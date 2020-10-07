@@ -1,5 +1,5 @@
 ---
-title: 전자 메일 만들기
+title: 이메일 만들기
 description: 다음 단계에 따라 Adobe Campaign에서 이메일을 한 번만 보냅니다.
 page-status-flag: never-activated
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
@@ -9,18 +9,16 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
 
-# 전자 메일 만들기{#creating-an-email}
+# 이메일 만들기{#creating-an-email}
 
 캠페인, Adobe Campaign [홈 페이지](../../start/using/marketing-activities.md#creating-a-marketing-activity)또는 [마케팅 활동 목록에서](../../start/using/interface-description.md#home-page)이메일을 만들 수 [있습니다](../../start/using/marketing-activities.md#about-marketing-activities). 또한 워크플로우에서 한 번 전송하고 되풀이되는 이메일을 만들 수도 있습니다.
 
@@ -54,7 +52,7 @@ ht-degree: 18%
 
    ![](assets/email_creation_4.png)
 
-   사전 정의된 컨텐츠 템플릿을 사용하거나 Dreamweaver 또는 Adobe Experience Manager을 사용하여 메시지를 직접 디자인할 수 있습니다. 디자이너가 아니더라도 이미 준비된 컨텐츠를 업로드하거나 URL에서 기존 컨텐츠를 가져올 수도 있습니다. 기존 [컨텐츠 선택을 참조하십시오](../../designing/using/using-existing-content.md).
+   사전 정의된 컨텐츠 템플릿을 사용하거나 Dreamweaver 또는 Adobe Experience Manager을 사용하여 메시지를 직접 디자인할 수 있습니다. 디자이너가 아니더라도 이미 준비된 컨텐츠를 업로드하거나 URL에서 기존 컨텐츠를 가져올 수도 있습니다. [기존 콘텐츠 선택](../../designing/using/using-existing-content.md)을 참조하십시오.
 
 1. 메시지 미리 보기 [메시지 미리 보기](../../sending/using/previewing-messages.md)를 참조하십시오.
 1. 이메일 만들기를 확인합니다.
