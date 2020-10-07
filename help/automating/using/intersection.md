@@ -9,11 +9,9 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
-internal: n
-snippet: y
-translation-type: ht
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
@@ -28,11 +26,11 @@ ht-degree: 100%
 
 **[!UICONTROL Intersection]** 활동을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다.
 
-## 사용의 컨텍스트{#context-of-use}
+## 사용의 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Intersection]** 활동은 일반적으로 인바운드 전환에서 모집단을 추가로 필터링하는 데 사용됩니다.
 
-## 구성{#configuration}
+## 구성 {#configuration}
 
 1. **[!UICONTROL Intersection]** 활동을 워크플로우로 끌어서 놓습니다.
 1. 쿼리와 같은 앞에 오는 다른 활동과 연결합니다.
