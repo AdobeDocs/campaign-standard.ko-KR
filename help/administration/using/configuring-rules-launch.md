@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Adobe Campaign Standard 사용 사례를 지원하기 위한 론치 규칙 구성 {#configuring-rules-launch}
+# Adobe Campaign Standard 사용 사례를 지원하기 위한 Experience Platform Launch 규칙 구성 {#configuring-rules-launch}
 
 즉, 데이터 요소 [!DNL Adobe Experience Platform Launch]와 규칙을 만들어 모바일 애플리케이션에서 모바일 애플리케이션으로 PII 및 기타 데이터를 전송해야 합니다 [!DNL Adobe Campaign Standard].
 
@@ -53,7 +51,7 @@ ht-degree: 0%
 
 1. 예를 들어 **[!UICONTROL Name]** 필드에 mcid를 **입력합니다**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Mobile Core]**. 그런 **[!UICONTROL Experience Cloud ID]** 다음 **[!UICONTROL Data element]** 유형 드롭다운으로 이동합니다.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 그런 **[!UICONTROL Experience Cloud ID]** 다음 **[!UICONTROL Data element]** 유형 드롭다운으로 이동합니다.
 
    ![](assets/do-not-localize/rules_1.png)
 
@@ -61,13 +59,13 @@ ht-degree: 0%
 
 1. 예를 들어 **[!UICONTROL Name]** 필드에 키를 **입력합니다**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Adobe Campaign Standard]**. 그런 **[!UICONTROL pkey]** 다음 **[!UICONTROL Data element]** 유형 드롭다운으로 이동합니다.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 그런 **[!UICONTROL pkey]** 다음 **[!UICONTROL Data element]** 유형 드롭다운으로 이동합니다.
 
 1. 캠페인 서버 데이터 요소를 만들려면 을 클릭합니다 **[!UICONTROL Add data element]**.
 
 1. 필드에 이름(예: **[!UICONTROL Name]** camp-server ****)을 입력합니다.
 
-1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Adobe Campaign Standard]**. 그런 다음 **[!UICONTROL Campaign Server]** 유형 **[!UICONTROL Data element]** 드롭다운에 입력합니다.
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 그런 다음 **[!UICONTROL Campaign Server]** 유형 **[!UICONTROL Data element]** 드롭다운에 입력합니다.
 
 ## 규칙 만들기 {#creating-rules}
 
@@ -92,13 +90,13 @@ ht-degree: 0%
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Collect PII]** , **[!UICONTROL Event type]** 드롭다운에
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Collect PII]** , **[!UICONTROL Event type]** 드롭다운에
 
 1. **[!UICONTROL Keep changes]**&#x200B;을(를) 클릭합니다.
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Send PII]** , **[!UICONTROL Action type]** 드롭다운에
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Send PII]** , **[!UICONTROL Action type]** 드롭다운에
 
 1. 에서 **[!UICONTROL URL]**&#x200B;다음 URL을 입력합니다.
 
@@ -157,13 +155,13 @@ ht-degree: 0%
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Adobe Campaign Standard]**. 그럼 **[!UICONTROL In-App click tracking]** , **[!UICONTROL Event type]** 드롭다운에
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 그럼 **[!UICONTROL In-App click tracking]** , **[!UICONTROL Event type]** 드롭다운에
 
 1. **[!UICONTROL Keep changes]**&#x200B;을(를) 클릭합니다.
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Send postback]** , **[!UICONTROL Event type]** 드롭다운에
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Send postback]** , **[!UICONTROL Event type]** 드롭다운에
 
 1. 에서 **[!UICONTROL URL]**&#x200B;다음 URL을 입력합니다.
 
@@ -195,13 +193,13 @@ ht-degree: 0%
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Track Action]** , **[!UICONTROL Event type]** 드롭다운에
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Track Action]** , **[!UICONTROL Event type]** 드롭다운에
 
 1. 드롭다운 **[!UICONTROL Action]** 에서 **[!UICONTROL Action]**&#x200B;를 선택하고 **[!UICONTROL equals]**&#x200B;추적 **을 입력합니다**.
 
 1. **[!UICONTROL Keep changes]**&#x200B;을(를) 클릭합니다. 그런 다음 **[!UICONTROL Actions]** 섹션에서 을 클릭합니다 **[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Send postback]** , **[!UICONTROL Action type]** 드롭다운에
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Send postback]** , **[!UICONTROL Action type]** 드롭다운에
 
 1. 에서 **[!UICONTROL URL]**&#x200B;다음 URL을 입력합니다.
 
@@ -231,7 +229,7 @@ ht-degree: 0%
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. 드롭다운 **[!UICONTROL Extension]** 에서 선택합니다 **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Send postback]** 드롭다운 **[!UICONTROL Action type]** 에서
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 그럼 **[!UICONTROL Send postback]** 드롭다운 **[!UICONTROL Action type]** 에서
 
 1. 이름(예: **Mobile Core - Send Location Postback)을 입력합니다**.
 
