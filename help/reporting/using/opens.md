@@ -1,19 +1,20 @@
 ---
 title: 열어 본 기록
-description: 열기 보고서를 사용하면 다양한 기준에 따라 가장 많이 본 배달을 알 수 있습니다.
-page-status-flag: 활성화 안 함
+description: 열기 보고서에서 다양한 기준에 따라 가장 많이 본 배달을 알아봅니다.
+page-status-flag: never-activated
 uuid: fe5453b6-cac1-43be-860e-c65c8a5168d6
-contentOwner: 자우비
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 보고
+audience: reporting
 content-type: reference
-topic-tags: 보고서 목록
+topic-tags: list-of-reports
 discoiquuid: c87188e8-cea7-4cc6-becf-b9788e5ec36b
 context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '64'
+ht-degree: 4%
 
 ---
 
@@ -24,7 +25,7 @@ The **[!UICONTROL Opens]** report identifies the deliveries that have been most 
 
 ![](assets/delivery_reports_opens.png)
 
-다음 4개의 표와 차트를 통해 이메일을 연 총 받는 사람 수를 분류합니다.
+4개의 테이블과 차트에서 다음을 기준으로 이메일을 연 총 수신자 수를 분류합니다.
 
 * 브라우저
 * 장치
