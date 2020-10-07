@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
@@ -28,10 +26,10 @@ Adobe Campaign은 애플리케이션에서 바로 중요한 시스템 활동에 
 
 다음 개체에 대한 알림을 구성할 수 있습니다.
 
-* **[!UICONTROL A/B Test emails]**: 이메일 생성자 및 수정자에 변형이 선택되었거나(자동 모드) 변형을 선택해야 한다는 알림이 표시됩니다(수동 모드). 알림을 클릭하면 해당 이메일이 표시됩니다. 기본 A/B 테스트 템플릿에서 기본적으로 알림이 활성화됩니다. 비활성화하려면 이메일 또는 이메일 템플릿의 속성을 편집하고 **일반 > 알림 아래에 있는 상자의 선택을 취소합니다**. A/B 테스트 이메일에 대한 자세한 내용은 AB 테스트 [만들기를 참조하십시오](../../channels/using/designing-an-a-b-test-email.md). 이메일 속성에 대한 자세한 내용은 이메일 [속성 목록을 참조하십시오](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+* **[!UICONTROL A/B Test emails]**:이메일 생성자 및 수정자에 변형이 선택되었거나(자동 모드) 변형을 선택해야 한다는 알림이 표시됩니다(수동 모드). 알림을 클릭하면 해당 이메일이 표시됩니다. 기본 A/B 테스트 템플릿에서 기본적으로 알림이 활성화됩니다. 비활성화하려면 이메일 또는 이메일 템플릿의 속성을 편집하고 **일반 > 알림 아래에 있는 상자의 선택을 취소합니다**. A/B 테스트 이메일에 대한 자세한 내용은 AB 테스트 [만들기를 참조하십시오](../../channels/using/designing-an-a-b-test-email.md). 이메일 속성에 대한 자세한 내용은 이메일 [속성 목록을 참조하십시오](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**: 워크플로우가 오류일 때마다 선택한 보안 그룹의 각 구성원에게 알림(이메일 및 인앱 알림)을 받습니다. 알림 또는 이메일 링크를 클릭하면 해당 워크플로우가 표시됩니다. 알림 기능은 기본 워크플로 템플릿에서 기본적으로 비활성화됩니다. 활성화하려는 경우 워크플로우 또는 워크플로우 템플릿의 속성을 편집하고 **일반 > 실행 > 오류 관리 > 감독자 아래에 보안 그룹을 추가합니다**. 보안 그룹에 대한 자세한 내용은 그룹 및 사용자 [관리를 참조하십시오](../../administration/using/managing-groups-and-users.md). 워크플로우 속성에 대한 자세한 내용은 워크플로우 [속성을 참조하십시오](../../automating/using/managing-execution-options.md).
+* **[!UICONTROL Workflows]**:워크플로우가 오류일 때마다 선택한 보안 그룹의 각 구성원에게 알림(이메일 및 인앱 알림)을 받습니다. 알림 또는 이메일 링크를 클릭하면 해당 워크플로우가 표시됩니다. 알림 기능은 기본 워크플로 템플릿에서 기본적으로 비활성화됩니다. 활성화하려는 경우 워크플로우 또는 워크플로우 템플릿의 속성을 편집하고 **일반 > 실행 > 오류 관리 > 감독자 아래에 보안 그룹을 추가합니다**. 보안 그룹에 대한 자세한 내용은 그룹 및 사용자 [관리를 참조하십시오](../../administration/using/managing-groups-and-users.md). 워크플로우 속성에 대한 자세한 내용은 워크플로우 [속성을 참조하십시오](../../automating/using/managing-execution-options.md).
 
    ![](assets/pulse_1.png)
