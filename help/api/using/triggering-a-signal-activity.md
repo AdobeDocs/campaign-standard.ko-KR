@@ -9,33 +9,34 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
 
 # 신호 활동 트리거 {#triggering-a-signal-activity}
 
-Adobe Campaign Standard 워크플로우에는 하나 이상의 외부 신호 **활동이** 있을 수 있습니다. 이러한 활동은 트리거되기를 기다리는 &#39;리스너&#39;입니다.
+Adobe Campaign Standard 워크플로우에서는 하나 이상의 **외부 신호** 활동이 있을 수 있습니다. 이러한 활동은 트리거되기를 기다리는 &#39;청취자&#39;입니다.
 
-Campaign Standard API를 사용하면 외부 **신호** 활동을 트리거하여 워크플로우를 호출할 수 있습니다. API 호출에는 워크플로우의 이벤트 변수(타깃팅할 대상 이름, 가져올 파일 이름, 메시지 내용의 일부 등)에 인제스트될 매개 변수가 포함될 수 있습니다. 이렇게 하면 캠페인 자동화를 외부 시스템과 쉽게 통합할 수 있습니다.
+Campaign Standard API를 사용하면 **외부 신호** 활동을 트리거하여 워크플로우를 호출할 수 있습니다. API 호출에는 워크플로우의 이벤트 변수(타깃팅할 대상 이름, 가져올 파일 이름, 메시지 컨텐츠의 일부 등)로 인제스트될 매개 변수가 포함될 수 있습니다. 이렇게 하면 캠페인 자동화를 외부 시스템과 쉽게 통합할 수 있습니다.
 
 >[!NOTE]
 >
->외부 신호 활동은 10분마다 더 자주 트리거될 수 없으며 대상 워크플로우가 이미 실행 중이어야 합니다.
+>외부 신호 활동은 10분마다 이상 트리거할 수 없으며 대상 워크플로우가 이미 실행되고 있어야 합니다.
 
 워크플로우를 트리거하려면 아래 단계를 따르십시오.
 
-1. 워크플로우에 **대해** GET 요청을 수행하여 외부 신호 활동 트리거 URL을 검색합니다.
+1. 외부 신호 활동 트리거 URL을 검색하기 위해 워크플로우에서 **GET** 요청을 수행합니다.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 반환된 **URL에** 대해 POST 요청을 수행하여 신호 활동을 트리거하고 페이로드에 **&quot;source&quot;** 매개 변수를 사용합니다. 이 속성은 필수이며, 트리거 요청 소스를 표시할 수 있습니다.
+1. 반환된 URL에 **POST** 요청을 수행하여 신호 활동을 트리거하고 페이로드에 **&quot;source&quot;** 매개 변수를사용합니다. 이 속성은 필수이며, 트리거 요청 소스를 표시할 수 있습니다.
 
-매개 변수를 사용하여 워크플로우를 호출하려면 **&quot;parameters&quot;** 속성을 사용하여 페이로드에 추가합니다. 구문은 매개 변수의 이름 뒤에 해당 값이 오도록 구성됩니다(다음 유형이 지원됩니다. **문자열**, **숫자**, **부울** , **날짜/시간,**&#x200B;시간).
+매개 변수를 사용하여 워크플로우를 호출하려면 **&quot;parameters&quot; 속성을 사용하여 페이로드에** 추가합니다. 구문은 매개 변수의 이름 뒤에 해당 값이 옵니다(다음 유형이 지원됩니다. **문자열**, **번호**, **부울** 및 **날짜/시간**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -58,7 +59,7 @@ Campaign Standard API를 사용하면 외부 **신호** 활동을 트리거하�
 
 >[!NOTE]
 >
->페이로드에 매개 변수를 추가할 때는 **이름** 및 **유형** 값이 외부 신호 활동에 선언된 정보와 일치하는지 확인하십시오. 또한 페이로드 크기는 64Ko를 초과할 수 없습니다.
+>페이로드에 매개 변수를 추가할 때는 **이름** 및 **유형** 값이 외부 신호 활동에서 선언된 정보와 일치하는지 확인하십시오. 게다가 페이로드 크기는 64Ko를 초과할 수 없습니다.
 
 <br/>
 
@@ -74,7 +75,7 @@ Campaign Standard API를 사용하면 외부 **신호** 활동을 트리거하�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-워크플로우 신호 활동 및 관련 트리거 URL을 반환합니다.
+워크플로우 신호 활동 및 관련 트리거 url을 반환합니다.
 
 ```
 {
@@ -93,7 +94,7 @@ Campaign Standard API를 사용하면 외부 **신호** 활동을 트리거하�
 }
 ```
 
-신호 활동을 트리거하려면 트리거 URL에 &quot;소스&quot;를 사용하여 POST 요청을 수행합니다. 매개 변수를 사용하여 워크플로우를 호출하려면 &quot;매개 변수&quot; 속성을 추가합니다.
+신호 활동을 트리거하려면 &quot;소스&quot;를 사용하여 트리거 url에 POST 요청을 수행합니다. 매개 변수를 사용하여 워크플로우를 호출하려면 &quot;매개 변수&quot; 속성을 추가합니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -117,7 +118,7 @@ Campaign Standard API를 사용하면 외부 **신호** 활동을 트리거하�
 
 <!-- + réponse -->
 
-매개 변수 중 하나가 외부 신호 활동에서 선언되지 않으면 POST 요청은 아래 오류를 반환하여 누락된 매개 변수를 가리킵니다.
+외부 신호 활동에서 매개 변수 중 하나를 선언하지 않으면 POST 요청은 아래 오류를 반환하여 누락된 매개 변수를 가리킵니다.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.
