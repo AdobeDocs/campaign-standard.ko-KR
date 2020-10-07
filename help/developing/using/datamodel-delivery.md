@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 6%
 
 ---
 
@@ -88,7 +89,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>broadLogs</td>
-                  <td>배달 로그</td>
+                  <td>게재 로그</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
@@ -158,7 +159,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>대량 배달 - 대량 - 1</li>
+                        <li>대량 배달 - 벌크 - 1</li>
                         <li>중간 소싱 - 중간 소싱 - 4</li>
                         <li>설명 - 설명 - 2</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -208,7 +209,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>고유 - 1회 - 0</li>
+                        <li>고유 - 1Time - 0</li>
                         <li>연속 - 연속 - 1</li>
                         <li>메시지 센터 - 메시지 센터 - 2</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -229,7 +230,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>hasAttachments</td>
-                  <td>첨부된 파일 추가</td>
+                  <td>첨부 파일 추가</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -239,7 +240,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>트랜잭션 이메일 - EmailLightning - 60</li>
+                        <li>트랜잭션 이메일 - 이메일 번개 - 60</li>
                         <li>팩스 - 팩스 - 4</li>
                         <li>모바일(SMS) - sms - 1</li>
                         <li>반복 이메일 - 이메일 새로 고침 - 30</li>
@@ -247,7 +248,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                         <li>전화 - 전화 - 2</li>
                         <li>기타 - 기타 - 120</li>
                         <li>반복 SMS - smsRefresh - 31</li>
-                        <li>모바일 애플리케이션 - pushNotification - 40</li>
+                        <li>모바일 애플리케이션 - 푸시 알림 - 40</li>
                         <li>트랜잭션 SMS - smsLightning - 61</li>
                         <li>이메일 - 이메일 - 0</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -262,7 +263,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>isMaster</td>
-                  <td>마스터</td>
+                  <td>기본</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -274,13 +275,13 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>반복</td>
-                  <td>배달</td>
+                  <td>게재</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>job</td>
-                  <td>작업</td>
+                  <td>직업</td>
+                  <td>Job</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
@@ -291,7 +292,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>키피스</td>
+                  <td>까피스</td>
                   <td>지표</td>
                   <td>item </td>
                   <td> </td>
@@ -337,19 +338,19 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>매핑(deliveryMapping)</td>
-                  <td>타겟 매핑</td>
+                  <td>대상 매핑</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>master(deliveryBase)</td>
-                  <td>마스터 인스턴스</td>
+                  <td>기본 인스턴스</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpi</td>
-                  <td>마스터 지표</td>
+                  <td>기본 지표</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -364,7 +365,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                         <li>이메일 - 이메일 - 0</li>
                         <li>전화 - 전화 - 2</li>
                         <li>DM - 종이 - 3</li>
-                        <li>모바일 애플리케이션 - pushNotification - 40</li>
+                        <li>모바일 애플리케이션 - 푸시 알림 - 40</li>
                         <li>기타 - 기타 - 120</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -390,7 +391,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>조직 구성 단위</td>
+                  <td>조직 단위</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -406,9 +407,9 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>높음 - 높음 - 20</li>
+                        <li>높음 - 20</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
-                        <li>표준 - 일반 - 10</li>
+                        <li>일반 - 일반 - 10</li>
                      </ul>
                   </td>
                </tr>
@@ -419,7 +420,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>교정쇄도</td>
+                  <td>교정본</td>
                   <td>교정본</td>
                   <td>collection </td>
                   <td> </td>
@@ -431,7 +432,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>pushnotificationParameters</td>
+                  <td>pushnotification매개 변수</td>
                   <td>PushNotification 매개 변수</td>
                   <td>item </td>
                   <td> </td>
@@ -485,18 +486,18 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td>
                      <ul>
                         <li>시작 보류 중 - 시작 보류 중 - 51</li>
-                        <li>제공 준비 - 준비 - 45</li>
-                        <li>다시 시도 보류 중 - 다시 시도 보류 중 - 61</li>
+                        <li>준비 완료 - 45</li>
+                        <li>재시도 보류 - 재시도 보류 중 - 61</li>
                         <li>진행 중 다시 시도 - retryInProgress - 62</li>
                         <li>실패 - 실패 - 87</li>
                         <li>진행 중 - 시작됨 - 55</li>
                         <li>타깃팅 보류 중 - targetPrepPending - 11</li>
                         <li>개인화 보류 중 - messagePrepPending - 21</li>
                         <li>일시 중지됨 - 일시 중지됨 - 75</li>
-                        <li>편집 - 버전 - 0</li>
+                        <li>편집 - 에디션 - 0</li>
                         <li>완료 - 완료 - 95</li>
-                        <li>진행 중인 카운트 - targetSelection - 12</li>
-                        <li>메시지 완료 - messageReady - 25</li>
+                        <li>진행 중 카운팅 - targetSelection - 12</li>
+                        <li>메시지 종결 - messageReady - 25</li>
                         <li>개인화 또는 계산 실패 - 준비오류 - 37</li>
                         <li>중지됨 - 취소됨 - 85</li>
                         <li>개인화 진행 중 - messagePreparation - 22</li>
@@ -508,12 +509,12 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>target</td>
-                  <td>전달 대상 모집단</td>
+                  <td>전달 대상 인구</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>템플릿(deliveryTemplateSummary)</td>
+                  <td>template(deliveryTemplateSummary)</td>
                   <td>배달 템플릿</td>
                   <td>link </td>
                   <td> </td>
@@ -526,7 +527,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>title</td>
-                  <td>전달</td>
+                  <td>게재</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>
@@ -555,8 +556,8 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td> </td>
                </tr>
                <tr>
-                  <td>유형 분류(유형 분류 기준)</td>
-                  <td>유형</td>
+                  <td>분류(typicalBase)</td>
+                  <td>분류</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -594,11 +595,11 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>channel</td>
-    <td>열거</td>
+    <td>열거형</td>
     </tr>
 </table>
 
-실행 유형(byExecutionType)
+실행 유형별(byExecutionType)
 
 <table>
     <tr>
@@ -607,7 +608,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>executionType</td>
-    <td>열거</td>
+    <td>열거형</td>
     </tr>
 </table>
 
@@ -620,7 +621,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>state</td>
-    <td>열거</td>
+    <td>열거형</td>
     </tr>
 </table>
 
@@ -671,7 +672,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
 </table>
 
-게시 상태(ByPublicationStatus)별
+게시 상태별(PublicationStatus)
 
 <table>
     <tr>
@@ -680,7 +681,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>pStatus</td>
-    <td>열거</td>
+    <td>열거형</td>
     </tr>
 </table>
 
@@ -693,7 +694,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
     <tr>
     <td>state</td>
-    <td>열거</td>
+    <td>열거형</td>
     </tr>
 </table>
 
@@ -736,7 +737,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
     </tr>
 </table>
 
-FCP를 사용하여 교정본 포함
+교정본 포함(FCP 포함)
 
 <table>
     <tr>
@@ -749,7 +750,7 @@ FCP를 사용하여 교정본 포함
     </tr>
 </table>
 
-지정된 기간 동안 계획됨(계획별)
+해당 기간 동안 계획(계획별)
 
 <table>
     <tr>
@@ -766,7 +767,7 @@ FCP를 사용하여 교정본 포함
     </tr>
 </table>
 
-주어진 기간 동안 제공(달력별)
+주어진 기간 동안(달력별)
 
 <table>
     <tr>
@@ -783,7 +784,7 @@ FCP를 사용하여 교정본 포함
     </tr>
 </table>
 
-즉시 사용 가능한 항목 표시(showOob)
+최신 기능 보기(showOb)
 
 <table>
     <tr>
