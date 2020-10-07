@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
@@ -29,7 +27,7 @@ ht-degree: 8%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">개인 정보 보호 규정 준수</a></p></td></tr>
 </table>
 
-캠페인 통합 고객 프로필을 사용하면 하나의 뷰에서 모든 채널에서 고객과의 모든 상호 작용을 추적할 수 있으므로 고객에게 연관성 있고 개인화된 메시지를 전달할 수 있습니다.
+캠페인 통합 고객 프로필을 통해 하나의 보기에서 모든 채널에 있는 고객과의 모든 상호 작용을 추적할 수 있으므로 고객에게 연관성 있고 개인화된 메시지를 전달할 수 있습니다.
 
 데이터베이스를 대상으로 세분화하여 마케팅 캠페인의 타겟을 최적화합니다.
 
