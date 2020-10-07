@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 5%
 
 ---
 
@@ -58,7 +59,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>audienceMetadata</td>
-                  <td>대상 메타데이터</td>
+                  <td>AudienceMetadata</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>
@@ -76,7 +77,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>countDate</td>
-                  <td>계산 날짜</td>
+                  <td>카운트 날짜</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -106,13 +107,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>이 작업 내역 표시 안 함</td>
+                  <td>이 작업의 내역 표시 안 함</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>errorLimit</td>
-                  <td>중단하기 전에 오류 발생</td>
+                  <td>중단하기 전 오류</td>
                   <td>정수 </td>
                   <td> </td>
                </tr>
@@ -136,7 +137,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloud 고객</td>
+                  <td>Adobe Marketing Cloud 대상</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -178,7 +179,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>조직 구성 단위</td>
+                  <td>조직 단위</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -208,7 +209,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>title</td>
-                  <td>고객</td>
+                  <td>대상자</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>
@@ -276,7 +277,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
     </tr>
     <tr>
     <td>type</td>
-    <td>열거</td>
+    <td>열거형</td>
     </tr>
     <tr>
     <td>isAMC</td>
