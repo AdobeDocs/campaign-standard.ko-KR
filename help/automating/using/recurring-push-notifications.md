@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '475'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -30,20 +28,21 @@ ht-degree: 0%
 
 1. 스케줄러 [](../../automating/using/scheduler.md) 활동을 사용하면 배달을 시작하기 전에 워크플로우 날짜를 시작하여 지정된 시간대의 오후 8시에 모든 가입자에게 알림을 전송할 수 있습니다.
 
-   * 필드에서 **[!UICONTROL Execution frequency]** [월별]을 선택합니다.
+   * In the **[!UICONTROL Execution frequency]** field, select Monthly.
    * 필드에서 오후 8시를 **[!UICONTROL Time]** 선택합니다.
    * 매달 배달되는 날짜를 선택합니다.
    * 배달을 시작하기 하루 전에 워크플로우의 시작 날짜를 선택합니다. 그렇지 않으면 선택한 시간이 해당 시간대에서 이미 경과한 경우 일부 받는 사람이 하루 뒤에 메시지를 받을 수 있습니다.
    * 탭에서 **[!UICONTROL Execution options]** 워크플로우가 시작되는 시간대를 **[!UICONTROL Time zone]** 필드에서 선택합니다. 예를 들어, 워크플로우는 해당 월의 첫째 날 1주 전인 오후 8시에 시작되어 적용 가능한 모든 시간대에 대해 게재가 생성될 시간을 허용합니다.
+
    >[!NOTE]
    >
-   >기본적으로 선택한 시간대는 워크플로우 속성에 정의된 시간대입니다(워크플로우 [작성 참조](../../automating/using/building-a-workflow.md)).
+   >기본적으로 선택된 시간대는 워크플로우 속성에 정의된 시간대입니다([워크플로우 구축](../../automating/using/building-a-workflow.md) 참조).
 
    ![](assets/wkf_push_example_5.png)
 
-1. 쿼리 [](../../automating/using/query.md) 활동을 통해 20-30세 이하의 VIP 고객을 타깃팅할 수 있습니다. 이 고객은 모바일 애플리케이션을 구독했고 보낸 이메일을 열지 않았습니다.
+1. 쿼리 [](../../automating/using/query.md) 활동을 통해 20-30세 이하의 VIP 고객을 대상으로 모바일 애플리케이션을 구독했고 보낸 이메일을 열지 않은 고객을 타깃팅할 수 있습니다.
 
-   * 대상자(VIP 고객)를 선택하고 해당 연령 등을 필터링합니다.
+   * 대상자(VIP 고객)를 선택하고 해당 나이에 대해 필터링합니다.
    * 애플리케이션 **요소로 가입을 작업** 영역으로 드래그하여 놓습니다. 존재함 **을** 선택하고 사용할 모바일 응용 프로그램을 선택합니다.
    * 고객에게 보낸 이메일을 선택합니다.
    * 배달 **로그(로그)** 요소를 작업 공간으로 드래그 앤 드롭한 다음 **존재함을 선택하여** 이메일을 받은 모든 고객을 타깃팅합니다.
@@ -54,9 +53,9 @@ ht-degree: 0%
 1. 푸시 [알림 배달](../../automating/using/push-notification-delivery.md) 활동을 통해 메시지 내용을 입력하고 사용할 개인화 필드를 선택할 수 있습니다.
 
    * 옵션을 **[!UICONTROL Recurring notification]** 선택합니다.
-   * 푸시 알림 컨텐츠를 정의합니다. 푸시 알림 컨텐츠에 대한 자세한 내용은 이 [섹션을 참조하십시오](../../channels/using/preparing-and-sending-a-push-notification.md).
-   * 블록 **[!UICONTROL Schedule]** 에서 선택합니다 **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. 여기에서는 워크플로우에서와 같이 **[!UICONTROL Time zone of the contact date]** 태평양을 선택했습니다 **[!UICONTROL Scheduler]**.
-   * 필드에서 **[!UICONTROL Optimize the sending time per recipient]** 를 선택합니다 **[!UICONTROL Send at the recipient's time zone]**.
+   * 푸시 알림 컨텐츠를 정의합니다. For more information on push notification content, refer to this [section](../../channels/using/preparing-and-sending-a-push-notification.md).
+   * In the **[!UICONTROL Schedule]** block, select **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. 여기에서는 워크플로우에서와 같이 **[!UICONTROL Time zone of the contact date]** 태평양을 선택했습니다 **[!UICONTROL Scheduler]**.
+   * **[!UICONTROL Optimize the sending time per recipient]** 필드에서 **[!UICONTROL Send at the recipient's time zone]**&#x200B;을(를) 선택합니다.
 
       ![](assets/wkf_push_example_4.png)
 
