@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 7%
@@ -110,7 +108,8 @@ Launch 기술 워크플로우의 모바일 앱 AEPSDK 동기화에 대한 자세
    >[!NOTE]
    >
    >기본적으로 Adobe 론치에서 만든 모바일 응용 프로그램 목록을 검색하려면 Campaign Standard은 NmsServer_URL 옵션에 정의된 값을 사용하여 일치하는 속성을 찾습니다.
-경우에 따라 모바일 응용 프로그램에 대한 캠페인 종점이 NmsServer_URL에 정의된 종단점과 다를 수 있습니다. 이 경우 Launch_URL_Campaign 옵션에서 끝점을 정의합니다. Campaign은 이 옵션의 값을 사용하여 Adobe 론치에서 일치하는 속성을 찾습니다.
+   >
+   >경우에 따라 모바일 응용 프로그램에 대한 캠페인 종점이 NmsServer_URL에 정의된 종단점과 다를 수 있습니다. 이 경우 Launch_URL_Campaign 옵션에서 끝점을 정의합니다. Campaign은 이 옵션의 값을 사용하여 Adobe 론치에서 일치하는 속성을 찾습니다.
 
    ![](assets/launch_4.png)
 
