@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Understanding push notifications payload structure {#push-payload}
+#  푸시 알림 페이로드 구조 이해{#push-payload}
 
 Adobe Campaign을 사용하면 iOS 및 Android 모바일 디바이스에서 개인화된 푸시 알림을 모바일 애플리케이션(모바일 앱)으로 전송할 수 있습니다.
 
@@ -214,14 +212,14 @@ Android 페이로드의 측면을 이해하려면 [메시지 개념 및 옵션(f
 | 메시지 제목 <br>메시지 본문 | 알림 요청 제목 <br> 알림 요청 | 제목 <br>본문 | 이 데이터에는 경고 메시지의 세부 사항이 포함됩니다.<br>제목 및 본문 키는 경고의 내용을 제공합니다. |
 | 사운드 재생 | 사운드 | 사운드 | 경고와 함께 재생되는 사용자 정의 사운드입니다. |
 | 배지의 값 | 배지 | 배지 | 앱의 아이콘을 배지 지정하는 데 사용할 정수 값입니다. |
-| 딥 추가 | uri | 북미 | 시각화를 사용하면 사용자를 웹 브라우저 페이지를 여는 대신 애플리케이션 내에 있는 컨텐츠로 직접 가져올 수 있습니다. |
+| 딥 링크 추가 | uri | 북미 | 딥 링크를 사용하면 웹 브라우저 페이지를 여는 대신 사용자를 애플리케이션 내에 있는 콘텐츠로 직접 불러옵니다. |
 | 범주 | category | category | 원격 알림과 함께 사용자 지정 작업을 표시하려면 <br>카테고리 키는 시스템이 해당 카테고리에 대한 작업을 경고 인터페이스에 단추로 표시하는 데 도움이 됩니다. |
 | 사용자 정의 필드 | custom_field1, custom_field2... | custom_field1, custom_field2... | 앱에 전송할 모든 사용자 지정 데이터. |
 | 리치 미디어 컨텐츠 URL(이미지, gif, 오디오 및 비디오 파일)<br>(iOS 10 이상에만 해당) | media-attachment-url | 북미 | 알림에 리치 컨텐츠를 추가할 미디어 파일의 URL. <br>이 URL에 대한 값을 제공하면 mutable-content 플래그가 페이로드로 자동 전송됩니다. <br> (iOS 10 이상에만 적용) |
 | 가변 컨텐츠 <br> (iOS 10 이상에만 적용) | mutable-content | 북미 | 앱의 알림 서비스 익스텐션은 mutable-content 키를 사용하여 모든 원격 알림을 &quot;차단&quot;하고 요청 페이로드의 내용을 처리/조작할 수 있도록 하며, 이를 통해 알림을 사용자 지정하는 데 사용할 수 있습니다. 이 기능의 사용 사례로는 여러 미디어를 다운로드 및 표시하고, 푸시 페이로드에 있는 암호화된 데이터를 해독합니다. 자세한 내용은 원격 알림의 페이로드 [수정에서 확인할 수 있습니다](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(iOS 10 이상에만 적용) |
 | 사용 가능한 컨텐츠 | 컨텐츠 사용 가능 | 북미 | 이 옵션을 선택하면 iOS 앱이 백그라운드/일시 중단 상태인 동안 깨어날 수 있습니다. 깨면 앱이 백그라운드에서 실행되고 푸시 알림 데이터 페이로드를 담당하는 적절한 이벤트 핸들러는 제어권을 얻으며 사용자 지정 푸시 알림을 작성하고 표시하는 것을 비롯하여 모든 계산을 수행하는 데 데이터를 사용할 수 있음을 의미합니다. 알림 배달이 있는 [웨이크 업 앱에서 자세한 내용을 확인할 수 있습니다](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | 리치 미디어 컨텐츠 URL(이미지 파일)<br>(Android에만 적용 가능) | 북미 | media-attachment-url | 알림에 리치 컨텐츠를 추가할 이미지 파일의 URL. |
-| 북미 | _mId<br>_dId | _mId <br>_dId | broadlogId 및 deliveryId의 값입니다.<br>이러한 속성은 앱이 푸시 알림을 클릭/연 시간을 추적하기 위해 추적 포스트백을 호출하려는 경우에 필요합니다. 이 정보는 사용자의 개입 없이 앱 서버에서 내부적으로 계산되고 전송됩니다.<br>포스트백에 대한 정보는 이 [페이지에서 찾을 수 있습니다](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| 북미 | _mId<br>_dId | _mId <br>_dId | broadlogId 및 deliveryId의 값입니다.<br>이러한 속성은 앱이 푸시 알림을 클릭/연 시간을 추적하기 위해 추적 포스트백을 호출하려는 경우에 필요합니다. 이 정보는 사용자의 개입 없이 앱 서버에서 내부적으로 계산되고 전송됩니다.<br>포스트백에 대한 정보는 이 [페이지에서 확인할 수 있습니다](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
 
 ### 모바일 앱 코드에서 페이로드 정보를 검색하는 방법 {#payload-information}
 
