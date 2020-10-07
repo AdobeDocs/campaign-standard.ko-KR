@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
@@ -28,7 +26,7 @@ ht-degree: 16%
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">사용자 정의 리소스</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">API를 사용한 작업</a></p></td></tr>
 </table>
 
-고유한 필드 및 리소스로 Campaign Standard 데이터 모델을 확장하고 모든 데이터 모델 변경 사항을 하나의 뷰로 모니터링합니다.
+고유한 필드 및 리소스로 Campaign Standard 데이터 모델을 확장하고 모든 데이터 모델 변경 사항을 하나의 보기로 모니터링합니다.
 
 ## 데이터 모델 {#data-model}
 
@@ -64,7 +62,7 @@ Campaign Standard을 사용하면 사전 정의된 데이터 모델 **을** 강�
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Campaign Standard API를 사용하면 Adobe Campaign을 사용하는 기술 패널과 통합하여 Adobe Campaign Standard용 통합을 구축하고 고유한 에코시스템을 구축할 수 있습니다. [Campaign Standard REST API 시작하기](../../api/using/get-started-apis.md)
+Campaign Standard API를 사용하면 Adobe Campaign을 사용하는 기술 패널과 통합하여 Adobe Campaign Standard용 통합을 구축하고 고유한 에코시스템을 구축할 수 있습니다. [Campaign Standard REST API 시작](../../api/using/get-started-apis.md)
 
 ## 추가 리소스
 
