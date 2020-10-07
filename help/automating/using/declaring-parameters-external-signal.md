@@ -9,10 +9,8 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 5%
@@ -20,7 +18,7 @@ ht-degree: 5%
 ---
 
 
-# 외부 신호 활동에서 매개 변수 선언 {#declaring-the-parameters-in-the-external-signal-activity}
+# Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}
 
 매개 변수가 있는 워크플로우를 호출하는 첫 번째 단계는 **[!UICONTROL External signal]** 활동에서 해당 매개 변수를 선언하는 것입니다.
 
