@@ -19,7 +19,7 @@ ht-degree: 100%
 ---
 
 
-# {#adding-control-group} 컨트롤 그룹 추가 
+# 컨트롤 그룹 추가 {#adding-control-group}
 
 캠페인의 영향을 측정하기 위해 컨트롤 그룹을 사용하여 대상의 일부에 메시지를 보내지 않아도 됩니다.
 
