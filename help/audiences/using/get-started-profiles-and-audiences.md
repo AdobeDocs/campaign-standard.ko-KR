@@ -1,6 +1,6 @@
 ---
 title: 프로필 및 대상자 시작
-description: 타깃팅된 모집단을 정의하고 대상을 선택하고 수신자를 필터링하며 데이터를 수집하고 프로필을 업데이트합니다.
+description: 타겟팅된 모집단을 정의하고 대상을 선택하며 수신자를 필터링하고 데이터를 수집하며 프로필을 업데이트합니다.
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
