@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 관리 시작
-description: 사용자 및 권한 관리, 모니터링 지침, 채널별 구성 및 애플리케이션 설정 지침 등을 살펴볼 수 있습니다.
+description: 사용자 및 권한 관리, 모니터링 지침, 채널별 구성 및 응용 프로그램 설정 지침 등을 살펴볼 수 있습니다.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
