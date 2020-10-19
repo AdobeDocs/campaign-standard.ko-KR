@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: ca0d93129a259635427220dee050fe441346e0b5
 workflow-type: tm+mt
-source-wordcount: '2387'
-ht-degree: 99%
+source-wordcount: '2412'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 99%
 # 최신 릴리스{#latest-release}
 
 [릴리스 계획](../../rn/using/release-planning.md) | [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2020.md) | [더 이상 사용되지 않는 기능](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 새로운 10월 Campaign 컨트롤 패널 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
 ## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
 
