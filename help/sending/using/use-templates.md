@@ -11,9 +11,9 @@ topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '802'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ Adobe Campaign에서 여러 브랜드를 관리하는 경우, Adobe은 브랜드
 
 ![](assets/template-parameters.png)
 
-주소 도메인은 Adobe에 위임한 하위 도메인과 같아야 합니다.
+주소 도메인은 사용자가 구성한 하위 도메인과 같아야 합니다.
 
 필드는 답글에 사용되는 이메일 주소 및 이름에 해당합니다. **[!UICONTROL Reply to]**
 
