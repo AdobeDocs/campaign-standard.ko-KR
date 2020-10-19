@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: working-with-campaign-and-triggers
 discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 7%
@@ -54,7 +54,7 @@ Adobe 팀은 트리거를 활성화하려면 다음 정보가 필요합니다.
 
 >[!CAUTION]
 >
->하위 도메인 위임은 배달 가능 키 요소입니다. Adobe Campaign 이메일이 웹 사이트에서 사용하는 이메일과 동일한 도메인에서 전송되었는지 확인합니다.
+>하위 도메인 구성은 전달 가능 키 요소입니다. Adobe Campaign 이메일이 웹 사이트에서 사용하는 이메일과 동일한 도메인에서 전송되었는지 확인합니다.
 
 이러한 사용 사례를 실행하려면 [Experience Cloud DTM 코어 서비스](#configuring-experience-cloud-dtm-core-service), [Experience Cloud 사용자 코어 서비스](#configuring-experience-cloud-people-core-service) 및 [캠페인](#configuring-triggers-and-aliases-in-campaign) 을 구성해야합니다.
 
