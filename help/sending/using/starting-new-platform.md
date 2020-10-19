@@ -11,9 +11,9 @@ topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 * 동일한 경우 잘못된 주소를 요청하려는 경우, 플랫폼의 이름이 설정되고 시간이 지남에 따라 잘못된 주소의 사용을 &quot;희석시키기&quot;위해 비트별로 비트 단위로 설정되면 이 방법을 사용하는 것이 더 좋습니다.
 
 시작할 때 따라야 할 원칙을 요약하려면:
-* **Adobe에서 보낸 이메일 캠페인에만 해당하는 전용 하위** 도메인을 Adobe에 위임합니다.
+* **Adobe에서 보낸 이메일 캠페인에만 적용되는 Campaign과 함께 작동하도록 전용 하위 도메인을** 구성합니다.
 * **잘못된/비활성 주소를 검역 테이블로** 가져옵니다(이 정보가 있는 경우).
 * **전달 처리량** 비율 제한(기술 설정:일치 수 제한).
 * **전송된 볼륨을 점진적으로 증가시킵니다**.처음부터 전체 데이터베이스를 대상으로 하지 않고 전송할 때마다 목록의 일부를 추가로 추가하십시오. 따라서 각 단계에서 볼륨을 증가시키고 잘못된 주소의 전체 속도를 줄일 수 있습니다.
