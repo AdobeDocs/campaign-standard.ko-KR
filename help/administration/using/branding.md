@@ -11,9 +11,9 @@ topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1250'
 ht-degree: 80%
 
 ---
@@ -92,13 +92,13 @@ ht-degree: 80%
 
 Campaign에서 조직의 새 엔티티를 추가하거나 다른 하위 도메인 아래에 보내야 하는 새 유형의 이메일을 만들 수 있습니다. 이 작업을 수행하려면 아래 단계를 수행하십시오.
 
-1. **새 하위 도메인** 위임 - 새 하위 도메인을 Adobe에서 사용하려면 첫 번째 단계를 위임해야 합니다. 이 작업은 [캠페인 Campaign 컨트롤 패널을](https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) 통해 수행하거나 Adobe 기술 담당자에게 문의하십시오. 이 문서에서 하위 도메인 위임 [에 대한 자세한 내용을 살펴보십시오](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html).
+1. **새 하위 도메인** 구성 - 새 하위 도메인을 Adobe에서 사용하려면 첫 번째 단계를 구성하는 것이 됩니다. 이 작업은 [캠페인 Campaign 컨트롤 패널을](https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/subdomains-branding.html) 통해 수행하거나 Adobe 기술 담당자에게 문의하십시오. 이 문서의 하위 도메인 구성 [에 대해 자세히 알아보십시오](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html).
 
-1. **티켓** 만들기 - 하위 도메인이 위임되면 프로덕션 환경에서 Adobe을 설정해야 합니다. 이 요청을 [요청하려면 다음 정보를 사용하여 클라이언트 지원팀에](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 대한 티켓을 만듭니다.
+1. **티켓** 만들기 - 하위 도메인이 구성되면 프로덕션 환경에서 Adobe이 설정해야 합니다. 이 요청을 [요청하려면 다음 정보를 사용하여 클라이언트 지원팀에](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 대한 티켓을 만듭니다.
 
    * 제목:ACS 새 브랜드 설정
 
-   * 컨텐츠:새 도메인이 Adobe에 위임되었으며 캠페인 플랫폼에서 설정하려고 합니다
+   * 컨텐츠:새 도메인이 구성되었으며 Adobe Campaign 플랫폼에서 설정하려고 합니다.
 
    * 도메인:XXX
 
