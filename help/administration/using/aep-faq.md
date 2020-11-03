@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 4%
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -105,3 +105,11 @@ CollectPII 호출의 빈도와 디자인은 비즈니스 요구 사항에 따라
 * 시작 및 Experience Platform SDK [설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * Experience Platform SDK [설명서로 업그레이드](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * Github Experience Platform SDK [설명서](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## 푸시 알림 배달을 만드는 동안 &quot;전달에 대한 쓰기 액세스 권한이 없습니다&quot;라는 오류가 표시됩니다. {#write-access-error}
+
+다음을 확인해야 합니다.
+
+* 모바일 앱은 푸시 배달을 만들고 전송해야 하는 사용자의 조직 단위에 매핑해야 합니다. 하위 조직 구성 단위 사용자는 상위 조직 구성 단위에 매핑된 앱을 사용하여 푸시 배달을 만들 수 없습니다.
+
+* 푸시 배달을 만드는 캠페인 또는 프로그램은 푸시 배달을 만들고 전송해야 하는 사용자의 조직 단위에 매핑해야 합니다. 하위 조직 구성 단위 사용자는 상위 조직 단위에 매핑된 캠페인 또는 프로그램에서 푸시 배달을 만들 수 없습니다.
