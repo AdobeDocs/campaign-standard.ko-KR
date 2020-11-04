@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: campaign-standard-release-planning
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: e57fb3ad898be580828fbe031faf0bc3664246eb
+source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 98%
@@ -30,7 +30,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 **새로운 기능이 있습니다.** [Campaign Standard 릴리스 알림](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)을 구독하면 받은 편지함에서 예정된 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
 
-## 릴리스 21.1 - 1월 릴리스 {#release-21-1-release}
+## 릴리스 21.1 - 2월 릴리스 {#release-21-1-release}
 
 아래의 표시된 기간 동안 환경 업데이트가 발생합니다. 이 릴리스에 대한 자세한 내용은 [릴리스 정보](../../rn/using/release-notes.md)를 참조하십시오. 추가 질문 사항은 [Adobe Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
 
@@ -44,11 +44,11 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
  <tbody>
   <tr>
    <td>단계<br /> </td>
-   <td>2021년 1월 11일 - 12일<br /> </td>
+   <td>2021년 1월 25일 - 26일<br /> </td>
   </tr>
   <tr>
    <td> 프로덕션<br /> </td>
-   <td>2021년 1월 18일 - 25일<br /> </td>
+   <td>2021년 2월 1일 - 8일<br /> </td>
   </tr>
  </tbody>
 </table>
