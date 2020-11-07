@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '6247'
+source-wordcount: '6220'
 ht-degree: 98%
 
 ---
@@ -42,7 +42,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 상태 및 마지막 이벤트 수신 시간에 따라 이벤트 구성을 검색할 수 있는 새로운 필터를 설명하는 섹션이 추가되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
-## 설명서 업데이트 - 2020년 9월 {#doc-updates-september-2020}
+## 2020년 9월 {#doc-updates-september-2020}
 
 이벤트 트랜잭션 메시지 섹션이 재구성되고 명확해졌습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
 
@@ -54,7 +54,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 활성 프로필 보고서의 익명 소스에 정보가 추가되었습니다. [자세한 내용](../../audiences/using/active-profiles.md)
 
-## 설명서 업데이트 - 2020년 8월 {#doc-updates-august-2020}
+## 2020년 8월 {#doc-updates-august-2020}
 
 트랜잭션 메시지 시작을 위한 새로운 업데이트 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -62,7 +62,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 **전송 준비** 섹션을 [여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
 
-## 설명서 업데이트 - 2020년 7월 {#doc-updates-july-2020}
+## 2020년 7월 {#doc-updates-july-2020}
 
 Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/monitoring-guidelines.md)
 
@@ -76,7 +76,7 @@ Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추�
 
 새로운 AI 기반의 이메일 기능: 전송 시간 최적화 및 프로필 점수 책정 [자세한 내용](../../sending/using/predictive.md)
 
-## 설명서 업데이트 - 2020년 6월 {#doc-updates-june-2020}
+## 2020년 6월 {#doc-updates-june-2020}
 
 워크플로우 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../automating/using/about-workflow-use-cases.md)
 
@@ -88,7 +88,7 @@ Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추�
 
 Campaign Standard - Microsoft Dynamics 365 통합을 현재 사용할 수 없습니다. 새로운 커넥터가 개발되고 있으며 향후 출시될 예정입니다. 관련 도움말 페이지가 제거되었습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-## 설명서 업데이트 - 2020년 5월 {#doc-updates-may-2020}
+## 2020년 5월 {#doc-updates-may-2020}
 
 Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했습니다. [자세한 내용](../../start/using/about-campaign-standard.md)
 
@@ -116,7 +116,7 @@ Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했
 
 이메일 디자이너에 대한 자주 묻는 질문 섹션을 추가했습니다. [자세한 내용](../../designing/using/faq-email-designer.md)
 
-## 설명서 업데이트 - 2020년 4월 {#doc-updates-april-2020}
+## 2020년 4월 {#doc-updates-april-2020}
 
 이제 핵심 설명서에서 Microsoft Dynamics 365를 Adobe Campaign Standard에 통합하는 방법에 대한 설명서를 읽을 수 있습니다. [자세한 내용](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -168,7 +168,7 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 
 외부 API 활동 가드레일 관련 정보를 업데이트했습니다. [자세한 내용](../../automating/using/external-api.md)
 
-## 설명서 업데이트 - 2020년 3월 {#doc-updates-march-2020}
+## 2020년 3월 {#doc-updates-march-2020}
 
 개선된 MTA에 대해 더 자세한 정보를 핵심 설명서에 추가했습니다. 특히 이메일 처리 규칙 및 반송 메일 자격에 대해 자세히 설명했습니다. [자세한 내용](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
@@ -214,7 +214,7 @@ Campaign 사용자 인터페이스에서 랜딩 페이지 및 미러 페이지 �
 
 내보내기 로그 섹션을 업데이트했습니다. 게재 로그 및 추적 로그 리소스에서 게재 로그 ID를 사용함으로써 각 로그에 대한 고유 식별자를 내보낼 수 있다는 정보를 반영했습니다. [자세한 내용](../../automating/using/exporting-logs.md)
 
-## 설명서 업데이트 - 2020년 1월 {#doc-updates-january-2020}
+## 2020년 1월 {#doc-updates-january-2020}
 
 게재 능력에 대한 설명서에 IP 인증에 대한 새로운 섹션을 업데이트했습니다. [자세한 내용](../../sending/using/ip-certification.md)
 
@@ -228,7 +228,7 @@ Campaign 및 Experience Manager로 작업하기 설명서에 **Campaign-Experien
 
 API 설명서 홈페이지를 개선했습니다. 다른 주제로의 리디렉션을 추가했습니다. [자세한 내용](../../api/using/get-started-apis.md)
 
-## 설명서 업데이트 - 2019년 12월 {#doc-updates-december-2019}
+## 11월- 2019년 12월 {#doc-updates-december-2019}
 
 S3 외부 계정 구성 설명서를 업데이트했습니다. [자세한 내용](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -237,8 +237,6 @@ S3 외부 계정 구성 설명서를 업데이트했습니다. [자세한 내용
 게재 능력 시작 안내서를 핵심 설명서에 통합하여 업데이트했습니다. [자세한 내용](../../sending/using/about-deliverability.md)
 
 사용자 정의 리소스 내보내기/가져오기에 대한 시작 안내서를 핵심 설명서에 통합했습니다. [자세한 내용](../../automating/using/exporting-importing-custom-resources.md)
-
-## 설명서 업데이트 - 2019년 11월 {#doc-updates-november-2019}
 
 Campaign Standard에서 워크플로우를 사용하여 컨트롤 그룹을 만드는 방법을 설명하는 새로운 사용 사례를 추가했습니다.
 
@@ -282,7 +280,7 @@ GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCP
 
 개인 정보 보호에 대한 정보를 API 설명서에 추가했습니다. [여기를 클릭하세요](../../api/using/creating-a-privacy-request.md)
 
-## 설명서 업데이트 - 2019년 10월 {#doc-updates-october-2019}
+## Sept. - Oct. 2019 {#doc-updates-october-2019}
 
 Campaign Standard 설정에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../administration/using/about-campaign-standard-settings.md)
 
@@ -291,8 +289,6 @@ Campaign Standard 설정에 대한 새로운 섹션을 추가했습니다. [자�
 트랜잭션 메시지 섹션을 수정했습니다. 이메일 디자이너를 통한 콘텐츠 편집 등 최신 UI 업데이트를 반영했습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
 
 랜딩 페이지 챕터를 재구성했습니다. 랜딩 페이지를 설정하는 단계를 자세히 설명하는 새로운 섹션으로 보강했습니다. [자세한 내용](../../channels/using/getting-started-with-landing-pages.md)
-
-## 설명서 업데이트 - 2019년 9월 {#doc-updates-september-2019}
 
 푸시 알림 섹션에 모바일 애플리케이션 구독 데이터를 기반으로 프로필 정보를 만들고 업데이트하는 방법에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -304,7 +300,7 @@ Adobe Experience Platform SDK를 사용해 모바일 애플리케이션을 구�
 
 이메일 디자이너 안내서를 재구성했습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## 설명서 업데이트 - 2019년 8월 {#doc-updates-august-2019}
+## 2019년 8월 {#doc-updates-august-2019}
 
 쿼리에 초점을 맞추어 워크플로우의 사용 사례를 다루는 새로운 섹션을 추가했습니다. [자세한 내용](../../automating/using/workflow-created-query-with-complement.md)
 
@@ -356,7 +352,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트�
 
 사용자 정의 리소스 설명서에 경고를 추가했습니다. 사용자 정의 리소스 ID에는 최대 30자를 사용하는 것이 좋습니다. 이는 사용자 정의 리소스 필드, 키, 색인 및 링크에도 적용됩니다. [자세한 내용](../../developing/using/creating-or-extending-the-resource.md)
 
-## 설명서 업데이트 - 2019년 7월 {#doc-updates-2019}
+## 6 - 2019년 7월 {#doc-updates-2019}
 
 랜딩 페이지 제한에 새 페이지를 추가했습니다. [자세한 내용](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -943,4 +939,3 @@ URL 변경: Assets 핵심 서비스 - [자세한 내용](../../integrating/using
 URL 변경: People 핵심 서비스 - [자세한 내용](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 프로필 및 대상자 안내서를 재구성했습니다. [자세한 내용](../../audiences/using/get-started-profiles-and-audiences.md)
-
