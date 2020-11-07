@@ -5,10 +5,10 @@ title: Adobe Campaign Standard 제품 설명서
 description: Campaign Standard 제품 설명서 찾아보기
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 91%
+source-wordcount: '221'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## 새로운 기능
 
-* **[릴리스 계획](rn/using/release-planning.md)**<br/>업데이트 2021년 2월 릴리스 날짜가 릴리스 계획에 추가되었습니다.
+* **[릴리스 계획](rn/using/release-planning.md)**<br/> 업데이트 2021년 2월 릴리스 날짜가 릴리스 계획에 추가되었습니다.
 
 * **[컨트롤 그룹](sending/using/control-group.md)**<br/>
 대상자의 일부를 제외하여 캠페인의 영향을 측정합니다
@@ -33,7 +33,7 @@ AI 기반 이메일을 사용하여 디자인 및 게재를 최적화합니다.
 * **[모바일 게재 시작](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)**<br/>
 모바일 게재에 대한 일반 지침(SMS, 푸시, 인앱)에 대한 자세한 내용을 알아봅니다.
 
-[업데이트를 더 보려면 여기를 클릭하십시오.](rn/using/documentation-updates.md)
+[추가 업데이트](rn/using/documentation-updates.md)
 
 ## 상위 페이지
 
