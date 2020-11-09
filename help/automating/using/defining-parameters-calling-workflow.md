@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 12%
+source-wordcount: '188'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 12%
 
 매개 변수를 정의하기 전에 다음을 확인하십시오.
 
-* 매개 변수가 **[!UICONTROL External Signal]** 활동에서 선언되었습니다. [](../../automating/using/declaring-parameters-external-signal.md)을(를) 참조하십시오.
+* 매개 변수가 **[!UICONTROL External Signal]** 활동에서 선언되었습니다. [이 페이지](../../automating/using/declaring-parameters-external-signal.md)를 참조하십시오.
 * 신호 활동을 포함하는 워크플로우가 실행 중입니다.
 
 활동을 **[!UICONTROL End]** 구성하려면 아래 단계를 따르십시오.
@@ -33,7 +33,7 @@ ht-degree: 12%
 1. 호출하려는 워크플로우 및 외부 신호 활동을 선택합니다.
 1. 매개 변수를 추가하려면 **[!UICONTROL Create element]** 단추를 클릭한 다음 이름과 값을 입력합니다.
 
-   * **[!UICONTROL Name]**:활동에 선언된 이름( **[!UICONTROL External signal]** 참조 [](../../automating/using/declaring-parameters-external-signal.md)).
+   * **[!UICONTROL Name]**:활동에 선언된 이름( **[!UICONTROL External signal]** 이 페이지 [](../../automating/using/declaring-parameters-external-signal.md)참조).
    * **[!UICONTROL Value]**:매개 변수에 할당할 값. 이 값은 **이 섹션에 설명된**&#x200B;표준 구문 [다음에 와야 합니다](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
