@@ -11,10 +11,10 @@ topic-tags: data-management-activities
 discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -136,7 +136,7 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 메타문자 또는 와일드카드(예: * 또는 ?) 를 사용하여 파일을 필터링할 수 있습니다.
 
 **[!UICONTROL Define a file path]** 또는 **[!UICONTROL Use a dynamic file path]**을(를) 원할 경우 선택합니다.
-**[!UICONTROL Use a dynamic file path]** 옵션을 선택하면 표준 표현식 및 이벤트 변수를 사용하여 전송할 파일의 이름을 개인화할 수 있습니다. For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md).
+**[!UICONTROL Use a dynamic file path]** 옵션을 선택하면 표준 표현식 및 이벤트 변수를 사용하여 전송할 파일의 이름을 개인화할 수 있습니다. 자세한 정보는 이 [페이지](../../automating/using/customizing-workflow-external-parameters.md)를 참조하십시오.
 
 경로는 Adobe Campaign 서버의 저장소 공간 디렉토리에 대한 상대적 경로여야 합니다. 파일은 **sftp&lt;인스턴스명>/** 디렉토리에 있습니다. 또한 저장소 공간보다 상위 디렉토리는 검색할 수 없습니다. 예제:
 
