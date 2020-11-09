@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 워크플로우가 트리거되면 매개 변수가 이벤트 변수에 수집되고 워크플로우의 활동을 사용자 지정하는 데 사용할 수 있습니다.
 
-예를 들어 활동에서 읽을 대상, **[!UICONTROL Read audience]** 활동에서 전송할 파일의 이름 등을 정의하는 데 사용할 수 **[!UICONTROL Transfer file]** 있습니다. (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+예를 들어 활동에서 읽을 대상, **[!UICONTROL Read audience]** 활동에서 전송할 파일의 이름 등을 정의하는 데 사용할 수 **[!UICONTROL Transfer file]** 있습니다. (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## 이벤트 변수 사용 {#using-events-variables}
 
@@ -49,13 +49,13 @@ $(vars/@parameterName)
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png):변수와 함수를 결합하는 표현식을 편집합니다(참조 [](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png):변수와 함수를 결합하는 표현식을 편집합니다( [이 페이지](../../automating/using/advanced-expression-editing.md)참조).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
    이 목록은 복잡한 필터링을 수행할 수 있는 기능을 제공합니다. 이러한 기능은 [이 섹션에 자세히 설명되어 있습니다](../../automating/using/list-of-functions.md).
 
-   또한, 아래 기능을 사용할 수 있습니다. 이 기능은 외부 매개 변수를 사용하여 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있도록 하는 모든 활동에서 사용할 수 있습니다(참조). [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)
+   또한 아래 기능을 사용할 수 있습니다. 이 기능은 외부 매개 변수를 사용하여 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있도록 하는 모든 활동에서 사용할 수 있습니다( [이 섹션 참조](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)).
 
    | 이름 | 설명 | 구문 |
    ---------|----------|---------
