@@ -11,9 +11,9 @@ topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 92%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 92%
    * **[!UICONTROL Limit segment population]**: 세그먼트 크기를 제한할 수 있습니다.
    * **[!UICONTROL Filter and limit segment population]**: 세그먼트의 모집단을 필터링하고 크기를 제한할 수 있습니다.
    * **[!UICONTROL Label]**: 세그먼트 레이블입니다.
-   * **[!UICONTROL Segment code]**:코드를 세그먼트 모집단에 지정합니다.세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다(참조 [](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**:코드를 세그먼트 모집단에 지정합니다.세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다( [이 페이지](../../automating/using/customizing-workflow-external-parameters.md)참조).
    * **[!UICONTROL Exclude segment from population]**: 지정된 세그먼트를 활동의 아웃바운드 모집단에서 제외할 수 있습니다. 이 옵션은 **[!UICONTROL Generate all segments in the same transition]** 옵션을 선택한 경우에만 사용할 수 있습니다.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -91,7 +91,6 @@ ht-degree: 92%
       >[!NOTE]
       >
       >각 값에 대해 다양한 제한 사항을 사용할 수 있습니다. 예를 들어 **[!UICONTROL Gender]** 필드에 대한 그룹을 지정하고 **[!UICONTROL Male]** 멤버로 이루어진 모집단을 10명으로, **[!UICONTROL Female]** 멤버로 이루어진 모집단을 30명으로 제한할 수 있습니다. 여러 데이터 그룹 필드를 사용하는 경우 모든 그룹의 크기가 같아야 합니다.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. 세그먼트의 구성을 확인합니다.
