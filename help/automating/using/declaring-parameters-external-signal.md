@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '108'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 5%
 
    >[!CAUTION]
    >
-   >워크플로우 호출 시 정의된 매개 변수의 이름 및 개수가 동일한지 확인합니다(참조 [](../../automating/using/defining-parameters-calling-workflow.md)). 또한 매개 변수의 유형은 예상 값과 일치해야 합니다.
+   >워크플로우 호출 시 정의된 매개 변수의 이름 및 개수가 동일한지 확인하십시오( [이 페이지](../../automating/using/defining-parameters-calling-workflow.md)참조). 또한 매개 변수의 유형은 예상 값과 일치해야 합니다.
 
    ![](assets/extsignal_declaringparameters_1.png)
 
