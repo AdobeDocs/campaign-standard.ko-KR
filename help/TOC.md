@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard 도움말 센터
 breadcrumb-title: Campaign Standard 안내서
 translation-type: tm+mt
-source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 98%
+source-wordcount: '1658'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 98%
    + [더 이상 사용되지 않는 기능](rn/using/deprecated-features.md)
 + 시작 {#getting-started}
    + [Adobe Campaign Standard 기본 정보](start/using/about-campaign-standard.md)
-   + [개인 정보 및 동의](start/using/privacy.md)
+   + 개인 정보 {#privacy}
+      + [개인 정보 및 동의](start/using/privacy.md)
+      + [개인 정보 관리](start/using/privacy-management.md)
    + 인터페이스 살펴보기 {#discovering-the-interface}
       + [인터페이스 기본 정보](start/using/about-the-interface.md)
       + [인터페이스 설명](start/using/interface-description.md)
@@ -73,14 +75,14 @@ ht-degree: 98%
       + [메시지 액세스](channels/using/accessing-messages.md)
       + [메시지 대시보드](channels/using/message-dashboard.md)
       + [다국어 메시지 템플릿](channels/using/multilingual-messages-template.md)
-   + 전달 모범 사례 {#delivery-bestpractices}
+   + 게재 모범 사례 {#delivery-bestpractices}
       + [모범 사례 학습](sending/using/delivery-best-practices.md)
-      + [전달 최적화](sending/using/optimize-delivery.md)
+      + [게재 최적화](sending/using/optimize-delivery.md)
       + [템플릿 사용](sending/using/use-templates.md)
-      + [개인화된 콘텐츠 제작](sending/using/design-and-personalize.md)
-      + [적합한 고객 정의](sending/using/define-the-right-audience.md)
+      + [개인화된 콘텐츠 빌드](sending/using/design-and-personalize.md)
+      + [적합한 대상 정의](sending/using/define-the-right-audience.md)
       + [보내기 전 확인](sending/using/check-before-sending.md)
-      + [추적 및 모니터](sending/using/track-and-monitor.md)
+      + [추적 및 모니터링](sending/using/track-and-monitor.md)
    + 이메일 메시지 {#email-messages}
       + [이메일 기본 정보](channels/using/about-emails.md)
       + [이메일 만들기](channels/using/creating-an-email.md)
