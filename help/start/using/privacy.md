@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1456'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Adobe Campaign은 개인 정보와 민감한 데이터를 포함하여 매우 �
 
 >[!NOTE]
 >
->GDPR, CPA 및 PDPA가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>GDPR, CPA 및 PDPA가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
@@ -78,7 +78,7 @@ Adobe Experience Cloud 개인 정보에 대한 자세한 내용은 [이 페이�
 * **개인 데이터는** 살아있는 개인을 직접 또는 간접적으로 식별할 수 있는 정보입니다.
 * **민감한 개인 데이터는** 노동 조합 회원뿐 아니라 개인의 인종, 정치적 관점, 종교적 신념, 범죄 배경, 유전자 정보, 건강 정보, 성적 선호도, 생체 인식 정보 등과 관련된 정보입니다.
 
-주 [법정은](#privacy-regulations) 다음과 같이 데이터를 관리하는 서로 다른 법인을 의미합니다.
+기본 [규정](#privacy-regulations) 은 다음과 같이 데이터를 관리하는 서로 다른 개체를 의미합니다.
 * 데이터 **컨트롤러는** 개인 데이터를 수집, 사용 및 공유하는 방법과 목적을 결정하는 기관입니다.
 * 데이터 **프로세서는** 데이터 관리자의 지시에 따라 개인 데이터를 수집, 사용 또는 공유하는 개인 또는 당사자입니다.
 * 데이터 **주체가** 개인 데이터를 수집, 사용 또는 공유하고 해당 개인 데이터를 참조해서 직접 또는 간접적으로 식별할 수 있는 살아있는 개인입니다.
@@ -98,12 +98,12 @@ Adobe Campaign을 사용하면 개인 및 민감한 정보를 비롯한 데이�
 
 ## 개인 정보 관리 {#privacy-management}
 
-개인 정보 관리는 개인 정보 보호 규정(GDPR, CPA 등)을 준수하는 데 도움이 되는 모든 프로세스 및 툴을 의미합니다. 이 [페이지에서 개인정보 관리 기능에 대한 개요를 살펴보십시오](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html).
+개인 정보 관리는 개인 정보 보호 규정(GDPR, CPA 등)을 준수하는 데 도움이 되는 모든 프로세스 및 툴을 의미합니다. 이 [페이지에서 개인정보 관리 기능에 대한 개요를 살펴보십시오](../../start/using/privacy-management.md).
 
 Adobe Campaign은 개인 정보 관리를 위한 다양한 기능을 제공합니다.
 * 동의 관리, 데이터 유지 및 사용자 역할. [이 섹션](#consent)을 참조하십시오.
 * 개인 정보 보호 요청(액세스 권한 및 잊혀질 권리). [이 섹션](#privacy-requests)을 참조하십시오.
-* 개인 정보 판매 거부(CPA 특정). [이 섹션](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)을 참조하십시오.
+* 개인 정보 판매 거부(CPA 특정). [이 섹션](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ccpa)을 참조하십시오.
 
 Campaign의 주요 개인정보 보호 기능과 여기에 포함된 개인의 예가 나와 [있습니다](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
 
@@ -116,7 +116,7 @@ Campaign의 주요 개인정보 보호 기능과 여기에 포함된 개인의 �
 * **데이터 유지**:모든 기본 제공 표준 로그 테이블에는 사전 설정된 보존 기간이 있으며 일반적으로 데이터 저장소를 6개월 이하로 제한합니다. 워크플로우로 추가 보존 기간을 설정할 수 있습니다. 자세한 내용은 Adobe 컨설턴트나 기술 관리자에게 문의하십시오.
 * **권한 관리**:Adobe Campaign은 다양한 사전 빌드 또는 사용자 지정 역할을 통해 다양한 캠페인 운영자에게 할당된 권한을 관리할 수 있는 기능을 제공합니다. 이를 통해 회사 내에서 다른 유형의 데이터에 액세스하거나 수정하거나 내보낼 수 있는 사용자를 관리할 수 있습니다. 자세한 내용은 액세스 관리 [정보를 참조하십시오](../../administration/using/about-access-management.md).
 
-이러한 기능과 Adobe Campaign에서 이러한 기능을 관리하는 방법에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent).
+이러한 기능과 Adobe Campaign에서 이러한 기능을 관리하는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../start/using/privacy-management.md#consent-retention-roles).
 
 ### 개인 정보 요청 {#privacy-requests}
 
@@ -128,7 +128,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 >[!NOTE]
 >
->이 툴을 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>이 툴을 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../start/using/privacy-management.md#privacy-management-regulations).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -140,7 +140,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 ## 추적 기능 {#tracking-capabilities}
 
-Adobe Campaign은 추적 기능 덕분에 세션 쿠키와 영구 쿠키를 사용하여 배달 받는 사람의 행동을 추적할 수 있습니다. For more on tracking, see [this page](../../sending/using/tracking-messages.md).
+Adobe Campaign은 추적 기능 덕분에 세션 쿠키와 영구 쿠키를 사용하여 배달 받는 사람의 행동을 추적할 수 있습니다. For more on tracking, see [this section](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
