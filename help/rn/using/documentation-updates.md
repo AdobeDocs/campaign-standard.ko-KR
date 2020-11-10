@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
+source-git-commit: 5667b18dfc9bceb52765d98d3c842d9aad1bc004
 workflow-type: tm+mt
-source-wordcount: '6220'
+source-wordcount: '6235'
 ht-degree: 98%
 
 ---
@@ -21,6 +21,10 @@ ht-degree: 98%
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+## 2020년 11월 {#doc-updates-november-2020}
+
+개인 정보 섹션이 새 페이지로 이동 및 강화되었습니다. [개인 정보 관리](../../start/using/privacy-management.md).
 
 ## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
 
