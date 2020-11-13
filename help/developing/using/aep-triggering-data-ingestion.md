@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 66417375168a9e4cbecdba71b1dcd94e844589c2
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
@@ -57,8 +57,11 @@ POST 작업을 통해 XDM 매핑이 Adobe Experience Platform에 즉시 수집�
 >
 >인제스트 POST API 호출을 실행하려면 사용자에게 **SQL 함수 실행** 역할이 있어야 합니다. 이 역할은 Campaign Standard 관리자가 JS 스크립트 아래의 스크립트를 실행하여 제공할 수 있습니다.
 >
->`var sqlRoleObj = REST.head.roleBase.sql.get();
-REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+>
+```
+>var sqlRoleObj = REST.head.roleBase.sql.get();
+>REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
+>```
 
 POST 작업은 생성된 요청 상태와 관련된 정보를 반환합니다.
 
@@ -105,7 +108,8 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-XDM 매핑 요청 상태 및 관련 작업에 대한 자세한 내용은 **[!UICONTROL Status of data export to platform]** 메뉴(매핑 활성화 [참조)에서 확인할 수 있습니다](../../developing/using/aep-mapping-activation.md).
+>
+>XDM 매핑 요청 상태 및 관련 작업에 대한 자세한 내용은 **[!UICONTROL Status of data export to platform]** 메뉴(매핑 활성화 [참조)에서 확인할 수 있습니다](../../developing/using/aep-mapping-activation.md).
 
 GET 작업은 아래 정보를 반환합니다.
 
