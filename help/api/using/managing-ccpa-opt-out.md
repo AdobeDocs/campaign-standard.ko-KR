@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 9240686a36146b45de6dfd07fc50a71fab663001
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 3%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -31,7 +31,7 @@ cpaOptOut 프로필 속성과 &quot; **true&quot; 또는 &quot;false&quot; 값�
 >
 >&quot;CPA 옵트아웃&quot; 속성은 19.4에서만 사용할 수 있습니다. 19.3 환경의 경우 프로필 리소스를 확장하고 부울 필드를 추가해야 합니다. 이 필드는 선택한 레이블과 함께 API에 추가됩니다. &quot;CPA를 위한 옵트아웃&quot;을 사용하는 것이 좋습니다.
 >
->For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
+>자세한 내용은 개인 정보 [관리 요청 설명서를 참조하십시오](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 
