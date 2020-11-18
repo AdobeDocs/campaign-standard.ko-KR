@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 1%
+source-wordcount: '928'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign을 사용하면 개인정보 보호 준비를 원활히 수행할
 
 * 데이터 삭제(Data Erasure)라고도 하는 데이터 삭제 **권한** (삭제 요청)은 데이터 주체에게 자신의 개인 데이터를 지우고, 데이터의 추가 배포를 중단하고, 제3자로 하여금 데이터 처리를 중단하도록 할 수 있는 권한을 부여합니다.
 
-액세스 및 **삭제** 요청을 만드는 방법 **과** Adobe Campaign에서 요청을 처리하는 방법에 대해 [알아보려면](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html)구현 단계를 참조하십시오.
+액세스 및 **삭제** 요청을 만드는 방법 **과** Adobe Campaign에서 요청을 처리하는 방법에 대해 [알아보려면](../../start/using/privacy-requests.md#about-privacy-requests)구현 단계를 참조하십시오.
 
 Campaign Standard의 개인 정보 관리에 대한 Tutorials도 [여기에서 사용할 수 있습니다](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
 
@@ -71,7 +71,7 @@ Adobe Campaign은 초기부터 일부 동의 내용을 관리하기 위한 기�
 
 동의 관리에 대한 자세한 내용은 구독 [정보](../../audiences/using/about-subscriptions.md) 및 [랜딩 페이지 시작을 참조하십시오](../../channels/using/getting-started-with-landing-pages.md).
 
-Adobe Campaign이 제공하는 동의 관리 도구 외에도, 개인 정보 판매를 고객이 선택 해제했는지 여부를 추적할 수 있습니다. [이 섹션](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ccpa)을 참조하십시오.
+Adobe Campaign이 제공하는 동의 관리 도구 외에도, 개인 정보 판매를 고객이 선택 해제했는지 여부를 추적할 수 있습니다. [이 섹션](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)을 참조하십시오.
 
 ### 데이터 유지 {#data-retention}
 
