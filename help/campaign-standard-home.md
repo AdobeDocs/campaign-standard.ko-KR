@@ -5,7 +5,7 @@ title: Adobe Campaign Standard 제품 설명서
 description: Campaign Standard 제품 설명서 찾아보기
 topic: Premium
 translation-type: tm+mt
-source-git-commit: da0763c6b8dcac0d7e1c30decde768fd1da05b55
+source-git-commit: c1b9d2f8e16007f525465f28f3cee404fc491088
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 90%
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 ## 새로운 기능
 
-* **[릴리스 계획](rn/using/release-planning.md)**<br/> 업데이트 2021년 2월 릴리스 날짜가 릴리스 계획에 추가되었습니다.
+* **[릴리스 계획](rn/using/release-planning.md)**<br/> 업데이트 2021년 2월 출시 날짜가 릴리스 계획에 추가되었습니다.
 
 * **[컨트롤 그룹](sending/using/control-group.md)**<br/>
 대상자의 일부를 제외하여 캠페인의 영향을 측정합니다
