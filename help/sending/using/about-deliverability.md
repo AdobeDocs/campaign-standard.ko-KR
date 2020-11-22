@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Campaign Standard의 제공 정보
 description: 배달 능력과 관련된 개념과 모범 사례뿐만 아니라 배달 전송을 최적화하기 위해 Adobe Campaign Standard이 제공하는 도구에 대해 알아봅니다.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 5%
@@ -45,7 +42,7 @@ Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래 나열
 ## 전달 기능 툴 {#deliverability-tools}
 
 먼저, Campaign Standard과 함께 제공되는 제공 툴에 대한 설명서를 참조하기 시작합니다.
-* [전달 모범 사례](../../sending/using/delivery-best-practices.md)
+* [게재 모범 사례](../../sending/using/delivery-best-practices.md)
 * [보낸 사람 이름 맞춤화](../../designing/using/personalization.md#personalizing-the-sender)
 * [이메일 제목란 테스트](../../sending/using/testing-subject-line-email.md)
 * [보내는 시각 최적화](../../sending/using/optimizing-the-sending-time.md)
