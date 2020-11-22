@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Integrated customer profile
 description: '"단일 보기에서 모든 고객 상호 작용을 추적할 수 있습니다. Adobe Campaign Integrated Customer Profile은 고객 수명 주기 내내 업데이트됩니다."'
-page-status-flag: never-activated
-uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
 context-tags: marketingHistory,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 100%
