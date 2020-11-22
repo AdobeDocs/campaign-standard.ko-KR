@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 서비스 만들기
 description: 첫 번째 서비스를 만들고 구독자에게 확인 이메일을 보내도록 구성하는 방법을 알아봅니다.
-page-status-flag: never-activated
-uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
