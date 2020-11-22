@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Campaign Standard의 메시지 보관
 description: 숨은 참조 이메일 주소를 사용하여 Adobe Campaign Standard으로 이메일을 보관하는 방법을 알아봅니다.
-page-status-flag: never-activated
-uuid: c3721647-0663-4614-a9c9-3b3a40af328a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 5%
