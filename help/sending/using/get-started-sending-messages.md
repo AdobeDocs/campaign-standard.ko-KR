@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 테스트 및 보내기 시작
 description: 메시지 준비, 테스트, 예약, 전송 및 모니터링
-page-status-flag: never-activated
-uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -95,5 +92,5 @@ Campaign Standard은 배달된 메시지의 수를 향상시키는 데 도움이
 * [테스트 보내기, 준비 및 이메일 보내기(비디오)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [이메일 전달 및 보고서 검토(비디오)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [이메일 시작하기](https://helpx.adobe.com/kr/campaign/kb/acs-get-started-with-emails.html)
-* [전달 모범 사례](../../sending/using/delivery-best-practices.md)
+* [게재 모범 사례](../../sending/using/delivery-best-practices.md)
 * [컨트롤 그룹 추가](../../sending/using/control-group.md)
