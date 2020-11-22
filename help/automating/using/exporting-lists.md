@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 목록 내보내기
 description: 'Adobe Campaign을 사용하면 나중에 사용할 수 있도록 개요 화면에서 목록으로 표시된 데이터를 파일에 직접 내보낼 수 있습니다. '
-page-status-flag: never-activated
-uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 5%
