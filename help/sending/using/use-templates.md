@@ -1,20 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 전달 템플릿 사용
-seo-title: 전달 템플릿 사용
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 9%
+source-wordcount: '799'
+ht-degree: 10%
 
 ---
 
@@ -23,7 +19,7 @@ ht-degree: 9%
 
 전달 템플릿을 사용하면 대부분의 일반적인 유형의 활동에 대해 미리 만들어진 시나리오를 제공하여 효율성을 높일 수 있습니다. 템플릿을 사용하면 마케터는 짧은 시간에 맞춤화를 최소화하면서 새로운 캠페인을 배포할 수 있습니다.
 
-이 섹션에서 배달 템플릿에 대한 자세한 내용 [을 살펴보십시오](../../start/using/marketing-activity-templates.md).
+Learn more about delivery templates in [this section](../../start/using/marketing-activity-templates.md).
 
 ## 전달 템플릿 시작하기 {#gs-templates}
 
