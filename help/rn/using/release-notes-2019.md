@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 2019년 릴리스 정보
 description: 이 페이지에는 Adobe Campaign Standard의 2019년 릴리스가 모두 나열되어 있습니다.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '7624'
 ht-degree: 8%
@@ -307,7 +304,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> Campaign 컨트롤 패널<br /> </td> 
-   <td> <p>관리 사용자로서의 작업의 효율성을 높이기 위해 손쉽게 용량을 모니터링하고 인스턴스 설정을 관리할 수 있습니다(SFTP 서버 관리부터 시작).</p><p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">방법 비디오</a>를 참조하십시오.</p></td> 
+   <td> <p>관리 사용자로서의 작업의 효율성을 높이기 위해 손쉽게 용량을 모니터링하고 인스턴스 설정을 관리할 수 있습니다(SFTP 서버 관리부터 시작).</p><p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/control-panel-overview.html">방법 비디오</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 로컬 알림<br /> </td> 
