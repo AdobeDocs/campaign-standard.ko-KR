@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: '이메일 디자인 기초 '
 description: 이메일 디자이너의 이메일 컨텐츠를 처음부터 디자인하는 방법을 살펴볼 수 있습니다.
-page-status-flag: never-activated
-uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 2%
@@ -20,7 +17,7 @@ ht-degree: 2%
 
 # 이메일 디자인 기초 {#designing-an-email-content-from-scratch}
 
-이메일 컨텐츠 에디션을 마스터하는 방법을 살펴보십시오. 이메일 디자이너는 사전 정의된 컨텐츠로 시작하거나 사용하지 않고 이메일 및 템플릿을 만들 수 있습니다.
+이메일 컨텐츠 에디션을 마스터하는 방법을 살펴보십시오. 이메일 디자이너는 사전 정의된 컨텐츠 사용 여부와 상관없이 이메일 및 템플릿을 만들 수 있습니다.
 
 이메일 디자이너를 사용하여 이메일 컨텐츠를 처음부터 만들고 디자인하는 주요 단계는 다음과 같습니다.
 
