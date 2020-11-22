@@ -1,8 +1,10 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 복합 식별 키로 리소스 호출
 description: 복합 식별 키를 사용하여 리소스를 호출하는 방법 학습
 translation-type: tm+mt
-source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
