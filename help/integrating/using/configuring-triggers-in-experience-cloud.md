@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Experience Cloud 트리거 구성
 description: '고객의 이전 행동을 기반으로 개인화된 전달을 고객에게 전송하도록 Adobe Experience Cloud 트리거 통합을 구성하는 방법을 살펴볼 수 있습니다. '
-page-status-flag: never-activated
-uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
