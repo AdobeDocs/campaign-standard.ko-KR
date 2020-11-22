@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 메시지 액세스
 description: '"메시지 및 고급 기능에 액세스하는 방법을 알아봅니다.제작, 타깃팅, 개인화, 실행 및 보고"'
-page-status-flag: never-activated
-uuid: 77e57ed3-bcd5-46b3-aee1-3d03f0df6c11
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: activity,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
