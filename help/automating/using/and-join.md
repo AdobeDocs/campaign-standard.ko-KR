@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: AND-결합
 description: AND-결합 활동을 사용하면 워크플로우의 여러 실행 분기를 동기화할 수 있습니다.
-page-status-flag: never-activated
-uuid: 9b54fd4c-9915-400f-a494-74e52c329b8a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: 4b55efa2-652e-4493-bfa7-eaee59b383ca
 context-tags: andjoin,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
