@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 증분 쿼리
 description: 증분 쿼리 활동을 통해 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다.
-page-status-flag: never-activated
-uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
 context-tags: incremental,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 98%
