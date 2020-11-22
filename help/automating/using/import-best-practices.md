@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 가져오기 모범 사례
 description: 데이터를 데이터베이스로 가져올 때 따라야 할 최상의 방법에 대해 자세히 알아보십시오.
-page-status-flag: never-activated
-uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%
