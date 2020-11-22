@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign을 Assets 핵심 서비스와 함께 사용하기
 description: Assets 코어 서비스 통합 덕분에 Adobe Campaign 메시지와 랜딩 페이지에서 Adobe Experience Cloud에서 공유되는 모든 리소스를 사용할 수 있습니다.
-page-status-flag: never-activated
-uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 10%
