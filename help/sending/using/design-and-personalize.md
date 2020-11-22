@@ -1,25 +1,21 @@
 ---
-title: 개인화된 콘텐츠 제작
-seo-title: 개인화된 콘텐츠 제작
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+solution: Campaign Standard
+product: campaign
+title: 개인화된 콘텐츠 빌드
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 7%
+source-wordcount: '905'
+ht-degree: 8%
 
 ---
 
 
-# 개인화된 콘텐츠 제작 {#build-personalized-content}
+# 개인화된 콘텐츠 빌드 {#build-personalized-content}
 
 메시지 내용을 디자인할 때 배달 실행을 방지할 수 있는 일반적인 문제를 방지하십시오. 대부분의 경우, 가능한 오류는 [개인화](../../designing/using/personalization.md), 기존 컨텐츠 [를](../../designing/using/using-existing-content.md) 사용할 때의 서식, HTML 컨텐츠 [를](../../designing/using/using-existing-content.md#converting-an-html-content) 변환할 때 발생할 수 있는 오류 [- 및](../../designing/using/images.md)이미지와 관련되어 있습니다.
 
