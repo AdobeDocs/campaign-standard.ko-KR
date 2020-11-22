@@ -1,25 +1,21 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 메시지 전달 최적화
-seo-title: 메시지 전달 최적화
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '732'
 ht-degree: 6%
 
 ---
 
 
-# 전달 최적화 {#optimize-delivery}
+# 게재 최적화 {#optimize-delivery}
 
 게재 생성을 시작하기 전에 여러 작업을 수행하여 전송 프로세스를 보호하고 최적화할 수 있습니다.
 
@@ -29,7 +25,7 @@ ht-degree: 6%
 
 몇 가지 요소는 서버 성능에 직접적인 영향을 주고 플랫폼을 느리게 할 수 있습니다.
 
-* 개인화 요소의 수 및 유형:이메일의 개인화는 각 수신자에 대한 데이터를 데이터베이스에서 가져옵니다. 개인화 요소가 많은 경우 전달을 준비하는 데 필요한 데이터의 양이 증가합니다.  이 섹션에서 이메일 개인화에 대한 자세한 내용 [을 살펴보십시오](../../designing/using/personalization.md)
+* 개인화 요소의 수 및 유형:이메일의 개인화는 각 수신자에 대한 데이터를 데이터베이스에서 가져옵니다. 개인화 요소가 많은 경우 전달을 준비하는 데 필요한 데이터의 양이 증가합니다.  Learn more about email personalization in [this section](../../designing/using/personalization.md)
 
 * 서버 로드:캠페인이 동시에 여러 가지 작업을 처리하는 경우 성능이 저하될 수 있습니다. 서버가 모든 배달에 대해 들어오는 데이터와 나가는 데이터를 모두 조정하여 데이터가 정확한지 적시에 맞는지 확인해야 합니다.
 
