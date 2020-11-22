@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 액세스 관리 기본 정보
 description: 역할, 그룹 및 조직 단위를 사용하여 Adobe Campaign 작업자를 관리합니다.
-page-status-flag: never-activated
-uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
