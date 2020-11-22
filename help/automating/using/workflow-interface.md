@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 워크플로우 인터페이스
 description: 워크플로우를 생성, 편집 및 실행하는 인터페이스와 옵션에 대해 알아봅니다.
-page-status-flag: never-activated
-uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 4%
@@ -122,7 +119,7 @@ ht-degree: 4%
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>활동을 비활성화합니다.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>선택 항목을 즉시 처리하도록 합니다. 이 단추는 스케줄러<span class="uicontrol">및</span>대기<span class="uicontrol">활동에만 사용할</span>수있습니다.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>선택 항목을 즉시 처리하도록 합니다. 이 단추는 스케줄러 <span class="uicontrol">및</span> 대기 <span class="uicontrol">활동에만 사용할</span> 수있습니다.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>선택한 활동을 삭제합니다.
 
