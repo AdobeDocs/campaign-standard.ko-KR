@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: SMS 보고서
 description: '즉시 사용 가능한 SMS 보고서를 통해 SMS 전달의 성공 사례를 살펴보십시오. '
-page-status-flag: never-activated
-uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 5%
