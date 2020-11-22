@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 워크플로우 구축
 description: 이 섹션에서는 새 워크플로우를 만들기 위한 주요 원칙과 모범 사례를 자세히 설명합니다.
-page-status-flag: never-activated
-uuid: 11374f64-8d34-40da-937b-09f419250f4c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
