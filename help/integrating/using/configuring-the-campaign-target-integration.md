@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign-Target 통합 구성
 description: Adobe Campaign에서 동적 컨텐츠 사용을 시작하기 위해 Adobe Target 통합을 구성하는 방법을 알아봅니다.
-page-status-flag: never-activated
-uuid: 0df5701c-dc26-4c30-9af9-ebf92815d90c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: f7fb2084-dd6f-4aa2-940f-e48713146635
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 4%
