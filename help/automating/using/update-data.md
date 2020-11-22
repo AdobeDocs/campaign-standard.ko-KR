@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 데이터 업데이트
 description: 데이터 업데이트 활동을 사용하면 데이터베이스의 필드에 대한 대량 업데이트를 수행할 수 있습니다.
-page-status-flag: never-activated
-uuid: 1dc55db5-affd-4688-b673-adfb8c1338b5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 4db83c95-4b75-4a16-8dbf-bd8940431fa9
 context-tags: writer,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 98%
