@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 2018년 릴리스 정보
 description: 이 페이지에는 Adobe Campaign Standard의 2018년 릴리스가 모두 나열되어 있습니다.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 6%
@@ -233,10 +230,10 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 **기타 변경 사항**
 
-* 이제 대상 읽기 워크플로우 활동이 Experience Cloud 대상을 읽을 수 있습니다. 이전에는 이 활동에서는 쿼리 및 목록 대상만 읽을 수 있었습니다. 자세한 [설명서를 참조하십시오](../../automating/using/read-audience.md). (CAMP-23623)
+* 이제 대상 읽기 워크플로우 활동이 Experience Cloud 대상을 읽을 수 있습니다. 이전에는 이 활동에서는 쿼리 및 목록 대상만 읽을 수 있었습니다. Refer to the [detailed documentation](../../automating/using/read-audience.md). (CAMP-23623)
 * 기본 공유 데이터 소스의 식별자는 이제 읽기 전용 모드이며 더 이상 변경할 수 없습니다. 이 식별자를 변경하면 대상을 Experience Cloud과 공유할 때 일부 문제가 발생할 수 있습니다.
 * 이제 Audience Manager에서 대상을 가져오는 기능이 분할된 파일에서 작동합니다. 이전에는 importSharedAudience 기술 워크플로우에서 세그먼트의 마지막 파일만 가져왔습니다.
-* 이제 AWS S3 외부 계정은 지역 및 버전 4 인증 메커니즘을 지원합니다. 자세한 [설명서를 참조하십시오](../../administration/using/external-accounts.md).
+* 이제 AWS S3 외부 계정은 지역 및 버전 4 인증 메커니즘을 지원합니다. Refer to the [detailed documentation](../../administration/using/external-accounts.md).
 * 이제 자산 선택 창이 더 빠르게 로드되고 자산을 선택한 다음 아무 문제 없이 창을 종료합니다.
 * 이제 관리 권한이 있고 &quot;모든&quot; 조직 및 지역 단위에 속한 사용자가 기술 워크플로우의 속성 및 구조를 수정할 수 있습니다.
 * 새 세그먼트를 만들 때 세그멘테이션 활동 인터페이스에서 개선되었습니다.이제 제한 탭이 제한을 추가한 후 바로 나타납니다. 이제 새 세그먼트 이름이 증가됩니다(&quot;세그먼트 1&quot;, &quot;세그먼트 2&quot; 등).
