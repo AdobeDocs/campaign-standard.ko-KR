@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign에서 Target 매핑
 description: 대상 매핑은 메시지를 전달하기 위해 Campaign에서 사용하는 기술 개체입니다. 배송을 보내는 데 필요한 모든 기술 설정이 포함되어 있습니다.
-page-status-flag: never-activated
-uuid: 0c3841cb-56fb-4b4f-970d-947edd1c2112
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 73d06242-a02f-4a8d-85e9-73efffb5eda1
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 16%
