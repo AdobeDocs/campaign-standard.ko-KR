@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 트랜잭션 푸시 알림
 description: 트랜잭션 푸시 알림을 만들고 게시하는 방법에 대해 알아봅니다.
-page-status-flag: never-activated
-uuid: ef31c1b6-9ef8-42e3-b49d-72f9eac8ea32
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 13%
