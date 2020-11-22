@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign Standard 릴리스 계획
 description: 이 페이지에는 Adobe Campaign Standard의 향후 릴리스 목록이 있습니다.
-page-status-flag: never-activated
-uuid: null
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c1b9d2f8e16007f525465f28f3cee404fc491088
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 98%
