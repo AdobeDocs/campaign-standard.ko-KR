@@ -1,18 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Microsoft Dynamics 365 통합을 위해 Adobe IO 구성
 description: Microsoft Dynamics 365용 Adobe IO를 구성하는 방법을 알아봅니다.
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '504'
 ht-degree: 3%
 
 ---
@@ -66,7 +63,7 @@ Adobe Campaign Standard - Microsoft Dynamics 365 통합에 대해서는 [이 페
 
    ![](assets/adobeIO5.png)
 
-1. 다음 화면에서 이 프로젝트와 연결할 제품 프로필을 선택합니다. 제목에 포함된 제품 프로필을 선택합니다.캠페인 인스턴스의 테넌트 ID - [!UICONTROL Administrators]
+1. 다음 화면에서 이 프로젝트와 연결할 제품 프로필을 선택합니다. 솔루션에 포함된 제품 프로필을 선택합니다.캠페인 표준 제품:캠페인 제목:캠페인 인스턴스의 테넌트 ID - [!UICONTROL Administrators]
 
    예:Campaign Standard - 내 캠페인 테넌트 ID - 관리자
 
