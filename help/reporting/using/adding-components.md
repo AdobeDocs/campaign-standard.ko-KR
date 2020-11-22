@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 구성 요소 추가
 description: 구성 요소를 자유 형식 테이블로 끌어다 놓아 데이터를 필터링하고 보고서를 작성하기 시작합니다.
-page-status-flag: never-activated
-uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 4%
