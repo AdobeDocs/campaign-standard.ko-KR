@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: DM 게재
 description: DM 게재 활동을 사용하면 워크플로우에서 단일 전송 DM 또는 반복되는 DM 전송을 구성할 수 있습니다.
-page-status-flag: never-activated
-uuid: bfa7b176-a17c-4079-a073-64b8ce4788ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
 context-tags: directMail,workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
