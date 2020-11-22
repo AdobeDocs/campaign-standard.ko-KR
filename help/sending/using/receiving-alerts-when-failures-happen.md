@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 게재 실패 시 경고 받기
 description: 경고 관리 시스템을 사용하는 방법을 알아봅니다.
-page-status-flag: never-activated
-uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2031'
 ht-degree: 2%
