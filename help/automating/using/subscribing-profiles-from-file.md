@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 파일에서 특정 서비스에 프로필 가입
 description: 이 사용 사례에서는 프로파일이 포함된 파일을 가져와 기존 서비스에 가입하는 방법을 보여 줍니다.
-page-status-flag: never-activated
-uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 53%
