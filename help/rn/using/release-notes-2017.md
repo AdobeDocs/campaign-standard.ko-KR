@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 2017년 릴리스 정보
 description: 이 페이지에는 Adobe Campaign Standard의 2017년 릴리스가 모두 나열되어 있습니다.
-page-status-flag: never-activated
-uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
