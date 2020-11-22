@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 내부 알림 보내기
 description: Adobe Campaign 사용자에게 실시간 시스템 알림을 전송하는 방법을 알아봅니다.
-page-status-flag: never-activated
-uuid: f196f025-dbb9-4268-9d7d-ff626994b447
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 2%
