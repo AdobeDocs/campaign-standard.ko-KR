@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 마케팅 활동
 description: 캠페인, 전자 메일, SMS 및 푸시 알림 전달, 랜딩 페이지, 워크플로우와 같은 마케팅 활동을 만들고 관리하는 방법을 배웁니다. 손쉽게 새로운 활동을 디자인하고 기존 활동을 편집하며 해당 활동의 상태와 유효성을 확인할 수 있습니다."
-page-status-flag: never-activated
-uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: marketing-plans
-discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 83%
