@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 패널 추가
 description: 동적 보고서를 사용하면 선택한 기간에 따라 패널을 추가하여 데이터를 보다 효과적으로 필터링할 수 있습니다.
-page-status-flag: never-activated
-uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
