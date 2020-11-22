@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 게재 불가 및 이탈
 description: '비산출물 및 바로 사용 가능한 보고서를 사용하여 배달에서 발생한 오류에 대해 알아봅니다. '
-page-status-flag: never-activated
-uuid: b70ae9ec-b659-42bf-b663-73615307005b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 3567f9f9-ef57-441c-8844-198bbf962c9d
 context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesBouncesReport,main;programNonDeliverablesBouncesReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 5%
