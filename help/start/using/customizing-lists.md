@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 목록 사용자 지정
 description: '"Adobe Campaign Standard에서 디스플레이 사용자 정의 및 목록 화면 사용 방법: 요소 정렬, 필터링, 삭제 또는 복제 화면에 하나 이상의 지정된 리소스의 요소가 표시됩니다."'
-page-status-flag: never-activated
-uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 1%
