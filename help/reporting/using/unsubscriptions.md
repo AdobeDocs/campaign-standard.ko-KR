@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 구독 취소
 description: 즉시 사용 가능한 가입 해지 보고서를 통해 고객이 귀하 게재에 가입하지 않은 횟수를 확인할 수 있습니다.
-page-status-flag: never-activated
-uuid: 62e24335-dd63-4767-86e3-4084be04fc50
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: c8527da3-3c65-4cea-b01a-da152bf6b01e
 context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,main;programUnsubscriptionsReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 3%
