@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 데이터베이스로 파일 대상자 조정
 description: 이 예에서는 대상 읽기 활동을 사용하여 파일 가져오기에서 직접 만든 대상을 조정하는 방법을 보여 줍니다.
-page-status-flag: never-activated
-uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 87%
