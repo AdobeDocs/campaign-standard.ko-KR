@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: ' 파일에 포함된 데이터로 프로필 데이터 보강'
 description: 이 예에서는 파일에 포함된 구매 데이터를 사용하여 프로필 데이터를 보강하는 방법을 보여줍니다.
-page-status-flag: never-activated
-uuid: 8c1693ef-1312-422c-b05d-263553113f8f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 78%
