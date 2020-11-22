@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: SMS 및 푸시 콘텐츠 디자인 정보
 description: Adobe Campaign에서 SMS 메시지 및 푸시 알림의 내용을 수정하는 데 사용되는 편집기에 대해 배웁니다.
-page-status-flag: never-activated
-uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
-discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
