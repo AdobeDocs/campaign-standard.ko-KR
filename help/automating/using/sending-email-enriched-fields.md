@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 보강된 필드가 포함된 이메일 보내기
 description: 아래 예제는 파일 로드 활동을 통해 외부 파일에서 검색한 추가 데이터를 사용하여 이메일을 보내는 방법을 보여 줍니다.
-page-status-flag: never-activated
-uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 75%
