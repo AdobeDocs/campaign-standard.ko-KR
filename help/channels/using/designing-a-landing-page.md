@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 랜딩 페이지 디자인
 description: 랜딩 페이지의 컨텐츠를 디자인하는 방법을 배웁니다.
-page-status-flag: never-activated
-uuid: de6fe190-835c-40fd-8101-a809b430b423
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
 context-tags: landingPage,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 100%
