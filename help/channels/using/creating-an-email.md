@@ -1,26 +1,23 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 이메일 만들기
 description: 다음 단계에 따라 Adobe Campaign에서 이메일을 한 번만 보냅니다.
-page-status-flag: never-activated
-uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
 
 # 이메일 만들기{#creating-an-email}
 
-캠페인, Adobe Campaign [홈 페이지](../../start/using/marketing-activities.md#creating-a-marketing-activity)또는 [마케팅 활동 목록에서](../../start/using/interface-description.md#home-page)이메일을 만들 수 [있습니다](../../start/using/marketing-activities.md#about-marketing-activities). 또한 워크플로우에서 한 번 전송하고 되풀이되는 이메일을 만들 수도 있습니다.
+You can create an email from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), or in the [marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities). 또한 작업 과정에서 한 번 전송하고 반복 이메일을 생성할 수도 있습니다.
 
 1. 이메일 마케팅 활동을 만들기 시작하면 사용할 템플릿을 선택합니다.
 
