@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보
 description: Audience Manager/사람 핵심 서비스 통합을 통해 다른 Adobe Experience Cloud 솔루션 내에서 대상 또는 세그먼트를 공유할 수 있습니다.
-page-status-flag: never-activated
-uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 5%
