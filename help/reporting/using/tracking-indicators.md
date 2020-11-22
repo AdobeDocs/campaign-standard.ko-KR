@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 지표 추적
 description: 즉시 사용 가능한 추적 지표 보고서를 통해 고객이 이메일 메시지를 수신할 때의 행동에 대해 알아봅니다.
-page-status-flag: never-activated
-uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
 context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 2%
