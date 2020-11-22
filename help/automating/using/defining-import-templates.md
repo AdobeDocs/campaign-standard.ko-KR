@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 가져오기 템플릿 정의
 description: 가져오기 템플릿을 통해 필요한 설정을 줄이고 데이터를 보다 신속하게 가져올 수 있습니다.
-page-status-flag: never-activated
-uuid: 651eb57c-adac-4e3e-b454-b39aea1f0484
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
