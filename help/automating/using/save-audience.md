@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 대상자 저장
 description: 대상자 저장 활동을 통해 워크플로우에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다.
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
@@ -67,7 +64,6 @@ ht-degree: 100%
       >[!NOTE]
       >
       >이 옵션은 관리자가 Adobe Experience Cloud 공유 대상자 기능을 구성한 경우에만 사용할 수 있습니다. 자세한 내용은 [Campaign 및 People 핵심 서비스로 작업](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)을 참조하십시오.
-
    업데이트 시 저장되거나 사용 가능한 대상자 유형은 워크플로우의 업스트림 활동에 따라 다릅니다.
 
    대상자를 저장할 때 대상자의 타겟팅 차원을 알 수 없는 경우(가져온 파일에서 수집한 경우 등), 해당 대상자는 **[!UICONTROL File]** 유형 대상자로 만들어지거나 업데이트됩니다.
