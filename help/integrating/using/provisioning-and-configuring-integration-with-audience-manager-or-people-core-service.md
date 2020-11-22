@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Audience Manager 또는 People 핵심 서비스와의 프로비전 및 구성
 description: '다른 Adobe Experience Cloud 솔루션으로 대상이나 세그먼트 공유를 시작하기 위해 Audience Manager/사용자 핵심 서비스 통합을 구성하는 방법을 알아봅니다. '
-page-status-flag: never-activated
-uuid: e7329644-0033-4729-b4a7-61bef137f4b5
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 8%
