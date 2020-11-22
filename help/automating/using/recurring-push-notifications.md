@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 워크플로우로 반복 푸시 알림 전송
 description: 이 예에서, 개인화된 푸시 알림은 시간대에 따라 매달 1일 오후 8시에 모바일 애플리케이션 가입자에게 전송됩니다.
-page-status-flag: never-activated
-uuid: 994d8fe3-29f0-4b5c-89ee-c6be7c60a31b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%
