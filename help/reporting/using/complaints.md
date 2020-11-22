@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 컴플레인
 description: 즉시 사용 가능한 불만 사항 보고서를 통해 배송이 스팸으로 선언된 시간을 확인할 수 있습니다.
-page-status-flag: never-activated
-uuid: 9a973460-fda1-4eb0-9b6e-df421df8ca02
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: e32cfb8f-e973-4bf2-a7f9-e99951a6bfbd
 context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;programComplaintsReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 2%
