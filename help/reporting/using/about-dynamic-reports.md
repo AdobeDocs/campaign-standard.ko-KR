@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 동적 보고서 시작
 description: 동적 보고서를 사용하면 변수 및 차원을 자유 형식 환경으로 드래그 앤 드롭하여 캠페인의 성공을 분석할 수 있습니다.
-page-status-flag: never-activated
-uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 5%
@@ -73,7 +70,7 @@ ht-degree: 5%
 | 지역 | 동적 보고 | Microsoft Dynamics 365 커넥터 |
 |---|---|---|
 | 미국 및 APAC(아시아 태평양) | **사용 가능한**&#x200B;기능 <br> ExternalID를 제외하고 미국 보고 센터로 푸시된 특별한 사용자 지정 프로필 정보는 없습니다. | **사용 가능한**&#x200B;기능 <br>외부 ID 및 수신자 ID를 제외하고 미국 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 미국 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드 <br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이 [페이지를 참조하십시오](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
-| EMEA(유럽 중동 및 아프리카) | **사용 가능한**&#x200B;기능 <br>ExternalID를 제외하고 EMEA 보고 센터로 푸시된 기본 및 사용자 지정 프로필 정보가 없습니다. | **사용 가능한 기능** <br>외부 ID 및 수신자 ID를 제외하고 EMEA 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 EMEA 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드  <br>**[!UICONTROL Control data]**이 파일에는 Adobe I/O 등록 데이터 및 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID가 들어 있습니다.<br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이[페이지를 참조하십시오](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
+| EMEA(유럽 중동 및 아프리카) | **사용 가능한**&#x200B;기능 <br>ExternalID를 제외하고 EMEA 보고 센터로 푸시된 기본 및 사용자 지정 프로필 정보가 없습니다. | **사용 가능한 기능** <br>외부 ID 및 수신자 ID를 제외하고 EMEA 데이터 센터로 전송된 기본 또는 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 EMEA 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드  <br>**[!UICONTROL Control data]**이 파일에는 Adobe I/O 등록 데이터 및 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID가 들어 있습니다.<br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이 [페이지를 참조하십시오](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
 
 이 선택 사항은 최종본이 아닙니다. > > **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** 에서 선택하여 언제든지 변경할 수 **[!UICONTROL Administration]** 있습니다 **[!UICONTROL Application Settings]** **[!UICONTROL Options]**.
 
