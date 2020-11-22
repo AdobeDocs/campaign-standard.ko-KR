@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 실행 활동 기본 정보
 description: 실행 활동은 화면의 왼쪽에서 사용할 수 있습니다.
-page-status-flag: never-activated
-uuid: af2d19d7-a819-4064-806f-46e946387799
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: execution-activities
-discoiquuid: b1c53b8f-4e8d-4a10-8b01-4997a558e144
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '65'
 ht-degree: 53%
