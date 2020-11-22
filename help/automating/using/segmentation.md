@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 세분화
 description: 세분화 활동을 사용하면 워크플로우 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다.
-page-status-flag: never-activated
-uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 121b36056317cc89909607220f988c02ae470f08
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 92%
