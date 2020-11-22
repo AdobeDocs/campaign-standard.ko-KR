@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 트랜잭션 메시지 관리
 description: API를 사용하여 트랜잭션 메시지를 관리하는 방법을 알아봅니다.
-page-status-flag: never-activated
-uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 1%
@@ -51,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (트랜잭션 메시지 API 끝점은 API 미리 보기 중에도 볼 수 있습니다.)
 
-* **&lt;eventID>**:전송할 이벤트 유형입니다. 이 ID는 이벤트 정의를 만들 때 생성됩니다. 자세한 내용은 [캠페인 설명서를 참조하십시오](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID>**:전송할 이벤트 유형입니다. 이 ID는 이벤트 정의를 만들 때 생성됩니다. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### POST 요청 헤더
 
@@ -70,7 +67,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POST 요청 본문
 
-이벤트 데이터는 JSON POST 본문 내에 포함되어 있습니다. 이벤트 구조는 해당 정의에 따라 달라집니다. 리소스 정의 화면의 API 미리 보기 단추는 요청 샘플을 제공합니다. 자세한 내용은 [캠페인 설명서를 참조하십시오](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+이벤트 데이터는 JSON POST 본문 내에 포함되어 있습니다. 이벤트 구조는 해당 정의에 따라 달라집니다. 리소스 정의 화면의 API 미리 보기 단추는 요청 샘플을 제공합니다. Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 이벤트에 연결된 트랜잭션 메시지 전송을 관리하기 위해 이벤트 컨텐츠에 다음 선택적 매개 변수를 추가할 수 있습니다.
 
