@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Campaign Standard에서 새로운 플랫폼 시작
 description: Adobe Campaign Standard에서 도메인 및 IP 주소 명성을 유지하면서 새로운 플랫폼을 설정하는 방법을 살펴볼 수 있습니다.
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 2%
