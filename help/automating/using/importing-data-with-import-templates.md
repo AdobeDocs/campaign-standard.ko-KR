@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 가져오기 템플릿으로 데이터 가져오기
 description: 데이터를 수집하여 Campaign 데이터베이스를 제공하는 방법을 알아보십시오.
-page-status-flag: never-activated
-uuid: bfc03235-2032-448a-a9ed-21ff2a83fa09
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 99%
