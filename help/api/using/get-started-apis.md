@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign Standard API 시작
 description: Adobe Campaign과 다양한 기술의 통합을 통해 고유한 에코시스템을 구축할 수 있습니다.
-page-status-flag: never-activated
-uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
