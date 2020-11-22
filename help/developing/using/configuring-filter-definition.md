@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 필터 정의 구성
 description: 필터 기능으로 대용량 데이터 세트를 관리하는 방법을 알아봅니다.
-page-status-flag: never-activated
-uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-discoiquuid: 993ab2bd-e05f-468e-9ef8-a603761247f8
 context-tags: cusResource,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 95%
