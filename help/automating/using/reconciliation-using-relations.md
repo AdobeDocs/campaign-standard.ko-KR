@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 관계를 사용한 데이터 조정
 description: 다음 예제에서는 파일에 있는 구매 데이터를 사용하여 데이터베이스를 업데이트하는 워크플로우를 보여줍니다.
-page-status-flag: never-activated
-uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 86%
