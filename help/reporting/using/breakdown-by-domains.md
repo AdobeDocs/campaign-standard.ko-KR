@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 도메인별 분류
 description: 기본적으로 제공되는 도메인별 분류 보고서를 사용하면 각 고객의 도메인에 따라 배달된 성능 데이터에 대해 알 수 있습니다.
-page-status-flag: never-activated
-uuid: 75a64c81-325b-422f-b6ef-deb06eec7f7b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 2ce174f9-5d7d-48b9-9235-6bf3e238ff37
 context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,main;programDomainBreakdownReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 3%
