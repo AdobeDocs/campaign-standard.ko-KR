@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Analytics에서 Campaign 차원 및 지표 보기
 description: Adobe Campaign에서 이메일 배달 추적을 시작하려면 Adobe Analytics에서 찾을 수 있는 다양한 차원을 학습합니다.
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 3%
