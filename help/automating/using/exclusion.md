@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 예외
 description: 예외 활동을 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다.
-page-status-flag: never-activated
-uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
