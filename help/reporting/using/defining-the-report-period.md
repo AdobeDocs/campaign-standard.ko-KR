@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 보고서 기간 정의
 description: 보고서의 기간을 사용하면 선택한 날짜에 따라 데이터를 필터링할 수 있습니다.
-page-status-flag: never-activated
-uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 3%
