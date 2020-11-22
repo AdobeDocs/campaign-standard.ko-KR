@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 다국어 이메일 만들기
 description: 다음 단계에 따라 다양한 기본 언어를 사용하는 다국어 이메일 수신자를 대상으로 이메일을 작성합니다.
-page-status-flag: never-activated
-uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 25%
