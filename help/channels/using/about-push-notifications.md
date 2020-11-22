@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 푸시 알림 기본 정보
 description: Adobe Campaign 푸시 알림 채널의 주요 특성을 알아봅니다.
-page-status-flag: never-activated
-uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 50%
@@ -155,7 +152,7 @@ Android의 경우 Campaign은 알림 페이로드가 아닌 데이터 페이로�
 
 ### 푸시 채널에 사용할 수 있는 보고서는 무엇입니까? {#push-report-available}
 
-최신 보고서는 푸시 채널에 대해 Adobe Campaign에서 사용할 수 있습니다. 이 [설명서를 참조하십시오](../../reporting/using/push-notification-report.md).
+최신 보고서는 푸시 채널에 대해 Adobe Campaign에서 사용할 수 있습니다. Refer to this [documentation](../../reporting/using/push-notification-report.md).
 
 각 푸시 지표가 계산되는 방법을 이해하려면 이 [페이지를](../../reporting/using/indicator-calculation.md#push-notification-delivery) 참조하십시오.
 
