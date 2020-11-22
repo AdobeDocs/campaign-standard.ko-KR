@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 활성 프로필
 description: 고객 지표에 대한 전용 보고서에 액세스하고 캠페인 데이터베이스에서 활성 프로파일을 시각화할 수 있습니다.
-page-status-flag: never-activated
-uuid: ee8ac493-c297-49ca-aed4-3976d8a685a4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
