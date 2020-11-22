@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 인앱 메시지 기본 정보
 description: 인앱 메시지를 사용하여 모바일 애플리케이션 내에 메시지 또는 경고를 표시합니다.
-page-status-flag: never-activated
-uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
-discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 29%
@@ -74,7 +71,7 @@ Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인�
 
 ### 인앱 채널에 사용할 수 있는 보고서는 무엇입니까? {#report-inapp}
 
-최신 보고서는 인앱 채널에 대해 Adobe Campaign에서 사용할 수 있습니다. 이 [설명서를 참조하십시오](../../reporting/using/in-app-report.md).
+최신 보고서는 인앱 채널에 대해 Adobe Campaign에서 사용할 수 있습니다. Refer to this [documentation](../../reporting/using/in-app-report.md).
 
 각 In-App 지표가 계산되는 방법을 이해하려면 이 [페이지를](../../reporting/using/indicator-calculation.md#in-app-delivery) 참조하십시오.
 
