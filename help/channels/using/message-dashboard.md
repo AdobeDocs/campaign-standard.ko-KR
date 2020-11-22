@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 메시지 대시보드
 description: 작업 표시줄과 다양한 기능 블록을 비롯하여 메시지 대시보드가 무엇으로 구성되어 있는지 확인합니다.
-page-status-flag: never-activated
-uuid: 9bb44ee8-2cf6-43ce-94a4-367f4e469713
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-discoiquuid: 90a78742-697f-46da-8c54-108048e57b67
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 4%
@@ -87,7 +84,7 @@ ht-degree: 4%
 
    이 메시지가 표시되면 IP 친화성 정의 수준 또는 전송 프로세스 수준에서 문제가 발생합니다. Adobe 관리자에게 문의하십시오.
 
-* *&quot;이는 즉시 사용 가능한 트랜잭션 메시지 템플릿입니다. 수정하려는 경우 복제하여 복사본에서 작업해야 합니다.&quot;*
+* *&quot;이는 즉시 사용 가능한 트랜잭션 메시지 템플릿입니다. 수정하려는 경우 복제한 후 복사해야 합니다.&quot;*
 
    기본적으로 제공되는 트랜잭션 메시지 템플릿 중 일부는 내장된 랜딩 페이지 템플릿입니다. 자세한 내용은 [이 섹션](../../channels/using/landing-page-templates.md)을 참조하십시오.
 
