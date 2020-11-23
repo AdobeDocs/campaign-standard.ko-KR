@@ -54,8 +54,7 @@ POST 작업을 통해 XDM 매핑이 Adobe Experience Platform에 즉시 수집�
 >
 >인제스트 POST API 호출을 실행하려면 사용자에게 **SQL 함수 실행** 역할이 있어야 합니다. 이 역할은 Campaign Standard 관리자가 JS 스크립트 아래의 스크립트를 실행하여 제공할 수 있습니다.
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
