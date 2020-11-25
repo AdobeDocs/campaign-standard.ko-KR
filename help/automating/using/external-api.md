@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 100%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,19 +38,13 @@ ht-degree: 100%
 
 ### 이전 버전과의 호환성 알림 {#from-beta-to-ga}
 
-Campaign Standard 20.4 릴리스에서는 모범 사례에 맞게 http 응답 데이터 크기 제한 및 응답 시간 제한이 완화되었습니다(&quot;제한 및 보호 기능&quot; 섹션 참조). 이러한 보안 수정 사항은 기존 외부 API 활동에는 적용되지 않습니다. 따라서 모든 워크플로우에서 기존 외부 API 활동을 새 버전으로 대체하는 것이 좋습니다.
-
-Campaign Standard 20.2(또는 이전 버전)에서 업그레이드하는 경우, 외부 API 기능이 Campaign Standard 20.3 릴리스의 Beta에서 일반 출시로 이동했습니다.
-
-따라서 Beta 외부 API 활동을 사용하는 경우 모든 워크플로우에서 GA(일반 출시) 외부 API 활동으로 바꾸어야 합니다.  외부 API의 베타 버전을 사용하는 워크플로우는 Campaign Standard 20.3 릴리스부터 작동하지 않습니다.
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). 이러한 보안 수정 사항은 기존 외부 API 활동에는 적용되지 않습니다. 따라서 모든 워크플로우에서 기존 외부 API 활동을 새 버전으로 대체하는 것이 좋습니다.
 
 외부 API 활동을 바꿀 때 새 외부 API 활동을 워크플로우에 추가하고 구성 세부 사항을 수동으로 복사한 다음 이전 활동을 삭제합니다.
 
 >[!NOTE]
 >
 >활동 지정 헤더 값은 활동 내에 마스킹되어 있으므로 복사할 수 없습니다.
-
-다음으로, Beta 외부 API 활동의 데이터를 가리키거나 사용하는 워크플로우의 다른 활동을 다시 구성하여 대신 새로운 외부 API 활동의 데이터를 가리키거나 사용합니다. 예를 들어 이메일 게재(개인화 필드), 데이터 보강 활동 등의 활동이 있습니다.
 
 ### 제한 및 보호 기능 {#guardrails}
 
