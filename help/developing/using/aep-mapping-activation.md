@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 0%
 
 ---
 
@@ -39,9 +39,29 @@ ht-degree: 1%
 
 ![](assets/aep_statusmapping.png)
 
-데이터 수집 작업 상태:
+데이터 수집 작업 상태는 다음과 같습니다.
 
 * **[!UICONTROL Created]**:데이터 수집 작업이 만들어지고 데이터 수집이 진행 중입니다.
 * **[!UICONTROL Failed]**:데이터 수집 작업이 실패했습니다. 이유 필드는 실패 이유를 설명합니다. 실패가 일시적으로 또는 영구적일 수 있습니다. 일시적인 오류가 발생하는 경우 구성된 간격 후에 새 통합 작업이 만들어집니다. 문제 해결을 위한 첫 번째 단계로, 사용자는 실패 이유 필드를 확인할 수 있습니다. 이유를 통해 사용자를 Adobe Experience Platform UI로 리디렉션하는 경우 사용자는 Adobe Experience Platform에 로그인하여 데이터 세트에 있는 일괄 처리 상태를 확인하여 정확한 실패 이유를 확인할 수 있습니다.
 * **[!UICONTROL Uploaded]**:일괄 처리를 먼저 Adobe Experience Platform에서 만든 다음 데이터를 일괄 처리로 인제스트합니다. 배치 ID 필드는 Adobe Experience Platform에서 배치에 대한 배치 ID를 보여줍니다. 또한 Adobe Experience Platform은 배치에 대한 사후 유효성 검사를 수행합니다. Adobe Experience Platform이 게시물 유효성 검사 단계를 완료할 때까지 일괄 처리를 업로드로 표시합니다. 업로드 후 일괄 처리 상태에 대해 Adobe Experience Platform을 계속 폴링합니다. 일괄 처리는 [실패]에서 또는 Adobe Experience Platform의 [성공 상태 게시물] 유효성 검사에서 이동할 수 있습니다.
 * **[!UICONTROL Success]**:일괄 처리가 Adobe Experience Platform에 업로드되면 구성된 간격 후에 작업 상태(플랫폼의 사후 검증)가 확인됩니다. &#39;성공&#39; 상태는 Adobe Experience Platform에서 데이터를 성공적으로 수집했음을 나타냅니다.
+
+경우에 따라 매핑을 게시할 때 아래에 유효성 검사 오류가 표시될 수 있습니다.
+
+![](assets/aep_datamapping_ccpa.png)
+
+이 문제는 사용 중인 XDM 스키마가 개인 정보 관리와 관련된 최신 XDM 필드로 업데이트되지 않고 더 이상 사용되지 않는 &quot;ccpa&quot; XDM 필드가 포함되어 있을 때 발생합니다.
+
+XDM 스키마를 업데이트하려면 다음 단계를 따르십시오.
+
+1. XDM 매핑 페이지에 있는 링크를 사용하여 Adobe Experience Platform의 데이터 세트로 이동합니다.
+
+1. XDM 스키마로 이동합니다.
+
+1. 스키마에 &quot;개인 정보 보호&quot; 믹스를 추가합니다.
+
+   ![](assets/aep_datamapping_privacyfield.png)
+
+1. 스키마를 저장한 다음 매핑 게시를 다시 시도하십시오. 이제 발행물을 통과해야 합니다.
+
+   ![](assets/aep_save_mapping.png)
