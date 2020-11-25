@@ -1,21 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Adobe Campaign Standard의 개인 정보 보호 및 동의
-description: 이 섹션에서는 Adobe Campaign Standard의 개인 정보, 개인 데이터 및 동의 관리에 대한 개요와 이러한 정보를 처리하는 데 사용할 수 있는 도구에 대해 설명합니다.
+title: 개인 정보 및 동의
+description: Adobe Campaign Standard의 개인 정보, 개인 정보 및 동의 관리에 대한 자세한 내용
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 3%
+source-wordcount: '1657'
+ht-degree: 2%
 
 ---
 
 
-# Privacy and Consent{#privacy-and-consent}
+# Privacy and Consent {#privacy-and-consent}
 
 ## 일반 추천 {#general-recommendations}
 
@@ -37,7 +37,7 @@ Adobe Campaign은 개인 정보와 민감한 데이터를 포함하여 매우 �
 
 >[!NOTE]
 >
->GDPR, CPA 및 PDPA가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../start/using/privacy-management.md#privacy-management-regulations).
+>GDPR, CPA, PDPA 및 LGPD가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
@@ -75,6 +75,8 @@ Adobe Experience Cloud 개인 정보에 대한 자세한 내용은 [이 페이�
 * **개인 데이터는** 살아있는 개인을 직접 또는 간접적으로 식별할 수 있는 정보입니다.
 * **민감한 개인 데이터는** 노동 조합 회원뿐 아니라 개인의 인종, 정치적 관점, 종교적 신념, 범죄 배경, 유전자 정보, 건강 정보, 성적 선호도, 생체 인식 정보 등과 관련된 정보입니다.
 
+대상 대상 서비스 [,](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Analytics [,](../../integrating/using/about-campaign-analytics-integration.md)Audience Manager 또는 국민 핵심 서비스 [와 같이 대상을 다른 시스템으로 전송할 수 있는 다른 Experience Cloud 솔루션이나 Microsoft Dynamics 365와 같은 다른 솔루션과 Adobe Campaign을 통합하면](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)[](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
+
 기본 [규정](#privacy-regulations) 은 다음과 같이 데이터를 관리하는 서로 다른 개체를 의미합니다.
 * 데이터 **컨트롤러는** 개인 데이터를 수집, 사용 및 공유하는 방법과 목적을 결정하는 기관입니다.
 * 데이터 **프로세서는** 데이터 관리자의 지시에 따라 개인 데이터를 수집, 사용 또는 공유하는 개인 또는 당사자입니다.
@@ -82,7 +84,31 @@ Adobe Experience Cloud 개인 정보에 대한 자세한 내용은 [이 페이�
 
 따라서 개인 데이터를 수집 및 공유하는 회사는 데이터 관리자이며, 클라이언트는 데이터 주체이며, Adobe Campaign은 데이터 프로세서의 역할을 합니다. 개인정보 보호 요청을 관리할 때와 같이 데이터 주체와의 관계를 처리하는 것은 데이터 [관리자로서 귀하의 책임입니다](#privacy-requests).
 
-대상 대상 서비스 [,](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Analytics [,](../../integrating/using/about-campaign-analytics-integration.md)Audience Manager 또는 국민 핵심 서비스 [와 같이 대상을 다른 시스템으로 전송할 수 있는 다른 Experience Cloud 솔루션이나 Microsoft Dynamics 365와 같은 다른 솔루션과 Adobe Campaign을 통합하면](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)[](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
+### 사용 사례 시나리오 {#use-case-scenario}
+
+서로 다른 고객의 상호 작용을 보여주기 위해 GDPR 고객 경험의 예를 들어보겠습니다.
+
+이 예에서는 항공사 회사가 Adobe Campaign 고객입니다. 이 회사는 **데이터 관리자이며** 항공사의 모든 클라이언트는 **데이터 피험자입니다**. 로라는 이 특별한 경우에 항공사 고객이다.
+
+다음은 이 예제에서 사용되는 다양한 개인 목록입니다.
+
+* **로라는** 데이터 **주제이다**. 그녀는 항공사로부터 메시지를 받는 수신자이다. Laura는 자주 사용하는 홍보용 전단이지만, 어떤 시점에서는 항공사 회사로부터 개인화된 광고나 마케팅 메시지를 받고 싶지 않다고 결정할 수 있습니다. 그는 (전단지 절차에 따라) 항공사에 수시로 연락하는 항공편 번호를 삭제하도록 요구할 예정이다.
+
+* **앤** 은 **항공사** 데이터 관리자입니다. Laura의 요청을 받고 데이터 주체의 확인을 요청한 유용한 ID를 검색하여 Adobe Campaign에서 요청을 제출합니다.
+
+* **Adobe Campaign** 는 **데이터 프로세서입니다**.
+
+![](assets/privacy-gdpr-flow.png)
+
+이 사용 사례의 일반 흐름은 다음과 같습니다.
+
+1. 데이터 **주체** (로라)는 이메일, 고객 지원 센터 또는 웹 포털을 통해 **데이터**&#x200B;관리자에게 GDPR 요청을 보냅니다.
+
+1. Ad **Controller** (Anne)는 인터페이스 또는 API를 사용하여 GDPR 요청을 Campaign으로 푸시합니다.
+
+1. 데이터 **프로세서** (Adobe Campaign)이 정보를 수신하면 GDPR 요청에 대해 조치를 취하여 **데이터 컨트롤러** (Anne)에 응답이나 승인을 보냅니다.
+
+1. 그런 다음 **데이터 컨트롤러** (Anne)가 정보를 검토하고 **데이터 주체** (Laura)로 다시 전송합니다.
 
 ## 데이터 수집 {#data-acquisition}
 
@@ -123,17 +149,9 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 * 잊혀질 **권리** (요청 삭제)는 데이터 주체가 자신의 개인 데이터를 삭제하도록 권한을 부여합니다.
 
->[!NOTE]
->
->이 툴을 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../start/using/privacy-management.md#privacy-management-regulations).
+액세스 **및** **삭제** 요청은 [이 섹션에](../../start/using/privacy-management.md#right-access-forgotten)제공됩니다.
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-**액세스** 및 **삭제** 요청이 [이 페이지에](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)표시됩니다. 이러한 요청을 만드는 구현 단계는 [이 페이지에 자세히 설명되어 있습니다](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Tutorials도 [여기에서](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html)이용 가능합니다.
+이러한 요청을 만드는 구현 단계는 [이 섹션에 자세히 설명되어 있습니다](../../start/using/privacy-requests.md). Tutorials도 [여기에서](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html)이용 가능합니다.
 
 ## 추적 기능 {#tracking-capabilities}
 
