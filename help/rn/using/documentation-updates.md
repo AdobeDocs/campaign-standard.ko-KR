@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '6239'
-ht-degree: 98%
+source-wordcount: '6311'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 98%
 ## 2020년 11월 {#doc-updates-november-2020}
 
 개인 정보 섹션이 두 개의 새 페이지로 이동되고 강화되었습니다. [개인 정보 관리](../../start/using/privacy-management.md) 및 [개인 정보 보호 요청](../../start/using/privacy-requests.md)관리
+
+개인 정보 관리와 관련된 데이터 매핑 유효성 검사 오류 및 문제 해결 방법에 대한 정보가 Adobe Experience Platform 데이터 커넥터 섹션에 추가되었습니다. [자세한 내용](../../developing/using/aep-mapping-activation.md)
+
+개인 데이터 및 개인 정보 섹션은 개인정보 보호 측면에서 서로 다른 개인들이 상호 작용하는 방법을 보여주는 사용 사례 시나리오로 업데이트되었습니다. [자세한 내용](../../start/using/privacy.md#use-case-scenario)
+
+개인 정보에 대한 FAQ가 나와 있는 새로운 섹션이 추가되었습니다. [자세한 내용](../../start/using/privacy-faq.md)
 
 ## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
 
