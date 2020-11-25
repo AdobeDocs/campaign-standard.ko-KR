@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1663'
 ht-degree: 99%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 99%
       + [개인 정보 및 동의](start/using/privacy.md)
       + [개인 정보 관리](start/using/privacy-management.md)
       + [개인 정보 요청](start/using/privacy-requests.md)
+      + [개인 정보 FAQ](start/using/privacy-faq.md)
    + 인터페이스 살펴보기 {#discovering-the-interface}
       + [인터페이스 기본 정보](start/using/about-the-interface.md)
       + [인터페이스 설명](start/using/interface-description.md)
