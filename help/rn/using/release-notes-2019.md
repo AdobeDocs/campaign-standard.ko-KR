@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
-source-wordcount: '7624'
+source-wordcount: '7622'
 ht-degree: 8%
 
 ---
@@ -304,7 +304,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> Campaign 컨트롤 패널<br /> </td> 
-   <td> <p>관리 사용자로서의 작업의 효율성을 높이기 위해 손쉽게 용량을 모니터링하고 인스턴스 설정을 관리할 수 있습니다(SFTP 서버 관리부터 시작).</p><p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/control-panel/control-panel-overview.html">방법 비디오</a>를 참조하십시오.</p></td> 
+   <td> <p>관리 사용자로서의 작업의 효율성을 높이기 위해 손쉽게 용량을 모니터링하고 인스턴스 설정을 관리할 수 있습니다(SFTP 서버 관리부터 시작).</p><p>자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">방법 비디오</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 로컬 알림<br /> </td> 
