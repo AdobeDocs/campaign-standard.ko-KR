@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c4c6c854b749ff937ac0dea482db92c57c7a3683
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 18%
+source-wordcount: '667'
+ht-degree: 17%
 
 ---
 
@@ -63,7 +63,7 @@ Campaign Standard 기능을 제거/교체하기 위해 다음 규칙이 적용�
  <tbody> 
   <tr> 
    <td> <p>Campaign 19.4 릴리스를 시작하면 액세스 및 삭제 요청에 대해 캠페인 API와 인터페이스를 사용하는 것이 더 이상 사용되지 않습니다. 2단계 프로필 삭제는 사용할 수 없습니다. Adobe 개인정보 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">보호 코어 서비스를 사용하십시오</a>.</p></br>
-   <p>개인 정보 <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html">요청 관리를 참조하십시오</a>.</p>
+   <p>개인 정보 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">요청 관리를 참조하십시오</a>.</p>
   <p> 
   <em>타겟 제거 날짜: 2021년</em></p>
    </td> 
