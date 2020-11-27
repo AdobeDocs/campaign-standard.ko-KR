@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: c4c6c854b749ff937ac0dea482db92c57c7a3683
+source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 17%
@@ -49,7 +49,7 @@ Campaign Standard 기능을 제거/교체하기 위해 다음 규칙이 적용�
    <td> <p> 20.1 릴리스부터 SDK v4는 더 이상 사용되지 않습니다. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">자세히 알아보기</a></p><br/>
    <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform 모바일 SDK</a> (이전 v5라고도 함)는 향후 출시될 Adobe Experience Cloud 기능 및 기능을 독점적으로 지원합니다.</p></br>
      <p>
-     <em>Target 제거 날짜:2020년 9월 30일</em></p>
+     <em>Target 제거 날짜:2021년 8월 31일</em></p>
      </td> 
   </tr> 
  </tbody> 
