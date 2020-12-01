@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ A/B 테스트의 특정 컨텍스트에서 다음을 수행합니다.
    >동률인 경우 채택 변형을 수동으로 선택해야 합니다. 이메일 생성자 및 수정자에게 변형이 선택되었거나 선택되어야 함을 알릴 수 있습니다. [Adobe Campaign 알림](../../administration/using/sending-internal-notifications.md)을 참조하십시오.
 
 이제 이메일이 정의 및 전송되었습니다. 해당 로그 및 보고서에 액세스하여 캠페인의 성공을 측정할 수 있습니다.
-
-**관련 항목**:
-
-[이메일 만들기](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) 비디오
 
 ## A/B 테스트 지표 기본 정보 {#about-a-b-test-indicators}
 
