@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '452'
 ht-degree: 98%
 
 ---
@@ -54,7 +54,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 **질문: 어떤 영향이 있습니까?**
 
-답변: 변경 사항은 관련 설명서에 대한 링크를 포함하여 [릴리스 정보](../../rn/using/release-notes.md)에 나열되어 있습니다. [더 이상 사용되지 않는 기능 및 제거된 기능 페이지](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)를 참조하는 것을 권장합니다. 이 페이지는 스테이징 환경 업그레이드 날짜에 새 릴리스에서 사용할 수 있습니다.
+답변: 변경 사항은 관련 설명서에 대한 링크를 포함하여 [릴리스 정보](../../rn/using/release-notes.md)에 나열되어 있습니다. [더 이상 사용되지 않는 기능 및 제거된 기능 페이지](../../rn/using/deprecated-features.md)를 참조하는 것을 권장합니다. 이 페이지는 스테이징 환경 업그레이드 날짜에 새 릴리스에서 사용할 수 있습니다.
 
 **질문: 유효성 검사 프로세스는 무엇입니까?**
 
