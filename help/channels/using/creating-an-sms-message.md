@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사합니다. 다음 단계에서는 이 채널과 관련된 구성을 설명합니다. 기타 옵션에 대한 자세한 내용은 [이메일 만들기](../../channels/using/creating-an-email.md)를 참조하십시오.
 
 고급 SMS 매개 변수는 [SMS 구성](../../administration/using/configuring-sms-channel.md) 섹션에 자세히 설명되어 있습니다.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 휴대폰에 SMS 메시지를 만들고 전송하려면 다음이 필요합니다.
 
@@ -78,4 +80,11 @@ SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유�
 
 * [SMS 및 푸시 콘텐츠 에디션 기본 정보](../../channels/using/about-sms-and-push-content-design.md)
 * [템플릿 관리](../../start/using/marketing-activity-templates.md)
-* [SMS 게재 만들기](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html)비디오
+
+## 자습서 비디오 {#video}
+
+이 비디오에서는 SMS 전달을 만드는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+
+추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
