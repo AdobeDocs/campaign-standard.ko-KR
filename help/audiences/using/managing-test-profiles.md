@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 ## 테스트 프로필 기본 정보 {#about-test-profiles}
 
 테스트 프로필을 사용하면 정의된 타겟팅 기준과 일치하지 않는 추가 수신자를 타겟팅할 수 있습니다. 수신자 데이터베이스의 부정 사용을 감지하거나 이메일이 받은 편지함에 도착하는지 확인하기 위해 메시지 대상자에 추가됩니다.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 고급 메뉴 **[!UICONTROL Profiles & audiences > Test profiles]**&#x200B;에서 테스트 프로필을 관리할 수 있습니다.
 
@@ -65,10 +67,6 @@ ht-degree: 100%
 
 그러면 테스트 프로필이 프로필 목록에 추가됩니다.
 
-**관련 항목:**
-
-[테스트 프로필 만들기](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) 비디오
-
 ## 테스트 프로필 편집 {#editing-test-profiles}
 
 테스트 프로필을 편집하고 연결된 데이터를 참조하거나 수정하려면 다음을 수행합니다.
@@ -79,3 +77,11 @@ ht-degree: 100%
    ![](assets/test_profile_edit.png)
 
 1. 변경 사항을 입력한 경우 **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 테스트 프로필 이름을 선택한 다음 화면 상단의 섹션에서 **[!UICONTROL Test profiles]**&#x200B;을(를) 클릭하여 테스트 프로필 대시보드로 돌아갑니다.
+
+## 자습서 비디오 {#video}
+
+이 비디오에서는 테스트 프로필을 만드는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+
+추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
