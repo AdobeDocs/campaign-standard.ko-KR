@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 99%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,10 @@ ht-degree: 99%
 
 이 페이지에서는 이 단계 각각에 대한 정보를 확인할 수 있으며, 더 자세히 알아보기 위해 참조할 전용 설명서도 찾아 볼 수 있습니다.
 
+![](assets/do-not-localize/how-to-video.png) [비디오에서 랜딩 페이지를 만드는 방법 살펴보기](#video)
+
 **관련 항목:**
 
-* [랜딩 페이지 만들기 자습서 비디오](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html)
 * [서비스 만들기](../../audiences/using/creating-a-service.md)
 * [이중 옵트인 프로세스 설정](setting-up-a-double-opt-in-process.md)
 
@@ -131,3 +132,11 @@ ht-degree: 99%
 게시되면 랜딩 페이지를 사용할 수 있습니다. 그런 다음에는 데이터베이스에서 새로운 프로필을 획득하거나 기존 프로필에 대한 추가 정보를 얻기 위해 액세스할 수 있는 다양한 매커니즘을 배치할 수도 있습니다.
 
 랜딩 페이지 게시에 대한 자세한 정보는 [이 섹션](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)을 참조하십시오.
+
+## 자습서 비디오 {#video}
+
+이 비디오에서는 랜딩 페이지를 만들고 편집하는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+
+추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
