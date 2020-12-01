@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ Adobe Campaign에서는 여러 사용자에게 할당된 권한을 정의 및 �
 * **조직 단위**: 플랫폼의 다양한 개체(이메일, 워크플로우, 템플릿, 사용자, 프로필 등)에 대한 권한 계층을 정의할 수 있습니다. [조직 단위](../../administration/using/organizational-units.md) 섹션을 참조하십시오.
 * **역할**: 사용자 및 사용자 그룹에 할당된 승인을 정의할 수 있는 통합된 권리 집합입니다. [역할 목록](../../administration/using/list-of-roles.md) 섹션을 참조하십시오.
 
-   조직 단위와 결합된 역할은 사용자에게 인터페이스의 필터링된 보기를 제공하고 다양한 기능에 대한 액세스를 정의합니다. 자세한 내용은 [승인 항목 표](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)를 참조하십시오.
+   조직 단위와 결합된 역할은 사용자에게 인터페이스의 필터링된 보기를 제공하고 다양한 기능에 대한 액세스를 정의합니다. 자세한 내용은 [승인 항목 표](../../administration/using/list-of-roles.md)를 참조하십시오.
 
 >[!IMPORTANT]
 >
->지리적 단위 기능은 더 이상 사용되지 않습니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)를 참조하십시오.
+>지리적 단위 기능은 더 이상 사용되지 않습니다. 자세한 정보는 이 [페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
 
 플랫폼의 기능 관리자는 **[!UICONTROL Administration > Users & Security]** 메뉴 아래에서 역할, 그룹 및 조직 단위를 관리할 수 있습니다.
 
