@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '5400'
+source-wordcount: '5402'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ Adobe Campaign Standard의 2018년 특정 릴리스를 찾고 계십니까?
 
 각 릴리스에는 새로운 기능과 패치가 포함되어 있습니다. 해당 콘텐츠를 보려면 릴리스를 클릭하십시오.
 
-Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/using/documentation-updates.md) 확인하십시오. 최신 릴리스를 원하는 경우 이 [페이지를 참조하십시오](../../rn/using/release-notes.md).
+Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using/documentation-updates.md)를 봅니다. 최신 릴리스를 원하는 경우 이 [페이지](../../rn/using/release-notes.md)를 참조하십시오.
 
 ## 릴리스 18.9 - 2018년 9월 {#release-18-9---september-2018}
 
@@ -40,7 +40,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
    <td> 인앱 메시징을 사용하면 상황에 맞는 인터랙션을 제공하고 푸시 알림을 옵트아웃했을 수 있는 사용자에게 도달할 수 있으므로 모바일 앱 사용자의 참여를 보다 효과적으로 유도할 수 있습니다. 푸시 알림과 함께 인앱 메시지를 사용하여 개인화되고 고객과 연관성 높은 경험을 제작할 수 있습니다. 따라서 앱 사용자의 전환율과 유지율이 향상됩니다.<br /> 자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Launch integration for mobile apps (beta)<br /> </td> 
+   <td> 모바일 앱용 Adobe 실행 통합(베타)<br /> </td> 
    <td> 이제 Adobe Campaign과 Adobe 실행 통합을 통해 Mobile SDK V5를 사용하여 Campaign에서 모바일 앱 속성 활성화 프로세스를 간소화하고 자동화합니다.<br /> 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
@@ -55,7 +55,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 * 이제 브로드캐스팅에는 최대 연결 수와 시간당 최대 메시지 수 사이에 차이가 있습니다. When the limits are reached, it is possible to know why the throughput is limited. 이전에는, 동일한 메시지(&#39;할당량 충족&#39;)가 두 경우 모두에 적용되었습니다.
 * Campaign에서 모바일 응용 프로그램을 구성할 때 이제 사용자는 iOS 인증서 및 Android 서버 키가 성공적으로 업로드되었는지 및 만료일을 알 수 있습니다.
 
-   자세한 내용은 [SDK V4](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdkv4.html) 및 [SDK V5를 사용하여 모바일 애플리케이션을 구성하는 방법에 대한 자세한 설명서를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html).
+   자세한 내용은 [SDK V4](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdkv4.html) 및 [SDK V5](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html)을(를) 사용하여 모바일 애플리케이션을 구성하는 방법에 대한 자세한 설명서를 참조하십시오.
 
 * 캠페인 속성을 정의하는 동안 모바일 앱을 선택하여 특정 모바일 앱에 있는 Target 사용자 이 기능은 푸시 및 인앱 메시지 채널 모두에 적용됩니다.
 
@@ -63,7 +63,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 * Creative Designer 인터페이스를 사용하여 콘텐츠 블록을 선택하면 목록에 있는 모든 콘텐츠 블록이 로드되어 표시됩니다. (CAMP-27311)
 
-   For more on this, refer to the [detailed documentation](../../designing/using/personalization.md#adding-a-content-block).
+   자세한 내용은 [자세한 설명서](../../designing/using/personalization.md#adding-a-content-block)를 참조하십시오.
 
 **패치**
 
@@ -85,7 +85,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 * Creative Designer에서 쿼리 편집기 인터페이스를 사용할 때 선택 정보가 불명확하게 표시되는 문제를 해결했습니다.
 * Creative Designer에서 쿼리 편집기 인터페이스를 사용할 때 요소를 올바르게 복제할 수 없는 문제를 해결했습니다.
 * 자동 답글을 통해 구독이 해지되었음에도 불구하고의 수신자에게 SMS 메시지를 계속 전달하던 문제가 차단 목록 해결되었습니다. (CAMP-27128)
-* 데이터베이스 정리 워크플로가 실패했던 오류를 **표시하지** 못하는 문제를 해결했습니다. (CAMP-26876)
+* **데이터베이스 정리** 워크플로가 실패했던 오류를 표시하지 않는 문제를 해결했습니다. (CAMP-26876)
 * 푸시 알림 정의에서 사용자 정의 필드가 삭제되지 않는 문제를 해결했습니다. (CAMP-25588)
 
 ## 릴리스 18.7 - 2018년 7월 {#release-18-7---july-2018}
@@ -114,11 +114,11 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
   </tr> 
   <tr> 
    <td> 캠페인 릴리스 알림 메시지<br /> </td> 
-   <td> 이제 인스턴스가 새 버전으로 업그레이드된 후 사용자가 로그인할 때 팝업 메시지가 표시됩니다. 이 메시지는 버전 번호를 나타내며 릴리스 노트에 대한 링크를 포함합니다. 다음 릴리스까지 메시지를 숨기도록 선택할 수 있습니다. <br /> </td> 
+   <td> 이제 인스턴스가 새 버전으로 업그레이드된 후 사용자가 로그인할 때 팝업 메시지가 표시됩니다. 이 메시지는 버전 번호를 나타내며 릴리스 노트에 대한 링크를 포함합니다. 다음 릴리스까지 메시지를 숨기도록 선택할 수 있습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 사용자 관리<br /> </td> 
-   <td> 18.7 릴리스부터 지리학적 단위가 만들어지지 않은 기존 인스턴스는 물론, 새로운 Campaign Standard 인스턴스에는 지리적 단위 기능을 사용할 수 없습니다.<br /> 자세한 내용은 이 <a href="https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html">페이지를 참조하십시오</a>.<br /> </td> 
+   <td> 18.7 릴리스부터 지리학적 단위가 만들어지지 않은 기존 인스턴스는 물론, 새로운 Campaign Standard 인스턴스에는 지리적 단위 기능을 사용할 수 없습니다.<br /> 자세한 내용은 이  <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">페이지를 참조하십시오</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,8 +132,8 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 * 제한 시간이 1~4분으로 증가하여 제한 시간 오류가 발생하지 않도록 했습니다.
 * 이메일 컨텐츠를 편집할 때 새로운 Creative Designer가 기본적으로 열립니다. 원할 경우 변경 사항을 저장한 후에도 언제든지 기본 컨텐츠 편집기로 돌아갈 수 있습니다. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
-* 이제 Creative Designer에서 새 컨텐츠 구성 요소를 이메일에 추가할 수 있습니다.회전판입니다. For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
-* 트랜잭션 메시지 핫 클릭 보고서에서 프로필 **변경** 단추를 클릭하면 트랜잭션 메시지에 대해 정의한 이벤트에 연결된 테스트 프로필만 나열됩니다.
+* 이제 Creative Designer에서 새 컨텐츠 구성 요소를 이메일에 추가할 수 있습니다.회전판입니다. 자세한 내용은 [자세한 설명서](../../designing/using/designing-from-scratch.md#about-content-components)를 참조하십시오.
+* 트랜잭션 메시지 핫 클릭 보고서에서 **프로필 변경** 단추를 클릭하면 이제 트랜잭션 메시지에 대해 정의한 이벤트에 연결된 테스트 프로필만 나열됩니다.
 
 **패치**
 
@@ -155,36 +155,36 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 **개선 사항**
 
-* API가 Adobe.IO에 추가되었습니다. **[!UICONTROL History]** 프로필의 마케팅 내역과 관련된 정보에 액세스할 수 있습니다.터치포인트, 전송, 미러 페이지 URL 등 수 For more on this, refer to the [dedicated use case](../../api/using/interacting-with-marketing-history.md) .
-* 데이터베이스 **[!UICONTROL Database cleanup]** 백업에 대한 성능 향상을 위해 기술 워크플로우가 최적화되었습니다.
+* **[!UICONTROL History]** API가 Adobe.IO에 추가되었습니다. 프로필의 마케팅 내역과 관련된 정보에 액세스할 수 있습니다.터치포인트, 전송, 미러 페이지 URL 등 수 자세한 내용은 [전용 사용 사례](../../api/using/interacting-with-marketing-history.md)를 참조하십시오.
+* **[!UICONTROL Database cleanup]** 기술 워크플로우는 데이터베이스 백업에 대한 더 나은 성능을 보장하기 위해 최적화되었습니다.
 * 이메일용 Creative Designer는 이제 프랑스어 및 독일어로도 제공됩니다.
 
 **기타 변경 사항**
 
-* 전송 창에 **[!UICONTROL Compute stats]** 단추가 **[!UICONTROL Deployment]** 추가되었습니다. 이 보고서를 사용하면 최신 KPI를 검색할 수 있습니다. 예를 들어 전송 결과를 업데이트하는 데 시간이 너무 오래 걸리거나 고려하지 않은 경우입니다. 자세한 정보는 이 [섹션](../../sending/using/confirming-the-send.md)을 참조하십시오.
-* 즉시 사용 가능한 기술 작업 **흐름을 위한** 업데이트 **에서 기능 관리자는 이제** 업데이트 규칙javascript 활동에서 무시할 연속 오류 수를 정의할 수 있습니다. 기본적으로 필드 값은 0으로 설정되므로 모든 오류가 무시됩니다.
+* **[!UICONTROL Compute stats]** 단추가 보낸 배달의 **[!UICONTROL Deployment]** 창에 추가되었습니다. 이 보고서를 사용하면 최신 KPI를 검색할 수 있습니다. 예를 들어 전송 결과를 업데이트하는 데 시간이 너무 오래 걸리거나 고려하지 않은 경우입니다. 자세한 정보는 이 [섹션](../../sending/using/confirming-the-send.md)을 참조하십시오.
+* 기능 관리자는 **즉시 제공되는 기술 워크플로우에 대한 업데이트**&#x200B;에서 **업데이트 규칙** javascript 활동에서 무시할 연속 오류 수를 정의할 수 있습니다. 기본적으로 필드 값은 0으로 설정되므로 모든 오류가 무시됩니다.
 * 장치 액세스 제한 조건을 관리할 때 생성된 SQL이 최적화되었습니다.
 * 이제 **[!UICONTROL Update]** 활동에서 구독과 관련된 데이터를 추가, 업데이트 또는 삭제할 수 있습니다(nms:appSubscriptionRcp 테이블).
-* 기술 워크플로우는 성능을 최적화하기 위해 두 개의 워크플로우로 구분되었습니다. **[!UICONTROL Update delivery execution]** - **[!UICONTROL Update delivery execution]**:게재 추적을 업데이트합니다. 기본적으로 10분마다 시작됩니다. **[!UICONTROL Update delivery indicators]**:전달 KPI를 업데이트하면 기본적으로 매시간마다 시작됩니다. For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* 배달에서 메시지를 전송하는 경우 이제 섹션의 상태 **[!UICONTROL Deployment]** 에 두 개의 값이 있을 수 있습니다. **[!UICONTROL Sending]**:메시지를 보내는 중입니다. **[!UICONTROL Sending (retry)]**:재시도 패스가 진행 중입니다.
-* 이제 해당 **[!UICONTROL Delivery preparation]** 역할의 사용자가 교정본을 보낼 수 있습니다. (CAMP-24313)
-* SMPP **외부 계정을 통해** SMS **라우팅** 에 TLS 사용옵션이추가되었습니다. For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* **[!UICONTROL Update delivery execution]** 기술 워크플로우는 성능을 최적화하기 위해 두 개의 워크플로우로 구분되었습니다.- **[!UICONTROL Update delivery execution]**:게재 추적을 업데이트합니다. 기본적으로 10분마다 시작됩니다. **[!UICONTROL Update delivery indicators]**:전달 KPI를 업데이트하면 기본적으로 매시간마다 시작됩니다. 기술 작업 과정에 대한 자세한 내용은 이 [섹션](../../administration/using/technical-workflows.md#list-of-technical-workflows)을 참조하십시오.
+* 배달에서 메시지를 전송하는 경우 이제 **[!UICONTROL Deployment]** 섹션의 상태에 두 개의 값이 있을 수 있습니다.**[!UICONTROL Sending]**:메시지를 보내는 중입니다. **[!UICONTROL Sending (retry)]**:재시도 패스가 진행 중입니다.
+* 이제 **[!UICONTROL Delivery preparation]** 역할을 가진 사용자가 교정본을 보낼 수 있습니다. (CAMP-24313)
+* **SMPP를 통한 TLS 활성화** 옵션이 SMPP **외부 계정을 통해** SMS 라우팅에 추가되었습니다. 이에 대한 자세한 내용은 이 [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)을 참조하십시오.
 
 **패치**
 
 * Adobe Target의 동적 이미지를 포함할 때 이메일이 전송되지 않도록 하는 문제를 해결했습니다(CAMP-24848).
-* 요청이 실패할 경우 완료되지 않은 **[!UICONTROL Privacy Access/Delete Request]** 기술 워크플로우 문제를 해결했습니다.
+* 요청이 실패한 경우 완료되지 않은 **[!UICONTROL Privacy Access/Delete Request]** 기술 워크플로우의 문제를 해결했습니다.
 * 개인 정보 핵심 서비스가 Campaign에서 요청 상태 업데이트를 받지 못하는 문제를 해결했습니다.
-* Fixed an issue which could prevent the **[!UICONTROL Import shared audience]** technical workflow from working properly (CAMP-25465).
+* **[!UICONTROL Import shared audience]** 기술 워크플로가 제대로 작동하지 않는 문제를 해결했습니다(CAMP-25465).
 * 캠페인 개인 정보 요청이 핵심 Privacy Service에서 완료된 것으로 표시되지 않는 문제를 해결했습니다.
 * Adobe ID이 너무 길었을 때 특정 사용자가 IMS 인증을 통해 Campaign Standard에 로그인하지 못하게 하는 문제가 해결되었습니다. (CAMP-24095)
 * 콘텐츠 모듈을 제거할 때 발생할 수 있는 Creative Designer 문제를 해결했습니다. (CAMP-25242)
 * 데이터베이스에 프로필이 없는 가입자에 대해 푸시 알림 피로 규칙을 사용할 때 발생하는 문제가 해결되었습니다. (CAMP-25344)
 * 배달 제외 로그에 액세스할 때 오류 메시지가 표시되는 문제를 해결했습니다. (CAMP-24724)
 * 확장된 전송 로그가 있는 경우 교정본을 준비할 수 없는 문제를 해결했습니다.
-* 확장 기능이 활성화된 사용자 지정 리소스를 게시할 때 발생할 수 있는 두 가지 문제를 **[!UICONTROL Sending log]** 수정했습니다.
+* **[!UICONTROL Sending log]** 확장이 활성화된 사용자 지정 리소스를 게시할 때 발생할 수 있는 두 가지 문제가 해결되었습니다.
 * 반복 배달에서 배달 기간이 고려되지 않는 문제가 해결되었습니다.
-* 100K가 넘는 사용자 지정 리소스에 대해 **[!UICONTROL Client data]** 메뉴에서 데이터를 정렬할 때 발생할 수 있는 문제를 수정했습니다. (CAMP-24308)
+* 100K가 넘는 사용자 지정 리소스에 대해 **[!UICONTROL Client data]** 메뉴에서 데이터를 정렬할 때 발생하는 문제를 수정했습니다. (CAMP-24308)
 * 동적 보고서에서 검색 기능을 사용할 때 고려되지 않은 사용자 지정 프로필 차원 문제를 수정했습니다.
 * 동적 보고서에서 계정 수준에 대한 국제 데이터 표시 문제를 해결했습니다.
 * 이제 구독 또는 구독 취소 확인 메시지 없이 서비스를 만들 수 있습니다.
@@ -206,7 +206,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
    <td> 개인 정보 핵심 서비스 통합을 통해 단일 JSON API 호출을 통해 멀티 솔루션 컨텍스트에서 GDPR 요청을 자동화할 수 있습니다. <br /> 개인 정보 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 GDPR 요청은 이제 Campaign에서 자동으로 처리됩니다. <br /> 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 향상된 푸시 - 자세한 전달 피드백<br /> </td> 
+   <td> 푸시 개선 - 세부 전달 피드백<br /> </td> 
    <td> 이제 Adobe Campaign은 MCPNS를 통해 공급자로부터 푸시 메시지(APNS/GCM)에 대한 자세한 피드백(로그 세트 제외 로그 전송)을 받는 기능을 제공합니다.<br /> 자세한 내용은 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
@@ -214,11 +214,11 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
    <td> 전달 로그 확장 기능을 사용하면 워크플로우에서 생성된 프로필 데이터 및 세그먼트 코드로 전송 로그를 확장할 수 있습니다. 그런 다음 이 정보를 동적 보고서에서 사용할 수 있으며 배달 시 일부 정보의 스냅숏을 유지할 수 있습니다.<br /> 다음 두 가지 사용 사례가 더 있습니다.<br /> 
     <ul> 
      <li> "동결" 데이터로 확장 브로드로그를 내보낼 수 있습니다.마케터는 세그먼트 코드가 "A"(워크플로우 엔진에서 제공)인 모든 프로파일을 내보내고 싶어합니다. </li> 
-     <li> "동결" 데이터의 세그멘테이션:마케터는 마지막 전송 이후 1000개의 로열티 포인트 획득 또는 세그먼트 코드가 "A"와 동일한 경우 모든 프로파일을 <strong>리타겟팅하고</strong> 싶습니다. </li> 
+     <li> "동결" 데이터의 세그멘테이션:마케터는 마지막으로 보낸 이후 1,000개의 로열티 포인트 획득 또는 세그먼트 코드가 "A"와 같은 경우 모든 프로필을 <strong>리타겟팅하고 싶습니다.</strong> </li> 
     </ul> 자세한 내용은 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dynamic reporting with Custom profile data<br /> </td> 
+   <td> 사용자 지정 프로필 데이터<br />를 사용한 동적 보고 </td> 
    <td> 이 기능을 사용하면 프로필 리소스 확장 중에 생성된 사용자 지정 프로필 데이터를 기반으로 보고서를 만들고 관리할 수 있습니다. 충성도 프로그램, 기본 채널 등과 같은 프로필 속성별로 보고서를 분류할 수 있습니다.<br /> 자세한 내용은 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
@@ -230,10 +230,10 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트를](../../rn/us
 
 **기타 변경 사항**
 
-* 이제 대상 읽기 워크플로우 활동이 Experience Cloud 대상을 읽을 수 있습니다. 이전에는 이 활동에서는 쿼리 및 목록 대상만 읽을 수 있었습니다. Refer to the [detailed documentation](../../automating/using/read-audience.md). (CAMP-23623)
+* 이제 대상 읽기 워크플로우 활동이 Experience Cloud 대상을 읽을 수 있습니다. 이전에는 이 활동에서는 쿼리 및 목록 대상만 읽을 수 있었습니다. [자세한 설명서](../../automating/using/read-audience.md)를 참조하십시오. (CAMP-23623)
 * 기본 공유 데이터 소스의 식별자는 이제 읽기 전용 모드이며 더 이상 변경할 수 없습니다. 이 식별자를 변경하면 대상을 Experience Cloud과 공유할 때 일부 문제가 발생할 수 있습니다.
 * 이제 Audience Manager에서 대상을 가져오는 기능이 분할된 파일에서 작동합니다. 이전에는 importSharedAudience 기술 워크플로우에서 세그먼트의 마지막 파일만 가져왔습니다.
-* 이제 AWS S3 외부 계정은 지역 및 버전 4 인증 메커니즘을 지원합니다. Refer to the [detailed documentation](../../administration/using/external-accounts.md).
+* 이제 AWS S3 외부 계정은 지역 및 버전 4 인증 메커니즘을 지원합니다. [자세한 설명서](../../administration/using/external-accounts.md)를 참조하십시오.
 * 이제 자산 선택 창이 더 빠르게 로드되고 자산을 선택한 다음 아무 문제 없이 창을 종료합니다.
 * 이제 관리 권한이 있고 &quot;모든&quot; 조직 및 지역 단위에 속한 사용자가 기술 워크플로우의 속성 및 구조를 수정할 수 있습니다.
 * 새 세그먼트를 만들 때 세그멘테이션 활동 인터페이스에서 개선되었습니다.이제 제한 탭이 제한을 추가한 후 바로 나타납니다. 이제 새 세그먼트 이름이 증가됩니다(&quot;세그먼트 1&quot;, &quot;세그먼트 2&quot; 등).
@@ -280,8 +280,8 @@ _워크플로우_
 _보고_
 
 * 이제 KPI 공유 워크플로우는 지난 6개월 대신 최근 2개월 동안 배달 값을 검색합니다. 잘린 날짜를 표시하는 KPI 공유 외부 계정 문제가 해결되었습니다.
-* 보낸 사람, 배달된 사람 **및 바운스 지표에서 특정 메시지가**&#x200B;고려되지 않는 문제 **** 를 ****&#x200B;해결했습니다.
-* 배달 요약 보고서에서 선택한 시간 범위가 너무 **길었을 때 발생하는** 오류를 수정했습니다.
+* **Sent**, **Delivered** 및 **Bounce**&#x200B;지표에서 특정 메시지를 고려하지 않는 문제를 수정했습니다.
+* **배달 요약 보고서**&#x200B;에서 선택한 시간 범위가 너무 길었을 때 발생하는 오류가 수정되었습니다.
 
 _사용자 정의 리소스_
 
@@ -300,7 +300,7 @@ _사용자 정의 리소스_
  </thead> 
  <tbody> 
   <tr> 
-   <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
+   <td> EU 개인 정보 보호 규정(GDPR)<br /> </td> 
    <td> GDPR은 2018년 5월 25일부터 적용되는 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 유럽 연합에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.<br /> Adobe는 Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 이외에도 데이터 프로세서로서의 Adobe의 기능을 통해 특정 GDPR 요청에 대해 데이터 컨트롤러로서 사용자의 준비를 촉진할 수 있도록 다음과 같은 추가 기능을 제공합니다.<br /> 
     <ul> 
      <li> 액세스 권한:데이터 주체가 데이터 관리자가 캡처한 개인 데이터의 사본을 받을 수 있도록 허용하며, 여기에는 잠재적으로 Adobe Campaign에 저장된 데이터가 포함됩니다. </li> 
@@ -308,21 +308,21 @@ _사용자 정의 리소스_
     </ul> 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 이메일을 위한 Creative Designer(베타)<br /> </td> 
+   <td> 이메일용 Creative Designer(베타)<br /> </td> 
    <td> Adobe Campaign의 새로운 크리에이티브 디자이너는 Adobe Campaign과 완벽하게 통합된 제작 경험을 제공하므로 코드를 단 한 줄도 스크립팅하지 않고도 개인화된 매력적인 이메일을 빠르고 손쉽게 제작할 수 있습니다. Creative Designer는 강력한 드래그 앤 드롭 인터페이스에서 사용자가 빈 슬레이트 상태에서 시작하거나 기존 컨텐츠 조각 또는 템플릿을 활용하더라도 이메일 작성을 확장할 수 있도록 지원합니다. <br /> 주요 기능은 다음과 같습니다.<br /> 
     <ul> 
      <li> 드래그 앤 드롭 방식의 인터페이스, 기본 Creative Cloud 통합을 통해 개인화된 반응형 이메일을 시각적으로 디자인 및 제작 </li> 
      <li> 이메일 컨텐츠 템플릿 작성 및 저장 및 저장된 템플릿 활용을 통해 이메일 제작 확장 </li> 
      <li> 컨텐츠 조각(머리글, 바닥글, 아티클 등)을 만들고 저장합니다. 컨텐츠 제작 간소화 및 브랜드 일관성 보장 </li> 
      <li> 드래그 앤 드롭 인터페이스에서 만들기 간을 원활하게 전환할 수 있고 단추 클릭 시 이메일의 HTML을 직접 편집할 수 있습니다 </li> 
-    </ul> 이메일용 Creative Designer는 영어로만 제공됩니다.<br /> 자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서를</a> 참조하고 이 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">비디오를</a>시청하십시오.<br /> </td> 
+    </ul> 이메일용 Creative Designer는 영어로만 제공됩니다.<br /> 자세한 내용은  <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 </a> 설명서를 참조하고 이  <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">비디오를 시청하십시오</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 다국어 푸시 배달<br /> </td> 
    <td> 이메일 및 SMS 채널에도 이미 존재하는 단순한 다국어 인터페이스가 푸시 채널에 추가되어 고객의 원하는 언어와 상관없이 고객의 참여를 유도할 수 있습니다.<br /> 이 기능은 여러 지역에서 푸시 캠페인을 관리하고 사용자가 원하는 언어로 타깃팅하기를 원하는 고객을 위한 확장 가능하고 자동 솔루션을 제공합니다. 템플릿 스프레드시트를 통해 모든 언어 변형을 한 번의 클릭으로 단일 푸시 배달로 업로드할 수 있습니다. 그런 다음 Adobe Campaign은 사용자의 언어 기본 설정에 따라 자동 세분화를 수행하여 워크플로우와 보고를 단순화하여 불필요한 중복 항목을 줄일 수 있습니다.<br /> 자세한 내용은 <a href="../../channels/using/creating-a-multilingual-push-notification.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Use of Custom Resources in Transactional Messaging<br /> </td> 
+   <td> 트랜잭션 메시지에 사용자 지정 리소스 사용<br /> </td> 
    <td> 기본 필드 외에도 트랜잭션 메시징을 사용하면 맞춤형 리소스를 통해 메시지 내용을 더욱 멋지게 만들 수 있습니다.<br /> 예제:<br /> 
     <ul> 
      <li> 사용자 정의 필드를 조정 기준으로 활용하여 트랜잭션 메시지를 프로필에 일치 </li> 
@@ -342,7 +342,7 @@ _플랫폼_
 _이메일, SMS 메시지 및 DM_
 
 * 부분 크기가 바이트 대신 문자로 계산되었기 때문에 다중 부분 SMS가 잘리는 문제를 해결했습니다.
-* Added an option which allows the **[!UICONTROL Delivered]** or **[!UICONTROL Bounces + Errors]** KPIs to be updated in real time after sending your delivery. 공급자로부터 받은 SR(상태 보고서)에서 직접 다시 계산됩니다.
+* 배달을 보낸 후 실시간으로 **[!UICONTROL Delivered]** 또는 **[!UICONTROL Bounces + Errors]** KPI를 업데이트할 수 있는 옵션을 추가했습니다. 공급자로부터 받은 SR(상태 보고서)에서 직접 다시 계산됩니다.
 * 배달 스케줄러의 달력 위젯 문제를 수정했습니다.
 * 전송된 배달에서 두 번째로 대상을 열 때의 표시 문제를 수정했습니다.
 * 지연된 전송 날짜가 있는 이메일 템플릿을 만들 때 시작 날짜를 요청하는 오류 메시지가 표시되는 문제를 해결했습니다.
@@ -355,14 +355,14 @@ _이메일, SMS 메시지 및 DM_
 _대상 및 쿼리_
 
 * Adobe Campaign Classic에서 Standard로 복제된 수신자에 대한 데이터에 액세스하고 쿼리를 설정하지 못하는 문제를 해결했습니다.
-* 쿼리 편집기에서 [ **카운트] 또는 [미리 보기] 단추를 사용한 후 필터 유형** 필드를 사용할 때 발생하던 **문제를** 수정했습니다.
+* 쿼리 편집기에서 **카운트** 또는 **미리 보기** 단추를 사용한 후 필터 유형 필드를 사용할 때 발생하던 문제가 해결되었습니다.
 
 _워크플로우_
 
-* 청구 **워크플로우는** 배달 준비 지연을 개선하기 위해 최적화되었습니다.
+* **청구** 워크플로우는 배달 준비 지연을 개선하기 위해 최적화되었습니다.
 * 반복 배달 활동을 사용할 때 인구 데이터가 아웃바운드 전환에 표시되지 않는 문제를 해결했습니다.
-* 데이터 **업데이트 활동 후 전환 시 거부 레코드가 표시되지 않는 문제를** 해결했습니다.
-* deliverabilityUpdate **기술 워크플로가** 실패할 수 있는 문제를 수정했습니다.
+* **데이터 업데이트** 활동 후 전환 시 거부 레코드가 표시되지 않는 문제를 해결했습니다.
+* **deliveryUpdate** 기술 워크플로가 실패할 수 있는 문제를 수정했습니다.
 
 _통합_
 
@@ -390,12 +390,12 @@ _트랜잭션 메시지_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Subscription - subscribe or unsubscribe a list of profiles to multiple services<br /> </td> 
-   <td> 구독 <strong>서비스</strong> 워크플로우 활동을 통해 여러 서비스에 대한 프로필 목록을 구독 또는 구독 취소할 수 있습니다. 워크플로우에서 프로파일이 포함된 파일과 각 프로파일의 작업 유형 및 서비스를 가져옵니다. 구독 <strong>서비스</strong> 활동은 이 정보를 사용하고 모든 프로필 구독 및 구독 취소를 한 번에 동적으로 처리할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/subscription-services.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 구독 - 여러 서비스에 대한 프로필 목록 구독 또는 구독 취소<br /> </td> 
+   <td> 이제 <strong>구독 서비스</strong> 워크플로우 활동을 통해 여러 서비스에 대한 프로필 목록을 구독하거나 가입을 해지할 수 있습니다. 워크플로우에서 프로파일이 포함된 파일과 각 프로파일의 작업 유형 및 서비스를 가져옵니다. <strong>구독 서비스</strong> 활동에서는 이 정보를 사용하고 모든 프로필 구독 및 구독 취소를 한 번에 동적으로 처리할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/subscription-services.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Enrichment activity - enrich data based on previous transitions<br /> </td> 
-   <td> 새로운 <span class="uicontrol">데이터 연계</span> 강화 워크플로우 활동을 통해 인바운드 전환을 활용하고 추가 데이터로 출력 전환을 완료할 수 있습니다. 프로파일을 타깃팅하는 경우 데이터 연계 강화 기능을 사용하면 데이터베이스에 저장되지 않은 추가 데이터(예: 가져온 파일에서 가져온 데이터)로 프로파일 정보를 강화할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/enrichment.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 데이터 연계 강화 - 이전 전환을 기반으로 데이터 강화<br /> </td> 
+   <td> 새로운 <span class="uicontrol">Enrichment</span> 워크플로우 활동을 통해 인바운드 전환을 활용하고 추가 데이터로 출력 전환을 완료할 수 있습니다. 프로파일을 타깃팅하는 경우 데이터 연계 강화 기능을 사용하면 데이터베이스에 저장되지 않은 추가 데이터(예: 가져온 파일에서 가져온 데이터)로 프로파일 정보를 강화할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/enrichment.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,13 +405,13 @@ _트랜잭션 메시지_
 _플랫폼_
 
 * Adobe Campaign 인터페이스의 상단 막대가 새로운 Experience Cloud 메뉴로 업데이트되었습니다.
-* 솔루션 드롭다운 목록에 링크가 표시되지 않는 문제 **[!UICONTROL Offers]** 를 해결했습니다.
+* 솔루션 드롭다운 목록에 **[!UICONTROL Offers]**&#x200B;에 대한 링크가 표시되지 않는 문제를 해결했습니다.
 
 _이메일, SMS 메시지 및 DM_
 
 * 배달 준비 단계가 개선되어 성능이 향상되었다.
 * 일부 틈새 상황에서 추적 로그가 손상될 수 있는 몇 가지 문제를 수정했습니다.
-* 배달 준비와 확인 사이에 연락처 날짜가 변경되었을 때 발생하는 연락처 날짜 업데이트 문제를 해결했습니다. 이제 준비 후 연락처 날짜를 변경하면 전송을 확인하기 전에 배달을 다시 준비해야 합니다. 자세한 [설명서를 참조하십시오](../../sending/using/preparing-the-send.md).
+* 배달 준비와 확인 사이에 연락처 날짜가 변경되었을 때 발생하는 연락처 날짜 업데이트 문제를 해결했습니다. 이제 준비 후 연락처 날짜를 변경하면 전송을 확인하기 전에 배달을 다시 준비해야 합니다. [자세한 설명서](../../sending/using/preparing-the-send.md)를 참조하십시오.
 
 _푸시 알림_
 
@@ -426,14 +426,14 @@ _보고서_
 _워크플로우_
 
 * 드래그 앤 드롭 후 활동에 액세스할 수 없는 문제를 해결했습니다.
-* 일부 상황에서 활동의 출력 전환 순서가 변경될 수 있는 문제를 **[!UICONTROL Segmentation]** 수정했습니다.
+* 일부 상황에서 **[!UICONTROL Segmentation]** 활동의 출력 전환 순서가 변경될 수 있는 문제를 수정했습니다.
 * 열거형 유형 필드가 포함된 대상을 읽을 때 이전에 워크플로우에서 저장된 오류가 해결되었습니다.
-* 워크플로우에서 생성된 게재의 예약 속성을 정의할 때 옵션을 선택 해제해도 옵션이 선택된 상태로 유지되게 하는 문제를 수정했습니다. **[!UICONTROL Request confirmation before sending messages]**
-* 이제 활동(DISTINCT 절)에서 탭에 있는 새로운 옵션을 통해 중복 행 자동 제거 **[!UICONTROL Query]** 를 비활성화할 수 **[!UICONTROL Additional data]** 있습니다. 성능상의 이유로 추가 요소(100개 이상)를 정의할 때 이 옵션을 비활성화하는 것이 좋습니다.
+* 워크플로우에서 생성된 게재의 예약 속성을 정의할 때 **[!UICONTROL Request confirmation before sending messages]** 옵션을 선택 해제해도 선택된 상태로 유지되게 하는 문제를 수정했습니다.
+* 이제 **[!UICONTROL Additional data]** 탭에 있는 새 옵션을 통해 복제 행(DISTINCT 절)의 자동 제거를 **[!UICONTROL Query]** 활동에서 비활성화할 수 있습니다. 성능상의 이유로 추가 요소(100개 이상)를 정의할 때 이 옵션을 비활성화하는 것이 좋습니다.
 
 _통합_
 
-* 구성 화면에 일부 개선 사항이 **[!UICONTROL Data sources]** 적용되었습니다.
+* **[!UICONTROL Data sources]** 구성 화면이 일부 개선되었습니다.
 
 _알려진 문제_
 
@@ -462,22 +462,22 @@ Campaign 인터페이스의 컨텍스트 도움말 링크를 사용할 때 일�
    <td> 보고서 공유를 사용하면 자동화된 반복 기준을 포함하여 보고서를 Adobe Campaign 사용자와 이메일 첨부 파일로 공유할 수 있습니다. 반복되는 보고서를 받는 사용자는 각 이메일에 있는 전용 링크를 통해 이러한 커뮤니케이션의 가입을 취소할 수 있습니다.<br /> 자세한 내용은 <a href="../../reporting/using/reporting-interface.md#share-tab">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 새로운 기능 푸시<br /> </td> 
-   <td> 푸시 메시지 미리 보기 - 푸시 알림 컨텐츠 편집기 내에서 iOS 및 Android 디바이스에서 푸시 알림을 미리 볼 수 있으므로, 배달을 테스트하거나 실행하기 전에 수신자가 보게 될 내용을 정확하게 확인할 수 있습니다.<br /> 자세한 내용은 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">세부 설명서</a>를 참조하십시오.<br /> 사용 가능한 콘텐츠 - 앱이 오랜 시간 동안 열리지 않으면 데이터가 오래될 수 있습니다. 이로 인해 사용자가 앱을 마지막으로 여는 순간 데이터를 업데이트하거나 교체해야 하므로 앱 사용이 지연될 수 있습니다. 사용 가능한 컨텐츠에 대한 지원이 추가되어 Adobe Campaign 사용자는 푸시 알림을 제공할 때 백그라운드에서 자신의 데이터를 새로 고침하여 사용자의 인앱 경험을 일관되게 유지하고 제어할 수 있습니다.<br /> 변경 가능한 컨텐츠 - 이제 Adobe Campaign 사용자는 변경 가능한 컨텐트에 대한 지원이 추가되어 모바일 앱 익스텐션을 활용하여 Adobe Campaign에서 전송된 푸시 알림의 내용 또는 프레젠테이션을 더욱 수정할 수 있습니다. 예를 들어, 사용자는 변경 가능한 컨텐츠를 활용하여 다음을 수행할 수 있습니다. <br /> 
+   <td> 새 기능 푸시<br /> </td> 
+   <td> 푸시 메시지 미리 보기 - 푸시 알림 컨텐츠 편집기 내에서 iOS 및 Android 디바이스에서 푸시 알림을 미리 볼 수 있으므로, 배달을 테스트하거나 실행하기 전에 수신자가 보게 될 내용을 정확하게 확인할 수 있습니다.<br /> 자세한 내용은 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">세부 설명서</a>를 참조하십시오.<br /> 사용 가능한 콘텐츠 - 앱이 오랜 시간 동안 열리지 않으면 데이터가 오래될 수 있습니다. 이로 인해 사용자가 앱을 마지막으로 여는 순간 데이터를 업데이트하거나 교체해야 하므로 앱 사용이 지연될 수 있습니다. 사용 가능한 컨텐츠에 대한 지원이 추가되어 Adobe Campaign 사용자는 푸시 알림을 제공할 때 백그라운드에서 자신의 데이터를 새로 고침하여 사용자의 인앱 경험을 일관되게 유지하고 제어할 수 있습니다.<br /> 변경 가능한 컨텐츠 - 이제 Adobe Campaign 사용자는 변경 가능한 컨텐트에 대한 지원이 추가되어 모바일 앱 익스텐션을 활용하여 Adobe Campaign에서 전송된 푸시 알림의 내용 또는 프레젠테이션을 더욱 수정할 수 있습니다. 예를 들어, 사용자는 변경 가능한 컨텐츠를 활용하여 다음을 수행할 수 있습니다.<br /> 
     <ul> 
      <li> 암호화된 형식으로 전달된 데이터 암호 해독 </li> 
      <li> 이미지 또는 기타 미디어 파일을 다운로드하고 알림에 첨부 파일로 추가 </li> 
      <li> 알림의 본문 또는 제목 텍스트 변경 </li> 
      <li> 알림에 스레드 식별자 추가 </li> 
-    </ul> 사용 가능한 컨텐츠 및 변경 가능한 컨텐츠에 대한 자세한 내용은 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">자세한 설명서를 참조하십시오</a>.<br /> <strong>경고:</strong> 푸시 알림에 대한 이러한 업데이트를 사용하려면 고객이 모바일 애플리케이션을 업그레이드해야 합니다. Refer to <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/push-payload.html">this technote</a> for more information.<br /> </td> 
+    </ul> 사용 가능한 컨텐츠 및 변경 가능한 컨텐츠에 대한 자세한 내용은 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">자세한 설명서</a>를 참조하십시오.<br /> <strong>경고: 푸시 알림</strong> 에 대한 이러한 업데이트를 사용하려면 고객이 모바일 애플리케이션을 업그레이드해야 합니다. 자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/push-payload.html">이 기술 문서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 시간대로 최적화된 전달<br /> </td> 
+   <td> 표준 시간대로 최적화된 배달<br /> </td> 
    <td> 이메일, SMS 및 푸시 알림이 모든 수신자의 시간대에서 특정 일/시간에 배달되도록 예약하면 여러 번 메시지를 설정하지 않고도 적시에 배달됩니다. <br /> 자세한 내용은 <a href="../../automating/using/scheduler.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> API 신호 활동을 트리거합니다.<br /> </td> 
-   <td> 이제 Adobe Campaign Standard API에서 직접 워크플로우에 대한 신호 활동을 트리거할 수 있습니다.<br /> 자세한 내용은 <a href="/help/api/using/triggering-a-signal-activity.md">자세한 설명서를 참조하십시오</a> .<br /> </td> 
+   <td> API 신호 활동이 <br />을(를) 트리거합니다. </td> 
+   <td> 이제 Adobe Campaign Standard API에서 직접 워크플로우에 대한 신호 활동을 트리거할 수 있습니다.<br /> 자세한 내용은  <a href="/help/api/using/triggering-a-signal-activity.md">자세한 설명서를 참조하십시오</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -493,8 +493,8 @@ _이메일, SMS 메시지 및 DM_
 
 * 게재의 컨텐츠에 이모지를 삽입할 때 발생하는 표시 문제를 해결했습니다.
 * 배달을 계속 에디션할 때 사용자가 전송 로그에 액세스할 수 있었던 문제를 수정했습니다.
-* 이제 **[!UICONTROL Scheduler]** 활동에서 수신자의 시간대에 따라 배달을 보낼 수 있습니다.
-* SMS:데이터베이스 **[!UICONTROL Store incoming MO]** 의 옵션이 외부 계정에 추가되었습니다. 이 확인란을 선택하면 들어오는 모든 SMS가 **inSMS** 테이블에 저장됩니다.
+* 이제 수신자의 시간대에 따라 **[!UICONTROL Scheduler]** 활동을 통해 배달을 보낼 수 있습니다.
+* SMS:데이터베이스의 옵션 **[!UICONTROL Store incoming MO]**&#x200B;이 외부 계정에 추가되었습니다. 이 확인란을 선택하면 들어오는 모든 SMS가 **inSMS** 테이블에 저장됩니다.
 * SMS:이제 트랜잭션 템플릿 대신 이벤트가 이벤트에 연결됩니다.
 * SMS:기본 SMTP 연결 시간 초과가 30초로 감소되었습니다.
 
@@ -509,7 +509,7 @@ _보고서_
 
 * 비율이 100% 이상인 오류를 수정했습니다.
 * 사용자가 CSV로 보고서를 다운로드할 수 없는 문제를 해결했습니다.
-* 홈 페이지에 새 **[!UICONTROL Report]** 항목을 추가했습니다.
+* 홈 페이지에 새 **[!UICONTROL Report]** 항목이 추가되었습니다.
 
 _워크플로우_
 
@@ -522,5 +522,5 @@ _프로필 및 대상자_
 * 프로필 사진을 변경할 때 발생하는 표시 문제를 수정했습니다.
 * 쿼리의 모집단을 계산한 후 정확한 결과 수를 표시하는 도구 설명이 추가되었습니다.
 * 사용자가 대상을 선택하거나 대상자 선택기 창을 닫지 못하는 문제를 해결했습니다.
-* 표현식 편집기의 사용 가능한 함수 목록이 업데이트되었습니다. FormatCurrency **및** ConvertCurrency **** 함수가 제거되었습니다.
+* 표현식 편집기의 사용 가능한 함수 목록이 업데이트되었습니다. **FormatCurrency** 및 **ConvertCurrency** 함수가 제거되었습니다.
 
