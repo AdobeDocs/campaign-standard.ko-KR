@@ -6,9 +6,9 @@ title: Adobe Campaign Standard 제품 설명서
 description: Campaign Standard 제품 설명서 찾아보기
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '216'
 ht-degree: 90%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## 새로운 기능
 
-* **[릴리스 계획](rn/using/release-planning.md)**<br/> 업데이트 2021년 2월 출시 날짜가 릴리스 계획에 추가되었습니다.
+* **[릴리스 ](rn/using/release-planning.md)**<br/> 계획 업데이트향후 2021년 2월 릴리스 날짜가 릴리스 계획에 추가되었습니다.
 
 * **[컨트롤 그룹](sending/using/control-group.md)**<br/>
 대상자의 일부를 제외하여 캠페인의 영향을 측정합니다
@@ -78,5 +78,5 @@ AI 기반 이메일을 사용하여 디자인 및 게재를 최적화합니다.
 | [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
 | [구현 안내서](https://helpx.adobe.com/kr/campaign/kb/campaign-standard-implementation-guide.html) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [릴리스 계획](rn/using/release-planning.md) | [Campaign 데이터 모델](developing/using/datamodel-introduction.md) |
-| [사용이 중단되거나 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html) | [멀티 솔루션 안내서](integrating/using/get-started-campaign-integrations.md) |
+| [사용이 중단되거나 제거된 기능](rn/using/deprecated-features.md)) | [멀티 솔루션 안내서](integrating/using/get-started-campaign-integrations.md) |
 | [Campaign Standard 시작](start/using/about-campaign-standard.md) | [기술 정보](https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html) |
