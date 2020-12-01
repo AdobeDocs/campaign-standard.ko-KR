@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
 source-wordcount: '6305'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 개인 정보에 대한 FAQ가 나와 있는 새로운 섹션이 추가되었습니다. [자세한 내용](../../start/using/privacy-faq.md)
 
-개인 정보 섹션이 두 개의 새 페이지로 이동되고 강화되었습니다.[개인 정보 관리](../../start/using/privacy-management.md) 및 [개인 정보 요청 관리](../../start/using/privacy-requests.md).
+개인 정보 섹션이 [개인 정보 관리](../../start/using/privacy-management.md) 및 [개인 정보 보호 요청 관리](../../start/using/privacy-requests.md)라는 두 개의 새 페이지로 이동되고 보강되었습니다. 
 
 개인 정보 관리와 관련된 데이터 매핑 유효성 검사 오류 및 문제 해결 방법에 대한 정보가 Adobe Experience Platform 데이터 커넥터 섹션에 추가되었습니다. [자세한 내용](../../developing/using/aep-mapping-activation.md)
 
@@ -49,7 +49,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 워크플로우당 사용할 활동 수에 대한 워크플로우 모범 사례에 권장 사항이 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#number-activities)
 
-배달 우수 사례에 대한 새 섹션이 추가되었습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
+게재 모범 사례에 관한 새로운 섹션을 추가했습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
 상태 및 마지막 이벤트 수신 시간에 따라 이벤트 구성을 검색할 수 있는 새로운 필터를 설명하는 섹션이 추가되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
@@ -189,7 +189,7 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 
 Adobe Campaign Standard/Adobe Experience Manager 통합 설명서를 업데이트 및 개선했습니다. [자세한 내용](../../integrating/using/configure-experience-manager.md)
 
-캠페인 이메일 디자이너 문서 및 관련 페이지가 [!DNL Adobe Creative SDK] 감가상각을 반영하도록 업데이트되었습니다. [자세한 내용](../../rn/using/deprecated-features.md)
+Campaign 이메일 디자이너 설명서 및 관련 페이지에 [!DNL Adobe Creative SDK] 사용 중단을 반영하여 업데이트했습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
 이제 Campaign Standard 데이터 모델 모범 사례를 다루는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../developing/using/data-model-best-practices.md)
 
@@ -207,7 +207,7 @@ Audience Destinations(Beta) - [자세한 내용](../../audiences/using/aep-about
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-개인 정보 관리 설명서를 업데이트했습니다. 사용자 지정 프로필 리소스에 CCPA 옵트아웃 필드를 만드는 방법에 대한 정보를 추가했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html)
+개인 정보 관리 설명서를 업데이트했습니다. 사용자 지정 프로필 리소스에 CCPA 옵트아웃 필드를 만드는 방법에 대한 정보를 추가했습니다. [자세한 내용](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 릴리스 정보를 재구성 및 개선했습니다. [자세한 내용](../../rn/using/release-notes.md)
 
@@ -239,7 +239,7 @@ Campaign 및 Experience Manager로 작업하기 설명서에 **Campaign-Experien
 
 API 설명서 홈페이지를 개선했습니다. 다른 주제로의 리디렉션을 추가했습니다. [자세한 내용](../../api/using/get-started-apis.md)
 
-## 11월- 2019년 12월 {#doc-updates-december-2019}
+## 2019년 11월 - 12월{#doc-updates-december-2019}
 
 S3 외부 계정 구성 설명서를 업데이트했습니다. [자세한 내용](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -259,7 +259,7 @@ Campaign Standard에서 워크플로우를 사용하여 컨트롤 그룹을 만�
 
 API 설명서 세트를 Campaign Standard 설명서에 통합했습니다.[자세한 내용](../../api/using/get-started-apis.md)
 
-개인화된 이메일 시작하기 섹션이 이동 및 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-get-started-with-emails.html)
+개인화된 이메일 만들기 시작 섹션을 이동 및 업데이트했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-get-started-with-emails.html)
 
 게재 모범 사례 시작 가이드가 업데이트되었습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
@@ -291,7 +291,7 @@ GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCP
 
 개인 정보 보호에 대한 정보를 API 설명서에 추가했습니다. [여기를 클릭하세요](../../api/using/creating-a-privacy-request.md)
 
-## 9월- 2019년 10월 {#doc-updates-october-2019}
+## 2019년 9월 - 10월{#doc-updates-october-2019}
 
 Campaign Standard 설정에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../administration/using/about-campaign-standard-settings.md)
 
@@ -307,7 +307,7 @@ Campaign Standard 설정에 대한 새로운 섹션을 추가했습니다. [자�
 
 트랩 사용 방법에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../sending/using/using-traps.md).
 
-Adobe Experience Platform SDK를 사용해 모바일 애플리케이션을 구성하는 방법에 대한 페이지에 **Launch_URL_Campaign** 옵션에 대한 메모를 추가했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html)
+Adobe Experience Platform SDK를 사용해 모바일 애플리케이션을 구성하는 방법에 대한 페이지에 **Launch_URL_Campaign** 옵션에 대한 메모를 추가했습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 이메일 디자이너 안내서를 재구성했습니다. [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -363,7 +363,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트�
 
 사용자 정의 리소스 설명서에 경고를 추가했습니다. 사용자 정의 리소스 ID에는 최대 30자를 사용하는 것이 좋습니다. 이는 사용자 정의 리소스 필드, 키, 색인 및 링크에도 적용됩니다. [자세한 내용](../../developing/using/creating-or-extending-the-resource.md)
 
-## 6 - 2019년 7월 {#doc-updates-2019}
+## 2019년 6월 - 7월 {#doc-updates-2019}
 
 랜딩 페이지 제한에 새 페이지를 추가했습니다. [자세한 내용](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -379,7 +379,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트�
 
 **릴리스에 포함된 새로운 기능**
 
-Campaign 컨트롤 패널 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
+Campaign 컨트롤 패널 - [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 로컬 알림 - [자세한 내용](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -533,9 +533,9 @@ Microsoft Edge(최신 버전)를 컴퓨터 호환 브라우저 목록에 추가�
 
 SDK V4를 사용한 모바일 애플리케이션 구성 섹션을 [여기](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdkv4.html)로 이동했습니다.
 
-Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성 섹션을 [여기](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html)로 이동했습니다.
+Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성 섹션을 [여기](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)로 이동했습니다.
 
-비디오를 업데이트하고 [여기](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/overview.html)로 이동했습니다.
+비디오를 업데이트하고 [여기](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)로 이동했습니다.
 
 사용자 유형 섹션을 업데이트했습니다. [자세한 내용](../../administration/using/users-management.md)
 
@@ -565,7 +565,7 @@ Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성 �
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-SMS 커넥터 프로토콜 및 설정에 대한 새로운 기술 정보를 추가했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html)
+SMS 커넥터 프로토콜 및 설정에 대한 새로운 기술 정보를 추가했습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Experience Manager와 Adobe Campaign 통합 설명서를 업데이트했습니다. [자세한 내용](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -637,7 +637,7 @@ Adobe 호스팅 SFTP 서버 사용에 대한 모범 사례를 알아봅니다. [
 
 **릴리스에 포함된 새로운 기능**
 
-유럽연합 일반 데이터 보호 규칙(GDPR) - [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
+유럽연합 일반 데이터 보호 규칙(GDPR) - [자세한 내용](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 이메일 크리에이티브 디자이너 - [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -767,7 +767,7 @@ Adobe Marketing Cloud Mobile SDK를 모바일 앱에 통합하여 Adobe Campaign
 
 모바일 앱에서 받는 페이로드 구조를 설명하는 기술 정보를 추가했습니다. [자세한 내용.](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/push-payload.html)
 
-푸시 채널 구성 [섹션](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdkv4.html)을 업데이트했습니다. Adobe 모바일 서비스 인터페이스에서 포스트백을 정의할 때 새로 추가할 OS 버전 페이로드 데이터에 대한 정보를 추가했습니다.
+푸시 채널 구성 [섹션](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)을 업데이트했습니다. Adobe 모바일 서비스 인터페이스에서 포스트백을 정의할 때 새로 추가할 OS 버전 페이로드 데이터에 대한 정보를 추가했습니다.
 
 SMS 설명서의 [SMS 자동 회신](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 섹션에 몇 가지 명확한 설명을 업데이트했습니다.
 
@@ -863,7 +863,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 인터페이스 변경 사항을 반영하여 여러 스크린샷을 업데이트했습니다.
 
-이제 새로운 기술 정보를 사용할 수 있습니다. &quot;모바일 앱과 Adobe Mobile SDK 통합&quot;을 참조하십시오. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/integrate-mobile-sdk.html)
+이제 새로운 기술 정보를 사용할 수 있습니다. &quot;모바일 앱과 Adobe Mobile SDK 통합&quot;을 참조하십시오. [자세한 내용](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Adobe Campaign을 통한 사용자 핵심 서비스 또는 Audience Manager 통합을 구성하기 위한 지침을 추가했습니다. [자세한 내용](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -893,9 +893,9 @@ Adobe Campaign의 다양한 사용자 유형에 대한 섹션을 추가했습니
 
 이제 다이내믹 보고서에 대한 보고 지표 계산을 사용할 수 있습니다. 여기에는 완전한 설명 및 계산 공식이 포함됩니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
-Adobe Campaign에서 푸시 알림과 관심 영역 데이터를 사용하기 위한 Adobe 모바일 서비스 구성을 다루는 새로운 섹션을 추가했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdkv4.html)
+Adobe Campaign에서 푸시 알림과 관심 영역 데이터를 사용하기 위한 Adobe 모바일 서비스 구성을 다루는 새로운 섹션을 추가했습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-모바일 앱 구성 및 구현 섹션을 업데이트했습니다. 푸시 알림을 설정하고 보내는 더 자세한 단계를 추가했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdkv4.html)
+모바일 앱 구성 및 구현 섹션을 업데이트했습니다. 푸시 알림을 설정하고 보내는 더 자세한 단계를 추가했습니다. [자세한 내용](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 Campaign에서 이미지로 작업하는 방법에 대한 섹션을 업데이트했습니다. [자세한 내용](../../designing/using/images.md#setting-up-image-properties)
 
@@ -907,7 +907,7 @@ Campaign에서 이미지로 작업하는 방법에 대한 섹션을 업데이트
 
 다이내믹 보고 - [자세한 내용](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 통합(Labs) - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver 통합(Labs) - [자세한 내용](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 수동 전송 시간 최적화 - [자세한 내용](../../sending/using/optimizing-the-sending-time.md)
 
