@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
-source-wordcount: '6311'
+source-wordcount: '6305'
 ht-degree: 97%
 
 ---
@@ -19,15 +19,19 @@ ht-degree: 97%
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
 
+## 2020년 12월 {#doc-updates-december-2020}
+
+개인 정보 섹션이 이동되었습니다. [자세한 내용](../../start/using/privacy.md)
+
 ## 2020년 11월 {#doc-updates-november-2020}
-
-개인 정보 섹션이 두 개의 새 페이지로 이동되고 강화되었습니다. [개인 정보 관리](../../start/using/privacy-management.md) 및 [개인 정보 보호 요청](../../start/using/privacy-requests.md)관리
-
-개인 정보 관리와 관련된 데이터 매핑 유효성 검사 오류 및 문제 해결 방법에 대한 정보가 Adobe Experience Platform 데이터 커넥터 섹션에 추가되었습니다. [자세한 내용](../../developing/using/aep-mapping-activation.md)
 
 개인 데이터 및 개인 정보 섹션은 개인정보 보호 측면에서 서로 다른 개인들이 상호 작용하는 방법을 보여주는 사용 사례 시나리오로 업데이트되었습니다. [자세한 내용](../../start/using/privacy.md#use-case-scenario)
 
 개인 정보에 대한 FAQ가 나와 있는 새로운 섹션이 추가되었습니다. [자세한 내용](../../start/using/privacy-faq.md)
+
+개인 정보 섹션이 두 개의 새 페이지로 이동되고 강화되었습니다.[개인 정보 관리](../../start/using/privacy-management.md) 및 [개인 정보 요청 관리](../../start/using/privacy-requests.md).
+
+개인 정보 관리와 관련된 데이터 매핑 유효성 검사 오류 및 문제 해결 방법에 대한 정보가 Adobe Experience Platform 데이터 커넥터 섹션에 추가되었습니다. [자세한 내용](../../developing/using/aep-mapping-activation.md)
 
 ## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
 
@@ -185,7 +189,7 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 
 Adobe Campaign Standard/Adobe Experience Manager 통합 설명서를 업데이트 및 개선했습니다. [자세한 내용](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
+캠페인 이메일 디자이너 문서 및 관련 페이지가 [!DNL Adobe Creative SDK] 감가상각을 반영하도록 업데이트되었습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
 이제 Campaign Standard 데이터 모델 모범 사례를 다루는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../developing/using/data-model-best-practices.md)
 
@@ -287,7 +291,7 @@ GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCP
 
 개인 정보 보호에 대한 정보를 API 설명서에 추가했습니다. [여기를 클릭하세요](../../api/using/creating-a-privacy-request.md)
 
-## Sept. - Oct. 2019 {#doc-updates-october-2019}
+## 9월- 2019년 10월 {#doc-updates-october-2019}
 
 Campaign Standard 설정에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../administration/using/about-campaign-standard-settings.md)
 
@@ -435,7 +439,7 @@ API 확장으로 리소스 게시 섹션을 보다 명확하게 수정하고 최
 
 시작 안내서를 보강 및 재구성했습니다. [자세한 내용](../../start/using/about-campaign-standard.md)
 
-사용이 중단되거나 제거된 기능 페이지를 업데이트했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
+사용이 중단되거나 제거된 기능 페이지를 업데이트했습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
 Dreamweaver 통합 섹션을 업데이트 및 개선했습니다. [자세한 내용](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -573,7 +577,7 @@ Experience Manager와 Adobe Campaign 통합 설명서를 업데이트했습니�
 
 다국어 템플릿의 기본 언어에 대한 정보를 추가했습니다. [자세한 내용](../../channels/using/multilingual-messages-template.md)
 
-사용자 및 보안 안내서를 업데이트했습니다. 18.7 릴리스에서부터 Campaign Standard의 새로운 인스턴스에서 지리적 단위의 사용이 중단되며, 기존 인스턴스에서도 지리적 유닛을 만들 수 없게 되는 변경 사항을 반영했습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
+사용자 및 보안 안내서를 업데이트했습니다. 18.7 릴리스에서부터 Campaign Standard의 새로운 인스턴스에서 지리적 단위의 사용이 중단되며, 기존 인스턴스에서도 지리적 유닛을 만들 수 없게 되는 변경 사항을 반영했습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
 ## 릴리스 18.6 - 2018년 6월 {#release-18-6---june-2018}
 
