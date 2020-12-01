@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '781'
 ht-degree: 82%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 82%
 
 또한 격리를 통해 잘못된 전화번호를 게재에서 제외하면 SMS를 보내는 비용을 줄이는 데 도움이 됩니다.
 
-게재 보안 향상 및 최적화 모범 사례를 더 알아보려면 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)를 참조하십시오.
+게재 보안 향상 및 최적화 모범 사례를 더 알아보려면 [이 페이지](../../sending/using/delivery-best-practices.md)를 참조하십시오.
 
 ### 격리 대 차단 목록 {#quarantine-vs-denylist}
 
@@ -39,7 +39,7 @@ ht-degree: 82%
 
 마찬가지로, 프로필의 이메일 주소가 격리 상태이더라도 프로필을 업데이트하여 새 주소를 입력하면 게재 작업 시 다시 타겟팅될 수 있습니다.
 
-Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). 프로세스에 대한 차단 목록 자세한 내용은 [캠페인에서 옵트인 및 옵트아웃 정보를 참조하십시오](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+반면에 **차단 목록**&#x200B;에 있는 경우, 더 이상 프로필이 전달의 대상이 되지 않습니다(예: 구독 취소). 프로세스에 대한 차단 목록 자세한 내용은 [캠페인 옵트인 및 옵트아웃 정보를 참조하십시오](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!NOTE]
 >
@@ -86,8 +86,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 사용자가 이메일을 스팸 처리하면(**피드백 루프**) 해당 메시지는 Campaign에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL On denylist]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은에 차단 목록 있지 않으므로 사용자가 계속해서 SMS 메시지와 푸시 알림을 수신하게 됩니다.
 
 >[!NOTE]
->
->Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
+Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
 
 격리된 주소 목록([플랫폼 전체에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-the-entire-platform) 참조)의 **[!UICONTROL Error reason]** 필드에 선택한 주소가 격리된 이유가 표시됩니다.
 
