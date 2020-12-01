@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 96%
+source-wordcount: '1216'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ Adobe Campaign을 사용하면 사용자에게 역할 세트를 할당하여 인
 특정 역할 및 이에 해당하는 권한은 다음 섹션에 자세히 설명되어 있습니다. [역할 이해](../../administration/using/list-of-roles.md) 및 [권한](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
 관리자는 Admin Console에서 사용자를 관리할 수 있습니다. 그러면 사용자는 Adobe Campaign과 자동으로 동기화됩니다. 자세한 내용은 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/users.html) 설명서를 참조하십시오.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 Adobe Campaign의 사용자를 보려면 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Users & Security > Users]**&#x200B;을(를) 선택합니다.
 
@@ -59,7 +61,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 >[!CAUTION]
 >
->역할 및 액세스 권한이 있는 **[!UICONTROL Administration]** 모든 **** 관리자만 전송 로그, 메시지 로그, 추적 로그, 제외 로그, 제안 로그 및 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블에서 시작합니다(프로필, 배달).
+>**[!UICONTROL Administration]** 역할 및 **에 대한 액세스 권한이 있는 모든** 단위의 기능 관리자만 전송 로그, 메시지 로그, 추적 로그, 제외 로그, 제안 로그 및 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블에서 시작합니다(프로필, 배달).
 
 기능 관리자만이 Adobe Campaign 인터페이스의 **[!UICONTROL Administration]** 메뉴에 액세스할 수 있습니다. 이 사용자들은 기술 리소스에 액세스해야 하므로 고급 역할(예: **[!UICONTROL Administration]** 및 **[!UICONTROL Datamodel]** 기본 역할)을 할당해 주어야 합니다. 이러한 역할은 **[!UICONTROL Administrators]** 기본 보안 그룹에 결합되어 있습니다. 자세한 정보는 이 [섹션](../../administration/using/list-of-roles.md)을 참조하십시오.
 
@@ -151,3 +153,11 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 이제 사용자가 Adobe Campaign Standard를 사용할 준비가 되었습니다.
+
+## 자습서 비디오(#video)
+
+이 비디오에서는 사용자 액세스 권한을 관리하는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
