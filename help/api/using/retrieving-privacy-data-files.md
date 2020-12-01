@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 6%
+source-wordcount: '194'
+ht-degree: 4%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->개인정보 [보호 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. 19.4부터 액세스 및 삭제 요청에 대한 캠페인 API 및 인터페이스 사용은 더 이상 사용되지 않습니다. 사용되지 않는 Campaign Standard 및 제거된 기능에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html).
+>[개인 정보 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. 19.4부터 액세스 및 삭제 요청에 대한 캠페인 API 및 인터페이스 사용은 더 이상 사용되지 않습니다. 사용 중단된 Campaign Standard 및 제거된 기능에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
 
 조정 값과 연관된 모든 정보가 포함된 파일을 검색하려면 다음 3단계 절차를 따르십시오.
 
-1. 속성 **유형=&quot;access&quot;** 를 사용하여 새 요청을 만들기 위해 **POST**&#x200B;요청을 [수행합니다.](../../api/using/creating-a-privacy-request.md)새 개인 정보요청 만들기를 참조하십시오.
+1. **POST** 요청을 수행하여 **type=&quot;access&quot;** 특성이 있는 새 요청을 만듭니다. [새 개인 정보 요청 만들기](../../api/using/creating-a-privacy-request.md)를 참조하십시오.
 
-1. 요청에 대한 정보를 검색하기 위해 **GET** 요청을 수행합니다.
+1. 요청에 대한 정보를 검색하려면 **GET** 요청을 수행합니다.
 
-1. 반환된 개인 정보RequestData **URL에 대한** POST **** 요청을 수행하고 페이로드 내에 개인 정보 요청 내부 이름을 사용하여 데이터 파일을 검색합니다. 예:{&quot;name&quot;:&quot;PT17&quot;}.
+1. 반환된 **privacyRequestData** URL에 대해 **POST** 요청을 수행하고 페이로드 내에 개인 정보 요청 내부 이름을 사용하여 데이터 파일을 검색합니다. 예:{&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
