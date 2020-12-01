@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 29%
+source-wordcount: '336'
+ht-degree: 30%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 29%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-캠페인에서 사용하는 데이터는 **사전 정의된 데이터 모델에 정의된 다른 리소스를 통해 정의됩니다**. 데이터 모델은 마케팅 관련 리소스 세트에 대한 기본 SQL 구조를 표시합니다.전달, 대상, 랜딩 페이지, 프로필 등 각 리소스에는 관련 필터가 포함되어 있으므로 리소스를 탐색할 수 있습니다.
+캠페인에서 사용하는 데이터는 **사전 정의된 데이터 모델**&#x200B;에 정의된 다른 리소스를 통해 정의됩니다. 데이터 모델은 마케팅 관련 리소스 세트에 대한 기본 SQL 구조를 표시합니다.전달, 대상, 랜딩 페이지, 프로필 등 각 리소스에는 관련 필터가 포함되어 있으므로 리소스를 탐색할 수 있습니다.
 
-[ **진단** ] 메뉴를 사용하면 Campaign Standard에서 생성된 기술 개체를 나열할 수 있습니다.데이터 스키마, 웹 페이지, 필터 등, 데이터 모델 및 변경된 데이터 모델을 모니터링할 수 있습니다.
+**진단** 메뉴를 통해 Campaign Standard에서 생성된 기술 개체를 나열할 수 있습니다.데이터 스키마, 웹 페이지, 필터 등, 데이터 모델 및 변경된 데이터 모델을 모니터링할 수 있습니다.
 
 자세한 내용:
 
@@ -44,9 +44,9 @@ ht-degree: 29%
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard을 사용하면 사전 정의된 데이터 모델 **을** 강화하여 고유한 리소스를 만들거나(예: 구매 또는 제품 테이블 추가) 새 필드로 기존 리소스를 확장할 수 있습니다. 만들어진 새 리소스 및 필드를 통해 탐색을 최적화하도록 캠페인 화면을 구성할 수도 있습니다.
+Campaign Standard을 사용하면 **사전 정의된 데이터 모델**&#x200B;을 보완하여 사용자 고유의 리소스를 만들거나(예: 구매 또는 제품 테이블 추가) 새 필드로 기존 리소스를 확장할 수 있습니다. 만들어진 새 리소스 및 필드를 통해 탐색을 최적화하도록 캠페인 화면을 구성할 수도 있습니다.
 
-또한 사용자 지정 리소스 프로필에 대한 API 확장 필드에 표시되도록 Campaign Standard REST API를 **확장할** 수 있습니다. 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객의 프로필을 업데이트할 수 있습니다.
+또한 사용자 지정 리소스 프로필에 대한 API 확장 필드에 표시하려면 **Campaign Standard REST API**&#x200B;를 확장할 수 있습니다. 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객의 프로필을 업데이트할 수 있습니다.
 
 자세한 내용:
 
@@ -55,7 +55,7 @@ Campaign Standard을 사용하면 사전 정의된 데이터 모델 **을** 강�
 * [사용 사례:새 필드를 사용하여 프로필 리소스 확장](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [사용 사례:애플리케이션 리소스로 구독 확장](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
-## API를 사용한 작업 {#apis}
+## API 작업 {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
@@ -64,5 +64,4 @@ Campaign Standard API를 사용하면 Adobe Campaign을 사용하는 기술 패�
 ## 추가 리소스
 
 * [Adobe Experience Platform 데이터 커넥터 정보](../../developing/using/aep-about-data-connector.md)
-* [사용자 정의 리소스 만들기(비디오)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
 * [사용자 지정 리소스 내보내기/가져오기](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
