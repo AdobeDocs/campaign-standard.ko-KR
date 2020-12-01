@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
@@ -19,22 +19,24 @@ ht-degree: 5%
 
 Adobe Campaign을 사용하면 나중에 사용할 수 있도록 목록을 파일로 바로 내보낼 수 있습니다. 파일의 목록을 내보내면 **[!UICONTROL Export audits]** 메뉴에서 로그 항목이 생성됩니다. 감사 내보내기에 대한 자세한 내용은 [감사 내보내기](../../administration/using/auditing-export-logs.md) 섹션을 참조하십시오.
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+![](assets/do-not-localize/how-to-video.png) [비디오에서 목록을 구성하는 방법 살펴보기](#video)
 
-목록 **보기가 있는 사용자는** 역할 **[!UICONTROL EXPORT (export)]** 이 있는 모든 화면에서 내보내기 목록을 사용할 수 있습니다.
+내보내기 목록 옵션을 사용하면 기본적으로 최대 100,000개의 줄을 내보내고 **Nms_ExportListLimit** 옵션으로 정의할 수 있습니다. 이 옵션은 기능 관리자가 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 메뉴에서 관리할 수 있습니다.
 
-1. 선택한 목록 **화면으로** 이동합니다. 예를 들어 테스트 프로필 개요 화면( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )을 선택합니다.
-1. 화면이 목록 **모드인지** 확인합니다.
+내보내기 목록은 **[!UICONTROL EXPORT (export)]** 역할을 가진 사용자의 경우 **목록** 모드 보기가 있는 모든 화면에서 사용할 수 있습니다.
+
+1. 선택한 **목록** 화면으로 이동합니다. 예를 들어 테스트 프로필 개요 화면( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )
+1. 화면이 **목록** 모드인지 확인합니다.
 
    ![](assets/export_list_mode_switch.png)
 
-1. 오른쪽 상단 모서리의 단추를 사용하여 내보낼 순서대로 목록의 열을 **[!UICONTROL Configure list]** 구성합니다. 구성된 열 외에도 리소스의 기본 키도 내보내집니다.
+1. 오른쪽 상단 모서리의 **[!UICONTROL Configure list]** 단추를 사용하여 내보낼 순서대로 목록의 열을 구성합니다. 구성된 열 외에도 리소스의 기본 키도 내보내집니다.
 1. 원하는 경우 필터를 적용할 수 있습니다. 이렇게 하려면 왼쪽 상단 모서리의 단추를 클릭하여 검색 창을 표시합니다.
 
    다른 리소스가 포함된 목록에서 내보내기를 수행하는 경우 목록에 리소스 유형만 표시되도록 필터를 적용해야 합니다.
 
 1. 원하는 경우 선택한 열을 정렬합니다.
-1. 내보내기 단추를 선택합니다 ![](assets/exportlistbutton.png).
+1. 내보내기 단추 ![](assets/exportlistbutton.png)을 선택합니다.
 
    팝업이 표시되어 내보내기를 확인합니다. 내보내기를 확인한 파일은 컴퓨터에 자동으로 다운로드됩니다.
 
@@ -42,7 +44,7 @@ The export list option allows you to export a maximum of 100,000 lines by defaul
 
 숫자 값과 날짜는 내보내기를 수행하는 사용자의 현지 시간(로케일)을 고려합니다. 예:DD-MM-YYYY 또는 MM-DD-YYYY.
 
-이보다 큰 내보내기를 수행하려면 전용 워크플로우를 만들어야 합니다. Extract [파일](../../automating/using/extract-file.md) 섹션을 참조하십시오.
+이보다 큰 내보내기를 수행하려면 전용 워크플로우를 만들어야 합니다. [Extract 파일](../../automating/using/extract-file.md) 섹션을 참조하십시오.
 
 **예제**
 
@@ -73,4 +75,11 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [역할](../../administration/using/list-of-roles.md)
 * [목록 사용자 지정](../../start/using/customizing-lists.md)
-* [목록 비디오 구성](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
+
+## 자습서 비디오 {#video}
+
+이 비디오에서는 목록을 구성하는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+
+추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
