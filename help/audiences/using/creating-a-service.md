@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # 서비스 만들기{#creating-a-service}
 
 구독을 관리하려면 먼저 서비스를 만들고 구성해야 합니다. 새 서비스를 구성하면 프로필이 서비스를 구독하거나 구독을 취소할 때 받을 확인 이메일을 지정할 수 있습니다. 또한 서비스에 연결된 구독 및 구독 취소 랜딩 페이지를 정의할 수 있습니다. 예를 들어, 이메일에 삽입된 서비스 구독 링크는 프로필을 자동으로 해당 서비스에 지정된 구독 랜딩 페이지로 보냅니다.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 서비스를 구성하려면 다음을 수행합니다. 
 
@@ -55,7 +57,14 @@ ht-degree: 100%
 
 **관련 항목:**
 
-* [서비스 및 구독 관리](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/profiles-and-audiences/services-and-subscriptions.html) 비디오
 * [서비스 홍보](../../audiences/using/promoting-a-service.md)
 * [구독자로 구성된 대상자 만들기](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [랜딩 페이지를 서비스에 연결](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## 자습서 비디오 {#video}
+
+이 비디오에서는 서비스를 만들고 구독을 관리하는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
