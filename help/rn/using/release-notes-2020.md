@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '2948'
+source-wordcount: '2945'
 ht-degree: 99%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 # 2020년 릴리스 정보{#release-notes-2020}
 
-[릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html) | [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2019.md) | [더 이상 사용되지 않는 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html)
+[릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html) | [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2019.md) | [더 이상 사용되지 않는 기능](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
 
@@ -291,7 +291,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 * 관리자 보안 그룹의 조직 단위는 더 이상 변경할 수 없습니다.
 * 이제 프로필을 만들 때 조직 단위 필드를 채워야 합니다.
 * 이제 Experience Cloud 트리거는 연결된 이벤트 및 트랜잭션 템플릿이 모두 삭제된 경우에만 삭제할 수 있습니다.
-* [!DNL Adobe Creative SDK] 서비스가 중단되었습니다. 이제 Campaign Standard에서 더 이상 사용되지 않습니다. [더 이상 사용되지 않는 기능 및 제거된 기능](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html) 페이지를 참조하십시오.
+* [!DNL Adobe Creative SDK] 서비스가 중단되었습니다. 이제 Campaign Standard에서 더 이상 사용되지 않습니다. [더 이상 사용되지 않는 기능 및 제거된 기능](../../rn/using/deprecated-features.md) 페이지를 참조하십시오.
 
 
 **패치**
