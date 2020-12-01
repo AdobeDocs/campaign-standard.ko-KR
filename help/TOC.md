@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [더 이상 사용되지 않는 기능](rn/using/deprecated-features.md)
 + 시작 {#getting-started}
    + [Adobe Campaign Standard 기본 정보](start/using/about-campaign-standard.md)
-   + 개인 정보 {#privacy}
-      + [개인 정보 및 동의](start/using/privacy.md)
-      + [개인 정보 관리](start/using/privacy-management.md)
-      + [개인 정보 요청](start/using/privacy-requests.md)
-      + [개인 정보 FAQ](start/using/privacy-faq.md)
    + 인터페이스 살펴보기 {#discovering-the-interface}
       + [인터페이스 기본 정보](start/using/about-the-interface.md)
       + [인터페이스 설명](start/using/interface-description.md)
       + [목록 사용자 지정](start/using/customizing-lists.md)
+      + [접근성](start/using/accessibility.md)
    + 마케팅 활동 관련 작업{#marketing-plans}
       + [프로그램 및 캠페인](start/using/programs-and-campaigns.md)
       + [마케팅 활동](start/using/marketing-activities.md)
       + [마케팅 활동 템플릿](start/using/marketing-activity-templates.md)
       + [타임라인](start/using/timeline.md)
+   + 개인 정보 {#privacy}
+      + [개인 정보 및 동의](start/using/privacy.md)
+      + [개인 정보 관리](start/using/privacy-management.md)
+      + [개인 정보 보호 요청](start/using/privacy-requests.md)
+      + [개인 정보 FAQ](start/using/privacy-faq.md)
 + 프로필 및 대상자 {#profiles-and-audiences}
    + [프로필 및 대상자 시작](audiences/using/get-started-profiles-and-audiences.md)
    + 프로필 관리 {#managing-profiles}
