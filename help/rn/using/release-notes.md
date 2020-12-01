@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 [릴리스 계획](../../rn/using/release-planning.md) | [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2020.md) | [더 이상 사용되지 않는 기능](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 새로운 10월 Campaign 컨트롤 패널 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 
 ## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 <tr> 
   <td> <p>이제 <strong>컨트롤 그룹</strong>을 사용하여 대상의 일부를 제외하여 캠페인의 영향을 측정할 수 있습니다. 그러면 메시지를 받은 대상 모집단과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기준으로 향후 캠페인에서 컨트롤 그룹을 타겟팅할 수도 있습니다.
 </p>
-<p>자세한 내용은 <a href="../../sending/using/control-group.md">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">방법 비디오</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../../sending/using/control-group.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=ko#communication-channels">방법 비디오</a>를 참조하십시오.
 </p>
 </td> 
 </tr> 
@@ -62,7 +62,7 @@ ht-degree: 98%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Journey AI AI 통합</strong><br /> </th> 
+<th> <strong>Journey AI 통합</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -129,7 +129,7 @@ ht-degree: 98%
 **패치**
 
 * 추적을 활성화했을 때 푸시 알림 또는 인앱 메시지에 대상 링크를 사용할 수 없는 문제를 수정했습니다.
-* 대량 배달이 심각한 경우 트랜잭션 메시지의 높은 우선 순위가 적용되지 않는 문제가 해결되었습니다.
+* 대량 게재에서 트랜잭션 메시지의 높은 우선 순위가 적용되지 않는 문제를 수정했습니다.
 * 트랜잭션 이메일에 브랜드를 할당할 수 없는 문제를 수정했습니다. 게시 단계 동안 여러 오류 메시지가 표시될 수 있습니다. (CAMP-44988)
 * 숫자 값을 요청하는 필드에 정보가 저장되지 않는 워크플로우 사용자 인터페이스 문제를 해결했습니다. (CAMP-44025)
 * 가져오기 템플릿 워크플로우에서 **테스트** 활동을 사용할 때 오류 메시지가 표시되는 문제를 수정했습니다. (CAMP-42910)
