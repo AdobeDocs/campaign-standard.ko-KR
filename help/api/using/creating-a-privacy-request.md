@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 8%
+source-wordcount: '210'
+ht-degree: 6%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->개인정보 [보호 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. 19.4부터 액세스 및 삭제 요청에 대한 캠페인 API 및 인터페이스 사용은 더 이상 사용되지 않습니다. 사용되지 않는 Campaign Standard 및 제거된 기능에 대한 자세한 내용은 [이 페이지를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acs-deprecated-and-removed-features.html).
+>[개인 정보 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. 19.4부터 액세스 및 삭제 요청에 대한 캠페인 API 및 인터페이스 사용은 더 이상 사용되지 않습니다. 사용 중단된 Campaign Standard 및 제거된 기능에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
 
-개인 정보 요청은 **POST** 요청을 사용하여 만들어집니다.
+개인 정보 요청은 **POST** 요청을 사용하여 만듭니다.
 
-요청을 만들기 전에 사용할 네임스페이스를 정의해야 합니다. 자세한 내용은 개인 정보 [관리 설명서를 참조하십시오](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+요청을 만들기 전에 사용할 네임스페이스를 정의해야 합니다. 자세한 내용은 [개인 정보 관리 설명서](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)를 참조하십시오.
 
 페이로드에는 다음 매개 변수가 포함되어야 합니다.
 
