@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,11 @@ ht-degree: 100%
 
 ![](assets/workflow_overview.png)
 
-
 ## 워크플로우 만들기 {#creating-a-workflow}
 
 프로그램, 캠페인 또는 마케팅 활동 목록에서 워크플로우를 만들 수 있습니다.
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 워크플로우를 구축하는 방법 살펴보기](#video)
 
 마케팅 활동 만들기는 [마케팅 활동 만들기](../../start/using/marketing-activities.md#creating-a-marketing-activity) 섹션에 자세히 설명되어 있습니다.
 
@@ -67,14 +68,13 @@ ht-degree: 100%
 
 1. 활동 만들기를 확인하면 해당 활동에 대한 대시보드가 표시됩니다. 자세한 내용은 [워크플로우 인터페이스](../../automating/using/workflow-interface.md) 섹션을 참조하십시오.
 
-1. 워크플로우를 구성할 준비가 되면 **[!UICONTROL Edit properties]** 버튼을 클릭하여 추가 옵션에 액세스할 수 있습니다. 예를 들어 모든 워크플로우의 활동에서 기본적으로 사용할 특정 시간대를 정의할 수 있습니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
+1. 워크플로우를 구성할 준비가 되면 **[!UICONTROL Edit properties]** 버튼을 클릭하여 추가 옵션에 액세스할 수 있습니다.
+
+   예를 들어 모든 워크플로우의 활동에서 기본적으로 사용할 특정 시간대를 정의할 수 있습니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
+
+   워크플로우 속성에 대한 자세한 내용은 [이 페이지](../../automating/using/managing-execution-options.md)를 참조하십시오.
 
    ![](assets/workflow_properties.png)
-
-**관련 항목:**
-
-* [워크플로우 만들기](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html) 비디오
-* [워크플로우 속성](../../automating/using/managing-execution-options.md)
 
 ## 활동 추가 및 연결 {#adding-and-linking-activities}
 
@@ -130,3 +130,11 @@ ht-degree: 100%
 1. 데이터를 처리하는 데 필요한 다양한 옵션을 모두 정의합니다. 각 활동에 대해 가능한 옵션을 알아보려면 이 설명서의 활동 특정 섹션을 참조하십시오.
 1. 활동을 저장하고 워크플로우의 각 활동에 대해 이러한 작업을 반복합니다.
 1. 워크플로우를 저장합니다.
+
+## 자습서 비디오 {#video}
+
+이 비디오에서는 워크플로우를 만드는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
