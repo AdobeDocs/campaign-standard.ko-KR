@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 91%
+source-wordcount: '1225'
+ht-degree: 90%
 
 ---
 
@@ -19,15 +19,16 @@ ht-degree: 91%
 
 Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해야 합니다.
 
-이메일 디자이너는 드래그 앤 드롭 인터페이스에서 개인화된 매력적인 이메일을 만들 수 있습니다. 처음부터 빈 화면으로 시작하거나 기존 콘텐츠 조각 또는 템플릿을 활용하는 경우 프로모션 또는 트랜잭션 방식으로 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
+이메일 디자이너를 사용하면 드래그 앤 드롭 방식으로 개인화된 매력적인 이메일을 만들 수 있습니다
+인터페이스. 처음부터 빈 화면으로 시작하거나 기존 콘텐츠 조각 또는 템플릿을 활용하는 경우 프로모션 또는 트랜잭션 방식으로 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
 
 반응형 디자인에 최적화된 HTML을 게재하기 위해 빌드된 이메일 디자이너는 가시성 조건과 동적 콘텐츠를 직접 사용자 인터페이스를 통해 이메일, 템플릿 또는 조각으로 손쉽게 정의하고 적용할 수 있습니다. 단추를 클릭하면 끌어서 놓기 인터페이스와 HTML 코드 간 원활한 전환을 할 수 있습니다.
 
 이메일 디자이너를 사용하면 이메일 콘텐츠를 만들고 이메일 콘텐츠 템플릿을 사용할 수 있습니다. 간단한 이메일, 트랜잭션 이메일, A/B 테스트 이메일, 다국어 이메일 및 반복 이메일과 호환됩니다.
 
-이메일 디자이너를 시작하려면 이메일 디자이너의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 세트](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)를 시청하십시오.
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 이메일 디자이너 살펴보기](#video)
 
 * 이메일 콘텐츠를 만드는 방법을 알아보려면 [이메일 디자이너 시작](../../designing/using/quick-start.md)을 참조하십시오.
 * 이메일 디자이너에 대한 개요는 [이메일 디자이너 사용](../../designing/using/designing-content-in-adobe-campaign.md)을 참조하십시오.
@@ -117,7 +118,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 
    메시지를 보내기 전에 미리 봅니다. Adobe Campaign은 Litmus를 사용하여 이메일 렌더링을 테스트할 수 있는 방법을 제공합니다. 자세한 내용은 [이메일 렌더링](../../sending/using/email-rendering.md)을 참조하십시오.
 
-메시지에 대한 자세한 디자인 및 일반 우수 사례는 다음 섹션에 나와 있습니다. [전달 모범 사례](../../sending/using/delivery-best-practices.md).
+메시지에 대한 자세한 디자인 및 일반 우수 사례는 다음 섹션에 나와 있습니다.[배달 우수 사례](../../sending/using/delivery-best-practices.md).
 
 ### 조각 업데이트 {#email-designer-updates}
 
@@ -158,3 +159,11 @@ CSS 충돌 문제와 같은 문제를 방지하려면 콘텐츠를 최신 버전
 * [랜딩 페이지 디자인](../../channels/using/designing-a-landing-page.md)
 * [SMS 메시지 만들기](../../channels/using/creating-an-sms-message.md)
 * [푸시 알림 만들기 및 전송](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## 자습서 비디오 {#video}
+
+이 비디오에서는 이메일 디자이너에 대한 개요를 제공합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+이메일 디자이너를 시작하려면 이메일 디자이너의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 세트](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)를 시청하십시오
