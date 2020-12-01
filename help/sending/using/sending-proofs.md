@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '583'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 **관련 항목:**
 
-* [테스트 보내기, 이메일 준비 및 보내기](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html) 비디오
+* [테스트 보내기, 이메일 준비 및 보내기](../../sending/using/get-started-sending-messages.md#video) 비디오
 * [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](../../sending/using/testing-messages-using-target.md)
 * [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
 * [메시지 미리 보기](../../sending/using/previewing-messages.md)
