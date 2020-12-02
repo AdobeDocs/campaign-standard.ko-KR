@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 0690765f26398391b4604136b203541a109e203b
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
-source-wordcount: '6305'
+source-wordcount: '6303'
 ht-degree: 98%
 
 ---
@@ -51,11 +51,11 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 게재 모범 사례에 관한 새로운 섹션을 추가했습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
-상태 및 마지막 이벤트 수신 시간에 따라 이벤트 구성을 검색할 수 있는 새로운 필터를 설명하는 섹션이 추가되었습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+상태 및 마지막 이벤트 수신 시간에 따라 이벤트 구성을 검색할 수 있는 새로운 필터를 설명하는 섹션이 추가되었습니다. [자세한 내용](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
 
 ## 2020년 9월 {#doc-updates-september-2020}
 
-이벤트 트랜잭션 메시지 섹션이 재구성되고 명확해졌습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
+이벤트 트랜잭션 메시지 섹션이 재구성되고 명확해졌습니다. [자세한 내용](../../channels/using/editing-transactional-message.md)
 
 사용자에게 로그 액세스와 관련된 권한 제한에 대해 경고하기 위해 주의 사항이 추가되었습니다.  [자세한 내용](../../administration/using/users-management.md)
 
@@ -135,7 +135,7 @@ Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했
 
 Experience Cloud ID 서비스(ECID)에 대한 정보를 Adobe Experience Platform 데이터 커넥터 설명서에 추가했습니다. [자세한 내용](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-트랜잭션 메시지 구성 섹션을 개선하여 최신 트랜잭션 이벤트 및 업데이트한 스크린샷에 액세스하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+트랜잭션 메시징 섹션이 최신 트랜잭션 이벤트 및 업데이트된 스크린샷에 액세스하는 방법에 대한 정보로 향상되었습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 유형화 및 유형화 규칙에 대한 설명서를 개선하고 기본 제공 유형화 규칙에 대한 정보를 추가하여 업데이트했습니다. [자세한 내용](../../sending/using/about-typology-rules.md)
 
@@ -143,15 +143,15 @@ Experience Cloud ID 서비스(ECID)에 대한 정보를 Adobe Experience Platfor
 
 게재가 일시적으로 실패한 후 다시 시도하는 방법에 대한 설명서를 업데이트했습니다. 개선된 MTA로 업그레이드한 뒤 다시 시도를 관리하는 방법에 대해 더 자세한 정보를 추가했습니다. [자세한 내용](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-트랜잭션 메시지 삭제 섹션을 보강하고 보다 명확하게 수정했습니다. [자세한 내용](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+트랜잭션 메시지 삭제 섹션을 보강하고 보다 명확하게 수정했습니다. [자세한 내용](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
-**게재 미리 보기** 섹션에 모바일 게재에 대한 예제를 업데이트했습니다.[자세한 내용](../../sending/using/previewing-messages.md)
+**게재 미리 보기** 섹션에 모바일 게재에 대한 예제를 업데이트했습니다. [자세한 내용](../../sending/using/previewing-messages.md)
 
-트랜잭션 메시지와 사용하지 않는 실시간 이벤트의 삭제에 대한 모범 사례를 추가했습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+트랜잭션 메시지와 사용하지 않는 실시간 이벤트의 삭제에 대한 모범 사례를 추가했습니다. [자세한 내용](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
 이메일 채널 구성 섹션을 업데이트했습니다. 이제 Adobe Campaign Enhanced MTA로 관리되는 모든 이메일 설정에 대해 보다 명확하게 설명합니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
 
-트랜잭션 메시지 구성 섹션을 업데이트했습니다. 이벤트 구성 편집에 필요한 권한과 트랜잭션 메시지의 컬렉션을 보강하는 방법에 대해 더 자세한 정보를 추가했습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md).
+트랜잭션 메시지 섹션은 이벤트 구성을 편집하는 데 필요한 권한과 트랜잭션 메시지로 컬렉션을 강화하는 방법에 대한 추가 정보로 업데이트되었습니다. [자세한 내용](../../channels/using/configuring-transactional-event.md).
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
@@ -171,7 +171,7 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 
 관리 안내서에 구성 지침 섹션을 새로 추가했습니다. 호환 브라우저 및 운영 체제에 대한 섹션을 시작 안내서에서 이 섹션으로 이동했습니다. Campaign Standard 네트워크 엔드포인트에 대한 기술 정보도 이 섹션에 추가했습니다. [자세한 내용](../../administration/using/about-configuration-guidelines.md)
 
-이제 이벤트 구성을 삭제하는 방법을 설명하는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+이제 이벤트 구성을 삭제하는 방법을 설명하는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 
 이메일의 제목란을 테스트하여 오픈율을 예측하는 방법을 설명하는 페이지를 업데이트 및 개선했습니다. 또한 여기에 [문제 해결](../../sending/using/testing-subject-line-email.md#troubleshooting) 섹션을 새로 추가했습니다. [자세한 내용](../../sending/using/testing-subject-line-email.md)
 
@@ -281,7 +281,7 @@ Adobe Campaign에 대한 오류 메시지 목록이 업데이트되었습니다.
 
 GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
 
-트랜잭션 메시지 게시 프로세스를 설명하는 새로운 차트를 추가했습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
+트랜잭션 메시지 게시 프로세스를 설명하는 새로운 차트를 추가했습니다. [자세한 내용](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
 
 게재 모범 사례 시작 안내서를 이동 및 업데이트했습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
@@ -297,7 +297,7 @@ Campaign Standard 설정에 대한 새로운 섹션을 추가했습니다. [자�
 
 특정 서비스를 구독하는 프로필에 자동 사용자 정의 확인 이메일을 보내는 방법을 설명하는 새로운 섹션을 추가했습니다. [자세한 내용](../../audiences/using/confirming-subscription-to-a-service.md)
 
-트랜잭션 메시지 섹션을 수정했습니다. 이메일 디자이너를 통한 콘텐츠 편집 등 최신 UI 업데이트를 반영했습니다. [자세한 내용](../../channels/using/event-transactional-messages.md)
+트랜잭션 메시지 섹션을 수정했습니다. 이메일 디자이너를 통한 콘텐츠 편집 등 최신 UI 업데이트를 반영했습니다. [자세한 내용](../../channels/using/editing-transactional-message.md)
 
 랜딩 페이지 챕터를 재구성했습니다. 랜딩 페이지를 설정하는 단계를 자세히 설명하는 새로운 섹션으로 보강했습니다. [자세한 내용](../../channels/using/getting-started-with-landing-pages.md)
 
@@ -427,7 +427,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 링크 관리 섹션에 이메일 디자이너에서 추적된 URL을 관리하는 방법에 대한 정보를 추가하여 업데이트했습니다. [자세한 내용](../../designing/using/links.md#inserting-a-link)
 
-특정 트랜잭션 메시지를 다시 시도하는 프로세스를 설명하는 새로운 섹션을 추가했습니다. [자세한 내용](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
+특정 트랜잭션 메시지를 다시 시도하는 프로세스를 설명하는 새로운 섹션을 추가했습니다. [자세한 내용](../../channels/using/publishing-transactional-message.md#transactional-message-retry-process)
 
 API 확장으로 리소스 게시 섹션을 보다 명확하게 수정하고 최신 UI 변경 사항을 업데이트했습니다. [자세한 내용](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -505,7 +505,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 이메일 디자이너의 일반 가용성 - [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
-트랜잭션 이메일의 제품 목록 - [자세한 내용](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+트랜잭션 이메일의 제품 목록 - [자세한 내용](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
 
 이메일 디자이너의 모바일 보기 - [자세한 내용](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -643,7 +643,7 @@ Adobe 호스팅 SFTP 서버 사용에 대한 모범 사례를 알아봅니다. [
 
 다국어 푸시 게재 - [자세한 내용](../../channels/using/creating-a-multilingual-push-notification.md)
 
-트랜잭션 메시지에서 사용자 정의 리소스 사용 - [자세한 내용](../../administration/using/configuring-transactional-messaging.md)
+트랜잭션 메시지에서 사용자 정의 리소스 사용 - [자세한 내용](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -651,7 +651,7 @@ GDPR API에서 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그
 
 수신자가 차단 목록에 오를 수 있는 기능을 제공하는 랜딩 페이지를 설정하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
-[트랜잭션 메시지 구성](../../administration/using/configuring-transactional-messaging.md) 섹션을 재구성하고 [단계별 사용 사례](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)를 추가했습니다.
+[트랜잭션 메시지 구성](../../channels/using/configuring-transactional-event.md) 섹션을 재구성하고 [단계별 사용 사례](../../channels/using/transactional-messaging-use-case.md)를 추가했습니다.
 
 푸시 알림에 사용할 다국어 CSV 파일을 생성하는 방법을 배우는 기술 정보를 추가했습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.html).
 
@@ -937,7 +937,7 @@ REST API의 연결된 리소스 - [자세한 내용](../../developing/using/upda
 
 트랜잭션 메시지 API - [자세한 내용](../../api/using/get-started-apis.md)
 
-트랜잭션 메시지를 위한 마케팅 기능 - [자세한 내용](../../channels/using/profile-transactional-messages.md)
+트랜잭션 메시지를 위한 마케팅 기능 - [자세히 보기](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
