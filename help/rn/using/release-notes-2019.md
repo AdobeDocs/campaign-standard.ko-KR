@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -203,9 +203,9 @@ ht-degree: 8%
 
 * Adobe Campaign은 Adobe Experience Platform 위치 서비스와의 통합을 통해 이제 Experience Platform SDK를 통해 모바일 애플리케이션의 가입자에게 위치 기반 마케팅 메시지를 전송하는 데 호환됩니다. 자세한 내용은 [세부 설명서](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)를 참조하십시오.
 * 보고 기능이 개선되어 더 나은 환경을 제공합니다. 이 기능을 사용하려면 동적 보고 사용 계약에 동의해야 합니다. 자세한 내용은 [자세한 설명서](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)를 참조하십시오.
-* 워크플로우에서 다음 10개 작업 과정을 미리 보기 위한 새 옵션이 추가되었습니다. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* 스케줄러 활동에서 새 옵션을 사용하면 월간 게재에 대한 특정 요일을 선택할 수 있습니다. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* 이제 합계 기간이 없는 반복 납품을 생성할 때 배달 대시보드를 통해 납품이 전송되기 전에 확인을 요청할 수 있습니다. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* 워크플로우에서 다음 10개 작업 과정을 미리 보기 위한 새 옵션이 추가되었습니다. 자세한 내용은 [자세한 설명서](../../automating/using/scheduler.md)를 참조하십시오.
+* 스케줄러 활동에서 새 옵션을 사용하면 월간 게재에 대한 특정 요일을 선택할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/scheduler.md)를 참조하십시오.
+* 이제 합계 기간이 없는 반복 납품을 생성할 때 배달 대시보드를 통해 납품이 전송되기 전에 확인을 요청할 수 있습니다. 자세한 내용은 [자세한 설명서](../../sending/using/confirming-the-send.md)를 참조하십시오.
 * 이제 워크플로우의 외부 신호 활동에서 선언된 이벤트 변수를 사용하여 게재 레이블을 개인화할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/calling-a-workflow-with-external-parameters.md)를 참조하십시오.
 * GDPR 삭제 쿼리가 개선되어 성능이 향상되었습니다. (CAMP-33504)
 * &quot;ftp&quot; 옵션이 외부 계정 구성 인터페이스에서 제거되었습니다. (CAMP-34472)
@@ -488,7 +488,7 @@ ht-degree: 8%
 
 **기타 변경 사항**
 
-* Adobe Campaign과 Adobe Experience Cloud은 2019년 봄부터 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정이며, Campaign Standard 19.2 릴리스에 대한 지원을 중단할 예정입니다. Microsoft Edge 또는 다른 지원 브라우저로 전환하십시오. [더 이상 사용되지 않고 제거된 기능](../../rn/using/deprecated-features.md) 페이지를 참조하십시오.
+* Adobe Campaign과 Adobe Experience Cloud은 2019년 봄부터 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정이며, Campaign Standard 19.2 릴리스에 대한 지원을 중단할 예정입니다. Microsoft Edge 또는 기타 지원되는 브라우저로 전환하십시오. [더 이상 사용되지 않고 제거된 기능](../../rn/using/deprecated-features.md) 페이지를 참조하십시오.
 * 프로필 리소스의 **국가 코드** 필드가 **국가/지역 코드**&#x200B;으로 이름이 변경되었습니다.
 
 **패치**
@@ -539,7 +539,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 트랜잭션 이메일의 제품 목록<br /> </td> 
-   <td> <p>이제 트랜잭션 이메일 메시지에서 하나 이상의 제품 컬렉션을 참조할 수 있습니다. 예를 들어 이미지, 가격 및 각 제품에 대한 링크가 포함된 모든 제품이 나열된 장바구니 포기 이메일을 자동으로 보낼 수 있습니다.</p><p>자세한 내용은 <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">방법 비디오</a>를 참조하십시오.</p> </td> 
+   <td> <p>이제 트랜잭션 이메일 메시지에서 하나 이상의 제품 컬렉션을 참조할 수 있습니다. 예를 들어 이미지, 가격 및 각 제품에 대한 링크가 포함된 모든 제품이 나열된 장바구니 포기 이메일을 자동으로 보낼 수 있습니다.</p><p>자세한 내용은 <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">방법 비디오</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 이메일 디자이너의 모바일 보기<br /> </td> 
