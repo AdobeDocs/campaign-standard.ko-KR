@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 6%
@@ -41,7 +41,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using
   </tr> 
   <tr> 
    <td> 모바일 앱용 Adobe 실행 통합(베타)<br /> </td> 
-   <td> 이제 Adobe Campaign과 Adobe 실행 통합을 통해 Mobile SDK V5를 사용하여 Campaign에서 모바일 앱 속성 활성화 프로세스를 간소화하고 자동화합니다.<br /> 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 이제 Adobe Campaign과 Adobe 실행 통합을 통해 Mobile SDK V5를 사용하여 Campaign에서 모바일 앱 속성 활성화 프로세스를 간소화하고 자동화합니다.<br /> 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +131,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using
 **기타 변경 사항**
 
 * 제한 시간이 1~4분으로 증가하여 제한 시간 오류가 발생하지 않도록 했습니다.
-* 이메일 컨텐츠를 편집할 때 새로운 Creative Designer가 기본적으로 열립니다. 원할 경우 변경 사항을 저장한 후에도 언제든지 기본 컨텐츠 편집기로 돌아갈 수 있습니다. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
+* 이메일 컨텐츠를 편집할 때 새로운 Creative Designer가 기본적으로 열립니다. 원할 경우 변경 사항을 저장한 후에도 언제든지 기본 컨텐츠 편집기로 돌아갈 수 있습니다. 자세한 내용은 [자세한 설명서](../../designing/using/designing-content-in-adobe-campaign.md)를 참조하십시오.
 * 이제 Creative Designer에서 새 컨텐츠 구성 요소를 이메일에 추가할 수 있습니다.회전판입니다. 자세한 내용은 [자세한 설명서](../../designing/using/designing-from-scratch.md#about-content-components)를 참조하십시오.
 * 트랜잭션 메시지 핫 클릭 보고서에서 **프로필 변경** 단추를 클릭하면 이제 트랜잭션 메시지에 대해 정의한 이벤트에 연결된 테스트 프로필만 나열됩니다.
 
@@ -305,7 +305,7 @@ _사용자 정의 리소스_
     <ul> 
      <li> 액세스 권한:데이터 주체가 데이터 관리자가 캡처한 개인 데이터의 사본을 받을 수 있도록 허용하며, 여기에는 잠재적으로 Adobe Campaign에 저장된 데이터가 포함됩니다. </li> 
      <li> 삭제할 권한:데이터 주체가 데이터 컨트롤러로부터 캡처한 개인 데이터를 삭제하도록 하며, 여기에는 Adobe Campaign에 저장된 데이터도 포함됩니다. </li> 
-    </ul> 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html">세부 설명서</a>를 참조하십시오.<br /> </td> 
+    </ul> 자세한 내용은 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 이메일용 Creative Designer(베타)<br /> </td> 
@@ -327,7 +327,7 @@ _사용자 정의 리소스_
     <ul> 
      <li> 사용자 정의 필드를 조정 기준으로 활용하여 트랜잭션 메시지를 프로필에 일치 </li> 
      <li> 전체 프로파일, 서비스 및 연결된 데이터를 활용하여 트랜잭션 메시지 개인화 </li> 
-    </ul> 자세한 내용은 <a href="../../administration/using/configuring-transactional-messaging.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+    </ul> 자세한 내용은 <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
