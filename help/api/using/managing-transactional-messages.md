@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 3%
+source-wordcount: '711'
+ht-degree: 1%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 ## 트랜잭션 메시지 기본 정보
 
-트랜잭션 이벤트를 만들고 게시한 후에는 이 이벤트의 트리거를 웹 사이트에 통합해야 합니다.
+이벤트를 만든 후에는 이 이벤트의 트리거가 웹 사이트에 통합되어야 합니다.
 
 >[!NOTE]
 >
->이벤트 구성은 [이 섹션](../../channels/using/configuring-transactional-event.md)에 나와 있습니다.
+>이벤트를 만들고 게시하면 [캠페인 문서](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)에 표시됩니다.
 
 예를 들어 고객이 장바구니에서 제품을 구매하기 전에 웹 사이트를 떠날 때마다 &quot;장바구니 포기&quot; 이벤트를 트리거해야 합니다. 이렇게 하려면 웹 개발자가 REST 트랜잭션 메시지 API를 사용해야 합니다.
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (트랜잭션 메시지 API 끝점은 API 미리 보기 중에도 볼 수 있습니다.)
 
-* **&lt;eventid>**:전송할 이벤트 유형입니다. 이 ID는 이벤트 구성을 만들 때 생성됩니다([이 섹션](../../channels/using/configuring-transactional-event.md#creating-an-event) 참조).
+* **&lt;eventid>**:전송할 이벤트 유형입니다. 이 ID는 이벤트 정의를 만들 때 생성됩니다. [캠페인 설명서](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)를 참조하십시오.
 
 ### POST 요청 헤더
 
@@ -67,7 +67,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POST 요청 본문
 
-이벤트 데이터는 JSON POST 본문 내에 포함되어 있습니다. 이벤트 구조는 해당 정의에 따라 달라집니다. 리소스 정의 화면의 API 미리 보기 단추는 요청 샘플을 제공합니다. [이 섹션](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)을 참조하십시오.
+이벤트 데이터는 JSON POST 본문 내에 포함되어 있습니다. 이벤트 구조는 해당 정의에 따라 달라집니다. 리소스 정의 화면의 API 미리 보기 단추는 요청 샘플을 제공합니다. [캠페인 설명서](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)를 참조하십시오.
 
 이벤트에 연결된 트랜잭션 메시지 전송을 관리하기 위해 이벤트 컨텐츠에 다음 선택적 매개 변수를 추가할 수 있습니다.
 
@@ -138,7 +138,7 @@ POST 요청에 대한 응답입니다.
 
 * **보류 중**:이벤트가 보류 중입니다. 트리거된 경우 이벤트가 이 상태를 유지합니다.
 * **처리**:이벤트가 배달 보류 중입니다. 메시지가 메시지로 변환되고 메시지가 전송됩니다.
-* **일시 중지됨**:이벤트 프로세스가 일시 중지됩니다. 더 이상 처리되지 않지만 Adobe Campaign 데이터베이스의 대기열에 보관됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)을 참조하십시오.
+* **일시 중지됨**:이벤트 프로세스가 일시 중지됩니다. 더 이상 처리되지 않지만 Adobe Campaign 데이터베이스의 대기열에 보관됩니다. 자세한 내용은 [캠페인 설명서](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message)를 참조하십시오.
 * **처리됨**:이벤트가 처리되고 메시지가 성공적으로 전송되었습니다.
 * **무시됨**:이 이벤트는 배달 과정에서 무시되었습니다. 이 경우 일반적으로 주소가 격리될 때 사용됩니다.
 * **deliveryFailed**:이벤트를 처리하는 동안 배달 오류가 발생했습니다.
