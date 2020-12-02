@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Experience Manager에서 이메일 컨텐츠를 편집한 다음 Adobe Campaign 
 >title="제품 목록 사용"
 >abstract="제품 목록을 사용하면 데이터 수집을 참조하고 이메일 컨텐츠에 표시할 수 있습니다."
 
-제품 목록을 사용하면 이메일 컨텐츠에서 하나 이상의 데이터 컬렉션을 참조할 수 있습니다. 이러한 목록은 트랜잭션 이메일에 사용할 수 있습니다. 이 기능에 대한 전용 섹션은 [여기](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)에서 사용할 수 있습니다.
+제품 목록을 사용하면 이메일 컨텐츠에서 하나 이상의 데이터 컬렉션을 참조할 수 있습니다. 이러한 목록은 트랜잭션 이메일에 사용할 수 있습니다. 이 기능에 대한 전용 섹션은 [여기](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)에서 사용할 수 있습니다.
 
 ## 이메일 디자인 옵션 비교 {#email-design-options-comparison}
 
@@ -148,7 +148,7 @@ Adobe Campaign은 다양한 이메일 작성 옵션을 제공합니다. 아래 �
    <td> <strong>자세한 내용</strong><br /> </td> 
    <td> <a href="../../designing/using/designing-content-in-adobe-campaign.md">이메일 디자이너 정보</a>를 참조하십시오.<br /> </td> 
    <td> <a href="../../integrating/using/integrating-with-experience-manager.md">Experience Manager</a>과 통합을 참조하십시오.<br /> </td> 
-   <td> <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver 및 Campaign</a>을(를) 참조하고 이 <a href="#video">video</a>.<br /> 보기 </td> 
+   <td> <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver 및 Campaign</a>을(를) 참조하고 이 <a href="#video">video</a>.<br /> 보기 </td> 
   </tr> 
  </tbody> 
 </table>
