@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 85%
+source-wordcount: '725'
+ht-degree: 87%
 
 ---
 
@@ -77,7 +77,7 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
 트리거 이벤트를 만들고 게시하면 해당 트랜잭션 템플릿이 자동으로 만들어집니다. 자세한 내용은 [캠페인에서 매핑된 트리거 만들기](#creating-a-mapped-trigger-in-campaign) 섹션을 참조하십시오.
 
-이벤트가 트랜잭션 메시지 전송을 트리거하려면 템플릿을 개인화한 다음 테스트하여 게시해야 합니다. 이러한 단계는 표준 트랜잭션 메시지와 동일합니다. 자세한 내용은 [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md) 섹션을 참조하십시오.
+이벤트가 트랜잭션 메시지 전송을 트리거하려면 템플릿을 개인화한 다음 테스트하여 게시해야 합니다. 이러한 단계는 표준 트랜잭션 메시지와 동일합니다. 자세한 내용은 [트랜잭션 템플릿](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message) 섹션을 참조하십시오.
 
 >[!NOTE]
 >
