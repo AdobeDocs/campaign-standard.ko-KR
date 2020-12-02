@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 47%
@@ -25,7 +25,7 @@ ht-degree: 47%
 1. [필터 정의 구성](../../developing/using/configuring-filter-definition.md)
 1. [데이터베이스 구조 업데이트](../../developing/using/updating-the-database-structure.md)
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >리소스를 만들고 수정하는 작업은 전문가 사용자만이 수행해야 하는 중요한 작업입니다.
 
@@ -34,3 +34,4 @@ ht-degree: 47%
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
 추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
+
