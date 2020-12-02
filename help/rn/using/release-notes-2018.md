@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 6%
@@ -327,7 +327,7 @@ _사용자 정의 리소스_
     <ul> 
      <li> 사용자 정의 필드를 조정 기준으로 활용하여 트랜잭션 메시지를 프로필에 일치 </li> 
      <li> 전체 프로파일, 서비스 및 연결된 데이터를 활용하여 트랜잭션 메시지 개인화 </li> 
-    </ul> 자세한 내용은 <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">세부 설명서</a>를 참조하십시오.<br /> </td> 
+    </ul> 자세한 내용은 <a href="../../administration/using/configuring-transactional-messaging.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
