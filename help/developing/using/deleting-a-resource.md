@@ -7,9 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '242'
 ht-degree: 14%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # 리소스 삭제{#deleting-a-resource}
 
-리소스를 삭제하려면 해당 리소스가 A여야 합니다 **[!UICONTROL Draft]**. 다음과 같은 경우 리소스가 **[!UICONTROL Draft]** 상태입니다.
+리소스를 삭제하려면 해당 리소스가 **[!UICONTROL Draft]**&#x200B;이어야 합니다. 다음과 같은 경우 리소스가 **[!UICONTROL Draft]** 상태입니다.
 
 * 방금 작성되었으며 아직 게시되지 않았습니다.
 * 이미 게시된 경우 리소스를 다시 작성해야 합니다.
@@ -43,13 +43,13 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >기본 **프로필(프로필)** 리소스의 확장 기능을 다시 초안하는 경우, 정의한 **테스트 프로필(seedMember)** 확장자도 다시 초안해야 합니다. 프로필 리소스 확장에 대한 자세한 내용은 [이 섹션을 참조하십시오](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >기본 제공 **프로필(프로필)** 리소스의 확장을 다시 초안하는 경우, 정의한 대로 **테스트 프로필(seedMember)** 확장 구문도 다시 작성해야 합니다. 프로필 리소스 확장에 대한 자세한 내용은 [이 섹션](../../developing/using/extending-the-profile-resource-with-a-new-field.md)을 참조하십시오.
 
-1. 리소스를 게시합니다. 자세한 내용은 사용자 지정 리소스 [게시를 참조하십시오](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. 리소스를 게시합니다. 자세한 내용은 [사용자 지정 리소스 게시](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)를 참조하십시오.
 
-   그런 다음 리소스가 **초안** 모드로 전환되고 활성화 상태가 됩니다 **[!UICONTROL Inactive]**.
+   그런 다음 리소스는 **초안** 모드로 전환되며 활성화 상태는 **[!UICONTROL Inactive]**&#x200B;입니다.
 
-1. 모드에서 삭제할 리소스를 선택한 다음 **[!UICONTROL List]** 아이콘을 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** 클릭합니다.
+1. **[!UICONTROL List]** 모드에서 삭제할 리소스를 선택한 다음 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** 아이콘을 클릭합니다.
 
    ![](assets/schema_extension_uc28.png)
 
@@ -57,5 +57,4 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->이벤트에 사용된 사용자 지정 리소스의 필드를 수정하거나 삭제하면 해당 이벤트의 게시는 자동으로 취소됩니다. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
-
+>이벤트에 사용된 사용자 지정 리소스의 필드를 수정하거나 삭제하면 해당 이벤트의 게시는 자동으로 취소됩니다. [트랜잭션 이벤트](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)의 게시 취소를 참조하십시오.
