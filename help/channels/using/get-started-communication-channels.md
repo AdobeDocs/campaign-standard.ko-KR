@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 21%
+source-wordcount: '517'
+ht-degree: 22%
 
 ---
 
@@ -72,11 +72,10 @@ Adobe Campaign을 사용하면 모든 채널에서 캠페인을 실행, 측정 �
 
 자세한 내용:
 
+* [트랜잭션 메시지 기본 정보](../../channels/using/getting-started-with-transactional-msg.md)
 * [트랜잭션 메시지 시작](../../channels/using/getting-started-with-transactional-msg.md)
-* [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md)
-* [트랜잭션 이벤트 게시](../../channels/using/publishing-transactional-event.md)
-* [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md)
-* [트랜잭션 메시지 게시](../../channels/using/publishing-transactional-message.md)
+* [이벤트 트랜잭션 메시지](../../channels/using/event-transactional-messages.md)
+* [프로필 트랜잭션 메시지](../../channels/using/profile-transactional-messages.md)
 * [트랜잭션 푸시 알림](../../channels/using/transactional-push-notifications.md)
 * [후속 메시지](../../channels/using/follow-up-messages.md)
 
