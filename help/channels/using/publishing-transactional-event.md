@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 7%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->이벤트 구성 및 게시는 [administrator](../../administration/using/users-management.md#functional-administrators)에서 수행해야 합니다.
+>[기능 관리자](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->만 이벤트 구성을 게시할 수 있는 적절한 권한이 있습니다.
 
 게시 및 게시 취소 이벤트 구성을 포함하여 전체 트랜잭션 메시지 게시 프로세스를 보여주는 차트는 [이 섹션](../../channels/using/publishing-transactional-message.md)에서 사용할 수 있습니다.
 
 게시 완료 후:
 * 해당 트랜잭션 메시지가 자동으로 만들어집니다. [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md)을 참조하십시오.
-* 웹 사이트 개발자가 사용할 API가 배포되고 이제 트랜잭션 이벤트를 전송할 수 있습니다. 이벤트 트리거 통합(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)을 참조하십시오.
+* 웹 사이트 개발자가 사용할 API가 배포되고 이제 트랜잭션 이벤트를 전송할 수 있습니다. [이벤트를 트리거하는 이벤트 통합](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)을 참조하십시오.
 
 ## 이벤트 {#previewing-and-publishing-the-event} 미리 보기 및 게시
 
@@ -36,13 +36,13 @@ ht-degree: 7%
 
 1. 웹 사이트 개발자가 게시하기 전에 사용할 REST API의 시뮬레이션을 보려면 **[!UICONTROL API preview]** 단추를 클릭하십시오.
 
-   이벤트가 게시되면 제작 중인 API의 미리 보기도 가능합니다. 이벤트 트리거 통합(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)을 참조하십시오.
+   이벤트가 게시되면 제작 중인 API의 미리 보기도 가능합니다. [이벤트를 트리거하는 이벤트 통합](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)을 참조하십시오.
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >REST API는 선택한 채널과 선택한 타깃팅 차원에 따라 다릅니다. 다양한 구성에 대한 자세한 내용은 [트랜잭션 이벤트 특정 구성](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations)을 참조하십시오.
+   >REST API는 선택한 채널과 선택한 타깃팅 차원에 따라 다릅니다. 다양한 구성에 대한 자세한 내용은 [이 섹션](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations)을 참조하십시오.
 
 1. **[!UICONTROL Publish]**&#x200B;을 클릭하여 게시를 시작합니다.
 
@@ -66,11 +66,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >* 이벤트가 트랜잭션 메시지 전송을 트리거하려면 방금 만든 메시지를 수정하고 게시해야 합니다. [Editing](../../channels/using/editing-transactional-message.md) and [트랜잭션 메시지](../../channels/using/publishing-transactional-message.md) 섹션 게시를 참조하십시오.
-      >
-      >
-   * 또한 이 트리거 이벤트](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)를 웹 사이트에 통합해야 합니다.[
-
+   >이벤트가 트랜잭션 메시지 전송을 트리거하려면 방금 만든 메시지를 수정하고 게시해야 합니다. [Editing](../../channels/using/editing-transactional-message.md) and [트랜잭션 메시지](../../channels/using/publishing-transactional-message.md) 섹션 게시를 참조하십시오. 또한 이 트리거 이벤트[를 웹 사이트에 통합해야 합니다.](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 1. Adobe Campaign이 이 이벤트 구성과 관련된 이벤트 수신을 시작하면 **[!UICONTROL History]** 섹션 아래에 있는 **[!UICONTROL Latest transactional events]** 링크를 클릭하여 사용자의 타사 서비스가 전송하고 Adobe Campaign에서 처리하는 최신 이벤트에 액세스할 수 있습니다.
 
