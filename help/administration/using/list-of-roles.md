@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+source-wordcount: '227'
+ht-degree: 84%
 
 ---
 
@@ -24,13 +24,18 @@ ht-degree: 94%
 
 자세한 내용은 선택한 권한에 따라 인터페이스에서 사용할 수 있는 기능을 자세히 설명하는 [역할 및 권한 테이블](/help/administration/using/assets/acs_rights.pdf)을 참조하십시오.
 
-[![이미지](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![이미지](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 역할은 **[!UICONTROL Administration > Users & Security > Roles]** 메뉴에서 관리할 수 있습니다.
 
 기본 권한은 다음과 같습니다.
 
 * **[!UICONTROL Administration]**: 일반 관리 권한.
+
+   >[!NOTE]
+   >
+   >트리거를 만들어야 하는 경우 **[!UICONTROL Administration]**&#x200B;이(가) 트리거 메뉴에 액세스할 수 있어야 합니다. 트리거에 대한 자세한 내용은 이 [페이지](../../integrating/using/about-adobe-experience-cloud-triggers.md)를 참조하십시오.
+
 * **[!UICONTROL Datamodel]**: 게시를 실행하고 사용자 지정 리소스를 만들 수 있는 권한.
 * **[!UICONTROL Generic import]**: 데이터에 대한 일반 가져오기를 실행할 수 있는 권한. 이를 수행하려면 **[!UICONTROL Generic import]** 역할을 **[!UICONTROL Workflow]** 역할에 연결해야 합니다.
 * **[!UICONTROL Prepare deliveries]**: 게재 생성, 수정, 준비 및 삭제할 권한. 이 역할을 가진 사용자는 게재를 준비할 수는 있지만 보낼 수는 없습니다.
