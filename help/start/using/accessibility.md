@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: c10633d1371cd6475a573a8c851c5f7e364baf62
+source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,6 @@ Adobe Campaign Standard을 사용하면 다음과 같은 다양한 장치에서 
 ![](assets/accessibility_6.png)
 
 ## 상황에 맞는 도움말 {#contextual-help}
-
->[!NOTE]
->
-> 컨텍스트 도움말은 이메일 디자이너를 사용하는 경우에만 사용할 수 있습니다.
 
 상황에 맞는 도움말은 필요한 다양한 필드와 기능을 이해하는 데 도움이 됩니다. 또한 선택한 기능에 대한 자세한 내용을 살펴보려면 제품 설명서를 참조하십시오.
 
