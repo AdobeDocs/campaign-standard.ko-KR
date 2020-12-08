@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: c276c468627208b584a0342414cdbe382e349f50
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 99%
+source-wordcount: '1687'
+ht-degree: 98%
 
 ---
 
@@ -119,11 +119,18 @@ ht-degree: 99%
       + [DM 콘텐츠 정의](channels/using/defining-the-direct-mail-content.md)
    + 트랜잭션 메시지 {#transactional-messaging}
       + [트랜잭션 메시지 시작](channels/using/getting-started-with-transactional-msg.md)
-      + [트랜잭션 메시지 제한 사항](channels/using/transactional-messaging-limitations.md)
-      + [이벤트 트랜잭션 메시지](channels/using/event-transactional-messages.md)
-      + [프로필 트랜잭션 메시지](channels/using/profile-transactional-messages.md)
+      + [모범 사례 및 제한 사항](channels/using/transactional-messaging-limitations.md)
+      + 이벤트 구성 {#event-configuration}
+         + [트랜잭션 이벤트 구성](channels/using/configuring-transactional-event.md)
+         + [트랜잭션 이벤트 게시](channels/using/publishing-transactional-event.md)
+      + 트랜잭션 메시지 에디션 {#transactional-message-edition}
+         + [트랜잭션 메시지 편집](channels/using/editing-transactional-message.md)
+         + [트랜잭션 메시지 테스트](channels/using/testing-transactional-message.md)
+         + [트랜잭션 메시지 라이프사이클](channels/using/publishing-transactional-message.md)
+         + [실행 및 모니터링](channels/using/transactional-message-execution.md)
       + [트랜잭션 푸시 알림](channels/using/transactional-push-notifications.md)
       + [후속 메시지](channels/using/follow-up-messages.md)
+      + [트랜잭션 메시징 사용 사례](channels/using/transactional-messaging-use-case.md)
    + 랜딩 페이지 {#landing-pages}
       + [랜딩 페이지 시작](channels/using/getting-started-with-landing-pages.md)
       + [랜딩 페이지 템플릿 기본 정보](channels/using/landing-page-templates.md)
@@ -430,7 +437,6 @@ ht-degree: 99%
       + [이메일 채널 구성](administration/using/configuring-email-channel.md)
       + [SMS 채널 구성](administration/using/configuring-sms-channel.md)
       + [모바일 애플리케이션 구성](administration/using/configuring-a-mobile-application.md)
-      + [트랜잭션 메시지 구성](administration/using/configuring-transactional-messaging.md)
    + 모바일 채널 구성 {#configuring-mobile}
       + [푸시 추적 구현](administration/using/push-tracking.md)
       + [iOS 이미지 및 비디오 추가](administration/using/image-push-notification.md)
