@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '644'
 ht-degree: 14%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 14%
 
 다양한 **email** 매개 변수를 구성합니다.바운스, 검역소, 이메일 속성 및 라우팅 매개 변수에 대한 처리 규칙, typoly 규칙. SMS 인코딩 및 포맷은 물론 **SMS** 채널에 대한 라우팅 구성 및 속성을 정의합니다.
 
-Adobe Experience Platform SDK를 사용하여 인앱 메시지 및 푸시 알림을 전송할 수 있도록 **모바일 응용 프로그램**&#x200B;을 설정하고 이벤트를 만들고 설정하여 **트랜잭션 메시지**&#x200B;를 구성합니다.
+Adobe Experience Platform SDK를 사용하여 인앱 메시지 및 푸시 알림을 전송할 수 있도록 **모바일 응용 프로그램**&#x200B;을 설정합니다.
 
 자세한 내용:
 
@@ -82,7 +82,6 @@ Adobe Experience Platform SDK를 사용하여 인앱 메시지 및 푸시 알림
 * [이메일 채널 구성](../../administration/using/configuring-email-channel.md)
 * [SMS 채널 구성](../../administration/using/configuring-sms-channel.md)
 * [모바일 애플리케이션 구성](../../administration/using/configuring-a-mobile-application.md)
-* [트랜잭션 메시지 구성](../../administration/using/configuring-transactional-messaging.md)
 
 ## 애플리케이션 설정 {#application-settings}
 
