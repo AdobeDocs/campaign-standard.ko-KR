@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -203,7 +203,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 
 * **별칭** 필드에 공백을 추가한 다음 새 행 항목을 만들 때 발생할 수 있는 **데이터 보강** 워크플로우 활동 문제를 수정했습니다. (CAMP-39229)
 * 증명 메시지를 보낼 때 모든 테스트 프로필을 타겟팅하는 문제를 수정했습니다.
-* 이벤트 구성을 게시 취소하고 삭제한 후 발생하는 문제를 수정했습니다. [자세한 내용](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* 이벤트 구성을 게시 취소하고 삭제한 후 발생하는 문제를 수정했습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * 워크플로우를 변경할 때 **저장** 버튼이 사라지는 문제를 수정했습니다.
 * 개인 정보 보호 요청을 처리한 후 Campaign에서 수동으로 삭제할 때 발생하고 정리 후에도 요청과 관련된 데이터가 삭제되지 않도록 방지되는 문제를 수정했습니다.
 * Adobe Experience Manager에서 특수 문자가 포함된 메시지를 미리 보거나 전송할 때 발생할 수 있는 문제를 수정했습니다.
