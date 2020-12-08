@@ -9,23 +9,27 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 68%
+source-wordcount: '1488'
+ht-degree: 60%
 
 ---
 
 
 # 트랜잭션 메시지 편집 {#editing-transactional-message}
 
-이벤트<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->를 만들고 게시하면 해당 트랜잭션 메시지가 자동으로 만들어집니다. 이벤트를 구성하고 게시하는 단계는 [트랜잭션 이벤트](../../channels/using/configuring-transactional-event.md) 및 [트랜잭션 이벤트](../../channels/using/publishing-transactional-event.md) 게시 섹션에 제공됩니다.
+이벤트<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->를 만들고 게시하면 해당 트랜잭션 메시지가 자동으로 만들어집니다.
+
+이벤트를 구성하고 게시하는 단계는 [트랜잭션 이벤트](../../channels/using/configuring-transactional-event.md) 및 [트랜잭션 이벤트](../../channels/using/publishing-transactional-event.md) 게시 섹션에 제공됩니다.
 
 이 메시지에 액세스하고 편집하고 개인화하는 단계는 아래에 설명되어 있습니다.
 
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
+>[!IMPORTANT]
+>
+>[관리](../../administration/using/users-management.md#functional-administrators) 역할을 가진 사용자만 트랜잭션 메시지에 액세스하고 편집할 수 있습니다.
 
-메시지가 준비되면 테스트 및 게시할 수 있습니다. [트랜잭션 메시지 수명](../../channels/using/publishing-transactional-message.md)을 참조하십시오.
+메시지가 준비되면 테스트 및 게시할 수 있습니다. [트랜잭션 메시지 테스트](../../channels/using/testing-transactional-message.md) 및 [트랜잭션 메시지 수명](../../channels/using/publishing-transactional-message.md)을 참조하십시오.
 
 ## 트랜잭션 메시지 액세스 {#accessing-transactional-messages}
 
@@ -38,19 +42,19 @@ ht-degree: 68%
 
 1. 편집할 메시지를 클릭합니다.
 
->[!IMPORTANT]
->
->트랜잭션 메시지에 액세스하려면 **[!UICONTROL Administrators (all units)]** 보안 그룹의 일부여야 합니다. 자세한 내용은 [사용자 관리](../../administration/using/users-management.md#functional-administrators)를 참조하십시오.
+   ![](assets/message-center_message-board.png)
+
+해당 이벤트 구성 화면의 왼쪽 영역에 있는 링크를 통해 트랜잭션 메시지에 직접 액세스할 수도 있습니다. [이벤트 미리 보기 및 게시 참조](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## 트랜잭션 메시지 개인화 {#personalizing-a-transactional-message}
 
-트랜잭션 메시지에서 개인화를 설정하려면 아래 단계를 따르십시오.
+트랜잭션 메시지를 편집하고 개인화하려면 아래 절차를 따르십시오.
 
 >[!NOTE]
 >
->이 섹션에서는 **이벤트 기반** 트랜잭션 메시지를 개인화하는 방법을 설명합니다.  이벤트 기반 트랜잭션 메시지를 만드는 구성 단계는 [이 섹션](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)에 나와 있습니다.
+>이 섹션에서는 **이벤트 기반** 트랜잭션 메시지를 편집하는 방법에 대해 설명합니다. **프로필 기반** 트랜잭션 메시지 지정은 [아래에 자세히 설명되어 있습니다](#profile-transactional-message-specificities).
 >
->**프로필 기반** 트랜잭션 메시지 지정은 [아래에 자세히 설명되어 있습니다](#profile-transactional-message-specificities).
+>이벤트 기반 트랜잭션 메시지를 만드는 구성 단계는 [이 섹션](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)에 나와 있습니다.
 
 예를 들어 장바구니에 제품을 추가한 웹 사이트 사용자에게 알림 메시지를 전송하고 구매 과정을 거치지 않고 사이트를 떠나려는 경우 이 예는 [트랜잭션 메시징 운영 원칙](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 섹션에 나와 있습니다.
 
@@ -70,7 +74,7 @@ ht-degree: 68%
 
    ![](assets/message-center_7.png)
 
-1. 메시지의 내용을 보강하려면 이벤트를 연결한 표에서 필드를 선택하여 필드를 추가합니다. 이 예에서 **[!UICONTROL Profile]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;를 통해 **[!UICONTROL Title (salutation)]** 테이블의 &lt;a0/> 필드를 선택합니다.**[!UICONTROL Context]**
+1. 또한 메시지의 내용을 강화할 수 있습니다. 이렇게 하려면 이벤트 구성에 연결된 테이블에서 필드를 추가합니다([이벤트 실행](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 참조). 이 예에서 **[!UICONTROL Profile]** 테이블에서 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;까지 **[!UICONTROL Title (salutation)]** 필드를 선택합니다.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -84,15 +88,15 @@ ht-degree: 68%
 
    ![](assets/message-center_9.png)
 
-   개인화 필드가 테스트 프로필에 입력한 정보와 일치하는지 확인할 수 있습니다. 자세한 내용은 [특정 테스트 프로필 정의](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile)를 참조하십시오.
+   개인화 필드가 테스트 프로필에 입력한 정보와 일치하는지 확인할 수 있습니다. 자세한 내용은 [특정 테스트 프로필 정의](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)를 참조하십시오.
 
 ## 트랜잭션 메시지에서 제품 목록 사용 {#using-product-listings-in-a-transactional-message}
 
-트랜잭션 전자 메일의 콘텐츠에서 하나 이상의 데이터 컬렉션을 참조하는 제품 목록을 만들 수 있습니다. 예를 들어 장바구니 포기 전자 메일에는 사용자가 웹 사이트를 떠날 때 사용자의 카트에 들어 있던 모든 제품 목록과 이미지, 가격 및 각 제품에 대한 링크를 포함할 수 있습니다.
+트랜잭션 이메일의 내용을 편집할 때 하나 이상의 데이터 컬렉션을 참조하는 제품 목록을 만들 수 있습니다. 예를 들어 장바구니 포기 이메일에는 웹 사이트를 떠날 때 사용자의 장바구니에 있었던 모든 제품 목록과 이미지, 가격 및 각 제품에 대한 링크를 포함할 수 있습니다.
 
 >[!IMPORTANT]
 >
->제품 목록은 [전자 메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 인터페이스를 통해 트랜잭션 전자 메일 메시지를 편집할 때만 사용할 수 있습니다.
+>제품 목록은 [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 인터페이스를 통해 트랜잭션 이메일 컨텐츠를 편집할 때 이메일 채널에만 사용할 수 있습니다.
 
 트랜잭션 메시지에 포기된 제품 목록을 추가하려면 아래 단계를 따르십시오.
 
@@ -204,7 +208,7 @@ ht-degree: 68%
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   트랜잭션 메시지에서 테스트 프로필을 정의하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile)을 참조하십시오.
+   트랜잭션 메시지에서 테스트 프로필을 정의하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)을 참조하십시오.
 
 ## 프로필 기반 트랜잭션 메시지 지정 {#profile-transactional-message-specificities}
 
@@ -214,9 +218,9 @@ ht-degree: 68%
 
 * 프로필 기반 트랜잭션 메시지를 만드는 구성 단계는 [이 섹션](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)에 자세히 설명되어 있습니다.
 
-### 프로필 트랜잭션 메시지 편집 {#editing-profile-transactional-message}
+<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
-프로필 트랜잭션 메시지를 만들고, 개인화하고, 게시하는 단계는 대부분 이벤트 트랜잭션 메시지의 경우와 동일합니다.
+프로필 트랜잭션 메시지를 만들고, 편집하고, 개인화하는 단계는 대부분 이벤트 트랜잭션 메시지의 경우와 동일합니다.
 
 차이점은 아래에 나와 있습니다.
 
@@ -235,29 +239,39 @@ ht-degree: 68%
 
 1. 메시지를 게시하기 전에 변경 내용을 저장합니다. 자세한 내용은 [트랜잭션 메시지 게시](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)를 참조하십시오.
 
-### 프로필 트랜잭션 메시지 게재 모니터링 {#monitoring-a-profile-transactional-message-delivery}
+<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
-메시지를 게시하고 사이트 통합이 완료되면 게재를 모니터링할 수 있습니다.
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-1. 메시지 게재 로그를 보려면 **[!UICONTROL Deployment]** 블록의 오른쪽 하단에 있는 아이콘을 클릭합니다.
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-   로그 액세스에 대한 자세한 내용은 [배달 모니터링](../../sending/using/monitoring-a-delivery.md)을 참조하십시오.
+1. Click the **[!UICONTROL Execution list]** tab.
 
-1. **[!UICONTROL Sending logs]** 탭을 선택합니다. **[!UICONTROL Status]** 열의 **[!UICONTROL Sent]**&#x200B;은(는) 프로필이 옵트인되었음을 나타냅니다.
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the latest execution delivery.
+
+   An **execution delivery** is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again
+
+1. Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. 메시지 대상에서 제외된 받는 사람(예:의 주소)을 보려면 **[!UICONTROL Exclusions logs]** 탭을 차단 목록 선택합니다.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-**[!UICONTROL Address on denylist]** 유형화 규칙이 옵트아웃한 프로필의 수신자를 모두 제외합니다.
+>[!NOTE]
+>
+>For more information on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
 
-이 규칙은 **[!UICONTROL Profile]** 표를 기반으로 하는 모든 트랜잭션 메시지에 적용되는 특정 유형화 중 일부입니다.
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
 
 ![](assets/message-center_marketing_typology.png)
 
-**관련 항목**:
+**Related topics**:
 
-* 이벤트 트리거 통합(../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
-* [유형화 및 유형화 규칙 기본 정보](../../sending/using/about-typology-rules.md)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
