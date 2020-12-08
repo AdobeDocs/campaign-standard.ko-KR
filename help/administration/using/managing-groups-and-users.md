@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 97%
+source-wordcount: '942'
+ht-degree: 95%
 
 ---
 
@@ -24,15 +24,18 @@ ht-degree: 97%
 
 사용자는 항상 보안 그룹에 연결되어 있어야 합니다. 이를 통해 특정 역할 및 조직 단위를 할당할 수 있습니다.
 
-역할에 대해 더 자세히 알아보고 싶다면, 다음 페이지의 표에 사용자의 역할에 따라 사용할 수 있는 다양한 작업이 나타나 있습니다. [Adobe Campaign Standard 권한](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+역할에 대해 더 자세히 알아보고 싶다면, 다음 페이지의 표에 사용자의 역할에 따라 사용할 수 있는 다양한 작업이 나타나 있습니다. [Adobe Campaign Standard 권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 기본 보안 그룹은 다음과 같습니다.
 
 * **[!UICONTROL Administrators]**
 * **[!UICONTROL Delivery supervisors]**
-* **[!UICONTROL Message Center agents]**
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]** 및 **[!UICONTROL Message Center agents (mcExec)]** 보안 그룹은 내부용이므로 사용자에게 할당할 수 없습니다.
 
 보안 그룹에 연결되어 있지 않은 사용자는 Adobe Campaign에 액세스할 수 없습니다.
 
