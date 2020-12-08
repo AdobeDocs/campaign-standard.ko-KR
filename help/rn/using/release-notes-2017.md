@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -493,7 +493,7 @@ _워크플로우_
      <li> 메시지에 구독 취소 링크를 포함합니다. </li> 
      <li> 트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다. </li> 
      <li> 트랜잭션 메시지를 고객 여정에 활용합니다. </li> 
-    </ul> 자세한 내용은 <a href="../../channels/using/profile-transactional-messages.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+    </ul> 자세한 내용은 <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 메시지 API<br /> </td> 
