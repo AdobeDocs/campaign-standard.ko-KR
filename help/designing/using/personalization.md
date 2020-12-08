@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 3%
@@ -167,7 +167,7 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
 실제로 메시지를 편집할 때 해당 메시지의 타깃팅 차원과 호환되는 타깃팅 차원이 있는 컨텐츠 블록만 선택할 수 있습니다.
 
-예를 들어 **[!UICONTROL Unsubscription link]** 블록의 타깃팅 차원은 **[!UICONTROL Profiles]**&#x200B;입니다. 여기에는 **[!UICONTROL Profiles]** 리소스에 대한 개인화 필드가 포함되어 있습니다. 따라서 [이벤트 트랜잭션 메시지](../../channels/using/event-transactional-messages.md)에 **[!UICONTROL Unsubscription link]** 블록을 사용할 수 없습니다. 해당 메시지 유형의 타깃팅 차원은 **[!UICONTROL Real-time events]**&#x200B;입니다. 하지만 [프로필 트랜잭션 메시지](../../channels/using/profile-transactional-messages.md)에서 **구독 취소 링크** 블록을 사용할 수 있습니다. 해당 메시지 유형의 타깃팅 차원은 **Profiles**&#x200B;이기 때문입니다. 마지막으로, **[!UICONTROL Link to mirror page]** 블록에 타깃팅 차원이 없으므로 어떤 메시지에서든 사용할 수 있습니다.
+예를 들어 **[!UICONTROL Unsubscription link]** 블록의 타깃팅 차원은 **[!UICONTROL Profiles]**&#x200B;입니다. 여기에는 **[!UICONTROL Profiles]** 리소스에 대한 개인화 필드가 포함되어 있습니다. 따라서 [이벤트 트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)에 **[!UICONTROL Unsubscription link]** 블록을 사용할 수 없습니다. 해당 메시지 유형의 타깃팅 차원은 **[!UICONTROL Real-time events]**&#x200B;입니다. 하지만 [프로필 트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)에서 **구독 취소 링크** 블록을 사용할 수 있습니다. 해당 메시지 유형의 타깃팅 차원은 **Profiles**&#x200B;이기 때문입니다. 마지막으로, **[!UICONTROL Link to mirror page]** 블록에 타깃팅 차원이 없으므로 어떤 메시지에서든 사용할 수 있습니다.
 
 이 필드를 비워 두면 타깃팅 차원이 무엇이든지 컨텐츠 블록은 모든 메시지와 호환됩니다. 타깃팅 차원을 설정하면 해당 블록은 타깃팅 차원이 동일한 메시지와 호환됩니다.
 
