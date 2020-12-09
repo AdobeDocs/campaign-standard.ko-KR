@@ -6,20 +6,20 @@ description: 개인 정보 관리를 위한 Adobe Campaign Standard 기능에 �
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # 개인 정보 관리 {#privacy-management}
 
-Adobe Campaign은 [개인 정보 보호 규정](#privacy-management-regulations)(GDPR, CCPA, PDPA, LGPD 포함)을 준수하는 데 도움이 되는 다양한 툴을 제공합니다.
+Adobe Campaign은 GDPR, CCPA, PDPA 및 LGPD와 같은 [개인 정보 보호 규정](#privacy-management-regulations)을 준수하는 데 도움이 되는 다양한 도구를 제공합니다.
 
-다음은 Adobe Campaign이 GDPR 및 기타 개인 정보 보호 규정을 준수하도록 보장하는 5가지 주요 기능입니다.
+Adobe Campaign이 GDPR 및 기타 개인 정보 보호 규정을 준수하도록 보장하는 5가지 주요 기능은 다음과 같습니다.
 
 ![](assets/privacy-gdpr-use-cases.png)
 
@@ -41,11 +41,11 @@ Adobe Campaign은 [개인 정보 보호 규정](#privacy-management-regulations)
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## 개인 정보 관리 규정 {#privacy-management-regulations}
+## 개인 정보 관리에 관한 규정 {#privacy-management-regulations}
 
 Adobe Campaign의 기능은 다음과 같은 규정을 준수하는 데 도움이 됩니다.
 
-* **GDPR**([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en))은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 개인 정보 보호법입니다. 아래 링크를 통해 GDPR에 대한 일반적인 정보를 확인하십시오.
+* **GDPR**([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en))은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 개인 정보 보호법입니다. 다음의 링크를 통해 GDPR에 대한 일반적인 정보를 확인하십시오.
 
    * https://www.adobe.com/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
