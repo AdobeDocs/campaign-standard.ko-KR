@@ -21,7 +21,7 @@ ht-degree: 97%
 
 ## 2020년 12월 {#doc-updates-december-2020}
 
-개인 정보 섹션이 이동되었습니다. [자세한 내용](../../start/using/privacy.md)
+개인 정보 섹션을 이동했습니다. [자세한 내용](../../start/using/privacy.md)
 
 트랜잭션 메시지 섹션이 다시 구성되고 개선되었으며, 시작 섹션([향상된 차트](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 및 전체 프로세스를 설명하기 위한 [엔드 투 엔드 사용 사례](../../channels/using/transactional-messaging-use-case.md)를 포함)이 포함되어 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
