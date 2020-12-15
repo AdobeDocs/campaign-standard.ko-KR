@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
+source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 45%
 
 ---
 
@@ -19,31 +19,33 @@ ht-degree: 100%
 
 Adobe Campaign Standard Workspace의 접근성 지원에 대해 알아봅니다.
 
-접근성이란 시각, 청각, 인지 또는 기타 장애가 있거나 거동이 불편한 사용자가 제품을 사용할 수 있게 하는 것을 의미합니다. 소프트웨어 제품에 사용되는 접근성 기능으로는 화면 판독기 지원, 그래픽을 대신할 텍스트, 키보드 단축키, 디스플레이 색상의 고대비 변경 등이 있습니다.
+접근성이란 시각, 청각, 인지 또는 기타 장애가 있거나 거동이 불편한 사용자가 제품을 사용할 수 있게 하는 것을 의미합니다. 소프트웨어 제품의 액세서빌러티 기능의 예로는 의미있게 구조화된 컨텐츠, 화면 판독기 지원, 그래픽에 상응하는 텍스트, 키보드 단축키 등이 있습니다.
 
-Adobe Campaign Standard에서는 대비, 키보드 탐색, 상황별 도움말 및 반응형 크기 조정과 같이 접근성을 지원하는 데 사용되는 일부 도구를 제공합니다.
+Adobe Campaign Standard은 대비, 레이블, 구조화된 컨텐츠, 키보드 탐색 및 상황에 맞는 도움말과 같은 액세스 가능한 기능을 제공합니다.
 
 ## 접근성 기능 {#accessibility-features}
 
-### 대비 {#contrast}
+### 대비 및 색상 {#contrast}
 
-Adobe Campaign Standard 사용자 인터페이스에서는 저시력 또는 색각 이상이 있는 사용자가 편하게 볼 수 있도록 애플리케이션의 충분한 대비를 제공하려 노력하고 있습니다.
+Adobe Campaign Standard 유저 인터페이스는 시력이 낮거나 색상이 부족한 사용자가 쉽게 볼 수 있도록 애플리케이션의 충분한 대비를 제공하기 위해 노력하고 있습니다.
 
-* 배경색과 전경색 간의 대비를 개선하기 위해 워크플로우의 일시 중지 및 취소 아이콘이 업데이트되었습니다.
-
-   ![](assets/accessibility_1.png)
-
-* 게재가 성공적일 때 표시되는 텍스트에는 배경색과 전경색 간의 대비가 적은 큰 녹색 텍스트가 포함되어 있습니다. 대비가 최소 3:1 비율로 업데이트되었습니다.
+* 대조 대비 비율이 3:1인 큰 텍스트와 제목이 향상되었습니다.
 
    ![](assets/accessibility_2.png)
 
-* Adobe Campaign Standard에서는 색상, 모양 또는 위치뿐만 아니라 다른 방법으로도 정보나 계층 구조를 전달할 수 있도록 합니다.
+* 애플리케이션의 도움말 내용과 본문 텍스트가 4.5:1 대비 비율로 업데이트되었습니다.
+
+* 배경색과 전경색의 대비를 개선하기 위해 워크플로우의 일시 중지 및 취소 아이콘이 업데이트되었습니다.
+
+   ![](assets/accessibility_1.png)
+
+* 색상, 모양 및 위치는 애플리케이션에서 정보 또는 계층 구조를 전달하는 데 사용되는 유일한 방법이 아닙니다.
 
 ### 사용자 인터페이스 {#user-interface}
 
-Adobe Campaign Standard 사용자 인터페이스를 사용하면 사용자는 배경색과 전경색을 구분하고 사용 가능한 다양한 버튼에 대체 텍스트를 추가하는 등 콘텐츠를 손쉽게 보고 들을 수 있습니다.
+Adobe Campaign Standard 유저 인터페이스를 사용하면 시각적 요소에 대체 텍스트를 추가하고 의미 체계 구조를 사용하여 시각적으로 프로그래밍 방식으로 정보를 전달함으로써 모든 사용자가 컨텐츠와 보다 쉽게 상호 작용할 수 있습니다.
 
-* 사용자가 필수 ID 필드를 비워 두면 그래픽은 오류 메시지 텍스트로 오류가 있는 필드를 시각적으로 나타냅니다.
+* 사용자가 필수 ID 필드를 비워 둘 때 그래픽은 오류 메시지 텍스트와 함께 오류가 있는 필드를 시각적으로 표시하고 화면 판독기와 같은 보조 기술이 있는 사용자에게 동일한 정보를 프로그래밍 방식으로 전달합니다.
 
    ![](assets/accessibility_3.png)
 
@@ -51,39 +53,35 @@ Adobe Campaign Standard 사용자 인터페이스를 사용하면 사용자는 �
 
    ![](assets/accessibility_4.png)
 
-* 이미지 버튼에 대한 대체 텍스트가 추가되었으며 일러스트레이션을 보는 대신 읽을 수 있습니다.
+* 이미지의 대체 텍스트 및 버튼 액세스 가능한 이름에 대한 텍스트가 추가되었으며 요소를 식별하기 위한 시각적 큐에만 의존하지 않고 보조 기술로 큰 소리로 읽을 수 있습니다.
 
-   ![](assets/accessibility_5.png)
+<!--
+### Create responsive resize for multiple devices {#resize-devices}
 
-* 목록 사용 시 데이터 테이블 헤더 셀이 테이블 모서리에 비어 있는 상태로 남아 있지 않습니다.
+When designing for multiple devices and platforms, it's important to create a seamless experience for screen sizes across mobile and desktop resolutions.
 
-### 여러 디바이스에 대한 반응형 크기 조정 만들기 {#resize-devices}
-
-여러 디바이스와 플랫폼에 배포할 콘텐츠를 디자인할 때는 모바일 및 데스크톱 해상도의 전반에 걸쳐 화면 크기에 맞는 원활한 경험을 만들어야 합니다.
-
-Adobe Campaign Standard을 사용하면 iPhone, Android 디바이스, iPad, Android 태블릿 및 데스크톱과 같은 다양한 디바이스에서 이메일 및 푸시 알림을 디자인하고 테스트할 수 있습니다.
+Adobe Campaign Standard allows you to design and test emails and push notifications on different devices such as: iPhone, Android devices, iPad, Android tablet and desktop.
 
 ![](assets/accessibility_6.png)
+-->
 
 ## 상황별 도움말 {#contextual-help}
 
-상황별 도움말은 사용할 수 있는 다양한 요청된 필드 및 기능을 이해하는 데 도움이 됩니다. 또한 선택된 기능의 자세한 내용을 알아보기 위한 제품 설명서로 안내합니다.
+상황에 맞는 도움말은 필요한 다양한 필드와 기능을 이해하는 데 도움이 됩니다. 또한 선택된 기능의 자세한 내용을 알아보기 위한 제품 설명서로 안내합니다.
 
-이메일을 디자인할 때 커서를 정보 단추 위에 올리면 됩니다. 기능 설명 및 제품 설명서에 대한 링크를 제공하는 도구 설명이 나타납니다.
+이메일을 디자인할 때 기능 설명 및 제품 설명서에 대한 링크를 제공하는 도구 설명에 액세스할 수 있습니다.
 
 ![](assets/accessibility_7.png)
 
-## 화면 돋보기 지원 {#screen-magnifiers}
+## 보조 기술 지원 {#screen-magnifiers}
 
-화면 읽기 프로그램은 컴퓨터 화면에 나타나는 텍스트를 읽습니다. 또한 접근성 태그나 특성으로 제공되는 애플리케이션의 단추 레이블이나 이미지 설명과 같은 텍스트가 아닌 정보를 읽습니다.
-
-Adobe Campaign Standard에서는 사용자가 텍스트 간격 속성을 무시해도 여전히 콘텐츠와 기능을 사용할 수 있습니다.
+Adobe는 Adobe Campaign Standard 애플리케이션을 수정된 키보드, 화면 확대경 소프트웨어, 화면 판독기, 음성 인식 소프트웨어 및 기타 보조 디바이스를 비롯한 다양한 보조 기술을 통해 가능한 한 사용할 수 있도록 하기 위해 노력하고 있습니다.
 
 ## 원하는 언어로 작업 {#languages}
 
 Adobe Campaign Standard는 영어, 프랑스어 및 독일어의 다양한 언어로 제공됩니다.
 
-설치 시 언어가 설정되고 나중에 변경할 수 없습니다.
+설치 시 언어가 설정되어 있으므로 나중에 변경할 수 없습니다.
 
 ## 단축키{#shortcuts}
 
