@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 이벤트 트랜잭션 메시지
-description: 이벤트 트랜잭션 메시지를 만들고 게시하는 방법에 대해 배웁니다.
+title: 트랜잭션 메시지 라이프사이클
+description: 트랜잭션 메시지를 게시, 일시 중지, 게시 취소 및 삭제하는 방법을 알아봅니다.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 951f358eb7139be8924aadf8461944d4318f03f1
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 76%
+source-wordcount: '651'
+ht-degree: 74%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 76%
 
 ## 트랜잭션 메시지 게시 프로세스 {#transactional-messaging-pub-process}
 
-아래 차트는 전체 트랜잭션 메시지 게시 프로세스를 보여줍니다.
+아래 차트에는 전체 트랜잭션 메시징 게시 프로세스가 나와 있습니다.
 
 ![](assets/message-center_pub-process.png)
 
@@ -107,7 +107,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 예를 들어 메시지에 포함된 데이터를 수정하기 위해 **[!UICONTROL Pause]** 버튼을 사용하여 트랜잭션 메시지 게시를 일시 중단할 수 있습니다. 그러면 이벤트는 더 이상 처리되지 않고 대신 Adobe Campaign 데이터베이스의 큐에 보관됩니다.
 
-큐 이벤트는 REST API에 정의된 기간 동안 보관됩니다([REST API 문서](../../api/using/managing-transactional-messages.md) 참조). 트리거 핵심 서비스를 사용 중인 경우 트리거 이벤트에서 보관됩니다([Adobe Experience Cloud 트리거 정보](../../integrating/using/about-adobe-experience-cloud-triggers.md) 참조).
+큐에 있는 이벤트는 REST API에 정의된 기간 동안 보관됩니다([REST API 문서](../../api/using/managing-transactional-messages.md) 참조). 또는 트리거 핵심 서비스를 사용 중인 경우 트리거 이벤트에서 보관됩니다( [Adobe Experience Cloud 트리거 정보](../../integrating/using/about-adobe-experience-cloud-triggers.md) 참조).
 
 ![](assets/message-center_pause.png)
 
