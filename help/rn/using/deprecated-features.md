@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 90%
+source-wordcount: '707'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,18 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>예측 제목 줄</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 2020년 12월 15일부터 예측 제목 줄 기능은 더 이상 사용되지 않습니다.</p><br/>
+   <p>AI 기반의 이메일 기능을 활용하여 기존 참여 지표를 기반으로 열람률, 최적의 전송 시간, 향후 이탈률을 분석 및 예측하는 것이 좋습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">자세히 알아보기</a></p></br>
+     <p>
+     <em>Target 제거:2021년 4월</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>SDK v4를 사용한 푸시 알림</strong><br /> </th> 
   </tr> 
@@ -65,7 +77,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
    <td> <p>Campaign 19.4 릴리스부터 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 2단계 프로필 삭제를 사용할 수 없습니다. <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe 개인 정보 보호 핵심 서비스</a>를 사용하십시오.</p></br>
    <p>또한 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">개인 정보 보호 요청 관리</a>를 참조하십시오.</p>
   <p> 
-  <em>타겟 제거 날짜: 2021년</em></p>
+  <em>타겟 제거 날짜: 2021년 4월</em></p>
    </td> 
   </tr> 
  </tbody> 
