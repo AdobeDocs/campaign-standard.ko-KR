@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
+user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터입니다. '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
 translation-type: tm+mt
-source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
+source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 97%
+source-wordcount: '1696'
+ht-degree: 98%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 97%
          + [실행 및 모니터링](channels/using/transactional-message-execution.md)
       + [트랜잭션 푸시 알림](channels/using/transactional-push-notifications.md)
       + [후속 메시지](channels/using/follow-up-messages.md)
-      + [트랜잭션 메시징 사용 사례](channels/using/transactional-messaging-use-case.md)
+      + [트랜잭션 메시지 사용 사례](channels/using/transactional-messaging-use-case.md)
    + 랜딩 페이지 {#landing-pages}
       + [랜딩 페이지 시작](channels/using/getting-started-with-landing-pages.md)
       + [랜딩 페이지 템플릿 기본 정보](channels/using/landing-page-templates.md)
@@ -162,7 +162,6 @@ ht-degree: 97%
       + [게재 미리 보기](sending/using/previewing-messages.md)
       + [교정본 보내기](sending/using/sending-proofs.md)
       + [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
-      + [이메일 제목란 테스트](sending/using/testing-subject-line-email.md)
       + [AI 기반 이메일](sending/using/predictive.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
       + [컨트롤 그룹 추가](sending/using/control-group.md)
