@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 이벤트 트랜잭션 메시지
-description: 이벤트 트랜잭션 메시지를 만들고 게시하는 방법에 대해 배웁니다.
+title: 트랜잭션 메시징 실행 및 모니터링
+description: 트랜잭션 메시지 실행에 대해 알아보고 트랜잭션 메시지를 모니터링하는 방법을 알아봅니다.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 65%
+source-wordcount: '740'
+ht-degree: 62%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 65%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**실행 배달**&#x200B;은 트랜잭션 메시지 각각에 대해 한 달에 한 번 작성된 실행 불가능한 비기능 기술 메시지입니다. 트랜잭션 메시지가 편집되고 다시 게시될 때마다 이러한 메시지가 나타납니다.
+**실행 배달**&#x200B;은 각 트랜잭션 메시지에 대해 한 달에 한 번 만들어지는 실행 가능한 비실용적인 기술 메시지입니다. 트랜잭션 메시지가 편집되고 다시 게시될 때마다 이 메시지가 나타납니다.
 
 **관련 항목**:
 * [트랜잭션 메시지 게시](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
@@ -41,7 +41,7 @@ ht-degree: 65%
 
 ### 이벤트 처리 다시 시도 프로세스 {#event-processing-retry-process}
 
-이벤트가 트리거되면 실행 배달에 할당됩니다. 이벤트를 실행 게재에 할당할 수 없는 경우 이벤트 처리가 연기됩니다. 그런 다음 새 실행 게재에 할당될 때까지 다시 시도가 수행됩니다.
+이벤트가 트리거되면 실행 전달에 할당됩니다. 이벤트를 실행 게재에 할당할 수 없는 경우 이벤트 처리가 연기됩니다. 그런 다음 새 실행 게재에 할당될 때까지 다시 시도가 수행됩니다.
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ ht-degree: 65%
 
 실행 게재를 중단할 수 없습니다. 하지만 현재 실행 게재가 실패할 경우 새 이벤트가 수신되는 즉시 새 이벤트가 만들어지고 모든 새 이벤트가 이 새 실행 게재로 처리됩니다. 실패한 실행 게재로 새 이벤트가 처리되지 않습니다.
 
-실행 배달에 이미 할당된 일부 이벤트가 재시도 프로세스의 일부로 연기된 경우 해당 전달 배달이 실패할 경우 재시도 시스템은 연기된 이벤트를 새 실행 배달에 할당하지 않습니다. 즉, 이러한 이벤트가 손실되었음을 의미합니다. [배달 로그](#monitoring-transactional-message-delivery)에서 영향을 받을 수 있는 받는 사람을 확인합니다.
+실행 배달에 이미 할당된 일부 이벤트가 재시도 프로세스의 일부로 연기된 경우 해당 실행 배달에 실패하면 재시도 시스템은 연기된 이벤트를 새 실행 배달에 할당하지 않습니다. 즉, 이러한 이벤트가 손실됩니다. [배달 로그](#monitoring-transactional-message-delivery)에서 영향을 받을 수 있는 받는 사람을 확인합니다.
 
 ## 트랜잭션 메시지 모니터링 {#monitoring-transactional-message-delivery}
 
@@ -91,7 +91,7 @@ ht-degree: 65%
 
    각 실행 전달에 대해 표준 전달에서와 마찬가지로 배달 로그를 참조할 수 있습니다. 로그 액세스 및 사용에 대한 자세한 내용은 [배달 모니터링](../../sending/using/monitoring-a-delivery.md)을 참조하십시오.
 
-### 프로필 기반 트랜잭션 메시지 지정 {#profile-transactional-message-monitoring}
+### 프로파일 기반 트랜잭션 메시지 지정 {#profile-transactional-message-monitoring}
 
 프로필 기반 트랜잭션 메시지의 경우 다음 프로필 정보를 모니터링할 수 있습니다.
 
