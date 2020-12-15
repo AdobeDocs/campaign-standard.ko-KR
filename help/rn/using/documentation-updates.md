@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
-source-wordcount: '6359'
+source-wordcount: '6357'
 ht-degree: 97%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 97%
 
 ## 2020년 12월 {#doc-updates-december-2020}
 
+트랜잭션 메시지 섹션이 다시 구성 및 개선되었으며, 시작 섹션([향상된 스키마](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), 전체 프로세스를 나타내는 [엔드 투 엔드 사용 사례](../../channels/using/transactional-messaging-use-case.md)를 포함하고 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
+
 개인 정보 섹션을 이동했습니다. [자세한 내용](../../start/using/privacy.md)
 
-트랜잭션 메시지 섹션이 다시 구성되고 개선되었으며, 시작 섹션([향상된 차트](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 및 전체 프로세스를 설명하기 위한 [엔드 투 엔드 사용 사례](../../channels/using/transactional-messaging-use-case.md)를 포함)이 포함되어 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
+Adobe Campaign Standard 작업 영역의 액세스 가능성 지원에 대한 자세한 내용을 살펴보려면 액세스 가능성에 대한 새 페이지가 추가되었습니다. [자세한 내용](../../start/using/accessibility.md)
 
-Adobe Campaign Standard 작업 공간의 액세스 가능성 지원에 대한 자세한 내용을 살펴보기 위해 액세스 가능성에 대한 새 페이지가 추가되었습니다. [자세한 내용](../../start/using/accessibility.md)
+최적의 성과를 위해 게시된 트랜잭션 메시지 수는 100개 미만으로 유지되어야 한다는 점을 나타내는 트랜잭션 메시지 섹션에 새로운 제한이 추가되었습니다. [자세한 내용](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 ## 2020년 11월 {#doc-updates-november-2020}
 
@@ -139,7 +141,7 @@ Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했
 
 Experience Cloud ID 서비스(ECID)에 대한 정보를 Adobe Experience Platform 데이터 커넥터 설명서에 추가했습니다. [자세한 내용](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-트랜잭션 메시징 섹션이 최신 트랜잭션 이벤트 및 업데이트된 스크린샷에 액세스하는 방법에 대한 정보로 향상되었습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+트랜잭션 메시지 섹션이 최신 트랜잭션 이벤트 및 업데이트된 스크린샷에 액세스하는 방법에 대한 정보로 향상되었습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 유형화 및 유형화 규칙에 대한 설명서를 개선하고 기본 제공 유형화 규칙에 대한 정보를 추가하여 업데이트했습니다. [자세한 내용](../../sending/using/about-typology-rules.md)
 
@@ -176,8 +178,6 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 관리 안내서에 구성 지침 섹션을 새로 추가했습니다. 호환 브라우저 및 운영 체제에 대한 섹션을 시작 안내서에서 이 섹션으로 이동했습니다. Campaign Standard 네트워크 엔드포인트에 대한 기술 정보도 이 섹션에 추가했습니다. [자세한 내용](../../administration/using/about-configuration-guidelines.md)
 
 이제 이벤트 구성을 삭제하는 방법을 설명하는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#deleting-an-event)
-
-이메일의 제목란을 테스트하여 오픈율을 예측하는 방법을 설명하는 페이지를 업데이트 및 개선했습니다. 또한 여기에 [문제 해결](../../sending/using/testing-subject-line-email.md#troubleshooting) 섹션을 새로 추가했습니다. [자세한 내용](../../sending/using/testing-subject-line-email.md)
 
 트랜잭션 메시지 섹션을 업데이트했습니다. 다중 사용자 인터페이스의 소규모 업데이트 및 개선 사항을 반영했습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
