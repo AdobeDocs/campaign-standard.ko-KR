@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 이벤트 트랜잭션 메시지
-description: 이벤트 트랜잭션 메시지를 만들고 게시하는 방법에 대해 배웁니다.
+title: 트랜잭션 메시지 테스트
+description: Adobe Campaign에서 트랜잭션 메시지를 테스트하는 방법을 알아봅니다.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 43%
+source-wordcount: '278'
+ht-degree: 39%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 43%
 
 트랜잭션 메시지를 게시하기 전에 메시지를 제대로 확인할 수 있는 특정 테스트 프로필을 만들 수 있습니다.
 
-## 특정 테스트 프로필 {#defining-specific-test-profile} 정의
+## 특정 테스트 프로필 정의 {#defining-specific-test-profile}
 
-메시지를 미리 보고 관련 증거를 전송할 수 있는 이벤트에 연결할 테스트 프로필을 정의합니다.
+메시지를 미리 보고 관련 증거를 전송할 수 있도록 이벤트에 연결할 테스트 프로필을 정의합니다.
 
 1. [트랜잭션 메시지 대시보드](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)에서 **[!UICONTROL Create test profile]** 단추를 클릭합니다.
 
@@ -34,7 +34,7 @@ ht-degree: 43%
 
    >[!NOTE]
    >
-   >메시지를 증가시킨 경우 다른 테이블과 관련된 정보(예: **[!UICONTROL Profile]**)를 입력할 수도 있습니다. [이벤트](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 및 [트랜잭션 메시지 개인화](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)를 참조하십시오.
+   >메시지를 증가시킨 경우 **[!UICONTROL Profile]** 같은 다른 테이블과 관련된 정보를 입력할 수도 있습니다. [이벤트](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 및 [트랜잭션 메시지 맞춤화를 참조하십시오](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. 테스트 프로필이 만들어지면 트랜잭션 메시지에 미리 지정됩니다. 메시지의 **[!UICONTROL Test profiles]** 블록을 클릭하여 증명의 대상을 확인합니다.
 
@@ -58,8 +58,8 @@ ht-degree: 43%
 
 ## 증명 {#sending-proof} 전송
 
-하나 이상의 특정 테스트 프로필을 만들고 트랜잭션 메시지를 저장한 후에는 이를 테스트하기 위한 증거를 보낼 수 있습니다.
+하나 이상의 특정 테스트 프로필을 만들고 트랜잭션 메시지를 저장한 후에는 이를 테스트할 수 있는 증거를 보낼 수 있습니다.
 
 ![](assets/message-center_10.png)
 
-증명 전송 단계는 [증거 전송](../../sending/using/sending-proofs.md) 섹션에 자세히 설명되어 있습니다.
+증명 자료를 보내는 단계는 [증거 자료 전송](../../sending/using/sending-proofs.md) 섹션에 자세히 설명되어 있습니다.
