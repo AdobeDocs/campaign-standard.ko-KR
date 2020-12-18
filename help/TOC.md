@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터입니다. '
+user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
 translation-type: tm+mt
 source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -124,10 +124,10 @@ ht-degree: 98%
       + 이벤트 구성 {#event-configuration}
          + [트랜잭션 이벤트 구성](channels/using/configuring-transactional-event.md)
          + [트랜잭션 이벤트 게시](channels/using/publishing-transactional-event.md)
-      + 트랜잭션 메시지 에디션 {#transactional-message-edition}
+      + 트랜잭션 메시지 편집 {#transactional-message-edition}
          + [트랜잭션 메시지 편집](channels/using/editing-transactional-message.md)
          + [트랜잭션 메시지 테스트](channels/using/testing-transactional-message.md)
-         + [트랜잭션 메시지 라이프사이클](channels/using/publishing-transactional-message.md)
+         + [트랜잭션 메시지 수명 주기](channels/using/publishing-transactional-message.md)
          + [실행 및 모니터링](channels/using/transactional-message-execution.md)
       + [트랜잭션 푸시 알림](channels/using/transactional-push-notifications.md)
       + [후속 메시지](channels/using/follow-up-messages.md)
