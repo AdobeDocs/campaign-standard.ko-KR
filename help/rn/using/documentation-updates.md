@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
 source-wordcount: '6357'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 개인 정보 섹션을 이동했습니다. [자세한 내용](../../start/using/privacy.md)
 
-Adobe Campaign Standard 작업 영역의 액세스 가능성 지원에 대한 자세한 내용을 살펴보려면 액세스 가능성에 대한 새 페이지가 추가되었습니다. [자세한 내용](../../start/using/accessibility.md)
+Adobe Campaign Standard 작업 영역의 접근성 지원에 대한 자세한 내용을 살펴보기 위해 접근성에 대한 새 페이지가 추가되었습니다. [자세한 내용](../../start/using/accessibility.md)
 
 최적의 성과를 위해 게시된 트랜잭션 메시지 수는 100개 미만으로 유지되어야 한다는 점을 나타내는 트랜잭션 메시지 섹션에 새로운 제한이 추가되었습니다. [자세한 내용](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
@@ -141,7 +141,7 @@ Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했
 
 Experience Cloud ID 서비스(ECID)에 대한 정보를 Adobe Experience Platform 데이터 커넥터 설명서에 추가했습니다. [자세한 내용](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-트랜잭션 메시지 섹션이 최신 트랜잭션 이벤트 및 업데이트된 스크린샷에 액세스하는 방법에 대한 정보로 향상되었습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+트랜잭션 메시지 섹션을 개선하여 최신 트랜잭션 이벤트 및 업데이트한 스크린샷에 액세스하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 유형화 및 유형화 규칙에 대한 설명서를 개선하고 기본 제공 유형화 규칙에 대한 정보를 추가하여 업데이트했습니다. [자세한 내용](../../sending/using/about-typology-rules.md)
 
@@ -157,7 +157,7 @@ Experience Cloud ID 서비스(ECID)에 대한 정보를 Adobe Experience Platfor
 
 이메일 채널 구성 섹션을 업데이트했습니다. 이제 Adobe Campaign Enhanced MTA로 관리되는 모든 이메일 설정에 대해 보다 명확하게 설명합니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
 
-트랜잭션 메시지 섹션은 이벤트 구성을 편집하는 데 필요한 권한과 트랜잭션 메시지로 컬렉션을 강화하는 방법에 대한 추가 정보로 업데이트되었습니다. [자세한 내용](../../channels/using/configuring-transactional-event.md).
+트랜잭션 메시지 섹션을 업데이트했습니다. 이벤트 구성 편집에 필요한 권한과 트랜잭션 메시지의 컬렉션을 보강하는 방법에 대해 더 자세한 정보를 추가했습니다. [자세한 내용](../../channels/using/configuring-transactional-event.md).
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
@@ -941,7 +941,7 @@ REST API의 연결된 리소스 - [자세한 내용](../../developing/using/upda
 
 트랜잭션 메시지 API - [자세한 내용](../../api/using/get-started-apis.md)
 
-트랜잭션 메시지를 위한 마케팅 기능 - [자세히 보기](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
+트랜잭션 메시지를 위한 마케팅 기능 - [자세한 내용](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
