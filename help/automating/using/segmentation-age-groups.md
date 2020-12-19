@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 연령 그룹에 따른 세분화
-description: 이 페이지에서는 연령 그룹에 따라 데이터베이스 프로필의 세그먼테이션을 제공합니다. 워크플로우의 목표는 각 나이 그룹에 대해 특정 이메일을 보내는 것입니다.
+description: 이 페이지에서는 연령 그룹에 따라 데이터베이스 프로필의 세그먼트를 제공합니다. 워크플로우의 목표는 각 나이 그룹에 대해 특정 이메일을 보내는 것입니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -26,9 +26,9 @@ ht-degree: 66%
 
 워크플로우는 다음 요소로 구성됩니다.
 
-* A [Scheduler activity](../../automating/using/segmentation.md) to specify the workflow&#39;s execution date.
-* A [Query](../../automating/using/query.md) activity to target profiles of people whose birthday and email address have been entered.
-* A [Segmentation](../../automating/using/segmentation.md) activity to create 3 segments divided into different outbound transitions: 18-25-year old, 26-32-year old and profiles that are over 32 years old. 세그먼트는 다음 매개 변수에 따라 정의됩니다.
+* 워크플로우의 실행 날짜를 지정하는 [스케줄러 활동](../../automating/using/segmentation.md).
+* 생일 및 이메일 주소를 입력한 사람의 프로필을 대상으로 하는 [쿼리](../../automating/using/query.md) 활동.
+* 다른 아웃바운드 전환으로 구분된 3개의 세그먼트를 만드는 [세그멘테이션](../../automating/using/segmentation.md) 활동:32세 이상의 18-25-year, 26-32-year 이전 버전 및 프로파일 세그먼트는 다음 매개 변수에 따라 정의됩니다.
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ ht-degree: 66%
 
       ![](assets/wkf_segment_example_1.png)
 
-* 세그먼트별 [이메일 배달](../../automating/using/email-delivery.md) 활동.
+* 세그먼트당 [이메일 배달](../../automating/using/email-delivery.md) 활동.
