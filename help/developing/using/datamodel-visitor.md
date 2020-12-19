@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 4%
         <td> </td>
     </tr>
     <tr>
-        <td>comment</td>
+        <td>주석</td>
         <td>레퍼러 주석</td>
         <td>문자열(255)</td>
         <td> </td>
@@ -110,8 +110,8 @@ ht-degree: 4%
         <td> </td>
     </tr>
     <tr>
-        <td>modifiedBy(userBase)</td>
-        <td>수정한 사람</td>
+        <td>modifiedBy (userBase)</td>
+        <td>수정한 사람:</td>
         <td>link </td>
         <td> </td>
     </tr>
@@ -123,11 +123,11 @@ ht-degree: 4%
     </tr>
     <tr>
         <td>기원</td>
-        <td>출처</td>
+        <td>원점</td>
         <td>열거형(바이트) </td>
         <td>
             <ul>
-            <li>정의되지 않음 - 정의되지 않음 - 0</li>
+            <li>정의되지 않음 - 0</li>
             <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
             </ul>
         </td>
@@ -184,7 +184,7 @@ ht-degree: 4%
 
 ## 필터
 
-성, 이름 또는 이메일(텍스트별)</p>
+성, 이름 또는 이메일(ByText)</p>
 
 <table>
         <tr>
@@ -192,7 +192,7 @@ ht-degree: 4%
         <th>유형</th>
         </tr>
         <tr>
-        <td>text</td>
+        <td>텍스트</td>
         <td>문자열</td>
         </tr>
     </table>
