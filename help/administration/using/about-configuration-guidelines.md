@@ -19,11 +19,11 @@ ht-degree: 10%
 
 ## 호환 가능한 브라우저{#compatible-browsers}
 
-Adobe Campaign Standard은 대부분의 컴퓨터 브라우저와 태블릿용 주 운영 체제와 호환된다.
+Adobe Campaign Standard은 대부분의 컴퓨터 브라우저와 호환되며 태블릿용 기본 운영 체제와 호환됩니다.
 
 Adobe Campaign Standard은 태블릿에서 가로 표시 모드만 지원합니다.
 
-다음은 Adobe Campaign Standard과 호환되는 브라우저의 목록입니다.
+다음은 Adobe Campaign Standard과 호환되는 브라우저 목록입니다.
 
 **컴퓨터:**
 
