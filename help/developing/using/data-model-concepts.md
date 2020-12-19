@@ -42,4 +42,4 @@ Adobe Campaign에서 사용하는 데이터는 다양한 리소스를 통해 정
 
 >[!CAUTION]
 >
->역할 및 액세스 권한이 있는 [기능](../../administration/using/users-management.md#functional-administrators)관리자만 **[!UICONTROL Administration]** 모든 **** 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블에서 시작합니다(프로필, 배달).
+>**[!UICONTROL Administration]** 역할 및 **에 대한 액세스 권한이 있는 [관리자](../../administration/using/users-management.md#functional-administrators)만 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다.** 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블(프로필, 배달)부터 시작합니다.
