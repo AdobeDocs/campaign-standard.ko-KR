@@ -135,8 +135,8 @@ ht-degree: 97%
 
 ## 자습서 비디오 {#video}
 
-이 비디오에서는 랜딩 페이지를 만들고 편집하는 방법을 보여 줍니다.
+이 비디오는 랜딩 페이지를 만들고 편집하는 방법을 보여줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
+추가 Campaign Standard 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
