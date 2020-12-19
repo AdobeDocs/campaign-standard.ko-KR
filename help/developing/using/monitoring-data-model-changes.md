@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # 데이터 모델 변경 모니터링{#monitoring-data-model-changes}
 
-이 **[!UICONTROL Diagnosis]** 메뉴를 사용하면 응용 프로그램에서 생성한 여러 가지 기술 개체를 분석하여 분석할 수 있습니다.
+**[!UICONTROL Diagnosis]** 메뉴에서는 응용 프로그램에서 생성한 여러 기술 개체를 분석하여 분석할 수 있습니다.
 
 >[!NOTE]
 >
