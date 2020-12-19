@@ -19,8 +19,8 @@ ht-degree: 19%
 
 선언된 외부 매개 변수를 포함하여 워크플로우에서 사용할 수 있는 이벤트 변수를 모니터링할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
 
-1. 활동을 따르는 활동을 **[!UICONTROL External signal]** 선택한 다음 **[!UICONTROL Log and tasks]** 단추를 클릭합니다.
-1. In the **[!UICONTROL Tasks]** tab, click ![](assets/edit_darkgrey-24px.png) button.
+1. **[!UICONTROL External signal]** 활동 뒤에 오는 활동을 선택한 다음 **[!UICONTROL Log and tasks]** 단추를 클릭합니다.
+1. **[!UICONTROL Tasks]** 탭에서 ![](assets/edit_darkgrey-24px.png) 단추를 클릭합니다.
 
    ![](assets/extsignal_monitoring_2.png)
 
