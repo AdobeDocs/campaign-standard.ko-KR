@@ -87,4 +87,4 @@ SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
+추가 Campaign Standard 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
