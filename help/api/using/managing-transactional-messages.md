@@ -23,16 +23,16 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->이벤트 구성은 [이 섹션](../../channels/using/configuring-transactional-event.md)에 나와 있습니다.
+>이벤트 구성이 [이 섹션](../../channels/using/configuring-transactional-event.md)에 제공됩니다.
 
-예를 들어 고객이 장바구니에서 제품을 구매하기 전에 웹 사이트를 떠날 때마다 &quot;장바구니 포기&quot; 이벤트를 트리거해야 합니다. 이렇게 하려면 웹 개발자가 REST 트랜잭션 메시지 API를 사용해야 합니다.
+예를 들어 고객이 장바구니에 있는 제품을 구매하기 전에 웹 사이트를 떠날 때마다 &quot;장바구니 포기&quot; 이벤트를 트리거해야 합니다. 이렇게 하려면 웹 개발자가 REST 트랜잭션 메시지 API를 사용해야 합니다.
 
-1. 개발자는 트랜잭션 이벤트](#sending-a-transactional-event)의 [전송을 트리거하는 POST 메서드에 따라 요청을 보냅니다.
+1. 개발자는 POST 메서드에 따라 요청을 보냅니다. 이 메서드는 트랜잭션 이벤트](#sending-a-transactional-event)의 [전송을 트리거합니다.
 1. POST 요청에 대한 응답에는 개발자가 GET 요청을 통해 하나 이상의 요청을 전송할 수 있는 기본 키가 포함되어 있습니다. 이렇게 하면 [이벤트 상태](#transactional-event-status)를 얻을 수 있습니다.
 
 ## 트랜잭션 이벤트 {#sending-a-transactional-event} 전송
 
-트랜잭션 이벤트는 다음 URL 구조를 가진 POST 요청을 통해 전송됩니다.
+트랜잭션 이벤트는 다음 URL 구조의 POST 요청을 통해 전송됩니다.
 
 ```
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
@@ -40,9 +40,9 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;organization>**:개인 조직 ID. [이 섹션](../../api/using/must-read.md)을 참조하십시오.
 
-* **&lt;transactionalapi>**:트랜잭션 메시지 API 종료 지점.
+* **&lt;transactionalapi>**:트랜잭션 메시지 API 끝점을 참조하십시오.
 
-   트랜잭션 메시지 API 끝점의 이름은 인스턴스 구성에 따라 다릅니다. &quot;mc&quot; 값 다음에 개인 조직 ID에 해당합니다. 조직 ID로 &quot;geometrixx&quot;를 사용하는 Geometrixx 회사의 예를 살펴보겠습니다. 이 경우 POST 요청은 다음과 같습니다.
+   트랜잭션 메시지 API 끝점의 이름은 인스턴스 구성에 따라 다릅니다. 이것은 &quot;mc&quot; 값 다음에 개인 조직 ID에 해당합니다. 조직 ID로 &quot;geometrixx&quot;를 사용하는 Geometrixx 회사의 예를 살펴보겠습니다. 이 경우 POST 요청은 다음과 같습니다.
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
@@ -54,7 +54,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 요청에는 &quot;Content-Type:application/json&quot; 헤더.
 
-**utf-8**&#x200B;과 같은 문자 집합을 추가해야 합니다. 이 값은 사용 중인 REST 응용 프로그램에 따라 다릅니다.
+**utf-8**&#x200B;과 같은 문자 집합을 추가해야 합니다. 이 값은 사용 중인 REST 응용 프로그램에 따라 달라집니다.
 
 ```
 -X POST \
@@ -69,14 +69,14 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 이벤트 데이터는 JSON POST 본문 내에 포함되어 있습니다. 이벤트 구조는 해당 정의에 따라 달라집니다. 리소스 정의 화면의 API 미리 보기 단추는 요청 샘플을 제공합니다. [이 섹션](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)을 참조하십시오.
 
-이벤트에 연결된 트랜잭션 메시지 전송을 관리하기 위해 이벤트 컨텐츠에 다음 선택적 매개 변수를 추가할 수 있습니다.
+이벤트에 연결된 트랜잭션 메시지 전송을 관리하기 위해 이벤트 내용에 다음과 같은 선택적 매개 변수를 추가할 수 있습니다.
 
 * **만료** (선택 사항):이 날짜 이후에는 트랜잭션 이벤트 전송이 취소됩니다.
 * **예약됨** (선택 사항):이 날짜부터 트랜잭션 이벤트가 처리되고 트랜잭션 메시지가 전송됩니다.
 
 >[!NOTE]
 >
->&quot;만료&quot; 및 &quot;예약&quot; 매개 변수의 값은 ISO 8601 형식을 따릅니다. ISO 8601은 대문자인 &quot;T&quot;를 사용하여 날짜 및 시간을 구분합니다. 더 나은 가독성을 위해 입력이나 출력에서 제거할 수 있습니다.
+>&quot;expiration&quot; 및 &quot;scheduled&quot; 매개 변수의 값은 ISO 8601 형식을 따릅니다. ISO 8601은 대문자인 &quot;T&quot;를 사용하여 날짜와 시간을 구분합니다. 더 나은 가독성을 위해 입력 또는 출력에서 제거할 수 있습니다.
 
 ### POST 요청에 대한 응답
 
@@ -136,12 +136,12 @@ POST 요청에 대한 응답입니다.
 
 응답에서 &quot;상태&quot; 필드를 사용하여 이벤트가 처리되었는지 여부를 알 수 있습니다.
 
-* **보류 중**:이벤트가 보류 중입니다. 트리거된 경우 이벤트가 이 상태를 유지합니다.
+* **보류 중**:이벤트가 보류 중입니다. 방금 트리거된 경우 이벤트가 이 상태를 유지합니다.
 * **처리**:이벤트가 배달 보류 중입니다. 메시지가 메시지로 변환되고 메시지가 전송됩니다.
 * **일시 중지됨**:이벤트 프로세스가 일시 중지됩니다. 더 이상 처리되지 않지만 Adobe Campaign 데이터베이스의 대기열에 보관됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)을 참조하십시오.
 * **처리됨**:이벤트가 처리되고 메시지가 성공적으로 전송되었습니다.
-* **무시됨**:이 이벤트는 배달 과정에서 무시되었습니다. 이 경우 일반적으로 주소가 격리될 때 사용됩니다.
+* **무시됨**:일반적으로 주소가 격리 상태일 때 배달 시 이벤트가 무시되었습니다.
 * **deliveryFailed**:이벤트를 처리하는 동안 배달 오류가 발생했습니다.
-* **routingFailed**:라우팅 단계가 실패했습니다. 지정된 이벤트 유형을 찾을 수 없는 경우 이 문제가 발생할 수 있습니다.
-* **tooOld**:이벤트를 처리할 수 있기 전에 만료됨 - 여러 가지 이유로 인해 전송이 여러 번 실패하는 경우(이 경우 이벤트가 더 이상 최신 상태가 되지 않는 경우) 또는 서버가 오버로드된 후 이벤트를 더 이상 처리할 수 없는 경우 등이 발생할 수 있습니다.
-* **targetingFailed**:Campaign Standard이 메시지 타깃팅에 사용되는 링크를 강화하지 못했습니다.
+* **routingFailed**:라우팅 단계가 실패했습니다. 지정된 이벤트 유형을 찾을 수 없는 경우 이 오류가 발생할 수 있습니다.
+* **tooOld**:이벤트를 처리할 수 있게 되기 전에 만료됨 - 여러 가지 이유로 인해 전송이 실패하는 경우(이 경우 이벤트가 더 이상 최신 상태가 되지 않음) 또는 오버로드된 후 서버에서 이벤트를 더 이상 처리할 수 없는 경우 등의 문제가 발생할 수 있습니다.
+* **targetingFailed**:Campaign Standard이 메시지 타깃팅에 사용되는 링크를 보완하지 못했습니다.
