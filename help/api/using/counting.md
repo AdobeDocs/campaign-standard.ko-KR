@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # 카운팅
 
-Adobe Campaign REST API는 요청에 있는 레코드 수를 계산할 수 있습니다. 이렇게 하려면 **카운트** 노드에서 반환되는 URL을 사용합니다.
+Adobe Campaign REST API는 요청에 있는 레코드 수를 계산할 수 있습니다. 이렇게 하려면 **count** 노드에서 반환되는 URL을 사용합니다.
 
 <br/>
 
 ***샘플 요청***
 
-&quot;sms&quot;와 같은 **messageType** 값이 있는 모든 서비스를 계산하려면 채널 필터 **로 GET 요청을** 수행하십시오.
+&quot;sms&quot;에 해당하는 **messageType** 값이 있는 모든 서비스를 카운트하려면 **byChannel** 필터로 GET 요청을 수행하십시오.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -54,7 +54,7 @@ Adobe Campaign REST API는 요청에 있는 레코드 수를 계산할 수 있�
 }
 ```
 
-결과 수를 검색하려면 **카운트** 노드의 URL에 GET 요청을 수행합니다.
+결과 수를 검색하려면 **count** 노드의 URL에 GET 요청을 수행합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
