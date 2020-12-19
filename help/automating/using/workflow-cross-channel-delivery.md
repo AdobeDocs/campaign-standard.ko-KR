@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 크로스채널 전달
-description: 이 사용 사례에서는 크로스채널 배달을 만드는 방법을 보여줍니다
+description: 이 사용 사례는 크로스채널 배달을 만드는 방법을 보여줍니다
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -65,7 +65,7 @@ ht-degree: 86%
 
 쿼리 활동에서 타겟을 식별한 후에는 이메일과 문자 메시지를 받는 대상을 두 개의 다른 모집단으로 세분화하는 조건을 선택해야 합니다. 
 
-You have to use a [Segmentation](../../automating/using/segmentation.md) activity to create one or several segments from a population computed upstream in a query.
+쿼리에서 업스트림 모집단에서 하나 이상의 세그먼트를 만들려면 [세그멘테이션](../../automating/using/segmentation.md) 활동을 사용해야 합니다.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +112,7 @@ You have to use a [Segmentation](../../automating/using/segmentation.md) activit
 
 ## 게재 만들기 {#creating-deliveries}
 
-As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an [Email delivery](../../automating/using/email-delivery.md) activity and an [SMS delivery](../../automating/using/sms-delivery.md) activity.
+2개의 전환이 이미 생성되었으므로 이제 두 가지 유형의 게재를 세그멘테이션 활동의 아웃바운드 전환에 추가해야 합니다.[이메일 배달](../../automating/using/email-delivery.md) 활동 및 [SMS 배달](../../automating/using/sms-delivery.md) 활동.
 
 Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습니다. 이렇게 하려면 워크플로우 활동 팔레트의 **[!UICONTROL Channels]** 카테고리에서 게재를 선택합니다.
 
@@ -133,7 +133,7 @@ Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습
 1. 전자 메일 속성을 입력하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 전자 메일 레이아웃을 만들려면 **[!UICONTROL Use the Email Designer]**&#x200B;을(를) 선택합니다.
 1. 콘텐츠를 편집하고 저장합니다.
-1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
+1. 메시지 대시보드의 **[!UICONTROL Schedule]** 섹션에서 **[!UICONTROL Request confirmation before sending messages]** 옵션을 선택 취소합니다.
 
 SMS 게재를 만드는 방법:
 
@@ -150,7 +150,7 @@ SMS 게재를 만드는 방법:
 
 ## 워크플로우 실행 {#running-the-workflow}
 
-Once the workflow is started, the population targeted by the **[!UICONTROL Query]** activity will be segmented to receive an Email or SMS delivery.
+워크플로우가 시작되면 이메일 또는 SMS 전달을 받기 위해 **[!UICONTROL Query]** 활동에 타깃팅된 모집단을 세그먼트화합니다.
 
 워크플로우를 실행하려면 작업 모음에서 **[!UICONTROL Start]** 버튼을 클릭합니다.
 
