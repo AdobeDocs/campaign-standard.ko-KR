@@ -57,7 +57,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Adobe Experience Manager 콘텐츠</td>
+                  <td>Adobe Experience Manager 컨텐츠</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
@@ -74,7 +74,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>첨부</td>
+                  <td>첨부 파일</td>
                   <td>첨부 파일</td>
                   <td>collection </td>
                   <td> </td>
@@ -116,7 +116,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>content</td>
+                  <td>콘텐트</td>
                   <td>컨텐츠</td>
                   <td>item </td>
                   <td> </td>
@@ -157,8 +157,8 @@ ht-degree: 6%
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>대량 배달 - 벌크 - 1</li>
-                        <li>중간 소싱 - 중간 소싱 - 4</li>
+                        <li>대량 배달 - 대량 - 1</li>
+                        <li>중간 소싱 - midSourcing - 4</li>
                         <li>설명 - 설명 - 2</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                         <li>외부 - 외부 - 0</li>
@@ -207,7 +207,7 @@ ht-degree: 6%
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>고유 - 1Time - 0</li>
+                        <li>고유 - 1회 - 0</li>
                         <li>연속 - 연속 - 1</li>
                         <li>메시지 센터 - 메시지 센터 - 2</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -238,7 +238,7 @@ ht-degree: 6%
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>트랜잭션 이메일 - 이메일 번개 - 60</li>
+                        <li>트랜잭션 이메일 - EmailLightning - 60</li>
                         <li>팩스 - 팩스 - 4</li>
                         <li>모바일(SMS) - sms - 1</li>
                         <li>반복 이메일 - 이메일 새로 고침 - 30</li>
@@ -278,8 +278,8 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>직업</td>
-                  <td>Job</td>
+                  <td>job</td>
+                  <td>작업</td>
                   <td>collection </td>
                   <td> </td>
                </tr>
@@ -348,7 +348,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>masterKpi</td>
-                  <td>기본 지표</td>
+                  <td>기본 표시기</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -370,8 +370,8 @@ ht-degree: 6%
                   </td>
                </tr>
                <tr>
-                  <td>modifiedBy(userBase)</td>
-                  <td>수정한 사람</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>수정한 사람:</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -407,7 +407,7 @@ ht-degree: 6%
                      <ul>
                         <li>높음 - 20</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
-                        <li>일반 - 일반 - 10</li>
+                        <li>표준 - 일반 - 10</li>
                      </ul>
                   </td>
                </tr>
@@ -418,7 +418,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>교정본</td>
+                  <td>증명</td>
                   <td>교정본</td>
                   <td>collection </td>
                   <td> </td>
@@ -485,7 +485,7 @@ ht-degree: 6%
                      <ul>
                         <li>시작 보류 중 - 시작 보류 중 - 51</li>
                         <li>준비 완료 - 45</li>
-                        <li>재시도 보류 - 재시도 보류 중 - 61</li>
+                        <li>대기 중 다시 시도 - 다시 시도 보류 중 - 61</li>
                         <li>진행 중 다시 시도 - retryInProgress - 62</li>
                         <li>실패 - 실패 - 87</li>
                         <li>진행 중 - 시작됨 - 55</li>
@@ -494,8 +494,8 @@ ht-degree: 6%
                         <li>일시 중지됨 - 일시 중지됨 - 75</li>
                         <li>편집 - 에디션 - 0</li>
                         <li>완료 - 완료 - 95</li>
-                        <li>진행 중 카운팅 - targetSelection - 12</li>
-                        <li>메시지 종결 - messageReady - 25</li>
+                        <li>진행 중 계산 - targetSelection - 12</li>
+                        <li>완료된 메시지 - messageReady - 25</li>
                         <li>개인화 또는 계산 실패 - 준비오류 - 37</li>
                         <li>중지됨 - 취소됨 - 85</li>
                         <li>개인화 진행 중 - messagePreparation - 22</li>
@@ -512,7 +512,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>template(deliveryTemplateSummary)</td>
+                  <td>템플릿(deliveryTemplateSummary)</td>
                   <td>배달 템플릿</td>
                   <td>link </td>
                   <td> </td>
@@ -554,8 +554,8 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>분류(typicalBase)</td>
-                  <td>분류</td>
+                  <td>유형 분류(유형 분류 기준)</td>
+                  <td>유형 분석</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -610,7 +610,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-논리적 상태 기준(byLogicalStatus)
+논리 상태 기준(byLogicalStatus)
 
 <table>
     <tr>
@@ -631,7 +631,7 @@ ht-degree: 6%
     <th>유형</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>텍스트</td>
     <td>문자열</td>
     </tr>
     <tr>
@@ -653,7 +653,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-기간별(StartPeriod)
+기간 기준(byStartPeriod)
 
 <table>
     <tr>
@@ -670,7 +670,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-게시 상태별(PublicationStatus)
+게시 상태 기준(byPublicationStatus)
 
 <table>
     <tr>
@@ -696,7 +696,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-후속 메시지(showFollowing)
+후속 메시지(showFollow)
 
 <table>
     <tr>
@@ -704,7 +704,7 @@ ht-degree: 6%
     <th>유형</th>
     </tr>
     <tr>
-    <td>following</td>
+    <td>팔로우</td>
     <td>boolean</td>
     </tr>
 </table>
@@ -748,7 +748,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-해당 기간 동안 계획(계획별)
+주어진 기간 동안 계획(계획별)
 
 <table>
     <tr>
@@ -765,7 +765,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-주어진 기간 동안(달력별)
+주어진 기간(달력별) 동안 있음
 
 <table>
     <tr>
@@ -782,7 +782,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-최신 기능 보기(showOb)
+즉시 사용 가능한 항목 표시(showOob)
 
 <table>
     <tr>
