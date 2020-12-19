@@ -17,8 +17,8 @@ ht-degree: 12%
 
 # 프로필의 지리 단위 검색 {#retrieving-geographical-unit}
 
-1. 프로필 PKey에서 **geoUnit** URL을 검색하려면 GET 요청을 수행합니다.
-1. URL에 대해 GET 요청을 수행하여 지리적 단위에 대한 자세한 내용을 검색합니다.
+1. 프로파일 PKey에서 GET 요청을 수행하여 **geoUnit** URL을 검색합니다.
+1. 지리학적 단위에 대한 자세한 내용을 검색하려면 URL에 GET 요청을 수행합니다.
 
 <br/>
 
