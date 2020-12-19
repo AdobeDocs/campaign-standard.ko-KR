@@ -32,5 +32,5 @@ ht-degree: 84%
 
 **관련 항목:**
 
-* [직접 메일 배달 활동](../../automating/using/direct-mail-delivery.md)
+* [다이렉트 메일 배달 활동](../../automating/using/direct-mail-delivery.md)
 * [DM 기본 정보](../../channels/using/about-direct-mail.md)
