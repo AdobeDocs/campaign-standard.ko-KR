@@ -17,7 +17,7 @@ ht-degree: 93%
 
 # 메시지 보내기 주요 단계{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+배달 우수 사례에 대해 알아보려면 [배달 우수 사례](../../sending/using/delivery-best-practices.md) 섹션을 참조하십시오.
 
 메시지를 만들고 전송하는 단계는 다음과 같습니다.
 
