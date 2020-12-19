@@ -30,7 +30,7 @@ ht-degree: 85%
 * Adobe Analytics. 자세한 정보는 [이 섹션](../../integrating/using/configure-campaign-analytics-integration.md)을 참조하십시오.
 * Google reCAPTCHA. 자세한 정보는 [이 섹션](#google-recaptcha-external-account)을 참조하십시오.
 * Microsoft Azure Blob 저장 공간. 자세한 정보는 [이 섹션](#microsoft-azure-external-account)을 참조하십시오.
-* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
+* OAuth 2.0. 자세한 내용은 [이 섹션](#oauth-account)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 * 때때로 SFTP에 로그인하여 무엇이 있는지 직접 확인합니다.
 * SFTP 디스크 관리는 주로 사용자의 책임입니다.
 
-또한 SFTP 연결을 시작하려는 공개 IP는 캠페인 인스턴스의허용 목록에 추가하다에 추가해야 합니다. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+또한 SFTP 연결을 시작하려는 공개 IP는 캠페인 인스턴스의허용 목록에 추가하다에 추가해야 합니다. 인증에 사용할 공개 키허용 목록에 추가하다를 제공하는 것과 함께 [지원 티켓](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)을 통해 IP 주소를에 추가할 것을 요청할 수 있습니다.
 
 SFTP 서버는 Campaign 컨트롤 패널에서 관리할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/sftp-management/about-sftp-management.html)를 참조하십시오.
 
@@ -97,18 +97,18 @@ SFTP 서버는 Campaign 컨트롤 패널에서 관리할 수 있습니다. 자�
 
 OAuth 2.0 외부 계정의 경우 다음 세부 정보를 제공합니다.
 
-* 권한 **부여 유형**:클라이언트 자격 증명만 **지원됩니다** .
-* 보안 **API URL**:인증 끝점을 입력합니다.
-* **OAuth 2.0 중요 자격 증명**:이 섹션은 본질적으로 민감한 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 마스크됩니다.이때 읽을 수도 있고 편집할 수도 없습니다. 인증 종단점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
-* **OAuth 2.0의 민감한 자격 증명**:이 섹션은 본질적으로 중요하지 않은 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후에 화면에 표시됩니다.편집할 수도 있습니다.  인증 종단점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
+* **Grant 유형**:**클라이언트 자격 증명**&#x200B;만 지원됩니다.
+* **보안 API URL**:인증 끝점을 입력합니다.
+* **OAuth 2.0 중요 자격 증명**:이 섹션은 본질적으로 민감한 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 마스크 처리됩니다.이때 읽을 수도 편집할 수도 없습니다. 인증 끝점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
+* **OAuth 2.0 비중요 자격 증명**:이 섹션은 본질적으로 중요하지 않은 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 표시됩니다.편집할 수도 있습니다.  인증 끝점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
 
-구성이 끝나면 **Test connector를** 클릭하여 외부 계정이 올바르게 설정되어 있는지 확인합니다.
+구성이 끝나면 **테스트 커넥터**&#x200B;를 클릭하여 외부 계정이 올바르게 설정되었는지 확인합니다.
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->자격 증명 &quot;컨텐츠 유형:application/x-www-form-urlencoded&quot; 및 &quot;grant_type=client_credentials&quot;가 자동으로 API 호출에 추가됩니다.따라서 자격 증명 섹션에 추가할 필요가 없습니다.
+>자격 증명 &quot;Content-Type:application/x-www-form-urlencoded&quot; 및 &quot;grant_type=client_credentials&quot;가 API 호출에 자동으로 추가됩니다.따라서 자격 증명 섹션에 추가할 필요가 없습니다.
 
 ## Amazon S3 외부 계정 {#amazon-s3-external-account}
 
@@ -188,7 +188,7 @@ Microsoft Azure Blob 저장 공간 외부 계정의 경우 다음 세부 정보�
 * 외부 계정의 **[!UICONTROL Label]** 및 **[!UICONTROL ID]**
 * **[!UICONTROL Type]**: Microsoft Azure Blob 저장 공간
 * 사용자 **[!UICONTROL Account name]** 및 **[!UICONTROL Account key]**. 계정 이름과 키를 찾을 수 있는 위치를 파악하려면 이 [페이지](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)를 참조하십시오.
-* 사용자 **[!UICONTROL Endpoint suffix]**. Azure 포털 **[!UICONTROL Access keys]** 메뉴의 **[!UICONTROL Connection string]**&#x200B;에서 찾을 수 있습니다. 자세한 정보는 이 [페이지](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)를 참조하십시오.
+* 사용자 **[!UICONTROL Endpoint suffix]**. Azure 포털 **[!UICONTROL Access keys]** 메뉴의 **[!UICONTROL Connection string]**&#x200B;에서 찾을 수 있습니다. 자세한 정보는 이 [페이지](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)를 참조하십시오.
 * 사용자 **[!UICONTROL Container]** 이름. 두 개 이상의 컨테이너를 사용하려는 경우 외부 계정을 컨테이너만큼 만들어야 합니다.
 * **[!UICONTROL Concurrency]** 옵션을 사용하면 파일 전송 속도를 세밀하게 조정할 수 있습니다.
 
