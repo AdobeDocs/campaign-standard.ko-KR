@@ -17,18 +17,18 @@ ht-degree: 4%
 
 # CPA 옵트아웃 관리 {#managing-ccpa-optout}
 
-cpaOptOut 프로필 속성과 &quot; **true&quot; 또는 &quot;false&quot; 값을 사용하여 프로필의 CPA 옵트아웃 상태를** 모니터링하고 관리할 수 있습니다.
+프로필의 CPA 옵트아웃 상태는 **cpaOptOut** 프로필 속성과 &quot;true&quot; 또는 &quot;false&quot; 값을 사용하여 모니터링하고 관리할 수 있습니다.
 
 `"ccpaOptOut": <value>`
 
-* **true**: 개인 정보의 판매를 금하다.
+* **true**:개인 정보의 판매를 금지하다.
 * **false**:개인 정보의 판매를 승인합니다.
 
 >[!CAUTION]
 >
->&quot;CPA 옵트아웃&quot; 속성은 19.4에서만 사용할 수 있습니다. 19.3 환경의 경우 프로필 리소스를 확장하고 부울 필드를 추가해야 합니다. 이 필드는 선택한 레이블과 함께 API에 추가됩니다. &quot;CPA를 위한 옵트아웃&quot;을 사용하는 것이 좋습니다.
+>&quot;CPA 옵트아웃&quot; 속성은 19.4부터 사용할 수 있습니다. 19.3 환경의 경우 프로필 리소스를 확장하고 부울 필드를 추가해야 합니다. 이 필드는 선택된 레이블과 함께 API에 추가됩니다. &quot;CPA를 위한 옵트아웃&quot;을 사용하는 것이 좋습니다.
 >
->자세한 내용은 개인 정보 [관리 요청 설명서를 참조하십시오](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+>자세한 내용은 [개인 정보 요청 관리 설명서](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)를 참조하십시오.
 
 <br/>
 
@@ -56,7 +56,7 @@ cpaOptOut 프로필 속성과 &quot; **true&quot; 또는 &quot;false&quot; 값�
    }
    ```
 
-* CPA 옵트아웃을 위해 프로필을 표시하는 샘플 POST 요청입니다.
+* CPA 옵트아웃에 대한 프로파일을 표시하는 샘플 POST 요청입니다.
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
