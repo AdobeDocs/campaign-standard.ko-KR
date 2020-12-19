@@ -23,7 +23,7 @@ Campaign에는 다음과 같은 기본 제공 랜딩 페이지 템플릿이 포�
 * **[!UICONTROL Acquisition]**: 랜딩 페이지의 기본 템플릿으로 Campaign 데이터베이스에서 데이터를 캡처하고 업데이트할 수 있습니다.
 * **[!UICONTROL Subscription]**: 이 템플릿은 서비스 구독을 제공하는 데 사용해야 합니다.
 * **[!UICONTROL Unsubscription]**: 이 템플릿은 구독자에게 전송된 이메일에서 서비스에 연결될 수 있으며 구독자가 이 서비스의 구독을 취소하도록 허용합니다.
-* **[!UICONTROL Denylist]**: 이 템플릿은 Campaign에서 더 이상 프로필에 연락하지 않으려는 경우에 사용해야 합니다. For more about denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**: 이 템플릿은 Campaign에서 더 이상 프로필에 연락하지 않으려는 경우에 사용해야 합니다. 관리에 대한 차단 목록 자세한 내용은 [캠페인 옵트인 및 옵트아웃 정보를 참조하십시오](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 템플릿은 새 랜딩 페이지를 만들 때 기본적으로 제안됩니다.
 
