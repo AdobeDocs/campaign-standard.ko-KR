@@ -328,7 +328,7 @@ SMS 메시지 보내기를 위한 특정 매개 변수는 **[!UICONTROL Send]** 
 
 ![](assets/sms_options.png)
 
-From the **[!UICONTROL Advanced parameters]** section:
+**[!UICONTROL Advanced parameters]** 섹션에서:
 
 * **[!UICONTROL From]** 옵션을 사용하면 문자열을 사용하여 SMS 메시지의 발신자명을 개인화할 수 있습니다. 발신자명이란 수신자의 휴대전화에서 SMS 메시지를 보낸 사람으로 표시되는 이름입니다.
 
