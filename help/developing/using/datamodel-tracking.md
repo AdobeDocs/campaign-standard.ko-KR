@@ -44,7 +44,7 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>포인터</td>
+                  <td>pointerTo</td>
                   <td>포인터</td>
                   <td>문자열 </td>
                   <td> </td>
