@@ -70,7 +70,7 @@ ht-degree: 6%
     </tr>
     <tr>
         <td>serverUrl</td>
-        <td>서버 URL</td>
+        <td>ServerUrl</td>
         <td>문자열 </td>
         <td> </td>
     </tr>
