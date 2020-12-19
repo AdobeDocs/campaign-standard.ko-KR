@@ -17,14 +17,14 @@ ht-degree: 10%
 
 # 프로필의 지리 단위 업데이트 {#updating-a-geographical-unit}
 
-1. 지리적 단위 PKey를 검색하려면 **geoUnitBase** 리소스에 대해 GET 요청을 수행합니다.
-1. 페이로드에서 원하는 지리적 단위 PKey를 사용하여 프로필 PKey에 PATCH 요청을 수행합니다.
+1. 지리적 단위 PKey를 검색하려면 **geoUnitBase** 리소스에서 GET 요청을 수행합니다.
+1. 페이로드에서 원하는 지리적 단위 PKey를 사용하여 프로필 PKey에서 PATCH 요청을 수행합니다.
 
 <br/>
 
 ***샘플 요청***
 
-지리적 단위 목록을 검색합니다.
+지리적 단위 목록을 읽어들입니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
