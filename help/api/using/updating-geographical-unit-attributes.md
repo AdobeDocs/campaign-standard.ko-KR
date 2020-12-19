@@ -17,14 +17,14 @@ ht-degree: 11%
 
 # 지리 단위 특성 업데이트 {#managing-geographical-units}
 
-1. 지리적 단위 PKey를 검색하려면 **geoUnitBase** 리소스에 대해 GET 요청을 수행합니다.
+1. 지리적 단위 PKey를 검색하려면 **geoUnitBase** 리소스에서 GET 요청을 수행합니다.
 1. 페이로드에서 업데이트할 속성을 사용하여 지리학적 단위로 PATCH 요청을 수행합니다.
 
 <br/>
 
 ***샘플 요청***
 
-지리적 단위 목록을 검색합니다.
+지리적 단위 목록을 읽어들입니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
