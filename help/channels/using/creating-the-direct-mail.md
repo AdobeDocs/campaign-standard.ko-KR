@@ -97,4 +97,4 @@ DM 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사
 * 파일을 첨부하여 일반 이메일로 전송
 * Campaign을 통해 전송: 예를 들어 캠페인 [워크플로우](../../automating/using/direct-mail-delivery.md) 내에서 DM을 수행하고 FTP를 통해 파일을 전송하기 위해 **[!UICONTROL Transfer file]**&#x200B;을(를) 추가합니다. [파일 전송](../../automating/using/transfer-file.md)을 참조하십시오.
 
-공급자가 잘못된 주소 목록을 검색하여 잘못된 주소를 자동으로 차단 목록으로 표시하는 이 정보를 Adobe Campaign으로 보냅니다. [발신자에게 반환](../../channels/using/return-to-sender.md)을 참조하십시오.
+공급자가 잘못된 주소 목록을 검색하여 잘못된 주소를 자동으로 차단 목록하는 Adobe Campaign으로 이 정보를 보냅니다. [발신자에게 반환](../../channels/using/return-to-sender.md)을 참조하십시오.
