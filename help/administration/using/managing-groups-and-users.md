@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
 workflow-type: tm+mt
 source-wordcount: '942'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -133,7 +133,7 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
    >[!NOTE]
    >
-   >사용자에게 기본 보안 그룹을 할당하는 경우 조직 구성 요소를 재설정해야 합니다.
+   >사용자에게 기본 보안 그룹을 지정하는 경우 조직 단위를 재설정해야 합니다.
 
    ![](assets/manage_security_group_6.png)
 
