@@ -17,7 +17,7 @@ ht-degree: 47%
 
 # 리소스 추가 주요 단계{#key-steps-to-add-a-resource}
 
-새 리소스를 만들거나 새 필드로 기존 리소스를 확장하려면 몇 가지 단계가 필요합니다.
+새 리소스를 만들거나 새 필드를 사용하여 기존 리소스를 확장하려면 몇 가지 단계가 필요합니다.
 
 1. [리소스 만들기 또는 확장](../../developing/using/creating-or-extending-the-resource.md)
 1. [리소스의 데이터 구조 구성](../../developing/using/configuring-the-resource-s-data-structure.md)
@@ -33,4 +33,4 @@ ht-degree: 47%
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-추가 Campaign Standard 방법 비디오가 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 제공됩니다.
+추가 Campaign Standard 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
