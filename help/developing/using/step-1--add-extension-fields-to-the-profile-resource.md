@@ -18,9 +18,9 @@ ht-degree: 55%
 # 1단계: 프로필 리소스에 확장 필드 추가{#step-add-extension-fields-to-the-profile-resource}
 
 1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 다음 **[!UICONTROL Custom resources]**&#x200B;을 선택합니다.
-1. 아이콘을 **[!UICONTROL Create]** 클릭하여 새 사용자 지정 리소스를 만듭니다.
+1. **[!UICONTROL Create]** 아이콘을 클릭하여 새 사용자 지정 리소스를 만듭니다.
 1. **[!UICONTROL Extend an existing resource]** 옵션을 선택합니다.
 1. **[!UICONTROL Profile]** 리소스를 선택합니다.
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
-1. 리소스 필드에 **[!UICONTROL Text]** ID가 있는 유형 **[!UICONTROL Promo code]** **[!UICONTROL Brand]** 필드를 추가합니다.
+1. 리소스 필드에 **[!UICONTROL Brand]** ID가 있는 **[!UICONTROL Text]** 유형을 추가합니다.**[!UICONTROL Promo code]**
 
