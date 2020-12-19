@@ -52,7 +52,7 @@ ht-degree: 96%
 1. Adobe Campaign 로고에서 액세스할 수 있는 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 메뉴에서 이벤트를 만듭니다.
 1. 레이블을 입력하고 타겟팅 차원을 선택한 뒤 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   구성 단계는 [트랜잭션 이벤트](../../channels/using/configuring-transactional-event.md) 구성 섹션에 제공됩니다.
+   구성 단계는 [트랜잭션 이벤트](../../channels/using/configuring-transactional-event.md) 구성 섹션에 표시됩니다.
 
 1. **[!UICONTROL Fields]** 섹션에서 **[!UICONTROL Create element]**&#x200B;을(를) 클릭하고 데이터 구조에 **[!UICONTROL publicLabel]**&#x200B;을(를) 추가하여 조정을 활성화합니다.
 
@@ -141,7 +141,7 @@ ht-degree: 96%
 1. Adobe Campaign 로고에서 액세스할 수 있는 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 메뉴에서 이벤트를 만듭니다.
 1. 레이블을 입력하고 타겟팅 차원을 선택한 뒤 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   구성 단계는 [트랜잭션 이벤트](../../channels/using/configuring-transactional-event.md) 구성 섹션에 제공됩니다.
+   구성 단계는 [트랜잭션 이벤트](../../channels/using/configuring-transactional-event.md) 구성 섹션에 표시됩니다.
 
 1. **[!UICONTROL Fields]** 섹션에서 **[!UICONTROL Create element]**&#x200B;을(를) 클릭하고 데이터 구조에 **[!UICONTROL serviceName]**&#x200B;을(를) 추가하여 조정을 활성화합니다.
 
