@@ -17,9 +17,9 @@ ht-degree: 71%
 
 # 워크플로우 사용 사례 기본 정보 {#about-workflow-use-cases}
 
-이 섹션에서는 캠페인 워크플로우 기능을 활용하는 다양한 사용 사례를 확인할 수 있습니다.
+이 섹션에서는 캠페인 워크플로우 기능을 활용하는 다양한 활용 사례를 확인할 수 있습니다.
 
-워크플로우가 사용되고 사용자의 요구 사항에 응답할 수 있는 다양한 컨텍스트를 파악하는 데 도움이 됩니다.
+워크플로우가 사용되고 필요에 따라 대응할 수 있는 다양한 컨텍스트를 파악하는 데 도움이 됩니다.
 
 ## 게재 {#deliveries}
 
@@ -63,5 +63,5 @@ ht-degree: 71%
 * [외부 파일에서 프로필 내보내기](../../automating/using/exporting-profiles-in-file.md)
 * [파일에서 여러 구독 상태 업데이트](../../automating/using/updating-subscriptions-from-file.md)
 * [파일에서 특정 서비스에 프로필 가입](../../automating/using/subscribing-profiles-from-file.md)
-* [Campaign 컨트롤 패널에서 생성된 키를 사용하여 데이터를 암호화 가져오기](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Campaign 컨트롤 패널에서 생성된 키를 사용하여 암호화된 데이터 가져오기](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
 * [Campaign 컨트롤 패널에 설치된 키를 사용하여 데이터 암호화 및 내보내기](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
