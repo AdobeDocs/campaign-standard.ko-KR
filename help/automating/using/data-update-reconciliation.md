@@ -22,7 +22,7 @@ ht-degree: 67%
 
 ![](assets/identification_example2.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. 가져온 파일에는 다음 데이터가 포함됩니다.
+* 가져올 파일의 데이터를 로드하고 검색하는 [파일 ](../../automating/using/load-file.md) 활동 가져온 파일에는 다음 데이터가 포함됩니다.
 
    ```
    lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ ht-degree: 67%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. 식별할 수 없는 파일 레코드(데이터 누락, 호환되지 않는 데이터 형식 등)는 최종 대상자 데이터의 무결성을 유지하기 위해 무시됩니다.
+* 로드된 파일의 각 열을 프로필 차원 열에 연결하는 [조정](../../automating/using/reconciliation.md) 활동. 식별할 수 없는 파일 레코드(데이터 누락, 호환되지 않는 데이터 형식 등)는 최종 대상자 데이터의 무결성을 유지하기 위해 무시됩니다.
 
    ![](assets/identification_example1.png)
 
-* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
+* 프로필 대상자를 저장하는 [대상 저장](../../automating/using/save-audience.md) 활동.
 
    ![](assets/identification_example3.png)
