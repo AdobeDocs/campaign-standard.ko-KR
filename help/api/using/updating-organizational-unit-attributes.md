@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 조직 단위 특성 업데이트
-description: 조직 단위 속성을 업데이트하는 방법 알아보기
+description: 조직 단위 특성을 업데이트하는 방법 알아보기
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,8 +17,8 @@ ht-degree: 11%
 
 # 조직 단위 특성 업데이트 {#updating-organizational-unit-attributes}
 
-1. 조직 단위 PKey를 검색하려면 **orgUnitBase** 리소스에서 GET 요청을 수행합니다.
-1. 페이로드에서 업데이트할 특성을 사용하여 조직 구성 단위에서의 PATCH 요청을 수행합니다.
+1. **orgUnitBase** 리소스에서 GET 요청을 수행하여 조직 단위 PKey를 검색합니다.
+1. 페이로드에서 업데이트할 특성을 사용하여 조직 단위에 대해 PATCH 요청을 수행합니다.
 
 <br/>
 
@@ -50,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-페이로드에서 업데이트할 특성을 사용하여 조직 구성 단위에서의 PATCH 요청을 수행합니다.
+페이로드에서 업데이트할 특성을 사용하여 조직 단위에 대해 PATCH 요청을 수행합니다.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
