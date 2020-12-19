@@ -19,13 +19,13 @@ ht-degree: 1%
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## 특정 프로필에 대한 서비스 구독 삭제 {#deleting-service-subscription}
+## 특정 프로필 {#deleting-service-subscription}에 대한 서비스 구독 삭제
 
 3단계 절차입니다.
 
-1. 원하는 프로필에 대한 구독 URL을 검색합니다.
+1. 원하는 프로필의 구독 URL을 검색합니다.
 1. 구독 URL에 대해 GET 요청을 수행합니다.
-1. 원하는 서비스 URL에 대해 DELETE 요청을 수행합니다.
+1. 원하는 서비스 URL에서 DELETE 요청을 수행합니다.
 
 삭제 요청이 성공하면 응답 상태는 204 콘텐츠 없음입니다.
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ***샘플 요청***
 
-아래 샘플 페이로드는 서비스의 프로필 가입을 취소하는 방법을 보여줍니다. 먼저 프로파일을 검색하기 위해 GET 요청을 수행합니다.
+아래 샘플 페이로드에서는 서비스의 프로파일을 가입 해지하는 방법을 보여줍니다. 먼저 프로파일 검색을 위해 GET 요청을 수행합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -66,7 +66,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-가입된 각 서비스에 대한 URL을 사용하여 선택한 프로필에 대한 구독 목록을 반환합니다.
+가입된 각 서비스의 URL을 사용하여 선택한 프로필에 대한 구독 목록을 반환합니다.
 
 ```
 ...
@@ -80,7 +80,7 @@ ht-degree: 1%
 ...
 ```
 
-원하는 서비스 URL에 대해 DELETE 요청을 수행합니다.
+원하는 서비스 URL에서 DELETE 요청을 수행합니다.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -92,13 +92,13 @@ ht-degree: 1%
 
 <!-- + réponse -->
 
-## 특정 프로필에 대한 서비스 구독 삭제
+## 특정 프로파일에 대한 서비스 구독 삭제
 
 3단계 절차입니다.
 
-1. 원하는 서비스 및 해당 구독 URL을 검색합니다.
+1. 원하는 서비스 및 구독 URL을 검색합니다.
 1. 모든 프로필 구독을 검색하려면 구독 URL에 GET 요청을 수행합니다.
-1. 원하는 프로필 구독 URL에 DELETE 요청을 수행합니다.
+1. 원하는 프로필 구독 URL에 대해 DELETE 요청을 수행합니다.
 
 삭제 요청이 성공하면 응답 상태는 204 콘텐츠 없음입니다.
 
@@ -143,7 +143,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-각 프로필 구독에 대한 URL(href)을 사용하여 선택한 서비스에 대한 구독 목록을 반환합니다.
+각 프로필 구독에 대한 URL(href)과 함께 선택한 서비스에 대한 구독 목록을 반환합니다.
 
 ```
 {
@@ -160,7 +160,7 @@ ht-degree: 1%
 }
 ```
 
-원하는 프로필 구독 URL에 DELETE 요청을 수행합니다.
+원하는 프로필 구독 URL에 대해 DELETE 요청을 수행합니다.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \
