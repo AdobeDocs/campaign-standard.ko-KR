@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
 
-# 트랜잭션 이벤트 {#publishing-transactional-event} 게시
+# 트랜잭션 이벤트 게시 {#publishing-transactional-event}
 
 [configuration](../../channels/using/configuring-transactional-event.md)이 완료되면 이벤트를 게시할 준비가 됩니다. 이벤트를 미리 보거나 게시하거나 게시 취소하고 삭제하는 단계는 아래에 설명되어 있습니다.
 
