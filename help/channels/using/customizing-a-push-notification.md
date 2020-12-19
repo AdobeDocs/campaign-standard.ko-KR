@@ -111,7 +111,7 @@ ht-degree: 98%
 
 푸시 알림에 만료 날짜를 추가하려면 다음을 수행합니다.
 
-1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. 값을 변경하지 않으면 APNS 및 FCM 모두 메시지를 즉시 보내려고 시도합니다. 실패하면 메시지가 다시 전송되지 않습니다.
+1. **[!UICONTROL Expire message]** 옵션을 선택합니다.**[!UICONTROL Expire message]** 옵션을 선택하면 기간이 자동으로 0으로 설정됩니다. 값을 변경하지 않으면 APNS 및 FCM 모두 메시지를 즉시 보내려고 시도합니다. 실패하면 메시지가 다시 전송되지 않습니다.
 
 1. **[!UICONTROL Duration]** 필드에서 푸시 알림의 유효성을 선택합니다.
 
