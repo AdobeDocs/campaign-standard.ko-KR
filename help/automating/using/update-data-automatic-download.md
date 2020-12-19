@@ -28,7 +28,7 @@ ht-degree: 79%
 
 1. [파일 전송](../../automating/using/transfer-file.md) 활동을 워크플로우로 끌어서 놓습니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
-1. 원하는 파일을 복구할 수 있도록 활동을 구성합니다. **[!UICONTROL Protocol]** 탭에서 **SFTP**&#x200B;를 선택합니다.
+1. 원하는 파일을 복구하도록 활동을 구성합니다. **[!UICONTROL Protocol]** 탭에서 **SFTP**&#x200B;를 선택합니다.
 1. **외부 계정에 정의된 연결 매개 변수 사용** 옵션을 선택합니다.
 1. 외부 계정 이름을 입력합니다.
 1. **원격 서버의 파일 경로**&#x200B;를 입력합니다.
@@ -36,13 +36,13 @@ ht-degree: 79%
    ![](assets/wkf_file_transfer_07.png)
 
 1. 활동을 확인합니다.
-1. Drag and drop a [Load file](../../automating/using/load-file.md) activity into your workflow and place it after the **[!UICONTROL Transfer file]** activity.
+1. [Load 파일](../../automating/using/load-file.md) 활동을 워크플로우로 드래그하여 놓고 **[!UICONTROL Transfer file]** 활동 뒤에 놓습니다.
 1. 해당 활동을 선택하면 나타나는 빠른 작업 목록에서 ![](assets/edit_darkgrey-24px.png) 버튼을 눌러 창을 엽니다.
 1. **[!UICONTROL Execution]** 탭의 **[!UICONTROL File to load]** 섹션에서 **[!UICONTROL Use the file specified in the inbound transition]** 옵션을 선택합니다.
 
    ![](assets/wkf_file_loading8.png)
 
 1. 활동을 앞에서 지정한 대로 구성합니다.
-1. Drag and drop an [Update data](../../automating/using/update-data.md) activity into your workflow and place it after the **[!UICONTROL Load file]** activity, then configure it.
+1. [업데이트 데이터](../../automating/using/update-data.md) 활동을 워크플로우로 드래그 앤 드롭한 다음 **[!UICONTROL Load file]** 활동 뒤에 배치한 다음 구성합니다.
 
 워크플로우를 시작하면 업로드한 파일의 데이터를 추출하여 Adobe Campaign 데이터베이스를 보강하는 데 사용합니다.
