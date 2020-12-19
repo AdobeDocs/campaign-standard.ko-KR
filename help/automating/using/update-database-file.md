@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 외부 데이터로 데이터베이스 업데이트
-description: 이 사용 사례에서는 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 방법을 설명합니다.
+description: 이 사용 사례에서는 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로파일을 추가하거나 업데이트하는 방법을 설명합니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -18,9 +18,9 @@ ht-degree: 33%
 
 # 외부 데이터로 데이터베이스 업데이트 {#update-database-file}
 
-The following example shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. 이 워크플로우의 목적은 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 것입니다.
+다음 예는 **[!UICONTROL Load file]** 활동 다음에 오는 **[!UICONTROL Update data]** 활동의 구성을 보여줍니다. 이 워크플로우의 목적은 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 것입니다.
 
-이 예에서 사용된 조정 키는 **이메일 주소입니다**. 파일 [로드](../../automating/using/load-file.md) 작업으로 로드되는 파일은 다음 예제 데이터가 포함된 **.txt** 형식 파일입니다.
+이 예에서 사용된 조정 키는 **이메일 주소**&#x200B;입니다. [Load file](../../automating/using/load-file.md) 활동에 로드된 파일은 다음 예제 데이터를 포함하는 **.txt** 형식 파일입니다.
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-The [Update data](../../automating/using/update-data.md) activity is configured as follows:
+[데이터 업데이트](../../automating/using/update-data.md) 활동은 다음과 같이 구성됩니다.
 
 ![](assets/deduplication_example2_writer1.png)
 
