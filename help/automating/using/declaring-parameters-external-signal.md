@@ -15,16 +15,16 @@ ht-degree: 5%
 ---
 
 
-# Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}
+# 외부 신호 활동 {#declaring-the-parameters-in-the-external-signal-activity}에서 매개 변수 선언
 
-매개 변수가 있는 워크플로우를 호출하는 첫 번째 단계는 **[!UICONTROL External signal]** 활동에서 해당 매개 변수를 선언하는 것입니다.
+매개 변수가 있는 워크플로우를 호출하는 첫 번째 단계는 **[!UICONTROL External signal]** 활동에서 매개 변수를 선언하는 것입니다.
 
-1. Open the **[!UICONTROL External signal]** activity, then select the **[!UICONTROL Parameters]** tab.
-1. 단추를 **[!UICONTROL Create element]** 클릭한 다음 각 매개 변수의 이름과 유형을 지정합니다.
+1. **[!UICONTROL External signal]** 활동을 연 다음 **[!UICONTROL Parameters]** 탭을 선택합니다.
+1. **[!UICONTROL Create element]** 단추를 클릭한 다음 각 매개 변수의 이름과 유형을 지정합니다.
 
    >[!CAUTION]
    >
-   >워크플로우 호출 시 정의된 매개 변수의 이름 및 개수가 동일한지 확인하십시오( [이 페이지](../../automating/using/defining-parameters-calling-workflow.md)참조). 또한 매개 변수의 유형은 예상 값과 일치해야 합니다.
+   >워크플로 호출 시 정의된 매개 변수의 이름 및 개수가 동일한지 확인하십시오([이 페이지](../../automating/using/defining-parameters-calling-workflow.md) 참조). 또한 매개 변수 유형은 예상 값과 일치해야 합니다.
 
    ![](assets/extsignal_declaringparameters_1.png)
 
