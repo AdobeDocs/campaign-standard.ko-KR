@@ -105,7 +105,7 @@ ht-degree: 93%
 
 1. 데이터를 로드하려는 파일이 GZIP 파일(.gz)로 압축되어 있는 경우 **[!UICONTROL Add a pre-processing step]** 필드에서 **[!UICONTROL Decompression]** 옵션을 선택합니다. 이 옵션을 선택하면 데이터를 로드하기 전에 파일의 압축을 해제할 수 있습니다. 이 옵션은 파일을 활동의 인바운드 전환에서 가져오는 경우에만 사용할 수 있습니다.
 
-   또한 이 **[!UICONTROL Add a pre-processing step]** 필드에서 파일을 데이터베이스로 가져오기 전에 파일의 암호를 해독할 수도 있습니다. 암호화된 파일을 사용하는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오.](../../automating/using/managing-encrypted-data.md)
+   또한 **[!UICONTROL Add a pre-processing step]** 필드에서 파일을 데이터베이스로 가져오기 전에 파일의 암호를 해독할 수도 있습니다. 암호화된 파일을 사용하여 작업하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/managing-encrypted-data.md)을 참조하십시오.
 
 1. **[!UICONTROL Keep the rejects in a file]** 옵션을 사용하면 가져올 때 발생한 오류가 포함된 파일을 다운로드하여 사후 처리 단계에 적용할 수 있습니다. 이 옵션을 활성화하면 아웃바운드 전환 이름이 &quot;거부&quot;로 바뀝니다.
 
