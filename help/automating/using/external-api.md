@@ -38,7 +38,7 @@ ht-degree: 98%
 
 ### 이전 버전과의 호환성 알림 {#from-beta-to-ga}
 
-With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). 이러한 보안 수정 사항은 기존 외부 API 활동에는 적용되지 않습니다. 따라서 모든 워크플로우에서 기존 외부 API 활동을 새 버전으로 대체하는 것이 좋습니다.
+Campaign Standard 20.4 릴리스에서는 모범 사례에 맞게 http 응답 데이터 크기 제한 및 응답 시간 제한이 낮아졌습니다. [제한 및 보장 표시](#guardrails)를 참조하십시오. 이러한 보안 수정 사항은 기존 외부 API 활동에는 적용되지 않습니다. 따라서 모든 워크플로우에서 기존 외부 API 활동을 새 버전으로 대체하는 것이 좋습니다.
 
 외부 API 활동을 바꿀 때 새 외부 API 활동을 워크플로우에 추가하고 구성 세부 사항을 수동으로 복사한 다음 이전 활동을 삭제합니다.
 
