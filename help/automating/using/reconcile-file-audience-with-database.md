@@ -50,6 +50,6 @@ ht-degree: 87%
 
 ![](assets/readaudience_activity_example2.png)
 
-* A [Read audience](../../automating/using/read-audience.md) activity uploads the File audience created in the import workflow. 아직 대상자 데이터가 Adobe Campaign 데이터베이스로 조정되지 않았습니다.
+* [대상자 읽기](../../automating/using/read-audience.md) 활동은 가져오기 워크플로우에서 만든 파일 대상을 업로드합니다. 아직 대상자 데이터가 Adobe Campaign 데이터베이스로 조정되지 않았습니다.
 * [조정](../../automating/using/reconciliation.md) 활동은 **[!UICONTROL Identification]** 탭을 통해 들어오는 데이터를 프로필로 식별합니다. 예를 들어 조정 기준으로 **이메일** 필드를 사용하는 등의 방법이 있습니다.
 * [데이터 업데이트](../../automating/using/update-data.md) 활동은 들어오는 데이터로 데이터베이스의 프로필 리소스를 삽입 및 업데이트합니다. 데이터가 이미 프로필로 식별되었으므로 **[!UICONTROL Directly using the targeting dimension]** 옵션을 선택하고 활동의 **[!UICONTROL Identification]** 탭에서 **[!UICONTROL Profiles]**&#x200B;을(를) 선택할 수 있습니다. 그런 다음 해당하는 탭에서 업데이트해야 하는 필드 목록을 추가하면 됩니다.
