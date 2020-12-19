@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 주간 게재
-description: 이 사용 사례에서는 주별 배달을 만드는 방법을 보여줍니다.
+description: 이 사용 사례는 주별 배달을 만드는 방법을 보여줍니다.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -16,7 +16,7 @@ ht-degree: 81%
 ---
 
 
-# 매주 화요일 이메일 배달 만들기{#creating-email-every-tuesday}
+# 매주 화요일{#creating-email-every-tuesday}에 이메일 배달 만들기
 
 매주 화요일에 모든 고객에게 이메일을 보내어 특별 할인을 알릴 수 있습니다.
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 
 ## 예약 활동 만들기{#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
+1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;에서 [스케줄러](../../automating/using/scheduler.md) 활동을 드래그하여 놓습니다.
 1. 활동을 두 번 클릭합니다.
 1. 게재 실행을 구성합니다.
 1. **[!UICONTROL Execution frequency]**&#x200B;에서 **[!UICONTROL Weekly]**&#x200B;을(를) 선택합니다.
@@ -43,7 +43,7 @@ ht-degree: 81%
 
 ## 쿼리 활동 만들기{#creating-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, to select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
+1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 수신자를 선택하려면 [쿼리](../../automating/using/query.md) 활동을 드래그하여 놓고 두 번 클릭합니다.
 1. **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**&#x200B;에서 **[!UICONTROL Email]**&#x200B;을(를) 끌어다 놓습니다.
 1. **[!UICONTROL is not empty]**&#x200B;을(를) 연산자로 선택합니다.
 1. **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**&#x200B;에서 프로필을 추가하고 **[!UICONTROL no longer contact by email]**&#x200B;을(를) **[!UICONTROL No]** 값으로 선택합니다.
@@ -53,7 +53,7 @@ ht-degree: 81%
 
 ## 이메일 게재 만들기{#creating-an-email-delivery}
 
-1. > **[!UICONTROL Activities]** 에서 **[!UICONTROL Channels]**&#x200B;이메일 배달 [](../../automating/using/email-delivery.md) 활동을 드래그하여 놓습니다.
+1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;에서 [이메일 배달](../../automating/using/email-delivery.md) 활동을 드래그하여 놓습니다.
 1. 활동을 클릭하고 편집하려면 ![](assets/edit_darkgrey-24px.png)을(를) 선택합니다.
 1. **[!UICONTROL Recurring email]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 1. 전자 메일 템플릿을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
