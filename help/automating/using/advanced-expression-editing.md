@@ -106,8 +106,7 @@ JavaScript 표현식은 하나 이상의 조건으로 구성되며 다음 구문
    * **&lt;값2>**&#x200B;는 수동으로 입력되는 필드, 함수 또는 값입니다.
 
    >[!NOTE]
-   >
-   >**&lt;컨텍스트>** 및 **&lt;값2>**&#x200B;의 형식 데이터는 동일해야 합니다. 예를 들어 **&lt;컨텍스트>**&#x200B;가 날짜인 경우 **&lt;값2>**&#x200B;도 날짜여야 합니다.
+   **&lt;컨텍스트>** 및 **&lt;값2>**&#x200B;의 형식 데이터는 동일해야 합니다. 예를 들어 **&lt;컨텍스트>**&#x200B;가 날짜인 경우 **&lt;값2>**&#x200B;도 날짜여야 합니다.
 
 * 여러 조건을 사용하려면 논리 연산자를 사용하여 결합할 수 있습니다.
 
@@ -156,7 +155,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">보다 작음</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> 첫 번째 값은 두 번째 값보다 명확히 작아야 합니다.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong>은 100일 전 데이터베이스에 생성된 모든 프로필을 검색합니다.<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">작거나 같음</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> 첫 번째 값은 두 번째 값보다 작거나 같아야 합니다.<br /> </td> 
    <td> <strong>@age &lt;= 60은</strong> 60세 이하의 프로필을 검색합니다.<br /> </td> 
   </tr> 
@@ -191,21 +190,21 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">비슷함</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> 해당 없음<br /> </td> 
    <td> <span class="uicontrol">비슷함</span>은 <span class="uicontrol">포함</span> 연산자와 매우 유사합니다. 검색 중인 값에 <span class="uicontrol">%</span> 와일드카드 문자를 삽입할 수 있습니다.<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>. 여기서 대체 문자 <strong>%</strong> 는 철자가 틀린 가상의 사례에서 이름 "Martin"을 찾기 위해 "조커" 역할을 합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비슷하지 않음</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> 해당 없음<br /> </td> 
    <td> <span class="uicontrol">비슷함</span>과 유사합니다. 입력한 값을 복구할 수 없습니다. 여기서도 입력한 값은 <span class="uicontrol">%</span> 와일드카드 문자를 포함해야 합니다.<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>. 여기에서 이름 'Smi%h'(Smith 등)에 해당하는 수신자는 결과로 반환되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비어 있음</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> N/A<br /> </td> 
+   <td> 해당 없음<br /> </td> 
    <td> 첫 번째 값은 빈 값에 해당해야 합니다.<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong>은 휴대전화 번호가 제공되지 않은 모든 프로필을 검색합니다.<br /> </td> 
   </tr> 
