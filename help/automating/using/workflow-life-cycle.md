@@ -22,13 +22,13 @@ ht-degree: 3%
 
 * **편집** (회색)
 
-   워크플로우의 초기 디자인 단계입니다(워크플로우 [만들기 참조](../../automating/using/building-a-workflow.md#creating-a-workflow)). 워크플로우는 서버에서 아직 처리되지 않으며, 아무런 위험 없이 수정할 수 있습니다.
+   워크플로우의 초기 디자인 단계입니다([워크플로우 만들기](../../automating/using/building-a-workflow.md#creating-a-workflow) 참조). 워크플로우는 서버에서 아직 처리되지 않으며 어떠한 위험 없이 수정할 수 있습니다.
 
-* **진행** 중(파란색)
+* **진행 중** (파란색)
 
    초기 디자인 단계가 완료되면 워크플로우를 시작할 수 있으며 서버에서 처리합니다.
 
-* **완료됨** (녹색)
+* **완료** (녹색)
 
    진행 중인 작업이 없거나 연산자가 명시적으로 인스턴스를 중지한 경우 워크플로우가 완료됩니다.
 
@@ -40,8 +40,8 @@ ht-degree: 3%
 
 * **오류** (빨간색)
 
-   워크플로우를 실행할 때 오류가 발생했습니다. 워크플로가 중지되었으며 사용자가 작업을 수행해야 합니다. 이 오류에 대한 자세한 내용을 보려면 ![](assets/printpreview_darkgrey-24px.png) 단추를 사용하여 워크플로우 로그에 [액세스하십시오(모니터링](../../automating/using/monitoring-workflow-execution.md)참조).
+   워크플로우를 실행할 때 오류가 발생했습니다. 워크플로우가 중지되었으며 사용자가 작업을 수행해야 합니다. 이 오류에 대한 자세한 내용을 보려면 ![](assets/printpreview_darkgrey-24px.png) 단추를 사용하여 워크플로우 로그에 액세스하십시오([모니터링](../../automating/using/monitoring-workflow-execution.md) 참조).
 
-마케팅 활동 목록을 사용하면 모든 워크플로우와 그 상태를 표시할 수 있습니다. For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
+마케팅 활동 목록을 사용하면 모든 워크플로우와 그 상태를 표시할 수 있습니다. 자세한 내용은 [마케팅 활동 관리](../../start/using/marketing-activities.md#about-marketing-activities)를 참조하십시오.
 
 ![](assets/wkf_execution_3.png)
