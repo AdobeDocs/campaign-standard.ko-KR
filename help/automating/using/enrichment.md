@@ -34,7 +34,7 @@ ht-degree: 96%
 
 **관련 항목**
 
-* [사용 사례:파일에 포함된 데이터로 프로파일 데이터](../../automating/using/enriching-profile-data-file.md)강화
+* [사용 사례:파일에 포함된 데이터로 프로필 데이터를 풍성하게 합니다](../../automating/using/enriching-profile-data-file.md).
 * [사용 사례:풍부한 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
 
 ## 구성 {#configuration}
