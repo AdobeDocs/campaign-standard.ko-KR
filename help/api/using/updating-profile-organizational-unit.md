@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # 프로필의 조직 단위 업데이트 {#managing-organizational-units}
 
-1. 조직 단위 PKey를 검색하려면 **orgUnitBase** 리소스에서 GET 요청을 수행합니다.
+1. **orgUnitBase** 리소스에서 GET 요청을 수행하여 조직 단위 PKey를 검색합니다.
 1. 페이로드에서 원하는 조직 단위 PKey를 사용하여 프로필 PKey에서 PATCH 요청을 수행합니다.
 
 <br/>
