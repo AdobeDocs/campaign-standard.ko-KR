@@ -113,8 +113,8 @@ ht-degree: 7%
                   </td>
                </tr>
                <tr>
-                  <td>modifiedBy(userBase)</td>
-                  <td>수정한 사람</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>수정한 사람:</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -183,7 +183,7 @@ ht-degree: 7%
 
 ## 필터
 
-논리적 상태 기준(byLogicalStatus)
+논리 상태 기준(byLogicalStatus)
 
 <table>
     <tr>
@@ -204,7 +204,7 @@ ht-degree: 7%
     <th>유형</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>텍스트</td>
     <td>문자열</td>
     </tr>
 </table>
@@ -252,7 +252,7 @@ ht-degree: 7%
         </tr>
     </table>
 
-자격 조건을 갖춘 상위 멤버만(자격 조건을 갖춘 부모)
+적격한 상위(적격한 상위)
 
 <table>
     <tr>
@@ -265,7 +265,7 @@ ht-degree: 7%
     </tr>
 </table>
 
-지정된 기간(계획별)
+주어진 기간에 대해 계획됨(계획별)
 
 <table>
     <tr>
@@ -282,7 +282,7 @@ ht-degree: 7%
     </tr>
 </table>
 
-주어진 기간 동안(달력별)
+주어진 기간(달력별) 동안 있음
 
 <table>
     <tr>
