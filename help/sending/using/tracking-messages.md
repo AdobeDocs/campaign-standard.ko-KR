@@ -17,18 +17,18 @@ ht-degree: 20%
 
 # 메시지 추적{#tracking-messages}
 
-## 추적 정보 {#about-tracking}
+## {#about-tracking} 추적 정보
 
-Adobe Campaign은 추적 기능 덕분에 배달 받는 사람의 행동을 추적할 수 있습니다. 이를 위해 Adobe Campaign은 세션 쿠키와 영구 쿠키를 사용합니다.
+추적 기능 덕분에 Adobe Campaign을 사용하면 전달 받는 사람의 동작을 추적할 수 있습니다. 이를 위해 Adobe Campaign은 세션 쿠키와 영구 쿠키를 사용합니다.
 
-쿠키의 사용을 승인하는 확인란을 사용하여 사이트에 권한 부여 요청(예: 페이지 위로 올라오기)을 통해 웹 추적 도구가 설치되어 있음을 사용자에게 알리거나, 첫 번째 페이지에 있는 배너를 추가하는 등의 작업을 수행할 수 있습니다. 팝업 창은 브라우저에 의해 종종 차단되므로 사용하지 않아야 합니다.
+쿠키의 사용을 승인하는 확인란을 사용하여 사이트에 쿠키의 사용을 승인하거나 랜딩된 첫 번째 페이지의 상단에 배너를 추가하는 권한 요청을 통해(예: 페이지에 위로 표시됨) 웹 추적 도구가 설치되어 있음을 사용자에게 알릴 수 있습니다. 팝업 창은 브라우저에 의해 종종 차단되므로 사용하지 않아야 합니다.
 
 추적 정보는 데이터베이스의 각 연락처에서 **[!UICONTROL integrated customer profiles]**&#x200B;에 사용할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../audiences/using/integrated-customer-profile.md)을 참조하십시오.
 
 Adobe Campaign은 다음 두 가지 유형의 쿠키를 사용합니다.
 
-* 세션 쿠키(기본). 여기에는 연락처로 보낸 이메일의 식별자(broadlogId)와 메시지 템플릿의 식별자(deliveryId)가 포함됩니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
-* Adobe Experience Cloud 솔루션 간에 공유된 쿠키입니다. 따라서 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 이 쿠키의 설명은 [여기](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html)에서 사용할 수 있습니다.
+* 세션 쿠키(nlid). 여기에는 연락처로 보낸 이메일의 식별자(broadlogId)와 메시지 템플릿(deliveryId)의 식별자가 포함됩니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
+* Adobe Experience Cloud 솔루션 간에 공유되는 쿠키입니다. 따라서 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 이 쿠키의 설명은 [여기](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html)에서 사용할 수 있습니다.
 
 Adobe Campaign Standard을 사용하여 추적하면 다음 기능에 액세스할 수 있습니다.
 
@@ -65,11 +65,11 @@ Adobe Campaign Standard을 사용하여 추적하면 다음 기능에 액세스�
 
 >[!NOTE]
 >
->게재에 대한 추적이 활성화되지 않으면 이 탭이 표시되지 않습니다. 추적 로그는 **email** 및 **푸시 알림** 채널에만 사용할 수 있습니다.
+>게재에 대한 추적이 활성화되지 않으면 이 탭이 표시되지 않습니다. 추적 로그는 **이메일** 및 **푸시 알림** 채널에만 사용할 수 있습니다.
 
 ![](assets/tracking_logs.png)
 
-위의 예에서 수신자는
+위의 예에서 수신자는 다음과 같습니다.
 
 * 메시지를 열었습니다.
 * 미러 페이지 링크를 클릭합니다.
@@ -88,7 +88,7 @@ Adobe Campaign Standard을 사용하여 추적하면 다음 기능에 액세스�
 
 추적 링크를 삽입하는 방법에 대한 자세한 내용은 [이 페이지](../../designing/using/links.md#inserting-a-link)를 참조하십시오.
 
-**[!UICONTROL Tracking indicators]** 보고서에는 이메일 메시지를 받은 후 동작을 추적하기 위한 주요 지표가 포함되어 있습니다. 자세한 정보는 이 [페이지](../../reporting/using/tracking-indicators.md)를 참조하십시오.
+**[!UICONTROL Tracking indicators]** 보고서에는 이메일 메시지를 받은 후 행동을 추적하기 위한 주요 지표가 포함되어 있습니다. 자세한 정보는 이 [페이지](../../reporting/using/tracking-indicators.md)를 참조하십시오.
 
 ## 추적된 URL {#tracked-urls}
 
