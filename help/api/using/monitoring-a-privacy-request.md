@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 개인 정보 보호 요청 모니터링
-description: API를 사용하여 개인 정보 요청을 모니터링하는 방법 학습
+description: API를 사용하여 개인 정보 요청을 모니터링하는 방법 알아보기
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,9 +17,9 @@ ht-degree: 25%
 
 # 개인 정보 보호 요청 모니터링 {#monitoring-a-privacy-request}
 
-생성된 개인 정보 요청에 대한 정보는 **GET** 요청을 사용하여 모니터링할 수 있습니다.
+**GET** 요청을 사용하여 생성된 개인 정보 요청에 대한 정보를 모니터링할 수 있습니다.
 
-상태 목록 설명은 개인 정보 [관리 문서에서 확인할 수 있습니다](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+상태 목록 설명은 [개인 정보 관리 설명서](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)에서 볼 수 있습니다.
 
 <br/>
 
