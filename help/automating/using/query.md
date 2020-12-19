@@ -58,7 +58,7 @@ ht-degree: 95%
 
 1. **[!UICONTROL Transition]** 탭에서 **[!UICONTROL Enable an outbound transition]** 옵션을 사용하면 검색된 데이터가 없는 경우에도 쿼리 활동 뒤에 아웃바운드 전환을 추가할 수 있습니다.
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+   아웃바운드 전환의 세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다([이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 참조).
 
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.
 
@@ -66,7 +66,7 @@ ht-degree: 95%
 
 타겟팅 차원 및 리소스를 통해 쿼리의 기반이 되는 요소를 정의하여 게재 타겟을 결정할 수 있습니다.
 
-이 지표는 [대상 매핑에서](../../administration/using/target-mappings-in-campaign.md)구성되며, 작업 흐름을 만들 때 쿼리 활동의 **[!UICONTROL Properties]** 탭에서 정의됩니다.
+이러한 매핑은 [대상 매핑](../../administration/using/target-mappings-in-campaign.md)에서 구성되며, Query 활동의 **[!UICONTROL Properties]** 탭에서 워크플로우를 만들 때 정의됩니다.
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ ht-degree: 95%
 
 타겟팅 차원 및 리소스는 기본적으로 프로필을 타겟팅하도록 설정되어 있습니다. 하지만 떨어진 표에 있는 특정 레코드를 검색하려는 경우, 타겟팅 차원과 다른 리소스를 사용하면 유용할 수 있습니다.
 
-자세한 내용은 다음 사용 사례를 참조하십시오. [타깃팅 차원과 다른 리소스 사용](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+자세한 내용은 다음 사용 사례를 참조하십시오.대상 차원과 다른 리소스 사용[](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## 데이터 강화 {#enriching-data}
 
@@ -118,7 +118,7 @@ ht-degree: 95%
 >
 >쿼리의 **[!UICONTROL Additional data]** 탭에 있는 **[!UICONTROL Advanced options]**&#x200B;에는 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 옵션이 기본적으로 선택되어 있습니다. **[!UICONTROL Query]** 활동에 정의된 추가 데이터가 많은 경우(100개 이상), 성능상의 이유로 이 옵션의 선택을 해제하는 것을 추천합니다. 단, 이 옵션을 선택 해제하면 쿼리된 데이터에 따라 중복 항목이 발생할 수 있습니다.
 
-추가 데이터가 포함된 이메일을 개인화하는 방법에 대한 사용 사례가 [이 섹션에 나와 있습니다](../../automating/using/personalizing-email-with-additional-data.md).
+추가 데이터로 이메일을 개인화하는 방법에 대한 사용 사례는 [이 섹션](../../automating/using/personalizing-email-with-additional-data.md)에 있습니다.
 
 ### 단순 필드 추가 {#adding-a-simple-field}
 
