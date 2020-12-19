@@ -16,7 +16,7 @@ ht-degree: 7%
 ---
 
 
-# 트랜잭션 이벤트 {#configuring-transactional-event} 구성
+# 트랜잭션 이벤트 구성 {#configuring-transactional-event}
 
 Adobe Campaign에서 트랜잭션 메시지를 보내려면 먼저 이벤트를 만들고 구성하여 이벤트 데이터의 구조를 설명해야 합니다.
 
