@@ -71,13 +71,13 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 
 ## 활동{#activity}
 
-### 워크플로우당 활동 수 {#number-activities}
+### 작업 과정당 활동 수 {#number-activities}
 
-하나의 워크플로우에서 최대 100개의 활동을 사용하는 것이 좋습니다. 100개 이상의 활동이 워크플로우를 설계 및 구성할 때 일부 성능 문제가 발생할 수 있습니다.
+단일 워크플로우에는 최대 100개의 활동을 사용하는 것이 좋습니다. 100개 이상의 활동에서 워크플로우를 설계 및 구성할 때 일부 성능 문제가 발생할 수 있습니다.
 
 ### 워크플로우 디자인
 
-워크플로우가 제대로 종료되도록 하려면 Workflow를 사용하여 마지막으로 전환되는 것을 피하십시오 **[!UICONTROL End activity]**.
+워크플로우가 제대로 종료되도록 하려면 **[!UICONTROL End activity]**&#x200B;을 사용하여 워크플로우의 마지막 전환을 자체적으로 종료하지 마십시오.
 
 전환의 세부 사항 보기에 액세스하려면 워크플로우 속성의 실행 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택합니다.
 
@@ -108,7 +108,7 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 
 ## 매개 변수를 사용한 워크플로우 호출{#workflow-with-parameters}
 
-워크플로우 호출 시 정의된 매개 변수의 이름 및 개수가 동일한지 확인하십시오( [이 페이지](../../automating/using/defining-parameters-calling-workflow.md)참조). 매개 변수의 유형은 예상 값과 일치해야 합니다.
+워크플로 호출 시 정의된 매개 변수의 이름 및 개수가 동일한지 확인하십시오([이 페이지](../../automating/using/defining-parameters-calling-workflow.md) 참조). 매개 변수의 유형은 예상 값과 일치해야 합니다.
 
 **[!UICONTROL External signal activity]**&#x200B;에서 모든 매개 변수가 선언되었는지 확인합니다. 그렇지 않으면 활동을 실행할 때 오류가 발생합니다.
 
