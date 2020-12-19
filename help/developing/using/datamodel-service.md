@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>역사</td>
+                  <td>history</td>
                   <td>구독 내역</td>
                   <td>collection </td>
                   <td> </td>
@@ -140,8 +140,8 @@ ht-degree: 5%
                   </td>
                </tr>
                <tr>
-                  <td>modifiedBy(userBase)</td>
-                  <td>수정한 사람</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>수정한 사람:</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -218,19 +218,19 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>ManagementPage (landingPageUnsubscriptionBase)</td>
+                  <td>ManagementLandingPage(landingPageUnsubscriptionBase)</td>
                   <td>구독 취소 랜딩 페이지</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>Management(deliveryMCTemplateBase)</td>
+                  <td>MigratorScenario(deliveryMCTemplateBase)</td>
                   <td>구독 취소 확인</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>MigratorScenarioEventType</td>
+                  <td>migratorScenarioEventType</td>
                   <td>MigratorScenarioEventType</td>
                   <td>문자열 </td>
                   <td> </td>
@@ -245,7 +245,7 @@ ht-degree: 5%
 
 ## 필터
 
-주어진 기간 동안 사용 가능(계획별)
+주어진 기간 동안 사용 가능(Planning별)
 
 <table>
     <tr>
@@ -283,7 +283,7 @@ ht-degree: 5%
 <th>유형</th>
 </tr>
 <tr>
-<td>text</td>
+<td>텍스트</td>
 <td>문자열</td>
 </tr>
 </table>
