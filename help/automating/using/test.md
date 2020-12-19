@@ -47,7 +47,7 @@ ht-degree: 90%
 
    **[!UICONTROL Condition]** 필드 편집 시 이벤트 변수를 호출하고 변수와 함수를 결합한 표현식을 편집하는 데 도움이 되는 버튼이 두 가지 있습니다.
 
-   * ![](assets/extsignal_picker.png):워크플로우에서 사용할 수 있는 모든 변수 중에서 events 변수 선택( [이 페이지 참조](../../automating/using/customizing-workflow-external-parameters.md))
+   * ![](assets/extsignal_picker.png):워크플로우에서 사용할 수 있는 모든 변수 중에서 events 변수를 선택합니다( [이 페이지 참조](../../automating/using/customizing-workflow-external-parameters.md)).
 
       ![](assets/wkf_test_activity_variables.png)
 
