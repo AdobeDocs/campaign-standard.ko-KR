@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 84%
+ht-degree: 88%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 84%
 
    >[!NOTE]
    >
-   >트리거를 만들어야 하는 경우 **[!UICONTROL Administration]**&#x200B;이(가) 트리거 메뉴에 액세스할 수 있어야 합니다. 트리거에 대한 자세한 내용은 이 [페이지](../../integrating/using/about-adobe-experience-cloud-triggers.md)를 참조하십시오.
+   >트리거를 만들어야 하는 경우 [트리거] 메뉴에 액세스할 수 있으려면 **[!UICONTROL Administration]**&#x200B;이 필요합니다. 트리거에 대한 자세한 내용은 이 [페이지](../../integrating/using/about-adobe-experience-cloud-triggers.md)를 참조하십시오.
 
 * **[!UICONTROL Datamodel]**: 게시를 실행하고 사용자 지정 리소스를 만들 수 있는 권한.
 * **[!UICONTROL Generic import]**: 데이터에 대한 일반 가져오기를 실행할 수 있는 권한. 이를 수행하려면 **[!UICONTROL Generic import]** 역할을 **[!UICONTROL Workflow]** 역할에 연결해야 합니다.
