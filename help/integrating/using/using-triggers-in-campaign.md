@@ -21,7 +21,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->트리거를 만들려면 **[!UICONTROL Administration]** 역할이 필요하거나 **[!UICONTROL Administrators]** 보안 그룹에 있어야 합니다. 자세한 내용은 이 [page](../../administration/using/list-of-roles.md)를 참조하십시오.
+>트리거를 만들려면 **[!UICONTROL Administration]** 역할이 필요하거나 **[!UICONTROL Administrators]** 보안 그룹에 있어야 합니다. 이에 대한 자세한 내용은 이 [페이지](../../administration/using/list-of-roles.md)를 참조하십시오.
 
 Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의함을 확인해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/ko-KR/core-services/interface/activation/triggers.html)를 참조하십시오. 트리거를 정의할 때 별칭을 활성화해야 합니다. Adobe Experience Cloud에 각 동작(검색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대한 새로운 트리거가 추가되어야 합니다.
 
@@ -49,7 +49,7 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
    ![](assets/remarketing_4.png)
 
-1. 이제 트리거를 게시할 수 있습니다. 자세한 내용은 [Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)에 트리거 게시를 참조하십시오.
+1. 이제 트리거를 게시할 수 있습니다. 자세한 내용은 [캠페인](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)에 트리거 게시를 참조하십시오.
 
 ## 캠페인 {#publishing-trigger-in-campaign}에 트리거 게시
 
@@ -59,7 +59,7 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
    ![](assets/trigger_publish_1.png)
 
-1. **[!UICONTROL Publication]** 아래에서 트리거 게시의 진행 상태를 확인할 수 있습니다.
+1. **[!UICONTROL Publication]** 아래에서 트리거 게시 진행 상태를 확인할 수 있습니다.
 
    ![](assets/trigger_publish_2.png)
 
