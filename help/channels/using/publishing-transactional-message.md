@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 트랜잭션 메시지 라이프사이클
+title: 트랜잭션 메시지 수명 주기
 description: 트랜잭션 메시지를 게시, 일시 중지, 게시 취소 및 삭제하는 방법을 알아봅니다.
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
 
-# 트랜잭션 메시지 라이프사이클 {#publishing-transactional-message}
+# 트랜잭션 메시지 수명 주기 {#publishing-transactional-message}
 
 [트랜잭션 메시지](../../channels/using/editing-transactional-message.md)를 보낼 준비가 되면 게시할 수 있습니다.
 
