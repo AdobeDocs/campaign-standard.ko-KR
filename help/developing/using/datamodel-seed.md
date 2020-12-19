@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -116,8 +116,8 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifiedBy(userBase)</td>
-                  <td>수정한 사람</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>수정한 사람:</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -182,14 +182,14 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>stateLink(state)</td>
+                  <td>stateLink(상태)</td>
                   <td>주</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetData</td>
-                  <td>익스텐션</td>
+                  <td>확장</td>
                   <td>문자열 </td>
                   <td> </td>
                </tr>
@@ -236,7 +236,7 @@ ht-degree: 9%
         <th>유형</th>
         </tr>
         <tr>
-        <td>text</td>
+        <td>텍스트</td>
         <td>문자열</td>
         </tr>
     </table>
