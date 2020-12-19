@@ -35,7 +35,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->외부 매개 변수를 사용한 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있도록 하는 모든 활동에서 추가 기능을 사용할 수 있습니다. 그것들은 [이 섹션에 자세히 나와 있다](../../automating/using/customizing-workflow-external-parameters.md).
+>외부 매개 변수를 사용한 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있도록 해주는 모든 활동에서 추가 함수를 사용할 수 있습니다. 이 내용은 [이 섹션](../../automating/using/customizing-workflow-external-parameters.md)에 자세히 설명되어 있습니다.
 
 ## 날짜 {#dates}
 
