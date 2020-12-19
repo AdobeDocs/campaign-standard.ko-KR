@@ -15,11 +15,11 @@ ht-degree: 0%
 ---
 
 
-# 구독 수행 {#performing-subscriptions}
+# 구독 수행 중 {#performing-subscriptions}
 
 ## 방법 1:서비스에 프로필 가입
 
-프로파일 검색을 위한 GET 요청을 수행합니다.
+프로파일을 검색하려면 GET 요청을 수행합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -55,7 +55,7 @@ ht-degree: 0%
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-서비스 노드가 완료된 업데이트된 프로필을 반환합니다.
+서비스 노드가 완료된 업데이트된 프로파일을 반환합니다.
 
 ```
 {
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 방법 2:서비스의 구독자에 프로필 추가
 
-서비스를 검색하려면 GET 요청을 수행합니다.
+GET 요청을 수행하여 서비스를 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -96,7 +96,7 @@ ht-degree: 0%
   },
 ```
 
-페이로드 내에 원하는 프로필 기본 키를 사용하여 구독 URL에 POST 요청을 만듭니다.
+페이로드 내에 원하는 프로필 기본 키를 사용하여 구독 URL에 POST 요청을 합니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
