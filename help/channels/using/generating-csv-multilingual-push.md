@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # 다국어 푸시 알림용 CSV 파일 생성{#generating-csv-multilingual-push}
 
-CSV 파일을 업로드하여 배달할 컨텐츠를 생성하는 것은 다국어 푸시 알림을 지원하는 데 사용되는 기능입니다. CSV 파일의 형식은 파일 업로드가 성공하고 결과적으로 배달을 만들 수 있도록 하기 위한 특정 지침을 준수해야 합니다. 다음 섹션에서는 파일 형식 및 해당 고려 사항에 대해 설명합니다.
+CSV 파일을 업로드하여 배달할 컨텐츠를 생성하는 것은 다국어 푸시 알림을 지원하는 데 사용되는 기능입니다. CSV 파일의 형식은 파일 업로드가 성공적이고 결과적으로 배달을 만들 수 있도록 하기 위한 특정 지침을 따라야 합니다. 다음 섹션에서는 파일 형식과 이에 대한 고려 사항에 대해 설명합니다.
 
-## 파일 포맷 {#file-format}
+## 파일 형식 {#file-format}
 
 CSV 파일에 다국어 푸시가 필요한 열:
 
@@ -38,35 +38,35 @@ CSV 파일에 다국어 푸시가 필요한 열:
 1. language
 1. silentPush
 
-창에서 을 클릭하여 CSV 샘플 **[!UICONTROL Download a sample file]** 을 **[!UICONTROL Manage Content Variants]** 확인합니다. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
+**[!UICONTROL Manage Content Variants]** 창에서 **[!UICONTROL Download a sample file]**&#x200B;을 클릭하여 CSV 샘플을 확인합니다. 자세한 내용은 이 [섹션](../../channels/using/creating-a-multilingual-push-notification.md)을 참조하십시오.
 
-* **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**:정기적인 푸시 페이로드 내용 이 정보는 푸시 배달을 만들 때와 유사한 방법으로 제공해야 합니다.
-* **사용자 정의 필드**: 사용자 정의 필드(예: `{"key1":"value1","key2":"value2"}`. 사용자 정의 필드의 예는 위의 샘플 파일을 참조하십시오.
-* **isContentAvailable**:컨텐츠 사용 가능 확인 플래그, 값 1은 true를 의미하며 값 0은 false를 의미합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
-* **isMutableContent**:가변 컨텐트에 대한 플래그, 값 1은 true를, 값 0은 false를 의미합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
-* **로케일**:locale은 언어 변형의 필드입니다(예:).&quot;en_us&quot; for US-English, &quot;fr_fr&quot; for France-French.
+* **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**:정기적인 푸시 페이로드 내용. 푸시 배달을 만들 때와 유사한 방법으로 이 정보를 제공해야 합니다.
+* **사용자 정의 필드**:사용자 정의 필드에 JSON 형식을 사용합니다(예: `{"key1":"value1","key2":"value2"}`. 사용자 정의 필드의 예는 위의 샘플 파일을 참조하십시오.
+* **isContentAvailable**:[사용 가능한 컨텐츠] 확인에 대한 플래그, 값 1은 true를 의미하며, 값 0은 false를 의미합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
+* **isMutableContent**:변경 가능한 컨텐트에 대한 플래그, 값 1은 true를 의미하며, 값 0은 false를 의미합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
+* **로케일**:locale은 언어 변형을 위한 필드입니다(예: ).&quot;en_us&quot;는 미국-영어로, &quot;fr_fr&quot;은 프랑스-프랑스어로 표시됩니다.
 * **언어**:로케일과 연관된 언어의 이름입니다. 예를 들어 로케일이 &quot;en_us&quot;인 경우 언어 이름은 &quot;영어-미국&quot;이어야 합니다.
 * **silentPush**:푸시 알림 유형에 대한 플래그. 일반 푸시 알림일 경우 값은 0이어야 합니다. 자동 푸시인 경우 값은 1이어야 합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
 
-## csv 파일 작성을 위한 제한 및 지침 {#constraints-guideline-csv}
+## csv 파일 {#constraints-guideline-csv} 만들기 제한 및 지침
 
 **각 열의 이름이 수정되었습니다**.
 컨텐츠에 열을 사용하지 않는 경우 CSV 파일에 각 열의 이름을 포함해야 합니다.
 
 **&quot;locale&quot; 및 &quot;language&quot; 열은 필수이며 값은 각 행에 대해 고유합니다.**
-이 열에 대해 빈 값을 사용하면 파일 업로드가 실패합니다.
+이 열에 대한 빈 값을 사용하면 파일 업로드가 실패합니다.
 
-**열의 순서가 중요합니다**. 업로드된 파일의 열 순서는 샘플 파일과 동일한 형식을 따라야 합니다.
+**열의 순서는 중요합니다**. 업로드된 파일의 열 순서는 샘플 파일과 동일한 형식을 따라야 합니다.
 
-**견적 열 컨텐츠**. CSV(쉼표로 구분된 값) 파일이므로 쉼표(,)를 포함하는 열 내용을 따옴표로 묶어야 합니다. 예: &quot;Hello, Tom!&quot;
+**열 내용 인용**. CSV(쉼표로 구분된 값) 파일이므로 쉼표(,)를 포함하는 모든 열 내용을 따옴표로 묶어야 합니다. 예: &quot;Hello, Tom!&quot;
 
-**국제 문자에 UTF-8 인코딩이 필요합니다.**
+**국제 문자에 대해 UTF-8 인코딩이 필요합니다.**
 
 **일반 텍스트로 파일을 생성하는 경우 각 열을 &quot;,&quot;로 구분합니다.**
 
 **변형 불일치.** 컨텐츠 블록을 사용하고 특정 언어로 대상 고객을 타깃팅하는 경우 CSV 파일에 대상 언어를 모두 나열해야 합니다. 그렇지 않으면 배달을 보낼 때 오류가 발생합니다.
 
-## csv 파일에 개인화 필드 삽입 {#personalization-field-csv}
+## csv 파일 {#personalization-field-csv}에 개인화 필드 삽입
 
 개인화 필드를 사용하려면 파일에 <span> 태그를 포함해야 합니다.
 
@@ -82,11 +82,11 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
  <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
 ```
 
-이 범위에는 두 가지 필수 속성이 있습니다.
+이 범위에는 2개의 필수 속성이 있습니다.
 
-* 하나는 정적인 수업이다. 어떤 개인화 필드를 사용할지 관계없이 항상 class=&quot;nl-dce-field nl-dce-dce-done&quot;이 됩니다.
+* 하나는 정적인 수업이다. 어떤 개인화 필드를 사용하든 그것은 항상 class=&quot;nl-dce-field nl-dce-dce-done&quot;입니다.
 
-* 다른 하나는 개인화 필드의 경로인 data-nl-exr입니다. 예를 들어 UI에서 &quot;firstName&quot; 개인화 필드를 삽입하면 탐색 경로가 **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (아래 이미지에 표시된 대로)됩니다. 이 경우 경로는
+* 다른 하나는 데이터-nl-expr로, 개인화 필드의 경로입니다. 예를 들어 UI에서 &quot;firstName&quot; 개인화 필드를 삽입하면 탐색 경로가 **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]**(아래 이미지에 표시됨)이 됩니다. 이 경우 경로는
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -98,7 +98,7 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 
 지원되는 언어는 다음과 같습니다.
 
-| 로케일 | language |
+| 로케일 | 언어 |
 |:-:|:-:|
 | af_za | 아프리칸스어 - 남아프리카 |
 | sq_al | 알바니아 - 알바니아 |
@@ -117,18 +117,18 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 | ar_tn | 아랍어 - 튀니지 |
 | ar_ae | 아랍어 - 아랍에미리트 |
 | ar_ye | 아랍어 - 예멘 |
-| hy_am | 아르메니아 - 아르메니아 |
+| hy_am | 아르메니아어 - 아르메니아 |
 | az_az | 아제리 - 아제르바이잔 |
-| be_by | 벨로루시 - 벨라루스 |
+| be_by | 벨라루스 - 벨라루스 |
 | bs_ba | 보스니아 - 보스니아 |
 | bg_bg | 불가리아어 - 불가리아 |
 | ca_es | 카탈로니아어 - 스페인 |
 | zh_cn | 중국어(간체) - 중국 |
 | zh_sg | 중국어(간체) - 싱가포르 |
 | zh_hk | 중국어(번체) - 중국 홍콩 특별 행정구 |
-| zh_tw | 중국어 번체 - 대만 지역 |
-| hr | 크로아티아어 - 크로아티아 |
-| cs_cz | 체코어 - 체체치아 |
+| zh_tw | 중국어(번체) - 대만 지역 |
+| hr_hr | 크로아티아 - 크로아티아 |
+| cs_cz | 체코어 - 체치아 |
 | da_dk | 덴마크어 - 덴마크 |
 | nl_be | 네덜란드어 - 벨기에 |
 | nl_nl | 네덜란드어 - 네덜란드 |
@@ -167,8 +167,8 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 | it_it | 이탈리아어 - 이탈리아 |
 | it_ch | 이탈리아어 - 스위스 |
 | ja_jp | 일본어 - 일본 |
-| kn_in | 칸나다 - 인도 |
-| kz | 카자흐어 - 카자흐스탄 |
+| kn_in | 카나다 - 인도 |
+| k_kz | 카자흐어 - 카자흐스탄 |
 | ko_kr | 한국어 - 대한민국 |
 | lv_lv | 라트비아어 - 라트비아 |
 | lt_lt | 리투아니아어 - 리투아니아 |
@@ -214,10 +214,10 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 | sv_se | 스웨덴어 - 스웨덴 |
 | ta_in | 타밀어 - 인도 |
 | tt_ru | 타타르 - 러시아어 |
-| te_in | 텔레구 - 인도 |
-| th_th | 태국 - 태국 |
+| te_in | 텔루구 - 인도 |
+| th_th | 태국어 - 태국 |
 | tr_cy | 터키어 - 키프로스 |
-| tr_tr | 터키 - 터키 |
+| tr_tr | 터키어 - 터키 |
 | uk_ua | 우크라이나어 - 우크레인 |
 | ur_in | 우르두 - 인도 |
 | ur_pk | 우르두 - 파키스탄 |
