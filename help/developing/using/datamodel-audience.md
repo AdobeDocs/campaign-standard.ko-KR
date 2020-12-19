@@ -75,7 +75,7 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>countDate</td>
-                  <td>카운트 날짜</td>
+                  <td>계산 날짜</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -105,7 +105,7 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>이 작업의 내역 표시 안 함</td>
+                  <td>이 작업 내역 표시 안 함</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -135,7 +135,7 @@ ht-degree: 5%
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloud 대상</td>
+                  <td>Adobe Marketing Cloud 고객</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -164,8 +164,8 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifiedBy(userBase)</td>
-                  <td>수정한 사람</td>
+                  <td>modifiedBy (userBase)</td>
+                  <td>수정한 사람:</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -194,7 +194,7 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>소스</td>
+                  <td>source</td>
                   <td>소스</td>
                   <td>item </td>
                   <td> </td>
@@ -261,7 +261,7 @@ ht-degree: 5%
     <th>유형</th>
     </tr>
     <tr>
-    <td>text</td>
+    <td>텍스트</td>
     <td>문자열</td>
     </tr>
 </table>
