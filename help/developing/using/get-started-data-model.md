@@ -29,9 +29,9 @@ ht-degree: 30%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-캠페인에서 사용하는 데이터는 **사전 정의된 데이터 모델**&#x200B;에 정의된 다른 리소스를 통해 정의됩니다. 데이터 모델은 마케팅 관련 리소스 세트에 대한 기본 SQL 구조를 표시합니다.전달, 대상, 랜딩 페이지, 프로필 등 각 리소스에는 관련 필터가 포함되어 있으므로 리소스를 탐색할 수 있습니다.
+캠페인에 사용되는 데이터는 **사전 정의된 데이터 모델**&#x200B;에 정의된 다른 리소스를 통해 정의됩니다. 데이터 모델은 마케팅 관련 리소스 집합에 대한 기본 SQL 구조를 표시합니다.전달, 대상, 랜딩 페이지, 프로필 등 각 리소스에는 관련 필터가 포함되어 있어 리소스를 탐색할 수 있습니다.
 
-**진단** 메뉴를 통해 Campaign Standard에서 생성된 기술 개체를 나열할 수 있습니다.데이터 스키마, 웹 페이지, 필터 등, 데이터 모델 및 변경된 데이터 모델을 모니터링할 수 있습니다.
+**진단** 메뉴를 사용하여 Campaign Standard에서 생성된 기술 개체를 나열할 수 있습니다.데이터 스키마, 웹 페이지, 필터 등을 사용하여 데이터 모델 및 변경된 데이터 모델을 모니터링할 수 있습니다.
 
 자세한 내용:
 
@@ -46,20 +46,20 @@ ht-degree: 30%
 
 Campaign Standard을 사용하면 **사전 정의된 데이터 모델**&#x200B;을 보완하여 사용자 고유의 리소스를 만들거나(예: 구매 또는 제품 테이블 추가) 새 필드로 기존 리소스를 확장할 수 있습니다. 만들어진 새 리소스 및 필드를 통해 탐색을 최적화하도록 캠페인 화면을 구성할 수도 있습니다.
 
-또한 사용자 지정 리소스 프로필에 대한 API 확장 필드에 표시하려면 **Campaign Standard REST API**&#x200B;를 확장할 수 있습니다. 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객의 프로필을 업데이트할 수 있습니다.
+또한 사용자 지정 리소스 프로필의 API 확장 필드에 표시하려면 **Campaign Standard REST API**&#x200B;를 확장할 수 있습니다. 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객의 프로필을 업데이트할 수 있습니다.
 
 자세한 내용:
 
 * [리소스 추가 또는 확장](../../developing/using/key-steps-to-add-a-resource.md)
 * [API 확장](../../developing/using/about-extending-the-api.md)
 * [사용 사례:새 필드를 사용하여 프로필 리소스 확장](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
-* [사용 사례:애플리케이션 리소스로 구독 확장](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+* [사용 사례:애플리케이션 리소스로 가입 확장](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
 ## API 작업 {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Campaign Standard API를 사용하면 Adobe Campaign을 사용하는 기술 패널과 통합하여 Adobe Campaign Standard용 통합을 구축하고 고유한 에코시스템을 구축할 수 있습니다. [Campaign Standard REST API 시작](../../api/using/get-started-apis.md)
+Campaign Standard API를 사용하면 Adobe Campaign을 사용하는 기술 패널과 연계하여 Adobe Campaign Standard용 통합을 생성하고 고유한 에코시스템을 구축할 수 있습니다. [Campaign Standard REST API 시작](../../api/using/get-started-apis.md)
 
 ## 추가 리소스
 
