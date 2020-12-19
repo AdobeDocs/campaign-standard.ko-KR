@@ -28,7 +28,7 @@ ht-degree: 86%
 
 ![](assets/reconciliation_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects the data of the file to import. 가져온 파일에는 다음 데이터가 포함됩니다.
+* 가져올 파일의 데이터를 로드하고 감지하는 [Load 파일](../../automating/using/load-file.md) 활동. 가져온 파일에는 다음 데이터가 포함됩니다.
 
    * 트랜잭션 날짜
    * 고객 이메일 주소
@@ -47,7 +47,7 @@ ht-degree: 86%
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity to bind purchasing data to database profiles as well as products. 따라서 파일 데이터와 프로필 표 및 제품 표 간의 관계를 정의해야 합니다. 해당 활동의 **[!UICONTROL Relations]** 탭에서 이 구성을 수행합니다. 
+* 구매 데이터를 제품 및 데이터베이스 프로필에 바인딩하는 [조정 작업](../../automating/using/reconciliation.md). 따라서 파일 데이터와 프로필 표 및 제품 표 간의 관계를 정의해야 합니다. 해당 활동의 **[!UICONTROL Relations]** 탭에서 이 구성을 수행합니다. 
 
    * **프로필**&#x200B;과의 관계: 파일의 **고객** 열은 **프로필** 차원의 **이메일** 필드에 연결됩니다.
    * **제품**&#x200B;과의 관계: 파일의 **제품** 열은 **프로필** 차원의 **제품 코드** 필드에 연결됩니다.
@@ -56,7 +56,7 @@ ht-degree: 86%
 
    ![](assets/reconciliation_example3.png)
 
-* An [Update data](../../automating/using/update-data.md) activity allows you to define the database fields to update using the imported data. 앞선 활동에서 데이터가 이미 **트랜잭션** 차원에 속하는 것으로 식별되었으므로, **[!UICONTROL Directly using the targeting dimension]** 식별 옵션을 사용할 수 있습니다.
+* [데이터 업데이트](../../automating/using/update-data.md) 활동을 사용하면 가져온 데이터를 사용하여 업데이트할 데이터베이스 필드를 정의할 수 있습니다. 앞선 활동에서 데이터가 이미 **트랜잭션** 차원에 속하는 것으로 식별되었으므로, **[!UICONTROL Directly using the targeting dimension]** 식별 옵션을 사용할 수 있습니다.
 
    업데이트할 필드를 자동으로 감지하는 옵션을 사용하면, 앞의 활동에서 구성한 (프로필 및 제품에 대한) 연결이 **[!UICONTROL Fields to update]** 목록에 추가됩니다. 또한 트랜잭션 날짜에 해당하는 필드가 이 목록에 올바르게 추가되어 있는지 확인해야 합니다.
 
