@@ -51,7 +51,7 @@ ht-degree: 91%
 
 1. 원하는 경우 **[!UICONTROL Add a pre-processing step]** 필드에서 **[!UICONTROL Compression]**&#x200B;을(를) 선택하여 출력 파일을 압축할 수 있습니다. 출력 파일은 GZIP 파일(.gz)로 압축됩니다.
 
-   또한 이 **[!UICONTROL Add a pre-processing step]** 필드를 사용하면 파일을 추출하기 전에 파일을 암호화할 수 있습니다. 암호화된 파일을 사용하는 방법에 대한 자세한 내용은 [이 섹션을 참조하십시오.](../../automating/using/managing-encrypted-data.md)
+   또한 **[!UICONTROL Add a pre-processing step]** 필드에서 파일을 추출하기 전에 암호화할 수도 있습니다. 암호화된 파일을 사용하여 작업하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/managing-encrypted-data.md)을 참조하십시오.
 
 1. 출력 열을 추가하려면 ![](assets/add_darkgrey-24px.png) 또는 **[!UICONTROL Add an element]** 버튼을 클릭합니다.
 
