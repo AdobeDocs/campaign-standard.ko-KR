@@ -17,9 +17,9 @@ ht-degree: 4%
 
 # 프로필 검색 {#retrieving-profiles}
 
-프로필 검색은 **GET** 요청을 사용하여 수행됩니다.
+프로파일 검색 작업은 **GET** 요청으로 수행됩니다.
 
-그런 다음 필터, 순서 지정 및 페이지 매김을 사용하여 검색을 세분화할 수 있습니다. For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+그런 다음 필터, 순서 지정 및 페이지 매김을 사용하여 검색을 세분화할 수 있습니다. 자세한 내용은 [추가 작업](../../api/using/sorting.md) 섹션을 참조하십시오.
 
 <br/>
 
@@ -35,7 +35,7 @@ ht-degree: 4%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   요청에 응답합니다.
+   요청에 대한 응답입니다.
 
    ```
    {
@@ -61,7 +61,7 @@ ht-degree: 4%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   요청에 응답합니다. &quot;다음&quot; 노드는 다음 이메일 값에 액세스할 수 있는 URL을 반환합니다.
+   요청에 대한 응답입니다. &quot;다음&quot; 노드는 다음 이메일 값 10에 대한 액세스 권한을 제공하는 URL을 반환합니다.
 
    ```
    {
