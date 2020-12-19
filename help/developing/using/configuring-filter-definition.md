@@ -81,8 +81,8 @@ ht-degree: 95%
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-필터가 구성되면 다음 구문을 사용하여 Campaign Standard API에서 사용할 수 있습니다.
+필터가 구성되면 다음 구문을 사용하여 Campaign Standard API에서 필터를 사용할 수 있습니다.
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-자세한 내용은 [Campaign Standard API 설명서를 참조하십시오](../../api/using/filtering.md#custom-filters).
+자세한 내용은 [Campaign Standard API 설명서](../../api/using/filtering.md#custom-filters)를 참조하십시오.
