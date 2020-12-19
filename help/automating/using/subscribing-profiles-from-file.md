@@ -16,7 +16,7 @@ ht-degree: 53%
 ---
 
 
-# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# {#subscribing-profiles-to-a-specific-service-after-importing-a-file} 파일을 가져온 후 특정 서비스에 프로필 가입
 
 이 예에서는 프로필이 포함된 파일을 가져와 기존 서비스에 구독하는 방법을 보여줍니다. 파일을 가져온 후에는 가져온 데이터를 프로필로 식별할 수 있도록 조정을 수행해야 합니다. 파일에 중복 항목을 포함하지 않는지 확인하기 위해 데이터 중복 제거 활동이 실행됩니다.
 
@@ -24,7 +24,7 @@ ht-degree: 53%
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
+* [Load file](../../automating/using/load-file.md) 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다.
 
    이 예제에서 로드된 파일은 .csv 형식으로 되어 있으며 다음 데이터를 포함합니다.
 
@@ -43,14 +43,14 @@ ht-degree: 53%
 
    ![](assets/subscription_activity_example2.png)
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. **[!UICONTROL Identification]** 탭만 구성됩니다. 프로필의 이메일 주소에 따라 파일 데이터를 식별합니다.
+* [조정](../../automating/using/reconciliation.md) 활동은 파일의 데이터를 Adobe Campaign 데이터베이스의 프로필 차원에 속하는 것으로 식별합니다. **[!UICONTROL Identification]** 탭만 구성됩니다. 프로필의 이메일 주소에 따라 파일 데이터를 식별합니다.
 
    ![](assets/subscription_activity_example3.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. 파일에서 가져온 데이터에 중복된 항목이 있으면 모든 데이터에 대한 서비스 구독이 실패합니다.
+* 조정을 통해 발생한 임시 리소스의 **이메일** 필드를 기반으로 한 [중복 제거](../../automating/using/deduplication.md)는 모든 중복을 식별합니다. 파일에서 가져온 데이터에 중복된 항목이 있으면 모든 데이터에 대한 서비스 구독이 실패합니다.
 
    ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/using/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
+* [가입 서비스](../../automating/using/subscription-services.md) 활동을 사용하면 프로파일을 가입해야 하는 서비스, 가입 날짜에 해당하는 필드 및 가입 원본 사이트를 선택할 수 있습니다.
 
    ![](assets/subscription_activity_example4.png)
