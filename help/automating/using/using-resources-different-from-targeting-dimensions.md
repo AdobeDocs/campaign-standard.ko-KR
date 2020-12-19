@@ -18,9 +18,9 @@ ht-degree: 81%
 
 # 타겟팅 차원과 다른 리소스 사용 {#using-resources-different-from-targeting-dimensions}
 
-이 사용 사례에서는 타깃팅 차원과 다른 리소스를 사용하는 방법(예: 먼 테이블에서 특정 레코드를 찾는 방법)을 보여 줍니다.
+이 사용 사례에서는 타깃팅 차원과 다른 리소스를 사용하여 멀리 있는 테이블에서 특정 레코드를 찾는 방법을 보여줍니다.
 
-차원 및 리소스 타깃팅에 대한 자세한 내용은 [이 섹션을 참조하십시오.](../../automating/using/query.md#targeting-dimensions-and-resources)
+차원 및 리소스 타깃팅에 대한 자세한 내용은 [이 섹션](../../automating/using/query.md#targeting-dimensions-and-resources)을 참조하십시오.
 
 **예제 1: &quot;Welcome back !&quot;이라는 레이블이 있는 게재가 타겟팅한 프로필 확인**.
 
