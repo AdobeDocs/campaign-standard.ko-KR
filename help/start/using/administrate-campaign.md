@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 목록 사용자 지정
-description: '"Adobe Campaign Standard에서 디스플레이 사용자 정의 및 목록 화면 사용 방법: 요소 정렬, 필터링, 삭제 또는 복제 화면에 하나 이상의 지정된 리소스의 요소가 표시됩니다."'
+description: '"Adobe Campaign Standard에서 디스플레이 사용자 정의 및 목록 화면 사용 방법: 요소 정렬, 필터링, 삭제 또는 복제. 화면에 하나 이상의 주어진 리소스의 표시 요소가 표시됩니다."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -34,7 +34,7 @@ ht-degree: 8%
 </tr>
 <tr>
 <td>Campaign 데이터 모델</td>
-<td>REST API 사용</td>
+<td>REST API 작업</td>
 <td>사용자 관리</td>
 <td>인스턴스 구성 및 모니터링</td>
 </tr>
@@ -44,18 +44,18 @@ ht-degree: 8%
 
 <img width="60px" alt="조건" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#39;전생의 사피엔플라케라스 모리시&#39; 정수 Luctus blandit 합자입니다. Nulla quis vehicea augue, lacinia risus. Nunc phaertra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicela nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipising elit. &#39;전생의 사피언스 마우리스&#39;, 비앙계 사피언 로뉴. 정수 루크투스 블란디트 합자입니다. Nulla quis vehicea augue, lacinia risus. 난씨 파헤레트라 프링질라 에님 eu 수시피트 Mauris contetur maximus euismod. Cras et veickula null. Aenean tellus quam, tristique quis risus sectetur, pulvinar elementum dui.
 
 **자세한 내용**
 
 * xxxx
 * xxxx
 
-## REST API 사용
+## REST API 작업
 
 <img width="60px" alt="조건" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#39;전생의 사피엔플라케라스 모리시&#39; 정수 Luctus blandit 합자입니다. Nulla quis vehicea augue, lacinia risus. Nunc phaertra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicela nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipising elit. &#39;전생의 사피언스 마우리스&#39;, 비앙계 사피언 로뉴. 정수 루크투스 블란디트 합자입니다. Nulla quis vehicea augue, lacinia risus. 난씨 파헤레트라 프링질라 에님 eu 수시피트 Mauris contetur maximus euismod. Cras et veickula null. Aenean tellus quam, tristique quis risus sectetur, pulvinar elementum dui.
 
 **자세한 내용**
 
@@ -66,7 +66,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#39;전생의 사피�
 
 <img width="60px" alt="조건" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#39;전생의 사피엔플라케라스 모리시&#39; 정수 Luctus blandit 합자입니다. Nulla quis vehicea augue, lacinia risus. Nunc phaertra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicela nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipising elit. &#39;전생의 사피언스 마우리스&#39;, 비앙계 사피언 로뉴. 정수 루크투스 블란디트 합자입니다. Nulla quis vehicea augue, lacinia risus. 난씨 파헤레트라 프링질라 에님 eu 수시피트 Mauris contetur maximus euismod. Cras et veickula null. Aenean tellus quam, tristique quis risus sectetur, pulvinar elementum dui.
 
 **자세한 내용**
 
@@ -77,7 +77,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#39;전생의 사피�
 
 <img width="60px" alt="조건" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. &#39;전생의 사피엔플라케라스 모리시&#39; 정수 Luctus blandit 합자입니다. Nulla quis vehicea augue, lacinia risus. Nunc phaertra fringilla enim eu suscipit. Mauris consectetur maximus euismod. Cras et vehicela nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipising elit. &#39;전생의 사피언스 마우리스&#39;, 비앙계 사피언 로뉴. 정수 루크투스 블란디트 합자입니다. Nulla quis vehicea augue, lacinia risus. 난씨 파헤레트라 프링질라 에님 eu 수시피트 Mauris contetur maximus euismod. Cras et veickula null. Aenean tellus quam, tristique quis risus sectetur, pulvinar elementum dui.
 
 **자세한 내용**
 
