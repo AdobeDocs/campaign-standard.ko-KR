@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 개인 정보 데이터 파일 검색
-description: API를 사용하여 개인 정보 데이터 파일을 검색하는 방법 학습
+description: API를 사용하여 개인 정보 데이터 파일을 검색하는 방법 알아보기
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -23,11 +23,11 @@ ht-degree: 4%
 
 조정 값과 연관된 모든 정보가 포함된 파일을 검색하려면 다음 3단계 절차를 따르십시오.
 
-1. **POST** 요청을 수행하여 **type=&quot;access&quot;** 특성이 있는 새 요청을 만듭니다. [새 개인 정보 요청 만들기](../../api/using/creating-a-privacy-request.md)를 참조하십시오.
+1. **POST** 요청을 수행하여 **type=&quot;access&quot;** 특성을 가진 새 요청을 만듭니다. [새 개인 정보 요청 만들기](../../api/using/creating-a-privacy-request.md)를 참조하십시오.
 
 1. 요청에 대한 정보를 검색하려면 **GET** 요청을 수행합니다.
 
-1. 반환된 **privacyRequestData** URL에 대해 **POST** 요청을 수행하고 페이로드 내에 개인 정보 요청 내부 이름을 사용하여 데이터 파일을 검색합니다. 예:{&quot;name&quot;:&quot;PT17&quot;}.
+1. 페이로드 내의 개인 정보 요청 내부 이름과 함께 반환된 **privacyRequestData** URL에 **POST** 요청을 수행하여 데이터 파일을 검색합니다. 예:{&quot;name&quot;:&quot;PT17&quot;}
 
 <br/>
 
@@ -85,7 +85,7 @@ GET 요청을 수행하여 요청에 대한 정보를 검색합니다.
 },
 ```
 
-privacyRequestData URL에 대해 요청 내부 이름을 페이로드 내에 사용하여 POST 요청을 수행합니다.
+페이로드 내에 요청 내부 이름을 사용하여 privacyRequestData URL에 POST 요청을 수행합니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \
