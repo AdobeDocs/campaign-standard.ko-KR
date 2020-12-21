@@ -64,6 +64,7 @@ ht-degree: 100%
       >[!NOTE]
       >
       >이 옵션은 관리자가 Adobe Experience Cloud 공유 대상자 기능을 구성한 경우에만 사용할 수 있습니다. 자세한 내용은 [Campaign 및 People 핵심 서비스로 작업](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)을 참조하십시오.
+
    업데이트 시 저장되거나 사용 가능한 대상자 유형은 워크플로우의 업스트림 활동에 따라 다릅니다.
 
    대상자를 저장할 때 대상자의 타겟팅 차원을 알 수 없는 경우(가져온 파일에서 수집한 경우 등), 해당 대상자는 **[!UICONTROL File]** 유형 대상자로 만들어지거나 업데이트됩니다.
