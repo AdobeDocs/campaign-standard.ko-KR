@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard는 **예측 전송 시간 최적화**&#x200B;과 **예�
 >[!CAUTION]
 >이 기능은 제품의 일부로 기본 제공되지 않습니다. 구현하려면 Adobe Consulting 서비스가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >
->이 기능을 사용하려면 고객이 Azure 스토리지를 가지고 있어야 합니다.
+>이 기능을 사용하려면 고객이 제공해야 하는 Azure 또는 Amazon S3 저장소를 사용해야 합니다.
 
 ## 예측 전송 시간 최적화{#predictive-send-time}
 
