@@ -7,10 +7,10 @@ user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
 translation-type: tm+mt
-source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
+source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 100%
+source-wordcount: '1710'
+ht-degree: 99%
 
 ---
 
@@ -152,6 +152,7 @@ ht-degree: 100%
       + [일반 텍스트, HTML 및 모바일 이메일 편집](designing/using/plain-text-html-modes.md)
       + [기존 편집기 이메일을 이메일 디자이너로 변환](designing/using/converting-emails-from-legacy-editor.md)
    + [이메일 콘텐츠 개인화](designing/using/personalization.md)
+   + [제품 목록 사용](designing/using/using-product-listings.md)
    + [이메일 스타일 관리](designing/using/styles.md)
    + [링크 관리](designing/using/links.md)
    + [이미지 관리](designing/using/images.md)
@@ -435,7 +436,6 @@ ht-degree: 100%
    + 채널 구성 {#configuring-channels}
       + [채널 구성 기본 정보](administration/using/about-channel-configuration.md)
       + [이메일 채널 구성](administration/using/configuring-email-channel.md)
-      + [SMS 채널 구성](administration/using/configuring-sms-channel.md)
       + [모바일 애플리케이션 구성](administration/using/configuring-a-mobile-application.md)
    + 모바일 채널 구성 {#configuring-mobile}
       + [푸시 추적 구현](administration/using/push-tracking.md)
@@ -446,6 +446,10 @@ ht-degree: 100%
       + [Experience Platform SDK 통합 FAQ](administration/using/aep-faq.md)
       + [Adobe Campaign Standard 사용 사례를 지원하기 위한 Experience Platform Launch 규칙 구성](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard에서 지원되는 모바일 사용 사례](administration/using/supported-mobile-use-cases.md)
+   + SMS 채널 구성 {#configuring-sms}
+      + [SMS 채널 구현](administration/using/configuring-sms-channel.md)
+      + [SMS 커넥터 프로토콜 및 설정](administration/using/sms-protocol.md)
+      + [SMS 문제 해결](administration/using/troubleshooting-sms.md)
    + 애플리케이션 설정 {#application-settings}
       + [Campaign Standard 설정 기본 정보](administration/using/about-campaign-standard-settings.md)
       + [외부 계정](administration/using/external-accounts.md)
