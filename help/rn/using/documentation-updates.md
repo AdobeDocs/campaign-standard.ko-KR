@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
+source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
 workflow-type: tm+mt
-source-wordcount: '6357'
-ht-degree: 99%
+source-wordcount: '6372'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,19 @@ ht-degree: 99%
 
 ## 2020년 12월 {#doc-updates-december-2020}
 
-트랜잭션 메시지 섹션이 다시 구성 및 개선되었으며, 시작 섹션([향상된 스키마](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), 전체 프로세스를 나타내는 [엔드 투 엔드 사용 사례](../../channels/using/transactional-messaging-use-case.md)를 포함하고 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
+**예측 제목** 선형 기능은 이제 더 이상 사용되지 않습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
-개인 정보 섹션을 이동했습니다. [자세한 내용](../../start/using/privacy.md)
+이제 **트랜잭션 메시지 시작** 섹션에는 [향상된 스키마](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 및 구현 프로세스를 설명하는 [엔드 투 엔드 사용 사례](../../channels/using/transactional-messaging-use-case.md)가 포함됩니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
-Adobe Campaign Standard 작업 영역의 접근성 지원에 대한 자세한 내용을 살펴보기 위해 접근성에 대한 새 페이지가 추가되었습니다. [자세한 내용](../../start/using/accessibility.md)
+**개인 정보** 섹션이 [여기](../../start/using/privacy.md)로 이동되었습니다.
 
-최적의 성과를 위해 게시된 트랜잭션 메시지 수는 100개 미만으로 유지되어야 한다는 점을 나타내는 트랜잭션 메시지 섹션에 새로운 제한이 추가되었습니다. [자세한 내용](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+새 **액세스 가능성** 페이지를 사용할 수 있습니다.adobe campaign standard 작업 영역의 액세스 가능성 지원에 대해 자세히 설명합니다. [자세한 내용](../../start/using/accessibility.md)
+
+최적의 성과를 위해 게시된 트랜잭션 메시지의 수는 100개 미만으로 유지되어야 한다는 주의 사항이 추가되었습니다. [자세한 내용](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+SMS 커넥터 프로토콜 및 설정 페이지가 [여기](../../administration/using/sms-protocol.md)로 이동되었습니다.
+
+**트랜잭션 메시지** 섹션에 제품 목록 사용이 [여기](../../designing/using/using-product-listings.md)로 이동되었습니다.
 
 ## 2020년 11월 {#doc-updates-november-2020}
 
@@ -509,7 +515,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 이메일 디자이너의 일반 가용성 - [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
-트랜잭션 이메일의 제품 목록 - [자세한 내용](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+트랜잭션 이메일의 제품 목록 - [자세한 내용](../../designing/using/using-product-listings.md)
 
 이메일 디자이너의 모바일 보기 - [자세한 내용](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
