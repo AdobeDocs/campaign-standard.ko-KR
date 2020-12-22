@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 7%
@@ -68,7 +68,7 @@ Adobe Campaign에서 트랜잭션 메시지를 보내려면 먼저 이벤트를 
 
 여러 속성을 포함하는 각 요소 자체를 이벤트 컨텐츠에 요소 모음을 추가할 수 있습니다.
 
-이 컬렉션은 거래 이메일에서 제품 목록(예: 가격, 참조 번호, 수량 등과 함께 [제품 목록](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)을 메시지 컨텐츠에 추가할 수 있습니다. 의 각 제품에서 찾을 수 있습니다.
+이 컬렉션은 거래 이메일에서 제품 목록(예: 가격, 참조 번호, 수량 등과 함께 [제품 목록](../../designing/using/using-product-listings.md)을 메시지 컨텐츠에 추가할 수 있습니다. 의 각 제품에서 찾을 수 있습니다.
 
 1. **[!UICONTROL Collections]** 섹션에서 **[!UICONTROL Create element]** 단추를 클릭합니다.
 
@@ -96,7 +96,7 @@ Adobe Campaign에서 트랜잭션 메시지를 보내려면 먼저 이벤트를 
 **관련 항목:**
 
 * [이벤트 미리 보기 및 게시](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [트랜잭션 메시지에서 제품 목록 사용](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [트랜잭션 메시지에서 제품 목록 사용](../../designing/using/using-product-listings.md)
 * [트랜잭션 메시지 게시](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## 이벤트 {#enriching-the-transactional-message-content} 중단
