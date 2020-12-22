@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 5%
@@ -50,7 +50,7 @@ Dreamweaver과 Adobe Campaign Standard의 통합을 통해 Dreamweaver 인터페
 >title="제품 목록 사용"
 >abstract="제품 목록을 사용하면 데이터 수집을 참조하고 이메일 컨텐츠에 표시할 수 있습니다."
 
-제품 목록을 사용하면 이메일 컨텐츠에서 하나 이상의 데이터 컬렉션을 참조할 수 있습니다. 이 목록은 트랜잭션 이메일에 사용할 수 있습니다. 이 기능에 대한 전용 섹션은 [여기](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)에서 사용할 수 있습니다.
+제품 목록을 사용하면 이메일 컨텐츠에서 하나 이상의 데이터 컬렉션을 참조할 수 있습니다. 이 목록은 트랜잭션 이메일에 사용할 수 있습니다. 이 기능에 대한 전용 섹션은 [여기](../../designing/using/using-product-listings.md)에서 사용할 수 있습니다.
 
 ## 이메일 디자인 옵션 비교 {#email-design-options-comparison}
 
