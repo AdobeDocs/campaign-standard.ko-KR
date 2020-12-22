@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -539,7 +539,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 거래 이메일의 제품 목록<br /> </td> 
-   <td> <p>이제 트랜잭션 이메일 메시지에서 하나 이상의 제품 컬렉션을 참조할 수 있습니다. 예를 들어 이미지, 가격 및 각 제품에 대한 링크가 포함된 모든 제품을 나열하는 장바구니 포기 이메일을 자동으로 보낼 수 있습니다.</p><p>자세한 내용은 <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">방법 비디오</a>를 참조하십시오.</p> </td> 
+   <td> <p>이제 트랜잭션 이메일 메시지에서 하나 이상의 제품 컬렉션을 참조할 수 있습니다. 예를 들어 이미지, 가격 및 각 제품에 대한 링크가 포함된 모든 제품을 나열하는 장바구니 포기 이메일을 자동으로 보낼 수 있습니다.</p><p>자세한 내용은 <a href="../../designing/using/using-product-listings.md">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">방법 비디오</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 이메일 디자이너의 모바일 보기<br /> </td> 
