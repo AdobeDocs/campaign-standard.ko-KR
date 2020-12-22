@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 8%
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
 
 # 이탈 요약{#bounce-summary}
 
-이 보고서에는 반송 자동 처리뿐만 아니라 게재 중에 발생한 전체 하드 및 소프트 오류에 대해 자세히 설명되어 있습니다.
+이 보고서는 바운스 자동 처리와 배달 중 발생한 전체 하드 및 소프트 오류에 대해 자세히 설명합니다([배달 실패 이해](../../sending/using/understanding-delivery-failures.md) 참조).
 
 ![](assets/campaign_reports_bounces.png)
 
