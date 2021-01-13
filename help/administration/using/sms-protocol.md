@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
+source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
 workflow-type: tm+mt
 source-wordcount: '8382'
 ht-degree: 0%
@@ -104,7 +104,7 @@ SMPP 전송 장치(&quot;패킷&quot;)를 PDU라고 합니다. **PDU**&#x200B;�
 
 예를 들어 MT를 전송할 때 전송기 연결이 사용되고 MT를 인식하는 `RESP`도 전송됨 채널을 통해 전송됩니다. MO(또는 SR)를 받으면 수신자 연결이 MO를 수신하고 MO를 인식하는 `RESP`를 전송하는 데 사용됩니다.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 Adobe Campaign Standard에서 MT 및 SR 화해는 MTA가 기본적으로 제공되므로 SMS 전용 프로세스가 없습니다.
 
@@ -500,7 +500,7 @@ TON(숫자 유형) 및 NPI(번호 매기기 계획 표시기)는 [SMPP 3.4 사�
 
 최대 창이 4인 전송 예:
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 이 창은 네트워크 링크에 높은 대기 시간이 있을 때 처리량을 늘리는 데 도움이 됩니다.  다음 메시지를 보내기 전에 커넥터가 `SUBMIT_SM_RESP`을 기다리지 않도록 윈도우의 값은 SMS/s 수와 링크의 지연 시간을 초 단위로 곱해야 합니다.
 창이 너무 크면 연결 문제가 발생할 경우 중복 메시지를 더 많이 보낼 수 있습니다. 또한, 대부분의 제공자들은 윈도우에 매우 엄격한 제한을 가지고 있으며 한계를 넘는 메시지를 거절합니다.
@@ -758,7 +758,7 @@ Adobe Campaign에서 개인화된 메시지가 작동하는 방식을 통해 메
 
 ## SMPP 커넥터 {#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 화살표는 데이터 흐름을 나타냅니다.
 
