@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 81%
+source-wordcount: '1299'
+ht-degree: 80%
 
 ---
 
@@ -77,6 +77,7 @@ ht-degree: 81%
 **무시됨** 유형의 일시적인 오류로 인해 메시지가 실패하면 게재 기간 동안 다시 시도됩니다. 오류 유형에 대한 자세한 내용은 [게재 실패 유형 및 이유](#delivery-failure-types-and-reasons)를 참조하십시오.
 
 다시 시도 횟수(전송을 시작한 다음 날에 수행되어야 하는 다시 시도 횟수) 및 다시 시도 사이의 최소 지연은 IP가 주어진 도메인에서 과거 및 현재 얼마나 잘 수행되고 있는지에 따라 Adobe Campaign Enhanced MTA에 의해 관리됩니다. Campaign의 **다시 시도** 설정은 무시됩니다.
+Adobe Campaign 향상된 MTA는 푸시 채널에 사용할 수 없습니다.
 
 게재 기간을 수정하려면 개제 또는 게재 템플릿의 고급 매개 변수로 이동하여 [유효 기간](../../administration/using/configuring-email-channel.md#validity-period-parameters) 섹션의 **[!UICONTROL Delivery duration]** 필드를 편집합니다.
 
