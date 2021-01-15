@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
