@@ -7,7 +7,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 5%
@@ -46,6 +46,6 @@ Adobe Campaign을 사용하면 대상/세그먼트를 다른 Adobe Experience Cl
 
    예를 들어 암호화된 이메일 주소 또는 SMS 번호를 해독할 수 있으므로 Adobe Campaign 데이터베이스에 프로필이 없더라도 사용자에게 트리거된 메시지를 보낼 수 있습니다.
 
-다음 다이어그램은 이 통합이 작동하는 방식을 자세히 설명합니다. 여기서 AAM은 Adobe Campaign Standard용 Adobe Audience Manager et ACS를 의미합니다.
+다음 다이어그램은 이 통합이 작동하는 방식을 자세히 설명합니다. 여기서 AAM은 Adobe Audience Manager 및 Adobe Campaign Standard의 ACS를 의미합니다.
 
 ![](assets/aam_diagram.png)
