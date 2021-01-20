@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Campaign Standard API의 장점 {#why-using-campaign-standard-apis}
 
-Adobe Campaign Standard은 API를 제공하여 기존 시스템이 ACS 플랫폼과 통합되어 실시간으로 실제 문제를 해결할 수 있도록 합니다.
+Adobe Campaign Standard은 기존 시스템이 캠페인 플랫폼과 통합되므로 실시간으로 실제 문제를 해결할 수 있는 API를 제공합니다.
 
 등록 페이지 또는 옵트아웃 페이지와 같은 공개 웹 사이트는 프로필 정보를 저장하기 위해 백엔드 시스템에 연결해야 합니다. Adobe Campaign과 같은 백엔드 시스템은 프로필 데이터를 인제스트하여 사용자 정의 작업을 수행할 수 있는 유연성과 능력을 갖추고 있습니다.
 
