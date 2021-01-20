@@ -7,7 +7,7 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 5%
@@ -69,8 +69,8 @@ ht-degree: 5%
 
 | 지역 | 동적 보고 | Microsoft Dynamics 365 커넥터 |
 |---|---|---|
-| 미국 및 APAC(아시아 태평양) | **사용 가능한** 기능 <br> ExternalID를 제외하고 즉시 사용 가능한 프로필 및 사용자 지정 프로필 정보가 미국 보고 센터로 푸시되지 않습니다. | **사용 가능한** 기능 <br>외부 ID 및 수신자 ID를 제외하고 미국 데이터 센터로 전송된 특별한 필드나 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 미국 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드. <br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이  [페이지를 참조하십시오](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
-| EMEA(유럽 중동 및 아프리카) | **사용 가능한** 기능 <br>ExternalID를 제외하고 EMEA 보고 센터에 즉시 사용 가능한 프로필 및 사용자 지정 프로필 정보가 푸시되지 않습니다. | **사용 가능한 기능.** <br>외부 ID 및 수신자 ID를 제외하고 EMEA 데이터 센터에 즉시 전송되거나 사용자 지정 프로필 필드가 전송되지 않습니다. <br>미러 페이지 ID를 제외한 EMEA 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드.  <br>**[!UICONTROL Control data]**이 파일에는 Adobe I/O 등록 데이터 및 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID가 들어 있습니다.<br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이  [페이지를 참조하십시오](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
+| 미국 및 APAC(아시아 태평양) | **사용 가능한** 기능 <br> ExternalID를 제외하고 즉시 사용 가능한 프로필 및 사용자 지정 프로필 정보가 미국 보고 센터로 푸시되지 않습니다. | **사용 가능한** 기능 <br>외부 ID 및 수신자 ID를 제외하고 미국 데이터 센터로 전송된 특별한 필드나 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 미국 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드. <br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이  [페이지를 참조하십시오](../../integrating/using/d365-acs-get-started.md). |
+| EMEA(유럽 중동 및 아프리카) | **사용 가능한** 기능 <br>ExternalID를 제외하고 EMEA 보고 센터에 즉시 사용 가능한 프로필 및 사용자 지정 프로필 정보가 푸시되지 않습니다. | **사용 가능한 기능.** <br>외부 ID 및 수신자 ID를 제외하고 EMEA 데이터 센터에 즉시 전송되거나 사용자 지정 프로필 필드가 전송되지 않습니다. <br>미러 페이지 ID를 제외한 EMEA 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드.  <br>**[!UICONTROL Control data]**이 파일에는 Adobe I/O 등록 데이터 및 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID가 들어 있습니다.<br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이  [페이지를 참조하십시오](../../integrating/using/d365-acs-get-started.md). |
 
 이 선택 사항은 최종적인 것이 아닙니다. **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;에서 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**&#x200B;을 선택하여 언제든지 변경할 수 있습니다.
 
