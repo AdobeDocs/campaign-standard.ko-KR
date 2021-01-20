@@ -7,7 +7,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Campaign Standard은 마케팅 데이터베이스를 확장하는 데 도움이 
 Microsoft Dynamics 365와의 Campaign Standard 통합을 통해 Microsoft Dynamics 365의 연락처 데이터를 Campaign 데이터베이스로 전달할 수 있습니다.
 그런 다음 이러한 연락처는 프로필 목록에 표시되며 마케팅 캠페인에서 타깃팅할 수 있습니다.
 
-이 통합에 대한 자세한 내용은 [전용 설명서](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)를 참조하십시오.
+이 통합에 대한 자세한 내용은 [전용 설명서](../../integrating/using/d365-acs-get-started.md)를 참조하십시오.
 
 >[!NOTE]
 >
