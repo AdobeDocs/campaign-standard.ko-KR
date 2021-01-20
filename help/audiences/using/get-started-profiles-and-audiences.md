@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 20%
@@ -60,7 +60,7 @@ Adobe Campaign은 실시간으로 풍부한 고객 프로파일을 구축하므�
 
 연락처에 메시지를 보내기 전에 해당 담당자의 권한을 받아야 합니다. 그렇지 않은 경우 이메일이 스팸으로 표시되어 플랫폼 배포 가능성에 영향을 줄 수 있습니다. 올바른 프로필 데이터베이스를 구축하려면 이 권한을 첫 번째 단계로 보호하십시오.
 
-Adobe Campaign에서는 **서비스](../../audiences/using/creating-a-service.md)와 [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md)를 통해 &lt;a0/>쉬운 옵트인 및 옵트아웃 메커니즘**&#x200B;을 사용하여 연락처 정보를 업데이트하고 데이터베이스를 확장하는 것이 좋습니다.[
+Adobe Campaign에서는 **서비스](../../audiences/using/creating-a-service.md)와 [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md)를 통해 [쉬운 옵트인 및 옵트아웃 메커니즘**&#x200B;을 사용하여 연락처 정보를 업데이트하고 데이터베이스를 확장하는 것이 좋습니다.
 
 메시지에 **구독 취소 링크**&#x200B;를 제공하면 필요할 때 프로파일을에 차단 목록 추가할 수 있으므로 플랫폼 제공을 향상시킬 수 있습니다. 관리에 대한 차단 목록 자세한 내용은 [캠페인 옵트인 및 옵트아웃 정보를 참조하십시오](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
@@ -86,7 +86,7 @@ Campaign의 개인 정보 및 동의 및 관리 방법은 [이 섹션](../../sta
 ## 추가 리소스
 
 * [대상 대상 서비스 작업](../../audiences/using/aep-about-audience-destinations-service.md)
-* [Microsoft Dynamics 365를 사용한 작업](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Microsoft Dynamics 365를 사용한 작업](../../integrating/using/d365-acs-get-started.md)
 * [Adobe 공유 대상](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [워크플로우를 사용하여 프로필 가져오기](../../automating/using/creating-import-workflow-templates.md)
 * [프로필 및 대상 비디오](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
