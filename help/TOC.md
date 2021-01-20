@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
-translation-type: ht
-source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: ht
-source-wordcount: '1710'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+workflow-type: tm+mt
+source-wordcount: '1728'
+ht-degree: 97%
 
 ---
 
@@ -261,14 +261,17 @@ ht-degree: 100%
       + [트리거 테스트](integrating/using/testing-your-triggers.md)
       + [포기 트리거 사용 사례](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 및 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [ Dynamics 365 통합 시작](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [Campaign과 Dynamics 365 간의 데이터 관리](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [통합 요청](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [Adobe I/O 구성](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Campaign 통합을 위해 Dynamics 365 구성](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Campaign 사용자 지정 리소스 및 Dynamics 365 사용자 지정 엔터티 매핑](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-      + [ Dynamics 365 통합 사용](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [통합 가드 레일](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Microsoft Dynamics 365 통합 시작하기](integrating/using/d365-acs-get-started.md)
+      + [모범 사례 및 제한 사항](integrating/using/d365-acs-notices-and-recommendations.md)
+      + [Microsoft Dynamics 365 구성](integrating/using/d365-acs-configure-d365.md)
+      + [캠페인 및 Adobe I/O 구성](integrating/using/d365-acs-configure-adobe-io.md)
+      + 통합 앱 {#configure-integration-tool} 구성
+         + [통합 앱 시작하기](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [통합 앱 액세스](integrating/using/d365-acs-self-service-app-control-access.md)
+         + [통합 앱과 시스템 연결](integrating/using/d365-acs-self-service-app-settings.md)
+         + [동기화 워크플로우 관리](integrating/using/d365-acs-self-service-app-workflows.md)
+         + [Microsoft Dynamics 365와 Campaign 간의 데이터 매핑](integrating/using/d365-acs-self-service-app-data-sync.md)
+      + [Microsoft Dynamics 365 통합 사용](integrating/using/d365-acs-using-the-integration.md)
 + 프로세스 및 데이터 관리 {#managing-processes-and-data}
    + [데이터 및 프로세스 관리 시작](automating/using/get-started-workflows.md)
    + 워크플로우 일반 작업 {#workflow-general-operation}
