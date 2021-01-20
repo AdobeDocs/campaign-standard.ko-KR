@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 사용자 정의 리소스와 상호 작용 {#interacting-with-custom-resources}
 
-**/customResources** 종단점을 사용하면 REST에 ACS 사용자 지정 리소스를 표시할 수 있습니다. 이 API를 기반으로 사용자 지정 엔터티 및 외부 끝점 간의 통합을 사용할 수 있습니다.
+**/customResources** 끝점을 사용하면 REST에 캠페인 사용자 지정 리소스를 표시할 수 있습니다. 이 API를 기반으로 사용자 지정 엔터티 및 외부 끝점 간의 통합을 사용할 수 있습니다.
 
 /customResources 끝점은 /profileAndServices 끝점과 정확하게 동일한 비헤이비어를 갖습니다.
 
