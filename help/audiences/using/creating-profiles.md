@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 89%
@@ -30,7 +30,7 @@ Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수
 * [워크플로우](../../automating/using/creating-import-workflow-templates.md)를 통해 파일에서 프로필 목록 가져오기
 * [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md)를 통해 온라인으로 데이터 수집
 * [REST API](../../api/using/get-started-apis.md)를 통해 벌크 만들기
-* [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)에서 프로필 동기화
+* [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)에서 프로필 동기화
 * 아래 설명과 같이 그래픽 인터페이스 화면을 사용하여 데이터를 입력합니다.
 
 예를 들어 사용자 인터페이스에서 직접 새 프로필을 만들려면 아래 단계를 수행하십시오.
