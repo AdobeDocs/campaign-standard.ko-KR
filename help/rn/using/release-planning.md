@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 505e2292639f617cbcedd8c7227529bf76d54508
+source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 96%
@@ -41,11 +41,11 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
  <tbody>
   <tr>
    <td>단계<br /> </td>
-   <td>2021년 1월 25일 - 27일<br /> </td>
+   <td>2021년 2월 1일 - 2일<br /> </td>
   </tr>
   <tr>
    <td> 프로덕션<br /> </td>
-   <td>2021년 2월 1일 - 8일<br /> </td>
+   <td>2021년 2월 8일 - 15일<br /> </td>
   </tr>
  </tbody>
 </table>
