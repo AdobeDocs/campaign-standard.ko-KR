@@ -7,9 +7,9 @@ user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1731'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
 + [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/release-notes.md)
+   + [조기 릴리스 노트](rn/using/early-release-notes.md)
    + 이전 릴리스 {#previous-releases}
       + [2020년 릴리스 정보](rn/using/release-notes-2020.md)
       + [2019년 릴리스 정보](rn/using/release-notes-2019.md)
