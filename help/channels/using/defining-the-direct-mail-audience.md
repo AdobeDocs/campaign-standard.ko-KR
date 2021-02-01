@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -28,7 +28,7 @@ DM의 경우 대상 지정된 프로필은 DM 공급자에게 보낼 추출 파�
 
 대상 지정된 프로필마다 추출 파일에 새 줄이 추가됩니다. 각 수신자에 대해 포함될 프로필 정보의 양은 [추출 정의](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 화면에서 정의됩니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >우편 주소 정보는 DM 공급자에게 필수이므로 프로필에 포함했는지 확인하십시오. 또한 프로필 정보에 있는 **[!UICONTROL Address specified]** 상자를 선택했는지 확인하십시오. [권장 사항](../../channels/using/about-direct-mail.md#recommendations)을 참조하십시오.
 
