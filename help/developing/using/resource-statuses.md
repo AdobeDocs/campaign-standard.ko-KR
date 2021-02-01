@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
    >
    >다시 초안을 설정하려는 리소스에 &quot;게시됨&quot; 상태의 다른 리소스를 통한 링크가 여전히 포함되어 있는 경우 **[!UICONTROL Cancel re-draft]** 옵션을 사용할 수 있습니다. 이 옵션을 사용하면 &quot;다시 초안&quot; 프로세스를 되돌릴 수 있습니다. 그러면 사용자 지정 리소스가 원래 상태로 돌아갑니다.
 
-* **게시됨**:리소스가 게시되었습니다. 마지막 수정 날짜 이후에 리소스가 수정되면 최신 수정 사항을 고려하기 위해 리소스를 다시 게시하도록 요청하는 메시지가 표시됩니다.
+* **게시됨**:리소스가 게시되었습니다. 마지막 수정 날짜 이후에 리소스가 수정되면 최신 수정 사항을 고려하기 위해 리소스를 다시 게시하도록 초대하는 메시지가 표시됩니다.
 
 **[!UICONTROL Do not publish latest modifications]** 필드는 향후 발행물 제작 시 수정 사항을 고려하지 않습니다.
 
