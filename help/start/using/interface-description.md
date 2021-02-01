@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
+source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 81%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
@@ -64,11 +64,11 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 ### 도움말 {#help}
 
-**도움말** 아이콘은 Adobe Experience League을 제품에 가져옵니다.
+오른쪽 상단 모서리에서 **도움말** 아이콘이 Adobe Experience League을 제품에 가져옵니다.
 
 ![](assets/ux_help.png)
 
-* **[!UICONTROL Search]** 필드:검색 결과에는 문서 및 도움말 문서, 커뮤니티 포럼 결과 및 기타 비디오 컨텐츠가 포함되어 있으므로 더 많은 컨텐츠에 손쉽게 액세스하여 애플리케이션을 최대한 활용할 수 있습니다.
+**[!UICONTROL Search]** 필드를 사용하여 지침을 찾습니다. 검색 결과에는 문서 및 도움말 문서, 커뮤니티 포럼 및 비디오 컨텐츠의 결과 등이 포함되어 있으므로 애플리케이션을 최대한 활용할 수 있도록 더 많은 컨텐츠에 손쉽게 액세스할 수 있습니다.
 
 도움말 및 지원을 찾는 데 도움이 되는 3개의 탭이 있습니다.
 
