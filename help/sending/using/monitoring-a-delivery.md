@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 86%
@@ -19,7 +19,8 @@ ht-degree: 86%
 # 게재 모니터링{#monitoring-a-delivery}
 
 배송을 모니터링하고 배송의 영향을 측정하는 방법에는 여러 가지가 있습니다. 기능 관리자는 메시지 로그 및 배달 로그에 액세스할 수 있습니다.
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >**[!UICONTROL Administration]** 역할 및 **에 대한 액세스 권한이 있는 [관리자](../../administration/using/users-management.md#functional-administrators)만 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다.** 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블(프로필, 배달)부터 시작합니다.
 
