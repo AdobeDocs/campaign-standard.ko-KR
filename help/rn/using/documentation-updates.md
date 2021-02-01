@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
 workflow-type: tm+mt
-source-wordcount: '6372'
-ht-degree: 100%
+source-wordcount: '6511'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 100%
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+## 릴리스 21.1 - 2021년 2월 {#release-21-1---february-2021}
+
+**릴리스에 포함된 새로운 기능**
+
+이메일 피드백 서비스 - [자세히 보기](../../sending/using/confirming-the-send.md#email-feedback-service)
+
+Adobe Experience Manager 통합 개선 사항 - [자세히 보기](../../integrating/using/creating-multilingual-email-aem.md)
+
+통합 Experience Cloud 인터페이스 - [자세히 보기](../../start/using/interface-description.md#top-bar)
+
+**릴리스와 함께 제공되는 기타 설명서 업데이트**
+
+이메일, 이름, 성 또는 사용자 정의 필드를 기반으로 프로필을 검색하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../audiences/using/integrated-customer-profile.md)
+
+외부 매개 변수를 사용하여 작업 흐름을 호출할 때 지정된 함수의 값을 반환할 수 있는 새로운 GetOption 함수에 정보가 추가되었습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+
+**[!UICONTROL Transfer file]** 활동을 사용한 후 사용할 수 있는 새 **[!UICONTROL filesCount]** 출력 변수에 정보가 추가되었습니다. [자세한 내용](../../automating/using/transfer-file.md#output-variables)
+
+**이메일 채널 구성** 섹션이 최신 해당 이메일 설정이 무엇인지 명확히 알 수 있도록 업데이트되었습니다. 특정 고객에 대해 여전히 사용 중인 일부 이전 매개 변수가 이 페이지 하단에 나열됩니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
 
 ## 2020년 12월 {#doc-updates-december-2020}
 
