@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 1e05db3fecc87a026750f40acb0ff063706e3f38
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Microsoft Dynamics 365 셀프 서비스 통합 애플리케이션과 Adobe Campa
 
 처음으로 UI를 검색할 때 다음과 같은 헤더가 있는 페이지가 표시됩니다.
 
-![](assets/d365-to-acs-ui-header.png)
+![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Microsoft Dynamics 365 셀프 서비스 통합 애플리케이션과 Adobe Campa
 
 올바른 조직과 인스턴스가 있는 경우 &quot;햄버거&quot; 메뉴를 클릭하여 드롭다운 메뉴를 표시합니다. 그런 다음 드롭다운 메뉴에서 **[!UICONTROL Settings...]**&#x200B;을 클릭하여 Microsoft Dynamics 365 및 Campaign에 대한 자격 증명을 입력하는 페이지를 방문합니다(아래 참조).
 
-![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 **[!UICONTROL Settings]** 페이지에서 다음 섹션을 입력합니다.
 
@@ -94,11 +94,11 @@ Microsoft Dynamics 365 셀프 서비스 통합 애플리케이션과 Adobe Campa
 
 **[!UICONTROL Workflows]** 페이지에서 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로우와 연관된 연필 아이콘을 클릭하여 구성을 편집합니다.
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 페이지에서 구성한 테이블 매핑 목록에 액세스할 수 있습니다.  기본 연락처/프로필 매핑이 기본적으로 설정되어 있습니다. 다른 모든 사용자 지정 엔터티는 별도로 구성해야 합니다.
 
-![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
 **[!UICONTROL Edit Table Mapping]** 페이지에서 **[!UICONTROL Mappings]** 섹션을 확인하여 Microsoft Dynamics 365의 필드가 Campaign의 올바른 필드에 매핑되고 있는지 확인합니다. 다른 매핑을 추가해야 하는 경우 이제 바꾸거나 필터뿐만 아니라 다른 매핑도 추가합니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md)
 
@@ -111,7 +111,7 @@ Microsoft Dynamics 365 셀프 서비스 통합 애플리케이션과 Adobe Campa
 >**strongly**&#x200B;에서는 프로덕션 환경에서 실행하기 전에 먼저 스테이지나 개발 환경에서 이 작업을 실행하는 것이 좋습니다. 헤더에서 단계/개발 인스턴스가 선택되었는지 확인하십시오.
 
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
 실행 후에는 Microsoft Dynamics 365에서 항목을 추가 또는 수정하고 몇 분 내에 Adobe Campaign에서 이러한 변경 사항을 준수하여 테스트할 수 있습니다. 언제든지 이 프로세스를 중지해야 하는 경우 동일한 버튼을 눌러 중단하면 됩니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
@@ -124,9 +124,9 @@ Microsoft Dynamics 365 셀프 서비스 통합 애플리케이션과 Adobe Campa
 
 보고 편집할 **ORG** 및 **INSTANCE**&#x200B;을 선택합니다. 이러한 필드는 읽기 전용으로 표시되지만 마우스 커서를 필드 위에 놓으면 편집할 수 있습니다.
 
-머리글 오른쪽에 3개의 가로 줄 ![](assets/d365-to-acs-icon-hamburger.png)이 있는 단추를 클릭하면 드롭다운 메뉴가 표시됩니다.
+머리글 오른쪽에 3개의 가로 줄 ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png)이 있는 단추를 클릭하면 드롭다운 메뉴가 표시됩니다.
 
-드롭다운 메뉴의 항목은
+드롭다운 메뉴의 항목은 다음과 같습니다.
 
 * **설정**:이 옵션을 선택하면 Microsoft Dynamics 365 및 Adobe Campaign에 대한 API 자격 증명과 애플리케이션에 대한 다른 일반 설정을 지정할 수 있는 화면이 표시됩니다.
 
@@ -146,14 +146,14 @@ Microsoft Dynamics 365 셀프 서비스 통합 애플리케이션과 Adobe Campa
 
 다음은 탐색 표시 및 페이지 제목을 표시하는 **[!UICONTROL Edit Table Mapping]** 화면의 예입니다. 이 경우 **[!UICONTROL Workflows]** 또는 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 텍스트를 클릭하여 이전 화면 중 하나로 이동할 수 있습니다. **[!UICONTROL Edit Table Mapping]** 탐색 표시는 현재 화면이므로 이 경우 클릭할 수 없습니다.
 
-![](assets/d365-to-acs-breadcrumbs-ingress.png)
+![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
 ### 공통 단추 {#app-buttons}
 
 다음 아이콘은 셀프 서비스 앱의 여러 페이지에 사용됩니다.
 
-![](assets/d365-to-acs-icon-add.png) - 목록에 새 항목을 추가합니다.
+![](assets/do-not-localize/d365-to-acs-icon-add.png) - 목록에 새 항목을 추가합니다.
 
-![](assets/d365-to-acs-icon-edit.png) - 이미 존재하는 항목 편집
+![](assets/do-not-localize/d365-to-acs-icon-edit.png) - 이미 존재하는 항목 편집
 
-![](assets/d365-to-acs-icon-delete.png) - 항목 목록에서 항목 삭제
+![](assets/do-not-localize/d365-to-acs-icon-delete.png) - 항목 목록에서 항목 삭제
