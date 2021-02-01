@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Microsoft Dynamics 365 자격 증명은 통합 응용 프로그램에서 Microsoft Dynamics 365에서 데이터를 가져올 수 있는 권한을 제공합니다.  이 화면에 붙여넣을 값을 생성하려면 먼저 [Configure Microsoft Dynamics 365 for Campaign integration](../../integrating/using/d365-acs-configure-d365.md) 화면의 단계를 따라야 합니다. 아래 설명된 입력은 이 화면을 참조합니다.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
 * **[!UICONTROL Client ID]**:이 섹션에서 클라이언트 ID를 참조하는 방법 [을 알아봅니다.](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
@@ -39,7 +39,7 @@ Adobe Campaign 자격 증명은 [Adobe I/O](https://www.adobe.io/)을 사용하�
 
 다음 이미지는 Adobe I/O과 설정 화면 입력 간의 매핑을 자세히 설명합니다.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
 * *개인 키*:이를 정의하는 프로세스는 &quot;공개/개인 키 air 생성&quot; 버튼을 클릭하여 시작합니다. 다운로드해야 하는 zip 파일이 만들어집니다. 다운로드한 다음 파일의 압축을 해제하면 certificate_pub.crt 및 private.key라는 두 개의 파일이 만들어집니다. private.key를 안전한 위치에 놓고 공유하지 마십시오. 텍스트 편집기에서 private.key 파일을 엽니다. 텍스트 편집기에서 전체 값을 복사합니다(PC의 경우 ctrl-A, Mac의 경우 cmd-A, Mac의 경우 cmd-C). 여기에는 &quot;개인 키 시작&quot; 및 &quot;개인 키 종료&quot;가 모두 포함되어야 합니다. 전체 여러 줄로 된 텍스트를 설정 화면의 &quot;개인 키&quot; 입력에 붙여넣습니다.
 
@@ -58,7 +58,7 @@ SFTP 서버를 설정하는 또 다른 이유는 옵트인/아웃 작업 과정�
 
 Microsoft Dynamics 365 통합에 대한 캠페인 SFTP 설정을 정의하려면 다음 섹션에 액세스합니다.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
 다음을 지정해야 합니다.
 
