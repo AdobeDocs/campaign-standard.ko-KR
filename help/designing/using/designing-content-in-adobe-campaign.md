@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1250'
 ht-degree: 90%
 
 ---
@@ -118,7 +118,9 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 
    메시지를 보내기 전에 미리 봅니다. Adobe Campaign은 Litmus를 사용하여 이메일 렌더링을 테스트할 수 있는 방법을 제공합니다. 자세한 내용은 [이메일 렌더링](../../sending/using/email-rendering.md)을 참조하십시오.
 
-메시지에 대한 디자인 및 일반적인 우수 사례는 다음 섹션에 있습니다.[배달 우수 사례](../../sending/using/delivery-best-practices.md).
+* 레퍼러 메타 태그는 이메일 디자이너에서 지원되지 않습니다.
+
+메시지에 대한 자세한 디자인 및 일반 모범 사례는 다음 Adobe Campaign 단계별 가이드를 참조하십시오. [Adobe Campaign을 통한 게재 모범 사례](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
 
 ### 조각 업데이트 {#email-designer-updates}
 
