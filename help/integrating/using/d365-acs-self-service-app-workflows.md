@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 통합 애플리케이션에는 3개의 워크플로우가 포함되어 있습니다.
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365에서 Campaign으로 전환**
 * Microsoft Dynamics 365에서 Adobe Campaign으로 *연락처* 보내기
@@ -71,4 +71,4 @@ ht-degree: 0%
 
 작업 과정을 업데이트했지만 (b) 이 작업 과정의 중지/시작을 수행하지 않은 경우 알려 주는 경고 표시가 **중지** 단추에 추가됩니다.
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)
