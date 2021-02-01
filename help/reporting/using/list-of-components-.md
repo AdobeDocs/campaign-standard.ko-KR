@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -247,8 +247,12 @@ ht-degree: 1%
    <td> 배달을 연 받는 사람 수입니다.<br /> </td> 
   </tr> 
   <tr> 
+   <td> 고유 구독 취소<br /> </td> 
+   <td> 구독 취소 링크를 클릭한 받는 사람 수입니다.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> 구독 취소 비율<br /> </td> 
-   <td> 배달된 메시지와 비교하여 받는 사람이 구독하지 않는 비율(%)<br /> </td> 
+   <td> 배달된 메시지와 비교하여 고유 구독 취소 횟수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 구독 취소<br /> </td> 
