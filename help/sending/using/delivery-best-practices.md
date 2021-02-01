@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: c477012a8404b897640ca3ece1c71e9014adf9bd
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 10%
@@ -25,7 +25,7 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[템플릿](use-templates.md)**  사용 - 새로운 전달 방식 지원 및 고정
+**[템플릿](use-templates.md)**  사용 - 새로운 전달 간소화 및 가속화
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
