@@ -2,12 +2,12 @@
 solution: Campaign Standard
 product: campaign
 title: 개요
-description: 이 섹션에서는 외부 매개 변수를 사용한 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
+description: 이 섹션에서는 외부 매개 변수를 사용하여 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 4%
