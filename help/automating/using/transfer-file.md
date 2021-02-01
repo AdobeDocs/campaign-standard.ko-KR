@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 99%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -135,13 +135,15 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 **[!UICONTROL Define a file path]** 또는 **[!UICONTROL Use a dynamic file path]**을(를) 원할 경우 선택합니다.
 **[!UICONTROL Use a dynamic file path]** 옵션을 선택하면 표준 표현식 및 이벤트 변수를 사용하여 전송할 파일의 이름을 개인화할 수 있습니다. 자세한 정보는 이 [페이지](../../automating/using/customizing-workflow-external-parameters.md)를 참조하십시오.
 
-경로는 Adobe Campaign 서버의 저장소 공간 디렉토리에 대한 상대적 경로여야 합니다. 파일은 **sftp&lt;인스턴스명>/** 디렉토리에 있습니다. 또한 저장소 공간보다 상위 디렉토리는 검색할 수 없습니다. 예제:
+경로는 Adobe Campaign 서버의 저장소 공간 디렉토리에 대한 상대적 경로여야 합니다. 파일은 **sftp&lt;인스턴스명>/** 디렉토리에 있습니다. 또한 저장소 공간보다 상위 디렉토리는 검색할 수 없습니다.
 
-    >**user&amp;lt;yourinstancename>/my_recipients.csv**는 올바른 경로입니다.
-    >
-    >**../hello/my_recipients.csv**는 잘못된 경로입니다.
-    >
-    >**//myserver/hello/myrecipients.csv**는 잘못된 경로입니다.
+예제:
+
+`user&lt;yourinstancename>/my_recipients.csv` 가 올바른지 확인하십시오.
+
+`../hello/my_recipients.csv` 가 잘못되었습니다.
+
+`//myserver/hello/myrecipients.csv` 가 잘못되었습니다.
 
 ## 내역 설정 {#historization-settings}
 
@@ -160,3 +162,16 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 >[!NOTE]
 >
 >활동을 다시 실행하지 않는 경우 해당 폴더는 확인되거나 삭제되지 않습니다. 따라서 대용량 파일을 전송할 때는 주의하십시오.
+
+## 출력 변수 {#output-variables}
+
+**[!UICONTROL Transfer file]** 활동은 이벤트 변수를 출력으로 생성하므로 다른 활동에서 활용할 수 있습니다. 예를 들어 [Test](../../automating/using/test.md) 활동을 사용하여 다운로드한 파일의 수를 확인할 수 있습니다.
+
+외부 신호를 사용하여 이벤트 변수를 다른 워크플로에 전달할 수도 있습니다(외부 매개 변수](../../automating/using/customizing-workflow-external-parameters.md)로 워크플로 사용자 지정 참조).[
+
+사용 가능한 출력 변수는 다음과 같습니다.
+
+* **[!UICONTROL fileName]**:변환된 파일의 이름입니다.
+* **[!UICONTROL filesCount]**:변환된 파일 수입니다.
+
+
