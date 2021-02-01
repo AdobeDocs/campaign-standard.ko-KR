@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 93%
+source-wordcount: '1120'
+ht-degree: 89%
 
 ---
 
@@ -49,6 +49,10 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 
 기본적으로 20개 이상의 활성 워크플로우 실행을 동시에 작업하지 않는 것이 좋습니다. 한계에 이르면 워크플로우가 성능에 영향을 주지 않도록 큐에 대기 됩니다. 마찬가지로, Adobe에서는 시간에 따라 워크플로우를 분산하여 실행하는 것을 권장합니다.
 특정 컨텍스트에서는 20개 이상의 워크플로우를 실행해야 할 수 있습니다. 예약된 실행을 기다리는 워크플로우에는 적용되지 않습니다.  이 경우 캠페인 전문가와 사용 사례를 확인하고 Adobe 고객 지원 센터에 문의하여 한도를 늘려야 합니다.
+
+>[!NOTE]
+>
+>워크플로우를 시작하기 전에 [!DNL Campaign Standard]에서 워크플로우를 실행할 수 있는 시스템 실제 메모리가 충분한지 확인합니다. 사용 가능한 메모리가 부족하면 서버의 로드가 줄어들고 시스템 메모리가 증가할 때까지 워크플로 실행이 지연된다는 메시지가 표시됩니다.
 
 ### 빈도
 
