@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,7 @@ $(vars/@parameterName)
    | DateFormat | 2차 매개 변수에 지정된 형식을 사용하여 날짜를 서식 지정합니다(예: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;날짜>,&lt;형식>) |
    | 파일 이름 | 파일 경로의 이름을 반환합니다. | FileName(&lt;String>) |
    | FileExt | 파일 경로의 확장명을 반환합니다. | FileExt(&lt;String>) |
+   | GetOption | 지정된 함수의 값을 반환합니다. | GetOption(&lt;optionName> |
    | IsNull | 문자열 또는 날짜가 null인지 여부를 나타냅니다. | IsNull(&lt;String/date>) |
    | UrlUtf8Encode | UTF8로 URL을 인코딩합니다. | UrlUtf8Encode(&lt;String>) |
 
