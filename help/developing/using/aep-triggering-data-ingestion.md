@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
@@ -117,7 +117,7 @@ GET 작업은 아래 정보를 반환합니다.
 
 GET 작업에 가능한 응답은 다음과 같습니다.
 
-* 요청을 인제스트했습니다.
+* 인제스트 요청 성공:
 
    ```
    {
