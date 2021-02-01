@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ XDM 스키마를 업데이트하려면 다음 단계를 수행합니다.
 
 1. XDM 스키마로 이동합니다.
 
-1. 스키마에 &quot;개인 정보 보호&quot; 믹스를 추가합니다.
+1. **[!UICONTROL Profile Privacy]** 믹싱을 스키마에 추가합니다.
 
    ![](assets/aep_datamapping_privacyfield.png)
 
