@@ -9,15 +9,15 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
+source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2587'
 ht-degree: 3%
 
 ---
 
 
-# 새 릴리스 {#new-release}
+# 조기 릴리스 노트 {#new-release}
 
 [릴리스 계획](../../rn/using/release-planning.md) |  [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) |  [설명서 업데이트](../../rn/using/documentation-updates.md) |  [최신 릴리스 노트](../../rn/using/release-notes.md)   [| 사용 중단된 기능](../../rn/using/deprecated-features.md)
 
