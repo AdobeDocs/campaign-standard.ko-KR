@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 85%
+source-wordcount: '513'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 85%
 
 Adobe Campaign에서 **전자 메일 렌더링을** 위해 사용할 수 있는 모바일, 메시징 및 웹 메일 클라이언트는 Litmus [웹 사이트](https://litmus.com/email-testing) (**모든 이메일 클라이언트 보기** 클릭)에 나열되어 있습니다.
 
-## 전자 메일 렌더링 보고서 확인 {#checking-the-email-rendering-report}
+## 이메일 렌더링 생성 중 {#checking-the-email-rendering-report}
 
 전자 메일 게재를 만들고 타겟팅된 모집단과 해당 컨텐츠까지 정의했으면 아래 단계를 따르십시오.
 
@@ -66,20 +66,21 @@ Adobe Campaign에서 **전자 메일 렌더링을** 위해 사용할 수 있는 
 * [증명 보내기](../../sending/using/sending-proofs.md)
 * [쿼리 편집기](../../automating/using/editing-queries.md#about-query-editor)
 
-## 전자 메일 렌더링 보고서 설명 {#email-rendering-report-description}
+## 이메일 렌더링 보고서 {#email-rendering-report-description}
 
 이 보고서는 수신자에게 보여지는 전자 메일 주소를 표시합니다. 전자 메일 렌더링은 브라우저, 모바일 디바이스 또는 전자 메일 애플리케이션을 통해서와 같이 수신자가 전자 메일 게재를 여는 방법에 따라 다를 수 있습니다.
 
->[!NOTE]
->
->사용 가능한 렌더링 수는 사용권 계약에 나와 있습니다. **전자 메일 렌더링**&#x200B;이 활성화된 각 게재는 사용 가능한 렌더링(토큰으로 알려져 있음)을 하나씩 감소시킵니다.
->
->토큰은 전체 이메일 렌더링 보고서가 아니라 각 개별 렌더링에 대해 계산됩니다. 즉,
->
->**받은** 편지함 렌더링 보고서가 생성될 때마다 메시징 클라이언트당 하나의 토큰을 공제합니다.Outlook 2000 렌더링을 위한 토큰 하나, Outlook 렌더링을 위한 토큰 하나, Apple Mail 렌더링을 위한 토큰 하나.
->
->**동일한 전달의 경우** 이메일 렌더링을 다시 생성할 경우 사용 가능한 토큰 수가 생성된 렌더링 수에 따라 다시 감소됩니다.
+### 이메일 렌더링 토큰
 
+사용 가능한 렌더링 수는 사용권 계약에 나와 있습니다. **전자 메일 렌더링**&#x200B;이 활성화된 각 게재는 사용 가능한 렌더링(토큰으로 알려져 있음)을 하나씩 감소시킵니다.
+
+토큰은 전체 이메일 렌더링 보고서가 아니라 각 개별 렌더링에 대해 계산됩니다. 즉,
+
+* **이메일** 렌더링 보고서가 생성될 때마다 메시징 클라이언트당 하나의 토큰을 공제합니다.Outlook 2000 렌더링을 위한 토큰 하나, Outlook 렌더링을 위한 토큰 하나, Apple Mail 렌더링을 위한 토큰 하나.
+
+* **동일한 전달의 경우** 이메일 렌더링을 다시 생성할 경우 사용 가능한 토큰 수가 생성된 렌더링 수에 따라 다시 감소됩니다.
+
+### 보고서 요약
 
 보고서 요약에는 받은 메시지, 원치 않는 메시지(스팸), 받지 못한 메시지 또는 수신 대기 중인 메시지 수가 나와 있습니다.
 
