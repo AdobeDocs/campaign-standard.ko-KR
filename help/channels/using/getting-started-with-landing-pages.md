@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 97%
@@ -40,7 +40,7 @@ ht-degree: 97%
 * 랜딩 페이지는 **[!UICONTROL Profile]** 및 **[!UICONTROL Subscription]** 리소스로만 제한됩니다. 레코드는 **[!UICONTROL Profile]**&#x200B;와(과) **[!UICONTROL Service]**에 대한 구독/구독 취소에서 저장 및 업데이트됩니다.
 리소스 구성에 대한 자세한 내용은 [리소스의 데이터 구조 구성](../../developing/using/configuring-the-resource-s-data-structure.md)을 참조하십시오.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >랜딩 페이지는 **[!UICONTROL Profile]** 및 **[!UICONTROL Subscription]** 이외의 리소스의 데이터를 표시하거나 업데이트할 수 없습니다 .
 
@@ -113,7 +113,7 @@ ht-degree: 97%
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >랜딩 페이지 테스트는 프로필로만 수행할 수 있습니다. 테스트 프로필로는 수행할 수 없습니다. 양식이 제출되면 선택한 프로필의 데이터가 실제로 업데이트됩니다. 실제 프로필을 수정하지 않으려면 가짜 고객 프로필을 사용하십시오.
 
