@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1773'
 ht-degree: 85%
 
 ---
@@ -102,7 +102,7 @@ OAuth 2.0 외부 계정의 경우 다음 세부 정보를 제공합니다.
 * **OAuth 2.0 중요 자격 증명**:이 섹션은 본질적으로 민감한 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 마스크 처리됩니다.이때 읽을 수도 편집할 수도 없습니다. 인증 끝점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
 * **OAuth 2.0 비중요 자격 증명**:이 섹션은 본질적으로 중요하지 않은 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 표시됩니다.편집할 수도 있습니다.  인증 끝점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
 
-구성이 끝나면 **테스트 커넥터**&#x200B;를 클릭하여 외부 계정이 올바르게 설정되었는지 확인합니다.
+계정 정보를 입력한 후 **연결 테스트**&#x200B;를 클릭하여 외부 계정이 올바르게 구성되었는지 확인합니다.
 
 ![](assets/external_accounts_OAuth.png)
 
