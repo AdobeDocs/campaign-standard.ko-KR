@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '357'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->현재 Adobe Campaign 고급 MTA로 업그레이드된 경우에도 보관된 이메일을 고급 MTA로 보낼 수 없습니다.
+>현재 보관된 이메일은 Adobe Campaign Enhanced MTA로 보낼 수 없습니다.
 
 ## 전자 메일 보관 {#activating-email-archiving} 활성화
 
