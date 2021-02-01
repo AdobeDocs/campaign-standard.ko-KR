@@ -6,10 +6,10 @@ title: Adobe Campaign Standard 제품 설명서
 description: Campaign Standard 제품 설명서 찾아보기
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 540d14231cb08fa86067be9223160ae6cc4eefda
+source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 95%
+source-wordcount: '233'
+ht-degree: 94%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 95%
 * **[Campaign 21.1 2월 릴리스는 라이브입니다!](rn/using/release-notes.md)**<br/> 새로운 기능, 최신 업데이트 및 수정 사항 살펴보기
 
 * **[잘못된 하드 바운스 업데이트](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Gmail 작동 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다.
-
-* **[릴리스 계획](rn/using/release-planning.md)**<br/> 2021년 2월 릴리스 날짜가 릴리스 계획에 추가되었습니다.
 
 * **[컨트롤 그룹](sending/using/control-group.md)**<br/> 대상자의 일부를 제외하여 캠페인의 영향을 측정합니다
 
