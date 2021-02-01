@@ -4,7 +4,7 @@ product: campaign
 title: 복합 식별 키로 리소스 호출
 description: 합성 ID 키를 사용하여 리소스를 호출하는 방법 학습
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 1. ID 키를 구성하기 전에 리소스가 원하는 필드로 확장되었고 게시되었는지 확인하십시오. 이 작업에 대한 자세한 정보는 [이 섹션](../../developing/using/creating-or-extending-the-resource.md)을 참조하십시오.
 
-1. **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** 메뉴로 이동한 다음 **[!UICONTROL Profile]** 리소스를 엽니다.
+1. **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** 메뉴로 이동한 다음 **[!UICONTROL Profile]** 리소스를 엽니다.
 
    ![](assets/uc_idkey1.png)
 
