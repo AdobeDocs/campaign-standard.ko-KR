@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
+source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 85%
+source-wordcount: '734'
+ht-degree: 80%
 
 ---
 
@@ -62,8 +62,9 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 20.1 릴리스부터 SDK v4는 더 이상 사용되지 않습니다. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">자세히 알아보기</a></p><br/>
-   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform 모바일 SDK</a> (과거 v5라고 함)는 향후 출시될 Adobe Experience Cloud 기능 및 성능을 독점적으로 지원합니다.</p></br>
+   <td> <p> Campaign 20.1 릴리스를 시작하면 SDK v4는 더 이상 사용되지 않습니다. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">자세히 알아보기</a></p><br/>
+   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform 모바일 SDK</a> (과거 v5라고 함)는 향후 출시될 Adobe Experience Cloud 기능 및 성능을 독점적으로 지원합니다.</p>
+   <p>이 페이지</a>에서 SDK v4에서 Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">로 마이그레이션하는 방법에 대해 학습합니다.</a></p></br>
      <p>
      <em>Target 제거 날짜:2021년 8월 31일</em></p>
      </td> 
@@ -112,7 +113,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>18.7 릴리스부터 지리적 단위는 더 이상 사용되지 않습니다. 조직적 및 지리적 단위는 Campaign에서 동일한 구문입니다. 사용자는 조직적 단위만 사용하여 사용자 권한/데이터 액세스 계층 구조를 만들어야 합니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=ko#administrating">자세히 알아보기</a> 지리적 단위가 만들어지지 않은 기존 인스턴스는 물론 새 Campaign Standard 인스턴스는 18.7 릴리스부터 이 기능을 구현할 수 없습니다.</p>
+   <td> <p>Campaign 18.7 릴리스를 시작하면 지리적 단위는 더 이상 사용되지 않습니다. 조직적 및 지리적 단위는 Campaign에서 동일한 구문입니다. 사용자는 조직적 단위만 사용하여 사용자 권한/데이터 액세스 계층 구조를 만들어야 합니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=ko#administrating">자세히 알아보기</a> 지리적 단위가 만들어지지 않은 기존 인스턴스는 물론 새 Campaign Standard 인스턴스는 18.7 릴리스부터 이 기능을 구현할 수 없습니다.</p>
    </td> 
   </tr> 
  </tbody> 
