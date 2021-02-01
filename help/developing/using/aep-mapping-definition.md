@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 2%
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 **[!UICONTROL Create new field mapping]** 단추를 사용하면 XDM 스키마의 Campaign Standard 필드와 해당 필드 경로 표현식을 선택할 수 있습니다.
 
-Campaign Standard 필드를 찾을 수 없는 경우 검색 필드를 사용하여 필드를 검색할 수 있습니다. 현재 검색은 계층에 열려 있는 필드에만 작동합니다.
+Adobe Campaign Standard 필드를 찾을 수 없는 경우 검색 필드를 사용하여 필드를 검색할 수 있습니다. 현재 검색은 계층에 열려 있는 필드에만 작동합니다.
 
 ![](assets/aep_mapfield.png)
 
