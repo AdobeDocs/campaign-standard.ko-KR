@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1795'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Microsoft Dynamics 365의 표를 Campaign 및 Campaign 마케팅 지표에 동�
 
 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 페이지에는 Microsoft Dynamics 365의 엔티티 목록과 Microsoft Dynamics 리소스와 동기화할 사용자 정의 리소스가 표시됩니다. 새 매핑을 추가하거나 기존 매핑을 편집 또는 삭제할 수 있습니다.
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 이 표의 각 열에 대한 설명은 다음과 같습니다.
 
@@ -67,7 +67,7 @@ Microsoft Dynamics 365의 표를 Campaign 및 Campaign 마케팅 지표에 동�
 1. 드롭다운 목록을 사용하여 매핑할 Microsoft Dynamics 365 및 Campaign 테이블을 선택합니다.
 페이지의 다른 대부분의 입력은 선택하는 표에 따라 달라집니다.
 
-   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+   ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
    >각 테이블을 두 번 이상 매핑할 수 없습니다. 따라서 드롭다운 선택 사항에는 이미 매핑된 테이블이 포함되지 않습니다.
@@ -84,7 +84,7 @@ Microsoft Dynamics 365의 표를 Campaign 및 Campaign 마케팅 지표에 동�
 
 기존 매핑을 편집하면 테이블 선택 사항을 편집할 수 없음을 확인할 수 있습니다.
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 페이지에서 더 깊이 입력은 이러한 표와 연결된 필드를 기반으로 하므로 디자인에서 가져옵니다. 표를 변경하면 이 테이블과 연결된 모든 필드가 유효하지 않게 됩니다.  매핑할 테이블을 변경하려면 이전 페이지로 돌아가서 변경할 매핑을 삭제하고 새 매핑을 추가해야 합니다.
 
@@ -106,7 +106,7 @@ Microsoft Dynamics 365의 표를 Campaign 및 Campaign 마케팅 지표에 동�
 
 새 Microsoft Dynamics 365를 캠페인 테이블 매핑에 추가할 때 ID 필드를 식별해야 합니다.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 Microsoft Dynamics 365 기본 키는 응용 프로그램에서 감지하므로 읽기 전용입니다.
 
@@ -118,7 +118,7 @@ Microsoft Dynamics 365 기본 키는 응용 프로그램에서 감지하므로 �
 
 기본 키는 항상 **[!UICONTROL Field Mappings]** 섹션에 나열된 첫 번째 필드 이름이 됩니다. 이 아이콘들이 기본 키임을 알려주는 다음 아이콘이 오른쪽에 나열됩니다.
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### 다른 필드 매핑 추가
 
@@ -126,14 +126,14 @@ Microsoft Dynamics 365 기본 키는 응용 프로그램에서 감지하므로 �
 
 목록에서 Microsoft Dynamics 365 및 캠페인 필드를 선택합니다.
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 이 목록에는 페이지 맨 위에서 선택한 Microsoft Dynamics 365 및 Campaign 테이블과 연결된 필드 이름이 포함되어 있습니다.
 
 **[!UICONTROL Apply updates]** 전환기를 사용하면 이 필드에 대한 업데이트를 Microsoft Dynamics 365에서 Campaign으로 전파할지 여부를 제어할 수 있습니다.
-* ![](assets/d365-to-acs-icon-switch-on.png)을(를) 켜면 업데이트가 발생하면 Microsoft Dynamics 365의 값 업데이트가 Adobe Campaign에 전파됩니다.
+* ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png)을(를) 켜면 업데이트가 발생하면 Microsoft Dynamics 365의 값 업데이트가 Adobe Campaign에 전파됩니다.
 
-* ![](assets/d365-to-acs-icon-switch-off.png)을 해제하면 데이터가 처음에 로드되거나 재생될 때 값이 전파되지만 Microsoft Dynamics 365의 필드에 대한 증분 업데이트는 전파되지 않습니다.
+* ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png)을 해제하면 데이터가 처음에 로드되거나 재생될 때 값이 전파되지만 Microsoft Dynamics 365의 필드에 대한 증분 업데이트는 전파되지 않습니다.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Microsoft Dynamics 365 기본 키는 응용 프로그램에서 감지하므로 �
 
 필드 값을 선택하면 드롭다운 메뉴 아래에 데이터 유형이 표시됩니다.   한 필드의 값을 다른 필드에 매핑할 때 주의해야 합니다.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ Microsoft Dynamics 365 기본 키는 응용 프로그램에서 감지하므로 �
 
 제어할 수 있는 4가지 지표는 다음과 같습니다.**전송**, **클릭**, **열기** 및 **바운스**&#x200B;입니다.
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 **예**&#x200B;를 선택하여 해당 유형의 이벤트를 Microsoft Dynamics 365로 플로우할 것인지 확인합니다.
 
@@ -208,7 +208,7 @@ Microsoft Dynamics 365 기본 키는 응용 프로그램에서 감지하므로 �
 
 &quot;저장&quot;을 클릭하여 선택 사항을 저장해야 합니다. 또한 **Campaign to Microsoft Dynamics 365** 작업 과정을 중지한 다음 통합을 클릭하여 변경 내용을 통합해야 합니다.
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### 옵트인/아웃 동기화 방향
 
