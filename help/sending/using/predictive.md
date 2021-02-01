@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Adobe Campaign Standard는 **예측 전송 시간 최적화**&#x200B;과 **예�
 
 * **예측 참여 점수 책정**:예측 참여 점수 책정에서는. 메시지를 받는 사람이 메시지에 얼마나 관심을 가질 것인지는 물론, 다음 이메일을 보낸 후 7일 이내에 메시지를 옵트 아웃(구독 취소)할 가능성까지 예측합니다. 확률을 비참여, 보통 또는 낮음의 구체적인 위험에 따라 버킷으로 더 나눕니다. 또한 이 모델은 특정 고객이 다른 고객과 비교하여 어떤 등급에 있는지 파악할 수 있도록 위험 백분위수 등급을 제공합니다.
 
->[!CAUTION]
+>[!IMPORTANT]
 >이 기능은 제품의 일부로 기본 제공되지 않습니다. 구현하려면 Adobe Consulting 서비스가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >
 >이 기능을 사용하려면 고객이 제공해야 하는 Azure 또는 Amazon S3 저장소를 사용해야 합니다.
