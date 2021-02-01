@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # 메시지 예약 기본 정보{#about-scheduling-messages}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >게재 일정을 변경할 때마다 **확인**&#x200B;을 클릭하기 전에 **준비** 버튼을 클릭하여 게재를 다시 준비해야 합니다 .
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
    ![](assets/delivery_planning.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >게재를 복제하면 모든 예약 설정이 삭제됩니다. 새 연락 날짜를 예약하지 않으면 전송을 확인하는 즉시 복제한 게재가 전송됩니다.
 
