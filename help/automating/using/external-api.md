@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 98%
+source-wordcount: '2180'
+ht-degree: 95%
 
 ---
 
@@ -112,13 +112,13 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
 
 ### 실행
 
-이 탭에서는 연결 엔드포인트를 정의할 수 있습니다. **[!UICONTROL URL]** 필드를 사용하면 데이터를 Campaign으로 보낼 **HTTPS 끝점**&#x200B;을 정의할 수 있습니다.
+이 탭에서는 연결 엔드포인트를 정의할 수 있습니다. **[!UICONTROL URL]** 필드를 사용하면 Campaign Standard이 통신할 **HTTPS 끝점**&#x200B;을 정의할 수 있습니다.
 
 엔드포인트에 필요한 경우 두 가지 유형의 인증 방법을 사용할 수 있습니다.
 
-* 기본 인증: 사용자 이름/암호 정보를 **[!UICONTROL Request Header(s)]** 필드에 입력합니다.
+* 기본 인증:**[!UICONTROL Request Header(s)]** 섹션에 사용자 이름/암호 정보를 입력합니다.
 
-* OAuth 인증: **[!UICONTROL Use connection parameters defined in an external account]**&#x200B;을(를) 클릭하여 OAuth 인증이 정의된 외부 계정을 선택할 수 있습니다. 자세한 내용은 [외부 계정](../../administration/using/external-accounts.md) 섹션을 참조하십시오.
+* OAuth 인증:외부 계정에서 **[!UICONTROL Use connection parameters defined in an external account]**&#x200B;을 클릭하여 OAuth 인증이 정의된 외부 계정을 선택할 수 있습니다. 자세한 내용은 [외부 계정](../../administration/using/external-accounts.md) 섹션을 참조하십시오.
 
 ![](assets/externalAPI-execution.png)
 
@@ -153,6 +153,10 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
 이 탭은 대부분의 워크플로우 활동에서 사용할 수 있습니다. 자세한 내용은 [활동 속성](../../automating/using/activity-properties.md) 섹션을 참조하십시오.
 
 ![](assets/externalAPI-options.png)
+
+## 테스트
+
+간단한 테스트 끝점으로 외부 API 기능을 테스트하려면 Postman Echo를 사용할 수 있습니다.https://docs.postman-echo.com을 참조하십시오.
 
 ## 문제 해결
 
@@ -254,8 +258,8 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
    <td> <p>HTTP 헤더 키가 허용되지 않습니다(헤더 키: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
-   <td> <p>HTTP header value is bad (header value: '%s'). </p>
+   <td> WKF-560247 - HTTP 헤더 값이 잘못되었습니다(헤더 값:'%s').</td> 
+   <td> <p>HTTP 헤더 값이 잘못되었습니다(헤더 값:'%s'). </p>
     <p>참고: 이 오류는 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>에 따라 사용자 지정 헤더 값의 유효성 검사에 실패하면 기록됩니다.</p></td> 
   </tr> 
   <tr> 
