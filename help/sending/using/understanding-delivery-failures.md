@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 80%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -76,20 +76,23 @@ ht-degree: 80%
 
 **무시됨** 유형의 일시적인 오류로 인해 메시지가 실패하면 게재 기간 동안 다시 시도됩니다. 오류 유형에 대한 자세한 내용은 [게재 실패 유형 및 이유](#delivery-failure-types-and-reasons)를 참조하십시오.
 
-다시 시도 횟수(전송을 시작한 다음 날에 수행되어야 하는 다시 시도 횟수) 및 다시 시도 사이의 최소 지연은 IP가 주어진 도메인에서 과거 및 현재 얼마나 잘 수행되고 있는지에 따라 Adobe Campaign Enhanced MTA에 의해 관리됩니다. Campaign의 **다시 시도** 설정은 무시됩니다.
-Adobe Campaign 향상된 MTA는 푸시 채널에 사용할 수 없습니다.
+IP가 이전 및 현재 지정된 도메인에 수행하는 성과를 기준으로 재시도 횟수(전송을 시작한 날로부터 재시도 횟수를 수행해야 하는 경우)와 재시도 사이의 최소 지연 시간이 모두 <!--managed by the Adobe Campaign Enhanced MTA,-->입니다. Campaign의 **다시 시도** 설정은 무시됩니다.
+
+<!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
 게재 기간을 수정하려면 개제 또는 게재 템플릿의 고급 매개 변수로 이동하여 [유효 기간](../../administration/using/configuring-email-channel.md#validity-period-parameters) 섹션의 **[!UICONTROL Delivery duration]** 필드를 편집합니다.
 
 >[!IMPORTANT]
 >
->**이제 Campaign 게재의&#x200B;**[!UICONTROL Delivery duration]**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 이제 Adobe Campaign Enhanced MTA에서 관리하므로 3.5일이 넘는 값을 정의하는 경우 값이 고려되지 않습니다.
+>**이제 Campaign 게재의&#x200B;**[!UICONTROL Delivery duration]**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
-예를 들어 게재를 위한 다시 시도가 1일 후 중단되도록 하려면 게재 기간을 **1일**&#x200B;로 설정할 수 있고 Enhanced MTA가 1일 후 다시 시도 큐에서 메시지를 제거하여 해당 설정을 적용합니다.
+예를 들어 배달이 1일 후 중단되도록 재시도할 경우 배달 기간을 **1d**&#x200B;로 설정할 수 있으며 다시 시도 대기열에 있는 메시지는 1일 후 제거됩니다.
+
+<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->메시지가 3.5일 동안 Enhanced MTA 큐에 있고 게재에 실패하면 시간이 초과되고 [게재 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs)에서 해당 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 업데이트됩니다.
+>최대 3.5일 동안 재시도 대기열에 메시지가 있고 배달하지 못하면 시간이 초과되고 해당 상태가 [배달 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs)의 **[!UICONTROL Failed]**&#x200B;으로 업데이트됩니다.<!--from **[!UICONTROL Sent]**-->
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
@@ -102,13 +105,13 @@ Adobe Campaign 향상된 MTA는 푸시 채널에 사용할 수 없습니다.
 
 ## 반송 메일 조건 {#bounce-mail-qualification}
 
-동기 게재 실패 오류 메시지의 경우 Enhanced MTA가 반송 유형 및 조건을 결정하고 해당 정보를 Campaign으로 다시 전송합니다.
-
-비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 왼쪽 상단에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;을(를) 선택하고 **[!UICONTROL Bounce mails]**&#x200B;을(를) 선택합니다. 이 규칙과 관련한 자세한 정보는 이 [섹션](../../administration/using/configuring-email-channel.md#email-processing-rules)을 참조하십시오.
+동기 배달 실패 오류 메시지의 경우 Adobe Campaign 향상된 MTA(메시지 전송 에이전트)가 바운스 유형과 자격 조건을 확인하고 해당 정보를 Campaign으로 다시 전송합니다.
 
 >[!NOTE]
 >
->이제 Adobe Campaign Enhanced MTA에서 반송 메일 조건을 관리합니다. Campaign **[!UICONTROL Message qualification]** 테이블의 반송 조건은 더 이상 사용되지 않습니다.
+>Campaign **[!UICONTROL Message qualification]** 테이블의 반송 조건은 더 이상 사용되지 않습니다.
+
+비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 왼쪽 상단에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;을(를) 선택하고 **[!UICONTROL Bounce mails]**&#x200B;을(를) 선택합니다. 이 규칙과 관련한 자세한 정보는 이 [섹션](../../administration/using/configuring-email-channel.md#email-processing-rules)을 참조하십시오.
 
 <!--Bounces can have the following qualification statuses:
 
@@ -120,7 +123,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## 이중 옵트인 메커니즘을 통해 메일 게재 능력 최적화 {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## 이중 옵트인 메커니즘이 있는 이메일 제공 최적화 {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 이중 옵트인 메커니즘은 이메일을 보낼 때 가장 좋은 방법입니다. 틀리거나 잘못된 이메일 주소, 스팸 메일로부터 플랫폼을 보호하고 스팸 불만 가능성을 방지합니다.
 
