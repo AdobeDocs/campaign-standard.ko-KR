@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 96%
+source-wordcount: '1244'
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 ## 상단 표시줄 {#top-bar}
 
-상단 표시줄은 모든 화면에 표시되며 Adobe Campaign 기능을 탐색할 수 있을 뿐만 아니라 연결된 Adobe 프로필, 알림, 기타 Adobe Experience Cloud 서비스 및 솔루션, 설명서에 액세스할 수 있습니다.
+상단 막대는 모든 화면에 표시되며 Adobe Campaign 기능을 통해 탐색할 수 있을 뿐만 아니라 연결된 Adobe 프로필, 알림 기능, Adobe Experience Cloud 서비스 및 솔루션, 설명서를 이용할 수 있습니다.
 
 탐색 원칙은 다음과 같습니다.
 
@@ -57,13 +57,25 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 * **[!UICONTROL Home]** 링크를 통해 Adobe Campaign 홈페이지를 표시할 수 있습니다.
 *  **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** 및 **[!UICONTROL Reports]** 링크를 통해 이러한 기능에 연결된 보기에 액세스할 수 있습니다.
-* **[!UICONTROL Help]** 버튼은 제품 설명서 및 상황별 도움말, 릴리스 정보, 버전 번호, 법적 고지 사항에 대한 액세스 뿐만 아니라 Adobe Experience Cloud 커뮤니티 및 고객 지원 센터에 대한 링크도 제공합니다.
+* **솔루션 전환기** 아이콘을 사용하여 조직 간에 또는 다른 응용 프로그램으로 전환할 수 있습니다.
+* **[!UICONTROL Help]** 단추를 사용하면 Adobe Campaign Standard 설명서, 비디오, 릴리스 노트 및 릴리스 계획에 액세스할 수 있을 뿐만 아니라 Adobe Experience Cloud 커뮤니티 및 고객 지원 센터에 대한 링크를 이용할 수 있습니다.
+* 조직 단추
+* **알림** 아이콘에 최신 알림 또는 정보가 표시됩니다.
+* **사용자** 아이콘을 사용하면 프로필에 연결된 정보를 표시할 수 있습니다. **[!UICONTROL Sign out]** 버튼과 **[!UICONTROL About]** 화면에 액세스할 수 있습니다.
+
+### 도움말 {#help}
+
+* **[!UICONTROL Search]** adobe experience league을 다음과 같은 제품으로 가져옵니다.검색 결과에는 문서 및 도움말 문서, 커뮤니티 포럼 결과 및 기타 비디오 컨텐츠가 포함되어 있으므로 더 많은 컨텐츠에 손쉽게 액세스하여 애플리케이션을 최대한 활용할 수 있습니다.
+* **[!UICONTROL Help]** tab
+   * 링크를 통해 Adobe Campaign Standard 설명서, 비디오 및 릴리스 노트에 빠르게 액세스할 수 있습니다.
+   * **[!UICONTROL Learning]** 이 링크를 통해 Adobe Campaign 콘텐트 라이브러리에 액세스할 수 있습니다.
+   * **[!UICONTROL Community]** 이 링크를 통해 ACS에 대한 귀하의 질문에 대한 전용 포럼에 액세스할 수 있습니다.
+
+* **[!UICONTROL Support]** 탭을 통해 지원 사례를 열고 전화 또는 Twitter를 통해 Adobe에 문의할 수 있습니다.
+
+* **[!UICONTROL Feedback]**  문제를 보고하거나 아이디어를 공유할 수 있습니다.
 
    ![](assets/ux_help.png)
-
-* **솔루션 선택** 아이콘을 사용하면 다른 Adobe Experience Cloud 솔루션 및 프로필 설정으로 전환할 수 있습니다.
-* **알림** 아이콘에 최신 알림 또는 정보가 표시됩니다.
-* **사용자** 아이콘을 사용하면 프로필에 연결된 정보를 표시할 수 있습니다. **[!UICONTROL Sign out]** 버튼에 대한 액세스를 제공합니다.
 
 ## 고급 메뉴 {#advanced-menu}
 
