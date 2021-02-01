@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign에서 사용하는 데이터는 다양한 리소스를 통해 정
 
 >[!NOTE]
 >
->[이 페이지](../../developing/using/datamodel-introduction.md)에서 기본 제공 리소스에 대한 데이터 모델 표시를 확인할 수 있습니다.
+>[이 페이지](../../developing/using/datamodel-introduction.md)에서 내장 리소스에 대한 데이터 모델 표현을 찾을 수 있습니다.
 
 또한 만든 리소스에 해당하는 화면에서 [내비게이션을 구성](configuring-the-screen-definition.md)할 수도 있습니다.
 
