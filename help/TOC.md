@@ -7,10 +7,10 @@ user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
 translation-type: tm+mt
-source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
+source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 97%
+source-wordcount: '1755'
+ht-degree: 95%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 97%
       + [Campaign-Experience Manager 통합 구성](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager에서 이메일 콘텐츠 만들기](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager에서 Campaign 양식 만들기](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Adobe Experience Manager 통합을 통해 다국어 이메일 만들기](integrating/using/creating-multilingual-email-aem.md)
    + Campaign 및 타겟 {#working-with-campaign-and-target}
       + [Campaign-Target 통합 기본 정보](integrating/using/about-campaign-target-integration.md)
       + [Campaign-Target 통합 구성](integrating/using/configuring-the-campaign-target-integration.md)
@@ -450,6 +451,7 @@ ht-degree: 97%
       + [Experience Platform SDK 통합 FAQ](administration/using/aep-faq.md)
       + [Adobe Campaign Standard 사용 사례를 지원하기 위한 Experience Platform Launch 규칙 구성](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard에서 지원되는 모바일 사용 사례](administration/using/supported-mobile-use-cases.md)
+      + [모바일 애플리케이션을 SDK v4에서 Adobe Experience Platform SDK로 마이그레이션하는 방법](administration/using/sdkv4-migration.md)
    + SMS 채널 구성 {#configuring-sms}
       + [SMS 채널 구현](administration/using/configuring-sms-channel.md)
       + [SMS 커넥터 프로토콜 및 설정](administration/using/sms-protocol.md)
