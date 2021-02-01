@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '783'
 ht-degree: 5%
 
 ---
@@ -80,6 +80,6 @@ Adobe Experience Platform 데이터 커넥터는 Adobe Campaign Standard 사용�
 
 이 비디오는 Adobe Experience Platform 데이터 커넥터에 대한 개요를 제공합니다.
 
-https://video.tv.adobe.com/v/27304?quality=12&amp;captions=kor
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 Adobe Experience Platform 데이터 커넥터와 관련된 추가 비디오는 여기에서 [사용할 수 있습니다](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
