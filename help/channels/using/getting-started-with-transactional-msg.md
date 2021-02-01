@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 8%
@@ -39,8 +39,6 @@ Adobe Campaign을 사용하면 이 기능을 사용자 지정 트랜잭션 메�
 >Adobe Campaign은 다른 전달보다 트랜잭션 메시지 처리에 우선 순위를 매깁니다.
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
-
-<!--All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see [this section](../../administration/using/configuring-email-channel.md).-->
 
 트랜잭션 메시징을 시작하기 전에 해당 [우수 사례 및 제한 사항](../../channels/using/transactional-messaging-limitations.md)을 읽어야 합니다.
 
@@ -75,7 +73,7 @@ Adobe Campaign에서는 두 가지 유형의 트랜잭션 메시지를 사용할
 * 트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다.
 * 트랜잭션 메시지를 고객 여정에 활용합니다.
 
-예를 들어 고객이 웹 사이트에서 장바구니를 포기한 후 고객에게 연락하여 구매를 진행할 수 있도록 권장할 때 이러한 유형의 메시지를 사용할 수 있습니다. 이를 통해 프로필 데이터베이스의 모든 정보에 직접 액세스하고, 마케팅 규칙을 적용하고, 글로벌 고객 여정 및 보고에 이 메시지를 포함하여 고객 행동을 보다 쉽게 개인화할 수 있습니다.
+예를 들어 고객이 웹 사이트에서 장바구니를 포기한 후 고객에게 연락하여 구매를 진행할 수 있도록 권장할 때 이러한 유형의 메시지를 사용할 수 있습니다. 이를 통해 프로필 데이터베이스의 모든 정보에 직접 액세스하고, 마케팅 규칙을 적용하고, 글로벌 고객 여정에 이 메시지를 포함하고, 고객 행동을 보다 정확하게 파악할 수 있도록 보고함으로써 메시지를 보다 손쉽게 개인화할 수 있습니다.
 
 메시지 유형은 트랜잭션 메시지로 변환할 이벤트를 구성할 때 정의합니다. [이벤트 기반 트랜잭션 메시지](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) 및 [프로필 기반 트랜잭션 메시지](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) 구성 섹션을 참조하십시오.
 
