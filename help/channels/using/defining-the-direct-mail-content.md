@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 1. 출력 열을 추가하려면 **[!UICONTROL +]** 또는 **[!UICONTROL Add an element]** 버튼을 클릭합니다. **[!UICONTROL Output columns]**&#x200B;을(를) 통해 출력 파일로 내보낼 프로필 정보(열)를 정의할 수 있습니다.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >우편 주소 정보는 DM 공급자에게 필수이므로 프로필에 포함했는지 확인하십시오. 또한 프로필 정보에 있는 **[!UICONTROL Address specified]** 상자를 선택했는지 확인하십시오. [권장 사항](../../channels/using/about-direct-mail.md#recommendations)을 참조하십시오.
 
