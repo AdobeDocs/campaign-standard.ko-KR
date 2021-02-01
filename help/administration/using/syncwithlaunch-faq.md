@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Adobe Campaign Standard에서 구성된 모바일 응용 프로그램을 편집할 수 없으며 모바일 응용 프로그램은 읽기 모드에만 있습니다.{#read-mode-mobile-app}
 
-**[!UICONTROL Access Authorization ]** 섹션에서 모바일 애플리케이션의 조직 단위를 확인합니다. 지정된 조직 구성 단위 사용자만 모바일 응용 프로그램을 편집할 수 있습니다.
+**[!UICONTROL Access Authorization]** 섹션에서 모바일 애플리케이션의 조직 단위를 확인합니다. 지정된 조직 구성 단위 사용자만 모바일 응용 프로그램을 편집할 수 있습니다.
 
 조직 단위에 대한 자세한 내용은 이 [페이지](../../administration/using/organizational-units.md)를 참조하십시오.
 
