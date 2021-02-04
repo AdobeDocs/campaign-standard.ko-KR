@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
+source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 96%
+source-wordcount: '466'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,9 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 ## 릴리스 21.1 - 2월 릴리스 {#release-21-1-release}
 
-아래의 표시된 기간 동안 환경 업데이트가 발생합니다. 이 릴리스에 대한 자세한 내용은 스테이지 환경 업그레이드가 시작될 때 [릴리스 노트](../../rn/using/release-notes.md)에서 확인할 수 있습니다. 추가 질문 사항은 [Adobe Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+아래의 표시된 기간 동안 환경 업데이트가 발생합니다. 정확한 날짜는 각 고객에게 이메일로 전달된다.
+
+이 릴리스에 대한 자세한 내용은 스테이지 환경 업그레이드가 시작될 때 [릴리스 노트](../../rn/using/release-notes.md)에서 확인할 수 있습니다.
 
 <table>
  <thead>
@@ -41,14 +43,16 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
  <tbody>
   <tr>
    <td>단계<br /> </td>
-   <td>2021년 2월 1일 - 2일<br /> </td>
+   <td>2021년 2월 1일 - 10일<br /> </td>
   </tr>
   <tr>
    <td> 프로덕션<br /> </td>
-   <td>2021년 2월 8일 - 15일<br /> </td>
+   <td>2021년 2월 8일 - 17일<br /> </td>
   </tr>
  </tbody>
 </table>
+
+추가 질문 사항은 [Adobe Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
 
 ## 질문 및 답변 {#questions-and-answers}
 
