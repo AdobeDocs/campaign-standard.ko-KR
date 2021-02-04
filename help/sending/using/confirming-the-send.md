@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: b48e246ee515d2f250d866ed72d5765bf1ccb326
+source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '913'
 ht-degree: 20%
 
 ---
@@ -94,17 +94,9 @@ KPI를 업데이트하는 데 시간이 너무 오래 소요되거나 전송 로
 
 * 그렇지 않으면 상태가 **[!UICONTROL Failed]**&#x200B;으로 변경되고 그에 따라 **[!UICONTROL Delivered]** 백분율이 감소합니다.
 
-<!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, their status changes to **[!UICONTROL Failed]**.-->
-
-<!--For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).-->
-
 따라서 최종 **[!UICONTROL Delivered]** 비율과 실제 **[!UICONTROL Sent]** 및 **[!UICONTROL Failed]** 메시지의 최종 수를 보려면 유효 기간이 끝날 때까지 기다려야 합니다.
 
 ### 이메일 피드백 서비스(베타) {#email-feedback-service}
-
->[!NOTE]
->
->이 섹션은 이메일 채널에만 적용됩니다.
 
 EFS(Email Feedback Service) 기능을 사용하면 피드백이 향상된 MTA(메시지 전송 에이전트)에서 직접 캡처되므로 각 이메일의 상태가 정확하게 보고됩니다.
 
