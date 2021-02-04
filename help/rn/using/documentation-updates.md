@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
+source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
-source-wordcount: '6511'
-ht-degree: 98%
+source-wordcount: '6540'
+ht-degree: 96%
 
 ---
 
@@ -37,13 +37,15 @@ Adobe Experience Manager 통합 개선 사항 - [자세히 보기](../../integra
 
 **[!UICONTROL Transfer file]** 활동을 사용한 후 사용할 수 있는 새 **[!UICONTROL filesCount]** 출력 변수에 정보가 추가되었습니다. [자세한 내용](../../automating/using/transfer-file.md#output-variables)
 
-**이메일 채널 구성** 섹션이 최신 해당 이메일 설정이 무엇인지 명확히 알 수 있도록 업데이트되었습니다. 특정 고객에 대해 여전히 사용 중인 일부 이전 매개 변수가 이 페이지 하단에 나열됩니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
+**이메일 채널 구성** 섹션이 최신 해당 이메일 설정이 무엇인지 명확히 알 수 있도록 업데이트되었습니다. 특정 고객에게 계속 사용 중인 일부 이전 매개 변수가 페이지 하단에 나열됩니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
 
 ## 2020년 12월 {#doc-updates-december-2020}
 
 **예측 제목 줄** 기능은 이제 더 이상 사용되지 않습니다. [자세한 내용](../../rn/using/deprecated-features.md)
 
-이제 **트랜잭션 메시지** 시작 섹션에는 [향상된 스키마](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 및 구현 프로세스를 설명하는 [엔드 투 엔드 사용 사례](../../channels/using/transactional-messaging-use-case.md)가 포함됩니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
+이제 **트랜잭션 메시지 시작** 섹션에는 프로세스를 더 잘 이해할 수 있도록 [향상된 스키마](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)이 포함됩니다.
+
+트랜잭션 메시징 구현 프로세스를 설명하기 위한 엔드 투 엔드 사용 사례를 사용할 수 있습니다. [자세한 내용](../../channels/using/transactional-messaging-use-case.md)
 
 **개인 정보** 섹션을 [여기](../../start/using/privacy.md)로 이동했습니다.
 
@@ -57,11 +59,13 @@ SMS 커넥터 프로토콜 및 설정 페이지를 [여기](../../administration
 
 ## 2020년 11월 {#doc-updates-november-2020}
 
-개인 데이터 및 가상 사용자 섹션은 개인 정보 보호 측면에서 서로 다른 가상 사용자가 상호 작용하는 방법을 보여주는 사용 사례 시나리오로 업데이트되었습니다. [자세한 내용](../../start/using/privacy.md#use-case-scenario)
+**개인 데이터 및 개인** 섹션은 개인정보 보호 측면에서 서로 다른 사람이 상호 작용하는 방법을 보여주는 사용 사례 시나리오로 업데이트되었습니다. [자세한 내용](../../start/using/privacy.md#use-case-scenario)
 
 개인 정보에 대한 FAQ를 나열하는 새로운 섹션이 추가되었습니다. [자세한 내용](../../start/using/privacy-faq.md)
 
-개인 정보 섹션이 [개인 정보 관리](../../start/using/privacy-management.md) 및 [개인 정보 보호 요청 관리](../../start/using/privacy-requests.md)라는 두 개의 새 페이지로 이동되고 보강되었습니다. 
+**개인 정보** 섹션이 2개의 새 페이지로 이동되고 강화되었습니다.[개인 정보 관리](../../start/using/privacy-management.md) 및 [개인 정보 보호 요청 관리](../../start/using/privacy-requests.md).
+
+**트랜잭션 메시지** 섹션이 탐색 개선을 위해 다시 구성된 한 곳에 수집되었습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
 개인 정보 관리와 관련된 데이터 매핑 유효성 검사 오류 및 문제 해결 방법에 대한 정보가 Adobe Experience Platform 데이터 커넥터 섹션에 추가되었습니다. [자세한 내용](../../developing/using/aep-mapping-activation.md)
 
@@ -87,7 +91,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 ## 2020년 9월 {#doc-updates-september-2020}
 
-이벤트 트랜잭션 메시지 섹션이 재구성되고 명확해졌습니다. [자세한 내용](../../channels/using/editing-transactional-message.md)
+**이벤트 트랜잭션 메시지** 섹션이 재구성되고 명확해졌습니다. [자세한 내용](../../channels/using/editing-transactional-message.md)
 
 사용자에게 로그 액세스와 관련된 권한 제한에 대해 경고하기 위해 주의 사항이 추가되었습니다.  [자세한 내용](../../administration/using/users-management.md)
 
@@ -101,9 +105,9 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 트랜잭션 메시지 시작을 위한 새로운 업데이트 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
-**트랜잭션 메시지 제한** 섹션을 [여기](../../channels/using/transactional-messaging-limitations.md)로 이동했습니다.
+**트랜잭션 메시지 제한** 섹션을 [여기](../../channels/using/transactional-messaging-limitations.md)로 이동했습니다..
 
-**전송 준비** 섹션을 [여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
+**보내기** 준비 섹션은 [여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
 
 ## 2020년 7월 {#doc-updates-july-2020}
 
