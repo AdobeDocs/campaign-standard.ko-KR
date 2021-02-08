@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
 source-wordcount: '6540'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 96%
 
 이메일 피드백 서비스 - [자세히 보기](../../sending/using/confirming-the-send.md#email-feedback-service)
 
-Adobe Experience Manager 통합 개선 사항 - [자세히 보기](../../integrating/using/creating-multilingual-email-aem.md)
+Adobe Experience Manager 통합 개선 사항 - [자세한 내용](../../integrating/using/creating-multilingual-email-aem.md)
 
-통합 Experience Cloud 인터페이스 - [자세히 보기](../../start/using/interface-description.md#top-bar)
+통합 Experience Cloud 인터페이스 - [자세한 내용](../../start/using/interface-description.md#top-bar)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-이메일, 이름, 성 또는 사용자 정의 필드를 기반으로 프로필을 검색하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../audiences/using/integrated-customer-profile.md)
+이메일, 이름, 성 또는 사용자 지정 필드를 기반으로 프로필을 검색하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../audiences/using/integrated-customer-profile.md)
 
-외부 매개 변수를 사용하여 작업 흐름을 호출할 때 지정된 함수의 값을 반환할 수 있는 새로운 GetOption 함수에 정보가 추가되었습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+외부 매개 변수를 사용한 워크플로우를 호출할 때 지정된 함수 값을 반환할 수 있는 새로운 GetOption 함수에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-**[!UICONTROL Transfer file]** 활동을 사용한 후 사용할 수 있는 새 **[!UICONTROL filesCount]** 출력 변수에 정보가 추가되었습니다. [자세한 내용](../../automating/using/transfer-file.md#output-variables)
+활동을 **[!UICONTROL filesCount]**&#x200B;사용한 후 사용할 수 있는 새 출력 변수&#x200B;**[!UICONTROL Transfer file]**&#x200B;에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/transfer-file.md#output-variables)
 
-**이메일 채널 구성** 섹션이 최신 해당 이메일 설정이 무엇인지 명확히 알 수 있도록 업데이트되었습니다. 특정 고객에게 계속 사용 중인 일부 이전 매개 변수가 페이지 하단에 나열됩니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
+최신 이메일 설정이 무엇인지 명확하게 나타내기 위해 **이메일 채널 구성** 섹션을 업데이트했습니다. 특정 고객에게 계속 사용 중인 일부 이전 매개 변수가 페이지 하단에 나열됩니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
 
 ## 2020년 12월 {#doc-updates-december-2020}
 
@@ -711,7 +711,7 @@ Campaign Standard 제품 내 상황별 도움말을 업데이트했습니다.
 
 Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니다! 책갈피를 확인해 주세요! [자세한 내용](../../integrating/using/get-started-campaign-integrations.md)
 
-이제 SQL 구조에서 데이터 모델 v1을 기본 제공 리소스에 사용할 수 있습니다. - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/developing/datamodel/datamodel-audience.html)
+이제 SQL 구조에서 데이터 모델 v1을 기본 제공 리소스에 사용할 수 있습니다. - [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/datamodel/datamodel-audience.html?lang=ko)
 
 게재에서 메시지를 준비하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../sending/using/preparing-the-send.md)
 
@@ -839,7 +839,7 @@ S3 계정 추천 사항을 추가했습니다. [자세한 내용](../../administ
 
 [게재 경고](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) 설명서에 문제 해결 섹션을 업데이트했습니다. 이 섹션에서는 경고를 받았을 때 수행할 수 있는 작업에 대한 몇 가지 팁을 제공합니다.
 
-새로운 시작 안내서를 사용할 수 있습니다. 이 안내서에는 게재 만들기와 타겟팅에서부터 보내기와 모니터링까지 Adobe Campaign에서 사용할 수 있는 모범 사례가 몇 가지 나와 있습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
+새로운 시작 안내서를 사용할 수 있습니다. 이 안내서에는 게재 만들기와 타겟팅에서부터 보내기와 모니터링까지 Adobe Campaign에서 사용할 수 있는 모범 사례가 몇 가지 나와 있습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=ko)
 
 후속 메시지 설명서에 개선된 사용 사례를 업데이트했습니다. [자세한 내용](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
