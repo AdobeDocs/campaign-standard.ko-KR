@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard 안내서
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 + [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/release-notes.md)
-   + [조기 릴리스 노트](rn/using/early-release-notes.md)
+   + [초기 릴리스 정보](rn/using/early-release-notes.md)
    + 이전 릴리스 {#previous-releases}
       + [2020년 릴리스 정보](rn/using/release-notes-2020.md)
       + [2019년 릴리스 정보](rn/using/release-notes-2019.md)
@@ -231,13 +231,13 @@ ht-degree: 95%
       + [사용자 지정 프로필 차원 만들기](reporting/using/creating-a-custom-profile-dimension.md)
       + [워크플로우 세그먼트 기반 보고서 만들기](reporting/using/creating-a-report-workflow-segment.md)
 + 다른 솔루션과 통합 {#integrating-with-adobe-cloud}
-   + [Campaign Standard 시작](integrating/using/get-started-campaign-integrations.md)
+   + [Campaign 통합 시작](integrating/using/get-started-campaign-integrations.md)
    + Campaign 및 Experience Manager {#working-with-campaign-and-experience-manager}
       + [Campaign-Experience Manager 통합 기본 정보](integrating/using/integrating-with-experience-manager.md)
       + [Campaign-Experience Manager 통합 구성](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager에서 이메일 콘텐츠 만들기](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager에서 Campaign 양식 만들기](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-      + [Adobe Experience Manager 통합을 통해 다국어 이메일 만들기](integrating/using/creating-multilingual-email-aem.md)
+      + [Adobe Experience Manager 통합으로 다국어 이메일 만들기](integrating/using/creating-multilingual-email-aem.md)
    + Campaign 및 타겟 {#working-with-campaign-and-target}
       + [Campaign-Target 통합 기본 정보](integrating/using/about-campaign-target-integration.md)
       + [Campaign-Target 통합 구성](integrating/using/configuring-the-campaign-target-integration.md)
@@ -263,13 +263,13 @@ ht-degree: 95%
       + [트리거 테스트](integrating/using/testing-your-triggers.md)
       + [포기 트리거 사용 사례](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign 및 Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365 통합 시작하기](integrating/using/d365-acs-get-started.md)
+      + [Microsoft Dynamics 365 통합 시작](integrating/using/d365-acs-get-started.md)
       + [모범 사례 및 제한 사항](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Microsoft Dynamics 365 구성](integrating/using/d365-acs-configure-d365.md)
-      + [캠페인 및 Adobe I/O 구성](integrating/using/d365-acs-configure-adobe-io.md)
-      + 통합 앱 {#configure-integration-tool} 구성
-         + [통합 앱 시작하기](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
-         + [통합 앱 액세스](integrating/using/d365-acs-self-service-app-control-access.md)
+      + [Campaign 및 Adobe I/O 구성](integrating/using/d365-acs-configure-adobe-io.md)
+      + 통합 앱 구성{#configure-integration-tool}
+         + [통합 앱 시작](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [통합 앱에 액세스](integrating/using/d365-acs-self-service-app-control-access.md)
          + [통합 앱과 시스템 연결](integrating/using/d365-acs-self-service-app-settings.md)
          + [동기화 워크플로우 관리](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Microsoft Dynamics 365와 Campaign 간의 데이터 매핑](integrating/using/d365-acs-self-service-app-data-sync.md)
