@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
+source-git-commit: 974ae83a746c81b417e287fc2665dfa5982eff85
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -34,11 +34,11 @@ ht-degree: 0%
 1. https://experience.adobe.com/으로 이동하여 Adobe Experience Cloud에 로그인합니다.
 1. **Admin Console**&#x200B;에 액세스합니다.
 
-   ![](assets/d365-to-acs-access-3.png)
+   ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
 1. Experience Cloud 솔루션에 액세스하려면 **[!UICONTROL Products]**&#x200B;을 클릭합니다.
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
 
    >[!IMPORTANT]
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 1. 구성할 첫 번째 인스턴스를 클릭합니다.
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
    인스턴스 페이지는 다음과 같아야 합니다.
 
-   ![](assets/d365-to-acs-access-8.png)
+   ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
 1. **[!UICONTROL New Profile]** 단추를 클릭하고 다음 이름의 새 항목을 추가합니다.**Campaign Standard - your-prod-instance-name - D365/ACS 통합**
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 1. 항목이 다음과 유사한 경우 **[!UICONTROL Done]** 단추를 클릭합니다.
 
-   ![](assets/d365-to-acs-access-14.png)
+   ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
    새 제품 프로필이 추가되었습니다.
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 ## 사용자에게 액세스 권한 부여 {#add-users-to-profile}
 
@@ -75,11 +75,11 @@ ht-degree: 0%
 
 1. 이전에 만든 새 프로필을 클릭합니다. **Campaign Standard - your-prod-instance-name - D365/ACS 통합**
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 1. **[!UICONTROL Developers]** 탭을 클릭합니다.
 
-   ![](assets/d365-to-acs-access-18.png)
+   ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
 1. **[!UICONTROL Add Developer]** 단추를 클릭합니다.
 
