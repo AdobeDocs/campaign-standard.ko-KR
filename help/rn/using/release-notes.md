@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
+source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
 workflow-type: tm+mt
-source-wordcount: '2610'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -79,6 +79,8 @@ ht-degree: 99%
 <li>향상된 알림 - 이제 알림 드롭다운에는 2개의 탭 즉, 제품 알림과 더 많은 글로벌 제품 공지가 있습니다.</li>
 </ul>
 <p>자세한 내용은 <a href="../../start/using/interface-description.md#top-bar">세부 설명서</a>를 참조하십시오.
+</p>
+<p>참고:이 변경 사항은 2월 10일부터 3월 1일까지 모든 고객 환경에 점진적으로 적용됩니다.
 </p>
 </td> 
 </tr> 
