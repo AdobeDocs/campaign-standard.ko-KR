@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
+source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
 workflow-type: tm+mt
 source-wordcount: '2610'
 ht-degree: 99%
@@ -38,7 +38,7 @@ ht-degree: 99%
 <li><b>전달됨</b> 표시기의 계산은 정확도 및 재활동 향상을 위해 Enhanced MTA의 실시간 피드백을 기반으로 합니다.</li>
 <li>EFS는 동기식 소프트 바운스 보고로 지연되는 문제를 해결합니다.</li>
 </ul>
-<p>자세한 내용은 <a href="../../sending/using/confirming-the-send.md#email-feedback-service">세부 설명서</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../../sending/using/confirming-the-send.md#message-indicators">세부 설명서</a>를 참조하십시오.
 </p>
 </td> 
 </tr> 
