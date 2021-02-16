@@ -7,10 +7,10 @@ user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 
 breadcrumb-title: 도움말 센터
 title: Campaign Standard 안내서
 translation-type: tm+mt
-source-git-commit: 2dedadd1a2879be1aee62272f7b063a365206bd8
+source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 100%
+source-wordcount: '1759'
+ht-degree: 99%
 
 ---
 
@@ -287,6 +287,7 @@ ht-degree: 100%
       + [워크플로우 실행 모니터링](automating/using/monitoring-workflow-execution.md)
       + [실행 옵션 관리](automating/using/managing-execution-options.md)
       + [활동 속성 관리](automating/using/activity-properties.md)
+      + [예약된 워크플로우의 중복 실행](automating/using/scheduled-workflows-execution.md)
    + 외부 파라미터로 워크플로우 호출 {#calling-workflow-external-parameters}
       + [개요](automating/using/calling-a-workflow-with-external-parameters.md)
       + [외부 신호 활동에서 매개 변수 선언](automating/using/declaring-parameters-external-signal.md)
