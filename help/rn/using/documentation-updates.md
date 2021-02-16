@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
+source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
 workflow-type: tm+mt
-source-wordcount: '6540'
+source-wordcount: '6571'
 ht-degree: 97%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 97%
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+## 2021년 2월 {#doc-updates-february-2021}
+
+이전에 수행한 하나 이상의 작업이 아직 보류 중일 때까지 예약된 워크플로의 일정이 조정되지 않도록 하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/scheduled-workflows-execution.md)
 
 ## 릴리스 21.1 - 2021년 2월 {#release-21-1---february-2021}
 
