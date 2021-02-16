@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 97%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 97%
 >[!CAUTION]
 >
 >**[!UICONTROL Repetition frequency]** 활동은 10분 이상이어야 합니다. 즉, 워크플로우를 10분에 2번 이상 자동으로 실행할 수 없습니다.
+
+여러 활동이 포함된 예약된 워크플로우를 디자인할 때 작업이 완료될 때까지 워크플로우의 일정을 조정하지 않아야 합니다. 이렇게 하려면 이전에 수행한 하나 이상의 작업이 아직 보류 중일 때 해당 작업을 실행하지 않도록 워크플로우를 구성해야 합니다. 자세한 정보는 이 [페이지](../../automating/using/scheduled-workflows-execution.md)를 참조하십시오.
 
 **관련 항목:**
 
