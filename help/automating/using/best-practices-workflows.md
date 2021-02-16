@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 89%
+source-wordcount: '1179'
+ht-degree: 85%
 
 ---
 
@@ -109,6 +109,8 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 ![](assets/preview_scheduler.png)
 
 자세한 내용은 [스케줄러 활동](../../automating/using/scheduler.md)을 참조하십시오.
+
+여러 활동이 포함된 예약된 워크플로우를 디자인할 때 작업이 완료될 때까지 워크플로우의 일정을 조정하지 않아야 합니다. 이렇게 하려면 이전에 수행한 하나 이상의 작업이 아직 보류 중일 때 해당 작업을 실행하지 않도록 워크플로우를 구성해야 합니다. 자세한 정보는 이 [페이지](../../automating/using/scheduled-workflows-execution.md)를 참조하십시오.
 
 ## 매개 변수를 사용한 워크플로우 호출{#workflow-with-parameters}
 
