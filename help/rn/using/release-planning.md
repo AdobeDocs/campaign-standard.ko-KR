@@ -9,8 +9,8 @@ topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
 source-git-commit: 558f88a129264560851832ca70628509661cb208
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '467'
+ht-degree: 97%
 
 ---
 
