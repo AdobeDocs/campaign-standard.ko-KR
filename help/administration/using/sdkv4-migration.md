@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 6c171d45d655e4055d4a3c7927f1dd8e0913eeaa
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# 모바일 응용 프로그램을 SDK v4에서 Adobe Experience Platform SDK {#sdkv4-migration}로 마이그레이션하는 방법
+# 모바일 애플리케이션을 SDK v4에서 Adobe Experience Platform SDK로 마이그레이션하는 방법 {#sdkv4-migration}
 
 >[!IMPORTANT]
 >
