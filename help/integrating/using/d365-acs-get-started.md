@@ -48,7 +48,7 @@ Microsoft Dynamics 365와의 Adobe Campaign Standard 통합을 통해 CRM 시스
 
 * 세일즈 및 마케팅 간의 일관된 메시지:Dynamics 365와의 Adobe Campaign Standard 통합을 통해 고객 인사이트와 이메일 마케팅 내역 모두에 액세스할 수 있으므로 고객에게 전달되는 모든 메시지를 동일한 일관된 메시지를 공유할 수 있습니다.
 
-* 모든 잠재 고객 및 고객 데이터의 거시적인 관점:adobe campaign standard과 Dynamics 365의 통합을 통해 CRM 시스템 내에서 각 연락처에서 이메일 마케팅 내역을 공유하고 액세스할 수 있습니다.
+* 모든 잠재 고객 및 고객 데이터의 거시적인 관점:Adobe Campaign Standard과 Dynamics 365의 통합을 통해 CRM 시스템 내에서 각 연락처에서 이메일 마케팅 내역을 공유하고 액세스할 수 있습니다.
 
 * 모든 채널에서 Dynamics 365 데이터를 활성화합니다.연락처 데이터를 Adobe Campaign에 동기화하면 모바일 푸시, 인앱, 이메일 또는 다이렉트 메일을 포함하여 모든 온라인 또는 오프라인 채널에서 커뮤니케이션을 보낼 수 있습니다. 캠페인이 각 연락처의 기본 채널에 상관없이 &quot;해당&quot; 캠페인을 수행했습니다.
 
