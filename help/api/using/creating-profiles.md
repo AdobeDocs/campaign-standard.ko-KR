@@ -21,7 +21,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
-><b>orgUnit</b>을(를) 생성된 프로필에 연결하려면 이 필드로 프로필 리소스를 확장해야 하며, 확장을 게시한 후에는 <b>ProfileAndServicesExt</b> 끝점에서 POST 요청을 수행하십시오.
+><b>orgUnit</b>을(를) 생성된 프로필에 연결하려면 이 필드로 프로필 리소스를 확장해야 하며, 확장을 게시한 후 <b>ProfileAndServicesExt</b> 끝점에서 POST 요청을 수행해야 합니다.
 >
 >프로필의 리소스 확장에 대한 자세한 내용은 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">캠페인 설명서</a>를 참조하십시오.
 
