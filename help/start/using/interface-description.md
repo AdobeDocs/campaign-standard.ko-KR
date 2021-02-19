@@ -57,7 +57,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 * **[!UICONTROL Home]** 링크를 통해 Adobe Campaign 홈페이지를 표시할 수 있습니다.
 *  **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** 및 **[!UICONTROL Reports]** 링크를 통해 이러한 기능에 연결된 보기에 액세스할 수 있습니다.
-* **솔루션 전환기** 아이콘을 사용하여 조직 간에 또는 다른 응용 프로그램으로 전환할 수 있습니다.
+* **솔루션 전환기** 아이콘을 사용하여 조직 간에 또는 다른 애플리케이션으로 전환할 수 있습니다.
 * **[!UICONTROL Help]** 아이콘은 [아래에 설명되어 있습니다](#help).
 * **알림** 아이콘에 최신 알림 또는 정보가 표시됩니다.
 * **사용자** 아이콘을 사용하면 프로필에 연결된 정보를 표시할 수 있습니다. **[!UICONTROL Sign out]**&#x200B;이 필요한 경우 이 아이콘을 사용합니다.
@@ -74,7 +74,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 1. **[!UICONTROL Help]** 탭에는 다음이 포함되어 있습니다.
    * 상황에 맞는 링크가 포함된 Adobe Campaign Standard 문서에 신속하게 액세스할 수 있습니다.
-   * adobe campaign 강좌 라이브러리에 액세스할 수 있는 **[!UICONTROL Learning]** 링크.
+   * Adobe Campaign 강좌 라이브러리에 액세스할 수 있는 **[!UICONTROL Learning]** 링크.
    * 캠페인의 질문에만 사용되는 포럼에 액세스하는 **[!UICONTROL Community]** 링크.
    * 다음에 직접 액세스:도움말 센터, 고객 지원, Experience Cloud 제품 상태, 개발자 연결, 릴리스 노트, 릴리스 계획 및 **[!UICONTROL About]** 화면.
 1. **[!UICONTROL Support]** 탭에서는 지원 사례를 열고 전화 또는 Twitter를 통해 Adobe에 문의할 수 있습니다.
