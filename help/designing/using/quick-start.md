@@ -123,7 +123,7 @@ ht-degree: 5%
 1. 홈 아이콘을 클릭하여 **[!UICONTROL Email Designer]** 홈 페이지에 액세스합니다.
 1. **[!UICONTROL Templates]** 탭을 클릭합니다.
 1. 기본 HTML 템플릿을 선택합니다.
-다양한 템플릿에는 여러 유형의 요소가 다양하게 조합되어 있습니다. 예를 들어 &#39;페더&#39; 템플릿에는 여백이 있지만 &#39;아스트로&#39; 템플릿에는 여백이 없습니다. 자세한 내용은 [콘텐츠 템플릿](../../designing/using/using-reusable-content.md#content-templates)을 참조하십시오.
+다양한 템플릿에는 여러 유형의 요소가 다양하게 조합되어 있습니다. 예를 들어 &#39;페더&#39; 템플릿에는 여백이 있지만 &#39;아스트로&#39; 템플릿에는 여백이 없습니다. 자세한 내용은 [컨텐트 템플릿](../../designing/using/using-reusable-content.md#content-templates)을 참조하십시오.
 1. 이메일 디자이너 홈 페이지(홈 아이콘을 통해 액세스 가능)의 **[!UICONTROL Properties]** 탭으로 이동하여 **[!UICONTROL Subject]** 섹션을 입력합니다.
 1. 이러한 요소를 결합하여 다양한 이메일 변형을 만들 수 있습니다. 예를 들어 구조 구성 요소를 선택하고 컨텍스트 도구 모음에서 **[!UICONTROL Duplicate]**&#x200B;을 클릭하여 이메일 섹션을 복제할 수 있습니다.
 1. 왼쪽에 있는 파란색 화살표를 사용하여 요소를 이동시켜 구조 구성 요소를 다른 요소 아래 또는 위로 드래그할 수 있습니다. 자세한 내용은 [전자 메일 구조 편집](../../designing/using/designing-from-scratch.md#defining-the-email-structure)을 참조하십시오.
