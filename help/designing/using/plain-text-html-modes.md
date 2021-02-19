@@ -37,7 +37,7 @@ HTML 버전과 다른 일반 텍스트 버전을 사용하려면 전자 메일�
 
 >[!NOTE]
 >
->동기화가 비활성화되어 있는 동안 **[!UICONTROL Plain text]** 버전을 편집하는 경우 다음에 **[!UICONTROL Sync with HTML]** 옵션을 활성화하면 일반 텍스트 버전에서 변경한 모든 내용이 HTML 버전으로 대체됩니다. **[!UICONTROL Plain text]** 보기에서 변경한 내용은 **[!UICONTROL HTML]** 보기에 반영될 수 없습니다.
+>동기화가 비활성화되어 있는 동안 **[!UICONTROL Plain text]** 버전을 편집하는 경우 다음 번에 **[!UICONTROL Sync with HTML]** 옵션을 활성화하면 일반 텍스트 버전에서 변경한 모든 내용이 HTML 버전으로 대체됩니다. **[!UICONTROL Plain text]** 보기에서 변경한 내용은 **[!UICONTROL HTML]** 보기에 반영될 수 없습니다.
 
 ## HTML {#editing-an-email-content-source-in-html}에서 이메일 컨텐츠 소스 편집
 
@@ -70,7 +70,7 @@ HTML을 수정하면 이메일의 응답성이 끊어질 수 있습니다. **[!U
 
    이메일의 모바일 버전이 표시됩니다. 여기에는 데스크톱 보기에 정의된 모든 구성 요소 및 스타일이 포함되어 있습니다.
 
-1. 배경색, 정렬, 패딩, 여백, 글꼴 모음, 텍스트 색상 등 모든 스타일 설정을 개별적으로 편집할 수 있습니다.
+1. 배경 색상, 정렬, 패딩, 여백, 글꼴 모음, 텍스트 색상 등 모든 스타일 설정을 개별적으로 편집할 수 있습니다.
 
    ![](assets/email_designer_mobile_view.png)
 
