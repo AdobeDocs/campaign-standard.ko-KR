@@ -145,7 +145,7 @@ Adobe Campaign은 사전 구성된 콘텐츠 블록 목록을 제공합니다. �
 
    ![](assets/content_bloc_02.png)
 
-1. **[!UICONTROL Targeting dimension]**&#x200B;을 선택할 수 있습니다. 이에 대한 자세한 내용은 [타깃팅 차원](#about-targeting-dimension)을 참조하십시오.
+1. **[!UICONTROL Targeting dimension]**&#x200B;을 선택할 수 있습니다. 이에 대한 자세한 내용은 [타깃팅 차원](#about-targeting-dimension) 정보를 참조하십시오.
 
    ![](assets/content_bloc_04.png)
 
@@ -230,7 +230,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 메시지에 하나 이�
 
 이메일에서 표현식 편집기를 통해 정의된 조건에 따라 수신자에게 동적으로 표시되는 다양한 컨텐츠를 정의할 수 있습니다. 예를 들어 동일한 이메일에서 각 프로필의 연령 범위에 따라 다른 메시지를 수신하도록 할 수 있습니다.
 
-동적 내용을 정의하는 것은 가시성 조건 정의[와는 다릅니다.](#defining-a-visibility-condition)
+동적 내용을 정의하는 것은 가시성 조건 정의](#defining-a-visibility-condition)와는 다릅니다.[
 
 1. 조각, 구성 요소 또는 요소를 선택합니다. 이 예에서 이미지를 선택합니다.
 1. 컨텍스트 도구 모음에서 **[!UICONTROL Dynamic content]** 아이콘을 클릭합니다.
