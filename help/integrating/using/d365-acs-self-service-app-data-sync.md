@@ -156,7 +156,7 @@ Microsoft Dynamics 365 기본 키는 응용 프로그램에서 감지하므로 �
 
 * 필드 매핑 섹션에 위에 추가된 Microsoft Dynamics 365 필드 이름
 * 기존 값(Microsoft Dynamics 365에 있음)과
-* adobe campaign에 쓸 새로운 값
+* Adobe Campaign에 쓸 새로운 값
 
 선택 목록, 열거형 및 부울 값에 대한 드롭다운 목록이 제공됩니다. 텍스트 상자는 다른 문자열 및 숫자 유형에 사용됩니다.
 
