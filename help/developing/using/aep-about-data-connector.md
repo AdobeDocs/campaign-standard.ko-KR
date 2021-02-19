@@ -72,7 +72,7 @@ Adobe Experience Platform 데이터 커넥터는 Adobe Campaign Standard 사용�
 
 * 각 XDM 필드에 대해 DULE 레이블을 Adobe Experience Platform에서 지정해야 합니다. DULE 레이블을 적용하는 것은 고객의 책임입니다.
 
-* 마케팅 작업에 대한 제한 사항은 Adobe Experience Platform에 DULE 레이블이 적용된 후에만 적용됩니다. 그 이전에는 모든 유형의 마케팅 작업에 모든 데이터를 사용할 수 있습니다.
+* 마케팅 작업에 대한 제한 사항은 Adobe Experience Platform에 DULE 레이블이 적용된 후에만 적용됩니다. 그 전에는 모든 유형의 마케팅 작업에 모든 데이터를 사용할 수 있습니다.
 
 * 15분마다 배치 작업이 실행 중이며 최근 배치 이후 변경된 레코드를 식별합니다. 모든 레코드가 동일한 타임스탬프에서 변경되면 성능 병목 현상이 모든 프로필의 수거를 관리하는 것처럼 나타날 수 있습니다
 
