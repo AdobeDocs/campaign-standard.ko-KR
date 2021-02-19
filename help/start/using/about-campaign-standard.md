@@ -6,9 +6,9 @@ description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 �
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 100%
 
