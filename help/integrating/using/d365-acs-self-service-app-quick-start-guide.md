@@ -90,7 +90,7 @@ Microsoft Dynamics 365 셀프 서비스 통합 애플리케이션과 Adobe Campa
 
 ## 초기 구성 {#self-service-app-initial-config} 확인
 
-위의 전제 조건을 완료하고 자격 증명을 모두 올바르게 추가했다고 가정할 경우, 이제 **[!UICONTROL Workflows]** 페이지로 이동합니다. [이 페이지](../../integrating/using/d365-acs-self-service-app-workflows.md)의 통합 앱 작업 과정에 대해 자세히 알아보십시오.
+위의 전제 조건을 완료하고 자격 증명을 모두 올바르게 추가했다고 가정할 경우, 이제 **[!UICONTROL Workflows]** 페이지로 이동합니다. [이 페이지](../../integrating/using/d365-acs-self-service-app-workflows.md)의 통합 앱 워크플로에 대해 자세히 알아보십시오.
 
 **[!UICONTROL Workflows]** 페이지에서 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로우와 연관된 연필 아이콘을 클릭하여 구성을 편집합니다.
 
