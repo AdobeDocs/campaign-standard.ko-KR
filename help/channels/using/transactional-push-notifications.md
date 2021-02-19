@@ -141,7 +141,7 @@ Adobe Campaign을 사용하여 모바일 응용 프로그램에서 알림을 받
 
    ![](assets/message-center_push_appfilter.png)
 
-1. 트랜잭션 메시지를 개인화하려면 이벤트에 필드를 추가합니다(이벤트 특성 정의[ 참조).](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)
+1. 트랜잭션 메시지를 개인화하려면 이벤트에 필드를 추가합니다(이벤트 특성 정의](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) 참조).[
 
    >[!NOTE]
    >
