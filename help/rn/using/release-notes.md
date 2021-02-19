@@ -9,8 +9,8 @@ topic-tags: campaign-standard-releases
 translation-type: tm+mt
 source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2627'
+ht-degree: 98%
 
 ---
 
