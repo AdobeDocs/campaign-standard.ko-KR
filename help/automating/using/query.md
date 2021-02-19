@@ -96,7 +96,7 @@ ht-degree: 95%
 
 타겟팅 차원 및 리소스는 기본적으로 프로필을 타겟팅하도록 설정되어 있습니다. 하지만 떨어진 표에 있는 특정 레코드를 검색하려는 경우, 타겟팅 차원과 다른 리소스를 사용하면 유용할 수 있습니다.
 
-자세한 내용은 다음 사용 사례를 참조하십시오.대상 차원과 다른 리소스 사용[](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+자세한 내용은 다음 사용 사례를 참조하십시오.대상 차원과 다른 리소스 사용](../../automating/using/using-resources-different-from-targeting-dimensions.md)[
 
 ## 데이터 강화 {#enriching-data}
 
