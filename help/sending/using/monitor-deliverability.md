@@ -31,7 +31,7 @@ ht-degree: 7%
 
 이 보고서에는 지정된 기간 동안 전체 플랫폼의 배달 처리량에 대한 정보가 포함되어 있어 메시지가 전달되는 속도를 측정합니다.
 
-자세한 내용은 [배달 처리량](../../reporting/using/delivery-throughput.md)을 참조하십시오.
+이에 대한 자세한 내용은 [배달 처리량](../../reporting/using/delivery-throughput.md)을 참조하십시오.
 
 ![](assets/delivery_reports_1.png)
 
