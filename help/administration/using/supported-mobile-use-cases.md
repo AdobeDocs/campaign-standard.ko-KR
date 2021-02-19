@@ -45,7 +45,7 @@ iOS에서는 다음 [!DNL Experience Platform APIs]이 필요합니다.
 * **[!UICONTROL Lifecycle Start]**&#x200B;로 설정되어 있고 앱을 시작하고 앱이 포그라운드에 있을 때
 * **[!UICONTROL Lifecycle Pause]**&#x200B;로 설정되어 있는지 확인합니다.
 
-자세한 내용은 iOS[의 라이프사이클 확장을 참조하십시오.](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios)
+자세한 내용은 iOS](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios)의 라이프사이클 확장을 참조하십시오.[
 
 다음은 iOS에서 이 사용 사례를 구현하는 예입니다.
 
@@ -189,7 +189,7 @@ iOS에서는 다음 [!DNL Experience Platform APIs]이 필요합니다.
 * **[!UICONTROL Lifecycle Start]**&#x200B;로 설정되어 있고 앱을 시작하고 앱이 포그라운드에 있을 때
 * **[!UICONTROL Lifecycle Pause]**&#x200B;로 설정되어 있는지 확인합니다.
 
-자세한 내용은 iOS[의 라이프사이클 확장을 참조하십시오.](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios)
+자세한 내용은 iOS](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios)의 라이프사이클 확장을 참조하십시오.[
 
 다음은 iOS에서 이 사용 사례를 구현하는 예입니다.
 
