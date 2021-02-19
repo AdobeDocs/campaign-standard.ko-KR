@@ -56,7 +56,7 @@ Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지�
    * Experience Platform Launch에 **[!UICONTROL Places]** 확장을 설치합니다. 이 [페이지](https://docs.adobe.com/content/help/ko-KR/places/using/places-ext-aep-sdks/places-extension/places-extension.html)를 참조하십시오.
    * Experience Platform Launch에 **[!UICONTROL Places Monitor]** 확장을 설치합니다. 이 [페이지](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)를 참조하십시오.
 
-1. Adobe Campaign Standard에서 Experience Platform Launch에서 만든 모바일 속성을 구성합니다. Adobe Campaign[에서 Adobe Experience Platform Launch 응용 프로그램 설정을 참조하십시오.](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)
+1. Adobe Campaign Standard에서 Experience Platform Launch에서 만든 모바일 속성을 구성합니다. Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)에서 Adobe Experience Platform Launch 응용 프로그램 설정을 참조하십시오.[
 
 1. 모바일 애플리케이션 설정에 채널별 구성을 추가합니다.
 자세한 내용은 [Adobe Campaign의 채널별 애플리케이션 구성](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)을 참조하십시오.
