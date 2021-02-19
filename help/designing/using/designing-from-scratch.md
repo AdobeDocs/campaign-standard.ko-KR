@@ -30,11 +30,11 @@ ht-degree: 2%
 1. 이메일 미리 보기.
 1. 컨텐트를 저장하고 대상을 정의하고 전송을 적절하게 예약했는지 확인한 후 메시지를 계속 진행합니다.
 
-이 [소개 비디오](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=kor)도 확인할 수 있습니다.
+이 [소개 비디오](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)도 확인할 수 있습니다.
 
 >[!NOTE]
 >
->이메일 컨텐츠를 처음부터 디자인하지 않으려면 바로 사용 가능한 컨텐츠 템플릿을 사용할 수 있습니다. 자세한 내용은 [콘텐츠 템플릿](../../designing/using/using-reusable-content.md#content-templates)을 참조하십시오.
+>이메일 컨텐츠를 처음부터 디자인하지 않으려면 바로 사용 가능한 컨텐츠 템플릿을 사용할 수 있습니다. 자세한 내용은 [컨텐트 템플릿](../../designing/using/using-reusable-content.md#content-templates)을 참조하십시오.
 
 ## 이메일 구조 정의 {#defining-the-email-structure}
 
