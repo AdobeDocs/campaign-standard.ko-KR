@@ -64,7 +64,7 @@ Campaign Standard에서 직접 Adobe Experience Platform 대상을 만들려면 
 
 ## 대상자 편집
 
-대상을 편집하려면 대상을 열고 세그먼트 빌더 인터페이스 내에서 필요에 따라 규칙을 수정합니다(세그먼트 빌더 사용[ 참조).](../../audiences/using/aep-using-segment-builder.md)
+대상을 편집하려면 대상을 열고 세그먼트 빌더 인터페이스 내에서 필요에 따라 규칙을 수정합니다(세그먼트 빌더 사용](../../audiences/using/aep-using-segment-builder.md) 참조).[
 
 변경 사항이 완료되면 **[!UICONTROL Save segment]** 단추를 클릭하여 대상을 업데이트합니다.
 
