@@ -21,7 +21,7 @@ ht-degree: 8%
 >
 >대상 대상 서비스는 현재 베타 버전이며 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객이 Azure(현재 북미 전용 베타 버전)에서 호스팅되어야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
 >
->**adobe experience platform** 의 컨텍스트  **데이터** 를 사용하여 개인화하려면 PushIn-App 채널을 아직 사용할 수 없습니다.
+>**Adobe Experience Platform** 의 컨텍스트  **데이터** 를 사용하여 개인화하려면 PushIn-App 채널을 아직 사용할 수 없습니다.
 
 워크플로우가 [Adobe Experience Platform audience](../../audiences/using/aep-about-audience-destinations-service.md)로 구성되면 XDM(Experience Data Model)에만 있는 프로필 특성을 사용하여 메시지를 개인화할 수 있습니다.
 
