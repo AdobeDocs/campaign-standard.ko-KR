@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Experience Cloud 트리거 구성
-description: '이전 행동을 바탕으로 고객에게 개인화된 제공을 전송하도록 Adobe Experience Cloud 트리거 통합을 구성하는 방법을 살펴볼 수 있습니다. '
+description: '이전 행동을 바탕으로 고객에게 개인화된 제공을 전송하도록 Adobe Experience Cloud Triggers 통합을 구성하는 방법을 살펴볼 수 있습니다. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
