@@ -114,7 +114,7 @@ EFS(Email Feedback Service) 기능을 사용하면 피드백이 향상된 MTA(�
 
 메시지가 실제로 타깃팅된 프로파일에 전달되고 이 정보가 향상된 MTA에서 실시간으로 보고되면 배달 로그는 메시지를 수신한 각 주소의 **[!UICONTROL Sent]** 상태를 표시합니다. **[!UICONTROL Delivered]** 비율은 성공적으로 배달될 때마다 그에 따라 증가합니다.
 
-하드 바운스 메시지가 향상된 MTA에서 다시 보고되면 로그 상태가 **[!UICONTROL Pending]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 그에 따라 **[!UICONTROL Bounces + errors]** 백분율이 증가합니다.
+하드 바운스 메시지가 향상된 MTA에서 다시 보고되면 로그 상태가 **[!UICONTROL Pending]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 그에 따라 **[!UICONTROL Bounces + errors]** 비율이 증가합니다.
 
 소프트 바운스 메시지가 향상된 MTA에서 다시 보고되면 로그 상태도 **[!UICONTROL Pending]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 그에 따라 **[!UICONTROL Bounces + errors]** 백분율이 증가합니다. **[!UICONTROL Delivered]** 비율은 변경되지 않습니다. 그런 다음 배달 [유효성 기간 동안 소프트 바운스 메시지를 다시 시도합니다.](../../administration/using/configuring-email-channel.md#validity-period-parameters):
 
