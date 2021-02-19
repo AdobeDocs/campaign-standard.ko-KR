@@ -30,7 +30,7 @@ Adobe Campaign에서 Adobe Target과 통합 기능을 사용하려면 먼저 구
 1. 고급 메뉴의 왼쪽 위 모서리에 있는 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;를 선택합니다.
 1. Adobe Target에 대한 서버 및 테넌트 옵션을 구성하려면 다음 필드에 그에 따라 입력합니다.
 
-   * **[!UICONTROL TNT_TenantName]**:adobe target 테넌트의 이름입니다. 이 값은 Adobe Target **[!UICONTROL Client]**&#x200B;의 이름에 해당합니다.
+   * **[!UICONTROL TNT_TenantName]**:Adobe Target 테넌트의 이름입니다. 이 값은 Adobe Target **[!UICONTROL Client]**&#x200B;의 이름에 해당합니다.
    * **[!UICONTROL TNT_EdgeServer]**:통합에 사용되는 Adobe Target 서버. 이 옵션은 기본적으로 이미 제공됩니다. 이 값은 Adobe Target **[!UICONTROL Server Domain]**&#x200B;에 해당하고 그 뒤에 **/m2** 값이 옵니다. 예:**tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
