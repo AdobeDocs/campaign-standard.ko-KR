@@ -37,7 +37,7 @@ ht-degree: 2%
 1. 필수 필드를 작성하고 다음을 선택합니다.
 
    * **타깃팅 차원**:매핑할 Campaign Standard 스키마입니다.
-   * **데이터 세트**:adobe experience platform의 XDM 스키마에 연결된 데이터 패키지입니다.
+   * **데이터 세트**:Adobe Experience Platform의 XDM 스키마에 연결된 데이터 패키지입니다.
 
 >[!NOTE]
 >
