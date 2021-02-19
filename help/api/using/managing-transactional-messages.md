@@ -138,7 +138,7 @@ POST 요청에 대한 응답입니다.
 
 * **보류 중**:이벤트가 보류 중입니다. 방금 트리거된 경우 이벤트가 이 상태를 유지합니다.
 * **처리**:이벤트가 배달 보류 중입니다. 메시지가 메시지로 변환되고 메시지가 전송됩니다.
-* **일시 중지됨**:이벤트 프로세스가 일시 중지됩니다. 더 이상 처리되지 않지만 Adobe Campaign 데이터베이스의 대기열에 보관됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)을 참조하십시오.
+* **일시 중지됨**:이벤트 프로세스가 일시 중지됩니다. 더 이상 처리되지 않지만 Adobe Campaign 데이터베이스의 큐에 보관됩니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)을 참조하십시오.
 * **처리됨**:이벤트가 처리되고 메시지가 성공적으로 전송되었습니다.
 * **무시됨**:일반적으로 주소가 격리 상태일 때 배달 시 이벤트가 무시되었습니다.
 * **deliveryFailed**:이벤트를 처리하는 동안 배달 오류가 발생했습니다.
