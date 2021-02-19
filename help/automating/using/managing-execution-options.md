@@ -44,6 +44,6 @@ ht-degree: 13%
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**:개발 환경 테스트 목적으로 로컬에서 워크플로우를 실행할 수 있도록 해줍니다.
 
-* **[!UICONTROL Severity]**:adobe campaign 인스턴스에서 워크플로우를 실행하기 위한 우선 순위 수준을 지정할 수 있습니다. 이 필드는 Adobe 팀이 모니터링 목적으로만 사용합니다.
+* **[!UICONTROL Severity]**:Adobe Campaign 인스턴스에서 워크플로우를 실행하기 위한 우선 순위 수준을 지정할 수 있습니다. 이 필드는 Adobe 팀이 모니터링 목적으로만 사용합니다.
 
 **[!UICONTROL Error management]** 섹션에서는 오류가 발생하는 경우 워크플로우의 작동 방식을 관리할 수 있는 추가 옵션을 제공합니다. 이러한 옵션은 [오류 관리](../../automating/using/monitoring-workflow-execution.md#error-management) 섹션에 자세히 설명되어 있습니다.
