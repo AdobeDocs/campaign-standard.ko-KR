@@ -332,7 +332,7 @@ ht-degree: 2%
    <td> 고유 노출 횟수<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view)<br /> </td> 
-   <td> 캠페인 프로필(inAppProfile)</span> 템플릿을 기반으로 한 <span class="uicontrol">Target 사용자의 경우 사용자 = 수신자 ID입니다.<br /> 모바일 앱(inAppBroadcast)의 모든 사용자 <span class="uicontrol">와 모바일 프로파일(inApp) 템플릿을 기반으로 한 </span> Target 사용자를 Target <span class="uicontrol">의 경우 사용자, 모바일 앱 및 디바이스의 고유한 조합을 나타내는 사용자 = MC Id 또는 동등</span> 이 됩니다.<br /> </span></td> 
+   <td> 캠페인 프로필(inAppProfile)</span> 템플릿을 기반으로 한 <span class="uicontrol">Target 사용자의 경우 사용자 = 수신자 ID입니다.<br /> 모바일 앱(inAppBroadcast)의 모든 사용자 <span class="uicontrol">와 모바일 프로파일(inApp) </span> 템플릿을 기반으로 한  <span class="uicontrol"> </span> Target 사용자를 Target의 경우 사용자, 모바일 앱 및 디바이스의 고유한 조합을 나타내는 사용자 = MC Id 또는 동등<br /> </span></td> 
   </tr> 
   <tr> 
    <td> 인앱 클릭 <br /> </td> 
@@ -344,7 +344,7 @@ ht-degree: 2%
    <td> 고유 인앱 클릭<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks)<br /> </td> 
-   <td> 캠페인 프로필(inAppProfile)</span> 템플릿을 기반으로 한 <span class="uicontrol">Target 사용자의 경우 사용자 = 수신자 ID입니다.<br /> 모바일 앱(inAppBroadcast)의 모든 사용자 <span class="uicontrol">와 모바일 프로파일(inApp) 템플릿을 기반으로 한 </span> Target 사용자를 Target <span class="uicontrol">의 경우 사용자, 모바일 앱 및 디바이스의 고유한 조합을 나타내는 사용자 = MC Id 또는 동등</span> 이 됩니다.<br /> </span></td> 
+   <td> 캠페인 프로필(inAppProfile)</span> 템플릿을 기반으로 한 <span class="uicontrol">Target 사용자의 경우 사용자 = 수신자 ID입니다.<br /> 모바일 앱(inAppBroadcast)의 모든 사용자 <span class="uicontrol">와 모바일 프로파일(inApp) </span> 템플릿을 기반으로 한  <span class="uicontrol"> </span> Target 사용자를 Target의 경우 사용자, 모바일 앱 및 디바이스의 고유한 조합을 나타내는 사용자 = MC Id 또는 동등<br /> </span></td> 
   </tr> 
   <tr> 
    <td> 인앱 클릭스루 비율<br /> </td> 
@@ -362,7 +362,7 @@ ht-degree: 2%
    <td> 고유한 인앱 무시<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> 캠페인 프로필(inAppProfile)</span> 템플릿을 기반으로 한 <span class="uicontrol">Target 사용자의 경우 사용자 = 수신자 ID입니다.<br /> 모바일 앱(inAppBroadcast)의 모든 사용자 <span class="uicontrol">와 모바일 프로파일(inApp) 템플릿을 기반으로 한 </span> Target 사용자를 Target <span class="uicontrol">의 경우 사용자, 모바일 앱 및 디바이스의 고유한 조합을 나타내는 사용자 = MC Id 또는 동등</span> 이 됩니다.<br /> </span></td> 
+   <td> 캠페인 프로필(inAppProfile)</span> 템플릿을 기반으로 한 <span class="uicontrol">Target 사용자의 경우 사용자 = 수신자 ID입니다.<br /> 모바일 앱(inAppBroadcast)의 모든 사용자 <span class="uicontrol">와 모바일 프로파일(inApp) </span> 템플릿을 기반으로 한  <span class="uicontrol"> </span> Target 사용자를 Target의 경우 사용자, 모바일 앱 및 디바이스의 고유한 조합을 나타내는 사용자 = MC Id 또는 동등<br /> </span></td> 
   </tr> 
   <tr> 
    <td> 인앱 해촉률<br /> </td> 
