@@ -37,9 +37,9 @@ ht-degree: 2%
 
       URL에 대한 개인화를 정의할 수 있습니다. [URL 개인화](../../designing/using/using-reusable-content.md#creating-a-content-fragment)를 참조하십시오.
 
-   * **랜딩 페이지**:adobe campaign 랜딩 페이지에 대한 액세스 권한을 제공합니다.
-   * **구독 링크**:adobe campaign 서비스에 가입할 수 있는 링크를 삽입합니다.
-   * **구독 취소 링크**:adobe campaign 서비스 가입 해지를 위한 링크를 삽입합니다.
+   * **랜딩 페이지**:Adobe Campaign 랜딩 페이지에 대한 액세스 권한을 제공합니다.
+   * **구독 링크**:Adobe Campaign 서비스에 가입할 수 있는 링크를 삽입합니다.
+   * **구독 취소 링크**:Adobe Campaign 서비스 가입 해지를 위한 링크를 삽입합니다.
    * **동작을 정의하는 링크**:랜딩 페이지의 요소를 클릭할 때 작업을 정의합니다.
 
       >[!NOTE]
