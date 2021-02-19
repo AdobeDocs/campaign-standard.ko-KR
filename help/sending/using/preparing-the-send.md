@@ -49,7 +49,7 @@ ht-degree: 2%
 
    ![](assets/preparing_delivery_3.png)
 
-1. 메시지를 보내기 전에 준비 통계를 확인하십시오. 보낼 메시지 수가 구성에 맞지 않으면 타깃팅된 모집단을 편집하고(메시지[에서 대상 선택 참조) 준비를 다시 시작합니다.](../../audiences/using/selecting-an-audience-in-a-message.md)
+1. 메시지를 보내기 전에 준비 통계를 확인하십시오. 보낼 메시지 수가 구성에 맞지 않으면 타깃팅된 모집단을 편집하고(메시지](../../audiences/using/selecting-an-audience-in-a-message.md)에서 대상 선택 참조) 준비를 다시 시작합니다.[
 
 준비가 완료되면 메시지를 보낼 준비가 됩니다. 자세한 내용은 [전송](../../sending/using/confirming-the-send.md) 확인을 참조하십시오.
 
