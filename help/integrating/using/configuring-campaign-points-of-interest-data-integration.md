@@ -27,7 +27,7 @@ ht-degree: 3%
 
 Adobe Experience Platform SDK로 구성된 모바일 애플리케이션에서 Adobe Experience Platform Location Services를 사용할 수 있으려면 다음을 수행해야 합니다.
 
-1. Adobe Experience Platform Launch의 모바일 앱 구성에 **[!UICONTROL Places]** 및 **[!UICONTROL Places Monitor]** 확장을 추가합니다. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. Adobe Experience Platform Launch[에 위치 확장 설치 및 ](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch)Experience Platform Launch[에 위치 모니터 확장 설치를 참조하십시오.](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch)
+1. Adobe Experience Platform Launch의 모바일 앱 구성에 **[!UICONTROL Places]** 및 **[!UICONTROL Places Monitor]** 확장을 추가합니다. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch)에 위치 확장 설치 및 [Experience Platform Launch](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch)에 위치 모니터 확장 설치를 참조하십시오.[
 
 1. 익스텐션이 설정되면 **[!UICONTROL Adobe Experience Platform Launch]** 내에 데이터 요소를 만들어 이러한 익스텐션에서 데이터를 검색합니다. 데이터 요소를 만들려면 이 [페이지](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements)를 참조하십시오.
 
@@ -36,7 +36,7 @@ Adobe Experience Platform SDK로 구성된 모바일 애플리케이션에서 Ad
 
 1. 위치에서 **[!UICONTROL Points of Interest]**&#x200B;을(를) 정의합니다. [관심 영역 만들기](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html)를 참조하십시오.
 
-1. Adobe Campaign에서 모바일 응용 프로그램 및 수집된 위치 데이터에 액세스해야 합니다. 위치 데이터[ 및 ](#accessing-mobile-apps-used-to-collect-location-data)수집된 위치 데이터 액세스[를 참조하십시오.](#accessing-collected-location-data)
+1. Adobe Campaign에서 모바일 응용 프로그램 및 수집된 위치 데이터에 액세스해야 합니다. 위치 데이터](#accessing-mobile-apps-used-to-collect-location-data) 및 [수집된 위치 데이터 액세스](#accessing-collected-location-data)를 참조하십시오.[
 
 ## SDK V4 {#configuring-campaign-poi-sdkv4}을(를) 사용하여 캠페인 관심 영역 데이터 통합 구성
 
@@ -46,7 +46,7 @@ SDK V4로 구성된 모바일 애플리케이션에서 관심 영역 데이터 �
 
 1. 모바일용 Adobe Analytics을 이용할 수 있습니다. 자세한 내용은 라이선스 계약서를 확인하거나 Adobe 계정 관리자에게 문의하십시오.
 1. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. [Campaign](#setting-up-a-mobile-app-in-campaign)에서 모바일 앱 설정을 참조하십시오.
-1. Adobe Mobile Services 인터페이스에서 모바일 애플리케이션을 설정합니다. 이렇게 하면 Adobe Mobile Services에서 수집한 데이터가 Adobe Campaign으로 전송되도록 할 수 있습니다. Adobe Mobile Services[에서 모바일 앱 구성을 참조하십시오.](#configuring-a-mobile-app-in-adobe-mobile-services)
+1. Adobe Mobile Services 인터페이스에서 모바일 애플리케이션을 설정합니다. 이렇게 하면 Adobe Mobile Services에서 수집한 데이터가 Adobe Campaign으로 전송되도록 할 수 있습니다. Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services)에서 모바일 앱 구성을 참조하십시오.[
 1. 모바일 응용 프로그램의 특정 설정을 수행합니다.
 
    * Adobe Mobile Services 인터페이스에서 다운로드한 구성 파일을 모바일 응용 프로그램과 함께 패키징합니다.
@@ -54,7 +54,7 @@ SDK V4로 구성된 모바일 애플리케이션에서 관심 영역 데이터 �
 
 1. Adobe Mobile Services 인터페이스에서 관심 영역을 정의합니다. [Adobe Mobile Services에 대한 관심 영역 정의](#defining-points-of-interest-in-adobe-mobile-services)를 참조하십시오.
 1. 모바일 애플리케이션의 가입자로부터 수집할 데이터를 정의합니다. [가입자의 관심 영역 데이터 수집](#collecting-subscribers--points-of-interest-data)을 참조하십시오.
-1. Adobe Campaign에서 모바일 응용 프로그램 및 수집된 위치 데이터에 액세스해야 합니다. 위치 데이터[ 및 ](#accessing-mobile-apps-used-to-collect-location-data)수집된 위치 데이터 액세스[를 참조하십시오.](#accessing-collected-location-data)
+1. Adobe Campaign에서 모바일 응용 프로그램 및 수집된 위치 데이터에 액세스해야 합니다. 위치 데이터](#accessing-mobile-apps-used-to-collect-location-data) 및 [수집된 위치 데이터 액세스](#accessing-collected-location-data)를 참조하십시오.[
 
 ### SDK V4 {#setting-up-a-mobile-app-in-campaign}을 사용하여 Adobe Campaign에서 모바일 앱 설정
 
@@ -66,10 +66,10 @@ Adobe Campaign에서 관심 영역 데이터를 수집하려면 Adobe Campaign�
 
    **[!UICONTROL Device-specific settings]** 섹션을 채우지 마십시오. 이는 푸시 알림을 수신하는 애플리케이션을 구성하는 경우에만 적용됩니다.
 
-**[!UICONTROL Mobile application properties]** 섹션에서 두 개의 URL이 나열됩니다.**[!UICONTROL Collect PII endpoint]** 및 **[!UICONTROL Location Services endpoint]**. Adobe Mobile Services 인터페이스에서 사용됩니다. Adobe Mobile Services[에서 모바일 앱 구성을 참조하십시오.](#configuring-a-mobile-app-in-adobe-mobile-services)
+**[!UICONTROL Mobile application properties]** 섹션에서 두 개의 URL이 나열됩니다.**[!UICONTROL Collect PII endpoint]** 및 **[!UICONTROL Location Services endpoint]**. Adobe Mobile Services 인터페이스에서 사용됩니다. Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services)에서 모바일 앱 구성을 참조하십시오.[
 
 * **[!UICONTROL Collect PII endpoint]** URL은 모바일 응용 프로그램이 시작될 때 사용자의 Experience Cloud ID 및 등록 토큰을 수집하는 데 사용됩니다. 사용자가 이메일, 이름, 성 등과 같은 자격 증명을 사용하여 응용 프로그램에 로그인하면 이 데이터도 수집되어 사용자의 등록 토큰을 Adobe Campaign 프로필과 조정하는 데 사용됩니다.
-* **[!UICONTROL Location Services endpoint]** URL은 관심 지점에서 사용자의 위도, 경도 및 반경 등의 위치 데이터를 수집하는 데 사용됩니다.
+* **[!UICONTROL Location Services endpoint]** URL은 관심 영역에서 사용자의 위도, 경도 및 반경 등의 위치 데이터를 수집하는 데 사용됩니다.
 
 이제 Adobe Mobile Services](#configuring-a-mobile-app-in-adobe-mobile-services) 섹션에서 [모바일 앱 구성에 설명된 대로 Adobe Mobile Services에서 이러한 값을 사용하여 구성을 완료할 수 있습니다.
 
