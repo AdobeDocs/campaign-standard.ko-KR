@@ -24,7 +24,7 @@ Adobe Campaign에서 트랜잭션 메시지를 보내려면 먼저 이벤트를 
 >
 >[기능 관리자](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->만 이벤트 구성을 만들고 편집할 수 있는 적절한 권한이 있습니다.
 
-구성은 보내려는 트랜잭션 메시지[의 유형과 사용할 채널에 따라 달라집니다. ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) 자세한 내용은 [특정 구성](#transactional-event-specific-configurations)을 참조하십시오.
+구성은 보내려는 트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)의 유형과 사용할 채널에 따라 달라집니다. [ 자세한 내용은 [특정 구성](#transactional-event-specific-configurations)을 참조하십시오.
 
 구성이 완료되면 이벤트를 게시해야 합니다. [트랜잭션 이벤트](../../channels/using/publishing-transactional-event.md) 게시를 참조하십시오.
 
@@ -165,7 +165,7 @@ Adobe Campaign에서 트랜잭션 메시지를 보내려면 먼저 이벤트를 
 
 ## 특정 구성 {#transactional-event-specific-configurations}
 
-트랜잭션 이벤트 구성은 전송하려는 트랜잭션 메시지[의 유형(이벤트 또는 프로필)과 사용할 채널에 따라 달라질 수 있습니다.](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)
+트랜잭션 이벤트 구성은 전송하려는 트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)의 유형(이벤트 또는 프로필)과 사용할 채널에 따라 달라질 수 있습니다.[
 
 다음 섹션에서는 원하는 트랜잭션 메시지에 따라 어떤 구성을 설정해야 하는지 자세히 설명합니다. 이벤트를 구성하는 일반적인 단계에 대한 자세한 내용은 [이벤트 만들기](#creating-an-event)를 참조하십시오.
 
@@ -179,7 +179,7 @@ Adobe Campaign에서 트랜잭션 메시지를 보내려면 먼저 이벤트를 
 1. 트랜잭션 메시지를 개인화할 수 있도록 이벤트에 필드를 추가합니다(이벤트 특성 정의](#defining-the-event-attributes) 참조).[
 1. 이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 수신자와 메시지 콘텐츠 개인화를 정의합니다.
 
-   그러나 Adobe Campaign 데이터베이스의 추가 정보를 사용하려는 경우에는 트랜잭션 메시지 내용을 보완할 수 있습니다([트랜잭션 메시지 내용 돋보기](#enriching-the-transactional-message-content) 참조).
+   그러나 Adobe Campaign 데이터베이스의 추가 정보를 사용하려는 경우 트랜잭션 메시지 내용을 보완할 수 있습니다([트랜잭션 메시지 내용 돋보기](#enriching-the-transactional-message-content) 참조).
 
 1. 이벤트 미리 보기 및 게시([이벤트 미리 보기 및 게시 참조)](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -191,7 +191,7 @@ Adobe Campaign에서 트랜잭션 메시지를 보내려면 먼저 이벤트를 
 
 ### 프로필 기반 트랜잭션 메시지 {#profile-based-transactional-messages}
 
-고객 프로파일을 기반으로 트랜잭션 메시지를 전송할 수 있습니다. 이 메시지를 통해 마케팅 유형 규칙을 적용하고, 가입 해제 링크를 포함하며, 글로벌 전달 보고에 메시지를 추가하고, 고객 여정에서 이를 활용할 수 있습니다.
+고객 프로파일을 기반으로 트랜잭션 메시지를 전송할 수 있습니다. 이 메시지를 통해 마케팅 유형 규칙을 적용하고, 구독 취소 링크를 포함하며, 글로벌 전달 보고에 메시지를 추가하고, 고객 여정에서 이를 활용할 수 있습니다.
 
 프로필 기반 트랜잭션 메시지를 보내려면 먼저 Adobe Campaign 데이터베이스&#x200B;**에서**&#x200B;데이터를 대상으로 하는 이벤트를 만들고 구성해야 합니다.
 
