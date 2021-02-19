@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Adobe Experience Manager 통합을 통해 다국어 이메일 제작
+title: Adobe Experience Manager 통합으로 다국어 이메일 만들기.
 description: Adobe Experience Manager 통합을 통해 AEM에서 바로 컨텐츠를 제작하여 Adobe Campaign에서 나중에 사용할 수 있습니다.
 audience: integrating
 content-type: reference
@@ -10,12 +10,12 @@ translation-type: tm+mt
 source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
 
-# Adobe Experience Manager 통합 {#creating-multilingual-email-aem}을(를) 사용하여 다국어 이메일 만들기
+# Adobe Experience Manager 통합으로 다국어 이메일 만들기 {#creating-multilingual-email-aem}
 
 이 문서에서는 Adobe Experience Manager 컨텐츠과 언어 사본을 사용하여 다국어 이메일을 만드는 방법을 알아봅니다.
 
