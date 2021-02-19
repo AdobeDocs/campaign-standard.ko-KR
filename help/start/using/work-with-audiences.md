@@ -126,7 +126,7 @@ Adobe Campaign은 고객의 관심사와 연관성 있고 효과적인 메시지
 
 <img width="60px" alt="조건" src="assets/icon_privacy.svg"/>
 
-GDPR은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 유럽 연합에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다. Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 이외에도 Adobe는 데이터 프로세서로서 추가적인 기능을 제공하여 특정 GDPR 요청에 대해 데이터 컨트롤러로서의 준비를 용이하게 하기 위해 이 기회를 활용하고 있습니다.
+GDPR은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 유럽 연합에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다. Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 이외에도 Adobe는 데이터 프로세서로서의 기능을 제공하여 특정 GDPR 요청에 대해 데이터 컨트롤러로서 사용자의 준비를 용이하게 하기 위해 다양한 기능을 제공합니다.
 
 GDPR 준수를 위해 Adobe Campaign에서 제공하는 툴과 기능에 대한 자세한 내용은 이 [안내서](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)를 참조하십시오.
 
