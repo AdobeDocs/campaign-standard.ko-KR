@@ -120,7 +120,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 
 * 레퍼러 메타 태그는 이메일 디자이너에서 지원되지 않습니다.
 
-메시지에 대한 자세한 디자인 및 일반 모범 사례는 다음 Adobe Campaign 단계별 가이드를 참조하십시오. [Adobe Campaign을 통한 게재 모범 사례](https://helpx.adobe.com/kr/campaign/kb/delivery-best-practices.html)
+메시지에 대한 자세한 디자인 및 일반 모범 사례는 다음 Adobe Campaign 단계별 가이드를 참조하십시오. [Adobe Campaign을 통한 게재 모범 사례](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=ko)
 
 ### 조각 업데이트 {#email-designer-updates}
 
