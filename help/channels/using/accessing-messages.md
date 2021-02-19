@@ -23,7 +23,7 @@ ht-degree: 1%
 다음 메시지에 액세스할 수 있습니다.
 
 * 캠페인 내
-* adobe campaign 홈 페이지에서
+* Adobe Campaign 홈 페이지에서
 * 마케팅 활동 목록에서
 
 ## 캠페인 {#accessing-messages-in-campaigns}의 메시지 액세스
