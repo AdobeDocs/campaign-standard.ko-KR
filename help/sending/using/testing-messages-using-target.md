@@ -65,7 +65,7 @@ ht-degree: 4%
 
 1. 테스트에 사용할 프로필을 선택한 다음 원하는 대체 주소를 **[!UICONTROL Address]** 필드에 입력한 다음 **[!UICONTROL Confirm]**&#x200B;을 클릭합니다. 프로필을 대상으로 하는 모든 교정은 이 프로필에 대해 데이터베이스에 정의된 교정이 아닌 이 이메일 주소로 전송됩니다.
 
-   교정쇄의 대상 행에 특정 접두사를 추가하려면 **[!UICONTROL Subject line prefix]** 필드를 채웁니다.
+   교정쇄의 제목 줄에 특정 접두어를 추가하려면 **[!UICONTROL Subject line prefix]** 필드를 채웁니다.
 
    >[!NOTE]
    >
