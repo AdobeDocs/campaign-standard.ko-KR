@@ -107,7 +107,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 예를 들어 메시지에 포함된 데이터를 수정하기 위해 **[!UICONTROL Pause]** 버튼을 사용하여 트랜잭션 메시지 게시를 일시 중단할 수 있습니다. 그러면 이벤트는 더 이상 처리되지 않고 대신 Adobe Campaign 데이터베이스의 큐에 보관됩니다.
 
-큐에 있는 이벤트는 REST API에 정의된 기간 동안 보관됩니다([REST API 문서](../../api/using/managing-transactional-messages.md) 참조). 또는 트리거 핵심 서비스를 사용 중인 경우 트리거 이벤트에서 보관됩니다( [Adobe Experience Cloud 트리거 정보](../../integrating/using/about-adobe-experience-cloud-triggers.md) 참조).
+큐에 있는 이벤트는 REST API에 정의된 기간 동안 보관됩니다([REST API 문서](../../api/using/managing-transactional-messages.md) 참조). 또는 트리거 핵심 서비스를 사용 중인 경우 트리거 이벤트에서 보관됩니다([Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md) 참조).
 
 ![](assets/message-center_pause.png)
 
