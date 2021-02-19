@@ -9,9 +9,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 >[!NOTE]
 >
->이 도구를 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)를 참조하십시오.
+>이 도구를 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)를 참조하십시오.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
