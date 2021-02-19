@@ -124,7 +124,7 @@ P1은 첫 번째 날에 두 번 이메일을 연 다음 두 번째 날에 세 �
    <td align="center"> <strong>100년<br/> </td> 
    <td align="center"> <strong>90<br/> </td> 
    <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>1<br/> </td> 
+   <td align="center"> <strong>3<br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
@@ -172,4 +172,4 @@ P1은 첫 번째 날에 두 번 이메일을 연 다음 두 번째 날에 세 �
 
 * 배달이 삭제되었으며 결과에 불일치가 발생하지 않도록 **N/A**&#x200B;로 여기에 표시됩니다.
 * **[!UICONTROL Transactional Delivery]** 차원을 보고서에 드래그하여 놓을 때 **N/A** 값이 결과로 나타날 수 있습니다. 이것은 동적 보고서가 트랜잭션 형식이 아닌 경우에도 모든 전달을 가져오기 때문에 발생합니다.
-이 문제는 **[!UICONTROL Delivery]** 차원을 보고서에 끌어다 놓을 때도 발생할 수 있지만 이 경우 **N/A** 값은 트랜잭션 배달을 나타냅니다.
+이 문제는 **[!UICONTROL Delivery]** 차원을 보고서에 드래그하여 놓을 때도 발생할 수 있지만 이 경우 **N/A** 값은 트랜잭션 배달을 나타냅니다.
