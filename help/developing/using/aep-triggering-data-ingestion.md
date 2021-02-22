@@ -44,7 +44,7 @@ API를 사용하기 전에 먼저 데이터 매핑이 Campaign Standard 인터�
 
 이제 데이터 매핑 실행이 중지됩니다. Campaign Standard API를 사용하여 수동으로 트리거할 수 있습니다.
 
-## 데이터 매핑 {#starting-immediate-ingestion}에 대한 즉각적인 인제스트 시작
+## 데이터 매핑에 대한 즉각적인 인제스트 시작 {#starting-immediate-ingestion}
 
 XDM 매핑을 Adobe Experience Platform에 즉시 수집하는 작업은 POST 작업으로 트리거됩니다.
 
@@ -54,8 +54,7 @@ XDM 매핑을 Adobe Experience Platform에 즉시 수집하는 작업은 POST �
 >
 >인제스트 POST API 호출을 실행하려면 사용자에게 **SQL 함수 실행** 역할이 있어야 합니다. 이 역할은 Campaign Standard 관리자가 JS 스크립트 아래 를 실행하여 제공할 수 있습니다.
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
