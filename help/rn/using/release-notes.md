@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
+source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
 workflow-type: tm+mt
-source-wordcount: '2627'
-ht-degree: 98%
+source-wordcount: '2478'
+ht-degree: 99%
 
 ---
 
@@ -63,29 +63,31 @@ ht-degree: 98%
 </tbody> 
 </table>
 
+<!--
 <table> 
 <thead> 
 <tr> 
-<th> <strong>통합 Experience Cloud 인터페이스</strong><br /> </th> 
+<th> <strong>Unified Experience Cloud interface</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>Adobe Campaign 헤더 막대를 변경하여 모든 Experience Cloud 제품과 서비스의 환경을 통합하고 개선합니다. 이러한 변경 사항은 다음과 같은 작업을 보다 쉽게 할 수 있도록 마련되었습니다.</p>
+<p>Adobe Campaign header bar has been changed to unify and improve your experience across all Experience Cloud products and services. These changes are designed to make your life easier, including:</p>
 <ul>
-<li>조직 간 또는 다른 애플리케이션으로 손쉽게 전환할 수 있습니다.</li>
-<li>향상된 사용자 도움말 - Experience League를 제품에 적용하면 검색 결과에 커뮤니티 포럼, 더 많은 비디오 콘텐츠 등이 포함되어 더 많은 콘텐츠에 손쉽게 액세스하고 애플리케이션을 최대한 활용할 수 있습니다. 또한 도움말 메뉴에 바로 피드백 메커니즘을 추가하여 문제를 보고하거나 아이디어를 손쉽게 공유할 수 있습니다.</li>
-<li>향상된 알림 - 이제 알림 드롭다운에는 2개의 탭 즉, 제품 알림과 더 많은 글로벌 제품 공지가 있습니다.</li>
+<li>Easier switching between your organizations or to a different application.</li>
+<li>Improved User Help – Bringing the Experience League into the product, search results also include results from community forums and more video content, giving you easier access to more content to help get the most out of the application. We've also added a feedback mechanism right in the Help menu, making it easier to report issues or share your ideas.</li>
+<li>Improved Notifications – Notifications drop-down now has two tabs: one for your own product notifications, and one for more global product announcements.</li>
 </ul>
-<p>자세한 내용은 <a href="../../start/using/interface-description.md#top-bar">세부 설명서</a>를 참조하십시오.
+<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
 </p>
-<p>참고:이 변경 사항은 2월 10일부터 3월 1일까지 모든 고객 환경에 점진적으로 적용됩니다.
+<p>NOTE: This change will be progressively rolled out to all customer environments between Feb 10 and March 1st.
 </p>
 </td> 
 </tr> 
 </tbody> 
 </table>
+-->
 
 **개선 사항**
 
