@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
+source-git-commit: d08821c526d54dabc3b74651449a2f01e99c2a6a
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 20%
+source-wordcount: '942'
+ht-degree: 17%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 메시지 준비와 승인 단계를 완료하면 메시지를 보낼 수 있습니다. 메시지 준비에 대한 자세한 내용은 [보내기 준비](../../sending/using/preparing-the-send.md)를 참조하십시오.
 
-**[!UICONTROL Start deliveries]** 역할을 가진 사용자만 메시지 보내기를 확인할 수 있습니다. 자세한 내용은 [역할 목록](../../administration/using/list-of-roles.md) 섹션을 참조하십시오.
+**[!UICONTROL Start deliveries]** 역할을 가진 사용자만 전송을 확인할 수 있습니다. 자세한 내용은 [역할 목록](../../administration/using/list-of-roles.md) 섹션을 참조하십시오.
 
 <!--Users without this role will see the following message: 
 
@@ -42,9 +42,9 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->메시지를 예약하면 전송 시간이 되었을 때 보내집니다. 메시지 예약에 대한 자세한 정보는 [이 섹션](../../sending/using/about-scheduling-messages.md)을 참조하십시오.
+>메시지가 예약된 경우 전송 시간에 도달할 때 전송됩니다. 메시지 예약에 대한 자세한 정보는 [이 섹션](../../sending/using/about-scheduling-messages.md)을 참조하십시오.
 
-합계 기간 없이 되풀이하는 게재를 사용할 경우, 게재를 보내기 전 확인을 요청할 수 있습니다. 이렇게 하려면 메시지를 구성할 때 배달 대시보드의 **[!UICONTROL Schedule]** 블록을 열고 전용 옵션을 활성화합니다.
+합계 기간 없이 되풀이하는 게재를 사용할 경우, 게재를 보내기 전 확인을 요청할 수 있습니다. 메시지를 구성할 때 배달 대시보드의 **[!UICONTROL Schedule]** 블록을 열고 전용 옵션을 활성화합니다.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -65,7 +65,7 @@ ht-degree: 20%
 
 ![](assets/sending_delivery.png)
 
-KPI를 업데이트하는 데 시간이 너무 오래 소요되거나 전송 로그의 결과를 고려하지 않는 경우 **[!UICONTROL Deployment]** 창에서 **[!UICONTROL Compute stats]** 단추를 클릭합니다.
+KPI가 업데이트되는 데 너무 오래 걸리거나 전송 로그의 결과를 반영하지 않는 경우 **[!UICONTROL Deployment]** 창에서 **[!UICONTROL Compute stats]** 단추를 클릭합니다.
 
 ![](assets/sending_delivery7.png)
 
@@ -94,7 +94,7 @@ KPI를 업데이트하는 데 시간이 너무 오래 소요되거나 전송 로
 
 * 그렇지 않으면 상태가 **[!UICONTROL Failed]**&#x200B;으로 변경되고 그에 따라 **[!UICONTROL Delivered]** 백분율이 감소합니다.
 
-따라서 최종 **[!UICONTROL Delivered]** 비율과 실제 **[!UICONTROL Sent]** 및 **[!UICONTROL Failed]** 메시지의 최종 수를 보려면 유효 기간이 끝날 때까지 기다려야 합니다.
+따라서 최종 **[!UICONTROL Delivered]** 비율과 최종 **[!UICONTROL Sent]** 및 **[!UICONTROL Failed]** 메시지 수를 보려면 유효 기간이 끝날 때까지 기다려야 합니다.
 
 ### 이메일 피드백 서비스(베타) {#email-feedback-service}
 
@@ -112,7 +112,7 @@ EFS(Email Feedback Service) 기능을 사용하면 피드백이 향상된 MTA(�
 
 ![](assets/efs-pending.png)
 
-메시지가 실제로 타깃팅된 프로파일에 전달되고 이 정보가 향상된 MTA에서 실시간으로 보고되면 배달 로그는 메시지를 수신한 각 주소의 **[!UICONTROL Sent]** 상태를 표시합니다. **[!UICONTROL Delivered]** 비율은 성공적으로 배달될 때마다 그에 따라 증가합니다.
+타깃팅된 프로파일에 대한 메시지 배달이 향상된 MTA에서 실시간으로 다시 보고되면 배달 로그에 메시지를 수신한 각 주소에 대한 **[!UICONTROL Sent]** 상태가 표시됩니다. **[!UICONTROL Delivered]** 비율은 성공적으로 배달될 때마다 그에 따라 증가합니다.
 
 하드 바운스 메시지가 향상된 MTA에서 다시 보고되면 로그 상태가 **[!UICONTROL Pending]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 그에 따라 **[!UICONTROL Bounces + errors]** 비율이 증가합니다.
 
@@ -132,12 +132,24 @@ EFS(Email Feedback Service) 기능을 사용하면 피드백이 향상된 MTA(�
 
 ### EFS {#changes-introduced-by-efs}에서 도입된 변경 사항
 
-아래 표는 EFS 기능에서 도입한 KPI 및 전송 로그 상태에 대한 변경 사항을 보여줍니다.
+아래 표는 EFS 기능에 의해 도입된 KPI 및 로그 전송 상태에 대한 변경 사항을 보여줍니다.
 
-| <br>전송 프로세스의 단계 | KPI 요약<br>EFS 없음 | 로그 상태 전송 중<br>WITHOUT EFS | KPI 요약<br>EFS 포함 | 로그 상태 전송 중<br>WITH EFS |
-|--- |--- |--- | --- | --- |
-| 캠페인에서 향상된 MTA로 메시지가 전달됩니다. | <ul><li>**[!UICONTROL Delivered]** 100%에서 시작하는 비율</li><li>**[!UICONTROL Bounces + errors]** 백분율이 0%로 시작</li></ul> | 전송 | <ul><li>**[!UICONTROL Delivered]** 백분율이 0%로 시작</li><li>**[!UICONTROL Bounces + errors]** 백분율이 0%로 시작</li></ul> | 보류 중 |
-| 강화된 MTA에서 바운스 메시지를 다시 보고합니다. | <ul><li>**[!UICONTROL Delivered]** 그에 따라 백분율 감소</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 | <ul><li>**[!UICONTROL Delivered]** 백분율에 변경 없음</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 |
-| 소프트 바운스 메시지는 향상된 MTA에서 다시 보고됩니다. | <ul><li>**[!UICONTROL Delivered]** 백분율에 변경 없음</li><li>**[!UICONTROL Bounces + errors]** 백분율에 변경 없음</li></ul> | 전송 | <ul><li>**[!UICONTROL Delivered]** 백분율에 변경 없음</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 |
-| 소프트 바운스 메시지 재시도가 성공했습니다. | <ul><li>**[!UICONTROL Delivered]** 백분율에 변경 없음</li><li>**[!UICONTROL Bounces + errors]** 백분율에 변경 없음</li></ul> | 전송 | <ul><li>**[!UICONTROL Delivered]** 그에 따라 백분율 증가</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 감소</li></ul> | 전송 |
-| 소프트 바운스 메시지 다시 시도 실패 | <ul><li>**[!UICONTROL Delivered]** 그에 따라 백분율 감소</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 | <ul><li> **[!UICONTROL Delivered]** 백분율에 변경 없음 </li><li> **[!UICONTROL Bounces + errors]** 백분율에 변경 없음 </li></ul> | 실패 |
+**이메일 피드백 서비스 사용**
+
+| 전송 프로세스의 단계 | KPI 요약 | 로그 상태 보내기 |
+|--- |--- |--- |
+| 캠페인에서 향상된 MTA로 메시지가 전달됩니다. | <ul><li>**[!UICONTROL Delivered]** 백분율이 0%로 시작</li><li>**[!UICONTROL Bounces + errors]** 백분율이 0%로 시작</li></ul> | 보류 중 |
+| 강화된 MTA에서 바운스 메시지를 다시 보고합니다. | <ul><li>**[!UICONTROL Delivered]** 백분율에 변경 없음</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 |
+| 소프트 바운스 메시지는 향상된 MTA에서 다시 보고됩니다. | <ul><li>**[!UICONTROL Delivered]** 백분율에 변경 없음</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 |
+| 소프트 바운스 메시지 재시도가 성공했습니다. | <ul><li>**[!UICONTROL Delivered]** 그에 따라 백분율 증가</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 감소</li></ul> | 전송 |
+| 소프트 바운스 메시지 다시 시도 실패 | <ul><li> **[!UICONTROL Delivered]** 백분율에 변경 없음 </li><li> **[!UICONTROL Bounces + errors]** 백분율에 변경 없음 </li></ul> | 실패 |
+
+**이메일 피드백 서비스 제외**
+
+| 전송 프로세스의 단계 | KPI 요약 | 로그 상태 보내기 |
+|--- |--- |--- |
+| 캠페인에서 향상된 MTA로 메시지가 전달됩니다. | <ul><li>**[!UICONTROL Delivered]** 100%에서 시작하는 비율</li><li>**[!UICONTROL Bounces + errors]** 백분율이 0%로 시작</li></ul> | 전송 |
+| 강화된 MTA에서 바운스 메시지를 다시 보고합니다. | <ul><li>**[!UICONTROL Delivered]** 그에 따라 백분율 감소</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 |
+| 소프트 바운스 메시지는 향상된 MTA에서 다시 보고됩니다. | <ul><li>**[!UICONTROL Delivered]** 백분율에 변경 없음</li><li>**[!UICONTROL Bounces + errors]** 백분율에 변경 없음</li></ul> | 전송 |
+| 소프트 바운스 메시지 재시도가 성공했습니다. | <ul><li>**[!UICONTROL Delivered]** 백분율에 변경 없음</li><li>**[!UICONTROL Bounces + errors]** 백분율에 변경 없음</li></ul> | 전송 |
+| 소프트 바운스 메시지 다시 시도 실패 | <ul><li>**[!UICONTROL Delivered]** 그에 따라 백분율 감소</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 |
