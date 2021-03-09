@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 20%
@@ -85,7 +85,7 @@ Campaign의 개인 정보 및 동의 및 관리 방법은 [이 섹션](../../sta
 
 ## 추가 리소스
 
-* [대상 대상 서비스 작업](../../audiences/using/aep-about-audience-destinations-service.md)
+* [대상 대상 서비스 작업](../../integrating/using/aep-about-audience-destinations-service.md)
 * [Microsoft Dynamics 365를 사용한 작업](../../integrating/using/d365-acs-get-started.md)
 * [Adobe 공유 대상](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [워크플로우를 사용하여 프로필 가져오기](../../automating/using/creating-import-workflow-templates.md)
