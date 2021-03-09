@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 83%
+source-wordcount: '411'
+ht-degree: 74%
 
 ---
 
@@ -39,13 +39,15 @@ Adobe Campaign에서는 메시지 대상자 내에 여러 프로필 유형을 �
 
 1. 이메일의 주요 **[!UICONTROL Target]**&#x200B;을(를) 정의합니다. 이메일의 일반적인 타겟 대상자입니다.
 
-   타겟은 **[!UICONTROL Target]** 탭에서 정의되며, 데이터베이스에서 식별된 프로필로 구성됩니다.
-
-   [쿼리 편집기](../../automating/using/editing-queries.md#creating-queries) 기능을 사용하여 주요 타겟을 설정할 수 있습니다.
+   타겟은 **[!UICONTROL Target]** 탭에서 정의되며, 데이터베이스에서 식별된 프로필로 구성됩니다. [쿼리 편집기](../../automating/using/editing-queries.md#creating-queries) 기능을 사용하여 주요 타겟을 설정할 수 있습니다.
 
    이 탭의 **[!UICONTROL Shortcuts]** 팔레트에는 사전 정의된 필터와 식별된 프로필에서 정의한 대상자만 포함됩니다. **[!UICONTROL Explorer]** 탭에서는 추가 구성에 액세스할 수 있습니다.
 
    따라서 기존 대상자를 다시 사용 및 결합하고 추가 필터를 적용하는 등의 작업을 할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >대상을 타깃팅할 때 대상의 정의는 참조되지 않지만 **복사된**&#x200B;은 쿼리에 복사됩니다. 쿼리에서 대상을 타깃팅한 후 대상을 변경하는 경우 새 정의를 고려하도록 쿼리를 다시 구성해야 합니다.
 
 1. 이메일에 사용할 **[!UICONTROL Test profiles]**&#x200B;을(를) 정의합니다. 테스트 프로필에게 증명을 보내어 주요 타겟에게 보내기 전에 테스트할 수 있습니다.
 
