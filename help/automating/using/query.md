@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 95%
+source-wordcount: '1757'
+ht-degree: 93%
 
 ---
 
@@ -50,6 +50,11 @@ ht-degree: 95%
    자세한 내용은 [차원 및 리소스 타겟팅](#targeting-dimensions-and-resources)을 참조하십시오.
 
 1. **[!UICONTROL Target]** 탭에서 규칙을 정의하고 결합하여 쿼리를 실행합니다.
+
+   >[!NOTE]
+   >
+   >대상을 타깃팅할 때 대상의 정의는 참조되지 않지만 **복사된**&#x200B;은 쿼리에 복사됩니다. 쿼리에서 대상을 타깃팅한 후 대상을 변경하는 경우 새 정의를 고려하도록 쿼리를 다시 구성해야 합니다.
+
 1. 전용 탭을 통해 타겟팅된 모집단에 대한 **[!UICONTROL Additional data]**&#x200B;을(를) 정의할 수 있습니다. 이 데이터는 추가 열에 저장되며 진행 중인 워크플로우에만 사용할 수 있습니다. 특히 쿼리의 타겟팅 차원에 연결된 Adobe Campaign 데이터베이스 테이블에서 데이터를 추가할 수 있습니다. [데이터 강화](#enriching-data) 섹션을 참조하십시오.
 
    >[!NOTE]
