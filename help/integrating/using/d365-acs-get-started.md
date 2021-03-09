@@ -6,9 +6,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Microsoft Dynamics 365와의 Adobe Campaign Standard 통합을 통해 CRM 시스
 
 지원 티켓을 Adobe 고객 지원 센터에 기록할 수 있습니다.
 
-통합 데이터 흐름 관련 문제에 대해서는 문제 설명의 일부로 보고서 세트를 포함시키고 다음 정보를 확인하십시오.
+통합 데이터 흐름과 관련된 문제는 다음 정보를 포함해야 합니다.
 
 * **프로세스 소유자**:엔지니어링 건축가
 * **ES 프로세스 ID**:온보딩 프로세스 중 제공
