@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 30%
@@ -63,5 +63,5 @@ Campaign Standard API를 사용하면 Adobe Campaign을 사용하는 기술 패�
 
 ## 추가 리소스
 
-* [Adobe Experience Platform 데이터 커넥터 정보](../../developing/using/aep-about-data-connector.md)
+* [Adobe Experience Platform 데이터 커넥터 정보](../../integrating/using/aep-about-data-connector.md)
 * [사용자 지정 리소스 내보내기/가져오기](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
