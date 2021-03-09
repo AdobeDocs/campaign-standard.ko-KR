@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 36e0f6be4dc8c1a6e4b0d8878d190f2abce99fcd
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '5323'
 ht-degree: 100%
@@ -268,7 +268,7 @@ ht-degree: 100%
 
 **Experience Platform 통합**
 
-* **대상자 읽기** 활동에서 Adobe [Experience Platform 대상자](../../automating/using/aep-targeting-audiences.md)의 활성화를 개선하여 더 나은 성능과 안정성을 제공합니다. 또한 워크플로우 로그가 활성화 작업에 대해 더욱 명확하고 자세해졌으므로 Adobe Experience Platform 대상자를 읽어올 때 보다 손쉽게 모니터링하고 문제를 해결할 수 있습니다.
+* **대상자 읽기** 활동에서 Adobe [Experience Platform 대상자](../../integrating/using/aep-targeting-audiences.md)의 활성화를 개선하여 더 나은 성능과 안정성을 제공합니다. 또한 워크플로우 로그가 활성화 작업에 대해 더욱 명확하고 자세해졌으므로 Adobe Experience Platform 대상자를 읽어올 때 보다 손쉽게 모니터링하고 문제를 해결할 수 있습니다.
 
 **패치**
 
@@ -361,7 +361,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 
 >[!NOTE]
 >
->현재 Campaign Standard의 Adobe Experience Platform 기능은 Beta 버전으로, 사전 통지 없이 수시로 업데이트될 수 있습니다. 세부 설명서 [Experience Platform 데이터 커넥터](../../developing/using/aep-about-data-connector.md), [대상자 대상](../../audiences/using/aep-about-audience-destinations-service.md)을 참조하십시오. 
+>현재 Campaign Standard의 Adobe Experience Platform 기능은 Beta 버전으로, 사전 통지 없이 수시로 업데이트될 수 있습니다. 세부 설명서 [Experience Platform 데이터 커넥터](../../integrating/using/aep-about-data-connector.md), [대상자 대상](../../integrating/using/aep-about-audience-destinations-service.md)을 참조하십시오. 
 
 * 이제 Campaign은 워크플로우 로그에서 10분마다 현재 실행 중인 작업에 의해 이미 처리된 레코드 수를 표시합니다.
 * 데이터베이스에서 삭제된 Adobe Experience Platform 프로필을 가져올 때 발생할 수 있는 문제를 수정했습니다.
@@ -408,7 +408,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
  <tbody> 
   <tr> 
    <td> <p>이제 Adobe Experience Platform 데이터 커넥터가 Adobe Campaign Standard와 통합되었습니다. XTK 데이터(Campaign에서 수집한 데이터)를 Adobe Experience Platform 데이터 모델(XDM)에 매핑하여 Adobe Experience Platform에서 캠페인 데이터를 사용할 수 있도록 만들 수 있습니다. </p>
-    <p>이 기능은 Azure에서 호스팅되는 고객에게만 제공됩니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../developing/using/aep-about-data-connector.md">상세 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">방법 비디오</a>를 참조하십시오.</p>
+    <p>이 기능은 Azure에서 호스팅되는 고객에게만 제공됩니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../integrating/using/aep-about-data-connector.md">상세 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">방법 비디오</a>를 참조하십시오.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -423,7 +423,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
  <tbody> 
   <tr> 
    <td> <p>대상자 대상을 사용하면 Adobe Experience Platform에서 Adobe Campaign으로 세그먼트를 공유할 수 있습니다.</p>
-    <p>이 기능은 Azure에서 호스팅되는 고객에게만 제공됩니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../audiences/using/aep-about-audience-destinations-service.md">상세 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">방법 비디오</a>를 참조하십시오. </p>
+    <p>이 기능은 Azure에서 호스팅되는 고객에게만 제공됩니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../integrating/using/aep-about-audience-destinations-service.md">상세 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">방법 비디오</a>를 참조하십시오. </p>
    </td> 
   </tr> 
  </tbody> 
