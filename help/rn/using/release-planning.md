@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 558f88a129264560851832ca70628509661cb208
+source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 97%
 
 ---
@@ -25,9 +25,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 모든 릴리스 날짜는 변경될 수 있습니다. 정기적으로 이 페이지를 방문하여 업데이트를 확인하는 것이 좋습니다.
 
-**새로운 기능이 있습니다.** [Campaign Standard 릴리스 알림](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)을 구독하면 받은 편지함에서 예정된 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
-
-## 릴리스 21.1 - 2월 릴리스 {#release-21-1-release}
+## 릴리스 21.2 - 5월 릴리스 {#release-21-2-release}
 
 아래의 표시된 기간 동안 환경 업데이트가 발생합니다. 정확한 날짜는 각 고객에게 이메일로 전달된다.
 
@@ -43,16 +41,18 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
  <tbody>
   <tr>
    <td>단계<br /> </td>
-   <td>2021년 22월 1일 - 2일<br /> </td>
+   <td>2021년 4월 19일 - 20일<br /> </td>
   </tr>
   <tr>
    <td> 프로덕션<br /> </td>
-   <td>2월 8일 - 2021년 3월 1일<br /> </td>
+   <td>2021년 4월 26일 - 5월 3일<br /> </td>
   </tr>
  </tbody>
 </table>
 
 추가 질문 사항은 [Adobe Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+
+[Campaign Standard 릴리스 알림](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)을 구독하면 받은 편지함에서 예정된 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
 
 ## 질문 및 답변 {#questions-and-answers}
 
