@@ -7,9 +7,9 @@ user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 
 breadcrumb-title: 도움말 센터
 title: Campaign Standard 안내서
 translation-type: tm+mt
-source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
+source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1756'
 ht-degree: 99%
 
 ---
@@ -70,10 +70,6 @@ ht-degree: 99%
       + [Campaign의 옵트인 및 옵트아웃 기본 정보](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Campaign에서 옵트인 및 옵트아웃 관리](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [게재할 옵트아웃 프로필 확인](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + Adobe Experience Platform을 사용한 작업 {#working-with-adobe-experience-platform}
-      + [Audience Destinations 서비스 정보](audiences/using/aep-about-audience-destinations-service.md)
-      + [Adobe Experience Platform 대상자 관리](audiences/using/aep-managing-audiences.md)
-      + [세그먼트 빌더 사용](audiences/using/aep-using-segment-builder.md)
 + 소통 채널 {#communication-channels}
    + [소통 채널 시작](channels/using/get-started-communication-channels.md)
    + 소통 채널 기본 정보 {#about-communication-channels}
@@ -274,6 +270,19 @@ ht-degree: 99%
          + [동기화 워크플로우 관리](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Microsoft Dynamics 365와 Campaign 간의 데이터 매핑](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365 통합 사용](integrating/using/d365-acs-using-the-integration.md)
+   + 캠페인 및 Adobe Experience Platform {#adobe-experience-platform}
+      + 대상 대상 대상 서비스 {#audience-destinations}
+         + [Audience Destinations 서비스 정보](integrating/using/aep-about-audience-destinations-service.md)
+         + [Adobe Experience Platform 대상자 관리](integrating/using/aep-managing-audiences.md)
+         + [세그먼트 빌더 사용](integrating/using/aep-using-segment-builder.md)
+         + [Adobe Experience Platform 대상자 타겟팅](integrating/using/aep-targeting-audiences.md)
+         + [Adobe Experience Platform 특성을 사용하여 캠페인 개인화](integrating/using/aep-personalizing-campaigns.md)
+      + Adobe Experience Platform 데이터 커넥터 {#data-connector}
+         + [Adobe Experience Platform 데이터 커넥터 정보](integrating/using/aep-about-data-connector.md)
+         + [Experience Platform 데이터 모델 개요](integrating/using/aep-data-model-overview.md)
+         + [매핑 정의](integrating/using/aep-mapping-definition.md)
+         + [매핑 활성화](integrating/using/aep-mapping-activation.md)
+         + [API를 통한 데이터 수집 트리거](integrating/using/aep-triggering-data-ingestion.md)
 + 프로세스 및 데이터 관리 {#managing-processes-and-data}
    + [데이터 및 프로세스 관리 시작](automating/using/get-started-workflows.md)
    + 워크플로우 일반 작업 {#workflow-general-operation}
@@ -379,9 +388,6 @@ ht-degree: 99%
          + [외부 파일에서 프로필 내보내기](automating/using/exporting-profiles-in-file.md)
          + [파일에서 여러 구독 상태 업데이트](automating/using/updating-subscriptions-from-file.md)
          + [파일에서 특정 서비스에 프로필 가입](automating/using/subscribing-profiles-from-file.md)
-   + Adobe Experience Platform 대상자를 사용한 작업 {#working-with-aep-audiences}
-      + [Adobe Experience Platform 대상자 타겟팅](automating/using/aep-targeting-audiences.md)
-      + [Adobe Experience Platform 특성을 사용하여 캠페인 개인화](automating/using/aep-personalizing-campaigns.md)
 + 개발 {#developing}
    + [Campaign Standard 데이터 모델 시작](developing/using/get-started-data-model.md)
    + 사용자 지정 리소스 기본 정보 {#about-custom-resources}
@@ -421,12 +427,6 @@ ht-degree: 99%
       + [추적 로그](developing/using/datamodel-tracking.md)
       + [구독 취소 이벤트](developing/using/datamodel-unsubscription.md)
       + [방문자](developing/using/datamodel-visitor.md)
-   + Adobe Experience Platform 데이터 커넥터 {#mapping-campaign-and-aep-data}
-      + [Adobe Experience Platform 데이터 커넥터 정보](developing/using/aep-about-data-connector.md)
-      + [Experience Platform 데이터 모델 개요](developing/using/aep-data-model-overview.md)
-      + [매핑 정의](developing/using/aep-mapping-definition.md)
-      + [매핑 활성화](developing/using/aep-mapping-activation.md)
-      + [API를 통한 데이터 수집 트리거](developing/using/aep-triggering-data-ingestion.md)
 + 관리 {#administrating}
    + [Campaign Standard 관리 시작](administration/using/get-started-campaign-administration.md)
    + [모니터링 지침](administration/using/monitoring-guidelines.md)
