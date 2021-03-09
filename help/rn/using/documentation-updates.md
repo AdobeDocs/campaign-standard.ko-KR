@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
+source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
-source-wordcount: '6571'
-ht-degree: 97%
+source-wordcount: '6616'
+ht-degree: 96%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 97%
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
 
-## 2021년 2월 {#doc-updates-february-2021}
+## 2021년 3월 {#doc-updates-march-2021}
 
-이전에 수행한 하나 이상의 작업이 아직 보류 중일 때까지 예약된 워크플로의 일정이 조정되지 않도록 하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/scheduled-workflows-execution.md)
+쿼리에서 대상을 선택할 때 해당 정의가 복사되고 참조되지 않음을 지정하는 정보가 추가되었습니다. [자세한 내용](../../audiences/using/selecting-an-audience-in-a-message.md)
+
+대상 대상 대상 서비스 및 Adobe Experience Platform 데이터 커넥터와 관련된 정보가 새 섹션으로 다시 그룹화되었습니다. [자세한 내용](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## 릴리스 21.1 - 2021년 2월 {#release-21-1---february-2021}
 
@@ -42,6 +44,8 @@ Adobe Experience Manager 통합 개선 사항 - [자세한 내용](../../integra
 활동을 **[!UICONTROL filesCount]**&#x200B;사용한 후 사용할 수 있는 새 출력 변수&#x200B;**[!UICONTROL Transfer file]**&#x200B;에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/transfer-file.md#output-variables)
 
 최신 이메일 설정이 무엇인지 명확하게 나타내기 위해 **이메일 채널 구성** 섹션을 업데이트했습니다. 특정 고객에게 계속 사용 중인 일부 이전 매개 변수가 페이지 하단에 나열됩니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
+
+이전에 수행한 하나 이상의 작업이 아직 보류 중일 때까지 예약된 워크플로의 일정이 조정되지 않도록 하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/scheduled-workflows-execution.md)
 
 ## 2020년 12월 {#doc-updates-december-2020}
 
@@ -71,7 +75,7 @@ SMS 커넥터 프로토콜 및 설정 페이지를 [여기](../../administration
 
 **트랜잭션 메시지** 섹션이 탐색 개선을 위해 다시 구성된 한 곳에 수집되었습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
-개인 정보 관리와 관련된 데이터 매핑 유효성 검사 오류 및 문제 해결 방법에 대한 정보가 Adobe Experience Platform 데이터 커넥터 섹션에 추가되었습니다. [자세한 내용](../../developing/using/aep-mapping-activation.md)
+개인 정보 관리와 관련된 데이터 매핑 유효성 검사 오류 및 문제 해결 방법에 대한 정보가 Adobe Experience Platform 데이터 커넥터 섹션에 추가되었습니다. [자세한 내용](../../integrating/using/aep-mapping-activation.md)
 
 ## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
 
@@ -173,7 +177,7 @@ Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했
 
 설명서 홈페이지에 리소스를 추가했습니다. [자세한 내용](../../campaign-standard-home.md)
 
-Experience Cloud ID 서비스(ECID)에 대한 정보를 Adobe Experience Platform 데이터 커넥터 설명서에 추가했습니다. [자세한 내용](../../developing/using/aep-about-data-connector.md#key-concepts)
+Experience Cloud ID 서비스(ECID)에 대한 정보를 Adobe Experience Platform 데이터 커넥터 설명서에 추가했습니다. [자세한 내용](../../integrating/using/aep-about-data-connector.md#key-concepts)
 
 트랜잭션 메시지 섹션을 개선하여 최신 트랜잭션 이벤트 및 업데이트한 스크린샷에 액세스하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -239,9 +243,9 @@ Campaign 이메일 디자이너 설명서 및 관련 페이지에 [!DNL Adobe Cr
 
 **릴리스에 포함된 새로운 기능**
 
-Adobe Experience Platform 데이터 커넥터(Beta) - [자세한 내용](../../developing/using/aep-about-data-connector.md)
+Adobe Experience Platform 데이터 커넥터(Beta) - [자세한 내용](../../integrating/using/aep-about-data-connector.md)
 
-Audience Destinations(Beta) - [자세한 내용](../../audiences/using/aep-about-audience-destinations-service.md)
+Audience Destinations(Beta) - [자세한 내용](../../integrating/using/aep-about-audience-destinations-service.md)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
