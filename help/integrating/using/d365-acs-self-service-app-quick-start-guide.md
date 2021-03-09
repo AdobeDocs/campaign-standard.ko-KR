@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -52,9 +52,9 @@ Microsoft Dynamics 365 셀프 서비스 통합 애플리케이션과 Adobe Campa
 
 브라우저를 열고 해당 지역과 연결된 커넥터를 찾습니다.
 
-* [아시아 태평양](http://d365-acs-ap.ea.adobe.com/)
-* [유럽, 중동 또는 아프리카(EMEA)](http://d365-acs-em.ea.adobe.com/)
-* [아메리카](http://d365-acs-na.ea.adobe.com/)
+* [아시아 태평양](https://d365-acs-ap.ea.adobe.com/)
+* [유럽, 중동 또는 아프리카(EMEA)](https://d365-acs-em.ea.adobe.com/)
+* [아메리카](https://d365-acs-am.ea.adobe.com/)
 
 ## 개인 정보 요청 확인 {#self-service-app-acknowledgement}
 
