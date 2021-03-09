@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 
 따라서 개인 데이터를 수집 및 공유하는 회사는 데이터 컨트롤러이며 클라이언트는 데이터 주체이고 Adobe Campaign은 데이터 프로세서의 역할을 합니다. [개인 정보 보호 요청](#privacy-requests)을 관리할 때와 같이 데이터 주체와의 관계를 처리하는 것은 데이터 컨트롤러로서의 책임입니다.
 
-[대상자 대상 서비스](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager 또는 People 핵심 서비스](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)와 같이 대상을 다른 시스템으로 전송할 수 있는 다른 Experience Cloud 솔루션이나 [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)와 같은 다른 솔루션과 Campaign을 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
+[대상자 대상 서비스](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager 또는 People 핵심 서비스](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)와 같이 대상을 다른 시스템으로 전송할 수 있는 다른 Experience Cloud 솔루션이나 [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)와 같은 다른 솔루션과 Campaign을 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
 
 ## 데이터 획득 {#data-acquisition}
 
