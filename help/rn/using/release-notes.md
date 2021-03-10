@@ -6,11 +6,11 @@ description: 이 페이지에서는 최신 Campaign Standard 릴리스의 콘텐
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 
 * 이제 외부 매개 변수로 워크플로우를 호출한 후 이벤트 변수를 사용하는 활동에서 새 **GetOption** 함수를 사용할 수 있습니다. 이를 통해 지정된 함수의 값을 반환할 수 있습니다. [자세히 알아보기](../../automating/using/customizing-workflow-external-parameters.md)
 
-* 새 옵션을 사용하면 워크플로우를 시작하기 전에 Campaign Standard이 시스템의 물리적 메모리&#x200B;**의 가용성을 확인할 수 있습니다.** 메모리의 양이 너무 낮으면 시스템 메모리가 이 임계값에 도달할 때까지 워크플로우 실행이 지연됩니다. 이를 통해 성능 저하를 방지하고 작동 중단 위험을 줄일 수 있습니다. 서버에 대한 로드가 줄고 메모리가 증가하면 워크플로우가 자동으로 다시 시작됩니다. 이 옵션은 읽기 전용이며 수정할 수 없습니다. [자세히 알아보기](../../automating/using/best-practices-workflows.md#execution)
+* 새 옵션을 사용하면 워크플로우를 시작하기 전에 Campaign Standard에서 시스템의 사용 가능한 **실제 메모리를 확인**&#x200B;할 수 있습니다. 메모리의 양이 너무 낮으면 시스템 메모리가 이 임계값에 도달할 때까지 워크플로우 실행이 지연됩니다. 이를 통해 성능 저하를 방지하고 작동 중단 위험을 줄일 수 있습니다. 서버에 대한 로드가 줄고 메모리가 증가하면 워크플로우가 자동으로 다시 시작됩니다. 이 옵션은 읽기 전용이며 수정할 수 없습니다. [자세히 알아보기](../../automating/using/best-practices-workflows.md#execution)
 
 * 기존 SDK v4 모바일 애플리케이션에서 **Adobe Experience Platform Mobile SDK**&#x200B;로 보다 쉽게 마이그레이션할 수 있는 새로운 프로세스가 Adobe Campaign Standard에서 제공됩니다. [이 페이지](../../administration/using/sdkv4-migration.md)를 참조하십시오.
 
