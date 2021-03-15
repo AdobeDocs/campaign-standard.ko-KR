@@ -7,11 +7,14 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
+feature: 성능 모니터링
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 86%
+source-wordcount: '466'
+ht-degree: 85%
 
 ---
 
