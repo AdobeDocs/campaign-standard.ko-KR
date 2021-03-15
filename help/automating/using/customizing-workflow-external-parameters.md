@@ -6,10 +6,13 @@ description: 이 섹션에서는 외부 매개 변수를 사용한 워크플로�
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: 워크플로우
+role: 데이터 아키텍트
+level: 중간
 translation-type: tm+mt
-source-git-commit: 3a87f15ee7e934c39224cd7f64aafb80d73b433b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '817'
 ht-degree: 1%
 
 ---
