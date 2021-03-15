@@ -3,10 +3,13 @@ solution: Campaign Standard
 product: campaign
 title: 복합 식별 키로 리소스 호출
 description: 합성 ID 키를 사용하여 리소스를 호출하는 방법 학습
+feature: 데이터 모델
+role: 개발자
+level: 경험
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '592'
 ht-degree: 7%
 
 ---
