@@ -6,10 +6,13 @@ description: SMS 문제 해결
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: 인스턴스 설정
+role: 관리자
+level: 경험
 translation-type: tm+mt
-source-git-commit: 80e4f752a1b9b6c8b0125a502c05c19796e98104
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2696'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
