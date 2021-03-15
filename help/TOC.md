@@ -4,12 +4,12 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
-breadcrumb-title: 도움말 센터
 title: Campaign Standard 안내서
+breadcrumb-title: 도움말 센터
 translation-type: tm+mt
-source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1751'
 ht-degree: 99%
 
 ---
