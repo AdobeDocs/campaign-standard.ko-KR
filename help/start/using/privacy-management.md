@@ -6,11 +6,14 @@ description: 개인 정보 관리를 위한 Adobe Campaign Standard 기능에 �
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
+feature: 개인 정보
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '968'
+ht-degree: 99%
 
 ---
 
