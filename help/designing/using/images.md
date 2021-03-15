@@ -6,10 +6,13 @@ description: 이메일 디자이너를 사용하여 이메일의 이미지를 �
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 이메일 디자인
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '308'
 ht-degree: 3%
 
 ---
