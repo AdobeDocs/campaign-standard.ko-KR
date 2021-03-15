@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다.
+feature: 게재 가능성
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: c477012a8404b897640ca3ece1c71e9014adf9bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '99'
 ht-degree: 10%
 
 ---
