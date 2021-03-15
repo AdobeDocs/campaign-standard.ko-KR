@@ -6,10 +6,13 @@ description: 동적 보고서를 사용하여 변수 및 차원을 자유 형식
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: 보고
+role: 리더
+level: 초급
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '794'
 ht-degree: 5%
 
 ---
@@ -63,14 +66,14 @@ ht-degree: 5%
 |  | 동적 보고 | Microsoft Dynamics 365 커넥터 |
 |---|---|---|
 | 미국 및 APAC(아시아 태평양) | **사용 가능한** 기능 <br>즉시 사용 가능한 모든 정보(예를 들어 도시, 국가/지역, 주, 성별 및 연령 기준 세그먼트) 및 사용자 지정 프로필 정보가 미국 보고 센터로 푸시되었습니다. 프로필 차원에 대한 자세한 내용은 이 [페이지](../../reporting/using/list-of-components-.md)를 참조하십시오. | **사용 가능한** 기능 <br>즉시 사용 가능한 모든 프로필 및 사용자 지정 프로필 필드와 Adobe Campaign Standard 이벤트 필드는 미국 데이터 센터에서 처리됩니다. |
-| EMEA(유럽 중동 및 아프리카) | **사용 가능한** 기능 <br>즉시 사용 가능한 모든 정보(예: 구/군/시/도, 주, 성별 및 세그먼트) 및 사용자 지정 프로필 정보가 EMEA 보고 센터로 푸시되었습니다. 프로필 차원에 대한 자세한 내용은 이 [페이지](../../reporting/using/list-of-components-.md)를 참조하십시오. | **사용 가능한 기능.** <br>EMEA 데이터 센터에서 처리되는 모든 특별 및 사용자 지정 프로필 필드 및 Adobe Campaign Standard 이벤트 필드. <br>**[!UICONTROL Control data]**이 파일에는 Adobe I/O 등록 데이터 및 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID가 들어 있습니다. |
+| EMEA(유럽 중동 및 아프리카) | **사용 가능한** 기능 <br>즉시 사용 가능한 모든 정보(예: 구/군/시/도, 주, 성별 및 세그먼트) 및 사용자 지정 프로필 정보가 EMEA 보고 센터로 푸시되었습니다. 프로필 차원에 대한 자세한 내용은 이 [페이지](../../reporting/using/list-of-components-.md)를 참조하십시오. | **사용 가능한 기능.** <br>EMEA 데이터 센터에서 처리되는 모든 특별 및 사용자 지정 프로필 필드 및 Adobe Campaign Standard 이벤트 필드. <br>**[!UICONTROL Control data]**Adobe I/O 등록 데이터와 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID를 포함합니다. |
 
 아래 표에는 지역에 따라 이 계약을 거절하고 난 후 발생하는 사항이 표시됩니다. 이 계약을 거절하더라도 배달 보고 및 Microsoft Dynamics 365 통합을 계속 사용할 수 있습니다.
 
 | 지역 | 동적 보고 | Microsoft Dynamics 365 커넥터 |
 |---|---|---|
 | 미국 및 APAC(아시아 태평양) | **사용 가능한** 기능 <br> ExternalID를 제외하고 즉시 사용 가능한 프로필 및 사용자 지정 프로필 정보가 미국 보고 센터로 푸시되지 않습니다. | **사용 가능한** 기능 <br>외부 ID 및 수신자 ID를 제외하고 미국 데이터 센터로 전송된 특별한 필드나 사용자 지정 프로필 필드가 없습니다. <br>미러 페이지 ID를 제외하고 미국 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드. <br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이  [페이지를 참조하십시오](../../integrating/using/d365-acs-get-started.md). |
-| EMEA(유럽 중동 및 아프리카) | **사용 가능한** 기능 <br>ExternalID를 제외하고 EMEA 보고 센터에 즉시 사용 가능한 프로필 및 사용자 지정 프로필 정보가 푸시되지 않습니다. | **사용 가능한 기능.** <br>외부 ID 및 수신자 ID를 제외하고 EMEA 데이터 센터에 즉시 전송되거나 사용자 지정 프로필 필드가 전송되지 않습니다. <br>미러 페이지 ID를 제외한 EMEA 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드.  <br>**[!UICONTROL Control data]**이 파일에는 Adobe I/O 등록 데이터 및 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID가 들어 있습니다.<br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이  [페이지를 참조하십시오](../../integrating/using/d365-acs-get-started.md). |
+| EMEA(유럽 중동 및 아프리카) | **사용 가능한** 기능 <br>ExternalID를 제외하고 EMEA 보고 센터에 즉시 사용 가능한 프로필 및 사용자 지정 프로필 정보가 푸시되지 않습니다. | **사용 가능한 기능.** <br>외부 ID 및 수신자 ID를 제외하고 EMEA 데이터 센터에 즉시 전송되거나 사용자 지정 프로필 필드가 전송되지 않습니다. <br>미러 페이지 ID를 제외한 EMEA 데이터 센터에서 처리된 모든 Adobe Campaign Standard 이벤트 필드.  <br>**[!UICONTROL Control data]**Adobe I/O 등록 데이터와 미국 데이터 센터에 전송되어 저장된 고객 최종 사용자 이벤트의 ID를 포함합니다.<br>Microsoft Dynamics 365 통합에 대한 자세한 내용은 이  [페이지를 참조하십시오](../../integrating/using/d365-acs-get-started.md). |
 
 이 선택 사항은 최종적인 것이 아닙니다. **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;에서 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**&#x200B;을 선택하여 언제든지 변경할 수 있습니다.
 
