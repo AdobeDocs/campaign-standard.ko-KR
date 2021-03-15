@@ -6,11 +6,14 @@ description: API를 사용하여 프로필의 지리적 단위를 검색하는 �
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 12%
+source-wordcount: '84'
+ht-degree: 13%
 
 ---
 
