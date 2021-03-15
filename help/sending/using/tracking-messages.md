@@ -6,10 +6,13 @@ description: 전달 받는 사람의 동작을 추적하는 방법을 알아봅�
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
+feature: 성능 모니터링
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '492'
 ht-degree: 20%
 
 ---
