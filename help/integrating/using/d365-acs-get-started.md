@@ -5,10 +5,13 @@ products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM 통합
+role: 데이터 아키텍트
+level: 중간
 translation-type: tm+mt
-source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '848'
 ht-degree: 5%
 
 ---
@@ -89,7 +92,7 @@ Microsoft Dynamics 365와의 Adobe Campaign Standard 통합을 통해 CRM 시스
 >
 >각 시스템에 대해 **administrator**&#x200B;에서 이러한 단계를 수행해야 합니다.
 >
->이 설명서의 단계에서는 권한 및/또는 관리자 액세스 권한을 할당하는 것과 관련된 통합/등록을 만드는 과정을 안내합니다.  이러한 단계가 수행 전에 회사 정책을 준수하고 신중하게 수행하는 것은 귀하의 책임입니다.
+>이 문서의 단계에서는 권한 및/또는 관리자 액세스 권한을 할당하는 것과 관련된 통합/등록을 만드는 과정을 안내합니다.  이러한 단계가 수행 전에 회사 정책을 준수하고 신중하게 수행하는 것은 귀하의 책임입니다.
 
 
 ### 지원 요청
