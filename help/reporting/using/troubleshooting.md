@@ -6,10 +6,13 @@ description: 동적 보고와 관련된 일반적인 질문을 찾습니다.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
+feature: 보고
+role: 리더
+level: 중간
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '668'
 ht-degree: 5%
 
 ---
@@ -124,7 +127,7 @@ P1은 첫 번째 날에 두 번 이메일을 연 다음 두 번째 날에 세 �
    <td align="center"> <strong>100년<br/> </td> 
    <td align="center"> <strong>90<br/> </td> 
    <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>3<br/> </td> 
+   <td align="center"> <strong>1<br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
