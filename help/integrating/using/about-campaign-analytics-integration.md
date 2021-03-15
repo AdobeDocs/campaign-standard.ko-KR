@@ -6,10 +6,13 @@ description: 이제 Adobe Campaign Standard에서 KPI 데이터를 수집하여 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
+feature: 트리거
+role: 데이터 아키텍트
+level: 중간
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 6%
 
 ---
