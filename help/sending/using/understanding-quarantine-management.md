@@ -6,10 +6,13 @@ description: 격리 관리를 통해 게재 능력을 최적화하는 방법을 
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: 게재 가능성
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '785'
 ht-degree: 82%
 
 ---
@@ -86,8 +89,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 사용자가 이메일을 스팸 처리하면(**피드백 루프**) 해당 메시지는 Campaign에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL On denylist]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은에 차단 목록 있지 않으므로 사용자가 SMS 메시지와 푸시 알림을 계속 수신하도록 합니다.
 
 >[!NOTE]
->
->Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
+Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
 
 격리된 주소 목록([플랫폼 전체에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-the-entire-platform) 참조)의 **[!UICONTROL Error reason]** 필드에 선택한 주소가 격리된 이유가 표시됩니다.
 
