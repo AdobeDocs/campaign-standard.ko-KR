@@ -2,15 +2,18 @@
 solution: Campaign Standard
 product: campaign
 title: 구독을 확장해 애플리케이션 리소스로 만들기
-description: null
+description: 애플리케이션 리소스로 구독을 확장하는 방법 알아보기
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
+feature: 데이터 모델
+role: 개발자
+level: 경험
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 25%
+source-wordcount: '236'
+ht-degree: 23%
 
 ---
 
