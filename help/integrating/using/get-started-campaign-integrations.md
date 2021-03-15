@@ -6,11 +6,14 @@ description: 다른 Adobe 솔루션을 사용하여 다양한 기능을 Campaign
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
+feature: 트리거
+role: 데이터 아키텍트
+level: 중간
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 91%
+source-wordcount: '636'
+ht-degree: 90%
 
 ---
 
