@@ -6,10 +6,13 @@ description: Adobe Experience Platform SDK 및 Adobe Campaign 통합 FAQ
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: 인스턴스 설정
+role: 관리자
+level: 경험
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '914'
+source-wordcount: '918'
 ht-degree: 4%
 
 ---
