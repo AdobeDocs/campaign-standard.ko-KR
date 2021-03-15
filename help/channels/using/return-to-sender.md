@@ -6,10 +6,13 @@ description: 잘못된 주소에 대한 알림을 받고 향후 통신에서 이
 audience: channels
 content-type: reference
 topic-tags: direct-mail
+feature: DM
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '219'
 ht-degree: 2%
 
 ---
