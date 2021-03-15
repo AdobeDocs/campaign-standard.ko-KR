@@ -6,11 +6,14 @@ description: 이메일 디자이너의 기존 컨텐츠 이메일 컨텐츠를 �
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 이메일 디자인
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 6%
+source-wordcount: '1217'
+ht-degree: 5%
 
 ---
 
