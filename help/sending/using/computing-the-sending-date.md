@@ -6,10 +6,13 @@ description: 특정 날짜 및 시간에 메시지를 보내는 방법을 알아
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
+feature: 성능 모니터링
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1004'
 ht-degree: 1%
 
 ---
