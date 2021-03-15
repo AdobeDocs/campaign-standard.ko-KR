@@ -6,10 +6,13 @@ description: 관리자는 Adobe Campaign에서 만든 내보내기를 추적할 
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: 액세스 관리
+role: 관리자
+level: 경험
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
