@@ -6,10 +6,13 @@ description: Campaign Standard API에 대한 액세스를 설정하는 방법을
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 1%
 
 ---
@@ -43,7 +46,7 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
    * &lt;organization> :프로덕션 인스턴스,
    * &lt;organization-mkt-stage>:스테이지 인스턴스.
 
-   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 만들 때 Adobe I/O으로 가져올 수도 있습니다(라이선스 목록에서 <a href="https://www.adobe.io/authentication.html">Adobe IO 설명서</a> 참조).
+   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 만들 때 Adobe I/O으로 검색할 수도 있습니다(라이선스 목록에서 <a href="https://www.adobe.io/authentication.html">Adobe IO 설명서</a> 참조).
 
 * **&lt;access_token>**:POST 요청을 통해 JSON 웹 토큰을 교환할 때 검색된 개인 액세스 토큰입니다.
 
