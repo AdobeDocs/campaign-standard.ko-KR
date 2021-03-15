@@ -6,10 +6,13 @@ description: 처음부터 이메일 컨텐츠 제작, HTML 가져오기 또는 �
 audience: designing
 content-type: reference
 topic-tags: about-content-design
+feature: 이메일 디자인
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1255'
 ht-degree: 90%
 
 ---
