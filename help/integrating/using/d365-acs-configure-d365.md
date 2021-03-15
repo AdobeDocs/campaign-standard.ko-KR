@@ -6,10 +6,13 @@ description: Adobe Campaign 통합을 위해 Microsoft Dynamics 365를 구성하
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM 통합
+role: 데이터 아키텍트
+level: 경험
 translation-type: tm+mt
-source-git-commit: 3ba3e0db816832ea57c124a9bea1fa82cf068859
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '917'
 ht-degree: 1%
 
 ---
