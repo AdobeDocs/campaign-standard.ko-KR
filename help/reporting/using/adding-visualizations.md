@@ -6,11 +6,14 @@ description: 동적 보고서는 보고서에 그래픽 표현을 추가하기 �
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
+feature: 보고
+role: 리더
+level: 중간
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 1%
+source-wordcount: '223'
+ht-degree: 2%
 
 ---
 
