@@ -6,10 +6,13 @@ description: 정렬 작업을 수행하는 방법에 대해 자세히 알아보�
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: 데이터 엔지니어
+level: 경험
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '93'
 ht-degree: 11%
 
 ---
