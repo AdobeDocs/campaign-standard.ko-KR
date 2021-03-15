@@ -6,11 +6,14 @@ description: Adobe Campaign Standard Workspace의 접근성 지원에 대해 알
 audience: designing
 content-type: reference
 topic-tags: accessibility
+feature: 캠페인
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 6ea28c457b1024dab315b60281adaee56eb80cd0
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '611'
+ht-degree: 99%
 
 ---
 
