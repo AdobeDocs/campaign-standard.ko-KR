@@ -4,10 +4,13 @@ description: Microsoft Dynamics 365 통합을 위해 Adobe IO를 구성하는 �
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM 통합
+role: 데이터 아키텍트
+level: 중간
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
@@ -15,7 +18,7 @@ ht-degree: 2%
 
 # Microsoft Dynamics 365 통합을 위한 Adobe Campaign Standard 및 Adobe I/O 구성
 
-이 문서에서는 통합 응용 프로그램이 데이터에 대한 액세스 권한을 부여하도록 Adobe Campaign Standard 및 Adobe I/O을 구성하는 방법에 대해 설명합니다.
+이 문서에서는 통합 응용 프로그램이 데이터에 액세스할 수 있도록 Adobe Campaign Standard 및 Adobe I/O을 구성하는 방법에 대해 설명합니다.
 
 ## Adobe Campaign Standard {#campaign-standard} 구성
 
