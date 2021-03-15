@@ -6,10 +6,13 @@ description: Campaign을 사용하여 게재 실패를 관리하는 방법을 �
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: 게재 가능성
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 69%
 
 ---
