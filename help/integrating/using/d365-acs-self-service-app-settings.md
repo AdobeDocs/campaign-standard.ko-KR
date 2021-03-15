@@ -4,10 +4,13 @@ description: Campaign-Dynamics 통합 앱을 구성하는 방법 학습
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM 통합
+role: 데이터 아키텍트
+level: 중간
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -35,9 +38,9 @@ Microsoft Dynamics 365 자격 증명은 통합 응용 프로그램에서 Microso
 
 ### Adobe API 자격 증명
 
-Adobe Campaign 자격 증명은 [Adobe I/O](https://www.adobe.io/)을 사용하여 생성됩니다. [Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) 구성을 방문하여 이 섹션의 입력 내용을 작성하기 전에 해당 지침을 따라야 합니다.
+Adobe Campaign 자격 증명은 [Adobe I/O](https://www.adobe.io/)을 사용하여 생성됩니다. [Adobe I/O 구성](../../integrating/using/d365-acs-configure-adobe-io.md) 화면을 방문하여 지침을 따라 이 섹션의 입력 내용을 작성해야 합니다.
 
-다음 이미지는 Adobe I/O과 설정 화면 입력 간의 매핑을 자세히 설명합니다.
+다음 이미지는 Adobe I/O 및 설정 화면 입력 간의 매핑을 자세히 설명합니다.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
