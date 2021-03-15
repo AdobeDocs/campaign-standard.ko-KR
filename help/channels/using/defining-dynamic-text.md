@@ -6,10 +6,13 @@ description: Adobe Campaign에 정의된 조건에 따라 사용자에게 동적
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
+feature: SMS
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '217'
 ht-degree: 3%
 
 ---
