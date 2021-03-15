@@ -6,10 +6,13 @@ description: XDM(Experience Data Model)은 Adobe Experience Platform 솔루션 �
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Microsoft CRM 통합
+role: 데이터 아키텍트
+level: 경험
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '255'
 ht-degree: 7%
 
 ---
