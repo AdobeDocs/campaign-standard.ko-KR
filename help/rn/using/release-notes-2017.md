@@ -6,10 +6,13 @@ description: 이 페이지에는 Adobe Campaign Standard의 2017년 릴리스가
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '4627'
+source-wordcount: '4631'
 ht-degree: 8%
 
 ---
@@ -514,7 +517,7 @@ _일반_
 * **[!UICONTROL Access authorization]** 옵션이 랜딩 페이지 속성으로 반환되었습니다.
 * 올바른 이미지 대신 이전 이미지가 렌더링되는 문제를 수정했습니다. 이것은 배달 또는 랜딩 페이지의 컨텐츠 정의에서 소스 이미지가 업데이트된 경우에 발생했습니다.
 * 사용자가 기존 SFTP 외부 계정에서 특정 필드를 편집할 수 없는 문제를 수정했습니다.
-* 여러 UI 문제가 해결되었습니다. 예를 들어 이제 사용자는 UI에 문제가 발생하지 않고 프로필 속성을 편집하고 수정 사항을 저장할 수 있습니다.
+* 여러 UI 문제가 해결되었습니다. 예를 들어 이제 사용자는 UI에 문제가 발생하지 않고 프로필 속성을 편집하고 수정 내용을 저장할 수 있습니다.
 
 _이메일 및 SMS 메시지_
 
