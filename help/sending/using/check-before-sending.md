@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: '"메시지가 준비되면 보내기 전에 모든 검사를 수행하는 방법을 알아봅니다."'
+feature: 게재 가능성
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 16%
+source-wordcount: '414'
+ht-degree: 15%
 
 ---
 
