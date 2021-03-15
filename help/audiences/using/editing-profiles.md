@@ -6,11 +6,14 @@ description: 기존 프로필을 편집하고 연락처 정보, 기본 채널, �
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
+feature: 프로필
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 7%
+source-wordcount: '318'
+ht-degree: 8%
 
 ---
 
