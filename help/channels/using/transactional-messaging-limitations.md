@@ -7,10 +7,13 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
+feature: 트랜잭션 메시지
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '747'
 ht-degree: 67%
 
 ---
