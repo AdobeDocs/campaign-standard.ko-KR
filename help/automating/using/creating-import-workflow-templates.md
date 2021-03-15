@@ -6,10 +6,13 @@ description: 데이터를 가져오는 워크플로우 템플릿을 만드는 �
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: 워크플로우
+role: 데이터 아키텍트
+level: 경험
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1176'
 ht-degree: 1%
 
 ---
