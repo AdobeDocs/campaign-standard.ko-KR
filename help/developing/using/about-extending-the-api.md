@@ -6,10 +6,13 @@ description: 공개 프로필 API에서 사용자 지정 리소스 프로필의 
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
+feature: 데이터 모델
+role: 개발자
+level: 경험
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '118'
 ht-degree: 11%
 
 ---
