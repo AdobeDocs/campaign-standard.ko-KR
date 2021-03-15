@@ -6,11 +6,14 @@ description: 보고서 기간을 사용하면 선택한 날짜에 따라 데이�
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
+feature: 보고
+role: 리더
+level: 중간
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 3%
+source-wordcount: '207'
+ht-degree: 4%
 
 ---
 
