@@ -6,11 +6,14 @@ description: 이 페이지에는 Adobe Campaign Standard의 향후 릴리스 목
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 99%
+source-wordcount: '470'
+ht-degree: 98%
 
 ---
 
