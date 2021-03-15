@@ -6,10 +6,13 @@ description: 이 페이지에는 Adobe Campaign Standard의 2018년 릴리스가
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '5402'
+source-wordcount: '5406'
 ht-degree: 6%
 
 ---
