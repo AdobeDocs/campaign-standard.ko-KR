@@ -6,11 +6,14 @@ description: 'Adobe Campaign 사용자에게는 특정한 역할이 주어집니
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: 액세스 관리
+role: 관리자
+level: 경험
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 95%
+source-wordcount: '1224'
+ht-degree: 94%
 
 ---
 
