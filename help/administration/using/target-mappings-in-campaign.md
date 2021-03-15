@@ -6,10 +6,13 @@ description: 대상 매핑은 메시지를 전달하기 위해 Campaign에서 �
 audience: administration
 content-type: reference
 topic-tags: application-settings
+feature: 인스턴스 설정
+role: 관리자
+level: 경험
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '105'
 ht-degree: 16%
 
 ---
