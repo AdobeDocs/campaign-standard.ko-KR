@@ -6,10 +6,13 @@ description: 데이터베이스를 보완하는 다양한 방법에 대해 알�
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
+feature: 프로필
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '451'
 ht-degree: 3%
 
 ---
