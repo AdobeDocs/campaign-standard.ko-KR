@@ -6,11 +6,14 @@ description: 주요 기능, 사용자 인터페이스 및 글로벌 지침을 �
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
+feature: 개요
+role: 비즈니스 전문가
+level: 초급
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '781'
+ht-degree: 99%
 
 ---
 
