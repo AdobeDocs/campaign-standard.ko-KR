@@ -6,10 +6,13 @@ description: 쿼리 편집 도구를 사용하면 고급 함수를 사용하여 
 audience: automating
 content-type: reference
 topic-tags: filtering-data
+feature: 워크플로우
+role: 데이터 아키텍트
+level: 경험
 translation-type: tm+mt
-source-git-commit: ef170f2282fcc46e36c90dada2083dea25b95f7c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1944'
 ht-degree: 98%
 
 ---
