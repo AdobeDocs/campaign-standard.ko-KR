@@ -6,10 +6,13 @@ description: Adobe Campaign에서 서비스를 구독하는 프로필에 대한 
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
+feature: 대상
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1325'
 ht-degree: 96%
 
 ---
