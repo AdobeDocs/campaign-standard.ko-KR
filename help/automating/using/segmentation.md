@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
+feature: 워크플로우
+role: 데이터 아키텍트
+level: 중간
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '855'
 ht-degree: 92%
 
 ---
@@ -88,7 +91,6 @@ ht-degree: 92%
       >[!NOTE]
       >
       >각 값에 대해 다양한 제한 사항을 사용할 수 있습니다. 예를 들어 **[!UICONTROL Gender]** 필드에 대한 그룹을 지정하고 **[!UICONTROL Male]** 멤버로 이루어진 모집단을 10명으로, **[!UICONTROL Female]** 멤버로 이루어진 모집단을 30명으로 제한할 수 있습니다. 여러 데이터 그룹 필드를 사용하는 경우 모든 그룹의 크기가 같아야 합니다.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. 세그먼트의 구성을 확인합니다.
