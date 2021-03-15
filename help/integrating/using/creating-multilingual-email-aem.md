@@ -6,10 +6,13 @@ description: Adobe Experience Manager 통합을 통해 AEM에서 바로 컨텐�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
+feature: 트리거
+role: 데이터 아키텍트
+level: 중간
 translation-type: tm+mt
-source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '598'
 ht-degree: 5%
 
 ---
