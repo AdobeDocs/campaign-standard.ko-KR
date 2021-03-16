@@ -10,9 +10,9 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
 workflow-type: tm+mt
-source-wordcount: '6620'
+source-wordcount: '6639'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 99%
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
 
 ## 2021년 3월 {#doc-updates-march-2021}
+
+메시지를 보내는 주요 단계를 나열하는 섹션이 추가 정보 및 참조로 향상되었습니다. [자세한 내용](../../channels/using/key-steps-to-send-a-message.md)
 
 쿼리에서 대상을 선택할 때 해당 정의가 복사되고 참조되지 않음을 지정하는 정보가 추가되었습니다. [자세한 내용](../../audiences/using/selecting-an-audience-in-a-message.md)
 
@@ -140,7 +142,7 @@ Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추�
 
 제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)하고 [해독](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)하는 방법에대한 사용 사례가 추가되었습니다.
 
-기존 지원 웹 사이트에 대한 참조가 새 URL로 대체되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/ac-support.html#acs-support-req)
+기존 지원 웹 사이트에 대한 참조가 새 URL로 대체되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/ac-support.html)
 
 사용자 지정 리트머스 계정 구성이 받은 편지함 렌더링 기능에서 제거되었습니다. [자세한 내용](../../sending/using/email-rendering.md)
 
