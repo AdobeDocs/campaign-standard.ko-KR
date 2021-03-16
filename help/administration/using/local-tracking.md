@@ -11,9 +11,9 @@ feature: 인스턴스 설정
 role: 관리자
 level: 경험
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * **로컬 노출 횟수**  - 로컬 알림이 장치에 전달되고 알림 센터에 앉아 있지만 전혀 수정하지 않은 경우 대부분의 경우, 노출 횟수는 배달된 숫자와 동일하지 않을 경우 비슷해야 합니다. 장치가 메시지를 받았는지 확인하고 해당 정보를 다시 서버로 보냅니다.
 
-* **로컬 클릭**  - 로컬 알림이 장치에 전달되고 사용자가 장치를 클릭한 경우 사용자가 알림을 보거나(나중에 로컬 열기 추적 기능으로 이동) 알림을 해지하려고 했습니다.
+* **로컬 클릭**  - 로컬 알림이 장치에 전달되고 사용자가 알림을 클릭한 경우입니다. 사용자가 알림을 보거나(나중에 로컬 열기 추적 기능으로 이동) 알림을 해지하려고 했습니다.
 
 * **로컬 열기**  - 로컬 알림이 장치에 전달되고 사용자가 알림을 클릭하면 애플리케이션이 열립니다. 이 방법은 로컬 클릭과 유사하지만, 알림이 무시될 경우 로컬 열기 열기가 트리거되지 않습니다.
 
@@ -39,39 +39,17 @@ Adobe Campaign Standard에 대한 추적을 구현하려면 모바일 응용 프
 
 | 변수 | 값 |
 | :-: | :-: |
-| deliveryId | 수신 데이터의 &quot;deliveryId&quot;(&quot;_dld&quot;가 사용되는 푸시 추적과 유사) |
-| broadlogId | 들어오는 데이터의 &quot;broadlogId&quot;(&quot;_mld&quot;가 사용되는 푸시 추적과 유사) |
+| deliveryId | `deliveryId` 들어오는 데이터에서(사용하는 위치 `_dld` 의 푸시 추적과 유사) |
+| broadlogId | `broadlogId` 들어오는 데이터에서(사용하는 위치 `_mld` 의 푸시 추적과 유사) |
 | 액션 | 열기는 &quot;1&quot;, 클릭은 &quot;2&quot;, 임프레션은 &quot;7&quot; |
 
 ## 로컬 노출 추적 구현 {#implement-local-impression-tracking}
 
-노출 추적을 수행하려면 collectMessageInfo() 또는 trackAction() 함수를 호출할 때 액션에 대해 값 &quot;7&quot;을 전송해야 합니다.
-
-### Android {#implement-local-impression-tracking-android}의 경우
-
-Adobe Experience Platform Mobile SDK는 로컬 알림을 트리거할 때 노출 횟수 추적을 시작합니다.
-
-### iOS {#implement-local-impression-tracking-ios}의 경우
-
-노출 횟수 추적을 구현하는 방법을 설명하려면 애플리케이션의 3가지 상태를 이해해야 합니다.
-
-* **전경**:애플리케이션이 현재 활성 상태이고 전경에 있는 경우
-
-* **배경**:응용 프로그램이 화면에 표시되지 않지만 프로세스를 닫지 않은 경우입니다. 홈 단추를 두 번 클릭하면 일반적으로 배경에 있는 모든 응용 프로그램이 표시됩니다.
-
-* **해제/종료**:응용 프로그램의 과정이 종료되었을 때. 애플리케이션이 닫혀 있으면 Apple은 애플리케이션을 다시 시작할 때까지 해당 애플리케이션을 호출하지 않습니다. 즉, iOS에서 알림을 받은 시점을 절대로 알 수 없습니다.
-
-애플리케이션이 백그라운드에 있을 때 임프레션 추적이 계속 작동하려면 &quot;컨텐츠 사용 가능&quot;을 전송하여 추적을 수행해야 한다는 점을 응용 프로그램에 알릴 필요가 있습니다.
-
-Adobe Experience Platform Mobile SDK는 로컬 알림을 트리거할 때 노출 횟수 추적을 시작합니다.
-
->[!CAUTION]
->
->iOS 노출 횟수 추적은 정확하지 않으며 안전하게 볼 수 없습니다.
+Adobe Experience Platform Mobile SDK는 추가 구성 없이 Android와 iOS 모두에 대해 노출 이벤트를 자동으로 전송합니다.
 
 ## 클릭 추적 구현 {#implementing-click-tracking}
 
-클릭 추적의 경우 collectMessageInfo() 또는 trackAction() 함수를 호출할 때 동작에 대한 값 &quot;2&quot;를 전송해야 합니다.
+클릭 추적의 경우 `collectMessageInfo()` 또는 `trackAction()` 함수를 호출할 때 동작에 대해 값 &quot;2&quot;를 보내야 합니다.
 
 ### Android {#implement-click-tracking-android}의 경우
 
@@ -79,51 +57,26 @@ Adobe Experience Platform Mobile SDK는 로컬 알림을 트리거할 때 노출
 
 * 사용자가 알림을 볼 수 있지만 지웁니다.
 
+   해고가 발생할 경우 클릭을 추적하려면 응용 프로그램 모듈의 AndroidManifest 파일에 브로드캐스트 수신기 `NotificationDismissalHandler`을(를) 추가합니다.
+
+   ```
+   <receiver
+   android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
+   </receiver>
+   ```
+
 * 사용자가 알림을 보고 이를 클릭하면 열린 추적이 표시됩니다.
 
-클릭의 첫 번째 시나리오는 Adobe Experience Platform Mobile SDK에 의해 추적됩니다.
+   이 시나리오는 클릭과 열기를 생성합니다. 이 클릭을 추적하는 것은 열기를 추적하는 데 필요한 구현의 일부가 됩니다. [오픈 추적 구현](#implement-open-tracking)을 참조하십시오.
 
 ### iOS {#implement-click-tracking-ios}의 경우
 
-```
-// AppDelegate.swift
-...
-import os.log
-import UserNotifications
-...
-  
-func registerForPushNotifications() {
-        let center = UNUserNotificationCenter.current()
-        center.delegate = notificationDelegate
-        //Here we are creating a new Category that allows us to handle Dismiss Actions
-        let defaultCategory = UNNotificationCategory(identifier: "DEFAULT", actions: [], intentIdentifiers: [], options: .customDismissAction)
-        //Add it to our array of Category, in this case we only have one
-        center.setNotificationCategories([defaultCategory])
-        center.requestAuthorization(options: [.alert, .sound, .badge]) {
-            (granted, error) in
-            os_log("Permission granted: %{public}@", type:. debug, granted.description)
-            if error != nil {
-                return
-            }
-            if granted {
-                os_log("Notifications allowed", type: .debug)
-            }
-            else {
-                os_log("Notifications denied", type: .debug)
-            }
-  
-            // 2. Attempt registration for remote notifications on the main thread
-            DispatchQueue.main.async {
-                UIApplication.shared.registerForRemoteNotifications()
-            }
-        }
-    }
-```
-
-그런 다음 해지를 처리하고 추적 정보를 전송하려면 다음을 추가해야 합니다.
+클릭 추적 정보를 보내려면 다음을 추가해야 합니다.
 
 ```
-func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
+
+   func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         let userInfo = response.notification.request.content.userInfo
         switch response.actionIdentifier {
         case UNNotificationDismissActionIdentifier:
@@ -131,16 +84,22 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
             let deliveryId = userInfo["deliveryId"] as? String
             let broadlogId = userInfo["broadlogId"] as? String
             if (deliveryId != nil && broadlogId != nil) {
-                // If you're using  ACPCore v2.3.0 or later, use the line below.
+                
+                //If you are using ACPCore v2.3.0 or later, use the next line.
+                
                 ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
-                // Else comment out the above line and uncomment the line below
+                
+                //Else comment out the above line and uncomment the line below
+                
                 // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
             }
         default:
+            
             ////MORE CODE
         }
         completionHandler()
     }
+}
 ```
 
 ## 열기 추적 구현 {#implement-open-tracking}
@@ -161,38 +120,50 @@ protected void onResume() {
     super.onResume();
     handleTracking();
 }
-  
-  
+ 
+ 
 private void handleTracking() {
+
     //Check to see if this view was opened based on a notification
+
     Intent intent = getIntent();
     Bundle data = intent.getExtras();
-  
+ 
     if (data != null) {
-        //Looks it was opened based on the notification, lets get the tracking we passed on.
+
+        //Opened based on the notification, you need to get the tracking that was passed on.
+
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");
         String messageId = (String)notificationData.get("broadlogId");
-  
-  
-  
+
         if (deliveryId != null && messageId != null) {
             HashMap<String, String> contextData = new HashMap<>();
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
-  
-            //Send Click Tracking since the user did click on the notification
+ 
+            //Send click tracking since the user did click on the notification
+
             contextData.put("action", "2");
-            // If you're using  ACPCore v1.4.0 or later, use the next line.
+
+            //If you are using ACPCore v1.4.0 or later, use the next line.
+    
             MobileCore.collectMessageInfo(contextData);
-            // Else comment out the above line and uncomment the line below
+
+            //Else comment out the above line and uncomment the line below
+
             // MobileCore.trackAction("tracking", contextData);
-  
-            //Send Open Tracking since the user opened the app
+ 
+            //Send open tracking since the user opened the app
+
             contextData.put("action", "1");
-            // If you're using  ACPCore v1.4.0 or later, use the next line.
+
+            //If you are using  ACPCore v1.4.0 or later, use the next line.
+
             MobileCore.collectMessageInfo(contextData);
-            // Else comment out the above line and uncomment the line below
+
+            //Else comment out the above line and uncomment the line below
+
             // MobileCore.trackAction("tracking", contextData);
         }
     }
@@ -207,34 +178,45 @@ import Foundation
 import UserNotifications
 import UserNotificationsUI
 import ACPCore
-  
+ 
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
-  
-    // Called when user clicks the local notification or also called from willPresent()
+ 
+    //Called when user clicks the local notification or also called from willPresent()
+
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-  
+ 
         let userInfo = response.notification.request.content.userInfo
         os_log("App push data %{public}@, in userNotificationCenter:didReceive()", type: .debug, userInfo)
         switch response.actionIdentifier {
         case UNNotificationDismissActionIdentifier:
-            //This is to handle the Dismiss Action
+
+            //This is to handle the Dismiss action
+
             let deliveryId = userInfo["deliveryId"] as? String
             let broadlogId = userInfo["broadlogId"] as? String
             if (deliveryId != nil && broadlogId != nil) {
-            // If you're using  ACPCore v2.3.0 or later, use the line below.
+
+                //If you are using ACPCore v2.3.0 or later, use the next line.
+
                 ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
-            // Else comment out the above line and uncomment the line below
-            // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+
+                //Else comment out the above line and uncomment the line below
+
+                // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
             }
         default:
             //This is to handle the tracking when the app opens
             let deliveryId = userInfo["deliveryId"] as? String
             let broadlogId = userInfo["broadlogId"] as? String
             if (deliveryId != nil && broadlogId != nil) {
-               // If you're using  ACPCore v2.3.0 or later, use the line below.
+
+               //If you are using ACPCore v2.3.0 or later, use the next line.
+
                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
                ACPCore.collectMessageInfo(["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
-               // Else comment out the above line and uncomment the line below
+
+               //Else comment out the above line and uncomment the line below
+
                // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
                // ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
             }
