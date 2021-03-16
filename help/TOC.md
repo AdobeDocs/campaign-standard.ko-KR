@@ -7,9 +7,9 @@ user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 
 title: Campaign Standard 안내서
 breadcrumb-title: 도움말 센터
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1754'
 ht-degree: 99%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 99%
       + [개인 정보 관리](start/using/privacy-management.md)
       + [개인 정보 보호 요청](start/using/privacy-requests.md)
       + [개인 정보 FAQ](start/using/privacy-faq.md)
+   + [도움말 및 지원 옵션](support.md)
 + 프로필 및 대상자 {#profiles-and-audiences}
    + [프로필 및 대상자 시작](audiences/using/get-started-profiles-and-audiences.md)
    + 프로필 관리 {#managing-profiles}
