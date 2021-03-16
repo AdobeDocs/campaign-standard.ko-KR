@@ -10,9 +10,9 @@ feature: 인스턴스 설정
 role: 관리자
 level: 경험
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 99%
 
 ---
@@ -77,11 +77,6 @@ ht-degree: 99%
    <td> <span class="uicontrol">Adobe Analytics와의 KPI 조정</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> 이 워크플로우는 하루에 한 번 보고 서비스의 KPI를 가져와서 Adobe Analytics의 데이터와 조정합니다. 필요한 경우 차이를 적용합니다. 기본적으로 매일 오전 4시 20분에 시작됩니다.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NMAC 옵트아웃 관리</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> 이 워크플로우는 모바일 디바이스 알림에 대한 구독 취소를 업데이트합니다. 기본적으로 오전 1시부터 자정까지 6시간마다 시작됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">메시지 센터 로컬 아카이빙</span> <br /> </td> 
