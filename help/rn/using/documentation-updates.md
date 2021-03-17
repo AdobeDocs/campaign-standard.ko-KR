@@ -26,9 +26,9 @@ ht-degree: 99%
 
 메시지를 보내는 주요 단계를 나열하는 섹션이 추가 정보 및 참조로 향상되었습니다. [자세한 내용](../../channels/using/key-steps-to-send-a-message.md)
 
-쿼리에서 대상을 선택할 때 해당 정의가 복사되고 참조되지 않음을 지정하는 정보가 추가되었습니다. [자세한 내용](../../audiences/using/selecting-an-audience-in-a-message.md)
+쿼리에서 대상자를 선택할 때 해당 정의가 복사되고 참조되지 않음을 지정하는 정보가 추가되었습니다. [자세한 내용](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-대상 대상 대상 서비스 및 Adobe Experience Platform 데이터 커넥터와 관련된 정보가 새 섹션으로 다시 그룹화되었습니다. [자세한 내용](../../integrating/using/aep-about-audience-destinations-service.md)
+Audience Destinations 서비스 및 Adobe Experience Platform 데이터 커넥터와 관련된 정보가 새 섹션으로 다시 그룹화되었습니다. [자세한 내용](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## 릴리스 21.1 - 2021년 2월 {#release-21-1---february-2021}
 
