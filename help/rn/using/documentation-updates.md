@@ -10,10 +10,10 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: dd71d843436220c0313d08d76c17633306301456
 workflow-type: tm+mt
-source-wordcount: '6639'
-ht-degree: 99%
+source-wordcount: '6736'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,12 @@ ht-degree: 99%
 쿼리에서 대상자를 선택할 때 해당 정의가 복사되고 참조되지 않음을 지정하는 정보가 추가되었습니다. [자세한 내용](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 Audience Destinations 서비스 및 Adobe Experience Platform 데이터 커넥터와 관련된 정보가 새 섹션으로 다시 그룹화되었습니다. [자세한 내용](../../integrating/using/aep-about-audience-destinations-service.md)
+
+**선언된** IDdata 소스는 이제 사람 핵심 서비스 통합에도 사용할 수 있습니다. 캠페인 Audience Manager 또는 사용자 핵심 서비스 통합 문서에 정보가 추가되었습니다. [자세한 내용](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+모바일 애플리케이션에 대한 로컬 추적을 구현하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../administration/using/local-tracking.md)
+
+[Delivery](../../sending/using/about-deliverability.md) 섹션이 업데이트되었으며 이제 새 [Adobe 제공 우수 사례 안내서](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)에 대한 링크가 포함되어 있습니다. 다양한 Adobe 솔루션에 적용될 수 있는 전달 능력과 관련된 모든 일반 정보는 [모범 사례 가이드 부록](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources)로 이동되었습니다.
 
 ## 릴리스 21.1 - 2021년 2월 {#release-21-1---february-2021}
 
@@ -274,7 +280,7 @@ Campaign 사용자 인터페이스에서 랜딩 페이지 및 미러 페이지 �
 
 ## 2020년 1월 {#doc-updates-january-2020}
 
-게재 능력에 대한 설명서에 IP 인증에 대한 새로운 섹션을 업데이트했습니다. [자세한 내용](../../sending/using/ip-certification.md)
+게재 능력에 대한 설명서에 IP 인증에 대한 새로운 섹션을 업데이트했습니다.<!--[Read more](../../sending/using/ip-certification.md)-->
 
 채널 간 게재 워크플로우를 만드는 방법을 설명하는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../automating/using/workflow-cross-channel-delivery.md)
 
