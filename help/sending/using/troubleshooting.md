@@ -11,10 +11,10 @@ feature: 게재 가능성
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
+source-wordcount: '471'
+ht-degree: 2%
 
 ---
 
@@ -38,7 +38,7 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우, 이메�
 
 * **에 게시된 이메일 주소와 격리된 이메일 차단 목록 주소 간의 차이점은 무엇입니까?**
 
-   * 상태 **[!UICONTROL On denylist]**&#x200B;은 피드백 루프(사용자가 스팸으로 메시지를 보고하는 경우)의 결과입니다.
+   * **[!UICONTROL On denylist]** 상태는 [피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)(사용자가 스팸으로 메시지를 보고하는 경우)의 결과입니다.
 
    * 상태 **[!UICONTROL Quarantined]**&#x200B;은(는) 소프트 바운스의 결과입니다.
    자세한 내용은 이 [섹션](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)을 참조하십시오.
