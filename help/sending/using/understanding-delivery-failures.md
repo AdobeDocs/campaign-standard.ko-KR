@@ -10,10 +10,10 @@ feature: 게재 가능성
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 69%
+source-wordcount: '1310'
+ht-degree: 66%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 69%
 
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [바운스 수](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 메시지에 대한 게재 실패 식별 {#identifying-delivery-failures-for-a-message}
 
@@ -75,6 +76,11 @@ ht-degree: 69%
 | **[!UICONTROL Text too long]** | 무시됨 | SMS 메시지의 문자 수가 한도를 초과합니다. 자세한 내용은 [SMS 인코딩, 길이 및 음역](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)을 참조하십시오. |
 | **[!UICONTROL Character not supported by encoding]** | 무시됨 | SMS 메시지에 인코딩에서 지원되지 않는 문자가 하나 이상 포함되어 있습니다. 자세한 내용은 [문자 테이블 - GSM 표준](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)을 참조하십시오. |
 
+
+**관련 항목:**
+* [하드 바운스](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [소프트 바운스](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+
 ## 일시적 게재 실패 후 다시 시도 {#retries-after-a-delivery-temporary-failure}
 
 **무시됨** 유형의 일시적인 오류로 인해 메시지가 실패하면 게재 기간 동안 다시 시도됩니다. 오류 유형에 대한 자세한 내용은 [게재 실패 유형 및 이유](#delivery-failure-types-and-reasons)를 참조하십시오.
@@ -91,13 +97,12 @@ IP가 이전 및 현재 지정된 도메인에 수행하는 성과를 기준으�
 
 예를 들어 배달이 1일 후 중단되도록 재시도할 경우 배달 기간을 **1d**&#x200B;로 설정할 수 있으며 다시 시도 대기열에 있는 메시지는 1일 후 제거됩니다.
 
-<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
-
 >[!NOTE]
 >
 >최대 3.5일 동안 재시도 대기열에 메시지가 있고 배달하지 못하면 시간이 초과되고 해당 상태가 [배달 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs)의 **[!UICONTROL Failed]**&#x200B;으로 업데이트됩니다.<!--from **[!UICONTROL Sent]**-->
 
-<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## 동기 및 비동기 오류 {#synchronous-and-asynchronous-errors}
 
@@ -114,9 +119,13 @@ IP가 이전 및 현재 지정된 도메인에 수행하는 성과를 기준으�
 >
 >Campaign **[!UICONTROL Message qualification]** 테이블의 반송 조건은 더 이상 사용되지 않습니다.
 
-비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 왼쪽 상단에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;을(를) 선택하고 **[!UICONTROL Bounce mails]**&#x200B;을(를) 선택합니다. 이 규칙과 관련한 자세한 정보는 이 [섹션](../../administration/using/configuring-email-channel.md#email-processing-rules)을 참조하십시오.
+비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 왼쪽 상단에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;을(를) 선택하고 **[!UICONTROL Bounce mails]**&#x200B;을(를) 선택합니다. 이 규칙에 대한 자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#email-processing-rules)을 참조하십시오.
 
-<!--Bounces can have the following qualification statuses:
+바운스 및 다른 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)을 참조하십시오.
+
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+
+Bounces can have the following qualification statuses:
 
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
@@ -132,4 +141,4 @@ To list the various bounces and their associated error types et reasons, click t
 
 원칙은 Campaign 데이터베이스에 &#39;프로필&#39;로 저장하기 전에 이메일 전송을 통해 방문자의 동의를 확인하는 것입니다. 방문자는 온라인 랜딩 페이지를 작성한 후 이메일을 수신하고 확인 링크를 클릭하여 구독을 마무리해야 합니다.
 
-자세한 정보는 [이 섹션](../../channels/using/setting-up-a-double-opt-in-process.md)을 참조하십시오.
+자세한 내용은 [이 섹션](../../channels/using/setting-up-a-double-opt-in-process.md)을 참조하십시오.
