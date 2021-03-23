@@ -11,72 +11,117 @@ feature: 게재 가능성
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 5%
+source-wordcount: '749'
+ht-degree: 6%
 
 ---
 
 
-# 게재 기능 기본 정보{#about-deliverability}
+# 제공 가능 여부{#about-deliverability}
 
-전달 기능을 사용하면 바운싱 또는 스팸으로 표시되지 않고도 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정할 수 있습니다.
+전달 기능을 사용하면 바운싱 또는 스팸으로 표시되지 않고도 수신자의 받은 편지함에 도달하는 캠페인의 성공을 측정할 수 있습니다. [탁월한 전달이 중요한 이유](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters) 살펴보기
 
-배달 가능 비율은 많은 요인, 특히 다음과 같은 경우에 따라 달라집니다.
+보다 정확하게 말하자면, 이메일 전달 기능은 컨텐츠 및 형식 측면에서 예상되는 품질과 함께, 짧은 시간 내에 개인 이메일 주소를 통해 해당 대상에 도달할 수 있는 메시지 기능을 결정하는 일련의 특성을 의미합니다.<!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-* 인스턴스의 올바른 구성
-* IP 주소 평판
-* 타깃팅된 주소의 품질
-* 불만 및 이탈률 감소
-* 메시지 내용
-* 메시지 인증(SPF, DKIM, DMARC)
-* 보낸 사람 평판
+제공 기능에 대한 자세한 내용과 주요 전달 조건, 개념 및 접근 방법에 대한 자세한 내용을 살펴보려면 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조하십시오.
 
-## 확인할 주요 사항 {#deliverability-key-points}
+## 제공 능력을 향상시키는 방법 {#deliverability-key-points}
 
-Adobe Campaign 이메일의 전달 가능성을 최적화하려면 아래에 나와 있는 우수 사례를 사용하는 것이 좋습니다. 제공 가능성 문제는 일반적으로 인터넷 서비스 제공업체와 메일 서버 관리자가 구현한 스팸 방지를 위한 방지와 연결됩니다.
+제공 가능성 문제는 일반적으로 인터넷 서비스 제공업체와 메일 서버 관리자가 구현한 스팸으로부터 보호하기 위한 조치와 연결됩니다.
 
-이메일 전달 기능은 컨텐츠 및 형식 측면에서 예상되는 품질과 함께, 짧은 시간 내에 개인 이메일 주소를 통해 대상에 도달할 수 있는 메시지의 기능을 결정하는 일련의 특성을 말합니다. 이러한 특성은 4가지 주요 카테고리로 분류됩니다.데이터 품질, 메시지 및 컨텐츠, 전송 인프라 및 명성을 높일 수 있습니다. 성공적인 이메일 제공 프로그램의 기반이 됩니다.
+* 성공적인 이메일 마케팅 캠페인을 디자인하는 방법에 대한 일반적인 권장 사항은 [배달 가능성 전략 및 정의](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html)를 참조하십시오.
 
-배달율은 수신자에게 성공적으로 배달된 보낸 이메일의 수입니다.
-다음은 배달이 잘 되는지 확인할 수 있는 핵심 사항의 목록입니다.
+* Adobe Campaign 이메일의 전달 가능성을 최적화하는 방법에 대한 자세한 권장 사항을 보려면 이 섹션에 나열된 최상의 방법을 사용하는 것이 좋습니다.
 
-## 배달 가능 도구 {#deliverability-tools}
+>[!NOTE]
+>
+>ISP는 고객을 스팸으로부터 보호하기 위해 새로운 고급 필터링 기술을 지속적으로 개발해야 하기 때문에 이메일 전달은 항상 변화하는 기준과 규칙에 따라 결정됩니다. 정기적으로 업데이트되는 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)를 참조해야 합니다.
 
-먼저 Campaign Standard과 함께 제공되는 제공 툴에 대한 설명서를 참조하기 시작합니다.
+### 배달 가능 비율
+
+배달율은 배달된 메시지 수와 비교하여 받는 사람의 받은 편지함을 히트한 메시지 수입니다. 택배 능력을 개선하기 위해, 당신은 이 비율을 증가시키는 데 노력할 수 있다.
+
+Adobe Campaign을 사용하면 다음과 같은 여러 요인에 따라 배달 방법이 달라집니다.
+
+* 인스턴스의 올바른 구성:도움이 필요하면 Adobe 담당자에게 문의하십시오.
+* 올바른 네트워크 구성:[이 섹션](../../sending/using/optimize-delivery.md#network-config) 및 [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)을 참조하십시오.
+* IP 주소 평판:[IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)을 참조하십시오.
+* 타깃팅된 주소의 품질:[격리 관리](../../sending/using/optimize-delivery.md#quarantine-management)를 참조하십시오.
+* [불만 사항](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 비율이 낮습니다.
+* 메시지 내용:[이메일 컨텐트 제어](../../sending/using/control-email-content.md)를 참조하십시오.
+* 메시지 인증(SPF, DKIM, DMARC):[이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)을 참조하십시오.
+* 보낸 사람 의견:기본 ISP가 보낸 사람의 명성을 평가하는 방법에 대해 알려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)을 참조하십시오.
+
+## 캠페인 제공 도구 {#deliverability-tools}
+
+Adobe Campaign은 플랫폼의 제공 성능을 추적하고 개선하는 다양한 툴을 제공합니다. 또한 이 페이지에서는 Campaign 사용 시 전달 가능성을 최적화하기 위해 고려해야 하는 주요 원칙을 강조 표시합니다.
+
+### 메시지를 주의 깊게 작성
+
+메시지를 구성, 디자인 및 테스트할 때는 아래 나열된 섹션에 설명된 우수 사례를 따라야 합니다. Adobe Campaign에서 제공하는 모든 기능을 활용하면 제공 능력을 향상시킬 수 있습니다.
+
 * [게재 모범 사례](../../sending/using/delivery-best-practices.md)
-* [보낸 사람 이름 맞춤화](../../designing/using/personalization.md#personalizing-the-sender)
-* [보내는 시각 최적화](../../sending/using/optimizing-the-sending-time.md)
+* [이메일 콘텐츠 제어](../../sending/using/control-email-content.md)
 * [메시지 미리 보기](../../sending/using/previewing-messages.md)
-* [이메일 렌더링](../../sending/using/email-rendering.md)
-* [게재 모니터링](../../sending/using/monitoring-a-delivery.md)
-* [게재 실패 시 경고 받기](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [증명 보내기](../../sending/using/sending-proofs.md)
+
+### 이중 옵트인 {#double-opt-in}을 통해 동의 확인
+
+잘못된 주소로 메시지를 보내지 않고, 부적절한 통신을 제한하며, 발신자의 명성을 높이기 위해, Adobe은 이중 옵트인 메커니즘을 구현할 것을 권장합니다. 이렇게 하면 수신자가 의도적으로 가입했는지 확인할 수 있습니다.
+
+이에 대한 자세한 내용은 [캠페인 옵트인 및 옵트아웃 정보를 참조하십시오](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+
+고객으로부터 데이터를 수집할 때의 모범 사례에 대한 자세한 내용은 [Adobe 제공 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene)를 참조하십시오.
+
+### 격리 관리 활용
+
+Adobe Campaign은 일관되게 발생하는 스팸 불만, 하드 바운스 및 소프트 바운스 수를 수집하는 목록을 관리합니다.
+
+배달 능력을 보호하기 위해 해당 목록에 있는 주소를 가진 수신자는 이러한 연락처로 보내는 것이 사용자의 전송 명성을 손상시킬 수 있으므로 기본적으로 이후의 모든 배달에서 제외됩니다.
+
+일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 격리 기능을 사용하면 이러한 제공자가에 추가하는 것을 차단 목록 방지할 수 있습니다.
+
+자세한 내용은 다음 섹션을 참조하십시오.
+
 * [게재 실패 이해](../../sending/using/understanding-delivery-failures.md)
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [격리 대 차단 목록](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
+### 모니터링 및 보고 툴 사용
+
+Adobe Campaign에서 제공하는 기능을 사용하여 제공 여부를 모니터링할 수 있습니다.
+
+Adobe Campaign을 사용하면 내장된 실시간 표시기를 통해 배달이 어떻게 수행되는지 확인할 수 있습니다. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->또한 필요에 따라 변경 가능한 실시간 보고서를 작성하여 게재에 대한 인사이트를 향상시킬 수 있습니다.
+
+자세한 내용은 다음 섹션을 참조하십시오.
+
+* [게재 기능 모니터링](../../sending/using/monitor-deliverability.md)
+
+   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+* [게재 실패 시 경고 받기](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [동적 보고서](../../reporting/using/about-dynamic-reports.md)
 
-## 네트워크 구성 {#network-configuration} 확인 중
+<!--## General recommendations
 
-스팸들은 그들의 진짜 신원을 숨기려고 노력하고 그 결과 그들의 서버를 식별하기 어렵게 만들었다. 서버의 ID를 숨기려고 하지 않는 적절한 네트워크 구성은 대량의 볼륨으로 이메일을 전송하는 데 반드시 필요합니다.
+NOT SURE TO KEEP
 
-## 유효한 주소 {#valid-addresses}로 보내는 중
+Here are a few additional recommendations when it comes to deliverability.
 
-주소 생성기는 자주 이름과 이름이 자주 나오는 목록을 기반으로 하여 사용한다.또한 메일 서버에서 보내는 기술 알림을 처리하는 경우는 거의 없습니다. 잘못된 주소의 비율이 높은 것은 종종 스팸의 표시로 해석됩니다. 이중 옵트인 메커니즘과 효과적인 기술 바운스 메시지 처리를 통해 이러한 오류를 방지할 수 있습니다.
+### Send to valid addresses {#valid-addresses}
 
-## 불만 비율 {#reduce-complaint-rate} 감소
+Spammers often use address generators based on lists of frequent names and first names; in addition, they rarely process technical notifications sent back by mail servers. A high rate of invalid addresses is often interpreted as a sign of spam.
 
-ISP는 일반적으로 수신한 메시지를 스팸으로 보고하는 뛰어난 방법을 가지고 있습니다. 따라서 신뢰할 수 없는 출처를 식별할 수 있습니다. 옵트아웃 요청을 신속하게 준수하고, 지정된 목록을 정기적으로 사용하고, 이중 옵트인 시스템을 통해 동의를 확인하고, 피드백 루프를 구현함으로써 불만율을 줄일 수 있습니다.
+Double opt-in mechanisms and effective handling of technical bounce messages make it possible to avoid this.
 
-## 허니포트 주소로 보내기 {#honeypot-addresses}
+### Reduce complaint rate {#reduce-complaint-rate}
 
-ISP와 기타 조직(https://www.projecthoneypot.org/ 참조)은 실제 인물에 해당하지 않지만 스패머를 조작하기 위해 만든 사서함을 사용합니다. 이 소위 &quot;허니 포트&quot; 주소는 스팸보트가 수집해서 불법 보낸 사람을 잡기 위해 웹에 게시된다. 이중 옵트인 메커니즘을 사용하면 이러한 유형의 주소가 목록에 추가되지 않습니다. 제3자 목록을 사용할 때는 해당 유지 관리자가 사용하는 방법을 반드시 확인해야 합니다.
+ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests, making regular use of a given list, verifying consent through a double opt-in system, and implementing feedback loops, you can reduce complaint rates.
 
-## 메시지 내용 {#adapt-message-content} 적용
+<!--Sending to honeypot addresses {#honeypot-addresses}
+ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.-->
 
-특정 메시지의 컨텐츠는 특정 필터를 사용하여 스팸으로 감지할 수 있습니다. 특정 단어의 사용, 제목 줄 및 메시지 내에 느낌표를 사용하는 것은 스팸의 등장으로 읽습니다. 스팸 방지 필터로 불쾌한 텍스트를 자동으로 분석하지 않도록 스팸을 스팸으로 교체할 수도 있습니다. 이에 대한 응답으로, 이미지 또는 이미지가 첨부 파일로 많은 비율이 있는 메시지(HTML 형식)가 차단될 수 있습니다.
+<!--## Sending on a regular basis {#regular-deliveries}
 
-## 정기적으로 전송 {#regular-deliveries}
-
-스팸들은 시간이 지남에 따라 명성을 유지하기 위해 프로그램 배달을 한다. 평판이 높은(경사 업) 후에 ISP에서 부과하는 모범 사례에 맞게 마케팅 계획을 조정해야 하는 경우가 있습니다.
+Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.-->
