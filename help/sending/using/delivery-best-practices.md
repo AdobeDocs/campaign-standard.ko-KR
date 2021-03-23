@@ -11,10 +11,10 @@ feature: 게재 가능성
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[컨텐츠](optimize-delivery.md)**  개인화 - 올바른 설정 적용
+**[컨텐츠](design-and-personalize.md)**  개인화 - 올바른 설정 적용
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
