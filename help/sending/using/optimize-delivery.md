@@ -11,9 +11,9 @@ feature: 게재 가능성
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '754'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 6%
 
    * 이메일 수신 여부를 확인할 때는 다음 4가지 주요 카테고리에 주력해야 합니다.데이터 품질, 메시지 및 컨텐츠, 전송 인프라 및 명성을 높일 수 있습니다. 이 주제에 대한 자세한 내용은 [이 섹션](../../sending/using/about-deliverability.md)을 참조하십시오.
 
-* 새 플랫폼을 시작할 때 이 페이지](../../sending/using/starting-new-platform.md)에 자세한 권장 사항을 적용합니다.[
+* 새 플랫폼을 시작할 때 [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)에 대한 자세한 권장 사항을 적용합니다.
 
 * 도움이 필요하면 Adobe 담당자에게 문의하십시오.
 
