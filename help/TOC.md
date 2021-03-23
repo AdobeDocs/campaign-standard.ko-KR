@@ -7,9 +7,9 @@ user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 
 title: Campaign Standard 안내서
 breadcrumb-title: 도움말 센터
 translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1743'
 ht-degree: 99%
 
 ---
@@ -182,11 +182,7 @@ ht-degree: 99%
       + [격리 관리 이해](sending/using/understanding-quarantine-management.md)
    + 게재 기능 관리 {#managing-deliverability}
       + [게재 기능 기본 정보](sending/using/about-deliverability.md)
-      + [새 플랫폼 시작](sending/using/starting-new-platform.md)
       + [이메일 콘텐츠 제어](sending/using/control-email-content.md)
-      + [평판 개선](sending/using/improving-reputation.md)
-      + [IP 인증](sending/using/ip-certification.md)
-      + [기술 추천](sending/using/technical-recommendations.md)
       + [게재 기능 모니터링](sending/using/monitor-deliverability.md)
       + [문제 해결](sending/using/troubleshooting.md)
    + 유형화 규칙 작업 {#working-with-typology-rules}
@@ -271,8 +267,8 @@ ht-degree: 99%
          + [동기화 워크플로우 관리](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Microsoft Dynamics 365와 Campaign 간의 데이터 매핑](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365 통합 사용](integrating/using/d365-acs-using-the-integration.md)
-   + 캠페인 및 Adobe Experience Platform {#adobe-experience-platform}
-      + 대상 대상 대상 서비스 {#audience-destinations}
+   + Campaign 및 Adobe Experience Platform {#adobe-experience-platform}
+      + Audience Destinations 서비스 {#audience-destinations}
          + [Audience Destinations 서비스 정보](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform 대상자 관리](integrating/using/aep-managing-audiences.md)
          + [세그먼트 빌더 사용](integrating/using/aep-using-segment-builder.md)
