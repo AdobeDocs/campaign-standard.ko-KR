@@ -9,10 +9,10 @@ topic-tags: about-sending-messages-with-campaign
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 15%
+source-wordcount: '598'
+ht-degree: 14%
 
 ---
 
@@ -86,8 +86,7 @@ Campaign Standard은 배달된 메시지의 수를 향상시키는 데 도움이
 
 * [게재 기능 기본 정보](../../sending/using/about-deliverability.md)
 * [게재 기능 모니터링](../../sending/using/monitor-deliverability.md)
-* [평판 개선](../../sending/using/improving-reputation.md)
-* [기술 추천](../../sending/using/technical-recommendations.md)
+* [Adobe 제공 가능성 우수 사례 가이드](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
 * [전달 처리량 제어](../../reporting/using/delivery-throughput.md)
 
 ## 추가 리소스
