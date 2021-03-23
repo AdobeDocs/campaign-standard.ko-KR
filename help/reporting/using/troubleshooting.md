@@ -10,9 +10,9 @@ feature: 보고
 role: 리더
 level: 중간
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: d32bc25fe4e74605ac5cb78c162e242f790bdad5
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '670'
 ht-degree: 5%
 
 ---
@@ -65,21 +65,27 @@ P1은 첫 번째 날에 두 번 이메일을 연 다음 두 번째 날에 세 �
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>일</strong> <br /> </th> 
+   <th align="center"> <strong></strong> <br /> </th> 
    <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
    <th align="center"> <strong>고유 열기</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
+   <td align="center"> <strong> Day </strong><br /> </td> 
+   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 2</strong><br /> </td>
+  </tr> 
+  <tr>
+  <tr> 
    <td align="center"> 1일<br /> </td> 
-   <td align="center"> 6<br /> </td> 
+   <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
    <td align="center"> 2일<br /> </td> 
    <td align="center"> 3<br /> </td> 
-   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -127,7 +133,7 @@ P1은 첫 번째 날에 두 번 이메일을 연 다음 두 번째 날에 세 �
    <td align="center"> <strong>100년<br/> </td> 
    <td align="center"> <strong>90<br/> </td> 
    <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>1<br/> </td> 
+   <td align="center"> <strong>3<br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
