@@ -10,10 +10,10 @@ feature: 트리거
 role: 데이터 아키텍트
 level: 중간
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '522'
+ht-degree: 4%
 
 ---
 
@@ -41,9 +41,12 @@ Adobe Campaign을 사용하면 대상/세그먼트를 다른 Adobe Experience Cl
 * **선언된 ID**:이 유형의 ID를 사용하면 모든 유형의 데이터를 Adobe Campaign 데이터베이스의 요소와 대사할 수 있습니다. Adobe Campaign에 사전 정의된 조정 키로 표시됩니다. 데이터를 교환할 때 Adobe Campaign 데이터베이스 식별자가 해시 처리됩니다. 이렇게 해시된 ID는 가져오기 또는 내보내기에 관련된 Adobe Marketing Cloud 대상의 해시 ID와 비교됩니다.
    <br>이 통합은 선언된 일반 ID, 해시된 선언된 ID 및 암호화된 선언된 ID를 지원합니다.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >선언된 ID는 Adobe Audience Manager에서만 작동합니다. 선언된 ID는 ID가 없으면 작동하지 않습니다.
+   >선언된 ID 데이터 소스를 사람 핵심 서비스 통합에도 사용할 수 있습니다.
+   >
+   >People 코어 서비스 통합을 사용하고 Audience Manager 통합을 추가하려는 경우, Adobe Audience Manager 컨텍스트에서 이 선언된 ID 데이터 소스를 사용하여 전환할 때 수집된 모든 ID 동기화가 손실되지 않도록 Adobe Audience Manager 컨설턴트의 도움이 필요합니다.
+
 
    암호화를 사용하면 암호화 알고리즘을 지정하여 선언된 ID를 사용하여 데이터 소스(예: PII)에서 암호화된 데이터를 공유할 수 있습니다.
 
