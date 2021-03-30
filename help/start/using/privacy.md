@@ -12,11 +12,11 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: 개인 정보
 role: 비즈니스 전문가
 level: 중간
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1483'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 
    >[!NOTE]
    >
-   >모든 Adobe 제품에 대해 Campaign은 앱 및 웹 사이트 사용자에 대한 정보를 수집합니다. 자세한 내용은 [Adobe 개인 정보 보호 정책](https://www.adobe.com/privacy/policy.html)을 참조하십시오.
+   >모든 Adobe 제품에 대해 Campaign은 앱 및 웹 사이트 사용자에 대한 정보를 수집합니다. 자세한 내용은 [Adobe 개인 정보 보호 정책](https://www.adobe.com/kr/privacy/policy.html)을 참조하십시오.
 
 * **Adobe Experience Cloud을 정보를 수집하는 데 사용하는 방법**
 
@@ -71,9 +71,9 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 
    >[!NOTE]
    >
-   >모든 Adobe 제품에서 Campaign 사용자는 앱 및 웹 사이트를 통해 수집된 정보의 공유를 옵트아웃할 수 있습니다. 자세한 내용은 [Adobe Experience Cloud 사용 정보 FAQ](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html)를 참조하십시오.
+   >모든 Adobe 제품에서 Campaign 사용자는 앱 및 웹 사이트를 통해 수집된 정보의 공유를 옵트아웃할 수 있습니다. 자세한 내용은 [Adobe Experience Cloud 사용 정보 FAQ](https://www.adobe.com/kr/privacy/experience-cloud-usage-info-faq.html)를 참조하십시오.
 
-Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 페이지](https://www.adobe.com/privacy/marketing-cloud.html)를 참조하십시오.
+Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 페이지](https://www.adobe.com/kr/privacy/marketing-cloud.html)를 참조하십시오.
 
 ## 개인 데이터 및 가상 사용자 {#personal-data}
 
@@ -131,7 +131,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 >[!NOTE]
 >
->이 도구를 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)를 참조하십시오.
+>이 도구를 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)를 참조하십시오.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
