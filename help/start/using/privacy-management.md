@@ -9,11 +9,11 @@ topic-tags: discovering-the-interface
 feature: 개인 정보
 role: 비즈니스 전문가
 level: 중간
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '968'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Campaign의 기능은 다음과 같은 규정을 준수하는 데 도움�
 
 * **GDPR**([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en))은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 개인 정보 보호법입니다. 다음의 링크를 통해 GDPR에 대한 일반적인 정보를 확인하십시오.
 
-   * https://www.adobe.com/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/kr/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
 * **CCPA**([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=))는 캘리포니아 거주자들에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 비즈니스를 수행하는 특정 엔터티에 데이터 보호 책임을 부과합니다.
