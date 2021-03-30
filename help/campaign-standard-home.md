@@ -8,9 +8,9 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: 8d47cc5546a392283e90914e3b6c9d7e70aaa218
+source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 100%
   </td>
   <td valign="top">
        <img alt="지원" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/kr/campaign/kb/ac-support.html">
+    <div><a href="support.md">
     <strong>지원 받기</strong></a>
     </div>
     <p><em>FAQ, 모범 사례, 도움말 리소스 이용 및 전문가와 교류</em></p>
