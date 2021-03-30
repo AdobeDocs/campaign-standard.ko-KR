@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Campaign Standard 관리 시작
-description: 사용자 및 권한 관리, 모니터링 지침, 채널별 구성 및 응용 프로그램 설정 지침 등을 살펴볼 수 있습니다.
+description: 사용자 및 권한 관리, 모니터링 지침, 채널별 구성 및 애플리케이션 설정 지침 등을 살펴볼 수 있습니다.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
@@ -10,9 +10,9 @@ feature: 액세스 관리
 role: 관리자
 level: 경험
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '641'
 ht-degree: 14%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 14%
 >
 >구현 및 구성 문제에 대한 질문이나 요청이 있는 경우 Adobe 계정 담당자에게 문의하십시오.
 
-인스턴스가 AWS에서 호스팅되는 경우 관리 사용자는 캠페인 Campaign 컨트롤 패널을 사용하여 각 인스턴스에 대한 설정을 관리하고 사용을 추적할 수도 있습니다. 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)를 참조하십시오.
+관리 사용자는 캠페인 Campaign 컨트롤 패널을 활용하여 각 인스턴스에 대한 설정을 관리하고 사용을 추적할 수도 있습니다. 자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)를 참조하십시오.
 
 ## 관리 메뉴 {#administration-menu}
 
