@@ -10,10 +10,10 @@ feature: 프로필
 role: 비즈니스 전문가
 level: 중간
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
@@ -26,10 +26,9 @@ Adobe Campaign은 활성 프로필 수를 표시하는 보고서를 제공합니
 
 >[!NOTE]
 >
->AWS에서 호스팅되고 빌드 10368의 Campaign Standard을 사용하는 경우 Campaign 컨트롤 패널에서 직접 인스턴스에 사용된 활성 프로필의 수를 모니터링할 수도 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)를 참조하십시오.
+>빌드 10368의 Campaign Standard을 사용하는 경우 Campaign 컨트롤 패널에서 직접 인스턴스에 사용된 활성 프로파일 수를 모니터링할 수도 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html)를 참조하십시오.
 >
 >활성 프로필 지표는 사용 가능하며 **마케팅 인스턴스**&#x200B;에만 해당됩니다. MID(중간 소싱) 및 RT(메시지 센터/실시간 메시징) 인스턴스를 의미하며 실행 인스턴스에는 적용되지 않으며 사용할 수 없습니다.
-
 
 배달 준비 중에 제외되었던 프로파일(분류 규칙, 격리, 제어 그룹)은 고려되지 않습니다. 여러 게재에서 타깃팅된 프로필은 한 번만 카운트됩니다. 보고서 하단에는 각 타깃팅 차원에 대한 활성 프로필 목록이 표시됩니다.
 
