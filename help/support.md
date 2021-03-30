@@ -11,9 +11,9 @@ feature: 도움말 및 지원 옵션
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '593'
 ht-degree: 5%
 
 ---
@@ -91,9 +91,13 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 Campaign 컨트롤 패널은 각 인스턴스에 대한 설정을 관리하고 사용을 추적할 수 있도록 함으로써 Campaign Standard의 제품 관리자로서 작업의 효율성을 높이는 데 도움이 됩니다.
 [자세한 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel) 내용은 여기를 클릭하십시오.
 
+>[!NOTE]
+>
+>Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 액세스 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
+
 ### 제어판에 액세스하는 방법
 
-Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 관리 사용자에게만 액세스할 수 있습니다. [자세한 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) 내용은 여기를 클릭하십시오.
+Campaign 컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. [자세한 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) 내용은 여기를 클릭하십시오.
 
 ### 컨트롤 패널 FAQ
 
