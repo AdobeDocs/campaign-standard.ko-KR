@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * **[Campaign 21.1 2월 릴리스가 공개되었습니다!](rn/using/release-notes.md)**<br/> 새로운 기능과 최신 업데이트 및 수정 사항을 살펴보세요.
 
-* **[잘못된 하드 바운스 업데이트](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Gmail 작동 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다.
+* **[잘못된 하드 바운스 업데이트](https://helpx.adobe.com/kr/campaign/kb/update-bounce-qualification.html)**<br/> Gmail 작동 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다.
 
 * **[컨트롤 그룹](sending/using/control-group.md)**<br/> 대상자의 일부를 제외하여 캠페인의 영향을 측정합니다
 
