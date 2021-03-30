@@ -10,10 +10,10 @@ feature: 개요
 role: 비즈니스 전문가
 level: 초급
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '2482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 <li><b>전달됨</b> 표시기의 계산은 정확도 및 재활동 향상을 위해 Enhanced MTA의 실시간 피드백을 기반으로 합니다.</li>
 <li>EFS는 동기식 소프트 바운스 보고로 지연되는 문제를 해결합니다.</li>
 </ul>
-<p>자세한 내용은 <a href="../../sending/using/confirming-the-send.md#message-indicators">세부 설명서</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../../sending/using/confirming-the-send.md">세부 설명서</a>를 참조하십시오.
 </p>
 </td> 
 </tr> 
