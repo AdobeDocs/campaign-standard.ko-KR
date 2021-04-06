@@ -10,14 +10,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 feature: 인스턴스 설정
 role: 관리자
 level: 경험
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 77%
+source-wordcount: '2602'
+ht-degree: 76%
 
 ---
-
 
 # 전자 메일 채널 구성{#configuring-email-channel}
 
@@ -311,7 +311,7 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 ## 기존 설정 {#legacy-settings}
 
-최신 버전의 Campaign을 실행하고 있지 않은 **인 경우 아래 설명된 매개 변수 및 UI 섹션이 여전히 적용됩니다.**
+최신 버전의 Campaign을 실행 중인 **NOT**&#x200B;인 경우 아래 설명된 매개 변수 및 UI 섹션이 여전히 사용자에게 적용됩니다.
 
 ### 다시 시도 {#legacy-retries}
 
@@ -340,6 +340,10 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 * **[!UICONTROL To qualify]**:바운스 메일을 검증해야 합니다. 플랫폼 제공 기능이 제대로 작동하는지 확인하려면 택배능력 팀이 검증을 해야 합니다. 자격이 없는 경우 바운스 메일은 이메일 처리 규칙 목록을 채우는 데 사용되지 않습니다.
 * **[!UICONTROL Keep]**:바운스 메일이 자격을 얻었으며 기존 이메일 처리 규칙과 비교할 수  **있는** 배포 가능 워크플로우에 대한 업데이트에서 사용할 것입니다.
 * **[!UICONTROL Ignore]**:바운스 메일은 자격을 가졌지만 전달용  **업데이트 워크플로에서는 사용할 수** 없습니다. 따라서 클라이언트 인스턴스로 전송되지 않습니다.
+
+>[!NOTE]
+>
+>ISP가 중단되는 경우, Campaign을 통해 보낸 이메일은 바운스로 잘못 표시됩니다. 이 문제를 해결하려면 바운스 자격 조건을 업데이트해야 합니다. 자세한 내용은 [이 페이지](../../administration/using/update-bounce-qualification.md)를 참조하십시오.
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
