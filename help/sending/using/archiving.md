@@ -9,14 +9,14 @@ topic-tags: sending-and-tracking-messages
 feature: 성능 모니터링
 role: 비즈니스 전문가
 level: 중간
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 5%
+source-wordcount: '367'
+ht-degree: 6%
 
 ---
-
 
 # 이메일 숨은 참조를 통해 보관{#archiving-emails}
 
@@ -41,7 +41,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->현재 보관된 이메일은 Adobe Campaign Enhanced MTA로 보낼 수 없습니다.
+>현재 보관된 이메일은 단순 SMTP 릴레이를 사용하는 레거시 보관 모듈에서 여전히 전송됩니다.
 
 ## 전자 메일 보관 {#activating-email-archiving} 활성화
 
