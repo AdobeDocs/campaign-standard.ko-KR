@@ -7,10 +7,10 @@ user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 
 title: Campaign Standard 안내서
 breadcrumb-title: 도움말 센터
 translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 100%
+source-wordcount: '1750'
+ht-degree: 99%
 
 ---
 
@@ -439,6 +439,7 @@ ht-degree: 100%
    + 채널 구성 {#configuring-channels}
       + [채널 구성 기본 정보](administration/using/about-channel-configuration.md)
       + [이메일 채널 구성](administration/using/configuring-email-channel.md)
+      + [ISP 중단 후 바운스 자격 업데이트](administration/using/update-bounce-qualification.md)
       + [모바일 애플리케이션 구성](administration/using/configuring-a-mobile-application.md)
    + 모바일 채널 구성 {#configuring-mobile}
       + [푸시 추적 구현](administration/using/push-tracking.md)
