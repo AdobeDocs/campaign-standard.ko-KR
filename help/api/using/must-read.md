@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: 데이터 엔지니어
-level: 경험
+role: Data Engineer
+level: Experienced
+exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
-
 
 # {#must-read} 읽어야 함
 
@@ -25,6 +25,12 @@ ht-degree: 0%
 * Adobe Campaign API는 서버에 대해서만 사용해야 합니다.
 * 구현하려는 사용 사례가 Adobe Campaign API에서 허용하는 비율에 맞게 정렬되어 있는 경우 Adobe 기술 담당자에게 항상 문의하십시오.
 * Adobe IO 액세스를 설정하려면 특정 권한이 필요합니다. 문제가 발생하면 Adobe 지원에 문의하십시오.
+
+## 권한 및 액세스
+
+* 기본적으로 Adobe Campaign API는 관리자 컨텍스트를 사용하므로 조직 단위 및 역할이 적용되지 않습니다.
+* Adobe Campaign API는 역할 컨텍스트에서 제외됩니다.
+* 조직 단위 또는 역할로 API를 구성하려면 먼저 Adobe 기술 담당자에게 문의하십시오.
 
 ## 리소스 표현
 
