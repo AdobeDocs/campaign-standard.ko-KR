@@ -8,11 +8,11 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '234'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-* **[Campaign 21.1 2월 릴리스가 공개되었습니다!](rn/using/release-notes.md)**<br/> 새로운 기능과 최신 업데이트 및 수정 사항을 살펴보세요.
+* **[캠페인 - RTCDP ](integrating/using/get-started-sources-destinations.md)**<br/> 통합캠페인과 실시간 고객 데이터 플랫폼(RTCDP) 간에 데이터를 공유하는 방법 살펴보기
 
 * **[잘못된 하드 바운스 업데이트](https://helpx.adobe.com/kr/campaign/kb/update-bounce-qualification.html)**<br/> Gmail 작동 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다.
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## 상위 페이지
 
-<table style="table-layout:fixed">
+<table>
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">
