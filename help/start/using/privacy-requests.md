@@ -7,16 +7,16 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: 개인 정보
-role: 비즈니스 전문가
-level: 중간
+role: Business Practitioner
+level: Intermediate
+exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '1715'
+source-wordcount: '1712'
 ht-degree: 100%
 
 ---
-
 
 # 개인 정보 보호 요청 관리 {#privacy-requests}
 
