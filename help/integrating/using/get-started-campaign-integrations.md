@@ -7,16 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: 트리거
-role: 데이터 아키텍트
-level: 중간
+role: Data Architect
+level: Intermediate
+exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 90%
+source-wordcount: '669'
+ht-degree: 86%
 
 ---
-
 
 # Campaign 통합 기본 정보{#get-started-campaign-integrations}
 
@@ -74,6 +74,11 @@ ht-degree: 90%
    <td> 사용하는 다른 Adobe Experience Cloud 애플리케이션과 대상자를 교환할 수 있습니다.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">사용자 핵심 서비스(프로필 및 대상자)</a><br /> </td> 
   </tr> 
+    <tr> 
+   <td>Adobe 실시간 고객 데이터 플랫폼(RTCDP)<br /> </td> 
+   <td> Adobe Campaign과 Adobe의 실시간 고객 데이터 플랫폼(RTCDP)이 통합되어 세그먼트 데이터를 공유하고 Adobe Campaign으로 고객을 가져올 수 있습니다.</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">소스 및 대상 시작하기</a></td>
+  </tr> 
   <tr> 
    <td> 자산 핵심 서비스 및 Assets On Demand<br /> </td> 
    <td> Adobe Experience Cloud 라이브러리의 자산을 Adobe Campaign에서 만든 이메일 및 랜딩 페이지에 삽입할 수 있습니다.<br /> </td> 
@@ -105,4 +110,3 @@ ht-degree: 90%
   </tr> 
  </tbody> 
 </table>
-
