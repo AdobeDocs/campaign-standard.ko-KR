@@ -7,16 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: 프로필
-role: 비즈니스 전문가
-level: 초급
+role: Business Practitioner
+level: Beginner
+exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 20%
 
 ---
-
 
 # 프로필 및 대상자 시작{#about-profiles-and-audiences}
 
@@ -47,7 +47,7 @@ Adobe Campaign은 실시간으로 풍부한 고객 프로파일을 구축하므�
 
 **대상** 은 특정 기준이나 기준 세트를 기반으로 프로파일 목록입니다. 워크플로우 및 쿼리 편집기를 사용하여 보유한 정보, 활동 및 마케팅 내역에 따라 마케팅 캠페인이 타깃팅하는 대상을 구성할 수 있습니다. 이렇게 하면 가입된 프로필을 필터링하거나, 샘플링하거나, 무제한 기준에 따라 타겟 대상을 만들 수 있습니다.
 
-자세한 내용:
+자세히 알아보기:
 
 * [프로필 기본 정보](../../audiences/using/about-profiles.md)
 * [활성 프로필](../../audiences/using/active-profiles.md)
@@ -71,7 +71,7 @@ Adobe Campaign에서는 **서비스](../../audiences/using/creating-a-service.md
 >
 >[Adobe Campaign 허용 사용 정책](https://www.adobe.com/legal/terms/aup.html)을 준수해야 합니다.
 
-자세한 내용:
+자세히 알아보기:
 
 * [구독 기본 정보](../../audiences/using/about-subscriptions.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
@@ -88,7 +88,7 @@ Campaign의 개인 정보 및 동의 및 관리 방법은 [이 섹션](../../sta
 
 ## 추가 리소스
 
-* [대상 대상 서비스 작업](../../integrating/using/aep-about-audience-destinations-service.md)
+* [Adobe Experience Platform 대상을 Campaign으로 인제스트](../../integrating/using/ingest-aep-data.md)
 * [Microsoft Dynamics 365를 사용한 작업](../../integrating/using/d365-acs-get-started.md)
 * [Adobe 공유 대상](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [워크플로우를 사용하여 프로필 가져오기](../../automating/using/creating-import-workflow-templates.md)
