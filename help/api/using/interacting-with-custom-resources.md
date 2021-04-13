@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: 데이터 엔지니어
-level: 경험
+role: Data Engineer
+level: Experienced
+exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 3%
 
 ---
-
 
 # 사용자 정의 리소스와 상호 작용 {#interacting-with-custom-resources}
 
@@ -26,12 +26,13 @@ ht-degree: 3%
 
 이 API 내에 표시되는 사용자 지정 리소스는 다음과 같습니다.
 
-* 프로파일 엔티티에 연결된 모든 엔티티
-* 프로필 엔티티의 자식에 연결된 모든 엔티티
+* /profileAndServicesExt에 노출되지 않는 모든 개체
 * 프로필에 연결되어 있지 않은 모든 개체, 이러한 개체, 해당 자식 및 손자손녀
+* 기본적으로 아무 항목에도 연결되어 있지 않은 모든 개체, 그 자식 및 손자.
 
 >[!NOTE]
 >/profileAndServicesExt 아래에 있는 사용자 지정 리소스는 /customResources API에 노출되지 않습니다.
+
 
 다음은 사용자 지정 리소스에서 메타데이터를 검색하는 예입니다.
 
@@ -48,4 +49,3 @@ POST /customResources/<customResourceName>
 >[!NOTE]
 >개인 정보 API 끝점 및 워크플로(/privacy/privacyTool)가 프로필 엔터티에 연결되지 않은 사용자 지정 리소스를 관리하지 않습니다.
 >이러한 사용자 정의 리소스에 대한 PII를 관리하고 정리할 책임이 있습니다. 개인 정보 보호 도구에 대한 자세한 내용을 보려면 [여기](../../api/using/creating-a-privacy-request.md)를 클릭하십시오.
-
