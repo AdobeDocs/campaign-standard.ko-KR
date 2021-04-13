@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: 도움말 센터
-translation-type: ht
-source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
-workflow-type: ht
-source-wordcount: '1750'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
+workflow-type: tm+mt
+source-wordcount: '1779'
+ht-degree: 98%
 
 ---
 
@@ -268,13 +268,17 @@ ht-degree: 100%
          + [Microsoft Dynamics 365와 Campaign 간의 데이터 매핑](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365 통합 사용](integrating/using/d365-acs-using-the-integration.md)
    + Campaign 및 Adobe Experience Platform {#adobe-experience-platform}
-      + Audience Destinations 서비스 {#audience-destinations}
+      + Adobe Experience Platform 소스 및 대상 {#aep-sources-destinations}
+         + [소스 및 대상 시작하기](integrating/using/get-started-sources-destinations.md)
+         + [Adobe Experience Platform 대상을 Campaign으로 인제스트](integrating/using/ingest-aep-data.md)
+         + [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](integrating/using/export-campaign-data.md)
+      + 대상 대상 대상 서비스(베타) {#audience-destinations}
          + [Audience Destinations 서비스 정보](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform 대상자 관리](integrating/using/aep-managing-audiences.md)
          + [세그먼트 빌더 사용](integrating/using/aep-using-segment-builder.md)
          + [Adobe Experience Platform 대상자 타겟팅](integrating/using/aep-targeting-audiences.md)
          + [Adobe Experience Platform 특성을 사용하여 캠페인 개인화](integrating/using/aep-personalizing-campaigns.md)
-      + Adobe Experience Platform 데이터 커넥터 {#data-connector}
+      + Adobe Experience Platform 데이터 커넥터(Beta) {#data-connector}
          + [Adobe Experience Platform 데이터 커넥터 정보](integrating/using/aep-about-data-connector.md)
          + [Experience Platform 데이터 모델 개요](integrating/using/aep-data-model-overview.md)
          + [매핑 정의](integrating/using/aep-mapping-definition.md)
