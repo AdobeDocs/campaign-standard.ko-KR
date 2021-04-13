@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
 feature: 도움말 및 지원 옵션
-role: 비즈니스 전문가
-level: 초급
+role: Business Practitioner
+level: Beginner
+exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 translation-type: ht
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '593'
+source-wordcount: '590'
 ht-degree: 100%
 
 ---
-
 
 # Campaign Standard 에 대한 도움말 및 지원 옵션 {#help-support-options}
 
