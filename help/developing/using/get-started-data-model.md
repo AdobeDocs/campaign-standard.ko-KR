@@ -7,16 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: 데이터 모델
-role: 개발자
-level: 중간
+role: Developer
+level: Intermediate
+exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 30%
+ht-degree: 28%
 
 ---
-
 
 # Campaign Standard 데이터 모델 시작 {#get-started-data-model}
 
@@ -36,7 +36,7 @@ ht-degree: 30%
 
 **진단** 메뉴를 사용하여 Campaign Standard에서 생성된 기술 개체를 나열할 수 있습니다.데이터 스키마, 웹 페이지, 필터 등을 사용하여 데이터 모델 및 변경된 데이터 모델을 모니터링할 수 있습니다.
 
-자세한 내용:
+자세히 알아보기:
 
 * [데이터 모델 기본 개념](../../developing/using/data-model-concepts.md)
 * [데이터 모델 모범 사례](../../developing/using/data-model-best-practices.md)
@@ -51,7 +51,7 @@ Campaign Standard을 사용하면 **사전 정의된 데이터 모델**&#x200B;�
 
 또한 사용자 지정 리소스 프로필의 API 확장 필드에 표시하려면 **Campaign Standard REST API**&#x200B;를 확장할 수 있습니다. 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객의 프로필을 업데이트할 수 있습니다.
 
-자세한 내용:
+자세히 알아보기:
 
 * [리소스 추가 또는 확장](../../developing/using/key-steps-to-add-a-resource.md)
 * [API 확장](../../developing/using/about-extending-the-api.md)
@@ -66,5 +66,5 @@ Campaign Standard API를 사용하면 Adobe Campaign을 사용하는 기술 패�
 
 ## 추가 리소스
 
-* [Adobe Experience Platform 데이터 커넥터 정보](../../integrating/using/aep-about-data-connector.md)
 * [사용자 지정 리소스 내보내기/가져오기](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](../../integrating/using/export-campaign-data.md)
