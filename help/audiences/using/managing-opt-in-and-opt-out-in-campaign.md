@@ -6,9 +6,9 @@ description: Adobe Campaign에서 옵트인 및 옵트아웃을 관리하는 방
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: 대상
-role: 비즈니스 전문가
-level: 중간
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,7 +6,7 @@ description: 이 페이지에는 Adobe Campaign Standard의 향후 릴리스 목
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: 개요
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1

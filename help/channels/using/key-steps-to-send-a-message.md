@@ -6,9 +6,9 @@ description: Adobe Campaign으로 메시지를 만들고 전송하기 위해 따
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: 개요
-role: 비즈니스 전문가
-level: 초급
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

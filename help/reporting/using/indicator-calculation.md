@@ -6,9 +6,9 @@ description: 모든 지표의 공식 목록을 사용하여 보고서 결과를 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 보고
-role: 리더
-level: 중간
+feature: Reporting
+role: Leader
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

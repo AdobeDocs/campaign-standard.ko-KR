@@ -6,9 +6,9 @@ description: 이메일 디자이너에서 이메일을 개인화하는 방법을
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 이메일 디자인
-role: 비즈니스 전문가
-level: 중간
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

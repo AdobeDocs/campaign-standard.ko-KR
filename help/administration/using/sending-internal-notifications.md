@@ -6,9 +6,9 @@ description: Adobe Campaign 사용자에게 실시간 시스템 알림을 보내
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 인스턴스 설정
-role: 관리자
-level: 경험
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

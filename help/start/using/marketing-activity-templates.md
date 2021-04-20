@@ -6,9 +6,9 @@ description: '"Adobe Campaign 템플릿을 사용하면 필요에 따라 매개 
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: 캠페인
-role: 비즈니스 전문가
-level: 초급
+feature: Campaigns
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

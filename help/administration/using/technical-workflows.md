@@ -6,9 +6,9 @@ description: 기술 워크플로우는 Adobe Campaign의 백그라운드 기술 
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 인스턴스 설정
-role: 관리자
-level: 경험
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

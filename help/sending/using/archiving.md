@@ -6,9 +6,9 @@ description: 숨은 참조 이메일 주소를 사용하여 Adobe Campaign Stand
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: 성능 모니터링
-role: 비즈니스 전문가
-level: 중간
+feature: Performance Monitoring
+role: Business Practitioner
+level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
 source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39

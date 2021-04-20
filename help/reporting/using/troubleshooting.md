@@ -6,7 +6,7 @@ description: 동적 보고와 관련된 일반적인 질문을 찾습니다.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: 보고
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82

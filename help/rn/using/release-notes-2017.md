@@ -6,9 +6,9 @@ description: 이 페이지에는 Adobe Campaign Standard의 2017년 릴리스가
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 개요
-role: 비즈니스 전문가
-level: 초급
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt

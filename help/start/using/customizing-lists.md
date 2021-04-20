@@ -6,9 +6,9 @@ description: '"Adobe Campaign Standard에서 디스플레이 사용자 정의 �
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 캠페인
-role: 비즈니스 전문가
-level: 중간
+feature: Campaigns
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -5,7 +5,7 @@ title: 소스 및 대상 시작하기
 description: Adobe Experience Platform 소스 및 대상에 대해 자세히 알아보십시오.
 audience: integrating
 content-type: reference
-feature: 소스 및 대상
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

@@ -5,7 +5,7 @@ title: Campaign에서 Adobe Experience Platform으로 데이터 내보내기
 description: Campaign Standard에서 Adobe Experience Platform으로 데이터를 내보내는 방법을 알아봅니다.
 audience: integrating
 content-type: reference
-feature: 소스 및 대상
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

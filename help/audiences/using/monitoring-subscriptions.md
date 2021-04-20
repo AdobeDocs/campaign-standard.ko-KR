@@ -6,9 +6,9 @@ description: 대시보드 및 보고서를 사용하여 가입자를 추적하�
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: 대상
-role: 비즈니스 전문가
-level: 중간
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

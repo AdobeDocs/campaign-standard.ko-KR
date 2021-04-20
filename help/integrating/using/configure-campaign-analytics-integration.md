@@ -6,9 +6,9 @@ description: 이메일 배달의 성공 측정을 시작하도록 Adobe Analytic
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: 트리거
-role: 데이터 아키텍트
-level: 중간
+feature: Triggers
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

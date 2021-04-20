@@ -6,8 +6,8 @@ description: 메시지 준비, 테스트, 예약, 전송 및 모니터링
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: 비즈니스 전문가
-level: 중간
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

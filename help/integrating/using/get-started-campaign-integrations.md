@@ -6,7 +6,7 @@ description: 다른 Adobe 솔루션을 사용하여 다양한 기능을 Campaign
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: 트리거
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442

@@ -6,9 +6,9 @@ description: 수신자의 시간대에 맞추어 메시지 보내는 방법에 �
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: 교정본
-role: 비즈니스 전문가
-level: 중간
+feature: Proofs
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

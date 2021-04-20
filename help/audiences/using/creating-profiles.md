@@ -6,9 +6,9 @@ description: API, 가져오기 기능, 온라인 확보, 자동 또는 수동 �
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: 프로필
-role: 비즈니스 전문가
-level: 초급
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

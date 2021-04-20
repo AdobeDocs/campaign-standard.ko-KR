@@ -6,9 +6,9 @@ description: 콘텐츠 편집기 또는 이메일 디자이너에서 메시지�
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: 시드 주소
-role: 비즈니스 전문가
-level: 중간
+feature: Seed Address
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

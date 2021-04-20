@@ -6,7 +6,7 @@ description: Adobe Campaign Standard Workspace의 접근성 지원에 대해 알
 audience: designing
 content-type: reference
 topic-tags: accessibility
-feature: 캠페인
+feature: Campaigns
 role: Business Practitioner
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e

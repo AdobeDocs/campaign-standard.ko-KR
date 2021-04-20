@@ -6,9 +6,9 @@ description: 푸시 알림 배달 활동을 통해 워크플로우에서 단일 
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-feature: 워크플로우
-role: 데이터 아키텍트
-level: 중간
+feature: Workflows
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

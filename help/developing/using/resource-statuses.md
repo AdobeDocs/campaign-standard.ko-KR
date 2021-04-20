@@ -6,9 +6,9 @@ description: 게시 상태에 따라 다른 리소스 상태를 검색합니다.
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-feature: 데이터 모델
-role: 개발자
-level: 경험
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

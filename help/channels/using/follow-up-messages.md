@@ -6,9 +6,9 @@ description: 후속 메시지를 작성, 관리 및 전송하는 방법을 알�
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: 트랜잭션 메시지
-role: 비즈니스 전문가
-level: 중간
+feature: Transactional Messaging
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: 작업 과정을 통해 프로세스를 자동화하고 데이터 �
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: 워크플로우
-role: 데이터 아키텍트
-level: 초급
+feature: Workflows
+role: Data Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

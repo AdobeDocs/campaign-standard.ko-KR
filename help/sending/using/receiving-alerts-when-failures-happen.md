@@ -6,9 +6,9 @@ description: 경고 관리 시스템을 사용하는 방법을 알아봅니다.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: 교정본
-role: 비즈니스 전문가
-level: 초급
+feature: Proofs
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

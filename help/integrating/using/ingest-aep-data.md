@@ -5,7 +5,7 @@ title: Adobe Experience Platform 대상을 Campaign으로 인제스트
 description: Adobe Experience Platform 대상을 Campaign Standard으로 인제스트하는 방법을 알아봅니다.
 audience: integrating
 content-type: reference
-feature: 소스 및 대상
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

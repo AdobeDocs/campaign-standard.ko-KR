@@ -6,9 +6,9 @@ description: Campaign Standard 구성 지침에 대해 알아봅니다.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: 액세스 관리
-role: 관리자
-level: 경험
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

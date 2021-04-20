@@ -6,8 +6,8 @@ description: 데이터를 데이터베이스로 가져올 때 따라야 할 우�
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: 워크플로우
-role: 데이터 아키텍트
+feature: Workflows
+role: Data Architect
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

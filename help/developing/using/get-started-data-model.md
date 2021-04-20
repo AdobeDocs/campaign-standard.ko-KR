@@ -6,7 +6,7 @@ description: 사용자 정의 필드 및 리소스로 Campaign Standard 데이�
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: 데이터 모델
+feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d

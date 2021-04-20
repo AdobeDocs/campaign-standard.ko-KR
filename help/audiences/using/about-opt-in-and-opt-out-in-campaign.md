@@ -6,9 +6,9 @@ description: 옵트아웃 결과는 더 이상 특정 채널의 배달이나 배
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: 대상
-role: 비즈니스 전문가
-level: 초급
+feature: Audiences
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

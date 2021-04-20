@@ -6,9 +6,9 @@ description: '"홈페이지, 상단 표시줄, 고급 메뉴 및 작업 표시�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 개요
-role: 비즈니스 전문가
-level: 초급
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

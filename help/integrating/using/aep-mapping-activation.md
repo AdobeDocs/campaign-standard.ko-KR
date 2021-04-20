@@ -6,9 +6,9 @@ description: 데이터 매핑을 활성화하는 방법 알아보기
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM 통합
-role: 데이터 아키텍트
-level: 경험
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

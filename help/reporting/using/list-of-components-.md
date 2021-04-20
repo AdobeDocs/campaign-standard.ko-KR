@@ -6,9 +6,9 @@ description: 여기에서 사용 가능한 모든 구성 요소 목록을 확인
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 보고
-role: 리더
-level: 초급
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

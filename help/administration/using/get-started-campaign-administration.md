@@ -6,9 +6,9 @@ description: 사용자 및 권한 관리, 모니터링 지침, 채널별 구성 
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: 액세스 관리
-role: 관리자
-level: 경험
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt

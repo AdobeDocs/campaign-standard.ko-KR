@@ -6,9 +6,9 @@ description: 보내는 시간을 설정하고 메시지 열람률을 향상시�
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: 전송 시간 최적화
-role: 비즈니스 전문가
-level: 중간
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

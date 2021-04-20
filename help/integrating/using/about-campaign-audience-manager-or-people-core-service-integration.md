@@ -6,9 +6,9 @@ description: Audience Manager/사람 핵심 서비스 통합을 통해 다른 Ad
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: 트리거
-role: 데이터 아키텍트
-level: 중간
+feature: Triggers
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt

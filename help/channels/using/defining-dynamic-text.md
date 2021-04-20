@@ -7,8 +7,8 @@ audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
 feature: SMS
-role: 비즈니스 전문가
-level: 초급
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"전달 템플릿을 사용하면 대부분의 일반적인 유형의 활동에 맞게 미리 만들어진 시나리오를 제공하여 효율성을 높일 수 있습니다."'
-feature: 게재 가능성
-role: 비즈니스 전문가
-level: 중간
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: 이 튜토리얼에서는 사용자 지정 리소스 패키지를 �
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
-feature: 워크플로우
-role: 데이터 아키텍트
-level: 경험
+feature: Workflows
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

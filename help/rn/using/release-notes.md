@@ -6,7 +6,7 @@ description: 이 페이지에서는 최신 Campaign Standard 릴리스의 콘텐
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 개요
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113

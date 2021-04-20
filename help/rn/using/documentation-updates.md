@@ -6,7 +6,7 @@ description: Adobe Campaign Standard 설명서의 모든 최신 업데이트에 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 개요
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1

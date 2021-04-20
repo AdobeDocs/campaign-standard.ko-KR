@@ -6,9 +6,9 @@ description: 고객 지표에 대한 전용 보고서에 액세스하고 캠페�
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: 프로필
-role: 비즈니스 전문가
-level: 중간
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt

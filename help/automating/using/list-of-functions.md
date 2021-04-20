@@ -6,9 +6,9 @@ description: 쿼리 편집 도구를 사용하면 고급 함수를 사용하여 
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: 워크플로우
-role: 데이터 아키텍트
-level: 경험
+feature: Workflows
+role: Data Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

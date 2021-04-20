@@ -6,9 +6,9 @@ description: 예측 전송 시간 및 참여 점수 책정 사용 방법을 알�
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: 전송 시간 최적화
-role: 비즈니스 전문가
-level: 중간
+feature: Send Time Optimization
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,7 +6,7 @@ description: 개인 정보 관리를 위한 Adobe Campaign Standard 기능에 �
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 개인 정보
+feature: Privacy
 role: Business Practitioner
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a

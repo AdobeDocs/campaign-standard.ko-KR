@@ -6,9 +6,9 @@ description: 기존 편집기 이메일에서 만든 이메일을 이메일 디�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 이메일 디자인
-role: 비즈니스 전문가
-level: 중간
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -4,9 +4,9 @@ description: Campaign-Dynamics 통합 앱을 구성하는 방법 학습
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-feature: Microsoft CRM 통합
-role: 데이터 아키텍트
-level: 중간
+feature: Microsoft CRM Integration
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

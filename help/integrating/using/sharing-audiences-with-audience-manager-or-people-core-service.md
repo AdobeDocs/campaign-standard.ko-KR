@@ -6,9 +6,9 @@ description: 다양한 Adobe Experience Cloud 솔루션 내에서 고객을 가�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: 사람 핵심 서비스 통합
-role: 데이터 아키텍트
-level: 중간
+feature: People Core Service Integration
+role: Data Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 업스트림 전송 프로세스를 안전하게 최적화하는 방법을 살펴볼 수 있습니다.
-feature: 게재 가능성
-role: 비즈니스 전문가
-level: 중간
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

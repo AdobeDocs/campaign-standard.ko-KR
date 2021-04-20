@@ -6,9 +6,9 @@ description: 리소스를 처음부터 정의하는 방법을 살펴볼 수 있�
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
-feature: 데이터 모델
-role: 개발자
-level: 경험
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

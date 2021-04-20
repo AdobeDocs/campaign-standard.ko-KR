@@ -6,9 +6,9 @@ description: 자동으로 세그먼트화된 고객의 선호 언어를 기반�
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: 다국어 메시지
-role: 비즈니스 전문가
-level: 중간
+feature: Multilingual Messages
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
