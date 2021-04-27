@@ -6,17 +6,17 @@ description: 쿼리 편집 도구를 사용하면 고급 함수를 사용하여 
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: Workflows
+feature: 워크플로우
 role: Data Architect
 level: Experienced
+exl-id: d1575626-55bb-4303-a796-ad323a399330
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 98%
+source-wordcount: '1941'
+ht-degree: 97%
 
 ---
-
 
 # 함수 목록{#list-of-functions}
 
@@ -660,7 +660,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> AES 알고리즘(CBC 블록 모드)을 사용하여 키(2번째 매개 변수)와 초기화 벡터(3번째 매개 변수)가 있는 문자열(1번째 매개 변수) 암호화. 키 및 초기화 벡터는 (<strong>\x</strong>로 시작하는) 16진수로 제공되어야 합니다. 결과는 <strong>\x</strong>없이 16진수로 표시됩니다.<br /> 키 크기는 128비트, 192비트, 256비트(16, 24, 32개의 16진수 문자)가 될 수 있지만 키와 동일한 길이의 임의 IV 및 256비트를 사용하는 것이 좋습니다.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;)<br /> 예: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> 예:encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,4 +749,3 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
-
