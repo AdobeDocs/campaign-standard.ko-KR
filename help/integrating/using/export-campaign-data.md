@@ -5,27 +5,27 @@ title: Campaign에서 Adobe Experience Platform으로 데이터 내보내기
 description: Campaign Standard에서 Adobe Experience Platform으로 데이터를 내보내는 방법을 알아봅니다.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
+feature: 소스 및 대상
 role: Data Architect
 level: Intermediate
+exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 translation-type: tm+mt
-source-git-commit: bf442b12506ef71cc76aa7fffb0e4c8bb2ce70da
+source-git-commit: 4855585539653a0bb496d210b001765b5b557570
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 4%
 
 ---
 
+# Campaign에서 Adobe Experience Platform으로 데이터 내보내기 {#sources}
 
-# Campaign에서 Adobe Experience Platform {#sources}으로 데이터 내보내기
-
-Campaign Standard 데이터를 Adobe 실시간 고객 데이터 플랫폼(RTCDP)으로 내보내려면 우선 Campaign Standard에서 워크플로우를 구축하여 공유할 데이터를 S3 또는 Azure Blob 저장소 위치로 내보내야 합니다.
+Campaign Standard 데이터를 Adobe 실시간 고객 데이터 플랫폼(RTCDP)으로 내보내려면 우선 Campaign Standard에서 공유하려는 데이터를 Amazon Storage Service(S3) 또는 Azure Blob 저장소 위치로 내보내기 위한 워크플로우를 구축해야 합니다.
 
 워크플로우가 구성되고 데이터가 저장소 위치로 전송되면 Adobe 경험 플랫폼의 **소스**&#x200B;로 S3 또는 Azure blob 저장소 위치를 연결해야 합니다.
 
 >[!NOTE]
-
-캠페인 생성 데이터만 내보내는 것이 좋습니다(예: 전송, 열기, 클릭 수 등). Adobe Experience Platform으로 이동합니다. CRM과 같이 제3자 소스에서 인제스트된 데이터는 Adobe Experience Platform으로 직접 가져와야 합니다.
+>
+>캠페인 생성 데이터만 내보내는 것이 좋습니다(예: 전송, 열기, 클릭 수 등). Adobe Experience Platform으로 이동합니다. CRM과 같이 제3자 소스에서 인제스트된 데이터는 Adobe Experience Platform으로 직접 가져와야 합니다.
 
 ## Campaign Standard에서 내보내기 워크플로우 만들기
 
@@ -55,7 +55,7 @@ Campaign Standard에서 S3 또는 Azure Blob 저장소 위치로 데이터를 �
 
 ## 스토리지 위치를 소스로 연결
 
-Adobe 경험 플랫폼의 **소스**&#x200B;로 S3 또는 Azure blob 저장소 위치를 연결하는 기본 단계는 아래에 나열되어 있습니다. 이러한 각 단계에 대한 자세한 내용은 [소스 커넥터 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)에서 확인할 수 있습니다.
+Adobe 경험 플랫폼의 **소스**&#x200B;로 Amazon Storage Service(S3) 또는 Azure Blob 저장소 위치를 연결하는 기본 단계는 아래에 나열되어 있습니다. 이러한 각 단계에 대한 자세한 내용은 [소스 커넥터 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)에서 확인할 수 있습니다.
 
 1. Adobe Experience Platform **[!UICONTROL Sources]** 메뉴에서 스토리지 위치에 대한 연결을 만듭니다.
 
