@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: 도움말 센터
-translation-type: ht
-source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
-workflow-type: ht
-source-wordcount: '1779'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
+workflow-type: tm+mt
+source-wordcount: '1783'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 100%
       + [2017년 릴리스 정보](rn/using/release-notes-2017.md)
    + [릴리스 계획](rn/using/release-planning.md)
    + [더 이상 사용되지 않는 기능](rn/using/deprecated-features.md)
+   + [추적된 URL 서명 문제](rn/using/tracked-urls.md)
 + 시작 {#getting-started}
    + [Adobe Campaign Standard 기본 정보](start/using/about-campaign-standard.md)
    + 인터페이스 살펴보기 {#discovering-the-interface}
