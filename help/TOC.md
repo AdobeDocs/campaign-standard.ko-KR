@@ -6,11 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: 도움말 센터
-translation-type: ht
-source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -55,7 +54,7 @@ ht-degree: 100%
       + [프로필 만들기](audiences/using/creating-profiles.md)
       + [프로필 편집](audiences/using/editing-profiles.md)
       + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
-      + [활성 프로필](audiences/using/active-profiles.md)
+      + [지표 및 활성 프로필](audiences/using/active-profiles.md)
       + [테스트 프로필 관리](audiences/using/managing-test-profiles.md)
       + [Campaign 데이터베이스 강화](audiences/using/enriching-campaign-database.md)
    + 대상자 관리 {#managing-audiences}
@@ -97,7 +96,7 @@ ht-degree: 100%
       + [SMS 메시지 만들기](channels/using/creating-an-sms-message.md)
       + [SMS 메시지 개인화](channels/using/personalizing-sms-messages.md)
       + [수신 SMS 관리](channels/using/managing-incoming-sms.md)
-      + [SMS 및 푸시 콘텐츠 디자인 기본 정보](channels/using/about-sms-and-push-content-design.md)
+      + [SMS 및 푸시 콘텐츠 디자인 정보](channels/using/about-sms-and-push-content-design.md)
       + [SMS 및 푸시 콘텐츠 편집기 인터페이스](channels/using/sms-and-push-content-editor-interface.md)
       + [동적 텍스트 정의](channels/using/defining-dynamic-text.md)
    + 푸시 알림 {#push-notifications}
@@ -160,16 +159,16 @@ ht-degree: 100%
    + [테스트 및 보내기 시작](sending/using/get-started-sending-messages.md)
    + 메시지 준비 및 테스트 {#preparing-and-testing-messages}
       + [게재 미리 보기](sending/using/previewing-messages.md)
-      + [교정본 보내기](sending/using/sending-proofs.md)
+      + [증명 보내기](sending/using/sending-proofs.md)
       + [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
       + [AI 기반 이메일](sending/using/predictive.md)
-      + [이메일 렌더링](sending/using/email-rendering.md)
+      + [전자 메일 렌더링](sending/using/email-rendering.md)
       + [컨트롤 그룹 추가](sending/using/control-group.md)
       + [트랩 사용](sending/using/using-traps.md)
       + [보내기 준비](sending/using/preparing-the-send.md)
    + 메시지 예약 {#scheduling-messages}
       + [메시지 예약 기본 정보](sending/using/about-scheduling-messages.md)
-      + [보내는 시각 최적화](sending/using/optimizing-the-sending-time.md)
+      + [보내는 시간 최적화](sending/using/optimizing-the-sending-time.md)
       + [수신자의 시간대에 맞추어 메시지 보내기](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
       + [보내는 날짜 계산](sending/using/computing-the-sending-date.md)
    + 메시지 보내기 및 추적 {#sending-and-tracking-messages}
@@ -184,7 +183,7 @@ ht-degree: 100%
    + 게재 기능 관리 {#managing-deliverability}
       + [게재 기능 기본 정보](sending/using/about-deliverability.md)
       + [이메일 콘텐츠 제어](sending/using/control-email-content.md)
-      + [게재 기능 모니터링](sending/using/monitor-deliverability.md)
+      + [게재 가능성 모니터링](sending/using/monitor-deliverability.md)
       + [문제 해결](sending/using/troubleshooting.md)
    + 유형화 규칙 작업 {#working-with-typology-rules}
       + [유형화 및 유형화 규칙 기본 정보](sending/using/about-typology-rules.md)
@@ -225,7 +224,7 @@ ht-degree: 100%
       + [사용자 지정 프로필 차원 만들기](reporting/using/creating-a-custom-profile-dimension.md)
       + [워크플로우 세그먼트 기반 보고서 만들기](reporting/using/creating-a-report-workflow-segment.md)
 + 다른 솔루션과 통합 {#integrating-with-adobe-cloud}
-   + [Campaign 통합 시작](integrating/using/get-started-campaign-integrations.md)
+   + [Campaign Standard 시작](integrating/using/get-started-campaign-integrations.md)
    + Campaign 및 Experience Manager {#working-with-campaign-and-experience-manager}
       + [Campaign-Experience Manager 통합 기본 정보](integrating/using/integrating-with-experience-manager.md)
       + [Campaign-Experience Manager 통합 구성](integrating/using/configure-experience-manager.md)
@@ -293,7 +292,7 @@ ht-degree: 100%
       + [워크플로우 모범 사례](automating/using/best-practices-workflows.md)
    + 워크플로우 실행 {#executing-a-workflow}
       + [워크플로우 실행 기본 정보](automating/using/about-workflow-execution.md)
-      + [워크플로우 라이프 사이클](automating/using/workflow-life-cycle.md)
+      + [워크플로우 수명 주기](automating/using/workflow-life-cycle.md)
       + [실행 명령](automating/using/execution-commands.md)
       + [워크플로우 실행 모니터링](automating/using/monitoring-workflow-execution.md)
       + [실행 옵션 관리](automating/using/managing-execution-options.md)
