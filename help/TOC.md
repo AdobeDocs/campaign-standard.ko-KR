@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: 도움말 센터
-source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 99%
+source-wordcount: '1783'
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 99%
       + [프로필 만들기](audiences/using/creating-profiles.md)
       + [프로필 편집](audiences/using/editing-profiles.md)
       + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
-      + [지표 및 활성 프로필](audiences/using/active-profiles.md)
+      + [활성 프로필](audiences/using/active-profiles.md)
       + [테스트 프로필 관리](audiences/using/managing-test-profiles.md)
       + [Campaign 데이터베이스 강화](audiences/using/enriching-campaign-database.md)
    + 대상자 관리 {#managing-audiences}
