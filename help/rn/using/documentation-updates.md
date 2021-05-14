@@ -10,10 +10,9 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: d1bd8cce4dd45c2fca032c5f02309dfc8c56c25d
 workflow-type: tm+mt
-source-wordcount: '6777'
+source-wordcount: '6790'
 ht-degree: 99%
 
 ---
@@ -22,13 +21,20 @@ ht-degree: 99%
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
 
+## 2021년 5월 {#doc-updates-may-2021}
+
+**활성 프로필** 보고서 섹션이 업데이트되었습니다. [자세히 알아보기](../../audiences/using/active-profiles.md)
+
+**출시 계획** 페이지가 새 날짜로 업데이트되었습니다. [자세히 알아보기](../../rn/using/release-planning.md)
+
+
 ## 2021년 4월 {#doc-updates-april-2021}
 
 새로운 섹션에서는 Adobe Experience Platform 소스 및 대상을 사용하여 Campaign Standard 및 Adobe RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공유하는 방법에 대해 설명합니다. [자세히 알아보기](../../integrating/using/get-started-sources-destinations.md)
 
 ## 2021년 3월 {#doc-updates-march-2021}
 
-Campaign Standard에 대한 &quot;도움말 및 지원 옵션&quot; 페이지가 주 설명서에 통합되었습니다. [자세히 알아보기](../../support.md)
+새 **도움말 및 지원 옵션** 페이지. [자세히 알아보기](../../support.md)
 
 메시지를 보내는 주요 단계를 나열하는 섹션이 추가 정보 및 참조로 향상되었습니다. [자세한 정보](../../channels/using/key-steps-to-send-a-message.md)
 
