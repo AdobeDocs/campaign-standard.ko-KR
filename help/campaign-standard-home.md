@@ -8,11 +8,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: ht
-source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 * **[Campaign - RTCDP 통합](integrating/using/get-started-sources-destinations.md)**<br/> Campaign 및 RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공유하는 방법을 살펴봅니다.
 
-* **[잘못된 하드 바운스 업데이트](https://helpx.adobe.com/kr/campaign/kb/update-bounce-qualification.html)**<br/> Gmail 작동 중단 후 잘못된 하드 바운스를 업데이트하는 방법을 알아봅니다.
+* **[잘못된 하드 ](https://helpx.adobe.com/kr/campaign/kb/update-bounce-qualification.html)**<br/> 바운스 업데이트이메일 중단 후 잘못된 하드 바운스를 업데이트하는 방법 학습
 
 * **[컨트롤 그룹](sending/using/control-group.md)**<br/> 대상자의 일부를 제외하여 캠페인의 영향을 측정합니다
 
