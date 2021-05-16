@@ -3,24 +3,20 @@ solution: Campaign Standard
 product: campaign
 title: 구독 기본 정보
 description: Campaign Standard의 서비스 및 구독에 대해 자세히 알아봅니다.
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
-feature: Audiences
+feature: 대상
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 177f0115-d269-44e8-94e0-123360ea6299
+source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 52%
+source-wordcount: '221'
+ht-degree: 40%
 
 ---
 
-
 # 구독 기본 정보{#about-subscriptions}
 
-Adobe Campaign에서는 일련의 **서비스**&#x200B;를 통해 뉴스레터 및 크로스채널 통신을 만들고 관리할 수 있습니다. 해당 서비스를 구독(옵트인)한 프로필에만 메시지를 보낼 수 있습니다. 메시지를 만들 때 전용 필터를 사용하여 해당 프로필을 확인합니다.
+Adobe Campaign을 사용하여 **서비스** 세트를 통해 뉴스레터와 채널 간 커뮤니케이션을 만들고 관리할 수 있습니다.메시지는 서비스를 구독한 프로필에만 전송됩니다(옵트인). 메시지를 만들 때 전용 필터를 사용하여 해당 프로필을 확인합니다.
 
 구독 메커니즘을 설정하여 고객에게 이와 같은 서비스(특히 **이메일** 및 **랜딩 페이지**)를 구독할 수 있는 기회를 제공할 수 있습니다.
 
