@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: 랜딩 페이지
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
-
 
 # 랜딩 페이지 구성 {#configuring-landing-page}
 
@@ -70,12 +69,11 @@ ht-degree: 99%
 
    페이지의 방문자가 데이터베이스의 프로필에 해당하는 경우 데이터가 데이터베이스 데이터와 매핑된 양식 필드에 표시되며, 랜딩 페이지의 개인화 요소가 고려됩니다.
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-다음을 수행할 수도 있습니다.
+또한 **[!UICONTROL Authorize unidentified visitors]** 옵션을 사용하여 모든 방문자가 랜딩 페이지에 액세스하도록 허용할 수도 있습니다.
 
-* **[!UICONTROL Authorize visitor identification via URL parameters]** 옵션을 사용하여 URL 매개 변수로 방문자를 식별합니다. 그 다음에는 로딩 키를 선택하고 필터 매개 변수를 해당 URL의 매개 변수에 매핑해야 합니다.
-* **[!UICONTROL Authorize unidentified visitors]** 옵션을 사용하여 모든 방문자에게 랜딩 페이지 액세스를 승인합니다.
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 랜딩 페이지를 조직 단위에 연결할 수도 있습니다. 이를 통해 여러 랜딩 페이지에 대한 사용자의 액세스를 정의할 수 있습니다. 조직 단위를 할당하려면 다음을 수행합니다.
 
@@ -111,7 +109,7 @@ Google reCAPTCHA V3 외부 계정을 설정하고 나면 랜딩 페이지에 추
 1. **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** 옵션을 선택합니다.
 1. 앞에서 만든 Google reCAPTCHA 외부 계정을 선택합니다.
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
