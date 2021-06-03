@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: 도움말 센터
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 + [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/release-notes.md)
-   + [초기 릴리스 정보](rn/using/early-release-notes.md)
+   + [초기 릴리스 정보](rn/using/e-release-notes.md)
    + 이전 릴리스 {#previous-releases}
       + [2020년 릴리스 정보](rn/using/release-notes-2020.md)
       + [2019년 릴리스 정보](rn/using/release-notes-2019.md)
@@ -41,16 +41,16 @@ ht-degree: 100%
       + [마케팅 활동](start/using/marketing-activities.md)
       + [마케팅 활동 템플릿](start/using/marketing-activity-templates.md)
       + [타임라인](start/using/timeline.md)
-   + 개인 정보 {#privacy}
-      + [개인 정보 및 동의](start/using/privacy.md)
-      + [개인 정보 관리](start/using/privacy-management.md)
+   + 개인 정보 보호 {#privacy}
+      + [개인 정보 보호 및 동의](start/using/privacy.md)
+      + [개인 정보 보호 관리](start/using/privacy-management.md)
       + [개인 정보 보호 요청](start/using/privacy-requests.md)
       + [개인 정보 FAQ](start/using/privacy-faq.md)
    + [도움말 및 지원 옵션](support.md)
 + 프로필 및 대상자 {#profiles-and-audiences}
    + [프로필 및 대상자 시작](audiences/using/get-started-profiles-and-audiences.md)
    + 프로필 관리 {#managing-profiles}
-      + [프로필 기본 정보](audiences/using/about-profiles.md)
+      + [프로필 정보](audiences/using/about-profiles.md)
       + [프로필 만들기](audiences/using/creating-profiles.md)
       + [프로필 편집](audiences/using/editing-profiles.md)
       + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
@@ -82,8 +82,8 @@ ht-degree: 100%
       + [모범 사례 학습](sending/using/delivery-best-practices.md)
       + [게재 최적화](sending/using/optimize-delivery.md)
       + [템플릿 사용](sending/using/use-templates.md)
-      + [개인화된 콘텐츠 빌드](sending/using/design-and-personalize.md)
-      + [적합한 대상 정의](sending/using/define-the-right-audience.md)
+      + [개인화된 콘텐츠 작성](sending/using/design-and-personalize.md)
+      + [적합한 대상자 정의](sending/using/define-the-right-audience.md)
       + [보내기 전 확인](sending/using/check-before-sending.md)
       + [추적 및 모니터링](sending/using/track-and-monitor.md)
    + 이메일 메시지 {#email-messages}
@@ -183,7 +183,7 @@ ht-degree: 100%
    + 게재 기능 관리 {#managing-deliverability}
       + [게재 기능 기본 정보](sending/using/about-deliverability.md)
       + [이메일 콘텐츠 제어](sending/using/control-email-content.md)
-      + [게재 가능성 모니터링](sending/using/monitor-deliverability.md)
+      + [전달성 모니터링](sending/using/monitor-deliverability.md)
       + [문제 해결](sending/using/troubleshooting.md)
    + 유형화 규칙 작업 {#working-with-typology-rules}
       + [유형화 및 유형화 규칙 기본 정보](sending/using/about-typology-rules.md)
@@ -269,7 +269,7 @@ ht-degree: 100%
       + [Microsoft Dynamics 365 통합 사용](integrating/using/d365-acs-using-the-integration.md)
    + Campaign 및 Adobe Experience Platform {#adobe-experience-platform}
       + Adobe Experience Platform 소스 및 대상 {#aep-sources-destinations}
-         + [소스 및 대상 시작하기](integrating/using/get-started-sources-destinations.md)
+         + [소스 및 대상 시작](integrating/using/get-started-sources-destinations.md)
          + [Adobe Experience Platform 대상자를 Campaign으로 수집](integrating/using/ingest-aep-data.md)
          + [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](integrating/using/export-campaign-data.md)
       + Audience Destinations 서비스 (베타) {#audience-destinations}
@@ -304,7 +304,7 @@ ht-degree: 100%
       + [워크플로우 호출 시 매개 변수 정의](automating/using/defining-parameters-calling-workflow.md)
       + [이벤트 변수 모니터링](automating/using/monitoring-events-variables.md)
       + [외부 매개 변수를 사용하여 워크플로우 사용자 지정](automating/using/customizing-workflow-external-parameters.md)
-      + [사용 사례](automating/using/use-case-calling-workflow.md)
+      + [활용 사례](automating/using/use-case-calling-workflow.md)
    + 타겟팅 활동 {#targeting-activities}
       + [타겟팅 활동 기본 정보](automating/using/about-targeting-activities.md)
       + [쿼리](automating/using/query.md)
