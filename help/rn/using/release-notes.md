@@ -10,16 +10,21 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: e996a5c6722c211c931427ff59f8d219d493aca7
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+source-git-commit: 3206835d231378f40ed468286384a56cb38f0059
+workflow-type: tm+mt
+source-wordcount: '2500'
+ht-degree: 99%
 
 ---
 
 # 최신 릴리스{#latest-release}
 
 [릴리스 계획](../../rn/using/release-planning.md) | [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2020.md) | [더 이상 사용되지 않는 기능](../../rn/using/deprecated-features.md)
+
+
+## 릴리스 21.2 - 2021년 6월 {#release-21-2}
+
+다음 Campaign Standard 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항은 [초기 릴리스 노트](e-release-notes.md)에 나열되어 있습니다.
 
 ## 릴리스 21.1 - 2021년 2월 {#release-21-1---february-2021}
 
