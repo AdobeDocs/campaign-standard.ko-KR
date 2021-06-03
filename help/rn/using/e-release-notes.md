@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 3%
 * 이제 표준 사용자가 이메일 디자이너와의 자산 핵심 서비스 통합을 사용할 수 있습니다.
 
 * v4 푸시 애플리케이션에서 v5 푸시 애플리케이션으로의 성공적인 마이그레이션을 확인하기 위해 새로운 메시지가 추가되었습니다.
+
+* JSONWeb 토큰을 만들어 Campaign Standard API를 인증하는 동안 제품 프로필이 이제 **고려됩니다**. 즉, 보안 그룹에 할당된 조직 단위 및 역할(AdobeIO의 제품 프로필과 일치함)은 Campaign Standard Rest API 호출에 필요한 IMS 기술 계정에 적용됩니다. (CAMP-47479)
+
 
 **패치**
 
@@ -111,5 +114,3 @@ ht-degree: 3%
 * 자산을 선택하려고 할 때 자산 핵심 서비스 통합이 계속 실패하는 이메일 디자이너의 문제를 해결했습니다. (CAMP-47446)
 
 * Campaign으로 인해 일부 Journey Orchestration 게재이 Journey Orchestration에서 이벤트에 의해 전송된 정확한 값(즉, 00으로 끝나는)으로 타임스탬프를 지원하지 않는 문제를 해결했습니다.
-
-* updateDeliveryIndicators 기술 워크플로우가 최적화되었습니다. 이제 동일한 브로드로그/추적 로그 스키마가 있는 배달 ID가 함께 그룹화됩니다. 이로 인해 쿼리 수가 제한되므로 성능이 향상됩니다.
