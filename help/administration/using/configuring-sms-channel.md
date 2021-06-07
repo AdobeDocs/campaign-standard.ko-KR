@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Instance Settings
+feature: 인스턴스 설정
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 99%
+source-wordcount: '1567'
+ht-degree: 95%
 
 ---
-
 
 # SMS 채널 구성{#configuring-sms-channel}
 
@@ -331,17 +330,13 @@ SMS 메시지 보내기를 위한 특정 매개 변수는 **[!UICONTROL Send]** 
 
 ![](assets/sms_options.png)
 
-**[!UICONTROL Advanced parameters]** 섹션에서:
+**[!UICONTROL Advanced parameters]** 섹션에서 다음을 수행합니다.
 
-* **[!UICONTROL From]** 옵션을 사용하면 문자열을 사용하여 SMS 메시지의 발신자명을 개인화할 수 있습니다. 발신자명이란 수신자의 휴대전화에서 SMS 메시지를 보낸 사람으로 표시되는 이름입니다.
+* **[!UICONTROL Short code]** 을(를) 사용하면 특정 짧은 코드를 게재에 추가할 수 있습니다. 이 특정 짧은 코드를 옵트아웃한 수신자는 메시지를 준비하는 동안 자동으로 제외됩니다. 짧은 코드를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/managing-incoming-sms.md)을 참조하십시오.
 
-   이 필드가 비어 있는 경우 외부 계정에서 제공하는 소스 번호가 표시됩니다. 소스 번호가 제공되지 않는 경우 짧은 코드가 사용됩니다. SMS 게재와 관련된 외부 계정은 [SMS 라우팅 정의 ](#defining-an-sms-routing) 섹션에 나와 있습니다.
-
-   ![](assets/sms_smpp_2.png)
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >해당 국가의 발신자 주소 수정에 대한 법률을 확인하십시오. 또한 SMS 서비스 공급자에게 문의하여 이 기능을 제공하는지 확인하십시오.
+   >**[!UICONTROL Short code]** 필드가 비어 있으면 외부 계정에 설정된 **[!UICONTROL Short code]** 필드의 값이 사용됩니다.
 
 SMS 템플릿의 **[!UICONTROL Send]** 섹션에서 다음을 수행합니다.
 
