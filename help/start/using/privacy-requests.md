@@ -6,14 +6,13 @@ description: Adobe Campaign Standard의 개인 정보 보호 요청을 관리하
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
+feature: 개인 정보
 role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1712'
+source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
+workflow-type: tm+mt
+source-wordcount: '1624'
 ht-degree: 100%
 
 ---
@@ -36,7 +35,7 @@ Adobe Campaign을 사용하면 개인 정보 보호 준비를 용이하게 하�
 
 이러한 요청을 수행하려면 **개인 정보 보호 핵심 서비스** 통합을 사용해야 합니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다.
 
-### 사전 요구 사항 {#prerequesites}
+### 필수 구성 요소 {#prerequesites}
 
 Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들고 처리할 수 있는 데이터 컨트롤러 도구를 제공합니다. 하지만 데이터 주체(이메일, 고객 지원 센터 또는 웹 포털)와의 관계를 처리하는 것은 데이터 컨트롤러의 책임입니다.
 
@@ -156,21 +155,21 @@ Adobe Campaign은 개인 정보 보호 요청의 삭제 또는 액세스를 수�
 * **[!UICONTROL Complete]**: 요청 처리가 오류 없이 끝났습니다.
 * **[!UICONTROL Error]**: 워크플로우에서 오류가 발생했습니다. 이유는 **[!UICONTROL Request status]** 열의 개인 정보 보호 요청 목록에 표시됩니다. 예를 들어 **[!UICONTROL Error data not found]**&#x200B;은(는) 데이터 주체의 **[!UICONTROL Reconciliation value]**&#x200B;와(과) 일치하는 수신자 데이터가 데이터베이스에 없음을 의미합니다.
 
-### 2단계 프로세스 비활성화 {#disabling-two-step-process}
+<!--### Disabling the 2-step process {#disabling-two-step-process}
 
-핵심 개인 정보 보호 서비스는 2단계 프로세스를 지원하지 않습니다.
+The Core Privacy Service does not support the 2-step process.
 
 >[!IMPORTANT]
 >
->핵심 개인 정보 보호 서비스 통합을 사용하여 개인 정보 요청을 관리하려면 먼저 Campaign Standard 인터페이스에서 삭제 요청 프로세스를 비활성화해야 합니다.
+>Before using the Core Privacy Service integration to manage your Privacy requests, you must disable the 2-step process for Delete requests from the Campaign Standard interface.
 
-이 옵션이 비활성화되지 않으면 개인 정보 핵심 서비스로 관리되는 모든 삭제 요청은 보류 중인 상태로 유지되며 완료되지 않습니다.
+If this option is not disabled, all Delete requests managed with the Privacy Core Service will remain in pending state and will not complete.
 
-기본적으로 2단계 프로세스가 활성화됩니다.
+By default, the 2-step process is activated.
 
-이 모드를 변경하려면 **[!UICONTROL Privacy Requests]** 화면의 오른쪽 상단 모서리에서 **[!UICONTROL Edit properties]**&#x200B;을(를) 클릭하고 **[!UICONTROL Activate the 2-step process]** 옵션을 선택 취소합니다.
+To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)
+![](assets/privacy-disable-2-step-process.png)-->
 
 ## 개인 정보 판매 옵트아웃 (CCPA) {#sale-of-personal-information-ccpa}
 
