@@ -10,11 +10,10 @@ feature: 워크플로우
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-translation-type: tm+mt
-source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
+source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 97%
+source-wordcount: '1971'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +37,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->외부 매개 변수를 사용한 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있도록 해주는 모든 활동에서 추가 함수를 사용할 수 있습니다. 이 내용은 [이 섹션](../../automating/using/customizing-workflow-external-parameters.md)에 자세히 설명되어 있습니다.
+>외부 매개 변수를 사용한 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있도록 하는 모든 활동에서 추가 함수를 사용할 수 있습니다. 이 내용은 [이 섹션](../../automating/using/customizing-workflow-external-parameters.md)에 자세히 설명되어 있습니다.
 
 ## 날짜 {#dates}
 
@@ -660,7 +659,7 @@ ht-degree: 97%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> AES 알고리즘(CBC 블록 모드)을 사용하여 키(2번째 매개 변수)와 초기화 벡터(3번째 매개 변수)가 있는 문자열(1번째 매개 변수) 암호화. 키 및 초기화 벡터는 (<strong>\x</strong>로 시작하는) 16진수로 제공되어야 합니다. 결과는 <strong>\x</strong>없이 16진수로 표시됩니다.<br /> 키 크기는 128비트, 192비트, 256비트(16, 24, 32개의 16진수 문자)가 될 수 있지만 키와 동일한 길이의 임의 IV 및 256비트를 사용하는 것이 좋습니다.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> 예:encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;)<br /> 예:encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -707,8 +706,16 @@ ht-degree: 97%
    <td> <strong>Min</strong>, 최소<br /> </td> 
    <td> 숫자, 문자열 또는 날짜 열의 최소값 반환<br /> </td> 
    <td> Min(&lt;값&gt;)<br /> </td> 
-  </tr> 
+  </tr>
   <tr> 
+   <td> <strong>StringAgg</strong>, 문자열 합계<br /> </td> 
+   <td> 두 번째 인수에서 문자로 구분되는 문자열 유형 열의 값 연결을 반환합니다(기본 구분 기호는 쉼표).<br /> </td> 
+   <td> StringAgg(&lt;문자열 값&gt;,&lt;구분 기호&gt;)
+  </tr>
+
+
+
+<tr> 
    <td> <strong>Sum</strong>, 합계<br /> </td> 
    <td> 숫자 열에 있는 값의 합계 반환<br /> </td> 
    <td> Sum(&lt;값&gt;)<br /> </td> 
