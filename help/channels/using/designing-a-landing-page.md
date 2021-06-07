@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: 랜딩 페이지
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
+source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1668'
+ht-degree: 96%
 
 ---
-
 
 # 랜딩 페이지 디자인{#designing-a-landing-page}
 
@@ -31,7 +30,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Adobe Campaign Standard 19.0 릴리스 전에 인스턴스가 설치된 경우 기존 전자 메일 콘텐츠 편집기에 액세스할 수 있습니다. 인터페이스, 사용 원칙 및 구성은 랜딩 페이지에 대해 아래에 설명된 것과 거의 동일합니다. 하지만 19.0 릴리스부터 더 이상 사용되지 않는 기존 전자 메일 콘텐츠 편집기에서 모든 기능을 사용하거나 유지 관리할 수 없습니다. 확장된 기능을 갖춘 드래그 앤 드롭 인터페이스에서 전자 메일 콘텐츠를 신속하게 편집하려면 [전자 메일 디자이너를 사용하십시오](../../designing/using/designing-content-in-adobe-campaign.md).
+>이메일 디자인을 위해 Adobe Campaign Standard 19.0 릴리스 전에 인스턴스가 설치된 경우 기존 이메일 콘텐츠 편집기에 액세스할 수 있습니다. 인터페이스, 사용 원칙 및 구성은 랜딩 페이지에 대해 아래에 설명된 것과 거의 동일합니다. 하지만 19.0 릴리스부터 더 이상 사용되지 않는 기존 전자 메일 콘텐츠 편집기에서 모든 기능을 사용하거나 유지 관리할 수 없습니다. 확장된 기능을 갖춘 드래그 앤 드롭 인터페이스에서 전자 메일 콘텐츠를 신속하게 편집하려면 [전자 메일 디자이너를 사용하십시오](../../designing/using/designing-content-in-adobe-campaign.md).
 
 이 페이지에서는 랜딩 페이지 콘텐츠 편집기의 특성에 대해 설명합니다. 하나 이상의 마케팅 활동에 공통되는 작업에 대한 자세한 내용은 **전자 메일 콘텐츠 디자인** 안내서에서 다음 섹션을 참조하십시오.
 
