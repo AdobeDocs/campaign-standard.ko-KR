@@ -10,14 +10,13 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,s
 feature: SMS
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '432'
+ht-degree: 100%
 
 ---
-
 
 # SMS 메시지 개인화{#personalizing-sms-messages}
 
@@ -39,4 +38,15 @@ SMS 메시지를 개인화하는 원칙은 [이메일](../../designing/using/per
 
 ## SMS 발신자 {#sms-sender}
 
-SMS 발신자의 이름을 개인화할 수 있습니다. 자세한 내용은 [SMS 구성](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) 섹션을 참조하십시오.
+>[!IMPORTANT]
+>
+>해당 국가의 발신자 주소 수정에 대한 법률을 확인하십시오. 또한 SMS 서비스 공급자에게 문의하여 이 기능을 제공하는지 확인하십시오.
+
+**[!UICONTROL From]** 옵션을 사용하면 문자열을 사용하여 SMS 메시지의 발신자명을 개인화할 수 있습니다. 발신자명이란 수신자의 휴대전화에서 SMS 메시지를 보낸 사람으로 표시되는 이름입니다.
+
+이 필드가 비어 있는 경우 외부 계정에서 제공하는 소스 번호가 표시됩니다. 소스 번호가 제공되지 않는 경우 짧은 코드가 사용됩니다. SMS 게재와 관련된 외부 계정은 [SMS 라우팅 정의 ](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) 섹션에 나와 있습니다.
+
+![](assets/sms_creation_8.png)
+
+
+
