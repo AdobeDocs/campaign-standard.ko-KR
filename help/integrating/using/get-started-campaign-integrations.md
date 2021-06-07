@@ -6,15 +6,14 @@ description: 다른 Adobe 솔루션을 사용하여 다양한 기능을 Campaign
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: Triggers
+feature: 트리거
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-translation-type: tm+mt
-source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
+source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 86%
+source-wordcount: '720'
+ht-degree: 79%
 
 ---
 
@@ -49,21 +48,21 @@ ht-degree: 86%
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
+   <td> Adobe Experience Manager<br /> </td> 
    <td> Adobe Experience Manager에서 직접 Adobe Campaign 데이터베이스에 매핑된 이메일 콘텐츠 또는 양식을 만들 수 있습니다.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">캠페인 및 Experience Manager을 사용한</a> 작업, Experience Manager 및 Campaign Standard  <a href="https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/campaignstandard.html">통합</a>, Experience Manager 및  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">캠페인이 포함된 이메일 만들기</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign을 Experience Manager 및 사용한 작업</a>,  <a href="https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager 및 Campaign Standard 통합</a>, Experience Manager 및 캠페인으로 이메일  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">만들기</a> 
     </td> 
   </tr> 
   <tr> 
-   <td> Target<br /> Classic, Standard<br /> </td> 
+   <td> Adobe Target<br /> </td> 
    <td> Adobe Campaign에서 만들고 보낸 이메일이 열려 있을 때 Adobe Target에서 동적으로 계산된 이미지를 삽입할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">캠페인 및 Target을 사용한</a> 작업,  <a href="https://docs.adobe.com/content/help/ko-KR/target/using/integrate/campaign-and-target.html">캠페인 및 Target</a> 통합,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간 비디오에서 이메일 이미지 </a> 개인화(3단계)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign 및 Target</a>,  <a href="https://docs.adobe.com/content/help/ko-KR/target/using/integrate/campaign-and-target.html">캠페인 및 Target 통합</a>,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간 비디오에서 이메일 이미지 </a> 개인화(3단계)
     </td> 
   </tr> 
   <tr> 
-   <td> Analytics<br /> Standard, Premium <br /> </td> 
+   <td> Adobe Analytics<br /> </td> 
    <td> Adobe Analytics에서 직접 이메일 게재 성공 여부를 추적할 수 있습니다.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-analytics-integration.md">Analytics와 Campaign 데이터 공유</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">통합 Campaign 보고를 위한 KPI 공유 비디오</a> (1단계)
@@ -74,13 +73,13 @@ ht-degree: 86%
    <td> 사용하는 다른 Adobe Experience Cloud 애플리케이션과 대상자를 교환할 수 있습니다.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">사용자 핵심 서비스(프로필 및 대상자)</a><br /> </td> 
   </tr> 
-    <tr> 
-   <td>Adobe 실시간 고객 데이터 플랫폼(RTCDP)<br /> </td> 
-   <td> Adobe Campaign과 Adobe의 실시간 고객 데이터 플랫폼(RTCDP)이 통합되어 세그먼트 데이터를 공유하고 Adobe Campaign으로 고객을 가져올 수 있습니다.</td>
-   <td><a href="../../integrating/using/get-started-sources-destinations.md">소스 및 대상 시작하기</a></td>
+   <tr> 
+   <td> Adobe RTCDP(실시간 고객 데이터 플랫폼)<br /> </td> 
+   <td> Adobe Campaign과 Adobe RTCDP(실시간 고객 데이터 플랫폼)의 통합을 통해 세그먼트 데이터를 공유하고 대상을 Adobe Campaign에 가져올 수 있습니다.</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">소스 및 대상 시작</a></td>
   </tr> 
   <tr> 
-   <td> 자산 핵심 서비스 및 Assets On Demand<br /> </td> 
+   <td> Adobe 자산 핵심 서비스 및 Assets On Demand<br /> </td> 
    <td> Adobe Experience Cloud 라이브러리의 자산을 Adobe Campaign에서 만든 이메일 및 랜딩 페이지에 삽입할 수 있습니다.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">자산 핵심 서비스</a> 또는 Assets On Demand<br /> </td> 
   </tr> 
@@ -90,21 +89,26 @@ ht-degree: 86%
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Campaign 및 관심 영역 데이터를 사용하여 위치 기반 마케팅 메시지</a> 보내기(모바일용 분석)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Experience Cloud 트리거<br /> </td> 
+   <td> Adobe Experience Cloud Triggers<br /> </td> 
    <td> Adobe Analytics가 웹 사이트에서 특정 행동을 추적하면, Adobe Campaign에서 이에 대한 응답으로 고객에게 개인화된 이메일을 보낼 수 있습니다.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign Standard에 Experience Cloud 트리거 사용</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">중단 트리거-Campaign 사용 사례</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">사이트 활동을 기반으로 리마케팅 메시지 트리거</a>비디오 (2단계)
     </td> 
   </tr> 
+    <tr> 
+   <td> Adobe Journey Orchestration<br /> </td> 
+   <td> 기본 작업을 통해 Adobe Journey Orchestration 컨텍스트에서 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">Adobe Journey Orchestration 및 Adobe Campaign Standard 작업</a><br /> </td> 
+  </tr> 
   <tr> 
-   <td> Dreamweaver<br /> </td> 
+   <td> Adobe Dreamweaver<br /> </td> 
    <td> Dreamweaver의 이메일 콘텐츠를 편집하고 Adobe Campaign과 동기화할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Dreamweaver 비디오로 개인화된 이메일 </a> 만들기, Dreamweaver <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">용 캠페인 확장 사용</a> 
+    <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Dreamweaver로 개인화된 </a> 이메일 만들기, Dreamweaver <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">용 Campaign 확장 사용</a> 
   </td> 
   </tr> 
   <tr> 
-   <td> Experience Platform SDK<br /> </td> 
+   <td> Adobe Experience Platform SDK<br /> </td> 
    <td> Experience Platform SDK를 사용하여 Adobe Campaign에서 모바일 앱 속성 활성화 과정을 자동화할 수 있습니다.<br /> </td> 
    <td> <a href="https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html">Experience Platform SDK를 사용한 모바일 애플리케이션 구성</a><br /> </td> 
   </tr> 
