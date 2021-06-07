@@ -6,17 +6,16 @@ description: 이 페이지에는 Adobe Campaign Standard의 사용이 중단되�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Overview
+feature: 개요
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
+source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 79%
+source-wordcount: '728'
+ht-degree: 80%
 
 ---
-
 
 # 사용 중단되거나 제거된 기능 {#deprecated-and-removed-features}
 
@@ -43,50 +42,18 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
 
 <table> 
  <thead> 
- <tr> 
-   <th> <strong>예측 제목 줄</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> 2020년 12월 15일부터 예측 제목 줄 기능은 더 이상 사용되지 않습니다.</p><br/>
-   <p>AI 기반의 이메일 기능을 활용하여 기존 참여 지표를 기반으로 열람률, 최적의 전송 시간, 향후 이탈률을 분석 및 예측하는 것이 좋습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">자세히 알아보기</a></p></br>
-     <p>
-     <em>Target 제거:2021년 4월</em></p>
-     </td> 
-  </tr> 
-  </tbody> 
-</table>
-<table> 
- <thead> 
   <tr> 
    <th> <strong>SDK v4를 사용한 푸시 알림</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Campaign 20.1 릴리스를 시작하면 SDK v4는 더 이상 사용되지 않습니다. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">자세히 알아보기</a></p><br/>
+   <td> <p> Campaign 20.1 릴리스부터 SDK v4는 더 이상 사용되지 않습니다. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">자세히 알아보기</a></p><br/>
    <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform 모바일 SDK</a> (과거 v5라고 함)는 향후 출시될 Adobe Experience Cloud 기능 및 성능을 독점적으로 지원합니다.</p>
-   <p>이 페이지</a>에서 SDK v4에서 Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">로 마이그레이션하는 방법에 대해 학습합니다.</a></p></br>
+   <p>SDK v4에서 Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">로 마이그레이션하는 방법을 이 페이지에서 알아봅니다</a>.</p></br>
      <p>
      <em>Target 제거 날짜:2021년 8월 31일</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>개인 정보 보호 요청 - Campaign API 및 인터페이스</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Campaign 19.4 릴리스부터 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 2단계 프로필 삭제를 사용할 수 없습니다. <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe 개인 정보 보호 핵심 서비스</a>를 사용하십시오.</p></br>
-   <p>또한 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">개인 정보 보호 요청 관리</a>를 참조하십시오.</p>
-  <p> 
-  <em>타겟 제거 날짜: 2021년 4월</em></p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +66,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Campaign 19.0 릴리스부터 기존 이메일 편집기는 더 이상 사용되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">캠페인 이메일 디자이너</a>를 사용하여 이메일 컨텐츠를 만들고 개인화합니다. </p></br>
+   <td> <p>Campaign 19.0 릴리스부터 기존 이메일 편집기는 더 이상 사용되지 않습니다. 이메일 콘텐츠를 만들고 개인화하려면 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign 이메일 디자이너</a>를 사용하십시오. </p></br>
    <p>새로운 편집기에 맞게 이메일 템플릿을 적용하는 방법을 살펴보려면 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">이 섹션</a>을 참조하십시오.</p></br>
   <p> 
   <em>Target 제거 날짜:2021년 말</em></p>
@@ -116,7 +83,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Campaign 18.7 릴리스를 시작하면 지리적 단위는 더 이상 사용되지 않습니다. 조직적 및 지리적 단위는 Campaign에서 동일한 구문입니다. 사용자는 조직적 단위만 사용하여 사용자 권한/데이터 액세스 계층 구조를 만들어야 합니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=ko#administrating">자세히 알아보기</a> 지리적 단위가 만들어지지 않은 기존 인스턴스는 물론 새 Campaign Standard 인스턴스는 18.7 릴리스부터 이 기능을 구현할 수 없습니다.</p>
+   <td> <p>Campaign 18.7 릴리스부터 지리적 단위는 더 이상 사용되지 않습니다. 조직적 및 지리적 단위는 Campaign에서 동일한 구문입니다. 사용자는 조직적 단위만 사용하여 사용자 권한/데이터 액세스 계층 구조를 만들어야 합니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=ko#administrating">자세히 알아보기</a> 지리적 단위가 만들어지지 않은 기존 인스턴스는 물론 새 Campaign Standard 인스턴스는 18.7 릴리스부터 이 기능을 구현할 수 없습니다.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -125,6 +92,37 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
 ## 제거된 기능 {#removed-features}
 
 이 섹션에는 Campaign Standard에서 제거된 기능과 성능이 나열됩니다.
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>개인 정보 보호 요청 - Campaign API 및 인터페이스</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Campaign 21.2 릴리스부터 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 2단계 프로필 삭제를 사용할 수 없습니다. <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe 개인 정보 보호 핵심 서비스</a>를 사용하십시오.</p></br>
+   <p>또한 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">개인 정보 보호 요청 관리</a>를 참조하십시오.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+ <tr> 
+   <th> <strong>예측 제목 줄</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 2021년 4월부터 예측 제목 줄 기능이 폐기됩니다.</p><br/>
+   <p>AI 기반의 이메일 기능을 활용하여 참여 지표 기록을 기반으로 공개 비율, 최적의 전송 시간, 가능한 이탈률을 분석하고 예측할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">자세히 알아보기</a></p></br>
+     </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table> 
  <thead> 
