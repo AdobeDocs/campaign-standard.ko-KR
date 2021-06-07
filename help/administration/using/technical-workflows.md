@@ -6,17 +6,16 @@ description: 기술 워크플로우는 Adobe Campaign의 백그라운드 기술 
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
+feature: 인스턴스 설정
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
+source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
-
 
 # 기술 워크플로우{#technical-workflows}
 
@@ -100,9 +99,14 @@ ht-degree: 99%
    <td> 이 워크플로우는 Adobe Campaign Standard에 가져온 Adobe Launch 모바일 속성을 동기화합니다. 15분마다 시작됩니다.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">게재 실행 업데이트</span> <br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
-   <td> 이 워크플로우는 게재 추적을 업데이트합니다. 기본적으로 10분마다 시작됩니다.<br /> </td> 
+   <td> <span class="uicontrol">추적 로그 복구</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> 이 워크플로우는 Adobe Campaign Standard에 가져온 Adobe Launch 모바일 속성을 동기화합니다. 15분마다 시작됩니다.<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">추적 로그 복구</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> 이 워크플로우는 손실된 추적 로그를 복원합니다. 이 기술 워크플로우는 특정 컨텍스트에서 사용되며 내부 Adobe만 사용하도록 제한됩니다. <br> 기본적으로 10분마다 시작됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">게재 표시기 업데이트</span> <br /> </td> 
@@ -121,4 +125,3 @@ ht-degree: 99%
   </tr> 
  </tbody> 
 </table>
-
