@@ -5,17 +5,16 @@ title: Campaign에서 트리거 사용
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: 트리거
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '750'
 ht-degree: 82%
 
 ---
-
 
 # Campaign에서 트리거 사용{#using-triggers-in-campaign}
 
@@ -23,9 +22,9 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->트리거를 만들려면 **[!UICONTROL Administration]** 역할이 필요하거나 **[!UICONTROL Administrators]** 보안 그룹에 있어야 합니다. 이에 대한 자세한 내용은 이 [페이지](../../administration/using/list-of-roles.md)를 참조하십시오.
+>트리거를 만들려면 **[!UICONTROL Administration]** 역할 또는 **[!UICONTROL Administrators]** 보안 그룹에 있어야 합니다. 자세한 내용은 이 [페이지](../../administration/using/list-of-roles.md)를 참조하십시오.
 
-Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의함을 확인해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/ko-KR/core-services/interface/activation/triggers.html)를 참조하십시오. 트리거를 정의할 때 별칭을 활성화해야 합니다. Adobe Experience Cloud에 각 동작(검색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대한 새로운 트리거가 추가되어야 합니다.
+Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의함을 확인해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)를 참조하십시오. 트리거를 정의할 때 별칭을 활성화해야 합니다. Adobe Experience Cloud에 각 동작(검색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대한 새로운 트리거가 추가되어야 합니다.
 
 이제 기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만들어야 합니다.
 
@@ -51,17 +50,17 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
    ![](assets/remarketing_4.png)
 
-1. 이제 트리거를 게시할 수 있습니다. 자세한 내용은 [캠페인](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)에 트리거 게시를 참조하십시오.
+1. 이제 트리거를 게시할 수 있습니다. 자세한 내용은 [Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)에서 트리거 게시 를 참조하십시오.
 
-## 캠페인 {#publishing-trigger-in-campaign}에 트리거 게시
+## Campaign {#publishing-trigger-in-campaign}에 트리거 게시
 
 기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만든 후 게시해야 합니다.
 
-1. 이전에 만든 트리거에서 **[!UICONTROL Publish]** 단추를 클릭하여 트리거 이벤트 게시를 시작합니다.
+1. 이전에 만든 트리거에서 **[!UICONTROL Publish]** 버튼을 클릭하여 트리거 이벤트 게시를 시작합니다.
 
    ![](assets/trigger_publish_1.png)
 
-1. **[!UICONTROL Publication]** 아래에서 트리거 게시 진행 상태를 확인할 수 있습니다.
+1. **[!UICONTROL Publication]** 아래에서 트리거 게시 진행 상황을 확인할 수 있습니다.
 
    ![](assets/trigger_publish_2.png)
 
@@ -102,4 +101,3 @@ Adobe Campaign에서 전용 트리거 보고서를 보려면 이전에 만든 �
 이 보고서는 처리된 이벤트 수를 Analytics에서 보낸 이벤트 수와 비교하여 보여줍니다. 또한 모든 최근 트리거 목록이 표시됩니다.
 
 ![](assets/trigger_uc_browse_14.png)
-
