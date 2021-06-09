@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: In App
+feature: 인앱
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1272'
 ht-degree: 98%
 
 ---
-
 
 # 인앱 메시지 준비 및 보내기{#preparing-and-sending-an-in-app-message}
 
@@ -99,7 +98,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
    * **[!UICONTROL Life Cycle events]**: Adobe Mobile SDK에서 지원하는 기본 라이프 사이클 이벤트입니다.
 
-      라이프 사이클 이벤트에 대한 자세한 내용은 이 [페이지](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)를 참조하십시오.
+      라이프 사이클 이벤트에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)를 참조하십시오.
 
    * **[!UICONTROL Analytics Events]**: 모바일 앱에서 구현된 항목에 따라 Adobe Analytics, 컨텍스트 데이터 또는 보기 상태의 세 가지 카테고리가 지원됩니다.
 
@@ -118,7 +117,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
 1. **[!UICONTROL Places]** 트리거를 사용하는 경우 위치 컨텍스트 데이터, 위치 사용자 지정 메타데이터 또는 위치 이벤트 유형은 Adobe Places에서 만든 모든 라이브러리 및 해당 관심 포인트를 기반으로 자동으로 채워집니다. 
 
-   이 트리거는 Experience Platform Launch의 위치 확장에서 선택한 라이브러리의 관심 포인트에 대해서만 디바이스에 적용됩니다. Places 확장 및 설치 방법에 대한 자세한 내용은 이 [설명서](https://docs.adobe.com/content/help/ko-KR/places/using/places-ext-aep-sdks/places-extension/places-extension.html)를 참조하십시오.
+   이 트리거는 Experience Platform Launch의 위치 확장에서 선택한 라이브러리의 관심 포인트에 대해서만 디바이스에 적용됩니다. Places 확장 및 설치 방법에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)를 참조하십시오.
 
 1. **[!UICONTROL Frequency & duration]** 탭에서 트리거 빈도, 시작 및 종료 날짜, 인앱 메시지가 활성화될 요일 및 시간을 선택합니다.
 
