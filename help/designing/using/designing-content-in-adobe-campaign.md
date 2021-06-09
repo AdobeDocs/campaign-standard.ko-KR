@@ -2,27 +2,26 @@
 solution: Campaign Standard
 product: campaign
 title: Adobe Campaign에서 콘텐츠 디자인
-description: 처음부터 이메일 컨텐츠 제작, HTML 가져오기 또는 기존 템플릿 활용
+description: 처음부터 이메일 콘텐츠 제작, HTML 가져오기 또는 기존 템플릿 활용
 audience: designing
 content-type: reference
 topic-tags: about-content-design
-feature: Email Design
+feature: 이메일 디자인
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
+source-git-commit: 7133ee5561c60d795c8d396c167ea79a9266392b
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1250'
 ht-degree: 90%
 
 ---
-
 
 # Campaign 이메일 디자이너{#designing-content-in-adobe-campaign}
 
 Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해야 합니다.
 
-이메일 디자이너는 드래그 앤 드롭 방식으로 개인화된 매력적인 이메일을 만들 수 있습니다
+이메일 디자이너를 사용하면 드래그하여 놓기를 통해 개별적으로 개인화된 매력적인 이메일을 만들 수 있습니다
 인터페이스. 처음부터 빈 화면으로 시작하거나 기존 콘텐츠 조각 또는 템플릿을 활용하는 경우 프로모션 또는 트랜잭션 방식으로 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
 
 반응형 디자인에 최적화된 HTML을 게재하기 위해 빌드된 이메일 디자이너는 가시성 조건과 동적 콘텐츠를 직접 사용자 인터페이스를 통해 이메일, 템플릿 또는 조각으로 손쉽게 정의하고 적용할 수 있습니다. 단추를 클릭하면 끌어서 놓기 인터페이스와 HTML 코드 간 원활한 전환을 할 수 있습니다.
@@ -156,7 +155,7 @@ CSS 충돌 문제와 같은 문제를 방지하려면 콘텐츠를 최신 버전
 * 스타일을 편집할 때 대부분의 이메일 클라이언트는 공식적으로 지원하는 웹 글꼴만 사용할 수 있습니다.
 * 향후 재사용을 위해 스타일을 테마로 저장할 수 없습니다. 그러나 CSS 스타일은 콘텐츠 템플릿 또는 이메일에 저장할 수 있습니다. 스타일에 대한 자세한 내용은 [이 섹션](../../designing/using/styles.md)을 참조하십시오.
 * 레퍼러 메타 태그는 이메일 디자이너에서 지원되지 않습니다.
-* 유니코드 문자 집합의 기본 다국어 평면에 포함되지 않은 문자인 서로게이트 쌍은 2바이트(16비트)로 저장할 수 없으며 2UTF-16 문자로 인코딩해야 합니다. 이러한 문자에는 일부 CJK 비디오, 대부분의 이모지 및 일부 언어가 포함됩니다.<br>이러한 문자는 동적 텍스트에서 비호환성 문제를 일으킬 수 있습니다. 메시지를 보내기 전에 강력한 테스트를 수행해야 합니다.
+* 유니코드 문자 집합의 기본 다국어 평면에 포함되지 않은 문자인 대리 쌍은 2바이트(16비트)로 저장할 수 없으며 2UTF-16자로 인코딩되어야 합니다. 이러한 문자에는 일부 CJK IDEOGRAPHS, 대부분의 이모지와 일부 언어가 포함됩니다.<br>이러한 문자로 인해 동적 텍스트에 일부 비호환성 문제가 발생할 수 있습니다. 메시지를 보내기 전에 강력한 테스트를 수행해야 합니다.
 
 **관련 항목**
 
@@ -165,10 +164,10 @@ CSS 충돌 문제와 같은 문제를 방지하려면 콘텐츠를 최신 버전
 * [SMS 메시지 만들기](../../channels/using/creating-an-sms-message.md)
 * [푸시 알림 만들기 및 전송](../../channels/using/preparing-and-sending-a-push-notification.md)
 
-## 자습서 비디오 {#video}
+## 튜토리얼 비디오 {#video}
 
 이 비디오에서는 이메일 디자이너에 대한 개요를 제공합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-이메일 디자이너를 시작하려면 이메일 디자이너의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 세트](https://docs.adobe.com/content/help/ko-KR/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)를 시청하십시오
+이메일 디자이너를 시작하려면 이메일 디자이너의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 세트](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)를 시청하십시오
