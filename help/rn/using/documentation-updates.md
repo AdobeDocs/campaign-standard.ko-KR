@@ -10,10 +10,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ec0dc31e39424a540ca71ff15355814c0e79a283
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '6866'
-ht-degree: 99%
+source-wordcount: '6852'
+ht-degree: 98%
 
 ---
 
@@ -330,7 +330,7 @@ Campaign Standard에서 워크플로우를 사용하여 컨트롤 그룹을 만�
 
 랜딩 페이지 속성과 관련된 정보를 전용 섹션으로 이동했습니다. [자세한 내용](../../channels/using/configuring-landing-page.md)
 
-제어판 설명서는 새로운 공동 작업 설명서 세트에 통합되었습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html)
+제어판 설명서는 새로운 공동 작업 설명서 세트에 통합되었습니다. [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 
 **지표 계산** 표를 업데이트했습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
@@ -394,7 +394,7 @@ Adobe Experience Platform SDK를 사용해 모바일 애플리케이션을 구�
 
 워크플로우 문제 해결 섹션에 로그 탭에 SQL 쿼리를 표시하기 위한 절차가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Campaign 컨트롤 패널 내에 하위 도메인 및 인증서 관리에 대한 정보를 다루는 새로운 도움말 문서를 추가했습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+Campaign 컨트롤 패널 내에 하위 도메인 및 인증서 관리에 대한 정보를 다루는 새로운 도움말 문서를 추가했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)
 
 콘텐츠 템플릿 및 단편에 대해 설명하는 섹션을 업데이트했습니다. [자세한 내용](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -456,7 +456,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트�
 
 **릴리스에 포함된 새로운 기능**
 
-Campaign 컨트롤 패널 - [자세한 내용](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Campaign 컨트롤 패널 - [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 로컬 알림 - [자세한 내용](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -472,7 +472,7 @@ Campaign 컨트롤 패널 - [자세한 내용](https://docs.adobe.com/content/he
 
 Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 업데이트했습니다.
 
-다음 [페이지](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/overview.html)가 Adobe Campaign Standard의 공식 비디오 페이지가 됩니다.
+다음 [페이지](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)가 Adobe Campaign Standard의 공식 비디오 페이지가 됩니다.
 
 데이터 유지에 대한 섹션을 추가했습니다. 여기에는 표준 표의 기본 유지 값이 포함되어 있습니다. [자세한 내용](../../administration/using/data-retention.md)
 
@@ -612,7 +612,7 @@ SDK V4를 사용한 모바일 애플리케이션 구성 섹션을 [여기](https
 
 Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성 섹션을 [여기](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)로 이동했습니다.
 
-비디오를 업데이트하고 [여기](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)로 이동했습니다.
+비디오를 업데이트하고 [여기](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)로 이동했습니다.
 
 사용자 유형 섹션을 업데이트했습니다. [자세한 내용](../../administration/using/users-management.md)
 
@@ -960,7 +960,7 @@ Creative SDK의 이미지 편집 기능 개선 사항 - [자세한 내용](../..
 
 Amazon Simple Storage Service(S3) 커넥터 - [자세한 내용](../../administration/using/external-accounts.md)
 
-Dreamweaver 통합 라이브 - [자세한 내용](https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver 통합 라이브 - [자세한 내용](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -984,7 +984,7 @@ Campaign에서 이미지로 작업하는 방법에 대한 섹션을 업데이트
 
 다이내믹 보고 - [자세한 내용](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver 통합(Labs) - [자세한 내용](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver 통합(Labs) - [자세한 내용](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 수동 전송 시간 최적화 - [자세한 내용](../../sending/using/optimizing-the-sending-time.md)
 
