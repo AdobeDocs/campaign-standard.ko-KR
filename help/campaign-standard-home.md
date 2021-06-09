@@ -8,9 +8,9 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
-workflow-type: ht
-source-wordcount: '239'
+source-git-commit: 92860772ba1ef7ff1503831f05c69d540851258f
+workflow-type: tm+mt
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 100%
 | 유용한 페이지 | 개발자를 위한 자료 |
 |---|---|
 | [릴리스 정보](rn/using/release-notes.md) | [Experience Cloud 트리거](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
+| [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko) | [Campaign API](api/using/get-started-apis.md) |
 | [구현 안내서](https://helpx.adobe.com/kr/campaign/kb/campaign-standard-implementation-guide.html) | [오류 메시지 목록](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [릴리스 계획](rn/using/release-planning.md) | [Campaign 데이터 모델](developing/using/datamodel-introduction.md) |
 | [사용이 중단되거나 제거된 기능](rn/using/deprecated-features.md) | [멀티 솔루션 안내서](integrating/using/get-started-campaign-integrations.md) |
