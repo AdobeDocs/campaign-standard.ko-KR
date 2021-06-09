@@ -6,17 +6,16 @@ description: 'Adobe Campaign 사용자에게는 특정한 역할이 주어집니
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
+feature: 액세스 관리
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1220'
 ht-degree: 94%
 
 ---
-
 
 # 사용자 관리{#users-management}
 
@@ -38,7 +37,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 **관련 항목:**
 
-* [사용자 권한 관리](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html) 비디오
+* [사용자 권한 관리](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html) 비디오
 * [역할 목록](../../administration/using/list-of-roles.md)
 * [권한 목록](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
@@ -64,7 +63,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Administration]** 역할 및 **All** 장치에 대한 액세스 권한을 가진 기능 관리자만 전송 로그, 메시지 로그, 추적 로그, 제외 로그, 제안 로그 및 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블(프로필, 배달)부터 시작합니다.
+>**[!UICONTROL Administration]** 역할 및 **에 대한 액세스 권한이 있는 기능 관리자만이 전송 로그, 메시지 로그, 추적 로그, 제외 로그, 제안 로그 및 구독 로그에 액세스할 수 있습니다.** 관리자가 아닌 사용자는 이러한 로그를 타겟팅할 수 있지만 연결된 테이블(프로필, 게재)부터 시작합니다.
 
 기능 관리자만이 Adobe Campaign 인터페이스의 **[!UICONTROL Administration]** 메뉴에 액세스할 수 있습니다. 이 사용자들은 기술 리소스에 액세스해야 하므로 고급 역할(예: **[!UICONTROL Administration]** 및 **[!UICONTROL Datamodel]** 기본 역할)을 할당해 주어야 합니다. 이러한 역할은 **[!UICONTROL Administrators]** 기본 보안 그룹에 결합되어 있습니다. 자세한 정보는 이 [섹션](../../administration/using/list-of-roles.md)을 참조하십시오.
 
@@ -157,10 +156,10 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 이제 사용자가 Adobe Campaign Standard를 사용할 준비가 되었습니다.
 
-## 자습서 비디오(#video)
+## 튜토리얼 비디오 (#video)
 
-이 비디오에서는 사용자 액세스 권한을 관리하는 방법을 보여 줍니다.
+이 비디오에서는 사용자 액세스 권한을 관리하는 방법을 보여줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-추가 Campaign Standard 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.
