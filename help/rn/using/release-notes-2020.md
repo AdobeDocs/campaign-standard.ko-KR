@@ -6,25 +6,24 @@ description: 이 페이지에는 Adobe Campaign Standard의 2020년 릴리스가
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: 개요
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
-source-wordcount: '5327'
-ht-degree: 100%
+exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+workflow-type: tm+mt
+source-wordcount: '5298'
+ht-degree: 98%
 
 ---
 
-
 # 2020년 릴리스 정보{#release-notes-2020}
 
-[릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html) | [Campaign 컨트롤 패널 릴리스](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2019.md) | [더 이상 사용되지 않는 기능](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes)
+[릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html) | [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2019.md) | [더 이상 사용되지 않는 기능](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes)
 
-![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 
-![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 
 ## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
 
@@ -40,7 +39,7 @@ ht-degree: 100%
 <tr> 
   <td> <p>이제 <strong>컨트롤 그룹</strong>을 사용하여 대상의 일부를 제외하여 캠페인의 영향을 측정할 수 있습니다. 그러면 메시지를 받은 대상 모집단과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기준으로 향후 캠페인에서 컨트롤 그룹을 타겟팅할 수도 있습니다.
 </p>
-<p>자세한 내용은 <a href="../../sending/using/control-group.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=ko#communication-channels">방법 비디오</a>를 참조하십시오.
+<p>자세한 내용은 <a href="../../sending/using/control-group.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">방법 비디오</a>를 참조하십시오.
 </p>
 </td> 
 </tr> 
@@ -76,8 +75,8 @@ ht-degree: 100%
   <p>Journey AI는 고급 ML(기계 학습)을 사용하여 기업이 각 개인의 참여 선호도를 예측하여 고객 경로의 디자인과 게재를 최적화할 수 있도록 합니다.</p>
   <P>Journey AI는 다음 두 가지 ML 기능으로 구성됩니다.</p>
 <ul> 
-     <li> <strong>예측 참여 점수 책정</strong> - 고객이 선호하는 참여 수준을 지능적으로 식별하여 메시지를 보다 효과적으로 타겟팅하고 개인화하여 전환율과 유지율을 높일 수 있습니다. <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">방법 비디오</a>보기</li> 
-     <li> <strong>예측 전송 시간 최적화</strong> - 캠페인의 각 개인에게 이메일을 보내는 가장 적합한 시간을 예측하여 참여율을 높이고 이메일 캠페인 ROI를 향상시킬 수 있습니다. <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">방법 비디오</a>보기</li>
+     <li> <strong>예측 참여 점수 책정</strong> - 고객이 선호하는 참여 수준을 지능적으로 식별하여 메시지를 보다 효과적으로 타겟팅하고 개인화하여 전환율과 유지율을 높일 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">방법 비디오</a>보기</li> 
+     <li> <strong>예측 전송 시간 최적화</strong> - 캠페인의 각 개인에게 이메일을 보내는 가장 적합한 시간을 예측하여 참여율을 높이고 이메일 캠페인 ROI를 향상시킬 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">방법 비디오</a>보기</li>
     </ul>
   <p>Journey AI를 시작하는 방법을 알려면 <a href="../../sending/using/predictive.md">자세한 설명서</a>를 검토하고 계정 담당자에게 문의하십시오. Journey AI는 기존 Campaign 고객에게 무료로 제공되지만 구현 비용은 약 50시간 정도 입니다.</p>
     </td> 
@@ -210,7 +209,7 @@ ht-degree: 100%
 <li>액세스 권한 및 삭제 권한: Adobe는 GDPR 및 CCPA에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#righttoaccess">자세히 알아보기</a> </li>
 <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 핵심 서비스에 PDPA 규정 유형이 추가되었습니다. 이 방법은 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. <a href="../../rn/using/deprecated-features.md">사용이 중단되거나 제거된 기능 문서</a>를 참조하십시오.</p></li>
 </ul>
-<p><a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/privacy/privacy-overview.html">방법 비디오</a>를 참조하십시오.</p>
+<p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">방법 비디오</a>를 참조하십시오.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -231,7 +230,7 @@ ht-degree: 100%
 <li>JSON에서 배열 개체를 선택하고 사용할 때 개체 이름을 "data"로 지정하거나 최상위 수준에 둘 필요가 없습니다.</li>
 </ul>
 <p><strong>주의:</strong> 고객은 워크플로우에서 GA 외부 API 활동으로 <strong>모든 Beta 외부 API 활동을 대체</strong>해야 합니다. 외부 API의 Beta 버전을 사용하는 워크플로우는 20.3에서 작동하지 않습니다.</p>
-<p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">방법 비디오</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">방법 비디오</a>를 참조하십시오.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -294,7 +293,7 @@ ht-degree: 100%
 * 사용자가 보고서를 변경할 수 없는 오류를 수정했습니다. (CAMP-42505)
 
 
-CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/cp-icon.png) **새 Campaign 컨트롤 패널 5월 릴리스**&#x200B;입니다. [자세히 알아보기](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)
+CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/cp-icon.png) **새 Campaign 컨트롤 패널 5월 릴리스**&#x200B;입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
@@ -324,7 +323,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
  <tbody> 
   <tr> 
    <td> <p>이제 테스트 프로필 외에도 실제 타겟팅된 프로필에서 이메일을 테스트할 수 있습니다. 이를 통해 사용자 지정 필드, 워크플로우의 추가 데이터를 포함한 동적 및 개인화된 정보 등 프로필에서 받게 될 메시지를 정확하게 표현할 수 있습니다.  </p>
-    <p>자세한 내용은 <a href="../../sending/using/testing-messages-using-target.md">세부 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">튜토리얼 비디오</a>를 참조하십시오. </p>
+    <p>자세한 내용은 <a href="../../sending/using/testing-messages-using-target.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">튜토리얼 비디오</a>를 참조하십시오. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -332,7 +331,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 
 >[!NOTE]
 >
->Google TXT 레코드 관리, 데이터베이스 공간 모니터링 및 이메일 경고 등 새로운 기능이 4월에 Campaign 컨트롤 패널에서 릴리스됩니다. 이러한 기능에 대한 자세한 내용은 [Campaign 컨트롤 패널 릴리스 정보](https://docs.adobe.com/content/help/ko-KR/control-panel/using/release-notes.html)를 참조하십시오.
+>Google TXT 레코드 관리, 데이터베이스 공간 모니터링 및 이메일 경고 등 새로운 기능이 4월에 Campaign 컨트롤 패널에서 릴리스됩니다. 이러한 기능에 대한 자세한 내용은 [Campaign 컨트롤 패널 릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)를 참조하십시오.
 
 **향상된 기능**
 
@@ -411,7 +410,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
  <tbody> 
   <tr> 
    <td> <p>이제 Adobe Experience Platform 데이터 커넥터가 Adobe Campaign Standard와 통합되었습니다. XTK 데이터(Campaign에서 수집한 데이터)를 Adobe Experience Platform 데이터 모델(XDM)에 매핑하여 Adobe Experience Platform에서 캠페인 데이터를 사용할 수 있도록 만들 수 있습니다. </p>
-    <p>이 기능은 Azure에서 호스팅되는 고객에게만 제공됩니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../integrating/using/aep-about-data-connector.md">상세 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">방법 비디오</a>를 참조하십시오.</p>
+    <p>이 기능은 Azure에서 호스팅되는 고객에게만 제공됩니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../integrating/using/aep-about-data-connector.md">상세 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">방법 비디오</a>를 참조하십시오.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -426,7 +425,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
  <tbody> 
   <tr> 
    <td> <p>대상자 대상을 사용하면 Adobe Experience Platform에서 Adobe Campaign으로 세그먼트를 공유할 수 있습니다.</p>
-    <p>이 기능은 Azure에서 호스팅되는 고객에게만 제공됩니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../integrating/using/aep-about-audience-destinations-service.md">상세 설명서</a> 및 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">방법 비디오</a>를 참조하십시오. </p>
+    <p>이 기능은 Azure에서 호스팅되는 고객에게만 제공됩니다. 이 기능 및 활성화 조건에 대한 자세한 내용은 <a href="../../integrating/using/aep-about-audience-destinations-service.md">상세 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">방법 비디오</a>를 참조하십시오. </p>
    </td> 
   </tr> 
  </tbody> 
