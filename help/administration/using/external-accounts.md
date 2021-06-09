@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
+feature: 인스턴스 설정
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 83%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
-
 
 # 외부 계정{#external-accounts}
 
@@ -85,22 +84,22 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 * 때때로 SFTP에 로그인하여 무엇이 있는지 직접 확인합니다.
 * SFTP 디스크 관리는 주로 사용자의 책임입니다.
 
-또한 SFTP 연결을 시작하려는 공개 IP는 캠페인 인스턴스의허용 목록에 추가하다에 추가해야 합니다. 인증에 사용할 공개 키허용 목록에 추가하다를 제공하는 것과 함께 [지원 티켓](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)을 통해 IP 주소를에 추가할 것을 요청할 수 있습니다.
+또한 SFTP 연결을 시작하려는 공용 IP를 Campaign 인스턴스의에 추가해야 허용 목록에 추가하다 합니다. 인증에 사용할 공개 키를 허용 목록에 추가하다 제공하면서 [지원 티켓](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)을 통해 IP 주소를에 추가할 수 있습니다.
 
-SFTP 서버는 Campaign 컨트롤 패널에서 관리할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://docs.adobe.com/content/help/ko-KR/control-panel/using/sftp-management/about-sftp-management.html)를 참조하십시오.
+SFTP 서버는 Campaign 컨트롤 패널에서 관리할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)를 참조하십시오.
 
 >[!NOTE]
 >
->Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 액세스 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)에 자세히 설명되어 있습니다.
+>Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 
 ## OAuth 2.0 계정 {#oauth-account}
 
 OAuth 2.0 외부 계정의 경우 다음 세부 정보를 제공합니다.
 
-* **Grant 유형**:**클라이언트 자격 증명**&#x200B;만 지원됩니다.
+* **Grant type**:**클라이언트 자격 증명**&#x200B;만 지원됩니다.
 * **보안 API URL**:인증 끝점을 입력합니다.
-* **OAuth 2.0 중요 자격 증명**:이 섹션은 본질적으로 민감한 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 마스크 처리됩니다.이때 읽을 수도 편집할 수도 없습니다. 인증 끝점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
-* **OAuth 2.0 비중요 자격 증명**:이 섹션은 본질적으로 중요하지 않은 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 표시됩니다.편집할 수도 있습니다.  인증 끝점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
+* **OAuth 2.0 중요 자격 증명**:이 섹션은 기본적으로 중요한 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 마스킹됩니다.이 시점에서는 읽을 수 없거나 편집할 수 없습니다. 인증 종단점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
+* **OAuth 2.0 민감하지 않은 자격 증명**:이 섹션은 기본적으로 민감하지 않은 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 표시됩니다.편집 가능합니다.  인증 종단점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
 
 계정 정보를 입력한 후 **연결 테스트**&#x200B;를 클릭하여 외부 계정이 올바르게 구성되었는지 확인합니다.
 
@@ -108,7 +107,7 @@ OAuth 2.0 외부 계정의 경우 다음 세부 정보를 제공합니다.
 
 >[!NOTE]
 >
->자격 증명 &quot;Content-Type:application/x-www-form-urlencoded&quot; 및 &quot;grant_type=client_credentials&quot;가 API 호출에 자동으로 추가됩니다.따라서 자격 증명 섹션에 추가할 필요가 없습니다.
+>자격 증명 &quot;Content-Type:application/x-www-form-urlencoded&quot; 및 &quot;grant_type=client_credentials&quot;가 자동으로 API 호출에 추가됩니다.따라서 자격 증명 섹션에 추가할 필요가 없습니다.
 
 ## Amazon S3 외부 계정 {#amazon-s3-external-account}
 
