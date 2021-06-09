@@ -7,14 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Instance Settings
+feature: 인스턴스 설정
 role: Administrator
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-translation-type: tm+mt
-source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2598'
 ht-degree: 76%
 
 ---
@@ -34,7 +33,7 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
    **[!UICONTROL Header parameters of sent emails]** 섹션에는 전자 메일을 수신자(발신자 주소)에게 보내고 비동기 바운스, 부재 중 회신 등과 같은 자동 답글을 다시 보낼 수 있도록 할 수 있는 권한이 있는 전자 메일 주소가 나열됩니다. (오류 주소).  Adobe Campaign은 메시지 준비 단계 동안 입력한 주소가 유효한지 확인합니다. 이 운영 모드에서는 게재 가능성 문제를 트리거 할 수 있는 주소가 사용되지 않습니다.
    * 발신자와 오류 주소는 모두 Adobe에서 설정합니다. 이러한 필드는 비워 둘 수 없습니다.
    * 이러한 필드는 편집할 수 없습니다. 주소를 업데이트하려면 Adobe 고객 지원 센터에 문의하십시오.
-   * 다른 주소를 추가하려면 [Campaign 컨트롤 패널](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)을 사용하여 새 하위 도메인을 설정하거나 Adobe 고객 지원 센터에 문의하십시오. 여러 개의 마스크를 사용하는 경우, 쉼표로 구분됩니다.
+   * 다른 주소를 추가하려면 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko)을 사용하여 새 하위 도메인을 설정하거나 Adobe 고객 지원 센터에 문의하십시오. 여러 개의 마스크를 사용하는 경우, 쉼표로 구분됩니다.
    * *@yourdomain.com과 같이 별을 사용하여 주소를 설정하는 것이 좋습니다. 이렇게 하면 하위 도메인 이름으로 끝나는 주소를 사용할 수 있습니다.
 
 * **게재 가능성**
@@ -60,7 +59,7 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
    >[!IMPORTANT]
    >
-   >수행할 최대 재시도 횟수와 재시도 사이의 최소 지연 시간은 IP가 이전 및 현재 지정된 도메인에 모두 수행하는 정도를 기준으로 합니다. 캠페인의 **[!UICONTROL Retry period]** 및 **[!UICONTROL Number of retries]** 설정은 무시됩니다.
+   >수행할 최대 다시 시도 횟수와 다시 시도 사이의 최소 지연 시간은 IP가 과거 및 현재 지정된 도메인에서 얼마나 성과가 있는지 기준으로 합니다. Campaign의 **[!UICONTROL Retry period]** 및 **[!UICONTROL Number of retries]** 설정이 무시됩니다.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -91,10 +90,10 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
 >[!IMPORTANT]
 >
->이메일 도메인과 MX 규칙은 이제 자동으로 관리되므로 변경할 수 없습니다.<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)-->
+>전자 메일 도메인과 MX 규칙은 이제 자동으로 관리되며, 변경할 수 없습니다.<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)-->
 
-* **모든 도메인이 있는 모든 메시지에 대해 DKIM(DomainKeys Identified Mail)** 이메일 인증 서명이 수행됩니다. **보낸 사람 ID**, **도메인 키** 또는 **S/MIME**&#x200B;로 서명하지 않습니다.
-* MX 규칙은 이메일 명성과 이메일을 보내는 도메인에서 오는 실시간 피드백을 기반으로 도메인별로 처리량을 자동으로 사용자 정의합니다.
+* **DKIM(DomainKeys Identified Mail)**  전자 메일 인증 서명은 모든 도메인이 있는 모든 메시지에 대해 수행됩니다. **보낸 사람 ID**, **도메인 키** 또는 **S/MIME**&#x200B;으로 서명하지 않습니다.
+* MX 규칙은 사용자의 과거 전자 메일 신뢰도를 기반으로, 전자 메일을 전송하는 도메인에서 오는 실시간 피드백에 따라 도메인별로 처리량을 자동으로 사용자 정의합니다.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
@@ -108,7 +107,7 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
 >[!IMPORTANT]
 >
->이제 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign에 다시 전송하는 Adobe Campaign 고급 MTA에서 동기 배달 실패 오류 메시지를 자격을 얻게 됩니다.
+>동기 게재 실패 오류 메시지는 이제 바운스 유형 및 자격을 결정하고 해당 정보를 Campaign으로 다시 전송하는 Adobe Campaign Enhanced MTA에 의해 검증됩니다.
 
 바운스 메일 자격에 대한 자세한 내용은 이 [섹션](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)을 참조하십시오.
 
@@ -164,7 +163,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 >[!IMPORTANT]
 >
->이제 IP가 이전 및 현재 지정된 도메인에 걸쳐 얼마나 잘 수행되는지를 기준으로 재시도 사이의 최소 지연 시간과 최대 재시도 횟수를 기준으로 합니다. 캠페인의 **[!UICONTROL Retry period]** 및 **[!UICONTROL Max. number of retries]** 설정은 무시됩니다.
+>이제 IP가 이전 및 현재 지정된 도메인에서 얼마나 성과가 있는지 기준으로 다시 시도 간격 및 최대 다시 시도 횟수를 계산합니다. Campaign의 **[!UICONTROL Retry period]** 및 **[!UICONTROL Max. number of retries]** 설정이 무시됩니다.
 
 Campaign에 **설정된**&#x200B;게재 기간 설정&#x200B;**([유효 기간 매개 변수 섹션](#validity-period-parameters)에 정의됨)은 그대로 허용되지만 최대 3.5일만 허용됩니다.** 이 시점에서 다시 시도 큐의 모든 메시지는 대기열에서 제거되고 바운스로 다시 전송됩니다. 게재 실패에 대한 자세한 내용은 이 [섹션](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)을 참조하십시오.
 
@@ -215,7 +214,7 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
    >[!IMPORTANT]
    >
-   >**최대 3.5일 값을 정의해야 합니다.** 3.5일 이상의 값을 설정하는 경우 이 값은 고려되지 않습니다.
+   >**최대 3.5일 값을 정의해야 합니다.** 3.5일 이상의 값을 설정하면 고려되지 않습니다.
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: 이 필드는 주로 미러 페이지 및 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
 * **[!UICONTROL Mirror page management]**: 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 전자 메일 콘텐츠와 동일합니다. 기본적으로 링크가 메일 콘텐츠에 삽입된 경우 미러 페이지가 생성됩니다. 이 필드에서는 다음과 같은 페이지가 생성되는 방식을 수정할 수 있습니다.
@@ -311,44 +310,44 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 ## 기존 설정 {#legacy-settings}
 
-최신 버전의 Campaign을 실행 중인 **NOT**&#x200B;인 경우 아래 설명된 매개 변수 및 UI 섹션이 여전히 사용자에게 적용됩니다.
+최신 버전의 Campaign을 실행 중인 **NOT**&#x200B;인 경우 아래 설명된 매개 변수 및 UI 섹션이 계속 적용됩니다.
 
 ### 다시 시도 {#legacy-retries}
 
-[구성 메뉴](#email-channel-parameters)과 이메일 속성의 [매개 변수 보내기](#retries-parameters)에 있는 **[!UICONTROL Retries]** 설정은 전송이 시작된 날(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)에 수행되는 재시도 횟수와 재시도 사이의 최소 지연 시간을 나타냅니다(**[!UICONTROL Retry period]**).
+[구성 메뉴](#email-channel-parameters)와 전자 메일 속성의 [매개 변수 보내기](#retries-parameters)의 **[!UICONTROL Retries]** 설정은 전송을 시작한 다음 날에 수행되어야 하는 다시 시도 횟수와 다시 시도 사이의 최소 지연 시간을 나타냅니다(**[!UICONTROL Retry period]**).**[!UICONTROL Number of retries]****[!UICONTROL Max. number of retries]**
 
-재시도 횟수는 전역적으로(Adobe 기술 관리자에게 문의) 또는 각 배달 또는 배달 템플릿에 대해 변경할 수 있습니다.
+다시 시도 횟수는 전역적으로(Adobe 기술 관리자에게 문의) 또는 각 게재 또는 게재 템플릿에 대해 변경할 수 있습니다.
 
-기본적으로 첫 번째 날에 5회 재시도 횟수가 예정되어 있으며 최소 간격은 1시간 간격은 24시간에 걸쳐 진행됩니다. 하루 중 1회 재시도는 그 이후에 그리고 배달 마감일까지 프로그래밍되며, 배달 마감일은 **[!UICONTROL Configuration]** 메뉴의 **[!UICONTROL Delivery parameters]** 섹션 또는 배달 수준의 **[!UICONTROL Validity period]** 섹션에 전체적으로 정의됩니다(아래 [배달 기간](#legacy-delivery-duration) 섹션 참조).
+기본적으로 첫 번째 날에 5번의 다시 시도가 예약되며 최소 1시간 간격은 24시간 동안 분산됩니다. 일별 1회 다시 시도는 **[!UICONTROL Configuration]** 메뉴의 **[!UICONTROL Delivery parameters]** 섹션이나 게재 수준의 **[!UICONTROL Validity period]** 섹션에 전역적으로 정의된 게재 마감일 이후에 프로그래밍됩니다(아래의 [게재 기간](#legacy-delivery-duration) 섹션 참조).
 
 ### 배달 기간 {#legacy-delivery-duration}
 
-[구성 메뉴](#email-channel-parameters)의 **[!UICONTROL Message delivery duration]** 매개 변수를 사용하여 일시적인 오류나 소프트 바운스가 발생하는 배달에서 메시지가 다시 시도될 시간을 지정할 수 있습니다.
+[구성 메뉴](#email-channel-parameters)의 **[!UICONTROL Message delivery duration]** 매개 변수를 사용하면 게재 중에 일시적인 오류나 소프트 바운스가 발생하는 메시지가 다시 시도하는 시간대를 지정할 수 있습니다.
 
-[유효성 기간 매개 변수](#validity-period-parameters) 섹션의 **[!UICONTROL Delivery duration]** 또는 **[!UICONTROL Validity limit for sending messages]** 매개 변수를 사용하면 메시지를 보낼 수 있는 기간을 지정할 수 있습니다.
+[유효 기간 매개 변수](#validity-period-parameters) 섹션의 **[!UICONTROL Delivery duration]** 또는 **[!UICONTROL Validity limit for sending messages]** 매개 변수를 사용하면 메시지를 보낼 수 있는 기간을 지정할 수 있습니다.
 
 ### 전자 메일 처리 규칙 {#legacy-email-processing-rules}
 
-**[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** 및 **[!UICONTROL Domain management]** 규칙은 관리자가 **[!UICONTROL Administration > Channels > Email > Email processing rules]** [ 메뉴](#email-processing-rules)를 통해 액세스하고 수정할 수 있습니다.
+**[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** 및 **[!UICONTROL Domain management]** 규칙은 **[!UICONTROL Administration > Channels > Email > Email processing rules]** [메뉴](#email-processing-rules)를 통해 관리자가 액세스하고 수정할 수 있습니다.
 
 ### 반송 메일 조건 {#legacy-bounce-mail-qualification}
 
-다양한 바운스 및 관련 오류 유형 설정 이유를 나열하려면 왼쪽 상단에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**&#x200B;을 선택합니다.
+다양한 바운스 수 및 관련 오류 유형 및 이유 목록을 나열하려면 왼쪽 상단에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]** 을 선택합니다.
 
-바운스는 다음 자격 상태를 가질 수 있습니다.
+바운스는 다음과 같은 자격 상태를 가질 수 있습니다.
 
-* **[!UICONTROL To qualify]**:바운스 메일을 검증해야 합니다. 플랫폼 제공 기능이 제대로 작동하는지 확인하려면 택배능력 팀이 검증을 해야 합니다. 자격이 없는 경우 바운스 메일은 이메일 처리 규칙 목록을 채우는 데 사용되지 않습니다.
-* **[!UICONTROL Keep]**:바운스 메일이 자격을 얻었으며 기존 이메일 처리 규칙과 비교할 수  **있는** 배포 가능 워크플로우에 대한 업데이트에서 사용할 것입니다.
-* **[!UICONTROL Ignore]**:바운스 메일은 자격을 가졌지만 전달용  **업데이트 워크플로에서는 사용할 수** 없습니다. 따라서 클라이언트 인스턴스로 전송되지 않습니다.
+* **[!UICONTROL To qualify]**:반송 메일을 검증해야 합니다. 플랫폼 게재 기능이 제대로 작동하도록 하려면 게재 가능성 팀이 자격을 수행해야 합니다. 자격이 없는 한 반송 메일은 이메일 처리 규칙 목록을 보강하는 데 사용되지 않습니다.
+* **[!UICONTROL Keep]**:바운스 메일은 자격을 부여했으며 게재 능력을  **위한 업데이트 워크플로우에서 기존** 전자 메일 처리 규칙과 비교하고 목록을 보강하는 데 사용됩니다.
+* **[!UICONTROL Ignore]**:바운스 메일은 자격이 있지만 게재 능력을 위한  **업데이트 워크플로우에서는 사용되지** 않습니다. 따라서 클라이언트 인스턴스로 전송되지 않습니다.
 
 >[!NOTE]
 >
->ISP가 중단되는 경우, Campaign을 통해 보낸 이메일은 바운스로 잘못 표시됩니다. 이 문제를 해결하려면 바운스 자격 조건을 업데이트해야 합니다. 자세한 내용은 [이 페이지](../../administration/using/update-bounce-qualification.md)를 참조하십시오.
+>ISP가 중단되면 Campaign을 통해 보낸 이메일이 바운스로 잘못 표시됩니다. 이를 수정하려면 반송 조건을 업데이트해야 합니다. 자세한 내용은 [이 페이지](../../administration/using/update-bounce-qualification.md)를 참조하십시오.
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### 배달된 표시기 보고 {#legacy-delivered-status-report}
 
-각 메시지의 **[!UICONTROL Summary]** 보기에서는 소프트 바운스 및 하드 바운스가 다시 보고됨에 따라 **[!UICONTROL Delivered]** 백분율이 배달 유효 기간 동안 점진적으로 상승하게 됩니다.
+각 메시지의 **[!UICONTROL Summary]** 보기에서 소프트 및 하드 바운스가 다시 보고됨에 따라 **[!UICONTROL Delivered]** 비율은 게재 유효 기간 동안 점진적으로 증가합니다.
 
-소프트 바운스 메시지는 배달 중 1일 후 **[!UICONTROL Failed]**&#x200B;으로 표시되고 배달 유효 기간의 각 추가 날짜에 다시 시도됩니다.
+소프트 바운스 메시지는 게재 중 1일 후 **[!UICONTROL Failed]**&#x200B;으로 표시되고, 게재의 유효 기간 중 각 추가 날짜에 다시 시도됩니다.
