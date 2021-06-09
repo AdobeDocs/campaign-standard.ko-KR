@@ -10,9 +10,9 @@ feature: 사용자 핵심 서비스 통합
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: ef3480d3da9c5c0597af90c89a73a1aff0a87809
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '171'
 ht-degree: 9%
 
 ---
@@ -39,5 +39,5 @@ Adobe Experience Cloud에서 공유한 리소스는 다음과 같이 이메일 �
 
 **관련 항목:**
 
-* [자산 및 공유](https://docs.adobe.com/content/help/en/core-services/interface/assets/experience-cloud-assets.html)
+* [자산 및 공유](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
 * [콘텐츠 편집기](../../designing/using/personalization.md#example-email-personalization)
