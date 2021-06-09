@@ -7,17 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: Triggers
+feature: 트리거
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 99%
+source-wordcount: '474'
+ht-degree: 98%
 
 ---
-
 
 # Adobe Experience Cloud 트리거 기본 정보{#about-adobe-experience-cloud-triggers}
 
@@ -33,7 +32,7 @@ Adobe Campaign에서 이전에 만든 트리거를 선택하고, 데이터마트
 
 **관련 항목:**
 
-* [Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/ko-KR/core-services/interface/activation/triggers.html)에서 트리거의 여러 유형에 대해 알아봅니다.
+* [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)에서 트리거의 여러 유형에 대해 알아봅니다.
 * [사이트 활동에 기반한 리마케팅 메시지 트리거](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) 비디오를 시청합니다.
 * 두 가지 [중단 트리거 사용 사례](../../integrating/using/abandonment-triggers-use-cases.md)를 살펴봅니다.
 
@@ -65,4 +64,3 @@ Adobe Campaign 내 사용자 프로세스의 주요 단계는 다음과 같습�
 >[!NOTE]
 >
 >모범 사례 및 기술 제한에 대한 자세한 내용은 [트리거 모범 사례 및 제한 사항](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations)을 참조하십시오.
-
