@@ -10,10 +10,10 @@ feature: 워크플로우
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -707,11 +707,7 @@ ht-degree: 96%
    <td> 숫자, 문자열 또는 날짜 열의 최소값 반환<br /> </td> 
    <td> Min(&lt;값&gt;)<br /> </td> 
   </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong>, 문자열 합계<br /> </td> 
-   <td> 두 번째 인수에서 문자로 구분되는 문자열 유형 열의 값 연결을 반환합니다(기본 구분 기호는 쉼표).<br /> </td> 
-   <td> StringAgg(&lt;문자열 값&gt;,&lt;구분 기호&gt;)
-  </tr>
+
 
 
 
