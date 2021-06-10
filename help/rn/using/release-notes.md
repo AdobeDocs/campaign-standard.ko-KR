@@ -10,10 +10,10 @@ feature: 개요
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,6 @@ ht-degree: 6%
 * 다중 변형 게재에서 기본 변형이 삭제된 경우 사용자가 더 이상 언어 사본을 만들 수 없습니다. 이제 언어 사본 작성 중에 메시지가 표시됩니다. (CAMP-48235)
 
 * 2단계 프로필 삭제 프로세스(Campaign 19.4 릴리스부터 더 이상 사용되지 않음)는 이제 기본적으로 비활성화됩니다. 이전에는 개인 정보 보호 핵심 서비스를 사용하기 전에 Campaign 인터페이스에서 수동으로 비활성화해야 했습니다. 이렇게 하지 않으면 삭제 요청이 완료되지 않고 보류 중인 상태로 유지됩니다.
-
-* 문자열 유형 열의 값을 연결하기 위해 새로운 &#39;StringAgg&#39; 집계 함수가 도입되었습니다. (CAMP-47077) [자세히 알아보기](../../automating/using/list-of-functions.md#aggregates)
 
 * 동적 보고서에서 **제외 증명** 세그먼트가 제거되었습니다. (CAMP-46161)
 
