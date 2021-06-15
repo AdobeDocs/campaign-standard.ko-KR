@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 설명서
-source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
+source-git-commit: 49b9e97c1eb53b99c8118e08e5ba1ca94bc59c65
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1788'
 ht-degree: 99%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 # Adobe Campaign Standard 도움말 {#using}
 
-+ [제품 설명서](campaign-standard-home.md)
++ [Campaign Standard 설명서](campaign-standard-home.md)
 + [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/release-notes.md)
