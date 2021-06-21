@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 2021년 릴리스 정보
+title: 2021년 릴리스 노트
 description: 이 페이지에는 Adobe Campaign Standard의 2021년 릴리스가 모두 나열되어 있습니다.
 audience: rn
 content-type: reference
@@ -12,14 +12,14 @@ level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 95%
+source-wordcount: '2535'
+ht-degree: 100%
 
 ---
 
-# 릴리스 정보 2021년{#release-notes-2021}
+# 2021년 릴리스 정보{#release-notes-2021}
 
-[릴리스 계획](../../rn/using/release-planning.md) | [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2020.md) | [더 이상 사용되지 않는 기능](../../rn/using/deprecated-features.md)
+[릴리스 계획](../../rn/using/release-planning.md) | [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2020.md) | [지원 종료 기능](../../rn/using/deprecated-features.md)
 
 ## 릴리스 21.1 - 2021년 2월 {#release-21-1---february-2021}
 
@@ -151,11 +151,11 @@ ht-degree: 95%
 
 * 한 번 실행되고 임시 리소스를 활용하는 **중복 제거** 활동을 복사하여 붙여넣을 때 발생할 수 있는 워크플로우의 문제를 해결했습니다. 중복되면 활동 리소스가 자동으로 비어 있게 설정되므로 워크플로우의 다른 활동에서 문제가 발생합니다. 붙여넣으면 이제 활동의 리소스는 워크플로우에서 나중에 오류를 트리거하지 않고 가능한 한 빨리 오류를 트리거하기 위해 동일하게 유지됩니다. (CAMP-46903)
 
-* 새 [target 매핑](../../administration/using/target-mappings-in-campaign.md)을 도입하여 트랜잭션 푸시 알림 타겟팅 프로필을 전송할 때 게재 분석이 실패하는 문제를 해결했습니다.**프로필 - Push**&#x200B;에 대한 실시간 이벤트(*mapRtEventAppSubRcp*). [프로필 기반 트랜잭션 푸시 알림](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)에 대한 게재, 제외 및 추적 로그는 이제 *broadLogAppSubRcp*, *excludeLogAppSubRcp* 및 *trackingLogAppSubRcp* 테이블에 저장됩니다.
+* 트랜잭션 푸시 알림 타기팅 프로필을 보낼 때 게재 분석이 실패하는 문제를 해결하기 위해 다음과 같은 새 [타깃 매핑](../../administration/using/target-mappings-in-campaign.md)을 도입했습니다. **프로필 - 푸시할 실시간 이벤트**(*mapRtEventAppSubRcp*). [프로필 기반 트랜잭션 푸시 알림](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)의 게재, 제외 및 추적 로그가 이제 *broadLogAppSubRcp*, *excludeLogAppSubRcp* 및 *trackingLogAppSubRcp* 테이블에 저장됩니다.
 
    >[!IMPORTANT]
    >
-   >이러한 변경으로 인해 기존 프로필 기반 푸시 트랜잭션 알림을 사용하는 경우(Adobe Campaign 21.1로 업그레이드하기 전에 생성됨) 대상 매핑을 새 프로필에 업데이트하고 메시지를 다시 게시하는 것이 좋습니다. 여기](../../channels/using/transactional-push-notifications.md#change-target-mapping)에서 자세한 [단계를 참조하십시오. 이전 대상 매핑 **프로필 - 실시간 이벤트**(*mapRtEventRcp*)를 사용하면 게재 준비 시간이 길어지고 성능이 저하될 수 있습니다.
+   >이 변경에 따라, 기존 프로필 기반 푸시 트랜잭션 알림(Adobe Campaign 21.1로 업그레이드하기 전에 만든 것)을 사용하는 경우 타깃 매핑을 새 프로필에 업데이트하고 메시지를 다시 게시하는 것이 좋습니다. 자세한 단계는 [여기](../../channels/using/transactional-push-notifications.md#change-target-mapping)를 참조하세요. 이전 타깃 매핑 **프로필 - 실시간 이벤트**(*mapRtEventRcp*)를 사용하면 게재 준비 시간이 길어지고 성능이 저하될 수 있습니다.
 
 * 5,000개의 행이 표시되었을 때 게재 보고서가 실행되지 않던 문제를 해결했습니다.
 * 게재 템플릿이 수정된 후 변형 B의 콘텐츠가 업데이트되지 않는 A/B 테스트 문제를 해결했습니다. (CAMP-45235)
