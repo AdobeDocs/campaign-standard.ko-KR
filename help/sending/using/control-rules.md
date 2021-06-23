@@ -10,7 +10,7 @@ feature: Typology 규칙
 role: Business Practitioner
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 4%
@@ -30,7 +30,7 @@ ht-degree: 4%
 기본 규칙 세트를 사용하면 표준 컨트롤을 사용할 수 있습니다. 아래 표에는 이러한 규칙과 관련 채널 및 [실행 단계](#control-rules-execution-phases)에 대한 정보가 나와 있습니다.
 
 | 레이블 | 채널 | 실행 단계 | 설명 |
-|---------|----------|---------|---------
+|---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | 이메일 | 개인화 시작 시 | A/B 테스트를 사용하여 게재할 테스트 모집단을 추출합니다. |
 | **[!UICONTROL Check delivery size]** | 모두 | 타겟팅 후 | 메시지 크기를 확인합니다. |
 | **[!UICONTROL Check email content is not empty]** | 이메일 | 타겟팅 후 | 메시지 콘텐츠가 비어 있는 경우 오류를 생성합니다. |
