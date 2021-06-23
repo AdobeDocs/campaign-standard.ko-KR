@@ -11,9 +11,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '990'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 ## 릴리스 21.2 - 2021년 6월 {#release-21-2---june-2021}
 
-다음 Campaign Standard 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항은 아래에 나와 있습니다. 이번 Campaign Standard 릴리스에 포함된 새로운 기능, 개선 사항 및 버그 해결 내역은 아래에 나와 있습니다.
+다음 Campaign Standard 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항은 아래에 나열됩니다. 이번 Campaign Standard 릴리스에 포함된 새로운 기능, 개선 사항 및 버그 해결 내역은 아래에 나와 있습니다.
 
 **개선 사항**
 
