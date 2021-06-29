@@ -7,17 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-feature: Workflows
+feature: 워크플로우
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
+source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 92%
+source-wordcount: '1116'
+ht-degree: 91%
 
 ---
-
 
 # 파일 전송{#transfer-file}
 
@@ -27,7 +26,7 @@ ht-degree: 92%
 
 **[!UICONTROL Transfer file]** 활동을 사용하면 Adobe Campaign에서 파일을 받거나 보내고, 파일이 있는지 테스트하거나, 파일 목록을 만들 수 있습니다.
 
-## 사용 컨텍스트 {#context-of-use}
+## 사용의 컨텍스트 {#context-of-use}
 
 활동을 구성할 때 데이터 추출 방법을 정의합니다. 예를 들어 로드할 파일이 연락처 목록이라고 해 보겠습니다.
 
@@ -54,7 +53,7 @@ ht-degree: 92%
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Microsoft Azure Blob 저장소](#azure-blob-configuration-wf)
+   * [Microsoft Azure Blob 저장 공간](#azure-blob-configuration-wf)
    * [Adobe Campaign 서버에 있는 파일](#files-server-configuration-wf)
 
 1. 선택한 프로토콜에 따라 활성화되는 **[!UICONTROL Additional options]** 섹션에서 프로토콜에 매개 변수를 추가할 수 있습니다. 다음을 수행할 수 있습니다.
@@ -106,6 +105,12 @@ Amazon S3 프로토콜을 사용하면 URL 또는 외부 계정에서 Amazon Sim
 
    ![](assets/wkf_file_transfer_08.png)
 
+   >[!CAUTION]
+   >
+   > 와일드카드는 Amazon S3에서 지원되지 않습니다.
+   >
+   > `my_file_02` 및 `my _file_3433` 같은 여러 파일을 타깃팅하려면 다음 구문을 사용할 수 있습니다.`acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`
+
 4. 전송이 완료되었을 때 소스 파일을 삭제하려면 **[!UICONTROL Delete the source files after transfer]**&#x200B;을(를) 선택합니다.
 
 ### Microsoft Azure Blob 저장소를 사용한 구성 {#azure-blob-configuration-wf}
@@ -142,11 +147,11 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 
 예제:
 
-`user&lt;yourinstancename>/my_recipients.csv` 가 올바른지 확인하십시오.
+`user&lt;yourinstancename>/my_recipients.csv` 가 올바릅니다.
 
-`../hello/my_recipients.csv` 가 잘못되었습니다.
+`../hello/my_recipients.csv` 은 올바르지 않습니다.
 
-`//myserver/hello/myrecipients.csv` 가 잘못되었습니다.
+`//myserver/hello/myrecipients.csv` 은 올바르지 않습니다.
 
 ## 내역 설정 {#historization-settings}
 
@@ -170,11 +175,9 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 
 **[!UICONTROL Transfer file]** 활동은 이벤트 변수를 출력으로 생성하므로 다른 활동에서 활용할 수 있습니다. 예를 들어 [Test](../../automating/using/test.md) 활동을 사용하여 다운로드한 파일의 수를 확인할 수 있습니다.
 
-외부 신호를 사용하여 이벤트 변수를 다른 워크플로에 전달할 수도 있습니다(외부 매개 변수](../../automating/using/customizing-workflow-external-parameters.md)로 워크플로 사용자 지정 참조).[
+외부 신호를 사용하여 다른 워크플로우에 이벤트 변수를 전달할 수도 있습니다( [외부 매개 변수로 워크플로우 사용자 정의](../../automating/using/customizing-workflow-external-parameters.md) 참조).
 
 사용 가능한 출력 변수는 다음과 같습니다.
 
-* **[!UICONTROL fileName]**:변환된 파일의 이름입니다.
-* **[!UICONTROL filesCount]**:변환된 파일 수입니다.
-
-
+* **[!UICONTROL fileName]**:전송된 파일의 이름입니다.
+* **[!UICONTROL filesCount]**:전송된 파일 수
