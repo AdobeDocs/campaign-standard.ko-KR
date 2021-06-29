@@ -10,18 +10,14 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: 인앱
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1173'
 ht-degree: 98%
 
 ---
 
 # 인앱 메시지 준비 및 보내기{#preparing-and-sending-an-in-app-message}
-
->[!NOTE]
->
->인앱 개인화는 일반적으로 CRM ID 및/또는 모바일 앱 로그인 ID인 연계 필드에 의존합니다. Adobe Campaign과 관련하여 사용할 경우 이 연계 필드의 보안을 유지하는 것은 전적으로 귀하의 책임입니다. 연계 필드를 안전하게 유지하지 않으면 개인화된 메시지가 취약할 수 있습니다. 안전한 연계 필드 구성, 관리 및 보호 방침을 따르지 않을 경우 Adobe는 무단 액세스 또는 프로필 데이터 사용으로 인해 발생하는 손해에 대해 책임을 지지 않습니다.
 
 Adobe Campaign에서는 다음 세 가지 유형의 인앱 메시지를 사용할 수 있습니다.
 
@@ -32,29 +28,15 @@ Adobe Campaign에서는 다음 세 가지 유형의 인앱 메시지를 사용�
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: 이 메시지 유형을 사용하면 Adobe Campaign에 기존 프로필이 없더라도 모바일 애플리케이션의 모든 사용자(현재 또는 미래)에게 메시지를 보낼 수 있습니다. 따라서 사용자 프로필이 Adobe Campaign에 존재하지 않을 수 있으므로 메시지를 사용자 지정할 때는 개인화를 수행할 수 없습니다.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: 이 메시지 유형을 사용하면 Adobe Campaign에 모바일 프로필이 있는 모바일 앱의 알려진 모든 사용자 또는 익명의 사용자를 타겟팅할 수 있습니다. 이 메시지 유형은 개인적이지 않고 민감하지 않은 속성만 사용하여 개인화할 수 있으며 Mobile SDK와 Adobe Campaign의 인앱 메시지 서비스 간에 안전한 핸드셰이크가 필요하지 않습니다.
 
-   개인적이고 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [개인적이고 민감한 데이터를 사용하여 모바일 프로필 필드 처리](#handling-mobile-profile-fields-with-personal-and-sensitive-data)를 참조하십시오.
+   개인적이고 민감한 데이터를 처리하는 방법에 대한 자세한 내용은 [개인적이고 민감한 데이터를 사용하여 모바일 프로필 필드 처리](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)를 참조하십시오.
 
 ![](assets/diagram_inapp.png)
 
-## 개인적이고 민감한 데이터를 사용하여 모바일 프로필 필드 처리 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
-
-모바일 디바이스에서 전송한 모바일 프로필 속성 데이터는 Adobe Campaign의 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 리소스에 저장됩니다. 이를 통해 애플리케이션 구독자로부터 수집하려는 데이터를 정의할 수 있습니다.
-
-모바일 디바이스에서 Adobe Campaign으로 전송하려는 데이터를 수집하려면 이 리소스를 확장해야 합니다. 자세한 단계는 이 [페이지](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)를 참조하십시오.
-
-인앱 메시지를 보다 안전하게 개인화하려면 이 리소스의 모바일 프로필 필드를 그에 따라 구성해야 합니다. **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;에서 새 모바일 프로필 필드를 만들 때 인앱 메시지 개인화 설정 중에 사용할 수 없도록 하려면 **[!UICONTROL Personal and Sensitive]**&#x200B;을(를) 선택합니다.
-
->[!NOTE]
->
->이 테이블에 사용자 지정 리소스 확장을 사용하는 기존 구현이 있는 경우 인앱 메시지를 개인화하기 위해 필드를 활용하기 전에 해당 필드에 적절하게 레이블을 지정하는 것이 좋습니다.
-
-![](assets/in_app_personal_data_2.png)
-
-**[!UICONTROL Subscriptions to an application]** 사용자 지정 리소스가 구성 및 게시되면 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 템플릿을 사용하여 인앱 게재 준비를 시작할 수 있습니다. 개인화를 위해 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 리소스에서 개인적이지 않고 민감하지 않은 필드만 사용할 수 있습니다. 
-
-**개인적이고 민감한** 필드를 사용하여 개인화해야 하는 경우, 사용자의 PII 데이터를 안전하게 유지하기 위해 추가적인 보안 메커니즘이 있는 **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** 템플릿을 사용하는 것이 좋습니다.
-
 ## 인앱 메시지 준비 {#preparing-your-in-app-message}
+
+>[!CAUTION]
+>
+>인앱 개인화는 일반적으로 CRM ID 및/또는 모바일 앱 로그인 ID인 연계 필드에 의존합니다. Adobe Campaign과 관련하여 사용할 경우 이 연계 필드의 보안을 유지하는 것은 전적으로 귀하의 책임입니다. 연계 필드를 안전하게 유지하지 않으면 개인화된 메시지가 취약할 수 있습니다. 안전한 연계 필드 구성, 관리 및 보호 방침을 따르지 않을 경우 Adobe는 무단 액세스 또는 프로필 데이터 사용으로 인해 발생하는 손해에 대해 책임을 지지 않습니다.
 
 Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는 다음과 같습니다.
 
@@ -133,9 +115,24 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
 **관련 항목:**
 
-* [인앱 메시지 사용자 지정](../../channels/using/customizing-an-in-app-message.md)
+* [인앱 메시지 사용자 정의](../../channels/using/customizing-an-in-app-message.md)
 * [인앱 보고서](../../reporting/using/in-app-report.md)
 * [워크플로우 내에서 인앱 메시지 보내기](../../automating/using/in-app-delivery.md)
+
+## 인앱 메시지 미리 보기 {#previewing-the-in-app-message}
+
+인앱 메시지를 보내기 전에 테스트 프로필로 테스트하여 대상 고객이 게재를 받을 때 보게 될 내용을 확인할 수 있습니다.
+
+1. **[!UICONTROL Preview]** 버튼을 클릭합니다.
+
+   ![](assets/inapp_sending_2.png)
+
+1. **[!UICONTROL Select a test profile]** 버튼을 클릭하고 테스트 프로필 중 하나를 선택하여 게재 미리 보기를 시작합니다. 테스트 프로필에 대한 자세한 내용은 이 [섹션](../../audiences/using/managing-test-profiles.md)을 참조하십시오.
+1. Android나 iPhone, 심지어 태블릿과 같은 다양한 디바이스에서 메시지를 확인할 수 있습니다. 개인화 필드가 올바른 데이터를 검색하고 있는지 확인할 수도 있습니다.
+
+   ![](assets/inapp_sending_3.png)
+
+1. 이제 메시지를 전송하고 게재 보고서를 통해 그 효과를 측정할 수 있습니다.
 
 ## 인앱 메시지 보내기 {#sending-your-in-app-message}
 
