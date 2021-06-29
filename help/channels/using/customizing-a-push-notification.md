@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push
+feature: 푸시
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fe3495b-e360-4169-b295-86ad93753468
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 98%
+source-wordcount: '1511'
+ht-degree: 97%
 
 ---
-
 
 # 푸시 알림 사용자 정의{#customizing-a-push-notification}
 
@@ -45,7 +44,9 @@ ht-degree: 98%
 
    ![](assets/push_notif_advanced_7.png)
 
-1. 모바일 애플리케이션 패키지에 파일이 정의된 경우 알림을 전송할 때 사운드 파일이 재생됩니다. 그렇지 않으면 디바이스의 기본 사운드가 재생됩니다.
+1. 모바일 애플리케이션 패키지에 파일이 정의된 경우 알림을 전송할 때 사운드 파일이 재생됩니다. 장치의 기본 사운드를 재생하려면 **기본**&#x200B;으로 설정할 수 있습니다.
+
+   **[!UICONTROL Play a sound]** 필드가 비어 있으면 사운드가 재생되지 않습니다.
 
 그런 다음 사용자는 자신의 휴대 전화가 음소거되어 있지 않은 경우에만 푸시 알림과 사운드를 수신하게 됩니다.
 
@@ -114,7 +115,7 @@ ht-degree: 98%
 
 푸시 알림에 만료 날짜를 추가하려면 다음을 수행합니다.
 
-1. **[!UICONTROL Expire message]** 옵션을 선택합니다.**[!UICONTROL Expire message]** 옵션을 선택하면 기간이 자동으로 0으로 설정됩니다. 값을 변경하지 않으면 APNS 및 FCM 모두 메시지를 즉시 보내려고 시도합니다. 실패하면 메시지가 다시 전송되지 않습니다.
+1. **[!UICONTROL Expire message]** 옵션을 선택합니다.**[!UICONTROL Expire message]** 옵션을 선택하면 지속 시간이 자동으로 0으로 설정됩니다. 값을 변경하지 않으면 APNS 및 FCM 모두 메시지를 즉시 보내려고 시도합니다. 실패하면 메시지가 다시 전송되지 않습니다.
 
 1. **[!UICONTROL Duration]** 필드에서 푸시 알림의 유효성을 선택합니다.
 
