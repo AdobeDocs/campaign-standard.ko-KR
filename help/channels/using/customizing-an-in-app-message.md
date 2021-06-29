@@ -7,19 +7,18 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: In App
+feature: 인앱
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '977'
 ht-degree: 99%
 
 ---
 
-
-# 인앱 메시지 사용자 지정{#customizing-an-in-app-message}
+# 인앱 메시지 사용자 정의{#customizing-an-in-app-message}
 
 인앱 메시지를 세밀하게 조정하려면 Adobe Campaign을 사용하여 인앱을 디자인하는 동안 고급 옵션 세트에 액세스할 수 있습니다.
 
@@ -128,7 +127,7 @@ ht-degree: 99%
 1. **[!UICONTROL Redirect]** 작업을 선택한 경우, **[!UICONTROL Destination URL]** 필드에 웹 URL이나 딥 링크를 입력합니다.
 1. 미리 보기 창에서나 미리 보기 버튼을 클릭하여 메시지 콘텐츠를 확인합니다.
 
-   [인앱 메시지 미리 보기](#previewing-the-in-app-message) 페이지를 참조하십시오 .
+   [인앱 메시지 미리 보기](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message) 페이지를 참조하십시오 .
 
    ![](assets/inapp_customize_11.png)
 
@@ -190,18 +189,3 @@ Adobe Campaign에서 성공적으로 가져오기 위한 사용자 지정 HTML �
 ![](assets/inapp_customize_3.png)
 
 HTML을 가져온 후에는 여러 디바이스의 미리 보기 창에서 미리 볼 수 있습니다.
-
-## 인앱 메시지 미리 보기 {#previewing-the-in-app-message}
-
-인앱 메시지를 보내기 전에 테스트 프로필로 테스트하여 대상 고객이 게재를 받을 때 보게 될 내용을 확인할 수 있습니다.
-
-1. **[!UICONTROL Preview]** 버튼을 클릭합니다.
-
-   ![](assets/inapp_sending_2.png)
-
-1. **[!UICONTROL Select a test profile]** 버튼을 클릭하고 테스트 프로필 중 하나를 선택하여 게재 미리 보기를 시작합니다. 테스트 프로필에 대한 자세한 내용은 이 [섹션](../../audiences/using/managing-test-profiles.md)을 참조하십시오.
-1. Android나 iPhone, 심지어 태블릿과 같은 다양한 디바이스에서 메시지를 확인할 수 있습니다. 개인화 필드가 올바른 데이터를 검색하고 있는지 확인할 수도 있습니다.
-
-   ![](assets/inapp_sending_3.png)
-
-1. 이제 메시지를 전송하고 게재 보고서를 통해 그 효과를 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../../reporting/using/in-app-report.md)을 참조하십시오.
