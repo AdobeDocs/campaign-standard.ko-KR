@@ -9,21 +9,21 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# Adobe Campaign Standard 도움말 {#campaign-standard-documentation}
+# Adobe Campaign Standard 설명서 {#campaign-standard-documentation}
 
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## 새로운 기능
 
-* **[Apple Mail Privacy Protection ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> FAQiOS 15에 대한 Apple의 발표에 대한 초기 지침을 찾습니다
+* **[Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ko)**<br/> iOS 15에 대한 Apple의 공지의 초기 지침을 찾습니다
 
-* **[Campaign - RTCDP 통합](integrating/using/get-started-sources-destinations.md)**<br/> Campaign 및 RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공유하는 방법을 살펴봅니다.
+* **[Campaign - RTCDP 통합](integrating/using/get-started-sources-destinations.md)**<br/> Campaign 및 RTCDP(Real-time Customer Data Platform) 간에 데이터를 공유하는 방법을 알아봅니다.
 
 * **[컨트롤 그룹](sending/using/control-group.md)**<br/> 대상자의 일부를 제외하여 캠페인의 영향을 측정합니다
 
