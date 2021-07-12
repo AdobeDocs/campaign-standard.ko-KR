@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: 전달성
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 66%
@@ -69,7 +69,7 @@ ht-degree: 66%
 | **[!UICONTROL Not defined]** | 소프트 | 오류가 증가하지 않았기 때문에 주소가 유효합니다. | 아직 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. |
 | **[!UICONTROL Error ignored]** | 무시됨 | 주소는 허용 목록에 추가하다 켜져 있으며 어떤 경우에서도 이메일이 전송됩니다. |
 | **[!UICONTROL Address on denylist]** | 하드 | 주소를 차단 목록 전송할 때에 추가했습니다. |
-| **[!UICONTROL Account disabled]** | 소프트/하드 | IAP(인터넷 액세스 제공자)가 장기간 동안 비활성화 상태를 감지하면 사용자의 계정을 닫을 수 있습니다.사용자의 주소로 게재하는 것은 불가능합니다. 소프트 또는 하드 유형은 받은 오류 유형에 따라 달라집니다. 6개월 동안 활동이 없어 계정이 일시적으로 비활성화되고 아직 활성화될 수 있는 경우 **[!UICONTROL Erroneous]** 상태가 할당되고 게재를 다시 시도합니다. 수신된 오류가 계정이 영구적으로 비활성화되었음을 나타내는 경우 해당 계정은 즉시 격리로 전송됩니다. |
+| **[!UICONTROL Account disabled]** | 소프트/하드 | IAP(인터넷 액세스 제공자)가 장기간 동안 비활성화 상태를 감지하면 사용자의 계정을 닫을 수 있습니다. 사용자의 주소로 게재하는 것은 불가능합니다. 소프트 또는 하드 유형은 받은 오류 유형에 따라 달라집니다. 6개월 동안 활동이 없어 계정이 일시적으로 비활성화되고 아직 활성화될 수 있는 경우 **[!UICONTROL Erroneous]** 상태가 할당되고 게재를 다시 시도합니다. 수신된 오류가 계정이 영구적으로 비활성화되었음을 나타내는 경우 해당 계정은 즉시 격리로 전송됩니다. |
 | **[!UICONTROL Not connected]** | 무시됨 | 메시지가 전송될 때 프로필의 휴대폰이 꺼져 있거나 네트워크에 연결되어 있지 않습니다. |
 | **[!UICONTROL Invalid domain]** | 소프트 | 이메일 주소의 도메인이 잘못되었거나 더 이상 존재하지 않습니다. 이 프로필은 오류 수가 5개에 도달할 때까지 다시 타겟팅됩니다. 이후 레코드가 격리 상태로 설정되며 다시 시도되지 않습니다. |
 | **[!UICONTROL Text too long]** | 무시됨 | SMS 메시지의 문자 수가 한도를 초과합니다. 자세한 내용은 [SMS 인코딩, 길이 및 음역](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)을 참조하십시오. |
