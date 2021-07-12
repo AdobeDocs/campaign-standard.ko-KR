@@ -6,13 +6,12 @@ description: Adobe Campaign Standard Workspace의 접근성 지원에 대해 알
 audience: designing
 content-type: reference
 topic-tags: accessibility
-feature: Campaigns
-role: Business Practitioner
+feature: 캠페인
+role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -86,7 +85,7 @@ Adobe Campaign Standard는 영어, 프랑스어 및 독일어의 다양한 언�
 
 설치 시 언어가 설정되고 나중에 변경할 수 없습니다.
 
-## 단축키{#shortcuts}
+## 단축키 {#shortcuts}
 
 ### 홈페이지 {#homepage-shortcuts}
 
@@ -123,7 +122,7 @@ Adobe Campaign Standard는 영어, 프랑스어 및 독일어의 다양한 언�
 | Shift + Alt + S | 일정에 따라 보고서 전송 |
 | Shift = Alt + L | 예약된 보고서 |
 
-## 추가 읽기{#further-reading}
+## 추가 읽기 {#further-reading}
 
 Adobe Campaign Standard는 모든 사용자가 쉽게 사용할 수 있도록 항상 증가하는 접근성 수준을 제공하기 위해 노력하고 있습니다.
 
