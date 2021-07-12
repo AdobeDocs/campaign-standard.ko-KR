@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+feature: 랜딩 페이지
+role: User
+exl-id: 8015c555-9521-478c-8669-66b9cc145887
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 96%
+source-wordcount: '1029'
+ht-degree: 97%
 
 ---
-
 
 # 랜딩 페이지 시작 {#getting-started-with-landing-pages}
 
@@ -26,7 +25,7 @@ ht-degree: 96%
 
 이 페이지에서는 이 단계 각각에 대한 정보를 확인할 수 있으며, 더 자세히 알아보기 위해 참조할 전용 설명서도 찾아 볼 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 랜딩 페이지를 만드는 방법 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 랜딩 페이지를 만드는 방법을 알아봅니다](#video)
 
 **관련 항목:**
 
@@ -135,10 +134,10 @@ ht-degree: 96%
 
 랜딩 페이지 게시에 대한 자세한 정보는 [이 섹션](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)을 참조하십시오.
 
-## 자습서 비디오 {#video}
+## 튜토리얼 비디오 {#video}
 
-이 비디오는 랜딩 페이지를 만들고 편집하는 방법을 보여줍니다.
+이 비디오에서는 랜딩 페이지를 만들고 편집하는 방법을 보여줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-추가 Campaign Standard 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.
