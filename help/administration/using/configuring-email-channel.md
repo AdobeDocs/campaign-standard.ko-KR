@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: 인스턴스 설정
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '2598'
 ht-degree: 76%
 
 ---
 
-# 전자 메일 채널 구성{#configuring-email-channel}
+# 이메일 채널 구성{#configuring-email-channel}
 
 Campaign [관리자](../../administration/using/users-management.md#functional-administrators)는 전자 메일 채널 설정을 구성할 수 있습니다. 이러한 고급 설정에는 일반 전자 메일 채널 매개 변수, 전자 메일 라우팅 계정, 전자 메일 처리 규칙 및 전자 메일 속성이 포함됩니다. 이 페이지에서는 일반 전자 메일 및 전송 매개 변수의 기본값을 편집하는 방법을 배웁니다.
 
@@ -336,9 +336,9 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 바운스는 다음과 같은 자격 상태를 가질 수 있습니다.
 
-* **[!UICONTROL To qualify]**:반송 메일을 검증해야 합니다. 플랫폼 게재 기능이 제대로 작동하도록 하려면 게재 가능성 팀이 자격을 수행해야 합니다. 자격이 없는 한 반송 메일은 이메일 처리 규칙 목록을 보강하는 데 사용되지 않습니다.
-* **[!UICONTROL Keep]**:바운스 메일은 자격을 부여했으며 게재 능력을  **위한 업데이트 워크플로우에서 기존** 전자 메일 처리 규칙과 비교하고 목록을 보강하는 데 사용됩니다.
-* **[!UICONTROL Ignore]**:바운스 메일은 자격이 있지만 게재 능력을 위한  **업데이트 워크플로우에서는 사용되지** 않습니다. 따라서 클라이언트 인스턴스로 전송되지 않습니다.
+* **[!UICONTROL To qualify]**: 반송 메일을 검증해야 합니다. 플랫폼 게재 기능이 제대로 작동하도록 하려면 게재 가능성 팀이 자격을 수행해야 합니다. 자격이 없는 한 반송 메일은 이메일 처리 규칙 목록을 보강하는 데 사용되지 않습니다.
+* **[!UICONTROL Keep]**: 바운스 메일은 자격을 부여했으며 게재 능력을  **위한 업데이트 워크플로우에서 기존** 전자 메일 처리 규칙과 비교하고 목록을 보강하는 데 사용됩니다.
+* **[!UICONTROL Ignore]**: 바운스 메일은 자격이 있지만 게재 능력을 위한  **업데이트 워크플로우에서는 사용되지** 않습니다. 따라서 클라이언트 인스턴스로 전송되지 않습니다.
 
 >[!NOTE]
 >
@@ -346,7 +346,7 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### 배달된 표시기 보고 {#legacy-delivered-status-report}
+### 배달된 지표 보고 {#legacy-delivered-status-report}
 
 각 메시지의 **[!UICONTROL Summary]** 보기에서 소프트 및 하드 바운스가 다시 보고됨에 따라 **[!UICONTROL Delivered]** 비율은 게재 유효 기간 동안 점진적으로 증가합니다.
 
