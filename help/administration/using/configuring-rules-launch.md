@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: 인스턴스 설정
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
 
 ---
 
-# Adobe Campaign Standard 사용 사례를 지원하기 위한 Experience Platform Launch 규칙 구성 {#configuring-rules-launch}
+# Adobe Campaign Standard 사용 사례를 지원하기 위한 Launch 규칙 구성 {#configuring-rules-launch}
 
 [!DNL Adobe Experience Platform Launch]에서는 모바일 애플리케이션에서 [!DNL Adobe Campaign Standard]로 PII 및 기타 데이터를 전송하기 위해 데이터 요소와 규칙을 만들어야 합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 1%
    * [푸시 알림 추적 포스트백](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
    * [위치 포스트백](../../administration/using/configuring-rules-launch.md#location-postback)
 
-## 데이터 요소 {#create-data-elements} 만들기
+## 데이터 요소 만들기 {#create-data-elements}
 
 다음은 [!DNL Experience Platform Launch]에서 만드는 것이 권장되는 데이터 요소입니다.
 필요에 따라 추가 데이터 요소를 만들 수 있습니다.
@@ -91,7 +91,7 @@ PII 데이터를 [!DNL Adobe Campaign Standard]에 보내려면 [!DNL Experience
 
 1. **[!UICONTROL Extension]** 드롭다운에서 **[!UICONTROL Mobile Core]** 을 선택합니다. 그런 다음 **[!UICONTROL Event type]** 드롭다운에서 **[!UICONTROL Collect PII]** 을 클릭합니다.
 
-1. **[!UICONTROL Keep changes]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Keep changes]**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL Actions]** 섹션에서 **[!UICONTROL Add]** 를 클릭합니다.
 
@@ -160,7 +160,7 @@ PII 데이터를 [!DNL Adobe Campaign Standard]에 보내려면 [!DNL Experience
 
 1. **[!UICONTROL Extension]** 드롭다운에서 **[!UICONTROL Adobe Campaign Standard]** 을 선택합니다. 그런 다음 **[!UICONTROL Event type]** 드롭다운에서 **[!UICONTROL In-App click tracking]** 을 클릭합니다.
 
-1. **[!UICONTROL Keep changes]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Keep changes]**&#x200B;를 클릭합니다.
 
 1. **[!UICONTROL Actions]** 섹션에서 **[!UICONTROL Add]** 를 클릭합니다.
 
