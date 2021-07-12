@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: 트랜잭션 메시지
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 4%
@@ -33,7 +33,7 @@ Adobe Campaign을 사용하여 iOS 및 Android 모바일 장치에서 트랜잭�
 * [이벤트를 타겟팅하는 트랜잭션 푸시 알림](#transactional-push-notifications-targeting-an-event)
 * [Adobe Campaign 데이터베이스](#transactional-push-notifications-targeting-a-profile) 의 트랜잭션 푸시 알림 타겟팅 프로필
 
-## 이벤트 {#transactional-push-notifications-targeting-an-event} 를 타겟팅하는 트랜잭션 푸시 알림
+## 이벤트를 타겟팅하는 트랜잭션 푸시 알림 {#transactional-push-notifications-targeting-an-event}
 
 Adobe Campaign을 사용하여 모바일 애플리케이션에서 알림을 받도록 선택한 모든 사용자&#x200B;**에게**&#x200B;익명 트랜잭션 푸시 알림을 보낼 수 있습니다.
 
@@ -119,7 +119,7 @@ Adobe Campaign을 사용하여 모바일 애플리케이션에서 알림을 받�
 
 *&quot;안녕하세요, 제인 그린, 탑승이 막 시작되었어요! Gate B18.&quot;*
 
-## 프로필 {#transactional-push-notifications-targeting-a-profile}을(를) 타겟팅하는 트랜잭션 푸시 알림
+## 프로필을 타겟팅하는 트랜잭션 푸시 알림 {#transactional-push-notifications-targeting-a-profile}
 
 모바일 애플리케이션&#x200B;**을 구독한 Adobe Campaign 프로필에 트랜잭션 푸시 알림**&#x200B;을 보낼 수 있습니다. 이 게재에는 Adobe Campaign 데이터베이스에서 직접 검색된 수신자 이름과 같은 [개인화 필드](../../designing/using/personalization.md#inserting-a-personalization-field)가 포함될 수 있습니다.
 
@@ -210,7 +210,7 @@ Adobe Campaign을 사용하여 모바일 애플리케이션에서 알림을 받�
 
 1. **[!UICONTROL Advanced parameters]** 섹션을 확장합니다.
 
-1. **[!UICONTROL Select a 'Target mapping' element]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Select a 'Target mapping' element]**&#x200B;를 클릭합니다.
 
    ![](assets/message-center_push_target-mapping.png)
 
