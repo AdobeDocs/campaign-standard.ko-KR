@@ -6,19 +6,18 @@ description: 개인 정보 관리를 위한 Adobe Campaign Standard 기능에 �
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
-role: Business Practitioner
+feature: 개인 정보
+role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 100%
 
 ---
 
-# 개인 정보 관리 {#privacy-management}
+# 개인 정보 보호 관리 {#privacy-management}
 
 Adobe Campaign은 GDPR, CCPA, PDPA 및 LGPD와 같은 [개인 정보 보호 규정](#privacy-management-regulations)을 준수하는 데 도움이 되는 다양한 도구를 제공합니다.
 
@@ -63,7 +62,7 @@ Adobe Campaign의 기능은 다음과 같은 규정을 준수하는 데 도움�
 >
 >개인 데이터 및 데이터를 관리하는 다양한 엔터티(데이터 컨트롤러, 데이터 프로세서 및 데이터 주체)에 대한 자세한 내용은 [개인 데이터 및 가상 사용자를 참조하십시오](../../start/using/privacy.md#personal-data).
 
-## 액세스 권한 및 잊혀질 권리 {#right-access-forgotten}
+## 액세스 권리 및 잊혀질 권리 {#right-access-forgotten}
 
 Adobe Campaign을 사용하면 개인정보 보호 준비를 원활히 수행할 수 있도록 **액세스** 및 **삭제** 요청을 처리할 수 있습니다 .
 
