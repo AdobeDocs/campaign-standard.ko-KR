@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: 프로필
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 22%
@@ -32,7 +32,7 @@ ht-degree: 22%
 
 서비스 및 랜딩 페이지를 사용하여 고객의 권한 및 동의를 관리하여 손쉽게 옵트인 및 옵트아웃 메커니즘을 설정할 수 있습니다.
 
-## 세그먼트화 및 타깃팅 {#segmenting-targeting}
+## 세그먼트화 및 타겟팅 {#segmenting-targeting}
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
@@ -42,13 +42,13 @@ ht-degree: 22%
 
 Adobe Campaign은 풍부한 고객 프로필을 실시간으로 작성하므로 고객의 환경 설정 변경에 따라 보다 연관성 있고 개인화된 오퍼를 제공할 수 있습니다. 또한 Adobe Campaign은 고급 분석, 데이터 관리 및 타겟팅 기능을 통합하여 대상을 구성합니다.
 
-**** 프로필은 데이터베이스에 저장된 개별 연락처입니다. 각 프로필은 데이터베이스의 한 항목에 해당하며, 이 항목에는 해당 프로필을 타겟팅하고 검증하며 개별적으로 추적하는 데 필요한 정보가 포함됩니다.Adobe Campaign은 온라인 및 오프라인 채널 모두에서 모든 상호 작용을 추적하고 하나의 프로필에 병합할 수 있습니다.
+**** 프로필은 데이터베이스에 저장된 개별 연락처입니다. 각 프로필은 데이터베이스의 한 항목에 해당하며, 이 항목에는 해당 프로필을 타겟팅하고 검증하며 개별적으로 추적하는 데 필요한 정보가 포함됩니다. Adobe Campaign은 온라인 및 오프라인 채널 모두에서 모든 상호 작용을 추적하고 하나의 프로필에 병합할 수 있습니다.
 
 **** 대상은 특정 기준이나 기준 세트를 기반으로 만들어진 프로필 목록입니다. 워크플로우 및 쿼리 편집기를 사용하면 보유한 정보, 활동 및 마케팅 기록에 따라 마케팅 캠페인에서 타겟팅할 대상을 구성할 수 있습니다. 이렇게 하면 구독한 프로필을 필터링하거나 샘플링하거나 기준을 제한 없이 타겟 대상을 만들 수 있습니다.
 
-자세히 알아보기:
+자세한 내용:
 
-* [프로필 정보](../../audiences/using/about-profiles.md)
+* [프로필 기본 정보](../../audiences/using/about-profiles.md)
 * [활성 프로필](../../audiences/using/active-profiles.md)
 * [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
 * [Campaign 데이터베이스 강화](../../audiences/using/enriching-campaign-database.md)
@@ -70,7 +70,7 @@ Campaign을 사용하면 **쉬운 옵트인 및 옵트아웃 메커니즘**&#x20
 >
 >[Adobe Campaign 허용 사용 정책](https://www.adobe.com/legal/terms/aup.html)을 준수해야 합니다.
 
-자세히 알아보기:
+자세한 내용:
 
 * [구독 기본 정보](../../audiences/using/about-subscriptions.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
