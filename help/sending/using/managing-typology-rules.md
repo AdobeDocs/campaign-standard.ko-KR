@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Typology Rules
-role: Business Practitioner
+feature: Typology 규칙
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 96%
 
 ---
-
 
 # 유형화 규칙 관리 {#managing-typology-rules}
 
@@ -70,7 +69,7 @@ ht-degree: 96%
 1. 타겟팅 시작 시 적용되는 경우에는 규칙을 제어합니다.
 1. 필터링 규칙:
 
-   * 주소 자격에 대한 기본 응용 프로그램 규칙:정의된 주소/검증되지 않은 주소/차단 목록/격리된 주소/주소 품질
+   * 주소 자격에 대한 기본 애플리케이션 규칙: 정의된 주소 / 확인되지 않은 주소 / / 격리된 주소 / 차단 목록 주소 품질.
    * 사용자가 정의한 필터링 규칙.
 
 1. 타겟팅 끝에 적용되는 경우에는 규칙을 제어합니다.
