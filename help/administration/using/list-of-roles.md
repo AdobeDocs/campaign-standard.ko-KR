@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-feature: Access Management
-role: Administrator
+feature: 액세스 관리
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 83%
+source-wordcount: '237'
+ht-degree: 84%
 
 ---
-
 
 # 역할 목록{#list-of-roles}
 
@@ -33,7 +32,7 @@ ht-degree: 83%
 
    >[!NOTE]
    >
-   >Experience Cloud 트리거를 사용하여 작업해야 하는 경우 Experience Cloud 트리거 메뉴에 액세스할 수 있는 **[!UICONTROL Administration]** 권한이 필요합니다. Experience Cloud 트리거에 대한 자세한 내용은 이 [페이지](../../integrating/using/about-adobe-experience-cloud-triggers.md)를 참조하십시오.
+   >Experience Cloud 트리거으로 작업해야 하는 경우 Experience Cloud 트리거 메뉴에 액세스할 수 있는 **[!UICONTROL Administration]** 권한이 필요합니다. Experience Cloud 트리거에 대한 자세한 내용은 이 [page](../../integrating/using/about-adobe-experience-cloud-triggers.md)을 참조하십시오.
 
 * **[!UICONTROL Datamodel]**: 게시를 실행하고 사용자 지정 리소스를 만들 수 있는 권한.
 * **[!UICONTROL Generic import]**: 데이터에 대한 일반 가져오기를 실행할 수 있는 권한. 이를 수행하려면 **[!UICONTROL Generic import]** 역할을 **[!UICONTROL Workflow]** 역할에 연결해야 합니다.
