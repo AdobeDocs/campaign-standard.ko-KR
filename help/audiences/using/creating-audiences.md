@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: 대상자
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 99%
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
-
 
 # 대상자 만들기{#creating-audiences}
 
@@ -147,4 +146,3 @@ Adobe Campaign의 프로필을 쿼리하는 **쿼리** 유형 대상자와 달�
 아니면 간단히 한 명 또는 여러 대상자를 선택하고 **[!UICONTROL Delete element]** 버튼을 클릭하여 대상자를 삭제할 수도 있습니다.
 
 ![](assets/audience_delete_1.png)
-
