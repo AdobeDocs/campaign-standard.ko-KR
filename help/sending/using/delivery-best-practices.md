@@ -1,39 +1,38 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 캠페인 전달 모범 사례
+title: Campaign 게재 모범 사례
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다.
-feature: Deliverability
-role: Business Practitioner
+description: Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다.
+feature: 전달성
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 12%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
-
 # 게재 모범 사례 {#delivery-best-practices}
 
-Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. 아래 링크를 사용하여 항목을 탐색하고 지침을 찾으십시오.
+Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. 아래 링크를 사용하여 항목을 탐색하고 지침을 찾을 수 있습니다.
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[전달](optimize-delivery.md)**  최적화 - 전송 프로세스의 보안 및 최적화
+**[게재 최적화](optimize-delivery.md)**  - 전송 프로세스 보안 및 최적화
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[템플릿](use-templates.md)**  사용 - 새로운 전달 간소화 및 가속화
+**[템플릿 사용](use-templates.md)**  - 새로운 게재 작업 촉진 및 가속화
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[컨텐츠](design-and-personalize.md)**  개인화 - 올바른 설정 적용
+**[콘텐츠 개인화](design-and-personalize.md)**  - 올바른 설정 적용
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
@@ -41,16 +40,16 @@ Adobe Campaign을 통한 전달 디자인 및 전송과 관련된 모범 사례�
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[보내기](check-before-sending.md)**  전 확인 - 일반적인 실수 방지
+**[보내기 전 확인](check-before-sending.md)**  - 일반적인 실수 방지
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[추적 및 모니터](track-and-monitor.md)**  - 전송 및 문제 해결 제어
+**[추적 및 모니터링](track-and-monitor.md)**  - 전송 및 문제 해결 제어
 
 ## 관련 콘텐츠
 
-* [전달 가능성 시작하기](../../sending/using/about-deliverability.md)
+* [게재 기능 시작](../../sending/using/about-deliverability.md)
 
 * [메시지 시작](../../channels/using/get-started-communication-channels.md)
 
-* [개인 정보 보호 및 동의 추천](../../start/using/privacy.md)
+* [개인 정보 및 동의 권장 사항](../../start/using/privacy.md)
