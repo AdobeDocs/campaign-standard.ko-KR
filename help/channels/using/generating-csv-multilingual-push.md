@@ -2,36 +2,35 @@
 solution: Campaign Standard
 product: campaign
 title: Campaign Standard을 사용하여 다국어 푸시 알림용 CSV 파일 생성
-description: CSV 파일을 업로드하여 배달할 컨텐츠를 생성하는 것은 다국어 푸시 알림을 지원하는 데 사용되는 기능입니다.
+description: CSV 파일을 업로드하여 배달할 콘텐츠를 생성하는 기능은 다국어 푸시 알림을 지원하는 데 사용됩니다.
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: Push
-role: Business Practitioner
+feature: 푸시
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1128'
+ht-degree: 1%
 
 ---
 
-
 # 다국어 푸시 알림용 CSV 파일 생성{#generating-csv-multilingual-push}
 
-CSV 파일을 업로드하여 배달할 컨텐츠를 생성하는 것은 다국어 푸시 알림을 지원하는 데 사용되는 기능입니다. CSV 파일의 형식은 파일 업로드가 성공적이고 결과적으로 배달을 만들 수 있도록 하기 위한 특정 지침을 따라야 합니다. 다음 섹션에서는 파일 형식과 이에 대한 고려 사항에 대해 설명합니다.
+CSV 파일을 업로드하여 배달할 콘텐츠를 생성하는 것은 다국어 푸시 알림을 지원하는 데 사용되는 기능입니다. CSV 파일 형식은 파일 업로드가 성공하고 결과적으로 게재를 만들 수 있도록 하기 위한 특정 지침을 따라야 합니다. 다음 섹션에서는 파일 형식 및 그 고려 사항에 대해 설명합니다.
 
 ## 파일 형식 {#file-format}
 
-CSV 파일에 다국어 푸시가 필요한 열:
+다국어 푸시에는 CSV 파일에 14개의 열이 필요합니다.
 
 1. title
 1. messageBody
 1. 사운드
 1. adge
-1. deplinkURI
-1. category
+1. deeplinkURI
+1. 카테고리
 1. iosMediaAttachmentURL
 1. androidMediaAttachmentURL
 1. isContentAvailable
@@ -41,35 +40,35 @@ CSV 파일에 다국어 푸시가 필요한 열:
 1. language
 1. silentPush
 
-**[!UICONTROL Manage Content Variants]** 창에서 **[!UICONTROL Download a sample file]**&#x200B;을 클릭하여 CSV 샘플을 확인합니다. 자세한 내용은 이 [섹션](../../channels/using/creating-a-multilingual-push-notification.md)을 참조하십시오.
+**[!UICONTROL Manage Content Variants]** 창에서 **[!UICONTROL Download a sample file]** 을 클릭하여 CSV 샘플을 확인합니다. 자세한 내용은 이 [섹션](../../channels/using/creating-a-multilingual-push-notification.md)을 참조하십시오.
 
-* **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**:정기적인 푸시 페이로드 내용. 푸시 배달을 만들 때와 유사한 방법으로 이 정보를 제공해야 합니다.
-* **사용자 정의 필드**:사용자 정의 필드에 JSON 형식을 사용합니다(예: `{"key1":"value1","key2":"value2"}`. 사용자 정의 필드의 예는 위의 샘플 파일을 참조하십시오.
-* **isContentAvailable**:[사용 가능한 컨텐츠] 확인에 대한 플래그, 값 1은 true를 의미하며, 값 0은 false를 의미합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
-* **isMutableContent**:변경 가능한 컨텐트에 대한 플래그, 값 1은 true를 의미하며, 값 0은 false를 의미합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
-* **로케일**:locale은 언어 변형을 위한 필드입니다(예: ).&quot;en_us&quot;는 미국-영어로, &quot;fr_fr&quot;은 프랑스-프랑스어로 표시됩니다.
-* **언어**:로케일과 연관된 언어의 이름입니다. 예를 들어 로케일이 &quot;en_us&quot;인 경우 언어 이름은 &quot;영어-미국&quot;이어야 합니다.
-* **silentPush**:푸시 알림 유형에 대한 플래그. 일반 푸시 알림일 경우 값은 0이어야 합니다. 자동 푸시인 경우 값은 1이어야 합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
+* **title, messageBody, 사운드, 배지, deeplinkURI, 카테고리, iosMediaAttachmentURL, androidMediaAttachmentURL**: 일반 푸시 페이로드 콘텐츠. 푸시 게재를 만들 때와 유사한 방식으로 이 정보를 제공해야 합니다.
+* **사용자 지정 필드**: 사용자 지정 필드에 JSON 형식을 사용합니다(예: ).  `{"key1":"value1","key2":"value2"}`. 사용자 지정 필드의 예는 위의 샘플 파일을 참조하십시오.
+* **isContentAvailable**: 컨텐츠 사용 가능 검사에 대한 플래그, 값 1은 true를 의미하며 값 0은 false를 의미합니다. 기본값은 0입니다. 이 열을 비워 두면 값은 0으로 간주됩니다.
+* **isMutableContent**: 가변 컨텐츠에 대한 플래그, 값 1은 true를 의미하며 값 0은 false를 의미합니다. 기본값은 0입니다. 이 열을 비워 두면 값은 0으로 간주됩니다.
+* **로케일**: locale은 언어 변형의 필드입니다(예: ). &quot;en_us&quot;(미국-영어) 및 &quot;fr_fr&quot;(프랑스-프랑스어).
+* **언어**: 로케일과 연관된 언어의 이름입니다. 예를 들어 로케일이 &quot;en_us&quot;이면 언어 이름은 &quot;English-United States&quot;여야 합니다.
+* **silentPush**: 푸시 알림 유형에 대한 플래그입니다. 일반 푸시 알림인 경우 값은 0이어야 합니다. 자동 푸시인 경우 값은 1이어야 합니다. 기본값은 0입니다. 이 열을 비워 두면 값은 0으로 간주됩니다.
 
-## csv 파일 {#constraints-guideline-csv} 만들기 제한 및 지침
+## csv 파일 만들기 제한 및 지침 {#constraints-guideline-csv}
 
 **각 열의 이름이 수정되었습니다**.
-컨텐츠에 열을 사용하지 않는 경우 CSV 파일에 각 열의 이름을 포함해야 합니다.
+CSV 파일에 각 열의 이름을 포함해야 합니다. 컨텐츠에 열을 사용하지 않으면 비워 둡니다.
 
-**&quot;locale&quot; 및 &quot;language&quot; 열은 필수이며 값은 각 행에 대해 고유합니다.**
+**&quot;locale&quot; 및 &quot;language&quot; 열은 필수이며 값은 각 행에 고유합니다.**
 이 열에 대한 빈 값을 사용하면 파일 업로드가 실패합니다.
 
 **열의 순서는 중요합니다**. 업로드된 파일의 열 순서는 샘플 파일과 동일한 형식을 따라야 합니다.
 
-**열 내용 인용**. CSV(쉼표로 구분된 값) 파일이므로 쉼표(,)를 포함하는 모든 열 내용을 따옴표로 묶어야 합니다. 예: &quot;Hello, Tom!&quot;
+**견적 열 컨텐츠**. CSV(쉼표로 구분된 값) 파일이므로, 쉼표(,)를 포함하는 열 컨텐츠는 따옴표로 묶어야 합니다. 예를 들어, &quot;Hello, Tom!&quot;
 
-**국제 문자에 대해 UTF-8 인코딩이 필요합니다.**
+**국제 문자에 UTF-8 인코딩이 필요합니다.**
 
 **일반 텍스트로 파일을 생성하는 경우 각 열을 &quot;,&quot;로 구분합니다.**
 
-**변형 불일치.** 컨텐츠 블록을 사용하고 특정 언어로 대상 고객을 타깃팅하는 경우 CSV 파일에 대상 언어를 모두 나열해야 합니다. 그렇지 않으면 배달을 보낼 때 오류가 발생합니다.
+**변형이 일치하지 않습니다.** 콘텐츠 블록을 사용하고 특정 언어를 사용하는 타겟 대상을 사용하는 경우 CSV 파일에 모든 타깃팅된 언어를 나열해야 합니다. 그렇지 않으면 게재를 보낼 때 오류가 발생합니다.
 
-## csv 파일 {#personalization-field-csv}에 개인화 필드 삽입
+## csv 파일에 개인화 필드 삽입 {#personalization-field-csv}
 
 개인화 필드를 사용하려면 파일에 <span> 태그를 포함해야 합니다.
 
@@ -79,17 +78,17 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
  "Hello <span class="nl-dce-field nl-dce-done"  data-nl-expr="/context/profile/firstName">First name</span>, this is message".
 ```
 
-&quot;firstName&quot; 필드는 다음으로 표시됩니다.
+&quot;firstName&quot; 필드는 다음과 같이 표시됩니다.
 
 ```
  <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
 ```
 
-이 범위에는 2개의 필수 속성이 있습니다.
+이 범위에는 두 가지 필수 속성이 있습니다.
 
-* 하나는 정적인 수업이다. 어떤 개인화 필드를 사용하든 그것은 항상 class=&quot;nl-dce-field nl-dce-dce-done&quot;입니다.
+* 하나는 정적인 수업이다. 어떤 개인화 필드를 사용하려는 경우에도 항상 class=&quot;nl-dce-field nl-dce-dce-done&quot;입니다.
 
-* 다른 하나는 데이터-nl-expr로, 개인화 필드의 경로입니다. 예를 들어 UI에서 &quot;firstName&quot; 개인화 필드를 삽입하면 탐색 경로가 **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]**(아래 이미지에 표시됨)이 됩니다. 이 경우 경로는
+* 다른 하나는 data-nl-expr 이며, 이것은 개인화 필드의 경로입니다. 예를 들어 UI에서 &quot;firstName&quot; 개인화 필드를 삽입하는 경우 탐색 경로는 **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** 가 됩니다(아래 이미지에 표시). 이 경우 경로는
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -103,7 +102,7 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 
 | 로케일 | 언어 |
 |:-:|:-:|
-| af_za | 아프리칸스어 - 남아프리카 |
+| af_za | 아프리칸스 - 남아프리카 |
 | sq_al | 알바니아 - 알바니아 |
 | ar_dz | 아랍어 - 알제리 |
 | ar_bh | 아랍어 - 바레인 |
@@ -120,9 +119,9 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 | ar_tn | 아랍어 - 튀니지 |
 | ar_ae | 아랍어 - 아랍에미리트 |
 | ar_ye | 아랍어 - 예멘 |
-| hy_am | 아르메니아어 - 아르메니아 |
+| hy_am | 아르메니아 - 아르메니아 |
 | az_az | 아제리 - 아제르바이잔 |
-| be_by | 벨라루스 - 벨라루스 |
+| be_by | 벨로루시 - 벨라루스 |
 | bs_ba | 보스니아 - 보스니아 |
 | bg_bg | 불가리아어 - 불가리아 |
 | ca_es | 카탈로니아어 - 스페인 |
@@ -130,11 +129,11 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 | zh_sg | 중국어(간체) - 싱가포르 |
 | zh_hk | 중국어(번체) - 중국 홍콩 특별 행정구 |
 | zh_tw | 중국어(번체) - 대만 지역 |
-| hr_hr | 크로아티아 - 크로아티아 |
-| cs_cz | 체코어 - 체치아 |
+| hr_hr | 크로아티아어 - 크로아티아 |
+| cs_cz | 체코어 - 체키아 |
 | da_dk | 덴마크어 - 덴마크 |
 | nl_be | 네덜란드어 - 벨기에 |
-| nl_nl | 네덜란드어 - 네덜란드 |
+| nl_nl | 네덜란드어 - 네덜란드어 |
 | en_au | 영어 - 오스트레일리아 |
 | en_bz | 영어 - 벨리즈 |
 | en_ca | 영어 - 캐나다 |
@@ -165,13 +164,13 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 | he_il | 히브리어 - 이스라엘 |
 | hi_in | 힌디어 - 인도 |
 | hu_hu | 헝가리어 - 헝가리 |
-| is_is | 아이슬란드어 - 아이슬란드 |
+| is_is | 아이슬란드 - 아이슬란드 |
 | id_id | 인도네시아 - 인도네시아 |
 | it_it | 이탈리아어 - 이탈리아 |
 | it_ch | 이탈리아어 - 스위스 |
 | ja_jp | 일본어 - 일본 |
 | kn_in | 카나다 - 인도 |
-| k_kz | 카자흐어 - 카자흐스탄 |
+| kz | 카자흐스탄 - 카자흐스탄 |
 | ko_kr | 한국어 - 대한민국 |
 | lv_lv | 라트비아어 - 라트비아 |
 | lt_lt | 리투아니아어 - 리투아니아 |
@@ -182,14 +181,14 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 | pl_pl | 폴란드어 - 폴란드 |
 | pt_br | 포르투갈어 - 브라질 |
 | pt_pt | 포르투갈어 - 포르투갈 |
-| pa_in | 펀자비 - 인도 |
+| pa_in | 펀잡어 - 인도 |
 | ro_md | 루마니아어 - 몰도바 |
 | ro_ro | 루마니아어 - 루마니아 |
 | ru_kz | 러시아어 - 카자흐스탄 |
 | ru_ru | 러시아어 - 러시아 |
 | ru_ua | 러시아어 - 우크라이나 |
 | a_in | 산스크리트어 - 인도 |
-| sr_ba | 세르비아어 - 보스니아 |
+| sr_ba | 세르비아 - 보스니아 |
 | sr_rs | 세르비아어 - 세르비아 |
 | sk_sk | 슬로바키아어 - 슬로바키아 |
 | sl_si | 슬로베니아어 - 슬로베니아 |
@@ -215,13 +214,13 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 | sw_ke | 스와힐리 - 케냐 |
 | sv_fi | 스웨덴어 - 핀란드 |
 | sv_se | 스웨덴어 - 스웨덴 |
-| ta_in | 타밀어 - 인도 |
+| ta_in | 타밀 - 인도 |
 | tt_ru | 타타르 - 러시아어 |
 | te_in | 텔루구 - 인도 |
-| th_th | 태국어 - 태국 |
+| th_th | 태국 - 태국 |
 | tr_cy | 터키어 - 키프로스 |
 | tr_tr | 터키어 - 터키 |
 | uk_ua | 우크라이나어 - 우크레인 |
-| ur_in | 우르두 - 인도 |
-| ur_pk | 우르두 - 파키스탄 |
-| vi_vn | 베트남 - 베트남 |
+| url_in | 우르두 - 인도 |
+| url_pk | 우르두 - 파키스탄 |
+| vi_vn | 베트남어 - 베트남 |
