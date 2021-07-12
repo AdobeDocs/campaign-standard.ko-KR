@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Campaigns
-role: Business Practitioner
+feature: 캠페인
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 99%
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
-
 
 # 프로그램 및 캠페인{#programs-and-campaigns}
 
@@ -103,4 +102,3 @@ Adobe Campaign에서는 마케팅 캠페인을 계획하여 이메일, SMS 메�
 * 녹색: 프로그램/캠페인 종료됨 - **[!UICONTROL Finished]** 상태 기본적으로 현재 날짜가 자동으로 유효성 시작 날짜로 표시되며, 종료 날짜는 시작 날짜에 따라 계산됩니다(**시작 186일 후**). 프로그램 또는 캠페인 속성에서 이 날짜를 변경할 수 있습니다.
 
 ![](assets/programs_and_campaigns.png)
-
