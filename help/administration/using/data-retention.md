@@ -5,21 +5,20 @@ title: 데이터 유지
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
-role: Administrator
+feature: 인스턴스 설정
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 62%
+source-wordcount: '133'
+ht-degree: 63%
 
 ---
 
-
 # 데이터 유지{#data-retention}
 
-Campaign의 표준 로그 테이블에는 사전 설정된 보존 기간이 있으므로 일반적으로 데이터 스토리지를 6개월 이내로 제한합니다.
+Campaign의 표준 로그 테이블에는 사전 설정된 보존 기간이 있으며 일반적으로 데이터 저장소를 6개월 이하로 제한합니다.
 
 다음은 표준 테이블의 기본 보존 값입니다. 보존 구성은 구현 중에 Adobe 기술 관리자가 설정하며 고객 요구 사항에 따라 각 구현마다 값이 달라질 수 있습니다.
 
@@ -34,6 +33,6 @@ Campaign의 표준 로그 테이블에는 사전 설정된 보존 기간이 있�
 * **게재 경고**: 1개월
 * **내보내기 감사**: 6개월
 
-표준 워크플로우 기능을 사용하면 모든 사용자 정의 테이블에 대해 보존 기간을 설정할 수 있습니다.
+표준 워크플로우 기능을 사용하면 모든 사용자 지정 테이블에 대해 보존 기간을 설정할 수 있습니다.
 
 Adobe 컨설턴트 또는 기술 관리자에게 문의하여 보존에 대한 자세한 내용을 확인하거나 사용자 지정 테이블에 대한 보존을 설정해야 합니다.
