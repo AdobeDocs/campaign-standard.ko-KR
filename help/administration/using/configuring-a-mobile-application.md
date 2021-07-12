@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: 인스턴스 설정
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # 모바일 애플리케이션 구성{#configuring-a-mobile-application}
 
-## Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk} 를 사용하여 모바일 애플리케이션 구성
+## Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성 {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -29,7 +29,7 @@ Experience Platform SDK 애플리케이션을 통해 푸시 알림 및 인앱 �
 
 더 이상 사용되지 않는 기능 Mobile 버전 4 SDK에 대한 자세한 내용은 이 [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html)을 참조하십시오.
 
-모바일 애플리케이션이 설정되면 수집한 PII 데이터를 검색하여 데이터베이스에서 프로필을 만들거나 업데이트할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오.[모바일 애플리케이션 데이터를 기반으로 프로필 정보를 만들고 업데이트합니다](../../channels/using/updating-profile-with-mobile-app-data.md).
+모바일 애플리케이션이 설정되면 수집한 PII 데이터를 검색하여 데이터베이스에서 프로필을 만들거나 업데이트할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오. [모바일 애플리케이션 데이터를 기반으로 프로필 정보를 만들고 업데이트합니다](../../channels/using/updating-profile-with-mobile-app-data.md).
 
 Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지원되는 다양한 모바일 사용 사례에 대한 자세한 내용은 이 [page](https://helpx.adobe.com/kr/campaign/kb/configure-launch-rules-acs-use-cases.html)을 참조하십시오.
 
@@ -85,7 +85,7 @@ Experience Platform Launch에서 모바일 속성을 만들고 구성한 후 이
 
 이제 워크플로우가 다시 시작되고 Adobe Campaign Standard에 가져온 Adobe Launch 모바일 속성을 동기화합니다.
 
-## Adobe Campaign {#set-up-campaign}에서 Adobe Experience Platform Launch 애플리케이션 설정
+## Adobe Campaign에서 Adobe Experience Platform Launch 애플리케이션 설정 {#set-up-campaign}
 
 Campaign에서 Experience Platform Launch 모바일 속성을 사용하려면 Adobe Campaign에서 이 속성을 구성해야 합니다. Adobe Campaign에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필에 포함되어 있는지 확인합니다.
 
@@ -130,7 +130,7 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK 동기화에 대한 자
 
    자세한 내용은 [구성 게시](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration)를 참조하십시오.
 
-## Adobe Campaign {#channel-specific-config}의 채널별 애플리케이션 구성
+## Adobe Campaign의 채널별 애플리케이션 구성 {#channel-specific-config}
 
 이제 모바일 애플리케이션을 Campaign에서 푸시 알림 또는 인앱 게재를 사용할 준비가 되었습니다. 이제 인앱 메시지를 트리거하거나 푸시 인증서를 업로드할 이벤트를 만드는 데 필요한 경우 추가로 구성할 수 있습니다.
 
@@ -148,7 +148,7 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK 동기화에 대한 자
 
    ![](assets/launch_7.png)
 
-1. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Add]**&#x200B;를 클릭합니다.
 
    이제 인앱 메시지를 만들 때 트리거 탭에서 이벤트를 사용할 수 있습니다. 자세한 내용은 [인앱 메시지 준비 및 보내기](../../channels/using/preparing-and-sending-an-in-app-message.md)를 참조하십시오.
 
@@ -164,7 +164,7 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK 동기화에 대한 자
 
 1. 구독자 목록과 이러한 구독자에 대한 기타 정보(예: 구독자가 알림 옵트아웃했는지 여부)를 보려면 **[!UICONTROL Mobile application subscribers]** 탭을 클릭하십시오.
 
-## Adobe Experience Platform Launch 애플리케이션 {#delete-app} 삭제
+## Adobe Experience Platform Launch 애플리케이션 삭제 {#delete-app}
 
 Experience Platform Launch 응용 프로그램을 삭제하면 되돌릴 수 없습니다.
 
