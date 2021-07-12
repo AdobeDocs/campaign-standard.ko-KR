@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: 트랜잭션 메시지
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 39%
+source-wordcount: '280'
+ht-degree: 40%
 
 ---
-
 
 # 트랜잭션 메시지 테스트 {#testing-a-transactional-message}
 
@@ -25,7 +24,7 @@ ht-degree: 39%
 
 ## 특정 테스트 프로필 정의 {#defining-specific-test-profile}
 
-메시지를 미리 보고 관련 증거를 전송할 수 있도록 이벤트에 연결할 테스트 프로필을 정의합니다.
+메시지를 미리 보고 관련 증명을 전송할 수 있는 이벤트에 연결할 테스트 프로필을 정의합니다.
 
 1. [트랜잭션 메시지 대시보드](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)에서 **[!UICONTROL Create test profile]** 단추를 클릭합니다.
 
@@ -37,9 +36,9 @@ ht-degree: 39%
 
    >[!NOTE]
    >
-   >메시지를 증가시킨 경우 **[!UICONTROL Profile]** 같은 다른 테이블과 관련된 정보를 입력할 수도 있습니다. [이벤트](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 및 [트랜잭션 메시지 맞춤화를 참조하십시오](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >메시지를 보강한 경우 **[!UICONTROL Profile]** 등의 다른 테이블과 관련된 정보를 입력할 수도 있습니다. [이벤트 강화](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 및 [트랜잭션 메시지 개인화](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)를 참조하십시오.
 
-1. 테스트 프로필이 만들어지면 트랜잭션 메시지에 미리 지정됩니다. 메시지의 **[!UICONTROL Test profiles]** 블록을 클릭하여 증명의 대상을 확인합니다.
+1. 만들어진 테스트 프로필은 트랜잭션 메시지에 미리 지정됩니다. 메시지의 **[!UICONTROL Test profiles]** 블록을 클릭하여 증명의 대상을 확인합니다.
 
    ![](assets/message-center_5.png)
 
@@ -59,10 +58,10 @@ ht-degree: 39%
 * [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
 * [대상자 만들기](../../audiences/using/creating-audiences.md)
 
-## 증명 {#sending-proof} 전송
+## 증명 보내기 {#sending-proof}
 
-하나 이상의 특정 테스트 프로필을 만들고 트랜잭션 메시지를 저장한 후에는 이를 테스트할 수 있는 증거를 보낼 수 있습니다.
+하나 이상의 특정 테스트 프로필을 만들고 트랜잭션 메시지를 저장한 후에는 테스트하기 위한 증명을 보낼 수 있습니다.
 
 ![](assets/message-center_10.png)
 
-증명 자료를 보내는 단계는 [증거 자료 전송](../../sending/using/sending-proofs.md) 섹션에 자세히 설명되어 있습니다.
+증명을 보내는 단계는 [증명 보내기](../../sending/using/sending-proofs.md) 섹션에 자세히 설명되어 있습니다.
