@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
+feature: 랜딩 페이지
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 93%
+source-wordcount: '234'
+ht-degree: 94%
 
 ---
-
 
 # 랜딩 페이지 템플릿 기본 정보 {#landing-page-templates}
 
@@ -26,7 +25,7 @@ Campaign에는 다음과 같은 기본 제공 랜딩 페이지 템플릿이 포�
 * **[!UICONTROL Acquisition]**: 랜딩 페이지의 기본 템플릿으로 Campaign 데이터베이스에서 데이터를 캡처하고 업데이트할 수 있습니다.
 * **[!UICONTROL Subscription]**: 이 템플릿은 서비스 구독을 제공하는 데 사용해야 합니다.
 * **[!UICONTROL Unsubscription]**: 이 템플릿은 구독자에게 전송된 이메일에서 서비스에 연결될 수 있으며 구독자가 이 서비스의 구독을 취소하도록 허용합니다.
-* **[!UICONTROL Denylist]**: 이 템플릿은 Campaign에서 더 이상 프로필에 연락하지 않으려는 경우에 사용해야 합니다. 관리에 대한 차단 목록 자세한 내용은 [캠페인 옵트인 및 옵트아웃 정보를 참조하십시오](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**: 이 템플릿은 Campaign에서 더 이상 프로필에 연락하지 않으려는 경우에 사용해야 합니다. 관리에 차단 목록 대한 자세한 내용은 [Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)의 옵트인 및 옵트아웃 기본 정보 를 참조하십시오.
 
 템플릿은 새 랜딩 페이지를 만들 때 기본적으로 제안됩니다.
 
@@ -47,4 +46,3 @@ Campaign에는 다음과 같은 기본 제공 랜딩 페이지 템플릿이 포�
 ```
 
 &#39;type&#39; 속성의 공식 목록은 다음 주소에서 사용할 수 있습니다. [https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp)
-
