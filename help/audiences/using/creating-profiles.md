@@ -6,17 +6,16 @@ description: API, 가져오기 기능, 온라인 확보, 자동 또는 수동 �
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: 프로필
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 827df9f6-070c-466a-890c-e363de6b129b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 88%
+source-wordcount: '381'
+ht-degree: 89%
 
 ---
-
 
 # 프로필 만들기{#creating-profiles}
 
@@ -26,7 +25,7 @@ Adobe Campaign에서 프로필은 메시지의 주요 타겟을 정의할 때 �
 >
 >Adobe Campaign Standard API를 사용하여 프로필을 만들 수도 있습니다. 자세한 내용은 [전용 설명서](../../api/using/creating-profiles.md)를 참조하십시오.
 
-![](assets/do-not-localize/how-to-video.png) [비디오 작업 과정을 사용하여 프로필을 가져오는 방법 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 워크플로우를 사용하여 프로필을 가져오는 방법을 알아봅니다](#video)
 
 Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수행할 수 있습니다.
 
@@ -42,7 +41,7 @@ Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수
 
    ![](assets/profile_creation_1.png)
 
-1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create]**&#x200B;를 클릭합니다.
 
    ![](assets/profile_creation.png)
 
@@ -65,10 +64,10 @@ Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수
 >[!NOTE]
 >선호 언어 필드는 다국어 메시지를 보낼 때 언어를 선택하는 데 사용됩니다. 다국어 메시지에 대한 자세한 내용은 [이 페이지를 참조하십시오](../../channels/using/creating-a-multilingual-email.md).
 
-## 자습서 비디오 {#video}
+## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 워크플로우로 프로파일을 가져오는 방법을 보여 줍니다.
+이 비디오에서는 워크플로우로 프로필을 가져오는 방법을 보여줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-추가 Campaign Standard 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.
