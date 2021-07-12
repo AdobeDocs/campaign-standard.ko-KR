@@ -7,17 +7,17 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 개요
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '2535'
 ht-degree: 100%
 
 ---
 
-# 2021년 릴리스 정보{#release-notes-2021}
+# 2021년 릴리스 노트{#release-notes-2021}
 
 [릴리스 계획](../../rn/using/release-planning.md) | [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2020.md) | [지원 종료 기능](../../rn/using/deprecated-features.md)
 
