@@ -2,34 +2,33 @@
 solution: Campaign Standard
 product: campaign
 title: 트랜잭션 메시지에서 제품 목록 사용
-description: 트랜잭션 메시지 컨텐츠에서 제품 목록을 사용하는 방법을 알아봅니다.
+description: 트랜잭션 메시지 콘텐츠에서 제품 목록을 사용하는 방법을 알아봅니다.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
 context-tags: null
-feature: Email Design
-role: Business Practitioner
+feature: 이메일 디자인
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 81%
+source-wordcount: '851'
+ht-degree: 82%
 
 ---
-
 
 # 트랜잭션 메시지에서 제품 목록 사용 {#using-product-listings}
 
 >[!IMPORTANT]
 >
->제품 목록은 [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 인터페이스를 통해 **트랜잭션 이메일 메시지**&#x200B;에 대해서만 사용할 수 있습니다.
+>제품 목록은 **트랜잭션 전자 메일 메시지**&#x200B;에 대해서만 [전자 메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 인터페이스를 통해 사용할 수 있습니다.
 
-트랜잭션 이메일의 내용을 편집할 때 하나 이상의 데이터 컬렉션을 참조하는 제품 목록을 만들 수 있습니다. 예를 들어 장바구니 포기 이메일에는 사용자가 웹 사이트를 떠날 때 장바구니에 있던 모든 제품 목록과 이미지, 가격 및 각 제품에 대한 링크를 포함할 수 있습니다.
+트랜잭션 전자 메일의 콘텐츠를 편집할 때 하나 이상의 데이터 컬렉션을 참조하는 제품 목록을 만들 수 있습니다. 예를 들어 장바구니 포기 전자 메일에는 사용자가 웹 사이트를 떠날 때 사용자의 카트에 들어 있던 모든 제품 목록과 이미지, 가격 및 각 제품에 대한 링크를 포함할 수 있습니다.
 
 트랜잭션 메시지에 포기된 제품 목록을 추가하려면 아래 단계를 따르십시오.
 
-트랜잭션 이메일에서 제품 목록을 구성하는 데 필요한 단계를 설명하는 [이 비디오 집합](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails)을 볼 수도 있습니다.
+트랜잭션 전자 메일에서 제품 목록을 구성하는 데 필요한 단계를 설명하는 [이 비디오 세트를 볼 수도 있습니다.](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails)
 
 >[!NOTE]
 >
@@ -40,9 +39,9 @@ ht-degree: 81%
 트랜잭션 메시지에서 제품 목록을 사용하려면 이벤트 수준에서 표시하려는 목록의 각 제품에 대한 제품 목록과 필드를 정의해야 합니다. 자세한 내용은 [데이터 컬렉션 정의](../../channels/using/configuring-transactional-event.md#defining-data-collections)를 참조하십시오.
 
 1. 트랜잭션 메시지에서 **[!UICONTROL Content]** 블록을 클릭하여 전자 메일 콘텐츠를 수정합니다.
-1. 구조 구성 요소를 작업 영역으로 끌어다 놓습니다. 자세한 내용은 [이메일 구조 정의](../../designing/using/designing-from-scratch.md#defining-the-email-structure)를 참조하십시오.
+1. 구조 구성 요소를 작업 영역으로 끌어다 놓습니다. 자세한 내용은 [전자 메일 구조 정의](../../designing/using/designing-from-scratch.md#defining-the-email-structure)를 참조하십시오.
 
-   예를 들어 하나의 열 구조 구성 요소를 선택하고 텍스트 구성 요소, 이미지 구성 요소 및 단추 구성 요소를 추가합니다. 자세한 내용은 [콘텐츠 구성 요소 사용](../../designing/using/designing-from-scratch.md#about-content-components)을 참조하십시오.
+   예를 들어 하나의 열 구조 구성 요소를 선택하고 텍스트 구성 요소, 이미지 구성 요소 및 단추 구성 요소를 추가합니다. 자세한 내용은 [컨텐츠 구성 요소 사용](../../designing/using/designing-from-scratch.md#about-content-components)을 참조하십시오.
 
 1. 방금 만든 구조 구성 요소를 선택하고 상황별 도구 모음에서 **[!UICONTROL Enable product listing]** 아이콘을 클릭합니다.
 
@@ -59,7 +58,7 @@ ht-degree: 81%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Column]** 옵션은 다중 열 구조 구성 요소( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** 및 **[!UICONTROL 4:4 column]** )를 사용하는 경우에만 사용할 수 있습니다. 제품 목록을 편집할 때는 다른 열은 고려하지 않고 첫 번째 열만 채웁니다. 구조 구성 요소 선택에 대한 자세한 내용은 [이메일 구조 정의](../../designing/using/designing-from-scratch.md#defining-the-email-structure)를 참조하십시오.
+   >**[!UICONTROL Column]** 옵션은 다중 열 구조 구성 요소( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** 및 **[!UICONTROL 4:4 column]** )를 사용하는 경우에만 사용할 수 있습니다. 제품 목록을 편집할 때는 다른 열은 고려하지 않고 첫 번째 열만 채웁니다. 구조 구성 요소 선택에 대한 자세한 내용은 [전자 메일 구조 정의](../../designing/using/designing-from-scratch.md#defining-the-email-structure)를 참조하십시오.
 
 1. 트랜잭션 메시지와 관련된 이벤트를 구성할 때 만든 데이터 컬렉션을 선택합니다. **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 노드 아래에서 찾을 수 있습니다.
 
@@ -132,7 +131,7 @@ ht-degree: 81%
 
    예를 들어 고객이 장바구니에 아무것도 없는 경우, 이벤트가 트리거될 때 컬렉션이 비어 있으면 대체 콘텐츠가 표시됩니다.
 
-1. 설정 창에서 제품 목록의 스타일을 편집합니다. 자세한 내용은 [이메일 스타일 관리](../../designing/using/styles.md)를 참조하십시오.
+1. 설정 창에서 제품 목록의 스타일을 편집합니다. 자세한 내용은 [전자 메일 스타일 관리](../../designing/using/styles.md)를 참조하십시오.
 1. 관련 트랜잭션 이벤트에 연결된 컬렉션 데이터를 정의한 테스트 프로필을 사용하여 전자 메일을 미리 봅니다. 예를 들어, 사용할 테스트 프로필의 **[!UICONTROL Event data]** 섹션에 다음 정보를 추가합니다.
 
    ![](assets/message-center_loop_test-profile_payload.png)
