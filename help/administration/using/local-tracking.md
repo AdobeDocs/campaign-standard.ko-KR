@@ -7,57 +7,56 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: 인스턴스 설정
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
-
 # 로컬 추적 구현 {#local-tracking}
 
-## 로컬 추적 정보 {#about-local-tracking}
+## 로컬 추적 기본 정보 {#about-local-tracking}
 
-이 페이지에서 로컬 알림 추적이 올바르게 구현되었는지 확인하는 방법을 알아봅니다. 이것은 로컬 알림이 이미 구성되었음을 의미합니다.
+이 페이지에서 로컬 알림 추적이 올바르게 구현되었는지 확인하는 방법을 알아봅니다. 이는 로컬 알림이 이미 구성되었음을 의미합니다.
 
-로컬 알림 추적 기능은 다음 3가지 유형으로 분할할 수 있습니다.
+로컬 알림 추적은 다음 세 가지 유형으로 분할할 수 있습니다.
 
-* **로컬 노출 횟수**  - 로컬 알림이 장치에 전달되고 알림 센터에 앉아 있지만 전혀 수정하지 않은 경우 대부분의 경우, 노출 횟수는 배달된 숫자와 동일하지 않을 경우 비슷해야 합니다. 장치가 메시지를 받았는지 확인하고 해당 정보를 다시 서버로 보냅니다.
+* **로컬 노출 횟수**  - 로컬 알림이 장치에 전달되고 알림 센터에 있지만 전혀 터치되지 않은 경우 대부분의 경우, 노출 횟수는 전달된 숫자와 동일하지 않은 경우 유사해야 합니다. 이렇게 하면 장치가 메시지를 받고 해당 정보를 다시 서버로 전달합니다.
 
-* **로컬 클릭**  - 로컬 알림이 장치에 전달되고 사용자가 알림을 클릭한 경우입니다. 사용자가 알림을 보거나(나중에 로컬 열기 추적 기능으로 이동) 알림을 해지하려고 했습니다.
+* **로컬 클릭**  - 로컬 알림이 장치에 전달되고 사용자가 알림을 클릭한 경우입니다. 사용자는 알림을 보거나(이 알림이 로컬 열린 추적으로 이동) 알림을 해지하려고 했습니다.
 
-* **로컬 열기**  - 로컬 알림이 장치에 전달되고 사용자가 알림을 클릭하면 애플리케이션이 열립니다. 이 방법은 로컬 클릭과 유사하지만, 알림이 무시될 경우 로컬 열기 열기가 트리거되지 않습니다.
+* **로컬 열기**  - 로컬 알림이 장치에 전달되고 사용자가 알림을 클릭하여 애플리케이션을 열면 알림이 무시되면 로컬 열기가 트리거되지 않는다는 점을 제외하면 로컬 클릭과 유사합니다.
 
-Adobe Campaign Standard에 대한 추적을 구현하려면 모바일 응용 프로그램에 Mobile SDK가 포함되어야 합니다. 이러한 SDK는 [!DNL Adobe Mobile Services]에서 사용할 수 있습니다.
+Adobe Campaign Standard에 대한 추적을 구현하려면 모바일 애플리케이션에서 Mobile SDK를 애플리케이션에 포함해야 합니다. 이러한 SDK는 [!DNL Adobe Mobile Services]에서 사용할 수 있습니다.
 
-추적 정보를 전송하려면 3개의 변수를 전송해야 합니다.2는 Adobe Campaign에서 받은 데이터의 일부이며 다른 2는 노출, 클릭 또는 열기인지를 지정하는 작업 변수입니다.
+추적 정보를 전송하려면 다음 세 가지 변수를 보내야 합니다. 두 항목은 Adobe Campaign에서 받은 데이터의 일부이며, 다른 변수는 노출, 클릭 또는 열기 여부를 나타내는 작업 변수입니다.
 
 | 변수 | 값 |
 | :-: | :-: |
-| deliveryId | `deliveryId` 들어오는 데이터에서(사용하는 위치 `_dld` 의 푸시 추적과 유사) |
-| broadlogId | `broadlogId` 들어오는 데이터에서(사용하는 위치 `_mld` 의 푸시 추적과 유사) |
-| 액션 | 열기는 &quot;1&quot;, 클릭은 &quot;2&quot;, 임프레션은 &quot;7&quot; |
+| deliveryId | `deliveryId` 수신되는 데이터에서(사용되는 푸시 추적 `_dld` 과 유사) |
+| broadlogId | `broadlogId` 수신되는 데이터에서(사용되는 푸시 추적 `_mld` 과 유사) |
+| 작업 | &quot;1&quot;(열림), &quot;2&quot;(클릭) 및 &quot;7&quot;(노출) |
 
 ## 로컬 노출 추적 구현 {#implement-local-impression-tracking}
 
-Adobe Experience Platform Mobile SDK는 추가 구성 없이 Android와 iOS 모두에 대해 노출 이벤트를 자동으로 전송합니다.
+Adobe Experience Platform Mobile SDK는 추가 구성 없이 Android와 iOS 모두에 대한 노출 이벤트를 자동으로 전송합니다.
 
 ## 클릭 추적 구현 {#implementing-click-tracking}
 
-클릭 추적의 경우 `collectMessageInfo()` 또는 `trackAction()` 함수를 호출할 때 동작에 대해 값 &quot;2&quot;를 보내야 합니다.
+클릭 추적의 경우 `collectMessageInfo()` 또는 `trackAction()` 함수를 호출할 때 작업에 대해 값 &quot;2&quot;를 전송해야 합니다.
 
-### Android {#implement-click-tracking-android}의 경우
+### Android용 {#implement-click-tracking-android}
 
-클릭을 추적하려면 2개의 시나리오를 처리해야 합니다.
+클릭을 추적하려면 다음 두 가지 시나리오를 처리해야 합니다.
 
-* 사용자가 알림을 볼 수 있지만 지웁니다.
+* 사용자는 알림을 보지만 지웁니다.
 
-   해고가 발생할 경우 클릭을 추적하려면 응용 프로그램 모듈의 AndroidManifest 파일에 브로드캐스트 수신기 `NotificationDismissalHandler`을(를) 추가합니다.
+   해지 시나리오의 경우 클릭을 추적하려면 애플리케이션 모듈의 AndroidManifest 파일에 브로드캐스트 수신기 `NotificationDismissalHandler`을(를) 추가합니다.
 
    ```
    <receiver
@@ -65,11 +64,11 @@ Adobe Experience Platform Mobile SDK는 추가 구성 없이 Android와 iOS 모�
    </receiver>
    ```
 
-* 사용자가 알림을 보고 이를 클릭하면 열린 추적이 표시됩니다.
+* 사용자가 알림을 보고 클릭하면 열린 추적이 됩니다.
 
-   이 시나리오는 클릭과 열기를 생성합니다. 이 클릭을 추적하는 것은 열기를 추적하는 데 필요한 구현의 일부가 됩니다. [오픈 추적 구현](#implement-open-tracking)을 참조하십시오.
+   이 시나리오는 클릭 및 열기를 생성합니다. 이 클릭을 추적하면 열기를 추적하는 데 필요한 구현의 일부가 됩니다. [열린 추적 구현](#implement-open-tracking)을 참조하십시오.
 
-### iOS {#implement-click-tracking-ios}의 경우
+### iOS용 {#implement-click-tracking-ios}
 
 클릭 추적 정보를 보내려면 다음을 추가해야 합니다.
 
@@ -102,17 +101,17 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 }
 ```
 
-## 열기 추적 구현 {#implement-open-tracking}
+## 개방형 추적 구현 {#implement-open-tracking}
 
-사용자가 응용 프로그램을 열려면 알림을 클릭해야 하므로 &quot;1&quot; 및 &quot;2&quot;를 보내야 합니다. 로컬 알림을 통해 응용 프로그램을 시작/열지 않으면 추적 이벤트가 발생하지 않습니다.
+응용 프로그램을 열려면 알림을 클릭해야 하므로 &quot;1&quot; 및 &quot;2&quot;를 보내야 합니다. 애플리케이션이 로컬 알림을 통해 시작/열리지 않으면 추적 이벤트가 발생하지 않습니다.
 
-### Android {#implement-open-tracking-android}의 경우
+### Android용 {#implement-open-tracking-android}
 
-열기를 추적하려면 의도를 만들어야 합니다. 의도 개체를 사용하면 특정 작업이 완료되면 Android OS에서 메서드를 호출할 수 있습니다. 이 경우 알림을 클릭하여 앱을 열 수 있습니다.
+열기를 추적하려면 의도를 만들어야 합니다. 의도 개체를 사용하면 특정 작업이 완료되면 Android OS에서 메서드를 호출할 수 있습니다. 이 경우 알림을 클릭하여 앱을 엽니다.
 
-이 코드는 클릭 노출 추적 구현을 기반으로 합니다. 이제 의도가 설정되어 있으므로 추적 정보를 다시 Adobe Campaign으로 보내야 합니다. 이 경우 사용자가 클릭한 결과 알림을 트리거한 Android 보기([!DNL Activity])가 열리거나 전경으로 표시됩니다. [!DNL Activity]의 intent 객체에는 열기를 추적하는 데 사용할 수 있는 알림 데이터가 포함되어 있습니다.
+이 코드는 클릭 노출 추적 구현을 기반으로 합니다. 이제 의도가 설정된 경우 추적 정보를 다시 Adobe Campaign으로 보내야 합니다. 이 경우, 사용자가 클릭했을 때 알림을 트리거한 Android 보기([!DNL Activity])가 열리거나 전경으로 표시됩니다. [!DNL Activity]의 의도 개체에는 열기 값을 추적하는 데 사용할 수 있는 알림 데이터가 포함되어 있습니다.
 
-MainActivity.java(extends [!DNL Activity])
+MainActivity.java([!DNL Activity] 확장)
 
 ```
 @Override
@@ -170,7 +169,7 @@ private void handleTracking() {
 }
 ```
 
-### iOS {#implement-open-tracking-ios}의 경우
+### iOS용 {#implement-open-tracking-ios}
 
 ```
 import os.log
