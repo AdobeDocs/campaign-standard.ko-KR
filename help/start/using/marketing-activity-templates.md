@@ -6,21 +6,20 @@ description: '"Adobe Campaign 템플릿을 사용하면 필요에 따라 매개 
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campaigns
-role: Business Practitioner
+feature: 캠페인
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 99%
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
-
 # 마케팅 활동 템플릿 {#marketing-activity-templates}
 
-## 템플릿 기본 정보 {#about-templates}
+## 템플릿 정보 {#about-templates}
 
 새 마케팅 활동을 만들 경우 마법사의 첫 번째 화면에 유형이나 템플릿을 선택하라는 메시지가 표시됩니다. 템플릿을 사용하면 필요에 따라 특정 매개 변수를 사전 구성할 수 있습니다. 템플릿에는 마케팅 활동의 전체 또는 일부 구성이 포함될 수 있습니다. 템플릿 관리는 기능 관리자가 수행합니다.
 
