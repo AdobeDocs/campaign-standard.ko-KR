@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: 랜딩 페이지
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 62%
@@ -95,7 +95,7 @@ To avoid this, Adobe recommends you always add to your landing page a checkbox w
    <div id="HtmlPage_htmlPage.line3" data-nl-format="datetime"><input type="checkbox" class="nl-dce-todo" data-nl-bindto="agreement" data-nl-agreementmsg="You must agree with the terms and conditions before proceeding" />I agree with the terms and conditions</div>
    -->
 
-1. **[!UICONTROL Hide source]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Hide source]**&#x200B;를 클릭합니다.
 
 1. 새 확인란이 표시됩니다. 선택합니다.
 
@@ -121,6 +121,6 @@ To avoid this, Adobe recommends you always add to your landing page a checkbox w
    >
    >이 작업은 기본적으로 필수이며 변경할 수 없습니다.
 
-1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
 
 이제 랜딩 페이지가 표시될 때마다 사용자는 양식을 제출하기 전에 이 확인란을 선택해야 합니다. 그렇지 않으면 경고가 표시되고 확인란이 활성화될 때까지 사용자는 양식을 제출할 수 없습니다.
