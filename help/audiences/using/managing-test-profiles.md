@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Profiles
-role: Business Practitioner
+feature: 프로필
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '450'
 ht-degree: 95%
 
 ---
-
 
 # 테스트 프로필 관리 {#managing-test-profiles}
 
@@ -81,10 +80,10 @@ ht-degree: 95%
 
 1. 변경 사항을 입력한 경우 **[!UICONTROL Save]**&#x200B;을(를) 클릭하고 테스트 프로필 이름을 선택한 다음 화면 상단의 섹션에서 **[!UICONTROL Test profiles]**&#x200B;을(를) 클릭하여 테스트 프로필 대시보드로 돌아갑니다.
 
-## 자습서 비디오 {#video}
+## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 테스트 프로필을 만드는 방법을 보여 줍니다.
+이 비디오에서는 테스트 프로필을 만드는 방법을 보여줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-추가 Campaign Standard 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.
