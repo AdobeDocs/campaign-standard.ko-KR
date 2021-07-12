@@ -1,26 +1,25 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 게재할 옵트아웃 프로필 확인
-description: 전달에 대한 옵트아웃 프로필을 식별하는 방법을 알아봅니다.
+title: 게재에 대한 옵트아웃 프로필 확인
+description: 게재할 옵트아웃 프로필을 식별하는 방법을 알아봅니다.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Audiences
-role: Business Practitioner
+feature: 대상자
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 70f6038d-9c5e-4e30-a958-913b454e6d61
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 40%
+source-wordcount: '49'
+ht-degree: 42%
 
 ---
 
+# 게재에 대한 옵트아웃 프로필 확인{#identifying-opt-out-profiles-for-a-delivery}
 
-# 게재할 옵트아웃 프로필 확인{#identifying-opt-out-profiles-for-a-delivery}
-
-특정 전달에 대한 그만두기 프로필은 전달 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 준비 단계 후에 나열됩니다.
+특정 게재에 대한 옵트아웃 프로필은 준비 단계 뒤에 게재 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 나열됩니다.
 
 ![](assets/exclusion_blocklisting.png)
 
@@ -28,4 +27,3 @@ ht-degree: 40%
 
 * [게재 모니터링](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 * [보내기 준비](../../sending/using/preparing-the-send.md).
-
