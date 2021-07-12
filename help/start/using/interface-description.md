@@ -6,17 +6,16 @@ description: '"홈페이지, 상단 표시줄, 고급 메뉴 및 작업 표시�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: 개요
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1290'
 ht-degree: 92%
 
 ---
-
 
 # 인터페이스 설명{#interface-description}
 
@@ -41,7 +40,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 * **[!UICONTROL Create an SMS]** 카드를 통해 SMS 생성 도우미로 이동할 수 있습니다. 이 도우미에서 SMS 유형을 선택하고, 메시지 수신자를 선택하고, 콘텐츠를 정의할 수 있습니다. [SMS 만들기](../../channels/using/creating-an-sms-message.md) 섹션을 참조하십시오.
 * **[!UICONTROL Create a Direct mail]** 카드를 통해 다이렉트 메일 생성 도우미로 이동할 수 있습니다. [다이렉트 메일 만들기](../../channels/using/creating-the-direct-mail.md) 섹션을 참조하십시오.
 * **[!UICONTROL Create a push notification]** 카드를 통해 알림 생성 도우미로 이동할 수 있습니다. 이 도우미에서 푸시 알림 유형을 선택하고, 메시지 수신자를 선택하고, 콘텐츠를 정의할 수 있습니다. [푸시 알림 만들기](../../channels/using/preparing-and-sending-a-push-notification.md) 섹션을 참조하십시오.
-* **[!UICONTROL Create an In-App message]** 카드는 인앱 제작 도우미로 이동합니다. 이 도우미를 사용하면 만들 인앱 메시지 유형을 선택하고 속성, 대상 및 콘텐츠를 정의할 수 있습니다. [인앱 메시지 만들기](../../channels/using/about-in-app-messaging.md) 섹션을 참조하십시오.
+* **[!UICONTROL Create an In-App message]** 카드를 통해 인앱 생성 도우미로 이동할 수 있습니다. 이 도우미에서 생성할 인앱 메시지 유형을 선택하고, 해당 속성, 대상자 및 콘텐츠를 정의할 수 있습니다. [인앱 메시지 만들기](../../channels/using/about-in-app-messaging.md) 섹션을 참조하십시오.
 * **[!UICONTROL Marketing activities]** 카드를 통해 모든 활동, 프로그램 및 캠페인, 특히 이메일, SMS, 워크플로우 및 랜딩 페이지의 전체 목록으로 이동할 수 있습니다. 여기에서 이름, 날짜, 상태 또는 활동 유형별로 검색하여 요소를 필터링할 수 있습니다. 자세한 내용은 [마케팅 활동 목록](../../start/using/marketing-activities.md#about-marketing-activities) 섹션을 참조하십시오.
 * **[!UICONTROL Programs & campaigns]** 카드를 통해 캠페인을 만들고 관리할 수 있는 프로그램 목록으로 이동할 수 있습니다. [프로그램 목록](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)을 참조하십시오.
 * **[!UICONTROL Timeline]** 카드를 통해 마케팅 활동의 대화형 타임라인으로 바로 이동하여 진행 중인 프로그램 및 해당 콘텐츠를 참조할 수 있습니다. [타임라인](../../start/using/timeline.md)을 참조하십시오.
@@ -50,7 +49,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 ## 상단 표시줄 {#top-bar}
 
-상단 막대는 모든 화면에 표시되며 Adobe Campaign 기능을 탐색하고 연결된 Adobe 프로필, 알림, Adobe Experience Cloud 솔루션 및 Campaign 문서에 액세스할 수 있습니다.
+상단 표시줄은 모든 화면에 표시되며 Adobe Campaign 기능을 탐색할 수 있을 뿐만 아니라 연결된 Adobe 프로필, 알림, Adobe Experience Cloud 솔루션 및 Campaign 설명서에 액세스할 수 있습니다.
 
 탐색 원칙은 다음과 같습니다.
 
@@ -60,10 +59,10 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 * **[!UICONTROL Home]** 링크를 통해 Adobe Campaign 홈페이지를 표시할 수 있습니다.
 *  **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** 및 **[!UICONTROL Reports]** 링크를 통해 이러한 기능에 연결된 보기에 액세스할 수 있습니다.
-* **솔루션 전환기** 아이콘을 사용하여 조직 간에 또는 다른 애플리케이션으로 전환할 수 있습니다.
+* **솔루션 전환기** 아이콘을 사용하면 조직 간에 또는 다른 응용 프로그램으로 전환할 수 있습니다.
 * **[!UICONTROL Help]** 아이콘은 [아래에 설명되어 있습니다](#help).
 * **알림** 아이콘에 최신 알림 또는 정보가 표시됩니다.
-* **사용자** 아이콘을 사용하면 프로필에 연결된 정보를 표시할 수 있습니다. **[!UICONTROL Sign out]**&#x200B;이 필요한 경우 이 아이콘을 사용합니다.
+* **사용자** 아이콘을 사용하면 프로필에 연결된 정보를 표시할 수 있습니다. **[!UICONTROL Sign out]**&#x200B;이 필요한 경우 이 아이콘을 사용하십시오.
 
 ### 도움말 {#help}
 
