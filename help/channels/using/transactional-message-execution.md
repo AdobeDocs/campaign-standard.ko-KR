@@ -1,39 +1,38 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 트랜잭션 메시징 실행 및 모니터링
+title: 트랜잭션 메시지 실행 및 모니터링
 description: 트랜잭션 메시지 실행에 대해 알아보고 트랜잭션 메시지를 모니터링하는 방법을 알아봅니다.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: 트랜잭션 메시지
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 62%
+source-wordcount: '742'
+ht-degree: 63%
 
 ---
 
+# 트랜잭션 메시지 실행 및 모니터링 {#transactional-messaging-execution}
 
-# 트랜잭션 메시징 실행 및 모니터링 {#transactional-messaging-execution}
+## 트랜잭션 메시지 실행 게재 {#transactional-message-execution-delivery}
 
-## 트랜잭션 메시지 실행 배달 {#transactional-message-execution-delivery}
-
-메시지가 게시되고 사이트 통합이 완료되면 이벤트가 트리거되면 실행 전달에 할당됩니다.
+메시지가 게시되고 사이트 통합이 완료되면 이벤트가 트리거되면 실행 게재에 할당됩니다.
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**실행 배달**&#x200B;은 각 트랜잭션 메시지에 대해 한 달에 한 번 만들어지는 실행 가능한 비실용적인 기술 메시지입니다. 트랜잭션 메시지가 편집되고 다시 게시될 때마다 이 메시지가 나타납니다.
+**실행 배달**&#x200B;은(는) 트랜잭션 메시지마다 한 달에 한 번 만들어지는 실행 가능한 비실용적인 기술 메시지이며, 트랜잭션 메시지가 편집되어 다시 게시될 때마다 이 메시지가 다시 게시됩니다.
 
 **관련 항목**:
 * [트랜잭션 메시지 게시](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 * [이벤트 트리거 통합](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## 트랜잭션 메시징 재시도 프로세스 {#transactional-message-retry-process}
+## 트랜잭션 메시지 다시 시도 프로세스 {#transactional-message-retry-process}
 
 일시적으로 게재되지 않는 트랜잭션 메시지는 게재가 만료될 때까지 수행되는 자동 다시 시도의 적용을 받습니다. 게재 기간에 대한 자세한 내용은 [유효 기간 매개 변수](../../administration/using/configuring-email-channel.md#validity-period-parameters)를 참조하십시오.
 
@@ -44,7 +43,7 @@ ht-degree: 62%
 
 ### 이벤트 처리 다시 시도 프로세스 {#event-processing-retry-process}
 
-이벤트가 트리거되면 실행 전달에 할당됩니다. 이벤트를 실행 게재에 할당할 수 없는 경우 이벤트 처리가 연기됩니다. 그런 다음 새 실행 게재에 할당될 때까지 다시 시도가 수행됩니다.
+이벤트가 트리거되면 실행 게재에 할당됩니다. 이벤트를 실행 게재에 할당할 수 없는 경우 이벤트 처리가 연기됩니다. 그런 다음 새 실행 게재에 할당될 때까지 다시 시도가 수행됩니다.
 
 >[!NOTE]
 >
@@ -58,7 +57,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->이벤트가 실행 게재에 할당되면 오직 해당 실행 게재의 전송 로그에만 나타납니다. 실패한 배달은 트랜잭션 메시지 전송 로그의 **[!UICONTROL Execution list]** 탭에 표시됩니다.
+>이벤트가 실행 게재에 할당되면 오직 해당 실행 게재의 전송 로그에만 나타납니다. 실패한 게재는 트랜잭션 메시지 전송 로그의 **[!UICONTROL Execution list]** 탭에 표시됩니다.
 
 ### 프로세스 제한 다시 시도 {#limitations}
 
@@ -70,11 +69,11 @@ ht-degree: 62%
 
 실행 게재를 중단할 수 없습니다. 하지만 현재 실행 게재가 실패할 경우 새 이벤트가 수신되는 즉시 새 이벤트가 만들어지고 모든 새 이벤트가 이 새 실행 게재로 처리됩니다. 실패한 실행 게재로 새 이벤트가 처리되지 않습니다.
 
-실행 배달에 이미 할당된 일부 이벤트가 재시도 프로세스의 일부로 연기된 경우 해당 실행 배달에 실패하면 재시도 시스템은 연기된 이벤트를 새 실행 배달에 할당하지 않습니다. 즉, 이러한 이벤트가 손실됩니다. [배달 로그](#monitoring-transactional-message-delivery)에서 영향을 받을 수 있는 받는 사람을 확인합니다.
+이미 실행 게재에 지정된 일부 이벤트가 다시 시도 프로세스의 일부로 연기된 경우, 해당 실행 게재에 실패하면 다시 시도 시스템은 연기된 이벤트를 새 실행 게재에 할당하지 않습니다. 즉, 이러한 이벤트가 손실됩니다. [게재 로그](#monitoring-transactional-message-delivery)를 확인하여 영향을 받을 수 있는 수신자를 확인하십시오.
 
 ## 트랜잭션 메시지 모니터링 {#monitoring-transactional-message-delivery}
 
-트랜잭션 메시지를 모니터링하려면 해당 [실행 배달](#transactional-message-execution-delivery)에 액세스해야 합니다.
+트랜잭션 메시지를 모니터링하려면 해당 [실행 게재](#transactional-message-execution-delivery)에 액세스해야 합니다.
 
 1. 메시지 게재 로그를 보려면 **[!UICONTROL Deployment]** 블록의 오른쪽 하단에 있는 아이콘을 클릭합니다.
 
@@ -84,17 +83,17 @@ ht-degree: 62%
 
    ![](assets/message-center_execution_tab.png)
 
-1. 원하는 실행 배달을 선택합니다.
+1. 원하는 실행 게재를 선택합니다.
 
    ![](assets/message-center_execution_delivery.png)
 
-1. **[!UICONTROL Deployment]** 블록 오른쪽 하단에 있는 아이콘을 다시 클릭합니다.
+1. **[!UICONTROL Deployment]** 블록의 오른쪽 하단에 있는 아이콘을 다시 클릭합니다.
 
    ![](assets/message-center_execution_access_logs.png)
 
-   각 실행 전달에 대해 표준 전달에서와 마찬가지로 배달 로그를 참조할 수 있습니다. 로그 액세스 및 사용에 대한 자세한 내용은 [배달 모니터링](../../sending/using/monitoring-a-delivery.md)을 참조하십시오.
+   각 실행 게재에 대해 표준 게재와 마찬가지로 게재 로그를 참조할 수 있습니다. 로그 액세스 및 사용에 대한 자세한 내용은 [게재 모니터링](../../sending/using/monitoring-a-delivery.md)을 참조하십시오.
 
-### 프로파일 기반 트랜잭션 메시지 지정 {#profile-transactional-message-monitoring}
+### 프로필 기반 트랜잭션 메시지 특성 {#profile-transactional-message-monitoring}
 
 프로필 기반 트랜잭션 메시지의 경우 다음 프로필 정보를 모니터링할 수 있습니다.
 
@@ -102,7 +101,7 @@ ht-degree: 62%
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-메시지 대상에서 제외된 받는 사람(예:의 주소)을 보려면 **[!UICONTROL Exclusions logs]** 탭을 차단 목록 선택합니다.
+주소 등 메시지 대상에서 제외된 수신자를 보려면 **[!UICONTROL Exclusions logs]** 탭을 차단 목록 선택합니다.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 
