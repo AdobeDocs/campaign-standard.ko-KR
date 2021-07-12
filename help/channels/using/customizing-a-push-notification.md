@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 feature: 푸시
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 97%
@@ -115,7 +115,7 @@ ht-degree: 97%
 
 푸시 알림에 만료 날짜를 추가하려면 다음을 수행합니다.
 
-1. **[!UICONTROL Expire message]** 옵션을 선택합니다.**[!UICONTROL Expire message]** 옵션을 선택하면 지속 시간이 자동으로 0으로 설정됩니다. 값을 변경하지 않으면 APNS 및 FCM 모두 메시지를 즉시 보내려고 시도합니다. 실패하면 메시지가 다시 전송되지 않습니다.
+1. **[!UICONTROL Expire message]** 옵션을 선택합니다. **[!UICONTROL Expire message]** 옵션을 선택하면 지속 시간이 자동으로 0으로 설정됩니다. 값을 변경하지 않으면 APNS 및 FCM 모두 메시지를 즉시 보내려고 시도합니다. 실패하면 메시지가 다시 전송되지 않습니다.
 
 1. **[!UICONTROL Duration]** 필드에서 푸시 알림의 유효성을 선택합니다.
 
