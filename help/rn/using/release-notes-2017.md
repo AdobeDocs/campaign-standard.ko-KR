@@ -7,17 +7,17 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 개요
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '4625'
+source-wordcount: '4624'
 ht-degree: 8%
 
 ---
 
-# 릴리스 정보 2017{#release-notes}
+# 2017년 릴리스 정보{#release-notes}
 
 Adobe Campaign Standard의 특정 2017 릴리스를 찾고 계십니까?
 
@@ -38,11 +38,11 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using
  </thead> 
  <tbody> 
   <tr> 
-   <td> 피로 관리<br /> </td> 
+   <td> 피로도 관리<br /> </td> 
    <td> 피로도 관리를 사용하면 프로필의 과도한 커뮤니케이션을 관리하기 위해 피로도 규칙을 만들 수 있습니다. 피로도 규칙을 쉽게 구축할 수 있지만 유연성이 뛰어난 피로도 규칙을 사용하면 여러 채널(트랜잭션 메시지 포함)에서 메시지 카운트, 특정 게재 카운트 또는 특정 프로필에 규칙 적용 등의 작업을 수행할 수 있습니다.<br /> 자세한 내용은 <a href="../../sending/using/fatigue-rules.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 콘텐츠 만들기:URL<br />에서 가져오기 </td> 
+   <td> 콘텐츠 만들기: URL<br />에서 가져오기 </td> 
    <td> URL에서 가져오기를 사용하면 웹 사이트에서 크리에이티브 콘텐츠를 빠르게 검색하여 배달할 이메일을 작성할 수 있습니다. 또한 타사에서 URL을 통해 직접 콘텐츠를 공유할 수 있게 하여 크리에이티브 프로세스를 간소화할 수 있습니다. 가져온 콘텐츠는 단일 배달에 포함하거나 템플릿 수준에서 유연하게 사용하여 워크플로우 기반 메시지든 트랜잭션 메시지든 관계없이 모든 관련 캠페인에 대한 브랜드 일관성을 보장하고, A/B 또는 다변량 테스트를 포함할 수 있습니다. URL에서 가져오기는 Dynamic Reporting을 통해 이메일 성능을 모니터링하도록 모든 링크를 자동으로 변환하고 추적합니다.<br /> 자세한 내용은 <a href="../../designing/using/using-existing-content.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
@@ -190,7 +190,7 @@ _프로필 및 대상자_
  <tbody> 
   <tr> 
    <td> 다국어 이메일 및 SMS 게재<br /> </td> 
-   <td> 자동으로 세그먼트화된 고객의 선호 언어를 기반으로 하는 단일 게재를 통해 다국어 이메일 및 SMS 게재를 정의하고 실행합니다. 언어 및 개인 수준에 대한 모든 게재의 성과를 보고합니다.<br /> 점점 더 많은 기업들이 국내외에서 성장함에 따라 여러 언어로 콘텐츠를 전달해야 하는 어려움에 직면해 있습니다. 이와 같이 현지화된 메시지 전달을 간소화하는 것은 다국적 기업을 위한 효과적인 고객 커뮤니케이션 전략의 핵심 부분입니다.여러 언어를 사용하는 국가의 기업고객이 거주하는 지역에 상관없이 언어 수준에서 콘텐츠를 추가로 개인화하려는 회사입니다. 자세한 내용은 <a href="../../channels/using/creating-a-multilingual-email.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 자동으로 세그먼트화된 고객의 선호 언어를 기반으로 하는 단일 게재를 통해 다국어 이메일 및 SMS 게재를 정의하고 실행합니다. 언어 및 개인 수준에 대한 모든 게재의 성과를 보고합니다.<br /> 점점 더 많은 기업들이 국내외에서 성장함에 따라 여러 언어로 콘텐츠를 전달해야 하는 어려움에 직면해 있습니다. 이와 같이 현지화된 메시지 전달을 간소화하는 것은 다국적 기업을 위한 효과적인 고객 커뮤니케이션 전략의 핵심 부분입니다. 여러 언어를 사용하는 국가의 기업 고객이 거주하는 지역에 상관없이 언어 수준에서 콘텐츠를 추가로 개인화하려는 회사입니다. 자세한 내용은 <a href="../../channels/using/creating-a-multilingual-email.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign 알림<br /> </td> 
@@ -206,7 +206,7 @@ _프로필 및 대상자_
   </tr> 
   <tr> 
    <td> Campaign에서 Analytics로 KPI 공유<br /> </td> 
-   <td> Adobe Analytics과 캠페인 데이터를 공유하여 전환을 통해 다른 마케팅 및 광고 노력과 함께 Campaign의 이메일 마케팅 지표를 측정하고, 사전 클릭 및 사후 클릭 동작을 통합합니다.<br /> 전체 성능을 직접 추적하고 Analytics에서 외부 프로그램과의 시너지 효과를 확인할 수 있습니다. 이 통합 보기의 학습을 다시 캠페인에 적용하십시오.궁극적으로 오픈, 클릭스루 및 전환율을 개선하여 매출과 전체 캠페인 성과를 높일 수 있습니다. <br /> Adobe Analytics이 필요합니다. 자세한 내용은 <a href="../../integrating/using/about-campaign-analytics-integration.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> Adobe Analytics과 캠페인 데이터를 공유하여 전환을 통해 다른 마케팅 및 광고 노력과 함께 Campaign의 이메일 마케팅 지표를 측정하고, 사전 클릭 및 사후 클릭 동작을 통합합니다.<br /> 전체 성능을 직접 추적하고 Analytics에서 외부 프로그램과의 시너지 효과를 확인할 수 있습니다. 이 통합 보기의 학습을 다시 캠페인에 적용하십시오. 궁극적으로 오픈, 클릭스루 및 전환율을 개선하여 매출과 전체 캠페인 성과를 높일 수 있습니다. <br /> Adobe Analytics이 필요합니다. 자세한 내용은 <a href="../../integrating/using/about-campaign-analytics-integration.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dm 채널 - 보낸 사람에게 반환<br /> </td> 
@@ -317,7 +317,7 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> 트랜잭션 푸시 알림<br /> </td> 
-   <td> 모바일 애플리케이션 채널이 Adobe Campaign의 트랜잭션 메시지 기능에 추가되었습니다. 이제 트랜잭션 메시지에 대해 세 개의 채널이 지원됩니다.이메일, SMS 및 푸시 알림.<br /> 자세한 내용은 <a href="../../channels/using/transactional-push-notifications.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 모바일 애플리케이션 채널이 Adobe Campaign의 트랜잭션 메시지 기능에 추가되었습니다. 이제 트랜잭션 메시지에 대해 세 개의 채널이 지원됩니다. 이메일, SMS 및 푸시 알림.<br /> 자세한 내용은 <a href="../../channels/using/transactional-push-notifications.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 반복 푸시 알림<br /> </td> 
@@ -329,7 +329,7 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> Dreamweaver 통합 live<br /> </td> 
-   <td> 이제 Adobe Campaign과 Dreamweaver 간의 통합이 실시간으로 제공됩니다. 이제 공식적인 최신 Dreamweaver 버전(17.0.2)과 함께 작동합니다.<br /> 이렇게 하려면 여기에서 Adobe Campaign 통합 확장을 설치해야 합니다. <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addon자세한 내용은 이  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">비디오</a>를 참조하십시오.<br /> </td> 
+   <td> 이제 Adobe Campaign과 Dreamweaver 간의 통합이 실시간으로 제공됩니다. 이제 공식적인 최신 Dreamweaver 버전(17.0.2)과 함께 작동합니다.<br /> 이렇게 하려면 여기에서 Adobe Campaign 통합 확장을 설치해야 합니다.  <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addon자세한 내용은 이  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ko">비디오</a>를 참조하십시오.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -367,7 +367,7 @@ _워크플로우_
 
 _통합_
 
-* 관심 영역 데이터:위치 구독자를 계산할 때 발생하는 오류를 수정했습니다.
+* 관심 영역 데이터: 위치 구독자를 계산할 때 발생하는 오류를 수정했습니다.
 
 _대상 및 쿼리_
 
@@ -424,15 +424,15 @@ _푸시 알림_
     </ul> 자세한 내용은 <a href="../../channels/using/about-push-notifications.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 워크플로우:새 신호 활동<br /> </td> 
+   <td> 워크플로우: 새 신호 활동<br /> </td> 
    <td> 새 <span class="uicontrol">신호</span> 활동을 사용하여 다른 워크플로우에서 워크플로우를 트리거합니다.<br /> 이제 한 워크플로우를 다른 워크플로우에서 시작할 수 있으므로 보다 복잡한 고객 여정을 지원할 수 있습니다. 문제가 있을 경우 고객 여정을 모니터링하고 조치를 취하는 것이 좋습니다.<br /> 몇 가지 워크플로우 활동이 업데이트되었습니다.<br /> 
     <ul> 
-     <li> <span class="uicontrol"></span> 종료 활동:새 탭에서는 이 활동이 실행된 후에 트리거할 워크플로우를 지정할 수 있습니다. </li> 
-     <li> <span class="uicontrol">데이터 </span> 활동 업데이트:새로운 빈 아웃바운드 전환을 사용하여 다른 워크플로우를 트리거하는  <strong></strong> Endactivity를 추가합니다. 빈 아웃바운드 전환은 데이터를 전달하지 않으며 시스템에서 불필요한 공간을 사용하지 않습니다 </li> 
+     <li> <span class="uicontrol"></span> 종료 활동: 새 탭에서는 이 활동이 실행된 후에 트리거할 워크플로우를 지정할 수 있습니다. </li> 
+     <li> <span class="uicontrol">데이터 </span> 활동 업데이트: 새로운 빈 아웃바운드 전환을 사용하여 다른 워크플로우를 트리거하는  <strong></strong> Endactivity를 추가합니다. 빈 아웃바운드 전환은 데이터를 전달하지 않으며 시스템에서 불필요한 공간을 사용하지 않습니다 </li> 
     </ul> 자세한 내용은 <a href="../../automating/using/external-signal.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 워크플로우:새 대상 읽기 활동<br /> </td> 
+   <td> 워크플로우: 새 대상 읽기 활동<br /> </td> 
    <td> 하나의 활동에서 쉽게 선택하고 세분화할 수 있는 기존 대상으로 타깃팅 프로세스를 시작합니다.<br /> 자세한 내용은 <a href="../../automating/using/read-audience.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
