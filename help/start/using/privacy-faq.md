@@ -9,13 +9,12 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: Privacy
-role: Business Practitioner
+feature: 개인 정보
+role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -33,10 +32,10 @@ ht-degree: 100%
 
 * [개인 정보 관리에 관한 규정](../../start/using/privacy-management.md#privacy-management-regulations)
 * [개인 데이터 및 가상 사용자](../../start/using/privacy.md#personal-data)
-* [액세스 권한 및 잊혀질 권리](../../start/using/privacy-management.md#right-access-forgotten)
+* [액세스 권리 및 잊혀질 권리](../../start/using/privacy-management.md#right-access-forgotten)
 * [동의, 보존 및 역할](../../start/using/privacy-management.md#consent-retention-roles)
 
-## 개인 정보 보호 규정 준비 {#privacy-regulations-readiness}
+## 개인 정보 보호 규정 준비 태세 {#privacy-regulations-readiness}
 
 **최신 개인 정보 보호 규정을 준수하기 위한 Adobe Campaign의 제안은 무엇입니까?**
 
