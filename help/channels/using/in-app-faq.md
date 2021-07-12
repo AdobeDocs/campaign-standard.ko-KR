@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: 인앱
-role: Business Practitioner
+role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 2%
@@ -67,7 +67,7 @@ ht-degree: 2%
 
 경고 메시지의 경우, 하나 이상의 해제 단추(주 단추나 보조 단추에는 작업 해지가 있어야 함)가 필요합니다. 그렇지 않으면 메시지를 저장할 수 있지만 수신되지 않습니다.
 
-## 로컬 알림 iOS 사용자 지정 사운드가 재생되지 않는 경우대신 기본 사운드가 재생됩니까? {#local-notification-sound}
+## 로컬 알림 iOS 사용자 지정 사운드가 재생되지 않는 경우 대신 기본 사운드가 재생됩니까? {#local-notification-sound}
 
 iOS의 사용자 지정 사운드의 경우 로컬 알림을 만들 때 확장자가 인 파일 이름을 제공해야 합니다(예: sound.caf). 이 확장을 제공하지 않으면 기본 사운드가 사용됩니다.
 
@@ -84,7 +84,7 @@ iOS의 사용자 지정 사운드의 경우 로컬 알림을 만들 때 확장�
 
 1. 인앱 메시지 만들기.
 
-1. 사용자 지정 이벤트를 정의하고 이 IAM에 대한 이벤트 트리거로 선택합니다(예: ).&quot;가을 미리 보기 푸시에서 트리거&quot;.
+1. 사용자 지정 이벤트를 정의하고 이 IAM에 대한 이벤트 트리거로 선택합니다(예: ). &quot;가을 미리 보기 푸시에서 트리거&quot;.
 
 1. 푸시 메시지를 작성할 때 IAM을 트리거하는 데 사용되는 이벤트로 값을 설정할 수 있는 사용자 지정 변수(예: 키 = &quot;inappkey&quot; 및 값 = &quot;가을 미리 보기 푸시로부터 트리거&quot;)를 정의합니다.
 
