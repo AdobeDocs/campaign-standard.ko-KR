@@ -6,19 +6,18 @@ description: 전자 메일 렌더링 기능을 살펴보십시오.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 전송 시간 최적화
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 82%
 
 ---
 
-
-# 전자 메일 렌더링{#email-rendering}
+# 이메일 렌더링{#email-rendering}
 
 **[!UICONTROL Send]** 버튼을 누르기 전에 메시지가 다양한 웹 클라이언트, 웹 메일 및 디바이스에서 최적의 방식으로 표시되는지 확인하십시오.
 
@@ -26,7 +25,7 @@ ht-degree: 82%
 
 Adobe Campaign에서 **전자 메일 렌더링을** 위해 사용할 수 있는 모바일, 메시징 및 웹 메일 클라이언트는 Litmus [웹 사이트](https://litmus.com/email-testing) (**모든 이메일 클라이언트 보기** 클릭)에 나열되어 있습니다.
 
-## 이메일 렌더링 생성 중 {#checking-the-email-rendering-report}
+## 전자 메일 렌더링 생성 {#checking-the-email-rendering-report}
 
 전자 메일 게재를 만들고 타겟팅된 모집단과 해당 컨텐츠까지 정의했으면 아래 단계를 따르십시오.
 
@@ -65,23 +64,23 @@ Adobe Campaign에서 **전자 메일 렌더링을** 위해 사용할 수 있는 
 
 **관련 항목**:
 
-* [전자 메일 만들기](../../channels/using/creating-an-email.md)
+* [이메일 만들기](../../channels/using/creating-an-email.md)
 * [증명 보내기](../../sending/using/sending-proofs.md)
 * [쿼리 편집기](../../automating/using/editing-queries.md#about-query-editor)
 
-## 이메일 렌더링 보고서 {#email-rendering-report-description}
+## 전자 메일 렌더링 보고서 {#email-rendering-report-description}
 
 이 보고서는 수신자에게 보여지는 전자 메일 주소를 표시합니다. 전자 메일 렌더링은 브라우저, 모바일 디바이스 또는 전자 메일 애플리케이션을 통해서와 같이 수신자가 전자 메일 게재를 여는 방법에 따라 다를 수 있습니다.
 
-### 이메일 렌더링 토큰
+### 전자 메일 렌더링 토큰
 
 사용 가능한 렌더링 수는 사용권 계약에 나와 있습니다. **전자 메일 렌더링**&#x200B;이 활성화된 각 게재는 사용 가능한 렌더링(토큰으로 알려져 있음)을 하나씩 감소시킵니다.
 
-토큰은 전체 이메일 렌더링 보고서가 아니라 각 개별 렌더링에 대해 계산됩니다. 즉,
+토큰은 각 개별 렌더링에 대해 고려하며 전체 이메일 렌더링 보고서가 아님, 즉 다음을 의미합니다.
 
-* **이메일** 렌더링 보고서가 생성될 때마다 메시징 클라이언트당 하나의 토큰을 공제합니다.Outlook 2000 렌더링을 위한 토큰 하나, Outlook 렌더링을 위한 토큰 하나, Apple Mail 렌더링을 위한 토큰 하나.
+* **전자** 메일 렌더링 보고서가 생성될 때마다 메시징 클라이언트당 하나의 토큰이 공제됩니다. Outlook 2000 렌더링용 토큰 1개, Outlook 렌더링용, Apple Mail 렌더링 등의 토큰.
 
-* **동일한 전달의 경우** 이메일 렌더링을 다시 생성할 경우 사용 가능한 토큰 수가 생성된 렌더링 수에 따라 다시 감소됩니다.
+* **동일한 게재의** 경우, 이메일 렌더링을 다시 생성하는 경우 사용 가능한 토큰 수가 생성된 렌더링 수로 다시 감소합니다.
 
 ### 보고서 요약
 
