@@ -6,25 +6,24 @@ description: Campaign Standard 구성 지침에 대해 알아봅니다.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: 액세스 관리
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 9%
+source-wordcount: '119'
+ht-degree: 10%
 
 ---
-
 
 # 구성 지침 {#about-configuration-guidelines}
 
 ## 호환 가능한 브라우저{#compatible-browsers}
 
-Adobe Campaign Standard은 대부분의 컴퓨터 브라우저와 호환되며 태블릿용 기본 운영 체제와 호환됩니다.
+Adobe Campaign Standard은 대부분의 컴퓨터 브라우저 및 태블릿용 기본 운영 체제와 호환됩니다.
 
-Adobe Campaign Standard은 태블릿에서 가로 표시 모드만 지원합니다.
+Adobe Campaign Standard은 태블릿에서 디스플레이 모드로서 경관만 지원합니다.
 
 다음은 Adobe Campaign Standard과 호환되는 브라우저 목록입니다.
 
@@ -42,12 +41,12 @@ Adobe Campaign Standard은 태블릿에서 가로 표시 모드만 지원합니�
 
 ## Campaign Standard 네트워크 엔드포인트 {#campaign-standard-network-endpoints}
 
-Campaign Standard에 사용되는 다른 끝점이 있습니다.
+다음은 Campaign Standard에 사용되는 다양한 종단점입니다.
 
 | 컨텍스트 | URL |
 |--- |--- |
-| 캠페인 인스턴스 | `https://*.experiencecloud.adobe.com` (테넌트 ID * + 클라이언트 도메인)<br>`https://*.campaign.adobe.com` (캠페인 인스턴스 테넌트) |
-| IMS. | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
+| Campaign 인스턴스 | `https://*.experiencecloud.adobe.com` (임차인 ID * + 클라이언트 도메인)<br>`https://*.campaign.adobe.com` (Campaign Instance 테넌트) |
+| IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | 추적 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
 | 자산 통합 | `https://*.marketing-assets.adobe.com` |
