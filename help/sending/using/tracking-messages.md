@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: 성능 모니터링
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 20%
@@ -19,7 +19,7 @@ ht-degree: 20%
 
 # 메시지 추적{#tracking-messages}
 
-## {#about-tracking} 추적 정보
+## 추적 기본 정보 {#about-tracking}
 
 Adobe Campaign은 추적 기능 덕분에 게재 수신자의 동작을 추적할 수 있습니다. 이를 위해 Adobe Campaign은 세션 쿠키와 영구 쿠키를 사용합니다.
 
@@ -79,10 +79,10 @@ Adobe Campaign Standard을 사용하여 추적하면 다음 기능에 액세스�
 
 **[!UICONTROL Type]** 열에서 가능한 값은 다음과 같습니다.
 
-* **[!UICONTROL Email click]**:수신자가 사용자 지정 링크를 클릭합니다.
-* **[!UICONTROL Mirror page]**:수신자가 미러 페이지에 대한 링크를 클릭합니다.
-* **[!UICONTROL Open]**:수신자가 이메일을 열었습니다.
-* **[!UICONTROL Opt-out]**:수신자가 구독 취소 링크를 클릭합니다.
+* **[!UICONTROL Email click]**: 수신자가 사용자 지정 링크를 클릭합니다.
+* **[!UICONTROL Mirror page]**: 수신자가 미러 페이지에 대한 링크를 클릭합니다.
+* **[!UICONTROL Open]**: 수신자가 이메일을 열었습니다.
+* **[!UICONTROL Opt-out]**: 수신자가 구독 취소 링크를 클릭합니다.
 
 >[!NOTE]
 >
