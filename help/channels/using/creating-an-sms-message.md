@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 95%
+source-wordcount: '539'
+ht-degree: 96%
 
 ---
-
 
 # SMS 메시지 만들기{#creating-an-sms-message}
 
@@ -84,10 +83,10 @@ SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유�
 * [SMS 및 푸시 콘텐츠 에디션 기본 정보](../../channels/using/about-sms-and-push-content-design.md)
 * [템플릿 관리](../../start/using/marketing-activity-templates.md)
 
-## 자습서 비디오 {#video}
+## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 SMS 전달을 만드는 방법을 보여 줍니다.
+이 비디오에서는 SMS 게재를 만드는 방법을 보여줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
 
-추가 Campaign Standard 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.
