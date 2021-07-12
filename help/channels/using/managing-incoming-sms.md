@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 7%
@@ -59,7 +59,7 @@ Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 수행�
 
    ![](assets/sms_mo.png)
 
-1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
 1. SMS 게재 **[!UICONTROL Properties]**&#x200B;의 **[!UICONTROL Advanced parameters]**&#x200B;에서 특정 **[!UICONTROL Short code]**&#x200B;를 설정하여 옵트아웃한 수신자를 자동으로 제외할 수 있습니다. 자세한 내용은 [이 섹션](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)을 참조하십시오.
 
@@ -67,7 +67,7 @@ Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 수행�
 
 필요한 경우 이러한 수신 SMS를 저장할 수 있습니다. 자세한 내용은 이 [섹션](#storing-incoming-sms)을 참조하십시오.
 
-## 수신 SMS {#storing-incoming-sms} 저장
+## 수신 SMS 저장 {#storing-incoming-sms}
 
 **[!UICONTROL SMS routing via SMPP]** 외부 계정에서는 수신자 목록에서 제거하기 위해 구독자가 SMS 메시지에 &quot;STOP&quot;을 회신하는 경우와 같이 수신 메시지를 저장하도록 선택할 수 있습니다.
 
