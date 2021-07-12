@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
-feature: Audiences
-role: Business Practitioner
+feature: 대상자
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 94%
+source-wordcount: '441'
+ht-degree: 95%
 
 ---
-
 
 # 서비스 만들기{#creating-a-service}
 
@@ -64,10 +63,10 @@ ht-degree: 94%
 * [구독자로 구성된 대상자 만들기](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [랜딩 페이지를 서비스에 연결](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
-## 자습서 비디오 {#video}
+## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 서비스를 만들고 구독을 관리하는 방법을 보여 줍니다.
+이 비디오에서는 서비스를 만들고 구독을 관리하는 방법을 보여줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-추가 Campaign Standard 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.
