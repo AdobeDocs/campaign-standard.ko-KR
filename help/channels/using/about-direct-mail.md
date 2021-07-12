@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
-feature: Direct Mail
-role: Business Practitioner
+feature: DM
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 97%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
-
 
 # DM 기본 정보{#about-direct-mail}
 
@@ -41,7 +40,7 @@ Adobe Campaign의 사용자 프로세스는 다음과 같습니다.
 
 **관련 항목:**
 
-* [사용 사례:이메일 및 DM 배달 연결](../../automating/using/coupling-email-direct-mail.md)
+* [사용 사례: 이메일 및 DM 게재 연결](../../automating/using/coupling-email-direct-mail.md)
 
 ## 추천 {#recommendations}
 
