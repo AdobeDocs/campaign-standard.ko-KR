@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-feature: Access Management
-role: Administrator
+feature: 액세스 관리
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '942'
 ht-degree: 88%
 
 ---
-
 
 # 그룹 및 사용자 관리{#managing-groups-and-users}
 
@@ -27,7 +26,7 @@ ht-degree: 88%
 
 사용자는 항상 보안 그룹에 연결되어 있어야 합니다. 이를 통해 특정 역할 및 조직 단위를 할당할 수 있습니다.
 
-역할에 대한 자세한 내용은 다음 페이지의 표에서 사용자의 역할에 따라 사용할 수 있는 작업을 보여 줍니다.[Adobe Campaign Standard 인증](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+역할에 대한 자세한 내용은 다음 페이지의 표에 사용자의 역할에 따라 사용할 수 있는 작업이 나와 있습니다. [Adobe Campaign Standard 권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 기본 보안 그룹은 다음과 같습니다.
 
@@ -38,9 +37,9 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Access to the deliverability parameters (Deliverability)]** 및 **[!UICONTROL Message Center agents (mcExec)]** 보안 그룹은 Adobe 내부용이므로 어떤 사용자에게도 할당해서는 안 됩니다.
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]** 및 **[!UICONTROL Message Center agents (mcExec)]** 보안 그룹은 Adobe 내부용이므로 사용자에게 할당해서는 안 됩니다.
 
-Adobe Campaign에 액세스하려면 각 사용자를 보안 그룹에 할당해야 합니다.
+Adobe Campaign에 액세스할 수 있으려면 각 사용자를 보안 그룹에 지정해야 합니다.
 
 사용자의 액세스를 제한하려면 해당 사용자를 Campaign Standard 사용자 그룹에 추가하지 마십시오. 이 그룹은 **[!UICONTROL All]** 조직 단위와 연결되어 있기 때문입니다. 
 
@@ -136,7 +135,7 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
    >[!NOTE]
    >
-   >사용자에게 기본 보안 그룹을 지정하는 경우 조직 단위를 재설정해야 합니다.
+   >사용자에게 기본 제공 보안 그룹을 할당하는 경우 조직 단위를 재설정해야 합니다.
 
    ![](assets/manage_security_group_6.png)
 
@@ -149,5 +148,4 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
 >[!IMPORTANT]
 >
->Admin Console의 보안 그룹에서 사용자가 제거되면 Adobe Campaign 보안 그룹의 일부로 남으며 더 이상 Adobe Campaign에 로그인할 수 없게 됩니다. 이 경우 민감한 정보를 수신하지 못하도록 Admin Console에서 해당 사용자의 이메일 주소를 제거합니다.
-
+>Admin Console에서 사용자를 보안 그룹에서 제거할 경우, 해당 사용자는 Adobe Campaign 보안 그룹의 일부로 남으며 더 이상 Adobe Campaign에 로그인할 수 없습니다. 이 경우 민감한 정보를 수신하지 못하도록 Admin Console에서 해당 사용자의 이메일 주소를 제거합니다.
