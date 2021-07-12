@@ -7,17 +7,17 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 개요
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '7591'
+source-wordcount: '7590'
 ht-degree: 8%
 
 ---
 
-# 릴리스 정보 2019년{#release-notes-2019}
+# 2019년 릴리스 정보{#release-notes-2019}
 
 [릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html) |  [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)  |  [설명서 업데이트](../../rn/using/documentation-updates.md)  |  [최신 릴리스 노트](../../rn/using/release-notes.md)  |  [더 이상 사용되지 않는 기능](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes)
 
@@ -36,7 +36,7 @@ ht-degree: 8%
    <td> <p>CCPA는 2020년 1월 1일부터 시행된 데이터 보호 요구 사항을 통합하고 현대화한 캘리포니아 주의 새로운 개인 정보 보호 법입니다. CCPA는 캘리포니아에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
    <p>Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 외에도 Adobe는 CCPA에 대한 준비를 용이하게 하기 위해 이번에 추가 기능을 포함시킬 수 있는 기회를 드립니다.</p>
    <ul>
-    <li>액세스 권한 및 삭제 권한:adobe는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#righttoaccess">자세히 알아보기</a> </li>
+    <li>액세스 권한 및 삭제 권한: adobe는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#righttoaccess">자세히 알아보기</a> </li>
     <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 핵심 서비스에 규정 유형(GDPR 또는 CCPA)이 추가되었습니다. 이 방법은 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">사용이 중단되거나 제거된 기능 문서</a>를 참조하십시오.</p></li>
     <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 Adobe Campaign 사용자가 추적할 수 있도록 <strong>CCPA 옵트아웃</strong> 필드가 프로필 리소스에 추가되었습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ccpa">자세히 알아보기</a></li>
   </ul>
@@ -67,9 +67,9 @@ ht-degree: 8%
 * 동적 보고에 대한 동의 팝업이 Adobe Campaign Standard 및 Microsoft Dynamics 365 통합을 포함하도록 업데이트되었습니다. 약관에 동의하면 Adobe Campaign Standard / Microsoft Dynamics 365 통합 및 동적 보고를 사용할 때 프로필 데이터가 포함됩니다. [자세한 내용](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 게재 경고를 받을 때 잘못된 연락 날짜를 표시하는 문제를 해결했습니다.
 * 알 수 없는 컨텍스트 매개 변수를 사용하여 트랜잭션 메시지 이벤트를 제출하면 이제 Campaign은 &quot;500&quot; 대신 &quot;400&quot; 오류 메시지를 반환합니다. (CAMP-28632)
-* 동적 보고에 새 **제외 증명** 세그먼트가 추가되었습니다. 이제 이 세그먼트는 보고서를 필터링하도록 기본적으로 선택됩니다. [자세히 알아보기](../../reporting/using/list-of-components-.md#segments)
-* **메시지 만료** 옵션이 푸시 알림에 추가되었습니다. 이 옵션을 통해 APNS(Apple) 또는 Android(FCM)에서 더 이상 메시지를 보내지 않을 만료 날짜를 지정할 수 있습니다. [자세히 알아보기](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* **파일 로드** 활동이 개선되었습니다.워크플로우 로그가 파일을 로드하지 못할 때 발생하는 오류에 대해 보다 명확하게 수정했습니다. **파일** 옵션을 활성화할 때 생성된 아웃바운드 전환의 이름이 **거부**&#x200B;로 변경되었습니다. [자세히 알아보기](../../automating/using/load-file.md)
+* 동적 보고에 새 **제외 증명** 세그먼트가 추가되었습니다. 이제 이 세그먼트는 보고서를 필터링하도록 기본적으로 선택됩니다. [자세한 내용](../../reporting/using/list-of-components-.md#segments)
+* **메시지 만료** 옵션이 푸시 알림에 추가되었습니다. 이 옵션을 통해 APNS(Apple) 또는 Android(FCM)에서 더 이상 메시지를 보내지 않을 만료 날짜를 지정할 수 있습니다. [자세한 내용](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* **파일 로드** 활동이 개선되었습니다. 워크플로우 로그가 파일을 로드하지 못할 때 발생하는 오류에 대해 보다 명확하게 수정했습니다. **파일** 옵션을 활성화할 때 생성된 아웃바운드 전환의 이름이 **거부**&#x200B;로 변경되었습니다. [자세한 내용](../../automating/using/load-file.md)
 * 업로드된 CSV 파일에서 언어가 누락되어 보내는 오류를 더 잘 이해할 수 있도록 다국어 관련 로그가 전송 로그에 추가되었습니다.
 
 **향상된 보안 기능**
@@ -82,14 +82,14 @@ ht-degree: 8%
 
 * 이메일에 삽입할 때 구독 취소, 구독 및 랜딩 페이지 링크가 추적되지 않는 문제를 해결했습니다. (CAMP-37809)
 * 새 이메일을 만들고 템플릿을 선택할 때 오류가 발생하는 문제를 수정했습니다. (CAMP-38000)
-* 이제 이메일 디자이너를 사용하여 링크를 편집할 때 **밑줄 링크** 옵션을 사용할 수 있습니다. 또한 **Target** 속성이 **없음**&#x200B;으로 설정된 상태로 추가되었습니다. [자세히 알아보기](../../designing/using/styles.md#about-styling-links)
+* 이제 이메일 디자이너를 사용하여 링크를 편집할 때 **밑줄 링크** 옵션을 사용할 수 있습니다. 또한 **Target** 속성이 **없음**&#x200B;으로 설정된 상태로 추가되었습니다. [자세한 내용](../../designing/using/styles.md#about-styling-links)
 * 이메일 본문의 텍스트 구성 요소에 있는 링크에 대한 색상 문제를 해결했습니다. (CAMP-37330)
 * 이미지를 삭제할 때 연결된 링크가 제거되지 않는 문제를 수정했습니다. (CAMP-37234)
 * 조건에 있는 동적 콘텐츠의 **Order** 설정에 대한 수정 사항을 저장할 수 없는 문제가 해결되었습니다. (CAMP-36883)
 * 랜딩 페이지를 검색할 때 발생하는 문제를 해결했습니다. 검색은 처음 생성된 50개에서 모든 데이터베이스로 확장되었습니다. (CAMP-36839)
-* **보낸 사람:이름** 필드. (CAMP-36606)
+* **보낸 사람: 이름** 필드. (CAMP-36606)
 * 지원되는 이메일 클라이언트를 반영하도록 회전 메뉴 구성 요소 호환성 경고가 수정되었습니다.
-* 모바일의 표시 문제를 수정했습니다. 이제 height 속성이 항상 &quot;height:자동&quot; : 이메일에서 새 이미지를 추가하거나 업로드할 때. (CAMP-35497)
+* 모바일의 표시 문제를 수정했습니다. 이제 height 속성이 항상 &quot;height: 자동&quot; : 이메일에서 새 이미지를 추가하거나 업로드할 때. (CAMP-35497)
 * 구조 구성 요소에서 조각을 삭제할 때 HTML에서 왼쪽 스타일 및 메타 태그가 발생하는 문제를 수정했습니다. (CAMP-35390)
 * 재사용 가능한 콘텐츠를 업데이트할 때 발생하는 문제를 해결했습니다. (CAMP-35186)
 * 이메일에 모바일 전용 조건부 콘텐츠만 표시할 때 발생하는 문제를 수정했습니다. (CAMP-35155)
@@ -115,8 +115,8 @@ ht-degree: 8%
 * 대규모 리소스에 대한 데이터베이스 성능이 개선되었습니다.
 * SMS 메시지를 보낼 때 발생하는 일부 오류에 대한 설명이 더 명확해졌습니다. (CAMP-36558)
 * 이제 워크플로우의 **스케줄러** 활동을 직접 실행하거나 여러 활동을 통해 실행하면 인스턴스의 워크플로우 서버가 중단될 수 있으므로 오류 메시지가 표시됩니다.
-* 트랜잭션 메시지 문제를 해결하는 데 도움이 되도록 다음과 같은 사항이 개선되었습니다.이벤트 구성 화면에서 &quot;데이터&quot; 링크의 이름이 &quot;마지막 트랜잭션 이벤트&quot;로 변경되었으며, 이제 수신된 이벤트가 내림차순으로 정렬되어 나열됩니다. 또한 새 트랜잭션 이벤트 상태가 생성되었습니다.&quot;targetingFailed&quot;. 트랜잭션 메시지 모듈이 메시지 타겟팅에 사용되는 링크를 보강하지 못하면 이제 트랜잭션 이벤트가 &quot;routingFailed&quot; 상태 대신 이 새로운 상태에 있게 됩니다.
-* 랜딩 페이지 액세스를 특정 지리적 또는 조직 단위로 제한할 때 인터페이스가 개선되었습니다. 목적은 랜딩 페이지에 가시성 조건이 적용될 수 있음을 경고하기 위한 것입니다.이제 랜딩 페이지를 만들 때 지리적 및 조직 단위를 선택해야 합니다. 이제 장치를 선택하면 관련 정보가 포함된 배너가 표시됩니다. 랜딩 페이지를 테스트할 때 표시되는 오류 메시지가 보다 명확해졌습니다.
+* 트랜잭션 메시지 문제를 해결하는 데 도움이 되도록 다음과 같은 사항이 개선되었습니다. 이벤트 구성 화면에서 &quot;데이터&quot; 링크의 이름이 &quot;마지막 트랜잭션 이벤트&quot;로 변경되었으며, 이제 수신된 이벤트가 내림차순으로 정렬되어 나열됩니다. 또한 새 트랜잭션 이벤트 상태가 생성되었습니다. &quot;targetingFailed&quot;. 트랜잭션 메시지 모듈이 메시지 타겟팅에 사용되는 링크를 보강하지 못하면 이제 트랜잭션 이벤트가 &quot;routingFailed&quot; 상태 대신 이 새로운 상태에 있게 됩니다.
+* 랜딩 페이지 액세스를 특정 지리적 또는 조직 단위로 제한할 때 인터페이스가 개선되었습니다. 목적은 랜딩 페이지에 가시성 조건이 적용될 수 있음을 경고하기 위한 것입니다. 이제 랜딩 페이지를 만들 때 지리적 및 조직 단위를 선택해야 합니다. 이제 장치를 선택하면 관련 정보가 포함된 배너가 표시됩니다. 랜딩 페이지를 테스트할 때 표시되는 오류 메시지가 보다 명확해졌습니다.
 * Campaign Standard API에서 키 값이 원본 키와 다르거나 Adobe에서 제공한 키 대신 고유한 비즈니스 키를 URI로 사용하는 경우에는 PATCH 작업을 사용하여 사용자 지정 키를 수정할 수 없습니다.
 * &quot;알바니아 - 마케도니아&quot; 언어가 기본 언어 드롭다운 목록에 추가되었습니다. (CAMP-35396)
 
@@ -277,7 +277,7 @@ ht-degree: 8%
 
 **이메일 디자이너**
 
-19.2 릴리스에서 조각을 최적화하는 일련의 개선 사항 및 수정 사항이 도입되었습니다. 새로 만든 조각이 원활하게 작동합니다. 이전에 작성된 조각이 회색으로 표시되어 새 형식으로 마이그레이션해야 합니다. 이렇게 하려면 각 조각을 클릭하고 새 형식으로의 마이그레이션의 유효성을 확인합니다. 조각을 모두 마이그레이션하기 전에 몇 개의 조각을 테스트하는 것이 좋습니다.
+19.2 릴리스에서 조각을 최적화하는 일련의 개선 사항 및 수정 사항이 도입되었습니다. 새로 만든 조각이 원활하게 작동합니다. 이전에 만든 조각이 회색으로 표시되어 새 형식으로 마이그레이션해야 합니다. 이렇게 하려면 각 조각을 클릭하고 새 형식으로의 마이그레이션의 유효성을 확인합니다. 조각을 모두 마이그레이션하기 전에 몇 개의 조각을 테스트하는 것이 좋습니다.
 
 * 사용자가 잠금을 해제한 후 조각을 편집할 수 없는 문제를 해결했습니다. 19.2로 업데이트할 때 기존 조각에 영향을 주었습니다. (CAMP-33778)
 * 다이내믹 콘텐츠를 사용할 때 발생하는 문제를 해결했습니다. HTML에 추가 공백이 추가되었습니다.
@@ -424,7 +424,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> 푸시 채널 보고 개선 사항<br /> </td> 
-   <td> <p>사용자 참여를 보다 직관적으로 측정할 수 있도록 푸시 채널 보고에 몇 가지 개선 사항이 추가되었습니다. 이 릴리스에서는 푸시 채널 지표 목록을 세 개의 다른 지표로 확장하고 있습니다.푸시 알림과의 사용자 인터랙션을 보다 효과적으로 측정하고 분석할 수 있는 노출 횟수, 클릭 수, 열기 수(앱 열기). 이와 함께 이러한 지표의 정의 및 구현을 표준화하고 있습니다. 푸시 알림 기본 제공 보고서는 일반적으로 사용되는 시각화 및 지표와 함께 개선되었습니다.</p><p> 자세한 내용은 <a href="../../reporting/using/push-notification-report.md">세부 설명서</a>를 참조하십시오.</p> </td> 
+   <td> <p>사용자 참여를 보다 직관적으로 측정할 수 있도록 푸시 채널 보고에 몇 가지 개선 사항이 추가되었습니다. 이 릴리스에서는 푸시 채널 지표 목록을 세 개의 다른 지표로 확장하고 있습니다. 푸시 알림과의 사용자 인터랙션을 보다 효과적으로 측정하고 분석할 수 있는 노출 횟수, 클릭 수, 열기 수(앱 열기). 이와 함께 이러한 지표의 정의 및 구현을 표준화하고 있습니다. 푸시 알림 기본 제공 보고서는 일반적으로 사용되는 시각화 및 지표와 함께 개선되었습니다.</p><p> 자세한 내용은 <a href="../../reporting/using/push-notification-report.md">세부 설명서</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 모바일 앱용 Launch 통합<br /> </td> 
