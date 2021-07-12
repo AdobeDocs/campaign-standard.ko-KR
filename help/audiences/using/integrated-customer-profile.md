@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-feature: Profiles
-role: Business Practitioner
+feature: 프로필
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 48%
 
 ---
-
 
 # Integrated Customer Profile{#integrated-customer-profile}
 
@@ -27,20 +26,20 @@ Integrated Customer Profile에 액세스하기 위한 단계는 다음과 같습
 
 1. Adobe Campaign 홈 페이지에서 **[!UICONTROL Customer profiles]** 카드 또는 **프로필** 탭을 클릭하여 프로필 목록을 표시합니다.
 
-1. 특정 필드를 기반으로 프로파일을 검색하려면 검색 창을 연 다음 검색을 수행할 필드를 선택합니다.
+1. 특정 필드를 기반으로 프로필을 검색하려면 검색 창을 열고 검색을 수행할 필드를 선택합니다.
 
 
    ![](assets/profile-search.png)
 
-1. 검색할 값을 지정하고 Enter 키를 누릅니다.
+1. 검색할 값을 지정한 다음 Enter 키를 누릅니다.
 
    >[!NOTE]
    >
-   >리소스를 확장할 때 추가된 사용자 정의 필드뿐만 아니라 이메일, 이름 및 성 필드를 기반으로 검색을 수행할 수 있습니다.
+   >리소스를 확장할 때 추가한 사용자 지정 필드뿐만 아니라 이메일, 이름 및 성 필드를 기반으로 검색을 수행할 수 있습니다.
    >
-   >검색은 대소문자를 구분하며 접두어에서만 수행됩니다. 예를 들어, 성의 성을 사용하여 프로필을 찾을 수 없습니다.
+   >검색은 대소문자를 구분하며 접두사에서만 수행됩니다. 예를 들어 성의 성을 사용하여 프로필을 찾을 수 없습니다.
 
-1. 프로필을 열 연락처를 선택합니다.
+1. 연락처를 선택하여 프로필을 엽니다.
 
    ![](assets/mkt_hist_access.png)
 
@@ -48,7 +47,7 @@ Integrated Customer Profile에 액세스하기 위한 단계는 다음과 같습
 
 프로필에 대한 주요 정보는 해당 페이지와 이벤트 목록에 수집됩니다.
 
-목록에서 이벤트를 클릭하여 엽니다.전송된 메시지 또는 프로필이 가입한 서비스에 액세스할 수 있습니다.
+목록에서 이벤트를 클릭하여 엽니다. 전송된 메시지 또는 프로필이 가입한 서비스에 액세스할 수 있습니다.
 
 ![](assets/mkt_hist_view.png)
 
