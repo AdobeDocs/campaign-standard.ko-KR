@@ -8,18 +8,17 @@ content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1c918d20-b549-424f-a97c-3895b4e1b3b2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 98%
+source-wordcount: '166'
+ht-degree: 100%
 
 ---
 
-
-# SMS 및 푸시 콘텐츠 디자인 정보{#about-sms-and-push-content-design}
+# SMS 및 푸시 콘텐츠 디자인 기본 정보{#about-sms-and-push-content-design}
 
 콘텐츠 편집기를 사용하여 Adobe Campaign에서 SMS 메시지와 푸시 알림의 콘텐츠를 정의, 수정 및 개인화할 수 있습니다.
 
