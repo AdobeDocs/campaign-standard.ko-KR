@@ -6,17 +6,16 @@ description: 예측 전송 시간 및 참여 점수 책정 사용 방법을 알�
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 전송 시간 최적화
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 97%
 
 ---
-
 
 # AI 기반의 이메일을 통해 디자인 및 게재 최적화{#journey-ai}
 
@@ -35,7 +34,7 @@ Adobe Campaign Standard는 **예측 전송 시간 최적화**&#x200B;과 **예�
 >[!IMPORTANT]
 >이 기능은 제품의 일부로 기본 제공되지 않습니다. 구현하려면 Adobe Consulting 서비스가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 >
->이 기능을 사용하려면 고객이 제공해야 하는 Azure 또는 Amazon S3 저장소를 사용해야 합니다.
+>이 기능을 사용하려면 고객이 Azure 또는 Amazon S3 저장소를 사용해야 합니다.
 
 ## 예측 전송 시간 최적화{#predictive-send-time}
 
@@ -153,26 +152,3 @@ AddHours([currentDelivery/scheduling/@contactDate],
 예를 들어 **보존 수준** 기준이 있는 경우는 다음과 같습니다.
 
 ![](assets/do-not-localize/predictive_score_query.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
