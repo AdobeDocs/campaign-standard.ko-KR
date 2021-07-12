@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 feature: 개요
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 23%
@@ -38,9 +38,9 @@ Adobe Campaign을 사용하면 모든 채널에서 캠페인을 시작, 측정 �
 
 **템플릿** 관리를 통해 메시지 속성을 구성하고 메시징 전략 전반에서 시간과 일관성을 유지할 수 있습니다. 예를 들어, 이메일의 경우 템플릿을 구성하는 기능 관리자는 대상자, 일정 또는 콘텐츠 등, 이메일의 표준 매개 변수(예: 전송, 유효성, 추적 등과 관련된 고급 매개 변수 또는 타깃팅 및 개인화(타깃팅 컨텍스트)에 대한 사전 구성 매개 변수를 정의할 수 있습니다.
 
-자세히 알아보기:
+자세한 내용:
 
-* [메시지 보내기 주요 단계](../../channels/using/key-steps-to-send-a-message.md)
+* [메시지를 보내는 주요 단계](../../channels/using/key-steps-to-send-a-message.md)
 * [메시지 액세스](../../channels/using/accessing-messages.md)
 * [메시지 대시보드](../../channels/using/message-dashboard.md)
 * [다국어 메시지 템플릿](../../channels/using/multilingual-messages-template.md)
@@ -50,13 +50,13 @@ Adobe Campaign을 사용하면 모든 채널에서 캠페인을 시작, 측정 �
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Adobe Campaign** 에서는 5개의 통신 채널을 사용할 수 있습니다.이메일, SMS 메시지, 푸시 알림, 인앱 메시지 및 DM 게재.
+**Adobe Campaign** 에서는 5개의 통신 채널을 사용할 수 있습니다. 이메일, SMS 메시지, 푸시 알림, 인앱 메시지 및 DM 게재.
 
 각 채널에 대해 특정 기능을 사용할 수 있습니다. 예를 들어 이메일 채널을 사용하면 최대 3개의 이메일 메시지 버전을 테스트하기 위해 A/B 테스트를 수행할 수 있습니다. SMS 채널을 사용하여 STOP SMS 메시지를 관리하고 수신자의 수신 SMS를 데이터베이스에 저장합니다.
 
 또한 Campaign Standard **개인화 및 동적 컨텐츠 기능**&#x200B;을 활용하여 대상의 관심사를 캡처합니다.
 
-자세히 알아보기:
+자세한 내용:
 
 * [이메일 만들기](../../channels/using/about-emails.md)
 * [SMS 메시지 만들기](../../channels/using/about-sms-messages.md)
@@ -64,15 +64,15 @@ Adobe Campaign을 사용하면 모든 채널에서 캠페인을 시작, 측정 �
 * [인앱 메시지 만들기](../../channels/using/about-in-app-messaging.md)
 * [DM 전송 만들기](../../channels/using/about-direct-mail.md)
 
-## 트랜잭션 메시지 {#transactional-messages}
+## 트랜잭션 메시지  {#transactional-messages}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**고객에게** 실시간으로 개별 및 고유한 메시지를 보냅니다.환영 메시지, 주문 배송 확인, 암호 수정 등
+**고객에게** 실시간으로 개별 및 고유한 메시지를 보냅니다. 환영 메시지, 주문 배송 확인, 암호 수정 등
 
-트랜잭션 메시지는 옵션에 따라 이메일, SMS 및 푸시 알림 채널에 사용할 수 있습니다. 메시지에는 다음 두 가지 유형이 있습니다.**이벤트 트랜잭션 메시지** 프로필 정보 없이 이벤트를 타겟팅하고, **프로필 트랜잭션 메시지**&#x200B;는 데이터베이스의 프로필을 타겟팅합니다.
+트랜잭션 메시지는 옵션에 따라 이메일, SMS 및 푸시 알림 채널에 사용할 수 있습니다. 메시지에는 다음 두 가지 유형이 있습니다. **이벤트 트랜잭션 메시지** 프로필 정보 없이 이벤트를 타겟팅하고, **프로필 트랜잭션 메시지**&#x200B;는 데이터베이스의 프로필을 타겟팅합니다.
 
-자세히 알아보기:
+자세한 내용:
 
 * [트랜잭션 메시지 시작](../../channels/using/getting-started-with-transactional-msg.md)
 * [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md)
@@ -90,7 +90,7 @@ Campaign에는 **대상**&#x200B;에 대한 정보를 캡처하고, 서비스에
 
 랜딩 페이지는 **기존 프로필 가져오기 또는 업데이트**, 이중 옵트인 메커니즘을 설정하여 잘못되었거나 잘못된 이메일 주소 또는 스팸 메일로부터 플랫폼을 보호할 수 있습니다.
 
-자세히 알아보기:
+자세한 내용:
 
 * [랜딩 페이지 시작](../../channels/using/getting-started-with-landing-pages.md)
 * [랜딩 페이지 템플릿](../../channels/using/landing-page-templates.md)
@@ -105,4 +105,4 @@ Campaign에는 **대상**&#x200B;에 대한 정보를 캡처하고, 서비스에
 * [AEM 컨텐츠 가져오기](../../integrating/using/creating-email-experience-manager.md)
 * [워크플로우로 메시지 보내기](../../automating/using/about-channel-activities.md)
 * [통신 채널 튜토리얼 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=ko)
-* [사용 사례:채널 간 게재 만들기](../../automating/using/workflow-cross-channel-delivery.md)
+* [사용 사례: 채널 간 게재 만들기](../../automating/using/workflow-cross-channel-delivery.md)
