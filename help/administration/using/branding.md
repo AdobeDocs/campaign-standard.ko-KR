@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: 인스턴스 설정
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 80%
@@ -99,13 +99,13 @@ Campaign에서 조직의 새 엔티티를 추가하거나 다른 하위 도메�
 
 1. **티켓 만들기**  - 하위 도메인이 구성되면 Adobe이 프로덕션 환경에서 설정해야 합니다. 이를 요청하려면 다음 정보로 Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 대한 티켓을 만드십시오.[
 
-   * 제목:ACS 새 브랜드 설정
+   * 제목: ACS 새 브랜드 설정
 
-   * 컨텐츠:새 도메인이 구성되었으며 Campaign 플랫폼에서 설정하려고 합니다
+   * 컨텐츠: 새 도메인이 구성되었으며 Campaign 플랫폼에서 설정하려고 합니다
 
-   * 도메인:XXX
+   * 도메인: XXX
 
-   * 프로덕션 URL:XXX.campaign.adobe.com
+   * 프로덕션 URL: XXX.campaign.adobe.com
 
 1. **게재 템플릿 만들기**  - 새 브랜드를 사용할 수 있게 되면 가장 좋은 방법은 이 새 브랜드를 참조하는 하나 이상의 새 빈 게재 템플릿을 만드는 것입니다. [자세히 알아보기](#linking-a-brand-to-a-template)
 
