@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 feature: 개요
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 76%
@@ -68,7 +68,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
    <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform 모바일 SDK</a> (과거 v5라고 함)는 향후 출시될 Adobe Experience Cloud 기능 및 성능을 독점적으로 지원합니다.</p>
    <p>SDK v4에서 Adobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">로 마이그레이션하는 방법을 이 페이지에서 알아봅니다</a>.</p></br>
      <p>
-     <em>Target 제거 날짜:2021년 8월 31일</em></p>
+     <em>Target 제거 날짜: 2021년 8월 31일</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -85,7 +85,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
    <td> <p>Campaign 19.0 릴리스부터 기존 이메일 편집기는 더 이상 사용되지 않습니다. 이메일 콘텐츠를 만들고 개인화하려면 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign 이메일 디자이너</a>를 사용하십시오. </p></br>
    <p>새로운 편집기에 맞게 이메일 템플릿을 적용하는 방법을 살펴보려면 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">이 섹션</a>을 참조하십시오.</p></br>
   <p> 
-  <em>Target 제거 날짜:2021년 말</em></p>
+  <em>Target 제거 날짜: 2021년 말</em></p>
    </td> 
   </tr> 
  </tbody> 
