@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: 랜딩 페이지
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 97%
@@ -71,7 +71,7 @@ ht-degree: 97%
 
    ![](assets/lp_parameters_3_temp.png)
 
-또한 **[!UICONTROL Authorize unidentified visitors]** 옵션을 사용하여 모든 방문자가 랜딩 페이지에 액세스하도록 허용할 수도 있습니다.
+또한 **[!UICONTROL Authorize unidentified visitors]** 옵션을 사용하여 모든 방문자에게 랜딩 페이지 액세스를 허용할 수 있습니다.
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
