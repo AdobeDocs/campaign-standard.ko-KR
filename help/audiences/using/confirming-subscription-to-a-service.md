@@ -6,17 +6,16 @@ description: Adobe Campaign에서 서비스를 구독하는 프로필에 대한 
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: 대상자
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1322'
 ht-degree: 96%
 
 ---
-
 
 # 서비스 구독 확인{#confirming-subscription-to-a-service}
 
@@ -55,7 +54,7 @@ ht-degree: 96%
 1. Adobe Campaign 로고에서 액세스할 수 있는 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 메뉴에서 이벤트를 만듭니다.
 1. 레이블을 입력하고 타겟팅 차원을 선택한 뒤 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   구성 단계는 [트랜잭션 이벤트](../../channels/using/configuring-transactional-event.md) 구성 섹션에 표시됩니다.
+   구성 단계는 [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md) 섹션에 나와 있습니다.
 
 1. **[!UICONTROL Fields]** 섹션에서 **[!UICONTROL Create element]**&#x200B;을(를) 클릭하고 데이터 구조에 **[!UICONTROL publicLabel]**&#x200B;을(를) 추가하여 조정을 활성화합니다.
 
@@ -88,7 +87,7 @@ ht-degree: 96%
 1. Adobe Campaign 로고에서 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**&#x200B;을(를) 선택하고 **[!UICONTROL Transactional messages]**&#x200B;을(를) 클릭합니다.
 1. 방금 게시한 이벤트에 해당하는 트랜잭션 이메일을 선택합니다.
 
-1. **[!UICONTROL Content]** 섹션을 클릭하고 이메일 템플릿을 선택합니다. 트랜잭션 메시지 내용 편집에 대한 자세한 내용은 [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md)을 참조하십시오.
+1. **[!UICONTROL Content]** 섹션을 클릭하고 이메일 템플릿을 선택합니다. 트랜잭션 메시지 콘텐츠 편집에 대한 자세한 내용은 [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md)을 참조하십시오.
 1. **[!UICONTROL Service]** 리소스의 모든 필드에 직접 액세스할 수 있으므로, **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** > **[!UICONTROL Service]** 노드에서 필드를 선택하여 콘텐츠를 개인화할 수 있습니다.
 
    ![](assets/confirmation_personalization-service.png)
@@ -144,7 +143,7 @@ ht-degree: 96%
 1. Adobe Campaign 로고에서 액세스할 수 있는 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 메뉴에서 이벤트를 만듭니다.
 1. 레이블을 입력하고 타겟팅 차원을 선택한 뒤 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   구성 단계는 [트랜잭션 이벤트](../../channels/using/configuring-transactional-event.md) 구성 섹션에 표시됩니다.
+   구성 단계는 [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md) 섹션에 나와 있습니다.
 
 1. **[!UICONTROL Fields]** 섹션에서 **[!UICONTROL Create element]**&#x200B;을(를) 클릭하고 데이터 구조에 **[!UICONTROL serviceName]**&#x200B;을(를) 추가하여 조정을 활성화합니다.
 
