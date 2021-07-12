@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Proofs
-role: Business Practitioner
+feature: 증명
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '584'
 ht-degree: 99%
 
 ---
-
 
 # 증명 보내기 {#sending-proofs}
 
@@ -107,7 +106,7 @@ ht-degree: 99%
 **관련 항목:**
 
 * [테스트 보내기, 이메일 준비 및 보내기](../../sending/using/get-started-sending-messages.md#video) 비디오
-* [타겟팅된 프로필을 사용하여 이메일 메시지 테스트](../../sending/using/testing-messages-using-target.md)
+* [타기팅된 프로필을 사용한 이메일 메시지 테스트](../../sending/using/testing-messages-using-target.md)
 * [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
 * [메시지 미리 보기](../../sending/using/previewing-messages.md)
 * [이메일 채널 구성](../../administration/using/configuring-email-channel.md)
