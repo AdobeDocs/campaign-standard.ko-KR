@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: Campaigns
-role: Business Practitioner
+feature: 캠페인
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '373'
 ht-degree: 91%
 
 ---
-
 
 # 타임라인{#timeline}
 
@@ -33,10 +32,10 @@ ht-degree: 91%
 
 파란색 세로선은 현재 날짜를 강조 표시하는 시간 표시기입니다. 기본적으로 화면 중간에 있습니다. 화면 내에서 오른쪽 또는 왼쪽으로 스크롤하여 표시되는 기간을 수정할 수 있습니다.
 
-아이콘을 사용하여 다음을 수행합니다.
+아이콘을 사용하여 다음을 수행할 수 있습니다.
 
-* ![](assets/timeline_zoom_in.png) 일수를 표시할 때까지 주변 공간을 줄이거나 세부 정보 레벨을 좀 더 제한된 기간 동안 늘립니다.
-* ![](assets/timeline_zoom_out.png) 주변 공간을 늘리거나 더 큰 기간을 표시합니다.
+* ![](assets/timeline_zoom_in.png) 요일이 표시될 때까지 둘레를 줄이거나 세부 정보 수준을 더 제한된 기간 동안 높입니다
+* ![](assets/timeline_zoom_out.png) 둘레를 늘리거나 더 큰 시간대를 표시합니다
 
 각 프로그램 이름의 오른쪽에 있는 화살표를 클릭하여 해당 콘텐츠를 표시합니다. 프로그램에는 하위 프로그램, 캠페인 및 랜딩 페이지가 포함될 수 있습니다. 캠페인은 프로그램과 동일한 방식으로 배포되며 이메일, SMS 및 랜딩 페이지를 포함할 수 있습니다.
 
