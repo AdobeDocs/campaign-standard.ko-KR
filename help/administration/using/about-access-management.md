@@ -6,17 +6,16 @@ description: 역할, 그룹 및 조직 단위를 사용하여 Adobe Campaign 작
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: 액세스 관리
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 98%
+source-wordcount: '228'
+ht-degree: 99%
 
 ---
-
 
 # 액세스 관리 기본 정보{#about-access-management}
 
@@ -48,4 +47,3 @@ Adobe Campaign에서는 여러 사용자에게 할당된 권한을 정의 및 �
 * [조직 단위](../../administration/using/organizational-units.md)
 * [역할 목록](../../administration/using/list-of-roles.md)
 * [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md)
-
