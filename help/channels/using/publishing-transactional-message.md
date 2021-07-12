@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: 트랜잭션 메시지
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 75%
+source-wordcount: '653'
+ht-degree: 76%
 
 ---
-
 
 # 트랜잭션 메시지 수명 주기 {#publishing-transactional-message}
 
@@ -31,13 +30,13 @@ ht-degree: 75%
 
 ## 트랜잭션 메시지 게시 프로세스 {#transactional-messaging-pub-process}
 
-아래 차트에는 전체 트랜잭션 메시징 게시 프로세스가 나와 있습니다.
+아래 차트는 전반적인 트랜잭션 메시지 게시 프로세스를 보여줍니다.
 
 ![](assets/message-center_pub-process.png)
 
 **관련 항목:**
 * [트랜잭션 메시지 게시](#publishing-a-transactional-message)
-* [트랜잭션 메시지 일시 중지](#suspending-a-transactional-message-publication)
+* [트랜잭션 메시지 일시 정지](#suspending-a-transactional-message-publication)
 * [트랜잭션 메시지 게시 취소](#unpublishing-a-transactional-message)
 * [이벤트 게시](../../channels/using/publishing-transactional-event.md)
 
@@ -91,7 +90,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## 트랜잭션 메시지 게시 {#publishing-a-transactional-message}
 
-트랜잭션 메시지를 편집하고 테스트한 후 게시할 수 있습니다. **[!UICONTROL Publish]** 버튼을 클릭하면 됩니다.
+트랜잭션 메시지를 편집하고 테스트하면 게시할 수 있습니다. **[!UICONTROL Publish]** 버튼을 클릭하면 됩니다.
 
 ![](assets/message-center_12.png)
 
@@ -110,7 +109,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 예를 들어 메시지에 포함된 데이터를 수정하기 위해 **[!UICONTROL Pause]** 버튼을 사용하여 트랜잭션 메시지 게시를 일시 중단할 수 있습니다. 그러면 이벤트는 더 이상 처리되지 않고 대신 Adobe Campaign 데이터베이스의 큐에 보관됩니다.
 
-큐에 있는 이벤트는 REST API에 정의된 기간 동안 보관됩니다([REST API 문서](../../api/using/managing-transactional-messages.md) 참조). 또는 트리거 핵심 서비스를 사용 중인 경우 트리거 이벤트에서 보관됩니다([Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md) 참조).
+큐 이벤트는 REST API에 정의된 기간([REST API 설명서](../../api/using/managing-transactional-messages.md) 참조) 동안이나 트리거 핵심 서비스를 사용하는 경우에는 트리거 이벤트([Adobe Experience Cloud Triggers 정보](../../integrating/using/about-adobe-experience-cloud-triggers.md) 참조) 동안 보관됩니다.
 
 ![](assets/message-center_pause.png)
 
@@ -126,7 +125,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->메시지를 다시 게시하려면 해당 이벤트 구성으로 돌아가서 [이벤트](../../channels/using/publishing-transactional-event.md)를 게시한 다음 [메시지](#publishing-a-transactional-message)를 게시해야 합니다.
+>메시지를 다시 게시하려면 해당 이벤트 구성으로 돌아가서 [event](../../channels/using/publishing-transactional-event.md)을 게시한 다음 [메시지를 게시해야 합니다](#publishing-a-transactional-message).
 
 일시 중지된 트랜잭션 메시지의 게시를 취소하는 경우 다시 게시하기 전에 최대 24시간까지 기다려야 할 수 있습니다. **[!UICONTROL Database cleanup]** 워크플로우가 대기열로 전송된 모든 이벤트를 지우기 위해서 입니다.
 
