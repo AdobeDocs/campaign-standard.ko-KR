@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
 feature: 캠페인
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 84%
@@ -83,15 +83,15 @@ ht-degree: 84%
 
 컨텍스트에 따라 다음을 수행할 수 있습니다.
 
-* 이메일 만들기 - [자세한 내용](../../channels/using/creating-an-email.md)
-* SMS 만들기 - [자세한 내용](../../channels/using/creating-an-sms-message.md)
-* 푸시 알림 만들기 - [자세한 내용](../../channels/using/preparing-and-sending-a-push-notification.md)
-* 인앱 메시지 만들기 - [자세한 내용](../../channels/using/about-in-app-messaging.md)
-* 워크플로우 만들기 - [자세한 내용](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* 랜딩 페이지 만들기 - [자세한 내용](../../channels/using/getting-started-with-landing-pages.md)
-* 캠페인 만들기 - [자세한 내용](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* 프로그램 만들기 - [자세한 내용](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 이메일 만들기 - [자세히 알아보기](../../channels/using/creating-an-email.md)
+* SMS 만들기 - [자세히 알아보기](../../channels/using/creating-an-sms-message.md)
+* 푸시 알림 만들기 - [자세히 알아보기](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 인앱 메시지 만들기 - [자세히 알아보기](../../channels/using/about-in-app-messaging.md)
+* 워크플로우 만들기 - [자세히 알아보기](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 랜딩 페이지 만들기 - [자세히 알아보기](../../channels/using/getting-started-with-landing-pages.md)
+* 캠페인 만들기 - [자세히 알아보기](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* 프로그램 만들기 - [자세히 알아보기](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->마케팅 활동 목록에서 마케팅 활동을 만들 수도 있습니다. 이 경우 모든 유형의 활동을 만들고 활동의 속성을 통해 마케팅 활동을 상위 캠페인(또는 프로그램을 만드는 경우 상위 프로그램)에 연결하도록 선택할 수 있습니다.
+>마케팅 활동 목록에서 마케팅 활동을 만들 수도 있습니다. 이 경우, 모든 유형의 활동을 만들고, 활동의 속성을 통해 마케팅 활동을 상위 캠페인(또는 프로그램을 만드는 경우 상위 프로그램)에 연결하도록 선택할 수 있습니다.
