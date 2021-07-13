@@ -10,10 +10,10 @@ feature: 전송 시간 최적화
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 97%
+source-wordcount: '1048'
+ht-degree: 99%
 
 ---
 
@@ -33,8 +33,7 @@ Adobe Campaign Standard는 **예측 전송 시간 최적화**&#x200B;과 **예�
 
 >[!IMPORTANT]
 >이 기능은 제품의 일부로 기본 제공되지 않습니다. 구현하려면 Adobe Consulting 서비스가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
->
->이 기능을 사용하려면 고객이 Azure 또는 Amazon S3 저장소를 사용해야 합니다.
+
 
 ## 예측 전송 시간 최적화{#predictive-send-time}
 
