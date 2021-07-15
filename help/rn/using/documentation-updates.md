@@ -10,16 +10,22 @@ feature: 개요
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
 workflow-type: tm+mt
-source-wordcount: '6852'
-ht-degree: 100%
+source-wordcount: '6893'
+ht-degree: 99%
 
 ---
 
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+## 2021년 7월 {#doc-updates-july-2021}
+
+사용자가 단일 랜딩 페이지에서 여러 서비스를 구독하거나 구독 취소할 수 있는 방법을 설명하는 새로운 섹션을 추가했습니다. [자세한 내용](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+
+**랜딩 페이지 양식 데이터 관리** 섹션이 업데이트되고 명확해졌습니다. [자세한 내용](../../channels/using/managing-landing-page-form-data.md)
 
 ## 릴리스 21.2 - 2021년 6월 {#release-21-2---june-2021}
 
