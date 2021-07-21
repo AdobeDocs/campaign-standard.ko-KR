@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -77,15 +77,15 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 ## 보조 기술 지원 {#screen-magnifiers}
 
-Adobe는 Adobe Campaign Standard 애플리케이션을 수정된 키보드, 화면 확대 소프트웨어, 화면 판독기, 음성 인식 소프트웨어 및 기타 보조 디바이스 이외에도 다양한 보조 기술을 통해 가능한 한 사용할 수 있도록 노력하고 있습니다.
+Adobe는 Adobe Campaign Standard 애플리케이션을 수정된 키보드, 화면 확대 소프트웨어, 화면 리더, 음성 인식 소프트웨어 및 기타 보조 디바이스 이외에도 다양한 보조 기술을 통해 가능한 한 사용할 수 있도록 노력하고 있습니다.
 
-## 원하는 언어로 작업 {#languages}
+## 선호하는 언어로 작업 {#languages}
 
-Adobe Campaign Standard는 영어, 프랑스어 및 독일어의 다양한 언어로 제공됩니다.
+Adobe Campaign Standard는 영어, 프랑스어 및 독일어와 같은 다양한 언어로 제공됩니다.
 
 설치 시 언어가 설정되고 나중에 변경할 수 없습니다.
 
-## 단축키 {#shortcuts}
+## 바로 가기 키 {#shortcuts}
 
 ### 홈페이지 {#homepage-shortcuts}
 
