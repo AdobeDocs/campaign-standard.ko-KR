@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -130,4 +130,4 @@ Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나
 
 문제를 기록하거나 새 시스템에서 채팅 세션을 시작하려면 [Adobe Admin Console](https://adminconsole.adobe.com/overview)에 연결하십시오.
 
-[이 페이지](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 설명된 세부 절차를 따르십시오.
+[이 페이지](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 설명된 세부 절차를 따르십시오.
