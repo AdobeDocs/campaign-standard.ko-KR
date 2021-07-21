@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1478'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Adobe Experience Cloud 개인 정보 보호에 대한 자세한 내용은 [이 �
 
 [대상자 대상 서비스](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager 또는 People 핵심 서비스](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)와 같이 대상을 다른 시스템으로 전송할 수 있는 다른 Experience Cloud 솔루션이나 [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)와 같은 다른 솔루션과 Campaign을 통합하면 개인 데이터 보호를 위해 추가 비용을 지불해야 합니다.
 
-## 데이터 획득 {#data-acquisition}
+## 데이터 확보 {#data-acquisition}
 
 Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이터를 수집할 수 있습니다. 따라서 수신자로부터 동의를 받고 모니터링하는 것이 중요합니다.
 
@@ -130,7 +130,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 >[!NOTE]
 >
->이 도구를 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)를 참조하십시오.
+>이 도구를 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)를 참조하십시오.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -142,7 +142,7 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 ## 추적 기능 {#tracking-capabilities}
 
-Adobe Campaign은 추적 기능 덕분에 세션 쿠키와 영구 쿠키를 사용하여 게재 수신자의 행동을 추적할 수 있습니다. 추적에 대한 자세한 내용은 [이 페이지](../../sending/using/tracking-messages.md)를 참조하십시오.
+추적 기능 덕분에 Adobe Campaign은 세션 쿠키와 영구 쿠키를 사용하여 게재 수신자의 행동을 추적할 수 있습니다. 추적에 대한 자세한 내용은 [이 페이지](../../sending/using/tracking-messages.md)를 참조하십시오.
 
 >[!NOTE]
 >
