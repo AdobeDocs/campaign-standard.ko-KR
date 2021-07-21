@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 * [액세스 권리 및 잊혀질 권리](../../start/using/privacy-management.md#right-access-forgotten)
 * [동의, 보존 및 역할](../../start/using/privacy-management.md#consent-retention-roles)
 
-## 개인 정보 보호 규정 준비 태세 {#privacy-regulations-readiness}
+## 개인 정보 보호 규정 준비 {#privacy-regulations-readiness}
 
 **최신 개인 정보 보호 규정을 준수하기 위한 Adobe Campaign의 제안은 무엇입니까?**
 
