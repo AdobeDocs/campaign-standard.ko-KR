@@ -11,9 +11,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 **질문: 유효성 검사 프로세스는 무엇입니까?**
 
-답변: 스테이징 인스턴스가 업그레이드되면 프로세스 및 사용 사례가 이 새로운 버전에서 제대로 작동하는지 확인하고 문제가 발생하면 [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)에 보고할 것을 권장합니다.
+답변: 스테이징 인스턴스가 업그레이드되면 프로세스 및 사용 사례가 이 새로운 버전에서 제대로 작동하는지 확인하고 문제가 발생하면 [Adobe Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 보고할 것을 권장합니다.
 
 **질문: 업그레이드 프로세스 중에 인스턴스에 액세스할 수 있습니까?**
 
@@ -86,4 +86,4 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 답변: Campaign에 로그인하면 최신 버전과 함께 릴리스 알림 팝업이 표시됩니다.
 
-기타 문의 사항은 [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+기타 문의 사항은 [Adobe Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
