@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -171,7 +171,7 @@ To change this mode, click **[!UICONTROL Edit properties]**, in the top right co
 
 ![](assets/privacy-disable-2-step-process.png)-->
 
-## 개인 정보 판매 옵트아웃 (CCPA) {#sale-of-personal-information-ccpa}
+## 개인 정보 판매 옵트아웃(CCPA) {#sale-of-personal-information-ccpa}
 
 **CCPA**(California Consumer Privacy Act)는 캘리포니아 거주자들에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 비즈니스를 수행하는 특정 엔터티에 데이터 보호 책임을 부과합니다.
 
@@ -189,7 +189,7 @@ Adobe Campaign이 제공하는 [동의 관리](../../start/using/privacy-managem
 >
 >데이터 주체의 요청을 받고 CCPA에 대한 요청 날짜를 추적하는 것은 데이터 컨트롤러로서의 책임입니다. 기술 제공업체에서는 수신 거부 방법만 제공합니다. 데이터 컨트롤러로서의 역할에 대한 자세한 내용은 [개인 데이터 및 가상 사용자를 참조하십시오](../../start/using/privacy.md#personal-data).
 
-### 사용자 지정의 테이블에 대한 사전 요구 사항 {#ccpa-prerequisite}
+### 사용자 지정 테이블에 대한 사전 요구 사항 {#ccpa-prerequisite}
 
 19.4 릴리스부터 **[!UICONTROL CCPA Opt-Out]** 필드는 Campaign 인터페이스 및 API에서 기본적으로 제공됩니다. 기본적으로 이 필드는 표준 **[!UICONTROL Profile]** 리소스에 대해 사용할 수 있습니다.
 
