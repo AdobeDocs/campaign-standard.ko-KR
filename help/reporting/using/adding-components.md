@@ -10,9 +10,9 @@ feature: 보고
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -29,13 +29,13 @@ ht-degree: 4%
 
    구성 요소 테이블은 네 가지 카테고리로 분류됩니다.
 
-   * **Dimension**:수신자의 브라우저나 도메인 또는 게재 성공과 같은 게재 로그에서 세부 사항을 가져옵니다.
-   * **지표**:메시지 상태에 대한 세부 정보를 가져옵니다. 예를 들어, 메시지가 전달되어 사용자가 메시지를 연 경우,
-   * **[!UICONTROL Segments]**:수신자의 연령 범위에 따라 데이터를 필터링합니다. **[!UICONTROL Segments]** 자유 형식 테이블 또는 패널의 맨 위 막대에서 직접 드래그하여 놓을 수 있습니다. 기본적으로 **[!UICONTROL Exclude proof]** 세그먼트는 이미 선택되어 있지만 필요한 경우 변경할 수 있습니다.
+   * **Dimension**: 수신자의 브라우저나 도메인 또는 게재 성공과 같은 게재 로그에서 세부 사항을 가져옵니다.
+   * **지표**: 메시지 상태에 대한 세부 정보를 가져옵니다. 예를 들어, 메시지가 전달되어 사용자가 메시지를 연 경우,
+   * **[!UICONTROL Segments]**: 수신자의 연령 범위에 따라 데이터를 필터링합니다. **[!UICONTROL Segments]** 자유 형식 테이블 또는 패널의 맨 위 막대에서 직접 드래그하여 놓을 수 있습니다.
 
       이 카테고리는 관리자가 화면에 표시될 Dynamic Reporting 사용 계약의 조건을 승인한 경우에만 사용할 수 있습니다. 관리자가 계약을 거부하면 세그먼트가 **[!UICONTROL Components]** 탭에 표시되지 않고 데이터가 수집되지 않습니다.
 
-   * **시간**:테이블의 기간을 설정합니다.
+   * **시간**: 테이블의 기간을 설정합니다.
 
 1. 구성 요소를 패널에 드래그하여 놓아 데이터 필터링을 시작합니다.
 
