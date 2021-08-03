@@ -10,10 +10,10 @@ feature: 인스턴스 설정
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 8204ed1118b5445420d99dbc0438752a4dc26846
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 95%
+source-wordcount: '719'
+ht-degree: 93%
 
 ---
 
@@ -107,7 +107,12 @@ ht-degree: 95%
    <td> <span class="uicontrol">추적 로그 복구</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> 이 워크플로우는 손실된 추적 로그를 복원합니다. 이 기술 워크플로우는 특정 컨텍스트에서 사용되며 내부 Adobe만 사용하도록 제한됩니다. <br> 기본적으로 10분마다 시작됩니다.<br /> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">게재 실행 업데이트</span> <br/> </td> 
+   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
+   <td> 이 워크플로우는 로컬 데이터베이스의 브로드로그와 추적 로그를 복사합니다. 기본적으로 10분마다 시작됩니다.<br/> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">게재 표시기 업데이트</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 
