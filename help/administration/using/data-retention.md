@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 데이터 유지
+description: Campaign의 표준 로그 테이블에는 사전 설정된 보존 기간이 있으며 일반적으로 데이터 저장소를 6개월 이하로 제한합니다. 표준 테이블의 기본 보존 값에 대해 알아봅니다.
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -9,10 +10,10 @@ feature: 인스턴스 설정
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 63%
+source-wordcount: '162'
+ht-degree: 52%
 
 ---
 
