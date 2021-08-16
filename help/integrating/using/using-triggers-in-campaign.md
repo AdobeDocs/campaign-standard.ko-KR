@@ -1,7 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Campaign에서 트리거 사용
+title: Campaign에서 Triggers 사용
+description: 기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만듭니다.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,14 +10,14 @@ feature: 트리거
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 82%
+source-wordcount: '765'
+ht-degree: 80%
 
 ---
 
-# Campaign에서 트리거 사용{#using-triggers-in-campaign}
+# Campaign에서 Triggers 사용{#using-triggers-in-campaign}
 
 ## Campaign에서 매핑된 트리거 만들기 {#creating-a-mapped-trigger-in-campaign}
 
@@ -52,7 +53,7 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
 1. 이제 트리거를 게시할 수 있습니다. 자세한 내용은 [Campaign](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)에서 트리거 게시 를 참조하십시오.
 
-## Campaign {#publishing-trigger-in-campaign}에 트리거 게시
+## Campaign에서 트리거 게시 {#publishing-trigger-in-campaign}
 
 기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만든 후 게시해야 합니다.
 
