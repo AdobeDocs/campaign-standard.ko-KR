@@ -10,10 +10,10 @@ feature: 개요
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 0137067de4528a5138a5fdc233fefe99b006eed3
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,11 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 모든 릴리스 날짜는 변경될 수 있습니다. 정기적으로 이 페이지를 방문하여 업데이트를 확인하는 것이 좋습니다.
 
-## 릴리스 21.3 - 2021년 6월 릴리스 {#release-21-3-release}
+## 릴리스 21.3 - 2021년 9월 릴리스 {#release-21-3-release}
 
 아래에 표시된 기간 동안 환경이 연속적으로 업데이트됩니다. 정확한 날짜는 각 고객에게 이메일로 전달됩니다.
 
-이 릴리스에 대한 자세한 내용은 [릴리스 정보](../../rn/using/release-notes.md)를 참조하세요.
+이 릴리스에 대한 자세한 내용은 [초기 릴리스 노트](../../rn/using/e-release-notes.md)를 참조하십시오.
 
 <table>
  <thead>
@@ -54,8 +54,6 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 추가 질문은 [Adobe 클라이언트 지원 센터](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
 
-[Campaign Standard 릴리스 알림](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)을 구독하면 받은 편지함에서 예정된 릴리스에 대한 세부 정보를 바로 확인할 수 있습니다.
-
 ## 질문 및 답변 {#questions-and-answers}
 
 **질문: 어떤 영향이 있습니까?**
@@ -64,7 +62,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 **질문: 유효성 검사 프로세스는 무엇입니까?**
 
-답변: 스테이징 인스턴스가 업그레이드되면 프로세스 및 사용 사례가 이 새로운 버전에서 제대로 작동하는지 확인하고 문제가 발생하면 [Adobe Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 보고할 것을 권장합니다.
+답변: 스테이징 인스턴스가 업그레이드되면 프로세스 및 사용 사례가 이 새로운 버전에서 제대로 작동하는지 확인하고 문제가 발생하면 [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)에 보고할 것을 권장합니다.
 
 **질문: 업그레이드 프로세스 중에 인스턴스에 액세스할 수 있습니까?**
 
@@ -86,4 +84,4 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 답변: Campaign에 로그인하면 최신 버전과 함께 릴리스 알림 팝업이 표시됩니다.
 
-기타 문의 사항은 [Adobe Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
+기타 문의 사항은 [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
