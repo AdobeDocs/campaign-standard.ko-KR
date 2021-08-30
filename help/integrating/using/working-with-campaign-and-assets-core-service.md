@@ -6,22 +6,18 @@ description: Assets 핵심 서비스 통합 덕분에 Adobe Campaign 메시지 �
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: 사용자 핵심 서비스 통합
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 8%
+source-wordcount: '167'
+ht-degree: 9%
 
 ---
 
 # Campaign을 Assets 핵심 서비스와 함께 사용하기{#working-with-campaign-and-assets-core-service}
-
->[!CAUTION]
->
-> 이제 Experience Cloud 자산이 폐기되었습니다. 새로운 구현을 위해 더 이상 Experience Cloud 자산을 Adobe Campaign Standard과 통합할 수 없습니다.
 
 Assets 핵심 서비스 또는 Assets on Demand를 Adobe Campaign과 통합(Adobe Experience Cloud 환경 구성에 따라 다름)하면 Adobe Campaign 이메일 및 랜딩 페이지에서 Adobe Experience Cloud 내에서 공유되는 모든 자산을 사용할 수 있습니다.
 

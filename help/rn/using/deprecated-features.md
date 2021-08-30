@@ -6,14 +6,14 @@ description: 이 페이지에는 Adobe Campaign Standard의 사용이 중단되�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 76%
+source-wordcount: '727'
+ht-degree: 80%
 
 ---
 
@@ -39,22 +39,6 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
 일반적으로 향후 릴리스에서 제거될 예정인 기능은 먼저 대체 기능을 제공하며 사용 중단되는 것으로 설정됩니다. 이러한 기능은 새 Campaign Standard 고객에게 더 이상 제공되거나 새로운 구현에 사용되지 않습니다. 제품 설명서에서도 제거됩니다.
 
 고객은 현재 배포에서 기능/성능을 사용하는지 검토하고 제공된 대체 기능을 사용하기 위해 구현 변경을 계획해야 합니다. 타겟 제거 날짜를 참조하여 환경 및 프로젝트 업데이트를 알맞게 계획하십시오.
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Experience Cloud 자산 통합</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> 2021년 7월부터 Assets는 이제 지속적인 지원을 받는 기존 핵심 서비스입니다. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">자세히 알아보기</a></p>
-   <p>새로운 구현을 위해 더 이상 Experience Cloud 자산을 Adobe Campaign Standard과 통합할 수 없습니다.</p>
-     <em>Target 제거 날짜: 2022년</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
 
 <table> 
  <thead> 
