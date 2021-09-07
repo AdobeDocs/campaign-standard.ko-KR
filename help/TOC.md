@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: 3e62ae3fc6e69710edc8977286c655a6b2203a3a
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1792'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 + [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/release-notes.md)
-   + [초기 릴리스 정보](rn/using/early-release-notes.md)
+   + [초기 릴리스 정보](rn/using/e-release-notes.md)
    + 이전 릴리스 {#previous-releases}
       + [2021년 릴리스 노트](rn/using/release-notes-2021.md)
       + [2020년 릴리스 정보](rn/using/release-notes-2020.md)
@@ -433,6 +433,7 @@ ht-degree: 100%
 + 관리 {#administrating}
    + [Campaign Standard 관리 시작](administration/using/get-started-campaign-administration.md)
    + [모니터링 지침](administration/using/monitoring-guidelines.md)
+   + [감사 추적](administration/using/audit.md)
    + [구성 지침](administration/using/about-configuration-guidelines.md)
    + 사용자 및 보안 {#users-and-security}
       + [액세스 관리 기본 정보](administration/using/about-access-management.md)

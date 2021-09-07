@@ -9,14 +9,13 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 99%
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
-
 
 # 포기 트리거 사용 사례{#abandonment-triggers-use-cases}
 
@@ -67,7 +66,7 @@ ht-degree: 99%
 
 Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [트리거]를 만들어야 합니다.
 
-1. Adobe Campaign에서 [트리거]를 만들려면 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**&#x200B;을(를) 선택합니다.
+1. Adobe Campaign에서 [트리거]를 만들려면 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**&#x200B;를 선택합니다.
 
    ![](assets/remarketing_1.png)
 
@@ -164,4 +163,3 @@ Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [�
 1. 잠시 후 같은 방문자/수신자가 리마케팅 메시지를 수신합니다. 메시지에 최근에 검색한 여행지가 포함됩니다.
 
    ![](assets/trigger_uc_search_7.png)
-

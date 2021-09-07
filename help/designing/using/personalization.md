@@ -6,13 +6,13 @@ description: 이메일 디자이너에서 이메일을 개인화하는 방법을
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 이메일 디자인
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2583'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,9 @@ Adobe Campaign을 사용하면 개인화 필드, 콘텐츠 블록 또는 동적 
 
 >[!NOTE]
 >
->URL 개인화는 도메인 이름이나 URL 확장에는 적용할 수 없습니다. 개인화가 잘못된 경우 메시지 분석 중에 오류 메시지가 표시됩니다. 컨텐츠 블록을 선택할 때 **미러 페이지에 연결**&#x200B;과 같은 요소를 선택할 수 없습니다. 이러한 유형의 블록은 링크 내에서 사용할 수 없습니다.
+>링크 추적을 위한 URL 서명 메커니즘이 비활성화되면 URL을 개인화하는 것은 도메인 이름이나 URL 확장에는 적용할 수 없습니다. 개인화가 잘못된 경우 메시지 분석 중에 오류 메시지가 표시됩니다.
+>
+>컨텐츠 블록을 선택할 때 **미러 페이지에 연결**&#x200B;과 같은 요소를 선택할 수 없습니다. 이러한 유형의 블록은 링크 내에서 사용할 수 없습니다.
 
 ## 개인화 필드 삽입{#inserting-a-personalization-field}
 

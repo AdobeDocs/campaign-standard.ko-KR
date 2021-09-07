@@ -6,14 +6,14 @@ description: Adobe Campaign에서 관심 영역 데이터 기능을 구성하여
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: 대상자
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 3%
+source-wordcount: '1330'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Experience Platform SDK로 구성된 모바일 애플리케이션에서 Ad
 
 1. Adobe Campaign에서 모바일 애플리케이션 및 수집된 위치 데이터에 액세스했는지 확인하십시오. [위치 데이터를 수집하는 데 사용되는 모바일 앱에 액세스](#accessing-mobile-apps-used-to-collect-location-data) 및 [수집된 위치 데이터 액세스](#accessing-collected-location-data)를 참조하십시오.
 
-## SDK V4 {#configuring-campaign-poi-sdkv4}을 사용하여 Campaign-Points of Interest 데이터 통합 구성
+## SDK V4를 사용하여 Campaign-Points of Interest 데이터 통합 구성 {#configuring-campaign-poi-sdkv4}
 
 위치 데이터를 수집하는 데 사용되는 모바일 애플리케이션은 Adobe Campaign 인터페이스의 **administrator**&#x200B;에서 구성해야 합니다.
 
@@ -58,17 +58,17 @@ SDK V4로 구성된 모바일 애플리케이션에서 관심 영역 데이터 �
 1. 모바일 애플리케이션의 구독자로부터 수집하려는 데이터를 정의합니다. [구독자의 관심 영역 데이터 수집](#collecting-subscribers--points-of-interest-data)을 참조하십시오.
 1. Adobe Campaign에서 모바일 애플리케이션 및 수집된 위치 데이터에 액세스했는지 확인하십시오. [위치 데이터를 수집하는 데 사용되는 모바일 앱에 액세스](#accessing-mobile-apps-used-to-collect-location-data) 및 [수집된 위치 데이터 액세스](#accessing-collected-location-data)를 참조하십시오.
 
-### SDK V4 {#setting-up-a-mobile-app-in-campaign}을 사용하여 Adobe Campaign에서 모바일 앱 설정
+### SDK V4를 사용하여 Adobe Campaign에서 모바일 앱 설정 {#setting-up-a-mobile-app-in-campaign}
 
 Adobe Campaign을 사용하여 관심 영역 데이터를 수집하려면 Adobe Campaign에서 데이터를 받을 모바일 애플리케이션을 구성해야 합니다.
 
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**&#x200B;를 선택합니다.
 1. 응용 프로그램을 설정하려면 **[!UICONTROL Create]** 를 클릭하십시오.
 1. **[!UICONTROL Application name]** 필드에 이름을 입력하고 **[!UICONTROL Create]** 를 클릭합니다.
 
    **[!UICONTROL Device-specific settings]** 섹션을 채우지 마십시오. 이는 푸시 알림을 받는 애플리케이션 구성에만 적용됩니다.
 
-**[!UICONTROL Mobile application properties]** 섹션에는 두 개의 URL이 나열됩니다.**[!UICONTROL Collect PII endpoint]** 및 **[!UICONTROL Location Services endpoint]**. Adobe Mobile Services 인터페이스에서 사용됩니다. [Adobe Mobile Services에서 모바일 앱 구성](#configuring-a-mobile-app-in-adobe-mobile-services)을 참조하십시오.
+**[!UICONTROL Mobile application properties]** 섹션에는 두 개의 URL이 나열됩니다. **[!UICONTROL Collect PII endpoint]** 및 **[!UICONTROL Location Services endpoint]**. Adobe Mobile Services 인터페이스에서 사용됩니다. [Adobe Mobile Services에서 모바일 앱 구성](#configuring-a-mobile-app-in-adobe-mobile-services)을 참조하십시오.
 
 * **[!UICONTROL Collect PII endpoint]** URL은 실행 시 모바일 애플리케이션에서 사용자의 Experience Cloud ID와 등록 토큰을 수집하는 데 사용됩니다. 사용자가 이메일, 이름, 성 등의 자격 증명을 사용하여 애플리케이션에 로그인하면 이 데이터도 수집되어 사용자의 등록 토큰을 Adobe Campaign 프로필과 조정하는 데 사용됩니다.
 * **[!UICONTROL Location Services endpoint]** URL은 관심 영역에서 사용자의 위도, 경도 및 반경 등의 위치 데이터를 수집하는 데 사용됩니다.
@@ -98,7 +98,7 @@ Adobe Campaign에 설정된 모바일 애플리케이션 매개 변수에서 찾
    >
    >이 조직은 Adobe Campaign 인스턴스에서 사용하는 조직과 동일해야 합니다.
 
-1. **[!UICONTROL Manage Postbacks]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Manage Postbacks]**&#x200B;를 클릭합니다.
 1. 포스트백을 만듭니다.
 
    * **[!UICONTROL PII]** 을 **[!UICONTROL Postback Type]**(으)로 선택합니다.
@@ -133,7 +133,7 @@ Adobe Campaign에 설정된 모바일 애플리케이션 매개 변수에서 찾
 
    * **컨텐츠 유형**&#x200B;을 **[!UICONTROL application/json]**(으)로 설정합니다.
    * **어느 데이터 태그로 포스트백을 트리거합니까?**, 일반적으로  **[!UICONTROL Launched]** 및 이벤트를 선택합니다  **[!UICONTROL exists]**.
-   * **[!UICONTROL Save & Activate]**&#x200B;을(를) 클릭합니다.
+   * **[!UICONTROL Save & Activate]**&#x200B;를 클릭합니다.
 
 1. 두 번째 포스트백을 만듭니다.
 
@@ -160,7 +160,7 @@ Adobe Campaign에 설정된 모바일 애플리케이션 매개 변수에서 찾
 
    * **컨텐츠 유형**&#x200B;을 **[!UICONTROL application/json]**(으)로 설정합니다.
    * **어느 데이터 태그로 포스트백을 트리거합니까?**, 및  **[!UICONTROL campaign.test]** 을 선택합니다  **[!UICONTROL exists]**.
-   * **[!UICONTROL Save & Activate]**&#x200B;을(를) 클릭합니다.
+   * **[!UICONTROL Save & Activate]**&#x200B;를 클릭합니다.
 
 >[!NOTE]
 >
@@ -196,7 +196,7 @@ Mobile 핵심 서비스의 SDK(소프트웨어 개발 키트)를 사용하면 �
 
 Adobe Campaign에서 성공적으로 만든 애플리케이션에 액세스하려면:
 
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭합니다.
+1. 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭합니다.
 1. SDK에 따라 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK v4)]** 또는 **[!UICONTROL Mobile app (AEP SDK)]**&#x200B;을 선택합니다.
 1. 목록에서 모바일 애플리케이션을 선택하여 해당 속성을 표시합니다.
 
@@ -204,7 +204,7 @@ Adobe Campaign에서 성공적으로 만든 애플리케이션에 액세스하�
 
 응용 프로그램의 구독자 목록도 **[!UICONTROL Mobile application subscribers]** 탭에 표시됩니다. 가입자는 모바일 장치에 애플리케이션을 설치한 모든 사용자입니다. Adobe Campaign 데이터베이스 프로필이 등록 토큰으로 식별됩니다.
 
-## 수집된 위치 데이터 {#accessing-collected-location-data}에 액세스
+## 수집된 위치 데이터 액세스 {#accessing-collected-location-data}
 
 설정이 완료되면 수집된 관심 영역 데이터가 각 프로필의 **[!UICONTROL Places]** 탭에 나열됩니다. 목록에 액세스하려면
 

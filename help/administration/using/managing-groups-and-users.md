@@ -7,14 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-feature: 액세스 관리
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 88%
+source-wordcount: '941'
+ht-degree: 87%
 
 ---
 
@@ -126,7 +126,7 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
 관리자 사용자는 조직 단위를 할당하는 데 사용되는 보안 그룹 집합(Geometrixx 및 Geometrixx Clothes)을 만들어야 합니다. 조직 단위를 만드는 방법에 대해 알아보려면 [단위 만들기 및 관리](../../administration/using/organizational-units.md#creating-and-managing-units)를 참조하십시오.
 
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Users & Security > Security groups]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Administration > Users & Security > Security groups]**&#x200B;를 선택합니다.
 1. 새 보안 그룹을 만들고 **[!UICONTROL Label]** 및 **[!UICONTROL ID]**&#x200B;을(를) 지정합니다.
 
    ID는 Admin Console에서 선택한 ID와 동일해야 합니다.

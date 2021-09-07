@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 최신 릴리스
-description: 이 페이지에서는 최신 Campaign Standard 릴리스의 콘텐츠를 자세히 설명합니다
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: 초기 릴리스 정보
+description: 초기 릴리스 정보
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
+# 초기 릴리스 정보 {#new-release}
 
-# 최신 릴리스{#latest-release}
+이 페이지에서는 다음 Campaign Standard 릴리스에 포함된 새로운 기능, 개선 사항 및 문제 해결에 대해 설명합니다.
+
+>[!CAUTION]
+>
+> 이 콘텐츠는 단계 환경 업그레이드일까지 사전 통지 없이 변경될 수 있습니다. 자세한 내용은 [릴리스 계획 페이지](../../rn/using/release-planning.md)를 참조하세요.
 
 ## 릴리스 21.3 - 2021년 9월 {#release-21-3---sept-2021}
-
-최신 Campaign Standard 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항은 아래에 나와 있습니다.
 
 **새로운 기능**
 
@@ -98,7 +100,7 @@ ht-degree: 38%
 
 * 워크플로우에서 Adobe Experience Manager 컨텐츠에 연결된 반복 게재를 만들 때 이제 전송 전에 컨텐츠 승인 상태를 확인합니다.
 * 이제 데이터베이스 연결 제한이 연결 오류를 방지하기 위해 Campaign 패키지와 일치합니다.
-* 사용자 지정 리소스 게시에서 새로운 일관성 검사를 수행하면 사용자가 중복 인덱스를 만들 수 없으므로 게시에 실패합니다. 필요한 경우 향상된 오류 메시지가 사용자에게 색인의 이름을 바꾸도록 요청합니다.
+* 사용자 지정 리소스에서 인덱스를 만드는 동안 일관성 검사를 추가하고 오류 메시지를 개선했습니다.
 
 **기타 변경 사항**
 

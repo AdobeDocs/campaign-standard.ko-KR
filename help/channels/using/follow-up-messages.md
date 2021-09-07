@@ -6,14 +6,14 @@ description: 후속 메시지를 만들고, 관리하고, 보내는 방법을 �
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: 트랜잭션 메시지
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 3%
+source-wordcount: '774'
+ht-degree: 2%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 이 템플릿에 액세스하려면 다음을 수행하십시오.
 
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭합니다.
+1. 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭합니다.
 1. **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;를 선택합니다.
 1. 왼쪽 창에서 **[!UICONTROL Follow-up messages]** 상자를 선택합니다.
 

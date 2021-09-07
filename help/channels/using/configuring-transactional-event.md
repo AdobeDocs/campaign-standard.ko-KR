@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 트랜잭션 메시지
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaign으로 트랜잭션 메시지를 보내려면 먼저 이벤트를 
 
 시작하려면 필요에 따라 이벤트를 만듭니다.
 
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**&#x200B;를 선택합니다.
 1. **[!UICONTROL Create]** 버튼을 클릭합니다.
 1. 이벤트의 **[!UICONTROL Label]** 및 **[!UICONTROL ID]**&#x200B;을 입력합니다. **[!UICONTROL ID]** 필드는 필수 항목이며 접두사 &quot;EVT&quot;로 시작해야 합니다. 이 접두사를 사용하지 않으면 **[!UICONTROL Create]** 을 클릭하면 자동으로 추가됩니다.
 
@@ -151,7 +151,7 @@ Adobe Campaign으로 트랜잭션 메시지를 보내려면 먼저 이벤트를 
 
 이미 만든 트랜잭션 이벤트에 액세스하여 검색하려면 아래 단계를 수행하십시오.
 
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**&#x200B;를 선택합니다.
 1. **[!UICONTROL Show search]** 버튼을 클릭합니다.
 
    ![](assets/message-center_search-events.png)

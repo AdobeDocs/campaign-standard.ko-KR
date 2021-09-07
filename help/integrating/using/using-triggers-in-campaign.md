@@ -6,14 +6,14 @@ description: 기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campa
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: 트리거
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
 이 작업을 수행하는 단계는 다음과 같습니다.
 
-1. 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**&#x200B;를 선택합니다.
 
    ![](assets/remarketing_1.png)
 

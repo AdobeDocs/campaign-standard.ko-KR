@@ -6,14 +6,14 @@ description: 'Adobe Campaign 사용자에게는 특정한 역할이 주어집니
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: 액세스 관리
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 94%
+source-wordcount: '1218'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign을 사용하면 사용자에게 역할 세트를 할당하여 인
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
-Adobe Campaign의 사용자를 보려면 왼쪽 상단 모서리에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Users & Security > Users]**&#x200B;을(를) 선택합니다.
+Adobe Campaign의 사용자를 보려면 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Administration > Users & Security > Users]** 을(를) 선택합니다.
 
 Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!UICONTROL User administration]**&#x200B;을(를) 클릭합니다.
 
@@ -156,7 +156,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 이제 사용자가 Adobe Campaign Standard를 사용할 준비가 되었습니다.
 
-## 튜토리얼 비디오 (#video)
+## 튜토리얼 비디오 {#video}
 
 이 비디오에서는 사용자 액세스 권한을 관리하는 방법을 보여줍니다.
 

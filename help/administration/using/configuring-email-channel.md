@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: 인스턴스 설정
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2597'
 ht-degree: 76%
 
 ---
@@ -332,7 +332,7 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 ### 반송 메일 조건 {#legacy-bounce-mail-qualification}
 
-다양한 바운스 수 및 관련 오류 유형 및 이유 목록을 나열하려면 왼쪽 상단에서 **[!UICONTROL Adobe Campaign]** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]** 을 선택합니다.
+다양한 바운스 수 및 관련 오류 유형 및 이유 목록을 나열하려면 왼쪽 상단에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]** 을 선택합니다.
 
 바운스는 다음과 같은 자격 상태를 가질 수 있습니다.
 
