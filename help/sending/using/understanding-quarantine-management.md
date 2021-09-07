@@ -10,7 +10,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
+source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 30%
@@ -41,7 +41,7 @@ ht-degree: 30%
 
 * **** 격리는 프로필 자체가  **아닌 주소** (또는 전화 번호 등)에만 적용됩니다. 예를 들어, 프로필의 이메일 주소가 격리되면 프로필을 업데이트하여 새 주소를 입력하면 게재 작업 시 다시 타겟팅될 수 있습니다. 마찬가지로, 두 프로필에 동일한 전화 번호가 있는 경우 해당 번호가 격리되면 두 프로필 모두에 영향을 줍니다.
 
-   격리된 주소 또는 전화 번호는 [제외 로그](identifying-quarantined-addresses-for-a-delivery)(게재의 경우) 또는 [격리 목록](#identifying-quarantined-addresses-for-the-entire-platform)(전체 플랫폼의 경우)에 표시됩니다.
+   격리된 주소 또는 전화 번호는 [제외 로그](#identifying-quarantined-addresses-for-a-delivery)(게재의 경우) 또는 [격리 목록](#identifying-quarantined-addresses-for-the-entire-platform)(전체 플랫폼의 경우)에 표시됩니다.
 
 * 반면 **차단 목록**&#x200B;에 있게 되면 지정된 채널에 대해 **프로필**&#x200B;이 더 이상 구독 취소(옵트아웃) 후와 같이 게재의 타깃팅되지 않습니다. 예를 들어 이메일 채널에 대한차단 목록에 두 개의 이메일 주소가 있는 경우 두 주소가 모두 게재에서 제외됩니다. 프로세스에 대한 자세한 차단 목록 내용은 [Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)의 옵트인 및 옵트아웃 기본 정보 를 참조하십시오.
 
