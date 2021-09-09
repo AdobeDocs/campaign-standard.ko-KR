@@ -10,9 +10,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1074'
 ht-degree: 38%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 38%
 
 * Adobe Experience Platform 데이터 커넥터 및 Audience Destinations 서비스는 이제 Campaign Standard에서 더 이상 사용되지 않습니다. 이러한 기능을 사용하는 경우 Adobe 소스 및 대상으로 이동하고 구현을 조정해야 합니다. [자세히 알아보기](../../integrating/using/get-started-sources-destinations.md)
 * 사용이 중단되거나 제거된 기능은 [이 페이지](deprecated-features.md)에 나열됩니다.
-* 문자열 유형 열의 값을 연결하는 &#39;StringAgg&#39; 합계 함수를 새로 도입했습니다. (CAMP-47077)
+* 문자열 유형 열의 값을 연결하는 &#39;StringAgg&#39; 합계 함수를 새로 도입했습니다. (CAMP-47077) [자세히 알아보기](../../automating/using/list-of-functions.md#aggregates)
 * **게재 표시기 업데이트**(updateDeliveryIndicators) 기술 워크플로우가 개선되어 성능이 향상되었습니다.
 * 이제 Campaign Standard에서 지원되는 모든 언어에 인앱 메시지 템플릿을 사용할 수 있습니다.
 * 게재 준비 시간은 게재 분석 중에 추적 서버로 전송되는 호출 수를 줄여 트랜잭션 메시지에 최적화되었습니다.
