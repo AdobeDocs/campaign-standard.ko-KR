@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 타기팅된 프로필을 사용한 이메일 메시지 테스트
 description: 타겟팅된 프로필 및 대체 주소를 사용하여 메시지를 테스트하는 방법을 알아봅니다.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: 컨트롤 그룹
+feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1514'
 ht-degree: 4%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DM 게재
 description: DM 게재 활동을 사용하면 워크플로우에서 단일 전송 DM 또는 반복되는 DM 전송을 구성할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: directMail,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 98%
+source-wordcount: '914'
+ht-degree: 99%
 
 ---
-
 
 # DM 게재{#direct-mail-delivery}
 
@@ -44,7 +41,7 @@ DM 수신자는 쿼리, 교집합 등과 같은 타겟팅 활동을 통해 동�
 
 **관련 항목:**
 
-* [사용 사례:이메일 및 DM 배달 연결](../../automating/using/coupling-email-direct-mail.md)
+* [사용 사례: 이메일 및 DM 게재 연결](../../automating/using/coupling-email-direct-mail.md)
 * [DM 기본 정보](../../channels/using/about-direct-mail.md)
 
 ## 구성 {#configuration}

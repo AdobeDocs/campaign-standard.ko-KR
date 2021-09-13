@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: SMS 및 푸시 콘텐츠 편집기 인터페이스
 description: 편집기의 다양한 섹션을 사용하여 SMS와 푸시 콘텐츠를 수정하는 방법을 알아봅니다.
 audience: designing
@@ -11,9 +9,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '330'
 ht-degree: 100%
 
 ---

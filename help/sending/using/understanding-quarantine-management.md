@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 격리 관리 이해
 description: 격리 관리를 통해 게재 능력을 최적화하는 방법을 알아봅니다.
 audience: sending
@@ -10,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 30%

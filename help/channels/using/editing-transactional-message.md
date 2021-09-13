@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 트랜잭션 메시지 편집
 description: 트랜잭션 메시지에 액세스하고 편집하고 개인화하는 방법을 알아봅니다.
 audience: channels
@@ -11,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 29%

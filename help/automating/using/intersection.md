@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 교차
 description: 교차 활동을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 98%
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
-
 
 # 교차{#intersection}
 
@@ -50,4 +47,3 @@ ht-degree: 98%
 다음 예는 두 쿼리 활동 간의 교차를 보여줍니다. Adobe Campaign 데이터베이스를 검토하고 18~27세 사이의 프로필과 전자 메일 주소가 각각 제공된 프로필을 검색하는 데 사용됩니다.
 
 ![](assets/wkf_intersection_example.png)
-

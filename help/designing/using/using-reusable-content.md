@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '재사용 가능한 콘텐츠 만들기 및 사용 '
 description: 이메일 디자이너를 사용하여 재사용 가능한 이메일 콘텐츠 작성을 시작합니다.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 이메일 디자인
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1821'
+source-wordcount: '1819'
 ht-degree: 1%
 
 ---

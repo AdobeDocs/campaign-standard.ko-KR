@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 워크플로우 구축
 description: 이 섹션에서는 새 워크플로우를 만들기 위한 주요 원칙과 모범 사례를 자세히 설명합니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,wizard;workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 96%
 
 ---
-
 
 # 워크플로우 구축{#building-a-workflow}
 
@@ -43,7 +40,7 @@ ht-degree: 96%
 
 프로그램, 캠페인 또는 마케팅 활동 목록에서 워크플로우를 만들 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 워크플로우를 구축하는 방법 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 워크플로우를 빌드하는 방법을 알아봅니다](#video)
 
 마케팅 활동 만들기는 [마케팅 활동 만들기](../../start/using/marketing-activities.md#creating-a-marketing-activity) 섹션에 자세히 설명되어 있습니다.
 
@@ -134,10 +131,10 @@ ht-degree: 96%
 1. 활동을 저장하고 워크플로우의 각 활동에 대해 이러한 작업을 반복합니다.
 1. 워크플로우를 저장합니다.
 
-## 자습서 비디오 {#video}
+## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 워크플로우를 만드는 방법을 보여 줍니다.
+이 비디오에서는 워크플로우를 만드는 방법을 보여줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-추가 Campaign Standard 방법 비디오는 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.

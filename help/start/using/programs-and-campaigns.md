@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 프로그램 및 캠페인
 description: Adobe Campaign에서는 프로그램 및 캠페인에 연결된 다양한 마케팅 활동을 그룹화하고 오케스트레이션할 수 있습니다. 프로그램 및 캠페인에 대한 보고서를 통해 그 효과를 분석할 수 있습니다.
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: 캠페인
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '641'
 ht-degree: 100%
 
 ---

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '기존 편집기 이메일을 이메일 디자이너로 변환 '
 description: 기존 편집기 이메일에서 만든 이메일을 이메일 디자이너로 사용하는 방법을 알아봅니다.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 이메일 디자인
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '438'
 ht-degree: 8%
 
 ---

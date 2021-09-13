@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 게재 처리량
-description: Delivery throughput out-of-the-box 보고서를 통해 배달의 성공에 대해 학습합니다.
+description: 즉시 사용 가능한 게재 처리량 보고서를 사용하여 게재의 성공에 대해 알아봅니다.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,21 +8,20 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 53bb4efb-949e-4831-af0d-e7af0ffa6b81
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
-
 # 게재 처리량{#delivery-throughput}
 
-이 보고서에는 전송 또는 여러 전송의 배달 처리량과 관련된 데이터가 포함되어 있습니다. 다음과 같은 이점을 제공합니다.
+이 보고서에는 전송 또는 여러 전송의 게재 처리량과 관련된 데이터가 포함되어 있습니다. 다음을 제공합니다.
 
 * 시간당 처리된 메시지 수
-* 재시도 횟수가 가장 많은 5회 배달이 표시된 **[!UICONTROL Top 5 deliveries]** 테이블 및 보완적 요약 번호
+* **[!UICONTROL Top 5 deliveries]** 테이블 및 상호 보완적인 요약 번호를 사용하여 다시 시도 시 가장 큰 이득을 가진 5개의 게재를 표시할 수 있습니다.
 
 ![](assets/delivery_reports_1.png)
 

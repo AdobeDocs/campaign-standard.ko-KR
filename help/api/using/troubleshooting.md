@@ -1,35 +1,32 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 문제 해결
-description: Campaign Standard API와 관련된 일반적인 문제에 대해 자세히 알아보십시오.
+description: Campaign Standard API와 관련된 일반적인 문제에 대해 자세히 알아보십시오 .
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
-
 # 문제 해결 {#troubleshooting}
 
-* **Adobe.io 콘솔로 이동하면 다음 오류가 표시됩니다.&quot;Adobe I/O 콘솔은 기업 계정의 구성원을 선택할 수만 있습니다. 액세스 권한이 있으려면 시스템 관리자에게 문의하십시오.&quot;**
+* **Adobe.io 콘솔로 이동하면 다음 오류가 표시됩니다. &quot;Adobe I/O 콘솔은 엔터프라이즈 계정의 구성원을 선택하는 데만 사용할 수 있습니다. 액세스 권한이 있다고 생각되면 시스템 관리자에게 문의하십시오.&quot;**
 
-관리하는 IMS 조직에만 API 키를 만들 수 있습니다. 이 메시지가 표시되고 API 키를 만들고자 하는 경우 IMS 조직의 관리자 중 한 명에게 문의할 수 있습니다.
+관리하는 IMS 조직에 대한 API 키만 만들 수 있습니다. 이 메시지가 표시되고 API 키를 만들고자 하는 경우 IMS 조직의 관리자에게 문의하십시오.
 
-* **Adobe.io에 대한 요청을 할 때 {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}**
+* **Adobe.io에 요청을 수행할 때 {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}이(가) 표시됩니다**
 
-즉, 특정 Campaign 제품의 IMS 프로비저닝에 문제가 있습니다.IMS 팀이 해결해야 합니다.
+즉, 특정 Campaign 제품의 IMS 프로비저닝에 문제가 있습니다. IMS 팀이 해결해야 합니다.
 
-자세한 내용은 토큰으로 IMS API를 호출하여 IMS 프로필의 모양을 확인할 수 있습니다.Adobe.io에 대해 입력한 URL과 동일한 prodCtx가 있어야 요청을 라우팅할 수 있습니다.
-IMS 프로비저닝이 없는 경우 수정해야 합니다.
+자세한 내용은 토큰으로 IMS API를 호출하여 IMS 프로필의 모양을 확인할 수 있습니다. Adobe.io에서 요청을 라우팅할 수 있도록 URL에 입력한 organization_id와 동일한 prodCtx가 있어야 합니다.
+IMS 프로비저닝이 누락된 경우 수정해야 합니다.
 
 ```
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
@@ -45,7 +42,7 @@ IMS 프로비저닝이 없는 경우 수정해야 합니다.
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
-이 요청과 함께 IMS 프로필을 확인하십시오.
+이 요청으로 IMS 프로필을 확인합니다.
 
 ```
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
@@ -80,17 +77,17 @@ IMS 프로비저닝이 없는 경우 수정해야 합니다.
 }
 ```
 
-* **Adobe.io에 대한 요청을 할 때 {&quot;code&quot;:500, &quot;message&quot;:&quot;죄송합니다. 문제가 발생했습니다. URI를 확인하고 다시 시도하십시오.&quot;}**
+* **Adobe.io에 요청을 수행하면 {&quot;code&quot;:500, &quot;message&quot;:&quot;Async가 제공됩니다. 문제가 발생했습니다. URI를 확인하고 다시 시도하십시오.&quot;}**
 
-Adobe.io는 유효하지 않은 URI를 선언합니다.요청하려는 URI가 올바르지 않을 수 있습니다. Adobe.io에서 캠페인 서비스를 선택하면 가능한 organization_ids 목록이 있는 선택기가 표시됩니다. URL에 입력한 URL을 선택해야 합니다.
+Adobe.io는 잘못된 URI를 선언합니다. 요청하는 URI가 올바르지 않을 수 있습니다. Campaign 서비스를 선택하면 Adobe.io에서 가능한 organization_ids 목록이 있는 선택기가 표시됩니다. 선택한 URL이 URL에 입력되었는지 확인해야 합니다.
 
-* **Adobe.io에 대한 요청을 할 때 {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth 토큰이 유효하지 않음&quot;}**
+* **Adobe.io에 요청을 수행할 때 {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth 토큰이 잘못되었습니다.&quot;}가 표시됩니다**
 
-토큰이 유효하지 않거나(토큰을 생성하는 데 사용한 부적절한 IMS 호출) 토큰이 만료되었습니다.
+토큰이 잘못되었거나(토큰을 생성하는 데 사용된 잘못된 IMS 호출) 토큰이 만료되었습니다.
 
-* **만든 후 내 프로필이 표시되지 않음**
+* **만든 후에 프로필이 표시되지 않습니다**
 
-인스턴스 구성에 따라 생성된 프로파일을 **orgUnit**&#x200B;에 연결해야 합니다. 작성에서 이 필드를 추가하는 방법을 이해하려면 [이 섹션](../../api/using/creating-profiles.md)을 참조하십시오.
+인스턴스 구성에 따라 생성된 프로필을 **orgUnit**&#x200B;에 연결해야 합니다. 작성에서 이 필드를 추가하는 방법을 이해하려면 [이 섹션](../../api/using/creating-profiles.md)을 참조하십시오.
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

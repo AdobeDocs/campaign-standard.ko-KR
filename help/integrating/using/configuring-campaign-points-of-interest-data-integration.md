@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign-Points of Interest 데이터 통합 구성
 description: Adobe Campaign에서 관심 영역 데이터 기능을 구성하여 구독자의 위치에 따라 개인화된 메시지를 보내는 방법을 알아봅니다.
 audience: integrating
@@ -10,7 +8,7 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1330'
 ht-degree: 2%

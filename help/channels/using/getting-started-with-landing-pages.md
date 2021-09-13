@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 랜딩 페이지 설정 주요 단계
 description: 랜딩 페이지를 설정하는 주요 단계를 알아봅니다.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: 랜딩 페이지
+feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 97%
 
 ---

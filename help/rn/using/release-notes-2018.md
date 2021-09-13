@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 2018년 릴리스 정보
 description: 이 페이지에는 Adobe Campaign Standard의 2018년 릴리스가 모두 나열되어 있습니다.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5400'
 ht-degree: 6%
 
 ---
@@ -39,11 +37,11 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using
  <tbody> 
   <tr> 
    <td> 인앱 메시지(베타)<br /> </td> 
-   <td> 인앱 메시징을 사용하면 상황에 맞는 상호 작용을 제공하고 푸시 알림을 선택하지 않은 사용자에게 연락할 수 있도록 하여 모바일 앱 사용자를 보다 효과적으로 참여시킬 수 있습니다. 푸시 알림과 함께 인앱 메시지를 사용하여 개인화되고 적절한 경험을 만듭니다. 이로 인해 앱 사용자의 전환과 보유가 향상됩니다.<br /> 자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 인앱 메시징을 사용하면 상황에 맞는 상호 작용을 제공하고 푸시 알림을 선택하지 않은 사용자에게 연락할 수 있도록 하여 모바일 앱 사용자를 보다 효과적으로 참여시킬 수 있습니다. 푸시 알림과 함께 인앱 메시지를 사용하여 개인화되고 적절한 경험을 만듭니다. 이로 인해 앱 사용자의 전환과 보유가 향상됩니다.<br /> 자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 모바일 앱에 대한 Launch 통합(베타)<br /> </td> 
-   <td> Adobe Campaign과 Launch 통합을 사용하면 이제 Mobile SDK V5를 사용하여 Campaign에서 모바일 앱 속성 활성화 프로세스를 간편하게 자동화할 수 있습니다.<br /> 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> Adobe Campaign과 Launch 통합을 사용하면 이제 Mobile SDK V5를 사용하여 Campaign에서 모바일 앱 속성 활성화 프로세스를 간편하게 자동화할 수 있습니다.<br /> 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,7 +59,7 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using
 
 * 캠페인 속성을 정의하는 동안 모바일 앱을 선택하여 특정 모바일 앱에서 사용자를 Target 합니다. 이 기능은 푸시 및 인앱 메시지 채널 모두를 위한 것입니다.
 
-   자세한 내용은 [세부 설명서](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)를 참조하십시오.
+   자세한 내용은 [세부 설명서](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)를 참조하세요.
 
 * 이제 Creative Designer 인터페이스를 사용하여 콘텐츠 블록을 선택하면 목록의 모든 콘텐츠 블록이 로드되고 표시됩니다. (CAMP-27311)
 
@@ -104,15 +102,15 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using
  <tbody> 
   <tr> 
    <td> Android 푸시 알림에 대한 우선 순위 높음 플래그<br /> </td> 
-   <td> Android용 우선 순위 높음 플래그 - Android 앱이 절전 장치가 깨어나고 일부 제한된 처리를 실행하는 데 우선 순위가 높은 푸시 알림을 전달할 수 있도록 합니다. 기본 우선 순위는 Normal(정상) 로, 이로 인해 메시지 전달이 지연되어 배터리를 저장할 수 있습니다. <br /> 자세한 내용은 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> Android용 우선 순위 높음 플래그 - Android 앱이 절전 장치가 깨어나고 일부 제한된 처리를 실행하는 데 우선 순위가 높은 푸시 알림을 전달할 수 있도록 합니다. 기본 우선 순위는 Normal(정상) 로, 이로 인해 메시지 전달이 지연되어 배터리를 저장할 수 있습니다. <br /> 자세한 내용은 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 모바일 앱 구독자에 대한 유형화 필터<br /> </td> 
-   <td> 유형화 필터에서 구독 지원 - 유형화 규칙에 대한 필터링 기준을 지정할 때 애플리케이션 가입을 필터링 및 타겟팅 차원으로 선택할 수 있으므로 프로필이 있는지 여부에 관계없이 사용자에 대한 속성을 필터링할 수 있습니다. <br /> 자세한 내용은 <a href="../../sending/using/about-typology-rules.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 유형화 필터에서 구독 지원 - 유형화 규칙에 대한 필터링 기준을 지정할 때 애플리케이션 가입을 필터링 및 타겟팅 차원으로 선택할 수 있으므로 프로필이 있는지 여부에 관계없이 사용자에 대한 속성을 필터링할 수 있습니다. <br /> 자세한 내용은 <a href="../../sending/using/about-typology-rules.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 메시지를 준비하는 동안 URL에서 자동으로 콘텐츠 가져오기<br /> </td> 
-   <td> 이제 준비 단계 동안 URL에서 이메일 콘텐츠를 가져올 수 있습니다. 되풀이하는 이메일 게재의 경우, 메시지가 준비될 때마다 최신 HTML 콘텐츠를 검색하여 이메일이 전송되는 시간에 컨텐츠가 항상 최신 상태로 유지되도록 합니다. 또한 이 기능을 사용하면 컨텐츠가 아직 준비되지 않았더라도 URL의 컨텐츠로 예약된 게재를 만들 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 이제 준비 단계 동안 URL에서 이메일 콘텐츠를 가져올 수 있습니다. 되풀이하는 이메일 게재의 경우, 메시지가 준비될 때마다 최신 HTML 콘텐츠를 검색하여 이메일이 전송되는 시간에 컨텐츠가 항상 최신 상태로 유지되도록 합니다. 또한 이 기능을 사용하면 컨텐츠가 아직 준비되지 않았더라도 URL의 컨텐츠로 예약된 게재를 만들 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign 릴리스 알림 메시지<br /> </td> 
@@ -205,11 +203,11 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using
  <tbody> 
   <tr> 
    <td> GDPR: 핵심 서비스 통합<br /> </td> 
-   <td> 개인 정보 보호 핵심 서비스 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 GDPR 요청을 자동화할 수 있습니다. <br /> 개인 정보 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 GDPR 요청은 이제 Campaign에서 자동으로 처리됩니다. <br /> 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko#getting-started">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 개인 정보 보호 핵심 서비스 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 GDPR 요청을 자동화할 수 있습니다. <br /> 개인 정보 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 GDPR 요청은 이제 Campaign에서 자동으로 처리됩니다. <br /> 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko#getting-started">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 푸시 개선 사항 - 자세한 게재 피드백<br /> </td> 
-   <td> 이제 Adobe Campaign은 MCPNS를 통해 공급자(APNS/GCM)로부터 푸시 메시지에 대한 자세한 피드백(로그 세트 제외 로그 전송)을 받는 기능을 제공합니다.<br /> 자세한 내용은 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 이제 Adobe Campaign은 MCPNS를 통해 공급자(APNS/GCM)로부터 푸시 메시지에 대한 자세한 피드백(로그 세트 제외 로그 전송)을 받는 기능을 제공합니다.<br /> 자세한 내용은 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 게재 로그 확장<br /> </td> 
@@ -217,11 +215,11 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using
     <ul> 
      <li> "동결된" 데이터를 사용하여 확장 브로드로그를 내보냅니다. 마케터는 세그먼트 코드가 "A"(워크플로우 엔진에서 시작)와 같은 모든 프로필을 내보내려고 합니다. </li> 
      <li> "동결된" 데이터에 대한 세분화: 마케터는 마지막 전송 이후 또는 세그먼트 코드가 "A"와 동일한 위치 1000개의 충성도 포인트를 획득한 모든 프로필을 <strong>다시 타겟팅하려고 합니다</strong>. </li> 
-    </ul> 자세한 내용은 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">세부 설명서</a>를 참조하십시오.<br /> </td> 
+    </ul> 자세한 내용은 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 사용자 지정 프로필 데이터를 사용한 동적 보고<br /> </td> 
-   <td> 이 기능을 사용하면 프로필 리소스 확장 중에 생성된 사용자 지정 프로필 데이터를 기반으로 보고서를 만들고 관리할 수 있습니다. 충성도 프로그램, 기본 채널 등과 같은 프로필 속성별로 보고서를 분류할 수 있습니다.<br /> 자세한 내용은 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 이 기능을 사용하면 프로필 리소스 확장 중에 생성된 사용자 지정 프로필 데이터를 기반으로 보고서를 만들고 관리할 수 있습니다. 충성도 프로그램, 기본 채널 등과 같은 프로필 속성별로 보고서를 분류할 수 있습니다.<br /> 자세한 내용은 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -307,7 +305,7 @@ _사용자 정의 리소스_
     <ul> 
      <li> 액세스 권한: 데이터 주체는 데이터 통제자가 캡처한 개인 데이터의 사본을 받을 수 있도록 하며, 여기에는 Adobe Campaign에 저장된 데이터가 포함될 수 있습니다. </li> 
      <li> 삭제 권한: 데이터 주체는 데이터 통제자가 캡처한 개인 데이터를 삭제하여 잠재적으로 Adobe Campaign에 저장된 데이터를 포함할 수 있습니다. </li> 
-    </ul> 자세한 내용은 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">세부 설명서</a>를 참조하십시오.<br /> </td> 
+    </ul> 자세한 내용은 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 이메일 크리에이티브 디자이너(베타)<br /> </td> 
@@ -321,7 +319,7 @@ _사용자 정의 리소스_
   </tr> 
   <tr> 
    <td> 다국어 푸시 게재<br /> </td> 
-   <td> 이메일 및 SMS 채널에 이미 존재하는 동일한 간단한 다국어 인터페이스가 푸시 채널에 추가되어 고객이 원하는 언어와 관계없이 고객의 참여를 유도할 수 있습니다.<br /> 이 기능은 여러 지역에 걸쳐 있는 푸시 캠페인을 관리하고 기본 언어로 사용자를 타깃팅하려는 고객을 위한 확장 가능한 자동 솔루션을 제공합니다. 한 번의 클릭으로 템플릿 스프레드시트를 통해 모든 언어 변형을 단일 푸시 게재에 업로드할 수 있습니다. 그러면 Adobe Campaign에서 사용자의 언어 기본 설정에 따라 자동 세분화를 수행하므로 워크플로우 및 보고를 단순화하여 중복 제거를 줄일 수 있습니다.<br /> 자세한 내용은 <a href="../../channels/using/creating-a-multilingual-push-notification.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 이메일 및 SMS 채널에 이미 존재하는 동일한 간단한 다국어 인터페이스가 푸시 채널에 추가되어 고객이 원하는 언어와 관계없이 고객의 참여를 유도할 수 있습니다.<br /> 이 기능은 여러 지역에 걸쳐 있는 푸시 캠페인을 관리하고 기본 언어로 사용자를 타깃팅하려는 고객을 위한 확장 가능한 자동 솔루션을 제공합니다. 한 번의 클릭으로 템플릿 스프레드시트를 통해 모든 언어 변형을 단일 푸시 게재에 업로드할 수 있습니다. 그러면 Adobe Campaign에서 사용자의 언어 기본 설정에 따라 자동 세분화를 수행하므로 워크플로우 및 보고를 단순화하여 중복 제거를 줄일 수 있습니다.<br /> 자세한 내용은 <a href="../../channels/using/creating-a-multilingual-push-notification.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 메시지에서 사용자 정의 리소스 사용<br /> </td> 
@@ -329,7 +327,7 @@ _사용자 정의 리소스_
     <ul> 
      <li> 사용자 지정 필드를 조정 기준으로 활용하여 트랜잭션 메시지를 프로필에 일치시킵니다 </li> 
      <li> 전체 프로필, 서비스 및 연결된 데이터를 활용하여 트랜잭션 메시지를 보다 개인화할 수 있습니다 </li> 
-    </ul> 자세한 내용은 <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">세부 설명서</a>를 참조하십시오.<br /> </td> 
+    </ul> 자세한 내용은 <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -393,11 +391,11 @@ _트랜잭션 메시지_
  <tbody> 
   <tr> 
    <td> 구독 - 프로필 목록에서 여러 서비스<br /> 구독 또는 구독 취소 </td> 
-   <td> 이제 <strong>구독 서비스</strong> 워크플로우 활동을 통해 프로필 목록을 여러 서비스에 구독하거나 구독 취소할 수 있습니다. 워크플로우에서 프로필과 각 프로필에 대한 작업 유형 및 서비스를 포함하는 파일을 가져옵니다. <strong>구독 서비스</strong> 활동은 이 정보를 사용하고 모든 프로필 구독과 구독 취소를 한 번에 동적으로 처리할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/subscription-services.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 이제 <strong>구독 서비스</strong> 워크플로우 활동을 통해 프로필 목록을 여러 서비스에 구독하거나 구독 취소할 수 있습니다. 워크플로우에서 프로필과 각 프로필에 대한 작업 유형 및 서비스를 포함하는 파일을 가져옵니다. <strong>구독 서비스</strong> 활동은 이 정보를 사용하고 모든 프로필 구독과 구독 취소를 한 번에 동적으로 처리할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/subscription-services.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 데이터 보강 활동 - 이전 전환을 기반으로 데이터 보강<br /> </td> 
-   <td> 새로운 <span class="uicontrol">데이터 보강</span> 워크플로우 활동을 사용하면 인바운드 전환을 활용하고 추가 데이터로 출력 전환을 완료할 수 있습니다. 프로필을 타겟팅하는 경우 데이터 보강 활동을 통해 데이터베이스에 저장되지 않는 추가 데이터(예: 가져온 파일에서 가져오기)로 프로필 정보를 보강할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/enrichment.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 새로운 <span class="uicontrol">데이터 보강</span> 워크플로우 활동을 사용하면 인바운드 전환을 활용하고 추가 데이터로 출력 전환을 완료할 수 있습니다. 프로필을 타겟팅하는 경우 데이터 보강 활동을 통해 데이터베이스에 저장되지 않는 추가 데이터(예: 가져온 파일에서 가져오기)로 프로필 정보를 보강할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/enrichment.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -457,15 +455,15 @@ Campaign 인터페이스의 상황별 도움말 링크를 사용할 때 일부 �
  <tbody> 
   <tr> 
    <td> 피로도 관리 보고<br /> </td> 
-   <td> 피로도 관리 보고는 피로도 규칙이 보내기 전에 지정된 날짜 범위 내에 이메일, 푸시, SMS 및 DM 채널에서 게재에 미치는 영향을 표시하는 구성 가능한 전용 보고서입니다. 충돌하는 모든 캠페인을 하나의 보기에서 빠르게 볼 수 있는 통찰력을 추가하여 마케터는 피로도 규칙을 보다 효과적으로 설정하여 마케팅 캠페인을 계획하고 커뮤니케이션에 우선 순위를 지정할 수 있습니다.<br /> 자세한 내용은 <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 피로도 관리 보고는 피로도 규칙이 보내기 전에 지정된 날짜 범위 내에 이메일, 푸시, SMS 및 DM 채널에서 게재에 미치는 영향을 표시하는 구성 가능한 전용 보고서입니다. 충돌하는 모든 캠페인을 하나의 보기에서 빠르게 볼 수 있는 통찰력을 추가하여 마케터는 피로도 규칙을 보다 효과적으로 설정하여 마케팅 캠페인을 계획하고 커뮤니케이션에 우선 순위를 지정할 수 있습니다.<br /> 자세한 내용은 <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 보고서 공유<br /> </td> 
-   <td> 보고서 공유 를 사용하면 보고서를 자동화된 반복 기반의 이메일 첨부 파일로 Adobe Campaign 사용자와 공유할 수 있습니다. 반복 보고서를 수신하는 사용자는 각 이메일에 있는 전용 링크를 통해 이러한 커뮤니케이션에서 구독을 취소할 수 있습니다.<br /> 자세한 내용은 <a href="../../reporting/using/reporting-interface.md#share-tab">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 보고서 공유 를 사용하면 보고서를 자동화된 반복 기반의 이메일 첨부 파일로 Adobe Campaign 사용자와 공유할 수 있습니다. 반복 보고서를 수신하는 사용자는 각 이메일에 있는 전용 링크를 통해 이러한 커뮤니케이션에서 구독을 취소할 수 있습니다.<br /> 자세한 내용은 <a href="../../reporting/using/reporting-interface.md#share-tab">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 새 기능 푸시<br /> </td> 
-   <td> 푸시 메시지 미리 보기 - 푸시 알림 컨텐츠 편집기 내에서 iOS 및 Android 장치의 푸시 알림을 미리 보고 배달을 테스트하거나 실행하기 전에 받은 사람에게 표시되는 내용을 정확히 확인합니다.<br /> 자세한 내용은 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">세부 설명서</a>를 참조하십시오.<br /> 컨텐츠 이용 가능 - 앱이 오랫동안 열리지 않을 경우 해당 데이터가 오래된 것일 수 있습니다. 이로 인해 사용자가 앱을 마지막으로 열 때 데이터를 업데이트하거나 교체해야 하므로 앱 사용이 지연될 수 있습니다. 콘텐츠 이용 가능 기능의 지원 추가로, Adobe Campaign 사용자는 푸시 알림을 전달할 때 앱을 깨워 백그라운드에서 해당 데이터를 새로 고칠 수 있으므로, 사용자의 인앱 경험에 대한 일관성과 제어를 향상시킬 수 있습니다.<br /> 가변 컨텐츠 - 가변 컨텐츠 기능 지원의 추가로, Adobe Campaign 사용자는 이제 모바일 앱 확장 프로그램을 활용하여 Adobe Campaign에서 보낸 푸시 알림 도착에 대한 프레젠테이션 또는 컨텐츠를 수정할 수 있습니다. 예를 들어, 사용자는 가변 콘텐츠를 활용하여 다음을 수행할 수 있습니다. <br /> 
+   <td> 푸시 메시지 미리 보기 - 푸시 알림 컨텐츠 편집기 내에서 iOS 및 Android 장치의 푸시 알림을 미리 보고 배달을 테스트하거나 실행하기 전에 받은 사람에게 표시되는 내용을 정확히 확인합니다.<br /> 자세한 내용은 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">세부 설명서</a>를 참조하세요.<br /> 컨텐츠 이용 가능 - 앱이 오랫동안 열리지 않을 경우 해당 데이터가 오래된 것일 수 있습니다. 이로 인해 사용자가 앱을 마지막으로 열 때 데이터를 업데이트하거나 교체해야 하므로 앱 사용이 지연될 수 있습니다. 콘텐츠 이용 가능 기능의 지원 추가로, Adobe Campaign 사용자는 푸시 알림을 전달할 때 앱을 깨워 백그라운드에서 해당 데이터를 새로 고칠 수 있으므로, 사용자의 인앱 경험에 대한 일관성과 제어를 향상시킬 수 있습니다.<br /> 가변 컨텐츠 - 가변 컨텐츠 기능 지원의 추가로, Adobe Campaign 사용자는 이제 모바일 앱 확장 프로그램을 활용하여 Adobe Campaign에서 보낸 푸시 알림 도착에 대한 프레젠테이션 또는 컨텐츠를 수정할 수 있습니다. 예를 들어, 사용자는 가변 콘텐츠를 활용하여 다음을 수행할 수 있습니다. <br /> 
     <ul> 
      <li> 암호화된 형식으로 전달된 데이터 해독 </li> 
      <li> 이미지 또는 기타 미디어 파일을 다운로드하고 알림에 첨부 파일로 추가 </li> 
@@ -475,7 +473,7 @@ Campaign 인터페이스의 상황별 도움말 링크를 사용할 때 일부 �
   </tr> 
   <tr> 
    <td> 시간대에 최적화된 게재<br /> </td> 
-   <td> 반복 이메일, SMS 및 푸시 알림을 모든 수신자의 시간대에 특정 일/시간에 게재하도록 예약하여 여러 게재를 설정하지 않고도 적절한 시간에 메시지가 전달되도록 합니다. <br /> 자세한 내용은 <a href="../../automating/using/scheduler.md">세부 설명서</a>를 참조하십시오.<br /> </td> 
+   <td> 반복 이메일, SMS 및 푸시 알림을 모든 수신자의 시간대에 특정 일/시간에 게재하도록 예약하여 여러 게재를 설정하지 않고도 적절한 시간에 메시지가 전달되도록 합니다. <br /> 자세한 내용은 <a href="../../automating/using/scheduler.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> API 신호 활동 트리거<br /> </td> 

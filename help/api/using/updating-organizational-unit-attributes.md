@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 조직 단위 특성 업데이트
 description: 조직 단위 특성을 업데이트하는 방법 알아보기
 audience: developing
@@ -9,19 +7,18 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 90841afd-ebc2-4b6a-895e-a96ef65740d7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 12%
+source-wordcount: '84'
+ht-degree: 11%
 
 ---
-
 
 # 조직 단위 특성 업데이트 {#updating-organizational-unit-attributes}
 
 1. **orgUnitBase** 리소스에서 GET 요청을 수행하여 조직 단위 PKey를 검색합니다.
-1. 페이로드에서 업데이트할 특성을 사용하여 조직 단위에 대해 PATCH 요청을 수행합니다.
+1. 페이로드에서 업데이트할 특성을 사용하여 조직 단위에 대한 PATCH 요청을 수행합니다.
 
 <br/>
 
@@ -53,7 +50,7 @@ ht-degree: 12%
 },
 ```
 
-페이로드에서 업데이트할 특성을 사용하여 조직 단위에 대해 PATCH 요청을 수행합니다.
+페이로드에서 업데이트할 특성을 사용하여 조직 단위에 대한 PATCH 요청을 수행합니다.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

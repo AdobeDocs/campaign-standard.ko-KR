@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 쿼리 샘플
-description: 이 섹션에서는 쿼리 활동을 사용할 때의 사용 사례를 보여 줍니다.
+description: 이 섹션에서는 쿼리 활동을 사용할 때의 사용 사례를 제공합니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,18 +8,17 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 89%
+source-wordcount: '334'
+ht-degree: 90%
 
 ---
 
-
 # 쿼리 샘플 {#query-samples}
 
-이 섹션에서는 **[!UICONTROL Query]** 활동을 사용할 때의 사용 사례를 보여 줍니다. **[!UICONTROL Query]** 활동 사용 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/query.md)을 참조하십시오.
+이 섹션에서는 **[!UICONTROL Query]** 활동을 사용할 때 사용 사례를 제공합니다. **[!UICONTROL Query]** 활동을 사용하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/query.md)을 참조하십시오.
 
 ## 단순 프로필 속성에 대한 타겟팅 {#targeting-on-simple-profile-attributes}
 

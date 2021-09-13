@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 랜딩 페이지 공유
 description: Adobe Campaign에서 랜딩 페이지를 테스트하고 게시하는 방법을 알아봅니다.
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: 랜딩 페이지
+feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: af849377-686f-45b3-bf6e-5069a8966987
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '383'
 ht-degree: 100%
 
 ---

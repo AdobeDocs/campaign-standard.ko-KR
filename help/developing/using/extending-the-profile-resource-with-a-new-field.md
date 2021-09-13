@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 새 필드로 프로필 리소스 확장
 description: 프로필 리소스를 확장하는 방법을 알아봅니다.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: use-cases--extending-resources
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 99%
+source-wordcount: '1022'
+ht-degree: 100%
 
 ---
-
 
 # 새 필드로 프로필 리소스 확장{#extending-the-profile-resource-with-a-new-field}
 
@@ -39,7 +36,7 @@ ht-degree: 99%
 
 관련 항목:
 
-* [사용자 지정 리소스 기본 정보](../../developing/using/data-model-concepts.md)
+* [사용자 정의 리소스 기본 정보](../../developing/using/data-model-concepts.md)
 * [프로필 관리](../../audiences/using/about-profiles.md)
 * [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
 

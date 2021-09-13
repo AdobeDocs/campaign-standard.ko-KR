@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 외부 데이터로 데이터베이스 업데이트
-description: 이 사용 사례에서는 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로파일을 추가하거나 업데이트하는 방법을 설명합니다.
+description: 이 사용 사례에서는 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 방법을 설명합니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,20 +8,19 @@ context-tags: writer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 32%
+source-wordcount: '106'
+ht-degree: 33%
 
 ---
 
-
 # 외부 데이터로 데이터베이스 업데이트 {#update-database-file}
 
-다음 예는 **[!UICONTROL Load file]** 활동 다음에 오는 **[!UICONTROL Update data]** 활동의 구성을 보여줍니다. 이 워크플로우의 목적은 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 것입니다.
+다음 예제에서는 **[!UICONTROL Load file]** 활동 다음에 나오는 **[!UICONTROL Update data]** 활동의 구성을 보여줍니다. 이 워크플로우의 목적은 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 것입니다.
 
-이 예에서 사용된 조정 키는 **이메일 주소**&#x200B;입니다. [Load file](../../automating/using/load-file.md) 활동에 로드된 파일은 다음 예제 데이터를 포함하는 **.txt** 형식 파일입니다.
+이 예제에서 사용되는 조정 키는 **전자 메일 주소**&#x200B;입니다. [파일 로드](../../automating/using/load-file.md) 활동에 로드된 파일은 다음 예제 데이터가 포함된 **.txt** 형식 파일입니다.
 
 ```
 lastname;firstname;email;birthdate

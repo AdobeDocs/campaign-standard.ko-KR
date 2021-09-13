@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 조정을 사용한 데이터 업데이트
 description: 다음 예제에서는 새로운 고객을 포함하는 파일을 가져와 직접 대상자 프로필을 만드는 워크플로우를 보여줍니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 66%
+source-wordcount: '128'
+ht-degree: 67%
 
 ---
-
 
 # 조정을 사용한 데이터 업데이트 {#data-update-reconciliation}
 
@@ -25,7 +22,7 @@ ht-degree: 66%
 
 ![](assets/identification_example2.png)
 
-* 가져올 파일의 데이터를 로드하고 검색하는 [파일 ](../../automating/using/load-file.md) 활동 가져온 파일에는 다음 데이터가 포함됩니다.
+* 가져올 파일의 데이터를 로드하여 감지하는 [파일 로드](../../automating/using/load-file.md) 활동. 가져온 파일에는 다음 데이터가 포함됩니다.
 
    ```
    lastname;firstname;email;dateofbirth
@@ -40,10 +37,10 @@ ht-degree: 66%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* 로드된 파일의 각 열을 프로필 차원 열에 연결하는 [조정](../../automating/using/reconciliation.md) 활동. 식별할 수 없는 파일 레코드(데이터 누락, 호환되지 않는 데이터 형식 등)는 최종 대상자 데이터의 무결성을 유지하기 위해 무시됩니다.
+* [조정](../../automating/using/reconciliation.md) 활동은 로드된 파일의 각 열을 프로필 차원 열에 연결합니다. 식별할 수 없는 파일 레코드(데이터 누락, 호환되지 않는 데이터 형식 등)는 최종 대상자 데이터의 무결성을 유지하기 위해 무시됩니다.
 
    ![](assets/identification_example1.png)
 
-* 프로필 대상자를 저장하는 [대상 저장](../../automating/using/save-audience.md) 활동.
+* 대상자 저장](../../automating/using/save-audience.md) 활동을 통해 프로필 대상자를 저장합니다.[
 
    ![](assets/identification_example3.png)

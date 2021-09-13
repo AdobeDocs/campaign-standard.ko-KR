@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 지표 계산
 description: 모든 지표의 공식 목록을 사용하여 보고서 결과를 이해합니다.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: 보고
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
-source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '726'
 ht-degree: 2%
 
 ---

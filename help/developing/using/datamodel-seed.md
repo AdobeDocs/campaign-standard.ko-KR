@@ -1,23 +1,20 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: DataModel
-description: 데이터 모델에 대한 자세한 내용
+title: 데이터 모델
+description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '171'
 ht-degree: 10%
 
 ---
 
-
-# 시드 멤버(nms:seedMember)
+# 초기 멤버(nms:seedMember)
 
 ## 개체 설명
 
@@ -31,43 +28,43 @@ ht-degree: 10%
                <tr>
                   <td>PKey</td>
                   <td>기본 리소스 ID</td>
-                  <td>문자열 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>국가(국가)</td>
                   <td>국가</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
-                  <td>작성일</td>
-                  <td>date </td>
+                  <td>생성됨</td>
+                  <td>생성됨</td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy(userBase)</td>
                   <td>작성자</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>desk</td>
+                  <td>desc</td>
                   <td>설명</td>
                   <td>문자열(512)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>email</td>
+                  <td>이메일</td>
                   <td>이메일</td>
                   <td>문자열(128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>emailRendering</td>
-                  <td>전자 메일 렌더링</td>
-                  <td>boolean </td>
+                  <td>이메일 렌더링</td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -78,26 +75,26 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
-                  <td>지리적 단위</td>
-                  <td>link </td>
+                  <td>지리 단위</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>외부 리소스임</td>
-                  <td>boolean </td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>마지막으로 수정한 날짜</td>
-                  <td>date </td>
+                  <td>마지막 수정 날짜</td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>위치</td>
                   <td>위치</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -109,7 +106,7 @@ ht-degree: 10%
                <tr>
                   <td>mobileApp</td>
                   <td>모바일 애플리케이션</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -119,13 +116,13 @@ ht-degree: 10%
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifiedBy (userBase)</td>
-                  <td>수정한 사람:</td>
-                  <td>link </td>
+                  <td>modifiedBy(userBase)</td>
+                  <td>수정한 사람</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>name</td>
+                  <td>이름</td>
                   <td>ID</td>
                   <td>문자열(64)</td>
                   <td> </td>
@@ -133,23 +130,23 @@ ht-degree: 10%
                <tr>
                   <td>nms_recipient</td>
                   <td>프로필</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
                   <td>이벤트</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
                   <td>조직 단위</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>전화</td>
+                  <td>phone</td>
                   <td>전화</td>
                   <td>문자열(32)</td>
                   <td> </td>
@@ -157,7 +154,7 @@ ht-degree: 10%
                <tr>
                   <td>증명</td>
                   <td>증명</td>
-                  <td>boolean </td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -175,7 +172,7 @@ ht-degree: 10%
                <tr>
                   <td>sampleData</td>
                   <td>샘플 데이터</td>
-                  <td>boolean </td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -185,15 +182,15 @@ ht-degree: 10%
                   <td> </td>
                </tr>
                <tr>
-                  <td>stateLink(상태)</td>
-                  <td>주</td>
-                  <td>link </td>
+                  <td>stateLink (state)</td>
+                  <td>주/도</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetData</td>
                   <td>확장</td>
-                  <td>문자열 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
@@ -211,14 +208,14 @@ ht-degree: 10%
                <tr>
                   <td>트랩</td>
                   <td>트랩</td>
-                  <td>boolean </td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
             </table>
 
 ## 필터
 
-이벤트 유형(byEventType)
+이벤트 유형(byEventType) 기준
 
 <table>
         <tr>
@@ -227,11 +224,11 @@ ht-degree: 10%
         </tr>
         <tr>
         <td>eventType</td>
-        <td>문자열</td>
+        <td>string</td>
         </tr>
     </table>
 
-이름 또는 레이블별(텍스트별)
+이름 또는 레이블별(byText)
 
 <table>
         <tr>
@@ -240,11 +237,11 @@ ht-degree: 10%
         </tr>
         <tr>
         <td>텍스트</td>
-        <td>문자열</td>
+        <td>string</td>
         </tr>
     </table>
 
-사용별(사용별)
+사용 기준(사용 기준)
 
 <table>
         <tr>
@@ -253,15 +250,15 @@ ht-degree: 10%
         </tr>
         <tr>
         <td>트랩</td>
-        <td>boolean</td>
+        <td>부울</td>
         </tr>
         <tr>
         <td>emailRendering</td>
-        <td>boolean</td>
+        <td>부울</td>
         </tr>
         <tr>
         <td>증명</td>
-        <td>boolean</td>
+        <td>부울</td>
         </tr>
     </table>
 
@@ -274,6 +271,6 @@ ht-degree: 10%
     </tr>
     <tr>
     <td>seedMember</td>
-    <td>link</td>
+    <td>링크</td>
     </tr>
 </table>

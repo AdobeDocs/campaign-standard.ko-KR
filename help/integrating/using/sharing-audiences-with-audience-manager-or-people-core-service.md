@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Audience Manager 또는 People 핵심 서비스와 대상자 공유
 description: 다양한 Adobe Experience Cloud 솔루션 내에서 대상자를 가져오거나 내보내는 방법을 알아봅니다.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: 사용자 핵심 서비스 통합
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
 
 # Audience Manager 또는 People 핵심 서비스와 대상자 공유{#sharing-audiences-with-audience-manager-or-people-core-service}
 
-## 대상 {#importing-an-audience} 가져오기
+## 대상자 가져오기 {#importing-an-audience}
 
 사용자 핵심 서비스 통합을 사용하면 기술 워크플로우를 통해 대상자를 Adobe Campaign에 직접 가져와서 데이터베이스를 보강할 수 있습니다. People 핵심 서비스의 대상 공유에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)를 참조하십시오.
 
@@ -49,7 +47,7 @@ Adobe Campaign의 People 핵심 서비스에서 대상/세그먼트를 가져오
 >
 >Adobe Analytics에서 Adobe Campaign으로 대상자를 가져오는 경우, 이러한 대상자는 먼저 People 핵심 서비스 또는 Audience Manager에서 공유해야 합니다. 이 프로세스는 12-24시간이 걸리며, Campaign과의 24-36시간 동기화에 추가해야 합니다. 이 경우 대상 공유 기간은 최대 60시간까지 될 수 있습니다. 사용자 핵심 서비스 및 Audience Manager에서 Adobe Analytics 대상 공유에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)를 참조하십시오.
 
-## 대상 {#exporting-an-audience} 내보내기
+## 대상 내보내기 {#exporting-an-audience}
 
 워크플로우 및 **[!UICONTROL Save audience]** 활동을 사용하여 대상을 Adobe Campaign에서 Audience Manager 또는 People 핵심 서비스로 내보낼 수 있습니다.
 

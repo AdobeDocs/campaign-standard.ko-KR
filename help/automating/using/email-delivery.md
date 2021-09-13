@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 이메일 게재
 description: 이메일 게재 활동을 통해 워크플로우에서 단일 이메일 또는 반복 이메일 전송을 구성할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: delivery,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '857'
 ht-degree: 94%
 
 ---
-
 
 # 이메일 게재{#email-delivery}
 
@@ -49,7 +46,7 @@ ht-degree: 94%
 * [사용 사례: 위치별로 분류된 게재 만들기](../../automating/using/workflow-segmentation-location.md)
 * [사용 사례: 보충 자료로 게재 만들기](../../automating/using/workflow-created-query-with-complement.md)
 * [사용 사례: 열지 않은 사용자에게 새 게재를 보내는 워크플로우 재타겟팅](../../automating/using/workflow-cross-channel-retargeting.md)
-* [사용 사례:생일 배달](../../automating/using/birthday-delivery.md)
+* [사용 사례: 생일 게재](../../automating/using/birthday-delivery.md)
 
 ## 구성 {#configuration}
 
@@ -68,7 +65,7 @@ ht-degree: 94%
       예를 들어 매일 전송되는 반복 생일 이메일의 경우 월별 전송을 집계하도록 선택할 수 있습니다. 이렇게 하면 이메일이 매일 전송되지만 매월 게재 보고서를 받을 수 있습니다.
    >[!NOTE]
    >
-   >반복 배달은 **집계 기간**&#x200B;을 기반으로 준비됩니다. 예를 들어 합계 기간이 &quot;일 기준&quot;인 경우 하루 한 번만 배달이 다시 준비됩니다. 이 작업 과정을 하루에 여러 번 호출하려는 경우 [!UICONTROL No aggregation]을(를) 사용하십시오.
+   >반복 게재는 **집계 기간**&#x200B;을 기반으로 준비됩니다. 예를 들어 합계 기간이 &quot;일별&quot;인 경우 게재는 하루에 한 번만 다시 준비됩니다. 이 워크플로우를 하루에 여러 번 호출하려면 [!UICONTROL No aggregation] 을 사용하십시오.
 
 1. 이메일 유형을 선택합니다. 이메일 유형은 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 메뉴에 정의된 이메일 템플릿에서 가져옵니다.
 1. 이메일의 일반 속성을 입력합니다. 기존 캠페인에 첨부할 수도 있습니다. 워크플로우의 게재 활동의 레이블은 이메일 레이블로 업데이트됩니다.

@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 파일에서 여러 구독 상태 업데이트
-description: 이 사용 사례는 프로필이 포함된 파일을 가져오고 파일에 지정된 여러 서비스에 대한 해당 구독을 업데이트하는 방법을 보여줍니다.
+description: 이 사용 사례에서는 프로필이 포함된 파일을 가져오고 파일에 지정된 여러 서비스에 대한 구독을 업데이트하는 방법을 보여줍니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,14 +8,13 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '417'
 ht-degree: 76%
 
 ---
-
 
 # 파일에서 여러 구독 상태 업데이트 {#updating-multiple-subscription-statuses-from-a-file}
 
@@ -27,7 +24,7 @@ ht-degree: 76%
 
 ![](assets/subscription_activity_example1.png)
 
-* [Load file](../../automating/using/load-file.md) 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다.
+* [파일 로드](../../automating/using/load-file.md) 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다.
 
    이 예제에서 로드된 파일은 .csv 형식으로 되어 있으며 다음 데이터를 포함합니다.
 
@@ -60,11 +57,11 @@ ht-degree: 76%
 
    ![](assets/subscription_example_service_relation.png)
 
-* 조정을 통해 발생한 임시 리소스의 **이메일** 필드를 기반으로 한 [중복 제거](../../automating/using/deduplication.md)는 중복을 식별합니다. 중복되는 경우 모든 데이터에 대한 서비스 구독이 실패하므로 중복을 제거하는 것이 중요합니다.
+* 임시 리소스의 **이메일** 필드를 기반으로 한 [중복 제거](../../automating/using/deduplication.md)는(조정 결과) 중복을 식별합니다. 중복되는 경우 모든 데이터에 대한 서비스 구독이 실패하므로 중복을 제거하는 것이 중요합니다.
 
    ![](assets/subscription_activity_example5.png)
 
-* [구독 서비스](../../automating/using/subscription-services.md) 활동은 **[!UICONTROL Reconciliation]** 활동에 생성된 링크를 통해 전환에서 온 것으로 업데이트할 서비스를 식별합니다.
+* [구독 서비스](../../automating/using/subscription-services.md) 활동은 **[!UICONTROL Reconciliation]** 활동에서 생성된 링크를 통해 업데이트할 서비스를 전환에서 나온 것으로 식별합니다.
 
    **[!UICONTROL Operation type]**&#x200B;은(는) 파일의 **작업** 필드에서 나온 것으로 식별됩니다. 여기에서는 부울 또는 정수 필드만 선택할 수 있습니다. 수행할 작업이 포함된 파일의 열이 목록에 표시되지 않는 경우 이 예제의 앞부분에서 설명한 대로 **[!UICONTROL Load file]** 활동에서 열 형식을 올바르게 설정했는지 확인하십시오.
 

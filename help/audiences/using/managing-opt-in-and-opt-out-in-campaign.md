@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign에서 옵트인 및 옵트아웃 관리
 description: Adobe Campaign에서 옵트인 및 옵트아웃을 관리하는 방법을 이해합니다.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: 대상자
+feature: Audiences
 role: User
 level: Intermediate
 exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 9%
+source-wordcount: '309'
+ht-degree: 8%
 
 ---
 

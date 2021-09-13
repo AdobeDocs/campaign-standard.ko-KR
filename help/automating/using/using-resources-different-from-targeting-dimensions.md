@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 타겟팅 차원과 다른 리소스 사용
-description: 타깃팅 차원과 다른 리소스를 사용하는 방법을 알아봅니다.
+title: 타기팅 차원과 다른 리소스 사용
+description: 타겟팅 차원과 다른 리소스를 사용하는 방법을 알아봅니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,20 +8,19 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '293'
 ht-degree: 81%
 
 ---
 
+# 타기팅 차원과 다른 리소스 사용 {#using-resources-different-from-targeting-dimensions}
 
-# 타겟팅 차원과 다른 리소스 사용 {#using-resources-different-from-targeting-dimensions}
+이 사용 사례에서는 타겟팅 차원과 다른 리소스를 사용하여 떨어진 테이블에서 특정 레코드를 찾는 방법을 설명합니다.
 
-이 사용 사례에서는 타깃팅 차원과 다른 리소스를 사용하여 멀리 있는 테이블에서 특정 레코드를 찾는 방법을 보여줍니다.
-
-차원 및 리소스 타깃팅에 대한 자세한 내용은 [이 섹션](../../automating/using/query.md#targeting-dimensions-and-resources)을 참조하십시오.
+타겟팅 차원 및 리소스에 대한 자세한 내용은 [이 섹션](../../automating/using/query.md#targeting-dimensions-and-resources)을 참조하십시오
 
 **예제 1: &quot;Welcome back !&quot;이라는 레이블이 있는 게재가 타겟팅한 프로필 확인**.
 

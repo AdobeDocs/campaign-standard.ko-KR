@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 시작 및 종료
 description: 시작 및 종료 활동을 사용하면 워크플로우의 시작과 끝을 명확하게 표시할 수 있습니다.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 100%
 
 ---
-
 
 # 시작 및 종료{#start-and-end}
 
@@ -51,4 +48,3 @@ ht-degree: 98%
 다음 예제에서는 복잡한 워크플로우를 **[!UICONTROL Start]** 활동 하나와 **[!UICONTROL End]** 활동 여러 개로 실행하는 방법을 보여줍니다. 첫 번째 **[!UICONTROL End]** 활동에 대해 **[!UICONTROL Stop all tasks in progress]** 상자를 선택했습니다. 해당 작업이 완료되면 전체 워크플로우가 중지됩니다. 이는 ![](assets/stop_darkgrey-24px.png) 버튼을 선택한 것과 동일한 효과를 냅니다([작업 표시줄](../../automating/using/workflow-interface.md#action-bar) 섹션 참조).
 
 ![](assets/wkf_start_end_example.png)
-

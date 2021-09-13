@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 보내기 전 확인
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"메시지가 준비되면 보내기 전에 모든 검사를 수행하는 방법을 배웁니다."'
-feature: 전달성
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 16%
+source-wordcount: '410'
+ht-degree: 15%
 
 ---
 

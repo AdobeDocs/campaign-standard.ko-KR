@@ -1,27 +1,24 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 프로필의 지리 단위 검색
-description: API를 사용하여 프로필의 지리적 단위를 검색하는 방법을 알아봅니다.
+description: API를 사용하여 프로필의 지리 단위를 검색하는 방법을 알아봅니다.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 313dbb7f-9cf7-43d4-ab6d-f496b04d92b8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 13%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
-
 # 프로필의 지리 단위 검색 {#retrieving-geographical-unit}
 
-1. 프로파일 PKey에서 GET 요청을 수행하여 **geoUnit** URL을 검색합니다.
-1. 지리학적 단위에 대한 자세한 내용을 검색하려면 URL에 GET 요청을 수행합니다.
+1. 프로필 PKey에 GET 요청을 수행하여 **geoUnit** URL을 검색합니다.
+1. URL에서 GET 요청을 수행하여 지리적 단위에 대한 자세한 내용을 검색합니다.
 
 <br/>
 
@@ -51,7 +48,7 @@ ht-degree: 13%
 }
 ```
 
-자세한 정보를 검색하려면 URL에 GET 요청을 수행합니다.
+자세한 정보를 검색하려면 URL에 GET 요청을 수행하십시오.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
@@ -61,7 +58,7 @@ ht-degree: 13%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-지리적 단위에 대한 세부 사항을 반환합니다.
+지리 단위에 대한 세부 사항을 반환합니다.
 
 ```
 {

@@ -1,15 +1,13 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 구독 기본 정보
 description: Campaign Standard의 서비스 및 구독에 대해 자세히 알아봅니다.
-feature: 대상자
+feature: Audiences
 role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '220'
 ht-degree: 40%
 
 ---

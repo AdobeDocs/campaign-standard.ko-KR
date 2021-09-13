@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign-Target 통합 기본 정보
 description: Adobe Target 통합을 사용하면 Adobe Target에서 생성한 다이내믹 이미지를 Adobe Campaign 메시지에 삽입할 수 있습니다.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-feature: 트리거
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 4%
+source-wordcount: '164'
+ht-degree: 3%
 
 ---
 
@@ -27,6 +25,6 @@ Adobe Target에서는 몇 가지 유형의 데이터를 사용할 수 있습니�
 
 * Adobe Campaign 데이터 마트의 데이터
 * 사용된 데이터에 법적 제한이 없는 경우 Adobe Target의 방문자 ID에 연결된 세그먼트는
-* Adobe Target 데이터:사용자 에이전트, IP 주소, 지리화 데이터
+* Adobe Target 데이터: 사용자 에이전트, IP 주소, 지리화 데이터
 
 Adobe Campaign과 Adobe Target 간의 통합에 대한 자세한 내용은 [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)을 참조하십시오.

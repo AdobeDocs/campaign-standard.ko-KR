@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 고급 표현식 편집
 description: 쿼리 편집 마법사를 사용하여 고급 표현식을 정의할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1092'
 ht-degree: 98%
 
 ---
-
 
 # 고급 표현식 편집{#advanced-expression-editing}
 
@@ -193,24 +190,23 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">비슷함</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> 해당 없음<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> <span class="uicontrol">비슷함</span>은 <span class="uicontrol">포함</span> 연산자와 매우 유사합니다. 검색 중인 값에 <span class="uicontrol">%</span> 와일드카드 문자를 삽입할 수 있습니다.<br /> </td> 
    <td> <strong>@lastName LIKE Mart%n</strong>. 여기서 대체 문자 <strong>%</strong> 는 철자가 틀린 가상의 사례에서 이름 "Martin"을 찾기 위해 "조커" 역할을 합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비슷하지 않음</span> <br /> </td> 
    <td> NOT<br /> </td> 
-   <td> 해당 없음<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> <span class="uicontrol">비슷함</span>과 유사합니다. 입력한 값을 복구할 수 없습니다. 여기서도 입력한 값은 <span class="uicontrol">%</span> 와일드카드 문자를 포함해야 합니다.<br /> </td> 
    <td> <strong>@lastName NOT Smi%h</strong>. 여기에서 이름 'Smi%h'(Smith 등)에 해당하는 수신자는 결과로 반환되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비어 있음</span> <br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> 해당 없음<br /> </td> 
+   <td> N/A<br /> </td> 
    <td> 첫 번째 값은 빈 값에 해당해야 합니다.<br /> </td> 
    <td> <strong>@mobilePhone IS NULL</strong>은 휴대전화 번호가 제공되지 않은 모든 프로필을 검색합니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
-

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: SMS 채널 구성
 description: '"라우팅, 인코딩, 포맷, 고급 속성의 SMS 구성 단계를 살펴봅니다. "'
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: 인스턴스 설정
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1565'
 ht-degree: 95%
 
 ---

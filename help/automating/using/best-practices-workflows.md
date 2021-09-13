@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 워크플로우 모범 사례
 description: 워크플로우에 모범 사례를 적용하는 방법을 배웁니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,overview;workflow,main
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83
+exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1179'
 ht-degree: 84%
 
 ---
-
 
 # 워크플로우 모범 사례{#workflow-best-practices}
 
@@ -50,12 +47,12 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 
 ### 워크플로우의 수
 
-기본적으로 20개 이상의 활성 워크플로우 실행을 동시에 작업하지 않는 것이 좋습니다. 한계에 이르면 워크플로우가 성능에 영향을 주지 않도록 큐에 대기 됩니다. 마찬가지로 Adobe은 시간에 따라 워크플로우 실행을 분산시킬 것을 권장합니다.
+기본적으로 20개 이상의 활성 워크플로우 실행을 동시에 작업하지 않는 것이 좋습니다. 한계에 이르면 워크플로우가 성능에 영향을 주지 않도록 큐에 대기 됩니다. 마찬가지로 Adobe은 시간에 따라 워크플로우 실행을 분산하는 것을 권장합니다.
 특정 컨텍스트에서는 20개 이상의 워크플로우를 실행해야 할 수 있습니다. 예약된 실행을 기다리는 워크플로우에는 적용되지 않습니다.  이 경우 캠페인 전문가와 사용 사례를 확인하고 Adobe 고객 지원 센터에 문의하여 한도를 늘려야 합니다.
 
 >[!NOTE]
 >
->워크플로우를 시작하기 전에 [!DNL Campaign Standard]에서 워크플로우를 실행할 수 있는 시스템 실제 메모리가 충분한지 확인합니다. 사용 가능한 메모리가 부족하면 서버의 로드가 줄어들고 시스템 메모리가 증가할 때까지 워크플로 실행이 지연된다는 메시지가 표시됩니다.
+>워크플로우를 시작하기 전에 [!DNL Campaign Standard]에서 워크플로우를 실행할 시스템 실제 메모리가 충분한지 확인합니다. 사용 가능한 메모리가 충분하지 않으면 서버의 로드가 중지되고 시스템 메모리가 증가할 때까지 워크플로우 실행이 지연된다는 메시지가 표시됩니다.
 
 ### 빈도
 
@@ -78,13 +75,13 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 
 ## 활동{#activity}
 
-### 작업 과정당 활동 수 {#number-activities}
+### 워크플로우당 활동 수 {#number-activities}
 
-단일 워크플로우에는 최대 100개의 활동을 사용하는 것이 좋습니다. 100개 이상의 활동에서 워크플로우를 설계 및 구성할 때 일부 성능 문제가 발생할 수 있습니다.
+최대 100개의 활동을 단일 워크플로우에 사용하는 것이 좋습니다. 100개 이상의 활동이 워크플로우를 설계 및 구성할 때 일부 성능 문제가 발생할 수 있습니다.
 
 ### 워크플로우 디자인
 
-워크플로우가 제대로 종료되도록 하려면 **[!UICONTROL End activity]**&#x200B;을 사용하여 워크플로우의 마지막 전환을 자체적으로 종료하지 마십시오.
+워크플로우가 제대로 종료되도록 하려면 **[!UICONTROL End activity]** 을 사용하여 워크플로우의 마지막 전환을 그대로 두지 마십시오.
 
 전환의 세부 사항 보기에 액세스하려면 워크플로우 속성의 실행 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택합니다.
 
@@ -113,11 +110,11 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 
 자세한 내용은 [스케줄러 활동](../../automating/using/scheduler.md)을 참조하십시오.
 
-여러 활동이 포함된 예약된 워크플로우를 디자인할 때 작업이 완료될 때까지 워크플로우의 일정을 조정하지 않아야 합니다. 이렇게 하려면 이전에 수행한 하나 이상의 작업이 아직 보류 중일 때 해당 작업을 실행하지 않도록 워크플로우를 구성해야 합니다. 자세한 정보는 이 [페이지](../../automating/using/scheduled-workflows-execution.md)를 참조하십시오.
+여러 활동이 포함된 예약된 워크플로우를 디자인할 때는 워크플로우가 완료될 때까지 워크플로우의 일정이 조정되지 않도록 해야 합니다. 이렇게 하려면 이전에 실행한 하나 이상의 작업이 아직 보류 중인 경우 실행을 방지하기 위해 워크플로우를 구성해야 합니다. 자세한 정보는 이 [페이지](../../automating/using/scheduled-workflows-execution.md)를 참조하십시오.
 
 ## 매개 변수를 사용한 워크플로우 호출{#workflow-with-parameters}
 
-워크플로 호출 시 정의된 매개 변수의 이름 및 개수가 동일한지 확인하십시오([이 페이지](../../automating/using/defining-parameters-calling-workflow.md) 참조). 매개 변수의 유형은 예상 값과 일치해야 합니다.
+워크플로우 호출 시 정의된 매개 변수의 이름 및 개수가 동일한지 확인합니다( [이 페이지](../../automating/using/defining-parameters-calling-workflow.md) 참조). 매개 변수의 유형은 예상 값과 일치해야 합니다.
 
 **[!UICONTROL External signal activity]**&#x200B;에서 모든 매개 변수가 선언되었는지 확인합니다. 그렇지 않으면 활동을 실행할 때 오류가 발생합니다.
 

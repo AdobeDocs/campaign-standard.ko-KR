@@ -1,23 +1,20 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: DataModel
-description: 데이터 모델에 대한 자세한 내용
+title: 데이터 모델
+description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '687'
 ht-degree: 6%
 
 ---
 
-
-# 배달(nms:배달)
+# 배달(nms:delivery)
 
 ## 개체 설명
 
@@ -31,102 +28,102 @@ ht-degree: 6%
                <tr>
                   <td>FCP</td>
                   <td>증명</td>
-                  <td>boolean </td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>기본 리소스 ID</td>
-                  <td>문자열 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>abTesting</td>
                   <td>A/B 테스트</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>advanced</td>
-                  <td>고급 전달</td>
-                  <td>boolean </td>
+                  <td>고급</td>
+                  <td>고급 게재</td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>advancedParameters</td>
                   <td>고급 매개 변수</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Adobe Experience Manager 컨텐츠</td>
-                  <td>collection </td>
+                  <td>Adobe Experience Manager 콘텐츠</td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>alertMessage</td>
                   <td>경고 메시지</td>
-                  <td>문자열 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>alertMode</td>
                   <td>경고 유형</td>
-                  <td>문자열 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>첨부 파일</td>
-                  <td>첨부 파일</td>
-                  <td>collection </td>
+                  <td>첨부된 파일</td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>branding(brandingBase)</td>
+                  <td>브랜딩(brandingBase)</td>
                   <td>브랜드</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>broadLogs</td>
                   <td>게재 로그</td>
-                  <td>collection </td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>builtIn</td>
-                  <td>내장된 애플리케이션 객체</td>
-                  <td>boolean </td>
+                  <td>기본 제공</td>
+                  <td>기본 제공 애플리케이션 개체</td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>campaign(campaignBase)</td>
+                  <td>campaign (campaignBase)</td>
                   <td>캠페인</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>cmsAccount(extAccountAEMBase)</td>
                   <td>Adobe Experience Manager 계정</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>명령</td>
                   <td>명령</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>콘텐트</td>
+                  <td>콘텐츠</td>
                   <td>컨텐츠</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>contentSource</td>
-                  <td>콘텐츠 소스</td>
+                  <td>컨텐츠 소스</td>
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
@@ -139,29 +136,29 @@ ht-degree: 6%
                <tr>
                   <td>contextResourceType</td>
                   <td>리소스 유형</td>
-                  <td>문자열 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
-                  <td>작성일</td>
-                  <td>date </td>
+                  <td>생성됨</td>
+                  <td>생성됨</td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy(userBase)</td>
                   <td>작성자</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>deliveryMode</td>
-                  <td>배달 모드</td>
+                  <td>게재 모드</td>
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>대량 배달 - 대량 - 1</li>
-                        <li>중간 소싱 - midSourcing - 4</li>
+                        <li>대량 게재 - 벌크 - 1</li>
+                        <li>중간 소싱 - 중간 소싱 - 4</li>
                         <li>설명 - 설명 - 2</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                         <li>외부 - 외부 - 0</li>
@@ -171,11 +168,11 @@ ht-degree: 6%
                <tr>
                   <td>deliveryProvider(extAccountBase)</td>
                   <td>라우팅</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>desk</td>
+                  <td>desc</td>
                   <td>설명</td>
                   <td>문자열(512)</td>
                   <td> </td>
@@ -183,25 +180,25 @@ ht-degree: 6%
                <tr>
                   <td>emailPreview</td>
                   <td>이메일 미리 보기</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>excludeLogs</td>
                   <td>제외 로그</td>
-                  <td>collection </td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>제외</td>
                   <td>제외 원인</td>
-                  <td>collection </td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>실행</td>
-                  <td>배달 실행 매개 변수</td>
-                  <td>item </td>
+                  <td>게재 실행 매개 변수</td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -220,19 +217,19 @@ ht-degree: 6%
                <tr>
                   <td>forecastLogs</td>
                   <td>ForecastLog</td>
-                  <td>collection </td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
-                  <td>지리적 단위</td>
-                  <td>link </td>
+                  <td>지리 단위</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>hasAttachments</td>
-                  <td>첨부 파일 추가</td>
-                  <td>boolean </td>
+                  <td>첨부된 파일 추가</td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -241,16 +238,16 @@ ht-degree: 6%
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>트랜잭션 이메일 - EmailLightning - 60</li>
+                        <li>트랜잭션 이메일 - emailLightning - 60</li>
                         <li>팩스 - 팩스 - 4</li>
                         <li>모바일(SMS) - sms - 1</li>
-                        <li>반복 이메일 - 이메일 새로 고침 - 30</li>
-                        <li>DM - 종이 - 3</li>
+                        <li>반복 이메일 - e-메일 새로 고침 - 30</li>
+                        <li>DM - 용지 - 3</li>
                         <li>전화 - 전화 - 2</li>
                         <li>기타 - 기타 - 120</li>
-                        <li>반복 SMS - smsRefresh - 31</li>
-                        <li>모바일 애플리케이션 - 푸시 알림 - 40</li>
-                        <li>트랜잭션 SMS - smsLightning - 61</li>
+                        <li>반복 SMS - sms 새로 고침 - 31</li>
+                        <li>모바일 애플리케이션 - pushNotification - 40</li>
+                        <li>트랜잭션 SMS - sms 번개 - 61</li>
                         <li>이메일 - 이메일 - 0</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -259,43 +256,43 @@ ht-degree: 6%
                <tr>
                   <td>isExternal</td>
                   <td>외부 리소스임</td>
-                  <td>boolean </td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isMaster</td>
                   <td>기본</td>
-                  <td>boolean </td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>템플릿</td>
-                  <td>boolean </td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>반복</td>
                   <td>게재</td>
-                  <td>collection </td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>job</td>
                   <td>작업</td>
-                  <td>collection </td>
+                  <td>작업</td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>jobLogs</td>
                   <td>로그</td>
-                  <td>collection </td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>까피스</td>
+                  <td>kpi</td>
                   <td>지표</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -306,19 +303,19 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>마지막으로 수정한 날짜</td>
-                  <td>date </td>
+                  <td>마지막 수정 날짜</td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>실행 상태</td>
-                  <td>열거형(문자열)(255)</td>
+                  <td>열거형(문자열) (255)</td>
                   <td>
                      <ul>
                         <li>진행 중 - 시작됨 - 시작됨</li>
-                        <li>편집 - 에디션 - 에디션</li>
-                        <li>완료 - 완료 - 완료</li>
+                        <li>편집 - 편집 - 편집</li>
+                        <li>완료됨 - 완료됨 - 완료됨</li>
                         <li>경고 - 경고 - 경고</li>
                         <li>오류 - 오류 - 오류</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -327,32 +324,32 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>mailParameters</td>
-                  <td>이메일 헤더 매개 변수</td>
-                  <td>item </td>
+                  <td>전자 메일 헤더 매개 변수</td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mainDate</td>
                   <td>날짜</td>
-                  <td>date </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>매핑(deliveryMapping)</td>
                   <td>대상 매핑</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>master(deliveryBase)</td>
                   <td>기본 인스턴스</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpi</td>
-                  <td>기본 표시기</td>
-                  <td>item </td>
+                  <td>기본 지표</td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -365,21 +362,21 @@ ht-degree: 6%
                         <li>모바일(SMS) - sms - 1</li>
                         <li>이메일 - 이메일 - 0</li>
                         <li>전화 - 전화 - 2</li>
-                        <li>DM - 종이 - 3</li>
-                        <li>모바일 애플리케이션 - 푸시 알림 - 40</li>
+                        <li>DM - 용지 - 3</li>
+                        <li>모바일 애플리케이션 - pushNotification - 40</li>
                         <li>기타 - 기타 - 120</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>modifiedBy (userBase)</td>
-                  <td>수정한 사람:</td>
-                  <td>link </td>
+                  <td>modifiedBy(userBase)</td>
+                  <td>수정한 사람</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>name</td>
+                  <td>이름</td>
                   <td>ID</td>
                   <td>문자열(64)</td>
                   <td> </td>
@@ -387,61 +384,61 @@ ht-degree: 6%
                <tr>
                   <td>offerManagement</td>
                   <td>오퍼 관리</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
                   <td>조직 단위</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent(deliveryBase)</td>
-                  <td>상위 배달</td>
-                  <td>link </td>
+                  <td>상위 게재</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>우선 순위</td>
-                  <td>배달 우선 순위</td>
+                  <td>우선순위</td>
+                  <td>게재 우선 순위</td>
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
                         <li>높음 - 20</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
-                        <li>표준 - 일반 - 10</li>
+                        <li>일반 - 일반 - 10</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>program(programBase)</td>
+                  <td>프로그램(programBase)</td>
                   <td>프로그램</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>증명</td>
-                  <td>교정본</td>
-                  <td>collection </td>
+                  <td>증명</td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushNotificationPreview</td>
                   <td>푸시 알림 미리 보기</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>pushnotification매개 변수</td>
+                  <td>pushnotificationParameters</td>
                   <td>PushNotification 매개 변수</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
                   <td>실시간 보고서</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -453,31 +450,31 @@ ht-degree: 6%
                <tr>
                   <td>ribbonMessage</td>
                   <td>리본 메시지</td>
-                  <td>문자열 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>scenario</td>
-                  <td>배달 템플릿 매개 변수</td>
-                  <td>item </td>
+                  <td>시나리오</td>
+                  <td>게재 템플릿 매개 변수</td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>예약</td>
-                  <td>배달 예약</td>
-                  <td>item </td>
+                  <td>게재 예약</td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>smsParameters</td>
                   <td>SMS 매개 변수</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>smsPreview</td>
                   <td>SMS 미리 보기</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -486,43 +483,43 @@ ht-degree: 6%
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>시작 보류 중 - 시작 보류 중 - 51</li>
-                        <li>준비 완료 - 45</li>
-                        <li>대기 중 다시 시도 - 다시 시도 보류 중 - 61</li>
-                        <li>진행 중 다시 시도 - retryInProgress - 62</li>
+                        <li>시작 보류 - startPending - 51</li>
+                        <li>제공 준비 - 준비 - 45</li>
+                        <li>다시 시도 보류 - 다시 시도 보류 중 - 61</li>
+                        <li>다시 시도 진행 - retryInProgress - 62</li>
                         <li>실패 - 실패 - 87</li>
                         <li>진행 중 - 시작됨 - 55</li>
                         <li>타깃팅 보류 중 - targetPrepPending - 11</li>
                         <li>개인화 보류 중 - messagePrepPending - 21</li>
                         <li>일시 중지됨 - 일시 중지됨 - 75</li>
-                        <li>편집 - 에디션 - 0</li>
+                        <li>편집 - 편집 - 0</li>
                         <li>완료 - 완료 - 95</li>
-                        <li>진행 중 계산 - targetSelection - 12</li>
-                        <li>완료된 메시지 - messageReady - 25</li>
-                        <li>개인화 또는 계산 실패 - 준비오류 - 37</li>
+                        <li>진행 중 카운팅 - targetSelection - 12</li>
+                        <li>메시지 완료 - messageReady - 25</li>
+                        <li>개인화 또는 개수 실패 - preparationError - 37</li>
                         <li>중지됨 - 취소됨 - 85</li>
                         <li>개인화 진행 중 - messagePreparation - 22</li>
                         <li>Target 준비 - targetReady - 15</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
-                        <li>중재 진행 중 - targetArbitration - 13</li>
+                        <li>중재 진행 중 - targetRe중재 - 13</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>target</td>
-                  <td>전달 대상 인구</td>
-                  <td>item </td>
+                  <td>타겟</td>
+                  <td>게재 대상 모집단</td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>템플릿(deliveryTemplateSummary)</td>
-                  <td>배달 템플릿</td>
-                  <td>link </td>
+                  <td>게재 템플릿</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>축소판</td>
-                  <td>배달 축소판</td>
+                  <td>게재 축소판</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>
@@ -535,48 +532,48 @@ ht-degree: 6%
                <tr>
                   <td>추적</td>
                   <td>추적 매개 변수</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>trackingLogs</td>
                   <td>추적 로그</td>
-                  <td>collection </td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>trackingUrl</td>
                   <td>추적된 URL</td>
-                  <td>collection </td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>triggerMessage</td>
                   <td>트랜잭션 메시지의 매개 변수</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>유형 분류(유형 분류 기준)</td>
-                  <td>유형 분석</td>
-                  <td>link </td>
+                  <td>유형화(typologyBase)</td>
+                  <td>유형화</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflow(workflowBase)</td>
-                  <td>타깃팅 워크플로우</td>
-                  <td>link </td>
+                  <td>타겟팅 워크플로우</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflowStatus</td>
                   <td>워크플로우 상태</td>
-                  <td>열거형(문자열)(255)</td>
+                  <td>열거형(문자열) (255)</td>
                   <td>
                      <ul>
                         <li>진행 중 - 시작됨 - 시작됨</li>
-                        <li>편집 - 에디션 - 에디션</li>
-                        <li>완료 - 완료 - 완료</li>
+                        <li>편집 - 편집 - 편집</li>
+                        <li>완료됨 - 완료됨 - 완료됨</li>
                         <li>경고 - 경고 - 경고</li>
                         <li>오류 - 오류 - 오류</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -587,7 +584,7 @@ ht-degree: 6%
 
 ## 필터
 
-채널 유형별(채널별)
+채널 유형별로(채널별로)
 
 <table>
     <tr>
@@ -600,7 +597,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-실행 유형별(byExecutionType)
+실행 유형별로(byExecutionType)
 
 <table>
     <tr>
@@ -613,7 +610,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-논리 상태 기준(byLogicalStatus)
+논리 상태(byLogicalStatus) 기준
 
 <table>
     <tr>
@@ -626,7 +623,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-이름 또는 레이블별(텍스트별)
+이름 또는 레이블별(byText)
 
 <table>
     <tr>
@@ -635,11 +632,11 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>텍스트</td>
-    <td>문자열</td>
+    <td>string</td>
     </tr>
     <tr>
     <td>mc</td>
-    <td>문자열</td>
+    <td>string</td>
     </tr>
 </table>
 
@@ -652,11 +649,11 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>문자열</td>
+    <td>string</td>
     </tr>
 </table>
 
-기간 기준(byStartPeriod)
+기간별(byStartPeriod)
 
 <table>
     <tr>
@@ -665,15 +662,15 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>날짜</td>
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>문자열</td>
+    <td>string</td>
     </tr>
 </table>
 
-게시 상태 기준(byPublicationStatus)
+게시 상태(byPublicationStatus)별
 
 <table>
     <tr>
@@ -686,7 +683,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-상태별(주별)
+상태 기준(byState)
 
 <table>
     <tr>
@@ -699,7 +696,7 @@ ht-degree: 6%
     </tr>
 </table>
 
-후속 메시지(showFollow)
+후속 메시지(showFollowing)
 
 <table>
     <tr>
@@ -707,12 +704,12 @@ ht-degree: 6%
     <th>유형</th>
     </tr>
     <tr>
-    <td>팔로우</td>
-    <td>boolean</td>
+    <td>다음</td>
+    <td>부울</td>
     </tr>
 </table>
 
-고급 배달 포함(고급 포함)
+고급 게재 포함(고급 포함)
 
 <table>
     <tr>
@@ -720,12 +717,12 @@ ht-degree: 6%
     <th>유형</th>
     </tr>
     <tr>
-    <td>advanced</td>
-    <td>boolean</td>
+    <td>고급</td>
+    <td>부울</td>
     </tr>
 </table>
 
-이기종 목록에서 연속 배달 포함(연속 포함)
+이종 목록에서 연속적인 게재 포함(연속적 포함)
 
 <table>
     <tr>
@@ -734,11 +731,11 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>boolean</td>
+    <td>부울</td>
     </tr>
 </table>
 
-교정본 포함(FCP 포함)
+증명 포함(FCP 포함)
 
 <table>
     <tr>
@@ -747,11 +744,11 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>withFCP</td>
-    <td>boolean</td>
+    <td>부울</td>
     </tr>
 </table>
 
-주어진 기간 동안 계획(계획별)
+지정된 기간(계획별) 동안 계획됨
 
 <table>
     <tr>
@@ -760,15 +757,15 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>날짜</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>날짜</td>
     </tr>
 </table>
 
-주어진 기간(달력별) 동안 있음
+지정된 기간(달력) 동안 존재함
 
 <table>
     <tr>
@@ -777,11 +774,11 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>날짜</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>날짜</td>
     </tr>
 </table>
 
@@ -794,6 +791,6 @@ ht-degree: 6%
     </tr>
     <tr>
     <td>ob</td>
-    <td>boolean</td>
+    <td>부울</td>
     </tr>
 </table>

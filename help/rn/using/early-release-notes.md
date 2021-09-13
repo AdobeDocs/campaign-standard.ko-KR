@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 초기 릴리스 정보
 description: 초기 릴리스 정보
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 45%
+source-wordcount: '413'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +21,6 @@ ht-degree: 45%
 >[!CAUTION]
 >
 > 이 콘텐츠는 단계 환경 업그레이드일까지 사전 통지 없이 변경될 수 있습니다. 자세한 내용은 [릴리스 계획 페이지](../../rn/using/release-planning.md)를 참조하세요.
-
 
 ## 릴리스 21.3 - 2021년 9월 {#release-21-3---sept-2021}
 
@@ -62,13 +59,13 @@ ht-degree: 45%
 <tbody> 
 <tr> 
 <td>
-<p>새로운 감사 추적 기능은 Adobe Campaign 내에서 발생하는 작업 및 이벤트의 포괄적인 목록을 실시간으로 캡처합니다. 여기에는 다음과 같은 질문에 답변할 수 있도록 데이터 기록에 액세스하는 셀프서비스 방법이 포함되어 있습니다.</p>
+<p>새로운 감사 추적 기능은 Adobe Campaign 내에서 발생하는 작업 및 이벤트의 포괄적인 목록을 실시간으로 캡처합니다. 기능에는 다음과 같은 질문에 답변할 수 있도록 데이터 기록에 액세스하는 셀프서비스 방법이 포함되어 있습니다.</p>
 <ul>
-<li>이 워크플로우는 어떻게 되었으며 마지막으로 업데이트한 사람은 누구입니까?</li>
-<li>마지막 변경 사항은 누가 했습니까?</li>
+<li>이 워크플로우에 무슨 일이 발생했으며, 마지막으로 업데이트한 사람은 누구입니까?</li>
+<li>마지막으로 변경한 사람은 누구입니까?</li>
 <li>이전 상태는 무엇이었습니까?</li>
 </ul>
-<p>이제 Adobe Campaign은 다음에 대한 생성, 편집 및 삭제 작업을 감사합니다. 워크플로우, 옵션, 사용자 정의 리소스. 이러한 항목의 수정 사항도 추적됩니다.</p>
+<p>이제 Adobe Campaign은 워크플로우, 옵션, 사용자 정의 리소스에 대해 생성, 편집, 삭제 작업을 감사합니다. 이러한 항목의 수정 사항 역시 추적됩니다.</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -86,7 +83,7 @@ ht-degree: 45%
 <tbody> 
 <tr> 
 <td>
-<p>이제 진단 모드에서 Campaign 워크플로우를 실행할 수 있습니다. 이 모드는 실행 문제를 해결하는 데 도움이 되는 정보를 기록합니다. 워크플로우 쿼리가 기본적으로 1분 이상 걸리는 경우 전체 실행 계획이 기록됩니다.</p>
+<p>이제 진단 모드에서 Campaign 워크플로우를 실행할 수 있습니다. 이 모드는 실행 문제를 해결하는 데 도움이 되는 정보를 기록합니다. 워크플로우 쿼리가 기본적으로 1분 이상 걸리는 경우 전체 실행 플랜이 기록됩니다.</p>
 <!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
 </p>-->
 </td> 
@@ -102,7 +99,7 @@ ht-degree: 45%
 
 **패치**
 
-* URL에서 이메일 콘텐츠를 가져올 때 시간 초과 오류를 수정했습니다. (CAMP-49054)
+* URL에서 이메일 콘텐츠를 가져올 때 시간이 초과되는 오류를 수정했습니다. (CAMP-49054)
 * 책갈피가 지정된 URL에 액세스하거나 브라우저에서 페이지를 새로 고칠 때 세션 종료에 의해 발생하는 오류(-69)를 수정했습니다. (CAMP-49003, CAMP-48930, CAMP-48894)
-* 기존 게재 가능성 서버에서 새 게재 가능성 서버로 규칙을 동기화할 때 발생하는 문제를 해결했습니다. (CAMP-48923)
-* 이메일 디자이너에서 HTML 태그가 있는 이메일 템플릿을 로드할 때 발생하는 문제를 수정했습니다. (CAMP-48243)
+* 기존 게재 가능성 서버에서 새 게재 가능성 서버로 규칙을 동기화할 때 발생하는 문제를 수정했습니다. (CAMP-48923)
+* 이메일 Designer에서 HTML 태그가 있는 이메일 템플릿을 로드할 때 발생하는 문제를 수정했습니다. (CAMP-48243)

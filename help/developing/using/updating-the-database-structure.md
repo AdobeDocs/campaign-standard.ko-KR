@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 데이터베이스 구조 업데이트
 description: Adobe Campaign 데이터베이스를 업데이트하는 방법을 배웁니다.
 audience: developing
@@ -10,14 +8,13 @@ context-tags: deploy,main;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 98%
+source-wordcount: '735'
+ht-degree: 99%
 
 ---
-
 
 # 데이터베이스 구조 업데이트{#updating-the-database-structure}
 
@@ -33,7 +30,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->이벤트에 사용된 사용자 지정 리소스의 필드를 수정하거나 삭제하면 해당 이벤트의 게시는 자동으로 취소됩니다. [트랜잭션 이벤트](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)의 게시 취소를 참조하십시오.
+>이벤트에 사용된 사용자 지정 리소스의 필드를 수정하거나 삭제하면 해당 이벤트의 게시는 자동으로 취소됩니다. [트랜잭션 이벤트 게시 취소](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)를 참조하십시오.
 
 1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 다음 **[!UICONTROL Publishing]**&#x200B;을 선택합니다.
 1. 기본적으로 **[!UICONTROL Determine modifications since the last publication]** 옵션이 선택되어 있으므로 마지막 업데이트 이후 수행된 변경 사항만 적용됩니다.

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 내보내기 로그 감사
 description: 관리자는 Adobe Campaign에서 수행한 내보내기를 추적할 수 있습니다.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: 액세스 관리
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 552fa4ac-77a2-4d99-b49a-5dc01acedeb2
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '113'
 ht-degree: 5%
 
 ---

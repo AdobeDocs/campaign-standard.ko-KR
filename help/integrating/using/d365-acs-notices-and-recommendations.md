@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign 및 Microsoft Dynamics 365 데이터 관리
 description: Campaign Standard 및 Microsoft Dynamics 365에서 일반 데이터를 관리하는 방법을 알아봅니다
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM 통합
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---
@@ -23,7 +21,7 @@ ht-degree: 1%
 
 연락처 및 사용자 지정 엔터티 동기화의 경우 이 통합은 **Microsoft Dynamics 365를 True**&#x200B;의 소스로 처리합니다.  동기화된 속성에 대한 변경 사항은 Adobe Campaign Standard이 아니라 Dynamics 365에서 수행해야 합니다.  Campaign에서 변경된 경우 동기화가 한 방향으로 진행되므로 동기화 중에 Campaign에서 덮어쓸 수 있습니다.
 
-데이터 무결성을 유지하기 위해 Dynamics 365에서 연락처가 삭제될 때 Campaign에 프로필 삭제 호출을 실행하도록 선택적으로 구성할 수 있습니다. 하지만 프로필 삭제는 개인 정보 삭제와 다릅니다. Campaign에서 개인 정보 보호를 삭제하면 Campaign 프로필 레코드 및 관련 로그 항목이 제거됩니다.반면에 일반 프로필 삭제는 Campaign 프로필 레코드만 삭제하여 Campaign 로그에 남아 있습니다. 통합에서 프로필 삭제 기능이 활성화된 경우 데이터 주체 개인 정보 보호 요청을 제대로 처리하려면 추가 단계를 수행해야 합니다. ](#manage-privacy-requests) 아래의 [개인 정보 섹션의 단계를 참조하십시오.
+데이터 무결성을 유지하기 위해 Dynamics 365에서 연락처가 삭제될 때 Campaign에 프로필 삭제 호출을 실행하도록 선택적으로 구성할 수 있습니다. 하지만 프로필 삭제는 개인 정보 삭제와 다릅니다. Campaign에서 개인 정보 보호를 삭제하면 Campaign 프로필 레코드 및 관련 로그 항목이 제거됩니다. 반면에 일반 프로필 삭제는 Campaign 프로필 레코드만 삭제하여 Campaign 로그에 남아 있습니다. 통합에서 프로필 삭제 기능이 활성화된 경우 데이터 주체 개인 정보 보호 요청을 제대로 처리하려면 추가 단계를 수행해야 합니다. ](#manage-privacy-requests) 아래의 [개인 정보 섹션의 단계를 참조하십시오.
 
 ## 개인 정보 보호{#acs-msdyn-manage-privacy}
 
@@ -53,7 +51,7 @@ Dynamics 365에서 연락처를 삭제할 때 Campaign에 일반 프로필 삭�
 
 >[!IMPORTANT]
 >
->Campaign 사용자 지정 리소스 레코드에 고객의 Campaign 사용에 적용되는 개인 정보가 포함되어 있는 경우 이러한 레코드는 해당 Campaign 프로필 레코드(직접 또는 다른 사용자 지정 리소스를 통해)에 연결되어 프로필 레코드에 대한 개인 정보 보호 관련 삭제도 개인 정보가 포함된 연결된 사용자 지정 리소스 레코드를 삭제할 수 있습니다.연결된 레코드를 캐스케이드처럼 제거할 수 있도록 엔티티 간 연결 및 삭제 옵션을 구성해야 합니다. 프로필에 연결되지 않은 사용자 지정 리소스에 개인 정보를 입력해서는 안 됩니다.
+>Campaign 사용자 지정 리소스 레코드에 고객의 Campaign 사용에 적용되는 개인 정보가 포함되어 있는 경우 이러한 레코드는 해당 Campaign 프로필 레코드(직접 또는 다른 사용자 지정 리소스를 통해)에 연결되어 프로필 레코드에 대한 개인 정보 보호 관련 삭제도 개인 정보가 포함된 연결된 사용자 지정 리소스 레코드를 삭제할 수 있습니다. 연결된 레코드를 캐스케이드처럼 제거할 수 있도록 엔티티 간 연결 및 삭제 옵션을 구성해야 합니다. 프로필에 연결되지 않은 사용자 지정 리소스에 개인 정보를 입력해서는 안 됩니다.
 
 ## 옵트아웃 {#opt-out}
 
@@ -71,9 +69,9 @@ Dynamics 365에서는 대부분의 옵트아웃 필드에 &quot;doot&quot; 접�
 
 통합을 프로비저닝할 때 비즈니스에 필요한 옵트아웃 구성을 지정할 수 있습니다.
 
-* **단방향(Microsoft Dynamics 365에서 Campaign으로)**:Dynamics 365는 옵트아웃에 대한 진실의 원본입니다. 옵트아웃 속성은 Dynamics 365에서 Campaign Standard으로 한 방향으로 동기화됩니다
-* **일방향(Campaign에서 Microsoft Dynamics 365로)**:Campaign Standard은 옵트아웃의 진실입니다. 옵트아웃 속성은 Campaign Standard에서 Dynamics 365로 한 방향으로 동기화됩니다
-* **양방향**:Dynamics 365와 Campaign Standard 모두 진실의 근원이다. 옵트아웃 속성은 Campaign Standard과 Dynamics 365 간에 양방향 동기화됩니다
+* **단방향(Microsoft Dynamics 365에서 Campaign으로)**: Dynamics 365는 옵트아웃에 대한 진실의 원본입니다. 옵트아웃 속성은 Dynamics 365에서 Campaign Standard으로 한 방향으로 동기화됩니다
+* **일방향(Campaign에서 Microsoft Dynamics 365로)**: Campaign Standard은 옵트아웃의 진실입니다. 옵트아웃 속성은 Campaign Standard에서 Dynamics 365로 한 방향으로 동기화됩니다
+* **양방향**: Dynamics 365와 Campaign Standard 모두 진실의 근원이다. 옵트아웃 속성은 Campaign Standard과 Dynamics 365 간에 양방향 동기화됩니다
 
 또는 시스템 간 옵트아웃 동기화를 관리하는 별도의 프로세스가 있는 경우 통합의 옵트아웃 데이터 플로우를 비활성화할 수 있습니다.
 
@@ -113,7 +111,7 @@ Dynamics 365에서는 대부분의 옵트아웃 필드에 &quot;doot&quot; 접�
 
 이 통합은 Campaign의 **[!UICONTROL externalId]** 필드를 사용하여 Campaign 프로필 레코드를 Dynamics 365 연락처 레코드와 동기화하므로 Microsoft Dynamics 365에서 동기화하려는 레코드에 대해 이 캠페인 필드(**[!UICONTROL externalId]** )를 Microsoft Dynamics 365 **[!UICONTROL contactId]**&#x200B;로 채워야 합니다.  사용자 지정 엔터티는 Microsoft Dynamics 365 고유 ID를 사용하여 동기화됩니다. Campaign 사용자 지정 엔티티는 이 ID 속성을 테이블 열로 포함해야 합니다. externalId 열은 이 속성 값을 저장하는 데 사용할 수 있지만, Campaign 사용자 지정 엔티티에 필요하지 않습니다.
 
-Microsoft Dynamics 365는 여전히 진실의 소스이며, 통합이 Dynamics 365 측에서 업데이트를 감지하면 Campaign 프로필 데이터를 덮어쓸 수 있습니다.  기존 배포에 따라 통합을 활성화하는 데 필요한 다른 단계도 있을 수 있습니다.따라서 Adobe 기술 담당자와 긴밀히 협력하는 것이 좋습니다.
+Microsoft Dynamics 365는 여전히 진실의 소스이며, 통합이 Dynamics 365 측에서 업데이트를 감지하면 Campaign 프로필 데이터를 덮어쓸 수 있습니다.  기존 배포에 따라 통합을 활성화하는 데 필요한 다른 단계도 있을 수 있습니다. 따라서 Adobe 기술 담당자와 긴밀히 협력하는 것이 좋습니다.
 
 >[!NOTE]
 >
@@ -163,13 +161,13 @@ Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요를 이 
 
    통합에서 엔진 호출 볼륨을 추정하는 데 도움이 되도록 다음을 사용하십시오.
 
-   * 레코드 삽입(즉, 새 레코드):엔진 호출 1회
-   * 레코드 삭제:엔진 호출 1회
-   * 레코드 업데이트:2개의 엔진 호출(대상 레코드가 소스 레코드와 동일한 경우, 즉 캠페인 레코드가 변경되지 않는 경우에만 1개의 호출)
+   * 레코드 삽입(즉, 새 레코드): 엔진 호출 1회
+   * 레코드 삭제: 엔진 호출 1회
+   * 레코드 업데이트: 2개의 엔진 호출(대상 레코드가 소스 레코드와 동일한 경우, 즉 캠페인 레코드가 변경되지 않는 경우에만 1개의 호출)
 
    전체 캠페인 엔진 호출 볼륨을 추정할 때 랜딩 페이지, WebApps, JSSP, API, 모바일 앱 등록 등을 비롯한 다른 엔진 호출 소스를 평가하는 것이 중요합니다.
 
-   다음 위치에서 Adobe Campaign Standard 패키지 정보를 봅니다.[https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)
+   다음 위치에서 Adobe Campaign Standard 패키지 정보를 봅니다. [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)
 
 * 통합은 Campaign의 리소스에 대한 초기 동기화에 대한 최대 1,500만 개의 레코드를 지원합니다. 증분 동기화는 Adobe Campaign Standard 패키지에 의해 제한됩니다.
 
@@ -195,7 +193,7 @@ Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요를 이 
 
 통합은 Microsoft Dynamics 365와 Campaign 간의 일반적인 데이터 이동 사용 사례를 해결하기 위해 고안되었지만 각 고객별 모든 사용 사례를 해결하기 위한 것은 아닙니다.
 
-* 통합은 개인 정보(예: GDPR)를 발행 하지 않습니다. 최종 사용자 개인 정보 보호 요청을 이행할 책임은 고객에게 있습니다.이러한 요청은 Campaign(Adobe Experience Platform Privacy Service을 통해) 및 Dynamics 365를 모두 독립적으로 해야 합니다. 필요한 경우 통합에서 데이터 동기화에 도움이 되도록 정기적으로 삭제를 실행할 수 있습니다.   자세한 내용은 [개인 정보 섹션](#manage-privacy-requests)을 검토하십시오.
+* 통합은 개인 정보(예: GDPR)를 발행 하지 않습니다. 최종 사용자 개인 정보 보호 요청을 이행할 책임은 고객에게 있습니다. 이러한 요청은 Campaign(Adobe Experience Platform Privacy Service을 통해) 및 Dynamics 365를 모두 독립적으로 해야 합니다. 필요한 경우 통합에서 데이터 동기화에 도움이 되도록 정기적으로 삭제를 실행할 수 있습니다.   자세한 내용은 [개인 정보 섹션](#manage-privacy-requests)을 검토하십시오.
 
 * 옵트아웃 정보를 제외하고(고객이 구성한 경우) 프로필 또는 사용자 지정 엔티티 데이터가 Campaign에서 Dynamics 365로 동기화되지 않습니다.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 보강된 필드가 포함된 이메일 보내기
 description: 아래 예제는 파일 로드 활동을 통해 외부 파일에서 검색한 추가 데이터를 사용하여 이메일을 보내는 방법을 보여 줍니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 74%
+source-wordcount: '351'
+ht-degree: 75%
 
 ---
-
 
 # 보강된 필드가 포함된 이메일 보내기 {#sending-email-enriched-fields}
 
@@ -29,17 +26,17 @@ ht-degree: 74%
 
 ![](assets/load_file_workflow_ex2.png)
 
-워크플로우를 빌드하려면 다음 단계를 따르십시오.
+워크플로우를 빌드하려면 다음 단계를 수행합니다.
 
-1. [쿼리](../../automating/using/query.md) 활동을 워크플로우로 드래그 앤 드롭한 다음 열어서 기본 대상을 정의합니다.
+1. [Query](../../automating/using/query.md) 활동을 워크플로우에 끌어다 놓은 뒤 열어서 기본 타겟을 정의합니다.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. [Load file](../../automating/using/load-file.md) 활동을 드래그하여 놓아 일부 데이터를 프로필에 할당합니다. 이 예제에서는 데이터베이스의 프로필 일부에 해당하는 계좌 번호가 들어 있는 파일을 로드합니다.
+1. [파일 로드](../../automating/using/load-file.md) 활동을 끌어다 놓아 프로필에 데이터를 할당합니다. 이 예제에서는 데이터베이스의 프로필 일부에 해당하는 계좌 번호가 들어 있는 파일을 로드합니다.
 
    ![](assets/load_file_activity.png)
 
-1. [Enrichment](../../automating/using/enrichment.md) 활동을 워크플로우로 드래그 앤 드롭하고 로드 파일 및 쿼리 활동을 이 워크플로우에 연결합니다.
+1. [데이터 보강](../../automating/using/enrichment.md) 활동을 워크플로우에 끌어다 놓고, 여기에 파일 로드 및 쿼리 활동을 연결합니다.
 
 1. 데이터 보강 활동의 **[!UICONTROL Advanced relations]** 탭에서 **[!UICONTROL 0 or 1 cardinality simple link]**&#x200B;을(를) 선택하고 조정에 사용할 필드를 정의합니다. 여기에서는 성을 사용하여 데이터와 데이터베이스 프로필을 조정합니다.
 
@@ -53,13 +50,13 @@ ht-degree: 74%
 
    자세한 내용은 [데이터 보강](../../automating/using/enrichment.md) 섹션을 참조하십시오.
 
-1. [세그멘테이션](../../automating/using/segmentation.md) 활동을 워크플로우로 드래그 앤 드롭하여 기본 타겟을 세분화합니다.
+1. [세분화](../../automating/using/segmentation.md) 활동을 워크플로우에 끌어다 놓은 뒤 열어서 주요 타겟을 세분화합니다.
 
    ![](assets/load_file_segmentation.png)
 
    자세한 내용은 [세분화](../../automating/using/segmentation.md) 섹션을 참조하십시오.
 
-1. [이메일 배달](../../automating/using/email-delivery.md) 활동을 워크플로우로 드래그하여 놓고 엽니다.
+1. [이메일 게재](../../automating/using/email-delivery.md) 활동을 워크플로우로 끌어서 놓고 엽니다.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

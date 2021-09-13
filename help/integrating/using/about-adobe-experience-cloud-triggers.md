@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adobe Experience Cloud 트리거 기본 정보
 description: 이제 Adobe Analytics로 고객의 특정 행동을 추적하여 Adobe Campaign에서 고객에게 개인화된 이메일을 보낼 수 있습니다.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: 트리거
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 98%
 
 ---
 
-# Adobe Experience Cloud 트리거 기본 정보{#about-adobe-experience-cloud-triggers}
+# Adobe Experience Cloud Triggers 기본 정보{#about-adobe-experience-cloud-triggers}
 
 Experience Cloud Activation 핵심 서비스 **[!UICONTROL Triggers]**&#x200B;와(과) Adobe Campaign 간의 통합을 통해 Adobe Analytics가 웹 사이트에서 추적한 특정 행동에 반응하여 고객에게 개인화된 이메일을 보낼 수 있습니다.
 
@@ -36,7 +34,7 @@ Adobe Campaign에서 이전에 만든 트리거를 선택하고, 데이터마트
 * [사이트 활동에 기반한 리마케팅 메시지 트리거](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) 비디오를 시청합니다.
 * 두 가지 [중단 트리거 사용 사례](../../integrating/using/abandonment-triggers-use-cases.md)를 살펴봅니다.
 
-## 사용자 프로세스 트리거{#triggers-user-process}
+## 사용자 프로세스 트리거 {#triggers-user-process}
 
 >[!CAUTION]
 >

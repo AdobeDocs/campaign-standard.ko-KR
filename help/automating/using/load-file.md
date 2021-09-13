@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 파일 로드
 description: 파일 로드 활동을 통해 데이터를 Adobe Campaign에서 사용할 수 있도록 하나의 구조화된 양식으로 가져올 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 373e4012-9daf-4da7-aad6-54726d991544
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1364'
 ht-degree: 93%
 
 ---
-
 
 # 파일 로드 {#load-file}
 
@@ -25,13 +22,13 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->이 기능을 사용하는 동안 Adobe Campaign 계약에 따라 SFTP 저장소, DB 저장소 및 활성 프로필 제한에 주의하십시오.
+>이 기능을 사용하는 동안 Adobe Campaign 계약에 따라 SFTP 저장소, DB 저장소 및 활성 프로필 제한을 기억하십시오.
 
 ![](assets/data_loading.png)
 
 **[!UICONTROL Load file]** 활동을 통해 데이터를 Adobe Campaign에서 사용할 수 있도록 하나의 구조화된 양식으로 가져올 수 있습니다. 파일 로드 활동을 통한 데이터 가져오기는 일시적이며, 가져온 데이터를 Adobe Campaign 데이터베이스에 완전히 통합하려면 다른 활동이 필요합니다.
 
-## 사용 컨텍스트 {#context-of-use}
+## 사용의 컨텍스트 {#context-of-use}
 
 활동을 구성할 때 데이터 추출 방법을 정의합니다. 예를 들어 로드할 파일이 연락처 목록이라고 해 보겠습니다.
 
@@ -46,10 +43,10 @@ ht-degree: 93%
 
 **관련 항목:**
 
-* [사용 사례:외부 데이터로 데이터베이스 업데이트](../../automating/using/update-database-file.md)
-* [사용 사례:자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
-* [사용 사례:풍부한 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
-* [사용 사례:데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
+* [사용 사례: 외부 데이터로 데이터베이스 업데이트](../../automating/using/update-database-file.md)
+* [사용 사례: 자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
+* [사용 사례: 보강된 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
+* [사용 사례: 데이터베이스로 파일 대상자 조정](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 구성 {#configuration}
 
@@ -108,7 +105,7 @@ ht-degree: 93%
 
 1. 데이터를 로드하려는 파일이 GZIP 파일(.gz)로 압축되어 있는 경우 **[!UICONTROL Add a pre-processing stage]** 필드에서 **[!UICONTROL Decompression]** 옵션을 선택합니다. 이 옵션을 선택하면 데이터를 로드하기 전에 파일의 압축을 해제할 수 있습니다. 이 옵션은 파일을 활동의 인바운드 전환에서 가져오는 경우에만 사용할 수 있습니다.
 
-   또한 **[!UICONTROL Add a pre-processing stage]** 필드에서 파일을 데이터베이스로 가져오기 전에 파일의 암호를 해독할 수도 있습니다. 암호화된 파일을 사용하여 작업하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/managing-encrypted-data.md)을 참조하십시오.
+   또한 **[!UICONTROL Add a pre-processing stage]** 필드를 사용하면 파일을 데이터베이스로 가져오기 전에 파일 암호를 해독할 수 있습니다. 암호화된 파일로 작업하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/managing-encrypted-data.md)을 참조하십시오
 
 1. **[!UICONTROL Keep the rejects in a file]** 옵션을 사용하면 가져올 때 발생한 오류가 포함된 파일을 다운로드하여 사후 처리 단계에 적용할 수 있습니다. 이 옵션을 활성화하면 아웃바운드 전환 이름이 &quot;거부&quot;로 바뀝니다.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 게재 실패 이해
 description: Campaign을 사용하여 게재 실패를 관리하는 방법을 알아봅니다.
 audience: sending
@@ -10,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: 7efdb8aa4f931268cf9a0899179819cbc1f86757
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 64%

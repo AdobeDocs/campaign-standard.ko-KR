@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Campaign Standard 시작
+title: Campaign 통합 시작
 description: 다른 Adobe 솔루션을 사용하여 다양한 기능을 Campaign과 결합할 수 있습니다.
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: 트리거
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 76%
+source-wordcount: '713'
+ht-degree: 77%
 
 ---
 
-# Campaign 통합 기본 정보{#get-started-campaign-integrations}
+# Campaign 통합 정보{#get-started-campaign-integrations}
 
 이 섹션에서는 현재 버전의 Adobe Campaign과 다른 솔루션 및 서비스 간에 사용할 수 있는 기능적인 통합에 대해 자세히 설명합니다.
 
@@ -104,7 +102,7 @@ ht-degree: 76%
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Dreamweaver의 이메일 콘텐츠를 편집하고 Adobe Campaign과 동기화할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Dreamweaver로 개인화된 </a> 이메일 만들기, Dreamweaver <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">용 Campaign 확장 사용</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ko">Dreamweaver로 개인화된 </a> 이메일 만들기, Dreamweaver <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">용 Campaign 확장 사용</a> 
   </td> 
   </tr> 
   <tr> 

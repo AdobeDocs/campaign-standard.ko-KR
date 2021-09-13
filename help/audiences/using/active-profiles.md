@@ -1,16 +1,14 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 캠페인 활성 프로필
 description: 고객 지표 및 활성 프로필에 액세스하는 방법 알아보기
-feature: 프로필
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 1%
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
@@ -43,4 +41,3 @@ ht-degree: 1%
 >[!NOTE]
 >
 >관리자는 Campaign 컨트롤 패널에서 직접 인스턴스에 사용된 활성 프로필의 수를 모니터링할 수도 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)를 참조하십시오.
-

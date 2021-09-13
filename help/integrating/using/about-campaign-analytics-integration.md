@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign-Analytics 통합 기본 정보
 description: 이제 Adobe Campaign Standard에서 KPI 데이터를 수집하여 Adobe Analytics과 캠페인 데이터를 공유하여 Adobe Campaign의 이메일 마케팅 지표를 측정할 수 있습니다.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: 트리거
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 7%
+source-wordcount: '206'
+ht-degree: 6%
 
 ---
 

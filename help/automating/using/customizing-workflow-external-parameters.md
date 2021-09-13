@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 외부 매개 변수로 워크플로우 호출
 description: 이 섹션에서는 외부 매개 변수로 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: 워크플로우
+feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -35,20 +33,20 @@ $(vars/@parameterName)
 
 이 구문에서 **$** 함수는 **문자열** 데이터 유형을 반환합니다. 다른 유형의 데이터를 지정하려면 다음 함수를 사용하십시오.
 
-* **$long**:정수 번호입니다.
-* **$float**:십진수.
-* **$부울**:true/false입니다.
-* **$datetime**:timestamp.
+* **$long**: 정수 번호입니다.
+* **$float**: 십진수.
+* **$부울**: true/false입니다.
+* **$datetime**: timestamp.
 
 활동에서 변수를 사용할 때 인터페이스는 변수를 호출하는 데 도움이 됩니다.
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png):워크플로우에서 사용할 수 있는 모든 변수 중에서 이벤트 변수를 선택합니다.
+* ![](assets/extsignal_picker.png): 워크플로우에서 사용할 수 있는 모든 변수 중에서 이벤트 변수를 선택합니다.
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png):변수와 함수를 결합한 표현식을 편집합니다( [이 페이지](../../automating/using/advanced-expression-editing.md) 참조).
+* ![](assets/extsignal_expression_editor.png): 변수와 함수를 결합한 표현식을 편집합니다( [이 페이지](../../automating/using/advanced-expression-editing.md) 참조).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
@@ -62,7 +60,7 @@ $(vars/@parameterName)
    | startWith | 문자열(1번째 매개 변수)가 특정 문자열(2번째 매개 변수)로 시작하는지 여부를 나타냅니다. | startWith(&lt;문자열>,&lt;문자열>) |
    | Extract | 구분 기호를 사용하여 문자열의 첫 문자를 반환합니다. | Extract(&lt;문자열>,&lt;구분 기호>) |
    | ExtractRight | 구분 기호를 사용하여 문자열의 마지막 문자를 반환합니다. | ExtractRight(&lt;문자열>,&lt;구분 기호>) |
-   | DateFormat | 두 번째 매개 변수에 지정된 형식을 사용하여 날짜 형식을 지정합니다(예: &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;날짜>,&lt;형식>) |
+   | DateFormat | 두 번째 매개 변수에 지정된 형식을 사용하여 날짜 형식을 지정합니다(예:  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;날짜>,&lt;형식>) |
    | 파일 이름 | 파일 경로의 이름을 반환합니다. | FileName(&lt;문자열>) |
    | FileExt | 파일 경로의 확장자를 반환합니다. | FileExt(&lt;문자열>) |
    | GetOption | 지정된 함수의 값을 반환합니다. | GetOption(&lt;optionName>) |
@@ -73,25 +71,25 @@ $(vars/@parameterName)
 
 아래 섹션에 나열된 여러 활동을 사용자 지정하는 데 이벤트 변수를 사용할 수 있습니다. 활동에서 변수를 호출하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)을 참조하십시오.
 
-**[!UICONTROL Read audience]** 활동:이벤트 변수를 기반으로 타겟팅할 대상을 정의합니다. 활동 사용 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/read-audience.md)을 참조하십시오.
+**[!UICONTROL Read audience]** 활동: 이벤트 변수를 기반으로 타겟팅할 대상을 정의합니다. 활동 사용 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/read-audience.md)을 참조하십시오.
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** 활동:이벤트 변수를 기반으로 조건을 만듭니다. 활동 사용 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/test.md)을 참조하십시오.
+**[!UICONTROL Test]** 활동: 이벤트 변수를 기반으로 조건을 만듭니다. 활동 사용 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/test.md)을 참조하십시오.
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** 활동:이벤트 변수를 기반으로 전송할 파일을 사용자 지정합니다. 활동 사용 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/transfer-file.md)을 참조하십시오.
+**[!UICONTROL Transfer file]** 활동: 이벤트 변수를 기반으로 전송할 파일을 사용자 지정합니다. 활동 사용 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/transfer-file.md)을 참조하십시오.
 
 ![](assets/extsignal_activities_transfer.png)
 
-**[!UICONTROL Query]** 활동:이벤트 변수와 함수를 결합한 표현식을 사용하여 쿼리에서 매개 변수를 참조할 수 있습니다. 이렇게 하려면 규칙을 추가한 다음 **[!UICONTROL Advanced mode]** 링크를 클릭하여 표현식 편집 창에 액세스합니다([고급 표현식 편집](../../automating/using/advanced-expression-editing.md) 참조).
+**[!UICONTROL Query]** 활동: 이벤트 변수와 함수를 결합한 표현식을 사용하여 쿼리에서 매개 변수를 참조할 수 있습니다. 이렇게 하려면 규칙을 추가한 다음 **[!UICONTROL Advanced mode]** 링크를 클릭하여 표현식 편집 창에 액세스합니다([고급 표현식 편집](../../automating/using/advanced-expression-editing.md) 참조).
 
 활동 사용 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/query.md)을 참조하십시오.
 
 ![](assets/extsignal_activities_query.png)
 
-**[!UICONTROL Channels]** 활동:이벤트 변수를 기반으로 게재를 개인화합니다.
+**[!UICONTROL Channels]** 활동: 이벤트 변수를 기반으로 게재를 개인화합니다.
 
 >[!NOTE]
 >
@@ -120,13 +118,13 @@ $(vars/@parameterName)
 
    ![](assets/extsignal_activities_template.png)
 
-* 게재를 개인화합니다.개인화 필드를 선택하여 게재를 구성할 때 이벤트 변수를 **[!UICONTROL Workflow parameters]** 요소에서 사용할 수 있습니다. 이러한 필드를 개인화 필드로 사용할 수 있습니다. 예를 들어 게재 주체, 발신자 등을 정의할 수 있습니다.
+* 게재를 개인화합니다. 개인화 필드를 선택하여 게재를 구성할 때 이벤트 변수를 **[!UICONTROL Workflow parameters]** 요소에서 사용할 수 있습니다. 이러한 필드를 개인화 필드로 사용할 수 있습니다. 예를 들어 게재 주체, 발신자 등을 정의할 수 있습니다.
 
    게재 개인화는 [이 섹션](../../designing/using/personalization.md)에 자세히 설명되어 있습니다.
 
    ![](assets/extsignal_activities_perso.png)
 
-**세그먼트 코드**:이벤트 변수를 기반으로 세그먼트 코드를 정의합니다.
+**세그먼트 코드**: 이벤트 변수를 기반으로 세그먼트 코드를 정의합니다.
 
 >[!NOTE]
 >
@@ -134,6 +132,6 @@ $(vars/@parameterName)
 
 ![](assets/extsignal_activities_segment.png)
 
-**게재 레이블**:이벤트 변수를 기반으로 게재 레이블을 정의합니다.
+**게재 레이블**: 이벤트 변수를 기반으로 게재 레이블을 정의합니다.
 
 ![](assets/extsignal_activities_label.png)

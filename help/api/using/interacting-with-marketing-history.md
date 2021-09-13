@@ -1,31 +1,28 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 마케팅 기록 활용
-description: 프로필의 마케팅 내역을 활용하는 방법을 살펴볼 수 있습니다.
+description: 프로필의 마케팅 기록에 상호 작용하는 방법을 알아봅니다.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '147'
 ht-degree: 10%
 
 ---
 
-
 # 마케팅 기록 활용 {#interacting-with-marketing-history}
 
-**내역** 끝점을 사용하면 프로필의 마케팅 내역과 상호 작용할 수 있습니다.
-예를 들어 이 방법으로 프로파일에 전송된 배달을 위해 미러 페이지를 쉽게 검색할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
+**history** 종단점을 사용하면 프로필의 마케팅 기록에 상호 작용할 수 있습니다.
+예를 들어 프로필로 전송된 게재에 대한 미러 페이지를 쉽게 검색할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
 
-1. **내역** 끝점과 프로필의 기본 키로 GET을 수행합니다.
+1. **history** 종단점 및 프로필의 기본 키로 GET을 수행합니다.
 1. 반환된 **events** href에 대해 GET 요청을 수행합니다.
-1. 이 보고서는 **mirrorPage** 노드의 미러 페이지에 대한 링크가 있는 프로필의 이벤트 목록을 반환합니다.
+1. 이 메서드는 **mirrorPage** 노드의 미러 페이지에 대한 링크가 있는 프로필에 대한 이벤트 목록을 반환합니다.
 
 <br/>
 
@@ -66,7 +63,7 @@ GET 요청을 사용하여 프로필의 마케팅 내역을 검색합니다.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-&quot;mirrorPage&quot; 노드의 미러 페이지에 대한 링크가 있는 프로필의 이벤트 목록을 반환합니다.
+&quot;mirrorPage&quot; 노드의 미러 페이지에 대한 링크가 있는 프로필에 대한 이벤트 목록을 반환합니다.
 
 ```
     {

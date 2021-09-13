@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 함수 목록
 description: 쿼리 편집 도구를 사용하면 고급 함수를 사용하여 복잡한 필터링을 수행할 수 있습니다.
 audience: automating
@@ -10,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1970'
 ht-degree: 96%

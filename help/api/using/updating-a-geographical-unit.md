@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 프로필의 지리 단위 업데이트
 description: API를 사용하여 지리적 단위를 관리하는 방법을 알아봅니다.
 audience: developing
@@ -9,25 +7,24 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9dc07d86-00b2-4885-b6ac-0a6f9bc45236
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 11%
+source-wordcount: '94'
+ht-degree: 10%
 
 ---
 
-
 # 프로필의 지리 단위 업데이트 {#updating-a-geographical-unit}
 
-1. 지리적 단위 PKey를 검색하려면 **geoUnitBase** 리소스에서 GET 요청을 수행합니다.
-1. 페이로드에서 원하는 지리적 단위 PKey를 사용하여 프로필 PKey에서 PATCH 요청을 수행합니다.
+1. **geoUnitBase** 리소스에 대해 GET 요청을 수행하여 지리 단위 PKey를 검색합니다.
+1. 페이로드에서 원하는 지리 단위 PKey를 사용하여 프로필 PKey에 PATCH 요청을 수행합니다.
 
 <br/>
 
 ***샘플 요청***
 
-지리적 단위 목록을 읽어들입니다.
+지리 단위 목록을 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -53,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-페이로드에서 원하는 지리적 단위의 PKey를 사용하여 프로필에 PATCH 요청을 수행합니다.
+페이로드에서 원하는 지리 단위의 PKey를 사용하여 프로필에 PATCH 요청을 수행합니다.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

@@ -1,33 +1,30 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 개요
-description: 이 섹션에서는 외부 매개 변수를 사용하여 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
+description: 이 섹션에서는 외부 매개 변수로 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 538056e6-b5c0-4258-a34b-524fe6e3cbbe
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '186'
 ht-degree: 4%
 
 ---
 
-
 # 개요 {#calling-a-workflow-with-external-parameters}
 
-Campaign Standard을 사용하면 매개 변수(타깃팅할 대상 이름, 가져올 파일 이름, 메시지 내용의 일부 등)가 있는 워크플로우를 호출할 수 있습니다. 이렇게 하면 캠페인 자동화를 외부 시스템과 쉽게 통합할 수 있습니다.
+Campaign Standard 을 사용하면 매개 변수(target에 사용할 대상 이름, 가져올 파일 이름, 메시지 콘텐츠의 일부 등)가 있는 워크플로우를 호출할 수 있습니다. 이러한 방식으로 Campaign 자동화를 외부 시스템과 쉽게 통합할 수 있습니다.
 
-다음 예를 들어 CMS에서 바로 이메일을 보낼 수 있습니다. 이러한 경우 대상을 선택하고 CMS에 콘텐츠를 이메일로 전송하도록 시스템을 구성할 수 있습니다. 전송을 클릭하면 이러한 매개 변수가 있는 캠페인 워크플로우가 호출되므로, 전달에 사용할 대상 및 URL 컨텐츠를 정의하는 워크플로우에 사용할 수 있습니다.
+CMS에서 직접 이메일을 전송하려는 다음 예를 살펴보겠습니다. 이러한 경우 대상 및 이메일 콘텐츠를 CMS에 선택하도록 시스템을 구성할 수 있습니다. 전송 을 클릭하면 이러한 매개 변수를 사용하는 Campaign 워크플로우가 호출됩니다. 이 워크플로우를 워크플로우에 사용하여 게재에서 사용할 대상 및 URL 컨텐츠를 정의할 수 있습니다.
 
-매개 변수가 있는 워크플로우를 호출하는 프로세스는 다음과 같습니다.
+매개 변수를 사용하는 워크플로우를 호출하는 프로세스는 다음과 같습니다.
 
-1. **[!UICONTROL External signal]** 활동에서 매개 변수를 선언합니다. 외부 신호 활동](../../automating/using/declaring-parameters-external-signal.md)에서 매개 변수 선언을 참조하십시오.[
-1. 매개 변수를 정의하고 워크플로 **[!UICONTROL External signal]** 활동을 트리거하도록 **[!UICONTROL End]** 활동 또는 API 호출을 구성합니다. [이 페이지](../../automating/using/defining-parameters-calling-workflow.md)를 참조하십시오
+1. **[!UICONTROL External signal]** 활동에서 매개 변수를 선언합니다. 외부 신호 활동에서 매개 변수 선언](../../automating/using/declaring-parameters-external-signal.md)을 참조하십시오.[
+1. 매개 변수를 정의하고 워크플로우 **[!UICONTROL External signal]** 활동을 트리거하도록 **[!UICONTROL End]** 활동 또는 API 호출을 구성합니다. [이 페이지](../../automating/using/defining-parameters-calling-workflow.md)를 참조하십시오
 1. 워크플로우가 트리거되면 매개 변수가 워크플로우의 이벤트 변수에 수집되고 워크플로우 내에서 사용할 수 있습니다. [이 페이지](../../automating/using/customizing-workflow-external-parameters.md)를 참조하십시오.
 
 ![](assets/extsignal_process.png)

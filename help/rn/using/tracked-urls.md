@@ -1,17 +1,15 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 추적된 URL 서명 문제
 description: 추적된 URL 서명 문제
 hidefromtoc: true
 hide: true
-source-git-commit: 65c81f2f9e4fc80e7b2f7c0bdc0302e90f068b1e
-workflow-type: ht
+exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
 ---
-
 
 # 추적된 URL 서명 문제 {#tracked-urls}
 
@@ -38,4 +36,3 @@ Adobe에서 잠시 후 구성을 업데이트하기 위해 사용자와 함께 �
 >[!NOTE]
 >
 >이러한 변경 사항에 대한 질문이 있으면 [Adobe 고객 지원 센터](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 문의하십시오.
-

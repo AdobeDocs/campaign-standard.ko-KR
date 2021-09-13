@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 인터페이스 기본 정보
 description: Campaign 작업 공간은 모든 Adobe Experience Cloud 솔루션에 공통인 개념을 기반으로 합니다.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 4%
 
 ---
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 이메일 콘텐츠 개인화
 description: 이메일 디자이너에서 이메일을 개인화하는 방법을 알아봅니다.
 audience: designing
@@ -10,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '2583'
 ht-degree: 3%

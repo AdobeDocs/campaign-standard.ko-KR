@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Standard을 사용하여 다국어 푸시 알림용 CSV 파일 생성
 description: CSV 파일을 업로드하여 배달할 콘텐츠를 생성하는 기능은 다국어 푸시 알림을 지원하는 데 사용됩니다.
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: 푸시
+feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 1%
+source-wordcount: '1127'
+ht-degree: 0%
 
 ---
 

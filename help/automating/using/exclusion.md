@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 예외
 description: 예외 활동을 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: exclusion,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 98%
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
-
 
 # 예외{#exclusion}
 
@@ -51,4 +48,3 @@ ht-degree: 98%
 다음 예제는 18세에서 27세 사이의 잘못된 이메일 주소를 가진 Adobe Campaign 데이터베이스의 프로필을 필터링하도록 구성된 두 개의 쿼리 활동을 보여줍니다. 이메일 주소가 잘못된 프로필은 첫 번째 집합에서 제외됩니다. 그런 다음 예를 들어 이메일을 보낼 수 있습니다.
 
 ![](assets/wkf_exclusion_example.png)
-

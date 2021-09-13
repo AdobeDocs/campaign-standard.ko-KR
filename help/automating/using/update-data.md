@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 데이터 업데이트
 description: 데이터 업데이트 활동을 사용하면 데이터베이스의 필드에 대한 대량 업데이트를 수행할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: writer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 97%
+source-wordcount: '472'
+ht-degree: 98%
 
 ---
-
 
 # 데이터 업데이트{#update-data}
 
@@ -33,7 +30,7 @@ ht-degree: 97%
 
 **관련 항목:**
 
-* [사용 사례:파일을 기반으로 데이터 업데이트](../../automating/using/update-database-file.md)
+* [사용 사례: 파일을 기반으로 데이터 업데이트](../../automating/using/update-database-file.md)
 * [자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
 
 ## 구성 {#configuration}

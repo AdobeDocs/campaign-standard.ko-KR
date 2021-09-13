@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 예약
 description: 예약 활동을 통해 워크플로우나 활동의 시작 시점을 예약할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: schedule,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 88%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
-
 
 # 예약{#scheduler}
 
@@ -37,12 +34,12 @@ ht-degree: 88%
 >
 >**[!UICONTROL Repetition frequency]** 활동은 10분 이상이어야 합니다. 즉, 워크플로우를 10분에 2번 이상 자동으로 실행할 수 없습니다.
 
-여러 활동이 포함된 예약된 워크플로우를 디자인할 때 작업이 완료될 때까지 워크플로우의 일정을 조정하지 않아야 합니다. 이렇게 하려면 이전에 수행한 하나 이상의 작업이 아직 보류 중일 때 해당 작업을 실행하지 않도록 워크플로우를 구성해야 합니다. 자세한 정보는 이 [페이지](../../automating/using/scheduled-workflows-execution.md)를 참조하십시오.
+여러 활동이 포함된 예약된 워크플로우를 디자인할 때는 워크플로우가 완료될 때까지 워크플로우의 일정이 조정되지 않도록 해야 합니다. 이렇게 하려면 이전에 실행한 하나 이상의 작업이 아직 보류 중인 경우 실행을 방지하기 위해 워크플로우를 구성해야 합니다. 자세한 정보는 이 [페이지](../../automating/using/scheduled-workflows-execution.md)를 참조하십시오.
 
 **관련 항목:**
 
-* [사용 사례:프로필 생성 날짜에 배달 만들기](../../automating/using/workflow-creation-date-query.md)
-* [사용 사례:매주 화요일 이메일 배달 만들기](../../automating/using/workflow-weekly-offer.md)
+* [사용 사례: 프로필이 만들어진 날짜에 게재 만들기](../../automating/using/workflow-creation-date-query.md)
+* [사용 사례: 매주 화요일 이메일 게재 만들기](../../automating/using/workflow-weekly-offer.md)
 
 ## 구성 {#configuration}
 
@@ -82,4 +79,3 @@ ht-degree: 88%
 다음 예제에서는 정해지지 않은 기간 동안 매주 월요일 오전 7시에 워크플로우를 시작하도록 활동을 구성했습니다.
 
 ![](assets/wkf_scheduler_example.png)
-

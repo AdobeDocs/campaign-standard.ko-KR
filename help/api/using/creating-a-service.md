@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 서비스 만들기
 description: API를 사용하여 서비스를 만드는 방법을 알아봅니다.
 audience: developing
@@ -9,26 +7,25 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 9%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
-
 # 서비스 만들기 {#creating-a-service}
 
-서비스 만들기는 서비스 리소스에 대해 **POST** 요청으로 수행됩니다.
+서비스 만들기는 서비스 리소스에 대한 **POST** 요청으로 수행됩니다.
 
-특정 특성을 사용하여 서비스를 만들려면 페이로드에 추가합니다. 그렇지 않으면 새 서비스가 기본 서비스로 만들어집니다.
+특정 속성을 사용하여 서비스를 만들려면 페이로드에 추가합니다. 그렇지 않으면 기본 서비스로 새 서비스가 만들어집니다.
 
 <br/>
 
 ***샘플 요청***
 
-특정 특성을 가진 서비스를 만들기 위한 샘플 POST 요청.
+특정 속성을 사용하는 서비스를 만들기 위한 샘플 POST 요청.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
@@ -45,7 +42,7 @@ ht-degree: 9%
 -d }
 ```
 
-업데이트된 특성을 사용하여 새로 만든 서비스를 반환합니다.
+업데이트된 속성을 사용하여 새로 만든 서비스를 반환합니다.
 
 ```
 {

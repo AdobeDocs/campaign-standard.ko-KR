@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 서비스 구독 확인
 description: Adobe Campaign에서 서비스를 구독하는 프로필에 대한 확인 메시지를 설정하려면 다음 단계를 따르십시오.
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: 대상자
+feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1321'
 ht-degree: 96%
 
 ---

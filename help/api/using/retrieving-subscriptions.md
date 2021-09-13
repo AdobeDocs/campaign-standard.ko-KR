@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 구독 검색
 description: API를 사용하여 구독을 검색하는 방법을 알아봅니다.
 audience: developing
@@ -9,33 +7,32 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '196'
 ht-degree: 2%
 
 ---
 
-
 # 구독 검색 {#retrieving-subscriptions}
 
-## 서비스에 가입한 프로파일 검색
+## 서비스를 구독한 프로필 검색
 
-2단계 절차입니다.
+이는 두 단계로 이루어진 절차입니다.
 
 1. 원하는 서비스에 대한 구독 URL을 검색합니다.
-1. 구독 URL에 대해 GET 요청을 수행합니다. 각 관련 프로파일을 포함한 서비스 구독 목록을 반환합니다.
+1. 구독 URL에 대해 GET 요청을 수행합니다. 연결된 각 프로필과 함께 서비스에 대한 구독 목록을 반환합니다.
 
 >[!CAUTION]
 >
->REST API는 사용할 URL이 포함된 &quot;href&quot; 속성을 반환합니다. <b>후속 API 요청을 하려면 항상 응답에 포함된 URL을 사용합니다</b>.
+>REST API는 사용할 URL이 포함된 &quot;href&quot; 속성을 반환합니다. <b>후속 API 요청을 수행하려면 항상 응답에 포함된 URL을 사용하십시오</b>.
 
 <br/>
 
 ***샘플 요청***
 
-GET 요청을 수행하여 서비스를 검색합니다.
+서비스를 검색하려면 GET 요청을 수행하십시오.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -86,18 +83,18 @@ GET 요청을 수행하여 서비스를 검색합니다.
   }
 ```
 
-## 프로필이 가입된 서비스 검색
+## 프로필이 구독한 서비스 검색
 
-2단계 절차입니다.
+이는 두 단계로 이루어진 절차입니다.
 
-1. 지정된 프로필에 대한 구독 URL을 검색합니다.
-1. URL에 대해 GET 요청을 수행합니다. 각 관련 서비스와 함께 프로필에 대한 구독 목록을 반환합니다.
+1. 주어진 프로필에 대한 구독 URL을 검색합니다.
+1. URL에 GET 요청을 수행합니다. 각 연결된 서비스와 함께 프로필에 대한 구독 목록을 반환합니다.
 
 <br/>
 
 ***샘플 요청***
 
-프로파일을 검색하려면 GET 요청을 수행합니다.
+GET 요청을 수행하여 프로필을 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -131,7 +128,7 @@ GET 요청을 수행하여 서비스를 검색합니다.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-프로필이 가입된 서비스 목록을 반환합니다.
+프로필이 가입한 서비스 목록을 반환합니다.
 
 ```
   {

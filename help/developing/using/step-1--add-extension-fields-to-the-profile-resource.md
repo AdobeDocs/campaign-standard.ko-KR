@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '"1단계: 프로필 리소스에 확장 필드 추가"'
 description: 프로필 리소스를 확장하는 방법을 알아봅니다.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: use-case--extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 52%
+source-wordcount: '61'
+ht-degree: 55%
 
 ---
-
 
 # 1단계: 프로필 리소스에 확장 필드 추가{#step-add-extension-fields-to-the-profile-resource}
 
@@ -25,5 +22,4 @@ ht-degree: 52%
 1. **[!UICONTROL Extend an existing resource]** 옵션을 선택합니다.
 1. **[!UICONTROL Profile]** 리소스를 선택합니다.
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
-1. 리소스 필드에 **[!UICONTROL Brand]** ID가 있는 **[!UICONTROL Text]** 유형을 추가합니다.**[!UICONTROL Promo code]**
-
+1. 리소스 필드에 **[!UICONTROL Brand]** ID가 있는 **[!UICONTROL Text]** 필드를 추가합니다.**[!UICONTROL Promo code]**

@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: DataModel
-description: 데이터 모델에 대한 자세한 내용
+title: 데이터 모델
+description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '81'
+source-wordcount: '77'
 ht-degree: 6%
 
 ---
-
 
 # 구독 이벤트(nms:rtEvent)
 
@@ -31,24 +28,24 @@ ht-degree: 6%
     <tr>
         <td>PKey</td>
         <td>기본 리소스 ID</td>
-        <td>문자열 </td>
+        <td>string </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
         <td>이벤트 컨텍스트</td>
-        <td>item </td>
+        <td>항목 </td>
         <td> </td>
     </tr>
     <tr>
-        <td>email</td>
+        <td>이메일</td>
         <td>이메일</td>
         <td>문자열(128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>emailFormat</td>
-        <td>이메일 형식</td>
+        <td>전자 메일 형식</td>
         <td>열거형(바이트) </td>
         <td>
             <ul>
@@ -74,14 +71,14 @@ ht-degree: 6%
     <tr>
         <td>serverUrl</td>
         <td>ServerUrl</td>
-        <td>문자열 </td>
+        <td>string </td>
         <td> </td>
     </tr>
 </table>
 
 ## 필터
 
-이메일(이메일)
+전자 메일(byEmail)
 
 <table>
     <tr>
@@ -89,12 +86,12 @@ ht-degree: 6%
     <th>유형</th>
     </tr>
     <tr>
-    <td>email</td>
-    <td>문자열</td>
+    <td>이메일</td>
+    <td>string</td>
     </tr>
 </table>
 
-상태 또는 유형별(byStatusOrType)
+상태 또는 유형별로(byStatusOrType)
 
 <table>
         <tr>
@@ -102,11 +99,11 @@ ht-degree: 6%
         <th>유형</th>
         </tr>
         <tr>
-        <td>status</td>
+        <td>상태</td>
         <td>열거형</td>
         </tr>
         <tr>
-        <td>type</td>
-        <td>문자열</td>
+        <td>유형</td>
+        <td>string</td>
         </tr>
     </table>

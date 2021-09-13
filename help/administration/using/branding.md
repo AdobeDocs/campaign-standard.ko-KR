@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 브랜딩
 description: 브랜드 이미지를 관리하는 데 사용할 수 있는 모든 도구를 살펴봅니다.
 audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: 인스턴스 설정
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1280'
 ht-degree: 80%
 
 ---

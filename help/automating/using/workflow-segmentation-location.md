@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 위치 세그먼테이션"
-description: 이 사용 사례는 위치에서 세그먼테이션을 수행하는 방법을 보여줍니다.
+title: 위치 세분화"
+description: 이 사용 사례에서는 위치에 세분화를 수행하는 방법을 보여줍니다.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '268'
 ht-degree: 83%
 
 ---
 
-
-# {#segmentation-on-location} 위치의 세그먼테이션
+# 위치에 대한 세분화 {#segmentation-on-location}
 
 해당 지역 상점의 오퍼를 제공하는 타겟팅 이메일을 고객에게 보낼 수 있습니다.
 
@@ -29,7 +26,7 @@ ht-degree: 83%
 
 ## 전자 메일을 통해 연결 가능한 수신자 선택{#selecting-recipients-contactable-via-email}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동 ![](assets/query.png)을(를) 드래그하여 놓습니다.
+1. **[!UICONTROL Activities]** **[!UICONTROL Targeting]**&#x200B;에서 [Query](../../automating/using/query.md) 활동 ![](assets/query.png)을(를) 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
 1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL is not empty]** 연산자가 있는 **[!UICONTROL email]** 필드를 선택합니다 .
 1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL no]**&#x200B;값이 있는 **[!UICONTROL no longer contact by email]** 필드를 선택합니다 .
@@ -39,7 +36,7 @@ ht-degree: 83%
 
 ## 세분화 활동 만들기{#creating-a-segmentation-activity}
 
-1. [세그멘테이션](../../automating/using/segmentation.md) 활동을 드래그하여 놓고 두 번 클릭합니다.
+1. [세분화](../../automating/using/segmentation.md) 활동을 끌어다 놓고 두 번 클릭합니다.
 1. 세그먼트를 클릭한 다음 첫 번째 도시의 사용자를 타겟팅하기 위해 전환을 엽니다. 보스턴입니다.
 1. **[!UICONTROL Location]**&#x200B;을(를) 끌어다 놓고 연산자 **[!UICONTROL equals to]**&#x200B;와(과) 값 **[!UICONTROL Boston]**(으)로 **[!UICONTROL City]**을(를) 선택합니다. 
 참고: 보스턴에 들어온 모든 사람과 연결하려면 대/소문자 구분 옵션의 선택을 취소하십시오.
@@ -49,9 +46,9 @@ ht-degree: 83%
 1. 시카고에 들어온 모든 사람과 연결하려면 대/소문자 구분 옵션의 선택을 취소하십시오.
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
-## 이메일 게재 만들기{#creating-an-email-delivery}
+## 전자 메일 게재 만들기{#creating-an-email-delivery}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;에서 각 세그먼트 뒤에 [이메일 배달](../../automating/using/email-delivery.md) 활동을 드래그하여 놓습니다.
+1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;에서 각 세그먼트 뒤에 [이메일 배달](../../automating/using/email-delivery.md) 활동을 끌어다 놓습니다.
 1. 활동을 클릭하고 편집하려면 ![](assets/edit_darkgrey-24px.png)을(를) 선택합니다.
 1. **[!UICONTROL Simple email]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 1. 전자 메일 템플릿을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
@@ -66,4 +63,3 @@ ht-degree: 83%
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/wf-segmentation-location.png)
-

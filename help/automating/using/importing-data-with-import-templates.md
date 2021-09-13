@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 가져오기 템플릿으로 데이터 가져오기
 description: 데이터를 수집하여 Campaign 데이터베이스를 제공하는 방법을 알아보십시오.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1090'
 ht-degree: 99%
 
 ---
-
 
 # 가져오기 템플릿으로 데이터 가져오기{#importing-data-with-import-templates}
 

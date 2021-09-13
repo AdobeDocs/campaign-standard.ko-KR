@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 크로스채널 전달
-description: 이 사용 사례는 크로스채널 배달을 만드는 방법을 보여줍니다
+title: 크로스 채널 게재
+description: 이 사용 사례에서는 채널 간 게재를 만드는 방법을 보여줍니다
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9cee2005-a99b-47cb-b573-a25812614409
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '856'
 ht-degree: 86%
 
 ---
-
 
 # 채널 간 게재 만들기{#cross-channel-delivery}
 
@@ -68,7 +65,7 @@ ht-degree: 86%
 
 쿼리 활동에서 타겟을 식별한 후에는 이메일과 문자 메시지를 받는 대상을 두 개의 다른 모집단으로 세분화하는 조건을 선택해야 합니다. 
 
-쿼리에서 업스트림 모집단에서 하나 이상의 세그먼트를 만들려면 [세그멘테이션](../../automating/using/segmentation.md) 활동을 사용해야 합니다.
+쿼리에서 업스트림 계산된 모집단에서 하나 또는 여러 세그먼트를 만들려면 [세그먼테이션](../../automating/using/segmentation.md) 활동을 사용해야 합니다.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -115,7 +112,7 @@ ht-degree: 86%
 
 ## 게재 만들기 {#creating-deliveries}
 
-2개의 전환이 이미 생성되었으므로 이제 두 가지 유형의 게재를 세그멘테이션 활동의 아웃바운드 전환에 추가해야 합니다.[이메일 배달](../../automating/using/email-delivery.md) 활동 및 [SMS 배달](../../automating/using/sms-delivery.md) 활동.
+두 개의 전환이 이미 만들어졌으므로 이제 두 가지 유형의 게재를 세분화 활동의 아웃바운드 전환에 추가해야 합니다. [이메일 게재](../../automating/using/email-delivery.md) 활동 및 [SMS 게재](../../automating/using/sms-delivery.md) 활동.
 
 Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습니다. 이렇게 하려면 워크플로우 활동 팔레트의 **[!UICONTROL Channels]** 카테고리에서 게재를 선택합니다.
 
@@ -123,7 +120,7 @@ Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습
 
 전자 메일 게재를 만드는 방법:
 
-1. 첫 번째 세그먼트 뒤에 [이메일 배달](../../automating/using/email-delivery.md) 활동을 드래그하여 놓습니다.
+1. 첫 번째 세그먼트 뒤에 [이메일 배달](../../automating/using/email-delivery.md) 활동을 끌어다 놓습니다.
 1. 활동을 두 번 클릭하여 편집합니다.
 1. **[!UICONTROL Simple email]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Add an outbound transition with the population]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
@@ -140,7 +137,7 @@ Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습
 
 SMS 게재를 만드는 방법:
 
-1. 다른 세그먼트 뒤에 [SMS 배달](../../automating/using/sms-delivery.md) 활동을 드래그하여 놓습니다.
+1. 다른 세그먼트 뒤에 [SMS 게재](../../automating/using/sms-delivery.md) 활동을 끌어다 놓습니다.
 1. 활동을 두 번 클릭하여 편집합니다.
 1. **[!UICONTROL SMS]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 1. SMS 템플릿을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
@@ -153,7 +150,7 @@ SMS 게재를 만드는 방법:
 
 ## 워크플로우 실행 {#running-the-workflow}
 
-워크플로우가 시작되면 이메일 또는 SMS 전달을 받기 위해 **[!UICONTROL Query]** 활동에 타깃팅된 모집단을 세그먼트화합니다.
+워크플로우가 시작되면, **[!UICONTROL Query]** 활동의 타겟팅된 모집단은 분할되어 이메일 또는 SMS 게재를 수신하게 됩니다.
 
 워크플로우를 실행하려면 작업 모음에서 **[!UICONTROL Start]** 버튼을 클릭합니다.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 대상자 읽기
 description: 대상자 읽기 활동을 사용하면 기존 대상자를 검색하고 추가 필터링 조건을 적용하여 정교화할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 86%
+source-wordcount: '206'
+ht-degree: 87%
 
 ---
-
 
 # 대상자 읽기{#read-audience}
 
@@ -33,8 +30,8 @@ ht-degree: 86%
 
 **관련 항목**
 
-* [사용 사례:세련된 두 고객을 위한 결합](../../automating/using/union-on-two-refined-audiences.md)
-* [사용 사례:데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
+* [사용 사례: 정교화한 대상자 두 개 결합](../../automating/using/union-on-two-refined-audiences.md)
+* [사용 사례: 데이터베이스로 파일 대상자 조정](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 구성 {#configuration}
 

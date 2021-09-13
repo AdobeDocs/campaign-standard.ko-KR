@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 최신 릴리스
 description: 이 페이지에서는 최신 Campaign Standard 릴리스의 콘텐츠를 자세히 설명합니다
 audience: rn
@@ -10,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 38%

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 그룹 및 사용자 관리
 description: 보안 그룹을 만들고 사용자를 관리하는 방법을 알아봅니다.
 audience: administration
@@ -11,7 +9,7 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 87%

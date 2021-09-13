@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: SMS 커넥터 프로토콜 및 설정
 description: SMS 커넥터 및 구성 방법에 대해 자세히 알아보십시오.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: 인스턴스 설정
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8664'
 ht-degree: 0%
 
 ---

@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: DataModel
-description: 데이터 모델에 대한 자세한 내용
+title: 데이터 모델
+description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 7%
+source-wordcount: '222'
+ht-degree: 8%
 
 ---
-
 
 # 프로그램(nms:program)
 
@@ -31,35 +28,35 @@ ht-degree: 7%
                <tr>
                   <td>PKey</td>
                   <td>기본 리소스 ID</td>
-                  <td>문자열 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>활동</td>
                   <td>활동</td>
-                  <td>collection </td>
+                  <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>builtIn</td>
-                  <td>내장된 애플리케이션 객체</td>
-                  <td>boolean </td>
+                  <td>기본 제공</td>
+                  <td>기본 제공 애플리케이션 개체</td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>created</td>
-                  <td>작성일</td>
-                  <td>date </td>
+                  <td>생성됨</td>
+                  <td>생성됨</td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy(userBase)</td>
                   <td>작성자</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>desk</td>
+                  <td>desc</td>
                   <td>설명</td>
                   <td>문자열(512)</td>
                   <td> </td>
@@ -67,25 +64,25 @@ ht-degree: 7%
                <tr>
                   <td>end</td>
                   <td>종료 날짜</td>
-                  <td>date </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
-                  <td>지리적 단위</td>
-                  <td>link </td>
+                  <td>지리 단위</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>외부 리소스임</td>
-                  <td>boolean </td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>템플릿</td>
-                  <td>boolean </td>
+                  <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -96,19 +93,19 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>마지막으로 수정한 날짜</td>
-                  <td>date </td>
+                  <td>마지막 수정 날짜</td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>실행 상태</td>
-                  <td>열거형(문자열)(255)</td>
+                  <td>열거형(문자열) (255)</td>
                   <td>
                      <ul>
                         <li>진행 중 - 시작됨 - 시작됨</li>
-                        <li>편집 - 에디션 - 에디션</li>
-                        <li>완료 - 완료 - 완료</li>
+                        <li>편집 - 편집 - 편집</li>
+                        <li>완료됨 - 완료됨 - 완료됨</li>
                         <li>경고 - 경고 - 경고</li>
                         <li>오류 - 오류 - 오류</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -116,13 +113,13 @@ ht-degree: 7%
                   </td>
                </tr>
                <tr>
-                  <td>modifiedBy (userBase)</td>
-                  <td>수정한 사람:</td>
-                  <td>link </td>
+                  <td>modifiedBy(userBase)</td>
+                  <td>수정한 사람</td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>name</td>
+                  <td>이름</td>
                   <td>ID</td>
                   <td>문자열(64)</td>
                   <td> </td>
@@ -130,36 +127,36 @@ ht-degree: 7%
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
                   <td>조직 단위</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent(programBase)</td>
                   <td>상위 프로그램</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>realtimeReport</td>
                   <td>실시간 보고서</td>
-                  <td>item </td>
+                  <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>시작</td>
+                  <td>start</td>
                   <td>시작 날짜</td>
-                  <td>date </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>status</td>
+                  <td>상태</td>
                   <td>상태</td>
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
                         <li>시작됨 - 시작됨 - 1</li>
-                        <li>편집 - 에디션 - 0</li>
-                        <li>완료 - 완료 - 2</li>
+                        <li>편집 - 편집 - 0</li>
+                        <li>완료됨 - 완료됨 - 2</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -167,7 +164,7 @@ ht-degree: 7%
                <tr>
                   <td>템플릿(프로그램)</td>
                   <td>프로그램 템플릿</td>
-                  <td>link </td>
+                  <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -186,7 +183,7 @@ ht-degree: 7%
 
 ## 필터
 
-논리 상태 기준(byLogicalStatus)
+논리 상태(byLogicalStatus) 기준
 
 <table>
     <tr>
@@ -199,7 +196,7 @@ ht-degree: 7%
     </tr>
 </table>
 
-이름 또는 레이블별(텍스트별)
+이름 또는 레이블별(byText)
 
 <table>
     <tr>
@@ -208,7 +205,7 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>텍스트</td>
-    <td>문자열</td>
+    <td>string</td>
     </tr>
 </table>
 
@@ -221,15 +218,15 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>날짜</td>
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>문자열</td>
+    <td>string</td>
     </tr>
 </table>
 
-이기종 목록에서 연속 배달 포함(연속 포함)
+이종 목록에서 연속적인 게재 포함(연속적 포함)
 
 <table>
     <tr>
@@ -238,11 +235,11 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>boolean</td>
+    <td>부울</td>
     </tr>
 </table>
 
-하위 프로그램 포함(상위 포함)
+하위 프로그램 포함(withParent)
 
 <table>
         <tr>
@@ -251,11 +248,11 @@ ht-degree: 7%
         </tr>
         <tr>
         <td>withParent</td>
-        <td>boolean</td>
+        <td>부울</td>
         </tr>
     </table>
 
-적격한 상위(적격한 상위)
+적합한 부모(적격 부모)만
 
 <table>
     <tr>
@@ -264,11 +261,11 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>프로그램</td>
-    <td>link</td>
+    <td>링크</td>
     </tr>
 </table>
 
-주어진 기간에 대해 계획됨(계획별)
+지정된 기간에 대해 계획됨(계획별)
 
 <table>
     <tr>
@@ -277,15 +274,15 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>날짜</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>날짜</td>
     </tr>
 </table>
 
-주어진 기간(달력별) 동안 있음
+지정된 기간(달력) 동안 존재함
 
 <table>
     <tr>
@@ -294,10 +291,10 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>날짜</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>날짜</td>
     </tr>
 </table>

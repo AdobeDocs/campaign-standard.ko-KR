@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 매핑 정의
 description: XDM(Experience Data Model) 필드에 Campaign Standard 필드를 매핑하는 방법을 알아봅니다.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM 통합
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -38,8 +36,8 @@ ht-degree: 0%
 
 1. 필수 필드를 작성하고 다음을 선택합니다.
 
-   * **타겟팅 차원**:매핑할 Campaign Standard 스키마입니다
-   * **데이터 세트**:Adobe Experience Platform의 XDM 스키마와 연결된 데이터 패키지입니다.
+   * **타겟팅 차원**: 매핑할 Campaign Standard 스키마입니다
+   * **데이터 세트**: Adobe Experience Platform의 XDM 스키마와 연결된 데이터 패키지입니다.
 
 >[!NOTE]
 >

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 포기 트리거 사용 사례
 description: Experience Cloud 트리거 통합을 사용하는 방법을 다양한 사용 사례를 통해 알아봅니다.
 audience: integrating
@@ -10,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 98%

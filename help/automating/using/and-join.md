@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: AND-결합
 description: AND-결합 활동을 사용하면 워크플로우의 여러 실행 분기를 동기화할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: andjoin,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 98%
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
-
 
 # AND-결합{#and-join}
 
@@ -45,4 +42,3 @@ ht-degree: 98%
 다음 예제에서는 **[!UICONTROL AND-join]** 활동으로 결합되기 전의 두 워크플로우 분기를 보여줍니다. **[!UICONTROL AND-join]** 활동의 세 인바운드 전환이 활성화된 경우에만 파일 추출을 수행할 수 있습니다.
 
 ![](assets/wkf_and-join_example.png)
-

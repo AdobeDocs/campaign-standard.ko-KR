@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Audience Destinations 서비스 정보
+title: Audience Destinations 서비스 기본 정보
 description: Audience 대상 서비스에 대해 자세히 알아보십시오.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM 통합
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '376'
 ht-degree: 2%
 
 ---
 
-# Audience Destinations 서비스 정보 {#about-audiences}
+# Audience Destinations 서비스 기본 정보 {#about-audiences}
 
 >[!IMPORTANT]
 >
@@ -39,14 +37,14 @@ ht-degree: 2%
 
 다음 섹션에 사용되는 용어:
 
-* **프로필**:프로필은 소비자의 속성을 정의하는 데 사용되는 Experience Platform 표준 데이터 모델입니다. 프로필은 개인 및 장치와 관련된 이벤트 데이터 및 속성의 집합일 수도 있습니다.
+* **프로필**: 프로필은 소비자의 속성을 정의하는 데 사용되는 Experience Platform 표준 데이터 모델입니다. 프로필은 개인 및 장치와 관련된 이벤트 데이터 및 속성의 집합일 수도 있습니다.
 
-   예:&quot;존 도는 55세의 남자입니다.&quot;
+   예: &quot;존 도는 55세의 남자입니다.&quot;
 
-* **세그먼트**:속성과 이벤트 데이터를 모두 사용하여 데이터베이스의 프로필 하위 집합을 정의하는 규칙 집합입니다.
+* **세그먼트**: 속성과 이벤트 데이터를 모두 사용하여 데이터베이스의 프로필 하위 집합을 정의하는 규칙 집합입니다.
 
-   예:&quot;50세 이상의 남자&quot;
+   예: &quot;50세 이상의 남자&quot;
 
-* **대상**:세그먼트 규칙을 충족하는 프로필 컬렉션입니다.
+* **대상**: 세그먼트 규칙을 충족하는 프로필 컬렉션입니다.
 
-   예:데이터베이스의 모든 남성 50세 이상에 해당하는 프로필 목록입니다.
+   예: 데이터베이스의 모든 남성 50세 이상에 해당하는 프로필 목록입니다.

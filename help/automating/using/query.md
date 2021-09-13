@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 쿼리
 description: 쿼리 활동을 통해 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1757'
 ht-degree: 93%
 
 ---
-
 
 # 쿼리{#query}
 
@@ -56,7 +53,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >대상을 타깃팅할 때 대상의 정의는 참조되지 않지만 **복사된**&#x200B;은 쿼리에 복사됩니다. 쿼리에서 대상을 타깃팅한 후 대상을 변경하는 경우 새 정의를 고려하도록 쿼리를 다시 구성해야 합니다.
+   >대상을 타깃팅할 때 대상의 정의는 참조되지 않지만 **은(는) 쿼리에**&#x200B;복사됩니다. 쿼리에서 타겟팅한 후 대상자를 변경한 경우 새 정의를 고려하도록 쿼리를 다시 구성해야 합니다.
 
 1. 전용 탭을 통해 타겟팅된 모집단에 대한 **[!UICONTROL Additional data]**&#x200B;을(를) 정의할 수 있습니다. 이 데이터는 추가 열에 저장되며 진행 중인 워크플로우에만 사용할 수 있습니다. 특히 쿼리의 타겟팅 차원에 연결된 Adobe Campaign 데이터베이스 테이블에서 데이터를 추가할 수 있습니다. [데이터 강화](#enriching-data) 섹션을 참조하십시오.
 
@@ -66,7 +63,7 @@ ht-degree: 93%
 
 1. **[!UICONTROL Transition]** 탭에서 **[!UICONTROL Enable an outbound transition]** 옵션을 사용하면 검색된 데이터가 없는 경우에도 쿼리 활동 뒤에 아웃바운드 전환을 추가할 수 있습니다.
 
-   아웃바운드 전환의 세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다([이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 참조).
+   아웃바운드 전환의 세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다( [이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 참조).
 
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.
 
@@ -74,7 +71,7 @@ ht-degree: 93%
 
 타겟팅 차원 및 리소스를 통해 쿼리의 기반이 되는 요소를 정의하여 게재 타겟을 결정할 수 있습니다.
 
-이러한 매핑은 [대상 매핑](../../administration/using/target-mappings-in-campaign.md)에서 구성되며, Query 활동의 **[!UICONTROL Properties]** 탭에서 워크플로우를 만들 때 정의됩니다.
+매개 변수는 [타겟 매핑](../../administration/using/target-mappings-in-campaign.md)에 구성되며, 워크플로우를 만들 때 쿼리 활동의 **[!UICONTROL Properties]** 탭에서 정의됩니다.
 
 >[!NOTE]
 >
@@ -104,7 +101,7 @@ ht-degree: 93%
 
 타겟팅 차원 및 리소스는 기본적으로 프로필을 타겟팅하도록 설정되어 있습니다. 하지만 떨어진 표에 있는 특정 레코드를 검색하려는 경우, 타겟팅 차원과 다른 리소스를 사용하면 유용할 수 있습니다.
 
-자세한 내용은 다음 사용 사례를 참조하십시오.대상 차원과 다른 리소스 사용](../../automating/using/using-resources-different-from-targeting-dimensions.md)[
+자세한 내용은 다음 사용 사례를 참조하십시오. [타겟팅 차원과 다른 리소스 사용](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## 데이터 강화 {#enriching-data}
 
@@ -126,7 +123,7 @@ ht-degree: 93%
 >
 >쿼리의 **[!UICONTROL Additional data]** 탭에 있는 **[!UICONTROL Advanced options]**&#x200B;에는 **[!UICONTROL Remove duplicate rows (DISTINCT)]** 옵션이 기본적으로 선택되어 있습니다. **[!UICONTROL Query]** 활동에 정의된 추가 데이터가 많은 경우(100개 이상), 성능상의 이유로 이 옵션의 선택을 해제하는 것을 추천합니다. 단, 이 옵션을 선택 해제하면 쿼리된 데이터에 따라 중복 항목이 발생할 수 있습니다.
 
-추가 데이터로 이메일을 개인화하는 방법에 대한 사용 사례는 [이 섹션](../../automating/using/personalizing-email-with-additional-data.md)에 있습니다.
+추가 데이터를 사용하여 이메일을 개인화하는 방법에 대한 사용 사례가 [이 섹션](../../automating/using/personalizing-email-with-additional-data.md)에 나와 있습니다.
 
 ### 단순 필드 추가 {#adding-a-simple-field}
 

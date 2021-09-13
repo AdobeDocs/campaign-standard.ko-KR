@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 증분 쿼리
 description: 증분 쿼리 활동을 통해 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: incremental,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
-
 
 # 증분 쿼리{#incremental-query}
 
@@ -47,7 +44,7 @@ ht-degree: 98%
 
 **관련 항목**
 
-* [사용 사례:서비스 가입자에 대한 증분 쿼리](../../automating/using/incremental-query-on-subscribers.md)
+* [사용 사례: 서비스의 구독자에 대한 증분 쿼리](../../automating/using/incremental-query-on-subscribers.md)
 
 ## 구성 {#configuration}
 

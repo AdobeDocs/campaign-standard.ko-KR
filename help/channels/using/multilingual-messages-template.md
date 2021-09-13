@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 다국어 메시지 템플릿
 description: 자동으로 세그먼트화된 고객의 선호 언어를 기반으로 하는 단일 게재를 통해 다국어 이메일/SMS 게재를 정의하고 실행하는 방법을 알아봅니다. 언어 및 개인 수준에 대한 모든 게재의 성과를 보고합니다.
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: 다국어 메시지
+feature: Multilingual Messages
 role: User
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 99%
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 

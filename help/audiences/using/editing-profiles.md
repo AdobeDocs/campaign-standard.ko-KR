@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 프로필 편집
 description: 기존 프로필을 편집하고 연락처 정보, 기본 채널, 추적 로그, 구독 등에 액세스하는 방법을 알아봅니다.
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: 프로필
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 8%
 
 ---

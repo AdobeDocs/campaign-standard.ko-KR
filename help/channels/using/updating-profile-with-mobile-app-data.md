@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 모바일 애플리케이션 데이터를 기반으로 프로필 정보 만들고 업데이트하기
 description: 모바일 애플리케이션 데이터를 기반으로 프로필 정보를 만들고 업데이트하는 방법을 알아봅니다.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: 푸시
+feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1010'
 ht-degree: 4%
 
 ---

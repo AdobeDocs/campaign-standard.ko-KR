@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Experience Cloud 트리거 구성
+title: Experience Cloud에서 Triggers 구성
 description: '이전 행동을 기반으로 고객에게 개인화된 게재 전송을 시작하도록 Adobe Experience Cloud Triggers 통합을 구성하는 방법을 알아봅니다. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: 트리거
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '858'
 ht-degree: 7%
 
 ---
 
-# Experience Cloud 트리거 구성{#configuring-triggers-in-experience-cloud}
+# Experience Cloud에서 Triggers 구성{#configuring-triggers-in-experience-cloud}
 
-## 기능 {#activating-the-functionality} 활성화
+## 기능 활성화 {#activating-the-functionality}
 
 Adobe을 통해 Adobe Campaign에서 기능을 활성화해야 합니다. Adobe 계정 담당자 또는 전문 서비스 파트너에게 문의하십시오.
 
@@ -67,7 +65,7 @@ Adobe 팀에서는 트리거를 활성화하려면 다음 정보가 필요합니
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Experience Cloud 사용자 핵심 서비스 {#configuring-experience-cloud-people-core-service} 구성
+### Experience Cloud 사용자 핵심 서비스 구성 {#configuring-experience-cloud-people-core-service}
 
 DTM에서 이전에 참조된 별칭을 고객 속성을 통해 사용자 핵심 서비스에서 만들어야 합니다. 새 별칭을 만들고 통합 코드에서 동일한 DTM 별칭(예: &quot;visitorid&quot;)을 참조하는지 확인합니다.
 
@@ -77,7 +75,7 @@ DTM에서 이전에 참조된 별칭을 고객 속성을 통해 사용자 핵심
 >
 >Adobe Campaign의 데이터 소스에서 이 고객 속성을 사용합니다(다음 단계).
 
-### Campaign {#configuring-triggers-and-aliases-in-campaign}에서 트리거 및 별칭 구성
+### Campaign에서 트리거 및 별칭 구성 {#configuring-triggers-and-aliases-in-campaign}
 
 1. Adobe Campaign Standard 인스턴스에 **[!UICONTROL Experience Cloud triggers]**&#x200B;이 표시되는지 확인하십시오. 그렇지 않은 경우 Adobe Campaign 관리자에게 문의하십시오.
 

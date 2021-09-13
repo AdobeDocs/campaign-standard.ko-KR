@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 데이터 모델 기본 개념
 description: Adobe Campaign 데이터 모델과 수정 방법에 대해 알아봅니다.
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 78%
+source-wordcount: '244'
+ht-degree: 79%
 
 ---
-
 
 # 데이터 모델 기본 개념{#data-model-concepts}
 
@@ -37,7 +34,7 @@ Adobe Campaign에서 사용하는 데이터는 다양한 리소스를 통해 정
 
 >[!NOTE]
 >
->[이 페이지](../../developing/using/datamodel-introduction.md)에서 내장 리소스에 대한 데이터 모델 표현을 찾을 수 있습니다.
+>이 페이지](../../developing/using/datamodel-introduction.md)에서 기본 제공 리소스에 대한 데이터 모델 표시를 확인할 수 있습니다.[
 
 또한 만든 리소스에 해당하는 화면에서 [내비게이션을 구성](configuring-the-screen-definition.md)할 수도 있습니다.
 
@@ -45,4 +42,4 @@ Adobe Campaign에서 사용하는 데이터는 다양한 리소스를 통해 정
 
 >[!CAUTION]
 >
->**[!UICONTROL Administration]** 역할 및 **에 대한 액세스 권한이 있는 [관리자](../../administration/using/users-management.md#functional-administrators)만 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다.** 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블(프로필, 배달)부터 시작합니다.
+>**[!UICONTROL Administration]** 역할과 **에 대한 액세스 권한이 있는 [관리자](../../administration/using/users-management.md#functional-administrators)만 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다.** 관리자가 아닌 사용자는 이러한 로그를 타겟팅할 수 있지만 연결된 테이블(프로필, 게재)부터 시작합니다.

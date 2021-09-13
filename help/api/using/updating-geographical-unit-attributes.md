@@ -1,33 +1,30 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 지리 단위 특성 업데이트
-description: API를 사용하여 지리적 단위 속성을 업데이트하는 방법 알아보기
+description: API로 지리 단위 특성을 업데이트하는 방법을 알아봅니다
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 12%
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
-
 # 지리 단위 특성 업데이트 {#managing-geographical-units}
 
-1. 지리적 단위 PKey를 검색하려면 **geoUnitBase** 리소스에서 GET 요청을 수행합니다.
-1. 페이로드에서 업데이트할 속성을 사용하여 지리학적 단위로 PATCH 요청을 수행합니다.
+1. **geoUnitBase** 리소스에 대해 GET 요청을 수행하여 지리 단위 PKey를 검색합니다.
+1. 페이로드에서 업데이트할 특성을 사용하여 지리 단위에 대한 PATCH 요청을 수행합니다.
 
 <br/>
 
 ***샘플 요청***
 
-지리적 단위 목록을 읽어들입니다.
+지리 단위 목록을 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \
@@ -53,7 +50,7 @@ ht-degree: 12%
 },
 ```
 
-페이로드에서 업데이트할 속성을 사용하여 지리학적 단위로 PATCH 요청을 수행합니다.
+페이로드에서 업데이트할 특성을 사용하여 지리 단위에 대한 PATCH 요청을 수행합니다.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 워크플로우 세그먼트 기반 보고서 만들기
 description: 보고서에 있는 워크플로우 세그먼트에 따라 게재의 성공을 확인하는 방법을 알아봅니다.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 보고
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
-source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '624'
 ht-degree: 2%
 
 ---
@@ -25,16 +23,16 @@ ht-degree: 2%
 워크플로우를 만들고 모집단을 다른 타겟팅된 대상으로 필터링한 후 이 타겟팅 워크플로우에 정의된 세그먼트를 기반으로 마케팅 캠페인의 효율성을 측정할 수 있습니다.
 보고서에서 이러한 세그먼트를 타깃팅하려면 다음을 수행하십시오.
 
-* [1단계:세그먼트로 프로필 사용자 지정 리소스 업데이트](#step-1--update-profiles-custom-resource-segments)
-* [2단계:세그먼트로 워크플로우 만들기](#step-2--create-a-workflow-segments)
-* [3단계:동적 보고서를 만들어 세그먼트 필터링](#step-3--create-a-dynamic-report-filter-segments)
+* [1단계: 세그먼트로 프로필 사용자 지정 리소스 업데이트](#step-1--update-profiles-custom-resource-segments)
+* [2단계: 세그먼트로 워크플로우 만들기](#step-2--create-a-workflow-segments)
+* [3단계: 동적 보고서를 만들어 세그먼트 필터링](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
 >이러한 데이터를 수집하려면 동적 보고 사용 계약서를 승인해야 합니다.
 >
 >이 계약에 대한 자세한 정보는 이 [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)을 참조하십시오.
 
-## 1단계:세그먼트로 프로필 사용자 지정 리소스 업데이트{#step-1--update-profiles-custom-resource-segments}
+## 1단계: 세그먼트로 프로필 사용자 지정 리소스 업데이트{#step-1--update-profiles-custom-resource-segments}
 
 세그먼트 코드에 대해 보고하기 전에 세그먼트 코드를 저장할 **[!UICONTROL Profiles]** 사용자 지정 리소스를 업데이트해야 합니다.
 
@@ -58,12 +56,12 @@ ht-degree: 2%
 
 세그먼트 코드는 **[!UICONTROL Sending logs extension]**&#x200B;에서 세그먼트 코드를 활성화하는 즉시 수집됩니다.
 
-## 2단계:세그먼트로 워크플로우 만들기 {#step-2--create-a-workflow-segments}
+## 2단계: 세그먼트로 워크플로우 만들기 {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >이메일 게재의 입력 전환이 비어 있는 경우, 기본적으로 이전 전환의 세그먼트 코드가 추가됩니다.
 
-먼저 타겟팅된 모집단이 다른 워크플로우를 만들어야 합니다. 여기서는 대상자의 나이에 따라 개인화된 이메일을 보내려고 합니다.한 게재는 20~30세 프로필에 대해, 30~40세 프로필에 대해 각각 제공됩니다.
+먼저 타겟팅된 모집단이 다른 워크플로우를 만들어야 합니다. 여기서는 대상자의 나이에 따라 개인화된 이메일을 보내려고 합니다. 한 게재는 20~30세 프로필에 대해, 30~40세 프로필에 대해 각각 제공됩니다.
 
 1. 워크플로우를 만듭니다. 워크플로우를 만드는 방법에 대한 자세한 내용은 이 [페이지](../../automating/using/building-a-workflow.md)를 참조하십시오.
 
@@ -104,7 +102,7 @@ ht-degree: 2%
 
 이제 보고서에 액세스하여 세그먼트 코드를 추적할 수 있습니다.
 
-## 3단계:동적 보고서를 만들어 세그먼트 필터링 {#step-3--create-a-dynamic-report-filter-segments}
+## 3단계: 동적 보고서를 만들어 세그먼트 필터링 {#step-3--create-a-dynamic-report-filter-segments}
 
 워크플로우로 게재를 보낸 후, 워크플로우의 세그먼트 코드를 사용하여 보고서를 분류할 수 있습니다.
 

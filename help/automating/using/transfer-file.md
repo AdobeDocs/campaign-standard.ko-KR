@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 파일 전송
 description: 파일 전송 활동을 사용하면 Adobe Campaign에서 파일을 받거나 보내고, 파일이 있는지 테스트하거나 파일 목록을 만들 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-feature: 워크플로우
+feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1115'
 ht-degree: 91%
 
 ---
@@ -34,7 +32,7 @@ ht-degree: 91%
 
 **관련 항목:**
 
-* [사용 사례:자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
+* [사용 사례: 자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)
 
 ## 구성 {#configuration}
 
@@ -109,7 +107,7 @@ Amazon S3 프로토콜을 사용하면 URL 또는 외부 계정에서 Amazon Sim
    >
    > 와일드카드는 Amazon S3에서 지원되지 않습니다.
    >
-   > `my_file_02` 및 `my _file_3433` 같은 여러 파일을 타깃팅하려면 다음 구문을 사용할 수 있습니다.`acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`
+   > `my_file_02` 및 `my _file_3433` 같은 여러 파일을 타깃팅하려면 다음 구문을 사용할 수 있습니다. `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`
 
 4. 전송이 완료되었을 때 소스 파일을 삭제하려면 **[!UICONTROL Delete the source files after transfer]**&#x200B;을(를) 선택합니다.
 
@@ -179,5 +177,5 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 
 사용 가능한 출력 변수는 다음과 같습니다.
 
-* **[!UICONTROL fileName]**:전송된 파일의 이름입니다.
-* **[!UICONTROL filesCount]**:전송된 파일 수
+* **[!UICONTROL fileName]**: 전송된 파일의 이름입니다.
+* **[!UICONTROL filesCount]**: 전송된 파일 수

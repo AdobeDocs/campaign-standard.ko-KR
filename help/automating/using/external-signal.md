@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 외부 신호
 description: 외부 신호 활동은 다른 워크플로우에서 일부 조건이 성공적으로 충족되면 워크플로우를 트리거합니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 96%
 
 ---
-
 
 # 외부 신호{#external-signal}
 
@@ -43,8 +40,8 @@ ht-degree: 95%
 
 **관련 항목**
 
-* [사용 사례:외부 신호 활동 및 데이터 가져오기](../../automating/using/external-signal-data-import.md).
-* [사용 사례:외부 매개 변수를 사용하여 파일에서 대상을 만들기 위한 워크플로우 호출](../../automating/using/use-case-calling-workflow.md)
+* [사용 사례: 외부 신호 활동 및 데이터 가져오기](../../automating/using/external-signal-data-import.md).
+* [사용 사례: 외부 매개 변수를 사용하여 파일에서 대상자를 만들기 위한 워크플로우 호출](../../automating/using/use-case-calling-workflow.md)
 
 ## 구성 {#configuration}
 

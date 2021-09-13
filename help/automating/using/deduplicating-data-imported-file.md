@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 가져온 파일에서 데이터 중복 제거
 description: 이 예제에서는 데이터를 데이터베이스에 로드하기 전에 가져온 파일에서 데이터를 중복 제거하는 방법을 보여줍니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 631eb661-a696-4352-aa58-9097b391723e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 88%
+source-wordcount: '328'
+ht-degree: 89%
 
 ---
-
 
 # 가져온 파일에서 데이터 중복 제거 {#deduplicating-the-data-from-an-imported-file}
 
@@ -27,7 +24,7 @@ ht-degree: 88%
 
 ![](assets/deduplication_example2_workflow.png)
 
-* 프로파일 목록이 포함된 파일은 [파일 로드](../../automating/using/load-file.md) 활동을 사용하여 가져옵니다. 이 예제에서 가져온 파일은 .csv 포맷이며 10개의 프로필이 포함되어 있습니다.
+* 프로필 목록이 포함된 파일은 [파일 로드](../../automating/using/load-file.md) 활동을 사용하여 가져옵니다. 이 예제에서 가져온 파일은 .csv 포맷이며 10개의 프로필이 포함되어 있습니다.
 
    ```
    lastname;firstname;dateofbirth;email
@@ -47,13 +44,13 @@ ht-degree: 88%
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* [데이터 중복 제거](../../automating/using/deduplication.md) 활동. 중복 제거는 파일을 가져온 후 데이터베이스에 데이터를 삽입하기 전에 직접 수행됩니다. 그러므로 **[!UICONTROL Load file]** 활동의 **[!UICONTROL Temporary resource]**&#x200B;을(를) 기반으로 해야 합니다.
+* [중복 제거](../../automating/using/deduplication.md) 활동. 중복 제거는 파일을 가져온 후 데이터베이스에 데이터를 삽입하기 전에 직접 수행됩니다. 그러므로 **[!UICONTROL Load file]** 활동의 **[!UICONTROL Temporary resource]**&#x200B;을(를) 기반으로 해야 합니다.
 
    이 예에서는 파일에 포함된 고유한 이메일 주소당 하나의 항목을 유지하려고 합니다. 따라서 임시 리소스의 **이메일** 열에 중복 식별이 수행됩니다. 그러나 파일에 두 개의 이메일 주소가 두 번 나타납니다. 따라서 두 줄은 중복으로 간주됩니다.
 
    ![](assets/deduplication_example2_dedup.png)
 
-* [데이터 업데이트](../../automating/using/update-data.md) 활동을 사용하면 데이터 중복 제거 프로세스에서 유지된 데이터를 데이터베이스에 삽입할 수 있습니다. 가져온 데이터가 프로필 차원에 속하는 것으로 식별되는 경우에만 데이터가 업데이트됩니다.
+* [데이터 업데이트](../../automating/using/update-data.md) 활동을 사용하면 중복 제거 프로세스에서 유지된 데이터를 데이터베이스에 삽입할 수 있습니다. 가져온 데이터가 프로필 차원에 속하는 것으로 식별되는 경우에만 데이터가 업데이트됩니다.
 
    여기서는 데이터베이스에 아직 존재하지 않는 프로필을 **[!UICONTROL Insert only]**&#x200B;합니다. 파일의 이메일 열과 **프로필** 차원의 이메일 필드를 조정 키로 사용하여 이를 수행합니다.
 

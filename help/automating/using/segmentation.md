@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 세분화
 description: 세분화 활동을 사용하면 워크플로우 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 92%
 
 ---
-
 
 # 세분화{#segmentation}
 
@@ -32,8 +29,8 @@ ht-degree: 92%
 >기본적으로 인바운드 모집단의 멤버는 단일 세그먼트에만 속할 수 있습니다. 활동 내 세그먼트의 순서에 따라 필터가 적용됩니다.
 
 **관련 항목:**
-* [사용 사례:위치 세분화](../../automating/using/workflow-segmentation-location.md)
-* [사용 사례:연령 그룹에 따른 세그먼테이션](../../automating/using/segmentation-age-groups.md)
+* [사용 사례: 위치에 대한 세분화](../../automating/using/workflow-segmentation-location.md)
+* [사용 사례: 연령 그룹에 따른 세분화](../../automating/using/segmentation-age-groups.md)
 
 ## 사용의 컨텍스트 {#context-of-use}
 
@@ -41,13 +38,13 @@ ht-degree: 92%
 
 **관련 항목**
 
-* [사용 사례:연령 그룹에 따라 프로필 세그먼트화](../../automating/using/segmentation-age-groups.md).
+* [사용 사례: 나이 그룹에 따라 프로필 세그먼트화](../../automating/using/segmentation-age-groups.md).
 
 ## 구성 {#configuration}
 
 1. **[!UICONTROL Segmentation]** 활동을 워크플로우로 끌어서 놓습니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
-1. **[!UICONTROL General]** 탭에서 세그먼테이션을 수행해야 하는 **[!UICONTROL Resource type]**&#x200B;을 선택합니다.
+1. **[!UICONTROL General]** 탭에서 세분화를 수행할 **[!UICONTROL Resource type]** 을 선택합니다.
 
    * 데이터베이스에 이미 있는 데이터에 대해 세분화를 수행하려는 경우 **[!UICONTROL Database resource]**. 세분화할 데이터에 따라 **[!UICONTROL Filtering dimension]**&#x200B;을(를) 선택합니다. 세분화는 기본적으로 **프로필**&#x200B;에 대해 수행됩니다.
    * 워크플로우의 임시 데이터에 대해 세분화를 수행하려는 경우 **[!UICONTROL Temporary resource]**: 세분화할 데이터가 있는 **[!UICONTROL Targeted set]**&#x200B;을(를) 선택합니다. 이 사용 사례는 파일을 가져온 후 또는 데이터베이스의 데이터를 보강한 경우에 발생할 수 있습니다.
@@ -64,7 +61,7 @@ ht-degree: 92%
    * **[!UICONTROL Limit segment population]**: 세그먼트 크기를 제한할 수 있습니다.
    * **[!UICONTROL Filter and limit segment population]**: 세그먼트의 모집단을 필터링하고 크기를 제한할 수 있습니다.
    * **[!UICONTROL Label]**: 세그먼트 레이블입니다.
-   * **[!UICONTROL Segment code]**:코드를 세그먼트 채우기에 할당할 수 있습니다.세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다( [이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 참조).
+   * **[!UICONTROL Segment code]**: 세그먼트 모집단에 지정된 코드입니다. 세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다( [이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 참조).
    * **[!UICONTROL Exclude segment from population]**: 지정된 세그먼트를 활동의 아웃바운드 모집단에서 제외할 수 있습니다. 이 옵션은 **[!UICONTROL Generate all segments in the same transition]** 옵션을 선택한 경우에만 사용할 수 있습니다.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -99,6 +96,6 @@ ht-degree: 92%
 
    * 인바운드 모집단의 멤버가 동시에 여러 세그먼트에 속하도록 하려면 **[!UICONTROL Enable overlapping of outbound populations]** 옵션을 선택합니다. 활동의 아웃바운드 모집단은 인바운드 모집단을 초과할 수 있습니다.
    * 남겨 두려는 세그먼트 코드가 인바운드 모집단에 이미 할당된 경우 **[!UICONTROL Concatenate the code of each segment]** 옵션을 선택합니다. 활동에 지정된 세그먼트 코드가 초기 세그먼트 코드에 추가됩니다.
-   * 나머지 모집단을 활용하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. [사용 사례 참조:보완](../../automating/using/workflow-created-query-with-complement.md)으로 배달 만들기.
+   * 나머지 모집단을 활용하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. [사용 사례 를 참조하십시오. 보충](../../automating/using/workflow-created-query-with-complement.md)으로 게재 만들기
 
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.

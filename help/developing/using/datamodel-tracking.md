@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: DataModel
-description: 데이터 모델에 대한 자세한 내용
+title: 데이터 모델
+description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0f5dd92c-2222-4456-86cd-3cc2e1c83fc1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '38'
+source-wordcount: '34'
 ht-degree: 5%
 
 ---
-
 
 # 추적 로그(nms:remoteTracking)
 
@@ -31,7 +28,7 @@ ht-degree: 5%
                <tr>
                   <td>PKey</td>
                   <td>기본 리소스 ID</td>
-                  <td>문자열 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
@@ -43,19 +40,19 @@ ht-degree: 5%
                <tr>
                   <td>로그</td>
                   <td>로그</td>
-                  <td>문자열 </td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pointerTo</td>
-                  <td>포인터</td>
-                  <td>문자열 </td>
+                  <td>PointerTo</td>
+                  <td>string </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>srvDate</td>
                   <td>SrvDate</td>
-                  <td>date </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
             </table>

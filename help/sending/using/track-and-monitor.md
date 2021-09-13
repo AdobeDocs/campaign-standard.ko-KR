@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 메시지 추적 및 모니터링
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Adobe Campaign을 통해 전송된 메시지를 추적하고 수신자가 게재에 어떻게 반응하는지를 확인하는 방법을 알아봅니다
-feature: 전달성
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '432'
 ht-degree: 4%
 
 ---

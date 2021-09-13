@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Adobe Experience Platform 데이터 커넥터 정보
+title: Adobe Experience Platform 데이터 커넥터 기본 정보
 description: XDM 스키마를 관리하여 Adobe Experience Platform에서 Campaign Standard 데이터를 사용할 수 있도록 합니다.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM 통합
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '771'
 ht-degree: 4%
 
 ---
 
-# Adobe Experience Platform 데이터 커넥터 정보 {#about-aep-data-connector}
+# Adobe Experience Platform 데이터 커넥터 기본 정보 {#about-aep-data-connector}
 
 >[!IMPORTANT]
 >
@@ -70,7 +68,7 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 * 구독 이벤트의 기본 전송이 지원되지 않습니다. 구독 이벤트를 전송하려면 Adobe Experience Platform에서 해당 XDM 및 데이터 세트를 만든 다음 이러한 데이터에 대한 사용자 지정 데이터 매핑을 구성할 수 있습니다.
 
-* 개인 정보 보호 요청(액세스 및 삭제 작업 모두)과 관련하여 고객은 [개인 정보 보호 핵심 서비스](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)를 통해 별도의 요청을 수행해야 합니다.하나는 Campaign용, 하나는 Adobe Experience Platform용. 자세한 내용은 Campaign에서 [개인 정보 보호 요청 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ko#getting-started) 및 [개인 정보 보호 요청 관리](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)를 참조하십시오.
+* 개인 정보 보호 요청(액세스 및 삭제 작업 모두)과 관련하여 고객은 [개인 정보 보호 핵심 서비스](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)를 통해 별도의 요청을 수행해야 합니다. 하나는 Campaign용, 하나는 Adobe Experience Platform용. 자세한 내용은 Campaign에서 [개인 정보 보호 요청 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ko#getting-started) 및 [개인 정보 보호 요청 관리](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)를 참조하십시오.
 
 * 각 XDM 필드에 대해 Adobe Experience Platform에서 DULE 레이블 지정을 수행해야 합니다. DULE 레이블을 적용하는 것은 고객의 책임입니다.
 

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: '기존 콘텐츠를 사용한 이메일 디자인 '
 description: 이메일 디자이너에서 기존 콘텐츠 이메일 콘텐츠를 사용하여 이메일을 디자인하는 방법을 알아봅니다.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 이메일 디자인
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1212'
 ht-degree: 6%
 
 ---

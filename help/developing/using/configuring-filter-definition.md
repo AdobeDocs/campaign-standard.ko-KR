@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 필터 정의 구성
 description: 필터 기능으로 대용량 데이터 세트를 관리하는 방법을 알아봅니다.
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 342911c5-0746-4205-b380-be195b9cb82a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 94%
+source-wordcount: '541'
+ht-degree: 95%
 
 ---
-
 
 # 필터 정의 구성{#configuring-filter-definition}
 
@@ -84,8 +81,8 @@ ht-degree: 94%
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-필터가 구성되면 다음 구문을 사용하여 Campaign Standard API에서 필터를 사용할 수 있습니다.
+필터가 구성되면 다음 구문을 사용하여 Campaign Standard API에서 사용할 수 있습니다.
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-자세한 내용은 [Campaign Standard API 설명서](../../api/using/filtering.md#custom-filters)를 참조하십시오.
+자세한 내용은 [Campaign Standard API 설명서](../../api/using/filtering.md#custom-filters) 를 참조하십시오.

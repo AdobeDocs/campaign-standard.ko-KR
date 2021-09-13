@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 데이터 보강
 description: 데이터 보강 활동은 워크플로우에서 처리할 추가 데이터를 정의할 수 있는 고급 활동입니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 95%
+source-wordcount: '541'
+ht-degree: 96%
 
 ---
-
 
 # 데이터 보강{#enrichment}
 
@@ -37,8 +34,8 @@ ht-degree: 95%
 
 **관련 항목**
 
-* [사용 사례:파일에 포함된 데이터로 프로필 데이터를 풍성하게 합니다](../../automating/using/enriching-profile-data-file.md).
-* [사용 사례:풍부한 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
+* [사용 사례: 파일에 포함된 데이터로 프로필 데이터 보강](../../automating/using/enriching-profile-data-file.md).
+* [사용 사례: 보강된 필드가 포함된 이메일 보내기](../../automating/using/sending-email-enriched-fields.md)
 
 ## 구성 {#configuration}
 

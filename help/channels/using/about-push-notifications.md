@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 푸시 알림 기본 정보
 description: Adobe Campaign 푸시 알림 채널의 주요 특성을 알아봅니다.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: 푸시
+feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1278'
 ht-degree: 50%
 
 ---

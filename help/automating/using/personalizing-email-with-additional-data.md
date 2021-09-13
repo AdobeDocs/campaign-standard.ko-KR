@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 추가 데이터를 사용하여 이메일 개인화
-description: 이 사용 사례는 쿼리에 다른 유형의 추가 데이터를 추가하고 이메일의 개인화 필드로 사용하는 방법을 설명합니다.
+description: 이 사용 사례에서는 쿼리에 다양한 유형의 데이터를 추가하여 이메일의 개인화 필드로 사용하는 방법을 설명합니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,18 +8,17 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 85%
+source-wordcount: '479'
+ht-degree: 86%
 
 ---
 
-
 # 추가 데이터를 사용하여 이메일 개인화 {#example--personalizing-an-email-with-additional-data}
 
-다음 예제에서는 쿼리에 다양한 유형의 데이터를 추가하여 이메일의 개인화 필드로 사용하는 방법을 보여줍니다. **[!UICONTROL Query]** 활동의 데이터 강화 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/query.md#enriching-data)을 참조하십시오.
+다음 예제에서는 쿼리에 다양한 유형의 데이터를 추가하여 이메일의 개인화 필드로 사용하는 방법을 보여줍니다. **[!UICONTROL Query]** 활동의 타겟팅된 데이터를 보강하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/query.md#enriching-data)을 참조하십시오.
 
 이 예제에서는 [사용자 정의 리소스](../../developing/using/data-model-concepts.md)를 사용합니다.
 
@@ -35,7 +32,7 @@ ht-degree: 85%
 
 ![](assets/enrichment_example1.png)
 
-1. 하나 이상의 트랜잭션을 수행한 프로파일을 타깃팅할 수 있는 [쿼리](../../automating/using/query.md) 활동을 추가합니다.
+1. [Query](../../automating/using/query.md) 활동을 추가하여 하나 이상의 트랜잭션을 수행한 프로필을 타겟팅할 수 있습니다.
 
    ![](assets/enrichment_example2.png)
 
@@ -56,7 +53,7 @@ ht-degree: 85%
 
    ![](assets/enrichment_example5.png)
 
-1. [이메일 배달](../../automating/using/email-delivery.md) 활동을 추가합니다. 이메일 콘텐츠에서 쿼리에서 계산한 데이터에 해당하는 개인화 필드를 삽입합니다. 개인화 필드 탐색기의 **[!UICONTROL Additional data (targetData)]** 링크를 통해 찾을 수 있습니다.
+1. [이메일 게재](../../automating/using/email-delivery.md) 활동을 추가합니다. 이메일 콘텐츠에서 쿼리에서 계산한 데이터에 해당하는 개인화 필드를 삽입합니다. 개인화 필드 탐색기의 **[!UICONTROL Additional data (targetData)]** 링크를 통해 찾을 수 있습니다.
 
    ![](assets/enrichment_example3.png)
 

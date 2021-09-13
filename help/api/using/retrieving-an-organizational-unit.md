@@ -1,27 +1,24 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 프로필의 조직 단위 검색
-description: API를 사용하여 프로필의 조직 구성 요소에 대해 알아봅니다.
+description: API를 사용하여 프로필의 조직 단위를 사용하는 방법을 알아봅니다.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 37048884-bd03-46ea-8e2e-a73ad568153b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 13%
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
-
 # 프로필의 조직 단위 검색 {#retrieving-organizational-units}
 
-1. 프로파일 PKey에서 GET 요청을 수행하여 **orgUnit** URL을 검색합니다.
-1. 조직 단위에 대한 자세한 내용을 검색하려면 URL에 GET 요청을 수행합니다.
+1. 프로필 PKey에 GET 요청을 수행하여 **orgUnit** URL을 검색합니다.
+1. 조직 단위에 대한 자세한 내용을 검색하려면 URL에 GET 요청을 수행하십시오.
 
 <br/>
 
@@ -51,7 +48,7 @@ ht-degree: 13%
 }
 ```
 
-자세한 정보를 검색하려면 URL에 GET 요청을 수행합니다.
+자세한 정보를 검색하려면 URL에 GET 요청을 수행하십시오.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
@@ -61,7 +58,7 @@ ht-degree: 13%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-조직 단위에 대한 세부 정보를 반환합니다.
+조직 단위에 대한 세부 사항을 반환합니다.
 
 ```
 {

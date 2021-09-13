@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 대상자 저장
 description: 대상자 저장 활동을 통해 워크플로우에서 업스트림으로 계산한 모집단에서 기존 대상자를 업데이트하거나 새 대상자를 만들 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: saveAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 99%
+source-wordcount: '803'
+ht-degree: 100%
 
 ---
-
 
 # 대상자 저장{#save-audience}
 
@@ -90,4 +87,3 @@ ht-degree: 99%
 **[!UICONTROL Save audience]** 활동은 다음과 같이 구성됩니다.
 
 ![](assets/save_audience_example_2.png)
-

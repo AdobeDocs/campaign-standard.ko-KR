@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 테스트
 description: 테스트 활동을 통해 테스트 결과를 기반으로 전환을 실행할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: jstest,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 80%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
-
 
 # 테스트{#test}
 
@@ -40,7 +37,7 @@ ht-degree: 80%
 **관련 항목:**
 
 * [함수 목록](../../automating/using/list-of-functions.md)
-* [외부 파라미터로 워크플로우 호출](../../automating/using/calling-a-workflow-with-external-parameters.md)
+* [외부 매개 변수로 워크플로우 호출](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 ## 구성 {#configuration}
 
@@ -50,9 +47,9 @@ ht-degree: 80%
 
    **[!UICONTROL Condition]** 필드 편집 시 이벤트 변수를 호출하고 변수와 함수를 결합한 표현식을 편집하는 데 도움이 되는 버튼이 두 가지 있습니다.
 
-   * ![](assets/extsignal_picker.png):워크플로우에서 사용할 수 있는 모든 변수 중에서 events 변수를 선택합니다( [이 페이지 참조](../../automating/using/customizing-workflow-external-parameters.md)).
+   * ![](assets/extsignal_picker.png): 워크플로우에서 사용할 수 있는 모든 변수 중에서 이벤트 변수를 선택합니다( [이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 참조).
 
-      예를 들어 **[!UICONTROL filesCount]** 변수를 사용하여 [파일 전송](../../automating/using/transfer-file.md) 활동 후 다운로드한 파일의 수를 확인할 수 있습니다.
+      예를 들어 **[!UICONTROL filesCount]** 변수를 사용하여 [파일 전송](../../automating/using/transfer-file.md) 활동 후에 다운로드한 파일의 수를 확인할 수 있습니다.
 
       ![](assets/wkf_test_activity_variables.png)
 

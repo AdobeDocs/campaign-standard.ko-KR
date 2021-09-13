@@ -1,28 +1,25 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 데이터 관리 활동 기본 정보
-description: 데이터 관리 활동은 화면의 왼쪽에서 사용할 수 있습니다.
+description: 데이터 관리 활동은 화면 왼쪽에서 사용할 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b780704c-210b-4cab-9016-91726a86de6d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 54%
+source-wordcount: '120'
+ht-degree: 55%
 
 ---
-
 
 # 데이터 관리 활동 기본 정보{#about-data-management-activities}
 
 화면 왼쪽에 있는 팔레트에서 **[!UICONTROL Data management (ETL)]** 섹션을 펼칩니다.
 
-이러한 활동을 통해 데이터를 조작할 수 있습니다. 예를 들어 데이터를 가져오거나 데이터베이스 필드에 대한 일괄 업데이트를 수행하거나 파일을 수신 또는 전송하거나 식별할 수 없는 데이터를 기존 리소스에 연결할 수 있습니다.
+이러한 활동을 사용하면 데이터를 조작할 수 있습니다. 예를 들어 데이터를 가져오거나 데이터베이스 필드에 대한 대량 업데이트를 수행하거나 파일을 받거나 전송하거나 미식별 데이터를 기존 리소스에 연결할 수 있습니다.
 
 ![](assets/wkf_etl_activities.png)
 
@@ -35,4 +32,4 @@ ht-degree: 54%
 * [파일 추출](../../automating/using/extract-file.md)
 * [구독 서비스](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** 활동을 통해 아웃바운드 전환의  **세그먼트** 코드를 정의할 수 있습니다. 그런 다음 마케팅 캠페인의 효율성을 측정하기 위해 이러한 세그먼트 코드를 기반으로 보고서를 만들 수 있습니다. 자세한 정보는 [이 섹션](../../reporting/using/creating-a-report-workflow-segment.md)을 참조하십시오.
+**[!UICONTROL Data management (ETL)]** 활동을 통해 아웃바운드 전환에  **대한 세그먼트** 코드 를 정의할 수 있습니다. 그런 다음 마케팅 캠페인의 효율성을 측정하기 위해 이러한 세그먼트 코드를 기반으로 보고서를 만들 수 있습니다. 자세한 정보는 [이 섹션](../../reporting/using/creating-a-report-workflow-segment.md)을 참조하십시오.

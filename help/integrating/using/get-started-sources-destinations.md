@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 소스 및 대상 시작
 description: Adobe Experience Platform 소스 및 대상에 대해 자세히 알아보십시오.
 audience: integrating
@@ -8,7 +6,7 @@ content-type: reference
 role: Data Architect
 level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
-source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 8%

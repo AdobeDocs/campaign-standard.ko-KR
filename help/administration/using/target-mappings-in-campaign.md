@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign에서 타깃 매핑
 description: 타겟 매핑은 메시지를 전달하기 위해 Campaign에서 사용하는 기술 개체입니다. 여기에는 게재 전송에 필요한 모든 기술 설정이 포함되어 있습니다.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: 인스턴스 설정
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---

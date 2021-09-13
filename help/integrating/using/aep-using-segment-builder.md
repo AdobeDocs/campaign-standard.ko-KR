@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 세그먼트 빌더 사용
 description: 세그먼트 빌더를 사용하여 대상을 만드는 방법을 알아봅니다.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM 통합
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 2%
+source-wordcount: '866'
+ht-degree: 3%
 
 ---
 
@@ -70,11 +68,11 @@ ht-degree: 2%
 
 필드는 탭으로 구성됩니다.
 
-* **[!UICONTROL Attributes]**:Adobe Campaign 데이터베이스 및/또는 Adobe Experience Platform에서 생성할 수 있는 기존 프로필 속성입니다. 프로필에 첨부된 정적 정보(예: 이메일 주소, 거주 국가, 충성도 프로그램 상태 등)를 참조합니다.
+* **[!UICONTROL Attributes]**: Adobe Campaign 데이터베이스 및/또는 Adobe Experience Platform에서 생성할 수 있는 기존 프로필 속성입니다. 프로필에 첨부된 정적 정보(예: 이메일 주소, 거주 국가, 충성도 프로그램 상태 등)를 참조합니다.
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**:&quot;2주 동안 두 번 주문한 사람&quot;과 같이 회사의 고객 접점과 상호 작용한 고객을 식별하는 활동. Adobe Analytics에서 스트리밍하거나 타사 ETL 도구를 사용하여 Adobe Experience Platform으로 직접 수집할 수 있습니다.
+* **[!UICONTROL Events]**: &quot;2주 동안 두 번 주문한 사람&quot;과 같이 회사의 고객 접점과 상호 작용한 고객을 식별하는 활동. Adobe Analytics에서 스트리밍하거나 타사 ETL 도구를 사용하여 Adobe Experience Platform으로 직접 수집할 수 있습니다.
 
    ![](assets/aep_audiences_eventstab.png)
 

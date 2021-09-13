@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 테스트 프로필 관리
 description: 테스트 프로필을 관리하는 방법을 알아봅니다.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: 프로필
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '449'
 ht-degree: 95%
 
 ---

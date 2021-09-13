@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 쪽 매기기
 description: 페이지 매김 작업을 수행하는 방법을 알아봅니다.
 audience: developing
@@ -9,32 +7,31 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
-
 
 # 쪽 매기기
 
 기본적으로 25개의 리소스가 목록에 로드됩니다.
 
-**_lineCount** 매개 변수를 사용하여 응답에 나열된 리소스 수를 제한할 수 있습니다.  그런 다음 **next** 노드를 사용하여 다음 결과를 표시할 수 있습니다.
+**_lineCount** 매개 변수를 사용하면 응답에 나열된 리소스 수를 제한할 수 있습니다.  그런 다음 **next** 노드를 사용하여 다음 결과를 표시할 수 있습니다.
 
 >[!NOTE]
 >
->페이지 매김 요청을 수행하려면 항상 **next** 노드에서 반환되는 URL 값을 사용하십시오.
+>페이지 매김 요청을 수행하려면 항상 **next** 노드에서 반환된 URL 값을 사용하십시오.
 >
->**_lineStart** 요청은 계산되며 **next** 노드에서 반환되는 URL 내에 항상 사용해야 합니다.
+>**_lineStart** 요청은 계산되며 **next** 노드에서 반환된 URL 내에서 항상 사용해야 합니다.
 
 <br/>
 
 ***샘플 요청***
 
-프로필 리소스의 레코드 1개를 표시하는 샘플 GET 요청입니다.
+프로필 리소스의 1개 레코드를 표시하는 샘플 GET 요청.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -65,7 +62,7 @@ ht-degree: 1%
 }
 ```
 
-기본적으로 많은 양의 데이터로 테이블과 상호 작용할 때는 **next** 노드를 사용할 수 없습니다. 페이지 매김을 수행하려면 호출 URL에 **_forcePagination=true** 매개 변수를 추가해야 합니다.
+기본적으로 많은 양의 데이터와 테이블과 상호 작용할 때 **next** 노드를 사용할 수 없습니다. 페이지 매김을 수행하려면 호출 URL에 **_forcePagination=true** 매개 변수를 추가해야 합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -77,4 +74,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->테이블을 큼으로 간주하는 위의 레코드 수가 Campaign Standard **XtkBigTableThreshold** 옵션에 정의되어 있습니다. 기본값은 100,000개의 레코드입니다.
+>테이블이 큰 것으로 간주되는 위의 레코드 수는 Campaign Standard **XtkBigTableThreshold** 옵션에 정의됩니다. 기본값은 100,000개의 레코드입니다.

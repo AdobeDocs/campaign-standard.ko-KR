@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 파일 추출
 description: 파일 추출 활동을 사용하면 Adobe Campaign의 데이터를 외부 파일 형태로 내보낼 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileExport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 89%
+source-wordcount: '402'
+ht-degree: 86%
 
 ---
-
 
 # 파일 추출{#extract-file}
 
@@ -37,7 +34,7 @@ ht-degree: 89%
 
 **관련 항목:**
 
-* [사용 사례:외부 파일에서 프로필 내보내기](../../automating/using/exporting-profiles-in-file.md)
+* [사용 사례: 외부 파일에서 프로필 내보내기](../../automating/using/exporting-profiles-in-file.md)
 
 ## 구성 {#configuration}
 
@@ -46,7 +43,7 @@ ht-degree: 89%
    ![](assets/wkf_data_export1.png)
 
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
-1. **출력 파일**&#x200B;의 레이블을 입력합니다. 파일의 레이블은 고유하도록 만든 날짜 및 시간으로 자동 완성됩니다. 예를 들어, 2015년 8월 15일 08:15:32에 생성된 파일의 레이블은 recipients_20150815_081532.txt가 됩니다.
+1. **출력 파일**&#x200B;의 레이블을 입력합니다. 파일의 레이블은 고유하도록 만든 날짜 및 시간으로 자동 완성됩니다. 예: 2015년 8월 15일 08:15:32에서 생성된 파일에 대한 recipients_20150815_081532.txt
 
    >[!NOTE]
    >
@@ -54,7 +51,7 @@ ht-degree: 89%
 
 1. 원하는 경우 **[!UICONTROL Add a post-processing stage]** 필드에서 **[!UICONTROL Compression]**&#x200B;을(를) 선택하여 출력 파일을 압축할 수 있습니다. 출력 파일은 GZIP 파일(.gz)로 압축됩니다.
 
-   또한 **[!UICONTROL Add a post-processing stage]** 필드에서 파일을 추출하기 전에 암호화할 수도 있습니다. 암호화된 파일을 사용하여 작업하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/managing-encrypted-data.md)을 참조하십시오.
+   또한 **[!UICONTROL Add a post-processing stage]** 필드를 사용하면 파일을 추출하기 전에 암호화할 수 있습니다. 암호화된 파일로 작업하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/managing-encrypted-data.md)을 참조하십시오
 
 1. **[!UICONTROL Create element]** 단추를 클릭하여 출력 열을 추가합니다.
 

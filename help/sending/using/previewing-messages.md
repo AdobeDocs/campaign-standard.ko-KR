@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 메시지 미리 보기
 description: 콘텐츠 편집기 또는 이메일 디자이너에서 메시지를 미리 보는 방법을 알아봅니다.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: 시드 주소
+feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '624'
 ht-degree: 15%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 감사 추적
 description: 캠페인 감사 추적을 사용하여 작업 및 이벤트 모니터링
 audience: administration
@@ -10,7 +8,7 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: a12b87d93e3badbf31f88c9f0f48b981e206d8b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%

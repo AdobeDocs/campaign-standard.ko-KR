@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 메시지에서 대상자 선택
 description: '"이메일의 대상자를 선택하는 단계별 절차: 주요 타겟 모집단 및 테스트 프로필"'
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
-feature: 대상자
+feature: Audiences
 role: User
 level: Intermediate
 exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '411'
 ht-degree: 74%
 
 ---

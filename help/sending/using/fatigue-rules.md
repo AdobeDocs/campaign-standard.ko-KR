@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 피로도 규칙
 description: 피로도 규칙을 만들어 프로필의 과도한 커뮤니케이션을 관리합니다.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology 규칙
+feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2344'
+source-wordcount: '2342'
 ht-degree: 100%
 
 ---

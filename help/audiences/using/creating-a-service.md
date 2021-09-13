@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 서비스 만들기
 description: 첫 번째 서비스를 만들고 구독자에게 확인 이메일을 보내도록 구성하는 방법을 알아봅니다.
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
-feature: 대상자
+feature: Audiences
 role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 95%
 
 ---

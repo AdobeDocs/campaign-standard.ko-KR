@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 패널 추가
 description: 동적 보고서를 사용하면 선택한 기간에 따라 패널을 추가하여 데이터를 더 잘 필터링할 수 있습니다.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: 보고
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
-source-git-commit: 8062995481a889d8865267e6134efa74648753f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---

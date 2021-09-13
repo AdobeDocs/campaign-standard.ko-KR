@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 외부 API
 description: 외부 API 활동은 HTTP API 호출을 통해 외부 시스템의 Campaign Standard 워크플로우로 데이터를 가져옵니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-feature: 워크플로우
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2200'
 ht-degree: 94%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 조정
 description: 조정 활동을 사용하면 미식별 데이터를 기존 리소스에 연결할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 95%
 
 ---
-
 
 # 조정{#reconciliation}
 
@@ -49,9 +46,9 @@ ht-degree: 95%
 
 **관련 항목:**
 
-* [사용 사례:관계를 사용한 데이터 조정](../../automating/using/reconciliation-using-relations.md)
-* [사용 사례:조정을 사용한 데이터 업데이트](../../automating/using/data-update-reconciliation.md)
-* [사용 사례:데이터베이스와 파일 대상 조정](../../automating/using/reconcile-file-audience-with-database.md)
+* [사용 사례: 관계를 사용한 데이터 조정](../../automating/using/reconciliation-using-relations.md)
+* [사용 사례: 조정을 사용한 데이터 업데이트](../../automating/using/data-update-reconciliation.md)
+* [사용 사례: 데이터베이스로 파일 대상자 조정](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 구성 {#configuration}
 

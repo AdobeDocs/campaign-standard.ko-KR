@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 트랜잭션 이벤트 게시
 description: 트랜잭션 이벤트 구성을 미리 보고, 게시하고, 게시 취소하고, 삭제하는 방법을 알아봅니다.
 audience: channels
@@ -11,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 6%

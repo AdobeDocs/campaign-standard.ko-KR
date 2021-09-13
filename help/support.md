@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Campaign Standard 도움말 및 지원 옵션 '
 description: Campaign Standard에 대한 지원이 필요하십니까? 제대로 찾아오셨습니다.
 audience: rns
@@ -10,8 +8,8 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
-workflow-type: ht
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -129,4 +127,4 @@ Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나
 
 문제를 기록하거나 새 시스템에서 채팅 세션을 시작하려면 [Adobe Admin Console](https://adminconsole.adobe.com/overview)에 연결하십시오.
 
-[이 페이지](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 설명된 세부 절차를 따르십시오.
+[이 페이지](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)에 설명된 세부 절차를 따르십시오.

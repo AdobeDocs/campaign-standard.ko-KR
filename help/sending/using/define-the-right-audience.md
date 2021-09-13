@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 적합한 대상자 정의
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"콘텐츠를 준비했으므로, 메시지를 받을 사용자를 신중하게 정의하는 방법을 알아봅니다."'
-feature: 전달성
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '516'
 ht-degree: 11%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 사용자 지정 리소스 내보내기/가져오기
 description: 이 튜토리얼에서는 사용자 지정 리소스 패키지를 내보내고 가져오는 방법을 설명합니다.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: data-management-activities
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 99%
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
-
 
 # 사용자 지정 리소스 내보내기/가져오기 {#exporting-importing-custom-resources}
 
@@ -37,7 +34,7 @@ ht-degree: 99%
 * [패키지 배포: 운영 원칙](../../developing/using/data-model-concepts.md)
 * [리소스 추가 또는 확장](../../developing/using/key-steps-to-add-a-resource.md)
 
-## 구조 내보내기 {#exporting-the-structure} 
+## 구조 내보내기   {#exporting-the-structure}
 
 이 섹션에서는 사용자 지정 리소스 데이터의 물리적 구조를 자세히 설명하는 첫 번째 패키지 내보내기를 수행합니다.
 

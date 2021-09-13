@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 개인화된 콘텐츠 작성
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 메시지 콘텐츠를 디자인하고 게재를 실행하지 못하도록 할 수 있는 일반적인 문제를 방지하는 방법을 알아봅니다. 
-feature: 전달성
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1033'
 ht-degree: 7%
 
 ---

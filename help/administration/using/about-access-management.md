@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 액세스 관리 기본 정보
 description: 역할, 그룹 및 조직 단위를 사용하여 Adobe Campaign 작업자를 관리합니다.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: 액세스 관리
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 99%
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
 

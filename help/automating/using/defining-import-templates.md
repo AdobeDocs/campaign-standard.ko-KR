@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 가져오기 템플릿 정의
 description: 가져오기 템플릿을 통해 필요한 설정을 줄이고 데이터를 보다 신속하게 가져올 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 결합
 description: 결합 활동을 사용하면 여러 활동의 결과를 하나의 타겟으로 다시 그룹화할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: union,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 97%
+source-wordcount: '377'
+ht-degree: 98%
 
 ---
-
 
 # 결합{#union}
 
@@ -37,7 +34,7 @@ ht-degree: 97%
 
 **관련 항목:**
 
-* [사용 사례:세련된 두 고객을 위한 결합](../../automating/using/union-on-two-refined-audiences.md)
+* [사용 사례: 정교화한 대상자 두 개 결합](../../automating/using/union-on-two-refined-audiences.md)
 
 ## 구성 {#configuration}
 

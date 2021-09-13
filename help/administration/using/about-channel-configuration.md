@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 채널 구성 기본 정보
 description: '"각 채널을 구성해야 합니다. 기술 구성, 메시지 속성 및 템플릿"'
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: 인스턴스 설정
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '141'
 ht-degree: 4%
 
 ---

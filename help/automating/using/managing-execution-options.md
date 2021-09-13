@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 실행 옵션 관리
 description: 워크플로우 실행 옵션을 관리하는 방법을 알아봅니다.
 audience: automating
@@ -11,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-source-git-commit: 8092eda6241e83a9bb4c23d8955cd12b6509432a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 6%

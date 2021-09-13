@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 예측 사용자 참여 기능
 description: 예측 전송 시간 및 참여 점수 책정 사용 방법을 알아봅니다.
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: 전송 시간 최적화
+feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 99%
+source-wordcount: '1045'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +31,6 @@ Adobe Campaign Standard는 **예측 전송 시간 최적화**&#x200B;과 **예�
 
 >[!IMPORTANT]
 >이 기능은 제품의 일부로 기본 제공되지 않습니다. 구현하려면 Adobe Consulting 서비스가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
-
 
 ## 예측 전송 시간 최적화{#predictive-send-time}
 
@@ -108,7 +105,6 @@ AddHours([currentDelivery/scheduling/@contactDate],
 >[!NOTE]
 >
 >데이터 모델은 구현에 따라 다를 수 있습니다.
-
 
 
 ## 예측 참여 점수 책정 {#predictive-scoring}

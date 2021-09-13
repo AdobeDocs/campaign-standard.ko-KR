@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 문제 해결
 description: 다이내믹 보고와 관련된 일반적인 질문은 여기에서 찾을 수 있습니다.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: 보고
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 5%
 
 이 섹션에서는 동적 보고와 관련된 일반적인 질문을 확인할 수 있습니다.
 
-## 고유 열기 및 고유 클릭 수의 경우 집계 행의 카운트가 개별 행 {#unique-open-clicks-no-match}에 있는 카운트와 일치하지 않습니다
+## 고유 열기 및 고유 클릭 수의 경우 합계 행의 카운트가 개별 행의 카운트와 일치하지 않습니다 {#unique-open-clicks-no-match}
 
 예상된 동작입니다.
 다음 예를 들어 이 동작을 설명할 수 있습니다.
@@ -92,7 +90,7 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
 >
 >고유 카운트는 HLL 기반 스케치를 기반으로 하며, 이로 인해 큰 카운트에서 약간 정확하지 않을 수 있습니다.
 
-## 열린 카운트가 데이터베이스 수 {#open-counts-no-match-database}과(와) 일치하지 않습니다.
+## 열린 카운트가 데이터베이스 수와 일치하지 않습니다. {#open-counts-no-match-database}
 
 이는 **[!UICONTROL Open]** 작업을 추적할 수 없는 경우에도 동적 보고에서 열기를 추적하기 위해 추론을 사용했기 때문일 수 있습니다.
 
@@ -106,7 +104,7 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
 >
 >고유 카운트는 HLL 기반 스케치를 기반으로 하므로 카운트 간의 작은 불일치를 경험할 수 있습니다.
 
-## 반복/트랜잭션 게재에 대한 수는 어떻게 계산됩니까?{#counts-recurring-deliveries}
+## 반복/트랜잭션 게재에 대한 수는 어떻게 계산됩니까? {#counts-recurring-deliveries}
 
 반복 및 트랜잭션 게재 작업 시 카운트는 상위 및 하위 게재 모두에 귀속됩니다.
 1일에 매일(RC1), 2일(RC2) 및 3일(RC3)에 실행되도록 설정된 **R1**이라는 반복 게재의 예를 예로 들 수 있습니다.
@@ -131,7 +129,7 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
    <td align="center"> <strong>100년</strong><br/> </td> 
    <td align="center"> <strong>90</strong><br/> </td> 
    <td align="center"> <strong>10</strong><br/> </td> 
-   <td align="center"> <strong>3</strong><br/> </td> 
+   <td align="center"> <strong>1</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
@@ -157,7 +155,7 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
  </tbody> 
 </table>
 
-## 보고서 테이블에 있는 색상은 무엇입니까?{#reports-color-signification}
+## 보고서 테이블에 있는 색상은 무엇입니까? {#reports-color-signification}
 
 보고서에 표시되는 색상은 무작위화되므로 개인화할 수 없습니다. 진행률 표시줄을 표시되며 보고서에 도달하는 최대 값을 더 잘 강조 표시하는 데 도움이 됩니다.
 

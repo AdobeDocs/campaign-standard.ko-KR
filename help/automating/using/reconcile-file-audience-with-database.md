@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 데이터베이스로 파일 대상자 조정
-description: 이 예에서는 대상 읽기 활동을 사용하여 파일 가져오기에서 직접 만든 대상을 조정하는 방법을 보여 줍니다.
+description: 이 예제에서는 대상자 읽기 활동을 사용하여 파일 가져오기로 직접 만든 대상자를 조정하는 방법을 보여줍니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,14 +8,13 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 87%
 
 ---
-
 
 # 데이터베이스로 파일 대상자 조정 {#example--reconcile-a-file-audience-with-the-database}
 
@@ -53,6 +50,6 @@ ht-degree: 86%
 
 ![](assets/readaudience_activity_example2.png)
 
-* [대상자 읽기](../../automating/using/read-audience.md) 활동은 가져오기 워크플로우에서 만든 파일 대상을 업로드합니다. 아직 대상자 데이터가 Adobe Campaign 데이터베이스로 조정되지 않았습니다.
+* [대상 읽기](../../automating/using/read-audience.md) 활동은 가져오기 워크플로우에서 만든 파일 대상자를 업로드합니다. 아직 대상자 데이터가 Adobe Campaign 데이터베이스로 조정되지 않았습니다.
 * [조정](../../automating/using/reconciliation.md) 활동은 **[!UICONTROL Identification]** 탭을 통해 들어오는 데이터를 프로필로 식별합니다. 예를 들어 조정 기준으로 **이메일** 필드를 사용하는 등의 방법이 있습니다.
 * [데이터 업데이트](../../automating/using/update-data.md) 활동은 들어오는 데이터로 데이터베이스의 프로필 리소스를 삽입 및 업데이트합니다. 데이터가 이미 프로필로 식별되었으므로 **[!UICONTROL Directly using the targeting dimension]** 옵션을 선택하고 활동의 **[!UICONTROL Identification]** 탭에서 **[!UICONTROL Profiles]**&#x200B;을(를) 선택할 수 있습니다. 그런 다음 해당하는 탭에서 업데이트해야 하는 필드 목록을 추가하면 됩니다.

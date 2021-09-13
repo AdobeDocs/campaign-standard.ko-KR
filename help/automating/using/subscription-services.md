@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 구독 서비스
 description: 구독 서비스 활동을 통해 프로필을 대량으로 가져와 서비스를 구독하거나 구독 취소할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 97%
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
-
 
 # 구독 서비스 {#subscription-services}
 
@@ -41,8 +38,8 @@ ht-degree: 97%
 
 **관련 항목:**
 
-* [사용 사례:파일에서 여러 구독 상태 업데이트](../../automating/using/updating-subscriptions-from-file.md)
-* [사용 사례:파일에서 특정 서비스에 프로파일 가입](../../automating/using/subscribing-profiles-from-file.md)
+* [사용 사례: 파일에서 여러 구독 상태 업데이트](../../automating/using/updating-subscriptions-from-file.md)
+* [사용 사례: 파일에서 특정 서비스에 프로필 가입](../../automating/using/subscribing-profiles-from-file.md)
 
 ## 구성 {#configuration}
 
@@ -161,4 +158,3 @@ ht-degree: 97%
    **[!UICONTROL Operation type]**&#x200B;은(는) 파일의 **작업** 필드에서 나온 것으로 식별됩니다. 여기에서는 부울 또는 정수 필드만 선택할 수 있습니다. 수행할 작업이 포함된 파일의 열이 목록에 표시되지 않는 경우 이 예제의 앞부분에서 설명한 대로 **[!UICONTROL Load file]** 활동에서 열 형식을 올바르게 설정했는지 확인하십시오.
 
    ![](assets/subscription_activity_example_from_file.png)
-

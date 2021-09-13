@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 프로세스 및 데이터 관리 시작하기
 description: 작업 과정을 통해 프로세스를 자동화하고 데이터 및 고객을 관리하며 메시지 전송 등을 수행할 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: 워크플로우
+feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 40%
 
 ---
@@ -48,9 +46,9 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 
 마지막으로 [데이터 관리 활동](../../automating/using/about-data-management-activities.md)을 사용하면 데이터베이스에서 데이터를 조작할 수 있습니다.
 
-자세히 알아보기:
+자세한 내용:
 
-* [워크플로우 구축](../../automating/using/building-a-workflow.md)
+* [워크플로우 작성](../../automating/using/building-a-workflow.md)
 * [워크플로우 실행](../../automating/using/about-workflow-execution.md)
 * [워크플로우 모범 사례](../../automating/using/best-practices-workflows.md)
 
@@ -58,11 +56,11 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-**쿼리 편집기**&#x200B;를 활용하여 데이터베이스의 데이터를 필터링하고 모집단을 만들어 수신자를 더 잘 타겟팅합니다. 쿼리 편집기를 사용하여 Campaign Standard에서 몇 가지 작업을 수행할 수 있습니다.워크플로우 활동에서 쿼리 유형 대상자를 만들고 게재 타겟이나 모집단을 정의합니다.
+**쿼리 편집기**&#x200B;를 활용하여 데이터베이스의 데이터를 필터링하고 모집단을 만들어 수신자를 더 잘 타겟팅합니다. 쿼리 편집기를 사용하여 Campaign Standard에서 몇 가지 작업을 수행할 수 있습니다. 워크플로우 활동에서 쿼리 유형 대상자를 만들고 게재 타겟이나 모집단을 정의합니다.
 
 쿼리 편집기에는 빠르고 쉽게 필터링할 수 있도록 **사전 정의된 필터 및 규칙**&#x200B;이 포함되어 있습니다. 그러나 **고급 표현식 편집** 기능을 사용할 수도 있습니다. 이를 통해 수동으로 조건을 입력하고 함수를 사용하여 고유한 규칙을 구성할 수 있습니다.
 
-자세히 알아보기:
+자세한 내용:
 
 * [쿼리 편집](../../automating/using/editing-queries.md)
 * [고급 표현식 편집](../../automating/using/advanced-expression-editing.md)
@@ -84,7 +82,7 @@ Campaign Standard에는 데이터를 가져오고 내보내는 몇 가지 **데�
 
 마지막으로 [목록 내보내기](../../automating/using/exporting-lists.md)를 사용하면 테스트 프로필 목록, 격리 이메일 주소 목록 등과 같은 Campaign Standard에서 목록을 내보낼 수 있습니다.
 
-자세히 알아보기:
+자세한 내용:
 
 * [데이터 가져오기 및 내보내기](../../automating/using/about-data-import-and-export.md)
 * [사용 사례: 사용자 정의 리소스 내보내기/가져오기](../../automating/using/exporting-importing-custom-resources.md)

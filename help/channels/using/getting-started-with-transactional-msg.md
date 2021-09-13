@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 트랜잭션 메시지 시작
 description: 트랜잭션 메시지가 무엇인지 확인하고 Adobe Campaign Standard에서 트랜잭션 메시지를 설정하는 주요 단계를 배웁니다.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: 트랜잭션 메시지
+feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 9%
+source-wordcount: '963'
+ht-degree: 8%
 
 ---
 

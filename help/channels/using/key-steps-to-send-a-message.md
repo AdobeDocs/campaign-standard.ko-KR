@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 메시지 보내기 주요 단계
 description: Adobe Campaign으로 메시지를 만들고 전송하기 위해 따라야 하는 단계입니다.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '368'
 ht-degree: 14%
 
 ---

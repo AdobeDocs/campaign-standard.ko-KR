@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 동적 텍스트 정의
 description: Adobe Campaign에 정의된 조건에 따라 사용자에게 서로 다른 텍스트를 동적으로 표시하는 방법을 알아봅니다.
 audience: designing
@@ -10,9 +8,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 649e3428-a3bf-470f-923c-04d9a57a208f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '213'
 ht-degree: 3%
 
 ---

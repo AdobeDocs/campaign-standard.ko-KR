@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 중복 제거
 description: 중복 제거 활동을 통해 인바운드 활동의 결과에서 중복을 삭제할 수 있습니다.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 96%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
-
 
 # 중복 제거{#deduplication}
 
@@ -39,8 +36,8 @@ ht-degree: 96%
 
 **관련 항목**
 
-* [사용 사례:배달 전 중복 항목 식별](../../automating/using/identifying-duplicated-before-delivery.md)
-* [사용 사례:가져온 파일에서 데이터 중복 제거](../../automating/using/deduplicating-data-imported-file.md)
+* [사용 사례: 게재 전 중복 식별](../../automating/using/identifying-duplicated-before-delivery.md)
+* [사용 사례: 가져온 파일에서 데이터 중복 제거](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 구성 {#configuration}
 

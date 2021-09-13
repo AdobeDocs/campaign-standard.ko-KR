@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 후속 메시지
 description: 후속 메시지를 만들고, 관리하고, 보내는 방법을 알아봅니다.
 audience: channels
@@ -10,7 +8,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 2%

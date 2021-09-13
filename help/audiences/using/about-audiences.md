@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 대상자 기본 정보
 description: 쿼리, 목록 또는 파일에서 대상자를 만드는 방법과 Adobe Experience Cloud에서 대상자를 가져오는 방법을 알아봅니다.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: 대상자
+feature: Audiences
 role: User
 level: Beginner
 exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 91%
 
 ---

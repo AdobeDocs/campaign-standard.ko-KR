@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 소통 채널 시작
 description: 다양한 채널에서 개인화된 메시지를 만들고, 템플릿을 사용하며, 랜딩 페이지를 만들고, 모범 사례를 확인합니다.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: 개요
+feature: Overview
 role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 23%
 
 ---

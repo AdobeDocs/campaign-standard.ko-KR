@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 타임라인
 description: 진행 중인 프로그램과 Adobe Campaign Standard 인터페이스를 사용하여 콘텐츠를 시각화하는 방법을 알아봅니다.
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: 캠페인
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 91%
 
 ---

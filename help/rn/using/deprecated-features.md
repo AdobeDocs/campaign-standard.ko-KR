@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Standard의 사용 중단되거나 제거된 기능
 description: 이 페이지에는 Adobe Campaign Standard의 사용이 중단되거나 제거된 기능의 목록입니다.
 audience: rn
@@ -10,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: bb964907851b11f8cc247425024f6e7c828aed5d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -136,7 +134,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  <tbody> 
   <tr> 
    <td> <p>Campaign 21.2 릴리스부터 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 2단계 프로필 삭제를 사용할 수 없습니다. <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe 개인 정보 보호 핵심 서비스</a>를 사용하십시오.</p></br>
-   <p>또한 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">개인 정보 보호 요청 관리</a>를 참조하십시오.</p>
+   <p>또한 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ko">개인 정보 보호 요청 관리</a>를 참조하십시오.</p>
   </td> 
   </tr> 
  </tbody> 

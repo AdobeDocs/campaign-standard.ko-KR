@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign-Experience Manager 통합 구성
 description: Adobe Experience Manager 통합을 사용하면 AEM에서 직접 컨텐츠를 만들고 나중에 Adobe Campaign에서 사용할 수 있습니다.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: 트리거
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 3%
 
 ---
@@ -31,7 +29,7 @@ Adobe Campaign Standard과 Adobe Experience Manager 간의 통합을 통해 Adob
 * Adobe Experience Manager **게시** 인스턴스
 * Adobe Campaign 인스턴스
 
-## Adobe Campaign Standard {#config-acs}의 구성
+## Adobe Campaign Standard의 구성 {#config-acs}
 
 이 두 솔루션을 함께 사용하려면 서로 연결하도록 구성해야 합니다.
 Adobe Campaign을 구성하려면:
@@ -64,7 +62,7 @@ Adobe Campaign을 구성하려면:
 
 이제 Adobe Experience Manager에서 통합을 구성해야 합니다.
 
-## Adobe Experience Manager {#config-aem}의 구성
+## Adobe Experience Manager의 구성 {#config-aem}
 
 Adobe Campaign Standard으로 Adobe Experience Manager을 구성하려면 다음 단계를 수행해야 합니다.
 

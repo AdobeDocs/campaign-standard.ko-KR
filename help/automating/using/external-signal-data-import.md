@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 외부 신호 및 데이터 가져오기
-description: 다음 예제에서는 데이터 가져오기에 사용되는 외부 신호 활동을 보여 줍니다.
+description: 다음 예제에서는 데이터 가져오기에 사용되는 외부 신호 활동을 보여줍니다.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,14 +8,13 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 78%
+source-wordcount: '229'
+ht-degree: 79%
 
 ---
-
 
 # 외부 신호 및 데이터 가져오기 {#external-signal-data-import}
 
@@ -41,7 +38,7 @@ ht-degree: 78%
 
 * [조정](../../automating/using/reconciliation.md) 활동은 가져온 데이터와 데이터베이스 사이에 링크를 만들어 트랜잭션 데이터가 프로필과 제품에 적절하게 연결되도록 합니다.
 * [데이터 업데이트](../../automating/using/update-data.md) 활동은 수신 데이터로 데이터베이스의 트랜잭션 리소스를 삽입하고 업데이트합니다.
-* [End](../../automating/using/start-and-end.md) 활동은 집계를 업데이트하는 데 사용되는 대상 워크플로우를 트리거합니다.
+* [종료](../../automating/using/start-and-end.md) 활동은 집계 업데이트에 사용되는 대상 워크플로우를 트리거합니다.
 
 ![](assets/signal_example_source1.png)
 

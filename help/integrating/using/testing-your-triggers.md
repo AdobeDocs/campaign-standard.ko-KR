@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 트리거 테스트
 description: Adobe Campaign에서 트리거를 사용할 때 발생할 수 있는 가장 일반적인 문제를 해결하는 데 도움이 되는 문제 해결 팁을 알아봅니다.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: 트리거
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 1%
 
 ---
 

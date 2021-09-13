@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 게재 템플릿 사용
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"게재 템플릿을 사용하면 대부분의 일반적인 활동에 대해 준비된 시나리오를 제공하여 효율성을 높일 수 있습니다."'
-feature: 전달성
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '815'
 ht-degree: 10%
 
 ---

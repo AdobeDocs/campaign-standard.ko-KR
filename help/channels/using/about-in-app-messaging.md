@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 인앱 메시지 기본 정보
 description: 인앱 메시지를 사용하여 모바일 애플리케이션 내에 메시지 또는 경고를 표시합니다.
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
-feature: 인앱
+feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 99%
+source-wordcount: '458'
+ht-degree: 100%
 
 ---
 

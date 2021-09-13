@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 이메일 및 DM 게재 연결
-description: 이 사용 사례는 워크플로우에서 이메일 및 DM(Direct Mail)을 보내는 예를 보여줍니다.
+description: 이 사용 사례에서는 워크플로우에서 이메일 및 DM 전송을 예로 들 수 있습니다.
 audience: channels
 content-type: reference
 topic-tags: direct-mail
@@ -10,14 +8,13 @@ context-tags: delivery,directMailContent,back
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 82%
+source-wordcount: '119'
+ht-degree: 84%
 
 ---
-
 
 # 이메일 및 DM 게재 연결 {#coupling-email-direct-mail}
 
@@ -35,5 +32,5 @@ ht-degree: 82%
 
 **관련 항목:**
 
-* [다이렉트 메일 배달 활동](../../automating/using/direct-mail-delivery.md)
+* [DM 게재 활동](../../automating/using/direct-mail-delivery.md)
 * [DM 기본 정보](../../channels/using/about-direct-mail.md)
