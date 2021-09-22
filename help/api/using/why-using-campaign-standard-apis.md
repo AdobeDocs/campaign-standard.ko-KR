@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 3%
@@ -68,7 +68,7 @@ Campaign Standard API 요청을 숙지하는 데 도움이 되는 요청 컬렉�
 
    ![대체 텍스트](assets/postman_uc2.png)
 
-1. 개체를 만들면 기본 키(PKey)가 해당 개체에 연결됩니다. 다른 속성은 물론 요청 응답에도 표시됩니다.
+1. 개체를 만들면 기본 키(PKey)가 해당 개체에 연결됩니다. 요청 응답과 다른 속성에 표시됩니다.
 
    ![대체 텍스트](assets/postman_uc3.png)
 

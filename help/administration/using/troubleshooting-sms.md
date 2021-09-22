@@ -8,7 +8,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Adobe Campaign에서는 동일한 외부 계정에서 여러 개의 짧은 코�
 
 모든 문제를 해결했지만 일부 잘못된 SR이 여전히 공급자의 버퍼에 있는 경우 **잘못된 ID 승인 카운트** 옵션을 사용하여 건너뛸 수 있습니다. 이 값은 버퍼가 정리 된 후 가능한 한 빨리 0으로 재설정하고 주의해서 사용해야 합니다.
 
-## MO(및 블랙리스트/자동 회신)를 처리할 때 발생하는 문제{#issue-process-MO}
+## MO(및 차단 목록/자동 회신) 처리 시 문제가 발생합니다{#issue-process-MO}
 
 * 테스트 중에 SMPP 추적을 사용하도록 설정합니다. TLS를 활성화하지 않는 경우 MO를 문제 해결할 때 네트워크 캡처를 수행하여 PDU에 올바른 정보가 포함되어 있고 올바르게 포맷되어 있는지 확인해야 합니다.
 

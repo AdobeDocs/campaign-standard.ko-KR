@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '779'
+ht-degree: 93%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 99%
    프로필 및 서비스 API에서 수행하는 작업에 대한 자세한 내용은 [API 확장으로 리소스 게시](#publishing-a-resource-with-api-extension)를 참조하십시오.
 
    ![](assets/schema_extension_13.png)
+
+   >[!NOTE]
+   >
+   >중복 인덱스로 인해 게시에 실패합니다. 준비 단계에서는 리소스에 대해 정의된 인덱스가 다른 리소스에 대해 동일한 이름을 가지고 있는지 확인합니다. 이렇게 되면 인덱스 이름을 바꾸도록 요청하는 오류 메시지가 표시됩니다. [인덱스 정의](configuring-the-resource-s-data-structure.md#defining-indexes)를 참조하십시오.
 
 1. 게시가 실행되면 **[!UICONTROL Publish]** 버튼을 클릭하여 새 구성을 적용합니다.
 1. 게시되면 각 리소스의 **[!UICONTROL Summary]** 창이 현재 상태가 **[!UICONTROL Published]**&#x200B;임을 나타내고 마지막 게시물의 날짜를 지정합니다.

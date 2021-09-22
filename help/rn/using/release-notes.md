@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 100%
 
 * 워크플로우에서 Adobe Experience Manager 컨텐츠에 연결된 반복 게재를 만들 때 이제 전송 전에 컨텐츠 승인 상태를 확인합니다.
 * 이제 데이터베이스 연결 제한이 연결 오류를 방지하기 위해 Campaign 패키지와 일치합니다.
-* 사용자 지정 리소스 발행에서 새로운 일관성 검사를 수행하면 사용자가 중복 인덱스를 만들지 못하며, 이로 인해 발행에 실패합니다. 필요한 경우 개선된 오류 메시지가 사용자에게 색인의 이름을 바꾸도록 요청합니다.
+* 사용자 지정 리소스 발행에서 새로운 일관성 검사를 수행하면 사용자가 중복 인덱스를 만들지 못하며, 이로 인해 발행에 실패합니다. 필요한 경우 개선된 오류 메시지가 사용자에게 색인의 이름을 바꾸도록 요청합니다. [자세히 알아보기](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **기타 변경 사항**
 

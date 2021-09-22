@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1970'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -536,12 +536,12 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> 매개 변수로 전달된 두 개의 문자열 연결. 반환된 값의 각 문자열 사이에 공백이 추가됩니다.<br /> </td> 
+   <td> 매개 변수로 전달된 두 문자열을 연결합니다. 반환된 값의 각 문자열 사이에 공백이 추가됩니다.<br /> </td> 
    <td> JuxtWords(&lt;문자열&gt;, &lt;문자열&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> 매개 변수로 전달된 세 개의 문자열 연결. 반환된 값의 각 문자열 사이에 공백이 추가됩니다.<br /> </td> 
+   <td> 매개 변수로 전달된 세 개의 문자열을 연결합니다. 반환된 값의 각 문자열 사이에 공백이 추가됩니다.<br /> </td> 
    <td> JuxtWords3(&lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;)<br /> </td> 
   </tr> 
   <tr> 

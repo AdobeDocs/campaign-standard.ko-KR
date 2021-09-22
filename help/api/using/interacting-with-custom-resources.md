@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 3%
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 이 API 내에 노출된 사용자 지정 리소스는 다음과 같습니다.
 
-* /profileAndServicesExt 아래에 노출되지 않은 모든 엔티티
+* /profileAndServicesExt 아래에 노출되지 않은 모든 엔터티
 * 프로필과 연결되지 않은 모든 개체, 이러한 엔터티, 그 자식 및 손자손녀
 * 기본적으로 어떤 항목에도 연결되어 있지 않은 모든 엔티티와 해당 자식 및 손자손녀입니다.
 

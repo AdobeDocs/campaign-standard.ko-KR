@@ -9,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 4%
@@ -149,7 +149,7 @@ ht-degree: 4%
 
 1. 활동이 복제되고 초기에 구성된 모든 설정이 복제됩니다.
 
-여러 활동을 복사-붙여넣기하여 전체 워크플로우를 복제할 수도 있습니다.
+여러 활동을 복사-붙여넣기할 수도 있으므로 전체 워크플로우를 복제할 수 있습니다.
 
 이렇게 하려면 활동 주위에 영역을 그려 활동을 선택합니다. 그런 다음 작업 표시줄에서 **[!UICONTROL Copy selection]** 단추를 클릭합니다(또는 **Ctrl + C** 키). 그런 다음 원하는 위치에 붙여넣을 수 있습니다.
 

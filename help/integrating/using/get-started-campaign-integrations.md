@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '711'
 ht-degree: 77%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 77%
    <td> Adobe Experience Manager<br /> </td> 
    <td> Adobe Experience Manager에서 직접 Adobe Campaign 데이터베이스에 매핑된 이메일 콘텐츠 또는 양식을 만들 수 있습니다.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign을 Experience Manager 및 사용한 작업</a>,  <a href="https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager 및 Campaign Standard 통합</a>, Experience Manager 및 캠페인으로 이메일  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">만들기</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign을 Experience Manager 및 사용한 작업</a>,  <a href="https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager 및 Campaign Standard 통합</a>, Experience Manager 및 캠페인으로 이메일  <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">만들기</a> 
     </td> 
   </tr> 
   <tr> 

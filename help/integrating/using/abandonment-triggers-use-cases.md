@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [�
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. 메시지 템플릿을 표시하려면 오른쪽 상단에서 **[!UICONTROL More]** 버튼을 클릭한 다음 **[!UICONTROL Trigger Transactional Template]**&#x200B;을(를) 클릭합니다.
+1. 메시지 템플릿을 표시하려면 오른쪽 상단에서 **[!UICONTROL More]** 버튼을 클릭한 다음 **[!UICONTROL Trigger Transactional Template]** 을(를) 클릭합니다.
 
 1. 콘텐츠 및 발신자 세부 정보를 개인화합니다.
 

@@ -8,16 +8,16 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 수신자의 시간대에 맞추어 메시지 보내기{#sending-messages-at-the-recipient-s-time-zone}
 
-날짜와 시간이 중요한 캠페인을 관리할 때 각 수신자의 현지 시간을 고려하여 게재를 예약할 수 있습니다. 수신자는 사용자가 예약한 시간에 이메일, SMS 또는 푸시 알림을 수신자의 시간대에 받게 됩니다.
+날짜와 시간이 중요한 캠페인을 관리할 때 각 수신자의 현지 시간을 고려하여 게재를 예약할 수 있습니다. 예약 시 이메일, SMS 또는 푸시 알림을 자체 시간대에 받게 됩니다.
 
 >[!NOTE]
 >

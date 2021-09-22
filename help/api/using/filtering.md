@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 1%
@@ -134,7 +134,7 @@ URL에 GET 요청을 수행합니다. 각 필터에 연결된 메타데이터와
    ```
 
 * 에 &quot;Doe&quot;가 포함된 &quot;profile&quot; 리소스를 검색하기 위한 샘플 GET 요청
-전자 메일 또는 성 필드(byText 필터가 전자 메일 및 성 필드를 모두 검색합니다.)
+전자 메일 또는 성 필드(byText 필터는 전자 메일 및 성 필드를 모두 검색합니다.)
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \

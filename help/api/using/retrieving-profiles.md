@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -86,7 +86,7 @@ ht-degree: 5%
    }
    ```
 
-## 필드를 기반으로 한 프로필 검색 {#searching-field}
+## 필드를 기반으로 프로필 검색 {#searching-field}
 
 **[!UICONTROL filterType]** 매개 변수를 사용하면 다음 필드 중 하나를 기반으로 프로필을 검색할 수 있습니다. 프로필 리소스를 확장할 때 고급 필터링에서 추가한 이메일, 이름, 성 또는 사용자 지정 필드.
 

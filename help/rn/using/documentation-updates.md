@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '6954'
-ht-degree: 98%
+source-wordcount: '6933'
+ht-degree: 99%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 98%
 
 **릴리스에 포함된 새로운 기능**
 
-향상된 통합 Experience Cloud 인터페이스 - [자세히 보기](../../start/using/interface-description.md#top-bar)
+통합 Experience Cloud 인터페이스 개선 - [자세히 표시](../../start/using/interface-description.md#top-bar)
 
-새로운 감사 추적 기능 - [자세히 보기](../../administration/using/audit.md)
+새로운 감사 추적 기능 - [자세히 표시](../../administration/using/audit.md)
 
-워크플로우 진단 모드 - [자세히 보기](../../automating/using/managing-execution-options.md)
+워크플로우 진단 모드 - [자세히 표시](../../automating/using/managing-execution-options.md)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-격리 목록에서 주소를 제거하는 방법에 대한 새로운 섹션을 추가했습니다. [자세히 표시](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+격리 목록에서 주소를 제거하는 방법에 관한 새로운 섹션을 추가했습니다. [자세히 표시](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
 **격리 및 차단 목록** 섹션이 명확해졌습니다. [자세히 표시](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 
 ## 2021년 4월 {#doc-updates-april-2021}
 
-Adobe Experience Platform 소스 및 대상과 함께 Campaign Standard과 Adobe RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공유하는 방법에 대한 새로운 섹션이 추가되었습니다. [자세한 내용](../../integrating/using/get-started-sources-destinations.md)
+새로운 섹션에서는 Adobe Experience Platform 소스 및 대상을 사용하여 Campaign Standard 및 Adobe RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공유하는 방법에 대해 설명합니다. [자세한 내용](../../integrating/using/get-started-sources-destinations.md)
 
 ## 2021년 3월 {#doc-updates-march-2021}
 
@@ -204,7 +204,7 @@ Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했
 
 이메일 채널 매개 변수 섹션을 보다 명확하게 수정했습니다. 승인된 마스크 필드와 게재 보고서 ID에 대해 더 자세한 정보를 추가했습니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
 
-이제 핵심 설명서에서 Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성에 대해 읽을 수 있습니다. Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방법에 대해 더 자세한 정보를 추가했습니다. [자세한 내용](../../administration/using/configuring-a-mobile-application.md)
+이제 핵심 설명서에서 Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성 을 사용할 수 있으며, Launch 기술 워크플로우에서 모바일 앱 AEPSDK 동기화에 대한 추가 정보를 확인할 수 있습니다. [자세히 표시](../../administration/using/configuring-a-mobile-application.md)
 
 ## 릴리스 20.3 - 2020년 5월 {#release-20-3---may-2020}
 
@@ -572,9 +572,9 @@ Adobe Campaign의 다양한 이메일 작성 옵션을 비교하는 새로운 �
 
 사용자 정의 리소스를 연결하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-Adobe Campaign Standard 푸시 알림에서 이미지를 표시하는 방법에 대한 새로운 기술 정보를 추가했습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/image-push-notification.html)
+Adobe Campaign Standard 푸시 알림에서 이미지를 표시하는 방법에 대한 새로운 기술 정보를 추가했습니다. [자세한 내용](../../administration/using/image-push-notification.md)
 
-푸시 추적 구현에 대한 새로운 기술 정보를 추가했습니다. [자세한 내용](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/push-tracking.html)
+푸시 추적 구현에 대한 새로운 기술 정보를 추가했습니다. [자세한 내용](../../administration/using/push-tracking.md)
 
 Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -862,7 +862,7 @@ A/B 테스트 샘플을 업데이트했습니다. [자세한 내용](../../chann
 
 Adobe Marketing Cloud Mobile SDK를 모바일 앱에 통합하여 Adobe Campaign Standard 푸시 알림을 받는 방법에 대한 [기술 정보](https://helpx.adobe.com/kr/campaign/kb/integrate-mobile-sdk.html)를 업데이트하고 명확하게 수정했습니다.
 
-모바일 앱에서 받는 페이로드 구조를 설명하는 기술 정보를 추가했습니다. [자세한 내용.](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/push-payload.html)
+모바일 앱에서 받는 페이로드 구조를 설명하는 기술 정보를 추가했습니다. [자세한 내용.](../../administration/using/push-payload.md)
 
 푸시 채널 구성 [섹션](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)을 업데이트했습니다. Adobe 모바일 서비스 인터페이스에서 포스트백을 정의할 때 새로 추가할 OS 버전 페이로드 데이터에 대한 정보를 추가했습니다.
 

@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '5400'
+source-wordcount: '5403'
 ht-degree: 6%
 
 ---
@@ -249,8 +249,8 @@ Adobe Campaign Standard에 대한 최신 [설명서 업데이트](../../rn/using
 * eventDate 필드가 제대로 채워지지 않았기 때문에 일부 원시 보고 이벤트에 추적 이벤트가 연결되어 있지 않은 문제가 수정되었습니다.
 * 푸시 알림 게재의 미리 보기 창에 개인화된 필드가 표시되지 않던 문제를 수정했습니다.
 * 텍스트가 미리 보기 창에서 푸시 알림의 메시지 본문을 자동 줄바꿈하지 못하는 문제를 해결했습니다.
-* 기본 대상이 비어 있는 경우 워크플로우에서 재전송 게재를 전송할 때 발생하는 문제를 해결했습니다.
-* 기존 스키마에 연결되어 있지 않은 경우 대상 매핑에 액세스할 수 없는 문제를 수정했습니다.
+* 기본 대상이 비어 있는 경우 워크플로우에서 반복 게재를 전송할 때 발생하는 문제를 해결했습니다.
+* 존재하지 않는 스키마에 연결되어 있는 경우 대상 매핑에 액세스할 수 없는 문제를 수정했습니다.
 * 파일 로드 활동을 통해 zip 파일을 가져올 때 발생할 수 있는 문제를 수정했습니다. (CAMP-24309)
 * 반복 게재를 전송할 때 PostgreSQL 오류가 발생하는 문제를 해결했습니다. (CAMP-23613)
 * 빈 JSON 속성으로 REST API 요청을 전송할 때 오류 메시지가 표시되는 문제를 해결했습니다. (CAMP-23506)
@@ -469,7 +469,7 @@ Campaign 인터페이스의 상황별 도움말 링크를 사용할 때 일부 �
      <li> 이미지 또는 기타 미디어 파일을 다운로드하고 알림에 첨부 파일로 추가 </li> 
      <li> 알림의 본문 또는 제목 텍스트 변경 </li> 
      <li> 알림에 스레드 식별자 추가 </li> 
-    </ul> 콘텐츠 이용 가능 및 가변 콘텐츠에 대한 자세한 내용은 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">상세 설명서</a>를 참조하십시오.<br /> <strong>경고:</strong> 푸시 알림에 대한 이러한 업데이트를 통해 고객은 모바일 애플리케이션을 업그레이드해야 합니다. 자세한 내용은 <a href="https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/push-payload.html">이 기술 정보</a>를 참조하십시오.<br /> </td> 
+    </ul> 콘텐츠 이용 가능 및 가변 콘텐츠에 대한 자세한 내용은 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">상세 설명서</a>를 참조하십시오.<br /> <strong>경고:</strong> 푸시 알림에 대한 이러한 업데이트를 통해 고객은 모바일 애플리케이션을 업그레이드해야 합니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">이 기술 정보</a>를 참조하십시오.<br /> </td> 
   </tr> 
   <tr> 
    <td> 시간대에 최적화된 게재<br /> </td> 

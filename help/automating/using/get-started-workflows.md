@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 40%
@@ -46,7 +46,7 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 
 마지막으로 [데이터 관리 활동](../../automating/using/about-data-management-activities.md)을 사용하면 데이터베이스에서 데이터를 조작할 수 있습니다.
 
-자세한 내용:
+자세히 표시:
 
 * [워크플로우 작성](../../automating/using/building-a-workflow.md)
 * [워크플로우 실행](../../automating/using/about-workflow-execution.md)
@@ -60,7 +60,7 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 
 쿼리 편집기에는 빠르고 쉽게 필터링할 수 있도록 **사전 정의된 필터 및 규칙**&#x200B;이 포함되어 있습니다. 그러나 **고급 표현식 편집** 기능을 사용할 수도 있습니다. 이를 통해 수동으로 조건을 입력하고 함수를 사용하여 고유한 규칙을 구성할 수 있습니다.
 
-자세한 내용:
+자세히 표시:
 
 * [쿼리 편집](../../automating/using/editing-queries.md)
 * [고급 표현식 편집](../../automating/using/advanced-expression-editing.md)
@@ -78,11 +78,11 @@ Campaign Standard에는 데이터를 가져오고 내보내는 몇 가지 **데�
 
 [로그 ](../../automating/using/exporting-logs.md) 내보내기를 사용하면 간단한 워크플로우를 통해 로그 데이터를 내보낼 수 있으므로 자체 보고 또는 BI 도구에서 마케팅 캠페인의 결과를 분석할 수 있습니다.
 
-[패키지](../../automating/using/managing-packages.md)를 활용하여 다른 캠페인 인스턴스 간에 리소스를 교환합니다. 예를 들어 인스턴스 구성을 복제하거나 사용자 지정 리소스를 포함한 다른 서버로 데이터를 전송합니다.
+[패키지](../../automating/using/managing-packages.md)를 활용하여 다른 캠페인 인스턴스 간에 리소스를 교환합니다. 예를 들어, 인스턴스의 구성을 복제하거나 사용자 지정 리소스를 포함한 다른 서버로 데이터를 전송합니다.
 
 마지막으로 [목록 내보내기](../../automating/using/exporting-lists.md)를 사용하면 테스트 프로필 목록, 격리 이메일 주소 목록 등과 같은 Campaign Standard에서 목록을 내보낼 수 있습니다.
 
-자세한 내용:
+자세히 표시:
 
 * [데이터 가져오기 및 내보내기](../../automating/using/about-data-import-and-export.md)
 * [사용 사례: 사용자 정의 리소스 내보내기/가져오기](../../automating/using/exporting-importing-custom-resources.md)

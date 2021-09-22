@@ -5,7 +5,7 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 177f0115-d269-44e8-94e0-123360ea6299
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 40%
@@ -30,7 +30,7 @@ Adobe Campaign Standard API를 사용하여 구독을 관리할 수도 있습니
 
 구독 메커니즘을 만들려면 아래 절차를 따르십시오.
 
-1. **서비스 만들기**  - 구독 서비스를  [ ](../../audiences/using/creating-a-service.md) 만들려면 이 섹션에 설명된 단계를 따르십시오
+1. **서비스 만들기**  - 이 섹션 [에 설명된 ](../../audiences/using/creating-a-service.md) 단계에 따라 구독 서비스를 만듭니다
 1. **링크 공유**  - 이 페이지 [에서 서비스를 홍보하고 공유하는 방법을 알아봅니다.](../../audiences/using/promoting-a-service.md)
 1. **구독 모니터링**  - 이 섹션에서 서비스 구독을 모니터링하는 몇 가지 방법 [을 알아봅니다](../../audiences/using/monitoring-subscriptions.md)
 1. **구독 확인**  -  [이 ](../../audiences/using/confirming-subscription-to-a-service.md) 자습서를 따라 구독 확인 메시지를 보냅니다

@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -73,6 +73,7 @@ ht-degree: 91%
 HTTP 프로토콜을 통해 외부 계정 또는 URL에서 파일 다운로드를 시작할 수 있습니다.
 
 이 프로토콜을 사용하면 **[!UICONTROL Use connection parameters defined in an external account]** 옵션을 선택할 수 있습니다. 이 경우 원하는 계정을 선택하고 다운로드할 파일의 경로를 지정합니다.
+
 ![](assets/wkf_file_transfer_03.png)
 
 **[!UICONTROL Quick configuration]** 옵션을 선택할 수도 있습니다. URL 필드에 URL을 입력하기만 하면 됩니다.
@@ -82,7 +83,7 @@ HTTP 프로토콜을 통해 외부 계정 또는 URL에서 파일 다운로드�
 
 SFTP 프로토콜을 통해 URL 또는 외부 계정에서 파일 다운로드를 시작할 수 있습니다.
 
-이 프로토콜을 사용하면 **[!UICONTROL Use connection parameters defined in an external account]** 옵션을 선택할 수 있습니다. 그 다음 원하는 계정을 선택하고 다운로드할 파일의 경로를 지정합니다.
+이 프로토콜을 사용하면 **[!UICONTROL Use connection parameters defined in an external account]** 옵션을 선택한 다음 원하는 계정을 선택하고 다운로드할 파일의 경로를 지정할 수 있습니다.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]

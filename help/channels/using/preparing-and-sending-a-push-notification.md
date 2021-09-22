@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '852'
 ht-degree: 4%
 
 ---
@@ -62,7 +62,7 @@ Adobe Campaign을 사용하여 푸시 알림을 만드는 단계는 다음과 �
 
    ![](assets/push_notif_content.png)
 
-   여기에 구성된 푸시 알림 콘텐츠 및 옵션이 페이로드 형태로 모바일 앱에 전달됩니다. 페이로드의 자세한 구조는 [Campaign Standard 푸시 알림 페이로드 구조 이해](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/push-payload.html) 기술 정보에 설명되어 있습니다.
+   여기에 구성된 푸시 알림 콘텐츠 및 옵션이 페이로드 형태로 모바일 앱에 전달됩니다. 페이로드의 자세한 구조는 [Campaign Standard 푸시 알림 페이로드 구조 이해](../../administration/using/push-payload.md) 기술 정보에 설명되어 있습니다.
 
 1. **[!UICONTROL Create]**&#x200B;를 클릭합니다.
 

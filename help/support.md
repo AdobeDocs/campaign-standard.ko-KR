@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -72,7 +72,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
         <li><a href="start/using/privacy-management.md">개인 정보 및 동의 관리</a></li>
         <li><a href="automating/using/query.md">쿼리 디자인</a></li>
         <li><a href="automating/using/query-samples.md">쿼리 샘플</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">모바일 채널 구성</a></li>
+        <li><a href="administration/using/push-tracking.md">모바일 채널 구성</a></li>
         </ul>
     </td>
     </tr>
@@ -119,7 +119,7 @@ Campaign 컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스
 
 ### 전문가에게 물어보세요!
 
-Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 티켓 만들기 또는 채팅 시작
 

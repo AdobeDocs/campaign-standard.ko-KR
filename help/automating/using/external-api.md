@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2200'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -114,7 +114,7 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
 
 이 탭에서는 연결 엔드포인트를 정의할 수 있습니다. **[!UICONTROL URL]** 필드를 사용하면 Campaign Standard이 통신할 **HTTPS 엔드포인트**&#x200B;를 정의할 수 있습니다.
 
-엔드포인트에 필요한 경우 두 가지 유형의 인증 방법을 사용할 수 있습니다.
+끝점에 필요한 경우 두 가지 유형의 인증 방법을 사용할 수 있습니다.
 
 * 기본 인증: **[!UICONTROL Request Header(s)]** 섹션에 사용자 이름/암호 정보를 입력합니다.
 
@@ -323,7 +323,7 @@ The workflow is presented as follows:
 ![](assets/externalAPI_activity_example1.png)
 
 1. Drag and drop an **External API** activity
-    1. Parse the JSON sample responsa as {"data":[{"code":"value"}]}.
+    1. Parse the JSON sample response as {"data":[{"code":"value"}]}.
     1. Add the **Rest endpoint URL** and define authentication setting if needed
     ![](assets/externalAPI_activity_example2.png)
     1. In the **column definition** tab, add a new column called **code** that will store the code value.
@@ -349,6 +349,6 @@ The workflow is presented as follows:
     1. The transition **Data Structure** will contain:
         ![](assets/externalAPI_activity_example7.png)
 1. Finally drag and drop a **Send via Email** activity.
-    You can modify your email template by adding the **code** personnalized field.
+    You can modify your email template by adding the **code** personalized field.
 
 -->

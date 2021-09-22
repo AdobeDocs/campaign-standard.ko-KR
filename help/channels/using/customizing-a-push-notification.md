@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1500'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 푸시 알림을 세밀하게 조정하기 위해 Adobe Campaign에서는 푸시 알림을 디자인하는 동안 고급 옵션 집합에 액세스할 수 있습니다.
 
-전문 사용자로서 Adobe Campaign에서 모바일 애플리케이션을 구성하려면 다음 기술 노트 [Campaign Standard 푸시 알림 페이로드 구조 이해](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/push-payload.html)를 참조하십시오.
+전문 사용자로서 Adobe Campaign에서 모바일 애플리케이션을 구성하려면 다음 기술 노트 [Campaign Standard 푸시 알림 페이로드 구조 이해](../../administration/using/push-payload.md)를 참조하십시오.
 
 ![](assets/push_notif_advanced.png)
 
@@ -150,7 +150,7 @@ ht-degree: 97%
 1. 푸시 알림을 열고 **[!UICONTROL Advanced options]** 섹션에 액세스합니다.
 1. 각 포맷(iOS 및 Android)의 **[!UICONTROL Rich media content URL]** 필드에 파일의 URL을 입력합니다.
 
-   iOS 10 이상의 경우 이미지, gif, 오디오 및 비디오 파일을 삽입할 수 있습니다. 이전 iOS 버전의 경우, 푸시 알림이 리치 콘텐츠 없이 표시됩니다. iOS 디바이스에서 Adobe Campaign 푸시 알림의 이미지를 표시하는 방법에 대한 자세한 단계는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/display-image-push.html)를 참조하십시오.
+   iOS 10 이상의 경우 이미지, gif, 오디오 및 비디오 파일을 삽입할 수 있습니다. 이전 iOS 버전의 경우, 푸시 알림이 리치 콘텐츠 없이 표시됩니다. iOS 디바이스에서 Adobe Campaign 푸시 알림의 이미지를 표시하는 방법에 대한 자세한 단계는 이 [페이지](../../administration/using/image-push-notification.md)를 참조하십시오.
 
    Android의 경우 이미지만 포함할 수 있습니다.
 

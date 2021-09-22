@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 100%
+source-wordcount: '1797'
+ht-degree: 99%
 
 ---
 
@@ -77,6 +77,7 @@ ht-degree: 100%
       + [메시지 액세스](channels/using/accessing-messages.md)
       + [메시지 대시보드](channels/using/message-dashboard.md)
       + [다국어 메시지 템플릿](channels/using/multilingual-messages-template.md)
+      + [모바일 채널 시작](channels/using/mobile-guide.md)
    + 게재 모범 사례 {#delivery-bestpractices}
       + [모범 사례 학습](sending/using/delivery-best-practices.md)
       + [게재 최적화](sending/using/optimize-delivery.md)

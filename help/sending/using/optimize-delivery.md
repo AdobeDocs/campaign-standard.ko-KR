@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 7%
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 * [워크플로우 실행](../../automating/using/about-workflow-execution.md): 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. 이 페이지](../../automating/using/monitoring-workflow-execution.md)에 나열된 지침을 따르십시오. [ 자세한 내용은 [워크플로우 우수 사례](../../automating/using/best-practices-workflows.md) 섹션에서 알아보십시오.
 
-* [Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)을 활용하여 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
+* [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)을 활용하여 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
 
 ## 네트워크 구성을 확인하는 중 {#network-config}
 
