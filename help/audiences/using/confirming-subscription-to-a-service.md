@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 96%
+source-wordcount: '1315'
+ht-degree: 90%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 96%
 
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭하고 서비스를 저장합니다.
 
-이제 프로필이 이 서비스를 구독할 때마다 정의된 트랜잭션 메시지를 받고, 선택한 서비스에 개인화 필드가 매핑됩니다.
+이제 프로필이 이 서비스를 구독하면 정의한 트랜잭션 메시지를 받게 되며, 선택한 서비스에 개인화된 필드가 매핑됩니다.
 
 >[!NOTE]
 >
@@ -190,7 +190,7 @@ ht-degree: 96%
 
 1. 랜딩 페이지를 [테스트 및 게시](../../channels/using/testing-publishing-landing-page.md)합니다.
 
-이제 프로필이 랜딩 페이지를 제출하여 뉴스레터를 구독할 때마다 정의된 확인 메시지를 받고, 해당 서비스에 개인화 필드가 매핑됩니다.
+이제 프로필이 랜딩 페이지를 제출하여 뉴스레터를 구독하면 정의된 확인 메시지를 받고, 해당 서비스에 개인화된 필드가 매핑됩니다.
 
 >[!NOTE]
 >

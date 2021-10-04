@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 93%
+source-wordcount: '1204'
+ht-degree: 82%
 
 ---
 
@@ -43,12 +43,12 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 사용자 세분화는 필수가 아니며, Adobe Campaign에서 일반적으로 사용하는 예시를 보여주는 것입니다.
 
-이 섹션은 Adobe Campaign 사용자의 주요 유형을 이해하는 데 도움이 됩니다. 여기에서 사용자가 가질 수 있는 특정 역할(게재 시작, 내보내기, 게재 준비 등)을 모두 다루지는 않을 것입니다. 역할에 대한 자세한 내용은 [역할 목록](../../administration/using/list-of-roles.md) 및 [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md) 페이지를 참조하십시오.
+이 섹션은 Adobe Campaign 사용자의 주요 유형을 이해하는 데 도움이 됩니다. 사용자가 가질 수 있는 특정 역할(게재 시작, 내보내기, 게재 준비 등)에 대한 자세한 내용은 [역할 목록](../../administration/using/list-of-roles.md) 및 [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md) 페이지를 참조하십시오.
 
 여기에서는 다음 세 가지 주요 사용자 유형 간에 Adobe Campaign의 다양한 작업이 어떻게 구분되는지를 중점적으로 살펴봅니다.
 
 * [기능 관리자](#functional-administrators): 조직의 사용자 중 가장 기술적인 역할을 하는 사용자입니다.
-* [고급 사용자](#advanced-users): 마케터가 게재를 보내고 모니터링하는 데 필요한 모든 요소를 설정합니다.
+* [고급 사용자](#advanced-users): 이들은 마케터가 게재를 보내고 모니터링하는 데 필요한 모든 요소를 설정합니다.
 * [기본 사용자](#basic-users): 캠페인을 개인화, 게재 및 모니터링하는 마케터입니다.
 
 >[!NOTE]
@@ -130,7 +130,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 ![](assets/create_user_5.png)
 
-사용자는 인스턴스에 로그인하는 즉시 Adobe Campaign Standard에 동기화됩니다.
+인스턴스에 로그인하면 이 사용자가 Adobe Campaign Standard에 동기화됩니다.
 
 그 다음 사용자가 Adobe Campaign에 올바르게 동기화되었는지 다음 방법으로 확인할 수 있습니다.
 

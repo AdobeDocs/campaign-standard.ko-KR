@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 85%
+source-wordcount: '231'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >Experience Cloud 트리거으로 작업해야 하는 경우 Experience Cloud 트리거 메뉴에 액세스할 수 있는 **[!UICONTROL Administration]** 권한이 필요합니다. Experience Cloud 트리거에 대한 자세한 내용은 이 [page](../../integrating/using/about-adobe-experience-cloud-triggers.md)을 참조하십시오.
+   >Experience Cloud 트리거으로 작업하는 경우 Experience Cloud 트리거 메뉴에 액세스할 수 있는 **[!UICONTROL Administration]** 권한이 필요합니다. Experience Cloud 트리거에 대한 자세한 내용은 이 [page](../../integrating/using/about-adobe-experience-cloud-triggers.md)을 참조하십시오.
 
 * **[!UICONTROL Datamodel]**: 게시를 실행하고 사용자 지정 리소스를 만들 수 있는 권한.
 * **[!UICONTROL Generic import]**: 데이터에 대한 일반 가져오기를 실행할 수 있는 권한. 이를 수행하려면 **[!UICONTROL Generic import]** 역할을 **[!UICONTROL Workflow]** 역할에 연결해야 합니다.

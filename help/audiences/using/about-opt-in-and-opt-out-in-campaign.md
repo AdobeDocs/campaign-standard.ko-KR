@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 9%
+source-wordcount: '223'
+ht-degree: 8%
 
 ---
 
@@ -27,6 +27,6 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->옵트아웃은 **이메일 주소** 또는 **전화 번호**&#x200B;에 연결된 격리와 대조적으로 **Profiles**&#x200B;에 적용됩니다. 따라서 프로필을 옵트아웃하면 프로필에 연결된 모든 주소가 게재에서 제외됩니다. 그러나 데이터베이스에 두 개의 프로필이 있는 경우에도 자신의 프로필 중 하나만 옵트아웃되면 게재 시 타겟팅됩니다. 그의 모든 주소가 제외되었는지 확인하려면 격리된 주소에 추가하십시오. 자세한 정보는 이 [페이지](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)를 참조하십시오.
+>옵트아웃은 **이메일 주소** 또는 **전화 번호**&#x200B;에 연결된 격리와 대조적으로 **Profiles**&#x200B;에 적용됩니다. 따라서 프로필을 옵트아웃하면 프로필에 연결된 모든 주소가 게재에서 제외됩니다. 그러나 사용자에게 데이터베이스에 두 개의 프로필이 있는 경우, 이 사용자는 프로필 중 하나만 옵트아웃되면 게재 시 계속 타겟팅됩니다. 모든 주소가 제외되었는지 확인하려면 격리된 주소에 추가하십시오. 자세한 정보는 이 [페이지](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)를 참조하십시오.
 
 서비스 구독에 대한 자세한 내용은 [이 페이지](../../audiences/using/about-subscriptions.md)를 참조하십시오.

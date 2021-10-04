@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 87%
+source-wordcount: '940'
+ht-degree: 77%
 
 ---
 
@@ -63,7 +63,7 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
 먼저 사용자에게 기본 제공 보안 그룹 중 하나를 할당합니다.
 
-1. Admin Console에서 인스턴스 선택하고 **사용자** 탭을 선택합니다.
+1. Admin Console에서 인스턴스를 선택하고 **사용자** 탭을 선택합니다.
 
    ![](assets/manage_security_group_2.png)
 
@@ -120,7 +120,7 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
    ![](assets/manage_security_group_9.png)
 
-이제 새로 만든 보안 그룹은 Admin Console에서 만들어졌습니다. 이를 완전히 동기화하려면 Adobe Campaign에서도 만들어야 합니다.
+이제 새로 만든 보안 그룹이 Admin Console에서 생성됩니다. 이를 완전히 동기화하려면 Adobe Campaign에서도 만들어야 합니다.
 
 관리자 사용자는 조직 단위를 할당하는 데 사용되는 보안 그룹 집합(Geometrixx 및 Geometrixx Clothes)을 만들어야 합니다. 조직 단위를 만드는 방법에 대해 알아보려면 [단위 만들기 및 관리](../../administration/using/organizational-units.md#creating-and-managing-units)를 참조하십시오.
 
@@ -146,4 +146,4 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
 >[!IMPORTANT]
 >
->Admin Console에서 사용자를 보안 그룹에서 제거할 경우, 해당 사용자는 Adobe Campaign 보안 그룹의 일부로 남으며 더 이상 Adobe Campaign에 로그인할 수 없습니다. 이 경우 민감한 정보를 수신하지 못하도록 Admin Console에서 해당 사용자의 이메일 주소를 제거합니다.
+>Admin Console의 보안 그룹에서 사용자를 제거하면 해당 사용자는 Adobe Campaign 보안 그룹의 일부로 남으며 더 이상 Adobe Campaign에 로그인할 수 없습니다. 이 경우 민감한 정보를 수신하지 못하도록 Admin Console에서 해당 사용자의 이메일 주소를 제거합니다.

@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 84%
+source-wordcount: '1763'
+ht-degree: 81%
 
 ---
 
@@ -159,7 +159,7 @@ Adobe Experience Manager 외부 계정은 Campaign과 Experience Manager를 통�
 
 Google reCAPTCHA 메커니즘을 사용하면 봇으로 인한 스팸 및 악용으로부터 랜딩 페이지를 보호할 수 있습니다. 이는 고객과의 상호 작용이 필요하지 않고 사이트와의 상호 작용을 기반으로 하기 때문에 고객을 방해하지 않습니다. 사이트를 등록하려면 이 [페이지](https://www.google.com/recaptcha/admin/create)를 참조하십시오. V3 reCAPTCHA 유형을 선택해야 합니다.
 
-Google reCAPTCHA V3을 랜딩 페이지에 추가하려면 먼저 외부 계정에서 구성해야 합니다. 랜딩 페이지에 추가하는 방법에 대한 자세한 내용은 이 [섹션](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)을 참조하십시오.
+Google reCAPTCHA V3을 랜딩 페이지에 추가하려면 외부 계정에서 구성합니다. 랜딩 페이지에 추가하는 방법에 대한 자세한 내용은 이 [섹션](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)을 참조하십시오.
 
 Google reCAPTCHA V3 외부 계정의 경우 다음 세부 정보를 제공합니다.
 

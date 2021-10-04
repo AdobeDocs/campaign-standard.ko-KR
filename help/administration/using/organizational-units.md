@@ -9,9 +9,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 4%
 >
 >**[!UICONTROL All (all)]** 조직 단위는 기본적으로 **[!UICONTROL Administrators]** 보안 그룹에 할당되어 있습니다. 이는 읽기 전용이므로 수정할 수 없습니다.
 
-사용자는 상위 단위의 모든 객체에 대해 읽기 전용 액세스 권한을 가집니다. 그는 자기 부대와 자녀 단위로 모든 객체를 읽고 쓸 수 있다. 사용자는 병렬 분기에 있는 객체에 액세스할 수 없습니다.
+사용자는 상위 단위의 모든 객체에 대해 읽기 전용 액세스 권한을 가집니다. 이러한 사용자는 단위 및 하위 단위의 모든 객체에 대한 읽기 및 쓰기 액세스 권한을 가집니다. 사용자는 병렬 분기에 있는 객체에 액세스할 수 없습니다.
 
 기본적으로 **[!UICONTROL All]** 단위만 사용할 수 있습니다.
 
@@ -79,7 +79,7 @@ ht-degree: 4%
 
 1. 동일한 절차에 따라 이전에 만든 Geometrixx 의류 조직 단위에 할당된 두 번째 템플릿을 만듭니다.
 
-표준 사용자 및 Geometrixx 의류 그룹에 할당된 사용자는 두 템플릿을 모두 볼 수 있습니다. 조직 단위의 계층 구조 때문에 Geometrixx 의류 단위에 연결된 템플릿에 대한 읽기 및 쓰기 액세스 권한을 가지며 Geometrixx 단위에 연결된 템플릿에 대한 읽기 전용 액세스 권한만 갖게 됩니다.
+**표준 사용자** 및 **Geometrixx 의류** 그룹에 할당된 사용자는 두 템플릿을 모두 볼 수 있습니다. 조직 단위의 계층 구조 때문에 Geometrixx 의류 단위에 연결된 템플릿에 대한 읽기 및 쓰기 액세스 권한을 가지며 Geometrixx 단위에 연결된 템플릿에 대한 읽기 전용 액세스 권한만 갖게 됩니다.
 
 ![](assets/manage_units_7.png)
 
@@ -87,7 +87,7 @@ Geometrixx 의류 단위는 Geometrixx의 하위 단위이므로 사용자가 Ge
 
 ![](assets/manage_units_8.png)
 
-조직 단위는 프로필과 같은 다양한 기능에 대한 액세스를 제한할 수 있습니다. 예를 들어 Geometrixx Clothes 사용자가 **[!UICONTROL Profiles]** 탭에 액세스하면 사용자는 Geometrixx Clothes 조직 단위로 프로필에 완전히 액세스하고 수정할 수 있습니다.
+조직 단위는 프로필과 같은 다양한 기능에 대한 액세스를 제한할 수 있습니다. 예를 들어 Geometrixx Clothes 사용자가 **[!UICONTROL Profiles]** 탭에 액세스하면 사용자가 Geometrixx Clothes 조직 단위로 프로필에 완전히 액세스하고 수정할 수 있습니다.
 
 Geometrixx 조직 단위가 있는 프로필은 읽기 전용이지만 사용자가 하나의 프로필을 수정하려고 하면 다음 오류가 표시됩니다. **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**
 

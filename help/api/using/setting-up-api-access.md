@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 
 >[!IMPORTANT]
 >
->Adobe IO에서 인증서를 관리하려면 조직에 <b>시스템 관리자</b> 권한이 있거나 Admin Console에 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a>이 있는지 확인하십시오.
+>Adobe IO에서 인증서를 관리하려면 조직에 <b>시스템 관리자</b> 권한이 있는지 또는 Admin Console에 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a>이 있는지 확인하십시오.
 
 1. **디지털 인증서가 있는지** 확인하거나 필요한 경우 디지털 인증서를 만듭니다. 인증서와 함께 제공된 공개 및 개인 키는 다음 단계에 필요합니다.
 1. **Adobe Campaign Service** Adobe IO에 대한 새로운 통합을 만들고 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).

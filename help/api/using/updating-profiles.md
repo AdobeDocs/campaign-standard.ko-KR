@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 1. 첫 번째 단계는 **프로필 검색**&#x200B;입니다.
 
-1. 두 번째 요청에서는 페이로드에 완료된 정보와 함께 프로필에 **PATCH 요청**&#x200B;을 수행합니다.
+1. 두 번째 요청에서 페이로드의 완료된 정보와 함께 프로필에서 **PATCH 요청**&#x200B;을 수행합니다.
 
 1. PATCH 요청이 프로필을 업데이트했는지 확인하기 위해 최종 GET 요청을 수행할 수 있습니다.
 

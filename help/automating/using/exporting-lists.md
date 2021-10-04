@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Adobe Campaign을 사용하면 목록을 나중에 사용할 수 있도록 파�
    ![](assets/export_list_mode_switch.png)
 
 1. 오른쪽 상단 모서리의 **[!UICONTROL Configure list]** 버튼을 사용하여 내보낼 순서대로 목록에서 열을 구성합니다. 구성된 열 외에 리소스의 기본 키도 내보냅니다.
-1. 원한다면 필터를 적용할 수 있습니다. 이렇게 하려면 왼쪽 상단 모서리의 버튼을 클릭하여 검색 창을 표시합니다.
+1. 원한다면 필터를 적용할 수 있습니다. 이렇게 하려면 왼쪽 위 모서리의 버튼을 클릭하여 검색 창을 표시합니다.
 
    다른 리소스가 들어 있는 목록에서 내보내기를 수행하는 경우, 목록에 한 가지 유형의 리소스만 표시되도록 필터를 적용해야 합니다.
 

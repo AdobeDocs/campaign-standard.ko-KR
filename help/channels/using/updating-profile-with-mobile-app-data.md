@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 4%
 
 ---
@@ -106,7 +106,7 @@ PII 데이터로 프로필 리소스를 만들거나 업데이트하려면 먼�
 
    ![](assets/update_profile_createelement.png)
 
-1. **[!UICONTROL Source]** 필드에서 appSubscriptionRcp 테이블의 필드를 조정 필드로 선택합니다. 프로필의 이메일, crmId, marketingCloudId 등이 될 수 있습니다. 이 경우 &quot;이메일(cusEmail)&quot; 필드를 사용합니다.
+1. **[!UICONTROL Source]** 필드에서 appSubscriptionRcp 테이블의 필드를 조정 필드로 선택합니다. 프로필의 이메일, crmId, marketingCloudId 등이 될 수 있습니다. 이 예제에서는 &quot;Email (cusEmail)&quot; 필드를 사용합니다.
 
 1. **[!UICONTROL Destination]** 필드의 프로필 테이블에서 필드를 선택하여 appSubscriptionRcp 테이블에서 데이터를 조정합니다. 프로필의 이메일 또는 crmId, marketingCloudId 등의 확장 필드일 수 있습니다. 이 예제에서는 &quot;이메일(이메일)&quot; 필드를 선택하여 appSubscriptionRcp 테이블의 &quot;Email (cusEmail)&quot; 필드에 매핑해야 합니다.
 

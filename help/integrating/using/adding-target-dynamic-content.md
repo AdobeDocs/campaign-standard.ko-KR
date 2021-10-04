@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 4%
@@ -41,7 +41,7 @@ Adobe Campaign의 이미지에 액세스하려면 먼저 Adobe Target에서 다�
 1. Adobe Target의 설정에서 엔터프라이즈 권한을 사용하는 경우 이 필드에 해당 속성을 추가하십시오. [이 페이지](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html)에서 Enterprise Target 권한에 대해 자세히 알아보십시오. 이 필드는 선택 사항이며 Target에서 엔터프라이즈 권한을 사용하지 않는 경우에는 필요하지 않습니다.
 1. **[!UICONTROL Additional decision parameters]**&#x200B;에서 Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 지정합니다.
 
-   사용된 Adobe Campaign 필드를 rawbox에 지정해야 합니다. 여기에서 우리는 수신자의 성별에 따라 다른 경험을 정의할 것입니다.
+   사용된 Adobe Campaign 필드를 rawbox에 지정해야 합니다. 이 예제에서는 수신자의 성별에 따라 다른 경험을 정의합니다.
 
    ![](assets/tar_additional_decisionning_parameters.png)
 

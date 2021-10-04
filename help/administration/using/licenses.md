@@ -8,9 +8,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ![](assets/license_1.png)
 
-새로운 빌드 또는 새로운 기능을 사용할 경우 사용 약관이 변경될 수 있으며 인스턴스의 기능 관리자가 사용 권한을 부여해야 합니다.
+새로운 빌드 또는 새 기능을 사용하면 라이선스 용어가 변경될 수 있으며 인스턴스의 기능 관리자가 수락해야 합니다.
 
 로그인하면 표준 사용자에게 다음 창이 나타나며 해당 부품에 대한 작업은 필요하지 않습니다. **[!UICONTROL OK]** 단추를 클릭하여 Adobe Campaign에서 계속 작업할 수 있습니다.
 

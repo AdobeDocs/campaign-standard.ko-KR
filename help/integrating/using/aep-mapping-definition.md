@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -63,7 +63,7 @@ API를 통해 XDM 확장을 사용자 지정하고 고유한 확장을 정의할
 
 XDM API에 대한 자세한 내용은 [스키마 레지스트리 API 자습서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)를 참조하십시오.
 
-열거형 필드를 매핑하려면 표현식 편집기를 사용하여 XDM 값에 해당하는 각 열거형 값을 정의해야 합니다. 예를 들어 postalAdressfield를 다음과 같이 정의해야 합니다.
+열거형 필드를 매핑하려면 표현식 편집기를 사용하여 XDM 값에 해당하는 각 열거형 값을 정의해야 합니다. 예를 들어 postaladdressfield를 다음과 같이 정의해야 합니다.
 
 ![](assets/aep_enummapping.png)
 

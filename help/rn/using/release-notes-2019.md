@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '7589'
+source-wordcount: '7588'
 ht-degree: 8%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 8%
 * 동적 보고에 대한 동의 팝업이 Adobe Campaign Standard 및 Microsoft Dynamics 365 통합을 포함하도록 업데이트되었습니다. 약관에 동의하면 Adobe Campaign Standard / Microsoft Dynamics 365 통합 및 동적 보고를 사용할 때 프로필 데이터가 포함됩니다. [자세한 내용](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 게재 경고를 받을 때 잘못된 연락 날짜를 표시하는 문제를 해결했습니다.
 * 알 수 없는 컨텍스트 매개 변수를 사용하여 트랜잭션 메시지 이벤트를 제출하면 이제 Campaign은 &quot;500&quot; 대신 &quot;400&quot; 오류 메시지를 반환합니다. (CAMP-28632)
-* 동적 보고에 새 **제외 증명** 세그먼트가 추가되었습니다. 이제 이 세그먼트는 보고서를 필터링하도록 기본적으로 선택됩니다. [자세히 표시](../../reporting/using/list-of-components-.md#segments)
-* **메시지 만료** 옵션이 푸시 알림에 추가되었습니다. 이 옵션을 통해 APNS(Apple) 또는 Android(FCM)에서 더 이상 메시지를 보내지 않을 만료 날짜를 지정할 수 있습니다. [자세히 표시](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* **파일 로드** 활동이 개선되었습니다. 워크플로우 로그가 파일을 로드하지 못할 때 발생하는 오류에 대해 보다 명확하게 수정했습니다. **파일** 옵션을 활성화할 때 생성된 아웃바운드 전환의 이름이 **거부**&#x200B;로 변경되었습니다. [자세히 표시](../../automating/using/load-file.md)
+* 동적 보고에 새 **제외 증명** 세그먼트가 추가되었습니다. 이제 이 세그먼트는 보고서를 필터링하도록 기본적으로 선택됩니다. [자세히 알아보기](../../reporting/using/list-of-components-.md#segments)
+* **메시지 만료** 옵션이 푸시 알림에 추가되었습니다. 이 옵션을 통해 APNS(Apple) 또는 Android(FCM)에서 더 이상 메시지를 보내지 않을 만료 날짜를 지정할 수 있습니다. [자세히 알아보기](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* **파일 로드** 활동이 개선되었습니다. 워크플로우 로그가 파일을 로드하지 못할 때 발생하는 오류에 대해 보다 명확하게 수정했습니다. **파일** 옵션을 활성화할 때 생성된 아웃바운드 전환의 이름이 **거부**&#x200B;로 변경되었습니다. [자세히 알아보기](../../automating/using/load-file.md)
 * 업로드된 CSV 파일에서 언어가 누락되어 보내는 오류를 더 잘 이해할 수 있도록 다국어 관련 로그가 전송 로그에 추가되었습니다.
 
 **향상된 보안 기능**
@@ -80,7 +80,7 @@ ht-degree: 8%
 
 * 이메일에 삽입할 때 구독 취소, 구독 및 랜딩 페이지 링크가 추적되지 않는 문제를 해결했습니다. (CAMP-37809)
 * 새 이메일을 만들고 템플릿을 선택할 때 오류가 발생하는 문제를 수정했습니다. (CAMP-38000)
-* 이제 이메일 디자이너를 사용하여 링크를 편집할 때 **밑줄 링크** 옵션을 사용할 수 있습니다. 또한 **Target** 속성이 **없음**&#x200B;으로 설정된 상태로 추가되었습니다. [자세히 표시](../../designing/using/styles.md#about-styling-links)
+* 이제 이메일 디자이너를 사용하여 링크를 편집할 때 **밑줄 링크** 옵션을 사용할 수 있습니다. 또한 **Target** 속성이 **없음**&#x200B;으로 설정된 상태로 추가되었습니다. [자세히 알아보기](../../designing/using/styles.md#about-styling-links)
 * 이메일 본문의 텍스트 구성 요소에 있는 링크에 대한 색상 문제를 해결했습니다. (CAMP-37330)
 * 이미지를 삭제할 때 연결된 링크가 제거되지 않는 문제를 수정했습니다. (CAMP-37234)
 * 조건에 있는 동적 콘텐츠의 **Order** 설정에 대한 수정 사항을 저장할 수 없는 문제가 해결되었습니다. (CAMP-36883)

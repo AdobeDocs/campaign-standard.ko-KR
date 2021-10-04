@@ -8,9 +8,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '636'
 ht-degree: 15%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 15%
 
 또한 Campaign Standard에서 보안 관련 정보를 모니터링할 수 있습니다. **[!UICONTROL Export audits]** 화면을 통해 사용자가 수행한 데이터 내보내기에 대한 정보를 검색하고, **[!UICONTROL Licenses]** 화면을 활용하여 조직 내에 설치된 모든 Campaign 라이센스와 빌드 번호, 릴리스 버전 및 계약 조건 등의 다양한 정보를 모니터링할 수 있습니다.
 
-자세한 내용:
+자세히 알아보기:
 
 * [사용자 관리](../../administration/using/users-management.md)
 * [조직 단위](../../administration/using/organizational-units.md)
@@ -76,7 +76,7 @@ ht-degree: 15%
 
 Adobe Experience Platform SDK를 사용하여 인앱 메시지 및 푸시 알림을 전송할 수 있도록 **모바일 애플리케이션**&#x200B;을 설정합니다.
 
-자세한 내용:
+자세히 알아보기:
 
 * [채널 구성 기본 정보](../../administration/using/about-channel-configuration.md)
 * [이메일 채널 구성](../../administration/using/configuring-email-channel.md)
@@ -93,7 +93,7 @@ Adobe Campaign을 외부 서버에 연결하는 데 사용되는 **외부 계정
 
 조직에 대해 하나 또는 여러 **브랜드**&#x200B;를 정의하고, 중요한 시스템 활동이 발생하는 경우 애플리케이션 내에서 **실시간 알림**&#x200B;을 보내도록 구성합니다.
 
-자세한 내용:
+자세히 알아보기:
 
 * [Campaign Standard 설정 기본 정보](../../administration/using/about-campaign-standard-settings.md)
 * [외부 계정](../../administration/using/external-accounts.md)

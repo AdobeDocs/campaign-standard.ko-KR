@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Adobe Experience Platform Mobile SDK는 추가 구성 없이 Android와 iOS 모�
 
 ### Android용 {#implement-click-tracking-android}
 
-클릭을 추적하려면 다음 두 가지 시나리오를 처리해야 합니다.
+클릭 수를 추적하려면 두 가지 시나리오를 구현해야 합니다.
 
 * 사용자는 알림을 보지만 지웁니다.
 
@@ -128,7 +128,7 @@ private void handleTracking() {
  
     if (data != null) {
 
-        //Opened based on the notification, you need to get the tracking that was passed on.
+        //Opened based on the notification, you must get the tracking that was passed on.
 
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");

@@ -8,10 +8,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 53%
+source-wordcount: '157'
+ht-degree: 38%
 
 ---
 
@@ -34,4 +34,4 @@ Campaign의 표준 로그 테이블에는 사전 설정된 보존 기간이 있�
 
 표준 워크플로우 기능을 사용하면 모든 사용자 지정 테이블에 대해 보존 기간을 설정할 수 있습니다.
 
-Adobe 컨설턴트 또는 기술 관리자에게 문의하여 보존에 대한 자세한 내용을 확인하거나 사용자 지정 테이블에 대한 보존을 설정해야 합니다.
+Adobe 컨설턴트 또는 기술 관리자에게 문의하여 보존에 대한 자세한 내용을 확인하거나 사용자 지정 테이블에 대한 보존을 설정하십시오.

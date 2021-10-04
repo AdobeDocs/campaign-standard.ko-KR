@@ -9,16 +9,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
 
 # Adobe Campaign Standard 사용 사례를 지원하기 위한 Launch 규칙 구성 {#configuring-rules-launch}
 
-[!DNL Adobe Experience Platform Launch]에서는 모바일 애플리케이션에서 [!DNL Adobe Campaign Standard]로 PII 및 기타 데이터를 전송하기 위해 데이터 요소와 규칙을 만들어야 합니다.
+[!DNL Adobe Experience Platform Launch]에서 데이터 요소와 규칙을 만들어 모바일 애플리케이션에서 [!DNL Adobe Campaign Standard]로 PII 및 기타 데이터를 보냅니다.
 
 [!DNL Adobe Experience Platform Launch]의 모든 구성 변경 사항을 적용하려면 이러한 변경 사항을 게시해야 합니다. 자세한 내용은 [게시](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration)를 참조하십시오.
 
@@ -189,7 +189,7 @@ PII 데이터를 [!DNL Adobe Campaign Standard]에 보내려면 [!DNL Experience
 >
 >Android ACPCore v1.4.0 이상/iOS ACPCore v2.3.0 이상을 사용하는 경우 추적 포스트백을 구성할 필요가 없습니다.
 
-추적 데이터를 모바일 애플리케이션과의 푸시 알림 게재와 사용자 상호 작용을 추적하는 데 도움이 되는 [!DNL Adobe Campaign Standard]에 보내려면 [!DNL Experience Platform Launch]에서 규칙을 만들어야 합니다.
+푸시 알림 게재와 모바일 애플리케이션과의 상호 작용을 추적하는 데 도움이 되는 추적 데이터를 [!DNL Adobe Campaign Standard]에 보내려면 [!DNL Experience Platform Launch]에서 규칙을 만들어야 합니다.
 
 푸시 추적에 대한 자세한 내용은 [푸시 추적](../../administration/using/push-tracking.md)을 참조하십시오.
 

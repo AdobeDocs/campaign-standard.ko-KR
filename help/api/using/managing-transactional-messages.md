@@ -8,27 +8,25 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '672'
 ht-degree: 3%
 
 ---
 
 # 트랜잭션 메시지 관리 {#managing-transactional-messages}
 
-## 트랜잭션 메시지 정보
-
 트랜잭션 이벤트를 만들고 게시하면 이 이벤트 트리거를 웹 사이트에 통합해야 합니다.
 
 >[!NOTE]
 >
->이벤트 구성은 [이 섹션](../../channels/using/configuring-transactional-event.md)에 나와 있습니다.
+>이벤트 구성은 [이 섹션](../../channels/using/configuring-transactional-event.md)에 자세히 설명되어 있습니다.
 
-예를 들어 장바구니에서 제품을 구매하기 전에 고객 중 한 명이 웹 사이트를 떠날 때마다 &quot;장바구니 포기&quot; 이벤트를 트리거해야 합니다. 이렇게 하려면 웹 개발자가 REST 트랜잭션 메시지 API를 사용해야 합니다.
+예를 들어 장바구니에서 제품을 구매하기 전에 고객 중 한 명이 웹 사이트를 떠날 때마다 &quot;장바구니 포기&quot; 이벤트를 트리거해야 합니다. 이렇게 하려면 웹 개발자로서 REST 트랜잭션 메시지 API를 사용해야 합니다.
 
-1. 개발자가 POST 메서드에 따라 요청을 보내어 트랜잭션 이벤트](#sending-a-transactional-event)의 [전송을 트리거합니다.
-1. POST 요청에 대한 응답에는 기본 키가 포함되어 있으므로, 개발자가 GET 요청을 통해 하나 이상의 요청을 보낼 수 있습니다. 이렇게 하면 [이벤트 상태](#transactional-event-status)를 가져올 수 있습니다.
+1. 트랜잭션 이벤트](#sending-a-transactional-event)의 [전송을 트리거하는 POST 메서드에 따라 요청을 보냅니다.
+1. POST 요청에 대한 응답에는 기본 키가 포함되어 있으므로, GET 요청을 통해 하나 이상의 요청을 보낼 수 있습니다. 그런 다음 [이벤트 상태](#transactional-event-status)를 가져올 수 있습니다.
 
 ## 트랜잭션 이벤트 보내기 {#sending-a-transactional-event}
 
@@ -46,7 +44,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   (트랜잭션 메시지 API 엔드포인트는 API 미리 보기 중에도 볼 수 있습니다.)
+   트랜잭션 메시지 API 엔드포인트는 API 미리 보기 시에도 표시됩니다.
 
 * **&lt;eventid>**: 전송할 이벤트 유형입니다. 이 ID는 이벤트 구성을 만들 때 생성됩니다( [이 섹션](../../channels/using/configuring-transactional-event.md#creating-an-event) 참조).
 

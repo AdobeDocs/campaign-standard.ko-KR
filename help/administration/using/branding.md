@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 80%
+source-wordcount: '1279'
+ht-degree: 77%
 
 ---
 
@@ -95,7 +95,7 @@ Campaign에서 조직의 새 엔티티를 추가하거나 다른 하위 도메�
    >
    >Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 
-1. **티켓 만들기**  - 하위 도메인이 구성되면 Adobe이 프로덕션 환경에서 설정해야 합니다. 이를 요청하려면 다음 정보로 Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 대한 티켓을 만드십시오.[
+1. **티켓 만들기**  - 하위 도메인이 구성되면 Adobe이 프로덕션 환경에서 설정합니다. 이를 요청하려면 다음 정보로 Client Care](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 대한 티켓을 만드십시오.[
 
    * 제목: ACS 새 브랜드 설정
 
@@ -145,13 +145,13 @@ Campaign에서 조직의 새 엔티티를 추가하거나 다른 하위 도메�
 
 이 예제에서는 새로운 여행 관련 브랜드를 만들어 이메일에 사용합니다.
 
-#### 새 브랜드 구성 {#configure-a-new-brand}
+#### 1단계: 새 브랜드 구성 {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >브랜드 구성은 특정 권한 및 기술 설정이 필요하므로 Adobe에서만 관리합니다.
 
-1. Adobe Campaign 관리자는 **[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;에서 브랜드를 만듭니다. 고급 메뉴에서 **Vacations in the Tropics** 요소를 추가하고 브랜드의 **[!UICONTROL ID]** 및 **[!UICONTROL Header parameters of sent emails]**&#x200B;을(를) 구성합니다.
+1. Adobe Campaign 관리자는 먼저 **[!UICONTROL Administration > Instance settings > Brand configuration]** 메뉴에서 브랜드를 만들고 **Vacations in the Tropics** 요소를 추가하고 브랜드의 **[!UICONTROL ID]** 및 **[!UICONTROL Header parameters of sent emails]**&#x200B;를 구성합니다.
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ Campaign에서 조직의 새 엔티티를 추가하거나 다른 하위 도메�
 
 브랜드가 올바르게 생성 및 구성되었습니다. 이제 마케팅 팀에서 사용할 수 있습니다.
 
-#### 새 브랜드 구현 {#implement-a-new-brand}
+#### 2단계: 새 브랜드 구현 {#implement-a-new-brand}
 
 게재 관리자는 새 브랜드를 사용하기 위해 게재 템플릿을 만들어야 합니다. 이를 실현하려면 아래 단계를 수행하십시오.
 
@@ -182,7 +182,7 @@ Campaign에서 조직의 새 엔티티를 추가하거나 다른 하위 도메�
 
    이제 게재 템플릿을 사용하여 대상자에게 전송할 이메일을 만들 수 있습니다.
 
-#### 게재에서 새 브랜드 사용 {#use-the-new-brand-in-a-delivery}
+#### 3단계: 게재에서 새 브랜드 사용 {#use-the-new-brand-in-a-delivery}
 
 브랜드에 연결된 이메일을 만들려면 아래 단계를 수행하십시오.
 
