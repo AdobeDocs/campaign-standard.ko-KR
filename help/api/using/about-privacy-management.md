@@ -4,10 +4,10 @@ description: API를 사용한 개인 정보 관리에 대해 자세히 알아보
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,4 @@ Campaign Standard API는 GDPR 및 CCPA와 같은 개인 정보 보호 규정 관
 
 CCPA 옵트아웃은 **ccpaOptOut** 프로필 속성을 사용하여 관리됩니다.
 
-Adobe Campaign Standard 및 개인 정보 보호 규정에 대한 자세한 내용은 [전용 설명서](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html)를 참조하십시오.
+Adobe Campaign Standard 및 개인 정보 보호 규정에 대한 자세한 내용은 [전용 설명서](../../start/using/privacy-requests.md)를 참조하십시오.
