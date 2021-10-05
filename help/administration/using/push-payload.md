@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 3%
 
 ---
@@ -216,7 +216,7 @@ Android 페이로드의 측면을 이해하려면 [메시징 개념 및 옵션(f
 | 가변 컨텐츠 <br> (iOS 10 이상에만 적용 가능) | 가변 콘텐츠 | NA | 앱의 알림 서비스 확장은 변경 가능한 컨텐츠 키로 모든 원격 알림을 &quot;intercept&quot; 하고, 요청 페이로드의 컨텐츠를 처리/조작할 수 있도록 하며 알림을 사용자 지정하는 데 사용할 수 있습니다. 이 기능의 사용 사례에는 다중 미디어 다운로드 및 표시, 푸시 페이로드에 있는 암호화된 데이터의 암호 해독 등이 있습니다. 자세한 내용은 [원격 알림](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)의 페이로드를 수정하십시오. <br>(iOS 10 이상에만 적용 가능) |
 | 컨텐츠 이용 가능 | 컨텐츠 이용 가능 | NA | 이 옵션을 선택하면 iOS 앱이 배경/일시 중단 상태인 동안 깨어날 수 있습니다. 깨어나는 것은 앱이 백그라운드에서 실행되며 푸시 알림 데이터 페이로드를 수신하는 적절한 이벤트 처리기가 제어를 받고 데이터를 사용하여 사용자 지정 푸시 알림을 작성하고 표시하는 것을 포함하되, 이에 국한되지 않습니다. 자세한 내용은 [알림 전달을 통해 앱 절전 모드 해제](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)에서 확인할 수 있습니다. |
 | 리치 미디어 컨텐츠 URL(이미지 파일)<br>(Android에만 적용 가능) | NA | media-attachment-url | 알림에 리치 컨텐츠를 추가할 이미지 파일의 URL입니다. |
-| NA | _mId<br>_dId | _mId <br>_dId | broadlogId 및 deliveryId 값입니다.<br>이러한 속성은 앱이 푸시 알림을 클릭/연 시간을 추적하기 위해 추적 포스트백을 호출하려는 경우 필요합니다. 이 정보는 사용자 개입 없이 앱 서버에서 내부적으로 계산되고 전송됩니다.<br>포스트백에 대한 정보는 이  [페이지에서 찾을 수 있습니다](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| NA | _mId<br>_dId | _mId <br>_dId | broadlogId 및 deliveryId 값입니다.<br>이러한 속성은 앱이 푸시 알림을 클릭/연 시간을 추적하기 위해 추적 포스트백을 호출하려는 경우 필요합니다. 이 정보는 사용자 개입 없이 앱 서버에서 내부적으로 계산되고 전송됩니다.<br>포스트백에 대한 정보는 이  [페이지에서 찾을 수 있습니다](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### 모바일 앱 코드에서 페이로드 정보를 검색하는 방법 {#payload-information}
 

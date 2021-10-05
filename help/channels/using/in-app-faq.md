@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 2%
 
 ## Campaign에서 인앱 보고를 활성화하려면 무엇을 해야 합니까? {#enable-inapp-reporting}
 
-인앱 추적 포스트백을 구성해야 합니다. 지침은 [여기](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback)에서 찾을 수 있습니다.
+인앱 추적 포스트백을 구성해야 합니다. 지침은 [여기](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)에서 찾을 수 있습니다.
 
 로컬 알림 추적을 구현하려면 이 [페이지](../../administration/using/local-tracking.md)를 참조하십시오.
 

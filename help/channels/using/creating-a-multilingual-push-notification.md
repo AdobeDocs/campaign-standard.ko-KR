@@ -8,10 +8,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL Manage Content Variants]** 창에서 파일을 끌어다 놓거나 컴퓨터에서 파일을 선택합니다.
 
-   파일은 UTF8 인코딩되어야 하며 **[!UICONTROL Download the sample file]** 옵션을 클릭하여 찾을 수 있는 특정 레이아웃이 있어야 합니다. 로케일 값에 적절한 구문을 사용해야 합니다. 파일 형식 및 지원되는 로케일에 대한 자세한 내용은 이 [기술 정보](https://docs.adobe.com/content/help/ko-KR/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.html)를 참조하십시오.
+   파일은 UTF8 인코딩되어야 하며 **[!UICONTROL Download the sample file]** 옵션을 클릭하여 찾을 수 있는 특정 레이아웃이 있어야 합니다. 로케일 값에 적절한 구문을 사용해야 합니다. 파일 형식 및 지원되는 로케일에 대한 자세한 내용은 이 [page](../../channels/using/generating-csv-multilingual-push.md)을 참조하십시오.
 
    ![](assets/multivariant_push_4.png)
 
@@ -132,4 +132,3 @@ ht-degree: 3%
 
 * [푸시 알림 보고서](../../reporting/using/push-notification-report.md)
 * [워크플로우 내에서 푸시 알림 보내기](../../automating/using/push-notification-delivery.md)
-* [하나의 워크플로우를 사용하여 다국어 대상에게 연결](https://helpx.adobe.com/kr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

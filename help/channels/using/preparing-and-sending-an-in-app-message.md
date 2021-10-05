@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1157'
 ht-degree: 98%
 
 ---
@@ -58,7 +58,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 인앱 메시지 속성을 입력하고 **[!UICONTROL Associate a Mobile App to a delivery]** 필드에서 모바일 앱을 선택합니다. Adobe Campaign Standard를 통해 모바일 앱을 구성하지 않은 경우 목록에 표시되지 않습니다. 모바일 애플리케이션 구성에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)를 참조하십시오.
+1. 인앱 메시지 속성을 입력하고 **[!UICONTROL Associate a Mobile App to a delivery]** 필드에서 모바일 앱을 선택합니다. Adobe Campaign Standard를 통해 모바일 앱을 구성하지 않은 경우 목록에 표시되지 않습니다. 모바일 애플리케이션 구성에 대한 자세한 내용은 이 [페이지](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)를 참조하십시오.
 
    ![](assets/inapp_creating_3.png)
 
@@ -74,7 +74,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
    * **[!UICONTROL Mobile Application events]**: 모바일 애플리케이션에서 구현된 사용자 지정 이벤트입니다.
 
-      이벤트 생성에 대한 자세한 내용은 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html)를 참조하십시오.
+      이벤트 생성에 대한 자세한 내용은 이 [페이지](../../administration/using/configuring-a-mobile-application.md)를 참조하십시오.
 
    * **[!UICONTROL Life Cycle events]**: Adobe Mobile SDK에서 지원하는 기본 라이프 사이클 이벤트입니다.
 
@@ -86,7 +86,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
    * **[!UICONTROL Places]**: 위치 컨텍스트 데이터, 위치 사용자 지정 메타데이터 또는 위치 이벤트 유형의 세 가지 카테고리는 실시간 위치 데이터를 활용하여 컨텍스트에 맞는 모바일 경험을 제공합니다.
 
-      Adobe Places에 대한 자세한 내용은 [위치 설명서](https://placesdocs.com/)를 참조하십시오.
+      Adobe Places에 대한 자세한 내용은 [위치 설명서](https://experienceleague.adobe.com/docs/places/using/home.html)를 참조하십시오.
    ![](assets/inapp_creating_4.png)
 
 1. **[!UICONTROL Analytics Events]**&#x200B;을(를) 사용하는 경우 Adobe Analytics 및 보기 상태 이벤트는 Adobe Experience Platform Launch의 Analytics 확장에 구성된 보고서 세트를 기반으로 자동으로 채워지는 반면, 컨텍스트 데이터 이벤트는 수동으로 추가해야 합니다.
@@ -103,7 +103,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
    ![](assets/inapp_creating_5.png)
 
-1. 메시지 내용을 편집하고 고급 옵션을 정의합니다. [인앱 메시지 사용자 지정](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html)을 참조하십시오.
+1. 메시지 내용을 편집하고 고급 옵션을 정의합니다. [인앱 메시지 사용자 지정](../../channels/using/customizing-an-in-app-message.md)을 참조하십시오.
 
    ![](assets/inapp_creating_6.png)
 

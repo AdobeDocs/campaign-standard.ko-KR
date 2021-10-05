@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 4%
+source-wordcount: '996'
+ht-degree: 3%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 4%
 모바일 앱 구독 데이터를 기반으로 프로필을 만들거나 업데이트하기 전에 Campaign Standard에서 푸시 알림을 활성화하기 위해 따라야 할 구성 단계가 있습니다.
 
 1. [모바일 애플리케이션 만들기](../../administration/using/configuring-a-mobile-application.md)
-1. [모바일 애플리케이션과 Adobe Mobile SDK를 통합합니다](https://helpx.adobe.com/kr/campaign/kb/integrate-mobile-sdk.html).
-1. [푸시 알림을 전송하도록 Adobe Campaign을 구성합니다](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdkv4.html).
+1. [모바일 애플리케이션과 Adobe Mobile SDK를 통합합니다](../../administration/using/supported-mobile-use-cases.md).
+1. [푸시 알림을 전송하도록 Adobe Campaign을 구성합니다](../../administration/using/configuring-a-mobile-application.md).
 
 ## 1단계 - 푸시 알림/구독에 대한 프로필 리소스 확장
 

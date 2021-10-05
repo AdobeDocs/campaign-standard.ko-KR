@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 25%
+source-wordcount: '278'
+ht-degree: 24%
 
 ---
 
@@ -43,6 +43,3 @@ ht-degree: 25%
 1. 전송을 **[!UICONTROL Send after confirmation option]**&#x200B;으로 예약합니다.
 1. 전자 메일이 전송되면 해당 로그 및 보고서에 액세스하여 캠페인의 성공을 측정할 수 있습니다. 보고와 관련한 자세한 정보는 [이 섹션](../../reporting/using/about-dynamic-reports.md)을 참조하십시오.
 
-**관련 항목:**
-
-* [하나의 워크플로우를 사용하여 다국어 대상에게 연결](https://helpx.adobe.com/kr/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

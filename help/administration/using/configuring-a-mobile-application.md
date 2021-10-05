@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1248'
 ht-degree: 5%
 
 ---
@@ -25,11 +25,9 @@ ht-degree: 5%
 
 Experience Platform SDK 애플리케이션을 통해 푸시 알림 및 인앱 메시지를 전송하려면 Adobe Experience Platform Experience Platform Experience Platform Launch에서 모바일 애플리케이션을 설정하고 Adobe Campaign에서 구성해야 합니다.
 
-더 이상 사용되지 않는 기능 Mobile 버전 4 SDK에 대한 자세한 내용은 이 [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html)을 참조하십시오.
-
 모바일 애플리케이션이 설정되면 수집한 PII 데이터를 검색하여 데이터베이스에서 프로필을 만들거나 업데이트할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오. [모바일 애플리케이션 데이터를 기반으로 프로필 정보를 만들고 업데이트합니다](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지원되는 다양한 모바일 사용 사례에 대한 자세한 내용은 이 [page](https://helpx.adobe.com/kr/campaign/kb/configure-launch-rules-acs-use-cases.html)을 참조하십시오.
+Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지원되는 다양한 모바일 사용 사례에 대한 자세한 내용은 이 [page](../../administration/using/supported-mobile-use-cases.md)을 참조하십시오.
 
 구성을 완료하려면 다음 단계를 완료하십시오.
 

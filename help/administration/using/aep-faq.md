@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '907'
 ht-degree: 4%
 
 ---
@@ -76,7 +76,7 @@ Adobe Experience Platform SDK 및 Campaign Standard 통합에 대한 자세한 �
 
 ## Campaign에서 모바일 프로필을 보강하기 위해 어떻게 해야 합니까? {#enrich-mobile-profile}
 
-CollectPII 포스트백을 구성(이 [페이지](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback) 참조)하고 SDK에서 CollectPII API를 구현해야 합니다( 이 [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii) 참조).
+CollectPII 포스트백을 구성(이 [페이지](../../administration/using/configuring-rules-launch.md#pii-postback) 참조)하고 SDK에서 CollectPII API를 구현해야 합니다( 이 [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii) 참조).
 
 ## CollectPII 호출이 얼마나 자주 실행되어야 합니까? {#collect-pii}
 

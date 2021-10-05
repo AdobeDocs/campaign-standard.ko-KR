@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 20%
+source-wordcount: '415'
+ht-degree: 18%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 20%
 
 푸시 알림을 받는 모바일 애플리케이션은 Adobe Campaign 인터페이스에서 관리자가 구성해야 합니다.
 
-Adobe Campaign과 Adobe Mobile Services를 모두 구성하면 캠페인에 모바일 애플리케이션의 데이터를 사용할 수 있습니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html)를 참조하십시오.
+Adobe Campaign과 Adobe Mobile Services를 모두 구성하면 캠페인에 모바일 애플리케이션의 데이터를 사용할 수 있습니다. 자세한 정보는 이 [페이지](../../administration/using/configuring-a-mobile-application.md)를 참조하십시오.
 
-Experience Cloud SDK 애플리케이션을 통해 푸시 알림을 전송하려면 Adobe Experience Platform Launch에서 모바일 앱을 설정하고 Adobe Campaign에서 구성해야 합니다. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)를 참조하십시오.
+Experience Cloud SDK 애플리케이션을 통해 푸시 알림을 전송하려면 Adobe Experience Platform Launch에서 모바일 앱을 설정하고 Adobe Campaign에서 구성해야 합니다. 자세한 정보는 이 [페이지](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)를 참조하십시오.
 
 ## 2단계: Adobe Campaign에서 푸시 알림 사용자 정의 {#customize-push}
 

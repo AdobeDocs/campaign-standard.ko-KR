@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 77%
+source-wordcount: '1282'
+ht-degree: 76%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 77%
 
 Campaign에서 조직의 새 엔티티를 추가하거나 다른 하위 도메인 아래에 보내야 하는 새로운 유형의 이메일을 만들 수 있습니다. 이렇게 하려면 아래 단계를 수행하십시오.
 
-1. **새 하위 도메인 구성**  - Adobe에서 사용할 새 하위 도메인을 구성하려면 첫 번째 단계를 수행해야 합니다. 이 작업은 [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)을 통해 수행하거나 Adobe 기술 담당자에게 문의하십시오. 이 문서](https://helpx.adobe.com/kr/campaign/kb/domain-name-delegation.html)에서 하위 도메인 구성 [에 대해 자세히 알아보십시오.
+1. **새 하위 도메인 구성**  - Adobe에서 사용할 새 하위 도메인을 구성하려면 첫 번째 단계를 수행해야 합니다. 이 작업은 [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)을 통해 수행하거나 Adobe 기술 담당자에게 문의하십시오. 이 문서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html)에서 하위 도메인 구성 [에 대해 자세히 알아보십시오.
 
    >[!NOTE]
    >

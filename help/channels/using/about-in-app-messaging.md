@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '443'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인�
 
 1. Adobe Campaign에서 **[!UICONTROL In-App]** 채널에 액세스할 수 있는지 확인합니다. 이 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
 
-1. Adobe Campaign Standard와 Experience Cloud SDK 애플리케이션을 함께 사용하는 모바일 사용 사례를 활용하려면 Adobe Experience Platform Launch에서 모바일 앱을 제작하고 Adobe Campaign Standard에서 구성해야 합니다. 단계별 안내서는 이 [페이지](https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html)를 참조하십시오.
+1. Adobe Campaign Standard와 Experience Cloud SDK 애플리케이션을 함께 사용하는 모바일 사용 사례를 활용하려면 Adobe Experience Platform Launch에서 모바일 앱을 제작하고 Adobe Campaign Standard에서 구성해야 합니다. 단계별 안내서는 이 [페이지](../../administration/using/configuring-a-mobile-application.md)를 참조하십시오.
 
 1. 구성하고 나면 이제 인앱 메시지를 준비할 수 있습니다. 자세한 정보는 이 [페이지](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)를 참조하십시오.
 
@@ -38,8 +38,8 @@ Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인�
 **관련 컨텐츠:**
 
 * [인앱 보고서](../../reporting/using/in-app-report.md)
-* [Adobe Campaign Standard에서 지원되는 모바일 사용 사례](https://helpx.adobe.com/kr/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Campaign Standard Mobile 안내서](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)
+* [Adobe Campaign Standard에서 지원하는 모바일 사용 사례](../../administration/using/configuring-rules-launch.md)
+* [Campaign Standard Mobile 안내서](../../channels/using/get-started-communication-channels.md)
 
 ## 개인적이고 민감한 데이터를 사용하여 모바일 프로필 필드 처리 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
