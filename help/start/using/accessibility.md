@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -96,29 +96,29 @@ Adobe Campaign Standard는 영어, 프랑스어 및 독일어와 같은 다양�
 
 | 작업 | Windows 바로 가기 | macOS 바로 가기 |
 | --- | --- | --- |
-| 실행 취소 | Ctrl + Z | Command + Z |
-| 다시 실행 | Ctrl + Y | Shift + Command + Z |
+| 실행 취소 | Ctrl+Z | Command+Z |
+| 다시 실행 | Ctrl+Y | Shift+Command+Z |
 
 ### 동적 보고서 {#report-shortcuts}
 
 | 작업 | Windows 바로 가기 | macOS 바로 가기 |
 | --- | --- | --- |
-| 프로젝트 열기 | Ctrl + O | Command + O |
-| 저장. | Ctrl + S | Command + S |
-| 다른 이름으로 저장 | Shift + Ctrl + S | Shift + Command + S |
-| 프로젝트 새로 고침 | Alt + R | Command + R |
-| CSV 파일 다운로드 | Shift + Ctrl + V | Shift + Command + V |
-| 인쇄 | Alt + P | Command + P |
-| 실행 취소 | Ctrl + Z | Command + Z |
-| 다시 실행 | Ctrl + Y | Shift + Command + Z |
-| 새 빈 패널 | Alt + B | Option + B |
-| 새 자유형 | Alt + A | Option + A |
-| 새 자유형 테이블 | Alt + 1 | 옵션 + 1 |
-| 새 줄 | Alt + 2 | 옵션 + 2 |
-| 새 막대 | Alt + 3 | 옵션 + 3 |
-| 지금 보고서 전송 | Alt + S | Option + S |
-| 일정에 따라 보고서 전송 | Shift + Alt + S | Shift + Option + S |
-| 예약된 보고서 | Shift + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
+| 프로젝트 열기 | Ctrl+O | Command+O |
+| 저장 | Ctrl+S | Command+S |
+| 다른 이름으로 저장 | Shift+Ctrl+S | Shift+Command+S |
+| 프로젝트 새로 고침 | Alt+R | Command+R |
+| CSV 파일 다운로드 | Shift+Ctrl+V | Shift+Command+V |
+| 인쇄 | Alt+P | Command+P |
+| 실행 취소 | Ctrl+Z | Command+Z |
+| 다시 실행 | Ctrl+Y | Shift+Command+Z |
+| 새 빈 패널 | Alt+B | Option+B |
+| 새 자유형 | Alt+A | Option+A |
+| 새 자유형 테이블 | Alt+1 | Option+1 |
+| 새 줄 | Alt+2 | Option+2 |
+| 새 막대 | Alt+3 | Option+3 |
+| 지금 보고서 전송 | Alt+S | Option+S |
+| 일정에 따라 보고서 전송 | Shift+Alt+S | Shift+Option+S |
+| 예약된 보고서 | Shift+Alt+L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## 추가 읽기 {#further-reading}
 
