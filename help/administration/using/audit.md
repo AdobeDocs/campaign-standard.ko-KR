@@ -7,8 +7,7 @@ topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
-exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -19,19 +18,19 @@ ht-degree: 1%
 
 **[!UICONTROL Audit trail]** 을 사용하면 인스턴스 내에서 수행된 변경 내용의 전체 기록에 액세스할 수 있습니다.
 
-**[!UICONTROL Audit trail]** 은(는) Adobe Campaign Standard 인스턴스 내에서 발생하는 작업 및 이벤트의 포괄적인 목록을 실시간으로 캡처합니다. 여기에는 다음과 같은 질문에 답변할 수 있도록 데이터 기록에 액세스하는 셀프서비스 방법이 포함되어 있습니다. 워크플로우, 사용자 지정 리소스 및 옵션, 마지막으로 업데이트한 사람 또는 인스턴스에서 사용자가 수행한 작업이 어떻게 되었습니까?
+**[!UICONTROL Audit trail]** 은(는) Adobe Campaign Standard 인스턴스 내에서 발생하는 작업 및 이벤트의 포괄적인 목록을 실시간으로 캡처합니다. It includes a self-serve way to access a history of data to help answer questions such as: what happened to your workflows, custom resources and options, who last updated them or what did your users do in the instance.
 
 ![](assets/audit-trail.png)
 
 **[!UICONTROL Audit trail]** 다음 세 가지 구성 요소로 구성됩니다.
 
-* **사용자 정의 리소스 감사 추적**: 활동을 확인하고 사용자 지정 리소스에 대해 마지막으로 수정한 내용을 확인합니다.
+* **Custom Resources Audit trail**: check the activity and last modification done to custom resources.
 
    **[!UICONTROL Custom resources]**&#x200B;에 대한 자세한 내용은 이 [page](../../developing/using/key-steps-to-add-a-resource.md)를 참조하십시오.
 
-* **워크플로우 감사 추적**: 워크플로우에 대한 활동 및 마지막으로 수정한 내용을 확인하고, 다음과 같은 워크플로우의 상태를 확인합니다.
+* **Workflow Audit trail**: check the activity and last modification done to workflows, and additionally, the state of your workflows such as:
 
-   * 생성됨
+   * Created
    * 수정됨
    * 삭제됨
    * 워크플로우 시작
@@ -45,7 +44,7 @@ ht-degree: 1%
    * 동일한 사용자로 워크플로우 다시 시작
    * 워크플로 다시 시작 알 수 없는 명령
 
-   **[!UICONTROL Workflows]**&#x200B;에 대한 자세한 내용은 이 [page](../../automating/using/get-started-workflows.md)를 참조하십시오.
+   For more information on **[!UICONTROL Workflows]**, refer to this [page](../../automating/using/get-started-workflows.md).
 
 * **옵션 감사 추적**: 활동을 확인하고 옵션에 대한 마지막 수정 작업을 확인합니다.
 
@@ -57,7 +56,7 @@ ht-degree: 1%
 
 인스턴스의 감사 추적에 액세스하려면
 
-1. Adobe Campaign Standard의 고급 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]** 을 선택합니다.
+1. In Adobe Campaign Standard, from the advanced menu, select **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]**.
 
    ![](assets/audit-trail.png)
 
@@ -96,7 +95,7 @@ ht-degree: 1%
 
    ![](assets/audit-trail_4.png)
 
-1. 비활성화할 엔티티에 따라 다음 옵션 중 하나를 선택합니다.
+1. Select one of the following options depending on the entity you want to disable:
 
    * **[!UICONTROL XtkAudit_Workflows]** 워크플로우에 대한 감사 추적을 관리하는 옵션입니다.
    * **[!UICONTROL XtkAudit_Option]** 옵션에 대한 감사 추적을 관리하는 옵션.

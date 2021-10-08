@@ -7,8 +7,7 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
@@ -67,7 +66,7 @@ ht-degree: 2%
 
 ## 로컬 알림 iOS 사용자 지정 사운드가 재생되지 않는 경우 대신 기본 사운드가 재생됩니까? {#local-notification-sound}
 
-iOS의 사용자 지정 사운드의 경우 로컬 알림을 만들 때 확장자가 인 파일 이름을 제공해야 합니다(예: sound.caf). 이 확장을 제공하지 않으면 기본 사운드가 사용됩니다.
+iOS에서 사용자 지정 사운드의 경우 로컬 알림을 만들 때 확장명이 있는 파일 이름(예: sound.caf)을 제공해야 합니다. 이 확장을 제공하지 않으면 기본 사운드가 사용됩니다.
 
 ## 딥 링크가 인앱 메시지에서 지원됩니까? {#inapp-deeplinks}
 
