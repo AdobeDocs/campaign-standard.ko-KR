@@ -7,10 +7,11 @@ topic-tags: mobile-guide
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: e583ba4e93b16389be9d06c4b7fa8eebf4ee3cfc
+exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -18,12 +19,12 @@ ht-degree: 23%
 
 <table style="table-layout:fixed">
 <tr>
-<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>푸시 알림에 대해 모바일 애플리케이션을 구성하는 방법 알아보기 </br><a href="#configuration-push">여기</a>를 클릭하십시오.</p></td>
-<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>인앱 메시지에 대해 모바일 애플리케이션을 구성하는 방법을 알아봅니다 </br><a href="#configuring-mobile-app">여기</a>를 클릭하십시오.</p></td>
+<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>푸시 알림용 모바일 애플리케이션을 구성하는 방법을 알아봅니다 </br><a href="#configuration-push">여기를 클릭하십시오.</a></p></td>
+<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>인앱 메시지에 대한 모바일 애플리케이션을 구성하는 방법을 알아봅니다 </br><a href="#configuring-mobile-app">여기를 클릭하십시오.</a></p></td>
 </tr>
 <tr>
-<td><img src="assets/do-not-localize/push2.png" width="60px"><p>푸시 알림을 만드는 방법에 대해 자세히 알아보기 </br><a href="#create-push">여기</a>를 클릭하십시오.</p></td>
-<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>인앱 메시지를 만드는 방법 알아보기</br><a href="#create-inapp">여기</a>를 클릭하십시오.</p></td></tr>
+<td><img src="assets/do-not-localize/push2.png" width="60px"><p>푸시 알림을 만드는 방법에 대해 자세히 알아보기 </br><a href="#create-push">여기를 클릭하십시오.</a></p></td>
+<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>인앱 메시지를 만드는 방법을 알아봅니다</br><a href="#create-inapp">여기를 클릭하십시오.</a></p></td></tr>
 </table>
 
 ## 모바일 게재 기본 정보 {#about-mobile}
@@ -67,7 +68,7 @@ Adobe Campaign Standard을 사용하면 세 개의 서로 다른 채널을 통�
     <div>
     <p><strong>푸시 추적 구현</strong></p>
     </div>
-    <p>iOS 및 Android에서 푸시 알림 추적이 올바르게 구현되었는지 확인하는 방법을 알아봅니다.자세한 정보를 보려면 </br><a href="../../administration/using/push-tracking.md"><strong>여기를 클릭</strong></a>하십시오.</p>
+    <p>푸시 알림 추적이 iOS 및 Android에서 올바르게 구현되었는지 확인하는 방법을 알아봅니다.자세한 정보를 보려면 </br><a href="../../administration/using/push-tracking.md"><strong>여기를 클릭</strong></a>하십시오.</p>
     <br>
   </td>
 </tr>
@@ -97,7 +98,7 @@ Adobe Campaign Standard을 사용하면 세 개의 서로 다른 채널을 통�
     <div>
     <p><strong>Adobe Campaign Standard 사용 사례를 지원하기 위한 Adobe Experience Platform Launch 규칙 구성</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>을(를) </strong></a> 클릭하여 Adobe Experience Platform Launch에서 데이터 요소 및 규칙 만들기를 시작하여 모바일 애플리케이션에서 Adobe Campaign Standard으로 PII 및 기타 데이터를 전송합니다.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>여기를 클릭하십시오.</strong></a> Adobe Experience Platform Launch에서 데이터 요소 및 규칙 만들기를 시작하여 모바일 애플리케이션에서 Adobe Campaign Standard으로 PII 및 기타 데이터를 전송합니다.</p>
     <br>
   </td>
   <td>
@@ -118,7 +119,7 @@ Adobe Campaign Standard을 사용하면 세 개의 서로 다른 채널을 통�
     <div>
     <p><strong>푸시 알림 준비 및 보내기</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>푸시 </strong></a> 알림을 준비한 다음 타겟팅된 대상자에게 보내는 방법을 알아봅니다.</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>여기에서 알아보기</strong></a> 푸시 알림을 준비하는 방법 및 타깃팅된 대상자에게 푸시 알림을 전송하는 방법.</p>
     <br>
   </td>
   <td>
@@ -141,7 +142,7 @@ Adobe Campaign Standard을 사용하면 세 개의 서로 다른 채널을 통�
     <div>
     <p><strong>Adobe Campaign Standard 푸시 알림의 이미지 표시</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>iOS </strong></a> 장치에서 Adobe Campaign 푸시 알림의 이미지를 표시하는 방법을 알아봅니다.</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>여기에서 알아보기</strong></a> iOS 장치에서 Adobe Campaign 푸시 알림의 이미지를 표시하는 방법</p>
     <br>
   </td>
 </tr>
@@ -155,7 +156,7 @@ Adobe Campaign Standard을 사용하면 세 개의 서로 다른 채널을 통�
     <div>
     <p><strong>인앱 메시지 준비 및 보내기</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong></strong></a> 여기서 인앱 메시지를 준비하여 타겟팅된 대상자에게 보내는 방법을 알아봅니다.</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>여기에서 알아보기</strong></a> 인앱 메시지를 준비하여 타겟팅된 대상자에게 보내는 방법</p>
     <br>
   </td>
   <td>
@@ -192,7 +193,7 @@ Adobe Campaign Standard을 사용하면 세 개의 서로 다른 채널을 통�
     <div>
     <p><strong>SMS 메시지 만들기</strong></p>
     </div>
-    <p>SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사합니다. </br>이  <a href="../../channels/using/creating-an-sms-message.md"><strong>단계</strong></a> 에 대해서는 이 채널과 관련된 구성을 설명합니다.</br></p>
+    <p>SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사합니다. </br>단계 <a href="../../channels/using/creating-an-sms-message.md"><strong>여기 세부 사항</strong></a> 이 채널과 관련된 구성을 설명합니다.</br></p>
     <br>
   </td>
   <td>
@@ -209,7 +210,7 @@ Adobe Campaign Standard을 사용하면 세 개의 서로 다른 채널을 통�
     <div>
     <p><strong>수신 SMS 관리</strong></p>
     </div>
-    <p>Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 수행할 작업과 자동으로 다시 보낼 메시지를 구성할 수 있습니다.로컬 알림 메시지 유형 사용자 지정</br><a href="../../channels/using/managing-incoming-sms.md"><strong>자세한 내용을 보려면 여기를 클릭하십시오.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 수행할 작업과 자동으로 다시 보낼 메시지를 구성할 수 있습니다.로컬 알림 메시지 유형 사용자 정의</br><a href="../../channels/using/managing-incoming-sms.md"><strong>자세한 내용을 보려면 여기를 클릭하십시오 .</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
     <br>
   </td>
   <td>
@@ -248,5 +249,3 @@ Adobe Campaign Standard을 사용하면 세 개의 서로 다른 채널을 통�
   </td>
 </tr>
 </table>
-
-

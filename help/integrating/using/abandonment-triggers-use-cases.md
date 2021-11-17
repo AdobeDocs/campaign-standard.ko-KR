@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 
 Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [트리거]를 만들어야 합니다.
 
-1. Adobe Campaign에서 [트리거]를 만들려면 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**&#x200B;를 선택합니다.
+1. Adobe Campaign에서 [트리거]를 만들려면 **Adobe** 왼쪽 상단 모서리에서 로고를 선택한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [�
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. 메시지 템플릿을 표시하려면 오른쪽 상단에서 **[!UICONTROL More]** 버튼을 클릭한 다음 **[!UICONTROL Trigger Transactional Template]** 을(를) 클릭합니다.
+1. 메시지 템플릿을 표시하려면 **[!UICONTROL More]** 단추를 클릭하고 오른쪽 상단에서 을 클릭한 다음 **[!UICONTROL Trigger Transactional Template]**.
 
 1. 콘텐츠 및 발신자 세부 정보를 개인화합니다.
 
@@ -101,7 +101,7 @@ Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [�
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. 수신자가 자신의 웹 사이트로 연결되는 링크를 클릭합니다. 이 예제의 배너는 수신자를 여행 예약 웹사이트의 홈페이지로 데려옵니다.
+1. 수신자가 링크를 클릭하면 웹 사이트로 이동합니다. 이 예제의 배너는 수신자를 여행 예약 웹사이트의 홈페이지로 데려옵니다.
 
    ![](assets/trigger_uc_browse_11.png)
 

@@ -9,14 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: 개인 정보
+feature: Privacy
 role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 96%
 
 ---
 
@@ -109,7 +109,7 @@ Adobe Campaign의 보고서는 게재 및 추적 로그에서 집계된 데이�
 
 **Adobe Campaign에서 기록은 외부 데이터 소스에서 업로드되는 경우가 많습니다. 나중에 데이터를 다시 가져올 수 있다는 점에 유의해야 합니까?**
 
-데이터 컨트롤러는 삭제 요청을 받을 때 모든 시스템에서 데이터 주체의 필요한 데이터를 모두 삭제해야 합니다.
+데이터 컨트롤러는 삭제 요청이 있을 때 데이터 주체와 관련해 삭제해야 하는 데이터를 모든 시스템에서 완전히 삭제해야 합니다.
 
 ## 다시 옵트인 {#opt-in-again}
 

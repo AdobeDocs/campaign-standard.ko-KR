@@ -9,10 +9,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud Activation 핵심 서비스 **[!UICONTROL Triggers]**&#x200B;�
 
 Adobe Experience Cloud에서 모니터링하려는 고객 행동(예: 웹사이트 방문을 중단한 고객이나 웹사이트에서 검색을 했지만 구매하지 않은 고객, 심지어 세션이 만료된 고객까지)에 대해 다양한 트리거를 정의합니다. 트리거를 만들 때는 트리거의 조건과 해당 이벤트 시 Adobe Campaign으로 전송할 데이터(pload)를 정의합니다.
 
-Adobe Campaign에서 이전에 만든 트리거를 선택하고, 데이터마트 데이터로 이벤트 데이터를 강화하며, 해당 트리거에 연결된 트랜잭션 메시지 템플릿을 정의합니다. 예를 들어, 고객이 웹사이트 방문을 중단하면 Adobe Campaign으로 이벤트를 전송하여 15분 내로 해당 고객에게 보낼 리마케팅 이메일에 활용할 수 있습니다.
+Adobe Campaign에서 이전에 만든 트리거를 선택하고, 데이터마트 데이터로 이벤트 데이터를 강화하며, 해당 트리거에 연결된 트랜잭션 메시지 템플릿을 정의합니다. 예를 들어, 고객이 웹사이트 방문을 중단하면 Adobe Campaign으로 이벤트를 전송하여 15분 내에 고객에게 보낼 리마케팅 이메일에 활용할 수 있습니다.
 
 다음 다이어그램은 이 통합이 작동하는 방식을 자세히 설명합니다.
 

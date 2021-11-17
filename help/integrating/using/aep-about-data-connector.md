@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 4%
@@ -23,9 +23,9 @@ ht-degree: 4%
 
 Adobe Experience Platform Data Connector는 기존 고객이 Adobe Experience Platform에서 XTK 데이터(Campaign에서 수집한 데이터)를 XDM(Experience Data Model) 데이터에 매핑하여 Adobe Experience Platform에서 데이터를 사용할 수 있도록 합니다.
 
-커넥터는 **단방향**&#x200B;이며 Adobe Campaign Standard에서 Adobe Experience Platform으로 데이터를 보냅니다. 데이터는 Adobe Experience Platform에서 Adobe Campaign Standard으로 전송되지 않습니다.
+커넥터는 다음과 같습니다 **일방향** 및 은(는) Adobe Campaign Standard에서 Adobe Experience Platform으로 데이터를 전송합니다. 데이터는 Adobe Experience Platform에서 Adobe Campaign Standard으로 전송되지 않습니다.
 
-Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 정의 리소스를 이해하고 고객의 전체 데이터 스키마가 Adobe Experience Platform 내에 있어야 하는 방법을 이해하는 **데이터 엔지니어를 위한 것입니다.**
+Adobe Experience Platform Data Connector는 주로 **데이터 엔지니어** Adobe Campaign Standard 사용자 지정 리소스를 이해하고 고객의 전체 데이터 스키마가 Adobe Experience Platform 내에 있어야 하는 방법을 이해하는 사람
 
 다음 섹션에서는 Campaign Standard과 Adobe Experience Platform 간에 데이터 매핑을 수행하는 주요 단계에 대해 설명합니다. XDM 스키마 및 데이터 세트 생성부터 시작됩니다.
 
@@ -44,7 +44,7 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 * 기본 매핑 은 기본적으로 Campaign Standard에 제공된 필드에만 사용할 수 있습니다. 모든 사용자 지정 필드 및 리소스를 수집하려면 각 고객이 고유한 매핑을 정의해야 합니다.
 
-* Adobe Experience Platform 데이터 커넥터는 정기적으로 플랫폼을 통해 프로필 데이터를 푸시합니다&#x200B;. 간격 기간은 15분입니다. 이 값은 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)를 사용하여 수정할 수 있습니다.
+* Adobe Experience Platform 데이터 커넥터는 정기적으로 플랫폼을 통해 프로필 데이터를 푸시합니다&#x200B;. 간격 기간은 15분입니다. 이 값은 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 
 * 데이터 엔지니어는 Campaign에서 Adobe Experience Platform으로 매핑을 게시, 수정 및 일시 중단할 수 있습니다.
 
@@ -58,7 +58,7 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 * ECID(Experience Cloud ID 서비스)는 Experience Events와 함께 기본적으로 전송되는 장치 식별자입니다.
 
-   이 ID는 방문자에게 할당된 고유하고 지속적인 ID로서 Platform Identity 서비스에서 동일한 방문자와 해당 데이터를 다른 Experience Cloud 솔루션에서 식별하는 데 사용할 수 있습니다. 자세한 내용은 [Experience Cloud ID 서비스 도움말](https://experienceleague.adobe.com/docs/id-service/using/home.html)을 참조하십시오.
+   이 ID는 방문자에게 할당된 고유하고 지속적인 ID로서 Platform Identity 서비스에서 동일한 방문자와 해당 데이터를 다른 Experience Cloud 솔루션에서 식별하는 데 사용할 수 있습니다. 자세한 내용은 [Experience Cloud ID 서비스 도움말](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 * 구독 이벤트의 기본 전송이 지원되지 않습니다. 구독 이벤트를 전송하려면 Adobe Experience Platform에서 해당 XDM 및 데이터 세트를 만든 다음 이러한 데이터에 대한 사용자 지정 데이터 매핑을 구성할 수 있습니다.
 
-* 개인 정보 보호 요청(액세스 및 삭제 작업 모두)과 관련하여 고객은 [개인 정보 보호 핵심 서비스](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)를 통해 별도의 요청을 수행해야 합니다. 하나는 Campaign용, 하나는 Adobe Experience Platform용. 자세한 내용은 Campaign에서 [개인 정보 보호 요청 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ko#getting-started) 및 [개인 정보 보호 요청 관리](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)를 참조하십시오.
+* 개인 정보 보호 요청(액세스 및 삭제 작업 모두)과 관련하여 고객은 [개인 정보 보호 핵심 서비스](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): 하나는 Campaign용, 하나는 Adobe Experience Platform용. 자세한 내용은 [개인 정보 보호 요청 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ko#getting-started) 및 [개인 정보 보호 요청 관리](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) 입니다.
 
 * 각 XDM 필드에 대해 Adobe Experience Platform에서 DULE 레이블 지정을 수행해야 합니다. DULE 레이블을 적용하는 것은 고객의 책임입니다.
 
@@ -82,4 +82,4 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Adobe Experience Platform 데이터 커넥터와 관련된 추가 비디오는 여기[에서 사용할 수 있습니다.](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)
+Adobe Experience Platform 데이터 커넥터와 관련된 추가 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).

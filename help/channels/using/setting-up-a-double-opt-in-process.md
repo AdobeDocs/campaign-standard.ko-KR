@@ -8,7 +8,7 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1149'
 ht-degree: 89%
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 이를 설정하려면 다음을 수행해야 합니다.
 
-1. 방문자가 등록하고 구독할 수 있도록 랜딩 페이지를 만들고 게시합니다. 이 랜딩 페이지는 웹 사이트에서 사용할 수 있습니다. 이 랜딩 페이지를 작성하고 제출한 방문자가 최종 유효성 검사 전에 어떠한 차단 목록 연락도 받지 않도록 데이터베이스에 저장되지만 페이지에 추가됩니다(Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)의 차단 목록 관리 참조).[
+1. 방문자가 등록하고 구독할 수 있도록 랜딩 페이지를 만들고 게시합니다. 이 랜딩 페이지는 웹 사이트에서 사용할 수 있습니다. 이 랜딩 페이지를 작성하고 제출한 방문자가 최종 유효성 검사 전에 어떠한 차단 목록 연락도 받지 않도록 데이터베이스에 저장되지만 페이지에 추가됩니다(참조 [Campaign차단 목록의 관리](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. 확인 링크가 포함된 옵트인 이메일을 자동으로 작성하여 전송합니다. 이 이메일은 랜딩 페이지를 제출한 모집단을 타겟팅합니다. 이는 &#39;옵트아웃&#39; 프로필을 타겟팅할 수 있는 이메일 템플릿을 기반으로 합니다.
 1. 확인 랜딩 페이지로 리디렉션합니다. 이 최종 랜딩 페이지에는 확인 버튼이 표시됩니다. 방문자는 이 버튼을 클릭해야 합니다. 확인이 완료되면 전송할 환영 이메일을 디자인할 수 있으며, 예를 들어 새 수신자를 위해 이메일에 특별 오퍼를 추가할 수 있습니다.
 
@@ -101,7 +101,7 @@ ht-degree: 89%
 1. Adobe Campaign 로고에서 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**&#x200B;을(를) 선택하고 **[!UICONTROL Typologies]**&#x200B;을(를) 클릭합니다.
 1. 즉시 사용 가능한 유형화 **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**&#x200B;을(를) 복제합니다.
 1. 복제를 확인한 후, 새 유형화를 편집하고 레이블 **TYPOLOGY_PROFILE**&#x200B;을 입력합니다.
-1. **주소차단 목록을** 규칙에서 제거합니다.
+1. 제거 **의 차단 목록 주소** 규칙.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 이제 이러한 유형화를 확인 이메일과 연결할 수 있습니다.
@@ -143,7 +143,7 @@ ht-degree: 89%
 
    ![](assets/optin_acquisition_page1.png)
 
-1. 확인 페이지를 사용자 지정하여 새 구독자에게 자신의 구독 유효성을 검사해야 한다고 알립니다.
+1. 확인 페이지를 사용자 지정하여 새 구독자에게 구독 유효성을 검사해야 한다고 알립니다.
 
    ![](assets/optin_acquisition_page2.png)
 

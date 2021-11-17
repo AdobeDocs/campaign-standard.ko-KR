@@ -9,7 +9,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 48%
@@ -22,7 +22,7 @@ Integrated Customer Profile은 데이터베이스의 각 연락처에서 사용�
 
 Integrated Customer Profile에 액세스하기 위한 단계는 다음과 같습니다.
 
-1. Adobe Campaign 홈 페이지에서 **[!UICONTROL Customer profiles]** 카드 또는 **프로필** 탭을 클릭하여 프로필 목록을 표시합니다.
+1. Adobe Campaign 홈페이지에서 **[!UICONTROL Customer profiles]** 카드 또는 **프로필** 탭을 클릭하여 프로필 목록을 표시합니다.
 
 1. 특정 필드를 기반으로 프로필을 검색하려면 검색 창을 열고 검색을 수행할 필드를 선택합니다.
 

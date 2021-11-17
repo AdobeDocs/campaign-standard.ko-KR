@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 5%
@@ -53,9 +53,9 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
  </tbody> 
 </table>
 
-고유한 전체 열기 수를 이해하려면 값 3을 제공하는 **[!UICONTROL Unique Opens]**&#x200B;의 행 수를 합해야 합니다. 그러나 이메일이 2개의 프로필만 타겟팅되었으므로 공개 비율은 150%를 표시해야 합니다.
+고유한 전체 열기 수를 이해하려면 행 수를 합해야 합니다. **[!UICONTROL Unique Opens]** 3의 가치를 제공해줍니다. 그러나 이메일이 2개의 프로필만 타겟팅되었으므로 공개 비율은 150%를 표시해야 합니다.
 
-100보다 높은 백분율을 얻지 않으려면 **[!UICONTROL Unique Opens]**&#x200B;의 정의가 열려 있는 고유한 브로드로그 수로 유지됩니다. 이 경우 P1이 1일과 2일에 이메일을 열더라도 그의 고유 오픈 시간은 1입니다.
+100보다 높은 백분율을 얻지 않으려면 **[!UICONTROL Unique Opens]** 는 열려 있는 고유한 브로드로그 수로 유지됩니다. 이 경우 P1이 1일과 2일에 이메일을 열더라도 고유한 오픈은 1입니다.
 
 이 경우 다음 테이블이 만들어집니다.
 
@@ -70,7 +70,7 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
  <tbody> 
   <tr> 
    <td align="center"> <strong> Day </strong><br /> </td> 
-   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2개</strong><br /> </td>
   </tr> 
   <tr> 
@@ -92,13 +92,13 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
 
 ## 열린 카운트가 데이터베이스 수와 일치하지 않습니다. {#open-counts-no-match-database}
 
-이는 **[!UICONTROL Open]** 작업을 추적할 수 없는 경우에도 동적 보고에서 열기를 추적하기 위해 추론을 사용했기 때문일 수 있습니다.
+이는 추론을 추적할 수 없는 경우에도 동적 보고에서 열기를 추적하기 위해 추론을 사용했기 때문일 수 있습니다 **[!UICONTROL Open]** 작업.
 
-예를 들어, 사용자가 클라이언트에서 이미지를 비활성화하고 이메일의 링크를 클릭하면 **[!UICONTROL Open]**&#x200B;이 데이터베이스에 의해 추적되지 않을 수 있지만 **[!UICONTROL Click]**&#x200B;은(는) 추적되지 않습니다.
+예를 들어, 사용자가 클라이언트의 이미지를 비활성화하고 이메일의 링크를 클릭한 경우, **[!UICONTROL Open]** 데이터베이스에 의해 추적되지 않지만 **[!UICONTROL Click]** 합니다.
 
-따라서 데이터베이스에서 **[!UICONTROL Open]** 추적 로그 카운트의 카운트가 동일하지 않을 수 있습니다.
+따라서, **[!UICONTROL Open]** 추적 로그 카운트는 데이터베이스에서 동일한 수를 가질 수 없습니다.
 
-이러한 항목은 **&quot;이메일 클릭은 이메일 열기&quot;**&#x200B;를 의미하므로 추가됩니다.
+이러한 항목은 다음과 같이 추가됩니다. **&quot;이메일 클릭은 이메일을 열었다는 것을 의미합니다.&quot;**.
 
 >[!NOTE]
 >
@@ -107,9 +107,9 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
 ## 반복/트랜잭션 게재에 대한 수는 어떻게 계산됩니까? {#counts-recurring-deliveries}
 
 반복 및 트랜잭션 게재 작업 시 카운트는 상위 및 하위 게재 모두에 귀속됩니다.
-1일에 매일(RC1), 2일(RC2) 및 3일(RC3)에 실행되도록 설정된 **R1**이라는 반복 게재의 예를 예로 들 수 있습니다.
-한 사람만 모든 하위 게재를 여러 번 열었다고 가정해 보겠습니다. 이 경우 개별 반복 하위 게재에는 각 항목에 대해 **[!UICONTROL Open]** 카운트가 1로 표시됩니다.
-그러나 동일한 사람이 모든 게재를 클릭했으므로 상위 반복 게재에도 **[!UICONTROL Unique open]** 이 1로 표시됩니다.
+라는 반복 게재의 예를 들어볼 수 있습니다 **R1** 근무일 1(RC1), 근무일 2(RC2) 및 근무일 3(RC3)에서 매일 실행되도록 설정합니다.
+한 사람만 모든 하위 게재를 여러 번 열었다고 가정해 보겠습니다. 이 경우 개별 반복 하위 게재에 **[!UICONTROL Open]** 각각 1로 카운트합니다.
+그러나 동일한 사람이 모든 게재를 클릭했으므로 상위 반복 게재도 이러한 결과를 초래할 수 있습니다 **[!UICONTROL Unique open]** 로서의 1.
 
 보고서는 다음과 같습니다.
 
@@ -129,12 +129,12 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
    <td align="center"> <strong>100년</strong><br/> </td> 
    <td align="center"> <strong>90</strong><br/> </td> 
    <td align="center"> <strong>10</strong><br/> </td> 
-   <td align="center"> <strong>1</strong><br/> </td> 
+   <td align="center"> <strong>3</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
-   <td align="center"> 20<br /> </td> 
-   <td align="center"> 20<br /> </td> 
+   <td align="center"> 20년<br /> </td> 
+   <td align="center"> 20년<br /> </td> 
    <td align="center"> 6<br /> </td> 
    <td align="center"> 1<br /> </td> 
   </tr>
@@ -142,14 +142,14 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
    <td align="center"> RC2<br /> </td> 
    <td align="center"> 40<br /> </td> 
    <td align="center"> 30<br /> </td> 
-   <td align="center"> 2<br /> </td> 
+   <td align="center"> 2개<br /> </td> 
    <td align="center"> 1<br /> </td> 
   </tr> 
     <tr> 
    <td align="center"> RC3<br /> </td> 
    <td align="center"> 40<br /> </td> 
    <td align="center"> 40<br /> </td> 
-   <td align="center"> 2<br /> </td> 
+   <td align="center"> 2개<br /> </td> 
    <td align="center"> 1<br /> </td> 
   </tr> 
  </tbody> 
@@ -163,9 +163,9 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
 
 ![](assets/troubleshooting_1.png)
 
-**[!UICONTROL Conditional formatting]**&#x200B;을 사용자 지정으로 변경하면 값이 상한값에 도달하면 셀이 더 푸르게 됩니다. 반면에, 그것이 더 낮은 제한에 도달한다면, 그것은 더 낮아질 것입니다.
+만약 **[!UICONTROL Conditional formatting]** 사용자 지정을 위해 값이 상한에 도달하면 셀이 더 푸르게 됩니다. 반면에, 그것이 더 낮은 제한에 도달한다면, 그것은 더 낮아질 것입니다.
 
-예를 들어 여기서는 **[!UICONTROL Upper limit]**&#x200B;을 500으로 설정하고 **[!UICONTROL Lower limit]**&#x200B;을 0으로 설정합니다.
+예를 들어, 여기서는 **[!UICONTROL Upper limit]** 및 **[!UICONTROL Lower limit]** 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,11 +173,11 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
 
 ![](assets/troubleshooting_3.png)
 
-값 **N/A**&#x200B;이 동적 보고서에 나타날 수 있습니다. 다음 세 가지 이유로 표시될 수 있습니다.
+값 **해당 없음** 은 때로 동적 보고서에 나타날 수 있습니다. 다음 세 가지 이유로 표시될 수 있습니다.
 
-* 게재가 삭제되었으며 결과에 불일치가 발생하지 않도록 여기에 **N/A**&#x200B;로 표시됩니다.
-* **[!UICONTROL Transactional Delivery]** 차원을 보고서에 끌어다 놓으면 **N/A** 값이 결과로 나타날 수 있습니다. 이 문제는 동적 보고서가 트랜잭션이 아닌 경우에도 모든 게재를 가져오기 때문에 발생합니다. 이 문제는 **[!UICONTROL Delivery]** 차원을 보고서에 끌어다 놓을 때도 발생할 수 있지만, 이 경우 **N/A** 값은 트랜잭션 게재를 나타냅니다.
-* 차원과 관련이 없는 지표와 함께 차원을 사용하는 경우. 아래 예에서는 이 게재에서 **[!UICONTROL Click]** 카운트가 0으로 설정되어 있어도 **[!UICONTROL Tracking URL]** 차원과 함께 분류가 추가됩니다.
+* 게재가 삭제되었으며 다음과 같이 표시됩니다. **해당 없음** 결과에 불일치가 발생하지 않도록 합니다.
+* 을(를) 끌어다 놓을 때 **[!UICONTROL Transactional Delivery]** 차원 값을 보고서에 추가합니다. **해당 없음** 결과로 나타날 수 있습니다. 이 문제는 동적 보고서가 트랜잭션이 아닌 경우에도 모든 게재를 가져오기 때문에 발생합니다. 드래그 앤 드롭할 때도 이 문제가 발생할 수 있습니다 **[!UICONTROL Delivery]** 차원 을 보고서에 추가하지만 이 경우 **해당 없음** 값은 트랜잭션 게재를 나타냅니다.
+* 차원과 관련이 없는 지표와 함께 차원을 사용하는 경우. 아래 예에서는 분류가 **[!UICONTROL Tracking URL]** 차원 **[!UICONTROL Click]** 이 게재에서 카운트가 0으로 설정됩니다.
 
    ![](assets/troubleshooting_4.png)
 

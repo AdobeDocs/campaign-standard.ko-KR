@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1566'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -328,15 +328,15 @@ SMS 메시지 보내기를 위한 특정 매개 변수는 **[!UICONTROL Send]** 
 
 ![](assets/sms_options.png)
 
-**[!UICONTROL Advanced parameters]** 섹션에서 다음을 수행합니다.
+에서 **[!UICONTROL Advanced parameters]** 섹션:
 
-* **[!UICONTROL Short code]** 을(를) 사용하면 특정 짧은 코드를 게재에 추가할 수 있습니다. 이 특정 짧은 코드를 옵트아웃한 수신자는 메시지를 준비하는 동안 자동으로 제외됩니다. 짧은 코드를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/managing-incoming-sms.md)을 참조하십시오.
+* 다음 **[!UICONTROL Short code]** 을(를) 통해 특정 짧은 코드를 게재에 추가할 수 있습니다. 이 특정 짧은 코드를 옵트아웃한 수신자는 메시지를 준비하는 동안 자동으로 제외됩니다. 짧은 코드를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >**[!UICONTROL Short code]** 필드가 비어 있으면 외부 계정에 설정된 **[!UICONTROL Short code]** 필드의 값이 사용됩니다.
+   >만약 **[!UICONTROL Short code]** 필드가 비어 있는 경우 필드의 값이 **[!UICONTROL Short code]** 외부 계정에 설정된 필드가 사용됩니다.
 
-SMS 템플릿의 **[!UICONTROL Send]** 섹션에서 다음을 수행합니다.
+에서 **[!UICONTROL Send]** sms 템플릿의 섹션을 참조하십시오.
 
 * **[!UICONTROL Maximum number of SMS per message]** 옵션을 사용하면 메시지를 보내는 데 사용할 SMS 메시지 수를 정의할 수 있습니다. 이 수를 초과하면 메시지를 보내지 않습니다.
 
