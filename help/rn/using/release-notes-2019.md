@@ -65,8 +65,8 @@ ht-degree: 8%
 * 동적 보고에 대한 동의 팝업이 Adobe Campaign Standard 및 Microsoft Dynamics 365 통합을 포함하도록 업데이트되었습니다. 약관에 동의하면 Adobe Campaign Standard / Microsoft Dynamics 365 통합 및 Dynamic Reporting을 사용할 때 프로필 데이터가 포함됩니다. [자세한 내용](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 게재 경고를 받을 때 잘못된 연락 날짜를 표시하는 문제를 해결했습니다.
 * 알 수 없는 컨텍스트 매개 변수를 사용하여 트랜잭션 메시지 이벤트를 제출하면 이제 Campaign은 &quot;500&quot; 대신 &quot;400&quot; 오류 메시지를 반환합니다. (CAMP-28632)
-* A new **Exclude proof** segment has been added in Dynamic reporting. 이제 이 세그먼트는 보고서를 필터링하도록 기본적으로 선택됩니다. [자세히 표시](../../reporting/using/list-of-components-.md#segments)
-* 다음 **메시지 만료** 푸시 알림에 옵션이 추가되었습니다. It allows you to specify an expiration date where the message will no longer be sent by Apple (APNS) or Android (FCM). [자세히 표시](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* 새로운 **증명 제외** 세그먼트가 동적 보고에 추가되었습니다. 이제 이 세그먼트는 보고서를 필터링하도록 기본적으로 선택됩니다. [자세히 표시](../../reporting/using/list-of-components-.md#segments)
+* 다음 **메시지 만료** 푸시 알림에 옵션이 추가되었습니다. APNS(Apple) 또는 Android(FCM)에서 더 이상 메시지를 보내지 않을 만료 날짜를 지정할 수 있습니다. [자세히 표시](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * 기능이 개선되었습니다 **파일 로드** 활동: 워크플로우 로그가 파일을 로드하지 못할 때 발생하는 오류에 대해 보다 명확하게 수정했습니다. 를 활성화할 때 생성된 아웃바운드 전환 **파일에 거부 유지** 옵션 이름이 변경되었습니다. **거부**. [자세히 표시](../../automating/using/load-file.md)
 * 업로드된 CSV 파일에서 언어가 누락되어 보내는 오류를 더 잘 이해할 수 있도록 다국어 관련 로그가 전송 로그에 추가되었습니다.
 
@@ -116,7 +116,7 @@ ht-degree: 8%
 * 트랜잭션 메시지 문제를 해결하는 데 도움이 되도록 다음과 같은 사항이 개선되었습니다. 이벤트 구성 화면에서 &quot;데이터&quot; 링크의 이름이 &quot;마지막 트랜잭션 이벤트&quot;로 변경되었으며, 이제 수신된 이벤트가 내림차순으로 정렬되어 나열됩니다. 또한 새 트랜잭션 이벤트 상태가 생성되었습니다. &quot;targetingFailed&quot;. 트랜잭션 메시지 모듈이 메시지 타겟팅에 사용되는 링크를 보강하지 못하면 이제 트랜잭션 이벤트가 &quot;routingFailed&quot; 상태 대신 이 새로운 상태에 있게 됩니다.
 * 랜딩 페이지 액세스를 특정 지리적 또는 조직 단위로 제한할 때 인터페이스가 개선되었습니다. 목적은 랜딩 페이지에 가시성 조건이 적용될 수 있음을 경고하기 위한 것입니다. 이제 랜딩 페이지를 만들 때 지리적 및 조직 단위를 선택해야 합니다. 이제 장치를 선택하면 관련 정보가 포함된 배너가 표시됩니다. 랜딩 페이지를 테스트할 때 표시되는 오류 메시지가 보다 명확해졌습니다.
 * Campaign Standard API에서 키 값이 원본 키와 다르거나 Adobe에서 제공한 키 대신 고유한 비즈니스 키를 URI로 사용하는 경우에는 PATCH 작업을 사용하여 사용자 지정 키를 수정할 수 없습니다.
-* The &quot;Albanian - Macedonia&quot; language has been added to the preferred language drop-down list. (CAMP-35396)
+* &quot;알바니아 - 마케도니아&quot; 언어가 기본 언어 드롭다운 목록에 추가되었습니다. (CAMP-35396)
 
 **패치**
 
@@ -576,7 +576,7 @@ ht-degree: 8%
 * Internet Explorer 11을 사용할 때 이메일 디자이너 인터페이스를 열 수 없는 문제를 수정했습니다. (CAMP-28273)
 * 이메일 디자이너를 사용하여 단추에 적용된 스타일 설정의 Microsoft Outlook 렌더링을 왜곡하는 문제를 해결했습니다.
 * 이메일에 사용된 컨텐츠 조각에서 URL을 편집할 수 있도록 이메일 디자이너의 문제를 수정했습니다. 이 문제는 기본적으로 조각이 잠겨 있으므로 예상되지 않았습니다.
-* Fixed an issue that prevented the Email Designer divider component to be displayed in Microsoft Office.
+* 이메일 디자이너 구분선 구성 요소가 Microsoft Office에 표시되지 않는 문제를 해결했습니다.
 * 기존 이메일 콘텐츠 편집기를 사용하여 AEM에서 동기화된 콘텐츠를 볼 때 특정 인터넷 브라우저에서 페이지가 중단되는 문제를 해결했습니다. (CAMP-29068)
 * 기존 이메일 콘텐츠 편집기를 사용할 때 이메일의 이미지를 클릭할 때 발생하는 오류를 수정했습니다. (CAMP-30424)
 * 이메일 디자이너에서 이메일을 편집할 때 새로 만든 조각이 표시되지 않는 문제를 수정했습니다. (CAMP-29928)

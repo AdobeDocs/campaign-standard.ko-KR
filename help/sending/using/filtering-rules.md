@@ -17,11 +17,11 @@ ht-degree: 3%
 
 # 필터링 규칙 {#filtering-rules}
 
-Filtering rules allow you to exclude one part of the message target according to criteria defined in a query, such as quarantined profiles or profiles that have already been sent a certain number of emails.
+필터링 규칙을 사용하면 격리된 프로필 또는 특정 수의 이메일을 이미 보낸 프로필과 같은 쿼리에 정의된 기준에 따라 메시지 대상의 한 부분을 제외할 수 있습니다.
 
 ## 기본 필터링 유형화 규칙 {#default-filtering-typology-rules}
 
-The table below provides information about out-of-the-box filtering rules, as well as their related channels.
+아래 표는 관련 채널과 기본 필터링 규칙에 대한 정보를 제공합니다.
 
 | 레이블 | 채널 | 설명 |
 | ---------|----------|---------|
@@ -35,12 +35,12 @@ The table below provides information about out-of-the-box filtering rules, as we
 | **[!UICONTROL Quarantined address]** | 모두 | 격리된 주소를 제외합니다. |
 | **[!UICONTROL Target limited in size]** | 모두 | 대상에 대한 최대 게재 크기에 도달했는지 확인합니다. 배달 제한 옵션이 활성화된 DM 게재에 적용됩니다. |
 
-Additionally to these default filtering rules, two exclusion rules are available:
+또한 이러한 기본 필터링 규칙에서 두 개의 제외 규칙을 사용할 수 있습니다.
 
 * **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
 * **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
 
-During the email analysis, these rules compare the recipient email addresses with the forbidden addresses or domain names contained in an encrypted global suppression list managed in the deliverability instance. If there is a match, the message is not sent to that recipient.
+이메일 분석 중에 이러한 규칙은 수신자 이메일 주소를 게재 가능성 인스턴스에서 관리되는 암호화된 전역 억제 목록에 포함된 금지된 주소 또는 도메인 이름과 비교합니다. 일치하는 항목이 있으면 해당 수신자에게 메시지가 전송되지 않습니다.
 
 악의적인 활동, 특히 Spamtrap을 차단 목록 사용하여에 추가되지 않기 위한 것입니다. 예를 들어, Spamtrap을 사용하여 웹 양식 중 하나를 구독하는 경우 확인 이메일이 자동으로 해당 Spamtrap로 전송되고 이로 인해 주소가 자동으로에 추가됩니다차단 목록.
 
@@ -74,13 +74,13 @@ During the email analysis, these rules compare the recipient email addresses wit
 
    ![](assets/typology_create-rule-typology.png)
 
-1. Make sure that the typology is selected in the delivery or delivery template that you want to use. 이 작업에 대한 자세한 정보는 [이 섹션](../../sending/using/managing-typologies.md#applying-typologies-to-messages)을 참조하십시오.
+1. 사용하려는 게재 또는 게재 템플릿에서 유형화를 선택했는지 확인합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../sending/using/managing-typologies.md#applying-typologies-to-messages)을 참조하십시오.
 
    ![](assets/typology_template.png)
 
 이 규칙을 메시지에 사용할 때마다 미성년자로 간주되는 가입자는 자동으로 제외됩니다.
 
-## Configuring filtering rules&#39; targeting context {#configuring-filtering-rules-targeting-context}
+## 필터링 규칙의 타깃팅 컨텍스트 구성 {#configuring-filtering-rules-targeting-context}
 
 Campaign Standard을 통해  **타깃팅** 및 **필터링** 타겟팅하려는 데이터에 따라 사용할 차원입니다.
 
@@ -94,7 +94,7 @@ Campaign Standard을 통해  **타깃팅** 및 **필터링** 타겟팅하려는 
 
 전송할 메시지에 따라 필터링 규칙의 적용을 제한할 수 있습니다.
 
-1. In the typology rule&#39;s **[!UICONTROL Application criteria]** tab, uncheck the **[!UICONTROL Apply the rule on all deliveries]** option, which is enabled by default.
+1. 유형화 규칙의 **[!UICONTROL Application criteria]** 탭에서 선택을 취소합니다 **[!UICONTROL Apply the rule on all deliveries]** 선택 사항: 기본적으로 활성화되어 있습니다.
 
    ![](assets/typology_limit.png)
 

@@ -98,7 +98,7 @@ ht-degree: 1%
    <td> 반복 게재의 레이블 및 ID입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sender domain<br /> </td> 
+   <td> 보낸 사람 도메인<br /> </td> 
    <td> 이메일을 전송하는 데 사용되는 도메인입니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -106,8 +106,8 @@ ht-degree: 1%
    <td> 이메일을 전송하는 데 사용되는 IP입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> State<br /> </td> 
-   <td> State registered in the recipient's profile.<br /> </td> 
+   <td> 주/도<br /> </td> 
+   <td> 수신자의 프로필에 등록된 상태입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 추적 URL<br /> </td> 
@@ -118,16 +118,16 @@ ht-degree: 1%
    <td> 추적 URL에 지정된 카테고리입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL label<br /> </td> 
+   <td> 추적 URL 레이블<br /> </td> 
    <td> 미러 페이지와 같이 URL에 지정된 레이블은 Adobe에 문의하거나 엽니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional delivery<br /> </td> 
+   <td> 트랜잭션 게재<br /> </td> 
    <td> 트랜잭션 게재의 레이블 및 ID입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 변형<br /> </td> 
-   <td> Variant of the email in case of A/B testing.<br /> </td> 
+   <td> A/B 테스트의 경우 이메일의 변형입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -220,7 +220,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 격리 비율<br /> </td> 
-   <td> Percentage of quarantines compared to sent messages.<br /> </td> 
+   <td> 보낸 메시지와 비교하여 격리 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 거부됨<br /> </td> 
@@ -231,28 +231,28 @@ ht-degree: 1%
    <td> 거부됨으로 표시된 메시지의 백분율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
+   <td> 소프트 바운스<br /> </td> 
    <td> 전체 받은 편지함과 같은 총 임시 오류 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce rate<br /> </td> 
+   <td> 소프트 바운스 비율<br /> </td> 
    <td> 일시적인 이유로 인해 실패한 게재의 백분율입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 고유 클릭 수<br /> </td> 
-   <td> Number of recipients who clicked on a content in a delivery.<br /> </td> 
+   <td> 게재에서 콘텐츠를 클릭한 수신자 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 고유 열기 수<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
+   <td> 게재를 연 수신자 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique unsubscription<br /> </td> 
-   <td> Number of recipients who clicked on the unsubscription link.<br /> </td> 
+   <td> 고유 구독 취소<br /> </td> 
+   <td> 구독 취소 링크를 클릭한 수신자 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 가입 해지율<br /> </td> 
-   <td> Number of unique unsubscription compared to the delivered messages.<br /> </td> 
+   <td> 게재된 메시지와 비교하여 고유한 구독 취소 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 가입 해지됨<br /> </td> 
@@ -320,7 +320,7 @@ ht-degree: 1%
    <td> 수신자별 노출 횟수.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique Opens<br /> </td> 
+   <td> 고유 열기 수<br /> </td> 
    <td> 게재를 연 수신자 수입니다.<br /> </td> 
   </tr> 
  </tbody> 
@@ -342,26 +342,26 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 노출 횟수<br /> </td> 
-   <td> Total of In-App messages seen by recipients depending on whether trigger criterion was met.<br /> </td> 
+   <td> 트리거 기준이 충족되었는지 여부에 따라 수신자가 본 총 인앱 메시지 수.<br /> </td> 
   </tr> 
   <tr> 
    <td> 인앱 클릭 <br /> </td> 
    <td> 단추 1 또는 단추 2를 클릭한 총 수신자 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App click through rate<br /> </td> 
+   <td> 인앱 클릭스루 비율<br /> </td> 
    <td> 단추 1 또는 단추 2를 클릭한 사용자의 백분율과 메시지를 본 사용자의 비율.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal<br /> </td> 
+   <td> 인앱 해임<br /> </td> 
    <td> 닫기 단추 또는 자동 해지를 클릭하여 수신자가 해지한 총 메시지 수입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 인앱 해임률<br /> </td> 
-   <td> Percentage of In-App messages that recipients dismissed.<br /> </td> 
+   <td> 수신자가 해지한 인앱 메시지의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 처리/전송<br /> </td> 
    <td> 게재 전송 프로세스의 일부로 Adobe Campaign에서 전송된 총 인앱 메시지 수입니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -373,13 +373,13 @@ ht-degree: 1%
    <td> 수신자가 단추 1 또는 단추 2를 클릭한 횟수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique In-App dismissals<br /> </td> 
-   <td> Number of time recipients dismissed an In-App message.<br /> </td> 
+   <td> 고유한 인앱 해지<br /> </td> 
+   <td> 인앱 메시지를 해제한 수신자 수입니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Segments {#segments}
+## 세그먼트 {#segments}
 
 아래 표는 보고서에 사용된 세그먼트 목록과 해당 정의를 제공합니다.
 
@@ -387,7 +387,7 @@ ht-degree: 1%
  <thead> 
   <tr> 
    <th> 세그먼트<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 정의<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -417,7 +417,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 연령: X 세대<br /> </td> 
-   <td> Recipients born from 1966 to 1976.<br /> </td> 
+   <td> 1966년부터 1976년까지 태어난 수신자.<br /> </td> 
   </tr> 
   <tr> 
    <td> 연령: Y 세대(밀레니얼)<br /> </td> 
@@ -425,7 +425,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 연령: Z 세대<br /> </td> 
-   <td> Recipients born from 1995 to today.<br /> </td> 
+   <td> 1995년부터 오늘까지 태어난 수신자들.<br /> </td> 
   </tr> 
   <tr> 
    <td> 연령: 50보다 큼<br /> </td> 
@@ -433,7 +433,7 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td> 연령: 25 미만<br /> </td> 
-   <td> Recipients whose age is less than 25.<br /> </td> 
+   <td> 25세 미만인 수신자<br /> </td> 
   </tr> 
   <tr> 
    <td> 연령: 30개 미만<br /> </td> 
@@ -448,12 +448,12 @@ ht-degree: 1%
    <td> 50세 미만인 수신자<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Silent Generation<br /> </td> 
+   <td> 연령: 자동 생성<br /> </td> 
    <td> 1945년 또는 그 이전에 태어난 수신자.<br /> </td> 
   </tr> 
   <tr> 
-   <td> All visits<br /> </td> 
-   <td> Every recipient<br /> </td> 
+   <td> 모든 방문<br /> </td> 
+   <td> 모든 수신자<br /> </td> 
   </tr>
  </tbody> 
 </table>

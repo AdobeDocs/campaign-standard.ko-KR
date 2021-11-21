@@ -32,8 +32,8 @@ ht-degree: 1%
                   <td> </td>
                </tr>
                <tr>
-                  <td>age</td>
-                  <td>Age</td>
+                  <td>연령</td>
+                  <td>연령</td>
                   <td>정수 </td>
                   <td> </td>
                </tr>
@@ -130,7 +130,7 @@ ht-degree: 1%
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>마지막 트랜잭션 날짜</td>
-                  <td>date </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -170,7 +170,7 @@ ht-degree: 1%
                   <td>
                      <ul>
                         <li>지정되지 않음 - 알 수 없음 - 0</li>
-                        <li>Male - male - 1</li>
+                        <li>남성 - 남성 - 1</li>
                         <li>여성 - 여성 - 2</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -215,7 +215,7 @@ ht-degree: 1%
                <tr>
                   <td>minBroadLogEvents</td>
                   <td>MinBroadLogEvents</td>
-                  <td>date </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -263,7 +263,7 @@ ht-degree: 1%
                <tr>
                   <td>timeZone</td>
                   <td>시간대</td>
-                  <td>enumeration (string) (64)</td>
+                  <td>열거형(문자열) (64)</td>
                   <td>
                      <ul>
                         <li>(GMT-02:00) 중부-대서양 - 대서양_남부_조지아 - 대서양/남부_조지아</li>
@@ -293,11 +293,11 @@ ht-degree: 1%
                         <li>(GMT+10:00) 브리즈번 - 오스트레일리아_브리즈번 - 오스트레일리아/브리즈번</li>
                         <li>(GMT+05:30) 스리자야와르데네푸라 - 아시아-콜롬보 - 아시아/콜롬보</li>
                         <li>(GMT+02:00) 하라레, 프레토리아 - 아프리카_하라레 - 아프리카/하라레</li>
-                        <li>(GMT+08:00) Oulan-Bator - Asia_Ulan_Bator - Asia/Ulan_Bator</li>
-                        <li>(GMT-02:00) Greenwich Mean Time minus 2 hours - Gmt_m2 - Etc/GMT+2</li>
+                        <li>(GMT+08:00) 울란 바토르 - 아시아_울란_바토르 - 아시아/울란_바토르</li>
+                        <li>(GMT-02:00) 그리니치 표준시 - 2시간 - Gmt_m2 - etc/GMT+2</li>
                         <li>(GMT-03:00) 그리니치 표준시 - 3시간 - Gmt_m3 - etc/GMT+3</li>
                         <li>(GMT-01:00) 그리니치 표준시 - 1시간 - Gmt_m1 - etc/GMT+1</li>
-                        <li>(GMT-06:00) Greenwich Mean Time minus 6 hours - Gmt_m6 - Etc/GMT+6</li>
+                        <li>(GMT-06:00) 그리니치 표준시 - 6시간 - Gmt_m6 - etc/GMT+6</li>
                         <li>(GMT-07:00) 그리니치 표준시 - 7시간 - Gmt_m7 - etc/GMT+7</li>
                         <li>(GMT-04:00) 그리니치 표준시 - 4시간 - Gmt_m4 - etc/GMT+4</li>
                         <li>(GMT) 카사블랑카 - 아프리카 카사블랑카 - 아프리카/카사블랑카</li>
@@ -326,7 +326,7 @@ ht-degree: 1%
                         <li>(GMT+05:45) 카트만두 - 아시아-카트만두 - 아시아/카트만두</li>
                         <li>(GMT-05:00) 인디애나(동부) - 아메리카_인디애나폴리스 - 아메리카/인디애나폴리스</li>
                         <li>(GMT-01:00) 카보베르데 제도 - 애틀랜틱_케이프_베르데 - 대서양/케이프_베르데</li>
-                        <li>(GMT+04:00) Port Louis - Indian_Mauritius - Indian/Mauritius</li>
+                        <li>(GMT+04:00) 포트루이스 - 인디언_모리셔스 - 인도/모리셔스</li>
                         <li>(GMT+08:00) 타이베이 - 아시아_타이베이 - 아시아/타이베이</li>
                         <li>(GMT+06:30) 랑군 - 아시아_랑군 - 아시아/랑군</li>
                         <li>(GMT+11:00) 마가단, 솔로몬 제도, 뉴칼레도니아 - 태평양 과달카날 - 태평양/과달카날</li>
@@ -550,8 +550,8 @@ Received(hasReceivedDelivery)
 <th>유형</th>
 </tr>
 <tr>
-<td>delivery</td>
-<td>link</td>
+<td>게재</td>
+<td>링크</td>
 </tr>
 </table>
 
@@ -563,7 +563,7 @@ Received(hasReceivedDelivery)
 <th>유형</th>
 </tr>
 <tr>
-<td>service</td>
-<td>link</td>
+<td>서비스</td>
+<td>링크</td>
 </tr>
 </table>

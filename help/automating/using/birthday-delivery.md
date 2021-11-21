@@ -22,7 +22,7 @@ ht-degree: 69%
 
 이 예제는 생일 워크플로우입니다. 그 날 생일을 맞는 프로필로 매일 이메일이 전송됩니다.
 
-To build the workflow, follow these steps:
+워크플로우를 빌드하려면 다음 단계를 수행합니다.
 
 * 다음 [스케줄러](../../automating/using/scheduler.md) 매일 오전 8시에 워크플로우를 시작할 수 있습니다.
 

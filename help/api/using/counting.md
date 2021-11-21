@@ -1,6 +1,6 @@
 ---
 title: 카운팅
-description: Learn how to perform count operations.
+description: 카운트 작업을 수행하는 방법을 알아봅니다.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # 카운팅
 
-Adobe Campaign REST API는 요청에 있는 레코드 수를 계산할 수 있습니다. To do this, use the URL that is returned in the **count** node.
+Adobe Campaign REST API는 요청에 있는 레코드 수를 계산할 수 있습니다. 이렇게 하려면 **count** 노드 아래에 있어야 합니다.
 
 <br/>
 
-***Sample request***
+***샘플 요청***
 
-To count all the services that have a **messageType** value equaling to &quot;sms&quot;, perform a GET request with the **byChannel** filter.
+가 있는 모든 서비스를 계산하려면 **messageType** &quot;sms&quot;와 같은 값을 사용하여 GET 요청을 수행합니다. **byChannel** 필터.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -33,7 +33,7 @@ To count all the services that have a **messageType** value equaling to &quot;sm
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-It returns the services corresponding to the filter.
+필터에 해당하는 서비스를 반환합니다.
 
 ```
 {
@@ -54,7 +54,7 @@ It returns the services corresponding to the filter.
 }
 ```
 
-Perform a GET request on the **count** node&#39;s URL to retrieve the number of results.
+에서 GET 요청을 수행합니다. **count** 결과 수를 검색할 노드의 URL입니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \

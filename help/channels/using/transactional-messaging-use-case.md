@@ -40,7 +40,7 @@ ht-degree: 4%
 
 1. 을(를) 선택합니다 **[!UICONTROL Profile]** 타겟팅 차원을 생성하여 [프로필 기반 트랜잭션 메시지](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
-1. Define the attributes that will be available to personalize the transactional message. 이 예제에서는 &quot;CRM ID&quot; 및 &quot;제품 식별자&quot; 필드를 추가합니다. 자세한 내용은 [이벤트 속성 정의](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes).
+1. 트랜잭션 메시지를 개인화할 수 있는 속성을 정의합니다. 이 예제에서는 &quot;CRM ID&quot; 및 &quot;제품 식별자&quot; 필드를 추가합니다. 자세한 내용은 [이벤트 속성 정의](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes).
 
    ![](assets/message-center_usecase1.png)
 
@@ -68,7 +68,7 @@ ht-degree: 4%
 
 1. 이벤트를 게시할 때 자동으로 생성된 트랜잭션 메시지로 이동합니다. 자세한 내용은 [트랜잭션 메시지 액세스](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
-1. Edit and personalize the message. 자세한 내용은 [프로필 트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message).
+1. 메시지를 편집하고 개인화합니다. 자세한 내용은 [프로필 트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message).
 
 1. 에 추가한 &quot;CRM ID&quot; 필드와의 조정을 통해 **[!UICONTROL Profile]** 리소스, 모든 프로필 정보에 직접 액세스 [개인화](../../designing/using/personalization.md#inserting-a-personalization-field) 메시지를 표시합니다.
 
