@@ -82,7 +82,7 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 
 * [비디오 튜토리얼](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [제품 설명서](../../channels/using/about-push-notifications.md)
-* AEP SDK [설명서](../../administration/using/configuring-a-mobile-application.md)를 사용하여 구성
+* AEP SDK를 사용하여 구성 [설명서](../../administration/using/configuring-a-mobile-application.md)
 * [커뮤니티 페이지](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Campaign에서 푸시 토큰을 획득하려면 어떻게 해야 합니까? {#push-token-acquisition}
@@ -113,17 +113,17 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 프로덕션 모드로 변경하려면 다른 앱을 만들어야 합니다. 또한 sandbox 확인란을 선택하지 않고 프로덕션 인증서를 업로드하지 않아야 합니다.
 
-### iOS와 Android 자격 증명을 동시에 업로드할 수 있습니까? {#ios-android-credentials}
+### iOS 및 Android 자격 증명을 동시에 업로드할 수 있습니까? {#ios-android-credentials}
 
 예. Campaign은 두 플랫폼을 동시에 지원하며 두 플랫폼 모두에 대한 자격 증명을 업로드할 수 있습니다.
 
 ### 푸시 인증서를 업로드했지만 푸시 메시지가 전송되지 않습니다. {#push-certificates-upload}
 
-푸시 인증서가 [여기](https://pushtry.com/)에 테스트되어 유효한지 확인하십시오.
+푸시 인증서를 테스트하여 유효한지 확인하십시오 [여기](https://pushtry.com/).
 
 ### 푸시 알림을 pushtry.com에서 성공적으로 보낼 수 있지만 Campaign을 통해 보낼 수는 없습니다. {#push-not-sending}
 
-[여기](../../administration/using/push-payload.md)에 제공된 푸시 페이로드 지침을 따르고 있는지 확인하십시오.
+제공된 푸시 페이로드 지침을 따르고 있는지 확인하십시오 [여기](../../administration/using/push-payload.md).
 
 Android의 경우 Campaign은 알림 페이로드가 아닌 데이터 페이로드만 지원합니다
 
@@ -137,26 +137,26 @@ Android의 경우 Campaign은 알림 페이로드가 아닌 데이터 페이로�
 
 ### 푸시 알림이 Campaign에서 전달되지만 미디어 파일이 표시되지 않습니다.{#media-file-unavailable}
 
-모바일 앱 개발자는 앱의 미디어 파일에 대한 지원을 처리해야 합니다. 경우에 따라 네트워크 대역폭이 미디어 파일이 렌더링되지 않을 수도 있습니다. 추가 포인터가 필요하면 이 [page](../../administration/using/image-push-notification.md)을 참조하십시오.
+모바일 앱 개발자는 앱의 미디어 파일에 대한 지원을 처리해야 합니다. 경우에 따라 네트워크 대역폭이 미디어 파일이 렌더링되지 않을 수도 있습니다. 다음을 참조하십시오 [페이지](../../administration/using/image-push-notification.md) 추가 포인터
 
 ### Campaign에서 푸시 보고를 활성화하려면 무엇을 해야 합니까? {#push-reporting-enable}
 
 아래의 단계를 수행하십시오.
 
-* 푸시 추적 포스트백을 구성합니다. 지침은 [여기](../../administration/using/configuring-a-mobile-application.md)에서 찾을 수 있습니다.
-* Mobile Core에서 trackAction API를 구현합니다. 자세한 내용은 이 [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference)을 참조하십시오.
+* 푸시 추적 포스트백을 구성합니다. 지침은 [여기](../../administration/using/configuring-a-mobile-application.md).
+* Mobile Core에서 trackAction API를 구현합니다. 다음을 참조하십시오 [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) 추가 정보.
 
-자세한 지침은 이 [페이지](../../administration/using/push-tracking.md)에서 확인할 수 있습니다.
+자세한 지침은 [페이지](../../administration/using/push-tracking.md).
 
 ### 푸시 채널에 사용할 수 있는 보고서는 무엇입니까? {#push-report-available}
 
-푸시 채널용 Adobe Campaign에서는 기본 제공 보고서를 사용할 수 있습니다. 이 [설명서](../../reporting/using/push-notification-report.md)를 참조하십시오.
+푸시 채널용 Adobe Campaign에서는 기본 제공 보고서를 사용할 수 있습니다. 다음을 참조하십시오 [설명서](../../reporting/using/push-notification-report.md).
 
-각 푸시 지표가 계산되는 방식을 이해하려면 이 [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) 를 참조하십시오.
+다음 보기 [페이지](../../reporting/using/indicator-calculation.md#push-notification-delivery) 각 푸시 지표가 계산되는 방식을 이해하기 위해 를 추가했습니다.
 
 ### 딥 링크가 푸시 및 인앱 메시지에서 지원됩니까? {#deeplink-push}
 
 예, 딥 링크는 푸시 메시지에서 지원됩니다. 딥 링크에는 다음이 포함되어야 합니다.
 
 * 딥 링크가 작동하려면 게재 추적을 비활성화해야 한다고 말하는 언어입니다.
-* 딥 링크 추적을 수행할 수 있는 파트너로서 분기가 있는 플라이어를 추가합니다. 분기 및 Adobe Campaign Standard 통합에 대한 자세한 내용은 이 [페이지](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)를 참조하십시오.
+* 딥 링크 추적을 수행할 수 있는 파트너로서 분기가 있는 플라이어를 추가합니다. 분기 및 Adobe Campaign Standard 통합에 대한 자세한 내용은 다음을 참조하십시오 [페이지](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

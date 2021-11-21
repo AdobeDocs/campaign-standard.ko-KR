@@ -17,11 +17,11 @@ ht-degree: 3%
 
 # 동적 텍스트 정의{#defining-dynamic-text}
 
-다이내믹 텍스트는 다이내믹 콘텐츠와 동일한 방식으로 정의됩니다. [동적 콘텐츠 정의](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 섹션을 참조하십시오.
+다이내믹 텍스트는 다이내믹 콘텐츠와 동일한 방식으로 정의됩니다. 자세한 내용은 [동적 콘텐츠 정의](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 섹션을 참조하십시오.
 
 >[!NOTE]
 >
->SMS 및 푸시의 경우 다이내믹 텍스트만 정의할 수 있습니다. 랜딩 페이지에서 동적 콘텐츠와 텍스트를 모두 정의할 수 있습니다. [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md)를 사용하여 동적 텍스트를 정의하려면 [이메일에서 동적 콘텐츠 정의](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)를 참조하십시오.
+>SMS 및 푸시의 경우 다이내믹 텍스트만 정의할 수 있습니다. 랜딩 페이지에서 동적 콘텐츠와 텍스트를 모두 정의할 수 있습니다. 을 사용하여 다이내믹 텍스트를 정의하려면 [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md)를 참조하십시오. [이메일에서 동적 콘텐츠 정의](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 유니코드 문자 집합의 기본 다국어 평면에 포함되지 않은 문자인 대리 쌍은 2바이트(16비트)로 저장할 수 없으며 2UTF-16자로 인코딩되어야 합니다. 이러한 문자에는 일부 CJK IDEOGRAPHS, 대부분의 이모지와 일부 언어가 포함됩니다.
 <br>이러한 문자로 인해 동적 텍스트에 일부 비호환성 문제가 발생할 수 있습니다. 메시지를 보내기 전에 강력한 테스트를 수행해야 합니다.
@@ -34,7 +34,7 @@ ht-degree: 3%
 
    ![](assets/dynamic_text_sms_1.png)
 
-   팔레트에 **[!UICONTROL Dynamic text]** 옵션이 표시됩니다. 다이내믹 콘텐츠와 동일한 방식으로 구성됩니다.
+   다음 **[!UICONTROL Dynamic text]** 옵션이 팔레트에 표시됩니다. 다이내믹 콘텐츠와 동일한 방식으로 구성됩니다.
 
 1. 변형을 선택합니다.
 

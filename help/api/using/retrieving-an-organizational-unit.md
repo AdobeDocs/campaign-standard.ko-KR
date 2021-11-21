@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # 프로필의 조직 단위 검색 {#retrieving-organizational-units}
 
-1. 프로필 PKey에 GET 요청을 수행하여 **orgUnit** URL을 검색합니다.
+1. 프로필 PKey에 대해 GET 요청을 수행하여 을 검색합니다. **orgUnit** URL.
 1. 조직 단위에 대한 자세한 내용을 검색하려면 URL에 GET 요청을 수행하십시오.
 
 <br/>

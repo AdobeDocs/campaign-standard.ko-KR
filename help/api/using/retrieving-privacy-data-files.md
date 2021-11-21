@@ -19,15 +19,15 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->[개인 정보 보호 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. 19.4 릴리스부터 액세스 및 삭제 요청에 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 사용 중단된 Campaign Standard 및 제거된 기능에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
+>다음 [개인 정보 보호 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. 19.4 릴리스부터 액세스 및 삭제 요청에 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 사용 중단된 Campaign Standard 및 제거된 기능에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
 
 조정 값에 연결된 모든 정보가 포함된 파일을 검색하려면 다음 세 단계 절차를 수행하십시오.
 
-1. **POST** 요청을 수행하여 **type=&quot;access&quot;** 특성을 사용하여 새 요청을 만듭니다. [새 개인 정보 보호 요청 만들기](../../api/using/creating-a-privacy-request.md)를 참조하십시오.
+1. 다음 작업을 수행합니다. **POST** 특성을 사용하여 새 요청을 만들기 위한 요청 **type=&quot;access&quot;**&#x200B;를 참조하십시오. [새 개인 정보 보호 요청 만들기](../../api/using/creating-a-privacy-request.md).
 
-1. 요청에 대한 정보를 검색하려면 **GET** 요청을 수행하십시오.
+1. 다음 작업을 수행합니다. **GET** 요청에 대한 정보를 검색하도록 요청합니다.
 
-1. 페이로드 내에 개인 정보 보호 요청 내부 이름을 사용하여 반환된 **privacyRequestData** URL에 **POST** 요청을 수행하여 데이터 파일을 검색합니다. 예: {&quot;name&quot;:&quot;PT17&quot;}.
+1. 다음을 수행하여 데이터 파일 검색 **POST** 반환된 항목에 대한 요청 **privacyRequestData** 페이로드 내에 개인 정보 보호 요청 내부 이름이 있는 URL. 예: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 

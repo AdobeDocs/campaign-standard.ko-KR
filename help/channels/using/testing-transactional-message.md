@@ -24,7 +24,7 @@ ht-degree: 36%
 
 메시지를 미리 보고 관련 증명을 전송할 수 있는 이벤트에 연결할 테스트 프로필을 정의합니다.
 
-1. [트랜잭션 메시지 대시보드](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)에서 **[!UICONTROL Create test profile]** 단추를 클릭합니다.
+1. 에서 [트랜잭션 메시지 대시보드](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)를 클릭하고 **[!UICONTROL Create test profile]** 버튼을 클릭합니다.
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,7 +34,7 @@ ht-degree: 36%
 
    >[!NOTE]
    >
-   >메시지를 보강한 경우 **[!UICONTROL Profile]** 등의 다른 테이블과 관련된 정보를 입력할 수도 있습니다. [이벤트 강화](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 및 [트랜잭션 메시지 개인화](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)를 참조하십시오.
+   >메시지를 보강한 경우, 다른 테이블과 관련된 정보(예: **[!UICONTROL Profile]**. 자세한 내용은 [이벤트 강화](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 및 [트랜잭션 메시지 개인화](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. 만들어진 테스트 프로필은 트랜잭션 메시지에 미리 지정됩니다. 메시지의 **[!UICONTROL Test profiles]** 블록을 클릭하여 증명의 대상을 확인합니다.
 
@@ -42,14 +42,14 @@ ht-degree: 36%
 
 새 테스트 프로필을 만들거나 **[!UICONTROL Test profiles]** 메뉴에 이미 있는 테스트 프로필을 사용할 수도 있습니다. 방법은 다음과 같습니다.
 
-1. 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Event]** 섹션에서 방금 만든 이벤트를 선택합니다. 예제에서는 &quot;장바구니 포기(EVTcartAbandonment)&quot;를 선택합니다.
+1. 을(를) 클릭합니다. **Adobe** 왼쪽 상단 모서리에서 로고를 선택한 다음 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. 에서 **[!UICONTROL Event]** 섹션에서 방금 만든 이벤트를 선택합니다. 예제에서는 &quot;장바구니 포기(EVTcartAbandonment)&quot;를 선택합니다.
 1. **[!UICONTROL Event data]** 텍스트 상자에 JSON 형식으로 전송할 정보를 지정합니다.
 
    ![](assets/message-center_3.png)
 
 1. 변경 내용을 저장합니다.
-1. [만든 ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) 메시지에 액세스하고 업데이트된 테스트 프로필을 선택합니다.
+1. [메시지에 액세스](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) 업데이트한 테스트 프로필을 선택하고
 
 **관련 항목:**
 
@@ -62,4 +62,4 @@ ht-degree: 36%
 
 ![](assets/message-center_10.png)
 
-증명을 보내는 단계는 [증명 보내기](../../sending/using/sending-proofs.md) 섹션에 자세히 설명되어 있습니다.
+증명 전송 단계는 [증명 보내기](../../sending/using/sending-proofs.md) 섹션을 참조하십시오.

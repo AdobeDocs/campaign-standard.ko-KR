@@ -29,36 +29,36 @@ ht-degree: 8%
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [개인화 및 전송 시간 최적화](#perso-send-time-optimization): 콘텐츠를 개인화하고 수신자당 전송 시간을 정의하면 메시지가 열릴 가능성이 높아집니다.
 * 이미지 및 텍스트: 적절한 텍스트/이미지 비율(예: 60% 텍스트 및 40% 이미지)을 준수합니다.
-* [구독 ](#opt-out) 취소 링크 및 랜딩 페이지: 구독 취소 링크는 필수입니다. 이 변수는 표시적이고 유효해야 하며 양식이 작동해야 합니다.
-* 미리 보기: Adobe Campaign에서 제공하는 도구를 사용하여 전자 메일([스팸 방지 분석](#anti-spam-analysis), [이메일 렌더링](#message-responsiveness))의 콘텐츠를 확인하고 최적화합니다.
+* [구독 취소 링크](#opt-out) 및 랜딩 페이지: 구독 취소 링크는 필수입니다. 이 변수는 표시적이고 유효해야 하며 양식이 작동해야 합니다.
+* 미리 보기: Adobe Campaign에서 제공하는 도구를 사용하여 전자 메일([스팸 방지 분석](#anti-spam-analysis), [전자 메일 렌더링](#message-responsiveness)).
 
-콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html)를 참조하십시오.
+콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
 
 >[!NOTE]
 >
->전자 메일 콘텐츠 편집에 대한 자세한 내용은 [전자 메일 디자이너 개요](../../designing/using/designing-content-in-adobe-campaign.md) 및 [메시지 디자인 모범 사례](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)를 참조하십시오.
+>전자 메일 콘텐츠 편집에 대한 자세한 내용은 [이메일 디자이너 개요](../../designing/using/designing-content-in-adobe-campaign.md) 그리고 [메시지 디자인 모범 사례](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## 발신자 이름 및 주소 {#sender-name}
 
-특정 ISP는 메시지를 수락하기 전에 보낸 사람 주소(**[!UICONTROL From]**)의 유효성을 검사합니다. 잘못 형성된 주소는 수신 서버에서 거부될 수 있습니다.
+특정 ISP가 보낸 사람 주소의 유효성을 확인합니다(**[!UICONTROL From]**)을 클릭하여 메시지를 수신합니다. 잘못 형성된 주소는 수신 서버에서 거부될 수 있습니다.
 
 ![](assets/delivery_content_edition16.png)
 
 인스턴스 수준 또는 가장 자주 사용하는 시나리오에서 올바른 주소가 지정되었는지 확인해야 합니다. 이렇게 하려면 관리자에게 문의하십시오.
 
-자세한 내용은 [전자 메일 보낸 사람 정의](../../designing/using/subject-line.md#email-sender)를 참조하십시오.
+자세한 내용은 [전자 메일 보낸 사람 정의](../../designing/using/subject-line.md#email-sender).
 
 ## 개인화 및 전송 시간 최적화 {#perso-send-time-optimization}
 
 Adobe Campaign을 사용하면 수신자의 경험을 향상하고 이메일을 열도록 할 수 있으므로 메시지를 개인화할 수 있습니다. 자세한 내용은 [이 섹션](../../designing/using/personalization.md)을 참조하십시오.
 
-메시지 열람률을 높이기 위해 수신자당 보내는 시간을 수동으로 정의할 수도 있습니다. 각 프로필은 가능한 한 지정된 날짜와 시간에 메시지를 수신합니다. 자세한 내용은 [보내는 시간 최적화](../../sending/using/optimizing-the-sending-time.md)를 참조하십시오.
+메시지 열람률을 높이기 위해 수신자당 보내는 시간을 수동으로 정의할 수도 있습니다. 각 프로필은 가능한 한 지정된 날짜와 시간에 메시지를 수신합니다. 자세한 내용은 [보내는 시간 최적화](../../sending/using/optimizing-the-sending-time.md).
 
 ## 옵트아웃 링크 및 양식 {#opt-out}
 
-기본적으로 메시지를 분석할 때 유형화 규칙은 옵트아웃 링크가 포함되어 있는지 여부를 확인하고, 누락된 경우 경고를 생성합니다. 링크 관리에 대한 자세한 내용은 [이 섹션](../../designing/using/links.md)을 참조하십시오.
+기본적으로 메시지를 분석할 때 유형화 규칙은 옵트아웃 링크가 포함되어 있는지 여부를 확인하고, 누락된 경우 경고를 생성합니다. 링크 관리에 대한 자세한 내용은 [이 섹션](../../designing/using/links.md).
 
-보낼 때마다 옵트아웃 링크가 올바르게 작동하는지 확인해야 합니다. 예를 들어 [증명](../../sending/using/sending-proofs.md)을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지 그리고 이를 확인하면 **[!UICONTROL No longer contact]** 상자가 표시됩니다. 링크를 입력하거나 양식을 변경할 때 항상 인간 오류가 가능하므로 이 검사를 체계적으로 수행해야 합니다. 옵트인 및 옵트아웃 관리에 대한 자세한 내용은 [이 섹션](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)을 참조하십시오.
+보낼 때마다 옵트아웃 링크가 올바르게 작동하는지 확인해야 합니다. 예를 들어 [증명 보내기](../../sending/using/sending-proofs.md)를 설정하는 경우 링크가 유효하고 양식이 온라인 상태인지 확인한 후에 이 확인하는지 확인합니다. **[!UICONTROL No longer contact]** 상자. 링크를 입력하거나 양식을 변경할 때 항상 인간 오류가 가능하므로 이 검사를 체계적으로 수행해야 합니다. 옵트인 및 옵트아웃 관리에 대한 자세한 내용은 [이 섹션](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
 ![](assets/optin_landingpage_3.png)
 
@@ -70,9 +70,9 @@ Adobe Campaign을 사용하면 수신자의 경험을 향상하고 이메일을 
 
 ## 스팸 방지 분석 {#anti-spam-analysis}
 
-Adobe Campaign의 메시지 편집기에는 **스팸 방지 분석**&#x200B;이 통합되어 있으므로 메시지를 통해 수신 시 사용되는 스팸 방지 도구에 의해 메시지가 스팸으로 간주될 위험이 있는지 여부를 파악할 수 있습니다. 자세한 내용은 [메시지 미리 보기](../../sending/using/previewing-messages.md)를 참조하십시오.
+Adobe Campaign의 메시지 편집기로 통합 **스팸 방지 분석** 이메일에 점수를 매겨 메시지를 받을 때 사용되는 스팸 방지 도구에 의해 스팸으로 간주될 위험이 있는지 여부를 결정할 수 있습니다. 자세한 내용은 [메시지 미리 보기](../../sending/using/previewing-messages.md).
 
-메시지 콘텐츠 편집기에서 **[!UICONTROL Preview]** 을 클릭합니다. 스팸 방지 확인에서 이 메시지에 대한 위험성이 높은 경우 경고 메시지가 표시됩니다. 세부 정보를 보려면 **[!UICONTROL Anti-spam analysis]** 을 클릭하십시오.
+메시지 콘텐츠 편집기에서 을 클릭합니다. **[!UICONTROL Preview]**. 스팸 방지 확인에서 이 메시지에 대한 위험성이 높은 경우 경고 메시지가 표시됩니다. 클릭 **[!UICONTROL Anti-spam analysis]** 세부 사항을 보려면
 
 ![](assets/sending_anti-spam_analysis.png)
 

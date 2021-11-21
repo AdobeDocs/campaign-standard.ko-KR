@@ -21,15 +21,15 @@ ht-degree: 8%
 >
 >Audience Destinations 서비스는 현재 베타에 있으며, 예고 없이 자주 업데이트될 수 있습니다. 고객은 이러한 기능에 액세스하려면 Azure에서 호스팅(현재 북미 전용 베타 버전)해야 합니다. 액세스하려면 고객 지원 센터에 문의하십시오.
 >
->**** Adobe Experience Platform **의 컨텍스트** 데이터를 사용하여 개인화에는 푸시 인앱 채널을 아직 사용할 수 없습니다.
+>**푸시** 및 **인앱** Adobe Experience Platform의 컨텍스트 데이터를 사용하여 개인화에 아직 채널을 사용할 수 없습니다.
 
-워크플로우가 [Adobe Experience Platform 대상](../../integrating/using/aep-about-audience-destinations-service.md)으로 구성되면 XDM(Experience Data Model)에만 있는 프로필 속성을 사용하여 메시지를 개인화할 수 있습니다.
+워크플로우가 [Adobe Experience Platform 대상](../../integrating/using/aep-about-audience-destinations-service.md), XDM(Experience Data Model)에만 있는 프로필 속성을 사용하여 메시지를 개인화할 수 있습니다.
 
-이를 수행하려면 다음 속성을 **[!UICONTROL Read audience]** 활동에 추가해야 합니다.
+이를 수행하려면 다음 속성을 **[!UICONTROL Read audience]** 활동:
 
-1. **[!UICONTROL Read audience]** 활동을 엽니다. **[!UICONTROL Additional data]** 탭에서 **[!UICONTROL Create element]** 단추를 클릭합니다.
+1. 를 엽니다. **[!UICONTROL Read audience]** 활동. 에서 **[!UICONTROL Additional data]** 탭에서 **[!UICONTROL Create element]** 버튼을 클릭합니다.
 
-   **[!UICONTROL Additional data]** 탭은 Adobe Experience Platform 대상자를 선택한 후에만 사용할 수 있습니다.
+   다음 사항에 유의하십시오. **[!UICONTROL Additional data]** 탭은 Adobe Experience Platform 대상자를 선택한 후에만 사용할 수 있습니다.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -37,11 +37,11 @@ ht-degree: 8%
    >
    >배열 및 맵 데이터 유형은 이 기능에서 지원되지 않습니다. 또한 결합 스키마의 데이터만 선택기에 표시됩니다.
 
-1. 목록에서 원하는 XDM 필드를 선택한 다음 **[!UICONTROL Confirm]** 을 클릭합니다.
+1. 목록에서 원하는 XDM 필드를 선택한 다음 를 클릭합니다 **[!UICONTROL Confirm]**.
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. **[!UICONTROL Add]** 단추를 클릭하여 추가 데이터 목록에 추가합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Add]** 추가 데이터 목록에 추가하는 단추.
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -49,9 +49,9 @@ ht-degree: 8%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Read audience]** 활동에서 최대 20개의 XDM 필드를 추가할 수 있습니다.
+   >에는 최대 20개의 XDM 필드를 추가할 수 있습니다 **[!UICONTROL Read audience]** 활동.
 
-1. 모든 필드가 추가되면 **[!UICONTROL Confirm]** 버튼을 클릭하여 변경 사항을 저장합니다. 이제 게재를 개인화할 수 있습니다.
+1. 모든 필드가 추가되면 **[!UICONTROL Confirm]** 단추를 클릭하여 변경 사항을 저장합니다. 이제 게재를 개인화할 수 있습니다.
 
 게재를 만들고 개인화하는 방법에 대한 자세한 내용은 Campaign Standard 설명서를 참조하십시오.
 

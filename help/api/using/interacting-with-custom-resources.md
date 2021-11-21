@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # 사용자 정의 리소스와 상호 작용 {#interacting-with-custom-resources}
 
-**/customResources** 종단점을 사용하면 REST에 Campaign 사용자 지정 리소스를 표시할 수 있습니다. 이 API를 기반으로 사용자 지정 엔티티와 외부 엔드포인트 간의 통합을 사용할 수 있습니다.
+다음 **/customResources** 엔드포인트를 사용하면 REST에 Campaign 사용자 지정 리소스를 표시할 수 있습니다. 이 API를 기반으로 사용자 지정 엔티티와 외부 엔드포인트 간의 통합을 사용할 수 있습니다.
 
 /customResources 종단점은 /profileAndServices 종단점과 동일한 동작을 갖습니다.
 
@@ -45,4 +45,4 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >개인 정보 보호 API 엔드포인트 및 워크플로우(/privacy/privacyTool)는 프로필 엔티티에 연결되어 있지 않은 사용자 지정 리소스를 관리하지 않습니다.
->이러한 사용자 지정 리소스에 대한 PII를 관리하고 정리할 책임이 있습니다. 개인 정보 도구에 대한 자세한 내용을 보려면 [여기](../../api/using/creating-a-privacy-request.md)를 클릭하십시오.
+>이러한 사용자 지정 리소스에 대한 PII를 관리하고 정리할 책임이 있습니다. 개인 정보 도구에 대한 자세한 내용은 [여기를 클릭하십시오.](../../api/using/creating-a-privacy-request.md).

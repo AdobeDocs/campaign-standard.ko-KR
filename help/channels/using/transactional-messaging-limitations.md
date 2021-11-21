@@ -26,7 +26,7 @@ ht-degree: 67%
 
 ## 사용 권한 {#permissions}
 
-[관리](../../administration/using/users-management.md#functional-administrators) 역할을 가진 사용자만 트랜잭션 이벤트를 구성하고 트랜잭션 메시지에 액세스할 수 있습니다.
+을 사용하는 사용자만 [관리](../../administration/using/users-management.md#functional-administrators) 역할은 트랜잭션 이벤트를 구성하고 트랜잭션 메시지에 액세스할 수 있습니다.
 
 ## 이벤트 구성 및 게시 {#design-and-publication}
 
@@ -41,9 +41,9 @@ ht-degree: 67%
 
 ## 트랜잭션 메시지 수 {#transactional-message-number}
 
-게시된 트랜잭션 메시지 수는 플랫폼에 상당한 영향을 줄 수 있습니다. 최적의 성능을 위해 게시된 트랜잭션 메시지 수는 100개 미만으로 유지되어야 합니다. 이를 위해서는 사용되지 않는 트랜잭션 메시지를 게시 취소하거나 삭제하십시오. [트랜잭션 메시지 게시 취소](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) 및 [트랜잭션 메시지 삭제](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)를 참조하십시오.
+게시된 트랜잭션 메시지 수는 플랫폼에 상당한 영향을 줄 수 있습니다. 최적의 성능을 위해 게시된 트랜잭션 메시지 수는 100개 미만으로 유지되어야 합니다. 이를 위해서는 사용되지 않는 트랜잭션 메시지를 게시 취소하거나 삭제하십시오. 자세한 내용은 [트랜잭션 메시지 게시 취소](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) 및 [트랜잭션 메시지 삭제](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
-최상의 성능을 위해 사용하지 않는 이벤트를 게시 취소하거나 삭제할 수도 있습니다. 실제로, 이벤트 게시를 취소하거나 삭제하면 해당 트랜잭션 메시지와 해당 전송 및 추적 로그가 게시 취소하거나 삭제됩니다. [이벤트](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) 게시 취소 및 [이벤트 삭제](../../channels/using/publishing-transactional-event.md#deleting-an-event)를 참조하십시오.
+최상의 성능을 위해 사용하지 않는 이벤트를 게시 취소하거나 삭제할 수도 있습니다. 실제로, 이벤트 게시를 취소하거나 삭제하면 해당 트랜잭션 메시지와 해당 전송 및 추적 로그가 게시 취소하거나 삭제됩니다. 자세한 내용은 [이벤트 게시 취소](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) 및 [이벤트 삭제](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## 개인화 {#personalization}
 
@@ -51,20 +51,20 @@ ht-degree: 67%
 
 ### 이벤트 기반 트랜잭션 메시지
 
-* 이벤트 자체에 포함된 데이터에서 개인화 정보를 가져옵니다. [이벤트 기반 트랜잭션 메시지 구성](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)을 참조하십시오.
-* **이벤트 트랜잭션 메시지에는&#x200B;**[!UICONTROL Unsubscription link]**콘텐츠 블록을 사용할 수 없습니다.**
-* 이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 수신자와 메시지 콘텐츠 개인화를 정의합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 콘텐츠를 보강할 수 있습니다. [이벤트 강화](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 및 [트랜잭션 메시지 개인화](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)를 참조하십시오.
+* 이벤트 자체에 포함된 데이터에서 개인화 정보를 가져옵니다. 자세한 내용은 [이벤트 기반 트랜잭션 메시지 구성](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* 사용자 **사용할 수 없음** 사용 **[!UICONTROL Unsubscription link]** 이벤트 트랜잭션 메시지의 콘텐츠 블록.
+* 이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 수신자와 메시지 콘텐츠 개인화를 정의합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 콘텐츠를 보강할 수 있습니다. 자세한 내용은 [이벤트 강화](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 및 [트랜잭션 메시지 개인화](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * 이벤트 트랜잭션 메시지에는 프로필 정보가 포함되어 있지 않기 때문에 피로도 규칙이 적용되지 않습니다. 프로필로 보강했을 경우에도 마찬가지입니다.
 
 ### 프로필 기반 트랜잭션 메시지
 
-* 이벤트에 포함된 데이터나 조정된 프로필 레코드에서 개인화 정보를 가져올 수 있습니다. [프로필 기반 트랜잭션 메시지 구성](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) 및 [프로필 기반 트랜잭션 메시지 특성](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)을 참조하십시오.
-* **프로필 트랜잭션 메시지에서&#x200B;**[!UICONTROL Unsubscription link]**컨텐츠 블록을 사용할 수 있습니다.** [콘텐츠 블록 추가](../../designing/using/personalization.md#adding-a-content-block)를 참조하십시오.
+* 이벤트에 포함된 데이터나 조정된 프로필 레코드에서 개인화 정보를 가져올 수 있습니다. 자세한 내용은 [프로필 기반 트랜잭션 메시지 구성](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) 및 [프로필 기반 트랜잭션 메시지 특성](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* 사용자 **다음을 수행할 수 있습니다.** 사용 **[!UICONTROL Unsubscription link]** 프로필 트랜잭션 메시지의 콘텐츠 블록. [콘텐츠 블록 추가](../../designing/using/personalization.md#adding-a-content-block)를 참조하십시오.
 * 프로필 트랜잭션 메시지의 경우 피로도 규칙이 적용됩니다. [피로도 규칙](../../sending/using/fatigue-rules.md)을 참조하십시오.
 
 ### 제품 목록
 
-제품 목록은 트랜잭션 **이메일 메시지**&#x200B;에서만 사용할 수 있습니다. [트랜잭션 메시지에서 제품 목록 사용](../../designing/using/using-product-listings.md)을 참조하십시오.
+제품 목록은 트랜잭션에서 사용할 수 있습니다 **이메일 메시지** 전용. [트랜잭션 메시지에서 제품 목록 사용](../../designing/using/using-product-listings.md)을 참조하십시오.
 
 ## 브랜딩 {#permissions-and-branding}
 

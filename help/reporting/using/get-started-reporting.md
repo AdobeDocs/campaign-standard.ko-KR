@@ -32,11 +32,11 @@ ht-degree: 19%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-동적 보고 **끌어서 놓기 인터페이스**&#x200B;를 사용하면 데이터를 살펴보고 가장 중요한 고객 세그먼트에 대한 이메일 캠페인의 성과를 확인하고 한 위치에서 수신자에게 미치는 영향을 측정할 수 있습니다.
+동적 보고 사용 **끌어서 놓기 인터페이스**, 데이터를 살펴보고 가장 중요한 고객 세그먼트에 대한 이메일 캠페인의 성과를 확인하고 한 곳에서 수신자에게 미치는 영향을 측정할 수 있습니다.
 
-**다양한 기능** 을 통해 동적 보고서를 관리할 수 있습니다. 데이터를 실시간으로 새로 고치거나 보고서를 인쇄하거나 CSV 파일로 내보냅니다. 일회성 또는 반복 이메일을 통해 Campaign Standard 사용자와 보고서를 공유할 수도 있습니다.
+**동적 보고서 관리** 다양한 기능 덕분에: 데이터를 실시간으로 새로 고치거나 보고서를 인쇄하거나 CSV 파일로 내보냅니다. 일회성 또는 반복 이메일을 통해 Campaign Standard 사용자와 보고서를 공유할 수도 있습니다.
 
-자세한 내용:
+자세히 표시:
 
 * [동적 보고서 기본 정보](../../reporting/using/about-dynamic-reports.md)
 * [보고 인터페이스](../../reporting/using/reporting-interface.md)
@@ -45,11 +45,11 @@ ht-degree: 19%
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard은 마케팅 캠페인의 여러 측면을 측정할 수 있도록 해주는 **즉시 사용할 수 있는 동적 보고서 세트**&#x200B;와 함께 제공됩니다. 바운스 수, 스팸 또는 정크 메일로 가장 많이 선언된 게재, 수신자별로 가장 많이 본 게재, 채널 관련 보고서, 게재 처리량 및 추적 보고서...
+Campaign Standard은 **즉시 사용할 수 있는 동적 보고서** 마케팅 캠페인의 여러 측면을 측정할 수 있도록 해줍니다. 바운스 수, 스팸 또는 정크 메일로 가장 많이 선언된 게재, 수신자별로 가장 많이 본 게재, 채널 관련 보고서, 게재 처리량 및 추적 보고서...
 
-**다양한 구성 요소** (차원, 지표 및 세그먼트, 기간)를 조합하여 고유한 보고서를 만들거나 기본 제공 보고서를 개인화합니다.
+**다른 구성 요소 결합** (차원, 지표 및 세그먼트, 기간) 보고서를 직접 만들거나 기본 보고서 개인화할 수 있습니다.
 
-자세한 내용:
+자세히 표시:
 
 * [구성 요소 목록](../../reporting/using/list-of-components-.md)
 * [지표 계산](../../reporting/using/indicator-calculation.md)
@@ -59,13 +59,13 @@ Campaign Standard은 마케팅 캠페인의 여러 측면을 측정할 수 있�
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**동적 보고 디자인** 기능을 활용하여 보고서를 사용자 지정합니다. 사용 가능한 지표 및 차원을 사용하여 데이터를 분석하기 위해 필요한 만큼 구성 요소(패널 및 자유 형식 테이블)를 추가합니다.
+**보고서 사용자 지정** dynamic reporting 디자인 기능을 활용합니다. 사용 가능한 지표 및 차원을 사용하여 데이터를 분석하기 위해 필요한 만큼 구성 요소(패널 및 자유 형식 테이블)를 추가합니다.
 
-**시각화 항목**&#x200B;을 끌어다 놓아 보고서에 데이터의 그래픽 표현을 추가하고 필요에 따라 구성합니다.
+드래그 앤 드롭 **시각화 항목** 데이터에 대한 그래픽 표현을 보고서에 추가하고 필요에 따라 구성합니다.
 
-프로필 리소스 확장 중에 생성된 **사용자 지정 프로필 데이터** 및 타깃팅 워크플로우에 정의된 세그먼트&#x200B;**를 기반으로 보고서를 만듭니다.**
+보고서 만들기 기준 **사용자 지정 프로필 데이터** 프로필 리소스 확장 중에 생성되었으며, **세그먼트 기반 보고서** 타겟팅 워크플로우에 정의됨.
 
-자세한 내용:
+자세히 표시:
 
 * [패널 추가](../../reporting/using/adding-panels.md)
 * [시각화 추가](../../reporting/using/adding-visualizations.md)
@@ -84,4 +84,4 @@ Campaign Standard은 마케팅 캠페인의 여러 측면을 측정할 수 있�
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.
+추가 Campaign Standard 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko).

@@ -33,15 +33,15 @@ Dreamweaver과 Adobe Campaign Standard 통합을 사용하면 Dreamweaver 인터
 
 * **Dreamweaver에서 Campaign 개인화 추가**
 
-   이메일 개발자의 경우 더 이상 `[[FIRSTNAME_PLACEHOLDER]]` 등의 텍스트를 추가할 필요가 없으며 데이터 모델 표의 구문을 조회할 필요가 없습니다. Dreamweaver의 캠페인 도구 모음은 Campaign 인스턴스의 데이터 모델에 직접 연결됩니다. 즉, 이름 과 주소 등 개인화에 필요한 모든 데이터를 가져올 수 있습니다. Campaign 내에서 콘텐츠 블록을 만든 경우 이를 Dreamweaver에 직접 가져올 수도 있습니다.
+   이메일 개발자의 경우 더 이상 다음과 같은 텍스트를 추가할 필요가 없습니다 `[[FIRSTNAME_PLACEHOLDER]]` 또한 데이터 모델 테이블의 구문을 검색할 수도 없습니다. Dreamweaver의 캠페인 도구 모음은 Campaign 인스턴스의 데이터 모델에 직접 연결됩니다. 즉, 이름 과 주소 등 개인화에 필요한 모든 데이터를 가져올 수 있습니다. Campaign 내에서 콘텐츠 블록을 만든 경우 이를 Dreamweaver에 직접 가져올 수도 있습니다.
 
-이 기능은 Dreamweaver 설명서에 자세히 설명되어 있습니다. [여기](https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html)에 액세스할 수 있습니다.
+이 기능은 Dreamweaver 설명서에서 액세스 가능한 세부 사항으로 설명되어 있습니다 [여기](https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
 ## Experience Manager에서 컨텐츠 편집 {#editing-content-in-experience-manager}
 
-이메일 콘텐츠는 Experience Manager에서 편집한 다음 Adobe Campaign Standard에서 한 개 또는 여러 개의 이메일 메시지에 사용할 수 있습니다. [이 문서](../../integrating/using/integrating-with-experience-manager.md)를 참조하십시오.
+이메일 콘텐츠는 Experience Manager에서 편집한 다음 Adobe Campaign Standard에서 한 개 또는 여러 개의 이메일 메시지에 사용할 수 있습니다. 을(를) 참조하십시오. [이 문서](../../integrating/using/integrating-with-experience-manager.md).
 
 ## 제품 목록 {#product-listing}
 
@@ -50,7 +50,7 @@ Dreamweaver과 Adobe Campaign Standard 통합을 사용하면 Dreamweaver 인터
 >title="제품 목록 사용"
 >abstract="제품 목록을 사용하면 데이터 컬렉션을 참조하고 전자 메일 콘텐츠에 표시할 수 있습니다."
 
-제품 목록을 사용하면 이메일 콘텐츠에서 하나 이상의 데이터 컬렉션을 참조할 수 있습니다. 이러한 목록은 트랜잭션 전자 메일에 사용할 수 있습니다. 이 기능에 대한 전용 섹션은 [여기](../../designing/using/using-product-listings.md)에 있습니다.
+제품 목록을 사용하면 이메일 콘텐츠에서 하나 이상의 데이터 컬렉션을 참조할 수 있습니다. 이러한 목록은 트랜잭션 전자 메일에 사용할 수 있습니다. 이 기능에 대한 전용 섹션을 사용할 수 있습니다 [여기](../../designing/using/using-product-listings.md).
 
 ## 이메일 디자인 옵션 비교 {#email-design-options-comparison}
 
@@ -73,14 +73,14 @@ Adobe Campaign에서는 여러 이메일 작성 옵션을 제공합니다. 아�
    <td> 지원됨<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>HTML 쓰기</strong><br /> </td> 
+   <td> <strong>쓰기 HTML</strong><br /> </td> 
    <td> 지원됨<br /> </td> 
    <td> 지원되지 않음<br /> </td> 
    <td> 지원됨<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>HTML 업데이트</strong><br /> </td> 
-   <td> HTML 구성 요소<br /> 내부에만 </td> 
+   <td> HTML 구성 요소 내에서만<br /> </td> 
    <td> 지원되지 않음<br /> </td> 
    <td> 지원됨<br /> </td> 
   </tr> 
@@ -99,8 +99,8 @@ Adobe Campaign에서는 여러 이메일 작성 옵션을 제공합니다. 아�
   <tr> 
    <td> <strong>증명/미리 보기</strong><br /> </td> 
    <td> 지원됨<br /> </td> 
-   <td> AEM<br /> Campaign<br />의 증명 미리 보기 </td> 
-   <td> Campaign<br />의 미리 보기 및 증명 </td> 
+   <td> AEM에서 미리 보기<br /> Campaign의 증명<br /> </td> 
+   <td> Campaign에서 미리 보기 및 증명<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>제품 목록</strong><br /> </td> 
@@ -141,14 +141,14 @@ Adobe Campaign에서는 여러 이메일 작성 옵션을 제공합니다. 아�
   <tr> 
    <td> <strong>대상자</strong><br /> </td> 
    <td> 드래그 앤 드롭 기능과 함께 HTML 구성 요소를 사용할 수 있도록 유연성을 유지하려는 마케터<br /> </td> 
-   <td> 마케터는 개인화<br />이 거의 없는 표준 이메일 템플릿을 사용하려는 Experience Manager을 이미 사용하고 있습니다 </td> 
-   <td> 이메일 콘텐츠를 코딩하고 Adobe Campaign<br />과 직접 통합하려는 개발자 </td> 
+   <td> 마케터는 개인화가 거의 없는 표준 이메일 템플릿을 사용하려는 Experience Manager을 이미 사용하고 있습니다<br /> </td> 
+   <td> 이메일 콘텐츠를 코딩하고 Adobe Campaign과 직접 통합하려는 개발자<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>추가 정보</strong><br /> </td> 
-   <td> <a href="../../designing/using/designing-content-in-adobe-campaign.md">이메일 디자이너 정보</a>.<br /> </td> 
-   <td> <a href="../../integrating/using/integrating-with-experience-manager.md">Experience Manager</a>과 통합 을 참조하십시오.<br /> </td> 
-   <td> <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver 및 Campaign</a>을 보고 이 <a href="#video">video</a>.<br />를 시청하십시오. </td> 
+   <td> 자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">이메일 디자이너 정보</a>.<br /> </td> 
+   <td> 자세한 내용은 <a href="../../integrating/using/integrating-with-experience-manager.md">Experience Manager과 통합</a>.<br /> </td> 
+   <td> 자세한 내용은 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver 및 캠페인</a> 이걸 보고 <a href="#video">비디오</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -159,4 +159,4 @@ Adobe Campaign에서는 여러 이메일 작성 옵션을 제공합니다. 아�
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.
+추가 Campaign Standard 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko).

@@ -33,10 +33,10 @@ ht-degree: 11%
 
 리소스를 만들거나 확장하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**&#x200B;에서 **[!UICONTROL Create]** 버튼을 클릭합니다.
+1. From **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**&#x200B;를 클릭하고 **[!UICONTROL Create]** 버튼을 클릭합니다.
 1. 수행할 작업을 선택합니다.
 
-   * **[!UICONTROL Create a new resource]**: 및  **[!UICONTROL Label]** 필드를  **[!UICONTROL ID]** 입력합니다. **[!UICONTROL ID]** 필드는 필수입니다. 레이블 필드를 비워 두면 ID에서 자동으로 완료됩니다.
+   * **[!UICONTROL Create a new resource]**: 을(를) 입력합니다. **[!UICONTROL Label]** 및 **[!UICONTROL ID]** 필드. **[!UICONTROL ID]** 필드는 필수입니다. 레이블 필드를 비워 두면 ID에서 자동으로 완료됩니다.
 
       ![](assets/schema_extension_2.png)
 
@@ -48,6 +48,6 @@ ht-degree: 11%
 
       ![](assets/schema_extension_10.png)
 
-1. 리소스를 만들려면 **[!UICONTROL Create]** 을(를) 클릭합니다. 그러면 새 리소스의 경우 **[!UICONTROL Draft]** 상태나 확장의 경우 **[!UICONTROL Editing]** 상태가 됩니다.
+1. 클릭 **[!UICONTROL Create]** 리소스를 만들려면 다음을 수행합니다. **[!UICONTROL Draft]** 새 리소스 또는 **[!UICONTROL Editing]** 확장의 경우 상태.
 
-새 리소스가 만들어지고 이제 구성할 수 있습니다. 리소스 구성에 대한 자세한 내용은 [리소스의 데이터 구조 구성](../../developing/using/configuring-the-resource-s-data-structure.md)을 참조하십시오.
+새 리소스가 만들어지고 이제 구성할 수 있습니다. 리소스 구성에 대한 자세한 내용은 [리소스의 데이터 구조 구성](../../developing/using/configuring-the-resource-s-data-structure.md).

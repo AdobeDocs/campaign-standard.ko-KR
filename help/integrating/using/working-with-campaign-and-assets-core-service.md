@@ -19,11 +19,11 @@ ht-degree: 9%
 
 Assets 핵심 서비스 또는 Assets on Demand를 Adobe Campaign과 통합(Adobe Experience Cloud 환경 구성에 따라 다름)하면 Adobe Campaign 이메일 및 랜딩 페이지에서 Adobe Experience Cloud 내에서 공유되는 모든 자산을 사용할 수 있습니다.
 
-자산 핵심 서비스와의 통합이 [기능 관리자](../../administration/using/users-management.md#functional-administrators)로 제한됩니다.
+자산 핵심 서비스와의 통합이 다음으로 제한됩니다 [기능 관리자](../../administration/using/users-management.md#functional-administrators).
 
 Adobe Experience Cloud에서 공유한 리소스는 다음과 같이 이메일 및 랜딩 페이지에서 사용할 수 있습니다.
 
-1. 전자 메일 또는 랜딩 페이지의 콘텐츠를 편집할 때 이미지 블록으로 이동한 다음 상황별 메뉴를 통해 **[!UICONTROL Image shared from Adobe Experience Cloud]** 을(를) 선택합니다.
+1. 전자 메일 또는 랜딩 페이지의 콘텐츠를 편집할 때 이미지 블록으로 이동한 다음, 을 선택합니다 **[!UICONTROL Image shared from Adobe Experience Cloud]** 상황별 메뉴를 통해
 
    ![](assets/dam_insert_image_dce.png)
 

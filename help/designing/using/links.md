@@ -19,15 +19,15 @@ ht-degree: 2%
 
 ## 링크 삽입 {#inserting-a-link}
 
-편집기를 사용하면 HTML 콘텐츠 요소에 링크를 삽입하여 이메일 또는 랜딩 페이지를 개인화할 수 있습니다.
+편집기를 사용하면 HTML 컨텐츠 요소에 링크를 삽입하여 이메일 또는 랜딩 페이지를 개인화할 수 있습니다.
 
 링크를 임의의 페이지 요소에 삽입할 수 있습니다. 이미지, 단어, 단어 그룹, 텍스트 블록 등
 
 >[!NOTE]
 >
->아래 이미지는 이메일에서 [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md)를 사용하여 링크를 삽입하는 방법을 보여줍니다.
+>아래 이미지는 [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md) 이메일.
 
-1. 요소를 선택하고 상황별 도구 모음에서 **[!UICONTROL Insert link]** 를 클릭합니다.
+1. 요소를 선택하고 를 클릭합니다 **[!UICONTROL Insert link]** 상황별 도구 모음
 
    ![](assets/des_insert_link.png)
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 
    * **외부 링크**: 외부 URL에 대한 링크를 삽입합니다.
 
-      URL에 대한 개인화를 정의할 수 있습니다. [URL 개인화](../../designing/using/using-reusable-content.md#creating-a-content-fragment)를 참조하십시오.
+      URL에 대한 개인화를 정의할 수 있습니다. 자세한 내용은 [URL 개인화](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
    * **랜딩 페이지**: Adobe Campaign 랜딩 페이지에 대한 액세스 권한을 제공합니다.
    * **구독 링크**: Adobe Campaign 서비스에 가입할 링크를 삽입합니다.
@@ -59,13 +59,13 @@ ht-degree: 2%
 
 ![](assets/des_link_edit.png)
 
-[이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md)로 이메일을 편집할 때 이메일에 포함된 모든 URL을 나열하는 테이블에서 만든 링크에 쉽게 액세스하고 수정할 수 있습니다. 이 목록을 사용하면 중앙 집중식 보기를 사용하고 이메일 콘텐츠에서 각 URL을 찾을 수 있습니다. 액세스하려면 [추적된 URL 정보](#about-tracked-urls)를 참조하십시오.
+을(를) 사용하여 이메일을 편집할 때 [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md)를 채울 경우 이메일에 포함된 모든 URL을 나열하는 테이블에서 만든 링크에 쉽게 액세스하고 수정할 수 있습니다. 이 목록을 사용하면 중앙 집중식 보기를 사용하고 이메일 콘텐츠에서 각 URL을 찾을 수 있습니다. 액세스하려면 다음을 참조하십시오 [추적된 URL 정보](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->**미러 페이지 URL** 또는 **구독 취소** 링크와 같은 개인화된 URL은 이 목록에서 수정할 수 없습니다. 다른 모든 링크는 편집할 수 있습니다.
+>과 같은 개인화된 URL **미러 페이지 URL** 또는 **구독 취소** 이 목록에서 링크를 수정할 수 없습니다. 다른 모든 링크는 편집할 수 있습니다.
 
 **관련 항목**:
 
@@ -77,13 +77,13 @@ ht-degree: 2%
 
 Adobe Campaign을 사용하면 수신자가 이메일에 포함된 URL을 클릭할 때 받는 사람의 동작을 추적할 수 있습니다. 추적에 대한 자세한 내용은 [이 섹션](../../sending/using/tracking-messages.md#about-tracking)을 참조하십시오.
 
-작업 표시줄의 **[!UICONTROL Links]** 아이콘은 추적할 컨텐츠의 모든 URL 목록을 자동으로 표시합니다.
+다음 **[!UICONTROL Links]** 작업 표시줄의 아이콘은 추적할 컨텐츠의 모든 URL 목록을 자동으로 표시합니다.
 
 ![](assets/des_links.png)
 
 >[!NOTE]
 >
->추적은 기본적으로 활성화됩니다. 이 기능은 Adobe Campaign에서 추적이 활성화된 경우 이메일에만 사용할 수 있습니다. 추적 매개 변수에 대한 자세한 정보는 [이 섹션](../../administration/using/configuring-email-channel.md#tracking-parameters)을 참조하십시오.
+>추적은 기본적으로 활성화됩니다. 이 기능은 Adobe Campaign에서 추적이 활성화된 경우 이메일에만 사용할 수 있습니다. 추적 매개 변수에 대한 자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 이 목록에서 각 링크의 URL, 카테고리, 레이블 및 추적 유형을 수정할 수 있습니다. 링크를 편집하려면 해당 연필 아이콘을 클릭합니다.
 
@@ -93,7 +93,7 @@ Adobe Campaign을 사용하면 수신자가 이메일에 포함된 URL을 클릭
 
 * **추적됨**: 이 URL에서 추적을 활성화합니다.
 * **미러 페이지**: 는 이 URL이 미러 페이지 URL인 것으로 간주합니다.
-* **절대** 안 함: 이 URL의 추적을 활성화하지 않습니다. 이 정보는 저장됩니다. URL이 향후 메시지에 다시 표시되면 해당 추적은 자동으로 비활성화됩니다.
+* **절대 안 함**: 이 URL의 추적을 활성화하지 않습니다. 이 정보는 저장됩니다. url이 향후 메시지에 다시 표시되면 해당 추적은 자동으로 비활성화됩니다.
 * **옵트아웃**: 은 이 URL을 옵트아웃 또는 구독 취소 URL로 간주합니다.
 
 ![](assets/des_link_tracking_type.png)
@@ -102,14 +102,14 @@ Adobe Campaign을 사용하면 수신자가 이메일에 포함된 URL을 클릭
 
 >[!NOTE]
 >
->기본적으로 Adobe Campaign에서는 **미러 페이지 URL** 및 **구독 취소** 링크를 제외한 모든 컨텐츠 URL이 추적됩니다.
+>기본적으로 Adobe Campaign에서 를 제외한 모든 컨텐츠 URL이 추적됩니다 **미러 페이지 URL** 및 **구독 취소** 링크를 클릭합니다.
 
-메시지에 사용된 URL에 따라 **[!UICONTROL Category]** 필드를 편집하여 URL을 다시 그룹화할 수 있습니다. 이러한 카테고리는 [URL에서와 같이 보고서를 표시하고 streams](../../reporting/using/urls-and-click-streams.md)를 클릭할 수 있습니다.
+를 편집하여 URL을 다시 그룹화할 수 있습니다 **[!UICONTROL Category]** 필드에 입력할 수 있습니다. 이러한 카테고리는 다음과 같이 보고서를 표시할 수 있습니다 [URL 및 클릭 스트림](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-보고서를 작성할 때 **[!UICONTROL Components]** 탭에서 **[!UICONTROL Dimension]** 을 선택하고 목록 아래로 스크롤하여 추적 구성 요소에 액세스합니다. 예를 들어 **[!UICONTROL Tracking URL Category]** 을 작업 공간으로 끌어다 놓아 클릭한 각 URL의 추적 카테고리에 따라 결과를 표시합니다.
+보고서를 작성할 때, **[!UICONTROL Components]** 탭, 선택 **[!UICONTROL Dimension]** 및 목록 아래로 스크롤하여 추적 구성 요소에 액세스합니다. 예를 들어 끌어서 놓습니다 **[!UICONTROL Tracking URL Category]** 를 작업 공간으로 가져온 후 클릭한 각 URL의 추적 카테고리에 따라 결과를 표시합니다.
 
 ![](assets/des_link_tracking_report.png)
 
-사용자 지정 보고서 작성에 대한 자세한 내용은 [이 섹션](../../reporting/using/about-dynamic-reports.md)을 참조하십시오.
+사용자 지정 보고서 작성에 대한 자세한 내용은 [이 섹션](../../reporting/using/about-dynamic-reports.md).

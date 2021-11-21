@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # 지리 단위 특성 업데이트 {#managing-geographical-units}
 
-1. **geoUnitBase** 리소스에 대해 GET 요청을 수행하여 지리 단위 PKey를 검색합니다.
+1. 에서 GET 요청을 수행합니다. **geoUnitBase** 지리 단위 PKey를 검색할 리소스
 1. 페이로드에서 업데이트할 특성을 사용하여 지리 단위에 대한 PATCH 요청을 수행합니다.
 
 <br/>

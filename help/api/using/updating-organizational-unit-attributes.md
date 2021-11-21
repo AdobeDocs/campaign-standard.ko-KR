@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # 조직 단위 특성 업데이트 {#updating-organizational-unit-attributes}
 
-1. **orgUnitBase** 리소스에서 GET 요청을 수행하여 조직 단위 PKey를 검색합니다.
+1. 에서 GET 요청을 수행합니다. **orgUnitBase** 조직 단위 PKey를 검색하는 리소스입니다.
 1. 페이로드에서 업데이트할 특성을 사용하여 조직 단위에 대한 PATCH 요청을 수행합니다.
 
 <br/>

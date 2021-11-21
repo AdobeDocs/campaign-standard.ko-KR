@@ -17,13 +17,13 @@ ht-degree: 4%
 
 # 프로필 업데이트 {#updating-profiles}
 
-프로필 업데이트는 **PATCH** 요청으로 수행됩니다.
+프로필 업데이트는 **PATCH** 요청.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 첫 번째 단계는 **프로필 검색**&#x200B;입니다.
+1. 첫 번째 단계는 다음과 같습니다. **프로파일 검색**.
 
-1. 두 번째 요청에서 페이로드의 완료된 정보와 함께 프로필에서 **PATCH 요청**&#x200B;을 수행합니다.
+1. 두 번째 요청에서 **PATCH 요청** 를 입력합니다.
 
 1. PATCH 요청이 프로필을 업데이트했는지 확인하기 위해 최종 GET 요청을 수행할 수 있습니다.
 

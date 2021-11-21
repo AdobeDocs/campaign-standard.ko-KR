@@ -18,14 +18,14 @@ ht-degree: 1%
 # 이메일 스타일 관리 {#managing-styles}
 
 
-이메일 디자이너에서 요소를 선택할 때 선택한 컨텐츠의 유형에 대한 몇 가지 옵션이 **[!UICONTROL Settings]** 창에 표시됩니다. 이러한 옵션을 사용하여 전자 메일 스타일을 쉽게 변경할 수 있습니다.
+이메일 디자이너에서 요소를 선택할 때 선택한 컨텐츠 유형에 대한 몇 가지 옵션이 **[!UICONTROL Settings]** 창 이러한 옵션을 사용하여 전자 메일 스타일을 쉽게 변경할 수 있습니다.
 
 ## 요소 선택 {#selecting-an-element}
 
 이메일 디자이너 인터페이스에서 요소를 선택하려면 다음 중 하나를 수행할 수 있습니다.
 
 * 이메일에서 바로 를 클릭하고
-* 또는 왼쪽 **팔레트**&#x200B;에 있는 옵션에서 사용할 수 있는 구조 트리를 찾아봅니다.
+* 또는 왼쪽의 옵션에서 사용할 수 있는 구조 트리를 찾아봅니다 **팔레트**.
 
 ![](assets/des_tree_structure.png)
 
@@ -39,19 +39,19 @@ ht-degree: 1%
 
 열을 선택하려면 다음을 수행할 수도 있습니다.
 
-1. 구조 구성 요소를 선택합니다(이메일에서 직접 또는 왼쪽 **팔레트**&#x200B;에서 사용할 수 있는 구조 트리를 사용하여).
-1. **상황별 도구 모음**&#x200B;에서 **[!UICONTROL Select a column]**&#x200B;를 클릭하여 원하는 열을 선택합니다.
+1. 구조 구성 요소(이메일에서 직접 또는 왼쪽에서 사용할 수 있는 구조 트리를 사용하여)를 선택합니다 **팔레트**).
+1. 에서 **상황별 도구 모음**&#x200B;를 클릭합니다. **[!UICONTROL Select a column]** 원하는 열을 선택하려면 다음을 수행하십시오.
 
-[이 섹션](#example--adjusting-vertical-alignment-and-padding)에서 예제를 참조하십시오.
+의 예를 참조하십시오. [이 섹션](#example--adjusting-vertical-alignment-and-padding).
 
 ## 스타일 설정 조정 {#adjusting-style-settings}
 
-1. 이메일에서 요소를 선택합니다. 자세한 내용은 [요소 선택](#selecting-an-element)을 참조하십시오.
+1. 이메일에서 요소를 선택합니다. 자세한 내용은 [요소 선택](#selecting-an-element).
 1. 필요에 따라 설정을 조정합니다. 선택한 각 요소는 다른 설정 세트를 제공합니다.
 
-   배경 삽입, 크기 변경, 가로 또는 세로 정렬 수정, 색상 관리, [패딩 또는 여백](#selecting-an-element) 추가 등을 수행할 수 있습니다.
+   배경 삽입, 크기 변경, 가로 또는 세로 정렬 수정, 색상 관리, 추가 [안쪽 여백 또는 여백](#selecting-an-element)등
 
-   이렇게 하려면 **[!UICONTROL Settings]** 창 또는 [인라인 스타일 속성](#adding-inline-styling-attributes)에 표시되는 옵션을 사용합니다.
+   이렇게 하려면 **[!UICONTROL Settings]** 창 또는 [인라인 스타일 속성 추가](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -68,8 +68,8 @@ ht-degree: 1%
 예제:
 
 * 패딩을 사용하여 이미지의 왼쪽 및 오른쪽 측면에 여백을 설정합니다.
-* **[!UICONTROL Text]** 또는 **[!UICONTROL Divider]** 구성 요소에 간격을 더 추가하려면 위쪽 및 아래쪽 패딩을 사용하십시오.
-* 구조 요소 내의 열 사이의 테두리를 설정하려면 각 열에 대한 패딩을 정의합니다.
+* 위쪽 및 아래쪽 패딩을 사용하여 **[!UICONTROL Text]** 또는 **[!UICONTROL Divider]** 구성 요소.
+* 구조 요소 내의 열 사이에 테두리를 설정하려면 각 열에 대한 패딩을 정의합니다.
 
 **[!UICONTROL Margin]**: 이 설정을 사용하면 요소의 테두리와 다음 요소 사이의 공간을 관리할 수 있습니다.
 
@@ -77,9 +77,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->선택 항목(구조 구성 요소, 열 또는 컨텐츠 구성 요소)에 따라 결과는 동일하지 않습니다. Adobe은 열 수준에서 **[!UICONTROL Padding]** 및 **[!UICONTROL Margin]** 매개 변수를 설정하는 것이 좋습니다.
+>선택 항목(구조 구성 요소, 열 또는 컨텐츠 구성 요소)에 따라 결과는 동일하지 않습니다. Adobe은 **[!UICONTROL Padding]** 및 **[!UICONTROL Margin]** 매개 변수를 열 수준에서 지정합니다.
 
-**[!UICONTROL Padding]** 및 **[!UICONTROL Margin]** 모두에 대해 잠금 아이콘을 클릭하여 위쪽 및 아래쪽, 오른쪽 또는 왼쪽 매개 변수 간의 동기화를 중단합니다. 이렇게 하면 각 매개 변수를 별도로 조정할 수 있습니다.
+두 가지 모두에 대해 **[!UICONTROL Padding]** 및 **[!UICONTROL Margin]**&#x200B;를 클릭하고 잠금 아이콘을 클릭하여 맨 위와 맨 아래 또는 오른쪽 및 왼쪽 매개 변수 간의 동기화를 중단합니다. 이렇게 하면 각 매개 변수를 별도로 조정할 수 있습니다.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -89,11 +89,11 @@ ht-degree: 1%
 
    ![](assets/des_text_alignment.png)
 
-* **가로** 맞춤은 텍스트, 이미지 및 단추에 적용할 수 있으며 현재  **[!UICONTROL Divider]** 및  **[!UICONTROL Social]** 구성 요소에는 적용되지 않습니다.
+* **가로 정렬** 텍스트, 이미지 및 단추에 적용할 수 있습니다. 현재는 **[!UICONTROL Divider]** 및 **[!UICONTROL Social]** 구성 요소.
 
    ![](assets/des_horizontal_alignment.png)
 
-* **세로 정렬**&#x200B;을 설정하려면 구조 구성 요소 내의 열을 선택하고 설정 창에서 옵션을 선택합니다.
+* 설정하려면 **세로 정렬**&#x200B;구조 구성 요소 내에서 열을 선택하고 설정 창에서 옵션을 선택합니다.
 
    ![](assets/des_set_vertical_alignment.png)
 
@@ -113,11 +113,11 @@ ht-degree: 1%
 
 다음은 사용할 수 있는 배경 설정입니다.
 
-* 전체 이메일에 대해 **[!UICONTROL Background color]** 을 설정합니다. 왼쪽 팔레트에서 액세스할 수 있는 탐색 트리에서 본문 설정을 선택해야 합니다.
+* 설정 **[!UICONTROL Background color]** 전체 이메일. 왼쪽 팔레트에서 액세스할 수 있는 탐색 트리에서 본문 설정을 선택해야 합니다.
 
    ![](assets/des_background_body.png)
 
-* **[!UICONTROL Viewport background color]** 을 선택하여 모든 구조 구성 요소에 대해 동일한 배경색을 설정하십시오. 이 옵션을 사용하면 배경색에서 다른 설정을 선택할 수 있습니다.
+* 모든 구조 구성 요소에 대해 동일한 배경색을 선택하고 **[!UICONTROL Viewport background color]**. 이 옵션을 사용하면 배경색에서 다른 설정을 선택할 수 있습니다.
 
    ![](assets/des_background_viewport.png)
 
@@ -127,7 +127,7 @@ ht-degree: 1%
 
    구조 배경색을 숨길 수 있으므로 뷰포트 배경색을 설정하지 마십시오.
 
-* 구조 구성 요소의 콘텐츠에 대해 **[!UICONTROL Background image]** 을 설정합니다.
+* 설정 **[!UICONTROL Background image]** 구조 구성 요소의 컨텐츠에 대해 설명합니다.
 
    ![](assets/des_background_image.png)
 
@@ -149,20 +149,20 @@ ht-degree: 1%
 
 3개의 열로 구성된 구조 구성 요소 내에서 패딩 및 세로 정렬을 조정하려고 합니다. 이렇게 하려면 아래 단계를 수행합니다:
 
-1. 이메일에서 직접 또는 왼쪽 **팔레트**&#x200B;에서 사용할 수 있는 구조 트리를 사용하여 구조 구성 요소를 선택합니다.
-1. **상황별 도구 모음**&#x200B;에서 **[!UICONTROL Select a column]**&#x200B;를 클릭하고 편집할 도구 모음을 선택합니다. 구조 트리에서 선택할 수도 있습니다.
+1. 이메일에서 직접 또는 왼쪽에서 사용할 수 있는 구조 트리를 사용하여 구조 구성 요소를 선택합니다 **팔레트**.
+1. 에서 **상황별 도구 모음**&#x200B;를 클릭합니다. **[!UICONTROL Select a column]** 편집할 항목을 선택합니다. 구조 트리에서 선택할 수도 있습니다.
 
    ![](assets/des_selecting_column.png)
 
-   해당 열에 대한 편집 가능한 매개 변수가 오른쪽의 **[!UICONTROL Settings]** 창에 표시됩니다.
+   해당 열의 편집 가능한 매개 변수는 **[!UICONTROL Settings]** 오른쪽 창입니다.
 
-1. **[!UICONTROL Vertical alignment]** 아래에서 **[!UICONTROL Up]** 을 선택합니다.
+1. 아래 **[!UICONTROL Vertical alignment]**, 선택 **[!UICONTROL Up]**.
 
    ![](assets/des_vertical_alignment.png)
 
    컨텐츠 구성 요소가 열 맨 위에 표시됩니다.
 
-1. **[!UICONTROL Padding]** 아래에서 열 내의 위쪽 패딩을 정의합니다. 잠금 아이콘을 클릭하여 아래쪽 패딩과의 동기화를 중단합니다.
+1. 아래 **[!UICONTROL Padding]**&#x200B;를 사용하여 열 내의 위쪽 패딩을 정의합니다. 잠금 아이콘을 클릭하여 아래쪽 패딩과의 동기화를 중단합니다.
 
    해당 열에 대한 왼쪽 및 오른쪽 패딩을 정의합니다.
 
@@ -180,15 +180,15 @@ ht-degree: 1%
 
 1. 링크가 삽입되는 구성 요소에서 링크의 레이블 텍스트를 선택합니다.
 
-1. 구성 요소 설정에서 **[!UICONTROL Underline link]** 을 선택하여 링크의 레이블 텍스트에 밑줄을 지정합니다.
+1. 구성 요소 설정에서 을 확인합니다. **[!UICONTROL Underline link]** 링크의 레이블 텍스트에 밑줄을 긋습니다.
 
    ![](assets/stylelinks-selecttext.png)
 
-1. 링크를 열 검색 컨텍스트를 선택하려면 **[!UICONTROL Target]**&#x200B;을 선택합니다.
+1. 링크를 열 검색 컨텍스트를 선택하려면 **[!UICONTROL Target]**.
 
    ![](assets/stylelinks-target.png)
 
-1. 링크의 색상을 변경하려면 **[!UICONTROL Link color]**&#x200B;을(를) 클릭합니다.
+1. 링크 색상을 변경하려면 **[!UICONTROL Link color]**.
 
    ![](assets/stylelinks-colorpicker.png)
 
@@ -203,10 +203,10 @@ ht-degree: 1%
 이메일 디자이너 인터페이스에서 요소를 선택하고 사이드 패널에 해당 설정을 표시하는 경우 해당 특정 요소의 인라인 속성과 해당 값을 사용자 지정할 수 있습니다.
 
 1. 콘텐츠에서 요소를 선택합니다.
-1. 사이드 패널에서 **[!UICONTROL Styles Inline]** 설정을 찾습니다.
+1. 사이드 패널에서 **[!UICONTROL Styles Inline]** 설정.
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. 기존 특성의 값을 수정하거나 **+** 단추를 사용하여 새 특성을 추가합니다. CSS를 준수하는 모든 속성과 값을 추가할 수 있습니다.
+1. 기존 속성의 값을 수정하거나 **+** 버튼을 클릭합니다. CSS를 준수하는 모든 속성과 값을 추가할 수 있습니다.
 
 그러면 선택한 요소에 스타일이 적용됩니다. 하위 요소에 특정 스타일 속성이 정의되어 있지 않으면 상위 요소의 스타일이 상속됩니다.

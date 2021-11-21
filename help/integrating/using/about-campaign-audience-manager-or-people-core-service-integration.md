@@ -21,10 +21,10 @@ ht-degree: 7%
 >
 >교환된 데이터에 따라 Adobe Campaign에서 대상을 가져오는 것은 법적 제한을 받을 수 있습니다.
 
-Adobe Campaign을 사용하면 다양한 Adobe Experience Cloud 애플리케이션과 대상/세그먼트를 교환하고 공유할 수 있습니다. **Adobe Campaign**&#x200B;과 **People 핵심 서비스**(**Profiles &amp; Audiences 핵심 서비스**&#x200B;라고도 함)를 통합하거나 Adobe Audience Manager을 사용하면 다음 작업을 수행할 수 있습니다.
+Adobe Campaign을 사용하면 다양한 Adobe Experience Cloud 애플리케이션과 대상/세그먼트를 교환하고 공유할 수 있습니다. 통합 **Adobe Campaign** with **사용자 핵심 서비스** ( **프로필 및 대상 핵심 서비스**) 또는 Adobe Audience Manager을 통해 다음을 수행할 수 있습니다.
 
-* 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign에 가져올 수 있습니다. Adobe Campaign의 **[!UICONTROL Audiences]** 메뉴에서 대상을 가져올 수 있습니다.
-* 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상은 사용하는 다양한 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. 워크플로우에서 **[!UICONTROL Save audience]** 활동을 타깃팅한 후 대상을 내보낼 수 있습니다.
+* 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign에 가져올 수 있습니다. 대상을 **[!UICONTROL Audiences]** 메뉴의 Adobe Campaign.
+* 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상은 사용하는 다양한 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. 워크플로우에서 타겟팅 활동을 수행한 후, **[!UICONTROL Save audience]** 활동.
 
 통합은 다음과 같은 두 가지 유형의 Adobe Experience Cloud ID를 지원합니다.
 

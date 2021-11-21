@@ -82,7 +82,7 @@ ht-degree: 64%
 
 일시적인 오류로 인해 메시지가 실패하면 게재 기간 동안 다시 시도됩니다. 오류 유형에 대한 자세한 내용은 [게재 실패 유형 및 이유](#delivery-failure-types-and-reasons)를 참조하십시오.
 
-다시 시도 횟수(전송을 시작한 다음 날에 수행되어야 하는 다시 시도 횟수) 및 다시 시도 사이의 최소 지연은 IP가 주어진 도메인에서 과거 및 현재 얼마나 성과가 있는지 기준으로<!--managed by the Adobe Campaign Enhanced MTA,-->입니다. Campaign의 **다시 시도** 설정은 무시됩니다.
+다시 시도 횟수(전송을 시작한 다음 날에 수행되어야 하는 다시 시도 횟수) 및 다시 시도 사이의 최소 지연이 발생합니다<!--managed by the Adobe Campaign Enhanced MTA,--> 은 IP가 과거 및 현재 지정된 도메인에서 얼마나 잘 수행하고 있는지를 기준으로 합니다. Campaign의 **다시 시도** 설정은 무시됩니다.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ ht-degree: 64%
 >
 >**이제 Campaign 게재의&#x200B;**[!UICONTROL Delivery duration]**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
-예를 들어 게재를 위한 다시 시도가 1일 후 중단되도록 하려면 게재 기간을 **1d**&#x200B;로 설정할 수 있고 다시 시도 큐의 메시지는 1일 후 제거됩니다.
+예를 들어 게재를 위한 다시 시도가 1일 후 중단되도록 하려면 게재 기간을 로 설정할 수 있습니다. **1d**, 그리고 다시 시도 큐의 메시지는 1일 후 제거됩니다.
 
 >[!NOTE]
 >
->메시지가 최대 3.5일 동안 다시 시도 큐에 있고 게재에 실패하면 시간이 초과되고 [게재 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs)에서 해당 상태가 <!--from **[!UICONTROL Sent]**-->으로 업데이트됩니다.**[!UICONTROL Failed]**
+>메시지가 최대 3.5일 동안 다시 시도 큐에 있고 게재에 실패하면 시간이 초과되고 상태가 업데이트됩니다<!--from **[!UICONTROL Sent]**--> to **[!UICONTROL Failed]** 에서 [게재 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 >Campaign **[!UICONTROL Message qualification]** 테이블의 반송 조건은 더 이상 사용되지 않습니다.
 
-비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 왼쪽 상단에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;을(를) 선택하고 **[!UICONTROL Bounce mails]**&#x200B;을(를) 선택합니다. 이 규칙에 대한 자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#email-processing-rules)을 참조하십시오.
+비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 **Adobe** 로고, 왼쪽 상단에서, **[!UICONTROL Administration > Channels > Email > Email processing rules]** 을(를) 선택합니다. **[!UICONTROL Bounce mails]**. 이 규칙에 대한 자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-바운스 수 및 다른 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)을 참조하십시오.
+바운스 수 및 다양한 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

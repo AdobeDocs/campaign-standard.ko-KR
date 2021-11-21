@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # 프로필의 지리 단위 업데이트 {#updating-a-geographical-unit}
 
-1. **geoUnitBase** 리소스에 대해 GET 요청을 수행하여 지리 단위 PKey를 검색합니다.
+1. 에서 GET 요청을 수행합니다. **geoUnitBase** 지리 단위 PKey를 검색할 리소스
 1. 페이로드에서 원하는 지리 단위 PKey를 사용하여 프로필 PKey에 PATCH 요청을 수행합니다.
 
 <br/>

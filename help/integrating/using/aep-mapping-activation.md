@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Adobe Experience Platform Data Connector는 현재 베타 버전으로, 예고 없이 자주 업데이트될 수 있습니다. 고객은 이러한 기능에 액세스하려면 Azure에서 호스팅(현재 북미 전용 베타 버전)해야 합니다. 액세스하려면 고객 지원 센터에 문의하십시오.
 
-매핑 정의가 완료되면 매핑을 게시할 수 있습니다. 배포 단계 후에 Campaign Standard과 Adobe Experience Platform 간의 데이터 복제가 자동으로 시작됩니다. 언제든지 **[!UICONTROL Stop]** 버튼을 클릭하여 복제를 중지할 수 있습니다.
+매핑 정의가 완료되면 매핑을 게시할 수 있습니다. 배포 단계 후에 Campaign Standard과 Adobe Experience Platform 간의 데이터 복제가 자동으로 시작됩니다. 언제든지 **[!UICONTROL Stop]** 버튼을 클릭합니다.
 
 매핑 수정 사항에 따라 모든 레코드를 Adobe Experience Platform에 재전송하도록 선택할 수 있습니다.
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 ![](assets/aep_publog.png)
 
-**[!UICONTROL Export jobs]** 탭에서 게시된 매핑에 대한 내보내기 작업을 모니터링할 수 있습니다.
+에서 **[!UICONTROL Export jobs]** 탭에서 게시된 매핑에 대한 내보내기 작업을 모니터링할 수 있습니다.
 
 ![](assets/aep_jobstatus.png)
 
-모든 데이터 내보내기 작업을 모니터링하려면 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 메뉴로 이동합니다.
+모든 데이터 내보내기 작업을 모니터링하려면 다음 위치로 이동하십시오. **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 ![](assets/aep_statusmapping.png)
 
@@ -58,7 +58,7 @@ XDM 스키마를 업데이트하려면 다음 단계를 따르십시오.
 
 1. XDM 스키마로 이동합니다.
 
-1. 스키마에 **[!UICONTROL Profile Privacy]** mixin을 추가합니다.
+1. 추가 **[!UICONTROL Profile Privacy]** 스키마에 혼합합니다.
 
    ![](assets/aep_datamapping_privacyfield.png)
 

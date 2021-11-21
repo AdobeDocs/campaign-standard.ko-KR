@@ -34,7 +34,7 @@ Adobe Campaign에서 사용하는 데이터는 다양한 리소스를 통해 정
 
 >[!NOTE]
 >
->이 페이지](../../developing/using/datamodel-introduction.md)에서 기본 제공 리소스에 대한 데이터 모델 표시를 확인할 수 있습니다.[
+>기본 제공 리소스에 대한 데이터 모델 표시를 확인할 수 있습니다 [이 페이지](../../developing/using/datamodel-introduction.md).
 
 또한 만든 리소스에 해당하는 화면에서 [내비게이션을 구성](configuring-the-screen-definition.md)할 수도 있습니다.
 
@@ -42,4 +42,4 @@ Adobe Campaign에서 사용하는 데이터는 다양한 리소스를 통해 정
 
 >[!CAUTION]
 >
->**[!UICONTROL Administration]** 역할과 **에 대한 액세스 권한이 있는 [관리자](../../administration/using/users-management.md#functional-administrators)만 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다.** 관리자가 아닌 사용자는 이러한 로그를 타겟팅할 수 있지만 연결된 테이블(프로필, 게재)부터 시작합니다.
+>기능만 [관리자](../../administration/using/users-management.md#functional-administrators), 사용 **[!UICONTROL Administration]** 역할 및 액세스 **모두** 단위가 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타겟팅할 수 있지만 연결된 테이블(프로필, 게재)부터 시작합니다.

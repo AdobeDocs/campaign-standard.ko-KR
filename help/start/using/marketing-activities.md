@@ -81,14 +81,14 @@ ht-degree: 83%
 
 컨텍스트에 따라 다음을 수행할 수 있습니다.
 
-* 이메일 만들기 - [자세히 알아보기](../../channels/using/creating-an-email.md)
-* SMS 만들기 - [자세히 알아보기](../../channels/using/creating-an-sms-message.md)
-* 푸시 알림 만들기 - [자세히 알아보기](../../channels/using/preparing-and-sending-a-push-notification.md)
-* 인앱 메시지 만들기 - [자세히 알아보기](../../channels/using/about-in-app-messaging.md)
-* 워크플로우 만들기 - [자세히 알아보기](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* 랜딩 페이지 만들기 - [자세히 알아보기](../../channels/using/getting-started-with-landing-pages.md)
-* 캠페인 만들기 - [자세히 알아보기](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* 프로그램 만들기 - [자세히 알아보기](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 이메일 만들기 - [추가 정보](../../channels/using/creating-an-email.md)
+* SMS 만들기 - [추가 정보](../../channels/using/creating-an-sms-message.md)
+* 푸시 알림 만들기 - [추가 정보](../../channels/using/preparing-and-sending-a-push-notification.md)
+* 인앱 메시지 만들기 - [추가 정보](../../channels/using/about-in-app-messaging.md)
+* 워크플로우 만들기 - [추가 정보](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* 랜딩 페이지 만들기 - [추가 정보](../../channels/using/getting-started-with-landing-pages.md)
+* 캠페인 만들기 - [추가 정보](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* 프로그램 만들기 - [추가 정보](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >

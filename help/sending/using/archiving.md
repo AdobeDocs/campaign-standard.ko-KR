@@ -21,7 +21,7 @@ ht-degree: 5%
 
 특히 조직에서 모든 아웃바운드 이메일 메시지를 규정 준수에 대해 보관해야 하는 경우 이 기능을 활성화할 수 있습니다. 이를 통해 지정해야 하는 BCC 이메일 주소(게재 수신자에게 보이지 않음)로 해당 보낸 메시지의 정확한 숨겨진 사본을 보낼 수 있습니다.
 
-사용하도록 설정하면 전자 메일 게재 템플릿의 **[!UICONTROL Archive emails]** 옵션에서 전자 메일 BCC를 활성화해야 합니다.
+사용하도록 설정하면 **[!UICONTROL Archive emails]** 이메일 게재 템플릿의 옵션입니다.
 
 >[!NOTE]
 >
@@ -42,17 +42,17 @@ ht-degree: 5%
 
 ## 전자 메일 보관 활성화 {#activating-email-archiving}
 
-활성화되면 전용 옵션을 통해 [이메일 템플릿](../../start/using/marketing-activity-templates.md)에서 이메일 BCC가 활성화됩니다.
+활성화되면에서 이메일 BCC가 활성화됩니다 [이메일 템플릿](../../start/using/marketing-activity-templates.md)전용 옵션을 통해:
 
-1. **리소스** > **템플릿** > **게재 템플릿**&#x200B;으로 이동합니다.
-1. 즉시 사용 가능한 **[!UICONTROL Send via email]** 템플릿을 복제합니다.
+1. 이동 **리소스** > **템플릿** > **게재 템플릿**.
+1. 기본 제공 복제 **[!UICONTROL Send via email]** 템플릿.
 1. 복제한 템플릿을 선택합니다.
-1. 템플릿의 속성을 편집하려면 **[!UICONTROL Edit properties]** 버튼을 클릭합니다.
-1. **[!UICONTROL Send]** 섹션을 확장합니다.
-1. 이 템플릿을 기반으로 각 게재에 대해 보낸 모든 메시지 사본을 유지하려면 **[!UICONTROL Archive emails]** 상자를 선택합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Edit properties]** 템플릿의 속성을 편집하는 단추입니다.
+1. 를 확장합니다. **[!UICONTROL Send]** 섹션을 참조하십시오.
+1. 을(를) 확인합니다. **[!UICONTROL Archive emails]** 이 상자를 사용하여 이 템플릿을 기반으로 각 게재에 대해 전송된 모든 메시지의 사본을 유지합니다.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->BCC 주소로 전송된 이메일이 열려 클릭스루되는 경우 전송 분석에서 **[!UICONTROL Total opens]** 및 **[!UICONTROL Clicks]**&#x200B;에 고려되므로 계산 오류가 발생할 수 있습니다.
+>BCC 주소로 전송된 이메일을 열고 클릭스루하는 경우 **[!UICONTROL Total opens]** 및 **[!UICONTROL Clicks]** send analysis에서 계산되지 않을 수 있습니다.

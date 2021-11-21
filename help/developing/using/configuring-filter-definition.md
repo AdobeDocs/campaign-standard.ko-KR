@@ -85,4 +85,4 @@ ht-degree: 95%
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-자세한 내용은 [Campaign Standard API 설명서](../../api/using/filtering.md#custom-filters) 를 참조하십시오.
+자세한 내용은 [Campaign Standard API 설명서](../../api/using/filtering.md#custom-filters).

@@ -27,7 +27,7 @@ ht-degree: 4%
 회색 막대는 메시지에 연결된 다양한 아이콘을 다시 그룹화합니다.
 
 * **[!UICONTROL Summary]**: 메시지에 대한 기본 정보를 표시하거나 숨깁니다.
-* **[!UICONTROL Edit properties]**: 메시지의  [고급 매개 변수를 편집할 수 있습니다](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+* **[!UICONTROL Edit properties]**: 메시지 편집 [고급 매개 변수](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 * **[!UICONTROL Reports]**: 은 메시지와 관련된 보고서에 대한 액세스 권한을 제공합니다.
 
 **관련 항목:**
@@ -45,13 +45,13 @@ ht-degree: 4%
 
 * **[!UICONTROL Show proofs]**: 전송된 증명 목록이 있는 경우 표시하거나 숨깁니다. 이 단추는 증명을 보낸 후에만 활성화됩니다.
 
-   증명에 대한 자세한 내용은 [증명 보내기](../../sending/using/sending-proofs.md)를 참조하십시오.
+   증명에 대한 자세한 내용은 [증명 보내기](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: 사용할 승인 모드를 선택할 수 있습니다.  **[!UICONTROL Email rendering]** (이메일만 해당)  **[!UICONTROL Proof]** 또는 둘 다. 테스트 프로필에 대한 자세한 내용은 [증명 보내기](../../sending/using/sending-proofs.md)를 참조하십시오. 이 단추는 테스트 프로필을 만든 후에만 활성화됩니다.
+* **[!UICONTROL Send a test]**: 사용할 승인 모드를 선택할 수 있습니다. **[!UICONTROL Email rendering]** (이메일 전용), **[!UICONTROL Proof]** 또는 둘 다 사용할 수 있습니다. 테스트 프로필에 대한 자세한 내용은 [증명 보내기](../../sending/using/sending-proofs.md). 이 단추는 테스트 프로필을 만든 후에만 활성화됩니다.
 
-* **[!UICONTROL Prepare send]**: 전송 준비를 시작합니다. **[!UICONTROL Deployment]** 블록이 나타나고 준비 결과가 표시됩니다. 이 단추는 대상이 입력된 경우에만 나타납니다. 언제든지 해당 버튼을 사용하여 준비를 중단할 수 있습니다. 메시지 준비에 대한 자세한 정보는 [보내기](../../sending/using/preparing-the-send.md) 준비를 참조하십시오.
+* **[!UICONTROL Prepare send]**: 전송 준비를 시작합니다. 다음 **[!UICONTROL Deployment]** 블록이 나타나고 준비 결과를 표시합니다. 이 단추는 대상이 입력된 경우에만 나타납니다. 언제든지 해당 버튼을 사용하여 준비를 중단할 수 있습니다. 메시지 준비에 대한 자세한 내용은 [보내기 준비](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Confirm send]**: 메시지 전송을 확인합니다. 전송 통계가 **[!UICONTROL Deployment]** 블록에 나타납니다. 이 단추는 전송을 준비한 후에만 나타납니다. **전송 중지** 및 **[!UICONTROL Pause]** 단추를 사용하여 언제든지 전송을 중지하거나 일시 중지할 수 있습니다. 전송을 확인하는 방법에 대한 자세한 내용은 [메시지 보내기](../../sending/using/confirming-the-send.md)를 참조하십시오.
+* **[!UICONTROL Confirm send]**: 메시지 전송을 확인합니다. 전송 통계는 **[!UICONTROL Deployment]** 차단. 이 단추는 전송을 준비한 후에만 나타납니다. 언제든지 **전송 중지** 및 **[!UICONTROL Pause]** 단추. 전송을 확인하는 방법에 대한 자세한 내용은 [메시지 보내기](../../sending/using/confirming-the-send.md).
 
 ## 블록 {#blocks}
 
@@ -59,10 +59,10 @@ ht-degree: 4%
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: 메시지 준비 또는 보내기 진행 상황을 추적할 수 있습니다. 전송 및 분석 로그에 액세스하려면 이 블록의 오른쪽 하단에 있는 버튼을 클릭합니다. 이 블록은 전송을 준비한 후에만 나타납니다. 자세한 내용은 [전송 확인](../../sending/using/confirming-the-send.md)을 참조하십시오.
+* **[!UICONTROL Deployment]**: 메시지 준비 또는 보내기 진행 상황을 추적할 수 있습니다. 전송 및 분석 로그에 액세스하려면 이 블록의 오른쪽 하단에 있는 버튼을 클릭합니다. 이 블록은 전송을 준비한 후에만 나타납니다. 자세한 내용은 자세한 내용은 [보내기 확인](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: 메시지의 주요 타겟과 테스트 프로필을 설정할 수 있습니다. [대상자 만들기](../../audiences/using/creating-audiences.md)를 참조하십시오.
-* **[!UICONTROL Schedule]**: 메시지를 보낼 날짜를 지정할 수 있습니다. [예약](../../sending/using/about-scheduling-messages.md)을 참조하십시오.
-* **[!UICONTROL Content]**: 메시지 콘텐츠를 정의하고 미리 볼 수 있습니다. [메시지를 보내는 주요 단계](../../channels/using/key-steps-to-send-a-message.md)를 참조하십시오.
+* **[!UICONTROL Schedule]**: 메시지를 보낼 날짜를 지정할 수 있습니다. 자세한 내용은 [예약](../../sending/using/about-scheduling-messages.md).
+* **[!UICONTROL Content]**: 메시지 콘텐츠를 정의하고 미리 볼 수 있습니다. 자세한 내용은 [메시지 보내기 주요 단계](../../channels/using/key-steps-to-send-a-message.md).
 
 ## 경고 {#warnings}
 
@@ -78,7 +78,7 @@ ht-degree: 4%
 
 * *&quot;라우팅 외부 계정을 사용할 수 없습니다.&quot;*
 
-   자세한 내용은 [외부 계정](../../administration/using/external-accounts.md)을 참조하십시오.
+   자세한 내용은 [외부 계정](../../administration/using/external-accounts.md).
 
 * *&quot;전송 프로세스에서 현재 IP 친화성을 처리하지 않으므로 메시지를 보낼 수 없습니다.&quot;*
 
@@ -90,4 +90,4 @@ ht-degree: 4%
 
 * *&quot;이 메시지는 기술적 트랜잭션 메시지 템플릿입니다. 수정하거나 게시할 수 없습니다.&quot;*
 
-   이 경고는 편집할 수 없는 빈 트랜잭션 메시지 템플릿에 표시됩니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md)을 참조하십시오.
+   이 경고는 편집할 수 없는 빈 트랜잭션 메시지 템플릿에 표시됩니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md).

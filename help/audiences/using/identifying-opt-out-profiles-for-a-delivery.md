@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # 게재에 대한 옵트아웃 프로필 확인{#identifying-opt-out-profiles-for-a-delivery}
 
-특정 게재에 대한 옵트아웃 프로필은 준비 단계 뒤에 게재 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 나열됩니다.
+특정 게재에 대한 옵트아웃 프로필은 준비 단계 뒤에 **[!UICONTROL Exclusion logs]** 게재 대시보드의 탭입니다.
 
 ![](assets/exclusion_blocklisting.png)
 

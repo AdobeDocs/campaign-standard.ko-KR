@@ -71,18 +71,18 @@ Lorem ipsum dolor sit amet, conslateur adipiscing elit. &#39;흔불룸 플라체
 
 개인화된 메시지는 관련 컨텐츠를 전송하고 개인화된 경험을 제공하며 공개 및 전환율을 높이는 핵심 요소입니다. Adobe Campaign에서 전달하는 크로스 채널 메시지는 여러 가지 방법으로 개인화할 수 있습니다. 이러한 방법은 프로필에 따라 기준과 결합할 수 있습니다. 다음을 수행할 수 있습니다.
 
-* 메시지에 [동적 개인화 필드](../../designing/using/personalization.md#inserting-a-personalization-field) 삽입
-* [사전 정의된 개인화 블록 삽입](../../designing/using/personalization.md#adding-a-content-block)
-* [이메일 또](../../designing/using/subject-line.md) 는 SMS 메시지를 개인화합니다.
-* [이메일 제목란 ](../../designing/using/subject-line.md) 개인화
-* 랜딩 페이지에서 [조건부 콘텐츠를 이메일](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 또는 [에 만듭니다](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* SMS 메시지 또는 푸시 알림에 [동적 텍스트](../../channels/using/defining-dynamic-text.md)를 삽입합니다
+* 삽입 [동적 개인화 필드](../../designing/using/personalization.md#inserting-a-personalization-field) 메시지에
+* 삽입 [사전 정의된 개인화 블록](../../designing/using/personalization.md#adding-a-content-block)
+* [발신자 개인화](../../designing/using/subject-line.md) 이메일 또는 SMS
+* [제목란 개인화](../../designing/using/subject-line.md) 이메일
+* 만들기 [이메일의 조건부 콘텐츠](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 또는 [랜딩 페이지](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* 삽입 [다이내믹 텍스트](../../channels/using/defining-dynamic-text.md) SMS 메시지 또는 푸시 알림에서
 
 ![](assets/delivery_content_43.png)
 
 **자세히 표시**
 
-* [종단 간 샘플](../../designing/using/personalization.md#example-email-personalization)을 통해 이메일 개인화 검색
+* 을(를) 통해 이메일 개인화 살펴보기 [엔드 투 엔드 샘플](../../designing/using/personalization.md#example-email-personalization)
 * [URL 개인화](../../designing/using/personalization.md#personalizing-urls)
 * [이미지의 개인화 설정](../../designing/using/personalization.md#personalizing-an-image-source)
 

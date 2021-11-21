@@ -30,7 +30,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->이벤트에 사용된 사용자 지정 리소스의 필드를 수정하거나 삭제하면 해당 이벤트의 게시는 자동으로 취소됩니다. [트랜잭션 이벤트 게시 취소](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)를 참조하십시오.
+>이벤트에 사용된 사용자 지정 리소스의 필드를 수정하거나 삭제하면 해당 이벤트의 게시는 자동으로 취소됩니다. 자세한 내용은 [트랜잭션 이벤트 게시 취소](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 다음 **[!UICONTROL Publishing]**&#x200B;을 선택합니다.
 1. 기본적으로 **[!UICONTROL Determine modifications since the last publication]** 옵션이 선택되어 있으므로 마지막 업데이트 이후 수행된 변경 사항만 적용됩니다.
@@ -49,7 +49,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >중복 인덱스로 인해 게시에 실패합니다. 준비 단계에서는 리소스에 대해 정의된 인덱스가 다른 리소스에 대해 동일한 이름을 가지고 있는지 확인합니다. 이렇게 되면 인덱스 이름을 바꾸도록 요청하는 오류 메시지가 표시됩니다. [인덱스 정의](configuring-the-resource-s-data-structure.md#defining-indexes)를 참조하십시오.
+   >중복 인덱스로 인해 게시에 실패합니다. 준비 단계에서는 리소스에 대해 정의된 인덱스가 다른 리소스에 대해 동일한 이름을 가지고 있는지 확인합니다. 이렇게 되면 인덱스 이름을 바꾸도록 요청하는 오류 메시지가 표시됩니다. 자세한 내용은 [인덱스 정의](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. 게시가 실행되면 **[!UICONTROL Publish]** 버튼을 클릭하여 새 구성을 적용합니다.
 1. 게시되면 각 리소스의 **[!UICONTROL Summary]** 창이 현재 상태가 **[!UICONTROL Published]**&#x200B;임을 나타내고 마지막 게시물의 날짜를 지정합니다.

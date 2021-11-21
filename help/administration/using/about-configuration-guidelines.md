@@ -34,7 +34,7 @@ Adobe Campaign Standard은 태블릿에서 디스플레이 모드로서 경관�
 
 **태블릿:**
 
-* iOS(버전 7 이상)
+* iOS (버전 7 이상)
 * Android(버전 4.4 이상)
 
 ## Campaign Standard 네트워크 엔드포인트 {#campaign-standard-network-endpoints}
@@ -43,7 +43,7 @@ Adobe Campaign Standard은 태블릿에서 디스플레이 모드로서 경관�
 
 | 컨텍스트 | URL |
 |--- |--- |
-| Campaign 인스턴스 | `https://*.experiencecloud.adobe.com` (임차인 ID * + 클라이언트 도메인)<br>`https://*.campaign.adobe.com` (Campaign Instance 테넌트) |
+| Campaign 인스턴스 | `https://*.experiencecloud.adobe.com` (임차인 ID * + 클라이언트 도메인)<br>`https://*.campaign.adobe.com` (캠페인 인스턴스 테넌트) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | 추적 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |

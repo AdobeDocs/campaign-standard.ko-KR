@@ -18,13 +18,13 @@ ht-degree: 74%
 
 # 트랜잭션 메시지 수명 주기 {#publishing-transactional-message}
 
-[트랜잭션 메시지](../../channels/using/editing-transactional-message.md)를 보낼 준비가 되면 게시할 수 있습니다.
+이 [트랜잭션 메시지](../../channels/using/editing-transactional-message.md) 을 보낼 준비가 되었습니다. 게시할 수 있습니다.
 
 트랜잭션 메시지를 게시, 일시 중지, 게시 취소 및 삭제하는 단계는 아래에 자세히 설명되어 있습니다.
 
 >[!IMPORTANT]
 >
->[관리](../../administration/using/users-management.md#functional-administrators) 역할을 가진 사용자만 트랜잭션 메시지에 액세스하고 게시할 수 있습니다.
+>을 사용하는 사용자만 [관리](../../administration/using/users-management.md#functional-administrators) 역할은 트랜잭션 메시지에 액세스하고 게시할 수 있습니다.
 
 ## 트랜잭션 메시지 게시 프로세스 {#transactional-messaging-pub-process}
 
@@ -88,13 +88,13 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## 트랜잭션 메시지 게시 {#publishing-a-transactional-message}
 
-트랜잭션 메시지를 편집하고 테스트하면 게시할 수 있습니다. **[!UICONTROL Publish]** 버튼을 클릭하면 됩니다.
+트랜잭션 메시지를 편집하고 테스트하면 게시할 수 있습니다. 을(를) 클릭하여 **[!UICONTROL Publish]** 버튼을 클릭합니다.
 
 ![](assets/message-center_12.png)
 
 이제 &quot;장바구니 포기&quot; 이벤트가 트리거되는 경우, 수신자의 제목과 성, 장바구니 URL, 제품 목록이 정의되어 있다면 마지막으로 상담한 제품 또는 제품 목록, 그리고 보낼 총 장바구니 금액이 포함된 메시지를 자동으로 표시합니다.
 
-트랜잭션 메시지에 대한 보고서에 액세스하려면 **[!UICONTROL Reports]** 버튼을 사용하십시오. [동적 보고서](../../reporting/using/about-dynamic-reports.md)를 참조하십시오.
+트랜잭션 메시지에 대한 보고서에 액세스하려면 **[!UICONTROL Reports]** 버튼을 사용하십시오. 자세한 내용은 [동적 보고서](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
@@ -107,7 +107,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 예를 들어 메시지에 포함된 데이터를 수정하기 위해 **[!UICONTROL Pause]** 버튼을 사용하여 트랜잭션 메시지 게시를 일시 중단할 수 있습니다. 그러면 이벤트는 더 이상 처리되지 않고 대신 Adobe Campaign 데이터베이스의 큐에 보관됩니다.
 
-큐 이벤트는 REST API에 정의된 기간([REST API 설명서](../../api/using/managing-transactional-messages.md) 참조) 동안이나 트리거 핵심 서비스를 사용하는 경우에는 트리거 이벤트([Adobe Experience Cloud Triggers 정보](../../integrating/using/about-adobe-experience-cloud-triggers.md) 참조) 동안 보관됩니다.
+큐 이벤트는 REST API에 정의된 기간 동안 보관됩니다(참조) [REST API 설명서](../../api/using/managing-transactional-messages.md)) 또는 트리거 핵심 서비스를 사용하는 경우 트리거 이벤트( [Adobe Experience Cloud Triggers 정보](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +123,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->메시지를 다시 게시하려면 해당 이벤트 구성으로 돌아가서 [event](../../channels/using/publishing-transactional-event.md)을 게시한 다음 [메시지를 게시해야 합니다](#publishing-a-transactional-message).
+>메시지를 다시 게시하려면 해당 이벤트 구성으로 돌아가야 합니다. [이벤트 게시](../../channels/using/publishing-transactional-event.md), 그런 다음 [메시지 게시](#publishing-a-transactional-message).
 
 일시 중지된 트랜잭션 메시지의 게시를 취소하는 경우 다시 게시하기 전에 최대 24시간까지 기다려야 할 수 있습니다. **[!UICONTROL Database cleanup]** 워크플로우가 대기열로 전송된 모든 이벤트를 지우기 위해서 입니다.
 
@@ -135,7 +135,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 트랜잭션 메시지 게시가 취소되었거나 트랜잭션 메시지가 아직 게시되지 않았으면 트랜잭션 메시지 목록에서 삭제할 수 있습니다. 삭제 방법:
 
-1. 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**&#x200B;를 선택합니다.
+1. 을(를) 클릭합니다. **Adobe** 왼쪽 상단 모서리에서 로고를 선택한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. 마우스를 원하는 메시지 위로 가져갑니다.
 1. **[!UICONTROL Delete element]** 버튼을 클릭합니다.
 

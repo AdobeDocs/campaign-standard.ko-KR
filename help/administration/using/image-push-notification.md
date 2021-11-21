@@ -40,9 +40,9 @@ Experience Cloud SDK 애플리케이션을 통해 푸시 알림을 전송하려�
 
 1. 푸시 알림 만들기. 자세한 정보는 이 [페이지](../../channels/using/preparing-and-sending-a-push-notification.md)를 참조하십시오.
 
-1. 푸시 알림 콘텐츠 페이지에서 **[!UICONTROL Advanced options]** 섹션에 액세스합니다.
+1. 푸시 알림 콘텐츠 페이지에서 **[!UICONTROL Advanced options]** 섹션을 참조하십시오.
 
-1. **[!UICONTROL Rich media content URL]** 필드에 파일의 URL을 입력합니다.
+1. 파일의 URL을 **[!UICONTROL Rich media content URL]** 필드.
 iOS 10 이상의 경우 이미지, gif, 오디오 및 비디오 파일을 삽입할 수 있습니다.
 
    ![](assets/push_notif_advanced_6.png)
@@ -55,19 +55,19 @@ Adobe Campaign에서 푸시 알림을 사용자 지정한 후 장치에 이미�
 
 >[!NOTE]
 >
->애플리케이션이 Objective-C에 있는 경우 다음 [설명서](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)를 참조하십시오.
+>애플리케이션이 Objective-C에 있는 경우 다음을 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-앱이 [!DNL Swift]에 있는 경우 아래 절차를 따르십시오.
+앱이 인 경우 [!DNL Swift], 아래 절차를 따르십시오.
 
-1. [!DNL Xcode] 프로젝트를 엽니다.
+1. 다음 문서를 엽니다. [!DNL Xcode] 프로젝트.
 
-1. [!DNL Xcode] 프로젝트에서 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**&#x200B;을 선택합니다.
+1. 사용자 [!DNL Xcode] 프로젝트, 선택 **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. **[!UICONTROL Notification Service Extension]**&#x200B;을(를) 선택합니다.
 
    ![](assets/push_notif_advanced_12.png)
 
-1. **NotificationService.swift** 파일 클래스가 만들어졌는지 확인합니다.
+1. 다음을 확인하십시오. **NotificationService.swift** 파일 클래스가 만들어집니다.
 
 1. 이 클래스를 편집하고 기본 콘텐츠를 다음과 같이 바꿉니다.
 이렇게 하면 응용 프로그램이 이미지 URL로 들어오는 매개 변수를 처리하고, 구문 분석하고, 로컬로 복사한 다음 푸시 알림에서 표시할 수 있습니다.
@@ -154,6 +154,6 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 
 ## 4단계: 푸시 보내기 테스트 {#test-send-push}
 
-이제 애플리케이션 빌드와 위의 2단계에서 만든 게재를 테스트할 수 있습니다. 푸시 알림 준비 및 전송에 대한 자세한 내용은 이 [page](../../channels/using/preparing-and-sending-a-push-notification.md)을 참조하십시오.
+이제 애플리케이션 빌드와 위의 2단계에서 만든 게재를 테스트할 수 있습니다. 푸시 알림 준비 및 전송에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)

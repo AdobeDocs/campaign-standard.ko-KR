@@ -32,4 +32,4 @@ ht-degree: 55%
 * [파일 추출](../../automating/using/extract-file.md)
 * [구독 서비스](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** 활동을 통해 아웃바운드 전환에  **대한 세그먼트** 코드 를 정의할 수 있습니다. 그런 다음 마케팅 캠페인의 효율성을 측정하기 위해 이러한 세그먼트 코드를 기반으로 보고서를 만들 수 있습니다. 자세한 정보는 [이 섹션](../../reporting/using/creating-a-report-workflow-segment.md)을 참조하십시오.
+**[!UICONTROL Data management (ETL)]** 활동을 통해 **세그먼트 코드** 아웃바운드 전환에 대한 호출. 그런 다음 마케팅 캠페인의 효율성을 측정하기 위해 이러한 세그먼트 코드를 기반으로 보고서를 만들 수 있습니다. 자세한 정보는 [이 섹션](../../reporting/using/creating-a-report-workflow-segment.md)을 참조하십시오.

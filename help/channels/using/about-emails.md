@@ -27,4 +27,4 @@ ht-degree: 3%
 * A/B 테스트 이메일: 최대 3개의 이메일 버전을 테스트합니다.
 * 트랜잭션 이메일: 고객의 행동을 기반으로 트리거되는 단일 이메일.
 
-전자 메일을 만들고 보낼 때 모범 사례에 대해 알아보려면 [게재 우수 사례](../../sending/using/delivery-best-practices.md) 섹션을 참조하십시오.
+이메일을 만들고 보내는 모범 사례에 대해 알아보려면 [게재 모범 사례](../../sending/using/delivery-best-practices.md) 섹션을 참조하십시오.

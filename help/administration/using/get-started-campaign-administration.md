@@ -36,7 +36,7 @@ ht-degree: 15%
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-왼쪽 상단 모서리에서 Adobe Campaign 로고를 클릭할 때 액세스 가능한 **[!UICONTROL Administration]** 메뉴를 통해 다양한 Adobe Campaign 관리 작업이 수행됩니다. 인터페이스의 이 부분은 플랫폼의 기능 관리자만이 액세스할 수 있습니다.
+다양한 Adobe Campaign 관리 작업은 를 통해 수행됩니다 **[!UICONTROL Administration]** 왼쪽 상단 모서리에서 Adobe Campaign 로고를 클릭하면 메뉴에 액세스할 수 있습니다. 인터페이스의 이 부분은 플랫폼의 기능 관리자만이 액세스할 수 있습니다.
 
 사용할 수 있는 다양한 메뉴는 다음과 같습니다.
 
@@ -53,11 +53,11 @@ ht-degree: 15%
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-사용자에게 응용 프로그램에 액세스하고 조직 내에서 동일한 역할과 권한을 공유하는 사용자 집합인 **보안 그룹**&#x200B;을 관리하도록 초대합니다. 기본적으로 Adobe Campaign에서는 사용자 및 사용자 그룹에 할당된 단일 권한을 정의할 수 있는 **역할** 세트를 제공합니다. 역할은 **조직 단위**&#x200B;와 결합되어 사용자에게 필터링된 인터페이스 보기를 제공하고 다른 기능에 대한 액세스 권한을 정의합니다.
+응용 프로그램에 액세스하고 관리할 사용자 초대 **보안 그룹**: 조직 내에서 동일한 역할과 권한을 공유하는 사용자의 집합입니다. 기본적으로 Adobe Campaign에서는 **역할** 사용자 및 사용자 그룹에 할당된 단일 권한을 정의할 수 있습니다. 결합 **조직 단위**, 역할은 필터링된 인터페이스 보기를 제공하고 다양한 기능에 대한 액세스를 정의합니다.
 
-또한 Campaign Standard에서 보안 관련 정보를 모니터링할 수 있습니다. **[!UICONTROL Export audits]** 화면을 통해 사용자가 수행한 데이터 내보내기에 대한 정보를 검색하고, **[!UICONTROL Licenses]** 화면을 활용하여 조직 내에 설치된 모든 Campaign 라이센스와 빌드 번호, 릴리스 버전 및 계약 조건 등의 다양한 정보를 모니터링할 수 있습니다.
+또한 Campaign Standard에서 보안 관련 정보를 모니터링할 수 있습니다. 를 통해 사용자가 수행한 데이터 내보내기에 대한 정보를 검색할 수 있습니다 **[!UICONTROL Export audits]** 화면 및 활용 **[!UICONTROL Licenses]** 조직 내에 설치된 모든 Campaign 라이센스와 빌드 번호, 릴리스 버전 및 계약 조건 등의 다양한 정보를 모니터링하는 화면입니다.
 
-자세히 알아보기:
+자세히 표시:
 
 * [사용자 관리](../../administration/using/users-management.md)
 * [조직 단위](../../administration/using/organizational-units.md)
@@ -70,13 +70,13 @@ ht-degree: 15%
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-메시지를 효과적으로 보낼 수 있도록 Adobe Campaign의 모든 통신 채널을 올바르게 구성해야 합니다. **[!UICONTROL Channel]** 메뉴를 사용하면 다른 채널에 연결된 기술 매개 변수를 관리할 수 있습니다.
+메시지를 효과적으로 보낼 수 있도록 Adobe Campaign의 모든 통신 채널을 올바르게 구성해야 합니다. **[!UICONTROL Channel]**  메뉴를 사용하면 다양한 채널에 연결된 기술 매개 변수를 관리할 수 있습니다.
 
-다양한 **email** 매개 변수를 구성합니다. 반송, 격리, 전자 메일 속성 및 라우팅 매개 변수에 대한 처리 규칙, 일반적인 규칙. **SMS** 채널에 대한 라우팅 구성 및 속성과 SMS 인코딩 및 형식을 정의합니다.
+다양한 구성 **이메일** 매개 변수: 반송, 격리, 전자 메일 속성 및 라우팅 매개 변수에 대한 처리 규칙, 일반적인 규칙. 에 대한 공정순서 구성 및 속성을 정의합니다. **SMS** 채널 및 SMS 인코딩 및 포맷
 
-Adobe Experience Platform SDK를 사용하여 인앱 메시지 및 푸시 알림을 전송할 수 있도록 **모바일 애플리케이션**&#x200B;을 설정합니다.
+설정 **모바일 애플리케이션** Adobe Experience Platform SDK를 사용하여 인앱 메시지 및 푸시 알림을 전송할 수 있습니다.
 
-자세히 알아보기:
+자세히 표시:
 
 * [채널 구성 기본 정보](../../administration/using/about-channel-configuration.md)
 * [이메일 채널 구성](../../administration/using/configuring-email-channel.md)
@@ -89,11 +89,11 @@ Adobe Experience Platform SDK를 사용하여 인앱 메시지 및 푸시 알림
 
 Campaign Standard에는 요구 사항에 맞게 구성할 수 있는 다양한 애플리케이션 요소가 포함되어 있습니다.
 
-Adobe Campaign을 외부 서버에 연결하는 데 사용되는 **외부 계정**&#x200B;을 설정합니다. Campaign Standard 대상 매핑에 액세스하고 **기술 워크플로우**&#x200B;를 사용하여 플랫폼을 모니터링합니다.
+설정 **외부 계정**: Adobe Campaign을 외부 서버에 연결하는 데 사용됩니다. Campaign Standard 대상 매핑에 액세스하고 다음을 사용하여 플랫폼을 모니터링합니다 **기술 워크플로우**.
 
-조직에 대해 하나 또는 여러 **브랜드**&#x200B;를 정의하고, 중요한 시스템 활동이 발생하는 경우 애플리케이션 내에서 **실시간 알림**&#x200B;을 보내도록 구성합니다.
+하나 또는 여러 개 정의 **브랜드** 조직의 경우 **실시간 알림** 중요한 시스템 활동의 경우 애플리케이션 내에서
 
-자세히 알아보기:
+자세히 표시:
 
 * [Campaign Standard 설정 기본 정보](../../administration/using/about-campaign-standard-settings.md)
 * [외부 계정](../../administration/using/external-accounts.md)

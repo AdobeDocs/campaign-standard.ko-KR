@@ -33,57 +33,57 @@ ht-degree: 1%
 
 ![](assets/send-time_opt_workflow1.png)
 
-1. 마케팅 활동 목록에 액세스하고 새 워크플로우를 만듭니다. [워크플로우 만들기](../../automating/using/building-a-workflow.md#creating-a-workflow)를 참조하십시오.
-1. **쿼리** 활동을 워크플로우에 끌어다 놓고 엽니다. [쿼리](../../automating/using/query.md) 섹션을 참조하십시오.
-1. 모든 Gold 고객 등 대상자를 선택하고 **[!UICONTROL Confirm]** 을 클릭하여 쿼리를 저장합니다.
-1. **세분화** 활동을 워크플로우에 끌어다 놓고 엽니다. [세그먼테이션](../../automating/using/segmentation.md) 섹션을 참조하십시오.
+1. 마케팅 활동 목록에 액세스하고 새 워크플로우를 만듭니다. 자세한 내용은 [워크플로우 만들기](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. 끌어서 놓기 **쿼리** 활동을 워크플로우에 끌어와 엽니다. 자세한 내용은 [쿼리](../../automating/using/query.md) 섹션을 참조하십시오.
+1. 모든 Gold 고객 등 대상자를 선택하고 을(를) 클릭합니다. **[!UICONTROL Confirm]** 쿼리를 저장하려면 을 클릭합니다.
+1. 끌어서 놓기 **세그먼테이션** 활동을 워크플로우에 끌어와 엽니다. 자세한 내용은 [세그먼테이션](../../automating/using/segmentation.md) 섹션을 참조하십시오.
 1. 5개의 세그먼트를 정의합니다. 각 세그먼트에 대해:
 
-   * **[!UICONTROL Segment code]** 필드를 입력합니다. 메시지를 보낼 날짜와 시간을 수동으로 입력합니다.
+   * 을 입력합니다. **[!UICONTROL Segment code]** 필드: 메시지를 보낼 날짜와 시간을 수동으로 입력합니다.
 
       예를 들어, 6월 1일 오전 10시 GMT+1에 첫 번째 배치를 전송하려고 합니다. 다음 형식을 사용하십시오. **YYYY-MM-DD hh:mm:ss+tz**.
 
       ![](assets/send-time_opt_segment_configuration.png)
 
-      다음 배치를 그 다음 날 발송하려면 두 번째 세그먼트에 대해 **2017-06-02 10:00:00+01**&#x200B;을 입력합니다.
+      다음 배치를 그 다음날 발송하려면 을 입력합니다. **2017-06-02 10:00:00+01** 두 번째 세그먼트의 경우.
 
       나머지 세그먼트에 대해 다음 배치를 다음과 같이 정의합니다.
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
-   * **[!UICONTROL Limit the population of this segment]** 옵션을 선택해야 합니다.
+   * 을(를) 선택해야 합니다. **[!UICONTROL Limit the population of this segment]** 선택 사항입니다.
 
-      **[!UICONTROL Limitation]** 탭에서 **[!UICONTROL Random sampling]** 을 선택하고 각 세그먼트에 대해 원하는 백분율을 입력합니다. 첫 번째 배치의 경우 10, 두 번째 배치의 경우 15 등.
+      에서 **[!UICONTROL Limitation]** 탭, 선택 **[!UICONTROL Random sampling]** 및 각 세그먼트에 대해 원하는 백분율을 입력합니다. 첫 번째 배치의 경우 10, 두 번째 배치의 경우 15 등.
 
       ![](assets/send-time_opt_segment_limitation.png)
 
 
-1. 모든 세그먼트가 정의되면 **[!UICONTROL Generate all segments in the same transition]** 을 선택하고 **[!UICONTROL Confirm]** 을 클릭합니다.
+1. 모든 세그먼트가 정의되면 **[!UICONTROL Generate all segments in the same transition]** 을(를) 클릭합니다. **[!UICONTROL Confirm]**.
 
    ![](assets/send-time_opt_segment_dates.png)
 
-1. **이메일 게재** 활동을 워크플로우로 끌어서 놓고 엽니다. [이메일 배달](../../automating/using/email-delivery.md) 섹션을 참조하십시오.
-1. 이메일 대시보드에서 **[!UICONTROL Schedule]** 섹션을 클릭하고 **[!UICONTROL Messages to be sent automatically on the date specified below]** 을 선택합니다.
-1. **[!UICONTROL Start sending from]** 필드에서 연락 날짜를 정의합니다.
-1. 전송 시간 최적화 드롭다운 메뉴에서 **[!UICONTROL Send at a custom date defined by a formula]** 을 선택합니다.
-1. **[!UICONTROL Custom date formula]** 필드의 **[!UICONTROL Edit an expression]** 단추를 클릭합니다.
+1. 끌어서 놓기 **이메일 게재** 활동을 워크플로우에 끌어와 엽니다. 자세한 내용은 [이메일 게재](../../automating/using/email-delivery.md) 섹션을 참조하십시오.
+1. 을(를) 클릭합니다. **[!UICONTROL Schedule]** 이메일 대시보드의 섹션을 선택하고 을(를) 선택합니다. **[!UICONTROL Messages to be sent automatically on the date specified below]**.
+1. 에서 **[!UICONTROL Start sending from]** 필드에서 연락 날짜를 정의합니다.
+1. 전송 시간 최적화 드롭다운 메뉴에서 **[!UICONTROL Send at a custom date defined by a formula]**.
+1. 을(를) 클릭합니다. **[!UICONTROL Edit an expression]** 버튼 **[!UICONTROL Custom date formula]** 필드.
 
    ![](assets/send-time_opt_formula_define.png)
 
-1. **[!UICONTROL ToDateTime]** 함수 및 **[!UICONTROL Segment code]** 필드를 사용하여 다음 표현식을 만듭니다. 표현식에 직접 입력할 수도 있지만 올바른 구문 및 맞춤법을 사용해야 합니다.
+1. 다음 표현식을 사용하여 만듭니다 **[!UICONTROL ToDateTime]** 함수 및 **[!UICONTROL Segment code]** 필드. 표현식에 직접 입력할 수도 있지만 올바른 구문 및 맞춤법을 사용해야 합니다.
 
    ```
    ToDateTime([targetData/@segmentCode])
    ```
 
-   **[!UICONTROL ToDateTime]** 함수는 세그먼트 코드를 텍스트 문자열에서 날짜 및 시간 값으로 변환합니다.
+   다음 **[!UICONTROL ToDateTime]** 함수는 세그먼트 코드를 텍스트 문자열에서 날짜 및 시간 값으로 변환합니다.
 
    이전 화면으로 돌아가려면 표현식을 확인합니다.
 
    ![](assets/send-time_opt_formula_define_segment.png)
 
-   **[!UICONTROL Schedule]** 창에서 사용자 지정 날짜 공식이 다음과 같이 표시됩니다.
+   에서 **[!UICONTROL Schedule]** 창의 사용자 지정 날짜 공식은 다음과 같이 표시됩니다.
 
    ```
    ToDateTime([targetData/@segmentCode])
@@ -109,55 +109,55 @@ ht-degree: 1%
 
 ![](assets/send-time_opt_workflow2.png)
 
-1. 마케팅 활동 목록에 액세스하고 새 워크플로우를 만듭니다. [워크플로우 만들기](../../automating/using/building-a-workflow.md#creating-a-workflow)를 참조하십시오.
-1. **쿼리** 활동을 워크플로우에 끌어다 놓고 엽니다. [쿼리](../../automating/using/query.md) 섹션을 참조하십시오.
-1. 예를 들어 35개 이상의 프로필을 선택하고 **[!UICONTROL Confirm]** 을 클릭하여 쿼리를 저장합니다.
-1. **세분화** 활동을 워크플로우에 끌어다 놓고 엽니다. [세그먼테이션](../../automating/using/segmentation.md) 섹션을 참조하십시오.
+1. 마케팅 활동 목록에 액세스하고 새 워크플로우를 만듭니다. 자세한 내용은 [워크플로우 만들기](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. 끌어서 놓기 **쿼리** 활동을 워크플로우에 끌어와 엽니다. 자세한 내용은 [쿼리](../../automating/using/query.md) 섹션을 참조하십시오.
+1. 대상을 선택합니다(예: 35개가 넘는 프로필). **[!UICONTROL Confirm]** 쿼리를 저장하려면 을 클릭합니다.
+1. 끌어서 놓기 **세그먼테이션** 활동을 워크플로우에 끌어와 엽니다. 자세한 내용은 [세그먼테이션](../../automating/using/segmentation.md) 섹션을 참조하십시오.
 1. 네 개의 세그먼트를 정의합니다. 각 세그먼트에 대해:
 
    * 다음과 같이 세그먼트 코드를 정의합니다.
 
-      * 오전 8:00 - 오전 10:00: **0** 메시지는 오전 8시(연락 날짜)에 대상 모집단 첫 번째 분기로 전송됩니다.
-      * 오전 10:00 - 오후 12:00: **2** 메시지는 오전 10:00에 대상 모집단 2분기로 전송됩니다(연락 날짜 + 2시간).
+      * 오전 8:00 - 오전 10:00: **0**. 메시지는 오전 8시(연락 날짜)에 대상 모집단 첫 번째 분기로 전송됩니다.
+      * 오전 10:00 - 오후 12:00: **2개**. 메시지는 오전 10:00에 대상 모집단 2분기로 전송됩니다(연락 날짜 + 2시간).
       * 오후 2시 - 오후 4시: **6**. 콜 센터가 오후 12:00과 오후 2:00 사이에 닫히고 있으며, 메시지는 오후 2:00에 대상 모집단의 3/4분기로 전송됩니다(연락 날짜 + 6시간).
-      * 오후 4시 - 오후 6시: **8** 메시지는 오후 4시에 대상 모집단 마지막 분기로 전송됩니다(연락 날짜 + 8시간).
+      * 오후 4시 - 오후 6시: **8**. 메시지는 오후 4시에 대상 모집단 마지막 분기로 전송됩니다(연락 날짜 + 8시간).
 
       >[!NOTE]
       >
       >연락 날짜는 나중에 워크플로우에서 이메일 게재 활동에 정의됩니다.
 
-   * **[!UICONTROL Limit the population of this segment]** 옵션을 선택해야 합니다.
-   * **[!UICONTROL Limitation]** 탭에서 **[!UICONTROL Random sampling]** 을 선택하고 각 세그먼트에 대해 원하는 백분율을 입력합니다. **25**.
+   * 을(를) 선택해야 합니다. **[!UICONTROL Limit the population of this segment]** 선택 사항입니다.
+   * 에서 **[!UICONTROL Limitation]** 탭, 선택 **[!UICONTROL Random sampling]** 및 각 세그먼트에 대해 원하는 백분율을 입력합니다. **25년**.
 
 
-1. 모든 세그먼트가 정의되면 **[!UICONTROL Generate all segments in the same transition]** 을 선택하고 **[!UICONTROL Confirm]** 을 클릭합니다.
+1. 모든 세그먼트가 정의되면 **[!UICONTROL Generate all segments in the same transition]** 을(를) 클릭합니다. **[!UICONTROL Confirm]**.
 
    ![](assets/send-time_opt_segment.png)
 
-1. **이메일 게재** 활동을 워크플로우로 끌어서 놓고 엽니다. [이메일 배달](../../automating/using/email-delivery.md) 섹션을 참조하십시오.
-1. 이메일 대시보드에서 **[!UICONTROL Schedule]** 섹션을 클릭합니다.
+1. 끌어서 놓기 **이메일 게재** 활동을 워크플로우에 끌어와 엽니다. 자세한 내용은 [이메일 게재](../../automating/using/email-delivery.md) 섹션을 참조하십시오.
+1. 을(를) 클릭합니다. **[!UICONTROL Schedule]** 이메일 대시보드의 섹션을 참조하십시오.
 1. **[!UICONTROL Messages to be sent automatically on the date specified below]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Start sending from]** 필드에서 연락 날짜를 정의합니다.
+1. 에서 **[!UICONTROL Start sending from]** 필드에서 연락 날짜를 정의합니다.
 
    이 예에서 5월 25일 오전 8시를 선택합니다.
 
-1. 전송 시간 최적화 드롭다운 메뉴에서 **[!UICONTROL Send at a custom date defined by a formula]**&#x200B;을(를) 선택하고 **[!UICONTROL Edit an expression]** 버튼을 클릭합니다.
+1. 전송 시간 최적화 드롭다운 메뉴에서 **[!UICONTROL Send at a custom date defined by a formula]** 을 클릭하고 **[!UICONTROL Edit an expression]** 버튼을 클릭합니다.
 
    ![](assets/send-time_opt_formula_expression.png)
 
-1. **[!UICONTROL Expression editor]**&#x200B;에서 날짜 및 세그먼트 코드를 설정하여 각 고객에 대한 데이터를 계산합니다.
+1. 에서 **[!UICONTROL Expression editor]**&#x200B;를 설정하고, 날짜 및 세그먼트 코드를 설정하여 각 고객에 대한 데이터를 계산합니다.
 
-   함수 목록에서 **[!UICONTROL AddHours]** 을 선택합니다.
+   함수 목록에서 를 선택합니다 **[!UICONTROL AddHours]**.
 
    ![](assets/send-time_opt_formula_expression_addhours.png)
 
-   사용 가능한 필드에서 **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**&#x200B;를 선택합니다.
+   사용 가능한 필드에서 **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**.
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
-   이렇게 하면 **[!UICONTROL Start sending from]** 필드에 지정된 날짜 및 시간을 검색할 수 있습니다.
+   이에 지정된 날짜와 시간을 검색할 수 있습니다. **[!UICONTROL Start sending from]** 필드.
 
-   함수 목록에서 **[!UICONTROL ToInteger]** 을 선택합니다. 사용 가능한 필드에서 **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]** 를 선택합니다.
+   함수 목록에서 를 선택합니다 **[!UICONTROL ToInteger]**. 사용 가능한 필드에서 **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**.
 
    ![](assets/send-time_opt_formula_expression_segment_code.png)
 

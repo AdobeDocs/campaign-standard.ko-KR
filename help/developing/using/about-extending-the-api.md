@@ -21,7 +21,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->API를 게시하려면 **[!UICONTROL Datamodel]** 역할이 있는지 확인합니다.
+>API를 게시하려면 API가 있는지 확인합니다. **[!UICONTROL Datamodel]** 역할.
 
 공용 API에서 확장 필드를 노출하는 단계는 다음과 같습니다.
 

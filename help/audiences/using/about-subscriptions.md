@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # 구독 기본 정보{#about-subscriptions}
 
-Adobe Campaign을 사용하여 **서비스** 세트를 통해 뉴스레터 및 크로스채널 통신을 만들고 관리할 수 있습니다. 메시지는 서비스를 구독(옵트인)한 프로필에만 전송됩니다. 메시지를 만들 때 전용 필터를 사용하여 해당 프로필을 확인합니다.
+Adobe Campaign을 사용하여 일련의 Adobe Campaign 통합 문서를 통해 뉴스레터 및 크로스채널 통신을 만들고 관리할 수 있습니다 **서비스**: 메시지는 서비스를 구독(옵트인)한 프로필에만 전송됩니다. 메시지를 만들 때 전용 필터를 사용하여 해당 프로필을 확인합니다.
 
 구독 메커니즘을 설정하여 고객에게 이와 같은 서비스(특히 **이메일** 및 **랜딩 페이지**)를 구독할 수 있는 기회를 제공할 수 있습니다.
 
@@ -30,10 +30,10 @@ Adobe Campaign Standard API를 사용하여 구독을 관리할 수도 있습니
 
 구독 메커니즘을 만들려면 아래 절차를 따르십시오.
 
-1. **서비스 만들기**  - 이 섹션 [에 설명된 ](../../audiences/using/creating-a-service.md) 단계에 따라 구독 서비스를 만듭니다
-1. **링크 공유**  - 이 페이지 [에서 서비스를 홍보하고 공유하는 방법을 알아봅니다.](../../audiences/using/promoting-a-service.md)
-1. **구독 모니터링**  - 이 섹션에서 서비스 구독을 모니터링하는 몇 가지 방법 [을 알아봅니다](../../audiences/using/monitoring-subscriptions.md)
-1. **구독 확인**  -  [이 ](../../audiences/using/confirming-subscription-to-a-service.md) 자습서를 따라 구독 확인 메시지를 보냅니다
+1. **서비스 만들기** - 설명된 단계를 따릅니다. [이 섹션](../../audiences/using/creating-a-service.md) 구독 서비스를 만들려면
+1. **링크 공유** - 서비스 홍보 및 공유 방법 알아보기 [이 페이지에서](../../audiences/using/promoting-a-service.md)
+1. **구독 모니터링** - 서비스 구독을 모니터링하는 다양한 방법 살펴보기 [이 섹션](../../audiences/using/monitoring-subscriptions.md)
+1. **구독 확인** - 다음 - [이 자습서](../../audiences/using/confirming-subscription-to-a-service.md) 구독 확인 메시지를 보내려면
 
 ## 추가 리소스
 

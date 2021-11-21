@@ -22,10 +22,10 @@ ht-degree: 4%
 
 워크플로우 편집 화면은 다음 요소로 구성됩니다.
 
-* 사용 가능한 활동을 참조하는 [팔레트](#palette)
-* 활동이 구성되고 구성되는 [Workspace](#workspace)
-* [작업 모음](#action-bar)은 사용자가 워크플로우 및/또는 해당 구성 요소와 상호 작용할 수 있는 단추로 구성되어 있습니다.
-* 선택한 활동 주위에 표시되는 [빠른 작업](#quick-actions)을(를) 사용하면 상호 작용할 수 있습니다.
+* 다음 [팔레트](#palette): 사용 가능한 활동을 참조합니다.
+* 다음 [작업 공간](#workspace): 활동이 구성 및 구성되어 있습니다.
+* 다음 [작업 표시줄](#action-bar)- 워크플로우 및/또는 해당 구성 요소와 상호 작용할 수 있는 단추로 구성되어 있습니다.
+* 다음 [빠른 작업](#quick-actions)선택한 활동 주위에 표시되는 를 통해 상호 작용할 수 있습니다.
 
 ![](assets/wkf_overview.png)
 
@@ -50,22 +50,22 @@ ht-degree: 4%
 
 두 활동을 연결하려면 첫 번째 활동에서 다음 활동이 연결될 때까지 화살표 끝을 다음 활동으로 이동합니다. 활동을 이전 활동에 연결하기 위해 해당 뒤의 화살표 지점 쪽으로 이동할 수도 있습니다. 활동을 이동하면 연결된 상태로 유지됩니다.
 
-데이터를 처리하는 활동 다음에 나오는 전환에는 중간 모집단이 포함됩니다. 워크플로우 속성의 **[!UICONTROL Execution]** 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택하면 액세스할 수 있습니다.
+데이터를 처리하는 활동 다음에 나오는 전환에는 중간 모집단이 포함됩니다. 확인을 하면 액세스할 수 있습니다 **[!UICONTROL Keep interim results]** 옵션 **[!UICONTROL Execution]** 워크플로우 속성의 섹션.
 
 >[!CAUTION]
 >
 >이 옵션은 많은 디스크 공간을 소모하며 워크플로우를 빌드하고 적절한 구성과 동작이 되도록 설계되었습니다. 프로덕션 인스턴스에서 선택하지 않은 상태로 둡니다.
 
 
-활동을 선택하면 활동 주위에 빠른 작업이 표시되어 상호 작용할 수 있습니다. 예를 들어 활동을 구성하려면 활동을 선택한 다음 빠른 작업에서 ![](assets/edit_darkgrey-24px_table.png) 버튼을 사용하여 엽니다.
+활동을 선택하면 활동 주위에 빠른 작업이 표시되어 상호 작용할 수 있습니다. 예를 들어 활동을 구성하려면 활동을 선택한 다음 ![](assets/edit_darkgrey-24px_table.png) 버튼을 클릭합니다.
 
 특정 함수는 작업 공간에서만 활성화됩니다.
 
 * 주변에 영역을 그려 여러 활동 및 전환을 선택합니다.
-* **Ctrl** + 마우스 왼쪽 단추를 클릭하여 여러 활동 및/또는 전환을 선택합니다.
-* **Enter** 키를 눌러 현재 선택한 활동이나 전환의 세부 정보를 봅니다.
-* **Delete** 키를 눌러 현재 선택한 활동을 삭제합니다.
-* **Ctrl + C** 키를 눌러 선택한 활동을 복사하고 **Ctrl + V**&#x200B;을 눌러 작업 공간에 붙여넣습니다.
+* 누르기 **Ctrl** + 왼쪽 클릭으로 여러 활동 및/또는 전환을 선택합니다.
+* 누르기 **Enter 키** 을 클릭하여 현재 선택한 활동 또는 전환의 세부 사항을 확인합니다.
+* 누르기 **삭제** 을 클릭하여 현재 선택한 활동을 삭제합니다.
+* 누르기 **Ctrl + C** 선택한 활동을 복사하려면 다음을 수행하십시오. **Ctrl + V** 붙여넣을 수 있습니다.
 
 ![](assets/workflow_workspace.png)
 
@@ -119,7 +119,7 @@ ht-degree: 4%
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>활동을 비활성화합니다.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>선택 항목을 즉시 처리합니다. 이 단추는 <span class="uicontrol">스케줄러</span> 및 <span class="uicontrol">대기</span> 활동에만 사용할 수 있습니다.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>선택 항목을 즉시 처리합니다. 이 버튼은 <span class="uicontrol">스케줄러</span> 및 <span class="uicontrol">대기</span> 활동.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>선택한 활동을 삭제합니다.
 
@@ -135,15 +135,15 @@ ht-degree: 4%
 
 활동을 복제하려면 아래 단계를 수행하십시오.
 
-1. 활동을 선택한 다음 빠른 작업에서 **[!UICONTROL Copy selection]** 버튼을 클릭합니다.
+1. 활동을 선택한 다음 **[!UICONTROL Copy selection]** 버튼을 클릭합니다.
 
-   **Ctrl + C** 키보드 단축키를 사용할 수도 있습니다.
+   를 사용할 수도 있습니다 **Ctrl + C** 키보드 단축키.
 
    ![](assets/wkf_copypaste1.png)
 
-1. Target 워크플로우 작업 영역에서 마우스 오른쪽 단추를 클릭한 다음 **[!UICONTROL Paste]** 단추를 클릭합니다.
+1. Target 워크플로우 작업 영역에서 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL Paste]** 버튼을 클릭합니다.
 
-   **CTRL + V** 키보드 단축키를 사용할 수도 있습니다.
+   를 사용할 수도 있습니다 **CTRL + V** 키보드 단축키.
 
    ![](assets/wkf_copypaste2.png)
 
@@ -151,6 +151,6 @@ ht-degree: 4%
 
 여러 활동을 복사-붙여넣기할 수도 있으므로 전체 워크플로우를 복제할 수 있습니다.
 
-이렇게 하려면 활동 주위에 영역을 그려 활동을 선택합니다. 그런 다음 작업 표시줄에서 **[!UICONTROL Copy selection]** 단추를 클릭합니다(또는 **Ctrl + C** 키). 그런 다음 원하는 위치에 붙여넣을 수 있습니다.
+이렇게 하려면 활동 주위에 영역을 그려 활동을 선택합니다. 그런 다음 **[!UICONTROL Copy selection]** 작업 표시줄에서 버튼 누르기 **Ctrl + C**). 그런 다음 원하는 위치에 붙여넣을 수 있습니다.
 
 ![](assets/wkf_copypaste3.png)

@@ -17,9 +17,9 @@ ht-degree: 25%
 
 # 개인 정보 요청 모니터링 {#monitoring-a-privacy-request}
 
-**GET** 요청을 사용하여 생성된 개인 정보 보호 요청에 대한 정보를 모니터링할 수 있습니다.
+생성된 개인 정보 보호 요청에 대한 정보를 **GET** 요청.
 
-상태 목록 설명은 [개인 정보 관리 설명서](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)에 나와 있습니다.
+상태 목록 설명은 [개인 정보 관리 설명서](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 

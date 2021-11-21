@@ -24,7 +24,7 @@ ht-degree: 53%
 
 ![](assets/subscription_activity_example1.png)
 
-* [파일 로드](../../automating/using/load-file.md) 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다.
+* A [파일 로드](../../automating/using/load-file.md) 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다.
 
    이 예제에서 로드된 파일은 .csv 형식으로 되어 있으며 다음 데이터를 포함합니다.
 
@@ -43,14 +43,14 @@ ht-degree: 53%
 
    ![](assets/subscription_activity_example2.png)
 
-* [조정](../../automating/using/reconciliation.md) 활동은 파일의 데이터를 Adobe Campaign 데이터베이스의 프로필 차원에 속하는 것으로 식별합니다. **[!UICONTROL Identification]** 탭만 구성됩니다. 프로필의 이메일 주소에 따라 파일 데이터를 식별합니다.
+* A [조정](../../automating/using/reconciliation.md) 활동은 파일의 데이터를 Adobe Campaign 데이터베이스의 프로필 차원에 속하는 것으로 식별합니다. **[!UICONTROL Identification]** 탭만 구성됩니다. 프로필의 이메일 주소에 따라 파일 데이터를 식별합니다.
 
    ![](assets/subscription_activity_example3.png)
 
-* 임시 리소스의 **이메일** 필드를 기반으로 한 [중복 제거](../../automating/using/deduplication.md)는(조정 결과) 모든 중복을 식별합니다. 파일에서 가져온 데이터에 중복된 항목이 있으면 모든 데이터에 대한 서비스 구독이 실패합니다.
+* A [중복 제거](../../automating/using/deduplication.md) 기준 **이메일** 임시 리소스의 필드(조정 결과)는 모든 중복을 식별합니다. 파일에서 가져온 데이터에 중복된 항목이 있으면 모든 데이터에 대한 서비스 구독이 실패합니다.
 
    ![](assets/subscription_activity_example5.png)
 
-* [구독 서비스](../../automating/using/subscription-services.md) 활동을 사용하면 프로필을 구독해야 하는 서비스, 구독 날짜에 해당하는 필드 및 구독 출처를 선택할 수 있습니다.
+* A [구독 서비스](../../automating/using/subscription-services.md) 활동을 통해 프로필을 구독해야 하는 서비스, 구독 날짜에 해당하는 필드 및 구독 출처를 선택할 수 있습니다.
 
    ![](assets/subscription_activity_example4.png)

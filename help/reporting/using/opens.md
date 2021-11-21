@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # 오픈율{#opens}
 
-**[!UICONTROL Opens]** 보고서는 수신자가 가장 많이 본 게재 항목을 식별합니다.
+다음 **[!UICONTROL Opens]** 보고서는 수신자가 가장 많이 본 게재 항목을 식별합니다.
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ ht-degree: 4%
 * 플랫폼
 * 도메인
 
-**[!UICONTROL TOP 5]** 테이블 및 그래프는 메시지가 가장 많이 게재된 게재 항목을 표시합니다.
+다음 **[!UICONTROL TOP 5]** 표 및 그래프는 메시지가 가장 많이 게재된 게재 항목을 표시합니다.

@@ -22,9 +22,9 @@ ht-degree: 3%
 >
 >Audience Destinations 서비스는 현재 베타에 있으며, 예고 없이 자주 업데이트될 수 있습니다. 고객은 이러한 기능에 액세스하려면 Azure에서 호스팅(현재 북미 전용 베타 버전)해야 합니다. 액세스하려면 고객 지원 센터에 문의하십시오.
 
-세그먼트 빌더를 사용하면 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)에서 오는 데이터를 기반으로 규칙을 정의하여 대상을 작성할 수 있습니다.
+세그먼트 빌더를 사용하면 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-이 섹션에서는 세그먼트를 작성할 때의 글로벌 개념을 설명합니다. 세그먼트 빌더 자체에 대한 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)를 참조하십시오.
+이 섹션에서는 세그먼트를 작성할 때의 글로벌 개념을 설명합니다. 세그먼트 빌더 자체에 대한 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 세그먼트 빌더 인터페이스는 다음과 같이 구성됩니다.
 
@@ -46,7 +46,7 @@ ht-degree: 3%
 
 1. 설정 창에서 원하는 병합 정책을 선택했는지 확인합니다.
 
-   병합 정책에 대한 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)에서 전용 섹션을 참조하십시오.
+   병합 정책에 대한 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,7 +64,7 @@ ht-degree: 3%
 
 왼쪽 창에는 규칙을 구성하는 데 사용할 수 있는 모든 속성, 이벤트 및 대상이 표시됩니다.
 
-나열된 필드는 회사가 캡처하는 특성이며 [XDM(Experience Data Model) 시스템](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을 통해 사용할 수 있도록 만들어졌습니다.
+나열된 필드는 회사에서 캡처한 특성이며 [XDM(경험 데이터 모델) 시스템](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 필드는 탭으로 구성됩니다.
 
@@ -78,11 +78,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->**다중 엔티티 세그먼테이션** 을 사용하면 제품, 스토어 또는 기타 비프로필 클래스를 기반으로 추가 데이터로 프로필 데이터를 확장할 수 있습니다. 연결되면 추가 클래스의 데이터를 프로필 스키마에 대한 기본 데이터 처럼 사용할 수 있게 됩니다.
+>**다중 엔티티 세그먼테이션** 제품, 저장소 또는 기타 비프로필 클래스를 기반으로 하여 프로필 데이터를 추가 데이터로 확장할 수 있습니다. 연결되면 추가 클래스의 데이터를 프로필 스키마에 대한 기본 데이터 처럼 사용할 수 있게 됩니다.
 >
 >자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)를 참조하십시오.
 
-기본적으로 세그먼트 빌더에는 데이터가 이미 있는 필드가 표시됩니다. 데이터가 없는 필드를 포함하여 전체 스키마를 표시하려면 설정에서 **[!UICONTROL Show full XDM schema]** 옵션을 활성화합니다.
+기본적으로 세그먼트 빌더에는 데이터가 이미 있는 필드가 표시됩니다. 데이터가 없는 필드를 포함하여 전체 스키마를 표시하려면 **[!UICONTROL Show full XDM schema]** 옵션을 선택합니다.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -94,7 +94,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->아래 섹션에서는 규칙 정의에 대한 전역 정보를 제공합니다. 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)를 참조하십시오.
+>아래 섹션에서는 규칙 정의에 대한 전역 정보를 제공합니다. 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 규칙을 만들려면 다음 단계를 수행합니다.
 
@@ -106,9 +106,9 @@ ht-degree: 3%
 
    ![](assets/aep_audiences_malegender.png)
 
-   세그먼트에 해당하는 예상 모집단은 **[!UICONTROL Segment Properties]** 섹션에서 자동으로 다시 계산됩니다.
+   세그먼트에 해당하는 예상 모집단은 **[!UICONTROL Segment Properties]** 섹션을 참조하십시오.
 
-1. **[!UICONTROL View Profiles]** 단추를 사용하면 규칙에 해당하는 처음 20개의 레코드 미리 보기를 제공하여 세그먼트의 유효성을 빠르게 확인할 수 있습니다.
+1. 다음 **[!UICONTROL View Profiles]** 버튼은 규칙에 해당하는 처음 20개 레코드의 미리 보기를 제공하여 세그먼트의 유효성을 빠르게 검사할 수 있도록 합니다.
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 1. 첫 번째 필드와 비교할 두 번째 필드(예: 회사 주소 우편 번호)를 선택합니다.
 
-   **[!UICONTROL Drop here to compare operands]** 상자의 첫 번째 필드와 동일한 컨테이너에 있는 가운데 작업 영역으로 끌어서 놓습니다.
+   중앙 작업 영역으로 끌어서 놓습니다. 그러면 첫 번째 필드와 같은 컨테이너에 있는 **[!UICONTROL Drop here to compare operands]** 상자.
 
    ![](assets/aep_audiences_comparing_2.png)
 

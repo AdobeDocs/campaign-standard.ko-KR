@@ -28,20 +28,20 @@ ht-degree: 41%
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]** 을(를) 끌어다 놓고 **[!UICONTROL is not empty]** 연산자가 있는 **[!UICONTROL email]**&#x200B;를 선택합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL no]** 값이 있는 **[!UICONTROL no longer contact by email]**&#x200B;를 선택합니다.
+1. in **[!UICONTROL Shortcuts]**, 드래그 앤 드롭 **[!UICONTROL Profiles]** 을(를) 선택합니다. **[!UICONTROL email]** 연산자 사용 **[!UICONTROL is not empty]**.
+1. in **[!UICONTROL Shortcuts]**, 드래그 앤 드롭 **[!UICONTROL Profiles]** 을(를) 선택합니다. **[!UICONTROL no longer contact by email]** 값 사용 **[!UICONTROL no]**.
 1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
 
 ![](assets/wf-complement-query.png)
 
 ## 세분화 활동 만들기 {#create-a-segmentation-activity}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;세그먼테이션](../../automating/using/segmentation.md) 활동을 끌어다 놓고 두 번 클릭합니다.[
-1. 마우스를 세그먼트 위로 가져간 다음 ![](assets/edit_darkgrey-24px.png) 을 클릭하여 데이터베이스에 올해 추가된 고객을 타깃팅합니다.
-1. **[!UICONTROL Profiles]** 을(를) 끌어다 놓고 필터 유형이 **[!UICONTROL Relative]**&#x200B;인 **[!UICONTROL Created]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Level of precision]**&#x200B;을 **[!UICONTROL Year]**(으)로 변경하고 **[!UICONTROL This year]**&#x200B;를 선택합니다.
+1. in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, 드래그 앤 드롭 [세그먼테이션](../../automating/using/segmentation.md) 활동을 두 번 클릭하고 클릭합니다.
+1. 마우스를 세그먼트 위로 가져간 다음 을(를) 클릭합니다. ![](assets/edit_darkgrey-24px.png) 데이터베이스에 올해 추가된 고객을 대상으로 합니다.
+1. 드래그 앤 드롭 **[!UICONTROL Profiles]** 을(를) 선택합니다. **[!UICONTROL Created]** 필터 유형 사용 **[!UICONTROL Relative]**.
+1. 변경 **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** 을(를) 선택합니다. **[!UICONTROL This year]**.
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 두 번 클릭합니다.
-1. **[!UICONTROL Advanced Options]**&#x200B;에서 **[!UICONTROL Generate complement]** 을 선택하여 나머지 수신자를 타겟팅하는 세그먼트를 만듭니다.
+1. in **[!UICONTROL Advanced Options]**, check **[!UICONTROL Generate complement]** 나머지 수신자를 타겟팅하는 세그먼트를 만들려면
 1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
 
@@ -49,11 +49,11 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->규칙의 구조를 관찰하려면 **[!UICONTROL Advanced Mode]**&#x200B;을(를) 클릭합니다.
+>규칙 구조를 관찰하려면 **[!UICONTROL Advanced Mode]**.
 
 ## 이메일 게재 만들기 {#create-an-email-delivery}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;에서 각 세그먼트 뒤에 [이메일 배달](../../automating/using/email-delivery.md) 활동을 끌어다 놓습니다.
+1. in **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, 드래그 앤 드롭 [이메일 게재](../../automating/using/email-delivery.md) 활동은 각 세그먼트 뒤에 표시됩니다.
 1. 활동을 클릭하고 편집하려면 ![](assets/edit_darkgrey-24px.png)을(를) 선택합니다.
 1. **[!UICONTROL Single send email]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 1. 전자 메일 템플릿을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.

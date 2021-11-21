@@ -22,19 +22,19 @@ ht-degree: 2%
 이메일 디자이너를 사용하여 이메일 콘텐츠를 처음부터 만들고 디자인하는 주요 단계는 다음과 같습니다.
 
 1. 이메일을 만들고 해당 콘텐츠를 엽니다.
-1. 구조 구성 요소를 추가하여 전자 메일 모양을 지정합니다. [전자 메일 구조 편집](#defining-the-email-structure)을 참조하십시오.
-1. 구조 구성 요소에 컨텐츠 구성 요소 및 조각을 삽입합니다. [조각 및 컨텐츠 구성 요소 추가](#defining-the-email-structure)를 참조하십시오.
-1. 이미지를 추가하고 전자 메일의 텍스트를 편집합니다. [이미지 삽입](../../designing/using/images.md#inserting-images)을 참조하십시오.
-1. 개인화 필드, 링크 등을 추가하여 이메일을 개인화합니다. [개인화 필드 삽입](../../designing/using/personalization.md#inserting-a-personalization-field), [링크 삽입](../../designing/using/links.md#inserting-a-link) 및 [이메일에서 동적 콘텐츠 정의](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)를 참조하십시오.
-1. 이메일의 제목란을 정의합니다. [이메일 제목란 개인화](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)를 참조하십시오.
+1. 구조 구성 요소를 추가하여 전자 메일 모양을 지정합니다. 자세한 내용은 [전자 메일 구조 편집](#defining-the-email-structure).
+1. 구조 구성 요소에 컨텐츠 구성 요소 및 조각을 삽입합니다. 자세한 내용은 [조각 및 컨텐츠 구성 요소 추가](#defining-the-email-structure).
+1. 이미지를 추가하고 전자 메일의 텍스트를 편집합니다. 자세한 내용은 [이미지 삽입](../../designing/using/images.md#inserting-images).
+1. 개인화 필드, 링크 등을 추가하여 이메일을 개인화합니다. 자세한 내용은 [개인화 필드 삽입](../../designing/using/personalization.md#inserting-a-personalization-field), [링크 삽입](../../designing/using/links.md#inserting-a-link) 및 [이메일에서 동적 콘텐츠 정의](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+1. 이메일의 제목란을 정의합니다. 자세한 내용은 [이메일 제목란 개인화](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. 이메일 미리 보기.
 1. 콘텐츠를 저장하고, 대상자를 정의하고 전송을 적절하게 예약했는지 확인한 후 메시지를 계속 진행합니다.
 
-이 [소개 비디오](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)를 확인할 수도 있습니다.
+이 체크 아웃도 가능합니다 [소개 비디오](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
->이메일 콘텐츠를 처음부터 디자인하지 않으려면 기본 제공 콘텐츠 템플릿을 사용할 수 있습니다. 자세한 내용은 [콘텐츠 템플릿](../../designing/using/using-reusable-content.md#content-templates)을 참조하십시오.
+>이메일 콘텐츠를 처음부터 디자인하지 않으려면 기본 제공 콘텐츠 템플릿을 사용할 수 있습니다. 자세한 내용은 [콘텐츠 템플릿](../../designing/using/using-reusable-content.md#content-templates).
 
 ## 전자 메일 구조 정의 {#defining-the-email-structure}
 
@@ -53,7 +53,7 @@ ht-degree: 2%
 전자 메일 구조를 편집하려면 다음을 수행하십시오.
 
 1. 기존 콘텐츠를 열거나 새 이메일 콘텐츠를 만듭니다.
-1. 왼쪽의 **+** 아이콘을 선택하여 **[!UICONTROL Structure components]**&#x200B;에 액세스합니다.
+1. 액세스 권한 **[!UICONTROL Structure components]** 다음을 선택하여 **+** 아이콘을 클릭합니다.
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
 1. 하나 이상의 열로 구성된 몇 가지 구조 구성 요소를 사용할 수 있습니다.
 
-   **[!UICONTROL n:n column]** 구성 요소를 선택하여 선택한 열의 수를 정의합니다(3과 10 사이). 각 열의 맨 아래에서 화살표를 이동하여 각 열의 너비를 정의할 수도 있습니다.
+   을(를) 선택합니다 **[!UICONTROL n:n column]** 구성 요소를 사용하여 선택한 열 수를 정의합니다(3과 10 사이). 각 열의 맨 아래에서 화살표를 이동하여 각 열의 너비를 정의할 수도 있습니다.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -90,11 +90,11 @@ ht-degree: 2%
 
 사전 헤더는 받은 편지함에서 전자 메일을 볼 때 제목란을 따르는 간단한 요약 텍스트입니다. preheader가 더 높은 공개 비율을 전달합니다.
 
-**[!UICONTROL Preheader]** 편집 상자를 선택하고 컨텐츠를 완료합니다.
+을(를) 선택합니다 **[!UICONTROL Preheader]** 편집 상자를 열고 컨텐츠를 완료합니다.
 
 ![](assets/email_designer_preheader.png)
 
-사전 헤더 컨텐츠에 **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** 또는 **[!UICONTROL Personalization fields]**&#x200B;를 추가할 수 있습니다.
+을(를) 추가할 수 있습니다 **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** 또는 **[!UICONTROL Personalization fields]** 를 입력합니다.
 
 >[!NOTE]
 >
@@ -115,19 +115,19 @@ ht-degree: 2%
 
 ### **[!UICONTROL Button]**
 
-각 단추를 처음부터 편집하지 않고 여러 단추를 사용해야 하는 경우 상황별 도구 모음을 사용하여 **[!UICONTROL Button]** 구성 요소를 복제할 수 있습니다.
+각 단추를 처음부터 편집하지 않고 여러 단추를 사용해야 하는 경우 **[!UICONTROL Button]** 구성 요소를 사용할 수 있습니다.
 
-단추를 조각에 저장하여 재사용할 수도 있습니다. 자세한 내용은 [컨텐츠 조각 만들기](../../designing/using/using-reusable-content.md#creating-a-content-fragment) 및 [컨텐츠를 조각](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)으로 저장 을 참조하십시오.
+단추를 조각에 저장하여 재사용할 수도 있습니다. 자세한 내용은 [컨텐츠 조각 만들기](../../designing/using/using-reusable-content.md#creating-a-content-fragment) 및 [컨텐츠를 조각으로 저장](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
-전자 메일 디자이너에서 대체 이미지를 표시하려면 **[!UICONTROL Fallback view]** 을 선택합니다.
+선택 **[!UICONTROL Fallback view]** 전자 메일 디자이너에서 대체 이미지를 표시하려면
 
 ### **[!UICONTROL Text]**
 
-이 구성 요소를 사용하여 전자 메일에 텍스트를 삽입합니다. **[!UICONTROL Component Settings]**&#x200B;에서 텍스트의 색상, 스타일 및 크기를 조정할 수 있습니다.
+이 구성 요소를 사용하여 전자 메일에 텍스트를 삽입합니다. 에서 텍스트의 색상, 스타일 및 크기를 조정할 수 있습니다 **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL Divider]**
 
-이 구성 요소를 사용하여 이메일에 분할선을 삽입합니다. **[!UICONTROL Component Settings]**&#x200B;에서 줄바꿈 선의 색상, 스타일 및 크기를 선택할 수 있습니다.
+이 구성 요소를 사용하여 이메일에 분할선을 삽입합니다. 줄바꿈 선의 색상, 스타일 및 크기를 선택할 수 있습니다 **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL HTML]**
 
@@ -135,11 +135,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->무료 HTML 구성 요소는 제한된 옵션으로 편집할 수 있습니다. 모든 스타일이 삽입되지 않은 경우 HTML 코드의 **head** 섹션에 올바른 CSS를 추가해야 합니다. 그렇지 않으면 이메일이 응답적이지 않습니다. **[!UICONTROL Preview]** 단추를 사용하여 컨텐츠의 응답성을 테스트합니다( [메시지 미리 보기](../../sending/using/previewing-messages.md) 참조).
+>무료 HTML 구성 요소는 제한된 옵션으로 편집할 수 있습니다. 모든 스타일이 삽입되지 않은 경우 **헤드** HTML 코드의 섹션, 그렇지 않으면 이메일이 응답하지 않습니다. 를 사용하십시오 **[!UICONTROL Preview]** 컨텐츠의 응답성을 테스트하기 위한 단추( 참조) [메시지 미리 보기](../../sending/using/previewing-messages.md)).
 
 이메일 디자이너와 호환되는 외부 콘텐츠를 만들기만 한다면 메시지를 처음부터 만들고 기존 이메일의 컨텐츠를 조각 및 구성 요소로 복사하는 것이 좋습니다.
 
-다시 생성할 수 없는 컨텐츠가 있는 경우 **[!UICONTROL Html]** 컨텐츠 구성 요소를 사용하여 원래 이메일에서 HTML 코드를 복사하여 붙여넣을 수 있습니다. 계속하기 전에 HTML을 잘 알고 있는지 확인하십시오.
+다시 생성할 수 없는 컨텐츠가 있는 경우 를 사용하여 원래 이메일에서 HTML 코드를 복사하여 붙여넣을 수 있습니다. **[!UICONTROL Html]** 컨텐츠 구성 요소입니다. 계속하기 전에 HTML을 잘 알고 있는지 확인하십시오.
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ ht-degree: 2%
 
 1. 원본 이메일에서 전송할 각 이메일에 고유한 섹션에서 재사용 가능한 섹션을 식별합니다.
 1. 사용하려는 모든 이미지 및 자산을 저장합니다.
-1. HTML에 익숙한 경우 원래 HTML 컨텐츠를 다른 부분으로 분할합니다.
+1. HTML에 익숙하다면 원본 HTML 컨텐츠를 다른 부분으로 분할하십시오.
 
 ### 비디오 {#video-settings}
 
@@ -159,7 +159,7 @@ ht-degree: 2%
 >abstract="이 구성 요소를 사용하여 이메일에 비디오를 삽입합니다. 모든 이메일 클라이언트는 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="추가 정보"
 
-비디오 구성 요소를 이메일의 구조 구성 요소에 삽입하고 **[!UICONTROL Component Settings]**&#x200B;에 비디오 링크를 입력합니다.
+비디오 구성 요소를 이메일의 구조 구성 요소에 삽입하고 비디오 링크를 **[!UICONTROL Component Settings]**.
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ ht-degree: 2%
 
 ### **[!UICONTROL Social]**
 
-이 구성 요소를 사용하여 이메일에 소셜 미디어 페이지에 대한 링크를 삽입합니다. 표시할 링크와 **[!UICONTROL Component Settings]**&#x200B;에서 아이콘의 크기를 선택할 수 있습니다.
+이 구성 요소를 사용하여 이메일에 소셜 미디어 페이지에 대한 링크를 삽입합니다. 표시할 링크와 아이콘 크기를 선택할 수 있습니다 **[!UICONTROL Component Settings]**.
 
 ### 회전판 {#carousel-settings}
 
@@ -182,12 +182,12 @@ ht-degree: 2%
 >title="회전 메뉴 설정"
 >abstract="컨텐츠에 회전판을 삽입하고 구성하는 방법을 알아봅니다.회전판이 모든 이메일 클라이언트에서 작동하지 않고, 지원되지 않는 경우 대체 이미지가 표시됩니다."
 
-1. 구조 구성 요소 내에서 **[!UICONTROL Carousel]** 구성 요소를 드래그하여 놓습니다.
+1. 을(를) 끌어다 놓습니다 **[!UICONTROL Carousel]** 구성 요소를 생성하지 않습니다.
 1. 컴퓨터에서 이미지를 찾아 선택합니다.
 
    ![](assets/des_carousel_browse.png)
 
-1. **[!UICONTROL Settings]** 창에서 회전판에서 원하는 축소판 그림 수를 설정합니다.
+1. 에서 **[!UICONTROL Settings]** 회전판에서 원하는 축소판 그림 수를 설정합니다.
 1. 컴퓨터에서 대체 이미지를 선택합니다.
 
    ![](assets/des_carousel_fallback.png)
@@ -196,7 +196,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->회전판 구성 요소는 다음 이메일 플랫폼과 호환됩니다. Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Mac용 Outlook 2016, Mozilla Thunderbird, iPad 및 iPad 미니 iOS, iPhone iOS, Android, AOL(Chrome, Firefox 및 Safari).
+>회전판 구성 요소는 다음 이메일 플랫폼과 호환됩니다. Apple Mail 7, Apple Mail 8, Outlook 2011 for Mac, Mac용 Outlook 2016, Mozilla Thunderbird, iPad 및 iPad mini iOS, iPhone iOS, Android, AOL(Chrome, Firefox 및 Safari).
 
 **관련 항목**:
 

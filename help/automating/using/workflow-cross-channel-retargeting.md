@@ -28,15 +28,15 @@ ht-degree: 38%
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]** 을(를) 끌어다 놓고 **[!UICONTROL is not empty]** 연산자가 있는 **[!UICONTROL email]**&#x200B;를 선택합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL no ]** 값이 있는 **[!UICONTROL no longer contact by email]**&#x200B;를 선택합니다.
+1. in **[!UICONTROL Shortcuts]**, 드래그 앤 드롭 **[!UICONTROL Profiles]** 을(를) 선택합니다. **[!UICONTROL email]** 연산자 사용 **[!UICONTROL is not empty]**.
+1. in **[!UICONTROL Shortcuts]**, 드래그 앤 드롭 **[!UICONTROL Profiles]** 을(를) 선택합니다. **[!UICONTROL no longer contact by email]** 값 사용 **[!UICONTROL no ]**.
 1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
 
 ![](assets/wf-complement-query.png)
 
 ## 전자 메일 게재 만들기{#creating-an-email-delivery}
 
-1. 각 세그먼트 뒤에 [이메일 배달](../../automating/using/email-delivery.md)을(를) 끌어다 놓습니다.
+1. 끌어서 놓기 [이메일 게재](../../automating/using/email-delivery.md) 각 세그먼트 뒤에 배치하십시오.
 1. 활동을 클릭하고 편집하려면 ![](assets/edit_darkgrey-24px.png)을(를) 선택합니다.
 1. **[!UICONTROL Simple email]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 1. **[!UICONTROL Add an outbound transition without the population]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
@@ -44,20 +44,20 @@ ht-degree: 38%
 1. 전자 메일 속성을 입력하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 전자 메일 레이아웃을 만들려면 **[!UICONTROL Using the Email Designer]**&#x200B;을(를) 클릭합니다.
 1. 요소를 삽입하거나 기존 템플릿을 선택합니다.
-1. 각 위치에 맞는 오퍼로 전자 메일을 개인화합니다.자세한 내용은 [전자 메일 디자인](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)을 참조하십시오.
+1. 각 위치에 맞는 오퍼로 전자 메일을 개인화합니다.자세한 내용은 [이메일 디자인](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. 레이아웃을 확인하려면&#x200B;**[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 ## 쿼리 활동에서 열지 않은 사용자 타겟팅{#targeting-non-openers-in-a-query-activity}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;에서 [Wait](../../automating/using/wait.md) 활동을 끌어다 놓습니다.
-1. **[!UICONTROL Duration]**&#x200B;에서 ![](assets/duration-icon.png)을 클릭하고 하루 중 하나를 선택합니다.
+1. in **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, 드래그 앤 드롭 [대기](../../automating/using/wait.md) 활동.
+1. in **[!UICONTROL Duration]**&#x200B;를 클릭하고 ![](assets/duration-icon.png) 1일을 선택합니다.
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 **[!UICONTROL Query activity]**&#x200B;을(를) 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Tracking Logs]** 연산자와 **[!UICONTROL exists]** 연산자를 사용하여  를 끌어다 놓습니다.
-1. **[!UICONTROL Shortcuts]** **[!UICONTROL Delivery]**&#x200B;에서 **[!UICONTROL delivery]** 연산자를 사용하여 **[!UICONTROL is equal to]** 게재를 드래그하여 값으로 선택합니다.
-1. **[!UICONTROL Shortcuts]** **[!UICONTROL Delivery]**&#x200B;에서 **[!UICONTROL type]** 를 끌어다 놓고 **[!UICONTROL Open]** 을 값으로 선택합니다.
-1. 규칙 사이의 연산자를 **[!UICONTROL except]**(으)로 선택합니다.
+1. in **[!UICONTROL Shortcuts]**, 드래그 앤 드롭 **[!UICONTROL Tracking Logs]** 연산자로 **[!UICONTROL exists]**.
+1. in **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, 드래그 앤 드롭 **[!UICONTROL delivery]** 연산자 사용 **[!UICONTROL is equal to]** 게재를 값으로 선택합니다.
+1. in **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**, 드래그 앤 드롭 **[!UICONTROL type]** 확인 **[!UICONTROL Open]** 값을 로 설정합니다.
+1. 규칙 사이의 연산자를 다음과 같이 선택합니다. **[!UICONTROL except]**.
 1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
 
 ## sms 게재 만들기{#creating-a-sms-delivery}
@@ -65,12 +65,12 @@ ht-degree: 38%
 1. 각 세그먼트 뒤에 sms 게재를 드래그하여 놓습니다.
 1. 활동을 클릭하고 편집하려면 ![](assets/edit_darkgrey-24px.png)을(를) 선택합니다.
 1. **[!UICONTROL Simple sms]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
-1. sms 템플릿을 선택하고 **[!UICONTROL Next]** 을(를) 클릭합니다.
-1. sms 속성을 입력하고 **[!UICONTROL Next]** 을(를) 클릭합니다.
-1. sms 레이아웃을 만들려면 **[!UICONTROL Email Designer]** 을(를) 클릭합니다.
+1. sms 템플릿을 선택하고 을(를) 클릭합니다. **[!UICONTROL Next]**.
+1. sms 속성을 입력하고 을(를) 클릭합니다 **[!UICONTROL Next]**.
+1. sms 레이아웃을 만들려면 을(를) 클릭합니다. **[!UICONTROL Email Designer]**.
 1. 요소를 삽입하거나 기존 템플릿을 선택합니다.
 1. 각 위치에 맞는 오퍼로 sms를 개인화합니다.
-자세한 내용은 [sms](../../channels/using/creating-an-sms-message.md) 디자인 섹션을 참조하십시오.
+자세한 내용은 [sms 디자인](../../channels/using/creating-an-sms-message.md) 섹션을 참조하십시오.
 1. 레이아웃을 확인하려면&#x200B;**[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 

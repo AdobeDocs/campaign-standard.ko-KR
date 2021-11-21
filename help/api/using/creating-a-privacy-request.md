@@ -19,16 +19,16 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->[개인 정보 보호 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. 19.4 릴리스부터 액세스 및 삭제 요청에 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 사용 중단된 Campaign Standard 및 제거된 기능에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
+>다음 [개인 정보 보호 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. 19.4 릴리스부터 액세스 및 삭제 요청에 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 사용 중단된 Campaign Standard 및 제거된 기능에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
 
-개인 정보 보호 요청은 **POST** 요청을 사용하여 만들어집니다.
+개인 정보 보호 요청은 **POST** 요청.
 
-요청을 만들기 전에 사용할 네임스페이스를 정의해야 합니다. 자세한 내용은 [개인 정보 관리 설명서](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)를 참조하십시오.
+요청을 만들기 전에 사용할 네임스페이스를 정의해야 합니다. 자세한 내용은 [개인 정보 관리 설명서](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 페이로드에는 다음 매개 변수가 포함되어야 합니다.
 
 * **이름**: 고유한 내부 이름
-* **네임스페이스**: Campaign Standard 인터페이스에 구성된 네임스페이스 이름
+* **namespace**: Campaign Standard 인터페이스에 구성된 네임스페이스 이름
 * **reconciliationValue**: 네임스페이스에 정의된 조정 키를 기반으로 하는 조정 값
 * **레이블**: 요청 레이블
 * **유형**: 요청 유형입니다. 허용되는 값은 &quot;access&quot; 또는 &quot;delete&quot;입니다.

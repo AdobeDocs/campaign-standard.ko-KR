@@ -22,27 +22,27 @@ Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사�
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[게재 최적화](optimize-delivery.md)**  - 전송 프로세스 보안 및 최적화
+**[게재 최적화](optimize-delivery.md)** - 전송 프로세스 보안 및 최적화
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[템플릿 사용](use-templates.md)**  - 새로운 게재 작업 촉진 및 가속화
+**[템플릿 사용](use-templates.md)** - 신규 게재 촉진 및 가속화
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[콘텐츠 개인화](design-and-personalize.md)**  - 올바른 설정 적용
+**[콘텐츠 개인화](design-and-personalize.md)** - 올바른 설정 적용
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[올바른 대상 정의](define-the-right-audience.md)**  - 올바른 설정 적용
+**[적합한 대상 정의](define-the-right-audience.md)** - 올바른 설정 적용
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[보내기 전 확인](check-before-sending.md)**  - 일반적인 실수 방지
+**[보내기 전 확인](check-before-sending.md)** 일반적인 실수 피하세요
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[추적 및 모니터링](track-and-monitor.md)**  - 전송 및 문제 해결 제어
+**[추적 및 모니터링](track-and-monitor.md)** - 전송 및 문제 해결 제어
 
 ## 관련 콘텐츠
 

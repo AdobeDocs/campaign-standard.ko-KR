@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # 쿼리 샘플 {#query-samples}
 
-이 섹션에서는 **[!UICONTROL Query]** 활동을 사용할 때 사용 사례를 제공합니다. **[!UICONTROL Query]** 활동을 사용하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/query.md)을 참조하십시오.
+이 섹션에서는 **[!UICONTROL Query]** 활동. 사용 방법에 대한 자세한 내용 **[!UICONTROL Query]** 활동, [이 섹션](../../automating/using/query.md).
 
 ## 단순 프로필 속성에 대한 타겟팅 {#targeting-on-simple-profile-attributes}
 

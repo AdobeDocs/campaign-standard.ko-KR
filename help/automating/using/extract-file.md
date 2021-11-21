@@ -43,7 +43,7 @@ ht-degree: 86%
    ![](assets/wkf_data_export1.png)
 
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
-1. **출력 파일**&#x200B;의 레이블을 입력합니다. 파일의 레이블은 고유하도록 만든 날짜 및 시간으로 자동 완성됩니다. 예: 2015년 8월 15일 08:15:32에서 생성된 파일에 대한 recipients_20150815_081532.txt
+1. **출력 파일**&#x200B;의 레이블을 입력합니다. 파일의 레이블은 고유하도록 만든 날짜 및 시간으로 자동 완성됩니다. 예: 2015년 8월 15일 08에서 생성된 파일에 대한 recipients_20150815_081532.txt:15:32.
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ ht-degree: 86%
 
 1. 원하는 경우 **[!UICONTROL Add a post-processing stage]** 필드에서 **[!UICONTROL Compression]**&#x200B;을(를) 선택하여 출력 파일을 압축할 수 있습니다. 출력 파일은 GZIP 파일(.gz)로 압축됩니다.
 
-   또한 **[!UICONTROL Add a post-processing stage]** 필드를 사용하면 파일을 추출하기 전에 암호화할 수 있습니다. 암호화된 파일로 작업하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/managing-encrypted-data.md)을 참조하십시오
+   다음 **[!UICONTROL Add a post-processing stage]** 필드를 사용하면 파일을 추출하기 전에 암호화할 수도 있습니다. 암호화된 파일로 작업하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/managing-encrypted-data.md)
 
-1. **[!UICONTROL Create element]** 단추를 클릭하여 출력 열을 추가합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Create element]** 출력 열을 추가하는 단추.
 
    ![](assets/wkf_data_export2.png)
 

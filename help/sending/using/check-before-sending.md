@@ -28,7 +28,7 @@ ht-degree: 15%
 
 이 단계를 사용하면 주요 타겟에게 전달하기 전에 가능한 오류를 감지하고 수정할 수 있습니다.
 
-게재 유효성 검사 단계는 이 섹션 [에 나와 있습니다.](../../sending/using/get-started-sending-messages.md#prepare-test-send)
+게재 유효성 검사 단계가 표시됩니다 [이 섹션](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## 이메일 렌더링 {#email-rendering}
 
@@ -42,13 +42,13 @@ ht-degree: 15%
 
 * 이메일 렌더링 기능은 이메일 캠페인이 주요 ISP(Internet Service Providers) 및 웹 메일 서비스의 필터를 성공적으로 통과하는지 여부를 식별하는 데 중요합니다. 이러한 도구는 전자 메일의 사전 플라이트 사본을 테스트 받은 편지함 네트워크에 보내어, 이 서비스에서 메시지가 어떻게 표시되거나 렌더링되는지 확인할 수 있습니다. 또한 게재 능력을 향상시키는 데 도움이 되는 보고서 및 코드 수정 옵션이 포함되어 있을 수 있습니다.
 
-이 섹션](../../sending/using/email-rendering.md)에서 추가 [을 알아보십시오.
+추가 정보 [이 섹션](../../sending/using/email-rendering.md).
 
 ## 증명 메시지 {#proof-messages}
 
 증명을 보내면 옵트아웃 링크, 미러 페이지 및 기타 모든 링크를 확인하고, 메시지를 확인하고, 이미지가 표시되는지 확인하고, 가능한 오류 감지 등을 수행할 수 있습니다. 다른 장치에서 디자인과 렌더링을 확인할 수도 있습니다.
 
-이 섹션](../../sending/using/sending-proofs.md)에서 추가 [을 알아보십시오.
+추가 정보 [이 섹션](../../sending/using/sending-proofs.md).
 
 ## A/B 테스트 게재 설정 {#a-b-testing-deliveries}
 
@@ -60,4 +60,4 @@ ht-degree: 15%
 
 * 성공률이 가장 높은 대상자를 선택하고 나머지 타겟으로 보냅니다
 
-이 섹션](../../channels/using/designing-an-a-b-test-email.md)에서 추가 [을 알아보십시오.
+추가 정보 [이 섹션](../../channels/using/designing-an-a-b-test-email.md).

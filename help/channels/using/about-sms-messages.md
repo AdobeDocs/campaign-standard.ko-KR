@@ -28,7 +28,7 @@ SMS 메시지의 경우 텍스트 형식으로만 메시지를 만들고, 수정
 
 SMS 메시지의 길이는 GSM 인코딩의 경우 160자로 제한되고, 유니코드에 있는 경우에는 70자만 제한됩니다. 그러나 특정 특수 문자는 메시지 길이에 영향을 줄 수 있습니다. 자세한 내용은 [SMS 인코딩](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 섹션을 참조하십시오.
 
-SMS 메시지는 **[!UICONTROL Marketing activities]** 메뉴, 캠페인 또는 워크플로우에서 만들 수 있습니다. [SMS 메시지 만들기](../../channels/using/creating-an-sms-message.md) 를 참조하십시오.
+SMS 메시지는 **[!UICONTROL Marketing activities]** 메뉴, 캠페인 또는 워크플로우에서 다음을 참조하십시오. [SMS 메시지 만들기](../../channels/using/creating-an-sms-message.md).
 
 필요한 휴대폰에 SMS 메시지를 전달하려면 다음을 수행하십시오.
 
@@ -44,13 +44,13 @@ SMS 메시지는 **[!UICONTROL Marketing activities]** 메뉴, 캠페인 또는 
 
 ## SMS 게재 템플릿 {#sms-delivery-template}
 
-Adobe Campaign은 모바일 장치용 게재 템플릿을 제공합니다. 이 템플릿은 **[!UICONTROL Mobile (SMS)]** 채널에 사용되는 외부 계정에 올바르게 연결되어 있어야 합니다. 액세스하여 수정하려면 다음을 수행합니다.
+Adobe Campaign은 모바일 장치용 게재 템플릿을 제공합니다. 이 템플릿은에 사용되는 외부 계정에 올바르게 연결되어 있어야 합니다. **[!UICONTROL Mobile (SMS)]** 채널. 액세스하여 수정하려면 다음을 수행합니다.
 
-1. 고급 메뉴에서 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;를 선택합니다.
-1. 마우스를 **[!UICONTROL Send via SMS]** 템플릿 위로 가져간 후 **중복 요소** 옵션을 선택합니다.
+1. 선택 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 고급 메뉴에서 을 클릭합니다.
+1. 마우스를 위에 놓으십시오 **[!UICONTROL Send via SMS]** 마우스를 사용하여 템플릿을 선택하고 **중복 요소** 선택 사항입니다.
 1. 새 템플릿을 선택합니다.
 1. **[!UICONTROL Edit properties]** 버튼을 클릭합니다.
-1. 템플릿 속성의 **[!UICONTROL Advanced parameters]** 섹션에서 템플릿이 SMS 전달에 사용할 외부 계정에 연결되어 있는지 확인합니다.
+1. 에서 **[!UICONTROL Advanced parameters]** 템플릿 속성의 섹션에서 SMS 전달에 사용할 외부 계정에 템플릿이 연결되어 있는지 확인합니다.
 
    ![](assets/sms_template.png)
 

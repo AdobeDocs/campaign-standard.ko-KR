@@ -18,24 +18,24 @@ ht-degree: 30%
 
 # 트랜잭션 메시지 편집 {#editing-transactional-message}
 
-이벤트<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->를 만들고 게시하면 해당 트랜잭션 메시지가 자동으로 만들어집니다.
+이벤트를 만들고 게시하면<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->를 입력하면 해당 트랜잭션 메시지가 자동으로 만들어집니다.
 
-이벤트를 구성하고 게시하는 단계는 [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md) 및 [트랜잭션 이벤트 게시](../../channels/using/publishing-transactional-event.md) 섹션에 나와 있습니다.
+이벤트를 구성하고 게시하는 단계는 [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md) 및 [트랜잭션 이벤트 게시](../../channels/using/publishing-transactional-event.md) 섹션을 참조하십시오.
 
 이 메시지에 액세스, 편집 및 개인화하는 단계는 아래에 설명되어 있습니다.
 
 >[!IMPORTANT]
 >
->[관리](../../administration/using/users-management.md#functional-administrators) 역할을 가진 사용자만 트랜잭션 메시지에 액세스하고 편집할 수 있습니다.
+>을 사용하는 사용자만 [관리](../../administration/using/users-management.md#functional-administrators) 역할은 트랜잭션 메시지에 액세스하고 편집할 수 있습니다.
 
-메시지가 준비되면 테스트하고 게시할 수 있습니다. [트랜잭션 메시지 테스트](../../channels/using/testing-transactional-message.md) 및 [트랜잭션 메시지 수명 주기](../../channels/using/publishing-transactional-message.md)를 참조하십시오.
+메시지가 준비되면 테스트하고 게시할 수 있습니다. 자세한 내용은 [트랜잭션 메시지 테스트](../../channels/using/testing-transactional-message.md) 및 [트랜잭션 메시지 수명 주기](../../channels/using/publishing-transactional-message.md).
 
 ## 트랜잭션 메시지 액세스 {#accessing-transactional-messages}
 
 만든 트랜잭션 메시지에 액세스하려면:
 
-1. 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭합니다.
-1. **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**&#x200B;를 선택합니다.
+1. 을(를) 클릭합니다. **Adobe** 왼쪽 상단 모서리의 로고.
+1. 선택 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
@@ -43,7 +43,7 @@ ht-degree: 30%
 
    ![](assets/message-center_message-board.png)
 
-해당 이벤트 구성 화면의 왼쪽 영역에 있는 링크를 통해 트랜잭션 메시지에 직접 액세스할 수도 있습니다. [이벤트 미리 보기 및 게시](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)를 참조하십시오
+해당 이벤트 구성 화면의 왼쪽 영역에 있는 링크를 통해 트랜잭션 메시지에 직접 액세스할 수도 있습니다. 자세한 내용은 [이벤트 미리 보기 및 게시](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## 트랜잭션 메시지 개인화 {#personalizing-a-transactional-message}
 
@@ -51,13 +51,13 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->이 섹션에서는 **이벤트 기반** 트랜잭션 메시지를 편집하는 방법을 설명합니다. **프로필 기반** 트랜잭션 메시지 특성은 [아래에 자세히 설명되어 있습니다](#profile-transactional-message-specificities).
+>이 섹션에서는 **이벤트 기반** 트랜잭션 메시지. 다음 **프로필 기반** 트랜잭션 메시지 특성에 대해 자세히 설명합니다 [아래](#profile-transactional-message-specificities).
 >
->이벤트 기반 트랜잭션 메시지를 만드는 구성 단계는 [이 섹션](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)에 나와 있습니다.
+>이벤트 기반 트랜잭션 메시지를 만드는 구성 단계는 [이 섹션](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
-예를 들어 장바구니에 제품을 추가한 웹 사이트 사용자에게 알림을 보내고 구매 과정을 완료하지 않고 사이트를 떠나려고 합니다. 이 예는 [트랜잭션 메시지 작동 원리](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 섹션에 나와 있습니다.
+예를 들어 장바구니에 제품을 추가한 웹 사이트 사용자에게 알림을 보내고 구매 과정을 완료하지 않고 사이트를 떠나려고 합니다. 이 예는 [트랜잭션 메시지 작동 원리](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 섹션을 참조하십시오.
 
-1. 메시지 제목과 콘텐츠를 수정하려면 **[!UICONTROL Content]** 블록을 클릭합니다. 예제에서는 이미지와 텍스트가 포함된 템플릿을 선택합니다. 전자 메일 콘텐츠 템플릿에 대한 자세한 내용은 [템플릿을 사용하여 전자 메일 디자인](../../designing/using/using-reusable-content.md#designing-templates)을 참조하십시오.
+1. 메시지 제목과 콘텐츠를 수정하려면 **[!UICONTROL Content]** 블록을 클릭합니다. 예제에서는 이미지와 텍스트가 포함된 템플릿을 선택합니다. 전자 메일 콘텐츠 템플릿에 대한 자세한 내용은 [템플릿을 사용하여 이메일 디자인](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
@@ -73,7 +73,7 @@ ht-degree: 30%
 
    ![](assets/message-center_7.png)
 
-1. 메시지 콘텐츠를 보강할 수도 있습니다. 이렇게 하려면 이벤트 구성에 연결된 테이블에서 필드를 추가합니다( [이벤트 강화](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 참조). 이 예제에서는 **[!UICONTROL Profile]** 테이블의 **[!UICONTROL Title (salutation)]** 필드를 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** **[!UICONTROL Event context]**&#x200B;에서 선택합니다.
+1. 메시지 콘텐츠를 보강할 수도 있습니다. 이렇게 하려면 이벤트 구성에 연결된 테이블에서 필드를 추가합니다( 참조) [이벤트 강화](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). 이 예에서 **[!UICONTROL Title (salutation)]** 필드의 필드 **[!UICONTROL Profile]** 테이블 스루 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -87,7 +87,7 @@ ht-degree: 30%
 
    ![](assets/message-center_9.png)
 
-   개인화 필드가 테스트 프로필에 입력한 정보와 일치하는지 확인할 수 있습니다. 자세한 내용은 [특정 테스트 프로필 정의](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)를 참조하십시오.
+   개인화 필드가 테스트 프로필에 입력한 정보와 일치하는지 확인할 수 있습니다. 자세한 내용은 [특정 테스트 프로필 정의](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 <!--## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
 
@@ -211,28 +211,28 @@ For more on creating a collection and related fields when configuring the event,
 
 ## 프로필 기반 트랜잭션 메시지 특성 {#profile-transactional-message-specificities}
 
-고객 마케팅 프로필을 기반으로 트랜잭션 메시지를 보내면 모든 프로필 정보를 활용하여 메시지 콘텐츠를 개인화하고, 구독 취소 링크를 사용하고, [피로도 규칙](../../sending/using/fatigue-rules.md)과 같은 마케팅 유형화 규칙을 적용할 수 있습니다.
+고객 마케팅 프로필을 기반으로 트랜잭션 메시지를 전송할 수 있습니다. 이 경우 모든 프로필 정보를 활용하여 메시지 콘텐츠를 개인화하고, 구독 취소 링크를 사용하고, 다음과 같은 마케팅 유형화 규칙을 적용할 수 있습니다 [피로도 규칙](../../sending/using/fatigue-rules.md).
 
-* 이벤트 기반 트랜잭션 메시지와 프로필 기반 트랜잭션 메시지의 차이에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)을 참조하십시오.
+* 이벤트 기반 트랜잭션 메시지와 프로필 기반 트랜잭션 메시지의 차이점에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
-* 프로필 기반 트랜잭션 메시지를 만드는 구성 단계는 [이 섹션](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)에 자세히 설명되어 있습니다.
+* 프로필 기반 트랜잭션 메시지를 만드는 구성 단계는 [이 섹션](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
 프로필 트랜잭션 메시지를 만들고, 편집하고, 개인화하는 단계는 이벤트 트랜잭션 메시지의 경우와 거의 동일합니다.
 
 차이점은 아래에 나와 있습니다.
 
 1. [만든 트랜잭션 메시지로 이동하여 편집합니다.](#accessing-transactional-messages)
-1. 트랜잭션 메시지에서 **[!UICONTROL Content]** 섹션을 클릭합니다. 트랜잭션 이메일 템플릿 외에 **[!UICONTROL Profile]** 리소스를 타겟팅하는 이메일 템플릿을 선택할 수도 있습니다.
+1. 트랜잭션 메시지에서 **[!UICONTROL Content]** 섹션을 클릭합니다. 트랜잭션 전자 메일 템플릿 외에 **[!UICONTROL Profile]** 리소스 를 참조하십시오.
 
    ![](assets/message-center_marketing_templates.png)
 
-1. 기본 이메일 템플릿을 선택합니다. 모든 마케팅 이메일과 마찬가지로 **구독 취소 링크**&#x200B;가 포함되어 있습니다.
+1. 기본 이메일 템플릿을 선택합니다. 모든 마케팅 이메일과 마찬가지로 **구독 취소 링크**.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   템플릿에 대한 자세한 내용은 [이 섹션](../../designing/using/using-reusable-content.md#content-templates)을 참조하십시오.
+   템플릿에 대한 자세한 내용은 [이 섹션](../../designing/using/using-reusable-content.md#content-templates).
 
-1. 또한 실시간 이벤트 기반 구성과 달리, 메시지를 개인화하기 위해 **모든 프로필 정보**&#x200B;에 직접 액세스할 수 있습니다. 다른 표준 마케팅 이메일과 마찬가지로 [개인화 필드](../../designing/using/personalization.md#inserting-a-personalization-field)를 추가할 수 있습니다.
+1. 또한 실시간 이벤트 기반 구성과 달리 **모든 프로필 정보에 대한 직접 액세스** 메시지를 개인화합니다. 추가할 수 있습니다 [개인화 필드](../../designing/using/personalization.md#inserting-a-personalization-field) 기타 표준 마케팅 이메일에 대해 고려할 수 있습니다.
 
 1. 메시지를 게시하기 전에 변경 사항을 저장합니다. 자세한 내용은 [트랜잭션 메시지 게시](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)를 참조하십시오.
 

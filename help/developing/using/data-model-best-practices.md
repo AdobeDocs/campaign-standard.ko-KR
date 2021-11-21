@@ -23,9 +23,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe Campaign 사전 정의된 데이터 모델을 확장하기 위해 리소스를 만들고 수정하려면 [이 섹션](../../developing/using/key-steps-to-add-a-resource.md)을 참조하십시오.
+>Adobe Campaign 사전 정의된 데이터 모델을 확장하기 위해 리소스를 만들고 수정하려면 다음을 참조하십시오 [이 섹션](../../developing/using/key-steps-to-add-a-resource.md).
 >
->이 페이지](../../developing/using/datamodel-introduction.md)에서 기본 제공 리소스의 데이터 모델 표현을 찾을 수 있습니다.[
+>기본 제공 리소스의 데이터 모델 표현을 찾을 수 있습니다 [이 페이지](../../developing/using/datamodel-introduction.md).
 
 ## 개요 {#overview}
 
@@ -41,11 +41,11 @@ Adobe Campaign Standard은 개인화된 고객 경험을 구축하기 위해 온
 
 대부분의 이메일 서비스 공급업체는 목록 중심의 접근 방식을 통해 고객에게 커뮤니케이션하고 있지만 Adobe Campaign은 고객과 해당 특성에 대한 광범위한 보기를 활용하기 위해 관계형 데이터베이스를 사용합니다.
 
-이 고객 중심 접근 방식은 아래 차트에 나와 있습니다. 회색 **프로필** 리소스는 모든 항목이 빌드되는 기본 고객 테이블을 나타냅니다.
+이 고객 중심 접근 방식은 아래 차트에 나와 있습니다. 다음 **프로필** resource in gray는 모든 것이 빌드되는 주 고객 테이블을 나타냅니다.
 
 ![](assets/customer-centric-data-model.png)
 
-Adobe Campaign 기본 데이터 모델은 이 [섹션](../../developing/using/datamodel-introduction.md)에 나와 있습니다.
+Adobe Campaign 기본 데이터 모델은 다음과 같습니다 [섹션](../../developing/using/datamodel-introduction.md).
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
@@ -66,10 +66,10 @@ Adobe Campaign으로 어떤 데이터를 전송해야 합니까? 마케팅 활�
 >Adobe Campaign은 데이터 웨어하우스가 아닙니다. 따라서 가능한 모든 고객 및 관련 정보를 Adobe Campaign에 가져오려고 하지 마십시오.
 
 Adobe Campaign에서 속성을 필요로 하는지 여부를 결정하려면 속성이 다음 카테고리 중 하나에 속하는지 여부를 결정합니다.
-* **세그먼테이션에 사용되는 특성**
-* **데이터 관리 프로세스**&#x200B;에 사용되는 속성(예: 집계 계산)
-* **개인화에 사용되는 특성**
-* **보고**&#x200B;에 사용되는 속성(사용자 지정 프로필 데이터를 기반으로 보고서를 만들 수 있음)
+* 에 사용된 속성 **세분화**
+* 에 사용된 속성 **데이터 관리 프로세스** (예를 들어 집계 계산)
+* 에 사용된 속성 **개인화**
+* 에 사용된 속성 **보고** (사용자 지정 프로필 데이터를 기반으로 보고서를 만들 수 있음)
 
 이러한 속성에 속하지 않는 경우 Adobe Campaign에서 이 속성이 필요하지 않을 수 있습니다.
 
@@ -81,7 +81,7 @@ Adobe Campaign에서 속성을 필요로 하는지 여부를 결정하려면 속
 
 ## 데이터 구조 구성 {#configuring-data-structure}
 
-이 섹션에서는 [리소스의 데이터 구조를 구성하는 경우의 우수 사례를 간략하게 설명합니다](../../developing/using/configuring-the-resource-s-data-structure.md).
+이 섹션에서는 다음의 모범 사례에 대해 설명합니다. [리소스의 데이터 구조 구성](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 ### 식별자 {#identifiers}
 
@@ -95,14 +95,14 @@ Adobe Campaign 리소스에는 세 개의 식별자가 있으며 추가 식별�
 
 | 표시 이름 | 기술 이름 | 설명 | 모범 사례 |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKey는 Adobe Campaign 테이블의 실제 기본 키입니다.</li><li>이 식별자는 일반적으로 특정 Adobe Campaign 인스턴스에 대해 고유합니다.</li><li>Adobe Campaign Standard에서 이 값은 URL을 제외하고 최종 사용자에게 표시되지 않습니다.</li></ul> | <ul><li>[API 시스템](../../api/using/get-started-apis.md)을 통해 PKey 값(실제 키가 아니라 생성/해시된 값)을 검색할 수 있습니다.</li><li>API를 통해 레코드를 검색, 업데이트 또는 삭제하는 것 외에는 사용하지 않는 것이 좋습니다.</li></ul> |
+|  | PKey | <ul><li>PKey는 Adobe Campaign 테이블의 실제 기본 키입니다.</li><li>이 식별자는 일반적으로 특정 Adobe Campaign 인스턴스에 대해 고유합니다.</li><li>Adobe Campaign Standard에서 이 값은 URL을 제외하고 최종 사용자에게 표시되지 않습니다.</li></ul> | <ul><li>를 통해 [API 시스템](../../api/using/get-started-apis.md)를 지정하면 PKey 값(실제 키가 아니라 생성/해시된 값)을 검색할 수 있습니다.</li><li>API를 통해 레코드를 검색, 업데이트 또는 삭제하는 것 외에는 사용하지 않는 것이 좋습니다.</li></ul> |
 | ID | name 또는 internalName | <ul><li>이 정보는 테이블의 레코드의 고유 식별자입니다. 이 값은 수동으로 업데이트할 수 있습니다.</li><li>이 식별자는 Adobe Campaign의 다른 인스턴스에 배포할 때 값을 유지합니다. 패키지를 통해 내보낼 수 있도록 생성된 값과 다른 이름이 있어야 합니다.</li><li>이 키는 테이블의 실제 기본 키가 아닙니다.</li></ul> | <ul><li>공백 &quot;&quot;, 세미열 &quot;:&quot; 또는 하이픈 &quot;-&quot;과 같은 특수 문자는 사용하지 마십시오.</li><li>이러한 모든 문자는 밑줄 &quot;_&quot;(허용되는 문자)로 바뀝니다. 예를 들어 &quot;abc-def&quot; 및 &quot;abc:def&quot;는 &quot;abc_def&quot;로 저장되고 서로 덮어씁니다.</li></ul> |
 | 레이블 | label | <ul><li>레이블은 Adobe Campaign에 있는 개체 또는 레코드의 비즈니스 식별자입니다.</li><li>이 개체에는 공백 및 특수 문자가 허용됩니다.</li><li>그것은 레코드의 고유성을 보장하지 않습니다.</li></ul> | <ul><li>개체 레이블의 구조를 결정하는 것이 좋습니다.</li><li>Adobe Campaign 사용자의 레코드 또는 개체를 식별하는 데 가장 사용자 친화적인 솔루션입니다.</li></ul> |
-| ACS ID | acsId | <ul><li>추가 식별자를 생성할 수 있습니다. [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)</li><li>Adobe Campaign 사용자 인터페이스에서는 PKey를 사용할 수 없으므로 프로필 레코드를 삽입하는 동안 생성된 고유 값을 가져오는 솔루션입니다.</li><li>Adobe Campaign에 레코드가 삽입되기 전에 리소스에서 옵션을 활성화한 경우에만 값을 자동으로 생성할 수 있습니다.</li></ul> | <ul><li>이 UUID는 조정 키로 사용할 수 있습니다.</li><li>자동 생성된 ACS ID는 워크플로우 또는 패키지 정의에서 참조로 사용할 수 없습니다.</li><li>이 값은 Adobe Campaign 인스턴스에만 적용됩니다.</li></ul> |
+| ACS ID | acsId | <ul><li>추가 식별자를 생성할 수 있습니다. a [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Adobe Campaign 사용자 인터페이스에서는 PKey를 사용할 수 없으므로 프로필 레코드를 삽입하는 동안 생성된 고유 값을 가져오는 솔루션입니다.</li><li>Adobe Campaign에 레코드가 삽입되기 전에 리소스에서 옵션을 활성화한 경우에만 값을 자동으로 생성할 수 있습니다.</li></ul> | <ul><li>이 UUID는 조정 키로 사용할 수 있습니다.</li><li>자동 생성된 ACS ID는 워크플로우 또는 패키지 정의에서 참조로 사용할 수 없습니다.</li><li>이 값은 Adobe Campaign 인스턴스에만 적용됩니다.</li></ul> |
 
 ### 식별 키 {#keys}
 
-Adobe Campaign에서 만든 각 리소스에는 하나 이상의 고유한 [식별 키](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)가 있어야 합니다.
+Adobe Campaign에서 만든 각 리소스에는 하나 이상의 고유한 리소스가 있어야 합니다 [식별 키](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
@@ -121,7 +121,7 @@ When an out-of-the-box resource has both an internal auto-generated and an inter
 
 ### 인덱스 {#indexes}
 
-Adobe Campaign은 리소스에 정의된 모든 기본 및 내부 키에 자동으로 [index](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)을 추가합니다.
+Adobe Campaign은 자동으로 추가 [색인](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) 를 눌러 리소스에 정의된 모든 기본 및 내부 키를 검색합니다.
 
 * Adobe은 성능을 향상시킬 수 있으므로 추가 인덱스를 정의하는 것을 권장합니다.
 * 그러나 데이터베이스의 공간을 사용하므로 인덱스를 너무 많이 추가하지 마십시오. 많은 인덱스가 부정적인 성능에 영향을 줄 수도 있습니다.
@@ -133,7 +133,7 @@ When you are performing an initial import with very high volumes of data insert 
 
 ### 링크 {#links}
 
-다른 리소스와 연결된 링크를 정의하는 방법은 [이 섹션에 나와 있습니다](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
+다른 리소스와 연결된 링크 정의는 [이 섹션](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
 * 워크플로우에서 테이블을 조인할 수 있지만 Adobe은 데이터 구조 정의에서 직접 리소스 간의 공통 링크를 정의하는 것을 권장합니다.
 * 링크는 표의 실제 데이터와 일치하도록 정의해야 합니다. 잘못된 정의는 링크를 통해 검색된 데이터에 영향을 줄 수 있습니다(예: 예기치 않게 레코드를 복제하는 경우).

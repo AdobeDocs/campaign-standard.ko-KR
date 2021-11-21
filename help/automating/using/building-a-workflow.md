@@ -72,7 +72,7 @@ ht-degree: 96%
 
    예를 들어 모든 워크플로우의 활동에서 기본적으로 사용할 특정 시간대를 정의할 수 있습니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
 
-   워크플로우 속성에 대한 자세한 내용은 [이 페이지](../../automating/using/managing-execution-options.md)를 참조하십시오.
+   워크플로우 속성에 대한 자세한 내용은 [이 페이지](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -137,4 +137,4 @@ ht-degree: 96%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.
+추가 Campaign Standard 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko).

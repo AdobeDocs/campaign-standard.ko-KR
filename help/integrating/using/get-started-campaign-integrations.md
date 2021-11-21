@@ -49,14 +49,14 @@ ht-degree: 77%
    <td> Adobe Experience Manager<br /> </td> 
    <td> Adobe Experience Manager에서 직접 Adobe Campaign 데이터베이스에 매핑된 이메일 콘텐츠 또는 양식을 만들 수 있습니다.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign을 Experience Manager 및 사용한 작업</a>,  <a href="https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager 및 Campaign Standard 통합</a>, Experience Manager 및 캠페인으로 이메일  <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">만들기</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign을 Experience Manager과 함께 사용하기</a>, <a href="https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager 및 Campaign Standard 통합</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Manager 및 Campaign으로 이메일 만들기</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Adobe Campaign에서 만들고 보낸 이메일이 열려 있을 때 Adobe Target에서 동적으로 계산된 이미지를 삽입할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign 및 Target</a>,  <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">캠페인 및 Target 통합</a>,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간 비디오에서 이메일 이미지 </a> 개인화(3단계)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign을 Target과 함께 사용하기</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">캠페인 및 Target 통합</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간으로 이메일 이미지 개인화</a> 비디오(3단계)
     </td> 
   </tr> 
   <tr> 
@@ -72,8 +72,8 @@ ht-degree: 77%
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">사용자 핵심 서비스(프로필 및 대상자)</a><br /> </td> 
   </tr> 
    <tr> 
-   <td> Adobe RTCDP(실시간 고객 데이터 플랫폼)<br /> </td> 
-   <td> Adobe Campaign과 Adobe RTCDP(실시간 고객 데이터 플랫폼)의 통합을 통해 세그먼트 데이터를 공유하고 대상을 Adobe Campaign에 가져올 수 있습니다.</td>
+   <td> Adobe Real-time Customer Data Platform(RTCDP)<br /> </td> 
+   <td> Adobe Campaign과 Adobe Real-time Customer Data Platform(RTCDP) 간의 통합을 통해 세그먼트 데이터를 공유하고 Adobe Campaign에 대상을 가져올 수 있습니다.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">소스 및 대상 시작</a></td>
   </tr> 
   <tr> 
@@ -102,7 +102,7 @@ ht-degree: 77%
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Dreamweaver의 이메일 콘텐츠를 편집하고 Adobe Campaign과 동기화할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ko">Dreamweaver로 개인화된 </a> 이메일 만들기, Dreamweaver <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">용 Campaign 확장 사용</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ko">Dreamweaver을 사용하여 개인화된 이메일 만들기</a> 비디오, <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver용 Campaign 확장 사용</a> 
   </td> 
   </tr> 
   <tr> 

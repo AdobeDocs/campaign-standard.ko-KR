@@ -18,21 +18,21 @@ ht-degree: 7%
 
 # 개인화된 콘텐츠 작성 {#build-personalized-content}
 
-메시지 콘텐츠를 디자인할 때 게재를 실행하지 못하도록 할 수 있는 일반적인 문제를 방지하십시오. 대부분의 경우 가능한 오류는 [개인화](../../designing/using/personalization.md), 기존 콘텐츠](../../designing/using/using-existing-content.md) 및 [HTML 콘텐츠](../../designing/using/using-existing-content.md#converting-an-html-content) 및 [이미지](../../designing/using/images.md)를 사용할 때 형식을 지정하는 것과 관련되어 있습니다.[
+메시지 콘텐츠를 디자인할 때 게재를 실행하지 못하도록 할 수 있는 일반적인 문제를 방지하십시오. 대부분의 경우 가능한 오류는 [개인화](../../designing/using/personalization.md), 서식 [기존 콘텐츠 사용](../../designing/using/using-existing-content.md) - 및 [HTML 컨텐츠 변환](../../designing/using/using-existing-content.md#converting-an-html-content) - 및 [이미지](../../designing/using/images.md).
 
 ## 개인화 최적화 {#optimize-personalization}
 
 게재를 실행하지 못하도록 하는 일반적인 문제를 방지하고 수신자의 경험을 향상시키기 위해 Adobe Campaign에서 메시지를 개인화할 수 있습니다.
 
 Adobe Campaign 데이터베이스에 저장된 수신자의 데이터를 사용하거나 추적, 랜딩 페이지, 구독 등을 통해 수집할 수 있습니다.
-개인화 기본 사항은 [이 섹션](../../designing/using/personalization.md)에 나와 있습니다.
+개인화 기본 사항은 [이 섹션](../../designing/using/personalization.md).
 
 일반적으로 개인화와 관련된 오류를 방지하기 위해 메시지 콘텐츠가 제대로 디자인되었는지 확인하십시오.
 
 동적 콘텐츠를 수동으로 추가하여 표현식 편집기에 정의된 조건에 따라 수신자에게 다른 콘텐츠를 표시할 수 있습니다. 동적 콘텐츠를 추가할 때는 선택한 조건을 충족하지 않는 수신자에 대해 항상 기본 변형을 남겨두어야 합니다.
-동적 콘텐츠에 대한 자세한 내용은 [이 섹션](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)을 참조하십시오.
+동적 콘텐츠에 대한 자세한 내용은 [이 섹션](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-**팁**  - 다이내믹 컨텐츠가 올바르게 구성되었는지 확인하려면 다른 테스트 프로필로 이메일을 미리 봅니다.
+**팁** - 다른 테스트 프로필로 이메일을 미리 보고 다이내믹 콘텐츠가 올바르게 구성되었는지 확인합니다.
 
 ## 최적화된 컨텐츠 작성 {#optimize-content}
 
@@ -50,7 +50,7 @@ Adobe Campaign 데이터베이스에 저장된 수신자의 데이터를 사용�
 
 ### 제목 줄
 
-[제목 줄](../../designing/using/subject-line.md)에서 작업하여 오픈율을 개선하십시오.
+작업 [제목 줄](../../designing/using/subject-line.md) 공개 비율을 개선하려면
 
 * 너무 긴 과목은 피하세요. 최대 50자를 사용할 수 있습니다
 
@@ -64,33 +64,33 @@ Adobe Campaign 데이터베이스에 저장된 수신자의 데이터를 사용�
 
 ### 구독 취소 링크
 
-구독 취소 링크는 필수입니다. 이 변수는 표시적이고 유효해야 하며 양식이 작동해야 합니다. 이 섹션](../../designing/using/personalization.md#about-targeting-dimension)에서 구독 취소 링크 지침 [에 대해 알아봅니다.
+구독 취소 링크는 필수입니다. 이 변수는 표시적이고 유효해야 하며 양식이 작동해야 합니다. 구독 취소 링크 지침 학습 [이 섹션](../../designing/using/personalization.md#about-targeting-dimension).
 
-기본적으로 메시지가 분석되면 컨트롤 [유형화 규칙](../../sending/using/control-rules.md)은(는) 옵트아웃 링크가 포함되어 있는지 여부를 확인하고 누락된 경우 경고를 생성합니다.
+기본적으로 메시지를 분석하면 컨트롤이 표시됩니다 [유형화 규칙](../../sending/using/control-rules.md) 옵트아웃 링크가 포함되었는지 확인하고 누락된 경우 경고를 생성합니다.
 
 **팁**: 인간 오류가 항상 가능하므로 보낼 때마다 옵트아웃 링크가 올바르게 작동하는지 확인하십시오. 예를 들어 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태이고, 이 수신자 필드에 더 이상 연락하지 않음 필드가 예로 변경되었는지 확인하십시오.
 
-이 섹션](../../designing/using/personalization.md#adding-a-content-block)에 옵트아웃 링크 [를 삽입하는 방법을 알아봅니다.
+옵트아웃 링크를 삽입하는 방법 알아보기 [이 섹션](../../designing/using/personalization.md#adding-a-content-block).
 
 ### 전자 메일 크기 {#email-size}
 
-성능 또는 게재 가능성 문제를 방지하기 위해 권장 전자 메일의 최대 크기는 **35KB**&#x200B;입니다.
+성능 또는 게재 가능성 문제를 방지하기 위해 이메일의 권장 최대 크기는 거의 입니다 **35KB**.
 
 전자 메일을 한도에 따라 유지하려면 다음을 고려하십시오.
 
 * 중복 또는 사용하지 않은 스타일 제거
 
-* 일부 이메일 콘텐츠를 [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md)로 이동합니다.
+* 전자 메일 콘텐츠 일부를 [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md)
 
 * 코드 축소
 
 최종 전송 전에 변경 사항을 테스트해야 합니다.
 
-Adobe Campaign에서 전자 메일의 기본 최대 크기는 **100MB**&#x200B;로 설정됩니다. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+Adobe Campaign에서 이메일의 기본 최대 크기가 **100MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
 제한에 도달하면 제한을 초과하는 메시지가 실패하여 게재 로그에 오류 메시지가 표시됩니다. 동일한 게재의 다른 메시지는 영향을 받지 않습니다. 이 경우 이메일 템플릿의 동적 부분 또는 게재에서 사용하는 콘텐츠 조각을 조정해야 합니다. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobe은 최대 메시지 크기 기본값을 유지하는 것이 좋습니다. 그러나 이 값은 **[!UICONTROL Maximum message size]** 옵션에서 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 메뉴를 통해 [기능 관리자](../../administration/using/users-management.md#functional-administrators)만 변경할 수 있습니다.
+Adobe은 최대 메시지 크기 기본값을 유지하는 것이 좋습니다. 그러나 이 값은 **[!UICONTROL Maximum message size]** 옵션, 사용 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 메뉴, 기준 [기능 관리자](../../administration/using/users-management.md#functional-administrators) 전용.
 
 >[!IMPORTANT]
 >
@@ -100,8 +100,8 @@ Adobe은 최대 메시지 크기 기본값을 유지하는 것이 좋습니다. 
 
 기본적으로 SMS의 글자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
-변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 **[!UICONTROL External account]**의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
-이 섹션](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)에서 추가 [을 알아보십시오.
+변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 채널의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다 **[!UICONTROL External account]**.
+추가 정보 [이 섹션](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **팁**:
 
@@ -109,15 +109,15 @@ Adobe은 최대 메시지 크기 기본값을 유지하는 것이 좋습니다. 
 
 * 그러나 GSM 표준에서 고려하지 않는 문자가 많이 포함된 SMS 메시지에는 음역을 활성화하여 메시지 전송 비용을 제한합니다.
 
-이 섹션](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)에서 추가 [을 알아보십시오.
+추가 정보 [이 섹션](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 ### 반응형 이메일 디자인
 
 응답형 디자인은 이메일이 열려 있는 장치에 대해 최적으로 렌더링되도록 합니다.
 
-* 웹 HTML이 아닌 반응형 이메일 HTML 사용
+* 웹 HTML이 아닌 응답형 이메일 HTML 사용
 
-* 미리 보기 모드를 사용하고 증명을 보내 가능한 한 많은 장치에서 렌더링을 테스트합니다. 보내기 전에 [메시지](../../sending/using/previewing-messages.md)를 미리 보는 방법을 알아봅니다.
+* 미리 보기 모드를 사용하고 증명을 보내 가능한 한 많은 장치에서 렌더링을 테스트합니다. 방법 알아보기 [메시지 미리 보기](../../sending/using/previewing-messages.md) 보내기 전.
 
 * Campaign 이메일 디자이너는 모바일용 반응형 디자인 형식 템플릿을 제공합니다. [이 페이지](../../designing/using/using-reusable-content.md#content-templates)에서 자세히 알아보십시오.
 
@@ -147,4 +147,4 @@ Adobe은 최대 메시지 크기 기본값을 유지하는 것이 좋습니다. 
 
 Adobe은 메시지를 미리 보고 개인화와 수신자가 게재를 볼 수 있는 방법을 확인하는 것을 권장합니다.
 
-전자 메일 디자이너에서 **[!UICONTROL Preview]** 단추를 사용하여 수신자에 대한 각 콘텐츠의 렌더링을 볼 수 있습니다. 개인화 필드 및 콘텐츠의 조건부 요소는 선택한 프로필에 대한 해당 정보로 대체됩니다. [자세히 알아보기](../../sending/using/previewing-messages.md)
+이메일 디자이너에서 **[!UICONTROL Preview]** 버튼을 사용하면 수신자에 대한 각 컨텐츠 렌더링을 볼 수 있습니다. 개인화 필드 및 콘텐츠의 조건부 요소는 선택한 프로필에 대한 해당 정보로 대체됩니다. [자세히 알아보기](../../sending/using/previewing-messages.md)

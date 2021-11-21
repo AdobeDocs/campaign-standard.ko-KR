@@ -24,7 +24,7 @@ ht-degree: 58%
 
 ![](assets/readaudience_activity_example1.png)
 
-* 첫 번째 [대상 읽기](../../automating/using/read-audience.md) 활동은 골드 멤버 대상자를 검색하고 18세에서 30세 사이의 프로필만 선택하여 정교화합니다.
+* 첫 번째 [대상자 읽기](../../automating/using/read-audience.md) 활동은 골드 멤버 대상자를 검색하고 18세에서 30세 사이의 프로필만 선택하여 정교화합니다.
 * 두 번째 **[!UICONTROL Read audience]** 활동으로 실버 멤버 대상자를 검색하고 18세에서 30세 사이의 프로필만 선택하여 정교화합니다.
-* [Union](../../automating/using/union.md) 활동에서 생성된 모집단을 하나의 최종 모집단으로 결합하는 활동입니다.**[!UICONTROL Read audiences]**
-* **[!UICONTROL Union]** 활동에서 만든 모집단에 이메일을 보내는 [이메일 게재](../../automating/using/email-delivery.md) 활동입니다.
+* A [결합](../../automating/using/union.md) 두 가지 모두에서 모집단을 결합하는 활동 **[!UICONTROL Read audiences]** 활동을 하나의 최종 모집단으로 만듭니다.
+* An [이메일 게재](../../automating/using/email-delivery.md) 에서 만든 모집단에 이메일을 보내는 활동 **[!UICONTROL Union]** 활동.

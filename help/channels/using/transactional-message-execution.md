@@ -24,7 +24,7 @@ ht-degree: 62%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**실행 배달**&#x200B;은(는) 트랜잭션 메시지마다 한 달에 한 번 만들어지는 실행 가능한 비실용적인 기술 메시지이며, 트랜잭션 메시지가 편집되어 다시 게시될 때마다 이 메시지가 다시 게시됩니다.
+An **실행 배달** 는 트랜잭션 메시지마다 한 달에 한 번 만든 동작 가능한 비기능 기술 메시지입니다. 트랜잭션 메시지가 편집되어 다시 게시될 때마다 이러한 메시지가 나타납니다.
 
 **관련 항목**:
 * [트랜잭션 메시지 게시](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
@@ -55,7 +55,7 @@ ht-degree: 62%
 
 >[!NOTE]
 >
->이벤트가 실행 게재에 할당되면 오직 해당 실행 게재의 전송 로그에만 나타납니다. 실패한 게재는 트랜잭션 메시지 전송 로그의 **[!UICONTROL Execution list]** 탭에 표시됩니다.
+>이벤트가 실행 게재에 할당되면 오직 해당 실행 게재의 전송 로그에만 나타납니다. 실패한 게재는 **[!UICONTROL Execution list]** 트랜잭션 메시지 전송 로그의 탭입니다.
 
 ### 프로세스 제한 다시 시도 {#limitations}
 
@@ -67,17 +67,17 @@ ht-degree: 62%
 
 실행 게재를 중단할 수 없습니다. 하지만 현재 실행 게재가 실패할 경우 새 이벤트가 수신되는 즉시 새 이벤트가 만들어지고 모든 새 이벤트가 이 새 실행 게재로 처리됩니다. 실패한 실행 게재로 새 이벤트가 처리되지 않습니다.
 
-이미 실행 게재에 지정된 일부 이벤트가 다시 시도 프로세스의 일부로 연기된 경우, 해당 실행 게재에 실패하면 다시 시도 시스템은 연기된 이벤트를 새 실행 게재에 할당하지 않습니다. 즉, 이러한 이벤트가 손실됩니다. [게재 로그](#monitoring-transactional-message-delivery)를 확인하여 영향을 받을 수 있는 수신자를 확인하십시오.
+이미 실행 게재에 지정된 일부 이벤트가 다시 시도 프로세스의 일부로 연기된 경우, 해당 실행 게재에 실패하면 다시 시도 시스템은 연기된 이벤트를 새 실행 게재에 할당하지 않습니다. 즉, 이러한 이벤트가 손실됩니다. 을(를) 확인합니다. [게재 로그](#monitoring-transactional-message-delivery) 의 이름을 로 클릭하여 제품에서 사용할 수 있습니다.
 
 ## 트랜잭션 메시지 모니터링 {#monitoring-transactional-message-delivery}
 
-트랜잭션 메시지를 모니터링하려면 해당 [실행 게재](#transactional-message-execution-delivery)에 액세스해야 합니다.
+트랜잭션 메시지를 모니터링하려면 해당 메시지에 액세스해야 합니다 [실행 게재](#transactional-message-execution-delivery).
 
 1. 메시지 게재 로그를 보려면 **[!UICONTROL Deployment]** 블록의 오른쪽 하단에 있는 아이콘을 클릭합니다.
 
    ![](assets/message-center_access_logs.png)
 
-1. **[!UICONTROL Execution list]** 탭을 클릭합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Execution list]** 탭.
 
    ![](assets/message-center_execution_tab.png)
 
@@ -85,11 +85,11 @@ ht-degree: 62%
 
    ![](assets/message-center_execution_delivery.png)
 
-1. **[!UICONTROL Deployment]** 블록의 오른쪽 하단에 있는 아이콘을 다시 클릭합니다.
+1. 오른쪽 하단에 있는 아이콘을 다시 클릭합니다. **[!UICONTROL Deployment]** 차단.
 
    ![](assets/message-center_execution_access_logs.png)
 
-   각 실행 게재에 대해 표준 게재와 마찬가지로 게재 로그를 참조할 수 있습니다. 로그 액세스 및 사용에 대한 자세한 내용은 [게재 모니터링](../../sending/using/monitoring-a-delivery.md)을 참조하십시오.
+   각 실행 게재에 대해 표준 게재와 마찬가지로 게재 로그를 참조할 수 있습니다. 로그 액세스 및 사용에 대한 자세한 내용은 [게재 모니터링](../../sending/using/monitoring-a-delivery.md).
 
 ### 프로필 기반 트랜잭션 메시지 특성 {#profile-transactional-message-monitoring}
 
@@ -99,7 +99,7 @@ ht-degree: 62%
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-주소 등 메시지 대상에서 제외된 수신자를 보려면 **[!UICONTROL Exclusions logs]** 탭을 차단 목록 선택합니다.
+을(를) 선택합니다 **[!UICONTROL Exclusions logs]** 탭에서 메시지 타겟에서 제외된 수신자(예:의 주소)를 볼 수 차단 목록 있습니다.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

@@ -26,7 +26,7 @@ ht-degree: 81%
 
 ## 예약 활동 만들기{#creating-a-scheduler-activity}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;에서 [Scheduler](../../automating/using/scheduler.md) 활동을 끌어다 놓습니다.
+1. in **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, 드래그 앤 드롭 [스케줄러](../../automating/using/scheduler.md) 활동.
 1. 활동을 두 번 클릭합니다.
 1. 게재 실행을 구성합니다.
 1. **[!UICONTROL Execution frequency]**&#x200B;에서 **[!UICONTROL Weekly]**&#x200B;을(를) 선택합니다.
@@ -43,7 +43,7 @@ ht-degree: 81%
 
 ## 쿼리 활동 만들기{#creating-a-query-activity}
 
-1. **[!UICONTROL Activities]** **[!UICONTROL Targeting]**&#x200B;에서 수신자를 선택하려면 [Query](../../automating/using/query.md) 활동을 끌어다 놓고 두 번 클릭합니다.
+1. in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, 수신자를 선택하려면 을(를) 끌어다 놓습니다 [쿼리](../../automating/using/query.md) 활동을 두 번 클릭하고 클릭합니다.
 1. **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**&#x200B;에서 **[!UICONTROL Email]**&#x200B;을(를) 끌어다 놓습니다.
 1. **[!UICONTROL is not empty]**&#x200B;을(를) 연산자로 선택합니다.
 1. **[!UICONTROL Shortcuts]** > **[!UICONTROL General]**&#x200B;에서 프로필을 추가하고 **[!UICONTROL no longer contact by email]**&#x200B;을(를) **[!UICONTROL No]** 값으로 선택합니다.
@@ -53,7 +53,7 @@ ht-degree: 81%
 
 ## 이메일 게재 만들기{#creating-an-email-delivery}
 
-1. **[!UICONTROL Activities]** **[!UICONTROL Channels]**&#x200B;에서 [이메일 배달](../../automating/using/email-delivery.md) 활동을 끌어다 놓습니다.
+1. in **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, 드래그 앤 드롭 [이메일 게재](../../automating/using/email-delivery.md) 활동.
 1. 활동을 클릭하고 편집하려면 ![](assets/edit_darkgrey-24px.png)을(를) 선택합니다.
 1. **[!UICONTROL Recurring email]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 1. 전자 메일 템플릿을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.

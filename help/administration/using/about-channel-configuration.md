@@ -26,6 +26,6 @@ ht-degree: 4%
 * 메시지 속성입니다. 새 메시지를 만들 때 필요에 따라 속성을 결정할 수 있습니다.
 * 일부 채널에서는 이메일 BCC와 같이 선택 사항인 추가 구성을 제공합니다.
 
-**[!UICONTROL Channel]** 메뉴는 유형화와 격리 관리 및 이메일, SMS(Email, SMS)와 연결된 기술 매개 변수를 다시 그룹화합니다.
+다음 **[!UICONTROL Channel]** 메뉴는 유형화와 격리 관리 및 유형화와 다양한 애플리케이션 채널(이메일, SMS)에 연결된 기술 매개 변수를 다시 그룹화합니다.
 
-관리자는 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 메뉴에서 이러한 구성에 액세스할 수 있습니다.
+관리자는 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 메뉴 아래의 제품에서 사용할 수 있습니다.

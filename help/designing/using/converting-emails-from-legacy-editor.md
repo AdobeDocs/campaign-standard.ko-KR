@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # 기존 편집기 이메일 콘텐츠 변환 {#converting-an-html-content}
 
-이메일 디자이너 작업을 시작하고 기존 편집기에서 만든 이메일 HTML의 재사용 가능한 템플릿 및 조각을 빌드합니다.
+이메일 디자이너 작업을 시작하고 레거시 편집기에서 만든 이메일 HTML에서 재사용 가능한 템플릿과 조각을 빌드합니다.
 
 이 사용 사례를 사용하면 HTML 이메일을 사용하여 이메일 디자이너 템플릿을 만들고 이메일 디자이너의 HTML 구성 요소로 나눌 수 있습니다.
 
@@ -32,23 +32,23 @@ ht-degree: 8%
 ## 이메일 콘텐츠 준비
 
 1. HTML 이메일을 선택합니다.
-1. 섹션을 식별하여 HTML 이메일을 나눕니다.
+1. HTML 이메일을 분할할 섹션을 식별합니다.
 1. HTML에서 다른 블록을 잘라냅니다.
 
 ## 이메일 구조 만들기
 
-1. **[!UICONTROL Email Designer]** 을(를) 열어 빈 이메일 콘텐츠를 만듭니다.
+1. 를 엽니다. **[!UICONTROL Email Designer]**  빈 이메일 콘텐츠를 만들려면
 1. 본문 수준 속성을 설정합니다. 배경색, 너비 등 자세한 내용은 [전자 메일 스타일 편집](../../designing/using/styles.md)을 참조하십시오.
 1. 섹션이 있는 만큼 구조 구성 요소를 추가합니다. 자세한 내용은 [전자 메일 구조 편집](../../designing/using/designing-from-scratch.md#defining-the-email-structure)을 참조하십시오.
 
-## HTML 콘텐츠 추가
+## HTML 컨텐츠 추가
 
 1. 각 구조 구성 요소에 HTML 구성 요소를 추가합니다. 자세한 내용은 [조각 및 구성 요소 추가](../../designing/using/designing-from-scratch.md#defining-the-email-structure)를 참조하십시오.
 1. 모든 구성 요소에 HTML을 복사하여 붙여넣습니다.
 
 ## 이메일 스타일 관리 {#manage-the-style-of-your-email}
 
-1. **[!UICONTROL Mobile view]**(으)로 전환합니다. 자세한 내용은 [이 섹션](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)을 참조하십시오.
+1. 다음으로 전환 **[!UICONTROL Mobile view]**. 자세한 내용은 [이 섹션](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)을 참조하십시오.
 
 1. 이 문제를 해결하려면 소스 코드 모드로 전환한 후 스타일 섹션을 새 스타일 섹션에 복사하여 붙여넣습니다. 예제:
 
@@ -78,7 +78,7 @@ ht-degree: 8%
 
 ## 사용 사례
 
-레거시 편집기에서 만든 이 이메일을 **[!UICONTROL Email Designer]** 템플릿으로 변환해 보겠습니다.
+레거시 편집기에서 만든 이 이메일을 **[!UICONTROL Email Designer]** 템플릿.
 
 ### 이메일의 섹션을 식별합니다
 
@@ -86,15 +86,15 @@ ht-degree: 8%
 
 ![](assets/html-dce-view-mail.png)
 
-어떤 요소가 HTML의 어느 섹션인지 식별하기 위해 선택할 수 있습니다.
+어떤 요소가 HTML의 어느 섹션인지 식별하기 위해 해당 요소를 선택할 수 있습니다.
 
 ![](assets/breadcrumbs.png)
 
-이메일의 HTML 버전을 보려면 **[!UICONTROL Show source]** 을 클릭하십시오.
+이메일의 HTML 버전을 보려면 **[!UICONTROL Show source]**.
 
 ### 이메일 템플릿 및 해당 구조 만들기
 
-1. 전자 메일 레이아웃을 반영하는 **[!UICONTROL Structure components]**&#x200B;을(를) 끌어다 놓습니다.
+1. 드래그 앤 드롭 **[!UICONTROL Structure components]**  이메일 레이아웃을 반영합니다.
 
 1. 필요한 만큼 반복합니다. 11개의 구조 구성 요소를 만들어야 합니다.
 
@@ -102,11 +102,11 @@ ht-degree: 8%
 
 ### HTML 컨텐츠 구성 요소 삽입
 
-1. 각 **[!UICONTROL Structure component]**&#x200B;에 **[!UICONTROL HTML component]**&#x200B;을 삽입합니다.
+1. 삽입 **[!UICONTROL HTML component]**  각각 **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 
-1. 각 섹션에 대해 **[!UICONTROL Show source code]** 을 클릭합니다.
+1. 각 섹션에 대해 **[!UICONTROL Show source code]** .
 
    ![](assets/show-source-code.png)
 
@@ -124,6 +124,6 @@ ht-degree: 8%
 
 1. 소스 코드로 전환하고 스타일 섹션을 새 스타일 섹션에 복사하여 붙여넣습니다.
 
-자세한 내용은 [전자 메일 스타일 관리](#manage-the-style-of-your-email)를 참조하십시오.
+자세한 내용은 [이메일 스타일 관리](#manage-the-style-of-your-email).
 
 이제 기존 이메일을 이메일 디자이너에서 사용할 수 있습니다.

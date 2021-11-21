@@ -18,7 +18,7 @@ ht-degree: 96%
 
 # 유형화 규칙 관리 {#managing-typology-rules}
 
-## 유형화 규칙 기본 정보 {#about-typology-rules}
+## 유형화 규칙 정보 {#about-typology-rules}
 
 유형화 규칙은 메시지를 보내기 전에 메시지를 확인하고 필터링할 수 있는 비즈니스 규칙입니다. 사용 가능한 유형화 규칙 유형은 다음과 같습니다.
 

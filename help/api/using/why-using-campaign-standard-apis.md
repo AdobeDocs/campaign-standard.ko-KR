@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard API의 장점?
-description: Campaign Standard API 및 API를 사용하는 이유에 대해 자세히 알아보십시오.
+description: Campaign Standard API 및 이를 사용하는 이유에 대해 자세히 알아보십시오.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -52,19 +52,19 @@ Campaign Standard API 요청을 숙지하는 데 도움이 되는 요청 컬렉�
 >
 >이 예제에서는 Postman을 사용합니다. 그러나 좋아하는 REST 클라이언트를 자유롭게 사용할 수 있습니다.
 
-1. [여기](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip)를 클릭하여 JSON 컬렉션을 다운로드합니다.
+1. 를 클릭하여 JSON 컬렉션을 다운로드합니다 [여기](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Postman을 열고 **파일** / **가져오기** 메뉴를 선택합니다.
+1. Postman을 연 다음 **파일** / **가져오기** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
 1. 다운로드한 파일을 창으로 끌어다 놓습니다. 미리 디자인한 API 요청이 표시되며 사용할 수 있습니다.
 
    ![대체 텍스트](assets/postman_collection.png)
 
-1. **프로필 만들기** 요청을 선택한 다음, POST 요청 및 **Headers** 탭을 고유한 정보로 업데이트합니다(&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). 이 작업에 대한 자세한 정보는 [이 섹션](../../api/using/setting-up-api-access.md)을 참조하십시오.
+1. 을(를) 선택합니다 **프로필 만들기** 요청, POST 요청 및 **머리글** 고유한 정보로 탭(&lt;organization>, &lt;api_key>, &lt;access_token>). 이 작업에 대한 자세한 정보는 [이 섹션](../../api/using/setting-up-api-access.md)을 참조하십시오.
 
    ![대체 텍스트](assets/postman_uc1.png)
 
-1. 새 프로필에 추가할 정보로 **Body** 탭을 입력한 다음 **Send** 단추를 클릭하여 요청을 실행합니다.
+1. 을 입력합니다. **본문** 새 프로필에 추가할 정보가 있는 탭을 클릭한 다음 **보내기** 단추를 클릭하여 요청을 실행합니다.
 
    ![대체 텍스트](assets/postman_uc2.png)
 

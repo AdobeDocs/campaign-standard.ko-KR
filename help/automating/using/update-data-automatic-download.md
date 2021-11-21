@@ -36,13 +36,13 @@ ht-degree: 79%
    ![](assets/wkf_file_transfer_07.png)
 
 1. 활동을 확인합니다.
-1. [파일 로드](../../automating/using/load-file.md) 활동을 워크플로우에 끌어다 놓고 **[!UICONTROL Transfer file]** 활동 뒤에 놓습니다.
+1. 끌어서 놓기 [파일 로드](../../automating/using/load-file.md) 활동을 워크플로우에 끌어와 그 뒤에 놓습니다 **[!UICONTROL Transfer file]** 활동.
 1. 해당 활동을 선택하면 나타나는 빠른 작업 목록에서 ![](assets/edit_darkgrey-24px.png) 버튼을 눌러 창을 엽니다.
 1. **[!UICONTROL Execution]** 탭의 **[!UICONTROL File to load]** 섹션에서 **[!UICONTROL Use the file specified in the inbound transition]** 옵션을 선택합니다.
 
    ![](assets/wkf_file_loading8.png)
 
 1. 활동을 앞에서 지정한 대로 구성합니다.
-1. [데이터 업데이트](../../automating/using/update-data.md) 활동을 워크플로우에 끌어다 놓고 **[!UICONTROL Load file]** 활동 뒤에 놓은 다음 구성합니다.
+1. 끌어서 놓기 [데이터 업데이트](../../automating/using/update-data.md) 활동을 워크플로우에 끌어와 그 뒤에 놓습니다 **[!UICONTROL Load file]** 활동을 만든 다음 구성합니다.
 
 워크플로우를 시작하면 업로드한 파일의 데이터를 추출하여 Adobe Campaign 데이터베이스를 보강하는 데 사용합니다.

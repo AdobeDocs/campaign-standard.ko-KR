@@ -38,7 +38,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 * **[!UICONTROL Create an SMS]** 카드를 통해 SMS 생성 도우미로 이동할 수 있습니다. 이 도우미에서 SMS 유형을 선택하고, 메시지 수신자를 선택하고, 콘텐츠를 정의할 수 있습니다. [SMS 만들기](../../channels/using/creating-an-sms-message.md) 섹션을 참조하십시오.
 * **[!UICONTROL Create a Direct mail]** 카드를 통해 다이렉트 메일 생성 도우미로 이동할 수 있습니다. [다이렉트 메일 만들기](../../channels/using/creating-the-direct-mail.md) 섹션을 참조하십시오.
 * **[!UICONTROL Create a push notification]** 카드를 통해 알림 생성 도우미로 이동할 수 있습니다. 이 도우미에서 푸시 알림 유형을 선택하고, 메시지 수신자를 선택하고, 콘텐츠를 정의할 수 있습니다. [푸시 알림 만들기](../../channels/using/preparing-and-sending-a-push-notification.md) 섹션을 참조하십시오.
-* **[!UICONTROL Create an In-App message]** 카드를 통해 인앱 생성 도우미로 이동할 수 있습니다. 이 도우미에서 생성할 인앱 메시지 유형을 선택하고, 해당 속성, 대상자 및 콘텐츠를 정의할 수 있습니다. [인앱 메시지 만들기](../../channels/using/about-in-app-messaging.md) 섹션을 참조하십시오.
+* 다음 **[!UICONTROL Create an In-App message]** 카드를 통해 인앱 생성 도우미로 이동할 수 있습니다. 이 도우미에서 생성할 인앱 메시지 유형을 선택하고, 해당 속성, 대상자 및 콘텐츠를 정의할 수 있습니다. 자세한 내용은 [인앱 메시지 만들기](../../channels/using/about-in-app-messaging.md) 섹션을 참조하십시오.
 * **[!UICONTROL Marketing activities]** 카드를 통해 모든 활동, 프로그램 및 캠페인, 특히 이메일, SMS, 워크플로우 및 랜딩 페이지의 전체 목록으로 이동할 수 있습니다. 여기에서 이름, 날짜, 상태 또는 활동 유형별로 검색하여 요소를 필터링할 수 있습니다. 자세한 내용은 [마케팅 활동 목록](../../start/using/marketing-activities.md#about-marketing-activities) 섹션을 참조하십시오.
 * **[!UICONTROL Programs & campaigns]** 카드를 통해 캠페인을 만들고 관리할 수 있는 프로그램 목록으로 이동할 수 있습니다. [프로그램 목록](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)을 참조하십시오.
 * **[!UICONTROL Timeline]** 카드를 통해 마케팅 활동의 대화형 타임라인으로 바로 이동하여 진행 중인 프로그램 및 해당 콘텐츠를 참조할 수 있습니다. [타임라인](../../start/using/timeline.md)을 참조하십시오.
@@ -51,38 +51,38 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 탐색 원칙은 다음과 같습니다.
 
-* 페이지 왼쪽 상단 모서리에 있는 **Adobe** 로고는 고급 기능 및 구성에 대한 액세스를 제공합니다. 메뉴는 프로필 및 권한에 따라 다릅니다.
+* 다음 **Adobe** 페이지 왼쪽 상단 모서리에 있는 로고는 고급 기능 및 구성에 대한 액세스를 제공합니다. 메뉴는 프로필 및 권한에 따라 다릅니다.
 
    고급 메뉴는 [고급 메뉴](#advanced-menu) 섹션에 표시됩니다.
 
 * **[!UICONTROL Home]** 링크를 통해 Adobe Campaign 홈페이지를 표시할 수 있습니다.
 *  **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** 및 **[!UICONTROL Reports]** 링크를 통해 이러한 기능에 연결된 보기에 액세스할 수 있습니다.
-* **솔루션 전환기** 아이콘을 사용하면 조직 간에 또는 다른 응용 프로그램으로 전환할 수 있습니다.
-* **[!UICONTROL Help]** 아이콘은 [아래에 설명되어 있습니다](#help).
+* 다음 **솔루션 전환기** 아이콘을 사용하면 조직 간 또는 다른 애플리케이션으로 전환할 수 있습니다.
+* 다음 **[!UICONTROL Help]** 아이콘이 설명되어 있습니다 [아래](#help).
 * **알림** 아이콘에 최신 알림 또는 정보가 표시됩니다.
-* **사용자** 아이콘을 사용하면 프로필에 연결된 정보를 표시할 수 있습니다. **[!UICONTROL Sign out]**&#x200B;이 필요한 경우 이 아이콘을 사용하십시오.
+* **사용자** 아이콘을 사용하면 프로필에 연결된 정보를 표시할 수 있습니다. 필요한 경우 이 아이콘을 사용합니다 **[!UICONTROL Sign out]**.
 
 ### 도움말 {#help}
 
-오른쪽 상단 모서리에서 **도움말** 아이콘을 클릭하면 Adobe Experience League이 제품으로 이동합니다.
+오른쪽 상단 모서리에서 **도움말** 아이콘은 Adobe Experience League을 제품으로 가져옵니다.
 
 ![](assets/ux_help.png)
 
-**[!UICONTROL Search]** 필드를 사용하여 지침을 찾으십시오. 검색 결과에는 문서 및 도움말 문서, 커뮤니티 포럼 및 비디오 컨텐츠의 결과가 포함되어 있으므로 더 많은 컨텐츠에 쉽게 액세스하여 애플리케이션을 최대한 활용할 수 있습니다.
+를 사용하십시오 **[!UICONTROL Search]** 지침을 찾을 필드입니다. 검색 결과에는 문서 및 도움말 문서, 커뮤니티 포럼 및 비디오 컨텐츠의 결과가 포함되어 있으므로 더 많은 컨텐츠에 쉽게 액세스하여 애플리케이션을 최대한 활용할 수 있습니다.
 
 도움말 및 지원을 찾는 데 도움이 되는 탭 3개가 있습니다.
 
-1. **[!UICONTROL Help]** 탭에는 다음이 포함되어 있습니다.
+1. 다음 **[!UICONTROL Help]** 에는 다음이 포함되어 있습니다.
    * 상황별 링크가 있는 Adobe Campaign Standard 설명서에 빠르게 액세스할 수 있습니다.
-   * Adobe Campaign 교육 과정 라이브러리에 액세스할 수 있는 **[!UICONTROL Learning]** 링크.
-   * Campaign에 대한 질문이 있는 포럼에 액세스할 수 있는 **[!UICONTROL Community]** 링크.
-   * 다음에 직접 액세스: 도움말 센터, 고객 지원, Experience Cloud 제품 상태, 개발자 연결, 릴리스 노트, 릴리스 계획 및 **[!UICONTROL About]** 화면.
-1. **[!UICONTROL Support]** 탭에서는 지원 사례를 열고 전화 또는 Twitter으로 문의할 수 있습니다.
-1. **[!UICONTROL Feedback]** 탭을 사용하면 문제를 쉽게 보고하거나 아이디어를 공유할 수 있습니다.
+   * a **[!UICONTROL Learning]** Adobe Campaign 교육 과정 라이브러리에 액세스할 수 있는 링크입니다.
+   * a **[!UICONTROL Community]** 링크를 클릭하여 Campaign의 질문에 대한 전용 포럼에 액세스할 수 있습니다.
+   * 다음에 직접 액세스: 도움말 센터, 고객 지원, 제품 상태 Experience Cloud, 개발자 연결, 릴리스 노트, 릴리스 계획 및 **[!UICONTROL About]** 화면.
+1. 다음 **[!UICONTROL Support]** 탭에서는 지원 사례를 열고 전화 또는 Twitter으로 문의할 수 있습니다.
+1. 다음 **[!UICONTROL Feedback]**  탭을 사용하면 문제를 쉽게 보고하거나 아이디어를 공유할 수 있습니다.
 
 ## 고급 메뉴 {#advanced-menu}
 
-각 화면의 왼쪽 상단 모서리에 있는 **Adobe Campaign** 아이콘을 클릭하면 고급 메뉴가 표시됩니다. 고급 메뉴는 계약 및 사용자 권한에 따라 다를 수 있습니다.
+고급 메뉴는 **Adobe Campaign** 각 화면의 왼쪽 상단 모서리에 있는 아이콘을 클릭합니다. 고급 메뉴는 계약 및 사용자 권한에 따라 다를 수 있습니다.
 
 이 메뉴를 사용하면 특정 기능 및 설정을 탐색할 수 있습니다.
 

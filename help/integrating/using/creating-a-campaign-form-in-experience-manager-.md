@@ -21,15 +21,15 @@ AEM 사이트에서 &quot;양식&quot;을 만들고 양식의 필드를 Adobe Ca
 
 AEM 사이트에서 Adobe Campaign 양식을 만들려면:
 
-1. AEM 사이트에서 **Adobe Campaign 프로필** 템플릿을 기반으로 새 페이지를 만듭니다.
+1. AEM 사이트에서 을 기반으로 새 페이지를 만듭니다. **Adobe Campaign 프로필** 템플릿.
 
    ![](assets/aem_content_forms.png)
 
-1. 페이지 속성에서 Adobe Campaign 인스턴스에 해당하는 **[!UICONTROL Cloud Service]** 을 선택합니다.
+1. 페이지 속성에서 **[!UICONTROL Cloud Service]** 해당 Adobe Campaign 인스턴스에 대해 정의됩니다.
 
    ![](assets/aem_content_forms_2.png)
 
-1. **[!UICONTROL Form Start]** 구성 요소에서 양식 유형을 선택합니다.
+1. 에서 양식 유형을 선택합니다 **[!UICONTROL Form Start]** 구성 요소:
 
    * **Adobe Campaign: 프로필 저장**
    * **Adobe Campaign: 서비스 구독**

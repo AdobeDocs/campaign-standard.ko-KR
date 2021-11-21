@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # CCPA 옵트아웃 관리 {#managing-ccpa-optout}
 
-프로필의 CCPA 옵트아웃 상태는 **ccpaOptOut** 프로필 속성과 &quot;true&quot; 또는 &quot;false&quot; 값을 사용하여 모니터링하고 관리할 수 있습니다.
+프로필의 CCPA 옵트아웃 상태는 **ccpaOptOut** 프로필 속성 및 &quot;true&quot; 또는 &quot;false&quot; 값:
 
 `"ccpaOptOut": <value>`
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 >
 >CCPA 옵트아웃 속성은 19.4부터 만 사용할 수 있습니다. 19.3 환경의 경우 프로필 리소스를 확장하고 부울 필드를 추가해야 합니다. 이 필드는 선택한 레이블이 있는 API에 추가됩니다. &quot;CCPA용 옵트아웃&quot;을 사용하는 것이 좋습니다.
 >
->자세한 내용은 [개인 정보 보호 요청 관리 설명서](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)를 참조하십시오.
+>자세한 내용은 [개인 정보 보호 요청 관리 설명서](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 

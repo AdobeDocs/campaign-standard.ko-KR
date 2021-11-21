@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # 지표 추적{#tracking-indicators}
 
-**[!UICONTROL Tracking indicators]** 보고서에는 이메일 메시지를 받은 후 동작을 추적하는 주요 지표가 포함되어 있습니다.
+다음 **[!UICONTROL Tracking indicators]** 보고서에는 이메일 메시지를 받은 후 추적 동작을 위한 주요 지표가 포함되어 있습니다.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![](assets/delivery_reports_2.png)
 
-**[!UICONTROL Tracking indicators]** 테이블 및 **상위 5개 게재** 그래프는 다음과 같이 전자 메일 추적에 사용할 수 있는 데이터를 포함합니다.
+다음 **[!UICONTROL Tracking indicators]** 테이블 및 **상위 5개 게재** 그래프에는 다음과 같이 이메일 추적에 사용할 수 있는 데이터가 포함되어 있습니다.
 
 * **[!UICONTROL Delivered]**: 성공적으로 보낸 메시지 수입니다. 발생한 오류(바운스)가 고려됩니다. 그러나 &#39;부재 중&#39;과 같은 불만(스팸 신고)과 &#39;부재 중&#39;이라는 메시지는 고려되지 않습니다.
 * **열기**: 게재에서 메시지를 연 횟수입니다.

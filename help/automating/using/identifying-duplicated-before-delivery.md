@@ -24,11 +24,11 @@ ht-degree: 78%
 
 ![](assets/deduplication_example_workflow.png)
 
-* 전자 메일의 대상을 정의할 수 있는 [Query](../../automating/using/query.md). 여기서 워크플로우는 1년 이상 클라이언트 데이터베이스에 있었던 18세에서 25세 사이의 모든 프로필을 타겟으로 합니다.
+* A [쿼리](../../automating/using/query.md) 이메일 타겟을 정의할 수 있습니다. 여기서 워크플로우는 1년 이상 클라이언트 데이터베이스에 있었던 18세에서 25세 사이의 모든 프로필을 타겟으로 합니다.
 
    ![](assets/deduplication_example_query.png)
 
-* 이전 쿼리에서 얻은 중복을 식별할 수 있는 [중복 제거](../../automating/using/deduplication.md) 활동. 이 예제에서는 각 중복에 대해 하나의 레코드만 저장됩니다. 중복은 이메일 주소를 사용하여 식별됩니다. 즉, 이메일 게재는 각 이메일 주소가 타겟팅에 포함될 때마다 한 번만 전송될 수 있습니다.
+* A [중복 제거](../../automating/using/deduplication.md) 활동. 이전 쿼리에서 얻은 중복을 식별할 수 있습니다. 이 예제에서는 각 중복에 대해 하나의 레코드만 저장됩니다. 중복은 이메일 주소를 사용하여 식별됩니다. 즉, 이메일 게재는 각 이메일 주소가 타겟팅에 포함될 때마다 한 번만 전송될 수 있습니다.
 
    선택한 데이터 중복 제거 방법은 **[!UICONTROL Non-empty value]**&#x200B;입니다. 이를 사용하면 중복 시 유지한 레코드 중에서 **이름**&#x200B;이 제공된 레코드에 우선 순위가 부여되도록 할 수 있습니다. 이메일 콘텐츠의 개인화 필드에 이름을 사용할 경우 더욱 일관성 있게 됩니다.
 
@@ -36,5 +36,5 @@ ht-degree: 78%
 
    ![](assets/deduplication_example_dedup.png)
 
-* 중복 제거의 기본 아웃바운드 전환 후 배치된 [이메일 게재](../../automating/using/email-delivery.md).
-* 중복 제거의 추가 전환 후 배치된 [대상 저장](../../automating/using/save-audience.md) 활동을 통해 **중복** 대상자에서 중복을 저장합니다. 이 대상자는 모든 이메일 게재에서 멤버를 직접 제외하는 데 재사용할 수 있습니다.
+* An [이메일 게재](../../automating/using/email-delivery.md) 중복 제거의 기본 아웃바운드 전환 후 배치됨.
+* A [대상자 저장](../../automating/using/save-audience.md) 중복 제거의 추가 전환 후 활동을 배치하여 중복을 저장합니다 **중복** 대상. 이 대상자는 모든 이메일 게재에서 멤버를 직접 제외하는 데 재사용할 수 있습니다.

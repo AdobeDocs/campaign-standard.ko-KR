@@ -24,17 +24,17 @@ ht-degree: 3%
 구성에 따라 다음 유형의 이미지를 사용할 수 있습니다.
 
 * 로컬 이미지
-* Adobe Experience Cloud에서 공유된 이미지 - [Campaign 및 Assets 핵심 서비스로 작업](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand 참조
-* Adobe Target의 동적 이미지 - [Campaign 및 Target 작업](../../integrating/using/about-campaign-target-integration.md)을 참조하십시오.
+* Adobe Experience Cloud에서 공유되는 이미지 - 다음을 참조하십시오. [Campaign을 Assets 핵심 서비스와 함께 사용하기](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
+* Adobe Target의 동적 이미지 - 다음을 참조하십시오. [Campaign을 Target 및 사용한 작업](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->이메일의 HTML 버전을 편집하여 이미지를 직접 추가하도록 선택하는 경우 HTML 페이지의 &lt;script> 태그&#x200B;**에서**&#x200B;외부 파일을 호출해서는 안 됩니다. 이러한 파일은 Adobe Campaign 서버로 가져오지 않습니다.
+>If you choose to add an image directly by editing the HTML version of the email, you must not call up **external files in a &lt;script> tag** of the HTML page. 이러한 파일은 Adobe Campaign 서버로 가져오지 않습니다.
 
 ### 이메일에 이미지 삽입 {#inserting-images-in-an-email}
 
 1. 구조 구성 요소를 추가합니다. 자세한 내용은 [전자 메일 구조 편집](../../designing/using/designing-from-scratch.md#defining-the-email-structure)을 참조하십시오.
-1. 이 구조 구성 요소 내에서 **[!UICONTROL Image]** 컨텐츠 구성 요소를 추가합니다.
+1. 이 구조 구성 요소 내에서 **[!UICONTROL Image]** 컨텐츠 구성 요소입니다.
 
    ![](assets/des_insert_images_1.png)
 
@@ -51,13 +51,13 @@ ht-degree: 3%
 
 이미지가 포함된 블록을 선택하면 팔레트에서 다음 속성이 제공됩니다.
 
-* **개인화** 활성화 이미지 소스를 사용자 지정할 수 있습니다. [이미지 소스 개인화](../../designing/using/personalization.md#personalizing-an-image-source)를 참조하십시오.
-* **이미지** 제목 이미지에 대한 제목을 정의합니다.
-* **대체 텍스트** (이메일) 또는  **캡션** (랜딩 페이지)을 사용하면 이미지에 연결된 캡션( **** altHTML 속성에 해당됨)을 정의할 수 있습니다.
-* 이메일을 편집할 때 **스타일**&#x200B;을 사용하여 이미지 크기, 배경 및 테두리를 지정할 수 있습니다.
-* 랜딩 페이지를 편집할 때 **Dimension**&#x200B;을 사용하면 이미지 크기를 픽셀 단위로 지정할 수 있습니다.
+* **개인화 활성화** 이미지 소스를 사용자 지정할 수 있습니다. 자세한 내용은 [이미지 소스 개인화](../../designing/using/personalization.md#personalizing-an-image-source).
+* **이미지 제목** 이미지의 제목을 정의할 수 있습니다.
+* **대체 텍스트** (이메일) 또는 **캡션** (랜딩 페이지)을 사용하면 이미지에 연결된 캡션(에 해당)을 정의할 수 있습니다 **alt** HTML 속성).
+* 이메일을 편집할 때 **스타일** 이미지 크기, 배경 및 테두리를 지정할 수 있도록 해줍니다.
+* 랜딩 페이지를 편집할 때, **Dimension** 이미지 크기를 픽셀 단위로 지정할 수 있습니다.
 
-편집기를 사용하면 **모든 이미지 유형**&#x200B;에서 브라우저와 호환되는 형식으로 작업할 수 있습니다. 편집기와 호환되도록 하려면, **&quot;Flash&quot; 유형 animation**&#x200B;을 다음과 같이 HTML 페이지에 삽입해야 합니다.
+편집기에서는 **모든 이미지 유형** 와 호환되는 형식 편집기와 호환하려면 **&quot;Flash&quot; 유형 애니메이션** 다음과 같이 HTML 페이지에 삽입해야 합니다.
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">

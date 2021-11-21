@@ -48,7 +48,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 차단 목록 속도<br /> </td> 
+   <td> 차단 목록 비율<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
    <td> 비율 계산을 위한 분모는 보낸 사람 수(게재된 + 바운스 수)를 기반으로 합니다.<br /> </td> 
@@ -84,13 +84,13 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 전달된 비율<br /> </td> 
+   <td> 배달율<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
    <td> 비율 계산을 위한 분모는 보낸 사람 수(게재된 + 바운스 수)를 기반으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 하드 바운스<br /> </td> 
+   <td> 하드 바운스 수<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 AND @failureReason=8)<br /> </td> 
    <td> </td> 
@@ -120,7 +120,7 @@ ht-degree: 2%
    <td> 비율 계산을 위한 분모는 배달만 기반으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 미러 페이지 속도<br /> </td> 
+   <td> 미러 페이지 비율<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@delivered<br /> </td> 
    <td> </td> 
@@ -134,11 +134,11 @@ ht-degree: 2%
   <tr> 
    <td> 열기<br /> </td> 
    <td> @uniqueOpens<br /> </td> 
-   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
+   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,10,11) - 고유함(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 열기 비율<br /> </td> 
+   <td> 오픈율<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> @opens/@delivered<br /> </td> 
    <td> 비율 계산을 위한 분모는 배달만 기반으로 합니다.<br /> </td> 
@@ -150,7 +150,7 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 격리 속도<br /> </td> 
+   <td> 격리 비율<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
    <td> 비율 계산을 위한 분모는 보낸 사람 수(게재된 + 바운스 수)를 기반으로 합니다.<br /> </td> 
@@ -188,17 +188,17 @@ ht-degree: 2%
   <tr> 
    <td> 고유 클릭 수<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> ThetaSketch 개념을 사용하여 고유한 클릭 수를 계산합니다. 자세한 내용은 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예제</a>.<br /> 를 참조하십시오 </td> 
+   <td> ThetaSketch 개념을 사용하여 고유한 클릭 수를 계산합니다. 자세한 내용은 다음을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 고유 열기<br /> </td> 
+   <td> 고유 열기 수<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 연결할 수 없는 <br /> </td> 
+   <td> 연결할 수 없음 <br /> </td> 
    <td> @unreachable<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
@@ -246,7 +246,7 @@ ht-degree: 2%
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 전달된 비율<br /> </td> 
+   <td> 배달율<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
@@ -261,14 +261,14 @@ ht-degree: 2%
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 열기 비율<br /> </td> 
+   <td> 오픈율<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> 고유 열기<br /> </td> 
+   <td> 고유 열기 수<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 고유한 열림은 고유한 RecipientIds의 ThetaSketch 개념을 사용하여 계산됩니다. 자세한 내용은 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예제</a>.<br /> 를 참조하십시오 </td> 
+   <td> 고유한 열림은 고유한 RecipientIds의 ThetaSketch 개념을 사용하여 계산됩니다. 자세한 내용은 다음을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 노출 횟수<br /> </td> 
@@ -288,7 +288,7 @@ ht-degree: 2%
   <tr> 
    <td> 고유 클릭 수<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> ThetaSketch 개념을 사용하여 고유한 클릭 수를 계산합니다. 자세한 내용은 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예제</a>.<br /> 를 참조하십시오 </td> 
+   <td> ThetaSketch 개념을 사용하여 고유한 클릭 수를 계산합니다. 자세한 내용은 다음을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 클릭스루 비율<br /> </td> 
@@ -325,14 +325,14 @@ ht-degree: 2%
   <tr> 
    <td> 노출 횟수<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=view) 또는 @count(status=button 1 클릭 + 단추 2 클릭 + 취소)<br /> </td> 
+   <td> @count(status=view) 또는 @count(status=button 1 클릭 + 단추 2 클릭 + 취소 수)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 고유 노출 횟수<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> <span class="uicontrol">캠페인 프로필에 따른 Target 사용자(inAppProfile)</span> 템플릿의 경우 user = Recipient Id.<br /> 모바일 앱의 모든 사용자(inAppBroadcast) <span class="uicontrol">와 </span> 모바일 프로필(inApp)  <span class="uicontrol"> 템플릿을 기반으로 하는 </span> Target 사용자를Target하는 경우 user = MC Id 또는 동등한 것으로 사용자, 모바일 앱 및 장치의 고유한 조합을 나타냅니다.<br /> </td> 
+   <td> 대상 <span class="uicontrol">캠페인 프로필에 따른 Target 사용자(inAppProfile)</span> template, user = Recipient Id.<br /> 대상 <span class="uicontrol">모바일 앱의 모든 사용자 Target(inAppBroadcast)</span> 및 <span class="uicontrol">모바일 프로필에 따른 Target 사용자(inApp)</span> 템플릿, 사용자 = 사용자, 모바일 앱 및 장치의 고유한 조합을 나타내는 MC ID 또는 이에 해당합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 인앱 클릭 <br /> </td> 
@@ -344,12 +344,12 @@ ht-degree: 2%
    <td> 고유한 인앱 클릭<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks)<br /> </td> 
-   <td> <span class="uicontrol">캠페인 프로필에 따른 Target 사용자(inAppProfile)</span> 템플릿의 경우 user = Recipient Id.<br /> 모바일 앱의 모든 사용자(inAppBroadcast) <span class="uicontrol">와 </span> 모바일 프로필(inApp)  <span class="uicontrol"> 템플릿을 기반으로 하는 </span> Target 사용자를Target하는 경우 user = MC Id 또는 동등한 것으로 사용자, 모바일 앱 및 장치의 고유한 조합을 나타냅니다.<br /> </td> 
+   <td> 대상 <span class="uicontrol">캠페인 프로필에 따른 Target 사용자(inAppProfile)</span> template, user = Recipient Id.<br /> 대상 <span class="uicontrol">모바일 앱의 모든 사용자 Target(inAppBroadcast)</span> 및 <span class="uicontrol">모바일 프로필에 따른 Target 사용자(inApp)</span> 템플릿, 사용자 = 사용자, 모바일 앱 및 장치의 고유한 조합을 나타내는 MC ID 또는 이에 해당합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 인앱 클릭스루 비율<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> 단추 1 또는 단추 2/총 노출 횟수*100<br />에 대한 총 클릭 수 </td> 
+   <td> 단추 1 또는 단추 2/총 노출 횟수*100에 대한 총 클릭 수<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -359,10 +359,10 @@ ht-degree: 2%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 고유한 인앱 취소<br /> </td> 
+   <td> 고유한 인앱 해지<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
-   <td> @unique(@count (status=close)<br /> </td> 
-   <td> <span class="uicontrol">캠페인 프로필에 따른 Target 사용자(inAppProfile)</span> 템플릿의 경우 user = Recipient Id.<br /> 모바일 앱의 모든 사용자(inAppBroadcast) <span class="uicontrol">와 </span> 모바일 프로필(inApp)  <span class="uicontrol"> 템플릿을 기반으로 하는 </span> Target 사용자를Target하는 경우 user = MC Id 또는 동등한 것으로 사용자, 모바일 앱 및 장치의 고유한 조합을 나타냅니다.<br /> </td> 
+   <td> @unique(@count (status=close))<br /> </td> 
+   <td> 대상 <span class="uicontrol">캠페인 프로필에 따른 Target 사용자(inAppProfile)</span> template, user = Recipient Id.<br /> 대상 <span class="uicontrol">모바일 앱의 모든 사용자 Target(inAppBroadcast)</span> 및 <span class="uicontrol">모바일 프로필에 따른 Target 사용자(inApp)</span> 템플릿, 사용자 = 사용자, 모바일 앱 및 장치의 고유한 조합을 나타내는 MC ID 또는 이에 해당합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 인앱 해임률<br /> </td> 

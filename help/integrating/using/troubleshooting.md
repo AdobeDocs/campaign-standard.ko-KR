@@ -23,14 +23,14 @@ Audience Manager 또는 사용자 핵심 서비스와의 통합을 사용하는 
 
 * **외부 계정**
 
-   **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**&#x200B;에서 다음 외부 S3 계정이 올바르게 구성되어 있는지 확인합니다. 언급된 S3 서버는 프로비저닝 중에 구성했어야 합니다.
+   in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**&#x200B;다음 외부 S3 계정이 올바르게 구성되었는지 확인합니다. 언급된 S3 서버는 프로비저닝 중에 구성했어야 합니다.
 
    * **[!UICONTROL importSharedAudience]**: 대상 가져오기에 전용 S3 계정입니다.
    * **[!UICONTROL exportSharedAudience]**: 대상 내보내기를 위한 S3 계정입니다.
 
 * **공유 데이터 소스**
 
-   **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;에서 공유 데이터 소스가 제대로 설정되었는지 확인합니다.
+   in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;공유 데이터 소스가 제대로 설정되었는지 확인합니다.
 
    **[!UICONTROL Priority]** 여러 데이터 소스가 정의되어 있을 때에 사용됩니다. 우선 순위는 정의된 순서로 받은 별칭과 일치시키는 데 사용할 데이터 소스를 결정합니다. **[!UICONTROL Priority]** 은 트리거 구현에만 필요합니다.
 
@@ -42,10 +42,10 @@ Audience Manager 또는 사용자 핵심 서비스와의 통합을 사용하는 
 
    AES 암호화 알고리즘을 선택한 경우 다음 추가 필드를 올바르게 설정해야 합니다.
 
-   * **AES** 용 암호화 키
-   * **AES용 암호화 IV** (초기화 벡터)
-   * **채널** (이메일/SMS/기타): 이 필드에서는 이메일 주소와 SMS 번호를 직접 해독할 수 있습니다. 조정 키가 **Channel** 필드의 설정과 일치하는지 확인합니다. &quot;기타&quot;를 선택하면 이 특정 암호 해독이 발생하지 않고 조정 키를 사용하여 데이터를 조정합니다.
+   * **암호화 키** AES용
+   * **암호화 IV** (AES용 초기화 벡터)
+   * **채널** (이메일/SMS/기타): 이 필드에서는 이메일 주소와 SMS 번호를 직접 해독할 수 있습니다. 조정 키가 **채널** 필드. &quot;기타&quot;를 선택하면 이 특정 암호 해독이 발생하지 않고 조정 키를 사용하여 데이터를 조정합니다.
 
-   기술 워크플로우가 중지되었거나 일시 중지되었으므로 Experience Cloud 대상을 공유하지 않을 수 있습니다. 데이터 소스에서 **[!UICONTROL Show ImportShared Audience workflow]** 옵션을 직접 클릭하여 **[!UICONTROL Import shared audience]** 워크플로우에 액세스합니다.
+   기술 워크플로우가 중지되었거나 일시 중지되었으므로 Experience Cloud 대상을 공유하지 않을 수 있습니다. 액세스 권한 **[!UICONTROL Import shared audience]** 직접 클릭하여 워크플로우 **[!UICONTROL Show ImportShared Audience workflow]** 옵션을 선택합니다.
 
 People 핵심 서비스를 통해 대상을 공유하거나 대상을 가져올 때 일부 데이터가 누락될 수 있습니다. 프로필 차원과 조정할 수 있는 ID(&#39;방문자 ID&#39; 또는 &#39;선언된 ID&#39;)의 레코드만 전송됩니다. Adobe Campaign에서 인식하지 못하는 사람 핵심 서비스 세그먼트의 ID는 가져올 수 없습니다.

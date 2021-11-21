@@ -33,4 +33,4 @@ ht-degree: 47%
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-추가 Campaign Standard 방법 동영상은 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에 있습니다.
+추가 Campaign Standard 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko).

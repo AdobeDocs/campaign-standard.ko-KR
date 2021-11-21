@@ -65,7 +65,7 @@ ht-degree: 86%
 
 쿼리 활동에서 타겟을 식별한 후에는 이메일과 문자 메시지를 받는 대상을 두 개의 다른 모집단으로 세분화하는 조건을 선택해야 합니다. 
 
-쿼리에서 업스트림 계산된 모집단에서 하나 또는 여러 세그먼트를 만들려면 [세그먼테이션](../../automating/using/segmentation.md) 활동을 사용해야 합니다.
+을(를) 사용해야 합니다 [세그먼테이션](../../automating/using/segmentation.md) 활동으로 쿼리에서 업스트림 계산된 모집단에서 하나 또는 여러 세그먼트를 만듭니다.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +112,7 @@ ht-degree: 86%
 
 ## 게재 만들기 {#creating-deliveries}
 
-두 개의 전환이 이미 만들어졌으므로 이제 두 가지 유형의 게재를 세분화 활동의 아웃바운드 전환에 추가해야 합니다. [이메일 게재](../../automating/using/email-delivery.md) 활동 및 [SMS 게재](../../automating/using/sms-delivery.md) 활동.
+두 개의 전환이 이미 만들어졌으므로 이제 두 가지 유형의 게재를 세분화 활동의 아웃바운드 전환에 추가해야 합니다. an [이메일 게재](../../automating/using/email-delivery.md) 활동 및 [SMS 게재](../../automating/using/sms-delivery.md) 활동.
 
 Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습니다. 이렇게 하려면 워크플로우 활동 팔레트의 **[!UICONTROL Channels]** 카테고리에서 게재를 선택합니다.
 
@@ -120,7 +120,7 @@ Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습
 
 전자 메일 게재를 만드는 방법:
 
-1. 첫 번째 세그먼트 뒤에 [이메일 배달](../../automating/using/email-delivery.md) 활동을 끌어다 놓습니다.
+1. 끌어서 놓기 [이메일 게재](../../automating/using/email-delivery.md) 첫 번째 세그먼트 이후의 활동.
 1. 활동을 두 번 클릭하여 편집합니다.
 1. **[!UICONTROL Simple email]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Add an outbound transition with the population]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
@@ -133,11 +133,11 @@ Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습
 1. 전자 메일 속성을 입력하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 전자 메일 레이아웃을 만들려면 **[!UICONTROL Use the Email Designer]**&#x200B;을(를) 선택합니다.
 1. 콘텐츠를 편집하고 저장합니다.
-1. 메시지 대시보드의 **[!UICONTROL Schedule]** 섹션에서 **[!UICONTROL Request confirmation before sending messages]** 옵션을 선택 취소합니다.
+1. 에서 **[!UICONTROL Schedule]** 메시지 대시보드 섹션에서 선택을 취소합니다 **[!UICONTROL Request confirmation before sending messages]** 선택 사항입니다.
 
 SMS 게재를 만드는 방법:
 
-1. 다른 세그먼트 뒤에 [SMS 게재](../../automating/using/sms-delivery.md) 활동을 끌어다 놓습니다.
+1. 끌어서 놓기 [SMS 게재](../../automating/using/sms-delivery.md) 활동 뒤에 표시되어야 합니다.
 1. 활동을 두 번 클릭하여 편집합니다.
 1. **[!UICONTROL SMS]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 1. SMS 템플릿을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
@@ -150,7 +150,7 @@ SMS 게재를 만드는 방법:
 
 ## 워크플로우 실행 {#running-the-workflow}
 
-워크플로우가 시작되면, **[!UICONTROL Query]** 활동의 타겟팅된 모집단은 분할되어 이메일 또는 SMS 게재를 수신하게 됩니다.
+워크플로우가 시작되면, **[!UICONTROL Query]** 활동은 세그먼트화되어 이메일 또는 SMS 게재를 받습니다.
 
 워크플로우를 실행하려면 작업 모음에서 **[!UICONTROL Start]** 버튼을 클릭합니다.
 
