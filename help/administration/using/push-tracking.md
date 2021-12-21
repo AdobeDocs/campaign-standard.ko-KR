@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -232,13 +232,11 @@ iOS 알림의 작동 방식을 이해하려면 앱의 3가지 상태를 자세�
 * **배경**: 이 앱이 화면에 표시되지 않고 프로세스가 종료되지 않은 경우 홈 단추를 두 번 클릭하면 일반적으로 백그라운드에 있는 모든 앱을 표시합니다.
 * **해제/닫힘**: 프로세스가 사망한 앱.
 
-앱이 닫히면 앱을 다시 시작할 때까지 Apple에서 앱을 호출하지 않습니다. 즉, iOS에서 알림을 받은 시점을 알 수 없습니다.
-
 아직 **[!UICONTROL Impression]** 앱이 백그라운드에 있는 동안 추적 작업을 해야 함 **[!UICONTROL Content-Available]** 추적을 수행해야 한다고 앱에 알려주십시오.
 
 >[!CAUTION]
 >
->iOS 노출 추적이 정확하지 않으므로 신뢰할 수 없다고 간주해서는 안 됩니다.
+> 앱이 닫히면 앱을 다시 시작할 때까지 Apple에서 앱을 호출하지 않습니다. 즉, iOS에서 알림을 받은 시점을 알 수 없습니다. </br> 이러한 이유로 iOS 노출 추적이 정확하지 않을 수 있으며 신뢰할 수 있다고 간주해서는 안 됩니다.
 
 21.1 릴리스 전에 생성된 게재나 사용자 지정 템플릿을 사용한 게재에 대해서는 이 항목을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
 
