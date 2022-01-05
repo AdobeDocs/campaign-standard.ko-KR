@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9c14fc3de60d8e0304f8a7ebd46e7be34d2e0499
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 81%
 **예제 1: &quot;Welcome back !&quot;이라는 레이블이 있는 게재가 타겟팅한 프로필 확인**.
 
 * 이 경우 프로필을 타겟팅하려고 합니다. 타겟팅 차원을 **[!UICONTROL Profiles (profile)]**(으)로 설정합니다 .
-* 선택한 프로필을 게재의 레이블에 따라 필터링하려고 합니다. 따라서 리소스를 **[!UICONTROL Delivery logs]**(으)로 설정합니다 . 이 방법으로 게재 로그 표에서 직접 필터링하여 더 나은 성과를 제공할 수 있습니다.
+* 선택한 프로필을 게재의 레이블에 따라 필터링하려고 합니다. 따라서 리소스를 **[!UICONTROL Delivery logs]**(으)로 설정합니다 . 이 방법으로 게재 로그 표에서 직접 필터링하여 더 나은 성능을 제공할 수 있습니다.
 
 ![](assets/targeting_dimension6.png)
 

@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 40%
+source-wordcount: '553'
+ht-degree: 37%
 
 ---
 
@@ -33,6 +33,10 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 * ETL(데이터 관리)을 통해 데이터를 조작할 수 있습니다.
 * 데이터를 Campaign 데이터베이스로 가져옵니다.
 * 데이터베이스 정리, 추적 정보 복구 등의 기술 프로세스
+
+>[!IMPORTANT]
+>
+> Adobe은 고객이 동시에 20개 이상의 활성 워크플로우 실행을 실행하지 않고 시간에 따른 워크플로우 실행에 우선 순위를 지정하고 분산할 것을 권장합니다. 자세한 내용은 [이 페이지](../../automating/using/best-practices-workflows.md).
 
 ## 워크플로우 활동 {#workflow-activities}
 

@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '353'
 ht-degree: 8%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 8%
 
 워크플로우는 항상 수동으로 시작됩니다. 그러나 일단 시작되면, [스케줄러](../../automating/using/scheduler.md) 활동.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> Adobe은 고객이 워크플로우 실행에 우선 순위를 지정하고 최대 20개의 동시 워크플로우 실행을 실행하여 인스턴스 전체에서 일관되게 최대 성능을 구현할 것을 권장합니다. 20개 이상의 동시 워크플로우 실행을 계획할 수 있으며 기본적으로 순차적으로 실행됩니다. 고객 지원 센터에 티켓을 제출하여 최대 동시 실행 워크플로우의 수에 대한 기본 설정을 조정할 수 있습니다.
+> Adobe은 고객이 동시에 20개 이상의 활성 워크플로우 실행을 실행하지 않고 시간에 따른 워크플로우 실행에 우선 순위를 지정하고 분산할 것을 권장합니다. 자세한 내용은 [이 페이지](../../automating/using/best-practices-workflows.md).
 
 실행 관련 작업(시작, 중지, 일시 중지 등) is **비동기** 프로세스: 명령이 저장되고 서버가 해당 명령을 적용할 수 있게 되면 그 효과가 나타납니다.
 
