@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 10%
 * 이제 인앱 메시지를 보낸 후 게재를 비활성화하도록 선택할 수 있습니다. 이렇게 하면 보고 데이터를 손실하지 않고 게재를 삭제할 수 있습니다. (CAMP-48469)
 * 문제를 방지하기 위해 사용자는 더 이상 데이터베이스의 자동 기본 키에 사용되는 이름과 동일한 이름을 사용자 지정 테이블 열에 사용할 수 없습니다. `"<dataType><resourceName>Id"`. (CAMP-49358)
 * 이제 게재를 모니터링하고 새 기능으로 작업 로그를 추적할 수 있습니다 **작업 내역** 메시지 대시보드에서 드롭다운 (CAMP-49840)
+* 시간이 지남에 따라 모든 채널에서 수많은 메시지가 전송되는 경우 데드 튜플을 줄여 안정성과 데이터베이스 상태를 개선했습니다. (CAMP-49755, CAMP-49792, CAMP-49849)
+* 데이터베이스 충돌 또는 다시 시작 시 데이터베이스 연결이 자동으로 새로 고쳐지도록 하기 위해 MTA(Campaign Mail Transfer Agent)에서 기능이 개선되었습니다. (CAMP-48063)
+
 
 **패치**
 
