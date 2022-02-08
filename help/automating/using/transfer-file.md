@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
+source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 84%
+source-wordcount: '1168'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,11 @@ ht-degree: 84%
    다음을 수행할 수 있습니다.
 
    * **[!UICONTROL Delete the source files after transfer]**: 원격 서버의 파일을 지웁니다. 이 옵션을 선택 취소하면 SFTP 디렉토리에서 보관된 컨텐츠의 크기를 수동으로 모니터링해야 합니다.
-   * **[!UICONTROL Disable passive mode]**: 데이터 전송에 사용할 연결 포트를 지정할 수 있습니다.
+
+   * **[!UICONTROL Sorting files]**: 파일을 영숫자 순서로 정렬할 수 있습니다. 이 옵션은 기본적으로 비활성화됩니다.
+
+      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+
    * **[!UICONTROL List all files]**: 이 옵션은 **[!UICONTROL File listing]** 의 작업 **[!UICONTROL General]** 탭. 이 옵션을 통해 서버에 있는 모든 파일을 **변수.파일명** 이벤트 변수로 색인화할 수 있습니다. 이때 파일 이름은 **&#39;n&#39;** 문자로 구분됩니다.
 
 1. **[!UICONTROL Advanced options]** 탭의 **[!UICONTROL If no files are found]** 섹션에서 활동 시작 시 오류 또는 존재하지 않는 파일이 감지될 경우 실행할 작업을 구성할 수 있습니다.
@@ -80,6 +84,8 @@ HTTP 프로토콜을 통해 외부 계정 또는 URL에서 파일 다운로드�
 
 **[!UICONTROL Quick configuration]** 옵션을 선택할 수도 있습니다. URL 필드에 URL을 입력하기만 하면 됩니다.
 ![](assets/wkf_file_transfer_04.png)
+
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**, 및 **[!UICONTROL Add received HTTP headers to the file]** 는 HTTP 프로토콜을 선택할 때 사용할 수 있는 추가 옵션입니다.
 
 ### SFTP를 사용한 구성 {#SFTP-configuration-wf}
 

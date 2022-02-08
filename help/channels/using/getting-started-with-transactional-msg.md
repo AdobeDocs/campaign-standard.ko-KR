@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 8%
@@ -91,7 +91,7 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 ### 1단계 - 이벤트 구성 만들기 및 게시 {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
 | 사용자 | 작업 | 결과 |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 ### 2단계 - 트랜잭션 메시지 편집 및 게시 {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+<!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
 | 사용자 | 작업 | 결과 |
 |--- |--- |--- |
@@ -111,7 +111,7 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 ### 3단계 - 이벤트 트리거 통합 {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="55px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
 <!--**Event triggering integration**-->
 
@@ -125,7 +125,7 @@ Campaign REST API를 사용하여 트랜잭션 메시지를 관리하는 방법�
 
 ### 4단계 - 메시지 전달 {#message-delivery}
 
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
 이러한 단계를 모두 완료하면 메시지를 전달할 수 있습니다.
 

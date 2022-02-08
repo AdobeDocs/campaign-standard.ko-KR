@@ -1,23 +1,34 @@
 ---
 title: 설명서 업데이트
-description: Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아봅니다.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+description: Adobe Campaign Standard 설명서의 모든 최신 업데이트에 대해 알아봅니다
 feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
 workflow-type: tm+mt
-source-wordcount: '6933'
-ht-degree: 100%
+source-wordcount: '7089'
+ht-degree: 97%
 
 ---
 
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+## 2022년 2월 {#doc-updates-feb-2022}
+
+URL에서 가져온 콘텐츠를 포함하여 게재에 대한 다시 시도 메커니즘이 개선되었습니다. [자세히 표시](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+
+자동 SMS 응답을 트리거하는 키워드에 대한 경고 메모를 추가했습니다. 영숫자 문자만 포함해야 합니다. [자세히 표시](../../channels/using/managing-incoming-sms.md)
+
+감사를 제어하는 옵션의 액세스 수준을 업데이트했습니다. 활성화/비활성화에 대한 이전 옵션 [감사 추적](../../administration/using/audit.md) 에 액세스할 수 없음 [기능 관리자](../../administration/using/users-management.md#functional-administrators). 이러한 변경으로, 기능 관리자에게 제어 기능을 제공하기 위해 감사 액세스 수준이 수정되었습니다. [자세히 표시](../../administration/using/audit.md#enable-disable-audit)
+
+A/B 테스트 이메일 섹션에 메모를 추가했습니다. 총 모집단이 50k보다 작은 경우 각 변형은 전체 모집단의 10% 이상을 나타내야 합니다. 그렇지 않으면 로그에 경고가 표시됩니다. [자세히 표시](../../channels/using/designing-an-a-b-test-email.md)
+
+다음에 대한 설명이 업데이트되었습니다. **[!UICONTROL Delete the source files after transfer]** 옵션 **파일 전송** 활동(옵션이 선택되어 있지 않은 경우 SFTP 디렉토리에서 보관된 컨텐츠의 크기를 수동으로 모니터링하기 위한 미리 알림을 포함한다). [자세히 표시](../../automating/using/transfer-file.md)
+
+에서 모든 오래된 링크가 업데이트되었습니다. **개인 정보 보호** 섹션에 자세히 설명되어 있습니다. [자세히 표시](../../start/using/privacy.md)
 
 ## 릴리스 21.3 - 2021년 9월 {#release-21-3---september-2021}
 
