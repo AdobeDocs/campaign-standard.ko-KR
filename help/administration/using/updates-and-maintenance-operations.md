@@ -2,13 +2,11 @@
 title: 업데이트 및 유지 관리 작업
 description: Adobe Campaign 서버의 업데이트 및 유지 관리 작업에 대한 정보입니다.
 audience: administration
-content-type: reference
-topic-tags: application-settings
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 4da0b7b0-a854-4935-9f5f-04bfc764b18d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 43%

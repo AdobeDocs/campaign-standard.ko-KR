@@ -1,16 +1,14 @@
 ---
 title: 모바일 애플리케이션 구성
-description: SDK V4 또는 Experience Platform SDK를 사용하여 푸시 알림 또는 인앱 메시지를 전송하도록 Adobe Campaign을 구성하는 방법을 알아봅니다.
+description: Experience Platform SDK를 사용하여 푸시 알림 또는 인앱 메시지를 전송하도록 Adobe Campaign을 구성하는 방법을 알아봅니다
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1245'
 ht-degree: 5%
 
 ---

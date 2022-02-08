@@ -1,18 +1,16 @@
 ---
 title: Campaign Standard 설정 기본 정보
-description: Campaign Standard 설정 기본 정보
+description: Campaign Standard 기본 설정에 대해 알아보기
 audience: administration
-content-type: reference
-topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 47ecacbf-2a6a-4f33-972a-b2e47dc0284e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 9%
+source-wordcount: '134'
+ht-degree: 5%
 
 ---
 

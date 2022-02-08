@@ -1,17 +1,14 @@
 ---
 title: 푸시 추적 구현
-description: 이 문서에서는 푸시 알림 추적이 iOS 및 Android에서 올바르게 구현되었는지 확인할 수 있습니다.
+description: 푸시 알림 추적이 iOS 및 Android에서 올바르게 구현되었는지 확인하는 방법을 알아봅니다
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---

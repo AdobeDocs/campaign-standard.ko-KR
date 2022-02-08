@@ -1,14 +1,12 @@
 ---
 title: 채널 구성 기본 정보
-description: '"각 채널을 구성해야 합니다. 기술 구성, 메시지 속성 및 템플릿"'
+description: 기술 구성, 메시지 속성 및 템플릿을 포함한 채널을 구성하는 방법을 알아봅니다
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 4%

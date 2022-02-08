@@ -1,17 +1,14 @@
 ---
 title: Campaign Standard 푸시 알림 페이로드 구조 이해
-description: 이 문서는 모바일 애플리케이션에서 수신되는 페이로드 구조를 설명하기 위한 것입니다.
+description: 모바일 애플리케이션에서 수신되는 페이로드 구조에 대해 알아봅니다
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1137'
 ht-degree: 3%
 
 ---

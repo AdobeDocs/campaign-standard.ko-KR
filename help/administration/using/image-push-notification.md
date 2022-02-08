@@ -1,15 +1,12 @@
 ---
 title: Adobe Campaign Standard 푸시 알림의 이미지 표시
-description: iOS 장치에서 Adobe Campaign 푸시 알림의 이미지를 표시하는 방법을 알아봅니다.
+description: iOS 장치에서 Adobe Campaign 푸시 알림의 이미지를 표시하는 방법을 알아봅니다
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 18%

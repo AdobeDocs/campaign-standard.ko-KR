@@ -1,14 +1,12 @@
 ---
 title: SMS 커넥터 프로토콜 및 설정
-description: SMS 커넥터 및 구성 방법에 대해 자세히 알아보십시오.
+description: SMS 커넥터 및 구성 방법에 대해 자세히 알아보십시오
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '8664'
 ht-degree: 0%

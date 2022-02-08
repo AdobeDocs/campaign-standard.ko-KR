@@ -1,17 +1,14 @@
 ---
 title: Adobe Experience Platform SDK로 SDK v4 모바일 애플리케이션 마이그레이션
-description: 이 문서에서는 모바일 애플리케이션을 SDK v4에서 Adobe Experience Platform SDK로 마이그레이션할 수 있습니다
+description: 모바일 애플리케이션을 SDK v4에서 Adobe Experience Platform SDK로 마이그레이션하는 방법을 알아봅니다
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1200'
 ht-degree: 1%
 
 ---

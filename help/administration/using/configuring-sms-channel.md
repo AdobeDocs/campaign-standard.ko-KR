@@ -1,18 +1,15 @@
 ---
 title: SMS 채널 구성
-description: '"라우팅, 인코딩, 포맷, 고급 속성의 SMS 구성 단계를 살펴봅니다. "'
+description: 라우팅, 인코딩, 형식 및 고급 속성을 포함한 SMS 구성 단계를 알아봅니다
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
-context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 91%
+source-wordcount: '1565'
+ht-degree: 90%
 
 ---
 

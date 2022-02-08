@@ -1,15 +1,12 @@
 ---
 title: 모니터링 지침
-description: 이 섹션에서는 Campaign Standard 모니터링을 위한 일반적인 지침을 제공합니다.
+description: 이 페이지에서는 Campaign Standard 모니터링을 위한 일반적인 지침을 제공합니다
 audience: production
-content-type: reference
-topic-tags: introduction
-index: y
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 20%

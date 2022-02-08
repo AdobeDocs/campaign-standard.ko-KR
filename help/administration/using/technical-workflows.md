@@ -1,17 +1,15 @@
 ---
 title: 기술 워크플로우
-description: 기술 워크플로우는 Adobe Campaign의 백그라운드 기술 프로세스를 처리하기 위해 고안된 기본 제공 워크플로우로, 플랫폼이 올바르게 동작하도록 합니다.
+description: 기술 워크플로우에 대한 자세한 정보
 audience: administration
-content-type: reference
-topic-tags: application-settings
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 91%
+source-wordcount: '702'
+ht-degree: 93%
 
 ---
 
