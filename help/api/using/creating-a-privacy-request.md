@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->다음 [개인 정보 보호 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. 19.4 릴리스부터 액세스 및 삭제 요청에 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 사용 중단된 Campaign Standard 및 제거된 기능에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
+>다음 [개인 정보 보호 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 개인 정보 보호 요청은 **POST** 요청.
 
-요청을 만들기 전에 사용할 네임스페이스를 정의해야 합니다. 자세한 내용은 [개인 정보 관리 설명서](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+요청을 만들기 전에 사용할 네임스페이스를 정의해야 합니다. 자세한 내용은 [개인 정보 관리 설명서](../../start/using/privacy-requests.md).
 
 페이로드에는 다음 매개 변수가 포함되어야 합니다.
 

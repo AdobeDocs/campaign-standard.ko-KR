@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 25%
+source-wordcount: '48'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 25%
 
 생성된 개인 정보 보호 요청에 대한 정보를 **GET** 요청.
 
-상태 목록 설명은 [개인 정보 관리 설명서](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+상태 목록 설명은 [개인 정보 관리 설명서](../../start/using/privacy-requests.md).
 
 <br/>
 

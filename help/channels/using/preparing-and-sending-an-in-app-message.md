@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
+source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 95%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
@@ -159,6 +159,18 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
    ![](assets/inapp_sending_7.png)
 
 1. 게재 보고서를 통해 인앱 메시지가 미치는 영향을 측정합니다. 보고와 관련한 자세한 정보는 [이 섹션](../../reporting/using/in-app-report.md)을 참조하십시오.
+
+1. 인앱 메시지를 보낸 후 게재를 비활성화하도록 선택할 수 있습니다. 이 기능은 특정 게재를 중지하거나 예를 들어 동일한 트리거로 새 게재를 실행하려는 경우 유용합니다.
+
+   클릭 **[!UICONTROL Deactivate]** 그런 다음 **[!UICONTROL Ok]** 비활성화 요청을 시작합니다.
+
+   ![](assets/inapp_sending_8.png)
+
+1. 요청이 전송되면 게재가 비활성화되고 다른 메시지는 전송되지 않습니다.
+
+   이 게재에 대한 보고서는 계속 액세스할 수 있습니다.
+
+   ![](assets/inapp_sending_9.png)
 
 **관련 항목:**
 

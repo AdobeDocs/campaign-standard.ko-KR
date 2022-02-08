@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e6939330e0f9a519507f467cc56e3d5a9a995b17
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 77%
+source-wordcount: '933'
+ht-degree: 73%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 77%
 
 ## 보안 그룹 기본 정보 {#about-security-groups}
 
+>[!IMPORTANT]
+>
+>다음 **[!UICONTROL Access to the deliverability parameters (Deliverability)]** 및 **[!UICONTROL Message Center agents (mcExec)]** 보안 그룹은 Adobe 내에서만 사용되며 사용자에게 지정해서는 안 됩니다.
+
 보안 그룹은 조직 내에서 동일한 역할과 권한을 공유하는 사용자의 집합입니다.
 
-사용자는 항상 보안 그룹에 연결되어 있어야 합니다. 이를 통해 특정 역할 및 조직 단위를 할당할 수 있습니다.
+사용자는 항상 보안 그룹에 연결되어 있어야 합니다. 이를 통해 특정 역할 및 조직 단위를 할당할 수 있습니다. 사용자의 액세스를 제한하려면 사용자를 캠페인에 추가하지 마십시오 **[!UICONTROL Standard Users]** 연결된 그룹 **[!UICONTROL All]** 조직 단위.
 
 역할에 대한 자세한 내용은 다음 페이지의 표에 사용자의 역할에 따라 사용할 수 있는 작업이 나와 있습니다. [Adobe Campaign Standard 권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
@@ -33,17 +37,7 @@ ht-degree: 77%
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
->[!IMPORTANT]
->
->다음 **[!UICONTROL Access to the deliverability parameters (Deliverability)]** 및 **[!UICONTROL Message Center agents (mcExec)]** 보안 그룹은 Adobe 내에서만 사용되며 사용자에게 지정해서는 안 됩니다.
-
-Adobe Campaign에 액세스할 수 있으려면 각 사용자를 보안 그룹에 지정해야 합니다.
-
-사용자의 액세스를 제한하려면 해당 사용자를 Campaign Standard 사용자 그룹에 추가하지 마십시오. 이 그룹은 **[!UICONTROL All]** 조직 단위와 연결되어 있기 때문입니다. 
-
->[!NOTE]
->
->**[!UICONTROL All (all)]** 조직 단위는 기본적으로 **[!UICONTROL Administrators]** 보안 그룹에 할당되어 있습니다. 이는 읽기 전용이므로 수정할 수 없습니다.
+기본 제공 보안 그룹은 읽기 전용이므로 수정할 수 없습니다. 특정 역할 세트를 사용하여 고유한 보안 그룹을 만들려면 아래 섹션을 참조하십시오.
 
 ## 보안 그룹 만들기 및 사용자 할당 {#creating-a-security-group-and-assigning-users}
 

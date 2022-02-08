@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: a6768af0cea8891411f81e1782a873b5adb70a0e
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1705'
 ht-degree: 6%
 
 ---
@@ -122,6 +122,10 @@ Adobe Campaign으로 트랜잭션 메시지를 보내려면 먼저 이벤트를 
 1. 를 사용하십시오 **[!UICONTROL Create element]** 선택한 리소스의 필드를 이전에 이벤트에 추가한 필드 중 하나에 연결하는 버튼( 참조) [이벤트 속성 정의](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
+
+   >[!NOTE]
+   >
+   >여러 수신자를 선택할 수 있는 조건(예: 여러 프로필에 대해 동일한 값을 가질 수 있는 필드)을 정의하는 경우 두 개 이상의 프로필이 타겟팅되지 않습니다.
 
 1. 이 예에서는 다음을 조정합니다 **[!UICONTROL Last name]** 그리고 **[!UICONTROL First name]** 에 해당 필드가 있는 필드 **[!UICONTROL Profile]** 리소스 를 참조하십시오.
 

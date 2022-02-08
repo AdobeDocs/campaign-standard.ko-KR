@@ -13,9 +13,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1424'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양�
 
 >[!NOTE]
 >
->GDPR, CPA 및 PDPA가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)를 참조하십시오.
+>GDPR, CPA 및 PDPA가 Adobe Campaign에 적용되는 방법에 대한 자세한 내용은 [이 페이지](../../start/using/privacy-management.md#privacy-management-regulations)를 참조하십시오.
 
 ### Adobe Experience Cloud 개인 정보 보호 {#experience-cloud-privacy}
 
@@ -59,7 +59,7 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 * **Adobe Experience Cloud을 정보를 수집하는 데 사용하는 방법**
 
    * Adobe Experience Cloud 솔루션은 사용자가 정보를 수집할 수 있도록 쿠키 및 웹 비콘(태그 또는 픽셀로도 알려져 있음)과 같은 유사한 기술을 사용합니다. Adobe Campaign의 쿠키 및 추적 기능에 대한 자세한 내용은 [이 섹션](#tracking-capabilities)을 참조하십시오.
-   * 또한 모바일 앱에서 Adobe Experience Cloud 기술을 사용할 수 있습니다. Campaign으로 모바일 게재 전송에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/acs-mobile.html)를 참조하십시오.
+   * 또한 모바일 앱에서 Adobe Experience Cloud 기술을 사용할 수 있습니다. Campaign으로 모바일 게재 전송에 대한 자세한 내용은 [이 페이지](../../channels/using/mobile-guide.md)를 참조하십시오.
 
 * **Adobe Experience Cloud 사용에 대한 사용자의 개인 정보 보호 선택**
 
@@ -100,14 +100,14 @@ Adobe Campaign을 사용하면 개인 및 중요한 정보를 포함한 데이�
 
 ## 개인 정보 보호 관리 {#privacy-management}
 
-개인 정보 관리는 개인 정보 보호 규정(GDPR, CPA 등)을 준수하는 데 도움이 되는 모든 프로세스 및 도구를 의미합니다. [이 페이지](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)에서 개인 정보 관리 기능에 대한 개요를 살펴보십시오.
+개인 정보 관리는 개인 정보 보호 규정(GDPR, CPA 등)을 준수하는 데 도움이 되는 모든 프로세스 및 도구를 의미합니다. [이 페이지](../../start/using/privacy-management.md#privacy-management-regulations)에서 개인 정보 관리 기능에 대한 개요를 살펴보십시오.
 
 Adobe Campaign은 개인 정보 관리를 위한 다양한 기능을 제공합니다.
 * 동의 관리, 데이터 보존 및 사용자 역할. [이 섹션](#consent)을 참조하십시오.
 * 개인 정보 보호 요청(액세스 권한 및 잊혀질 권리). [이 섹션](#privacy-requests)을 참조하십시오.
-* 개인 정보 판매 옵트아웃 (CCPA-특정). [이 섹션](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ccpa)을 참조하십시오.
+* 개인 정보 판매 옵트아웃 (CCPA-특정). [이 섹션](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)을 참조하십시오.
 
-Campaign의 주요 개인 정보 보호 기능과 관련된 개인의 예가 [이 섹션](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-faq.html?lang=ko#getting-started)에 나와 있습니다.
+Campaign의 주요 개인 정보 보호 기능과 관련된 개인의 예가 [이 섹션](#personal-data)에 나와 있습니다.
 
 
 ### 동의, 보존 및 역할 {#consent}
@@ -118,7 +118,7 @@ Campaign의 주요 개인 정보 보호 기능과 관련된 개인의 예가 [�
 * **데이터 보존**: 모든 기본 제공 표준 로그 테이블에는 사전 설정된 보존 기간이 있으며 일반적으로 데이터 저장소를 6개월 이하로 제한합니다. 워크플로우로 추가 보존 기간을 설정할 수 있습니다. 자세한 내용은 Adobe 컨설턴트나 기술 관리자에게 문의하십시오.
 * **권한 관리**: Adobe Campaign은 다양한 사전 설치 또는 사용자 지정 역할을 통해 다양한 캠페인 운영자에게 할당된 권한을 관리할 수 있는 기능을 제공합니다. 이를 통해 회사 내에서 다른 유형의 데이터에 액세스, 수정 또는 내보낼 수 있는 사용자를 관리할 수 있습니다. 자세한 내용은 [액세스 관리 정보](../../administration/using/about-access-management.md)를 참조하십시오.
 
-이러한 기능과 Adobe Campaign에서 관리하는 방법에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#consent)를 참조하십시오.
+이러한 기능과 Adobe Campaign에서 관리하는 방법에 대한 자세한 내용은 [이 페이지](../../start/using/privacy-management.md#consent-retention-roles)를 참조하십시오.
 
 ### 개인 정보 보호 요청 {#privacy-requests}
 
@@ -130,15 +130,9 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 
 >[!NOTE]
 >
->이 도구를 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)를 참조하십시오.
+>이 도구를 사용하면 GDPR, CPA 및 PDPA에 대한 개인 정보 보호 규정을 준수할 수 있습니다. 이러한 다른 규정에 대한 자세한 내용은 [이 페이지](../../start/using/privacy-management.md#privacy-management-regulations)를 참조하십시오.
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-**액세스** 및 **삭제** 요청이 [이 페이지](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ko#getting-started)에 표시됩니다. 이러한 요청을 만드는 구현 단계는 [이 페이지](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)에 자세히 설명되어 있습니다. 튜토리얼도 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ko)에서 사용 가능합니다.
+**액세스** 및 **삭제** 요청이 [이 페이지](../../start/using/privacy-management.md#right-access-forgotten)에 표시됩니다. 이러한 요청을 만드는 구현 단계는 [이 페이지](../../start/using/privacy-requests.md#about-privacy-requests)에 자세히 설명되어 있습니다. 튜토리얼도 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ko)에서 사용 가능합니다.
 
 ## 추적 기능 {#tracking-capabilities}
 

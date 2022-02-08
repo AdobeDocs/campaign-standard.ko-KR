@@ -7,10 +7,10 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 15%
+source-wordcount: '590'
+ht-degree: 14%
 
 ---
 
@@ -89,7 +89,7 @@ Campaign Standard은 여러 가지 기능을 제공합니다 **게재 기능 도
 ## 추가 리소스
 
 * [A/B 테스트 이메일 디자인](../../channels/using/designing-an-a-b-test-email.md)
-* [이메일 시작](https://helpx.adobe.com/kr/campaign/kb/acs-get-started-with-emails.html)
+* [메시지 시작](../../channels/using/key-steps-to-send-a-message.md)
 * [게재 모범 사례](../../sending/using/delivery-best-practices.md)
 * [컨트롤 그룹 추가](../../sending/using/control-group.md)
 

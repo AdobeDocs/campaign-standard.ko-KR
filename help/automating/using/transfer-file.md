@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 88%
+source-wordcount: '1157'
+ht-degree: 84%
 
 ---
 
@@ -54,11 +54,13 @@ ht-degree: 88%
    * [Microsoft Azure Blob 저장 공간](#azure-blob-configuration-wf)
    * [Adobe Campaign 서버에 있는 파일](#files-server-configuration-wf)
 
-1. 선택한 프로토콜에 따라 활성화되는 **[!UICONTROL Additional options]** 섹션에서 프로토콜에 매개 변수를 추가할 수 있습니다. 다음을 수행할 수 있습니다.
+1. 선택한 프로토콜에 따라 활성화되는 **[!UICONTROL Additional options]** 섹션에서 프로토콜에 매개 변수를 추가할 수 있습니다.
 
-   * **[!UICONTROL Delete the source files after transfer]**
-   * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: 이 옵션은 **[!UICONTROL General]** 탭에서 **[!UICONTROL File listing]** 작업을 선택할 경우 사용할 수 있습니다. 이 옵션을 통해 서버에 있는 모든 파일을 **변수.파일명** 이벤트 변수로 색인화할 수 있습니다. 이때 파일 이름은 **&#39;n&#39;** 문자로 구분됩니다.
+   다음을 수행할 수 있습니다.
+
+   * **[!UICONTROL Delete the source files after transfer]**: 원격 서버의 파일을 지웁니다. 이 옵션을 선택 취소하면 SFTP 디렉토리에서 보관된 컨텐츠의 크기를 수동으로 모니터링해야 합니다.
+   * **[!UICONTROL Disable passive mode]**: 데이터 전송에 사용할 연결 포트를 지정할 수 있습니다.
+   * **[!UICONTROL List all files]**: 이 옵션은 **[!UICONTROL File listing]** 의 작업 **[!UICONTROL General]** 탭. 이 옵션을 통해 서버에 있는 모든 파일을 **변수.파일명** 이벤트 변수로 색인화할 수 있습니다. 이때 파일 이름은 **&#39;n&#39;** 문자로 구분됩니다.
 
 1. **[!UICONTROL Advanced options]** 탭의 **[!UICONTROL If no files are found]** 섹션에서 활동 시작 시 오류 또는 존재하지 않는 파일이 감지될 경우 실행할 작업을 구성할 수 있습니다.
 

@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '1599'
-ht-degree: 100%
+source-wordcount: '1591'
+ht-degree: 94%
 
 ---
 
@@ -23,9 +23,7 @@ ht-degree: 100%
 
 CPA에만 해당되는 개인 정보 판매 옵트아웃은 [이 섹션](#sale-of-personal-information-ccpa)에 설명되어 있습니다.
 
->[!IMPORTANT]
->
->19.4 릴리스부터 액세스 및 삭제 요청에 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. GDPR, CPA, PDPA 또는 LGPD 액세스 및 삭제 요청의 경우 [개인 정보 보호 핵심 서비스](#create-privacy-request) 통합 방법을 사용해야 합니다.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.-->
 
 ## 개인 정보 보호 요청 정보 {#about-privacy-requests}
 
@@ -89,15 +87,17 @@ Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들�
 
 ### 개인 정보 보호 요청 만들기 {#create-privacy-request}
 
->[!IMPORTANT]
->
->**개인 정보 보호 핵심 서비스** 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다.
->
->19.4 릴리스부터 액세스 및 삭제 요청에 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. GDPR, CPA, PDPA 또는 LGPD 액세스 및 삭제 요청에 대해 핵심 개인 정보 보호 서비스를 사용하십시오.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
 개인 정보 보호 핵심 서비스 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다.
 
 개인 정보 보호 핵심 서비스에서 개인 정보 보호 요청을 만드는 방법에 대해 알아보려면 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko) 설명서를 참조하십시오.
+
+>[!IMPORTANT]
+>
+>사용자 지정 네임스페이스 유형을 사용하여 요청을 제출하려면 [JSON 메서드](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} 를 추가하고 요청에 namespaceId를 추가하거나 [API 호출](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} 을 호출하여 요청을 수행할 수 있습니다.
+>
+>만 사용 [개인 정보 보호 사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder)표준 네임스페이스 유형을 사용하여 요청을 제출할 {target=&quot;_blank&quot;}.
 
 각 개인 정보 보호 핵심 서비스 작업은 사용 중인 네임스페이스의 수를 기준으로 Campaign에서 여러 개인 정보 보호 요청으로 분할되며, 하나의 요청은 하나의 네임스페이스에 해당합니다. 또한 하나의 작업은 여러 인스턴스에 대해 실행할 수 있습니다. 따라서 하나의 작업에 대해 여러 파일이 만들어집니다. 예를 들어, 요청에 두 개의 네임스페이스가 있고 세 개의 인스턴스에서 실행 중인 경우 총 6개의 파일이 전송됩니다. 네임스페이스 및 인스턴스당 하나의 파일입니다.
 
@@ -189,7 +189,7 @@ Adobe Campaign이 제공하는 [동의 관리](../../start/using/privacy-managem
 
 ### 사용자 지정 테이블에 대한 사전 요구 사항 {#ccpa-prerequisite}
 
-19.4 릴리스부터 **[!UICONTROL CCPA Opt-Out]** 필드는 Campaign 인터페이스 및 API에서 기본적으로 제공됩니다. 기본적으로 이 필드는 표준 **[!UICONTROL Profile]** 리소스에 대해 사용할 수 있습니다.
+다음 **[!UICONTROL CCPA Opt-Out]** 필드는 Campaign 인터페이스 및 API에서 기본적으로 제공됩니다. 기본적으로 이 필드는 표준 **[!UICONTROL Profile]** 리소스에 대해 사용할 수 있습니다.
 
 사용자 지정 프로필 리소스를 사용하는 경우 리소스를 확장하고 필드를 추가해야 합니다. **[!UICONTROL Opt-Out for CCPA]** Optopcpa와 같이 기본적으로 제공되는 필드가 아닌 다른 이름을 사용하는 것이 좋습니다. 새 필드를 만들면 Campaign API에서 자동으로 지원됩니다.
 

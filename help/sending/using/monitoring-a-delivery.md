@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 86%
+source-wordcount: '499'
+ht-degree: 79%
 
 ---
 
@@ -37,6 +37,12 @@ ht-degree: 86%
    **[!UICONTROL Export list]** 버튼을 클릭하여 로그를 내보낼 수 있습니다.
 
    ![](assets/sending_delivery2.png)
+
+* **작업 로그**: 게재에 의해 트리거되는 배치 작업 목록은 메시지 대시보드에서 을(를) 선택하여 액세스할 수 있습니다 **[!UICONTROL Job history]** 에서 **[!UICONTROL Summary]** 드롭다운 목록.
+
+   목록에서 작업을 선택하여 선택한 작업의 세부 정보를 확인합니다 **[!UICONTROL Batch job]**.
+
+   ![](assets/sending_delivery8.png)
 
 * **게재 경고**: Adobe Campaign은 게재 성공 또는 실패를 추적하기 위한 이메일 알림 시스템을 제공합니다. 이 시스템은 사용자에게 중요한 시스템 활동에 대한 알림을 보냅니다.
 * **보고서**: 메시지 대시보드에서 특정 메시지에 대한 여러 보고서에 액세스할 수 있습니다. 또한 **[!UICONTROL Reports]** 메뉴를 통해 기본 제공 또는 사용자 정의 보고서 전체 목록에 액세스할 수 있습니다. 보고서를 통해 메시지 또는 캠페인과 관련된 특정 지표를 전체적으로 확인할 수 있습니다.

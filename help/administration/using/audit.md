@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: b7b9b137de1c62b00895550c7f5bec8ae508bd3b
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 3%
 
 ---
 
@@ -87,6 +87,10 @@ ht-degree: 1%
    ![](assets/audit-trail_3.png)
 
 ## 감사 추적 활성화/비활성화 {#enable-disable-audit}
+
+>[!NOTE]
+>
+> 기능 관리자만이 감사 추적을 활성화하거나 비활성화할 수 있습니다. 자세한 정보는 이 [페이지](../../administration/using/users-management.md#functional-administrators)를 참조하십시오.
 
 특정 활동에 대해 감사 추적을 쉽게 활성화하거나 비활성화할 수 있습니다.
 

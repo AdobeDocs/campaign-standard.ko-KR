@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 수행�
 1. 이 자동 답장을 트리거할 키워드를 선택합니다. 키워드는 대/소문자를 구분하지 않습니다. 예를 들어 여기에서 수신자가 키워드 &quot;STOP&quot;을 보낼 경우 자동 답장이 수신됩니다.
 
    키워드가 무엇이든 동일한 답글을 보내려면 이 열을 비워 둡니다.
+
+   >[!IMPORTANT]
+   >
+   >영숫자만 허용됩니다.
 
    ![](assets/sms_mo_2.png)
 

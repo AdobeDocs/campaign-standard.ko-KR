@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 21%
+source-wordcount: '165'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->다음 [개인 정보 보호 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. 19.4 릴리스부터 액세스 및 삭제 요청에 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 사용 중단된 Campaign Standard 및 제거된 기능에 대한 자세한 내용은 [이 페이지](../../rn/using/deprecated-features.md)를 참조하십시오.
+>다음 [개인 정보 보호 핵심 서비스](https://adobe.io/apis/cloudplatform/gdpr.html) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 조정 값에 연결된 모든 정보가 포함된 파일을 검색하려면 다음 세 단계 절차를 수행하십시오.
 
