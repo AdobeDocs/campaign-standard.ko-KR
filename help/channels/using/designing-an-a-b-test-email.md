@@ -9,10 +9,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,11 @@ A/B 테스트의 특정 컨텍스트에서 다음을 수행합니다.
    * **[!UICONTROL Number of variants]**: 2개 또는 3개의 변형을 사용하도록 선택할 수 있습니다. 3개의 변형을 선택하는 경우 마법사에서 이 단계를 확인한 후에는 이 선택을 수정할 수 없습니다.
    * **[!UICONTROL Winning strategy]**: 채택 변형을 결정하는 데 사용할 기준을 선택합니다. 
    * **[!UICONTROL Target breakdown]**: 각 변형을 받을 타겟의 비율을 선택합니다. 나머지 비율은 일단 결정되면 채택된 변형을 받게 됩니다. 타겟 프로필이 임의로 선택됩니다.
+
+      >[!NOTE]
+      >
+      >총 모집단이 50k보다 작은 경우 각 변형은 전체 모집단의 10% 이상을 나타내야 합니다.
+
    * **[!UICONTROL Winner sending method]**: 일단 결정되면 채택 변형이 자동으로 전송되도록 할지 또는 나머지 모집단으로의 전송을 수동으로 확인할지 여부를 선택합니다.
    * **[!UICONTROL Test duration]**: 테스트 기간을 지정합니다. 이 기간 후에 채택 변형이 자동으로 결정됩니다. 이메일 대시보드에서 테스트 종료 전에 채택 변형을 수동으로 선택할 수 있습니다.
 
