@@ -1,14 +1,11 @@
 ---
 title: 최신 릴리스
 description: 이 페이지에서는 최신 Campaign Standard 릴리스의 콘텐츠를 자세히 설명합니다
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 5eb01b215a898c28c0a12ceec074d0682cdec0af
+source-git-commit: 9aae75653e3f517e59aae91eaa94c65d247a14dc
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 99%
