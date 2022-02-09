@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 46bb0c52b5437d29173ab4ccb510aeef67bd5c2d
+source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 98%
+source-wordcount: '724'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 98%
 * 시스템 오버로드를 방지하기 위해 보고 데이터 처리가 개선되었습니다. (CAMP-47578)
 * 이제 인앱 메시지를 보낸 후 게재를 비활성화하도록 선택할 수 있습니다. 이렇게 하면 보고 데이터를 손실하지 않고 게재를 삭제할 수 있습니다. (CAMP-48469)
 * 문제를 방지하기 위해 사용자는 더 이상 데이터베이스의 자동 기본 키에 사용되는 이름과 동일한 이름을 사용자 지정 테이블 열에 사용할 수 없습니다. `"<dataType><resourceName>Id"`. (CAMP-49358)
-* 이제 게재를 모니터링하고 메시지 대시보드의 새 **작업 내역** 드롭다운으로 작업 로그를 추적할 수 있습니다. (CAMP-49840)
+* 이제 게재를 모니터링하고 메시지 대시보드의 새 **작업 내역** 드롭다운으로 작업 로그를 추적할 수 있습니다. [추가 정보](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * 시간이 지남에 따라 모든 채널에서 수많은 메시지가 전송되는 경우 데드 튜플을 줄여 안정성과 데이터베이스 상태를 개선했습니다. (CAMP-49755, CAMP-49792, CAMP-49849)
 * 데이터베이스 충돌 또는 다시 시작 시 데이터베이스 연결이 자동으로 새로 고쳐지도록 하기 위해 Campaign MTA(Mail Transfer Agent) 기능이 개선되었습니다. (CAMP-48063)
 
