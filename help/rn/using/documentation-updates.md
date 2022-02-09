@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 1311b88313910acd9fa6585adecbd7c8315e2d77
+source-git-commit: 3b13f9b896cc240e5d9d9eebed42074a84addba8
 workflow-type: tm+mt
-source-wordcount: '7128'
+source-wordcount: '7134'
 ht-degree: 97%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 97%
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
 
-## 2022년 2월 {#doc-updates-feb-2022}
+## 릴리스 22.1 - 2022년 2월 {#release-22-1}
+
+**릴리스에 포함된 개선 사항**
 
 ## 릴리스 22.1 - 2022년 2월 {#release-22-1}
 
