@@ -1,21 +1,18 @@
 ---
 title: 마케팅 기록 활용
-description: 프로필의 마케팅 기록에 상호 작용하는 방법을 알아봅니다.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: 프로필의 마케팅 내역을 상호 작용하는 방법을 알아봅니다
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 10%
 
 ---
 
-# 마케팅 기록 활용 {#interacting-with-marketing-history}
+# 마케팅 기록 활용{#interacting-with-marketing-history}
 
 다음 **역사** 엔드포인트를 사용하면 프로필의 마케팅 내역을 상호 작용할 수 있습니다.
 예를 들어 프로필로 전송된 게재에 대한 미러 페이지를 쉽게 검색할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:

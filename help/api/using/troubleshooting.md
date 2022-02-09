@@ -1,21 +1,18 @@
 ---
 title: 문제 해결
-description: Campaign Standard API와 관련된 일반적인 문제에 대해 자세히 알아보십시오 .
-audience: developing
-content-type: reference
-topic-tags: use-case--extending-the-api
+description: Campaign Standard API와 관련된 일반적인 문제에 대해 자세히 알아보십시오
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
-# 문제 해결 {#troubleshooting}
+# API 문제 해결 {#troubleshooting}
 
 * **Adobe.io 콘솔로 이동하면 다음 오류가 표시됩니다. &quot;Adobe I/O 콘솔은 엔터프라이즈 계정의 구성원을 선택하는 데만 사용할 수 있습니다. 액세스 권한이 있다고 생각되면 시스템 관리자에게 문의하십시오.&quot;**
 
@@ -87,7 +84,7 @@ Adobe.io는 잘못된 URI를 선언합니다. 요청하는 URI가 올바르지 �
 
 * **만든 후에 프로필이 표시되지 않습니다**
 
-인스턴스 구성에 따라 생성된 프로파일을 **orgUnit**. 작성에서 이 필드를 추가하는 방법을 이해하려면 다음을 참조하십시오 [이 섹션](../../api/using/creating-profiles.md).
+인스턴스 구성에 따라 생성된 프로파일을 **orgUnit**. 작성에서 이 필드를 추가하는 방법을 이해하려면 다음을 참조하십시오 [이 섹션](../../api/using/creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

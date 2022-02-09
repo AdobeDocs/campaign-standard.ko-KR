@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: 4c316778c34c14b8d5e5aa1812999ee024a581a0
-workflow-type: ht
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -490,7 +490,7 @@ ht-degree: 100%
    + 프로필 관리 {#managing-profiles}
       + [프로필 검색](api/using/retrieving-profiles.md)
       + [프로필 업데이트](api/using/updating-profiles.md)
-      + [프로필 만들기](api/using/creating-profiles.md)
+      + [프로필 만들기](api/using/creating-profiles-api.md)
    + 서비스 및 구독 관리 {#managing-services-and-subscriptiopns}
       + [서비스 만들기](api/using/creating-a-service.md)
       + [구독 검색](api/using/retrieving-subscriptions.md)

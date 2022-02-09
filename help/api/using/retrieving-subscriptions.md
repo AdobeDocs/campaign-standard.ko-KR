@@ -1,21 +1,18 @@
 ---
 title: 구독 검색
-description: API를 사용하여 구독을 검색하는 방법을 알아봅니다.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: API로 구독을 검색하는 방법 알아보기
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 2%
+source-wordcount: '198'
+ht-degree: 1%
 
 ---
 
-# 구독 검색 {#retrieving-subscriptions}
+# API를 사용하여 구독 검색 {#retrieving-subscriptions-api}
 
 ## 서비스를 구독한 프로필 검색
 

@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 89%
+source-wordcount: '379'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign에서 프로필은 메시지의 주요 타겟을 정의할 때 �
 
 >[!NOTE]
 >
->Adobe Campaign Standard API를 사용하여 프로필을 만들 수도 있습니다. 자세한 내용은 [전용 설명서](../../api/using/creating-profiles.md)를 참조하십시오.
+>Adobe Campaign Standard API를 사용하여 프로필을 만들 수도 있습니다. 자세한 내용은 [전용 설명서](../../api/using/creating-profiles-api.md)를 참조하십시오.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 워크플로우를 사용하여 프로필을 가져오는 방법을 알아봅니다](#video)
 
@@ -31,7 +31,7 @@ Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수
 * [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md)를 통해 온라인으로 데이터 수집
 * [REST API](../../api/using/get-started-apis.md)를 통해 벌크 만들기
 * [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)에서 프로필 동기화
-* 아래 설명과 같이 그래픽 인터페이스 화면을 사용하여 데이터를 입력합니다.
+* 아래 설명된 대로 사용자 인터페이스를 사용하여 데이터를 입력합니다
 
 예를 들어 사용자 인터페이스에서 직접 새 프로필을 만들려면 아래 단계를 수행하십시오.
 

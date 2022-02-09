@@ -1,21 +1,18 @@
 ---
 title: 구독 수행
-description: API로 구독을 수행하는 방법을 알아봅니다.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: API로 구독을 수행하는 방법을 알아봅니다
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-# 구독 수행 {#performing-subscriptions}
+# API를 사용하여 구독 수행{#performing-subscriptions}
 
 ## 방법 1: 서비스에 프로필 가입
 

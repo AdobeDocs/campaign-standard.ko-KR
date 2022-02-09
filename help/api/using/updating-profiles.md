@@ -1,21 +1,18 @@
 ---
 title: 프로필 업데이트
-description: API로 프로필을 업데이트하는 방법에 대해 자세히 알아보십시오.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: API로 프로필을 업데이트하는 방법에 대해 자세히 알아보십시오
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 4%
+source-wordcount: '96'
+ht-degree: 2%
 
 ---
 
-# 프로필 업데이트 {#updating-profiles}
+# API를 사용하여 프로필 업데이트{#updating-profiles-api}
 
 프로필 업데이트는 **PATCH** 요청.
 
