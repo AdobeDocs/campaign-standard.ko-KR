@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들�
 
 >[!IMPORTANT]
 >
->사용자 지정 네임스페이스 유형을 사용하여 요청을 제출하려면 [JSON 메서드](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} 를 추가하고 요청에 namespaceId를 추가하거나 [API 호출](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} 을 호출하여 요청을 수행할 수 있습니다.
+>사용자 지정 네임스페이스 유형을 사용하여 요청을 제출하려면 [JSON 메서드](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#json){target=&quot;_blank&quot;}를 활용하고 요청에 namespaceId를 추가하거나 [API 호출](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ko#access-delete){target=&quot;_blank&quot;}을 사용할 수 있습니다.
 >
->만 사용 [개인 정보 보호 사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder)표준 네임스페이스 유형을 사용하여 요청을 제출할 {target=&quot;_blank&quot;}.
+>표준 네임스페이스 유형을 사용하여 요청을 제출할 때는 [개인 정보 보호 사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#request-builder){target=&quot;_blank&quot;}만 사용할 수 있습니다.
 
 각 개인 정보 보호 핵심 서비스 작업은 사용 중인 네임스페이스의 수를 기준으로 Campaign에서 여러 개인 정보 보호 요청으로 분할되며, 하나의 요청은 하나의 네임스페이스에 해당합니다. 또한 하나의 작업은 여러 인스턴스에 대해 실행할 수 있습니다. 따라서 하나의 작업에 대해 여러 파일이 만들어집니다. 예를 들어, 요청에 두 개의 네임스페이스가 있고 세 개의 인스턴스에서 실행 중인 경우 총 6개의 파일이 전송됩니다. 네임스페이스 및 인스턴스당 하나의 파일입니다.
 
@@ -189,7 +189,7 @@ Adobe Campaign이 제공하는 [동의 관리](../../start/using/privacy-managem
 
 ### 사용자 지정 테이블에 대한 사전 요구 사항 {#ccpa-prerequisite}
 
-다음 **[!UICONTROL CCPA Opt-Out]** 필드는 Campaign 인터페이스 및 API에서 기본적으로 제공됩니다. 기본적으로 이 필드는 표준 **[!UICONTROL Profile]** 리소스에 대해 사용할 수 있습니다.
+**[!UICONTROL CCPA Opt-Out]** 필드는 Campaign 인터페이스 및 API에서 기본적으로 제공됩니다. 기본적으로 이 필드는 표준 **[!UICONTROL Profile]** 리소스에 대해 사용할 수 있습니다.
 
 사용자 지정 프로필 리소스를 사용하는 경우 리소스를 확장하고 필드를 추가해야 합니다. **[!UICONTROL Opt-Out for CCPA]** Optopcpa와 같이 기본적으로 제공되는 필드가 아닌 다른 이름을 사용하는 것이 좋습니다. 새 필드를 만들면 Campaign API에서 자동으로 지원됩니다.
 
