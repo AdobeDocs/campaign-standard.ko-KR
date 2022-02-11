@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: fcc4dc0789a02f2a58abed858561f023a53a9d95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 99%
 * **노출 횟수** 대신 **열기**&#x200B;로 푸시 알림을 해지한 것으로 표시되는 푸시 알림 보고서 관련 오류를 해결했습니다. (CAMP-45980)
 * 보고서를 열 때 오류가 발생할 수 있는 문제를 해결했습니다. (CAMP-49222)
 * AEM 컨텐츠에 대한 링크를 삭제한 후 이메일 준비가 실패하는 문제를 해결했습니다. (CAMP-49877)
-* 다양한 문제를 해결하기 위해 URL에서 가져온 콘텐츠를 포함하여 게재에 대해 다시 시도 메커니즘이 개선되었습니다. [추가 정보](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
+* 다양한 문제를 해결하기 위해 URL에서 가져온 콘텐츠를 포함하여 게재에 대해 다시 시도 메커니즘이 개선되었습니다. [자세히 알아보기](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)(CAMP-48888)
 * 사용자 지정 리소스에서 새 필터를 만든 다음 랜딩 페이지에서 조정 키로 사용한 후에 발생하는 문제를 해결했습니다. 사용자 지정 리소스가 다시 게시되면 랜딩 페이지에 사용할 수 있는 조정 키 목록에서 필터가 제거되었습니다. (CAMP-49516)
 * 확인란에 동적 조건을 사용할 때 랜딩 페이지의 문제를 해결했습니다. (CAMP-48604)
 * &quot;10월 또는 이전&quot; 필터 조건을 사용할 때 **쿼리** 활동에서 발생하는 문제를 해결했습니다. 유럽 시간대로 설정된 인스턴스에서 작업하는 경우 시간대를 변환할 때 발생하는 문제로 인해 필터에 대해 선택한 월이 10월이 아닌 9월로 표시되었습니다. (CAMP-48602)
