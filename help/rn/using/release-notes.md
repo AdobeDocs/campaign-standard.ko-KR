@@ -8,14 +8,14 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
 workflow-type: tm+mt
 source-wordcount: '724'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 
 # 최신 릴리스{#latest-release}
 
-![](assets/do-not-localize/cp-icon.png) **새로운 Campaign 컨트롤 패널 1월 릴리스** 처리량 및 지연 모니터링 사용. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
+![](assets/do-not-localize/cp-icon.png)**** [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
 
 ## 릴리스 22.1 - 2022년 2월 {#feb-2022}
 
@@ -45,7 +45,7 @@ ht-degree: 97%
 * 시스템 오버로드를 방지하기 위해 보고 데이터 처리가 개선되었습니다. (CAMP-47578)
 * 이제 인앱 메시지를 보낸 후 게재를 비활성화하도록 선택할 수 있습니다. 이렇게 하면 보고 데이터를 손실하지 않고 게재를 삭제할 수 있습니다. (CAMP-48469)
 * 문제를 방지하기 위해 사용자는 더 이상 데이터베이스의 자동 기본 키에 사용되는 이름과 동일한 이름을 사용자 지정 테이블 열에 사용할 수 없습니다. `"<dataType><resourceName>Id"`. (CAMP-49358)
-* 이제 게재를 모니터링하고 메시지 대시보드의 새 **작업 내역** 드롭다운으로 작업 로그를 추적할 수 있습니다. [추가 정보](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
+* 이제 게재를 모니터링하고 메시지 대시보드의 새 **작업 내역** 드롭다운으로 작업 로그를 추적할 수 있습니다. [자세히 알아보기](../../sending/using/monitoring-a-delivery.md)(CAMP-49840)
 * 시간이 지남에 따라 모든 채널에서 수많은 메시지가 전송되는 경우 데드 튜플을 줄여 안정성과 데이터베이스 상태를 개선했습니다. (CAMP-49755, CAMP-49792, CAMP-49849)
 * 데이터베이스 충돌 또는 다시 시작 시 데이터베이스 연결이 자동으로 새로 고쳐지도록 하기 위해 Campaign MTA(Mail Transfer Agent) 기능이 개선되었습니다. (CAMP-48063)
 
@@ -62,7 +62,7 @@ ht-degree: 97%
 * **노출 횟수** 대신 **열기**&#x200B;로 푸시 알림을 해지한 것으로 표시되는 푸시 알림 보고서 관련 오류를 해결했습니다. (CAMP-45980)
 * 보고서를 열 때 오류가 발생할 수 있는 문제를 해결했습니다. (CAMP-49222)
 * AEM 컨텐츠에 대한 링크를 삭제한 후 이메일 준비가 실패하는 문제를 해결했습니다. (CAMP-49877)
-* 다양한 문제를 해결하기 위해 URL에서 가져온 콘텐츠를 포함하여 게재에 대해 다시 시도 메커니즘이 개선되었습니다. [추가 정보](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
+* 다양한 문제를 해결하기 위해 URL에서 가져온 콘텐츠를 포함하여 게재에 대해 다시 시도 메커니즘이 개선되었습니다. [자세히 알아보기](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)(CAMP-48888)
 * 사용자 지정 리소스에서 새 필터를 만든 다음 랜딩 페이지에서 조정 키로 사용한 후에 발생하는 문제를 해결했습니다. 사용자 지정 리소스가 다시 게시되면 랜딩 페이지에 사용할 수 있는 조정 키 목록에서 필터가 제거되었습니다. (CAMP-49516)
 * 확인란에 동적 조건을 사용할 때 랜딩 페이지의 문제를 해결했습니다. (CAMP-48604)
 * &quot;10월 또는 이전&quot; 필터 조건을 사용할 때 **쿼리** 활동에서 발생하는 문제를 해결했습니다. 유럽 시간대로 설정된 인스턴스에서 작업하는 경우 시간대를 변환할 때 발생하는 문제로 인해 필터에 대해 선택한 월이 10월이 아닌 9월로 표시되었습니다. (CAMP-48602)
