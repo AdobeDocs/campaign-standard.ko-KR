@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 97d1de796397f4f801d97790cec39a94734d2af7
-workflow-type: ht
-source-wordcount: '4571'
-ht-degree: 100%
+source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
+workflow-type: tm+mt
+source-wordcount: '4587'
+ht-degree: 99%
 
 ---
 
@@ -110,6 +110,7 @@ ht-degree: 100%
 * 새 경고 메시지는 사용자에게 높은 바운스 비율을 알려줍니다.
 * 추적 로그를 올바르게 검색하지 못할 때 더 쉽게 디버깅할 수 있도록 로그 오류 메시지 및 경고가 개선되었습니다. (CAMP-48939, CAMP-47360)
 * 이제 도메인 이름을 포함하여 URL을 완전히 개인화할 수 있습니다. [자세히 알아보기](../../designing/using/personalization.md#personalizing-urls)
+* 이제 증명 및 트랩 프로필이 동적 보고서의 게재 성능 계산에서 제외됩니다. (CAMP-47338)
 
 **패치**
 
