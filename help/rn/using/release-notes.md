@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 * 이제 게재를 모니터링하고 메시지 대시보드의 새 **작업 내역** 드롭다운으로 작업 로그를 추적할 수 있습니다. [자세히 알아보기](../../sending/using/monitoring-a-delivery.md)(CAMP-49840)
 * 시간이 지남에 따라 모든 채널에서 수많은 메시지가 전송되는 경우 데드 튜플을 줄여 안정성과 데이터베이스 상태를 개선했습니다. (CAMP-49755, CAMP-49792, CAMP-49849)
 * 데이터베이스 충돌 또는 다시 시작 시 데이터베이스 연결이 자동으로 새로 고쳐지도록 하기 위해 Campaign MTA(Mail Transfer Agent) 기능이 개선되었습니다. (CAMP-48063)
-* 새 추적 옵션 **이메일 상단에 있는 추적 픽셀 사용** 을 이메일 속성에 추가하여 하단이 아닌 이메일 상단에서 추적 픽셀을 이동할 수 있습니다. (CAMP-49672)
+* 새 추적 옵션 **이메일 상단에 있는 추적 픽셀 사용**&#x200B;을 이메일 속성에 추가하여 이메일 하단이 아닌 상단의 추적 픽셀을 옮길 수 있습니다. (CAMP-49672)
 
 **패치**
 
