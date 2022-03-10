@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '2614'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -234,7 +234,7 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 * **[!UICONTROL Activate tracking]**: 메시지 URL 추적을 활성화/비활성화할 수 있습니다. 각 메시지 URL에 대한 추적을 관리하려면 전자 메일 디자이너 작업 모음의 **[!UICONTROL Links]** 아이콘을 사용합니다. [추적된 URL 정보](../../designing/using/links.md#about-tracked-urls)를 참조하십시오.
 * **[!UICONTROL Tracking validity limit]**: URL에서 추적이 활성화되는 기간을 정의할 수 있습니다.
 * **[!UICONTROL Substitution URL for expired URLs]**: 추적이 만료되면 표시될 웹 페이지의 URL을 입력할 수 있습니다.
-* **[!UICONTROL Use tracking pixel at the top of email]**: 추적 픽셀을 맨 아래에 있는 대신 전자 메일 맨 위에서 이동할 수 있습니다.
+* **[!UICONTROL Use tracking pixel at the top of email]**: 추적 픽셀을 맨 아래에 있는 대신 전자 메일 맨 위에서 이동할 수 있습니다. 기본적으로 이 픽셀은 전자 메일 하단에 있습니다. 큰 메시지를 보내는 경우 열기 추적을 개선하려면 전자 메일 맨 위에서 이 픽셀을 이동하는 것이 좋습니다. 그렇지 않으면 일부 전자 메일 공급자가 추적 픽셀을 잘라낼 수 있습니다.
 
 ### 고급 매개 변수 {#advanced-parameters}
 

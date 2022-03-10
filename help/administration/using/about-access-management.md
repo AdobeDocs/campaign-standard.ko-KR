@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +28,11 @@ Adobe Campaign에서는 여러 사용자에게 할당된 권한을 정의 및 �
 
 플랫폼의 기능 관리자는 **[!UICONTROL Administration > Users & Security]** 메뉴 아래에서 역할, 그룹 및 조직 단위를 관리할 수 있습니다.
 
-![](assets/user_management_1.png)
+![사용자 관리 메뉴](assets/user_management_1.png)
 
-사용자는 Admin Console에서 관리됩니다( [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md) 섹션 또는 [Admin Console 설명서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html)).
+사용자는 Admin Console에서 관리됩니다. 자세한 내용은 [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md) 섹션 및 [Admin Console 설명서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
 
-![](assets/user_management_6.png)
+![제품 프로필 액세스](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >

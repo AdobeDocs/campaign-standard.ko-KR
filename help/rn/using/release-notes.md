@@ -5,17 +5,17 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 최신 릴리스{#latest-release}
 
-![](assets/do-not-localize/cp-icon.png) **새로운 Campaign 컨트롤 패널 1월 릴리스** 처리량 및 지연 모니터링 사용. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
+![Campaign 컨트롤 패널](assets/do-not-localize/cp-icon.png) **새로운 Campaign 컨트롤 패널 릴리스** 처리량, 지연 및 워크플로우 모니터링 사용. [추가 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target=&quot;_blank&quot;}.
 
 ## 릴리스 22.1 - 2022년 2월 {#feb-2022}
 
