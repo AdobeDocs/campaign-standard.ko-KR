@@ -6,16 +6,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2655'
+ht-degree: 62%
 
 ---
 
 # 이메일 채널 구성{#configuring-email-channel}
 
-Campaign [관리자](../../administration/using/users-management.md#functional-administrators)는 전자 메일 채널 설정을 구성할 수 있습니다. 이러한 고급 설정에는 일반 전자 메일 채널 매개 변수, 전자 메일 라우팅 계정, 전자 메일 처리 규칙 및 전자 메일 속성이 포함됩니다. 이 페이지에서는 일반 전자 메일 및 전송 매개 변수의 기본값을 편집하는 방법을 배웁니다.
+Campaign [관리자](../../administration/using/users-management.md#functional-administrators)는 전자 메일 채널 설정을 구성할 수 있습니다. 이러한 고급 설정에는 일반 전자 메일 채널 매개 변수, 전자 메일 라우팅 계정, 전자 메일 처리 규칙 및 전자 메일 속성이 포함됩니다. 이 페이지에서 일반 전자 메일 및 전송 매개 변수의 기본값을 편집하는 방법을 배웁니다.
 
 ## 전자 메일 채널 매개 변수 {#email-channel-parameters}
 
@@ -28,7 +28,7 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
    **[!UICONTROL Header parameters of sent emails]** 섹션에는 전자 메일을 수신자(발신자 주소)에게 보내고 비동기 바운스, 부재 중 회신 등과 같은 자동 답글을 다시 보낼 수 있도록 할 수 있는 권한이 있는 전자 메일 주소가 나열됩니다. (오류 주소).  Adobe Campaign은 메시지 준비 단계 동안 입력한 주소가 유효한지 확인합니다. 이 운영 모드에서는 게재 가능성 문제를 트리거 할 수 있는 주소가 사용되지 않습니다.
    * 발신자와 오류 주소는 모두 Adobe에서 설정합니다. 이러한 필드는 비워 둘 수 없습니다.
    * 이러한 필드는 편집할 수 없습니다. 주소를 업데이트하려면 Adobe 고객 지원 센터에 문의하십시오.
-   * 다른 주소를 추가하려면 [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko)을 사용하여 새 하위 도메인을 설정하거나 Adobe 고객 지원 센터에 문의하십시오. 여러 개의 마스크를 사용하는 경우, 쉼표로 구분됩니다.
+   * 다른 주소를 추가하려면 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko) 새 하위 도메인을 설정하려면 고객 지원 센터에 문의하십시오. 여러 개의 마스크를 사용하는 경우 쉼표로 구분됩니다.
    * *@yourdomain.com과 같이 별을 사용하여 주소를 설정하는 것이 좋습니다. 이렇게 하면 하위 도메인 이름으로 끝나는 주소를 사용할 수 있습니다.
 
 * **게재 가능성**
@@ -40,7 +40,7 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
    Adobe Campaign은 시작 날짜부터 메시지를 전송합니다.
 
-   **[!UICONTROL Message delivery duration]** 필드를 사용하면 게재 중에 일시적인 오류나 소프트 바운스가 발생하는 메시지가 다시 시도하는 시간대를 지정할 수 있습니다.
+   일시적인 오류나 소프트 바운스로 인해 게재의 메시지가 거부되면 Campaign은 이 메시지를 매일 다시 전송합니다. 를 사용하십시오 **[!UICONTROL Message delivery duration]** 필드를 사용하여 다시 시도 중에 일정을 지정할 수 있습니다.
 
    >[!IMPORTANT]
    >
@@ -62,7 +62,7 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
    **[!UICONTROL Time between two significant errors]** 필드에서는 소프트 바운스 실패 시 애플리케이션이 오류 카운터를 증가시키기 전에 기다리는 시간을 정의하는 값을 입력합니다. 기본값은 1일 동안 **&quot;1d&quot;**&#x200B;입니다.
 
-   **[!UICONTROL Maximum number of errors before quarantine]** 값에 도달하면 전자 메일 주소가 격리됩니다. 기본값이 **&quot;5”**&#x200B;이면, 5번째 오류에서 주소가 격리됩니다. 즉, 연락처는 후속 게재에서 자동으로 제외됩니다.
+   **[!UICONTROL Maximum number of errors before quarantine]** 값에 도달하면 전자 메일 주소가 격리됩니다. 기본값은 입니다. **&quot;5&quot;**: 5번째 오류에서 주소가 격리됩니다. 즉, 연락처는 후속 게재에서 자동으로 제외됩니다.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    격리에 대한 자세한 내용은 [격리 관리 이해하기](../../sending/using/understanding-quarantine-management.md)를 참조하십시오.
@@ -142,9 +142,9 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 >
 >ID는 고유해야 합니다.
 
-이 **[!UICONTROL Brand]** 필드에서 게재에 연결된 브랜드를 선택할 수 있습니다. 브랜드 사용 및 구성에 대한 자세한 내용은 [브랜딩](../../administration/using/branding.md) 섹션을 참조하십시오.
+를 사용하십시오 **[!UICONTROL Brand]** 필드에서 게재에 연결된 브랜드를 선택합니다. 브랜드 사용 및 구성에 대한 자세한 내용은 [브랜딩](../../administration/using/branding.md) 섹션을 참조하십시오.
 
-**[!UICONTROL Campaign]** 필드에서는 전자 메일에 연결된 캠페인을 입력할 수 있습니다.
+에서 **[!UICONTROL Campaign]** 필드에 전자 메일에 연결된 캠페인을 입력합니다.
 
 해당 필드에 **[!UICONTROL Description]**&#x200B;를 추가하고 목록의 전자 메일 미리 보기에 표시되는 이미지를 편집할 수도 있습니다.
 
@@ -177,7 +177,8 @@ Campaign에 **설정된**&#x200B;게재 기간 설정&#x200B;**([유효 기간 �
 
 #### SMTP 테스트 모드 {#smtp-test-mode}
 
-**[!UICONTROL Enable SMTP test mode]** 옵션을 사용하면 실제로 메시지를 보내지 않고 SMTP 연결을 통해 전자 메일 전송을 테스트할 수 있습니다.
+를 사용하십시오 **[!UICONTROL Enable SMTP test mode]** 실제로 메시지를 보내지 않고 SMTP 연결을 통해 전자 메일 전송을 테스트하는 옵션입니다.
+
 메시지는 SMTP 서버와의 연결이 완료될 때까지 처리되지만 전송되지 않습니다.
 
 ![](assets/smtp-test-mode.png)
@@ -205,36 +206,35 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign은 시작 날짜부터 메시지를 전송합니다. 이 필드에서는 메시지를 보낼 수 있는 기간을 지정할 수 있습니다.
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign은 시작 날짜부터 메시지를 전송합니다. 이 필드를 사용하여 메시지를 보낼 수 있는 기간을 지정합니다.
 
    >[!IMPORTANT]
    >
    >**최대 3.5일 값을 정의해야 합니다.** 3.5일 이상의 값을 설정하면 고려되지 않습니다.
+   >
+   >**[!UICONTROL Delivery duration]** 매개 변수는 트랜잭션 메시지에 적용되지 않습니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md)을 참조하십시오.
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: 이 필드는 주로 미러 페이지 및 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
-* **[!UICONTROL Mirror page management]**: 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 전자 메일 콘텐츠와 동일합니다. 기본적으로 링크가 메일 콘텐츠에 삽입된 경우 미러 페이지가 생성됩니다. 이 필드에서는 다음과 같은 페이지가 생성되는 방식을 수정할 수 있습니다.
-
-   >[!IMPORTANT]
-   >
-   >미러 페이지를 만들 이메일에 대해 HTML 컨텐츠를 정의해야 합니다.
+* **[!UICONTROL Mirror page management]**: 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 전자 메일 콘텐츠와 동일합니다. 기본적으로 링크가 메일 콘텐츠에 삽입된 경우 미러 페이지가 생성됩니다. 이 필드를 사용하여 이 페이지가 생성되는 방식을 수정합니다.
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (기본 모드): 링크가 메일 콘텐츠에 삽입되면 미러 페이지가 생성됩니다.
    * **미러 페이지 강제 생성**: 미러 페이지에 대한 링크가 메시지에 삽입되지 않더라도 미러 페이지가 생성됩니다.
    * **미러 페이지 비 생성**: 링크가 메시지에 포함되어 있어도 미러 페이지가 생성되지 않습니다.
    * **메시지 ID만 사용하여 액세스할 수 있는 미러 페이지 생성**: 이 옵션을 사용하면 게재 로그 창에서 개인화 정보를 사용하여 미러 페이지의 콘텐츠에 액세스할 수 있습니다.
 
->[!NOTE]
->
->**[!UICONTROL Delivery duration]** 매개 변수는 트랜잭션 메시지에 적용되지 않습니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md)을 참조하십시오.
+   >[!IMPORTANT]
+   >
+   >미러 페이지는 전자 메일에 대해 HTML 컨텐츠가 정의된 경우에만 생성됩니다.
+
 
 ### 추적 매개 변수 {#tracking-parameters}
 
 **[!UICONTROL Tracking]** 섹션에는 다음 매개 변수가 포함되어 있습니다.
 
-* **[!UICONTROL Activate tracking]**: 메시지 URL 추적을 활성화/비활성화할 수 있습니다. 각 메시지 URL에 대한 추적을 관리하려면 전자 메일 디자이너 작업 모음의 **[!UICONTROL Links]** 아이콘을 사용합니다. [추적된 URL 정보](../../designing/using/links.md#about-tracked-urls)를 참조하십시오.
-* **[!UICONTROL Tracking validity limit]**: URL에서 추적이 활성화되는 기간을 정의할 수 있습니다.
-* **[!UICONTROL Substitution URL for expired URLs]**: 추적이 만료되면 표시될 웹 페이지의 URL을 입력할 수 있습니다.
-* **[!UICONTROL Use tracking pixel at the top of email]**: 추적 픽셀을 맨 아래에 있는 대신 전자 메일 맨 위에서 이동할 수 있습니다. 기본적으로 이 픽셀은 전자 메일 하단에 있습니다. 큰 메시지를 보내는 경우 열기 추적을 개선하려면 전자 메일 맨 위에서 이 픽셀을 이동하는 것이 좋습니다. 그렇지 않으면 일부 전자 메일 공급자가 추적 픽셀을 잘라낼 수 있습니다.
+* **[!UICONTROL Activate tracking]**: 메시지 URL 추적을 활성화/비활성화하려면 이 옵션을 사용합니다. 각 메시지 URL에 대한 추적을 관리하려면 전자 메일 디자이너 작업 모음의 **[!UICONTROL Links]** 아이콘을 사용합니다. [추적된 URL 정보](../../designing/using/links.md#about-tracked-urls)를 참조하십시오.
+* **[!UICONTROL Tracking validity limit]**: 이 옵션을 사용하여 URL에서 추적이 활성화되는 기간을 정의합니다.
+* **[!UICONTROL Substitution URL for expired URLs]**: 폴백 웹 페이지의 URL을 입력하려면 이 옵션을 사용합니다. 추적이 만료되면 표시됩니다.
+* **[!UICONTROL Use tracking pixel at the top of email]**: 이 옵션을 사용하여 하단이 아닌 전자 메일 맨 위에서 추적 픽셀을 이동합니다. 기본적으로 이 픽셀은 전자 메일 하단에 있습니다. 큰 메시지를 보내는 경우 열기 추적을 개선하려면 전자 메일 맨 위에서 이 픽셀을 이동하는 것이 좋습니다. 그렇지 않으면 일부 전자 메일 공급자가 추적 픽셀을 잘라낼 수 있습니다.
 
 ### 고급 매개 변수 {#advanced-parameters}
 
@@ -250,7 +250,7 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 #### 타겟팅 컨텍스트 {#target-context}
 
-타겟팅 컨텍스트를 사용하면 전자 메일 타겟팅(대상자 정의 화면)과 개인화에 사용할 테이블 세트를 정의할 수 있습니다(HTML 콘텐츠 편집기에서 개인화 필드 정의).
+타겟팅 컨텍스트를 사용하여 이메일 타겟팅(대상자 정의 화면)과 개인화에 사용할 테이블 세트를 정의합니다(HTML 콘텐츠 편집기에서 개인화 필드 정의).
 
 #### 라우팅 {#routing}
 
@@ -270,15 +270,15 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
    >
    >**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 메뉴를 통해 액세스할 수 있는 유형화는 [이 섹션](../../sending/using/about-typology-rules.md)에 설명되어 있습니다.
 
-* **[!UICONTROL Compute the label during delivery preparation]**: 개인화 필드, 콘텐츠 블록 및 동적 텍스트를 사용하여 메시지 준비 단계 동안 전자 메일의 레이블 값을 계산할 수 있습니다.
+* **[!UICONTROL Compute the label during delivery preparation]**: 개인화 필드, 콘텐츠 블록 및 동적 텍스트를 사용하여 메시지 준비 단계 동안 전자 메일의 레이블 값을 계산하려면 이 옵션을 사용합니다.
 
    또한 워크플로우의 외부 신호 활동으로 선언된 이벤트 변수를 사용하여 게재 레이블을 개인화할 수도 있습니다. 자세한 정보는 [이 섹션](../../automating/using/calling-a-workflow-with-external-parameters.md)을 참조하십시오.
 
-* **[!UICONTROL Save SQL queries in the log]**: 이 옵션을 사용하면 준비 단계 동안 저널에 SQL 쿼리 로그를 추가할 수 있습니다.
+* **[!UICONTROL Save SQL queries in the log]**: 준비 단계 동안 저널에 SQL 쿼리 로그를 추가하려면 이 옵션을 사용합니다.
 
 #### 증명 설정 {#proof-settings}
 
-이 섹션에서는 증명의 제목 줄에 사용할 기본 접두사를 구성할 수 있습니다. 자세한 정보는 [이 섹션](../../sending/using/sending-proofs.md)을 참조하십시오.
+이 섹션에서는 증명 메시지의 제목란에 사용할 기본 접두사를 구성할 수 있습니다. 에서 증명에 대해 자세히 알아보십시오 [이 섹션](../../sending/using/sending-proofs.md).
 
 ### 전자 메일 SMTP 매개 변수 목록 {#list-of-email-smtp-parameters}
 
@@ -296,7 +296,7 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 **[!UICONTROL Access authorization]** 섹션에는 다음 매개 변수가 포함되어 있습니다.
 
-* **[!UICONTROL Organizational unit]** 필드에서는 특정 사용자에게 이 전자 메일에 대한 액세스를 제한할 수 있습니다. 지정한 단위 또는 상위 단위와 연결된 사용자는 이 전자 메일에 대한 읽기 및 쓰기 액세스 권한을 가집니다. 하위 단위와 연결된 사용자는 이 전자 메일에 대한 읽기 권한만 갖게 됩니다.
+* 다음 **[!UICONTROL Organizational unit]** 필드는 특정 사용자에게 이 전자 메일에 대한 액세스를 제한하는 데 사용됩니다. 지정한 단위 또는 상위 단위와 연결된 사용자는 이 전자 메일에 대한 읽기 및 쓰기 액세스 권한을 가집니다. 하위 단위와 연결된 사용자는 이 전자 메일에 대한 읽기 권한만 갖게 됩니다.
 
    >[!NOTE]
    >
@@ -318,17 +318,17 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 ### 배달 기간 {#legacy-delivery-duration}
 
-다음 **[!UICONTROL Message delivery duration]** 의 매개 변수 [구성 메뉴](#email-channel-parameters) 게재 중에 일시적인 오류나 소프트 바운스가 발생하는 메시지가 다시 시도하는 시간대를 지정할 수 있습니다.
+를 사용하십시오 **[!UICONTROL Message delivery duration]** 의 매개 변수 [구성 메뉴](#email-channel-parameters) 게재 중에 일시적인 오류나 소프트 바운스가 발생하는 메시지가 다시 시도하는 시간대를 지정합니다.
 
-다음 **[!UICONTROL Delivery duration]** 또는 **[!UICONTROL Validity limit for sending messages]** 의 매개 변수 [유효 기간 매개변수](#validity-period-parameters) 섹션에서 메시지를 보낼 수 있는 기간을 지정할 수 있습니다.
+를 사용하십시오 **[!UICONTROL Delivery duration]** 또는 **[!UICONTROL Validity limit for sending messages]** 의 매개 변수 [유효 기간 매개변수](#validity-period-parameters) 섹션을 통해 메시지를 전송할 기간을 지정합니다.
 
 ### 전자 메일 처리 규칙 {#legacy-email-processing-rules}
 
-다음 **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** 및 **[!UICONTROL Domain management]** 규칙은 관리자가 **[!UICONTROL Administration > Channels > Email > Email processing rules]** [메뉴](#email-processing-rules).
+다음 **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** 및 **[!UICONTROL Domain management]** 규칙은 관리자가 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 메뉴 아래의 제품에서 사용할 수 있습니다. [자세히 알아보기](#email-processing-rules)
 
 ### 반송 메일 조건 {#legacy-bounce-mail-qualification}
 
-다양한 바운스 수 및 관련 오류 유형 설정 이유를 나열하려면 **Adobe** 로고, 왼쪽 상단에서, **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+다양한 바운스, 관련 오류 유형 및 이유를 나열하려면 **Adobe** 로고, 왼쪽 상단에서, **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 바운스는 다음과 같은 자격 상태를 가질 수 있습니다.
 
@@ -338,12 +338,12 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 >[!NOTE]
 >
->ISP가 중단되면 Campaign을 통해 보낸 이메일이 바운스로 잘못 표시됩니다. 이를 수정하려면 반송 조건을 업데이트해야 합니다. 자세한 내용은 [이 페이지](../../administration/using/update-bounce-qualification.md)를 참조하십시오.
+>ISP가 중단되면 Campaign을 통해 보낸 이메일이 바운스로 잘못 표시됩니다. 이를 수정하려면 반송 조건을 업데이트해야 합니다. [자세히 알아보기](../../administration/using/update-bounce-qualification.md)
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### 배달된 지표 보고 {#legacy-delivered-status-report}
 
-에서 **[!UICONTROL Summary]** 각 메시지 보기, **[!UICONTROL Delivered]** 소프트 및 하드 바운스가 다시 보고되면 게재 유효 기간 동안 백분율이 점진적으로 증가합니다.
+에서 **[!UICONTROL Summary]** 각 메시지 보기, **[!UICONTROL Delivered]** 소프트 및 하드 바운스가 다시 보고됨에 따라 게재 유효 기간 동안 백분율이 점진적으로 증가합니다.
 
-소프트 바운스 메시지는 **[!UICONTROL Failed]** 게재 1일 후, 게재에 대한 유효 기간의 각 추가 날짜에 다시 시도됩니다.
+소프트 바운스 메시지는 다음과 같이 표시됩니다. **[!UICONTROL Failed]** 배달후 첫날에. 이 메시지는 게재의 유효 기간이 끝날 때까지 매일 다시 시도됩니다.
