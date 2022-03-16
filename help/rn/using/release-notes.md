@@ -6,16 +6,16 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '766'
+ht-degree: 100%
 
 ---
 
 
 # 최신 릴리스{#latest-release}
 
-![Campaign 컨트롤 패널](assets/do-not-localize/cp-icon.png) **새로운 Campaign 컨트롤 패널 릴리스** 처리량, 지연 및 워크플로우 모니터링 사용. [추가 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target=&quot;_blank&quot;}.
+![컨트롤 패널](assets/do-not-localize/cp-icon.png) **새로운 컨트롤 패널 릴리스**&#x200B;에서는 처리량, 대기 시간, 워크플로우 모니터링을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target=&quot;_blank&quot;}.
 
 ## 릴리스 22.1 - 2022년 2월 {#feb-2022}
 
