@@ -1,12 +1,12 @@
 ---
-title: 푸시 추적 구현
+title: 로컬 추적 구현
 description: 푸시 알림 추적이 iOS 및 Android에서 올바르게 구현되었는지 확인하는 방법을 알아봅니다
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%

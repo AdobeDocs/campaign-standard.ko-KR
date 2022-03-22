@@ -1,5 +1,5 @@
 ---
-title: 문제 해결
+title: 통합 문제 해결
 description: 리소스를 공유할 때 문제를 해결하는 방법을 알아봅니다.
 audience: integrating
 content-type: reference
@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 1%
+source-wordcount: '347'
+ht-degree: 0%
 
 ---
 

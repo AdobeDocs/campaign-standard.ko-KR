@@ -1,5 +1,5 @@
 ---
-title: 데이터 모델
+title: 데이터 모델 시드 멤버
 description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 10%
+source-wordcount: '173'
+ht-degree: 26%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>createdBy(userBase)</td>
-                  <td>작성자</td>
+                  <td>만든 사람</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -75,7 +75,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
-                  <td>지리 단위</td>
+                  <td>지리적 단위</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -87,7 +87,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>마지막 수정 날짜</td>
+                  <td>마지막 수정일</td>
                   <td>날짜 </td>
                   <td> </td>
                </tr>
@@ -105,7 +105,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>모바일 애플리케이션</td>
+                  <td>Mobile 애플리케이션</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
@@ -117,7 +117,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>modifiedBy(userBase)</td>
-                  <td>수정한 사람</td>
+                  <td>수정자</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -135,7 +135,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
-                  <td>이벤트</td>
+                  <td>Event</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
@@ -195,7 +195,7 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>축소판</td>
-                  <td>축소판</td>
+                  <td>썸네일</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>

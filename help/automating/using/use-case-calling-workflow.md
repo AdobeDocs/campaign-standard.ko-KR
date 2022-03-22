@@ -1,5 +1,5 @@
 ---
-title: 외부 매개 변수로 워크플로우 호출
+title: 워크플로우 호출에 대한 사용 사례
 description: 이 섹션에서는 외부 매개 변수로 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
 audience: automating
 content-type: reference
@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '976'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ![](assets/extsignal_uc_process.png)
 
-## 필수 구성 요소 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 워크플로우를 구성하기 전에 **[!UICONTROL External signal]** 활동 각각에 포함되어 있습니다. 이 방법으로 워크플로우를 호출할 때 이러한 신호 활동을 타깃팅할 수 있습니다.
 

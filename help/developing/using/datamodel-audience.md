@@ -1,5 +1,5 @@
 ---
-title: 데이터 모델
+title: 데이터 모델 대상
 description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 6%
+source-wordcount: '208'
+ht-degree: 16%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>createdBy(userBase)</td>
-                  <td>작성자</td>
+                  <td>만든 사람</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -123,7 +123,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
-                  <td>지리 단위</td>
+                  <td>지리적 단위</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -159,13 +159,13 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>마지막 수정 날짜</td>
+                  <td>마지막 수정일</td>
                   <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>modifiedBy(userBase)</td>
-                  <td>수정한 사람</td>
+                  <td>수정자</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>

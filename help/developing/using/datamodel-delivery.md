@@ -1,5 +1,5 @@
 ---
-title: 데이터 모델
+title: 데이터 모델 전달
 description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 6%
+source-wordcount: '688'
+ht-degree: 13%
 
 ---
 
@@ -117,7 +117,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>콘텐츠</td>
-                  <td>컨텐츠</td>
+                  <td>콘텐츠</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
@@ -147,7 +147,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>createdBy(userBase)</td>
-                  <td>작성자</td>
+                  <td>만든 사람</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -222,7 +222,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>geoUnit(geoUnitBase)</td>
-                  <td>지리 단위</td>
+                  <td>지리적 단위</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -240,13 +240,13 @@ ht-degree: 6%
                      <ul>
                         <li>트랜잭션 이메일 - emailLightning - 60</li>
                         <li>팩스 - 팩스 - 4</li>
-                        <li>모바일(SMS) - sms - 1</li>
+                        <li>Mobile (SMS) - sms - 1</li>
                         <li>반복 이메일 - e-메일 새로 고침 - 30</li>
                         <li>DM - 용지 - 3</li>
                         <li>전화 - 전화 - 2</li>
                         <li>기타 - 기타 - 120</li>
                         <li>반복 SMS - sms 새로 고침 - 31</li>
-                        <li>모바일 애플리케이션 - pushNotification - 40</li>
+                        <li>Mobile 애플리케이션 - pushNotification - 40</li>
                         <li>트랜잭션 SMS - sms 번개 - 61</li>
                         <li>이메일 - 이메일 - 0</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -303,7 +303,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>마지막 수정 날짜</td>
+                  <td>마지막 수정일</td>
                   <td>날짜 </td>
                   <td> </td>
                </tr>
@@ -359,11 +359,11 @@ ht-degree: 6%
                   <td>
                      <ul>
                         <li>팩스 - 팩스 - 4</li>
-                        <li>모바일(SMS) - sms - 1</li>
+                        <li>Mobile (SMS) - sms - 1</li>
                         <li>이메일 - 이메일 - 0</li>
                         <li>전화 - 전화 - 2</li>
                         <li>DM - 용지 - 3</li>
-                        <li>모바일 애플리케이션 - pushNotification - 40</li>
+                        <li>Mobile 애플리케이션 - pushNotification - 40</li>
                         <li>기타 - 기타 - 120</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -371,7 +371,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>modifiedBy(userBase)</td>
-                  <td>수정한 사람</td>
+                  <td>수정자</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -490,15 +490,15 @@ ht-degree: 6%
                         <li>실패 - 실패 - 87</li>
                         <li>진행 중 - 시작됨 - 55</li>
                         <li>타깃팅 보류 중 - targetPrepPending - 11</li>
-                        <li>개인화 보류 중 - messagePrepPending - 21</li>
+                        <li>Personalization 보류 중 - messagePrepPending - 21</li>
                         <li>일시 중지됨 - 일시 중지됨 - 75</li>
                         <li>편집 - 편집 - 0</li>
                         <li>완료 - 완료 - 95</li>
                         <li>진행 중 카운팅 - targetSelection - 12</li>
                         <li>메시지 완료 - messageReady - 25</li>
-                        <li>개인화 또는 개수 실패 - preparationError - 37</li>
+                        <li>Personalization 또는 개수 실패 - preparationError - 37</li>
                         <li>중지됨 - 취소됨 - 85</li>
-                        <li>개인화 진행 중 - messagePreparation - 22</li>
+                        <li>Personalization 진행 중 - messagePreparation - 22</li>
                         <li>Target 준비 - targetReady - 15</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                         <li>중재 진행 중 - targetRe중재 - 13</li>

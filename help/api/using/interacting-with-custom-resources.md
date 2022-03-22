@@ -1,5 +1,5 @@
 ---
-title: 사용자 정의 리소스
+title: 사용자 정의 리소스와 상호 작용
 description: API를 사용한 사용자 지정 리소스 관리에 대해 자세히 알아보기
 audience: developing
 content-type: reference
@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 3%
+source-wordcount: '192'
+ht-degree: 4%
 
 ---
 

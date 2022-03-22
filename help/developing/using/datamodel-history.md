@@ -1,16 +1,16 @@
 ---
-title: 데이터 모델
-description: 데이터 모델에 대해 알아보기
+title: 데이터 모델 마케팅 기록
+description: Learn about the datamodel
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 1%
+source-wordcount: '1206'
+ht-degree: 3%
 
 ---
 
@@ -51,26 +51,26 @@ ht-degree: 1%
                </tr>
                <tr>
                   <td>blackListEmail</td>
-                  <td>더 이상 전자 메일로 연락하지 않음</td>
-                  <td>부울 </td>
+                  <td>No longer contact by email</td>
+                  <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListFax</td>
-                  <td>더 이상 팩스로 연락하지 않음</td>
+                  <td>No longer contact by fax</td>
                   <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListMobile</td>
-                  <td>더 이상 SMS로 연락하지 않습니다.</td>
+                  <td>No longer contact by SMS</td>
                   <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPhone</td>
                   <td>더 이상 전화로 연락하지 않음</td>
-                  <td>부울 </td>
+                  <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
@@ -106,7 +106,7 @@ ht-degree: 1%
                <tr>
                   <td>countryIsoA2</td>
                   <td>ISO A2 코드</td>
-                  <td>문자열(2)</td>
+                  <td>string (2)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -117,7 +117,7 @@ ht-degree: 1%
                </tr>
                <tr>
                   <td>createdBy(userBase)</td>
-                  <td>작성자</td>
+                  <td>만든 사람</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -142,18 +142,18 @@ ht-degree: 1%
                <tr>
                   <td>이메일</td>
                   <td>이메일</td>
-                  <td>문자열(128)</td>
+                  <td>string (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>events</td>
-                  <td>이기종 리소스</td>
+                  <td>Heterogeneous resource</td>
                   <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>팩스</td>
-                  <td>팩스</td>
+                  <td>fax</td>
+                  <td>Fax</td>
                   <td>문자열(32)</td>
                   <td> </td>
                </tr>
@@ -190,7 +190,7 @@ ht-degree: 1%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>마지막 수정 날짜</td>
+                  <td>마지막 수정일</td>
                   <td>날짜 </td>
                   <td> </td>
                </tr>
@@ -208,7 +208,7 @@ ht-degree: 1%
                </tr>
                <tr>
                   <td>middleName</td>
-                  <td>중간 이름</td>
+                  <td>Middle name</td>
                   <td>문자열(30)</td>
                   <td> </td>
                </tr>
@@ -232,7 +232,7 @@ ht-degree: 1%
                </tr>
                <tr>
                   <td>modifiedBy(userBase)</td>
-                  <td>수정한 사람</td>
+                  <td>수정자</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -256,7 +256,7 @@ ht-degree: 1%
                </tr>
                <tr>
                   <td>축소판</td>
-                  <td>축소판</td>
+                  <td>썸네일</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>
@@ -283,14 +283,14 @@ ht-degree: 1%
                         <li>(GMT+08:00) 퍼스 - 오스트레일리아_퍼스 - 오스트레일리아/퍼스</li>
                         <li>(GMT+09:00) 야쿠츠크 - 아시아_야쿠츠크 - 아시아/야쿠츠크</li>
                         <li>(GMT-10:00) 하와이 - 퍼시픽_호놀룰루 - 태평양/호놀룰루</li>
-                        <li>(GMT+04:00) 바쿠 - 아시아-바쿠 - 아시아/바쿠</li>
+                        <li>(GMT+04:00) Baku - Asia_Baku - Asia/Baku</li>
                         <li>(GMT+10:00) 블라디보스토크 - 아시아_블라디보스토크 - 아시아/블라디보스토크</li>
                         <li>(GMT+09:00) 서울 - 아시아_서울 - 아시아/서울</li>
                         <li>(GMT+01:00) 사라예보, 스코플제, 소피아, 바르샤바, 자그레브 - 유럽_사라예보 - 유럽/사라예보</li>
-                        <li>(GMT+04:00) 아부다비, 무스카트 - 아시아_무스카트 - 아시아/무스카트</li>
+                        <li>(GMT+04:00) Abu Dhabi, Muscat - Asia_Muscat - Asia/Muscat</li>
                         <li>(GMT+08:00) 쿠알라룸푸르, 싱가포르 - 아시아_쿠알라_룸푸르 - 아시아/쿠알라_룸푸르</li>
                         <li>(GMT+09:00) 오사카, 삿포로, 도쿄 - 아시아_도쿄 - 아시아/도쿄</li>
-                        <li>(GMT+10:00) 브리즈번 - 오스트레일리아_브리즈번 - 오스트레일리아/브리즈번</li>
+                        <li>(GMT+10:00) Brisbane - Australia_Brisbane - Australia/Brisbane</li>
                         <li>(GMT+05:30) 스리자야와르데네푸라 - 아시아-콜롬보 - 아시아/콜롬보</li>
                         <li>(GMT+02:00) 하라레, 프레토리아 - 아프리카_하라레 - 아프리카/하라레</li>
                         <li>(GMT+08:00) 울란 바토르 - 아시아_울란_바토르 - 아시아/울란_바토르</li>
@@ -342,21 +342,21 @@ ht-degree: 1%
                         <li>(GMT+09:30) 다윈 - 오스트레일리아_다윈 - 오스트레일리아/다윈</li>
                         <li>(GMT-05:00) est(미국 및 캐나다) - America_New_York - 미국/뉴욕</li>
                         <li>(GMT-05:00) 그리니치 표준시 - 5시간 - Gmt_m5 - etc/GMT+5</li>
-                        <li>(GMT+05:00) 이슬라마바드, 카라치, 타칭트 - 아시아_카라치 - 아시아/카라치</li>
+                        <li>(GMT+05:00) Islamabad, Karachi, Tachkent - Asia_Karachi - Asia/Karachi</li>
                         <li>(GMT+03:00) 코웨이트, 리야드 - 아시아_리야드 - 아시아/리야드</li>
                         <li>(GMT-08:00) 그리니치 표준시 - 8시간 - Gmt_m8 - 기타/GMT+8</li>
                         <li>(GMT-01:00) 아조레스 - 대서양_아조레스 - 대서양/아조레스</li>
                         <li>(GMT+07:00) 방콕, 하노이, 자카르타 - 아시아_방콕 - 아시아/방콕</li>
-                        <li>(GMT) 모노비아 - 아프리카_모노비아 - 아프리카/몬로비아</li>
-                        <li>(GMT-09:00) 알래스카 - 아메리카 앵커리지 - 아메리카/앵커리지</li>
+                        <li>(GMT) Monrovia - Africa_Monrovia - Africa/Monrovia</li>
+                        <li>(GMT-09:00) Alaska - America_Anchorage - America/Anchorage</li>
                         <li>(GMT+01:00) 베오그라드, 브라티슬라바, 부다페스트, 류블랴나, 프라하 - 유럽_베오그라드 - 유럽/베오그라드</li>
-                        <li>(GMT) 레이키야비크 - 애틀랜틱_레이키야비크 - 애틀랜틱/레이키야비크</li>
+                        <li>(GMT) Reykjavik - Atlantic_Reykjavik - Atlantic/Reykjavik</li>
                         <li>(GMT+02:00) 부카레스트 - 유럽_부카레스트 - 유럽/부카레스트</li>
                         <li>(GMT+05:00) 그리니치 표준시 + 5시간 - Gmt_p5 - etc/GMT-5</li>
-                        <li>(GMT+04:00) 그리니치 표준시 + 4시간 - Gmt_p4 - etc/GMT-4</li>
+                        <li>(GMT+04:00) Greenwich Mean Time plus 4 hours - Gmt_p4 - Etc/GMT-4</li>
                         <li>(GMT+07:00) 그리니치 표준시 + 7시간 - Gmt_p7 - etc/GMT-7</li>
                         <li>(GMT+06:00) 그리니치 표준시 + 6시간 - Gmt_p6 - etc/GMT-6</li>
-                        <li>(GMT+01:00) 그리니치 표준시 + 1시간 - Gmt_p1 - 기타/GMT-1</li>
+                        <li>(GMT+01:00) Greenwich Mean Time plus 1 hour - Gmt_p1 - Etc/GMT-1</li>
                         <li>(GMT-08:00) 태평양(미국 및 캐나다) - 아메리카_로스앤젤레스 - 아메리카/로스앤젤레스</li>
                         <li>(GMT+02:00) 그리니치 표준시 + 2시간 - Gmt_p2 - etc/GMT-2</li>
                         <li>(GMT+07:00) 크라스노아르스크 - 아시아_크라스노야르스크 - 아시아/크라스노야르스크</li>
@@ -385,7 +385,7 @@ ht-degree: 1%
                   </td>
                </tr>
                <tr>
-                  <td>제목</td>
+                  <td>title</td>
                   <td>프로필</td>
                   <td>문자열(255)</td>
                   <td> </td>
@@ -426,7 +426,7 @@ ht-degree: 1%
 <td>string</td>
 </tr>
 <tr>
-<td>월</td>
+<td>month</td>
 <td>날짜</td>
 </tr>
 <tr>
@@ -439,14 +439,14 @@ ht-degree: 1%
 </tr>
 <tr>
 <td>endMonth</td>
-<td>날짜</td>
+<td>date</td>
 </tr>
 <tr>
 <td>유형</td>
-<td>열거형</td>
+<td>enumeration</td>
 </tr>
 <tr>
-<td>일</td>
+<td>day</td>
 <td>날짜</td>
 </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: 외부 매개 변수로 워크플로우 호출
+title: 외부 신호 활동에서 매개 변수 선언
 description: 이 섹션에서는 외부 매개 변수로 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
 audience: automating
 content-type: reference
@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: e6148b40-f608-4aab-81f6-756608c6828e
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 5%
+source-wordcount: '110'
+ht-degree: 0%
 
 ---
 
