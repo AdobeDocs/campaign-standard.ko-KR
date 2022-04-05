@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 Dynamics 365에서 연락처를 삭제할 때 Campaign에 일반 프로필 삭제 호출을 실행하도록 통합을 구성한 경우 아래 단계를 수행해야 합니다. 이 프로세스 중에 해당 레코드에 대한 업데이트가 수행되지 않도록 합니다.
 
-1. 에 대한 개인 정보 보호 삭제 요청 문제 [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. 에 대한 개인 정보 보호 삭제 요청 문제 [Adobe Experience Platform Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service)
 
 1. 요청이 성공적으로 완료될 때까지 요청 모니터링
 

@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4613'
 ht-degree: 8%
 
 ---
@@ -315,7 +315,7 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> 트랜잭션 푸시 알림<br /> </td> 
-   <td> 모바일 애플리케이션 채널이 Adobe Campaign의 트랜잭션 메시지 기능에 추가되었습니다. 이제 트랜잭션 메시지에 대해 세 개의 채널이 지원됩니다. 이메일, SMS 및 푸시 알림.<br /> 자세한 내용은 <a href="../../channels/using/transactional-push-notifications.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> Mobile 애플리케이션 채널이 Adobe Campaign의 트랜잭션 메시지 기능에 추가되었습니다. 이제 트랜잭션 메시지에 대해 세 개의 채널이 지원됩니다. 이메일, SMS 및 푸시 알림.<br /> 자세한 내용은 <a href="../../channels/using/transactional-push-notifications.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 되풀이하는 푸시 알림<br /> </td> 
@@ -327,7 +327,7 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> Dreamweaver 통합 라이브<br /> </td> 
-   <td> 이제 Adobe Campaign과 Dreamweaver 간의 통합이 실시간으로 제공됩니다. 이제 공식적인 최신 Dreamweaver 버전(17.0.2)과 함께 작동합니다.<br /> 이렇게 하려면 여기에서 Adobe Campaign 통합 확장을 설치해야 합니다. <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> 자세한 내용은 다음을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ko">비디오</a>.<br /> </td> 
+   <td> 이제 Adobe Campaign과 Dreamweaver 간의 통합이 실시간으로 제공됩니다. 이제 공식적인 최신 Dreamweaver 버전(17.0.2)과 함께 작동합니다.<br /> 이렇게 하려면 Adobe Campaign 통합 확장을 설치해야 합니다. 자세한 내용은 다음을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ko">비디오</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -435,7 +435,7 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> 관심 영역 데이터<br /> </td> 
-   <td> 관심 영역 데이터는 Adobe Campaign과 Adobe Analytics for Mobile을 통합합니다. 브랜드는 사용자의 모바일 위치로부터 데이터를 수집할 수 있습니다. <strong>관심 영역</strong> - 사용자가 브랜드의 앱을 열 때입니다. 이를 통해 브랜드는 사용자의 위치를 기반으로 개인화된 메시지를 보내기 위해 Adobe Campaign 워크플로우를 활용할 수 있습니다. 이 채널은 Mobile 핵심 서비스의 SDK를 활용합니다.<br /> 이 기능을 사용하려면 유료 솔루션인 Analytics for Mobile이 필요합니다.<br /> 자세한 내용은 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 관심 영역 데이터는 Adobe Campaign과 Mobile용 Adobe Analytics을 통합합니다. 브랜드는 사용자의 모바일 위치로부터 데이터를 수집할 수 있습니다. <strong>관심 영역</strong> - 사용자가 브랜드의 앱을 열 때입니다. 이를 통해 브랜드는 사용자의 위치를 기반으로 개인화된 메시지를 보내기 위해 Adobe Campaign 워크플로우를 활용할 수 있습니다. 이 채널은 Mobile 핵심 서비스의 SDK를 활용합니다.<br /> 이 기능을 사용하려면 유료 솔루션인 Mobile용 Analytics가 필요합니다.<br /> 자세한 내용은 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 

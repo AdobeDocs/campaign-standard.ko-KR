@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
    * &lt;organization> : 프로덕션 인스턴스,
    * &lt;organization-mkt-stage>: 스테이지 인스턴스입니다.
 
-   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 만들 때 라이선스 목록에서 Adobe I/O으로 검색할 수도 있습니다( <a href="https://www.adobe.io/authentication.html">Adobe IO 설명서</a>).
+   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 새 통합을 만들 때 라이선스 목록에서 Adobe I/O으로 검색할 수도 있습니다( <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe IO 설명서</a>).
 
 * **&lt;access_token>**: POST 요청을 통해 JSON 웹 토큰을 교환할 때 검색된 개인 액세스 토큰입니다.
 
