@@ -556,7 +556,7 @@ ht-degree: 4%
 <th>유형</th>
 </tr>
 <tr>
-<td>게재</td>
+<td>배달</td>
 <td>링크</td>
 </tr>
 </table>
@@ -569,7 +569,7 @@ ht-degree: 4%
 <th>유형</th>
 </tr>
 <tr>
-<td>게재</td>
+<td>배달</td>
 <td>링크</td>
 </tr>
 </table>
@@ -595,7 +595,7 @@ Received(hasReceivedDelivery)
 <th>유형</th>
 </tr>
 <tr>
-<td>게재</td>
+<td>배달</td>
 <td>링크</td>
 </tr>
 </table>

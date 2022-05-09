@@ -5,9 +5,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 * **Adobe.io 콘솔로 이동하면 다음 오류가 표시됩니다. &quot;Adobe I/O 콘솔은 엔터프라이즈 계정의 구성원을 선택하는 데만 사용할 수 있습니다. 액세스 권한이 있다고 생각되면 시스템 관리자에게 문의하십시오.&quot;**
 
-관리하는 IMS 조직에 대한 API 키만 만들 수 있습니다. 이 메시지가 표시되고 API 키를 만들고자 하는 경우 IMS 조직의 관리자에게 문의하십시오.
+관리하는 조직의 API 키만 만들 수 있습니다. 이 메시지가 표시되고 API 키를 만들고자 하는 경우 조직 관리자 중 한 명에게 문의하십시오.
 
 * **Adobe.io에 요청을 수행할 때 {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}이(가) 표시됩니다**
 

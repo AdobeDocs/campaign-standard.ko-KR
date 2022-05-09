@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 9%
+source-wordcount: '704'
+ht-degree: 10%
 
 ---
 
@@ -37,7 +37,7 @@ AAM(Audience Manager) 또는 People 핵심 서비스 통합을 통해 Adobe Camp
   </tr> 
   <tr> 
    <td> <strong>IMS 조직 ID</strong><br /> </td> 
-   <td> IMS 조직 ID입니다. <br> 관리 메뉴의 Experience Cloud에서 IMS 조직 ID를 찾을 수 있습니다. Adobe Experience Cloud에 처음 연결할 때도 제공됩니다. </td> 
+   <td> 조직 ID입니다. <br> 조직 ID를 찾으려면 <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko">이 페이지</a></td> 
   </tr> 
   <tr> 
    <td> <strong>환경:</strong><br /> </td> 

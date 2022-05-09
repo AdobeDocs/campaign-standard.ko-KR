@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 트리거가 만들어지면 다음 단계로 이동합니다. 그렇지 않으면 트리거 끝점 연결에 실패했음을 의미합니다. 트리거가 Experience Cloud(활성화 서비스)에서 제공되는지 확인합니다. 그렇지 않은 경우 Adobe 계정 담당자 또는 전문 서비스 파트너에게 문의하십시오. 다음 정보가 필요합니다.
 
 * Marketing Cloud 회사 이름
-* IMS 조직 ID
+* 조직 ID
 * Analytics 로그인 회사 (Marketing Cloud 회사 이름과 같을 수 있음)
 
 **트리거 게시 시도**

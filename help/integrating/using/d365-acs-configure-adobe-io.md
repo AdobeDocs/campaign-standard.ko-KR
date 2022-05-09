@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
@@ -49,7 +49,7 @@ Adobe I/O을 사용하면 Adobe Campaign Standard과 기타 Adobe 제품에 대�
 
 이를 수행하려면 아래 절차를 따르십시오.
 
-1. 다음으로 이동 [Adobe IO 콘솔](https://console.adobe.io/home#) 화면의 오른쪽 상단에 있는 드롭다운 메뉴에서 Adobe IMS 조직 ID를 선택합니다.
+1. 다음으로 이동 [Adobe IO 콘솔](https://console.adobe.io/home#) 화면 오른쪽 상단의 드롭다운 메뉴에서 Adobe 조직 ID를 선택합니다.
 
 1. 그런 다음 **[!UICONTROL Create new project]** 아래에 **[!UICONTROL Quick Start]**.
 

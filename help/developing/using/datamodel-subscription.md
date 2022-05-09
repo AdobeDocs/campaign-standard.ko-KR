@@ -64,7 +64,7 @@ ht-degree: 13%
     </tr>
     <tr>
         <td>mobilePhone</td>
-        <td>Mobile 번호</td>
+        <td>모바일 번호</td>
         <td>문자열(32)</td>
         <td> </td>
     </tr>

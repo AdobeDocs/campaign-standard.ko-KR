@@ -105,7 +105,7 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>Mobile 애플리케이션</td>
+                  <td>모바일 애플리케이션</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>

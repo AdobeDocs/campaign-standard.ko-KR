@@ -315,7 +315,7 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> 트랜잭션 푸시 알림<br /> </td> 
-   <td> Mobile 애플리케이션 채널이 Adobe Campaign의 트랜잭션 메시지 기능에 추가되었습니다. 이제 트랜잭션 메시지에 대해 세 개의 채널이 지원됩니다. 이메일, SMS 및 푸시 알림.<br /> 자세한 내용은 <a href="../../channels/using/transactional-push-notifications.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 모바일 애플리케이션 채널이 Adobe Campaign의 트랜잭션 메시지 기능에 추가되었습니다. 이제 트랜잭션 메시지에 대해 세 개의 채널이 지원됩니다. 이메일, SMS 및 푸시 알림.<br /> 자세한 내용은 <a href="../../channels/using/transactional-push-notifications.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 되풀이하는 푸시 알림<br /> </td> 
@@ -435,7 +435,7 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> 관심 영역 데이터<br /> </td> 
-   <td> 관심 영역 데이터는 Adobe Campaign과 Mobile용 Adobe Analytics을 통합합니다. 브랜드는 사용자의 모바일 위치로부터 데이터를 수집할 수 있습니다. <strong>관심 영역</strong> - 사용자가 브랜드의 앱을 열 때입니다. 이를 통해 브랜드는 사용자의 위치를 기반으로 개인화된 메시지를 보내기 위해 Adobe Campaign 워크플로우를 활용할 수 있습니다. 이 채널은 Mobile 핵심 서비스의 SDK를 활용합니다.<br /> 이 기능을 사용하려면 유료 솔루션인 Mobile용 Analytics가 필요합니다.<br /> 자세한 내용은 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 관심 영역 데이터는 Adobe Campaign과 Adobe Analytics for Mobile을 통합합니다. 브랜드는 사용자의 모바일 위치로부터 데이터를 수집할 수 있습니다. <strong>관심 영역</strong> - 사용자가 브랜드의 앱을 열 때입니다. 이를 통해 브랜드는 사용자의 위치를 기반으로 개인화된 메시지를 보내기 위해 Adobe Campaign 워크플로우를 활용할 수 있습니다. 이 채널은 Mobile 핵심 서비스의 SDK를 활용합니다.<br /> 이 기능을 사용하려면 유료 솔루션인 Analytics for Mobile이 필요합니다.<br /> 자세한 내용은 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 

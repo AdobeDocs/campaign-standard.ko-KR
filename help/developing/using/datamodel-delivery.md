@@ -359,7 +359,7 @@ ht-degree: 13%
                   <td>
                      <ul>
                         <li>팩스 - 팩스 - 4</li>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>모바일(SMS) - sms - 1</li>
                         <li>이메일 - 이메일 - 0</li>
                         <li>전화 - 전화 - 2</li>
                         <li>DM - 용지 - 3</li>
@@ -496,9 +496,9 @@ ht-degree: 13%
                         <li>완료 - 완료 - 95</li>
                         <li>진행 중 카운팅 - targetSelection - 12</li>
                         <li>메시지 완료 - messageReady - 25</li>
-                        <li>Personalization 또는 개수 실패 - preparationError - 37</li>
+                        <li>개인화 또는 개수 실패 - preparationError - 37</li>
                         <li>중지됨 - 취소됨 - 85</li>
-                        <li>Personalization 진행 중 - messagePreparation - 22</li>
+                        <li>개인화 진행 중 - messagePreparation - 22</li>
                         <li>Target 준비 - targetReady - 15</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                         <li>중재 진행 중 - targetRe중재 - 13</li>
