@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 64%
+source-wordcount: '868'
+ht-degree: 63%
 
 ---
 
@@ -48,7 +48,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
   <tr> 
    <td> <p> Campaign Standard 21.3 릴리스부터 Audience Destinations 서비스와의 통합이 더 이상 사용되지 않습니다. </p>
    <p>새로운 구현을 위해 더 이상 Audience Destinations 서비스를 Adobe Campaign Standard과 통합할 수 없습니다. 그러나 소스 및 대상을 통해 Campaign과 Adobe Experience Platform을 통합할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">자세히 알아보기</a></p>
-     <em>Target 제거 날짜: 2022년</em></p>
+     <em>Target 제거 날짜: 2022년 9월</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
   <tr> 
    <td> <p> Campaign Standard 21.3 릴리스부터 Adobe Experience Platform 데이터 커넥터와의 통합이 더 이상 사용되지 않습니다. </p>
    <p>새로운 구현을 위해 더 이상 Adobe Experience Platform 데이터 커넥터를 Adobe Campaign Standard과 통합할 수 없습니다. 그러나 소스 및 대상을 통해 Campaign과 Adobe Experience Platform을 통합할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">자세히 알아보기</a></p>
-     <em>Target 제거 날짜: 2022년</em></p>
+     <em>Target 제거 날짜: 2022년 9월</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
    <td> <p>Campaign 19.0 릴리스부터 기존 이메일 편집기는 더 이상 사용되지 않습니다. 사용 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign 이메일 디자이너</a> 이메일 콘텐츠를 만들고 개인화하기 위해 </p></br>
    <p>새로운 편집기에 맞게 이메일 템플릿을 적용하는 방법을 살펴보려면 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">이 섹션</a>을 참조하십시오.</p></br>
   <p> 
-  <em>Target 제거 날짜: 2022년</em></p>
+  <em>Target 제거 날짜: 2022년 말</em></p>
    </td> 
   </tr> 
  </tbody> 
