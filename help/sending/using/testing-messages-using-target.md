@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1532'
 ht-degree: 4%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 4%
 
 추가 대상 [테스트 프로필](../../audiences/using/managing-test-profiles.md)타겟팅된 프로필 중 하나의 위치에 자신을 배치하여 이메일 메시지를 테스트할 수 있습니다. 이를 통해 프로필에서 받게 될 메시지(사용자 지정 필드, 워크플로우의 추가 데이터를 포함한 동적 및 개인화된 정보..)를 정확하게 표현할 수 있습니다.
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> 이 기능은 이메일 메시지만 사용할 수 있습니다.
+>이 기능을 사용하면 프로필 개인 정보를 외부 이메일 주소로 보낼 수 있습니다. Campaign Standard에서 개인 정보 요청(GDPR 및 CPA)을 실행하면 해당 요청이 외부에서 실행되지 않습니다.
 
 주요 단계는 다음과 같습니다.
 
@@ -35,9 +35,9 @@ ht-degree: 4%
 1. **미리 보기** 이메일 디자이너에서 프로필에 대해 메시지를 표시하는 방법을 설명합니다.
 1. 증명을 보냅니다.
 
->[!IMPORTANT]
->
->이 기능을 사용하면 프로필 개인 정보를 외부 이메일 주소로 보낼 수 있습니다. Campaign Standard에서 개인 정보 요청(GDPR 및 CPA)을 실행하면 해당 요청이 외부에서 실행되지 않습니다.
+   >[!IMPORTANT]
+   >
+   >증명을 처리함 [!DNL Campaign Standard] 표준 게재로서 사용할 수 있습니다. 따라서 프로필 대체를 사용하여 증명을 보내면 선택한 프로필의 게재 및 추적 로그에 레코드가 추가됩니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
