@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: ht
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -242,7 +242,7 @@ ht-degree: 100%
       + [Analytics에서 Campaign 차원 및 지표 보기](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign과 Audience Manager 또는 People 핵심 서비스 {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [Audience Manager 또는 People 핵심 서비스와의 프로비전 및 구성](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [Audience Manager 또는 People 핵심 서비스와의 프로비전 및 구성](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [문제 해결](integrating/using/troubleshooting.md)
       + [Audience Manager 또는 People 핵심 서비스와 대상자 공유](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Campaign을 Assets 핵심 서비스와 함께 사용하기](integrating/using/working-with-campaign-and-assets-core-service.md)
