@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
+source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 99%
+source-wordcount: '383'
+ht-degree: 37%
 
 ---
 
@@ -28,8 +28,19 @@ ht-degree: 99%
 
 * **Adobe 알림 서비스** - Campaign에는 Adobe 알림 서비스가 포함되어 있습니다. 이 서비스는 Experience Cloud 전반에 걸쳐 사용자가 알아야 할 중요한 활동에 대해 Experience Cloud 솔루션이 경고합니다. 22.2 버전부터 사용자 경험을 개선했습니다. 알림의 우선 순위가 지정되고 제품에서 생성한 알림이 Adobe 상태 알림과 분리됩니다. 또한 알림이 특정 워크플로우를 참조하는 경우 이제 이메일이나 제품 내 알림을 통해 직접 해당 워크플로우에 액세스할 수 있습니다.  Adobe Campaign 알림에 대한 자세한 내용은 [Adobe Campaign 알림](../../administration/using/sending-internal-notifications.md)을 참조하세요.
 
+* **워크플로우 시작에서의 최적화** - Adobe이 동시에 시작되는 워크플로우 수를 조정할 수 있는 새로운 기능을 추가했습니다. 이렇게 하면 서비스 중단이나 다운타임으로 이어질 수 있는 CPU 스파이크를 방지할 수 있습니다. Adobe은 22.2 릴리스 후에 활성화됩니다. 이와 관련하여 고객에게 더 이상 작업 항목이 없습니다.
 
 **보안 업그레이드**
 
-* 이 버전에서는 Apache 취약성을 완화하고 인스턴스 환경을 보다 안전하게 만들기 위한 보안 업그레이드 활동을 제공합니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html?lang=ko){target=&quot;_blank&quot;}.
+* Apache Tomcat이 버전 7에서 버전 8.5로 업그레이드되었습니다.
 
+**패치**
+
+* 중복 키 오류로 인해 청구 기술 워크플로우의 문제를 수정했습니다. (CAMP-51029)
+* 추적 보고서에서 누락된 Microsoft Edge 브라우저 카테고리를 추가했습니다. 이 분류는 이전에 Microsoft Chrome 오픈 시 분류되었습니다. (CAMP-51165)
+* 하위 테이블에서 데이터를 삭제하지 않는 GDPR 요청 문제를 수정했습니다. (CAMP-48276)
+* 트랜잭션 메시지 템플릿에서 조각의 가시성 조건이 저장되지 않는 이메일 디자이너 문제를 해결했습니다. (CAMP-50338)
+* 날짜 범위를 고려하지 않는 캠페인 보고서의 문제를 수정했습니다. (CAMP-50991)
+* 예약된 전자 메일이 실패하는 오류를 수정했습니다. 게재가 여전히 &#39;다시 시도 보류 중&#39; 상태에 있으므로 게재 분석을 시작할 수 없습니다. (CAMP-50302)
+* 프로필 대체를 사용하여 이메일을 미리 볼 때 이메일 디자이너의 문제를 수정했습니다. (CAMP-49312)
+* 사용자 지정 열거형의 빈 값 문제가 해결되었습니다. 텍스트 열거형이며 하나의 값만 포함하는 필드로 사용자 지정 리소스를 만들 때 이 값이 기본적으로 설정되므로 이 필드에 간단한 요청으로 쿼리를 만들 수 있습니다. (CAMP-50606)
