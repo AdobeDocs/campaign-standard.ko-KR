@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
 workflow-type: tm+mt
 source-wordcount: '7221'
 ht-degree: 99%
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 **릴리스에 포함된 개선 사항**
 
-* **Adobe 알림 서비스** - Campaign에는 Adobe 알림 서비스가 포함되어 있습니다. 이 서비스는 Experience Cloud 전반에 걸쳐 사용자가 알아야 할 중요한 활동에 대해 Experience Cloud 솔루션이 경고합니다. [자세한 내용](../../administration/using/sending-internal-notifications.md).
+**Adobe 알림 서비스** - Campaign에는 Adobe 알림 서비스가 포함되어 있습니다. 이 서비스는 Experience Cloud 전반에 걸쳐 사용자가 알아야 할 중요한 활동에 대해 Experience Cloud 솔루션이 경고합니다. [자세한 내용](../../administration/using/sending-internal-notifications.md).
 
 **기타 변경 사항**
 
