@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
@@ -115,14 +115,14 @@ ht-degree: 3%
 
       ![](assets/tab_share_4.png)
 
-   1. 필드를 클릭하고 드롭다운에서 선택하거나 전자 메일 주소를 입력하여 전자 메일의 수신자를 선택합니다.
+   1. 드롭다운에서 수신자를 선택합니다. 조직 외부의 사용자는 선택할 수 없습니다.
    1. 확인 **[!UICONTROL Show scheduling options]** 반복 이메일을 보내려면 이 작업은 을(를) 선택하여 수행할 수도 있습니다 **[!UICONTROL Send Report on schedule]** 에서 **[!UICONTROL Share]** 탭.
    1. **[!UICONTROL Send now]**&#x200B;을(를) 클릭합니다. 그러면 수신자가 보고서가 첨부된 이메일을 받게 됩니다.
 
 * **[!UICONTROL Send report on schedule]**: 보고서를 예약하고 수신자에게 반복 이메일을 보냅니다.
 
    1. 에서 **[!UICONTROL Send report]** 필요한 경우 창을 열고 설명을 추가합니다.
-   1. 필드를 클릭하고 드롭다운에서 선택하거나 전자 메일 주소를 입력하여 전자 메일의 수신자를 선택합니다.
+   1. 드롭다운에서 수신자를 선택합니다. 조직 외부의 사용자는 선택할 수 없습니다.
 
       ![](assets/tab_share_5.png)
 

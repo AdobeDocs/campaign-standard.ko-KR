@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1327'
 ht-degree: 2%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 Adobe Experience Platform SDK로 구성된 모바일 애플리케이션에서 Adobe Experience Platform 위치 서비스를 사용할 수 있으려면 다음을 수행해야 합니다.
 
-1. 추가 **[!UICONTROL Places]** 및 **[!UICONTROL Places Monitor]** Adobe Experience Platform Launch에서 모바일 앱 구성에 대한 확장. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. 자세한 내용은 [Adobe Experience Platform Launch에 위치 확장 설치](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) 및 [Experience Platform Launch에 위치 모니터 확장 설치](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. 추가 **[!UICONTROL Places]** 및 **[!UICONTROL Places Monitor]** 데이터 수집 UI에서 모바일 앱 구성에 대한 확장. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. 자세한 내용은 [위치 확장 설치](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) 및 [위치 모니터 확장 설치](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
-1. 확장을 설정하고 나면 내에서 데이터 요소를 만듭니다. **[!UICONTROL Adobe Experience Platform Launch]** 를 클릭하여 이러한 확장에서 데이터를 검색합니다. 다음을 참조하십시오 [페이지](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 데이터 요소를 만들려면
+1. 확장이 설정되면 데이터 수집 UI 내에서 데이터 요소를 만들어 이 확장에서 데이터를 검색합니다. 다음을 참조하십시오 [페이지](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 데이터 요소를 만들려면
 
-1. 그런 다음 **[!UICONTROL Adobe Experience Platform Launch]**, 관심 영역 과 Adobe Campaign 간의 모바일 사용 사례를 지원하기 위한 규칙을 만들어야 합니다.\
+1. 그런 다음 데이터 수집 UI에서 관심 영역 과 Adobe Campaign 간의 모바일 사용 사례를 지원하는 규칙을 만들어야 합니다.\
    이 규칙은 사용자가 지리적 펜싱이 있는 지역에 들어갈 때 트리거됩니다 **[!UICONTROL Point of Interest]**. 다음을 참조하십시오 [페이지](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) 규칙을 만들려면 다음을 수행하십시오.
 
 1. 을(를) 정의합니다 **[!UICONTROL Points of Interest]** 위치. 자세한 내용은 [관심 영역 만들기](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
@@ -188,7 +188,6 @@ Mobile 핵심 서비스의 SDK(소프트웨어 개발 키트)를 사용하면 �
 특정 사용자 지정 리소스를 사용하면 애플리케이션 구독자로부터 수집하려는 데이터를 정의할 수 있습니다.
 
 이 단계는 [SDK V4를 사용한 모바일 애플리케이션 구성](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) 페이지.
-
 
 ## 위치 데이터를 수집하는 데 사용되는 모바일 앱에 액세스 {#accessing-mobile-apps-used-to-collect-location-data}
 

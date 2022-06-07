@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 92%
+source-wordcount: '878'
+ht-degree: 82%
 
 ---
 
@@ -94,8 +94,10 @@ ht-degree: 92%
 1. 이 절차의 6단계부터 10단계까지 반복하여 세그먼트를 필요한 만큼 추가합니다.
 1. 필요한 경우 **[!UICONTROL Advanced options]** 탭에서 매개 변수를 편집합니다.
 
-   * 인바운드 모집단의 멤버가 동시에 여러 세그먼트에 속하도록 하려면 **[!UICONTROL Enable overlapping of outbound populations]** 옵션을 선택합니다. 활동의 아웃바운드 모집단은 인바운드 모집단을 초과할 수 있습니다.
-   * 남겨 두려는 세그먼트 코드가 인바운드 모집단에 이미 할당된 경우 **[!UICONTROL Concatenate the code of each segment]** 옵션을 선택합니다. 활동에 지정된 세그먼트 코드가 초기 세그먼트 코드에 추가됩니다.
-   * 나머지 모집단을 활용하려면 **[!UICONTROL Generate complement]** 옵션을 선택합니다. 자세한 내용은 [사용 사례: 보충 자료를 넣어 게재](../../automating/using/workflow-created-query-with-complement.md).
+   * 다음 **[!UICONTROL Enable overlapping of outbound populations]** 선택 사항은 여러 세그먼트에 속하는 프로필을 관리하는 방법을 정의합니다.
+      * 이 옵션을 활성화하지 않으면 **[!UICONTROL Segmentation]** 활동은 이 프로필이 여러 하위 세트의 기준을 충족하더라도 프로필을 여러 출력 전환에 있지 않은지 확인합니다.
+      * 옵션을 활성화하면 필터 기준을 충족하면 여러 하위 세트에서 프로필을 찾을 수 있습니다.
+   * 남겨 두려는 세그먼트 코드가 인바운드 모집단에 이미 할당된 경우 **[!UICONTROL Concatenate the code of each segment]** 선택 사항입니다. 활동에 지정된 세그먼트 코드가 초기 세그먼트 코드에 추가됩니다.
+   * 나머지 모집단을 활용해야 하는 경우 **[!UICONTROL Generate complement]** 선택 사항입니다. 자세한 내용은 [사용 사례: 보충 자료를 넣어 게재](../../automating/using/workflow-created-query-with-complement.md).
 
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.

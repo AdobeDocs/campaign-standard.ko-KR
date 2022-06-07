@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 5%
+source-wordcount: '790'
+ht-degree: 4%
 
 ---
 
@@ -181,3 +181,12 @@ P1은 첫 번째 날에 두 번 이메일을 열고 두 번째 날에는 세 번
 
    ![](assets/troubleshooting_4.png)
 
+## 사용자 지정 Target 매핑을 사용할 때 게재 보고서에 불완전한 데이터가 표시됩니다
+
+게재에서 가져온 사용자 지정 대상 매핑을 사용하고 있고 다른 보고서에 데이터가 표시되지 않는 경우 해당 Target 매핑에 대해 Reporting 데이터 보강 활동이 생성되지 않은 것일 수 있습니다.
+
+이 문제를 해결하려면
+
+* XML에서 Target 매핑을 가져온 후에는 Reporting 데이터 보수도 가져와야 합니다.
+
+* Target 매핑을 가져오는 대신 Adobe Campaign Standard에서 바로 만들 수 있으며 보고 강화 항목을 자동으로 만들 수 있습니다.

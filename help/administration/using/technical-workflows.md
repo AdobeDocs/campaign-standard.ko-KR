@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 93%
+source-wordcount: '700'
+ht-degree: 89%
 
 ---
 
@@ -92,12 +92,12 @@ ht-degree: 93%
    <tr> 
    <td> <span class="uicontrol">Launch와 동기화</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> 이 워크플로우는 Adobe Campaign Standard에 가져온 Adobe Launch 모바일 속성을 동기화합니다. 15분마다 시작됩니다.<br /> </td> 
+   <td> 이 워크플로우는 Adobe Campaign Standard에 가져온 태그 모바일 속성을 동기화합니다. 15분마다 시작됩니다.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">추적 로그 복구</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> 이 워크플로우는 Adobe Campaign Standard에 가져온 Adobe Launch 모바일 속성을 동기화합니다. 15분마다 시작됩니다.<br /> </td> 
+   <td> 이 워크플로우는 Adobe Campaign Standard에 가져온 태그 모바일 속성을 동기화합니다. 15분마다 시작됩니다.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">추적 로그 복구</span> <br /> </td> 

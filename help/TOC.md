@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터 '
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+workflow-type: tm+mt
+source-wordcount: '1810'
+ht-degree: 99%
 
 ---
 
@@ -452,9 +452,9 @@ ht-degree: 100%
       + [iOS 이미지 및 비디오 추가](administration/using/image-push-notification.md)
       + [ 푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
       + [로컬 알림 추적 구현](administration/using/local-tracking.md)
-      + [Adobe 실행 동기화 FAQ](administration/using/syncwithlaunch-faq.md)
+      + [Adobe Experience Platform 동기화의 태그 FAQ](administration/using/syncwithlaunch-faq.md)
       + [Experience Platform SDK 통합 FAQ](administration/using/aep-faq.md)
-      + [Adobe Campaign Standard 사용 사례를 지원하기 위한 Launch 규칙 구성](administration/using/configuring-rules-launch.md)
+      + [Adobe Campaign Standard 사용 사례를 지원하기 위한 태그 규칙 구성](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard에서 지원하는 모바일 사용 사례](administration/using/supported-mobile-use-cases.md)
       + [모바일 애플리케이션을 SDK v4에서 Adobe Experience Platform SDK로 마이그레이션하는 방법](administration/using/sdkv4-migration.md)
    + SMS 채널 구성 {#configuring-sms}

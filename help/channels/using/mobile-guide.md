@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '786'
 ht-degree: 24%
 
 ---
@@ -96,9 +96,9 @@ Adobe Campaign Standard을 사용하면 세 개의 서로 다른 채널을 통�
 <tr>
   <td>
     <div>
-    <p><strong>Adobe Campaign Standard 사용 사례를 지원하기 위한 Adobe Experience Platform Launch 규칙 구성</strong></p>
+    <p><strong>Adobe Campaign Standard 사용 사례를 지원하기 위한 태그 규칙 구성</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>여기를 클릭하십시오.</strong></a> Adobe Experience Platform Launch에서 데이터 요소 및 규칙 만들기를 시작하여 모바일 애플리케이션에서 Adobe Campaign Standard으로 PII 및 기타 데이터를 전송합니다.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>여기를 클릭하십시오.</strong></a> 모바일 애플리케이션에서 Adobe Campaign Standard으로 PII 및 기타 데이터를 전송하기 위해 데이터 수집 UI에서 데이터 요소 및 규칙 만들기를 시작합니다.</p>
     <br>
   </td>
   <td>

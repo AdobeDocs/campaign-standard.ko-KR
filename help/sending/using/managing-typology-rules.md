@@ -9,7 +9,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 96%
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 유형화 규칙은 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** 메뉴에서 사용할 수 있습니다.
 
-기본적으로 몇 가지 기본 **필터링** 및 **제어** 유형 규칙을 사용할 수 있습니다. [필터링 규칙](../../sending/using/fatigue-rules.md) 및 [제어 규칙](../../sending/using/control-rules.md) 섹션에 자세히 설명되어 있습니다.
+기본적으로 몇 가지 기본 **필터링** 및 **제어** 유형 규칙을 사용할 수 있습니다. [필터링 규칙](../../sending/using/filtering-rules.md) 및 [제어 규칙](../../sending/using/control-rules.md) 섹션에 자세히 설명되어 있습니다.
 
 필요에 따라, 읽기 전용이며 수정할 수 없는 **[!UICONTROL Control]** 규칙을 제외하고 기존 유형 분류 규칙을 수정하거나 새 유형을 만들 수 있습니다. 
 

@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 5%
+source-wordcount: '1286'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->푸시 알림 및 인앱 구현은 전문가 사용자가 수행해야 합니다. 도움이 필요하면 Adobe 계정 담당자 또는 전문 서비스 파트너에게 문의하십시오.
+> Adobe Experience Platform Launch은 Adobe Experience Platform에서 데이터 수집 기술 세트로 브랜딩되었습니다. 그 결과 제품 설명서에서 몇 가지 용어 변경 사항이 롤아웃되었습니다. 자세한 내용은 [다음 문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) 용어 변경 내용을 통합 참조하기 위해.
 
-Experience Platform SDK 애플리케이션을 통해 푸시 알림 및 인앱 메시지를 전송하려면 Adobe Experience Platform Experience Platform Experience Platform Launch에서 모바일 애플리케이션을 설정하고 Adobe Campaign에서 구성해야 합니다.
+푸시 알림 및 인앱 구현은 전문가 사용자가 수행해야 합니다. 도움이 필요하면 Adobe 계정 담당자 또는 전문 서비스 파트너에게 문의하십시오.
+
+Experience Platform SDK 애플리케이션을 통해 푸시 알림 및 인앱 메시지를 전송하려면 모바일 애플리케이션을 데이터 수집 UI에서 설정하고 Adobe Campaign에서 구성해야 합니다.
 
 모바일 애플리케이션이 설정되면 수집한 PII 데이터를 검색하여 데이터베이스에서 프로필을 만들거나 업데이트할 수 있습니다. 자세한 정보는 다음 섹션을 참조하십시오. [모바일 애플리케이션 데이터를 기반으로 프로필 정보 만들기 및 업데이트](../../channels/using/updating-profile-with-mobile-app-data.md).
 
@@ -36,33 +38,33 @@ Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지�
 
    없는 경우 계정 팀에 문의하십시오.
 
-1. Adobe Campaign Standard 및 Experience Platform Launch에서 사용자에게 필요한 권한이 있는지 확인합니다.
-   * Adobe Campaign Standard에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필에 포함되어 있는지 확인합니다. 이 단계에서는 사용자가 Adobe Campaign Standard에 로그인하고, Experience Platform SDK 모바일 앱 페이지로 이동한 다음, Experience Platform Launch에서 만든 모바일 앱 속성을 볼 수 있습니다.
+1. Adobe Experience Platform에서 Adobe Campaign Standard 및 태그에 필요한 권한이 사용자에게 있는지 확인합니다.
+   * Adobe Campaign Standard에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필에 포함되어 있는지 확인합니다. 이 단계에서는 사용자가 Adobe Campaign Standard에 로그인하고, Experience Platform SDK 모바일 앱 페이지로 이동한 다음, 데이터 수집 UI에서 만든 모바일 앱 속성을 볼 수 있습니다.
 
-   * Experience Platform Launch에서 IMS 사용자가 Experience Platform Launch 제품 프로필에 포함되어 있는지 확인합니다.
-이 단계에서는 사용자가 Experience Platform Launch에 로그인하여 속성을 만들고 볼 수 있습니다. Experience Platform Launch의 제품 프로필에 대한 자세한 내용은 제품 프로필 만들기 를 참조하십시오. 제품 프로필에는 회사 또는 속성에 설정된 권한이 없어야 하지만 사용자는 계속 로그인할 수 있어야 합니다.
+   * 데이터 수집 UI에서 IMS 사용자가 Experience Platform Launch 제품 프로필에 포함되어 있는지 확인합니다.
+이 단계에서는 사용자가 데이터 수집 UI에 로그인하여 속성을 만들고 볼 수 있습니다. 데이터 수집 UI의 제품 프로필에 대한 자세한 내용은 [제품 프로필 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=en#gain-admin-rights-for-a-tags-product-profile). 제품 프로필에는 회사 또는 속성에 설정된 권한이 없어야 하지만 사용자는 계속 로그인할 수 있어야 합니다.
 
    확장 설치, 앱 게시, 환경 구성 등과 같은 추가 작업을 완료하려면 제품 프로필에서 권한을 설정해야 합니다.
 
-1. Experience Platform Launch에서 **[!UICONTROL Mobile property]**. 자세한 내용은 [모바일 속성 설정](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)을 참조하십시오.
+1. 데이터 수집 UI에서 **[!UICONTROL Mobile property]**. 자세한 내용은 [모바일 속성 설정](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)을 참조하십시오.
 
-1. Experience Platform Launch에서 **[!UICONTROL Extensions]** 탭으로 이동합니다. **[!UICONTROL Catalog]**, 및 을 검색합니다. **[!UICONTROL Adobe Campaign Standard]** 확장. 자세한 내용은 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. 데이터 수집 UI에서 **[!UICONTROL Extensions]** 탭으로 이동합니다. **[!UICONTROL Catalog]**, 및 을 검색합니다. **[!UICONTROL Adobe Campaign Standard]** 확장. 자세한 내용은 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 1. Campaign Standard에서 위치 사용 사례를 지원하려면 **[!UICONTROL Places]** 확장 및 **[!UICONTROL Places Monitor]** 확장.
-   * 설치 **[!UICONTROL Places]** Experience Platform Launch 확장. 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * 설치 **[!UICONTROL Places Monitor]** Experience Platform Launch 확장. 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+   * 설치 **[!UICONTROL Places]** 확장)을 클릭하여 제품에서 사용할 수 있습니다. 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * 설치 **[!UICONTROL Places Monitor]** 확장)을 클릭하여 제품에서 사용할 수 있습니다. 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
-1. Adobe Campaign Standard에서 Experience Platform Launch에서 만든 모바일 속성을 구성합니다. 을(를) 참조하십시오. [Adobe Campaign에서 Adobe Experience Platform Launch 애플리케이션 설정](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Adobe Campaign Standard에서 데이터 수집 UI에서 만든 모바일 속성을 구성합니다. 을(를) 참조하십시오. [Adobe Campaign에서 Adobe Experience Platform Launch 애플리케이션 설정](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. 모바일 애플리케이션 설정에 채널별 구성을 추가합니다.
 자세한 내용은 [Adobe Campaign의 채널별 애플리케이션 구성](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)을 참조하십시오.
 
-1. 필요한 경우 Experience Platform Launch 속성을 삭제할 수 있습니다.
-자세한 내용은 [Experience Platform Launch 애플리케이션 삭제](../../administration/using/configuring-a-mobile-application.md#delete-app).
+1. 필요한 경우 태그 속성을 삭제할 수 있습니다.
+자세한 내용은 [애플리케이션 삭제](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
 ## Launch 기술 워크플로우에서 모바일 앱 AEPSDK 동기화 {#aepsdk-workflow}
 
-Experience Platform Launch에서 모바일 속성을 만들고 구성한 후에는 **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 기술 워크플로우는 이제 Adobe Campaign Standard에 가져온 Adobe Launch 모바일 속성을 동기화합니다.
+데이터 수집 UI에서 모바일 속성을 만들고 구성한 후에는 **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 기술 워크플로우는 이제 Adobe Campaign Standard에 가져온 태그 모바일 속성을 동기화합니다.
 
 기본적으로 기술 워크플로우는 15분마다 시작됩니다. 필요한 경우 수동으로 다시 시작할 수 있습니다.
 
@@ -77,13 +79,13 @@ Experience Platform Launch에서 모바일 속성을 만들고 구성한 후에�
 
    ![](assets/launch_11.png)
 
-이제 워크플로우가 다시 시작되고 Adobe Campaign Standard에 가져온 Adobe Launch 모바일 속성을 동기화합니다.
+이제 워크플로우가 다시 시작되고 Adobe Campaign Standard에 가져온 태그 모바일 속성을 동기화합니다.
 
-## Adobe Campaign에서 Adobe Experience Platform Launch 애플리케이션 설정 {#set-up-campaign}
+## Adobe Campaign에서 애플리케이션 설정 {#set-up-campaign}
 
-Campaign에서 Experience Platform Launch 모바일 속성을 사용하려면 Adobe Campaign에서 이 속성을 구성해야 합니다. Adobe Campaign에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필에 포함되어 있는지 확인합니다.
+Campaign에서 태그 모바일 속성을 사용하려면 Adobe Campaign에서 이 속성을 구성해야 합니다. Adobe Campaign에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필에 포함되어 있는지 확인합니다.
 
-기술 워크플로우가 실행되고 Launch 모바일 속성을 Adobe Campaign에 동기화할 때까지 기다려야 합니다. 그런 다음 Adobe Campaign에서 구성할 수 있습니다.
+기술 워크플로우가 실행되고 태그 모바일 속성을 Adobe Campaign에 동기화할 때까지 기다려야 합니다. 그런 다음 Adobe Campaign에서 구성할 수 있습니다.
 
 Launch 기술 워크플로우에서 모바일 앱 AEPSDK 동기화에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
@@ -95,14 +97,14 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK 동기화에 대한 자
 
    ![](assets/launch.png)
 
-1. Experience Platform Launch에서 만든 모바일 애플리케이션을 선택합니다.
+1. 데이터 수집 UI에서 만든 모바일 애플리케이션을 선택합니다.
 It **[!UICONTROL Property Status]** 다음과 같습니다. **[!UICONTROL Ready to configure]**.
 
    >[!NOTE]
    >
-   >기본적으로 Adobe Launch에서 만든 모바일 애플리케이션 목록을 검색하려면 Campaign Standard은 NmsServer_URL 옵션에 정의된 값을 사용하여 일치하는 속성을 찾습니다.
+   >기본적으로 데이터 수집 UI에서 생성된 모바일 애플리케이션 목록을 검색하려면 Campaign Standard은 NmsServer_URL 옵션에 정의된 값을 사용하여 일치하는 속성을 찾습니다.
    >
-   >경우에 따라 모바일 애플리케이션에 대한 캠페인 종단점이 NmsServer_URL에 정의된 것과 다를 수 있습니다. 이 경우 Launch_URL_Campaign 옵션에서 끝점을 정의합니다. Campaign은 이 옵션의 값을 사용하여 Adobe Launch에서 일치하는 속성을 찾습니다.
+   >경우에 따라 모바일 애플리케이션에 대한 캠페인 종단점이 NmsServer_URL에 정의된 것과 다를 수 있습니다. 이 경우 `Launch_URL_Campaign` 선택 사항입니다. Campaign은 이 옵션의 값을 사용하여 데이터 수집 UI에서 일치하는 속성을 찾습니다.
 
    ![](assets/launch_4.png)
 
@@ -112,15 +114,15 @@ It **[!UICONTROL Property Status]** 다음과 같습니다. **[!UICONTROL Ready 
 
    ![](assets/launch_12.png)
 
-1. Campaign과 Experience Platform Launch 간에 연결하려면 **[!UICONTROL Save]**.
+1. Adobe Experience Platform에서 Campaign과 태그를 연결하려면 **[!UICONTROL Save]**.
 
 1. 모바일 앱의 상태가 **[!UICONTROL Ready to Configure]** to **[!UICONTROL Configured]**.
 
-   Experience Platform Launch Campaign 확장에서 키가 성공적으로 설정되었다고 표시되면 Campaign에서 속성이 성공적으로 설정되었는지 확인할 수도 있습니다.
+   Campaign 확장에서 키가 성공적으로 설정되었다고 표시되면 Campaign에서 속성이 성공적으로 설정되었는지 확인할 수도 있습니다.
 
    ![](assets/launch_5.png)
 
-1. 이 구성을 적용하려면 변경 사항을 Experience Platform Launch에 게시해야 합니다.
+1. 이 구성을 적용하려면 변경 사항을 데이터 수집 UI에 게시해야 합니다.
 
    자세한 내용은 [구성 게시](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
 
@@ -130,7 +132,7 @@ It **[!UICONTROL Property Status]** 다음과 같습니다. **[!UICONTROL Ready 
 
 1. 고급 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
-1. Experience Platform Launch에서 만들고 구성한 모바일 애플리케이션을 선택합니다.
+1. 데이터 수집 UI에서 만들고 구성한 모바일 애플리케이션을 선택합니다.
 
 1. 설정 **[!UICONTROL Mobile application properties]** 탭에서 모바일 애플리케이션에서 인앱 메시지에 사용할 수 있는 이벤트를 추가할 수 있습니다.
 
@@ -158,15 +160,13 @@ It **[!UICONTROL Property Status]** 다음과 같습니다. **[!UICONTROL Ready 
 
 1. 을(를) 클릭합니다. **[!UICONTROL Mobile application subscribers]** 탭에서는 구독자 목록과 이러한 구독자에 대한 다른 정보(예: 구독자가 알림 옵트아웃 여부)를 볼 수 있습니다.
 
-## Adobe Experience Platform Launch 애플리케이션 삭제 {#delete-app}
-
-Experience Platform Launch 응용 프로그램을 삭제하면 되돌릴 수 없습니다.
+## 애플리케이션 삭제 {#delete-app}
 
 >[!CAUTION]
 >
->Experience Platform Launch 응용 프로그램을 삭제하면 되돌릴 수 없습니다.
+>애플리케이션을 삭제하면 되돌릴 수 없습니다.
 
-Experience Platform Launch 응용 프로그램을 삭제하려면 [모바일 속성 삭제](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+응용 프로그램을 삭제하려면 [모바일 속성 삭제](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
 
 애플리케이션이 삭제된 후 Adobe Campaign에서 애플리케이션의 속성 상태가 Launch에서 삭제됨으로 올바르게 업데이트되었는지 확인합니다.
 

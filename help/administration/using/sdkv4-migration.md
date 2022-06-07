@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Adobe SDK 버전을 v4에서 Adobe Experience Platform으로 업그레이드한 
 |:-:|
 | 모바일 애플리케이션은에서 사용할 수 있습니다. **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**. 마이그레이션 전에에서 사용할 수 있었습니다. **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**. |
 | 다음 **[!UICONTROL Collect PII Endpoint]** 응용 프로그램의 내용이 변경됩니다. 나이 든 **[!UICONTROL Collect PII Endpoint]** 은(는) 계속 작동하며, 전송된 데이터는 손실되지 않습니다. |
-| 애플리케이션이 Adobe Experience Platform Launch에 연결됩니다 **[!UICONTROL Mobile Property]**. 새로 만든 모바일 애플리케이션으로 처리됩니다. |
+| 애플리케이션이 태그에 연결되어 있습니다 **[!UICONTROL Mobile Property]**. 새로 만든 모바일 애플리케이션으로 처리됩니다. |
 | 마이그레이션에 사용된 원본 Adobe Experience Platform SDK 애플리케이션은 별도의 애플리케이션으로 존재하지 않습니다. 마이그레이션된 SDK v4 애플리케이션만 사용할 수 있습니다. |
 
 ## 모바일 애플리케이션을 SDK v4에서 Adobe Experience Platform SDK로 마이그레이션 {#how-to-migrate}
@@ -53,9 +53,9 @@ Adobe SDK 버전을 v4에서 Adobe Experience Platform으로 업그레이드한 
 * 마이그레이션 프로세스는 되돌릴 수 없습니다.
 * 여러 응용 프로그램의 마이그레이션을 동시에 실행해서는 안 됩니다. 또한 동일한 응용 프로그램의 마이그레이션이 동시에 여러 창에 의해 트리거되지 않도록 해야 합니다.
 * 마이그레이션 전에 에 대한 **[!UICONTROL Organizational unit]** 마이그레이션할 모바일 애플리케이션 및 마이그레이션에 사용하는 Adobe Experience Platform 애플리케이션의 .
-* 마이그레이션 후 애플리케이션이 Adobe Experience Platform SDK 애플리케이션이 됩니다. 변경 사항이 해당 Launch에 연결됩니다 **[!UICONTROL Mobile Property]**.
+* 마이그레이션 후 애플리케이션이 Adobe Experience Platform SDK 애플리케이션이 됩니다. 변경 사항이 해당 태그에 연결됩니다 **[!UICONTROL Mobile Property]**.
 
-1. 새 만들기 **[!UICONTROL Mobile property]** Adobe Experience Platform Launch에서 확인하십시오. 자세한 내용은 [Adobe Experience Platform Launch 설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. 새 만들기 **[!UICONTROL Mobile property]** ( 데이터 수집 UI) 자세한 내용은 [설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
 
 1. Adobe Campaign Standard의 고급 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** 그리고 **[!UICONTROL syncWithLaunch]** 워크플로우. 워크플로우가 오류 없이 종료되었는지 확인합니다.
 
@@ -88,7 +88,7 @@ Adobe SDK 버전을 v4에서 Adobe Experience Platform으로 업그레이드한 
 이 마이그레이션 후 모바일 애플리케이션의 V4 버전에서 수집된 구독자와 모바일 애플리케이션의 AEP 버전에서 수집한 새 구독자를 마이그레이션된 애플리케이션에서 사용할 수 있습니다.
 
 서로 다른 두 유형의 구독자를 구분하기 위해 **[!UICONTROL Text]** 사용자 지정 리소스를 확장할 때 유형 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 로서의 `sdkversion` 또는 `appVersion` 예. 사용자 지정 리소스 확장 방법에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../../developing/using/creating-or-extending-the-resource.md).
-그런 다음 연결된 Launch를 구성해야 합니다 **[!UICONTROL Mobile property]** collect PII 호출에서 이 사용자 지정 필드 값을 보내고 그에 따라 모바일 애플리케이션 구성을 변경합니다.
+그런 다음 연결된 태그를 구성해야 합니다 **[!UICONTROL Mobile property]** collect PII 호출에서 이 사용자 지정 필드 값을 보내고 그에 따라 모바일 애플리케이션 구성을 변경합니다.
 
 ## FAQ {#faq}
 
@@ -106,7 +106,7 @@ A: 해당 응용 프로그램만 **[!UICONTROL Organizational unit]** 가 목록
 
 ### Q: 구성된 속성 상태가 있는 Adobe Experience Platform SDK 애플리케이션을 마이그레이션에 사용할 수 없는 이유는 무엇입니까? {#property-status}
 
-A: 마이그레이션 프로세스는 SDK v4 구독자와 속성을 유지합니다. Adobe Experience Platform SDK 애플리케이션의 Launch 관련 정보만 유지합니다. 구독자와 Adobe Experience Platform SDK 애플리케이션의 기타 데이터가 손실됩니다. 데이터 손실을 방지하기 위해 **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** 은 마이그레이션에 대상이 됩니다.
+A: 마이그레이션 프로세스는 SDK v4 구독자와 속성을 유지합니다. Adobe Experience Platform SDK 애플리케이션의 태그 관련 정보만 유지합니다. 구독자와 Adobe Experience Platform SDK 애플리케이션의 기타 데이터가 손실됩니다. 데이터 손실을 방지하기 위해 **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** 은 마이그레이션에 대상이 됩니다.
 
 ### Q: 마이그레이션 후 이전 SDK v4 모바일 애플리케이션은 어디에서 찾을 수 있습니까? {#v4-app-not-visible}
 

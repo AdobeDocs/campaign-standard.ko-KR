@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Standard 사용 사례를 지원하기 위한 Adobe Experience Platform Launch 규칙 구성
-description: Adobe Campaign Standard 사용 사례를 지원하기 위해 Adobe Experience Platform Launch 규칙을 구성하는 방법을 알아봅니다
+title: Adobe Campaign Standard 사용 사례를 지원하기 위한 태그 규칙 구성
+description: Adobe Campaign Standard 사용 사례를 지원하기 위해 태그 규칙을 구성하는 방법을 알아봅니다
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -9,20 +9,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 1%
+source-wordcount: '998'
+ht-degree: 0%
 
 ---
 
-# Adobe Campaign Standard 사용 사례를 지원하기 위한 Launch 규칙 구성 {#configuring-rules-launch}
+# Adobe Campaign Standard 사용 사례를 지원하기 위한 태그 규칙 구성 {#configuring-rules-launch}
 
-in [!DNL Adobe Experience Platform Launch], 데이터 요소와 규칙을 만들어 모바일 애플리케이션에서 로 PII 및 기타 데이터를 전송합니다 [!DNL Adobe Campaign Standard].
+데이터 수집 UI에서 모바일 애플리케이션에서 로 PII 및 기타 데이터를 전송할 데이터 요소와 규칙을 만듭니다 [!DNL Adobe Campaign Standard].
 
-모든 구성이 [!DNL Adobe Experience Platform Launch] 이 변경 사항을 게시해야 합니다. 자세한 내용은 [게시](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+데이터 수집 UI의 모든 구성 변경 사항을 적용하려면 이러한 변경 사항을 게시해야 합니다. 자세한 내용은 [게시](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
-에서 규칙을 만들려면 [!DNL Experience Platform Launch]다음 단계를 수행합니다.
+데이터 수집 UI에서 규칙을 만들려면 다음 단계를 수행하십시오.
 
 1. [데이터 요소 만들기](../../administration/using/configuring-rules-launch.md#create-data-elements)
 2. [규칙 만들기](../../administration/using/configuring-rules-launch.md#create-data-elements) 지원하려는 사용 사례의 경우:
@@ -33,7 +33,7 @@ in [!DNL Adobe Experience Platform Launch], 데이터 요소와 규칙을 만들
 
 ## 데이터 요소 만들기 {#create-data-elements}
 
-다음은 생성하기를 권장하는 데이터 요소입니다. [!DNL Experience Platform Launch].
+다음은 데이터 수집 UI에서 만드는 것이 권장되는 데이터 요소입니다.
 필요에 따라 추가 데이터 요소를 만들 수 있습니다.
 
 * **[!UICONTROL Experience Cloud ID]**
@@ -42,7 +42,7 @@ in [!DNL Adobe Experience Platform Launch], 데이터 요소와 규칙을 만들
 
 다음 데이터 요소를 만들려면:
 
-1. in [!DNL Experience Platform Launch]로 지정하는 경우, 모바일 애플리케이션 대시보드에서 **[!UICONTROL Data Elements]** 탭.
+1. 데이터 수집 UI의 모바일 애플리케이션 대시보드에서 **[!UICONTROL Data Elements]** 탭.
 
 1. 을(를) 만들려면 **[!UICONTROL Experience Cloud ID]** 데이터 요소 **[!UICONTROL Create New Data Element]**.
 
@@ -79,9 +79,9 @@ in [!DNL Adobe Experience Platform Launch], 데이터 요소와 규칙을 만들
 >
 >모바일 앱에서 Adobe Campaign으로 PII 정보를 전송하려면 SDK API를 구현해야 합니다. 자세한 내용을 보려면 [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
-PII 데이터를 로 보내려면 [!DNL Adobe Campaign Standard]에서 규칙을 만듭니다. [!DNL Experience Platform Launch]:
+PII 데이터를 로 보내려면 [!DNL Adobe Campaign Standard], 데이터 수집 UI에서 규칙을 만듭니다.
 
-1. in [!DNL Experience Platform Launch]로 지정하는 경우, 모바일 애플리케이션 대시보드에서 **[!UICONTROL Rules]** 탭 **[!UICONTROL Create New Rule]**.
+1. 데이터 수집 UI의 모바일 애플리케이션 대시보드에서 **[!UICONTROL Rules]** 탭 **[!UICONTROL Create New Rule]**.
 
 1. 예를 들어, 이름을 입력합니다. **Mobile Core - Collect PII**.
 
@@ -135,7 +135,7 @@ PII 데이터를 로 보내려면 [!DNL Adobe Campaign Standard]에서 규칙을
    }
    ```
 
-   에 정의된 데이터 요소 [!DNL Experience Platform Launch] %%mcid%%와 같은 큰 백분율로 묶어야 하며, 앱의 컨텍스트 변수는 %contextdata.email%와 같이 단일 백분율로 묶어야 합니다.
+   데이터 수집 UI에 정의된 데이터 요소는 이중 비율로 묶어야 합니다(예: ) `%%mcid%%`, 및 앱의 컨텍스트 변수는 단일 백분율로 묶어야 합니다(예: %contextdata.email%).
 
 1. in **[!UICONTROL Content Type]**, 유형 **application/json**.
 
@@ -151,9 +151,9 @@ PII 데이터를 로 보내려면 [!DNL Adobe Campaign Standard]에서 규칙을
 >
 >Android ACPCore v1.4.0 이상/iOS ACPCore v2.3.0 이상을 사용하는 경우 추적 포스트백을 구성할 필요가 없습니다.
 
-추적 데이터를 로 보내려면 [!DNL Adobe Campaign Standard] 사용자가 모바일 애플리케이션에서 인앱 메시지와 상호 작용하는 방법을 보고하려면, [!DNL Experience Platform Launch]:
+추적 데이터를 로 보내려면 [!DNL Adobe Campaign Standard] 사용자가 모바일 애플리케이션에서 인앱 메시지와 상호 작용하는 방법을 보고하려면 데이터 수집 UI에서 다음 규칙을 만드십시오.
 
-1. in [!DNL Experience Platform Launch]모바일 애플리케이션 대시보드에서 **[!UICONTROL Rules]** 탭을 클릭하고 **[!UICONTROL Add Rule]**.
+1. 데이터 수집 UI의 모바일 애플리케이션 대시보드에서 **[!UICONTROL Rules]** 탭을 클릭하고 **[!UICONTROL Add Rule]**.
 
 1. 예를 들어, 이름을 입력합니다. **Adobe Campaign - 인앱 클릭 추적**.
 
@@ -189,13 +189,13 @@ PII 데이터를 로 보내려면 [!DNL Adobe Campaign Standard]에서 규칙을
 >
 >Android ACPCore v1.4.0 이상/iOS ACPCore v2.3.0 이상을 사용하는 경우 추적 포스트백을 구성할 필요가 없습니다.
 
-추적 데이터를 로 보내려면 [!DNL Adobe Campaign Standard]푸시 알림 게재와 모바일 애플리케이션과의 상호 작용을 추적하는 데 도움이 되는 에서에 규칙을 만들어야 합니다 [!DNL Experience Platform Launch].
+추적 데이터를 로 보내려면 [!DNL Adobe Campaign Standard]: 푸시 알림 게재와 모바일 애플리케이션과의 사용자 상호 작용을 추적하는 데 도움이 되는, 데이터 수집 UI에서 규칙을 만들어야 합니다.
 
 푸시 추적에 대한 자세한 내용은 [푸시 추적](../../administration/using/push-tracking.md).
 
 앱 작업을 추적하려면 trackAction API를 사용합니다. 자세한 내용은 [앱 작업 추적](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
-1. in [!DNL Experience Platform Launch]로 지정하는 경우, 모바일 애플리케이션 대시보드에서 **[!UICONTROL Rules]** 탭을 클릭하고 **[!UICONTROL Add Rule]**.
+1. 데이터 수집 UI의 모바일 애플리케이션 대시보드에서 **[!UICONTROL Rules]** 탭을 클릭하고 **[!UICONTROL Add Rule]**.
 
 1. 예를 들어, 이름을 입력합니다. **Adobe Campaign - 푸시 클릭 추적**.
 
@@ -225,7 +225,7 @@ PII 데이터를 로 보내려면 [!DNL Adobe Campaign Standard]에서 규칙을
 
 ### 위치 포스트백 {#location-postback}
 
-1. in [!DNL Experience Platform Launch]로 지정하는 경우, 모바일 애플리케이션 대시보드에서 **[!UICONTROL Rules]** 탭을 클릭하고 **[!UICONTROL Add Rule]**.
+1. 데이터 수집 UI의 모바일 애플리케이션 대시보드에서 **[!UICONTROL Rules]** 탭을 클릭하고 **[!UICONTROL Add Rule]**.
 
 1. 예를 들어, 이름을 입력합니다. **위치 포스트백**.
 
@@ -264,7 +264,7 @@ PII 데이터를 로 보내려면 [!DNL Adobe Campaign Standard]에서 규칙을
 
    >[!NOTE]
    >
-   >위의 예에서 오른쪽의 데이터 요소는 [!DNL Experience Platform Launch] 의 단계를 활용하여 [데이터 요소 만들기](../../administration/using/configuring-rules-launch.md#create-data-elements). 왼쪽에 있는 데이터 요소는에서 지원됩니다. [!DNL Adobe Campaign Standard] 구성이 필요 없습니다. 추가 데이터가 필요한 경우에서 사용자 지정 리소스 확장을 수행해야 합니다. [!DNL Adobe Campaign Standard].
+   >위의 예에서 오른쪽의 데이터 요소는 의 단계를 활용하여 데이터 수집 UI에서 구성해야 합니다 [데이터 요소 만들기](../../administration/using/configuring-rules-launch.md#create-data-elements). 왼쪽에 있는 데이터 요소는에서 지원됩니다. [!DNL Adobe Campaign Standard] 구성이 필요 없습니다. 추가 데이터가 필요한 경우에서 사용자 지정 리소스 확장을 수행해야 합니다. [!DNL Adobe Campaign Standard].
 
 1. in **[!UICONTROL Content Type]**, 유형 **application/json**.
 

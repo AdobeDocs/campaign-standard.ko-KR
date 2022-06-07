@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 89%
+source-wordcount: '1246'
+ht-degree: 84%
 
 ---
 
@@ -91,7 +91,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
       Adobe Places에 대한 자세한 내용은 [위치 설명서](https://experienceleague.adobe.com/docs/places/using/home.html)를 참조하십시오.
    ![](assets/inapp_creating_4.png)
 
-1. **[!UICONTROL Analytics Events]**&#x200B;을(를) 사용하는 경우 Adobe Analytics 및 보기 상태 이벤트는 Adobe Experience Platform Launch의 Analytics 확장에 구성된 보고서 세트를 기반으로 자동으로 채워지는 반면, 컨텍스트 데이터 이벤트는 수동으로 추가해야 합니다.
+1. 를 사용하는 경우 **[!UICONTROL Analytics Events]**, Adobe Analytics 및 보기 상태 이벤트는 데이터 수집 UI의 Analytics 확장에 구성된 보고서 세트를 기반으로 자동으로 채워지는 반면, 컨텍스트 데이터 이벤트는 수동으로 추가해야 합니다.
 
    이러한 이벤트는 Adobe Analytics 라이선스가 있는 경우에만 사용할 수 있습니다.
 
@@ -99,7 +99,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
 1. **[!UICONTROL Places]** 트리거를 사용하는 경우 위치 컨텍스트 데이터, 위치 사용자 지정 메타데이터 또는 위치 이벤트 유형은 Adobe Places에서 만든 모든 라이브러리 및 해당 관심 포인트를 기반으로 자동으로 채워집니다. 
 
-   이 트리거는 Experience Platform Launch의 위치 확장에서 선택한 라이브러리의 관심 포인트에 대해서만 디바이스에 적용됩니다. Places 확장 및 설치 방법에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)를 참조하십시오.
+   이 트리거는 데이터 수집 UI의 위치 확장에서 선택한 라이브러리의 관심 포인트에 대해서만 디바이스에 적용됩니다. Places 확장 및 설치 방법에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)를 참조하십시오.
 
 1. **[!UICONTROL Frequency & duration]** 탭에서 트리거 빈도, 시작 및 종료 날짜, 인앱 메시지가 활성화될 요일 및 시간을 선택합니다.
 

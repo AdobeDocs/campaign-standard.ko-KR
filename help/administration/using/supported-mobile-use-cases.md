@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adobe Campaign Standard에서 지원하는 모바일 사용 사례 {#mobile-use-cases}
 
-이 페이지에서는에서 지원되는 모든 모바일 사용 사례 목록을 찾을 수 있습니다. [!DNL Adobe Campaign Standard] 사용 [!DNL Adobe Experience Platform SDKs]. 이러한 사용 사례를 지원하는 데 설치 및 구성이 포함됩니다 [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch], 및 [!DNL Adobe Campaign Standard]. 자세한 내용은 다음을 참조하십시오 [페이지](../../administration/using/configuring-a-mobile-application.md).
+이 페이지에서는에서 지원되는 모든 모바일 사용 사례 목록을 찾을 수 있습니다. [!DNL Adobe Campaign Standard] 사용 [!DNL Adobe Experience Platform SDKs]. 이러한 사용 사례를 지원하는 데 설치 및 구성이 포함됩니다 [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform], 및 [!DNL Adobe Campaign Standard]. 자세한 내용은 다음을 참조하십시오 [페이지](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standard은 다음 사용 사례를 지원합니다.
 
@@ -27,9 +27,9 @@ Adobe Campaign Standard은 다음 사용 사례를 지원합니다.
 * [모바일 앱에서 사용자 지정 이벤트를 구현하여 인앱 메시지를 트리거합니다](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [인앱 메시지를 기반으로 하는 프로필 템플릿에 대한 추가 인증을 위한 링크 필드 설정](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
-이러한 사용 사례를 구성하려면 다음 확장이 필요합니다. [!DNL Experience Platform Launch]:
+이러한 사용 사례를 구성하려면 다음 확장이 필요합니다.
 
-* **[!DNL Adobe Campaign Standard]** <br>Campaign Standard 확장을 설치하고 구성하려면 다음을 참조하십시오 [Experience Platform Launch에서 Campaign Standard 확장 구성](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>Campaign Standard 확장을 설치하고 구성하려면 다음을 참조하십시오 [데이터 수집 UI에서 Campaign Standard 확장 구성](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]**: 자동으로 설치됩니다. <br>Mobile Core 확장에 대한 자세한 내용은 다음을 참조하십시오. [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]**: 자동으로 설치됩니다. <br>프로필 확장에 대한 자세한 내용은 [프로필](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 

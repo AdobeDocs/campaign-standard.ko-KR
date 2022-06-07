@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '909'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ Experience Platform SDK 애플리케이션을 사용하여 푸시 알림 및 인
 
 * [푸시 알림 FAQ](../../channels/using/about-push-notifications.md#push-faq)
 * [인앱 FAQ](../../channels/using/in-app-faq.md)
-* [Launch 기술 워크플로우와 동기화 FAQ](../../administration/using/syncwithlaunch-faq.md)
+* [Adobe Experience Platform 동기화의 태그 FAQ](../../administration/using/syncwithlaunch-faq.md)
 
 ## 시작하기 전에 유용한 리소스 {#resource-mobile-property}
 
@@ -34,7 +34,7 @@ Adobe Experience Platform SDK 및 Campaign Standard 통합에 대한 자세한 �
 
 ## Adobe Campaign Standard과 Adobe Campaign Classic 모두에서 Adobe Experience Platform SDK 통합을 사용할 수 있습니까? {#aep-validity}
 
-예, [!DNL Adobe Experience Platform SDK] Adobe Campaign Standard과 Adobe Campaign Classic 모두에서 통합을 사용할 수 있습니다. 해당 **[!UICONTROL Extension]** via [!DNL Adobe Launch] 통합을 사용하도록 설정합니다.
+예, [!DNL Adobe Experience Platform SDK] Adobe Campaign Standard과 Adobe Campaign Classic 모두에서 통합을 사용할 수 있습니다. 해당 **[!UICONTROL Extension]** 사용 [!DNL Data Collection UI] 통합을 사용하도록 설정합니다.
 
 자세한 정보는 이 [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)를 참조하십시오.
 

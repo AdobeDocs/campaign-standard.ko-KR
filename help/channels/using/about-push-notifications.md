@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 49%
+source-wordcount: '1238'
+ht-degree: 41%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 * [푸시 알림 보고서](../../reporting/using/push-notification-report.md)
 * [Campaign Standard Mobile 안내서](../../channels/using/get-started-communication-channels.md)
 
-## 필수 구성 요소 {#prerequisites}
+## 전제 조건 {#prerequisites}
 
 >[!NOTE]
 >Campaign의 푸시 알림 기능을 활용하려면 암호가 없는 .pem 포맷의 유효한 푸시 인증서를 제공해야 합니다.
@@ -62,17 +62,17 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 
 1. Adobe Campaign에서 **[!UICONTROL Push notification]** 채널에 액세스할 수 있는지 확인합니다. 이 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
 
-1. Adobe Campaign Standard 및 Experience Platform Launch에서 사용자에게 필요한 권한이 있는지 확인합니다.
+1. Adobe Experience Platform의 Adobe Campaign Standard 및 태그에서 사용자에게 필요한 권한이 있는지 확인합니다.
 
-1. Experience Platform Launch에서 모바일 속성을 만듭니다. 자세한 내용은 [모바일 속성 설정](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)을 참조하십시오.
+1. 데이터 수집 UI에서 모바일 속성을 만듭니다. 자세한 내용은 [모바일 속성 설정](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)을 참조하십시오.
 
-1. Experience Platform Launch에서 **[!UICONTROL Adobe Campaign Standard]** 확장을 설치합니다.
+1. 데이터 수집 UI에서 **[!UICONTROL Adobe Campaign Standard]** 확장.
 
-1. Adobe Campaign Standard에서 Experience Platform Launch에서 만든 모바일 속성을 구성합니다. 자세한 내용은 [Adobe Campaign에서 Experience Platform Launch 애플리케이션 설정](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)을 참조하십시오.
+1. Adobe Campaign Standard에서 데이터 수집 UI에서 만든 모바일 속성을 구성합니다. 자세한 내용은 [Adobe Campaign에서 태그 애플리케이션 설정](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. 모바일 애플리케이션 설정에 채널별 구성을 추가합니다. 자세한 내용은 [Adobe Campaign의 채널별 애플리케이션 구성](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)을 참조하십시오.
 
-1. 모바일 사용 사례 구현을 지원하려면 [Adobe Campaign Standard에서 Adobe Experience Platform SDK를 사용하여 지원되는 모바일 사용 사례](../../administration/using/configuring-rules-launch.md)에서 확장, Experience Platform Launch 규칙, SDK 구현에 대한 자세한 지침을 참조하십시오.
+1. 모바일 사용 사례 구현을 지원하려면 [Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지원되는 모바일 사용 사례](../../administration/using/configuring-rules-launch.md).
 
 ## 푸시 알림 FAQ {#push-faq}
 
