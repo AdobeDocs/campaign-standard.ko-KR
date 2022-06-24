@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 66aed3668dc0eb2041312dcbaebe7c36f54b13a5
 workflow-type: ht
-source-wordcount: '468'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -36,10 +36,6 @@ ht-degree: 100%
    * 보다 쉬운 탐색을 위해 페이지 랜드마크 만들기
    * 여러 컨트롤에 대한 이름, 역할, 값, 상태 추가
    * 기본 화면에서 동적 포커스 순서에서 발생하는 문제 해결
-
-**보안 업그레이드**
-
-* Tomcat이 버전 7에서 버전 8.5로 업데이트되었습니다.
 
 
 **패치**
