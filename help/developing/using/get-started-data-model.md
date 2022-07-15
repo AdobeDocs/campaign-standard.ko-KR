@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 데이터 모델 시작
-description: 사용자 정의 필드 및 리소스로 Campaign Standard 데이터 모델을 강화하고 REST API를 확장하여 확장된 필드를 표시할 수 있습니다.
+description: 사용자 정의 필드 및 리소스로 캠페인 Standard 데이터 모델을 강화하고 REST API를 확장하여 확장된 필드를 표시할 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
