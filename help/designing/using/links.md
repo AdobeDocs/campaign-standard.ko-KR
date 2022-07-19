@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 2%
@@ -35,7 +35,7 @@ ht-degree: 2%
 
    * **외부 링크**: 외부 URL에 대한 링크를 삽입합니다.
 
-      URL에 대한 개인화를 정의할 수 있습니다. 자세한 내용은 [URL 개인화](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+      URL에 대한 개인화를 정의할 수 있습니다. 자세한 내용은 [URL 개인화](personalization.md#personalizing-urls).
 
    * **랜딩 페이지**: Adobe Campaign 랜딩 페이지에 대한 액세스 권한을 제공합니다.
    * **구독 링크**: Adobe Campaign 서비스에 가입할 링크를 삽입합니다.
