@@ -1,6 +1,6 @@
 ---
 title: 동적 보고 시작
-description: 내장된 보고서 또는 사용자 정의된 동적 보고서에서 캠페인의 성공을 분석합니다.
+description: 빌트인된 보고서 또는 사용자 정의된 동적 보고서에서 캠페인의 성공을 분석합니다.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
