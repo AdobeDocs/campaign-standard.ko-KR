@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: e74ce4aea097e5078aabf83f424e855db72b04a1
+source-git-commit: e18d2e42c76a85f2f80a4d58dba9161993864ce5
 workflow-type: tm+mt
 source-wordcount: '182'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 21%
 
 ## 릴리스 22.3 - 2022년 9월 {#e-rn-2022}
 
-**개선 사항**
+### 개선 사항{#e-rn-improvements}
 
 **접근성**
 
@@ -39,11 +39,11 @@ Campaign Standard 22.3에는 사용자가 Adobe Campaign을 탐색하고 최대�
     Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
 -->
 
-**보안 업데이트**
+### 보안 업데이트{#e-rn-security}
 
 이 릴리스는 다음과 같은 보안 업그레이드와 함께 제공됩니다. Apache Tomcat이 v7.0에서 v8.0으로 업그레이드되었습니다.
 
-**수정 사항**
+### 수정 사항{#e-rn-fixes}
 
 * 예약된 시간보다 1시간 전에 트리거된 예약된 보고서 문제를 수정했습니다. (CAMP-51502)
 * 전송 로그(nms:broadLogRcp)와 일치하지 않는 게재 대시보드의 게재 표시기에 대한 문제를 해결했습니다. (CAMP-51127)
