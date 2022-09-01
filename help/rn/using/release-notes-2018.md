@@ -1,14 +1,12 @@
 ---
 title: 2018년 릴리스 정보
 description: 이 페이지에는 Adobe Campaign Standard의 2018년 릴리스가 모두 나열되어 있습니다.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '5401'
 ht-degree: 6%
@@ -138,7 +136,7 @@ Adobe Campaign Standard의 특정 2018 릴리스를 찾고 계십니까?
 **패치**
 
 * byEmail 쿼리 필터에 결과를 반환하지 못하는 문제를 해결했습니다. (CAMP-23420)
-* 표준 사용자가 관리자(/rest/head/* 엔드포인트, 트랜잭션 메시지 화면, 프로필 및 대상 가져오기 화면)로 제한된 특정 기능 또는 화면에 액세스할 수 있는 문제를 해결했습니다.
+* 표준 사용자가 관리자(/rest/head/)로 제한된 특정 기능 또는 화면에 액세스할 수 있도록 허용하는 문제가 해결되었습니다.&#42; 엔드포인트, 트랜잭션 메시지 화면, 프로필 및 대상 가져오기 화면).
 * 이름이 숫자로 시작된 경우 GDPR 개인 정보 보호 삭제 요청이 사용자 지정 리소스를 처리하지 못하는 문제를 해결했습니다.
 * 대상자 저장 활동이 Adobe Experience Cloud에서 애플리케이션 구독자를 공유할 수 없는 오류를 수정했습니다.
 * 파일 이름에 빈 공백이 있을 때 발생할 수 있는 파일 전송 활동 문제를 수정했습니다. (CAMP-25936)
