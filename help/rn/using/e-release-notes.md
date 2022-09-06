@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 3f9adbf4e8c9066b1954a1443654d82ee7b53fea
+source-git-commit: 93f1a6cb0727859f3c3f645366a9d2dc25795a79
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 20%
+source-wordcount: '183'
+ht-degree: 19%
 
 ---
 
@@ -23,8 +23,7 @@ ht-degree: 20%
 >
 > 이 콘텐츠는 단계 환경 업그레이드일까지 사전 통지 없이 변경될 수 있습니다. 자세한 내용은 [릴리스 계획 페이지](../../rn/using/release-planning.md)를 참조하세요.
 
-## 릴리스 22.3 - 2022년 9월 {#e-rn-2022}
-
+## 릴리스 22.3 - 2022년 가을/겨울 {#e-rn-2022}
 
 ### 개선 사항{#e-rn-improvements}
 
