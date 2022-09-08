@@ -8,9 +8,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
-source-wordcount: '963'
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+workflow-type: ht
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Adobe Campaign을 사용하면 개인정보 보호 준비를 원활히 수행할
 
 * 데이터 삭제라고도 하는 **잊혀질 권리**(삭제 요청)는 데이터 주체에게 자신의 개인 데이터를 지우고, 데이터의 추가 배포를 중단하고, 제3자로 하여금 데이터 처리를 중단하도록 할 수 있는 권한을 부여합니다.
 
-**액세스** 및 **삭제** 요청을 만드는 방법과 Adobe Campaign에서 요청을 처리하는 방법에 대해 알아보려면 [구현 단계](../../start/using/privacy-requests.md#about-privacy-requests)를 참조하십시오.
+**액세스** 및 **삭제** 요청을 만드는 방법과 Adobe Campaign에서 이 요청을 처리하는 원리는 [구현 단계](../../start/using/privacy-requests.md#about-privacy-requests)를 참조하세요.
 
 Campaign Standard의 개인 정보 관리에 대한 튜토리얼도 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ko#privacy)에서 사용할 수 있습니다.
 
@@ -81,7 +81,7 @@ Campaign Standard의 개인 정보 관리에 대한 튜토리얼도 [여기](htt
 Adobe Campaign은 최신 **액세스 권한** 및 **잊혀질 권리** 기능 외에도 다음과 같이 개인 정보 보호에 필수적인 기타 중요한 기능을 제공합니다.
 
 * [동의 관리](#consent-management): 기본 설정 관리를 위한 구독 기능
-* [데이터 보존](#data-retention): 모든 표준 로그 테이블의 데이터 보존 기간, 워크플로우로 추가 보존 기간을 설정할 수 있습니다.
+* [데이터 보존](../../administration/using/data-retention.md): 모든 표준 로그 테이블의 데이터 보존 기간, 워크플로우로 추가 보존 기간을 설정할 수 있습니다.
 * [권한 관리](#rights-management): 명명된 권한에 의해 관리되는 데이터 액세스
 
 ### 동의 관리 {#consent-management}
@@ -95,27 +95,6 @@ Adobe Campaign은 최신 **액세스 권한** 및 **잊혀질 권리** 기능 �
 동의 관리에 대한 자세한 내용은 [구독 정보](../../audiences/using/about-subscriptions.md) 및 [랜딩 페이지 시작](../../channels/using/getting-started-with-landing-pages.md)을 참조하십시오.
 
 Adobe Campaign이 제공하는 동의 관리 도구 외에도, 개인 정보 판매를 고객이 옵트아웃했는지 여부를 추적할 수 있습니다. [이 섹션](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)을 참조하십시오.
-
-### 데이터 유지 {#data-retention}
-
-보존과 관련하여 Campaign의 기본 로그인 로그 테이블에는 사전 설정된 보존 기간이 있으며 일반적으로 데이터 저장소를 6개월 이내로 제한합니다.
-
-기본 제공 테이블에 대한 기본 보존 값은 다음과 같습니다. 보존 구성은 구현 중에 Adobe 기술 관리자가 설정하며 고객 요구 사항에 따라 각 구현마다 값이 달라질 수 있습니다.
-
-* **통합 추적**: 6개월
-* **게재 로그**: 6개월
-* **추적 로그**: 6개월
-* **이벤트**: 1개월
-* **이벤트 처리 통계**: 6개월
-* **보관된 이벤트**: 6개월
-* **임시 엔터티**: 7일
-* **무시된 파이프라인 이벤트**: 1개월
-* **게재 경고**: 1개월
-* **내보내기 감사**: 6개월
-
-또한 삭제와 유사하게 표준 워크플로우 기능을 사용하여 모든 사용자 지정 테이블에 대해 보존 기간을 설정할 수 있습니다.
-
-Adobe 컨설턴트 또는 기술 관리자에게 문의하여 보존에 대한 자세한 내용을 확인하거나 사용자 지정 테이블에 대한 보존을 설정해야 합니다.
 
 ### 권한 관리 {#rights-management}
 
