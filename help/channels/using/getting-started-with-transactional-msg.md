@@ -9,18 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
+source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 8%
+source-wordcount: '988'
+ht-degree: 9%
 
 ---
 
 # 트랜잭션 메시지 시작 {#getting-started-with-transactional-messaging}
-
-## 개요 {#overview}
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
 트랜잭션 메시지는 웹사이트 등 공급자가 실시간으로 보내는 개별적이고 고유한 통신입니다. 수신자가 확인하거나 확정하려는 중요한 정보가 포함되어 있으므로 특히 예상됩니다.
 
@@ -93,9 +89,9 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| 사용자 | 작업 | 결과 |
-|--- |--- |--- |
-| 이 단계는 관리자가 수행해야 합니다 [관리 권한](../../administration/using/users-management.md#functional-administrators). | 이벤트를 구성하여 이름을 &quot;장바구니 포기&quot;로 지정합니다. 이 이벤트 구성을 게시합니다. | 웹 사이트 개발자가 사용할 API가 배포되고 트랜잭션 메시지가 자동으로 만들어집니다. |
+| 이벤트 만들기 | 사용자 | 작업 | 결과 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | 이 단계는 관리자가 수행해야 합니다 [관리 권한](../../administration/using/users-management.md#functional-administrators). | 이벤트를 구성하여 이름을 &quot;장바구니 포기&quot;로 지정합니다. 이 이벤트 구성을 게시합니다. | 웹 사이트 개발자가 사용할 API가 배포되고 트랜잭션 메시지가 자동으로 만들어집니다. |
 
 이벤트 만들기와 게시는 [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md) 및 [트랜잭션 이벤트 게시](../../channels/using/publishing-transactional-event.md) 섹션에 자세히 설명되어 있습니다.
 
@@ -103,9 +99,9 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| 사용자 | 작업 | 결과 |
-|--- |--- |--- |
-| 이 단계는 마케팅 사용자가 보유하여 수행할 수 있습니다 [관리 권한](../../administration/using/users-management.md#functional-administrators). | 트랜잭션 메시지를 편집하고 개인화한 다음 테스트한 다음 게시합니다. | 그런 다음 트랜잭션 메시지를 보낼 준비가 되었습니다. |
+| 메시지 편집 | 사용자 | 작업 | 결과 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | 이 단계는 마케팅 사용자가 보유하여 수행할 수 있습니다 [관리 권한](../../administration/using/users-management.md#functional-administrators). | 트랜잭션 메시지를 편집하고 개인화한 다음 테스트한 다음 게시합니다. | 그런 다음 트랜잭션 메시지를 보낼 준비가 되었습니다. |
 
 트랜잭션 메시지 편집 및 게시에 대한 자세한 내용은 다음을 참조하십시오 [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md) 및 [트랜잭션 메시지 수명 주기](../../channels/using/publishing-transactional-message.md).
 
@@ -113,13 +109,11 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-<!--**Event triggering integration**-->
-
-| 사용자 | 작업 | 결과 |
-|--- |--- |--- |
-| 이 단계는 웹 사이트 개발자가 수행합니다. | REST 트랜잭션 메시지 API를 사용하여 이벤트를 웹 사이트에 통합합니다. | 고객이 장바구니를 중단하면 이벤트가 트리거됩니다. |
-
 이벤트를 만든 후에는 이 이벤트 트리거를 웹 사이트에 통합해야 합니다.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> 이렇게 하려면 웹 사이트 웹 개발자가 **Adobe Campaign Standard REST API**.
+
+| 트리거 구현 | 사용자 | 작업 | 결과 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | 이 단계는 웹 사이트 개발자가 수행합니다. | REST 트랜잭션 메시지 API를 사용하여 이벤트를 웹 사이트에 통합합니다. | 고객이 장바구니를 중단하면 이벤트가 트리거됩니다. |
 
 Campaign REST API를 사용하여 트랜잭션 메시지를 관리하는 방법에 대한 자세한 내용은 다음을 참조하십시오. [REST API 설명서](../../api/using/managing-transactional-messages.md).
 
@@ -127,9 +121,11 @@ Campaign REST API를 사용하여 트랜잭션 메시지를 관리하는 방법�
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-이러한 단계를 모두 완료하면 메시지를 전달할 수 있습니다.
+위의 단계를 모두 완료하면 메시지를 전달할 수 있습니다.
 
-사용자가 장바구니의 제품을 주문하지 않고 사이트를 떠나자마자 해당 캠페인 이벤트가 트리거됩니다. 사용자는 자동으로 알림 이메일을 수신하게 됩니다.
+| 메시지 게재 | 사용자 | 작업 | 결과 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | 이 단계는 웹 사이트를 방문하는 고객이 수행합니다. | 사용자가 장바구니의 제품을 주문하지 않고 사이트를 떠나자마자 해당 캠페인 이벤트가 트리거됩니다. | 사용자는 자동으로 알림 이메일을 수신하게 됩니다. |
 
 ## 관련 항목
 

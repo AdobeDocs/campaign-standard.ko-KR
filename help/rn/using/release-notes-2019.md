@@ -6,16 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '7588'
+source-wordcount: '7558'
 ht-degree: 8%
 
 ---
 
 # 2019년 릴리스 정보{#release-notes-2019}
-
-[릴리스 계획](https://helpx.adobe.com/kr/campaign/kb/acs-release-planning.html) | [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [최신 릴리스 노트](../../rn/using/release-notes.md) | [더 이상 사용되지 않는 기능](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes)
 
 ## 릴리스 19.4 - 2019년 12월 {#release-19-4---october-2019}
 
@@ -33,7 +31,7 @@ ht-degree: 8%
    <p>Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 유지 설정 및 사용자 역할 포함) 외에도 Adobe는 CCPA에 대한 준비를 용이하게 하기 위해 이번에 추가 기능을 포함시킬 수 있는 기회를 드립니다.</p>
    <ul>
     <li>액세스 권한 및 삭제 권한: adobe는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#righttoaccess">자세히 알아보기</a> </li>
-    <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 핵심 서비스에 규정 유형(GDPR 또는 CCPA)이 추가되었습니다. 이 방법은 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">사용이 중단되거나 제거된 기능 문서</a>를 참조하십시오.</p></li>
+    <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 핵심 서비스에 규정 유형(GDPR 또는 CCPA)이 추가되었습니다. 이 방법은 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">사용이 중단되거나 제거된 기능 문서</a>를 참조하십시오.</p></li>
     <li>A <strong>CCPA 옵트아웃</strong> 소비자가 개인 정보 판매를 옵트아웃했는지 여부를 Adobe Campaign 사용자가 추적할 수 있도록 프로필 리소스에 필드가 추가되었습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ccpa">자세히 알아보기</a></li>
   </ul>
     <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">방법 비디오</a>를 참조하십시오.</p>

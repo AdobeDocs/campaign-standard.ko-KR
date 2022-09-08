@@ -6,20 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5357'
 ht-degree: 6%
 
 ---
 
 # 2018년 릴리스 정보{#release-notes}
-
-Adobe Campaign Standard의 특정 2018 릴리스를 찾고 계십니까?
-
-각 릴리스에는 새로운 기능과 패치가 제공됩니다. 릴리스를 클릭하여 콘텐츠를 봅니다.
-
-최신 항목 보기 [설명서 업데이트](../../rn/using/documentation-updates.md) Adobe Campaign Standard용. 최신 릴리스를 찾으려면 다음을 참조하십시오 [페이지](../../rn/using/release-notes.md).
 
 ## 릴리스 18.9 - 2018년 9월 {#release-18-9---september-2018}
 

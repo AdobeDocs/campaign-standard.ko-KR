@@ -4,16 +4,43 @@ description: 이 페이지에는 Adobe Campaign Standard의 2022년 릴리스가
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 97%
 
 ---
 
 # 2022년 릴리스 정보{#release-notes-2022}
 
-[릴리스 계획](../../rn/using/release-planning.md) | [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2020.md) | [사용되지 않는 기능](../../rn/using/deprecated-features.md)
+## 릴리스 22.2 - 2022년 6월 {#june-2022}
+
+**개선 사항**
+
+* **Adobe 알림 서비스** - Campaign에는 Adobe 알림 서비스가 포함되어 있습니다. 이 서비스는 Experience Cloud 전반에 걸쳐 사용자가 알아야 할 중요한 활동에 대해 Experience Cloud 솔루션이 경고합니다. 22.2 버전부터 사용자 경험을 개선했습니다. 알림의 우선 순위가 지정되고 제품에서 생성한 알림이 Adobe 상태 알림과 분리됩니다. 또한 알림이 특정 워크플로우를 참조하는 경우 이제 이메일이나 제품 내 알림을 통해 직접 해당 워크플로우에 액세스할 수 있습니다.  Adobe Campaign 알림에 대한 자세한 내용은 [Adobe Campaign 알림](../../administration/using/sending-internal-notifications.md)을 참조하세요.
+
+<!--
+* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+-->
+
+* **접근성** - Adobe는 애플리케이션의 전반적인 사용 편의성을 개선하기 위해 많은 접근성을 수정했습니다. 이러한 기능은 현재 얼리어답터 세트에만 활성화되며 향후 릴리스에서 모든 고객에게 롤아웃됩니다. 접근성 개선의 예는 다음과 같습니다.
+
+   * 각 화면에 집중 가능한 요소에 대해 눈에 보이는 포커스 표시기가 있는지 확인합니다.
+   * 보다 쉬운 탐색을 위해 페이지 랜드마크 만들기
+   * 여러 컨트롤에 대한 이름, 역할, 값, 상태 추가
+   * 기본 화면에서 동적 포커스 순서에서 발생하는 문제 해결
+
+
+**패치**
+
+* 중복 키 오류로 인해 청구 기술 워크플로우의 문제를 수정했습니다. (CAMP-51029)
+* 추적 보고서에서 누락된 Microsoft Edge 브라우저 카테고리를 추가했습니다. 이 분류는 이전에 Microsoft Edge가 열릴 때 분류되었습니다. (CAMP-51165)
+* 하위 테이블에서 데이터가 삭제되지 않는 GDPR 요청 문제를 수정했습니다. (CAMP-48276)
+* 트랜잭션 메시지 템플릿에서 조각의 가시성 조건이 저장되지 않는 이메일 디자이너 문제를 해결했습니다. (CAMP-50338)
+* 날짜 범위를 고려하지 않는 캠페인 보고서의 문제를 수정했습니다. (CAMP-50991)
+* 예약된 이메일이 실패하는 오류를 수정했습니다. 게재가 여전히 &#39;다시 시도 보류 중&#39; 상태에 있으므로 게재 분석을 시작할 수 없었습니다. (CAMP-50302)
+* 프로필 대체를 사용하여 이메일을 미리 볼 때 이메일 디자이너의 문제를 수정했습니다. (CAMP-49312)
+* 사용자 지정 열거형의 값이 비는 문제가 해결되었습니다. 텍스트 열거형이며 하나의 값만 포함하는 필드로 사용자 지정 리소스를 만들 때 이 값이 기본적으로 설정되므로 이 필드에 간단한 요청으로 쿼리를 만들 수 있습니다. (CAMP-50606)
 
 
 ## 릴리스 22.1 - 2022년 2월 {#feb-2022}

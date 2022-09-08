@@ -8,17 +8,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
-workflow-type: ht
-source-wordcount: '4587'
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+workflow-type: tm+mt
+source-wordcount: '4569'
 ht-degree: 100%
 
 ---
 
 # 2021년 릴리스 정보{#release-notes-2021}
-
-[릴리스 계획](../../rn/using/release-planning.md) | [Campaign 컨트롤 패널 릴리스](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko) | [설명서 업데이트](../../rn/using/documentation-updates.md) | [이전 릴리스 정보](../../rn/using/release-notes-2020.md) | [사용되지 않는 기능](../../rn/using/deprecated-features.md)
-
 
 ## 릴리스 21.3 - 2021년 9월 {#release-21-3---sept-2021}
 
