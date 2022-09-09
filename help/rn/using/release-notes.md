@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
+source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 31%
+source-wordcount: '116'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 31%
 ![컨트롤 패널](assets/do-not-localize/cp-icon.png) **새로운 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target=&quot;_blank&quot;}.
 
 
-## 릴리스 22.3 - 2022년 9월 {#sept-22}
+## 릴리스 22.3 - 2022년 가을/겨울 {#sept-22}
 
 ### 보안 업데이트{#rn-security}
 

@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 17baeabf1e01c58fe0ecbb03f9d4b45831fbaaf7
+source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 97%
+source-wordcount: '420'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 아래에 표시된 기간 동안 환경이 연속적으로 업데이트됩니다. 정확한 날짜는 각 고객에게 이메일로 전달됩니다.
 
-이 릴리스에 대한 자세한 내용은 [초기 릴리스 정보](e-release-notes.md)를 참조하세요.
+이 릴리스에 대한 자세한 내용은 [릴리스 노트](release-notes.md).
 
 <table>
  <thead>

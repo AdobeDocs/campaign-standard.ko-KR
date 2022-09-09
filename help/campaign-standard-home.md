@@ -6,8 +6,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 686626b3f544358fcede7abb1806d66565c5abbb
-workflow-type: ht
+source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-* **[Campaign 22.2 릴리스 정보 확인 가능](rn/using/release-notes.md)**<br/> Campaign Standard 22.2 릴리스의 새로운 기능, 개선 사항, 문제 해결 사항을 확인하세요.
+* **[Campaign 22.3 릴리스 정보 확인 가능](rn/using/release-notes.md)**<br/> Campaign Standard 22.2 릴리스의 새로운 기능, 개선 사항, 문제 해결 사항을 확인하세요.
 
 * **[Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ko)**<br/> iOS 15에 대한 Apple의 공지의 초기 지침을 찾습니다
 
