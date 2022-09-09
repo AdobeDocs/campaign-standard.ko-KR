@@ -5,16 +5,23 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
+source-git-commit: 5814bf107a252793911cd34c0dceed35ce58bf69
 workflow-type: tm+mt
-source-wordcount: '7221'
-ht-degree: 100%
+source-wordcount: '7251'
+ht-degree: 99%
 
 ---
 
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+## 릴리스 22.3 - 2022년 가을/겨울 {#release-22-3}
+
+Campaign Standard 22.3 가을/겨울 릴리스의 릴리스 노트가 게시되었습니다. [자세히 보기](release-notes.md)
+
+22.3 릴리스에 포함된 변경 사항을 반영하도록 데이터 유지 기간이 업데이트되었습니다. [자세히 보기](../../administration/using/data-retention.md)
+
 
 ## 릴리스 22.2 - 2022년 6월 {#release-22-2}
 
