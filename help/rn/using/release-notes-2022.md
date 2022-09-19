@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **접근성** - Adobe는 애플리케이션의 전반적인 사용 편의성을 개선하기 위해 많은 접근성을 수정했습니다. 이러한 기능은 현재 얼리어답터 세트에만 활성화되며 향후 릴리스에서 모든 고객에게 롤아웃됩니다. 접근성 개선의 예는 다음과 같습니다.
+* **접근성** - Adobe는 애플리케이션의 전반적인 사용 편의성을 개선하기 위해 많은 접근성을 수정했습니다. 이러한 기능은 현재 얼리어답터 세트에만 활성화되어 있으며 향후 릴리스에서 모든 고객에게 롤아웃될 예정입니다. 접근성 개선의 예는 다음과 같습니다.
 
    * 각 화면에 집중 가능한 요소에 대해 눈에 보이는 포커스 표시기가 있는지 확인합니다.
    * 보다 쉬운 탐색을 위해 페이지 랜드마크 만들기
