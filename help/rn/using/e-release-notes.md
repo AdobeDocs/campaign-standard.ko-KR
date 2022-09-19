@@ -8,16 +8,16 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 26%
+ht-degree: 100%
 
 ---
 
 
 # 초기 릴리스 정보 {#e-new-release}
 
-이 페이지에서는 다음 Campaign Standard 릴리스에 포함된 개선 사항 및 수정 사항에 대해 설명합니다.
+이 페이지에서는 다음 Campaign Standard 릴리스에 포함된 개선 사항 및 문제 해결에 대해 설명합니다.
 
 >[!CAUTION]
 >
