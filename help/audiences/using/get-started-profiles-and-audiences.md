@@ -1,6 +1,6 @@
 ---
 title: 프로필 및 대상자 시작
-description: 타겟팅된 모집단을 정의하고 대상을 선택하며 수신자를 필터링하고 데이터를 수집하며 프로필을 업데이트합니다.
+description: 타겟팅된 모집단을 정의하고 대상자를 선택하며 수신자를 필터링하고 데이터를 수집하며 프로필을 업데이트합니다.
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '604'
+ht-degree: 22%
 
 ---
 

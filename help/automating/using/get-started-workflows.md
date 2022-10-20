@@ -1,6 +1,6 @@
 ---
 title: 프로세스 및 데이터 관리 시작하기
-description: 작업 과정을 통해 프로세스를 자동화하고 데이터 및 고객을 관리하며 메시지 전송 등을 수행할 수 있습니다.
+description: 작업 과정을 통해 프로세스를 자동화하고 데이터 및 대상자를 관리하며 메시지 전송 등을 수행할 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
