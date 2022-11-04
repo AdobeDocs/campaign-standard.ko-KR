@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '538'
 ht-degree: 96%
 
 ---
@@ -43,9 +43,9 @@ SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유�
 
 1. SMS의 일반 속성을 입력합니다.
 
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
-
    ![](assets/sms_creation_2.png)
+
+   활동 레이블과 해당 ID 모두 인터페이스에는 표시되지만 메시지 수신자에게는 보이지 않습니다.
 
 1. 타겟팅할 대상자를 지정합니다. 기존 대상자를 선택하거나 규칙을 정의하고 결합하여 모집단을 직접 타겟팅할 수도 있습니다.
 

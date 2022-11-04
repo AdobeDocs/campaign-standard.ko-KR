@@ -9,7 +9,7 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 4%
@@ -45,8 +45,6 @@ Adobe Campaign을 사용하여 푸시 알림을 만드는 단계는 다음과 �
 1. 푸시 알림 속성을 입력하고 **[!UICONTROL Associate a Mobile App to a delivery]** 필드.
 
    드롭다운에 SDK V4 및 Experience Platform SDK 애플리케이션이 모두 표시됩니다.
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    ![](assets/push_notif_properties.png)
 

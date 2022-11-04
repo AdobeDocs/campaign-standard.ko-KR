@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '983'
 ht-degree: 96%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 96%
 
    ![](assets/workflow_creation_2.png)
 
-   **레이블** 필드에 이름을 입력하고 ID를 수정할 수 있습니다.
+   **레이블** 필드에 이름을 입력하고 ID를 수정할 수 있습니다. 활동 이름 및 해당 ID는 인터페이스에 표시되지만 메시지 수신자는 이를 볼 수 없습니다.
 
    >[!NOTE]
    >
