@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Adobe Campaign은 Adobe Experience Cloud 솔루션의 일부입니다. Campaign�
 
    >[!NOTE]
    >
-   >모든 Adobe 제품에 대해 Campaign은 앱 및 웹 사이트 사용자에 대한 정보를 수집합니다. 자세한 내용은 [Adobe 개인 정보 보호 정책](https://www.adobe.com/kr/privacy/policy.html)을 참조하십시오.
+   >모든 Adobe 제품에 대해 Campaign은 앱 및 웹 사이트 사용자에 대한 정보를 수집합니다. 자세한 내용은 [Adobe 개인정보 처리방침](https://www.adobe.com/kr/privacy/policy.html)을 참조하십시오.
 
 * **Adobe Experience Cloud을 정보를 수집하는 데 사용하는 방법**
 
