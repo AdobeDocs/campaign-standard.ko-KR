@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 19%
+source-wordcount: '574'
+ht-degree: 18%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 19%
    >
    >후속 및 A/B 테스트 템플릿은 기본적으로 숨겨져 있습니다. 왼쪽에 있는 상자를 선택합니다( **[!UICONTROL Filter]** 측면 패널)을 표시합니다.
 
-1. 전자 메일의 일반 속성을 입력합니다. 에 이름을 입력할 수 있습니다. **레이블** 필드를 편집하고 ID를 편집합니다. 활동 이름과 해당 ID가 모두 인터페이스에 표시되지만 메시지 수신자에게는 보이지 않습니다.
+1. 전자 메일의 일반 속성을 입력합니다. 에 이름을 입력할 수 있습니다. **레이블** 필드를 편집하고 ID를 편집합니다.
+
+   >[!NOTE]
+   >
+   >활동 이름과 해당 ID가 모두 인터페이스에 표시되지만 메시지 수신자에게는 보이지 않습니다.
+   >
+   >예를 들어 Adobe Analytics과 통합할 때 ID 필드에 공백이 들어 있지 않은지 확인하십시오.
 
    사용자가 캠페인 콘텐츠에서 볼 수 있는 설명을 추가할 수 있습니다.
 

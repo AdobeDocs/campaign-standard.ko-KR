@@ -8,7 +8,7 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 24%
@@ -28,6 +28,7 @@ ht-degree: 24%
    ![](assets/multi_create1.png)
 
 1. 표준 이메일과 마찬가지로 이메일의 일반 속성 및 타겟 대상자를 정의합니다. [대상자 만들기](../../audiences/using/creating-audiences.md) 섹션을 참조하십시오.
+
 1. 만들기 마법사의 네 번째 단계에서 변형 옵션을 정의합니다. 만약 [다국어 템플릿](../../channels/using/multilingual-messages-template.md) 이미 모든 올바른 매개 변수가 포함되어 있으므로 를 직접 클릭하면 됩니다 **[!UICONTROL Create]** 버튼을 클릭합니다.
 
    ![](assets/multi_create4.png)

@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 95%
+source-wordcount: '636'
+ht-degree: 88%
 
 ---
 
@@ -35,6 +35,12 @@ DM 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사
 1. 게재의 일반 속성을 입력합니다.
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >활동 이름과 해당 ID가 모두 인터페이스에 표시되지만 메시지 수신자에게는 보이지 않습니다.
+   >
+   >예를 들어 Adobe Analytics과 통합할 때 ID 필드에 공백이 들어 있지 않은지 확인하십시오.
 
 1. 추출 파일뿐만 아니라 테스트 및 트랩 프로필에도 포함할 대상자를 정의합니다. [DM 대상자 정의](../../channels/using/defining-the-direct-mail-audience.md)를 참조하십시오.
 
