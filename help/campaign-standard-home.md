@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
-workflow-type: ht
-source-wordcount: '254'
+source-git-commit: 7a5d317fb1ebef91a72da73aec387fa671ccf19a
+workflow-type: tm+mt
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-* **[Campaign 22.3 릴리스 정보 확인 가능](rn/using/release-notes.md)**<br/> Campaign Standard 22.2 릴리스의 새로운 기능, 개선 사항, 문제 해결 사항을 확인하세요.
-
-* **[Apple Mail Privacy Protection FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ko)**<br/> iOS 15에 대한 Apple의 공지의 초기 지침을 찾습니다
+* **[Campaign 22.3 릴리스 정보 확인 가능](rn/using/release-notes.md)**<br/> Campaign Standard 22.3 릴리스의 새로운 기능, 개선 사항, 문제 해결 사항을 확인하세요.
 
 * **[Campaign - RTCDP 통합](integrating/using/get-started-sources-destinations.md)**<br/> Campaign 및 RTCDP(Real-time Customer Data Platform) 간에 데이터를 공유하는 방법을 알아봅니다.
 

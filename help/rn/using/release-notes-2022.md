@@ -4,8 +4,9 @@ description: 이 페이지에는 Adobe Campaign Standard의 2022년 릴리스가
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: ht
+exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
+source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 100%
 
@@ -96,4 +97,3 @@ ht-degree: 100%
 * 대형 대상으로 작업할 때 발생하는 문제를 방지하기 위해 대상이 중복될 때 성능이 향상되었습니다. (CAMP-49639)
 * **쿼리** 활동에 사용할 때 사용자 지정 필터가 올바른 결과를 표시하지 않도록 하는 문제를 해결했습니다. (CAMP-49417)
 * 이름에 쉼표가 있는 게재에서 조각을 사용하려고 할 때 오류 메시지를 표시하는 오류를 해결했습니다. 문제가 해결되었으므로 이제 쉼표를 조각 이름에 사용할 수 있습니다. (CAMP-49216)
-
