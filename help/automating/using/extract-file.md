@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 86%
+source-wordcount: '438'
+ht-degree: 79%
 
 ---
 
@@ -73,6 +73,12 @@ ht-degree: 86%
 1. 내보낼 파일의 출력, 날짜 및 숫자 포맷을 구성하려면 **[!UICONTROL File structure]** 탭을 클릭합니다.
 
    열거형 값을 내보낼 경우 **[!UICONTROL Export labels instead of internal values of enumerations]** 옵션을 선택합니다. 이 옵션을 사용하면 ID 대신 이해하기 쉬운 짧은 레이블을 검색할 수 있습니다.
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >특정 인코딩을 사용하여 CSV 파일에 데이터를 추출하려면 먼저 &quot;텍스트&quot; 출력 형식을 선택합니다. 드롭다운 목록에서 원하는 인코딩을 선택한 다음 출력 형식을 &quot;CSV (Excel)&quot;로 변경합니다.
 
 1. 인바운드 전환이 비어 있는 경우 **[!UICONTROL Properties]** 탭에서 **[!UICONTROL Do not generate a file if the inbound transition is empty]** 옵션을 선택하여 SFTP 서버에 빈 파일을 만들고 업로드하지 못하도록 합니다.
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.
