@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 90%
 
 ---
 
@@ -23,20 +23,15 @@ ht-degree: 100%
 >
 > 이 콘텐츠는 단계 환경 업그레이드일까지 사전 통지 없이 변경될 수 있습니다. 자세한 내용은 [릴리스 계획 페이지](../../rn/using/release-planning.md)를 참조하세요.
 
-## 릴리스 22.3 - 2022년 가을/겨울 {#e-rn-2022}
+## 릴리스 22.3.2 {#dec-22}
 
-<!--
-### Improvement{#e-rn-improvements}
+### 보안 업데이트{#rn-security2}
 
+이 릴리스는 다음과 같은 보안 업그레이드와 함께 제공됩니다. Debian이 v11.0으로 업그레이드되었습니다.
 
-**Accessibility**
+## 릴리스 22.3 - 2022년 가을/겨울 {#sept-22}
 
-Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
-
-These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
--->
-
-### 보안 업데이트{#e-rn-security}
+### 보안 업데이트{#rn-security}
 
 이 릴리스는 다음과 같은 보안 업그레이드와 함께 제공됩니다. Apache Tomcat이 v7.0에서 v8.0으로 업그레이드되었습니다.
 
@@ -46,3 +41,4 @@ These capabilities are released in Limited Availability and rolled out to a set 
 * 전송 로그(nms:broadLogRcp)와 일치하지 않는 게재 대시보드의 게재 표시기에 대한 문제를 해결했습니다. (CAMP-51127)
 * ACS 커넥터(Prime Offer)에서 사용자 지정 리소스 확장을 할 수 없는 문제를 해결했습니다. (CAMP-51033)
 * 지연을 방지하기 위해 개인 정보 보호 요청 응답에 대한 게시 프로세스를 개선했습니다. (CAMP-50613)
+
