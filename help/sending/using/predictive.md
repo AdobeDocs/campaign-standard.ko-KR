@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 56%
@@ -20,6 +20,7 @@ ht-degree: 56%
 Adobe Campaign을 사용하면 고객 여정의 디자인과 게재를 최적화하여 각 개인의 참여 선호도를 예측할 수 있습니다. AI 및 시스템 학습을 기반으로 하는 Adobe Campaign의 전송 시간 최적화 및 예측 참여 점수 책정 은 참여 지표 기록을 기반으로 공개 비율, 최적의 전송 시간, 가능한 이탈률을 분석하고 예측합니다.
 
 >[!IMPORTANT]
+>
 >이 기능은 제품의 일부로 기본 제공되지 않습니다. 구현하려면 Adobe Consulting 서비스가 필요합니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 Adobe Campaign은 두 가지 새로운 기계 학습 모델을 제공합니다. **예측 전송 시간 최적화** 및 **예측 참여 점수 책정**. 이 두 가지 모델은 더 나은 고객 여정을 디자인하고 전달하는 데 특화된 기계 학습 모델입니다.
@@ -35,6 +36,7 @@ Adobe Campaign은 두 가지 새로운 기계 학습 모델을 제공합니다. 
 예측 전송 시간 최적화 모델 내에는 두 개의 하위 모델이 있습니다.
 
 * **열기에 대한 예측 전송 시간은 열기를 최대화하기 위해 고객에게 커뮤니케이션을 전송해야 하는 최적의 시간**
+
 * **클릭에 대한 예측 전송 시간은 클릭을 최대화하기 위해 고객에게 커뮤니케이션을 전송해야 하는 최적의 시간**
 
 **모델 입력**:게재 로그, 추적 로그 및 프로필 속성(PII 아님)
@@ -77,6 +79,7 @@ Adobe Campaign에 구현되면 기계 학습 기능은 최고의 열기/클릭 �
 ### 최적의 시기에 메시지 전송{#use-predictive-send-time}
 
 이메일이 프로필당 최적의 시간에 발송되도록 하려면 **[!UICONTROL Send at a custom date defined by a formula]** 옵션을 사용하여 게재를 예약해야 합니다 .
+
 [이 섹션](../../sending/using/computing-the-sending-date.md)에서 전송 날짜를 계산하는 방법을 알아봅니다.
 
 게재를 보낼 특정 날의 최적 시간으로 공식을 채워야 합니다.
@@ -86,7 +89,7 @@ Adobe Campaign에 구현되면 기계 학습 기능은 최고의 열기/클릭 �
 공식 예:
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
