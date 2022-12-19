@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
-workflow-type: ht
-source-wordcount: '1812'
+source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+workflow-type: tm+mt
+source-wordcount: '1814'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [게재 미리 보기](sending/using/previewing-messages.md)
       + [증명 보내기](sending/using/sending-proofs.md)
       + [타기팅된 프로필을 사용한 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
-      + [AI 기반 이메일](sending/using/predictive.md)
+      + [예측 사용자 참여 기능](sending/using/predictive.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
       + [컨트롤 그룹 추가](sending/using/control-group.md)
       + [트랩 사용](sending/using/using-traps.md)
