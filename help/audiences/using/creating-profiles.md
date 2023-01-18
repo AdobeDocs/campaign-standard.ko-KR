@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: e26d0d78126a7795f3341d4f07ee380605d83c77
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 87%
+source-wordcount: '393'
+ht-degree: 83%
 
 ---
 
@@ -50,6 +50,10 @@ Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수
    * 이름, 성, 성별, 생년월일, 사진, 선호 언어([다국어 이메일](../../channels/using/creating-a-multilingual-email.md)의 경우)와 같은 연락처 정보를 통해 게재를 개인화할 수 있습니다.
    * 프로필의 **[!UICONTROL Time zone]**&#x200B;을(를) 사용하여 해당 프로필의 시간대에 맞춰 게재를 보낼 수 있습니다. 자세한 정보는 이 [섹션](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)을 참조하십시오.
    * **[!UICONTROL Channels]** 카테고리에는 이메일 주소, 휴대전화 번호, 옵트아웃 정보가 있으며 프로필이 도달할 수 있는 채널을 알려줍니다.
+
+      >[!NOTE]
+      > 휴대폰 번호는 항상 국제 형식이어야 합니다(`+<country><number>`) 형식으로 채울 수 있습니다.
+
    * **[!UICONTROL No longer contact]** 카테고리는 프로필이 채널 구독을 취소하면 즉시 업데이트됩니다.
    * **[!UICONTROL Address]** 카테고리에는 우편 주소가 있으며, 프로필에 [DM](../../channels/using/about-direct-mail.md)을 보낼 수 있는 **[!UICONTROL Address specified]** 옵션도 선택되어 있어야 합니다. **[!UICONTROL Address specified]** 옵션이 선택되어 있지 않은 프로필은 모든 DM 게재에서 제외됩니다. 
    * 다음 **[!UICONTROL Access authorization]** 카테고리는 프로필의 조직 단위를 [권한 관리](../../administration/using/about-access-management.md). 프로필에 조직 필드를 추가하려면 [프로필 파티션 나누기](../../administration/using/organizational-units.md#partitioning-profiles) 섹션을 참조하십시오.
