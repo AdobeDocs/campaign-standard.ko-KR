@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8b450d6570ae26a32daab185621319dd1ac3e983
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Microsoft Dynamics 365와 Adobe Campaign Standard 통합에 대한 일반적인 
 
 통합을 사용하도록 여러 애플리케이션을 구성해야 하지만, 이 문서는 Dynamics 365 내에서 필요한 단계에 중점을 둡니다.
 
-## 필수 구성 요소
+## 전제 조건
 
 이 문서에서 사전 통합 설정을 수행하기 전에 이미 프로비저닝되었으며 조직의 Microsoft Dynamics 365 인스턴스에 대한 관리자 액세스 권한이 있는 것으로 간주됩니다.  이 문제가 발생하지 않은 경우 Microsoft 고객 지원에 연락하여 Dynamics 365 프로비저닝을 완료해야 합니다.
 
@@ -43,20 +43,18 @@ OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행�
 
 ### 새 애플리케이션 등록 {#register-a-new-app}
 
-1. 관리자 로그인 아래에서 portal.azure.com에 로그인합니다.
+1. 관리자 로그인 아래에서 [portal.azure.com](https://portal.azure.com){target="_blank"}.
 
 1. 클릭 **[!UICONTROL Azure Active Directory]** 왼쪽 메뉴에서 을 클릭한 다음 **[!UICONTROL App registrations]** 표시되는 하위 메뉴에서 를 클릭합니다.
 
 1. 클릭 **[!UICONTROL New registration]** 화면 상단에 있습니다.
-
-   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. 앱 등록 화면을 채웁니다.
 
    * 이름: adobe campaign `<stage or prod>`
    * 지원되는 계정 유형: **[!UICONTROL Accounts in this organizational directory only]** (기본값)
 
-새 응용 프로그램 만들기에 대한 자세한 내용은 [이 섹션](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+새 응용 프로그램 만들기에 대한 자세한 내용은 [이 섹션](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,8 +63,6 @@ OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행�
 ### 클라이언트 암호 생성 {#generate-a-client-secret}
 
 1. 앱 개요 화면의 왼쪽에 있는 하위 메뉴에서 를 클릭합니다 **[!UICONTROL Certificates and Secrets > New client secret]**
-
-   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. 설명을 입력하고 지속 시간을 설정한 다음 **[!UICONTROL OK]**.
 
@@ -81,13 +77,9 @@ OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행�
 
 1. 이 화면 또는 앱 개요 화면에서 를 클릭합니다. **[!UICONTROL API permissions]** 왼쪽 하위 메뉴에서 을 클릭합니다.  클릭 후 **[!UICONTROL Add a permission]**, 을(를) 선택해야 합니다. **[!UICONTROL Dynamics CRM]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
-
 1. 그런 다음 **[!UICONTROL user_impersonation]**&#x200B;를 클릭하고 를 클릭한 다음 **[!UICONTROL Add permissions]** 버튼을 클릭합니다.
 
-   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
-
-권한 설정에 대한 자세한 내용은 [이 섹션](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
+권한 설정에 대한 자세한 내용은 [이 섹션](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"}.
 
 ### 앱 사용자 만들기
 
@@ -109,7 +101,7 @@ OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행�
    * **[!UICONTROL Full Name]**: Adobe API `<stage or prod>`
    * **[!UICONTROL Email]**: 다음과 같음 **[!UICONTROL User Name]** (또는 원할 경우 관리자의 이메일)
 
-   앱 사용자 만들기에 대한 자세한 내용은 [이 섹션](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+   앱 사용자 만들기에 대한 자세한 내용은 [이 섹션](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
 1. 사용자 아이콘을 클릭하고 Adobe Campaign 아이콘을 업로드합니다. 새 Adobe 이벤트가 Dynamics 365에 표시될 때 타임라인 보기에 표시되는 아이콘입니다.
 
@@ -128,7 +120,8 @@ OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행�
 Dynamics 365 앱을 Campaign Standard 환경에 통합하려면 아래 단계를 수행하십시오.
 
 1. 다음 링크로 이동합니다. [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) 및 검색 _Dynamics 365용 Adobe Campaign_ 를 클릭합니다.
-또는 이 위치로 이동할 수 있습니다 [링크](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
+또는 이 위치로 이동할 수 있습니다 [링크](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
+{target="_blank"}.
 1. 지침에 따라 Dynamics 365 인스턴스용 앱을 설치합니다.
 1. 설치되면 Dynamics 365 인스턴스로 이동하고 관리자로 로그인합니다.
 1. 오른쪽 위 모서리에 있는 톱니바퀴 아이콘을 클릭하고 을 클릭합니다. **[!UICONTROL Advanced Settings]**. 위쪽 배너에서 옆에 있는 드롭다운을 클릭합니다. **[!UICONTROL Settings]**&#x200B;를 클릭하고 **[!UICONTROL Processes]** 아래에 **[!UICONTROL Process Center]**.
