@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 30%
+source-wordcount: '1365'
+ht-degree: 25%
 
 ---
 
@@ -77,7 +77,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!NOTE]
 >
->격리 수의 증가는 데이터베이스의 &quot;소모&quot;와 관련된 정상적인 현상입니다. 예를 들어 이메일 주소의 수명을 3년으로 보고 수신자 표가 매년 50%씩 증가할 경우, 격리 증가는 다음과 같이 계산할 수 있습니다. 첫 해가 끝나는 시점: (1*0.33)/(1+0.5)=22% 두 번째 해가 끝나는 시점: ((1.22*0.33)+0.33)/(1.5+0.75)=32.5% 
+>격리 수의 증가는 데이터베이스의 &quot;소모&quot;와 관련된 정상적인 현상입니다. 예를 들어 이메일 주소의 수명을 3년으로 보고 수신자 표가 매년 50%씩 증가할 경우, 격리 증가는 다음과 같이 계산할 수 있습니다. 1년말: (1)&#42;0.33)/(1+0.5)=22%. 2년 말: (1.22)&#42;0.33)+0.33)/(1.5+0.75)=32.5%.
 
 필터를 사용하여 목록을 탐색할 수 있습니다. 주소, 상태 및/또는 채널을 필터링할 수 있습니다.
 
@@ -97,24 +97,14 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ![](assets/quarantines-create-last-delivery.png)
 
-### 격리된 주소 제거 {#removing-a-quarantined-address}
+## 격리된 주소 제거 {#removing-a-quarantined-address}
 
-필요한 경우 격리 목록에서 주소를 수동으로 제거할 수 있습니다. 또한 특정 조건과 일치하는 주소는 격리 목록에서 **[!UICONTROL Database cleanup]** 워크플로우. (기술 워크플로우에 대한 자세한 내용은 [이 섹션](../../administration/using/technical-workflows.md#list-of-technical-workflows))
 
-격리 목록에서 주소를 수동으로 제거하려면 아래 작업 중 하나를 수행합니다.
 
->[!IMPORTANT]
-격리 시 이메일 주소를 수동으로 삭제하는 것은 이 주소로 다시 배달하기 시작함을 의미합니다. 따라서 게재 능력과 IP 평판에 심각한 영향을 줄 수 있으므로 IP 주소 또는 전송 도메인이 차단될 수 있습니다. 격리된 주소 제거를 고려할 때 추가 주의가 필요합니다. 확실하지 않은 경우 게재 가능성 전문가에게 문의하십시오.
 
-* 에서 주소를 선택합니다 **[!UICONTROL Administration > Channels > Quarantines > Addresses]** 목록 및 선택 **[!UICONTROL Delete element]**.
+### 자동 업데이트 {#unquarantine-auto}
 
-   ![](assets/quarantine-delete-address.png)
-
-* 주소를 선택하고 주소 변경 **[!UICONTROL Status]** to **[!UICONTROL Valid]**.
-
-   ![](assets/quarantine-valid-status.png)
-
-   상태를 **[!UICONTROL On allowlist]**. 이 경우 주소는 격리 목록에 남아 있지만 오류가 발생하는 경우에도 체계적으로 타겟팅됩니다.
+특정 조건과 일치하는 주소는 데이터베이스 정리 워크플로우에 의해 격리 목록에서 자동으로 삭제됩니다. 기술 워크플로우에 대한 자세한 내용은 [이 섹션](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 다음과 같은 경우 주소가 격리 목록에서 자동으로 제거됩니다.
 
@@ -124,10 +114,43 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 그러면 상태가 **[!UICONTROL Valid]**.
 
->[!IMPORTANT]
-주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL On denylist]** 상태는 이메일을 수신하더라도 자동으로 제거되지 않습니다.
-
 다음 경우에 수행할 최대 다시 시도 횟수입니다 **[!UICONTROL Erroneous]** 상태 및 다시 시도 사이의 최소 지연은 IP가 과거 및 현재 지정된 도메인에서 얼마나 성과가 있는지 기준으로 합니다.
+
+
+>[!IMPORTANT]
+>
+>주소가 있는 수신자 **[!UICONTROL Quarantine]** 또는 **[!UICONTROL Denylisted]** 상태는 이메일을 수신하더라도 제거되지 않습니다.
+
+
+### 수동 업데이트 {#unquarantine-manual}
+
+주소를 수동으로 격리 해제할 수도 있습니다.  격리 목록에서 주소를 수동으로 제거하려면 격리 목록에서 주소를 제거하거나 상태를 로 변경할 수 있습니다 **[!UICONTROL Valid]**.
+
+* 에서 주소를 선택합니다 **[!UICONTROL Administration > Channels > Quarantines > Addresses]** 목록 및 선택 **[!UICONTROL Delete element]**.
+
+   ![](assets/quarantine-delete-address.png)
+
+* 주소를 선택하고 주소 변경 **[!UICONTROL Status]** to **[!UICONTROL Valid]**.
+
+   ![](assets/quarantine-valid-status.png)
+
+
+### 벌크 업데이트 {#unquarantine-bulk}
+
+예를 들어 ISP 중단이 발생하는 경우 격리 목록에서 벌크 업데이트를 수행해야 할 수 있습니다. 이러한 경우 이메일은 수신자에게 성공적으로 배달될 수 없기 때문에 바운스로 잘못 표시됩니다. 이러한 주소는 격리 목록에서 제거해야 합니다.
+
+이렇게 하려면 워크플로우를 만들고 **[!UICONTROL Query]** 격리 테이블의 활동에서 영향을 받은 모든 수신자를 필터링합니다. 식별되면 격리 목록에서 제거할 수 있으며 향후 Campaign 이메일 게재에 포함할 수 있습니다.
+
+사고 기간에 따라 이 쿼리에 대한 권장 지침은 아래에 나와 있습니다.
+
+* **오류 텍스트(격리 텍스트)** 및 &quot;550-5.1.1&quot;을 포함합니다. **오류 텍스트(격리 텍스트)** contains &quot;support.ISP.com&quot;
+
+   여기서 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;(예:
+
+* **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 다음:MM:SS AM
+* **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 그 전:MM:SS PM
+
+영향을 받는 수신자 목록이 있으면 을(를) 추가합니다 **[!UICONTROL Update data]** 활동을 통해 이메일 주소 상태를 **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다 **[!UICONTROL Database cleanup]** 워크플로우. 격리 테이블에서 삭제할 수도 있습니다.
 
 ## 주소를 격리하는 조건 {#conditions-for-sending-an-address-to-quarantine}
 
@@ -145,7 +168,8 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 사용자가 이메일을 스팸 처리하면([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)). 메시지는 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL On denylist]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은에 차단 목록 없습니다. 따라서 사용자는 계속해서 SMS 메시지와 푸시 알림을 수신합니다.
 
 >[!NOTE]
-Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
+>
+>Adobe Campaign의 격리는 대소문자를 구분합니다. 이메일 주소를 소문자로 가져와야 이후에 다시 타겟팅되지 않습니다.
 
 격리된 주소 목록([플랫폼 전체에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-the-entire-platform) 참조)의 **[!UICONTROL Error reason]** 필드에 선택한 주소가 격리된 이유가 표시됩니다.
 
