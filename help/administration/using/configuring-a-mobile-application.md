@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1260'
 ht-degree: 4%
 
 ---
@@ -50,9 +50,7 @@ Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지�
 
 1. 데이터 수집 UI에서 **[!UICONTROL Extensions]** 탭으로 이동합니다. **[!UICONTROL Catalog]**, 및 을 검색합니다. **[!UICONTROL Adobe Campaign Standard]** 확장. 자세한 내용은 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-1. Campaign Standard에서 위치 사용 사례를 지원하려면 **[!UICONTROL Places]** 확장 및 **[!UICONTROL Places Monitor]** 확장.
-   * 설치 **[!UICONTROL Places]** 확장)을 클릭하여 제품에서 사용할 수 있습니다. 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * 설치 **[!UICONTROL Places Monitor]** 확장)을 클릭하여 제품에서 사용할 수 있습니다. 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+1. Campaign Standard에서 위치 사용 사례를 지원하려면 **[!UICONTROL Places]** 확장)을 클릭하여 제품에서 사용할 수 있습니다. 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. Adobe Campaign Standard에서 데이터 수집 UI에서 만든 모바일 속성을 구성합니다. 을(를) 참조하십시오. [Adobe Campaign에서 Adobe Experience Platform Launch 애플리케이션 설정](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
