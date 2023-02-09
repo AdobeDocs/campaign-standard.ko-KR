@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 93%
+source-wordcount: '768'
+ht-degree: 92%
 
 ---
 
@@ -105,4 +105,4 @@ ht-degree: 93%
 >
 >이 게시는 **[!UICONTROL profilesAndServicesExt]** API를 업데이트합니다. **[!UICONTROL profilesAndServices]** API는 업데이트되지 않습니다.
 
-Adobe Campaign API에 대한 자세한 내용은 [Adobe IO](https://docs.campaign.adobe.com/doc/standard/en/adobeio.html)에 대한 전용 Adobe Campaign 설명서를 참조하십시오.
+Adobe Campaign Standard API에 대한 자세한 내용은 [이 섹션](../../api/using/get-started-apis.md).

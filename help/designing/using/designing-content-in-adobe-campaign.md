@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1239'
 ht-degree: 88%
 
 ---
@@ -119,7 +119,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 
 * 레퍼러 메타 태그는 이메일 디자이너에서 지원되지 않습니다.
 
-메시지에 대한 자세한 디자인 및 일반 모범 사례는 다음 Adobe Campaign 단계별 가이드를 참조하십시오. [Adobe Campaign을 통한 게재 모범 사례](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=ko)
+메시지에 대한 자세한 디자인 및 일반 모범 사례는 다음 Adobe Campaign 단계별 가이드를 참조하십시오. [Adobe Campaign을 통한 게재 모범 사례](../../sending/using/delivery-best-practices.md)
 
 ### 조각 업데이트 {#email-designer-updates}
 

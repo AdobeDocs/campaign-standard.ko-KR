@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4562'
 ht-degree: 8%
 
 ---
@@ -392,7 +392,7 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> Dreamweaver 통합(Labs)<br /> </td> 
-   <td> 이제 Adobe Campaign과 Dreamweaver 통합을 통해 Adobe 솔루션으로 이메일 캠페인을 만드는 통합 프로세스를 사용할 수 있습니다.<br /> Dreamweaver에서 Adobe Campaign 이메일을 편집하고 두 솔루션 간에 콘텐츠를 원활하게 동기화할 수 있습니다.<br /> 초기 릴리스의 경우 통합은 "Labs" 기능으로 사용할 수 있으며 Dreamweaver 사전 릴리스 베타에서만 작동합니다. 이 기능을 활성화하려면 AC-DW-integration@adobe.com에 문의하십시오 .<br /> 자세한 내용은 다음을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">비디오</a>.<br /> </td> 
+   <td> 이제 Adobe Campaign과 Dreamweaver 통합을 통해 Adobe 솔루션으로 이메일 캠페인을 만드는 통합 프로세스를 사용할 수 있습니다.<br /> Dreamweaver에서 Adobe Campaign 이메일을 편집하고 두 솔루션 간에 콘텐츠를 원활하게 동기화할 수 있습니다.<br /> 초기 릴리스의 경우 통합은 "Labs" 기능으로 사용할 수 있으며 Dreamweaver 사전 릴리스 베타에서만 작동합니다. 이 기능을 활성화하려면 AC-DW-integration@adobe.com에 문의하십시오 .<br /> 자세한 내용은 다음을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ko">비디오</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 수동 전송 시간 최적화<br /> </td> 
@@ -489,9 +489,9 @@ _워크플로우_
   </tr> 
   <tr> 
    <td> 트랜잭션 메시지 API<br /> </td> 
-   <td> 이제 다음을 통해 트랜잭션 메시지 API를 사용할 수 있습니다. <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>를 사용하면 다음과 같이 쉽게 사용하고 모니터링할 수 있습니다.<br /> 
+   <td> 이제 트랜잭션 메시지 API를 사용할 수 있으므로 다음을 보다 쉽게 사용하고 모니터링할 수 있습니다.<br /> 
     <ul> 
-     <li> adobe.io 플랫폼 보고 및 모니터링 기능을 활용할 수 있습니다. </li> 
+     <li> Adobe Developer 플랫폼 보고 및 모니터링 기능을 활용할 수 있습니다. </li> 
      <li> 이제 IP 허용 목록에 추가 대신 adobe.io 토큰 기반 인증을 사용하여 인증이 수행되므로 보안 프로세스가 단순화됩니다. </li> 
      <li> 이제 모든 API는 단일 플랫폼에 통합되므로, 프로필 및 서비스 API를 이미 지원하는 경우 통합에 트랜잭션 메시지 기능을 추가하는 작업이 훨씬 간편합니다. </li> 
     </ul> </td> 

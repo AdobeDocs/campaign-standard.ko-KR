@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5357'
+source-wordcount: '5355'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> 모바일 앱을 위한 Launch 통합(베타)<br /> </td> 
-   <td> Adobe Campaign과 Launch 통합을 사용하면 이제 Mobile SDK V5를 사용하여 Campaign에서 모바일 앱 속성 활성화 프로세스를 간편하게 자동화할 수 있습니다.<br /> 자세한 내용은 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> Adobe Campaign과 Launch 통합을 사용하면 이제 Mobile SDK V5를 사용하여 Campaign에서 모바일 앱 속성 활성화 프로세스를 간편하게 자동화할 수 있습니다.<br /> 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,7 +195,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> GDPR: 핵심 서비스 통합<br /> </td> 
-   <td> 개인 정보 보호 핵심 서비스 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 GDPR 요청을 자동화할 수 있습니다. <br /> 개인 정보 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 GDPR 요청은 이제 Campaign에서 자동으로 처리됩니다. <br /> 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko#getting-started">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 개인 정보 보호 핵심 서비스 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 GDPR 요청을 자동화할 수 있습니다. <br /> 개인 정보 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 GDPR 요청은 이제 Campaign에서 자동으로 처리됩니다. <br /> 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 푸시 개선 사항 - 자세한 게재 피드백<br /> </td> 
@@ -297,7 +297,7 @@ _사용자 정의 리소스_
     <ul> 
      <li> 액세스 권한: 데이터 주체는 Adobe Campaign에 저장된 데이터를 포함하여 데이터 통제자가 캡처하는 개인 데이터의 사본을 받을 수 있도록 허용합니다. </li> 
      <li> 삭제 권한: 데이터 주체는 데이터 통제자가 개인 데이터를 캡처하여 삭제하도록 할 수 있으며, 이는 잠재적으로 Adobe Campaign에 저장된 데이터를 포함할 수 있습니다. </li> 
-    </ul> 자세한 내용은 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">세부 설명서</a>를 참조하세요.<br /> </td> 
+    </ul> 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 이메일 크리에이티브 디자이너(베타)<br /> </td> 

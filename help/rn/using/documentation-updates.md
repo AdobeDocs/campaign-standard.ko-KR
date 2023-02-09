@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bfa34136950218d2fd56870247d39be00c725427
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '7279'
+source-wordcount: '7229'
 ht-degree: 100%
 
 ---
@@ -422,7 +422,7 @@ Microsoft Dynamics 365 통합(GA) - [자세한 내용](../../integrating/using/d
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-Adobe Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Adobe Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
 GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
 
@@ -504,7 +504,7 @@ Adobe Campaign Standard에서 사용자를 만드는 방법을 자세히 설명�
 
 워크플로우 모범 사례에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../automating/using/best-practices-workflows.md)
 
-Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
 사용자 정의 리소스 설명서에 경고를 추가했습니다. 사용자 정의 리소스 ID에는 최대 30자를 사용하는 것이 좋습니다. 이는 사용자 정의 리소스 필드, 키, 색인 및 링크에도 적용됩니다. [자세한 내용](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -516,7 +516,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트�
 
 매개 변수가 있는 워크플로우를 호출할 때 합계 기간이 없는 반복 게재의 사용에 대한 추천 사항이 추가되었습니다. [자세한 내용](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
 사용자 정의 리소스 설명서에 경고를 추가했습니다. 사용자 정의 리소스 ID에는 최대 30자를 사용하는 것이 좋습니다. 이는 사용자 정의 리소스 필드, 키, 색인 및 링크에도 적용됩니다. [자세한 내용](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -624,7 +624,7 @@ Adobe Campaign Standard 푸시 알림에서 이미지를 표시하는 방법에 
 
 푸시 추적 구현에 대한 새로운 기술 정보를 추가했습니다. [자세한 내용](../../administration/using/push-tracking.md)
 
-Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
 트리거 - Campaign 통합 설명서를 업데이트했습니다. [자세한 내용](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -748,7 +748,7 @@ API 설명서에 **사용자 정의 필터**&#x200B;와 관련된 섹션을 추�
 
 **릴리스에 포함된 새로운 기능**
 
-GDPR: 핵심 서비스 통합 - [자세한 내용](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko#getting-started)
+GDPR: 핵심 서비스 통합 - [자세한 내용](../../start/using/privacy-management.md)
 
 푸시 개선 사항 - 자세한 게재 피드백 - [자세한 내용](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -782,7 +782,7 @@ Adobe 호스팅 SFTP 서버 사용에 대한 모범 사례를 알아봅니다. [
 
 **릴리스에 포함된 새로운 기능**
 
-유럽연합 일반 데이터 보호 규칙(GDPR) - [자세한 내용](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ko#getting-started)
+유럽연합 일반 데이터 보호 규칙(GDPR) - [자세한 내용](../../start/using/privacy.md)
 
 이메일 크리에이티브 디자이너 - [자세한 내용](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -822,7 +822,7 @@ Campaign Standard 제품 내 상황별 도움말을 업데이트했습니다.
 
 Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니다! 책갈피를 확인해 주세요! [자세한 내용](../../integrating/using/get-started-campaign-integrations.md)
 
-이제 SQL 구조에서 데이터 모델 v1을 기본 제공 리소스에 사용할 수 있습니다. - [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/datamodel/datamodel-audience.html?lang=ko)
+이제 SQL 구조에서 데이터 모델 v1을 기본 제공 리소스에 사용할 수 있습니다. - [자세한 내용](../../developing/using/datamodel-introduction.md)
 
 게재에서 메시지를 준비하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../sending/using/preparing-the-send.md)
 
@@ -950,7 +950,7 @@ S3 계정 추천 사항을 추가했습니다. [자세한 내용](../../administ
 
 [게재 경고](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) 설명서에 문제 해결 섹션을 업데이트했습니다. 이 섹션에서는 경고를 받았을 때 수행할 수 있는 작업에 대한 몇 가지 팁을 제공합니다.
 
-새로운 시작 안내서를 사용할 수 있습니다. 이 안내서에는 게재 만들기와 타겟팅에서부터 보내기와 모니터링까지 Adobe Campaign에서 사용할 수 있는 모범 사례가 몇 가지 나와 있습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=ko)
+새로운 시작 안내서를 사용할 수 있습니다. 이 안내서에는 게재 만들기와 타겟팅에서부터 보내기와 모니터링까지 Adobe Campaign에서 사용할 수 있는 모범 사례가 몇 가지 나와 있습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
 후속 메시지 설명서에 개선된 사용 사례를 업데이트했습니다. [자세한 내용](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 

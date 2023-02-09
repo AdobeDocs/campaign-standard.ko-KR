@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 통합을 위해 Adobe IO 구성
-description: Microsoft Dynamics 365 통합을 위해 Adobe IO를 구성하는 방법을 알아봅니다.
+title: Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성
+description: Microsoft Dynamics 365 통합을 위해 Adobe Developer을 구성하는 방법 알아보기
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -8,14 +8,14 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# Microsoft Dynamics 365 통합을 위한 Adobe Campaign Standard 및 Adobe I/O 구성
+# Microsoft Dynamics 365 통합을 위한 Adobe Campaign Standard 및 Adobe Developer 구성
 
 이 문서에서는 통합 애플리케이션에 데이터에 대한 액세스 권한을 부여하도록 Adobe Campaign Standard 및 Adobe I/O을 구성하는 방법에 대해 설명합니다.
 
@@ -43,13 +43,13 @@ Adobe I/O을 사용하면 Adobe Campaign Standard과 기타 Adobe 제품에 대�
 
 ### 구성
 
-새 Adobe IO 프로젝트를 생성하고 통합하도록 구성해야 합니다.
+새 Adobe Developer 프로젝트를 만들고 통합을 위해 구성해야 합니다.
 
 #### 새 프로젝트 만들기
 
 이를 수행하려면 아래 절차를 따르십시오.
 
-1. 다음으로 이동 [Adobe IO 콘솔](https://console.adobe.io/home#) 화면 오른쪽 상단의 드롭다운 메뉴에서 Adobe 조직 ID를 선택합니다.
+1. 다음으로 이동 [Adobe Developer 콘솔](https://console.adobe.io/home#) 화면 오른쪽 상단의 드롭다운 메뉴에서 Adobe 조직 ID를 선택합니다.
 
 1. 그런 다음 **[!UICONTROL Create new project]** 아래에 **[!UICONTROL Quick Start]**.
 
@@ -63,13 +63,13 @@ Adobe I/O을 사용하면 Adobe Campaign Standard과 기타 Adobe 제품에 대�
 
    ![](assets/adobeIO3.png)
 
-1. 다음 화면에서는 개인 공개 키를 업로드하거나 Adobe IO에서 자동으로 키 쌍을 생성하도록 선택할 수 있습니다. 이러한 지침은 후자의 옵션을 따릅니다. Adobe IO에서 키 쌍을 생성하도록 하려면 옵션 1; 그런 다음 **[!UICONTROL Generate keypair]** 버튼을 클릭합니다.
+1. 다음 화면에서는 개인 공개 키를 업로드하거나 Adobe Developer에서 키 쌍을 생성하도록 선택할 수 있습니다. 이러한 지침은 후자의 옵션을 따릅니다. Adobe Developer에서 키 쌍을 생성하도록 하려면 옵션 1; 그런 다음 **[!UICONTROL Generate keypair]** 버튼을 클릭합니다.
 
    ![](assets/adobeIO4.png)
 
 1. 다음 화면에서 키 쌍 zip 파일의 다운로드 위치에 이름을 지정하고 선택하라는 메시지가 표시됩니다.
 
-다운로드되면 파일의 압축을 해제하여 공개 및 개인 키를 표시할 수 있습니다. Adobe IO가 이미 Adobe IO 프로젝트에 공개 키를 적용했습니다. 개인 키는 나중에 보관해야 합니다. 개인 키는 통합 도구의 통합 전 설정 중에 사용됩니다.
+다운로드되면 파일의 압축을 해제하여 공개 및 개인 키를 표시할 수 있습니다. Adobe Developer이 이미 Adobe Developer 프로젝트에 공개 키를 적용했습니다. 개인 키는 나중에 보관해야 합니다. 개인 키는 통합 도구의 통합 전 설정 중에 사용됩니다.
 
 1. 클릭 **[!UICONTROL Next]** 계속
 
@@ -83,7 +83,7 @@ Adobe I/O을 사용하면 Adobe Campaign Standard과 기타 Adobe 제품에 대�
 
    ![](assets/adobeIO6.png)
 
-1. 다음 화면에서는 새 Adobe IO 프로젝트의 세부 사항이 표시됩니다. 클릭 **[!UICONTROL Add to Project]** 화면 왼쪽 상단에서 을(를) 선택하고 을(를) 선택합니다. **API** 드롭다운
+1. 다음 화면에는 새 Adobe Developer 프로젝트에 대한 세부 사항이 표시됩니다. 클릭 **[!UICONTROL Add to Project]** 화면 왼쪽 상단에서 을(를) 선택하고 을(를) 선택합니다. **API** 드롭다운
 
    ![](assets/adobeIO7.png)
 
@@ -101,10 +101,10 @@ Adobe I/O을 사용하면 Adobe Campaign Standard과 기타 Adobe 제품에 대�
 
 **관련 항목**
 
-* [Microsoft Dynamics 365 통합을 위한 Adobe IO 구성](../../integrating/using/d365-acs-configure-adobe-io.md) 는 통합을 설정하는 다음 단계입니다
+* [Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성](../../integrating/using/d365-acs-configure-adobe-io.md) 는 통합을 설정하는 다음 단계입니다
 * [통합 셀프 서비스 애플리케이션 개요](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 통합을 실행 및 작동시키기 위한 전체 단계 목록이 포함되어 있습니다.
 
 
-* [Adobe IO - 서비스 계정 통합](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe Developer - 서비스 계정 통합](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API 액세스 설정](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Dynamics 365 통합](../../integrating/using/d365-acs-configure-d365.md)

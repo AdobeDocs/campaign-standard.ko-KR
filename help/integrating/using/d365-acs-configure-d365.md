@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: 8b450d6570ae26a32daab185621319dd1ac3e983
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 1%
@@ -136,5 +136,5 @@ Dynamics 365 앱을 Campaign Standard 환경에 통합하려면 아래 단계를
 
 **관련 항목**
 
-* [Microsoft Dynamics 365 통합을 위한 Adobe IO 구성](../../integrating/using/d365-acs-configure-adobe-io.md) 는 통합을 설정하는 다음 단계입니다
+* [Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성](../../integrating/using/d365-acs-configure-adobe-io.md) 는 통합을 설정하는 다음 단계입니다
 * [셀프서비스 통합 앱 시작](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 통합을 실행 및 작동시키기 위한 전체 단계 목록이 포함되어 있습니다.
