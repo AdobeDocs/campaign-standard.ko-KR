@@ -4,16 +4,14 @@ description: ISP 중단 후 반송 조건을 업데이트하는 방법을 알아
 audience: delivery
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '425'
 ht-degree: 4%
 
 ---
 
 # ISP 중단 후 바운스 자격 업데이트 {#update-bounce-qualification.md}
-
-최신 버전의 Campaign을 실행하지 않는 경우 이 섹션이 적용될 수 있습니다. Adobe Campaign 담당자에게 문의하십시오.
 
 ## 컨텍스트
 

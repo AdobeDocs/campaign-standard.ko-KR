@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 99%
+source-wordcount: '1814'
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,6 @@ ht-degree: 99%
       + [게재 실패 시 경고 받기](sending/using/receiving-alerts-when-failures-happen.md)
       + [게재 실패 이해](sending/using/understanding-delivery-failures.md)
       + [격리 관리 이해](sending/using/understanding-quarantine-management.md)
-      + [Italia Online 중단 후 잘못된 하드 바운스 업데이트](sending/using/update-bounce-it.md)
    + 게재 기능 관리 {#managing-deliverability}
       + [게재 기능 기본 정보](sending/using/about-deliverability.md)
       + [이메일 콘텐츠 제어](sending/using/control-email-content.md)
