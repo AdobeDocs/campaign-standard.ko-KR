@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7229'
 ht-degree: 100%
 
@@ -416,7 +416,7 @@ API 설명서 세트를 Campaign Standard 설명서에 통합했습니다.[자�
 
 **릴리스에 포함된 새로운 기능**
 
-캘리포니아 소비자 개인 정보 보호법(California Consumer Privacy Act, CCPA) - [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ccpa)
+캘리포니아 소비자 개인 정보 보호법(California Consumer Privacy Act, CCPA) - [자세한 내용](https://helpx.adobe.com/content/help/ko/campaign/kb/acs-privacy.html#ccpa)
 
 Microsoft Dynamics 365 통합(GA) - [자세한 내용](../../integrating/using/d365-acs-get-started.md)
 
@@ -424,7 +424,7 @@ Microsoft Dynamics 365 통합(GA) - [자세한 내용](../../integrating/using/d
 
 Adobe Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
-GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy.html)
+GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세한 내용](https://helpx.adobe.com/content/help/ko/campaign/kb/campaign-privacy.html)
 
 트랜잭션 메시지 게시 프로세스를 설명하는 새로운 차트를 추가했습니다. [자세한 내용](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
 
