@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 90%
+source-wordcount: '1591'
+ht-degree: 89%
 
 ---
 
@@ -20,6 +20,10 @@ SMS 메시지를 전송하려면 관리자가 **[!UICONTROL Administration]** > 
 외부 계정을 만들고 수정하는 단계는 [외부 계정](../../administration/using/external-accounts.md) 섹션에 자세히 설명되어 있습니다. 아래에 외부 계정에서 SMS 메시지를 보낼 때 사용할 수 있는 매개 변수가 나와 있습니다.
 
 ## SMS 라우팅 정의 {#defining-an-sms-routing}
+
+>[!IMPORTANT]
+>
+>여러 외부 SMS 계정에 대해 동일한 계정과 암호를 사용하면 계정 간에 충돌과 겹칠 수 있습니다. 자세한 내용은 [SMS 문제 해결 페이지](troubleshooting-sms.md#external-account-conflict).
 
 외부 계정 **[!UICONTROL SMS routing via SMPP]**&#x200B;은(는) 기본적으로 제공되지만, 다른 계정을 추가하는 것이 유용할 수 있습니다.
 
