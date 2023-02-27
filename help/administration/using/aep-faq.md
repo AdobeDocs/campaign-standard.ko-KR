@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 4%
+source-wordcount: '910'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Experience Platform SDK 및 Campaign Standard 통합에 대한 자세한 �
 
 예, [!DNL Adobe Experience Platform SDK] Adobe Campaign Standard과 Adobe Campaign Classic 모두에서 통합을 사용할 수 있습니다. 해당 **[!UICONTROL Extension]** 사용 [!DNL Data Collection UI] 통합을 사용하도록 설정합니다.
 
-자세한 정보는 이 [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)를 참조하십시오.
+자세한 내용은 다음을 참조하십시오 [페이지]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Adobe Experience Platform SDK 통합은 Adobe Campaign에서 어떤 기능을 용이하게 합니까? {#aep-capabilities}
 
@@ -65,16 +65,16 @@ Adobe Experience Platform SDK 및 Campaign Standard 통합에 대한 자세한 �
 1. 구성 **[!UICONTROL Mobile property]** in [!DNL Launch].
 1. Adobe Campaign Standard 확장을 설치합니다. Adobe Campaign Standard 확장 프로그램에는 **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** 및 **[!UICONTROL Lifecycle]** 기본적으로 설치되는 확장 [!DNL Launch].
    * 사용자는 의 세션 시간 초과를 구성해야 합니다. **[!UICONTROL Mobile Core]** 라이프사이클 이벤트의 빈도에 영향을 주는 확장입니다.
-   * 확장이 구성되면 사용자는 iOS용 Cocoapods 및 Android용 Gradle을 사용하여 모바일 앱에 적절한 종속성을 추가해야 합니다. 다음 지침을 따르십시오 [여기](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+   * 확장이 구성되면 사용자는 iOS용 Cocoapods 및 Android용 Gradle을 사용하여 모바일 앱에 적절한 종속성을 추가해야 합니다. 다음 지침을 따르십시오 [여기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
    * 항상 최신 버전의 라이브러리를 사용합니다.
-   * 모바일 앱에서 등록 **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** 및 **[!UICONTROL Signal]** 확장. 다음 지침을 따르십시오 [여기](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
+   * 모바일 앱에서 등록 **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** 및 **[!UICONTROL Signal]** 확장. 다음 지침을 따르십시오 [여기](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
    * 확장이 등록되면 ACPCore를 시작합니다. Android의 경우 setApplication onCreate() 를 사용해야 합니다. Launch에서 모바일 속성에 대한 모바일 설치 지침에 제공된 정확한 지침을 따르십시오.
-   * 다음 SDK API도 필요합니다. 설명된 대로 라이프사이클 시작 및 일시 중지 API를 구현합니다 [여기](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) Android 및 iOS용 여기에서 사용할 수 있습니다.
+   * 다음 SDK API도 필요합니다. 설명된 대로 라이프사이클 시작 및 일시 중지 API를 구현합니다 [여기](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) Android 및 iOS용 여기에서 사용할 수 있습니다.
 1. 구성 **[!UICONTROL Mobile Property]** Adobe Campaign Standard. 다음 절차를 따르십시오 [여기](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Campaign에서 모바일 프로필을 보강하기 위해 어떻게 해야 합니까? {#enrich-mobile-profile}
 
-CollectPII 포스트백을 구성해야 합니다(다음 참조) [페이지](../../administration/using/configuring-rules-launch.md#pii-postback)) 및 SDK에서 CollectPII API를 구현합니다(참조) [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+CollectPII 포스트백을 구성해야 합니다(다음 참조) [페이지](../../administration/using/configuring-rules-launch.md#pii-postback)) 및 SDK에서 CollectPII API를 구현합니다(참조) [페이지](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)).
 
 ## CollectPII 호출이 얼마나 자주 실행되어야 합니까? {#collect-pii}
 
@@ -96,9 +96,9 @@ CollectPII 호출의 빈도 및 디자인은 비즈니스 요구 사항에 의�
 
 아래 리소스를 확인하십시오.
 
-* Experience Platform SDK [설명서](https://aep-sdks.gitbook.io/docs/)
-* Launch 및 Experience Platform SDK 시작하기 [설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
-* Experience Platform SDK로 업그레이드 [설명서](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
+* Experience Platform SDK [설명서](https://developer.adobe.com/client-sdks/documentation/)
+* Launch 및 Experience Platform SDK 시작하기 [설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
+* Experience Platform SDK로 업그레이드 [설명서](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
 * Github Experience Platform SDK [설명서](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## 푸시 알림 전달을 만드는 동안 &quot;게재에 대한 쓰기 액세스 권한이 없습니다&quot;라는 오류가 발생했습니다. {#write-access-error}

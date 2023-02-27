@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 * 프로필 템플릿을 사용하여 작성한 메시지는 사용자가 앱에 로그인한 경우에만 제공됩니다.
 * 이러한 안전한 핸드셰이크를 용이하게 하려면 모바일 앱 개발자는 setLinkageField API를 사용하여 추가 인증 세부 사항을 전달해야 합니다. 링크 필드는 appSubscriberRcp 테이블을 확장하면서 모바일 프로필과 CRM 프로필 간 링크로 식별되는 필드입니다.
 * 사용자가 resetLinkageField를 사용하여 앱에서 로그아웃할 때 장치에 저장된 인앱 메시지를 플러시하고 resetLinkagefields를 초기화해야 합니다. 이렇게 하면 다른 사용자가 앱에 로그인하는 경우 이전 사용자에 대한 메시지가 표시되지 않습니다.
-* 을(를) 참조하십시오. [모바일 SDK API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) 이 보안 메커니즘 클라이언트측을 구현하려면
+* 을(를) 참조하십시오. [모바일 SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) 이 보안 메커니즘 클라이언트측을 구현하려면
 
 ## Campaign에서 인앱 보고를 활성화하려면 무엇을 해야 합니까? {#enable-inapp-reporting}
 

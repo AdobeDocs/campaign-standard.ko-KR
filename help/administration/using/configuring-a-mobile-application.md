@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 4%
+source-wordcount: '1262'
+ht-degree: 3%
 
 ---
 
@@ -46,9 +46,9 @@ Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지�
 
    확장 설치, 앱 게시, 환경 구성 등과 같은 추가 작업을 완료하려면 제품 프로필에서 권한을 설정해야 합니다.
 
-1. 데이터 수집 UI에서 **[!UICONTROL Mobile property]**. 자세한 내용은 [모바일 속성 설정](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)을 참조하십시오.
+1. 데이터 수집 UI에서 **[!UICONTROL Mobile property]**. 자세한 내용은 [모바일 속성 설정](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property)을 참조하십시오.
 
-1. 데이터 수집 UI에서 **[!UICONTROL Extensions]** 탭으로 이동합니다. **[!UICONTROL Catalog]**, 및 을 검색합니다. **[!UICONTROL Adobe Campaign Standard]** 확장. 자세한 내용은 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. 데이터 수집 UI에서 **[!UICONTROL Extensions]** 탭으로 이동합니다. **[!UICONTROL Catalog]**, 및 을 검색합니다. **[!UICONTROL Adobe Campaign Standard]** 확장. 자세한 내용은 [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 1. Campaign Standard에서 위치 사용 사례를 지원하려면 **[!UICONTROL Places]** 확장)을 클릭하여 제품에서 사용할 수 있습니다. 다음을 참조하십시오 [페이지](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
@@ -122,7 +122,7 @@ It **[!UICONTROL Property Status]** 다음과 같습니다. **[!UICONTROL Ready 
 
 1. 이 구성을 적용하려면 변경 사항을 데이터 수집 UI에 게시해야 합니다.
 
-   자세한 내용은 [구성 게시](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
+   자세한 내용은 [구성 게시](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Adobe Campaign의 채널별 애플리케이션 구성 {#channel-specific-config}
 
@@ -164,7 +164,7 @@ It **[!UICONTROL Property Status]** 다음과 같습니다. **[!UICONTROL Ready 
 >
 >애플리케이션을 삭제하면 되돌릴 수 없습니다.
 
-응용 프로그램을 삭제하려면 [모바일 속성 삭제](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+응용 프로그램을 삭제하려면 [모바일 속성 삭제](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
 
 애플리케이션이 삭제된 후 Adobe Campaign에서 애플리케이션의 속성 상태가 Launch에서 삭제됨으로 올바르게 업데이트되었는지 확인합니다.
 

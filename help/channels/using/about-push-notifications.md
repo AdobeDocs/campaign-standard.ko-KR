@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 41%
+source-wordcount: '1239'
+ht-degree: 40%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 
 1. Adobe Experience Platform의 Adobe Campaign Standard 및 태그에서 사용자에게 필요한 권한이 있는지 확인합니다.
 
-1. 데이터 수집 UI에서 모바일 속성을 만듭니다. 자세한 내용은 [모바일 속성 설정](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)을 참조하십시오.
+1. 데이터 수집 UI에서 모바일 속성을 만듭니다. 자세한 내용은 [모바일 속성 설정](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)을 참조하십시오.
 
 1. 데이터 수집 UI에서 **[!UICONTROL Adobe Campaign Standard]** 확장.
 
@@ -87,7 +87,7 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 
 ### Campaign에서 푸시 토큰을 획득하려면 어떻게 해야 합니까? {#push-token-acquisition}
 
-프로비저닝 팀이 Adobe Campaign Standard에서 푸시 채널 프로비저닝을 완료했는지 확인합니다. SDK에서 setPushIdentifier API를 구현합니다. 자세한 정보는 이 [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)를 참조하십시오.
+프로비저닝 팀이 Adobe Campaign Standard에서 푸시 채널 프로비저닝을 완료했는지 확인합니다. SDK에서 setPushIdentifier API를 구현합니다. 자세한 정보는 이 [페이지](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging)를 참조하십시오.
 
 ### Campaign에 푸시 토큰 및 ECID가 있으면 푸시 알림을 전송해야 하는 다른 방법은 무엇입니까? {#sending-push}
 
@@ -144,7 +144,7 @@ Android의 경우 Campaign은 알림 페이로드가 아닌 데이터 페이로�
 아래의 단계를 수행하십시오.
 
 * 푸시 추적 포스트백을 구성합니다. 지침은 [여기](../../administration/using/configuring-a-mobile-application.md).
-* Mobile Core에서 trackAction API를 구현합니다. 다음을 참조하십시오 [페이지](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) 추가 정보.
+* Mobile Core에서 trackAction API를 구현합니다. 다음을 참조하십시오 [페이지](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) 추가 정보.
 
 자세한 지침은 [페이지](../../administration/using/push-tracking.md).
 

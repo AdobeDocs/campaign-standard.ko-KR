@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Adobe SDK 버전을 v4에서 Adobe Experience Platform으로 업그레이드한 
 * 마이그레이션 전에 에 대한 **[!UICONTROL Organizational unit]** 마이그레이션할 모바일 애플리케이션 및 마이그레이션에 사용하는 Adobe Experience Platform 애플리케이션의 .
 * 마이그레이션 후 애플리케이션이 Adobe Experience Platform SDK 애플리케이션이 됩니다. 변경 사항이 해당 태그에 연결됩니다 **[!UICONTROL Mobile Property]**.
 
-1. 새 만들기 **[!UICONTROL Mobile property]** ( 데이터 수집 UI) 자세한 내용은 [설명서](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. 새 만들기 **[!UICONTROL Mobile property]** ( 데이터 수집 UI) 자세한 내용은 [설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. Adobe Campaign Standard의 고급 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** 그리고 **[!UICONTROL syncWithLaunch]** 워크플로우. 워크플로우가 오류 없이 종료되었는지 확인합니다.
 

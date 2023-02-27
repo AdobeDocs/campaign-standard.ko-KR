@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 0%
+source-wordcount: '999'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 데이터 수집 UI에서 모바일 애플리케이션에서 로 PII 및 기타 데이터를 전송할 데이터 요소와 규칙을 만듭니다 [!DNL Adobe Campaign Standard].
 
-데이터 수집 UI의 모든 구성 변경 사항을 적용하려면 이러한 변경 사항을 게시해야 합니다. 자세한 내용은 [게시](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+데이터 수집 UI의 모든 구성 변경 사항을 적용하려면 이러한 변경 사항을 게시해야 합니다. 자세한 내용은 [게시](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration).
 
 데이터 수집 UI에서 규칙을 만들려면 다음 단계를 수행하십시오.
 
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->모바일 앱에서 Adobe Campaign으로 PII 정보를 전송하려면 SDK API를 구현해야 합니다. 자세한 내용을 보려면 [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>모바일 앱에서 Adobe Campaign으로 PII 정보를 전송하려면 SDK API를 구현해야 합니다. 자세한 내용을 보려면 [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
 
 PII 데이터를 로 보내려면 [!DNL Adobe Campaign Standard], 데이터 수집 UI에서 규칙을 만듭니다.
 

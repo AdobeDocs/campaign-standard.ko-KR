@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '947'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,9 @@ Adobe Campaign Standard은 다음 사용 사례를 지원합니다.
 
 이러한 사용 사례를 구성하려면 다음 확장이 필요합니다.
 
-* **[!DNL Adobe Campaign Standard]** <br>Campaign Standard 확장을 설치하고 구성하려면 다음을 참조하십시오 [데이터 수집 UI에서 Campaign Standard 확장 구성](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
-* **[!DNL Mobile Core]**: 자동으로 설치됩니다. <br>Mobile Core 확장에 대한 자세한 내용은 다음을 참조하십시오. [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
-* **[!DNL Profile]**: 자동으로 설치됩니다. <br>프로필 확장에 대한 자세한 내용은 [프로필](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
+* **[!DNL Adobe Campaign Standard]** <br>Campaign Standard 확장을 설치하고 구성하려면 다음을 참조하십시오 [데이터 수집 UI에서 Campaign Standard 확장 구성](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
+* **[!DNL Mobile Core]**: 자동으로 설치됩니다. <br>Mobile Core 확장에 대한 자세한 내용은 다음을 참조하십시오. [Mobile Core](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
+* **[!DNL Profile]**: 자동으로 설치됩니다. <br>프로필 확장에 대한 자세한 내용은 [프로필](https://developer.adobe.com/client-sdks/documentation/profile/).
 
 ## Campaign Standard에 모바일 프로필 등록 {#register-mobile-profile}
 
@@ -42,7 +42,7 @@ iOS에서 다음을 수행합니다 [!DNL Experience Platform APIs] 필수 여�
 * **[!UICONTROL Lifecycle Start]**: 앱이 시작될 때와 앱이 포그라운드에 있을 때 이 문제가 발생합니다.
 * **[!UICONTROL Lifecycle Pause]**: 앱이 백그라운드에 있을 때.
 
-자세한 내용은 [iOS의 라이프사이클 확장](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
+자세한 내용은 [iOS의 라이프사이클 확장](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
 다음은 iOS에서 이 사용 사례를 구현하는 샘플입니다.
 
@@ -85,7 +85,7 @@ Android에서 다음을 수행합니다 [!DNL Experience Platform APIs] 필수 �
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-자세한 내용은 [Android의 라이프사이클 확장](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
+자세한 내용은 [Android의 라이프사이클 확장](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
 
 다음은 Android에서 이 사용 사례를 위한 샘플 구현입니다.
 
@@ -112,7 +112,7 @@ public void onResume() {
 
 iOS에서 다음을 수행합니다 [!DNL Experience Platform SDK] 필수 여부:
 
-* **[!UICONTROL setPushIdentifier]** <br>자세한 내용은 [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
+* **[!UICONTROL setPushIdentifier]** <br>자세한 내용은 [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 다음은 iOS의 이 사용 사례에 대한 샘플 구현입니다.
 
@@ -127,7 +127,7 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 Android에서 다음을 수행합니다 [!DNL Experience Platform SDK] 필수 여부:
 
-* **[!UICONTROL setPushIdentifier]** <br>자세한 내용은 [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
+* **[!UICONTROL setPushIdentifier]** <br>자세한 내용은 [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 다음은 Android에서 이 사용 사례에 대한 샘플 구현입니다.
 
@@ -187,7 +187,7 @@ iOS에서 다음을 수행합니다 [!DNL Experience Platform APIs] 필수 여�
 * **[!UICONTROL Lifecycle Start]**: 앱이 시작될 때와 앱이 포그라운드에 있을 때 이 문제가 발생합니다.
 * **[!UICONTROL Lifecycle Pause]**: 앱이 백그라운드에 있을 때.
 
-자세한 내용은 [iOS의 라이프사이클 확장](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
+자세한 내용은 [iOS의 라이프사이클 확장](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
 다음은 iOS에서 이 사용 사례를 구현하는 샘플입니다.
 
@@ -230,7 +230,7 @@ Android에서 다음을 수행합니다 [!DNL Experience Platform APIs] 필수 �
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-자세한 내용은 [Android의 라이프사이클 확장](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
+자세한 내용은 [Android의 라이프사이클 확장](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
 
 다음은 Android에서 이 사용 사례를 위한 샘플 구현입니다.
 
@@ -259,7 +259,7 @@ public void onResume() {
 
 iOS에서 다음을 수행합니다 [!DNL Experience Platform SDK] 필수 여부:
 
-* **[!UICONTROL trackAction]**. 자세한 내용은 [앱 작업 추적](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+* **[!UICONTROL trackAction]**. 자세한 내용은 [앱 작업 추적](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 다음은 iOS에서 이 사용 사례를 구현하는 샘플입니다.
 
@@ -276,7 +276,7 @@ if (deliveryId != nil && broadlogId != nil) {
 Android에서 다음을 수행합니다 [!DNL Experience Platform SDK] 필수 여부:
 
 * **[!UICONTROL trackAction]**
-자세한 내용은 [앱 작업 추적](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+자세한 내용은 [앱 작업 추적](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 다음은 Android에서 이 사용 사례를 위한 샘플 구현입니다.
 
@@ -293,7 +293,7 @@ MobileCore.trackAction("tracking", contextData);
 
 iOS에서 다음을 수행합니다 [!DNL Experience Platform SDK] 필수 여부:
 
-* **[!UICONTROL trackAction]**. 자세한 내용은 [앱 작업 추적](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+* **[!UICONTROL trackAction]**. 자세한 내용은 [앱 작업 추적](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 다음은 iOS에서 이 사용 사례를 구현하는 샘플입니다.
 
@@ -306,7 +306,7 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 Android에서 다음을 수행합니다 [!DNL Experience Platform SDK] 필수 여부:
 
 * **[!UICONTROL trackAction]**
-자세한 내용은 [앱 작업 추적](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+자세한 내용은 [앱 작업 추적](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 다음은 Android에서 이 사용 사례를 위한 샘플 구현입니다.
 
@@ -320,8 +320,8 @@ MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 
 iOS의 인앱 메시지를 기반으로 하는 프로필 템플릿에 대한 추가 인증에 대한 링크 필드를 설정하려면 다음을 수행하십시오 [!DNL Experience Platform SDK] 필수 여부:
 
-* 링크 필드 설정 <br>자세한 내용은 [링크 필드 설정](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields).
-* 링크 필드 재설정 <br>자세한 내용은 [링크 필드 재설정](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields).
+* 링크 필드 설정 <br>자세한 내용은 [링크 필드 설정](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* 링크 필드 재설정 <br>자세한 내용은 [링크 필드 재설정](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
 
 다음은 iOS과 함께 이 사용 사례의 샘플 구현입니다.
 
@@ -343,8 +343,8 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 Android에서 인앱 메시지를 기반으로 하는 프로필 템플릿에 대한 추가 인증에 대한 링크 필드를 설정하려면 다음 Experience Platform SDK가 필요합니다.
 
-* 링크 필드 설정 <br>자세한 내용은 [링크 필드 설정](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields).
-* 링크 필드 재설정 <br>자세한 내용은 [링크 필드 재설정](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields).
+* 링크 필드 설정 <br>자세한 내용은 [링크 필드 설정](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* 링크 필드 재설정 <br>자세한 내용은 [링크 필드 재설정](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields).
 
 다음은 Android에서 이 사용 사례의 샘플 구현입니다.
 

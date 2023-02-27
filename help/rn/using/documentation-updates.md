@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
-workflow-type: ht
-source-wordcount: '7229'
-ht-degree: 100%
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+workflow-type: tm+mt
+source-wordcount: '7230'
+ht-degree: 99%
 
 ---
 
@@ -330,7 +330,7 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 
 이메일 BCC를 통해 아카이빙하는 방법에 대한 섹션을 이동 및 업데이트했습니다. [자세한 내용](../../sending/using/archiving.md)
 
-모바일 애플리케이션 구성 설명서 및 관련 페이지에 SDK V4 사용 중단을 반영하여 업데이트했습니다. [자세한 내용](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+모바일 애플리케이션 구성 설명서 및 관련 페이지에 SDK V4 사용 중단을 반영하여 업데이트했습니다. [자세한 내용](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
 
 Adobe Campaign Standard/Adobe Experience Manager 통합 설명서를 업데이트 및 개선했습니다. [자세한 내용](../../integrating/using/configure-experience-manager.md)
 
