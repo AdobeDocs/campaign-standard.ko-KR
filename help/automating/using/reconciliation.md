@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 95%
+source-wordcount: '558'
+ht-degree: 78%
 
 ---
 
@@ -42,13 +42,10 @@ ht-degree: 95%
 
    예를 들어 대상자 저장, 데이터베이스 업데이트 등의 활동을 수행할 수 있습니다.
 
-예를 들어 데이터 로드 활동 뒤에 **[!UICONTROL Reconciliation]** 활동을 배치하여 비표준 데이터를 데이터베이스로 가져올 수 있습니다.
+예: **[!UICONTROL Reconciliation]** 데이터 로드 활동 뒤에 활동을 배치하여 비표준 데이터를 데이터베이스로 가져올 수 있습니다.
 
-**관련 항목:**
+반면에 **데이터 보강** 활동을 통해 워크플로우에서 처리할 추가 데이터를 정의할 수 있습니다(다음 사용). **데이터 보강** 여러 세트에서 가져온 데이터를 결합하거나 임시 리소스에 대한 링크를 만드는 활동 **조정** 활동을 사용하면 미식별 데이터를 기존 리소스에 연결할 수 있습니다. 조정 작업은 연결된 차원의 데이터가 이미 데이터베이스에 있음을 의미합니다. 사용 사례는에서 사용할 수 있습니다 [이 섹션](#use-cases-reconciliation).
 
-* [사용 사례: 관계를 사용한 데이터 조정](../../automating/using/reconciliation-using-relations.md)
-* [사용 사례: 조정을 사용한 데이터 업데이트](../../automating/using/data-update-reconciliation.md)
-* [사용 사례: 데이터베이스로 파일 대상자 조정](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 구성 {#configuration}
 
@@ -70,3 +67,12 @@ ht-degree: 95%
    * **[!UICONTROL Keep in the outbound population]**: 인바운드 전환의 모든 데이터가 활동의 아웃바운드 전환에 남습니다.
 
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+
+
+## 활용 사례{#use-cases-reconciliation}
+
+다음 사용 사례에서 이 활동을 사용하는 방법을 알아봅니다.
+
+* [사용 사례: 관계를 사용한 데이터 조정](../../automating/using/reconciliation-using-relations.md)
+* [사용 사례: 조정을 사용한 데이터 업데이트](../../automating/using/data-update-reconciliation.md)
+* [사용 사례: 데이터베이스로 파일 대상자 조정](../../automating/using/reconcile-file-audience-with-database.md)
