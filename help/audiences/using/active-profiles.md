@@ -5,20 +5,20 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 활성 프로필{#active-profiles}
 
-Campaign 기능 관리자는 **[!UICONTROL Customer metrics]** 보고서 보낸 사람 **[!UICONTROL Administration > Customer metrics]**.
+에서 활성 프로필 세부 사항에 액세스할 수 있습니다. **[!UICONTROL Customer metrics]** 보고서 세트에 대해 설명합니다. 이 보고서는 Campaign 기능 관리자만 사용할 수 있습니다. 이 보고서에 액세스하려면 [사용자 인터페이스](../../start/using/interface-description.md#advanced-menu), 및으로 이동합니다. **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-이 보고서는 **[!UICONTROL Billing]** 기술 워크플로우 및 표시 횟수 **활성 프로필**.
+이 보고서는 **[!UICONTROL Billing]** 기술 워크플로우 및 표시 횟수 **활성 프로필**. 의 기술 워크플로우에 대해 자세히 알아보십시오 [이 페이지](../../administration/using/technical-workflows.md).
 
 &quot;프로필&quot;은 최종 고객, 잠재 고객 또는 리드를 나타내는 정보의 레코드입니다. 프로필은 고려됩니다 **활성** 지난 12개월 내에 어떤 채널을 통해 Campaign 게재의 타겟팅된 경우.
 
