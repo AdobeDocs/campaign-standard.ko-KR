@@ -1,5 +1,5 @@
 ---
-title: '이메일 디자인 기초 '
+title: 이메일 디자인 기초
 description: 이메일 디자이너에서 이메일 콘텐츠를 처음부터 디자인하는 방법을 알아봅니다.
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
->title="구조 구성 요소 정보"
->abstract="구조 구성 요소는 이메일의 레이아웃을 정의합니다."
+>title="구조 구성요소 정보"
+>abstract="구조 구성 요소는 이메일 레이아웃을 정의합니다."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="이메일 열 정의"
->abstract="이메일 디자이너를 사용하면 열 구조를 정의하여 이메일 레이아웃을 쉽게 정의할 수 있습니다."
+>abstract="이메일 디자이너를 통해 열 구조를 정의하여 이메일 레이아웃을 쉽게 정의할 수 있습니다."
 
 이메일 디자이너를 사용하면 이메일 구조를 쉽게 정의할 수 있습니다. 간단한 드래그 앤 드롭 작업으로 구조 요소를 추가 및 이동하면 몇 초 이내에 이메일 모양을 디자인할 수 있습니다.
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 
    >[!NOTE]
    >
-   >열 스택은 모든 이메일 프로그램과 호환되지 않습니다. 지원되지 않는 경우에는 열이 스택되지 않습니다.
+   >일부 이메일 프로그램에서는 열 스택이 호환되지 않을 수 있습니다. 지원되지 않을 경우, 열이 스택되지 않습니다.
    >
    >전자 메일에 배치되면 이미 내부에 컨텐츠 구성 요소나 조각을 배치하지 않은 한 구성 요소를 이동하거나 제거할 수 없습니다.
 
@@ -81,12 +81,12 @@ ht-degree: 2%
 
 구조가 정의되면 컨텐츠 조각 및 구성 요소를 이메일에 추가할 수 있습니다.
 
-## 사전 헤더 사용 {#preheader}
+## 프리 헤더 사용 {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
->title="사전 헤더 사용"
->abstract="사전 헤더를 사용하면 이메일에 대한 열기 수가 더 높은 짧은 요약 텍스트를 구성할 수 있습니다."
+>title="프리 헤더 사용"
+>abstract="프리 헤더를 사용하여 더 높은 이메일 열람율을 전달하는 짧은 요약 텍스트를 구성할 수 있습니다."
 
 사전 헤더는 받은 편지함에서 전자 메일을 볼 때 제목란을 따르는 간단한 요약 텍스트입니다. preheader가 더 높은 공개 비율을 전달합니다.
 
@@ -98,14 +98,14 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->preheader가 모든 이메일 프로그램과 호환되지 않습니다. 지원되지 않는 경우 preheader가 표시되지 않습니다.
+>일부 이메일 프로그램에서는 프리 헤더가 호환되지 않을 수 있습니다. 지원되지 않을 경우, 프리 헤더가 표시되지 않습니다.
 
 ## 컨텐츠 구성 요소 사용 {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
->title="컨텐츠 구성 요소 정보"
->abstract="콘텐츠 구성 요소는 이메일을 만들기 위해 편집할 수 있는 빈 콘텐츠 자리 표시자입니다."
+>title="콘텐츠 구성 요소 정보"
+>abstract="콘텐츠 구성 요소는 이메일 작성 시 편집할 수 있는 빈 콘텐츠 플레이스홀더입니다."
 
 컨텐츠 구성 요소는 이메일에 배치되면 편집할 수 있는 비어 있는 원시 구성 요소입니다.
 
@@ -156,14 +156,14 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="비디오 설정"
->abstract="이 구성 요소를 사용하여 이메일에 비디오를 삽입합니다. 모든 이메일 클라이언트는 비디오가 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
+>abstract="이 구성 요소를 사용하여 비디오를 이메일에 삽입합니다. 비디오는 모든 이메일 클라이언트에서 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="추가 정보"
 
 비디오 구성 요소를 이메일의 구조 구성 요소에 삽입하고 비디오 링크를 **[!UICONTROL Component Settings]**.
 
 >[!NOTE]
 >
->비디오는 모든 이메일 프로그램과 호환되지 않습니다. 지원되지 않는 경우 폴백이 표시됩니다.
+>일부 이메일 프로그램에서는 비디오가 호환되지 않을 수 있습니다. 지원되지 않을 경우, 대체 항목이 표시됩니다.
 
 ### 이미지
 
@@ -175,12 +175,12 @@ ht-degree: 2%
 
 이 구성 요소를 사용하여 이메일에 소셜 미디어 페이지에 대한 링크를 삽입합니다. 표시할 링크와 아이콘 크기를 선택할 수 있습니다 **[!UICONTROL Component Settings]**.
 
-### 회전판 {#carousel-settings}
+### 캐러셀 {#carousel-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
->title="회전 메뉴 설정"
->abstract="컨텐츠에 회전판을 삽입하고 구성하는 방법을 알아봅니다.회전판이 모든 이메일 클라이언트에서 작동하지 않고, 지원되지 않는 경우 대체 이미지가 표시됩니다."
+>title="슬라이드 설정"
+>abstract="슬라이드를 콘텐츠에 삽입하고 구성하는 방법에 대해 알아봅니다. 슬라이드는 모든 이메일 클라이언트에서 작동하지 않으며 지원되지 않는 경우 대체 이미지가 표시됩니다."
 
 1. 을(를) 끌어다 놓습니다 **[!UICONTROL Carousel]** 구성 요소를 생성하지 않습니다.
 1. 컴퓨터에서 이미지를 찾아 선택합니다.

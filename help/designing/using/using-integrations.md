@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Campaign 통합을 통해 이메일 디자인 '
+title: Adobe Campaign 통합을 통해 이메일 디자인
 description: 이메일 디자이너에서 Adobe Campaign 통합을 통해 이메일을 디자인하는 방법을 알아봅니다.
 audience: designing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,7 @@ Dreamweaver과 Adobe Campaign Standard 통합을 사용하면 Dreamweaver 인터
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="제품 목록 사용"
->abstract="제품 목록을 사용하면 데이터 컬렉션을 참조하고 전자 메일 콘텐츠에 표시할 수 있습니다."
+>abstract="제품 목록을 사용하여 데이터 컬렉션을 참조하고 이메일 콘텐츠에 표시할 수 있습니다."
 
 제품 목록을 사용하면 이메일 콘텐츠에서 하나 이상의 데이터 컬렉션을 참조할 수 있습니다. 이러한 목록은 트랜잭션 전자 메일에 사용할 수 있습니다. 이 기능에 대한 전용 섹션을 사용할 수 있습니다 [여기](../../designing/using/using-product-listings.md).
 
@@ -148,7 +148,7 @@ Adobe Campaign에서는 여러 이메일 작성 옵션을 제공합니다. 아�
    <td> <strong>추가 정보</strong><br /> </td> 
    <td> 자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">이메일 디자이너 정보</a>.<br /> </td> 
    <td> 자세한 내용은 <a href="../../integrating/using/integrating-with-experience-manager.md">Experience Manager과 통합</a>.<br /> </td> 
-   <td> 자세한 내용은 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver 및 캠페인</a> 이걸 보고 <a href="#video">비디오</a>.<br /> </td> 
+   <td> 자세한 내용은 <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver 및 캠페인</a> 이걸 보고 <a href="#video">비디오</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
