@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '1818'
+ht-degree: 99%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 100%
    + 트랜잭션 메시지 {#transactional-messaging}
       + [트랜잭션 메시지 시작](channels/using/getting-started-with-transactional-msg.md)
       + [모범 사례 및 제한 사항](channels/using/transactional-messaging-limitations.md)
+      + [트랜잭션 메시지 권한 업데이트](channels/using/transactional-message-permission.md)
       + 이벤트 구성 {#event-configuration}
          + [트랜잭션 이벤트 구성](channels/using/configuring-transactional-event.md)
          + [트랜잭션 이벤트 게시](channels/using/publishing-transactional-event.md)
