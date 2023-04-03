@@ -1,13 +1,27 @@
 ---
-source-git-commit: 48b6c5de8871e9e1f12c91474376abc53a199bc8
+title: 초기 릴리스 정보
+description: 초기 릴리스 정보
+feature: Overview
+role: User
+level: Beginner
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
+
+
+# 초기 릴리스 정보 {#e-new-release}
+
+이 페이지에서는 다음 Campaign Standard 릴리스에 포함된 개선 사항 및 문제 해결에 대해 설명합니다.
 >[!CAUTION]
 >
 > 이 콘텐츠는 단계 환경 업그레이드일까지 사전 통지 없이 변경될 수 있습니다. 자세한 내용은 [릴리스 계획 페이지](../../rn/using/release-planning.md)를 참조하세요.
+
 ## 릴리스 22.3.2 {#dec-22}
 
 ### 보안 업데이트{#rn-security2}
