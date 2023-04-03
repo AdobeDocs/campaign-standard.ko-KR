@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
+source-git-commit: f04fd1542dc3b8ccd5e9fe53edd206061edbc3c5
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '131'
 ht-degree: 100%
 
 ---
@@ -15,8 +15,13 @@ ht-degree: 100%
 
 # 최신 릴리스{#latest-release}
 
-![컨트롤 패널](assets/do-not-localize/cp-icon.png) **새로운 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target=&quot;_blank&quot;}.
+![컨트롤 패널](assets/do-not-localize/cp-icon.png) **새로운 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target="_blank"}.
 
+## 릴리스 22.3.2 {#feb-23}
+
+### 보안 업데이트{#rn-security2}
+
+이 릴리스는 다음과 같은 보안 업그레이드와 함께 제공됩니다. Debian이 v11.0으로 업그레이드되었습니다.
 
 ## 릴리스 22.3 - 2022년 가을/겨울 {#sept-22}
 
