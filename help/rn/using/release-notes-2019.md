@@ -32,7 +32,7 @@ ht-degree: 8%
    <ul>
     <li>액세스 권한 및 삭제 권한: adobe는 GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#righttoaccess">자세히 알아보기</a> </li>
     <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 핵심 서비스에 규정 유형(GDPR 또는 CCPA)이 추가되었습니다. 이 방법은 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">사용이 중단되거나 제거된 기능 문서</a>를 참조하십시오.</p></li>
-    <li>A <strong>CCPA 옵트아웃</strong> 소비자가 개인 정보 판매를 옵트아웃했는지 여부를 Adobe Campaign 사용자가 추적할 수 있도록 프로필 리소스에 필드가 추가되었습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ccpa">자세히 알아보기</a></li>
+    <li>A <strong>CCPA 옵트아웃</strong> 소비자가 개인 정보 판매를 옵트아웃했는지 여부를 Adobe Campaign 사용자가 추적할 수 있도록 프로필 리소스에 필드가 추가되었습니다. <a href="https://helpx.adobe.com/content/help/ko/campaign/kb/acs-privacy.html#ccpa">자세히 알아보기</a></li>
   </ul>
     <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">방법 비디오</a>를 참조하십시오.</p>
 </td> 
@@ -299,7 +299,7 @@ ht-degree: 8%
  </thead> 
  <tbody> 
   <tr> 
-   <td> Campaign 컨트롤 패널<br /> </td> 
+   <td> 컨트롤 패널<br /> </td> 
    <td> <p>관리자로서 작업의 효율성을 높이려면 용량을 쉽게 모니터링하고 인스턴스의 설정을 관리할 수 있습니다(SFTP 서버 관리 시작).</p><p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ko">방법 비디오</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
@@ -531,7 +531,7 @@ ht-degree: 8%
      <li> 다음 기능 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">준비 시 URL에서 컨텐츠를 자동으로 검색합니다</a> </li> 
      <li> 완벽하게 준수 <a href="../../designing/using/using-reusable-content.md#content-templates">기본 제공 콘텐츠 템플릿</a>. </li> 
     </ul> 
-    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">방법 비디오</a>를 참조하십시오. 개선 사항 및 수정 사항이 아래에 나열되어 있습니다.</p><p>따라서 레거시 전자 메일 콘텐츠 편집기는 이제 사용되지 않습니다. 자세한 내용은 다음을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">페이지</a>.</p> </td> 
+    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">방법 비디오</a>를 참조하십시오. 개선 사항 및 수정 사항이 아래에 나열되어 있습니다.</p><p>따라서 레거시 전자 메일 콘텐츠 편집기는 이제 사용되지 않습니다. 자세한 내용은 다음을 참조하십시오 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">페이지</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 이메일의 제품 목록<br /> </td> 

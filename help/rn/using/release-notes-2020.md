@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
 
-![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 Campaign 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
+![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
 
 ## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
 
@@ -289,7 +289,7 @@ ht-degree: 98%
 * 사용자가 보고서를 변경할 수 없는 오류를 수정했습니다. (CAMP-42505)
 
 
-CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/cp-icon.png) **새 Campaign 컨트롤 패널 5월 릴리스**&#x200B;입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)
+CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/cp-icon.png) **새 컨트롤 패널 5월 릴리스**&#x200B;입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
@@ -327,7 +327,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 
 >[!NOTE]
 >
->Google TXT 레코드 관리, 데이터베이스 공간 모니터링 및 이메일 경고 등 새로운 기능이 4월에 Campaign 컨트롤 패널에서 릴리스됩니다. 이러한 기능에 대한 자세한 내용은 [Campaign 컨트롤 패널 릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)를 참조하십시오.
+>Google TXT 레코드 관리, 데이터베이스 공간 모니터링 및 이메일 경고 등 새로운 기능이 4월에 Campaign 컨트롤 패널에서 릴리스됩니다. 이러한 기능에 대한 자세한 내용은 [컨트롤 패널 릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)를 참조하십시오.
 
 **향상된 기능**
 

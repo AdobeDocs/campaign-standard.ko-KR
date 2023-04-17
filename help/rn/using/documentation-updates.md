@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7230'
 ht-degree: 100%
 
@@ -398,7 +398,7 @@ Campaign Standard에서 워크플로우를 사용하여 컨트롤 그룹을 만�
 
 랜딩 페이지 속성과 관련된 정보를 전용 섹션으로 이동했습니다. [자세한 내용](../../channels/using/configuring-landing-page.md)
 
-제어판 설명서는 새로운 공동 작업 설명서 세트에 통합되었습니다. [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
+컨트롤 패널 설명서를 새로운 공동 작업 설명서 세트에 통합했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 
 **지표 계산** 표를 업데이트했습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
@@ -462,7 +462,7 @@ Adobe Experience Platform SDK를 사용해 모바일 애플리케이션을 구�
 
 워크플로우 문제 해결 섹션에 로그 탭에 SQL 쿼리를 표시하기 위한 절차가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Campaign 컨트롤 패널 내에 하위 도메인 및 인증서 관리에 대한 정보를 다루는 새로운 도움말 문서를 추가했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)
+컨트롤 패널 내에 하위 도메인 및 인증서 관리에 대한 정보를 다루는 새로운 도움말 문서를 추가했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)
 
 콘텐츠 템플릿 및 단편에 대해 설명하는 섹션을 업데이트했습니다. [자세한 내용](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -524,7 +524,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트�
 
 **릴리스에 포함된 새로운 기능**
 
-Campaign 컨트롤 패널 - [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
+컨트롤 패널 - [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 
 로컬 알림 - [자세한 내용](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
