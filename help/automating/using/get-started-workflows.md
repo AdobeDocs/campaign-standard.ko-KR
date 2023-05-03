@@ -11,7 +11,7 @@ exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 37%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">워크플로우 활동</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">활용 사례</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">데이터 필터링</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">워크플로 활동</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">활용 사례</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">데이터 필터링</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">데이터 가져오기/내보내기</a></p></td></tr>
 </table>
 
@@ -38,7 +38,7 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 >
 > Adobe은 고객이 동시에 20개 이상의 활성 워크플로우 실행을 실행하지 않고 시간에 따른 워크플로우 실행에 우선 순위를 지정하고 분산할 것을 권장합니다. 자세한 내용은 [이 페이지](../../automating/using/best-practices-workflows.md).
 
-## 워크플로우 활동 {#workflow-activities}
+## 워크플로 활동 {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
