@@ -9,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 96%
@@ -40,7 +40,7 @@ ht-degree: 96%
 
 프로그램, 캠페인 또는 마케팅 활동 목록에서 워크플로우를 만들 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 워크플로우를 빌드하는 방법을 알아봅니다](#video)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 워크플로우를 구축하는 방법 살펴보기](#video)
 
 마케팅 활동 만들기는 [마케팅 활동 만들기](../../start/using/marketing-activities.md#creating-a-marketing-activity) 섹션에 자세히 설명되어 있습니다.
 
@@ -72,7 +72,7 @@ ht-degree: 96%
 
    예를 들어 모든 워크플로우의 활동에서 기본적으로 사용할 특정 시간대를 정의할 수 있습니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
 
-   워크플로우 속성에 대한 자세한 내용은 [이 페이지](../../automating/using/managing-execution-options.md).
+   워크플로우 속성에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -133,7 +133,7 @@ ht-degree: 96%
 
 ## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 워크플로우를 만드는 방법을 보여줍니다.
+이 비디오는 워크플로우를 만드는 방법을 보여 줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
