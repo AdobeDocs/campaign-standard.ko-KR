@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7230'
-ht-degree: 100%
+source-wordcount: '7224'
+ht-degree: 99%
 
 ---
 
@@ -562,7 +562,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 다이내믹 보고서의 지표 계산 섹션을 업데이트했습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
-다이내믹 보고 호환성 표를 추가했습니다. 이 표를 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+다이내믹 보고 호환성 표를 추가했습니다. 이 표를 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 워크플로우에 대한 함수 목록이 업데이트되었습니다. [자세한 내용](../../automating/using/list-of-functions.md)
 
@@ -840,7 +840,7 @@ Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니
 
 게재를 준비하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세한 내용](../../sending/using/preparing-the-send.md)
 
-허가 목록이 포함된 섹션을 제거했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)(PDF)
+허가 목록이 포함된 섹션을 제거했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)(PDF)
 
 SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세한 내용](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1012,7 +1012,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 Adobe Campaign을 통한 사용자 핵심 서비스 또는 Audience Manager 통합을 구성하기 위한 지침을 추가했습니다. [자세한 내용](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-승인 표에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+승인 표에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 업데이트했습니다.
 

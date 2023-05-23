@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 90%
 
 ---
 
@@ -85,7 +85,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 ### 컨트롤 패널이란 무엇입니까?
 
 컨트롤 패널을 통해 각 인스턴스의 사용법을 추적하고 설정을 관리하여 Campaign Standard의 제품 관리자로서 작업 효율성을 높일 수 있습니다.
-자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko#discover-control-panel)하십시오.
+자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel)하십시오.
 
 >[!NOTE]
 >
@@ -93,23 +93,23 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 ### 컨트롤 패널에는 어떻게 액세스하나요?
 
-컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ko#discover-control-panel)하십시오.
+컨트롤 패널은 Adobe Experience Cloud에서 바로 이용할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html#discover-control-panel)하십시오.
 
 ### 컨트롤 패널 FAQ
 
-[여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ko)하여 Campaign 컨트롤 패널 FAQ에 액세스합니다.
+[여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/faq.html)하여 Campaign 컨트롤 패널 FAQ에 액세스합니다.
 
 ### SFTP 관리
 
-컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko#sftp-management)하십시오.
+컨트롤 패널에서 액세스 권한이 있는 Campaign 인스턴스에 연결된 모든 SFTP 서버와 상호 작용할 수 있습니다. 저장소 용량을 모니터링하고, 허용 목록의 IP 주소 및 공개 SSH 키를 관리할 수 있습니다. 자세한 정보를 보려면 [여기를 클릭](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)하십시오.
 
 ### 하위 도메인 및 인증서
 
 하위 도메인 및 해당 인증서를 모니터링할 수 있습니다. 자세히 알아보기:
 
-* [하위 도메인 브랜딩](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko#subdomains-and-certificates)
-* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko#subdomains-and-certificates)
-* [SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=ko#subdomains-and-certificates)
+* [하위 도메인 브랜딩](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html#subdomains-and-certificates)
+* [새 하위 도메인 설정](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#subdomains-and-certificates)
+* [SSL 인증서 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates)
 
 ## 도움 요청
 

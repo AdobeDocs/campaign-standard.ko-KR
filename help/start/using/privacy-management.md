@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+workflow-type: tm+mt
+source-wordcount: '825'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Campaign을 사용하면 개인정보 보호 준비를 원활히 수행할
 
 **액세스** 및 **삭제** 요청을 만드는 방법과 Adobe Campaign에서 이 요청을 처리하는 원리는 [구현 단계](../../start/using/privacy-requests.md#about-privacy-requests)를 참조하세요.
 
-Campaign Standard의 개인 정보 관리에 대한 튜토리얼도 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ko#privacy)에서 사용할 수 있습니다.
+Campaign Standard의 개인 정보 관리에 대한 튜토리얼도 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html#privacy)에서 사용할 수 있습니다.
 
 >[!NOTE]
 >

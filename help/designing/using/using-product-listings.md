@@ -9,9 +9,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 79%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->제품 목록은 **트랜잭션 이메일 메시지** 사용 [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 인터페이스.
+>제품 목록은 다음에만 사용할 수 있습니다. **트랜잭션 이메일 메시지** 다음을 통해 [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 인터페이스.
 
-트랜잭션 전자 메일의 콘텐츠를 편집할 때 하나 이상의 데이터 컬렉션을 참조하는 제품 목록을 만들 수 있습니다. 예를 들어 장바구니 포기 전자 메일에는 사용자가 웹 사이트를 떠날 때 사용자의 카트에 들어 있던 모든 제품 목록과 이미지, 가격 및 각 제품에 대한 링크를 포함할 수 있습니다.
+트랜잭션 전자 메일의 콘텐츠를 편집할 때 하나 이상의 데이터 컬렉션을 참조하는 제품 목록을 만들 수 있습니다. 예를 들어 장바구니 포기 이메일에 사용자가 웹 사이트를 떠날 때 사용자의 카트에 들어 있던 모든 제품 목록과 이미지, 가격 및 각 제품에 대한 링크를 포함할 수 있습니다.
 
 트랜잭션 메시지에 포기된 제품 목록을 추가하려면 아래 단계를 따르십시오.
 
-또한 볼 수 있습니다 [이 비디오 세트](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) 트랜잭션 전자 메일에서 제품 목록을 구성하는 데 필요한 단계를 설명합니다.
+구경도 할 수 있습니다 [이 비디오 세트](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) 트랜잭션 이메일에서 제품 목록을 구성하는 데 필요한 단계를 설명합니다.
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ ht-degree: 79%
 트랜잭션 메시지에서 제품 목록을 사용하려면 이벤트 수준에서 표시하려는 목록의 각 제품에 대한 제품 목록과 필드를 정의해야 합니다. 자세한 내용은 [데이터 컬렉션 정의](../../channels/using/configuring-transactional-event.md#defining-data-collections)를 참조하십시오.
 
 1. 트랜잭션 메시지에서 **[!UICONTROL Content]** 블록을 클릭하여 전자 메일 콘텐츠를 수정합니다.
-1. 구조 구성 요소를 작업 영역으로 끌어다 놓습니다. 자세한 내용은 [전자 메일 구조 정의](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. 구조 구성 요소를 작업 영역으로 끌어다 놓습니다. 자세한 내용은 [이메일 구조 정의](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   예를 들어 하나의 열 구조 구성 요소를 선택하고 텍스트 구성 요소, 이미지 구성 요소 및 단추 구성 요소를 추가합니다. 자세한 내용은 [컨텐츠 구성 요소 사용](../../designing/using/designing-from-scratch.md#about-content-components).
+   예를 들어 하나의 열 구조 구성 요소를 선택하고 텍스트 구성 요소, 이미지 구성 요소 및 단추 구성 요소를 추가합니다. 자세한 내용은 [콘텐츠 구성 요소 사용](../../designing/using/designing-from-scratch.md#about-content-components).
 
 1. 방금 만든 구조 구성 요소를 선택하고 상황별 도구 모음에서 **[!UICONTROL Enable product listing]** 아이콘을 클릭합니다.
 
@@ -56,7 +56,7 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Column]** 옵션은 다중 열 구조 구성 요소( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** 및 **[!UICONTROL 4:4 column]** )를 사용하는 경우에만 사용할 수 있습니다. 제품 목록을 편집할 때는 다른 열은 고려하지 않고 첫 번째 열만 채웁니다. 구조 구성 요소 선택에 대한 자세한 내용은 [전자 메일 구조 정의](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+   >**[!UICONTROL Column]** 옵션은 다중 열 구조 구성 요소( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** 및 **[!UICONTROL 4:4 column]** )를 사용하는 경우에만 사용할 수 있습니다. 제품 목록을 편집할 때는 다른 열은 고려하지 않고 첫 번째 열만 채웁니다. 구조 구성 요소 선택에 대한 자세한 내용은 [이메일 구조 정의](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. 트랜잭션 메시지와 관련된 이벤트를 구성할 때 만든 데이터 컬렉션을 선택합니다. **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** 노드 아래에서 찾을 수 있습니다.
 

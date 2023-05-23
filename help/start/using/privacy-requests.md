@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: ht
-source-wordcount: '1591'
-ht-degree: 100%
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+workflow-type: tm+mt
+source-wordcount: '1559'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들�
 
 개인 정보 요청을 만들기 전에 사용할 네임스페이스를 정의해야 합니다. 네임스페이스는 Adobe Campaign 데이터베이스에서 데이터 주체를 식별하는 데 사용되는 키입니다. 기본 제공되는 두개의 네임스페이스는 이메일 및 모바일 폰입니다. 다른 네임스페이스(예: 프로필 사용자 지정 필드)가 필요한 경우 다음 단계를 따르십시오.
 
-또한 네임스페이스를 만드는 방법을 다루는 이 [튜토리얼](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=ko#privacy)을 참조하십시오.
+또한 네임스페이스를 만드는 방법을 다루는 이 [튜토리얼](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -91,13 +91,13 @@ Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들�
 
 개인 정보 보호 핵심 서비스 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다.
 
-개인 정보 보호 핵심 서비스에서 개인 정보 보호 요청을 만드는 방법에 대해 알아보려면 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko) 설명서를 참조하십시오.
+개인 정보 보호 핵심 서비스에서 개인 정보 보호 요청을 만드는 방법에 대해 알아보려면 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) 설명서를 참조하십시오.
 
 >[!IMPORTANT]
 >
->사용자 지정 네임스페이스 유형을 사용하여 요청을 제출하려면 [JSON 메서드](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#json){target=&quot;_blank&quot;}를 활용하고 요청에 namespaceId를 추가하거나 [API 호출](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ko#access-delete){target=&quot;_blank&quot;}을 사용할 수 있습니다.
+>사용자 지정 네임스페이스 유형을 사용하여 요청을 제출하려면 [JSON 메서드](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} 요청.
 >
->표준 네임스페이스 유형을 사용하여 요청을 제출할 때는 [개인 정보 보호 사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#request-builder){target=&quot;_blank&quot;}만 사용할 수 있습니다.
+>다음 항목만 사용 [개인 정보 사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} 표준 네임스페이스 유형을 사용하여 요청을 제출할 수 있습니다.
 
 각 개인 정보 보호 핵심 서비스 작업은 사용 중인 네임스페이스의 수를 기준으로 Campaign에서 여러 개인 정보 보호 요청으로 분할되며, 하나의 요청은 하나의 네임스페이스에 해당합니다. 또한 하나의 작업은 여러 인스턴스에 대해 실행할 수 있습니다. 따라서 하나의 작업에 대해 여러 파일이 만들어집니다. 예를 들어, 요청에 두 개의 네임스페이스가 있고 세 개의 인스턴스에서 실행 중인 경우 총 6개의 파일이 전송됩니다. 네임스페이스 및 인스턴스당 하나의 파일입니다.
 
@@ -125,7 +125,7 @@ Adobe Campaign은 개인 정보 보호 요청의 삭제 또는 액세스를 수�
 
 프로필 리소스(고유 유형)에 대한 링크가 있는 사용자 지정 리소스를 만든 경우 이러한 리소스도 고려됩니다. 예를 들어 프로필 리소스와 연결된 트랜잭션 리소스와 트랜잭션 리소스에 연결된 트랜잭션 세부 정보가 있는 경우 이 두 가지 모두 고려됩니다.
 
-사용자 지정 리소스를 수정하는 방법에 대한 [이 튜토리얼](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=ko#privacy)을 참조하십시오.
+사용자 지정 리소스를 수정하는 방법에 대한 [이 튜토리얼](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy)을 참조하십시오.
 
 이를 위해서는 사용자 지정 리소스에서 **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** 옵션을 선택해야 합니다.
 

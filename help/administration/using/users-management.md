@@ -1,15 +1,15 @@
 ---
 title: 사용자 관리
-description: 'Adobe Campaign 사용자에게는 특정한 역할이 주어집니다. 기본 사용자 유형을 알아봅니다. '
+description: Adobe Campaign 사용자에게는 특정한 역할이 주어집니다. 기본 사용자 유형을 알아봅니다.
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 82%
+source-wordcount: '1198'
+ht-degree: 81%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 82%
 
 Adobe Campaign을 사용하면 사용자에게 역할 세트를 할당하여 인터페이스에서 액세스 가능한 부분을 정의할 수 있습니다.
 
-특정 역할 및 이에 해당하는 권한은 다음 섹션에 자세히 설명되어 있습니다. [역할 이해](../../administration/using/list-of-roles.md) 및 [권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+특정 역할 및 이에 해당하는 권한은 다음 섹션에 자세히 설명되어 있습니다. [역할 이해](../../administration/using/list-of-roles.md) 및 [권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
-관리자는 Admin Console에서 사용자를 관리할 수 있습니다. 그러면 사용자는 Adobe Campaign과 자동으로 동기화됩니다. 자세한 내용은 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/users.html) 설명서.
+관리자는 Admin Console에서 사용자를 관리할 수 있습니다. 그러면 사용자는 Adobe Campaign과 자동으로 동기화됩니다. 자세한 내용은 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/users.html) 설명서를 참조하십시오.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
-Adobe Campaign에서 사용자를 보려면 **Adobe** 왼쪽 상단 모서리에서 로고를 선택한 다음 **[!UICONTROL Administration > Users & Security > Users]**.
+Adobe Campaign에서 사용자를 보려면 **Adobe** 로고, 왼쪽 상단 모서리에서 **[!UICONTROL Administration > Users & Security > Users]**.
 
 Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!UICONTROL User administration]**&#x200B;을(를) 클릭합니다.
 
@@ -35,18 +35,18 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 * [사용자 권한 관리](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html) 비디오
 * [역할 목록](../../administration/using/list-of-roles.md)
-* [권한 목록](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [권한 목록](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## 사용자 유형 {#type-of-users}
 
 사용자 세분화는 필수가 아니며, Adobe Campaign에서 일반적으로 사용하는 예시를 보여주는 것입니다.
 
-이 섹션은 Adobe Campaign 사용자의 주요 유형을 이해하는 데 도움이 됩니다. 사용자가 가질 수 있는 특정 역할(게재 시작, 내보내기, 게재 준비 등)에 대한 자세한 내용은 [역할 목록](../../administration/using/list-of-roles.md) 및 [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md) 페이지.
+이 섹션은 Adobe Campaign 사용자의 주요 유형을 이해하는 데 도움이 됩니다. 사용자가 가질 수 있는 특정 역할(게재 시작, 내보내기, 게재 준비 등)에 대한 자세한 내용은 을 참조하십시오. [역할 목록](../../administration/using/list-of-roles.md) 및 [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md) 페이지.
 
 여기에서는 다음 세 가지 주요 사용자 유형 간에 Adobe Campaign의 다양한 작업이 어떻게 구분되는지를 중점적으로 살펴봅니다.
 
 * [기능 관리자](#functional-administrators): 조직의 사용자 중 가장 기술적인 역할을 하는 사용자입니다.
-* [고급 사용자](#advanced-users): 이들은 마케터가 게재를 보내고 모니터링하는 데 필요한 모든 요소를 설정합니다.
+* [고급 사용자](#advanced-users): 마케터가 게재를 보내고 모니터링하는 데 필요한 모든 요소를 설정합니다.
 * [기본 사용자](#basic-users): 캠페인을 개인화, 게재 및 모니터링하는 마케터입니다.
 
 >[!NOTE]
@@ -59,7 +59,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 >[!IMPORTANT]
 >
->기능 관리자만, **[!UICONTROL Administration]** 역할 및 액세스 **모두** 단위가 전송 로그, 메시지 로그, 추적 로그, 제외 로그, 제안 로그 및 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타겟팅할 수 있지만 연결된 테이블(프로필, 게재)부터 시작합니다.
+>기능 관리자만 **[!UICONTROL Administration]** 역할 및 액세스 권한 **모두** 유닛은 전송 로그, 메시지 로그, 추적 로그, 제외 로그, 제안 로그 및 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블(프로필, 게재)에서 시작합니다.
 
 기능 관리자만이 Adobe Campaign 인터페이스의 **[!UICONTROL Administration]** 메뉴에 액세스할 수 있습니다. 이 사용자들은 기술 리소스에 액세스해야 하므로 고급 역할(예: **[!UICONTROL Administration]** 및 **[!UICONTROL Datamodel]** 기본 역할)을 할당해 주어야 합니다. 이러한 역할은 **[!UICONTROL Administrators]** 기본 보안 그룹에 결합되어 있습니다. 자세한 정보는 이 [섹션](../../administration/using/list-of-roles.md)을 참조하십시오.
 
@@ -102,7 +102,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 ## 사용자 만들기 {#creating-a-user}
 
-인스턴스에 사용자를 추가하려면 먼저 Admin Console에서 사용자를 만든 후 Adobe Campaign Standard에서 관리해야 합니다.
+인스턴스에 사용자를 추가하려면 먼저 Adobe Campaign Standard에서 관리하기 전에 Admin Console에서 사용자를 만들어야 합니다.
 
 1. 고급 메뉴에서 **[!UICONTROL Administration > Users & Security > Users]**&#x200B;을(를) 선택하고 **[!UICONTROL User administration]**&#x200B;을(를) 클릭하여 Admin Console에 액세스합니다.
 
@@ -118,7 +118,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
    ![](assets/create_user_3.png)
 
-1. 에서 **[!UICONTROL Assign products]** 탭에서 사용자에게 하나 이상의 보안 그룹을 할당합니다. 보안 그룹에 대한 자세한 내용은 이 [페이지](../../administration/using/managing-groups-and-users.md)를 참조하십시오.
+1. 다음에서 **[!UICONTROL Assign products]** 탭에서 사용자에게 하나 이상의 보안 그룹을 할당합니다. 보안 그룹에 대한 자세한 내용은 이 [페이지](../../administration/using/managing-groups-and-users.md)를 참조하십시오.
 
    구성을 완료하면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -154,7 +154,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 ## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 사용자 액세스 권한을 관리하는 방법을 보여줍니다.
+이 비디오는 사용자 액세스 권한을 관리하는 방법을 보여 줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 

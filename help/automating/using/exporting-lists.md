@@ -1,6 +1,6 @@
 ---
 title: 목록 내보내기
-description: 'Adobe Campaign을 사용하면 목록으로 표시되는 데이터를 나중에 사용할 수 있도록 개요 화면에서 직접 파일로 내보낼 수 있습니다. '
+description: Adobe Campaign을 사용하면 개요 화면에서 목록으로 표시된 데이터를 나중에 사용할 수 있도록 파일로 직접 내보낼 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -8,54 +8,54 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '441'
 ht-degree: 6%
 
 ---
 
 # 목록 내보내기{#exporting-lists}
 
-Adobe Campaign을 사용하면 목록을 나중에 사용할 수 있도록 파일에 직접 내보낼 수 있습니다. 파일에서 목록을 내보내면 **[!UICONTROL Export audits]** 메뉴 아래의 제품에서 사용할 수 있습니다. 감사 내보내기에 대한 자세한 내용은 [감사 내보내기](../../administration/using/auditing-export-logs.md) 섹션을 참조하십시오.
+Adobe Campaign을 사용하면 나중에 사용하기 위해 파일을 통해 직접 목록을 내보낼 수 있습니다. 파일에서 목록을 내보내면 **[!UICONTROL Export audits]** 메뉴 아래의 제품에서 사용할 수 있습니다. 감사 내보내기에 대한 자세한 내용은 [감사 내보내기](../../administration/using/auditing-export-logs.md) 섹션을 참조하십시오.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 목록을 구성하는 방법을 알아봅니다](#video)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 목록 구성 방법 살펴보기](#video)
 
-목록 내보내기 옵션을 사용하면 기본값으로 최대 100,000개의 줄을 내보내고 **Nms_ExportListLimit** 선택 사항입니다. 이 옵션은 기능 관리자의 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+목록 내보내기 옵션을 사용하면 기본값으로 최대 100,000개의 줄을 내보내고 **Nms_ExportListLimit** 옵션을 선택합니다. 이 옵션은 기능 관리자의 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-목록 내보내기 기능은 **목록** 모드 보기 - **[!UICONTROL EXPORT (export)]** 역할.
+목록 내보내기는 **목록** 모드 보기(를 사용하는 사용자) **[!UICONTROL EXPORT (export)]** 역할.
 
 1. 선택한 항목으로 이동 **목록** 화면. 예를 들어 테스트 프로필 개요 화면( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. 화면이 켜져 있는지 확인합니다 **목록** 모드.
+1. 화면이 표시되는지 확인 **목록** 모드.
 
    ![](assets/export_list_mode_switch.png)
 
-1. 목록에서 열을 내보내려는 순서대로 구성합니다. **[!UICONTROL Configure list]** 오른쪽 상단 모서리에서 버튼을 클릭합니다. 구성된 열 외에 리소스의 기본 키도 내보냅니다.
-1. 원한다면 필터를 적용할 수 있습니다. 이렇게 하려면 왼쪽 위 모서리의 버튼을 클릭하여 검색 창을 표시합니다.
+1. 를 사용하여 내보낼 순서대로 목록의 열을 구성합니다 **[!UICONTROL Configure list]** 오른쪽 상단 모서리에 있는 단추입니다. 구성된 열 외에 리소스의 기본 키도 내보내집니다.
+1. 원한다면 필터를 적용할 수 있습니다. 이렇게 하려면 왼쪽 상단 모서리에 있는 버튼을 클릭하여 검색 창을 표시합니다.
 
-   다른 리소스가 들어 있는 목록에서 내보내기를 수행하는 경우, 목록에 한 가지 유형의 리소스만 표시되도록 필터를 적용해야 합니다.
+   다른 리소스가 포함된 목록에서 내보내기를 수행하는 경우, 목록에 한 가지 유형의 리소스만 표시되도록 필터를 적용해야 합니다.
 
-1. 원하는 경우 선택한 열을 정렬합니다.
-1. 내보내기 단추를 선택합니다 ![](assets/exportlistbutton.png).
+1. 원한다면 선택한 열을 정렬하십시오.
+1. 내보내기 단추 선택 ![](assets/exportlistbutton.png).
 
-   팝업이 나타나서 내보내기를 확인합니다. 내보내기를 확인하면 파일이 자동으로 컴퓨터에 다운로드됩니다.
+   내보내기를 확인하는 팝업이 나타납니다. 내보내기를 확인하면 파일이 컴퓨터에 자동으로 다운로드됩니다.
 
-파일은 .TXT 확장명의 CSV 형식으로 생성됩니다. 내보낸 리소스와 내보내기 날짜에 따라 이름이 지정됩니다. 예: profileBase_20150426_120253.txt 이름은 2015년 4월 26일 12일에 수행된 프로필 내보내기에 적용됩니다:02:53. UTF-8 형식으로 인코딩됩니다.
+파일은 .TXT 확장자로 CSV 형식으로 생성됩니다. 내보낸 리소스와 내보내기 날짜에 따라 이름이 지정됩니다. 예를 들어, profileBase_20150426_120253.txt 이름은 2015년 4월 26일 12시에 수행되는 프로필 내보내기에 적용됩니다:02:53. UTF-8 형식으로 인코딩됩니다.
 
-숫자 값과 날짜는 내보내기를 수행하는 사용자의 현지 시간(로케일)을 고려합니다. 예: DD-MM-YYYY 또는 MM-DD-YYYY.
+숫자 값과 날짜는 내보내기를 수행하는 사용자의 현지 시간(로케일)을 고려합니다. 예: DD-MM-YYYY 또는 MM-DD-YYYY
 
-이보다 큰 내보내기를 수행하려면 전용 워크플로우를 만들어야 합니다. 자세한 내용은 [파일 추출](../../automating/using/extract-file.md) 섹션을 참조하십시오.
+이 크기보다 큰 내보내기를 수행하려면 전용 워크플로우를 만들어야 합니다. 다음을 참조하십시오. [파일 추출](../../automating/using/extract-file.md) 섹션.
 
 **예제**
 
-다음 예제는 아래에 정의된 프로필 목록에서 수행된 내보내기입니다.
+다음 예제는 아래에 정의된 프로필 목록에서 수행되는 내보내기입니다.
 
-* 표시되는 열(순서): 성, 이름, 생년월일, 이메일 주소.
-* 이름은 알파벳 순서로 정렬됩니다.
+* 성, 이름, 생년월일, 이메일 주소 순으로 표시되는 열.
+* 이름은 알파벳순으로 정렬됩니다.
 
 ![](assets/export_list_example1.png)
 
-생성된 파일은 처음 10개의 레코드에 대해 다음과 같이 표시됩니다.
+생성된 파일은 다음과 같이 표시됩니다(처음 10개 레코드의 경우).
 
 ```
 Last name;First name;Birth date;Email;Zip code
@@ -78,7 +78,7 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 ## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 목록을 구성하는 방법을 보여줍니다.
+이 비디오는 목록을 구성하는 방법을 보여 줍니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 

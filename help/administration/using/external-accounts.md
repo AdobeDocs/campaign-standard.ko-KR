@@ -1,14 +1,14 @@
 ---
 title: 외부 계정
-description: SFTP 서버와 같은 외부 시스템과의 연결을 설정하도록 외부 계정을 구성하는 방법을 알아봅니다
+description: SFTP 서버와 같은 외부 시스템과의 연결을 설정하도록 외부 계정을 구성하는 방법에 대해 알아봅니다
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1764'
 ht-degree: 80%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 80%
 * Adobe Analytics. 자세한 정보는 [이 섹션](../../integrating/using/configure-campaign-analytics-integration.md)을 참조하십시오.
 * Google reCAPTCHA. 자세한 정보는 [이 섹션](#google-recaptcha-external-account)을 참조하십시오.
 * Microsoft Azure Blob 저장 공간. 자세한 정보는 [이 섹션](#microsoft-azure-external-account)을 참조하십시오.
-* OAuth 2.0. 자세한 내용은 다음을 참조하십시오 [이 섹션](#oauth-account).
+* OAuth 2.0. 자세한 내용은 다음을 참조하십시오. [이 섹션](#oauth-account).
 
 >[!NOTE]
 >
@@ -79,30 +79,30 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 * 때때로 SFTP에 로그인하여 무엇이 있는지 직접 확인합니다.
 * SFTP 디스크 관리는 주로 사용자의 책임입니다.
 
-또한 SFTP 연결을 시작하려는 공용 IP를 Campaign 인스턴스의에 추가해야 허용 목록에 추가하다 합니다. IP 주소를에 허용 목록에 추가하다 추가할 때는 [지원 티켓](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)( 인증에 사용할 공개 키를 제공하는 것과 함께)
+또한 SFTP 연결을 시작하려는 퍼블릭 IP는 Campaign 인스턴스의 허용 목록에 추가하다에 추가해야 합니다. IP 주소를 허용 목록에 추가하다에 추가하는 것은 [지원 티켓](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)인증에 사용할 공개 키를 제공할 수 있습니다.
 
-SFTP 서버는 Campaign 컨트롤 패널에서 관리할 수 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)를 참조하십시오.
+SFTP 서버는 컨트롤 패널에서 관리할 수 있습니다. 자세한 내용은 [컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)를 참조하십시오.
 
 >[!NOTE]
 >
->Campaign 컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
+>컨트롤 패널은 모든 관리 사용자가 액세스할 수 있습니다. 사용자에게 관리자 권한을 부여하는 단계는 [이 페이지](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ko#discover-control-panel)에 자세히 설명되어 있습니다.
 
 ## OAuth 2.0 계정 {#oauth-account}
 
-OAuth 2.0 외부 계정의 경우 다음 세부 정보를 제공합니다.
+OAuth 2.0 외부 계정의 경우 다음 세부 사항을 제공합니다.
 
-* A **권한 부여 유형**: 전용 **클라이언트 자격 증명** 가 지원됩니다.
+* A **권한 유형**: 만 **클라이언트 자격 증명** 은(는) 지원됩니다.
 * A **보안 API URL**: 인증 끝점을 입력합니다.
-* **OAuth 2.0 중요 자격 증명**: 이 섹션은 기본적으로 중요한 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 마스킹됩니다. 이 시점에서는 읽을 수 없거나 편집할 수 없습니다. 인증 종단점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
-* **OAuth 2.0 민감하지 않은 자격 증명**: 이 섹션은 기본적으로 민감하지 않은 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 표시됩니다. 편집 가능합니다.  인증 종단점에 POST 본문 매개 변수 대신 HTTP 인증 헤더에 특정 자격 증명을 삽입해야 하는 경우 해당 자격 증명을 위해 헤더에 포함 옵션을 선택할 수 있습니다.
+* **OAuth 2.0 중요 자격 증명**: 이 섹션은 해당 특성에서 민감한 자격 증명을 위한 것입니다. 자격 증명 값은 추가된 후 화면에 마스킹됩니다. 이 시점에서 읽을 수 없거나 편집할 수 없습니다. 인증 끝점에 특정 자격 증명을 POST 본문 매개 변수 대신 HTTP 인증 헤더에 삽입해야 하는 경우, 해당 자격 증명에 대해 헤더에 포함 옵션을 선택할 수 있습니다.
+* **민감하지 않은 OAuth 2.0 자격 증명**: 이 섹션은 기본적으로 중요하지 않은 자격 증명을 위한 것입니다. 자격 증명 값은 추가되면 화면에 표시되며, 편집할 수도 있습니다.  인증 끝점에 특정 자격 증명을 POST 본문 매개 변수 대신 HTTP 인증 헤더에 삽입해야 하는 경우, 해당 자격 증명에 대해 헤더에 포함 옵션을 선택할 수 있습니다.
 
-계정 정보를 입력한 후 **연결 테스트** 외부 계정이 올바르게 구성되었는지 확인하려면 다음을 수행하십시오.
+계정 정보를 입력한 후 을(를) 클릭합니다 **연결 테스트** 외부 계정이 올바르게 구성되었는지 확인합니다.
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->자격 증명 &quot;Content-Type: application/x-www-form-urlencoded&quot; 및 &quot;grant_type=client_credentials&quot;가 자동으로 API 호출에 추가됩니다. 따라서 자격 증명 섹션에 추가할 필요가 없습니다.
+>자격 증명 &quot;Content-Type: application/x-www-form-urlencoded&quot; 및 &quot;grant_type=client_credentials&quot;는 API 호출에 자동으로 추가되므로 자격 증명 섹션에 추가할 필요가 없습니다.
 
 ## Amazon S3 외부 계정 {#amazon-s3-external-account}
 
@@ -138,7 +138,7 @@ Adobe Experience Manager 외부 계정은 Campaign과 Experience Manager를 통�
 
 이 통합과 관련된 프로세스 및 요구 사항은 [이 문서](../../integrating/using/get-started-campaign-integrations.md)에서 사용할 수 있습니다.
 
-이 새 외부 계정을 설정할 때 다음 세부 사항을 제공해야 합니다.
+이 새 외부 계정을 설정할 때 다음 세부 정보를 제공해야 합니다.
 
 * 서버: Adobe Experience Manager 서버의 URL을 입력합니다. 예제:
 
@@ -156,7 +156,7 @@ Adobe Experience Manager 외부 계정은 Campaign과 Experience Manager를 통�
 
 Google reCAPTCHA 메커니즘을 사용하면 봇으로 인한 스팸 및 악용으로부터 랜딩 페이지를 보호할 수 있습니다. 이는 고객과의 상호 작용이 필요하지 않고 사이트와의 상호 작용을 기반으로 하기 때문에 고객을 방해하지 않습니다. 사이트를 등록하려면 이 [페이지](https://www.google.com/recaptcha/admin/create)를 참조하십시오. V3 reCAPTCHA 유형을 선택해야 합니다.
 
-Google reCAPTCHA V3을 랜딩 페이지에 추가하려면 외부 계정에서 구성합니다. 랜딩 페이지에 추가하는 방법에 대한 자세한 내용은 이 [섹션](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)을 참조하십시오.
+Google reCAPTCHA V3를 랜딩 페이지에 추가하려면 외부 계정에서 구성합니다. 랜딩 페이지에 추가하는 방법에 대한 자세한 내용은 이 [섹션](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)을 참조하십시오.
 
 Google reCAPTCHA V3 외부 계정의 경우 다음 세부 정보를 제공합니다.
 
@@ -182,8 +182,8 @@ Microsoft Azure Blob 저장 공간 외부 계정의 경우 다음 세부 정보�
 * 외부 계정의 **[!UICONTROL Label]** 및 **[!UICONTROL ID]**
 * **[!UICONTROL Type]**: Microsoft Azure Blob 저장 공간
 * 사용자 **[!UICONTROL Account name]** 및 **[!UICONTROL Account key]**. 계정 이름과 키를 찾을 수 있는 위치를 파악하려면 이 [페이지](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)를 참조하십시오.
-* 사용자 **[!UICONTROL Endpoint suffix]**. Azure 포털 **[!UICONTROL Access keys]** 메뉴의 **[!UICONTROL Connection string]**&#x200B;에서 찾을 수 있습니다. 자세한 정보는 이 [페이지](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)를 참조하십시오.
-* 사용자 **[!UICONTROL Container]** 이름. 두 개 이상의 컨테이너를 사용하려는 경우 외부 계정을 컨테이너만큼 만들어야 합니다.
+* 사용자 **[!UICONTROL Endpoint suffix]**. Azure 포털 **[!UICONTROL Access keys]** 메뉴의 **[!UICONTROL Connection string]**&#x200B;에서 찾을 수 있습니다. 자세한 정보는 이 [페이지](https://docs.microsoft.com/ko-kr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal)를 참조하십시오.
+* 사용자 **[!UICONTROL Container]** 이름. 두 개 이상의 컨테이너를 사용하려는 경우 외부 계정을 컨테이너만큼 만듭니다.
 * **[!UICONTROL Concurrency]** 옵션을 사용하면 파일 전송 속도를 세밀하게 조정할 수 있습니다.
 
 ![](assets/external_accounts_4.png)
