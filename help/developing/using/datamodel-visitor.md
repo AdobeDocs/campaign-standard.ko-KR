@@ -10,7 +10,7 @@ exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 17%
+ht-degree: 42%
 
 ---
 
@@ -23,29 +23,29 @@ ht-degree: 17%
         <th>이름</th>
         <th>레이블</th>
         <th>유형(길이)</th>
-        <th>열거형 값</th>
+        <th>열거 값</th>
     </tr>
     <tr>
         <td>PKey</td>
         <td>기본 리소스 ID</td>
-        <td>string </td>
+        <td>문자열 </td>
         <td> </td>
     </tr>
     <tr>
         <td>댓글</td>
-        <td>레퍼러 주석</td>
+        <td>레퍼러 댓글</td>
         <td>문자열(255)</td>
         <td> </td>
     </tr>
     <tr>
         <td>생성됨</td>
-        <td>생성됨</td>
-        <td>날짜 </td>
+        <td>제작일</td>
+        <td>date </td>
         <td> </td>
     </tr>
     <tr>
-        <td>createdBy(userBase)</td>
-        <td>만든 사람</td>
+        <td>createdBy (userBase)</td>
+        <td>제작자</td>
         <td>링크 </td>
         <td> </td>
     </tr>
@@ -57,7 +57,7 @@ ht-degree: 17%
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>마지막 게재의 ID</td>
+        <td>마지막 게재 ID</td>
         <td>정수 </td>
         <td> </td>
     </tr>
@@ -80,14 +80,14 @@ ht-degree: 17%
         <td> </td>
     </tr>
     <tr>
-        <td>firstName</td>
+        <td>이름</td>
         <td>이름</td>
         <td>문자열(30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>forwardUrl</td>
-        <td>Url 전달</td>
+        <td>전달 URL</td>
         <td>문자열(255)</td>
         <td> </td>
     </tr>
@@ -98,13 +98,13 @@ ht-degree: 17%
         <td> </td>
     </tr>
     <tr>
-        <td>lastModified</td>
         <td>마지막 수정일</td>
-        <td>날짜 </td>
+        <td>마지막 수정일</td>
+        <td>date </td>
         <td> </td>
     </tr>
     <tr>
-        <td>lastName</td>
+        <td>성</td>
         <td>성</td>
         <td>문자열(50)</td>
         <td> </td>
@@ -117,13 +117,13 @@ ht-degree: 17%
     </tr>
     <tr>
         <td>orgUnit(orgUnitBase)</td>
-        <td>조직 단위</td>
+        <td>조직 유닛</td>
         <td>링크 </td>
         <td> </td>
     </tr>
     <tr>
         <td>원본</td>
-        <td>Origin</td>
+        <td>원본</td>
         <td>열거형(바이트) </td>
         <td>
             <ul>
@@ -133,8 +133,8 @@ ht-degree: 17%
         </td>
     </tr>
     <tr>
-        <td>수신자(수신자)</td>
-        <td>식별된 프로필</td>
+        <td>수신자 (recipient)</td>
+        <td>확인된 프로필</td>
         <td>링크 </td>
         <td> </td>
     </tr>
@@ -151,7 +151,7 @@ ht-degree: 17%
         <td> </td>
     </tr>
     <tr>
-        <td>referrerFirstName</td>
+        <td>레퍼러 이름</td>
         <td>레퍼러 이름</td>
         <td>문자열(30)</td>
         <td> </td>
@@ -163,13 +163,13 @@ ht-degree: 17%
         <td> </td>
     </tr>
     <tr>
-        <td>referrerLastName</td>
+        <td>레퍼러 성</td>
         <td>레퍼러 성</td>
         <td>문자열(50)</td>
         <td> </td>
     </tr>
     <tr>
-        <td>referrerRcp(recipient)</td>
+        <td>referrerRcp (recipient)</td>
         <td>레퍼러</td>
         <td>링크 </td>
         <td> </td>
@@ -184,7 +184,7 @@ ht-degree: 17%
 
 ## 필터
 
-성, 이름 또는 전자 메일(byText)</p>
+성, 이름 또는 이메일(byText)별</p>
 
 <table>
         <tr>
@@ -193,6 +193,6 @@ ht-degree: 17%
         </tr>
         <tr>
         <td>텍스트</td>
-        <td>string</td>
+        <td>문자열</td>
         </tr>
     </table>

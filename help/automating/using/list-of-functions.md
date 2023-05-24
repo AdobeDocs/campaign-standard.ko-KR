@@ -35,7 +35,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->외부 매개 변수를 사용한 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있도록 하는 모든 활동에서 추가 함수를 사용할 수 있습니다. 자세한 내용은 [이 섹션](../../automating/using/customizing-workflow-external-parameters.md).
+>외부 매개 변수로 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있는 모든 활동에서 추가 함수를 사용할 수 있습니다. 자세한 내용은 다음과 같습니다 [이 섹션](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## 날짜 {#dates}
 
@@ -706,9 +706,9 @@ ht-degree: 95%
    <td> Min(&lt;값&gt;)<br /> </td> 
   </tr>
   <tr>
-   <td> <strong>StringAgg</strong>, 문자열 합계<br /> </td>
-   <td> 두 번째 인수에서 문자로 구분되는 문자열 유형 열의 값 연결을 반환합니다(기본 구분 기호는 쉼표).<br /> </td>
-   <td> StringAgg(&lt;string values=""&gt;,&lt;separator&gt;)
+   <td> <strong>문자열 집계</strong>, 문자열 집계<br /> </td>
+   <td> 두 번째 인수의 문자로 구분된 문자열 유형 열의 값 연결을 반환합니다(기본 구분 기호는 쉼표).<br /> </td>
+   <td> StringAg(&lt;string values=""&gt;,&lt;separator&gt;)
   </tr>
   <tr> 
    <td> <strong>Sum</strong>, 합계<br /> </td> 

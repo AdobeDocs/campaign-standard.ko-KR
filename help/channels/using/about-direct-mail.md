@@ -40,7 +40,7 @@ Adobe Campaign의 사용자 프로세스는 다음과 같습니다.
 
 * [사용 사례: 이메일 및 DM 게재 연결](../../automating/using/coupling-email-direct-mail.md)
 
-## 추천 {#recommendations}
+## 권장 사항 {#recommendations}
 
 ### DM 공급자 {#direct-mail-providers}
 

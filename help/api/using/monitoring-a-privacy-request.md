@@ -1,6 +1,6 @@
 ---
 title: 개인 정보 요청 모니터링
-description: API를 사용하여 개인 정보 보호 요청을 모니터링하는 방법을 알아봅니다
+description: API를 사용하여 개인 정보 요청을 모니터링하는 방법 알아보기
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # 개인 정보 요청 모니터링 {#monitoring-a-privacy-request}
 
-생성된 개인 정보 보호 요청에 대한 정보를 **GET** 요청.
+다음을 사용하여 생성된 개인 정보 보호 요청에 대한 정보를 모니터링할 수 있습니다. **GET** 요청.
 
 상태 목록 설명은 [개인 정보 관리 설명서](../../start/using/privacy-requests.md).
 

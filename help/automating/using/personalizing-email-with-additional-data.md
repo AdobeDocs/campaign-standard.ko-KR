@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # 추가 데이터를 사용하여 이메일 개인화 {#example--personalizing-an-email-with-additional-data}
 
-다음 예제에서는 쿼리에 다양한 유형의 데이터를 추가하여 이메일의 개인화 필드로 사용하는 방법을 보여줍니다. 의 타겟팅한 데이터를 보강하는 방법에 대한 자세한 내용 **[!UICONTROL Query]** 활동, [이 섹션](../../automating/using/query.md#enriching-data).
+다음 예제에서는 쿼리에 다양한 유형의 데이터를 추가하여 이메일의 개인화 필드로 사용하는 방법을 보여줍니다. 에 의해 타깃팅된 데이터를 보강하는 방법에 대한 자세한 내용 **[!UICONTROL Query]** 활동. 참조: [이 섹션](../../automating/using/query.md#enriching-data).
 
 이 예제에서는 [사용자 정의 리소스](../../developing/using/data-model-concepts.md)를 사용합니다.
 
@@ -32,7 +32,7 @@ ht-degree: 86%
 
 ![](assets/enrichment_example1.png)
 
-1. 추가 [쿼리](../../automating/using/query.md) 활동을 통해 하나 이상의 트랜잭션을 수행한 프로필을 타겟팅할 수 있습니다.
+1. 추가 [쿼리](../../automating/using/query.md) 활동: 하나 이상의 트랜잭션을 수행한 프로필을 타겟팅할 수 있습니다.
 
    ![](assets/enrichment_example2.png)
 

@@ -1,6 +1,6 @@
 ---
 title: 기술 워크플로우
-description: 기술 워크플로우에 대한 자세한 정보
+description: 기술 워크플로우에 대해 자세히 알아보기
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -102,12 +102,12 @@ ht-degree: 89%
   <tr> 
    <td> <span class="uicontrol">추적 로그 복구</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> 이 워크플로우는 손실된 추적 로그를 복원합니다. 이 기술 워크플로우는 특정 컨텍스트에서 사용되며 내부 Adobe만 사용하도록 제한됩니다. <br> 기본적으로 10분마다 시작됩니다.<br /> </td> 
+   <td> 이 워크플로우는 손실된 추적 로그를 복원합니다. 이 기술 워크플로우는 특정 컨텍스트에서 사용되며 Adobe 내부용으로만 제한됩니다. <br> 기본적으로 10분마다 시작됩니다.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">게재 실행 업데이트</span> <br/> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
-   <td> 이 워크플로우는 로컬 데이터베이스의 브로드로그와 추적 로그를 복사합니다. 기본적으로 10분마다 시작됩니다.<br/> </td> 
+   <td> 이 워크플로우는 로컬 데이터베이스의 브로드로그 및 추적 로그를 복사합니다. 기본적으로 10분마다 시작됩니다.<br/> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">게재 표시기 업데이트</span> <br /> </td> 

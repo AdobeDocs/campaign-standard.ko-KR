@@ -1,6 +1,6 @@
 ---
 title: 구독 수행
-description: API로 구독을 수행하는 방법을 알아봅니다
+description: API를 사용하여 구독을 수행하는 방법 알아보기
 feature: API
 role: Data Engineer
 level: Experienced
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 방법 1: 서비스에 프로필 가입
 
-GET 요청을 수행하여 프로필을 검색합니다.
+프로필을 검색하려면 GET 요청을 수행하십시오.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +40,7 @@ GET 요청을 수행하여 프로필을 검색합니다.
   }
 ```
 
-페이로드 내에 원하는 서비스 기본 키를 사용하여 구독 URL에 POST 요청을 수행합니다.
+페이로드 내에 원하는 서비스 기본 키가 있는 구독 URL에 대해 POST 요청을 수행합니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -67,7 +67,7 @@ GET 요청을 수행하여 프로필을 검색합니다.
 }
 ```
 
-## 방법 2: 서비스의 구독자에 프로필 추가
+## 방법 2: 서비스 가입자에 프로필 추가
 
 서비스를 검색하려면 GET 요청을 수행하십시오.
 
@@ -93,7 +93,7 @@ GET 요청을 수행하여 프로필을 검색합니다.
   },
 ```
 
-페이로드 내에 원하는 프로필 기본 키를 사용하여 구독 URL에 POST 요청을 수행합니다.
+페이로드 내에 원하는 POST 기본 키를 사용하여 구독 URL에 대한 프로필 요청을 수행합니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \

@@ -10,7 +10,7 @@ exl-id: 0f5dd92c-2222-4456-86cd-3cc2e1c83fc1
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '36'
-ht-degree: 8%
+ht-degree: 33%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 8%
                   <th>이름</th>
                   <th>레이블</th>
                   <th>유형(길이)</th>
-                  <th>열거형 값</th>
+                  <th>열거 값</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>기본 리소스 ID</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -40,19 +40,19 @@ ht-degree: 8%
                <tr>
                   <td>로그</td>
                   <td>로그</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>pointerTo</td>
-                  <td>PointerTo</td>
-                  <td>string </td>
+                  <td>포인터</td>
+                  <td>포인터</td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>srvDate</td>
                   <td>SrvDate</td>
-                  <td>날짜 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
             </table>

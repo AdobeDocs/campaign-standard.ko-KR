@@ -69,7 +69,7 @@ ht-degree: 97%
 
    ![](assets/lp_parameters_3_temp.png)
 
-또한 **[!UICONTROL Authorize unidentified visitors]** 선택 사항입니다.
+를 사용하여 모든 방문자에게 랜딩 페이지 액세스를 승인할 수도 있습니다. **[!UICONTROL Authorize unidentified visitors]** 옵션을 선택합니다.
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 

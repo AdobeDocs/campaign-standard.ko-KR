@@ -1,6 +1,6 @@
 ---
 title: 이메일 및 DM 게재 연결
-description: 이 사용 사례에서는 워크플로우에서 이메일 및 DM 전송을 예로 들 수 있습니다.
+description: 이 사용 사례에서는 워크플로우에서 보내는 이메일 및 DM의 예를 보여 줍니다.
 audience: channels
 content-type: reference
 topic-tags: direct-mail

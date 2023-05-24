@@ -16,7 +16,7 @@ ht-degree: 96%
 
 ---
 
-# 데이터 보강{#enrichment}
+# 보강{#enrichment}
 
 ## 설명 {#description}
 

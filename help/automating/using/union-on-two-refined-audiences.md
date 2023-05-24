@@ -1,6 +1,6 @@
 ---
 title: 정교화한 두 대상자 결합
-description: 이 사용 사례에서는 두 읽기 대상 활동의 결합을 보여줍니다.
+description: 이 사용 사례는 두 대상자 읽기 활동의 결합을 보여줍니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -26,5 +26,5 @@ ht-degree: 58%
 
 * 첫 번째 [대상자 읽기](../../automating/using/read-audience.md) 활동은 골드 멤버 대상자를 검색하고 18세에서 30세 사이의 프로필만 선택하여 정교화합니다.
 * 두 번째 **[!UICONTROL Read audience]** 활동으로 실버 멤버 대상자를 검색하고 18세에서 30세 사이의 프로필만 선택하여 정교화합니다.
-* A [결합](../../automating/using/union.md) 두 가지 모두에서 모집단을 결합하는 활동 **[!UICONTROL Read audiences]** 활동을 하나의 최종 모집단으로 만듭니다.
-* An [이메일 게재](../../automating/using/email-delivery.md) 에서 만든 모집단에 이메일을 보내는 활동 **[!UICONTROL Union]** 활동.
+* A [합집합](../../automating/using/union.md) 활동으로 두 모집단 모두 통합 **[!UICONTROL Read audiences]** 활동을 하나의 최종 모집단으로 만듭니다.
+* An [이메일 게재](../../automating/using/email-delivery.md) 활동으로 다음의 모집단에 이메일을 보냅니다. **[!UICONTROL Union]** 활동.

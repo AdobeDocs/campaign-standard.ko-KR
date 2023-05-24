@@ -1,6 +1,6 @@
 ---
 title: 메시지 추적
-description: 게재 수신자의 동작을 추적하는 방법을 알아봅니다.
+description: 게재 수신자의 동작을 추적하는 방법에 대해 알아봅니다.
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
@@ -11,7 +11,7 @@ exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 21%
+ht-degree: 25%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 21%
 
 ## 추적 기본 정보 {#about-tracking}
 
-Adobe Campaign은 추적 기능 덕분에 게재 수신자의 동작을 추적할 수 있습니다. 이를 위해 Adobe Campaign은 세션 쿠키와 영구 쿠키를 사용합니다.
+추적 기능 덕분에 Adobe Campaign을 사용하면 게재 수신자의 동작을 추적할 수 있습니다. 이를 위해 Adobe Campaign은 세션 쿠키와 영구 쿠키를 사용합니다.
 
-쿠키의 사용을 승인하는 확인란이 포함된 권한 부여 요청(예: 페이지 위로 올라오는 요청)을 통해 사이트가 웹 추적 도구를 갖추고 있음을 사용자에게 알리거나, 첫 번째 페이지가 시작되는 등의 페이지에 배너를 추가할 수 있습니다. 팝업 창은 브라우저에 의해 종종 차단되므로 사용하지 않아야 합니다.
+쿠키의 사용을 승인하는 확인란이 포함된 권한 부여 요청(예: 페이지 위로 올라오는 요청)을 통해 사이트가 웹 추적 도구를 갖추고 있음을 사용자에게 알리거나, 첫 번째 랜딩 페이지 등에 배너를 추가할 수 있습니다. 팝업 창은 브라우저에 의해 종종 차단되므로 사용하지 않아야 합니다.
 
-추적 정보는 데이터베이스의 각 연락처마다 **[!UICONTROL integrated customer profiles]**. 이 작업에 대한 자세한 정보는 [이 섹션](../../audiences/using/integrated-customer-profile.md)을 참조하십시오.
+추적 정보는에서 데이터베이스의 각 연락처에 대해 사용할 수 있습니다. **[!UICONTROL integrated customer profiles]**. 이 작업에 대한 자세한 정보는 [이 섹션](../../audiences/using/integrated-customer-profile.md)을 참조하십시오.
 
 Adobe Campaign은 다음 두 가지 유형의 쿠키를 사용합니다.
 
-* 세션 쿠키(nlid)입니다. 여기에는 연락처로 보낸 전자 메일의 식별자(broadlogId)와 메시지 템플릿의 식별자(deliveryId)가 포함됩니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
-* Adobe Experience Cloud 솔루션 간에 공유된 쿠키. 이를 통해 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 이 쿠키에 대한 설명을 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
+* 세션 쿠키(nlid). 여기에는 연락처로 보낸 전자 메일의 식별자(broadlogId)와 메시지 템플릿의 식별자(deliveryId)가 포함됩니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
+* Adobe Experience Cloud 솔루션 간에 공유되는 쿠키입니다. 이렇게 하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 이 쿠키의 설명을 사용할 수 있습니다. [여기](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
 Adobe Campaign Standard을 사용하여 추적하면 다음 기능에 액세스할 수 있습니다.
 
@@ -61,38 +61,38 @@ Adobe Campaign Standard을 사용하여 추적하면 다음 기능에 액세스�
 
 ## 추적 로그 {#tracking-logs}
 
-다음 **[!UICONTROL Tracking logs]** 탭에는 이 게재의 추적 기록이 나열됩니다. 이 탭에는 Adobe Campaign에서 추적한 모든 URL과 같이 전송된 메시지에 대한 추적 정보가 표시됩니다. 이 탭의 추적 정보는 10분마다 업데이트됩니다.
+다음 **[!UICONTROL Tracking logs]** 탭에는 이 게재에 대한 추적 기록이 나열됩니다. 이 탭에는 Adobe Campaign에서 추적한 모든 URL과 같은 보낸 메시지에 대한 추적 정보가 표시됩니다. 이 탭의 추적 정보는 10분마다 업데이트됩니다.
 
 >[!NOTE]
 >
->게재에 대해 추적이 활성화되어 있지 않으면 이 탭이 표시되지 않습니다. 추적 로그는 **이메일** 및 **푸시 알림** 채널만 사용합니다.
+>게재에 대해 추적이 활성화되어 있지 않은 경우 이 탭이 표시되지 않습니다. 추적 로그는 다음에 사용할 수 있습니다. **이메일** 및 **푸시 알림** 채널만.
 
 ![](assets/tracking_logs.png)
 
 위의 예에서 수신자는
 
 * 메시지를 열었습니다.
-* 미러 페이지 링크를 클릭합니다.
-* 사용자 지정 링크를 클릭합니다.
+* 미러 페이지 링크를 클릭했습니다.
+* &quot;자세히 알아보기&quot; 사용자 지정 링크를 클릭합니다.
 
-에서 **[!UICONTROL Type]** 열, 가능한 값은 다음과 같습니다.
+다음에서 **[!UICONTROL Type]** 열, 가능한 값은 다음과 같습니다.
 
-* **[!UICONTROL Email click]**: 수신자가 사용자 지정 링크를 클릭합니다.
-* **[!UICONTROL Mirror page]**: 수신자가 미러 페이지에 대한 링크를 클릭합니다.
+* **[!UICONTROL Email click]**: 수신자가 사용자 지정 링크를 클릭했습니다.
+* **[!UICONTROL Mirror page]**: 수신자가 미러 페이지 링크를 클릭했습니다.
 * **[!UICONTROL Open]**: 수신자가 이메일을 열었습니다.
-* **[!UICONTROL Opt-out]**: 수신자가 구독 취소 링크를 클릭합니다.
+* **[!UICONTROL Opt-out]**: 수신자가 구독 취소 링크를 클릭했습니다.
 
 >[!NOTE]
 >
->대상 **푸시 알림** 채널에서는 모바일 알림에 대한 클릭만 추적됩니다. 이 경우 값은 **[!UICONTROL Click on mobile notification]**.
+>의 경우 **푸시 알림** 채널은 모바일 알림에 대한 클릭만 추적됩니다. 이 경우 값은 다음과 같습니다 **[!UICONTROL Click on mobile notification]**.
 
 추적 링크를 삽입하는 방법에 대한 자세한 내용은 [이 페이지](../../designing/using/links.md#inserting-a-link).
 
-다음 **[!UICONTROL Tracking indicators]** 보고서에는 이메일 메시지를 받은 후 추적 동작을 위한 주요 지표가 포함되어 있습니다. 자세한 정보는 이 [페이지](../../reporting/using/tracking-indicators.md)를 참조하십시오.
+다음 **[!UICONTROL Tracking indicators]** 보고서에는 이메일 메시지가 수신된 후 추적 동작에 대한 주요 지표가 포함되어 있습니다. 자세한 정보는 이 [페이지](../../reporting/using/tracking-indicators.md)를 참조하십시오.
 
 ## 추적된 URL {#tracked-urls}
 
-다음 **[!UICONTROL Tracked URLs]** 탭에는 전송 메시지에 포함된 URL(해당 URL 유형 및 소스 URL 포함)이 다시 그룹화됩니다.
+다음 **[!UICONTROL Tracked URLs]** 탭은 URL 유형 및 소스 URL을 포함하여 전송된 메시지에 포함된 URL을 다시 그룹화합니다.
 
 ![](assets/sending_delivery6.png)
 

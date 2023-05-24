@@ -1,6 +1,6 @@
 ---
 title: 프로필의 조직 단위 업데이트
-description: 프로필의 조직 단위를 API로 업데이트하는 방법을 알아봅니다.
+description: API를 사용하여 프로필의 조직 단위를 업데이트하는 방법을 알아봅니다.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,8 +17,8 @@ ht-degree: 10%
 
 # 프로필의 조직 단위 업데이트 {#managing-organizational-units}
 
-1. 에서 GET 요청을 수행합니다. **orgUnitBase** 조직 단위 PKey를 검색할 리소스
-1. 페이로드에서 원하는 조직 단위 PKey를 사용하여 프로필 PKey에 PATCH 요청을 수행합니다.
+1. 에 대한 GET 요청 수행 **orgUnitBase** 조직 단위 PKey를 검색하는 리소스
+1. 페이로드에 원하는 조직 단위 PKey를 사용하여 프로필 PKey에 대한 PATCH 요청을 수행합니다.
 
 <br/>
 
@@ -34,7 +34,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-모든 조직 단위를 반환합니다. 프로파일을 할당할 장치의 PKey를 검색합니다.
+모든 조직 단위를 반환합니다. 프로필을 할당할 장치의 PKey를 검색합니다.
 
 ```
 {
@@ -50,7 +50,7 @@ ht-degree: 10%
 },
 ```
 
-페이로드에서 원하는 조직 단위의 PKey를 사용하여 프로필에 PATCH 요청을 수행합니다.
+페이로드에서 원하는 조직 단위의 PKey를 사용하여 프로필에 대한 PATCH 요청을 수행합니다.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

@@ -17,12 +17,12 @@ ht-degree: 6%
 
 # CCPA 옵트아웃 관리 {#managing-ccpa-optout}
 
-프로필의 CCPA 옵트아웃 상태는 **ccpaOptOut** 프로필 속성 및 &quot;true&quot; 또는 &quot;false&quot; 값:
+를 사용하여 프로필의 CCPA 옵트아웃 상태를 모니터링하고 관리할 수 있습니다. **ccpaOptOut** 프로필 속성 및 &quot;true&quot; 또는 &quot;false&quot; 값:
 
 `"ccpaOptOut": <value>`
 
-* **true**: 개인 정보 판매를 금하고 있다.
-* **false**: 개인 정보의 판매를 승인합니다.
+* **true**: 개인 정보 판매를 금지합니다.
+* **false**: 개인 정보 판매를 허용합니다.
 
 <!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >
@@ -32,7 +32,7 @@ ht-degree: 6%
 
 ***샘플 요청***
 
-* 프로필의 CCPA 옵트아웃 상태를 검색하기 위한 샘플 GET 요청.
+* 프로필의 CCPA 옵트아웃 상태를 검색하는 샘플 GET 요청.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -84,7 +84,7 @@ ht-degree: 6%
    }
    ```
 
-* CCPA 옵트아웃용 프로필을 업데이트하기 위한 샘플 PATCH 요청.
+* CCPA 옵트아웃에 대한 프로필을 업데이트하기 위한 샘플 PATCH 요청입니다.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \

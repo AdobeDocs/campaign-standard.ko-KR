@@ -1,6 +1,6 @@
 ---
 title: 프로필 업데이트
-description: API로 프로필을 업데이트하는 방법에 대해 자세히 알아보십시오
+description: API를 사용하여 프로필을 업데이트하는 방법에 대해 자세히 알아보기
 feature: API
 role: Data Engineer
 level: Experienced
@@ -18,17 +18,17 @@ ht-degree: 2%
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 첫 번째 단계는 다음과 같습니다. **프로파일 검색**.
+1. 첫 번째 단계는 **프로필 검색**.
 
-1. 두 번째 요청에서 **PATCH 요청** 를 입력합니다.
+1. 두 번째 요청에서 **PATCH 요청** 페이로드에 완료된 정보가 있는 프로필에 대해 게시합니다.
 
-1. PATCH 요청이 프로필을 업데이트했는지 확인하기 위해 최종 GET 요청을 수행할 수 있습니다.
+1. PATCH 요청이 GET을 업데이트했는지 확인하기 위해 최종 프로필 요청을 수행할 수 있습니다.
 
 <br/>
 
 ***샘플 요청***
 
-프로필을 검색하기 위한 샘플 GET 요청.
+프로필 검색에 대한 샘플 GET 요청.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -54,7 +54,7 @@ ht-degree: 2%
 }
 ```
 
-&quot;phone&quot; 속성을 업데이트하기 위한 PATCH 요청.
+&quot;phone&quot; 속성을 업데이트하라는 PATCH 요청입니다.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

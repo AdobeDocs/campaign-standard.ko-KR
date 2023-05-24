@@ -1,6 +1,6 @@
 ---
 title: Integrated customer profile
-description: '"단일 보기에서 모든 고객 상호 작용을 추적할 수 있습니다. Adobe Campaign Integrated Customer Profile은 고객 수명 주기 내내 업데이트됩니다."'
+description: "단일 보기에서 모든 고객 상호 작용을 추적할 수 있습니다. Adobe Campaign Integrated Customer Profile은 고객 수명 주기 내내 업데이트됩니다."
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
@@ -22,9 +22,9 @@ Integrated Customer Profile은 데이터베이스의 각 연락처에서 사용�
 
 Integrated Customer Profile에 액세스하기 위한 단계는 다음과 같습니다.
 
-1. Adobe Campaign 홈페이지에서 **[!UICONTROL Customer profiles]** 카드 또는 **프로필** 탭을 클릭하여 프로필 목록을 표시합니다.
+1. Adobe Campaign 홈페이지에서 **[!UICONTROL Customer profiles]** 카드 또는 **프로필** 탭을 사용하여 프로필 목록을 표시할 수 있습니다.
 
-1. 특정 필드를 기반으로 프로필을 검색하려면 검색 창을 열고 검색을 수행할 필드를 선택합니다.
+1. 특정 필드를 기준으로 프로필을 검색하려면 검색 창을 연 다음 검색을 수행할 필드를 선택합니다.
 
 
    ![](assets/profile-search.png)
@@ -33,11 +33,11 @@ Integrated Customer Profile에 액세스하기 위한 단계는 다음과 같습
 
    >[!NOTE]
    >
-   >리소스를 확장할 때 추가한 사용자 지정 필드뿐만 아니라 이메일, 이름 및 성 필드를 기반으로 검색을 수행할 수 있습니다.
+   >이메일, 이름 및 성 필드와 리소스 확장 시 추가된 사용자 정의 필드를 기반으로 검색을 수행할 수 있습니다.
    >
-   >검색은 대소문자를 구분하며 접두사에서만 수행됩니다. 예를 들어 성의 성을 사용하여 프로필을 찾을 수 없습니다.
+   >검색은 대/소문자를 구분하며 접두사에 대해서만 수행됩니다. 예를 들어 성(성)의 성(성)을 사용하여 프로필을 찾을 수 없습니다.
 
-1. 연락처를 선택하여 프로필을 엽니다.
+1. 프로필을 열 연락처를 선택합니다.
 
    ![](assets/mkt_hist_access.png)
 

@@ -17,37 +17,37 @@ ht-degree: 0%
 
 ## 푸시 추적 기본 정보 {#about-push-tracking}
 
-푸시 알림이 완전히 개발되었는지 확인하려면 모든 푸시 알림에 추적이 활성화되어 있지 않으므로 추적 부분이 올바르게 구현되었는지 확인해야 합니다. 이를 위해 개발자는 추적이 활성화된 게재를 식별해야 하며 Adobe Campaign Standard에서는 라는 플래그를 전송합니다 `_acsDeliveryTracking` 다음 값 사용 **on** 또는 **해제**. 앱 개발자는 변수가 로 설정된 게재에만 추적 요청을 보내야 합니다 **on**.
+푸시 알림이 완전히 개발되었는지 확인하려면 모든 푸시 알림에 추적이 활성화되어 있지 않으므로 추적 부분이 올바르게 구현되었는지 확인해야 합니다. 이를 활성화하기 위해 개발자는 추적이 활성화된 게재를 식별해야 합니다. Adobe Campaign Standard은 이라는 플래그를 보냅니다. `_acsDeliveryTracking` 두 개의 값 포함 **날짜** 또는 **끔**. 앱 개발자는 변수가 로 설정된 게재에 대해서만 추적 요청을 보내야 합니다 **날짜**.
 
 >[!IMPORTANT]
 >
->21.1 릴리스 전에 설정된 게재나 사용자 지정 템플릿을 사용하여 게재에는 이 변수를 사용할 수 없습니다.
+>21.1 릴리스 이전에 설정된 게재 또는 사용자 지정 템플릿을 사용하는 게재에는 이 변수를 사용할 수 없습니다.
 
 푸시 추적은 다음 세 가지 유형으로 구분됩니다.
 
-* **푸시 노출 횟수** - 푸시 알림이 장치에 전달되고 알림 센터에 있지만 전혀 터치되지 않은 경우  이것은 인상이라고 여겨진다.  대부분의 경우 노출 횟수 숫자가 전달된 숫자와 동일하지 않은 경우 유사해야 합니다. 이렇게 하면 장치가 메시지를 받고 해당 정보를 다시 서버로 전달하게 됩니다.
+* **푸시 노출 횟수** - 푸시 알림이 디바이스에 전달되고 알림 센터에 있지만 전혀 터치되지 않은 경우.  이는 인상으로 간주됩니다.  대부분의 경우 노출 횟수는 게재된 숫자와 동일하지 않은 경우 유사해야 합니다. 장치가 메시지를 가져와서 해당 정보를 서버에 다시 전달했는지 확인합니다.
 
-* **푸시 클릭** - 푸시 알림이 장치에 전달되고 사용자가 장치를 클릭한 경우  사용자가 알림을 보거나(이 알림이 푸시 열기 추적으로 이동) 알림을 해지하려고 했습니다.
+* **푸시 클릭** - 푸시 알림이 장치에 전달되고 사용자가 장치를 클릭한 경우.  사용자는 알림을 보거나(푸시 오픈 추적으로 이동) 알림을 해지하려고 했습니다.
 
-* **열기 푸시** - 푸시 알림이 장치에 전달되고 사용자가 알림을 클릭했을 때 앱이 열립니다.  알림이 무시되면 푸시 열기가 트리거되지 않는다는 점을 제외하고 푸시 클릭과 유사합니다.
+* **푸시 오픈** - 푸시 알림이 디바이스에 전달되고 사용자가 알림을 클릭하여 앱을 열 때.  알림이 해제된 경우 푸시 열기 가 트리거되지 않는다는 점을 제외하면 푸시 클릭과 유사합니다.
 
-Campaign Standard 추적을 구현하려면 모바일 앱에 Adobe Experience Platform SDK가 포함되어야 합니다. 이러한 SDK는 [Adobe Experience Platform SDK 설명서](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
+Campaign Standard 추적을 구현하려면 모바일 앱에 Adobe Experience Platform SDK가 포함되어야 합니다. 이러한 SDK는에서 사용할 수 있습니다. [Adobe Experience Platform SDK 설명서](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
-추적 정보를 전송하려면 세 가지 변수를 보내야 합니다. Campaign Standard에서 받은 데이터의 일부인 두 개의 와 이 값이 클라이언트인지 여부를 나타내는 작업 변수입니다 **노출 횟수**, **클릭** 또는 **열기**.
+추적 정보를 전송하려면 세 가지 변수를 전송해야 합니다. Campaign Standard에서 받은 데이터의 일부인 두 개와 인지 여부를 나타내는 작업 변수 **노출 횟수**, **클릭** 또는 **열기**.
 
 | 변수 | 값 |
 |:-:|:-:|
-| broadlogId | 데이터의 mId(_MId) |
-| deliveryId | 데이터의 _dId |
-| 작업 | &quot;1&quot;(열림), &quot;2&quot;(클릭) 및 &quot;7&quot;(노출) |
+| broadlogId | 데이터의 _mId |
+| deliveryId | 데이터의 ID(_dId) |
+| 작업 | 열기용은 &quot;1&quot;, 클릭용은 &quot;2&quot;, 노출용은 &quot;7&quot; |
 
 ## Android용 구현 {#implementation-android}
 
 ### 푸시 노출 추적을 구현하는 방법 {#push-impression-tracking-android}
 
-노출 추적의 경우 호출 시 작업에 대해 값 &quot;7&quot;을 전송해야 합니다 `collectMessageInfo()` 또는 `trackAction()` 함수 위에 있어야 합니다.
+노출 추적의 경우 호출 시 작업에 대해 값 &quot;7&quot;을 보내야 합니다 `collectMessageInfo()` 또는 `trackAction()` 함수.
 
-21.1 릴리스 전에 생성된 게재나 사용자 지정 템플릿을 사용한 게재에 대해서는 이 항목을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
+21.1 릴리스 전에 생성된 게재 또는 사용자 지정 템플릿을 사용한 게재의 경우 다음을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -86,15 +86,15 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### 클릭 추적을 구현하는 방법 {#push-click-tracking-android}
 
-클릭 추적의 경우 호출 시 작업에 대해 값 &quot;2&quot;를 전송해야 합니다 `collectMessageInfo()` 또는 `trackAction()` 함수 위에 있어야 합니다.
+클릭 추적의 경우 호출 시 작업에 대해 값 &quot;2&quot;를 보내야 합니다 `collectMessageInfo()` 또는 `trackAction()` 함수.
 클릭을 추적하려면 다음 두 가지 시나리오를 처리해야 합니다.
 
-* 사용자는 알림을 보지만 지웁니다.
-* 사용자는 알림을 보고 클릭하여 공개 추적으로 전환합니다.
+* 사용자에게 알림이 표시되지만 지워집니다.
+* 사용자는 알림을 보고 클릭하여 열린 추적으로 전환합니다.
 
-이 문제를 처리하려면 다음 두 가지 의도를 사용해야 합니다. 알림을 클릭하는 것과 알림을 해지하기 위한 것입니다.
+이를 처리하려면 두 가지 의도(알림을 클릭하는 의도 및 알림을 무시하는 의도)를 사용해야 합니다.
 
-21.1 릴리스 전에 생성된 게재나 사용자 지정 템플릿을 사용한 게재에 대해서는 이 항목을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
+21.1 릴리스 전에 생성된 게재 또는 사용자 지정 템플릿을 사용한 게재의 경우 다음을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -125,7 +125,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-을 위해 **[!UICONTROL BroadcastReceiver]** 일을 하려면 이 파일을 **[!UICONTROL AndroidManifest.xml]**
+주문: **[!UICONTROL BroadcastReceiver]** 작업하려면 다음에 등록해야 합니다. **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -178,13 +178,13 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 ### 개방형 추적을 구현하는 방법 {#push-open-tracking-android}
 
-앱을 열려면 알림을 클릭해야 하므로 &quot;1&quot; 및 &quot;2&quot;를 보내야 합니다. 푸시 알림을 통해 앱을 시작/열지 않으면 추적 이벤트가 발생하지 않습니다.
+사용자가 알림을 클릭하여 앱을 열어야 하므로 &quot;1&quot; 및 &quot;2&quot;를 전송해야 합니다. 푸시 알림을 통해 앱을 실행/열지 않은 경우 추적 이벤트가 발생하지 않습니다.
 
-열기를 추적하려면 의도(Intent)를 생성해야 합니다. 의도 개체를 사용하면 특정 작업이 완료되면 Android OS에서 메서드를 호출할 수 있습니다. 이 경우 알림을 클릭하여 앱을 엽니다.
+열기를 추적하려면 Intent를 만들어야 합니다. 의도 개체를 사용하면 특정 작업이 수행될 때 Android OS에서 메서드를 호출할 수 있습니다. 이 경우 알림을 클릭하여 앱을 엽니다.
 
-이 코드는 클릭 노출 추적 구현을 기반으로 합니다. 사용 **[!UICONTROL Intent]** 설정된 경우 이제 추적 정보를 다시 Adobe Campaign Standard으로 보내야 합니다. 이 경우 **[!UICONTROL Open Intent]** 앱의 특정 보기에 열려면 의 알림 데이터를 사용하여 onResume 메서드를 호출합니다. **[!UICONTROL Intent Object]**.
+이 코드는 클릭 노출 추적 구현을 기반으로 합니다. 포함 **[!UICONTROL Intent]** 를 설정하면 이제 추적 정보를 Adobe Campaign Standard으로 다시 보내야 합니다. 이 경우 다음을 설정해야 합니다 **[!UICONTROL Open Intent]** 앱의 특정 보기로 열려면 의 알림 데이터를 사용하여 onResume 메서드를 호출합니다. **[!UICONTROL Intent Object]**.
 
-21.1 릴리스 전에 생성된 게재나 사용자 지정 템플릿을 사용한 게재에 대해서는 이 항목을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
+21.1 릴리스 전에 생성된 게재 또는 사용자 지정 템플릿을 사용한 게재의 경우 다음을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 @Override
@@ -248,21 +248,21 @@ private void handleTracking() {
 
 ### 푸시 노출 추적을 구현하는 방법 {#push-impression-tracking-iOS}
 
-노출 추적의 경우 호출 시 작업에 대해 값 &quot;7&quot;을 전송해야 합니다 `collectMessageInfo()` 또는 `trackAction()` 함수 위에 있어야 합니다.
+노출 추적의 경우 호출 시 작업에 대해 값 &quot;7&quot;을 보내야 합니다 `collectMessageInfo()` 또는 `trackAction()` 함수.
 
-iOS 알림의 작동 방식을 이해하려면 앱의 3가지 상태를 자세히 알고 있어야 합니다.
+iOS 알림의 작동 방식을 이해하려면 앱의 세 가지 상태를 자세히 설명해야 합니다.
 
-* **전경**: 앱이 현재 활성화되어 있고 현재 화면에 있는 경우(전경)
-* **배경**: 이 앱이 화면에 표시되지 않고 프로세스가 종료되지 않은 경우 홈 단추를 두 번 클릭하면 일반적으로 백그라운드에 있는 모든 앱을 표시합니다.
-* **해제/닫힘**: 프로세스가 사망한 앱.
+* **전경**: 앱이 현재 활성화되어 있고 현재 화면(전경)에 있는 경우.
+* **배경**: is 앱이 화면에 없지만 프로세스가 닫히지 않은 경우. 홈 버튼을 두 번 클릭하면 일반적으로 배경에 있는 모든 앱이 표시됩니다.
+* **꺼짐/닫힘**: 프로세스가 종료된 앱입니다.
 
-아직 **[!UICONTROL Impression]** 앱이 백그라운드에 있는 동안 추적 작업을 해야 함 **[!UICONTROL Content-Available]** 추적을 수행해야 한다고 앱에 알려주십시오.
+다음을 아직 보유하려면 **[!UICONTROL Impression]** 앱이 백그라운드에 있는 동안 추적 작업을 전송해야 합니다. **[!UICONTROL Content-Available]** 추적해야 함을 앱에 알려줘야 합니다.
 
 >[!CAUTION]
 >
-> 앱이 닫히면 앱을 다시 시작할 때까지 Apple에서 앱을 호출하지 않습니다. 즉, iOS에서 알림을 받은 시점을 알 수 없습니다. </br> 이러한 이유로 iOS 노출 추적이 정확하지 않을 수 있으며 신뢰할 수 있다고 간주해서는 안 됩니다.
+> 앱을 닫으면 Apple은 앱을 다시 실행할 때까지 앱을 호출하지 않습니다. 즉, iOS에서 알림이 언제 수신되었는지 알 수 없습니다. </br> 이러한 이유로 iOS 노출 추적이 정확하지 않을 수 있으므로 신뢰할 수 있는 것으로 간주해서는 안 됩니다.
 
-21.1 릴리스 전에 생성된 게재나 사용자 지정 템플릿을 사용한 게재에 대해서는 이 항목을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
+21.1 릴리스 전에 생성된 게재 또는 사용자 지정 템플릿을 사용한 게재의 경우 다음을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
 
 다음 코드는 백그라운드 앱을 대상으로 합니다.
 
@@ -298,7 +298,7 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
     }
 ```
 
-다음 코드는 포그라운드 앱을 대상으로 합니다.
+다음 코드는 전경 앱을 대상으로 합니다.
 
 ```
 // This will get called when the app is in the foreground
@@ -332,8 +332,8 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### 클릭 추적을 구현하는 방법 {#push-click-tracking-iOS}
 
-클릭 추적의 경우 호출 시 작업에 대해 값 &quot;2&quot;를 전송해야 합니다 `collectMessageInfo()` 또는 `trackAction()` 함수 위에 있어야 합니다.
-21.1 릴리스 전에 생성된 게재나 사용자 지정 템플릿을 사용한 게재에 대해서는 이 항목을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
+클릭 추적의 경우 호출 시 작업에 대해 값 &quot;2&quot;를 보내야 합니다 `collectMessageInfo()` 또는 `trackAction()` 함수.
+21.1 릴리스 전에 생성된 게재 또는 사용자 지정 템플릿을 사용한 게재의 경우 다음을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 // AppDelegate.swift
@@ -370,11 +370,11 @@ func registerForPushNotifications() {
     }
 ```
 
-이제 푸시 알림을 전송할 때 카테고리를 추가해야 합니다. 이 경우 이를 &quot;기본값&quot;이라고 했습니다.
+이제 푸시 알림을 보낼 때 범주를 추가해야 합니다. 이 경우에는 &quot;DEFAULT&quot;라고 합니다.
 
 ![](assets/tracking_push.png)
 
-그런 다음 **[!UICONTROL Dismiss]** 및 다음을 추가해야 하는 추적 정보를 보냅니다.
+그런 다음 을(를) 처리하려면 **[!UICONTROL Dismiss]** 다음을 추가해야 하는 추적 정보를 보냅니다.
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -410,9 +410,9 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 ### 개방형 추적을 구현하는 방법 {#push-open-tracking-iOS}
 
-앱을 열려면 알림을 클릭해야 하므로 &quot;1&quot; 및 &quot;2&quot;를 보내야 합니다. 푸시 알림을 통해 앱을 시작/열지 않으면 추적 이벤트가 발생하지 않습니다.
+사용자가 알림을 클릭하여 앱을 열어야 하므로 &quot;1&quot; 및 &quot;2&quot;를 전송해야 합니다. 푸시 알림을 통해 앱을 실행/열지 않은 경우 추적 이벤트가 발생하지 않습니다.
 
-21.1 릴리스 전에 생성된 게재나 사용자 지정 템플릿을 사용한 게재에 대해서는 이 항목을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
+21.1 릴리스 전에 생성된 게재 또는 사용자 지정 템플릿을 사용한 게재의 경우 다음을 참조하십시오 [섹션](../../administration/using/push-tracking.md#about-push-tracking).
 
 ```
 import Foundation

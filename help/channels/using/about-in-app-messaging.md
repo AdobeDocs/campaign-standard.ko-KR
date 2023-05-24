@@ -19,7 +19,7 @@ ht-degree: 87%
 
 인앱 메시지는 사용자가 모바일 애플리케이션 내에서 활성 상태일 때 메시지를 표시할 수 있는 메시지 채널입니다. 이 메시지 유형은 사용자 전화의 알림 센터로 전달되는 푸시 알림과 상호 보완적으로 사용할 수 있습니다. 푸시 알림 채널에 대한 자세한 내용은 이 [섹션](../../channels/using/about-push-notifications.md)을 참조하십시오.
 
-이 채널을 사용하려면 모바일 애플리케이션을 Adobe Experience Platform SDK와 통합해야 합니다. Adobe Campaign에서 인앱 게재를 사용하려면 해당 앱을 데이터 수집 UI에서 활성화해야 합니다.
+이 채널을 사용하려면 모바일 애플리케이션을 Adobe Experience Platform SDK와 통합해야 합니다. Adobe Campaign에서 인앱 게재를 사용할 수 있으려면 먼저 이러한 앱을 데이터 수집 UI에서 활성화해야 합니다.
 
 ![](assets/launch_campaign.png)
 
@@ -27,7 +27,7 @@ Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인�
 
 1. Adobe Campaign에서 **[!UICONTROL In-App]** 채널에 액세스할 수 있는지 확인합니다. 이 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
 
-1. Experience Cloud SDK 애플리케이션을 사용하는 Adobe Campaign Standard에서 모바일 사용 사례를 활용하려면 데이터 수집 UI에서 모바일 앱을 제작하고 Adobe Campaign Standard에서 구성해야 합니다. 단계별 안내서는 이 [페이지](../../administration/using/configuring-a-mobile-application.md)를 참조하십시오.
+1. Experience Cloud SDK 애플리케이션을 사용하는 Adobe Campaign Standard의 모바일 사용 사례를 활용하려면 데이터 수집 UI에서 모바일 앱을 만들고 Adobe Campaign Standard에서 구성해야 합니다. 단계별 안내서는 이 [페이지](../../administration/using/configuring-a-mobile-application.md)를 참조하십시오.
 
 1. 구성하고 나면 이제 인앱 메시지를 준비할 수 있습니다. 자세한 정보는 이 [페이지](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)를 참조하십시오.
 

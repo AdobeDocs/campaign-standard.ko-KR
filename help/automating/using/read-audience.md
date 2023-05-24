@@ -30,7 +30,7 @@ ht-degree: 87%
 
 **관련 항목**
 
-* [사용 사례: 정교화한 대상자 두 개 결합](../../automating/using/union-on-two-refined-audiences.md)
+* [사용 사례: 정교화한 대상자 두 명 결합](../../automating/using/union-on-two-refined-audiences.md)
 * [사용 사례: 데이터베이스로 파일 대상자 조정](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 구성 {#configuration}
@@ -41,7 +41,7 @@ ht-degree: 87%
 
    **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]**, **[!UICONTROL Experience Cloud]** 유형의 대상자를 검색할 수 있습니다. 대상자 유형에 대한 자세한 내용은 [대상자](../../audiences/using/about-audiences.md) 설명서를 참조하십시오.
 
-   **[!UICONTROL Use a dynamic audience]** 옵션을 사용하면 워크플로우의 이벤트 변수를 기반으로 타겟팅할 대상자의 이름을 정의할 수 있습니다. 자세한 내용은 [이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 섹션을 참조하십시오.
+   **[!UICONTROL Use a dynamic audience]** 옵션을 사용하면 워크플로우의 이벤트 변수를 기반으로 타겟팅할 대상자의 이름을 정의할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 섹션.
 
    ![](assets/readaudience_activity1.png)
 

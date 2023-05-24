@@ -18,14 +18,14 @@ ht-degree: 76%
 
 # 타기팅 차원과 다른 리소스 사용 {#using-resources-different-from-targeting-dimensions}
 
-이 사용 사례에서는 타겟팅 차원과 다른 리소스를 사용하여 떨어진 테이블에서 특정 레코드를 찾는 방법을 설명합니다.
+이 사용 사례에서는 타깃팅 차원과 다른 리소스를 사용하여(예: 떨어진 표에 있는 특정 레코드를 찾는) 방법을 제공합니다.
 
-타겟팅 차원 및 리소스에 대한 자세한 내용은 [이 섹션](../../automating/using/query.md#targeting-dimensions-and-resources)
+타겟팅 차원 및 리소스에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **예제 1: &quot;Welcome back !&quot;이라는 레이블이 있는 게재가 타겟팅한 프로필 확인**.
 
 * 이 경우 프로필을 타겟팅하려고 합니다. 타겟팅 차원을 **[!UICONTROL Profiles (profile)]**(으)로 설정합니다 .
-* 선택한 프로필을 게재의 레이블에 따라 필터링하려고 합니다. 따라서 리소스를 **[!UICONTROL Delivery logs]**(으)로 설정합니다 . 이 방법으로 게재 로그 표에서 직접 필터링하여 더 나은 성능을 제공할 수 있습니다.
+* 선택한 프로필을 게재의 레이블에 따라 필터링하려고 합니다. 따라서 리소스를 **[!UICONTROL Delivery logs]**(으)로 설정합니다 . 이 방법으로 게재 로그 표에서 직접 필터링하여 더 나은 성능을 제공합니다.
 
 ![](assets/targeting_dimension6.png)
 

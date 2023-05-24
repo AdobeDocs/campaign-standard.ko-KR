@@ -24,11 +24,11 @@ ht-degree: 96%
 
 랜딩 페이지를 디자인할 때 페이지 자체의 콘텐츠, 확인 페이지 및 오류 페이지를 정의해야 합니다. 작업 모음 아래에 있는 전환기를 사용하여 이러한 각 페이지를 표시하고 구성합니다.
 
-랜딩 페이지의 콘텐츠는 캠페인 콘텐츠 편집기를 통해 디자인되었습니다.
+랜딩 페이지의 콘텐츠는 Campaign 콘텐츠 편집기를 통해 디자인됩니다.
 
 >[!NOTE]
 >
->이메일 디자인을 위해 Adobe Campaign Standard 19.0 릴리스 전에 인스턴스가 설치된 경우 기존 이메일 콘텐츠 편집기에 액세스할 수 있습니다. 인터페이스, 사용 원칙 및 구성은 랜딩 페이지에 대해 아래에 설명된 것과 거의 동일합니다. 하지만 19.0 릴리스부터 더 이상 사용되지 않는 기존 전자 메일 콘텐츠 편집기에서 모든 기능을 사용하거나 유지 관리할 수 없습니다. 확장된 기능을 갖춘 드래그 앤 드롭 인터페이스에서 전자 메일 콘텐츠를 신속하게 편집하려면 [전자 메일 디자이너를 사용하십시오](../../designing/using/designing-content-in-adobe-campaign.md).
+>이메일 디자인을 위해 인스턴스가 Adobe Campaign Standard 19.0 릴리스 전에 설치된 경우 이전 이메일 콘텐츠 편집기에 계속 액세스할 수 있습니다. 인터페이스, 사용 원칙 및 구성은 랜딩 페이지에 대해 아래에 설명된 것과 거의 동일합니다. 하지만 19.0 릴리스부터 더 이상 사용되지 않는 기존 전자 메일 콘텐츠 편집기에서 모든 기능을 사용하거나 유지 관리할 수 없습니다. 확장된 기능을 갖춘 드래그 앤 드롭 인터페이스에서 전자 메일 콘텐츠를 신속하게 편집하려면 [전자 메일 디자이너를 사용하십시오](../../designing/using/designing-content-in-adobe-campaign.md).
 
 이 페이지에서는 랜딩 페이지 콘텐츠 편집기의 특성에 대해 설명합니다. 하나 이상의 마케팅 활동에 공통되는 작업에 대한 자세한 내용은 **전자 메일 콘텐츠 디자인** 안내서에서 다음 섹션을 참조하십시오.
 
@@ -36,7 +36,7 @@ ht-degree: 96%
 * [콘텐츠 블록 추가](../../designing/using/personalization.md#adding-a-content-block)
 * [링크 삽입](../../designing/using/links.md#inserting-a-link)
 * [이미지 삽입](../../designing/using/images.md)
-* [콘텐츠 디자인을 위한 일반적인 모범 사례](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
+* [콘텐츠 디자인을 위한 일반 모범 사례](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >HTML 형식으로 이미 사전 정의된 랜딩 페이지가 있는 경우, **[!UICONTROL Change content]** 버튼을 사용하여 직접 가져올 수 있습니다.

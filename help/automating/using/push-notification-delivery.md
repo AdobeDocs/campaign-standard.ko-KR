@@ -1,6 +1,6 @@
 ---
 title: 푸시 알림 게재
-description: 푸시 알림 전달 활동을 통해 워크플로우에서 단일 전송 푸시 알림 또는 반복되는 푸시 알림 전송을 구성할 수 있습니다.
+description: 푸시 알림 게재 활동을 사용하면 워크플로우에서 단일 전송 푸시 알림 또는 반복되는 푸시 알림 전송을 구성할 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -23,10 +23,10 @@ ht-degree: 47%
 
 ![](assets/recurrentpush.png)
 
-다음 **[!UICONTROL Push notification]** 활동을 통해 워크플로우에서 푸시 알림 전송을 구성할 수 있습니다. 한 번만 보내는 단일 전송 알림일 수도 있고 반복 알림일 수도 있습니다.
+다음 **[!UICONTROL Push notification]** 활동을 사용하면 워크플로우에서 푸시 알림 전송을 구성할 수 있습니다. 한 번만 보내는 단일 전송 알림일 수도 있고 반복 알림일 수도 있습니다.
 
-* **단일** 전송 알림은 표준 모바일 앱 푸시 알림 게재이며 한 번 전송됩니다.
-* **반복** 알림을 사용하면 정의된 기간 동안 동일한 모바일 앱 푸시 알림 전달을 여러 타겟에 여러 번 보낼 수 있습니다. 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
+* **단일** 전송 알림은 한 번 전송되는 표준 모바일 앱 푸시 알림 게재입니다.
+* **반복** 알림을 사용하면 정의된 기간 동안 동일한 모바일 앱 푸시 알림 게재를 여러 타겟으로 여러 번 보낼 수 있습니다. 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
 
 ## 사용의 컨텍스트 {#context-of-use}
 
@@ -40,7 +40,7 @@ ht-degree: 47%
 
 **관련 항목**
 
-* [워크플로우로 되풀이하는 푸시 알림 보내기](../../automating/using/recurring-push-notifications.md)
+* [워크플로우로 반복 푸시 알림 보내기](../../automating/using/recurring-push-notifications.md)
 
 ## 구성 {#configuration}
 
@@ -54,17 +54,17 @@ ht-degree: 47%
 1. 푸시 알림 전송 모드를 선택합니다.
 
    * **[!UICONTROL Single notification]**: 푸시 알림이 한 번만 전송됩니다. 활동에 아웃바운드 전환을 추가할지 여부를 여기에서 지정할 수 있습니다. 다양한 전환 유형은 이 절차의 7단계에서 자세히 설명합니다.
-   * **[!UICONTROL Recurring notification]**: 푸시 알림은 **[!UICONTROL Scheduler]** 활동. 전송 집계 기간을 선택합니다. 이를 통해 정의된 기간 동안 발생하는 모든 전송을 하나의 푸시 알림에서 다시 그룹화할 수 있습니다 **반복 실행** 애플리케이션의 마케팅 활동 목록에서 액세스할 수 있습니다.
+   * **[!UICONTROL Recurring notification]**: 푸시 알림은에 정의된 빈도에 따라 여러 번 전송됩니다 **[!UICONTROL Scheduler]** 활동. 전송 집계 기간을 선택합니다. 이렇게 하면 정의된 기간 동안 발생하는 모든 전송을 라는 하나의 푸시 알림에서 다시 그룹화할 수 있습니다. **반복 실행** 애플리케이션의 마케팅 활동 목록에서 액세스할 수 있습니다.
 
-      예를 들어 매일 전송되는 반복 생일 알림의 경우 월별 전송을 집계하도록 선택할 수 있습니다. 이렇게 하면 알림이 매일 전송되지만 매월 게재 보고서를 받을 수 있습니다.
+      예를 들어 매일 전송되는 반복 생일 알림의 경우 월별 전송을 집계하도록 선택할 수 있습니다. 이렇게 하면 매일 알림이 전송되지만 매월 게재 보고서를 받을 수 있습니다.
 
-1. 알림 유형을 선택합니다. 이러한 유형은 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+1. 알림 유형을 선택합니다. 이러한 유형은 다음에 정의된 푸시 알림 템플릿에서 가져옵니다. **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 1. 푸시 알림의 일반 속성을 입력합니다. 기존 캠페인에 첨부할 수도 있습니다. 워크플로우의 게재 활동의 레이블은 푸시 알림 레이블로 업데이트됩니다.
-1. 푸시 알림 콘텐츠를 정의합니다. 자세한 내용은 [푸시 알림 만들기](../../channels/using/preparing-and-sending-a-push-notification.md)
+1. 푸시 알림 콘텐츠를 정의합니다. 다음을 참조하십시오 [푸시 알림 만들기](../../channels/using/preparing-and-sending-a-push-notification.md)
 1. 기본적으로 **[!UICONTROL Push notification]** 활동에는 아웃바운드 전환이 포함되지 않습니다. **[!UICONTROL Push Notification]** 활동에 아웃바운드 전환을 추가하려면 고급 활동 옵션의 ![](assets/dlv_activity_params-24px.png) 탭(활동의 빠른 작업에 있는 **[!UICONTROL General]** 버튼)으로 이동한 다음 옵션 중 하나를 선택합니다.
 
    * **[!UICONTROL Add outbound transition without the population]**: 인바운드 전환과 정확히 동일한 모집단을 포함하는 아웃바운드 전환을 생성할 수 있습니다.
-   * **[!UICONTROL Add outbound transition with the population]**: 이를 통해 알림을 전송한 모집단을 포함하는 아웃바운드 전환을 생성할 수 있습니다. 게재 준비 중에 제외된 타겟 멤버는 이 전환에서 제외됩니다.
+   * **[!UICONTROL Add outbound transition with the population]**: 알림이 전송된 모집단을 포함하는 아웃바운드 전환을 생성할 수 있습니다. 게재를 준비하는 동안 제외된 타겟 멤버는 이 전환에서 제외됩니다.
 
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.
 
@@ -76,4 +76,4 @@ ht-degree: 47%
 
 워크플로우 내에서 생성된 게재는 애플리케이션의 마케팅 활동 목록에서 액세스할 수 있습니다. 대시보드를 사용하여 워크플로우의 실행 상태를 볼 수 있습니다. 푸시 알림 요약 창의 링크를 사용하면 연결된 요소(워크플로우, 캠페인 등)에 직접 액세스할 수 있습니다.
 
-마케팅 활동 목록에서 액세스할 수 있는 상위 게재에서 ( **[!UICONTROL Push notification]** 활동이 구성됨). 이렇게 하려면 ![](assets/wkf_dlv_detail_button.png)을(를) 선택하여 상위 게재 **[!UICONTROL Deployment]** 블록의 세부 사항 보기를 엽니다.
+마케팅 활동 목록에서 액세스할 수 있는 상위 게재에서 (다음의 경우에 지정된 집계 기간에 따라) 처리된 총 전송 수를 볼 수 있습니다. **[!UICONTROL Push notification]** 활동이 구성되었습니다). 이렇게 하려면 ![](assets/wkf_dlv_detail_button.png)을(를) 선택하여 상위 게재 **[!UICONTROL Deployment]** 블록의 세부 사항 보기를 엽니다.

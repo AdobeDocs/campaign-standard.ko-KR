@@ -1,5 +1,5 @@
 ---
-title: 데이터 모델 시드 멤버
+title: DataModel 시드 멤버
 description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
@@ -10,7 +10,7 @@ exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 26%
+ht-degree: 47%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 26%
                   <th>이름</th>
                   <th>레이블</th>
                   <th>유형(길이)</th>
-                  <th>열거형 값</th>
+                  <th>열거 값</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>기본 리소스 ID</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -39,13 +39,13 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>생성됨</td>
-                  <td>생성됨</td>
-                  <td>날짜 </td>
+                  <td>제작일</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy(userBase)</td>
-                  <td>만든 사람</td>
+                  <td>createdBy (userBase)</td>
+                  <td>제작자</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -62,7 +62,7 @@ ht-degree: 26%
                   <td> </td>
                </tr>
                <tr>
-                  <td>emailRendering</td>
+                  <td>전자 메일 렌더링</td>
                   <td>이메일 렌더링</td>
                   <td>부울 </td>
                   <td> </td>
@@ -70,7 +70,7 @@ ht-degree: 26%
                <tr>
                   <td>팩스</td>
                   <td>팩스</td>
-                  <td>문자열(32)</td>
+                  <td>문자열 (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -86,9 +86,9 @@ ht-degree: 26%
                   <td> </td>
                </tr>
                <tr>
-                  <td>lastModified</td>
                   <td>마지막 수정일</td>
-                  <td>날짜 </td>
+                  <td>마지막 수정일</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -99,7 +99,7 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>Marketing Cloud ID</td>
+                  <td>MARKETING CLOUD ID</td>
                   <td>문자열(256)</td>
                   <td> </td>
                </tr>
@@ -112,7 +112,7 @@ ht-degree: 26%
                <tr>
                   <td>mobilePhone</td>
                   <td>모바일</td>
-                  <td>문자열(32)</td>
+                  <td>문자열 (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -141,14 +141,14 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>조직 단위</td>
+                  <td>조직 유닛</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>phone</td>
                   <td>전화</td>
-                  <td>문자열(32)</td>
+                  <td>휴대폰</td>
+                  <td>문자열 (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -183,14 +183,14 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>stateLink (state)</td>
-                  <td>주/도</td>
+                  <td>상태</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>targetData</td>
                   <td>확장</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -215,7 +215,7 @@ ht-degree: 26%
 
 ## 필터
 
-이벤트 유형(byEventType) 기준
+이벤트 유형별(byEventType)
 
 <table>
         <tr>
@@ -224,11 +224,11 @@ ht-degree: 26%
         </tr>
         <tr>
         <td>eventType</td>
-        <td>string</td>
+        <td>문자열</td>
         </tr>
     </table>
 
-이름 또는 레이블별(byText)
+이름 또는 레이블 기준(byText)
 
 <table>
         <tr>
@@ -237,11 +237,11 @@ ht-degree: 26%
         </tr>
         <tr>
         <td>텍스트</td>
-        <td>string</td>
+        <td>문자열</td>
         </tr>
     </table>
 
-사용 기준(사용 기준)
+사용별(사용별)
 
 <table>
         <tr>
@@ -253,7 +253,7 @@ ht-degree: 26%
         <td>부울</td>
         </tr>
         <tr>
-        <td>emailRendering</td>
+        <td>전자 메일 렌더링</td>
         <td>부울</td>
         </tr>
         <tr>

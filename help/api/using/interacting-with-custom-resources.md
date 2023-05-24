@@ -1,6 +1,6 @@
 ---
 title: 사용자 정의 리소스와 상호 작용
-description: API를 사용한 사용자 지정 리소스 관리에 대해 자세히 알아보기
+description: API를 통한 사용자 지정 리소스 관리에 대해 자세히 알아보기/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,15 +17,15 @@ ht-degree: 4%
 
 # 사용자 정의 리소스와 상호 작용 {#interacting-with-custom-resources}
 
-다음 **/customResources** 엔드포인트를 사용하면 REST에 Campaign 사용자 지정 리소스를 표시할 수 있습니다. 이 API를 기반으로 사용자 지정 엔티티와 외부 엔드포인트 간의 통합을 사용할 수 있습니다.
+다음 **/customSources** 끝점을 사용하면 REST에 Campaign 사용자 지정 리소스를 표시할 수 있습니다. 이 API를 기반으로 사용자 지정 엔티티와 외부 엔드포인트 간의 통합을 사용할 수 있습니다.
 
-/customResources 종단점은 /profileAndServices 종단점과 동일한 동작을 갖습니다.
+/customResources 끝점의 동작은 /profileAndServices 끝점과 동일합니다.
 
-이 API 내에 노출된 사용자 지정 리소스는 다음과 같습니다.
+이 API 내에 노출되는 사용자 지정 리소스는 다음과 같습니다.
 
 * /profileAndServicesExt 아래에 노출되지 않은 모든 엔터티
-* 프로필과 연결되지 않은 모든 개체, 이러한 엔터티, 그 자식 및 손자손녀
-* 기본적으로 어떤 항목에도 연결되어 있지 않은 모든 엔티티와 해당 자식 및 손자손녀입니다.
+* 프로필에 연결되어 있지 않은 모든 엔티티와 이러한 엔티티의 경우 1차 하위 구성요소 및 손자
+* 기본적으로 연결되어 있지 않은 모든 엔티티와 그 자식 및 손자
 
 >[!NOTE]
 >/profileAndServicesExt에서 사용할 수 있는 사용자 지정 리소스는 /customResources API에 노출되지 않습니다.
@@ -44,5 +44,5 @@ POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->개인 정보 보호 API 엔드포인트 및 워크플로우(/privacy/privacyTool)는 프로필 엔티티에 연결되어 있지 않은 사용자 지정 리소스를 관리하지 않습니다.
->이러한 사용자 지정 리소스에 대한 PII를 관리하고 정리할 책임이 있습니다. 개인 정보 도구에 대한 자세한 내용은 [여기를 클릭하십시오.](../../api/using/creating-a-privacy-request.md).
+>개인 정보 보호 API 끝점 및 워크플로(/privacy/privacyTool)는 프로필 엔티티에 연결되어 있지 않은 사용자 지정 리소스를 관리하지 않습니다.
+>이러한 사용자 지정 리소스에 대한 모든 PII를 관리 및 정리할 책임이 있습니다. 개인 정보 보호 도구에 대한 자세한 내용은 [여기를 클릭하십시오](../../api/using/creating-a-privacy-request.md).

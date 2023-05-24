@@ -52,7 +52,7 @@ ht-degree: 90%
 1. Adobe Campaign 로고에서 액세스할 수 있는 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 메뉴에서 이벤트를 만듭니다.
 1. 레이블을 입력하고 타겟팅 차원을 선택한 뒤 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   구성 단계는 [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md) 섹션을 참조하십시오.
+   구성 단계는 다음에 나와 있습니다. [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md) 섹션.
 
 1. **[!UICONTROL Fields]** 섹션에서 **[!UICONTROL Create element]**&#x200B;을(를) 클릭하고 데이터 구조에 **[!UICONTROL publicLabel]**&#x200B;을(를) 추가하여 조정을 활성화합니다.
 
@@ -85,7 +85,7 @@ ht-degree: 90%
 1. Adobe Campaign 로고에서 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**&#x200B;을(를) 선택하고 **[!UICONTROL Transactional messages]**&#x200B;을(를) 클릭합니다.
 1. 방금 게시한 이벤트에 해당하는 트랜잭션 이메일을 선택합니다.
 
-1. **[!UICONTROL Content]** 섹션을 클릭하고 이메일 템플릿을 선택합니다. 트랜잭션 메시지 콘텐츠 편집에 대한 자세한 내용은 다음을 참조하십시오 [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md).
+1. **[!UICONTROL Content]** 섹션을 클릭하고 이메일 템플릿을 선택합니다. 트랜잭션 메시지 콘텐츠 편집에 대한 자세한 내용은 [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md).
 1. **[!UICONTROL Service]** 리소스의 모든 필드에 직접 액세스할 수 있으므로, **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** > **[!UICONTROL Service]** 노드에서 필드를 선택하여 콘텐츠를 개인화할 수 있습니다.
 
    ![](assets/confirmation_personalization-service.png)
@@ -116,7 +116,7 @@ ht-degree: 90%
 
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭하고 서비스를 저장합니다.
 
-이제 프로필이 이 서비스를 구독하면 정의한 트랜잭션 메시지를 받게 되며, 선택한 서비스에 개인화된 필드가 매핑됩니다.
+이제 프로필이 이 서비스를 구독하면 정의된 트랜잭션 메시지를 받고, 선택한 서비스에 개인화 필드가 매핑됩니다.
 
 >[!NOTE]
 >
@@ -141,7 +141,7 @@ ht-degree: 90%
 1. Adobe Campaign 로고에서 액세스할 수 있는 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** 메뉴에서 이벤트를 만듭니다.
 1. 레이블을 입력하고 타겟팅 차원을 선택한 뒤 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-   구성 단계는 [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md) 섹션을 참조하십시오.
+   구성 단계는 다음에 나와 있습니다. [트랜잭션 이벤트 구성](../../channels/using/configuring-transactional-event.md) 섹션.
 
 1. **[!UICONTROL Fields]** 섹션에서 **[!UICONTROL Create element]**&#x200B;을(를) 클릭하고 데이터 구조에 **[!UICONTROL serviceName]**&#x200B;을(를) 추가하여 조정을 활성화합니다.
 
@@ -190,8 +190,8 @@ ht-degree: 90%
 
 1. 랜딩 페이지를 [테스트 및 게시](../../channels/using/testing-publishing-landing-page.md)합니다.
 
-이제 프로필이 랜딩 페이지를 제출하여 뉴스레터를 구독하면 정의된 확인 메시지를 받고, 해당 서비스에 개인화된 필드가 매핑됩니다.
+이제 프로필이 랜딩 페이지를 제출하여 뉴스레터를 구독하면 정의된 확인 메시지를 받고, 해당 서비스에 개인화 필드가 매핑됩니다.
 
 >[!NOTE]
 >
->해당 프로필이 이미 구독 중이더라도 랜딩 페이지를 제출할 때마다 메시지가 보내집니다.
+>프로필이 이미 구독한 경우에도 랜딩 페이지를 제출할 때마다 메시지가 전송됩니다.

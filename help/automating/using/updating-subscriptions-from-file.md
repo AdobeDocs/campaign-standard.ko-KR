@@ -57,11 +57,11 @@ ht-degree: 76%
 
    ![](assets/subscription_example_service_relation.png)
 
-* A [중복 제거](../../automating/using/deduplication.md) 기준 **이메일** 임시 리소스의 필드(조정 결과)는 중복을 식별합니다. 중복되는 경우 모든 데이터에 대한 서비스 구독이 실패하므로 중복을 제거하는 것이 중요합니다.
+* A [중복 제거](../../automating/using/deduplication.md) 를 기반으로 함 **이메일** 임시 리소스의 필드(조정 결과)는 중복을 식별합니다. 중복되는 경우 모든 데이터에 대한 서비스 구독이 실패하므로 중복을 제거하는 것이 중요합니다.
 
    ![](assets/subscription_activity_example5.png)
 
-* A [구독 서비스](../../automating/using/subscription-services.md) 활동에서는 **[!UICONTROL Reconciliation]** 활동.
+* A [구독 서비스](../../automating/using/subscription-services.md) 활동은에서 만든 링크를 통해 업데이트할 서비스를 전환에서 나온 것으로 식별합니다. **[!UICONTROL Reconciliation]** 활동.
 
    **[!UICONTROL Operation type]**&#x200B;은(는) 파일의 **작업** 필드에서 나온 것으로 식별됩니다. 여기에서는 부울 또는 정수 필드만 선택할 수 있습니다. 수행할 작업이 포함된 파일의 열이 목록에 표시되지 않는 경우 이 예제의 앞부분에서 설명한 대로 **[!UICONTROL Load file]** 활동에서 열 형식을 올바르게 설정했는지 확인하십시오.
 

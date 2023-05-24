@@ -18,11 +18,11 @@ ht-degree: 79%
 
 # 게재 모니터링{#monitoring-a-delivery}
 
-게재를 모니터링하고 영향을 측정하는 방법에는 몇 가지가 있습니다. 기능 관리자는 메시지 로그 및 게재 로그에 액세스할 수 있습니다.
+게재를 모니터링하고 영향을 측정하는 방법에는 여러 가지가 있습니다. 기능 관리자는 메시지 로그 및 게재 로그에 액세스할 수 있습니다.
 
 >[!IMPORTANT]
 >
->기능만 [관리자](../../administration/using/users-management.md#functional-administrators), 사용 **[!UICONTROL Administration]** 역할 및 액세스 **모두** 단위가 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타겟팅할 수 있지만 연결된 테이블(프로필, 게재)부터 시작합니다.
+>기능만 [관리자](../../administration/using/users-management.md#functional-administrators), 포함 **[!UICONTROL Administration]** 역할 및 액세스 권한 **모두** 장치는 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블(프로필, 게재)에서 시작합니다.
 
 * **메시지 로그**: 메시지 대시보드에서 로그에 직접 액세스할 수 있습니다. 여기에는 전송 세부 사항과 제외된 타겟 및 그 이유와 함께 오픈과 클릭 등의 추적 정보가 표시됩니다.
 
@@ -38,9 +38,9 @@ ht-degree: 79%
 
    ![](assets/sending_delivery2.png)
 
-* **작업 로그**: 게재에 의해 트리거되는 배치 작업 목록은 메시지 대시보드에서 을(를) 선택하여 액세스할 수 있습니다 **[!UICONTROL Job history]** 에서 **[!UICONTROL Summary]** 드롭다운 목록.
+* **작업 로그**: 게재를 통해 트리거된 배치 작업 목록은 을 선택하여 메시지 대시보드에서 액세스할 수 있습니다. **[!UICONTROL Job history]** 다음에서 **[!UICONTROL Summary]** 드롭다운 목록입니다.
 
-   목록에서 작업을 선택하여 선택한 작업의 세부 정보를 확인합니다 **[!UICONTROL Batch job]**.
+   선택한 작업의 세부 정보를 보려면 목록에서 작업을 선택하십시오. **[!UICONTROL Batch job]**.
 
    ![](assets/sending_delivery8.png)
 

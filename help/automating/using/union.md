@@ -34,7 +34,7 @@ ht-degree: 98%
 
 **관련 항목:**
 
-* [사용 사례: 정교화한 대상자 두 개 결합](../../automating/using/union-on-two-refined-audiences.md)
+* [사용 사례: 정교화한 대상자 두 명 결합](../../automating/using/union-on-two-refined-audiences.md)
 
 ## 구성 {#configuration}
 

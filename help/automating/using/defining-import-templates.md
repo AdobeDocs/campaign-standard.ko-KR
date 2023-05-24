@@ -48,7 +48,7 @@ ht-degree: 96%
 
 1. **[!UICONTROL Workflow]** 탭으로 이동합니다. 여기에서는 기본적으로 제공되는 워크플로우에 필요에 따라 새 활동을 추가하여 보강할 수 있습니다.
 
-   워크플로우 활동을 구성하는 방법에 대한 자세한 내용은 [예제: 가져오기 워크플로우 템플릿](../../automating/using/creating-import-workflow-templates.md) 섹션에 설명된 사용 사례를 참조하십시오. 이 사용 사례는 Adobe Campaign 데이터베이스의 CRM에 있는 프로필을 가져올 때 다시 사용할 수 있는 워크플로우를 설정하는 데 도움이 됩니다.
+   워크플로우 활동을 구성하는 방법에 대한 자세한 내용은 [예제: 가져오기 워크플로우 템플릿](../../automating/using/creating-import-workflow-templates.md) 섹션에 설명된 사용 사례를 참조하십시오. 이 사용 사례는 Adobe Campaign 데이터베이스의 CRM에서 가져온 프로필을 가져오는 데 다시 사용할 수 있는 워크플로우를 설정하는 데 도움이 됩니다.
 
 1. 워크플로우의 구성을 올바르게 고려할 수 있도록 템플릿을 저장합니다.
 1. **[!UICONTROL Properties]** 탭에서 샘플 파일을 업로드합니다. 업로드하는 파일에는 향후 가져오기 또는 샘플 데이터에 필요한 열만 포함할 수 있습니다. 워크플로우를 정의한 후 샘플 파일의 데이터를 사용해 간소화된 가져오기를 테스트할 수 있습니다.
@@ -78,7 +78,7 @@ ht-degree: 96%
 
 **관련 항목:**
 
-* [워크플로우](../../automating/using/get-started-workflows.md)
+* [워크플로](../../automating/using/get-started-workflows.md)
 * [데이터 가져오기 및 내보내기](../../automating/using/about-data-import-and-export.md)
 * [예제: 가져오기 워크플로우 템플릿](../../automating/using/creating-import-workflow-templates.md)
 

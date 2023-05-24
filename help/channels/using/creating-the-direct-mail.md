@@ -38,9 +38,9 @@ DM 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사
 
    >[!NOTE]
    >
-   >활동 이름과 해당 ID가 모두 인터페이스에 표시되지만 메시지 수신자에게는 보이지 않습니다.
+   >활동 이름과 해당 ID는 모두 인터페이스에 표시되지만 메시지 수신자는 볼 수 없습니다.
    >
-   >예를 들어 Adobe Analytics과 통합할 때 ID 필드에 공백이 들어 있지 않은지 확인하십시오.
+   >예를 들어 Adobe Analytics과 통합할 때 불일치를 방지하기 위해 ID 필드에 공백이 없는지 확인합니다.
 
 1. 추출 파일뿐만 아니라 테스트 및 트랩 프로필에도 포함할 대상자를 정의합니다. [DM 대상자 정의](../../channels/using/defining-the-direct-mail-audience.md)를 참조하십시오.
 
@@ -103,4 +103,4 @@ DM 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사
 * 파일을 첨부하여 일반 이메일로 전송
 * Campaign을 통해 전송: 예를 들어 캠페인 [워크플로우](../../automating/using/direct-mail-delivery.md) 내에서 DM을 수행하고 FTP를 통해 파일을 전송하기 위해 **[!UICONTROL Transfer file]**&#x200B;을(를) 추가합니다. [파일 전송](../../automating/using/transfer-file.md)을 참조하십시오.
 
-공급자가 잘못된 주소 목록을 검색하고 이 정보를 Adobe Campaign으로 보내면 자동으로 잘못된 주소를 차단 목록합니다. [발신자에게 반환](../../channels/using/return-to-sender.md)을 참조하십시오.
+공급자가 잘못된 주소 목록을 검색하고 이 정보를 Adobe Campaign으로 보내면 자동으로 잘못된 주소를 차단 목록 합니다. [발신자에게 반환](../../channels/using/return-to-sender.md)을 참조하십시오.

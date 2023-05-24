@@ -41,6 +41,6 @@ ht-degree: 67%
 
    ![](assets/identification_example1.png)
 
-* A [대상자 저장](../../automating/using/save-audience.md) 활동은 대상자 프로필을 저장합니다.
+* A [대상자 저장](../../automating/using/save-audience.md) 활동: 대상자 프로필을 저장합니다.
 
    ![](assets/identification_example3.png)

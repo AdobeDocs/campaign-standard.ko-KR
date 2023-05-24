@@ -21,7 +21,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->트리거를 만들려면 **[!UICONTROL Administration]** 역할 또는 역할 **[!UICONTROL Administrators]** 보안 그룹 자세한 내용은 다음을 참조하십시오 [페이지](../../administration/using/list-of-roles.md).
+>트리거를 만들려면 다음이 필요합니다. **[!UICONTROL Administration]** 역할 또는 다음에 있을 대상: **[!UICONTROL Administrators]** 보안 그룹입니다. 자세한 내용은 다음을 참조하십시오. [페이지](../../administration/using/list-of-roles.md).
 
 Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의함을 확인해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)를 참조하십시오. 트리거를 정의할 때 별칭을 활성화해야 합니다. Adobe Experience Cloud에 각 동작(검색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대한 새로운 트리거가 추가되어야 합니다.
 
@@ -31,7 +31,7 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
 이 작업을 수행하는 단계는 다음과 같습니다.
 
-1. 을(를) 클릭합니다. **Adobe** 왼쪽 상단 모서리에서 로고를 선택한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. 다음을 클릭합니다. **Adobe** 로고, 왼쪽 상단 모서리에서 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -49,21 +49,21 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
    ![](assets/remarketing_4.png)
 
-1. 이제 트리거를 게시할 수 있습니다. 자세한 내용은 [Campaign에서 트리거 게시](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
+1. 이제 트리거를 게시할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [Campaign에서 트리거 게시](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
 ## Campaign에서 트리거 게시 {#publishing-trigger-in-campaign}
 
-기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만든 후 게시해야 합니다.
+기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만든 후에는 게시해야 합니다.
 
-1. 이전에 만든 트리거에서 **[!UICONTROL Publish]** 트리거 이벤트 게시를 시작하는 단추.
+1. 이전에 만든 트리거에서 **[!UICONTROL Publish]** 트리거 이벤트 게시를 시작하는 단추입니다.
 
    ![](assets/trigger_publish_1.png)
 
-1. 아래의 트리거 게시 진행 상황을 확인할 수 있습니다 **[!UICONTROL Publication]**.
+1. 아래에서 트리거 게시의 진행 상황을 확인할 수 있습니다. **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_2.png)
 
-1. 게시가 완료되면 다음 메시지가 아래에 나타납니다 **[!UICONTROL Publication]**.
+1. 게시가 완료되면 아래에 다음 메시지가 나타납니다. **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_3.png)
 
@@ -81,7 +81,7 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
 트리거 이벤트를 만들고 게시하면 해당 트랜잭션 템플릿이 자동으로 만들어집니다. 자세한 내용은 [캠페인에서 매핑된 트리거 만들기](#creating-a-mapped-trigger-in-campaign) 섹션을 참조하십시오.
 
-이벤트가 트랜잭션 메시지 전송을 트리거하려면 템플릿을 개인화한 다음 테스트하여 게시해야 합니다. 이러한 단계는 표준 트랜잭션 메시지와 동일합니다. 자세한 내용은 [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md) 섹션을 참조하십시오.
+이벤트가 트랜잭션 메시지 전송을 트리거하려면 템플릿을 개인화한 다음 테스트하여 게시해야 합니다. 이러한 단계는 표준 트랜잭션 메시지와 동일합니다. 자세한 내용은 [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md) 섹션.
 
 >[!NOTE]
 >

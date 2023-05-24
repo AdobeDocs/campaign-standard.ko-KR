@@ -1,5 +1,5 @@
 ---
-title: 지리 단위 정보
+title: 지리적 단위 정보
 description: 지리적 단위 및 API에 대해 자세히 알아보십시오.
 audience: developing
 content-type: reference
@@ -12,16 +12,16 @@ ht-degree: 5%
 ---
 
 
-# 지리 단위 정보 {#about-geographical-units}
+# 지리적 단위 정보 {#about-geographical-units}
 
 >[!CAUTION]
 >
->지리 단위 기능은 Campaign Standard 18.7 릴리스에서 더 이상 사용되지 않습니다.
+>지리적 단위 기능은 Campaign Standard 18.7 릴리스에서 더 이상 사용되지 않습니다.
 >
 >따라서 지리적 단위가 만들어지지 않은 기존 인스턴스는 물론 새 Campaign Standard 인스턴스는 18.7 릴리스부터 이 기능을 구현할 수 없습니다.
 >
->자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">더 이상 사용되지 않는 기능</a> 페이지.
+>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">더 이상 사용되지 않는 기능</a> 페이지를 가리키도록 업데이트하는 중입니다.
 
-다음 **geoUnitBase** endpoint를 사용하면 지리적 단위와 상호 작용하여 예를 들어 특성을 업데이트하거나 프로필 단위를 업데이트할 수 있습니다.
+다음 **geoUnitBase** 엔드포인트를 사용하면 지리 단위와 상호 작용하여 해당 속성을 업데이트하거나 프로필 단위를 업데이트할 수 있습니다.
 
-다음 **지리 단위** 프로필 리소스를 확장할 때 프로필에 필드가 추가됩니다. 따라서 항상 를 사용해야 합니다 **profileAndServicesExt** 지리적 단위와 상호 작용하는 끝점입니다. 프로필의 리소스 확장에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+다음 **지리적 단위** 프로필 리소스를 확장할 때 프로필에 필드가 추가됩니다. 따라서 항상 를 사용해야 합니다. **profileAndServicesExt** 지리적 단위와 상호 작용하는 종단점입니다. 프로필의 리소스 확장에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).

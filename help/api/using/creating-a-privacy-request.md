@@ -1,6 +1,6 @@
 ---
 title: 개인 정보 요청 만들기
-description: API를 사용하여 개인 정보 보호 요청을 만드는 방법을 알아봅니다
+description: API를 사용하여 개인 정보 보호 요청을 만드는 방법에 대해 알아봅니다
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -21,24 +21,24 @@ ht-degree: 4%
 >
 >다음 [개인 정보 보호 핵심 서비스](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-개인 정보 보호 요청은 **POST** 요청.
+개인 정보 보호 요청은 을 사용하여 만들어집니다. **POST** 요청.
 
 요청을 만들기 전에 사용할 네임스페이스를 정의해야 합니다. 자세한 내용은 [개인 정보 관리 설명서](../../start/using/privacy-requests.md).
 
 페이로드에는 다음 매개 변수가 포함되어야 합니다.
 
 * **이름**: 고유한 내부 이름
-* **namespace**: Campaign Standard 인터페이스에 구성된 네임스페이스 이름
+* **네임스페이스**: Campaign Standard 인터페이스에 구성된 네임스페이스 이름
 * **reconciliationValue**: 네임스페이스에 정의된 조정 키를 기반으로 하는 조정 값
 * **레이블**: 요청 레이블
-* **유형**: 요청 유형입니다. 허용되는 값은 &quot;access&quot; 또는 &quot;delete&quot;입니다.
-* **규정**: 규정 유형. 예: &quot;GDPR&quot;, &quot;CCPA&quot;. 이 매개 변수는 필수 항목이며 Campaign Standard 19.4 릴리스부터 사용할 수 있습니다. 이전 빌드를 사용하는 경우 페이로드에 추가할 필요가 없습니다.
+* **유형**: 요청 유형입니다. 허용되는 값은 &quot;액세스&quot; 또는 &quot;삭제&quot;입니다.
+* **규정**: 규정 유형. 예: &quot;GDPR&quot;, &quot;CCPA&quot;. 이 매개 변수는 필수 항목이며, Campaign Standard 19.4 릴리스부터 사용할 수 있습니다. 이전 빌드를 사용하는 경우 페이로드에 추가할 필요가 없습니다.
 
 <br/>
 
 ***샘플 요청***
 
-이 POST 요청은 AMCDS2 네임스페이스에 정의된 전자 메일 조정 키를 기반으로 개인 정보 보호 요청을 만듭니다.
+이 POST 요청은 AMCDS2 네임스페이스에 정의된 이메일 조정 키를 기반으로 개인 정보 보호 요청을 만듭니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

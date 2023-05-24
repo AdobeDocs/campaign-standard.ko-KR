@@ -29,9 +29,9 @@ ht-degree: 31%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Campaign에서 사용하는 데이터는 **사전 정의된 데이터 모델**. 데이터 모델은 마케팅 관련 리소스 세트에 대한 기본 SQL 구조를 표시합니다. 게재, 대상, 랜딩 페이지, 프로필 등 각 리소스에는 관련 필터가 포함되어 있어 리소스를 탐색할 수 있습니다.
+Campaign에서 사용하는 데이터는 **사전 정의된 데이터 모델**. 데이터 모델은 게재, 대상, 랜딩 페이지, 프로필 등의 마케팅 관련 리소스 세트에 대한 기본 SQL 구조를 표시합니다. 각 리소스에는 연결된 필터가 포함되어 있으므로 리소스를 탐색할 수 있습니다.
 
-다음 **진단** 메뉴를 사용하면 Campaign Standard에서 생성한 기술 객체를 나열할 수 있습니다. 데이터 스키마, 웹 페이지, 필터 등을 사용하면 데이터 모델과 변경된 모든 것을 모니터링할 수 있습니다.
+다음 **진단** 메뉴를 사용하면 데이터 스키마, 웹 페이지, 필터 등 Campaign Standard으로 생성된 기술 개체를 나열할 수 있으므로 데이터 모델과 변경된 모든 사항을 모니터링할 수 있습니다.
 
 자세히 표시:
 
@@ -44,9 +44,9 @@ Campaign에서 사용하는 데이터는 **사전 정의된 데이터 모델**. 
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard을 통해 다음을 수행할 수 있습니다 **사전 정의된 데이터 모델을 보강합니다** 리소스를 직접 만들거나(예: 구매 또는 제품 테이블 추가) 새 필드로 기존 리소스를 확장합니다. 또한 만들어진 새 리소스 및 필드를 통해 탐색을 최적화하도록 Campaign 화면을 구성할 수도 있습니다.
+Campaign Standard을 사용하면 다음 작업을 수행할 수 있습니다. **사전 정의된 데이터 모델 강화** 고유한 리소스(예: 구매 또는 제품 테이블 추가)를 만들거나 기존 리소스를 새 필드로 확장할 수 있습니다. 또한 생성된 새 리소스 및 필드를 통해 탐색을 최적화하도록 Campaign 화면을 구성할 수 있습니다.
 
-또한 다음을 수행할 수 있습니다 **Campaign Standard REST API 확장** 를 추가하여 사용자 지정 리소스 프로필의 API 확장 필드에 노출합니다. 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객의 프로필을 업데이트할 수 있습니다.
+또한 다음을 수행할 수 있습니다 **Campaign Standard REST API 확장** 사용자 지정 리소스 프로필에 대한 API 확장 필드에 노출하기 위해 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객 프로필을 업데이트할 수 있습니다.
 
 자세히 표시:
 
@@ -59,7 +59,7 @@ Campaign Standard을 통해 다음을 수행할 수 있습니다 **사전 정의
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Campaign Standard API를 사용하면 Campaign을 사용하는 기술 패널과 연결하여 Adobe Campaign Standard을 위한 통합을 만들고 고유한 에코시스템을 구축할 수 있습니다. [Campaign Standard REST API 시작](../../api/using/get-started-apis.md)
+Campaign Standard API를 사용하여 Adobe Campaign Standard에 대한 통합을 만들고 Campaign과 사용하는 기술 패널을 연결하여 고유한 에코시스템을 구축합니다. [Campaign Standard REST API 시작](../../api/using/get-started-apis.md)
 
 ## 추가 리소스
 

@@ -1,6 +1,6 @@
 ---
 title: 개인 정보 데이터 파일 검색
-description: API를 사용하여 개인 정보 데이터 파일을 검색하는 방법을 알아봅니다
+description: API를 사용하여 개인 정보 데이터 파일을 검색하는 방법 알아보기
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -21,19 +21,19 @@ ht-degree: 4%
 >
 >다음 [개인 정보 보호 핵심 서비스](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 통합은 모든 액세스 및 삭제 요청에 사용해야 하는 방법입니다. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-조정 값에 연결된 모든 정보가 포함된 파일을 검색하려면 다음 세 단계 절차를 수행하십시오.
+조정 값과 연관된 모든 정보가 포함된 파일을 검색하려면 다음 3단계 절차를 수행합니다.
 
-1. 다음 작업을 수행합니다. **POST** 특성을 사용하여 새 요청을 만들기 위한 요청 **type=&quot;access&quot;**&#x200B;를 참조하십시오. [새 개인 정보 보호 요청 만들기](../../api/using/creating-a-privacy-request.md).
+1. 수행 **POST** 속성을 사용하여 새 요청을 만들기 위한 요청 **type=&quot;access&quot;**, 참조 [새 개인 정보 보호 요청 만들기](../../api/using/creating-a-privacy-request.md).
 
-1. 다음 작업을 수행합니다. **GET** 요청에 대한 정보를 검색하도록 요청합니다.
+1. 수행 **GET** 요청에 대한 정보를 검색하도록 요청합니다.
 
-1. 다음을 수행하여 데이터 파일 검색 **POST** 반환된 항목에 대한 요청 **privacyRequestData** 페이로드 내에 개인 정보 보호 요청 내부 이름이 있는 URL. 예: {&quot;name&quot;:&quot;PT17&quot;}.
+1. 다음을 수행하여 데이터 파일 검색 **POST** 반환된 항목에 대한 요청 **privacyRequestData** 페이로드 내에 개인 정보 보호 요청 내부 이름이 있는 URL 예: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
 ***샘플 요청***
 
-type=&quot;access&quot; 특성을 사용하여 개인 정보 보호 요청을 만듭니다.
+type=&quot;access&quot; 속성을 사용하여 개인 정보 보호 요청을 만듭니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -54,7 +54,7 @@ type=&quot;access&quot; 특성을 사용하여 개인 정보 보호 요청을 �
 
 <!-- + réponse -->
 
-요청에 대한 정보를 검색하려면 GET 요청을 수행하십시오.
+GET 요청을 수행하여 요청에 대한 정보를 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -85,7 +85,7 @@ type=&quot;access&quot; 특성을 사용하여 개인 정보 보호 요청을 �
 },
 ```
 
-페이로드 내에 요청 내부 이름을 사용하여 privacyRequestData URL에 POST 요청을 수행합니다.
+privacyRequestData URL에 대해 POST 요청을 수행하되, 페이로드 내에 요청 내부 이름이 있어야 합니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \

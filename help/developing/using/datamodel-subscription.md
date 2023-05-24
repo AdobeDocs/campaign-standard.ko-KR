@@ -1,5 +1,5 @@
 ---
-title: 데이터 모델 구독 이벤트
+title: DataModel 가입 이벤트
 description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
@@ -10,7 +10,7 @@ exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 13%
+ht-degree: 31%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 13%
         <th>이름</th>
         <th>레이블</th>
         <th>유형(길이)</th>
-        <th>열거형 값</th>
+        <th>열거 값</th>
     </tr>
     <tr>
         <td>PKey</td>
         <td>기본 리소스 ID</td>
-        <td>string </td>
+        <td>문자열 </td>
         <td> </td>
     </tr>
     <tr>
@@ -45,7 +45,7 @@ ht-degree: 13%
     </tr>
     <tr>
         <td>emailFormat</td>
-        <td>전자 메일 형식</td>
+        <td>이메일 포맷</td>
         <td>열거형(바이트) </td>
         <td>
             <ul>
@@ -65,20 +65,20 @@ ht-degree: 13%
     <tr>
         <td>mobilePhone</td>
         <td>모바일 번호</td>
-        <td>문자열(32)</td>
+        <td>문자열 (32)</td>
         <td> </td>
     </tr>
     <tr>
         <td>serverUrl</td>
         <td>ServerUrl</td>
-        <td>string </td>
+        <td>문자열 </td>
         <td> </td>
     </tr>
 </table>
 
 ## 필터
 
-전자 메일(byEmail)
+이메일(byEmail)로
 
 <table>
     <tr>
@@ -87,11 +87,11 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>이메일</td>
-    <td>string</td>
+    <td>문자열</td>
     </tr>
 </table>
 
-상태 또는 유형별로(byStatusOrType)
+상태 또는 유형별(byStatusOrType)
 
 <table>
         <tr>
@@ -100,10 +100,10 @@ ht-degree: 13%
         </tr>
         <tr>
         <td>상태</td>
-        <td>열거형</td>
+        <td>열거</td>
         </tr>
         <tr>
         <td>유형</td>
-        <td>string</td>
+        <td>문자열</td>
         </tr>
     </table>

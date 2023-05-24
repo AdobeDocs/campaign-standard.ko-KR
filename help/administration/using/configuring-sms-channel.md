@@ -1,6 +1,6 @@
 ---
 title: SMS 채널 구성
-description: 라우팅, 인코딩, 형식 및 고급 속성을 포함한 SMS 구성 단계를 알아봅니다
+description: 라우팅, 인코딩, 형식 및 고급 속성을 포함한 SMS 구성 단계에 대해 알아봅니다
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -23,7 +23,7 @@ SMS 메시지를 전송하려면 관리자가 **[!UICONTROL Administration]** > 
 
 >[!IMPORTANT]
 >
->여러 외부 SMS 계정에 대해 동일한 계정과 암호를 사용하면 계정 간에 충돌과 겹칠 수 있습니다. 자세한 내용은 [SMS 문제 해결 페이지](troubleshooting-sms.md#external-account-conflict).
+>여러 외부 SMS 계정에 동일한 계정과 암호를 사용하면 계정 간에 충돌과 겹칠 수 있습니다. 다음을 참조하십시오. [SMS 문제 해결 페이지](troubleshooting-sms.md#external-account-conflict).
 
 외부 계정 **[!UICONTROL SMS routing via SMPP]**&#x200B;은(는) 기본적으로 제공되지만, 다른 계정을 추가하는 것이 유용할 수 있습니다.
 
@@ -329,15 +329,15 @@ SMS 메시지 보내기를 위한 특정 매개 변수는 **[!UICONTROL Send]** 
 
 ![](assets/sms_options.png)
 
-에서 **[!UICONTROL Advanced parameters]** 섹션:
+다음에서 **[!UICONTROL Advanced parameters]** 섹션:
 
-* 다음 **[!UICONTROL Short code]** 을(를) 통해 특정 짧은 코드를 게재에 추가할 수 있습니다. 이 특정 짧은 코드를 옵트아웃한 수신자는 메시지를 준비하는 동안 자동으로 제외됩니다. 짧은 코드를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/managing-incoming-sms.md).
+* 다음 **[!UICONTROL Short code]** 게재에 특정 짧은 코드를 추가할 수 있습니다. 이 특정 짧은 코드를 옵트아웃한 수신자는 메시지를 준비하는 동안 자동으로 제외됩니다. 짧은 코드를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >만약 **[!UICONTROL Short code]** 필드가 비어 있는 경우 필드의 값이 **[!UICONTROL Short code]** 외부 계정에 설정된 필드가 사용됩니다.
+   >다음과 같은 경우 **[!UICONTROL Short code]** 필드가 비어 있는 경우 **[!UICONTROL Short code]** 외부 계정에 설정된 필드가 사용됩니다.
 
-에서 **[!UICONTROL Send]** sms 템플릿의 섹션을 참조하십시오.
+다음에서 **[!UICONTROL Send]** SMS 템플릿의 섹션:
 
 * **[!UICONTROL Maximum number of SMS per message]** 옵션을 사용하면 메시지를 보내는 데 사용할 SMS 메시지 수를 정의할 수 있습니다. 이 수를 초과하면 메시지를 보내지 않습니다.
 

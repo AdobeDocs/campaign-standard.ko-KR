@@ -1,6 +1,6 @@
 ---
 title: 외부 파일에서 프로필 내보내기
-description: 이 사용 사례에서는 프로필 목록을 외부 파일 형태로 내보내 Adobe Campaign 외부에서 데이터를 사용할 수 있도록 하는 방법을 보여줍니다.
+description: 이 사용 사례에서는 데이터를 Adobe Campaign 외부에서 사용할 수 있도록 프로필 목록을 외부 파일 형태로 내보내는 방법을 보여줍니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -22,11 +22,11 @@ ht-degree: 68%
 
 이 워크플로우의 목적은 프로필 목록을 외부 파일 형태로 내보내 Adobe Campaign 외부에서 데이터를 사용할 수 있도록 하는 것입니다.
 
-1. 끌어서 놓기 [파일 추출](../../automating/using/extract-file.md) 활동을 워크플로우에 끌어와 그 뒤에 놓습니다 [쿼리](../../automating/using/query.md) 활동.
+1. 드래그 앤 드롭 [파일 추출](../../automating/using/extract-file.md) 활동을 워크플로우에 삽입하고 다음 위치에 배치합니다. [쿼리](../../automating/using/query.md) 활동.
 
    이 예제에서 쿼리는 18~30세의 모든 프로필에 대해 수행됩니다.
 
-1. 를 엽니다. **[!UICONTROL Extract file]** 활동 을 편집하여
+1. 를 엽니다. **[!UICONTROL Extract file]** 활동을 통해 편집합니다.
 1. 출력 파일의 이름을 지정합니다.
 1. 출력 열을 추가합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 68%
       ![](assets/wkf_data_export9.png)
 
 1. 활동을 확인합니다.
-1. 끌어서 놓기 [파일 전송](../../automating/using/transfer-file.md) 활동 후 **[!UICONTROL Extract file]** 활동을 통해 외부 계정에서 추출 파일을 복구합니다.
+1. 드래그 앤 드롭 [파일 전송](../../automating/using/transfer-file.md) 다음 이후 활동 **[!UICONTROL Extract file]** 활동은 외부 계정에서 추출 파일을 복구합니다.
 1. 활동을 열고 **[!UICONTROL File upload]** 작업을 선택합니다.
 
    ![](assets/wkf_data_export11.png)

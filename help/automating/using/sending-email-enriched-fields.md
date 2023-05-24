@@ -28,15 +28,15 @@ ht-degree: 75%
 
 워크플로우를 빌드하려면 다음 단계를 수행합니다.
 
-1. 끌어서 놓기 [쿼리](../../automating/using/query.md) 활동을 워크플로우에 끌어와 열어서 주요 타겟을 정의합니다.
+1. 드래그 앤 드롭 [쿼리](../../automating/using/query.md) 워크플로우에 대한 활동을 열고 기본 타겟을 정의합니다.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. 끌어서 놓기 [파일 로드](../../automating/using/load-file.md) 활동을 통해 프로필에 데이터를 할당합니다. 이 예제에서는 데이터베이스의 프로필 일부에 해당하는 계좌 번호가 들어 있는 파일을 로드합니다.
+1. 드래그 앤 드롭 [파일 로드](../../automating/using/load-file.md) 활동은 프로필에 데이터를 할당합니다. 이 예제에서는 데이터베이스의 프로필 일부에 해당하는 계좌 번호가 들어 있는 파일을 로드합니다.
 
    ![](assets/load_file_activity.png)
 
-1. 끌어서 놓기 [데이터 보강](../../automating/using/enrichment.md) 활동을 워크플로우에 추가하고 파일 로드 및 쿼리 활동을 워크플로우에 연결합니다.
+1. 드래그 앤 드롭 [데이터 보강](../../automating/using/enrichment.md) 활동을 워크플로우에 연결하고 파일 로드 및 쿼리 활동을 워크플로우에 연결합니다.
 
 1. 데이터 보강 활동의 **[!UICONTROL Advanced relations]** 탭에서 **[!UICONTROL 0 or 1 cardinality simple link]**&#x200B;을(를) 선택하고 조정에 사용할 필드를 정의합니다. 여기에서는 성을 사용하여 데이터와 데이터베이스 프로필을 조정합니다.
 
@@ -50,13 +50,13 @@ ht-degree: 75%
 
    자세한 내용은 [데이터 보강](../../automating/using/enrichment.md) 섹션을 참조하십시오.
 
-1. 끌어서 놓기 [세그먼테이션](../../automating/using/segmentation.md) 활동을 워크플로우에 끌어와 주요 타겟을 세분화합니다.
+1. 드래그 앤 드롭 [세분화](../../automating/using/segmentation.md) 활동을 워크플로우에 저장하고 열어 기본 타겟을 세분화합니다.
 
    ![](assets/load_file_segmentation.png)
 
    자세한 내용은 [세분화](../../automating/using/segmentation.md) 섹션을 참조하십시오.
 
-1. 끌어서 놓기 [이메일 게재](../../automating/using/email-delivery.md) 활동을 워크플로우에 끌어와 엽니다.
+1. 드래그 앤 드롭 [이메일 게재](../../automating/using/email-delivery.md) 활동을 워크플로우에 추가하고 엽니다.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

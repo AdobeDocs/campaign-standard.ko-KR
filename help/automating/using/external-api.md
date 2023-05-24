@@ -38,7 +38,7 @@ ht-degree: 93%
 
 ### 이전 버전과의 호환성 알림 {#from-beta-to-ga}
 
-Campaign Standard 20.4 릴리스에서는 모범 사례에 맞게 http 응답 데이터 크기 제한 및 응답 시간 제한이 완화되었습니다. 자세한 내용은 [제한 및 보호 기능](#guardrails). 이러한 보안 수정 사항은 기존 외부 API 활동에는 적용되지 않습니다. 따라서 모든 워크플로우에서 기존 외부 API 활동을 새 버전으로 대체하는 것이 좋습니다.
+Campaign Standard 20.4 릴리스에서는 모범 사례에 맞게 http 응답 데이터 크기 제한 및 응답 시간 제한이 완화되었습니다. 다음을 참조하십시오. [제한 사항 및 보호 기능](#guardrails). 이러한 보안 수정 사항은 기존 외부 API 활동에는 적용되지 않습니다. 따라서 모든 워크플로우에서 기존 외부 API 활동을 새 버전으로 대체하는 것이 좋습니다.
 
 외부 API 활동을 바꿀 때 새 외부 API 활동을 워크플로우에 추가하고 구성 세부 사항을 수동으로 복사한 다음 이전 활동을 삭제합니다.
 
@@ -112,13 +112,13 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
 
 ### 실행
 
-이 탭에서는 연결 엔드포인트를 정의할 수 있습니다. 다음 **[!UICONTROL URL]** 필드를 사용하면 **HTTPS 끝점** 해당 Campaign Standard은 와 통신할 것입니다.
+이 탭에서는 연결 엔드포인트를 정의할 수 있습니다. 다음 **[!UICONTROL URL]** 필드를 통해 다음을 정의할 수 있습니다. **HTTPS 엔드포인트** 해당 Campaign Standard은 와 통신합니다.
 
-끝점에 필요한 경우 두 가지 유형의 인증 방법을 사용할 수 있습니다.
+엔드포인트에 필요한 경우 두 가지 유형의 인증 방법을 사용할 수 있습니다.
 
-* 기본 인증: 사용자 이름/암호 정보를 **[!UICONTROL Request Header(s)]** 섹션을 참조하십시오.
+* 기본 인증: 사용자 이름/암호 정보를 **[!UICONTROL Request Header(s)]** 섹션.
 
-* OAuth 인증: 을 클릭하여 **[!UICONTROL Use connection parameters defined in an external account]** 외부 계정에서 OAuth 인증이 정의된 외부 계정을 선택할 수 있습니다. 자세한 내용은 [외부 계정](../../administration/using/external-accounts.md) 섹션을 참조하십시오.
+* OAuth 인증: **[!UICONTROL Use connection parameters defined in an external account]** 외부 계정에서 OAuth 인증이 정의된 외부 계정을 선택할 수 있습니다. 자세한 내용은 [외부 계정](../../administration/using/external-accounts.md) 섹션을 참조하십시오.
 
 ![](assets/externalAPI-execution.png)
 
@@ -156,7 +156,7 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
 
 ## 테스트
 
-간단한 테스트 종단점으로 외부 API 기능을 테스트하려면 Postman Echo를 사용할 수 있습니다. https://docs.postman-echo.com
+간단한 테스트 끝점을 사용하여 외부 API 기능을 테스트하려면 Postman Echo: https://docs.postman-echo.com 를 사용합니다.
 
 ## 문제 해결
 
@@ -259,7 +259,7 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
   </tr> 
   <tr> 
    <td> WKF-560247 - HTTP 헤더 값이 잘못되었습니다(헤더 값: '%s').</td> 
-   <td> <p>HTTP 헤더 값이 잘못되었습니다(헤더 값: '%s'). </p>
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>참고: 이 오류는 <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a>에 따라 사용자 지정 헤더 값의 유효성 검사에 실패하면 기록됩니다.</p></td> 
   </tr> 
   <tr> 

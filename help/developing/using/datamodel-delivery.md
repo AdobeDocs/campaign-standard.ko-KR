@@ -10,7 +10,7 @@ exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 13%
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 13%
                   <th>이름</th>
                   <th>레이블</th>
                   <th>유형(길이)</th>
-                  <th>열거형 값</th>
+                  <th>열거 값</th>
                </tr>
                <tr>
                   <td>FCP</td>
@@ -34,7 +34,7 @@ ht-degree: 13%
                <tr>
                   <td>PKey</td>
                   <td>기본 리소스 ID</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,18 +64,18 @@ ht-degree: 13%
                <tr>
                   <td>alertMessage</td>
                   <td>경고 메시지</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>alertMode</td>
                   <td>경고 유형</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>첨부 파일</td>
-                  <td>첨부된 파일</td>
+                  <td>첨부 파일</td>
                   <td>컬렉션 </td>
                   <td> </td>
                </tr>
@@ -86,19 +86,19 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>broadLogs</td>
+                  <td>broadLog</td>
                   <td>게재 로그</td>
                   <td>컬렉션 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>기본 제공</td>
-                  <td>기본 제공 애플리케이션 개체</td>
+                  <td>기본 제공 애플리케이션 오브젝트</td>
                   <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>campaign (campaignBase)</td>
+                  <td>campaign(campaignBase)</td>
                   <td>캠페인</td>
                   <td>링크 </td>
                   <td> </td>
@@ -136,18 +136,18 @@ ht-degree: 13%
                <tr>
                   <td>contextResourceType</td>
                   <td>리소스 유형</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>생성됨</td>
-                  <td>생성됨</td>
-                  <td>날짜 </td>
+                  <td>제작일</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy(userBase)</td>
-                  <td>만든 사람</td>
+                  <td>createdBy (userBase)</td>
+                  <td>제작자</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -157,7 +157,7 @@ ht-degree: 13%
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>대량 게재 - 벌크 - 1</li>
+                        <li>벌크 게재 - 벌크 - 1</li>
                         <li>중간 소싱 - 중간 소싱 - 4</li>
                         <li>설명 - 설명 - 2</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -178,13 +178,13 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>emailPreview</td>
+                  <td>이메일 미리 보기</td>
                   <td>이메일 미리 보기</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>excludeLogs</td>
+                  <td>excludeLog</td>
                   <td>제외 로그</td>
                   <td>컬렉션 </td>
                   <td> </td>
@@ -207,7 +207,7 @@ ht-degree: 13%
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>고유 - 1회 - 0</li>
+                        <li>고유 - 일회성 - 0</li>
                         <li>연속 - 연속 - 1</li>
                         <li>메시지 센터 - 메시지 센터 - 2</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
@@ -215,8 +215,8 @@ ht-degree: 13%
                   </td>
                </tr>
                <tr>
-                  <td>forecastLogs</td>
-                  <td>ForecastLog</td>
+                  <td>forecastLog</td>
+                  <td>예측 로그</td>
                   <td>컬렉션 </td>
                   <td> </td>
                </tr>
@@ -228,7 +228,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>hasAttachments</td>
-                  <td>첨부된 파일 추가</td>
+                  <td>첨부 파일 추가</td>
                   <td>부울 </td>
                   <td> </td>
                </tr>
@@ -240,14 +240,14 @@ ht-degree: 13%
                      <ul>
                         <li>트랜잭션 이메일 - emailLightning - 60</li>
                         <li>팩스 - 팩스 - 4</li>
-                        <li>Mobile (SMS) - sms - 1</li>
-                        <li>반복 이메일 - e-메일 새로 고침 - 30</li>
+                        <li>모바일(SMS) - sms - 1</li>
+                        <li>반복 이메일 - emailRefresh - 30</li>
                         <li>DM - 용지 - 3</li>
                         <li>전화 - 전화 - 2</li>
                         <li>기타 - 기타 - 120</li>
-                        <li>반복 SMS - sms 새로 고침 - 31</li>
-                        <li>Mobile 애플리케이션 - pushNotification - 40</li>
-                        <li>트랜잭션 SMS - sms 번개 - 61</li>
+                        <li>반복 SMS - smsRefresh - 31</li>
+                        <li>모바일 애플리케이션 - pushNotification - 40</li>
+                        <li>트랜잭션 SMS - smsLightning - 61</li>
                         <li>이메일 - 이메일 - 0</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -284,7 +284,7 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>jobLogs</td>
+                  <td>작업 로그</td>
                   <td>로그</td>
                   <td>컬렉션 </td>
                   <td> </td>
@@ -302,15 +302,15 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>lastModified</td>
                   <td>마지막 수정일</td>
-                  <td>날짜 </td>
+                  <td>마지막 수정일</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>실행 상태</td>
-                  <td>열거형(문자열) (255)</td>
+                  <td>열거형(문자열)(255)</td>
                   <td>
                      <ul>
                         <li>진행 중 - 시작됨 - 시작됨</li>
@@ -324,14 +324,14 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>mailParameters</td>
-                  <td>전자 메일 헤더 매개 변수</td>
+                  <td>이메일 헤더 매개변수</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mainDate</td>
                   <td>날짜</td>
-                  <td>날짜 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -341,13 +341,13 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>master(deliveryBase)</td>
+                  <td>마스터(deliveryBase)</td>
                   <td>기본 인스턴스</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>masterKpi</td>
+                  <td>마스터 키</td>
                   <td>기본 지표</td>
                   <td>항목 </td>
                   <td> </td>
@@ -363,7 +363,7 @@ ht-degree: 13%
                         <li>이메일 - 이메일 - 0</li>
                         <li>전화 - 전화 - 2</li>
                         <li>DM - 용지 - 3</li>
-                        <li>Mobile 애플리케이션 - pushNotification - 40</li>
+                        <li>모바일 애플리케이션 - pushNotification - 40</li>
                         <li>기타 - 기타 - 120</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -389,25 +389,25 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>조직 단위</td>
+                  <td>조직 유닛</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>parent(deliveryBase)</td>
+                  <td>상위(deliveryBase)</td>
                   <td>상위 게재</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>우선순위</td>
+                  <td>우선 순위</td>
                   <td>게재 우선 순위</td>
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>높음 - 20</li>
+                        <li>높음 - 높음 - 20</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
-                        <li>일반 - 일반 - 10</li>
+                        <li>보통 - 보통 - 10</li>
                      </ul>
                   </td>
                </tr>
@@ -424,19 +424,19 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>pushNotificationPreview</td>
+                  <td>pushNotificationView</td>
                   <td>푸시 알림 미리 보기</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushnotificationParameters</td>
-                  <td>PushNotification 매개 변수</td>
+                  <td>푸시 알림 매개 변수</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>realtimeReport</td>
+                  <td>실시간 보고서</td>
                   <td>실시간 보고서</td>
                   <td>항목 </td>
                   <td> </td>
@@ -450,7 +450,7 @@ ht-degree: 13%
                <tr>
                   <td>ribbonMessage</td>
                   <td>리본 메시지</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -467,7 +467,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>smsParameters</td>
-                  <td>SMS 매개 변수</td>
+                  <td>SMS 매개변수</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
@@ -478,30 +478,30 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>state</td>
+                  <td>상태</td>
                   <td>상태</td>
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>시작 보류 - startPending - 51</li>
-                        <li>제공 준비 - 준비 - 45</li>
-                        <li>다시 시도 보류 - 다시 시도 보류 중 - 61</li>
-                        <li>다시 시도 진행 - retryInProgress - 62</li>
+                        <li>시작 보류 중 - startPending - 51</li>
+                        <li>배송 준비 - 준비 - 45</li>
+                        <li>다시 시도 보류 중 - 다시 시도 보류 중 - 61</li>
+                        <li>재시도 진행 중 - 재시도 진행 중 - 62</li>
                         <li>실패 - 실패 - 87</li>
                         <li>진행 중 - 시작됨 - 55</li>
                         <li>타깃팅 보류 중 - targetPrepPending - 11</li>
-                        <li>Personalization 보류 중 - messagePrepPending - 21</li>
+                        <li>개인화 보류 중 - messagePrepPending - 21</li>
                         <li>일시 중지됨 - 일시 중지됨 - 75</li>
                         <li>편집 - 편집 - 0</li>
-                        <li>완료 - 완료 - 95</li>
-                        <li>진행 중 카운팅 - targetSelection - 12</li>
-                        <li>메시지 완료 - messageReady - 25</li>
-                        <li>개인화 또는 개수 실패 - preparationError - 37</li>
+                        <li>완료됨 - 완료됨 - 95</li>
+                        <li>계산 진행 중 - targetSelection - 12</li>
+                        <li>메시지 완료됨 - messageReady - 25</li>
+                        <li>개인화 또는 계산 실패 - preparationError - 37</li>
                         <li>중지됨 - 취소됨 - 85</li>
                         <li>개인화 진행 중 - messagePreparation - 22</li>
                         <li>Target 준비 - targetReady - 15</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
-                        <li>중재 진행 중 - targetRe중재 - 13</li>
+                        <li>중재 진행 중 - targetArbitration - 13</li>
                      </ul>
                   </td>
                </tr>
@@ -519,7 +519,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>축소판</td>
-                  <td>게재 축소판</td>
+                  <td>게재 썸네일</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>
@@ -549,7 +549,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>triggerMessage</td>
-                  <td>트랜잭션 메시지의 매개 변수</td>
+                  <td>트랜잭션 메시지 매개변수</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
@@ -560,15 +560,15 @@ ht-degree: 13%
                   <td> </td>
                </tr>
                <tr>
-                  <td>workflow(workflowBase)</td>
+                  <td>워크플로(workflowBase)</td>
                   <td>타겟팅 워크플로우</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>workflowStatus</td>
-                  <td>워크플로우 상태</td>
-                  <td>열거형(문자열) (255)</td>
+                  <td>워크플로 상태</td>
+                  <td>열거형(문자열)(255)</td>
                   <td>
                      <ul>
                         <li>진행 중 - 시작됨 - 시작됨</li>
@@ -584,7 +584,7 @@ ht-degree: 13%
 
 ## 필터
 
-채널 유형별로(채널별로)
+채널 유형별(byChannel)
 
 <table>
     <tr>
@@ -593,11 +593,11 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>channel</td>
-    <td>열거형</td>
+    <td>열거</td>
     </tr>
 </table>
 
-실행 유형별로(byExecutionType)
+실행 유형별(byExecutionType)
 
 <table>
     <tr>
@@ -606,11 +606,11 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>executionType</td>
-    <td>열거형</td>
+    <td>열거</td>
     </tr>
 </table>
 
-논리 상태(byLogicalStatus) 기준
+논리 상태별(byLogicalStatus)
 
 <table>
     <tr>
@@ -618,12 +618,12 @@ ht-degree: 13%
     <th>유형</th>
     </tr>
     <tr>
-    <td>state</td>
-    <td>열거형</td>
+    <td>상태</td>
+    <td>열거</td>
     </tr>
 </table>
 
-이름 또는 레이블별(byText)
+이름 또는 레이블 기준(byText)
 
 <table>
     <tr>
@@ -632,11 +632,11 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>텍스트</td>
-    <td>string</td>
+    <td>문자열</td>
     </tr>
     <tr>
     <td>mc</td>
-    <td>string</td>
+    <td>문자열</td>
     </tr>
 </table>
 
@@ -649,7 +649,7 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>문자열</td>
     </tr>
 </table>
 
@@ -662,15 +662,15 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>날짜</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>timePeriod</td>
-    <td>string</td>
+    <td>문자열</td>
     </tr>
 </table>
 
-게시 상태(byPublicationStatus)별
+게시 상태별(byPublicationStatus)
 
 <table>
     <tr>
@@ -679,11 +679,11 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>pStatus</td>
-    <td>열거형</td>
+    <td>열거</td>
     </tr>
 </table>
 
-상태 기준(byState)
+상태별(byState)
 
 <table>
     <tr>
@@ -691,8 +691,8 @@ ht-degree: 13%
     <th>유형</th>
     </tr>
     <tr>
-    <td>state</td>
-    <td>열거형</td>
+    <td>상태</td>
+    <td>열거</td>
     </tr>
 </table>
 
@@ -704,12 +704,12 @@ ht-degree: 13%
     <th>유형</th>
     </tr>
     <tr>
-    <td>다음</td>
+    <td>후속 작업</td>
     <td>부울</td>
     </tr>
 </table>
 
-고급 게재 포함(고급 포함)
+고급 게재 포함(withAdvanced)
 
 <table>
     <tr>
@@ -722,7 +722,7 @@ ht-degree: 13%
     </tr>
 </table>
 
-이종 목록에서 연속적인 게재 포함(연속적 포함)
+다른 유형의 목록에서 연속 게재 포함(withContinuous)
 
 <table>
     <tr>
@@ -735,7 +735,7 @@ ht-degree: 13%
     </tr>
 </table>
 
-증명 포함(FCP 포함)
+증명 포함(withFCP)
 
 <table>
     <tr>
@@ -748,7 +748,7 @@ ht-degree: 13%
     </tr>
 </table>
 
-지정된 기간(계획별) 동안 계획됨
+지정된 기간 동안 계획됨(byPlanning)
 
 <table>
     <tr>
@@ -757,15 +757,15 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>날짜</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>날짜</td>
+    <td>date</td>
     </tr>
 </table>
 
-지정된 기간(달력) 동안 존재함
+지정된 기간 동안 표시(byCalendar)
 
 <table>
     <tr>
@@ -774,11 +774,11 @@ ht-degree: 13%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>날짜</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>날짜</td>
+    <td>date</td>
     </tr>
 </table>
 
@@ -790,7 +790,7 @@ ht-degree: 13%
     <th>유형</th>
     </tr>
     <tr>
-    <td>ob</td>
+    <td>oob</td>
     <td>부울</td>
     </tr>
 </table>

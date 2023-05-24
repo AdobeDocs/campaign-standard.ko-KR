@@ -62,40 +62,40 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 
 1. Adobe Campaign에서 **[!UICONTROL Push notification]** 채널에 액세스할 수 있는지 확인합니다. 이 채널에 액세스할 수 없는 경우 계정 팀에 문의하십시오.
 
-1. Adobe Experience Platform의 Adobe Campaign Standard 및 태그에서 사용자에게 필요한 권한이 있는지 확인합니다.
+1. 사용자에게 Adobe Campaign Standard에서 필요한 권한이 있는지, Adobe Experience Platform의 태그가 있는지 확인합니다.
 
 1. 데이터 수집 UI에서 모바일 속성을 만듭니다. 자세한 내용은 [모바일 속성 설정](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)을 참조하십시오.
 
-1. 데이터 수집 UI에서 **[!UICONTROL Adobe Campaign Standard]** 확장.
+1. 데이터 수집 UI에서 를 설치합니다. **[!UICONTROL Adobe Campaign Standard]** 확장명.
 
 1. Adobe Campaign Standard에서 데이터 수집 UI에서 만든 모바일 속성을 구성합니다. 자세한 내용은 [Adobe Campaign에서 태그 애플리케이션 설정](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. 모바일 애플리케이션 설정에 채널별 구성을 추가합니다. 자세한 내용은 [Adobe Campaign의 채널별 애플리케이션 구성](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)을 참조하십시오.
 
-1. 모바일 사용 사례 구현을 지원하려면 [Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지원되는 모바일 사용 사례](../../administration/using/configuring-rules-launch.md).
+1. 모바일 사용 사례 구현을 지원하려면 의 확장, 태그 규칙 및 SDK 구현에 대한 자세한 지침을 참조하십시오. [Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지원하는 모바일 사용 사례](../../administration/using/configuring-rules-launch.md).
 
 ## 푸시 알림 FAQ {#push-faq}
 
-### 푸시 채널에 대해 자세히 알려면 어떤 유용한 리소스 권장 사항이 제공됩니까? {#resource-push}
+### 푸시 채널에 대해 자세히 알아볼 수 있는 유용한 리소스 권장 사항은 무엇입니까? {#resource-push}
 
 아래 리소스를 확인하십시오.
 
 * [비디오 튜토리얼](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [제품 설명서](../../channels/using/about-push-notifications.md)
-* AEP SDK를 사용하여 구성 [설명서](../../administration/using/configuring-a-mobile-application.md)
+* AEP SDK를 사용한 구성 [설명서](../../administration/using/configuring-a-mobile-application.md)
 * [커뮤니티 페이지](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
-### Campaign에서 푸시 토큰을 획득하려면 어떻게 해야 합니까? {#push-token-acquisition}
+### Campaign에서 푸시 토큰을 얻으려면 어떻게 해야 합니까? {#push-token-acquisition}
 
 프로비저닝 팀이 Adobe Campaign Standard에서 푸시 채널 프로비저닝을 완료했는지 확인합니다. SDK에서 setPushIdentifier API를 구현합니다. 자세한 정보는 이 [페이지](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging)를 참조하십시오.
 
-### Campaign에 푸시 토큰 및 ECID가 있으면 푸시 알림을 전송해야 하는 다른 방법은 무엇입니까? {#sending-push}
+### Campaign에 푸시 토큰과 ECID가 있으면 푸시 알림을 보내는 데 필요한 그 밖의 사항은 무엇입니까? {#sending-push}
 
-고객이 푸시 알림을 전송하려면 .pem 포맷의 유효한 푸시 인증서를 제공해야 합니다. 이 인증서에 대한 암호가 필요하지 않습니다.
+푸시 알림을 전송하려면 고객이 .pem 포맷의 유효한 푸시 인증서를 제공해야 합니다. 이 인증서에는 암호가 필요하지 않습니다.
 
-### .pem 인증서 대신 .p12 인증서가 있으면 어떻게 합니까? {#certificates}
+### .pem 인증서 대신 .p12 인증서가 있는 경우 어떻게 합니까? {#certificates}
 
-터미널에서 아래 명령을 실행하여 .p12 인증서를 .pem 인증서로 변환할 수 있습니다. 전환 지침에 대해 사용할 수 있는 온라인 리소스는 몇 가지가 있습니다.
+터미널에서 아래 명령을 실행하여 .p12 인증서를 .pem 인증서로 변환할 수 있습니다. 전환 지침에 사용할 수 있는 몇 가지 온라인 리소스도 있습니다.
 
 ```
 openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
@@ -107,56 +107,56 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ![](assets/faq_2.png)
 
-### iOS 앱에 대해 프로덕션 및 샌드박스 인증서를 동시에 업로드할 수 있습니까(Android용 N/A)? {#prod-sandbox-certificate}
+### iOS 앱(Android의 경우 N/A)에 대해 프로덕션 인증서와 샌드박스 인증서를 동시에 업로드할 수 있습니까? {#prod-sandbox-certificate}
 
-아니요. 앱은 샌드박스 또는 프로덕션 모드에서 작동하며 설정되면 다른 (즉, 샌드박스를 프로덕션 앱으로 변경)할 수 없습니다. 먼저 샌드박스 모드에서 앱을 테스트한 다음 프로덕션 모드로 전환하는 것이 좋습니다.
+아니요. 앱은 샌드박스 또는 프로덕션 모드에서 작동하며 설정된 경우 다른 모드(즉, 샌드박스에서 프로덕션 앱으로)로 변경할 수 없습니다. 먼저 샌드박스 모드에서 앱을 테스트한 다음 프로덕션 모드로 전환하는 것이 좋습니다.
 
-프로덕션 모드로 변경하려면 다른 앱을 만들어야 합니다. 또한 sandbox 확인란을 선택하지 않고 프로덕션 인증서를 업로드하지 않아야 합니다.
+프로덕션 모드로 변경하려면 다른 앱을 만들어야 합니다. 또한 샌드박스 확인란을 선택하지 않고 프로덕션 인증서를 업로드해야 합니다.
 
 ### iOS 및 Android 자격 증명을 동시에 업로드할 수 있습니까? {#ios-android-credentials}
 
 예. Campaign은 두 플랫폼을 동시에 지원하며 두 플랫폼 모두에 대한 자격 증명을 업로드할 수 있습니다.
 
-### 푸시 인증서를 업로드했지만 푸시 메시지가 전송되지 않습니다. {#push-certificates-upload}
+### 푸시 인증서를 성공적으로 업로드했지만 푸시 메시지가 전송되지 않습니다. {#push-certificates-upload}
 
-푸시 인증서를 테스트하여 유효한지 확인하십시오 [여기](https://pushtry.com/).
+푸시 인증서를 테스트하여 인증서가 유효한지 확인하십시오 [여기](https://pushtry.com/).
 
-### 푸시 알림을 pushtry.com에서 성공적으로 보낼 수 있지만 Campaign을 통해 보낼 수는 없습니다. {#push-not-sending}
+### pushtry.com에서 푸시 알림을 정상적으로 전송할 수 있지만 Campaign을 통해서는 전송할 수 없습니다. {#push-not-sending}
 
-제공된 푸시 페이로드 지침을 따르고 있는지 확인하십시오 [여기](../../administration/using/push-payload.md).
+제공된 푸시 페이로드 지침을 따르고 있는지 확인하십시오. [여기](../../administration/using/push-payload.md).
 
 Android의 경우 Campaign은 알림 페이로드가 아닌 데이터 페이로드만 지원합니다
 
-### Adobe Campaign Standard의 관리 섹션에 앱을 구성했지만 게재 속성에서 모바일 앱을 사용할 수 없습니다. {#mobile-app-unavailable}
+### Adobe Campaign Standard의 관리 섹션에서 앱을 구성했지만 모바일 앱을 게재 속성에서 사용할 수 없습니다. {#mobile-app-unavailable}
 
-앱에는 유효한 푸시 인증서가 업로드되어 있어야 게재 속성에서 사용할 수 있습니다.
+배달 속성에서 사용하려면 앱에 유효한 푸시 인증서가 업로드되어 있어야 합니다.
 
 ### 이 페이지의 모든 지침을 시도했지만 Campaign에서 푸시를 보낼 수 없습니다. {#push-troubleshoot}
 
 고객 지원 티켓을 여십시오.
 
-### 푸시 알림이 Campaign에서 전달되지만 미디어 파일이 표시되지 않습니다.{#media-file-unavailable}
+### Campaign에서 푸시 알림을 받고 있지만 미디어 파일이 표시되지 않습니다.{#media-file-unavailable}
 
-모바일 앱 개발자는 앱의 미디어 파일에 대한 지원을 처리해야 합니다. 경우에 따라 네트워크 대역폭이 미디어 파일이 렌더링되지 않을 수도 있습니다. 다음을 참조하십시오 [페이지](../../administration/using/image-push-notification.md) 추가 포인터
+모바일 앱 개발자는 앱에서 미디어 파일에 대한 지원을 처리해야 합니다. 경우에 따라 네트워크 대역폭으로 인해 미디어 파일이 렌더링되지 않을 수 있습니다. 다음을 참조하십시오. [페이지](../../administration/using/image-push-notification.md) 추가 포인터에 대해 설명합니다.
 
-### Campaign에서 푸시 보고를 활성화하려면 무엇을 해야 합니까? {#push-reporting-enable}
+### Campaign에서 푸시 보고를 활성화하려면 어떻게 해야 합니까? {#push-reporting-enable}
 
 아래의 단계를 수행하십시오.
 
-* 푸시 추적 포스트백을 구성합니다. 지침은 [여기](../../administration/using/configuring-a-mobile-application.md).
-* Mobile Core에서 trackAction API를 구현합니다. 다음을 참조하십시오 [페이지](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) 추가 정보.
+* 푸시 추적 포스트백을 구성합니다. 지침을 찾을 수 있음 [여기](../../administration/using/configuring-a-mobile-application.md).
+* Mobile Core에서 trackAction API를 구현합니다. 다음을 참조하십시오. [페이지](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) 추가 정보.
 
-자세한 지침은 [페이지](../../administration/using/push-tracking.md).
+보다 자세한 지침은 여기에서 확인할 수 있습니다. [페이지](../../administration/using/push-tracking.md).
 
-### 푸시 채널에 사용할 수 있는 보고서는 무엇입니까? {#push-report-available}
+### 푸시 채널에 사용할 수 있는 보고서 {#push-report-available}
 
-푸시 채널용 Adobe Campaign에서는 기본 제공 보고서를 사용할 수 있습니다. 다음을 참조하십시오 [설명서](../../reporting/using/push-notification-report.md).
+푸시 채널용 Adobe Campaign에서 기본 보고서를 사용할 수 있습니다. 다음을 참조하십시오. [설명서](../../reporting/using/push-notification-report.md).
 
-다음 보기 [페이지](../../reporting/using/indicator-calculation.md#push-notification-delivery) 각 푸시 지표가 계산되는 방식을 이해하기 위해 를 추가했습니다.
+이 항목 보기 [페이지](../../reporting/using/indicator-calculation.md#push-notification-delivery) 각 푸시 지표를 계산하는 방법을 이해할 수 있습니다.
 
-### 딥 링크가 푸시 및 인앱 메시지에서 지원됩니까? {#deeplink-push}
+### 푸시 및 인앱 메시지에서 딥링크가 지원됩니까? {#deeplink-push}
 
-예, 딥 링크는 푸시 메시지에서 지원됩니다. 딥 링크에는 다음이 포함되어야 합니다.
+예. 딥링크는 푸시 메시지에서 지원됩니다. 딥링크는 다음을 포함해야 합니다.
 
-* 딥 링크가 작동하려면 게재 추적을 비활성화해야 한다고 말하는 언어입니다.
-* 딥 링크 추적을 수행할 수 있는 파트너로서 분기가 있는 플라이어를 추가합니다. 분기 및 Adobe Campaign Standard 통합에 대한 자세한 내용은 다음을 참조하십시오 [페이지](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* 딥링크가 작동하려면 게재 추적을 비활성화해야 한다는 언어입니다.
+* 딥링크 추적을 수행할 수 있는 파트너로서 Branch와 함께 Appsflyer를 제공합니다. 분기 및 Adobe Campaign Standard 통합에 대한 자세한 내용은 다음을 참조하십시오. [페이지](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

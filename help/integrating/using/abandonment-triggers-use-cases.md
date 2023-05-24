@@ -64,7 +64,7 @@ ht-degree: 94%
 
 Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [트리거]를 만들어야 합니다.
 
-1. Adobe Campaign에서 [트리거]를 만들려면 **Adobe** 왼쪽 상단 모서리에서 로고를 선택한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Adobe Campaign에서 [트리거]를 만들려면 **Adobe** 로고, 왼쪽 상단 모서리에서 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [�
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. 메시지 템플릿을 표시하려면 **[!UICONTROL More]** 단추를 클릭하고 오른쪽 상단에서 을 클릭한 다음 **[!UICONTROL Trigger Transactional Template]**.
+1. 메시지 템플릿을 표시하려면 **[!UICONTROL More]** 단추를 클릭하고 오른쪽 상단에서 **[!UICONTROL Trigger Transactional Template]**.
 
 1. 콘텐츠 및 발신자 세부 정보를 개인화합니다.
 
@@ -101,11 +101,11 @@ Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [�
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. 수신자가 링크를 클릭하면 웹 사이트로 이동합니다. 이 예제의 배너는 수신자를 여행 예약 웹사이트의 홈페이지로 데려옵니다.
+1. 수신자가 링크를 클릭하여 웹 사이트로 이동합니다. 이 예제의 배너는 수신자를 여행 예약 웹사이트의 홈페이지로 데려옵니다.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. 수신자가 &quot;딜&quot; 페이지로 이동하지만 갑자기 방문을 중단합니다. 10분의 시간이 지나면 Adobe Campaign에서 트랜잭션 메시지 보내기를 트리거합니다.
+1. 수신자가 &quot;거래&quot; 페이지로 이동하지만 갑자기 방문을 중단합니다. 10분의 시간이 지나면 Adobe Campaign에서 트랜잭션 메시지 보내기를 트리거합니다.
 
    ![](assets/trigger_uc_browse_12.png)
 

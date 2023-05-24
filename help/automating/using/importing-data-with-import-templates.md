@@ -108,5 +108,5 @@ ht-degree: 99%
 
 **관련 항목:**
 
-* [워크플로우](../../automating/using/get-started-workflows.md)
+* [워크플로](../../automating/using/get-started-workflows.md)
 * [예제: 가져오기 워크플로우 템플릿](../../automating/using/creating-import-workflow-templates.md)

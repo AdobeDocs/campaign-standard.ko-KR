@@ -1,5 +1,5 @@
 ---
-title: GET/POST/PATCH/DELETE 동사
+title: GET / POST / PATCH / DELETE 동사
 description: Campaign Standard API에 사용되는 동사에 대해 자세히 알아보십시오.
 audience: developing
 content-type: reference
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# GET/POST/PATCH/DELETE 동사 {#verbs}
+# GET / POST / PATCH / DELETE 동사 {#verbs}
 
 리소스에 대한 작업을 수행하는 데 사용할 수 있는 동사는 다음과 같습니다.
 
-* `GET`: 한 요소 또는 요소 컬렉션을 검색합니다
+* `GET`: 하나의 요소 또는 요소의 컬렉션을 검색합니다.
 * `POST`: 매개 변수를 사용하여 리소스를 만듭니다.
-* `PATCH`: 매개 변수로 리소스를 업데이트합니다.
+* `PATCH`: 매개 변수를 사용하여 리소스를 업데이트합니다.
 * `DELETE`: 리소스를 삭제합니다.
 
 <!-- ajouter codes retour -->
@@ -42,7 +42,7 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   일련의 프로필을 반환합니다.
+   프로필의 배열을 반환합니다.
 
 
    ```
@@ -92,7 +92,7 @@ ht-degree: 0%
    }
    ```
 
-* 프로필을 만들기 위한 샘플 POST 요청.
+* 프로필 만들기에 대한 샘플 POST 요청.
 
 
    ```
@@ -116,7 +116,7 @@ ht-degree: 0%
    }
    ```
 
-* 프로필을 업데이트하기 위한 샘플 PATCH 요청.
+* 프로필 업데이트를 위한 샘플 PATCH 요청.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -146,4 +146,4 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   요청이 200 응답을 반환하여 프로필이 삭제되었는지 확인합니다.
+   요청이 200 응답을 반환하여 프로필이 삭제되었음을 확인합니다.

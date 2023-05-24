@@ -10,7 +10,7 @@ exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 16%
+ht-degree: 40%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 16%
                   <th>이름</th>
                   <th>레이블</th>
                   <th>유형(길이)</th>
-                  <th>열거형 값</th>
+                  <th>열거 값</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>기본 리소스 ID</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -50,50 +50,50 @@ ht-degree: 16%
                   <td> </td>
                </tr>
                <tr>
-                  <td>audienceDataSchema</td>
+                  <td>audience데이터 스키마</td>
                   <td>데이터 스키마</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>audienceMetadata</td>
-                  <td>AudienceMetadata</td>
+                  <td>audienceMeta</td>
+                  <td>대상 메타데이터</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>collectLineNumber</td>
-                  <td>라인 번호를 ID로 사용</td>
+                  <td>줄 번호를 ID로 사용</td>
                   <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>count</td>
-                  <td>카운트</td>
+                  <td>횟수</td>
                   <td>정수 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countDate</td>
-                  <td>카운트 날짜</td>
-                  <td>날짜 </td>
+                  <td>날짜 계산</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>countPreview</td>
+                  <td>countView</td>
                   <td>CountPreview</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>생성됨</td>
-                  <td>생성됨</td>
-                  <td>날짜 </td>
+                  <td>제작일</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy(userBase)</td>
-                  <td>만든 사람</td>
+                  <td>createdBy (userBase)</td>
+                  <td>제작자</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -105,20 +105,20 @@ ht-degree: 16%
                </tr>
                <tr>
                   <td>doNotPersist</td>
-                  <td>이 작업의 내역 표시 안 함</td>
+                  <td>이 작업을 기록하지 않음</td>
                   <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>errorLimit</td>
-                  <td>중단하기 전 오류</td>
+                  <td>중단 전 오류</td>
                   <td>정수 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>expirationDate</td>
-                  <td>만료 날짜</td>
-                  <td>날짜 </td>
+                  <td>만료 일자</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -146,7 +146,7 @@ ht-degree: 16%
                   <td> </td>
                </tr>
                <tr>
-                  <td>jobLogs</td>
+                  <td>작업 로그</td>
                   <td>로그</td>
                   <td>컬렉션 </td>
                   <td> </td>
@@ -158,9 +158,9 @@ ht-degree: 16%
                   <td> </td>
                </tr>
                <tr>
-                  <td>lastModified</td>
                   <td>마지막 수정일</td>
-                  <td>날짜 </td>
+                  <td>마지막 수정일</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -177,14 +177,14 @@ ht-degree: 16%
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>조직 단위</td>
+                  <td>조직 유닛</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>rejectFilename</td>
-                  <td>거부 파일</td>
-                  <td>string </td>
+                  <td>rejectFile</td>
+                  <td>거부 프로필</td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -201,7 +201,7 @@ ht-degree: 16%
                </tr>
                <tr>
                   <td>sourceId</td>
-                  <td>소스 Id</td>
+                  <td>소스 ID</td>
                   <td>정수 </td>
                   <td> </td>
                </tr>
@@ -214,7 +214,7 @@ ht-degree: 16%
                <tr>
                   <td>유형</td>
                   <td>유형</td>
-                  <td>열거형(문자열)(100)</td>
+                  <td>열거형(문자열) (100)</td>
                   <td>
                      <ul>
                         <li>쿼리 - 쿼리 - 쿼리</li>
@@ -225,13 +225,13 @@ ht-degree: 16%
                   </td>
                </tr>
                <tr>
-                  <td>여기서</td>
+                  <td>위치</td>
                   <td>쿼리 정의</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>워크플로우(워크플로우)</td>
+                  <td>워크플로(워크플로)</td>
                   <td>워크플로우</td>
                   <td>링크 </td>
                   <td> </td>
@@ -240,7 +240,7 @@ ht-degree: 16%
 
 ## 필터
 
-차원(byFilteringResource)을 필터링하여
+차원 필터링(byFilteringResource)
 
 <table>
     <tr>
@@ -249,11 +249,11 @@ ht-degree: 16%
     </tr>
     <tr>
     <td>filteringResource</td>
-    <td>string</td>
+    <td>문자열</td>
     </tr>
 </table>
 
-이름 또는 레이블별(byText)
+이름 또는 레이블 기준(byText)
 
 <table>
     <tr>
@@ -262,11 +262,11 @@ ht-degree: 16%
     </tr>
     <tr>
     <td>텍스트</td>
-    <td>string</td>
+    <td>문자열</td>
     </tr>
 </table>
 
-유형별로(byType)
+유형별(byType)
 
 <table>
     <tr>
@@ -275,10 +275,10 @@ ht-degree: 16%
     </tr>
     <tr>
     <td>유형</td>
-    <td>열거형</td>
+    <td>열거</td>
     </tr>
     <tr>
     <td>isAMC</td>
-    <td>string</td>
+    <td>문자열</td>
     </tr>
 </table>

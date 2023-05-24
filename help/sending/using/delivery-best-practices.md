@@ -1,10 +1,10 @@
 ---
-title: Campaign 게재 모범 사례
+title: 캠페인 게재 모범 사례
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다.
+description: 게재 디자인 및 Adobe Campaign 전송과 관련된 모범 사례에 대해 알아봅니다.
 feature: Deliverability
 role: User
 level: Intermediate
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 # 게재 모범 사례 {#delivery-best-practices}
 
-Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사례를 살펴볼 수 있습니다. 아래 링크를 사용하여 항목을 탐색하고 지침을 찾을 수 있습니다.
+게재 디자인 및 Adobe Campaign 전송과 관련된 모범 사례에 대해 알아봅니다. 아래 링크를 사용하여 항목을 탐색하고 지침을 확인하십시오.
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
@@ -26,7 +26,7 @@ Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사�
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[템플릿 사용](use-templates.md)** - 신규 게재 촉진 및 가속화
+**[템플릿 사용](use-templates.md)** - 새로운 게재를 촉진하고 가속화합니다.
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
@@ -38,7 +38,7 @@ Adobe Campaign을 사용한 게재 디자인 및 전송과 관련된 모범 사�
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[보내기 전 확인](check-before-sending.md)** 일반적인 실수 피하세요
+**[보내기 전 확인](check-before-sending.md)** - 일반적인 실수 방지
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 

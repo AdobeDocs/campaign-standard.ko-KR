@@ -1,6 +1,6 @@
 ---
 title: 프로필의 지리 단위 검색
-description: API를 사용하여 프로필의 지리 단위를 검색하는 방법을 알아봅니다.
+description: API를 사용하여 프로필의 지리 단위를 검색하는 방법에 대해 알아봅니다.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,8 +17,8 @@ ht-degree: 12%
 
 # 프로필의 지리 단위 검색 {#retrieving-geographical-unit}
 
-1. 프로필 PKey에 대해 GET 요청을 수행하여 을 검색합니다. **geoUnit** URL.
-1. URL에서 GET 요청을 수행하여 지리적 단위에 대한 자세한 내용을 검색합니다.
+1. 프로필 PKey에 대한 GET 요청을 수행하여 **geoUnit** URL.
+1. URL에 대해 GET 요청을 수행하여 지리적 단위에 대한 자세한 내용을 검색합니다.
 
 <br/>
 
@@ -48,7 +48,7 @@ ht-degree: 12%
 }
 ```
 
-자세한 정보를 검색하려면 URL에 GET 요청을 수행하십시오.
+자세한 정보를 검색하려면 URL에 대해 GET 요청을 수행하십시오.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
@@ -58,7 +58,7 @@ ht-degree: 12%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-지리 단위에 대한 세부 사항을 반환합니다.
+지리적 단위에 대한 세부 정보를 반환합니다.
 
 ```
 {

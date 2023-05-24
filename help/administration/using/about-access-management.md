@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
 source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '237'
+ht-degree: 82%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Campaign에서는 여러 사용자에게 할당된 권한을 정의 및 �
 
 ![사용자 관리 메뉴](assets/user_management_1.png)
 
-사용자는 Admin Console에서 관리됩니다. 자세한 내용은 [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md) 섹션 및 [Admin Console 설명서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
+사용자는 Admin Console에서 관리됩니다. 다음에서 자세히 알아보기 [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md) 섹션 및 [Admin Console 설명서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html).
 
 ![제품 프로필 액세스](assets/user_management_6.png)
 

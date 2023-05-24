@@ -11,25 +11,25 @@ exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 12%
+ht-degree: 13%
 
 ---
 
 # 워크플로우 제어 {#controlling-a-workflow}
 
-워크플로우 ID와 필요한 실행 명령이 포함된 POST 요청을 통해 REST API에서 직접 워크플로우를 제어할 수 있습니다.
+워크플로 ID 및 필수 실행 명령이 포함된 POST 요청을 통해 REST API에서 직접 워크플로를 제어할 수 있습니다.
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 >[!CAUTION]
 >
->Adobe Campaign에서 워크플로우 ID가 변경되면 API 요청이 더 이상 작동하지 않습니다.
+>Adobe Campaign에서 워크플로우 ID를 변경하면 API 요청이 더 이상 작동하지 않습니다.
 
-워크플로우를 제어하는 데는 네 가지 실행 명령을 사용할 수 있습니다.
+워크플로를 제어하는 데 사용할 수 있는 네 가지 실행 명령은 다음과 같습니다.
 
 * 시작
 * 일시 정지
-* 다시 시작
+* 재개
 * 정지
 
 실행 명령에 대한 자세한 내용은 [Campaign 설명서](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).

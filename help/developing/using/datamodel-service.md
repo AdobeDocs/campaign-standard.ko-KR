@@ -1,5 +1,5 @@
 ---
-title: 데이터 모델 서비스
+title: DataModel 서비스
 description: 데이터 모델에 대해 알아보기
 audience: developing
 content-type: reference
@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 20%
+ht-degree: 40%
 
 ---
 
@@ -23,29 +23,29 @@ ht-degree: 20%
                   <th>이름</th>
                   <th>레이블</th>
                   <th>유형(길이)</th>
-                  <th>열거형 값</th>
+                  <th>열거 값</th>
                </tr>
                <tr>
                   <td>PKey</td>
                   <td>기본 리소스 ID</td>
-                  <td>string </td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>기본 제공</td>
-                  <td>기본 제공 애플리케이션 개체</td>
+                  <td>기본 제공 애플리케이션 오브젝트</td>
                   <td>부울 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>생성됨</td>
-                  <td>생성됨</td>
-                  <td>날짜 </td>
+                  <td>제작일</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy(userBase)</td>
-                  <td>만든 사람</td>
+                  <td>createdBy (userBase)</td>
+                  <td>제작자</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -62,9 +62,9 @@ ht-degree: 20%
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
-                  <td>종료일</td>
-                  <td>날짜 </td>
+                  <td>종료</td>
+                  <td>종료 날짜</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -74,7 +74,7 @@ ht-degree: 20%
                   <td> </td>
                </tr>
                <tr>
-                  <td>역사</td>
+                  <td>history</td>
                   <td>구독 내역</td>
                   <td>컬렉션 </td>
                   <td> </td>
@@ -98,9 +98,9 @@ ht-degree: 20%
                   <td> </td>
                </tr>
                <tr>
-                  <td>lastModified</td>
                   <td>마지막 수정일</td>
-                  <td>날짜 </td>
+                  <td>마지막 수정일</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -121,7 +121,7 @@ ht-degree: 20%
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>모바일(SMS) - sms - 1</li>
                         <li>이메일 - 이메일 - 0</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -133,7 +133,7 @@ ht-degree: 20%
                   <td>열거형(바이트) </td>
                   <td>
                      <ul>
-                        <li>바이러스 - 바이러스 - 1</li>
+                        <li>바이럴 - 바이럴 - 1</li>
                         <li>뉴스레터 - 뉴스레터 - 0</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -153,7 +153,7 @@ ht-degree: 20%
                </tr>
                <tr>
                   <td>orgUnit(orgUnitBase)</td>
-                  <td>조직 단위</td>
+                  <td>조직 유닛</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -164,13 +164,13 @@ ht-degree: 20%
                   <td> </td>
                </tr>
                <tr>
-                  <td>start</td>
-                  <td>시작일</td>
-                  <td>날짜 </td>
+                  <td>시작</td>
+                  <td>시작 날짜</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>subLandingPage (landingPageSubscriptionBase)</td>
+                  <td>subLandingPage(landingPageSubscriptionBase)</td>
                   <td>구독 랜딩 페이지</td>
                   <td>링크 </td>
                   <td> </td>
@@ -182,9 +182,9 @@ ht-degree: 20%
                   <td> </td>
                </tr>
                <tr>
-                  <td>subScenarioEventType</td>
-                  <td>SubScenarioEventType</td>
-                  <td>string </td>
+                  <td>subSceneEventType</td>
+                  <td>하위 시나리오 이벤트 유형</td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -218,34 +218,34 @@ ht-degree: 20%
                   <td> </td>
                </tr>
                <tr>
-                  <td>UnlightlandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>구독 취소 랜딩 페이지</td>
+                  <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
+                  <td>랜딩 페이지 구독 취소</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>PurchaseScenario(deliveryMCTemplateBase)</td>
+                  <td>unsubScenario (deliveryMCTemplateBase)</td>
                   <td>구독 취소 확인</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>PurchaseScenarioEventType</td>
-                  <td>PurchaseScenarioEventType</td>
-                  <td>string </td>
+                  <td>unsubScenarEventType</td>
+                  <td>UnsubScenarEventType</td>
+                  <td>문자열 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>validityDuration</td>
                   <td>유효 기간</td>
-                  <td>number </td>
+                  <td>번호 </td>
                   <td> </td>
                </tr>
             </table>
 
 ## 필터
 
-지정된 기간(계획별) 동안 사용 가능
+지정된 기간 동안 사용 가능(byPlanning)
 
 <table>
     <tr>
@@ -254,15 +254,15 @@ ht-degree: 20%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>날짜</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>날짜</td>
+    <td>date</td>
     </tr>
 </table>
 
-채널 유형별로(채널별로)
+채널 유형별(byChannel)
 
 <table>
 <tr>
@@ -271,11 +271,11 @@ ht-degree: 20%
 </tr>
 <tr>
 <td>channel</td>
-<td>열거형</td>
+<td>열거</td>
 </tr>
 </table>
 
-이름 또는 레이블별(byText)
+이름 또는 레이블 기준(byText)
 
 <table>
 <tr>
@@ -284,11 +284,11 @@ ht-degree: 20%
 </tr>
 <tr>
 <td>텍스트</td>
-<td>string</td>
+<td>문자열</td>
 </tr>
 </table>
 
-타겟팅 리소스(byTargetResource)별
+리소스 타겟팅(byTargetResource)
 
 <table>
 <tr>
@@ -297,6 +297,6 @@ ht-degree: 20%
 </tr>
 <tr>
 <td>targetResource</td>
-<td>string</td>
+<td>문자열</td>
 </tr>
 </table>

@@ -38,7 +38,7 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 ## 대상 모집단에서 추출 {#extraction-target-population}
 
-컨트롤 그룹을 정의하려면, 임의로 또는 대상 모집단에서 정렬, 백분율 또는 고정된 수의 프로필을 추출하도록 선택할 수 있습니다.
+컨트롤 그룹을 정의하려면 임의로 또는 대상 모집단에서 정렬, 백분율 또는 고정된 수의 프로필을 추출하도록 선택할 수 있습니다.
 
 ### 대상 추출 {#target-extraction}
 
@@ -155,7 +155,7 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 >[!IMPORTANT]
 >
->게재 로그에 액세스하려면 [관리자 역할](../../administration/using/users-management.md#functional-administrators) 그리고 **[!UICONTROL All]** [조직 단위](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>게재 로그에 액세스하려면 [관리자 역할](../../administration/using/users-management.md#functional-administrators) 및 의 일부가 되는 작업 **[!UICONTROL All]** [조직 단위](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 게재 로그 확인 {#checking-logs}
 

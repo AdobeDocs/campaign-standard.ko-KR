@@ -71,7 +71,7 @@ ht-degree: 98%
 
 1. **[!UICONTROL Add an element]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Label]** 및 **[!UICONTROL ID]**&#x200B;을(를) 추가하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭하여 값을 필요한 만큼 추가합니다.
 
-   이 예에서는 프로필에 대해 선택할 책, 전시회, 영화, 해당 없음의 값을 만들어 이 옵션 중에서 선택합니다.
+   이 예에서는 프로필에 대해 책, 전시회, 영화 및 해당 사항 없음 값을 만들어 이러한 옵션 중에서 선택합니다.
 
    ![](assets/schema_extension_uc11.png)
 

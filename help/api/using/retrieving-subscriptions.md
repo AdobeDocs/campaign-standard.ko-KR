@@ -12,18 +12,18 @@ ht-degree: 1%
 
 ---
 
-# API를 사용하여 구독 검색 {#retrieving-subscriptions-api}
+# API로 구독 검색 {#retrieving-subscriptions-api}
 
 ## 서비스를 구독한 프로필 검색
 
-이는 두 단계로 이루어진 절차입니다.
+이 절차는 두 단계로 구성됩니다.
 
 1. 원하는 서비스에 대한 구독 URL을 검색합니다.
-1. 구독 URL에 대해 GET 요청을 수행합니다. 연결된 각 프로필과 함께 서비스에 대한 구독 목록을 반환합니다.
+1. 구독 URL에 대한 GET 요청을 수행합니다. 서비스에 대한 구독 목록을 각 관련 프로필과 함께 반환합니다.
 
 >[!CAUTION]
 >
->REST API는 사용할 URL이 포함된 &quot;href&quot; 속성을 반환합니다. <b>후속 API 요청을 수행하려면 항상 응답에 포함된 URL을 사용하십시오</b>.
+>REST API는 사용할 URL이 포함된 &quot;href&quot; 속성을 반환합니다. <b>항상 응답에 포함된 URL을 사용하여 후속 API 요청을 만듭니다</b>.
 
 <br/>
 
@@ -53,7 +53,7 @@ ht-degree: 1%
   },
 ```
 
-구독 URL에 대해 GET 요청을 수행합니다.
+구독 URL에 대한 GET 요청을 수행합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -63,7 +63,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-서비스에 대한 구독 목록이 각 관련 프로필과 함께 표시됩니다.
+서비스에 대한 구독 목록이 연결된 각 프로필과 함께 표시됩니다.
 
 ```
   {
@@ -82,16 +82,16 @@ ht-degree: 1%
 
 ## 프로필이 구독한 서비스 검색
 
-이는 두 단계로 이루어진 절차입니다.
+이 절차는 두 단계로 구성됩니다.
 
 1. 주어진 프로필에 대한 구독 URL을 검색합니다.
-1. URL에 GET 요청을 수행합니다. 각 연결된 서비스와 함께 프로필에 대한 구독 목록을 반환합니다.
+1. URL에 대해 GET 요청을 수행합니다. 프로필에 대한 구독 목록과 각 관련 서비스를 반환합니다.
 
 <br/>
 
 ***샘플 요청***
 
-GET 요청을 수행하여 프로필을 검색합니다.
+프로필을 검색하려면 GET 요청을 수행하십시오.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -115,7 +115,7 @@ GET 요청을 수행하여 프로필을 검색합니다.
   }
 ```
 
-구독 URL에 대해 GET 요청을 수행합니다.
+구독 URL에 대한 GET 요청을 수행합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -125,7 +125,7 @@ GET 요청을 수행하여 프로필을 검색합니다.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-프로필이 가입한 서비스 목록을 반환합니다.
+프로필이 구독한 서비스 목록을 반환합니다.
 
 ```
   {

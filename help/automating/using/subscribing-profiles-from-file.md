@@ -16,7 +16,7 @@ ht-degree: 53%
 
 ---
 
-# 파일을 가져온 후 특정 서비스에 프로필 구독 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# 파일을 가져온 후 특정 서비스에 프로필 가입 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 이 예에서는 프로필이 포함된 파일을 가져와 기존 서비스에 구독하는 방법을 보여줍니다. 파일을 가져온 후에는 가져온 데이터를 프로필로 식별할 수 있도록 조정을 수행해야 합니다. 파일에 중복 항목을 포함하지 않는지 확인하기 위해 데이터 중복 제거 활동이 실행됩니다.
 
@@ -47,7 +47,7 @@ ht-degree: 53%
 
    ![](assets/subscription_activity_example3.png)
 
-* A [중복 제거](../../automating/using/deduplication.md) 기준 **이메일** 임시 리소스의 필드(조정 결과)는 모든 중복을 식별합니다. 파일에서 가져온 데이터에 중복된 항목이 있으면 모든 데이터에 대한 서비스 구독이 실패합니다.
+* A [중복 제거](../../automating/using/deduplication.md) 를 기반으로 함 **이메일** 임시 리소스의 필드(조정 결과)는 모든 중복을 식별합니다. 파일에서 가져온 데이터에 중복된 항목이 있으면 모든 데이터에 대한 서비스 구독이 실패합니다.
 
    ![](assets/subscription_activity_example5.png)
 

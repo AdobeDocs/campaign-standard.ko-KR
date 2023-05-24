@@ -1,6 +1,6 @@
 ---
 title: 연령 그룹에 따른 세분화
-description: 이 페이지에서는 나이 그룹에 따라 데이터베이스 프로필을 세분화합니다. 워크플로우의 목표는 각 나이 그룹에 대해 특정 이메일을 보내는 것입니다.
+description: 이 페이지에는 연령 그룹에 따른 데이터베이스 프로필의 세그먼테이션이 표시됩니다. 워크플로우의 목표는 각 나이 그룹에 대해 특정 이메일을 보내는 것입니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -26,9 +26,9 @@ ht-degree: 66%
 
 워크플로우는 다음 요소로 구성됩니다.
 
-* A [스케줄러 활동](../../automating/using/segmentation.md) 을 입력하여 워크플로우의 실행 날짜를 지정합니다.
+* A [스케줄러 활동](../../automating/using/segmentation.md) 워크플로우의 실행 날짜를 지정합니다.
 * A [쿼리](../../automating/using/query.md) 활동은 생일 및 이메일 주소를 입력한 사람의 프로필을 타겟팅합니다.
-* A [세그먼테이션](../../automating/using/segmentation.md) 활동은 서로 다른 아웃바운드 전환으로 구분된 3개의 세그먼트를 만듭니다. 32세 18-25-year, 26-32-year 이전 및 프로필. 세그먼트는 다음 매개 변수에 따라 정의됩니다.
+* A [세분화](../../automating/using/segmentation.md) 활동은 3개의 세그먼트(18~25세, 26~32세 및 32세가 넘는 프로필)를 만들어 다양한 아웃바운드 전환으로 나눕니다. 세그먼트는 다음 매개 변수에 따라 정의됩니다.
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ ht-degree: 66%
 
       ![](assets/wkf_segment_example_1.png)
 
-* An [이메일 게재](../../automating/using/email-delivery.md) 세그먼트당 활동 수.
+* An [이메일 게재](../../automating/using/email-delivery.md) 세그먼트당 활동.
