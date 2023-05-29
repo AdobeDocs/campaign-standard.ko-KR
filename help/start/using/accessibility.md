@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,4 +126,4 @@ Adobe Campaign Standard는 모든 사용자가 쉽게 사용할 수 있도록 �
 
 개선 사항 제안 및 사용 중인 접근성의 문제를 Adobe에 보내려면 [Adobe 접근성 피드백 양식](https://www.adobe.com/accessibility/feedback.html)을 사용하는 것이 좋습니다.
 
-최신 개선 사항 및 기능을 따라가려면 [Adobe Campaign Standard 릴리스 노트](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html#release-notes)를 참조할 수도 있습니다.
+최신 개선 사항 및 기능을 따라가려면 [Adobe Campaign Standard 릴리스 노트](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ko#release-notes)를 참조할 수도 있습니다.
