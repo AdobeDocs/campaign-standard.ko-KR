@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2471'
 ht-degree: 1%
 
 ---
@@ -43,11 +43,6 @@ Dynamics 365에서 연락처가 삭제될 때 Campaign에 대해 정기적인 �
 
 1. 두 시스템에서 레코드가 제거되었는지 확인
 
-다음은 각 시스템에서 액세스 및/또는 개인 정보 보호 관련 요청을 삭제하는 데 도움이 되는 링크입니다.
-
-* [Microsoft Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/get-started/gdpr/)
-
-* [Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
 
 >[!IMPORTANT]
 >

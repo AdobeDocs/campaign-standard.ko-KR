@@ -9,9 +9,9 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '653'
 ht-degree: 97%
 
 ---
@@ -115,4 +115,4 @@ Google reCAPTCHA V3 외부 계정을 설정하고 나면 랜딩 페이지에 추
 
 ![](assets/lp_parameters_google2.png)
 
-Google reCAPTCHA는 페이지와 사용자의 상호 작용에 따른 점수를 반환합니다. 점수를 확인하려면 [Google Admin Console](https://g.co/recaptcha/admin)에 연결합니다.
+Google reCAPTCHA는 페이지와 사용자의 상호 작용에 따른 점수를 반환합니다. 점수를 확인하려면 Google Admin Console에 연결합니다.
