@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '900'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행�
 
 ### 클라이언트 암호 생성 {#generate-a-client-secret}
 
-1. 앱 개요 화면의 왼쪽에 있는 하위 메뉴에서 **[!UICONTROL Certificates and Secrets > New client secret]**
+1. 앱 개요 화면에서 왼쪽의 하위 메뉴에서 을 클릭합니다. **[!UICONTROL Certificates and Secrets > New client secret]**
 
 1. 설명을 입력하고 기간을 설정한 다음 **[!UICONTROL OK]**.
 
@@ -119,9 +119,8 @@ OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행�
 
 Dynamics 365 앱을 Campaign Standard 환경에 통합하려면 아래 단계를 따르십시오.
 
-1. 다음 링크로 이동합니다. [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) 및 검색 _Adobe Campaign for Dynamics 365_ 검색 창에서 을 클릭합니다.
-또는 다음 위치로 이동할 수 있습니다 [링크](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
-{target="_blank"}.
+1. 다음으로 이동 [Microsoft 비즈니스 앱](https://appsource.microsoft.com/en-us/marketplace/apps)을 누르고 검색 막대에서 for_Adobe Campaign Standard_ 를 검색합니다.
+또는 다음 위치로 이동할 수 있습니다 [링크](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
 1. 지침에 따라 Dynamics 365 인스턴스용 앱을 설치하십시오.
 1. 설치가 완료되면 Dynamics 365 인스턴스로 이동하여 관리자로 로그인합니다.
 1. 오른쪽 위 모서리에 있는 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL Advanced Settings]**. 상단 배너에서 옆에 있는 드롭다운을 클릭합니다. **[!UICONTROL Settings]**, 클릭 **[!UICONTROL Processes]** 아래에 **[!UICONTROL Process Center]**.
