@@ -71,19 +71,19 @@ ht-degree: 93%
    * **[!UICONTROL Detect structure from a new file]** 옵션을 선택하면 다른 파일의 구조를 사용할 수 있습니다.
    * 기본 감지 매개 변수를 수정하여 파일에 적용할 수 있습니다. **[!UICONTROL File type]** 필드에서는 가져오려는 파일이 길이가 고정된 열로 구성되어 있는지 여부를 지정할 수 있습니다. 이 경우 **[!UICONTROL Column definition]** 탭에서 각 열의 최대 글자 수를 지정해야 합니다.
 
-      파일에서 데이터를 올바르게 복구하는 데 필요한 모든 감지 옵션이 **[!UICONTROL File format]**&#x200B;에 정리되어 있습니다. 이를 수정한 다음 해당 활동에서 마지막으로 로드한 파일의 구조를 새로운 설정을 고려하여 다시 감지할 수 있습니다. 이렇게 하려면 **[!UICONTROL Apply configuration]** 버튼을 사용합니다. 예를 들어 다른 열 구분자를 지정할 수 있습니다.
+     파일에서 데이터를 올바르게 복구하는 데 필요한 모든 감지 옵션이 **[!UICONTROL File format]**&#x200B;에 정리되어 있습니다. 이를 수정한 다음 해당 활동에서 마지막으로 로드한 파일의 구조를 새로운 설정을 고려하여 다시 감지할 수 있습니다. 이렇게 하려면 **[!UICONTROL Apply configuration]** 버튼을 사용합니다. 예를 들어 다른 열 구분자를 지정할 수 있습니다.
 
-      >[!NOTE]
-      >
-      >이 작업은 활동에서 마지막으로 로드한 파일을 고려합니다. 감지된 파일이 큰 경우 데이터 미리 보기에는 처음 30줄만 표시됩니다.
+     >[!NOTE]
+     >
+     >이 작업은 활동에서 마지막으로 로드한 파일을 고려합니다. 감지된 파일이 큰 경우 데이터 미리 보기에는 처음 30줄만 표시됩니다.
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      **[!UICONTROL File format]** 섹션에서 **[!UICONTROL Check columns from file against column definitions]** 옵션을 선택하면 업로드하고 있는 파일의 열이 열 정의에 해당하는지 확인할 수 있습니다.
+     **[!UICONTROL File format]** 섹션에서 **[!UICONTROL Check columns from file against column definitions]** 옵션을 선택하면 업로드하고 있는 파일의 열이 열 정의에 해당하는지 확인할 수 있습니다.
 
-      열의 수 및/또는 이름이 열 정의와 일치하지 않으면 워크플로우를 실행할 때 오류 메시지가 표시됩니다. 이 옵션이 활성화되지 않으면 로그 파일에 경고가 표시됩니다.
+     열의 수 및/또는 이름이 열 정의와 일치하지 않으면 워크플로우를 실행할 때 오류 메시지가 표시됩니다. 이 옵션이 활성화되지 않으면 로그 파일에 경고가 표시됩니다.
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. **[!UICONTROL Column definition]** 탭으로 이동하여 각 열의 데이터 포맷을 확인하고 필요한 경우 매개 변수를 조정합니다.
 
@@ -101,7 +101,7 @@ ht-degree: 93%
    * 이전 단계에서 업로드한 것입니다.
    * 로컬 컴퓨터에서 업로드할 새로운 파일입니다. 워크플로우에 첫 번째 파일 업로드가 이미 정의된 경우 **[!UICONTROL Upload a new file from local machine]** 옵션이 나타납니다. 이 옵션을 선택하면 현재 파일이 사용자의 요구 사항에 맞지 않을 경우 처리할 다른 파일을 업로드할 수 있습니다.
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. 데이터를 로드하려는 파일이 GZIP 파일(.gz)로 압축되어 있는 경우 **[!UICONTROL Add a pre-processing stage]** 필드에서 **[!UICONTROL Decompression]** 옵션을 선택합니다. 이 옵션을 선택하면 데이터를 로드하기 전에 파일의 압축을 해제할 수 있습니다. 이 옵션은 파일을 활동의 인바운드 전환에서 가져오는 경우에만 사용할 수 있습니다.
 
@@ -137,7 +137,7 @@ ht-degree: 93%
 
    * **[!UICONTROL Maximum number of characters]**: 문자열 유형 열의 최대 글자 수를 지정합니다.
 
-      길이가 고정된 열로 구성된 파일을 로드할 경우 이 필드를 입력해야 합니다.
+     길이가 고정된 열로 구성된 파일을 로드할 경우 이 필드를 입력해야 합니다.
 
    * **[!UICONTROL Letter case management]**: **텍스트** 데이터에 대소문자 프로세스를 적용할지 여부를 정의합니다.
    * **[!UICONTROL White space management]**: **텍스트** 데이터의 문자열에서 특정 공백을 무시할지 여부를 지정합니다.
@@ -155,9 +155,9 @@ ht-degree: 93%
    * **[!UICONTROL Use a default value in case the value is not remapped]**: 잘못된 값에 대한 매핑(위의 **[!UICONTROL Remapping of values]** 옵션 참조)이 정의되어 있지 않은 경우, 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
    * **[!UICONTROL Reject the line when there is no remapping value]**: 잘못된 값에 대한 매핑이 정의되어 있지 않은 경우, 전체 줄을 처리하지 않습니다(위의 **[!UICONTROL Remapping of values]** 옵션 참조). 
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Error processing]**&#x200B;은(는) 가져온 파일의 값과 관련된 오류를 처리합니다. 예를 들어 잘못된 데이터 형식(&quot;정수&quot; 열에 &quot;넷&quot;이라고 글자로 입력되어 있는 경우), 허용되는 최대 수보다 많은 문자를 포함하는 문자열, 잘못된 구분자가 있는 날짜 등이 있습니다. 그러나 이 옵션은 빈 값 관리로 생성된 오류를 고려하지 않습니다.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Error processing]**&#x200B;은(는) 가져온 파일의 값과 관련된 오류를 처리합니다. 예를 들어 잘못된 데이터 형식(&quot;정수&quot; 열에 &quot;넷&quot;이라고 글자로 입력되어 있는 경우), 허용되는 최대 수보다 많은 문자를 포함하는 문자열, 잘못된 구분자가 있는 날짜 등이 있습니다. 그러나 이 옵션은 빈 값 관리로 생성된 오류를 고려하지 않습니다.
 
 * **[!UICONTROL Default value]**: 선택한 오류 처리에 따라 기본값을 지정합니다.
 * **[!UICONTROL Empty value management]**: 데이터를 로드하는 동안 빈 값을 관리하는 방법을 지정합니다.

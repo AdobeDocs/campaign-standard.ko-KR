@@ -38,11 +38,11 @@ ht-degree: 68%
 
    * CSV 출력 포맷
 
-      ![](assets/wkf_data_export7.png)
+     ![](assets/wkf_data_export7.png)
 
    * 날짜 포맷
 
-      ![](assets/wkf_data_export9.png)
+     ![](assets/wkf_data_export9.png)
 
 1. 활동을 확인합니다.
 1. 드래그 앤 드롭 [파일 전송](../../automating/using/transfer-file.md) 다음 이후 활동 **[!UICONTROL Extract file]** 활동은 외부 계정에서 추출 파일을 복구합니다.

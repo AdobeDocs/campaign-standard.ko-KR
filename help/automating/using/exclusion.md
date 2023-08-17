@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ---
 
-# 예외{#exclusion}
+# 제외{#exclusion}
 
 ## 설명 {#description}
 

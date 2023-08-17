@@ -51,8 +51,8 @@ Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수
    * 프로필의 **[!UICONTROL Time zone]**&#x200B;을(를) 사용하여 해당 프로필의 시간대에 맞춰 게재를 보낼 수 있습니다. 자세한 정보는 이 [섹션](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)을 참조하십시오.
    * **[!UICONTROL Channels]** 카테고리에는 이메일 주소, 휴대전화 번호, 옵트아웃 정보가 있으며 프로필이 도달할 수 있는 채널을 알려줍니다.
 
-      >[!NOTE]
-      > 휴대폰 번호는 항상 국제 형식이어야 합니다(`+<country><number>`) 프로필 테이블의 형식입니다.
+     >[!NOTE]
+     > 휴대폰 번호는 항상 국제 형식이어야 합니다(`+<country><number>`) 프로필 테이블의 형식입니다.
 
    * **[!UICONTROL No longer contact]** 카테고리는 프로필이 채널 구독을 취소하면 즉시 업데이트됩니다.
    * **[!UICONTROL Address]** 카테고리에는 우편 주소가 있으며, 프로필에 [DM](../../channels/using/about-direct-mail.md)을 보낼 수 있는 **[!UICONTROL Address specified]** 옵션도 선택되어 있어야 합니다. **[!UICONTROL Address specified]** 옵션이 선택되어 있지 않은 프로필은 모든 DM 게재에서 제외됩니다. 

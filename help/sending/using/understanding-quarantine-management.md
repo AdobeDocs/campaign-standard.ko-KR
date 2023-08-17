@@ -27,29 +27,29 @@ ht-degree: 24%
 
 이메일 주소나 전화번호가 격리된 프로필은 메시지를 준비하는 동안 자동으로 제외됩니다([게재에 대해 격리된 주소 확인](#identifying-quarantined-addresses-for-a-delivery) 참조). 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다.
 
-일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 이러한 공급자에 의해 차단 목록에 추가되는 것을 피할 수 있습니다.
+일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 이러한 공급자에 의해 차단 목록에 추가하다에 추가되는 것을 피할 수 있습니다.
 
 또한 격리를 통해 잘못된 전화번호를 게재에서 제외하면 SMS를 보내는 비용을 줄이는 데 도움이 됩니다.
 
 게재 보안 향상 및 최적화 모범 사례를 더 알아보려면 [이 페이지](../../sending/using/delivery-best-practices.md)를 참조하십시오.
 
-### 차단 목록 방역 {#quarantine-vs-denylist}
+### 차단 목록에 추가하다 방역 {#quarantine-vs-denylist}
 
-차단 목록과 동일한 객체에는 적용되지 않습니다.
+차단 목록에 추가하다와 동일한 객체에는 적용되지 않습니다.
 
 * **격리** 에만 적용됩니다. **주소** (또는 전화 번호 등), 프로필 자체가 아닙니다. 예를 들어 이메일 주소가 격리된 프로필은 프로필을 업데이트하고 새 주소를 입력한 다음 게재 작업으로 다시 타겟팅될 수 있습니다. 마찬가지로, 두 프로필의 전화 번호가 같으면 해당 번호가 격리되면 둘 다 영향을 받습니다.
 
-   격리된 주소 또는 전화번호는 [제외 로그](#identifying-quarantined-addresses-for-a-delivery) (게재용) 또는 [격리 목록](#identifying-quarantined-addresses-for-the-entire-platform) (전체 플랫폼).
+  격리된 주소 또는 전화번호는 [제외 로그](#identifying-quarantined-addresses-for-a-delivery) (게재용) 또는 [격리 목록](#identifying-quarantined-addresses-for-the-entire-platform) (전체 플랫폼).
 
-* 다음에 있음 **차단 목록**&#x200B;반면 은(는) **프로필** 지정된 채널에 대해 구독 취소(옵트아웃) 후와 같이 더 이상 게재의 타겟이 되지 않습니다. 예를 들어 이메일 채널에 대한 차단 목록의 프로필에 두 개의 이메일 주소가 있는 경우 두 주소 모두 게재에서 제외됩니다. 차단 목록 프로세스에 대한 자세한 내용은 을 참조하십시오. [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* 다음에 있음 **차단 목록**&#x200B;반면 은(는) **프로필** 지정된 채널에 대해 구독 취소(옵트아웃) 후와 같이 더 이상 게재의 타겟이 되지 않습니다. 예를 들어 이메일 채널에 대한 차단 목록에 추가하다의 프로필에 두 개의 이메일 주소가 있는 경우 두 주소 모두 게재에서 제외됩니다. 차단 목록에 추가하다 프로세스에 대한 자세한 내용은 을 참조하십시오. [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-   프로필이 차단 목록에 있는지 또는 의 하나 이상의 채널에 있는지 확인할 수 있습니다. **[!UICONTROL No longer contact (on denylist)]** 프로필 섹션 **[!UICONTROL General]** 탭. [이 섹션](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)을 참조하십시오.
+  프로필이 차단 목록에 추가하다에 있는지 또는 의 하나 이상의 채널에 있는지 확인할 수 있습니다. **[!UICONTROL No longer contact (on denylist)]** 프로필 섹션 **[!UICONTROL General]** 탭. [이 섹션](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)을 참조하십시오.
 
 >[!NOTE]
 >
 >격리 대상에는 다음 항목이 포함됩니다. **차단 목록** 상태: 수신자가 메시지를 스팸으로 보고하거나 &quot;STOP&quot;과 같은 키워드를 사용하여 SMS 메시지에 회신할 때 적용됩니다. 이 경우 해당 프로필의 관련 주소나 전화번호는 **[!UICONTROL On denylist]** 상태. STOP SMS 메시지 관리에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-&lt;!—사용자가 SMS 게재에서 옵트아웃하기 위해 STOP과 같은 키워드로 SMS 메시지에 답장하는 경우, 이메일 옵트아웃 프로세스에서처럼 프로필이 차단 목록에 추가되지 않습니다. 대신 프로필의 전화번호는 **[!UICONTROL On denylist]** 상태. 이 상태는 전화번호만 참조합니다. 즉, 프로필은 이메일 메시지를 계속 수신하게 됩니다.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+&lt;!—사용자가 SMS 게재에서 옵트아웃하기 위해 STOP과 같은 키워드로 SMS 메시지에 답장하는 경우, 이메일 옵트아웃 프로세스에서처럼 프로필이 차단 목록에 추가하다에 추가되지 않습니다. 대신 프로필의 전화번호는 **[!UICONTROL On denylist]** 상태. 이 상태는 전화번호만 참조합니다. 즉, 프로필은 이메일 메시지를 계속 수신하게 됩니다.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## 격리된 주소 확인 {#identifying-quarantined-addresses}
 
@@ -125,11 +125,11 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 * 다음에서 주소를 선택합니다. **[!UICONTROL Administration > Channels > Quarantines > Addresses]** 나열 및 선택 **[!UICONTROL Delete element]**.
 
-   ![](assets/quarantine-delete-address.png)
+  ![](assets/quarantine-delete-address.png)
 
 * 주소 선택 및 변경 **[!UICONTROL Status]** 끝 **[!UICONTROL Valid]**.
 
-   ![](assets/quarantine-valid-status.png)
+  ![](assets/quarantine-valid-status.png)
 
 
 ### 벌크 업데이트 {#unquarantine-bulk}
@@ -142,7 +142,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 * **오류 텍스트(격리 텍스트)** &quot;550-5.1.1&quot;을 포함하고 **오류 텍스트(격리 텍스트)** &quot;support.ISP.com&quot;을 포함합니다.
 
-   예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
+  예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
 
 * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이후:MM:오전 SS
 * **업데이트 상태(@lastModified)** YYYY/MM/DD HH 또는 이전:MM:오후
@@ -157,7 +157,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 * **하드 오류**: 해당 이메일 주소가 즉시 격리됩니다.
 * **소프트 오류**: 소프트 오류의 경우 주소가 즉시 격리되지는 않지만, 오류 카운터가 증가합니다. 자세한 내용은 [소프트 오류 관리](#soft-error-management).
 
-   <!--
+  <!--
   When the error counter reaches the limit threshold, the address goes into quarantine. In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error. The error counter threshold can be modified. For more on this, refer to this [page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
   When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
   -->

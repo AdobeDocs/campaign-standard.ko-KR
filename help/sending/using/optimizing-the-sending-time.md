@@ -32,14 +32,14 @@ ht-degree: 100%
 
 * **[!UICONTROL No optimization]**: 메시지가 사용자의 시간대에 전송됩니다.
 
-   예를 들어 시간대가 GMT+1이고 **[!UICONTROL Start sending from]** 필드에 오전 9시를 입력하면 GMT+3 시간대에 있는 수신자는 해당 수신자의 현지 시간으로 오전 11시에 메시지를 수신하게 됩니다.
+  예를 들어 시간대가 GMT+1이고 **[!UICONTROL Start sending from]** 필드에 오전 9시를 입력하면 GMT+3 시간대에 있는 수신자는 해당 수신자의 현지 시간으로 오전 11시에 메시지를 수신하게 됩니다.
 
 * **[!UICONTROL Send at the recipient's time zone]**: 모든 수신자는 시간대를 고려하여 메시지를 수신하게 됩니다.
 
-   예를 들어 **[!UICONTROL Start sending from]** 필드에 오전 9시를 입력하면 GMT+3 시간대에 있는 수신자는 해당 수신자의 현지 시간으로 오전 9시에 메시지를 수신하게 됩니다.
+  예를 들어 **[!UICONTROL Start sending from]** 필드에 오전 9시를 입력하면 GMT+3 시간대에 있는 수신자는 해당 수신자의 현지 시간으로 오전 9시에 메시지를 수신하게 됩니다.
 
-   [수신자의 시간대에 맞추어 메시지 보내기](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)를 참조하십시오.
+  [수신자의 시간대에 맞추어 메시지 보내기](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)를 참조하십시오.
 
 * **[!UICONTROL Send at a custom date defined by a formula]**: 각 수신자는 지정된 수식으로 구성된 날짜 및 시간에 메시지를 수신하게 됩니다.
 
-   [보내는 날짜 계산](../../sending/using/computing-the-sending-date.md)을 참조하십시오.
+  [보내는 날짜 계산](../../sending/using/computing-the-sending-date.md)을 참조하십시오.

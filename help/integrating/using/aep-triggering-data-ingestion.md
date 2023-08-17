@@ -54,11 +54,11 @@ Adobe Experience Platform에 대한 XDM 매핑의 즉각적인 섭취는 POST �
 >
 >수집 POST API 호출을 실행하려면 사용자에게 다음이 있어야 합니다 **SQL 함수 실행** Campaign Standard 관리자 가 JS 스크립트 아래에서 실행하여 제공할 수 있는 역할:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
+>
 
 POST 작업이 생성된 요청 상태에 대한 정보를 반환합니다.
 
@@ -119,60 +119,60 @@ GET 작업에 대해 가능한 응답은 다음과 같습니다.
 
 * 요청 수집 성공:
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ",
-   "numRecords": 15,
-   "requestId": 3520,
-   "status": "Success"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ",
+  "numRecords": 15,
+  "requestId": 3520,
+  "status": "Success"
+  }
+  ```
 
 * 0개의 레코드가 수집되어 수집 요청 실패:
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
-   "numRecords": 0,
-   "requestId": 3520,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
+  "numRecords": 0,
+  "requestId": 3520,
+  "status": "Failed"
+  }
+  ```
 
 * 일부 레코드가 일괄 처리 아래에 업로드되어 수집 요청에 실패했습니다.
 
-   ```
-   {
-   "batchId": "<value>",
-   "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "<value>",
+  "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Failed"
+  }
+  ```
 
 * 일부 레코드를 수집한 후 수집 요청이 중단됨(충돌 시나리오에서 발생할 수 있음):
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Aborted"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Aborted"
+  }
+  ```
 
 * 수집 요청 진행 중(요청이 데이터를 일괄 업로드하거나 요청에 대한 일괄 처리를 준비하는 경우):
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "In Progress"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "In Progress"
+  }
+  ```

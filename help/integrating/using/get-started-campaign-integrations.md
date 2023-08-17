@@ -56,7 +56,7 @@ ht-degree: 77%
    <td> Adobe Target<br /> </td> 
    <td> Adobe Campaign에서 만들고 보낸 이메일이 열려 있을 때 Adobe Target에서 동적으로 계산된 이미지를 삽입할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign 및 Target 작업</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">캠페인 및 Target 통합</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간으로 이메일 이미지 개인화</a> 비디오(3단계)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign을 Target과 함께 사용하기</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Campaign과 Target 통합</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간으로 이메일 이미지 개인화</a> 비디오(3단계)
     </td> 
   </tr> 
   <tr> 

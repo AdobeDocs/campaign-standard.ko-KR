@@ -507,7 +507,7 @@ ht-degree: 31%
                </tr>
                <tr>
                   <td>타겟</td>
-                  <td>게재 대상 모집단</td>
+                  <td>게재 대상 집단</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>

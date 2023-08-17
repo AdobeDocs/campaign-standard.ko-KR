@@ -69,7 +69,7 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>종료</td>
-                  <td>종료 날짜</td>
+                  <td>종료 일자</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -150,7 +150,7 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>시작</td>
-                  <td>시작 날짜</td>
+                  <td>시작 일자</td>
                   <td>date </td>
                   <td> </td>
                </tr>

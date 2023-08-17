@@ -25,15 +25,15 @@ Dreamweaver과 Adobe Campaign Standard 통합을 사용하면 Dreamweaver 인터
 
 * **양방향 동기화**
 
-   한 제품에서 편집이 이루어질 때마다 다른 제품에서 실시간으로 업데이트됩니다. Dreamweaver에서 텍스트 색상을 변경하려는 경우 편집하는 즉시 Campaign에서 텍스트 색상이 활성화됩니다. 또한 Dreamweaver 또는 Campaign에서 코드를 선택하면 행 번호가 동일하기 때문에 선택 사항이 두 제품 간에 유지되므로 코드에서 특정 코드를 찾을 때 매우 유용합니다.
+  한 제품에서 편집이 이루어질 때마다 다른 제품에서 실시간으로 업데이트됩니다. Dreamweaver에서 텍스트 색상을 변경하려는 경우 편집하는 즉시 Campaign에서 텍스트 색상이 활성화됩니다. 또한 Dreamweaver 또는 Campaign에서 코드를 선택하면 행 번호가 동일하기 때문에 선택 사항이 두 제품 간에 유지되므로 코드에서 특정 코드를 찾을 때 매우 유용합니다.
 
 * **Dreamweaver를 통해 로컬 이미지를 Adobe Campaign에 업로드**
 
-   Dreamweaver 내에서 이메일을 만들거나 편집할 때 데스크탑 또는 로컬 컴퓨터에서 이미지를 선택하면 됩니다. Dreamweaver에서는 항상 이 작업을 수행할 수 있지만 Dreamweaver과 Campaign이 연결되면 로컬 파일이 즉시 Adobe Campaign 서버에 업로드됩니다. 콘텐츠가 변경될 때 이미지를 수동으로 업로드할 필요가 없습니다. 또한 최신 이미지가 Campaign에서 항상 활성화되어 있도록 합니다.
+  Dreamweaver 내에서 이메일을 만들거나 편집할 때 데스크탑 또는 로컬 컴퓨터에서 이미지를 선택하면 됩니다. Dreamweaver에서는 항상 이 작업을 수행할 수 있지만 Dreamweaver과 Campaign이 연결되면 로컬 파일이 즉시 Adobe Campaign 서버에 업로드됩니다. 콘텐츠가 변경될 때 이미지를 수동으로 업로드할 필요가 없습니다. 또한 최신 이미지가 Campaign에서 항상 활성화되어 있도록 합니다.
 
 * **Dreamweaver에서 Campaign 개인화 추가**
 
-   이메일 개발자의 경우 와 같은 텍스트를 더 이상 추가할 필요가 없습니다 `[[FIRSTNAME_PLACEHOLDER]]` 또한 데이터 모델 테이블의 구문을 조회합니다. Dreamweaver의 Campaign 도구 모음은 Campaign 인스턴스의 데이터 모델에 직접 연결됩니다. 즉, 이름과 주소 간에 개인화할 모든 데이터를 가져올 수 있습니다. Campaign 내에서 콘텐츠 블록을 만든 경우 해당 블록을 Dreamweaver으로 직접 가져올 수도 있습니다.
+  이메일 개발자의 경우 와 같은 텍스트를 더 이상 추가할 필요가 없습니다 `[[FIRSTNAME_PLACEHOLDER]]` 또한 데이터 모델 테이블의 구문을 조회합니다. Dreamweaver의 Campaign 도구 모음은 Campaign 인스턴스의 데이터 모델에 직접 연결됩니다. 즉, 이름과 주소 간에 개인화할 모든 데이터를 가져올 수 있습니다. Campaign 내에서 콘텐츠 블록을 만든 경우 해당 블록을 Dreamweaver으로 직접 가져올 수도 있습니다.
 
 이 기능은 Dreamweaver 설명서에 자세히 설명되어 있습니다 [여기](https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 

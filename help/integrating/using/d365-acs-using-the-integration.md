@@ -120,6 +120,7 @@ Dynamics 사용자에 대한 타임라인 보기를 보려면 아래를 참조�
 >[!IMPORTANT]
 >
 >Campaign 사용자 지정 리소스 레코드에 개인 정보가 포함된 경우 특정 권장 사항이 적용됩니다. 자세히 알아보기 [이 섹션에서](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>
 
 사용자 지정 엔티티 데이터 흐름을 구성할 때는 다음 사항에 유의해야 합니다.
 
@@ -156,7 +157,7 @@ Dynamics 365 내에 다음 이벤트 특성이 표시됩니다.
 
 ### 옵트아웃 흐름 {#opt-out-flow}
 
-옵트아웃 (예: 차단 목록) 값은 시스템 간에 동기화됩니다. 온보딩 시 다음 옵션을 선택할 수 있습니다.
+옵트아웃 (예: 차단 목록에 추가하다) 값은 시스템 간에 동기화됩니다. 온보딩 시 다음 옵션을 선택할 수 있습니다.
 
 * **단방향(Microsoft Dynamics 365에서 Campaign으로)**: Dynamics 365는 옵트아웃에 대한 신뢰할 수 있는 소스입니다. 옵트아웃 속성은 Dynamics 365에서 Campaign Standard으로 한 방향으로 동기화됩니다.&quot;
 * **단방향(Microsoft Dynamics 365에 대한 캠페인)**: Campaign Standard은 옵트아웃에 대한 신뢰할 수 있는 소스입니다. 옵트아웃 속성은 Campaign Standard에서 Dynamics 365로 한 방향으로 동기화됩니다.
@@ -169,6 +170,7 @@ Dynamics 365 내에 다음 이벤트 특성이 표시됩니다.
 >통합 애플리케이션 UI에서 **단방향(Microsoft Dynamics 365에서 Campaign으로)** 및 **양방향** 옵트아웃 사용 사례는 별도의 옵트아웃 워크플로우에서 구성됩니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)
 >
 >다음 **단방향(Microsoft Dynamics 365에 대한 캠페인)** 옵트아웃 사용 사례는 예외이며, 인그레스(프로필에 문의) 워크플로우 내에서 구성됩니다.
+>
 
 옵트아웃 흐름 매핑은 기업 간에 비즈니스 요구 사항이 다를 수 있으므로 고객이 지정합니다. Campaign 측에서는 OOTB 옵트아웃 속성만 옵트아웃 매핑에 사용할 수 있습니다.
 

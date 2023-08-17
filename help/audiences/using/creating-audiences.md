@@ -113,11 +113,11 @@ Adobe Campaign의 프로필을 쿼리하는 **쿼리** 유형 대상자와 달�
 
 * **쿼리** 대상자를 편집하려면 **[!UICONTROL Audiences]** 메뉴 또는 Adobe Campaign 홈페이지의 **[!UICONTROL Audiences]** 카드를 통해 대상자 목록으로 이동합니다.
 
-   관련 대상자를 엽니다. 이전에 만든 대상자의 모든 요소를 편집할 수 있습니다.
+  관련 대상자를 엽니다. 이전에 만든 대상자의 모든 요소를 편집할 수 있습니다.
 
-   >[!CAUTION]
-   >
-   >쿼리의 **[!UICONTROL Filtering dimension]**&#x200B;을(를) 변경하면 이전에 정의된 규칙이 사라집니다.
+  >[!CAUTION]
+  >
+  >쿼리의 **[!UICONTROL Filtering dimension]**&#x200B;을(를) 변경하면 이전에 정의된 규칙이 사라집니다.
 
 * **목록** 또는 **파일** 대상자를 편집하려면 대상자를 만든 워크플로우를 편집하고 **[!UICONTROL Save audience]** 활동을 수정합니다. 워크플로우를 시작하여 대상자를 수정합니다.
 * **Experience Cloud** 대상자를 편집하려면 [People 핵심 서비스로 대상자 가져오기/내보내기](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) 섹션을 참조하십시오.

@@ -25,7 +25,7 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
 * **권한 있는 마스크 필드**
 
-   **[!UICONTROL Header parameters of sent emails]** 섹션에는 전자 메일을 수신자(발신자 주소)에게 보내고 비동기 바운스, 부재 중 회신 등과 같은 자동 답글을 다시 보낼 수 있도록 할 수 있는 권한이 있는 전자 메일 주소가 나열됩니다. (오류 주소).  Adobe Campaign은 메시지 준비 단계 동안 입력한 주소가 유효한지 확인합니다. 이 운영 모드에서는 게재 가능성 문제를 트리거 할 수 있는 주소가 사용되지 않습니다.
+  **[!UICONTROL Header parameters of sent emails]** 섹션에는 전자 메일을 수신자(발신자 주소)에게 보내고 비동기 바운스, 부재 중 회신 등과 같은 자동 답글을 다시 보낼 수 있도록 할 수 있는 권한이 있는 전자 메일 주소가 나열됩니다. (오류 주소).  Adobe Campaign은 메시지 준비 단계 동안 입력한 주소가 유효한지 확인합니다. 이 운영 모드에서는 게재 가능성 문제를 트리거 할 수 있는 주소가 사용되지 않습니다.
    * 발신자와 오류 주소는 모두 Adobe에서 설정합니다. 이러한 필드는 비워 둘 수 없습니다.
    * 이러한 필드는 편집할 수 없습니다. 주소를 업데이트하려면 Adobe 고객 지원 센터에 문의하십시오.
    * 다른 주소를 추가하려면 다음을 사용할 수 있습니다 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko) 새 하위 도메인을 설정하거나 Adobe 고객 지원 센터에 문의하십시오. 여러 개의 마스크를 사용하는 경우 쉼표로 구분됩니다.
@@ -33,39 +33,39 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
 * **게재 가능성**
 
-   **[!UICONTROL Delivery reports ID]**은 Adobe 고객 지원 센터에서 제공합니다. 게재 가능성 기술 보고서에서 사용되는 게재 가능성 ID로 각 인스턴스를 식별합니다.
-   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
+  **[!UICONTROL Delivery reports ID]**은 Adobe 고객 지원 센터에서 제공합니다. 게재 가능성 기술 보고서에서 사용되는 게재 가능성 ID로 각 인스턴스를 식별합니다.
+  <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **게재 매개 변수**
 
-   Adobe Campaign은 시작 날짜부터 메시지를 전송합니다.
+  Adobe Campaign은 시작 날짜부터 메시지를 전송합니다.
 
-   일시적인 오류 또는 소프트 바운스로 인해 게재의 메시지가 거부되면 Campaign은 매일 이 메시지를 다시 보내려고 시도합니다. 사용 **[!UICONTROL Message delivery duration]** 재시도 중 발생하는 시간을 지정하는 필드입니다.
+  일시적인 오류 또는 소프트 바운스로 인해 게재의 메시지가 거부되면 Campaign은 매일 이 메시지를 다시 보내려고 시도합니다. 사용 **[!UICONTROL Message delivery duration]** 재시도 중 발생하는 시간을 지정하는 필드입니다.
 
-   >[!IMPORTANT]
-   >
-   >**이제 Campaign의 이 매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+  >[!IMPORTANT]
+  >
+  >**이제 Campaign의 이 매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
-   **[!UICONTROL Online resources validity duration]** 필드는 주로 미러 페이지와 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
+  **[!UICONTROL Online resources validity duration]** 필드는 주로 미러 페이지와 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
 
 * **다시 시도**
 
-   일시적으로 게재되지 않은 메시지는 자동 다시 시도를 적용합니다. 자세한 내용은 [일시적 게재 실패 후 다시 시도](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)를 참조하십시오.
+  일시적으로 게재되지 않은 메시지는 자동 다시 시도를 적용합니다. 자세한 내용은 [일시적 게재 실패 후 다시 시도](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)를 참조하십시오.
 
-   >[!IMPORTANT]
-   >
-   >수행할 최대 다시 시도 횟수와 다시 시도 사이의 최소 지연은 이제 IP가 과거 및 현재 지정된 도메인에서 얼마나 잘 수행되고 있는지에 따라 결정됩니다. 다음 **[!UICONTROL Retry period]** 및 **[!UICONTROL Number of retries]** campaign의 설정은 무시됩니다.
+  >[!IMPORTANT]
+  >
+  >수행할 최대 다시 시도 횟수와 다시 시도 사이의 최소 지연은 이제 IP가 과거 및 현재 지정된 도메인에서 얼마나 잘 수행되고 있는지에 따라 결정됩니다. 다음 **[!UICONTROL Retry period]** 및 **[!UICONTROL Number of retries]** campaign의 설정은 무시됩니다.
 
-   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
+  <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **전자 메일 격리 매개 변수**
 
-   **[!UICONTROL Time between two significant errors]** 필드에서는 소프트 바운스 실패 시 애플리케이션이 오류 카운터를 증가시키기 전에 기다리는 시간을 정의하는 값을 입력합니다. 기본값은 1일 동안 **&quot;1d&quot;**&#x200B;입니다.
+  **[!UICONTROL Time between two significant errors]** 필드에서는 소프트 바운스 실패 시 애플리케이션이 오류 카운터를 증가시키기 전에 기다리는 시간을 정의하는 값을 입력합니다. 기본값은 1일 동안 **&quot;1d&quot;**&#x200B;입니다.
 
-   **[!UICONTROL Maximum number of errors before quarantine]** 값에 도달하면 전자 메일 주소가 격리됩니다. 기본값은 입니다. **&quot;5&quot;**: 다섯 번째 오류에서 주소가 격리됩니다. 즉, 연락처는 후속 게재에서 자동으로 제외됩니다.
-   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
+  **[!UICONTROL Maximum number of errors before quarantine]** 값에 도달하면 전자 메일 주소가 격리됩니다. 기본값은 입니다. **&quot;5&quot;**: 다섯 번째 오류에서 주소가 격리됩니다. 즉, 연락처는 후속 게재에서 자동으로 제외됩니다.
+  <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
-   격리에 대한 자세한 내용은 [격리 관리 이해하기](../../sending/using/understanding-quarantine-management.md)를 참조하십시오.
+  격리에 대한 자세한 내용은 [격리 관리 이해하기](../../sending/using/understanding-quarantine-management.md)를 참조하십시오.
 
 ## 전자 메일 라우팅 계정 {#email-routing-accounts}
 
@@ -169,9 +169,9 @@ Campaign에 **설정된**&#x200B;게재 기간 설정&#x200B;**([유효 기간 �
 * **수신자 환경 설정 사용** (기본 모드): 메시지 형식은 수신자 프로필에 저장된 데이터에 따라 정의되며 기본값으로 **전자 메일 형식** 필드 (@emailFormat)에 저장됩니다. 수신자가 특정 형식으로 메시지를 수신하려는 경우에 보내는 형식입니다. 필드가 완료되지 않으면 다중 파트 대체 메시지가 전송됩니다(아래 참조).
 * **수신자 메일 클라이언트가 가장 적절한 형식(다중 파트 대체)을 선택할 수 있도록 합니다**. 메시지에는 텍스트 및 HTML의 두 형식 모두가 포함됩니다. 수신에 따라 표시되는 형식은 수신자의 메일 소프트웨어(다중 파트 대체)의 구성에 따라 달라집니다.
 
-   >[!IMPORTANT]
-   >
-   >이 옵션에는 메시지의 두 버전이 모두 포함됩니다. 따라서 메시지 크기가 더 크기 때문에 게재 처리량에 영향을 줍니다.
+  >[!IMPORTANT]
+  >
+  >이 옵션에는 메시지의 두 버전이 모두 포함됩니다. 따라서 메시지 크기가 더 크기 때문에 게재 처리량에 영향을 줍니다.
 
 * **모든 메시지를 텍스트 형식으로 보냅니다**. 메시지는 텍스트 형식으로 전송됩니다. HTML 형식은 전송되지 않지만 수신자가 메시지의 링크를 클릭할 때만 미러 페이지에 사용됩니다.
 
@@ -200,17 +200,17 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 * **[!UICONTROL Explicitly set validity dates]**: 이 상자를 선택 취소하면 **[!UICONTROL Delivery duration]** 및 **[!UICONTROL Resource validity limit]** 필드에 기간을 입력해야 합니다.
 
-   특정 시간과 날짜를 정의하려면 이 상자를 선택합니다.
+  특정 시간과 날짜를 정의하려면 이 상자를 선택합니다.
 
-   ![](assets/delivery-set-explicit-dates.png)
+  ![](assets/delivery-set-explicit-dates.png)
 
 * **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign은 시작 날짜부터 메시지를 전송합니다. 이 필드를 사용하여 메시지를 보낼 수 있는 기간을 지정합니다.
 
-   >[!IMPORTANT]
-   >
-   >**최대 3.5일 값을 정의해야 합니다.** 3.5일 이상의 값을 설정하면 값이 고려되지 않습니다.
-   >
-   >**[!UICONTROL Delivery duration]** 매개 변수는 트랜잭션 메시지에 적용되지 않습니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md)을 참조하십시오.
+  >[!IMPORTANT]
+  >
+  >**최대 3.5일 값을 정의해야 합니다.** 3.5일 이상의 값을 설정하면 값이 고려되지 않습니다.
+  >
+  >**[!UICONTROL Delivery duration]** 매개 변수는 트랜잭션 메시지에 적용되지 않습니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md)을 참조하십시오.
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: 이 필드는 주로 미러 페이지 및 이미지에 대해 업로드된 리소스에 사용됩니다. 이 페이지의 리소스는 제한된 시간 동안 유효합니다(디스크 공간을 절약하기 위함).
 * **[!UICONTROL Mirror page management]**: 미러 페이지는 웹 브라우저를 통해 온라인으로 액세스할 수 있는 HTML 페이지입니다. 콘텐츠는 전자 메일 콘텐츠와 동일합니다. 기본적으로 링크가 메일 콘텐츠에 삽입된 경우 미러 페이지가 생성됩니다. 이 필드를 사용하여 이 페이지 생성 방법을 수정합니다.
@@ -220,9 +220,10 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
    * **미러 페이지 비 생성**: 링크가 메시지에 포함되어 있어도 미러 페이지가 생성되지 않습니다.
    * **메시지 ID만 사용하여 액세스할 수 있는 미러 페이지 생성**: 이 옵션을 사용하면 게재 로그 창에서 개인화 정보를 사용하여 미러 페이지의 콘텐츠에 액세스할 수 있습니다.
 
-   >[!IMPORTANT]
-   >
-   >이메일에 대해 HTML 콘텐츠가 정의된 경우에만 미러 페이지가 생성됩니다.
+  >[!IMPORTANT]
+  >
+  >이메일에 대해 HTML 콘텐츠가 정의된 경우에만 미러 페이지가 생성됩니다.
+  >
 
 
 ### 추적 매개 변수 {#tracking-parameters}
@@ -264,13 +265,13 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 * **[!UICONTROL Typology]**: 전송 전에 콘텐츠와 구성을 확인하기 위해 메시지를 준비해야 합니다. 준비 단계 동안 적용된 확인 규칙은 **유형화**&#x200B;에서 정의됩니다. 예를 들어 전자 메일의 경우, 준비 과정에는 제목, URL 및 이미지 등이 포함됩니다. 이 필드에 적용할 유형화를 선택합니다.
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 메뉴를 통해 액세스할 수 있는 유형화는 [이 섹션](../../sending/using/about-typology-rules.md)에 설명되어 있습니다.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** 메뉴를 통해 액세스할 수 있는 유형화는 [이 섹션](../../sending/using/about-typology-rules.md)에 설명되어 있습니다.
 
 * **[!UICONTROL Compute the label during delivery preparation]**: 이 옵션을 사용하여 개인화 필드, 콘텐츠 블록 및 동적 텍스트를 사용하여 메시지 준비 단계 동안 전자 메일의 레이블 값을 계산합니다.
 
-   또한 워크플로우의 외부 신호 활동으로 선언된 이벤트 변수를 사용하여 게재 레이블을 개인화할 수도 있습니다. 자세한 정보는 [이 섹션](../../automating/using/calling-a-workflow-with-external-parameters.md)을 참조하십시오.
+  또한 워크플로우의 외부 신호 활동으로 선언된 이벤트 변수를 사용하여 게재 레이블을 개인화할 수도 있습니다. 자세한 정보는 [이 섹션](../../automating/using/calling-a-workflow-with-external-parameters.md)을 참조하십시오.
 
 * **[!UICONTROL Save SQL queries in the log]**: 이 옵션을 사용하여 준비 단계 동안 저널에 SQL 쿼리 로그를 추가합니다.
 
@@ -286,9 +287,9 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 * **[!UICONTROL Bounce mails]**: 기본적으로 바운스 메일은 플랫폼의 오류 수신함에서 수신됩니다( **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]** 화면에 정의됨). 전자 메일의 특정 오류 주소를 정의하려면 **[!UICONTROL Error address]** 필드에 주소를 입력합니다.
 * **[!UICONTROL Additional SMTP headers]**: 이 옵션을 사용하면 메시지에 추가 SMTP 헤더를 추가할 수 있습니다. **[!UICONTROL Headers]** 필드에 입력한 스크립트는 줄당 **name:value**&#x200B;형식으로 한 개의 헤더를 참조해야 합니다. 필요한 경우 값이 자동으로 인코딩됩니다.
 
-   >[!IMPORTANT]
-   >
-   >추가 SMTP 헤더 삽입을 위한 스크립트 추가는 고급 사용자를 위해 예약되어 있습니다. 이 스크립트의 구문은 다음과 같은 이 콘텐츠 형식의 요구 사항을 준수해야 합니다: 사용하지 않은 공간, 빈 줄 등이 없음.
+  >[!IMPORTANT]
+  >
+  >추가 SMTP 헤더 삽입을 위한 스크립트 추가는 고급 사용자를 위해 예약되어 있습니다. 이 스크립트의 구문은 다음과 같은 이 콘텐츠 형식의 요구 사항을 준수해야 합니다: 사용하지 않은 공간, 빈 줄 등이 없음.
 
 ### 액세스 권한 부여 매개 변수 목록 {#list-of-access-authorization-parameters}
 
@@ -296,9 +297,9 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 * 다음 **[!UICONTROL Organizational unit]** 필드는 이 전자 메일에 대한 액세스를 특정 사용자에게 제한하는 데 사용됩니다. 지정한 단위 또는 상위 단위와 연결된 사용자는 이 전자 메일에 대한 읽기 및 쓰기 액세스 권한을 가집니다. 하위 단위와 연결된 사용자는 이 전자 메일에 대한 읽기 권한만 갖게 됩니다.
 
-   >[!NOTE]
-   >
-   >**관리** > **사용자 및 보안** 메뉴를 통해 조직 단위를 구성할 수 있습니다.
+  >[!NOTE]
+  >
+  >**관리** > **사용자 및 보안** 메뉴를 통해 조직 단위를 구성할 수 있습니다.
 
 * **[!UICONTROL Created by]**, **[!UICONTROL Created]**, **[!UICONTROL Modified by]** 그리고 **[!UICONTROL Last modified]** 필드는 자동으로 완료됩니다.
 

@@ -358,9 +358,9 @@ ht-degree: 100%
 
 * 트랜잭션 푸시 알림 타기팅 프로필을 보낼 때 게재 분석이 실패하는 문제를 해결하기 위해 다음과 같은 새 [타깃 매핑](../../administration/using/target-mappings-in-campaign.md)을 도입했습니다. **프로필 - 푸시할 실시간 이벤트**(*mapRtEventAppSubRcp*). [프로필 기반 트랜잭션 푸시 알림](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)의 게재, 제외 및 추적 로그가 이제 *broadLogAppSubRcp*, *excludeLogAppSubRcp* 및 *trackingLogAppSubRcp* 테이블에 저장됩니다.
 
-   >[!IMPORTANT]
-   >
-   >이 변경에 따라, 기존 프로필 기반 푸시 트랜잭션 알림(Adobe Campaign 21.1로 업그레이드하기 전에 만든 것)을 사용하는 경우 타깃 매핑을 새 프로필에 업데이트하고 메시지를 다시 게시하는 것이 좋습니다. 자세한 단계는 [여기](../../channels/using/transactional-push-notifications.md#change-target-mapping)를 참조하세요. 이전 타깃 매핑 **프로필 - 실시간 이벤트**(*mapRtEventRcp*)를 사용하면 게재 준비 시간이 길어지고 성능이 저하될 수 있습니다.
+  >[!IMPORTANT]
+  >
+  >이 변경에 따라, 기존 프로필 기반 푸시 트랜잭션 알림(Adobe Campaign 21.1로 업그레이드하기 전에 만든 것)을 사용하는 경우 타깃 매핑을 새 프로필에 업데이트하고 메시지를 다시 게시하는 것이 좋습니다. 자세한 단계는 [여기](../../channels/using/transactional-push-notifications.md#change-target-mapping)를 참조하세요. 이전 타깃 매핑 **프로필 - 실시간 이벤트**(*mapRtEventRcp*)를 사용하면 게재 준비 시간이 길어지고 성능이 저하될 수 있습니다.
 
 * 5,000개의 행이 표시되었을 때 게재 보고서가 실행되지 않던 문제를 해결했습니다.
 * 게재 템플릿이 수정된 후 변형 B의 콘텐츠가 업데이트되지 않는 A/B 테스트 문제를 해결했습니다. (CAMP-45235)

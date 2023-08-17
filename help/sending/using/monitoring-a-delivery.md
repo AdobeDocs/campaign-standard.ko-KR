@@ -26,23 +26,23 @@ ht-degree: 79%
 
 * **메시지 로그**: 메시지 대시보드에서 로그에 직접 액세스할 수 있습니다. 여기에는 전송 세부 사항과 제외된 타겟 및 그 이유와 함께 오픈과 클릭 등의 추적 정보가 표시됩니다.
 
-   메시지 로그를 보려면 **[!UICONTROL Deployment]** 블록의 오른쪽 하단에 있는 아이콘을 클릭합니다.
+  메시지 로그를 보려면 **[!UICONTROL Deployment]** 블록의 오른쪽 하단에 있는 아이콘을 클릭합니다.
 
-   몇 개의 탭에 **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** 및 **[!UICONTROL Tracked URLs]**&#x200B;와(과) 관련된 정보가 포함됩니다(있는 경우). [게재 로그](#delivery-logs)를 참조하십시오.
+  몇 개의 탭에 **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** 및 **[!UICONTROL Tracked URLs]**&#x200B;와(과) 관련된 정보가 포함됩니다(있는 경우). [게재 로그](#delivery-logs)를 참조하십시오.
 
-   ![](assets/sending_delivery1.png)
+  ![](assets/sending_delivery1.png)
 
-   로그에는 게재 및 증명과 관련된 모든 메시지가 포함되어 있습니다. 특정 아이콘을 통해 오류나 경고를 확인할 수 있습니다. 자세한 내용은 [메시지 승인](../../sending/using/previewing-messages.md)을 참조하십시오.
+  로그에는 게재 및 증명과 관련된 모든 메시지가 포함되어 있습니다. 특정 아이콘을 통해 오류나 경고를 확인할 수 있습니다. 자세한 내용은 [메시지 승인](../../sending/using/previewing-messages.md)을 참조하십시오.
 
-   **[!UICONTROL Export list]** 버튼을 클릭하여 로그를 내보낼 수 있습니다.
+  **[!UICONTROL Export list]** 버튼을 클릭하여 로그를 내보낼 수 있습니다.
 
-   ![](assets/sending_delivery2.png)
+  ![](assets/sending_delivery2.png)
 
 * **작업 로그**: 게재를 통해 트리거된 배치 작업 목록은 을 선택하여 메시지 대시보드에서 액세스할 수 있습니다. **[!UICONTROL Job history]** 다음에서 **[!UICONTROL Summary]** 드롭다운 목록입니다.
 
-   선택한 작업의 세부 정보를 보려면 목록에서 작업을 선택하십시오. **[!UICONTROL Batch job]**.
+  선택한 작업의 세부 정보를 보려면 목록에서 작업을 선택하십시오. **[!UICONTROL Batch job]**.
 
-   ![](assets/sending_delivery8.png)
+  ![](assets/sending_delivery8.png)
 
 * **게재 경고**: Adobe Campaign은 게재 성공 또는 실패를 추적하기 위한 이메일 알림 시스템을 제공합니다. 이 시스템은 사용자에게 중요한 시스템 활동에 대한 알림을 보냅니다.
 * **보고서**: 메시지 대시보드에서 특정 메시지에 대한 여러 보고서에 액세스할 수 있습니다. 또한 **[!UICONTROL Reports]** 메뉴를 통해 기본 제공 또는 사용자 정의 보고서 전체 목록에 액세스할 수 있습니다. 보고서를 통해 메시지 또는 캠페인과 관련된 특정 지표를 전체적으로 확인할 수 있습니다.

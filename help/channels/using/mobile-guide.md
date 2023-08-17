@@ -193,7 +193,7 @@ Adobe Campaign Standard을 사용하면 세 가지 채널을 통해 모바일 �
     <div>
     <p><strong>SMS 메시지 만들기</strong></p>
     </div>
-    <p>SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사합니다. </br>단계 <a href="../../channels/using/creating-an-sms-message.md"><strong>자세한 내용은 여기</strong></a> 이 채널과 관련된 구성을 설명합니다.</br></p>
+    <p>SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사합니다. </br>단계 <a href="../../channels/using/creating-an-sms-message.md"><strong>자세한 내용은 여기</strong></a> 이 채널과 관련된 구성을 설명합니다.</p>
     <br>
   </td>
   <td>
@@ -201,7 +201,7 @@ Adobe Campaign Standard을 사용하면 세 가지 채널을 통해 모바일 �
     <p><strong>SMS 메시지 사용자 지정
 </strong></p>
     </div>
-    <p>게재를 미세 조정하기 위해 Adobe Campaign에서는 SMS 메시지를 디자인하는 동안 고급 옵션 세트에 액세스할 수 있습니다.자세한 정보를 보려면 </br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>여기를 클릭하십시오.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
+    <p>게재를 미세 조정하기 위해 Adobe Campaign에서는 SMS 메시지를 디자인하는 동안 고급 옵션 세트에 액세스할 수 있습니다.자세한 정보를 보려면 </br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>여기를 클릭하십시오.</p>
     <br>
   </td>
 </tr>
@@ -210,7 +210,7 @@ Adobe Campaign Standard을 사용하면 세 가지 채널을 통해 모바일 �
     <div>
     <p><strong>수신 SMS 관리</strong></p>
     </div>
-    <p>Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 자동으로 다시 보내는 메시지와 수행할 작업을 구성할 수 있습니다.로컬 알림 메시지 유형 사용자 지정</br><a href="../../channels/using/managing-incoming-sms.md"><strong>자세한 내용을 보려면 여기를 클릭하십시오.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 자동으로 다시 보내는 메시지와 수행할 작업을 구성할 수 있습니다.로컬 알림 메시지 유형 사용자 지정</br><a href="../../channels/using/managing-incoming-sms.md"><strong>자세한 내용을 보려면 여기를 클릭하십시오.</p>
     <br>
   </td>
   <td>

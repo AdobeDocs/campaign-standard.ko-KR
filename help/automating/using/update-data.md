@@ -42,7 +42,7 @@ ht-degree: 98%
    * **[!UICONTROL Insert or update]**: 데이터베이스에 레코드가 존재하는 경우 데이터를 삽입하거나 업데이트합니다.
    * **[!UICONTROL Insert only]**: 데이터만 삽입합니다. 이미 존재하는 레코드는 업데이트되지 않습니다. 조정 기준이 정의된 경우, 조정되지 않은 레코드만 추가됩니다.
 
-      데이터베이스에 이미 존재하는 특정 레코드가 포함되어 있는 경우, 가져온 데이터에 오류가 발생하지 않도록 **[!UICONTROL Generate an outbound transition for rejects]** 상자를 선택합니다.
+     데이터베이스에 이미 존재하는 특정 레코드가 포함되어 있는 경우, 가져온 데이터에 오류가 발생하지 않도록 **[!UICONTROL Generate an outbound transition for rejects]** 상자를 선택합니다.
 
    * **[!UICONTROL Update]**: 데이터베이스에 이미 존재하는 레코드의 데이터를 업데이트합니다.
    * **[!UICONTROL Delete]**: 데이터를 삭제합니다.

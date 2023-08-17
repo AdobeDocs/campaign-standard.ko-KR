@@ -45,25 +45,27 @@ ht-degree: 100%
 
       * **[!UICONTROL Replace audience content with new data]**: 전체 대상자의 콘텐츠가 바뀝니다. 이전 데이터는 손실됩니다. 대상자 저장 활동의 인바운드 전환에서 수집한 데이터만 유지됩니다.
       * **[!UICONTROL Complete audience with new data]**: 이전 대상자 데이터가 유지되고 대상자 저장 활동의 인바운드 전환에서 수집한 데이터가 여기에 추가됩니다.
+
    * **[!UICONTROL Create then update an audience]**: 대상자의 이름을 입력하고 업데이트 유형을 선택합니다. 대상자가 아직 존재하지 않는 경우 새로 만들어집니다. 이미 존재하는 경우 선택한 모드에 따라 업데이트됩니다.
 
       * **[!UICONTROL Replace audience content with new data]**: 전체 대상자의 콘텐츠가 바뀝니다. 이전 데이터는 손실됩니다. 대상자 저장 활동의 인바운드 전환에서 수집한 데이터만 유지됩니다.
 
-         경고: 이 옵션은 업데이트한 대상자의 대상자 유형과 타겟팅 차원을 지웁니다.
+        경고: 이 옵션은 업데이트한 대상자의 대상자 유형과 타겟팅 차원을 지웁니다.
 
       * **[!UICONTROL Complete audience with new data]**: 이전 대상자 데이터가 유지되고 대상자 저장 활동의 인바운드 전환에서 수집한 데이터가 여기에 추가됩니다.
 
-         경고: 업데이트한 대상자의 대상자 유형 또는 타겟팅 차원이 워크플로우의 현재 구성과 호환되지 않는 경우, 이 옵션을 사용하면 오류가 발생합니다. 예를 들어 쿼리에서 얻은 프로필로 파일 유형 대상자를 완성할 수는 없습니다.
+        경고: 업데이트한 대상자의 대상자 유형 또는 타겟팅 차원이 워크플로우의 현재 구성과 호환되지 않는 경우, 이 옵션을 사용하면 오류가 발생합니다. 예를 들어 쿼리에서 얻은 프로필로 파일 유형 대상자를 완성할 수는 없습니다.
+
    * **[!UICONTROL Create a new audience]**: 만들 대상자의 이름을 입력합니다. 대상자를 만든 시간과 날짜가 대상자 이름에 자동으로 추가됩니다. 이를 통해 워크플로우를 실행할 때마다 대상자가 고유해집니다.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: 타겟팅한 프로필이 있고 대상자를 Adobe Experience Cloud로 내보내고 싶은 경우, 이 옵션을 선택한 뒤 기존 공유 대상자를 선택하거나 새 대상자를 만듭니다.
 
-      또한 대상자에 포함된 데이터의 리소스에 해당하는 **[!UICONTROL Shared Data source]**&#x200B;을(를) 선택하여 데이터가 Adobe Experience Cloud에서 올바르게 조정되도록 합니다.
+     또한 대상자에 포함된 데이터의 리소스에 해당하는 **[!UICONTROL Shared Data source]**&#x200B;을(를) 선택하여 데이터가 Adobe Experience Cloud에서 올바르게 조정되도록 합니다.
 
-      이 옵션을 사용하면 공유 대상자가 **[!UICONTROL Audiences]** 메뉴의 Adobe Campaign 대상자 목록에 추가되지 않습니다.
+     이 옵션을 사용하면 공유 대상자가 **[!UICONTROL Audiences]** 메뉴의 Adobe Campaign 대상자 목록에 추가되지 않습니다.
 
-      >[!NOTE]
-      >
-      >이 옵션은 관리자가 Adobe Experience Cloud 공유 대상자 기능을 구성한 경우에만 사용할 수 있습니다. 자세한 내용은 [Campaign 및 People 핵심 서비스로 작업](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)을 참조하십시오.
+     >[!NOTE]
+     >
+     >이 옵션은 관리자가 Adobe Experience Cloud 공유 대상자 기능을 구성한 경우에만 사용할 수 있습니다. 자세한 내용은 [Campaign 및 People 핵심 서비스로 작업](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)을 참조하십시오.
 
    업데이트 시 저장되거나 사용 가능한 대상자 유형은 워크플로우의 업스트림 활동에 따라 다릅니다.
 

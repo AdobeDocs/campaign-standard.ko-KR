@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ Adobe Campaign Standard 사용자 인터페이스에서는 저시력 또는 색�
 
 * 대비 비율 3:1을 충족하도록 큰 텍스트와 제목이 향상되었습니다.
 
-   ![](assets/accessibility_2.png)
+  ![](assets/accessibility_2.png)
 
 * 애플리케이션의 도움말 콘텐츠와 본문이 대비 비율 4.5:1을 충족하도록 업데이트되었습니다.
 
 * 배경색과 전경색 간의 대비를 개선하기 위해 워크플로우의 일시 중지 및 취소 아이콘이 업데이트되었습니다.
 
-   ![](assets/accessibility_1.png)
+  ![](assets/accessibility_1.png)
 
 * 색상, 모양 또는 위치뿐만 아니라 다른 방법으로도 애플리케이션의 정보나 계층 구조를 전달할 수 있도록 합니다.
 
@@ -47,11 +47,11 @@ Adobe Campaign Standard 사용자 인터페이스를 사용하면 시각적 요�
 
 * 사용자가 필수 ID 필드를 비워 두면 그래픽은 오류 메시지 텍스트로 오류가 있는 필드를 시각적으로 나태내고 화면 판독기와 같은 보조 기술이 있는 사용자에게 동일한 정보를 프로그래밍 방식으로 전달합니다.
 
-   ![](assets/accessibility_3.png)
+  ![](assets/accessibility_3.png)
 
 * 마우스로 가리키거나 초점이 맞춰진 콘텐츠는 사용자가 해제할 수 있으며 다른 콘텐츠를 가리지 않습니다.
 
-   ![](assets/accessibility_4.png)
+  ![](assets/accessibility_4.png)
 
 * 이미지의 대체 텍스트와 버튼에 대한 접근성 이름이 추가되었으며 요소를 식별하기 위한 시각 신호에만 의존하는 대신 보조 기술로 소리 내어 읽을 수 있습니다.
 

@@ -22,6 +22,7 @@ Microsoft Dynamics 365에서 Campaign 및 Campaign 마케팅 지표를 Microsoft
 
 >[!IMPORTANT]
 >다음을 중지/시작해야 합니다. **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 변경 사항을 고려하는 워크플로우입니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>
 
 ## Microsoft Dynamics 365의 표를 Campaign에 매핑
 
@@ -43,19 +44,19 @@ Microsoft Dynamics 365에서 Campaign 및 Campaign 마케팅 지표를 Microsoft
 
    * 다음을 클릭합니다. **[!UICONTROL Replay Data]** Microsoft Dynamics 365 테이블의 모든 데이터를 다시 동기화하는 아이콘 일반적으로 통합 애플리케이션은 최근에 변경된 Microsoft Dynamics 365의 데이터만 동기화합니다.  그러나 경우에 따라(예: 변경 또는 실수를 한 경우) 모든 데이터를 다시 동기화할 수 있습니다.  이러한 경우 이 단추를 클릭하고 다음에 을(를) 중지/시작할 때 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로우에서는 데이터가 동기화되기 시작합니다.
 
-      다음을 클릭하면 **[!UICONTROL Replay Data]** 버튼을 누르고 정상적으로 검사하면 아이콘이 비활성화됩니다. 이는 이 테이블 매핑 쌍의 데이터가 다음에 실행할 때 다시 동기화됨을 나타냅니다. **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로입니다.
+     다음을 클릭하면 **[!UICONTROL Replay Data]** 버튼을 누르고 정상적으로 검사하면 아이콘이 비활성화됩니다. 이는 이 테이블 매핑 쌍의 데이터가 다음에 실행할 때 다시 동기화됨을 나타냅니다. **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로입니다.
 
-      다음에 해당하는 경우 데이터를 재생하도록 선택할 수 없습니다.
+     다음에 해당하는 경우 데이터를 재생하도록 선택할 수 없습니다.
 
       * 백로그 지표에 연결된 항목이 2,000,000개(또는 이상)인 경우 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로(다음에 표시됨) **[!UICONTROL Workflows]** page)
       * Microsoft Dynamics 365 테이블에 2,000,000개 이상의 레코드가 있는 경우
 
-      다시 동기화해야 하는 레코드 수는 다양합니다. 레코드 수가 많은 경우 동기화 프로세스를 완료하는 데 시간이 걸릴 수 있습니다. 다음을 참조하십시오. **[!UICONTROL Backlog]** 의 지표 **[!UICONTROL Workflows]** 동기화 프로세스를 완료하기 위해 통합 애플리케이션이 작동하는 페이지입니다.
+     다시 동기화해야 하는 레코드 수는 다양합니다. 레코드 수가 많은 경우 동기화 프로세스를 완료하는 데 시간이 걸릴 수 있습니다. 다음을 참조하십시오. **[!UICONTROL Backlog]** 의 지표 **[!UICONTROL Workflows]** 동기화 프로세스를 완료하기 위해 통합 애플리케이션이 작동하는 페이지입니다.
 
-      >[!IMPORTANT]
-      >
-      > Adobe Campaign Standard 또는 Microsoft Dynamics 365에 변경 사항을 게시할 때 통합 워크플로우를 중지하는 것이 좋습니다. 적용 가능한 변경 사항에는 리소스/엔티티(및 관련 필드), 링크, 식별자 열 등에 대한 업데이트가 포함됩니다. 현재 통합에서 사용 중입니다.
-
+     >[!IMPORTANT]
+     >
+     > Adobe Campaign Standard 또는 Microsoft Dynamics 365에 변경 사항을 게시할 때 통합 워크플로우를 중지하는 것이 좋습니다. 적용 가능한 변경 사항에는 리소스/엔티티(및 관련 필드), 링크, 식별자 열 등에 대한 업데이트가 포함됩니다. 현재 통합에서 사용 중입니다.
+     >
 
 ## 새 매핑 만들기 {#add-a-new-mapping}
 
@@ -137,6 +138,7 @@ Campaign의 경우 고유 키가 될 필드를 선택해야 합니다. 다음과
 >[!NOTE]
 >
 >을(를) 클릭합니다 **[!UICONTROL Apply updates]** 업데이트할 열 머리글 **모두** 스위치 켜기 또는 끄기.
+>
 
 필드 값을 선택하면 드롭다운 메뉴 아래에 데이터 유형이 표시됩니다.   한 필드에서 다른 필드로 값을 매핑할 때 유의해야 할 사항입니다.
 
@@ -175,6 +177,7 @@ Campaign의 경우 고유 키가 될 필드를 선택해야 합니다. 다음과
 >[!NOTE]
 >
 > 필터가 추가되지 않으면 수정된 모든 레코드가 Adobe Campaign으로 전파됩니다.
+>
 
 ### 고급 설정 {#advanced-settings}
 

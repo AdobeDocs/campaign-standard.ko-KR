@@ -11,7 +11,7 @@ exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -56,6 +56,7 @@ SFTP 서버를 설정하는 다른 이유는 옵트인/아웃 워크플로우를
 >[!IMPORTANT]
 >
 >SFTP 폴더에서 액세스하고 다운로드하는 정보는 사용자가 담당합니다. 정보에 개인 데이터가 포함되어 있는 경우 귀하는 해당 개인 정보 보호 법률 및 규정을 준수할 책임이 있습니다. [자세히 알아보기](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)
+>
 
 Microsoft Dynamics 365 통합을 위해 Campaign SFTP 설정을 정의하려면 다음 섹션에 액세스합니다.
 
@@ -77,7 +78,7 @@ Microsoft Dynamics 365 통합을 위해 Campaign SFTP 설정을 정의하려면 
 
 다음을 통해 SFTP 관리 살펴보기 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko) 다음 섹션에서:
 
-* [SFTP 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
+* [SFTP 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko#sftp-management)
 
 * [SFTP 스토리지 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 

@@ -29,7 +29,7 @@ ht-degree: 38%
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
 1. 위치 **[!UICONTROL Shortcuts]**, 드래그 앤 드롭 **[!UICONTROL Profiles]** 및 선택 **[!UICONTROL email]** 연산자 사용 **[!UICONTROL is not empty]**.
-1. 위치 **[!UICONTROL Shortcuts]**, 드래그 앤 드롭 **[!UICONTROL Profiles]** 및 선택 **[!UICONTROL no longer contact by email]** 값 포함 **[!UICONTROL no ]**.
+1. 위치 **[!UICONTROL Shortcuts]**, 드래그 앤 드롭 **[!UICONTROL Profiles]** 및 선택 **[!UICONTROL no longer contact by email]** 값 포함 **[!UICONTROL no]**.
 1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
 
 ![](assets/wf-complement-query.png)

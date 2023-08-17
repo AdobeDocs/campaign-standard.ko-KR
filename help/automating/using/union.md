@@ -16,7 +16,7 @@ ht-degree: 98%
 
 ---
 
-# 결합{#union}
+# 합집합{#union}
 
 ## 설명 {#description}
 

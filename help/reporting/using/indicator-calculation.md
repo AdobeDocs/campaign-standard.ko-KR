@@ -11,7 +11,7 @@ exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 7%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 차단 목록 속도<br /> </td> 
+   <td> 차단 목록에 추가하다 속도<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
    <td> 요금 계산의 분모는 보낸 개수(배달된 + 바운스 수)를 기반으로 합니다.<br /> </td> 
@@ -78,7 +78,7 @@ ht-degree: 7%
    <td> 요금 계산의 분모는 게재된 것만 기준으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재됨<br /> </td> 
+   <td> 게재 대상<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
@@ -114,7 +114,7 @@ ht-degree: 7%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 미러 페이지<br /> </td> 
+   <td> 페이지 미러링<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
    <td> 요금 계산의 분모는 게재된 것만 기준으로 합니다.<br /> </td> 
@@ -192,7 +192,7 @@ ht-degree: 7%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 고유 열람수<br /> </td> 
+   <td> 고유 오픈<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
@@ -241,7 +241,7 @@ ht-degree: 7%
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재됨<br /> </td> 
+   <td> 게재 대상<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
@@ -257,7 +257,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> 열기<br /> </td> 
-   <td> @열기<br /> </td> 
+   <td> @opens<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
@@ -266,7 +266,7 @@ ht-degree: 7%
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> 고유 열람수<br /> </td> 
+   <td> 고유 오픈<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> 고유 열림은 고유한 RecipientIds의 ThetaSketch 개념을 사용하여 계산됩니다. 자세한 정보는 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예</a>.<br /> </td> 
   </tr> 
@@ -317,7 +317,7 @@ ht-degree: 7%
    <td> sent=delivered<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재됨<br /> </td> 
+   <td> 게재 대상<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
    <td> 게재됨=전송됨<br /> </td> 
@@ -332,7 +332,7 @@ ht-degree: 7%
    <td> 고유 노출 횟수<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view))<br /> </td> 
-   <td> 대상 <span class="uicontrol">Campaign 프로필(inAppProfile)을 기반으로 사용자 Target</span> template, user = 수신자 ID.<br /> 대상 <span class="uicontrol">모바일 앱의 모든 사용자 Target(inAppBroadcast)</span> 및 <span class="uicontrol">모바일 프로필(inApp) 기반 Target 사용자</span> 템플릿, 사용자 = 사용자, 모바일 앱 및 장치의 고유한 조합을 나타내는 MC ID 또는 동등 항목.<br /> </td> 
+   <td> 대상 <span class="uicontrol">Campaign 프로필(inAppProfile) 기반 타겟 사용자</span> template, user = 수신자 ID.<br /> 대상 <span class="uicontrol">모바일 앱의 모든 사용자 타깃팅(inAppBroadcast)</span> 및 <span class="uicontrol">모바일 프로필에 따른 Target 사용자(inApp)</span> 템플릿, 사용자 = 사용자, 모바일 앱 및 장치의 고유한 조합을 나타내는 MC ID 또는 동등 항목.<br /> </td> 
   </tr> 
   <tr> 
    <td> 인앱 클릭 수 <br /> </td> 
@@ -344,7 +344,7 @@ ht-degree: 7%
    <td> 고유 인앱 클릭 수<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count(상태=클릭 수))<br /> </td> 
-   <td> 대상 <span class="uicontrol">Campaign 프로필(inAppProfile)을 기반으로 사용자 Target</span> template, user = 수신자 ID.<br /> 대상 <span class="uicontrol">모바일 앱의 모든 사용자 Target(inAppBroadcast)</span> 및 <span class="uicontrol">모바일 프로필(inApp) 기반 Target 사용자</span> 템플릿, 사용자 = 사용자, 모바일 앱 및 장치의 고유한 조합을 나타내는 MC ID 또는 동등 항목.<br /> </td> 
+   <td> 대상 <span class="uicontrol">Campaign 프로필(inAppProfile) 기반 타겟 사용자</span> template, user = 수신자 ID.<br /> 대상 <span class="uicontrol">모바일 앱의 모든 사용자 타깃팅(inAppBroadcast)</span> 및 <span class="uicontrol">모바일 프로필에 따른 Target 사용자(inApp)</span> 템플릿, 사용자 = 사용자, 모바일 앱 및 장치의 고유한 조합을 나타내는 MC ID 또는 동등 항목.<br /> </td> 
   </tr> 
   <tr> 
    <td> 앱 내 클릭스루 비율<br /> </td> 
@@ -362,7 +362,7 @@ ht-degree: 7%
    <td> 고유한 인앱 취소<br /> </td> 
    <td> @uniquedismissal<br /> </td> 
    <td> @unique(@count(상태=close))<br /> </td> 
-   <td> 대상 <span class="uicontrol">Campaign 프로필(inAppProfile)을 기반으로 사용자 Target</span> template, user = 수신자 ID.<br /> 대상 <span class="uicontrol">모바일 앱의 모든 사용자 Target(inAppBroadcast)</span> 및 <span class="uicontrol">모바일 프로필(inApp) 기반 Target 사용자</span> 템플릿, 사용자 = 사용자, 모바일 앱 및 장치의 고유한 조합을 나타내는 MC ID 또는 동등 항목.<br /> </td> 
+   <td> 대상 <span class="uicontrol">Campaign 프로필(inAppProfile) 기반 타겟 사용자</span> template, user = 수신자 ID.<br /> 대상 <span class="uicontrol">모바일 앱의 모든 사용자 타깃팅(inAppBroadcast)</span> 및 <span class="uicontrol">모바일 프로필에 따른 Target 사용자(inApp)</span> 템플릿, 사용자 = 사용자, 모바일 앱 및 장치의 고유한 조합을 나타내는 MC ID 또는 동등 항목.<br /> </td> 
   </tr> 
   <tr> 
    <td> 인앱 기각률<br /> </td> 

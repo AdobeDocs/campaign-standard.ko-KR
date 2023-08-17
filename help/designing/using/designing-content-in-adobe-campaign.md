@@ -105,17 +105,17 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 
 * HTML의 &lt;head> 섹션에서 별도의 CSS 및 CSS가 아닌 인라인 스타일을 사용합니다. 인라인 스타일링을 사용하여 콘텐츠 조각 저장 및 재사용을 최적화합니다.
 
-   [인라인 스타일 속성 추가](../../designing/using/styles.md#adding-inline-styling-attributes)를 참조하십시오.
+  [인라인 스타일 속성 추가](../../designing/using/styles.md#adding-inline-styling-attributes)를 참조하십시오.
 
 * HTML 내용이 포함된 ZIP 파일을 가져오는 경우 일반 CSS를 사용합니다. SCSS 스타일 시트는 지원되지 않습니다.
 
 * 콘텐츠 조각을 만들어 재사용하여 마케팅 캠페인 전반에서 일관성을 유지함으로써 브랜딩을 손쉽게 조정할 수 있습니다.
 
-   [콘텐츠 조각 만들기](../../designing/using/using-reusable-content.md#creating-a-content-fragment)를 참조하십시오.
+  [콘텐츠 조각 만들기](../../designing/using/using-reusable-content.md#creating-a-content-fragment)를 참조하십시오.
 
 * **이메일 콘텐츠**&#x200B;를 편집할 때:
 
-   메시지를 보내기 전에 미리 봅니다. Adobe Campaign은 Litmus를 사용하여 이메일 렌더링을 테스트할 수 있는 방법을 제공합니다. 자세한 내용은 [이메일 렌더링](../../sending/using/email-rendering.md)을 참조하십시오.
+  메시지를 보내기 전에 미리 봅니다. Adobe Campaign은 Litmus를 사용하여 이메일 렌더링을 테스트할 수 있는 방법을 제공합니다. 자세한 내용은 [이메일 렌더링](../../sending/using/email-rendering.md)을 참조하십시오.
 
 * 레퍼러 메타 태그는 이메일 디자이너에서 지원되지 않습니다.
 

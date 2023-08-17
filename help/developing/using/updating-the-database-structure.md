@@ -83,11 +83,11 @@ ht-degree: 92%
 
 * API가 아직 게시되지 않은 경우(리소스를 확장한 적이 없거나 이 리소스 또는 다른 리소스에 대해 이 옵션을 아직 선택하지 않은 경우) API를 만들지 여부를 선택할 수 있습니다.
 
-   ![](assets/create-profile-and-services-api.png)
+  ![](assets/create-profile-and-services-api.png)
 
 * API가 이미 게시되어 있는 경우(리소스를 이미 확장했고 이 옵션을 선택한 경우) API 업데이트가 강제로 수행됩니다.
 
-   실제로 링크가 만들어지면 다시 게시할 때마다 API가 자동으로 업데이트됩니다. 해당 API의 프로필 또는 서비스 리소스를 끊지 않고 인스턴스를 훼손하지 않기 위한 것입니다.
+  실제로 링크가 만들어지면 다시 게시할 때마다 API가 자동으로 업데이트됩니다. 해당 API의 프로필 또는 서비스 리소스를 끊지 않고 인스턴스를 훼손하지 않기 위한 것입니다.
 
 기본적으로 사용자 지정 리소스는 통합되지만, 특정 동작의 경우 이 리소스를 게시하지 않으려면 **[!UICONTROL Resource Properties]**&#x200B;에서 사용할 수 있는 **[!UICONTROL Hide this resource from APIs]** 옵션을 선택할 수 있습니다 .
 

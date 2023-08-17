@@ -31,7 +31,7 @@ ht-degree: 1%
    * &quot;category&quot;: 쿼리 편집기에 있는 필드의 범주를 제공합니다.
    * &quot;resType&quot;: 기술 유형입니다.
 
-      type이 &quot;link&quot; 또는 &quot;collection&quot; 값으로 완료된 경우 resTarget 값은 링크가 타깃팅한 리소스의 이름입니다.
+     type이 &quot;link&quot; 또는 &quot;collection&quot; 값으로 완료된 경우 resTarget 값은 링크가 타깃팅한 리소스의 이름입니다.
 &quot;type&quot;이 &quot;enumeration&quot; 값으로 완료되면 &quot;values&quot; 필드가 추가되고 각 열거형 값이 **값** 노드.
 
 * 다음 **필터** node는 연결된 필터를 검색할 URL을 반환합니다. 필터에 대한 자세한 내용은 [이 섹션](../../api/using/filtering.md) 섹션.

@@ -243,7 +243,7 @@ ht-degree: 98%
 * 한 인스턴스에 게시할 수 있는 최대 실시간 이벤트 수가 350개에서 2000개로 늘었습니다. (CAMP-41608)
 * syncWithLaunch 기술 워크플로우를 사용하여 Adobe Launch와 Campaign Standard 간의 동기화가 개선되었습니다. 이 워크플로우를 통해 모든 Adobe Launch 모바일 속성을 자동으로 Adobe Campaign Standard로 가져올 수 있습니다. 자세한 정보는 [이 페이지](../../administration/using/technical-workflows.md)를 참조하십시오.
 
-   Adobe 고객 지원 센터에 티켓을 제출(직접 또는 Adobe 문의를 통해)하여 Campaign 인스턴스에서 syncWithLaunch 기술 워크플로우를 활성화해야 합니다. (CAMP-40082)
+  Adobe 고객 지원 센터에 티켓을 제출(직접 또는 Adobe 문의를 통해)하여 Campaign 인스턴스에서 syncWithLaunch 기술 워크플로우를 활성화해야 합니다. (CAMP-40082)
 
 **향상된 이메일 디자이너**
 

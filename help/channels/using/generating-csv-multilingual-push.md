@@ -88,9 +88,9 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 
 * 또 다른 하나는 개인화 필드의 경로인 data-nl-expr 입니다. 예를 들어 UI에서 &quot;firstName&quot; 개인화 필드를 삽입하는 경우 탐색 경로는 다음과 같습니다. **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (아래 이미지에 표시된 대로). 이 경우 경로는 다음과 같습니다
 
-   ```
-   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
-   ```
+  ```
+  /context/profile/firstName. data-nl-expr="/context/profile/firstName".
+  ```
 
 ![](assets/multilingual_push_2.png)
 

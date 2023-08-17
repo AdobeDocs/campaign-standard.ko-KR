@@ -62,7 +62,7 @@ ht-degree: 82%
 
    * **[!UICONTROL Sorting files]**: 파일을 알파벳순으로 정렬할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
 
-      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+     <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
    * **[!UICONTROL List all files]**: 이 옵션은 다음을 선택할 때 사용할 수 있습니다. **[!UICONTROL File listing]** 의 작업 **[!UICONTROL General]** 탭. 이 옵션을 통해 서버에 있는 모든 파일을 **변수.파일명** 이벤트 변수로 색인화할 수 있습니다. 이때 파일 이름은 **&#39;n&#39;** 문자로 구분됩니다.
 

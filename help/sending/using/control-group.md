@@ -38,7 +38,7 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 ## 대상 모집단에서 추출 {#extraction-target-population}
 
-컨트롤 그룹을 정의하려면 임의로 또는 대상 모집단에서 정렬, 백분율 또는 고정된 수의 프로필을 추출하도록 선택할 수 있습니다.
+컨트롤 그룹을 정의하기 위해 임의로 또는 대상 모집단에서 정렬, 백분율 또는 고정된 수의 프로필을 추출하도록 선택할 수 있습니다.
 
 ### 대상 추출 {#target-extraction}
 
@@ -48,23 +48,23 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 * **[!UICONTROL Random sampling]**:게재를 준비할 때, Adobe Campaign은 백분율이나 [크기 제한](#size-limit)으로 설정할 최대 수에 해당하는 여러 개의 프로필을 임의로 추출합니다.
 
-   예를 들어 **[!UICONTROL Limits]** 섹션에서 임계값을 10으로 설정하면 대상 모집단에서 임의로 선택된 10%로 컨트롤 그룹이 구성됩니다.<!--Change screenshot to match example)-->
+  예를 들어 **[!UICONTROL Limits]** 섹션에서 임계값을 10으로 설정하면 대상 모집단에서 임의로 선택된 10%로 컨트롤 그룹이 구성됩니다.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-random-sampling.png)
+  ![](assets/control-group-random-sampling.png)
 
 * **[!UICONTROL Keep only the first records after sorting]**: 이 옵션을 사용하면 하나 이상의 정렬 명령을 기준으로 제한을 정의할 수 있습니다.
 
-   예제:
+  예제:
 
    * **[!UICONTROL Age]** 필드를 정렬 기준으로 선택합니다.
    * **[!UICONTROL Limits]** 섹션에서 100을 임계값으로 정의합니다([크기 제한](#size-limit)참조).
    * **[!UICONTROL Descending sort]** 옵션을 선택된 상태로 두십시오.
 
-   그 결과 컨트롤 그룹은 100명의 가장 오래된 수신자로 구성됩니다.<!--Change screenshot to match example)-->
+  그 결과 컨트롤 그룹은 100명의 가장 오래된 수신자로 구성됩니다.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-keep-first-records.png)
+  ![](assets/control-group-keep-first-records.png)
 
-   구매 횟수가 많은 고객과 적은 고객을 포함한 컨트롤 그룹을 정의한 후, 해당 그룹의 행동을 연락을 한 수신자의 행동과 비교해보면 좋은 정보를 얻을 수 있습니다.
+  구매 횟수가 많은 고객과 적은 고객을 포함한 컨트롤 그룹을 정의한 후, 해당 그룹의 행동을 연락을 한 수신자의 행동과 비교해보면 좋은 정보를 얻을 수 있습니다.
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 * **[!UICONTROL Size (as a % of the initial population)]**&#x200B;을(를) 선택하고 해당 프레임을 채웁니다.
 
-   예를 들어 10을 설정한 경우, 위에서 선택한 옵션에 따라 Adobe Campaign이 다음 중 하나를 수행합니다.
+  예를 들어 10을 설정한 경우, 위에서 선택한 옵션에 따라 Adobe Campaign이 다음 중 하나를 수행합니다.
    * 대상 모집단의 10%를 임의로 추출합니다.
    * **[!UICONTROL Age]** 필드를 정렬 기준으로 선택한 경우 대상 모집단에서 가장 오래된 10% 프로필을 추출합니다.
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Descending sort]** 옵션의 선택을 취소하면 가장 최신의 프로필 10%가 추출됩니다.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Descending sort]** 옵션의 선택을 취소하면 가장 최신의 프로필 10%가 추출됩니다.
 
 * **[!UICONTROL Maximum size]**&#x200B;을(를) 선택하고 해당 프레임을 채웁니다.
 
-   예를 들어 100을 설정하면 Adobe Campaign이 다음 중 하나를 수행합니다.
+  예를 들어 100을 설정하면 Adobe Campaign이 다음 중 하나를 수행합니다.
    * 대상 모집단에서 100개의 프로필을 임의로 추출합니다.
    * **[!UICONTROL Age]** 필드를 정렬 기준으로 선택한 경우 대상 모집단에서 가장 오래된 100개의 프로필을 추출합니다.
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Descending sort]** 옵션의 선택을 취소하면 가장 최신 프로필 100개가 추출됩니다. 
+  >[!NOTE]
+  >
+  >**[!UICONTROL Descending sort]** 옵션의 선택을 취소하면 가장 최신 프로필 100개가 추출됩니다. 
 
 ## 특정 모집단 제외 {#excluding-specific-population}
 
@@ -163,11 +163,11 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 * 이 **[!UICONTROL Sending logs]** 탭에서 추출된 프로필과 제외된 프로필을 볼 수 있습니다. 이 프로필의 상태는 **[!UICONTROL Ignored]**&#x200B;이며 실패 원인은 **[!UICONTROL Control group]** 입니다.
 
-   ![](assets/control-group-sending-logs.png)
+  ![](assets/control-group-sending-logs.png)
 
 * 게재에 포함되지 않은 프로필 수를 확인하려면 **[!UICONTROL Exclusion causes]** 탭을 확인하십시오.
 
-   ![](assets/control-group-exclusion-causes.png)
+  ![](assets/control-group-exclusion-causes.png)
 
 ### 컨트롤 그룹 로그 사용 {#using-logs}
 

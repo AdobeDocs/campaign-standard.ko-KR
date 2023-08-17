@@ -154,15 +154,15 @@ Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요를 찾�
 
 * 통합에서 생성된 엔진 호출 볼륨을 지원하려면 적절한 Campaign 패키지에 라이선스를 부여해야 합니다. 라이선스가 부여된 엔진 호출 볼륨을 초과하면 Campaign 성능이 저하될 수 있습니다.
 
-   다음을 사용하여 통합에서 엔진 호출 볼륨을 추정합니다.
+  다음을 사용하여 통합에서 엔진 호출 볼륨을 추정합니다.
 
    * 레코드 삽입(즉, 새 레코드): 1개의 엔진 호출
    * 삭제 기록: 엔진 호출 1개
    * 레코드 업데이트: 2개의 엔진 호출(대상 레코드가 소스 레코드와 동일한 경우(즉, 캠페인 레코드가 변경되지 않은 경우) 1개의 호출만)
 
-   전체 Campaign 엔진 호출 볼륨을 예측할 때는 랜딩 페이지, WebApps, JSSP, API, 모바일 앱 등록 등을 포함하여 엔진 호출의 다른 소스를 고려하는 것이 중요합니다.
+  전체 Campaign 엔진 호출 볼륨을 예측할 때는 랜딩 페이지, WebApps, JSSP, API, 모바일 앱 등록 등을 포함하여 엔진 호출의 다른 소스를 고려하는 것이 중요합니다.
 
-   Adobe Campaign Standard 패키지 정보를 볼 수 있는 위치: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)
+  Adobe Campaign Standard 패키지 정보를 볼 수 있는 위치: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)
 
 * 통합은 Campaign의 리소스에 대한 초기 동기화에 대해 최대 1,500만 개의 총 레코드를 지원합니다. 증분 동기화는 Adobe Campaign Standard 패키지에 의해 제한됩니다.
 

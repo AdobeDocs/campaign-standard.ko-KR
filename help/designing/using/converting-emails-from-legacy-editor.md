@@ -73,7 +73,6 @@ ht-degree: 8%
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
-
 1. 모바일 보기로 돌아가서 콘텐츠가 올바르게 표시되는지 확인하고 변경 사항을 저장합니다.
 
 ## 사용 사례

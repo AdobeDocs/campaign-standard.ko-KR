@@ -11,7 +11,7 @@ exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 <table> 
  <thead> 
   <tr> 
-   <th> 치수<br /> </th> 
+   <th> 차원<br /> </th> 
    <th> 정의<br /> </th> 
   </tr> 
  </thead> 
@@ -78,7 +78,7 @@ ht-degree: 4%
    <td> 모바일 애플리케이션 이름<br /> </td> 
   </tr> 
   <tr> 
-   <td> 플랫폼<br /> </td> 
+   <td> Platform<br /> </td> 
    <td> 메시지를 열고/보고/클릭한 디바이스의 플랫폼입니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -151,12 +151,12 @@ ht-degree: 4%
    <td> 이메일을 스팸 또는 정크로 선언한 수신자 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 차단 목록 속도<br /> </td> 
+   <td> 차단 목록에 추가하다 속도<br /> </td> 
    <td> 게재의 백분율을 차단 목록에 표시합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 바운스 + 오류<br /> </td> 
-   <td> 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류.<br /> </td> 
+   <td> 총 전송된 총 메시지 수와 관련하여 게재 및 자동 반환 처리 시 누적된 오류의 총계입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 바운스 + 오류 비율<br /> </td> 
@@ -171,7 +171,7 @@ ht-degree: 4%
    <td> 게재 클릭률.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재됨<br /> </td> 
+   <td> 게재 대상<br /> </td> 
    <td> 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수.<br /> </td> 
   </tr> 
   <tr> 
@@ -187,7 +187,7 @@ ht-degree: 4%
    <td> 영구 오류로 인해 실패한 게재의 백분율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 미러 페이지<br /> </td> 
+   <td> 페이지 미러링<br /> </td> 
    <td> 미러 페이지 링크를 클릭한 수신자 수입니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -243,7 +243,7 @@ ht-degree: 4%
    <td> 게재에서 콘텐츠를 클릭한 수신자 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 고유 열람수<br /> </td> 
+   <td> 고유 오픈<br /> </td> 
    <td> 게재를 연 수신자 수.<br /> </td> 
   </tr> 
   <tr> 
@@ -288,7 +288,7 @@ ht-degree: 4%
    <td> 푸시 알림과 상호 작용한 사용자의 비율입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재됨<br /> </td> 
+   <td> 게재 대상<br /> </td> 
    <td> 전송된 총 푸시 알림 수와 관련하여 성공적으로 전송된 푸시 알림 수입니다.<br /> </td> 
   </tr> 
   <tr> 
@@ -337,7 +337,7 @@ ht-degree: 4%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 게재됨<br /> </td> 
+   <td> 게재 대상<br /> </td> 
    <td> 서비스 공급자가 장치에 전달한 총 인앱 메시지 수입니다.<br /> </td> 
   </tr> 
   <tr> 

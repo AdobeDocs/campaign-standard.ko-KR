@@ -38,7 +38,7 @@ Adobe Campaign에서 이미지에 액세스하려면 먼저 Adobe Target에서 �
    통합은 정적 이미지만 지원합니다. 나머지 콘텐츠는 사용자 지정할 수 없습니다.
 
 1. Adobe Target에 지정된 rawbox 이름을 입력합니다.
-1. Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. 에서 엔터프라이즈 권한 Target에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). 이 필드는 선택 사항이며 Target에서 엔터프라이즈 권한을 사용하지 않는 경우에는 필수가 아닙니다.
+1. Adobe Target의 설정에서 Enterprise 권한을 사용하는 경우 이 필드에 해당 속성을 추가합니다. 에서 Target 엔터프라이즈 권한에 대해 자세히 알아보십시오. [이 페이지](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). 이 필드는 선택 사항이며 Target에서 Enterprise 권한을 사용하지 않는 경우에는 필수가 아닙니다.
 1. 위치 **[!UICONTROL Additional decision parameters]**&#x200B;에서 Adobe Target 세그먼트에 정의된 필드와 Adobe Campaign 필드 간의 매핑을 지정합니다.
 
    사용된 Adobe Campaign 필드는 rawbox에 지정했어야 합니다. 이 예에서는 수신자의 성별에 따라 다른 경험을 정의합니다.

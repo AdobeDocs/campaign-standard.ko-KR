@@ -87,9 +87,9 @@ URL에서 콘텐츠를 가져오기 전에 다음 요구 사항을 준수하는�
 * 보안상의 이유로 다음으로 시작하는 URL만 **[!UICONTROL https]** 허용됩니다.
 * 모든 리소스(이미지, CSS)가 절대 링크 및 HTTPS로 설정되어 있는지 확인하십시오. 그렇지 않으면 이메일을 보낸 후 미러 페이지가 리소스 없이 표시됩니다. 다음은 절대 링크 정의의 예입니다.
 
-   ```
-   <a href="https://www.mywebsite.com/images/myimage.png">
-   ```
+  ```
+  <a href="https://www.mywebsite.com/images/myimage.png">
+  ```
 
 >[!NOTE]
 >
@@ -249,6 +249,5 @@ URL에서 기존 콘텐츠를 검색하려면 아래 단계를 따르십시오.
    >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
 
 1. 모바일 보기로 돌아가서 콘텐츠가 올바르게 표시되는지 확인하고 변경 사항을 저장합니다.

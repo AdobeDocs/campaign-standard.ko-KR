@@ -38,15 +38,15 @@ ht-degree: 11%
 
    * **[!UICONTROL Create a new resource]**: 다음을 입력합니다. **[!UICONTROL Label]** 및 **[!UICONTROL ID]** 필드. **[!UICONTROL ID]** 필드는 필수입니다. 레이블 필드를 비워 두면 ID에서 자동으로 완료됩니다.
 
-      ![](assets/schema_extension_2.png)
+     ![](assets/schema_extension_2.png)
 
-      >[!NOTE]
-      >
-      >최대 30자를 사용할 수 있습니다.
+     >[!NOTE]
+     >
+     >최대 30자를 사용할 수 있습니다.
 
    * **[!UICONTROL Extend an existing resource]**: 확장할 리소스를 선택합니다.
 
-      ![](assets/schema_extension_10.png)
+     ![](assets/schema_extension_10.png)
 
 1. 클릭 **[!UICONTROL Create]** 리소스를 만들고 이 리소스를 만든 후 **[!UICONTROL Draft]** 새 리소스의 경우 상태 또는 **[!UICONTROL Editing]** 확장 시 상태.
 

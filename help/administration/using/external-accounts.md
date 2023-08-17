@@ -142,9 +142,9 @@ Adobe Experience Manager 외부 계정은 Campaign과 Experience Manager를 통�
 
 * 서버: Adobe Experience Manager 서버의 URL을 입력합니다. 예제:
 
-   ```
-   http://aem.domain.com:4502
-   ```
+  ```
+  http://aem.domain.com:4502
+  ```
 
 * AEM 계정 자격 증명: Adobe Experience Manager 인스턴스에 액세스할 계정을 사용합니다. Experience Manager에서 캠페인-원격 그룹의 계정이어야 합니다.
 
@@ -165,7 +165,7 @@ Google reCAPTCHA V3 외부 계정의 경우 다음 세부 정보를 제공합니
 * 사용자 **[!UICONTROL Site key]** 및 **[!UICONTROL Site secret]**
 * 0~1 사이의 **[!UICONTROL Threshold]**
 
-   0.0 **[!UICONTROL Threshold]** 값은 봇일 가능성이 높고 1.0은 양호한 상호 작용일 가능성이 높습니다. 기본적으로 0.5의 임계값을 사용할 수 있습니다.
+  0.0 **[!UICONTROL Threshold]** 값은 봇일 가능성이 높고 1.0은 양호한 상호 작용일 가능성이 높습니다. 기본적으로 0.5의 임계값을 사용할 수 있습니다.
 
 ![](assets/external_accounts_3.png)
 

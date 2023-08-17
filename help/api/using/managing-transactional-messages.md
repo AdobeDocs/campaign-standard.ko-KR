@@ -40,11 +40,11 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalapi>**: 트랜잭션 메시지 API 엔드포인트.
 
-   트랜잭션 메시지 API 끝점의 이름은 인스턴스 구성에 따라 다릅니다. 값 &quot;mc&quot; 다음에 개인 조직 ID가 오면 해당합니다. 조직 ID로 &quot;geometrixx&quot;를 사용하는 Geometrixx 회사의 예를 살펴보겠습니다. 이 경우 POST 요청은 다음과 같습니다.
+  트랜잭션 메시지 API 끝점의 이름은 인스턴스 구성에 따라 다릅니다. 값 &quot;mc&quot; 다음에 개인 조직 ID가 오면 해당합니다. 조직 ID로 &quot;geometrixx&quot;를 사용하는 Geometrixx 회사의 예를 살펴보겠습니다. 이 경우 POST 요청은 다음과 같습니다.
 
-   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
+  `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   트랜잭션 메시지 API 엔드포인트는 API 미리보기 중에도 표시됩니다.
+  트랜잭션 메시지 API 엔드포인트는 API 미리보기 중에도 표시됩니다.
 
 * **&lt;eventid>**: 전송할 이벤트 유형입니다. 이 ID는 이벤트 구성을 만들 때 생성됩니다( 참조). [이 섹션](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 

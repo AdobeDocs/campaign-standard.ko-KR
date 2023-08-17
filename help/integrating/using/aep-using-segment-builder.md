@@ -70,11 +70,11 @@ ht-degree: 3%
 
 * **[!UICONTROL Attributes]**: Adobe Campaign 데이터베이스 및/또는 Adobe Experience Platform에서 발생할 수 있는 기존 프로필 속성. 프로필에 첨부된 정적 정보(예: 이메일 주소, 거주 국가, 로열티 프로그램 상태 등)를 나타냅니다.
 
-   ![](assets/aep_audiences_attributestab.png)
+  ![](assets/aep_audiences_attributestab.png)
 
 * **[!UICONTROL Events]**: &quot;2주 동안 두 번 주문한 사람&quot;과 같이 회사의 고객 접점과 몇 가지 상호 작용한 소비자를 식별하는 활동. Adobe Analytics에서 스트리밍하거나 서드파티 ETL 도구를 사용하여 Adobe Experience Platform으로 직접 수집할 수 있습니다.
 
-   ![](assets/aep_audiences_eventstab.png)
+  ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >

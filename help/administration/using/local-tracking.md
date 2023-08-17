@@ -51,17 +51,17 @@ Adobe Experience Platform Mobile SDK는 추가 구성 없이 Android와 iOS 모�
 
 * 사용자에게 알림이 표시되지만 지워집니다.
 
-   각하 시나리오의 경우 클릭을 추적하려면 브로드캐스트 수신기를 추가합니다. `NotificationDismissalHandler` 를 입력합니다.
+  각하 시나리오의 경우 클릭을 추적하려면 브로드캐스트 수신기를 추가합니다. `NotificationDismissalHandler` 를 입력합니다.
 
-   ```
-   <receiver
-   android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
-   </receiver>
-   ```
+  ```
+  <receiver
+  android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
+  </receiver>
+  ```
 
 * 사용자가 알림을 보고 클릭하면 열려 있는 추적이 표시됩니다.
 
-   이 시나리오에서는 클릭과 열기를 생성해야 합니다. 이 클릭 추적은 열기를 추적하는 데 필요한 구현의 일부가 됩니다. 다음을 참조하십시오 [개방형 추적 구현](#implement-open-tracking).
+  이 시나리오에서는 클릭과 열기를 생성해야 합니다. 이 클릭 추적은 열기를 추적하는 데 필요한 구현의 일부가 됩니다. 다음을 참조하십시오 [개방형 추적 구현](#implement-open-tracking).
 
 ### iOS용 {#implement-click-tracking-ios}
 

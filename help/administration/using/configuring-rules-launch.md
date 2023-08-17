@@ -77,7 +77,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->모바일 앱에서 Adobe Campaign으로 PII 정보를 보내려면 SDK API를 구현해야 합니다. 자세한 내용을 보려면 다음 위치로 이동하십시오. [CollectAPI](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
+>모바일 앱에서 Adobe Campaign으로 PII 정보를 보내려면 SDK API를 구현해야 합니다. 자세한 내용을 보려면 [CollectAPI](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
 
 PII 데이터를 보낼 대상 [!DNL Adobe Campaign Standard], 데이터 수집 UI에서 규칙 만들기:
 

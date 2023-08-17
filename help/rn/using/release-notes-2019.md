@@ -155,7 +155,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> 외부 API 활동(공개 베타)<br /> </td> 
-   <td> <p>보다 심층적인 개인화를 위해 외부 API 활동을 사용하면 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O Runtime 또는 Adobe Experience Cloud REST 엔드포인트(예: 데이터 플랫폼, Target, 분석, 캠페인)일 수 있습니다.</p><p>이 기능은 현재 공개 베타 버전에 제공됩니다.</p><p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">방법 비디오</a>를 참조하십시오.</p></td> 
+   <td> <p>보다 심층적인 개인화를 위해 외부 API 활동을 사용하면 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O Runtime 또는 Adobe Experience Cloud REST 엔드포인트(예: 데이터 플랫폼, 타겟, 분석, 캠페인)일 수 있습니다.</p><p>이 기능은 현재 공개 베타 버전에 제공됩니다.</p><p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">방법 비디오</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 워크플로우 세그먼트 보고서<br /> </td> 
@@ -284,7 +284,7 @@ ht-degree: 8%
 * Adobe Experience Platform Mobile SDK로 만든 모바일 애플리케이션의 속성을 관리하기 위해 Campaign에 &quot;Launch_URL_Campaign&quot; 옵션이 추가되었습니다.
 * 새로 만든 모바일 속성의 인증서를 업로드하고 모바일 애플리케이션 속성 페이지를 종료한 후 샌드박스 환경 옵션이 선택 취소되는 오류를 해결했습니다.
 * 서비스 리소스의 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 없는 문제를 해결했습니다. (CAMP-33707)
-* 서비스에서 프로필 구독을 취소하려고 할 때 발생하는 차단 목록 랜딩 페이지의 문제를 수정했습니다.
+* 서비스에서 프로필 구독을 취소하려고 할 때 발생하는 차단 목록에 추가하다 랜딩 페이지의 문제를 수정했습니다.
 
 ## 릴리스 19.2 - 2019년 5월 {#release-19-2---may-2019}
 
@@ -377,7 +377,7 @@ ht-degree: 8%
 * 보고서 공유 워크플로우가 실패하는 오류를 수정했습니다.
 * 사용자가 미디어 URL만으로 인앱 메시지를 보낼 수 없는 오류를 수정했습니다.
 * 모바일 앱의 인증서가 인스턴스에 업로드되지 않은 경우에도 모바일 앱을 표시하는 문제를 해결했습니다.
-* 을(를) 사용할 때 개인화 필드가 작동하지 않는 오류를 수정했습니다. **모바일 앱의 모든 사용자 Target** 템플릿.
+* 을(를) 사용할 때 개인화 필드가 작동하지 않는 오류를 수정했습니다. **모바일 앱의 모든 사용자 타기팅** 템플릿.
 * 새 Campaign Standard 인스턴스가 프로비저닝되었습니다. (CAMP-32635 및 CAMP-32344)
 * 워크플로우에서 날짜 수식을 사용자 지정할 수 없는 오류를 수정했습니다. (CAMP-30336)
 * 사용자 지정 날짜 수식을 정의할 때 드롭다운 목록에서 &quot;추가 데이터&quot; 및 &quot;세그먼트 코드&quot; 필드를 사용할 수 없는 문제를 해결했습니다. (CAMP-32383)
@@ -448,19 +448,19 @@ ht-degree: 8%
 
 * Behance 아티스트가 디자인한 4가지 동급 최고의 반응형 이메일 템플릿 세트를 이제 사용할 수 있습니다.
 
-   자세한 내용은 [세부 설명서](../../designing/using/using-reusable-content.md#content-templates)를 참조하세요.
+  자세한 내용은 [세부 설명서](../../designing/using/using-reusable-content.md#content-templates)를 참조하세요.
 
 * 새로운 온보딩 경험을 통해 이메일 생성을 보다 빠르게 시작하고 설명서 및 튜토리얼에 보다 쉽게 액세스할 수 있습니다.
 
-   자세한 내용은 [세부 설명서](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)를 참조하세요.
+  자세한 내용은 [세부 설명서](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)를 참조하세요.
 
 * 이제 필요에 따라 열 수와 너비를 유연하게 구성할 수 있습니다.
 
-   자세한 내용은 [세부 설명서](../../designing/using/designing-from-scratch.md#defining-the-email-structure)를 참조하세요.
+  자세한 내용은 [세부 설명서](../../designing/using/designing-from-scratch.md#defining-the-email-structure)를 참조하세요.
 
 * 모바일 보기에서 편집할 때 공간을 효과적으로 사용하기 위해 모바일 디스플레이에서만 특정 구성 요소를 숨길 수 있습니다.
 
-   자세한 내용은 [세부 설명서](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)를 참조하세요.
+  자세한 내용은 [세부 설명서](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)를 참조하세요.
 
 * 이제 이미 사용 가능한 소셜 채널 외에 사용자 지정 소셜 채널을 이메일 템플릿에 추가할 수 있습니다.
 * 18개 이상의 구조를 사용할 때 구조 메뉴를 아래로 스크롤하지 못하던 문제를 수정했습니다. (CAMP-31173)
@@ -480,7 +480,7 @@ ht-degree: 8%
 * 프로필 만들기 화면의 시간대 드롭다운 목록이 주소 섹션에서 인터페이스의 상단 섹션으로 이동되었습니다.
 * 이제 사용자 지정 리소스 화면을 구성할 때 구분 기호를 추가하여 필드를 카테고리로 구성할 수 있습니다.
 
-   자세한 내용은 [세부 설명서](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)를 참조하세요.
+  자세한 내용은 [세부 설명서](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)를 참조하세요.
 
 **기타 변경 사항**
 

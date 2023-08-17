@@ -31,11 +31,11 @@ Campaign Standard에서 S3 또는 Azure Blob 저장소 위치로 데이터를 �
 
 * A **[!UICONTROL Extract file]** 활동을 통해 타깃팅된 데이터를 CSV 파일로 추출할 수 있습니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/extract-file.md).
 
-   ![](assets/rtcdp-extract-file.png)
+  ![](assets/rtcdp-extract-file.png)
 
 * A **[!UICONTROL Transfer file]** 활동을 통해 CSV 파일을 저장소 위치로 전송합니다. 이 활동을 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/transfer-file.md).
 
-   ![](assets/rtcdp-transfer-file.png)
+  ![](assets/rtcdp-transfer-file.png)
 
 예를 들어 아래 워크플로우는 정기적으로 로그를 CSV 파일로 추출한 다음 파일을 저장소 위치로 전송합니다.
 
@@ -53,7 +53,7 @@ Campaign Standard에서 S3 또는 Azure Blob 저장소 위치로 데이터를 �
 
 Amazon 스토리지 서비스(S3) 또는 Azure Blob 스토리지 위치를 로 연결하는 주요 단계 **소스** Adobe experience Platform의 은 아래에 나열되어 있습니다. 이러한 각 단계에 대한 자세한 내용은 [소스 커넥터 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko).
 
-1. Adobe Experience Platform에서 **[!UICONTROL Sources]** 메뉴에서 스토리지 위치에 대한 연결을 만듭니다.
+1. Experience Platform Adobe **[!UICONTROL Sources]** 메뉴에서 스토리지 위치에 대한 연결을 만듭니다.
 
    * [Amazon S3 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
    * [Azure Blob 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)

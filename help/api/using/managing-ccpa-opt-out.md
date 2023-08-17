@@ -34,79 +34,79 @@ ht-degree: 6%
 
 * 프로필의 CCPA 옵트아웃 상태를 검색하는 샘플 GET 요청.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  ```
 
-   GET 요청에 대한 응답입니다.
+  GET 요청에 대한 응답입니다.
 
-   ```
-   {
-   "PKey": "<PKEY>",
-     "ccpaOptOut": false,
-     "firstName": "John",
-     "lastName": "Doe",
-   ...
-   }
-   ```
+  ```
+  {
+  "PKey": "<PKEY>",
+    "ccpaOptOut": false,
+    "firstName": "John",
+    "lastName": "Doe",
+  ...
+  }
+  ```
 
 * CCPA 옵트아웃에 대한 프로필을 표시하기 위한 샘플 POST 요청.
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   -i
-   -d {
-   -d  "firstName": "John",
-   -d  "lastName": "Doe",
-   -d  "email": "jdoe@mail.com",
-   -d  "ccpaOptOut": true
-   -d }'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  -i
+  -d {
+  -d  "firstName": "John",
+  -d  "lastName": "Doe",
+  -d  "email": "jdoe@mail.com",
+  -d  "ccpaOptOut": true
+  -d }'
+  ```
 
-   GET 요청에 대한 응답입니다.
+  GET 요청에 대한 응답입니다.
 
-   ```
-   {
-       ...
-       "email": "john.doe@mail.com",
-       "firstName": "John",
-       "lastName": "Doe",
-       "ccpaOptOut": true,
-       ...
-   }
-   ```
+  ```
+  {
+      ...
+      "email": "john.doe@mail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ccpaOptOut": true,
+      ...
+  }
+  ```
 
 * CCPA 옵트아웃에 대한 프로필을 업데이트하기 위한 샘플 PATCH 요청입니다.
 
-   ```
-   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   -i
-   -d {
-   -d  "ccpaOptOut": true
-   -d }'
-   ```
+  ```
+  -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  -i
+  -d {
+  -d  "ccpaOptOut": true
+  -d }'
+  ```
 
-   GET 요청에 대한 응답입니다.
+  GET 요청에 대한 응답입니다.
 
-   ```
-   {
-       ...
-       "email": "john.doe@mail.com",
-       "firstName": "John",
-       "lastName": "Doe",
-       "ccpaOptOut": true,
-       ...
-   }
-   ```
+  ```
+  {
+      ...
+      "email": "john.doe@mail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ccpaOptOut": true,
+      ...
+  }
+  ```

@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 48%
+ht-degree: 54%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 48%
 
 * [쿼리](../../automating/using/query.md)
 * [증분 쿼리](../../automating/using/incremental-query.md)
-* [결합](../../automating/using/union.md)
+* [합집합](../../automating/using/union.md)
 * [교차](../../automating/using/intersection.md)
 * [예외](../../automating/using/exclusion.md)
 * [세분화](../../automating/using/segmentation.md)
@@ -48,10 +48,10 @@ ht-degree: 48%
 
 ## 데이터 세그먼트화 {#segmenting-data}
 
-Adobe Campaign을 사용하면 인바운드 데이터에 대한 세트를 처리할 수 있습니다. 따라서 여러 모집단을 결합하고 일부를 제외하거나 데이터를 여러 대상에 공통된 상태로 유지할 수 있습니다.
+Adobe Campaign을 사용하면 인바운드 데이터에 대한 세트를 처리할 수 있습니다. 따라서 여러 모집단을 결합하거나, 일부를 제외하거나, 데이터를 여러 대상에 공통으로 유지할 수 있습니다.
 
-* **[!UICONTROL Union]** 활동을 사용하면 여러 활동의 결과를 하나의 타겟으로 다시 그룹화할 수 있습니다. 다음을 참조하십시오. [합집합](../../automating/using/union.md) 섹션.
-* **[!UICONTROL Intersection]** 활동을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다. 다음을 참조하십시오. [교차](../../automating/using/intersection.md) 섹션.
+* **[!UICONTROL Union]** 활동을 사용하면 여러 활동의 결과를 하나의 타겟으로 다시 그룹화할 수 있습니다. [합집합](../../automating/using/union.md) 섹션을 참조하십시오.
+* **[!UICONTROL Intersection]** 활동을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다. [교차](../../automating/using/intersection.md) 섹션을 참조하십시오.
 * **[!UICONTROL Exclusion]** 활동을 통해 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다. 다음을 참조하십시오. [제외](../../automating/using/exclusion.md) 섹션.
 * **[!UICONTROL Segmentation]** 활동을 사용하면 워크플로우 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다. 활동 종료 시점에 단일 전환 또는 여러 전환으로 처리할 수 있습니다. 다음을 참조하십시오. [세분화](../../automating/using/segmentation.md) 섹션.
 

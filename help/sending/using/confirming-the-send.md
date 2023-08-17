@@ -59,9 +59,9 @@ ht-degree: 18%
 * 메시지 오픈율
 * 메시지 클릭률 (이메일)
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Open rate]**&#x200B;와(과) **[!UICONTROL Click-through rate]**&#x200B;은(는) 한 시간마다 업데이트됩니다.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Open rate]**&#x200B;와(과) **[!UICONTROL Click-through rate]**&#x200B;은(는) 한 시간마다 업데이트됩니다.
 
 ![](assets/sending_delivery.png)
 

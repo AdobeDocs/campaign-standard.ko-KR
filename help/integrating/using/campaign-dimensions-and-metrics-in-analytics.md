@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 8%
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaign 및 Adobe Analytics 통합을 통해 Adobe Analytics에서 직접
 <table> 
  <thead> 
   <tr> 
-   <th> 치수<br /> </th> 
+   <th> 차원<br /> </th> 
    <th> 정의<br /> </th> 
   </tr> 
  </thead> 
@@ -71,7 +71,7 @@ Adobe Campaign 및 Adobe Analytics 통합을 통해 Adobe Analytics에서 직접
    <td> 게재에서 콘텐츠를 클릭한 횟수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재됨<br /> </td> 
+   <td> 게재 대상<br /> </td> 
    <td> 보낸 총 메시지 수와 관련하여 성공적으로 보낸 메시지 수.<br /> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ Adobe Campaign 및 Adobe Analytics 통합을 통해 Adobe Analytics에서 직접
   </tr> 
   <tr> 
    <td> 총 바운스 수<br /> </td> 
-   <td> 총 보낸 메시지 수와 관련하여 게재 및 자동 반환 처리 중에 누적된 총 오류.<br /> </td> 
+   <td> 총 전송된 총 메시지 수와 관련하여 게재 및 자동 반환 처리 시 누적된 오류의 총계입니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 고유 오픈<br /> </td> 

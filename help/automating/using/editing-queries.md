@@ -66,34 +66,34 @@ ht-degree: 100%
 
    * 문자열 또는 숫자 **필드**&#x200B;의 경우 비교 연산자와 값을 지정합니다.
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * 날짜 또는 날짜 및 시간 **필드**&#x200B;의 경우 특정 날짜, 두 날짜 사이의 범위 또는 쿼리의 실행 날짜를 기준으로 했을 때의 기간을 정의하도록 선택할 수 있습니다.
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * 부울 **필드**&#x200B;의 경우 필드에 입력할 수 있는 값에 연결된 상자를 선택합니다.
    * 그룹화 **필드**&#x200B;의 경우 규칙을 만들 그룹화 필드를 선택한 다음 다른 필드와 같은 방식으로 조건을 정의합니다.
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * 다른 데이터베이스 리소스와 연결된 **1-1** 링크의 경우 타겟팅된 테이블에서 직접 값을 선택합니다.
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * 다른 데이터베이스 리소스와 연결된 **1-N** 링크의 경우 이 두 번째 리소스의 필드에 하위 쿼리를 정의할 수 있습니다.
 
-      꼭 하위 조건을 지정할 필요는 없습니다.
+     꼭 하위 조건을 지정할 필요는 없습니다.
 
-      예를 들어 프로필 추적 로그에 대해 **[!UICONTROL Exists]** 연산자만 선택하고 규칙을 승인할 수 있습니다. 이 규칙은 추적 로그가 있는 모든 프로필을 반환합니다.
+     예를 들어 프로필 추적 로그에 대해 **[!UICONTROL Exists]** 연산자만 선택하고 규칙을 승인할 수 있습니다. 이 규칙은 추적 로그가 있는 모든 프로필을 반환합니다.
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * **사전 정의된 필터**&#x200B;의 경우 제공된 기준에 따라 원하는 요소를 입력하거나 선택합니다.
 
-      관리자는 필터를 만들어 복잡하고 반복적인 쿼리 작업을 용이하게 할 수 있습니다. 이는 사전 구성된 규칙 형태로 쿼리 편집기에 표시되며 사용자의 작업 수행에 필요한 단계 수를 제한합니다.
+     관리자는 필터를 만들어 복잡하고 반복적인 쿼리 작업을 용이하게 할 수 있습니다. 이는 사전 구성된 규칙 형태로 쿼리 편집기에 표시되며 사용자의 작업 수행에 필요한 단계 수를 제한합니다.
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. 규칙의 이름을 지정할 수 있습니다. 그러면 작업 영역에 규칙 이름으로 표시됩니다. 규칙에 이름이 지정되어 있지 않으면 조건에 대한 자동 설명이 표시됩니다.
 1. 작업 영역 요소를 결합하려면 서로 인터로크하여 다른 그룹 및/또는 그룹 수준을 만듭니다. 그런 다음 논리 연산자를 선택하여 동일한 수준에서 요소를 결합할 수 있습니다.

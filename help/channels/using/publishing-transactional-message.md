@@ -147,9 +147,9 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 * **트랜잭션 메시지**: 다른 트랜잭션 메시지가 해당 이벤트에 연결되어 있지 않는 한, 트랜잭션 메시지의 게시를 취소하는 경우, 트랜잭션 메시지를 성공적으로 삭제하려면 이벤트 구성도 게시 취소해야 합니다. 자세한 내용은 [이벤트 게시 취소](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)를 참조하십시오.
 
-   >[!IMPORTANT]
-   >
-   >이미 알림을 보낸 트랜잭션 메시지를 삭제하면 전송 및 추적 로그도 삭제됩니다.
+  >[!IMPORTANT]
+  >
+  >이미 알림을 보낸 트랜잭션 메시지를 삭제하면 전송 및 추적 로그도 삭제됩니다.
 
 * **기본 제공 이벤트 템플릿의 트랜잭션 메시지(내부 트랜잭션 메시지)**: 내부 트랜잭션 메시지가 해당 내부 이벤트와 연결된 유일한 메시지인 경우 삭제할 수 없습니다. 먼저 복제하거나 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** 메뉴를 통해 다른 트랜잭션 메시지를 만들어야 합니다.
 

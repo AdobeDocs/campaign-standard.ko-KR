@@ -44,28 +44,28 @@ $(vars/@parameterName)
 
 * ![](assets/extsignal_picker.png): 워크플로우에서 사용할 수 있는 모든 변수 중에서 이벤트 변수를 선택합니다.
 
-   ![](assets/wkf_test_activity_variables.png)
+  ![](assets/wkf_test_activity_variables.png)
 
 * ![](assets/extsignal_expression_editor.png): 변수와 함수를 결합한 표현식 편집(참조) [이 페이지](../../automating/using/advanced-expression-editing.md)).
 
-   ![](assets/wkf_test_activity_variables_expression.png)
+  ![](assets/wkf_test_activity_variables_expression.png)
 
-   이 목록에서는 복잡한 필터링을 수행할 수 있는 함수를 제공합니다. 이러한 기능은에 자세히 설명되어 있습니다. [이 섹션](../../automating/using/list-of-functions.md).
+  이 목록에서는 복잡한 필터링을 수행할 수 있는 함수를 제공합니다. 이러한 기능은에 자세히 설명되어 있습니다. [이 섹션](../../automating/using/list-of-functions.md).
 
-   또한 외부 매개 변수를 사용한 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있는 모든 활동에서 사용할 수 있는 아래 함수를 사용할 수 있습니다(참조) [이 섹션](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+  또한 외부 매개 변수를 사용한 워크플로우를 호출한 후 이벤트 변수를 사용할 수 있는 모든 활동에서 사용할 수 있는 아래 함수를 사용할 수 있습니다(참조) [이 섹션](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
-   | 이름 | 설명 | 구문 |
-   | ---------|----------|---------|
-   | 끝 문자 | 문자열(1번째 매개 변수)이 특정 문자열(2번째 매개 변수)로 끝나는지 여부를 나타냅니다. | EndWith(&lt;string>,&lt;string>) |
-   | startWith | 문자열(1번째 매개 변수)이 특정 문자열(2번째 매개 변수)로 시작하는지 여부를 나타냅니다. | startWith(&lt;string>,&lt;string>) |
-   | Extract | 구분 기호를 사용하여 문자열의 첫 번째 문자를 반환합니다. | Extract(&lt;string>,&lt;separator>) |
-   | 오른쪽 추출 | 구분 기호를 사용하여 문자열의 마지막 문자를 반환합니다. | ExtractRight(&lt;string>,&lt;separator>) |
-   | 날짜 형식 | 두 번째 매개 변수에 지정된 형식을 사용하여 날짜 형식을 지정합니다(예: &#39;%4Y%2M%2D&#39;). | DateFormat(&lt;date>,&lt;format>) |
-   | 파일 이름 | 파일 경로의 이름을 반환합니다. | 파일 이름(&lt;string>) |
-   | 파일 텍스트 | 파일 경로의 확장명을 반환합니다. | FileExt(&lt;string>) |
-   | GetOption | 지정된 함수의 값을 반환합니다. | GetOption(&lt;optionname>) |
-   | IsNull | 문자열 또는 날짜가 null인지 보여 줍니다. | IsNull(&lt;string date=&quot;&quot;>) |
-   | UrlUtf8Encode | URL을 UTF8로 인코딩합니다. | UrlUtf8Encode(&lt;string>) |
+  | 이름 | 설명 | 구문 |
+  | ---------|----------|---------|
+  | 끝 문자 | 문자열(1번째 매개 변수)이 특정 문자열(2번째 매개 변수)로 끝나는지 여부를 나타냅니다. | EndWith(&lt;string>,&lt;string>) |
+  | startWith | 문자열(1번째 매개 변수)이 특정 문자열(2번째 매개 변수)로 시작하는지 여부를 나타냅니다. | startWith(&lt;string>,&lt;string>) |
+  | Extract | 구분 기호를 사용하여 문자열의 첫 번째 문자를 반환합니다. | Extract(&lt;string>,&lt;separator>) |
+  | 오른쪽 추출 | 구분 기호를 사용하여 문자열의 마지막 문자를 반환합니다. | ExtractRight(&lt;string>,&lt;separator>) |
+  | 날짜 형식 | 두 번째 매개 변수에 지정된 형식을 사용하여 날짜 형식을 지정합니다(예: &#39;%4Y%2M%2D&#39;). | DateFormat(&lt;date>,&lt;format>) |
+  | 파일 이름 | 파일 경로의 이름을 반환합니다. | 파일 이름(&lt;string>) |
+  | 파일 텍스트 | 파일 경로의 확장명을 반환합니다. | FileExt(&lt;string>) |
+  | GetOption | 지정된 함수의 값을 반환합니다. | GetOption(&lt;optionname>) |
+  | IsNull | 문자열 또는 날짜가 null인지 보여 줍니다. | IsNull(&lt;string date=&quot;&quot;>) |
+  | UrlUtf8Encode | URL을 UTF8로 인코딩합니다. | UrlUtf8Encode(&lt;string>) |
 
 ## 이벤트 변수를 사용하여 활동 사용자 지정 {#customizing-activities-with-events-variables}
 
@@ -112,17 +112,17 @@ $(vars/@parameterName)
 
 * 게재에 사용할 템플릿의 이름을 정의합니다.
 
-   >[!NOTE]
-   >
-   >이 작업은 다음에 대해 사용할 수 있습니다. **자동연장** 게재만 해당.
+  >[!NOTE]
+  >
+  >이 작업은 다음에 대해 사용할 수 있습니다. **자동연장** 게재만 해당.
 
-   ![](assets/extsignal_activities_template.png)
+  ![](assets/extsignal_activities_template.png)
 
 * 게재 개인화: 게재를 구성할 개인화 필드를 선택할 때에서 이벤트 변수를 사용할 수 있습니다. **[!UICONTROL Workflow parameters]** 요소를 생성하지 않습니다. 모든 개인화 필드로 사용할 수 있습니다. 예를 들어 게재 제목, 발신자 등을 정의할 수 있습니다.
 
-   게재 개인화는에 자세히 설명되어 있습니다. [이 섹션](../../designing/using/personalization.md).
+  게재 개인화는에 자세히 설명되어 있습니다. [이 섹션](../../designing/using/personalization.md).
 
-   ![](assets/extsignal_activities_perso.png)
+  ![](assets/extsignal_activities_perso.png)
 
 **세그먼트 코드**: 이벤트 변수를 기반으로 세그먼트 코드를 정의합니다.
 

@@ -41,9 +41,9 @@ ht-degree: 2%
 
 * 다음 **[!UICONTROL From: name]** 필드에서는 발신자 이름을 입력할 수 있습니다. 기본적으로 **보낸 사람 이름** 블록은 필드에 자동으로 입력됩니다. 기본 발신자 이메일 주소 및 발신자 이름은에 정의되어 있습니다. **[!UICONTROL Brands]** 고급 메뉴 아래의 Adobe Campaign 로고를 통해 액세스할 수 있습니다 **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   다음을 클릭하여 발신자 이름을 변경할 수 있습니다. **보낸 사람 이름** 차단합니다. 그러면 필드를 편집할 수 있고 사용할 이름을 입력할 수 있습니다.
+  다음을 클릭하여 발신자 이름을 변경할 수 있습니다. **보낸 사람 이름** 차단합니다. 그러면 필드를 편집할 수 있고 사용할 이름을 입력할 수 있습니다.
 
-   이 필드는 개인화할 수 있습니다. 이렇게 하려면 보낸 사람 이름 아래의 아이콘을 클릭하여 개인화 필드, 콘텐츠 블록 및 다이내믹 콘텐츠를 추가할 수 있습니다. 자세한 내용은 [개인화](../../designing/using/personalization.md).
+  이 필드는 개인화할 수 있습니다. 이렇게 하려면 보낸 사람 이름 아래의 아이콘을 클릭하여 개인화 필드, 콘텐츠 블록 및 다이내믹 콘텐츠를 추가할 수 있습니다. 자세한 내용은 [개인화](../../designing/using/personalization.md).
 
 * 다음 **[!UICONTROL From: email address]** 필드는 이 섹션에서 편집할 수 없습니다. 대시보드에서 이메일의 속성을 편집하여 변경할 수 있습니다. 자세한 내용은 [이메일 고급 매개 변수 목록](../../administration/using/configuring-email-channel.md#advanced-parameters).
 

@@ -25,7 +25,7 @@ ht-degree: 8%
 메시지 콘텐츠를 디자인할 때는 아래 나열된 원칙을 따르십시오.
 
 * [보낸 사람 이름 및 주소](#sender-name): 주소가 발신자를 명시적으로 식별해야 합니다. 도메인은 발신자가 소유하고 등록해야 합니다. 도메인 레지스트리를 개인화하면 안 됩니다.
-   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
+  <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [개인화 및 전송 시간 최적화](#perso-send-time-optimization): 콘텐츠를 개인화하고 수신자당 보내는 시간을 정의하면 메시지가 열릴 가능성이 높아집니다.
 * 이미지 및 텍스트: 적절한 텍스트/이미지 비율(예: 텍스트 60% 및 이미지 40%)을 준수합니다.
 * [구독 취소 링크](#opt-out) 랜딩 페이지: 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다.

@@ -42,7 +42,7 @@ ht-degree: 4%
    * 을(를) 끌어다 놓습니다. **게재 로그(로그)** 요소를 작업 공간에 입력하고 다음을 선택합니다. **존재함** 이메일을 받은 모든 고객을 타겟팅합니다.
    * 을(를) 끌어다 놓습니다. **추적 로그(추적)** 요소를 작업 공간에 입력하고 다음을 선택합니다. **존재하지 않음** 이메일을 열지 않은 모든 고객을 타겟팅합니다.
 
-      ![](assets/wkf_push_example_2.png)
+     ![](assets/wkf_push_example_2.png)
 
 1. 다음 [푸시 알림 게재](../../automating/using/push-notification-delivery.md) 활동을 통해 메시지 콘텐츠를 입력하고 사용할 개인화 필드를 선택할 수 있습니다.
 
@@ -51,7 +51,7 @@ ht-degree: 4%
    * 다음에서 **[!UICONTROL Schedule]** 블록, 선택 **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. 여기에서 **[!UICONTROL Time zone of the contact date]** 워크플로우의 태평양 **[!UICONTROL Scheduler]**.
    * **[!UICONTROL Optimize the sending time per recipient]** 필드에서 **[!UICONTROL Send at the recipient's time zone]**&#x200B;을(를) 선택합니다.
 
-      ![](assets/wkf_push_example_4.png)
+     ![](assets/wkf_push_example_4.png)
 
 1. 다음을 클릭합니다. **[!UICONTROL Start]** 단추를 클릭하여 반복 워크플로우를 시작합니다.
 

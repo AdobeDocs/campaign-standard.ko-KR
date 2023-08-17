@@ -43,13 +43,13 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
    * &lt;organization> : 프로덕션 인스턴스,
    * &lt;organization-mkt-stage>: 스테이지 인스턴스
 
-   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 라이선스 목록에서 새 통합을 만들 때 Adobe I/O으로 검색할 수도 있습니다( <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer 설명서</a>).
+  조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 라이선스 목록에서 새 통합을 만들 때 Adobe I/O으로 검색할 수도 있습니다( <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer 설명서</a>).
 
 * **&lt;access_token>**: POST 요청을 통해 JSON 웹 토큰을 교환할 때 검색된 개인 액세스 토큰입니다.
 
 * **&lt;api_key>**: 개인 API 키. Adobe Campaign 서비스에 대한 새 통합을 만든 후 Adobe I/O에서 제공합니다.
 
-   ![대체 텍스트](assets/tenant.png)
+  ![대체 텍스트](assets/tenant.png)
 
 ## 문제 해결
 

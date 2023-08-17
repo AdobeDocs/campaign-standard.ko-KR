@@ -280,7 +280,7 @@ CR: 캐리지 리턴
 
 **고급 문자(두 글자로 계산)**
 
-^ { } [ ~ ] | €
+^ { } [~] | €
 
 ### SMSC 세부 사항 {#smsc-specifics}
 
@@ -305,15 +305,15 @@ SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 
    * 이는 GSM 인코딩을 사용하여 **data_coding = 0** 값을 할당하려고 합니다.
    * GSM 인코딩이 실패할 경우 **UCS2** 인코딩을 사용하여 **data_coding = 8** 값을 할당합니다 .
 
-   ![](assets/sms_data_coding.png)
+  ![](assets/sms_data_coding.png)
 
 * **[!UICONTROL Define a specific mapping of encodings]** 기능을 선택하면 사용할 인코딩과 연결된 **[!UICONTROL data_coding]** 필드 값을 정의할 수 있습니다. Adobe Campaign은 목록의 첫 번째 인코딩을 사용하려고 하지만, 첫 번째 인코딩이 불가능할 경우 다음을 수행합니다.
 
-   선언의 순서가 중요합니다. 목록을 **비용** 오름차순으로 배치하는 것을 추천합니다. 이렇게 하면 각 SMS 메시지에 가능한 많은 문자를 입력할 수 있는 인코딩을 선호하도록 할 수 있습니다.
+  선언의 순서가 중요합니다. 목록을 **비용** 오름차순으로 배치하는 것을 추천합니다. 이렇게 하면 각 SMS 메시지에 가능한 많은 문자를 입력할 수 있는 인코딩을 선호하도록 할 수 있습니다.
 
-   사용하려는 인코딩만 선언해야 합니다. SMS-C에서 제공하는 인코딩 중 일부가 사용 목적에 부합하지 않는 경우, 목록에 선언하지 마십시오.
+  사용하려는 인코딩만 선언해야 합니다. SMS-C에서 제공하는 인코딩 중 일부가 사용 목적에 부합하지 않는 경우, 목록에 선언하지 마십시오.
 
-   ![](assets/sms_data_coding1.png)
+  ![](assets/sms_data_coding1.png)
 
 ### MO에 자동 답장 보내기 {#automatic-reply-sent-to-the-mo}
 
@@ -333,19 +333,19 @@ SMS 메시지 보내기를 위한 특정 매개 변수는 **[!UICONTROL Send]** 
 
 * 다음 **[!UICONTROL Short code]** 게재에 특정 짧은 코드를 추가할 수 있습니다. 이 특정 짧은 코드를 옵트아웃한 수신자는 메시지를 준비하는 동안 자동으로 제외됩니다. 짧은 코드를 구성하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/managing-incoming-sms.md).
 
-   >[!NOTE]
-   >
-   >다음과 같은 경우 **[!UICONTROL Short code]** 필드가 비어 있는 경우 **[!UICONTROL Short code]** 외부 계정에 설정된 필드가 사용됩니다.
+  >[!NOTE]
+  >
+  >다음과 같은 경우 **[!UICONTROL Short code]** 필드가 비어 있는 경우 **[!UICONTROL Short code]** 외부 계정에 설정된 필드가 사용됩니다.
 
 다음에서 **[!UICONTROL Send]** SMS 템플릿의 섹션:
 
 * **[!UICONTROL Maximum number of SMS per message]** 옵션을 사용하면 메시지를 보내는 데 사용할 SMS 메시지 수를 정의할 수 있습니다. 이 수를 초과하면 메시지를 보내지 않습니다.
 
-   >[!IMPORTANT]
-   >
-   >개인화 필드 또는 조건부 텍스트를 SMS 메시지 콘텐츠에 삽입한 경우, 메시지 길이 및 전송할 SMS 메시지 수가 수신자마다 달라질 수 있습니다. 자세한 내용은 [SMS 메시지 개인화](../../channels/using/personalizing-sms-messages.md) 섹션을 참조하십시오.
+  >[!IMPORTANT]
+  >
+  >개인화 필드 또는 조건부 텍스트를 SMS 메시지 콘텐츠에 삽입한 경우, 메시지 길이 및 전송할 SMS 메시지 수가 수신자마다 달라질 수 있습니다. 자세한 내용은 [SMS 메시지 개인화](../../channels/using/personalizing-sms-messages.md) 섹션을 참조하십시오.
 
-   ![](assets/sms_smpp_3.png)
+  ![](assets/sms_smpp_3.png)
 
 * **[!UICONTROL Transmission mode]** 필드에서는 SMS 메시지의 게재 방법을 결정할 수 있습니다.
 

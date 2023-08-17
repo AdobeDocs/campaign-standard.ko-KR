@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **옵트인/옵트아웃**
 
-옵트아웃 상태(예: Adobe Campaign)는 Microsoft Dynamics 365에서 차단 목록으로 또는 Adobe Campaign에서 Microsoft Dynamics 365로 동기화할 수 있습니다. 데이터는 또한 양방향으로 동기화(즉, 양방향으로 데이터 흐름)될 수 있다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)
+옵트아웃 상태(예: Adobe Campaign)는 Microsoft Dynamics 365에서 차단 목록에 추가하다으로 또는 Adobe Campaign에서 Microsoft Dynamics 365로 동기화할 수 있습니다. 데이터는 또한 양방향으로 동기화(즉, 양방향으로 데이터 흐름)될 수 있다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)
 
 >[!IMPORTANT]
 >
@@ -46,6 +46,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >Microsoft Dynamics 365 및/또는 Campaign 레코드가 업데이트되지 않는 경우 먼저 대상에 쓰기 대기 중인 레코드가 많은지 확인해야 합니다.
+>
 
 ## 워크플로 상태 {#workflow-status}
 
@@ -64,7 +65,7 @@ ht-degree: 0%
 
 * **시작**: 시작 단추를 사용하여 중지된 워크플로우의 시작을 요청합니다. 이 단추는 워크플로와 연결된 프로세스가 현재 중지된 경우에만 나타납니다. 프로세스는 먼저 &quot;시작&quot;으로 변경된 다음 &quot;실행&quot;으로 변경됩니다. 워크플로우가 &quot;실행 중&quot; 상태가 될 때까지 워크플로우와 연결된 데이터가 동기화를 시작하지 않습니다.
 
-   시작 버튼은 토글(toggle)입니다. 워크플로우 프로세스가 이미 시작된 경우 버튼은 로 변경됩니다. **중지** 단추를 클릭합니다.
+  시작 버튼은 토글(toggle)입니다. 워크플로우 프로세스가 이미 시작된 경우 버튼은 로 변경됩니다. **중지** 단추를 클릭합니다.
 
 * **중지**: A **중지** 버튼을 누르면 실행 중인 워크플로우의 중지가 요청됩니다. 이 단추는 워크플로와 연결된 프로세스가 현재 실행 중인 경우에만 나타납니다.
 

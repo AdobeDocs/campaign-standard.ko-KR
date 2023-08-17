@@ -36,35 +36,35 @@ ht-degree: 14%
 
    * 다음에서 **[!UICONTROL Properties]** 탭, 대상 리소스를 다음으로 변경 **게재 로그** (broadLogRcp).
 
-      ![](assets/export_logs_query_properties.png)
+     ![](assets/export_logs_query_properties.png)
 
    * 다음에서 **[!UICONTROL Target]** 탭에서 2016년 또는 그 이후에 전송된 게재에 해당하는 모든 게재 로그를 검색하는 조건을 설정합니다. 자세한 내용은 [쿼리 편집](../../automating/using/editing-queries.md#creating-queries) 섹션.
 
-      ![](assets/export_logs_query_target.png)
+     ![](assets/export_logs_query_target.png)
 
    * 다음에서 **[!UICONTROL Processed data]** 탭, 선택 **[!UICONTROL Use a date field]** 및 선택 **마지막 수정일** 필드. 워크플로우의 다음 실행에서는 마지막 실행 후에 수정되거나 만들어지는 로그만 검색됩니다.
 
-      ![](assets/export_logs_query_processeddata.png)
+     ![](assets/export_logs_query_processeddata.png)
 
-      워크플로우가 처음 실행된 후 다음 실행에 사용될 마지막 실행 날짜를 이 탭에서 확인할 수 있습니다. 워크플로우가 실행될 때마다 자동으로 업데이트됩니다. 필요에 맞게 새 값을 수동으로 입력하여 이 값을 재정의할 수 있습니다.
+     워크플로우가 처음 실행된 후 다음 실행에 사용될 마지막 실행 날짜를 이 탭에서 확인할 수 있습니다. 워크플로우가 실행될 때마다 자동으로 업데이트됩니다. 필요에 맞게 새 값을 수동으로 입력하여 이 값을 재정의할 수 있습니다.
 
 1. 추가 **[!UICONTROL Extract file]** 파일에서 쿼리된 데이터를 내보내는 활동:
 
    * 다음에서 **[!UICONTROL Extraction]** 탭에서 파일 이름을 지정합니다.
 
-      을(를) 선택하는 경우 **[!UICONTROL Add date and time to the file name]** 이 옵션을 선택하면 추출된 모든 파일이 고유하도록 내보내기 날짜에 이 이름이 자동으로 완료됩니다. 파일에서 내보낼 열을 선택합니다. 게재 또는 프로필 정보와 같은 관련 리소스에서 가져온 데이터를 여기에서 선택할 수 있습니다.
+     을(를) 선택하는 경우 **[!UICONTROL Add date and time to the file name]** 이 옵션을 선택하면 추출된 모든 파일이 고유하도록 내보내기 날짜에 이 이름이 자동으로 완료됩니다. 파일에서 내보낼 열을 선택합니다. 게재 또는 프로필 정보와 같은 관련 리소스에서 가져온 데이터를 여기에서 선택할 수 있습니다.
 
-      >[!NOTE]
-      >
-      >각 로그에 대한 고유 식별자를 내보내려면 **[!UICONTROL Delivery log ID]** 요소를 생성하지 않습니다.
+     >[!NOTE]
+     >
+     >각 로그에 대한 고유 식별자를 내보내려면 **[!UICONTROL Delivery log ID]** 요소를 생성하지 않습니다.
 
-      최종 파일을 구성하려면 정렬을 적용할 수 있습니다. 예를 들어 아래 예와 같이 로그 날짜에서 를 볼 수 있습니다.
+     최종 파일을 구성하려면 정렬을 적용할 수 있습니다. 예를 들어 아래 예와 같이 로그 날짜에서 를 볼 수 있습니다.
 
-      ![](assets/export_logs_extractfile_extraction.png)
+     ![](assets/export_logs_extractfile_extraction.png)
 
    * 다음에서 **[!UICONTROL File structure]** 탭에서 필요에 맞게 출력 파일의 형식을 정의합니다.
 
-      열거형 값을 내보낼 경우 **[!UICONTROL Export labels instead of internal values of enumerations]** 옵션을 선택합니다. 이 옵션을 사용하면 ID 대신 이해하기 쉬운 짧은 레이블을 검색할 수 있습니다.
+     열거형 값을 내보낼 경우 **[!UICONTROL Export labels instead of internal values of enumerations]** 옵션을 선택합니다. 이 옵션을 사용하면 ID 대신 이해하기 쉬운 짧은 레이블을 검색할 수 있습니다.
 
 1. 추가 **[!UICONTROL Transfer file]** 활동을 수행하고 새로 만든 파일을 Adobe Campaign 서버에서 액세스할 수 있는 다른 위치(예: SFTP 서버)로 전송하도록 구성합니다.
 

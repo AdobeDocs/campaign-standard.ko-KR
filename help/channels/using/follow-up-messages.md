@@ -19,7 +19,7 @@ ht-degree: 2%
 
 후속 메시지는 워크플로우에서 특정 트랜잭션 메시지의 수신자에게 다른 커뮤니케이션을 보내는 데 사용할 수 있는 사전 정의된 마케팅 게재 템플릿입니다.
 
-에 설명된 예를 다시 사용하겠습니다. [트랜잭션 메시지 작동 원리](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 섹션: 장바구니에 제품을 추가했지만 구매를 완료하지 않고 사이트를 떠난 웹 사이트 사용자에게 장바구니 포기 이메일이 전송됩니다.
+에 설명된 예를 다시 사용하겠습니다. [트랜잭션 메시지 작동 원리](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 섹션: 장바구니에 제품을 추가했지만 구매를 완료하지 않고 사이트를 떠난 웹 사이트 사용자에게 장바구니 중단 이메일이 전송됩니다.
 
 장바구니 포기 알림을 받았지만 3일 후에도 열지 않은 모든 고객에게 친숙한 미리 알림을 보내려고 합니다. 보낸 첫 번째 이메일에서 사용한 것과 동일한 데이터를 기반으로 후속 메시지를 받게 됩니다.
 

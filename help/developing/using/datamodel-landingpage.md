@@ -456,7 +456,7 @@ ht-degree: 8%
       </tr>
       <tr>
          <td>targetResource</td>
-         <td>대상 차원</td>
+         <td>타겟팅 차원</td>
          <td>문자열(255)</td>
          <td> </td>
       </tr>

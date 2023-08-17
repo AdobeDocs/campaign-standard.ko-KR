@@ -110,7 +110,7 @@ ht-degree: 1%
 
    ![](assets/extsignal_uc5.png)
 
-1. 데이터가 검색되면 대상자에 저장합니다. 이렇게 하려면 다음을 추가합니다. **[!UICONTROL Save audience]** 에 대한 활동 **Target이 비어 있지 않음** 전환한 다음 엽니다.
+1. 데이터가 검색되면 대상자에 저장합니다. 이렇게 하려면 다음을 추가합니다. **[!UICONTROL Save audience]** 에 대한 활동 **대상이 비어 있지 않음** 전환한 다음 엽니다.
 1. 다음 항목 선택 **[!UICONTROL Use a dynamic label]** 옵션을 선택한 다음 **파일 대상** 매개 변수를 대상자의 레이블로 사용:
 
    ```

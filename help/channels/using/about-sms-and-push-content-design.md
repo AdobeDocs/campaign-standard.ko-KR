@@ -31,11 +31,11 @@ SMS 및 푸시 컨텐츠 편집기에 액세스하는 방법은 다음과 같습
 
 * SMS 대시보드에서 **[!UICONTROL Content]** 블록을 클릭합니다.
 
-   ![](assets/des_sms_content.png)
+  ![](assets/des_sms_content.png)
 
 * 푸시 알림 대시보드의 **[!UICONTROL Message body]** 필드 옆에 있는 연필을 클릭합니다.
 
-   ![](assets/des_push_body.png)
+  ![](assets/des_push_body.png)
 
 **관련 항목:**
 

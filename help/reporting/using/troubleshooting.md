@@ -36,7 +36,7 @@ P1은 첫 번째 날에 이메일을 두 번 연 다음 두 번째 날에 세 �
   <tr> 
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
-   <th align="center"> <strong>고유 열람수</strong> <br /> </th> 
+   <th align="center"> <strong>고유 오픈</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -64,7 +64,7 @@ P1은 첫 번째 날에 이메일을 두 번 연 다음 두 번째 날에 세 �
   <tr> 
    <th align="center"> <strong></strong> <br /> </th> 
    <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
-   <th align="center"> <strong>고유 열람수</strong> <br /> </th> 
+   <th align="center"> <strong>고유 오픈</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -107,7 +107,7 @@ P1은 첫 번째 날에 이메일을 두 번 연 다음 두 번째 날에 세 �
 ## 반복/트랜잭션 게재의 카운트는 어떻게 계산됩니까? {#counts-recurring-deliveries}
 
 반복 및 트랜잭션 게재로 작업할 때 카운트는 상위 및 하위 게재 모두에 연결됩니다.
-라는 이름의 반복 게재의 예를 가져올 수 있습니다. **R1** 1일(RC1), 2일(RC2) 및 3일(RC3)에 매일 실행되도록 설정합니다.
+라는 이름의 반복 게재의 예를 사용할 수 있습니다. **R1** 1일(RC1), 2일(RC2) 및 3일(RC3)에 매일 실행되도록 설정합니다.
 한 사람만 모든 하위 분만을 여러 번 열었다고 가정해 보겠습니다. 이 경우 개별 반복 하위 게재에 표시되는 항목은 다음과 같습니다. **[!UICONTROL Open]** 각각에 대해 1로 계산합니다.
 그러나 동일한 사람이 모든 게재를 클릭했으므로 상위 반복 게재에도 다음이 적용됩니다. **[!UICONTROL Unique open]** as 1.
 
@@ -120,7 +120,7 @@ P1은 첫 번째 날에 이메일을 두 번 연 다음 두 번째 날에 세 �
    <th align="center"> <strong>전송됨</strong> <br /> </th> 
    <th align="center"> <strong>전달됨</strong> <br /> </th>
    <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
-   <th align="center"> <strong>고유 열람수</strong> <br /> </th>
+   <th align="center"> <strong>고유 오픈</strong> <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
@@ -179,7 +179,7 @@ P1은 첫 번째 날에 이메일을 두 번 연 다음 두 번째 날에 세 �
 * 을(를) 끌어다 놓을 때 **[!UICONTROL Transactional Delivery]** 보고서에 차원, 값 **해당 사항 없음** 결과로 나타날 수 있습니다. 이 문제는 동적 보고서가 트랜잭션이 아닌 경우에도 모든 게재를 가져오기 때문에 발생합니다. 이 문제는 을(를) 끌어서 놓을 때도 발생할 수 있습니다 **[!UICONTROL Delivery]** 보고서에 대한 차원이지만 이 경우 **해당 사항 없음** 값은 트랜잭션 게재를 나타냅니다.
 * 차원이 차원과 관련이 없는 지표와 함께 사용되는 경우. 아래 예에서는 분류가 **[!UICONTROL Tracking URL]** 차원이지만 **[!UICONTROL Click]** 이 게재에서 count는 0으로 설정됩니다.
 
-   ![](assets/troubleshooting_4.png)
+  ![](assets/troubleshooting_4.png)
 
 ## 사용자 지정 대상 매핑을 사용할 때 게재 보고서에 불완전한 데이터가 표시됨
 

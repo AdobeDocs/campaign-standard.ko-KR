@@ -27,7 +27,7 @@ ht-degree: 64%
 >
 >**SMS** 오류 메시지(또는 &quot;상태 보고서&quot;의 경우 &quot;SR&quot;)는 MTA 프로세스에 의해 검증됩니다.
 
-프로필이 격리되어 있거나 프로필이 차단 목록에 있는 경우 게재 준비 중에 메시지가 제외될 수도 있습니다. 제외된 메시지는 게재 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 나열됩니다([이 섹션](../../sending/using/monitoring-a-delivery.md#exclusion-logs) 참조).
+프로필이 격리되어 있거나 프로필이 차단 목록에 추가하다에 있는 경우 게재 준비 중에 메시지가 제외될 수도 있습니다. 제외된 메시지는 게재 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 나열됩니다([이 섹션](../../sending/using/monitoring-a-delivery.md#exclusion-logs) 참조).
 
 ![](assets/exclusion_logs.png)
 
@@ -35,7 +35,7 @@ ht-degree: 64%
 
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [바운스수](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 메시지에 대한 게재 실패 식별 {#identifying-delivery-failures-for-a-message}
 
@@ -66,7 +66,7 @@ ht-degree: 64%
 | **[!UICONTROL Duplicate]** | 무시됨 | 주소가 세분화에서 이미 감지되었습니다. |
 | **[!UICONTROL Not defined]** | 소프트 | 오류가 증가하지 않았기 때문에 주소가 유효합니다. | 아직. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. |
 | **[!UICONTROL Error ignored]** | 무시됨 | 주소는 허용 목록에 추가하다에 있으며 어떤 경우에든 이메일이 전송됩니다. |
-| **[!UICONTROL Address on denylist]** | 하드 | 발송 시 주소가 차단 목록에 추가되었습니다. |
+| **[!UICONTROL Address on denylist]** | 하드 | 발송 시 주소가 차단 목록에 추가하다에 추가되었습니다. |
 | **[!UICONTROL Account disabled]** | 소프트/하드 | IAP(인터넷 접속 제공자)가 장기간 동안 비활성화 상태를 감지하면 사용자의 계정을 닫을 수 있습니다. 그러면 사용자 주소로 게재할 수 없습니다. 소프트 또는 하드 유형은 받은 오류 유형에 따라 달라집니다. 6개월 동안 활동이 없어 계정이 일시적으로 비활성화되고 아직 활성화될 수 있는 경우 **[!UICONTROL Erroneous]** 상태가 할당되고 게재를 다시 시도합니다. 수신된 오류가 계정이 영구적으로 비활성화되었음을 나타내는 경우 해당 계정은 즉시 격리로 전송됩니다. |
 | **[!UICONTROL Not connected]** | 무시됨 | 메시지가 전송될 때 프로필의 휴대폰은 꺼져 있거나 네트워크에 연결되어 있지 않습니다. |
 | **[!UICONTROL Invalid domain]** | 소프트 | 이메일 주소의 도메인이 잘못되었거나 더 이상 존재하지 않습니다. 이 프로필은 오류 수가 5개에 도달할 때까지 다시 타겟팅됩니다. 이후 레코드가 격리 상태로 설정되며 다시 시도되지 않습니다. |

@@ -67,15 +67,15 @@ ht-degree: 97%
    * **[!UICONTROL Choose for me]**: 중복 중에서 유지할 레코드를 임의로 선택합니다.
    * **[!UICONTROL Following a list of values]**: 하나 이상의 필드에 대한 값 우선 순위를 정의할 수 있습니다. 값을 정의하려면 필드를 선택하거나 표현식을 만든 다음 해당 테이블에 값을 추가합니다. 새 필드를 정의하려면 값 목록 위에 있는 **[!UICONTROL Add]** 버튼을 클릭합니다.
 
-      ![](assets/deduplication_2.png)
+     ![](assets/deduplication_2.png)
 
    * **[!UICONTROL Non-empty value]**: 선택한 표현식의 값이 비어 있지 않은 레코드를 우선 순위로 유지할 수 있습니다.
 
-      ![](assets/deduplication_3.png)
+     ![](assets/deduplication_3.png)
 
    * **[!UICONTROL Using an expression]**: 입력한 표현식의 값이 가장 작거나 가장 큰 레코드를 유지할 수 있습니다.
 
-      ![](assets/deduplication_4.png)
+     ![](assets/deduplication_4.png)
 
 1. 필요한 경우 활동의 [전환](../../automating/using/activity-properties.md)을 관리하여 아웃바운드 모집단에 대한 고급 옵션에 액세스합니다.
 1. 활동 구성을 확인하고 워크플로우를 저장합니다.

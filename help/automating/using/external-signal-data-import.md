@@ -24,17 +24,17 @@ ht-degree: 79%
 
 * [파일 로드](../../automating/using/load-file.md) 활동은 새 구매 데이터가 포함된 파일을 업로드합니다. 구매 데이터가 기본적으로 데이터 마트에 없으므로 이에 따라 [데이터베이스가 확장](../../developing/using/data-model-concepts.md)되었습니다.
 
-   예제:
+  예제:
 
-   ```
-   tcode;tdate;customer;product;tamount
-   aze123;21/05/2015;dannymars@example.com;A2;799
-   aze124;28/05/2015;dannymars@example.com;A7;8
-   aze125;31/07/2015;john.smith@example.com;A7;8
-   aze126;14/12/2015;john.smith@example.com;A10;4
-   aze127;02/01/2016;dannymars@example.com;A3;79
-   aze128;04/03/2016;clara.smith@example.com;A8;149
-   ```
+  ```
+  tcode;tdate;customer;product;tamount
+  aze123;21/05/2015;dannymars@example.com;A2;799
+  aze124;28/05/2015;dannymars@example.com;A7;8
+  aze125;31/07/2015;john.smith@example.com;A7;8
+  aze126;14/12/2015;john.smith@example.com;A10;4
+  aze127;02/01/2016;dannymars@example.com;A3;79
+  aze128;04/03/2016;clara.smith@example.com;A8;149
+  ```
 
 * [조정](../../automating/using/reconciliation.md) 활동은 가져온 데이터와 데이터베이스 사이에 링크를 만들어 트랜잭션 데이터가 프로필과 제품에 적절하게 연결되도록 합니다.
 * [데이터 업데이트](../../automating/using/update-data.md) 활동은 수신 데이터로 데이터베이스의 트랜잭션 리소스를 삽입하고 업데이트합니다.

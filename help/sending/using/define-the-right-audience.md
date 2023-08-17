@@ -22,7 +22,7 @@ ht-degree: 11%
 
 대상 모집단에 대해 자세히 알아보기 [이 섹션에서](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-## 적합한 대상 Target {#target-the-right-audience}
+## 적합한 대상 타기팅 {#target-the-right-audience}
 
 콘텐츠를 준비한 후에는 메시지를 받을 사용자를 신중하게 정의해야 합니다.
 

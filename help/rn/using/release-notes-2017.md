@@ -40,7 +40,7 @@ ht-degree: 8%
 
 **패치**
 
-_플랫폼_
+_Platform_
 
 * 큰 압축 파일의 압축이 제대로 풀리지 않는 문제를 해결했습니다.
 * 브랜드 관리 보안이 개선되었습니다. 브랜드 이름과 발신자 주소 수정은 이제 Adobe 기술 관리자용으로 예약되었습니다.
@@ -108,7 +108,7 @@ _사용자 정의 리소스_
  <tbody> 
   <tr> 
    <td> 이메일 템플릿 라이브러리<br /> </td> 
-   <td> 아스트로(Astro)와 페더(Feather) 등 두 가지 아름다운 테마로 디자인된 18가지의 새롭고 반응형 템플릿을 소개합니다. 사용자 정의 가능한 이러한 템플릿은 산업에 관계없이 사용할 수 있으며 즉시 사용할 수 있습니다. 템플릿에는 다양한 사용 사례에 대한 콘텐츠가 포함되어 있어 이메일 마케팅 캠페인을 보다 빠르고 효율적이며 아름답게 설계하고 전달할 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/using-reusable-content.md#content-templates">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 아스트로(Astro)와 페더(Feather)라는 두 가지 아름다운 테마로 디자인된 18가지의 새롭고 반응형 템플릿을 소개합니다. 사용자 정의 가능한 이러한 템플릿은 산업에 관계없이 사용할 수 있으며 즉시 사용할 수 있습니다. 템플릿에는 다양한 사용 사례에 대한 콘텐츠가 포함되어 있어 이메일 마케팅 캠페인을 보다 빠르고 효율적이며 아름답게 설계하고 전달할 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/using-reusable-content.md#content-templates">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 프로필 데이터를 사용한 다이내믹 보고<br /> </td> 
@@ -123,7 +123,7 @@ _사용자 정의 리소스_
 
 **패치**
 
-_플랫폼_
+_Platform_
 
 * 일부 고객은 자신의 레코드를 식별하는 고유 키를 관리하지 않으므로 Adobe Campaign Standard에서 가져온 ID를 활용할 수 있어야 합니다. 이 ID(**ACS ID**)를 내보내고 데이터를 업데이트하는 동안 조정 키로 사용할 수 있습니다. 자세한 내용은 [세부 설명서](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)를 참조하세요.
 * FTP 프로토콜은 더 이상 사용되지 않습니다. 이제 SFTP를 대신 사용해야 합니다. 기존 구현을 차단하지 않기 위해 FTP의 기존 구성은 이전과 동일하게 작동하지만 새 활동에 대해서는 옵션이 표시되지 않습니다.
@@ -192,7 +192,7 @@ _프로필 및 대상자_
   </tr> 
   <tr> 
    <td> 데이터 소스의 암호화된 선언 ID<br /> </td> 
-   <td> 암호화된 연락처 정보(이메일 주소 또는 전화번호)를 선언된 ID로 사용하여 Campaign에서 기존 프로필을 사용하지 않고 이메일 및 SMS 트리거를 보냅니다. 암호화된 선언 ID는 Adobe Campaign Standard에서 디코딩할 수 있으므로 Campaign은 이전에 알 수 없는 연락처가 포함된 다른 Experience Cloud 솔루션에서 대상을 받을 때 새로운 마케팅 가능한 프로필을 만들 수 있습니다.<br /> 이메일 및 SMS를 통해 실시간으로 고객과 알 수 없는 잠재 고객을 Target 하여 기존 고객 기반의 충성도를 개선하고 신규 고객을 각각 확보합니다. 잠재 고객이 Adobe Audience Manager에서 해당 인사이트를 인증하고 활용하면 자사 쿠키 데이터(Adobe Campaign*에서)를 최대한 활용할 수 있습니다. <br /> *Adobe Audience Manager은 필수입니다. 자세한 내용은 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 암호화된 연락처 정보(이메일 주소 또는 전화번호)를 선언된 ID로 사용하여 Campaign에서 기존 프로필을 사용하지 않고 이메일 및 SMS 트리거를 보냅니다. 암호화된 선언 ID는 Adobe Campaign Standard에서 디코딩할 수 있으므로 Campaign은 이전에 알 수 없는 연락처가 포함된 다른 Experience Cloud 솔루션에서 대상을 받을 때 새로운 마케팅 가능한 프로필을 만들 수 있습니다.<br /> 이메일 및 SMS를 통해 실시간으로 고객과 알 수 없는 잠재 고객을 타겟팅하여 기존 고객 기반의 충성도를 개선하고 신규 고객을 각각 확보합니다. 잠재 고객이 Adobe Audience Manager에서 해당 인사이트를 인증하고 활용하면 자사 쿠키 데이터(Adobe Campaign*에서)를 최대한 활용할 수 있습니다. <br /> *Adobe Audience Manager은 필수입니다. 자세한 내용은 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">세부 설명서</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign에서 Analytics로 KPI 공유<br /> </td> 
@@ -326,7 +326,7 @@ _푸시 알림_
 
 **패치**
 
-_플랫폼_
+_Platform_
 
 * 메모리 소모 문제를 해결했습니다.
 
@@ -481,7 +481,7 @@ _워크플로우_
    <td> 트랜잭션 메시지를 위한 마케팅 기능<br /> </td> 
    <td> 이제 마케터는 고객 마케팅 프로필을 기반으로 트랜잭션 메시지를 보낼 수 있습니다. 이를 통해 다음을 수행할 수 있습니다.<br /> 
     <ul> 
-     <li> 다음과 같은 마케팅 유형화 규칙 적용 <span class="uicontrol">차단 목록 주소</span> . </li> 
+     <li> 다음과 같은 마케팅 유형화 규칙 적용 <span class="uicontrol">차단 목록에 추가하다 주소</span> . </li> 
      <li> 메시지에 구독 취소 링크를 포함합니다. </li> 
      <li> 트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다. </li> 
      <li> 트랜잭션 메시지를 고객 여정에 활용합니다. </li> 
@@ -517,7 +517,7 @@ _푸시 알림_
 * 애플리케이션에서 Adobe Campaign 서버로 포스트백하지 못하는 문제를 해결했습니다.
 * 을(를) 방지할 수 있는 문제를 해결했습니다. **[!UICONTROL Play a sound]** 및 **[!UICONTROL Custom fields]** android에 대해 고려해야 합니다.
 * 추가 이스케이프 문자가 이모지에 사용된 유니코드 문자에 추가되었을 수 있는 문제를 해결했습니다.
-* 가입자 등록 토큰이 차단 목록에 추가되면 해당 상태가 이제 애플리케이션의 Adobe Campaign 가입자 목록에서 즉시 업데이트됩니다.
+* 가입자 등록 토큰이 차단 목록에 추가하다에 추가되면 해당 상태가 이제 애플리케이션의 Adobe Campaign 가입자 목록에서 즉시 업데이트됩니다.
 
 _워크플로우_
 

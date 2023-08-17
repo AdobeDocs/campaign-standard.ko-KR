@@ -41,23 +41,23 @@ ht-degree: 1%
 
    * 다음을 입력합니다. **[!UICONTROL Segment code]** 필드: 메시지를 보낼 원하는 날짜 및 시간을 수동으로 입력합니다.
 
-      예를 들어 6월 1일 오전 10시 GMT+1에 첫 번째 배치를 전송하려고 합니다. 다음 형식을 사용하십시오. **YYYY-MM-DD HH:mm:ss+tz**.
+     예를 들어 6월 1일 오전 10시 GMT+1에 첫 번째 배치를 전송하려고 합니다. 다음 형식을 사용하십시오. **YYYY-MM-DD HH:mm:ss+tz**.
 
-      ![](assets/send-time_opt_segment_configuration.png)
+     ![](assets/send-time_opt_segment_configuration.png)
 
-      다음 배치를 다음 날 전송하려면 다음을 입력합니다. **2017-06-02 10:00:00+01** (두 번째 세그먼트)
+     다음 배치를 다음 날 전송하려면 다음을 입력합니다. **2017-06-02 10:00:00+01** (두 번째 세그먼트)
 
-      나머지 세그먼트에 대해 다음 배치를 다음과 같이 정의합니다.
+     나머지 세그먼트에 대해 다음 배치를 다음과 같이 정의합니다.
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
+
    * 다음을 선택하십시오. **[!UICONTROL Limit the population of this segment]** 옵션을 선택합니다.
 
-      다음에서 **[!UICONTROL Limitation]** 탭, 선택 **[!UICONTROL Random sampling]** 각 세그먼트에 대해 원하는 백분율을 입력합니다(첫 번째 배치의 경우 10, 두 번째 배치의 경우 15 등).
+     다음에서 **[!UICONTROL Limitation]** 탭, 선택 **[!UICONTROL Random sampling]** 각 세그먼트에 대해 원하는 백분율을 입력합니다(첫 번째 배치의 경우 10, 두 번째 배치의 경우 15 등).
 
-      ![](assets/send-time_opt_segment_limitation.png)
-
+     ![](assets/send-time_opt_segment_limitation.png)
 
 1. 모든 세그먼트가 정의되면 다음을 선택합니다. **[!UICONTROL Generate all segments in the same transition]** 및 클릭 **[!UICONTROL Confirm]**.
 
@@ -122,13 +122,12 @@ ht-degree: 1%
       * 오후 2:00 - 오후 4:00: **6**. 12:00 PM에서 2:00 PM 사이에 콜센터를 종료하는 경우 오후 2:00에 대상 모집단의 3/4분기에 메시지가 전송됩니다(연락일 + 6시간).
       * 오후 4:00 - 오후 6:00: **8**. 메시지는 오후 4시(연락 날짜 + 8시간)에 대상 모집단의 마지막 분기로 전송됩니다.
 
-      >[!NOTE]
-      >
-      >연락 날짜는 나중에 워크플로우에서 이메일 게재 활동에 정의됩니다.
+     >[!NOTE]
+     >
+     >연락 날짜는 나중에 워크플로우에서 이메일 게재 활동에 정의됩니다.
 
    * 다음을 선택하십시오. **[!UICONTROL Limit the population of this segment]** 옵션을 선택합니다.
    * 다음에서 **[!UICONTROL Limitation]** 탭, 선택 **[!UICONTROL Random sampling]** 각 세그먼트에 대해 원하는 백분율을 입력합니다. **25**.
-
 
 1. 모든 세그먼트가 정의되면 다음을 선택합니다. **[!UICONTROL Generate all segments in the same transition]** 및 클릭 **[!UICONTROL Confirm]**.
 

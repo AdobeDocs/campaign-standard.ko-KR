@@ -9,7 +9,7 @@ exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 사용자 세분화는 필수가 아니며, Adobe Campaign에서 일반적으로 사용하는 예시를 보여주는 것입니다.
 
-이 섹션은 Adobe Campaign 사용자의 주요 유형을 이해하는 데 도움이 됩니다. 사용자가 가질 수 있는 특정 역할(게재 시작, 내보내기, 게재 준비 등)에 대한 자세한 내용은 을 참조하십시오. [역할 목록](../../administration/using/list-of-roles.md) 및 [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md) 페이지.
+이 섹션은 Adobe Campaign 사용자의 주요 유형을 이해하는 데 도움이 됩니다. 사용자가 가질 수 있는 특정 역할(게재 시작, 내보내기, 게재 준비 등)에 대한 자세한 내용은 [역할 목록](../../administration/using/list-of-roles.md) 및 [그룹 및 사용자 관리](../../administration/using/managing-groups-and-users.md) 페이지.
 
 여기에서는 다음 세 가지 주요 사용자 유형 간에 Adobe Campaign의 다양한 작업이 어떻게 구분되는지를 중점적으로 살펴봅니다.
 

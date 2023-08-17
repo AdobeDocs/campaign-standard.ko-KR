@@ -31,6 +31,7 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 > 이 단계에는 다음이 필요합니다. **관리자** 조직의 Experience Cloud 역할입니다.
+>
 
 1. https://experience.adobe.com/으로 이동한 다음 Adobe Experience Cloud에 로그인합니다.
 1. 액세스 **Admin Console**.
@@ -45,6 +46,7 @@ ht-degree: 0%
    >[!IMPORTANT]
    >
    >이 섹션의 나머지 단계는 각 Campaign 인스턴스(개발, 텍스트, 프로덕션)에 대해 수행됩니다.
+   >
 
 1. 구성할 첫 번째 인스턴스를 클릭합니다.
 

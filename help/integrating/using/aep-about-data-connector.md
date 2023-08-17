@@ -41,7 +41,6 @@ Adobe Experience Platform Data Connector의 용도 **데이터 엔지니어** Ad
 >* [실시간 고객 프로필에 대한 데이터 세트 활성화](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
 >* [API를 사용하여 실시간 고객 프로필 및 ID 서비스에 대한 데이터 세트 구성](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
-
 ## 주요 개념 {#key-concepts}
 
 * 기본 Campaign Standard에서 기본적으로 제공되는 필드에만 기본 매핑을 사용할 수 있습니다. 모든 사용자 정의 필드 및 리소스를 수집하려면 각 고객이 고유한 매핑을 정의해야 합니다.
@@ -60,11 +59,11 @@ Adobe Experience Platform Data Connector의 용도 **데이터 엔지니어** Ad
 
 * Experience Cloud ID 서비스(ECID)는 기본적으로 Experience Events와 함께 전송되는 장치 식별자입니다.
 
-   방문자에게 할당된 고유한 영구 ID이며, Platform ID 서비스에서 다른 Experience Cloud 솔루션에서 동일한 방문자와 해당 데이터를 식별하는 데 사용할 수 있습니다. 자세한 내용은 [Experience Cloud ID 서비스 도움말](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+  방문자에게 할당된 고유한 영구 ID이며, Platform ID 서비스에서 다른 Experience Cloud 솔루션에서 동일한 방문자와 해당 데이터를 식별하는 데 사용할 수 있습니다. 자세한 내용은 [Experience Cloud ID 서비스 도움말](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
-   >[!NOTE]
-   >
-   >두 개 이상의 프로필이 동일한 장치를 공유하는 경우 통합 ID 서비스에서 이러한 두 프로필에 대해 ECID가 동일합니다.
+  >[!NOTE]
+  >
+  >두 개 이상의 프로필이 동일한 장치를 공유하는 경우 통합 ID 서비스에서 이러한 두 프로필에 대해 ECID가 동일합니다.
 
 ## 제한 사항 {#limitations}
 

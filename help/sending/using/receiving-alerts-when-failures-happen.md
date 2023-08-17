@@ -63,11 +63,11 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 * 각 대시보드에 대한 기준 매개 변수를 수정합니다. 다음을 참조하십시오 [기준 매개 변수](#criteria-parameters).
 * 각 대시보드에 대한 수신자 그룹을 정의합니다.
 
-   예를 들어 관리 권한이 있는 사용자에게 실패한 게재에 대해서만 알리려고 합니다. 하지만 마케팅 사용자가 소프트 바운스 불량 오류 비율이 있는 게재 정보를 받도록 할 수 있습니다. 따라서 두 개의 서로 다른 대시보드를 만들고 각 수신자 그룹에 대해 원하는 기준을 정의해야 합니다.
+  예를 들어 관리 권한이 있는 사용자에게 실패한 게재에 대해서만 알리려고 합니다. 하지만 마케팅 사용자가 소프트 바운스 불량 오류 비율이 있는 게재 정보를 받도록 할 수 있습니다. 따라서 두 개의 서로 다른 대시보드를 만들고 각 수신자 그룹에 대해 원하는 기준을 정의해야 합니다.
 
 * 각 대시보드에 대해 전송된 모든 경고 내역에 액세스합니다.
 
-   대시보드를 선택하면 기본적으로 이 대시보드에 대해 마지막으로 전송된 경고가 표시됩니다. 전송된 모든 경고는 화면 왼쪽에 나열됩니다. 에서 항목을 클릭합니다. **[!UICONTROL History]** 해당 경고에 액세스하기 위한 목록을 표시합니다.
+  대시보드를 선택하면 기본적으로 이 대시보드에 대해 마지막으로 전송된 경고가 표시됩니다. 전송된 모든 경고는 화면 왼쪽에 나열됩니다. 에서 항목을 클릭합니다. **[!UICONTROL History]** 해당 경고에 액세스하기 위한 목록을 표시합니다.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -120,15 +120,15 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 * **[!UICONTROL Indicators to add in alerts]**: 알림에 표시될 열을 의미합니다. **[!UICONTROL Details]** 선택한 기준에 해당하는 게재 섹션입니다.
 
-   ![](assets/delivery-alerting_notification_colums.png)
+  ![](assets/delivery-alerting_notification_colums.png)
 
 * **[!UICONTROL Alert type]**: 알림의 요약에서 게재 기준 옆에 표시되는 레이블 및 색상을 의미합니다.
 
-   ![](assets/delivery-alerting_notification_labels.png)
+  ![](assets/delivery-alerting_notification_labels.png)
 
 * **[!UICONTROL Criteria frequency]**: 한 번의 게재에 대해 기준이 충족되면 모니터링 기간 내에 전송된 각 알림에서 반복됩니다. 그렇지 않으면 한 번의 게재에 대해 경고 기준으로 하루에 한 개의 경고만 전송됩니다(첫 번째 발생 시).
 
-   기본적으로 이 옵션은 모든 기준에 대해 하루에 한 번으로 설정됩니다.
+  기본적으로 이 옵션은 모든 기준에 대해 하루에 한 번으로 설정됩니다.
 
 **관련 항목:**
 
@@ -191,15 +191,15 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 * **[!UICONTROL Delivery target minimum size]**: 예를 들어 이 필드에 100을 입력하면 타겟이 100명 이상의 수신자가 있는 게재에 대해서만 알림이 전송됩니다. 이 매개 변수는 모든 기준에 적용됩니다.
 * **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: 현재 시간 이전 및 이후의 시간 수. 이 시간 범위에 연락 날짜가 있는 게재만 고려됩니다. 이 매개 변수는 모든 기준에 적용됩니다. 기본적으로 이 필드의 값은 24시간으로 설정됩니다.
 
-   연락 날짜에 대한 자세한 내용은 [예약 기본 정보](../../sending/using/about-scheduling-messages.md).
+  연락 날짜에 대한 자세한 내용은 [예약 기본 정보](../../sending/using/about-scheduling-messages.md).
 
 * **[!UICONTROL Maximum ratio of soft bounce errors]**: 소프트 바운스 오류 비율이 지정된 값보다 큰 모든 게재에 대해 알림이 전송됩니다. 기본적으로 이 필드의 값은 0.05(5%)로 설정됩니다.
 
-   소프트 바운스 오류에 대한 자세한 내용은 [반송 메일 조건](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [게재 실패 유형 목록](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  소프트 바운스 오류에 대한 자세한 내용은 [반송 메일 조건](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [게재 실패 유형 목록](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Maximum ratio of hard bounce errors]**: 하드 바운스 오류 비율이 지정된 값보다 큰 모든 게재에 대해 알림이 전송됩니다. 기본적으로 이 필드의 값은 0.05(5%)로 설정됩니다.
 
-   하드 바운스 오류에 대한 자세한 내용은 [반송 메일 조건](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [게재 실패 유형 목록](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  하드 바운스 오류에 대한 자세한 내용은 [반송 메일 조건](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 및 [게재 실패 유형 목록](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: 가 있는 모든 게재에 대해 알림이 전송됩니다 **[!UICONTROL Start pending]** 이 필드에 지정된 기간보다 긴 상태, **[!UICONTROL Start pending]** 상태는 메시지가 아직 시스템에서 고려되지 않았음을 의미합니다.
 * **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: (와 함께)시작된 게재만 **[!UICONTROL In progress]** 을(를) 지정한 기간 이상의 경우 **[!UICONTROL Deliveries with low throughput]** 기준.
@@ -236,7 +236,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
    * 전달성 문제
    * 잘못된 워크플로
 
-   워크플로우로 게재가 트리거되는 경우 해당 워크플로우가 올바르게 시작되었는지 확인합니다. 자세한 내용은 [워크플로우 실행](../../automating/using/about-workflow-execution.md). 그렇지 않으면 Adobe Campaign 관리자에게 연락하여 문제를 해결하십시오.
+  워크플로우로 게재가 트리거되는 경우 해당 워크플로우가 올바르게 시작되었는지 확인합니다. 자세한 내용은 [워크플로우 실행](../../automating/using/about-workflow-execution.md). 그렇지 않으면 Adobe Campaign 관리자에게 연락하여 문제를 해결하십시오.
 
 * **[!UICONTROL Deliveries with preparation failed]**: 다음의 경우 게재를 준비하는 동안 오류가 발생할 수 있습니다.
 
@@ -245,35 +245,33 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
    * 대상이 누락되었습니다.
    * 게재가 크기 제한을 초과합니다.
 
-   자세한 내용은 [보내기 준비](../../sending/using/preparing-the-send.md). 그러나 이러한 오류는 일반적으로 메시지 분석 중에 발견됩니다. 다음을 참조하십시오 [제어 규칙](../../sending/using/control-rules.md).
+  자세한 내용은 [보내기 준비](../../sending/using/preparing-the-send.md). 그러나 이러한 오류는 일반적으로 메시지 분석 중에 발견됩니다. 다음을 참조하십시오 [제어 규칙](../../sending/using/control-rules.md).
 
 * 에 대한 가능한 원인 **[!UICONTROL Delivery with bad error ratio for soft bounces]** 경고는 다음과 같을 수 있습니다.
 
    * 수신자의 서버가 다운되었습니다.
    * 받는 사람의 사서함이 가득 찼습니다.
 
-   자세한 내용은 **[!UICONTROL Exclusion logs]** 및 **[!UICONTROL Exclusion causes]** 게재 로그 탭. 다음을 참조하십시오 [제외 로그](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+  자세한 내용은 **[!UICONTROL Exclusion logs]** 및 **[!UICONTROL Exclusion causes]** 게재 로그 탭. 다음을 참조하십시오 [제외 로그](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-   에 대한 가능한 원인 **[!UICONTROL Delivery with bad error ratio for hard bounces]** 경고는 다음과 같을 수 있습니다.
+  에 대한 가능한 원인 **[!UICONTROL Delivery with bad error ratio for hard bounces]** 경고는 다음과 같을 수 있습니다.
 
-   * 수신자가 차단 목록에 추가되어 더 이상 연락하지 않습니다.
+   * 수신자가 차단 목록에 추가하다에 추가되어 더 이상 연락하지 않습니다.
    * 수신자의 이메일 주소가 존재하지 않습니다.
    * 받는 사람의 도메인이 존재하지 않습니다.
    * 수신자 서버가 게재를 차단하고 있습니다.
 
-   소프트 및 하드 바운스 오류를 방지하려면 아래 모범 사례를 따르십시오.
+  소프트 및 하드 바운스 오류를 방지하려면 아래 모범 사례를 따르십시오.
 
    * 격리된 수신자와 같이 게재 분석 중에 메시지 대상의 한 부분을 제외하도록 필터링 유형화 규칙을 작성합니다. 다음을 참조하십시오 [필터링 규칙 만들기](../../sending/using/filtering-rules.md).
    * 적절한 격리 관리 프로세스를 유지하기 위해 고객 데이터베이스를 정기적으로 업데이트합니다. 다음을 참조하십시오 [격리 기본 정보](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * 일반적으로 최대한 전달성을 향상시킵니다. Adobe Campaign 보기 [전달성](../../sending/using/about-deliverability.md) 자세한 설명서를 참조하고 Adobe Campaign 관리자에게 문의하십시오.
 
-
-
 * **[!UICONTROL Deliveries with long start pending]**: 일반적으로 MTA(메시지 전송 에이전트) 수준에서 문제가 있음을 의미합니다. 실행 프로세스에서 일부 리소스를 사용할 수 있을 때까지 기다리고 있습니다. MTA가 시작되지 않았을 수 있습니다.
 
-   **[!UICONTROL Deliveries with low throughput]**: MTA가 너무 느리다는 것을 의미하는 전달성 문제입니다.
+  **[!UICONTROL Deliveries with low throughput]**: MTA가 너무 느리다는 것을 의미하는 전달성 문제입니다.
 
-   이러한 문제에 대한 자세한 내용은 Adobe Campaign 관리자에게 문의하십시오.
+  이러한 문제에 대한 자세한 내용은 Adobe Campaign 관리자에게 문의하십시오.
 
 **관련 항목:**
 

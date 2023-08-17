@@ -35,15 +35,15 @@ ht-degree: 7%
 * Adobe Analytics Ultimate, Premium, Foundation, OD, Select, Prime, Mobile Apps, Select 또는 Standard.
 * Experience Cloud 트리거 핵심 서비스
 
-   ![](assets/trigger_uc_prereq_1.png)
+  ![](assets/trigger_uc_prereq_1.png)
 
 * Experience Cloud DTM 핵심 서비스
 
-   ![](assets/trigger_uc_prereq_2.png)
+  ![](assets/trigger_uc_prereq_2.png)
 
 * Experience Cloud 방문자 ID 및 Experience Cloud People 핵심 서비스
 
-   ![](assets/trigger_uc_prereq_3.png)
+  ![](assets/trigger_uc_prereq_3.png)
 
 또한 작동하는 웹사이트가 필요합니다.
 

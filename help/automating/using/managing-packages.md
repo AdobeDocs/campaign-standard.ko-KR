@@ -49,7 +49,7 @@ ht-degree: 100%
 * **[!UICONTROL Platform]** 패키지는 기술 구성 시 추가한 모든 리소스(사용자 정의 리소스, 사용자 정의 리소스 세트, 트리거 및 **[!UICONTROL System]** 유형 애플리케이션 옵션)를 다시 그룹화합니다.
 * **[!UICONTROL Administration]** 패키지는 비즈니스 구성 시 추가한 모든 개체(캠페인 템플릿, 콘텐츠 템플릿, 게재 템플릿, 랜딩 페이지 템플릿, 프로그램 템플릿 및 워크플로우 템플릿 등)를 다시 그룹화합니다. 
 
-   여기에는 콘텐츠 블록, 타겟 매핑, 외부 계정, 조직 단위, **[!UICONTROL User]** 유형 애플리케이션 옵션, 역할, 유형화, 유형화 규칙 및 사용자 등의 개체도 포함됩니다.
+  여기에는 콘텐츠 블록, 타겟 매핑, 외부 계정, 조직 단위, **[!UICONTROL User]** 유형 애플리케이션 옵션, 역할, 유형화, 유형화 규칙 및 사용자 등의 개체도 포함됩니다.
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ ht-degree: 100%
 
 * **[!UICONTROL Export status]**: 이 섹션에서는 작업이 올바르게 수행되었는지 여부를 보여줍니다.
 
-   ![](assets/packages_6.png)
+  ![](assets/packages_6.png)
 
 * **[!UICONTROL Log]** 탭에서 내보내기의 여러 단계를 참조할 수 있습니다. 여기에는 이전의 모든 내보내기 상태가 포함됩니다.
 
-   ![](assets/packages_7.png)
+  ![](assets/packages_7.png)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ ht-degree: 100%
 * **[!UICONTROL Import status]**: 이 섹션에서는 작업이 올바르게 수행되었는지 여부를 보여줍니다.
 * **[!UICONTROL Execution logs]** 탭에서 가져오기의 여러 단계를 참조할 수 있습니다. 이는 오류를 확인하는 데 특히 중요합니다.
 
-   ![](assets/packages_20.png)
+  ![](assets/packages_20.png)
 
 패키지를 가져온 후에는 동일한 요소에서 다시 가져올 수 없습니다. 레이블과 ID만 수정할 수 있습니다.
 

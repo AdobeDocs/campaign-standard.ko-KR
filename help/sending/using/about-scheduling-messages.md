@@ -29,17 +29,17 @@ ht-degree: 100%
 
 * **[!UICONTROL Messages to be sent once confirmed]**: 전송 작업을 확인하는 즉시 메시지가 전송됩니다. [전송 확인](../../sending/using/confirming-the-send.md)을 참조하십시오.
 
-   ![](assets/delivery_planning_1.png)
+  ![](assets/delivery_planning_1.png)
 
 * **[!UICONTROL Messages to be sent automatically on the date specified below]**: 이후 날짜 및 시간을 설정하여 메시지를 전송합니다. **다음 시점부터 전송 시작** 필드에서 **연락 날짜**&#x200B;를 지정합니다.
 
-   전송을 준비하고 확인할 수 있지만, 메시지는 선택한 날짜 및 시간에만 전송됩니다. 전송을 준비하고 확인하는 방법은 [전송 준비](../../sending/using/preparing-the-send.md) 및 [전송 확인](../../sending/using/confirming-the-send.md) 섹션에 나와 있습니다.
+  전송을 준비하고 확인할 수 있지만, 메시지는 선택한 날짜 및 시간에만 전송됩니다. 전송을 준비하고 확인하는 방법은 [전송 준비](../../sending/using/preparing-the-send.md) 및 [전송 확인](../../sending/using/confirming-the-send.md) 섹션에 나와 있습니다.
 
-   **[!UICONTROL Time zone of the contact date]** 드롭다운 목록에서 전송 시간 설정 시 고려할 시간대를 수정할 수 있습니다. 예를 들어, **[!UICONTROL Start sending from]** 필드에 오전 9시를 입력하고 **[!UICONTROL Time zone of the contact date]** 드롭다운 목록에서 브뤼셀, 코펜하겐, 마드리드, 파리(GMT+1)를 선택하면 모든 수신자는 파리 시간으로 오전 9시에 메시지를 수신하게 됩니다. 따라서 모스크바(GMT+3)에 있는 수신자는 모스크바 시간으로 오전 11시에 메시지를 수신하게 됩니다.
+  **[!UICONTROL Time zone of the contact date]** 드롭다운 목록에서 전송 시간 설정 시 고려할 시간대를 수정할 수 있습니다. 예를 들어, **[!UICONTROL Start sending from]** 필드에 오전 9시를 입력하고 **[!UICONTROL Time zone of the contact date]** 드롭다운 목록에서 브뤼셀, 코펜하겐, 마드리드, 파리(GMT+1)를 선택하면 모든 수신자는 파리 시간으로 오전 9시에 메시지를 수신하게 됩니다. 따라서 모스크바(GMT+3)에 있는 수신자는 모스크바 시간으로 오전 11시에 메시지를 수신하게 됩니다.
 
-   전송을 수동으로 확인하려면 **[!UICONTROL Request confirmation before sending messages]** 옵션을 선택합니다. 이 옵션은 기본적으로 활성화되어 있습니다.
+  전송을 수동으로 확인하려면 **[!UICONTROL Request confirmation before sending messages]** 옵션을 선택합니다. 이 옵션은 기본적으로 활성화되어 있습니다.
 
-   ![](assets/delivery_planning.png)
+  ![](assets/delivery_planning.png)
 
 >[!IMPORTANT]
 >

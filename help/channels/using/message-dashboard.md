@@ -45,7 +45,7 @@ ht-degree: 4%
 
 * **[!UICONTROL Show proofs]**: 전송된 증명(있는 경우) 목록을 표시하거나 숨깁니다. 이 버튼은 증명을 보낸 후에만 활성화됩니다.
 
-   증명에 대한 자세한 내용은 [증명 보내기](../../sending/using/sending-proofs.md).
+  증명에 대한 자세한 내용은 [증명 보내기](../../sending/using/sending-proofs.md).
 
 * **[!UICONTROL Send a test]**: 사용할 승인 모드를 선택할 수 있습니다. **[!UICONTROL Email rendering]** (전자 메일 전용), **[!UICONTROL Proof]** 아니면 둘 다요 테스트 프로필에 대한 자세한 내용은 [증명 보내기](../../sending/using/sending-proofs.md). 이 버튼은 테스트 프로필을 만든 경우에만 활성화됩니다.
 
@@ -74,20 +74,20 @@ ht-degree: 4%
 
 * *&quot;이 전자 메일에 대해 SMTP 테스트 모드 옵션을 사용할 수 있습니다. 메시지가 전송되지 않습니다.&quot;*
 
-   자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#smtp-test-mode)을 참조하십시오.
+  자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#smtp-test-mode)을 참조하십시오.
 
 * *&quot;라우팅 외부 계정을 사용할 수 없습니다.&quot;*
 
-   자세한 내용은 [외부 계정](../../administration/using/external-accounts.md).
+  자세한 내용은 [외부 계정](../../administration/using/external-accounts.md).
 
 * *&quot;현재 IP 선호도가 전송 프로세스에 의해 처리되지 않으므로 메시지를 보낼 수 없습니다.&quot;*
 
-   이 메시지가 표시되면 IP 선호도 정의 수준 또는 전송 프로세스 수준에서 문제가 발생합니다. Adobe 관리자에게 문의하십시오.
+  이 메시지가 표시되면 IP 선호도 정의 수준 또는 전송 프로세스 수준에서 문제가 발생합니다. Adobe 관리자에게 문의하십시오.
 
 * *&quot;기본 트랜잭션 메시지 템플릿입니다. 이를 수정하려면 이를 복제하고 복사본 작업을 수행해야 합니다.&quot;*
 
-   이러한 기본 제공 트랜잭션 메시지 템플릿 중 일부는 기본 제공 랜딩 페이지 템플릿입니다. 자세한 내용은 [이 섹션](../../channels/using/landing-page-templates.md)을 참조하십시오.
+  이러한 기본 제공 트랜잭션 메시지 템플릿 중 일부는 기본 제공 랜딩 페이지 템플릿입니다. 자세한 내용은 [이 섹션](../../channels/using/landing-page-templates.md)을 참조하십시오.
 
 * *&quot;이 메시지는 기술 트랜잭션 메시지 템플릿입니다. 수정하거나 게시할 수 없습니다.&quot;*
 
-   이 경고는 편집할 수 없는 빈 트랜잭션 메시지 템플릿에 표시됩니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md).
+  이 경고는 편집할 수 없는 빈 트랜잭션 메시지 템플릿에 표시됩니다. 트랜잭션 메시지에 대한 자세한 내용은 [이 섹션](../../channels/using/getting-started-with-transactional-msg.md).

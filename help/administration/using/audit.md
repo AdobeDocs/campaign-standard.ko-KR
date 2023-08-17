@@ -25,7 +25,7 @@ ht-degree: 3%
 
 * **사용자 정의 리소스 감사 추적**: 활동 및 사용자 지정 리소스에 대한 마지막 수정 사항을 확인합니다.
 
-   에 대한 자세한 내용 **[!UICONTROL Custom resources]**, 다음을 참조하십시오. [페이지](../../developing/using/key-steps-to-add-a-resource.md).
+  에 대한 자세한 내용 **[!UICONTROL Custom resources]**, 다음을 참조하십시오. [페이지](../../developing/using/key-steps-to-add-a-resource.md).
 
 * **워크플로우 감사 추적**: 활동 및 워크플로우에 대해 마지막으로 수정한 날짜, 그리고 다음과 같은 워크플로우 상태를 확인합니다.
 
@@ -43,11 +43,11 @@ ht-degree: 3%
    * 동일한 사용자로 워크플로우 다시 시작
    * 알 수 없는 워크플로 다시 시작 명령
 
-   에 대한 자세한 내용 **[!UICONTROL Workflows]**, 다음을 참조하십시오. [페이지](../../automating/using/get-started-workflows.md).
+  에 대한 자세한 내용 **[!UICONTROL Workflows]**, 다음을 참조하십시오. [페이지](../../automating/using/get-started-workflows.md).
 
 * **옵션 감사 추적**: 활동 및 옵션에 대한 마지막 수정 작업을 확인합니다.
 
-   에 대한 자세한 내용 **[!UICONTROL Options]**, 다음을 참조하십시오. [페이지](../../administration/using/about-campaign-standard-settings.md).
+  에 대한 자세한 내용 **[!UICONTROL Options]**, 다음을 참조하십시오. [페이지](../../administration/using/about-campaign-standard-settings.md).
 
 기본적으로 보존 기간은 30일입니다.
 
@@ -105,9 +105,10 @@ ht-degree: 3%
    * **[!UICONTROL XtkAudit_CusResource]** 사용자 정의 리소스에 대한 감사 추적을 관리하는 옵션입니다.
    * **[!UICONTROL XtkAudit_Enable_All]** 모든 엔티티에 대한 감사 추적을 관리하는 옵션입니다.
 
-      >[!NOTE]
-      >
-      >다음과 같은 경우 **[!UICONTROL XtkAudit_Enable_All]** 옵션은 0으로 설정되어 있고, **[!UICONTROL Audit trail]** 다른 개별 옵션 값에 관계없이 기능이 완전히 비활성화됩니다.
+     >[!NOTE]
+     >
+     >다음과 같은 경우 **[!UICONTROL XtkAudit_Enable_All]** 옵션은 0으로 설정되어 있고, **[!UICONTROL Audit trail]** 다른 개별 옵션 값에 관계없이 기능이 완전히 비활성화됩니다.
+
    ![](assets/audit-trail_5.png)
 
 1. 출처: **[!UICONTROL Options]** 페이지, 설정 **[!UICONTROL Value (integer)]** 을(를) 0으로 설정합니다. **[!UICONTROL Audit trail]** 또는 1을 입력하여 활성화하십시오.

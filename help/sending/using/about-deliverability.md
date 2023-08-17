@@ -78,13 +78,13 @@ Adobe Campaign은 지속적으로 발생하는 스팸 불만, 하드 바운스 �
 
 게재 가능성을 보호하기 위해 해당 목록에 있는 주소의 수신자는 이후 모든 게재에서 기본적으로 제외됩니다. 이러한 연락처로 보내면 전송 평판이 떨어질 수 있기 때문입니다.
 
-일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 이러한 공급자에 의해 차단 목록에 추가되는 것을 피할 수 있습니다.
+일부 인터넷 액세스 제공 업체는 잘못된 주소의 비율이 너무 높은 경우 이메일을 자동으로 스팸으로 간주합니다. 따라서 이러한 공급자에 의해 차단 목록에 추가하다에 추가되는 것을 피할 수 있습니다.
 
 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [게재 실패 이해](../../sending/using/understanding-delivery-failures.md)
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
-* [차단 목록 방역](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [차단 목록에 추가하다 방역](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ### 모니터링 및 보고 도구 사용
 
@@ -95,8 +95,7 @@ Adobe Campaign을 사용하면 내장된 실시간 지표 세트를 통해 게�
 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [게재 가능성 모니터링](../../sending/using/monitor-deliverability.md)
-
-   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+  <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [게재 실패 시 경고 받기](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [동적 보고서](../../reporting/using/about-dynamic-reports.md)
 

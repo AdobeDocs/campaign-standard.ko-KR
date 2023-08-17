@@ -87,15 +87,15 @@ ht-degree: 26%
 
 * **텍스트 정렬**: 마우스의 커서를 일부 텍스트에 놓고 상황별 도구 모음을 사용하여 정렬합니다.
 
-   ![](assets/des_text_alignment.png)
+  ![](assets/des_text_alignment.png)
 
 * **수평 정렬** 텍스트, 이미지 및 단추에 적용할 수 있습니다. 현재는 **[!UICONTROL Divider]** 및 **[!UICONTROL Social]** 구성 요소.
 
-   ![](assets/des_horizontal_alignment.png)
+  ![](assets/des_horizontal_alignment.png)
 
 * 설정 **수직 정렬**&#x200B;구조 구성 요소 내에서 열을 선택하고 설정 창에서 옵션을 선택합니다.
 
-   ![](assets/des_set_vertical_alignment.png)
+  ![](assets/des_set_vertical_alignment.png)
 
 ## 배경 설정 {#about-backgrounds}
 
@@ -114,35 +114,35 @@ ht-degree: 26%
 
 * 설정 **[!UICONTROL Background color]** 이메일 전체. 왼쪽 팔레트에서 액세스할 수 있는 탐색 트리에서 본문 설정을 선택해야 합니다.
 
-   ![](assets/des_background_body.png)
+  ![](assets/des_background_body.png)
 
 * 을 선택하여 모든 구조 구성 요소에 대해 동일한 배경색을 설정합니다. **[!UICONTROL Viewport background color]**. 이 옵션을 사용하면 배경색과 다른 설정을 선택할 수 있습니다.
 
-   ![](assets/des_background_viewport.png)
+  ![](assets/des_background_viewport.png)
 
 * 각 구조 구성 요소에 대해 서로 다른 배경색을 설정합니다. 왼쪽 팔레트에서 액세스할 수 있는 탐색 트리에서 구조를 선택하여 해당 구조에만 특정 배경색을 적용합니다.
 
-   ![](assets/des_background_structure.png)
+  ![](assets/des_background_structure.png)
 
-   뷰포트 배경색은 구조 배경색을 숨길 수 있으므로 설정하지 않도록 합니다.
+  뷰포트 배경색은 구조 배경색을 숨길 수 있으므로 설정하지 않도록 합니다.
 
 * 설정 **[!UICONTROL Background image]** 구조 구성 요소의 콘텐츠용입니다.
 
-   ![](assets/des_background_image.png)
+  ![](assets/des_background_image.png)
 
-   >[!NOTE]
-   >
-   >일부 이메일 프로그램은 배경 이미지를 지원하지 않습니다. 지원되지 않는 경우에는 행 배경색이 대신 사용됩니다. 이미지를 표시할 수 없는 경우 적절한 대체 배경색을 선택해야 합니다.
+  >[!NOTE]
+  >
+  >일부 이메일 프로그램은 배경 이미지를 지원하지 않습니다. 지원되지 않는 경우에는 행 배경색이 대신 사용됩니다. 이미지를 표시할 수 없는 경우 적절한 대체 배경색을 선택해야 합니다.
 
 * 열 수준에서 배경색을 설정합니다.
 
-   ![](assets/des_background_column.png)
+  ![](assets/des_background_column.png)
 
-   >[!NOTE]
-   >
-   >이는 가장 일반적인 사용 사례입니다. Adobe는 열 수준에서 배경색을 설정할 것을 권장합니다. 이렇게 하면 전체 이메일 콘텐츠를 편집할 때 더 유연하게 작업할 수 있습니다.
+  >[!NOTE]
+  >
+  >이는 가장 일반적인 사용 사례입니다. Adobe는 열 수준에서 배경색을 설정할 것을 권장합니다. 이렇게 하면 전체 이메일 콘텐츠를 편집할 때 더 유연하게 작업할 수 있습니다.
 
-   배경 이미지도 열 수준에서 설정할 수 있지만 이러한 방법은 거의 사용되지 않습니다.
+  배경 이미지도 열 수준에서 설정할 수 있지만 이러한 방법은 거의 사용되지 않습니다.
 
 ### 예: 세로 정렬 및 패딩 조정 {#example--adjusting-vertical-alignment-and-padding}
 

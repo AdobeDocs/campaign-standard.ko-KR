@@ -103,97 +103,97 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 * 유형이 &quot;email&quot;인 &quot;service&quot; 리소스를 검색하기 위한 샘플 GET 요청입니다.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   요청에 대한 응답입니다.
+  요청에 대한 응답입니다.
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "created": "2019-09-25 23:20:35.000Z",
-               "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
-               "label": "Marketing Newsletter",
-               "lastModified": "2019-09-25 23:20:35.000Z",
-               "limitedDuration": false,
-               "messageType": "email",
-               "mode": "newsletter",
-               ...
-           },
-           ...
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "created": "2019-09-25 23:20:35.000Z",
+              "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
+              "label": "Marketing Newsletter",
+              "lastModified": "2019-09-25 23:20:35.000Z",
+              "limitedDuration": false,
+              "messageType": "email",
+              "mode": "newsletter",
+              ...
+          },
+          ...
+      ],
+      ...
+  }
+  ```
 
 * 이메일 또는 성 필드에 &quot;Doe&quot;가 포함된 &quot;프로필&quot; 리소스를 검색하기 위한 샘플 GET 요청(byText 필터는 이메일 및 성 필드를 모두 검색합니다).
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   요청에 대한 응답입니다.
+  요청에 대한 응답입니다.
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "firstName": "John",
-               "lastName":"Doe",
-               "birthDate": "1980-10-24",
-               ...
-           }
-           ...
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "firstName": "John",
+              "lastName":"Doe",
+              "birthDate": "1980-10-24",
+              ...
+          }
+          ...
+      ],
+      ...
+  }
+  ```
 
 * 유형이 &quot;email&quot;이고 레이블이 &quot;sport&quot;인 서비스 리소스를 검색하기 위한 샘플 GET 요청입니다.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   요청에 대한 응답입니다.
+  요청에 대한 응답입니다.
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "created": "2019-09-26 09:36:01.014Z",
-               "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
-               "label": "sport",
-               "lastModified": "2019-09-26 09:36:01.014Z",
-               "limitedDuration": false,
-               "messageType": "email",
-               "mode": "newsletter",
-               "name": "SVC13",
-               ...
-           }
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "created": "2019-09-26 09:36:01.014Z",
+              "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
+              "label": "sport",
+              "lastModified": "2019-09-26 09:36:01.014Z",
+              "limitedDuration": false,
+              "messageType": "email",
+              "mode": "newsletter",
+              "name": "SVC13",
+              ...
+          }
+      ],
+      ...
+  }
+  ```
 
-## 맞춤형 필터
+## 사용자 정의 필터
 
 사용자 지정 필터를 사용하려면 Adobe Campaign Standard 인터페이스에서 필터를 만들고 사용자 지정해야 합니다. 그러면 사용자 지정 필터의 비헤이비어는 기본 제공 필터와 동일합니다.
 

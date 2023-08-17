@@ -28,23 +28,23 @@ ht-degree: 14%
 
 * **[!UICONTROL History in days]**: 며칠 후에 기록이 제거되는지 지정합니다. 내역에는 워크플로와 관련된 요소, 즉 로그, 작업, 이벤트(워크플로 작업에 연결된 기술 개체)와 **[!UICONTROL Transfer file]** 활동. 기본 워크플로 템플릿의 경우 기본값은 30일입니다.
 
-   기록 제거는 기본적으로 매일 실행되는 데이터베이스 정리 기술 워크플로에 의해 수행됩니다. (참조 [기술 워크플로우 목록](../../administration/using/technical-workflows.md).)
+  기록 제거는 기본적으로 매일 실행되는 데이터베이스 정리 기술 워크플로에 의해 수행됩니다. (참조 [기술 워크플로우 목록](../../administration/using/technical-workflows.md).)
 
-   >[!IMPORTANT]
-   >
-   >다음과 같은 경우 **[!UICONTROL History in days]** 필드는 비워 둡니다. 이 값은 &quot;1&quot;로 간주됩니다. 즉, 기록이 1일 후 삭제됩니다.
+  >[!IMPORTANT]
+  >
+  >다음과 같은 경우 **[!UICONTROL History in days]** 필드는 비워 둡니다. 이 값은 &quot;1&quot;로 간주됩니다. 즉, 기록이 1일 후 삭제됩니다.
 
 * **[!UICONTROL Save SQL queries in the log]**: 워크플로우의 SQL 쿼리를 로그에 저장할 수 있습니다.
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: 전체 실행 계획을 기록하려면 이 옵션을 선택합니다. 기본적으로 비활성화되어 있습니다.
 
-   이 옵션에 대한 자세한 내용은 다음을 참조하십시오. [섹션](#diagnostic-mode).
+  이 옵션에 대한 자세한 내용은 다음을 참조하십시오. [섹션](#diagnostic-mode).
 
 * **[!UICONTROL Keep interim results]**: 전환의 세부 사항을 보려면 이 옵션을 선택합니다.
 
-   >[!CAUTION]
-   >
-   >이 옵션은 많은 디스크 공간을 소모하며 워크플로우를 빌드하고 적절한 구성과 동작이 되도록 설계되었습니다. 프로덕션 인스턴스에서 선택하지 않은 상태로 둡니다.
+  >[!CAUTION]
+  >
+  >이 옵션은 많은 디스크 공간을 소모하며 워크플로우를 빌드하고 적절한 구성과 동작이 되도록 설계되었습니다. 프로덕션 인스턴스에서 선택하지 않은 상태로 둡니다.
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: 개발 환경 테스트 목적으로 워크플로우를 로컬에서 실행할 수 있습니다.
 
@@ -84,8 +84,8 @@ ht-degree: 14%
 
 * **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: 다음에서 **[!UICONTROL Value]** 필드에서는 쿼리 실행에 새 시간을 설정할 수 있습니다. 쿼리 실행이 이 값을 초과하면 실행 계획이 기록됩니다.
 
-   ![](assets/wkf_diagnostic_2.png)
+  ![](assets/wkf_diagnostic_2.png)
 
 * **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: 다음에서 **[!UICONTROL Value]** 필드에서는 시퀀스 스캔이 권장 사항을 생성하는 데 소요되는 쿼리 시간의 백분율을 변경할 수 있습니다.
 
-   ![](assets/wkf_diagnostic_3.png)
+  ![](assets/wkf_diagnostic_3.png)

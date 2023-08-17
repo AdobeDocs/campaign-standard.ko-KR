@@ -30,14 +30,14 @@ ht-degree: 66%
 * A [쿼리](../../automating/using/query.md) 활동은 생일 및 이메일 주소를 입력한 사람의 프로필을 타겟팅합니다.
 * A [세분화](../../automating/using/segmentation.md) 활동은 3개의 세그먼트(18~25세, 26~32세 및 32세가 넘는 프로필)를 만들어 다양한 아웃바운드 전환으로 나눕니다. 세그먼트는 다음 매개 변수에 따라 정의됩니다.
 
-   ![](assets/wkf_segment_example_3.png)
+  ![](assets/wkf_segment_example_3.png)
 
    * 세그먼트의 나이 그룹을 정의하는 나이 필터
 
-      ![](assets/wkf_segment_new_segment.png)
+     ![](assets/wkf_segment_new_segment.png)
 
    * 100의 제한&#x200B;**[!UICONTROL Maximum size]**&#x200B;에 연결된 유형 제한&#x200B;**[!UICONTROL Random sampling]**
 
-      ![](assets/wkf_segment_example_1.png)
+     ![](assets/wkf_segment_example_1.png)
 
 * An [이메일 게재](../../automating/using/email-delivery.md) 세그먼트당 활동.

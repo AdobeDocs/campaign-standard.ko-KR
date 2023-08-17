@@ -42,11 +42,12 @@ ht-degree: 86%
    * 트랜잭션 컬렉션에 기반한 2가지 합계: 구매한 제품 수 및 총 지출 금액. 합계 구성 창의 **[!UICONTROL Data]** 탭에서 **개수** 및 **총합** 합계를 사용하여 추가할 수 있습니다. [합계 추가](../../automating/using/query.md#adding-an-aggregate) 섹션을 참조하십시오.
    * 유효한 최근 트랜잭션의 지출 금액, 날짜 및 제품을 반환하는 컬렉션.
 
-      이를 위해 컬렉션 구성 창의 **[!UICONTROL Data]** 탭에서 표시할 여러 필드를 추가해야 합니다.
+     이를 위해 컬렉션 구성 창의 **[!UICONTROL Data]** 탭에서 표시할 여러 필드를 추가해야 합니다.
 
-      가장 최근 트랜잭션만 반환하려면 **[!UICONTROL Number of lines to return]**&#x200B;에 &quot;1&quot;을 입력하고, **[!UICONTROL Sort]** 탭에서 컬렉션의 **날짜** 필드에 내림차순 정렬을 적용해야 합니다.
+     가장 최근 트랜잭션만 반환하려면 **[!UICONTROL Number of lines to return]**&#x200B;에 &quot;1&quot;을 입력하고, **[!UICONTROL Sort]** 탭에서 컬렉션의 **날짜** 필드에 내림차순 정렬을 적용해야 합니다.
 
-      [컬렉션 추가](../../automating/using/query.md#adding-a-collection) 및 [추가 데이터 정렬](../../automating/using/query.md#sorting-additional-data) 섹션을 참조하십시오.
+     [컬렉션 추가](../../automating/using/query.md#adding-a-collection) 및 [추가 데이터 정렬](../../automating/using/query.md#sorting-additional-data) 섹션을 참조하십시오.
+
    ![](assets/enrichment_example4.png)
 
 1. 해당 활동의 아웃바운드 전환을 통해 데이터가 올바르게 전송되었는지 확인하려면 처음에 (**[!UICONTROL Email delivery]** 활동 없이) 워크플로우를 시작한 뒤 쿼리의 아웃바운드 전환을 엽니다.

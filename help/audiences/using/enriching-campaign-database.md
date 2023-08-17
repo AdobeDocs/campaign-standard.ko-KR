@@ -31,11 +31,11 @@ Campaign Standard은 마케팅 데이터베이스를 확장하는 데 도움이 
 
 * **워크플로 템플릿**: 사전 구성된 워크플로우로서, 필요에 따라 한 번 설정하고 데이터를 가져오고 데이터베이스를 업데이트할 때마다 재사용할 수 있습니다.
 
-   데이터를 가져오기 위한 워크플로우 템플릿의 예는에 자세히 설명되어 있습니다. [이 섹션](../../automating/using/creating-import-workflow-templates.md).
+  데이터를 가져오기 위한 워크플로우 템플릿의 예는에 자세히 설명되어 있습니다. [이 섹션](../../automating/using/creating-import-workflow-templates.md).
 
 * **데이터 템플릿 가져오기**: 워크플로우 템플릿과 마찬가지로 데이터베이스를 업데이트할 파일을 업로드하도록 설정된 워크플로우를 기반으로 하는 템플릿입니다. 구성하고 나면 아래에 간소화된 보기가 있는 사용자가 사용할 수 있습니다. **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-   데이터 템플릿 가져오기에 대한 자세한 내용은 [전용 설명서](../../automating/using/importing-data-with-import-templates.md).
+  데이터 템플릿 가져오기에 대한 자세한 내용은 [전용 설명서](../../automating/using/importing-data-with-import-templates.md).
 
 ## 랜딩 페이지에서 데이터 수집 {#collecting-data-from-landing-pages}
 

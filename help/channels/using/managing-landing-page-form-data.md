@@ -102,15 +102,15 @@ ht-degree: 15%
 
    * 블록을 선택하고 **[!UICONTROL Form data]** 섹션, 선택 **[!UICONTROL Checkbox]** 을(를) 필드 유형으로 사용하십시오.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * HTML에 익숙한 경우 **[!UICONTROL Show source]** 단추를 클릭합니다.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      이렇게 하면 페이지에서 편리한 위치에 확인란을 삽입할 수 있습니다.
+     이렇게 하면 페이지에서 편리한 위치에 확인란을 삽입할 수 있습니다.
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
 1. 콘텐츠에서 확인란이 선택되어 있는지 확인합니다. 다음 **[!UICONTROL Type]** 드롭다운 목록이에 표시됩니다. **[!UICONTROL Form data]** 왼쪽 팔레트의 섹션입니다. 선택 **[!UICONTROL Service and subscription]** 목록에서 삭제할 수 있습니다.
 
@@ -150,13 +150,13 @@ ht-degree: 15%
 
    * 블록을 선택하고 **[!UICONTROL Form data]** 섹션, 선택 **[!UICONTROL Checkbox]** 을(를) 필드 유형으로 사용하십시오.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * HTML에 익숙한 경우 **[!UICONTROL Show source]** 단추를 클릭합니다.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 

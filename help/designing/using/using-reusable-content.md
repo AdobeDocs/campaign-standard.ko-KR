@@ -249,7 +249,7 @@ HTML 콘텐츠 템플릿은에서 액세스할 수 있습니다. **[!UICONTROL R
 
 * 개인화 필드, 다이내믹 콘텐츠 또는 다른 조각이 포함된 구조를 조각으로 저장할 수 없습니다.
 * 서로 인접한 구조만 선택할 수 있습니다.
-   <!-- - You cannot select an empty structure.-->
+  <!-- - You cannot select an empty structure.-->
 
 1. 이메일 디자이너에서 이메일을 편집할 때 다음을 선택합니다. **[!UICONTROL Save as fragment]** 기본 도구 모음에서
 

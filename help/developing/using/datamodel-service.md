@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>종료</td>
-                  <td>종료 날짜</td>
+                  <td>종료 일자</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -165,7 +165,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>시작</td>
-                  <td>시작 날짜</td>
+                  <td>시작 일자</td>
                   <td>date </td>
                   <td> </td>
                </tr>
@@ -195,7 +195,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>targetResource</td>
-                  <td>대상 차원</td>
+                  <td>타겟팅 차원</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>

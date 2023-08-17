@@ -221,7 +221,7 @@ Adobe Campaign을 사용하면 특정 기준에 따라 또는 추적을 사용�
 
 >[!NOTE]
 >
->이미 다이내믹 콘텐츠가 있는 하위 요소를 포함하는 블록이나 이미 다이내믹 콘텐츠를 구성하는 블록에 대해서는 조건을 정의할 수 없습니다. 드롭다운 목록과 같은 표시되지 않는 동적 블록은 편집할 수 없습니다.
+>이미 다이내믹 컨텐츠가 있는 하위 요소를 포함하는 블록이나 이미 다이내믹 컨텐츠를 구성하는 블록에 대해서는 조건을 정의할 수 없습니다. 드롭다운 목록과 같은 표시되지 않는 동적 블록은 편집할 수 없습니다.
 
 ### 이메일에서 동적 콘텐츠 정의{#defining-dynamic-content-in-an-email}
 
@@ -320,15 +320,15 @@ Adobe Campaign을 사용하면 특정 기준에 따라 또는 추적을 사용�
 
 * 상기 이미지에는 동적 콘텐츠가 적용되고 이러한 동적 콘텐츠는 연령대에 따라 구성된다.
 
-   ![](assets/delivery_content_43.png)
+  ![](assets/delivery_content_43.png)
 
-   다이내믹 콘텐츠 추가 및 구성에 대해서는 [이메일에서 동적 콘텐츠 정의](#defining-dynamic-content-in-an-email) 섹션.
+  다이내믹 콘텐츠 추가 및 구성에 대해서는 [이메일에서 동적 콘텐츠 정의](#defining-dynamic-content-in-an-email) 섹션.
 
 * 개인화 필드 및 동적 콘텐츠가 텍스트에 적용됩니다. 프로필의 연령 범위에 따라 이메일은 프로필 이름 또는 프로필 제목과 성으로 시작합니다.
 
-   ![](assets/delivery_content_44.png)
+  ![](assets/delivery_content_44.png)
 
-   개인화 필드 추가 및 구성에 대해서는 [개인화 필드 삽입](#inserting-a-personalization-field) 섹션.
+  개인화 필드 추가 및 구성에 대해서는 [개인화 필드 삽입](#inserting-a-personalization-field) 섹션.
 
 ### 이미지 구성 {#configuring-images}
 

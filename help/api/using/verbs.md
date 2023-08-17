@@ -33,117 +33,117 @@ ht-degree: 0%
 * 프로필 컬렉션에 대한 샘플 GET 요청.
 
 
-   ```
-   $curl  
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  $curl  
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   프로필의 배열을 반환합니다.
+  프로필의 배열을 반환합니다.
 
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "firstName": "Olivia",
-               "lastName": "Varney",
-               "birthDate": "1977-09-°4",
-               "email": "o.varney@mail.com",
-           },
-           {
-               "PKey": "<PKEY>",
-               "firstName": "John",
-               "lastName": "Doe",
-               "birthDate": "1985-08-17",
-               "email": "johndoe@mail.com",
-           }
-       ],
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "firstName": "Olivia",
+              "lastName": "Varney",
+              "birthDate": "1977-09-°4",
+              "email": "o.varney@mail.com",
+          },
+          {
+              "PKey": "<PKEY>",
+              "firstName": "John",
+              "lastName": "Doe",
+              "birthDate": "1985-08-17",
+              "email": "johndoe@mail.com",
+          }
+      ],
+  }
+  ```
 
 * 특정 프로필에 대한 샘플 GET 요청.
 
 
-   ```
-   $curl  
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  $curl  
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   요청된 프로필을 반환합니다.
+  요청된 프로필을 반환합니다.
 
 
-   ```
-   {
-       "PKey": "<PKEY>",
-       "firstName": "John",
-       "lastName": "Doe",
-       "birthDate": "1985-08-17",
-       "email": "johndoe@mail.com",
-       ...
-   }
-   ```
+  ```
+  {
+      "PKey": "<PKEY>",
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthDate": "1985-08-17",
+      "email": "johndoe@mail.com",
+      ...
+  }
+  ```
 
 * 프로필 만들기에 대한 샘플 POST 요청.
 
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -d '{"lastName":"Doe"}'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -d '{"lastName":"Doe"}'
+  ```
 
-   기본 필드가 있는 프로필을 반환합니다.
+  기본 필드가 있는 프로필을 반환합니다.
 
-   ```
-   {
-       "PKey": "<PKEY>",
-       "firstName": "John",
-       "lastName": "Doe",
-       "birthDate": "1985-08-17",
-       "email": "johndoe@mail.com",
-   }
-   ```
+  ```
+  {
+      "PKey": "<PKEY>",
+      "firstName": "John",
+      "lastName": "Doe",
+      "birthDate": "1985-08-17",
+      "email": "johndoe@mail.com",
+  }
+  ```
 
 * 프로필 업데이트를 위한 샘플 PATCH 요청.
 
-   ```
-   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -d '{"firstName":"Mark"',"lastName":"Smith"}'
-   ```
+  ```
+  -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -d '{"firstName":"Mark"',"lastName":"Smith"}'
+  ```
 
-   업데이트된 프로필을 검색하기 위해 PKEY 및 URL을 반환합니다.
+  업데이트된 프로필을 검색하기 위해 PKEY 및 URL을 반환합니다.
 
-   ```
-   {
-       "PKey": "<PKEY>",
-       "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>"
-   }
-   ```
+  ```
+  {
+      "PKey": "<PKEY>",
+      "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>"
+  }
+  ```
 
 * 프로필 삭제에 대한 샘플 DELETE 요청.
 
-   ```
-   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   요청이 200 응답을 반환하여 프로필이 삭제되었음을 확인합니다.
+  요청이 200 응답을 반환하여 프로필이 삭제되었음을 확인합니다.

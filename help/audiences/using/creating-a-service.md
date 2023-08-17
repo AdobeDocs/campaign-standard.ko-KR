@@ -45,9 +45,9 @@ ht-degree: 94%
    * **[!UICONTROL No message]**: 이 모드에서는 확인 메시지가 없는 서비스를 만들 수 있습니다.
    * **[!UICONTROL Default message]**: 이 모드에서는 기본 구독 또는 구독 취소 확인 트랜잭션 메시지가 사용됩니다. 기본 확인 메시지는 일반적인 메시지로, 기본 모드를 사용하는 모든 서비스에 대해 동일합니다.
 
-      >[!NOTE]
-      >
-      >기본 메시지를 수정하려면 **[!UICONTROL Show internal transactional messages]** 상자를 선택한 후 해당 레이블을 **[!UICONTROL Service properties]** 섹션에서 클릭하거나 Adobe Campaign 트랜잭션 메시지 목록에서 선택합니다.
+     >[!NOTE]
+     >
+     >기본 메시지를 수정하려면 **[!UICONTROL Show internal transactional messages]** 상자를 선택한 후 해당 레이블을 **[!UICONTROL Service properties]** 섹션에서 클릭하거나 Adobe Campaign 트랜잭션 메시지 목록에서 선택합니다.
 
    * **[!UICONTROL Custom message]**: 이 모드에서는 각 서비스의 사용자 정의 확인 메시지를 처리할 수 있습니다. 그 다음 [트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md) 템플릿에 연결된 **[!UICONTROL Custom subscription event configuration]**&#x200B;을(를) 선택합니다. 자세한 내용은 [서비스 구독 확인](../../audiences/using/confirming-subscription-to-a-service.md)을 참조하십시오.
 

@@ -78,7 +78,7 @@ ht-degree: 5%
    1. 클릭 **찾아보기**.
    1. 컴퓨터에서 이미지 파일을 선택합니다.
 
-   ![](assets/browse-image-quick-start.png)
+  ![](assets/browse-image-quick-start.png)
 
 * **개인화가 포함된 텍스트**
 
@@ -87,7 +87,7 @@ ht-degree: 5%
    1. 개인화 필드를 추가하려면 **개인화 필드 삽입** 을 클릭합니다.
    1. 이름 등 필요한 필드를 선택합니다.
 
-   ![](assets/edit-text-quick-start.png)
+  ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
@@ -96,11 +96,11 @@ ht-degree: 5%
    1. HTML 콘텐츠를 입력합니다.
    1. **저장**&#x200B;을 클릭합니다.
 
-   ![](assets/html-component-source-code.png)
+  ![](assets/html-component-source-code.png)
 
-   HTML에 익숙하다면 를 사용하여 원래 바닥글에서 HTML 코드를 복사하여 붙여넣을 수 있습니다. **[!UICONTROL Html]** 컨텐츠 구성 요소입니다. 자세한 내용은 [콘텐츠 구성 요소 정보](../../designing/using/designing-from-scratch.md#about-content-components).
+  HTML에 익숙하다면 를 사용하여 원래 바닥글에서 HTML 코드를 복사하여 붙여넣을 수 있습니다. **[!UICONTROL Html]** 컨텐츠 구성 요소입니다. 자세한 내용은 [콘텐츠 구성 요소 정보](../../designing/using/designing-from-scratch.md#about-content-components).
 
-   ![](assets/des_loading_compatible_fragment_9.png)
+  ![](assets/des_loading_compatible_fragment_9.png)
 
 ### 이메일 구성 요소 스타일링
 

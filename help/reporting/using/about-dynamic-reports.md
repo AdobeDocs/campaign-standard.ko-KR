@@ -29,11 +29,11 @@ Dynamic Reporting은 완전히 맞춤화가 가능한 실시간 보고서를 제
 
 * 을(를) 선택하여 홈페이지에서 **[!UICONTROL Reports]** 상단 막대의 탭 또는 **[!UICONTROL Reports]** 모든 게재에 대한 보고서에 액세스하기 위한 카드.
 
-   ![](assets/campaign_reports_access.png)
+  ![](assets/campaign_reports_access.png)
 
 * 각 프로그램, 캠페인 및 메시지의 **보고서** 클릭하여 표시되는 단추 **동적 보고서** 게재와 관련된 보고서만 볼 수 있습니다.
 
-   ![](assets/campaign_reports_description.png)
+  ![](assets/campaign_reports_description.png)
 
 특정 보고서는 정보를 수집하고 처리하는 데 걸리는 시간에 따라 배달 후 즉시 사용할 수 없습니다.
 

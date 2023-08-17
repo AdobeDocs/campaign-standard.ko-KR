@@ -103,31 +103,31 @@ Adobe Campaign에 설정된 모바일 애플리케이션 매개 변수에서 찾
    * 다음에서 **[!UICONTROL URL]** 필드, 복사 **[!UICONTROL Collect PII Endpoint]** Adobe Campaign 인터페이스에서 구성한 모바일 애플리케이션의 URL(앞에 서버 이름)입니다. 다음을 참조하십시오 [Campaign에서 모바일 앱 설정](#setting-up-a-mobile-app-in-campaign).
    * 다음을 입력합니다. **[!UICONTROL Post Body]** 다음과 같은 필드:
 
-      iOS의 경우
+     iOS의 경우
 
-      ```
-      {
-      "userKey": "{userKey}",
-      "pushPlatform":"apns",
-      "marketingCloudId":"{%mcid%}",
-      "cusEmail":"{email}",
-      "cusFirstName":"{firstName}",
-      "cusLastName":"{lastName}"
-      }
-      ```
+     ```
+     {
+     "userKey": "{userKey}",
+     "pushPlatform":"apns",
+     "marketingCloudId":"{%mcid%}",
+     "cusEmail":"{email}",
+     "cusFirstName":"{firstName}",
+     "cusLastName":"{lastName}"
+     }
+     ```
 
-      Android의 경우:
+     Android의 경우:
 
-      ```
-      {
-      "userKey": "{userKey}",
-      "pushPlatform":"gcm",
-      "marketingCloudId":"{%mcid%}",
-      "cusEmail":"{email}",
-      "cusFirstName":"{firstName}",
-      "cusLastName":"{lastName}"
-      }
-      ```
+     ```
+     {
+     "userKey": "{userKey}",
+     "pushPlatform":"gcm",
+     "marketingCloudId":"{%mcid%}",
+     "cusEmail":"{email}",
+     "cusFirstName":"{firstName}",
+     "cusLastName":"{lastName}"
+     }
+     ```
 
    * 설정 **컨텐츠 유형** 다음으로: **[!UICONTROL application/json]**.
    * 다음에서 **포스트백을 트리거하는 데이터 태그**, 일반적으로 원하는 이벤트를 선택합니다. **[!UICONTROL Launched]** 및 **[!UICONTROL exists]**.
@@ -139,22 +139,22 @@ Adobe Campaign에 설정된 모바일 애플리케이션 매개 변수에서 찾
    * 다음에서 **[!UICONTROL URL]** 필드, 복사 **[!UICONTROL Location Services Endpoint]** Adobe Campaign 인터페이스에서 구성한 모바일 애플리케이션의 URL(앞에 서버 이름)입니다. 다음을 참조하십시오 [Campaign에서 모바일 앱 설정](#setting-up-a-mobile-app-in-campaign).
    * 다음을 입력합니다. **[!UICONTROL Post Body]** 다음과 같은 필드:
 
-      ```
-      {
-      "locationData":{
-      "distances":"{a.loc.dist}",
-      "poiLabel":"{a.loc.poi}",
-      "latitude.a":"{a.loc.lat.a}",
-      "latitude.b":"{a.loc.lat.b}",
-      "latitude.c":"{a.loc.lat.c}",
-      "longitude.a":"{a.loc.lon.a}",
-      "longitude.b":"{a.loc.lon.b}",
-      "longitude.c":"{a.loc.lon.c}",
-      "appId":"{a.appid}",
-      "marketingCloudId":"{mid}"
-      }
-      }
-      ```
+     ```
+     {
+     "locationData":{
+     "distances":"{a.loc.dist}",
+     "poiLabel":"{a.loc.poi}",
+     "latitude.a":"{a.loc.lat.a}",
+     "latitude.b":"{a.loc.lat.b}",
+     "latitude.c":"{a.loc.lat.c}",
+     "longitude.a":"{a.loc.lon.a}",
+     "longitude.b":"{a.loc.lon.b}",
+     "longitude.c":"{a.loc.lon.c}",
+     "appId":"{a.appid}",
+     "marketingCloudId":"{mid}"
+     }
+     }
+     ```
 
    * 설정 **컨텐츠 유형** 다음으로: **[!UICONTROL application/json]**.
    * 다음에서 **포스트백을 트리거하는 데이터 태그**, 선택 **[!UICONTROL campaign.test]** 및 **[!UICONTROL exists]**.

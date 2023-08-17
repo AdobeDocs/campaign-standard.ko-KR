@@ -99,7 +99,7 @@ An **실행 게재** 은(는) 각 트랜잭션 메시지에 대해 한 달에 �
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-다음 항목 선택 **[!UICONTROL Exclusions logs]** 차단 목록 탭에서는 메시지 타겟의 주소 등 메시지 타겟에서 제외된 수신자를 볼 수 있습니다.
+다음 항목 선택 **[!UICONTROL Exclusions logs]** 차단 목록에 추가하다 탭에서는 메시지 타겟의 주소 등 메시지 타겟에서 제외된 수신자를 볼 수 있습니다.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

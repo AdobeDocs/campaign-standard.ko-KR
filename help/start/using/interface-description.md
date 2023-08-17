@@ -53,7 +53,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 * 다음 **Adobe** 페이지 왼쪽 상단 모서리에 있는 로고는 고급 기능 및 구성에 대한 액세스를 제공합니다. 메뉴는 프로필 및 권한에 따라 다릅니다.
 
-   고급 메뉴는 [고급 메뉴](#advanced-menu) 섹션에 표시됩니다.
+  고급 메뉴는 [고급 메뉴](#advanced-menu) 섹션에 표시됩니다.
 
 * **[!UICONTROL Home]** 링크를 통해 Adobe Campaign 홈페이지를 표시할 수 있습니다.
 *  **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** 및 **[!UICONTROL Reports]** 링크를 통해 이러한 기능에 연결된 보기에 액세스할 수 있습니다.
@@ -126,23 +126,23 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 * 프로그램, 캠페인, 프로필 등과 같은 다양한 요소를 보여주는 **목록** . 이러한 요소는 **[!UICONTROL Card]** 또는 **[!UICONTROL List]** 모드에서 볼 수 있습니다. 모드 변경 버튼을 사용하여 모드 간 전환합니다. 각 요소는 표시기를 표시합니다.
 
-   ![](assets/ux_liste.png)
+  ![](assets/ux_liste.png)
 
-   카운터에서 요소의 수를 알 수 있습니다. 이 숫자가 30을 초과하는 경우 총 개수를 얻으려면 이 카운터를 클릭해야 합니다. 
+  카운터에서 요소의 수를 알 수 있습니다. 이 숫자가 30을 초과하는 경우 총 개수를 얻으려면 이 카운터를 클릭해야 합니다. 
 
 * 활동에 연결된 모든 매개 변수의 개요를 보여주는 **대시보드**. 이 화면에는 서로 다른 개념을 별도로 구분하고 구성할 수 있는 대화형 영역이 포함되어 있습니다.
 
-   ![](assets/ux_dashboard.png)
+  ![](assets/ux_dashboard.png)
 
 * 요소를 만들 때 여러 오퍼가 가능한 경우 **선택 화면**&#x200B;을 사용하면 추가할 요소 유형(캠페인, 게재)을 선택할 수 있습니다. 이 선택 화면은 보고서에 액세스하기 위해 제공됩니다.
 
-   ![](assets/ux_activityselection.png)
+  ![](assets/ux_activityselection.png)
 
 * 워크플로우 및 쿼리 편집기의 경우 팔레트가 있는 **작업 영역**&#x200B;을 사용하여 개체를 디자인할 수 있습니다.
 
-   팔레트에서 요소를 작업 영역으로 끌어다 놓아 해당 요소를 구성할 수 있습니다.
+  팔레트에서 요소를 작업 영역으로 끌어다 놓아 해당 요소를 구성할 수 있습니다.
 
-   ![](assets/ux_workspace.png)
+  ![](assets/ux_workspace.png)
 
 ## 작업 표시줄 {#action-bar}
 

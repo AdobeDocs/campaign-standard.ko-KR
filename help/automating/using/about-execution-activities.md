@@ -11,7 +11,7 @@ exl-id: e2841f26-6f87-4bc4-baf7-c3c29dd69eae
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '65'
-ht-degree: 53%
+ht-degree: 69%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 53%
 
 화면 왼쪽에 있는 팔레트에서 **[!UICONTROL Execution]** 섹션을 펼칩니다.
 
-다음 활동은 워크플로우 구성 및 실행과 관련이 있습니다. 이들의 주요 임무는 다른 활동을 조정하는 것입니다.
+다음 활동은 워크플로의 구성 및 실행에만 적용됩니다. 이들의 주요 임무는 다른 활동을 조정하는 것입니다.
 
 ![](assets/wkf_execution_activities.png)
 
