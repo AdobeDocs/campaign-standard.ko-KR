@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '7224'
+source-wordcount: '7214'
 ht-degree: 100%
 
 ---
@@ -120,7 +120,7 @@ A/B 테스트 이메일 섹션에 메모를 추가했습니다. 총 모집단이
 
 쿼리에서 대상자를 선택할 때 해당 정의가 복사되고 참조되지 않음을 지정하는 정보가 추가되었습니다. [자세한 내용](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-Audience Destinations 서비스 및 Adobe Experience Platform 데이터 커넥터와 관련된 정보가 새 섹션으로 다시 그룹화되었습니다. [자세히 알아보기](../../integrating/using/aep-about-audience-destinations-service.md)
+Audience Destinations 서비스 및 Adobe Experience Platform 데이터 커넥터와 관련된 정보가 새 섹션으로 다시 그룹화되었습니다.
 
 **선언된 ID** 데이터 소스는 People 핵심 서비스 통합에도 사용할 수 있습니다. Campaign-Audience Manager 또는 People 핵심 서비스 통합 문서에 정보가 추가되었습니다. [자세한 정보](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -178,7 +178,7 @@ SMS 커넥터 프로토콜 및 설정 페이지를 [여기](../../administration
 
 **트랜잭션 메시지** 섹션이 탐색 개선을 위해 재구성하고 한 곳에 수집되었습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
-개인 정보 관리와 관련된 데이터 매핑 유효성 검사 오류 및 문제 해결 방법에 대한 정보가 Adobe Experience Platform 데이터 커넥터 섹션에 추가되었습니다. [자세한 내용](../../integrating/using/aep-mapping-activation.md)
+개인 정보 관리와 관련된 데이터 매핑 유효성 검사 오류 및 문제 해결 방법에 대한 정보가 Adobe Experience Platform 데이터 커넥터 섹션에 추가되었습니다.
 
 ## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
 
@@ -280,7 +280,7 @@ Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했
 
 설명서 홈페이지에 리소스를 추가했습니다. [자세한 내용](../../campaign-standard-home.md)
 
-Experience Cloud ID 서비스(ECID)에 대한 정보를 Adobe Experience Platform 데이터 커넥터 설명서에 추가했습니다. [자세한 내용](../../integrating/using/aep-about-data-connector.md#key-concepts)
+Experience Cloud ID 서비스(ECID)에 대한 정보를 Adobe Experience Platform 데이터 커넥터 설명서에 추가했습니다.
 
 트랜잭션 메시지 섹션을 개선하여 최신 트랜잭션 이벤트 및 업데이트한 스크린샷에 액세스하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -346,9 +346,9 @@ Campaign 이메일 디자이너 설명서 및 관련 페이지에 [!DNL Adobe Cr
 
 **릴리스에 포함된 새로운 기능**
 
-Adobe Experience Platform 데이터 커넥터(Beta) - [자세한 내용](../../integrating/using/aep-about-data-connector.md)
+Adobe Experience Platform 데이터 커넥터(베타)
 
-Audience Destinations(Beta) - [자세한 내용](../../integrating/using/aep-about-audience-destinations-service.md)
+대상자 대상(Beta)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
