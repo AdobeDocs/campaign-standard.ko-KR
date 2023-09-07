@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
-workflow-type: tm+mt
-source-wordcount: '1812'
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+workflow-type: ht
+source-wordcount: '1756'
 ht-degree: 100%
 
 ---
@@ -274,18 +274,6 @@ ht-degree: 100%
       + [소스 및 대상 시작](integrating/using/get-started-sources-destinations.md)
       + [Adobe Experience Platform 대상자를 Campaign으로 수집](integrating/using/ingest-aep-data.md)
       + [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](integrating/using/export-campaign-data.md)
-         + Audience Destinations 서비스(베타) {#audience-destinations}
-            + [Audience Destinations 서비스 기본 정보](integrating/using/aep-about-audience-destinations-service.md)
-            + [Adobe Experience Platform 대상자 관리](integrating/using/aep-managing-audiences.md)
-            + [세그먼트 빌더 사용](integrating/using/aep-using-segment-builder.md)
-            + [Adobe Experience Platform 대상자 타기팅](integrating/using/aep-targeting-audiences.md)
-            + [Adobe Experience Platform 특성을 사용한 캠페인 개인화](integrating/using/aep-personalizing-campaigns.md)
-         + Adobe Experience Platform 데이터 커넥터(베타) {#data-connector}
-            + [Adobe Experience Platform 데이터 커넥터 기본 정보](integrating/using/aep-about-data-connector.md)
-            + [Experience Platform 데이터 모델 개요](integrating/using/aep-data-model-overview.md)
-            + [매핑 정의](integrating/using/aep-mapping-definition.md)
-            + [매핑 활성화](integrating/using/aep-mapping-activation.md)
-            + [API를 통한 데이터 수집 트리거](integrating/using/aep-triggering-data-ingestion.md)
 + 프로세스 및 데이터 관리 {#managing-processes-and-data}
    + [데이터 및 프로세스 관리 시작](automating/using/get-started-workflows.md)
    + 워크플로우 일반 작업 {#workflow-general-operation}
@@ -517,3 +505,4 @@ ht-degree: 100%
       + [지리 단위 특성 업데이트](api/using/updating-geographical-unit-attributes.md)
    + [문제 해결](api/using/troubleshooting.md)
 + [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
+
