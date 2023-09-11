@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7214'
 ht-degree: 100%
 
@@ -346,7 +346,7 @@ Campaign 이메일 디자이너 설명서 및 관련 페이지에 [!DNL Adobe Cr
 
 **릴리스에 포함된 새로운 기능**
 
-Adobe Experience Platform 데이터 커넥터(베타)
+Adobe Experience Platform 데이터 커넥터(eta)
 
 대상자 대상(Beta)
 
