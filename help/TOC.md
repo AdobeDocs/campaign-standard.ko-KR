@@ -5,7 +5,7 @@ user-guide-description: Campaign Standard을 사용하는 데 필요한 주요 �
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1756'
 ht-degree: 100%
 
