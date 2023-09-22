@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 24%
 
 ---
 
@@ -18,30 +18,26 @@ ht-degree: 100%
 # 초기 릴리스 정보 {#e-new-release}
 
 이 페이지에서는 다음 Campaign Standard 릴리스에 포함된 개선 사항 및 문제 해결에 대해 설명합니다.
+
 >[!CAUTION]
 >
 > 이 콘텐츠는 단계 환경 업그레이드일까지 사전 통지 없이 변경될 수 있습니다. 자세한 내용은 [릴리스 계획 페이지](../../rn/using/release-planning.md)를 참조하세요.
 
-## 릴리스 23.1 - 2023년 봄/여름 릴리스 {#apr-23}
+## 릴리스 23.2 - 2023년 가을/겨울 릴리스 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>이 릴리스는 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
 ### 개선 사항 {#e-rn-improvements}
 
-* 푸시 메시지 서비스의 지원을 개선하기 위해 서비스를 최신화했습니다. (CAMP-47959)
-* SMS 메시지 서비스의 안정성을 개선했습니다. (CAMP-52217)
-* Adobe는 애플리케이션의 전반적인 사용 편의성을 개선하기 위해 접근성 관련 여러 가지를 수정했습니다. 다음은 접근성 개선의 몇 가지 예시입니다.
-   * 다양한 화면에서 인터페이스의 키보드 접근성을 최적화했습니다.
-   * 터치 스크린 사용자의 애플리케이션 사용성을 개선했습니다.
-   * 인터페이스 전반적으로 여러 항목의 색상을 변경하여 가시성을 높였습니다.
+* **Adobe Experience Manager과 통합**. 이제 Adobe Experience Manager에서 트랜잭션 메시지를 위한 게재 템플릿을 만드는 동안 Campaign Standard에 정의된 개인화 필드를 선택하고 사용하여 메시지를 개인화할 수 있습니다. Adobe Experience Manager 내에서 새로운 드롭다운을 사용할 수 있습니다.
 
-### 기타 변경 사항 {#e-rn-changes}
+* **쿠키 만료** - 이제 기본 쿠키 만료가 6개월로 설정되어 프랑스 규정에 부합합니다.
 
-* 기본 제공 **보고 보강 만들기 워크플로우**&#x200B;를 추가했습니다. 한 인스턴스에서 다른 인스턴스로 대상 매핑을 가져온 후 워크플로우를 실행하기만 하면 해당 보고 보강 항목을 가져올 수 있습니다. (CAMP-52452)
+* **프로필 검색 개선** - 프로필 검색이 최적화되어 검색 시간 초과 시나리오를 줄일 수 있습니다.
 
-### 해결한 문제{#e-rn-patches}
+* **Adobe Experience Cloud Triggers과 통합** - Experience Cloud 트리거에 대한 새 사용자 인터페이스는 소비자 행동을 관리하고 사용자 경험을 개인화할 수 있는 직관적인 경험을 제공합니다. Adobe Experience Cloud Triggers 새 사용자 인터페이스는 모든 고객에게 점진적으로 배포됩니다.
 
-* **핫 클릭** 보고서를 표시할 때 시간 초과 오류가 발생할 수 있는 문제를 해결했습니다. (CAMP-51582)
-* **Places** 서비스와의 통합을 사용할 수 없는 문제를 해결했습니다. (CAMP-51923)
-* 워크플로우 스케줄러가 제대로 작동하지 않는 문제를 해결했습니다. (CAMP-52003)
-* 대량의 데이터가 있는 사용자 정의 동적 보고서의 PDF 버전을 볼 때 세부 분류가 표시되지 않는 문제를 해결했습니다. (CAMP-52178)
-* 보고서에 액세스할 때 오류가 표시되는 문제를 해결했습니다. (CAMP-52500)
-* **이 계정의 MTA 인스턴스 제한** SMS 커넥터 매개 변수를 SMS에만 적용하지 않고 전체 채널에 적용하는 문제를 해결했습니다. (CAMP-52640)
+  의 Adobe Campaign 및 Experience Cloud 트리거에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
