@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 7%
+source-wordcount: '842'
+ht-degree: 6%
 
 ---
 
@@ -95,7 +95,7 @@ Campaign에서 사용할 수 있도록 Adobe Experience Cloud 트리거를 만�
 
 Experience Cloud에서 새 트리거를 만들고 웹 사이트에서 사용되는 보고서 세트를 선택해야 합니다. 트리거가 실행될 수 있도록 올바른 차원을 선택해야 합니다.
 
-다음을 참조하십시오. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) 그리고 이걸 봐 [비디오](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+다음을 참조하십시오. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## 모범 사례 및 제한 사항 트리거 {#triggers-best-practices-and-limitations}
 
