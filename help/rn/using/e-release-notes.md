@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
+source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '250'
 ht-degree: 19%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 19%
 
 ### 개선 사항 {#e-rn-improvements}
 
-* **Adobe Experience Manager과 통합**. 이제 Adobe Experience Manager에서 트랜잭션 메시지를 위한 게재 템플릿을 만드는 동안 Campaign Standard에 정의된 개인화 필드를 선택하고 사용하여 메시지를 개인화할 수 있습니다. Adobe Experience Manager 내에서 새로운 드롭다운을 사용할 수 있습니다.
+* **Adobe Experience Manager과 통합**. 이제 Adobe Experience Manager에서 트랜잭션 메시지에 대한 개인화된 게재 템플릿을 만드는 동안 드롭다운에서 Campaign Standard에 정의된 개인화 필드를 선택하여 사용할 수 있습니다.
 
-* **쿠키 만료** - 이제 기본 쿠키 만료가 6개월로 설정되어 프랑스 규정에 부합합니다.
+* **쿠키 만료** - 이제 기본 쿠키 만료가 6개월로 설정되어 프랑스 데이터 보호 기관(CNIL) 권장 사항에 맞게 조정됩니다.
 
 * **프로필 검색 개선** - 프로필 검색이 최적화되어 검색 시간 초과 시나리오를 줄일 수 있습니다.
 
