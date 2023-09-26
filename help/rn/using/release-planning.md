@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
+source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 95%
+source-wordcount: '438'
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 >
 >이 릴리스는 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
 
-<!--Detailed information about this release is available in the [Release Notes](release-notes.md).-->
+이 릴리스에 대한 자세한 내용은 [초기 릴리스 정보](e-release-notes.md).
 
 <table>
  <thead>
