@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 19%
+source-wordcount: '192'
+ht-degree: 25%
 
 ---
 
@@ -45,6 +45,3 @@ ht-degree: 19%
 
   이러한 변경 사항은 다음 UI 및 설명서 릴리스를 통해 점진적으로 롤아웃됩니다.
 
-* **Adobe Experience Cloud Triggers과 통합** - 이제 Experience Cloud 트리거에 대한 새 사용자 인터페이스를 사용할 수 있습니다. 소비자 행동을 관리하고 사용자 경험을 개인화할 수 있는 직관적인 경험을 제공합니다. Adobe Experience Cloud Triggers 새 사용자 인터페이스는 2023년 10월 11~16일까지 모든 고객에게 점진적으로 배포됩니다.
-
-  의 Adobe Campaign 및 Experience Cloud 트리거에 대해 자세히 알아보기 [이 페이지](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.

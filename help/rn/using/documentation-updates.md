@@ -5,16 +5,29 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '7214'
-ht-degree: 100%
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+workflow-type: tm+mt
+source-wordcount: '7263'
+ht-degree: 98%
 
 ---
 
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+
+Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+
+## 2023년 9월 {#doc-updates-sept-2023}
+
+* 이제 Experience Cloud 트리거에 대한 새 사용자 인터페이스를 사용할 수 있습니다. 소비자 행동을 관리하고 사용자 경험을 개인화할 수 있는 직관적인 경험을 제공합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+## 릴리스 23.1 - 2023년 봄/여름 {#release-23-1}
+
+2023년 봄/여름 Campaign Standard 23.1에 대한 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
+
 
 ## 2022년 11월 {#doc-updates-november-2022}
 
@@ -24,7 +37,7 @@ ht-degree: 100%
 
 ## 릴리스 22.3 - 2022년 가을/겨울 {#release-22-3}
 
-Campaign Standard 22.3 가을/겨울 릴리스의 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
+2022년 가을/겨울 Campaign Standard 22.3에 대한 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -770,7 +783,7 @@ Analytics에 있는 Campaign 지표 목록을 추가했습니다. [자세한 내
 
 쿼리 활동 섹션에 쿼리 샘플을 업데이트했습니다. [자세한 내용](../../automating/using/query.md#query-samples)
 
-차단 목록에 대한 섹션의 이름을 &quot;옵트인 및 옵트아웃 프로세스 이해&quot;로 바꾸었습니다. 특정 채널에 대한 옵트인을 관리하는 방법 및 랜딩 페이지를 설정하여 옵트인 및 옵트아웃을 관리하는 방법에 대한 정보를 업데이트했습니다. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+차단 목록 전용 섹션의 이름을 &quot;옵트인 및 옵트아웃 프로세스 이해&quot;로 바꾸었습니다. 특정 채널에 대한 옵트인을 관리하는 방법 및 랜딩 페이지를 설정하여 옵트인 및 옵트아웃을 관리하는 방법에 대한 정보를 업데이트했습니다. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Adobe 호스팅 SFTP 서버 사용에 대한 모범 사례를 알아봅니다. [자세한 내용](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1012,7 +1025,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 Adobe Campaign을 통한 사용자 핵심 서비스 또는 Audience Manager 통합을 구성하기 위한 지침을 추가했습니다. [자세한 내용](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-승인 표에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+승인 표에서 특정 역할의 기능을 더 명확하게 수정했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 업데이트했습니다.
 
