@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 25%
+source-wordcount: '235'
+ht-degree: 22%
 
 ---
 
@@ -45,3 +45,11 @@ ht-degree: 25%
 
   이러한 변경 사항은 다음 UI 및 설명서 릴리스를 통해 점진적으로 롤아웃됩니다.
 
+### 기타 변경 사항 {#e-rn-other-changes}
+
+* 이제 트랜잭션 메시징에서 쉼표로 구분된 여러 선호도를 사용할 수 있습니다.
+
+### 수정 사항 {#e-rn-fixes}
+
+* 대규모 워크플로우를 사용할 때 성능 문제를 초래할 수 있는 회귀 문제를 해결했습니다. (CAMP-53369)
+* 워크플로우 경고 또는 알림의 이메일 링크가 작동하지 않는 문제를 해결했습니다. (CAMP-51874)

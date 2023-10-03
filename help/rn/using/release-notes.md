@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
+source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 59%
 
 ---
 
@@ -16,6 +16,40 @@ ht-degree: 100%
 # 최신 릴리스{#latest-release}
 
 ![컨트롤 패널](assets/do-not-localize/cp-icon.png) **새로운 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko){target="_blank"}.
+
+
+
+## 릴리스 23.2 - 2023년 가을/겨울 릴리스 {#fall-23}
+
+>[!AVAILABILITY]
+>
+>이 릴리스는 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+
+### 개선 사항 {#fall-23-rn-improvements}
+
+* **Adobe Experience Manager과 통합**. 이제 Adobe Experience Manager에서 트랜잭션 메시지에 대한 개인화된 게재 템플릿을 만드는 동안 드롭다운에서 Campaign Standard에 정의된 개인화 필드를 선택하여 사용할 수 있습니다. [자세히 알아보기](../../integrating/using/creating-email-experience-manager.md)
+
+* **쿠키 만료** - 이제 기본 쿠키 만료가 6개월로 설정되어 프랑스 데이터 보호 기관(CNIL) 권장 사항에 맞게 조정됩니다.
+
+* **프로필 검색 개선** - 프로필 검색이 최적화되어 검색 시간 초과 시나리오를 줄일 수 있습니다.
+
+* **로컬라이제이션** - 메시지를 받을 타겟팅된 프로필 그룹을 참조할 때 &quot;대상자&quot;라는 용어의 번역이 다음 언어의 모든 Digital Experience 제품에서 조화롭게 되었습니다.
+
+   * 독일어: Zielgruppe
+   * 포르투갈어(브라질): público-alvo
+   * 스페인어: público destinatario
+
+  이러한 변경 사항은 다음 UI 및 설명서 릴리스를 통해 점진적으로 롤아웃됩니다.
+
+
+### 기타 변경 사항 {#fall-23-rn-other-changes}
+
+* 이제 트랜잭션 메시징에서 쉼표로 구분된 여러 선호도를 사용할 수 있습니다.
+
+### 수정 사항 {#fall-23-rn-fixes}
+
+* 대규모 워크플로우를 사용할 때 성능 문제를 초래할 수 있는 회귀 문제를 해결했습니다. (CAMP-53369)
+* 워크플로우 경고 또는 알림의 이메일 링크가 작동하지 않는 문제를 해결했습니다. (CAMP-51874)
 
 ## 릴리스 23.1 - 2023년 봄/여름 릴리스 {#apr-23}
 

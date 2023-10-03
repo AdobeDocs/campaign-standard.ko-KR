@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 7a5d317fb1ebef91a72da73aec387fa671ccf19a
+source-git-commit: f6e70bf8015b31ea98e8ecca1c8df61be5f7f212
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-* **[Campaign 22.3 릴리스 정보 확인 가능](rn/using/release-notes.md)**<br/> Campaign Standard 22.3 릴리스의 새로운 기능, 개선 사항, 문제 해결 사항을 확인하세요.
+* **[Campaign 23.2 릴리스 정보 확인 가능](rn/using/release-notes.md)**<br/> Campaign Standard 23.2 릴리스의 새로운 기능, 개선 사항, 문제 해결 사항을 확인하세요.
 
 * **[Campaign - RTCDP 통합](integrating/using/get-started-sources-destinations.md)**<br/> Campaign 및 RTCDP(Real-time Customer Data Platform) 간에 데이터를 공유하는 방법을 알아봅니다.
 

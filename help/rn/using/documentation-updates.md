@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
+source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
 workflow-type: tm+mt
-source-wordcount: '7283'
+source-wordcount: '7299'
 ht-degree: 97%
 
 ---
@@ -16,11 +16,11 @@ ht-degree: 97%
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
 
-<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+## 릴리스 23.2 - 2023년 가을/겨울 {#release-23-2}
 
-Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+2023년 가을/겨울 Campaign Standard 23.2에 대한 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
 
-## 2023년 9월 {#doc-updates-sept-2023}
+## 2023년 10월 {#doc-updates-oct-2023}
 
 * 이제 Experience Cloud 트리거에 대한 새 사용자 인터페이스를 사용할 수 있습니다. 소비자 행동을 관리하고 사용자 경험을 개인화할 수 있는 직관적인 경험을 제공합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
 
