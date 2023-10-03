@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
+source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 59%
+source-wordcount: '454'
+ht-degree: 60%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 59%
 
 ### 기타 변경 사항 {#fall-23-rn-other-changes}
 
-* 이제 트랜잭션 메시징에서 쉼표로 구분된 여러 선호도를 사용할 수 있습니다.
+* 이제 트랜잭션 메시징에서 쉼표로 구분된 여러 선호도를 사용할 수 있습니다. [자세히 알아보기](../../sending/using/managing-typologies.md)
 
 ### 수정 사항 {#fall-23-rn-fixes}
 
 * 대규모 워크플로우를 사용할 때 성능 문제를 초래할 수 있는 회귀 문제를 해결했습니다. (CAMP-53369)
-* 워크플로우 경고 또는 알림의 이메일 링크가 작동하지 않는 문제를 해결했습니다. (CAMP-51874)
+* 워크플로우 이메일 경고 또는 알림의 링크가 작동하지 않는 문제를 해결했습니다. (CAMP-51874)
 
 ## 릴리스 23.1 - 2023년 봄/여름 릴리스 {#apr-23}
 
