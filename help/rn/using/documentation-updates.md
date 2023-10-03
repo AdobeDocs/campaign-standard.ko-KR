@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '7263'
-ht-degree: 98%
+source-wordcount: '7283'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been publ
 ## 2023년 9월 {#doc-updates-sept-2023}
 
 * 이제 Experience Cloud 트리거에 대한 새 사용자 인터페이스를 사용할 수 있습니다. 소비자 행동을 관리하고 사용자 경험을 개인화할 수 있는 직관적인 경험을 제공합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+
+* 필터링 또는 피로도 규칙과 결합된 트랩 테스트 프로필 사용에 대한 메모가 추가되었습니다. [자세히 보기](../../sending/using/using-traps.md)
 
 ## 릴리스 23.1 - 2023년 봄/여름 {#release-23-1}
 

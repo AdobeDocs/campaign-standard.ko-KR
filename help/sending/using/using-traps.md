@@ -9,9 +9,9 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -62,4 +62,6 @@ DM 대상자에 트랩을 추가하는 방법에 대한 자세한 내용은 [테
 
 >[!NOTE]
 >
->테스트 프로필을 트랩으로 사용할 때 메시지의 보강된 필드에 대해 해당 추가 데이터가 실제 타겟팅된 프로필에서 임의로 선택되고 트랩 테스트 프로필에 할당됩니다. 데이터 보강에 대한 자세한 내용은 [이 예](../../automating/using/enriching-profile-data-file.md).
+>테스트 프로필을 트랩으로 사용할 때 메시지 내의 보강된 필드에는 실제 타겟팅된 프로필에서 해당 추가 데이터가 무작위로 선택되고 트랩 테스트 프로필에 할당됩니다. 그러나 첫 번째 메시지 준비 동안 적용된 유형화 규칙으로 인해 실제 타겟팅된 프로필이 제외되는 경우 게재 준비가 실패합니다. 보강된 필드 값을 트랩 프로필로 대체할 수 없기 때문에 이 오류가 발생합니다. 따라서 제외 유형화 규칙이 실제 수신자에게 올바르게 적용되지 않을 수 있습니다.
+>
+>이러한 상황을 방지하려면 트랜잭션 유형화에서 필터링 또는 피로도 규칙과 함께 트랩 테스트 프로필을 동시에 사용하지 마십시오. 데이터 보강에 대해 자세히 알아보십시오. 데이터 보강에 대한 자세한 내용은 [이 예](../../automating/using/enriching-profile-data-file.md).
