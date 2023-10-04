@@ -8,7 +8,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
 workflow-type: tm+mt
 source-wordcount: '7299'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 97%
 
 ## 2023년 10월 {#doc-updates-oct-2023}
 
-* 이제 Experience Cloud 트리거에 대한 새 사용자 인터페이스를 사용할 수 있습니다. 소비자 행동을 관리하고 사용자 경험을 개인화할 수 있는 직관적인 경험을 제공합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+* 이제 Experience Cloud 트리거의 새 사용자 인터페이스를 사용할 수 있습니다. 소비자 행동을 관리하고 사용자 경험을 개인화할 수 있는 직관적인 경험을 제공합니다. [자세히 보기](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=ko){target="_blank"}.
 
 * 필터링 또는 피로도 규칙과 결합된 트랩 테스트 프로필 사용에 대한 메모가 추가되었습니다. [자세히 보기](../../sending/using/using-traps.md)
 
 ## 릴리스 23.1 - 2023년 봄/여름 {#release-23-1}
 
-2023년 봄/여름 Campaign Standard 23.1에 대한 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
+Campaign Standard 23.1 가을/겨울 릴리스의 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
 
 
 ## 2022년 11월 {#doc-updates-november-2022}
@@ -39,7 +39,7 @@ ht-degree: 97%
 
 ## 릴리스 22.3 - 2022년 가을/겨울 {#release-22-3}
 
-2022년 가을/겨울 Campaign Standard 22.3에 대한 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
+Campaign Standard 22.3 가을/겨울 릴리스의 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -241,7 +241,7 @@ Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추�
 
 외부 API 보안 및 제한 섹션이 업데이트되었습니다. [자세한 내용](../../automating/using/external-api.md#guardrails)
 
-개인 정보 관리 개요 페이지는 태국의 PDPA(개인 정보 보호법) 및 브라질의 LGPD(Lei Geral de Proteção de Dados)에 대한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+개인 정보 관리 개요 페이지가 태국 PDPA(개인 정보 보호법) 및 브라질 LGPD(Lei Geral de Proteção de Dados)와 관련한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 모바일 채널 가이드가 다시 구성되고 개선되었습니다. 모바일 구성에 대한 기술 설명서와 함께 모바일 채널 구성에 대한 새 안내서가 추가되었습니다. [자세한 내용](../../administration/using/push-tracking.md)
 
@@ -785,7 +785,7 @@ Analytics에 있는 Campaign 지표 목록을 추가했습니다. [자세한 내
 
 쿼리 활동 섹션에 쿼리 샘플을 업데이트했습니다. [자세한 내용](../../automating/using/query.md#query-samples)
 
-차단 목록 전용 섹션의 이름을 &quot;옵트인 및 옵트아웃 프로세스 이해&quot;로 바꾸었습니다. 특정 채널에 대한 옵트인을 관리하는 방법 및 랜딩 페이지를 설정하여 옵트인 및 옵트아웃을 관리하는 방법에 대한 정보를 업데이트했습니다. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+차단 목록에 대한 섹션의 이름을 “옵트인 및 옵트아웃 프로세스 이해”로 바꾸었습니다. 특정 채널에 대한 옵트인을 관리하는 방법 및 랜딩 페이지를 설정하여 옵트인 및 옵트아웃을 관리하는 방법에 대한 정보를 업데이트했습니다. [자세한 내용](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Adobe 호스팅 SFTP 서버 사용에 대한 모범 사례를 알아봅니다. [자세한 내용](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1027,7 +1027,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 Adobe Campaign을 통한 사용자 핵심 서비스 또는 Audience Manager 통합을 구성하기 위한 지침을 추가했습니다. [자세한 내용](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-승인 표에서 특정 역할의 기능을 더 명확하게 수정했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+승인 표에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 업데이트했습니다.
 
