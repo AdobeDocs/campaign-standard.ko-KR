@@ -11,10 +11,10 @@ level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations 서비스는 현재 베타 버전이며, 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객을 Azure(현재 북미 지역의 경우에만 베타 버전)에서 호스팅해야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
+>Audience Destinations 서비스는 이제 더 이상 사용되지 않습니다. 사용 중단되는 기능은 계속 사용할 수 있지만 더 이상 향상 또는 지원되지 않습니다. [이 페이지](../../rn/using/deprecated-features.md)에서 자세히 알아보십시오
 
 을 활용하여 소비자 경험을 강화할 수 있습니다. [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) 대규모의 복잡한 데이터 세트를 기반으로 고도로 타깃팅된 대상을 구축할 수 있습니다. Adobe Experience Platform은 Adobe Analytics을 포함하여 온라인과 오프라인 소스 간에 프로필, 행동 및 다중 엔티티 데이터를 통합하여 고객에 대한 360도 뷰를 작성하는 데 도움이 되므로 고객 경험을 효과적으로 관리할 수 있습니다.
 
