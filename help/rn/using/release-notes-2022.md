@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1201'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **접근성** - Adobe은 애플리케이션의 전반적인 사용 편의성을 개선하기 위해 많은 접근성을 수정했습니다. 이러한 기능은 현재 얼리어답터 세트에만 활성화되어 있으며 향후 릴리스에서 모든 고객에게 롤아웃될 예정입니다. 접근성 개선의 예는 다음과 같습니다.
+* **접근성** - Adobe는 애플리케이션의 전반적인 사용 편의성을 개선하기 위해 많은 접근성을 수정했습니다. 이러한 기능은 현재 얼리어답터 세트에만 활성화되어 있으며 향후 릴리스에서 모든 고객에게 롤아웃될 예정입니다. 접근성 개선의 예는 다음과 같습니다.
 
    * 각 화면에 집중 가능한 요소에 대해 눈에 보이는 포커스 표시기가 있는지 확인합니다.
    * 보다 쉬운 탐색을 위해 페이지 랜드마크 만들기
@@ -111,7 +111,7 @@ ht-degree: 96%
 * 다양한 문제를 해결하기 위해 URL에서 가져온 콘텐츠를 포함하여 게재에 대해 다시 시도 메커니즘이 개선되었습니다. [자세히 알아보기](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)(CAMP-48888)
 * 사용자 지정 리소스에서 새 필터를 만든 다음 랜딩 페이지에서 조정 키로 사용한 후에 발생하는 문제를 해결했습니다. 사용자 지정 리소스가 다시 게시되면 랜딩 페이지에 사용할 수 있는 조정 키 목록에서 필터가 제거되었습니다. (CAMP-49516)
 * 확인란에 동적 조건을 사용할 때 랜딩 페이지의 문제를 해결했습니다. (CAMP-48604)
-* 에서 발생한 문제가 해결되었습니다. **쿼리** 활동은 &quot;10월 또는 이전&quot; 필터 조건을 사용할 때입니다. 유럽 시간대로 설정된 인스턴스에서 작업하는 경우 시간대를 변환할 때 발생하는 문제로 인해 필터에 대해 선택한 월이 10월이 아닌 9월로 표시되었습니다. (CAMP-48602)
+* &quot;10월 또는 이전&quot; 필터 조건을 사용할 때 **쿼리** 활동에서 발생하는 문제를 해결했습니다. 유럽 시간대로 설정된 인스턴스에서 작업하는 경우 시간대를 변환할 때 발생하는 문제로 인해 필터에 대해 선택한 월이 10월이 아닌 9월로 표시되었습니다. (CAMP-48602)
 * 이제 Adobe Campaign에서 게재 능력을 최적화하기 위해 8비트 대신 7비트 인코딩을 사용하여 이메일을 보냅니다. 따라서 중간 중계기가 메시지의 진위에 영향을 줄 수 있는 DKIM 서명을 무효화하지 않습니다. (CAMP-49016)
 * 대형 대상으로 작업할 때 발생하는 문제를 방지하기 위해 대상이 중복될 때 성능이 향상되었습니다. (CAMP-49639)
 * **쿼리** 활동에 사용할 때 사용자 지정 필터가 올바른 결과를 표시하지 않도록 하는 문제를 해결했습니다. (CAMP-49417)
