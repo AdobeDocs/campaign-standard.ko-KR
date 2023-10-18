@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,23 +23,23 @@ ht-degree: 60%
 
 >[!AVAILABILITY]
 >
->이 릴리스는 조직 집합(제한된 가용성)에만 사용할 수 있습니다. 자세한 내용은 Adobe 담당자에게 문의하십시오.
+>이 릴리스는 일부 조직에만 적용될 수 있습니다(제한 공개). 자세한 내용은 Adobe 담당자에게 문의하세요.
 
 ### 개선 사항 {#fall-23-rn-improvements}
 
-* **Adobe Experience Manager과 통합**. 이제 Adobe Experience Manager에서 트랜잭션 메시지에 대한 개인화된 게재 템플릿을 만드는 동안 드롭다운에서 Campaign Standard에 정의된 개인화 필드를 선택하여 사용할 수 있습니다. [자세히 알아보기](../../integrating/using/creating-email-experience-manager.md)
+* **Adobe Experience Manager와 통합**. 이제 Adobe Experience Manager에서 트랜잭션 메시지에 개인화된 게재 템플릿을 만들 때 드롭다운에서 Campaign Standard에 정의된 개인화 필드를 선택해 사용할 수 있습니다. [자세히 알아보기](../../integrating/using/creating-email-experience-manager.md)
 
-* **쿠키 만료** - 이제 기본 쿠키 만료가 6개월로 설정되어 프랑스 데이터 보호 기관(CNIL) 권장 사항에 맞게 조정됩니다.
+* **쿠키 만료** - 이제 기본 쿠키 만료가 6개월로 설정되어 프랑스 데이터 보호 기관(CNIL) 권장 사항을 준수합니다.
 
-* **프로필 검색 개선** - 프로필 검색이 최적화되어 검색 시간 초과 시나리오를 줄일 수 있습니다.
+* **프로필 검색 개선** - 프로필 검색이 최적화되어 검색 시간 초과를 줄일 수 있습니다.
 
-* **로컬라이제이션** - 메시지를 받을 타겟팅된 프로필 그룹을 참조할 때 &quot;대상자&quot;라는 용어의 번역이 다음 언어의 모든 Digital Experience 제품에서 조화롭게 되었습니다.
+* **지역화** - 메시지를 받을 프로필 그룹을 참조할 때 &quot;대상자&quot;라는 용어의 번역이 다음 언어의 모든 Digital Experience 제품에서 일치합니다.
 
    * 독일어: Zielgruppe
    * 포르투갈어(브라질): público-alvo
    * 스페인어: público destinatario
 
-  이러한 변경 사항은 다음 UI 및 설명서 릴리스를 통해 점진적으로 롤아웃됩니다.
+  이러한 변경 사항은 다음 UI 및 설명서 릴리스를 통해 점진적으로 적용됩니다.
 
 
 ### 기타 변경 사항 {#fall-23-rn-other-changes}
