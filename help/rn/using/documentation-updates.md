@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7299'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 ## 릴리스 23.2 - 2023년 가을/겨울 {#release-23-2}
 
-2023년 가을/겨울 Campaign Standard 23.2에 대한 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
+Campaign Standard 23.2 가을/겨울 릴리스의 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
 
 ## 2023년 10월 {#doc-updates-oct-2023}
 
