@@ -97,7 +97,7 @@ ht-degree: 26%
 
   ![](assets/des_set_vertical_alignment.png)
 
-## 배경 설정 {#about-backgrounds}
+## 배경 설정하기 {#about-backgrounds}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
