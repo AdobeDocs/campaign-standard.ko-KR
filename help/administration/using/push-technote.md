@@ -7,22 +7,22 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
+source-git-commit: 6d1a5cb1d467d7d74fe41e66125fe0fcbf2e3d9b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # 푸시 알림 채널 예정된 변경 사항 {#push-upgrade}
 
-이 페이지에서는 Adobe Campaign Standard의 Android 및 iOS 푸시 알림 채널에 대해 예정된 변경 사항에 대해 설명합니다.
-
 Adobe Campaign Standard 구현에 영향을 줄 수 있는 Android 및 iOS 장치 전반의 푸시 알림 채널에 대한 변경 사항과 관련하여 중요한 업데이트가 있습니다.
 
 ## Android {#push-android}
 
-Google은 서비스 개선을 위한 Google의 지속적인 노력의 일환으로 Firebase Cloud Messaging HTTP 프로토콜을 변경하고 있습니다. 그 결과 2023년 6월 20일에 사용이 중단되었던 Firebase Cloud Messaging &quot;HTTP 레거시 API&quot;는 2024년 6월에 &quot;HTTP v1 API&quot;로 대체됩니다. (https://firebase.google.com/docs/cloud-messaging/http-server-ref). 현재 Adobe Campaign Standard은 HTTP 레거시 API를 사용하여 Android 푸시 알림 메시지를 전송하고, 향후 몇 개월 이내에 HTTP v1 API로 업그레이드하도록 변경될 예정입니다. Adobe이 이러한 업데이트에서 작동하면 이러한 변경 사항에 대한 자세한 정보가 제공됩니다.
+Google은 서비스 개선을 위한 Google의 지속적인 노력의 일환으로 자사 제품에 대한 변경 작업을 진행하고 있습니다 [Firebase Cloud Messaging HTTP 프로토콜](https://firebase.google.com/docs/cloud-messaging/http-server-ref). 그 결과 2023년 6월 20일에 사용이 중단되었던 Firebase Cloud Messaging &quot;HTTP 레거시 API&quot;는 2024년 6월에 &quot;HTTP v1 API&quot;로 대체됩니다.
+
+현재 Adobe Campaign Standard은 HTTP 레거시 API를 사용하여 Android 푸시 알림 메시지를 전송하고, 향후 몇 개월 이내에 HTTP v1 API로 업그레이드하도록 변경될 예정입니다. Adobe이 이러한 업데이트에서 작동하면 이러한 변경 사항에 대한 자세한 정보가 제공됩니다.
 
 ## iOS {#push-ios}
 
