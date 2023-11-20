@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '755'
 ht-degree: 67%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 67%
 
 ## 트랜잭션 메시지 수 {#transactional-message-number}
 
-게시된 트랜잭션 메시지의 수는 플랫폼에 중요한 영향을 줄 수 있습니다. 최적의 성능을 위해 게시된 트랜잭션 메시지 수는 100개 미만으로 유지되어야 합니다. 이를 보장하려면 사용하지 않은 트랜잭션 메시지의 게시를 취소하거나 삭제합니다. 다음을 참조하십시오 [트랜잭션 메시지 게시 취소](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) 및 [트랜잭션 메시지 삭제](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+게시된 트랜잭션 메시지의 수는 플랫폼에 중요한 영향을 줄 수 있습니다. 최적의 성능을 위해 게시된 트랜잭션 메시지 수는 100개 미만으로 유지되어야 하며, 그렇지 않으면 성능 저하가 발생할 수 있습니다. 이를 보장하려면 앞서 설명한 가드레일을 충족하기 위해 사용하지 않은 트랜잭션 메시지를 게시 취소하거나 삭제합니다. 다음을 참조하십시오 [트랜잭션 메시지 게시 취소](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) 및 [트랜잭션 메시지 삭제](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 최상의 성능을 보장하기 위해 게시를 취소하거나 사용하지 않는 이벤트를 삭제할 수도 있습니다. 실제로, 이벤트 게시를 취소하거나 삭제하면 해당 트랜잭션 메시지와 해당 전송 및 추적 로그(있는 경우)도 게시 취소되거나 삭제됩니다. 다음을 참조하십시오 [이벤트 게시 취소](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) 및 [이벤트 삭제](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
