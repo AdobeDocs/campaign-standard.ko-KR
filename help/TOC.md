@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
+source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1768'
 ht-degree: 99%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 99%
    + [초기 릴리스 정보](rn/using/e-release-notes.md)
    + 이전 릴리스 {#previous-releases}
       + [2022년 릴리스 정보](rn/using/release-notes-2022.md)
-      + [2021년 릴리스 노트](rn/using/release-notes-2021.md)
+      + [2021년 릴리스 정보](rn/using/release-notes-2021.md)
       + [2020년 릴리스 정보](rn/using/release-notes-2020.md)
       + [2019년 릴리스 정보](rn/using/release-notes-2019.md)
       + [2018년 릴리스 정보](rn/using/release-notes-2018.md)
@@ -269,6 +269,7 @@ ht-degree: 99%
          + [통합 앱과 시스템 연결](integrating/using/d365-acs-self-service-app-settings.md)
          + [동기화 워크플로우 관리](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Microsoft Dynamics 365와 Campaign 간 데이터 매핑](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [JWT에서 OAuth 서버 간 자격 증명으로 마이그레이션](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [Microsoft Dynamics 365 통합 사용](integrating/using/d365-acs-using-the-integration.md)
    + Campaign과 Adobe Experience Platform {#adobe-experience-platform}
       + [소스 및 대상 시작](integrating/using/get-started-sources-destinations.md)

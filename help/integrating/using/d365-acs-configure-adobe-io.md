@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
@@ -59,21 +59,13 @@ Adobe I/O을 사용하면 Adobe Campaign Standard 및 기타 Adobe 제품에 대
 
    ![](assets/adobeIO2.png)
 
-1. Adobe Campaign API를 선택하고(아래쪽으로 스크롤해야 할 수 있음) **[!UICONTROL Next]**.
+1. Adobe Campaign을 선택하고 **[!UICONTROL Next]**.
 
    ![](assets/adobeIO3.png)
 
-1. 다음 화면에서는 자신의 공개 키를 업로드하거나 Adobe Developer에서 키 쌍을 생성하도록 하는 옵션이 있습니다. 이 지침은 후자의 옵션을 따릅니다. Adobe Developer에서 키 쌍을 생성하도록 하려면 옵션 1을 클릭한 다음 를 클릭합니다 **[!UICONTROL Generate keypair]** 단추를 클릭합니다.
+1. 다음 화면에서는 인증 유형을 선택할 수 있는 옵션이 제공됩니다. OAuth 서버 간 또는 서비스 계정(JWT)을 선택할 수 있습니다. 서비스 계정(JWT) 자격 증명은 더 이상 새 프로젝트에 권장되지 않으며, 최신 OAuth 서버 간 자격 증명을 위해 더 이상 사용되지 않습니다. 이 안내서에 제공된 지침은 OAuth 서버 간 인증에만 적용됩니다.
 
    ![](assets/adobeIO4.png)
-
-1. 다음 화면에서는 키 쌍 zip 파일의 이름을 지정하고 다운로드 위치를 선택하라는 메시지가 표시됩니다.
-
-다운로드한 후에는 파일의 압축을 해제하여 공개 및 개인 키를 표시할 수 있습니다. Adobe Developer이 이미 Adobe Developer 프로젝트에 공개 키를 적용했습니다. 개인 키는 나중에 사용할 수 있도록 유지해야 합니다. 이 개인 키는 통합 도구의 통합 전 설정 중에 사용됩니다.
-
-1. 클릭 **[!UICONTROL Next]** 계속하려면
-
-   ![](assets/adobeIO5.png)
 
 1. 다음 화면에서는 이 프로젝트와 연결할 제품 프로필을 선택합니다. 제목에 포함된 제품 프로필 선택: Campaign 인스턴스의 테넌트 ID - [!UICONTROL Administrators]
 
@@ -81,11 +73,11 @@ Adobe I/O을 사용하면 Adobe Campaign Standard 및 기타 Adobe 제품에 대
 
 1. **[!UICONTROL Save configured API]**&#x200B;를 클릭합니다.
 
-   ![](assets/adobeIO6.png)
+   ![](assets/adobeIO5.png)
 
 1. 다음 화면에서는 새 Adobe Developer 프로젝트에 대한 세부 사항이 표시됩니다. 클릭 **[!UICONTROL Add to Project]** 화면 왼쪽 상단에서 을 선택합니다. **API** 드롭다운에서.
 
-   ![](assets/adobeIO7.png)
+   ![](assets/adobeIO6.png)
 
 1. 다음 화면에서는 I/O 이벤트 API를 선택한 다음 를 클릭합니다. **[!UICONTROL Next]**.
 
@@ -103,8 +95,7 @@ Campaign의 사전 통합 설정이 완료되었습니다.
 
 * [Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성](../../integrating/using/d365-acs-configure-adobe-io.md) 통합 설정의 다음 단계입니다.
 * [통합 셀프 서비스 애플리케이션 개요](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 통합을 시작하고 실행하는 전체 단계 목록이 포함되어 있습니다.
-
-
 * [Adobe Developer - 서비스 계정 통합](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API 액세스 설정](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Dynamics 365 통합](../../integrating/using/d365-acs-configure-d365.md)
+* [JWT에서 OAuth 서버 간 자격 증명으로 마이그레이션](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) jwt에서 OAuth 서버 간 자격 증명으로 마이그레이션하는 단계를 포함합니다.

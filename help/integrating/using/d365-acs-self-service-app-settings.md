@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 4%
+source-wordcount: '670'
+ht-degree: 5%
 
 ---
 
@@ -39,11 +39,10 @@ Microsoft Dynamics 365 자격 증명은 통합 응용 프로그램에 Microsoft 
 
 Adobe Campaign 자격 증명은 다음을 사용하여 생성됩니다 [Adobe I/O](https://www.adobe.io/). 화면을 방문해야 합니다. [구성 Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) 이 섹션의 입력을 작성하기 전에 지침을 따르십시오.
 
-다음 이미지는 Adobe I/O과 설정 화면 입력 간의 매핑에 대해 자세히 설명합니다.
+* JWT 기반 인증은 더 이상 사용되지 않으므로 인증 유형을 Oauth로 선택합니다.
+* 다음 이미지는 Adobe I/O과 설정 화면 입력 간의 매핑에 대해 자세히 설명합니다.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *개인 키*: &quot;공개/비공개 키 쌍 생성&quot; 버튼을 클릭하여 이를 정의하는 프로세스가 시작됩니다. 이렇게 하면 다운로드해야 하는 zip 파일이 생성됩니다. 다운로드하고 나면 파일의 압축을 해제하면 certificate_pub.crt 및 private.key라는 두 개의 파일이 생성됩니다. private.key를 안전한 곳에 보관하고 공유하지 마십시오. 텍스트 편집기에서 private.key 파일을 엽니다. 텍스트 편집기에서 전체 값을 복사합니다(PC에서는 ctrl-A를 누른 다음 ctrl-C를 누르거나 Mac에서는 cmd-A를 누른 다음 cmd-C). 여기에는 전체가 &quot;BEGIN PRIVATE KEY&quot; 및 &quot;END PRIVATE KEY&quot;로 된 줄이 포함되어야 합니다. 여러 줄로 된 이 전체 텍스트를 설정 화면의 &quot;개인 키&quot; 입력에 붙여넣습니다.
 
 * *URL*: 이 값은 https\://mc.adobe.io/ 패턴에 맞습니다.&lt;campaign-instance-name>. 통합 앱의 헤더에는 &quot;조직&quot;과 &quot;인스턴스&quot;가 모두 포함됩니다. URL의 &quot;campaign-instance-name&quot; 부분은 이 인스턴스 값에 있는 이름일 뿐입니다.
 
