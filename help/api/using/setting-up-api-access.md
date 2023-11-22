@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '406'
 ht-degree: 2%
 
 ---
@@ -26,6 +26,11 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 1. **디지털 인증서가 있는지 확인**&#x200B;또는 필요한 경우 만드십시오. 인증서와 함께 제공되는 공개 및 개인 키는 다음 단계에서 필요합니다.
 1. **Adobe Campaign 서비스에 대한 새 통합 만들기** 위치: [Adobe Developer](https://developer.adobe.com/) 및 를 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
 1. **JSON 웹 토큰(JWT) 생성** 이전에 생성한 자격 증명에서 개인 키로 서명합니다. JWT는 Adobe이 사용자의 ID를 확인하고 API에 대한 액세스 권한을 부여하는 데 필요한 모든 ID 및 보안 정보를 인코딩합니다.
+
+   >[!AVAILABILITY]
+   >
+   >JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
+
 1. **JWT를 액세스 토큰으로 교환** POST 요청을 통해 이 액세스 토큰은 API 요청의 각 헤더에서 사용해야 합니다.
 
 보안 서비스 간 Adobe I/O API 세션을 설정하려면 Adobe 서비스에 대한 모든 요청에서 아래 정보를 인증 헤더에 포함해야 합니다.
