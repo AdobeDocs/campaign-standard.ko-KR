@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 * Campaign Standard 23.2 가을/겨울 릴리스의 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
 
-* JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
+* 현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며, 설명서에 이러한 업데이트를 반영하여 업데이트합니다.
 
 ## 2023년 10월 {#doc-updates-oct-2023}
 
