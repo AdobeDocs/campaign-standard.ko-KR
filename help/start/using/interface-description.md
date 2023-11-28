@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 77%
 
 ---
@@ -77,7 +77,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
    * a **[!UICONTROL Learning]** Adobe Campaign 교육 과정 라이브러리에 액세스할 수 있는 링크입니다.
    * a **[!UICONTROL Community]** campaign에 대한 질문 전용 포럼에 액세스하기 위한 링크입니다.
    * 에 대한 직접 액세스 권한: 도움말 센터, 고객 지원 센터, Experience Cloud 제품 상태, 개발자 연결, 릴리스 노트, 릴리스 계획 및 **[!UICONTROL About]** 화면.
-1. 다음 **[!UICONTROL Support]** 탭에서는 지원 사례를 열고 전화 또는 Twitter으로 문의할 수 있습니다.
+1. 다음 **[!UICONTROL Support]** 탭에서는 지원 사례를 열고 전화 또는 X(이전에는 Twitter)로 문의할 수 있습니다.
 1. 다음 **[!UICONTROL Feedback]**  탭에서는 문제를 보고하거나 아이디어를 쉽게 공유할 수 있습니다.
 
 ## 고급 메뉴 {#advanced-menu}
