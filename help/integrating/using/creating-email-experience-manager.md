@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
@@ -43,6 +43,7 @@ Adobe Campaign과 관련된 몇 가지 템플릿을 사용할 수 있습니다. 
 1. Adobe Experience Manager에서 새로 만들기 **[!UICONTROL Page]**.
 
 1. 다음 항목 선택 **[!UICONTROL Adobe Campaign Email]** 템플릿. 자세한 단계는 다음 비디오를 참조하십시오.
+
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. 새 이메일 콘텐츠를 엽니다.
@@ -64,12 +65,42 @@ Adobe Experience Manager에서 이메일 콘텐츠를 만들려면 다음 작업
 1. 추가 **[!UICONTROL Personalization fields]** 다음을 통해 **[!UICONTROL Text & Personalization]** 구성 요소. 각 구성 요소는 이미지 삽입, 개인화 추가 등의 특정 용도에 해당합니다.
 
    자세한 내용은 다음 비디오를 시청하십시오.
+
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
 1. 다음에서 **[!UICONTROL Workflow]** 탭에서 **[!UICONTROL Approve for Adobe Campaign]** 유효성 검사 워크플로우. 승인되지 않은 콘텐츠를 사용하는 경우 Adobe Campaign에서 이메일을 보낼 수 없습니다.
 
-1. 콘텐츠 및 전송 매개 변수가 정의되면 Adobe Campaign Standard에서 이메일 승인, 준비 및 전송을 진행할 수 있습니다.
+Adobe Campaign Standard에서 이메일을 보내려면
 
-   자세한 내용은 다음 비디오를 시청하십시오.
+1. 콘텐츠 및 전송 매개 변수가 정의되면 Adobe Campaign Standard에서 AEM 관련 이메일 템플릿을 기반으로 이메일을 만듭니다.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/23721)
++++ AEM 관련 템플릿에 대해 자세히 알아보십시오.
+
+   1. 고급 메뉴에서 **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**.
+
+      ![](assets/aem_templates_1.png)
+
+   1. 게재 템플릿 중 하나를 복제하거나 선택합니다.
+
+   1. 다음에서 **[!UICONTROL Properties]** 템플릿의 **[!UICONTROL Content]** 드롭다운, 선택 **[!UICONTROL Adobe Experience Manager as Content mode]** 그런 다음 Adobe Experience Manager 계정을 만듭니다.
+
+      ![](assets/aem_templates_2.png)
+
++++
+
+   ![](assets/aem_send_1.png)
+
+1. 전자 메일 속성을 입력하고 **[!UICONTROL Create]** AEM 컨텐츠를 선택할 수 있습니다.
+
+1. 액세스 **[!UICONTROL Content]** 차단합니다.
+
+   ![](assets/aem_send_2.png)
+
+1. 다음에서 **[!UICONTROL Use Adobe Experience Manager content]** 메뉴, 클릭 **[!UICONTROL Link AEM content]**.
+
+   그런 다음 이메일에 사용할 콘텐츠를 선택합니다.
+
+   ![](assets/aem_send_3.png)
+
+1. 대시보드를 통해 대상 대상 및 실행 일정과 같은 추가 매개 변수를 지정하여 이메일을 추가로 사용자 지정합니다. 구성하고 나면 이제 이메일 게재를 보낼 수 있습니다. [자세히 알아보기](../../sending/using/confirming-the-send.md)
+
