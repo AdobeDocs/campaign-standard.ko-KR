@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
+source-git-commit: 70a30f5df33af3faaaa564903de60ca45f96899c
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 61%
+source-wordcount: '882'
+ht-degree: 58%
 
 ---
 
@@ -34,6 +34,26 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
 일반적으로 향후 릴리스에서 제거될 예정인 기능은 먼저 대체 기능을 제공하며 사용 중단되는 것으로 설정됩니다. 이러한 기능은 새 Campaign Standard 고객에게 더 이상 제공되거나 새로운 구현에 사용되지 않습니다. 제품 설명서에서도 제거됩니다.
 
 고객은 현재 배포에서 기능/성능을 사용하는지 검토하고 제공된 대체 기능을 사용하기 위해 구현 변경을 계획해야 합니다. 타겟 제거 날짜를 참조하여 환경 및 프로젝트 업데이트를 알맞게 계획하십시오.
+
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>모바일 애플리케이션용 SDK V4</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Experience Platform Mobile 버전 4 SDK에 대한 지원이 2021년 8월 31일부로 종료되었습니다. Adobe Campaign Standard에서 이 레거시 버전의 SDK를 계속 사용하는 경우 Adobe Experience Platform SDK를 사용하여 구현을 업데이트해야 합니다 <strong>2024년 6월 말 이전</strong>. </p></br>
+   <p>읽기 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">이 문서</a> 구현을 조정하고 최신 Experience Platform SDK로 이동하는 방법을 알아봅니다.</p></br>
+   <p><strong>주의</strong>: SDK V4는 2024년 6월 말부터 Campaign Standard에서 더 이상 지원되지 않습니다.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 
 <table> 
@@ -124,7 +144,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Campaign 21.2 릴리스부터 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 2단계 프로필 삭제를 더 이상 사용할 수 없습니다. <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe 개인 정보 보호 핵심 서비스</a>를 사용하십시오.</p></br>
+   <td> <p>Campaign 21.2 릴리스부터 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 2단계 프로필 삭제를 더 이상 사용할 수 없습니다. 사용 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe 개인 정보 보호 핵심 서비스</a>.</p></br>
    <p>또한 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">개인 정보 보호 요청 관리</a>를 참조하십시오.</p>
   </td> 
   </tr> 
