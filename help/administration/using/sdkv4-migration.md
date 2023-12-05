@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 3b2f8d9b2b7a4ec9532917af3a0880400d98e636
+source-git-commit: 620ae1adc6f804e90c10daeb5fa4df42ce106885
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1237'
 ht-degree: 1%
 
 ---
@@ -16,17 +16,16 @@ ht-degree: 1%
 # 모바일 애플리케이션을 SDK v4에서 Adobe Experience Platform SDK로 마이그레이션하는 방법 {#sdkv4-migration}
 
 
-Adobe Experience Platform Mobile 버전 4 SDK에 대한 지원은 종료되었습니다 **2021년 8월 31일**. 이 문서에서 Adobe Experience Platform SDK로 마이그레이션하는 방법을 알아봅니다.
+Adobe Experience Platform Mobile 버전 4 SDK에 대한 지원이 2021년 8월 31일부로 종료되었습니다. 이 레거시 버전의 SDK를 계속 사용하는 경우 Adobe Experience Platform SDK를 사용하여 구현을 업데이트해야 합니다 **2024년 6월 말 이전**. 이 문서에서 Adobe Experience Platform SDK로 마이그레이션하는 방법을 알아봅니다.
 
 >[!IMPORTANT]
->
-> 마이그레이션 프로세스를 취소할 수 없습니다.
 >
 > SDK V4 모바일 애플리케이션을 Adobe Experience Platform SDK로 마이그레이션하기 전에 문서를 주의 깊게 읽어 보십시오.
 
 ## SDK V4 마이그레이션 기본 정보
 
 Adobe Campaign Standard은 SDK V4를 사용하여 모바일 애플리케이션을 Adobe Experience Platform SDK를 사용하는 애플리케이션과 별도의 애플리케이션으로 처리합니다.
+
 Adobe SDK 버전을 v4에서 Adobe Experience Platform으로 업그레이드한 후 모바일 애플리케이션은 기존 애플리케이션 구독자 데이터와 캠페인을 계속 사용해야 합니다. 따라서 마이그레이션이 필요합니다.
 
 >[!NOTE]
