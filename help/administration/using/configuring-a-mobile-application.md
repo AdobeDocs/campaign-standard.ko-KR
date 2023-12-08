@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 3%
+source-wordcount: '1220'
+ht-degree: 2%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지�
 
 1. 데이터 수집 UI에서 **[!UICONTROL Extensions]** 탭, 이동 **[!UICONTROL Catalog]**, 및 검색 **[!UICONTROL Adobe Campaign Standard]** 확장명. 자세한 내용은 [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. Campaign Standard에서 위치 사용 사례를 지원하려면 **[!UICONTROL Places]** 데이터 수집 UI의 확장. 다음을 참조하십시오. [페이지](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+1. Campaign Standard에서 위치 사용 사례를 지원하려면 **[!UICONTROL Places]** 데이터 수집 UI의 확장. 다음을 참조하십시오. [페이지](https://developer.adobe.com/client-sdks/solution/places).
 
 1. Adobe Campaign Standard에서 데이터 수집 UI에서 만든 모바일 속성을 구성합니다. 을(를) 참조하십시오 [Adobe Campaign에서 Adobe Experience Platform Launch 애플리케이션 설정](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
@@ -106,7 +106,7 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방�
 
    ![](assets/launch_4.png)
 
-1. 모바일 애플리케이션의 조직 단위는 **[!UICONTROL Access Authorization]** 섹션: 이 모바일 애플리케이션에 대한 액세스를 특정 조직 단위로 제한합니다. 자세한 정보는 이 페이지를 참조하십시오.
+1. 모바일 애플리케이션의 조직 단위는 **[!UICONTROL Access Authorization]** 섹션: 이 모바일 애플리케이션에 대한 액세스를 특정 조직 단위로 제한합니다. 자세한 정보는 이 페이지 를 참조하십시오.
 
    여기에서 관리자는 드롭다운에서 하위 조직 단위를 선택하여 하위 조직 단위를 할당할 수 있습니다.
 

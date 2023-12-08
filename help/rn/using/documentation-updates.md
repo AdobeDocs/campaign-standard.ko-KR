@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: ht
-source-wordcount: '7336'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '7211'
+ht-degree: 99%
 
 ---
 
@@ -115,7 +115,7 @@ A/B 테스트 이메일 섹션에 메모를 추가했습니다. 총 모집단이
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-트랜잭션 푸시 알림에서 타깃 매핑을 변경하는 방법에 대한 정보를 추가했습니다. [자세히 알아보기](../../channels/using/transactional-push-notifications.md#change-target-mapping)
+트랜잭션 푸시 알림에서 타깃 매핑을 변경하는 방법에 대한 정보를 추가했습니다. [자세히 보기](../../channels/using/transactional-push-notifications.md#change-target-mapping)
 
 ## 2021년 5월 {#doc-updates-may-2021}
 
@@ -232,7 +232,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 트랜잭션 메시지 시작을 위한 새로운 업데이트 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
-**트랜잭션 메시지 제한** 섹션을 [여기](../../channels/using/transactional-messaging-limitations.md)로 이동했습니다..
+다음 **트랜잭션 메시지 제한 사항** 섹션이 이동되었습니다. [여기](../../channels/using/transactional-messaging-limitations.md).
 
 **전송 준비** 섹션이[ 여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
 
@@ -240,9 +240,9 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추가되었습니다. [자세한 내용](../../administration/using/monitoring-guidelines.md)
 
-외부 API 보안 및 제한 섹션이 업데이트되었습니다. [자세한 내용](../../automating/using/external-api.md#guardrails)
+외부 API 보안 및 제한 섹션이 업데이트되었습니다. [자세히 보기](../../automating/using/external-api.md#guardrails)
 
-개인 정보 관리 개요 페이지가 태국 PDPA(개인 정보 보호법) 및 브라질 LGPD(Lei Geral de Proteção de Dados)와 관련한 정보를 포함하도록 업데이트되었습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+개인 정보 관리 개요 페이지가 태국 PDPA(개인 정보 보호법) 및 브라질 LGPD(Lei Geral de Proteção de Dados)와 관련한 정보를 포함하도록 업데이트되었습니다. [자세히 보기](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 모바일 채널 가이드가 다시 구성되고 개선되었습니다. 모바일 구성에 대한 기술 설명서와 함께 모바일 채널 구성에 대한 새 안내서가 추가되었습니다. [자세한 내용](../../administration/using/push-tracking.md)
 
@@ -346,7 +346,7 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 
 이메일 BCC를 통해 아카이빙하는 방법에 대한 섹션을 이동 및 업데이트했습니다. [자세한 내용](../../sending/using/archiving.md)
 
-모바일 애플리케이션 구성 설명서 및 관련 페이지에 SDK V4 사용 중단을 반영하여 업데이트했습니다. [자세한 내용](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
+모바일 애플리케이션 구성 설명서 및 관련 페이지에 SDK V4 사용 중단을 반영하여 업데이트했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 Adobe Campaign Standard/Adobe Experience Manager 통합 설명서를 업데이트 및 개선했습니다. [자세한 내용](../../integrating/using/configure-experience-manager.md)
 

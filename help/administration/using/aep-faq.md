@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '856'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Adobe Experience Platform SDK 및 Campaign Standard 통합에 대한 자세한 �
 
 예, [!DNL Adobe Experience Platform SDK] Adobe Campaign Standard과 Adobe Campaign Classic 모두에서 통합을 사용할 수 있습니다. 해당 을(를) 설치해야 합니다. **[!UICONTROL Extension]** 를 통해 [!DNL Data Collection UI] 통합을 활성화하십시오.
 
-자세한 정보는 다음을 참조하십시오. [페이지]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)을 참조하십시오.
+자세한 정보는 이 [페이지](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)를 참조하십시오.
 
 ## Adobe Experience Platform SDK 통합은 Adobe Campaign에서 어떤 기능을 용이하게 합니까? {#aep-capabilities}
 
@@ -98,7 +98,7 @@ CollectPII 호출의 빈도와 디자인은 비즈니스 요구 사항에 따라
 
 * EXPERIENCE PLATFORM SDK [설명서](https://developer.adobe.com/client-sdks/documentation/)
 * Launch 및 Experience Platform SDK 시작하기 [설명서](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Experience Platform SDK로 업그레이드 [설명서](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* Experience Platform SDK로 업그레이드 [설명서](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
 * Github Experience Platform SDK [설명서](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## 푸시 알림 게재를 만드는 동안 &quot;게재 시 쓰기 권한이 없습니다&quot;라는 오류가 발생합니다. {#write-access-error}

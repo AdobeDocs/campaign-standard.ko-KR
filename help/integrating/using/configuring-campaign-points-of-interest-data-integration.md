@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 2%
+source-wordcount: '1252'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 Adobe Experience Platform SDK로 구성된 모바일 애플리케이션에서 Adobe Experience Platform 위치 서비스를 사용하려면 다음을 수행해야 합니다.
 
-1. 추가 **[!UICONTROL Places]** 데이터 수집 UI에서 모바일 앱 구성에 대한 확장입니다. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. 다음을 참조하십시오 [Places 확장 설치](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
+1. 추가 **[!UICONTROL Places]** 데이터 수집 UI에서 모바일 앱 구성에 대한 확장입니다. Adobe Campaign에서 모바일 애플리케이션을 설정합니다. 다음을 참조하십시오 [Places 확장 설치](https://developer.adobe.com/client-sdks/solution/places).
 
 1. 확장이 설정되면 데이터 수집 UI 내에서 데이터 요소를 만들어 이러한 확장에서 데이터를 검색합니다. 다음을 참조하십시오. [페이지](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 을 클릭하여 데이터 요소를 만듭니다.
 

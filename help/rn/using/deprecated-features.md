@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 70a30f5df33af3faaaa564903de60ca45f96899c
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
 source-wordcount: '882'
 ht-degree: 58%
@@ -127,7 +127,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Campaign 20.1 릴리스부터 SDK v4는 더 이상 사용되지 않습니다. 이제 제거되었습니다. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">자세히 알아보기</a></p><br/>
+   <td> <p> Campaign 20.1 릴리스부터 SDK v4는 더 이상 사용되지 않습니다. 이제 제거되었습니다. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html">자세히 알아보기</a></p><br/>
    <p>다음 <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (이전 이름 v5)는 이제 예정된 Adobe Experience Cloud 기능 및 기능을 독점적으로 지원합니다.</p>
    <p>2021년 8월 31일 이후에도 고객은 버전 4 SDK를 계속 다운로드하여 사용할 수 있지만 고객 지원 센터 또는 포럼에 액세스할 수는 없습니다.</p>
    <p>SDK v4에서 Adobe Experience Platform Mobile SDK로 마이그레이션하는 방법에 대해 알아봅니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">이 페이지에서</a>.</p></br>
