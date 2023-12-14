@@ -7,11 +7,12 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '5211'
-ht-degree: 99%
+source-wordcount: '5267'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 99%
 <tbody> 
 <tr> 
   <td> <p>모든 Adobe Campaign Standard 고객을 위한 Journey AI를 발표하게 되어 매우 기쁘게 생각합니다.</p>
-  <p>Journey AI는 고급 ML(기계 학습)을 사용하여 기업이 각 개인의 참여 선호도를 예측하여 고객 경로의 디자인과 게재를 최적화할 수 있도록 합니다.</p>
+  <p>여정 AI는 고급 ML(기계 학습)을 사용하여 기업이 각 개인의 참여 선호도를 예측하여 고객 여정의 디자인과 게재를 최적화할 수 있도록 합니다.</p>
   <P>Journey AI는 다음 두 가지 ML 기능으로 구성됩니다.</p>
 <ul> 
      <li> <strong>예측 참여 점수 책정</strong> - 고객이 선호하는 참여 수준을 지능적으로 식별하여 메시지를 보다 효과적으로 타겟팅하고 개인화하여 전환율과 유지율을 높일 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">방법 비디오</a>보기</li> 
@@ -235,7 +236,7 @@ ht-degree: 99%
 **추가 기능** (7월 13일부터 시작)
 
 * **AI 기반의 전송 시간 최적화 및 프로필 점수 책정** - 이제 고객 여정의 디자인과 게재를 최적화하여 각 개인의 참여 선호도를 예측할 수 있습니다. Journey AI를 기반으로 하는 Adobe Campaign은 참여 지표 기록을 기반으로 공개 비율, 최적의 전송 시간, 가능한 이탈률을 분석하고 예측합니다. [자세히 알아보기](../../sending/using/predictive.md)
-* **브라질의 새로운 개인 정보 보호 규정** - Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 쉽게 대처할 수 있도록 도와줍니다. 개인 정보 보호 요청을 만들 때 Adobe 개인 정보 보호 핵심 서비스에 LGPD 규정이 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)
+* **브라질의 새로운 개인 정보 보호 규정** - Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 쉽게 대처할 수 있도록 Adobe을 지원합니다. 개인 정보 보호 요청을 만들 때 Adobe 개인 정보 보호 핵심 서비스에 LGPD 규정이 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)
 
 **향상된 기능**
 
@@ -266,7 +267,7 @@ ht-degree: 99%
 
 **Experience Platform 통합**
 
-* **대상자 읽기** 활동에서 Adobe Experience Platform 대상자의 활성화를 개선하여 더 나은 성능과 안정성을 제공합니다. 또한 워크플로우 로그가 활성화 작업에 대해 더욱 명확하고 자세해졌으므로 Adobe Experience Platform 대상자를 읽어올 때 보다 손쉽게 모니터링하고 문제를 해결할 수 있습니다.
+* 에서 Adobe Experience Platform 대상 활성화 **대상자 읽기** 더 나은 성능과 안정성을 제공하기 위해 활동이 개선되었습니다. 또한 워크플로우 로그가 활성화 작업에 대해 더욱 명확하고 자세해졌으므로 Adobe Experience Platform 대상자를 읽어올 때 보다 손쉽게 모니터링하고 문제를 해결할 수 있습니다.
 
 **패치**
 
@@ -274,7 +275,7 @@ ht-degree: 99%
 * 프로필 리소스를 사용자 정의 리소스로 확장한 경우 프로필의 마케팅 기록이 표시되지 않는 문제를 수정했습니다. (CAMP-41009)
 * 편집기를 열 때 기본 랜딩 페이지 템플릿의 콘텐츠가 프랑스어로 표시되는 문제를 수정했습니다. (CAMP-41639)
 * 다이내믹 콘텐츠가 있는 푸시 알림에 이모지가 표시되지 않는 문제를 수정했습니다. (CAMP-40715)
-* **중복 제거** 활동 시 아웃바운드 보완 전환 중 하나에 잘못된 세그먼트 코드가 할당될 수 있는 문제를 수정했습니다. (CAMP-41400)
+* **중복 제거** 활동 시 아웃바운드 보조 항목 전환 중 하나에 잘못된 세그먼트 코드가 할당될 수 있는 문제를 수정했습니다. (CAMP-41400)
 * 예약된 보고서가 삭제되지 않는 오류를 수정했습니다. (CAMP-41302)
 * 게재 대시보드와 **게재 요약** 보고서 간에 불일치가 발생하는 문제를 수정했습니다 . (CAMP-41145)
 * 다운로드한 보고서에서 문자가 겹쳐 표시되는 문제를 수정했습니다.
@@ -283,7 +284,7 @@ ht-degree: 99%
 * 워크플로우의 **종료** 또는 **파일 전송** 활동에서 charIndex 함수가 작동하지 않는 문제를 수정했습니다.
 * 워크플로우에서 연결된 타겟 리소스를 포함하는 두 개의 입력 활동과 **데이터 보강** 활동을 함께 사용할 때 발생할 수 있는 문제를 수정했습니다. (CAMP-42133)
 * 알 수 없는 함수를 사용할 때 워크플로우가 실행되지 않는 문제를 수정했습니다. (CAMP-41873)
-* 워크플로우에서 아웃바운드 전환을 보완하는 여러 **대상자 저장** 활동을 사용하여 대상자를 만들 때 발생할 수 있는 문제를 수정했습니다. (CAMP-39992)
+* 워크플로우에서 아웃바운드 보조 항목 전환이 있는 여러 **저장 대상** 활동을 사용해 대상을 생성할 때 발생할 수 있는 문제를 수정했습니다.  (CAMP-39992)
 * 트랜잭션 이메일에서 개인화를 사용할 때 데이터 불일치가 발생하는 문제를 수정했습니다. (CAMP-41842)
 * 푸시 알림 게재에서 사용자 정의 필드를 삭제할 때 발생하는 문제를 수정했습니다. (CAMP-37586)
 * 사용자가 보고서를 변경할 수 없는 오류를 수정했습니다. (CAMP-42505)
@@ -359,7 +360,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 
 >[!NOTE]
 >
->현재 Campaign Standard의 Adobe Experience Platform 기능은 Beta 버전으로, 사전 통지 없이 수시로 업데이트될 수 있습니다. 세부 설명서 Experience Platform 데이터 커넥터, 대상자 대상을 참조하십시오. 
+>현재 Campaign Standard의 Adobe Experience Platform 기능은 Beta 버전으로, 사전 통지 없이 수시로 업데이트될 수 있습니다. 세부 설명서 Experience Platform 데이터 커넥터, 대상 을 참조하십시오.
 
 * 이제 Campaign은 워크플로우 로그에서 10분마다 현재 실행 중인 작업에 의해 이미 처리된 레코드 수를 표시합니다.
 * 데이터베이스에서 삭제된 Adobe Experience Platform 프로필을 가져올 때 발생할 수 있는 문제를 수정했습니다.

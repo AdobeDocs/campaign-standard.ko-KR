@@ -1,20 +1,19 @@
 ---
-title: 푸시 알림 채널 예정된 변경 사항
-description: 푸시 알림 채널 예정된 변경 사항
+title: 푸시 알림 채널 변경 예정 사항
+description: 푸시 알림 채널 변경 예정 사항
 audience: channels
 feature: Push
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-source-git-commit: 9b7b127d92628169249c64ce85147d530b32a2cc
+exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '322'
+ht-degree: 5%
 
 ---
 
-# 푸시 알림 채널 예정된 변경 사항 {#push-upgrade}
+# 푸시 알림 채널 변경 예정 사항 {#push-upgrade}
 
 Campaign을 사용하여 Android 및 iOS 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 수행하기 위해 Campaign은 특정 구독 서비스를 사용합니다. Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줍니다. 또한 iOS 앱의 경우 Adobe에서 관리자가 인증서를 구성할 수 있도록 하는 방법을 변경하고 있습니다.
 
