@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard을 사용하는 데 필요한 주요 기능, 작업, 설정 및 기타 리소스에 대한 도움말 센터
 title: Campaign Standard 안내서
 breadcrumb-title: Adobe Campaign Standard 도움말
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: 54910a648abfcf479562d7b66792976ae0aa37cc
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1777'
 ht-degree: 100%
 
 ---
@@ -447,6 +447,7 @@ ht-degree: 100%
       + [Adobe Campaign Standard 사용 사례를 지원하기 위한 태그 규칙 구성](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard에서 지원하는 모바일 사용 사례](administration/using/supported-mobile-use-cases.md)
       + [모바일 애플리케이션을 SDK v4에서 Adobe Experience Platform SDK로 마이그레이션하는 방법](administration/using/sdkv4-migration.md)
+      + [푸시 알림 채널 변경 예정 사항](administration/using/push-technote.md)
    + SMS 채널 구성 {#configuring-sms}
       + [SMS 채널 구현](administration/using/configuring-sms-channel.md)
       + [SMS 커넥터 프로토콜 및 설정](administration/using/sms-protocol.md)
