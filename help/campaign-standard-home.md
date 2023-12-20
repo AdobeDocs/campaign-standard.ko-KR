@@ -4,9 +4,9 @@ title: Adobe Campaign Standard 제품 설명서
 description: Campaign Standard 제품 설명서 찾아보기
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 7dc9871c3fdc12242e22d094907bd48777a9a95a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 10%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 10%
 
 ## 새로운 기능
 
-Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세 정보를 확인하십시오 [릴리스 정보](rn/using/release-notes.md). 다음을 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오. [설명서 업데이트 페이지](rn/using/documentation-updates.md).
+Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세한 [릴리스 정보](rn/using/release-notes.md)를 확인하십시오. [설명서 업데이트 페이지](rn/using/documentation-updates.md)를 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오.
 
 >[!BEGINTABS]
 
@@ -26,13 +26,13 @@ Campaign Standard 23.2 릴리스의 새로운 기능, 개선 사항 및 수정 �
 
 >[!TAB AI 기반 이메일]
 
-AI 기반의 이메일을 통해 디자인 및 게재를 최적화합니다.
+AI 기반의 이메일을 통해 디자인 및 게재 최적화하십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](sending/using/predictive.md)
 
 >[!TAB Campaign - RTCDP 통합]
 
-Campaign과 RTCDP(Real-time Customer Data Platform) 간에 데이터를 공유하는 방법을 알아봅니다.
+Campaign 및 RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공유하는 방법을 알아보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
 
@@ -44,7 +44,7 @@ Campaign과 RTCDP(Real-time Customer Data Platform) 간에 데이터를 공유�
   <tr style="border: 0;">
     <td>
     <a href="start/using/about-the-interface.md"><img src="assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>사용자 인터페이스</strong><br/>Journey Optimizer에서 경험을 탐색하고 최적화하는 방법을 알아봅니다.</div>
+    <div><strong>사용자 인터페이스</strong><br/>Journey Optimizer에서 경험을 탐색하고 최적화하는 방법을 알아보십시오.</div>
     </td>
     <td>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><img src="assets/do-not-localize/start-designer.png"></a>
@@ -52,11 +52,11 @@ Campaign과 RTCDP(Real-time Customer Data Platform) 간에 데이터를 공유�
     </td>
     <td>
     <a href="channels/using/get-started-communication-channels.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
-    <div><strong>통신 채널</strong><br/>여러 채널(이메일, SMS, 푸시 알림 등)에서 메시지를 보내는 방법을 알아봅니다.
+    <div><strong>통신 채널</strong><br/>여러 채널(이메일, SMS, 푸시 알림 등)에서 메시지를 보내는 방법을 알아보십시오.
     </td>
     <td>
     <a href="automating/using/building-a-workflow.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
-    <div><strong>첫 번째 워크플로우 구축</strong><br/>워크플로우 작성을 위한 주요 원칙과 모범 사례에 대해 알아봅니다.</div>
+    <div><strong>첫 번째 워크플로우 구축</strong><br/>워크플로우 작성을 위한 주요 원칙과 모범 사례에 대해 알아보십시오.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -73,7 +73,7 @@ Campaign과 RTCDP(Real-time Customer Data Platform) 간에 데이터를 공유�
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>고객 경험</strong><br/><a href="sending/using/track-and-monitor.md">메시지 모니터링</a> - <a href="channels/using/getting-started-with-transactional-msg.md">트랜잭션 메시지</a> - <a href="channels/using/getting-started-with-landing-pages.md">랜딩 페이지</a> - <a href="reporting/using/about-dynamic-reports.md">보고</a> - <a href="start/using/privacy-management.md">개인 정보 보호</a>
+      <strong>고객 경험</strong><br/><a href="sending/using/track-and-monitor.md">메시지 모니터링</a> - <a href="channels/using/getting-started-with-transactional-msg.md">트랜잭션 메시지</a> - <a href="channels/using/getting-started-with-landing-pages.md">랜딩 페이지</a> - <a href="reporting/using/about-dynamic-reports.md">보고</a> - <a href="start/using/privacy-management.md">개인 정보</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px"><br/>
@@ -91,7 +91,7 @@ Campaign과 RTCDP(Real-time Customer Data Platform) 간에 데이터를 공유�
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>프로필 및 대상자</strong><br/><a href="audiences/using/about-audiences.md">대상</a> - <a href="audiences/using/about-profiles.md">프로필</a> - <a href="audiences/using/about-subscriptions.md">구독</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">옵트인 및 옵트아웃</a>
+      <strong>프로필 및 대상자</strong><br/><a href="audiences/using/about-audiences.md">대상자</a> - <a href="audiences/using/about-profiles.md">프로필</a> - <a href="audiences/using/about-subscriptions.md">구독</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">옵트인 및 옵트아웃</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-data.svg" width="35px"><br/>
@@ -104,9 +104,9 @@ Campaign과 RTCDP(Real-time Customer Data Platform) 간에 데이터를 공유�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>유용한 페이지</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html" target="_blank">제품 설명</a> - <a href="rn/using/deprecated-features.md">사용이 중단되거나 제거된 기능</a> - <a href="rn/using/release-planning.md">릴리스 계획</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html" target="_blank">제품 설명</a> - <a href="rn/using/deprecated-features.md">사용이 중단되거나 제거된 기능</a> - <a href="rn/using/release-planning.md">릴리스 계획</a>
 </td>
 <td><strong>기술 리소스</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 트리거</a> - <a href="api/using/get-started-apis.md">캠페인 API</a> - <a href="https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html" target="blank">기술 참고 사항</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko" target="_blank">Campaign 컨트롤 패널 설명서</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko">오류 메시지 목록</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 트리거</a> - <a href="api/using/get-started-apis.md">캠페인 API</a> - <a href="https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html" target="blank">기술 정보</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko" target="_blank">Campaign 컨트롤 패널 설명서</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko">오류 메시지 목록</a>
 </td>
 </tr></table>
