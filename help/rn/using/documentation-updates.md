@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7240'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 ## 2023년 12월 {#doc-updates-dec-2023}
 
-Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줍니다. 다음에서 자세히 알아보기 [이 기술 노트](../../administration/using/push-technote.md).
+Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줍니다. [이 기술 노트](../../administration/using/push-technote.md)에서 자세히 알아보십시오.
 
 ## 릴리스 23.2 - 2023년 가을 {#release-23-2}
 
@@ -236,7 +236,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 트랜잭션 메시지 시작을 위한 새로운 업데이트 섹션을 사용할 수 있습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
 
-다음 **트랜잭션 메시지 제한 사항** 섹션이 이동되었습니다. [여기](../../channels/using/transactional-messaging-limitations.md).
+**트랜잭션 메시지 제한** 섹션을 [여기](../../channels/using/transactional-messaging-limitations.md)로 이동했습니다.
 
 **전송 준비** 섹션이[ 여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
 
@@ -350,7 +350,7 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 
 이메일 BCC를 통해 아카이빙하는 방법에 대한 섹션을 이동 및 업데이트했습니다. [자세한 내용](../../sending/using/archiving.md)
 
-모바일 애플리케이션 구성 설명서 및 관련 페이지에 SDK V4 사용 중단을 반영하여 업데이트했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+모바일 애플리케이션 구성 설명서 및 관련 페이지에 SDK V4 사용 중단을 반영하여 업데이트했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=ko)
 
 Adobe Campaign Standard/Adobe Experience Manager 통합 설명서를 업데이트 및 개선했습니다. [자세한 내용](../../integrating/using/configure-experience-manager.md)
 
