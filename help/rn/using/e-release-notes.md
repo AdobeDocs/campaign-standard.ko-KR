@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 602aca18af81625b9756a8f2020b5bc636199b96
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 > 이 콘텐츠는 단계 환경 업그레이드일까지 사전 통지 없이 변경될 수 있습니다. 자세한 내용은 [릴리스 계획 페이지](../../rn/using/release-planning.md)를 참조하세요.
 
-## 릴리스 23.2 - 2023년 가을/겨울 릴리스 {#fall-23}
+## 릴리스 24.1 - 2024년 겨울 릴리스 {#winter-24}
 
 >[!AVAILABILITY]
 >
@@ -31,25 +31,9 @@ ht-degree: 100%
 
 ### 개선 사항 {#e-rn-improvements}
 
-* **Adobe Experience Manager와 통합**. 이제 Adobe Experience Manager에서 트랜잭션 메시지에 개인화된 게재 템플릿을 만들 때 드롭다운에서 Campaign Standard에 정의된 개인화 필드를 선택해 사용할 수 있습니다.
+Adobe Campaign Standard 24.1은 HTTP v1 API를 사용하여 Android 푸시 알림 메시지를 보내어 예정된 FCM 변경 사항과의 호환성을 보장합니다. [이 기술 노트](../../administration/using/push-technote.md)에서 자세히 알아보십시오.
 
-* **쿠키 만료** - 이제 기본 쿠키 만료가 6개월로 설정되어 프랑스 데이터 보호 기관(CNIL) 권장 사항을 준수합니다.
-
-* **프로필 검색 개선** - 프로필 검색이 최적화되어 검색 시간 초과를 줄일 수 있습니다.
-
-* **지역화** - 메시지를 받을 프로필 그룹을 참조할 때 &quot;대상자&quot;라는 용어의 번역이 다음 언어의 모든 Digital Experience 제품에서 일치합니다.
-
-   * 독일어: Zielgruppe
-   * 포르투갈어(브라질): público-alvo
-   * 스페인어: público destinatario
-
-  이러한 변경 사항은 다음 UI 및 설명서 릴리스를 통해 점진적으로 적용됩니다.
-
-### 기타 변경 사항 {#e-rn-other-changes}
-
-* 이제 트랜잭션 메시징에서 쉼표로 구분된 여러 선호도를 사용할 수 있습니다.
 
 ### 수정 사항 {#e-rn-fixes}
 
-* 대규모 워크플로우를 사용할 때 성능 문제를 초래할 수 있는 회귀 문제를 해결했습니다. (CAMP-53369)
-* 워크플로우 경고 또는 알림의 이메일 링크가 작동하지 않는 문제를 해결했습니다. (CAMP-51874)
+* 게재 경고 워크플로우를 중지하는 문제를 해결했습니다. 다음 오류가 발생했습니다. `division by zero`. (CAMP-49786)
