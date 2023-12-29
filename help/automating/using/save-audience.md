@@ -12,7 +12,7 @@ exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 또한 이 활동을 통해 프로필을 Adobe Experience Cloud 대상자/세그먼트로 내보낼 수 있습니다. 내보내고 나면 다른 Adobe Experience Cloud 솔루션에서 이 대상자를 활용할 수 있습니다. 공유 대상자에 대한 자세한 내용은 [Campaign 및 People 핵심 서비스로 작업](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)을 참조하십시오.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Save audience]** 활동은 기본적으로 모집단 그룹을 재사용 가능한 대상자로 전환하여 같은 워크플로우에서 계산되도록 하는 데 사용됩니다.
 

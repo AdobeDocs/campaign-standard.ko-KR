@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 4%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform 데이터 커넥터는 이제 더 이상 사용되지 않습니다. 사용 중단되는 기능은 계속 사용할 수 있지만 더 이상 향상 또는 지원되지 않습니다. [이 페이지](../../rn/using/deprecated-features.md)에서 자세히 알아보십시오
+>Adobe Experience Platform 데이터 커넥터는 이제 더 이상 사용되지 않습니다. 사용 중단되는 기능은 계속 사용할 수 있지만 더 이상 향상 또는 지원되지 않습니다. 자세히 알아보기 [이 페이지에서](../../rn/using/deprecated-features.md)
 
 Adobe Experience Platform Data Connector는 XTK 데이터(Campaign에서 수집된 데이터)를 Adobe Experience Platform의 XDM(Experience Data Model) 데이터에 매핑하여 기존 고객이 Adobe Experience Platform에서 데이터를 사용할 수 있도록 지원합니다.
 

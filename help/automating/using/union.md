@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 98%
+source-wordcount: '381'
+ht-degree: 97%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 >
 >세트가 꼭 동질적이어야 할 필요는 없습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Union]** 활동은 세분화를 수행하거나 대상자를 정의하거나 메시지 타겟을 준비할 때 인바운드 전환에서 모집단을 결합하는 데 사용됩니다.
 

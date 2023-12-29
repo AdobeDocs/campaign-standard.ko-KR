@@ -12,7 +12,7 @@ exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 **[!UICONTROL AND-join]** 활동을 사용하면 워크플로우의 여러 실행 분기를 동기화할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL AND-join]** 활동은 모든 인바운드 전환이 활성화되었을 때, 즉 앞선 활동이 모두 완료된 다음에만 아웃바운드 전환을 트리거합니다.
 

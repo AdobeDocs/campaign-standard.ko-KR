@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 99%
+source-wordcount: '915'
+ht-degree: 93%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 99%
 
 **[!UICONTROL Direct mail delivery]** 활동을 사용하면 DM 캠페인에 사용하려는 프로필 데이터가 포함된 파일을 구성하고 준비할 수 있습니다. 한 번만 사용되는 DM일 수도 있고 반복 DM일 수도 있습니다.
 
-* **표준 DM은 한 번 전송됩니다.**
-* **반복 메일을 사용하면 정의된 기간 동안 동일한 DM을 여러 타겟에 여러 번 보낼 수 있습니다.** 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
+* **표준** 다이렉트 메일은 한 번 전송됩니다.
+* **반복** 메일을 사용하면 정의된 기간 동안 동일한 dm을 여러 타겟에 여러 번 보낼 수 있습니다. 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Direct mail delivery]** 활동은 일반적으로 프로필 데이터가 포함된 파일 준비를 자동화하는 데 사용됩니다. 그런 다음 이 파일을 메일링을 담당하는 파트너/공급자에게 보낼 수 있습니다.
 

@@ -10,8 +10,8 @@ level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 2%
+source-wordcount: '384'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 
    >[!AVAILABILITY]
    >
-   >JWT(JSON 웹 토큰)는 현재 감가상각 중이며 OAuth로 대체되고 있습니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행되고 설명서는 이러한 업데이트를 반영하도록 업데이트됩니다.
+   >현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며, 설명서에 이러한 업데이트를 반영하여 업데이트합니다.
 
 1. **JWT를 액세스 토큰으로 교환** POST 요청을 통해 이 액세스 토큰은 API 요청의 각 헤더에서 사용해야 합니다.
 

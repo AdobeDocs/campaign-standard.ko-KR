@@ -10,7 +10,7 @@ exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 72%
+ht-degree: 70%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 72%
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-* [보충 자료를 넣어 게재](../../automating/using/workflow-created-query-with-complement.md)
+* [보조 항목을 넣어 게재](../../automating/using/workflow-created-query-with-complement.md)
 * [프로필이 만들어진 날짜에 게재 만들기](../../automating/using/workflow-creation-date-query.md)
 * [주간 게재 만들기](../../automating/using/workflow-weekly-offer.md)
 * [채널 간 게재 만들기](../../automating/using/workflow-cross-channel-delivery.md)
@@ -35,7 +35,7 @@ ht-degree: 72%
 * [추가 데이터를 사용하여 이메일 개인화](../../automating/using/personalizing-email-with-additional-data.md)
 * [반복 푸시 알림 보내기](../../automating/using/recurring-push-notifications.md)
 
-## 세분화 및 타기팅 {#segmentation-and-targeting}
+## 세분화 및 타겟팅 {#segmentation-and-targeting}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 

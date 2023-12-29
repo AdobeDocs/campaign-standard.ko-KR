@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 96%
+source-wordcount: '1672'
+ht-degree: 93%
 
 ---
 
 # 랜딩 페이지 디자인{#designing-a-landing-page}
 
-## 랜딩 페이지 컨텐츠 디자인 정보 {#about-content-design}
+## 랜딩 페이지 콘텐츠 디자인 정보 {#about-content-design}
 
 랜딩 페이지는 모든 [마케팅 활동](../../start/using/marketing-activities.md#about-marketing-activities)으로 만들어집니다.
 

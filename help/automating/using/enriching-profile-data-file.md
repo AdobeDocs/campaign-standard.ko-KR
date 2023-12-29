@@ -1,6 +1,6 @@
 ---
 title: 파일에 포함된 데이터로 프로필 데이터 보강
-description: 이 예에서는 파일에 포함된 구매 데이터를 사용하여 프로필 데이터를 보강하는 방법을 보여줍니다.
+description: 이 예에서는 파일에 포함된 구매 데이터를 사용하여 프로필 데이터를 보강하는 방법을 보여 줍니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 75%
+source-wordcount: '521'
+ht-degree: 72%
 
 ---
 

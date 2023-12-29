@@ -1,5 +1,5 @@
 ---
-title: 보충 자료를 넣어 게재
+title: 보조 항목을 넣어 게재
 description: 이 사용 사례는 보충 자료를 넣어 게재를 만드는 방법을 보여줍니다.
 audience: automating
 content-type: reference
@@ -12,11 +12,11 @@ exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 41%
+ht-degree: 39%
 
 ---
 
-# 보충 자료를 넣어 게재 {#deliveries-with-complement}
+# 보조 항목을 넣어 게재 {#deliveries-with-complement}
 
 고객에게 이메일을 보낼 수 있습니다. 1년 전에 만든 클라이언트의 경우 이메일, 1년 이상 전에 만든 클라이언트의 경우 이메일.
 

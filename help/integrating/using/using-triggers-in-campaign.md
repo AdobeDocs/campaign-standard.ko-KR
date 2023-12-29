@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 78%
+source-wordcount: '736'
+ht-degree: 74%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 78%
 >
 >트리거를 만들려면 다음이 필요합니다. **[!UICONTROL Administration]** 역할 또는 다음에 있을 대상: **[!UICONTROL Administrators]** 보안 그룹입니다. 자세한 내용은 다음을 참조하십시오. [페이지](../../administration/using/list-of-roles.md).
 
-Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의함을 확인해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)를 참조하십시오. 트리거를 정의할 때 별칭을 활성화해야 합니다. Adobe Experience Cloud에 각 동작(검색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대한 새로운 트리거가 추가되어야 합니다.
+Adobe Experience Cloud에서 미리 모니터링할 동작을 정의해야 합니다(**[!UICONTROL Triggers]** 핵심 서비스). 자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)를 참조하십시오. 트리거를 정의할 때 별칭을 활성화해야 합니다. Adobe Experience Cloud에 각 동작(검색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대한 새로운 트리거가 추가되어야 합니다.
 
 이제 기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만들어야 합니다.
 
@@ -89,7 +89,7 @@ Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 
 
 ![](assets/remarketing_8.png)
 
-## 보고서에 액세스 {#accessing-the-reports}
+## 보고서 액세스 {#accessing-the-reports}
 
 Adobe Campaign에서 전용 트리거 보고서를 보려면 이전에 만든 트리거 이벤트를 열고 **[!UICONTROL Show trigger report]**&#x200B;을(를) 클릭합니다.
 

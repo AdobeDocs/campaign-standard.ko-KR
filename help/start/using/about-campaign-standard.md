@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign은 개인화된 고객 경험을 구축하기 위해 온라인 �
 
 [프로필 및 대상자 시작](../../audiences/using/get-started-profiles-and-audiences.md)
 
-## 크로스채널 마케팅 캠페인 오케스트레이션 {#orchestrate-campaigns}
+## 크로스 채널 마케팅 캠페인 오케스트레이션 {#orchestrate-campaigns}
 
 <img width="60px" alt="조건" src="assets/icon_workflows.svg"/>
 

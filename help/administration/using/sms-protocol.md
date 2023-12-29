@@ -8,7 +8,7 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8650'
+source-wordcount: '8640'
 ht-degree: 1%
 
 ---
@@ -353,7 +353,7 @@ SMPP 프로토콜에서 GSM7 텍스트를 문자당 8비트로 확장하면 보�
 
 | 인코딩 | 일반적인 데이터 코딩 | 메시지 크기(문자) | 다중 부분 SMS의 부분 크기 | 사용 가능한 문자 |
 |:-:|:-:|:-:|:-:|:-:|
-| GSM 7 | 0 | 160 | 152 | GSM7 기본 문자 세트 + 확장 문자(확장 문자에는 문자 2개가 필요) |
+| GSM7 | 0 | 160 | 152 | GSM7 기본 문자 세트 + 확장 문자(확장 문자에는 문자 2개가 필요) |
 | 라틴-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS- <br>UTF-16 | 8 | 70 | 67 | 유니코드(통화 시 다름) |
 
@@ -700,7 +700,7 @@ SR 형식은 SMPP 프로토콜 사양에 의해 엄격히 적용되지 않습니
 >
 >21.1 릴리스부터 두 개 이상의 선택적 매개 변수를 추가할 수 있습니다. 자세한 정보는 이 [섹션](../../administration/using/sms-protocol.md#automatic-reply-tlv)을 참조하십시오.
 
-### MO에 자동 답장 보내기 {#automatic-reply}
+### MO로 자동 회신 전송됨 {#automatic-reply}
 
 이 기능을 사용하면 MO에 빠르게 텍스트를 응답하고 짧은 코드별로 차단 목록에 추가하다에 보내는 것을 처리할 수 있습니다.
 

@@ -11,8 +11,8 @@ level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 14%
+source-wordcount: '525'
+ht-degree: 8%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 14%
 
 * **[!UICONTROL Default affinity]**: 이 필드를 사용하면 워크플로우 또는 워크플로우 활동을 특정 컴퓨터에서 강제로 실행할 수 있습니다.
 
-* **[!UICONTROL History in days]**: 며칠 후에 기록이 제거되는지 지정합니다. 내역에는 워크플로와 관련된 요소, 즉 로그, 작업, 이벤트(워크플로 작업에 연결된 기술 개체)와 **[!UICONTROL Transfer file]** 활동. 기본 워크플로 템플릿의 경우 기본값은 30일입니다.
+* **[!UICONTROL History in days]**: 내역을 삭제해야 하는 일 수를 지정합니다. 내역에는 워크플로와 관련된 요소, 즉 로그, 작업, 이벤트(워크플로 작업에 연결된 기술 개체)와 **[!UICONTROL Transfer file]** 활동. 기본 워크플로 템플릿의 경우 기본값은 30일입니다.
 
-  기록 제거는 기본적으로 매일 실행되는 데이터베이스 정리 기술 워크플로에 의해 수행됩니다. (참조 [기술 워크플로우 목록](../../administration/using/technical-workflows.md).)
+  기록 제거는 기본적으로 매일 실행되는 데이터베이스 정리 기술 워크플로우에서 수행됩니다(참조) [기술 워크플로우 목록](../../administration/using/technical-workflows.md).)
 
   >[!IMPORTANT]
   >

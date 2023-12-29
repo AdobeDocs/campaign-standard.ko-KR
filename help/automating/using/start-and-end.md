@@ -11,7 +11,7 @@ exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 **[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동을 사용하면 워크플로우의 시작과 끝을 명확하게 표시할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 워크플로우 실행은 인바운드 전환 없이 활동으로 시작하며, 진행 중인 작업이 더 이상 없을 때 중지됩니다. 하지만 **[!UICONTROL Start]** 및 **[!UICONTROL End]** 활동을 추가하여 워크플로우의 시작과 끝 지점을 명확하게 표시할 수 있습니다. 이는 상대적으로 복잡한 워크플로우에 특히 유용합니다.
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 1%
+source-wordcount: '1016'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ CSV 파일을 업로드하여 전달할 컨텐츠를 생성하는 것은 다국�
 
 다국어 푸시를 사용하려면 CSV 파일에 14개의 열이 필요합니다.
 
-1. title
+1. 제목
 1. messageBody
 1. 사운드
 1. 변덕스럽
@@ -35,7 +35,7 @@ CSV 파일을 업로드하여 전달할 컨텐츠를 생성하는 것은 다국�
 1. isMutableContent
 1. 사용자 정의 필드
 1. 로케일
-1. language
+1. 언어
 1. silent푸시
 
 다음을 클릭하여 CSV 샘플을 확인합니다. **[!UICONTROL Download a sample file]** 다음에서 **[!UICONTROL Manage Content Variants]** 창. 자세한 정보는 다음을 참조하십시오. [섹션](../../channels/using/creating-a-multilingual-push-notification.md).
@@ -98,7 +98,7 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 
 지원되는 언어:
 
-| 로케일 | language |
+| 로케일 | 언어 |
 |:-:|:-:|
 | af_za | 아프리카 - 남아프리카 공화국 |
 | sq_al | 알바니아어 - 알바니아 |

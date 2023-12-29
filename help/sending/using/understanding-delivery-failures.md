@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 64%
+source-wordcount: '1281'
+ht-degree: 63%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 64%
 
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [바운스수](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 메시지에 대한 게재 실패 식별 {#identifying-delivery-failures-for-a-message}
 

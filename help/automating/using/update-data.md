@@ -12,7 +12,7 @@ exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 **[!UICONTROL Update data]** 활동을 사용하면 데이터베이스의 필드에 대한 대량 업데이트를 수행할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 파일을 가져온 후 **데이터 업데이트** 활동을 사용하여 복구된 데이터를 Adobe Campaign 데이터베이스에 삽입할 수 있습니다. 데이터 업데이트를 개인화할 수 있는 몇 가지 옵션을 제공합니다.
 

@@ -11,7 +11,7 @@ exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 * [패키지 배포: 운영 원칙](../../developing/using/data-model-concepts.md)
 * [리소스 추가 또는 확장](../../developing/using/key-steps-to-add-a-resource.md)
 
-## 구조 내보내기   {#exporting-the-structure}
+## 구조 내보내기 {#exporting-the-structure}
 
 이 섹션에서는 사용자 지정 리소스 데이터의 물리적 구조를 자세히 설명하는 첫 번째 패키지 내보내기를 수행합니다.
 

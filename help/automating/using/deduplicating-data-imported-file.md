@@ -1,6 +1,6 @@
 ---
 title: 가져온 파일에서 데이터 중복 제거
-description: 이 예제에서는 데이터를 데이터베이스에 로드하기 전에 가져온 파일에서 데이터를 중복 제거하는 방법을 보여줍니다.
+description: 이 예에서는 데이터를 데이터베이스에 로드하기 전에 가져온 파일에서 데이터를 중복 제거하는 방법을 보여 줍니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 89%
+source-wordcount: '329'
+ht-degree: 83%
 
 ---
 

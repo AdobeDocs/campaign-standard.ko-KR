@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
 source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 79%
+source-wordcount: '440'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 79%
 
 **[!UICONTROL Extract file]** 활동을 사용하면 Adobe Campaign의 데이터를 외부 파일 형태로 내보낼 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 활동을 구성할 때 데이터 추출 방법을 정의합니다.
 

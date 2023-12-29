@@ -1,6 +1,6 @@
 ---
 title: 조정을 사용한 데이터 업데이트
-description: 다음 예제에서는 새로운 고객을 포함하는 파일을 가져와 직접 대상자 프로필을 만드는 워크플로우를 보여줍니다.
+description: 다음 예제에서는 새 클라이언트를 포함하는 가져온 파일에서 직접 프로필 대상을 만드는 워크플로우를 보여 줍니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 67%
+ht-degree: 52%
 
 ---
 

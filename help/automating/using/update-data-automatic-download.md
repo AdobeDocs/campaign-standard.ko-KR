@@ -1,6 +1,6 @@
 ---
 title: 자동 파일 다운로드를 기반으로 데이터 업데이트
-description: 다음 예제는 파일 전송 활동을 통해 자동으로 다운로드한 파일 로드 활동 뒤에 데이터 업데이트 활동을 사용했을 때의 결과를 보여 줍니다.
+description: 다음 예제는 파일 전송 활동을 통해 자동으로 다운로드한 파일 로드 활동 뒤에 데이터 업데이트 활동을 사용했을 때의 결과를 보여줍니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 79%
+ht-degree: 70%
 
 ---
 

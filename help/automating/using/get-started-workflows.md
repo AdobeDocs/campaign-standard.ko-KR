@@ -1,5 +1,5 @@
 ---
-title: 프로세스 및 데이터 관리 시작하기
+title: 프로세스 및 데이터 관리 시작
 description: 작업 과정을 통해 프로세스를 자동화하고 데이터 및 대상자를 관리하며 메시지 전송 등을 수행할 수 있습니다.
 audience: automating
 content-type: reference
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 38%
+source-wordcount: '548'
+ht-degree: 32%
 
 ---
 
-# 프로세스 및 데이터 관리 시작하기 {#get-started-processes-data-management}
+# 프로세스 및 데이터 관리 시작 {#get-started-processes-data-management}
 
 <table>
 <tr>
@@ -50,7 +50,7 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 
 마지막으로, [데이터 관리 활동](../../automating/using/about-data-management-activities.md) 를 사용하면 데이터베이스의 데이터를 조작할 수 있습니다.
 
-자세히 표시:
+자세한 내용:
 
 * [워크플로우 작성](../../automating/using/building-a-workflow.md)
 * [워크플로우 실행](../../automating/using/about-workflow-execution.md)
@@ -64,7 +64,7 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 
 쿼리 편집기는 와 함께 제공됩니다 **사전 정의된 필터 및 규칙** 빠르고 간편한 필터링. 그러나 다음을 사용할 수도 있습니다. **고급 표현식 편집** 기능. 이렇게 하면 조건을 수동으로 입력하고 함수를 사용하여 고유한 규칙을 형성할 수 있습니다.
 
-자세히 표시:
+자세한 내용:
 
 * [쿼리 편집](../../automating/using/editing-queries.md)
 * [고급 표현식 편집](../../automating/using/advanced-expression-editing.md)
@@ -86,7 +86,7 @@ Campaign Standard은 여러 가지 기능과 함께 제공됩니다 **데이터 
 
 마지막으로, [목록 내보내기](../../automating/using/exporting-lists.md) 테스트 프로필 목록, 격리 이메일 주소 목록 등과 같은 Campaign Standard 목록을 내보낼 수 있습니다.
 
-자세히 표시:
+자세한 내용:
 
 * [데이터 가져오기 및 내보내기](../../automating/using/about-data-import-and-export.md)
 * [사용 사례: 사용자 정의 리소스 내보내기/가져오기](../../automating/using/exporting-importing-custom-resources.md)

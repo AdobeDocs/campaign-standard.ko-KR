@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 89%
+source-wordcount: '1596'
+ht-degree: 87%
 
 ---
 
@@ -72,7 +72,7 @@ SMPP 프로토콜을 사용하려면 새 외부 계정을 만들 수도 있습�
 
 ## SMS 인코딩 및 포맷 {#sms-encoding-and-formats}
 
-### SMS 인코딩, 길이 및 변환 {#sms-encoding--length-and-transliteration}
+### SMS 인코딩, 길이 및 음역 {#sms-encoding--length-and-transliteration}
 
 기본적으로 SMS의 글자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다.
 
@@ -315,7 +315,7 @@ SMS 메시지를 보낼 때 Adobe Campaign에서는 하나 또는 여러 개의 
 
   ![](assets/sms_data_coding1.png)
 
-### MO에 자동 답장 보내기 {#automatic-reply-sent-to-the-mo}
+### MO로 자동 회신 전송됨 {#automatic-reply-sent-to-the-mo}
 
 Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 수행할 작업과 자동으로 다시 보낼 메시지를 구성할 수 있습니다.
 

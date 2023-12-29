@@ -12,7 +12,7 @@ exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 74%
+ht-degree: 70%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign에서는 메시지 대상자 내에 여러 프로필 유형을 �
 
 1. 이메일의 주요 **[!UICONTROL Target]**&#x200B;을(를) 정의합니다. 이메일의 일반적인 타겟 대상자입니다.
 
-   타겟은 **[!UICONTROL Target]** 탭에서 정의되며, 데이터베이스에서 식별된 프로필로 구성됩니다. [쿼리 편집기](../../automating/using/editing-queries.md#creating-queries) 기능을 사용하여 주요 타겟을 설정할 수 있습니다.
+   대상은 다음에 정의됩니다. **[!UICONTROL Target]** 탭으로 구성되며, 데이터베이스에서 식별된 프로필로 구성됩니다. [쿼리 편집기](../../automating/using/editing-queries.md#creating-queries) 기능을 사용하여 주요 타겟을 설정할 수 있습니다.
 
    이 탭의 **[!UICONTROL Shortcuts]** 팔레트에는 사전 정의된 필터와 식별된 프로필에서 정의한 대상자만 포함됩니다. **[!UICONTROL Explorer]** 탭에서는 추가 구성에 액세스할 수 있습니다.
 

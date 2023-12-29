@@ -12,7 +12,7 @@ exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 97%
 
 ![](assets/lp_org_unit_3.png)
 
-## Google reCAPTCHA 설정 {#setting-google-recaptcha}
+## Google reCAPTCHA 설정 중 {#setting-google-recaptcha}
 
 랜딩 페이지에 Google reCAPTCHA V3를 설정하여 봇에 의한 스팸 및 남용을 방지할 수 있습니다. 랜딩 페이지에서 사용하려면 먼저 외부 계정을 만들어야 합니다. 구성 방법에 대한 자세한 내용은 이 [섹션](../../administration/using/external-accounts.md#google-recaptcha-external-account)을 참조하십시오.
 

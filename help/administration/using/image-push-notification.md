@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 18%
+source-wordcount: '414'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ Experience Cloud SDK 애플리케이션을 사용하여 푸시 알림을 전송�
 
 푸시 알림을 세밀하게 조정하기 위해 Adobe Campaign에서는 푸시 알림을 디자인하는 동안 고급 옵션 집합에 액세스할 수 있습니다.
 
-1. 푸시 알림 만들기. 자세한 정보는 이 [페이지](../../channels/using/preparing-and-sending-a-push-notification.md)를 참조하십시오.
+1. 푸시 알림을 만듭니다. 자세한 정보는 이 [페이지](../../channels/using/preparing-and-sending-a-push-notification.md)를 참조하십시오.
 
 1. 푸시 알림 콘텐츠 페이지에서 **[!UICONTROL Advanced options]** 섹션.
 

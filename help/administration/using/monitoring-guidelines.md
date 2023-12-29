@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 21%
+source-wordcount: '491'
+ht-degree: 12%
 
 ---
 
@@ -62,7 +62,7 @@ Campaign Standard 인터페이스는 이벤트 상태, 시스템 업데이트, �
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-**모범 사례 및 문제 해결**
+**우수 사례 및 문제 해결**
 
 워크플로우를 사용할 때 모범 사례 및 문제 해결 지침을 따르면 성능을 개선하는 데 도움이 될 수 있습니다.
 [자세히 보기](../../automating/using/best-practices-workflows.md)

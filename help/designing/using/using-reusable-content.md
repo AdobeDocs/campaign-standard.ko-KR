@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 2%
+source-wordcount: '1812'
+ht-degree: 1%
 
 ---
 
@@ -301,7 +301,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 이메일 디자이너를 사용하여 재사용 가능한 각 섹션에 대한 조각을 만듭니다. 이 예제에서는 머리글과 바닥글에 대해 하나씩, 이렇게 두 개의 조각을 만듭니다. 그런 다음 기존 콘텐츠의 관련 부분을 이러한 조각으로 복사할 수 있습니다.
 
-이렇게 하려면 아래 단계를 수행합니다:
+이렇게 하려면 아래 단계를 수행합니다.
 
 1. Adobe Campaign에서 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** 헤더에 대한 조각을 생성합니다. 자세한 내용은 [컨텐츠 조각 만들기](#creating-a-content-fragment).
 1. 조각에 필요한 수만큼 구조 구성 요소를 추가합니다.

@@ -12,7 +12,7 @@ exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 83%
 1. 시카고에 들어온 모든 사람과 연결하려면 대/소문자 구분 옵션의 선택을 취소하십시오.
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
-## 전자 메일 게재 만들기{#creating-an-email-delivery}
+## 이메일 게재 만들기{#creating-an-email-delivery}
 
 1. 위치 **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, 드래그 앤 드롭 [이메일 게재](../../automating/using/email-delivery.md) 각 세그먼트 뒤에 활동.
 1. 활동을 클릭하고 편집하려면 ![](assets/edit_darkgrey-24px.png)을(를) 선택합니다.

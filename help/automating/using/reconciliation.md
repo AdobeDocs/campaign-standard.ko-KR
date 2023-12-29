@@ -24,7 +24,7 @@ ht-degree: 78%
 
 **[!UICONTROL Reconciliation]** 활동을 사용하면 미식별 데이터를 기존 리소스에 연결할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Reconciliation]** 활동은 기본적으로 데이터 관리 용도로 사용되며 두 가지 다른 사용 사례에서 쓰일 수 있습니다.
 

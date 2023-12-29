@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 22%
+source-wordcount: '591'
+ht-degree: 10%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 22%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">개인정보 규정 준수</a></p></td></tr>
 </table>
 
-캠페인 통합 고객 프로필을 통해 하나의 보기에서 모든 채널에 있는 고객과의 모든 상호 작용을 추적할 수 있으므로 고객에게 연관성 있고 개인화된 메시지를 전달할 수 있습니다.
+캠페인 통합 고객 프로필을 사용하면 하나의 보기에서 모든 채널에 있는 고객과의 모든 상호 작용을 추적할 수 있으므로 고객에게 연관성 있고 개인화된 메시지를 전달할 수 있습니다.
 
 데이터베이스를 대상으로 세분화하여 마케팅 캠페인의 타겟을 최적화합니다.
 
@@ -44,7 +44,7 @@ Adobe Campaign은 실시간으로 풍부한 고객 프로필을 빌드하여 고
 
 **대상** 특정 기준 또는 기준 세트를 기반으로 구축된 프로필 목록입니다. 워크플로우 및 쿼리 편집기를 사용하여 보유하고 있는 정보, 활동 및 마케팅 내역에 따라 마케팅 캠페인이 타겟팅할 대상을 구성할 수 있습니다. 이렇게 하면 구독한 프로필, 샘플을 필터링하거나 기준을 제한 없이 타겟 대상을 만들 수 있습니다.
 
-자세히 표시:
+자세한 내용:
 
 * [프로필 기본 정보](../../audiences/using/about-profiles.md)
 * [활성 프로필](../../audiences/using/active-profiles.md)
@@ -68,7 +68,7 @@ Campaign을 사용할 때는 **간편한 옵트인 및 옵트아웃 메커니즘
 >
 >다음을 준수해야 합니다. [Adobe Campaign 허용 사용 정책](https://www.adobe.com/legal/terms/aup.html).
 
-자세히 표시:
+자세한 내용:
 
 * [구독 기본 정보](../../audiences/using/about-subscriptions.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

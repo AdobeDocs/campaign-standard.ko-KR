@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 15%
+source-wordcount: '631'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">관리 메뉴</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">사용자 및 보안</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">채널 구성</a></p></td>
-<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">애플리케이션 설정</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">응용 프로그램 설정</a></p></td></tr>
 </table>
 
 Adobe Campaign은 클라우드 기반 솔루션으로서, 관리자에게 애플리케이션을 구성하는 다양한 방법을 제공합니다. 인프라 구성은 Adobe이 수행하지만 기능 관리자는 아래에 설명된 다양한 구성 작업을 수행할 수 있습니다.
@@ -55,7 +55,7 @@ Adobe Campaign은 클라우드 기반 솔루션으로서, 관리자에게 애플
 
 Campaign standard를 사용하면 보안 관련 정보를 모니터링할 수도 있습니다. 를 통해 사용자가 수행한 데이터 내보내기에 대한 정보를 검색할 수 있습니다. **[!UICONTROL Export audits]** 스크린 및 활용 **[!UICONTROL Licenses]** 조직 내에 설치된 모든 Campaign 라이선스와 빌드 번호, 릴리스 버전 및 계약 조건 등의 다양한 정보를 모니터링하는 화면입니다.
 
-자세히 표시:
+자세한 내용:
 
 * [사용자 관리](../../administration/using/users-management.md)
 * [조직 단위](../../administration/using/organizational-units.md)
@@ -74,14 +74,14 @@ Campaign standard를 사용하면 보안 관련 정보를 모니터링할 수도
 
 설정 **모바일 애플리케이션** Adobe Experience Platform SDK를 사용하여 인앱 메시지 및 푸시 알림을 전송할 수 있습니다.
 
-자세히 표시:
+자세한 내용:
 
 * [채널 구성 기본 정보](../../administration/using/about-channel-configuration.md)
 * [이메일 채널 구성](../../administration/using/configuring-email-channel.md)
 * [SMS 채널 구성](../../administration/using/configuring-sms-channel.md)
 * [모바일 애플리케이션 구성](../../administration/using/configuring-a-mobile-application.md)
 
-## 애플리케이션 설정 {#application-settings}
+## 응용 프로그램 설정 {#application-settings}
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 
@@ -91,7 +91,7 @@ Campaign Standard은 요구 사항에 맞게 구성할 수 있는 다양한 애�
 
 하나 또는 여러 개 정의 **브랜드** (으)로 이메일을 보내십시오. **실시간 알림** 중요한 시스템 활동의 경우 애플리케이션 내에서.
 
-자세히 표시:
+자세한 내용:
 
 * [Campaign Standard 설정 기본 정보](../../administration/using/about-campaign-standard-settings.md)
 * [외부 계정](../../administration/using/external-accounts.md)

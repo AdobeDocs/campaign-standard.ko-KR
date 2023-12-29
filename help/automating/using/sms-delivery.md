@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 100%
+source-wordcount: '785'
+ht-degree: 93%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 100%
 
 ![](assets/recurrentsms.png)
 
-**[!UICONTROL SMS delivery]** 활동을 통해 워크플로우에서 SMS 전송을 구성할 수 있습니다. 한 번만 보내는 단일 전송 SMS일 수도 있고 반복 SMS일 수도 있습니다.
+**[!UICONTROL SMS delivery]** 활동을 통해 워크플로우에서 SMS 전송을 구성할 수 있습니다. 한 번만 보내는 단일 전송 SMS이거나 반복 SMS일 수 있습니다.
 
-* **단일 전송 SMS 메시지는 한 번 전송되는 표준 SMS입니다.**
-* **반복 SMS 메시지를 사용하면 정의된 기간 동안 동일한 SMS를 여러 타겟으로 여러 번 보낼 수 있습니다.** 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
+* **한 번 보내기** SMS 메시지는 한 번 전송되는 표준 SMS입니다.
+* **반복** SMS 메시지를 사용하면 정의된 기간 동안 동일한 SMS를 여러 타겟으로 여러 번 보낼 수 있습니다. 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL SMS delivery]** 활동은 일반적으로 동일한 워크플로우에서 계산된 타겟으로 SMS 전송을 자동화하는 데 사용됩니다.
 

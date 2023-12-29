@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 **[!UICONTROL Exclusion]** 활동을 통해 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Exclusion]** 활동은 기본적으로 인바운드 전환 모집단에서 추가적인 필터링을 수행하는 데 사용됩니다.
 

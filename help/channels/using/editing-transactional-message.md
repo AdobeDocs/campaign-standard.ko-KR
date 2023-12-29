@@ -12,7 +12,7 @@ exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -221,7 +221,7 @@ For more on creating a collection and related fields when configuring the event,
 
 차이점은 아래에 나와 있습니다.
 
-1. [만든 트랜잭션 메시지로 이동하여 편집합니다.](#accessing-transactional-messages)
+1. [트랜잭션 메시지로 이동](#accessing-transactional-messages) 편집하기 위해 만들어졌습니다.
 1. 트랜잭션 메시지에서 **[!UICONTROL Content]** 섹션을 클릭합니다. 트랜잭션 이메일 템플릿 외에 을(를) 타겟팅하는 이메일 템플릿을 선택할 수도 있습니다 **[!UICONTROL Profile]** 리소스.
 
    ![](assets/message-center_marketing_templates.png)

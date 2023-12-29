@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 ![](assets/extsignal_uc_process.png)
 
-## 전제 조건 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 워크플로우를 구성하기 전에 **[!UICONTROL External signal]** 각 활동. 이렇게 하면 워크플로우를 호출할 때 이러한 신호 활동을 타깃팅할 수 있습니다.
 

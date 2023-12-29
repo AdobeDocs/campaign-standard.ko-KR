@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 47%
+source-wordcount: '773'
+ht-degree: 46%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 47%
 * **단일** 전송 알림은 한 번 전송되는 표준 모바일 앱 푸시 알림 게재입니다.
 * **반복** 알림을 사용하면 정의된 기간 동안 동일한 모바일 앱 푸시 알림 게재를 여러 타겟으로 여러 번 보낼 수 있습니다. 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 다음 **[!UICONTROL Push notification]** 활동은 일반적으로 동일한 워크플로우에서 계산된 타겟으로 알림 전송을 자동화하는 데 사용됩니다.
 

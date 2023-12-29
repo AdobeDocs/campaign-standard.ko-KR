@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-wordcount: '574'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 **[!UICONTROL Deduplication]** 활동을 통해 인바운드 활동의 결과에서 중복을 삭제할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 일반적으로 **[!UICONTROL Deduplication]** 활동은 다음의 타겟팅 활동 또는 파일을 가져온 후 타겟팅된 데이터를 사용할 수 있는 활동 전에 사용됩니다.
 

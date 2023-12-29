@@ -10,14 +10,14 @@ level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 18%
+source-wordcount: '567'
+ht-degree: 15%
 
 ---
 
 # 이메일 만들기{#creating-an-email}
 
-다음에서 이메일을 만들 수 있습니다. [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), ADOBE CAMPAIGN [홈 페이지](../../start/using/interface-description.md#home-page)또는 [마케팅 활동 목록](../../start/using/marketing-activities.md#about-marketing-activities). 또한 작업 과정에서 한 번 전송하고 반복 이메일을 생성할 수도 있습니다.
+다음에서 이메일을 만들 수 있습니다. [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), ADOBE CAMPAIGN [홈 페이지](../../start/using/interface-description.md#home-page)또는 [마케팅 활동 목록](../../start/using/marketing-activities.md#about-marketing-activities). 워크플로우에서 한 번 전송하고 반복되는 이메일을 만들 수도 있습니다.
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 

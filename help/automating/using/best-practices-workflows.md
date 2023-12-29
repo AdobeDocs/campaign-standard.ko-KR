@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 80%
+source-wordcount: '1212'
+ht-degree: 77%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 
 ### 워크플로우의 수
 
-기본적으로 다음을 권장합니다 **20개 이상의 활성 워크플로우 실행을 동시에 실행하지 않음** (예약된 실행을 기다리는 워크플로우에는 적용되지 않습니다.) 한계에 이르면 워크플로우가 성능에 영향을 주지 않도록 큐에 대기 됩니다.
+기본적으로 다음을 권장합니다 **20개 이상의 활성 워크플로우 실행을 동시에 실행하지 않음** (예약된 실행을 기다리는 워크플로우에는 적용되지 않습니다.) 제한에 도달하면 성능에 영향을 주지 않도록 워크플로우가 큐에 대기 됩니다.
 
 특정 컨텍스트에서는 20개 이상의 워크플로우를 실행해야 할 수 있습니다. 이 경우 캠페인 전문가와 사용 사례를 확인하고 Adobe 고객 지원 센터에 문의하여 한도를 늘려야 합니다.
 
@@ -143,7 +143,7 @@ Adobe Campaign은 워크플로우 문제를 더 잘 이해할 수 있도록 다�
 작업 탭은 활동의 실행 시퀀싱에 대해 자세히 설명합니다. 활동에 대한 자세한 내용을 보려면 작업을 클릭합니다.
 자세한 내용은 [워크플로우 실행 모니터링](../../automating/using/monitoring-workflow-execution.md)을 참조하십시오.
 
-#### 문제 해결 데이터 관리 활동{#troubleshooting-data-management-activities}
+#### 데이터 관리 활동 문제 해결{#troubleshooting-data-management-activities}
 
 로그 탭에서 SQL 쿼리를 분석할 수 있습니다.
 

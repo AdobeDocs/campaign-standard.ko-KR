@@ -12,7 +12,7 @@ exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 이 활동은 쿼리 편집기 도구를 사용합니다. 이 도구는 [전용 섹션](../../automating/using/editing-queries.md#about-query-editor)에 자세히 설명되어 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 워크플로우의 실행 빈도를 정의하려면 **[!UICONTROL Scheduler]**&#x200B;에 **[!UICONTROL Incremental query]**&#x200B;을(를) 연결하여 쿼리해야 합니다.
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 * 데이터 내보내기.
 
-  **[!UICONTROL Incremental query]** 활동을 사용하여 파일에서 새 로그를 정기적으로 내보낼 수 있습니다. 예를 들어 외부 보고 또는 BI 도구에서 로그 데이터를 사용하려는 경우 유용합니다. 전체 예제는 [로그 내보내기](../../automating/using/exporting-logs.md) 섹션에서 확인할 수 있습니다.
+  **[!UICONTROL Incremental query]** 활동을 사용하여 파일에서 새 로그를 정기적으로 내보낼 수 있습니다. 예를 들어 외부 보고 또는 BI 도구에서 로그 데이터를 사용하려는 경우 유용할 수 있습니다. 전체 예제는 [로그 내보내기](../../automating/using/exporting-logs.md) 섹션에서 확인할 수 있습니다.
 
 **관련 항목**
 

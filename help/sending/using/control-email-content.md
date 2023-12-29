@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 8%
+source-wordcount: '787'
+ht-degree: 6%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 8%
 
 Adobe Campaign을 사용하면 수신자의 경험을 개선하여 이메일을 열 수 있으므로 메시지를 개인화할 수 있습니다. 자세한 내용은 [이 섹션](../../designing/using/personalization.md)을 참조하십시오.
 
-메시지 열람률을 높이기 위해 수신자당 보내는 시간을 수동으로 정의할 수도 있습니다. 각 프로필은 가능한 한 지정된 날짜와 시간에 메시지를 수신합니다. 자세한 내용은 [보내는 시간 최적화](../../sending/using/optimizing-the-sending-time.md).
+메시지 열람률을 높이기 위해 수신자당 보내는 시간을 수동으로 정의할 수도 있습니다. 각 프로필은 가능한 한 지정된 날짜 및 시간에 메시지를 수신합니다. 자세한 내용은 [보내는 시간 최적화](../../sending/using/optimizing-the-sending-time.md).
 
 ## 옵트아웃 링크 및 양식 {#opt-out}
 

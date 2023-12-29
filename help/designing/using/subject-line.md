@@ -11,7 +11,7 @@ exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 >
 >제목 줄이 비어 있으면 메시지 대시보드와 이메일 디자이너에 경고가 표시됩니다.
 
-1. 이메일 만들기.
+1. 이메일을 만듭니다.
 1. 이동 **[!UICONTROL Properties]** 이메일 디자이너 홈 페이지의 탭(홈 아이콘을 통해 액세스 가능).
 1. 다음을 입력합니다. **[!UICONTROL Subject]** 섹션.
 

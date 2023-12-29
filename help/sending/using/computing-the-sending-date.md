@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1026'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 1%
 
      나머지 세그먼트에 대해 다음 배치를 다음과 같이 정의합니다.
 
-      * **2017-06-03 10:00:00+01**
+      * **2017년 6월 3일 10시:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 89%
+source-wordcount: '619'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 89%
 
 **[!UICONTROL Scheduler]** 활동을 통해 워크플로우나 활동의 시작 시점을 예약할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Scheduler]** 활동은 시작을 예약하는 것으로 생각해야 합니다. 차트 내에서의 활동 위치 지정 규칙은 **[!UICONTROL Start]** 활동과 동일합니다. 이 활동에는 인바운드 전환이 없어야 합니다.
 

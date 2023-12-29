@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 42%
+source-wordcount: '155'
+ht-degree: 34%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 42%
     <tr>
         <td>생성됨</td>
         <td>제작일</td>
-        <td>date </td>
+        <td>일자 </td>
         <td> </td>
     </tr>
     <tr>
@@ -99,8 +99,8 @@ ht-degree: 42%
     </tr>
     <tr>
         <td>마지막 수정일</td>
-        <td>마지막 수정일</td>
-        <td>date </td>
+        <td>마지막 수정</td>
+        <td>일자 </td>
         <td> </td>
     </tr>
     <tr>
@@ -175,7 +175,7 @@ ht-degree: 42%
         <td> </td>
     </tr>
     <tr>
-        <td>title</td>
+        <td>제목</td>
         <td>레이블</td>
         <td>문자열(255)</td>
         <td> </td>

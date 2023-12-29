@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 76%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 90%
 
    ![](assets/query_sample_opened2.png)
 
-## 특정한 이유로 게재에 실패한 프로필 타겟팅 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+## 특정 이유로 게재에 실패한 프로필 타겟팅 {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
 다음 예제에서는 사서함이 가득 차서 게재에 실패한 프로필을 필터링하도록 구성한 쿼리 활동을 보여줍니다. 이 쿼리는 관리 권한이 있고 **[!UICONTROL All (all)]** 조직 단위에 속하는 사용자만 사용할 수 있습니다([이 섹션](../../administration/using/organizational-units.md) 참조).
 

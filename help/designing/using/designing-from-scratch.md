@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 23%
+source-wordcount: '1232'
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 1. 이미지를 추가하고 이메일 텍스트를 편집합니다. 다음을 참조하십시오 [이미지 삽입](../../designing/using/images.md#inserting-images).
 1. 개인화 필드, 링크 등을 추가하여 이메일을 개인화합니다. 다음을 참조하십시오 [개인화 필드 삽입](../../designing/using/personalization.md#inserting-a-personalization-field), [링크 삽입](../../designing/using/links.md#inserting-a-link) 및 [이메일에서 동적 콘텐츠 정의](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. 이메일의 제목 줄을 정의합니다. 다음을 참조하십시오 [이메일 제목란 개인화](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. 이메일 미리 보기.
+1. 이메일을 미리 봅니다.
 1. 콘텐츠를 저장하고 대상자를 정의하고 전송을 적절하게 예약했는지 확인한 후 메시지를 계속 진행합니다.
 
 이것도 확인해 보세요 [소개 비디오](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
@@ -175,7 +175,7 @@ ht-degree: 23%
 
 이 구성 요소를 사용하여 이메일에 소셜 미디어 페이지에 대한 링크를 삽입합니다. 표시할 링크와 해당 아이콘 크기를 선택할 수 있습니다 **[!UICONTROL Component Settings]**.
 
-### 캐러셀 {#carousel-settings}
+### 슬라이드 {#carousel-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"

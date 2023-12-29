@@ -12,7 +12,7 @@ exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 >
 >이 두 패키지의 콘텐츠는 수정할 수 없습니다. 반면 이 두 패키지에는 사용할 수 있는 최신 데이터가 항상 들어 있습니다. [고유한 패키지를 만들어](#creating-a-package) 특정 요소를 내보낼 수 있습니다.
 
-### 패키지 생성 {#creating-a-package}
+### 패키지 만들기 {#creating-a-package}
 
 특정 데이터 세트를 내보내려면 패키지를 만들어야 합니다.
 

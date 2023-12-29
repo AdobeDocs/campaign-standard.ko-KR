@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7674'
 ht-degree: 8%
 
 ---
@@ -210,7 +210,7 @@ ht-degree: 8%
 **기타 변경 사항**
 
 * 게재 속성 인터페이스에 경고가 추가되었습니다. 게재는 집계 기간을 기반으로 준비되며 하루에 여러 번 워크플로우를 호출하기 위해 고정 해제됩니다. 기간이 없는지 확인해야 합니다. (CAMP-34393)
-* 사용자 지정 리소스 구성 화면에 경고가 추가되었습니다. 사용자 정의 리소스 ID에는 최대 30자를 사용하는 것이 좋습니다. 이는 사용자 정의 리소스 필드, 키, 색인 및 링크에도 적용됩니다.
+* 사용자 지정 리소스 구성 화면에 경고가 추가되었습니다. 사용자 정의 리소스 ID에는 최대 30자를 사용하는 것이 좋습니다. 이는 사용자 정의 리소스 필드, 키, 인덱스 및 링크에도 적용됩니다.
 * 이제 랜딩 페이지에서 확인 메시지로 사용하는 트랜잭션 메시지를 삭제하려고 할 때 메시지가 표시됩니다.
 * 이제 활동이 6시간 이상 실행되면 워크플로우 로그에 경고가 표시됩니다. 푸시 알림, 게재, 신호, 시작, 종료, 포크 및 AND-joint, 일정 및 대기 활동에는 적용되지 않습니다.
 * 이제 동시에 실행되는 최대 워크플로 수에 도달하면 워크플로 로그에 경고가 표시됩니다.
@@ -360,14 +360,14 @@ ht-degree: 8%
 * 우편 번호 차원이 다이내믹 보고에서 제거되었습니다. 도시, 국가, 주 차원을 대신 사용하는 것이 좋습니다.
 * 인앱 메시지에 대한 &#39;첫 번째 실행&#39; 라이프사이클 이벤트 트리거가 제거되었습니다.
 * 이제 보안 그룹이 있는 패키지를 내보낼 때 각 그룹에 할당된 역할이 포함됩니다. (CAMP-32960)
-* 파일 로드 활동에서 새 옵션을 사용하면 업로드하고 있는 파일의 열이 열 정의와 일치하는지 확인할 수 있습니다. 자세한 내용은 [세부 설명서](../../automating/using/load-file.md)를 참조하세요. (CAMP-32229)
-* 이제 페이로드로 워크플로우를 시작할 수 있으므로 워크플로우 내에서 활동 간에 외부 매개 변수를 사용하고 공유할 수 있습니다. 자세한 내용은 [세부 설명서](../../automating/using/calling-a-workflow-with-external-parameters.md)를 참조하세요. (CAMP-29412 및 CAMP-29413)
+* 파일 로드 활동에서 새 옵션을 사용하면 업로드하고 있는 파일의 열이 열 정의와 일치하는지 확인할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/load-file.md). (CAMP-32229)
+* 이제 페이로드로 워크플로우를 시작할 수 있으므로 워크플로우 내에서 활동 간에 외부 매개 변수를 사용하고 공유할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 및 CAMP-29413)
 * 이제 Campaign Standard API를 사용하여 페이로드를 사용하여 프로필의 지리적 및 조직 단위를 업데이트할 수 있습니다. 자세한 내용은 [세부 설명서](../../api/using/get-started-apis.md)를 참조하세요.
 * 데이터베이스의 개체에 액세스할 수 없을 때의 오류 메시지를 명확하게 이해했습니다.
 * 파일 추출 활동에서 내보낼 파일의 이름을 정의할 때 Javascript 기능이 업데이트되었습니다. 이제 formatDate 함수만 출력 필드에서 사용할 수 있습니다. 자세한 내용은 [세부 설명서](../../automating/using/extract-file.md)를 참조하세요.
 * 사용자 지정 리소스에 대한 자동 시퀀스 ID 생성이 개선되었습니다. 새 사용자 지정 리소스에 대한 기본 키는 이제 기본적으로 64비트로 제공됩니다.
 * 사용자 지정 리소스 게시 테스트 모드가 개선되었습니다. 이제 마지막 사용자 지정 리소스 게시가 실패하고 수정되지 않은 경우 사용자에게 경고 메시지가 표시됩니다. 사용자 지정 리소스 게시 실패 후 마지막 작업 버전으로 롤백할 수 있습니다. 자세한 내용은 [세부 설명서](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)를 참조하세요.
-* 파일 전송 활동에 새 옵션이 추가되었습니다. SFTP 모드에서 파일 다운로드 작업을 사용할 때 파일을 정렬할 수 있습니다. 자세한 내용은 [세부 설명서](../../automating/using/transfer-file.md)를 참조하세요. (CAMP-33109)
+* 파일 전송 활동에 새 옵션이 추가되었습니다. SFTP 모드에서 파일 다운로드 작업을 사용할 때 파일을 정렬할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/transfer-file.md). (CAMP-33109)
 
 **패치**
 
@@ -432,7 +432,7 @@ ht-degree: 8%
    <td> 워크플로우 개선 사항<br /> </td> 
    <td> <p>다음 워크플로우 기능이 추가되었습니다.</p> 
     <ul> 
-     <li> 이제 동일한 Campaign 인스턴스에서 워크플로우 또는 다른 워크플로우 내에 활동을 복사하여 붙여넣을 수 있습니다. 이렇게 하면 전체 워크플로우 또는 특정 활동을 쉽게 복제하고 처음에 정의된 설정을 유지할 수 있습니다. 자세한 내용은 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">세부 설명서</a>를 참조하세요. (CAMP-20014) </li> 
+     <li> 이제 동일한 Campaign 인스턴스에서 워크플로우 또는 다른 워크플로우 내에 활동을 복사하여 붙여넣을 수 있습니다. 이렇게 하면 전체 워크플로우 또는 특정 활동을 쉽게 복제하고 처음에 정의된 설정을 유지할 수 있습니다. 자세한 내용은 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">자세한 설명서</a>. (CAMP-20014) </li> 
      <li> 사용 시 <strong>파일 로드</strong> 활동에서 이제 거부된 레코드가 포함된 파일 이름에 타임스탬프를 추가할 수 있습니다. 자세한 내용은 <a href="../../automating/using/load-file.md#configuration">세부 설명서</a>를 참조하세요. </li> 
      <li> <strong>쿼리</strong> 및 <strong>세분화</strong> 이제 활동을 통해 데이터가 검색되지 않는 경우 아웃바운드 전환을 활성화할 수 있습니다. </li> 
     </ul> </td> 
@@ -531,7 +531,7 @@ ht-degree: 8%
      <li> 다음에 대한 기능: <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">준비 시 URL에서 컨텐츠를 자동으로 검색합니다.</a> </li> 
      <li> 완전 순응 <a href="../../designing/using/using-reusable-content.md#content-templates">기본 제공 콘텐츠 템플릿</a>. </li> 
     </ul> 
-    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">방법 비디오</a>를 참조하십시오. 개선 사항 및 수정 사항은 아래에 나열되어 있습니다.</p><p>따라서 레거시 이메일 콘텐츠 편집기는 이제 사용되지 않습니다. 자세한 내용은 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">페이지</a>.</p> </td> 
+    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">방법 비디오</a>. 개선 사항 및 수정 사항은 아래에 나열되어 있습니다.</p><p>따라서 레거시 이메일 콘텐츠 편집기는 이제 사용되지 않습니다. 자세한 내용은 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">페이지</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 이메일의 제품 목록<br /> </td> 

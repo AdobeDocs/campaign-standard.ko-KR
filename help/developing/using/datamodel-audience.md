@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 40%
+source-wordcount: '214'
+ht-degree: 35%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 40%
                <tr>
                   <td>countDate</td>
                   <td>날짜 계산</td>
-                  <td>date </td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +88,7 @@ ht-degree: 40%
                <tr>
                   <td>생성됨</td>
                   <td>제작일</td>
-                  <td>date </td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,7 +118,7 @@ ht-degree: 40%
                <tr>
                   <td>expirationDate</td>
                   <td>만료 일자</td>
-                  <td>date </td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -152,15 +152,15 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>레이블</td>
                   <td>레이블</td>
                   <td>문자열(128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>마지막 수정일</td>
-                  <td>마지막 수정일</td>
-                  <td>date </td>
+                  <td>마지막 수정</td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -206,7 +206,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>제목</td>
                   <td>대상자</td>
                   <td>문자열(255)</td>
                   <td> </td>

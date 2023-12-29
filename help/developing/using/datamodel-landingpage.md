@@ -11,8 +11,8 @@ level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 8%
+source-wordcount: '1817'
+ht-degree: 7%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>cache</td>
+         <td>캐시</td>
          <td>캐시</td>
          <td>문자열 </td>
          <td> </td>
@@ -90,7 +90,7 @@ ht-degree: 8%
       <tr>
          <td>생성됨</td>
          <td>제작일</td>
-         <td>date </td>
+         <td>일자 </td>
          <td> </td>
       </tr>
       <tr>
@@ -234,7 +234,7 @@ ht-degree: 8%
       <tr>
          <td>종료</td>
          <td>만료일</td>
-         <td>date </td>
+         <td>일자 </td>
          <td> </td>
       </tr>
       <tr>
@@ -298,15 +298,15 @@ ht-degree: 8%
          <td> </td>
       </tr>
       <tr>
-         <td>label</td>
+         <td>레이블</td>
          <td>레이블</td>
          <td>문자열(128)</td>
          <td> </td>
       </tr>
       <tr>
          <td>마지막 수정일</td>
-         <td>마지막 수정일</td>
-         <td>date </td>
+         <td>마지막 수정</td>
+         <td>일자 </td>
          <td> </td>
       </tr>
       <tr>
@@ -387,7 +387,7 @@ ht-degree: 8%
       <tr>
          <td>발행일</td>
          <td>게시일</td>
-         <td>date </td>
+         <td>일자 </td>
          <td> </td>
       </tr>
       <tr>
@@ -437,7 +437,7 @@ ht-degree: 8%
       <tr>
          <td>시작</td>
          <td>배포일</td>
-         <td>date </td>
+         <td>일자 </td>
          <td> </td>
       </tr>
       <tr>
@@ -606,7 +606,7 @@ ht-degree: 8%
          </td>
       </tr>
       <tr>
-         <td>title</td>
+         <td>제목</td>
          <td>랜딩 페이지</td>
          <td>문자열(255)</td>
          <td> </td>
@@ -741,11 +741,11 @@ ht-degree: 8%
         </tr>
         <tr>
         <td>startDate</td>
-        <td>date</td>
+        <td>일자</td>
         </tr>
         <tr>
         <td>endDate</td>
-        <td>date</td>
+        <td>일자</td>
         </tr>
     </table>
 
@@ -758,10 +758,10 @@ ht-degree: 8%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>일자</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>일자</td>
     </tr>
 </table>

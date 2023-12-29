@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1366'
 ht-degree: 93%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 **[!UICONTROL Load file]** 활동을 통해 데이터를 Adobe Campaign에서 사용할 수 있도록 하나의 구조화된 양식으로 가져올 수 있습니다. 파일 로드 활동을 통한 데이터 가져오기는 일시적이며, 가져온 데이터를 Adobe Campaign 데이터베이스에 완전히 통합하려면 다른 활동이 필요합니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 활동을 구성할 때 데이터 추출 방법을 정의합니다. 예를 들어 로드할 파일이 연락처 목록이라고 해 보겠습니다.
 
@@ -119,7 +119,7 @@ ht-degree: 93%
 
 워크플로우를 실행한 후 활동에 오류가 발생하는 경우 로그를 참조하여 파일의 잘못된 값에 대한 자세한 내용을 확인하십시오. 워크플로우 로그에 대한 자세한 정보는 [이 섹션](../../automating/using/monitoring-workflow-execution.md)을 참조하십시오.
 
-## 열 포맷 {#column-format}
+## 열 형식 {#column-format}
 
 샘플 파일을 로드하면 열 포맷이 각 데이터 유형의 기본 매개 변수를 사용하여 자동으로 감지됩니다. 이 매개 변수를 수정하여 데이터에 적용할 특정 프로세스를 지정할 수 있습니다. 이는 특히 오류 또는 빈 값이 있는 경우에 유용합니다.
 

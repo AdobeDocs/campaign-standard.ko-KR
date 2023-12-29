@@ -11,7 +11,7 @@ exl-id: 7dc64938-f28f-43eb-a6a3-870e5a41a431
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 11%
+ht-degree: 8%
 
 ---
 
@@ -31,5 +31,5 @@ ht-degree: 11%
 
 **관련 항목:**
 
-* [사용자 정의 리소스 기본 정보](../../developing/using/data-model-concepts.md)
+* [사용자 지정 리소스 기본 정보](../../developing/using/data-model-concepts.md)
 * [API 설명서](../../api/using/get-started-apis.md)

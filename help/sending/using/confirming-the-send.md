@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 18%
+source-wordcount: '947'
+ht-degree: 16%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 18%
 
 ## 메시지 표시기 이해 {#message-indicators}
 
-연락처에 메시지를 보내고 나면 **[!UICONTROL Deployment]** 영역에 다음 항목을 포함하는 KPI(주요 성과 지표) 데이터가 표시됩니다.
+연락처에 메시지를 보내고 나면 **[!UICONTROL Deployment]** zone 은 다음을 포함한 KPI(주요 성과 지표) 데이터를 표시합니다.
 
 * 게재할 메시지 수
 * 보낸 메시지 수
@@ -141,15 +141,15 @@ EFS(이메일 피드백 서비스) 기능을 사용하면 피드백이 Enhanced 
 | 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이 | <ul><li>**[!UICONTROL Delivered]** 백분율이 0%에서 시작</li><li>**[!UICONTROL Bounces + errors]** 백분율이 0%에서 시작</li></ul> | 보류 중 |
 | 하드 바운싱 메시지가 Enhanced MTA에서 다시 보고됨 | <ul><li>변경 내용 없음 **[!UICONTROL Delivered]** 백분율</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 |
 | 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | <ul><li>변경 내용 없음 **[!UICONTROL Delivered]** 백분율</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 |
-| 소프트 바운싱 메시지 다시 시도 성공 | <ul><li>**[!UICONTROL Delivered]** 그에 따라 백분율 증가</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 감소</li></ul> | 전송됨 |
+| 소프트 바운싱 메시지 다시 시도 성공 | <ul><li>**[!UICONTROL Delivered]** 그에 따라 백분율 증가</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 감소</li></ul> | 보냄 |
 | 소프트 바운싱 메시지 다시 시도 실패 | <ul><li> 변경 내용 없음 **[!UICONTROL Delivered]** 백분율 </li><li> 변경 내용 없음 **[!UICONTROL Bounces + errors]** 백분율 </li></ul> | 실패 |
 
 **이메일 피드백 서비스 없음**
 
 | 전송 프로세스의 단계 | KPI 요약 | 전송 로그 상태 |
 |--- |--- |--- |
-| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이 | <ul><li>**[!UICONTROL Delivered]** 백분율이 100%에서 시작</li><li>**[!UICONTROL Bounces + errors]** 백분율이 0%에서 시작</li></ul> | 전송됨 |
+| 메시지가 Campaign에서 Enhanced MTA로 성공적으로 릴레이 | <ul><li>**[!UICONTROL Delivered]** 백분율이 100%에서 시작</li><li>**[!UICONTROL Bounces + errors]** 백분율이 0%에서 시작</li></ul> | 보냄 |
 | 하드 바운싱 메시지가 Enhanced MTA에서 다시 보고됨 | <ul><li>**[!UICONTROL Delivered]** 그에 따라 백분율 감소</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 |
-| 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | <ul><li>변경 내용 없음 **[!UICONTROL Delivered]** 백분율</li><li>변경 내용 없음 **[!UICONTROL Bounces + errors]** 백분율</li></ul> | 전송됨 |
-| 소프트 바운싱 메시지 다시 시도 성공 | <ul><li>변경 내용 없음 **[!UICONTROL Delivered]** 백분율</li><li>변경 내용 없음 **[!UICONTROL Bounces + errors]** 백분율</li></ul> | 전송됨 |
+| 소프트 바운싱 메시지는 Enhanced MTA에서 다시 보고됨 | <ul><li>변경 내용 없음 **[!UICONTROL Delivered]** 백분율</li><li>변경 내용 없음 **[!UICONTROL Bounces + errors]** 백분율</li></ul> | 보냄 |
+| 소프트 바운싱 메시지 다시 시도 성공 | <ul><li>변경 내용 없음 **[!UICONTROL Delivered]** 백분율</li><li>변경 내용 없음 **[!UICONTROL Bounces + errors]** 백분율</li></ul> | 보냄 |
 | 소프트 바운싱 메시지 다시 시도 실패 | <ul><li>**[!UICONTROL Delivered]** 그에 따라 백분율 감소</li><li>**[!UICONTROL Bounces + errors]** 그에 따라 백분율 증가</li></ul> | 실패 |

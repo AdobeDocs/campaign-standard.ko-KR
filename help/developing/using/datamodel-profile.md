@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 652c22a5-7fff-4d08-9396-f0b292aaca76
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 13%
+source-wordcount: '1392'
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 13%
                <tr>
                   <td>생일</td>
                   <td>생년월일</td>
-                  <td>date </td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -69,7 +69,7 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>blackListMobile</td>
-                  <td>더 이상 연락하지 않음(SMS</td>
+                  <td>더 이상 연락하지 않음(SMS)</td>
                   <td>부울 </td>
                   <td> </td>
                </tr>
@@ -100,7 +100,7 @@ ht-degree: 13%
                <tr>
                   <td>생성됨</td>
                   <td>제작일</td>
-                  <td>date </td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -124,7 +124,7 @@ ht-degree: 13%
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>마지막 트랜잭션 날짜</td>
-                  <td>date </td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -209,8 +209,8 @@ ht-degree: 13%
                </tr>
                <tr>
                   <td>마지막 수정일</td>
-                  <td>마지막 수정일</td>
-                  <td>date </td>
+                  <td>마지막 수정</td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -422,7 +422,7 @@ ht-degree: 13%
                   </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>제목</td>
                   <td>프로필</td>
                   <td>문자열(255)</td>
                   <td> </td>
@@ -460,7 +460,7 @@ ht-degree: 13%
 </tr>
 <tr>
 <td>endDay</td>
-<td>date</td>
+<td>일자</td>
 </tr>
 <tr>
 <td>정밀도</td>
@@ -472,7 +472,7 @@ ht-degree: 13%
 </tr>
 <tr>
 <td>개월</td>
-<td>date</td>
+<td>일자</td>
 </tr>
 <tr>
 <td>연산자</td>
@@ -484,7 +484,7 @@ ht-degree: 13%
 </tr>
 <tr>
 <td>endMonth</td>
-<td>date</td>
+<td>일자</td>
 </tr>
 <tr>
 <td>유형</td>
@@ -492,7 +492,7 @@ ht-degree: 13%
 </tr>
 <tr>
 <td>일</td>
-<td>date</td>
+<td>일자</td>
 </tr>
 </table>
 

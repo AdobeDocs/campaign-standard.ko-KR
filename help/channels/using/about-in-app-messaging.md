@@ -11,7 +11,7 @@ exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ Experience Platform SDK를 활용하는 모바일 애플리케이션에서 인�
 
 * [인앱 보고서](../../reporting/using/in-app-report.md)
 * [Adobe Campaign Standard에서 지원하는 모바일 사용 사례](../../administration/using/configuring-rules-launch.md)
-* [Campaign Standard Mobile 안내서](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standard 모바일 안내서](../../channels/using/get-started-communication-channels.md)
 
 ## 개인적이고 민감한 데이터를 사용하여 모바일 프로필 필드 처리 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

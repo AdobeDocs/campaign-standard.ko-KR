@@ -10,8 +10,8 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 2%
+source-wordcount: '2038'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 특정 기준에 따라 알림을 다른 사용자 그룹에 보내려면 여러 대시보드를 사용해야 합니다. 새 대시보드를 만들려면 다음 작업을 수행하십시오.
 
-1. **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**(으)로 이동합니다. 
+1. 다음으로 이동 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
 1. **[!UICONTROL Delivery alerting dashboards]**&#x200B;을(를) 선택하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다 .
 1. 다음 확인: **[!UICONTROL Enabled]** 현재 대시보드를 활성화하는 상자입니다.
 
@@ -85,7 +85,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 1. 에서 통지할 수신자 그룹을 선택합니다. **[!UICONTROL Alert group]** 드롭다운 목록입니다. 그룹을 수정하거나 만들려면 다음을 참조하십시오. [보안 그룹 만들기 및 사용자 할당](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. 다음에서 **[!UICONTROL Delivery alerting criteria]** 섹션, 클릭 **[!UICONTROL Create element]** 기준을 추가합니다. 다음을 참조하십시오 [경고 기준 정보](#about-alerting-criteria).
-1. **[!UICONTROL Edit properties]** 버튼을 선택합니다. 다음에서 **[!UICONTROL Criteria parameters]** 탭에서 기준을 적용하는 방법을 정의합니다. 다음을 참조하십시오 [기준 매개 변수](#criteria-parameters).
+1. 다음 항목 선택 **[!UICONTROL Edit properties]** 단추를 클릭합니다. 다음에서 **[!UICONTROL Criteria parameters]** 탭에서 기준을 적용하는 방법을 정의합니다. 다음을 참조하십시오 [기준 매개 변수](#criteria-parameters).
 1. 클릭 **[!UICONTROL Create]** 대시보드를 저장합니다.
 
 이제 게재가 이 대시보드에서 정의한 기준을 만족할 때마다 지정된 사용자 그룹에 경고 알림이 전송됩니다.
@@ -132,7 +132,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 **관련 항목:**
 
-* [전송 로그](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [로그 전송](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [경고 빈도](#alerting-frequency)
 * [마케팅 활동 아이콘 및 상태](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 

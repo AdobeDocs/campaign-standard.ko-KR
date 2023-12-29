@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 8%
+source-wordcount: '738'
+ht-degree: 1%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 8%
    <td> 요금 계산의 분모는 게재된 것만 기준으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재 대상<br /> </td> 
+   <td> 전달됨<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
@@ -114,7 +114,7 @@ ht-degree: 8%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 페이지 미러링<br /> </td> 
+   <td> 미러 페이지<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
    <td> 요금 계산의 분모는 게재된 것만 기준으로 합니다.<br /> </td> 
@@ -192,7 +192,7 @@ ht-degree: 8%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 고유 오픈<br /> </td> 
+   <td> 고유 열람 수<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
@@ -216,7 +216,7 @@ ht-degree: 8%
    <td> 요금 계산의 분모는 게재된 것만 기준으로 합니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 사용자 알 수 없음<br /> </td> 
+   <td> 알 수 없는 사용자<br /> </td> 
    <td> @unknownUser<br /> </td> 
    <td> count(@failureReason=1)<br /> </td> 
    <td> </td> 
@@ -241,7 +241,7 @@ ht-degree: 8%
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재 대상<br /> </td> 
+   <td> 전달됨<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
@@ -266,7 +266,7 @@ ht-degree: 8%
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> 고유 오픈<br /> </td> 
+   <td> 고유 열람 수<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> 고유 열림은 고유한 RecipientIds의 ThetaSketch 개념을 사용하여 계산됩니다. 자세한 정보는 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예</a>.<br /> </td> 
   </tr> 
@@ -317,7 +317,7 @@ ht-degree: 8%
    <td> sent=delivered<br /> </td> 
   </tr> 
   <tr> 
-   <td> 게재 대상<br /> </td> 
+   <td> 전달됨<br /> </td> 
    <td> @delivered<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
    <td> 게재됨=전송됨<br /> </td> 

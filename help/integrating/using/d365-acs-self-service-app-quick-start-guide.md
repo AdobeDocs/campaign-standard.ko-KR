@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 2%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -31,14 +31,14 @@ Microsoft Dynamics 365 셀프서비스 통합 애플리케이션과 Adobe Campai
 * [이 통합을 구현하는 주요 단계 알아보기](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [Microsoft Dynamics 365 통합 사용](../../integrating/using/d365-acs-using-the-integration.md)
 
-## 전제 조건 {#self-service-app-prerequisites}
+## 필수 구성 요소 {#self-service-app-prerequisites}
 
 통합 앱이 데이터에 액세스할 수 있도록 Microsoft Dynamics 365 및 Adobe Campaign Standard을 구성해야 합니다. Dynamics 365, Adobe Campaign Standard 및 Adobe I/O에서 구성하는 데 시간이 다소 걸리지만 구성하고 나면 셀프 서비스 통합 애플리케이션의 사용자 인터페이스를 통해 통합을 제어할 수 있습니다.
 
 다음 섹션에서 자세히 알아보기:
 
 * [Campaign 통합을 위해 Microsoft Dynamics 365 구성](../../integrating/using/d365-acs-configure-d365.md)
-* [Adobe I/O 구성](../../integrating/using/d365-acs-configure-adobe-io.md)
+* [구성 Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Campaign 사용자 지정 리소스 및 Microsoft Dynamics 365 사용자 지정 엔터티 매핑](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## 셀프서비스 통합 앱을 구성하는 주요 단계 {#self-service-app-configuration-steps}
@@ -144,7 +144,7 @@ UI를 처음 탐색하면 다음과 같은 머리글이 있는 페이지가 표�
 
 앱을 탐색할 때 일부 화면 상단에 이동 경로가 표시됩니다.
 
-**예제:**
+**예:**
 
 다음은 의 예입니다. **[!UICONTROL Edit Table Mapping]** 이동 경로와 페이지 제목을 보여 주는 화면입니다. 이 경우 **[!UICONTROL Workflows]** 또는 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 이전 화면 중 하나로 이동하는 텍스트입니다. **[!UICONTROL Edit Table Mapping]** 이 경우 이동 경로는 현재 화면이므로 클릭할 수 없습니다.
 

@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '885'
 ht-degree: 82%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 82%
 * [사용 사례: 위치 세분화](../../automating/using/workflow-segmentation-location.md)
 * [사용 사례: 연령 그룹에 따른 세분화](../../automating/using/segmentation-age-groups.md)
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Segmentation]** 활동은 보통 타겟팅 활동(쿼리, 교집합, 결합, 제외 등) 다음에 배치됩니다. 이렇게 함으로써 표준 모집단을 정의하여 이를 기반으로 세그먼트를 형성할 수 있습니다.
 

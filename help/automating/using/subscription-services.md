@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 98%
+source-wordcount: '1116'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 >
 >워크플로우의 컨텍스트에서 구독을 관리하는 경우 구독했거나 구독을 취소한 프로필은 서비스 속성에 정의된 다른 확인 이메일을 받지 않습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Subscription Services]** 활동은 하나의 동작으로 여러 프로필을 서비스 구독 또는 구독 취소하도록 하는 유일한 Adobe Campaign 기능입니다.
 

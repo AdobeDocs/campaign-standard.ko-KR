@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard API의 장점?
+title: Campaign Standard API를 사용하는 이유
 description: Campaign Standard API 및 이를 사용하는 이유에 대해 자세히 알아보십시오.
 audience: developing
 content-type: reference
@@ -10,8 +10,8 @@ level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 

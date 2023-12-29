@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 82%
+source-wordcount: '1170'
+ht-degree: 75%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 82%
 
 **[!UICONTROL Transfer file]** 활동을 사용하면 Adobe Campaign에서 파일을 받거나 보내고, 파일이 있는지 테스트하거나, 파일 목록을 만들 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 활동을 구성할 때 데이터 추출 방법을 정의합니다. 예를 들어 로드할 파일이 연락처 목록이라고 해 보겠습니다.
 
@@ -51,10 +51,10 @@ ht-degree: 82%
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Microsoft Azure Blob 저장 공간](#azure-blob-configuration-wf)
+   * [Microsoft Azure Blob 저장소](#azure-blob-configuration-wf)
    * [Adobe Campaign 서버에 있는 파일](#files-server-configuration-wf)
 
-1. 선택한 프로토콜에 따라 활성화되는 **[!UICONTROL Additional options]** 섹션에서 프로토콜에 매개 변수를 추가할 수 있습니다.
+1. 다음 **[!UICONTROL Additional options]** 선택한 프로토콜에 따라 활성화되는 섹션에서 프로토콜에 매개 변수를 추가할 수 있습니다.
 
    다음을 수행할 수 있습니다.
 
@@ -150,7 +150,7 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 **[!UICONTROL Define a file path]** 또는 **[!UICONTROL Use a dynamic file path]**을(를) 원할 경우 선택합니다.
 **[!UICONTROL Use a dynamic file path]** 옵션을 선택하면 표준 표현식 및 이벤트 변수를 사용하여 전송할 파일의 이름을 개인화할 수 있습니다. 자세한 정보는 이 [페이지](../../automating/using/customizing-workflow-external-parameters.md)를 참조하십시오.
 
-경로는 Adobe Campaign 서버의 저장소 공간 디렉토리에 대한 상대적 경로여야 합니다. 파일은 **sftp&lt;인스턴스명>/** 디렉토리에 있습니다. 또한 저장소 공간보다 상위 디렉토리는 검색할 수 없습니다.
+경로는 Adobe Campaign 서버의 저장소 공간 디렉토리에 대한 상대적 경로여야 합니다. 파일은 **sftp&lt;인스턴스명>/** 디렉토리에 있습니다. 또한 저장소 공간 위의 디렉토리는 검색할 수 없습니다.
 
 예제:
 

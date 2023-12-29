@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 40%
+source-wordcount: '1206'
+ht-degree: 39%
 
 ---
 
@@ -49,9 +49,9 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 * [푸시 알림 준비 및 보내기](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [다국어 푸시 알림 만들기](../../channels/using/creating-a-multilingual-push-notification.md)
 * [푸시 알림 보고서](../../reporting/using/push-notification-report.md)
-* [Campaign Standard Mobile 안내서](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standard 모바일 안내서](../../channels/using/get-started-communication-channels.md)
 
-## 전제 조건 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 >[!NOTE]
 >Campaign의 푸시 알림 기능을 활용하려면 암호가 없는 .pem 포맷의 유효한 푸시 인증서를 제공해야 합니다.
@@ -80,7 +80,7 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 
 아래 리소스를 확인하십시오.
 
-* [비디오 튜토리얼](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [비디오 Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [제품 설명서](../../channels/using/about-push-notifications.md)
 * AEP SDK를 사용한 구성 [설명서](../../administration/using/configuring-a-mobile-application.md)
 * [커뮤니티 페이지](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

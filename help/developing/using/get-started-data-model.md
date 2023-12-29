@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 31%
+source-wordcount: '334'
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ Campaign에서 사용하는 데이터는 **사전 정의된 데이터 모델**. 
 
 다음 **진단** 메뉴를 사용하면 데이터 스키마, 웹 페이지, 필터 등 Campaign Standard으로 생성된 기술 개체를 나열할 수 있으므로 데이터 모델과 변경된 모든 사항을 모니터링할 수 있습니다.
 
-자세히 표시:
+자세한 내용:
 
 * [데이터 모델 기본 개념](../../developing/using/data-model-concepts.md)
 * [데이터 모델 모범 사례](../../developing/using/data-model-best-practices.md)
@@ -48,7 +48,7 @@ Campaign Standard을 사용하면 다음 작업을 수행할 수 있습니다. *
 
 또한 다음을 수행할 수 있습니다 **Campaign Standard REST API 확장** 사용자 지정 리소스 프로필에 대한 API 확장 필드에 노출하기 위해 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객 프로필을 업데이트할 수 있습니다.
 
-자세히 표시:
+자세한 내용:
 
 * [리소스 추가 또는 확장](../../developing/using/key-steps-to-add-a-resource.md)
 * [API 확장](../../developing/using/about-extending-the-api.md)

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 47%
+source-wordcount: '183'
+ht-degree: 40%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 47%
                <tr>
                   <td>생성됨</td>
                   <td>제작일</td>
-                  <td>date </td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -87,8 +87,8 @@ ht-degree: 47%
                </tr>
                <tr>
                   <td>마지막 수정일</td>
-                  <td>마지막 수정일</td>
-                  <td>date </td>
+                  <td>마지막 수정</td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -135,7 +135,7 @@ ht-degree: 47%
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
-                  <td>Event</td>
+                  <td>이벤트</td>
                   <td>항목 </td>
                   <td> </td>
                </tr>
@@ -200,7 +200,7 @@ ht-degree: 47%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>제목</td>
                   <td>테스트 프로필</td>
                   <td>문자열(255)</td>
                   <td> </td>

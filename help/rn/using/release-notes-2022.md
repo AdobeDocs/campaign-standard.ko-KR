@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '1201'
+workflow-type: tm+mt
+source-wordcount: '1248'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 ### 수정 사항{#rn-fixes}
 
 * 예약된 시간보다 1시간 전에 트리거된 예약된 보고서 문제를 수정했습니다. (CAMP-51502)
-* 전송 로그(nms:broadLogRcp)와 일치하지 않는 게재 대시보드의 게재 표시기에 대한 문제를 해결했습니다. (CAMP-51127)
+* 전송 로그(nms:broadLogRcp)와 일치하지 않는 게재 대시보드의 게재 지표에 관한 문제를 해결했습니다. (CAMP-51127)
 * ACS 커넥터(Prime Offer)에서 사용자 지정 리소스 확장을 할 수 없는 문제를 해결했습니다. (CAMP-51033)
 * 지연을 방지하기 위해 개인 정보 보호 요청 응답에 대한 게시 프로세스를 개선했습니다. (CAMP-50613)
 

@@ -12,7 +12,7 @@ exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 36%
+ht-degree: 30%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 36%
 
    ![](assets/message-center_5.png)
 
-새 테스트 프로필을 만들거나 **[!UICONTROL Test profiles]** 메뉴에 이미 있는 테스트 프로필을 사용할 수도 있습니다. 방법은 다음과 같습니다.
+새 테스트 프로필을 만들거나 **[!UICONTROL Test profiles]** 메뉴 아래의 제품에서 사용할 수 있습니다. 방법은 다음과 같습니다.
 
 1. 다음을 클릭합니다. **Adobe** 로고, 왼쪽 상단 모서리에서 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. 다음에서 **[!UICONTROL Event]** 섹션에서 방금 만든 이벤트를 선택합니다. 예제에서는 &quot;장바구니 포기(EVTcartAbandonment)&quot;를 선택합니다.

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 **[!UICONTROL Wait]** 활동은 워크플로우 특정 부분의 실행을 잠시 미룹니다. 몇 초에서 몇 달까지 대기한 후 아웃바운드 전환을 활성화하여 그 다음으로 배치한 활동을 실행합니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Wait]** 활동은 실행할 두 활동 사이에 일정 시간이 지나도록 하는 데 사용됩니다. 예를 들어 이메일 게재 활동 후 며칠 동안 대기하고, 후속 작업(리마인더 이메일, 대상자 만들기 등)을 수행하기 전에 대기 기간 동안 발생한 열람수 및 클릭수를 분석하려 할 때 사용할 수 있습니다.
 

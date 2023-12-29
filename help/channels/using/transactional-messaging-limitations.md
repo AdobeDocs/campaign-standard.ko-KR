@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 67%
+source-wordcount: '756'
+ht-degree: 61%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 67%
 * 이벤트 자체에 포함된 데이터에서 개인화 정보를 가져옵니다. 다음을 참조하십시오 [이벤트 기반 트랜잭션 메시지 구성](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * 본인 **할 수 없음** 사용 **[!UICONTROL Unsubscription link]** 이벤트 트랜잭션 메시지의 콘텐츠 블록입니다.
 * 이벤트 기반 트랜잭션 메시지는 보낸 이벤트에 있는 데이터만 사용하여 수신자와 메시지 콘텐츠 개인화를 정의합니다. 그러나 Adobe Campaign 데이터베이스의 정보를 사용하여 트랜잭션 메시지의 콘텐츠를 보강할 수 있습니다. 다음을 참조하십시오 [이벤트 강화](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 및 [트랜잭션 메시지 개인화](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
-* 이벤트 트랜잭션 메시지에는 프로필 정보가 포함되어 있지 않기 때문에 피로도 규칙이 적용되지 않습니다. 프로필로 보강했을 경우에도 마찬가지입니다.
+* 이벤트 트랜잭션 메시지에는 프로필 정보가 포함되어 있지 않으므로 프로필이 보강된 경우에도 피로도 규칙과 호환되지 않습니다.
 
 ### 프로필 기반 트랜잭션 메시지
 

@@ -11,7 +11,7 @@ exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 * 컴퓨터에서 파일을 업로드하려면 **[!UICONTROL Upload]** 단추를 클릭합니다. [파일에서 콘텐트 가져오기](../../designing/using/using-existing-content.md#importing-content-from-a-file)를 참조하십시오.
 * URL에서 기존 콘텐츠를 검색하려면 **[!UICONTROL Import from URL]** 단추를 클릭합니다. [URL에서 콘텐트 가져오기](../../designing/using/using-existing-content.md#importing-content-from-a-url)를 참조하십시오.
 
-## 용어 {#terminology}
+## Terminology {#terminology}
 
 **템플릿**: 템플릿은 여러 게재에 대해 작성하고 재사용할 수 있는 이메일 구조입니다.
 
@@ -167,4 +167,4 @@ CSS 충돌 문제와 같은 문제를 방지하려면 콘텐츠를 최신 버전
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-이메일 디자이너를 시작하려면 이메일 디자이너의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 세트](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)를 시청하십시오
+이메일 디자이너를 시작하려면 다음을 확인하십시오. [비디오 세트](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 이메일 디자이너의 일반 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명합니다

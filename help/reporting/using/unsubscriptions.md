@@ -1,5 +1,5 @@
 ---
-title: 구독 최소 건수
+title: 구독 취소 건수
 description: 기본 구독 해지 보고서를 통해 고객이 게재를 구독 취소한 횟수를 알아봅니다.
 audience: reporting
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ---
 
-# 구독 최소 건수{#unsubscriptions}
+# 구독 취소 건수{#unsubscriptions}
 
 다음 **[!UICONTROL Unsubscriptions]** 보고서는 가장 많이 구독 해지된 게재 항목을 식별합니다.
 

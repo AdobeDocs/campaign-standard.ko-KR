@@ -1,6 +1,6 @@
 ---
 title: 관계를 사용한 데이터 조정
-description: 다음 예제에서는 파일에 있는 구매 데이터를 사용하여 데이터베이스를 업데이트하는 워크플로우를 보여줍니다.
+description: 다음 예제에서는 파일의 구매 데이터를 사용하여 데이터베이스를 업데이트하는 워크플로우를 보여 줍니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 86%
+ht-degree: 81%
 
 ---
 

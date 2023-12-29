@@ -12,7 +12,7 @@ exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 38%
+ht-degree: 37%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 38%
 
 ![](assets/wf-complement-query.png)
 
-## 전자 메일 게재 만들기{#creating-an-email-delivery}
+## 이메일 게재 만들기{#creating-an-email-delivery}
 
 1. 드래그 앤 드롭 [이메일 게재](../../automating/using/email-delivery.md) 각 세그먼트 뒤에.
 1. 활동을 클릭하고 편집하려면 ![](assets/edit_darkgrey-24px.png)을(를) 선택합니다.

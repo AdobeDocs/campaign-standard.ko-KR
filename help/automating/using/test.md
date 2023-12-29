@@ -12,7 +12,7 @@ exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 82%
+ht-degree: 77%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 82%
 
 **[!UICONTROL Test]** 활동을 통해 테스트 결과를 기반으로 전환을 실행할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **테스트** 활동은 연결된 조건을 충족하는 첫 번째 전환을 활성화합니다.
 

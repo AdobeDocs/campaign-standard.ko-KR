@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 56%
+source-wordcount: '1103'
+ht-degree: 47%
 
 ---
 
@@ -35,9 +35,9 @@ Adobe Campaign은 두 가지 새로운 머신 러닝 모델을 제공합니다. 
 
 예측 전송 시간 최적화 모델 내에는 두 개의 하위 모델이 있습니다.
 
-* **열기에 대한 예측 전송 시간은 열기를 최대화하기 위해 고객에게 커뮤니케이션을 전송해야 하는 최적의 시간**
+* **열기에 대한 예측 전송 시간** 은(는) 열기를 최대화하기 위해 고객에게 커뮤니케이션을 전송해야 하는 최적의 시기입니다
 
-* **클릭에 대한 예측 전송 시간은 클릭을 최대화하기 위해 고객에게 커뮤니케이션을 전송해야 하는 최적의 시간**
+* **클릭에 대한 예측 전송 시간** 클릭을 최대화하기 위해 고객에게 커뮤니케이션을 전송해야 하는 최적의 시간
 
 **모델 입력**:게재 로그, 추적 로그 및 프로필 속성(PII 아님)
 
@@ -78,9 +78,9 @@ Adobe Campaign에 구현되면 기계 학습 기능은 최고의 열기/클릭 �
 
 ![](assets/do-not-localize/SendTimeScore.png)
 
-### 최적의 시기에 메시지 전송{#use-predictive-send-time}
+### 최적의 시기에 메시지 보내기{#use-predictive-send-time}
 
-이메일이 프로필당 최적의 시간에 발송되도록 하려면 **[!UICONTROL Send at a custom date defined by a formula]** 옵션을 사용하여 게재를 예약해야 합니다 .
+이메일이 프로필당 최적의 시간에 발송되도록 하려면 옵션을 사용하여 게재를 예약해야 합니다 **[!UICONTROL Send at a custom date defined by a formula]**.
 
 [이 섹션](../../sending/using/computing-the-sending-date.md)에서 전송 날짜를 계산하는 방법을 알아봅니다.
 
@@ -136,6 +136,6 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 1. **이메일 채널에 대한 참여 점수** 탭을 클릭합니다.
 
-워크플로우에서 쿼리 활동을 사용하면 점수를 사용하여 대상을 최적화할 수 있습니다. 예를 들어 **보존 수준** 기준이 있는 경우는 다음과 같습니다.
+워크플로우에서 쿼리 활동을 사용하면 점수를 사용하여 대상자를 최적화할 수 있습니다. 예를 들어 **보존 수준** 기준이 있는 경우는 다음과 같습니다.
 
 ![](assets/do-not-localize/predictive_score_query.png)

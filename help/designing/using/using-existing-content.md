@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 5%
+source-wordcount: '1277'
+ht-degree: 3%
 
 ---
 
@@ -104,7 +104,7 @@ URL에서 기존 콘텐츠를 검색하려면 아래 단계를 따르십시오.
 1. 콘텐츠를 검색할 URL을 정의합니다.
 1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
 
-비디오에서 이 기능 살펴보기.
+비디오에서 이 기능을 살펴보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
@@ -128,7 +128,7 @@ URL에서 기존 콘텐츠를 검색하려면 아래 단계를 따르십시오.
 
 1. 검색된 URL 콘텐츠를 미리 보려면 메시지가 생성되면 열고 다음을 클릭합니다. **[!UICONTROL Preview]** 단추를 클릭합니다.
 
-콘텐츠를 검색할 원격 URL을 개인화할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
+콘텐츠를 검색할 원격 URL을 개인화할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 화면 상단의 이메일 레이블을 클릭하여 이메일 디자이너에 액세스합니다 **[!UICONTROL Properties]** 탭.
 1. 다음 찾기 **[!UICONTROL Remote URL]** 필드.
@@ -223,7 +223,7 @@ URL에서 기존 콘텐츠를 검색하려면 아래 단계를 따르십시오.
 1. 구조 구성 요소를 추가합니다. 자세한 내용은 [전자 메일 구조 편집](../../designing/using/designing-from-scratch.md#defining-the-email-structure)을 참조하십시오.
 1. HTML 구성 요소를 추가합니다. 자세한 내용은 [조각 및 구성 요소 추가](../../designing/using/designing-from-scratch.md#defining-the-email-structure)를 참조하십시오.
 1. HTML을 해당 구성 요소에 복사하여 붙여넣습니다.
-1. 모바일 보기로 전환. 자세한 내용은 [이 섹션](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)을 참조하십시오.
+1. 모바일 보기로 전환합니다. 자세한 내용은 [이 섹션](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)을 참조하십시오.
 
    CSS가 누락되었기 때문에 응답형 보기가 손상되었습니다.
 

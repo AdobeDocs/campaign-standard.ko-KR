@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ Adobe Campaign Standard을 사용하면 API를 통해 데이터 매핑의 즉각
 
 이 페이지에서는 데이터 매핑의 수집 상태를 트리거하고 검색하는 방법에 대해 설명합니다. Campaign Standard API에 대한 전역 정보는 다음을 참조하십시오. [이 섹션](../../api/using/get-started-apis.md).
 
-## 전제 조건 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 API를 사용하기 전에 데이터 매핑이 먼저 구성되어 Campaign Standard 인터페이스 내에 게시되어야 합니다. 자세한 정보는 다음 섹션을 참조하십시오.
 
@@ -42,7 +42,7 @@ API를 사용하기 전에 데이터 매핑이 먼저 구성되어 Campaign Stan
 
    ![](assets/aep_datamapping_stop.png)
 
-1. 변경 내용을 저장합니다
+1. 변경 사항 저장
 
 이제 데이터 매핑 실행이 중지되었습니다. Campaign Standard API를 사용하여 수동으로 트리거할 수 있습니다.
 

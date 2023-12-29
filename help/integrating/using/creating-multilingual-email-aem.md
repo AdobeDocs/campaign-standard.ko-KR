@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 5%
 
 1. 클릭 **[!UICONTROL Complete]** 그러면 **[!UICONTROL Newsletter review]** 다음에서 **[!UICONTROL Complete work item]** 창.
 
-1. **[!UICONTROL Complete]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Newsletter approval]**&#x200B;을(를) 클릭합니다. 콘텐츠 및 전송 매개 변수가 정의되면 Adobe Campaign Standard에서 이메일 승인, 준비 및 전송을 진행할 수 있습니다.
+1. 클릭 **[!UICONTROL Complete]** 그러면 **[!UICONTROL Newsletter approval]**. 콘텐츠 및 전송 매개 변수가 정의되면 Adobe Campaign Standard에서 이메일 승인, 준비 및 전송을 진행할 수 있습니다.
 
    ![](assets/aem_acs_8.png)
 

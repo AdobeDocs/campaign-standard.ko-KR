@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 96%
+source-wordcount: '976'
+ht-degree: 90%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 96%
 
 1. 활동 만들기를 확인하면 해당 활동에 대한 대시보드가 표시됩니다. 자세한 내용은 [워크플로우 인터페이스](../../automating/using/workflow-interface.md) 섹션을 참조하십시오.
 
-1. 워크플로우를 구성할 준비가 되면 **[!UICONTROL Edit properties]** 버튼을 클릭하여 추가 옵션에 액세스할 수 있습니다.
+1. 워크플로우를 구성할 준비가 되면 다음을 클릭하여 추가 옵션에 액세스할 수 있습니다. **[!UICONTROL Edit properties]** 단추를 클릭합니다.
 
    예를 들어 모든 워크플로우의 활동에서 기본적으로 사용할 특정 시간대를 정의할 수 있습니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 96%
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 96%
 
 만료 날짜 이전에 푸시 알림이 전송되지 않은 경우 푸시 알림이 삭제됩니다.
 
-## 사용자 지정 필드 추가 {#add-custom-fields}
+## 사용자 정의 필드 추가 {#add-custom-fields}
 
 사용자 지정 필드를 사용하면 키 값 쌍의 형태로 페이로드에서 사용자 지정 데이터를 전달할 수 있습니다. 이 옵션을 사용하여 사전 정의된 키를 넘어 애플리케이션에 추가 데이터를 전달할 수 있습니다.
 
@@ -160,7 +160,7 @@ ht-degree: 96%
 
    ![](assets/push_notif_advanced_2.png)
 
-## iOS의 알림 동작 변경 {#change-the-notification-behavior-for-ios}
+## iOS에 대한 알림 동작 변경 {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 

@@ -10,8 +10,8 @@ level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 77%
+source-wordcount: '1261'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 ![](assets/ux_interface_01.png)
 
-## 홈페이지 {#home-page}
+## 홈 페이지 {#home-page}
 
 홈페이지는 주요 Adobe Campaign 기능에 빠르게 액세스할 수 있는 카드 세트로 구성되어 있습니다. Campaign 홈페이지에서 볼 수 있는 기능 목록은 사용자 권한 및 조직에 대해 구성된 옵션에 따라 다릅니다.
 

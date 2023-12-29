@@ -8,14 +8,14 @@ exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
 # 마케팅 기록 활용{#interacting-with-marketing-history}
 
 다음 **history** 엔드포인트를 사용하면 프로필의 마케팅 기록과 상호 작용할 수 있습니다.
-예를 들어 이 방법으로 프로필로 전송된 게재에 대한 미러 페이지를 쉽게 검색할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다:
+예를 들어 이 방법으로 프로필로 전송된 게재에 대한 미러 페이지를 쉽게 검색할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 를 사용하여 GET 수행 **history** 엔드포인트 및 프로필의 기본 키.
 1. 에 대한 GET 요청 수행 **events** href가 반환되었습니다.

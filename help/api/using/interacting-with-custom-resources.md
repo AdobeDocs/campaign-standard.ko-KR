@@ -1,5 +1,5 @@
 ---
-title: 사용자 정의 리소스와 상호 작용
+title: 사용자 지정 리소스와 상호 작용
 description: API를 통한 사용자 지정 리소스 관리에 대해 자세히 알아보기/
 audience: developing
 content-type: reference
@@ -11,11 +11,11 @@ exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
-# 사용자 정의 리소스와 상호 작용 {#interacting-with-custom-resources}
+# 사용자 지정 리소스와 상호 작용 {#interacting-with-custom-resources}
 
 다음 **/customSources** 끝점을 사용하면 REST에 Campaign 사용자 지정 리소스를 표시할 수 있습니다. 이 API를 기반으로 사용자 지정 엔티티와 외부 엔드포인트 간의 통합을 사용할 수 있습니다.
 

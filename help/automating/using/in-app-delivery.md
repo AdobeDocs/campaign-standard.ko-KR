@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 43%
+source-wordcount: '693'
+ht-degree: 39%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 43%
 
 다음 **인앱 게재** 활동을 사용하면 워크플로우 내에서 인앱 메시지 전송을 구성할 수 있습니다. 인앱 메시징을 사용하면 사용자가 애플리케이션 내에서 활성 상태일 때 메시지를 표시할 수 있습니다. 인앱 게재에 대한 자세한 내용은 다음을 참조하십시오 [섹션](../../channels/using/about-in-app-messaging.md).
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 다음 **[!UICONTROL In-App delivery]** 활동은 일반적으로 동일한 워크플로우에서 계산된 타겟 대상자에게 인앱 메시지 전송을 자동화하는 데 사용됩니다.
 
@@ -44,7 +44,7 @@ ht-degree: 43%
 
    >[!NOTE]
    >
-   >활동의 빠른 작업에서 ![](assets/dlv_activity_params-24px.png) 버튼을 통해 활동의 일반 속성 및 고급 옵션(게재 자체가 아님)에 액세스할 수 있습니다.
+   >를 통해 활동의 일반 속성 및 고급 옵션(게재 자체가 아님)에 액세스할 수 있습니다. ![](assets/dlv_activity_params-24px.png) 활동의 빠른 작업에서 단추를 클릭합니다.
 
    ![](assets/wkf_in_app_3.png)
 

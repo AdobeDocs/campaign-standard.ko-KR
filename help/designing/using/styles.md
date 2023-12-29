@@ -11,7 +11,7 @@ exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 26%
+ht-degree: 25%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 26%
 
 ### 예: 세로 정렬 및 패딩 조정 {#example--adjusting-vertical-alignment-and-padding}
 
-3개의 열로 구성된 구조 구성 요소 내에서 패딩 및 수직 정렬을 조정하려고 합니다. 이렇게 하려면 아래 단계를 수행합니다:
+3개의 열로 구성된 구조 구성 요소 내에서 패딩 및 수직 정렬을 조정하려고 합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
 1. 이메일에서 직접 또는 왼쪽에서 사용 가능한 구조 트리를 사용하여 구조 구성 요소 선택 **팔레트**.
 1. 다음에서 **상황별 도구 모음**, 클릭 **[!UICONTROL Select a column]** 편집할 항목을 선택합니다. 구조 트리에서 선택할 수도 있습니다.

@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 **관련 항목:**
 
-* [파일 로드 활동](../../automating/using/load-file.md)
+* [파일 활동 로드](../../automating/using/load-file.md)
 * [조정 활동](../../automating/using/reconciliation.md)
 * [세분화 활동](../../automating/using/segmentation.md)
 * [중복 제거 활동](../../automating/using/deduplication.md)
@@ -73,7 +73,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 **관련 항목:**
 
-* [파일 로드 활동](../../automating/using/load-file.md)
+* [파일 활동 로드](../../automating/using/load-file.md)
 * [파일 추출 활동](../../automating/using/extract-file.md)
 
 ## 델타 모드에서 가져오기 {#importing-in-delta-mode}

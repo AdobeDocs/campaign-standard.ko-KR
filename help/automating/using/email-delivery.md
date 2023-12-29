@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 94%
+source-wordcount: '858'
+ht-degree: 90%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 반복 이메일을 사용하면 정의된 기간 동안 동일한 이메일을 여러 타겟에 여러 번 보낼 수 있습니다. 필요한 보고서를 얻기 위해 기간별 게재를 집계할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Email delivery]** 활동은 일반적으로 동일한 워크플로우에서 계산된 타겟으로 이메일 전송을 자동화하는 데 사용됩니다.
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 80%
+source-wordcount: '1720'
+ht-degree: 77%
 
 ---
 
@@ -62,7 +62,7 @@ SFTP 외부 계정의 경우 다음 세부 사항을 제공합니다.
 * 포트 번호. 예를 들어 **22**&#x200B;입니다.
 * SFTP 서버 자격 증명: 서버에 연결하는 데 사용되는 계정 이름 및 암호입니다.
 
-### Adobe 호스팅 SFTP 서버 권장 사항 {#adobe-hosted-sftp-server-recommendations}
+### 호스팅된 SFTP 서버 권장 사항 Adobe {#adobe-hosted-sftp-server-recommendations}
 
 ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe에서 제공하는 호스팅 SFTP 서버에 저장됩니다. 이 SFTP는 파일의 보관 및 삭제를 제어할 수 있는 임시 저장 공간으로 설계되었습니다.
 

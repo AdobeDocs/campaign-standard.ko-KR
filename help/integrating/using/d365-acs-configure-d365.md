@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 1%
+source-wordcount: '879'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Microsoft Dynamics 365와 Adobe Campaign Standard 통합에 대한 일반적인 
 
 통합을 활성화하려면 여러 애플리케이션을 구성해야 하지만, 이 문서에서는 Dynamics 365 내에서 필요한 단계에 중점을 둡니다.
 
-## 전제 조건
+## 필수 구성 요소
 
 이 문서에서 사전 통합 설정을 수행하기 전에 이미 프로비저닝되었으며 조직의 Microsoft Dynamics 365 인스턴스에 대한 관리자 액세스 권한이 있다고 가정합니다.  이 문제가 발생하지 않은 경우 Microsoft 고객 지원 센터에 문의하여 Dynamics 365 프로비저닝을 완료해야 합니다.
 

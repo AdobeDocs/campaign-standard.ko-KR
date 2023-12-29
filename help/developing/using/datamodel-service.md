@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 41%
+source-wordcount: '222'
+ht-degree: 35%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 41%
                <tr>
                   <td>생성됨</td>
                   <td>제작일</td>
-                  <td>date </td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 41%
                <tr>
                   <td>종료</td>
                   <td>종료 일자</td>
-                  <td>date </td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -92,15 +92,15 @@ ht-degree: 41%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>레이블</td>
                   <td>레이블</td>
                   <td>문자열(128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>마지막 수정일</td>
-                  <td>마지막 수정일</td>
-                  <td>date </td>
+                  <td>마지막 수정</td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -165,8 +165,8 @@ ht-degree: 41%
                </tr>
                <tr>
                   <td>시작</td>
-                  <td>시작 일자</td>
-                  <td>date </td>
+                  <td>시작일</td>
+                  <td>일자 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -212,7 +212,7 @@ ht-degree: 41%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>제목</td>
                   <td>서비스</td>
                   <td>문자열(255)</td>
                   <td> </td>
@@ -254,11 +254,11 @@ ht-degree: 41%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>일자</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>일자</td>
     </tr>
 </table>
 

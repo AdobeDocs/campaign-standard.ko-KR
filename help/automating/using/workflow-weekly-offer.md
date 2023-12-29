@@ -12,7 +12,7 @@ exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 81%
 1. 워크플로우 유형으로 **[!UICONTROL New Workflow]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 워크플로우의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-## 예약 활동 만들기{#creating-a-scheduler-activity}
+## 스케줄러 활동 만들기{#creating-a-scheduler-activity}
 
 1. 위치 **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, 드래그 앤 드롭 [스케줄러](../../automating/using/scheduler.md) 활동.
 1. 활동을 두 번 클릭합니다.

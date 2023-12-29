@@ -12,7 +12,7 @@ exl-id: 9cee2005-a99b-47cb-b573-a25812614409
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 86%
 
 ## 세분화 활동 만들기 {#creating-segmentation-activity}
 
-쿼리 활동에서 타겟을 식별한 후에는 이메일과 문자 메시지를 받는 대상을 두 개의 다른 모집단으로 세분화하는 조건을 선택해야 합니다. 
+쿼리 활동에서 타겟을 식별한 후에는 이메일과 SMS를 받는 대상을 두 개의 다른 모집단으로 세분화하는 조건을 선택해야 합니다. 
 
 다음을 사용해야 합니다. [세분화](../../automating/using/segmentation.md) 활동으로 쿼리에서 업스트림 계산된 모집단에서 하나 또는 여러 세그먼트를 만듭니다.
 

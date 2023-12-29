@@ -1,6 +1,6 @@
 ---
 title: 브랜딩
-description: 브랜드 이미지를 관리하는 데 사용할 수 있는 모든 도구를 살펴봅니다
+description: 브랜딩 ID를 관리하는 데 사용할 수 있는 모든 도구를 살펴봅니다
 audience: administration
 context-tags: branding,overview;branding,main
 feature: Instance Settings
@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 76%
+source-wordcount: '1259'
+ht-degree: 73%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 76%
 
 브랜드 구성 및 사용의 주요 원칙은 다음과 같습니다.
 
-1. 브랜드 만들기 및 구성 - 이 작업은 특정 권한이 필요하며 Adobe Campaign 기술 관리자가 수행합니다. Campaign에서 새 브랜드를 가져오는 단계가 자세히 설명되어 있습니다 [이 섹션에서](#creating-a-brand).
+1. 브랜드 만들기 및 구성 - 이 작업을 수행하려면 특정 권한이 필요하며 Adobe Campaign 기술 관리자가 수행합니다. Campaign에서 새 브랜드를 가져오는 단계가 자세히 설명되어 있습니다 [이 섹션에서](#creating-a-brand).
 1. 이 브랜드에 대해 하나 또는 여러 개의 게재 및 랜딩 페이지 템플릿을 만듭니다. [템플릿 만들기](../../start/using/marketing-activity-templates.md) 섹션을 참조하십시오.
 1. 이 템플릿을 기반으로 메시지 및 랜딩 페이지를 만듭니다. [이메일 만들기](../../channels/using/creating-an-email.md) 및 [랜딩 페이지 만들기](../../channels/using/designing-a-landing-page.md) 섹션을 참조하십시오.
 

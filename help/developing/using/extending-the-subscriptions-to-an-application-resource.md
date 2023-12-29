@@ -11,13 +11,13 @@ exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 24%
+ht-degree: 10%
 
 ---
 
 # 구독을 확장해 애플리케이션 리소스로 만들기{#extending-the-subscriptions-to-an-application-resource}
 
-모바일 디바이스에서 전송한 모바일 프로필 속성 데이터는 Adobe Campaign의 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 리소스에 저장됩니다. 이를 통해 애플리케이션 구독자로부터 수집하려는 데이터를 정의할 수 있습니다. 사용자 지정 리소스에 대한 자세한 내용은 [이 페이지](../../developing/using/key-steps-to-add-a-resource.md).
+Adobe Campaign에서, 모바일 디바이스에서 전송된 모바일 프로필 속성 데이터는에 저장됩니다 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** 애플리케이션 구독자로부터 수집하려는 데이터를 정의할 수 있는 리소스입니다. 사용자 지정 리소스에 대한 자세한 내용은 [이 페이지](../../developing/using/key-steps-to-add-a-resource.md).
 
 이 리소스를 확장하여 모바일 장치에서 Adobe Campaign으로 전송할 데이터를 수집할 수 있습니다.
 

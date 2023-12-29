@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Standard에서 전자 메일 채널 구성
-description: Adobe Campaign Standard에서 전자 메일 채널을 구성하는 방법을 배웁니다
+description: Adobe Campaign Standard에서 이메일 채널을 구성하는 방법 알아보기
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2681'
-ht-degree: 62%
+source-wordcount: '2683'
+ht-degree: 59%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 62%
 
 Campaign [관리자](../../administration/using/users-management.md#functional-administrators)는 전자 메일 채널 설정을 구성할 수 있습니다. 이러한 고급 설정에는 일반 전자 메일 채널 매개 변수, 전자 메일 라우팅 계정, 전자 메일 처리 규칙 및 전자 메일 속성이 포함됩니다. 이 페이지에서는 일반 전자 메일 및 전송 매개 변수의 기본값을 편집하는 방법을 알아봅니다.
 
-## 전자 메일 채널 매개 변수 {#email-channel-parameters}
+## 이메일 채널 매개 변수 {#email-channel-parameters}
 
 전자 메일 구성 화면에서는 전자 메일 채널의 매개 변수를 정의할 수 있습니다. 관리자는 **[!UICONTROL Administration]> [!UICONTROL Channels] > [!UICONTROL Email] >[!UICONTROL Configuration]** 메뉴에서 이러한 구성에 액세스할 수 있습니다.
 
@@ -120,7 +120,7 @@ The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campa
 
 The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-## 전자 메일 속성 목록 {#list-of-email-properties}
+## 이메일 속성 목록 {#list-of-email-properties}
 
 이 섹션에서는 전자 메일 또는 전자 메일 템플릿의 속성 화면에서 사용할 수 있는 매개 변수 목록에 대해 자세히 설명합니다.
 
@@ -162,7 +162,7 @@ The Enhanced MTA uses its own MX rules that allow it to customize your throughpu
 
 Campaign에 **설정된**&#x200B;게재 기간 설정&#x200B;**([유효 기간 매개 변수 섹션](#validity-period-parameters)에 정의됨)은 그대로 허용되지만 최대 3.5일만 허용됩니다.** 이 시점에서 다시 시도 큐의 모든 메시지는 대기열에서 제거되고 바운스로 다시 전송됩니다. 게재 실패에 대한 자세한 내용은 이 [섹션](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)을 참조하십시오.
 
-#### 전자 메일 형식 매개 변수 {#email-format-parameters}
+#### 이메일 형식 매개 변수 {#email-format-parameters}
 
 보낼 전자 메일의 형식을 구성할 수 있습니다. 다음 세 가지 옵션을 사용할 수 있습니다.
 
@@ -226,7 +226,7 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
   >
 
 
-### 추적 매개 변수 {#tracking-parameters}
+### 추적 매개변수 {#tracking-parameters}
 
 **[!UICONTROL Tracking]** 섹션에는 다음 매개 변수가 포함되어 있습니다.
 
@@ -247,7 +247,7 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
 
 개인화 컨텐츠 삽입 및 사용은 [전자 메일 콘텐츠 개인화](../../designing/using/personalization.md) 문서에 자세히 설명되어 있습니다.
 
-#### 타겟팅 컨텍스트 {#target-context}
+#### 대상 컨텍스트 {#target-context}
 
 타겟팅 컨텍스트를 사용하여 이메일 타겟팅(대상 정의 화면)과 개인화(HTML 콘텐츠 편집기에서 개인화 필드 정의)에 사용할 테이블 세트를 정의합니다.
 

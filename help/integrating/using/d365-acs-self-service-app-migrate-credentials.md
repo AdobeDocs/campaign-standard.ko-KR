@@ -7,14 +7,15 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-source-git-commit: 736e8b7e863409779c153567f6e5fc577ac3c519
+exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
+source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# JWT에서 OAuth 서버 간 자격 증명으로 마이그레이션
+# 자격 증명을 JWT에서 OAuth로 서버 간 마이그레이션
 
 서비스 계정(JWT) 자격 증명은 새 OAuth 서버 간 자격 증명을 위해 더 이상 사용되지 않습니다. 새 자격 증명을 사용하면 Adobe 애플리케이션을 보다 쉽게 유지 관리할 수 있습니다. 또한 정기적으로 인증서를 회전해야 하는 필요성을 없애고 표준 OAuth2 라이브러리를 사용하여 즉시 작동합니다.
 

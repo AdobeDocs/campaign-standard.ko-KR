@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 94%
+source-wordcount: '996'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
 >
 >이 섹션에서 설명하는 사용 사례는 Experience Cloud 방문자 ID를 기반으로 합니다. Experience Cloud 선언 ID로 구현할 수도 있습니다. 해시 및 암호화한 선언 ID도 지원됩니다. 암호화된 이메일 주소/모바일 번호를 직접 해독하여 Campaign에 존재하지 않는 프로필에 이메일/SMS를 보낼 수 있습니다. 하지만 이 경우 프로필 데이터를 통한 개인화는 사용할 수 없습니다.
 
-## 사전 요구 사항 {#pre-requisites}
+## 전제 조건 {#pre-requisites}
 
 이 사용 사례를 구현하려면 다음 솔루션/핵심 서비스에 액세스할 수 있어야 합니다.
 

@@ -11,7 +11,7 @@ exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 
 ![](assets/des_link_edit.png)
 
-을(를) 사용하여 이메일을 편집할 때 [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md)에 있는 경우 이메일에 포함된 모든 URL을 나열하는 표에서 만든 링크에 쉽게 액세스하고 이를 수정할 수 있습니다. 이 목록을 통해 URL을 중앙 집중식으로 볼 수 있으며 이메일 콘텐츠에서 각 URL을 찾을 수 있습니다. 액세스하려면 다음을 참조하십시오. [추적된 URL 정보](#about-tracked-urls).
+을(를) 사용하여 이메일을 편집할 때 [이메일 디자이너](../../designing/using/designing-content-in-adobe-campaign.md)에 있는 경우 이메일에 포함된 모든 URL을 나열하는 표에서 만든 링크에 쉽게 액세스하고 이를 수정할 수 있습니다. 이 목록을 사용하면 중앙에서 볼 수 있으며 이메일 콘텐츠에서 각 URL을 찾을 수 있습니다. 액세스하려면 다음을 참조하십시오. [추적된 URL 정보](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 

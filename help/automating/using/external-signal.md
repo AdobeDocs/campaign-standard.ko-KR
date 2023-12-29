@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 96%
+source-wordcount: '601'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 **[!UICONTROL External signal]** 활동은 다른 워크플로우 또는 REST API 호출에서 일부 조건이 성공적으로 충족되면 워크플로우를 트리거합니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL External signal]** 활동은 동일한 고객 여정의 일부인 다른 프로세스를 다른 워크플로우로 구성하고 오케스트레이션하는 데 사용됩니다. 한 워크플로우를 다른 워크플로우에서 시작할 수 있게 하여 더 복잡한 고객 여정을 지원하는 동시에 문제가 발생하는 경우 보다 효과적으로 모니터링하고 대응할 수 있습니다.
 

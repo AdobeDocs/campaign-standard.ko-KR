@@ -12,7 +12,7 @@ exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 **[!UICONTROL Read audience]** 활동을 사용하면 기존 대상자를 검색하고 추가 필터링 조건을 적용하여 정교화할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Read audience]** 활동은 **[!UICONTROL Query]** 활동을 간단하게 만든 버전으로, 기존 대상자를 선택하기만 하면 되는 경우에 사용할 수 있습니다.
 

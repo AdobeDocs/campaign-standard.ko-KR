@@ -1,6 +1,6 @@
 ---
 title: 연령 그룹에 따른 세분화
-description: 이 페이지에는 연령 그룹에 따른 데이터베이스 프로필의 세그먼테이션이 표시됩니다. 워크플로우의 목표는 각 나이 그룹에 대해 특정 이메일을 보내는 것입니다.
+description: 이 페이지에는 연령 그룹에 따른 데이터베이스 프로필의 세그먼테이션이 표시됩니다. 워크플로우의 목표는 각 연령 그룹에 대해 특정 이메일을 보내는 것입니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 66%
+source-wordcount: '204'
+ht-degree: 51%
 
 ---
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 100%
+source-wordcount: '213'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 **[!UICONTROL Fork]** 활동을 사용하면 아웃바운드 전환을 만들어서 여러 활동을 동시에 시작할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Fork]** 활동을 사용하면 동일한 워크플로우 내에서 독립적으로 여러 가지 다른 활동을 수행할 수 있습니다.
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: '568'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign Standard에서 &quot;프로필 확장&quot;을 활성화하십시
 1. &quot;게시 준비&quot;를 클릭하여 게시를 준비합니다.
 1. 준비가 완료되면 &quot;프로필 및 서비스 외부 API 만들기&quot;를 확인하고 &quot;게시&quot;를 클릭합니다.
 
-## Adobe I/O 구성 {#adobe-io}
+## 구성 Adobe I/O {#adobe-io}
 
 Adobe I/O을 사용하면 Adobe Campaign Standard 및 기타 Adobe 제품에 대한 API 액세스를 활성화할 수 있습니다.   이 문서에서는 Microsoft Dynamics 365와 Adobe Campaign Standard 통합을 통해 데이터를 동기화할 수 있도록 Adobe I/O을 구성하는 방법에 대해 자세히 설명합니다.
 

@@ -55,7 +55,7 @@ ht-degree: 79%
 
 ## 게재 로그 {#delivery-logs}
 
-### 전송 로그 {#sending-logs}
+### 로그 전송 {#sending-logs}
 
 **[!UICONTROL Sending logs]** 탭에는 이 게재의 모든 발생 내역이 표시됩니다. 보낸 메시지 및 상태 목록이 여기에 저장됩니다. 여기에서 각 수신자에 대한 게재 상태를 볼 수 있습니다.
 

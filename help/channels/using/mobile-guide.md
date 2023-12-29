@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard Mobile 안내서
+title: Campaign Standard 모바일 안내서
 description: 모바일 애플리케이션을 구성하거나 푸시 알림 및 인앱 메시지를 만드는 방법 등 Adobe Campaign Standard의 모바일 게재에 대한 일반 지침에 대해 자세히 알아보십시오.
 audience: channels
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 25%
+ht-degree: 22%
 
 ---
 
@@ -201,7 +201,7 @@ Adobe Campaign Standard을 사용하면 세 가지 채널을 통해 모바일 �
     <p><strong>SMS 메시지 사용자 지정
 </strong></p>
     </div>
-    <p>게재를 미세 조정하기 위해 Adobe Campaign에서는 SMS 메시지를 디자인하는 동안 고급 옵션 세트에 액세스할 수 있습니다.자세한 정보를 보려면 </br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>여기를 클릭하십시오.</p>
+    <p>게재를 미세 조정하기 위해 Adobe Campaign에서는 SMS 메시지를 디자인하는 동안 고급 옵션 세트에 액세스할 수 있습니다.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>자세한 내용을 보려면 여기를 클릭하십시오.</p>
     <br>
   </td>
 </tr>
@@ -233,19 +233,19 @@ Adobe Campaign Standard을 사용하면 세 가지 채널을 통해 모바일 �
     <div>
     <p><strong>푸시 알림 FAQ</strong></p>
     </div>
-    <p><a href="../../channels/using/about-push-notifications.md#push-faq"><strong>자세한 정보를 보려면 여기를 클릭하십시오.</p>
+    <p><a href="../../channels/using/about-push-notifications.md#push-faq"><strong>자세한 정보를 보려면 여기를 클릭합니다.</p>
   </td>
   <td>
     <div>
     <p><strong>Adobe 실행 동기화 FAQ</strong></p>
     </div>
-    <p><a href="../../channels/using/in-app-faq.md"><strong>자세한 정보를 보려면 여기를 클릭하십시오.</p>
+    <p><a href="../../channels/using/in-app-faq.md"><strong>자세한 정보를 보려면 여기를 클릭합니다.</p>
   </td>
   <td>
     <div>
     <p><strong>인앱 FAQ</strong></p>
     </div>
-    <p><a href="../../administration/using/syncwithlaunch-faq.md"><strong>자세한 정보를 보려면 여기를 클릭하십시오.</p>
+    <p><a href="../../administration/using/syncwithlaunch-faq.md"><strong>자세한 정보를 보려면 여기를 클릭합니다.</p>
   </td>
 </tr>
 </table>

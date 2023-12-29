@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 5%
+source-wordcount: '406'
+ht-degree: 3%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Campaign에서 이미지에 액세스하려면 먼저 Adobe Target에서 �
 * 만들기 [양식 기반 경험 작성기](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) 활동. 생성된 리디렉션 오퍼의 수에 따라 rawbox를 선택하고 여러 경험을 지정해야 합니다. 각 경험에 대해 만들어진 리디렉션 오퍼 중 하나를 선택해야 합니다.
 * Adobe Campaign의 정보를 사용하여 세그먼트를 만들고 경험을 지정합니다. 오퍼의 선택 규칙에 Adobe Campaign의 데이터를 사용하려면 Adobe Target의 rawbox에 데이터를 지정해야 합니다.
 
-1. 이메일 게재 만들기.
+1. 이메일 게재를 만듭니다.
 1. 전자 메일 또는 랜딩 페이지의 콘텐츠를 편집할 때 이미지 블록으로 이동한 다음 을 선택합니다 **[!UICONTROL Dynamic image from Adobe Target]** 컨텍스트 메뉴를 통해 액세스합니다.
 
    ![](assets/tar_insert_dynamic_image.png)

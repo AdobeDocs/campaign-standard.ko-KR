@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 25%
+source-wordcount: '475'
+ht-degree: 23%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Campaign Standard을 사용하여 추적하면 다음 기능에 액세스�
 
 >[!NOTE]
 >
->게재에 대해 추적이 활성화되어 있지 않은 경우 이 탭이 표시되지 않습니다. 추적 로그는 다음에 사용할 수 있습니다. **이메일** 및 **푸시 알림** 채널만.
+>게재에 대해 추적이 활성화되지 않은 경우 이 탭이 표시되지 않습니다. 추적 로그는 다음에 사용할 수 있습니다. **이메일** 및 **푸시 알림** 채널만.
 
 ![](assets/tracking_logs.png)
 

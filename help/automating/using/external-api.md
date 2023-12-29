@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2208'
 ht-degree: 93%
 
 ---
@@ -46,7 +46,7 @@ Campaign Standard 20.4 릴리스에서는 모범 사례에 맞게 http 응답 �
 >
 >활동 지정 헤더 값은 활동 내에 마스킹되어 있으므로 복사할 수 없습니다.
 
-### 제한 및 보호 기능 {#guardrails}
+### 제한 사항 및 보호 기능 {#guardrails}
 
 이 활동에는 다음과 같은 보호 기능이 적용됩니다.
 

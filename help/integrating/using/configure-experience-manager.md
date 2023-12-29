@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 6%
+source-wordcount: '314'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Standard과 Adobe Experience Manager 간의 이러한 통합을 �
 
 이 사용 사례를 통해 Adobe Experience Manager에서 이메일 콘텐츠를 만들고 관리한 다음, 이메일에 있는 콘텐츠를 Adobe Campaign Standard으로 가져와서 마케팅 캠페인에 사용하는 방법을 배웁니다.
 
-## 전제 조건 {#prerequisites}
+## 필수 구성 요소 {#prerequisites}
 
 먼저 다음 요소가 있는지 확인해야 합니다.
 

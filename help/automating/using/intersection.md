@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 100%
+source-wordcount: '287'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 **[!UICONTROL Intersection]** 활동을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다.
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Intersection]** 활동은 일반적으로 인바운드 전환에서 모집단을 추가로 필터링하는 데 사용됩니다.
 

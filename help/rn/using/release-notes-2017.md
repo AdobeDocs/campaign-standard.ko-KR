@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4562'
-ht-degree: 8%
+source-wordcount: '4572'
+ht-degree: 3%
 
 ---
 
@@ -29,18 +29,18 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> 피로도 관리<br /> </td> 
-   <td> 피로도 관리를 사용하면 피로도 규칙을 만들어 프로필과의 과도한 커뮤니케이션을 관리할 수 있습니다. 피로도 규칙은 쉽게 작성할 수 있지만, 트랜잭션 메시지를 포함하여 여러 채널에서 메시지를 계산하거나, 특정 게재만 계산하거나, 특정 프로필에 규칙을 적용하는 등의 기능으로 매우 유연합니다.<br /> 자세한 내용은 <a href="../../sending/using/fatigue-rules.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 피로도 관리를 사용하면 피로도 규칙을 만들어 프로필과의 과도한 커뮤니케이션을 관리할 수 있습니다. 피로도 규칙은 쉽게 작성할 수 있지만, 트랜잭션 메시지를 포함하여 여러 채널에서 메시지를 계산하거나, 특정 게재만 계산하거나, 특정 프로필에 규칙을 적용하는 등의 기능으로 매우 유연합니다.<br /> 자세한 내용은 <a href="../../sending/using/fatigue-rules.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 콘텐츠 만들기: URL에서 가져오기<br /> </td> 
-   <td> URL에서 가져오기를 사용하면 웹 사이트에서 크리에이티브 콘텐츠를 빠르게 검색하여 배달할 이메일을 작성할 수 있습니다. 또한 타사에서 URL을 통해 직접 콘텐츠를 공유할 수 있게 하여 크리에이티브 프로세스를 간소화할 수 있습니다. 가져온 콘텐츠는 단일 게재의 일부나 템플릿 수준에서 유연하게 사용하여 워크플로우 기반 메시지든 트랜잭션 메시지든 관계없이 모든 관련 캠페인에 대한 브랜드 일관성을 보장하고, A/B 또는 다변량 테스트를 포함할 수 있습니다. URL에서 가져오기는 모든 링크를 자동으로 변환 및 추적하여 다이내믹 보고를 통해 이메일 성능을 모니터링합니다.<br /> 자세한 내용은 <a href="../../designing/using/using-existing-content.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> URL에서 가져오기를 사용하면 웹 사이트에서 크리에이티브 콘텐츠를 빠르게 검색하여 배달할 이메일을 작성할 수 있습니다. 또한 타사에서 URL을 통해 직접 콘텐츠를 공유할 수 있게 하여 크리에이티브 프로세스를 간소화할 수 있습니다. 가져온 콘텐츠는 단일 게재의 일부나 템플릿 수준에서 유연하게 사용하여 워크플로우 기반 메시지든 트랜잭션 메시지든 관계없이 모든 관련 캠페인에 대한 브랜드 일관성을 보장하고, A/B 또는 다변량 테스트를 포함할 수 있습니다. URL에서 가져오기는 모든 링크를 자동으로 변환 및 추적하여 다이내믹 보고를 통해 이메일 성능을 모니터링합니다.<br /> 자세한 내용은 <a href="../../designing/using/using-existing-content.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **패치**
 
-_Platform_
+_플랫폼_
 
 * 큰 압축 파일의 압축이 제대로 풀리지 않는 문제를 해결했습니다.
 * 브랜드 관리 보안이 개선되었습니다. 브랜드 이름과 발신자 주소 수정은 이제 Adobe 기술 관리자용으로 예약되었습니다.
@@ -72,7 +72,7 @@ _보고서_
 * 잘못된 연령 세그먼트의 프로필을 계산하는 문제를 해결했습니다.
 * 소프트 및 하드 바운스 계산 공식이 변경되었습니다.
 
-_워크플로우_
+_워크플로_
 
 * 의 문제가 해결되었습니다. **[!UICONTROL Load file]** 활동에서 열을 수동으로 추가하고 제거한 후 오류가 발생할 수 있는 활동.
 * 다음 **[!UICONTROL deliverabilityUpdate]** 이제 기술 워크플로우가 서버 시간으로 오전 2시에 실행되도록 예약되었습니다.
@@ -108,22 +108,22 @@ _사용자 정의 리소스_
  <tbody> 
   <tr> 
    <td> 이메일 템플릿 라이브러리<br /> </td> 
-   <td> 아스트로(Astro)와 페더(Feather)라는 두 가지 아름다운 테마로 디자인된 18가지의 새롭고 반응형 템플릿을 소개합니다. 사용자 정의 가능한 이러한 템플릿은 산업에 관계없이 사용할 수 있으며 즉시 사용할 수 있습니다. 템플릿에는 다양한 사용 사례에 대한 콘텐츠가 포함되어 있어 이메일 마케팅 캠페인을 보다 빠르고 효율적이며 아름답게 설계하고 전달할 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/using-reusable-content.md#content-templates">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 아스트로(Astro)와 페더(Feather)라는 두 가지 아름다운 테마로 디자인된 18가지의 새롭고 반응형 템플릿을 소개합니다. 사용자 정의 가능한 이러한 템플릿은 산업에 관계없이 사용할 수 있으며 즉시 사용할 수 있습니다. 템플릿에는 다양한 사용 사례에 대한 콘텐츠가 포함되어 있어 이메일 마케팅 캠페인을 보다 빠르고 효율적이며 아름답게 설계하고 전달할 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/using-reusable-content.md#content-templates">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 프로필 데이터를 사용한 다이내믹 보고<br /> </td> 
-   <td> Dynamic Reporting은 완전히 맞춤화가 가능하고 실시간 비즈니스 보고서를 제공합니다. 이 릴리스에서는 다이내믹 보고의 강력한 개선 사항이 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 실용적인 이메일 캠페인 데이터 외에도 성별, 도시, 우편번호 및 연령 등의 프로필 차원별 인구 통계 분석을 활성화합니다. 사용하기 쉬운 동일한 드래그 앤 드롭 인터페이스를 사용하여 가장 중요한 고객 세그먼트에 대해 이메일 캠페인이 수행된 방식을 결정하는 것이 그 어느 때보다 쉽습니다.<br /> 자세한 내용은 <a href="../../reporting/using/about-dynamic-reports.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> Dynamic Reporting은 완전히 맞춤화가 가능하고 실시간 비즈니스 보고서를 제공합니다. 이 릴리스에서는 다이내믹 보고의 강력한 개선 사항이 프로필 데이터에 대한 액세스를 추가하여 열기 및 클릭과 같은 실용적인 이메일 캠페인 데이터 외에도 성별, 도시, 우편번호 및 연령 등의 프로필 차원별 인구 통계 분석을 활성화합니다. 사용하기 쉬운 동일한 드래그 앤 드롭 인터페이스를 사용하여 가장 중요한 고객 세그먼트에 대해 이메일 캠페인이 수행된 방식을 결정하는 것이 그 어느 때보다 쉽습니다.<br /> 자세한 내용은 <a href="../../reporting/using/about-dynamic-reports.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 시작 및 일자가 있는 일괄 가입<br /> </td> 
-   <td> 향상된 이 일괄 구독 기능을 통해 이제 워크플로우의 구독 서비스 활동을 통해 Adobe Campaign Standard 데이터베이스에 구독 정보(원본 및 날짜)를 직접 저장할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/subscription-services.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 향상된 이 일괄 구독 기능을 통해 이제 워크플로우의 구독 서비스 활동을 통해 Adobe Campaign Standard 데이터베이스에 구독 정보(원본 및 날짜)를 직접 저장할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/subscription-services.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **패치**
 
-_Platform_
+_플랫폼_
 
 * 일부 고객은 자신의 레코드를 식별하는 고유 키를 관리하지 않으므로 Adobe Campaign Standard에서 가져온 ID를 활용할 수 있어야 합니다. 이 ID(**ACS ID**)를 내보내고 데이터를 업데이트하는 동안 조정 키로 사용할 수 있습니다. 자세한 내용은 [세부 설명서](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)를 참조하세요.
 * FTP 프로토콜은 더 이상 사용되지 않습니다. 이제 SFTP를 대신 사용해야 합니다. 기존 구현을 차단하지 않기 위해 FTP의 기존 구성은 이전과 동일하게 작동하지만 새 활동에 대해서는 옵션이 표시되지 않습니다.
@@ -152,7 +152,7 @@ _보고서_
 * 다음 [동적 보고서 지표](../../reporting/using/indicator-calculation.md) 및 [캠페인 KPI](../../sending/using/confirming-the-send.md) (보낸 메시지 대시보드에 표시됨)가 일관성을 높이기 위해 정렬되었습니다.
 * Pipelined to crash on debian 7을 충돌을 야기할 수 있는 문제를 해결했습니다.
 
-_워크플로우_
+_워크플로_
 
 * 가져온 파일 보존이 작동하지 않는 문제를 해결했습니다.
 
@@ -180,27 +180,27 @@ _프로필 및 대상자_
  <tbody> 
   <tr> 
    <td> 다국어 이메일 및 SMS 게재<br /> </td> 
-   <td> 자동으로 세그먼트화된 고객의 선호 언어를 기반으로 하는 단일 게재를 통해 다국어 이메일 및 SMS 게재를 정의하고 실행할 수 있습니다. 언어 및 개인 수준에 대한 모든 게재의 성과를 보고합니다.<br /> 점점 더 많은 기업들이 국내외에서 성장함에 따라 여러 언어로 콘텐츠를 전달해야 하는 어려움에 직면해 있습니다. 이와 같이 현지화된 메시지 전달을 간소화하는 것은 다국적 기업, 여러 언어를 사용하는 국가의 회사, 고객이 거주하는 지역에 상관없이 언어 수준에서 콘텐츠를 추가로 개인화하려는 회사를 위한 효과적인 고객 커뮤니케이션 전략의 핵심 부분입니다. 자세한 내용은 <a href="../../channels/using/creating-a-multilingual-email.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 자동으로 세그먼트화된 고객의 선호 언어를 기반으로 하는 단일 게재를 통해 다국어 이메일 및 SMS 게재를 정의하고 실행할 수 있습니다. 언어 및 개인 수준에 대한 모든 게재의 성과를 보고합니다.<br /> 점점 더 많은 기업들이 국내외에서 성장함에 따라 여러 언어로 콘텐츠를 전달해야 하는 어려움에 직면해 있습니다. 이와 같이 현지화된 메시지 전달을 간소화하는 것은 다국적 기업, 여러 언어를 사용하는 국가의 회사, 고객이 거주하는 지역에 상관없이 언어 수준에서 콘텐츠를 추가로 개인화하려는 회사를 위한 효과적인 고객 커뮤니케이션 전략의 핵심 부분입니다. 자세한 내용은 <a href="../../channels/using/creating-a-multilingual-email.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign 알림<br /> </td> 
-   <td> Adobe Campaign Standard 내에서 직접 중요한 시스템 활동에 대한 알림을 받습니다. 예를 들어 진행 중인 게재의 진행 상황 또는 워크플로가 오류인 경우 알림을 받게 됩니다.<br /> 실시간 알림은 관련 이해 당사자에게 정보를 제공하고 애플리케이션 내에서 활동 알림에 대해 즉각적이고 직접적으로 작업할 수 있는 기능을 사용자에게 제공합니다. 팀의 결과는 캠페인의 고급 민첩성, 효율성 및 더 원활한 실행입니다. 자세한 내용은 <a href="../../administration/using/sending-internal-notifications.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> Adobe Campaign Standard 내에서 직접 중요한 시스템 활동에 대한 알림을 받습니다. 예를 들어 진행 중인 게재의 진행 상황 또는 워크플로가 오류인 경우 알림을 받게 됩니다.<br /> 실시간 알림은 관련 이해 당사자에게 정보를 제공하고 애플리케이션 내에서 활동 알림에 대해 즉각적이고 직접적으로 작업할 수 있는 기능을 사용자에게 제공합니다. 팀의 결과는 캠페인의 고급 민첩성, 효율성 및 더 원활한 실행입니다. 자세한 내용은 <a href="../../administration/using/sending-internal-notifications.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 게재 경고<br /> </td> 
-   <td> 이제 Adobe Campaign에서는 Adobe Campaign Standard에서 직접 알림을 볼 수 있을 뿐만 아니라 중요한 시스템 활동의 사용자 또는 외부 관련자에게 이메일 경고를 트리거하는 이메일 경고 시스템도 제공합니다. 맞춤형 경고 및 대시보드를 생성, 관리 및 수신하여 게재 성공 또는 실패를 추적합니다.<br /> Adobe Campaign 게재 경고는 회사에 있는 모든 관련 Adobe Campaign 사용자에게 이메일 및 대시보드를 통해 게재 실행 상태에 대한 자동 알림을 제공하여 효율성을 높입니다. 자세한 내용은 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 이제 Adobe Campaign에서는 Adobe Campaign Standard에서 직접 알림을 볼 수 있을 뿐만 아니라 중요한 시스템 활동의 사용자 또는 외부 관련자에게 이메일 경고를 트리거하는 이메일 경고 시스템도 제공합니다. 맞춤형 경고 및 대시보드를 생성, 관리 및 수신하여 게재 성공 또는 실패를 추적합니다.<br /> Adobe Campaign 게재 경고는 회사에 있는 모든 관련 Adobe Campaign 사용자에게 이메일 및 대시보드를 통해 게재 실행 상태에 대한 자동 알림을 제공하여 효율성을 높입니다. 자세한 내용은 <a href="../../sending/using/receiving-alerts-when-failures-happen.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 데이터 소스의 암호화된 선언 ID<br /> </td> 
-   <td> 암호화된 연락처 정보(이메일 주소 또는 전화번호)를 선언된 ID로 사용하여 Campaign에서 기존 프로필을 사용하지 않고 이메일 및 SMS 트리거를 보냅니다. 암호화된 선언 ID는 Adobe Campaign Standard에서 디코딩할 수 있으므로 Campaign은 이전에 알 수 없는 연락처가 포함된 다른 Experience Cloud 솔루션에서 대상을 받을 때 새로운 마케팅 가능한 프로필을 만들 수 있습니다.<br /> 이메일 및 SMS를 통해 실시간으로 고객과 알 수 없는 잠재 고객을 타겟팅하여 기존 고객 기반의 충성도를 개선하고 신규 고객을 각각 확보합니다. 잠재 고객이 Adobe Audience Manager에서 해당 인사이트를 인증하고 활용하면 자사 쿠키 데이터(Adobe Campaign*에서)를 최대한 활용할 수 있습니다. <br /> *Adobe Audience Manager은 필수입니다. 자세한 내용은 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 암호화된 연락처 정보(이메일 주소 또는 전화번호)를 선언된 ID로 사용하여 Campaign에서 기존 프로필을 사용하지 않고 이메일 및 SMS 트리거를 보냅니다. 암호화된 선언 ID는 Adobe Campaign Standard에서 디코딩할 수 있으므로 Campaign은 이전에 알 수 없는 연락처가 포함된 다른 Experience Cloud 솔루션에서 대상을 받을 때 새로운 마케팅 가능한 프로필을 만들 수 있습니다.<br /> 이메일 및 SMS를 통해 실시간으로 고객과 알 수 없는 잠재 고객을 타겟팅하여 기존 고객 기반의 충성도를 개선하고 신규 고객을 각각 확보합니다. 잠재 고객이 Adobe Audience Manager에서 해당 인사이트를 인증하고 활용하면 자사 쿠키 데이터(Adobe Campaign*에서)를 최대한 활용할 수 있습니다. <br /> *Adobe Audience Manager은 필수입니다. 자세한 내용은 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Campaign에서 Analytics로 KPI 공유<br /> </td> 
-   <td> Adobe Analytics과 캠페인 데이터를 공유하여 전환을 통한 다른 마케팅 및 광고 노력과 함께 Campaign의 이메일 마케팅 지표를 측정함으로써 사전 및 사후 클릭 행동을 통합합니다.<br /> 전체 성과를 직접 추적하고 Analytics의 외부 프로그램으로 시너지 효과를 찾아냅니다. 이 통합된 보기의 학습을 캠페인에 다시 적용하여, 궁극적으로 개방형, 클릭스루 및 전환율을 개선하여 매출과 전체 캠페인 성과를 높일 수 있습니다. <br /> Adobe Analytics은 필수입니다. 자세한 내용은 <a href="../../integrating/using/about-campaign-analytics-integration.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> Adobe Analytics과 캠페인 데이터를 공유하여 전환을 통한 다른 마케팅 및 광고 노력과 함께 Campaign의 이메일 마케팅 지표를 측정함으로써 사전 및 사후 클릭 행동을 통합합니다.<br /> 전체 성과를 직접 추적하고 Analytics의 외부 프로그램으로 시너지 효과를 찾아냅니다. 이 통합된 보기의 학습을 캠페인에 다시 적용하여, 궁극적으로 개방형, 클릭스루 및 전환율을 개선하여 매출과 전체 캠페인 성과를 높일 수 있습니다. <br /> Adobe Analytics은 필수입니다. 자세한 내용은 <a href="../../integrating/using/about-campaign-analytics-integration.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 다이렉트 메일 채널 - 발신자에게 반송<br /> </td> 
-   <td> 이제 발신자에게 반송 정보를 통합하는 DM 공급자와의 플랫 파일 교환이 지원됩니다. DM 채널의 향상된 기능을 통해 해당 우편 주소를 향후 통신에서 제외할 수 있습니다.<br /> 이렇게 하면 마케터가 잘못된 주소에 대한 알림을 받고 다른 채널을 통해 고객과 교류하거나 우편 주소를 업데이트하도록 유도할 수 있습니다. 또한 마케터가 잘못된 주소로 메일을 보내지 않으므로 마케팅 비용 낭비를 줄일 수 있습니다. <br /> DM은 추가 기능 채널로 사용할 수 있습니다. 자세한 내용은 <a href="../../channels/using/return-to-sender.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 이제 발신자에게 반송 정보를 통합하는 DM 공급자와의 플랫 파일 교환이 지원됩니다. DM 채널의 향상된 기능을 통해 해당 우편 주소를 향후 통신에서 제외할 수 있습니다.<br /> 이렇게 하면 마케터가 잘못된 주소에 대한 알림을 받고 다른 채널을 통해 고객과 교류하거나 우편 주소를 업데이트하도록 유도할 수 있습니다. 또한 마케터가 잘못된 주소로 메일을 보내지 않으므로 마케팅 비용 낭비를 줄일 수 있습니다. <br /> DM은 추가 기능 채널로 사용할 수 있습니다. 자세한 내용은 <a href="../../channels/using/return-to-sender.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -235,7 +235,7 @@ _보고서_
 * 캠페인 외부에서 게재를 만들 때 값을 알 수 없음으로 표시하는 문제를 해결했습니다.
 * SMS 보고서 데이터를 모바일 애플리케이션 데이터로 표시하는 문제를 수정했습니다.
 
-_워크플로우_
+_워크플로_
 
 * 이제 워크플로우 로그(기간 및 텍스트 검색)를 필터링할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/monitoring-workflow-execution.md).
 * 이제 전송 전에 확인을 비활성화하는 옵션을 워크플로우 게재에서 사용할 수 있습니다.
@@ -255,12 +255,12 @@ _워크플로우_
  </thead> 
  <tbody> 
   <tr> 
-   <td> DM<br /> </td> 
-   <td> Adobe Campaign Standard의 첫 번째 오프라인 채널인 DM을 통해 디지털 장벽을 깨고 물리적 세계로 연결합니다. 이 기능을 사용하면 DM 공급자가 크로스 채널 캠페인의 일부로 필요로 하는 파일을 개인화하고 생성할 수 있습니다. Dm을 활용하여 고객을 다시 참여시키거나 고객을 앱, 웹 사이트 또는 스토어로 유도하는 강력한 촉각 접점으로 고객 경험을 향상시키십시오.<br /> 자세한 내용은 <a href="../../channels/using/about-direct-mail.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 다이렉트 메일<br /> </td> 
+   <td> Adobe Campaign Standard의 첫 번째 오프라인 채널인 DM을 통해 디지털 장벽을 깨고 물리적 세계로 연결합니다. 이 기능을 사용하면 DM 공급자가 크로스 채널 캠페인의 일부로 필요로 하는 파일을 개인화하고 생성할 수 있습니다. Dm을 활용하여 고객을 다시 참여시키거나 고객을 앱, 웹 사이트 또는 스토어로 유도하는 강력한 촉각 접점으로 고객 경험을 향상시키십시오.<br /> 자세한 내용은 <a href="../../channels/using/about-direct-mail.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 이메일 BCC<br /> </td> 
-   <td> 이메일 BCC를 사용하면 개별 수신자에게 전송된 고유한 이메일 메시지를 저장할 수 있으므로 브랜드가 해당 메시지를 보관할 수 있습니다. Adobe Campaign Standard 고객은 모든 이메일에 BCC 이메일 주소를 추가하여 이 기능을 통해 각 이메일의 정확한 사본을 보관할 수 있습니다. 이는 금융 서비스 업계에서 일반적으로 요구되는 법적 요구 사항이며 고객 서비스 센터에서 실시간으로 갈등을 해결하는 데 도움이 됩니다.<br /> 자세한 내용은 <a href="../../sending/using/archiving.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 이메일 BCC를 사용하면 개별 수신자에게 전송된 고유한 이메일 메시지를 저장할 수 있으므로 브랜드가 해당 메시지를 보관할 수 있습니다. Adobe Campaign Standard 고객은 모든 이메일에 BCC 이메일 주소를 추가하여 이 기능을 통해 각 이메일의 정확한 사본을 보관할 수 있습니다. 이는 금융 서비스 업계에서 일반적으로 요구되는 법적 요구 사항이며 고객 서비스 센터에서 실시간으로 갈등을 해결하는 데 도움이 됩니다.<br /> 자세한 내용은 <a href="../../sending/using/archiving.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -275,7 +275,7 @@ _이메일 및 SMS 메시지_
 
 * 에 대해 잘못된 색상을 표시하는 문제를 해결했습니다. **[!UICONTROL Retry in progress]** 게재 상태. 그 색깔은 파란색이 아니라 회색이었습니다.
 
-_워크플로우_
+_워크플로_
 
 * 에서 수행할 작업을 변경할 때 발생하는 문제를 해결했습니다. **[!UICONTROL Transfer file]** 활동.
 
@@ -303,19 +303,19 @@ _푸시 알림_
  <tbody> 
   <tr> 
    <td> Creative SDK의 이미지 편집 기능 개선<br /> </td> 
-   <td> 이제 Creative SDK에서 제공하는 전체 기능 세트에 액세스하여 이메일 또는 랜딩 페이지를 편집할 때 콘텐츠 편집기에서 직접 이미지를 개선할 수 있습니다.<br /> 이 기능을 사용하려면 추가 Creative Cloud 솔루션을 구입할 필요가 없습니다.<br /> 자세한 내용은 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 이제 Creative SDK에서 제공하는 전체 기능 세트에 액세스하여 이메일 또는 랜딩 페이지를 편집할 때 콘텐츠 편집기에서 직접 이미지를 개선할 수 있습니다.<br /> 이 기능을 사용하려면 추가 Creative Cloud 솔루션을 구입할 필요가 없습니다.<br /> 자세한 내용은 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 푸시 알림<br /> </td> 
-   <td> Adobe Campaign의 트랜잭션 메시지 기능에 모바일 애플리케이션 채널이 추가되었습니다. 트랜잭션 메시지에 대해 이메일, SMS 및 푸시 알림의 세 가지 채널이 지원됩니다.<br /> 자세한 내용은 <a href="../../channels/using/transactional-push-notifications.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> Adobe Campaign의 트랜잭션 메시지 기능에 모바일 애플리케이션 채널이 추가되었습니다. 트랜잭션 메시지에 대해 이메일, SMS 및 푸시 알림의 세 가지 채널이 지원됩니다.<br /> 자세한 내용은 <a href="../../channels/using/transactional-push-notifications.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 반복 푸시 알림<br /> </td> 
-   <td> 이제 워크플로우에서 반복 푸시 알림을 구성할 수 있습니다. 고객이 새 콘텐츠 또는 프로모션을 확인하기 위해 주별 미리 알림과 같은 정기 업데이트를 기대하는 상황에서 반복 푸시 알림을 사용할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/push-notification-delivery.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 이제 워크플로우에서 반복 푸시 알림을 구성할 수 있습니다. 고객이 새 콘텐츠 또는 프로모션을 확인하기 위해 주별 미리 알림과 같은 정기 업데이트를 기대하는 상황에서 반복 푸시 알림을 사용할 수 있습니다.<br /> 자세한 내용은 <a href="../../automating/using/push-notification-delivery.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Amazon Simple Storage Service (S3) 커넥터<br /> </td> 
-   <td> 이제 Amazon Simple Storage Service(S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. 구성은 외부 계정에서 수행됩니다.<br /> 자세한 내용은 <a href="../../administration/using/external-accounts.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 이제 Amazon Simple Storage Service(S3) 커넥터를 사용하여 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. 워크플로우 활동에서 설정할 수 있습니다. 구성은 외부 계정에서 수행됩니다.<br /> 자세한 내용은 <a href="../../administration/using/external-accounts.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver 통합 라이브<br /> </td> 
@@ -326,7 +326,7 @@ _푸시 알림_
 
 **패치**
 
-_Platform_
+_플랫폼_
 
 * 메모리 소모 문제를 해결했습니다.
 
@@ -349,7 +349,7 @@ _랜딩 페이지_
 * 양식 구성에서 부울 필드를 사용할 때 확인란 대신 자유 텍스트 입력을 표시하는 문제를 해결했습니다.
 * 랜딩 페이지 썸네일이 생성되지 않던 문제를 수정했습니다.
 
-_워크플로우_
+_워크플로_
 
 * 을(를) 편집할 때 발생하는 표시 오류를 수정했습니다. **[!UICONTROL End]** 또는 **[!UICONTROL External Signal]** 활동(Safari에만 해당).
 * 를 편집할 때 표시되는 오류 메시지가 개선되었습니다. **[!UICONTROL Read Audience]** 잘못된 대상이 포함된 활동.
@@ -388,7 +388,7 @@ _푸시 알림_
  <tbody> 
   <tr> 
    <td> 다이내믹 보고<br /> </td> 
-   <td> Dynamic Reporting은 완전히 맞춤화가 가능한 새로운 세대의 실시간 비즈니스 보고서를 제공합니다. 이 기능을 사용하면 시각적 동적 피벗 테이블 및 그래픽을 기반으로 변수와 차원을 끌어서 놓아 마케팅 캠페인의 효율성과 효율성을 분석할 수 있습니다. 또한 동적 보고를 사용하면 비즈니스 보고서를 처음부터 직접 작성하고 나중에 사용할 수 있도록 저장할 수 있습니다.<br /> 자세한 내용은 <a href="../../reporting/using/about-dynamic-reports.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> Dynamic Reporting은 완전히 맞춤화가 가능한 새로운 세대의 실시간 비즈니스 보고서를 제공합니다. 이 기능을 사용하면 시각적 동적 피벗 테이블 및 그래픽을 기반으로 변수와 차원을 끌어서 놓아 마케팅 캠페인의 효율성과 효율성을 분석할 수 있습니다. 또한 동적 보고를 사용하면 비즈니스 보고서를 처음부터 직접 작성하고 나중에 사용할 수 있도록 저장할 수 있습니다.<br /> 자세한 내용은 <a href="../../reporting/using/about-dynamic-reports.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver 통합(Labs)<br /> </td> 
@@ -400,7 +400,7 @@ _푸시 알림_
     <ul> 
      <li> 모든 수신자는 시간대를 고려하여 메시지를 수신합니다. </li> 
      <li> 각 수신자는 수식으로 정의된 계산된 날짜 및 시간에 메시지를 수신합니다. </li> 
-    </ul> 자세한 내용은 <a href="../../sending/using/optimizing-the-sending-time.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+    </ul> 자세한 내용은 <a href="../../sending/using/optimizing-the-sending-time.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 푸시 알림 새로운 기능<br /> </td> 
@@ -411,7 +411,7 @@ _푸시 알림_
      <li> 대화형 푸시 </li> 
      <li> 다양한 콘텐츠 지원 </li> 
      <li> 페이로드 크기 계산기 </li> 
-    </ul> 자세한 내용은 <a href="../../channels/using/about-push-notifications.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+    </ul> 자세한 내용은 <a href="../../channels/using/about-push-notifications.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 워크플로우: 새로운 신호 활동<br /> </td> 
@@ -419,19 +419,19 @@ _푸시 알림_
     <ul> 
      <li> <span class="uicontrol">종료</span> 활동: 새 탭에서 이 활동이 실행된 후에 트리거할 워크플로우를 지정할 수 있습니다. </li> 
      <li> <span class="uicontrol">데이터 업데이트</span> 활동: 새 빈 아웃바운드 전환을 사용하여 <strong>종료</strong> 다른 워크플로우를 트리거하는 활동입니다. 빈 아웃바운드 전환은 데이터를 전달하지 않으며, 시스템에서 불필요한 공간을 사용하지 않습니다. </li> 
-    </ul> 자세한 내용은 <a href="../../automating/using/external-signal.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+    </ul> 자세한 내용은 <a href="../../automating/using/external-signal.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 워크플로우: 새로운 대상자 읽기 활동<br /> </td> 
-   <td> 한 활동에서 쉽게 선택하고 세분화할 수 있는 기존 대상자로 타깃팅 프로세스를 시작합니다.<br /> 자세한 내용은 <a href="../../automating/using/read-audience.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 한 활동에서 쉽게 선택하고 세분화할 수 있는 기존 대상자로 타깃팅 프로세스를 시작합니다.<br /> 자세한 내용은 <a href="../../automating/using/read-audience.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 관심 영역 데이터<br /> </td> 
-   <td> 관심 영역 데이터는 Adobe Campaign을 모바일용 Adobe Analytics과 통합합니다. 브랜드는 사용자의 모바일 위치에서 데이터를 수집할 수 있습니다. <strong>관심 영역</strong> - 사용자가 브랜드의 앱을 열 때입니다. 이를 통해 브랜드는 Adobe Campaign 워크플로우를 활용하여 사용자의 위치를 기반으로 개인화된 메시지를 보낼 수 있습니다. 이 채널은 Mobile Core 서비스의 SDK를 활용합니다.<br /> 이 기능을 사용하려면 유료 솔루션인 Analytics for Mobile이 필요합니다.<br /> 자세한 내용은 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 관심 영역 데이터는 Adobe Campaign을 모바일용 Adobe Analytics과 통합합니다. 브랜드는 사용자의 모바일 위치에서 데이터를 수집할 수 있습니다. <strong>관심 영역</strong> - 사용자가 브랜드의 앱을 열 때입니다. 이를 통해 브랜드는 Adobe Campaign 워크플로우를 활용하여 사용자의 위치를 기반으로 개인화된 메시지를 보낼 수 있습니다. 이 채널은 Mobile Core 서비스의 SDK를 활용합니다.<br /> 이 기능을 사용하려면 유료 솔루션인 Analytics for Mobile이 필요합니다.<br /> 자세한 내용은 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
-   <td> 이제 프로필 또는 서비스 리소스에 모든 수준에서 연결된 리소스를 API에서 사용할 수 있습니다.<br /> 자세한 내용은 <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">세부 설명서</a>를 참조하세요.<br /> </td> 
+   <td> 이제 프로필 또는 서비스 리소스에 모든 수준에서 연결된 리소스를 API에서 사용할 수 있습니다.<br /> 자세한 내용은 <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">자세한 설명서</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,7 +452,7 @@ _랜딩 페이지_
 
 * 사용자가 랜딩 페이지의 콘텐츠를 클릭할 때 편집할 수 없는 오류를 수정했습니다.
 
-_워크플로우_
+_워크플로_
 
 * 의 거부 전환 콘텐츠를 읽지 못하는 문제를 해결했습니다. **[!UICONTROL Load file]** 활동.
 * 를 구성할 때 스왑된 열이 제대로 고려되지 않는 문제를 해결했습니다. **[!UICONTROL Load file]** 활동.
@@ -485,7 +485,7 @@ _워크플로우_
      <li> 메시지에 구독 취소 링크를 포함합니다. </li> 
      <li> 트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다. </li> 
      <li> 트랜잭션 메시지를 고객 여정에 활용합니다. </li> 
-    </ul> 자세한 내용은 <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">세부 설명서</a>를 참조하세요.<br /> </td> 
+    </ul> 자세한 내용은 <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">자세한 설명서</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 메시지 API<br /> </td> 
@@ -519,7 +519,7 @@ _푸시 알림_
 * 추가 이스케이프 문자가 이모지에 사용된 유니코드 문자에 추가되었을 수 있는 문제를 해결했습니다.
 * 가입자 등록 토큰이 차단 목록에 추가하다에 추가되면 해당 상태가 이제 애플리케이션의 Adobe Campaign 가입자 목록에서 즉시 업데이트됩니다.
 
-_워크플로우_
+_워크플로_
 
 * 이벤트 리소스(예: rtEvent)의 쿼리 미리보기를 방지할 수 있는 문제를 수정했습니다.
 * 에 의해 생성된 거부 파일 **[!UICONTROL Load file]** 이제 활동을 아웃바운드 전환에서 검색하고 다음 활동에서 처리할 수 있습니다. 예를 들어 를 사용하여 SFTP 서버를 통해 거부 파일을 업로드합니다 **[!UICONTROL Transfer file]** .

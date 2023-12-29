@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 93%
+source-wordcount: '1765'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 93%
 * [쿼리 샘플](../../automating/using/query-samples.md)
 * [사용 사례: 열지 않은 사용자에게 새 게재를 보내는 워크플로우 재타겟팅](../../automating/using/workflow-cross-channel-retargeting.md)
 
-## 사용의 컨텍스트 {#context-of-use}
+## 사용 컨텍스트 {#context-of-use}
 
 **[!UICONTROL Query]** 활동은 다양한 용도로 사용할 수 있습니다.
 

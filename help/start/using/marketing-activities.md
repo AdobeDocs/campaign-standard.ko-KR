@@ -12,13 +12,13 @@ exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 83%
+ht-degree: 79%
 
 ---
 
 # 마케팅 활동{#marketing-activities}
 
-## 마케팅 활동 정보 {#about-marketing-activities}
+## 마케팅 활동 기본 정보 {#about-marketing-activities}
 
 마케팅 활동이 속한 프로그램 및 캠페인이나 마케팅 활동 목록을 통해 마케팅 활동을 만들고 관리할 수 있습니다.
 
@@ -49,7 +49,7 @@ ht-degree: 83%
 * ![](assets/marketing_push_icon.png) 푸시 알림
 * ![](assets/marketing_lp_icon.png) 인앱 메시지
 * ![](assets/marketing_lp_icon.png) 랜딩 페이지
-* ![](assets/marketing_workflow_icon.png) 워크플로우
+* ![](assets/marketing_workflow_icon.png) 워크플로
 
 유효 기간 및 상태에 따라 이 아이콘과 연관된 색상은 해당 활동의 실행 상태를 나타냅니다.
 

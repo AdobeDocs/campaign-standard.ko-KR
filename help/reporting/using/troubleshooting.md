@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 5%
+source-wordcount: '817'
+ht-degree: 1%
 
 ---
 
@@ -34,9 +34,9 @@ P1은 첫 번째 날에 이메일을 두 번 연 다음 두 번째 날에 세 �
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Day</strong> <br /> </th> 
-   <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
-   <th align="center"> <strong>고유 오픈</strong> <br /> </th> 
+   <th align="center"> <strong>일</strong> <br /> </th> 
+   <th align="center"> <strong>열림</strong> <br /> </th> 
+   <th align="center"> <strong>고유 열람 수</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -63,13 +63,13 @@ P1은 첫 번째 날에 이메일을 두 번 연 다음 두 번째 날에 세 �
  <thead> 
   <tr> 
    <th align="center"> <strong></strong> <br /> </th> 
-   <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
-   <th align="center"> <strong>고유 오픈</strong> <br /> </th> 
+   <th align="center"> <strong>열림</strong> <br /> </th> 
+   <th align="center"> <strong>고유 열람 수</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> <strong> Day </strong><br /> </td> 
+   <td align="center"> <strong> 일 </strong><br /> </td> 
    <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
@@ -119,14 +119,14 @@ P1은 첫 번째 날에 이메일을 두 번 연 다음 두 번째 날에 세 �
    <th align="center"> <strong>게재</strong> <br /> </th> 
    <th align="center"> <strong>전송됨</strong> <br /> </th> 
    <th align="center"> <strong>전달됨</strong> <br /> </th>
-   <th align="center"> <strong>열어 본 기록</strong> <br /> </th> 
-   <th align="center"> <strong>고유 오픈</strong> <br /> </th>
+   <th align="center"> <strong>열림</strong> <br /> </th> 
+   <th align="center"> <strong>고유 열람 수</strong> <br /> </th>
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td align="center"> <strong>R1</strong><br/> </td> 
-   <td align="center"> <strong>100</strong><br/> </td> 
+   <td align="center"> <strong>10</strong><br/> </td> 
    <td align="center"> <strong>90</strong><br/> </td> 
    <td align="center"> <strong>10</strong><br/> </td> 
    <td align="center"> <strong>3</strong><br/> </td> 
