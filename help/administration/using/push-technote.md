@@ -6,16 +6,16 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 12%
+source-wordcount: '338'
+ht-degree: 5%
 
 ---
 
 # 푸시 알림 채널 변경 예정 사항 {#push-upgrade}
 
-Campaign을 사용하여 Android 및 iOS 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 수행하기 위해 Campaign은 특정 구독 서비스를 사용합니다. Android FCM(Firebase Cloud Messaging) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년에 릴리스될 예정이며 Adobe Campaign 구현에 영향을 줍니다. 또한 iOS 앱의 경우 Adobe에서 관리자가 인증서를 구성할 수 있도록 하는 방법을 변경하고 있습니다.
+Campaign을 사용하여 Android 및 iOS 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 수행하기 위해 Campaign은 특정 구독 서비스를 사용합니다. Android Firebase Cloud Messaging(FCM) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년 겨울 릴리스 24.1과 함께 릴리스되며 Adobe Campaign 구현에 영향을 줍니다. 또한 iOS 앱의 경우 Adobe에서 관리자가 인증서를 구성할 수 있도록 하는 방법을 변경하고 있습니다.
 
 ## 변경 사항 {#push-changes}
 
@@ -27,7 +27,7 @@ Campaign을 사용하여 Android 및 iOS 디바이스에서 푸시 알림을 전
 
 ### iOS {#push-ios}
 
-또한 Adobe은 iOS 푸시 알림 채널용 Adobe Campaign Standard을 업그레이드하고 관리자가 iOS 애플리케이션에 대한 인증서를 구성할 수 있도록 하는 방식을 변경할 예정입니다. 관리자는 이제 Adobe Campaign Standard의 사용자 인터페이스를 통해 iOS 인증서를 업로드해야 합니다.
+또한 Adobe은 iOS 푸시 알림 채널용 Adobe Campaign Standard을 업그레이드하고 관리자가 iOS 애플리케이션에 대한 인증서를 구성할 수 있도록 하는 방식을 변경할 예정입니다. 24.2 2024 겨울 릴리스부터 관리자는 모바일 애플리케이션 속성에서 Adobe Campaign Standard의 사용자 인터페이스를 통해 iOS 인증서를 업로드해야 합니다.
 
 ## 영향을 받습니까? {#push-impact}
 
@@ -35,7 +35,7 @@ Campaign Standard 사용자는 대상에 푸시 알림 메시지를 보내는 �
 
 ## 마이그레이션 방법 {#push-migration}
 
-이러한 업데이트는 모바일 채널 구성 및 권한 관리에 영향을 주므로 Campaign Standard 빌드 업그레이드가 필요합니다.
+이러한 업데이트는 모바일 채널 구성 및 권한 관리에 영향을 주므로 2024년 겨울 릴리스 24.1로 Campaign Standard 빌드를 업그레이드해야 합니다.
 
 원활한 전환과정이 이루어질 수 있도록 자세한 안내는 곧 제공될 예정이다.
 
