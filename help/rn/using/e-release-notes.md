@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 52%
 
 ### 개선 사항 {#e-rn-improvements}
 
-Adobe Campaign Standard 24.1은 HTTP v1 API를 사용하여 Android 푸시 알림 메시지를 보내어 예정된 FCM 변경 사항과의 호환성을 보장합니다. [이 기술 노트](../../administration/using/push-technote.md)에서 자세히 알아보십시오.
+Adobe Campaign Standard 24.1은 Android 푸시 알림 메시지 전송에 HTTP v1 API를 사용하여 예정된 FCM 변경 사항과의 호환성을 보장합니다. [이 기술 노트](../../administration/using/push-technote.md)에서 자세히 알아보십시오.
 
-Adobe Campaign Standard 24.1은 이제 iOS 푸시 알림에 대한 p8 인증 인증서를 지원합니다. 이러한 변경 사항을 활성화하려면 구현을 조정해야 합니다. [이 기술 노트](../../administration/using/push-technote.md)에서 자세히 알아보십시오.
+Adobe Campaign Standard 24.1이 이제 iOS 푸시 알림에 p8 인증서를 지원합니다. 이 변경 사항을 활성화하려면 구현을 조정해야 합니다. [이 기술 노트](../../administration/using/push-technote.md)에서 자세히 알아보십시오.
 
 
 ### 수정 사항 {#e-rn-fixes}
 
-* 반송된 이메일 주소가 30일 후 격리되지 않는 문제를 해결했습니다. (CAMP-52977)
-* 게재 경고 워크플로우를 중지하는 문제를 해결했습니다. 다음 오류가 발생했습니다. `division by zero`. (CAMP-49786)
+* 바운스된 이메일 주소가 30일 후 격리에서 제거되지 않는 문제를 해결했습니다. (CAMP-52977)
+* 오류 메시지(`division by zero`)가 표시되며 게재 경고 워크플로우가 중단되는 문제를 해결했습니다. (CAMP-49786)
