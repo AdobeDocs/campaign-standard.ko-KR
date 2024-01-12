@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
+source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 푸시 추적은 다음 세 가지 유형으로 구분됩니다.
 
-* **푸시 노출 횟수** - 푸시 알림이 디바이스에 전달되고 알림 센터에 있지만 전혀 터치되지 않은 경우.  이는 인상으로 간주됩니다.  대부분의 경우 노출 횟수는 게재된 숫자와 동일하지 않은 경우 유사해야 합니다. 장치가 메시지를 가져와서 해당 정보를 서버에 다시 전달했는지 확인합니다.
+* **푸시 노출 횟수** - 푸시 알림이 디바이스에 성공적으로 전달된 경우 사용자 상호 작용 없이 알림 센터에 상주합니다.
 
 * **푸시 클릭** - 푸시 알림이 장치에 전달되고 사용자가 장치를 클릭한 경우.  사용자는 알림을 보거나(푸시 오픈 추적으로 이동) 알림을 해지하려고 했습니다.
 
-* **푸시 오픈** - 푸시 알림이 디바이스에 전달되고 사용자가 알림을 클릭하여 앱을 열 때.  알림이 해제된 경우 푸시 열기 가 트리거되지 않는다는 점을 제외하면 푸시 클릭과 유사합니다.
+* **푸시 오픈** - 푸시 알림이 디바이스에 전달되고 사용자가 알림을 클릭하여 앱을 열 때. 알림이 해제된 경우 푸시 열기 가 트리거되지 않는다는 점을 제외하면 푸시 클릭과 유사합니다.
 
 Campaign Standard 추적을 구현하려면 모바일 앱에 Adobe Experience Platform SDK가 포함되어야 합니다. 이러한 SDK는에서 사용할 수 있습니다. [Adobe Experience Platform SDK 설명서](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
