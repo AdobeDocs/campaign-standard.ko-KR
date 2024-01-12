@@ -9,20 +9,24 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: d0ef11f26a52603107af28231d70821b44753abb
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # 핫 클릭{#hot-clicks}
 
+>[!IMPORTANT]
+>
+>핫 클릭 보고서는 이메일의 HTML 버전만 보여주며 텍스트 버전은 지원하지 않습니다.
+
 이 보고서는 다음 위치에서 액세스할 수 있습니다. **[!UICONTROL Reports]** 각 게재 또는 트랜잭션 메시지의 단추입니다.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-각 링크를 클릭한 비율이 표시된 메시지 콘텐츠(HTML 및/또는 텍스트)를 제공합니다.
+각 링크에 대한 클릭 비율이 표시된 메시지 콘텐츠를 제공합니다.
 
 ![](assets/delivery_reports_10.png)
 
