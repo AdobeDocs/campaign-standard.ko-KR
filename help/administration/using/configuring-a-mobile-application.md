@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1271'
 ht-degree: 2%
 
 ---
@@ -146,15 +146,31 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방�
 
    이제 인앱 메시지를 만들 때 트리거 탭에서 이벤트를 사용할 수 있습니다. 자세한 내용은 [인앱 메시지 준비 및 보내기](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. 다음에서 **[!UICONTROL Device-specific settings]** 모바일 애플리케이션 대시보드의 섹션에서 각 디바이스에 대해 iOS의 인증서 및 Android의 서버 키를 포함한 애플리케이션 세부 사항을 제공합니다.
+1. 다음에서 **[!UICONTROL Device-specific settings]** 모바일 애플리케이션 대시보드의 섹션에서 각 디바이스에 대해 애플리케이션 세부 정보를 제공합니다.
 
-   인증서가 업로드되면 업로드가 성공했음을 알리고 인증서의 만료 날짜를 표시하는 메시지가 표시됩니다.
+   * +++ iOS용
 
-   >[!NOTE]
-   >
-   >Adobe Campaign Standard에서 인증서를 성공적으로 추가한 후에는 MCPNS 앱에 하나의 APNS 플랫폼(프로덕션 또는 샌드박스)만 추가할 수 있으므로 설정을 다시 변경할 수 없습니다.
+     다음 애플리케이션 세부 정보를 입력합니다.
 
-   ![](assets/launch_8.png)
+      * **앱 ID (iOS 번들 ID)**: 를 참조하십시오. [Apple 설명서](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 번들 ID에 대한 자세한 정보입니다.
+      * **iOS 인증서(P8) 파일**: .p8 인증 키를 끌어서 놓습니다.
+      * **키 ID**: 를 참조하십시오. [Apple 설명서](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) 키 ID에 대한 자세한 정보.
+      * **iOS 팀 ID**: 를 참조하십시오. [Apple 설명서](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) iOS 팀 ID에 대한 자세한 정보입니다.
+
+        ![](assets/mobile_app_ios_config.png)
++++
+
+   * +++ Android용
+
+     다음 애플리케이션 세부 정보를 입력합니다.
+
+      * **앱 ID (Android 패키지 이름)**: 를 참조하십시오. [Android 설명서](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 패키지 이름에 대한 자세한 내용은
+      * **Android 키(Json) 파일**: .json 개인 키 파일을 끌어다 놓습니다.
+
+        ![](assets/mobile_app_android_config.png)
++++
+
+1. 인증서가 업로드되면 업로드가 성공했음을 알리고 인증서의 만료 날짜를 표시하는 메시지가 표시됩니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL Mobile application subscribers]** 구독자 목록과 이러한 구독자에 대한 다른 정보(예: 알림에서 옵트아웃했는지 여부)를 보려면 탭하십시오.
 
