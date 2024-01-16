@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 ## 릴리스 24.1 - 2024년 겨울 릴리스 {#release-24-1-release}
 
-이 릴리스에 대한 자세한 내용은 [초기 릴리스 정보](e-release-notes.md)를 참조하십시오.
+이 릴리스에 대한 자세한 내용은 [릴리스 정보](release-notes.md) 스테이지 환경 업그레이드가 시작될 때.
 
 <table>
  <thead>
@@ -47,37 +47,6 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
   </tr>
  </tbody>
 </table>
-
-
-## 릴리스 23.2 - 2023년 가을 제한 릴리스 {#release-23-2-release}
-
-
->[!AVAILABILITY]
->
->이 릴리스는 일부 조직에만 적용될 수 있습니다(제한 공개). 자세한 내용은 Adobe 담당자에게 문의하세요.
-
-이 릴리스에 대한 자세한 내용은 [릴리스 정보](release-notes.md)를 참조하십시오.
-
-<table>
- <thead>
-  <tr>
-   <th> 환경 </th>
-   <th> 날짜 </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>단계 </td>
-   <td>2023년 10월 3~9일 </td>
-  </tr>
-  <tr>
-   <td>프로덕션 </td>
-   <td>2023년 10월 12~18일 </td>
-  </tr>
- </tbody>
-</table>
-
-추가 질문은 [Adobe 클라이언트 지원 센터](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)에 문의하십시오.
 
 ## 질문 및 답변 {#questions-and-answers}
 

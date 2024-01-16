@@ -1,13 +1,13 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: Adobe Campaign Standard에 대한 제품 설명서.
+user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
-source-git-commit: 604ca02130bdc92d26cebdff32617fa6b3495a1a
+source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
 workflow-type: tm+mt
-source-wordcount: '1766'
-ht-degree: 99%
+source-wordcount: '1769'
+ht-degree: 100%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [최신 릴리스](rn/using/release-notes.md)
    + [초기 릴리스 정보](rn/using/e-release-notes.md)
    + 이전 릴리스 {#previous-releases}
+      + [2023년 릴리스 정보](rn/using/release-notes-2023.md)
       + [2022년 릴리스 정보](rn/using/release-notes-2022.md)
       + [2021년 릴리스 정보](rn/using/release-notes-2021.md)
       + [2020년 릴리스 정보](rn/using/release-notes-2020.md)

@@ -5,16 +5,20 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
+source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
 workflow-type: tm+mt
-source-wordcount: '7240'
-ht-degree: 100%
+source-wordcount: '7258'
+ht-degree: 99%
 
 ---
 
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+## 릴리스 24.1 - 2024년 겨울 {#release-24-1}
+
+Campaign Standard 24.1 Winter 2024 릴리스의 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
 
 ## 2023년 12월 {#doc-updates-dec-2023}
 
