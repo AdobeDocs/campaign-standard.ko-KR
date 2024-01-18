@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7258'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 ## 릴리스 24.1 - 2024년 겨울 {#release-24-1}
 
-Campaign Standard 24.1 Winter 2024 릴리스의 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
+Campaign Standard 24.1 2024년 겨울 릴리스의 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
 
 ## 2023년 12월 {#doc-updates-dec-2023}
 
