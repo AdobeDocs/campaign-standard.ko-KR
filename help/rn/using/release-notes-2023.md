@@ -1,13 +1,13 @@
 ---
 title: 2023년 릴리스 정보
-description: 이 페이지에는 Adobe Campaign Standard의 2023년 릴리스가 모두 나열됩니다
+description: 이 페이지에는 Adobe Campaign Standard의 2023년 릴리스 전체 목록이 있습니다.
 feature: Overview
 role: User
 level: Beginner
 source-git-commit: e5feb1c5e66130fc56d53a9473414743017b0003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
