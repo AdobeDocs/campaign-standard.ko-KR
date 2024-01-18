@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 ## 릴리스 24.1 - 2024년 겨울 릴리스 {#release-24-1-release}
 
-이 릴리스에 대한 자세한 내용은 [릴리스 정보](release-notes.md) 스테이지 환경 업그레이드가 시작될 때.
+이 릴리스에 대한 자세한 내용은 스테이징 환경 업그레이드가 시작될 때 [릴리스 정보](release-notes.md)에서 확인할 수 있습니다.
 
 <table>
  <thead>
