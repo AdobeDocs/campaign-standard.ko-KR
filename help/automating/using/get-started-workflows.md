@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: 31f62227736daf4f215fcbe1cf7b0a0a8574cda3
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 32%
+source-wordcount: '506'
+ht-degree: 26%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 32%
 </table>
 
 Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡한 프로세스를 디자인할 수 있는 포괄적인 그래픽 환경을 제공합니다. 예를 들어 워크플로우를 통해 서버에서 파일을 다운로드하고 압축을 해제한 다음 Adobe Campaign 데이터베이스에 포함된 레코드를 가져올 수 있습니다.
-
-또한, 워크플로우에는 작업을 할당하거나 사용자가 수행한 작업을 승인하도록 하여 사용자를 포함할 수 있습니다. 즉, 메시지를 보내기 전에 하나 이상의 사용자에게 컨텐츠를 작업하거나 대상을 지정하고 교정본을 승인할 작업을 지정할 수 있습니다.
 
 워크플로우는 다음과 같이 서로 다른 컨텍스트에서 사용할 수 있습니다.
 
