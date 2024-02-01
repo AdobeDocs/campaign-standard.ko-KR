@@ -6,16 +6,18 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
+source-git-commit: f6190139e474800a88ece6fa7d4c6aa3e296e492
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '352'
+ht-degree: 4%
 
 ---
 
 # 푸시 알림 채널 변경 예정 사항 {#push-upgrade}
 
 Campaign을 사용하여 Android 및 iOS 디바이스에서 푸시 알림을 전송할 수 있습니다. 이를 수행하기 위해 Campaign은 특정 구독 서비스를 사용합니다. Android Firebase Cloud Messaging(FCM) 서비스에 대한 몇 가지 중요한 변경 사항은 2024년 겨울 릴리스 24.1과 함께 릴리스되며 Adobe Campaign 구현에 영향을 줍니다. 또한 iOS 앱의 경우 Adobe에서 관리자가 인증서를 구성할 수 있도록 하는 방법을 변경하고 있습니다.
+
+[Adobe Campaign Standard에서 모바일 애플리케이션 인증서를 구성하는 방법에 대해 자세히 알아보십시오.](configuring-a-mobile-application.md#channel-specific-config)
 
 ## 변경 사항 {#push-changes}
 
