@@ -9,7 +9,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 91%
@@ -30,7 +30,7 @@ Adobe Campaign에서 이전에 만든 트리거를 선택하고, 데이터마트
 
 **관련 항목:**
 
-* [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)에서 트리거의 여러 유형에 대해 알아봅니다.
+* [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html)에서 트리거의 여러 유형에 대해 알아봅니다.
 * [사이트 활동에 기반한 리마케팅 메시지 트리거](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) 비디오를 시청합니다.
 * 두 가지 [중단 트리거 사용 사례](../../integrating/using/abandonment-triggers-use-cases.md)를 살펴봅니다.
 
