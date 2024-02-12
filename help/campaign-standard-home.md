@@ -3,7 +3,7 @@ keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 제품 설명서
 description: Campaign Standard 제품 설명서 찾아보기
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 7dc9871c3fdc12242e22d094907bd48777a9a95a
+source-git-commit: 8b94b632bbc4fc8e190cccb05018043cdeb00fdd
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -18,9 +18,9 @@ Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴�
 
 >[!BEGINTABS]
 
->[!TAB Campaign 23.2 릴리스가 공개되었습니다!]
+>[!TAB Campaign 24.1 릴리스가 공개되었습니다!]
 
-Campaign Standard 23.2 릴리스의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오.
+Campaign Standard 24.1 릴리스의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
