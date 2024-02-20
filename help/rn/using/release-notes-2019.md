@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7674'
 ht-degree: 8%
@@ -61,7 +61,7 @@ ht-degree: 8%
 * 동적 보고에 대한 동의 팝업이 Adobe Campaign Standard 및 Microsoft Dynamics 365 통합을 포함하도록 업데이트되었습니다. 용어를 수락하면 Adobe Campaign Standard/Microsoft Dynamics 365 통합 및 동적 보고를 사용할 때 프로필 데이터가 포함됩니다. [자세히 보기](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 게재 알림을 받을 때 잘못된 연락 날짜가 표시되는 문제를 해결했습니다.
 * 트랜잭션 메시지 이벤트가 알 수 없는 컨텍스트 매개 변수와 함께 제출되면 Campaign은 이제 &quot;500&quot; 대신 &quot;400&quot; 오류 메시지를 반환합니다. (CAMP-28632)
-* 새 항목 **증명 제외** 세그먼트가 다이내믹 보고에 추가되었습니다. 이제 이 세그먼트는 보고서를 필터링하기 위해 기본적으로 선택됩니다. [자세히 보기](../../reporting/using/list-of-components-.md#segments)
+* 새 항목 **증명 제외** 세그먼트가 다이내믹 보고에 추가되었습니다. 이제 이 세그먼트는 보고서를 필터링하기 위해 기본적으로 선택됩니다. [자세히 보기](../../reporting/using/list-of-components.md#segments)
 * 다음 **메시지 만료** 푸시 알림에 옵션이 추가되었습니다. 이를 통해 Apple(APNS) 또는 Android(FCM)에서 더 이상 메시지를 보내지 않을 만료 날짜를 지정할 수 있습니다. [자세히 보기](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * 에 대한 개선이 이루어졌습니다. **파일 로드** 활동: 워크플로우 로그가 파일 로드가 실패할 때 발생하는 오류에 대해 더 명확하고 자세히 작성되었습니다. 를 활성화할 때 생성된 아웃바운드 전환 **파일에 거부 유지** 옵션 이름이 변경되었습니다. **거부**. [자세히 보기](../../automating/using/load-file.md)
 * 업로드된 CSV 파일에서 언어가 누락되어 발생하는 전송 실패를 더 잘 이해하기 위해 다국어 관련 로그가 전송 로그에 추가되었습니다.

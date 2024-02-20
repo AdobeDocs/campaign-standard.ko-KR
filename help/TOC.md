@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
-source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
 
@@ -201,7 +201,7 @@ ht-degree: 100%
    + 보고 기본 정보 {#about-reporting}
       + [동적 보고서 기본 정보](reporting/using/about-dynamic-reports.md)
       + [보고 인터페이스](reporting/using/reporting-interface.md)
-      + [구성 요소 목록](reporting/using/list-of-components-.md)
+      + [구성 요소 목록](reporting/using/list-of-components.md)
       + [지표 계산](reporting/using/indicator-calculation.md)
       + [문제 해결](reporting/using/troubleshooting.md)
    + 보고서 목록 {#list-of-reports}
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [Campaign-Experience Manager 통합 기본 정보](integrating/using/integrating-with-experience-manager.md)
       + [Campaign-Experience Manager 통합 구성](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager에서 이메일 콘텐츠 만들기](integrating/using/creating-email-experience-manager.md)
-      + [Experience Manager에서 Campaign 양식 만들기](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Experience Manager에서 Campaign 양식 만들기](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [Adobe Experience Manager 통합으로 다국어 이메일 만들기](integrating/using/creating-multilingual-email-aem.md)
    + Campaign과 Target {#working-with-campaign-and-target}
       + [Campaign-Target 통합 기본 정보](integrating/using/about-campaign-target-integration.md)
@@ -397,11 +397,11 @@ ht-degree: 100%
       + [데이터베이스 구조 업데이트](developing/using/updating-the-database-structure.md)
       + [리소스 삭제](developing/using/deleting-a-resource.md)
       + [복합 식별 키로 리소스 호출](developing/using/uc-calling-resource-id-key.md)
-   + 사용 사례: API 확장 {#use-case--extending-the-api}
+   + 사용 사례: API 확장 {#use-case-extending-the-api}
       + [API 확장 기본 정보](developing/using/about-extending-the-api.md)
-      + [1단계: 프로필 리소스에 확장 필드 추가](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [2단계: 확장 게시](developing/using/step-2--publish-the-extension.md)
-      + [3단계: 확장 확인](developing/using/step-3--verify-the-extension.md)
+      + [1단계: 프로필 리소스에 확장 필드 추가](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [2단계: 확장 게시](developing/using/step-2-publish-the-extension.md)
+      + [3단계: 확장 확인](developing/using/step-3-verify-the-extension.md)
    + 사용 사례: 리소스 확장 {#use-cases--extending-resources}
       + [새 필드로 프로필 리소스 확장](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [구독을 확장해 애플리케이션 리소스로 만들기](developing/using/extending-the-subscriptions-to-an-application-resource.md)

@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 보내려면 먼저 이
 
 메시지를 개인화하기 위해 Adobe Campaign 데이터베이스의 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 있습니다. 예를 들어 각 수신자의 성 또는 CRM ID에서 주소 또는 생년월일 또는 프로필 표에 추가된 기타 사용자 지정 필드 등의 데이터를 복구하여 수신자에게 전송되는 정보를 개인화할 수 있습니다.
 
-확장된 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 있습니다 **[!UICONTROL Profile and services Ext API]**. 자세한 내용은 [API 확장: 확장 게시](../../developing/using/step-2--publish-the-extension.md)
+확장된 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 있습니다 **[!UICONTROL Profile and services Ext API]**. 자세한 내용은 [API 확장: 확장 게시](../../developing/using/step-2-publish-the-extension.md)
 
 이 정보는 새 리소스에도 저장할 수 있습니다. 이 경우 리소스는 **[!UICONTROL Profile]** 또는 **[!UICONTROL Service]** 리소스를 직접 사용하거나 다른 테이블을 통해 사용할 수 있습니다. 예를 들어 아래 구성에서 의 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 있습니다. **[!UICONTROL Product]** 제품 범주 또는 ID와 같은 리소스(다음과 같은 경우) **[!UICONTROL Product]** 리소스가 다음에 연결됨 **[!UICONTROL Profile]** 리소스.
 

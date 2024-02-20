@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '7258'
 ht-degree: 100%
 
@@ -898,7 +898,7 @@ API 신호 활동 트리거 - [자세한 내용](../../api/using/triggering-a-si
 
 보안 그룹 및 단위를 더 잘 이해할 수 있는 사용 사례를 추가했습니다. [자세한 내용](../../administration/using/organizational-units.md)
 
-다이내믹 보고서의 차원, 지표 및 세그먼트에 대한 정의 및 계산을 개선했습니다. [자세한 내용](../../reporting/using/list-of-components-.md)
+다이내믹 보고서의 차원, 지표 및 세그먼트에 대한 정의 및 계산을 개선했습니다. [자세한 내용](../../reporting/using/list-of-components.md)
 
 워크플로우를 사용하여 들어오는 SMS 메시지를 검색하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../administration/using/configuring-sms-channel.md)
 
@@ -958,7 +958,7 @@ API의 단순 및 다중 필터링에 대한 정보를 추가했습니다. [자�
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-다이내믹 보고서에서 사용할 수 있는 모든 구성 요소의 세부 목록 및 일부 공식 변경 사항을 추가했습니다. [자세한 내용](../../reporting/using/list-of-components-.md)
+다이내믹 보고서에서 사용할 수 있는 모든 구성 요소의 세부 목록 및 일부 공식 변경 사항을 추가했습니다. [자세한 내용](../../reporting/using/list-of-components.md)
 
 Adobe Analytics와 공유되는 KPI의 세부 목록을 추가했습니다. [자세한 내용](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1010,7 +1010,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 보고서 지표 계산 표를 업데이트했습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
-보고 설명서에 새로운 지표 네 개를 업데이트했습니다. [자세한 내용](../../reporting/using/list-of-components-.md)
+보고 설명서에 새로운 지표 네 개를 업데이트했습니다. [자세한 내용](../../reporting/using/list-of-components.md)
 
 프로필 고유 ID 생성에 대한 설명서를 추가했습니다. [자세한 내용](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 

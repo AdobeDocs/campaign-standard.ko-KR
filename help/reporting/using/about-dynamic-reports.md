@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -62,8 +62,8 @@ Dynamic Reporting은 완전히 맞춤화가 가능한 실시간 보고서를 제
 
 |  | 다이내믹 보고 | Microsoft Dynamics 365 커넥터 |
 |---|---|---|
-| 아메리카 및 APAC(아시아 태평양) | **사용 가능한 기능**. <br>미국 보고 센터에 푸시된 모든 기본 프로필(즉, 도시, 국가/지역, 주, 성별 및 연령 기준 세그먼트) 및 사용자 정의 프로필 정보. 프로필 차원에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../reporting/using/list-of-components-.md) | **사용 가능한 기능**. <br>모든 기본 및 사용자 정의 프로필 필드와 Adobe Campaign Standard 이벤트 필드는 미국 데이터 센터에서 처리됩니다. |
-| EMEA(유럽 중동 및 아프리카) | **사용 가능한 기능**. <br>즉시 사용 가능한 모든 정보(예: 도시, 국가/지역, 주, 성별 및 연령 기준 세그먼트) 및 사용자 정의 프로필 정보가 EMEA 보고 센터에 푸시됩니다. 프로필 차원에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../reporting/using/list-of-components-.md) | **기능을 사용할 수 있습니다.** <br>EMEA 데이터 센터에서 처리된 기본 및 사용자 지정 프로필 필드와 Adobe Campaign Standard 이벤트 필드. <br>**[!UICONTROL Control data]**미국 데이터 센터에 전송되고 저장된 고객 최종 사용자 이벤트의 Adobe I/O 등록 데이터 및 ID가 들어 있습니다. |
+| 아메리카 및 APAC(아시아 태평양) | **사용 가능한 기능**. <br>미국 보고 센터에 푸시된 모든 기본 프로필(즉, 도시, 국가/지역, 주, 성별 및 연령 기준 세그먼트) 및 사용자 정의 프로필 정보. 프로필 차원에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../reporting/using/list-of-components.md) | **사용 가능한 기능**. <br>모든 기본 및 사용자 정의 프로필 필드와 Adobe Campaign Standard 이벤트 필드는 미국 데이터 센터에서 처리됩니다. |
+| EMEA(유럽 중동 및 아프리카) | **사용 가능한 기능**. <br>즉시 사용 가능한 모든 정보(예: 도시, 국가/지역, 주, 성별 및 연령 기준 세그먼트) 및 사용자 정의 프로필 정보가 EMEA 보고 센터에 푸시됩니다. 프로필 차원에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../reporting/using/list-of-components.md) | **기능을 사용할 수 있습니다.** <br>EMEA 데이터 센터에서 처리된 기본 및 사용자 지정 프로필 필드와 Adobe Campaign Standard 이벤트 필드. <br>**[!UICONTROL Control data]**미국 데이터 센터에 전송되고 저장된 고객 최종 사용자 이벤트의 Adobe I/O 등록 데이터 및 ID가 들어 있습니다. |
 
 아래 표에는 지역에 따라 이 계약을 거절한 후 발생한 내용이 표시됩니다. 이 계약을 거부하더라도 게재 및 Microsoft Dynamics 365 통합에 대한 보고를 계속 사용할 수 있습니다.
 

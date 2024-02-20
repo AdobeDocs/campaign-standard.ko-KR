@@ -9,7 +9,7 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 98%
@@ -250,7 +250,7 @@ ht-degree: 98%
 
 동적 보고에서 사용자 지정 필드 차원을 자유 형식 테이블로 끌어서 놓을 수 있습니다.
 
-동적 보고에 대한 자세한 내용은 [구성 요소 목록](../../reporting/using/list-of-components-.md)을 참조하십시오.
+동적 보고에 대한 자세한 내용은 [구성 요소 목록](../../reporting/using/list-of-components.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
