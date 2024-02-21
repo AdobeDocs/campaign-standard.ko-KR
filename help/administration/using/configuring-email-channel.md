@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
 workflow-type: tm+mt
-source-wordcount: '2683'
-ht-degree: 59%
+source-wordcount: '2714'
+ht-degree: 58%
 
 ---
 
@@ -25,11 +25,15 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
 * **권한 있는 마스크 필드**
 
-  **[!UICONTROL Header parameters of sent emails]** 섹션에는 전자 메일을 수신자(발신자 주소)에게 보내고 비동기 바운스, 부재 중 회신 등과 같은 자동 답글을 다시 보낼 수 있도록 할 수 있는 권한이 있는 전자 메일 주소가 나열됩니다. (오류 주소).  Adobe Campaign은 메시지 준비 단계 동안 입력한 주소가 유효한지 확인합니다. 이 운영 모드에서는 게재 가능성 문제를 트리거 할 수 있는 주소가 사용되지 않습니다.
+  **[!UICONTROL Header parameters of sent emails]** 섹션에는 전자 메일을 수신자(발신자 주소)에게 보내고 비동기 바운스, 부재 중 회신 등과 같은 자동 답글을 다시 보낼 수 있도록 할 수 있는 권한이 있는 전자 메일 주소가 나열됩니다. (오류 주소).
+
+  Adobe Campaign은 메시지 준비 단계 동안 입력한 주소가 유효한지 확인합니다. 이 운영 모드에서는 게재 가능성 문제를 트리거 할 수 있는 주소가 사용되지 않습니다.
+
    * 발신자와 오류 주소는 모두 Adobe에서 설정합니다. 이러한 필드는 비워 둘 수 없습니다.
    * 이러한 필드는 편집할 수 없습니다. 주소를 업데이트하려면 Adobe 고객 지원 센터에 문의하십시오.
    * 다른 주소를 추가하려면 다음을 사용할 수 있습니다 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko) 새 하위 도메인을 설정하거나 Adobe 고객 지원 센터에 문의하십시오. 여러 개의 마스크를 사용하는 경우 쉼표로 구분됩니다.
-   * *@yourdomain.com과 같이 별을 사용하여 주소를 설정하는 것이 좋습니다. 이렇게 하면 하위 도메인 이름으로 끝나는 주소를 사용할 수 있습니다.
+   * 다음과 같은 별표를 사용하여 주소를 설정하는 것이 좋습니다. **@yourdomain.com**: 하위 도메인 이름으로 끝나는 모든 주소를 사용할 수 있습니다.
+   * Campaign은 기본 제공 Google 및 Yahoo를 지원합니다 **원클릭 목록-구독 취소** 기능. 사용자 지정 템플릿의 헤더 값을 수정하는 경우 Google/Yahoo와의 호환성이 손상될 수 있습니다 **원클릭 목록-구독 취소**.
 
 * **게재 가능성**
 
