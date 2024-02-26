@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+source-git-commit: 6cf259751c39e3f9391641d192d018239f8399d4
 workflow-type: tm+mt
-source-wordcount: '127'
-ht-degree: 86%
+source-wordcount: '128'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Standard 24.1은 Android 푸시 알림 메시지 전송에 HTTP v
 
 Adobe Campaign Standard 24.1이 이제 iOS 푸시 알림에 p8 인증서를 지원합니다. 이 변경 사항을 활성화하려면 구현을 조정해야 합니다. [이 기술 노트](../../administration/using/push-technote.md)에서 자세히 알아보십시오.
 
-2024년 2월 19일부터 Campaign은 기본 제공 Google 및 Yahoo를 지원합니다 **원클릭 목록-구독 취소** 기능. 다음에서 자세히 알아보기 [페이지](../../administration/using/configuring-email-channel.md#email-channel-parameters).
+2024년 2월 19일부터 Campaign은 기본 제공 Google 및 Yahoo를 지원합니다 **원클릭 목록-구독 취소** 기능. [이 페이지](../../administration/using/configuring-email-channel.md#email-channel-parameters)에서 자세히 알아보십시오.
 
 
 ### 수정 사항 {#e-rn-fixes}
