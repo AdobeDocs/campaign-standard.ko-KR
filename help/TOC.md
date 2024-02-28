@@ -4,7 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
 workflow-type: ht
 source-wordcount: '1769'
 ht-degree: 100%
@@ -402,7 +402,7 @@ ht-degree: 100%
       + [1단계: 프로필 리소스에 확장 필드 추가](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [2단계: 확장 게시](developing/using/step-2-publish-the-extension.md)
       + [3단계: 확장 확인](developing/using/step-3-verify-the-extension.md)
-   + 사용 사례: 리소스 확장 {#use-cases--extending-resources}
+   + 사용 사례: 리소스 확장 {#use-cases-extending-resources}
       + [새 필드로 프로필 리소스 확장](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [구독을 확장해 애플리케이션 리소스로 만들기](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + 데이터모델 {#datamodel}
