@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
 workflow-type: tm+mt
-source-wordcount: '2714'
-ht-degree: 58%
+source-wordcount: '2737'
+ht-degree: 57%
 
 ---
 
@@ -33,7 +33,6 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
    * 이러한 필드는 편집할 수 없습니다. 주소를 업데이트하려면 Adobe 고객 지원 센터에 문의하십시오.
    * 다른 주소를 추가하려면 다음을 사용할 수 있습니다 [캠페인 Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ko) 새 하위 도메인을 설정하거나 Adobe 고객 지원 센터에 문의하십시오. 여러 개의 마스크를 사용하는 경우 쉼표로 구분됩니다.
    * 다음과 같은 별표를 사용하여 주소를 설정하는 것이 좋습니다. **@yourdomain.com**: 하위 도메인 이름으로 끝나는 모든 주소를 사용할 수 있습니다.
-   * Campaign은 기본 제공 Google 및 Yahoo를 지원합니다 **원클릭 목록-구독 취소** 기능. 사용자 지정 템플릿의 헤더 값을 수정하는 경우 Google/Yahoo와의 호환성이 손상될 수 있습니다 **원클릭 목록-구독 취소**.
 
 * **게재 가능성**
 
@@ -294,6 +293,14 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
   >[!IMPORTANT]
   >
   >추가 SMTP 헤더 삽입을 위한 스크립트 추가는 고급 사용자를 위해 예약되어 있습니다. 이 스크립트의 구문은 다음과 같은 이 콘텐츠 형식의 요구 사항을 준수해야 합니다: 사용하지 않은 공간, 빈 줄 등이 없음.
+
+  2024년 6월 1일부터 Google 및 Yahoo! 은(는) 발송자가 준수해야 합니다. **원클릭 목록-구독 취소**. Campaign은 이 기능을 기본적으로 지원합니다. [이 변경 사항에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+
+  >[!CAUTION]
+  >
+  >에서 헤더 값을 수정하는 경우 **[!UICONTROL Additional SMTP headers]** 이메일 템플릿 중 **원클릭 목록-구독 취소** Google 및 Yahoo!의 요구 사항.
+
+  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### 액세스 권한 부여 매개 변수 목록 {#list-of-access-authorization-parameters}
 
