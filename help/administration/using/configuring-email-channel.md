@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
+source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2729'
 ht-degree: 57%
 
 ---
@@ -294,13 +294,11 @@ SMTP 구성에 대한 자세한 내용은 [전자 메일 SMTP 매개 변수 목�
   >
   >추가 SMTP 헤더 삽입을 위한 스크립트 추가는 고급 사용자를 위해 예약되어 있습니다. 이 스크립트의 구문은 다음과 같은 이 콘텐츠 형식의 요구 사항을 준수해야 합니다: 사용하지 않은 공간, 빈 줄 등이 없음.
 
-  2024년 6월 1일부터 Google 및 Yahoo! 은(는) 발송자가 준수해야 합니다. **원클릭 목록-구독 취소**. Campaign은 이 기능을 기본적으로 지원합니다. [이 변경 사항에 대해 자세히 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+  2024년 6월 1일부터 Google 및 Yahoo! 은(는) 발송자가 준수해야 합니다. **원클릭 목록-구독 취소**. Campaign은 이 기능을 즉시 지원합니다.
 
   >[!CAUTION]
   >
   >에서 헤더 값을 수정하는 경우 **[!UICONTROL Additional SMTP headers]** 이메일 템플릿 중 **원클릭 목록-구독 취소** Google 및 Yahoo!의 요구 사항.
-
-  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### 액세스 권한 부여 매개 변수 목록 {#list-of-access-authorization-parameters}
 
