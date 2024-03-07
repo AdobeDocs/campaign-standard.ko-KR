@@ -7,9 +7,9 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '563'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 3%
 * 구분 기호: 탭 또는 세미콜론
 * 머리글이 있는 첫 번째 줄
 * 문자열 구분 기호 없음
-* 날짜 형식: YYYY/MM/DD HH:mm:SS
+* 날짜 형식: `YYYY/MM/DD HH:mm:SS`
 
 가져올 파일의 예:
 
@@ -73,7 +73,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 **관련 항목:**
 
-* [파일 활동 로드](../../automating/using/load-file.md)
+* [파일 로드 활동](../../automating/using/load-file.md)
 * [파일 추출 활동](../../automating/using/extract-file.md)
 
 ## 델타 모드에서 가져오기 {#importing-in-delta-mode}

@@ -9,7 +9,7 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 이 페이지에서는 모바일 애플리케이션이 일정에 따라 수집 PII 데이터를 보낸 후 프로필 데이터를 생성/업데이트하는 워크플로우를 개발하는 단계를 설명합니다.
 
-* **PII** 는 &quot;개인 식별 정보&quot;를 의미합니다. Campaign 데이터베이스의 프로필 테이블에 표시되지 않는 정보(예: Analytics for Mobile)를 비롯한 모든 데이터일 수 있습니다 [관심 영역](../../integrating/using/about-campaign-points-of-interest-data-integration.md). PII는 모바일 앱 개발자에 의해 정의되며, 일반적으로 마케터와 함께 합니다.
+* **PII** 는 &quot;개인 식별 정보&quot;를 나타냅니다. Campaign 데이터베이스의 프로필 테이블에 표시되지 않는 정보(예: Analytics for Mobile)를 비롯한 모든 데이터일 수 있습니다 [관심 영역](../../integrating/using/about-campaign-points-of-interest-data-integration.md). PII는 모바일 앱 개발자에 의해 정의되며, 일반적으로 마케터와 함께 합니다.
 * **PII 수집** 는 모바일 앱에서 Adobe Campaign Standard의 Rest API에 대한 HTTP POST 작업입니다.
 
 이 사용 사례의 목표는 모바일 애플리케이션에서 반환된 PII 데이터에 프로필 관련 데이터가 포함된 경우 Campaign Standard 프로필을 만들거나 업데이트하는 것입니다.
@@ -48,8 +48,8 @@ PII 데이터로 프로필 리소스를 만들거나 업데이트하려면 먼�
 
 를 확장하는 동안 프로필 데이터에 대한 매핑 **[!UICONTROL Subscriptions to an Application]** 리소스는 읽기 전용입니다. 조정에 사용됩니다. 프로파일을 PII 데이터로 대사하려면 필요한 데이터가 있는 프로파일을 시스템에 입력해야 합니다. 이 경우 조정이 수행되도록 하려면 프로필의 이메일 주소가 Collect PII의 이메일과 일치해야 합니다.
 
-* 수집 PII는 모바일 앱에서 사용자의 이름이 &quot;Jane&quot;이고 성이 &quot;Doe&quot;이고 이메일 주소가 janedoe@doe.com인 사용자에 대해 수신됩니다.
-* 별도로 프로필 데이터는 프로필의 이메일 주소가 janedoe@doe.com인 곳에 존재해야 합니다(예: 데이터를 수동으로 입력하거나 이미 다른 리소스에서 가져와야 함).
+* 수집 PII는 모바일 앱에서 사용자의 이름이 &quot;Jane&quot;이고 성이 &quot;Doe&quot;이며 이메일 주소가 janedoe@doe.com인 사용자에 대해 수신됩니다.
+* 별도로 프로필 이메일 주소가 janedoe@doe.com인 프로필 데이터가 있어야 합니다(예: 데이터를 수동으로 입력하거나 이미 다른 리소스에서 가져와야 함).
 
 **관련 항목:**
 
@@ -88,7 +88,7 @@ Campaign Standard에서 워크플로우를 사용하면 관리자가 AppSubscrip
 
 ### 구성 **[!UICONTROL Incremental query]** 활동.
 
-1. 다음에서 **[!UICONTROL Properties]** 탭을 클릭하고 **[!UICONTROL Select an element]** 아이콘 **[!UICONTROL Resource]** 필드를 선택한 다음 **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 요소를 생성하지 않습니다.
+1. 다음에서 **[!UICONTROL Properties]** 탭을 클릭하고 **[!UICONTROL Select an element]** 아이콘 **[!UICONTROL Resource]** 필드를 선택한 다음 **[!UICONTROL Subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** 요소를 생성하지 않습니다.
 
    ![](assets/update_profile3.png)
 

@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 39%
@@ -37,7 +37,7 @@ ht-degree: 39%
 
    * 타겟팅 차원은 다음으로 설정해야 합니다. **[!UICONTROL mobileApp (mobileAppV5)]** 대상: **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** 템플릿.
    * 타겟팅 차원은 다음으로 설정해야 합니다. **[!UICONTROL profile (profile)]** 대상: **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** 템플릿.
-   * 타겟팅 차원은 다음으로 설정해야 합니다. **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 대상: **[!UICONTROL Target users based on their Mobile profile (inApp)]** 템플릿.
+   * 타겟팅 차원은 다음으로 설정해야 합니다. **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** 대상: **[!UICONTROL Target users based on their Mobile profile (inApp)]** 템플릿.
 
 1. **[!UICONTROL In-App delivery]** 활동을 워크플로우로 끌어서 놓습니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
