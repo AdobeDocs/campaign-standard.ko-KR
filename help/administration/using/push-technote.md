@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 2d3210f681bef0f94b7f22f43906ac62b29541f2
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Campaign을 사용하여 Android 및 iOS 디바이스에서 푸시 알림을 전
 
 서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는에서 중단됩니다. **2024년 6월 20일**. 에서 Firebase Cloud Messaging HTTP 프로토콜에 대해 자세히 알아보기 [Google Firebase 설명서](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-24.2 릴리스부터 Adobe Campaign Standard은 Android 푸시 알림 메시지를 전송하기 위해 HTTP v1 API를 지원합니다.
+시작 [24.1 릴리스](../../rn/using/release-notes.md), Adobe Campaign Standard은 Android 푸시 알림 메시지를 전송하기 위해 HTTP v1 API를 지원합니다.
 
 ### 영향을 받습니까? {#fcm-impact}
 
@@ -49,7 +49,7 @@ Campaign을 사용하여 Android 및 iOS 디바이스에서 푸시 알림을 전
 
 #### 필수 구성 요소 {#fcm-transition-prerequisites}
 
-* 의 지원 **HTTP v1 AP** 모드가 24.1 릴리스에 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 전제 조건은 환경을 [최신 Campaign Standard 릴리스](../../rn/using/release-notes.md).
+* 의 지원 **HTTP v1 API** 모드가 24.1 릴리스에 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 전제 조건은 환경을 [최신 Campaign Standard 릴리스](../../rn/using/release-notes.md).
 
 * 모바일 애플리케이션을 HTTP v1로 이동하려면 Android Firebase 관리 SDK 서비스의 계정 JSON 파일이 필요합니다. 에서 이 파일을 가져오는 방법 알아보기 [Google Firebase 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -118,7 +118,7 @@ Adobe Campaign Standard은 토큰 기반 연결과 인증서 기반 연결을 �
 
 #### 필수 구성 요소 {#ios-transition-prerequisites}
 
-* 의 지원 **토큰 기반 인증** 모드가 24.1 릴리스에 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 전제 조건은 환경을 [최신 Campaign Standard 릴리스](../../rn/using/release-notes.md).
+* 의 지원 **토큰 기반 인증** 다음 위치에 모드가 추가되었습니다. [24.1 릴리스](../../rn/using/release-notes.md). 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 전제 조건은 환경을 [최신 Campaign Standard 릴리스](../../rn/using/release-notes.md).
 
 * 서버에서 사용하는 토큰을 생성하려면 APNs 인증 토큰 서명 키가 필요합니다. 에 설명된 대로 Apple 개발자 계정에서 이 키를 요청합니다. [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
