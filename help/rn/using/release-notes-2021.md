@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
 source-wordcount: '4695'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -336,7 +336,7 @@ ht-degree: 100%
 
 * SMPP 로그 포맷이 개선되었습니다.
 
-* Adobe Campaign Classic API와 일치하기 위해 cryptString 및 decryptString JS 함수에 대한 선택적 매개 변수가 추가되었습니다.
+* Adobe Campaign Standard API와 일치하기 위해 cryptString 및 decryptString JS 함수에 대한 선택적 매개 변수가 추가되었습니다.
 
 * 게재 준비 로그의 경고 또는 오류 메시지가 개선되었습니다.
 

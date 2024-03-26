@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '492'
+ht-degree: 96%
 
 ---
 
@@ -115,11 +115,11 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-새 티켓 시스템은 [Adobe Admin Console](https://adminconsole.adobe.com/overview)에서 수행됩니다. 새 시스템에서는 올바른 권한을 가진 각 사용자에 대한 새 개인 계정이 필요합니다. Adobe ID로 로그인할 수 없는 경우 Experience League을 통해 액세스를 요청하면 고객 지원 팀에서 가능한 한 빨리 설정을 완료합니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+새 티켓 시스템은 [Adobe Admin Console](https://adminconsole.adobe.com/overview)에서 수행됩니다. 새 시스템에서는 올바른 권한을 가진 각 사용자에 대한 새 개인 계정이 필요합니다. Adobe ID로 로그인할 수 없는 경우 Experience League를 통해 액세스를 요청하면 고객 지원 팀에서 가능한 한 빨리 설정을 완료합니다. [자세히 알아보기](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### 전문가에게 물어보세요!
 
-Campaign Classic Community 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Campaign 커뮤니티 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 티켓 만들기 또는 채팅 시작
 

@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
+source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch은 Adobe Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과 제품 설명서에 몇 가지 용어 변경 사항이 적용되었습니다. 다음을 참조하십시오. [다음 문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) 용어 변경에 대한 통합 참조.
+> Adobe Experience Platform Launch은 Adobe Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과 제품 설명서에 몇 가지 용어 변경 사항이 적용되었습니다. 다음을 참조하십시오. [다음 문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} 용어 변경에 대한 통합 참조.
 
 푸시 알림 및 인앱 구현은 전문가 사용자가 수행해야 합니다. 도움이 필요하면 Adobe 계정 담당자 또는 전문 서비스 파트너에게 문의하십시오.
 
@@ -39,6 +39,7 @@ Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지�
    그렇지 않은 경우 계정 팀에 문의하십시오.
 
 1. 사용자에게 Adobe Campaign Standard에 필요한 권한이 있는지, Adobe Experience Platform에 있는 태그가 있는지 확인합니다.
+
    * Adobe Campaign Standard에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필의 일부인지 확인합니다. 이 단계에서는 사용자가 Adobe Campaign Standard에 로그인하고, Experience Platform SDK 모바일 앱 페이지로 이동하고, 데이터 수집 UI에서 만든 모바일 앱 속성을 볼 수 있습니다.
 
    * 데이터 수집 UI에서 IMS 사용자가 Experience Platform Launch 제품 프로필의 일부인지 확인합니다.
@@ -152,10 +153,10 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방�
 
      다음 애플리케이션 세부 정보를 입력합니다.
 
-      * **앱 ID (iOS 번들 ID)**: 를 참조하십시오. [Apple 설명서](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) 번들 ID에 대한 자세한 정보입니다.
-      * **iOS 인증서(P8) 파일**: .p8 인증 키를 끌어서 놓습니다. .p8 인증 파일을 생성하는 방법에 대한 지침은 [Apple 개발자 계정](https://developer.apple.com/account/ios/authkey/create).
-      * **키 ID**: 를 참조하십시오. [Apple 설명서](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) 키 ID에 대한 자세한 정보.
-      * **iOS 팀 ID**: 를 참조하십시오. [Apple 설명서](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) iOS 팀 ID에 대한 자세한 정보입니다.
+      * **앱 ID (iOS 번들 ID)**: 를 참조하십시오. [Apple 설명서](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} 번들 ID에 대한 자세한 정보입니다.
+      * **iOS 인증서(P8) 파일**: .p8 인증 키를 끌어서 놓습니다. .p8 인증 파일을 생성하는 방법에 대한 지침은 [Apple 개발자 계정](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **키 ID**: 를 참조하십시오. [Apple 설명서](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} 키 ID에 대한 자세한 정보.
+      * **iOS 팀 ID**: 를 참조하십시오. [Apple 설명서](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} iOS 팀 ID에 대한 자세한 정보입니다.
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -164,8 +165,8 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방�
 
      다음 애플리케이션 세부 정보를 입력합니다.
 
-      * **앱 ID (Android 패키지 이름)**: 를 참조하십시오. [Android 설명서](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) 패키지 이름에 대한 자세한 내용은
-      * **Android 키(Json) 파일**: .json 개인 키 파일을 끌어다 놓습니다. .json 개인 키 파일을 생성하는 방법에 대한 지침은 [Firebase용 개발자 설명서](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+      * **앱 ID (Android 패키지 이름)**: 를 참조하십시오. [Android 설명서](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} 패키지 이름에 대한 자세한 내용은
+      * **Android 키(Json) 파일**: .json 개인 키 파일을 끌어다 놓습니다. .json 개인 키 파일을 생성하는 방법에 대한 지침은 [Firebase용 개발자 설명서](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++
