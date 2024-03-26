@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 35%
                </tr>
                <tr>
                   <td>생성됨</td>
-                  <td>제작일</td>
+                  <td>생성됨</td>
                   <td>일자 </td>
                   <td> </td>
                </tr>
@@ -219,7 +219,7 @@ ht-degree: 35%
                </tr>
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>랜딩 페이지 구독 취소</td>
+                  <td>구독 취소 랜딩 페이지</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>

@@ -29,7 +29,7 @@ ht-degree: 88%
 
 ## 기술 워크플로우 목록 {#list-of-technical-workflows}
 
-기술 워크플로우는 Adobe Campaign에서 자동으로 트리거되는 백그라운드 및 기술 프로세스를 처리하는 데 사용됩니다.
+기술 워크플로우는 Adobe Campaign에서 자동으로 트리거되는 배경 및 기술 프로세스를 처리하는 데 사용됩니다.
 
 <table> 
  <tbody> 

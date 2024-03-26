@@ -39,7 +39,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>생성됨</td>
-                  <td>제작일</td>
+                  <td>생성됨</td>
                   <td>일자 </td>
                   <td> </td>
                </tr>
@@ -153,7 +153,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>증명</td>
-                  <td>증명</td>
+                  <td>교정쇄</td>
                   <td>부울 </td>
                   <td> </td>
                </tr>

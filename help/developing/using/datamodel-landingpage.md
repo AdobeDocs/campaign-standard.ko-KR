@@ -89,7 +89,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>생성됨</td>
-         <td>제작일</td>
+         <td>생성됨</td>
          <td>일자 </td>
          <td> </td>
       </tr>

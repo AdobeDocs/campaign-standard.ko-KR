@@ -11,7 +11,7 @@ exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '516'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 19%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">전반적 개념</a></p></td>
-<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">소통 채널</a></p></td>
+<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">커뮤니케이션 채널</a></p></td>
 <td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">트랜잭션 메시지 </a></p></td>
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">랜딩 페이지</a></p></td></tr>
 </table>
@@ -44,7 +44,7 @@ Adobe Campaign을 사용하면 모든 채널에서 캠페인을 시작, 측정 �
 * [다국어 메시지 템플릿](../../channels/using/multilingual-messages-template.md)
 * [마케팅 활동 템플릿](../../start/using/marketing-activity-templates.md)
 
-## 소통 채널 {#available-communication-channels}
+## 커뮤니케이션 채널 {#available-communication-channels}
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 

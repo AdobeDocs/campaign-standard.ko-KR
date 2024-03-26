@@ -175,7 +175,7 @@ iOS 10 이상의 경우 푸시 알림의 **[!UICONTROL Advanced options]** 섹�
 * 알림 본문 또는 제목 텍스트 변경
 * 알림에 스레드 식별자 추가
 
-**[!UICONTROL Content available]**&#x200B;이(가) 선택되면 푸시 알림을 받는 즉시 앱이 깨어날 수 있도록 푸시 페이로드에 사용 가능한 콘텐츠 플래그가 전송되어 앱이 페이로드 데이터에 액세스할 수 있게 됩니다. 이는 앱이 백그라운드에서 실행 중이고 사용자 상호 작용이 필요 없는 경우(예: 푸시 알림을 누르는 경우)에도 적용되지만 앱이 실행되고 있지 않은 경우에는 적용되지 않습니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)를 참조하십시오.
+**[!UICONTROL Content available]**&#x200B;이(가) 선택되면 푸시 알림을 받는 즉시 앱이 깨어날 수 있도록 푸시 페이로드에 사용 가능한 콘텐츠 플래그가 전송되어 앱이 페이로드 데이터에 액세스할 수 있게 됩니다. 이는 앱이 배경에서 실행 중이고 사용자 상호 작용이 필요 없는 경우(예: 푸시 알림을 누르는 경우)에도 적용되지만 앱이 실행되고 있지 않은 경우에는 적용되지 않습니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)를 참조하십시오.
 
 ## Android의 알림 동작 변경 {#change-the-notification-behavior-for-android}
 
