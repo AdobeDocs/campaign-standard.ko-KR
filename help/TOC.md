@@ -5,9 +5,9 @@ user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
 source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1768'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
