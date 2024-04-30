@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
+source-git-commit: 3450c549f4910a6c5f6be7bf82fbc93ac06625e8
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 10%
+source-wordcount: '442'
+ht-degree: 4%
 
 ---
 
@@ -27,9 +27,12 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 1. **Adobe Campaign 서비스에 대한 새 통합 만들기** 위치: [Adobe Developer](https://developer.adobe.com/) 및 를 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
 1. **JSON 웹 토큰(JWT) 생성** 이전에 생성한 자격 증명에서 개인 키로 서명합니다. JWT는 Adobe이 사용자의 ID를 확인하고 API에 대한 액세스 권한을 부여하는 데 필요한 모든 ID 및 보안 정보를 인코딩합니다.
 
-   >[!AVAILABILITY]
+   >[!IMPORTANT]
    >
-   >현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. Campaign의 예정된 릴리스 내에서 이 전환을 점진적으로 수행하며, 설명서에 이러한 업데이트를 반영하여 업데이트합니다.
+   >현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행됩니다. 서비스 계정(JWT) 자격 증명이 더 이상 사용되지 않는 것으로 표시되었으며, 2025년 1월 27일까지 계속 작동합니다. 따라서 2025년 1월 27일 이전에 새 OAuth 서버 간 자격 증명을 사용하려면 애플리케이션이나 통합을 마이그레이션해야 합니다. OAuth 인증이 선호됩니다. 다음 페이지에서 JWT 인증에서 OAuth 인증으로 마이그레이션할 모든 요소를 찾을 수 있습니다.
+   >* [마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
+   >* [구현](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+   >* [JWT 사용 중단 FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
 1. **JWT를 액세스 토큰으로 교환** POST 요청을 통해 이 액세스 토큰은 API 요청의 각 헤더에서 사용해야 합니다.
 
