@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
-source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
+source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 99%
+source-wordcount: '1754'
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 99%
    + [최신 릴리스](rn/using/release-notes.md)
    + [초기 릴리스 정보](rn/using/e-release-notes.md)
    + 이전 릴리스 {#previous-releases}
-      + [2023년 릴리스 정보](rn/using/release-notes-2023.md)
-      + [2022년 릴리스 정보](rn/using/release-notes-2022.md)
-      + [2021년 릴리스 정보](rn/using/release-notes-2021.md)
-      + [2020년 릴리스 정보](rn/using/release-notes-2020.md)
-      + [2019년 릴리스 정보](rn/using/release-notes-2019.md)
-      + [2018년 릴리스 정보](rn/using/release-notes-2018.md)
-      + [2017년 릴리스 정보](rn/using/release-notes-2017.md)
+      + [2023](rn/using/release-notes-2023.md)
+      + [2022](rn/using/release-notes-2022.md)
+      + [2021](rn/using/release-notes-2021.md)
+      + [2020](rn/using/release-notes-2020.md)
+      + [2019](rn/using/release-notes-2019.md)
+      + [2018](rn/using/release-notes-2018.md)
+      + [2017](rn/using/release-notes-2017.md)
    + [릴리스 계획](rn/using/release-planning.md)
    + [지원 종료 기능](rn/using/deprecated-features.md)
    + [추적된 URL 서명 문제](rn/using/tracked-urls.md)
