@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
+source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 38%
@@ -26,7 +26,7 @@ ht-degree: 38%
 
 * **iOS 푸시 알림** - 이제 Adobe Campaign Standard 24.1에서 iOS 푸시 알림에 대한 p8 인증 인증서를 지원합니다. 이 변경 사항을 활성화하려면 구현을 조정해야 합니다. [이 기술 노트](../../administration/using/push-technote.md)에서 자세히 알아보십시오.
 
-**원클릭 목록-구독 취소** - 2024년 6월 1일부터 Google 및 Yahoo! 발신자에게 원클릭 목록-구독 취소를 준수하도록 요구할 예정입니다. 이제 Campaign에서 이 기능을 기본 지원합니다. [이 섹션](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters)에서 자세히 알아보십시오.
+* **원클릭 목록-구독 취소** - 2024년 6월 1일부터 Google 및 Yahoo! 발신자에게 원클릭 목록-구독 취소를 준수하도록 요구할 예정입니다. 이제 Campaign에서 이 기능을 기본 지원합니다. [이 섹션](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters)에서 자세히 알아보십시오.
 
 * **인프라** - Postgres 데이터베이스가 버전 11.22에서 버전 12.17로 업그레이드되었습니다.
 
