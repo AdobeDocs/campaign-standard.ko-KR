@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 75%
+source-wordcount: '839'
+ht-degree: 72%
 
 ---
 
@@ -62,7 +62,8 @@ ht-degree: 75%
   <tr> 
    <td> <span class="uicontrol">예측</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> 이 워크플로우는 임시 예측(임시 로그 생성)에 저장된 게재의 분석을 실행합니다. 기본적으로 매일 오전 1시에 시작됩니다. <br /> </td> 
+   <td> 이 워크플로우는 임시 예측(임시 로그 생성)에 저장된 게재의 분석을 실행합니다. 기본적으로 매일 오전 1시에 시작됩니다. <br />
+   예측 워크플로우는 현재 Campaign Standard에서 중지되어 더 이상 작동하지 않는 레거시 워크플로입니다.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">공유 대상자 가져오기</span> <br /> </td> 
