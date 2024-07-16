@@ -1,22 +1,42 @@
 ---
-title: 최신 릴리스
+title: 최신 릴리스 정보
 description: 이 페이지에서는 최신 Campaign Standard 릴리스의 콘텐츠를 자세히 설명합니다
 feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 79%
 
 ---
 
 
-# 최신 릴리스{#latest-release}
+# 최신 릴리스 정보 {#latest-release}
 
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
+
+
+## 초기 릴리스 정보 {#e-new-release}
+
+이 섹션에는 다음 Campaign Standard 릴리스에 포함된 개선 사항 및 변경 사항 목록이 있습니다.
+
+>[!CAUTION]
+>
+>이 콘텐츠는 단계 환경 업그레이드일까지 사전 통지 없이 변경될 수 있습니다. 자세한 내용은 [릴리스 계획 페이지](../../rn/using/release-planning.md)를 참조하세요.
+
+**릴리스 24.2 - 2024년 여름 릴리스**
+
+* **릴리스 날짜**: 2024년 8월(제한된 가용성) - [자세히 알아보기](../../rn/using/release-planning.md).
+
+* **OAuth 서버 간 자격 증명으로 마이그레이션**
+
+  이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud Triggers 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
+
+  Campaign과 인바운드 통합을 구현했으며 [Campaign API](../../api/using/get-started-apis.md)를 사용하는 경우 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}에 설명된 대로 기술 계정을 마이그레이션해야 합니다. 기존 서비스 계정(JWT) 자격 증명이 **2025년 1월 27일**&#x200B;에 작동을 중지합니다.
+
 
 ## 릴리스 24.1 - 2024년 겨울 릴리스 {#winter-24}
 

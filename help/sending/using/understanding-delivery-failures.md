@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '1281'
-ht-degree: 63%
+ht-degree: 59%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 63%
 
 일시적인 오류로 인해 메시지가 실패하면 게재 기간 동안 다시 시도됩니다. 오류 유형에 대한 자세한 내용은 [게재 실패 유형 및 이유](#delivery-failure-types-and-reasons)를 참조하십시오.
 
-다시 시도 횟수(전송을 시작한 다음 날에 수행되어야 하는 다시 시도 횟수) 및 다시 시도 사이의 최소 지연 시간은 이제<!--managed by the Adobe Campaign Enhanced MTA,--> ip가 과거 및 현재 주어진 도메인에서 얼마나 잘 수행되고 있는지 기준으로 합니다. Campaign의 **다시 시도** 설정은 무시됩니다.
+다시 시도 횟수(전송을 시작한 다음 날에 수행되어야 하는 다시 시도 횟수) 및 다시 시도 사이의 최소 지연 시간은 IP가 과거 및 현재 지정된 도메인에서 얼마나 잘 수행하고 있는지에 따라 <!--managed by the Adobe Campaign Enhanced MTA,-->입니다. Campaign의 **다시 시도** 설정은 무시됩니다.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ ht-degree: 63%
 >
 >**이제 Campaign 게재의&#x200B;**[!UICONTROL Delivery duration]**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
-예를 들어 게재를 위한 다시 시도가 1일 후 중단되도록 하려면 게재 기간을 다음으로 설정할 수 있습니다. **1d**&#x200B;및 다시 시도 큐의 메시지는 1일 후 제거됩니다.
+예를 들어 게재를 위한 다시 시도가 1일 후 중지되도록 하려면 게재 기간을 **1d**(으)로 설정할 수 있으며 다시 시도 큐의 메시지는 1일 후 제거됩니다.
 
 >[!NOTE]
 >
->메시지가 최대 3.5일 동안 다시 시도 큐에 있고 게재에 실패하면 시간이 초과되고 상태가 업데이트됩니다<!--from **[!UICONTROL Sent]**--> 끝 **[!UICONTROL Failed]** 다음에서 [게재 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>메시지가 최대 3.5일 동안 다시 시도 큐에 있고 배달에 실패하면 시간이 초과되고 [게재 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs)에서 **[!UICONTROL Failed]**(으)로 <!--from **[!UICONTROL Sent]**--> 상태가 업데이트됩니다.
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 >Campaign **[!UICONTROL Message qualification]** 테이블의 반송 조건은 더 이상 사용되지 않습니다.
 
-비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 다음을 클릭하십시오. **Adobe** 로고, 왼쪽 상단에서 **[!UICONTROL Administration > Channels > Email > Email processing rules]** 및 선택 **[!UICONTROL Bounce mails]**. 이 규칙에 대한 자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#email-processing-rules).
+비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 왼쪽 상단에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;을(를) 선택하고 **[!UICONTROL Bounce mails]**&#x200B;을(를) 선택하십시오. 이 규칙에 대한 자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#email-processing-rules)을 참조하세요.
 
-바운스 및 다양한 유형의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+바운스 및 다양한 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)을 참조하세요.
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
@@ -136,6 +136,6 @@ To list the various bounces and their associated error types et reasons, click t
 
 이중 옵트인 메커니즘은 이메일을 보낼 때 가장 좋은 방법입니다. 틀리거나 잘못된 이메일 주소, 스팸 메일로부터 플랫폼을 보호하고 스팸 불만 가능성을 방지합니다.
 
-원칙은 Campaign 데이터베이스에 &#39;프로필&#39;로 저장하기 전에 이메일 전송을 통해 방문자의 동의를 확인하는 것입니다. 방문자는 온라인 랜딩 페이지를 작성한 후 이메일을 수신하고 확인 링크를 클릭하여 구독을 마무리해야 합니다.
+원칙은 Campaign 데이터베이스에 &#39;프로필&#39;로 저장하기 전에 이메일 전송을 통해 방문자의 동의를 확인하는 것입니다. 방문자는 온라인 랜딩 페이지를 작성한 다음 이메일을 수신하고 확인 링크를 클릭하여 구독을 마무리해야 합니다.
 
 자세한 내용은 [이 섹션](../../channels/using/setting-up-a-double-opt-in-process.md)을 참조하십시오.

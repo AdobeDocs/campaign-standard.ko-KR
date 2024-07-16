@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '791'
+ht-degree: 74%
 
 ---
 
@@ -49,22 +49,16 @@ ht-degree: 72%
    <td> 이 워크플로우는 '과금' 사용자에게 이메일로 시스템 활동 보고서를 보냅니다. 기본적으로 매일 오전 1시에 자동 시작됩니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">게재 템플릿에서 헤더 복사</span> <br /> </td> 
+   <td> <span class="uicontrol">게재 템플릿에서 머리글 복사</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> 이 워크플로우는 전자 메일 게재 템플릿에 대해 설정된 SMTP 헤더를 해당 하위 템플릿 비게재 항목에 복사합니다. 이 워크플로우에서는 이메일 마케팅 게재만 선택합니다. SMTP 헤더는 트랜잭션 게재 및 증명 게재에 복사되지 않습니다. <br> 이 워크플로우는 정기적으로 실행되지 않습니다. 사용자는 사용 단위로 시작해야 합니다. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> 인스턴스에 게재 양이 많은 경우 <strong>응용 프로그램 설정</strong>. 템플릿의 SMTP 헤더를 변경한 경우 변경 후 워크플로우를 다시 실행하여 수정된 헤더가 비템플릿 게재에 복사되도록 해야 합니다.<a href="data-retention.md#deliveries">자세히 알아보기</a>
+   <td> 이 워크플로우는 전자 메일 게재 템플릿에 대해 설정된 SMTP 헤더를 해당 하위 템플릿 비게재 항목에 복사합니다. 이 워크플로우에서는 이메일 마케팅 게재만 선택합니다. SMTP 헤더는 트랜잭션 게재 및 증명 게재에 복사되지 않습니다. <br> 이 워크플로는 주기적으로 실행되지 않습니다. 사용자는 사용 단위로 시작해야 합니다. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> 인스턴스에 많은 게재가 있는 경우 <strong>응용 프로그램 설정</strong>에서 NmsCleanup_DeliveryPurgeDelay 옵션을 업데이트할 수 있습니다. 템플릿의 SMTP 헤더를 변경한 경우 변경 후 워크플로우를 다시 실행하여 수정된 헤더가 비템플릿 게재에 복사되도록 해야 합니다.<a href="data-retention.md#deliveries">자세히 알아보기</a>
    <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">데이터베이스 정리</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> 이 워크플로우는 데이터베이스 유지 관리 워크플로우입니다. 다양한 통계 및 프로세스를 실행하고, 정의된 구성에 따라 데이터베이스에서 오래된 데이터를 삭제합니다. 기본적으로 매일 오전 4시에 자동 시작됩니다.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">예측</span> <br /> </td> 
-   <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> 이 워크플로우는 임시 예측(임시 로그 생성)에 저장된 게재의 분석을 실행합니다. 기본적으로 매일 오전 1시에 시작됩니다. <br />
-   예측 워크플로우는 현재 Campaign Standard에서 중지되어 더 이상 작동하지 않는 레거시 워크플로입니다.</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">공유 대상자 가져오기</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 

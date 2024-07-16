@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
-source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
-workflow-type: ht
-source-wordcount: '1754'
+source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+workflow-type: tm+mt
+source-wordcount: '1752'
 ht-degree: 100%
 
 ---
@@ -15,10 +15,8 @@ ht-degree: 100%
 # Adobe Campaign Standard 설명서 {#using}
 
 + [Campaign Standard 설명서](campaign-standard-home.md)
-+ [최신 업데이트](rn/using/documentation-updates.md)
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/release-notes.md)
-   + [초기 릴리스 정보](rn/using/e-release-notes.md)
    + 이전 릴리스 {#previous-releases}
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -30,6 +28,7 @@ ht-degree: 100%
    + [릴리스 계획](rn/using/release-planning.md)
    + [지원 종료 기능](rn/using/deprecated-features.md)
    + [추적된 URL 서명 문제](rn/using/tracked-urls.md)
+   + [최신 설명서 업데이트](rn/using/documentation-updates.md)
 + 시작 {#getting-started}
    + [Adobe Campaign Standard 기본 정보](start/using/about-campaign-standard.md)
    + 인터페이스 살펴보기 {#discovering-the-interface}

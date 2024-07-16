@@ -9,32 +9,36 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '697'
 ht-degree: 6%
 
 ---
 
 # 전달성의 정의{#about-deliverability}
 
-전달성을 사용하면 캠페인이 바운스 없이 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달했는지 측정할 수 있습니다. [전달성이 중요한 이유 알아보기](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
+전달성을 사용하면 캠페인이 바운스 없이 또는 스팸으로 표시되지 않고 수신자의 받은 편지함에 도달했는지 측정할 수 있습니다. [전달성이 중요한 이유를 알아보세요](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters).
 
 더 정확히 말해, 이메일 전달성이란 메시지가 개인 이메일 주소를 통해, 짧은 시간 내에, 그리고 콘텐츠와 형식 측면에서 예상되는 품질로 대상에 도달할 수 있는지를 결정하는 일련의 특징들을 말합니다. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-전달성의 의미에 대한 자세한 내용과 주요 전달성 용어, 개념 및 접근 방식에 대한 자세한 내용은 다음을 참조하십시오. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko).
+전달성의 의미에 대해 자세히 알아보고 주요 전달성 용어, 개념 및 접근 방식에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하세요.
+
+>[!NOTE]
+>
+>전달성 팀의 참여는 계약을 기반으로 하며, 고객은 전달성 참여와 관련된 정보를 Adobe 담당자에게 문의해야 합니다.
 
 ## 게재 능력을 향상시키는 방법 {#deliverability-key-points}
 
 전달성 문제는 일반적으로 인터넷 서비스 공급자 및 메일 서버 관리자가 구현하는 스팸 방지 측정과 연결됩니다.
 
-* 성공적인 이메일 마케팅 캠페인을 디자인하는 방법에 대한 일반적인 권장 사항은 을 참조하십시오. [전달성 전략 및 정의](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html).
+* 성공적인 이메일 마케팅 캠페인을 디자인하는 방법에 대한 일반적인 권장 사항은 [전달성 전략 및 정의](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html)를 참조하십시오.
 
 * Adobe Campaign 이메일의 전달성을 최적화하는 방법에 대한 자세한 권장 사항을 알려면 이 섹션에 나열된 모범 사례를 사용하는 것이 좋습니다.
 
 >[!NOTE]
 >
->ISP는 스팸 발신자로부터 고객을 보호하기 위해 새로운 정교한 필터링 기법을 지속적으로 개발해야 하므로 이메일 전달성은 항상 변화하는 기준과 규칙으로 특징지어집니다. 다음을 참조하십시오. [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko) 정기적으로 업데이트됩니다.
+>ISP는 스팸 발신자로부터 고객을 보호하기 위해 새로운 정교한 필터링 기법을 지속적으로 개발해야 하므로 이메일 전달성은 항상 변화하는 기준과 규칙으로 특징지어집니다. 정기적으로 업데이트되는 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ko)를 참조하세요.
 
 ### 전달률
 
@@ -43,13 +47,13 @@ ht-degree: 6%
 Adobe Campaign의 경우 전달률은 여러 가지 요인에 따라 다릅니다. 특히
 
 * 인스턴스의 올바른 구성: 도움이 필요하면 Adobe 담당자에게 문의하십시오.
-* 합법적인 네트워크 구성: 다음을 참조하십시오. [이 섹션](../../sending/using/optimize-delivery.md#network-config) 및 [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
-* 내 IP 주소 신뢰도: 을 참조하십시오. [IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
-* 타겟팅된 주소의 품질: 을 참조하십시오. [격리 관리](../../sending/using/optimize-delivery.md#quarantine-management).
-* 낮음 [컴플레인](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 비율입니다.
-* 메시지 콘텐츠: 참조 [이메일 콘텐츠 제어](../../sending/using/control-email-content.md).
-* 메시지 인증(SPF, DKIM, DMARC): 참조 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
-* 보낸 사람의 신뢰도: 기본 ISP에서 보낸 사람의 신뢰도를 평가하는 방법을 알아보려면 다음을 참조하십시오. [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
+* 올바른 네트워크 구성: [이 섹션](../../sending/using/optimize-delivery.md#network-config) 및 [도메인 설정 및 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy)을 참조하세요.
+* IP 주소 신뢰도: [IP 전략](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy)을 참조하세요.
+* 대상 주소의 품질: [격리 관리](../../sending/using/optimize-delivery.md#quarantine-management)를 참조하십시오.
+* 낮은 [컴플레인](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) 및 [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces) 비율.
+* 메시지 내용: [전자 메일 내용 제어](../../sending/using/control-email-content.md)를 참조하세요.
+* 메시지 인증(SPF, DKIM, DMARC): [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication)을 참조하세요.
+* 보낸 사람의 신뢰도: 기본 ISP에서 보낸 사람의 신뢰도를 평가하는 방법을 알아보려면 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html)을 참조하세요.
 
 ## Campaign 전달성 도구 {#deliverability-tools}
 
@@ -68,9 +72,9 @@ Adobe Campaign은 플랫폼의 전달성 성능을 추적하고 개선하는 다
 
 잘못된 주소로 메시지를 보내지 않도록 하고 부적절한 통신을 제한하며 보낸 사람의 평판을 향상시키기 위해 Adobe은 이중 옵트인 메커니즘을 구현하는 것을 권장합니다. 이렇게 하면 수신자가 의도적으로 구독했는지 확인할 수 있습니다.
 
-자세한 내용은 [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+자세한 내용은 [Campaign의 옵트인 및 옵트아웃 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)를 참조하세요.
 
-고객으로부터 데이터를 수집하는 모범 사례에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene).
+고객으로부터 데이터를 수집하는 모범 사례에 대한 자세한 내용은 [Adobe 전달성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene)를 참조하세요.
 
 ### 격리 관리 활용
 
@@ -90,7 +94,7 @@ Adobe Campaign은 지속적으로 발생하는 스팸 불만, 하드 바운스 �
 
 Adobe Campaign에서 제공하는 기능을 사용하여 게재 가능성을 모니터링합니다.
 
-Adobe Campaign을 사용하면 내장된 실시간 지표 세트를 통해 게재의 수행 방식을 확인할 수 있습니다. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->또한 완전히 맞춤화가 가능한 실시간 보고서를 작성하여 게재에 대한 통찰력을 향상시킬 수 있습니다.
+Adobe Campaign을 사용하면 내장된 실시간 지표 세트를 통해 게재의 수행 방식을 확인할 수 있습니다. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->또한 사용자 지정이 가능한 실시간 보고서를 작성하여 게재에 대한 통찰력을 향상시킬 수 있습니다.
 
 자세한 내용은 다음 섹션을 참조하십시오.
 
