@@ -25,7 +25,7 @@ ht-degree: 6%
 
 Adobe Campaign Standard을 사용하면 API를 통해 데이터 매핑의 즉각적인 수집을 트리거하고 수집 요청의 상태를 검색할 수 있습니다.
 
-이 페이지에서는 데이터 매핑의 수집 상태를 트리거하고 검색하는 방법에 대해 설명합니다. Campaign Standard API에 대한 전역 정보는 다음을 참조하십시오. [이 섹션](../../api/using/get-started-apis.md).
+이 페이지에서는 데이터 매핑의 수집 상태를 트리거하고 검색하는 방법에 대해 설명합니다. Campaign Standard API에 대한 전체 정보는 [이 섹션](../../api/using/get-started-apis.md)을 참조하세요.
 
 ## 필수 구성 요소 {#prerequisites}
 
@@ -36,7 +36,7 @@ API를 사용하기 전에 데이터 매핑이 먼저 구성되어 Campaign Stan
 
 데이터 매핑이 만들어지면 언제든지 API에서 트리거할 수 있도록 실행을 중지해야 합니다. 이렇게 하려면 다음 단계를 수행합니다.
 
-1. Campaign Standard에서 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+1. Campaign Standard에서 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** 메뉴로 이동합니다.
 
 1. 데이터 매핑을 두 번 클릭하여 연 다음 **[!UICONTROL Stop]** 단추를 클릭합니다.
 
@@ -54,7 +54,7 @@ Adobe Experience Platform에 대한 XDM 매핑의 즉각적인 섭취는 POST �
 
 >[!NOTE]
 >
->수집 POST API 호출을 실행하려면 사용자에게 다음이 있어야 합니다 **SQL 함수 실행** Campaign Standard 관리자 가 JS 스크립트 아래에서 실행하여 제공할 수 있는 역할:
+>수집 POST API 호출을 실행하려면 사용자에게 **SQL 함수 실행** 역할이 있어야 합니다. 이 역할은 아래 JS 스크립트를 실행하여 Campaign Standard 관리자가 제공할 수 있습니다.
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -108,14 +108,14 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->XDM 매핑 요청 상태 및 관련 작업에 대한 자세한 내용은 Campaign Standard 인터페이스의 **[!UICONTROL Status of data export to platform]** 메뉴(참조) [매핑 활성화](../../integrating/using/aep-mapping-activation.md)).
+>XDM 매핑 요청 상태 및 관련 작업에 대한 자세한 정보는 **[!UICONTROL Status of data export to platform]** 메뉴의 Campaign Standard 인터페이스에서 사용할 수 있습니다([매핑 활성화](../../integrating/using/aep-mapping-activation.md) 참조).
 
 GET 작업이 아래 정보를 반환합니다.
 
 * **batchId**: 이 필드는 일괄 처리 준비 및 업로드 후 오류가 발생한 경우에만 채워집니다.
 * **정보**: XDM 매핑 ID,
 * **numRecords**: 수집된 레코드 수(성공 상태만 해당),
-* **상태**: 요청 수집 상태(성공/실패/진행 중)
+* **상태**: 수집 요청 상태(성공/실패/진행 중)
 
 GET 작업에 대해 가능한 응답은 다음과 같습니다.
 

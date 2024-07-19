@@ -23,25 +23,25 @@ Adobe Campaign Standard과 Adobe Analytics 간의 통합을 시작하려면 먼�
 
 외부 계정 및 기술 워크플로우는 플랫폼의 기능 관리자만 관리할 수 있습니다.
 
-1. 고급 메뉴에서 Adobe Campaign 로고를 통해 다음을 선택합니다. **[!UICONTROL Administration > Application settings > External accounts]**.
-1. 다음 항목 선택 **[!UICONTROL Share KPIs with Adobe Analytics]** 외부 계정입니다.
+1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration > Application settings > External accounts]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Share KPIs with Adobe Analytics]** 외부 계정을 선택하십시오.
 
    ![](assets/analytics_2.png)
 
-1. 다음 항목 지정 **[!UICONTROL Web services user name]** 및 **[!UICONTROL Web services share secret]** 다음에서 **[!UICONTROL Connection]** 필드.
+1. **[!UICONTROL Connection]** 필드에 **[!UICONTROL Web services user name]** 및 **[!UICONTROL Web services share secret]**&#x200B;을(를) 지정합니다.
 
-   이러한 매개 변수는 다음을 선택하여 Analytics에서 찾을 수 있습니다. **[!UICONTROL Admin > Company settings > Web services]**.
+   이러한 매개 변수는 **[!UICONTROL Admin > Company settings > Web services]**&#x200B;을(를) 선택하여 Analytics에서 찾을 수 있습니다.
 
    ![](assets/analytics_1.png)
 
 1. **[!UICONTROL Refresh report suites]** 버튼을 클릭합니다.
-1. 다음에서 선택 **[!UICONTROL Analytics default report suite]** Adobe Campaign 데이터로 보강하려는 Adobe Analytics 보고서 세트 드롭다운.
+1. **[!UICONTROL Analytics default report suite]** 드롭다운에서 Adobe Campaign 데이터로 보강할 Adobe Analytics 보고서 세트를 선택합니다.
 
-   이제 외부 계정이 준비되었으며 Adobe Analytics에 연결됩니다. 다음을 확인하여 언제든지 비활성화할 수 있습니다. **[!UICONTROL Enabled]** 상자.
+   이제 외부 계정이 준비되었으며 Adobe Analytics에 연결됩니다. 언제든지 **[!UICONTROL Enabled]** 상자를 선택하여 비활성화할 수 있습니다.
 
    ![](assets/analytics.png)
 
-다음 **[!UICONTROL Share KPIs with Adobe Analytics]** 이제 기술 워크플로우가 자동으로 실행되며 을 선택하여 고급 메뉴에서 볼 수 있습니다. **[!UICONTROL Administration > Application settings > Workflow]**. 이 기술 워크플로우는 최대 6개월 된 브로드로그를 유지할 수 있습니다. 이 워크플로우는 증분 워크플로우이며 전날의 데이터를 푸시합니다.
+이제 **[!UICONTROL Share KPIs with Adobe Analytics]** 기술 워크플로우가 자동으로 시작되며 **[!UICONTROL Administration > Application settings > Workflow]**&#x200B;을(를) 선택하여 고급 메뉴에서 볼 수 있습니다. 이 기술 워크플로우는 최대 6개월 된 브로드로그를 유지할 수 있습니다. 이 워크플로우는 증분 워크플로우이며 전날의 데이터를 푸시합니다.
 
 ![](assets/analytics_3.png)
 

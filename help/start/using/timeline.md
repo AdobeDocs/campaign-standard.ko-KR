@@ -32,8 +32,8 @@ ht-degree: 89%
 
 아이콘을 사용하여 다음을 수행합니다.
 
-* ![](assets/timeline_zoom_in.png) 날짜가 표시될 때까지 둘레를 줄이거나 더 제한된 기간 동안 세부 수준을 높입니다.
-* ![](assets/timeline_zoom_out.png) 둘레를 늘리거나 더 큰 시간대를 표시합니다.
+* ![](assets/timeline_zoom_in.png)은(는) 날짜가 표시될 때까지 더 제한된 기간 동안 둘레를 줄이거나 세부 정보 수준을 높입니다.
+* ![](assets/timeline_zoom_out.png) 둘레를 늘리거나 더 큰 기간을 표시합니다.
 
 각 프로그램 이름의 오른쪽에 있는 화살표를 클릭하여 해당 콘텐츠를 표시합니다. 프로그램에는 하위 프로그램, 캠페인 및 랜딩 페이지가 포함될 수 있습니다. 캠페인은 프로그램과 동일한 방식으로 배포되며 이메일, SMS 및 랜딩 페이지를 포함할 수 있습니다.
 
@@ -50,7 +50,7 @@ ht-degree: 89%
 * ![](assets/timeline_program_icon.png) 프로그램
 * ![](assets/timeline_campaign_icon.png) 캠페인
 * ![](assets/timeline_lp_icon.png) 랜딩 페이지
-* ![](assets/timeline_email_icon.png) 이메일
+* ![](assets/timeline_email_icon.png) 전자 메일
 * ![](assets/timeline_sms_icon.png) SMS
 * ![](assets/timeline_push_icon.png) 푸시 알림
 

@@ -49,14 +49,14 @@ ht-degree: 78%
    <td> Adobe Experience Manager<br /> </td> 
    <td> Adobe Experience Manager에서 직접 Adobe Campaign 데이터베이스에 매핑된 이메일 콘텐츠 또는 양식을 만들 수 있습니다.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign 및 Experience Manager 작업</a>, <a href="https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager 및 Campaign Standard 통합</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Manager 및 캠페인으로 이메일 만들기</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign과 Experience Manager으로 작업</a>, <a href="https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager과 Campaign Standard 통합</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Manager과 캠페인으로 전자 메일 만들기</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Adobe Campaign에서 만들고 보낸 이메일이 열려 있을 때 Adobe Target에서 동적으로 계산된 이미지를 삽입할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign을 Target과 함께 사용하기</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Campaign과 Target 통합</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간으로 이메일 이미지 개인화</a> 비디오(3단계)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign 및 Target 작업</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Campaign과 Target 통합</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간으로 이메일 이미지 개인화</a> 비디오(3단계)
     </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ ht-degree: 78%
    <td><a href="../../integrating/using/get-started-sources-destinations.md">소스 및 대상 시작</a></td>
   </tr> 
   <tr> 
-   <td> Adobe 에셋 핵심 서비스 및 Assets On Demand<br /> </td> 
+   <td> Adobe 자산 핵심 서비스 및 Assets On Demand<br /> </td> 
    <td> Adobe Experience Cloud 라이브러리의 자산을 Adobe Campaign에서 만든 이메일 및 랜딩 페이지에 삽입할 수 있습니다.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">자산 핵심 서비스</a> 또는 Assets On Demand<br /> </td> 
   </tr> 
@@ -95,18 +95,18 @@ ht-degree: 78%
   </tr> 
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
-   <td> 기본 작업을 통해 Adobe Journey Orchestration 컨텍스트에서 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 전송할 수 있습니다.<br /> </td> 
+   <td> 기본 동작을 통해 Adobe Journey Orchestration 컨텍스트에서 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다.<br /> </td> 
    <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Adobe Journey Orchestration 및 Adobe Campaign Standard 작업</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Dreamweaver의 이메일 콘텐츠를 편집하고 Adobe Campaign과 동기화할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ko">Dreamweaver을 사용하여 개인화된 이메일 만들기</a> 비디오, <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver용 Campaign 확장 사용</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ko">Dreamweaver으로 개인화된 전자 메일 만들기</a> 비디오, <a href="https://helpx.adobe.com/kr/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver용 Campaign 확장 사용</a> 
   </td> 
   </tr> 
   <tr> 
-   <td> ADOBE EXPERIENCE PLATFORM SDK<br /> </td> 
+   <td> Adobe Experience Platform SDK<br /> </td> 
    <td> Experience Platform SDK를 사용하여 Adobe Campaign에서 모바일 앱 속성 활성화 과정을 자동화할 수 있습니다.<br /> </td> 
    <td> <a href="https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html">Experience Platform SDK를 사용한 모바일 애플리케이션 구성</a><br /> </td> 
   </tr> 

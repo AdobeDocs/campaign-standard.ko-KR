@@ -17,13 +17,13 @@ ht-degree: 9%
 
 # Campaign을 Assets 핵심 서비스와 함께 사용하기{#working-with-campaign-and-assets-core-service}
 
-Assets 핵심 서비스 또는 Assets on Demand(Adobe Experience Cloud 환경의 구성에 따라) 를 Adobe Campaign과 통합하면 Adobe Experience Cloud 내에서 공유되는 모든 에셋을 Adobe Campaign 이메일 및 랜딩 페이지에서 사용할 수 있습니다.
+Assets 핵심 서비스 또는 Assets on Demand(Adobe Experience Cloud 환경의 구성에 따라)를 Adobe Campaign과 통합하면 Adobe Campaign 이메일 및 랜딩 페이지의 Adobe Experience Cloud 내에서 공유되는 모든 에셋을 사용할 수 있습니다.
 
-Assets 핵심 서비스와의 통합은 다음으로 제한됩니다. [기능 관리자](../../administration/using/users-management.md#functional-administrators).
+Assets 핵심 서비스와의 통합이 [기능 관리자](../../administration/using/users-management.md#functional-administrators)(으)로 제한됩니다.
 
 Adobe Experience Cloud에서 공유한 리소스는 다음과 같이 이메일 및 랜딩 페이지에서 사용할 수 있습니다.
 
-1. 이메일 또는 랜딩 페이지의 콘텐츠를 편집할 때 이미지 블록으로 이동한 다음 을 선택합니다 **[!UICONTROL Image shared from Adobe Experience Cloud]** 컨텍스트 메뉴를 통해 액세스합니다.
+1. 전자 메일 또는 랜딩 페이지의 콘텐츠를 편집할 때 이미지 블록으로 이동한 다음 상황별 메뉴를 통해 **[!UICONTROL Image shared from Adobe Experience Cloud]**&#x200B;을(를) 선택합니다.
 
    ![](assets/dam_insert_image_dce.png)
 
@@ -35,5 +35,5 @@ Adobe Experience Cloud에서 공유한 리소스는 다음과 같이 이메일 �
 
 **관련 항목:**
 
-* [에셋 및 공유](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Assets 및 공유](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
 * [콘텐츠 편집기](../../designing/using/personalization.md#example-email-personalization)

@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # CCPA 옵트아웃 관리 {#managing-ccpa-optout}
 
-를 사용하여 프로필의 CCPA 옵트아웃 상태를 모니터링하고 관리할 수 있습니다. **ccpaOptOut** 프로필 속성 및 &quot;true&quot; 또는 &quot;false&quot; 값:
+**ccpaOptOut** 프로필 특성과 &quot;true&quot; 또는 &quot;false&quot; 값을 사용하여 프로필의 CCPA 옵트아웃 상태를 모니터링하고 관리할 수 있습니다.
 
 `"ccpaOptOut": <value>`
 

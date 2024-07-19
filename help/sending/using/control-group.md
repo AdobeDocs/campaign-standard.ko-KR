@@ -155,7 +155,7 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 >[!IMPORTANT]
 >
->게재 로그에 액세스하려면 [관리자 역할](../../administration/using/users-management.md#functional-administrators) 및 의 일부가 되는 작업 **[!UICONTROL All]** [조직 단위](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>게재 로그에 액세스하려면 [관리자 역할](../../administration/using/users-management.md#functional-administrators)이 있어야 하며 **[!UICONTROL All]** [조직 단위](../../administration/using/organizational-units.md)의 일부여야 합니다. <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 게재 로그 확인 {#checking-logs}
 

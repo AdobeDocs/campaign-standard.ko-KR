@@ -11,30 +11,30 @@ exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 3450c549f4910a6c5f6be7bf82fbc93ac06625e8
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 # API 액세스 설정 {#setting-up-api-access}
 
-Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다. 이러한 각 단계는 [Adobe Developer 설명서](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다. 이러한 각 단계는 [Adobe Developer 설명서](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)에 자세히 설명되어 있습니다.
 
 >[!IMPORTANT]
 >
->에서 인증서를 관리하려면 [Adobe Developer](https://developer.adobe.com/), 다음을 확인하십시오. **시스템 관리자** 조직 또는 a에 대한 권한 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html) Admin Console.
+>[Adobe Developer](https://developer.adobe.com/)에서 인증서를 관리하려면 조직에 대한 **시스템 관리자** 권한 또는 Admin Console에 있는 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
 
-1. **디지털 인증서가 있는지 확인**&#x200B;또는 필요한 경우 만드십시오. 인증서와 함께 제공되는 공개 및 개인 키는 다음 단계에서 필요합니다.
-1. **Adobe Campaign 서비스에 대한 새 통합 만들기** 위치: [Adobe Developer](https://developer.adobe.com/) 및 를 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
-1. **JSON 웹 토큰(JWT) 생성** 이전에 생성한 자격 증명에서 개인 키로 서명합니다. JWT는 Adobe이 사용자의 ID를 확인하고 API에 대한 액세스 권한을 부여하는 데 필요한 모든 ID 및 보안 정보를 인코딩합니다.
+1. **디지털 인증서가 있는지 확인**&#x200B;하거나 필요한 경우 만드십시오. 인증서와 함께 제공되는 공개 및 개인 키는 다음 단계에서 필요합니다.
+1. [Adobe Developer](https://developer.adobe.com/)에서 **Adobe Campaign 서비스에 대한 새 통합을 만들고** 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
+1. **이전에 생성한 자격 증명에서 JSON 웹 토큰(JWT)을 만들고** 개인 키로 서명합니다. JWT는 Adobe이 사용자의 ID를 확인하고 API에 대한 액세스 권한을 부여하는 데 필요한 모든 ID 및 보안 정보를 인코딩합니다.
 
    >[!IMPORTANT]
    >
    >현재 JWT(JSON 웹 토큰)의 지원 종료를 준비하고 있으며, 이를 OAuth로 대체하는 과정이 진행 중입니다. 전환은 Campaign의 예정된 릴리스 내에서 점진적으로 수행됩니다. 서비스 계정(JWT) 자격 증명이 더 이상 사용되지 않는 것으로 표시되었으며, 2025년 1월 27일까지 계속 작동합니다. 따라서 2025년 1월 27일 이전에 새 OAuth 서버 간 자격 증명을 사용하려면 애플리케이션이나 통합을 마이그레이션해야 합니다. OAuth 인증이 선호됩니다. 다음 페이지에서 JWT 인증에서 OAuth 인증으로 마이그레이션할 모든 요소를 찾을 수 있습니다.
    >* [마이그레이션](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [구현](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
-   >* [JWT 사용 중단 FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
+   >* [사용 중단 JWT FAQ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
 
-1. **JWT를 액세스 토큰으로 교환** POST 요청을 통해 이 액세스 토큰은 API 요청의 각 헤더에서 사용해야 합니다.
+1. POST 요청을 통해 **JWT를 액세스 토큰으로 교환**&#x200B;합니다. 이 액세스 토큰은 API 요청의 각 헤더에서 사용해야 합니다.
 
 보안 서비스 간 Adobe I/O API 세션을 설정하려면 Adobe 서비스에 대한 모든 요청에서 아래 정보를 인증 헤더에 포함해야 합니다.
 
@@ -46,16 +46,16 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;organization>**: 개인 조직 ID이며, 각 인스턴스에 대해 Adobe이 제공한 조직 ID가 하나입니다.
+* **&lt;조직>**: 개인 조직 ID이며 각 인스턴스에 대해 Adobe이 제공한 조직 ID가 하나입니다.
 
-   * &lt;organization> : 프로덕션 인스턴스,
-   * &lt;organization-mkt-stage>: 스테이지 인스턴스
+   * &lt;조직> : 프로덕션 인스턴스,
+   * &lt;ORGANIZATION-mkt-stage>: 단계 인스턴스입니다.
 
-  조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 라이선스 목록에서 새 통합을 만들 때 Adobe I/O으로 검색할 수도 있습니다( <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer 설명서</a>).
+  조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 라이선스 목록에서 새 통합을 만들 때 Adobe I/O으로 검색할 수도 있습니다(<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer 설명서</a> 참조).
 
-* **&lt;access_token>**: POST 요청을 통해 JSON 웹 토큰을 교환할 때 검색된 개인 액세스 토큰입니다.
+* **&lt;ACCESS_TOKEN>**: POST 요청을 통해 JSON 웹 토큰을 교환할 때 검색된 개인 액세스 토큰입니다.
 
-* **&lt;api_key>**: 개인 API 키. Adobe Campaign 서비스에 대한 새 통합을 만든 후 Adobe I/O에서 제공합니다.
+* **&lt;API_KEY>**: 개인 API 키. Adobe Campaign 서비스에 대한 새 통합을 만든 후 Adobe I/O에서 제공합니다.
 
   ![대체 텍스트](assets/tenant.png)
 

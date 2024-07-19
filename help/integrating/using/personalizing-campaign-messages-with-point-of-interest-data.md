@@ -19,31 +19,31 @@ ht-degree: 9%
 
 Adobe Campaign에서는 모바일 애플리케이션의 구독자로부터 수집된 관심 영역 데이터를 사용하여 이메일과 같은 개인화된 마케팅 메시지를 보낼 수 있습니다.
 
-표준 게재를 통해서만 관심 영역 데이터에 반응할 수 있습니다. [트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md) 위치 데이터를 사용할 수 없습니다.
+표준 게재를 통해서만 관심 영역 데이터에 반응할 수 있습니다. [트랜잭션 메시지](../../channels/using/getting-started-with-transactional-msg.md)에서 위치 데이터를 사용할 수 없습니다.
 
 가장 빨리 반응할 수 있는 시간은 약 10분입니다.
 
 이 경우 지난 2주 이내에 Boston 스토어를 방문한 모든 구독자에게 이메일을 전송하기로 결정합니다.
 
 1. 이메일 마케팅 활동을 만듭니다.
-1. 게재 대상자를 정의할 때 **[!UICONTROL Subscriptions to an application]** 요소를 작업 공간에 추가합니다.
+1. 게재 대상을 정의할 때 **[!UICONTROL Subscriptions to an application]** 요소를 작업 영역으로 끌어다 놓습니다.
 
    ![](assets/poi_subscriptions_app.png)
 
-   대상자 관리에 대해서는 다음에서 자세히 설명합니다. [대상자 정의](../../audiences/using/creating-audiences.md) 섹션.
+   대상자 관리에 대해서는 [대상자 정의](../../audiences/using/creating-audiences.md) 섹션에 자세히 설명되어 있습니다.
 
-1. 다음에서 **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** 창, 드래그 앤 드롭 **[!UICONTROL POI Location Subscription]** 요소를 작업 공간에 추가합니다.
+1. **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** 창에서 **[!UICONTROL POI Location Subscription]** 요소를 작업 영역으로 끌어다 놓습니다.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. 다음에서 **[!UICONTROL Add a rule - POI Location Subscription]** 창에서 사용할 관심 영역 레이블을 입력합니다.
+1. **[!UICONTROL Add a rule - POI Location Subscription]** 창에서 사용할 관심 영역의 레이블을 입력합니다.
 
    ![](assets/poi_location_subscription.png)
 
 1. **[!UICONTROL Filter type]** 필드에서 **[!UICONTROL Relative]**&#x200B;을(를) 선택합니다.
-1. 다음 확인: **[!UICONTROL Preceding days]** 옵션 및 입력 **[!UICONTROL 15]** 를 입력합니다.
+1. **[!UICONTROL Preceding days]** 옵션을 선택하고 해당 필드에 **[!UICONTROL 15]**&#x200B;을(를) 입력하십시오.
 1. 사용자가 관심 영역을 방문해야 하는 횟수를 정의합니다.
-1. 클릭 **[!UICONTROL Confirm]** 대상자를 저장합니다.
+1. 대상을 저장하려면 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 

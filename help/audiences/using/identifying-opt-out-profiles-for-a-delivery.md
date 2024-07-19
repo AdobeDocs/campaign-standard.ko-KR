@@ -17,11 +17,11 @@ ht-degree: 29%
 
 # 게재에 대한 옵트아웃 프로필 확인{#identifying-opt-out-profiles-for-a-delivery}
 
-특정 게재에 대한 옵트아웃 프로필은 준비 단계 다음에 나열됩니다. **[!UICONTROL Exclusion logs]** 게재 대시보드의 탭입니다.
+특정 게재에 대한 옵트아웃 프로필은 준비 단계 후 게재 대시보드의 **[!UICONTROL Exclusion logs]** 탭에 나열됩니다.
 
 ![](assets/exclusion_blocklisting.png)
 
 **관련 항목:**
 
 * [게재 모니터링](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
-* [보내기 준비](../../sending/using/preparing-the-send.md).
+* [전송 준비 중](../../sending/using/preparing-the-send.md).

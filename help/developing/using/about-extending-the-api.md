@@ -21,12 +21,12 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->API를 게시하려면 다음을 수행해야 합니다. **[!UICONTROL Datamodel]** 역할.
+>API를 게시하려면 **[!UICONTROL Datamodel]** 역할이 있는지 확인하십시오.
 
 공개 API에서 확장된 필드를 표시하는 단계는 다음과 같습니다.
 
 1. [프로필 리소스에 확장 필드 추가](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
-1. [확장 게시](../../developing/using/step-2-publish-the-extension.md)
+1. [Publish 확장](../../developing/using/step-2-publish-the-extension.md)
 1. [새 확장 필드를 API에서 사용할 수 있는지 확인합니다.](../../developing/using/step-3-verify-the-extension.md)
 
 **관련 항목:**

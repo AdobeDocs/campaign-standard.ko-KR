@@ -20,7 +20,7 @@ ht-degree: 76%
 
 이 사용 사례에서는 타깃팅 차원과 다른 리소스를 사용하여(예: 떨어진 표에 있는 특정 레코드를 찾는) 방법을 제공합니다.
 
-타겟팅 차원 및 리소스에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../automating/using/query.md#targeting-dimensions-and-resources)
+타겟팅 차원 및 리소스에 대한 자세한 정보는 [이 섹션](../../automating/using/query.md#targeting-dimensions-and-resources)을 참조하세요.
 
 **예제 1: &quot;Welcome back !&quot;이라는 레이블이 있는 게재가 타겟팅한 프로필 확인**.
 

@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->REST API는 사용할 URL이 포함된 &quot;href&quot; 속성을 반환합니다. <b>항상 응답에 포함된 URL을 사용하여 후속 API 요청을 만듭니다</b>.
+>REST API는 사용할 URL이 포함된 &quot;href&quot; 속성을 반환합니다. <b>항상 응답에 포함된 URL을 사용하여 후속 API를 요청하십시오</b>.
 
 <br/>
 

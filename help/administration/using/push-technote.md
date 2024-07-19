@@ -9,7 +9,7 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -29,9 +29,9 @@ Campaign을 사용하여 Android 및 iOS 디바이스에서 푸시 알림을 전
 
 ### 변경 사항 {#fcm-changes}
 
-서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는에서 중단됩니다. **2024년 6월 20일**. 에서 Firebase Cloud Messaging HTTP 프로토콜에 대해 자세히 알아보기 [Google Firebase 설명서](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+서비스 개선을 위한 Google의 지속적인 노력의 일환으로 레거시 FCM API는 **2024년 6월 20일**&#x200B;에 중단됩니다. [Google Firebase 설명서](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}에서 Firebase Cloud Messaging HTTP 프로토콜에 대해 자세히 알아보세요.
 
-시작 [24.1 릴리스](../../rn/using/release-notes.md), Adobe Campaign Standard은 Android 푸시 알림 메시지를 전송하기 위해 HTTP v1 API를 지원합니다.
+[24.1 릴리스](../../rn/using/release-notes.md)부터 Adobe Campaign Standard은 Android 푸시 알림 메시지를 보내기 위해 HTTP v1 API를 지원합니다.
 
 ### 영향을 받습니까? {#fcm-impact}
 
@@ -49,36 +49,36 @@ Campaign을 사용하여 Android 및 iOS 디바이스에서 푸시 알림을 전
 
 #### 필수 구성 요소 {#fcm-transition-prerequisites}
 
-* 의 지원 **HTTP v1 API** 모드가 24.1 릴리스에 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 전제 조건은 환경을 [최신 Campaign Standard 릴리스](../../rn/using/release-notes.md).
+* **HTTP v1 API** 모드 지원이 24.1 릴리스에 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 필수 조건은 환경을 [최신 Campaign Standard 릴리스](../../rn/using/release-notes.md)(으)로 업그레이드하는 것입니다.
 
-* 모바일 애플리케이션을 HTTP v1로 이동하려면 Android Firebase 관리 SDK 서비스의 계정 JSON 파일이 필요합니다. 에서 이 파일을 가져오는 방법 알아보기 [Google Firebase 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+* 모바일 애플리케이션을 HTTP v1로 이동하려면 Android Firebase 관리 SDK 서비스의 계정 JSON 파일이 필요합니다. [Google Firebase 설명서](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}에서 이 파일을 가져오는 방법을 알아보세요.
 
-* 이 레거시 버전의 SDK를 계속 사용하는 경우 Adobe Experience Platform SDK를 사용하여 구현을 업데이트해야 합니다. 에서 Experience Platform SDK Adobe으로 마이그레이션하는 방법에 대해 알아봅니다. [이 문서](sdkv4-migration.md).
+* 이 레거시 버전의 SDK를 계속 사용하는 경우 Adobe Experience Platform SDK를 사용하여 구현을 업데이트해야 합니다. [이 문서](sdkv4-migration.md)에서 Adobe Experience Platform SDK로 마이그레이션하는 방법에 대해 알아봅니다.
 
-* 다음 항목이 있는지 확인하십시오. **모바일 앱 구성** 아래 단계를 수행하기 전에 Adobe Experience Platform Data Collection Mobile의 권한. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* 아래 단계를 수행하기 전에 Adobe Experience Platform Data Collection Mobile에서 **모바일 앱 구성** 권한이 있는지 확인하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}
 
 
 #### 전환 절차 {#fcm-transition-steps}
 
 환경을 HTTP v1로 이동하려면 다음 단계를 수행합니다.
 
-1. 다음으로 이동 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**(으)로 이동합니다.
 
    ![](assets/push_technote_1.png)
 
 1. 인증서 업데이트가 필요한 특정 모바일 애플리케이션을 선택하십시오.
 
-1. 다음 확인: **[!UICONTROL Update app credentials]** 확인란.
+1. **[!UICONTROL Update app credentials]** 확인란을 선택합니다.
 
    ![](assets/push_technote_5.png)
 
-1. Android 프로젝트의 앱 ID(Android 패키지 이름)를 제공합니다. `build.gradle` 파일. 예를 들어, `com.android.test.testApp`. 스테이징 및 프로덕션 환경에 서로 다른 ID를 사용해야 합니다.
+1. Android 프로젝트의 `build.gradle` 파일에서 앱 ID(Android 패키지 이름)를 제공하십시오. 예: `com.android.test.testApp`. 스테이징 및 프로덕션 환경에 서로 다른 ID를 사용해야 합니다.
 
 1. Android 개인 키 JSON 키 파일을 업로드합니다.
 
    ![](assets/push_technote_3.png)
 
-1. 다음을 클릭합니다. **저장** 단추를 클릭합니다.
+1. **저장** 단추를 클릭합니다.
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Apple에서 권장하는 대로 상태 비저장 인증 토큰을 사용하여 A
 
 * 하나의 토큰을 사용하여 회사의 모든 앱에 대한 알림을 배포할 수 있습니다.
 
-에서 APNs에 대한 토큰 기반 연결에 대해 자세히 알아보십시오. [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+[Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}에서 APNs에 대한 토큰 기반 연결에 대해 자세히 알아보세요.
 
 Adobe Campaign Standard은 토큰 기반 연결과 인증서 기반 연결을 모두 지원합니다. 구현이 인증서 기반 연결을 사용하는 경우 Adobe은 토큰 기반 연결로 업데이트할 것을 강력히 권장합니다.
 
@@ -118,30 +118,30 @@ Adobe Campaign Standard은 토큰 기반 연결과 인증서 기반 연결을 �
 
 #### 필수 구성 요소 {#ios-transition-prerequisites}
 
-* 의 지원 **토큰 기반 인증** 다음 위치에 모드가 추가되었습니다. [24.1 릴리스](../../rn/using/release-notes.md). 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 전제 조건은 환경을 [최신 Campaign Standard 릴리스](../../rn/using/release-notes.md).
+* [24.1 릴리스](../../rn/using/release-notes.md)에서 **토큰 기반 인증** 모드 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 필수 조건은 환경을 [최신 Campaign Standard 릴리스](../../rn/using/release-notes.md)(으)로 업그레이드하는 것입니다.
 
-* 서버에서 사용하는 토큰을 생성하려면 APNs 인증 토큰 서명 키가 필요합니다. 에 설명된 대로 Apple 개발자 계정에서 이 키를 요청합니다. [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* 서버에서 사용하는 토큰을 생성하려면 APNs 인증 토큰 서명 키가 필요합니다. [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}에 설명된 대로 Apple 개발자 계정에서 이 키를 요청합니다.
 
 
 #### 전환 절차 {#ios-transition-steps}
 
 iOS 모바일 애플리케이션을 토큰 기반 인증 모드로 이동하려면 다음 단계를 따르십시오.
 
-1. 다음으로 이동 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**(으)로 이동합니다.
 
    ![](assets/push_technote_1.png)
 
 1. 인증서 업데이트가 필요한 특정 모바일 애플리케이션을 선택하십시오.
 
-1. 다음 확인: **[!UICONTROL Update app credentials]** 확인란.
+1. **[!UICONTROL Update app credentials]** 확인란을 선택합니다.
 
    ![](assets/push_technote_2.png)
 
-1. 다음을 제공합니다 **앱 ID** (iOS 번들 ID). Xcode의 앱 기본 타겟에서 iOS 번들 ID(앱 ID)를 찾을 수 있습니다.
+1. **앱 ID**(iOS 번들 ID)를 제공합니다. Xcode의 앱 기본 타겟에서 iOS 번들 ID(앱 ID)를 찾을 수 있습니다.
 
-1. 업로드 **iOS p8 인증서 파일**.
+1. **iOS p8 인증서 파일**&#x200B;을 업로드합니다.
 
-1. APNs 연결 설정을 입력하십시오. **[!UICONTROL Key Id]** 및 **[!UICONTROL iOS Team Id]**.
+1. APNs 연결 설정 **[!UICONTROL Key Id]** 및 **[!UICONTROL iOS Team Id]**&#x200B;을(를) 입력하십시오.
 
    ![](assets/push_technote_4.png)
 

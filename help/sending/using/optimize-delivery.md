@@ -26,21 +26,21 @@ ht-degree: 4%
 
 서버 성능에 직접적인 영향을 주고 플랫폼 속도가 느려질 수 있는 요소는 다음과 같습니다.
 
-* 개인화 요소 수 및 유형: 이메일의 개인화는 각 수신자에 대해 데이터베이스에서 데이터를 가져옵니다. 개인화 요소가 많으면 게재를 준비하는 데 필요한 데이터의 양이 증가합니다.  에서 이메일 개인화에 대해 자세히 알아보기 [이 섹션](../../designing/using/personalization.md)
+* 개인화 요소 수 및 유형: 이메일의 개인화는 각 수신자에 대해 데이터베이스에서 데이터를 가져옵니다. 개인화 요소가 많으면 게재를 준비하는 데 필요한 데이터의 양이 증가합니다.  [이 섹션](../../designing/using/personalization.md)에서 전자 메일 개인화에 대해 자세히 알아보기
 
 * 서버 로드: Campaign이 여러 작업을 동시에 처리할 때 성능이 저하될 수 있습니다. 서버는 모든 게재에 대해 들어오는 모든 데이터와 나가는 데이터를 조정하여 데이터가 정확하고 정시에 도착하는지 확인해야 합니다.
 
-  **팁** - 이를 방지하려면 최상의 성능을 보장하도록 팀의 다른 멤버와 게재 일정을 조정하십시오.
+  **팁** - 이를 방지하려면 최상의 성능을 보장하도록 팀의 다른 구성원과 게재 일정을 조정하십시오.
 
-* 다음 [워크플로우 실행](../../automating/using/about-workflow-execution.md): 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. 다음 지침을 따르십시오 [이 페이지에서](../../automating/using/monitoring-workflow-execution.md). 다음에서 자세히 알아보기 [워크플로우 모범 사례](../../automating/using/best-practices-workflows.md) 섹션.
+* [워크플로우 실행](../../automating/using/about-workflow-execution.md): 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. [이 페이지의 ](../../automating/using/monitoring-workflow-execution.md)에 나열된 지침을 따르십시오. 자세한 내용은 [워크플로우 모범 사례](../../automating/using/best-practices-workflows.md) 섹션을 참조하세요.
 
-* 다음을 활용할 수 있습니다 [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko) 플랫폼을 모니터링하려면 다음을 사용하십시오. [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko) 기능.
+* [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)을 활용하여 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
 
 ## 네트워크 구성 확인 {#network-config}
 
 대량의 이메일을 처리할 때 게재를 최적화하고 스패머로 오인되지 않도록 하려면 서버 ID를 숨기려 하지 않는 합법적인 네트워크 구성이 있는지 확인하십시오.
 
-**팁**: 브랜드 웹 사이트에 해당하는 투명한 발신자 주소를 사용합니다. 예를 들어, 여행사 회사는 발렌티노 호텔 체인을 관리합니다. 이 도메인은 웹 사이트의 valentino.com 도메인을 소유합니다. 파리의 발렌티노 호텔을 홍보하기 위해 paris.valentino.com 하위 도메인을 사용합니다. 따라서 관련 발신자 주소는 hotel@paris.valentino.com일 수 있습니다.
+**팁**: 브랜드 웹 사이트에 해당하는 투명한 발신자 주소를 사용하십시오. 예를 들어, 여행사 회사는 발렌티노 호텔 체인을 관리합니다. 이 도메인은 웹 사이트의 valentino.com 도메인을 소유합니다. 파리의 발렌티노 호텔을 홍보하기 위해 paris.valentino.com 하위 도메인을 사용합니다. 따라서 관련 발신자 주소는 hotel@paris.valentino.com일 수 있습니다.
 
 ## 전달성 관리 {#deliverability-management}
 
@@ -50,9 +50,9 @@ ht-degree: 4%
 
    * 이메일은 수신자 서버에서 수락할 수 있는 이메일 기능을 결정하는 요인을 말합니다. ISP(인터넷 서비스 공급자)는 스팸으로 식별되는 이메일을 필터링하거나 이미지가 다운로드되지 않도록 차단합니다. 특정 도메인에서 너무 많은 이메일을 보내고 있다고 판단되면 해당 발신자로부터 받을 이메일 수에 대한 제한을 설정합니다.
 
-   * 이메일의 전달성을 확인할 때는 데이터 품질, 메시지 및 콘텐츠, 전송 인프라, 신뢰도 등 네 가지 주요 카테고리에 중점을 두어야 합니다. 이 주제에 대한 자세한 내용은 다음을 참조하십시오. [이 섹션](../../sending/using/about-deliverability.md).
+   * 이메일의 전달성을 확인할 때는 데이터 품질, 메시지 및 콘텐츠, 전송 인프라, 신뢰도 등 네 가지 주요 카테고리에 중점을 두어야 합니다. 이 항목에 대한 자세한 내용은 [이 섹션](../../sending/using/about-deliverability.md)을 참조하세요.
 
-* 새 플랫폼을 시작할 때에에 설명된 권장 사항을 적용합니다. [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* 새 플랫폼을 시작할 때 [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)에 설명된 권장 사항을 적용하십시오.
 
 * 도움이 필요하면 Adobe 담당자에게 문의하십시오.
 
@@ -76,6 +76,6 @@ ht-degree: 4%
 
 잘못된 주소로 메시지를 보내지 않도록 하고 부적절한 통신을 제한하며 보낸 사람의 평판을 향상시키기 위해 Adobe은 구독 후 확인을 위해 이중 옵트인 메커니즘을 구현하는 것을 권장합니다. 이렇게 하면 수신자가 의도적으로 가입했는지 확인하는 데 도움이 됩니다.
 
-이 메커니즘을 구현하기 위한 자세한 내용은 [이 섹션](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+이 메커니즘을 구현하기 위한 자세한 내용은 [이 섹션](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)에 요약되어 있습니다.
 
-다음에서 자세히 알아보기 [프로필 및 대상자 시작](../../audiences/using/get-started-profiles-and-audiences.md).
+[프로필 및 대상자 시작](../../audiences/using/get-started-profiles-and-audiences.md)에서 자세히 알아보세요.

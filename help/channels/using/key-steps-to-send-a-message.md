@@ -27,57 +27,57 @@ ht-degree: 11%
 * [푸시 알림 만들기](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [인앱 메시지 준비 및 보내기](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-게재 모범 사례에 대해 알아보려면 [게재 모범 사례](../../sending/using/delivery-best-practices.md) 섹션.
+게재 모범 사례에 대해 알아보려면 [게재 모범 사례](../../sending/using/delivery-best-practices.md) 섹션을 참조하세요.
 
 ## 메시지 만들기
 
-Campaign Standard 활용 [마케팅 활동](../../start/using/marketing-activities.md) 이메일, SMS, DM, 푸시 알림 또는 인앱 메시지를 만들려면.
+Campaign Standard [마케팅 활동](../../start/using/marketing-activities.md)을 활용하여 전자 메일, SMS, DM, 푸시 알림 또는 인앱 메시지를 만듭니다.
 
 ![](assets/marketing-activities.png)
 
-마케팅 활동 목록 또는 을 사용하는 워크플로에서 메시지를 만들 수 있습니다. [전용 활동](../../automating/using/about-channel-activities.md).
+마케팅 활동 목록 또는 [전용 활동](../../automating/using/about-channel-activities.md)을 사용하는 워크플로우에서 메시지를 만들 수 있습니다.
 
 ![](assets/steps-channel.png)
 
 ## 대상자 정의
 
-메시지 수신자를 정의합니다. 이렇게 하려면 [쿼리 편집기](../../automating/using/editing-queries.md) 왼쪽 창에서 데이터베이스에 포함된 데이터를 필터링하고 규칙을 빌드하여 대상을 타기팅할 수 있습니다.
+메시지 수신자를 정의합니다. 이렇게 하려면 왼쪽 창의 [쿼리 편집기](../../automating/using/editing-queries.md)를 사용하여 데이터베이스에 포함된 데이터를 필터링하고 규칙을 빌드하여 대상자를 타깃팅합니다.
 
 사용할 수 있는 대상에는 몇 가지 유형이 있습니다.
 
-* **[!UICONTROL Target]** 은(는) 이메일의 주요 타겟입니다.
-* **[!UICONTROL Test profiles]** 은 이메일을 테스트하고 확인하는 데 사용되는 프로필입니다( 참조). [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)).
+* **[!UICONTROL Target]**&#x200B;은(는) 전자 메일의 주요 대상입니다.
+* **[!UICONTROL Test profiles]**&#x200B;은(는) 전자 메일을 테스트하고 확인하는 데 사용되는 프로필입니다([테스트 프로필 관리](../../audiences/using/managing-test-profiles.md) 참조).
 
 ![](assets/steps-audience.png)
 
 ## 콘텐츠 디자인 및 개인화
 
-다음에서 **[!UICONTROL Content]** 데이터베이스의 필드를 사용하여 메시지 콘텐츠를 차단, 디자인 및 개인화합니다. 특정 채널의 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 이 페이지 상단에 나열된 섹션을 참조하십시오.
+**[!UICONTROL Content]** 블록에서 데이터베이스의 필드를 사용하여 메시지 콘텐츠를 디자인하고 개인화합니다. 특정 채널의 콘텐츠를 디자인하는 방법에 대한 자세한 내용은 이 페이지 상단에 나열된 섹션을 참조하십시오.
 
 ![](assets/steps-content.png)
 
 ## 준비 및 테스트
 
-[준비](../../sending/using/preparing-the-send.md) 메시지. 이 프로세스는 대상 모집단을 계산하고 개인화된 메시지를 준비합니다.
+메시지를 [준비](../../sending/using/preparing-the-send.md)합니다. 이 프로세스는 대상 모집단을 계산하고 개인화된 메시지를 준비합니다.
 
 ![](assets/steps-prepare.png)
 
-**메시지 확인 및 테스트** 미리 보기, 이메일 렌더링, 증명 등 Campaign Standard 기능을 사용하여 전송하기 전에 이 작업에 대한 자세한 정보는 [이 섹션](../../sending/using/previewing-messages.md)을 참조하십시오.
+미리 보기, 전자 메일 렌더링, 증명 등 Campaign Standard 기능을 사용하여 메시지를 보내기 전에 **메시지를 확인하고 테스트하십시오**. 이 작업에 대한 자세한 정보는 [이 섹션](../../sending/using/previewing-messages.md)을 참조하십시오.
 
-사용 **[!UICONTROL Schedule]** 메시지 전송 시점을 정의하는 차단(참조) [메시지 예약](../../sending/using/about-scheduling-messages.md)).
+**[!UICONTROL Schedule]** 블록을 사용하여 메시지를 보낼 시기를 정의합니다([메시지 예약](../../sending/using/about-scheduling-messages.md) 참조).
 
 ![](assets/steps-schedule.png)
 
 ## 보내기 및 추적
 
-메시지가 준비되면 전송을 확인할 수 있습니다. 다음 **[!UICONTROL Deployment]** 블록은 전송 진행률과 결과를 표시합니다.
+메시지가 준비되면 전송을 확인할 수 있습니다. **[!UICONTROL Deployment]** 블록에 전송 진행률과 결과가 표시됩니다.
 
 ![](assets/steps-send.png)
 
-메시지 게재를 모니터링하는 데 도움이 되는 몇 가지 로그를 사용할 수 있습니다( 참조) [게재 모니터링](../../sending/using/monitoring-a-delivery.md)). Campaign Standard 덕분에 게재 수신자의 동작을 추적할 수도 있습니다. [추적 기능](../../sending/using/tracking-messages.md).
+메시지 게재를 모니터링하는 데 도움이 되는 몇 가지 로그를 사용할 수 있습니다([게재 모니터링](../../sending/using/monitoring-a-delivery.md) 참조). Campaign Standard의 [추적 기능](../../sending/using/tracking-messages.md) 덕분에 게재 수신자의 동작을 추적할 수도 있습니다.
 
 ![](../../sending/using/assets/tracking_logs.png)
 
-다양한 지표와 차트를 통해 메시지의 효과와 전송 및 캠페인의 진화를 측정합니다(참조) [보고서 액세스](../../reporting/using/about-dynamic-reports.md)).
+다양한 지표와 차트를 통해 메시지의 효율성과 전송 및 캠페인의 진화를 측정합니다([보고서 액세스](../../reporting/using/about-dynamic-reports.md) 참조).
 
 ![](assets/steps-reports.png)

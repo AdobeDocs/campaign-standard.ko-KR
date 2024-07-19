@@ -19,7 +19,8 @@ ht-degree: 84%
 
 Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해야 합니다.
 
-이메일 디자이너를 사용하면 드래그 앤 드롭 인터페이스를 통해 개인화된 매력적인 이메일을 만들 수 있습니다. 처음부터 빈 화면으로 시작하거나 기존 콘텐츠 조각 또는 템플릿을 활용하는 경우 프로모션 또는 트랜잭션 방식으로 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
+이메일 Designer을 사용하면 드래그하여 놓기를 통해 개인화된 매력적인 이메일을 만들 수 있습니다
+인터페이스. 처음부터 빈 화면으로 시작하거나 기존 콘텐츠 조각 또는 템플릿을 활용하는 경우 프로모션 또는 트랜잭션 방식으로 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
 
 반응형 디자인에 최적화된 HTML을 게재하기 위해 빌드된 이메일 디자이너는 가시성 조건과 동적 콘텐츠를 직접 사용자 인터페이스를 통해 이메일, 템플릿 또는 조각으로 손쉽게 정의하고 적용할 수 있습니다. 단추를 클릭하면 끌어서 놓기 인터페이스와 HTML 코드 간을 원활하게 전환할 수 있습니다.
 
@@ -27,7 +28,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 이메일 디자이너 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 전자 메일 Designer 검색](#video)
 
 * 이메일 콘텐츠를 만드는 방법을 알아보려면 [이메일 디자이너 시작](../../designing/using/quick-start.md)을 참조하십시오.
 * 이메일 디자이너에 대한 개요는 [이메일 디자이너 사용](../../designing/using/designing-content-in-adobe-campaign.md)을 참조하십시오.
@@ -45,7 +46,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 
 메시지와 랜딩 페이지를 링크 및 이미지로 향상시킬 수 있습니다. [링크 삽입](../../designing/using/links.md#inserting-a-link) 및 [이미지 삽입](../../designing/using/images.md#inserting-images)을 참조하십시오.
 
-## 이메일 디자이너 인터페이스 {#email-designer-interface}
+## 이메일 Designer 인터페이스 {#email-designer-interface}
 
 이메일 디자이너는 콘텐츠의 모든 측면을 제작, 편집 및 사용자 정의할 수 있는 다양한 옵션을 제공합니다.
 
@@ -65,7 +66,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 
 편집기 인터페이스의 **상황별 도구 모음**&#x200B;은 선택한 영역에 따라 다양한 기능을 제공합니다. 여기에는 동작 버튼과 텍스트 스타일을 변경할 수 있는 버튼이 포함되어 있습니다. 수행한 수정 사항은 항상 선택한 영역에 적용됩니다.
 
-### 이메일 디자이너 홈페이지 {#email-designer-home-page}
+### 이메일 Designer 홈 페이지 {#email-designer-home-page}
 
 [이메일을 만들때](../../channels/using/creating-an-email.md) 이메일 콘텐츠를 선택하면 **[!UICONTROL Email Designer]** 홈 페이지가 자동으로 표시됩니다.
 
@@ -89,7 +90,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 * 컴퓨터에서 파일을 업로드하려면 **[!UICONTROL Upload]** 단추를 클릭합니다. [파일에서 콘텐트 가져오기](../../designing/using/using-existing-content.md#importing-content-from-a-file)를 참조하십시오.
 * URL에서 기존 콘텐츠를 검색하려면 **[!UICONTROL Import from URL]** 단추를 클릭합니다. [URL에서 콘텐트 가져오기](../../designing/using/using-existing-content.md#importing-content-from-a-url)를 참조하십시오.
 
-## Terminology {#terminology}
+## 용어 {#terminology}
 
 **템플릿**: 템플릿은 여러 게재에 대해 작성하고 재사용할 수 있는 이메일 구조입니다.
 
@@ -143,7 +144,7 @@ CSS 충돌 문제와 같은 문제를 방지하려면 콘텐츠를 최신 버전
 
 * 이미 준비된 이메일에 사용된 조각을 업데이트하면 해당 이메일에 영향을 주지 않습니다.
 
-## 이메일 디자이너 제한 사항 {#email-designer-limitations}
+## 이메일 Designer 제한 사항 {#email-designer-limitations}
 
 * 조각에서 개인화 필드를 사용할 수 없습니다. 조각에 대한 자세한 내용은 [이 섹션](../../designing/using/using-reusable-content.md#about-fragments)을 참조하십시오.
 
@@ -152,7 +153,7 @@ CSS 충돌 문제와 같은 문제를 방지하려면 콘텐츠를 최신 버전
 * 스타일을 편집할 때 대부분의 이메일 클라이언트는 공식적으로 지원하는 웹 글꼴만 사용할 수 있습니다.
 * 향후 재사용을 위해 스타일을 테마로 저장할 수 없습니다. 그러나 CSS 스타일은 콘텐츠 템플릿 또는 이메일에 저장할 수 있습니다. 스타일에 대한 자세한 내용은 [이 섹션](../../designing/using/styles.md)을 참조하십시오.
 * 레퍼러 메타 태그는 이메일 디자이너에서 지원되지 않습니다.
-* 유니코드 문자 세트의 기본 다국어 평면에 포함되지 않은 문자인 서로게이트 쌍은 2바이트(16비트)로 저장할 수 없으며 2개의 UTF-16 문자로 인코딩해야 합니다. 이러한 문자에는 한중일 한자, 대부분의 이모티콘 및 일부 언어가 포함됩니다.<br>이러한 문자로 인해 동적 텍스트에서 일부 비호환성 문제가 발생할 수 있습니다. 메시지를 보내기 전에 강력한 테스트를 수행해야 합니다.
+* 유니코드 문자 세트의 기본 다국어 평면에 포함되지 않은 문자인 서로게이트 쌍은 2바이트(16비트)로 저장할 수 없으며 2개의 UTF-16 문자로 인코딩해야 합니다. 이러한 문자에는 한중일 한자, 대부분의 이모티콘 및 일부 언어가 포함됩니다.<br>이 문자로 인해 동적 텍스트에서 일부 비호환성 문제가 발생할 수 있습니다. 메시지를 보내기 전에 강력한 테스트를 수행해야 합니다.
 
 **관련 항목**
 
@@ -163,8 +164,8 @@ CSS 충돌 문제와 같은 문제를 방지하려면 콘텐츠를 최신 버전
 
 ## 튜토리얼 비디오 {#video}
 
-이 비디오에서는 이메일 디자이너에 대한 개요를 제공합니다.
+이 비디오에서는 이메일 Designer에 대한 개요를 제공합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-이메일 디자이너를 시작하려면 다음을 확인하십시오. [비디오 세트](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 이메일 디자이너의 일반 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명합니다
+이메일 Designer을 시작하려면 이메일 Designer의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 집합](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)을 시청하십시오

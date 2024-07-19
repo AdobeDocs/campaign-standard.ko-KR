@@ -38,7 +38,7 @@ ht-degree: 98%
 
 **[!UICONTROL Fatigue]** 유형화 규칙을 만들고 구성하려면 다음 단계를 수행합니다.
 
-1. 인터페이스 왼쪽 상단 모서리에서 Adobe Campaign 로고를 클릭한 다음 을 선택합니다 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
+1. 인터페이스 왼쪽 상단 모서리에서 Adobe Campaign 로고를 클릭한 다음 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**&#x200B;을(를) 선택합니다.
 
    ![](assets/fatigue4.png)
 

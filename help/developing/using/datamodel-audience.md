@@ -87,7 +87,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>생성됨</td>
-                  <td>생성됨</td>
+                  <td>생성일</td>
                   <td>일자 </td>
                   <td> </td>
                </tr>
@@ -159,7 +159,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>마지막 수정일</td>
-                  <td>마지막 수정</td>
+                  <td>마지막 수정일</td>
                   <td>일자 </td>
                   <td> </td>
                </tr>
@@ -232,7 +232,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>워크플로(워크플로)</td>
-                  <td>워크플로우</td>
+                  <td>워크플로</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>

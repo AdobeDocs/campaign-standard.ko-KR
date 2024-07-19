@@ -12,7 +12,7 @@ exl-id: fd03c6b8-34ed-4b7e-9980-3fc06a2ed726
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 3%
+ht-degree: 13%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 3%
 * A/B 테스트 이메일: 최대 3개 버전의 이메일을 테스트합니다.
 * 트랜잭션 이메일: 고객의 비헤이비어에 따라 트리거되는 단일 이메일.
 
-이메일을 만들고 보낼 때의 모범 사례에 대해 알아보려면 [게재 모범 사례](../../sending/using/delivery-best-practices.md) 섹션.
+전자 메일을 만들고 보내는 모범 사례에 대해 알아보려면 [게재 모범 사례](../../sending/using/delivery-best-practices.md) 섹션을 참조하세요.

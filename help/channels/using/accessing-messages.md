@@ -30,17 +30,17 @@ ht-degree: 1%
 
 캠페인의 마케팅 활동 목록에 액세스하려면:
 
-1. 다음으로 이동 **[!UICONTROL Marketing activities]** 을 클릭합니다.
+1. 위쪽 탐색 모음에서 **[!UICONTROL Marketing activities]**(으)로 이동합니다.
 1. **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**&#x200B;을(를) 선택합니다.
 
-   다음을 직접 클릭할 수도 있습니다. **[!UICONTROL Programs & Campaigns]** 홈페이지의 카드입니다. 캠페인에 대한 자세한 내용은 [프로그램 및 캠페인](../../start/using/programs-and-campaigns.md) 섹션.
+   홈 페이지에서 **[!UICONTROL Programs & Campaigns]** 카드를 직접 클릭할 수도 있습니다. 캠페인에 대한 자세한 내용은 [프로그램 및 캠페인](../../start/using/programs-and-campaigns.md) 섹션을 참조하세요.
 
 1. 프로그램, 캠페인을 차례로 선택합니다.
 
    ![](assets/delivery_list_1.png)
 
-1. 다음을 클릭합니다. **[!UICONTROL Summary]** 드롭다운 목록입니다.
-1. 클릭 **[!UICONTROL Search]** 메시지 표시 방식을 필터링합니다(이름, 날짜 또는 상태별로).
+1. **[!UICONTROL Summary]** 드롭다운 목록을 클릭합니다.
+1. **[!UICONTROL Search]**&#x200B;을(를) 클릭하여 이름, 날짜 또는 상태별로 메시지가 표시되는 방식을 필터링합니다.
 
    반복 메시지를 필터링하려면 해당 상자를 선택할 수 있습니다.
 
@@ -48,11 +48,11 @@ ht-degree: 1%
 
 결합된 모든 캠페인에서 마케팅 활동의 전체 목록에 액세스하려면 다음 작업을 수행하십시오.
 
-1. 선택 **[!UICONTROL Marketing activities]** 위쪽 탐색 모음에서 를 클릭합니다.
+1. 위쪽 탐색 모음에서 **[!UICONTROL Marketing activities]**&#x200B;을(를) 선택합니다.
 
-   다음에서 액세스할 수도 있습니다 **[!UICONTROL Marketing activities]** 홈페이지의 카드입니다. 마케팅 활동 목록에 대한 자세한 내용은 [마케팅 활동 관리](../../start/using/marketing-activities.md#creating-a-marketing-activity) 섹션.
+   홈 페이지의 **[!UICONTROL Marketing activities]** 카드에서 액세스할 수도 있습니다. 마케팅 활동 목록에 대한 자세한 내용은 [마케팅 활동 관리](../../start/using/marketing-activities.md#creating-a-marketing-activity) 섹션을 참조하십시오.
 
-1. 마케팅 활동을 이름, 날짜, 상태 또는 활동 유형별로 필터링하려면 다음을 사용하십시오. **[!UICONTROL Search]** 마케팅 활동 목록 왼쪽에 있는 필드입니다.
+1. 마케팅 활동을 이름, 날짜, 상태 또는 활동 유형별로 필터링하려면 마케팅 활동 목록 왼쪽의 **[!UICONTROL Search]** 필드를 사용하십시오.
 
 ![](assets/delivery_list_2.png)
 
@@ -60,10 +60,10 @@ ht-degree: 1%
 
 메시지 상태는 목록에서 특정 색상으로 표시됩니다. 가능한 상태는 다음과 같습니다.
 
-* **[!UICONTROL Editing]** (회색): 메시지를 편집 중입니다.
-* **[!UICONTROL In progress]** (파란색): 메시지를 보내는 중입니다.
-* **[!UICONTROL Finished]** (녹색): 오류 없이 전송이 완료되었습니다.
-* **[!UICONTROL Erroneous]** (빨간색): 메시지를 준비하거나 보내는 동안 전송이 취소되었거나 오류가 발생했습니다.
+* **[!UICONTROL Editing]**(회색): 메시지를 편집하는 중입니다.
+* **[!UICONTROL In progress]**(파란색): 메시지를 보내는 중입니다.
+* **[!UICONTROL Finished]**(녹색): 오류 없이 전송이 완료되었습니다.
+* **[!UICONTROL Erroneous]**(빨간색): 메시지를 준비하거나 보내는 동안 전송이 취소되었거나 오류가 발생했습니다.
 
   >[!NOTE]
   >

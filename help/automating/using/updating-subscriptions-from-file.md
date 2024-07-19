@@ -24,7 +24,7 @@ ht-degree: 77%
 
 ![](assets/subscription_activity_example1.png)
 
-* A [파일 로드](../../automating/using/load-file.md) 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다.
+* [파일 로드](../../automating/using/load-file.md) 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다.
 
   이 예제에서 로드된 파일은 .csv 형식으로 되어 있으며 다음 데이터를 포함합니다.
 
@@ -49,7 +49,7 @@ ht-degree: 77%
 
   파일이 이미 &quot;0&quot; 및 &quot;1&quot;을 사용하여 작업을 식별하는 경우 해당 값을 다시 매핑할 필요가 없습니다. **[!UICONTROL Column definition]** 탭에서 열이 **부울** 또는 **정수**&#x200B;로 처리되었는지 확인하기만 하면 됩니다.
 
-* A [조정](../../automating/using/reconciliation.md) 활동은 파일의 데이터를 Adobe Campaign 데이터베이스의 프로필 차원에 속하는 것으로 식별합니다. **[!UICONTROL Identification]** 탭을 통해 파일의 **이메일** 필드가 프로필 리소스의 **이메일** 필드와 일치됩니다.
+* [조정](../../automating/using/reconciliation.md) 활동은 파일의 데이터를 Adobe Campaign 데이터베이스의 프로필 차원에 속하는 것으로 식별합니다. **[!UICONTROL Identification]** 탭을 통해 파일의 **이메일** 필드가 프로필 리소스의 **이메일** 필드와 일치됩니다.
 
   ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +57,11 @@ ht-degree: 77%
 
   ![](assets/subscription_example_service_relation.png)
 
-* A [중복 제거](../../automating/using/deduplication.md) 를 기반으로 함 **이메일** 임시 리소스의 필드(조정 결과)는 중복을 식별합니다. 중복되는 경우 모든 데이터에 대한 서비스 구독이 실패하므로 중복을 제거하는 것이 중요합니다.
+* 임시 리소스의 **전자 메일** 필드(조정 결과)를 기반으로 한 [중복 제거](../../automating/using/deduplication.md)는 중복을 식별합니다. 중복되는 경우 모든 데이터에 대한 서비스 구독이 실패하므로 중복을 제거하는 것이 중요합니다.
 
   ![](assets/subscription_activity_example5.png)
 
-* A [구독 서비스](../../automating/using/subscription-services.md) 활동은에서 만든 링크를 통해 업데이트할 서비스를 전환에서 나온 것으로 식별합니다. **[!UICONTROL Reconciliation]** 활동.
+* [구독 서비스](../../automating/using/subscription-services.md) 활동은 **[!UICONTROL Reconciliation]** 활동에서 만든 링크를 통해 업데이트할 서비스를 전환에서 나온 것으로 식별합니다.
 
   **[!UICONTROL Operation type]**&#x200B;은(는) 파일의 **작업** 필드에서 나온 것으로 식별됩니다. 여기에서는 부울 또는 정수 필드만 선택할 수 있습니다. 수행할 작업이 포함된 파일의 열이 목록에 표시되지 않는 경우 이 예제의 앞부분에서 설명한 대로 **[!UICONTROL Load file]** 활동에서 열 형식을 올바르게 설정했는지 확인하십시오.
 

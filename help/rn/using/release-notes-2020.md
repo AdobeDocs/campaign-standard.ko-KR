@@ -236,7 +236,7 @@ ht-degree: 97%
 **추가 기능** (7월 13일부터 시작)
 
 * **AI 기반의 전송 시간 최적화 및 프로필 점수 책정** - 이제 고객 여정의 디자인과 게재를 최적화하여 각 개인의 참여 선호도를 예측할 수 있습니다. Journey AI를 기반으로 하는 Adobe Campaign은 참여 지표 기록을 기반으로 공개 비율, 최적의 전송 시간, 가능한 이탈률을 분석하고 예측합니다. [자세히 알아보기](../../sending/using/predictive.md)
-* **브라질의 새로운 개인 정보 보호 규정** - Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 쉽게 대처할 수 있도록 Adobe을 지원합니다. 개인 정보 보호 요청을 만들 때 Adobe 개인 정보 보호 핵심 서비스에 LGPD 규정이 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)
+* Adobe **브라질의 새로운 개인 정보 보호 규정** - Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 쉽게 대처할 수 있도록 도와줍니다. 개인 정보 보호 요청을 만들 때 Adobe 개인 정보 보호 핵심 서비스에 LGPD 규정이 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)
 
 **향상된 기능**
 
@@ -267,7 +267,7 @@ ht-degree: 97%
 
 **Experience Platform 통합**
 
-* 에서 Adobe Experience Platform 대상 활성화 **대상자 읽기** 더 나은 성능과 안정성을 제공하기 위해 활동이 개선되었습니다. 또한 워크플로우 로그가 활성화 작업에 대해 더욱 명확하고 자세해졌으므로 Adobe Experience Platform 대상자를 읽어올 때 보다 손쉽게 모니터링하고 문제를 해결할 수 있습니다.
+* **대상자 읽기** 활동에서 Adobe Experience Platform 대상자 활성화를 개선하여 더 나은 성능과 안정성을 제공합니다. 또한 워크플로우 로그가 활성화 작업에 대해 더욱 명확하고 자세해졌으므로 Adobe Experience Platform 대상자를 읽어올 때 보다 손쉽게 모니터링하고 문제를 해결할 수 있습니다.
 
 **패치**
 

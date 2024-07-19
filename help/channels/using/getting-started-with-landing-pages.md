@@ -120,7 +120,7 @@ ht-degree: 93%
 
 랜딩 페이지를 테스트하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)을 참조하십시오.
 
-## 5단계 - 랜딩 페이지 게시 {#publish-the-landing-page}
+## 5단계 - 랜딩 페이지 Publish {#publish-the-landing-page}
 
 테스트가 성공하면 대시보드의 작업 표시줄에 있는 **[!UICONTROL Publish]** 버튼을 사용하여 랜딩 페이지를 게시할 수 있습니다. 모니터링 블록에 게시의 진행 상황과 상태가 표시됩니다.
 
@@ -138,4 +138,4 @@ ht-degree: 93%
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-추가 Campaign Standard 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko).
+추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

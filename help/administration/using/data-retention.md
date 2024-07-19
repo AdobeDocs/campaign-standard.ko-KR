@@ -40,20 +40,20 @@ Adobe 컨설턴트 또는 기술 관리자에게 문의하여 환경에 적용�
 
 기본적으로 게재의 보존 기간은 무제한입니다.
 
-하지만 인스턴스에 게재 양이 많은 경우 **NmsCleanup_DeliveryPurgeDelay** 옵션에서 사용 가능 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** 메뉴 아래의 제품에서 사용할 수 있습니다.
+그러나 인스턴스에 게재 양이 많은 경우 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** 메뉴에서 사용할 수 있는 **NmsCleanup_DeliveryPurgeDelay** 옵션을 업데이트할 수 있습니다.
 
-매번 **[!UICONTROL Database cleanup]** 워크플로우가 실행되면 이 옵션에 대해 설정된 조건을 충족하는 게재가 삭제됩니다.
+**[!UICONTROL Database cleanup]** 워크플로우를 실행할 때마다 이 옵션에 대해 설정된 조건을 충족하는 게재가 삭제됩니다.
 
-이 작업은 다음과 같은 프로세스 속도를 높이는 데 도움이 될 수 있습니다. **[!UICONTROL Copy headers from delivery templates]** 워크플로입니다.
+이 작업은 **[!UICONTROL Copy headers from delivery templates]** 워크플로와 같은 프로세스 속도를 높이는 데 도움이 될 수 있습니다.
 
 >[!NOTE]
 >
->의 기술 워크플로우에 대해 자세히 알아보기 [이 섹션](technical-workflows.md).
+>기술 워크플로우에 대한 자세한 내용은 [이 섹션](technical-workflows.md)을 참조하세요.
 
 
-의 기본값 **NmsCleanup_DeliveryPurgeDelay** 옵션은 다음과 같습니다. `-1`. 이 경우 게재가 삭제되지 않습니다.
+**NmsCleanup_DeliveryPurgeDelay** 옵션의 기본값은 `-1`입니다. 이 경우 게재가 삭제되지 않습니다.
 
-예를 들어 를 로 설정하면 `180`, 지난 180일 동안 업데이트되지 않은 모든 비템플릿 게재는 **[!UICONTROL Database cleanup]** 워크플로우가 실행됩니다.
+예를 들어 `180`(으)로 설정하면 **[!UICONTROL Database cleanup]** 워크플로우를 실행할 때 지난 180일 동안 업데이트되지 않은 모든 비템플릿 게재가 삭제됩니다.
 
 >[!NOTE]
 >
@@ -61,5 +61,5 @@ Adobe 컨설턴트 또는 기술 관리자에게 문의하여 환경에 적용�
 >
 >* 반복 게재의 경우 합산 기간이 월 또는 년으로 설정된 하위 게재는 삭제되지 않습니다.
 
-업데이트 시 **NmsCleanup_DeliveryPurgeDelay** 옵션을 선택하면 점진적으로 여러 번 반복하는 것이 좋습니다. 예를 들어 값을 300일, 180일, 120일 등으로 설정하여 반복이 최소 2일 간격으로 유지되도록 할 수 있습니다. 그렇지 않으면 **[!UICONTROL Database cleanup]** 삭제할 게재 수가 많기 때문에 워크플로우가 훨씬 오래 걸릴 수 있습니다.
+**NmsCleanup_DeliveryPurgeDelay** 옵션을 업데이트할 때 여러 번 반복하는 것이 좋습니다. 예를 들어 값을 300일, 180일, 120일 등으로 설정하여 반복이 최소 2일 간격으로 유지되도록 할 수 있습니다. 그렇지 않으면 삭제할 게재가 많기 때문에 **[!UICONTROL Database cleanup]** 워크플로가 훨씬 오래 걸릴 수 있습니다.
 

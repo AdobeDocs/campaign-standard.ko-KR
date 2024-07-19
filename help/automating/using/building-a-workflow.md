@@ -40,7 +40,7 @@ ht-degree: 90%
 
 프로그램, 캠페인 또는 마케팅 활동 목록에서 워크플로우를 만들 수 있습니다.
 
-![](assets/do-not-localize/how-to-video.png) [비디오에서 워크플로우를 구축하는 방법 살펴보기](#video)
+![](assets/do-not-localize/how-to-video.png) [비디오에서 워크플로우를 빌드하는 방법을 알아봅니다](#video)
 
 마케팅 활동 만들기는 [마케팅 활동 만들기](../../start/using/marketing-activities.md#creating-a-marketing-activity) 섹션에 자세히 설명되어 있습니다.
 
@@ -68,11 +68,11 @@ ht-degree: 90%
 
 1. 활동 만들기를 확인하면 해당 활동에 대한 대시보드가 표시됩니다. 자세한 내용은 [워크플로우 인터페이스](../../automating/using/workflow-interface.md) 섹션을 참조하십시오.
 
-1. 워크플로우를 구성할 준비가 되면 다음을 클릭하여 추가 옵션에 액세스할 수 있습니다. **[!UICONTROL Edit properties]** 단추를 클릭합니다.
+1. 워크플로우를 구성할 준비가 되면 **[!UICONTROL Edit properties]** 단추를 클릭하여 추가 옵션에 액세스할 수 있습니다.
 
    예를 들어 모든 워크플로우의 활동에서 기본적으로 사용할 특정 시간대를 정의할 수 있습니다. 기본적으로 워크플로우의 시간대는 현재 캠페인 연산자에 대해 정의된 시간대입니다.
 
-   워크플로우 속성에 대한 자세한 내용은 다음을 참조하십시오. [이 페이지](../../automating/using/managing-execution-options.md).
+   워크플로우 속성에 대한 자세한 정보는 [이 페이지](../../automating/using/managing-execution-options.md)를 참조하세요.
 
    ![](assets/workflow_properties.png)
 
@@ -137,4 +137,4 @@ ht-degree: 90%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-추가 Campaign Standard 방법 비디오를 사용할 수 있습니다 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko).
+추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 100%
+source-wordcount: '1526'
+ht-degree: 98%
 
 ---
 
@@ -95,7 +95,7 @@ Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들�
 
 >[!IMPORTANT]
 >
->사용자 정의 네임스페이스 유형을 사용하여 요청을 제출하려면 [JSON 메서드](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ko#access-delete){target="_blank"}를 활용하여 요청을 만듭니다.
+>사용자 지정 네임스페이스 유형을 사용하여 요청을 제출하려면 [JSON 메서드](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#json){target="_blank"}를 활용하고 요청에 namespaceId를 추가하거나 [API 호출](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ko#access-delete){target="_blank"}을(를) 사용하여 요청하십시오.
 >
 >표준 네임스페이스 유형을 사용하여 요청을 제출할 때는 [개인 정보 사용자 인터페이스](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ko#request-builder){target="_blank"}만 사용할 수 있습니다.
 

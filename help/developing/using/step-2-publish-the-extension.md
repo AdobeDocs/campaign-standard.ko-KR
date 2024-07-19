@@ -1,5 +1,5 @@
 ---
-title: "2단계: 확장 게시"
+title: "2단계: 확장 Publish"
 description: Campaign Standard에서 확장을 게시하는 방법을 알아봅니다. 시리즈 2부.
 audience: developing
 content-type: reference
@@ -19,7 +19,7 @@ ht-degree: 20%
 
 1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Administration]** > **[!UICONTROL Development]** 다음 **[!UICONTROL Publication]**&#x200B;을 선택합니다.
 1. **[!UICONTROL Prepare Publication]** 버튼을 클릭합니다.
-1. 다음 항목 선택 **[!UICONTROL Create the Profiles & Services Ext API]** 옵션을 선택합니다.
+1. **[!UICONTROL Create the Profiles & Services Ext API]** 옵션을 선택하십시오.
 
    ![](assets/create-profile-and-services-api.png)
 
@@ -27,7 +27,7 @@ ht-degree: 20%
    >
    >API가 이미 게시되어 있는 경우(이 리소스 또는 다른 리소스에 대해 이 옵션을 이미 한 번 선택한 경우) API 업데이트가 강제로 수행됩니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Profiles & Services API Preview]** 탭.
+1. **[!UICONTROL Profiles & Services API Preview]** 탭을 클릭합니다.
 
    API 게시가 profilesAndServicesExt API의 현재 버전에 적용되는 변경 사항을 보여 줍니다.
 

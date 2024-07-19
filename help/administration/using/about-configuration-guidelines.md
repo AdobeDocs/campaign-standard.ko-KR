@@ -25,10 +25,10 @@ Adobe Campaign Standard은 태블릿에서 가로 모드를 표시 모드로만 
 
 **컴퓨터:**
 
-* Chrome(최신 버전)
+* Chrome (최신 버전)
 * Firefox(최신 버전)
 * Safari(최신 버전)
-* Microsoft Edge(최신 버전)
+* Microsoft Edge (최신 버전)
 
 **태블릿:**
 
@@ -41,7 +41,7 @@ Adobe Campaign Standard은 태블릿에서 가로 모드를 표시 모드로만 
 
 | 컨텍스트 | URL |
 |--- |--- |
-| Campaign 인스턴스 | `https://*.experiencecloud.adobe.com` (테넌트 ID * + 클라이언트 도메인)<br>`https://*.campaign.adobe.com` (Campaign 인스턴스 테넌트) |
+| Campaign 인스턴스 | `https://*.experiencecloud.adobe.com`(테넌트 ID * + 클라이언트 도메인)<br>`https://*.campaign.adobe.com`(Campaign 인스턴스 테넌트) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience cloud | `https://experiencecloud.adobe.com` |
 | 추적 | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |

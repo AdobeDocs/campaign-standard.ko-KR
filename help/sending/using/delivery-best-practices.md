@@ -34,11 +34,11 @@ ht-degree: 7%
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[적합한 대상 정의](define-the-right-audience.md)** - 올바른 설정 적용
+**[올바른 대상 정의](define-the-right-audience.md)** - 올바른 설정 적용
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[보내기 전 확인](check-before-sending.md)** - 일반적인 실수 방지
+**[보내기 전에 확인](check-before-sending.md)** - 일반적인 실수 방지
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 

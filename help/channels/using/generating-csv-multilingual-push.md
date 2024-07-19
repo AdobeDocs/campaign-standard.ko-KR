@@ -38,37 +38,37 @@ CSV 파일을 업로드하여 전달할 컨텐츠를 생성하는 것은 다국�
 1. 언어
 1. silent푸시
 
-다음을 클릭하여 CSV 샘플을 확인합니다. **[!UICONTROL Download a sample file]** 다음에서 **[!UICONTROL Manage Content Variants]** 창. 자세한 정보는 다음을 참조하십시오. [섹션](../../channels/using/creating-a-multilingual-push-notification.md).
+**[!UICONTROL Manage Content Variants]** 창에서 **[!UICONTROL Download a sample file]**&#x200B;을(를) 클릭하여 CSV 샘플을 확인합니다. 자세한 정보는 이 [섹션](../../channels/using/creating-a-multilingual-push-notification.md)을 참조하세요.
 
-* **제목, messageBody, 사운드, 배지, deeplinkURI, 카테고리, iosMediaAttachmentURL, androidMediaAttachmentURL**: 일반 푸시 페이로드 콘텐츠 푸시 게재를 만들 때와 유사한 방식으로 이 정보를 제공해야 합니다.
-* **사용자 정의 필드**: 사용자 정의 필드에 JSON 형식을 사용합니다(예: ). `{"key1":"value1","key2":"value2"}`. 사용자 정의 필드의 예는 위의 샘플 파일을 참조하십시오.
-* **isContentAvailable**: 컨텐츠 이용 가능 검사에 대한 플래그입니다. 값 1은 true를, 값 0은 false를 의미합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
-* **isMutableContent**: 가변 컨텐츠 플래그, 값 1은 true, 값 0은 false를 나타냅니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
-* **로케일**: locale은 언어 변형에 대한 필드입니다(예: 미국 영어의 경우 &quot;en_us&quot;, 프랑스 프랑스어의 경우 &quot;fr_fr&quot;).
-* **언어**: 로케일과 연결된 언어의 이름입니다. 예를 들어 locale이 &quot;en_us&quot;이면 언어 이름은 &quot;English-United States&quot;여야 합니다.
-* **silent푸시**: 푸시 알림 유형에 대한 플래그. 일반 푸시 알림인 경우 값은 0이어야 합니다. 자동 푸시인 경우 값은 1이어야 합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
+* **제목, messageBody, 사운드, 배지, deeplinkURI, 범주, iosMediaAttachmentURL, androidMediaAttachmentURL**: 일반 푸시 페이로드 콘텐츠. 푸시 게재를 만들 때와 유사한 방식으로 이 정보를 제공해야 합니다.
+* **사용자 지정 필드**: 사용자 지정 필드에 JSON 형식을 사용합니다(예: `{"key1":"value1","key2":"value2"}`). 사용자 정의 필드의 예는 위의 샘플 파일을 참조하십시오.
+* **isContentAvailable**: 콘텐츠 사용 가능 검사에 대한 플래그입니다. 값 1은 true를, 값 0은 false를 나타냅니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
+* **isMutableContent**: 변경 가능한 콘텐츠에 대한 플래그입니다. 값 1은 true를, 값 0은 false를 나타냅니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
+* **locale**: locale은 언어 변형의 필드입니다(예: 미국 영어의 경우 &quot;en_us&quot;, 프랑스 프랑스어의 경우 &quot;fr_fr&quot;).
+* **language**: 로케일과 연결된 언어의 이름입니다. 예를 들어 locale이 &quot;en_us&quot;이면 언어 이름은 &quot;English-United States&quot;여야 합니다.
+* **silentPush**: 푸시 알림 유형에 대한 플래그입니다. 일반 푸시 알림인 경우 값은 0이어야 합니다. 자동 푸시인 경우 값은 1이어야 합니다. 기본값은 0입니다. 이 열을 비워 두면 값이 0으로 간주됩니다.
 
 ## csv 파일 생성을 위한 제한 및 지침 {#constraints-guideline-csv}
 
-**각 열의 이름이 수정됨**.
+**각 열의 이름이 수정되었습니다**.
 CSV 파일에 각 열의 이름을 포함해야 합니다. 콘텐츠에 열을 사용하지 않는 경우 비워 두십시오.
 
-**&quot;locale&quot; 및 &quot;language&quot; 열은 필수이며 값은 각 행에 대해 고유합니다.**
+**&quot;locale&quot; 및 &quot;language&quot; 열은 필수이며 각 행에 값이 고유합니다.**
 이 열의 값이 비어 있으면 파일 업로드가 실패합니다.
 
-**열 순서는 중요합니다**. 업로드된 파일의 열 순서는 샘플 파일과 동일한 형식을 따라야 합니다.
+**열 순서**&#x200B;가 중요합니다. 업로드된 파일의 열 순서는 샘플 파일과 동일한 형식을 따라야 합니다.
 
-**견적 열 컨텐츠**. 이 파일은 CSV(쉼표로 구분된 값을 나타냄) 파일이므로 쉼표(,)를 포함하는 모든 열 컨텐츠를 따옴표로 묶어야 합니다. 예를 들어 &quot;Hello, Tom!&quot;
+**열 내용 인용**. 이 파일은 CSV(쉼표로 구분된 값을 나타냄) 파일이므로 쉼표(,)를 포함하는 모든 열 컨텐츠를 따옴표로 묶어야 합니다. 예를 들어 &quot;Hello, Tom!&quot;
 
-**국제 문자에는 UTF-8 인코딩이 필요합니다.**
+국제 문자에는 **UTF-8 인코딩이 필요합니다.**
 
-**일반 텍스트로 파일을 생성하는 경우 &quot;,&quot;로 각 열을 구분합니다.**
+**일반 텍스트로 파일을 생성하는 경우 &quot;,&quot;로 각 열을 구분하십시오.**
 
-**변형 불일치.** 특정 언어로 콘텐츠 블록을 사용하고 대상을 타깃팅하는 경우 CSV 파일에 모든 타깃팅된 언어를 나열해야 합니다. 그렇지 않으면 게재를 보낼 때 오류가 발생합니다.
+**변형이 일치하지 않습니다.** 특정 언어로 콘텐츠 블록을 사용하고 대상자를 타깃팅하는 경우 CSV 파일에 모든 타깃팅된 언어를 나열해야 합니다. 그렇지 않으면 게재를 보낼 때 오류가 발생합니다.
 
 ## csv 파일의 개인화 필드 삽입 {#personalization-field-csv}
 
-개인화 필드를 사용하려면 다음을 포함해야 합니다. <span> 태그에 가깝게 포함했습니다.
+개인화 필드를 사용하려면 파일에 <span> 태그를 포함해야 합니다.
 
 messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시지는 다음과 같아야 합니다.
 
@@ -86,7 +86,7 @@ messageBody에 &quot;firstName&quot; 개인화 필드를 삽입하려면 메시�
 
 * 하나는 정적인 클래스입니다. 사용하려는 개인화 필드에 상관없이 항상 class=&quot;nl-dce-field nl-dce-done&quot;입니다.
 
-* 또 다른 하나는 개인화 필드의 경로인 data-nl-expr 입니다. 예를 들어 UI에서 &quot;firstName&quot; 개인화 필드를 삽입하는 경우 탐색 경로는 다음과 같습니다. **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (아래 이미지에 표시된 대로). 이 경우 경로는 다음과 같습니다
+* 또 다른 하나는 개인화 필드의 경로인 data-nl-expr 입니다. 예를 들어 UI에서 &quot;firstName&quot; 개인화 필드를 삽입하는 경우 탐색 경로는 **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]**&#x200B;입니다(아래 이미지에 표시됨). 이 경우 경로는 다음과 같습니다
 
   ```
   /context/profile/firstName. data-nl-expr="/context/profile/firstName".

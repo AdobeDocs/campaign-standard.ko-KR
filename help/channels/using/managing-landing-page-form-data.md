@@ -22,7 +22,7 @@ ht-degree: 12%
 
 이렇게 하려면 이러한 필드를 데이터베이스 필드에 매핑해야 합니다.
 
-다음을 통해 매핑을 정의하고 관리할 수 있습니다. **[!UICONTROL Form data]** 왼쪽 팔레트에 있는 섹션입니다.
+왼쪽 팔레트의 **[!UICONTROL Form data]** 섹션을 통해 매핑을 정의하고 관리할 수 있습니다.
 
 ![](assets/lp_form-data.png)
 
@@ -38,29 +38,29 @@ ht-degree: 12%
    >
    >기본 제공 랜딩 페이지의 기본 필드는 사전 구성되어 있습니다. 필요에 따라 수정할 수 있습니다.
 
-1. 액세스 **[!UICONTROL Form data]** 왼쪽 팔레트에 있는 섹션입니다.
+1. 왼쪽 팔레트의 **[!UICONTROL Form data]** 섹션에 액세스합니다.
 
-1. 필드 유형을 변경하려면 **[!UICONTROL HTML type of the field]** 드롭다운 목록입니다.
+1. 필드 유형을 변경하려면 **[!UICONTROL HTML type of the field]** 드롭다운 목록에서 값을 선택하십시오.
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >랜딩 페이지에서 확인란 유형을 사용하는 방법에 대한 자세한 내용은 [여러 서비스 구독 업데이트](#multiple-subscriptions) 및 [계약 확인란](#agreement-checkbox) 섹션.
+   >랜딩 페이지에서 확인란 유형을 사용하는 방법에 대한 자세한 내용은 [여러 서비스 구독 업데이트](#multiple-subscriptions) 및 [계약 확인란](#agreement-checkbox) 섹션을 참조하십시오.
 
-1. 에서 현재 선택한 데이터베이스 필드와 호환되지 않는 필드 유형을 선택한 경우 **[!UICONTROL Field]** 영역에 경고 메시지가 표시됩니다. 최적의 매핑을 위해 적절한 값을 선택합니다.
+1. 현재 **[!UICONTROL Field]** 영역에서 선택한 데이터베이스 필드와 호환되지 않는 필드 유형을 선택하면 경고 메시지가 표시됩니다. 최적의 매핑을 위해 적절한 값을 선택합니다.
 
    ![](assets/lp_field-type-warning.png)
 
-1. 사용 **[!UICONTROL Field]** 양식 필드에 연결할 데이터베이스 필드를 선택할 영역입니다.
+1. **[!UICONTROL Field]** 영역을 사용하여 양식 필드에 연결할 데이터베이스 필드를 선택합니다.
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >랜딩 페이지는 **[!UICONTROL Profiles]** 또는 **[!UICONTROL Service]** 리소스.
+   >랜딩 페이지는 **[!UICONTROL Profiles]** 또는 **[!UICONTROL Service]** 리소스로만 매핑할 수 있습니다.
 
-   이 예에서는 를 매핑합니다 **이름** 랜딩 페이지의 필드 **[!UICONTROL Last name]** 필드 **[!UICONTROL Profiles]** 리소스.
+   이 예제에서는 랜딩 페이지의 **이름** 필드를 **[!UICONTROL Profiles]** 리소스의 **[!UICONTROL Last name]** 필드에 매핑합니다.
 
    ![](assets/lp_database-field-example.png)
 
@@ -70,7 +70,7 @@ ht-degree: 12%
 
    필수 필드를 입력하지 않으면 사용자가 페이지를 제출할 때 오류 메시지가 표시됩니다.
 
-1. 클릭 **[!UICONTROL Confirm]** 변경 사항을 저장합니다.
+1. 변경 내용을 저장하려면 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
@@ -84,11 +84,11 @@ ht-degree: 12%
 
    ![](assets/lp_parameters_job.png)
 
-1. 다음 항목 선택 **[!UICONTROL Reconciliation key]**: 이 데이터베이스 필드는 방문자의 프로필이 이미 Adobe Campaign 데이터베이스에 있는지 여부를 확인하는 데 사용됩니다. 예를 들어 이메일, 이름, 성이 될 수 있습니다. 조정 키를 사용하면 다음 내용에 따라 프로필을 업데이트하거나 만들 수 있습니다. **[!UICONTROL Update strategy]** 아래에 정의된 매개 변수입니다.
+1. **[!UICONTROL Reconciliation key]**&#x200B;을(를) 선택합니다. 이 데이터베이스 필드는 방문자에게 이미 Adobe Campaign 데이터베이스에 알려진 프로필이 있는지 여부를 확인하는 데 사용됩니다. 예를 들어 이메일, 이름, 성이 될 수 있습니다. 조정 키를 사용하면 아래에 정의된 **[!UICONTROL Update strategy]** 매개 변수에 따라 프로필을 업데이트하거나 만들 수 있습니다.
 
 1. **[!UICONTROL Form parameter mapping]**&#x200B;을(를) 정의합니다. 이 섹션에서는 랜딩 페이지 필드 매개 변수와 조정 키에 사용되는 매개 변수를 매핑할 수 있습니다.
 
-1. 다음 항목 선택 **[!UICONTROL Update strategy]**: 조정 키가 기존 데이터베이스 프로필을 복구하는 경우, 양식에 입력한 데이터로 해당 프로필을 업데이트하거나 업데이트하지 못하도록 선택할 수 있습니다.
+1. **[!UICONTROL Update strategy]**&#x200B;을(를) 선택합니다. 조정 키를 통해 기존 데이터베이스 프로필을 복구하는 경우 양식에 입력한 데이터로 해당 프로필을 업데이트하거나 업데이트하지 못하도록 선택할 수 있습니다.
 
    ![](assets/lp_parameters_update-strategy.png)
 
@@ -100,11 +100,11 @@ ht-degree: 12%
 
 1. 랜딩 페이지를 디자인할 때:
 
-   * 블록을 선택하고 **[!UICONTROL Form data]** 섹션, 선택 **[!UICONTROL Checkbox]** 을(를) 필드 유형으로 사용하십시오.
+   * 블록을 선택하고 **[!UICONTROL Form data]** 섹션에서 필드 유형으로 **[!UICONTROL Checkbox]**&#x200B;을(를) 선택합니다.
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * HTML에 익숙한 경우 **[!UICONTROL Show source]** 단추를 클릭합니다.
+   * HTML에 익숙한 경우 **[!UICONTROL Show source]** 단추를 사용하여 확인란을 수동으로 삽입할 수도 있습니다.
 
      ![](assets/lp_show_source.png)
 
@@ -112,19 +112,19 @@ ht-degree: 12%
 
      ![](assets/lp_manual-checkbox.png)
 
-1. 콘텐츠에서 확인란이 선택되어 있는지 확인합니다. 다음 **[!UICONTROL Type]** 드롭다운 목록이에 표시됩니다. **[!UICONTROL Form data]** 왼쪽 팔레트의 섹션입니다. 선택 **[!UICONTROL Service and subscription]** 목록에서 삭제할 수 있습니다.
+1. 콘텐츠에서 확인란이 선택되어 있는지 확인합니다. **[!UICONTROL Type]** 드롭다운 목록이 왼쪽 팔레트의 **[!UICONTROL Form data]** 섹션에 표시됩니다. 목록에서 **[!UICONTROL Service and subscription]**&#x200B;을(를) 선택합니다.
 
    ![](assets/lp_service-and-subscription.png)
 
-1. 다음에서 옵션을 선택합니다. **[!UICONTROL Behavior]** 드롭다운 목록입니다.
+1. **[!UICONTROL Behavior]** 드롭다운 목록에서 옵션을 선택하십시오.
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. 선택 [서비스](../../audiences/using/creating-a-service.md) 을 클릭합니다.
+1. 해당 목록에서 [서비스](../../audiences/using/creating-a-service.md)를 선택하십시오.
 
    ![](assets/lp_checkbox-service.png)
 
-1. 다음을 확인합니다. **[!UICONTROL Mandatory]** 이 옵션은 선택 취소되어 있습니다. 그렇지 않으면 사용자는 선택할 수 없습니다.
+1. **[!UICONTROL Mandatory]** 옵션이 선택 취소되어 있는지 확인하십시오. 그렇지 않으면 사용자는 선택할 수 없습니다.
 
    ![](assets/lp_uncheck-mandatory.png)
 
@@ -148,11 +148,11 @@ ht-degree: 12%
 
 1. 랜딩 페이지를 디자인할 때:
 
-   * 블록을 선택하고 **[!UICONTROL Form data]** 섹션, 선택 **[!UICONTROL Checkbox]** 을(를) 필드 유형으로 사용하십시오.
+   * 블록을 선택하고 **[!UICONTROL Form data]** 섹션에서 필드 유형으로 **[!UICONTROL Checkbox]**&#x200B;을(를) 선택합니다.
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * HTML에 익숙한 경우 **[!UICONTROL Show source]** 단추를 클릭합니다.
+   * HTML에 익숙한 경우 **[!UICONTROL Show source]** 단추를 사용하여 확인란을 수동으로 삽입할 수도 있습니다.
 
      ![](assets/lp_show_source.png)
 
@@ -164,15 +164,15 @@ ht-degree: 12%
 
    ![](assets/lp_select_checkbox.png)
 
-1. 다음 **[!UICONTROL Type]** 드롭다운 목록이에 표시됩니다. **[!UICONTROL Form data]** 왼쪽 팔레트의 섹션입니다. 선택 **[!UICONTROL Agreement]** 목록에서 삭제할 수 있습니다.
+1. **[!UICONTROL Type]** 드롭다운 목록이 왼쪽 팔레트의 **[!UICONTROL Form data]** 섹션에 표시됩니다. 목록에서 **[!UICONTROL Agreement]**&#x200B;을(를) 선택합니다.
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >다음 **[!UICONTROL Agreement]** 요소가 Campaign 데이터베이스의 필드에 매핑되지 않았습니다.
+   >**[!UICONTROL Agreement]** 요소가 Campaign 데이터베이스의 필드에 매핑되지 않았습니다.
 
-1. 다음을 클릭합니다. ![](assets/lp-properties-icon.png) 아이콘 옆에 있음 **[!UICONTROL Form data]** 확인란의 고급 속성에 액세스합니다.
+1. 확인란 고급 속성에 액세스하려면 **[!UICONTROL Form data]** 옆에 있는 ![](assets/lp-properties-icon.png) 아이콘을 클릭합니다.
 
 1. 필요한 경우 메시지를 편집할 수 있습니다.
 

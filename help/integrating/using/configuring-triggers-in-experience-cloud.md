@@ -53,7 +53,7 @@ ht-degree: 6%
 >
 >하위 도메인 구성은 게재 가능성 키 요소입니다. Adobe Campaign 이메일이 웹 사이트에서 사용하는 도메인과 동일한 도메인에서 전송되었는지 확인합니다.
 
-다음을 구성해야 합니다. [DTM 핵심 서비스 Experience Cloud](#configuring-experience-cloud-dtm-core-service), [Experience Cloud 사용자 핵심 서비스](#configuring-experience-cloud-people-core-service) 및 [캠페인](#configuring-triggers-and-aliases-in-campaign) 을 클릭하여 이러한 사용 사례를 실행합니다.
+이러한 사용 사례를 실행하려면 [DTM 핵심 서비스 Experience Cloud](#configuring-experience-cloud-dtm-core-service), [사람 핵심 서비스 Experience Cloud](#configuring-experience-cloud-people-core-service) 및 [캠페인](#configuring-triggers-and-aliases-in-campaign)을 구성해야 합니다.
 
 ### Experience Cloud DTM 핵심 서비스 구성 {#configuring-experience-cloud-dtm-core-service}
 
@@ -77,17 +77,17 @@ ht-degree: 6%
 
 ### Campaign에서 트리거 및 별칭 구성 {#configuring-triggers-and-aliases-in-campaign}
 
-1. 다음을 수행했는지 확인하십시오. **[!UICONTROL Experience Cloud triggers]** Adobe Campaign Standard 인스턴스에 표시됩니다. 그렇지 않은 경우 Adobe Campaign 관리자에게 문의하십시오.
+1. Adobe Campaign Standard 인스턴스에 **[!UICONTROL Experience Cloud triggers]**&#x200B;이(가) 있는지 확인하십시오. 그렇지 않은 경우 Adobe Campaign 관리자에게 문의하십시오.
 
    ![](assets/remarketing_1.png)
 
-1. 별칭을 사용하면 Analytics의 연락처가 Campaign의 프로필과 조정될 수 있습니다. Experience Cloud ID 서비스에 정의된 별칭을 Campaign의 공유 데이터 소스와 일치시켜야 합니다. 데이터 소스( )를 통해 Adobe Campaign에서 별칭 확인을 구성해야 합니다. **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). 에서 올바른 데이터 소스를 선택했는지 확인합니다. **[!UICONTROL Data Source/Alias]** 드롭다운 메뉴 - 이전 단계에서 만든 것과 동일한 고객 속성 데이터 소스와 매핑됩니다.
+1. 별칭을 사용하면 Analytics의 연락처가 Campaign의 프로필과 조정될 수 있습니다. Experience Cloud ID 서비스에 정의된 별칭을 Campaign의 공유 데이터 Source과 일치시켜야 합니다. 데이터 원본( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )을 통해 Adobe Campaign에서 별칭 확인을 구성해야 합니다. **[!UICONTROL Data Source/Alias]** 드롭다운 메뉴에서 올바른 데이터 원본을 선택해야 합니다. 이 데이터 원본은 이전 단계에서 만든 것과 동일한 고객 특성 데이터 원본과 매핑됩니다.
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >익명 사용자와 로그인한 사용자 모두에 대해 트리거를 조정할 수 있습니다. 익명 사용자의 경우 프로필이 Adobe Campaign에 있어야 하며 이전에 사용자에게 이메일이 전송되었습니다. 이 경우 방문자 ID 구성이면 충분합니다. 그러나 로그인한 사용자에 대한 트리거를 조정하려면 선언된 ID 데이터 소스를 설정해야 합니다. 자세한 내용은 다음을 참조하십시오. [데이터 소스 구성](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >익명 사용자와 로그인한 사용자 모두에 대해 트리거를 조정할 수 있습니다. 익명 사용자의 경우 프로필이 Adobe Campaign에 있어야 하며 이전에 사용자에게 이메일이 전송되었습니다. 이 경우 방문자 ID 구성이면 충분합니다. 그러나 로그인한 사용자에 대한 트리거를 조정하려면 선언된 ID 데이터 Source을 설정해야 합니다. 자세한 내용은 [데이터 Source 구성](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)을 참조하세요.
 
 ## Experience Cloud 인터페이스에서 트리거 만들기 {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -95,7 +95,7 @@ Campaign에서 사용할 수 있도록 Adobe Experience Cloud 트리거를 만�
 
 Experience Cloud에서 새 트리거를 만들고 웹 사이트에서 사용되는 보고서 세트를 선택해야 합니다. 트리거가 실행될 수 있도록 올바른 차원을 선택해야 합니다.
 
-다음을 참조하십시오. [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
+[Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)를 참조하세요.
 
 ## 모범 사례 및 제한 사항 트리거 {#triggers-best-practices-and-limitations}
 

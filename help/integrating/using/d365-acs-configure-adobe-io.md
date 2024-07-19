@@ -27,7 +27,7 @@ Adobe Campaign Standard에서 &quot;프로필 확장&quot;을 활성화하십시
 
 1. 설정 -> 관리 -> 개발 -> 게시로 이동합니다.
 1. &quot;게시 준비&quot;를 클릭하여 게시를 준비합니다.
-1. 준비가 완료되면 &quot;프로필 및 서비스 외부 API 만들기&quot;를 확인하고 &quot;게시&quot;를 클릭합니다.
+1. 준비가 완료되면 &quot;프로필 및 서비스 확장 API 만들기&quot;를 확인하고 &quot;Publish&quot;를 클릭합니다.
 
 ## 구성 Adobe I/O {#adobe-io}
 
@@ -49,17 +49,17 @@ Adobe I/O을 사용하면 Adobe Campaign Standard 및 기타 Adobe 제품에 대
 
 이렇게 하려면 아래 절차를 따르십시오.
 
-1. 다음으로 이동 [Adobe Developer 콘솔](https://console.adobe.io/home#) 그리고 화면 오른쪽 상단의 드롭다운 메뉴에서 Adobe 조직 ID 를 선택합니다.
+1. [Adobe Developer Console](https://console.adobe.io/home#)(으)로 이동하여 화면 오른쪽 상단의 드롭다운 메뉴에서 Adobe 조직 ID를 선택합니다.
 
-1. 그런 다음 **[!UICONTROL Create new project]** 아래에 **[!UICONTROL Quick Start]**.
+1. **[!UICONTROL Quick Start]** 아래의 **[!UICONTROL Create new project]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/adobeIO1.png)
 
-1. 아래 **[!UICONTROL Get started with your new project]**, 클릭 **[!UICONTROL Add API]**.
+1. **[!UICONTROL Get started with your new project]**&#x200B;에서 **[!UICONTROL Add API]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/adobeIO2.png)
 
-1. Adobe Campaign을 선택하고 **[!UICONTROL Next]**.
+1. Adobe Campaign을 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/adobeIO3.png)
 
@@ -75,27 +75,27 @@ Adobe I/O을 사용하면 Adobe Campaign Standard 및 기타 Adobe 제품에 대
 
    ![](assets/adobeIO5.png)
 
-1. 다음 화면에서는 새 Adobe Developer 프로젝트에 대한 세부 사항이 표시됩니다. 클릭 **[!UICONTROL Add to Project]** 화면 왼쪽 상단에서 을 선택합니다. **API** 드롭다운에서.
+1. 다음 화면에서는 새 Adobe Developer 프로젝트에 대한 세부 사항이 표시됩니다. 화면 왼쪽 상단의 **[!UICONTROL Add to Project]**&#x200B;을(를) 클릭하고 드롭다운에서 **API**&#x200B;을(를) 선택합니다.
 
    ![](assets/adobeIO6.png)
 
-1. 다음 화면에서는 I/O 이벤트 API를 선택한 다음 를 클릭합니다. **[!UICONTROL Next]**.
+1. 다음 화면에서 I/O 이벤트 API를 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. 다음 화면에서 다음을 클릭합니다. **[!UICONTROL Save the configured API]**.  프로젝트 세부 정보 화면으로 돌아갑니다.
+1. 다음 화면에서 **[!UICONTROL Save the configured API]**&#x200B;을(를) 클릭합니다.  프로젝트 세부 정보 화면으로 돌아갑니다.
 
-1. 이제 클릭 **[!UICONTROL Add to Project]** 화면 왼쪽 상단에서 을 선택합니다. **API** 이전에 수행한 대로 드롭다운에서 을 수행합니다.
+1. 이제 화면의 왼쪽 상단에 있는 **[!UICONTROL Add to Project]**&#x200B;을(를) 클릭하고 이전과 같이 드롭다운에서 **API**&#x200B;을(를) 선택합니다.
 
-1. 다음 화면에서 I/O Management API를 선택하고 **[!UICONTROL Next]**.
+1. 다음 화면에서 I/O 관리 API를 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
-1. 다음 화면에서 다음을 클릭합니다. **[!UICONTROL Save the configured API]**.
+1. 다음 화면에서 **[!UICONTROL Save the configured API]**&#x200B;을(를) 클릭합니다.
 
 Campaign의 사전 통합 설정이 완료되었습니다.
 
 **관련 항목**
 
-* [Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성](../../integrating/using/d365-acs-configure-adobe-io.md) 통합 설정의 다음 단계입니다.
-* [통합 셀프 서비스 애플리케이션 개요](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) 통합을 시작하고 실행하는 전체 단계 목록이 포함되어 있습니다.
+* [Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성](../../integrating/using/d365-acs-configure-adobe-io.md)은 통합을 설정하는 다음 단계입니다
+* [통합 셀프 서비스 응용 프로그램 개요](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)에는 통합을 시작하고 실행하는 전체 단계 목록이 포함되어 있습니다.
 * [Adobe Developer - 서비스 계정 통합](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API 액세스 설정](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Dynamics 365 통합](../../integrating/using/d365-acs-configure-d365.md)
-* [JWT에서 OAuth 서버 간 자격 증명으로 마이그레이션](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) jwt에서 OAuth 서버 간 자격 증명으로 마이그레이션하는 단계를 포함합니다.
+* [JWT에서 OAuth Server-to-Server로 자격 증명 마이그레이션](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md)에는 JWT에서 OAuth Server-to-Server로 자격 증명을 마이그레이션하는 단계가 포함되어 있습니다.

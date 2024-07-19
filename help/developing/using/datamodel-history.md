@@ -111,7 +111,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>생성됨</td>
-                  <td>생성됨</td>
+                  <td>생성일</td>
                   <td>일자 </td>
                   <td> </td>
                </tr>
@@ -190,7 +190,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>마지막 수정일</td>
-                  <td>마지막 수정</td>
+                  <td>마지막 수정일</td>
                   <td>일자 </td>
                   <td> </td>
                </tr>

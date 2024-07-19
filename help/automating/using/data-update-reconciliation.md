@@ -22,7 +22,7 @@ ht-degree: 52%
 
 ![](assets/identification_example2.png)
 
-* A [파일 로드](../../automating/using/load-file.md) 활동은 가져올 파일의 데이터를 로드하여 검색합니다. 가져온 파일에는 다음 데이터가 포함됩니다.
+* 가져올 파일의 데이터를 로드하여 검색하는 [파일 로드](../../automating/using/load-file.md) 활동. 가져온 파일에는 다음 데이터가 포함됩니다.
 
   ```
   lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ ht-degree: 52%
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* A [조정](../../automating/using/reconciliation.md) 활동은 로드된 파일의 각 열을 프로필 차원 열에 연결합니다. 식별할 수 없는 파일 레코드(데이터 누락, 호환되지 않는 데이터 형식 등)는 최종 대상자 데이터의 무결성을 유지하기 위해 무시됩니다.
+* 로드된 파일의 각 열을 프로필 차원 열에 연결하는 [조정](../../automating/using/reconciliation.md) 활동. 식별할 수 없는 파일 레코드(데이터 누락, 호환되지 않는 데이터 형식 등)는 최종 대상자 데이터의 무결성을 유지하기 위해 무시됩니다.
 
   ![](assets/identification_example1.png)
 
-* A [대상자 저장](../../automating/using/save-audience.md) 활동: 대상자 프로필을 저장합니다.
+* 대상자 프로필을 저장하는 [대상자 저장](../../automating/using/save-audience.md) 활동.
 
   ![](assets/identification_example3.png)

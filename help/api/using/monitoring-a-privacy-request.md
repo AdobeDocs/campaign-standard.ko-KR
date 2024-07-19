@@ -17,9 +17,9 @@ ht-degree: 16%
 
 # 개인 정보 요청 모니터링 {#monitoring-a-privacy-request}
 
-다음을 사용하여 생성된 개인 정보 보호 요청에 대한 정보를 모니터링할 수 있습니다. **GET** 요청.
+**GET** 요청을 사용하여 만들어진 개인 정보 보호 요청에 대한 정보를 모니터링할 수 있습니다.
 
-상태 목록 설명은 [개인 정보 관리 설명서](../../start/using/privacy-requests.md).
+상태 목록 설명은 [개인 정보 관리 설명서](../../start/using/privacy-requests.md)에서 사용할 수 있습니다.
 
 <br/>
 

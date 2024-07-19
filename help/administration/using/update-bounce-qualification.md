@@ -17,16 +17,16 @@ ht-degree: 2%
 
 ISP가 중단되는 경우 Campaign을 통해 보낸 이메일이 수신자에게 정상적으로 전달될 수 없습니다. 이러한 이메일은 바운스로 잘못 표시됩니다.
 
-2020년 12월, Gmail의 글로벌 문제로 인해 유효한 Gmail 이메일 주소로 전송된 일부 이메일 메시지가 바운스 다음 응답을 사용하여 Gmail 서버에서 잘못된 이메일 주소로 잘못 하드 바운스되었습니다. *&quot;550-5.1.1 연결하려는 이메일 계정이 존재하지 않습니다.&quot;*
+2020년 12월, Gmail의 글로벌 문제로 인해 유효한 Gmail 전자 메일 주소로 전송된 일부 전자 메일 메시지가 바운스 다음 응답과 함께 Gmail 서버에서 잘못된 전자 메일 주소로 잘못 하드 바운스되었습니다. *&quot;550-5.1.1 연결하려고 시도한 전자 메일 계정이 존재하지 않습니다.&quot;*
 
 Google은 이 문제를 일으킨 Gmail 중단과 운영 중단이 12월 14일 오전 6시 55분에 시작되어 12월 15일 오후 6시 9분 EST에서 종료되었다고 밝혔습니다. 또한 데이터 분석에서는 12월 16일 오전 2시 6분 EST에서 Gmail 바운스의 매우 짧은 급증을 보여주었으며, 12월 15일 오후 2시~오후 6시 30분 EST 사이에 가장 많은 수가 발생했습니다.
 
 >[!NOTE]
 >
->에서 Google 작업 공간 상태 대시보드 를 확인할 수 있습니다. [이 페이지](https://www.google.com/appsstatus#hl=en&amp;v=status).
+>[이 페이지](https://www.google.com/appsstatus#hl=en&amp;v=status)에서 Google Workspace 상태 대시보드를 확인할 수 있습니다.
 
 
-표준 바운스 처리 논리에 따라 Adobe Campaign은 다음과 같이 격리 목록에 이러한 수신자를 자동으로 추가했습니다. **[!UICONTROL Status]** 설정 **[!UICONTROL Quarantine]**. 이 문제를 해결하려면 이러한 수신자를 찾아 제거하거나 수신자를 변경하여 Campaign에서 격리 테이블을 업데이트해야 합니다 **[!UICONTROL Status]** 끝 **[!UICONTROL Valid]** 따라서 야간 정리 워크플로우에서 제거됩니다.
+표준 바운스 처리 논리에 따라 Adobe Campaign은 **[!UICONTROL Status]** 설정이 **[!UICONTROL Quarantine]**&#x200B;인 격리 목록에 이 수신자를 자동으로 추가했습니다. 이 문제를 해결하려면 야간 정리 워크플로우에서 해당 수신자를 찾아 제거하거나 **[!UICONTROL Status]**&#x200B;을(를) **[!UICONTROL Valid]**(으)로 변경하여 Campaign에서 격리 테이블을 업데이트해야 합니다.
 
 이 Gmail 문제의 영향을 받은 수신자를 찾으려면 또는 다른 ISP에서 이 문제가 다시 발생하는 경우 아래 지침을 참조하십시오.
 
@@ -40,13 +40,13 @@ Google은 이 문제를 일으킨 Gmail 중단과 운영 중단이 12월 14일 �
 >
 >이 날짜/시간은 동부 표준 시간대(EST)를 기반으로 합니다. 인스턴스의 시간대를 조정하십시오.
 
-에 SMTP 바운스 응답 정보가 있는 캠페인 인스턴스 **[!UICONTROL Error text]** 격리 목록의 필드:
+격리 목록의 **[!UICONTROL Error text]** 필드에 SMTP 바운스 응답 정보가 있는 캠페인 인스턴스의 경우:
 
-* **오류 텍스트(격리 텍스트)** 은(는) &quot;550-5.1.1 연락하려는 이메일 계정이 존재하지 않습니다&quot;를 포함하며 **오류 텍스트(격리 텍스트)** &quot;support.google.com&quot; ** 포함
-* **업데이트 상태(@lastModified)** 2020/12/14 또는 이후 6:55:오전 00
-* **업데이트 상태(@lastModified)** 2020/12/16 또는 이전 6:00:오전 00
+* **오류 텍스트(격리 텍스트)**&#x200B;에 &quot;550-5.1.1 연결하려는 전자 메일 계정이 존재하지 않습니다&quot; 및 **오류 텍스트(격리 텍스트)**&#x200B;에 &quot;support.google.com&quot;이 **
+* **2020년 12월 14일 오전 6시:55:이후 상태(@lastModified)** 업데이트
+* **2020/12/16 오전 6시:00:이전 상태(@lastModified)** 업데이트
 
-영향을 받는 수신자 목록이 있으면 다음 상태로 설정할 수 있습니다. **[!UICONTROL Valid]** 따라서 다음을 통해 격리 목록에서 제거됩니다. **[!UICONTROL Database cleanup]** 워크플로우 또는 테이블에서 삭제하기만 하면 됩니다.
+영향을 받는 받는 받는 받는 받는 사람 목록을 가지고 있으면 **[!UICONTROL Database cleanup]** 워크플로에 의해 격리 목록에서 제거될 수 있도록 해당 받는 사람을 **[!UICONTROL Valid]** 상태로 설정하거나 표에서 삭제할 수 있습니다.
 
 **관련 항목:**
 * [게재 실패 이해](../../sending/using/understanding-delivery-failures.md)

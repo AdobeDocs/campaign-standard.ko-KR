@@ -26,9 +26,9 @@ ht-degree: 51%
 
 워크플로우는 다음 요소로 구성됩니다.
 
-* A [스케줄러 활동](../../automating/using/segmentation.md) 워크플로우의 실행 날짜를 지정합니다.
-* A [쿼리](../../automating/using/query.md) 활동은 생일 및 이메일 주소를 입력한 사람의 프로필을 타겟팅합니다.
-* A [세분화](../../automating/using/segmentation.md) 활동은 3개의 세그먼트(18~25세, 26~32세 및 32세가 넘는 프로필)를 만들어 다양한 아웃바운드 전환으로 나눕니다. 세그먼트는 다음 매개 변수에 따라 정의됩니다.
+* 워크플로우의 실행 날짜를 지정하는 [스케줄러 활동](../../automating/using/segmentation.md).
+* 생일 및 전자 메일 주소를 입력한 사람의 프로필을 대상으로 하는 [쿼리](../../automating/using/query.md) 활동입니다.
+* [세그먼테이션](../../automating/using/segmentation.md) 활동을 통해 18~25세, 26~32세 및 32세가 넘는 프로필의 세 개의 세그먼트를 만들어 다양한 아웃바운드 전환으로 나눕니다. 세그먼트는 다음 매개 변수에 따라 정의됩니다.
 
   ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ ht-degree: 51%
 
      ![](assets/wkf_segment_example_1.png)
 
-* An [이메일 게재](../../automating/using/email-delivery.md) 세그먼트당 활동.
+* 세그먼트당 [전자 메일 게재](../../automating/using/email-delivery.md) 활동.

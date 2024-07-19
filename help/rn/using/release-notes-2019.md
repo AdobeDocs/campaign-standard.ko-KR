@@ -22,7 +22,7 @@ ht-degree: 8%
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>CCPA(캘리포니아 소비자 개인 정보 보호법)</strong><br /> </th> 
+   <th> <strong>CCPA(California Consumer Privacy Act)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -32,7 +32,7 @@ ht-degree: 8%
    <ul>
     <li>액세스 권한 및 삭제 권한: GDPR에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#righttoaccess">자세히 알아보기</a> </li>
     <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 핵심 서비스에 규정 유형(GDPR 또는 CCPA)이 추가되었습니다. 이 방법은 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">사용이 중단되거나 제거된 기능 문서</a>를 참조하십시오.</p></li>
-    <li>A <strong>CCPA 옵트아웃</strong> 소비자가 개인 정보 판매를 옵트아웃했는지 여부를 Adobe Campaign 사용자가 추적할 수 있도록 프로필 리소스에 필드가 추가되었습니다. <a href="https://helpx.adobe.com/content/help/ko/campaign/kb/acs-privacy.html#ccpa">자세히 알아보기</a></li>
+    <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 Adobe Campaign 사용자가 추적할 수 있도록 <strong>CCPA 옵트아웃</strong> 필드가 Profiles 리소스에 추가되었습니다. <a href="https://helpx.adobe.com/content/help/ko/campaign/kb/acs-privacy.html#ccpa">자세히 알아보기</a>.</li>
   </ul>
     <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">방법 비디오</a>를 참조하십시오.</p>
 </td> 
@@ -43,14 +43,14 @@ ht-degree: 8%
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Microsoft Dynamics 365 통합(GA)</strong><br /> </th> 
+   <th> <strong>GA(Microsoft Dynamics 365 통합)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> 
     <p>이제 Adobe Campaign Standard과 Microsoft Dynamics 365 간의 통합을 사용할 수 있습니다. 연락처 및 사용자 지정 엔티티 레코드를 Dynamics 365에서 Campaign으로 전송하고 이메일 이벤트 데이터를 Campaign에서 Dynamics 365로 가져와 판매/마케팅 정렬을 향상시킬 수 있습니다.</p>
-    <p>다음을 참조하십시오. <a href="../../integrating/using/d365-acs-get-started.md">자세한 설명서</a> 을 클릭하여 이 통합을 설정합니다.</p>
+    <p>이 통합을 설정하려면 <a href="../../integrating/using/d365-acs-get-started.md">자세한 설명서</a>를 참조하세요.</p>
   </td>
   </tr> 
  </tbody> 
@@ -58,12 +58,12 @@ ht-degree: 8%
 
 **개선 사항**
 
-* 동적 보고에 대한 동의 팝업이 Adobe Campaign Standard 및 Microsoft Dynamics 365 통합을 포함하도록 업데이트되었습니다. 용어를 수락하면 Adobe Campaign Standard/Microsoft Dynamics 365 통합 및 동적 보고를 사용할 때 프로필 데이터가 포함됩니다. [자세히 보기](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* 동적 보고에 대한 동의 팝업이 Adobe Campaign Standard 및 Microsoft Dynamics 365 통합을 포함하도록 업데이트되었습니다. 용어를 수락하면 Adobe Campaign Standard/Microsoft Dynamics 365 통합 및 동적 보고를 사용할 때 프로필 데이터가 포함됩니다. [자세히 보기](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)(CAMP-29766)
 * 게재 알림을 받을 때 잘못된 연락 날짜가 표시되는 문제를 해결했습니다.
 * 트랜잭션 메시지 이벤트가 알 수 없는 컨텍스트 매개 변수와 함께 제출되면 Campaign은 이제 &quot;500&quot; 대신 &quot;400&quot; 오류 메시지를 반환합니다. (CAMP-28632)
-* 새 항목 **증명 제외** 세그먼트가 다이내믹 보고에 추가되었습니다. 이제 이 세그먼트는 보고서를 필터링하기 위해 기본적으로 선택됩니다. [자세히 보기](../../reporting/using/list-of-components.md#segments)
-* 다음 **메시지 만료** 푸시 알림에 옵션이 추가되었습니다. 이를 통해 Apple(APNS) 또는 Android(FCM)에서 더 이상 메시지를 보내지 않을 만료 날짜를 지정할 수 있습니다. [자세히 보기](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* 에 대한 개선이 이루어졌습니다. **파일 로드** 활동: 워크플로우 로그가 파일 로드가 실패할 때 발생하는 오류에 대해 더 명확하고 자세히 작성되었습니다. 를 활성화할 때 생성된 아웃바운드 전환 **파일에 거부 유지** 옵션 이름이 변경되었습니다. **거부**. [자세히 보기](../../automating/using/load-file.md)
+* 새 **증명 제외** 세그먼트가 동적 보고에 추가되었습니다. 이제 이 세그먼트는 보고서를 필터링하기 위해 기본적으로 선택됩니다. [자세히 보기](../../reporting/using/list-of-components.md#segments)
+* 푸시 알림에 **메시지 만료** 옵션이 추가되었습니다. APNS(Apple) 또는 FCM(Android)에서 더 이상 메시지를 보내지 않을 만료 날짜를 지정할 수 있습니다. [자세히 보기](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* **파일 로드** 활동이 개선되었습니다. 워크플로 로그가 파일 로드가 실패할 때 발생하는 오류에 대해 더 명확하고 자세히 설명되었습니다. **파일에 거부 유지** 옵션을 활성화할 때 생성된 아웃바운드 전환의 이름이 **거부**(으)로 변경되었습니다. [자세히 보기](../../automating/using/load-file.md)
 * 업로드된 CSV 파일에서 언어가 누락되어 발생하는 전송 실패를 더 잘 이해하기 위해 다국어 관련 로그가 전송 로그에 추가되었습니다.
 
 **향상된 보안 기능**
@@ -76,19 +76,19 @@ ht-degree: 8%
 
 * 이메일에 삽입 시 구독 취소, 구독 및 랜딩 페이지 링크가 추적되지 않는 문제를 수정했습니다. (CAMP-37809)
 * 새 이메일을 만들고 템플릿을 선택할 때 오류가 발생할 수 있는 문제를 수정했습니다. (CAMP-38000)
-* 이제 이메일 디자이너를 사용하여 링크를 편집할 때 **링크 밑줄** 옵션을 선택합니다. 또한 **Target** 기본값이 로 설정된 속성이 추가되었습니다. **없음**. [자세히 보기](../../designing/using/styles.md#about-styling-links)
+* 이제 이메일 Designer을 사용하여 링크를 편집할 때 **링크 밑줄** 옵션을 사용할 수 있습니다. 또한 **Target** 속성이 추가되었으며 기본값은 **없음**(으)로 설정되어 있습니다. [자세히 보기](../../designing/using/styles.md#about-styling-links)
 * 이메일 본문의 텍스트 구성 요소에 있는 링크의 색상 문제를 해결했습니다. (CAMP-37330)
 * 이미지를 삭제할 때 연결된 링크가 제거되지 않는 문제를 수정했습니다. (CAMP-37234)
-* 에 수정 사항을 저장할 수 없는 문제를 해결했습니다. **주문** 조건에 있는 다이내믹 콘텐츠 설정. (CAMP-36883)
+* 조건에 동적 콘텐츠의 **순서** 설정에 대한 수정 사항을 저장할 수 없는 문제를 해결했습니다. (CAMP-36883)
 * 랜딩 페이지를 검색할 때 발생하는 문제를 수정했습니다. 검색이 처음 생성된 50개에서 모든 데이터베이스로 확장되었습니다. (CAMP-36839)
-* 의 이메일 발신자에 대한 수정 사항을 저장할 때 발생하는 문제를 해결했습니다. **보낸 사람: 이름** 필드. (CAMP-36606)
+* **보낸 사람: 이름** 필드에 전자 메일 보낸 사람의 수정 사항을 저장할 때 발생하는 문제를 해결했습니다. (CAMP-36606)
 * 지원되는 이메일 클라이언트를 반영하도록 슬라이드 구성 요소 호환성 경고가 수정되었습니다.
 * 모바일의 디스플레이 문제를 해결했습니다. 이제 이메일에 새 이미지를 추가하거나 업로드할 때 height 속성이 항상 &quot;height: auto&quot;로 설정됩니다. (CAMP-35497)
 * 구조 구성 요소에서 조각을 삭제할 때 HTML에 스타일 및 메타 태그가 남아 있는 문제를 수정했습니다. (CAMP-35390)
 * 재사용 가능한 콘텐츠를 업데이트할 때 발생하는 조각 문제를 수정했습니다. (CAMP-35186)
 * 이메일에 모바일 전용 조건부 콘텐츠를 표시할 때 발생하는 문제를 해결했습니다. (CAMP-35155)
 * 줄바꿈하지 않는 공백 0이 임의로 표시되는 문제를 해결했습니다. (CAMP-35116)
-* 에서 버튼 위치 문제를 해결했습니다. **조각으로 저장** 대화 상자.
+* **조각으로 저장** 대화 상자의 단추 위치 문제를 해결했습니다.
 * 이미지 제목 및 대체 텍스트에서 HTML 태그를 추가할 때 발생하는 미리 보기 문제를 수정했습니다.
 * 이메일 디자이너에서 기존 편집기의 이메일에 생성된 링크를 편집할 때 발생하는 문제를 수정했습니다.
 * 콘텐츠에 중복된 스타일 태그가 있는 문제를 수정했습니다.
@@ -104,11 +104,11 @@ ht-degree: 8%
 * 게재 KPI 페이지 및 동적 보고 페이지에 데이터가 표시되는 기본 시간 범위를 정렬하여 보고 결과의 불일치를 방지했습니다. (CAMP-35148)
 * 응용 프로그램 인증서가 만료된 경우 로그에 오류 메시지가 추가되었습니다.
 * 이제 페이로드 계산 미리 보기에 푸시 알림 실패를 방지하기 위한 사용자 지정 필드 크기가 포함됩니다. (CAMP-35303)
-* 의 이름입니다. **파일 거부** 다음에서 **파일 로드** 이제 활동을 과 동일한 방식으로 개인화할 수 있습니다. **파일 내보내기** 활동.
+* **파일 로드** 활동의 **거부 파일**&#x200B;의 이름을 이제 **파일 내보내기** 활동과 동일하게 개인화할 수 있습니다.
 * 기본 제공 엔티티에 연결되어 있지 않은 모든 사용자 지정 엔티티는 이제 API를 통해 액세스할 수 있습니다.
 * 대규모 리소스에 대한 데이터베이스 성능이 향상되었습니다.
 * SMS 메시지 전송 시 발생하는 일부 오류에 대한 설명이 명확해졌습니다. (CAMP-36558)
-* 이제 워크플로우를 실행할 때 오류 메시지가 표시됩니다. **스케줄러** 활동은 직접 또는 여러 활동을 통해 자신에게 연결되어 인스턴스의 워크플로 서버가 중단될 수 있습니다.
+* 인스턴스의 워크플로 서버가 중단될 수 있으므로 직접 또는 여러 활동을 통해 연결된 워크플로의 **스케줄러** 활동을 실행할 때 오류 메시지가 표시됩니다.
 * 트랜잭션 메시지 문제를 해결하는 데 도움이 되도록 개선되었습니다. 이벤트 구성 화면에서 &quot;데이터&quot; 링크의 이름이 &quot;마지막 트랜잭션 이벤트&quot;로 바뀌었습니다. 이제 수신된 이벤트가 내림차순으로 정렬되어 나열됩니다. 또한 새 트랜잭션 이벤트 상태 &quot;targetingFailed&quot;가 만들어졌습니다. 트랜잭션 메시지 모듈에서 메시지 타겟팅에 사용되는 링크를 보강하지 못하면 이제 트랜잭션 이벤트가 &quot;routingFailed&quot; 상태 대신 이 새 상태에 있게 됩니다.
 * 랜딩 페이지 액세스를 특정 지리적 또는 조직 단위로 제한할 때 인터페이스가 개선되었습니다. 랜딩 페이지에 가시성 조건이 적용될 수 있음을 경고하기 위한 것입니다. 이제 랜딩 페이지를 만들 때 지리적 및 조직 단위를 선택해야 합니다. 이제 장치를 선택하면 관련 정보가 포함된 배너가 표시됩니다. 랜딩 페이지를 테스트할 때 표시되는 오류 메시지가 더 명확해졌습니다.
 * Campaign Standard API에서 키 값이 원본 키와 다른 경우 PATCH 작업을 사용하여 사용자 지정 키를 수정할 수 없거나 Adobe에서 제공하는 비즈니스 키 대신 자신의 비즈니스 키를 URI로 사용하는 경우 수정할 수 없습니다.
@@ -125,16 +125,16 @@ ht-degree: 8%
 * 푸시 알림에서 연락 날짜 공식을 사용하여 템플릿을 선택할 때 발생하는 문제를 해결했습니다. (CAMP-35300)
 * 메시지 전송 서비스가 충돌할 수 있는 문제를 해결했습니다. (CAMP-35287)
 * 첫 번째 이벤트 날짜로 모두 정의된 반복 DM 문제를 수정했습니다. (CAMP-35139)
-* 새로 확장되는 문제 해결 **프로필** 쿼리에 사용할 수 없는 사용자 지정 리소스입니다. (CAMP-35119)
-* 을(를) 수정했습니다. **데이터베이스 구조 복구** 공유 구성이 활성화된 인스턴스에 대한 모드입니다. (CAMP-35118)
+* 쿼리에 사용할 수 없는 **프로필** 사용자 지정 리소스가 새로 확장되는 문제를 해결했습니다. (CAMP-35119)
+* 공유 구성이 활성화된 인스턴스에 대한 **데이터베이스 구조 복구** 모드를 수정했습니다. (CAMP-35118)
 * 브로드로그에서 집계 데이터를 추가할 때 SQL 로그 오류가 발생하는 문제를 수정했습니다. (CAMP-35034)
-* 을(를) 만들 때 전환 관련 문제를 해결했습니다. **세분화** 활동. (CAMP-35033)
-* 의 문제가 해결되었습니다. **쿼리** 을(를) 방지한 활동 **encryption_aescbcDecrypt** 암호 해독 기능 **encryption_aescbcEncrypt** 함수. (CAMP-34952)
-* 을(를) 방지할 수 있는 문제를 해결했습니다. **추적 로그** 을 사용하여 메시지를 받을 수 있습니다. (CAMP-34855)
-* 을(를) 사용할 때 발생하는 문제를 해결했습니다. **전송 시간 최적화** 사용자 지정 날짜 공식을 사용하여 워크플로우의 추가 데이터에 대한 오류로 인해 푸시 알림이 전송되지 않을 수 있습니다. (CAMP-30336)
+* **세분화** 활동을 만들 때 전환 문제를 해결했습니다. (CAMP-35033)
+* **encryption_aescbcDecrypt** 함수가 **encryption_aescbcEncrypt** 함수의 암호를 해독하지 못하는 **Query** 활동의 문제를 해결했습니다. (CAMP-34952)
+* 게재에서 **추적 로그**&#x200B;가 표시되지 않는 문제를 해결했습니다. (CAMP-34855)
+* **전송 시간 최적화** 사용자 지정 날짜 수식을 사용할 때 워크플로우의 추가 데이터 오류로 인해 푸시 알림이 전송되지 않는 문제를 해결했습니다. (CAMP-30336)
 * 사용자 지정 리소스가 게시되지 않는 문제를 해결했습니다. (CAMP-37425)
 * 관리 사용자가 가져오기 패키지를 수정할 수 없는 문제를 해결했습니다.  (CAMP-37176)
-* 게재 활동이 빈에 연결된 경우 증명을 보낼 수 없는 워크플로우의 문제를 수정했습니다 **대상자 읽기** 활동. (CAMP-37164)
+* 게재 활동이 빈 **대상자 읽기** 활동에 연결된 경우 증명을 보낼 수 없는 워크플로우의 문제를 수정했습니다. (CAMP-37164)
 * 사용자 지정 리소스를 새 환경으로 가져올 수 없는 문제를 해결했습니다. (CAMP-36506)
 * 비율 이 이미지에 의해 숨겨질 수 있는 핫 클릭 보고서의 문제를 수정했습니다(CAMP-36407).
 * 게재 설명 필드를 내보낼 때 발생하는 문제를 해결했습니다. (CAMP-35467)
@@ -154,11 +154,11 @@ ht-degree: 8%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 외부 API 활동(공개 베타)<br /> </td> 
+   <td> 외부 API 활동(공개 Beta)<br /> </td> 
    <td> <p>보다 심층적인 개인화를 위해 외부 API 활동을 사용하면 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O Runtime 또는 Adobe Experience Cloud REST 엔드포인트(예: 데이터 플랫폼, 타겟, 분석, 캠페인)일 수 있습니다.</p><p>이 기능은 현재 공개 베타 버전에 제공됩니다.</p><p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">방법 비디오</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
-   <td> 워크플로우 세그먼트 보고서<br /> </td> 
+   <td> 워크플로우 세그먼트 <br />에 대한 보고서 </td> 
    <td> <p>이 기능을 통해 마케터는 세그먼트 코드별로 게재 성능을 분류할 수 있습니다. 워크플로우를 만들고 세그멘테이션 활동을 사용하여 세그먼트를 게재 모집단에 할당할 때, 이제 이러한 세그먼트는 동일한 게재로 이동할 수 있습니다. 이렇게 하면 단일 게재 내의 여러 세그먼트를 기반으로 한 열기/클릭 통계를 표시할 수 있습니다.</p><p>자세한 내용은 <a href="../../reporting/using/creating-a-report-workflow-segment.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">방법 비디오</a>를 참조하십시오.</p></td>
   </tr> 
  </tbody> 
@@ -175,14 +175,14 @@ ht-degree: 8%
 * 미러 페이지 URL 콘텐츠 블록을 이메일 콘텐츠에 삽입할 때 발생하는 문제를 해결했습니다. (CAMP-34779)
 * 이메일에서 JSPP 코드를 사용할 때 콘텐츠 편집이 어려워지는 문제를 수정했습니다. (CAMP-34574)
 * 하이퍼링크가 추가되면 이미지가 위에서 잘리는 문제를 수정했습니다. (CAMP-34382)
-* Firefox에서 이메일 디자이너를 사용할 때 발생하는 표시 문제를 해결했습니다. (CAMP-34364)
+* Firefox에서 이메일 Designer을 사용할 때 발생하는 표시 문제를 해결했습니다. (CAMP-34364)
 * 이메일에서 동적 콘텐츠를 정의할 때 고급 모드에서 발생하는 여러 문제를 수정했습니다. (CAMP-34351, CAMP-34333, CAMP-34331)
 * 다이내믹 콘텐츠 규칙 편집기(CAMP-34304, CAMP-34303)에서 발생한 몇 가지 문제를 수정했습니다.
-* 이메일 디자이너 설정 창에 링크 필드가 표시되지 않는 문제를 해결했습니다(CAMP-33749).
+* 링크 필드가 이메일 Designer 설정 창에 표시되지 않는 문제를 해결했습니다(CAMP-33749).
 * 보낸 이메일에서 오버사이즈 되었던 YouTube 아이콘 문제를 수정했습니다. (CAMP-33726)
 * 미러 페이지 콘텐츠를 편집할 수 있게 하던 보안 문제를 수정했습니다. (CAMP-33691)
 * 다이내믹 콘텐츠에서 보다 큼 기호를 사용할 때 HTML 출력을 중단하는 문제를 해결했습니다. (CAMP-33688)
-* 이메일 디자이너에서 텍스트를 편집할 때 실행 취소 옵션을 사용할 때 발생하는 문제를 해결했습니다. (CAMP-32565)
+* 이메일 Designer에서 텍스트를 편집할 때 실행 취소 옵션을 사용할 때 발생하는 문제를 해결했습니다. (CAMP-32565)
 * 스타일을 제거하는 대신 실행 취소할 때 추가 태그가 발생하는 문제를 수정했습니다. (CAMP-32359)
 * 이제 이메일에 사용된 각 구성 요소가 데스크탑 디바이스에만 표시되는지 또는 모바일 디바이스에만 표시되는지를 정의할 수 있습니다.
 * 이제 소셜 콘텐츠 구성 요소의 너비와 높이를 설정할 수 있습니다.
@@ -191,21 +191,21 @@ ht-degree: 8%
 * 작업 영역에 드롭한 후 n:n 열 구조를 선택할 수 없는 문제를 해결했습니다.
 * 이메일 대시보드에서 메시지의 축소판이 흐리게 표시되는 문제를 해결했습니다.
 * Outlook에서 받은 전자 메일에 대해 배경이 올바르게 표시되지 않는 문제를 해결했습니다.
-* 이메일 디자이너 홈 페이지의 일부 정렬 문제를 해결했습니다.
+* 이메일 Designer 홈 페이지의 일부 정렬 문제를 해결했습니다.
 * 다이내믹 콘텐츠를 사용할 때 변형을 복제할 때 발생하는 문제를 해결했습니다.
-* 일부 원치 않는 필드가 이메일 디자이너 설정 창에서 제거되었습니다.
+* 일부 원치 않는 필드가 이메일 Designer 설정 창에서 제거되었습니다.
 
 **기타 개선 사항**
 
 * Adobe Experience Platform 위치 서비스와의 통합을 통해 Adobe Campaign은 이제 Experience Platform SDK를 통해 모바일 애플리케이션 구독자에게 위치 기반 마케팅 메시지를 전송하도록 호환됩니다. 자세한 내용은 [세부 설명서](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)를 참조하세요.
-* 더 나은 경험을 위해 보고 기능이 개선되었습니다. 이 기능을 사용하려면 동적 보고 사용 계약에 동의해야 합니다. 자세한 내용은 [자세한 설명서](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* 워크플로우에서 워크플로우의 다음 10개 실행을 미리 보는 새 옵션이 추가되었습니다. 자세한 내용은 [자세한 설명서](../../automating/using/scheduler.md).
-* 스케줄러 활동에서 새 옵션을 사용하면 월별 게재에 대해 특정 주의 특정 요일을 선택할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/scheduler.md).
-* 이제 집계 기간이 없는 반복 게재를 만들 때 게재 대시보드를 사용하면 게재를 보내기 전에 확인을 요청할 수 있습니다. 자세한 내용은 [자세한 설명서](../../sending/using/confirming-the-send.md).
-* 이제 워크플로우의 외부 신호 활동에서 선언된 이벤트 변수를 사용하여 게재 레이블을 개인화할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* 더 나은 경험을 위해 보고 기능이 개선되었습니다. 이 기능을 사용하려면 동적 보고 사용 계약에 동의해야 합니다. 자세한 내용은 [자세한 설명서](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)를 참조하세요.
+* 워크플로우에서 워크플로우의 다음 10개 실행을 미리 보는 새 옵션이 추가되었습니다. 자세한 내용은 [자세한 설명서](../../automating/using/scheduler.md)를 참조하세요.
+* 스케줄러 활동에서 새 옵션을 사용하면 월별 게재에 대해 특정 주의 특정 요일을 선택할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/scheduler.md)를 참조하세요.
+* 이제 집계 기간이 없는 반복 게재를 만들 때 게재 대시보드를 사용하면 게재를 보내기 전에 확인을 요청할 수 있습니다. 자세한 내용은 [자세한 설명서](../../sending/using/confirming-the-send.md)를 참조하세요.
+* 이제 워크플로우의 외부 신호 활동에서 선언된 이벤트 변수를 사용하여 게재 레이블을 개인화할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/calling-a-workflow-with-external-parameters.md)를 참조하세요.
 * GDPR 삭제 쿼리가 개선되어 성능이 향상되었습니다. (CAMP-33504)
 * &quot;ftp&quot; 옵션이 외부 계정 구성 인터페이스에서 제거되었습니다. (CAMP-34472)
-* 이제 각 이메일 메시지에 대해 SMTP 테스트 모드 옵션을 활성화 및 비활성화할 수 있습니다. 자세한 내용은 [자세한 설명서](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
+* 이제 각 이메일 메시지에 대해 SMTP 테스트 모드 옵션을 활성화 및 비활성화할 수 있습니다. 자세한 내용은 [자세한 설명서](../../administration/using/configuring-email-channel.md#smtp-test-mode)를 참조하세요. (CAMP-34602)
 
 **기타 변경 사항**
 
@@ -308,7 +308,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 워크플로우 개선 사항 - 외부 신호 활동에 페이로드 추가<br /> </td> 
-   <td> <p>다른 워크플로우 또는 REST API 호출에서 정의된 조건이 성공적으로 충족되면 페이로드와 함께 워크플로우를 시작하여 외부 시스템과 통합합니다. 여기에는 새 기능도 포함됩니다 <strong>테스트</strong> 이 기능에 대한 테스트를 실행할 수 있는 활동입니다.</p><p>자세한 내용은 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">방법 비디오</a>를 참조하십시오.</p></td> 
+   <td> <p>다른 워크플로우 또는 REST API 호출에서 정의된 조건이 성공적으로 충족되면 페이로드와 함께 워크플로우를 시작하여 외부 시스템과 통합합니다. 여기에는 이 기능에 대한 테스트를 실행할 수 있는 새 <strong>test</strong> 활동도 포함됩니다.</p><p>자세한 내용은 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">방법 비디오</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 랜딩 페이지 개선 사항 - Google reCAPTCHA<br /> </td> 
@@ -323,20 +323,20 @@ ht-degree: 8%
 
 **향상된 이메일 디자이너**
 
-* 조각을 복제하여 이메일 디자이너에서 사용하려고 할 때 발생하는 문제를 해결했습니다. (CAMP-33193)
-* 이메일 디자이너 인터페이스에서 인라인 요소를 사용할 때 원하지 않는 공백을 만드는 문제를 해결했습니다. (CAMP-32163)
-* 이메일 디자이너에 이메일 콘텐츠를 저장한 후 사용자가 추가한 일부 추가 HTML 태그 속성을 삭제하는 문제를 해결했습니다. (CAMP-32162)
-* 이메일 디자이너 HTML 모드에서 태그를 제거한 후에도 Microsoft Office 태그를 표시하는 문제를 해결했습니다. (CAMP-32141)
-* 이전 버전의 이메일 디자이너를 사용하여 이메일을 만든 경우 이 이메일 콘텐츠를 열면 이제 팝업 창이 사용자에게 최신 버전으로 업데이트하라는 메시지를 표시합니다. (CAMP-31529)
-* 일부 메시징 클라이언트에 전달할 때 이메일 디자이너로 만든 이메일의 이미지를 왜곡할 수 있는 문제를 해결했습니다. (CAMP-31407)
+* 조각을 복제하여 이메일 Designer에서 사용하려고 할 때 발생하는 문제를 해결했습니다. (CAMP-33193)
+* 이메일 Designer 인터페이스에서 인라인 요소를 사용할 때 원하지 않는 공백을 만드는 문제를 해결했습니다. (CAMP-32163)
+* 이메일 Designer에 이메일 콘텐츠를 저장한 후 사용자가 추가한 일부 추가 HTML 태그 속성을 삭제하는 문제를 해결했습니다. (CAMP-32162)
+* 이메일 Designer HTML 모드에서 태그를 제거한 후에도 Microsoft Office 태그를 표시하는 문제를 해결했습니다. (CAMP-32141)
+* 이전 버전의 이메일 Designer을 사용하여 이메일을 만든 경우 이 이메일 콘텐츠를 열면 이제 팝업 창이 사용자에게 최신 버전으로 업데이트하라는 메시지를 표시합니다. (CAMP-31529)
+* 일부 메시징 클라이언트에 전달할 때 이메일 Designer으로 만든 이메일의 이미지를 왜곡할 수 있는 문제를 해결했습니다. (CAMP-31407)
 * HTML 모드에서 만들 때 목록 또는 버튼과 같은 일부 요소가 일반 텍스트 모드에서 올바르게 표시되지 않는 문제를 해결했습니다. (CAMP-32582, CAMP-32542)
 * 콘텐츠 템플릿 또는 조각 속성에 50개 이상의 조직 단위를 표시할 수 없는 문제를 해결했습니다. (CAMP-32932)
-* Outlook에서 이메일 디자이너를 사용하여 만든 이메일을 받을 때 뷰포트 배경색 문제를 해결했습니다. (CAMP-31402)
-* Outlook에서 열 때 이메일 디자이너로 만든 이메일 콘텐츠가 반응하지 않는 문제를 해결했습니다. (CAMP-31400)
+* Outlook에서 이메일 Designer으로 만든 이메일을 받을 때 뷰포트 배경색 문제를 해결했습니다. (CAMP-31402)
+* Outlook에서 열 때 이메일 Designer으로 만든 이메일 콘텐츠가 반응하지 않는 문제를 해결했습니다. (CAMP-31400)
 * 이메일 제목에 사용할 때 다이내믹 콘텐츠가 제대로 작동하지 않는 문제를 해결했습니다. (CAMP-32837)
 * 제대로 이스케이프되지 않은 이메일 제목과 관련된 문제를 해결했습니다.
-* 이메일 디자이너 왼쪽 팔레트에서 조각이 로드되지 않는 문제를 해결했습니다.
-* 조각 목록을 새로 고칠 때 이메일 콘텐츠 편집 중에 생성된 조각이 이메일 디자이너 왼쪽 팔레트에 표시되지 않는 문제를 해결했습니다.
+* 이메일 Designer 왼쪽 팔레트에서 조각이 로드되지 않던 문제를 수정했습니다.
+* 조각 목록을 새로 고칠 때 이메일 콘텐츠 편집 중에 생성된 조각이 이메일 Designer 왼쪽 팔레트에 표시되지 않는 문제를 해결했습니다.
 * 이메일에서 동적 콘텐츠를 사용하는 동안 발생하는 여러 문제를 해결했습니다.
 * RGB 값을 사용하여 색상을 정의하려고 할 때 색상 선택기에서 발생하는 문제를 해결했습니다.
 * 모바일에서 이메일을 받을 때 미러 페이지가 응답하지 않는 문제를 해결했습니다.
@@ -350,24 +350,24 @@ ht-degree: 8%
 * 트랜잭션 메시지 프로세스는 동일한 메시지의 여러 분석을 동시에 시작할 수 있도록 최적화되었습니다.
 * 트랜잭션 푸시 알림에 대한 처리량과 지연 시간이 일치하지 않는 문제를 해결했습니다.
 * 트랜잭션 메시지 실행 게재에 대한 잘못된 타겟 대상자를 표시하는 문제를 해결했습니다.
-* 이벤트 구성 및 관련 트랜잭션 메시지가 있는 패키지를 가져올 때 발생하는 문제를 해결했습니다. 자세한 내용은 [자세한 설명서](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
+* 이벤트 구성 및 관련 트랜잭션 메시지가 있는 패키지를 가져올 때 발생하는 문제를 해결했습니다. 자세한 내용은 [자세한 설명서](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages)를 참조하세요.
 * 제품 목록이 포함된 트랜잭션 메시지용으로 만든 테스트 프로필에서 컬렉션 데이터를 삭제하는 문제를 해결했습니다.
 
 **기타 변경 사항**
 
-* SMS 외부 계정에 새 옵션이 추가되었습니다. 병렬 연결 수를 더 잘 제어하기 위해 SMS를 전송하는 MTA 프로세스의 최대 수를 제한할 수 있습니다. 자세한 내용은 [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html) 테크노트
-* API 확장을 사용하여 리소스를 게시할 때 API가 이미 게시되어 있으면 이제 다시 게시할 때마다 자동으로 업데이트됩니다. 이전에는 이 작업이 수동으로 수행되었으며 API를 업데이트하지 못하면 이 API의 프로필 또는 서비스 리소스가 손상될 수 있습니다. 자세한 내용은 [자세한 설명서](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+* SMS 외부 계정에 새 옵션이 추가되었습니다. 병렬 연결 수를 더 잘 제어하기 위해 SMS를 전송하는 MTA 프로세스의 최대 수를 제한할 수 있습니다. 자세한 내용은 [SMS 커넥터 프로토콜 및 설정](https://helpx.adobe.com/kr/campaign/kb/sms-connector-protocol-and-settings.html) 기술 정보를 참조하세요.
+* API 확장을 사용하여 리소스를 게시할 때 API가 이미 게시되어 있으면 이제 다시 게시할 때마다 자동으로 업데이트됩니다. 이전에는 이 작업이 수동으로 수행되었으며 API를 업데이트하지 못하면 이 API의 프로필 또는 서비스 리소스가 손상될 수 있습니다. 자세한 내용은 [자세한 설명서](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)를 참조하세요.
 * 우편 번호 차원이 다이내믹 보고에서 제거되었습니다. 도시, 국가, 주 차원을 대신 사용하는 것이 좋습니다.
 * 인앱 메시지에 대한 &#39;첫 번째 실행&#39; 라이프사이클 이벤트 트리거가 제거되었습니다.
 * 이제 보안 그룹이 있는 패키지를 내보낼 때 각 그룹에 할당된 역할이 포함됩니다. (CAMP-32960)
-* 파일 로드 활동에서 새 옵션을 사용하면 업로드하고 있는 파일의 열이 열 정의와 일치하는지 확인할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/load-file.md). (CAMP-32229)
-* 이제 페이로드로 워크플로우를 시작할 수 있으므로 워크플로우 내에서 활동 간에 외부 매개 변수를 사용하고 공유할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 및 CAMP-29413)
+* 파일 로드 활동에서 새 옵션을 사용하면 업로드하고 있는 파일의 열이 열 정의와 일치하는지 확인할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/load-file.md)를 참조하세요. (CAMP-32229)
+* 이제 페이로드로 워크플로우를 시작할 수 있으므로 워크플로우 내에서 활동 간에 외부 매개 변수를 사용하고 공유할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/calling-a-workflow-with-external-parameters.md)를 참조하세요. (CAMP-29412 및 CAMP-29413)
 * 이제 Campaign Standard API를 사용하여 페이로드를 사용하여 프로필의 지리적 및 조직 단위를 업데이트할 수 있습니다. 자세한 내용은 [세부 설명서](../../api/using/get-started-apis.md)를 참조하세요.
 * 데이터베이스의 개체에 액세스할 수 없을 때의 오류 메시지를 명확하게 이해했습니다.
 * 파일 추출 활동에서 내보낼 파일의 이름을 정의할 때 Javascript 기능이 업데이트되었습니다. 이제 formatDate 함수만 출력 필드에서 사용할 수 있습니다. 자세한 내용은 [세부 설명서](../../automating/using/extract-file.md)를 참조하세요.
 * 사용자 지정 리소스에 대한 자동 시퀀스 ID 생성이 개선되었습니다. 새 사용자 지정 리소스에 대한 기본 키는 이제 기본적으로 64비트로 제공됩니다.
 * 사용자 지정 리소스 게시 테스트 모드가 개선되었습니다. 이제 마지막 사용자 지정 리소스 게시가 실패하고 수정되지 않은 경우 사용자에게 경고 메시지가 표시됩니다. 사용자 지정 리소스 게시 실패 후 마지막 작업 버전으로 롤백할 수 있습니다. 자세한 내용은 [세부 설명서](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)를 참조하세요.
-* 파일 전송 활동에 새 옵션이 추가되었습니다. SFTP 모드에서 파일 다운로드 작업을 사용할 때 파일을 정렬할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/transfer-file.md). (CAMP-33109)
+* 파일 전송 활동에 새 옵션이 추가되었습니다. SFTP 모드에서 파일 다운로드 작업을 사용할 때 파일을 정렬할 수 있습니다. 자세한 내용은 [자세한 설명서](../../automating/using/transfer-file.md)를 참조하세요. (CAMP-33109)
 
 **패치**
 
@@ -377,7 +377,7 @@ ht-degree: 8%
 * 보고서 공유 워크플로우가 실패하는 오류를 수정했습니다.
 * 사용자가 미디어 URL만으로 인앱 메시지를 보낼 수 없는 오류를 수정했습니다.
 * 모바일 앱의 인증서가 인스턴스에 업로드되지 않은 경우에도 모바일 앱을 표시하는 문제를 해결했습니다.
-* 을(를) 사용할 때 개인화 필드가 작동하지 않는 오류를 수정했습니다. **모바일 앱의 모든 사용자 타기팅** 템플릿.
+* **모든 모바일 앱 사용자 대상** 템플릿을 사용할 때 개인화 필드가 작동하지 않는 오류를 수정했습니다.
 * 새 Campaign Standard 인스턴스가 프로비저닝되었습니다. (CAMP-32635 및 CAMP-32344)
 * 워크플로우에서 날짜 수식을 사용자 지정할 수 없는 오류를 수정했습니다. (CAMP-30336)
 * 사용자 지정 날짜 수식을 정의할 때 드롭다운 목록에서 &quot;추가 데이터&quot; 및 &quot;세그먼트 코드&quot; 필드를 사용할 수 없는 문제를 해결했습니다. (CAMP-32383)
@@ -421,20 +421,20 @@ ht-degree: 8%
    <td> <p>사용자 참여를 보다 직관적으로 측정할 수 있도록 푸시 채널 보고에 몇 가지 개선 사항이 추가되었습니다. 이번 릴리스에서는 푸시 채널 지표 목록을 노출 횟수, 클릭 수, 열기(앱 열기) 등 세 가지 지표로 확장하여 푸시 알림과의 사용자 상호 작용을 보다 효과적으로 측정하고 분석할 수 있도록 지원합니다. 이와 함께 이러한 지표의 정의 및 구현을 표준화하고 있습니다. 푸시 알림 기본 제공 보고서도 일반적으로 사용되는 시각화 및 지표로 개선되었습니다.</p><p> 자세한 내용은 <a href="../../reporting/using/push-notification-report.md">세부 설명서</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
-   <td> 모바일 앱용 Launch 통합<br /> </td> 
+   <td> 모바일 앱에 대한 통합 실행<br /> </td> 
    <td> <p>이 릴리스에는 Adobe Experience Platform Launch 및 Mobile SDK에서 Adobe Campaign Standard용 Android 및 iOS 확장의 GA 버전과 Adobe Campaign의 통합이 포함되어 있습니다. 이러한 확장은 푸시 메시지, 인앱 메시지 및 모바일 앱 프로필 업데이트를 지원합니다.</p><p> 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/kb/configuring-app-sdk.html">세부 설명서</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td> 모바일 인앱 메시지<br /> </td> 
-   <td> <p>이 릴리스에는 Campaign의 GA 버전 인앱 채널이 포함되어 있습니다. 기능적 측면에서 Beta 릴리스에 대한 가장 주목할 만한 추가 사항은 Mobile SDK와 MCIAS(SDK에 인앱 규칙을 제공하는 인앱 메시지 서비스 Marketing Cloud) 간의 인앱 채널 및 보안 핸드셰이크에 대한 동적 보고서입니다. 보안 핸드셰이크는 사용자의 PII 데이터가 악의적인 손에 들어가지 않도록 할 뿐만 아니라 사용자가 로그아웃할 때마다 메시지 캐시를 지워 공유 장치에서 사용자의 개인 정보를 유지 관리할 수 있도록 합니다.</p><p>자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">자세한 설명서</a> 및 전용 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">인앱 튜토리얼</a>.</p> </td> 
+   <td> <p>이 릴리스에는 Campaign의 GA 버전 인앱 채널이 포함되어 있습니다. 기능적 측면에서 Beta 릴리스에 대한 가장 주목할 만한 추가 사항은 Mobile SDK와 MCIAS(SDK에 인앱 규칙을 제공하는 인앱 메시지 서비스 Marketing Cloud) 간의 인앱 채널 및 보안 핸드셰이크에 대한 동적 보고서입니다. 보안 핸드셰이크는 사용자의 PII 데이터가 악의적인 손에 들어가지 않도록 할 뿐만 아니라 사용자가 로그아웃할 때마다 메시지 캐시를 지워 공유 장치에서 사용자의 개인 정보를 유지 관리할 수 있도록 합니다.</p><p>자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">자세한 설명서</a> 및 전용 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">인앱 튜토리얼</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td> 워크플로우 개선 사항<br /> </td> 
    <td> <p>다음 워크플로우 기능이 추가되었습니다.</p> 
     <ul> 
-     <li> 이제 동일한 Campaign 인스턴스에서 워크플로우 또는 다른 워크플로우 내에 활동을 복사하여 붙여넣을 수 있습니다. 이렇게 하면 전체 워크플로우 또는 특정 활동을 쉽게 복제하고 처음에 정의된 설정을 유지할 수 있습니다. 자세한 내용은 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">자세한 설명서</a>. (CAMP-20014) </li> 
-     <li> 사용 시 <strong>파일 로드</strong> 활동에서 이제 거부된 레코드가 포함된 파일 이름에 타임스탬프를 추가할 수 있습니다. 자세한 내용은 <a href="../../automating/using/load-file.md#configuration">세부 설명서</a>를 참조하세요. </li> 
-     <li> <strong>쿼리</strong> 및 <strong>세분화</strong> 이제 활동을 통해 데이터가 검색되지 않는 경우 아웃바운드 전환을 활성화할 수 있습니다. </li> 
+     <li> 이제 동일한 Campaign 인스턴스에서 워크플로우 또는 다른 워크플로우 내에 활동을 복사하여 붙여넣을 수 있습니다. 이렇게 하면 전체 워크플로우 또는 특정 활동을 쉽게 복제하고 처음에 정의된 설정을 유지할 수 있습니다. 자세한 내용은 <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">자세한 설명서</a>를 참조하세요. (CAMP-20014) </li> 
+     <li> 이제 <strong>파일 로드</strong> 활동을 사용할 때 거부된 레코드가 포함된 파일 이름에 타임스탬프를 추가할 수 있습니다. 자세한 내용은 <a href="../../automating/using/load-file.md#configuration">세부 설명서</a>를 참조하세요. </li> 
+     <li> <strong>쿼리</strong> 및 <strong>세분화</strong> 활동을 사용하면 활동에서 데이터를 검색하지 못할 경우 아웃바운드 전환을 사용할 수 있습니다. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -465,11 +465,11 @@ ht-degree: 8%
 * 이제 이미 사용 가능한 소셜 채널 외에 사용자 지정 소셜 채널을 이메일 템플릿에 추가할 수 있습니다.
 * 18개 이상의 구조를 사용할 때 구조 메뉴를 아래로 스크롤하지 못하던 문제를 수정했습니다. (CAMP-31173)
 * Adobe Campaign과 함께 전송된 사전 헤더가 포함된 이메일을 전달할 때 컨텐츠 위에 사전 헤더를 표시하는 문제를 해결했습니다. (CAMP-30736)
-* 을(를) 클릭할 때 제목 줄이 업데이트되지 않는 문제를 해결했습니다. **AEM 콘텐츠 새로 고침** Adobe Experience Manager에서 제목을 수정한 후의 옵션입니다. (CAMP-29984)
+* Adobe Experience Manager에서 제목을 수정한 후 **AEM 콘텐츠 새로 고침** 옵션을 클릭할 때 제목 줄이 업데이트되지 않는 문제를 해결했습니다. (CAMP-29984)
 * Adobe Target에서 동적 이미지를 사용할 수 없는 몇 가지 문제를 해결했습니다.
 * 이전에 URL에서 콘텐츠를 가져온 경우 준비 시 콘텐츠를 검색할 때 미리보기가 업데이트되지 않는 문제를 해결했습니다.
-* YouTube 아이콘이 **소셜** 컨텐츠 구성 요소입니다.
-* 다음 **목록** 이메일 디자이너 팔레트에 표시된 콘텐츠 구성 요소 및 조각에 대한 보기가 추가되었습니다.
+* YouTube 아이콘이 **소셜** 콘텐츠 구성 요소에 추가되었습니다.
+* 전자 메일 Designer 팔레트에 표시된 콘텐츠 구성 요소 및 조각에 대해 **목록** 보기가 추가되었습니다.
 
 **기타 개선 사항**
 
@@ -484,8 +484,8 @@ ht-degree: 8%
 
 **기타 변경 사항**
 
-* Adobe Campaign 및 Adobe Experience Cloud은 2019년 봄 및 Campaign Standard 19.2 릴리스부터 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정입니다. Microsoft Edge 또는 기타 지원되는 브라우저로 전환하십시오. 다음을 참조하십시오 [사용이 중단되거나 제거된 기능](../../rn/using/deprecated-features.md) 페이지를 가리키도록 업데이트하는 중입니다.
-* 다음 **국가 코드** 프로필 리소스의 필드 이름이 (으)로 변경되었습니다. **국가/지역 코드**.
+* Adobe Campaign 및 Adobe Experience Cloud은 2019년 봄 및 Campaign Standard 19.2 릴리스부터 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정입니다. Microsoft Edge 또는 기타 지원되는 브라우저로 전환하십시오. [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md) 페이지를 참조하세요.
+* 프로필 리소스의 **국가 코드** 필드 이름이 **국가/지역 코드**(으)로 바뀌었습니다.
 
 **패치**
 
@@ -508,7 +508,7 @@ ht-degree: 8%
 * 관리자가 모바일 애플리케이션을 표시할 수 없는 문제를 해결했습니다.
 * 게재 기능 업데이트 기술 워크플로우가 실패하는 문제를 해결했습니다. (CAMP-26387)
 * 인앱 게재를 만드는 동안 타겟팅된 프로필과 게재 대시보드에 표시된 프로필 간에 불일치가 발생하는 문제를 수정했습니다. (CAMP-28722)
-* 이메일에서 공유 에셋을 선택할 수 없는 Campaign 및 에셋 핵심 서비스 통합 문제를 수정했습니다.
+* 이메일에서 공유 에셋을 선택할 수 없는 Campaign 및 Assets 핵심 서비스 통합 문제를 수정했습니다.
 
 ## 릴리스 19.0 - 2019년 1월 {#release-19-0---january-2019}
 
@@ -524,28 +524,28 @@ ht-degree: 8%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 이메일 디자이너의 일반 가용성<br /> </td> 
-   <td> <p>직관적인 새 이메일 디자이너(이전의 Creative Designer)가 GA로 이전했습니다. 이제 를 포함하여 레거시 콘텐츠 편집기의 모든 기능을 지원합니다.</p> 
+   <td> 이메일 Designer 일반 가용성<br /> </td> 
+   <td> <p>새로운 직관적인 이메일 Designer(이전의 Creative Designer)가 GA로 이전되었습니다. 이제 를 포함하여 레거시 콘텐츠 편집기의 모든 기능을 지원합니다.</p> 
     <ul> 
-     <li> 사용 <a href="../../integrating/using/adding-target-dynamic-content.md">Adobe Target의 동적 이미지</a> </li> 
-     <li> 다음에 대한 기능: <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">준비 시 URL에서 컨텐츠를 자동으로 검색합니다.</a> </li> 
-     <li> 완전 순응 <a href="../../designing/using/using-reusable-content.md#content-templates">기본 제공 콘텐츠 템플릿</a>. </li> 
+     <li> Adobe Target의 <a href="../../integrating/using/adding-target-dynamic-content.md">동적 이미지 사용</a> </li> 
+     <li> 준비 시 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">URL에서 콘텐츠를 자동으로 검색하는 기능</a> </li> 
+     <li> 완전 준수 <a href="../../designing/using/using-reusable-content.md#content-templates">기본 제공 콘텐츠 템플릿</a>. </li> 
     </ul> 
-    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">방법 비디오</a>. 개선 사항 및 수정 사항은 아래에 나열되어 있습니다.</p><p>따라서 레거시 이메일 콘텐츠 편집기는 이제 사용되지 않습니다. 자세한 내용은 다음을 참조하십시오. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">페이지</a>.</p> </td> 
+    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">방법 비디오</a>를 참조하세요. 개선 사항 및 수정 사항은 아래에 나열되어 있습니다.</p><p>따라서 레거시 이메일 콘텐츠 편집기는 이제 사용되지 않습니다. 자세한 정보는 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">페이지</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
-   <td> 트랜잭션 이메일의 제품 목록<br /> </td> 
+   <td> 트랜잭션 전자 메일의 제품 목록<br /> </td> 
    <td> <p>이제 트랜잭션 이메일 메시지에서 하나 이상의 제품 컬렉션을 참조할 수 있습니다. 예를 들어 사용자의 장바구니에 있던 모든 제품을 나열한 장바구니 중단 이메일을 이미지, 가격 및 각 제품에 대한 링크와 함께 자동으로 보낼 수 있습니다.</p><p>자세한 내용은 <a href="../../designing/using/using-product-listings.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">방법 비디오</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
-   <td> 이메일 디자이너의 모바일 보기<br /> </td> 
+   <td> 이메일 Designer<br />의 모바일 보기 </td> 
    <td> <p>이제 이메일 콘텐츠를 편집할 때 전용 모바일 보기로 전환할 수 있습니다. 이렇게 하면 모바일 표시에 대한 모든 스타일 옵션(여백, 더 작은 글꼴 크기, 다른 배경색 적용 등)을 별도로 편집하여 전자 메일의 해당 디자인을 미세 조정할 수 있습니다.</p><p> 자세한 내용은 <a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">세부 설명서</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td> 인앱 메시지 Beta 개선 사항<br /> </td> 
-   <td> <p>인앱 메시지 Beta 기능이 다음과 같은 기능으로 향상되었습니다.</p> 
+   <td> <p>인앱 메시징 Beta 기능이 다음과 같이 개선되었습니다.</p> 
     <ul> 
-     <li> 인앱 Beta 채널이 GDPR 준수 </li> 
+     <li> 인앱 Beta 채널이 GDPR을 준수합니다. </li> 
      <li> Analytics API와 통합하여 트리거 드롭다운 채우기 </li> 
      <li> 게재 템플릿의 직관적인 모양 및 설명 </li> 
      <li> 유용성 측면에서 작성 인터페이스 개선 사항 </li> 
@@ -566,25 +566,25 @@ ht-degree: 8%
 
 **이메일 디자이너**
 
-* Adobe Campaign에서 이 기능이 비활성화되어 템플릿 또는 조각에 다시 액세스하려고 할 때 사용할 수 없게 되더라도 이메일 디자이너 로 만든 이메일 템플릿 또는 콘텐츠 조각에서 지리 단위 기능을 활성화한 문제를 해결했습니다. (CAMP-28174)
-* 이메일 디자이너를 사용하여 콘텐츠를 편집할 때 다이내믹 콘텐츠 조건을 저장할 수 없는 문제를 해결했습니다. (CAMP-27905)
-* 메시지의 일반 텍스트 버전을 편집하고 이메일 디자이너에서 HTML 동기화를 중단한 후 이메일 콘텐츠에서 HTML 버전을 제거하는 문제를 해결했습니다. (CAMP-28507)
-* Internet Explorer 11을 사용할 때 이메일 디자이너 인터페이스가 열리지 않는 문제를 해결했습니다. (CAMP-28273)
-* 이메일 디자이너를 사용하여 단추에 적용된 스타일 설정의 Microsoft Outlook 렌더링을 왜곡하는 문제를 해결했습니다.
-* 이메일에 사용된 콘텐츠 조각이 기본적으로 잠겨 있어 예상하지 못했던 URL을 편집할 수 있게 만드는 이메일 디자이너 의 문제를 해결했습니다.
-* 이메일 디자이너 분할자 구성 요소가 Microsoft Office에 표시되지 않는 문제를 해결했습니다.
+* Adobe Campaign에서 이 기능이 비활성화되어 템플릿 또는 조각에 다시 액세스하려고 할 때 사용할 수 없게 되더라도 이메일 Designer으로 만든 이메일 템플릿 또는 콘텐츠 조각에서 지리 단위 기능을 활성화한 문제를 해결했습니다. (CAMP-28174)
+* 이메일 Designer으로 콘텐츠를 편집할 때 다이내믹 콘텐츠 조건을 저장할 수 없는 문제를 해결했습니다. (CAMP-27905)
+* 메시지의 일반 텍스트 버전을 편집하고 이메일 Designer에서 HTML 동기화를 중단한 후 이메일 콘텐츠에서 HTML 버전을 제거하는 문제를 해결했습니다. (CAMP-28507)
+* Internet Explorer 11을 사용할 때 이메일 Designer 인터페이스가 열리지 않는 문제를 해결했습니다. (CAMP-28273)
+* 이메일 Designer이 있는 단추에 적용된 스타일 설정의 Microsoft Outlook 렌더링을 왜곡하는 문제를 해결했습니다.
+* 이메일에 사용된 콘텐츠 조각이 기본적으로 잠겨 있어 예상하지 못했던 URL을 편집할 수 있게 만든 이메일 Designer 문제를 수정했습니다.
+* 이메일 Designer 분할자 구성 요소가 Microsoft Office에 표시되지 않는 문제를 해결했습니다.
 * 기존 이메일 콘텐츠 편집기를 사용하여 AEM에서 동기화된 콘텐츠를 볼 때 특정 인터넷 브라우저에서 페이지가 중단되는 문제를 해결했습니다. (CAMP-29068)
 * 기존 이메일 콘텐츠 편집기를 사용할 때 이메일에서 이미지를 클릭할 때 발생하는 오류를 수정했습니다. (CAMP-30424)
-* 이메일 디자이너를 사용하여 이메일을 편집할 때 새로 만든 조각이 표시되지 않는 문제를 해결했습니다. (CAMP-29928)
-* 이메일 디자이너로 만들고 Outlook 웹 메일 클라이언트를 사용하여 받은 전자 메일에서 단추 텍스트가 제대로 표시되지 않는 문제를 해결했습니다.
-* 이제 이메일 디자이너를 사용하여 프로필 트랜잭션 메시지를 만들 수 있습니다. (CAMP-28900)
-* 준비 시 URL에서 콘텐츠를 자동으로 검색할 때 콘텐츠를 편집할 수 있게 되었지만 잠가야 하는 이메일 디자이너 의 오류를 수정했습니다.
+* 이메일 Designer으로 이메일을 편집할 때 새로 만든 조각이 표시되지 않던 문제를 수정했습니다. (CAMP-29928)
+* 이메일 Designer으로 만들고 Outlook 웹 메일 클라이언트를 사용하여 받은 이메일에 단추 텍스트가 제대로 표시되지 않는 문제를 해결했습니다.
+* 이제 이메일 Designer을 사용하여 프로필 트랜잭션 메시지를 만들 수 있습니다. (CAMP-28900)
+* 준비 시 URL에서 콘텐츠를 자동으로 검색할 때 콘텐츠를 편집할 수 있게 되었지만 잠겨 있어야 하는 이메일 Designer 의 오류를 수정했습니다.
 
 **패치**
 
 * 동적 보고에서 잘못된 게재 로그를 표시하는 문제를 해결했습니다. (CAMP-23446)
 * 바운스 요약 보고서의 숫자에 영향을 줄 수 있는 문제를 수정했습니다(CAMP-28703).
-* 을(를) 선택할 때 에셋이 표시되지 않도록 하는 Campaign 및 에셋 핵심 서비스 통합 문제를 해결했습니다 **[!UICONTROL Image shared from Adobe Experience Cloud]** (CAMP-28732).
+* 이메일에서 **[!UICONTROL Image shared from Adobe Experience Cloud]**&#x200B;을(를) 선택할 때 자산이 표시되지 않는 Campaign 및 Assets 핵심 서비스 통합 문제를 해결했습니다(CAMP-28732).
 * SMPP 외부 계정에서 음역이 승인된 경우에도 &#39;oe&#39; 문자가 포함된 SMS 메시지를 보낼 수 없는 문제를 해결했습니다. (CAMP-29041)
 * 워크플로우에서 세분화 활동을 사용할 때 중복 레코드를 표시할 수 있는 문제를 해결했습니다. (CAMP-28743)
 * 워크플로우 활동의 열에서 값 매핑 중 하나를 삭제할 수 없는 문제를 해결했습니다. (CAMP-28708)

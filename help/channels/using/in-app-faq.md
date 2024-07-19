@@ -34,19 +34,19 @@ ht-degree: 0%
 * 프로필 템플릿을 사용하여 작성한 메시지는 사용자가 앱에 로그인한 경우에만 제공될 수 있습니다.
 * 이 안전한 핸드셰이크를 용이하게 하기 위해 모바일 앱 개발자는 setLinkageField API를 사용하여 추가 인증 세부 정보를 전달해야 합니다. 연결 필드는 appSubscriberRcp 테이블을 확장하는 동안 모바일 프로필과 CRM 프로필 간의 링크로 식별되는 필드입니다.
 * 사용자가 resetLinkageField를 사용하여 앱에서 로그아웃할 때 디바이스에 저장된 인앱 메시지 및 resetLinkagefields를 플러시해야 합니다. 이렇게 하면 다른 사용자가 앱에 로그인하는 경우 이전 사용자를 위한 메시지가 표시되지 않습니다.
-* 을(를) 참조하십시오 [모바일 SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) 이 보안 메커니즘을 구현하려면 client side를 사용하십시오.
+* 이 보안 메커니즘 클라이언트측을 구현하려면 [모바일 SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)를 참조하십시오.
 
 ## Campaign에서 인앱 보고를 활성화하려면 어떻게 해야 합니까? {#enable-inapp-reporting}
 
-인앱 추적 포스트백을 구성해야 합니다. 지침을 찾을 수 있음 [여기](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
+인앱 추적 포스트백을 구성해야 합니다. 지침은 [여기](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)에서 찾을 수 있습니다.
 
-로컬 알림 추적을 구현하려면 다음을 참조하십시오. [페이지](../../administration/using/local-tracking.md).
+로컬 알림 추적을 구현하려면 이 [페이지](../../administration/using/local-tracking.md)를 참조하세요.
 
 ## 인앱 채널에 사용할 수 있는 보고서 {#report-inapp}
 
-Adobe Campaign for In-App channel에서 기본 보고서를 사용할 수 있습니다. 다음을 참조하십시오. [설명서](../../reporting/using/in-app-report.md).
+Adobe Campaign for In-App channel에서 기본 보고서를 사용할 수 있습니다. 이 [설명서](../../reporting/using/in-app-report.md)를 참조하세요.
 
-이 항목 보기 [페이지](../../reporting/using/indicator-calculation.md#in-app-delivery) 를 사용하여 각 인앱 지표를 계산하는 방법을 이해할 수 있습니다.
+각 인앱 지표를 계산하는 방법을 이해하려면 이 [페이지](../../reporting/using/indicator-calculation.md#in-app-delivery)를 참조하세요.
 
 ## 푸시와 유사한 인앱에 대한 다국어 콘텐츠 변형을 지원합니까? {#multilingual-inapp}
 
@@ -73,7 +73,7 @@ iOS에서 사용자 정의 사운드의 경우 로컬 알림을 생성할 때 �
 예. 딥링크는 인앱 메시지에서 지원됩니다. 딥링크는 다음을 포함해야 합니다.
 
 * 딥링크가 작동하려면 게재 추적을 비활성화해야 한다는 언어입니다.
-* 딥링크 추적을 수행할 수 있는 파트너로서 Branch와 함께 Appsflyer를 제공합니다. 분기 및 Adobe Campaign Standard 통합에 대한 자세한 내용은 다음을 참조하십시오. [페이지](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* 딥링크 추적을 수행할 수 있는 파트너로서 Branch와 함께 Appsflyer를 제공합니다. 분기 및 Adobe Campaign Standard 통합에 대한 자세한 내용은 이 [페이지](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)를 참조하세요.
 
 ## 사용자가 푸시 알림에서 앱을 실행할 때 인앱 메시지가 트리거될 수 있습니까? {#inapp-push-trigger}
 

@@ -1,5 +1,5 @@
 ---
-title: 열람 수
+title: 열람수
 description: 열기 보고서를 통해 다양한 기준에 따라 가장 많이 본 게재를 알아봅니다.
 audience: reporting
 content-type: reference
@@ -16,9 +16,9 @@ ht-degree: 9%
 
 ---
 
-# 열람 수{#opens}
+# 열람수{#opens}
 
-다음 **[!UICONTROL Opens]** 보고서는 수신자가 가장 많이 본 게재 항목을 식별합니다.
+**[!UICONTROL Opens]** 보고서는 수신자가 가장 많이 본 게재 항목을 식별합니다.
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ ht-degree: 9%
 * 플랫폼
 * 도메인
 
-다음 **[!UICONTROL TOP 5]** 테이블 및 그래프는 메시지가 가장 많이 게재된 게재 항목을 표시합니다.
+**[!UICONTROL TOP 5]** 테이블 및 그래프는 메시지가 가장 많이 게재된 게재 항목을 표시합니다.

@@ -38,13 +38,13 @@ ht-degree: 79%
 
 * [조정](../../automating/using/reconciliation.md) 활동은 가져온 데이터와 데이터베이스 사이에 링크를 만들어 트랜잭션 데이터가 프로필과 제품에 적절하게 연결되도록 합니다.
 * [데이터 업데이트](../../automating/using/update-data.md) 활동은 수신 데이터로 데이터베이스의 트랜잭션 리소스를 삽입하고 업데이트합니다.
-* An [종료](../../automating/using/start-and-end.md) 활동은 집계 업데이트에 사용되는 대상 워크플로우를 트리거합니다.
+* [End](../../automating/using/start-and-end.md) 활동은 집계 업데이트에 사용되는 대상 워크플로우를 트리거합니다.
 
 ![](assets/signal_example_source1.png)
 
 대상 워크플로우는 다음과 같이 표시됩니다.
 
-* An [외부 신호](../../automating/using/external-signal.md) 활동은 소스 워크플로우가 성공적으로 완료될 때까지 기다립니다.
+* [외부 신호](../../automating/using/external-signal.md) 활동은 원본 워크플로우가 성공적으로 완료될 때까지 기다립니다.
 * [쿼리](../../automating/using/query.md#enriching-data) 활동은 프로필을 타겟팅하고 마지막 구매 날짜를 검색하기 위해 컬렉션 집합으로 프로필을 보강합니다.
 * [데이터 업데이트](../../automating/using/update-data.md) 활동은 전용 사용자 지정 필드에 추가 데이터를 저장합니다. 프로필 리소스가 **마지막 구매 날짜** 필드를 추가하도록 확장되었습니다.
 

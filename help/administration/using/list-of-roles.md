@@ -27,10 +27,10 @@ ht-degree: 73%
 
   >[!NOTE]
   >
-  >Experience Cloud 트리거를 사용하여 작업하는 경우 **[!UICONTROL Administration]** Experience Cloud 트리거 메뉴에 액세스할 수 있는 권한. Experience Cloud 트리거에 대한 자세한 내용은 다음을 참조하십시오. [페이지](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+  >Experience Cloud 트리거를 사용하여 작업하는 경우 Experience Cloud 트리거 메뉴에 액세스할 수 있는 **[!UICONTROL Administration]** 권한이 필요합니다. Experience Cloud 트리거에 대한 자세한 내용은 이 [페이지](../../integrating/using/about-adobe-experience-cloud-triggers.md)를 참조하세요.
 
 * **[!UICONTROL Datamodel]**: 게시를 실행하고 사용자 지정 리소스를 만들 수 있는 권한.
-* **[!UICONTROL Generic import]**: 데이터에 대한 일반 가져오기를 실행할 수 있는 권한. 이를 수행하려면 다음을 연결해야 합니다. **[!UICONTROL Generic import]** 에 대한 역할 **[!UICONTROL Workflow]** 역할.
+* **[!UICONTROL Generic import]**: 데이터에 대한 일반 가져오기를 실행할 수 있는 권한. 이를 수행하려면 **[!UICONTROL Generic import]** 역할을 **[!UICONTROL Workflow]** 역할에 연결해야 합니다.
 * **[!UICONTROL Prepare deliveries]**: 게재 생성, 수정, 준비 및 삭제할 권한. 이 역할을 가진 사용자는 게재를 준비할 수는 있지만 보낼 수는 없습니다.
 * **[!UICONTROL Start deliveries]**: 게재 생성, 수정, 준비, 전송 및 삭제할 수 있는 권한.
 * **[!UICONTROL Workflow]**: 워크플로우 실행(시작, 중지, 일시 중지 등)을 관리할 수 있는 권한. 이 역할을 가진 사용자는 워크플로우에서도 게재를 보낼 수 없습니다.

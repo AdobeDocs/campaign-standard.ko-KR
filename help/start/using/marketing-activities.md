@@ -44,7 +44,7 @@ ht-degree: 79%
 
 * ![](assets/marketing_program_icon.png) 프로그램
 * ![](assets/marketing_campaign_icon.png) 캠페인
-* ![](assets/marketing_email_icon.png) 이메일
+* ![](assets/marketing_email_icon.png) 전자 메일
 * ![](assets/marketing_sms_icon.png) SMS
 * ![](assets/marketing_push_icon.png) 푸시 알림
 * ![](assets/marketing_lp_icon.png) 인앱 메시지
@@ -81,7 +81,7 @@ ht-degree: 79%
 
 컨텍스트에 따라 다음을 수행할 수 있습니다.
 
-* 이메일 만들기 - [자세히 알아보기](../../channels/using/creating-an-email.md)
+* 전자 메일 만들기 - [자세히 알아보기](../../channels/using/creating-an-email.md)
 * SMS 만들기 - [자세히 알아보기](../../channels/using/creating-an-sms-message.md)
 * 푸시 알림 만들기 - [자세히 알아보기](../../channels/using/preparing-and-sending-a-push-notification.md)
 * 인앱 메시지 만들기 - [자세히 알아보기](../../channels/using/about-in-app-messaging.md)

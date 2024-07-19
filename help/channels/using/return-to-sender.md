@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ![](assets/direct_mail_return_sender_1.png)
 
-가져오기 템플릿은에서 사용할 수 있습니다. **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. 이 템플릿을 복제하여 나만의 템플릿을 만듭니다. 가져오기 템플릿 사용에 대한 자세한 내용은 [가져오기 템플릿 사용](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
+가져오기 템플릿은 **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**&#x200B;에서 사용할 수 있습니다. 이 템플릿을 복제하여 나만의 템플릿을 만듭니다. 가져오기 템플릿 사용에 대한 자세한 내용은 [가져오기 템플릿 사용](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)을 참조하세요.
 
 ![](assets/direct_mail_return_sender_2.png)
 

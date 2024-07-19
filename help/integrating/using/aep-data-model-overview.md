@@ -29,11 +29,11 @@ XDM 스키마의 생성 및 관리는 전용 API 또는 XDM 사용자 인터페�
 
 ## XDM 작업 영역 {#xdm-workspace}
 
-XDM 작업 공간에서는 데이터 스키마를 보고, 만들고, 확장할 수 있습니다.
+XDM Workspace은 데이터 스키마를 보고, 만들고, 확장할 수 있는 기능을 제공합니다.
 
 XDM 사용자 인터페이스에 액세스하려면 Adobe Experience Platform을 엽니다. XDM 스키마를 생성하거나 확장하려면 데이터 모델 창으로 이동합니다.
 
-전체 참조 [XDM 작업 영역 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+전체 [XDM Workspace 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)를 참조하세요.
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ XDM 스키마 API를 통해 다음 작업을 수행할 수 있습니다.
 * 스키마 설명자 보기
 * 스키마 설명자 만들기, 업데이트 및 삭제
 
-API 호출 조작에 대한 모든 세부 정보는 [개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+API 호출 조작에 대한 모든 세부 정보는 [개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)에서 확인할 수 있습니다.

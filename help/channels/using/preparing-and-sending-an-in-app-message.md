@@ -58,9 +58,9 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. 인앱 메시지 속성을 입력하고 다음에서 모바일 앱을 선택합니다 **[!UICONTROL Associate a Mobile App to a delivery]** 필드.
+1. 인앱 메시지 속성을 입력하고 **[!UICONTROL Associate a Mobile App to a delivery]** 필드에서 모바일 앱을 선택합니다.
 
-   드롭다운 목록에 애플리케이션이 표시되지 않으면 모바일 애플리케이션이 **구성됨** 주. 의 애플리케이션 **구성 준비 완료** 주는 목록에 표시되지 않습니다. 모바일 애플리케이션 구성에 대한 자세한 내용은 이 [페이지](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)를 참조하십시오.
+   드롭다운 목록에 응용 프로그램이 표시되지 않으면 모바일 응용 프로그램이 **구성됨** 상태인지 확인하십시오. **구성 준비 완료** 상태의 응용 프로그램은 목록에 표시되지 않습니다. 모바일 애플리케이션 구성에 대한 자세한 내용은 이 [페이지](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)를 참조하십시오.
 
    ![](assets/inapp_creating_3.png)
 
@@ -92,7 +92,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
    ![](assets/inapp_creating_4.png)
 
-1. 를 사용하는 경우 **[!UICONTROL Analytics Events]**, Adobe Analytics 및 보기 상태 이벤트는 데이터 수집 UI의 Analytics 확장에 구성된 보고서 세트를 기반으로 자동으로 채워지는 반면, 컨텍스트 데이터 이벤트는 수동으로 추가해야 합니다.
+1. **[!UICONTROL Analytics Events]**&#x200B;을(를) 사용하는 경우 Adobe Analytics 및 보기 상태 이벤트는 데이터 수집 UI의 Analytics 확장에 구성된 보고서 세트를 기반으로 자동으로 채워지는 반면, 컨텍스트 데이터 이벤트는 수동으로 추가해야 합니다.
 
    이러한 이벤트는 Adobe Analytics 라이선스가 있는 경우에만 사용할 수 있습니다.
 
@@ -163,7 +163,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
 1. 인앱 메시지를 보낸 후 게재를 비활성화하도록 선택할 수 있습니다. 이 기능은 특정 게재를 중지하려는 경우 또는 예를 들어 동일한 트리거를 사용하여 새 게재를 실행하려는 경우 유용할 수 있습니다.
 
-   클릭 **[!UICONTROL Deactivate]** 그러면 **[!UICONTROL Ok]** 비활성화 요청을 시작합니다.
+   비활성화 요청을 시작하려면 **[!UICONTROL Deactivate]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/inapp_sending_8.png)
 

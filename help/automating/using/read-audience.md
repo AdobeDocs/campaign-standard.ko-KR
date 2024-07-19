@@ -41,7 +41,7 @@ ht-degree: 86%
 
    **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]**, **[!UICONTROL Experience Cloud]** 유형의 대상자를 검색할 수 있습니다. 대상자 유형에 대한 자세한 내용은 [대상자](../../audiences/using/about-audiences.md) 설명서를 참조하십시오.
 
-   **[!UICONTROL Use a dynamic audience]** 옵션을 사용하면 워크플로우의 이벤트 변수를 기반으로 타겟팅할 대상자의 이름을 정의할 수 있습니다. 자세한 내용은 다음을 참조하십시오. [이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 섹션.
+   **[!UICONTROL Use a dynamic audience]** 옵션을 사용하면 워크플로우의 이벤트 변수를 기반으로 타겟팅할 대상자의 이름을 정의할 수 있습니다. 자세한 정보는 [이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 섹션을 참조하세요.
 
    ![](assets/readaudience_activity1.png)
 

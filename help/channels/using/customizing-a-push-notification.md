@@ -42,9 +42,9 @@ ht-degree: 93%
 
    ![](assets/push_notif_advanced_7.png)
 
-1. 모바일 애플리케이션 패키지에 파일이 정의된 경우 알림을 전송할 때 사운드 파일이 재생됩니다. 다음으로 설정할 수 있습니다. **기본값** 를 클릭하여 장치의 기본 사운드를 재생합니다.
+1. 모바일 애플리케이션 패키지에 파일이 정의된 경우 알림을 전송할 때 사운드 파일이 재생됩니다. 장치의 기본 사운드를 재생하려면 **default**(으)로 설정할 수 있습니다.
 
-   다음과 같은 경우 **[!UICONTROL Play a sound]** 필드를 비워 두면 사운드가 재생되지 않습니다.
+   **[!UICONTROL Play a sound]** 필드를 비워 두면 소리가 재생되지 않습니다.
 
 그러면 사용자는 자신의 휴대 전화가 음소거되어 있지 않은 경우에만 푸시 알림과 사운드를 수신하게 됩니다.
 
@@ -113,7 +113,7 @@ ht-degree: 93%
 
 푸시 알림에 만료 날짜를 추가하려면 다음을 수행합니다.
 
-1. 다음 확인: **[!UICONTROL Expire message]** 옵션: **[!UICONTROL Expire message]** 옵션을 선택하면 지속 시간이 자동으로 0으로 설정됩니다. 값을 변경하지 않으면 APNS 및 FCM 모두 메시지를 즉시 보내려고 시도합니다. 실패하면 메시지가 다시 전송되지 않습니다.
+1. **[!UICONTROL Expire message]** 옵션을 선택하십시오. **[!UICONTROL Expire message]** 옵션을 선택하면 기간이 자동으로 0으로 설정됩니다. 값을 변경하지 않으면 APNS 및 FCM 모두 메시지를 즉시 보내려고 시도합니다. 실패하면 메시지가 다시 전송되지 않습니다.
 
 1. **[!UICONTROL Duration]** 필드에서 푸시 알림의 유효성을 선택합니다.
 
@@ -177,7 +177,7 @@ iOS 10 이상의 경우 푸시 알림의 **[!UICONTROL Advanced options]** 섹�
 
 **[!UICONTROL Content available]**&#x200B;이(가) 선택되면 푸시 알림을 받는 즉시 앱이 깨어날 수 있도록 푸시 페이로드에 사용 가능한 콘텐츠 플래그가 전송되어 앱이 페이로드 데이터에 액세스할 수 있게 됩니다. 이는 앱이 배경에서 실행 중이고 사용자 상호 작용이 필요 없는 경우(예: 푸시 알림을 누르는 경우)에도 적용되지만 앱이 실행되고 있지 않은 경우에는 적용되지 않습니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)를 참조하십시오.
 
-## Android의 알림 동작 변경 {#change-the-notification-behavior-for-android}
+## Android에 대한 알림 동작 변경 {#change-the-notification-behavior-for-android}
 
 Android의 경우 **리치 미디어 콘텐츠 URL** 필드에 파일의 URL을 입력할 수 있습니다. iOS 버전과 다르게 Android의 경우 gif가 아닌 이미지, 오디오 또는 비디오 파일만 포함할 수 있습니다.
 

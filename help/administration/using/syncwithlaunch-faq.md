@@ -15,25 +15,26 @@ ht-degree: 1%
 
 # Adobe Experience Platform 동기화의 태그 FAQ {#syncwithlaunch-faq}
 
-다음을 통해 태그 모바일 속성을 Adobe Campaign Standard으로 가져올 수 있습니다. **[!UICONTROL Sync with Launch]** 전용 기술 워크플로우입니다. 자세한 내용은 다음을 참조하십시오. [페이지](../../administration/using/technical-workflows.md)
+**[!UICONTROL Sync with Launch]** 전용 기술 워크플로우를 통해 태그 모바일 속성을 Adobe Campaign Standard으로 가져올 수 있습니다. 자세한 정보는 이 [페이지](../../administration/using/technical-workflows.md)를 참조하세요.
 
 아래 섹션에는 이 동기화에 대한 일반적인 질문이 나와 있습니다.
 
 ## 태그 속성(조직 단위 ALL의 관리자가 아닌 사용자)을 만들었습니다. 내 애플리케이션은 Adobe Campaign에서 구성 준비 상태이지만 열거나 구성할 수 없습니다. {#configuring-property}
 
-조직 단위 ALL의 관리자만 Adobe Campaign Standard에서 모바일 애플리케이션을 구성할 수 있습니다. 구성이 완료되면 할당된 조직 단위의 사용자만 애플리케이션을 편집할 수 있습니다. 조직 단위에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../../administration/using/organizational-units.md).
+조직 단위 ALL의 관리자만 Adobe Campaign Standard에서 모바일 애플리케이션을 구성할 수 있습니다. 구성이 완료되면 할당된 조직 단위의 사용자만 을(를) 편집할 수 있습니다.
+응용 프로그램. 조직 단위에 대한 자세한 내용은 이 [페이지](../../administration/using/organizational-units.md)를 참조하세요.
 
 ## Adobe Campaign Standard에서 구성된 모바일 애플리케이션을 편집할 수 없고 모바일 애플리케이션이 읽기 모드에만 있습니다. {#read-mode-mobile-app}
 
-에서 모바일 애플리케이션의 조직 구성 단위를 확인합니다. **[!UICONTROL Access Authorization]** 섹션. 할당된 조직 단위의 사용자만 모바일 애플리케이션을 편집할 수 있습니다.
+**[!UICONTROL Access Authorization]** 섹션에서 모바일 응용 프로그램의 조직 단위를 확인하십시오. 할당된 조직 단위의 사용자만 모바일 애플리케이션을 편집할 수 있습니다.
 
-조직 단위에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../../administration/using/organizational-units.md).
+조직 단위에 대한 자세한 내용은 이 [페이지](../../administration/using/organizational-units.md)를 참조하세요.
 
 ## Adobe Campaign Standard에서 조직 단위 ALL을 사용하는 관리자이지만 모바일 애플리케이션을 구성할 수 없습니다. {#org-unit-mobile}
 
 조직 단위가 ALL로 설정된 관리자는 모바일 애플리케이션을 구성할 수 있는 모든 태그 모바일 속성에 대한 권한이 있어야 합니다.
 
-조직 단위에 대한 자세한 내용은 다음을 참조하십시오 [페이지](../../administration/using/organizational-units.md).
+조직 단위에 대한 자세한 내용은 이 [페이지](../../administration/using/organizational-units.md)를 참조하세요.
 
 ## 태그 모바일 속성을 만들었지만 내 속성이 Adobe Campaign Standard에 표시되지 않습니다. {#visibility-mobile-property}
 
@@ -43,13 +44,13 @@ ht-degree: 1%
 
 1. &#39;Launch_URL_Campaign&#39; 또는 &#39;NmsServer_URL&#39;이 올바른지 확인하십시오.
 
-1. 그런 다음 동기화가 완료되었는지 확인합니다. **[!UICONTROL syncWithLaunch]** 기술 워크플로우입니다.
+1. 그런 다음 **[!UICONTROL syncWithLaunch]** 기술 워크플로우로 동기화가 완료되었는지 확인합니다.
 
 ## Adobe Experience Platform의 Adobe Campaign과 태그 간의 동기화가 완료되었는지 확인하는 방법 {#sync-campaign-launch}
 
-1. Adobe Campaign Standard의 고급 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. Adobe Campaign Standard의 고급 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**&#x200B;을(를) 선택합니다.
 
-1. 를 엽니다. **[!UICONTROL syncWithLaunch]** 워크플로입니다.
+1. **[!UICONTROL syncWithLaunch]** 워크플로를 엽니다.
 
 1. 워크플로우가 오류 없이 종료되었는지 확인합니다.
 
@@ -69,14 +70,14 @@ ht-degree: 1%
 
 1. 저장하고 워크플로우 동기화를 다시 실행합니다.
 
-1. 이 후에만 속성이에 표시됩니다. **[!UICONTROL Ready to Configure]** Adobe Campaign의 상태이며, 이제 구성할 수 있습니다.
+1. 이 경우에만 속성이 Adobe Campaign에서 **[!UICONTROL Ready to Configure]** 상태로 나타나며 이제 구성할 수 있습니다.
 
 ## Adobe Campaign에서 모바일 속성을 구성하려고 합니다. 기술 워크플로우가 Adobe Experience Platform과 Adobe Campaign의 태그 간에 동기화될 때까지 기다려야 합니까?
 
 워크플로우를 즉시 실행할 수 있습니다.
 
-1. Adobe Campaign Standard의 고급 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. Adobe Campaign Standard의 고급 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**&#x200B;을(를) 선택합니다.
 
-1. 를 엽니다. **[!UICONTROL syncWithLaunch]** 워크플로입니다.
+1. **[!UICONTROL syncWithLaunch]** 워크플로를 엽니다.
 
-1. 을(를) 클릭합니다 **[!UICONTROL Scheduler]** 활동 및 선택 **[!UICONTROL Immediate execution]**.
+1. **[!UICONTROL Scheduler]** 활동을 클릭하고 **[!UICONTROL Immediate execution]**&#x200B;을(를) 선택합니다.

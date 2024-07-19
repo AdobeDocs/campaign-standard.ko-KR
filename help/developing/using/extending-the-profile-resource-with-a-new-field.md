@@ -27,7 +27,7 @@ ht-degree: 92%
 
 * [1단계: 프로필 리소스 확장](#step-1--extend-the-profile-resource)
 * [2단계: 테스트 프로필 확장](#step-2--extend-the-test-profile)
-* [3단계: 사용자 지정 리소스 게시](#step-3--publish-your-custom-resource)
+* [3단계: 사용자 지정 리소스 Publish](#step-3--publish-your-custom-resource)
 * [4단계: 워크플로우를 통해 프로필 업데이트 및 타겟팅](#step-4--update-and-target-profiles-with-a-workflow)
 
 그러면 프로필에 다음 필드가 추가되어 게재 시 타겟팅할 수 있습니다.
@@ -119,7 +119,7 @@ ht-degree: 92%
 
 이제 프로필과 테스트 프로필 모두에서 새 필드를 사용할 수 있습니다. 올바르게 구성될 수 있도록 사용자 정의 리소스를 게시해야 합니다.
 
-## 3단계: 사용자 지정 리소스 게시 {#step-3--publish-your-custom-resource}
+## 3단계: 사용자 지정 리소스 Publish {#step-3--publish-your-custom-resource}
 
 리소스 변경 사항을 적용하고 리소스를 사용하려면 데이터베이스 업데이트를 수행해야 합니다.
 

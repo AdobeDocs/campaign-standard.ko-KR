@@ -64,7 +64,7 @@ ht-degree: 90%
 
 Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [트리거]를 만들어야 합니다.
 
-1. Adobe Campaign에서 [트리거]를 만들려면 **Adobe** 로고, 왼쪽 상단 모서리에서 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Adobe Campaign에서 [트리거]를 만들려면 왼쪽 상단 모서리에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**&#x200B;을(를) 선택합니다.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [�
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. 메시지 템플릿을 표시하려면 **[!UICONTROL More]** 단추를 클릭하고 오른쪽 상단에서 **[!UICONTROL Trigger Transactional Template]**.
+1. 메시지 템플릿을 표시하려면 오른쪽 상단의 **[!UICONTROL More]** 단추를 클릭한 다음 **[!UICONTROL Trigger Transactional Template]**&#x200B;을(를) 클릭합니다.
 
 1. 콘텐츠 및 발신자 세부 정보를 개인화합니다.
 

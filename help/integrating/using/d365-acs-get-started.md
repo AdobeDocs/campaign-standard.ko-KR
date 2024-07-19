@@ -37,7 +37,7 @@ Microsoft Dynamics 365와 Adobe Campaign Standard을 통합하면 CRM 시스템�
 
 반대로 Adobe Campaign Standard 내의 프로필이 메시지와 상호 작용할 때 그러한 데이터(예: 전송, 열기, 클릭 및 바운스)는 자동으로 Microsoft Dynamics 365로 흘러들어 마케팅 활동에서도 연락처 레코드를 완료합니다.
 
-통합은 또한 활성화를 지원합니다 [사용자 지정 엔티티](../../integrating/using/d365-acs-self-service-app-settings.md) 해당 항목에 동기화될 Dynamics 365에서 **사용자 정의 리소스** Campaign에서
+또한 통합은 Dynamics 365의 [사용자 지정 엔터티](../../integrating/using/d365-acs-self-service-app-settings.md)을(를) Campaign의 해당 **사용자 지정 리소스**&#x200B;과(와) 동기화할 수 있도록 지원합니다.
 
 이 통합은 네 가지 주요 사용 사례를 지원하기 위해 설계되었습니다.
 
@@ -69,27 +69,27 @@ Microsoft Dynamics 365와 Adobe Campaign Standard을 통합하면 CRM 시스템�
 
 순서도 세부 정보(위의 단계로 매핑):
 
-* **1단계** - 판매 및 Adobe Campaign Standard용 Microsoft Dynamics 365 라이선스가 이미 있거나 구매 중이라고 가정합니다.
-* **2단계** - 표준 통합 오퍼링은 모든 고객에게 무료입니다. 그러나 요구 사항에 따라 추가 비용이 발생할 수 있습니다. 자세히 알아보기 [우수 사례 및 제한 사항](../../integrating/using/d365-acs-notices-and-recommendations.md). 원래 SO에 포함되지 않은 경우 통합을 활용하려면 새 판매 주문(SO)에 서명해야 합니다.
-* **3단계** - Dynamics 365 및 Campaign의 통합 전 단계를 완료합니다. 다음을 참조하십시오 [이 통합 구성](#configure-this-integration).
-* **4단계** - Adobe 온보딩 팀이 통합 애플리케이션 UI(사용자 인터페이스)에 대한 액세스 권한을 제공합니다.
-* **5단계** - 데이터 매핑, 대체 요소, 필터 등을 구성할 수 있습니다. 통합 애플리케이션 UI 내에서 통합을 테스트합니다.
+* **1단계** - 판매 및 Adobe Campaign Standard용 Microsoft Dynamics 365 라이선스가 이미 있거나 구매 중인 것으로 간주됩니다.
+* **2단계** - 표준 통합 제공 서비스는 모든 고객에게 무료입니다. 그러나 요구 사항에 따라 추가 비용이 발생할 수 있습니다. [모범 사례 및 제한 사항](../../integrating/using/d365-acs-notices-and-recommendations.md)에 대해 자세히 알아보세요. 원래 SO에 포함되지 않은 경우 통합을 활용하려면 새 판매 주문(SO)에 서명해야 합니다.
+* **3단계** - Dynamics 365 및 Campaign의 사전 통합 단계를 완료합니다. [이 통합 구성](#configure-this-integration)을 참조하세요.
+* **4단계** - Adobe 온보딩 팀이 통합 응용 프로그램 UI(사용자 인터페이스)에 대한 액세스 권한을 제공합니다.
+* **5단계** - 데이터 매핑, 교체, 필터 등을 구성할 수 있습니다. 통합 애플리케이션 UI 내에서 통합을 테스트합니다.
 
   >[!IMPORTANT]
   >
-  > Dynamics 365에 대한 양방향 또는 캠페인 옵트아웃 구성이 필요한 경우 Adobe 기술 담당자에게 요청하여 Campaign 인스턴스에 옵트아웃 워크플로우를 설정해야 합니다. [자세히 알아보기](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out)
+  > Dynamics 365에 대한 양방향 또는 캠페인 옵트아웃 구성이 필요한 경우 Adobe 기술 담당자에게 요청하여 Campaign 인스턴스에 옵트아웃 워크플로우를 설정해야 합니다. [자세히 알아보기](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 ### 이 통합 구성 {#configure-this-integration}
 
 이 통합을 위해 세 가지 시스템을 프로비저닝하고 구성해야 합니다.
 
-* **Adobe Campaign Standard**: API 액세스를 설정하고 통합 도구에 대한 새 통합을 구성해야 합니다. 이를 달성하려면 다음을 참조하십시오. [이 문서](../../integrating/using/d365-acs-configure-adobe-io.md).
-* **Microsoft Dynamics 365**: 앱 등록을 새로 만들고 애플리케이션 사용자가 통합을 사용할 수 있도록 해야 합니다.  이 통합을 위해 Microsoft Dynamics 365를 구성하려면 다음을 참조하십시오. [이 문서](../../integrating/using/d365-acs-configure-d365.md).
-* **Microsoft Dynamics 365 셀프 서비스 앱과 Adobe Campaign Standard 통합**: 의 단계를 따라야 합니다 [이 문서](../../integrating/using/d365-acs-self-service-app-control-access.md).
+* **Adobe Campaign Standard**: API 액세스를 설정하고 통합 도구에 대한 새 통합을 구성해야 합니다. 이렇게 하려면 [이 문서](../../integrating/using/d365-acs-configure-adobe-io.md)를 참조하세요.
+* **Microsoft Dynamics 365**: 앱 등록을 새로 만들고 응용 프로그램 사용자가 통합을 사용할 수 있도록 설정해야 합니다.  이 통합을 위해 Microsoft Dynamics 365를 구성하려면 [이 문서](../../integrating/using/d365-acs-configure-d365.md)을 참조하십시오.
+* **Microsoft Dynamics 365 셀프 서비스 앱과 Adobe Campaign Standard 통합**: [이 문서](../../integrating/using/d365-acs-self-service-app-control-access.md)의 단계를 따라야 합니다.
 
 >[!IMPORTANT]
 >
->각 시스템에 대해 다음 단계는 **관리자**.
+>각 시스템에 대해 **관리자**&#x200B;가 이러한 단계를 수행해야 합니다.
 >
 >이 설명서의 단계는 권한 및/또는 관리자 액세스 권한을 지정하는 것과 관련된 통합/등록을 만드는 과정을 안내합니다.  이러한 단계는 수행하기 전에 회사 정책을 준수하고 신중하게 수행해야 합니다.
 >
@@ -101,7 +101,7 @@ Microsoft Dynamics 365와 Adobe Campaign Standard을 통합하면 CRM 시스템�
 통합 데이터 흐름과 관련된 문제의 경우 다음 정보를 포함해야 합니다.
 
 * **프로세스 소유자**: 엔지니어링 설계자
-* **ES 프로세스 ID**: 온보딩 프로세스 중에 제공됩니다
+* **ES 프로세스 ID**: 온보딩 프로세스 중 제공됨
 * **프로세스 제목**: Microsoft Dynamics 365 / Adobe Campaign Standard 통합
 * **문제 설명**: 문제에 대한 설명
 

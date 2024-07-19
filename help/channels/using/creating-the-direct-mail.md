@@ -60,7 +60,7 @@ DM 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사
 
 1. 테스트 프로필을 추가한 경우([테스트 및 트랩 프로필 추가](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles) 참조) 최종 파일을 준비하기 전에 게재를 테스트할 수 있습니다. 선택한 테스트 프로필만 포함된 샘플 파일을 만들 수 있습니다.
 
-   **[!UICONTROL Test]**&#x200B;을(를) 클릭하여 샘플 파일을 생성합니다. 클릭 **[!UICONTROL Summary]**&#x200B;왼쪽 상단 모서리에서 을(를) 선택한 다음 을(를) 선택합니다 **[!UICONTROL Proofs]**. 화면 왼쪽에서 증명을 선택하고 **[!UICONTROL Download file]**&#x200B;을(를) 클릭합니다 .
+   **[!UICONTROL Test]**&#x200B;을(를) 클릭하여 샘플 파일을 생성합니다. 왼쪽 상단 모서리에서 **[!UICONTROL Summary]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Proofs]**&#x200B;을(를) 선택합니다. 화면 왼쪽에서 증명을 선택하고 **[!UICONTROL Download file]**&#x200B;을(를) 클릭합니다 .
 
    >[!NOTE]
    >

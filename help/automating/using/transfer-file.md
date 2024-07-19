@@ -54,17 +54,17 @@ ht-degree: 75%
    * [Microsoft Azure Blob 저장소](#azure-blob-configuration-wf)
    * [Adobe Campaign 서버에 있는 파일](#files-server-configuration-wf)
 
-1. 다음 **[!UICONTROL Additional options]** 선택한 프로토콜에 따라 활성화되는 섹션에서 프로토콜에 매개 변수를 추가할 수 있습니다.
+1. 선택한 프로토콜에 따라 사용 가능한 **[!UICONTROL Additional options]** 섹션을 사용하면 프로토콜에 매개 변수를 추가할 수 있습니다.
 
    다음을 수행할 수 있습니다.
 
-   * **[!UICONTROL Delete the source files after transfer]**: 원격 서버의 파일을 지웁니다. 이 옵션을 선택하지 않은 상태로 두면 SFTP 디렉토리에서 보관된 콘텐츠의 크기를 수동으로 모니터링해야 합니다.
+   * **[!UICONTROL Delete the source files after transfer]**: 원격 서버의 파일을 삭제합니다. 이 옵션을 선택하지 않은 상태로 두면 SFTP 디렉토리에서 보관된 콘텐츠의 크기를 수동으로 모니터링해야 합니다.
 
    * **[!UICONTROL Sorting files]**: 파일을 알파벳순으로 정렬할 수 있습니다. 이 옵션은 기본적으로 비활성화되어 있습니다.
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**: 이 옵션은 다음을 선택할 때 사용할 수 있습니다. **[!UICONTROL File listing]** 의 작업 **[!UICONTROL General]** 탭. 이 옵션을 통해 서버에 있는 모든 파일을 **변수.파일명** 이벤트 변수로 색인화할 수 있습니다. 이때 파일 이름은 **&#39;n&#39;** 문자로 구분됩니다.
+   * **[!UICONTROL List all files]**: 이 옵션은 **[!UICONTROL General]** 탭에서 **[!UICONTROL File listing]** 작업을 선택할 때 사용할 수 있습니다. 이 옵션을 통해 서버에 있는 모든 파일을 **변수.파일명** 이벤트 변수로 색인화할 수 있습니다. 이때 파일 이름은 **&#39;n&#39;** 문자로 구분됩니다.
 
 1. **[!UICONTROL Advanced options]** 탭의 **[!UICONTROL If no files are found]** 섹션에서 활동 시작 시 오류 또는 존재하지 않는 파일이 감지될 경우 실행할 작업을 구성할 수 있습니다.
 
@@ -78,20 +78,20 @@ ht-degree: 75%
 
 HTTP 프로토콜을 통해 외부 계정 또는 URL에서 파일 다운로드를 시작할 수 있습니다.
 
-이 프로토콜을 사용하면 다음을 선택할 수 있습니다. **[!UICONTROL Use connection parameters defined in an external account]** 옵션을 선택합니다. 이 경우 원하는 계정을 선택하고 다운로드할 파일의 경로를 지정합니다.
+이 프로토콜을 사용하면 **[!UICONTROL Use connection parameters defined in an external account]** 옵션을 선택할 수 있습니다. 이 경우 원하는 계정을 선택하고 다운로드할 파일의 경로를 지정합니다.
 
 ![](assets/wkf_file_transfer_03.png)
 
 **[!UICONTROL Quick configuration]** 옵션을 선택할 수도 있습니다. URL 필드에 URL을 입력하기만 하면 됩니다.
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**, 및 **[!UICONTROL Add received HTTP headers to the file]** HTTP 프로토콜을 선택할 때 사용할 수 있는 추가 옵션입니다.
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]** 및 **[!UICONTROL Add received HTTP headers to the file]**&#x200B;은(는) HTTP 프로토콜을 선택할 때 사용할 수 있는 추가 옵션입니다.
 
 ### SFTP를 사용한 구성 {#SFTP-configuration-wf}
 
 SFTP 프로토콜을 통해 URL 또는 외부 계정에서 파일 다운로드를 시작할 수 있습니다.
 
-이 프로토콜을 사용하면 다음을 선택할 수 있습니다. **[!UICONTROL Use connection parameters defined in an external account]** 옵션을 선택한 다음 원하는 계정을 선택하고 다운로드할 파일의 경로를 지정합니다.
+이 프로토콜을 사용하면 **[!UICONTROL Use connection parameters defined in an external account]** 옵션을 선택한 다음 원하는 계정을 선택하고 다운로드할 파일의 경로를 지정할 수 있습니다.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -116,7 +116,7 @@ Amazon S3 프로토콜을 사용하면 URL 또는 외부 계정에서 Amazon Sim
    >
    > 와일드카드는 Amazon S3에서 지원되지 않습니다.
    >
-   > 다음과 같은 여러 파일을 타겟팅하려면 `my_file_02` 및 `my _file_3433`, 다음 구문을 사용할 수 있습니다. `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > `my_file_02` 및 `my _file_3433`과(와) 같은 여러 파일을 대상으로 하려면 `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_` 구문을 사용할 수 있습니다.
 
 4. 전송이 완료되었을 때 소스 파일을 삭제하려면 **[!UICONTROL Delete the source files after transfer]**&#x200B;을(를) 선택합니다.
 
@@ -154,11 +154,11 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 
 예제:
 
-`user&lt;yourinstancename>/my_recipients.csv` 맞습니다.
+`user&lt;yourinstancename>/my_recipients.csv`이(가) 올바릅니다.
 
-`../hello/my_recipients.csv` 은(는) 잘못되었습니다.
+`../hello/my_recipients.csv`이(가) 잘못되었습니다.
 
-`//myserver/hello/myrecipients.csv` 은(는) 잘못되었습니다.
+`//myserver/hello/myrecipients.csv`이(가) 잘못되었습니다.
 
 ## 내역 설정 {#historization-settings}
 
@@ -180,9 +180,9 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 
 ## 출력 변수 {#output-variables}
 
-다음 **[!UICONTROL Transfer file]** 활동은 다른 활동에서 활용할 수 있는 이벤트 변수를 출력으로 생성합니다(예: 를 사용하여 다운로드한 파일의 수를 확인). [테스트](../../automating/using/test.md) 활동.
+**[!UICONTROL Transfer file]** 활동은 다른 활동에서 활용할 수 있는 이벤트 변수를 출력으로 생성합니다. 예를 들어 [Test](../../automating/using/test.md) 활동을 사용하여 다운로드한 파일의 수를 확인할 수 있습니다.
 
-이벤트 변수는 외부 신호를 사용하여 다른 워크플로우에 전달할 수도 있습니다( 참조) [외부 매개 변수를 사용하여 워크플로우 사용자 정의](../../automating/using/customizing-workflow-external-parameters.md)).
+이벤트 변수는 외부 신호를 사용하여 다른 워크플로우로 전달할 수도 있습니다([외부 매개 변수를 사용하여 워크플로우 사용자 지정](../../automating/using/customizing-workflow-external-parameters.md) 참조).
 
 사용 가능한 출력 변수는 다음과 같습니다.
 

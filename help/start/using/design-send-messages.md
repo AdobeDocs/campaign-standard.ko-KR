@@ -71,18 +71,18 @@ Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libe
 
 개인화된 메시지는 관련 콘텐츠를 전송하고, 개인화된 경험을 제공하고, 개방성과 전환율을 높이기 위한 핵심입니다. Adobe Campaign에서 제공하는 크로스 채널 메시지는 여러 가지 방법으로 개인화할 수 있습니다. 이러한 방법은 프로필에 따라 기준과 결합할 수 있습니다. 다음을 수행할 수 있습니다.
 
-* 삽입 [동적 개인화 필드](../../designing/using/personalization.md#inserting-a-personalization-field) 메시지 내
-* 삽입 [사전 정의된 개인화 블록](../../designing/using/personalization.md#adding-a-content-block)
-* [보낸 사람 개인화](../../designing/using/subject-line.md) 이메일 또는 SMS
-* [제목 줄 개인화](../../designing/using/subject-line.md) 이메일의
-* 만들기 [이메일의 조건부 콘텐츠](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 또는 [랜딩 페이지에서](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* 삽입 [다이내믹 텍스트](../../channels/using/defining-dynamic-text.md) SMS 메시지 또는 푸시 알림
+* 메시지에 [동적 개인화 필드](../../designing/using/personalization.md#inserting-a-personalization-field) 삽입
+* [미리 정의된 개인화 블록](../../designing/using/personalization.md#adding-a-content-block) 삽입
+* 전자 메일 또는 SMS의 [보낸 사람 개인화](../../designing/using/subject-line.md)
+* 전자 메일의 [제목 줄 개인화](../../designing/using/subject-line.md)
+* [전자 메일에 조건부 콘텐츠 만들기](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 또는 [랜딩 페이지에서 만들기](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* SMS 메시지 또는 푸시 알림에 [동적 텍스트](../../channels/using/defining-dynamic-text.md) 삽입
 
 ![](assets/delivery_content_43.png)
 
 **자세히 보기**
 
-* 다음을 통해 이메일 개인화 살펴보기 [엔드투엔드 샘플](../../designing/using/personalization.md#example-email-personalization)
+* [전체 샘플](../../designing/using/personalization.md#example-email-personalization)을 통해 전자 메일 개인화 살펴보기
 * [URL 개인화](../../designing/using/personalization.md#personalizing-urls)
 * [이미지 개인화 설정](../../designing/using/personalization.md#personalizing-an-image-source)
 

@@ -141,7 +141,7 @@ ht-degree: 27%
                </tr>
                <tr>
                   <td>생성됨</td>
-                  <td>생성됨</td>
+                  <td>생성일</td>
                   <td>일자 </td>
                   <td> </td>
                </tr>
@@ -303,7 +303,7 @@ ht-degree: 27%
                </tr>
                <tr>
                   <td>마지막 수정일</td>
-                  <td>마지막 수정</td>
+                  <td>마지막 수정일</td>
                   <td>일자 </td>
                   <td> </td>
                </tr>
@@ -490,15 +490,15 @@ ht-degree: 27%
                         <li>실패 - 실패 - 87</li>
                         <li>진행 중 - 시작됨 - 55</li>
                         <li>타깃팅 보류 중 - targetPrepPending - 11</li>
-                        <li>개인화 보류 중 - messagePrepPending - 21</li>
+                        <li>Personalization 보류 중 - messagePrepPending - 21</li>
                         <li>일시 중지됨 - 일시 중지됨 - 75</li>
                         <li>편집 - 편집 - 0</li>
                         <li>완료됨 - 완료됨 - 95</li>
                         <li>계산 진행 중 - targetSelection - 12</li>
                         <li>메시지 완료됨 - messageReady - 25</li>
-                        <li>개인화 또는 계산 실패 - preparationError - 37</li>
+                        <li>Personalization 또는 개수 실패 - preparationError - 37</li>
                         <li>중지됨 - 취소됨 - 85</li>
-                        <li>개인화 진행 중 - messagePreparation - 22</li>
+                        <li>Personalization 진행 중 - messagePreparation - 22</li>
                         <li>Target 준비 - targetReady - 15</li>
                         <li>잘못된 값 - __Invalid_value__ - __Invalid_value__</li>
                         <li>중재 진행 중 - targetArbitration - 13</li>

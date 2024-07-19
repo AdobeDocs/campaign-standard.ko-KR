@@ -21,15 +21,15 @@ ht-degree: 18%
 >
 >교환된 데이터에 따라 Adobe Campaign에서 수입하는 대상자는 법적 제한을 받을 수 있습니다.
 
-Adobe Campaign을 사용하면 대상자/세그먼트를 다른 Adobe Experience Cloud 애플리케이션과 교환하고 공유할 수 있습니다. 통합 중 **Adobe Campaign** 포함 **사용자 핵심 서비스** (또한으로 알려짐) **프로필 및 대상자 핵심 서비스**) 또는 Adobe Audience Manager을 사용하여 다음을 수행할 수 있습니다.
+Adobe Campaign을 사용하면 대상자/세그먼트를 다른 Adobe Experience Cloud 애플리케이션과 교환하고 공유할 수 있습니다. **Adobe Campaign**&#x200B;을(를) **People 핵심 서비스**(**프로필 및 대상 핵심 서비스**&#x200B;라고도 함) 또는 Adobe Audience Manager과 통합하면 다음 작업을 수행할 수 있습니다.
 
-* 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져옵니다. 대상에서 대상을 가져올 수 있습니다. **[!UICONTROL Audiences]** Adobe Campaign의 메뉴입니다.
-* 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상자는 사용하고 있는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. 대상자는 워크플로우에서 활동을 타겟팅한 후 을 사용하여 내보낼 수 있습니다. **[!UICONTROL Save audience]** 활동.
+* 다양한 Adobe Experience Cloud 솔루션의 대상/세그먼트를 Adobe Campaign으로 가져옵니다. 대상은 Adobe Campaign의 **[!UICONTROL Audiences]** 메뉴에서 가져올 수 있습니다.
+* 대상을 공유 대상/세그먼트로 내보냅니다. 이러한 대상자는 사용하고 있는 여러 Adobe Experience Cloud 솔루션에서 사용할 수 있습니다. 대상은 워크플로우에서 활동을 타깃팅한 후 **[!UICONTROL Save audience]** 활동을 사용하여 내보낼 수 있습니다.
 
 통합은 두 가지 유형의 Adobe Experience Cloud ID를 지원합니다.
 
 * **방문자 ID**: 이 유형의 ID를 사용하면 Adobe Experience Cloud 방문자와 Adobe Campaign 프로필을 조정할 수 있습니다. Adobe IMS를 통해 연결이 활성화되는 즉시 Marketing Cloud 방문자 ID 서비스 가 활성화되고, 이는 Adobe Campaign에서 사용하는 영구 쿠키를 대체합니다. 이렇게 하면 방문자를 식별한 다음 프로필에 연결할 수 있습니다.
-  <br>방문자 ID는 Adobe Campaign을 통해 전송된 이메일에서 프로필이 클릭되는 즉시 프로필에 연결됩니다.
+  <br>Adobe Campaign을 통해 보낸 전자 메일에서 프로필이 클릭되는 즉시 방문자 ID가 프로필에 연결됩니다.
    * 프로필에 이미 방문자 ID가 있는 경우 프로필의 브라우저 데이터를 사용하여 Adobe Campaign에서 복구하고 프로필을 방문자 ID에 자동으로 연결할 수 있습니다.
    * 방문자 ID가 없으면 새 ID가 만들어집니다. 이 방문자 ID는 프로필 추적 로그에 저장됩니다.
 

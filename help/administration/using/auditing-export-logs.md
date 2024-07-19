@@ -15,9 +15,9 @@ ht-degree: 5%
 
 # 내보내기 로그 감사{#auditing-export-logs}
 
-출처: **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, 관리자는 날짜 및 내보내기를 수행한 사용자를 포함하여 다음 모든 내보내기 목록을 볼 수 있습니다.
+관리자는 **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**&#x200B;에서 날짜 및 내보내기를 수행한 사용자를 포함하여 다음 모든 내보내기 목록을 볼 수 있습니다.
 
-* 에서 파일 업로드 **[!UICONTROL Transfer file]** 워크플로우의 활동.
+* 워크플로우의 **[!UICONTROL Transfer file]** 활동에서 파일을 업로드합니다.
 * 목록 또는 하위 목록에서 목록 내보내기.
 * 다이렉트 메일 메시지의 게재 대시보드에서 다운로드한 파일.
 
@@ -27,4 +27,4 @@ ht-degree: 5%
 
 왼쪽 창에서 필요에 따라 표시할 내보내기를 필터링할 수 있습니다.
 
-에 설명된 대로 목록을 별도의 파일로 내보낼 수 있습니다. [목록 내보내기](../../automating/using/exporting-lists.md) 섹션.
+[목록 내보내기](../../automating/using/exporting-lists.md) 섹션에 설명된 대로 목록을 별도의 파일로 내보낼 수 있습니다.

@@ -28,10 +28,10 @@ Adobe Campaign Standard과 Adobe Analytics 간의 이러한 통합을 통해 다
 
 이 통합은 이메일 게재에만 사용할 수 있습니다.
 
-Adobe Analytics의 핵심 서비스 간 통합 **트리거** 그리고 Adobe Campaign도 사용할 수 있습니다. Adobe Analytics이 웹 사이트에서 특정 행동을 추적하면(15분 이내), 이에 대한 응답으로 고객에게 개인화된 이메일을 보낼 수 있습니다.
+Adobe Analytics의 핵심 서비스 **트리거**&#x200B;와(과) Adobe Campaign 간의 통합도 사용할 수 있습니다. Adobe Analytics이 웹 사이트에서 특정 행동을 추적하면(15분 이내), 이에 대한 응답으로 고객에게 개인화된 이메일을 보낼 수 있습니다.
 
 **관련 항목:**
 
-* [Analytics에 대한 Campaign Standard 통합 개요](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [Analytics 통합에 대한 Campaign Standard 개요](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
 * [Campaign Standard 통합 구성](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Analytics에서 Campaign 차원 및 지표 보기](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

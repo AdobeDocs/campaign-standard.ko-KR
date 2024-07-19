@@ -61,7 +61,7 @@ Microsoft Dynamics 365 셀프서비스 통합 애플리케이션과 Adobe Campai
 ## 개인 정보 보호 요청 승인 {#self-service-app-acknowledgement}
 
 셀프서비스 UI를 처음 탐색하면 개인 정보 보호 승인이 표시됩니다. 계속하려면 먼저 Campaign 및 Microsoft Dynamics 365에서 개별적으로 개인 정보 요청을 수행하는 역할을 이해했음을 확인해야 합니다.
-개인 정보 보호 책임에 대해 자세히 알아보고 의 개인 정보 보호 요청 관리 방법에 대해 자세히 알아보십시오 [이 섹션](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+개인 정보 보호 책임에 대해 자세히 알아보고 [이 섹션](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)에서 개인 정보 보호 요청을 관리하는 방법에 대해 자세히 알아보세요.
 
 ## 자격 증명 설정 {#self-service-app-credentials}
 
@@ -77,40 +77,40 @@ UI를 처음 탐색하면 다음과 같은 머리글이 있는 페이지가 표�
 
 >[!IMPORTANT]
 >
-> 커넥터를 처음 구성하는 경우 및/또는 이 프로세스를 처음 사용하는 경우 **강력하게** &quot;stage&quot; 또는 &quot;dev&quot; 인스턴스를 선택하도록 요청합니다. 프로덕션에서 설정을 시도하기 전에 구성이 제대로 작동하는지 확인해야 합니다.
+> 커넥터를 처음 구성하는 경우 및/또는 이 프로세스를 처음 사용하는 경우 **강력하게**&#x200B;하여 &quot;stage&quot; 또는 &quot;dev&quot; 인스턴스를 선택해 주십시오. 프로덕션에서 설정을 시도하기 전에 구성이 제대로 작동하는지 확인해야 합니다.
 
-올바른 조직과 인스턴스가 있는 경우 &quot;햄버거&quot; 메뉴를 클릭하여 드롭다운 메뉴를 표시합니다. 그런 다음 **[!UICONTROL Settings...]** 드롭다운 메뉴에서 Microsoft Dynamics 365 및 Campaign에 대한 자격 증명을 입력하는 페이지를 방문합니다(아래 참조).
+올바른 조직과 인스턴스가 있는 경우 &quot;햄버거&quot; 메뉴를 클릭하여 드롭다운 메뉴를 표시합니다. 그런 다음 드롭다운 메뉴에서 **[!UICONTROL Settings...]**&#x200B;을(를) 클릭하여 Microsoft Dynamics 365 및 Campaign에 대한 자격 증명을 입력하는 페이지를 방문합니다(아래 참조).
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
-다음에서 **[!UICONTROL Settings]** 페이지에서 다음 섹션을 채웁니다.
+**[!UICONTROL Settings]** 페이지에서 다음 섹션을 작성하십시오.
 
 * Microsoft Dynamics 365 자격 증명
 * Adobe 자격 증명
 
-이동 [여기](../../integrating/using/d365-acs-self-service-app-settings.md) 각 입력에 대한 정보를 찾을 위치에 대한 자세한 정보를 제공합니다. 완료되면 다음을 클릭합니다. **[!UICONTROL Save]** 맨 아래에 있는 단추입니다.
+각 입력에 대한 정보를 찾을 수 있는 위치에 대한 자세한 정보를 보려면 [여기](../../integrating/using/d365-acs-self-service-app-settings.md)로 이동하십시오. 완료되면 하단의 **[!UICONTROL Save]** 단추를 클릭합니다.
 
 ## 초기 구성 확인 {#self-service-app-initial-config}
 
-위의 사전 요구 사항을 완료하고 모든 자격 증명을 올바르게 추가했다고 가정할 경우 이제 다음으로 이동하겠습니다. **[!UICONTROL Workflows]** 페이지를 가리키도록 업데이트하는 중입니다. 에서 통합 앱 워크플로우에 대해 자세히 알아봅니다. [이 페이지](../../integrating/using/d365-acs-self-service-app-workflows.md).
+위의 필수 구성 요소를 완료하고 모든 자격 증명을 올바르게 추가했다고 가정할 경우 이제 **[!UICONTROL Workflows]** 페이지로 이동하겠습니다. [이 페이지](../../integrating/using/d365-acs-self-service-app-workflows.md)에서 통합 앱 워크플로에 대해 자세히 알아보세요.
 
-다음에서  **[!UICONTROL Workflows]** 페이지에서 와 연결된 연필 아이콘을 클릭합니다. **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 구성을 편집하는 워크플로우입니다.
+**[!UICONTROL Workflows]** 페이지에서 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로와 연결된 연필 아이콘을 클릭하여 해당 구성을 편집합니다.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-다음에서 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 페이지에서 구성한 테이블 매핑 목록에 액세스할 수 있습니다.  기본 담당자/프로필 매핑이 기본 설정됩니다. 다른 모든 사용자 지정 엔터티는 별도로 구성해야 합니다.
+**[!UICONTROL Microsoft Dynamics 365 to Campaign]** 페이지에서 구성한 테이블 매핑 목록에 액세스할 수 있습니다.  기본 담당자/프로필 매핑이 기본 설정됩니다. 다른 모든 사용자 지정 엔터티는 별도로 구성해야 합니다.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-다음에서 **[!UICONTROL Edit Table Mapping]** 페이지, 확인 **[!UICONTROL Mappings]** 섹션을 통해 Microsoft Dynamics 365의 필드가 Campaign의 올바른 필드에 매핑되는지 확인할 수 있습니다. 다른 매핑을 추가해야 하는 경우 대체 요소나 필터뿐만 아니라 지금 추가합니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md)
+**[!UICONTROL Edit Table Mapping]** 페이지에서 **[!UICONTROL Mappings]** 섹션을 확인하여 Microsoft Dynamics 365의 필드가 Campaign의 올바른 필드에 매핑되고 있는지 확인하십시오. 다른 매핑을 추가해야 하는 경우 대체 요소나 필터뿐만 아니라 지금 추가합니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
-새 매핑을 추가하려면 다음을 참조하십시오. [이 섹션](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) 추가 정보.
+새 매핑을 추가하려면 [이 섹션](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping)을 참조하세요.
 
-구성이 올바르면 **[!UICONTROL Play]** 단추 옆에 있는 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 통합 및 데이터 흐름을 시작하는 워크플로.
+구성이 올바르면 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로 옆에 있는 **[!UICONTROL Play]** 단추를 클릭하여 통합 및 데이터 흐름을 시작합니다.
 
 >[!IMPORTANT]
 >
->We **강력하게** 프로덕션에서 실행하기 전에 스테이징 또는 개발 환경에서 이 작업을 먼저 실행하는 것이 좋습니다. 헤더에서 단계/개발 인스턴스가 선택되어 있는지 확인하십시오.
+>프로덕션에서 실행하기 전에 스테이징 또는 개발 환경에서 먼저 실행하는 것이 **좋습니다**. 헤더에서 단계/개발 인스턴스가 선택되어 있는지 확인하십시오.
 >
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
@@ -124,21 +124,21 @@ UI를 처음 탐색하면 다음과 같은 머리글이 있는 페이지가 표�
 
 셀프서비스 앱 내의 헤더를 통해 현재 보고 및/또는 구성 중인 조직 및 인스턴스를 정의할 수 있습니다.
 
-다음 항목 선택 **ORG** 및 **인스턴스** 보거나 편집하려는 경우 이러한 필드는 읽기 전용으로 표시되지만 마우스 커서를 위에 놓으면 편집할 수 있습니다.
+보거나 편집할 **조직** 및 **인스턴스**&#x200B;을(를) 선택하십시오. 이러한 필드는 읽기 전용으로 표시되지만 마우스 커서를 위에 놓으면 편집할 수 있습니다.
 
-3개의 가로줄이 있는 단추를 클릭하면 드롭다운 메뉴가 표시됩니다 ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) 헤더 오른쪽입니다.
+머리글 오른쪽에 세 개의 가로줄이 ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png)인 단추를 클릭하면 드롭다운 메뉴가 표시됩니다.
 
 드롭다운 메뉴의 항목은 다음과 같습니다.
 
-* **설정**: 이 옵션을 선택하면 Microsoft Dynamics 365 및 Adobe Campaign에 대한 API 자격 증명과 애플리케이션에 대한 기타 일반 설정을 지정할 수 있는 화면으로 이동합니다.
+* **설정**: 이 옵션을 선택하면 Microsoft Dynamics 365 및 Adobe Campaign에 대한 API 자격 증명과 응용 프로그램에 대한 기타 일반 설정을 지정할 수 있는 화면으로 이동합니다.
 
 * **설명서**: 이 옵션은 이 통합과 관련된 Adobe Campaign 설명서에 대한 링크입니다
 
-* **고객 지원 센터**: 고객 지원 티켓 오픈과 관련된 Experience Cloud 설명서에 대한 링크입니다
+* **고객 지원 센터**: 고객 지원 센터 티켓 열기와 관련된 Experience Cloud 설명서에 대한 링크입니다
 
-* **로그아웃**: 애플리케이션에서 로그아웃한 후 다른 사용자로 다시 로그인할 수 있습니다.
+* **로그아웃**: 이 경우 응용 프로그램에서 로그아웃되고 다른 사용자로 다시 로그인할 수 있습니다.
 
-* **정보**: 저작권 정보를 포함하여 애플리케이션에 대한 정보가 포함된 대화 상자가 표시됩니다.
+* **정보**: 저작권 정보를 포함하여 응용 프로그램에 대한 정보가 포함된 대화 상자가 표시됩니다.
 
 ### 탐색 표시 {#app-breadcrumbs}
 
@@ -146,7 +146,7 @@ UI를 처음 탐색하면 다음과 같은 머리글이 있는 페이지가 표�
 
 **예:**
 
-다음은 의 예입니다. **[!UICONTROL Edit Table Mapping]** 이동 경로와 페이지 제목을 보여 주는 화면입니다. 이 경우 **[!UICONTROL Workflows]** 또는 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 이전 화면 중 하나로 이동하는 텍스트입니다. **[!UICONTROL Edit Table Mapping]** 이 경우 이동 경로는 현재 화면이므로 클릭할 수 없습니다.
+다음은 이동 경로와 페이지 제목을 표시하는 **[!UICONTROL Edit Table Mapping]** 화면의 예입니다. 이 경우 **[!UICONTROL Workflows]** 또는 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 텍스트를 클릭하여 이전 화면 중 하나로 이동할 수 있습니다. 이 경우 이동 경로의 **[!UICONTROL Edit Table Mapping]**&#x200B;은(는) 현재 화면이므로 클릭할 수 없습니다.
 
 ![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
@@ -156,6 +156,6 @@ UI를 처음 탐색하면 다음과 같은 머리글이 있는 페이지가 표�
 
 ![](assets/do-not-localize/d365-to-acs-icon-add.png) - 새 항목을 목록에 추가합니다.
 
-![](assets/do-not-localize/d365-to-acs-icon-edit.png) - 이미 존재하는 항목 편집
+![](assets/do-not-localize/d365-to-acs-icon-edit.png) - 이미 있는 항목 편집
 
 ![](assets/do-not-localize/d365-to-acs-icon-delete.png) - 항목 목록에서 항목 삭제

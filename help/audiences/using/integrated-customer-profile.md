@@ -22,7 +22,7 @@ Integrated Customer Profile은 데이터베이스의 각 연락처에서 사용�
 
 Integrated Customer Profile에 액세스하기 위한 단계는 다음과 같습니다.
 
-1. Adobe Campaign 홈페이지에서 **[!UICONTROL Customer profiles]** 카드 또는 **프로필** 탭을 사용하여 프로필 목록을 표시할 수 있습니다.
+1. Adobe Campaign 홈페이지에서 **[!UICONTROL Customer profiles]** 카드 또는 **프로필** 탭을 클릭하여 프로필 목록을 표시합니다.
 
 1. 특정 필드를 기준으로 프로필을 검색하려면 검색 창을 연 다음 검색을 수행할 필드를 선택합니다.
 

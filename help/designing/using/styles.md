@@ -1,6 +1,6 @@
 ---
 title: 이메일 스타일 관리
-description: 이메일 디자이너에서 이메일 스타일을 관리하는 방법을 알아봅니다.
+description: 이메일 Designer에서 이메일 스타일을 관리하는 방법을 알아봅니다.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -18,14 +18,14 @@ ht-degree: 25%
 # 이메일 스타일 관리 {#managing-styles}
 
 
-이메일 디자이너에서 요소를 선택할 때 선택한 콘텐츠 유형과 관련된 몇 가지 옵션이 **[!UICONTROL Settings]** 창. 이러한 옵션을 사용하여 전자 메일 스타일을 쉽게 변경할 수 있습니다.
+이메일 Designer에서 요소를 선택할 때 선택한 콘텐츠 유형과 관련된 몇 가지 옵션이 **[!UICONTROL Settings]** 창에 표시됩니다. 이러한 옵션을 사용하여 전자 메일 스타일을 쉽게 변경할 수 있습니다.
 
 ## 요소 선택 {#selecting-an-element}
 
-이메일 디자이너 인터페이스에서 요소를 선택하기 위해 다음 중 하나를 수행할 수 있습니다.
+이메일 Designer 인터페이스에서 요소를 선택하기 위해 다음 중 하나를 수행할 수 있습니다.
 
 * 이메일에서 바로 를 클릭합니다.
-* 또는 왼쪽에 있는 옵션에서 사용할 수 있는 구조 트리를 탐색합니다 **팔레트**.
+* 또는 왼쪽 **팔레트**&#x200B;에 있는 옵션에서 사용할 수 있는 구조 트리를 찾아보세요.
 
 ![](assets/des_tree_structure.png)
 
@@ -39,19 +39,19 @@ ht-degree: 25%
 
 열을 선택하기 위해 다음을 수행할 수도 있습니다.
 
-1. 구조 구성 요소를 선택합니다(이메일에서 직접 또는 왼쪽에서 사용 가능한 구조 트리 사용) **팔레트**).
-1. 다음에서 **상황별 도구 모음**, 클릭 **[!UICONTROL Select a column]** 을 눌러 원하는 열을 선택합니다.
+1. 구조 구성 요소를 선택합니다(전자 메일에서 직접 또는 왼쪽 **팔레트**&#x200B;에서 사용할 수 있는 구조 트리 사용).
+1. **상황별 도구 모음**&#x200B;에서 **[!UICONTROL Select a column]**&#x200B;을(를) 클릭하여 원하는 열을 선택합니다.
 
-에서 예제 참조 [이 섹션](#example--adjusting-vertical-alignment-and-padding).
+[이 섹션](#example--adjusting-vertical-alignment-and-padding)에서 예제를 참조하십시오.
 
 ## 스타일 설정 조정 {#adjusting-style-settings}
 
-1. 이메일에서 요소를 선택합니다. 자세한 내용은 [요소 선택](#selecting-an-element).
+1. 이메일에서 요소를 선택합니다. 자세한 내용은 [요소 선택](#selecting-an-element)을 참조하세요.
 1. 필요에 따라 설정을 조정합니다. 선택한 각 요소는 서로 다른 설정 세트를 제공합니다.
 
-   배경 삽입, 크기 변경, 가로 또는 세로 정렬 수정, 색상 관리, 추가 [패딩 또는 여백](#selecting-an-element)등.
+   배경 삽입, 크기 변경, 가로 또는 세로 정렬 수정, 색상 관리, [패딩 또는 여백](#selecting-an-element) 추가 등을 수행할 수 있습니다.
 
-   이렇게 하려면 다음에 표시된 옵션을 사용합니다 **[!UICONTROL Settings]** 창 또는 [인라인 스타일 속성 추가](#adding-inline-styling-attributes).
+   이렇게 하려면 **[!UICONTROL Settings]** 창에 표시된 옵션을 사용하거나 [인라인 스타일 특성을 추가](#adding-inline-styling-attributes)하십시오.
 
    ![](assets/des_settings_pane.png)
 
@@ -59,16 +59,16 @@ ht-degree: 25%
 
 ## 패딩 및 여백 조정 {#about-padding-and-margin}
 
-이메일 디자이너 인터페이스를 사용하면 패딩 및 여백 설정을 빠르게 조정할 수 있습니다.
+이메일 Designer 인터페이스를 사용하면 패딩 및 여백 설정을 빠르게 조정할 수 있습니다.
 
-**[!UICONTROL Padding]**: 이 설정을 사용하면 요소의 테두리 내에 있는 공간을 관리할 수 있습니다.
+**[!UICONTROL Padding]**: 이 설정을 사용하면 요소의 테두리 내부에 있는 공간을 관리할 수 있습니다.
 
 ![](assets/des_padding.png)
 
 예제:
 
 * 패딩을 사용하여 이미지의 왼쪽과 오른쪽에 여백을 설정합니다.
-* 위쪽 및 아래쪽 패딩을 사용하여 **[!UICONTROL Text]** 또는 **[!UICONTROL Divider]** 구성 요소.
+* 위쪽 및 아래쪽 패딩을 사용하여 **[!UICONTROL Text]** 또는 **[!UICONTROL Divider]** 구성 요소에 더 많은 간격을 추가합니다.
 * 구조 요소 내에서 열 사이의 테두리를 설정하려면 각 열의 패딩을 정의합니다.
 
 **[!UICONTROL Margin]**: 이 설정을 사용하면 요소의 테두리와 다음 요소 사이의 공간을 관리할 수 있습니다.
@@ -77,23 +77,23 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->선택 항목(구조 구성 요소, 열 또는 콘텐츠 구성 요소)에 따라 결과가 동일하지 않습니다. Adobe은 다음을 설정할 것을 권장합니다. **[!UICONTROL Padding]** 및 **[!UICONTROL Margin]** 열 수준의 매개 변수.
+>선택 항목(구조 구성 요소, 열 또는 콘텐츠 구성 요소)에 따라 결과가 동일하지 않습니다. Adobe 열 수준에서 **[!UICONTROL Padding]** 및 **[!UICONTROL Margin]** 매개 변수를 설정하는 것이 좋습니다.
 
-두 항목 모두 **[!UICONTROL Padding]** 및 **[!UICONTROL Margin]**&#x200B;을 클릭하고 잠금 아이콘을 클릭하여 위쪽 및 아래쪽 또는 오른쪽과 왼쪽 매개 변수 간의 동기화를 해제합니다. 이렇게 하면 각 매개변수를 개별적으로 조정할 수 있습니다.
+**[!UICONTROL Padding]**&#x200B;과(와) **[!UICONTROL Margin]** 모두에 대해 잠금 아이콘을 클릭하여 위쪽 및 아래쪽 또는 오른쪽 및 왼쪽 매개 변수 간의 동기화를 중단합니다. 이렇게 하면 각 매개변수를 개별적으로 조정할 수 있습니다.
 
 ![](assets/des_padding_lock_icon.png)
 
 ## 스타일 정렬 {#about-alignment}
 
-* **텍스트 정렬**: 마우스의 커서를 일부 텍스트에 놓고 상황별 도구 모음을 사용하여 정렬합니다.
+* **텍스트 정렬**: 마우스의 커서를 일부 텍스트에 놓고 상황에 맞는 도구 모음을 사용하여 정렬합니다.
 
   ![](assets/des_text_alignment.png)
 
-* **수평 정렬** 텍스트, 이미지 및 단추에 적용할 수 있습니다. 현재는 **[!UICONTROL Divider]** 및 **[!UICONTROL Social]** 구성 요소.
+* **가로 맞춤**&#x200B;은(는) 텍스트, 이미지 및 단추에 적용할 수 있습니다. 현재 **[!UICONTROL Divider]** 및 **[!UICONTROL Social]** 구성 요소에는 적용되지 않습니다.
 
   ![](assets/des_horizontal_alignment.png)
 
-* 설정 **수직 정렬**&#x200B;구조 구성 요소 내에서 열을 선택하고 설정 창에서 옵션을 선택합니다.
+* **수직 정렬**&#x200B;을 설정하려면 구조 구성 요소 내의 열을 선택하고 [설정] 창에서 옵션을 선택하십시오.
 
   ![](assets/des_set_vertical_alignment.png)
 
@@ -112,11 +112,11 @@ ht-degree: 25%
 
 다음은 사용할 수 있는 배경 설정입니다.
 
-* 설정 **[!UICONTROL Background color]** 이메일 전체. 왼쪽 팔레트에서 액세스할 수 있는 탐색 트리에서 본문 설정을 선택해야 합니다.
+* 전체 전자 메일에 대해 **[!UICONTROL Background color]**&#x200B;을(를) 설정합니다. 왼쪽 팔레트에서 액세스할 수 있는 탐색 트리에서 본문 설정을 선택해야 합니다.
 
   ![](assets/des_background_body.png)
 
-* 을 선택하여 모든 구조 구성 요소에 대해 동일한 배경색을 설정합니다. **[!UICONTROL Viewport background color]**. 이 옵션을 사용하면 배경색과 다른 설정을 선택할 수 있습니다.
+* **[!UICONTROL Viewport background color]**&#x200B;을(를) 선택하여 모든 구조 구성 요소에 대해 동일한 배경색을 설정합니다. 이 옵션을 사용하면 배경색과 다른 설정을 선택할 수 있습니다.
 
   ![](assets/des_background_viewport.png)
 
@@ -126,7 +126,7 @@ ht-degree: 25%
 
   뷰포트 배경색은 구조 배경색을 숨길 수 있으므로 설정하지 않도록 합니다.
 
-* 설정 **[!UICONTROL Background image]** 구조 구성 요소의 콘텐츠용입니다.
+* 구조 구성 요소의 콘텐츠에 대해 **[!UICONTROL Background image]**&#x200B;을(를) 설정합니다.
 
   ![](assets/des_background_image.png)
 
@@ -148,20 +148,20 @@ ht-degree: 25%
 
 3개의 열로 구성된 구조 구성 요소 내에서 패딩 및 수직 정렬을 조정하려고 합니다. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. 이메일에서 직접 또는 왼쪽에서 사용 가능한 구조 트리를 사용하여 구조 구성 요소 선택 **팔레트**.
-1. 다음에서 **상황별 도구 모음**, 클릭 **[!UICONTROL Select a column]** 편집할 항목을 선택합니다. 구조 트리에서 선택할 수도 있습니다.
+1. 전자 메일에서 구조 구성 요소를 직접 선택하거나 왼쪽 **팔레트**&#x200B;에서 사용할 수 있는 구조 트리를 사용하십시오.
+1. **상황별 도구 모음**&#x200B;에서 **[!UICONTROL Select a column]**&#x200B;을(를) 클릭하고 편집할 도구 모음을 선택하십시오. 구조 트리에서 선택할 수도 있습니다.
 
    ![](assets/des_selecting_column.png)
 
-   해당 열에 대한 편집 가능한 매개 변수가 **[!UICONTROL Settings]** 오른쪽 창
+   해당 열에 대해 편집 가능한 매개 변수가 오른쪽의 **[!UICONTROL Settings]** 창에 표시됩니다.
 
-1. 아래 **[!UICONTROL Vertical alignment]**, 선택 **[!UICONTROL Up]**.
+1. **[!UICONTROL Vertical alignment]**&#x200B;에서 **[!UICONTROL Up]**&#x200B;을(를) 선택합니다.
 
    ![](assets/des_vertical_alignment.png)
 
    콘텐츠 구성 요소가 열 맨 위에 표시됩니다.
 
-1. 아래 **[!UICONTROL Padding]**, 열 내부의 위쪽 패딩을 정의합니다. 하단 패딩과의 동기화를 중단하려면 잠금 아이콘을 클릭합니다.
+1. **[!UICONTROL Padding]**&#x200B;에서 열 내부의 위쪽 패딩을 정의합니다. 하단 패딩과의 동기화를 중단하려면 잠금 아이콘을 클릭합니다.
 
    해당 열의 왼쪽 및 오른쪽 패딩을 정의합니다.
 
@@ -179,15 +179,15 @@ ht-degree: 25%
 
 1. 링크가 삽입된 구성 요소에서 링크의 레이블 텍스트를 선택합니다.
 
-1. 구성 요소 설정에서 을(를) 확인합니다 **[!UICONTROL Underline link]** 를 클릭하여 링크의 레이블 텍스트에 밑줄을 긋습니다.
+1. 구성 요소 설정에서 **[!UICONTROL Underline link]**&#x200B;을(를) 확인하여 링크의 레이블 텍스트에 밑줄을 긋습니다.
 
    ![](assets/stylelinks-selecttext.png)
 
-1. 링크를 열 검색 컨텍스트를 선택하려면 **[!UICONTROL Target]**.
+1. 링크를 열 검색 컨텍스트를 선택하려면 **[!UICONTROL Target]**&#x200B;을(를) 선택하십시오.
 
    ![](assets/stylelinks-target.png)
 
-1. 링크의 색상을 변경하려면 를 클릭합니다. **[!UICONTROL Link color]**.
+1. 링크 색상을 변경하려면 **[!UICONTROL Link color]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/stylelinks-colorpicker.png)
 
@@ -199,13 +199,13 @@ ht-degree: 25%
 
 ## 인라인 스타일 속성 추가 {#adding-inline-styling-attributes}
 
-이메일 디자이너 인터페이스에서 요소를 선택하고 사이드 패널에 해당 설정을 표시하면 해당 특정 요소에 대한 인라인 속성 및 해당 값을 사용자 지정할 수 있습니다.
+이메일 Designer 인터페이스에서 요소를 선택하고 사이드 패널에 해당 설정을 표시하면 해당 특정 요소에 대한 인라인 속성 및 해당 값을 사용자 지정할 수 있습니다.
 
 1. 콘텐츠에서 요소를 선택합니다.
-1. 사이드 패널에서 다음을 찾습니다. **[!UICONTROL Styles Inline]** 설정.
+1. 사이드 패널에서 **[!UICONTROL Styles Inline]** 설정을 찾습니다.
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. 기존 속성의 값을 수정하거나 **+** 단추를 클릭합니다. CSS와 호환되는 모든 속성과 값을 추가할 수 있습니다.
+1. 기존 특성의 값을 수정하거나 **+** 단추를 사용하여 새 특성을 추가하십시오. CSS와 호환되는 모든 속성과 값을 추가할 수 있습니다.
 
 그런 다음 선택한 요소에 스타일이 적용됩니다. 하위 요소에 정의된 특정 스타일 속성이 없으면 상위 요소의 스타일이 상속됩니다.
