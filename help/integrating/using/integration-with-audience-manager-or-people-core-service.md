@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
+source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 6%
+source-wordcount: '757'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaign에서 Audience Manager 및 People 코어의 프로비전 및 구�
 
 Audience Manager(AAM) 또는 People 핵심 서비스 통합을 사용하여 Adobe Campaign에서 대상자 또는 세그먼트를 가져오고 내보낼 수 있습니다.
 
-먼저 이 통합을 구성해야 합니다. 이 통합의 프로비저닝을 요청하려면 [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com)에 다음 정보를 이메일로 보내주십시오.
+먼저 이 통합을 구성해야 합니다. 이 통합의 프로비저닝을 요청하려면 Adobe 지원에 다음 정보를 문의하십시오.
 
 <table> 
  <tbody> 
