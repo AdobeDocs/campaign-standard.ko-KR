@@ -1,6 +1,6 @@
 ---
 title: 프로세스 및 데이터 관리 시작
-description: 작업 과정을 통해 프로세스를 자동화하고 데이터 및 대상자를 관리하며 메시지 전송 등을 수행할 수 있습니다.
+description: 워크플로를 통해 프로세스를 자동화하고 데이터 및 대상자를 관리하며 메시지 전송 등을 수행할 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -19,13 +19,13 @@ ht-degree: 26%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">워크플로우 활동</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">활용 사례</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">데이터 필터링</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">워크플로 활동</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">활용 사례</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">데이터 필터링</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">데이터 가져오기/내보내기</a></p></td></tr>
 </table>
 
-Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡한 프로세스를 디자인할 수 있는 포괄적인 그래픽 환경을 제공합니다. 예를 들어 워크플로우를 통해 서버에서 파일을 다운로드하고 압축을 해제한 다음 Adobe Campaign 데이터베이스에 포함된 레코드를 가져올 수 있습니다.
+Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡한 프로세스를 디자인할 수 있는 포괄적인 그래픽 환경을 제공합니다. 예를 들어 워크플로를 통해 서버에서 파일을 다운로드하고 압축을 해제한 다음 Adobe Campaign 데이터베이스에 포함된 레코드를 가져올 수 있습니다.
 
-워크플로우는 다음과 같이 서로 다른 컨텍스트에서 사용할 수 있습니다.
+워크플로는 다음과 같이 서로 다른 컨텍스트에서 사용할 수 있습니다.
 
 * 대상을 관리하거나 메시지를 보내기 위해 타기팅할 수 있습니다.
 * ETL(데이터 관리)을 통해 데이터를 조작할 수 있습니다.
@@ -36,7 +36,7 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 >
 > Adobe은 고객이 20개 이상의 활성 워크플로우 실행을 동시에 실행하지 않도록 하고, 시간에 따라 워크플로우 실행의 우선 순위를 지정하고 분산하도록 권장합니다. 자세한 내용은 [이 페이지](../../automating/using/best-practices-workflows.md)에 제공된 모범 사례를 참조하세요.
 
-## 워크플로우 활동 {#workflow-activities}
+## 워크플로 활동 {#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
@@ -50,9 +50,9 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 
 자세한 내용:
 
-* [워크플로우 작성](../../automating/using/building-a-workflow.md)
+* [워크플로 작성](../../automating/using/building-a-workflow.md)
 * [워크플로우 실행](../../automating/using/about-workflow-execution.md)
-* [워크플로우 모범 사례](../../automating/using/best-practices-workflows.md)
+* [워크플로 모범 사례](../../automating/using/best-practices-workflows.md)
 
 ## 데이터 필터링 {#filter-data}
 
@@ -92,5 +92,5 @@ Campaign Standard은 데이터를 가져오고 내보낼 수 있는 여러 **데
 ## 추가 리소스
 
 * [프로세스 및 데이터 관리 자습서 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=ko)
-* [기술 워크플로우](../../administration/using/technical-workflows.md)
+* [기술 워크플로](../../administration/using/technical-workflows.md)
 * [Campaign Standard 데이터 모델 시작](../../developing/using/get-started-data-model.md)
