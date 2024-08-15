@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+source-git-commit: 625b2341b1f7da17d202ef1edcdf97f3cb46b801
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 73%
 
 ---
 
@@ -18,25 +18,38 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
+<!--
+## Early release notes {#e-new-release}
 
-## 초기 릴리스 정보 {#e-new-release}
-
-이 섹션에는 다음 Campaign Standard 릴리스에 포함된 개선 사항 및 변경 사항의 목록이 있습니다.
+This section lists improvements and changes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
->이 콘텐츠는 단계 환경 업그레이드일까지 사전 통지 없이 변경될 수 있습니다. 자세한 내용은 [릴리스 계획 페이지](../../rn/using/release-planning.md)를 참조하십시오.
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
+-->
 
-**릴리스 24.2 - 2024년 여름 릴리스**
+## 릴리스 24.2 - 2024년 여름 릴리스 {#summer-24}
 
-* **릴리스 날짜**: 2024년 8월(제한 공개) - [자세히 알아보기](../../rn/using/release-planning.md).
+<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
 
-* **OAuth 서버 간 자격 증명으로 마이그레이션**
+### 개선 사항 {#summer-24-rn-improvements}
 
-  이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud Triggers 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
+**OAuth 서버 간 자격 증명으로 마이그레이션**
 
-  Campaign과 인바운드 통합을 구현했으며 [Campaign API](../../api/using/get-started-apis.md)를 사용하는 경우 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}에서 설명하는 대로 기술 계정을 마이그레이션해야 합니다. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**&#x200B;부터 사용할 수 없습니다.
+이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud Triggers 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
 
+Campaign과 인바운드 통합을 구현했으며 [Campaign API](../../api/using/get-started-apis.md)를 사용하는 경우 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}에서 설명하는 대로 기술 계정을 마이그레이션해야 합니다. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**&#x200B;부터 사용할 수 없습니다.
+
+### 수정 사항 {#summer-24-rn-fixes}
+
+* 예약된 시간 전에 워크플로우 스케줄러가 시작되도록 하는 문제를 해결했습니다. (CAMP-55412)
+* 트랜잭션 푸시 알림에서 사용자 지정 필드를 복제할 때 오류가 발생하는 문제를 해결했습니다. (CAMP-54459)
+* 인앱 메시지에 대한 시간 및 날짜 스케줄러의 사용에 영향을 주는 문제를 해결했습니다. (CAMP-54495)
+* 사용자 지정 추적 별칭 기능을 사용하고 전체 링크가 동적일 때 추적이 작동하지 않는 문제를 수정했습니다. (CAMP-56044)
+* 검색을 사용하여 특정 템플릿을 찾을 때 제한된 수의 템플릿이 표시되는 문제를 해결했습니다. (CAMP-55273)
+* 기본 언어 드롭다운 목록에 en_kz(영어 - 카자흐스탄) 및 en_ua(영어 - 우크라이나) 언어를 추가했습니다. (CAMP-55336)
+* 스케줄러 설정에서 시간 조정 버튼이 작동하지 않는 문제를 해결했습니다. (CAMP-53602)
+* 스케줄러 설정의 시간 조정 막대 와 관련된 몇 가지 사용자 인터페이스 문제를 수정했습니다. (CAMP-55291)
 
 ## 릴리스 24.1 - 2024년 겨울 릴리스 {#winter-24}
 
@@ -57,5 +70,5 @@ ht-degree: 100%
 ### 수정 사항 {#e-rn-fixes}
 
 * 바운스된 이메일 주소가 30일 후 격리에서 제거되지 않는 문제를 해결했습니다. (CAMP-52977)
-* 오류 메시지(`division by zero`)가 표시되며 게재 경고 워크플로우가 중단되는 문제를 해결했습니다. (CAMP-49786)
+* 오류 메시지(`division by zero`)가 표시되며 게재 경고 워크플로가 중단되는 문제를 해결했습니다. (CAMP-49786)
 
