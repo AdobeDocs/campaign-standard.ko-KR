@@ -3,7 +3,7 @@ keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 제품 설명서
 description: Campaign Standard 제품 설명서 찾아보기
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 8b94b632bbc4fc8e190cccb05018043cdeb00fdd
+source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -18,9 +18,9 @@ Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴�
 
 >[!BEGINTABS]
 
->[!TAB Campaign 24.1 릴리스가 공개되었습니다!]
+>[!TAB Campaign 24.2 릴리스가 공개되었습니다!]
 
-Campaign Standard 24.1 릴리스의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오.
+Campaign Standard 24.2 릴리스의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
@@ -56,7 +56,7 @@ Campaign 및 RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공
     </td>
     <td>
     <a href="automating/using/building-a-workflow.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
-    <div><strong>첫 번째 워크플로우 구축</strong><br/>워크플로우 작성을 위한 주요 원칙과 모범 사례에 대해 알아보십시오.</div>
+    <div><strong>첫 번째 워크플로 구축</strong><br/>워크플로 작성을 위한 주요 원칙과 모범 사례에 대해 알아보십시오.</div>
     </td>
   </tr>
   <tr style="border: 0;">
