@@ -38,7 +38,7 @@ ht-degree: 78%
 
 ## 구성 {#configuration}
 
-1. **[!UICONTROL Extract file]** 활동을 워크플로우로 끌어서 놓습니다.
+1. **[!UICONTROL Extract file]** 활동을 워크플로로 끌어서 놓습니다.
 
    ![](assets/wkf_data_export1.png)
 
@@ -81,4 +81,4 @@ ht-degree: 78%
    >특정 인코딩을 사용하여 CSV 파일로 데이터를 추출하려면 먼저 &quot;텍스트&quot; 출력 형식을 선택합니다. 드롭다운 목록에서 원하는 인코딩을 선택한 다음 출력 형식을 &quot;CSV (Excel)&quot;로 변경합니다.
 
 1. 인바운드 전환이 비어 있는 경우 **[!UICONTROL Properties]** 탭에서 **[!UICONTROL Do not generate a file if the inbound transition is empty]** 옵션을 선택하여 SFTP 서버에 빈 파일을 만들고 업로드하지 못하도록 합니다.
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.

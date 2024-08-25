@@ -43,7 +43,7 @@ ht-degree: 97%
 
 **[!UICONTROL Layout]** 드롭다운은 메시징 요구 사항에 따라 선택할 수 있는 4가지 옵션을 제공합니다.
 
-* **[!UICONTROL Full page]**: 이러한 유형의 레이아웃은 대상 디바이스의 전체 화면을 포함합니다.
+* **[!UICONTROL Full page]**: 이러한 유형의 레이아웃은 대상자 디바이스의 전체 화면을 포함합니다.
 
   미디어(이미지, 비디오), 텍스트 및 버튼 구성 요소를 지원합니다.
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 
 1. **[!UICONTROL Video]** 미디어 유형의 경우, **[!UICONTROL Media URL]** 필드에 URL을 입력합니다.
 
-   그런 다음 대상 디바이스에서 비디오를 다운로드하는 동안 또는 사용자가 재생 버튼을 누를 때까지 사용할 **[!UICONTROL Video poster]**&#x200B;을(를) 입력합니다.
+   그런 다음 대상자 디바이스에서 비디오를 다운로드하는 동안 또는 사용자가 재생 버튼을 누를 때까지 사용할 **[!UICONTROL Video poster]**&#x200B;을(를) 입력합니다.
 
    ![](assets/inapp_customize_6.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 워크플로우 호출 시 매개 변수 정의
+title: 워크플로 호출 시 매개 변수 정의
 description: 이 섹션에서는 외부 매개 변수를 사용하는 워크플로우를 호출하는 방법에 대해 자세히 설명합니다.
 audience: automating
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 13%
 
 ---
 
-# 워크플로우 호출 시 매개 변수 정의 {#defining-the-parameters-when-calling-the-workflow}
+# 워크플로 호출 시 매개 변수 정의 {#defining-the-parameters-when-calling-the-workflow}
 
 이 섹션에서는 워크플로우를 호출할 때 매개 변수를 정의하는 방법을 자세히 설명합니다. API 호출에서 이 작업을 수행하는 방법에 대한 자세한 내용은 [REST API 설명서](../../api/using/triggering-a-signal-activity.md)를 참조하십시오.
 

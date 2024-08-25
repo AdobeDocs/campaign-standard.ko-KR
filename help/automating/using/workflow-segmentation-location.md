@@ -21,8 +21,8 @@ ht-degree: 79%
 해당 지역 상점의 오퍼를 제공하는 타겟팅 이메일을 고객에게 보낼 수 있습니다.
 
 1. **[!UICONTROL Marketing Activities]**&#x200B;에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭하고 **[!UICONTROL Workflow]**&#x200B;을(를) 선택합니다.
-1. 워크플로우 유형으로 **[!UICONTROL New Workflow]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-1. 워크플로우의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다 .
+1. 워크플로 유형으로 **[!UICONTROL New Workflow]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. 워크플로의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다 .
 
 ## 전자 메일을 통해 연결 가능한 수신자 선택{#selecting-recipients-contactable-via-email}
 

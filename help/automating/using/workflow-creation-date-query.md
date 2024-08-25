@@ -21,8 +21,8 @@ ht-degree: 33%
 고객 프로필 생성 기념일에 이메일을 통해 오퍼를 보낼 수 있습니다.
 
 1. **[!UICONTROL Marketing Activities]**&#x200B;에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭하고 **[!UICONTROL Workflow]**&#x200B;을(를) 선택합니다.
-1. 워크플로우 유형으로 **[!UICONTROL New Workflow]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-1. 워크플로우의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다 .
+1. 워크플로 유형으로 **[!UICONTROL New Workflow]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. 워크플로의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다 .
 
 ## 스케줄러 활동 만들기 {#creating-a-scheduler-activity}
 
@@ -32,11 +32,11 @@ ht-degree: 33%
 1. **[!UICONTROL Execution frequency]**&#x200B;에서 **[!UICONTROL Daily]**&#x200B;을(를) 선택합니다.
 1. 워크플로우의 **[!UICONTROL Time]** 및 **[!UICONTROL Repetition frequency]** 실행을 선택하십시오.
 1. 워크플로우의 **[!UICONTROL Start]** 날짜 및 **[!UICONTROL Expiration]**&#x200B;을(를) 선택하십시오.
-1. 활동을 확인하고 워크플로우를 저장합니다.
+1. 활동을 확인하고 워크플로를 저장합니다.
 
 >[!NOTE]
 >
->특정 시간대에 워크플로우를 시작하려면 **[!UICONTROL Execution options]** 탭에서 **[!UICONTROL Time zone]** 필드에 예약의 시간대를 설정합니다. 기본적으로 선택된 시간대는 워크플로우 속성에 정의된 시간대입니다([워크플로우 구축](../../automating/using/building-a-workflow.md) 참조).
+>특정 시간대에 워크플로우를 시작하려면 **[!UICONTROL Execution options]** 탭에서 **[!UICONTROL Time zone]** 필드에 예약의 시간대를 설정합니다. 기본적으로 선택된 시간대는 워크플로 속성에 정의된 시간대입니다([워크플로 구축](../../automating/using/building-a-workflow.md) 참조).
 
 ![](assets/time_zone.png)
 

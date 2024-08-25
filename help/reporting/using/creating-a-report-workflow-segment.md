@@ -1,5 +1,5 @@
 ---
-title: 워크플로우 세그먼트 기반 보고서 만들기
+title: 워크플로 세그먼트 기반 보고서 만들기
 description: 보고서에서 워크플로우의 세그먼트에 따라 게재의 성공을 확인하는 방법을 알아봅니다.
 audience: reporting
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 ---
 
-# 워크플로우 세그먼트 기반 보고서 만들기{#creating-a-report-workflow-segment}
+# 워크플로 세그먼트 기반 보고서 만들기{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
 > **[!UICONTROL Segment code]**&#x200B;은(는) 전자 메일 및 SMS 게재만 타겟팅할 수 있습니다.
@@ -96,7 +96,7 @@ ht-degree: 2%
 
 1. 다양한 타겟팅된 모집단에 따라 게재를 개인화합니다. 전자 메일 만들기에 대한 자세한 정보는 이 [페이지](../../designing/using/designing-content-in-adobe-campaign.md)를 참조하세요.
 
-1. 워크플로우를 저장합니다.
+1. 워크플로를 저장합니다.
 
 1. 워크플로우가 준비되면 **[!UICONTROL Start]**&#x200B;을(를) 클릭합니다.
 

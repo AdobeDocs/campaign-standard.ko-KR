@@ -330,7 +330,7 @@ ht-degree: 27%
                </tr>
                <tr>
                   <td>mainDate</td>
-                  <td>날짜</td>
+                  <td>일자</td>
                   <td>일자 </td>
                   <td> </td>
                </tr>

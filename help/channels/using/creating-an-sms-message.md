@@ -31,7 +31,7 @@ SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유�
 
 1. SMS 게재 만들기 Adobe Campaign [홈페이지](../../start/using/interface-description.md#home-page)의 [캠페인](../../start/using/marketing-activities.md#creating-a-marketing-activity) 또는 [마케팅 활동 목록](../../start/using/programs-and-campaigns.md#creating-a-campaign)에서수행할 수 있습니다.
 
-   워크플로우에 SMS 활동을 추가할 수도 있습니다. 자세한 내용은 [워크플로우](../../automating/using/sms-delivery.md) 안내서를 참조하십시오.
+   워크플로에 SMS 활동을 추가할 수도 있습니다. 자세한 내용은 [워크플로](../../automating/using/sms-delivery.md) 안내서를 참조하십시오.
 
    메시지를 만들 때 가장 중요한 단계를 안내하는 마법사가 표시됩니다. 마법사를 통해 정의된 내용은 나중에 메시지 대시보드에서 편집할 수 있습니다.
 

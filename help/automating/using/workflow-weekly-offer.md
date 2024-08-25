@@ -21,8 +21,8 @@ ht-degree: 76%
 매주 화요일에 모든 고객에게 이메일을 보내어 특별 할인을 알릴 수 있습니다.
 
 1. **[!UICONTROL Marketing Activities]**&#x200B;에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭하고 **[!UICONTROL Workflow]**&#x200B;을(를) 선택합니다.
-1. 워크플로우 유형으로 **[!UICONTROL New Workflow]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-1. 워크플로우의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+1. 워크플로 유형으로 **[!UICONTROL New Workflow]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. 워크플로의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
 ## 스케줄러 활동 만들기{#creating-a-scheduler-activity}
 
@@ -32,14 +32,14 @@ ht-degree: 76%
 1. **[!UICONTROL Execution frequency]**&#x200B;에서 **[!UICONTROL Weekly]**&#x200B;을(를) 선택합니다.
 1. 게재의 **[!UICONTROL Time]** 및 **[!UICONTROL Repetition frequency]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Days of the week]**&#x200B;에서 **[!UICONTROL Tuesday]**&#x200B;을(를) 선택합니다.
-1. 워크플로우의 **[!UICONTROL Start]** 및 **[!UICONTROL Expiration]** 매개 변수를 지정합니다.
-1. 활동을 확인하고 워크플로우를 저장합니다.
+1. 워크플로의 **[!UICONTROL Start]** 및 **[!UICONTROL Expiration]** 매개 변수를 지정합니다.
+1. 활동을 확인하고 워크플로를 저장합니다.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
->특정 **[!UICONTROL Time Zone]**&#x200B;에 워크플로우를 시작하려면 **[!UICONTROL Execution options]** 탭의 시간대 필드에서 예약의 시간대를 설정합니다. 기본적으로 선택된 시간대는 워크플로우 속성에 정의된 시간대입니다([워크플로우 구축](../../automating/using/building-a-workflow.md) 참조).
+>특정 **[!UICONTROL Time Zone]**&#x200B;에 워크플로를 시작하려면 **[!UICONTROL Execution options]** 탭의 시간대 필드에서 예약의 시간대를 설정합니다. 기본적으로 선택된 시간대는 워크플로 속성에 정의된 시간대입니다([워크플로 구축](../../automating/using/building-a-workflow.md) 참조).
 
 ## 쿼리 활동 만들기{#creating-a-query-activity}
 

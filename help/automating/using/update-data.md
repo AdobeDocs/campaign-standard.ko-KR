@@ -35,7 +35,7 @@ ht-degree: 97%
 
 ## 구성 {#configuration}
 
-1. **[!UICONTROL Update data]** 활동을 워크플로우로 끌어서 놓습니다.
+1. **[!UICONTROL Update data]** 활동을 워크플로로 끌어서 놓습니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업의 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. 작업을 수행할 **[!UICONTROL Operation type]**&#x200B;을 지정합니다.
 
@@ -72,4 +72,4 @@ ht-degree: 97%
 
    **[!UICONTROL Insert only]**&#x200B;을 선택했으며 데이터가 데이터베이스에 이미 있는 레코드를 포함하는 경우, **[!UICONTROL Generate an outbound transition for the rejects]** 상자를 선택하여 발생 가능한 오류를 방지합니다.
 
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.

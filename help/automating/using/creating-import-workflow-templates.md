@@ -1,5 +1,5 @@
 ---
-title: 데이터를 가져오기 위한 워크플로우 템플릿 만들기
+title: 데이터를 가져오기 위한 워크플로 템플릿 만들기
 description: 워크플로우 템플릿을 만들어 데이터를 가져오는 방법을 알아봅니다.
 audience: automating
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ---
 
-# 데이터를 가져오기 위한 워크플로우 템플릿 만들기 {#import-workflow-template}
+# 데이터를 가져오기 위한 워크플로 템플릿 만들기 {#import-workflow-template}
 
 구조가 같은 파일을 정기적으로 가져오려면 가져오기 템플릿을 사용하는 것이 좋습니다.
 

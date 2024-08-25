@@ -18,36 +18,36 @@ ht-degree: 84%
 
 # 채널 간 게재 만들기{#cross-channel-delivery}
 
-이 문서에서는 표준 사용 사례를 통해 다음의 크로스채널 게재 워크플로우 만들기와 같은 Adobe Campaign 기능을 검색할 수 있습니다.
+이 문서에서는 표준 사용 사례를 통해 다음의 크로스채널 게재 워크플로 만들기와 같은 Adobe Campaign 기능을 검색할 수 있습니다.
 
 여기에서 목표는 데이터베이스의 수신자로부터 대상자를 선택하여 첫 번째 그룹에는 전자 메일을 보내고 두 번째 그룹에는 SMS 메시지를 보내는 것을 목표로 하여 두 개의 다른 그룹으로 세분화하는 것입니다.
 
 ![](assets/wkf_segment_overview.png)
 
-워크플로우와 Adobe Campaign에서 사용할 수 있는 다른 채널에 대한 자세한 내용은 다음 문서를 참조하십시오.
+워크플로와 Adobe Campaign에서 사용할 수 있는 다른 채널에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * [워크플로우 살펴보기](../../automating/using/get-started-workflows.md)
 * [통신 채널 살펴보기](../../channels/using/get-started-communication-channels.md)
 
-## 워크플로우 만들기 {#creating-workflow}
+## 워크플로 만들기 {#creating-workflow}
 
 지정된 그룹에 두 개의 다른 게재를 보내려면 먼저 타겟을 정의해야 합니다.
 
-이 작업을 수행하려면 수신자를 식별하는 쿼리를 만들어야 하므로 워크플로우를 만들어야 합니다.
+이 작업을 수행하려면 수신자를 식별하는 쿼리를 만들어야 하므로 워크플로를 만들어야 합니다.
 
-프로그램 또는 선택한 캠페인에서 새 워크플로우를 만듭니다.
+프로그램 또는 선택한 캠페인에서 새 워크플로를 만듭니다.
 
 1. **[!UICONTROL Marketing Activities]**&#x200B;에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭하고 **[!UICONTROL Workflow]**&#x200B;을(를) 선택합니다 .
-1. 워크플로우 유형으로 **[!UICONTROL New Workflow]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-1. 워크플로우의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+1. 워크플로 유형으로 **[!UICONTROL New Workflow]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. 워크플로의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-워크플로우를 만드는 자세한 단계는 [워크플로우 작성](../../automating/using/building-a-workflow.md) 섹션에 나와 있습니다.
+워크플로를 만드는 자세한 단계는 [워크플로 작성](../../automating/using/building-a-workflow.md) 섹션에 나와 있습니다.
 
 ## 쿼리 활동 만들기 {#creating-query-activity}
 
-워크플로우가 만들어지면 해당 인터페이스에 액세스할 수 있습니다.
+워크플로가 만들어지면 해당 인터페이스에 액세스할 수 있습니다.
 
-워크플로우에 쿼리 활동을 삽입하여 게재를 수신할 프로필을 타겟팅합니다.
+워크플로에 쿼리 활동을 삽입하여 게재를 수신할 프로필을 타겟팅합니다.
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
@@ -91,7 +91,7 @@ ht-degree: 84%
 
    쿼리에서 오는 전자 메일이 있지만 휴대폰 번호는 정의되지 않은 모든 프로필은 이 전환 단계에 있게 됩니다.
 
-1. 워크플로우를 보다 명확하게 하기 위해 전환 레이블을 편집할 수 있습니다. 변경 사항을 확인합니다.
+1. 워크플로를 보다 명확하게 하기 위해 전환 레이블을 편집할 수 있습니다. 변경 사항을 확인합니다.
 
    ![](assets/wkf_segment_transition_label.png)
 
@@ -114,7 +114,7 @@ ht-degree: 84%
 
 두 개의 전환이 이미 만들어졌으므로 이제 [이메일 게재](../../automating/using/email-delivery.md) 활동과 [SMS 게재](../../automating/using/sms-delivery.md) 활동의 두 가지 유형의 게재를 세분화 활동의 아웃바운드 전환에 추가해야 합니다.
 
-Adobe Campaign을 사용하면 워크플로우에 게재를 추가할 수 있습니다. 이렇게 하려면 워크플로우 활동 팔레트의 **[!UICONTROL Channels]** 카테고리에서 게재를 선택합니다.
+Adobe Campaign을 사용하면 워크플로에 게재를 추가할 수 있습니다. 이렇게 하려면 워크플로 활동 팔레트의 **[!UICONTROL Channels]** 카테고리에서 게재를 선택합니다.
 
 ![](assets/wkf_segment_deliveries1.png)
 
@@ -144,7 +144,7 @@ SMS 게재를 만드는 방법:
 1. SMS 속성을 입력하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다 .
 1. 콘텐츠를 편집하고 저장합니다.
 
-게재를 만들고 편집하고 나면 워크플로우를 시작할 준비가 되었습니다.
+게재를 만들고 편집하고 나면 워크플로를 시작할 준비가 되었습니다.
 
 ![](assets/wkf_segment_deliveries.png)
 
@@ -152,6 +152,6 @@ SMS 게재를 만드는 방법:
 
 워크플로우가 시작되면 **[!UICONTROL Query]** 활동에서 타겟팅한 모집단을 세분화하여 전자 메일 또는 SMS 게재를 받습니다.
 
-워크플로우를 실행하려면 작업 모음에서 **[!UICONTROL Start]** 버튼을 클릭합니다.
+워크플로를 실행하려면 작업 모음에서 **[!UICONTROL Start]** 버튼을 클릭합니다.
 
 Adobe Campaign 로고를 통해 **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** 고급 메뉴에서 게재에 액세스할 수 있습니다. 게재 버튼을 클릭한 다음 **[!UICONTROL Reports]** 버튼을 클릭하여 게재 요약, 열기 비율 또는 수신자 메시지의 받은 편지함에 따른 전자 메일 렌더링 등의[게재 보고서](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)에 액세스합니다.

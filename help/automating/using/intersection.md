@@ -29,7 +29,7 @@ ht-degree: 98%
 
 ## 구성 {#configuration}
 
-1. **[!UICONTROL Intersection]** 활동을 워크플로우로 끌어서 놓습니다.
+1. **[!UICONTROL Intersection]** 활동을 워크플로로 끌어서 놓습니다.
 1. 쿼리와 같은 앞에 오는 다른 활동과 연결합니다.
 1. 활동을 선택한 다음 나타나는 바로 가기의 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. **[!UICONTROL Reconciliation type]**&#x200B;을(를) 선택합니다.
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 1. 모든 인바운드 전환에 있는 추가 데이터만 유지하려면 **[!UICONTROL Use common additional data only]** 상자를 선택합니다.
 1. 필요한 경우 활동의 [전환](../../automating/using/activity-properties.md)을 관리하여 아웃바운드 모집단에 대한 고급 옵션에 액세스합니다.
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.
 
 ## 예제 {#example}
 

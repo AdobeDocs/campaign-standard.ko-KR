@@ -67,7 +67,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 * [사용자 및 권한 관리](../../administration/using/about-access-management.md): 플랫폼에 대한 액세스(사용자, 역할, 보안 그룹, 단위)를 관리합니다.
 * [다양한 채널 구성](../../administration/using/about-channel-configuration.md): 유형화와 격리 관리 및 다양한 플랫폼 채널을 설정합니다.
-* [일반 애플리케이션 설정 구성](../../administration/using/external-accounts.md): 다양한 애플리케이션 요소(외부 계정, 옵션, 기술 워크플로우)를 구성합니다.
+* [일반 애플리케이션 설정 구성](../../administration/using/external-accounts.md): 다양한 애플리케이션 요소(외부 계정, 옵션, 기술 워크플로)를 구성합니다.
 * [새로운 기능을 개발하여 기본 제공 기능 향상](../../developing/using/data-model-concepts.md): 사용자 정의 리소스를 관리하고 진단 도구에 액세스합니다.
 * [인스턴스 매개 변수 설정](../../administration/using/branding.md): 다양한 브랜드를 정의하고 설정(로고, 추적 관리, 랜딩 페이지에 액세스하기 위한 URL 도메인 등)을 구성합니다.
 * [데이터 패키지 내보내기 및 가져오기](../../automating/using/managing-packages.md): 구조화된 XML 파일을 통해 다양한 Adobe Campaign 인스턴스 간에 리소스를 교환합니다.
@@ -81,9 +81,9 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 다음은 이들이 수행할 수 있는 주요 작업입니다.
 
-* [복잡한 데이터 관리 워크플로우를 만들고 실행](../../automating/using/about-data-management-activities.md): 데이터를 가져오고 보강 및 변형하여 데이터베이스를 채우거나 필요한 데이터를 외부 파일로 내보내 원하는 도구로 처리합니다.
+* [복잡한 데이터 관리 워크플로를 만들고 실행](../../automating/using/about-data-management-activities.md): 데이터를 가져오고 보강 및 변형하여 데이터베이스를 채우거나 필요한 데이터를 외부 파일로 내보내 원하는 도구로 처리합니다.
 * [템플릿 관리](../../start/using/marketing-activity-templates.md): 템플릿을 관리하여 필요에 따라 마케팅 활동의 특정 매개 변수를 사전 구성합니다.
-* [쿼리 만들기](../../automating/using/editing-queries.md#about-query-editor) 및 [대상자 관리](../../audiences/using/about-audiences.md): 쿼리를 수동으로 사용하거나 전용 워크플로우를 자동으로 사용하여 대상자를 만듭니다.
+* [쿼리 만들기](../../automating/using/editing-queries.md#about-query-editor) 및 [대상자 관리](../../audiences/using/about-audiences.md): 쿼리를 수동으로 사용하거나 전용 워크플로를 자동으로 사용하여 대상자를 만듭니다.
 * [고급 표현식 편집 수행](../../automating/using/editing-queries.md#about-query-editor): 고급 함수를 사용하여 날짜, 문자열, 숫자 필드, 정렬 등의 특정 쿼리 수행에 사용할 값을 조정합니다.
 * [목록을 내보내고](../../automating/using/exporting-lists.md) [기존 가져오기 템플릿을 사용하여 데이터를 가져옵니다](../../automating/using/importing-data-with-import-templates.md).
 
@@ -93,11 +93,11 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 다음은 이들이 수행할 수 있는 주요 작업입니다.
 
-* [프로그램 및 캠페인 관리](../../start/using/programs-and-campaigns.md): 다양한 유형의 활동(이메일, SMS 메시지, 푸시 알림, 워크플로우, 랜딩 페이지)을 포함하는 마케팅 캠페인을 만듭니다.
+* [프로그램 및 캠페인 관리](../../start/using/programs-and-campaigns.md): 다양한 유형의 활동(이메일, SMS 메시지, 푸시 알림, 워크플로, 랜딩 페이지)을 포함하는 마케팅 캠페인을 만듭니다.
 * [프로필](../../audiences/using/about-profiles.md) 및 [테스트 프로필](../../audiences/using/managing-test-profiles.md) 관리: 게재 시 타겟팅할 확인 및 테스트 수신자를 관리합니다. 이름, 성, 연락처 정보, 구독, 이메일 등의 정보를 추가합니다.
 * [메시지 만들기 및 보내기](../../sending/using/confirming-the-send.md): 메시지를 만들고, 대상자를 선택하고, 메시지 콘텐츠와 개인화 요소를 정의하고, 증명을 보내고, 대상자에게 최종 메시지를 보냅니다.
 * [랜딩 페이지 만들기 및 게시](../../channels/using/getting-started-with-landing-pages.md): 고객에게 제공할 서비스 세트(구독이나 구독 취소 양식 등)를 만들고 관리합니다.
-* [캠페인 워크플로우 만들기 및 실행](../../automating/using/building-a-workflow.md): 워크플로우를 사용하여 캠페인 프로세스를 자동화합니다.
+* [캠페인 워크플로 만들기 및 실행](../../automating/using/building-a-workflow.md): 워크플로를 사용하여 캠페인 프로세스를 자동화합니다.
 * [사용 가능한 보고서](../../reporting/using/defining-the-report-period.md)를 통해 마케팅 활동을 모니터링합니다.
 
 ## 사용자 만들기 {#creating-a-user}

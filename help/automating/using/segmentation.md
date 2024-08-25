@@ -1,6 +1,6 @@
 ---
 title: 세분화
-description: 세분화 활동을 사용하면 워크플로우 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다.
+description: 세분화 활동을 사용하면 워크플로 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -22,7 +22,7 @@ ht-degree: 82%
 
 ![](assets/segmentation.png)
 
-**[!UICONTROL Segmentation]** 활동을 사용하면 워크플로우 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다. 활동 종료 시점에 단일 전환 또는 여러 전환으로 처리할 수 있습니다.
+**[!UICONTROL Segmentation]** 활동을 사용하면 워크플로 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다. 활동 종료 시점에 단일 전환 또는 여러 전환으로 처리할 수 있습니다.
 
 >[!NOTE]
 >
@@ -42,12 +42,12 @@ ht-degree: 82%
 
 ## 구성 {#configuration}
 
-1. **[!UICONTROL Segmentation]** 활동을 워크플로우로 끌어서 놓습니다.
+1. **[!UICONTROL Segmentation]** 활동을 워크플로로 끌어서 놓습니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. **[!UICONTROL General]** 탭에서 세분화를 수행할 **[!UICONTROL Resource type]**&#x200B;을(를) 선택합니다.
 
    * 데이터베이스에 이미 있는 데이터에 대해 세분화를 수행하려는 경우 **[!UICONTROL Database resource]**. 세분화할 데이터에 따라 **[!UICONTROL Filtering dimension]**&#x200B;을(를) 선택합니다. 세분화는 기본적으로 **프로필**&#x200B;에 대해 수행됩니다.
-   * 워크플로우의 임시 데이터에 대해 세분화를 수행하려는 경우 **[!UICONTROL Temporary resource]**: 세분화할 데이터가 있는 **[!UICONTROL Targeted set]**&#x200B;을(를) 선택합니다. 이 사용 사례는 파일을 가져온 후 또는 데이터베이스의 데이터를 보강한 경우에 발생할 수 있습니다.
+   * 워크플로의 임시 데이터에 대해 세분화를 수행하려는 경우 **[!UICONTROL Temporary resource]**: 세분화할 데이터가 있는 **[!UICONTROL Targeted set]**&#x200B;을(를) 선택합니다. 이 사용 사례는 파일을 가져온 후 또는 데이터베이스의 데이터를 보강한 경우에 발생할 수 있습니다.
 
 1. 사용할 아웃바운드 전환 유형을 선택합니다.
 
@@ -101,4 +101,4 @@ ht-degree: 82%
    * 남겨 두려는 세그먼트 코드가 인바운드 모집단에 이미 할당된 경우 **[!UICONTROL Concatenate the code of each segment]** 옵션을 선택합니다. 활동에 지정된 세그먼트 코드가 초기 세그먼트 코드에 추가됩니다.
    * 나머지 모집단을 활용해야 하는 경우 **[!UICONTROL Generate complement]** 옵션을 선택하십시오. [사용 사례: 보충 자료를 사용하여 게재 만들기](../../automating/using/workflow-created-query-with-complement.md)를 참조하세요.
 
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.

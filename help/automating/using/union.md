@@ -38,7 +38,7 @@ ht-degree: 97%
 
 ## 구성 {#configuration}
 
-1. **[!UICONTROL Union]** 활동을 워크플로우로 끌어서 놓습니다.
+1. **[!UICONTROL Union]** 활동을 워크플로로 끌어서 놓습니다.
 1. 쿼리와 같은 앞에 오는 다른 활동과 연결합니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. **[!UICONTROL Reconciliation type]**&#x200B;을(를) 선택하여 인바운드 모집단 간 대립 시 중복을 다루는 방법을 정의합니다.
@@ -50,7 +50,7 @@ ht-degree: 97%
 1. 모든 인바운드 전환에 있는 추가 데이터만 유지하려면 **[!UICONTROL Use common additional data only]** 상자를 선택합니다.
 1. 최종 모집단 크기를 제한하려면 **[!UICONTROL Limit size of generated population]** 상자를 선택합니다. 크기는 **[!UICONTROL Maximum number of records]** 필드에서 지정할 수 있습니다.
 1. 필요한 경우 해당 활동의 [전환](../../automating/using/activity-properties.md)을 관리하여 계산된 모집단의 고급 옵션에 액세스합니다.
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.
 
 ## 예제 {#example}
 

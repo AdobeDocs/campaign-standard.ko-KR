@@ -44,7 +44,7 @@ Campaign Standard 23.1 가을/겨울 릴리스의 릴리스 정보가 게시되�
 
 게재의 ID 필드에 공백을 사용하지 않는 것이 좋다는 메모가 추가되었습니다. [자세히 보기](../../channels/using/creating-an-email.md)
 
-**[!UICONTROL Extract file]** 워크플로우 활동 페이지에 특정 인코딩을 사용하여 CSV 파일로 데이터를 추출하는 방법에 대한 정보를 추가했습니다. [자세히 보기](../../automating/using/extract-file.md)
+**[!UICONTROL Extract file]** 워크플로 활동 페이지에 특정 인코딩을 사용하여 CSV 파일로 데이터를 추출하는 방법에 대한 정보를 추가했습니다. [자세히 보기](../../automating/using/extract-file.md)
 
 ## 릴리스 22.3 - 2022년 가을/겨울 {#release-22-3}
 
@@ -99,7 +99,7 @@ A/B 테스트 이메일 섹션에 메모를 추가했습니다. 총 모집단이
 
 새로운 감사 추적 기능 - [자세히 표시](../../administration/using/audit.md)
 
-워크플로우 진단 모드 - [자세히 표시](../../automating/using/managing-execution-options.md)
+워크플로 진단 모드 - [자세히 표시](../../automating/using/managing-execution-options.md)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -166,13 +166,13 @@ Adobe Experience Manager 통합 개선 사항 - [자세한 내용](../../integra
 
 이메일, 이름, 성 또는 사용자 지정 필드를 기반으로 프로필을 검색하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../audiences/using/integrated-customer-profile.md)
 
-외부 매개 변수를 사용한 워크플로우를 호출할 때 지정된 함수 값을 반환할 수 있는 새로운 GetOption 함수에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+외부 매개 변수를 사용한 워크플로를 호출할 때 지정된 함수 값을 반환할 수 있는 새로운 GetOption 함수에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
 활동을 **[!UICONTROL filesCount]**&#x200B;사용한 후 사용할 수 있는 새 출력 변수&#x200B;**[!UICONTROL Transfer file]**&#x200B;에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/transfer-file.md#output-variables)
 
 최신 이메일 설정이 무엇인지 명확하게 나타내기 위해 **이메일 채널 구성** 섹션을 업데이트했습니다. 특정 고객이 여전히 사용 중인 몇 가지 레거시 매개 변수가 이 페이지 하단에 나와 있습니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
 
-이전에 수행한 하나 이상의 작업이 아직 보류 중일 때까지 예약된 워크플로우의 일정이 조정되지 않도록 하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/scheduled-workflows-execution.md)
+이전에 수행한 하나 이상의 작업이 아직 보류 중일 때까지 예약된 워크플로의 일정이 조정되지 않도록 하는 방법에 대한 정보가 추가되었습니다. [자세한 내용](../../automating/using/scheduled-workflows-execution.md)
 
 ## 2020년 12월 {#doc-updates-december-2020}
 
@@ -216,9 +216,9 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-외부 매개 변수를 사용한 워크플로우를 호출하는 방법에 대한 섹션이 표현식 편집기에서 사용할 수 있는 새로운 기능으로 향상되었습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md)
+외부 매개 변수를 사용한 워크플로를 호출하는 방법에 대한 섹션이 표현식 편집기에서 사용할 수 있는 새로운 기능으로 향상되었습니다. [자세한 내용](../../automating/using/customizing-workflow-external-parameters.md)
 
-워크플로우당 사용할 활동 수에 대한 워크플로우 모범 사례에 권장 사항이 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#number-activities)
+워크플로당 사용할 활동 수에 대한 워크플로 모범 사례에 권장 사항이 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#number-activities)
 
 게재 모범 사례에 관한 새로운 섹션을 추가했습니다. [자세한 내용](../../sending/using/delivery-best-practices.md)
 
@@ -260,9 +260,9 @@ Campaign Standard 모니터링과 관련된 지침과 함께 새 섹션이 추�
 
 ## 2020년 6월 {#doc-updates-june-2020}
 
-워크플로우 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../automating/using/about-workflow-use-cases.md)
+워크플로 사용 사례는 주제별로 업데이트되고 재구성되었습니다. [자세한 내용](../../automating/using/about-workflow-use-cases.md)
 
-제어판 및 캠페인 워크플로우를 사용하여 데이터를 [암호화](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)하고 [해독](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)하는 방법에대한 사용 사례가 추가되었습니다.
+제어판 및 캠페인 워크플로를 사용하여 데이터를 [암호화](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)하고 [해독](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)하는 방법에대한 사용 사례가 추가되었습니다.
 
 기존 지원 웹 사이트에 대한 참조가 새 URL로 대체되었습니다. [자세히 알아보기](../../support.md)
 
@@ -276,7 +276,7 @@ Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했
 
 이메일 채널 매개 변수 섹션을 보다 명확하게 수정했습니다. 승인된 마스크 필드와 게재 보고서 ID에 대해 더 자세한 정보를 추가했습니다. [자세한 내용](../../administration/using/configuring-email-channel.md)
 
-이제 핵심 설명서에서 Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성에 대해 읽을 수 있습니다. Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방법에 대해 더 자세한 정보를 추가했습니다. [자세히 표시](../../administration/using/configuring-a-mobile-application.md)
+이제 핵심 설명서에서 Adobe Experience Platform SDK를 사용한 모바일 애플리케이션 구성에 대해 읽을 수 있습니다. Launch 기술 워크플로에서 모바일 앱 AEPSDK를 동기화하는 방법에 대해 더 자세한 정보를 추가했습니다. [자세히 표시](../../administration/using/configuring-a-mobile-application.md)
 
 ## 릴리스 20.3 - 2020년 5월 {#release-20-3---may-2020}
 
@@ -288,7 +288,7 @@ Campaign Standard 개요 페이지를 보강하고 테마 주제로 재구성했
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-워크플로우 속성의 **[!UICONTROL History in days]** 필드에 정보를 추가하여 이제 **[!UICONTROL Transfer file]** 활동으로 다운로드한 파일이 포함됩니다. [자세한 내용](../../automating/using/managing-execution-options.md)
+워크플로 속성의 **[!UICONTROL History in days]** 필드에 정보를 추가하여 이제 **[!UICONTROL Transfer file]** 활동으로 다운로드한 파일이 포함됩니다. [자세한 내용](../../automating/using/managing-execution-options.md)
 
 프로필 대체 섹션에 제목란 접두사의 500자 제한에 대한 정보를 추가했습니다. [자세한 내용](../../sending/using/testing-messages-using-target.md)
 
@@ -364,7 +364,7 @@ Campaign 이메일 디자이너 설명서 및 관련 페이지에 [!DNL Adobe Cr
 
 **[!UICONTROL Workflow]** 기본 제공 권한에 대한 정보를 추가했습니다. [자세한 내용](../../administration/using/list-of-roles.md)
 
-워크플로우 속성에서 사용할 수 있는 **[!UICONTROL History in days field]**&#x200B;에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/about-workflow-execution.md)
+워크플로 속성에서 사용할 수 있는 **[!UICONTROL History in days field]**&#x200B;에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/about-workflow-execution.md)
 
 ## 릴리스 20.1 - 2020년 2월 {#release-20-1---february-2020}
 
@@ -382,7 +382,7 @@ Adobe Experience Platform 데이터 커넥터(eta)
 
 관리자 보안 그룹에 대한 정보를 추가했습니다. **[!UICONTROL All (all)]** 조직 단위가 이 그룹에 할당되며 수정할 수 없다는 설명을 넣었습니다. [자세한 내용](../../administration/using/managing-groups-and-users.md)
 
-워크플로우에서 기본적으로 사용할 특정 시간대를 정의하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/building-a-workflow.md)
+워크플로에서 기본적으로 사용할 특정 시간대를 정의하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/building-a-workflow.md)
 
 API로 작업하기 안내서에 새로운 **_forcePagination=true** 매개 변수에 대한 정보를 추가했습니다. 이 매개 변수를 사용하면 큰 표에 페이지 매기기를 수행할 수 있습니다. [자세한 내용](../../api/using/pagination.md)
 
@@ -398,7 +398,7 @@ Campaign 사용자 인터페이스에서 랜딩 페이지 및 미러 페이지 �
 
 전달성 설명서가 IP 인증에 대한 새로운 섹션으로 업데이트됬습니다.<!--[Read more](../../sending/using/ip-certification.md)-->
 
-채널 간 게재 워크플로우를 만드는 방법을 설명하는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../automating/using/workflow-cross-channel-delivery.md)
+채널 간 게재 워크플로를 만드는 방법을 설명하는 새로운 섹션을 사용할 수 있습니다. [자세한 내용](../../automating/using/workflow-cross-channel-delivery.md)
 
 다이내믹 보고서의 지표 계산 섹션을 업데이트했습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
@@ -418,7 +418,7 @@ S3 외부 계정 구성 설명서를 업데이트했습니다. [자세한 내용
 
 사용자 정의 리소스 내보내기/가져오기에 대한 시작 안내서를 핵심 설명서에 통합했습니다. [자세한 내용](../../automating/using/exporting-importing-custom-resources.md)
 
-Campaign Standard에서 워크플로우를 사용하여 컨트롤 그룹을 만드는 방법을 설명하는 새로운 사용 사례를 추가했습니다.
+Campaign Standard에서 워크플로를 사용하여 컨트롤 그룹을 만드는 방법을 설명하는 새로운 사용 사례를 추가했습니다.
 
 랜딩 페이지 속성과 관련된 정보를 전용 섹션으로 이동했습니다. [자세한 내용](../../channels/using/configuring-landing-page.md)
 
@@ -482,9 +482,9 @@ Adobe Experience Platform SDK를 사용해 모바일 애플리케이션을 구�
 
 ## 2019년 8월 {#doc-updates-august-2019}
 
-쿼리에 초점을 맞추어 워크플로우의 사용 사례를 다루는 새로운 섹션을 추가했습니다. [자세한 내용](../../automating/using/workflow-created-query-with-complement.md)
+쿼리에 초점을 맞추어 워크플로의 사용 사례를 다루는 새로운 섹션을 추가했습니다. [자세한 내용](../../automating/using/workflow-created-query-with-complement.md)
 
-워크플로우 문제 해결 섹션에 로그 탭에 SQL 쿼리를 표시하기 위한 절차가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+워크플로 문제 해결 섹션에 로그 탭에 SQL 쿼리를 표시하기 위한 절차가 추가되었습니다. [자세한 내용](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
 컨트롤 패널 내에 하위 도메인 및 인증서 관리에 대한 정보를 다루는 새로운 도움말 문서를 추가했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)
 
@@ -498,7 +498,7 @@ Adobe Experience Platform SDK를 사용해 모바일 애플리케이션을 구�
 
 외부 API 활동(공개 Beta) - [자세한 내용](../../automating/using/external-api.md)
 
-워크플로우 세그먼트 보고서 - [자세한 내용](../../reporting/using/creating-a-report-workflow-segment.md)
+워크플로 세그먼트 보고서 - [자세한 내용](../../reporting/using/creating-a-report-workflow-segment.md)
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -506,9 +506,9 @@ Adobe Experience Platform SDK를 사용해 모바일 애플리케이션을 구�
 
 Microsoft Dynamics 365 커넥터 구현 및 사용에 대한 새로운 도움말 문서 세트를 만들었습니다. 이 기능은 현재 제한적 사용 단계입니다.[자세한 내용](../../integrating/using/d365-acs-get-started.md)
 
-[매개 변수로 워크플로우 호출](../../automating/using/calling-a-workflow-with-external-parameters.md) 섹션에 게재 준비 및 그 합계 기간에 대한 메모를 추가했습니다.
+[매개 변수로 워크플로 호출](../../automating/using/calling-a-workflow-with-external-parameters.md) 섹션에 게재 준비 및 그 합계 기간에 대한 메모를 추가했습니다.
 
-워크플로우의 외부 신호 활동에서 선언된 이벤트 변수를 사용하여 게재 레이블을 개인화하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/external-signal.md)
+워크플로의 외부 신호 활동에서 선언된 이벤트 변수를 사용하여 게재 레이블을 개인화하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/external-signal.md)
 
 Adobe Campaign Standard에서 사용자를 만드는 방법을 자세히 설명하는 새로운 섹션을 추가했습니다. [자세한 내용](../../administration/using/users-management.md)
 
@@ -526,7 +526,7 @@ Adobe Campaign Standard에서 사용자를 만드는 방법을 자세히 설명�
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
-워크플로우 모범 사례에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../automating/using/best-practices-workflows.md)
+워크플로 모범 사례에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../automating/using/best-practices-workflows.md)
 
 Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
@@ -538,7 +538,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트�
 
 복합 식별 키를 사용하여 프로필을 호출하는 방법에 대한 사용 사례를 추가했습니다. [자세한 내용](../../developing/using/uc-calling-resource-id-key.md)
 
-매개 변수가 있는 워크플로우를 호출할 때 합계 기간이 없는 반복 게재의 사용에 대한 추천 사항이 추가되었습니다. [자세한 내용](../../automating/using/calling-a-workflow-with-external-parameters.md)
+매개 변수가 있는 워크플로를 호출할 때 합계 기간이 없는 반복 게재의 사용에 대한 추천 사항이 추가되었습니다. [자세한 내용](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세한 내용](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
@@ -552,7 +552,7 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트�
 
 로컬 알림 - [자세한 내용](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
-워크플로우 개선 사항 - 외부 신호 활동에 페이로드 추가 - [자세한 내용](../../automating/using/calling-a-workflow-with-external-parameters.md)
+워크플로 개선 사항 - 외부 신호 활동에 페이로드 추가 - [자세한 내용](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 랜딩 페이지 개선 사항 - Google reCAPTCHA - [자세한 내용](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
@@ -578,17 +578,17 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 * 일반적인 사용 사례를 나타내는 미리 디자인한 API 요청 컬렉션을 사용할 수 있습니다.
 * 조직 단위를 관리하는 방법에 대한 새로운 섹션을 추가했습니다.
 * 서비스를 만드는 방법에 대한 정보를 추가했습니다.
-* 매개 변수로 워크플로우를 호출하는 방법에 대한 정보를 추가했습니다.
+* 매개 변수로 워크플로를 호출하는 방법에 대한 정보를 추가했습니다.
 
 새로운 **테스트** 활동에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/test.md)
 
-자동화 안내서에 관련 워크플로우 활동 링크를 업데이트했습니다. [자세한 내용](../../automating/using/workflow-interface.md#palette)
+자동화 안내서에 관련 워크플로 활동 링크를 업데이트했습니다. [자세한 내용](../../automating/using/workflow-interface.md#palette)
 
 다이내믹 보고서의 지표 계산 섹션을 업데이트했습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
 다이내믹 보고 호환성 표를 추가했습니다. 이 표를 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
-워크플로우에 대한 함수 목록이 업데이트되었습니다. [자세한 내용](../../automating/using/list-of-functions.md)
+워크플로에 대한 함수 목록이 업데이트되었습니다. [자세한 내용](../../automating/using/list-of-functions.md)
 
 콘텐츠 디자인 챕터를 재구성 및 개선했습니다. 이메일 디자이너에서 기존 콘텐츠를 사용하여 이메일을 디자인하는 다양한 방법에 대해 명확하게 설명하는 새로운 섹션을 추가했습니다. [자세한 내용](../../designing/using/using-existing-content.md)
 
@@ -622,7 +622,7 @@ Dreamweaver 통합 섹션을 업데이트 및 개선했습니다. [자세한 내
 
 모바일 인앱 메시지 - [자세한 내용](../../channels/using/about-in-app-messaging.md)
 
-워크플로우 개선 사항 - 자세한 내용은 [여기](../../automating/using/workflow-interface.md#duplicating-workflow-activities)와 [여기](../../automating/using/load-file.md#configuration)를 참조하십시오.
+워크플로 개선 사항 - 자세한 내용은 [여기](../../automating/using/workflow-interface.md#duplicating-workflow-activities)와 [여기](../../automating/using/load-file.md#configuration)를 참조하십시오.
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
@@ -660,7 +660,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 파일에 거부를 유지할 수 있는 옵션에 대한 정보를 추가했습니다. 이제 이 옵션을 사용하여 거부가 포함된 파일에 사후 처리 단계를 적용할 수 있습니다. [자세한 내용](../../automating/using/load-file.md#configuration)
 
-복사-붙여넣기 작업을 통해 워크플로우 활동을 복제하는 방법에 대한 새 섹션을 추가했습니다. [자세한 내용](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
+복사-붙여넣기 작업을 통해 워크플로 활동을 복제하는 방법에 대한 새 섹션을 추가했습니다. [자세한 내용](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
 쿼리([자세히 보기](../../automating/using/query-samples.md))와 세분화([자세히 보기](../../automating/using/segmentation.md)) 활동의 새로운 옵션에 대한 정보를 추가했습니다. 이 옵션을 사용하면 데이터가 검색되지 않는 경우 활동 후 아웃바운드 전환을 추가할 수 있습니다.
 
@@ -826,7 +826,7 @@ GDPR API에서 GDPR 요청의 자동 처리를 허용하는 기능을 다시 그
 
 **다이렉트 메일 격리 및 게재 로그 업데이트** 가져오기 템플릿에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
-기술 워크플로우 목록을 업데이트했습니다. [자세한 내용](../../administration/using/technical-workflows.md)
+기술 워크플로 목록을 업데이트했습니다. [자세한 내용](../../administration/using/technical-workflows.md)
 
 예약 활동 섹션을 업데이트했습니다. [자세한 내용](../../automating/using/scheduler.md)
 
@@ -858,7 +858,7 @@ Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니
 
 프로필 가져오기 예제에 프로필에서 다이렉트 메일을 받을 수 있도록 하는 몇 가지 팁을 업데이트했습니다. [자세한 내용](../../automating/using/about-data-import-and-export.md)
 
-워크플로우에서 새로운 **[!UICONTROL Enrichment]** 활동을 사용할 수 있습니다. [자세한 내용](../../automating/using/enrichment.md)
+워크플로에서 새로운 **[!UICONTROL Enrichment]** 활동을 사용할 수 있습니다. [자세한 내용](../../automating/using/enrichment.md)
 
 **[!UICONTROL Subscription Services]** 활동을 업데이트하여 더 많은 사용 사례를 지원합니다. 단일 파일로 여러 서비스에 대한 구독을 업데이트하는 등의 작업이 가능해졌습니다. [자세한 내용](../../automating/using/subscription-services.md)
 
@@ -868,7 +868,7 @@ Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니
 
 SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세한 내용](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-되풀이하는 워크플로우에서 사용자의 시간대에 따라 게재를 보내는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/recurring-push-notifications.md)
+되풀이하는 워크플로에서 사용자의 시간대에 따라 게재를 보내는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/recurring-push-notifications.md)
 
 **[!UICONTROL Customizing a push notification]** 섹션을 단계별 사용 사례에 따라 재구성했습니다. [자세한 내용](../../channels/using/customizing-a-push-notification.md)
 
@@ -900,7 +900,7 @@ API 신호 활동 트리거 - [자세한 내용](../../api/using/triggering-a-si
 
 다이내믹 보고서의 차원, 지표 및 세그먼트에 대한 정의 및 계산을 개선했습니다. [자세한 내용](../../reporting/using/list-of-components.md)
 
-워크플로우를 사용하여 들어오는 SMS 메시지를 검색하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../administration/using/configuring-sms-channel.md)
+워크플로를 사용하여 들어오는 SMS 메시지를 검색하는 방법에 대한 정보를 추가했습니다. [자세한 내용](../../administration/using/configuring-sms-channel.md)
 
 파일 전송 활동의 내역 설정에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/transfer-file.md)
 
@@ -940,7 +940,7 @@ Adobe Marketing Cloud Mobile SDK를 모바일 앱에 통합하여 Adobe Campaign
 
 SMS 설명서의 [SMS 자동 회신](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 섹션에 몇 가지 명확한 설명을 업데이트했습니다.
 
-API를 통한 워크플로우 관리에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../api/using/controlling-a-workflow.md)
+API를 통한 워크플로 관리에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../api/using/controlling-a-workflow.md)
 
 기본 키와 비즈니스 ID를 API 키로 사용하는 방법에 대한 새로운 섹션을 추가했습니다. [자세한 내용](../../api/using/get-started-apis.md)
 
@@ -982,9 +982,9 @@ ACS ID에 대한 설명서를 추가했습니다. [자세한 내용](../../devel
 
 새로운 암호화 및 해싱 기능에 대한 예제를 추가했습니다. [자세한 내용](../../automating/using/list-of-functions.md)
 
-파일 전송 워크플로우 활동에 대한 섹션을 업데이트했습니다. [자세한 내용](../../automating/using/transfer-file.md)
+파일 전송 워크플로 활동에 대한 섹션을 업데이트했습니다. [자세한 내용](../../automating/using/transfer-file.md)
 
-이메일 게재 워크플로우 활동의 &quot;메시지를 보내기 전 확인 요청&quot; 옵션에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/email-delivery.md)
+이메일 게재 워크플로 활동의 &quot;메시지를 보내기 전 확인 요청&quot; 옵션에 대한 정보를 추가했습니다. [자세한 내용](../../automating/using/email-delivery.md)
 
 ## 릴리스 17.7 - 2017년 7월 {#release-17-7---july-2017}
 
@@ -1058,7 +1058,7 @@ Dreamweaver 통합 라이브 - [자세한 내용](https://experienceleague.adobe
 
 Adobe Campaign의 다양한 사용자 유형에 대한 섹션을 추가했습니다. [자세한 내용](../../administration/using/users-management.md)
 
-워크플로우 가이드가 재구성 및 확장되었습니다. 워크플로우를 [빌드](../../automating/using/building-a-workflow.md)하고 [실행](../../automating/using/about-workflow-execution.md)하는 방법, [타겟팅](../../automating/using/about-targeting-activities.md)하고 [관리](../../automating/using/about-targeting-activities.md#enriching-data) 하는 방법, 데이터를 [가져오기 및 내보내기](../../automating/using/about-data-import-and-export.md) 방법과 워크플로우 데이터를 사용하여 데이터베이스를 업데이트하는 방법 또는 게재를 보내는 방법을 쉽게 찾을 수 있습니다.
+워크플로 가이드가 재구성 및 확장되었습니다. 워크플로를 [빌드](../../automating/using/building-a-workflow.md)하고 [실행](../../automating/using/about-workflow-execution.md)하는 방법, [타겟팅](../../automating/using/about-targeting-activities.md)하고 [관리](../../automating/using/about-targeting-activities.md#enriching-data) 하는 방법, 데이터를 [가져오기 및 내보내기](../../automating/using/about-data-import-and-export.md) 방법과 워크플로 데이터를 사용하여 데이터베이스를 업데이트하는 방법 또는 게재를 보내는 방법을 쉽게 찾을 수 있습니다.
 
 이제 다이내믹 보고서에 대한 보고 지표 계산을 사용할 수 있습니다. 여기에는 완전한 설명 및 계산 공식이 포함됩니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
@@ -1082,9 +1082,9 @@ Dreamweaver 통합(Labs) - [자세한 내용](https://experienceleague.adobe.com
 
 푸시 알림: 개선 사항 - [자세한 내용](../../channels/using/about-push-notifications.md)
 
-워크플로우: 새로운 신호 활동 - [자세한 내용](../../automating/using/external-signal.md)
+워크플로: 새로운 신호 활동 - [자세한 내용](../../automating/using/external-signal.md)
 
-워크플로우: 새로운 대상자 읽기 활동 - [자세한 내용](../../automating/using/read-audience.md)
+워크플로: 새로운 대상자 읽기 활동 - [자세한 내용](../../automating/using/read-audience.md)
 
 관심 영역 데이터 - [자세한 내용](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
@@ -1096,7 +1096,7 @@ REST API의 연결된 리소스 - [자세한 내용](../../developing/using/upda
 
 개발자 API 설명서를 다시 디자인했습니다. 새로운 정보와 코드 조각을 추가하여 사용자 경험을 개선했습니다. [자세한 내용](../../api/using/get-started-apis.md)
 
-새로운 [대상자 읽기](../../automating/using/read-audience.md) 및 [외부 신호](../../automating/using/external-signal.md) 워크플로우 활동에 대한 예제를 살펴볼 수 있습니다. 
+새로운 [대상자 읽기](../../automating/using/read-audience.md) 및 [외부 신호](../../automating/using/external-signal.md) 워크플로 활동에 대한 예제를 살펴볼 수 있습니다. 
 
 ## 릴리스 17.1 - 2017년 1월 {#release-17-1---january-2017}
 
@@ -1110,9 +1110,9 @@ REST API의 연결된 리소스 - [자세한 내용](../../developing/using/upda
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-증분 쿼리 워크플로우 활동: 새로운 증분 모드 - [자세히 보기](../../automating/using/incremental-query.md)
+증분 쿼리 워크플로 활동: 새로운 증분 모드 - [자세히 보기](../../automating/using/incremental-query.md)
 
-예약 워크플로우 활동 업데이트 - [자세한 내용](../../automating/using/scheduler.md)
+예약 워크플로 활동 업데이트 - [자세한 내용](../../automating/using/scheduler.md)
 
 URL 변경: Assets 핵심 서비스 - [자세한 내용](../../integrating/using/working-with-campaign-and-assets-core-service.md)
 

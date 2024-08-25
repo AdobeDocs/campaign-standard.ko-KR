@@ -26,7 +26,7 @@ ht-degree: 84%
 
 ![](assets/direct_mail_9.png)
 
-다음은 DM과 이메일 채널을 혼합하는 워크플로우의 예입니다.
+다음은 DM과 이메일 채널을 혼합하는 워크플로의 예입니다.
 
 ![](assets/direct_mail_10.png)
 

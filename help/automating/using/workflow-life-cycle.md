@@ -1,5 +1,5 @@
 ---
-title: 워크플로우 수명 주기
+title: 워크플로 수명 주기
 description: 워크플로우 라이프 사이클에 대해 자세히 알아보기
 audience: automating
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 ---
 
-# 워크플로우 수명 주기 {#life-cycle}
+# 워크플로 수명 주기 {#life-cycle}
 
 워크플로우의 라이프 사이클에는 세 가지 주요 단계가 포함되며 각 단계는 상태 및 색상에 연결됩니다.
 

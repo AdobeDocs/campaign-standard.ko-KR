@@ -50,5 +50,5 @@ Adobe Campaign Standard과 Adobe Analytics 간의 통합을 시작하려면 먼�
 **관련 항목:**
 
 * [외부 계정](../../administration/using/external-accounts.md)
-* [기술 워크플로우](../../administration/using/technical-workflows.md)
+* [기술 워크플로](../../administration/using/technical-workflows.md)
 * [통합 Campaign 보고를 위한 KPI 공유](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) 비디오

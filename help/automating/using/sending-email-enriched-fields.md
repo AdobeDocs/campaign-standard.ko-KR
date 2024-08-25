@@ -20,7 +20,7 @@ ht-degree: 68%
 
 <!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
-파일 로드 활동을 사용하면 같은 워크플로우를 통해 외부 파일의 추가 데이터로 보강한 이메일을 보낼 수 있습니다.
+파일 로드 활동을 사용하면 같은 워크플로를 통해 외부 파일의 추가 데이터로 보강한 이메일을 보낼 수 있습니다.
 
 아래 예제는 파일 로드 활동을 통해 외부 파일에서 검색한 추가 데이터를 사용하여 이메일을 보내는 방법을 보여 줍니다. 이 예제에서 외부 파일에는 프로필 목록과 해당 프로필의 계좌 번호가 들어 있습니다. 이 데이터를 가져와서 각 프로필에 계좌 번호가 포함된 이메일을 보내려고 합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 68%
 
    ![](assets/load_file_perso_field.png)
 
-1. 이메일을 저장하고 워크플로우를 시작합니다.
+1. 이메일을 저장하고 워크플로를 시작합니다.
 
 이메일이 타겟에게 보내집니다. 각 프로필은 해당 계좌 번호가 담긴 이메일을 수신합니다.
 

@@ -664,7 +664,7 @@ ht-degree: 95%
 
 ## 집계 {#aggregates}
 
-집계 함수는 워크플로우 **[!UICONTROL Query]** 활동에서 [추가 데이터를 추가](../../automating/using/query.md#enriching-data)할 때만 사용할 수 있습니다.
+집계 함수는 워크플로 **[!UICONTROL Query]** 활동에서 [추가 데이터를 추가](../../automating/using/query.md#enriching-data)할 때만 사용할 수 있습니다.
 
 집계 함수는 값 집합에 대한 계산을 수행하는 데 사용됩니다.
 

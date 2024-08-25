@@ -44,7 +44,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->출력 열 정의에 대한 자세한 내용은 [파일 추출](../../automating/using/extract-file.md) 워크플로우 활동 섹션을 참조하십시오.
+>출력 열 정의에 대한 자세한 내용은 [파일 추출](../../automating/using/extract-file.md) 워크플로 활동 섹션을 참조하십시오.
 
 ## 파일 구조 정의 {#defining-the-file-structure}
 
@@ -54,7 +54,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->사용 가능한 옵션은 [파일 추출](../../automating/using/extract-file.md) 워크플로우 활동 섹션에 자세히 설명되어 있습니다.
+>사용 가능한 옵션은 [파일 추출](../../automating/using/extract-file.md) 워크플로 활동 섹션에 자세히 설명되어 있습니다.
 
 ## 머리글 및 바닥글 정의 {#defining-the-header-and-footer}
 

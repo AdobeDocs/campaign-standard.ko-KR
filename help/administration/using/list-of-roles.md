@@ -33,7 +33,7 @@ ht-degree: 73%
 * **[!UICONTROL Generic import]**: 데이터에 대한 일반 가져오기를 실행할 수 있는 권한. 이를 수행하려면 **[!UICONTROL Generic import]** 역할을 **[!UICONTROL Workflow]** 역할에 연결해야 합니다.
 * **[!UICONTROL Prepare deliveries]**: 게재 생성, 수정, 준비 및 삭제할 권한. 이 역할을 가진 사용자는 게재를 준비할 수는 있지만 보낼 수는 없습니다.
 * **[!UICONTROL Start deliveries]**: 게재 생성, 수정, 준비, 전송 및 삭제할 수 있는 권한.
-* **[!UICONTROL Workflow]**: 워크플로우 실행(시작, 중지, 일시 중지 등)을 관리할 수 있는 권한. 이 역할을 가진 사용자는 워크플로우에서도 게재를 보낼 수 없습니다.
+* **[!UICONTROL Workflow]**: 워크플로 실행(시작, 중지, 일시 중지 등)을 관리할 수 있는 권한. 이 역할을 가진 사용자는 워크플로에서도 게재를 보낼 수 없습니다.
 
 자세한 내용은 선택한 권한에 따라 인터페이스에서 사용할 수 있는 기능을 자세히 설명하는 [역할 및 권한 테이블](/help/administration/using/assets/acs_rights.pdf)을 참조하십시오.
 

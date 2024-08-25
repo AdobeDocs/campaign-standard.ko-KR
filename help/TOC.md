@@ -225,7 +225,7 @@ ht-degree: 100%
       + [시각화 추가](reporting/using/adding-visualizations.md)
       + [구성 요소 추가](reporting/using/adding-components.md)
       + [사용자 정의 프로필 차원 만들기](reporting/using/creating-a-custom-profile-dimension.md)
-      + [워크플로우 세그먼트 기반 보고서 만들기](reporting/using/creating-a-report-workflow-segment.md)
+      + [워크플로 세그먼트 기반 보고서 만들기](reporting/using/creating-a-report-workflow-segment.md)
 + 다른 솔루션과 통합 {#integrating-with-adobe-cloud}
    + [Campaign 통합 시작](integrating/using/get-started-campaign-integrations.md)
    + Campaign과 Experience Manager {#working-with-campaign-and-experience-manager}
@@ -267,7 +267,7 @@ ht-degree: 100%
          + [통합 앱 시작](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
          + [통합 앱에 액세스](integrating/using/d365-acs-self-service-app-control-access.md)
          + [통합 앱과 시스템 연결](integrating/using/d365-acs-self-service-app-settings.md)
-         + [동기화 워크플로우 관리](integrating/using/d365-acs-self-service-app-workflows.md)
+         + [동기화 워크플로 관리](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Microsoft Dynamics 365와 Campaign 간 데이터 매핑](integrating/using/d365-acs-self-service-app-data-sync.md)
          + [자격 증명을 JWT에서 OAuth로 서버 간 마이그레이션](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [Microsoft Dynamics 365 통합 사용](integrating/using/d365-acs-using-the-integration.md)
@@ -277,24 +277,24 @@ ht-degree: 100%
       + [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](integrating/using/export-campaign-data.md)
 + 프로세스 및 데이터 관리 {#managing-processes-and-data}
    + [데이터 및 프로세스 관리 시작](automating/using/get-started-workflows.md)
-   + 워크플로우 일반 작업 {#workflow-general-operation}
-      + [워크플로우 인터페이스](automating/using/workflow-interface.md)
-      + [워크플로우 작성](automating/using/building-a-workflow.md)
-      + [워크플로우 모범 사례](automating/using/best-practices-workflows.md)
-   + 워크플로우 실행 {#executing-a-workflow}
-      + [워크플로우 실행 기본 정보](automating/using/about-workflow-execution.md)
-      + [워크플로우 수명 주기](automating/using/workflow-life-cycle.md)
+   + 워크플로 일반 작업 {#workflow-general-operation}
+      + [워크플로 인터페이스](automating/using/workflow-interface.md)
+      + [워크플로 작성](automating/using/building-a-workflow.md)
+      + [워크플로 모범 사례](automating/using/best-practices-workflows.md)
+   + 워크플로 실행 {#executing-a-workflow}
+      + [워크플로 실행 기본 정보](automating/using/about-workflow-execution.md)
+      + [워크플로 수명 주기](automating/using/workflow-life-cycle.md)
       + [실행 명령](automating/using/execution-commands.md)
-      + [워크플로우 실행 모니터링](automating/using/monitoring-workflow-execution.md)
+      + [워크플로 실행 모니터링](automating/using/monitoring-workflow-execution.md)
       + [실행 옵션 관리](automating/using/managing-execution-options.md)
       + [활동 속성 관리](automating/using/activity-properties.md)
-      + [예약된 워크플로우의 중복 실행](automating/using/scheduled-workflows-execution.md)
-   + 외부 매개 변수로 워크플로우 호출 {#calling-workflow-external-parameters}
+      + [예약된 워크플로의 중복 실행](automating/using/scheduled-workflows-execution.md)
+   + 외부 매개 변수로 워크플로 호출 {#calling-workflow-external-parameters}
       + [개요](automating/using/calling-a-workflow-with-external-parameters.md)
       + [외부 신호 활동에서 매개 변수 선언](automating/using/declaring-parameters-external-signal.md)
-      + [워크플로우 호출 시 매개 변수 정의](automating/using/defining-parameters-calling-workflow.md)
+      + [워크플로 호출 시 매개 변수 정의](automating/using/defining-parameters-calling-workflow.md)
       + [이벤트 변수 모니터링](automating/using/monitoring-events-variables.md)
-      + [외부 매개 변수를 사용하여 워크플로우 사용자 정의](automating/using/customizing-workflow-external-parameters.md)
+      + [외부 매개 변수를 사용하여 워크플로 사용자 정의](automating/using/customizing-workflow-external-parameters.md)
       + [활용 사례](automating/using/use-case-calling-workflow.md)
    + 타겟팅 활동 {#targeting-activities}
       + [타겟팅 활동 기본 정보](automating/using/about-targeting-activities.md)
@@ -341,14 +341,14 @@ ht-degree: 100%
       + [데이터 가져오기 및 내보내기 기본 정보](automating/using/about-data-import-and-export.md)
       + [가져오기 모범 사례](automating/using/import-best-practices.md)
       + [가져오기 템플릿으로 데이터 가져오기](automating/using/importing-data-with-import-templates.md)
-      + [데이터를 가져오기 위한 워크플로우 템플릿 만들기](automating/using/creating-import-workflow-templates.md)
+      + [데이터를 가져오기 위한 워크플로 템플릿 만들기](automating/using/creating-import-workflow-templates.md)
       + [암호화된 데이터 관리](automating/using/managing-encrypted-data.md)
       + [로그 내보내기](automating/using/exporting-logs.md)
       + [패키지 관리](automating/using/managing-packages.md)
       + [목록 내보내기](automating/using/exporting-lists.md)
       + [사용 사례: 사용자 정의 리소스 내보내기/가져오기](automating/using/exporting-importing-custom-resources.md)
    + 사용 사례 {#workflow-use-case}
-      + [워크플로우 사용 사례 기본 정보](automating/using/about-workflow-use-cases.md)
+      + [워크플로 사용 사례 기본 정보](automating/using/about-workflow-use-cases.md)
       + 게재 {#deliveries}
          + [보조 항목을 넣어 게재](automating/using/workflow-created-query-with-complement.md)
          + [프로필이 만들어진 날짜에 게재 만들기](automating/using/workflow-creation-date-query.md)
@@ -456,7 +456,7 @@ ht-degree: 100%
       + [Campaign Standard 설정 기본 정보](administration/using/about-campaign-standard-settings.md)
       + [외부 계정](administration/using/external-accounts.md)
       + [Campaign에서 타깃 매핑](administration/using/target-mappings-in-campaign.md)
-      + [기술 워크플로우](administration/using/technical-workflows.md)
+      + [기술 워크플로](administration/using/technical-workflows.md)
       + [브랜딩](administration/using/branding.md)
       + [내부 알림 보내기](administration/using/sending-internal-notifications.md)
       + [데이터 유지](administration/using/data-retention.md)
@@ -494,8 +494,8 @@ ht-degree: 100%
       + [개인 정보 데이터 파일 검색](api/using/retrieving-privacy-data-files.md)
       + [CCPA 옵트아웃 관리](api/using/managing-ccpa-opt-out.md)
    + [트랜잭션 메시지 관리](api/using/managing-transactional-messages.md)
-   + 워크플로우 관리 {#managing-workflows}
-      + [워크플로우 제어](api/using/controlling-a-workflow.md)
+   + 워크플로 관리 {#managing-workflows}
+      + [워크플로 제어](api/using/controlling-a-workflow.md)
       + [신호 활동 트리거](api/using/triggering-a-signal-activity.md)
    + 조직 단위 관리 {#managing-organizational-units}
       + [프로필의 조직 단위 검색](api/using/retrieving-an-organizational-unit.md)

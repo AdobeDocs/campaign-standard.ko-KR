@@ -37,7 +37,7 @@ ht-degree: 100%
 
 **개선 사항**
 
-* **Adobe 알림 서비스** - Campaign에는 Adobe 알림 서비스가 포함되어 있습니다. 이 서비스는 Experience Cloud 전반에 걸쳐 사용자가 알아야 할 중요한 활동에 대해 Experience Cloud 솔루션이 경고합니다. 22.2 버전부터 사용자 경험을 개선했습니다. 알림의 우선 순위가 지정되고 제품에서 생성한 알림이 Adobe 상태 알림과 분리됩니다. 또한 알림이 특정 워크플로우를 참조하는 경우 이제 이메일이나 제품 내 알림을 통해 직접 해당 워크플로우에 액세스할 수 있습니다.  Adobe Campaign 알림에 대한 자세한 내용은 [Adobe Campaign 알림](../../administration/using/sending-internal-notifications.md)을 참조하세요.
+* **Adobe 알림 서비스** - Campaign에는 Adobe 알림 서비스가 포함되어 있습니다. 이 서비스는 Experience Cloud 전반에 걸쳐 사용자가 알아야 할 중요한 활동에 대해 Experience Cloud 솔루션이 경고합니다. 22.2 버전부터 사용자 경험을 개선했습니다. 알림의 우선 순위가 지정되고 제품에서 생성한 알림이 Adobe 상태 알림과 분리됩니다. 또한 알림이 특정 워크플로를 참조하는 경우 이제 이메일이나 제품 내 알림을 통해 직접 해당 워크플로에 액세스할 수 있습니다.  Adobe Campaign 알림에 대한 자세한 내용은 [Adobe Campaign 알림](../../administration/using/sending-internal-notifications.md)을 참조하세요.
 
 <!--
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 **패치**
 
-* 중복 키 오류로 인해 청구 기술 워크플로우의 문제를 수정했습니다. (CAMP-51029)
+* 중복 키 오류로 인해 청구 기술 워크플로의 문제를 수정했습니다. (CAMP-51029)
 * 추적 보고서에서 누락된 Microsoft Edge 브라우저 카테고리를 추가했습니다. 이 분류는 이전에 Microsoft Edge가 열릴 때 분류되었습니다. (CAMP-51165)
 * 하위 테이블에서 데이터가 삭제되지 않는 GDPR 요청 문제를 수정했습니다. (CAMP-48276)
 * 트랜잭션 메시지 템플릿에서 조각의 가시성 조건이 저장되지 않는 이메일 디자이너 문제를 해결했습니다. (CAMP-50338)
@@ -113,6 +113,6 @@ ht-degree: 100%
 * 확인란에 동적 조건을 사용할 때 랜딩 페이지의 문제를 해결했습니다. (CAMP-48604)
 * &quot;10월 또는 이전&quot; 필터 조건을 사용할 때 **쿼리** 활동에서 발생하는 문제를 해결했습니다. 유럽 시간대로 설정된 인스턴스에서 작업하는 경우 시간대를 변환할 때 발생하는 문제로 인해 필터에 대해 선택한 월이 10월이 아닌 9월로 표시되었습니다. (CAMP-48602)
 * 이제 Adobe Campaign에서 게재 능력을 최적화하기 위해 8비트 대신 7비트 인코딩을 사용하여 이메일을 보냅니다. 따라서 중간 중계기가 메시지의 진위에 영향을 줄 수 있는 DKIM 서명을 무효화하지 않습니다. (CAMP-49016)
-* 대형 대상으로 작업할 때 발생하는 문제를 방지하기 위해 대상이 중복될 때 성능이 향상되었습니다. (CAMP-49639)
+* 대형 대상자로 작업할 때 발생하는 문제를 방지하기 위해 대상자가 중복될 때 성능이 향상되었습니다. (CAMP-49639)
 * **쿼리** 활동에 사용할 때 사용자 지정 필터가 올바른 결과를 표시하지 않도록 하는 문제를 해결했습니다. (CAMP-49417)
 * 이름에 쉼표가 있는 게재에서 조각을 사용하려고 할 때 오류 메시지를 표시하는 오류를 해결했습니다. 문제가 해결되었으므로 이제 쉼표를 조각 이름에 사용할 수 있습니다. (CAMP-49216)

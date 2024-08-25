@@ -53,7 +53,7 @@ Adobe Campaign을 사용하면 인바운드 데이터에 대한 세트를 처리
 * **[!UICONTROL Union]** 활동을 사용하면 여러 활동의 결과를 하나의 타겟으로 다시 그룹화할 수 있습니다. [합집합](../../automating/using/union.md) 섹션을 참조하십시오.
 * **[!UICONTROL Intersection]** 활동을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다. [교차](../../automating/using/intersection.md) 섹션을 참조하십시오.
 * **[!UICONTROL Exclusion]** 활동을 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다. [제외](../../automating/using/exclusion.md) 섹션을 참조하십시오.
-* **[!UICONTROL Segmentation]** 활동을 사용하면 워크플로우 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다. 활동이 끝나면 한 번의 전환이나 다른 전환으로 처리할 수 있습니다. [세그먼테이션](../../automating/using/segmentation.md) 섹션을 참조하십시오.
+* **[!UICONTROL Segmentation]** 활동을 사용하면 워크플로 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다. 활동이 끝나면 한 번의 전환이나 다른 전환으로 처리할 수 있습니다. [세그먼테이션](../../automating/using/segmentation.md) 섹션을 참조하십시오.
 
 ## 데이터 강화 {#enriching-data}
 

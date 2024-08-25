@@ -18,7 +18,7 @@ ht-degree: 95%
 
 # 컨트롤 그룹 추가 {#adding-control-group}
 
-캠페인의 영향을 측정하기 위해 컨트롤 그룹을 사용하여 대상의 일부에 메시지를 보내지 않아도 됩니다.
+캠페인의 영향을 측정하기 위해 컨트롤 그룹을 사용하여 대상자의 일부에 메시지를 보내지 않아도 됩니다.
 
 Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨트롤 그룹</b>을 만듭니다. 프로필은 임의로, 필터링 여부에 따라, 또는 기준에 따라 컨트롤 그룹에 추가됩니다.
 
@@ -106,7 +106,7 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
    ![](assets/control-group-define-target-exclusion.png)
 
-1. [쿼리 편집기](../../automating/using/editing-queries.md)를 사용하여 제외 기준을 정의합니다. 이전에 만든 [대상](../../audiences/using/about-audiences.md)을 선택할 수도 있습니다.
+1. [쿼리 편집기](../../automating/using/editing-queries.md)를 사용하여 제외 기준을 정의합니다. 이전에 만든 [대상자](../../audiences/using/about-audiences.md)를 선택할 수도 있습니다.
 
    ![](assets/control-group-target-exclusion.png)
 
@@ -120,7 +120,7 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 다음은 기본 대상에서 프로필 추출과 쿼리를 사용하여 특정 모집단 제외의 두 가지 방법을 사용하여 컨트롤 그룹을 정의하는 방법을 보여주는 예입니다.
 
-1. 워크플로우 만들기. 워크플로우를 만드는 자세한 단계는 [워크플로우 작성](../../automating/using/building-a-workflow.md) 섹션에 나와 있습니다.
+1. 워크플로 만들기. 워크플로를 만드는 자세한 단계는 [워크플로 작성](../../automating/using/building-a-workflow.md) 섹션에 나와 있습니다.
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓습니다. 활동을 두 번 클릭하고 대상을 정의합니다. <!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;에서 기본 대상 세그먼트 뒤에 [이메일 게재](../../automating/using/email-delivery.md) 활동을 끌어다 놓고 편집합니다.
@@ -173,7 +173,7 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 게재가 전송되면 게재 로그를 사용하여 메시지를 받지 못한 프로필을 필터링할 수 있습니다. 아래의 단계를 수행하십시오.
 
-1. 워크플로우 만들기. 워크플로우를 만드는 자세한 단계는 [워크플로우 작성](../../automating/using/building-a-workflow.md) 섹션에 나와 있습니다.
+1. 워크플로 만들기. 워크플로를 만드는 자세한 단계는 [워크플로 작성](../../automating/using/building-a-workflow.md) 섹션에 나와 있습니다.
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓습니다.
 1. **[!UICONTROL Properties]** 탭에서 **[!UICONTROL Delivery logs]**&#x200B;을(를) **[!UICONTROL Resource]**(으)로 설정하고 **[!UICONTROL Profile]**&#x200B;을(를) **[!UICONTROL Targeting dimension]**(으)로 설정합니다.
 
@@ -200,7 +200,7 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 메시지를 받지 못한 프로필을 기반으로 타겟팅을 수행하려면 게재 로그를 사용할 수도 있습니다. 아래의 단계를 수행하십시오.
 
-1. 워크플로우 만들기. 워크플로우를 만드는 자세한 단계는 [워크플로우 작성](../../automating/using/building-a-workflow.md) 섹션에 나와 있습니다.
+1. 워크플로 만들기. 워크플로를 만드는 자세한 단계는 [워크플로 작성](../../automating/using/building-a-workflow.md) 섹션에 나와 있습니다.
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 첫 번째 [쿼리](../../automating/using/query.md) 활동을 끌어서 놓습니다.
 1. **[!UICONTROL Properties]** 탭에서 **[!UICONTROL Profile]** 리소스가 **[!UICONTROL Resource]** 및  **[!UICONTROL Targeting dimension]**(으)로 선택되었는지 확인합니다.
 
@@ -234,6 +234,6 @@ Adobe Campaign에서 이렇게 하려면 게재 대상을 정의할 때 <b>컨�
 
 이제 컨트롤 그룹에 속해 있어 첫 번째 메시지를 받지 못한 프로필을 대상으로 하여 다른 이메일을 보낼 수 있습니다.
 
-동일한 워크플로우에서 이메일을 받은 프로필을 대상으로 다른 쿼리를 만들어 다른 메시지를 보낼 수도 있습니다.
+동일한 워크플로에서 이메일을 받은 프로필을 대상으로 다른 쿼리를 만들어 다른 메시지를 보낼 수도 있습니다.
 
 ![](assets/control-group-targeted-by-delivery.png)

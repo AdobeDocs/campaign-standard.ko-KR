@@ -71,7 +71,7 @@ Campaign Standard은 바운스, 스팸 또는 정크로 가장 많이 선언된 
 * [시각화 추가](../../reporting/using/adding-visualizations.md)
 * [구성 요소 추가](../../reporting/using/adding-components.md)
 * [사용자 정의 프로필 차원 만들기](../../reporting/using/creating-a-custom-profile-dimension.md)
-* [워크플로우 세그먼트 기반 보고서 만들기](../../reporting/using/creating-a-report-workflow-segment.md)
+* [워크플로 세그먼트 기반 보고서 만들기](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ## 추가 리소스
 

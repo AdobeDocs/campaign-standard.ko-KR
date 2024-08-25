@@ -22,7 +22,7 @@ ht-degree: 90%
 
 ![](assets/query.png)
 
-**[!UICONTROL Query]** 활동을 통해 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다. 전용 탭을 통해 타겟팅된 모집단에 대한 **[!UICONTROL Additional data]**&#x200B;을(를) 정의할 수 있습니다. 이 데이터는 추가 열에 저장되며 진행 중인 워크플로우에만 사용할 수 있습니다.
+**[!UICONTROL Query]** 활동을 통해 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다. 전용 탭을 통해 타겟팅된 모집단에 대한 **[!UICONTROL Additional data]**&#x200B;을(를) 정의할 수 있습니다. 이 데이터는 추가 열에 저장되며 진행 중인 워크플로에만 사용할 수 있습니다.
 
 이 활동은 쿼리 편집기 도구를 사용합니다. 이 도구는 [전용 섹션](../../automating/using/editing-queries.md#about-query-editor)에 자세히 설명되어 있습니다.
 
@@ -41,7 +41,7 @@ ht-degree: 90%
 
 ## 구성 {#configuration}
 
-1. **[!UICONTROL Query]** 활동을 워크플로우로 끌어서 놓습니다.
+1. **[!UICONTROL Query]** 활동을 워크플로로 끌어서 놓습니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다. 이 활동은 기본적으로 프로필을 검색하도록 사전 구성되어 있습니다.
 1. 프로필 리소스 이외의 리소스에 대해 쿼리를 실행하려면 활동의 **[!UICONTROL Properties]** 탭으로 이동하여 **[!UICONTROL Resource]** 및 **[!UICONTROL Targeting dimension]**&#x200B;을(를) 선택합니다.
 
@@ -55,7 +55,7 @@ ht-degree: 90%
    >
    >대상을 타깃팅할 때 대상의 정의가 참조되지 않지만 쿼리에 **복사**&#x200B;됩니다. 쿼리에서 대상을 타겟팅한 후 변경한 경우에는 새 정의를 고려하여 쿼리를 다시 구성해야 합니다.
 
-1. 전용 탭을 통해 타겟팅된 모집단에 대한 **[!UICONTROL Additional data]**&#x200B;을(를) 정의할 수 있습니다. 이 데이터는 추가 열에 저장되며 진행 중인 워크플로우에만 사용할 수 있습니다. 특히 쿼리의 타겟팅 차원에 연결된 Adobe Campaign 데이터베이스 테이블에서 데이터를 추가할 수 있습니다. [데이터 강화](#enriching-data) 섹션을 참조하십시오.
+1. 전용 탭을 통해 타겟팅된 모집단에 대한 **[!UICONTROL Additional data]**&#x200B;을(를) 정의할 수 있습니다. 이 데이터는 추가 열에 저장되며 진행 중인 워크플로에만 사용할 수 있습니다. 특히 쿼리의 타겟팅 차원에 연결된 Adobe Campaign 데이터베이스 테이블에서 데이터를 추가할 수 있습니다. [데이터 강화](#enriching-data) 섹션을 참조하십시오.
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ ht-degree: 90%
 
    아웃바운드 전환의 세그먼트 코드는 표준 표현식 및 이벤트 변수를 사용하여 개인화할 수 있습니다([이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 참조).
 
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.
 
 ## 타겟팅 차원 및 리소스 {#targeting-dimensions-and-resources}
 
@@ -105,7 +105,7 @@ ht-degree: 90%
 
 ## 데이터 강화 {#enriching-data}
 
-**[!UICONTROL Query]**, **[!UICONTROL Incremental query]** 및 **[!UICONTROL Enrichment]** 활동의 **[!UICONTROL Additional data]** 탭에서 타겟팅한 데이터를 보강하고 이 데이터를 다음 워크플로우 활동으로 전송하여 활용할 수 있습니다. 특히 다음을 추가할 수 있습니다.
+**[!UICONTROL Query]**, **[!UICONTROL Incremental query]** 및 **[!UICONTROL Enrichment]** 활동의 **[!UICONTROL Additional data]** 탭에서 타겟팅한 데이터를 보강하고 이 데이터를 다음 워크플로 활동으로 전송하여 활용할 수 있습니다. 특히 다음을 추가할 수 있습니다.
 
 * 단순 데이터
 * 집계

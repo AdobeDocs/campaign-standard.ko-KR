@@ -1,5 +1,5 @@
 ---
-title: 워크플로우 사용 사례 기본 정보
+title: 워크플로 사용 사례 기본 정보
 description: Campaign Standard 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보십시오.
 audience: automating
 content-type: reference
@@ -14,7 +14,7 @@ ht-degree: 70%
 
 ---
 
-# 워크플로우 사용 사례 기본 정보 {#about-workflow-use-cases}
+# 워크플로 사용 사례 기본 정보 {#about-workflow-use-cases}
 
 이 섹션에서는 Campaign 워크플로우 기능을 활용하는 다양한 사용 사례를 살펴볼 수 있습니다.
 

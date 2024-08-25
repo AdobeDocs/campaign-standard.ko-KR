@@ -32,7 +32,7 @@ ht-degree: 77%
 
 ![](assets/wkf_test_activity_example.png)
 
-조건은 **함수**&#x200B;또는 **변수**(예: 해당 워크플로우의 **[!UICONTROL External signal]** 활동으로 선언된 이벤트 변수)를 기반으로 만들 수 있습니다.
+조건은 **함수**&#x200B;또는 **변수**(예: 해당 워크플로의 **[!UICONTROL External signal]** 활동으로 선언된 이벤트 변수)를 기반으로 만들 수 있습니다.
 
 **관련 항목:**
 
@@ -41,7 +41,7 @@ ht-degree: 77%
 
 ## 구성 {#configuration}
 
-1. **[!UICONTROL Test]** 활동을 워크플로우에 끌어다 놓습니다.
+1. **[!UICONTROL Test]** 활동을 워크플로에 끌어다 놓습니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. 각 조건의 속성을 정의합니다.
 

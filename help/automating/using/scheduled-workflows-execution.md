@@ -1,5 +1,5 @@
 ---
-title: 예약된 워크플로우의 중복 실행
+title: 예약된 워크플로의 중복 실행
 description: 예약된 워크플로우의 중복 실행을 방지하는 방법을 알아봅니다.
 audience: automating
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ---
 
-# 예약된 워크플로우의 중복 실행{#preventing-overlapping-execution-of-scheduled-workflows}
+# 예약된 워크플로의 중복 실행{#preventing-overlapping-execution-of-scheduled-workflows}
 
 ## 예약된 워크플로우 실행 기본 정보
 

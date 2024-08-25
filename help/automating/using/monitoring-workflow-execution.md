@@ -1,5 +1,5 @@
 ---
-title: 워크플로우 실행 모니터링
+title: 워크플로 실행 모니터링
 description: 워크플로우 실행을 모니터링하는 방법을 알아봅니다.
 audience: automating
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 ---
 
-# 워크플로우 실행 모니터링 {#monitoring}
+# 워크플로 실행 모니터링 {#monitoring}
 
 ## 워크플로우 로그 및 작업 {#workflow-log-and-tasks}
 

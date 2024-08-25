@@ -30,7 +30,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >기본적으로 선택된 시간대는 워크플로우 속성에 정의된 시간대입니다([워크플로우 구축](../../automating/using/building-a-workflow.md) 참조).
+   >기본적으로 선택된 시간대는 워크플로 속성에 정의된 시간대입니다([워크플로 구축](../../automating/using/building-a-workflow.md) 참조).
 
    ![](assets/wkf_push_example_5.png)
 

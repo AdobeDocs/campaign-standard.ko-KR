@@ -30,7 +30,7 @@ Adobe Campaign Standard API를 사용하면 다음 기능에 액세스할 수 �
 <tr>
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="조건" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">개인 정보 관리</a></p></td>
 <td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="조건" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">트랜잭션 메시지 </a></p></td>
-<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="조건" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">워크플로우</a></p></td>
+<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="조건" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">워크플로</a></p></td>
 <td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="조건" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">조직 단위</a></p></td>
 </tr></table>
 

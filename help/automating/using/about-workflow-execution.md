@@ -1,5 +1,5 @@
 ---
-title: 워크플로우 실행 기본 정보
+title: 워크플로 실행 기본 정보
 description: 워크플로우 실행에 대해 자세히 알아봅니다.
 audience: automating
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 8%
 
 ---
 
-# 워크플로우 실행 기본 정보 {#about-workflow-execution}
+# 워크플로 실행 기본 정보 {#about-workflow-execution}
 
 워크플로우는 항상 수동으로 시작됩니다. 그러나 시작한 후에는 [스케줄러](../../automating/using/scheduler.md) 활동에 지정된 정보에 따라 비활성 상태로 유지될 수 있습니다.
 
@@ -40,7 +40,7 @@ ht-degree: 8%
 
 ![](assets/wkf_transition_count.png)
 
-전환을 열어 워크플로우를 실행하는 중 또는 후에 전송된 데이터가 올바른지 확인할 수 있습니다. 데이터 및 데이터 구조를 볼 수 있습니다.
+전환을 열어 워크플로를 실행하는 중 또는 후에 전송된 데이터가 올바른지 확인할 수 있습니다. 데이터 및 데이터 구조를 볼 수 있습니다.
 
 기본적으로 워크플로우의 마지막 전환에 대한 세부 정보에만 액세스할 수 있습니다. 이전 활동의 결과에 액세스하려면 워크플로우를 시작하기 전에 워크플로우 속성의 **[!UICONTROL Execution]** 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택해야 합니다.
 

@@ -1,6 +1,6 @@
 ---
 title: 생일 게재
-description: 이 예제는 생일 워크플로우입니다. 해당 날짜의 생일인 프로필에는 매일 이메일이 전송됩니다.
+description: 이 예제는 생일 워크플로입니다. 해당 날짜의 생일인 프로필에는 매일 이메일이 전송됩니다.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 ![](assets/wkf_delivery_example_1.png)
 
-이 예제는 생일 워크플로우입니다. 해당 날짜의 생일인 프로필에는 매일 이메일이 전송됩니다.
+이 예제는 생일 워크플로입니다. 해당 날짜의 생일인 프로필에는 매일 이메일이 전송됩니다.
 
 워크플로우를 빌드하려면 다음 단계를 수행합니다.
 

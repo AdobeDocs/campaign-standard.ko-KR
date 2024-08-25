@@ -1,6 +1,6 @@
 ---
 title: 데이터 보강
-description: 데이터 보강 활동은 워크플로우에서 처리할 추가 데이터를 정의할 수 있는 고급 활동입니다.
+description: 데이터 보강 활동은 워크플로에서 처리할 추가 데이터를 정의할 수 있는 고급 활동입니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 ![](assets/enrichment.png)
 
-**[!UICONTROL Enrichment]** 활동은 워크플로우에서 처리할 추가 데이터를 정의할 수 있는 고급 활동입니다.
+**[!UICONTROL Enrichment]** 활동은 워크플로에서 처리할 추가 데이터를 정의할 수 있는 고급 활동입니다.
 
 ## 사용 컨텍스트 {#context-of-use}
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 
 **[!UICONTROL Enrichment]** 활동을 구성하는 방법:
 
-1. **[!UICONTROL Enrichment]** 활동을 워크플로우로 끌어다 놓습니다.
+1. **[!UICONTROL Enrichment]** 활동을 워크플로로 끌어다 놓습니다.
 1. 활동을 선택한 다음 나타나는 바로 가기의 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 엽니다.
 1. 활동에 여러 개의 인바운드 전환이 있는 경우 **[!UICONTROL Primary set]**&#x200B;을(를) 선택합니다 . 이 활동에 구성된 추가 데이터는 아웃바운드 전환의 기본 세트에 추가됩니다.
 
@@ -57,7 +57,7 @@ ht-degree: 95%
 
    **[!UICONTROL Cardinality]**&#x200B;가 정의되면 **[!UICONTROL Reconciliation criteria]**&#x200B;을(를) 정의합니다. 조정 기준의 **[!UICONTROL Source expression]**&#x200B;는 대상 리소스의 필드이거나 [표현식](../../automating/using/advanced-expression-editing.md) 또는 따옴표 사이에 직접 지정된 값일 수 있습니다.
 
-   나중에 워크플로우에서 손쉽게 식별할 수 있는&#x200B;**[!UICONTROL Label]**&#x200B;와(과) **[!UICONTROL ID]**&#x200B;을(를) 정의합니다.
+   나중에 워크플로에서 손쉽게 식별할 수 있는&#x200B;**[!UICONTROL Label]**&#x200B;와(과) **[!UICONTROL ID]**&#x200B;을(를) 정의합니다.
 
    >[!NOTE]
    >
@@ -67,6 +67,6 @@ ht-degree: 95%
 
    [데이터 보강](../../automating/using/query.md#enriching-data) 섹션을 참조하십시오.
 
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.
 
 이제 **[!UICONTROL Enrichment]** 이후에 연결된 활동의 데이터를 사용할 수 있습니다 . 예를 들어, 전자 메일 콘텐츠의 개인화 필드 탐색기에 **[!UICONTROL Additional data (targetData)]** 링크 아래에서 찾을 수 있습니다.

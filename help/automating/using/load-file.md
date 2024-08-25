@@ -56,7 +56,7 @@ ht-degree: 93%
 >
 >샘플 파일의 데이터는 활동 구성에 사용하지만 가져오지는 않습니다. 데이터가 적은 샘플 파일을 사용하는 것을 추천합니다.
 
-1. **[!UICONTROL Load file]** 활동을 워크플로우에 끌어다 놓습니다.
+1. **[!UICONTROL Load file]** 활동을 워크플로에 끌어다 놓습니다.
 1. 해당 활동을 선택하면 나타나는 빠른 작업 목록에서 ![](assets/edit_darkgrey-24px.png) 버튼을 눌러 창을 엽니다.
 1. 최종 파일을 가져올 때의 예상 구조를 정의하기 위한 샘플 파일을 업로드합니다.
 
@@ -81,7 +81,7 @@ ht-degree: 93%
 
      **[!UICONTROL File format]** 섹션에서 **[!UICONTROL Check columns from file against column definitions]** 옵션을 선택하면 업로드하고 있는 파일의 열이 열 정의에 해당하는지 확인할 수 있습니다.
 
-     열의 수 및/또는 이름이 열 정의와 일치하지 않으면 워크플로우를 실행할 때 오류 메시지가 표시됩니다. 이 옵션이 활성화되지 않으면 로그 파일에 경고가 표시됩니다.
+     열의 수 및/또는 이름이 열 정의와 일치하지 않으면 워크플로를 실행할 때 오류 메시지가 표시됩니다. 이 옵션이 활성화되지 않으면 로그 파일에 경고가 표시됩니다.
 
      ![](assets/wkf_file_loading_check.png)
 
@@ -97,9 +97,9 @@ ht-degree: 93%
 
 1. **[!UICONTROL Execution]** 탭에서 파일을 처리하여 데이터를 로드할지 여부를 지정합니다.
 
-   * 워크플로우의 인바운드 전환에서 가져옵니다.
+   * 워크플로의 인바운드 전환에서 가져옵니다.
    * 이전 단계에서 업로드한 것입니다.
-   * 로컬 컴퓨터에서 업로드할 새로운 파일입니다. 워크플로우에 첫 번째 파일 업로드가 이미 정의된 경우 **[!UICONTROL Upload a new file from local machine]** 옵션이 나타납니다. 이 옵션을 선택하면 현재 파일이 사용자의 요구 사항에 맞지 않을 경우 처리할 다른 파일을 업로드할 수 있습니다.
+   * 로컬 컴퓨터에서 업로드할 새로운 파일입니다. 워크플로에 첫 번째 파일 업로드가 이미 정의된 경우 **[!UICONTROL Upload a new file from local machine]** 옵션이 나타납니다. 이 옵션을 선택하면 현재 파일이 사용자의 요구 사항에 맞지 않을 경우 처리할 다른 파일을 업로드할 수 있습니다.
 
      ![](assets/wkf_file_loading1.png)
 
@@ -115,9 +115,9 @@ ht-degree: 93%
 
    ![](assets/wkf_file_loading_keeprejects.png)
 
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.
 
-워크플로우를 실행한 후 활동에 오류가 발생하는 경우 로그를 참조하여 파일의 잘못된 값에 대한 자세한 내용을 확인하십시오. 워크플로우 로그에 대한 자세한 정보는 [이 섹션](../../automating/using/monitoring-workflow-execution.md)을 참조하십시오.
+워크플로를 실행한 후 활동에 오류가 발생하는 경우 로그를 참조하여 파일의 잘못된 값에 대한 자세한 내용을 확인하십시오. 워크플로 로그에 대한 자세한 정보는 [이 섹션](../../automating/using/monitoring-workflow-execution.md)을 참조하십시오.
 
 ## 열 형식 {#column-format}
 
@@ -149,7 +149,7 @@ ht-degree: 93%
 * **[!UICONTROL Remapping of values]**: 이 필드는 열 세부 사항 구성에서만 사용할 수 있습니다. 이 필드를 통해 특정 값을 가져올 때 변형할 수 있습니다. 예를 들어 &quot;셋&quot;을 &quot;3&quot;으로 변환할 수 있습니다.
 * **[!UICONTROL Error processing]**: 오류가 발생하는 경우의 비헤이비어를 정의합니다.
 
-   * **[!UICONTROL Ignore the value]**: 값이 무시됩니다. 워크플로우 실행 로그에 경고가 생성됩니다.
+   * **[!UICONTROL Ignore the value]**: 값이 무시됩니다. 워크플로 실행 로그에 경고가 생성됩니다.
    * **[!UICONTROL Reject the line]**: 전체 줄을 처리하지 않습니다.
    * **[!UICONTROL Use a default value]**: 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
    * **[!UICONTROL Use a default value in case the value is not remapped]**: 잘못된 값에 대한 매핑(위의 **[!UICONTROL Remapping of values]** 옵션 참조)이 정의되어 있지 않은 경우, 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.

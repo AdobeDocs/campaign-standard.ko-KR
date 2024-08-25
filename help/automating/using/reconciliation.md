@@ -49,7 +49,7 @@ ht-degree: 78%
 
 ## 구성 {#configuration}
 
-1. 타겟팅 차원이 Adobe Campaign에서 바로 제공되지 않는 모집단이 포함된 전환 이후, **[!UICONTROL Reconciliation]** 활동을 워크플로우에 끌어다 놓습니다. 자세한 내용은 [차원 및 리소스 타겟팅](../../automating/using/query.md#targeting-dimensions-and-resources)을 참조하십시오.
+1. 타겟팅 차원이 Adobe Campaign에서 바로 제공되지 않는 모집단이 포함된 전환 이후, **[!UICONTROL Reconciliation]** 활동을 워크플로에 끌어다 놓습니다. 자세한 내용은 [차원 및 리소스 타겟팅](../../automating/using/query.md#targeting-dimensions-and-resources)을 참조하십시오.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. 인바운드 데이터와 다른 데이터베이스 차원 사이의 연결을 정의하려면 **[!UICONTROL Links]** 탭으로 이동합니다.
 
@@ -66,7 +66,7 @@ ht-degree: 78%
    * **[!UICONTROL Ignore them]**: 식별 가능한 데이터만 활동의 아웃바운드 전환에 남습니다.
    * **[!UICONTROL Keep in the outbound population]**: 인바운드 전환의 모든 데이터가 활동의 아웃바운드 전환에 남습니다.
 
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.
 
 
 ## 활용 사례{#use-cases-reconciliation}

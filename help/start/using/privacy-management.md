@@ -81,7 +81,7 @@ Campaign Standard의 개인 정보 관리에 대한 튜토리얼도 [여기](htt
 Adobe Campaign은 최신 **액세스 권한** 및 **잊혀질 권리** 기능 외에도 다음과 같이 개인 정보 보호에 필수적인 기타 중요한 기능을 제공합니다.
 
 * [동의 관리](#consent-management): 기본 설정 관리를 위한 구독 기능
-* [데이터 보존](../../administration/using/data-retention.md): 모든 표준 로그 테이블의 데이터 보존 기간, 워크플로우로 추가 보존 기간을 설정할 수 있습니다.
+* [데이터 보존](../../administration/using/data-retention.md): 모든 표준 로그 테이블의 데이터 보존 기간, 워크플로로 추가 보존 기간을 설정할 수 있습니다.
 * [권한 관리](#rights-management): 명명된 권한에 의해 관리되는 데이터 액세스
 
 ### 동의 관리 {#consent-management}

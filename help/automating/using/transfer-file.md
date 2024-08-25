@@ -36,7 +36,7 @@ ht-degree: 75%
 
 ## 구성 {#configuration}
 
-1. **[!UICONTROL Transfer file]** 활동을 워크플로우에 드롭합니다.
+1. **[!UICONTROL Transfer file]** 활동을 워크플로에 드롭합니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. **[!UICONTROL Action]** 필드의 드롭다운 목록을 사용하여 다음 활동 작업 중 하나를 선택합니다.
 
@@ -68,11 +68,11 @@ ht-degree: 75%
 
 1. **[!UICONTROL Advanced options]** 탭의 **[!UICONTROL If no files are found]** 섹션에서 활동 시작 시 오류 또는 존재하지 않는 파일이 감지될 경우 실행할 작업을 구성할 수 있습니다.
 
-   다시 시도를 정의할 수도 있습니다. 워크플로우 실행 로그에 여러 다시 시도 기록이 나타납니다.
+   다시 시도를 정의할 수도 있습니다. 워크플로 실행 로그에 여러 다시 시도 기록이 나타납니다.
 
    ![](assets/wkf_file_transfer_09.png)
 
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.
 
 ### HTTP를 사용한 구성 {#HTTP-configuration-wf}
 
@@ -162,7 +162,7 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 
 ## 내역 설정 {#historization-settings}
 
-**[!UICONTROL Transfer file]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일이 전용 폴더에 저장됩니다.  워크플로우의 각 **[!UICONTROL Transfer file]** 활동마다 폴더가 하나씩 생성됩니다. 따라서 서버의 물리적 공간을 유지하려면 이 폴더의 크기를 제한할 수 있어야 합니다.
+**[!UICONTROL Transfer file]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일이 전용 폴더에 저장됩니다.  워크플로의 각 **[!UICONTROL Transfer file]** 활동마다 폴더가 하나씩 생성됩니다. 따라서 서버의 물리적 공간을 유지하려면 이 폴더의 크기를 제한할 수 있어야 합니다.
 
 이를 위해 **[!UICONTROL Transfer File]** 활동의 **[!UICONTROL Advanced options]**&#x200B;에서 **[!UICONTROL Historization settings]**&#x200B;을(를) 정의할 수 있습니다.
 

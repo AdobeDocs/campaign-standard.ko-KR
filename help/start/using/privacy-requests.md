@@ -29,7 +29,7 @@ CPA에만 해당되는 개인 정보 판매 옵트아웃은 [이 섹션](#sale-o
 
 Adobe Campaign을 사용하면 개인 정보 보호 준비를 용이하게 하기 위해 액세스 및 삭제 요청을 처리할 수 있습니다. **액세스 권한** 및 **잊혀질 권리(삭제 요청)**&#x200B;는 [이 섹션](../../start/using/privacy-management.md#right-access-forgotten)에 설명되어 있습니다.
 
-이러한 요청을 수행하려면 **개인 정보 보호 핵심 서비스** 통합을 사용해야 합니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다.
+이러한 요청을 수행하려면 **개인 정보 보호 핵심 서비스** 통합을 사용해야 합니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로를 통해 Campaign에서 자동으로 처리됩니다.
 
 ### 기본 사항 {#prerequesites}
 
@@ -89,7 +89,7 @@ Adobe Campaign은 저장된 데이터에 대한 개인 정보 요청을 만들�
 
 <!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
-개인 정보 보호 핵심 서비스 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로우를 통해 Campaign에서 자동으로 처리됩니다.
+개인 정보 보호 핵심 서비스 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 개인 정보 보호 요청을 자동화할 수 있습니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 개인 정보 보호 요청은 전용 워크플로를 통해 Campaign에서 자동으로 처리됩니다.
 
 개인 정보 보호 핵심 서비스에서 개인 정보 보호 요청을 만드는 방법에 대해 알아보려면 [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko) 설명서를 참조하십시오.
 
@@ -145,13 +145,13 @@ Adobe Campaign은 개인 정보 보호 요청의 삭제 또는 액세스를 수�
 
 개인정보 보호 요청에 대한 다양한 상태는 다음과 같습니다.
 
-* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: 진행 중이며 워크플로우는 아직 요청을 처리하지 않았습니다.
-* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: 워크플로우가 요청을 처리하고 있습니다.
-* **[!UICONTROL Delete pending]**: 워크플로우는 삭제하려는 모든 수신자 데이터를 식별했습니다.
-* **[!UICONTROL Delete in progress]**: 워크플로우가 삭제를 처리하고 있습니다.
+* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: 진행 중이며 워크플로는 아직 요청을 처리하지 않았습니다.
+* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: 워크플로가 요청을 처리하고 있습니다.
+* **[!UICONTROL Delete pending]**: 워크플로는 삭제하려는 모든 수신자 데이터를 식별했습니다.
+* **[!UICONTROL Delete in progress]**: 워크플로가 삭제를 처리하고 있습니다.
   <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
 * **[!UICONTROL Complete]**: 요청 처리가 오류 없이 끝났습니다.
-* **[!UICONTROL Error]**: 워크플로우에서 오류가 발생했습니다. 이유는 **[!UICONTROL Request status]** 열의 개인 정보 보호 요청 목록에 표시됩니다. 예를 들어 **[!UICONTROL Error data not found]**&#x200B;은(는) 데이터 주체의 **[!UICONTROL Reconciliation value]**&#x200B;와(과) 일치하는 수신자 데이터가 데이터베이스에 없음을 의미합니다.
+* **[!UICONTROL Error]**: 워크플로에서 오류가 발생했습니다. 이유는 **[!UICONTROL Request status]** 열의 개인 정보 보호 요청 목록에 표시됩니다. 예를 들어 **[!UICONTROL Error data not found]**&#x200B;은(는) 데이터 주체의 **[!UICONTROL Reconciliation value]**&#x200B;와(과) 일치하는 수신자 데이터가 데이터베이스에 없음을 의미합니다.
 
 <!--### Disabling the 2-step process {#disabling-two-step-process}
 
@@ -225,7 +225,7 @@ Adobe Campaign이 제공하는 [동의 관리](../../start/using/privacy-managem
 
 * 수신자의 세부 사항을 편집하여 Campaign 인터페이스 사용(아래 참조)
 * Campaign 개인 정보 API 사용( [API 설명서](../../api/using/managing-ccpa-opt-out.md) 참조)
-* 데이터 가져오기 작업 과정을 통해
+* 데이터 가져오기 워크플로를 통해
 
 그런 다음 옵트아웃한 프로필의 개인 정보를 제3자에게 판매해서는 안 됩니다.
 

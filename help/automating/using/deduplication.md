@@ -43,7 +43,7 @@ ht-degree: 96%
 
 중복 제거 활동을 구성하려면 결과와 관련된 옵션뿐만 아니라 레이블, 방법 및 중복 제거 기준을 입력해야 합니다.
 
-1. **[!UICONTROL Deduplication]** 활동을 워크플로우로 끌어서 놓습니다.
+1. **[!UICONTROL Deduplication]** 활동을 워크플로로 끌어서 놓습니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 
    ![](assets/deduplication_1.png)
@@ -51,7 +51,7 @@ ht-degree: 96%
 1. 중복 제거를 수행할 **[!UICONTROL Resource type]**&#x200B;을(를) 선택합니다.
 
    * 중복 제거가 데이터베이스에 이미 존재하는 데이터에 대해 수행되는 경우 **[!UICONTROL Database resource]**&#x200B;을(를) 선택합니다. 중복을 제거하려는 데이터에 따라 **[!UICONTROL Filtering dimension]** 및 **[!UICONTROL Targeting dimension]**&#x200B;을(를) 선택합니다. 기본적으로 중복 제거는 **프로필**&#x200B;에서 수행됩니다.
-   * 워크플로우의 임시 데이터에서 중복 제거가 수행되는 경우 **[!UICONTROL Temporary resource]**&#x200B;을(를) 선택합니다. 중복을 제거하려는 데이터가 포함된 **[!UICONTROL Targeted set]**&#x200B;을(를) 선택합니다. 이 사용 사례는 파일을 가져온 후 또는 데이터베이스의 데이터가 보강된 경우(예: 세그먼트 코드 포함) 발생할 수 있습니다.
+   * 워크플로의 임시 데이터에서 중복 제거가 수행되는 경우 **[!UICONTROL Temporary resource]**&#x200B;을(를) 선택합니다. 중복을 제거하려는 데이터가 포함된 **[!UICONTROL Targeted set]**&#x200B;을(를) 선택합니다. 이 사용 사례는 파일을 가져온 후 또는 데이터베이스의 데이터가 보강된 경우(예: 세그먼트 코드 포함) 발생할 수 있습니다.
 
 1. **[!UICONTROL Number of unique records to keep]**&#x200B;을(를) 선택합니다. 이 필드의 기본값은 1입니다. 값 0을 사용하면 모든 중복을 유지할 수 있습니다.
 
@@ -78,4 +78,4 @@ ht-degree: 96%
      ![](assets/deduplication_4.png)
 
 1. 필요한 경우 활동의 [전환](../../automating/using/activity-properties.md)을 관리하여 아웃바운드 모집단에 대한 고급 옵션에 액세스합니다.
-1. 활동 구성을 확인하고 워크플로우를 저장합니다.
+1. 활동 구성을 확인하고 워크플로를 저장합니다.

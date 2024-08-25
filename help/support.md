@@ -45,19 +45,19 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
     </td>
     <td valign="top">
         <ul>
-        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">워크플로우의 오류 관리</a></li>
-        <li><a href="automating/using/best-practices-workflows.md">워크플로우 실행 문제 해결</a></li>
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">워크플로의 오류 관리</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">워크플로 실행 문제 해결</a></li>
         <li><a href="api/using/troubleshooting.md">API 문제 해결</a></li>
         <li><a href="sending/using/understanding-delivery-failures.md">게재 실패 이해</a></li>
         </ul>
     </td>
    <td valign="top">
         <ul>
-        <li><a href="automating/using/best-practices-workflows.md">워크플로우 모범 사례</a></li>
-        <li><a href="automating/using/about-workflow-execution.md">워크플로우 모니터링</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">워크플로 모범 사례</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">워크플로 모니터링</a></li>
         <li><a href="sending/using/tracking-messages.md">추적 관리 이해</a></li>
         <li><a href="sending/using/about-deliverability.md">전달성 모범 사례</a></li>
-        <li><a href="automating/using/creating-import-workflow-templates.md">워크플로우로 데이터 가져오기</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">워크플로로 데이터 가져오기</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">시간대 관리</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">오류 발생 시 알림 받기</a></li>
         <li><a href="designing/using/using-existing-content.md">이메일 콘텐츠 가져오기 또는 전환</a></li>

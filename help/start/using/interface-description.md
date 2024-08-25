@@ -39,7 +39,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 * **[!UICONTROL Create a Direct mail]** 카드를 통해 다이렉트 메일 생성 도우미로 이동할 수 있습니다. [다이렉트 메일 만들기](../../channels/using/creating-the-direct-mail.md) 섹션을 참조하십시오.
 * **[!UICONTROL Create a push notification]** 카드를 통해 알림 생성 도우미로 이동할 수 있습니다. 이 도우미에서 푸시 알림 유형을 선택하고, 메시지 수신자를 선택하고, 콘텐츠를 정의할 수 있습니다. [푸시 알림 만들기](../../channels/using/preparing-and-sending-a-push-notification.md) 섹션을 참조하십시오.
 * **[!UICONTROL Create an In-App message]** 카드를 통해 인앱 생성 도우미로 이동할 수 있습니다. 이 도우미에서 만들려는 인앱 메시지 유형을 선택하고, 속성, 대상자 및 콘텐츠를 정의할 수 있습니다. [인앱 메시지 만들기](../../channels/using/about-in-app-messaging.md) 섹션을 참조하십시오.
-* **[!UICONTROL Marketing activities]** 카드를 통해 모든 활동, 프로그램 및 캠페인, 특히 이메일, SMS, 워크플로우 및 랜딩 페이지의 전체 목록으로 이동할 수 있습니다. 여기에서 이름, 날짜, 상태 또는 활동 유형별로 검색하여 요소를 필터링할 수 있습니다. 자세한 내용은 [마케팅 활동 목록](../../start/using/marketing-activities.md#about-marketing-activities) 섹션을 참조하십시오.
+* **[!UICONTROL Marketing activities]** 카드를 통해 모든 활동, 프로그램 및 캠페인, 특히 이메일, SMS, 워크플로 및 랜딩 페이지의 전체 목록으로 이동할 수 있습니다. 여기에서 이름, 날짜, 상태 또는 활동 유형별로 검색하여 요소를 필터링할 수 있습니다. 자세한 내용은 [마케팅 활동 목록](../../start/using/marketing-activities.md#about-marketing-activities) 섹션을 참조하십시오.
 * **[!UICONTROL Programs & campaigns]** 카드를 통해 캠페인을 만들고 관리할 수 있는 프로그램 목록으로 이동할 수 있습니다. [프로그램 목록](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)을 참조하십시오.
 * **[!UICONTROL Timeline]** 카드를 통해 마케팅 활동의 대화형 타임라인으로 바로 이동하여 진행 중인 프로그램 및 해당 콘텐츠를 참조할 수 있습니다. [타임라인](../../start/using/timeline.md)을 참조하십시오.
 * **[!UICONTROL Customer profiles]** 카드를 통해 프로필 목록으로 바로 이동할 수 있습니다. 여기에서 목록의 각 프로필에 대한 이벤트를 참조할 수 있습니다. [프로필 관리](../../audiences/using/about-profiles.md)를 참조하십시오.
@@ -138,7 +138,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
   ![](assets/ux_activityselection.png)
 
-* 워크플로우 및 쿼리 편집기의 경우 팔레트가 있는 **작업 영역**&#x200B;을 사용하여 개체를 디자인할 수 있습니다.
+* 워크플로 및 쿼리 편집기의 경우 팔레트가 있는 **작업 영역**&#x200B;을 사용하여 개체를 디자인할 수 있습니다.
 
   팔레트에서 요소를 작업 영역으로 끌어다 놓아 해당 요소를 구성할 수 있습니다.
 
@@ -152,6 +152,6 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 이 표시줄에는 검색 및 필터링과 같은 일반적인 작업 뿐만 아니라 표시되는 화면과 관련된 작업도 포함됩니다.
 
-* **작업 영역** 유형 화면과 관련된 작업은 워크플로우의 [작업 표시줄](../../automating/using/workflow-interface.md#action-bar) 섹션을 참조하십시오.
+* **작업 영역** 유형 화면과 관련된 작업은 워크플로의 [작업 표시줄](../../automating/using/workflow-interface.md#action-bar) 섹션을 참조하십시오.
 * **대시보드** 화면과 관련된 작업의 자세한 정보는 [메시지 대시보드](../../channels/using/message-dashboard.md) 섹션을 참조하십시오.
 * **목록** 유형 화면과 관련된 작업은 아래의 [목록 사용자 지정](../../start/using/customizing-lists.md) 섹션을 참조하십시오.

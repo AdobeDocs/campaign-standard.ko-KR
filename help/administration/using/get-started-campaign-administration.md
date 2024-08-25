@@ -96,6 +96,6 @@ Adobe Campaign을 외부 서버에 연결하는 데 사용되는 **외부 계정
 * [Campaign Standard 설정 기본 정보](../../administration/using/about-campaign-standard-settings.md)
 * [외부 계정](../../administration/using/external-accounts.md)
 * [Campaign에서 타깃 매핑](../../administration/using/target-mappings-in-campaign.md)
-* [기술 워크플로우](../../administration/using/technical-workflows.md)
+* [기술 워크플로](../../administration/using/technical-workflows.md)
 * [브랜딩](../../administration/using/branding.md)
 * [내부 알림 보내기](../../administration/using/sending-internal-notifications.md)

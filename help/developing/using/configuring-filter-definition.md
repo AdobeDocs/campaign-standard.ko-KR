@@ -20,7 +20,7 @@ ht-degree: 95%
 
 **[!UICONTROL Filter definition]** 탭에서 사용자가 대상자를 정의할 때와 같이 복잡한 쿼리를 만들 때 직접 액세스할 수 있는 고급 필터를 만들 수 있습니다. 
 
-워크플로우, 대상자 및 REST API를 통해 리소스를 채우고 해당 데이터에 액세스할 수 있으므로 이 단계는 필수가 아닙니다.
+워크플로, 대상자 및 REST API를 통해 리소스를 채우고 해당 데이터에 액세스할 수 있으므로 이 단계는 필수가 아닙니다.
 
 ![](assets/custom_resource_filter-definition.png)
 

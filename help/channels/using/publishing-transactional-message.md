@@ -125,11 +125,11 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 >
 >메시지를 다시 게시하려면 해당 이벤트 구성으로 돌아가 [이벤트를 게시](../../channels/using/publishing-transactional-event.md)한 다음 [메시지를 게시](#publishing-a-transactional-message)해야 합니다.
 
-일시 중지된 트랜잭션 메시지의 게시를 취소하는 경우 다시 게시하기 전에 최대 24시간까지 기다려야 할 수 있습니다. **[!UICONTROL Database cleanup]** 워크플로우가 대기열로 전송된 모든 이벤트를 지우기 위해서 입니다.
+일시 중지된 트랜잭션 메시지의 게시를 취소하는 경우 다시 게시하기 전에 최대 24시간까지 기다려야 할 수 있습니다. **[!UICONTROL Database cleanup]** 워크플로가 대기열로 전송된 모든 이벤트를 지우기 위해서 입니다.
 
 메시지 일시 중지 단계는 [트랜잭션 메시지 게시 일시 중단](#suspending-a-transactional-message-publication) 섹션에 자세히 설명되어 있습니다.
 
-매일 오전 4시에 실행되는 **[!UICONTROL Database cleanup]** 워크플로우는 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**&#x200B;을(를) 통해 액세스할 수 있습니다.
+매일 오전 4시에 실행되는 **[!UICONTROL Database cleanup]** 워크플로는 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**&#x200B;을(를) 통해 액세스할 수 있습니다.
 
 ## 트랜잭션 메시지 삭제 {#deleting-a-transactional-message}
 

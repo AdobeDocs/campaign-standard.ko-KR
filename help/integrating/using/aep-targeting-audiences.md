@@ -66,6 +66,6 @@ ht-degree: 3%
 워크플로우 및 게재 사용 방법에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
 * [워크플로우 살펴보기](../../automating/using/get-started-workflows.md)
-* [워크플로우 작성](../../automating/using/building-a-workflow.md)
+* [워크플로 작성](../../automating/using/building-a-workflow.md)
 * [통신 채널 살펴보기](../../channels/using/get-started-communication-channels.md)
 * [채널 활동 기본 정보](../../automating/using/about-channel-activities.md)

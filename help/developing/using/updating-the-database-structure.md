@@ -41,7 +41,7 @@ ht-degree: 90%
 
    ![](assets/schema_extension_12.png)
 
-1. 분석을 시작하려면 **[!UICONTROL Prepare publication]** 버튼을 클릭합니다. 워크플로우가 인스턴스를 집중적으로 사용하지 않는 경우 빅 테이블 업데이트를 수행해야 합니다.
+1. 분석을 시작하려면 **[!UICONTROL Prepare publication]** 버튼을 클릭합니다. 워크플로가 인스턴스를 집중적으로 사용하지 않는 경우 빅 테이블 업데이트를 수행해야 합니다.
 
    프로필 및 서비스 API에서 수행하는 작업에 대한 자세한 내용은 [API 확장으로 리소스 게시](#publishing-a-resource-with-api-extension)를 참조하십시오.
 

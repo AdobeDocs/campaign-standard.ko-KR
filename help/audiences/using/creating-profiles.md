@@ -27,7 +27,7 @@ Adobe Campaign에서 프로필은 메시지의 주요 타겟을 정의할 때 �
 
 Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수행할 수 있습니다.
 
-* [워크플로우](../../automating/using/creating-import-workflow-templates.md)를 통해 파일에서 프로필 목록 가져오기
+* [워크플로](../../automating/using/creating-import-workflow-templates.md)를 통해 파일에서 프로필 목록 가져오기
 * [랜딩 페이지](../../channels/using/getting-started-with-landing-pages.md)를 통해 온라인으로 데이터 수집
 * [REST API](../../api/using/get-started-apis.md)를 통해 벌크 만들기
 * [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)에서 프로필 동기화
