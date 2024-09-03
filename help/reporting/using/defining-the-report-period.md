@@ -8,14 +8,18 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 1fa05187-0488-4649-b903-079bfa4628f1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '230'
 ht-degree: 3%
 
 ---
 
 # 보고서 기간 정의{#defining-the-report-period}
+
+>[!NOTE]
+>
+>데이터 보고는 지난 3년 동안만 사용할 수 있습니다. 데이터 보존 기간에 대한 자세한 내용은 Adobe 컨설턴트 또는 기술 관리자에게 문의하십시오.
 
 보고서를 시작하거나 액세스하기 전에 기간을 적용해야 합니다. 지정된 기간은 보고서의 오른쪽 상단에서 액세스할 수 있습니다.
 
