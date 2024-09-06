@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
+source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 26%
@@ -38,8 +38,6 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 
 ## 워크플로 활동 {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
-
 워크플로우를 디자인하는 데 도움이 되는 다양한 활동을 사용할 수 있습니다.
 
 [타깃팅 활동](../../automating/using/about-targeting-activities.md)을 사용하면 집합을 정의하고 교차, 결합 또는 제외 작업을 사용하여 이러한 집합을 분할하거나 결합하여 하나 이상의 대상을 만들 수 있습니다.
@@ -56,8 +54,6 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 
 ## 데이터 필터링 {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="15px">
-
 **쿼리 편집기**&#x200B;를 활용하여 데이터베이스에서 데이터를 필터링하고, 받는 사람을 더 잘 타겟팅할 수 있는 모집단을 만드십시오. 쿼리 편집기는 Campaign Standard에서 쿼리 유형 대상 만들기, 게재 대상 정의 또는 워크플로우 활동의 모집단과 같은 몇 가지 작업을 수행할 수 있습니다.
 
 쿼리 편집기에는 빠르고 쉽게 필터링할 수 있도록 **사전 정의된 필터 및 규칙**&#x200B;이 제공됩니다. 그러나 **고급 표현식 편집** 기능을 사용할 수도 있습니다. 이렇게 하면 조건을 수동으로 입력하고 함수를 사용하여 고유한 규칙을 형성할 수 있습니다.
@@ -69,8 +65,6 @@ Adobe Campaign은 세그먼테이션, 캠페인 실행, 파일 처리 등 복잡
 * [함수 목록](../../automating/using/list-of-functions.md)
 
 ## 데이터 가져오기/내보내기 {#import-export-data}
-
-<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standard은 데이터를 가져오고 내보낼 수 있는 여러 **데이터 관리 기능**&#x200B;과 함께 제공됩니다.
 
