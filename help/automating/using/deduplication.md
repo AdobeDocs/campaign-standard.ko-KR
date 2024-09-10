@@ -1,6 +1,6 @@
 ---
 title: 중복 제거
-description: 중복 제거 활동을 통해 인바운드 활동의 결과에서 중복을 삭제할 수 있습니다.
+description: 중복 제거 활동을 통해 인바운드 활동의 결과에서 중복 요소를 삭제할 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
