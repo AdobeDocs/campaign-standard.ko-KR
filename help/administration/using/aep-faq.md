@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -29,14 +29,14 @@ Experience Platform SDK 애플리케이션을 사용하여 푸시 알림 및 인
 
 Adobe Experience Platform SDK 및 Campaign Standard 통합에 대한 자세한 내용은 아래 리소스를 참조하십시오.
 
-* Launch/Mobile [개요 비디오](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Launch/Mobile [개요 비디오](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
 * Launch/Mobile [팁 및 트릭 안내서](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience Platform SDK 통합을 Adobe Campaign Standard과 Adobe Campaign Classic 모두에서 사용할 수 있습니까? {#aep-validity}
 
 예. Adobe Campaign Standard과 Adobe Campaign Classic 모두에서 [!DNL Adobe Experience Platform SDK] 통합을 사용할 수 있습니다. 통합을 사용하려면 [!DNL Data Collection UI]을(를) 통해 해당 **[!UICONTROL Extension]**&#x200B;을(를) 설치해야 합니다.
 
-자세한 정보는 이 [페이지](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)를 참조하십시오.
+자세한 정보는 이 [페이지](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard){target="_blank"}를 참조하세요.
 
 ## Adobe Experience Platform SDK 통합은 Adobe Campaign에서 어떤 기능을 용이하게 합니까? {#aep-capabilities}
 
