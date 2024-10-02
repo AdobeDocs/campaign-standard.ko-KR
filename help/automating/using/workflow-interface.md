@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 4%
 * 선택한 활동 주위에 나타나는 [빠른 작업](#quick-actions)을 사용하면 해당 활동과 상호 작용할 수 있습니다.
 
 ![](assets/wkf_overview.png)
+
+![](assets/do-not-localize/how-to-video.png) [비디오에서 워크플로우를 빌드하는 방법을 알아봅니다](#video)
 
 ## 팔레트 {#palette}
 
@@ -154,3 +156,11 @@ ht-degree: 4%
 이렇게 하려면 활동 주위에 영역을 그려서 활동을 선택합니다. 작업 표시줄에서 **[!UICONTROL Copy selection]** 단추를 클릭합니다(또는 **Ctrl + C** 누름). 그런 다음 원하는 위치에 붙여넣을 수 있습니다.
 
 ![](assets/wkf_copypaste3.png)
+
+## 튜토리얼 비디오 {#video}
+
+이 비디오는 워크플로우를 만드는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
