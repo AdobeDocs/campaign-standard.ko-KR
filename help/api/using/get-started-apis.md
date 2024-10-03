@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 1f4a3e06bc4882f16d87330d18f25f5ee351e11a
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -22,16 +22,16 @@ Campaign Standard API는 사용자가 사용하는 기술 패널과 Adobe Campai
 Adobe Campaign Standard API를 사용하면 다음 기능에 액세스할 수 있습니다.
 
 <table><tr>
- <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="조건" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">프로필</a></p></td>
-<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="조건" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">서비스 및 구독</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="조건" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">사용자 정의 리소스</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="조건" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">마케팅 기록</a></p></td>
+ <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="조건" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">프로필</a></p></td>
+<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="50px" alt="조건" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">서비스 및 구독</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="50px" alt="조건" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">사용자 정의 리소스</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="50px" alt="조건" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">마케팅 기록</a></p></td>
 </tr>
 <tr>
-<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="조건" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">개인 정보 관리</a></p></td>
-<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="조건" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">트랜잭션 메시지 </a></p></td>
-<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="조건" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">워크플로</a></p></td>
-<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="조건" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">조직 단위</a></p></td>
+<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="50px" alt="조건" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">개인 정보 관리</a></p></td>
+<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="50px" alt="조건" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">트랜잭션 메시지 </a></p></td>
+<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="50px" alt="조건" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">워크플로</a></p></td>
+<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="50px" alt="조건" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">조직 단위</a></p></td>
 </tr></table>
 
 >[!NOTE]
