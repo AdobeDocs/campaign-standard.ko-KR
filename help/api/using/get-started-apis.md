@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard API 시작
-description: Campaign과 다양한 기술의 통합을 통해 고유한 에코시스템을 구축할 수 있습니다.
+description: Campaign과 다양한 기술의 통합을 통해 고유한 에코시스템을 빌드할 수 있습니다.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis

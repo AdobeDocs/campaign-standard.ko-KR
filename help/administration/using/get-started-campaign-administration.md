@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard 관리 시작
-description: 사용자 및 권한 관리, 모니터링 지침, 채널별 구성 및 애플리케이션 설정 지침에 대해 자세히 알아보십시오.
+description: 사용자 및 권한 관리, 모니터링 지침, 채널별 구성 및 애플리케이션 설정 지침에 대해 자세히 알아봅니다.
 audience: administration
 feature: Access Management
 role: Admin
