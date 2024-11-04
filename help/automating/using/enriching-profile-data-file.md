@@ -9,16 +9,16 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 72%
+source-wordcount: '522'
+ht-degree: 77%
 
 ---
 
 #  파일에 포함된 데이터로 프로필 데이터 보강 {#enriching-profile-data-with-data-contained-in-a-file}
 
-이 예에서는 파일에 포함된 구매 데이터를 사용하여 프로필 데이터를 보강하는 방법을 보여 줍니다.구매 데이터는 서드파티 시스템에 저장된다고 가정합니다. 각 프로필 파일에 여러 개의 구매를 저장할 수 있습니다. 워크플로의 최종 목표는 두 개 이상의 항목을 구매한 대상 프로필로 전자 메일을 보내 충성도에 대한 감사를 표시하는 것입니다.
+이 예에서는 파일에 포함된 구매 데이터를 사용하여 프로필 데이터를 보강하는 방법을 보여줍니다. 구매 데이터는 서드파티 시스템에 저장되어 있다고 가정합니다. 각 프로필 파일에 여러 개의 구매를 저장할 수 있습니다. 워크플로의 최종 목표는 두 개 이상의 항목을 구매한 대상 프로필로 전자 메일을 보내 충성도에 대한 감사를 표시하는 것입니다.
 
 워크플로는 다음과 같이 구성됩니다.
 
