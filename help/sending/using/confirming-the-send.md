@@ -9,9 +9,9 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '982'
 ht-degree: 16%
 
 ---
@@ -49,6 +49,10 @@ ht-degree: 16%
 ![](assets/confirmation_recurring_deliveries.png)
 
 ## 메시지 표시기 이해 {#message-indicators}
+
+>[!NOTE]
+>
+> **배포 대시보드**&#x200B;는 빠른 참조를 위해 데이터를 제공하므로 동적 보고서의 숫자와 일치하지 않을 수 있습니다. 정확하고 신뢰할 수 있는 정보를 얻으려면 동적 보고를 소스로 사용하는 것이 좋습니다. [자세히 알아보기](../../reporting/using/get-started-reporting.md)
 
 연락처에 메시지를 보내고 나면 **[!UICONTROL Deployment]** 영역에 다음 항목을 포함하는 KPI(주요 성과 지표) 데이터가 표시됩니다.
 
