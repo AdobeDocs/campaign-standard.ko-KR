@@ -1,5 +1,5 @@
 ---
-title: "3단계: 확장 확인"
+title: '3단계: 확장 확인'
 description: Rest API를 사용하여 확장 필드에 액세스하는 방법을 알아봅니다.
 audience: developing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 

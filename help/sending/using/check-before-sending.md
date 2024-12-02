@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "메시지가 준비되면 전송하기 전에 모든 검사를 수행하는 방법에 대해 알아봅니다."
+description: 메시지가 준비되면 보내기 전에 모든 검사를 수행하는 방법을 알아봅니다
 feature: Deliverability
 role: User
 level: Intermediate
@@ -12,7 +12,7 @@ exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '410'
-ht-degree: 15%
+ht-degree: 25%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 15%
 
 ## 증명 메시지 {#proof-messages}
 
-증명을 보내면 옵트아웃 링크, 미러 페이지 및 기타 링크를 확인하고, 메시지의 유효성을 검사하고, 이미지가 표시되는지 확인하고, 가능한 오류를 감지하는 등의 작업을 수행할 수 있습니다. 다른 장치에서 디자인과 렌더링을 확인할 수도 있습니다.
+증명을 보내면 옵트아웃 링크, 미러 페이지, 기타 링크를 확인하고, 메시지의 유효성을 검사하고, 이미지가 표시되는지 확인하고, 발생할 수 있는 오류를 감지하는 등의 작업을 수행할 수 있습니다. 다른 디바이스에서 디자인과 렌더링을 확인할 수도 있습니다.
 
 자세한 내용은 [이 섹션](../../sending/using/sending-proofs.md)을 참조하세요.
 

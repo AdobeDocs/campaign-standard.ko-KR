@@ -1,6 +1,6 @@
 ---
 title: 인터페이스 설명
-description: "홈페이지, 상단 표시줄, 고급 메뉴 및 작업 표시줄 등 Adobe Campaign 작업 영역을 탐색하고 사용하는 방법에 대해 알아봅니다."
+description: 홈페이지, 상단 표시줄, 고급 메뉴 및 작업 표시줄 등 Adobe Campaign 작업 영역을 탐색하고 사용하는 방법에 대해 알아봅니다.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -11,7 +11,7 @@ exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 

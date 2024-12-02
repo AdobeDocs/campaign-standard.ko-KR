@@ -1,6 +1,6 @@
 ---
 title: 메시지 액세스
-description: "메시지 및 고급 기능(만들기, 타겟팅, 개인화, 실행 및 보고)에 액세스하는 방법을 알아봅니다."
+description: 메시지 및 고급 기능(만들기, 타겟팅, 개인화, 실행 및 보고)에 액세스하는 방법을 알아봅니다.
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels

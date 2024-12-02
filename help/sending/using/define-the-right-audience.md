@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "콘텐츠를 준비한 후에는 메시지를 받을 사용자를 신중하게 정의하는 방법에 대해 알아보십시오."
+description: 콘텐츠를 준비한 후에는 메시지를 받을 사용자를 신중하게 정의하는 방법에 대해 알아보십시오.
 feature: Deliverability
 role: User
 level: Intermediate

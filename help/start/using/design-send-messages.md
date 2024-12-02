@@ -1,6 +1,6 @@
 ---
 title: 목록 사용자 정의
-description: "Adobe Campaign Standard에서 목록 화면 표시 및 작업을 사용자 지정하는 방법: 요소 정렬, 필터링, 삭제 또는 복제. 화면에 지정된 하나 또는 여러 리소스의 요소가 표시됩니다."
+description: 'Adobe Campaign Standard에서 목록 화면 표시 및 작업을 사용자 지정하는 방법: 요소 정렬, 필터링, 삭제 또는 복제. 화면에 지정된 하나 또는 여러 리소스의 요소가 표시됩니다.'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -47,7 +47,7 @@ ht-degree: 18%
 
 Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 보기**
+**자세히 알아보기**
 
 * xxxx
 * xxxx
@@ -58,7 +58,7 @@ Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libe
 
 Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 보기**
+**자세히 알아보기**
 
 * xxxx
 * xxxx
@@ -80,7 +80,7 @@ Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libe
 
 ![](assets/delivery_content_43.png)
 
-**자세히 보기**
+**자세히 알아보기**
 
 * [전체 샘플](../../designing/using/personalization.md#example-email-personalization)을 통해 전자 메일 개인화 살펴보기
 * [URL 개인화](../../designing/using/personalization.md#personalizing-urls)
@@ -101,7 +101,7 @@ Campaign 보고 사용자 인터페이스를 사용하면 동적 보고서를 �
 Adobe Campaign을 사용하면 각 게재를 개별적으로 모니터링하고 추적할 수 있습니다. 메시지 대시보드에는 후속 프로세스, 규칙 및 가능한 오류 및 경고를 식별하는 전용 로그가 표시됩니다.
 
 
-**자세히 보기**
+**자세히 알아보기**
 
 * [보고서 액세스](../../reporting/using/about-dynamic-reports.md)
 * [게재 모니터링](../../sending/using/monitoring-a-delivery.md)
@@ -113,7 +113,7 @@ Adobe Campaign을 사용하면 각 게재를 개별적으로 모니터링하고 
 
 Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 보기**
+**자세히 알아보기**
 
 * xxxx
 * xxxx

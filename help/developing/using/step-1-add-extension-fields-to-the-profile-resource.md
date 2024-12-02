@@ -1,5 +1,5 @@
 ---
-title: "1단계: 프로필 리소스에 확장 필드 추가"
+title: '1단계: 프로필 리소스에 확장 필드 추가'
 description: 프로필 리소스를 확장하는 방법을 알아봅니다.
 audience: developing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: fdd4d68b-e083-41c9-809d-3a6dc6b71180
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 42%
+ht-degree: 57%
 
 ---
 

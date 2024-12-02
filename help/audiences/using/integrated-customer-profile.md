@@ -1,6 +1,6 @@
 ---
-title: Integrated customer profile
-description: "단일 보기에서 모든 고객 상호 작용을 추적할 수 있습니다. Adobe Campaign Integrated Customer Profile은 고객 수명 주기 내내 업데이트됩니다."
+title: Integrated Customer Profile
+description: 단일 보기에서 모든 고객 상호 작용을 추적합니다. Adobe Campaign 통합 고객 프로필은 고객 수명 주기 내내 업데이트됩니다.
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
@@ -12,7 +12,7 @@ exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 48%
+ht-degree: 41%
 
 ---
 

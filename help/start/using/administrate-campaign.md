@@ -1,13 +1,13 @@
 ---
 title: 목록 사용자 정의
-description: "Adobe Campaign Standard에서 목록 화면 표시 및 작업을 사용자 지정하는 방법: 요소 정렬, 필터링, 삭제 또는 복제. 화면에 지정된 하나 또는 여러 리소스의 요소가 표시됩니다."
+description: 'Adobe Campaign Standard에서 목록 화면 표시 및 작업을 사용자 지정하는 방법: 요소 정렬, 필터링, 삭제 또는 복제. 화면에 지정된 하나 또는 여러 리소스의 요소가 표시됩니다.'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 8%
 
 Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 보기**
+**자세히 알아보기**
 
 * xxxx
 * xxxx
@@ -54,7 +54,7 @@ Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libe
 
 Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 보기**
+**자세히 알아보기**
 
 * xxxx
 * xxxx
@@ -65,7 +65,7 @@ Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libe
 
 Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 보기**
+**자세히 알아보기**
 
 * xxxx
 * xxxx
@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libe
 
 Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 보기**
+**자세히 알아보기**
 
 * xxxx
 * xxxx

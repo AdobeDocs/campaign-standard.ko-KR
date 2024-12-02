@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: "게재 템플릿을 사용하면 가장 일반적인 유형의 활동에 대해 준비된 시나리오를 제공하여 효율성을 높일 수 있습니다."
+description: 게재 템플릿은 가장 일반적인 유형의 활동에 대해 준비된 시나리오를 제공하여 효율성을 높입니다.
 feature: Deliverability
 role: User
 level: Intermediate

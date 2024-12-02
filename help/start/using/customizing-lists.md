@@ -1,6 +1,6 @@
 ---
 title: 목록 사용자 정의
-description: "Adobe Campaign Standard에서 목록 화면 표시 및 작업을 사용자 지정하는 방법: 요소 정렬, 필터링, 삭제 또는 복제. 화면에 지정된 하나 또는 여러 리소스의 요소가 표시됩니다."
+description: 'Adobe Campaign Standard에서 목록 화면 표시 및 작업을 사용자 지정하는 방법: 요소 정렬, 필터링, 삭제 또는 복제. 화면에 지정된 하나 또는 여러 리소스의 요소가 표시됩니다.'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
