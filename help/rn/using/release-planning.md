@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 8da7d90905745b99f52841483a2d540e9781104e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
  <tbody>
   <tr>
    <td>단계 </td>
-   <td>2025년 1월 7일 - 2월 4일 </td>
+   <td>2025년 1월 7일 ~ 2월 4일 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>프로덕션 </td>
-   <td>2025년 1월 13일 - 2월 25일 </td>
+   <td>2025년 1월 13일 ~ 2월 25일 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>

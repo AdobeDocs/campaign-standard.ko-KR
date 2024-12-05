@@ -4,9 +4,9 @@ title: Adobe Campaign Standard 제품 설명서
 description: Campaign Standard 제품 설명서 찾아보기
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴�
 
 >[!TAB Campaign v8로 전환]
 
-Adobe Campaign Standard 사용자가 이제 Adobe Campaign Managed Cloud Services v8로 전환할 수 있음을 발표하게 되어 기쁘게 생각합니다.
+이제 Adobe Campaign Standard 사용자가 Adobe Campaign Managed Cloud Services v8로 전환할 수 있음을 기쁜 마음으로 알려드립니다.
 
-[![이미지](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+[![이미지](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
 >[!TAB Campaign 24.2 릴리스가 공개되었습니다!]
 
@@ -87,7 +87,7 @@ Campaign 및 RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>콘텐츠 관리</strong><br/><a href="sending/using/design-and-personalize.md">개인화된 콘텐츠 작성</a> - <a href="sending/using/sending-proofs.md">증명 보내기</a> - <a href="sending/using/previewing-messages.md">게재 미리 보기</a> - <a href="sending/using/use-templates.md">템플릿 사용</a>
+      <strong>콘텐츠 관리</strong><br/><a href="sending/using/design-and-personalize.md">개인화된 콘텐츠 작성</a> - <a href="sending/using/sending-proofs.md">교정쇄 보내기</a> - <a href="sending/using/previewing-messages.md">게재 미리 보기</a> - <a href="sending/using/use-templates.md">템플릿 사용</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
