@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
-source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1753'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 100%
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/release-notes.md)
    + 이전 릴리스 {#previous-releases}
+      + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
       + [2021](rn/using/release-notes-2021.md)
@@ -162,7 +163,7 @@ ht-degree: 100%
    + [테스트 및 보내기 시작](sending/using/get-started-sending-messages.md)
    + 메시지 준비 및 테스트 {#preparing-and-testing-messages}
       + [게재 미리 보기](sending/using/previewing-messages.md)
-      + [증명 보내기](sending/using/sending-proofs.md)
+      + [교정쇄 보내기](sending/using/sending-proofs.md)
       + [타기팅된 프로필을 사용한 이메일 메시지 테스트](sending/using/testing-messages-using-target.md)
       + [예측 사용자 참여 기능](sending/using/predictive.md)
       + [이메일 렌더링](sending/using/email-rendering.md)
