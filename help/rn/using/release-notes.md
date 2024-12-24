@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -31,16 +31,16 @@ ht-degree: 76%
 
 #### 보안 수정 사항 {#winter-25-security}
 
-* 이번 릴리스에는 보안 수정 사항이 적용되었습니다.
-* 이 릴리스는 다음과 같은 보안 업그레이드와 함께 제공됩니다. Apache Tomcat이 v10.1.33으로 업그레이드되었습니다.
+* 이번 릴리스에서는 보안 수정 사항이 적용됩니다.
+* 이 릴리스에서는 다음 보안 업그레이드가 제공됩니다. Apache Tomcat이 v10.1.33으로 업그레이드되었습니다.
 
 #### 기타 수정 사항 {#winter-25-fixes}
 
-* 템플릿의 중복 문제를 해결했습니다(CAMP-56340).
-* Adobe Experience Manager 템플릿에서 동적 URL이 사용된 경우의 추적 회귀 문제를 해결했습니다(CAMP-51932).
-* 과금 프로세스의 성능 문제를 해결했습니다(CAMP-56796).
-* JSSP 웹 페이지의 `>` 문자와 관련된 HTML 인코딩 문제를 해결했습니다(CAMP-56497).
-* **선택한 행에 표시** 옵션을 사용할 때 동적 보고의 문제를 해결했습니다(CAMP-55895).
+* 템플릿 중복 문제 해결(CAMP-56340)
+* Adobe Experience Manager 템플릿에서 동적 URL이 사용된 경우의 추적 회귀 문제 해결(CAMP-51932)
+* 과금 프로세스의 성능 문제 해결(CAMP-56796)
+* JSSP 웹 페이지의 `>` 문자와 관련된 HTML 인코딩 문제 해결(CAMP-56497)
+* 동적 보고에서 **선택한 행에 표시** 옵션을 사용할 때의 문제 해결(CAMP-55895)
 
 
 ## 릴리스 24.2 - 2024년 여름 릴리스(LA) {#summer-24}
