@@ -3,10 +3,10 @@ keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 제품 설명서
 description: Campaign Standard 제품 설명서 찾아보기
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 91%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## 새로운 기능
 
-Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 상세한 [릴리스 정보](rn/using/release-notes.md)를 확인하십시오. [설명서 업데이트 페이지](rn/using/documentation-updates.md)를 방문하여 설명서의 최신 변경 사항을 최신 상태로 유지하십시오.
+Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 자세한 [릴리스 정보](rn/using/release-notes.md)를 확인하십시오.
 
 >[!BEGINTABS]
 
@@ -24,9 +24,9 @@ Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴�
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ko/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
->[!TAB Campaign 24.2 릴리스가 공개되었습니다!]
+>[!TAB Campaign 25.1 릴리스가 공개되었습니다!]
 
-Campaign Standard 24.2 릴리스의 새로운 기능, 개선 사항 및 수정 사항을 살펴보십시오.
+Campaign Standard 25.1 릴리스의 개선 사항 및 수정 사항을 살펴보십시오.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 

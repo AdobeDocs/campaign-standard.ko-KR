@@ -4,17 +4,24 @@ description: Adobe Campaign Standard 설명서의 모든 최신 업데이트에 
 feature: Overview
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
 workflow-type: tm+mt
-source-wordcount: '7258'
-ht-degree: 100%
+source-wordcount: '7276'
+ht-degree: 99%
 
 ---
 
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
+
+
+## 릴리스 25.1 - 2025년 겨울 {#release-24-1}
+
+Campaign Standard 24.1 2024년 겨울 릴리스의 릴리스 정보가 게시되었습니다. [자세히 보기](release-notes.md)
 
 ## 릴리스 24.1 - 2024년 겨울 {#release-24-1}
 
@@ -67,7 +74,7 @@ SMTP 테스트 모드 사용이 자세히 설명되어 있습니다. [자세히 
 
 ## 2022년 3월 {#doc-updates-march-2022}
 
-프로필 대체를 사용하여 증명을 보내면 선택한 프로필의 로그에 레코드가 추가된다는 점을 설명하는 메모를 추가했습니다. [자세히 보기](../../sending/using/testing-messages-using-target.md)
+프로필 대체를 사용하여 교정쇄를 보내면 선택한 프로필의 로그에 레코드가 추가된다는 점을 설명하는 메모를 추가했습니다. [자세히 보기](../../sending/using/testing-messages-using-target.md)
 
 ## 릴리스 22.1 - 2022년 2월 {#release-22-1}
 
