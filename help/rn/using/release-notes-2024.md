@@ -4,14 +4,38 @@ description: 이 페이지에는 Adobe Campaign Standard의 2024년 릴리스가
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
+exl-id: 26616ecc-a009-485c-b13d-d4e0c23969f2
+source-git-commit: 85f3a3d8fe9e41eaa78fac955bc2d0f3f3d2c35e
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 93%
+source-wordcount: '490'
+ht-degree: 96%
 
 ---
 
 # 2024년 릴리스 정보 {#release-notes-2024}
+
+
+## 릴리스 24.2 - 2024년 여름 릴리스(LA) {#summer-24}
+
+### 개선 사항 {#summer-24-rn-improvements}
+
+**OAuth 서버 간 자격 증명으로 마이그레이션**
+
+이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud Triggers 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
+
+Campaign과 인바운드 통합을 구현했으며 [Campaign API](../../api/using/get-started-apis.md)를 사용하는 경우 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}에서 설명하는 대로 기술 계정을 마이그레이션해야 합니다. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**&#x200B;부터 사용할 수 없습니다.
+
+### 해결 사항 {#summer-24-rn-fixes}
+
+* 예약한 시간 전에 워크플로 스케줄러가 시작되는 문제를 해결했습니다. (CAMP-55412)
+* 트랜잭션 푸시 알림에서 사용자 정의 필드를 복제할 때 오류가 발생하는 문제를 해결했습니다. (CAMP-54459)
+* 인앱 메시지에 대한 시간 및 날짜 스케줄러의 사용에 영향을 주는 문제를 해결했습니다. (CAMP-54495)
+* 사용자 정의 추적 별칭 기능을 사용하고 전체 링크가 동적일 때 추적이 작동하지 않는 문제를 해결했습니다. (CAMP-56044)
+* 검색을 사용하여 특정 템플릿을 찾을 때 제한된 수의 템플릿만 표시되는 문제를 해결했습니다. (CAMP-55273)
+* 기본 언어 드롭다운 목록에 en_kz(영어 - 카자흐스탄) 및 en_ua(영어 - 우크라이나) 언어를 추가했습니다. (CAMP-55336)
+* 스케줄러 설정에서 시간 조정 버튼이 작동하지 않는 문제를 해결했습니다. (CAMP-53602)
+* 스케줄러 설정의 시간 조정 막대와 관련된 몇 가지 사용자 인터페이스 문제를 해결했습니다. (CAMP-55291)
+
 
 ## 릴리스 24.1 - 2024년 겨울 릴리스 {#winter-24}
 
@@ -33,4 +57,3 @@ ht-degree: 93%
 
 * 바운스된 이메일 주소가 30일 후 격리에서 제거되지 않는 문제를 해결했습니다. (CAMP-52977)
 * 오류 메시지(`division by zero`)가 표시되며 게재 경고 워크플로가 중단되는 문제를 해결했습니다. (CAMP-49786)
-
