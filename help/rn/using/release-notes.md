@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: ec96a9c3320a570f80863b1189f350c5f62f8466
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ This section lists improvements and changes included in the next Campaign Standa
 ### 기타 수정 사항 {#winter-25-fixes}
 
 
-* 구독 요약 화면(CAMP-56168, CAMP-56296)의 &#39;데이터 스키마&#39; URL을 수정했습니다.
-* **즉시 전송할 메시지** 옵션을 사용할 때 피로도 규칙을 무시하도록 문제를 해결했습니다(CAMP-56866, CAMP-57033).
+* 구독 요약 화면의 &#39;데이터 스키마&#39; URL 수정(CAMP-56168, CAMP-56296)
+* **즉시 전송할 메시지** 옵션을 사용할 때 피로도 규칙을 무시하는 문제 해결(CAMP-56866, CAMP-57033)
 * 템플릿 중복 문제 해결(CAMP-56340)
 * Adobe Experience Manager 템플릿에서 동적 URL이 사용된 경우의 추적 회귀 문제 해결(CAMP-51932)
 * 과금 프로세스의 성능 문제 해결(CAMP-56796)

@@ -4,9 +4,9 @@ title: Adobe Campaign Standard 제품 설명서
 description: Campaign Standard 제품 설명서 찾아보기
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 ## 새로운 기능
 
-Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항 및 수정 사항에 대한 포괄적인 목록이 필요하면 자세한 [릴리스 정보](rn/using/release-notes.md)를 확인하십시오.
+Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴보십시오! 기능, 개선 사항, 수정 사항을 종합한 목록은 상세한 [릴리스 정보](rn/using/release-notes.md)에서 확인할 수 있습니다.
 
 >[!BEGINTABS]
 
@@ -26,7 +26,7 @@ Adobe Campaign Standard 제품 및 설명서의 최신 개선 사항을 살펴�
 
 >[!TAB Campaign 25.1 릴리스가 공개되었습니다!]
 
-Campaign Standard 25.1 릴리스의 개선 사항 및 수정 사항을 살펴보십시오.
+Campaign Standard 25.1 릴리스의 개선 사항 및 수정 사항을 살펴봅니다.
 
 [![이미지](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
