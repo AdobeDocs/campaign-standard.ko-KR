@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1229'
 ht-degree: 22%
 
 ---
@@ -131,15 +131,15 @@ ht-degree: 22%
 
 ### **[!UICONTROL HTML]**
 
-이 구성 요소를 사용하여 기존 HTML의 다른 부분을 복사하여 붙여넣습니다. 이를 통해 자유 모듈식 HTML 구성 요소를 만들 수 있습니다.
+이 구성 요소를 사용하여 기존 HTML의 여러 부분을 복사하여 붙여넣습니다. 이를 통해 모듈형 HTML 구성 요소를 무료로 제작할 수 있습니다.
 
 >[!NOTE]
 >
 >사용 가능한 HTML 구성 요소는 제한된 옵션을 사용하여 편집할 수 있습니다. 모든 스타일이 인라인 상태가 아니면 HTML 코드의 **head** 섹션에 적절한 CSS를 추가해야 합니다. 그렇지 않으면 이메일이 응답하지 않습니다. **[!UICONTROL Preview]** 단추를 사용하여 콘텐츠의 응답성을 테스트합니다([메시지 미리 보기](../../sending/using/previewing-messages.md) 참조).
 
-단순히 외부 콘텐츠가 이메일 Designer을 준수하도록 하기 위해, Adobe에서는 메시지를 처음부터 만들고 기존 이메일의 콘텐츠를 조각 및 구성 요소로 복사할 것을 권장합니다.
+단순히 이메일 Designer을 준수하는 외부 콘텐츠를 만들기 위해 Adobe에서는 메시지를 처음부터 만들고 기존 이메일의 콘텐츠를 조각 및 구성 요소로 복사하는 것이 좋습니다.
 
-다시 만들 수 없는 콘텐츠가 있는 경우 **[!UICONTROL Html]** 콘텐츠 구성 요소를 사용하여 원본 이메일에서 HTML 코드를 복사하여 붙여 넣을 수 있습니다. 계속하기 전에 HTML을 숙지하십시오.
+다시 만들 수 없는 콘텐츠가 있는 경우 **[!UICONTROL Html]** 콘텐츠 구성 요소를 사용하여 원본 이메일에서 HTML 코드를 복사하여 붙여 넣을 수 있습니다. 계속하기 전에 HTML을 잘 알고 있는지 확인하십시오.
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ ht-degree: 22%
 
 1. 원래 이메일에서 보낼 각 이메일에 고유한 섹션에서 재사용 가능한 섹션을 식별합니다.
 1. 사용할 모든 이미지와 에셋을 저장합니다.
-1. HTML에 익숙하다면 원래 HTML 콘텐츠를 다른 부분으로 분할하십시오.
+1. HTML에 익숙한 경우 원래 HTML 콘텐츠를 다른 부분으로 분할하십시오.
 
 ### 비디오 {#video-settings}
 
@@ -157,7 +157,6 @@ ht-degree: 22%
 >id="ac_edition_video"
 >title="비디오 설정"
 >abstract="이 구성 요소를 사용하여 비디오를 이메일에 삽입합니다. 비디오는 모든 이메일 클라이언트에서 작동하지 않습니다. 대체 이미지를 설정하는 것이 좋습니다."
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="추가 정보"
 
 전자 메일의 구조 구성 요소에 비디오 구성 요소를 삽입하고 **[!UICONTROL Component Settings]**&#x200B;에 비디오 링크를 입력합니다.
 
