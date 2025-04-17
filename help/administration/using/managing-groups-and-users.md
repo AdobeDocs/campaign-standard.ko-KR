@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 70%
+source-wordcount: '947'
+ht-degree: 65%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 70%
 >
 >Admin Console에서 보안 그룹은 프로필로 지칭됩니다.
 
-기본 제공 그룹이 사용자를 관리하기에 충분하지 않은 경우 자체 보안 그룹을 만들 수 있습니다. Adobe Campaign 관리 메뉴와 Admin Console 모두에 액세스할 수 있는 관리자가 이 그룹을 관리할 수 있습니다. Admin Console에 대한 자세한 내용은 이 [설명서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html)를 참조하세요.
+기본 제공 그룹이 사용자를 관리하기에 충분하지 않은 경우 자체 보안 그룹을 만들 수 있습니다. 관리자는 Adobe Campaign 관리 메뉴와 Admin Console에 모두 액세스할 수 있습니다. Admin Console에 대한 자세한 내용은 이 [설명서](https://helpx.adobe.com/kr/enterprise/managing/user-guide.html)를 참조하세요.
 
 여기서는 먼저 표준 사용자와 관리자의 두 기본 제공 그룹을 사용자에게 할당합니다. 이 보안 그룹은 Adobe Campaign의 일부 기능을 제한합니다. 표준 사용자는 Adobe Campaign에 대한 기본적인 액세스 권한이 있으며, 관리자는 관리 메뉴 등에 액세스할 수 있습니다.
 
@@ -105,7 +105,7 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
    * 여러 그룹의 역할이 누적됩니다. 여기서는 사용자가 두 개의 다른 그룹에 있습니다. 하나는 역할에 해당하며, 다른 하나는 단위에 해당합니다.
    * 사용할 계층에서 가장 높은 위치에 있는 것은 단위입니다([조직 단위](../../administration/using/organizational-units.md) 섹션의 예제 참조).
-   * 단위가 동일한 수준을 가지고 있고 계층에서 병렬 분기에 있는 경우, 해당 사용자는 더 이상 연결할 수 없습니다.
+   * 사용자에게 할당된 조직 단위가 계층 구조에서 병렬 분기에 있는 경우(즉, 공통 할당된 상위 단위가 없는 경우), 시스템은 사용자에 대해 조직 단위를 선택하고 사용자는 시스템에서 선택한 조직 단위와 하위 단위에 액세스할 수 있습니다.
 
 1. 같은 절차에 따라 Geometrixx Clothes 보안 그룹을 표준 사용자에게 할당합니다.
 
@@ -137,4 +137,4 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
 >[!IMPORTANT]
 >
->Admin Console의 보안 그룹에서 사용자를 제거하면 해당 사용자는 Adobe Campaign 보안 그룹의 일부로 유지되며 더 이상 Adobe Campaign에 로그인할 수 없습니다. 이 경우 민감한 정보를 수신하지 못하도록 Admin Console에서 해당 사용자의 이메일 주소를 제거합니다.
+>Admin Console의 보안 그룹에서 사용자를 제거하면 해당 사용자는 Adobe Campaign 보안 그룹의 일부로 남으며 더 이상 Adobe Campaign에 로그인할 수 없습니다. 이 경우 민감한 정보를 수신하지 못하도록 Admin Console에서 해당 사용자의 이메일 주소를 제거합니다.
