@@ -36,7 +36,7 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 
 * 차단 목록에 추가하다 **전자 메일 주소와 격리된 전자 메일 주소의 차이점은 무엇입니까?**
 
-   * **[!UICONTROL On denylist]** 상태는 [피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)의 결과입니다(사용자가 메시지를 스팸으로 보고할 때).
+   * **[!UICONTROL On denylist]** 상태는 [피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops)의 결과입니다(사용자가 메시지를 스팸으로 보고할 때).
 
    * 상태 **[!UICONTROL Quarantined]**&#x200B;은(는) 소프트 또는 하드 바운스의 결과입니다.
 

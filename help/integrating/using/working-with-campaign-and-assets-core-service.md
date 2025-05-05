@@ -35,5 +35,5 @@ Adobe Experience Cloud에서 공유한 리소스는 다음과 같이 이메일 �
 
 **관련 항목:**
 
-* [Assets 및 공유](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Assets 및 공유](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=ko)
 * [콘텐츠 편집기](../../designing/using/personalization.md#example-email-personalization)

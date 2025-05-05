@@ -52,7 +52,7 @@ Adobe Campaign에서 푸시 알림을 사용자 지정한 후에는 디바이스
 
 >[!NOTE]
 >
->응용 프로그램이 Objective-C에 있는 경우 다음 [설명서](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)를 참조하세요.
+>응용 프로그램이 Objective-C에 있는 경우 다음 [설명서](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html?lang=ko)를 참조하세요.
 
 앱이 [!DNL Swift]에 있는 경우 아래 단계를 수행합니다.
 

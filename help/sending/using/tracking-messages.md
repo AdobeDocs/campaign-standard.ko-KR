@@ -28,7 +28,7 @@ ht-degree: 23%
 Adobe Campaign은 다음 두 가지 유형의 쿠키를 사용합니다.
 
 * 세션 쿠키(nlid). 여기에는 연락처로 보낸 전자 메일의 식별자(broadlogId)와 메시지 템플릿의 식별자(deliveryId)가 포함됩니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
-* Adobe Experience Cloud 솔루션 간에 공유되는 쿠키입니다. 이렇게 하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 이 쿠키의 설명은 [여기](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html)에서 사용할 수 있습니다.
+* Adobe Experience Cloud 솔루션 간에 공유되는 쿠키입니다. 이렇게 하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 이 쿠키의 설명은 [여기](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ko)에서 사용할 수 있습니다.
 
 Adobe Campaign Standard을 사용하여 추적하면 다음 기능에 액세스할 수 있습니다.
 

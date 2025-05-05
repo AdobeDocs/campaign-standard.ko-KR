@@ -25,7 +25,7 @@ ht-degree: 65%
 
 사용자는 항상 보안 그룹에 연결되어 있어야 합니다. 이를 통해 특정 역할 및 조직 단위를 할당할 수 있습니다. 사용자의 액세스를 제한하려면 사용자를 Campaign **[!UICONTROL Standard Users]** 그룹에 추가하지 마십시오. **[!UICONTROL All]** 조직 단위와 연결되어 있기 때문입니다.
 
-역할에 대한 자세한 내용을 보려면 다음 페이지의 표에 사용자의 역할에 따라 사용할 수 있는 작업이 나와 있습니다. [Adobe Campaign Standard 권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+역할에 대한 자세한 내용을 보려면 다음 페이지의 표에 사용자의 역할에 따라 사용할 수 있는 작업이 나와 있습니다. [Adobe Campaign Standard 권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko).
 
 기본 보안 그룹은 다음과 같습니다.
 

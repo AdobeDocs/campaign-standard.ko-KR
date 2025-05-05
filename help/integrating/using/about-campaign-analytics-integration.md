@@ -32,6 +32,6 @@ Adobe Analytics의 핵심 서비스 **트리거**&#x200B;와(과) Adobe Campaign
 
 **관련 항목:**
 
-* [Analytics 통합에 대한 Campaign Standard 개요](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [Campaign Standard 통합 구성](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Analytics 통합에 대한 Campaign Standard 개요](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=ko)
+* [Campaign Standard 통합 구성](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=ko)
 * [Analytics에서 Campaign 차원 및 지표 보기](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

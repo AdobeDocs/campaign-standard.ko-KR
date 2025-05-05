@@ -89,4 +89,4 @@ Campaign의 개인 정보 및 동의와 이를 관리하는 방법은 [이 섹�
 * [Microsoft Dynamics 365 작업](../../integrating/using/d365-acs-get-started.md)
 * [공유 대상자 Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [워크플로우를 사용하여 프로필 가져오기](../../automating/using/creating-import-workflow-templates.md)
-* [프로필 및 대상자 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [프로필 및 대상자 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=ko)

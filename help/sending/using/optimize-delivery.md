@@ -52,7 +52,7 @@ ht-degree: 4%
 
    * 이메일의 전달성을 확인할 때는 데이터 품질, 메시지 및 콘텐츠, 전송 인프라, 신뢰도 등 네 가지 주요 카테고리에 중점을 두어야 합니다. 이 항목에 대한 자세한 내용은 [이 섹션](../../sending/using/about-deliverability.md)을 참조하세요.
 
-* 새 플랫폼을 시작할 때 [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)에 설명된 권장 사항을 적용하십시오.
+* 새 플랫폼을 시작할 때 [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=ko#transition-process)에 설명된 권장 사항을 적용하십시오.
 
 * 도움이 필요하면 Adobe 담당자에게 문의하십시오.
 

@@ -80,10 +80,10 @@ Adobe Campaign에서는 두 가지 유형의 푸시 알림을 사용할 수 있�
 
 아래 리소스를 확인하십시오.
 
-* [비디오 Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [비디오 Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=ko)
 * [제품 설명서](../../channels/using/about-push-notifications.md)
 * AEP SDK를 사용하여 구성 [설명서](../../administration/using/configuring-a-mobile-application.md)
-* [커뮤니티 페이지](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [커뮤니티 페이지](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ko)
 
 ### Campaign에서 푸시 토큰을 얻으려면 어떻게 해야 합니까? {#push-token-acquisition}
 

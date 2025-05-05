@@ -80,7 +80,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
    * **[!UICONTROL Life Cycle events]**: Adobe Mobile SDK에서 지원하는 기본 라이프 사이클 이벤트입니다.
 
-     라이프 사이클 이벤트에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)를 참조하십시오.
+     라이프 사이클 이벤트에 대한 자세한 내용은 이 [페이지](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=ko)를 참조하십시오.
 
    * **[!UICONTROL Analytics Events]**: 모바일 앱에서 구현된 항목에 따라 Adobe Analytics, 컨텍스트 데이터 또는 보기 상태의 세 가지 카테고리가 지원됩니다.
 
@@ -88,7 +88,7 @@ Adobe Campaign을 사용하여 독립형 인앱 메시지를 만드는 단계는
 
    * **[!UICONTROL Places]**: 위치 컨텍스트 데이터, 위치 사용자 지정 메타데이터 또는 위치 이벤트 유형의 세 가지 카테고리는 실시간 위치 데이터를 활용하여 컨텍스트에 맞는 모바일 경험을 제공합니다.
 
-     Adobe Places에 대한 자세한 내용은 [위치 설명서](https://experienceleague.adobe.com/docs/places/using/home.html)를 참조하십시오.
+     Adobe Places에 대한 자세한 내용은 [위치 설명서](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ko)를 참조하십시오.
 
    ![](assets/inapp_creating_4.png)
 

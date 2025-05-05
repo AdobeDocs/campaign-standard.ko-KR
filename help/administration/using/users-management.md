@@ -19,7 +19,7 @@ ht-degree: 81%
 
 Adobe Campaign을 사용하면 사용자에게 역할 세트를 할당하여 인터페이스에서 액세스 가능한 부분을 정의할 수 있습니다.
 
-특정 역할 및 이에 해당하는 권한은 다음 섹션에 자세히 설명되어 있습니다. [역할 이해](../../administration/using/list-of-roles.md) 및 [권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+특정 역할 및 이에 해당하는 권한은 다음 섹션에 자세히 설명되어 있습니다. [역할 이해](../../administration/using/list-of-roles.md) 및 [권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)
 
 관리자는 Admin Console에서 사용자를 관리할 수 있습니다. 그러면 사용자는 Adobe Campaign과 자동으로 동기화됩니다. 자세한 내용은 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/users.html) 설명서를 참조하세요.
 
@@ -33,9 +33,9 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 **관련 항목:**
 
-* [사용자 권한 관리](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html) 비디오
+* [사용자 권한 관리](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=ko) 비디오
 * [역할 목록](../../administration/using/list-of-roles.md)
-* [권한 목록](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+* [권한 목록](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)
 
 ## 사용자 유형 {#type-of-users}
 

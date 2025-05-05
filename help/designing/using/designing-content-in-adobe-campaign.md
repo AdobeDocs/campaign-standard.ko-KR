@@ -168,4 +168,4 @@ CSS 충돌 문제와 같은 문제를 방지하려면 콘텐츠를 최신 버전
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-이메일 Designer을 시작하려면 이메일 Designer의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 집합](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)을 시청하십시오
+이메일 Designer을 시작하려면 이메일 Designer의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 집합](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ko#GettingStarted)을 시청하십시오

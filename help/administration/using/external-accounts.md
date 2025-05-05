@@ -81,7 +81,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 또한 SFTP 연결을 시작하려는 퍼블릭 IP는 Campaign 인스턴스의 허용 목록에 추가하다에 추가해야 합니다. 인증에 사용할 공개 키를 제공하면서 [지원 티켓](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)을 통해 허용 목록에 추가하다에 IP 주소를 추가하도록 요청할 수 있습니다.
 
-SFTP 서버는 컨트롤 패널에서 관리할 수 있습니다. 자세한 내용은 [컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)를 참조하십시오.
+SFTP 서버는 컨트롤 패널에서 관리할 수 있습니다. 자세한 내용은 [컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko)를 참조하십시오.
 
 >[!NOTE]
 >

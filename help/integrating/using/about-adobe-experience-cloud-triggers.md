@@ -30,7 +30,7 @@ Adobe Campaign에서 이전에 만든 트리거를 선택하고, 데이터마트
 
 **관련 항목:**
 
-* [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html)에서 트리거의 여러 유형에 대해 알아봅니다.
+* [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=ko)에서 트리거의 여러 유형에 대해 알아봅니다.
 * [사이트 활동에 기반한 리마케팅 메시지 트리거](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) 비디오를 시청합니다.
 * 두 가지 [중단 트리거 사용 사례](../../integrating/using/abandonment-triggers-use-cases.md)를 살펴봅니다.
 

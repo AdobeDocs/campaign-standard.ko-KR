@@ -117,7 +117,7 @@ ht-degree: 3%
 
 **개선 사항**
 
-* 이제 Adobe Campaign 및 Adobe Target 통합을 통해 Target의 [권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) 기능을 활용할 수 있습니다. 이제 이메일에 Adobe Target의 동적 이미지를 포함할 때 Target 속성(at_property 코드)을 지정할 수 있습니다.
+* 이제 Adobe Campaign 및 Adobe Target 통합을 통해 Target의 [권한](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=ko) 기능을 활용할 수 있습니다. 이제 이메일에 Adobe Target의 동적 이미지를 포함할 때 Target 속성(at_property 코드)을 지정할 수 있습니다.
 * 프로필 리소스에 대한 owncopy 링크가 있는 사용자 지정 리소스는 이제 GDPR 개인 정보 보호 액세스/삭제 요청에서 고려됩니다. 1개의 카디널리티 단순 링크 및 N개의 카디널리티 컬렉션 링크의 경우 사용자 지정 리소스에서 &quot;대상 레코드를 삭제/복제하는 것은 링크가 참조하는 레코드를 삭제/복제하는 것을 의미합니다&quot;를 선택해야 합니다. 0개 또는 1개의 카디널리티 단순 링크에 대해 &quot;레코드 삭제/복제는 링크가 참조하는 대상 레코드를 삭제/복제함을 의미합니다&quot;를 선택합니다.
 
 **기타 변경 사항**
@@ -195,7 +195,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> GDPR: 핵심 서비스 통합<br /> </td> 
-   <td> 개인 정보 보호 핵심 서비스 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 GDPR 요청을 자동화할 수 있습니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 <br />개의 GDPR 요청은 이제 Campaign에서 자동으로 처리됩니다. <br /> 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">자세한 설명서</a>.<br />를 참조하세요. </td> 
+   <td> 개인 정보 보호 핵심 서비스 통합을 사용하면 단일 JSON API 호출을 통해 다중 솔루션 컨텍스트에서 GDPR 요청을 자동화할 수 있습니다. 개인 정보 보호 핵심 서비스에서 모든 Experience Cloud 솔루션으로 푸시된 <br />개의 GDPR 요청은 이제 Campaign에서 자동으로 처리됩니다. <br /> 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=ko">자세한 설명서</a>.<br />를 참조하세요. </td> 
   </tr> 
   <tr> 
    <td> 푸시 개선 사항 - 자세한 게재 피드백<br /> </td> 
@@ -297,7 +297,7 @@ _사용자 정의 리소스_
     <ul> 
      <li> 액세스 권한: 데이터 주체는 Adobe Campaign에 저장된 데이터를 포함하여 데이터 제어자가 캡처한 개인 데이터의 사본을 받을 수 있습니다. </li> 
      <li> 삭제 권한: 데이터 주체가 데이터 제어자에 의해 캡처된 개인 데이터(Adobe Campaign에 저장된 데이터 포함)를 삭제할 수 있는 권한을 부여합니다. </li> 
-    </ul> 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">자세한 설명서</a>.<br />를 참조하세요. </td> 
+    </ul> 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=ko">자세한 설명서</a>.<br />를 참조하세요. </td> 
   </tr> 
   <tr> 
    <td> Creative Designer for Email(Beta)<br /> </td> 
@@ -461,7 +461,7 @@ Campaign 인터페이스에서 상황별 도움말 링크를 사용할 때 몇 �
      <li> 이미지 또는 기타 미디어 파일을 다운로드하고 알림에 첨부 파일로 추가합니다. </li> 
      <li> 알림의 본문 또는 제목 텍스트 변경 </li> 
      <li> 알림에 스레드 식별자 추가 </li> 
-    </ul> 콘텐츠 사용 가능 및 가변 콘텐츠에 대한 자세한 내용은 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">자세한 설명서</a>를 참조하세요.<br /> <strong>경고:</strong> 푸시 알림에 대한 이러한 업데이트는 고객이 모바일 애플리케이션을 업그레이드해야 합니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">이 기술 정보</a>를 참조하세요.<br /> </td> 
+    </ul> 콘텐츠 사용 가능 및 가변 콘텐츠에 대한 자세한 내용은 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">자세한 설명서</a>를 참조하세요.<br /> <strong>경고:</strong> 푸시 알림에 대한 이러한 업데이트는 고객이 모바일 애플리케이션을 업그레이드해야 합니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=ko">이 기술 정보</a>를 참조하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 시간대에 최적화된 게재<br /> </td> 

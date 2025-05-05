@@ -46,7 +46,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Mobile 버전 4 SDK에 대한 지원이 2021년 8월 31일부로 종료되었습니다. Adobe Campaign Standard에서 이 레거시 버전의 SDK를 사용 중인 경우 2024년 6월 말까지 <strong>Adobe Experience Platform SDK로 구현을 업데이트해야 합니다</strong>. </p></br>
-   <p>구현을 조정하고 최신 Experience Platform SDK로 전환하는 방법에 대해 알아보려면 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">이 문서</a>를 읽어 보십시오.</p></br>
+   <p>구현을 조정하고 최신 Experience Platform SDK로 전환하는 방법에 대해 알아보려면 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=ko">이 문서</a>를 읽어 보십시오.</p></br>
    <p><strong>주의</strong>: SDK V4는 2024년 6월 말부터 더 이상 Campaign Standard에서 지원되지 않습니다.</p>
   </td> 
   </tr> 
@@ -64,8 +64,8 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Campaign 19.0 릴리스부터 기존 이메일 편집기는 더 이상 사용되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign 이메일 Designer</a>을(를) 사용하여 이메일 콘텐츠를 만들고 개인화합니다. </p></br>
-   <p>새로운 편집기에 맞게 이메일 템플릿을 적용하는 방법을 살펴보려면 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">이 섹션</a>을 참조하십시오.</p></br>
+   <td> <p>Campaign 19.0 릴리스부터 기존 이메일 편집기는 더 이상 사용되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html?lang=ko">Campaign 이메일 Designer</a>을(를) 사용하여 이메일 콘텐츠를 만들고 개인화합니다. </p></br>
+   <p>새로운 편집기에 맞게 이메일 템플릿을 적용하는 방법을 살펴보려면 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html?lang=ko">이 섹션</a>을 참조하십시오.</p></br>
   </td> 
   </tr> 
  </tbody> 
@@ -98,7 +98,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  <tbody> 
   <tr> 
    <td> <p> Campaign Standard 21.3 릴리스부터 Audience Destinations 서비스와의 통합이 더 이상 사용되지 않습니다.  이제 제거되었습니다.</p>
-   <p>새 구현의 경우 Audience Destinations 서비스를 Adobe Campaign Standard과 더 이상 통합할 수 없습니다. 그러나 소스 및 대상을 통해 Campaign과 Adobe Experience Platform을 통합할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">자세히 알아보기</a>.</p>
+   <p>새 구현의 경우 Audience Destinations 서비스를 Adobe Campaign Standard과 더 이상 통합할 수 없습니다. 그러나 소스 및 대상을 통해 Campaign과 Adobe Experience Platform을 통합할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko">자세히 알아보기</a>.</p>
      </td> 
   </tr> 
  </tbody> 
@@ -113,7 +113,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  <tbody> 
   <tr> 
    <td> <p> Campaign Standard 21.3 릴리스부터 Adobe Experience Platform Data Connector와의 통합은 더 이상 사용되지 않습니다.  이제 제거되었습니다.</p>
-   <p>새 구현의 경우 Adobe Experience Platform 데이터 커넥터를 Adobe Campaign Standard과 더 이상 통합할 수 없습니다. 그러나 소스 및 대상을 통해 Campaign과 Adobe Experience Platform을 통합할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">자세히 알아보기</a>.</p>
+   <p>새 구현의 경우 Adobe Experience Platform 데이터 커넥터를 Adobe Campaign Standard과 더 이상 통합할 수 없습니다. 그러나 소스 및 대상을 통해 Campaign과 Adobe Experience Platform을 통합할 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=ko">자세히 알아보기</a>.</p>
      </td> 
   </tr> 
  </tbody> 
@@ -130,7 +130,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
    <td> <p> Campaign 20.1 릴리스부터 SDK v4는 더 이상 사용되지 않습니다. 이제 제거되었습니다. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=ko">자세히 알아보기</a>.</p><br/>
    <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a>(이전 이름 v5)는 이제 예정된 Adobe Experience Cloud 기능 및 기능을 독점적으로 지원합니다.</p>
    <p>2021년 8월 31일 이후에도 고객은 버전 4 SDK를 계속 다운로드하여 사용할 수 있지만 고객 지원 센터 또는 포럼에 액세스할 수는 없습니다.</p>
-   <p>SDK v4에서 Adobe Experience Platform Mobile SDK로 마이그레이션하는 방법은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">이 페이지에서</a>알아볼 수 있습니다.</p></br>
+   <p>SDK v4에서 Adobe Experience Platform Mobile SDK로 마이그레이션하는 방법은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html?lang=ko">이 페이지에서</a>알아볼 수 있습니다.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -145,7 +145,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  <tbody> 
   <tr> 
    <td> <p>Campaign 21.2 릴리스부터 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. 2단계 프로필 삭제를 더 이상 사용할 수 없습니다. <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe 개인 정보 보호 핵심 서비스</a>를 사용합니다.</p></br>
-   <p>또한 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">개인 정보 보호 요청 관리</a>를 참조하십시오.</p>
+   <p>또한 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ko">개인 정보 보호 요청 관리</a>를 참조하십시오.</p>
   </td> 
   </tr> 
  </tbody> 
@@ -160,7 +160,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  <tbody> 
   <tr> 
    <td> <p> 2021년 4월부터 예측 제목 줄 기능이 중단됩니다.</p><br/>
-   <p>AI 기반 이메일 기능을 활용하여 참여 지표 기록을 기반으로 공개 비율, 최적의 전송 시간, 가능한 이탈률을 분석하고 예측하는 것이 좋습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">자세히 알아보기</a></p></br>
+   <p>AI 기반 이메일 기능을 활용하여 참여 지표 기록을 기반으로 공개 비율, 최적의 전송 시간, 가능한 이탈률을 분석하고 예측하는 것이 좋습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=ko">자세히 알아보기</a></p></br>
      </td> 
   </tr> 
   </tbody> 
@@ -174,7 +174,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><b>성향 점수</b>가 Adobe Experience Cloud 트리거에서 서비스 해제되었습니다. 따라서 이 옵션은 Adobe Campaign Standard에서 제거되었습니다. 데이터 보강 스키마에서 성향 점수의 오래된 값을 방지하려면 최신 변경 사항을 검색하고 기존 트리거를 다시 게시하기 위해 스키마를 업데이트하는 것이 좋습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html">Campaign에서 트리거 게시</a>를 참조하십시오 .
+   <td> <p><b>성향 점수</b>가 Adobe Experience Cloud 트리거에서 서비스 해제되었습니다. 따라서 이 옵션은 Adobe Campaign Standard에서 제거되었습니다. 데이터 보강 스키마에서 성향 점수의 오래된 값을 방지하려면 최신 변경 사항을 검색하고 기존 트리거를 다시 게시하기 위해 스키마를 업데이트하는 것이 좋습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html?lang=ko">Campaign에서 트리거 게시</a>를 참조하십시오 .
 </p></br>
    </td> 
   </tr> 
@@ -205,7 +205,7 @@ Campaign Standard의 기능을 제거/교체하기 위해 다음 규칙이 적�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign과 Adobe Experience Cloud은 2019년 봄 및 Campaign 19.2 릴리스부터 Microsoft Internet Explorer 11에 대한 지원을 중단했습니다. Microsoft Edge 또는 기타 지원되는 브라우저로 전환하십시오. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">자세히 알아보기</a></p>
+   <td> <p>Adobe Campaign과 Adobe Experience Cloud은 2019년 봄 및 Campaign 19.2 릴리스부터 Microsoft Internet Explorer 11에 대한 지원을 중단했습니다. Microsoft Edge 또는 기타 지원되는 브라우저로 전환하십시오. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html?lang=ko">자세히 알아보기</a></p>
    </td> 
   </tr> 
  </tbody> 

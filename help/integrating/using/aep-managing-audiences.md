@@ -52,7 +52,7 @@ Campaign Standard에서 직접 Adobe Experience Platform 대상자를 만들려�
 
 1. 세그먼트를 만들려면 이 세그먼트에 대한 마케팅 목적에 일치하는 **병합 정책**&#x200B;을(를) 선택해야 합니다.
 
-   설정 창에서 플랫폼 기본 병합 정책을 선택합니다. 병합 정책에 대한 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)의 전용 섹션을 참조하십시오.
+   설정 창에서 플랫폼 기본 병합 정책을 선택합니다. 병합 정책에 대한 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)의 전용 섹션을 참조하십시오.
 
    ![](assets/aep_audiences_mergepolicy.png)
 

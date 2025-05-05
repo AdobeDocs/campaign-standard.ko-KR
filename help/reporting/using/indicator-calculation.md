@@ -188,7 +188,7 @@ ht-degree: 1%
   <tr> 
    <td> 고유 클릭수<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 고유 클릭수는 ThetaSketch 개념을 사용하여 계산됩니다. 자세한 내용은 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예제</a>.<br />를 참조하세요. </td> 
+   <td> 고유 클릭수는 ThetaSketch 개념을 사용하여 계산됩니다. 자세한 내용은 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=ko#unique-open-clicks-no-match">예제</a>.<br />를 참조하세요. </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ ht-degree: 1%
   <tr> 
    <td> 고유 열기 수<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 고유 열림은 고유한 RecipientIds의 ThetaSketch 개념을 사용하여 계산됩니다. 자세한 내용은 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예제</a>.<br />를 참조하세요. </td> 
+   <td> 고유 열림은 고유한 RecipientIds의 ThetaSketch 개념을 사용하여 계산됩니다. 자세한 내용은 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=ko#unique-open-clicks-no-match">예제</a>.<br />를 참조하세요. </td> 
   </tr> 
   <tr> 
    <td> 노출 횟수<br /> </td> 
@@ -288,7 +288,7 @@ ht-degree: 1%
   <tr> 
    <td> 고유 클릭수<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 고유 클릭수는 ThetaSketch 개념을 사용하여 계산됩니다. 자세한 내용은 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">예제</a>.<br />를 참조하세요. </td> 
+   <td> 고유 클릭수는 ThetaSketch 개념을 사용하여 계산됩니다. 자세한 내용은 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=ko#unique-open-clicks-no-match">예제</a>.<br />를 참조하세요. </td> 
   </tr> 
   <tr> 
    <td> 클릭스루 비율<br /> </td> 

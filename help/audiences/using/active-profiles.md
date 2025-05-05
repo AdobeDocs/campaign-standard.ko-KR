@@ -40,5 +40,5 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->관리 사용자는 Campaign 컨트롤 패널에서 직접 인스턴스에 사용된 활성 프로필 수를 모니터링할 수도 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html)를 참조하세요.
+>관리 사용자는 Campaign 컨트롤 패널에서 직접 인스턴스에 사용된 활성 프로필 수를 모니터링할 수도 있습니다. 자세한 내용은 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ko)를 참조하세요.
 >

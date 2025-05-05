@@ -34,7 +34,7 @@ ht-degree: 8%
     <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 핵심 서비스에 규정 유형(GDPR 또는 CCPA)이 추가되었습니다. 이 방법은 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">사용이 중단되거나 제거된 기능 문서</a>를 참조하십시오.</p></li>
     <li>소비자가 개인 정보 판매를 옵트아웃했는지 여부를 Adobe Campaign 사용자가 추적할 수 있도록 <strong>CCPA 옵트아웃</strong> 필드가 Profiles 리소스에 추가되었습니다. <a href="https://helpx.adobe.com/content/help/ko/campaign/kb/acs-privacy.html#ccpa">자세히 알아보기</a>.</li>
   </ul>
-    <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">방법 비디오</a>를 참조하십시오.</p>
+    <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=ko">방법 비디오</a>를 참조하십시오.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -155,11 +155,11 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> 외부 API 활동(공개 Beta)<br /> </td> 
-   <td> <p>보다 심층적인 개인화를 위해 외부 API 활동을 사용하면 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O Runtime 또는 Adobe Experience Cloud REST 엔드포인트(예: 데이터 플랫폼, 타겟, 분석, 캠페인)일 수 있습니다.</p><p>이 기능은 현재 공개 베타 버전에 제공됩니다.</p><p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">방법 비디오</a>를 참조하십시오.</p></td> 
+   <td> <p>보다 심층적인 개인화를 위해 외부 API 활동을 사용하면 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O Runtime 또는 Adobe Experience Cloud REST 엔드포인트(예: 데이터 플랫폼, 타겟, 분석, 캠페인)일 수 있습니다.</p><p>이 기능은 현재 공개 베타 버전에 제공됩니다.</p><p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ko">방법 비디오</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 워크플로우 세그먼트 <br />에 대한 보고서 </td> 
-   <td> <p>이 기능을 통해 마케터는 세그먼트 코드별로 게재 성능을 분류할 수 있습니다. 워크플로우를 만들고 세그멘테이션 활동을 사용하여 세그먼트를 게재 모집단에 할당할 때, 이제 이러한 세그먼트는 동일한 게재로 이동할 수 있습니다. 이렇게 하면 단일 게재 내의 여러 세그먼트를 기반으로 한 열기/클릭 통계를 표시할 수 있습니다.</p><p>자세한 내용은 <a href="../../reporting/using/creating-a-report-workflow-segment.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">방법 비디오</a>를 참조하십시오.</p></td>
+   <td> <p>이 기능을 통해 마케터는 세그먼트 코드별로 게재 성능을 분류할 수 있습니다. 워크플로우를 만들고 세그멘테이션 활동을 사용하여 세그먼트를 게재 모집단에 할당할 때, 이제 이러한 세그먼트는 동일한 게재로 이동할 수 있습니다. 이렇게 하면 단일 게재 내의 여러 세그먼트를 기반으로 한 열기/클릭 통계를 표시할 수 있습니다.</p><p>자세한 내용은 <a href="../../reporting/using/creating-a-report-workflow-segment.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=ko">방법 비디오</a>를 참조하십시오.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -308,7 +308,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 워크플로우 개선 사항 - 외부 신호 활동에 페이로드 추가<br /> </td> 
-   <td> <p>다른 워크플로우 또는 REST API 호출에서 정의된 조건이 성공적으로 충족되면 페이로드와 함께 워크플로우를 시작하여 외부 시스템과 통합합니다. 여기에는 이 기능에 대한 테스트를 실행할 수 있는 새 <strong>test</strong> 활동도 포함됩니다.</p><p>자세한 내용은 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">방법 비디오</a>를 참조하십시오.</p></td> 
+   <td> <p>다른 워크플로우 또는 REST API 호출에서 정의된 조건이 성공적으로 충족되면 페이로드와 함께 워크플로우를 시작하여 외부 시스템과 통합합니다. 여기에는 이 기능에 대한 테스트를 실행할 수 있는 새 <strong>test</strong> 활동도 포함됩니다.</p><p>자세한 내용은 <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html?lang=ko">방법 비디오</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 랜딩 페이지 개선 사항 - Google reCAPTCHA<br /> </td> 
@@ -426,7 +426,7 @@ ht-degree: 8%
   </tr> 
   <tr> 
    <td> 모바일 인앱 메시지<br /> </td> 
-   <td> <p>이 릴리스에는 Campaign의 GA 버전 인앱 채널이 포함되어 있습니다. 기능적 측면에서 Beta 릴리스에 대한 가장 주목할 만한 추가 사항은 Mobile SDK와 MCIAS(SDK에 인앱 규칙을 제공하는 인앱 메시지 서비스 Marketing Cloud) 간의 인앱 채널 및 보안 핸드셰이크에 대한 동적 보고서입니다. 보안 핸드셰이크는 사용자의 PII 데이터가 악의적인 손에 들어가지 않도록 할 뿐만 아니라 사용자가 로그아웃할 때마다 메시지 캐시를 지워 공유 장치에서 사용자의 개인 정보를 유지 관리할 수 있도록 합니다.</p><p>자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">자세한 설명서</a> 및 전용 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">인앱 튜토리얼</a>을 참조하세요.</p> </td> 
+   <td> <p>이 릴리스에는 Campaign의 GA 버전 인앱 채널이 포함되어 있습니다. 기능적 측면에서 Beta 릴리스에 대한 가장 주목할 만한 추가 사항은 Mobile SDK와 MCIAS(SDK에 인앱 규칙을 제공하는 인앱 메시지 서비스 Marketing Cloud) 간의 인앱 채널 및 보안 핸드셰이크에 대한 동적 보고서입니다. 보안 핸드셰이크는 사용자의 PII 데이터가 악의적인 손에 들어가지 않도록 할 뿐만 아니라 사용자가 로그아웃할 때마다 메시지 캐시를 지워 공유 장치에서 사용자의 개인 정보를 유지 관리할 수 있도록 합니다.</p><p>자세한 내용은 <a href="../../channels/using/about-in-app-messaging.md">자세한 설명서</a> 및 전용 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=ko">인앱 튜토리얼</a>을 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td> 워크플로우 개선 사항<br /> </td> 
@@ -531,11 +531,11 @@ ht-degree: 8%
      <li> 준비 시 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">URL에서 콘텐츠를 자동으로 검색하는 기능</a> </li> 
      <li> 완전 준수 <a href="../../designing/using/using-reusable-content.md#content-templates">기본 제공 콘텐츠 템플릿</a>. </li> 
     </ul> 
-    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">방법 비디오</a>를 참조하세요. 개선 사항 및 수정 사항은 아래에 나열되어 있습니다.</p><p>따라서 레거시 이메일 콘텐츠 편집기는 이제 사용되지 않습니다. 자세한 정보는 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">페이지</a>를 참조하세요.</p> </td> 
+    <p>자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ko">방법 비디오</a>를 참조하세요. 개선 사항 및 수정 사항은 아래에 나열되어 있습니다.</p><p>따라서 레거시 이메일 콘텐츠 편집기는 이제 사용되지 않습니다. 자세한 정보는 이 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ko#release-notes">페이지</a>를 참조하세요.</p> </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 전자 메일의 제품 목록<br /> </td> 
-   <td> <p>이제 트랜잭션 이메일 메시지에서 하나 이상의 제품 컬렉션을 참조할 수 있습니다. 예를 들어 사용자의 장바구니에 있던 모든 제품을 나열한 장바구니 중단 이메일을 이미지, 가격 및 각 제품에 대한 링크와 함께 자동으로 보낼 수 있습니다.</p><p>자세한 내용은 <a href="../../designing/using/using-product-listings.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">방법 비디오</a>를 참조하십시오.</p> </td> 
+   <td> <p>이제 트랜잭션 이메일 메시지에서 하나 이상의 제품 컬렉션을 참조할 수 있습니다. 예를 들어 사용자의 장바구니에 있던 모든 제품을 나열한 장바구니 중단 이메일을 이미지, 가격 및 각 제품에 대한 링크와 함께 자동으로 보낼 수 있습니다.</p><p>자세한 내용은 <a href="../../designing/using/using-product-listings.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=ko">방법 비디오</a>를 참조하십시오.</p> </td> 
   </tr> 
   <tr> 
    <td> 이메일 Designer<br />의 모바일 보기 </td> 

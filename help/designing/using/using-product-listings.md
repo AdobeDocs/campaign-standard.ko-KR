@@ -26,7 +26,7 @@ ht-degree: 77%
 
 트랜잭션 메시지에 포기된 제품 목록을 추가하려면 아래 단계를 따르십시오.
 
-트랜잭션 전자 메일에서 제품 목록을 구성하는 데 필요한 단계를 설명하는 [이 비디오 집합](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails)을 볼 수도 있습니다.
+트랜잭션 전자 메일에서 제품 목록을 구성하는 데 필요한 단계를 설명하는 [이 비디오 집합](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=ko#configure-product-listings-in-transactional-emails)을 볼 수도 있습니다.
 
 >[!NOTE]
 >

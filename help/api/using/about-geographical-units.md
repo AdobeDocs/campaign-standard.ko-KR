@@ -24,4 +24,4 @@ ht-degree: 0%
 
 **geoUnitBase** 끝점을 사용하면 지리적 단위와 상호 작용하여 해당 특성을 업데이트하거나 프로필 단위를 업데이트할 수 있습니다.
 
-프로필 리소스를 확장할 때 **지리적 단위** 필드가 프로필에 추가됩니다. 따라서 항상 **profileAndServicesExt** 끝점을 사용하여 지리적 단위와 상호 작용해야 합니다. 프로필의 리소스 확장에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)를 참조하세요.
+프로필 리소스를 확장할 때 **지리적 단위** 필드가 프로필에 추가됩니다. 따라서 항상 **profileAndServicesExt** 끝점을 사용하여 지리적 단위와 상호 작용해야 합니다. 프로필의 리소스 확장에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/kr/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)를 참조하세요.

@@ -27,7 +27,7 @@ ht-degree: 78%
 
 사용자의 환경에 따라 다른 솔루션도 Adobe Experience Cloud에 연결할 수 있습니다. 조직(테넌트라고도 함)으로 연결됩니다.
 
-조직은 관리자가 그룹 및 사용자를 구성하고 Experience Cloud에서 단일 로그온을 제어할 수 있도록 해주는 엔터티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사의 이름입니다. 하지만 회사는 여러 조직을 가질 수 있습니다. 사용자 및 조직 관리에 대해서는 [Adobe Experience Cloud 도움말 포털](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)에 자세히 설명되어 있습니다.
+조직은 관리자가 그룹 및 사용자를 구성하고 Experience Cloud에서 단일 로그온을 제어할 수 있도록 해주는 엔터티입니다. 조직은 모든 Experience Cloud 제품 및 솔루션을 포괄하는 로그인 회사와 같은 기능을 합니다. 대부분의 경우 조직은 회사의 이름입니다. 하지만 회사는 여러 조직을 가질 수 있습니다. 사용자 및 조직 관리에 대해서는 [Adobe Experience Cloud 도움말 포털](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ko)에 자세히 설명되어 있습니다.
 
 다른 시스템의 데이터 흐름을 Adobe Campaign과 통합하려면 [API 설명서](../../api/using/get-started-apis.md)를 참조하십시오.
 
@@ -49,14 +49,14 @@ ht-degree: 78%
    <td> Adobe Experience Manager<br /> </td> 
    <td> Adobe Experience Manager에서 직접 Adobe Campaign 데이터베이스에 매핑된 이메일 콘텐츠 또는 양식을 만들 수 있습니다.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign과 Experience Manager으로 작업</a>, <a href="https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager과 Campaign Standard 통합</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Manager과 캠페인으로 전자 메일 만들기</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign과 Experience Manager으로 작업</a>, <a href="https://helpx.adobe.com/kr/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager과 Campaign Standard 통합</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ko">Experience Manager과 캠페인으로 전자 메일 만들기</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Adobe Campaign에서 만들고 보낸 이메일이 열려 있을 때 Adobe Target에서 동적으로 계산된 이미지를 삽입할 수 있습니다.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign 및 Target 작업</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Campaign과 Target 통합</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간으로 이메일 이미지 개인화</a> 비디오(3단계)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign 및 Target 작업</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ko">Campaign과 Target 통합</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">실시간으로 이메일 이미지 개인화</a> 비디오(3단계)
     </td> 
   </tr> 
   <tr> 
@@ -96,7 +96,7 @@ ht-degree: 78%
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
    <td> 기본 동작을 통해 Adobe Journey Orchestration 컨텍스트에서 Adobe Campaign Standard의 트랜잭션 메시지 기능을 사용하여 이메일, 푸시 알림 및 SMS를 보낼 수 있습니다.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Adobe Journey Orchestration 및 Adobe Campaign Standard 작업</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=ko">Adobe Journey Orchestration 및 Adobe Campaign Standard 작업</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

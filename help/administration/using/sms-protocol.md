@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 [페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html)에서 Adobe Campaign Classic에 대한 **SMS 커넥터 프로토콜 및 설정**&#x200B;을 찾을 수 있습니다.
+>이 [페이지](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=ko)에서 Adobe Campaign Classic에 대한 **SMS 커넥터 프로토콜 및 설정**&#x200B;을 찾을 수 있습니다.
 >
 >이 문서를 통해 프로토콜, 필드 이름 및 값에 대한 세부 정보에 대한 모든 참조는 [SMPP 3.4 사양](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)을 참조합니다.
 

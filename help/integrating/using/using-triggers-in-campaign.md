@@ -23,7 +23,7 @@ ht-degree: 74%
 >
 >트리거를 만들려면 **[!UICONTROL Administration]** 역할 또는 **[!UICONTROL Administrators]** 보안 그룹에 있어야 합니다. 자세한 내용은 이 [페이지](../../administration/using/list-of-roles.md)를 참조하세요.
 
-Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)를 참조하십시오. 트리거를 정의할 때 별칭을 활성화해야 합니다. Adobe Experience Cloud에 각 동작(검색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대한 새로운 트리거가 추가되어야 합니다.
+Adobe Experience Cloud(**[!UICONTROL Triggers]** 핵심 서비스)에서 미리 모니터링할 동작을 정의해야 합니다. 자세한 내용은 [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ko)를 참조하십시오. 트리거를 정의할 때 별칭을 활성화해야 합니다. Adobe Experience Cloud에 각 동작(검색/양식 포기, 제품 추가/삭제, 세션 만료 등)에 대한 새로운 트리거가 추가되어야 합니다.
 
 이제 기존 Adobe Experience Cloud 트리거를 기반으로 Adobe Campaign에서 트리거 이벤트를 만들어야 합니다.
 

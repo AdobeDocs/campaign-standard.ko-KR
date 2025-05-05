@@ -19,7 +19,7 @@ ht-degree: 0%
 
 차원과 지표 간의 호환성에 대한 자세한 내용은 이 [테이블](/help/reporting/using/assets/dynamic_report_compatibility.pdf)을 참조하세요. 두 구성 요소가 호환되지 않으면 셀에 **없음** 값이 표시됩니다.
 
-[![이미지](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
+[![이미지](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ko)
 
 ## 차원 {#dimensions}
 
