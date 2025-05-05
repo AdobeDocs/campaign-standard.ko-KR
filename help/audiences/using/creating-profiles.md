@@ -70,6 +70,6 @@ Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수
 
 이 비디오는 워크플로우로 프로필을 가져오는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31896?quality=12&captions=kor)
 
 추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

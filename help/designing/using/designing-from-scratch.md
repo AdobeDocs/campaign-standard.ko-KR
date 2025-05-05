@@ -30,7 +30,7 @@ ht-degree: 22%
 1. 이메일을 미리 봅니다.
 1. 콘텐츠를 저장하고 대상자를 정의하고 전송을 적절하게 예약했는지 확인한 후 메시지를 계속 진행합니다.
 
-이 [소개 비디오](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)를 확인할 수도 있습니다.
+이 [소개 비디오](https://video.tv.adobe.com/v/330106/?autoplay=true&hidetitle=true&captions=kor)를 확인할 수도 있습니다.
 
 >[!NOTE]
 >

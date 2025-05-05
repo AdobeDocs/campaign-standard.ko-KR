@@ -157,6 +157,6 @@ Adobe Campaign에서는 몇 가지 이메일 작성 옵션을 제공합니다. �
 
 이 비디오는 Dreamweaver을 사용하여 Adobe Campaign Standard용 콘텐츠를 만들고 편집하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/33261?quality=12&captions=kor)
 
 추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

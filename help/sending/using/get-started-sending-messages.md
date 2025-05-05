@@ -97,6 +97,6 @@ Campaign Standard은 배달된 메시지 수를 개선하는 데 도움이 되�
 
 이 비디오는 테스트 이메일을 보내고, 준비한 다음 Campaign Standard에서 이메일 게재를 보내는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/)
+>[!VIDEO](https://video.tv.adobe.com/v/31891?captions=kor)
 
 추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

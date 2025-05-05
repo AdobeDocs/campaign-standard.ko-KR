@@ -145,7 +145,7 @@ HTML 콘텐츠 템플릿은 [고급 메뉴](../../start/using/interface-descript
 
 이 비디오에서는 나만의 템플릿을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33217?quality=12&captions=kor)
 
 추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
 

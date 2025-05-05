@@ -82,6 +82,6 @@ Campaign Standard은 바운스, 스팸 또는 정크로 가장 많이 선언된 
 
 이 비디오에서는 Adobe Campaign Standard의 보고 기능에 대한 개요를 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/38323?quality=12&captions=kor)
 
 추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

@@ -37,7 +37,7 @@ OAuth 액세스 토큰을 사용하면 통합 도구가 웹 API를 통해 Micros
 
 주요 단계는 다음 비디오에 요약되어 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/34837?captions=kor)
 
 OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행합니다.
 
