@@ -36,7 +36,7 @@ ht-degree: 93%
 
 **데이터 쓰기 및 업데이트**
 
-* 랜딩 페이지는 **[!UICONTROL Profile]** 및 **[!UICONTROL Subscription]** 리소스로만 제한됩니다. 레코드는 **[!UICONTROL Profile]**&#x200B;와(과) **[!UICONTROL Service]**에 대한 구독/구독 취소에서 저장 및 업데이트됩니다.
+* 랜딩 페이지는 **[!UICONTROL Profile]** 및 **[!UICONTROL Subscription]** 리소스로만 제한됩니다. 레코드는 **[!UICONTROL Profile]**&#x200B;와(과) **[!UICONTROL Service]**&#x200B;에 대한 구독/구독 취소에서 저장 및 업데이트됩니다.
 리소스 구성에 대한 자세한 내용은 [리소스의 데이터 구조 구성](../../developing/using/configuring-the-resource-s-data-structure.md)을 참조하십시오.
 
 >[!IMPORTANT]

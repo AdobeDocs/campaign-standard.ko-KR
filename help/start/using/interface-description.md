@@ -56,7 +56,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
   고급 메뉴는 [고급 메뉴](#advanced-menu) 섹션에 표시됩니다.
 
 * **[!UICONTROL Home]** 링크를 통해 Adobe Campaign 홈페이지를 표시할 수 있습니다.
-*  **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** 및 **[!UICONTROL Reports]** 링크를 통해 이러한 기능에 연결된 보기에 액세스할 수 있습니다.
+* **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** 및 **[!UICONTROL Reports]** 링크를 통해 이러한 기능에 연결된 보기에 액세스할 수 있습니다.
 * **솔루션 전환기** 아이콘을 사용하면 조직 간 또는 다른 응용 프로그램으로 전환할 수 있습니다.
 * **[!UICONTROL Help]** 아이콘은 [아래](#help)에 설명되어 있습니다.
 * **알림** 아이콘에 최신 알림 또는 정보가 표시됩니다.

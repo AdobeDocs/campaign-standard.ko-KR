@@ -134,7 +134,7 @@ Dynamics 사용자에 대한 타임라인 보기를 보려면 아래를 참조�
 
 * 숨겨진 하위 레코드가 있고 이 레코드에 액세스할 수 없는 상황이 발생하는 경우 일시적으로 카디널리티 링크 형식을 **0 또는 1개의 카디널리티 단순 링크**(으)로 변경하여 해당 레코드에 액세스할 수 있습니다.
 
-Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 섹션](../../developing/using/key-steps-to-add-a-resource.md)에서 [을(를) 찾을 수 있습니다.
+Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 섹션[&#128279;](../../developing/using/key-steps-to-add-a-resource.md)에서 을(를) 찾을 수 있습니다.
 
 ### 이메일 마케팅 이벤트 흐름{#email-marketing-event-flow}
 

@@ -149,7 +149,7 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방�
 
 1. 모바일 응용 프로그램 대시보드의 **[!UICONTROL Device-specific settings]** 섹션에서 각 장치에 대해 응용 프로그램 세부 정보를 제공합니다.
 
-   * +++ iOS용
+   +++*  iOS용
 
      다음 애플리케이션 세부 정보를 입력합니다.
 
@@ -159,9 +159,9 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방�
       * **iOS 팀 ID**: iOS 팀 ID에 대한 자세한 내용은 [Apple 설명서](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}를 참조하십시오.
 
         ![](assets/mobile_app_ios_config.png)
-+++
+   +++
 
-   * +++ Android용
+   +++*  Android용
 
      다음 애플리케이션 세부 정보를 입력합니다.
 
@@ -169,7 +169,7 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방�
       * **Android 키(Json) 파일**: .json 개인 키 파일을 끌어서 놓습니다. .json 개인 키 파일을 생성하는 방법에 대한 지침은 [Firebase용 개발자 설명서](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}를 참조하십시오.
 
         ![](assets/mobile_app_android_config.png)
-+++
+   +++
 
 1. 인증서가 업로드되면 업로드가 성공했음을 알리고 인증서의 만료 날짜를 표시하는 메시지가 표시됩니다.
 

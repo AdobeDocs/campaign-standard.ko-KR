@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Adobe Campaign Standard 사용 사례를 지원하기 위한 태그 규칙 구성 {#configuring-rules-launch}
 
-데이터 수집 UI에서 데이터 요소 및 규칙을 만들어 모바일 애플리케이션에서 [!DNL Adobe Campaign Standard](으)로 PII 및 기타 데이터를 보냅니다.
+데이터 수집 UI에서 데이터 요소 및 규칙을 만들어 모바일 애플리케이션에서 [!DNL Adobe Campaign Standard] (으)로 PII 및 기타 데이터를 보냅니다.
 
 데이터 수집 UI의 모든 구성 변경 사항이 적용되도록 하려면 이러한 변경 사항을 게시해야 합니다. 자세한 내용은 [게시](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)를 참조하십시오.
 

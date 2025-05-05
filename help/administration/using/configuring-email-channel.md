@@ -36,7 +36,7 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
 * **게재 가능성**
 
-  **[!UICONTROL Delivery reports ID]**은 Adobe 고객 지원 센터에서 제공합니다. 게재 가능성 기술 보고서에서 사용되는 게재 가능성 ID로 각 인스턴스를 식별합니다.
+  **[!UICONTROL Delivery reports ID]**&#x200B;은 Adobe 고객 지원 센터에서 제공합니다. 게재 가능성 기술 보고서에서 사용되는 게재 가능성 ID로 각 인스턴스를 식별합니다.
   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **게재 매개 변수**
@@ -65,7 +65,7 @@ Campaign [관리자](../../administration/using/users-management.md#functional-a
 
   **[!UICONTROL Time between two significant errors]** 필드에서는 소프트 바운스 실패 시 애플리케이션이 오류 카운터를 증가시키기 전에 기다리는 시간을 정의하는 값을 입력합니다. 기본값은 1일 동안 **&quot;1d&quot;**&#x200B;입니다.
 
-  **[!UICONTROL Maximum number of errors before quarantine]** 값에 도달하면 전자 메일 주소가 격리됩니다. 기본값은 **&quot;5&quot;**입니다. 다섯 번째 오류에서 주소가 격리되었습니다. 즉, 연락처는 후속 게재에서 자동으로 제외됩니다.
+  **[!UICONTROL Maximum number of errors before quarantine]** 값에 도달하면 전자 메일 주소가 격리됩니다. 기본값은 **&quot;5&quot;**&#x200B;입니다. 다섯 번째 오류에서 주소가 격리되었습니다. 즉, 연락처는 후속 게재에서 자동으로 제외됩니다.
   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
   격리에 대한 자세한 내용은 [격리 관리 이해하기](../../sending/using/understanding-quarantine-management.md)를 참조하십시오.

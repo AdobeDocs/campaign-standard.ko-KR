@@ -70,7 +70,7 @@ Personalization 기본 사항은 [이 섹션](../../designing/using/personalizat
 
 **팁**: 사람의 실수는 항상 가능하므로 보낼 때마다 옵트아웃 링크가 올바르게 작동하는지 확인하세요. 예를 들어 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지, 이 받는 사람에게 더 이상 연락하지 않음 필드가 예로 변경되었는지 확인합니다.
 
-이 섹션](../../designing/using/personalization.md#adding-a-content-block)에서 옵트아웃 링크 [을(를) 삽입하는 방법을 알아봅니다.
+이 섹션[&#128279;](../../designing/using/personalization.md#adding-a-content-block)에서 옵트아웃 링크 을(를) 삽입하는 방법을 알아봅니다.
 
 ### 이메일 크기 {#email-size}
 
@@ -100,7 +100,7 @@ Adobe은 최대 메시지 크기 기본값을 유지하는 것을 권장합니�
 
 기본적으로 SMS의 문자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
-변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 **[!UICONTROL External account]**의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
+변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 **[!UICONTROL External account]**&#x200B;의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
 자세한 내용은 [이 섹션](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)을 참조하세요.
 
 **팁**:

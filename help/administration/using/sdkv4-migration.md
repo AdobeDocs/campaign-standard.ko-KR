@@ -125,7 +125,7 @@ A: **[!UICONTROL Organizational unit]** ALL의 관리자는 두 모바일 애플
 ### Q: SDK v4 모바일 애플리케이션 조직 단위가 A로 설정되고 Adobe Experience Platform SDK 애플리케이션이 B(조직 단위 A의 형제)로 설정된 경우. 모바일 애플리케이션을 마이그레이션하려면 어떻게 해야 합니까? {#aep-org-unit}
 
 A: Adobe Experience Platform SDK 응용 프로그램은 형제 **[!UICONTROL Organizational unit]**&#x200B;의 자산이며 **[!UICONTROL Organizational unit]** A의 사용자에게 모바일 응용 프로그램이 표시되지 않습니다. 모바일 응용 프로그램은 **[!UICONTROL Organizational unit]** ALL의 관리자가 사용할 수 있지만 이 관리자에게 모바일 응용 프로그램을 마이그레이션하지 않는 것이 좋습니다.
-이 경우 모바일 응용 프로그램을 동일한 **[!UICONTROL Organizational unit]** 또는 상위 링크가 있는 **[!UICONTROL Organizational unit]**에서 이동해야 합니다.
+이 경우 모바일 응용 프로그램을 동일한 **[!UICONTROL Organizational unit]** 또는 상위 링크가 있는 **[!UICONTROL Organizational unit]**&#x200B;에서 이동해야 합니다.
 **[!UICONTROL Organizational unit]**&#x200B;에 대한 자세한 내용은 이 [섹션](../../administration/using/organizational-units.md)을 참조하세요.
 
 ### Q: Adobe Experience Platform SDK 모바일 애플리케이션(v4 모바일 애플리케이션에서 마이그레이션됨) 페이지의 푸시 채널 설정 드롭다운 아래에 업로드된 날짜/이름과 같은 정보가 Android 키 또는 iOS 인증서에 대해 표시되지 않습니다 {#no-information-v5}

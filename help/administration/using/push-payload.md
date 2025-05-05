@@ -13,7 +13,7 @@ ht-degree: 3%
 
 ---
 
-#  푸시 알림 페이로드 구조 이해 {#push-payload}
+# 푸시 알림 페이로드 구조 이해 {#push-payload}
 
 Adobe Campaign을 사용하면 iOS 및 Android 모바일 장치에서 개인화되고 세그먼트화된 푸시 알림을 모바일 애플리케이션(모바일 앱)으로 보낼 수 있습니다.
 

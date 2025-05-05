@@ -249,7 +249,7 @@ ht-degree: 97%
 **향상된 이메일 디자이너**
 
 * 이제 이메일 디자이너가 엄격한 W3C보다 더 유연한 HTML 서식을 처리할 수 있습니다. (CAMP-42529)
-*  콘텐츠 블록의 이미지 옆에 링크가 표시되지 않도록 [클릭 가능한 이미지](../../designing/using/links.md#inserting-a-link) 문제를 수정했습니다. (CAMP-41586)
+* 콘텐츠 블록의 이미지 옆에 링크가 표시되지 않도록 [클릭 가능한 이미지](../../designing/using/links.md#inserting-a-link) 문제를 수정했습니다. (CAMP-41586)
 * 템플릿에서 [추적된 URL](../../designing/using/links.md#about-tracked-urls)에 카테고리를 추가했을 때 랜딩 페이지로 리디렉션되지 않는 문제를 수정했습니다. (CAMP-41537)
 * Outlook 내 버튼 패딩 문제를 수정했습니다.
 * HTML 태그가 일반 텍스트로 표시되는 문제를 수정했습니다.

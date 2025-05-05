@@ -187,7 +187,7 @@ ht-degree: 98%
 
 1. 새 **Purchase** 리소스를 생성합니다.
 1. **Profiles** 사용자 지정 리소스와 연결하려면 **[!UICONTROL Data structure]** 탭에서 **[!UICONTROL Links]** 섹션을 펼친 후 **[!UICONTROL Create element]**&#x200B;을(를) 클릭합니다.
-1.  **[!UICONTROL Profiles (profile)]**&#x200B;에서 타겟 리소스를 선택합니다.
+1. **[!UICONTROL Profiles (profile)]**&#x200B;에서 타겟 리소스를 선택합니다.
 1. 이 예제에서는 기본 **[!UICONTROL 1 cardinality simple link]** 링크 유형을 선택한 상태로 유지합니다.
 
    ![](assets/custom_resource_link_to_profile_2.png)

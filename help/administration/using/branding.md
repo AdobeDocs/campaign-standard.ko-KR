@@ -87,7 +87,7 @@ ht-degree: 73%
 
 Campaign에서 조직의 새 엔터티를 추가하거나 다른 하위 도메인에서 보내야 하는 새 유형의 이메일을 만들 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. **새 하위 Adobe 구성** - 도메인에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 하위 도메인을 구성하는 것입니다. [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)을 통해 수행하거나 Adobe 기술 담당자에게 문의할 수 있습니다. 이 문서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html)에서 하위 도메인 구성 [에 대해 자세히 알아보세요.
+1. **새 하위 Adobe 구성** - 도메인에서 사용할 새 하위 도메인의 경우 첫 번째 단계는 하위 도메인을 구성하는 것입니다. [Campaign Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ko)을 통해 수행하거나 Adobe 기술 담당자에게 문의할 수 있습니다. 이 문서[&#128279;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html)에서 하위 도메인 구성 에 대해 자세히 알아보세요.
 
    >[!NOTE]
    >
@@ -105,7 +105,7 @@ Campaign에서 조직의 새 엔터티를 추가하거나 다른 하위 도메�
 
 1. **게재 템플릿 만들기** - 새 브랜드를 사용할 수 있게 되면 이 새 브랜드를 참조하는 빈 게재 템플릿을 하나 이상 만드는 것이 좋습니다. [자세히 알아보기](#linking-a-brand-to-a-template).
 
-1. **게재 가능성 지침 확인** - 새 도메인을 사용하기 전에 Adobe 게재 가능성 팀과 전략을 논의해야 합니다. 모범 사례를 정의하는 데 도움이 됩니다. 예를 들어 도메인 간에 IP를 분할하기 위해 새 선호도를 만들어야 하는지 및/또는 램프 업 계획을 정의해야 하는지 등이 여기에 포함됩니다. 이 섹션](../../sending/using/about-deliverability.md)에서 게재 가능성 모범 사례 [에 대해 자세히 알아보세요.
+1. **게재 가능성 지침 확인** - 새 도메인을 사용하기 전에 Adobe 게재 가능성 팀과 전략을 논의해야 합니다. 모범 사례를 정의하는 데 도움이 됩니다. 예를 들어 도메인 간에 IP를 분할하기 위해 새 선호도를 만들어야 하는지 및/또는 램프 업 계획을 정의해야 하는지 등이 여기에 포함됩니다. 이 섹션[&#128279;](../../sending/using/about-deliverability.md)에서 게재 가능성 모범 사례 에 대해 자세히 알아보세요.
 
 ## 이메일에 브랜드 할당 {#assigning-a-brand-to-an-email}
 
