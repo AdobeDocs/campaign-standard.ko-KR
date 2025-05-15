@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: bd4b6d0d7d8fae6b14a41dc9001027d8154c9222
+source-git-commit: 2bc6ce04d2580b561bfdaafe29985353fd116a42
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->데이터 보고는 지난 3년 동안만 사용할 수 있습니다. 데이터 보존 기간에 대한 자세한 내용은 Adobe 컨설턴트 또는 기술 관리자에게 문의하십시오.
+>데이터 보고는 지난 2년 동안만 사용할 수 있습니다. 데이터 보존 기간에 대한 자세한 내용은 Adobe 컨설턴트 또는 기술 관리자에게 문의하십시오.
 
 Campaign의 표준 로그 테이블에는 사전 설정된 보존 기간이 있어 시스템 오버로드를 방지하기 위해 데이터 저장 기간을 제한합니다.
 
