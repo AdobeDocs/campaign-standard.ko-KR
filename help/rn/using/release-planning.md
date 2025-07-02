@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c2c732bc3dff7ee1a140af5a102e388f394ade52
+source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 96%
+source-wordcount: '400'
+ht-degree: 98%
 
 ---
 
@@ -40,12 +40,12 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
  <tbody>
   <tr>
    <td>단계 </td>
-   <td>2025년 7월 8일 - 8월 19일 </td>
+   <td>8월 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>프로덕션 </td>
-   <td>2025년 7월 15일 - 8월 27일 </td>
+   <td>9월 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
