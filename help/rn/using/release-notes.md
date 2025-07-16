@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -32,12 +32,12 @@ This section lists improvements and changes included in the next Campaign Standa
 ### 보안 수정 사항 {#25.1.2-security}
 
 * 이번 릴리스에서는 보안 수정 사항이 적용됩니다.
-* 이 릴리스는 다음과 같은 보안 업그레이드와 함께 제공됩니다. Apache Tomcat이 v10.1.36으로 업그레이드되었습니다.
+* 이 릴리스에서 제공되는 보안 업그레이드: Apache Tomcat이 v10.1.36으로 업그레이드되었습니다.
 
 ### 기타 수정 사항 {#25.1.2-fixes}
 
-* 사용자가 IMS를 통해 로그인하지 못하는 토큰 구문 분석 문제를 해결했습니다. (CAMP-57337)
-* 시스템 신뢰성을 높이기 위해 자동 시퀀스 ID 생성 메커니즘이 개선되었습니다. (CAMP-57281)
+* 사용자가 IMS를 통해 로그인하지 못하는 결과로 이어질 수 있는 토큰 구문 분석 문제를 해결했습니다. (CAMP-57337)
+* 시스템 안정성을 높이기 위해 자동 시퀀스 ID 생성 메커니즘을 개선했습니다. (CAMP-57281)
 
 ## 릴리스 25.1 - 2025년 겨울 릴리스 {#winter-25}
 
