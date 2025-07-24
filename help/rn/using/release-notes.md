@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 77%
 
 ---
 
@@ -26,6 +26,21 @@ This section lists improvements and changes included in the next Campaign Standa
 >This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
 
 -->
+
+## 릴리스 25.2 - 2025년 여름 릴리스 {#summer-25}
+
+### 보안 수정 사항 {#summer-25-security}
+
+* 이번 릴리스에서는 보안 수정 사항이 적용됩니다.
+* 이 릴리스는 다음과 같은 보안 업그레이드와 함께 제공됩니다. PostgreSQL 14.18, CentOS에서 Azure 인스턴스용 Rocky로 마이그레이션.
+
+### 기타 수정 사항 {#summer-25-fixes}
+
+* 시스템 신뢰성을 높이기 위해 시퀀스 소진 처리를 개선했습니다. (CAMP-57281)
+* 일반 제품 안정화 업데이트. (CAMP-57339)
+* 동적 보고 기능이 향상되어 견고성이 향상되고 데이터 불일치가 줄어들었습니다. (CAMP-58157)
+* 드롭다운 메뉴에서 텍스트를 올바르게 감싸지 않는 문제가 해결되었습니다. (CAMP-57360)
+* 사용자가 2년 이전의 데이터를 쿼리하지 못하도록 보고 기능을 업데이트했습니다. (CAMP-59262)
 
 ## 릴리스 25.1.2 {#25.1.2}
 
