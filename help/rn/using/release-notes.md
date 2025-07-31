@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,15 @@ This section lists improvements and changes included in the next Campaign Standa
 ### 보안 수정 사항 {#summer-25-security}
 
 * 이번 릴리스에서는 보안 수정 사항이 적용됩니다.
-* 이 릴리스는 다음과 같은 보안 업그레이드와 함께 제공됩니다. PostgreSQL 14.18, CentOS에서 Azure 인스턴스용 Rocky로 마이그레이션.
+* 이 릴리스에서 제공되는 보안 업그레이드: PostgreSQL 14.18, Azure 인스턴스를 CentOS에서 Rocky로 마이그레이션.
 
-### 기타 수정 사항 {#summer-25-fixes}
+### 기타 해결 사항 {#summer-25-fixes}
 
-* 시스템 신뢰성을 높이기 위해 시퀀스 소진 처리를 개선했습니다. (CAMP-57281)
-* 일반 제품 안정화 업데이트. (CAMP-57339)
-* 동적 보고 기능이 향상되어 견고성이 향상되고 데이터 불일치가 줄어들었습니다. (CAMP-58157)
-* 드롭다운 메뉴에서 텍스트를 올바르게 감싸지 않는 문제가 해결되었습니다. (CAMP-57360)
-* 사용자가 2년 이전의 데이터를 쿼리하지 못하도록 보고 기능을 업데이트했습니다. (CAMP-59262)
+* 시스템 안정성을 높이기 위해 시퀀스 소진 처리를 개선했습니다. (CAMP-57281)
+* 전반적인 제품 안정화 업데이트. (CAMP-57339)
+* 동적 보고 기능을 개선하여 견고성을 높이고 데이터 불일치를 줄였습니다. (CAMP-58157)
+* 드롭다운 메뉴가 텍스트를 올바르게 둘러싸지 않는 문제를 해결했습니다. (CAMP-57360)
+* 사용자가 2년 넘게 지난 데이터를 쿼리하지 못하도록 보고 기능을 업데이트했습니다. (CAMP-59262)
 
 ## 릴리스 25.1.2 {#25.1.2}
 
@@ -49,7 +49,7 @@ This section lists improvements and changes included in the next Campaign Standa
 * 이번 릴리스에서는 보안 수정 사항이 적용됩니다.
 * 이 릴리스에서 제공되는 보안 업그레이드: Apache Tomcat이 v10.1.36으로 업그레이드되었습니다.
 
-### 기타 수정 사항 {#25.1.2-fixes}
+### 기타 해결 사항 {#25.1.2-fixes}
 
 * 사용자가 IMS를 통해 로그인하지 못하는 결과로 이어질 수 있는 토큰 구문 분석 문제를 해결했습니다. (CAMP-57337)
 * 시스템 안정성을 높이기 위해 자동 시퀀스 ID 생성 메커니즘을 개선했습니다. (CAMP-57281)
@@ -61,7 +61,7 @@ This section lists improvements and changes included in the next Campaign Standa
 * 이번 릴리스에서는 보안 수정 사항이 적용됩니다.
 * 이 릴리스에서는 다음 보안 업그레이드가 제공됩니다. Apache Tomcat이 v10.1.33으로 업그레이드되었습니다.
 
-### 기타 수정 사항 {#winter-25-fixes}
+### 기타 해결 사항 {#winter-25-fixes}
 
 
 * 구독 요약 화면의 &#39;데이터 스키마&#39; URL 수정(CAMP-56168, CAMP-56296)
