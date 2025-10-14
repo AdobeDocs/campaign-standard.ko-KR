@@ -42,7 +42,7 @@ SMS 메시지를 개인화하는 원칙은 [이메일](../../designing/using/per
 
 **[!UICONTROL From]** 옵션을 사용하면 문자열을 사용하여 SMS 메시지의 발신자명을 개인화할 수 있습니다. 발신자명이란 수신자의 휴대전화에서 SMS 메시지를 보낸 사람으로 표시되는 이름입니다.
 
-이 필드가 비어 있는 경우 외부 계정에서 제공하는 소스 번호가 표시됩니다. 소스 번호가 제공되지 않는 경우 짧은 코드가 사용됩니다. SMS 게재와 관련된 외부 계정은 [SMS 라우팅 정의 ](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) 섹션에 나와 있습니다.
+이 필드가 비어 있는 경우 외부 계정에서 제공하는 소스 번호가 표시됩니다. 소스 번호가 제공되지 않는 경우 짧은 코드가 사용됩니다. SMS 게재와 관련된 외부 계정은 [SMS 라우팅 정의 &#x200B;](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) 섹션에 나와 있습니다.
 
 ![](assets/sms_creation_8.png)
 
