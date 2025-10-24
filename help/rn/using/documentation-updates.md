@@ -245,7 +245,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 **트랜잭션 메시지 제한** 섹션을 [여기](../../channels/using/transactional-messaging-limitations.md)로 이동했습니다.
 
-**전송 준비** 섹션이[ 여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
+**전송 준비** 섹션이[&#x200B; 여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
 
 ## 2020년 7월 {#doc-updates-july-2020}
 
