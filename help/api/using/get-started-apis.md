@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 3e6afc55581a24f1fc2b26ac35b801ce38cce905
+source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -21,18 +21,19 @@ Campaign Standard API는 사용자가 사용하는 기술 패널과 Adobe Campai
 
 Adobe Campaign Standard API를 사용하면 다음 기능에 액세스할 수 있습니다.
 
-<table style="table-layout:auto"><tr style="border: 0;">
- <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="조건" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">프로필</a></p></td>
+<table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
+<tbody><tr style="border: 0;background-color: #FFFFFF;">
+<td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="50px" alt="조건" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">프로필</a></p></td>
 <td valign="top"><a href="../../api/using/creating-a-service.md"><img width="50px" alt="조건" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">서비스 및 구독</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="50px" alt="조건" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">사용자 정의 리소스</a></p></td>
 <td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="50px" alt="조건" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">마케팅 기록</a></p></td>
 </tr>
-<tr style="border: 0;">
+<tr style="border: 0;background-color: #FFFFFF;">
 <td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="50px" alt="조건" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">개인 정보 관리</a></p></td>
 <td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="50px" alt="조건" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">트랜잭션 메시지 </a></p></td>
 <td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="50px" alt="조건" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">워크플로</a></p></td>
 <td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="50px" alt="조건" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">조직 단위</a></p></td>
-</tr></table>
+</tr></tbody></table>
 
 >[!NOTE]
 >
@@ -49,4 +50,4 @@ Adobe가 제공하는 API는 REST 인터페이스 및 JSON 페이로드와 함�
 
 모든 엔드포인트는 API, 전체 API 참조, 코드 예제 및 빠른 시작 안내서를 조작할 때 알아야 하는 일반적인 개념과 함께 이 설명서에서 광범위하게 설명됩니다.
 
-누락되었거나 잘못된 것 같은 경우에는 [커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ko)에 문의하십시오.
+누락되었거나 잘못된 것 같은 경우에는 [커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)에 문의하십시오.
