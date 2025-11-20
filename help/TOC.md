@@ -372,7 +372,7 @@ ht-degree: 89%
       + 데이터 관리 {#data-management}
          + [데이터베이스로 파일 대상자 조정](automating/using/reconcile-file-audience-with-database.md)
          + [가져온 파일에서 데이터 중복 제거](automating/using/deduplicating-data-imported-file.md)
-         + [ 파일에 포함된 데이터로 프로필 데이터 보강](automating/using/enriching-profile-data-file.md)
+         + [&#x200B; 파일에 포함된 데이터로 프로필 데이터 보강](automating/using/enriching-profile-data-file.md)
          + [외부 신호 활동 및 데이터 가져오기](automating/using/external-signal-data-import.md)
          + [외부 데이터로 데이터베이스 업데이트](automating/using/update-database-file.md)
          + [자동 파일 다운로드를 기반으로 데이터 업데이트](automating/using/update-data-automatic-download.md)
@@ -441,7 +441,7 @@ ht-degree: 89%
    + 모바일 채널 구성 {#configuring-mobile}
       + [푸시 추적 구현](administration/using/push-tracking.md)
       + [iOS 이미지 및 비디오 추가](administration/using/image-push-notification.md)
-      + [ 푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
+      + [&#x200B; 푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
       + [로컬 알림 추적 구현](administration/using/local-tracking.md)
       + [Adobe Experience Platform 동기화의 태그 FAQ](administration/using/syncwithlaunch-faq.md)
       + [Experience Platform SDK 통합 FAQ](administration/using/aep-faq.md)
