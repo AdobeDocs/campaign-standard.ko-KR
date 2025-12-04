@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 12%
@@ -38,4 +39,4 @@ AEM 사이트에서 Adobe Campaign 양식을 만들려면 다음 작업을 수�
 1. Adobe Campaign 데이터베이스 필드에 매핑할 수 있는 다양한 필드 및 구성 요소를 추가하여 양식의 콘텐츠를 편집합니다.
 1. 양식을 테스트하고 게시하여 AEM 사이트에서 액세스할 수 있도록 합니다.
 
-자세한 내용은 [세부 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=ko)를 참조하세요.
+자세한 내용은 [세부 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)를 참조하십시오.

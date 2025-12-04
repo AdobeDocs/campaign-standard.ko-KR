@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 6%
@@ -29,7 +30,7 @@ Adobe Campaign Standard을 사용하면 API를 통해 데이터 매핑의 즉각
 
 ## 필수 구성 요소 {#prerequisites}
 
-API를 사용하기 전에 데이터 매핑이 먼저 구성되어 Campaign Standard 인터페이스 내에 게시되어야 합니다. 자세한 정보는 다음 섹션을 참조하십시오.
+API를 사용하기 전에 먼저 데이터 매핑을 구성하고 Campaign Standard 인터페이스 내에 게시해야 합니다. 자세한 정보는 다음 섹션을 참조하십시오.
 
 * [매핑 정의](../../integrating/using/aep-mapping-definition.md)
 * [매핑 활성화](../../integrating/using/aep-mapping-activation.md)

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
@@ -23,13 +24,13 @@ ht-degree: 0%
 >
 ><b>orgUnit</b>을(를) 생성된 프로필에 연결하려면 이 필드로 프로필 리소스를 확장하고 확장을 게시한 후 <b>ProfileAndServicesExt</b> 끝점에서 POST 요청을 수행해야 합니다.
 >
->프로필의 리소스 확장에 대한 자세한 내용은 <a href="https://helpx.adobe.com/kr/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign 설명서</a>를 참조하세요.
+>프로필의 리소스 확장에 대한 자세한 내용은 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign 설명서</a>를 참조하세요.
 
 <br/>
 
 ***샘플 요청***
 
-이메일 &quot;john.doe@mail.com&quot;을 사용하여 프로필을 만드는 샘플 POST 요청.
+이메일 &quot;john.doe@mail.com&quot;을 사용하여 프로필을 만들기 위한 샘플 POST 요청.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

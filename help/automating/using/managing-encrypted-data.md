@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows, Encryption
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '889'
 ht-degree: 3%
@@ -27,12 +28,12 @@ ht-degree: 3%
 >
 >Campaign 컨트롤 패널은 AWS에서 호스팅되는 모든 고객이 사용할 수 있습니다(온프레미스에서 마케팅 인스턴스를 호스팅하는 고객은 제외).
 
-Campaign 컨트롤 패널을 사용할 자격이 없는 경우 Adobe 고객 지원 센터에 연락하여 필요한 암호화/암호 해독 명령을 인스턴스에 제공하도록 해야 합니다. 이렇게 하려면 다음을 나타내는 요청을 제출합니다.
+Campaign 컨트롤 패널을 사용할 자격이 없는 경우 Adobe 고객 지원 센터에 문의하여 필요한 암호화/암호 해독 명령을 인스턴스에 제공해야 합니다. 이렇게 하려면 다음을 나타내는 요청을 제출합니다.
 
 * 명령을 사용할 Campaign 인터페이스에 표시할 **label**&#x200B;입니다. 예: &quot;파일 암호화&quot;.
 * 인스턴스에 설치할 **명령**&#x200B;입니다.
 
-요청이 처리되면 **[!UICONTROL Load file]** 및 **[!UICONTROL Extract file]** 활동의 **[!UICONTROL Pre-processing stage]** 필드에서 암호화/암호 해독 명령을 사용할 수 있습니다. 이 파일을 사용하여 가져오거나 내보낼 파일을 해독하거나 암호화할 수 있습니다.
+요청이 처리되면 **[!UICONTROL Pre-processing stage]** 및 **[!UICONTROL Load file]** 활동의 **[!UICONTROL Extract file]** 필드에서 암호화/암호 해독 명령을 사용할 수 있습니다. 이 파일을 사용하여 가져오거나 내보낼 파일을 해독하거나 암호화할 수 있습니다.
 
 ![](assets/preprocessing-encryption.png)
 
@@ -49,7 +50,7 @@ Campaign 컨트롤 패널을 사용할 자격이 없는 경우 Adobe 고객 지�
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
-1. Campaign 컨트롤 패널을 사용하여 키 쌍(공개/비공개)을 생성합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko#decrypting-data)에서 확인할 수 있습니다.
+1. Campaign 컨트롤 패널을 사용하여 키 쌍(공개/비공개)을 생성합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)에서 확인할 수 있습니다.
 
    * 공개 키는 외부 시스템과 공유되며, 외부 시스템은 이 키를 사용하여 Campaign으로 전송할 데이터를 암호화합니다.
    * 개인 키는 Campaign에서 들어오는 암호화된 데이터를 해독하는 데 사용됩니다.
@@ -93,11 +94,11 @@ Campaign 컨트롤 패널을 사용할 자격이 없는 경우 Adobe 고객 지�
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
-1. GPG 유틸리티를 사용하여 GPG 키 쌍(공개/비공개)을 생성한 다음 공개 키를 Campaign 컨트롤 패널에 설치합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko#encrypting-data)에서 확인할 수 있습니다.
+1. GPG 유틸리티를 사용하여 GPG 키 쌍(공개/비공개)을 생성한 다음 공개 키를 Campaign 컨트롤 패널에 설치합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)에서 확인할 수 있습니다.
 
    ![](assets/gpg_install.png)
 
-1. Campaign Standard에서 데이터를 내보내는 워크플로우를 빌드하고 Campaign 컨트롤 패널을 통해 설치된 개인 키를 사용하여 암호화합니다. 이렇게 하려면 다음과 같이 워크플로우를 빌드합니다.
+1. Campaign Standard에서 데이터를 내보내고 Campaign 컨트롤 패널을 통해 설치된 개인 키를 사용하여 데이터를 암호화하는 워크플로우를 빌드합니다. 이렇게 하려면 다음과 같이 워크플로우를 빌드합니다.
 
    ![](assets/gpg-workflow-export.png)
 
@@ -127,10 +128,10 @@ Campaign 컨트롤 패널을 사용할 자격이 없는 경우 Adobe 고객 지�
 
 이 비디오는 GPG 키를 사용하여 데이터를 해독하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/41357?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
 이 비디오는 GPG 키를 사용하여 데이터를 암호화하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/41340?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
-추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

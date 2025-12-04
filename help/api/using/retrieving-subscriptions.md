@@ -2,10 +2,11 @@
 title: 구독 검색
 description: API로 구독을 검색하는 방법 알아보기
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -19,7 +20,7 @@ ht-degree: 1%
 이 절차는 두 단계로 구성됩니다.
 
 1. 원하는 서비스에 대한 구독 URL을 검색합니다.
-1. 구독 URL에 대한 GET 요청을 수행합니다. 서비스에 대한 구독 목록을 각 관련 프로필과 함께 반환합니다.
+1. 구독 URL에 대해 GET 요청을 수행합니다. 서비스에 대한 구독 목록을 각 관련 프로필과 함께 반환합니다.
 
 >[!CAUTION]
 >
@@ -29,7 +30,7 @@ ht-degree: 1%
 
 ***샘플 요청***
 
-서비스를 검색하려면 GET 요청을 수행하십시오.
+GET 요청을 수행하여 서비스를 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -53,7 +54,7 @@ ht-degree: 1%
   },
 ```
 
-구독 URL에 대한 GET 요청을 수행합니다.
+구독 URL에 대해 GET 요청을 수행합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -85,13 +86,13 @@ ht-degree: 1%
 이 절차는 두 단계로 구성됩니다.
 
 1. 주어진 프로필에 대한 구독 URL을 검색합니다.
-1. URL에 대해 GET 요청을 수행합니다. 프로필에 대한 구독 목록과 각 관련 서비스를 반환합니다.
+1. URL에서 GET 요청을 수행합니다. 프로필에 대한 구독 목록과 각 관련 서비스를 반환합니다.
 
 <br/>
 
 ***샘플 요청***
 
-프로필을 검색하려면 GET 요청을 수행하십시오.
+GET 요청을 수행하여 프로필을 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -115,7 +116,7 @@ ht-degree: 1%
   }
 ```
 
-구독 URL에 대한 GET 요청을 수행합니다.
+구독 URL에 대해 GET 요청을 수행합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

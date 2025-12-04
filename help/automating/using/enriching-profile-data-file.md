@@ -1,22 +1,23 @@
 ---
-title: 파일에 포함된 데이터로 프로필 데이터 보강
+title: ' 파일에 포함된 데이터로 프로필 데이터 보강'
 description: 이 예에서는 파일에 포함된 구매 데이터를 사용하여 프로필 데이터를 보강하는 방법을 보여 줍니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 77%
 
 ---
 
-# 파일에 포함된 데이터로 프로필 데이터 보강 {#enriching-profile-data-with-data-contained-in-a-file}
+#  파일에 포함된 데이터로 프로필 데이터 보강 {#enriching-profile-data-with-data-contained-in-a-file}
 
 이 예에서는 파일에 포함된 구매 데이터를 사용하여 프로필 데이터를 보강하는 방법을 보여줍니다. 구매 데이터는 서드파티 시스템에 저장되어 있다고 가정합니다. 각 프로필 파일에 여러 개의 구매를 저장할 수 있습니다. 워크플로의 최종 목표는 두 개 이상의 항목을 구매한 대상 프로필로 전자 메일을 보내 충성도에 대한 감사를 표시하는 것입니다.
 
@@ -39,7 +40,7 @@ ht-degree: 77%
 
   이 예제 파일에서 이메일 주소를 사용하여 데이터를 데이터베이스 프로필과 조정합니다. [이 설명서](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)에 설명된 대로 고유 ID를 활성화할 수도 있습니다.
 
-* 파일에서 로드한 트랜잭션 데이터와 **[!UICONTROL Query]**&#x200B;에서 선택한 프로필 간에 연결을 만드는 [데이터 보강](../../automating/using/enrichment.md) 활동입니다. 링크는 활동의 **[!UICONTROL Advanced relations]** 탭에 정의됩니다. 링크는 **[!UICONTROL Load file]** 활동에서 들어오는 전환을 기반으로 합니다. 프로필 리소스의 &quot;전자 메일&quot; 필드와 가져온 파일의 &quot;고객&quot; 열을 조정 기준으로 사용합니다.
+* 파일에서 로드한 트랜잭션 데이터와 [에서 선택한 프로필 간에 연결을 만드는 ](../../automating/using/enrichment.md)데이터 보강&#x200B;**[!UICONTROL Query]** 활동입니다. 링크는 활동의 **[!UICONTROL Advanced relations]** 탭에 정의됩니다. 링크는 **[!UICONTROL Load file]** 활동에서 들어오는 전환을 기반으로 합니다. 프로필 리소스의 &quot;전자 메일&quot; 필드와 가져온 파일의 &quot;고객&quot; 열을 조정 기준으로 사용합니다.
 
   ![](assets/enrichment_example_workflow2.png)
 
@@ -81,7 +82,7 @@ ht-degree: 77%
 
   ![](assets/enrichment_example_workflow5.png)
 
-* **[!UICONTROL Enrichment]**&#x200B;에 정의된 추가 데이터를 사용하여 프로필에서 수행한 2개의 마지막 구매를 동적으로 검색하는 [전자 메일 게재](../../automating/using/email-delivery.md) 활동. 개인화 필드를 추가할 때 **추가 데이터(TargetData)** 노드에서 추가 데이터를 찾을 수 있습니다.
+* [에 정의된 추가 데이터를 사용하여 프로필에서 수행한 2개의 마지막 구매를 동적으로 검색하는 ](../../automating/using/email-delivery.md)전자 메일 게재&#x200B;**[!UICONTROL Enrichment]** 활동. 개인화 필드를 추가할 때 **추가 데이터(TargetData)** 노드에서 추가 데이터를 찾을 수 있습니다.
 
   ![](assets/enrichment_example_workflow10.png)
 

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -37,7 +38,7 @@ ht-degree: 0%
 GET /customResources/resourceType/<customResourceName>
 ```
 
-생성, 업데이트 또는 삭제를 수행하려면 GET, POST, PATCH, DELETE이 사용됩니다.
+만들기, 업데이트 또는 삭제를 수행하려면 GET, POST, PATCH, DELETE이 사용됩니다.
 
 ```
 POST /customResources/<customResourceName>

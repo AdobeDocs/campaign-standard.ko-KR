@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -33,7 +34,7 @@ XDM Workspace은 데이터 스키마를 보고, 만들고, 확장할 수 있는 
 
 XDM 사용자 인터페이스에 액세스하려면 Adobe Experience Platform을 엽니다. XDM 스키마를 생성하거나 확장하려면 데이터 모델 창으로 이동합니다.
 
-전체 [XDM Workspace 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하세요.
+전체 [XDM Workspace 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)를 참조하세요.
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +49,4 @@ XDM 스키마 API를 통해 다음 작업을 수행할 수 있습니다.
 * 스키마 설명자 보기
 * 스키마 설명자 만들기, 업데이트 및 삭제
 
-API 호출 조작에 대한 모든 세부 정보는 [개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)에서 확인할 수 있습니다.
+API 호출 조작에 대한 모든 세부 정보는 [개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)에서 확인할 수 있습니다.

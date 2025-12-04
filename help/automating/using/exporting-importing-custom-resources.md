@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 95%
@@ -53,7 +54,7 @@ ht-degree: 95%
 
    ![](assets/cusresources_export2.png)
 
-1. **[!UICONTROL Custom resource]**&#x200B;의 세부 사항을 구성하려면 필터링 조건에서 두 리소스 **Products** 및 **Orders**&#x200B;를 선택합니다.
+1.  **[!UICONTROL Custom resource]**&#x200B;의 세부 사항을 구성하려면 필터링 조건에서 두 리소스 **Products** 및 **Orders**&#x200B;를 선택합니다.
 
    논리 연산자는 반드시 변경해야 합니다. 제품 리소스 및 주문 리소스의 구조를 패키지에 통합하려면 **OR**&#x200B;로 값을 설정해야 합니다.
 

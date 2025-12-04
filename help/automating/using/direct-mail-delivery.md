@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: directMail,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -70,7 +71,7 @@ DM 수신자는 쿼리, 교집합 등과 같은 타겟팅 활동을 통해 동�
 1. 기본적으로 **[!UICONTROL Direct mail delivery]** 활동에는 아웃바운드 전환이 포함되지 않습니다. **[!UICONTROL Direct mail delivery]** 활동에 아웃바운드 전환을 추가하려면 고급 활동 옵션의 ![](assets/dlv_activity_params-24px.png) 탭(활동의 빠른 작업에 있는 **[!UICONTROL General]** 버튼)으로 이동한 다음 옵션 중 하나를 선택합니다.
 
    * **[!UICONTROL Add outbound transition without the population]**: 인바운드 전환과 정확히 동일한 모집단을 포함하는 아웃바운드 전환을 생성할 수 있습니다. 이 전환에는 DM 활동으로 생성된 파일과 DM 활동으로 받은 원시 모집단도 포함됩니다.
-   * **[!UICONTROL Add outbound transition with the population]**: DM을 전송할 모집단을 포함하는 아웃바운드 전환을 생성할 수 있습니다. DM을 준비하는 동안 제외된 타겟 멤버(격리, 잘못된 주소 등) 는 이 전환에서 제외됩니다. 이 전환에는 DM에 의해 생성된 파일도 포함됩니다.
+   * **[!UICONTROL Add outbound transition with the population]**: DM을 전송할 모집단을 포함하는 아웃바운드 전환을 생성할 수 있습니다. DM을 준비하는 동안 제외된 타겟 멤버(격리, 잘못된 주소 등)는 이 전환에서 제외됩니다. 이 전환에는 DM에 의해 생성된 파일도 포함됩니다.
 
 1. 활동 구성을 확인하고 워크플로를 저장합니다.
 

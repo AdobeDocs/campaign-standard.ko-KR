@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 8d9820a4-3c44-45f5-815e-4ed48a96276d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 1%
@@ -32,7 +33,7 @@ Campaign Standard에서 워크플로 엔진은 워크플로 인스턴스가 한 
 
 이전 워크플로우 실행에서 하나 이상의 작업이 아직 보류 중인지 확인하려면 **[!UICONTROL Query]** 및 **[!UICONTROL Test]** 활동을 사용해야 합니다.
 
-1. **[!UICONTROL Scheduler]** 활동 뒤에 **[!UICONTROL Query]** 활동을 추가한 다음 다음과 같이 구성합니다.
+1. **[!UICONTROL Query]** 활동 뒤에 **[!UICONTROL Scheduler]** 활동을 추가한 다음 다음과 같이 구성합니다.
 
 1. 활동의 리소스를 **[!UICONTROL WorkflowTaskDetail]**(으)로 변경합니다. 즉, 워크플로의 현재 작업을 대상으로 합니다.
 
@@ -50,7 +51,7 @@ Campaign Standard에서 워크플로 엔진은 워크플로 인스턴스가 한 
 
    * 두 번째 규칙은 워크플로우의 이전 실행에서 생성된 작업이 여전히 활성(보류 중)인지 여부를 결정하며, 이는 실행 상태가 0인 경우에 해당합니다.
 
-1. **[!UICONTROL Query]** 활동에서 반환된 보류 중인 작업의 수를 확인하려면 **[!UICONTROL Test]** 활동을 추가하십시오. 이렇게 하려면 두 개의 아웃바운드 전환을 구성합니다.
+1. **[!UICONTROL Test]** 활동에서 반환된 보류 중인 작업의 수를 확인하려면 **[!UICONTROL Query]** 활동을 추가하십시오. 이렇게 하려면 두 개의 아웃바운드 전환을 구성합니다.
 
    ![](assets/scheduled-wkf-test.png)
 

@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 13%
@@ -31,7 +32,7 @@ ht-degree: 13%
 1. **[!UICONTROL Create element]** 단추를 클릭하여 매개 변수를 추가한 다음 이름과 값을 입력합니다.
 
    * **[!UICONTROL Name]**: **[!UICONTROL External signal]** 활동에서 선언된 이름입니다([이 페이지](../../automating/using/declaring-parameters-external-signal.md) 참조).
-   * **[!UICONTROL Value]**: 매개 변수에 할당할 값입니다. 값은 [이 섹션](../../automating/using/advanced-expression-editing.md#standard-syntax)에 설명된 **표준 구문**&#x200B;을 따라야 합니다.
+   * **[!UICONTROL Value]**: 매개 변수에 할당할 값입니다. 값은 **이 섹션**&#x200B;에 설명된 [표준 구문](../../automating/using/advanced-expression-editing.md#standard-syntax)을 따라야 합니다.
 
    ![](assets/extsignal_definingparameters_2.png)
 

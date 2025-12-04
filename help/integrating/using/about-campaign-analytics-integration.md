@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 7%
@@ -32,6 +33,6 @@ Adobe Analytics의 핵심 서비스 **트리거**&#x200B;와(과) Adobe Campaign
 
 **관련 항목:**
 
-* [Analytics 통합에 대한 Campaign Standard 개요](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=ko)
-* [Campaign Standard 통합 구성](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=ko)
+* [Campaign Standard과 Analytics 통합 개요](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [Campaign Standard 통합 구성](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Analytics에서 Campaign 차원 및 지표 보기](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

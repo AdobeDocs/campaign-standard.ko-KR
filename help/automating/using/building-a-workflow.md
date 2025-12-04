@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 90%
@@ -135,6 +136,6 @@ ht-degree: 90%
 
 이 비디오는 워크플로우를 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31889?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

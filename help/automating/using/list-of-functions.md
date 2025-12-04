@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 95%
@@ -432,7 +433,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 표현식이 true면 값 1 반환, 그렇지 않으면 값 2 반환<br /> </td> 
+   <td> 표현식이 참 면 값 1 반환, 그렇지 않으면 값 2 반환<br /> </td> 
    <td> Iif(&lt;조건&gt;, &lt;값 1&gt;, &lt;값 2&gt;)<br /> </td> 
   </tr> 
   <tr> 

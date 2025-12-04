@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 3450c549f4910a6c5f6be7bf82fbc93ac06625e8
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 5%
@@ -21,11 +22,11 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 
 >[!IMPORTANT]
 >
->[Adobe Developer](https://developer.adobe.com/)에서 인증서를 관리하려면 조직에 대한 **시스템 관리자** 권한 또는 Admin Console에 있는 [개발자 계정](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
+>[Adobe Developer](https://developer.adobe.com/)에서 인증서를 관리하려면 조직에 대한 **시스템 관리자** 권한 또는 Admin Console의 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
 
 1. **디지털 인증서가 있는지 확인**&#x200B;하거나 필요한 경우 만드십시오. 인증서와 함께 제공되는 공개 및 개인 키는 다음 단계에서 필요합니다.
-1. [Adobe Developer](https://developer.adobe.com/)에서 **Adobe Campaign 서비스에 대한 새 통합을 만들고** 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
-1. **이전에 생성한 자격 증명에서 JSON 웹 토큰(JWT)을 만들고** 개인 키로 서명합니다. JWT는 Adobe이 사용자의 ID를 확인하고 API에 대한 액세스 권한을 부여하는 데 필요한 모든 ID 및 보안 정보를 인코딩합니다.
+1. **Adobe Developer**&#x200B;에서 [Adobe Campaign 서비스에 대한 새 통합을 만들고](https://developer.adobe.com/) 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
+1. **이전에 생성한 자격 증명에서 JSON 웹 토큰(JWT)을 만들고** 개인 키로 서명합니다. JWT는 Adobe에서 ID를 확인하고 API에 대한 액세스 권한을 부여하는 데 필요한 모든 ID 및 보안 정보를 인코딩합니다.
 
    >[!IMPORTANT]
    >
@@ -46,12 +47,12 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;조직>**: 개인 조직 ID이며 각 인스턴스에 대해 Adobe이 제공한 조직 ID가 하나입니다.
+* **&lt;조직>**: 개인 조직 ID이며, Adobe에서 각 인스턴스에 대해 하나의 조직 ID를 제공합니다.
 
    * &lt;조직> : 프로덕션 인스턴스,
    * &lt;ORGANIZATION-mkt-stage>: 단계 인스턴스입니다.
 
-  조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 라이선스 목록에서 새 통합을 만들 때 Adobe I/O으로 검색할 수도 있습니다(<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer 설명서</a> 참조).
+  조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 라이선스 목록에서 새 통합을 만들 때 Adobe I/O에서 검색할 수도 있습니다(<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer 설명서</a> 참조).
 
 * **&lt;ACCESS_TOKEN>**: POST 요청을 통해 JSON 웹 토큰을 교환할 때 검색된 개인 액세스 토큰입니다.
 

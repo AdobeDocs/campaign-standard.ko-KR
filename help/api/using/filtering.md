@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -47,7 +48,7 @@ ht-degree: 0%
   }
 ```
 
-URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 목록을 반환하고 각 필터에 연결된 메타데이터를 반환합니다.
+URL에서 GET 요청을 수행합니다. 프로필 리소스에 대한 필터 목록을 반환하고 각 필터에 연결된 메타데이터를 반환합니다.
 
 ```
 {
@@ -101,7 +102,7 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 ***샘플 요청***
 
-* 유형이 &quot;email&quot;인 &quot;service&quot; 리소스를 검색하기 위한 샘플 GET 요청입니다.
+* &quot;email&quot; 유형의 &quot;service&quot; 리소스를 검색하기 위한 샘플 GET 요청.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -202,14 +203,14 @@ URL에 대해 GET 요청을 수행합니다. 프로필 리소스에 대한 필�
 
 자세한 내용은 Campaign Standard 설명서를 참조하십시오.
 
-* [필터 정의를 구성하는 중](https://helpx.adobe.com/kr/campaign/standard/developing/using/configuring-filter-definition.html).
-* [사용 사례: 복합 식별 키를 사용하여 리소스를 호출합니다](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=ko).
+* [필터 정의를 구성하는 중](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [사용 사례: 복합 식별 키를 사용하여 리소스를 호출합니다](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
 ***샘플 요청***
 
-트랜잭션 금액이 100$ 이상인 &quot;프로필&quot; 리소스를 검색하기 위한 샘플 GET 요청입니다. Adobe Campaign Standard 인터페이스에서 &quot;byAmount&quot; 필터를 처음 정의하고 &quot;Transaction&quot; 사용자 지정 테이블에 연결했습니다.
+트랜잭션 금액이 100$ 이상인 &quot;프로필&quot; 리소스를 검색하기 위한 샘플 GET 요청. Adobe Campaign Standard 인터페이스에서 &quot;byAmount&quot; 필터를 처음 정의하고 &quot;Transaction&quot; 사용자 지정 테이블에 연결했습니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

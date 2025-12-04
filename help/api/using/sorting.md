@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 13fc1b011f61d67dda128e77b854032801bda263
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 11%
@@ -25,7 +26,7 @@ ht-degree: 11%
 
 ***샘플 요청***
 
-* 알파벳순으로 정렬된 데이터베이스에서 이메일을 검색하기 위한 샘플 GET 요청입니다.
+* 알파벳순으로 정렬된 데이터베이스에서 이메일을 검색하기 위한 샘플 GET 요청.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
@@ -50,7 +51,7 @@ ht-degree: 11%
   }
   ```
 
-* 데이터베이스에서 알파벳 내림차순으로 이메일을 검색하기 위한 샘플 GET 요청입니다.
+* 데이터베이스에서 이메일을 내림차순으로 검색하기 위한 샘플 GET 요청입니다.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \

@@ -1,14 +1,15 @@
 ---
 title: Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보
-description: Audience Manager / 사람 핵심 서비스 통합을 통해 다양한 Adobe Experience Cloud 솔루션 내에서 대상 또는 세그먼트를 공유할 수 있습니다.
+description: Audience Manager / People 핵심 서비스 통합을 통해 다양한 Adobe Experience Cloud 솔루션 내에서 대상 또는 세그먼트를 공유할 수 있습니다.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 18%
@@ -28,7 +29,7 @@ Adobe Campaign을 사용하면 대상자/세그먼트를 다른 Adobe Experience
 
 통합은 두 가지 유형의 Adobe Experience Cloud ID를 지원합니다.
 
-* **방문자 ID**: 이 유형의 ID를 사용하면 Adobe Experience Cloud 방문자와 Adobe Campaign 프로필을 조정할 수 있습니다. Adobe IMS를 통해 연결이 활성화되는 즉시 Marketing Cloud 방문자 ID 서비스 가 활성화되고, 이는 Adobe Campaign에서 사용하는 영구 쿠키를 대체합니다. 이렇게 하면 방문자를 식별한 다음 프로필에 연결할 수 있습니다.
+* **방문자 ID**: 이 유형의 ID를 사용하면 Adobe Experience Cloud 방문자와 Adobe Campaign 프로필을 조정할 수 있습니다. Adobe IMS를 통해 연결이 활성화되는 즉시 Marketing Cloud Visitor ID Service가 활성화되고, 이는 Adobe Campaign에서 사용하는 영구 쿠키를 대체합니다. 이렇게 하면 방문자를 식별한 다음 프로필에 연결할 수 있습니다.
   <br>Adobe Campaign을 통해 보낸 전자 메일에서 프로필이 클릭되는 즉시 방문자 ID가 프로필에 연결됩니다.
    * 프로필에 이미 방문자 ID가 있는 경우 프로필의 브라우저 데이터를 사용하여 Adobe Campaign에서 복구하고 프로필을 방문자 ID에 자동으로 연결할 수 있습니다.
    * 방문자 ID가 없으면 새 ID가 만들어집니다. 이 방문자 ID는 프로필 추적 로그에 저장됩니다.

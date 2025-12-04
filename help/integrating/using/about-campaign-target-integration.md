@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 3%
@@ -27,4 +28,4 @@ Adobe Target에서는 몇 가지 유형의 데이터를 사용할 수 있습니�
 * 사용된 데이터에 법적 제한이 없는 경우 Adobe Target에서 방문자 ID에 연결된 세그먼트
 * Adobe Target 데이터: 사용자 에이전트, IP 주소, 지역화 데이터
 
-Adobe Campaign과 Adobe Target 간의 통합에 대한 자세한 내용은 [Adobe Target 포털](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ko)을 참조하십시오.
+Adobe Campaign과 Adobe Target 간의 통합에 대한 자세한 내용은 [Adobe Target 포털](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)을 참조하십시오.

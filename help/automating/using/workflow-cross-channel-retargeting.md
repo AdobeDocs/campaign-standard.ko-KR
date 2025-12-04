@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 37%
@@ -28,9 +29,9 @@ ht-degree: 37%
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL is not empty]** 연산자로 **[!UICONTROL email]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어서 놓고 값이 **[!UICONTROL no]**&#x200B;인 **[!UICONTROL no longer contact by email]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL email]** 연산자로 **[!UICONTROL is not empty]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어서 놓고 값이 **[!UICONTROL no longer contact by email]**&#x200B;인 **[!UICONTROL no]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/wf-complement-query.png)
 
@@ -54,11 +55,11 @@ ht-degree: 37%
 1. **[!UICONTROL Duration]**&#x200B;에서 ![](assets/duration-icon.png)을(를) 클릭하고 하루를 선택하십시오.
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 **[!UICONTROL Query activity]**&#x200B;을(를) 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 연산자 **[!UICONTROL exists]**&#x200B;을(를) 사용하여 **[!UICONTROL Tracking Logs]**&#x200B;을(를) 끌어서 놓습니다.
-1. **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;에서 연산자 **[!UICONTROL is equal to]**&#x200B;을(를) 사용하여 **[!UICONTROL delivery]**&#x200B;을(를) 끌어다 놓고 게재를 값으로 선택합니다.
+1. **[!UICONTROL Shortcuts]**&#x200B;에서 연산자 **[!UICONTROL Tracking Logs]**&#x200B;을(를) 사용하여 **[!UICONTROL exists]**&#x200B;을(를) 끌어서 놓습니다.
+1. **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;에서 연산자 **[!UICONTROL delivery]**&#x200B;을(를) 사용하여 **[!UICONTROL is equal to]**&#x200B;을(를) 끌어다 놓고 게재를 값으로 선택합니다.
 1. **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;에서 **[!UICONTROL type]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL Open]**&#x200B;을(를) 값으로 선택합니다.
 1. **[!UICONTROL except]**(으)로 규칙 사이의 연산자를 선택하십시오.
-1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 ## SMS 게재 만들기{#creating-a-sms-delivery}
 

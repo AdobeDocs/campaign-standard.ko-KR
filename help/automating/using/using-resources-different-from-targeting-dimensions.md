@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
-source-git-commit: 9c14fc3de60d8e0304f8a7ebd46e7be34d2e0499
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 76%
@@ -33,12 +34,12 @@ ht-degree: 76%
 
 **예제 2: &quot;Welcome back !&quot;이라는 레이블이 있는 게재가 타겟팅하지 않은 프로필 확인**
 
-앞의 예제에서는 타겟팅 차원과 다른 리소스를 사용했습니다. 이와 같은 작업은 떨어진 표(앞의 예제에서는 게재 로그)에 **존재하는** 레코드를 찾으려는 경우에만 가능합니다.
+앞의 예제에서는 타겟팅 차원과 다른 리소스를 사용했습니다. 이와 같은 작업은 떨어진 테이블(앞의 예제에서는 게재 로그)에 **존재하는** 레코드를 찾으려는 경우에만 가능합니다.
 
-떨어진 표에 **존재하지 않는** 레코드(예: 특정 게재의 대상이 아닌 프로필)를 찾으려면 리소스와 타겟팅 차원이 동일해야 합니다. 해당 레코드가 떨어진 표(게재 로그)에 존재하지 않기 때문입니다.
+떨어진 테이블에 **존재하지 않는** 레코드(예: 특정 게재의 대상이 아닌 프로필)를 찾으려면 리소스와 타겟팅 차원이 동일해야 합니다. 해당 레코드가 떨어진 테이블(게재 로그)에 존재하지 않기 때문입니다.
 
 * 이 경우 프로필을 타겟팅하려고 합니다. 타겟팅 차원을 **[!UICONTROL Profiles (profile)]**(으)로 설정합니다 .
-* 선택한 프로필을 게재의 레이블에 따라 필터링하려고 합니다. 게재 로그 표에 없는 레코드를 찾고 있으므로, 게재 로그에서 직접 필터링할 수 없습니다. 따라서 리소스를 **[!UICONTROL Profile (profile)]**(으)로 설정하고 프로필 표에 쿼리를 작성합니다.
+* 선택한 프로필을 게재의 레이블에 따라 필터링하려고 합니다. 게재 로그 테이블에 없는 레코드를 찾고 있으므로, 게재 로그에서 직접 필터링할 수 없습니다. 따라서 리소스를 **[!UICONTROL Profile (profile)]**(으)로 설정하고 프로필 테이블에 쿼리를 작성합니다.
 
 ![](assets/targeting_dimension8.png)
 

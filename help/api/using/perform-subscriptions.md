@@ -2,10 +2,11 @@
 title: 구독 수행
 description: API를 사용하여 구독을 수행하는 방법 알아보기
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 ## 방법 1: 서비스에 프로필 가입
 
-프로필을 검색하려면 GET 요청을 수행하십시오.
+GET 요청을 수행하여 프로필을 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +41,7 @@ ht-degree: 0%
   }
 ```
 
-페이로드 내에 원하는 서비스 기본 키가 있는 구독 URL에 대해 POST 요청을 수행합니다.
+페이로드 내에 원하는 서비스 기본 키를 사용하여 구독 URL에 대한 POST 요청을 수행합니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -69,7 +70,7 @@ ht-degree: 0%
 
 ## 방법 2: 서비스 가입자에 프로필 추가
 
-서비스를 검색하려면 GET 요청을 수행하십시오.
+GET 요청을 수행하여 서비스를 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -93,7 +94,7 @@ ht-degree: 0%
   },
 ```
 
-페이로드 내에 원하는 POST 기본 키를 사용하여 구독 URL에 대한 프로필 요청을 수행합니다.
+페이로드 내에 원하는 프로필 기본 키를 사용하여 구독 URL에 대한 POST 요청을 만듭니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \

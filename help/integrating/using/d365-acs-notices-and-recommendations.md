@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2523'
 ht-degree: 1%
@@ -23,7 +24,7 @@ ht-degree: 1%
 
 데이터 무결성을 유지하기 위해 Dynamics 365에서 연락처가 삭제될 때 Campaign에 프로필 삭제 호출을 발행하도록 통합을 선택적으로 구성할 수 있습니다. 그러나 프로필 삭제는 개인 정보 삭제와 다릅니다. Campaign에서 개인 정보를 삭제하면 Campaign 프로필 레코드와 관련 로그 항목이 제거됩니다. 반면 일반 프로필을 삭제하면 Campaign 프로필 레코드만 삭제되고 나머지 항목은 Campaign 로그에 남습니다. 통합에서 프로필 삭제 기능이 활성화된 경우 데이터 주체 개인 정보 보호 요청을 제대로 처리하려면 추가 단계가 뒤따라야 합니다. 아래 [개인 정보 보호 섹션](#manage-privacy-requests)의 단계를 참조하세요.
 
-## 개인 정보 보호{#acs-msdyn-manage-privacy}
+## 개인 정보{#acs-msdyn-manage-privacy}
 
 이 통합은 Microsoft Dynamics 365와 Adobe Campaign Standard 간에 최종 사용자 데이터를 전송하도록 설계되었습니다. 이 데이터에는 최종 사용자 데이터에 포함된 개인 정보가 포함됩니다.  회사는 데이터 컨트롤러로서 개인 데이터의 수집 및 사용에 적용되는 개인정보 보호 법률 및 규정을 준수할 책임이 있습니다.
 
@@ -50,7 +51,7 @@ Dynamics 365에서 연락처가 삭제될 때 Campaign에 대해 정기적인 �
 
 ## 옵트아웃 {#opt-out}
 
-Microsoft Dynamics 365와 Campaign의 옵트아웃 속성 차이 및 각 고객의 비즈니스 요구 사항 차이로 인해 옵트아웃 매핑은 고객이 완료할 수 있는 연습으로 남았습니다.  최종 사용자 옵트아웃 환경 설정이 유지되고 옵트아웃한 채널을 통해 커뮤니케이션을 받지 않도록 시스템 간에 옵트아웃이 제대로 매핑되도록 하는 것이 중요합니다.
+Microsoft Dynamics 365와 Campaign 간의 옵트아웃 속성 차이와 각 고객의 비즈니스 요구 사항 차이로 인해 옵트아웃 매핑은 고객이 완료할 수 있는 연습으로 남겨졌습니다.  최종 사용자 옵트아웃 환경 설정이 유지되고 옵트아웃한 채널을 통해 커뮤니케이션을 받지 않도록 시스템 간에 옵트아웃이 제대로 매핑되도록 하는 것이 중요합니다.
 
 옵트아웃 매핑에는 다음 항목만 사용할 수 있습니다.
 
@@ -64,9 +65,9 @@ Dynamics 365에서 대부분의 옵트아웃 필드에는 &quot;donot&quot; 접�
 
 통합을 프로비저닝할 때 비즈니스에 필요한 옵트아웃 구성을 지정할 수 있습니다.
 
-* **단방향(Microsoft Dynamics 365에서 Campaign으로)**: Dynamics 365가 옵트아웃에 대한 올바른 원본입니다. 옵트아웃 속성은 Dynamics 365에서 Campaign Standard으로 한 방향으로 동기화됩니다.
-* **단방향(Microsoft Dynamics 365에 대한 캠페인)**: Campaign Standard은 옵트아웃에 대한 신뢰할 수 있는 소스입니다. 옵트아웃 속성은 Campaign Standard에서 Dynamics 365로 한 방향으로 동기화됩니다.
-* **양방향**: Dynamics 365와 Campaign Standard은 모두 올바른 원본입니다. 옵트아웃 속성은 Campaign Standard과 Dynamics 365 간에 양방향으로 동기화됩니다.
+* **단방향(Microsoft Dynamics 365에서 Campaign으로)**: Dynamics 365는 옵트아웃에 대한 신뢰할 수 있는 소스입니다. 옵트아웃 속성은 Dynamics 365에서 Campaign Standard으로 한 방향으로 동기화됩니다.
+* **단방향(Microsoft Dynamics 365에 대한 캠페인)**: Campaign Standard은 옵트아웃에 대한 올바른 소스입니다. 옵트아웃 속성은 Campaign Standard에서 Dynamics 365로 한 방향으로 동기화됩니다.
+* **양방향**: Dynamics 365와 Campaign Standard은 모두 신뢰할 수 있는 소스입니다. 옵트아웃 속성은 Campaign Standard과 Dynamics 365 간에 양방향으로 동기화됩니다.
 
 또는 시스템 간의 옵트아웃 동기화를 관리하는 별도의 프로세스가 있는 경우 통합의 옵트아웃 데이터 흐름이 비활성화될 수 있습니다.
 
@@ -78,7 +79,7 @@ Dynamics 365에서 대부분의 옵트아웃 필드에는 &quot;donot&quot; 접�
 >
 >여기서 변경하기 전에 Adobe Campaign에서 기본적이고 구체적인 유형화 규칙을 검토하고 업데이트하여 그러한 변경 사항이 모든 발신 통신에 올바르게 적용되도록 하십시오. 예를 들어 옵트아웃 환경 설정에 대한 모든 매핑이 수신자의 의도/커뮤니케이션 선택 사항을 정확하게 반영하고 고객 주문 확인과 같은 관계 또는 트랜잭션 메시지의 전달을 실수로 중단하지 않도록 하십시오.
 
-**양방향** 또는 **단방향(Microsoft Dynamics 365에 대한 캠페인)** 옵트아웃 구성을 선택한 경우 Campaign 옵트아웃 데이터는 주기적으로 워크플로우를 통해 Campaign SFTP 저장소 영역으로 내보내집니다(&quot;아래 캠페인 SFTP 사용&quot; 참조). Campaign 옵트아웃 워크플로우가 실행되지 않는 경우, 누락된 옵트아웃 동기화를 줄이기 위해 가능한 한 빨리 수동으로 다시 시작해야 합니다.
+**양방향** 또는 **단방향(Microsoft Dynamics 365에 대한 캠페인)** 옵트아웃 구성을 선택한 경우 캠페인 옵트아웃 데이터는 주기적으로 워크플로우를 통해 Campaign SFTP 저장소 영역으로 내보내집니다(&quot;아래 캠페인 SFTP 사용&quot; 참조). Campaign 옵트아웃 워크플로우가 실행되지 않는 경우, 누락된 옵트아웃 동기화를 줄이기 위해 가능한 한 빨리 수동으로 다시 시작해야 합니다.
 
 >[!IMPORTANT]
 >
@@ -88,7 +89,7 @@ Dynamics 365에서 대부분의 옵트아웃 필드에는 &quot;donot&quot; 접�
 
 아래 사용 사례에서 통합은 Campaign SFTP 스토리지를 활용해야 합니다.  SFTP 계정에 이러한 사용 사례를 수용할 수 있는 적절한 저장소 용량이 있는지 확인해야 합니다. 라이선스가 부여된 SFTP 스토리지 용량을 초과하면 Campaign, 통합 및/또는 SFTP 계정의 기능 사용에 심각한 지장이 있을 수 있습니다.
 
-| 활용 사례 | 설명 |
+| 사용 사례 | 설명 |
 |---|---|
 | 양방향 및 단방향(Microsoft Dynamics 365에 대한 캠페인) | 양방향 및 단방향(Microsoft Dynamics 365에 대한 캠페인) 옵트아웃 데이터 흐름은 Campaign SFTP 저장소를 활용합니다. Campaign 워크플로우는 증분 변경 사항을 SFTP 폴더로 내보냅니다. 여기에서 통합이 레코드와 프로세스를 선택합니다. |
 | 옵트아웃 로그 | 커넥터의 출력 로그는 통합 문제를 해결할 때 유용합니다. 출력 로그를 설정/해제할 수 있습니다. |
@@ -96,7 +97,7 @@ Dynamics 365에서 대부분의 옵트아웃 필드에는 &quot;donot&quot; 접�
 
 >[!IMPORTANT]
 >
->SFTP 폴더에서 액세스하고 다운로드하는 정보는 사용자가 담당합니다. 정보에 개인 데이터가 포함되어 있는 경우 귀하는 해당 개인 정보 보호 법률 및 규정을 준수할 책임이 있습니다. [자세히 알아보기](#acs-msdyn-manage-privacy).
+>SFTP 폴더에서 액세스하고 다운로드하는 정보는 사용자가 담당합니다. 정보에 개인 데이터가 포함되어 있는 경우 귀하는 해당 개인 정보 보호 법률 및 규정을 준수할 책임이 있습니다. [자세히 알아보기](#acs-msdyn-manage-privacy)
 
 ## 데이터 관리
 
@@ -106,7 +107,7 @@ Dynamics 365에서 대부분의 옵트아웃 필드에는 &quot;donot&quot; 접�
 
 이 통합에서는 Campaign의 **[!UICONTROL externalId]** 필드를 사용하여 Campaign 프로필 레코드를 Dynamics 365 연락처 레코드와 동기화하므로 Microsoft Dynamics 365에서 동기화할 레코드에 대해 이 Campaign 필드(**[!UICONTROL externalId]**)를 Microsoft Dynamics 365 **[!UICONTROL contactId]**(으)로 채워야 합니다.  사용자 지정 엔터티도 Microsoft Dynamics 365 고유 ID를 사용하여 동기화됩니다. Campaign 사용자 지정 엔티티는 이 ID 속성을 테이블 열로 포함해야 합니다. externalId 열은 이 속성 값을 저장하는 데 사용할 수 있지만 Campaign 사용자 지정 엔터티에 필요하지 않습니다.
 
-Microsoft Dynamics 365는 여전히 신뢰할 수 있는 소스이며 통합이 Dynamics 365측의 업데이트를 감지하므로 Campaign 프로필 데이터를 덮어쓸 수 있습니다.  기존 배포에 따라 통합을 활성화하는 데 다른 단계가 필요할 수도 있습니다. 따라서 Adobe 기술 담당자와 긴밀히 협력하는 것이 좋습니다.
+Microsoft Dynamics 365는 여전히 신뢰할 수 있는 소스이며, 통합이 Dynamics 365측의 업데이트를 감지하므로 Campaign 프로필 데이터를 덮어쓸 수 있습니다.  기존 배포에 따라 통합을 활성화하는 데 다른 단계가 필요할 수도 있습니다. 따라서 Adobe 기술 담당자와 긴밀히 협력하는 것이 좋습니다.
 
 >[!NOTE]
 >
@@ -114,7 +115,7 @@ Microsoft Dynamics 365는 여전히 신뢰할 수 있는 소스이며 통합이 
 
 ### 데이터 동기화 빈도
 
-통합은 Microsoft Dynamics 365에서 업데이트가 발생한 직후 검색 및 처리 &quot;큐&quot;에 추가할 수 있는 아키텍처를 사용합니다(즉, 일괄 처리가 아닌 스트리밍). 이러한 이유로, 데이터 흐름 실행 빈도 또는 스케줄을 지정할 필요가 없다.
+통합은 Microsoft Dynamics 365에서 업데이트가 발생한 후 바로 &quot;큐&quot; 처리에 업데이트를 감지하고 추가할 수 있는 아키텍처를 사용합니다(즉, 일괄 처리가 아닌 스트리밍). 이러한 이유로, 데이터 흐름 실행 빈도 또는 스케줄을 지정할 필요가 없다.
 
 Dynamics 365의 옵트아웃 데이터 흐름은 예외입니다. 이러한 옵트아웃 구성의 경우 업데이트된 Campaign 레코드는 하루에 한 번 Campaign 워크플로우를 통해 SFTP로 내보내지며, 이후 통합 도구가 파일을 읽고 레코드를 처리합니다.
 
@@ -122,11 +123,11 @@ Dynamics 365의 옵트아웃 데이터 흐름은 예외입니다. 이러한 옵�
 
 EMEA 또는 APAC 지역에 있는 경우 이 통합의 일부로 일부 데이터가 미국에서 처리됩니다. 자세한 정보는 [이 섹션](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)을 참조하십시오.
 
-## 보호 기능 및 제한 사항
+## 가드레일 및 제한 사항
 
 >[!IMPORTANT]
 >
->부품에 대한 특정 작업(예: 레코드의 초기 수집, 레코드 데이터 재생 등) 이로 인해 Microsoft Dynamics 365에서 Adobe Campaign 인스턴스로 많은 양의 레코드가 수집될 수 있습니다. 성능 문제의 위험을 줄이려면 모든 Campaign 프로세스를 중지하는 것이 좋습니다(예: 마케팅 활동 없음, 워크플로우 실행 없음 등) 대량의 레코드가 Campaign에 수집될 때까지.
+>특정 작업(예: 레코드의 초기 수집, 레코드 데이터 재생 등)을 수행하면 Microsoft Dynamics 365에서 Adobe Campaign 인스턴스로 많은 레코드가 수집될 수 있습니다. 성능 문제의 위험을 줄이려면 많은 양의 레코드가 Campaign에 수집될 때까지 모든 캠페인 프로세스(예: 마케팅 활동 없음, 워크플로우 실행 없음 등)를 중지하는 것이 좋습니다.
 
 ### 사용자 지정 엔티티
 
@@ -146,11 +147,11 @@ EMEA 또는 APAC 지역에 있는 경우 이 통합의 일부로 일부 데이�
 
 * 숨겨진 하위 레코드가 있고 이 레코드에 액세스할 수 없는 상황이 발생하는 경우 일시적으로 카디널리티 링크 형식을 **0 또는 1개의 카디널리티 단순 링크**(으)로 변경하여 해당 레코드에 액세스할 수 있습니다.
 
-Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 섹션[&#128279;](../../developing/using/key-steps-to-add-a-resource.md)에서 을(를) 찾을 수 있습니다.
+Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 섹션[에서 ](../../developing/using/key-steps-to-add-a-resource.md)을(를) 찾을 수 있습니다.
 
 ### 통합 가드 레일
 
-이 통합을 사용하려면 다음 보호 기능을 고려해야 합니다. 이 보호 기능을 초과했다고 생각되는 경우 Adobe 기술 담당자에게 문의하십시오.
+이 통합을 사용하려면 다음 보호 기능을 고려해야 합니다. 이러한 보호 기능을 초과했다고 생각되는 경우 Adobe 기술 담당자에게 문의하십시오.
 
 * 통합에서 생성된 엔진 호출 볼륨을 지원하려면 적절한 Campaign 패키지에 라이선스를 부여해야 합니다. 라이선스가 부여된 엔진 호출 볼륨을 초과하면 Campaign 성능이 저하될 수 있습니다.
 
@@ -162,7 +163,7 @@ Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 
 
   전체 Campaign 엔진 호출 볼륨을 예측할 때는 랜딩 페이지, WebApps, JSSP, API, 모바일 앱 등록 등을 포함하여 엔진 호출의 다른 소스를 고려하는 것이 중요합니다.
 
-  여기에서 Adobe Campaign Standard 패키지 정보를 보십시오. [https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)
+  여기에서 Adobe Campaign Standard 패키지 정보를 보십시오. [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)
 
 * 통합은 Campaign의 리소스에 대한 초기 동기화에 대해 최대 1,500만 개의 총 레코드를 지원합니다. 증분 동기화는 Adobe Campaign Standard 패키지에 의해 제한됩니다.
 
@@ -174,7 +175,7 @@ Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 
 
 * 통합은 사용자 지정 리소스당 최대 5개의 연결된 열을 지원합니다. 사용자 지정 리소스 간에 여러 열을 연결하면 성능에 큰 영향을 줄 수 있습니다. **0 또는 1개의 카디널리티 단순 링크**&#x200B;가 **1개의 카디널리티 단순 링크**&#x200B;보다 선호됩니다.
 
-* 이 통합은 기본 Microsoft Dynamics 365 데이터 유형(부울, 정수, 십진수, 실수, 문자열, 날짜 시간, 날짜)과 Adobe Campaign Standard 데이터 유형(정수, 부울, 부동, 실수, 날짜, 날짜, 날짜, 날짜, 시간, 문자열) 간의 변환을 지원합니다. 고급 데이터 유형은 문자열로 해석되고 그대로 동기화됩니다.
+* 이 통합은 기본 Microsoft Dynamics 365 데이터 유형(부울, 정수, 십진수, Double, 문자열, DateTime, 날짜)과 Adobe Campaign Standard 데이터 유형(정수, 부울, float, double, 날짜, datetime, 문자열) 간의 변환을 지원합니다. 고급 데이터 유형은 문자열로 해석되고 그대로 동기화됩니다.
 
 * Adobe과 고객 간에 온보딩 유지 관리 기간을 설정해야 할 수 있습니다.
 
@@ -186,7 +187,7 @@ Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 
 
 ### 통합 경계
 
-이 통합은 Microsoft Dynamics 365와 Campaign 간의 일반적인 데이터 이동 사용 사례를 해결하기 위해 고안되었지만 각 고객에게만 해당되는 모든 사용 사례를 해결하기 위해 고안된 것은 아닙니다.
+이 통합은 Microsoft Dynamics 365와 Campaign 간의 일반적인 데이터 이동 사용 사례를 해결하기 위해 고안되었지만 각 고객에게만 해당되는 모든 사용 사례를 해결하기 위한 것은 아닙니다.
 
 * 통합은 개인 정보(예: GDPR) 삭제를 발행하지 않습니다. 최종 사용자 개인 정보 보호 요청을 이행하는 책임은 고객에게 있습니다. 이러한 요청은 Campaign(Adobe Experience Platform Privacy Service을 통해)과 Dynamics 365에서 독립적으로 수행되어야 합니다. 원하는 경우 통합에서 데이터 동기화에 도움이 되도록 정기적인 삭제를 실행할 수 있습니다.   자세한 내용은 [개인 정보 섹션](#manage-privacy-requests)을(를) 검토하세요.
 

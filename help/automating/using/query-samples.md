@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 76%
@@ -64,7 +65,7 @@ ht-degree: 76%
 
 다음 예제에서는 사서함이 가득 차서 게재에 실패한 프로필을 필터링하도록 구성한 쿼리 활동을 보여줍니다. 이 쿼리는 관리 권한이 있고 **[!UICONTROL All (all)]** 조직 단위에 속하는 사용자만 사용할 수 있습니다([이 섹션](../../administration/using/organizational-units.md) 참조).
 
-1. **[!UICONTROL Delivery logs]** 리소스를 선택하여 게재 로그 표에서 직접 필터링합니다([타겟팅 차원과 다른 리소스 사용](../../automating/using/using-resources-different-from-targeting-dimensions.md) 참조).
+1. **[!UICONTROL Delivery logs]** 리소스를 선택하여 게재 로그 테이블에서 직접 필터링합니다([타겟팅 차원과 다른 리소스 사용](../../automating/using/using-resources-different-from-targeting-dimensions.md) 참조).
 
    ![](assets/query_sample_failure1.png)
 

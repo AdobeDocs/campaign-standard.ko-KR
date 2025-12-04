@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -89,7 +90,7 @@ ht-degree: 93%
 
    **[!UICONTROL Column definition]** 탭에서는 각 열의 데이터 구조를 정확히 지정할 수 있습니다. 이를 통해 오류가 없는 데이터를 가져오고(예를 들면 null 관리 사용) 이 데이터를 Adobe Campaign 데이터베이스에 이미 있는 유형에 맞추어 향후 작업을 용이하게 할 수 있습니다.
 
-   예를 들어 열의 레이블을 변경하고 그 유형(문자열, 정수, 날짜 등)을 선택할 수 있습니다. 오류 처리를 지정할 수도 있습니다.
+   예를 들어 열의 레이블을 변경하거나, 유형(문자열, 정수, 날짜 등)을 선택하거나, 오류 처리를 지정할 수도 있습니다.
 
    자세한 내용은 [열 포맷](#column-format) 섹션을 참조하십시오.
 

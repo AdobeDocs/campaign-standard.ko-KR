@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 90%
@@ -36,7 +37,7 @@ ht-degree: 90%
 **[!UICONTROL Query]** 활동은 다양한 용도로 사용할 수 있습니다.
 
 * 메시지, 대상자 등의 타겟을 정의하기 위한 개인 세그먼트화.
-* 전체 Adobe Campaign 데이터베이스 표의 데이터를 보강하는 용도.
+* 전체 Adobe Campaign 데이터베이스 테이블의 데이터를 보강하는 용도.
 * 데이터 내보내기.
 
 ## 구성 {#configuration}
@@ -99,7 +100,7 @@ ht-degree: 90%
 
 ![](assets/targeting_dimension5.png)
 
-타겟팅 차원 및 리소스는 기본적으로 프로필을 타겟팅하도록 설정되어 있습니다. 하지만 떨어진 표에 있는 특정 레코드를 검색하려는 경우, 타겟팅 차원과 다른 리소스를 사용하면 유용할 수 있습니다.
+타겟팅 차원 및 리소스는 기본적으로 프로필을 타겟팅하도록 설정되어 있습니다. 하지만 떨어진 테이블에 있는 특정 레코드를 검색하려는 경우, 타겟팅 차원과 다른 리소스를 사용하면 유용할 수 있습니다.
 
 자세한 내용은 사용 사례 [타깃팅 차원과 다른 리소스 사용](../../automating/using/using-resources-different-from-targeting-dimensions.md)을 참조하세요.
 

@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 35%
@@ -59,7 +60,7 @@ Adobe Campaign을 사용하면 인바운드 데이터에 대한 세트를 처리
 
 식별되고 수집된 데이터는 대상 구성을 최적화하기 위해 보강, 집계 및 조작될 수 있다. 데이터 마트에서 모델링되지 않은 데이터를 포함하여 타겟팅 프로세스를 단순화하고 최적화할 수 있습니다.
 
-**[!UICONTROL Query]** 및 **[!UICONTROL Incremental query]** 활동의 **[!UICONTROL Additional data]** 탭에서 쿼리로 타겟팅한 데이터를 보강하고 이 데이터를 다음 워크플로우 활동으로 전송하여 활용할 수 있습니다. 특히 다음을 추가할 수 있습니다.
+**[!UICONTROL Additional data]** 및 **[!UICONTROL Query]** 활동의 **[!UICONTROL Incremental query]** 탭에서 쿼리로 타겟팅한 데이터를 보강하고 이 데이터를 다음 워크플로우 활동으로 전송하여 활용할 수 있습니다. 특히 다음을 추가할 수 있습니다.
 
 * 단순 데이터
 * 집계

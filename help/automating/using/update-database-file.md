@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 11%
@@ -18,7 +19,7 @@ ht-degree: 11%
 
 # 외부 데이터로 데이터베이스 업데이트 {#update-database-file}
 
-다음 예제에서는 **[!UICONTROL Load file]** 활동 다음에 **[!UICONTROL Update data]** 활동을 구성하는 방법을 보여 줍니다. 이 워크플로우의 목적은 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 것입니다.
+다음 예제에서는 **[!UICONTROL Update data]** 활동 다음에 **[!UICONTROL Load file]** 활동을 구성하는 방법을 보여 줍니다. 이 워크플로우의 목적은 파일에서 복구한 데이터로 Adobe Campaign 데이터베이스에 프로필을 추가하거나 업데이트하는 것입니다.
 
 이 예제에서 사용되는 조정 키는 **전자 메일 주소**&#x200B;입니다. [파일 로드](../../automating/using/load-file.md) 활동에 로드된 파일은 다음 예제 데이터가 포함된 **.txt** 형식 파일입니다.
 

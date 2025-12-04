@@ -3,10 +3,11 @@ title: Adobe Experience Platform 대상자를 Campaign으로 수집
 description: Adobe Experience Platform 대상을 Campaign Standard으로 수집하는 방법에 대해 알아봅니다.
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 7%
@@ -17,17 +18,17 @@ ht-degree: 7%
 
 Adobe Experience Platform 대상을 Campaign으로 수집하여 워크플로우에서 사용하려면 먼저 Adobe Campaign을 Adobe Experience Platform **대상**(으)로 연결하고 내보낼 세그먼트로 구성해야 합니다.
 
-대상이 구성되면 데이터가 스토리지 위치로 내보내지며, 이를 수집하려면 Campaign Standard에서 전용 워크플로우를 구축해야 합니다.
+대상이 구성되면 데이터가 저장소 위치로 내보내지므로 이를 수집하려면 Campaign Standard에서 전용 워크플로우를 빌드해야 합니다.
 
 ## Adobe Campaign을 대상으로 연결
 
-Experience Platform Adobe에서 내보낸 세그먼트에 대한 저장소 위치를 선택하여 Adobe Campaign과의 연결을 구성합니다. 또한 이 단계를 통해 내보낼 세그먼트를 선택하고 포함할 추가 XDM 필드를 지정할 수 있습니다.
+Adobe Experience Platform에서 내보낸 세그먼트에 대한 저장소 위치를 선택하여 Adobe Campaign과의 연결을 구성합니다. 또한 이 단계를 통해 내보낼 세그먼트를 선택하고 포함할 추가 XDM 필드를 지정할 수 있습니다.
 
-자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=ko)를 참조하세요.
+자세한 내용은 [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html)를 참조하세요.
 
 대상이 구성되면 Adobe Experience Platform은 사용자가 제공한 저장소 위치에 탭으로 구분된 .txt 또는 .csv 파일을 생성합니다. 이 작업은 24시간에 한 번 예약되고 수행됩니다.
 
-이제 세그먼트를 Campaign에 수집하도록 Campaign Standard 워크플로우를 구성할 수 있습니다.
+이제 Campaign Standard 워크플로우를 구성하여 세그먼트를 Campaign에 수집할 수 있습니다.
 
 ## Campaign Standard에서 가져오기 워크플로우 만들기
 

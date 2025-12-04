@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 8%
@@ -22,9 +23,9 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
-> Adobe은 고객이 20개 이상의 활성 워크플로우 실행을 동시에 실행하지 않도록 하고, 시간에 따라 워크플로우 실행의 우선 순위를 지정하고 분산하도록 권장합니다. 자세한 내용은 [이 페이지](../../automating/using/best-practices-workflows.md)에 제공된 모범 사례를 참조하세요.
+> Adobe에서는 고객이 20개 이상의 활성 워크플로우 실행을 동시에 실행하지 않도록 하고, 시간에 따라 워크플로우 실행의 우선 순위를 지정하고 분산하도록 권장합니다. 자세한 내용은 [이 페이지](../../automating/using/best-practices-workflows.md)에 제공된 모범 사례를 참조하세요.
 
-실행 관련 작업(시작, 중지, 일시 중지 등) **비동기** 프로세스입니다. 명령이 저장되며 서버에서 해당 명령을 적용할 수 있게 되면 적용됩니다.
+실행 관련 작업(시작, 중지, 일시 중지 등)은 **비동기** 프로세스입니다. 명령이 저장되며 서버에서 해당 명령을 적용할 수 있게 되면 적용됩니다.
 
 워크플로우에서 각 활동의 결과는 일반적으로 화살표로 표시되는 전환을 통해 다음 활동으로 전송됩니다.
 
@@ -42,7 +43,7 @@ ht-degree: 8%
 
 전환을 열어 워크플로를 실행하는 중 또는 후에 전송된 데이터가 올바른지 확인할 수 있습니다. 데이터 및 데이터 구조를 볼 수 있습니다.
 
-기본적으로 워크플로우의 마지막 전환에 대한 세부 정보에만 액세스할 수 있습니다. 이전 활동의 결과에 액세스하려면 워크플로우를 시작하기 전에 워크플로우 속성의 **[!UICONTROL Execution]** 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택해야 합니다.
+기본적으로 워크플로우의 마지막 전환에 대한 세부 정보에만 액세스할 수 있습니다. 이전 활동의 결과에 액세스하려면 워크플로우를 시작하기 전에 워크플로우 속성의 **[!UICONTROL Keep interim results]** 섹션에서 **[!UICONTROL Execution]** 옵션을 선택해야 합니다.
 
 >[!NOTE]
 >

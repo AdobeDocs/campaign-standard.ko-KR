@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 313dbb7f-9cf7-43d4-ab6d-f496b04d92b8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 12%
@@ -48,7 +49,7 @@ ht-degree: 12%
 }
 ```
 
-자세한 정보를 검색하려면 URL에 대해 GET 요청을 수행하십시오.
+자세한 정보를 검색하려면 URL에서 GET 요청을 수행하십시오.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \

@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 59%
@@ -19,7 +19,7 @@ ht-degree: 59%
 
 ## 게재 실패 기본 정보 {#about-delivery-failures}
 
-프로필에 게재를 보낼 수 없는 경우 원격 서버는 오류 메시지를 자동으로 전송합니다. 오류 메시지는 Adobe Campaign 플랫폼에서 선택하며 이메일 주소 또는 전화 번호 격리 여부를 결정할 수 있습니다. [반송 메일 조건](#bounce-mail-qualification)을 참조하십시오.
+프로필에 게재를 보낼 수 없는 경우 원격 서버는 오류 메시지를 자동으로 전송합니다. 오류 메시지는 Adobe Campaign 플랫폼에서 선택하며 이메일 주소 또는 전화 번호 격리 여부를 결정할 수 있습니다. [바운스 이메일 선별](#bounce-mail-qualification)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 59%
 
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#metrics-for-deliverability)
+* [바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 메시지에 대한 게재 실패 식별 {#identifying-delivery-failures-for-a-message}
 
@@ -64,7 +64,7 @@ ht-degree: 59%
 | **[!UICONTROL Mailbox full]** | 소프트 | 이 사용자의 사서함이 가득 차서 더 이상의 메시지를 받을 수 없습니다. 이 주소를 격리 목록에서 제거하여 다시 시도할 수 있습니다. 30일 후 자동으로 제거됩니다. 격리된 주소 목록에서 주소를 자동으로 제거하려면, **[!UICONTROL Database cleanup]** 기술 워크플로를 시작해야 합니다. |
 | **[!UICONTROL Refused]** | 소프트/하드 | 스팸 보고서로 보안 피드백이 발생하여 주소가 격리되었습니다. 제공자가 반환하는 오류에 따라 Campaign이 격리 상태를 정당화하는 오류를 수신할 때까지 또는 오류 수가 5개에 도달할 때까지 주소가 직접 격리로 전송되거나 게재를 다시 시도합니다. |
 | **[!UICONTROL Duplicate]** | 무시됨 | 주소가 세분화에서 이미 감지되었습니다. |
-| **[!UICONTROL Not defined]** | 소프트 | 오류가 증가하지 않았기 때문에 주소가 유효합니다. | 아직. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. |
+| **[!UICONTROL Not defined]** | 소프트 | 오류가 아직 증가하지 않았기 때문에 주소가 유효합니다. 이 유형의 오류는 서버에서 새 오류 메시지를 보낼 때 발생합니다. 이는 격리된 오류일 수 있지만 다시 발생하면 오류 카운터가 증가하여 기술 팀에게 알립니다. |
 | **[!UICONTROL Error ignored]** | 무시됨 | 주소는 허용 목록에 추가하다에 있으며 어떤 경우에든 이메일이 전송됩니다. |
 | **[!UICONTROL Address on denylist]** | 하드 | 발송 시 주소가 차단 목록에 추가하다에 추가되었습니다. |
 | **[!UICONTROL Account disabled]** | 소프트/하드 | IAP(인터넷 접속 제공자)가 장기간 동안 비활성화 상태를 감지하면 사용자의 계정을 닫을 수 있습니다. 그러면 사용자 주소로 게재할 수 없습니다. 소프트 또는 하드 유형은 받은 오류 유형에 따라 달라집니다. 6개월 동안 활동이 없어 계정이 일시적으로 비활성화되고 아직 활성화될 수 있는 경우 **[!UICONTROL Erroneous]** 상태가 할당되고 게재를 다시 시도합니다. 수신된 오류가 계정이 영구적으로 비활성화되었음을 나타내는 경우 해당 계정은 즉시 격리로 전송됩니다. |
@@ -75,8 +75,8 @@ ht-degree: 59%
 
 
 **관련 항목:**
-* [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#hard-bounces)
-* [소프트 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#soft-bounces)
+* [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [소프트 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 일시적 게재 실패 후 다시 시도 {#retries-after-a-delivery-temporary-failure}
 
@@ -90,13 +90,13 @@ ht-degree: 59%
 
 >[!IMPORTANT]
 >
->**이제 Campaign 게재의&#x200B;**&#x200B;[!UICONTROL Delivery duration]&#x200B;**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+>**이제 Campaign 게재의&#x200B;**[!UICONTROL Delivery duration]**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
 예를 들어 게재를 위한 다시 시도가 1일 후 중지되도록 하려면 게재 기간을 **1d**(으)로 설정할 수 있으며 다시 시도 큐의 메시지는 1일 후 제거됩니다.
 
 >[!NOTE]
 >
->메시지가 최대 3.5일 동안 다시 시도 큐에 있고 배달에 실패하면 시간이 초과되고 [게재 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs)에서 **[!UICONTROL Failed]**(으)로 <!--from **[!UICONTROL Sent]**--> 상태가 업데이트됩니다.
+>메시지가 최대 3.5일 동안 다시 시도 큐에 있고 배달에 실패하면 시간이 초과되고 <!--from **[!UICONTROL Sent]**-->게재 로그&#x200B;**[!UICONTROL Failed]**&#x200B;에서 [(으)로 ](../../sending/using/monitoring-a-delivery.md#delivery-logs) 상태가 업데이트됩니다.
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -106,7 +106,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 게재가 전송되면 즉시(동기 오류) 또는 나중에(비동기 오류) 실패할 수 있습니다.
 
 * **동기 오류**: Adobe Campaign 게재 서버가 접속한 원격 서버에서 즉시 오류 메시지를 반환하여 게재를 프로필 서버로 보낼 수 없습니다.
-* **비동기 오류**: 반송 메일 또는 SR이 나중에 수신 서버에 의해 다시 전송되었습니다. 게재를 보낸 후 1주일까지 비동기 오류가 발생할 수 있습니다.
+* **비동기 오류**: 바운스 이메일 또는 SR이 나중에 수신 서버에 의해 다시 전송되었습니다. 게재를 보낸 후 1주일까지 비동기 오류가 발생할 수 있습니다.
 
 ## 반송 메일 조건 {#bounce-mail-qualification}
 
@@ -114,11 +114,11 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 >[!NOTE]
 >
->Campaign **[!UICONTROL Message qualification]** 테이블의 반송 조건은 더 이상 사용되지 않습니다.
+>Campaign **[!UICONTROL Message qualification]** 테이블의 바운스 선별은 더 이상 사용되지 않습니다.
 
 비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 왼쪽 상단에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;을(를) 선택하고 **[!UICONTROL Bounce mails]**&#x200B;을(를) 선택하십시오. 이 규칙에 대한 자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#email-processing-rules)을 참조하세요.
 
-바운스 및 다양한 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#metrics-for-deliverability)을 참조하세요.
+바운스 및 다양한 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)을 참조하세요.
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

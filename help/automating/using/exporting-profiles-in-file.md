@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3fc286a9-bba4-4e3d-95cd-600eed4943e7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 68%
@@ -45,7 +46,7 @@ ht-degree: 68%
      ![](assets/wkf_data_export9.png)
 
 1. 활동을 확인합니다.
-1. **[!UICONTROL Extract file]** 활동 뒤에 [파일 전송](../../automating/using/transfer-file.md) 활동을 끌어다 놓아 외부 계정에서 추출 파일을 복구합니다.
+1. [ 활동 뒤에 ](../../automating/using/transfer-file.md)파일 전송&#x200B;**[!UICONTROL Extract file]** 활동을 끌어다 놓아 외부 계정에서 추출 파일을 복구합니다.
 1. 활동을 열고 **[!UICONTROL File upload]** 작업을 선택합니다.
 
    ![](assets/wkf_data_export11.png)

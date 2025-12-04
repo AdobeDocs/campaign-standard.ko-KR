@@ -1,14 +1,15 @@
 ---
-title: Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성
-description: Microsoft Dynamics 365 통합을 위해 Adobe Developer을 구성하는 방법 알아보기
+title: Microsoft Dynamics 365 통합을 위한 Adobe Developer 구성
+description: Microsoft Dynamics 365 통합을 위해 Adobe Developer을 구성하는 방법에 대해 알아봅니다
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -27,15 +28,15 @@ Adobe Campaign Standard에서 &quot;프로필 확장&quot;을 활성화하십시
 
 1. 설정 -> 관리 -> 개발 -> 게시로 이동합니다.
 1. &quot;게시 준비&quot;를 클릭하여 게시를 준비합니다.
-1. 준비가 완료되면 &quot;프로필 및 서비스 확장 API 만들기&quot;를 확인하고 &quot;Publish&quot;를 클릭합니다.
+1. 준비가 완료되면 &quot;프로필 및 서비스 외부 API 만들기&quot;를 확인하고 &quot;게시&quot;를 클릭합니다.
 
-## 구성 Adobe I/O {#adobe-io}
+## Adobe I/O 구성 {#adobe-io}
 
-Adobe I/O을 사용하면 Adobe Campaign Standard 및 기타 Adobe 제품에 대한 API 액세스를 활성화할 수 있습니다.   이 문서에서는 Microsoft Dynamics 365와 Adobe Campaign Standard 통합을 통해 데이터를 동기화할 수 있도록 Adobe I/O을 구성하는 방법에 대해 자세히 설명합니다.
+Adobe I/O을 사용하면 Adobe Campaign Standard 및 기타 Adobe 제품에 대한 API 액세스를 활성화할 수 있습니다.   이 문서에서는 Adobe Campaign Standard과 Microsoft Dynamics 365 간의 통합을 통해 데이터를 동기화할 수 있도록 Adobe I/O을 구성하는 방법에 대해 자세히 설명합니다.
 
 ### 개요
 
-이 문서의 사전 통합 설정을 수행하기 전에 이미 프로비저닝되었으며 조직의 Campaign Standard 인스턴스에 대한 관리자 액세스 권한이 있다고 가정합니다.  이 문제가 발생하지 않은 경우 Adobe 고객 지원 센터에 문의하여 캠페인 프로비저닝을 완료해야 합니다.
+이 문서의 사전 통합 설정을 수행하기 전에 이미 프로비저닝되었으며 조직의 Campaign Standard 인스턴스에 대한 관리자 액세스 권한이 있다고 가정합니다.  이 문제가 발생하지 않은 경우 Adobe 고객 지원 센터에 문의하여 Campaign 프로비저닝을 완료해야 합니다.
 
 >[!CAUTION]
 >
@@ -49,9 +50,9 @@ Adobe I/O을 사용하면 Adobe Campaign Standard 및 기타 Adobe 제품에 대
 
 이렇게 하려면 아래 절차를 따르십시오.
 
-1. [Adobe Developer Console](https://console.adobe.io/home#)(으)로 이동하여 화면 오른쪽 상단의 드롭다운 메뉴에서 Adobe 조직 ID를 선택합니다.
+1. [Adobe Developer Console](https://console.adobe.io/home#)&#x200B;(으)로 이동하여 화면 오른쪽 상단의 드롭다운 메뉴에서 Adobe 조직 ID를 선택합니다.
 
-1. **[!UICONTROL Quick Start]** 아래의 **[!UICONTROL Create new project]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create new project]** 아래의 **[!UICONTROL Quick Start]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/adobeIO1.png)
 
@@ -71,7 +72,7 @@ Adobe I/O을 사용하면 Adobe Campaign Standard 및 기타 Adobe 제품에 대
 
    예: Campaign Standard - your-campaign-tenantID - 관리자
 
-1. **[!UICONTROL Save configured API]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save configured API]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/adobeIO5.png)
 
@@ -93,7 +94,7 @@ Campaign의 사전 통합 설정이 완료되었습니다.
 
 **관련 항목**
 
-* [Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성](../../integrating/using/d365-acs-configure-adobe-io.md)은 통합을 설정하는 다음 단계입니다
+* [Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성](../../integrating/using/d365-acs-configure-adobe-io.md)은(는) 통합 설정의 다음 단계입니다.
 * [통합 셀프 서비스 응용 프로그램 개요](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)에는 통합을 시작하고 실행하는 전체 단계 목록이 포함되어 있습니다.
 * [Adobe Developer - 서비스 계정 통합](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API 액세스 설정](../../api/using/setting-up-api-access.md)

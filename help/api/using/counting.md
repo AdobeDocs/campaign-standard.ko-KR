@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d6354249-3b0d-4532-951f-b0fae953f7e1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 2%
@@ -23,7 +24,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 
 ***샘플 요청***
 
-**messageType** 값이 &quot;sms&quot;인 모든 서비스를 계산하려면 **byChannel** 필터로 GET 요청을 수행하십시오.
+&quot;sms&quot;와 동일한 **messageType** 값이 있는 모든 서비스를 계산하려면 **byChannel** 필터로 GET 요청을 수행하십시오.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -54,7 +55,7 @@ Adobe Campaign REST API는 요청의 레코드 수를 카운트할 수 있습니
 }
 ```
 
-**count** 노드의 URL에 대해 GET 요청을 수행하여 결과 수를 검색합니다.
+**count** 노드의 URL에서 GET 요청을 수행하여 결과 수를 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \

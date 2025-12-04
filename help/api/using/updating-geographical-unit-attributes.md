@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -17,8 +18,8 @@ ht-degree: 0%
 
 # 지리 단위 특성 업데이트 {#managing-geographical-units}
 
-1. 지리적 단위 PKey를 검색하려면 **geoUnitBase** 리소스에 대해 GET 요청을 수행하십시오.
-1. 페이로드에서 업데이트할 속성을 사용하여 지리적 단위에 대한 PATCH 요청을 수행합니다.
+1. **geoUnitBase** 리소스에서 GET 요청을 수행하여 지리적 단위 PKey를 검색합니다.
+1. 페이로드에서 업데이트할 속성을 사용하여 지리적 단위로 PATCH 요청을 수행합니다.
 
 <br/>
 
@@ -50,7 +51,7 @@ ht-degree: 0%
 },
 ```
 
-페이로드에서 업데이트할 속성을 사용하여 지리적 단위에 대한 PATCH 요청을 수행합니다.
+페이로드에서 업데이트할 속성을 사용하여 지리적 단위로 PATCH 요청을 수행합니다.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

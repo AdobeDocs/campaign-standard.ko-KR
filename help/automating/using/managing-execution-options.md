@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 8%
@@ -58,7 +59,7 @@ ht-degree: 8%
 >
 >이 옵션은 워크플로우 성능에 큰 영향을 줄 수 있으므로 제한적으로 사용해야 합니다.
 
-활성화되면 쿼리에 1분 이상 걸리는 경우 워크플로 속성의 **[!UICONTROL Execution]** 섹션에 있는 **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** 옵션이 전체 실행 계획을 기록합니다.
+활성화되면 쿼리에 1분 이상 걸리는 경우 워크플로 속성의 **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** 섹션에 있는 **[!UICONTROL Execution]** 옵션이 전체 실행 계획을 기록합니다.
 
 ![](assets/wkf_diagnostic.png)
 

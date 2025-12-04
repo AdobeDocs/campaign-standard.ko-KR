@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 0%
@@ -23,10 +24,10 @@ ht-degree: 0%
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
-Campaign에 대한 **Microsoft Dynamics 365**
+**Microsoft Dynamics 365에서 Campaign으로**
 * Microsoft Dynamics 365에서 Adobe Campaign으로 *연락처* 보내기
 * *사용자 지정 엔터티*: Microsoft Dynamics 365에서 Adobe Campaign으로 사용자 지정 테이블을 가져옵니다. [자세히 알아보기](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
-* 이를 **수신**(Microsoft Dynamics 365에서 Adobe Campaign으로의 데이터 수신 참조)이라고도 합니다
+* 이를 **수신**(Microsoft Dynamics 365에서 Adobe Campaign으로의 데이터 수신 참조)이라고도 합니다.
 
 Microsoft Dynamics 365에 대한 **캠페인**
 * Adobe Campaign Standard의 이메일 마케팅 이벤트는 Dynamics 365로 전송됩니다(이메일 전송, 열기, 클릭, 바운스). [자세히 알아보기](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
@@ -34,18 +35,18 @@ Microsoft Dynamics 365에 대한 **캠페인**
 
 **옵트인/옵트아웃**
 
-옵트아웃 상태(예: Adobe Campaign)는 Microsoft Dynamics 365에서 차단 목록에 추가하다으로 또는 Adobe Campaign에서 Microsoft Dynamics 365로 동기화할 수 있습니다. 데이터는 또한 양방향으로 동기화(즉, 양방향으로 데이터 흐름)될 수 있다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+옵트아웃 상태(예: Microsoft Dynamics)는 Microsoft Dynamics 365에서 Adobe Campaign으로 또는 Adobe Campaign에서 차단 목록에 추가하다 365로 동기화할 수 있습니다. 데이터는 또한 양방향으로 동기화(즉, 양방향으로 데이터 흐름)될 수 있다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)
 
 >[!IMPORTANT]
 >
->Adobe Campaign Standard 또는 Microsoft Dynamics 365에 변경 내용을 게시하기 전에 **Microsoft Dynamics 365에서 Campaign**&#x200B;으로 워크플로를 중지하는 것이 좋습니다. 이러한 변경 사항에는 현재 통합에서 사용 중인 리소스/엔티티(및 관련 필드), 링크, 식별자 열 등에 대한 업데이트가 포함됩니다. 이렇게 하지 않으면 데이터가 손실되거나 워크플로우가 예기치 않게 중지될 수 있습니다.
+>Microsoft Dynamics Adobe Campaign Standard 또는 Microsoft Dynamics 365에 변경 사항을 게시하기 전에 **Campaign 365에서 Campaign**&#x200B;으로 워크플로우를 중지하는 것이 좋습니다. 이러한 변경 사항에는 현재 통합에서 사용 중인 리소스/엔티티(및 관련 필드), 링크, 식별자 열 등에 대한 업데이트가 포함됩니다. 이렇게 하지 않으면 데이터가 손실되거나 워크플로우가 예기치 않게 중지될 수 있습니다.
 
 ## 워크플로 백로그
 
 이 통합 애플리케이션은 먼저 데이터를 읽은 다음 데이터를 대상에 기록합니다. **[!UICONTROL Backlog]** 열은 큐에 올라가 쓰기 대기 중인 레코드 수를 나타냅니다. 처리할 데이터가 많으면(예: 통합을 처음 실행 중이거나 데이터를 재실행 중인 경우 등) 이 값은 증가할 것으로 예상됩니다.
 
 >[!NOTE]
->Microsoft Dynamics 365 및/또는 Campaign 레코드가 업데이트되지 않는 경우 먼저 대상에 쓰기 대기 중인 레코드가 많은지 확인해야 합니다.
+>Microsoft Dynamics 365 및/또는 Campaign 레코드가 업데이트되지 않는 경우, 먼저 대상에 쓰기 위해 대기 중인 레코드가 많은지 확인해야 합니다.
 >
 
 ## 워크플로 상태 {#workflow-status}

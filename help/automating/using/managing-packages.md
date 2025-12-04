@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 98%
@@ -34,7 +35,7 @@ ht-degree: 98%
 
 ### 표준 패키지 {#standard-packages}
 
-**[!UICONTROL Platform]** 및 **[!UICONTROL Administration]**&#x200B;은(는) 내장 패키지로, 각각 사전 정의된 내보낼 리소스 목록이 들어 있습니다. 읽기 전용 모드로 열 수 있으며 내보내기에만 적합합니다.
+**[!UICONTROL Platform]** 및 **[!UICONTROL Administration]**&#x200B;은(는) 기본 제공 패키지로, 각각 사전 정의된 내보낼 리소스 목록이 들어 있습니다. 읽기 전용 모드로 열 수 있으며 내보내기에만 적합합니다.
 
 ![](assets/packages_14.png)
 

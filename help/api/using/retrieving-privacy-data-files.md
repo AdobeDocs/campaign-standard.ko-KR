@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -25,9 +26,9 @@ ht-degree: 4%
 
 1. **POST** 요청을 수행하여 **type=&quot;access&quot;** 특성을 사용하여 새 요청을 만듭니다. [새 개인 정보 보호 요청 만들기](../../api/using/creating-a-privacy-request.md)를 참조하십시오.
 
-1. 요청에 대한 정보를 검색하려면 **GET** 요청을 수행하십시오.
+1. **GET** 요청을 수행하여 요청에 대한 정보를 검색합니다.
 
-1. 페이로드 내에 개인 정보 보호 요청 내부 이름이 있는 반환된 **privacyRequestData** URL에 대해 **POST** 요청을 수행하여 데이터 파일을 검색하십시오. 예: {&quot;name&quot;:&quot;PT17&quot;}.
+1. 페이로드 내에 개인 정보 보호 요청 내부 이름을 사용하여 반환된 **privacyRequestData** URL에 대해 **POST** 요청을 수행하여 데이터 파일을 검색하십시오. 예: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
@@ -85,7 +86,7 @@ GET 요청을 수행하여 요청에 대한 정보를 검색합니다.
 },
 ```
 
-privacyRequestData URL에 대해 POST 요청을 수행하되, 페이로드 내에 요청 내부 이름이 있어야 합니다.
+privacyRequestData URL에 대해 페이로드 내에 요청 내부 이름이 있는 POST 요청을 수행합니다.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \

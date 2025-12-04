@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 5%
@@ -23,7 +24,7 @@ Adobe Campaign을 사용하면 나중에 사용하기 위해 파일을 통해 �
 
 목록 내보내기 옵션을 사용하면 기본값으로 최대 100,000개의 줄을 내보내고 **Nms_ExportListLimit** 옵션으로 정의할 수 있습니다. 이 옵션은 기능 관리자가 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** 메뉴에서 관리할 수 있습니다.
 
-**[!UICONTROL EXPORT (export)]** 역할을 가진 사용자는 **목록** 모드 보기가 있는 모든 화면에서 목록 내보내기를 사용할 수 있습니다.
+**역할을 가진 사용자는**&#x200B;목록&#x200B;**[!UICONTROL EXPORT (export)]** 모드 보기가 있는 모든 화면에서 목록 내보내기를 사용할 수 있습니다.
 
 1. 선택한 **목록** 화면으로 이동합니다. 예를 들어 테스트 프로필 개요 화면( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** )이 표시됩니다.
 1. 화면이 **목록** 모드에 있는지 확인하십시오.
@@ -80,6 +81,6 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 이 비디오는 목록을 구성하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31899/?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

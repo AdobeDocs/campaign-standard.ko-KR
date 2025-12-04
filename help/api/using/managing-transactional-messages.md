@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -40,7 +41,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalAPI>**: 트랜잭션 메시지 API 끝점입니다.
 
-  트랜잭션 메시지 API 끝점의 이름은 인스턴스 구성에 따라 다릅니다. 값 &quot;mc&quot; 다음에 개인 조직 ID가 오면 해당합니다. 조직 ID로 &quot;geometrixx&quot;를 사용하는 Geometrixx 회사의 예를 살펴보겠습니다. 이 경우 POST 요청은 다음과 같습니다.
+  트랜잭션 메시지 API 끝점의 이름은 인스턴스 구성에 따라 다릅니다. 값 &quot;mc&quot; 다음에 개인 조직 ID가 오면 해당합니다. 조직 ID가 &quot;geometrixx&quot;인 Geometrixx 회사의 예를 살펴보겠습니다. 이 경우 POST 요청은 다음과 같습니다.
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
@@ -78,7 +79,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POST 요청에 대한 응답
 
-POST 응답은 트랜잭션 이벤트를 만든 시점의 상태를 반환합니다. 현재 상태(이벤트 데이터, 이벤트 상태...)를 검색하려면 GET 요청에서 POST 응답이 반환하는 기본 키를 사용하십시오.
+POST 응답은 트랜잭션 이벤트를 만든 시점의 상태를 반환합니다. 현재 상태(이벤트 데이터, 이벤트 상태...)를 검색하려면 GET 요청의 POST 응답에서 반환되는 기본 키를 사용하십시오.
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
@@ -86,7 +87,7 @@ POST 응답은 트랜잭션 이벤트를 만든 시점의 상태를 반환합니
 
 ***샘플 요청***
 
-POST을 보내도록 요청합니다.
+이벤트를 전송하기 위한 POST 요청.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \

@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 538056e6-b5c0-4258-a34b-524fe6e3cbbe
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 2%
@@ -24,7 +25,7 @@ CMS에서 직접 이메일을 전송하려는 다음 예를 살펴보겠습니�
 매개변수를 사용하여 워크플로우를 호출하는 프로세스는 다음과 같습니다.
 
 1. **[!UICONTROL External signal]** 활동에서 매개 변수를 선언합니다. [외부 신호 활동에서 매개 변수 선언](../../automating/using/declaring-parameters-external-signal.md)을 참조하십시오.
-1. 매개 변수를 정의하고 워크플로우 **[!UICONTROL External signal]** 활동을 트리거하도록 **[!UICONTROL End]** 활동 또는 API 호출을 구성합니다. [이 페이지](../../automating/using/defining-parameters-calling-workflow.md) 보기
+1. 매개 변수를 정의하고 워크플로우 **[!UICONTROL End]** 활동을 트리거하도록 **[!UICONTROL External signal]** 활동 또는 API 호출을 구성합니다. [이 페이지](../../automating/using/defining-parameters-calling-workflow.md) 보기
 1. 워크플로우가 트리거되면 매개 변수가 워크플로우의 이벤트 변수에 수집되고 워크플로우 내에서 사용할 수 있습니다. [이 페이지](../../automating/using/customizing-workflow-external-parameters.md)를 참조하십시오.
 
 ![](assets/extsignal_process.png)

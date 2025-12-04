@@ -1,14 +1,15 @@
 ---
 title: Microsoft Dynamics 365 통합 사용
-description: Microsoft Dynamics 365를 Campaign Standard 통합과 함께 사용하는 방법을 알아봅니다
+description: Microsoft Dynamics 365와 Campaign Standard 통합을 함께 사용하는 방법에 대해 알아봅니다
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 0%
@@ -17,13 +18,13 @@ ht-degree: 0%
 
 # Microsoft Dynamics 365 통합 사용
 
-Microsoft Dynamics 365와 Adobe Campaign Standard 통합에서 수행하는 몇 가지 데이터 흐름이 있습니다. 이러한 흐름은 [이 페이지](../../integrating/using/d365-acs-self-service-app-workflows.md)에 자세히 설명되어 있습니다.
+Microsoft Dynamics 365와의 Adobe Campaign Standard 통합에서 수행하는 몇 가지 데이터 흐름이 있습니다. 이러한 흐름은 [이 페이지](../../integrating/using/d365-acs-self-service-app-workflows.md)에 자세히 설명되어 있습니다.
 
 데이터 흐름에 대한 자세한 내용은 이 문서의 아래 [데이터 흐름](#data-flows) 섹션에서 확인할 수 있습니다.
 
 ## Adobe Campaign Standard 사용자 경험
 
-Microsoft Dynamics 365에서 연락처를 생성, 수정 또는 삭제하면(삭제된 경우) Campaign Standard으로 전송됩니다. 이러한 연락처는 Campaign의 프로필 화면에 표시되며 마케팅 캠페인에서 타겟팅할 수 있습니다. 아래의 프로필 화면을 참조하십시오.
+Microsoft Dynamics 365에서 연락처를 작성, 수정 또는 삭제하면(삭제되는 경우) Campaign Standard으로 전송됩니다. 이러한 연락처는 Campaign의 프로필 화면에 표시되며 마케팅 캠페인에서 타겟팅할 수 있습니다. 아래의 프로필 화면을 참조하십시오.
 
 ![](assets/MSdynamicsACS-usage1.png)
 
@@ -45,7 +46,7 @@ Campaign에서 옵트아웃 특성이 수정되면 **단방향(Microsoft Dynamic
 
 >[!NOTE]
 >
->Adobe Campaign 이러한 이벤트를 보려면 AppSource의 **Microsoft Dynamics 365** 앱을 Microsoft Dynamics 365 인스턴스에 설치해야 합니다. [자세히 알아보기](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
+>이러한 이벤트를 보려면 AppSource의 **Microsoft Dynamics for Adobe Campaign 365** 앱을 Microsoft Dynamics 365 인스턴스에 설치해야 합니다. [자세히 알아보기](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)
 
 아래에서 &quot;Dynamics 사용자&quot;에 대한 연락처 화면의 스냅샷을 볼 수 있습니다. 타임라인 보기에서 Dynamics 사용자에게 캠페인 이름 &quot;2019LoyaltyCamp&quot; 및 배달 이름 &quot;DM190&quot;과 연결된 이메일이 전송되었음을 알 수 있습니다. Dynamics 사용자는 이메일을 열고 이메일의 URL도 클릭했습니다. 이 두 작업 모두 아래에 표시되는 이벤트를 만들었습니다. 오른쪽 모서리에 있는 경우 관계 도우미(RA) 카드가 표시됩니다. 현재는 클릭한 URL을 후속 처리하는 작업이 포함되어 있습니다.
 
@@ -83,7 +84,7 @@ Dynamics 사용자에 대한 타임라인 보기를 보려면 아래를 참조�
 
 * **추적 URL**: 클릭한 URL
 
-* **미러 페이지 URL**: 전송/열기/클릭/반송된 전자 메일의 미러 페이지에 대한 URL입니다. 해당 캠페인 이메일 채널 활동의 구성 화면에서 이메일 미러 페이지의 만료 기간을 수정할 수 있습니다. [자세히 알아보기](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+* **미러 페이지 URL**: 전송/열기/클릭/반송된 전자 메일의 미러 페이지에 대한 URL입니다. 해당 캠페인 이메일 채널 활동의 구성 화면에서 이메일 미러 페이지의 만료 기간을 수정할 수 있습니다. [자세히 알아보기](../../administration/using/configuring-email-channel.md#validity-period-parameters)
 
 >[!NOTE]
 >
@@ -101,7 +102,7 @@ Dynamics 사용자에 대한 타임라인 보기를 보려면 아래를 참조�
 
 기본 대체 규칙은 속성 값을 다른 값으로 대체하도록 통합 애플리케이션 UI에 구성할 수 있습니다(예: &quot;#00FF00&quot;의 경우 &quot;녹색&quot;, 1의 경우 &quot;F&quot; 등).
 
-레코드의 볼륨에 따라 초기 데이터 전송을 위해 Campaign SFTP 저장소를 사용해야 할 수 있습니다. [자세히 알아보기](#initial-data-transfer).
+레코드의 볼륨에 따라 초기 데이터 전송을 위해 Campaign SFTP 저장소를 사용해야 할 수 있습니다. [자세히 알아보기](#initial-data-transfer)
 
 연락처 인그레스가 작동하려면 Campaign 프로필 테이블 특성 externalId를 Dynamics 365 연락처 특성 contactId로 채워야 합니다. Campaign 사용자 지정 엔티티도 Dynamics 365 고유 ID 속성으로 채워야 합니다. 그러나 이 속성은 모든 Campaign 사용자 지정 엔티티 속성에 저장할 수 있습니다(즉, externalId가 아니어도 됨).
 
@@ -134,7 +135,7 @@ Dynamics 사용자에 대한 타임라인 보기를 보려면 아래를 참조�
 
 * 숨겨진 하위 레코드가 있고 이 레코드에 액세스할 수 없는 상황이 발생하는 경우 일시적으로 카디널리티 링크 형식을 **0 또는 1개의 카디널리티 단순 링크**(으)로 변경하여 해당 레코드에 액세스할 수 있습니다.
 
-Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 섹션[&#128279;](../../developing/using/key-steps-to-add-a-resource.md)에서 을(를) 찾을 수 있습니다.
+Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 섹션[에서 ](../../developing/using/key-steps-to-add-a-resource.md)을(를) 찾을 수 있습니다.
 
 ### 이메일 마케팅 이벤트 흐름{#email-marketing-event-flow}
 
@@ -159,17 +160,17 @@ Dynamics 365 내에 다음 이벤트 특성이 표시됩니다.
 
 옵트아웃 (예: 차단 목록에 추가하다) 값은 시스템 간에 동기화됩니다. 온보딩 시 다음 옵션을 선택할 수 있습니다.
 
-* **단방향(Microsoft Dynamics 365에서 Campaign으로)**: Dynamics 365가 옵트아웃에 대한 올바른 원본입니다. 옵트아웃 속성은 Dynamics 365에서 Campaign Standard으로 한 방향으로 동기화됩니다.&quot;
-* **단방향(Microsoft Dynamics 365에 대한 캠페인)**: Campaign Standard은 옵트아웃에 대한 신뢰할 수 있는 소스입니다. 옵트아웃 속성은 Campaign Standard에서 Dynamics 365로 한 방향으로 동기화됩니다.
-* **양방향**: Dynamics 365와 Campaign Standard은 모두 올바른 원본입니다. 옵트아웃 속성은 Campaign Standard과 Dynamics 365 간에 양방향으로 동기화됩니다.
+* **단방향(Microsoft Dynamics 365에서 Campaign으로)**: Dynamics 365는 옵트아웃에 대한 신뢰할 수 있는 소스입니다. 옵트아웃 속성은 Dynamics 365에서 Campaign Standard으로 한 방향으로 동기화됩니다.&quot;
+* **단방향(Microsoft Dynamics 365에 대한 캠페인)**: Campaign Standard은 옵트아웃에 대한 올바른 소스입니다. 옵트아웃 속성은 Campaign Standard에서 Dynamics 365로 한 방향으로 동기화됩니다.
+* **양방향**: Dynamics 365와 Campaign Standard은 모두 신뢰할 수 있는 소스입니다. 옵트아웃 속성은 Campaign Standard과 Dynamics 365 간에 양방향으로 동기화됩니다.
 
 또는 시스템 간의 옵트아웃 동기화를 관리하는 별도의 프로세스가 있는 경우 통합의 옵트아웃 데이터 흐름이 비활성화될 수 있습니다.
 
 >[!NOTE]
 >
->통합 응용 프로그램 UI에서 **단방향(Microsoft Dynamics 365 to Campaign)** 및 **양방향** 옵트아웃 사용 사례는 별도의 옵트아웃 워크플로에서 구성됩니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+>통합 애플리케이션 UI에서 **단방향(Microsoft Dynamics 365 - Campaign)** 및 **양방향** 옵트아웃 사용 사례는 별도의 옵트아웃 워크플로우에서 구성됩니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)
 >
->**단방향(Microsoft Dynamics 365에 대한 캠페인)** 옵트아웃 사용 사례는 예외입니다. 수신(프로필에 문의) 워크플로우 내에서 구성됩니다.
+>**단방향(Campaign to Microsoft Dynamics 365)** 옵트아웃 사용 사례는 예외입니다. 수신(프로필 연락처) 워크플로우 내에서 구성됩니다.
 >
 
 옵트아웃 흐름 매핑은 기업 간에 비즈니스 요구 사항이 다를 수 있으므로 고객이 지정합니다. Campaign 측에서는 OOTB 옵트아웃 속성만 옵트아웃 매핑에 사용할 수 있습니다.

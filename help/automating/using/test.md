@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 77%
@@ -49,7 +50,7 @@ ht-degree: 77%
 
    * ![](assets/extsignal_picker.png): 워크플로우에서 사용할 수 있는 모든 변수 중에서 events 변수를 선택합니다([이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 참조).
 
-     예를 들어 **[!UICONTROL filesCount]** 변수를 사용하여 [파일 전송](../../automating/using/transfer-file.md) 활동 후 다운로드한 파일 수를 확인할 수 있습니다.
+     예를 들어 [ 변수를 사용하여 ](../../automating/using/transfer-file.md)파일 전송&#x200B;**[!UICONTROL filesCount]** 활동 후 다운로드한 파일 수를 확인할 수 있습니다.
 
      ![](assets/wkf_test_activity_variables.png)
 

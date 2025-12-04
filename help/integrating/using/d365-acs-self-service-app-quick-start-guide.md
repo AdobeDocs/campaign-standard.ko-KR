@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 1%
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 # 셀프서비스 통합 앱 시작 {#gs-self-service-app}
 
-Microsoft Dynamics 365 셀프서비스 통합 애플리케이션과 Adobe Campaign Standard을 통합하면 데이터 흐름을 구성하고, 실행 여부 및 사용 환경을 제어할 수 있습니다. 그러나 셀프 서비스 통합 응용 프로그램을 사용하기 전에 몇 가지 전제 조건을 완료해야 합니다.
+Microsoft Dynamics 365 셀프서비스 통합 애플리케이션과 Adobe Campaign Standard을 통합하면 데이터 흐름을 구성하고, 실행 여부 및 환경을 제어할 수 있습니다. 그러나 셀프 서비스 통합 응용 프로그램을 사용하기 전에 몇 가지 전제 조건을 완료해야 합니다.
 
 ## 개념 및 제한 사항 {#concepts-and-restrictions}
 
@@ -38,7 +39,7 @@ Microsoft Dynamics 365 셀프서비스 통합 애플리케이션과 Adobe Campai
 다음 섹션에서 자세히 알아보기:
 
 * [Campaign 통합을 위해 Microsoft Dynamics 365 구성](../../integrating/using/d365-acs-configure-d365.md)
-* [구성 Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
+* [Adobe I/O 구성](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Campaign 사용자 지정 리소스 및 Microsoft Dynamics 365 사용자 지정 엔터티 매핑](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## 셀프서비스 통합 앱을 구성하는 주요 단계 {#self-service-app-configuration-steps}
@@ -60,7 +61,7 @@ Microsoft Dynamics 365 셀프서비스 통합 애플리케이션과 Adobe Campai
 
 ## 개인 정보 보호 요청 승인 {#self-service-app-acknowledgement}
 
-셀프서비스 UI를 처음 탐색하면 개인 정보 보호 승인이 표시됩니다. 계속하려면 먼저 Campaign 및 Microsoft Dynamics 365에서 개별적으로 개인 정보 요청을 수행하는 역할을 이해했음을 확인해야 합니다.
+셀프서비스 UI를 처음 탐색하면 개인 정보 보호 승인이 표시됩니다. 계속하려면 먼저 Campaign 및 Microsoft Dynamics 365에서 개별적으로 개인 정보 보호 요청을 수행하는 역할을 이해했음을 확인해야 합니다.
 개인 정보 보호 책임에 대해 자세히 알아보고 [이 섹션](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)에서 개인 정보 보호 요청을 관리하는 방법에 대해 자세히 알아보세요.
 
 ## 자격 증명 설정 {#self-service-app-credentials}
@@ -102,11 +103,11 @@ UI를 처음 탐색하면 다음과 같은 머리글이 있는 페이지가 표�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-**[!UICONTROL Edit Table Mapping]** 페이지에서 **[!UICONTROL Mappings]** 섹션을 확인하여 Microsoft Dynamics 365의 필드가 Campaign의 올바른 필드에 매핑되고 있는지 확인하십시오. 다른 매핑을 추가해야 하는 경우 대체 요소나 필터뿐만 아니라 지금 추가합니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md).
+**[!UICONTROL Edit Table Mapping]** 페이지에서 **[!UICONTROL Mappings]** 섹션을 확인하여 Microsoft Dynamics 365의 필드가 Campaign의 올바른 필드에 매핑되어 있는지 확인하십시오. 다른 매핑을 추가해야 하는 경우 대체 요소나 필터뿐만 아니라 지금 추가합니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md)
 
 새 매핑을 추가하려면 [이 섹션](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping)을 참조하세요.
 
-구성이 올바르면 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로 옆에 있는 **[!UICONTROL Play]** 단추를 클릭하여 통합 및 데이터 흐름을 시작합니다.
+구성이 올바르면 **[!UICONTROL Play]** 워크플로 옆에 있는 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 단추를 클릭하여 통합 및 데이터 흐름을 시작합니다.
 
 >[!IMPORTANT]
 >
@@ -115,7 +116,7 @@ UI를 처음 탐색하면 다음과 같은 머리글이 있는 페이지가 표�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
-실행이 완료되면 몇 분 내에 Microsoft Dynamics 365의 항목을 추가하거나 수정하고 Adobe Campaign에서 이러한 변경 사항을 관찰하여 테스트할 수 있습니다. 언제든지 이 프로세스를 중지해야 하는 경우 동일한 버튼을 눌러 중지하면 됩니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
+실행 후 몇 분 안에 Microsoft Dynamics 365에서 항목을 추가하거나 수정하고 Adobe Campaign에서 이러한 변경 사항을 관찰하여 테스트할 수 있습니다. 언제든지 이 프로세스를 중지해야 하는 경우 동일한 버튼을 눌러 중지하면 됩니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
 
 ## 통합 앱 작업 영역 {#self-service-app-workspace}

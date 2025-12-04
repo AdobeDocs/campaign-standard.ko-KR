@@ -6,19 +6,20 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Microsoft Dynamics 365 셀프서비스 앱과 Adobe Campaign Standard 통합 액세스
 
-이 구성을 사용하려면 조직의 Experience Cloud(EC) 관리자와 협력해야 합니다. 셀프서비스 통합 애플리케이션 인터페이스에 액세스할 수 있도록 하는 데 필요한 초기 단계입니다. 도구에 대한 액세스 권한이 있으면 데이터에 대한 연결을 설정하고 Adobe Campaign과 Microsoft Dynamics 365 간의 데이터 흐름을 구성합니다.
+이 구성을 사용하려면 조직의 Experience Cloud(EC) 관리자와 협력해야 합니다. 셀프서비스 통합 애플리케이션 인터페이스에 액세스할 수 있도록 하는 데 필요한 초기 단계입니다. 도구에 대한 액세스 권한을 보유하고 나면 데이터에 대한 연결을 설정하고 Adobe Campaign과 Microsoft Dynamics 365 간의 데이터 흐름을 구성할 수 있습니다.
 
 >[!NOTE]
 >
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 이 단계를 수행하려면 조직의 Experience Cloud에 **관리자** 역할이 필요합니다.
+> 이 단계를 수행하려면 조직의 Experience Cloud에서 **관리자** 역할이 필요합니다.
 >
 
 1. https://experience.adobe.com/으로 이동한 다음 Adobe Experience Cloud에 로그인합니다.
@@ -56,7 +57,7 @@ ht-degree: 0%
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. **[!UICONTROL New Profile]** 단추를 클릭하고 **Campaign Standard - your-prod-instance-name - D365/ACS Integration**(으)로 명명된 새 항목을 추가합니다.
+1. **[!UICONTROL New Profile]** 단추를 클릭하고 **Campaign Standard - your-prod-instance-name - D365/ACS Integration**(이)라는 새 항목을 추가합니다.
 
    * 목록에 이 항목이 표시되면 진행할 필요가 없습니다. 왼쪽 메뉴에서 **Adobe Campaign Standard**&#x200B;을(를) 클릭하고 다른 Campaign 인스턴스를 확인합니다.
 
@@ -76,7 +77,7 @@ ht-degree: 0%
 
 **[!UICONTROL Products]** 페이지에서 Campaign 인스턴스를 선택하고 아래 단계를 수행합니다.
 
-1. 이전에 만든 새 프로필을 클릭합니다. **Campaign Standard - your-prod-instance-name - D365/ACS 통합**
+1. 이전에 만든 새 프로필을 클릭합니다. **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 

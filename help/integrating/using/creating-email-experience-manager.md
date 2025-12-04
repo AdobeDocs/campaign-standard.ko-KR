@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 전제 조건은 다음과 같습니다.
 
-* 통합을 위해 구성된 AEM 인스턴스에 대한 액세스 권한.
+* 통합을 위해 구성된 AEM 인스턴스에 대한 액세스.
 * 통합을 위해 구성된 Adobe Campaign 인스턴스에 대한 액세스.
 * AEM 콘텐츠를 수신하도록 구성된 Adobe Campaign 이메일 템플릿.
 
@@ -38,7 +39,7 @@ Adobe Campaign과 관련된 몇 가지 템플릿을 사용할 수 있습니다. 
 기본적으로 사전 정의된 두 개의 템플릿을 사용하여 Adobe Campaign용 이메일 콘텐츠를 만들 수 있습니다.
 
 * **[!UICONTROL Adobe Campaign Email]**: 이 템플릿에는 사용자가 개인화할 수 있는 표준 콘텐츠가 포함되어 있습니다. Adobe Campaign 이메일(AC6.1)과 Adobe Campaign 이메일(ACS) 중에서 선택할 수 있습니다.
-* **[!UICONTROL Importer Page]**: 이 템플릿을 사용하면 HTML 파일이 포함된 ZIP 파일을 가져올 수 있으며, 해당 콘텐츠는 개인화할 수 있습니다.
+* **[!UICONTROL Importer Page]**: 이 템플릿을 사용하면 HTML 파일이 포함된 ZIP 파일을 가져올 수 있으며, 이 파일은 개인화할 수 있는 콘텐츠입니다.
 
 1. Adobe Experience Manager에서 새 **[!UICONTROL Page]**&#x200B;을(를) 만듭니다.
 
@@ -60,9 +61,9 @@ Adobe Campaign과 관련된 몇 가지 템플릿을 사용할 수 있습니다. 
 
 Adobe Experience Manager에서 이메일 콘텐츠를 만들려면 다음 작업을 수행하십시오.
 
-1. 사이드 킥에서 **[!UICONTROL Page properties]** > **[!UICONTROL Email]** 탭에 액세스하여 제목과 전자 메일의 **[!UICONTROL Plain text]** 버전을 편집합니다.
+1. 사이드 킥에서 **[!UICONTROL Plain text]** > **[!UICONTROL Page properties]** 탭에 액세스하여 제목과 전자 메일의 **[!UICONTROL Email]** 버전을 편집합니다.
 
-1. **[!UICONTROL Text & Personalization]** 구성 요소를 통해 **[!UICONTROL Personalization fields]** 추가. 각 구성 요소는 이미지 삽입, 개인화 추가 등의 특정 용도에 해당합니다.
+1. **[!UICONTROL Personalization fields]** 구성 요소를 통해 **[!UICONTROL Text & Personalization]** 추가. 각 구성 요소는 이미지 삽입, 개인화 추가 등의 특정 용도에 해당합니다.
 
    자세한 내용은 다음 비디오를 시청하십시오.
 
@@ -74,7 +75,7 @@ Adobe Campaign Standard에서 이메일을 보내려면
 
 1. 콘텐츠 및 전송 매개 변수가 정의되면 Adobe Campaign Standard에서 AEM 관련 이메일 템플릿을 기반으로 이메일을 만듭니다.
 
-+++ AEM 관련 템플릿에 대해 자세히 알아보십시오.
+   +++ AEM 관련 템플릿에 대해 자세히 알아보십시오.
 
    1. 고급 메뉴에서 **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**&#x200B;에 액세스합니다.
 
@@ -86,7 +87,7 @@ Adobe Campaign Standard에서 이메일을 보내려면
 
       ![](assets/aem_templates_2.png)
 
-+++
+   +++
 
    ![](assets/aem_send_1.png)
 

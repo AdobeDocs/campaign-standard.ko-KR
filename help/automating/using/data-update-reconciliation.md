@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 52%
+ht-degree: 33%
 
 ---
 
@@ -37,7 +38,7 @@ ht-degree: 52%
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* 로드된 파일의 각 열을 프로필 차원 열에 연결하는 [조정](../../automating/using/reconciliation.md) 활동. 식별할 수 없는 파일 레코드(데이터 누락, 호환되지 않는 데이터 형식 등)는 최종 대상자 데이터의 무결성을 유지하기 위해 무시됩니다.
+* 로드된 파일의 각 열을 프로필 차원 열에 연결하는 [조정](../../automating/using/reconciliation.md) 활동. 식별할 수 없는 파일 레코드(데이터 누락, 호환되지 않는 데이터 형식 등)는 최종 대상 데이터의 무결성을 유지하기 위해 무시됩니다.
 
   ![](assets/identification_example1.png)
 

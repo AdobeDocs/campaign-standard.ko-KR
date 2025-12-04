@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 81%
@@ -38,7 +39,7 @@ ht-degree: 81%
 
 1. 쿼리의 **[!UICONTROL Additional data]** 탭에서 최종 이메일에 표시할 여러 데이터를 정의합니다.
 
-   * 충성도 포인트에 해당하는 **프로필** 차원의 단순 필드. [단순 필드 추가](../../automating/using/query.md#adding-a-simple-field) 섹션을 참조하십시오.
+   * 로열티 포인트에 해당하는 **프로필** 차원의 단순 필드. [단순 필드 추가](../../automating/using/query.md#adding-a-simple-field) 섹션을 참조하십시오.
    * 트랜잭션 컬렉션에 기반한 2가지 합계: 구매한 제품 수 및 총 지출 금액. 합계 구성 창의 **[!UICONTROL Data]** 탭에서 **개수** 및 **총합** 합계를 사용하여 추가할 수 있습니다. [합계 추가](../../automating/using/query.md#adding-an-aggregate) 섹션을 참조하십시오.
    * 유효한 최근 트랜잭션의 지출 금액, 날짜 및 제품을 반환하는 컬렉션.
 

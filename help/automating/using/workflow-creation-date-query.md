@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 33%
@@ -43,16 +44,16 @@ ht-degree: 33%
 ## 쿼리 활동 만들기 {#creating-a-query-activity}
 
 1. 수신자를 선택하려면 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓고 두 번 클릭하십시오.
-1. **[!UICONTROL Profiles]**&#x200B;을(를) 추가하고 값이 **[!UICONTROL no]**&#x200B;인 **[!UICONTROL no longer contact by email]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Profiles]**&#x200B;을(를) 추가하고 값이 **[!UICONTROL no longer contact by email]**&#x200B;인 **[!UICONTROL no]**&#x200B;을(를) 선택합니다.
 
 ### 실행 당일 생성된 프로필 검색 {#retrieving-profiles-created-on-the-same-day}
 
-1. **[!UICONTROL Profile]**&#x200B;에서 **[!UICONTROL Created]** 필드를 끌어서 놓습니다. **[!UICONTROL Advanced Mode]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Profile]**&#x200B;에서 **[!UICONTROL Created]** 필드를 끌어서 놓습니다. **[!UICONTROL Advanced Mode]**을(를) 클릭합니다.
    ![](assets/advanced_mode.png)
-1. **[!UICONTROL list of functions]**&#x200B;에서 **[!UICONTROL Date]** 노드에서 **[!UICONTROL Day]**&#x200B;을(를) 두 번 클릭합니다.
+1. **[!UICONTROL list of functions]**&#x200B;에서 **[!UICONTROL Day]** 노드에서 **[!UICONTROL Date]**&#x200B;을(를) 두 번 클릭합니다.
 1. **[!UICONTROL Created]** 필드를 인수로 삽입합니다.
 1. **[!UICONTROL equals to (=)]**&#x200B;을(를) 연산자로 선택합니다.
-1. 값의 경우 **[!UICONTROL List of functions]**&#x200B;의 **[!UICONTROL Date]** 노드에서 **[!UICONTROL Day]**&#x200B;을(를) 선택합니다.
+1. 값의 경우 **[!UICONTROL Day]**&#x200B;의 **[!UICONTROL Date]** 노드에서 **[!UICONTROL List of functions]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL GetDate()]** 함수를 인수로 삽입합니다.
 
 만든 날짜가 현재 날짜와 동일한 프로필을 검색했습니다.
@@ -63,14 +64,14 @@ ht-degree: 33%
 
 ![](assets/day_creation_query.png)
 
-**[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
+**[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 ### 실행 월과 동일한 달에 생성된 프로필 검색{#retrieving-profiles-created-on-the-same-month}
 
 1. **[!UICONTROL Query]** 편집기에서 첫 번째 쿼리를 선택하고 복제합니다.
 1. 복제본을 엽니다.
 1. 쿼리에서 **[!UICONTROL Day]**&#x200B;을(를) **[!UICONTROL Month]**(으)로 바꿉니다.
-1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/month_rule.png)
 

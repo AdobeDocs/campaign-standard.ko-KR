@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 3%
@@ -21,7 +22,7 @@ ht-degree: 3%
 
 전제 조건은 다음과 같습니다.
 
-* 통합을 위해 구성된 AEM 인스턴스에 대한 액세스 권한.
+* 통합을 위해 구성된 AEM 인스턴스에 대한 액세스.
 * 통합을 위해 구성된 Adobe Campaign 인스턴스에 대한 액세스.
 * AEM 콘텐츠를 수신하도록 구성된 Adobe Campaign 다국어 이메일 템플릿입니다.
 
@@ -49,7 +50,7 @@ ht-degree: 3%
 
    ![](assets/aem_acs_7.png)
 
-1. **[!UICONTROL Complete work item]** 창에서 **[!UICONTROL Complete]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Newsletter review]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Complete]** 창에서 **[!UICONTROL Newsletter review]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Complete work item]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Complete]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Newsletter approval]**&#x200B;을(를) 클릭합니다. 콘텐츠 및 전송 매개 변수가 정의되면 Adobe Campaign Standard에서 이메일 승인, 준비 및 전송을 진행할 수 있습니다.
 
@@ -71,7 +72,7 @@ ht-degree: 3%
 
    ![](assets/aem_acs_9.png)
 
-1. **[!UICONTROL Create]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
 이제 언어 사본이 생성되었으므로 선택한 언어에 따라 콘텐츠를 편집할 수 있습니다.
 
@@ -101,7 +102,7 @@ ht-degree: 3%
 
    ![](assets/aem_acs_20.png)
 
-1. **[!UICONTROL Language copy creation]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Language copy creation]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/aem_acs_16.png)
 
@@ -129,4 +130,4 @@ ht-degree: 3%
    >
    >승인되지 않은 AEM 콘텐츠를 사용하는 경우 Adobe Campaign에서 이메일을 보낼 수 없습니다.
 
-대상자는 **[!UICONTROL Profiles]**&#x200B;에 설정된 **[!UICONTROL Preferred languages]**&#x200B;에 따라 전자 메일을 받게 됩니다. 프로필 및 기본 언어를 편집하는 방법에 대한 자세한 내용은 이 [페이지](../../audiences/using/editing-profiles.md)를 참조하세요.
+대상자는 **[!UICONTROL Preferred languages]**&#x200B;에 설정된 **[!UICONTROL Profiles]**&#x200B;에 따라 전자 메일을 받게 됩니다. 프로필 및 기본 언어를 편집하는 방법에 대한 자세한 내용은 이 [페이지](../../audiences/using/editing-profiles.md)를 참조하세요.

@@ -1,16 +1,17 @@
 ---
 title: 매핑 정의
-description: Campaign Standard 필드를 XDM(Experience Data Model) 필드와 매핑하는 방법에 대해 알아봅니다.
+description: Campaign Standard 필드를 XDM(경험 데이터 모델) 필드와 매핑하는 방법에 대해 알아봅니다.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -38,12 +39,12 @@ ht-degree: 0%
 
 1. 필수 필드를 완료하고 다음을 선택합니다.
 
-   * **대상 차원**: 매핑할 Campaign Standard 스키마입니다.
+   * **타깃팅 차원**: 매핑할 Campaign Standard 스키마입니다.
    * **dataset**: Adobe Experience Platform의 XDM 스키마와 연결된 데이터 패키지입니다.
 
 >[!NOTE]
 >
->배치를 실시간 고객 프로필 또는 ID 서비스에 수집하려면 데이터 세트가 [실시간 고객 프로필에 대해 활성화되어야 합니다](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=ko).
+>배치를 실시간 고객 프로필 또는 ID 서비스에 수집하려면 데이터 세트가 [실시간 고객 프로필에 대해 활성화되어야 합니다](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
 >
 >선택한 데이터 세트가 기존 데이터 매핑에서 이미 사용 중인 경우 Adobe Experience Platform에서 데이터를 덮어쓸 수 있다는 경고가 표시됩니다. 이 문제는 동일한 데이터 세트를 사용하는 데이터 매핑에 몇 가지 일반적인 수신자가 있을 때 발생할 수 있습니다.
 
@@ -51,7 +52,7 @@ ht-degree: 0%
 
 ![](assets/aep_fieldmappings.png)
 
-**[!UICONTROL Create new field mapping]** 단추를 사용하면 XDM 스키마에서 Campaign Standard 필드 및 해당 필드 경로 식을 선택할 수 있습니다.
+**[!UICONTROL Create new field mapping]** 단추를 사용하면 Campaign Standard 필드와 XDM 스키마의 해당 필드 경로 식을 선택할 수 있습니다.
 
 Adobe Campaign Standard 필드를 찾을 수 없는 경우 검색 필드를 사용하여 필드를 검색할 수 있습니다. 현재 검색은 계층 구조에 열려 있는 필드에 대해서만 작동합니다.
 
@@ -63,7 +64,7 @@ Campaign Standard에 정의된 확장 리소스는 모든 기본 필드를 좋�
 
 API를 통해 XDM 확장을 사용자 지정하고 매핑을 더 잘 제어할 수 있도록 고유한 확장을 정의할 수 있습니다.
 
-XDM API에 대한 자세한 내용은 [스키마 레지스트리 API 자습서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
+XDM API에 대한 자세한 내용은 [스키마 레지스트리 API 자습서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)를 참조하십시오.
 
 열거형 필드를 매핑하려면 표현식 편집기를 사용하여 XDM 값에 해당하는 각 열거형 값을 정의해야 합니다. 예를 들어 postaladdressfield를 다음과 같이 정의해야 합니다.
 

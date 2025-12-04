@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 93%
@@ -94,7 +95,7 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
 
 샘플 JSON 정의에는 **다음 특성**&#x200B;이 있어야 합니다.
 
-* **배열 요소**&#x200B;에는 첫 번째 수준 속성이 포함되어야 합니다(더 깊은 레벨은 지원되지 않음).
+* **배열 요소**에는 첫 번째 수준 속성이 포함되어야 합니다(더 깊은 레벨은 지원되지 않음).
   **속성 이름**&#x200B;은 출력 임시 테이블의 출력 스키마에 대한 열 이름이 됩니다.
 * 캡처할 **JSON 요소**&#x200B;는 JSON 응답 내에 10 이하의 중첩 수준이어야 합니다.
 * **열 이름** 정의는 &quot;data&quot; 배열의 첫 번째 요소를 기반으로 합니다. 열 정의(추가/제거) 및 속성의 유형 값은 **열 정의** 탭에서 편집할 수 있습니다.
@@ -279,7 +280,7 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
   </tr>
   <tr> 
    <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
-   <td> <p>이 오류는 외부 계정에 구성된 특성을 사용하여 도우미를 초기화하는 동안 오류가 발생하여 활동이 내부 OAuth2.0 도우미 기능을 초기화할 수 없음을 나타냅니다.</p></td>
+   <td> <p>이 오류는 외부 계정에 구성된 속성을 사용하여 도우미를 초기화하는 동안 오류가 발생하여 활동이 내부 OAuth2.0 도우미 기능을 초기화할 수 없음을 나타냅니다.</p></td>
   </tr>
   <tr> 
    <td> WKF-560279 - "HTTP header key is not allowed (header key: '%s')."</td> 

@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 2%
@@ -23,7 +24,7 @@ ht-degree: 2%
 
 ### Microsoft Dynamics 365 자격 증명
 
-Microsoft Dynamics 365 자격 증명은 통합 응용 프로그램에 Microsoft Dynamics 365에서 데이터를 가져올 수 있는 권한을 부여합니다.  이 화면에 붙여넣을 값을 생성하려면 먼저 [Campaign 통합을 위해 Microsoft Dynamics 365 구성](../../integrating/using/d365-acs-configure-d365.md) 화면의 단계를 따라야 합니다. 아래에 설명된 입력은 이 화면을 참조합니다.
+Microsoft Dynamics 365 자격 증명을 통해 통합 애플리케이션이 Microsoft Dynamics 365에서 데이터를 가져올 수 있습니다.  이 화면에 붙여넣을 값을 생성하려면 먼저 [Campaign 통합을 위해 Microsoft Dynamics 365 구성](../../integrating/using/d365-acs-configure-d365.md) 화면의 단계를 따라야 합니다. 아래에 설명된 입력은 이 화면을 참조합니다.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
@@ -37,7 +38,7 @@ Microsoft Dynamics 365 자격 증명은 통합 응용 프로그램에 Microsoft 
 
 ### Adobe API 자격 증명
 
-Adobe Campaign 자격 증명은 [Adobe I/O](https://www.adobe.io/)을 사용하여 생성됩니다. [Adobe I/O 구성](../../integrating/using/d365-acs-configure-adobe-io.md) 화면에 방문하여 지침을 따르면 이 섹션의 입력을 작성할 수 있습니다.
+Adobe Campaign 자격 증명은 [Adobe I/O](https://www.adobe.io/)을(를) 사용하여 생성됩니다. [Adobe I/O 구성](../../integrating/using/d365-acs-configure-adobe-io.md) 화면에 방문하여 지침을 따르면 이 섹션의 입력을 작성할 수 있습니다.
 
 * JWT 기반 인증은 더 이상 사용되지 않으므로 인증 유형을 Oauth로 선택합니다.
 * 다음 이미지는 Adobe I/O과 설정 화면 입력 간의 매핑에 대해 자세히 설명합니다.
@@ -54,10 +55,10 @@ SFTP 서버를 설정하는 또 다른 이유는 옵트인/아웃 워크플로�
 
 >[!IMPORTANT]
 >
->SFTP 폴더에서 액세스하고 다운로드하는 정보는 사용자가 담당합니다. 정보에 개인 데이터가 포함되어 있는 경우 귀하는 해당 개인 정보 보호 법률 및 규정을 준수할 책임이 있습니다. [자세히 알아보기](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+>SFTP 폴더에서 액세스하고 다운로드하는 정보는 사용자가 담당합니다. 정보에 개인 데이터가 포함되어 있는 경우 귀하는 해당 개인 정보 보호 법률 및 규정을 준수할 책임이 있습니다. [자세히 알아보기](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)
 >
 
-Microsoft Dynamics 365 통합을 위해 Campaign SFTP 설정을 정의하려면 다음 섹션에 액세스합니다.
+Microsoft Dynamics 365 통합에 대한 Campaign SFTP 설정을 정의하려면 다음 섹션에 액세스합니다.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
@@ -71,7 +72,7 @@ Microsoft Dynamics 365 통합을 위해 Campaign SFTP 설정을 정의하려면 
 
 * Adobe Campaign SFTP 구성에 **IP 범위**&#x200B;을(를) 포함해야 합니다. 통합에서 SFTP 끝점을 사용하려면 허용 목록에추가된여야 합니다.
 
-* **로그를 Adobe Campaign SFTP로 내보내시겠습니까?**&#x200B;을(를) 사용하면 통합에서 로깅 정보를 SFTP 끝점으로 출력할지 여부를 확인할 수 있습니다. Adobe Campaign 또는 Microsoft Dynamics 365에 예상 정보가 표시되지 않는 경우 디버깅을 지원하는 데 사용할 수 있습니다.
+* **로그를 Adobe Campaign SFTP로 내보내시겠습니까?**&#x200B;을(를) 사용하면 통합에서 로깅 정보를 SFTP 끝점으로 출력할지 여부를 확인할 수 있습니다. Adobe Campaign 또는 Microsoft Dynamics 365에 예상한 정보가 표시되지 않는 경우 디버깅을 지원하는 데 사용할 수 있습니다.
 
 ## Adobe Campaign의 SFTP 설정 {#ac-control-panel-settings}
 
@@ -79,13 +80,13 @@ Microsoft Dynamics 365 통합을 위해 Campaign SFTP 설정을 정의하려면 
 
 * [SFTP 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko#sftp-management)
 
-* [SFTP 스토리지 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ko#installing-ssh-key)
+* [SFTP 스토리지 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [IP 범위 추가](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=ko#sftp-management)
+* [IP 범위 추가](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [키 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ko#sftp-management)
+* [키 관리](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [SFTP 서버에 로그온](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=ko#sftp-management)
+* [SFTP 서버에 로그온](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 구성이 완료되면 개인 키로 SFTP 서버에 로그인하고 &quot;d365_loads/exports&quot; 디렉토리를 만듭니다.
 

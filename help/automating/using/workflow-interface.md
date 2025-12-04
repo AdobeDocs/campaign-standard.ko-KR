@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 4%
@@ -52,7 +53,7 @@ ht-degree: 4%
 
 두 활동을 연결하려면 연결할 때까지 첫 번째 활동에서 다음 활동으로 화살표 끝을 이동합니다. 이전 활동에 연결하기 위해 활동을 뒤로 화살표의 지점으로 이동할 수도 있습니다. 활동을 이동하면 연결된 상태가 유지됩니다.
 
-데이터를 처리하는 다음 활동에는 중간 모집단이 포함됩니다. 워크플로 속성의 **[!UICONTROL Execution]** 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택하면 해당 옵션에 액세스할 수 있습니다.
+데이터를 처리하는 다음 활동에는 중간 모집단이 포함됩니다. 워크플로 속성의 **[!UICONTROL Keep interim results]** 섹션에서 **[!UICONTROL Execution]** 옵션을 선택하면 해당 옵션에 액세스할 수 있습니다.
 
 >[!CAUTION]
 >
@@ -161,6 +162,6 @@ ht-degree: 4%
 
 이 비디오는 워크플로우를 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31889?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

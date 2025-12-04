@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 90%
@@ -136,7 +137,7 @@ Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [�
 
    ![](assets/trigger_uc_search_2.png)
 
-1. 사용자 정의 eVar가 [트리거] 페이로드에서 전달되어 **이벤트 컨텍스트** 표(ctx)에 매핑됩니다. 이를 사용해 트랜잭션 메시지를 개인화할 수 있습니다.
+1. 사용자 정의 eVar가 [트리거] 페이로드에서 전달되어 **이벤트 컨텍스트** 테이블(ctx)에 매핑됩니다. 이를 사용해 트랜잭션 메시지를 개인화할 수 있습니다.
 
    ![](assets/trigger_uc_search_3.png)
 
@@ -144,7 +145,7 @@ Adobe Campaign에서는 Experience Cloud에서 만든 트리거에 연결된 [�
 
    ![](assets/trigger_uc_search_4.png)
 
-1. 개인화된 필드를 선택할 때 페이로드 메타데이터를 **트랜잭션 이벤트**(rtEvent) 표에서 찾은 뒤 **이벤트 컨텍스트**(ctx) 하위 표에서 찾습니다.
+1. 개인화된 필드를 선택할 때 페이로드 메타데이터를 **트랜잭션 이벤트**(rtEvent) 테이블에서 찾은 뒤 **이벤트 컨텍스트**(ctx) 하위 테이블에서 찾습니다.
 
    ![](assets/trigger_uc_search_5.png)
 

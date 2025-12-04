@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
-source-git-commit: 26260b9e633d8be1652eeb46c982864a7477da27
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 7%
@@ -28,7 +29,7 @@ Adobe Campaign Standard과 Adobe Analytics 간의 통합을 시작하려면 먼�
 
    ![](assets/analytics_2.png)
 
-1. **[!UICONTROL Connection]** 필드에 **[!UICONTROL Web services user name]** 및 **[!UICONTROL Web services share secret]**&#x200B;을(를) 지정합니다.
+1. **[!UICONTROL Web services user name]** 필드에 **[!UICONTROL Web services share secret]** 및 **[!UICONTROL Connection]**&#x200B;을(를) 지정합니다.
 
    이러한 매개 변수는 **[!UICONTROL Admin > Company settings > Web services]**&#x200B;을(를) 선택하여 Analytics에서 찾을 수 있습니다.
 

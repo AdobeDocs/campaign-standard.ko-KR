@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 77%
@@ -57,7 +58,7 @@ ht-degree: 77%
 
   ![](assets/subscription_example_service_relation.png)
 
-* 임시 리소스의 **전자 메일** 필드(조정 결과)를 기반으로 한 [중복 제거](../../automating/using/deduplication.md)는 중복을 식별합니다. 중복되는 경우 모든 데이터에 대한 서비스 구독이 실패하므로 중복을 제거하는 것이 중요합니다.
+* 임시 리소스의 [전자 메일](../../automating/using/deduplication.md) 필드(조정 결과)를 기반으로 한 **중복 제거**&#x200B;는 중복을 식별합니다. 중복되는 경우 모든 데이터에 대한 서비스 구독이 실패하므로 중복을 제거하는 것이 중요합니다.
 
   ![](assets/subscription_activity_example5.png)
 

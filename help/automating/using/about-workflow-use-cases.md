@@ -1,20 +1,21 @@
 ---
-title: 워크플로 사용 사례 기본 정보
+title: 워크플로 사용 사례 정보
 description: Campaign Standard 워크플로우를 사용하여 수행할 수 있는 사용 사례에 대해 자세히 알아보십시오.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 70%
 
 ---
 
-# 워크플로 사용 사례 기본 정보 {#about-workflow-use-cases}
+# 워크플로 사용 사례 정보 {#about-workflow-use-cases}
 
 이 섹션에서는 Campaign 워크플로우 기능을 활용하는 다양한 사용 사례를 살펴볼 수 있습니다.
 
@@ -24,7 +25,7 @@ ht-degree: 70%
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-* [보조 항목을 넣어 게재](../../automating/using/workflow-created-query-with-complement.md)
+* [여집합을 넣어 게재](../../automating/using/workflow-created-query-with-complement.md)
 * [프로필이 만들어진 날짜에 게재 만들기](../../automating/using/workflow-creation-date-query.md)
 * [주간 게재 만들기](../../automating/using/workflow-weekly-offer.md)
 * [채널 간 게재 만들기](../../automating/using/workflow-cross-channel-delivery.md)
@@ -53,7 +54,7 @@ ht-degree: 70%
 
 * [데이터베이스로 파일 대상자 조정](../../automating/using/reconcile-file-audience-with-database.md)
 * [가져온 파일에서 데이터 중복 제거](../../automating/using/deduplicating-data-imported-file.md)
-* [&#x200B; 파일에 포함된 데이터로 프로필 데이터 보강](../../automating/using/enriching-profile-data-file.md)
+* [ 파일에 포함된 데이터로 프로필 데이터 보강](../../automating/using/enriching-profile-data-file.md)
 * [외부 신호 활동 및 데이터 가져오기](../../automating/using/external-signal-data-import.md)
 * [외부 데이터로 데이터베이스 업데이트](../../automating/using/update-database-file.md)
 * [자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)

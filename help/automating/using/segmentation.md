@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +35,7 @@ ht-degree: 82%
 
 ## 사용 컨텍스트 {#context-of-use}
 
-**[!UICONTROL Segmentation]** 활동은 보통 타겟팅 활동(쿼리, 교집합, 결합, 제외 등) 다음에 배치됩니다. 이렇게 함으로써 표준 모집단을 정의하여 이를 기반으로 세그먼트를 형성할 수 있습니다.
+**[!UICONTROL Segmentation]** 활동은 일반적으로 세그먼트가 형성되는 표준 모집단을 정의하기 위해 타깃팅 활동(쿼리, 교집합, 결합, 제외 등) 뒤에 배치됩니다.
 
 **관련 항목**
 

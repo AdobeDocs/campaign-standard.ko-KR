@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 1%
@@ -27,7 +28,7 @@ GET 요청에서 **resourceType**&#x200B;을(를) 사용하여 리소스 메타�
 
    * &quot;apiName&quot;: API에 사용되는 특성의 이름입니다.
    * &quot;type&quot;: 상위 수준 유형 정의(문자열, 숫자, 링크, 컬렉션, 열거형...)입니다.
-   * &quot;dataPolicy&quot;: 필드 값은 지정된 정책 규칙을 따라야 합니다. 예를 들어 dataPolicy 규칙이 &quot;email&quot;로 설정된 경우 값은 유효한 이메일이어야 합니다. PATCH 또는 POST 중에 dataPolicy는 값을 확인하거나 값을 수정하여 변환할 수 있습니다(예: smartCase).
+   * &quot;dataPolicy&quot;: 필드 값은 지정된 정책 규칙을 따라야 합니다. 예를 들어 dataPolicy 규칙이 &quot;email&quot;로 설정된 경우 값은 유효한 이메일이어야 합니다. PATCH 또는 POST 동안 dataPolicy는 값을 확인하거나 값을 수정하여 변환할 수 있습니다(예: smartCase).
    * &quot;category&quot;: 쿼리 편집기에 있는 필드의 범주를 제공합니다.
    * &quot;resType&quot;: 기술 유형입니다.
 
@@ -45,7 +46,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 ***샘플 요청***
 
-리소스에 대한 GET 요청을 수행합니다.
+리소스에 대해 GET 요청을 수행합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \

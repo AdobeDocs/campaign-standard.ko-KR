@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 0%
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 # 데이터 동기화
 
-Microsoft Dynamics 365에서 Campaign 및 Campaign 마케팅 지표를 Microsoft Dynamics 365로 테이블을 동기화할 수 있습니다. 동기화는 세 개의 전용 기술 워크플로우(**[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**)를 통해 실행됩니다. [자세한 정보](../../integrating/using/d365-acs-self-service-app-workflows.md)를 보려면 이 섹션을 참조하세요.
+Microsoft Dynamics 365에서 Campaign으로 테이블을 동기화하고 Campaign 마케팅 지표를 Microsoft Dynamics 365로 동기화할 수 있습니다. 동기화는 세 개의 전용 기술 워크플로우(**[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**)를 통해 실행됩니다. [자세한 정보](../../integrating/using/d365-acs-self-service-app-workflows.md)를 보려면 이 섹션을 참조하세요.
 
 >[!IMPORTANT]
 >변경 사항을 고려하려면 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로를 중지/시작해야 합니다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-workflows.md)
@@ -32,7 +33,7 @@ Microsoft Dynamics 365에서 Campaign 및 Campaign 마케팅 지표를 Microsoft
 
 다음은 이 테이블의 각 열에 대한 설명입니다.
 
-* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**: 이 열은 Microsoft Dynamics 365에서 매핑의 데이터 원본이 될 엔터티를 식별합니다.
+* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**: 이 열은 Microsoft Dynamics 365에서 매핑에 대한 데이터 원본이 될 엔터티를 식별합니다.
 
 * **[!UICONTROL CAMPAIGN TABLE]**: 이 열은 Adobe Campaign에서 매핑의 데이터 대상이 될 리소스를 식별합니다.
 
@@ -42,7 +43,7 @@ Microsoft Dynamics 365에서 Campaign 및 Campaign 마케팅 지표를 Microsoft
 
    * 테이블 매핑을 삭제하려면 **[!UICONTROL Delete]** 아이콘을 사용하십시오.
 
-   * Microsoft Dynamics 365 테이블의 모든 데이터를 다시 동기화하려면 **[!UICONTROL Replay Data]** 아이콘을 클릭하십시오. 일반적으로 통합 애플리케이션은 최근에 변경된 Microsoft Dynamics 365의 데이터만 동기화합니다.  그러나 경우에 따라(예: 변경 또는 실수를 한 경우) 모든 데이터를 다시 동기화할 수 있습니다.  이러한 경우 이 단추를 클릭하고 다음에 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로를 중지/시작하면 데이터가 동기화되기 시작합니다.
+   * **[!UICONTROL Replay Data]** 아이콘을 클릭하여 Microsoft Dynamics 365 테이블의 모든 데이터를 다시 동기화합니다. 일반적으로 통합 애플리케이션은 최근에 변경된 Microsoft Dynamics 365의 데이터만 동기화합니다.  그러나 경우에 따라(예: 변경 또는 실수를 한 경우) 모든 데이터를 다시 동기화할 수 있습니다.  이러한 경우 이 단추를 클릭하고 다음에 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로를 중지/시작하면 데이터가 동기화되기 시작합니다.
 
      **[!UICONTROL Replay Data]** 단추를 클릭하고 검사에 성공하면 아이콘이 비활성화됩니다. 이는 이 테이블 매핑 쌍의 데이터가 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로우의 다음 실행과 다시 동기화됨을 나타냅니다.
 
@@ -51,7 +52,7 @@ Microsoft Dynamics 365에서 Campaign 및 Campaign 마케팅 지표를 Microsoft
       * **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로와 연결된 백로그 지표에 2,000,000개 이상의 항목이 있는 경우(**[!UICONTROL Workflows]** 페이지에 표시됨)
       * Microsoft Dynamics 365 테이블에 2,000,000개 이상의 레코드가 있는 경우
 
-     다시 동기화해야 하는 레코드 수는 다양합니다. 레코드 수가 많은 경우 동기화 프로세스를 완료하는 데 시간이 걸릴 수 있습니다. 동기화 프로세스를 완료하기 위해 통합 응용 프로그램이 작동하므로 **[!UICONTROL Workflows]** 페이지에서 **[!UICONTROL Backlog]** 지표를 참조하십시오.
+     다시 동기화해야 하는 레코드 수는 다양합니다. 레코드 수가 많은 경우 동기화 프로세스를 완료하는 데 시간이 걸릴 수 있습니다. 동기화 프로세스를 완료하기 위해 통합 응용 프로그램이 작동하므로 **[!UICONTROL Backlog]** 페이지에서 **[!UICONTROL Workflows]** 지표를 참조하십시오.
 
      >[!IMPORTANT]
      >
@@ -104,7 +105,7 @@ Microsoft Dynamics 365에서 Campaign 및 Campaign 마케팅 지표를 Microsoft
 
 #### 기본 키
 
-새 Microsoft Dynamics 365를 Campaign 테이블에 추가할 때 ID 필드를 식별해야 합니다.
+새 Microsoft Dynamics 365를 Campaign 테이블 매핑에 추가할 때 ID 필드를 식별해야 합니다.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
@@ -184,7 +185,7 @@ Campaign의 경우 고유 키가 될 필드를 선택해야 합니다. [CRM ID �
 
 매핑을 구성할 때 다음과 같은 추가 옵션을 설정할 수 있습니다.
 
-* 필드 이름 매핑을 기반으로 Microsoft Dynamics 365에서 발생하는 삭제를 Adobe Campaign의 해당 필드에 전파하려면 **[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]** 옵션을 **예**(으)로 설정하십시오. Microsoft Dynamics 365에서 삭제를 무시하려면 **아니요**&#x200B;를 선택하십시오.
+* 필드 이름 매핑을 기반으로 Microsoft Dynamics 365에서 발생하는 삭제 내용을 Adobe Campaign의 해당 필드로 전파하려면 **[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]** 옵션을 **예**(으)로 설정하십시오. Microsoft Dynamics 365에서 삭제를 무시하려면 **아니요**&#x200B;를 선택하십시오.
 
 * Microsoft Dynamics 365 선택 목록과 연결된 표시 값을 Campaign으로 전파하려면 **[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]** 옵션을 **아니요**(으)로 설정하십시오. 기술 값을 전파하려면 **예**&#x200B;를 선택하십시오.
 
@@ -196,17 +197,17 @@ Campaign의 경우 고유 키가 될 필드를 선택해야 합니다. [CRM ID �
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
-해당 유형의 이벤트가 Microsoft Dynamics 365로 연결되도록 하려면 **예**&#x200B;를 선택하십시오.
+**예**&#x200B;를 선택하여 해당 유형의 이벤트가 Microsoft Dynamics 365로 연결되도록 합니다.
 
 전자 메일 이벤트 흐름에 대한 자세한 내용을 보려면 [여기](../../integrating/using/d365-acs-self-service-app-workflows.md)를 클릭하세요.
 
 ## 옵트인/옵트아웃 워크플로 {#opt-in-out-wf}
 
-**옵트인/옵트아웃** 워크플로를 사용하면 Microsoft Dynamics 365와 Adobe Campaign 간의 옵트인/옵트아웃 정보 흐름을 식별할 수 있습니다. 데이터가 Microsoft Dynamics 365 엔티티 &quot;연락처&quot; 및 Adobe Campaign 리소스 &quot;프로필&quot;과 연결되어 있다고 가정합니다.
+**옵트인/옵트아웃** 워크플로우를 통해 Microsoft Dynamics 365와 Adobe Campaign 간의 옵트인/옵트아웃 정보 흐름을 식별할 수 있습니다. 데이터가 Microsoft Dynamics 365 엔티티 &quot;contact&quot; 및 Adobe Campaign 리소스 &quot;profile&quot;과 연결되어 있다고 가정합니다.
 
 [이 섹션](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out)에서 옵트아웃 관리에 대해 자세히 알아보세요.
 
-선택 사항을 저장하려면 &quot;저장&quot;을 클릭해야 합니다. 또한 **Campaign to Microsoft Dynamics 365** 워크플로우를 중지한 다음 통합을 위해 재생을 클릭하여 변경 내용을 통합해야 합니다.
+선택 사항을 저장하려면 &quot;저장&quot;을 클릭해야 합니다. 또한 **Campaign to Microsoft Dynamics 365** 워크플로우를 중지한 다음 통합을 위해 재생을 클릭하여 변경 사항을 통합해야 합니다.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
@@ -220,12 +221,12 @@ Campaign의 경우 고유 키가 될 필드를 선택해야 합니다. [CRM ID �
 
 * **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**: 이 옵션을 사용하면 **매핑** 섹션이 표시됩니다. 이러한 입력을 통해 데이터를 Microsoft Dynamics 365의 필드에 매핑할 Adobe Campaign 필드를 정의할 수 있습니다. 즉, Microsoft Dynamics 365에서 값을 수동으로 업데이트하는 경우 변경되는 경우 해당 값을 Adobe Campaign 값으로 덮어씁니다.
 
-* **[!UICONTROL Bidirectional]**: 이 옵션을 사용하면 **매핑** 섹션이 표시됩니다. 이러한 쌍은 Microsoft Dynamics 365와 Adobe Campaign에서 서로 매핑될 필드를 식별합니다. [자세히 알아보기](../../integrating/using/d365-acs-notices-and-recommendations.md).
+* **[!UICONTROL Bidirectional]**: 이 옵션을 사용하면 **매핑** 섹션이 표시됩니다. 이러한 쌍은 Microsoft Dynamics 365와 Adobe Campaign에서 서로 매핑될 필드를 식별합니다. [자세히 알아보기](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ### 매핑
 
 이 섹션은 옵트인/옵트아웃 동기화 방향 필드가 **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** 또는 **[!UICONTROL Bidirectional]**(으)로 설정된 경우에만 적용됩니다. Microsoft Dynamics 365에서 Adobe Campaign의 입력에 매핑되는 필드를 정의할 수 있습니다.
 
-Microsoft Dynamics 365 필드 이름에는 **부울** 유형의 필드 이름이 모두 포함됩니다.
+Microsoft Dynamics 365 필드 이름에는 **부울** 형식의 모든 필드 이름이 포함됩니다.
 
 Adobe Campaign 필드 이름은 옵트인/옵트아웃에 해당하는 고정된 값 세트입니다. Adobe Campaign 필드 이름은 옵트인/옵트아웃에 해당하는 고정된 값 세트입니다. **이 목록의 값 집합을 변경할 수 없습니다**.

@@ -2,10 +2,11 @@
 title: 마케팅 기록 활용
 description: 프로필의 마케팅 기록과 상호 작용하는 방법 알아보기
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -17,15 +18,15 @@ ht-degree: 0%
 **history** 끝점을 사용하면 프로필의 마케팅 기록과 상호 작용할 수 있습니다.
 예를 들어 이 방법으로 프로필로 전송된 게재에 대한 미러 페이지를 쉽게 검색할 수 있습니다. 이렇게 하려면 아래 단계를 수행합니다.
 
-1. **history** 끝점과 프로필의 기본 키로 GET을 수행합니다.
-1. 반환된 **이벤트** href에 대해 GET 요청을 수행합니다.
+1. **history** 엔드포인트와 프로필의 기본 키로 GET을 수행합니다.
+1. 반환된 **events** href에서 GET 요청을 수행합니다.
 1. **mirrorPage** 노드의 미러 페이지에 연결된 프로필에 대한 이벤트 목록을 반환합니다.
 
 <br/>
 
 ***샘플 요청***
 
-GET 요청으로 프로필의 마케팅 내역을 검색합니다.
+GET 요청을 사용하여 프로필의 마케팅 내역을 검색합니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \

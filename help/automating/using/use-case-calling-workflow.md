@@ -5,17 +5,18 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 1%
 
 ---
 
-# 활용 사례 {#use-case}
+# 사용 사례 {#use-case}
 
 아래 사용 사례에서는 워크플로우 내에서 매개 변수를 사용하여 워크플로우를 호출하는 방법을 보여 줍니다.
 
@@ -35,7 +36,7 @@ ht-degree: 1%
 
 ## 1단계: API 호출 구성 {#step-1--configuring-the-api-call}
 
-매개 변수를 사용하여 워크플로우 1을 트리거하기 위해 API 호출을 만듭니다. API 호출 구문에 대한 자세한 내용은 [Campaign Standard REST API 설명서](../../api/using/triggering-a-signal-activity.md)를 참조하세요.
+매개 변수를 사용하여 워크플로우 1을 트리거하기 위해 API 호출을 만듭니다. API 호출 구문에 대한 자세한 내용은 [Campaign Standard REST API 설명서](../../api/using/triggering-a-signal-activity.md)를 참조하십시오.
 
 이 예제에서는 아래 매개 변수를 사용하여 워크플로우를 호출하려고 합니다.
 
@@ -110,7 +111,7 @@ ht-degree: 1%
 
    ![](assets/extsignal_uc5.png)
 
-1. 데이터가 검색되면 대상자에 저장합니다. 이렇게 하려면 **Target이 비어 있지 않음** 전환에 **[!UICONTROL Save audience]** 활동을 추가한 다음 여십시오.
+1. 데이터가 검색되면 대상자에 저장합니다. 이렇게 하려면 **[!UICONTROL Save audience]** Target이 비어 있지 않음&#x200B;**전환에** 활동을 추가한 다음 여십시오.
 1. **[!UICONTROL Use a dynamic label]** 옵션을 선택한 다음 **fileToTarget** 매개 변수를 대상자의 레이블로 사용하십시오.
 
    ```

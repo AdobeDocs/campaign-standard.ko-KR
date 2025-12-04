@@ -6,17 +6,18 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
 
 ---
 
-# 예약{#scheduler}
+# 스케줄러{#scheduler}
 
 ## 설명 {#description}
 
@@ -62,7 +63,7 @@ ht-degree: 52%
 
    실행 빈도를 **[!UICONTROL Several times a day]**(으)로 설정할 때 특정 시간에 워크플로우를 실행할지 또는 하루 동안 주기적으로 실행할지 선택할 수 있습니다.
 
-+++ **[!UICONTROL "Several times a day"]** 실행 빈도를 구성하는 방법 알아보기
+   +++ **[!UICONTROL "Several times a day"]** 실행 빈도를 구성하는 방법 알아보기
 
    * 하루 중 특정 시간에 여러 번 워크플로우를 실행하려면 **[!UICONTROL Specific times]** 옵션을 토글한 다음 **[!UICONTROL Add an element]**&#x200B;을(를) 클릭하여 원하는 실행 시간을 지정합니다. 요구 사항에 맞게 필요한 만큼 추가합니다.
 
@@ -74,7 +75,7 @@ ht-degree: 52%
          >
          >이 옵션을 사용하면 일별, 월별 또는 연간 반복 빈도도 가능합니다. 이 경우 워크플로우는 하루에 여러 번 실행되지 않고 이 필드에 지정한 빈도에 따라 실행됩니다.
          >
-         > 워크플로우가 하루에 여러 번 실행되지 않고 대신 매일, 매월 또는 매년 실행해야 하는 경우 **[!UICONTROL Execution frequency]** 드롭다운 목록에서 사용할 수 있는 **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** 또는 **[!UICONTROL Yearly]** 옵션을 사용하는 것이 좋습니다.
+         > 워크플로우가 하루에 여러 번 실행되지 않고 대신 매일, 매월 또는 매년 실행해야 하는 경우 **[!UICONTROL Daily]** 드롭다운 목록에서 사용할 수 있는 **[!UICONTROL Monthly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL Execution frequency]** 옵션을 사용하는 것이 좋습니다.
 
       1. **[!UICONTROL Start]**/**[!UICONTROL End]** 시간 필드에서 워크플로 실행을 시작하고 종료해야 하는 시간을 정의합니다.
 
@@ -86,7 +87,7 @@ ht-degree: 52%
 
    ![](assets/wkf_scheduler_day.png)
 
-+++
+   +++
 
 1. 실행 만료 시기를 지정합니다.
 

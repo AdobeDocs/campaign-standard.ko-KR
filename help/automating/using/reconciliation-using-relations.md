@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 81%
@@ -47,7 +48,7 @@ ht-degree: 81%
   2015-05-19 09:06:00;mail9@email.com;ZZ6
   ```
 
-* 구매 데이터를 데이터베이스 프로필과 제품에 바인딩하는 [조정](../../automating/using/reconciliation.md) 활동. 따라서 파일 데이터와 프로필 표 및 제품 표 간의 관계를 정의해야 합니다. 해당 활동의 **[!UICONTROL Relations]** 탭에서 이 구성을 수행합니다. 
+* 구매 데이터를 데이터베이스 프로필과 제품에 바인딩하는 [조정](../../automating/using/reconciliation.md) 활동. 따라서 파일 데이터와 프로필 테이블 및 제품 테이블 간의 관계를 정의해야 합니다. 해당 활동의 **[!UICONTROL Relations]** 탭에서 이 구성을 수행합니다. 
 
    * **프로필**&#x200B;과의 관계: 파일의 **고객** 열은 **프로필** 차원의 **이메일** 필드에 연결됩니다.
    * **제품**&#x200B;과의 관계: 파일의 **제품** 열은 **프로필** 차원의 **제품 코드** 필드에 연결됩니다.

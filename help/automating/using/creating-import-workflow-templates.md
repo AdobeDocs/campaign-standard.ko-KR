@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 1%
@@ -79,7 +80,7 @@ ht-degree: 1%
 
    * 처음 두 하위 집합에서 선택되지 않은 모든 레코드가 **[!UICONTROL Complement]**&#x200B;에서 선택됩니다.
 
-1. 이전에 구성한 **[!UICONTROL Segmentation]** 활동의 첫 번째 아웃바운드 전환 뒤에 있는 **[!UICONTROL Update data]** 활동을 구성합니다.
+1. 이전에 구성한 **[!UICONTROL Update data]** 활동의 첫 번째 아웃바운드 전환 뒤에 있는 **[!UICONTROL Segmentation]** 활동을 구성합니다.
 
    * 인바운드 전환에 데이터베이스에 이미 있는 수신자만 포함되므로 **[!UICONTROL Update]**&#x200B;을(를) **[!UICONTROL Operation type]**(으)로 선택합니다.
    * **[!UICONTROL Identification]** 탭에서 **[!UICONTROL Using reconciliation criteria]**&#x200B;을(를) 선택하고 **[!UICONTROL Dimension to update]** - 이 경우 프로필 - 및 **[!UICONTROL Reconciliation]** 활동에서 만든 링크 간의 키를 정의합니다. 이 예제에서는 **CRM ID** 사용자 지정 필드가 사용됩니다.
@@ -105,7 +106,7 @@ ht-degree: 1%
 
    ![](assets/import_template_example7.png)
 
-1. 이전에 구성한 **[!UICONTROL Deduplication]** 활동 뒤에 있는 **[!UICONTROL Update data]** 활동을 구성하십시오.
+1. 이전에 구성한 **[!UICONTROL Update data]** 활동 뒤에 있는 **[!UICONTROL Deduplication]** 활동을 구성하십시오.
 
    * 인바운드 전환에 데이터베이스에 없는 프로필만 있으므로 **[!UICONTROL Insert only]**&#x200B;을(를) **[!UICONTROL Operation type]**(으)로 선택합니다.
    * **[!UICONTROL Identification]** 탭에서 **[!UICONTROL Using reconciliation criteria]**&#x200B;을(를) 선택하고 **[!UICONTROL Dimension to update]** - 이 경우 프로필 - 및 **[!UICONTROL Reconciliation]** 활동에서 만든 링크 간의 키를 정의합니다. 이 예제에서는 **CRM ID** 사용자 지정 필드가 사용됩니다.

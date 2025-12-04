@@ -2,10 +2,11 @@
 title: 프로필 업데이트
 description: API를 사용하여 프로필을 업데이트하는 방법에 대해 자세히 알아보기
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -22,13 +23,13 @@ ht-degree: 2%
 
 1. 두 번째 요청에서는 페이로드에 완료된 정보가 있는 프로필에 대해 **PATCH 요청**&#x200B;을 수행합니다.
 
-1. PATCH 요청이 GET을 업데이트했는지 확인하기 위해 최종 프로필 요청을 수행할 수 있습니다.
+1. PATCH 요청이 프로필을 업데이트했는지 확인하기 위해 최종 GET 요청을 수행할 수 있습니다.
 
 <br/>
 
 ***샘플 요청***
 
-프로필 검색에 대한 샘플 GET 요청.
+프로필 검색을 위한 샘플 GET 요청.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -54,7 +55,7 @@ ht-degree: 2%
 }
 ```
 
-&quot;phone&quot; 속성을 업데이트하라는 PATCH 요청입니다.
+PATCH에서 &quot;phone&quot; 속성을 업데이트하도록 요청합니다.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

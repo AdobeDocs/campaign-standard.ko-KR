@@ -1,23 +1,24 @@
 ---
-title: Adobe Experience Platform 특성을 사용한 캠페인 개인화
-description: Adobe 경험 플랫폼 속성을 사용하여 캠페인을 개인화하는 방법을 알아봅니다.
+title: Adobe Experience Platform 속성을 사용한 캠페인 개인화
+description: Adobe Experience Platform 특성을 사용하여 캠페인을 개인화하는 방법을 알아봅니다.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
 
 ---
 
-# Adobe Experience Platform 특성을 사용한 캠페인 개인화 {#personalizing-campaigns-using-aep-attributes}
+# Adobe Experience Platform 속성을 사용한 캠페인 개인화 {#personalizing-campaigns-using-aep-attributes}
 
 >[!IMPORTANT]
 >

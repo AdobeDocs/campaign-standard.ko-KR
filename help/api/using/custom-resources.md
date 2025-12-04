@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 3%
@@ -37,7 +38,7 @@ Adobe Campaign에는 다양한 리소스를 통해 데이터를 정의하는 데
 
 ***샘플 요청***
 
-확장된 profileAndServicesExt 리소스에 액세스하기 위한 샘플 GET 요청입니다.
+확장된 profileAndServicesExt 리소스에 액세스하기 위한 샘플 GET 요청.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -76,4 +77,4 @@ Adobe Campaign에는 다양한 리소스를 통해 데이터를 정의하는 데
 
 * [데이터 모델 기본 개념](../../developing/using/data-model-concepts.md)
 * [API 확장](../../developing/using/about-extending-the-api.md)
-* [다른 리소스와 연결된 링크 정의](https://helpx.adobe.com/kr/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [다른 리소스와 연결된 링크 정의](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

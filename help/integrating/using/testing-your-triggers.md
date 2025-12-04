@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -64,7 +65,7 @@ ht-degree: 1%
 * Campaign 데이터 소스의 조정 ID 유형을 확인합니다.
 * CustomerId 데이터 소스는 고객 특성을 통해 만들어집니다.
 * 데이터 소스 ID를 확인합니다.
-* 데이터 소스 구성 후 Adobe에게 Campaign 인스턴스를 다시 시작하도록 요청합니다.
+* 데이터 소스 구성 후 Adobe에 Campaign 인스턴스를 다시 시작하도록 요청합니다.
 * 트리거 보고서에서 트리거 구문 분석 문제를 확인합니다.
 
 **트리거가 보류 중 상태입니까?**

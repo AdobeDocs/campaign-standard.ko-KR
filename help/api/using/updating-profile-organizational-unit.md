@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6ce49aeb-a113-43ee-bfe3-f26a4a9e2a56
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 10%
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 # 프로필의 조직 단위 업데이트 {#managing-organizational-units}
 
-1. 조직 단위 PKey를 검색하려면 **orgUnitBase** 리소스에 대해 GET 요청을 수행하십시오
+1. **orgUnitBase** 리소스에서 GET 요청을 수행하여 조직 단위 PKey를 검색합니다
 1. 페이로드에 원하는 조직 단위 PKey를 사용하여 프로필 PKey에 대한 PATCH 요청을 수행합니다.
 
 <br/>

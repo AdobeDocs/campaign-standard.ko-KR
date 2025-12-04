@@ -2,10 +2,11 @@
 title: API를 사용하여 서비스 만들기
 description: API를 사용하여 서비스를 만드는 방법을 알아봅니다
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 02f1ef1f960cf98b5277b2db960e61ae20e22209
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 ***샘플 요청***
 
-특정 특성이 있는 서비스를 만들기 위한 샘플 POST 요청입니다.
+특정 속성을 사용하여 서비스를 만들기 위한 샘플 POST 요청.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \

@@ -1,14 +1,15 @@
 ---
 title: 교차
-description: 교차 활동을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다.
+description: 교집합 기능을 사용하면 활동에서 다른 인바운드 집단에 공통되는 요소만 유지할 수 있습니다.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 98%

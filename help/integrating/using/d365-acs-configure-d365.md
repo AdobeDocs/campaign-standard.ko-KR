@@ -5,12 +5,13 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Microsoft Dynamics 365와 Adobe Campaign Standard 통합에 대한 일반적인 
 
 ## 필수 구성 요소
 
-이 문서에서 사전 통합 설정을 수행하기 전에 이미 프로비저닝되었으며 조직의 Microsoft Dynamics 365 인스턴스에 대한 관리자 액세스 권한이 있다고 가정합니다.  이 문제가 발생하지 않은 경우 Microsoft 고객 지원 센터에 문의하여 Dynamics 365 프로비저닝을 완료해야 합니다.
+이 문서에서 사전 통합 설정을 수행하기 전에 사용자가 이미 프로비저닝하고 조직의 Microsoft Dynamics 365 인스턴스에 대한 관리자 액세스 권한을 가지고 있다고 가정합니다.  이 문제가 발생하지 않은 경우 Microsoft 고객 지원 센터에 문의하여 Dynamics 365 프로비저닝을 완료해야 합니다.
 
 스테이징 및 프로덕션 환경 모두에 대한 통합을 구성하는 경우 스테이징 및 프로덕션 Dynamics 365 인스턴스 모두에 대해 아래 단계를 수행해야 합니다. 아래 지침은 단계 또는 프로덕션 Dynamics 365 인스턴스를 구성하는 경우에 따라 약간 달라집니다(예: 프로덕션 인스턴스의 경우 `<stage or prod>`에 대해 &quot;prod&quot;를 선택)
 
@@ -37,7 +38,7 @@ OAuth 액세스 토큰을 사용하면 통합 도구가 웹 API를 통해 Micros
 
 주요 단계는 다음 비디오에 요약되어 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/34837?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행합니다.
 
@@ -89,9 +90,9 @@ OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행�
 
 1. 오른쪽 상단의 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다. 상단 배너에서 **[!UICONTROL Settings]** 옆에 있는 드롭다운을 클릭하고 **[!UICONTROL Security > Users]**&#x200B;을(를) 클릭합니다.
 
-1. 드롭다운 메뉴를 클릭하여 **[!UICONTROL Application Users]**(으)로 이동합니다. **[!UICONTROL New]**&#x200B;를 클릭합니다.
+1. 드롭다운 메뉴를 클릭하여 **[!UICONTROL Application Users]**(으)로 이동합니다. **[!UICONTROL New]**&#x200B;을(를) 클릭합니다.
 
-1. 사용자 아이콘 옆에 **[!UICONTROL USER:APPLICATION USER]**&#x200B;이(가) 표시되어 있는지 확인하십시오.
+1. 사용자 아이콘 옆에 **[!UICONTROL USER:APPLICATION사용자]**&#x200B;이(가) 표시되어 있는지 확인하십시오.
 
    새 사용자의 화면을 채웁니다.  매개 변수 제안:
 
@@ -109,21 +110,21 @@ OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행�
 
 1. 아래로 스크롤하여 이 사용자에 대한 **[!UICONTROL System administrator]** 액세스를 선택하십시오.
 
-1. **[!UICONTROL OK]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL OK]**&#x200B;을(를) 클릭합니다.
 
 ### 테넌트 ID 가져오기 {#get-the-tenant-id}
 
 이 페이지의 [지침](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id)에 따라 테넌트 ID를 찾으십시오.  통합 도구에서 통합 전 설정 중에 이 ID가 필요합니다.
 
-## Microsoft Dynamics 365 설치 Campaign Standard {#install-appsource-app}
+## Microsoft Dynamics 365용 Campaign Standard 설치 {#install-appsource-app}
 
 Dynamics 365 앱을 Campaign Standard 환경에 통합하려면 아래 단계를 따르십시오.
 
-1. [Microsoft 비즈니스 앱](https://appsource.microsoft.com/en-us/marketplace/apps)(으)로 이동한 다음 검색 창에서_Adobe Campaign Standard_을(를) 검색합니다.
+1. [Microsoft 비즈니스 앱](https://appsource.microsoft.com/en-us/marketplace/apps)&#x200B;(으)로 이동한 다음 검색 창에서_Adobe Campaign Standard_을(를) 검색합니다.
 또는 이 [링크](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}(으)로 이동할 수 있습니다.
 1. 지침에 따라 Dynamics 365 인스턴스용 앱을 설치하십시오.
 1. 설치가 완료되면 Dynamics 365 인스턴스로 이동하여 관리자로 로그인합니다.
-1. 오른쪽 상단의 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다. 상단 배너에서 **[!UICONTROL Settings]** 옆에 있는 드롭다운을 클릭하고 **[!UICONTROL Process Center]**&#x200B;에서 **[!UICONTROL Processes]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다. 상단 배너에서 **[!UICONTROL Settings]** 옆에 있는 드롭다운을 클릭하고 **[!UICONTROL Processes]**&#x200B;에서 **[!UICONTROL Process Center]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Adobe Campaign Email Bounce]** 작업을 검색하고 클릭합니다.
 1. **[!UICONTROL Administration]** 탭에서 맨 위 리본에서 **[!UICONTROL Actions]**&#x200B;을(를) 클릭하여 이전에 만든 Adobe API 응용 프로그램 사용자로 소유자를 변경한 다음 **[!UICONTROL Assign to another User]** 옵션을 선택하고 드롭다운에서 **[!UICONTROL Adobe API application user]**&#x200B;을(를) 선택하여 할당합니다.
 1. 프로세스를 다시 활성화합니다.
@@ -135,5 +136,5 @@ Dynamics 365 앱을 Campaign Standard 환경에 통합하려면 아래 단계를
 
 **관련 항목**
 
-* [Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성](../../integrating/using/d365-acs-configure-adobe-io.md)은 통합을 설정하는 다음 단계입니다
+* [Microsoft Dynamics 365 통합을 위해 Adobe Developer 구성](../../integrating/using/d365-acs-configure-adobe-io.md)은(는) 통합 설정의 다음 단계입니다.
 * [셀프 서비스 통합 앱 시작](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)에는 통합을 시작하고 실행하는 전체 단계 목록이 포함되어 있습니다.

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 77%
@@ -53,7 +54,7 @@ Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형
 
 >[!IMPORTANT]
 >
->Adobe 20개의 워크플로 임계값에 도달하지 않더라도 **시간에 따라 워크플로 실행을 분산**&#x200B;하는 것이 좋습니다. 워크플로우 실행을 지연시키면 인스턴스의 성능이 향상됩니다.
+>20개의 워크플로 임계값에 도달하지 않더라도 Adobe에서는 **시간에 따라 워크플로 실행을 분산**&#x200B;할 것을 권장합니다. 워크플로우 실행을 지연시키면 인스턴스의 성능이 향상됩니다.
 
 워크플로우를 시작하기 전에 [!DNL Campaign Standard]에서 워크플로우를 실행할 시스템 실제 메모리가 충분한지 확인합니다. 사용 가능한 메모리가 부족한 경우 서버의 로드가 줄고 시스템 메모리가 늘어날 때까지 워크플로우 실행이 지연된다는 메시지가 표시됩니다.
 
@@ -150,7 +151,7 @@ Adobe Campaign은 워크플로 문제를 더 잘 이해할 수 있도록 다양�
 1. 워크플로 작업 영역에서 **[!UICONTROL Edit properties]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL General]** > **[!UICONTROL Execution]**&#x200B;에서 **[!UICONTROL Save SQL queries in the log]**&#x200B;및 옵션 **[!UICONTROL Execute in the engine]**&#x200B;을 선택하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
-**&#x200B;**&#x200B;로그에서 SQL 쿼리를 보려면
+****&#x200B;로그에서 SQL 쿼리를 보려면
 1. **[!UICONTROL Log and Tasks]**&#x200B;을(를) 클릭 합니다.
 1. **[!UICONTROL Logs]**&#x200B;탭에서 **[!UICONTROL Search]**&#x200B;패널을 엽니다.
 1. **[!UICONTROL Display SQL logs only]**&#x200B;을(를) 확인 합니다.

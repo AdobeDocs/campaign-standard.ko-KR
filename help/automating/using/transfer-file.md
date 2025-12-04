@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
@@ -64,7 +65,7 @@ ht-degree: 75%
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**: 이 옵션은 **[!UICONTROL General]** 탭에서 **[!UICONTROL File listing]** 작업을 선택할 때 사용할 수 있습니다. 이 옵션을 통해 서버에 있는 모든 파일을 **변수.파일명** 이벤트 변수로 색인화할 수 있습니다. 이때 파일 이름은 **&#39;n&#39;** 문자로 구분됩니다.
+   * **[!UICONTROL List all files]**: 이 옵션은 **[!UICONTROL File listing]** 탭에서 **[!UICONTROL General]** 작업을 선택할 때 사용할 수 있습니다. 이 옵션을 통해 서버에 있는 모든 파일을 **변수.파일명** 이벤트 변수로 색인화할 수 있습니다. 이때 파일 이름은 **&#39;n&#39;** 문자로 구분됩니다.
 
 1. **[!UICONTROL Advanced options]** 탭의 **[!UICONTROL If no files are found]** 섹션에서 활동 시작 시 오류 또는 존재하지 않는 파일이 감지될 경우 실행할 작업을 구성할 수 있습니다.
 
@@ -147,7 +148,7 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 **[!UICONTROL File(s) present on the Adobe Campaign server]** 프로토콜은 복구할 파일이 포함된 저장소에 해당합니다.
 메타문자 또는 와일드카드(예: &#42; 또는 ?) 를 사용하여 파일을 필터링할 수 있습니다.
 
-**[!UICONTROL Define a file path]** 또는 **[!UICONTROL Use a dynamic file path]**&#x200B;을(를) 원할 경우 선택합니다.
+**[!UICONTROL Define a file path]** 또는 **[!UICONTROL Use a dynamic file path]**을(를) 원할 경우 선택합니다.
 **[!UICONTROL Use a dynamic file path]** 옵션을 선택하면 표준 표현식 및 이벤트 변수를 사용하여 전송할 파일의 이름을 개인화할 수 있습니다. 자세한 정보는 이 [페이지](../../automating/using/customizing-workflow-external-parameters.md)를 참조하십시오.
 
 경로는 Adobe Campaign 서버의 저장소 공간 디렉토리에 대한 상대적 경로여야 합니다. 파일은 **sftp&lt;인스턴스명>/** 디렉토리에 있습니다. 또한 저장소 공간 위의 디렉토리는 검색할 수 없습니다.

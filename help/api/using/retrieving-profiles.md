@@ -2,10 +2,11 @@
 title: 프로필 검색
 description: API를 사용하여 프로필을 검색하는 방법에 대해 자세히 알아보기
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 4%
@@ -24,7 +25,7 @@ ht-degree: 4%
 
 ***샘플 요청***
 
-* 모든 프로필을 검색하기 위한 샘플 GET 요청입니다.
+* 모든 프로필을 검색하기 위한 샘플 GET 요청.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -50,7 +51,7 @@ ht-degree: 4%
   }
   ```
 
-* 처음 10개의 이메일 값을 검색하는 샘플 GET 요청입니다.
+* 처음 10개의 이메일 값을 검색하는 샘플 GET 요청.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \

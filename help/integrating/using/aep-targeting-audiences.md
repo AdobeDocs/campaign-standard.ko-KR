@@ -5,12 +5,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -29,7 +30,7 @@ ht-degree: 3%
 
 1. 워크플로우에 **[!UICONTROL Read audience]** 활동을 추가한 다음 엽니다.
 
-1. **[!UICONTROL Type of audience]**&#x200B;에서 **[!UICONTROL Adobe Experience Platform]** 옵션을 선택한 다음 원하는 대상을 추가합니다.
+1. **[!UICONTROL Adobe Experience Platform]**&#x200B;에서 **[!UICONTROL Type of audience]** 옵션을 선택한 다음 원하는 대상을 추가합니다.
 
    ![](assets/aep_wkf_readaudience.png)
 
