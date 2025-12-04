@@ -163,7 +163,7 @@ Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 
 
   전체 Campaign 엔진 호출 볼륨을 예측할 때는 랜딩 페이지, WebApps, JSSP, API, 모바일 앱 등록 등을 포함하여 엔진 호출의 다른 소스를 고려하는 것이 중요합니다.
 
-  여기에서 Adobe Campaign Standard 패키지 정보를 보십시오. [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)
+  여기에서 Adobe Campaign Standard 패키지 정보를 보십시오. [https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)
 
 * 통합은 Campaign의 리소스에 대한 초기 동기화에 대해 최대 1,500만 개의 총 레코드를 지원합니다. 증분 동기화는 Adobe Campaign Standard 패키지에 의해 제한됩니다.
 

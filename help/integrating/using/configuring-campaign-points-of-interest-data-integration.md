@@ -35,7 +35,7 @@ Adobe Experience Platform SDK으로 구성된 모바일 애플리케이션에서
 1. 그런 다음 데이터 수집 UI에서 관심 포인트와 Adobe Campaign 간 모바일 사용 사례를 지원하는 규칙을 만들어야 합니다.\
    이 규칙은 사용자가 지역 기반 **[!UICONTROL Point of Interest]**&#x200B;을(를) 입력할 때 트리거됩니다. 규칙을 만들려면 이 [페이지](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback)를 참조하세요.
 
-1. 위치에 **[!UICONTROL Points of Interest]**&#x200B;을(를) 정의합니다. [관심 영역 만들기](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html)를 참조하세요.
+1. 위치에 **[!UICONTROL Points of Interest]**&#x200B;을(를) 정의합니다. [관심 영역 만들기](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=ko)를 참조하세요.
 
 1. Adobe Campaign에서 모바일 애플리케이션 및 수집된 위치 데이터에 액세스해야 합니다. [위치 데이터를 수집하는 데 사용되는 모바일 앱에 액세스](#accessing-mobile-apps-used-to-collect-location-data) 및 [수집된 위치 데이터에 액세스](#accessing-collected-location-data)를 참조하십시오.
 
@@ -163,7 +163,7 @@ Adobe Campaign에 설정된 모바일 애플리케이션 매개 변수에서 찾
 
 >[!NOTE]
 >
->포스트백 구성에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html)를 참조하세요.
+>포스트백 구성에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=ko)를 참조하세요.
 
 ### 모바일 애플리케이션에 SDK 통합 {#integrating-the-sdk-into-a-mobile-application}
 
@@ -178,11 +178,11 @@ Mobile Core Service의 소프트웨어 개발 키트(SDK)를 사용하면 모바
 1. Adobe Mobile Services 인터페이스로 이동합니다.
 1. 애플리케이션을 추가합니다.
 
-   Mobile Services에서 응용 프로그램을 관리하는 방법에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html)를 참조하세요.
+   Mobile Services에서 응용 프로그램을 관리하는 방법에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html?lang=ko)를 참조하세요.
 
 1. 관심 영역을 정의합니다.
 
-   관심 영역 관리에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html)를 참조하세요.
+   관심 영역 관리에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html?lang=ko)를 참조하세요.
 
 ### 구독자의 관심 영역 데이터 수집 {#collecting-subscribers--points-of-interest-data}
 

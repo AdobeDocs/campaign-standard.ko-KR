@@ -20,7 +20,7 @@ ht-degree: 3%
 
 ## 대상자 가져오기 {#importing-an-audience}
 
-People 핵심 서비스 통합을 사용하면 기술 워크플로우를 통해 대상자를 Adobe Campaign으로 직접 가져와 데이터베이스를 보강할 수 있습니다. People 핵심 서비스의 대상 공유에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)를 참조하세요.
+People 핵심 서비스 통합을 사용하면 기술 워크플로우를 통해 대상자를 Adobe Campaign으로 직접 가져와 데이터베이스를 보강할 수 있습니다. People 핵심 서비스의 대상 공유에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)를 참조하세요.
 
 Adobe Campaign의 People 핵심 서비스에서 대상/세그먼트를 가져오는 작업은 IMS(Adobe ID을 통한 인증)를 통해 연결된 사용자만 **[!UICONTROL Audiences]** 메뉴에서 수행할 수 있습니다.
 
@@ -46,7 +46,7 @@ Adobe Campaign의 People 핵심 서비스에서 대상/세그먼트를 가져오
 
 >[!NOTE]
 >
->Adobe Analytics에서 Adobe Campaign으로 대상을 가져오는 경우 먼저 이러한 대상을 People Core Service 또는 Audience Manager에서 공유해야 합니다. 이 프로세스는 12~24시간 걸리며, Campaign과의 24~36시간 동기화에 추가해야 합니다. 이 경우 대상 공유 기간은 최대 60시간일 수 있습니다. People 핵심 서비스 및 Audience Manager의 Adobe Analytics 대상 공유에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)를 참조하십시오.
+>Adobe Analytics에서 Adobe Campaign으로 대상을 가져오는 경우 먼저 이러한 대상을 People Core Service 또는 Audience Manager에서 공유해야 합니다. 이 프로세스는 12~24시간 걸리며, Campaign과의 24~36시간 동기화에 추가해야 합니다. 이 경우 대상 공유 기간은 최대 60시간일 수 있습니다. People 핵심 서비스 및 Audience Manager의 Adobe Analytics 대상 공유에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ko)를 참조하십시오.
 
 ## 대상자 내보내기 {#exporting-an-audience}
 
@@ -76,7 +76,7 @@ Adobe Campaign의 People 핵심 서비스에서 대상/세그먼트를 가져오
 1. 활동의 구성을 확인하고 워크플로우를 저장합니다.
 1. 워크플로우를 시작하여 대상자를 내보냅니다. Adobe Campaign과 People 핵심 서비스 간 동기화는 몇 시간 정도 소요될 수 있습니다
 
-Adobe Campaign과 People 핵심 서비스 간 동기화는 24-36시간이 소요됩니다. 이 기간이 지나면 People 핵심 서비스에서 새 대상자를 찾아 다른 Adobe Experience Cloud 솔루션에서 다시 사용할 수 있습니다. Adobe People 핵심 서비스에서 Adobe Campaign 공유 대상을 사용하는 방법에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html)를 참조하십시오.
+Adobe Campaign과 People 핵심 서비스 간 동기화는 24-36시간이 소요됩니다. 이 기간이 지나면 People 핵심 서비스에서 새 대상자를 찾아 다른 Adobe Experience Cloud 솔루션에서 다시 사용할 수 있습니다. Adobe People 핵심 서비스에서 Adobe Campaign 공유 대상을 사용하는 방법에 대한 자세한 내용은 이 [설명서](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=ko)를 참조하십시오.
 
 **관련 항목:**
 

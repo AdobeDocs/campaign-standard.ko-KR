@@ -39,4 +39,4 @@ AEM 사이트에서 Adobe Campaign 양식을 만들려면 다음 작업을 수�
 1. Adobe Campaign 데이터베이스 필드에 매핑할 수 있는 다양한 필드 및 구성 요소를 추가하여 양식의 콘텐츠를 편집합니다.
 1. 양식을 테스트하고 게시하여 AEM 사이트에서 액세스할 수 있도록 합니다.
 
-자세한 내용은 [세부 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)를 참조하십시오.
+자세한 내용은 [세부 설명서](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=ko)를 참조하십시오.

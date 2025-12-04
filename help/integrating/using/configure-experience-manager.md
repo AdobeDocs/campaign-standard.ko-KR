@@ -67,8 +67,8 @@ Adobe Campaign을 구성하려면:
 
 Adobe Campaign Standard을 사용하여 Adobe Experience Manager을 구성하려면 다음 단계를 수행해야 합니다.
 
-1. 먼저 Adobe Experience Manager 작성 및 게시 인스턴스 간의 복제를 구성해야 합니다. 이 [섹션](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager)을 참조하십시오.
+1. 먼저 Adobe Experience Manager 작성 및 게시 인스턴스 간의 복제를 구성해야 합니다. 이 [섹션](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ko#configuring-adobe-experience-manager)을 참조하십시오.
 
-1. 그런 다음 전용 **[!UICONTROL Cloud Service]**&#x200B;을(를) 구성하여 Adobe Experience Manager을 Adobe Campaign에 연결합니다. 이 [섹션](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign)을 참조하십시오.
+1. 그런 다음 전용 **[!UICONTROL Cloud Service]**&#x200B;을(를) 구성하여 Adobe Experience Manager을 Adobe Campaign에 연결합니다. 이 [섹션](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ko#connecting-aem-to-adobe-campaign)을 참조하십시오.
 
-1. 이제 작성자 인스턴스에서 Adobe Experience Manager에서 외부화를 구성해야 합니다. 이 [섹션](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer)을 참조하십시오.
+1. 이제 작성자 인스턴스에서 Adobe Experience Manager에서 외부화를 구성해야 합니다. 이 [섹션](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ko#configuring-the-externalizer)을 참조하십시오.

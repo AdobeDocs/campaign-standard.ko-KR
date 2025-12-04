@@ -25,12 +25,12 @@ Adobe Campaign REST API에 사용할 수 있는 엔드포인트:
 * **/&lt;transactionalAPI>**: 트랜잭션 메시지 API와 상호 작용합니다(트랜잭션 메시지 API 끝점의 이름은 인스턴스 구성에 따라 다름). 이 작업에 대한 자세한 정보는 [이 섹션](../../api/using/managing-transactional-messages.md)을 참조하십시오.
 * **/workflow/execution**: 워크플로우와 상호 작용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../api/using/controlling-a-workflow.md)을 참조하십시오.
 * **/privacy/privacyTool**: 개인 정보 보호 요청의 자동 프로세스를 허용하도록 개인 정보 보호 API와 상호 작용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../api/using/creating-a-privacy-request.md)을 참조하십시오.
-* **/history**: 프로필의 마케팅 내역을 검색합니다. Campaign의 통합 고객 프로필에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)를 참조하세요.
+* **/history**: 프로필의 마케팅 내역을 검색합니다. Campaign의 통합 고객 프로필에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/kr/campaign/standard/audiences/using/integrated-customer-profile.html)를 참조하세요.
 
 기본적으로 **profileAndServices** 및 **profileAndServicesExt** API에 사용할 수 있는 기본 리소스는 다음과 같습니다.
 
-* **/profile**: Campaign 데이터베이스의 프로필과 상호 작용합니다. 서비스에 프로필을 추가하려면 **/service** 끝점을 사용하세요. Campaign의 프로필에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)를 참조하세요.
-* **/service**: 구독 서비스를 관리합니다. Campaign의 서비스에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)를 참조하세요.
+* **/profile**: Campaign 데이터베이스의 프로필과 상호 작용합니다. 서비스에 프로필을 추가하려면 **/service** 끝점을 사용하세요. Campaign의 프로필에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/kr/campaign/standard/audiences/using/about-profiles.html)를 참조하세요.
+* **/service**: 구독 서비스를 관리합니다. Campaign의 서비스에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/kr/campaign/standard/audiences/using/creating-a-service.html)를 참조하세요.
 
 >[!NOTE]
 >

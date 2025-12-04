@@ -50,7 +50,7 @@ Campaign 컨트롤 패널을 사용할 자격이 없는 경우 Adobe 고객 지�
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
-1. Campaign 컨트롤 패널을 사용하여 키 쌍(공개/비공개)을 생성합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)에서 확인할 수 있습니다.
+1. Campaign 컨트롤 패널을 사용하여 키 쌍(공개/비공개)을 생성합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko#decrypting-data)에서 확인할 수 있습니다.
 
    * 공개 키는 외부 시스템과 공유되며, 외부 시스템은 이 키를 사용하여 Campaign으로 전송할 데이터를 암호화합니다.
    * 개인 키는 Campaign에서 들어오는 암호화된 데이터를 해독하는 데 사용됩니다.
@@ -94,7 +94,7 @@ Campaign 컨트롤 패널을 사용할 자격이 없는 경우 Adobe 고객 지�
 
 이 사용 사례를 수행하는 단계는 다음과 같습니다.
 
-1. GPG 유틸리티를 사용하여 GPG 키 쌍(공개/비공개)을 생성한 다음 공개 키를 Campaign 컨트롤 패널에 설치합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)에서 확인할 수 있습니다.
+1. GPG 유틸리티를 사용하여 GPG 키 쌍(공개/비공개)을 생성한 다음 공개 키를 Campaign 컨트롤 패널에 설치합니다. 자세한 단계는 [Campaign 컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ko#encrypting-data)에서 확인할 수 있습니다.
 
    ![](assets/gpg_install.png)
 

@@ -35,7 +35,7 @@ ht-degree: 59%
 
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#metrics-for-deliverability)
 
 ## 메시지에 대한 게재 실패 식별 {#identifying-delivery-failures-for-a-message}
 
@@ -75,8 +75,8 @@ ht-degree: 59%
 
 
 **관련 항목:**
-* [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [소프트 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#hard-bounces)
+* [소프트 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#soft-bounces)
 
 ## 일시적 게재 실패 후 다시 시도 {#retries-after-a-delivery-temporary-failure}
 
@@ -118,7 +118,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 왼쪽 상단에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;을(를) 선택하고 **[!UICONTROL Bounce mails]**&#x200B;을(를) 선택하십시오. 이 규칙에 대한 자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#email-processing-rules)을 참조하세요.
 
-바운스 및 다양한 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)을 참조하세요.
+바운스 및 다양한 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#metrics-for-deliverability)을 참조하세요.
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

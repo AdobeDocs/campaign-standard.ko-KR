@@ -25,9 +25,9 @@ ht-degree: 3%
 >
 >Audience Destinations 서비스는 현재 베타 버전이며, 예고 없이 자주 업데이트될 수 있습니다. 이러한 기능에 액세스하려면 고객을 Azure(현재 북미 지역의 경우에만 베타 버전)에서 호스팅해야 합니다. 액세스하려면 Adobe 고객 지원 센터에 문의하십시오.
 
-세그먼트 빌더를 사용하면 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)에서 가져온 데이터를 기반으로 규칙을 정의하여 대상을 작성할 수 있습니다.
+세그먼트 빌더를 사용하면 [실시간 고객 프로필](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ko)에서 가져온 데이터를 기반으로 규칙을 정의하여 대상을 작성할 수 있습니다.
 
-이 섹션에서는 세그먼트를 작성할 때의 글로벌 개념을 설명합니다. 세그먼트 빌더 자체에 대한 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)를 참조하세요.
+이 섹션에서는 세그먼트를 작성할 때의 글로벌 개념을 설명합니다. 세그먼트 빌더 자체에 대한 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)를 참조하세요.
 
 세그먼트 빌더 인터페이스는 다음과 같이 구성됩니다.
 
@@ -49,7 +49,7 @@ ht-degree: 3%
 
 1. 설정 창에서 원하는 병합 정책이 선택되어 있는지 확인합니다.
 
-   병합 정책에 대한 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)의 전용 섹션을 참조하십시오.
+   병합 정책에 대한 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)의 전용 섹션을 참조하십시오.
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -67,7 +67,7 @@ ht-degree: 3%
 
 왼쪽 창에는 규칙을 구성하는 데 사용할 수 있는 모든 속성, 이벤트 및 대상이 나열됩니다.
 
-나열된 필드는 회사에서 캡처한 특성이며 [XDM(Experience Data Model) 시스템](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)을 통해 사용할 수 있게 되었습니다.
+나열된 필드는 회사에서 캡처한 특성이며 [XDM(Experience Data Model) 시스템](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ko)을 통해 사용할 수 있게 되었습니다.
 
 필드는 탭으로 구성됩니다.
 
@@ -83,7 +83,7 @@ ht-degree: 3%
 >
 >**다중 엔터티 세분화**&#x200B;을(를) 사용하면 제품, 스토어 또는 기타 비프로필 클래스를 기반으로 추가 데이터로 프로필 데이터를 확장할 수 있습니다. 연결되면 추가 클래스의 데이터를 프로필 스키마의 네이티브인 것처럼 사용할 수 있게 됩니다.
 >
->자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)를 참조하십시오.
+>자세한 내용은 [전용 설명서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=ko)를 참조하십시오.
 
 기본적으로 세그먼트 빌더는 데이터가 이미 있는 필드를 표시합니다. 데이터가 없는 필드를 포함하여 전체 스키마를 표시하려면 설정에서 **[!UICONTROL Show full XDM schema]** 옵션을 활성화하십시오.
 
@@ -97,7 +97,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->아래 섹션에서는 규칙 정의에 대한 전역 정보를 제공합니다. 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)를 참조하세요.
+>아래 섹션에서는 규칙 정의에 대한 전역 정보를 제공합니다. 자세한 내용은 [세그먼트 빌더 사용 안내서](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ko)를 참조하세요.
 
 규칙을 작성하려면 다음 단계를 수행합니다.
 
