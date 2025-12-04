@@ -148,7 +148,7 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 **[!UICONTROL File(s) present on the Adobe Campaign server]** 프로토콜은 복구할 파일이 포함된 저장소에 해당합니다.
 메타문자 또는 와일드카드(예: &#42; 또는 ?) 를 사용하여 파일을 필터링할 수 있습니다.
 
-**[!UICONTROL Define a file path]** 또는 **[!UICONTROL Use a dynamic file path]**을(를) 원할 경우 선택합니다.
+**[!UICONTROL Define a file path]** 또는 **[!UICONTROL Use a dynamic file path]**&#x200B;을(를) 원할 경우 선택합니다.
 **[!UICONTROL Use a dynamic file path]** 옵션을 선택하면 표준 표현식 및 이벤트 변수를 사용하여 전송할 파일의 이름을 개인화할 수 있습니다. 자세한 정보는 이 [페이지](../../automating/using/customizing-workflow-external-parameters.md)를 참조하십시오.
 
 경로는 Adobe Campaign 서버의 저장소 공간 디렉토리에 대한 상대적 경로여야 합니다. 파일은 **sftp&lt;인스턴스명>/** 디렉토리에 있습니다. 또한 저장소 공간 위의 디렉토리는 검색할 수 없습니다.

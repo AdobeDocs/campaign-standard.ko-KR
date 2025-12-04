@@ -50,7 +50,7 @@ ht-degree: 77%
 
    * ![](assets/extsignal_picker.png): 워크플로우에서 사용할 수 있는 모든 변수 중에서 events 변수를 선택합니다([이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 참조).
 
-     예를 들어 [ 변수를 사용하여 ](../../automating/using/transfer-file.md)파일 전송&#x200B;**[!UICONTROL filesCount]** 활동 후 다운로드한 파일 수를 확인할 수 있습니다.
+     예를 들어 [&#x200B; 변수를 사용하여 &#x200B;](../../automating/using/transfer-file.md)파일 전송&#x200B;**[!UICONTROL filesCount]** 활동 후 다운로드한 파일 수를 확인할 수 있습니다.
 
      ![](assets/wkf_test_activity_variables.png)
 

@@ -46,7 +46,7 @@ ht-degree: 68%
      ![](assets/wkf_data_export9.png)
 
 1. 활동을 확인합니다.
-1. [ 활동 뒤에 ](../../automating/using/transfer-file.md)파일 전송&#x200B;**[!UICONTROL Extract file]** 활동을 끌어다 놓아 외부 계정에서 추출 파일을 복구합니다.
+1. [&#x200B; 활동 뒤에 &#x200B;](../../automating/using/transfer-file.md)파일 전송&#x200B;**[!UICONTROL Extract file]** 활동을 끌어다 놓아 외부 계정에서 추출 파일을 복구합니다.
 1. 활동을 열고 **[!UICONTROL File upload]** 작업을 선택합니다.
 
    ![](assets/wkf_data_export11.png)

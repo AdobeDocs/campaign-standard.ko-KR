@@ -151,7 +151,7 @@ Adobe Campaign은 워크플로 문제를 더 잘 이해할 수 있도록 다양�
 1. 워크플로 작업 영역에서 **[!UICONTROL Edit properties]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL General]** > **[!UICONTROL Execution]**&#x200B;에서 **[!UICONTROL Save SQL queries in the log]**&#x200B;및 옵션 **[!UICONTROL Execute in the engine]**&#x200B;을 선택하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
-****&#x200B;로그에서 SQL 쿼리를 보려면
+**&#x200B;**&#x200B;로그에서 SQL 쿼리를 보려면
 1. **[!UICONTROL Log and Tasks]**&#x200B;을(를) 클릭 합니다.
 1. **[!UICONTROL Logs]**&#x200B;탭에서 **[!UICONTROL Search]**&#x200B;패널을 엽니다.
 1. **[!UICONTROL Display SQL logs only]**&#x200B;을(를) 확인 합니다.

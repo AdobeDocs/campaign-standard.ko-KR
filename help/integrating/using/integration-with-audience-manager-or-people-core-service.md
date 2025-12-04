@@ -119,7 +119,7 @@ Audience Manager 내에는 Adobe Campaign(MID)와 Adobe Campaign(DeclortedId)의
 
 >[!NOTE]
 >
->**[!UICONTROL AAM Destination ID]** Campaign-Triggers 통합[에 대한 공유 데이터 원본을 구성하는 경우에는 ](../../integrating/using/configuring-triggers-in-experience-cloud.md) 필드가 필요하지 않습니다. **[!UICONTROL Priority]**&#x200B;은(는) 트리거 - Campaign 통합을 구성할 때만 필요합니다. 우선 순위는 어떤 데이터 Source이 먼저 구성될지 결정합니다. 우선 순위는 1 또는 100과 같은 임의의 숫자일 수 있습니다. 우선순위가 높을수록 조정 시 선호도가 높아집니다.
+>**[!UICONTROL AAM Destination ID]** Campaign-Triggers 통합[에 대한 공유 데이터 원본을 구성하는 경우에는 &#x200B;](../../integrating/using/configuring-triggers-in-experience-cloud.md) 필드가 필요하지 않습니다. **[!UICONTROL Priority]**&#x200B;은(는) 트리거 - Campaign 통합을 구성할 때만 필요합니다. 우선 순위는 어떤 데이터 Source이 먼저 구성될지 결정합니다. 우선 순위는 1 또는 100과 같은 임의의 숫자일 수 있습니다. 우선순위가 높을수록 조정 시 선호도가 높아집니다.
 
 ### 3단계: Campaign 추적 서버 구성 {#step-3--configure-campaign-tracking-server}
 

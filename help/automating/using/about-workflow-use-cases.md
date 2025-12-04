@@ -54,7 +54,7 @@ ht-degree: 70%
 
 * [데이터베이스로 파일 대상자 조정](../../automating/using/reconcile-file-audience-with-database.md)
 * [가져온 파일에서 데이터 중복 제거](../../automating/using/deduplicating-data-imported-file.md)
-* [ 파일에 포함된 데이터로 프로필 데이터 보강](../../automating/using/enriching-profile-data-file.md)
+* [&#x200B; 파일에 포함된 데이터로 프로필 데이터 보강](../../automating/using/enriching-profile-data-file.md)
 * [외부 신호 활동 및 데이터 가져오기](../../automating/using/external-signal-data-import.md)
 * [외부 데이터로 데이터베이스 업데이트](../../automating/using/update-database-file.md)
 * [자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)

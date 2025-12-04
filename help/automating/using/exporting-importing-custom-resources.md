@@ -54,7 +54,7 @@ ht-degree: 95%
 
    ![](assets/cusresources_export2.png)
 
-1.  **[!UICONTROL Custom resource]**&#x200B;의 세부 사항을 구성하려면 필터링 조건에서 두 리소스 **Products** 및 **Orders**&#x200B;를 선택합니다.
+1. **[!UICONTROL Custom resource]**&#x200B;의 세부 사항을 구성하려면 필터링 조건에서 두 리소스 **Products** 및 **Orders**&#x200B;를 선택합니다.
 
    논리 연산자는 반드시 변경해야 합니다. 제품 리소스 및 주문 리소스의 구조를 패키지에 통합하려면 **OR**&#x200B;로 값을 설정해야 합니다.
 

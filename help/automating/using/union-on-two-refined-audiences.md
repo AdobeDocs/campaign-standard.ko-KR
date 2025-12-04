@@ -27,5 +27,5 @@ ht-degree: 43%
 
 * 골드 멤버 대상자를 검색하고 18세에서 30세 사이의 프로필만 선택하여 정교화하는 첫 번째 [대상자 읽기](../../automating/using/read-audience.md) 활동.
 * 두 번째 **[!UICONTROL Read audience]** 활동으로 실버 멤버 대상자를 검색하고 18세에서 30세 사이의 프로필만 선택하여 정교화합니다.
-* 두 [ 활동의 모집단을 하나의 최종 모집단으로 통합하는 ](../../automating/using/union.md)Union **[!UICONTROL Read audiences]** 활동입니다.
-* [ 활동에서 만든 모집단에 전자 메일을 보내는 ](../../automating/using/email-delivery.md)전자 메일 게재&#x200B;**[!UICONTROL Union]** 활동.
+* 두 [&#x200B; 활동의 모집단을 하나의 최종 모집단으로 통합하는 &#x200B;](../../automating/using/union.md)Union **[!UICONTROL Read audiences]** 활동입니다.
+* [&#x200B; 활동에서 만든 모집단에 전자 메일을 보내는 &#x200B;](../../automating/using/email-delivery.md)전자 메일 게재&#x200B;**[!UICONTROL Union]** 활동.

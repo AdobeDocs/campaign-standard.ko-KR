@@ -39,7 +39,7 @@ ht-degree: 79%
 
 1. [세분화](../../automating/using/segmentation.md) 활동을 끌어다 놓고 두 번 클릭합니다.
 1. 세그먼트를 클릭한 다음 첫 번째 도시의 사용자를 타겟팅하기 위해 전환을 엽니다. 보스턴입니다.
-1. **[!UICONTROL Location]**&#x200B;을(를) 끌어다 놓고 연산자 **[!UICONTROL equals to]**&#x200B;와(과) 값 **[!UICONTROL Boston]**(으)로 **[!UICONTROL City]**을(를) 선택합니다. 
+1. **[!UICONTROL Location]**&#x200B;을(를) 끌어다 놓고 연산자 **[!UICONTROL equals to]**&#x200B;와(과) 값 **[!UICONTROL Boston]**(으)로 **[!UICONTROL City]**&#x200B;을(를) 선택합니다. 
 참고: 보스턴에 들어온 모든 사람과 연결하려면 대/소문자 구분 옵션의 선택을 취소하십시오.
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL List of outbound segments]**&#x200B;에서 **[!UICONTROL Add an element]**&#x200B;을(를) 클릭하고 ![](assets/edit_darkgrey-24px.png)을(를) 클릭하여 두 번째 도시의 사용자를 타겟팅하는 세그먼트를 만듭니다. 시카고입니다.

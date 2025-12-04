@@ -48,7 +48,7 @@ ht-degree: 33%
 
 ### 실행 당일 생성된 프로필 검색 {#retrieving-profiles-created-on-the-same-day}
 
-1. **[!UICONTROL Profile]**&#x200B;에서 **[!UICONTROL Created]** 필드를 끌어서 놓습니다. **[!UICONTROL Advanced Mode]**을(를) 클릭합니다.
+1. **[!UICONTROL Profile]**&#x200B;에서 **[!UICONTROL Created]** 필드를 끌어서 놓습니다. **[!UICONTROL Advanced Mode]**&#x200B;을(를) 클릭합니다.
    ![](assets/advanced_mode.png)
 1. **[!UICONTROL list of functions]**&#x200B;에서 **[!UICONTROL Day]** 노드에서 **[!UICONTROL Date]**&#x200B;을(를) 두 번 클릭합니다.
 1. **[!UICONTROL Created]** 필드를 인수로 삽입합니다.

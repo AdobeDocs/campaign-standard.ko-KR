@@ -22,7 +22,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->[ 역할과 ](../../administration/using/users-management.md#functional-administrators)모든&#x200B;**[!UICONTROL Administration]** 장치에 대한 액세스 권한을 가진 기능 **관리자**&#x200B;만 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블(프로필, 게재)에서 시작합니다.
+>[&#x200B; 역할과 &#x200B;](../../administration/using/users-management.md#functional-administrators)모든&#x200B;**[!UICONTROL Administration]** 장치에 대한 액세스 권한을 가진 기능 **관리자**&#x200B;만 전송 로그, 메시지 로그, 추적 로그, 제외 또는 구독 로그에 액세스할 수 있습니다. 관리자가 아닌 사용자는 이러한 로그를 타깃팅할 수 있지만 연결된 테이블(프로필, 게재)에서 시작합니다.
 
 워크플로우가 실행될 때마다 새 로그만 검색하는 **[!UICONTROL Incremental query]**&#x200B;과(와) 출력 열을 정의하는 간단한 **[!UICONTROL Extract file]** 활동을 사용하면 형식이 포함된 파일과 필요한 모든 데이터를 가져올 수 있습니다. 그런 다음 **[!UICONTROL Transfer file]** 활동을 사용하여 최종 파일을 검색하십시오. 각 워크플로우 실행은 **[!UICONTROL Scheduler]**&#x200B;에서 계획합니다.
 

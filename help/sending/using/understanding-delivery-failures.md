@@ -90,13 +90,13 @@ ht-degree: 59%
 
 >[!IMPORTANT]
 >
->**이제 Campaign 게재의&#x200B;**[!UICONTROL Delivery duration]**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+>**이제 Campaign 게재의&#x200B;**&#x200B;[!UICONTROL Delivery duration]&#x200B;**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
 예를 들어 게재를 위한 다시 시도가 1일 후 중지되도록 하려면 게재 기간을 **1d**(으)로 설정할 수 있으며 다시 시도 큐의 메시지는 1일 후 제거됩니다.
 
 >[!NOTE]
 >
->메시지가 최대 3.5일 동안 다시 시도 큐에 있고 배달에 실패하면 시간이 초과되고 <!--from **[!UICONTROL Sent]**-->게재 로그&#x200B;**[!UICONTROL Failed]**&#x200B;에서 [(으)로 ](../../sending/using/monitoring-a-delivery.md#delivery-logs) 상태가 업데이트됩니다.
+>메시지가 최대 3.5일 동안 다시 시도 큐에 있고 배달에 실패하면 시간이 초과되고 <!--from **[!UICONTROL Sent]**-->게재 로그&#x200B;**[!UICONTROL Failed]**&#x200B;에서 [(으)로 &#x200B;](../../sending/using/monitoring-a-delivery.md#delivery-logs) 상태가 업데이트됩니다.
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
