@@ -128,10 +128,10 @@ Campaign 컨트롤 패널을 사용할 자격이 없는 경우 Adobe 고객 지�
 
 이 비디오는 GPG 키를 사용하여 데이터를 해독하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41357?captions=kor&quality=12)
 
 이 비디오는 GPG 키를 사용하여 데이터를 암호화하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41340?captions=kor&quality=12)
 
 추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
