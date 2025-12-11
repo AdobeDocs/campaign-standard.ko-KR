@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7259'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ SMTP 테스트 모드 사용이 자세히 설명되어 있습니다. [자세히 
 
 ## 2022년 3월 {#doc-updates-march-2022}
 
-프로필 대체를 사용하여 증명을 보내면 선택한 프로필의 로그에 레코드가 추가된다는 점을 지정하는 메모가 추가되었습니다. [자세히 보기](../../sending/using/testing-messages-using-target.md)
+프로필 교체를 사용하여 교정쇄를 보내면 선택한 프로필의 로그에 레코드가 추가된다는 점을 설명하는 메모를 추가했습니다. [자세히 보기](../../sending/using/testing-messages-using-target.md)
 
 ## 릴리스 22.1 - 2022년 2월 {#release-22-1}
 
@@ -245,7 +245,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 **트랜잭션 메시지 제한** 섹션을 [여기](../../channels/using/transactional-messaging-limitations.md)로 이동했습니다.
 
-**전송 준비** 섹션이[&#x200B; 여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
+**전송 준비** 섹션이[ 여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
 
 ## 2020년 7월 {#doc-updates-july-2020}
 
@@ -353,7 +353,7 @@ Azure Blob 통합 - [자세한 내용](../../administration/using/external-accou
 
 ## 2020년 3월 {#doc-updates-march-2020}
 
-개선된 MTA에 대해 더 자세한 정보를 핵심 설명서에 추가했습니다. 특히 이메일 처리 규칙 및 바운스 메일 선별에 대해 자세히 설명했습니다. [자세한 내용](../../administration/using/configuring-email-channel.md#email-processing-rules)
+개선된 MTA에 대해 더 자세한 정보를 핵심 설명서에 추가했습니다. 특히 이메일 처리 규칙 및 바운스 이메일 선별에 대해 자세히 설명했습니다. [자세한 내용](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 이메일 BCC를 통해 아카이빙하는 방법에 대한 섹션을 이동 및 업데이트했습니다. [자세한 내용](../../sending/using/archiving.md)
 
@@ -569,7 +569,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 다음 [페이지](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=ko)가 Adobe Campaign Standard의 공식 비디오 페이지가 됩니다.
 
-데이터 유지에 대한 섹션을 추가했습니다. 여기에는 표준 테이블의 기본 유지 값이 포함되어 있습니다. [자세한 내용](../../administration/using/data-retention.md)
+데이터 보존에 대한 섹션을 추가했습니다. 여기에는 표준 테이블의 기본 보존 값이 포함되어 있습니다. [자세한 내용](../../administration/using/data-retention.md)
 
 업데이트 및 유지 관리 작업에 대한 섹션을 추가했습니다. [자세한 내용](../../administration/using/updates-and-maintenance-operations.md)
 
@@ -589,7 +589,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 다이내믹 보고서의 지표 계산 섹션을 업데이트했습니다. [자세한 내용](../../reporting/using/indicator-calculation.md)
 
-다이내믹 보고 호환성 테이블을 추가했습니다. 이 테이블을 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ko)
+다이내믹 보고 호환성 테이블을 추가했습니다. 이 테이블을 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 워크플로에 대한 함수 목록이 업데이트되었습니다. [자세한 내용](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니
 
 게재를 준비하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세한 내용](../../sending/using/preparing-the-send.md)
 
-허가 목록이 포함된 섹션을 제거했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)&#x200B;(PDF)
+허가 목록이 포함된 섹션을 제거했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)&#x200B;(PDF)
 
 SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세한 내용](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 Adobe Campaign을 통한 사용자 핵심 서비스 또는 Audience Manager 통합을 구성하기 위한 지침을 추가했습니다. [자세한 내용](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-승인 테이블에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)
+승인 테이블에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 업데이트했습니다.
 
