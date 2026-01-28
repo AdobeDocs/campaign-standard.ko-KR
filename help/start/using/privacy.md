@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1377'
 ht-degree: 100%
 
@@ -34,10 +34,10 @@ Adobe Campaign은 개인 정보와 중요한 데이터를 포함한 많은 양�
 
 개인 정보를 올바로 처리하고 개인 데이터를 관리하기 위해 운영하는 지역에 적용되는 법규 내에서 작업하십시오. 다음과 같은 규정이 있습니다.
 * [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (European General Data Protection Regulation)
-* [DPA](https://www.gov.uk/data-protection)(영국의 GDPR 구현)
+* [DPA](https://www.gov.uk/data-protection)&#x200B;(영국의 GDPR 구현)
 * [개인 정보 및 전자 통신에 관한 유럽 지침](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
 * [CAN-SPAM Act](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business) (상업용 이메일에 관한 규정 및 요구 사항에 설정된 미국 법)
-* [CPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
+* [CPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=) (California Consumer Privacy Act)
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Thailand Personal Data Protection Act)
 
 >[!NOTE]
@@ -107,7 +107,7 @@ Adobe Campaign은 개인 정보 관리를 위한 다양한 기능을 제공합�
 * 개인 정보 보호 요청(액세스 권한 및 잊혀질 권리). [이 섹션](#privacy-requests)을 참조하십시오.
 * 개인 정보 판매 옵트아웃 (CCPA-특정). [이 섹션](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)을 참조하십시오.
 
-Campaign의 주요 개인 정보 보호 기능과 관련된 개인의 예가 [이 섹션](#personal-data)에 나와 있습니다.
+Campaign의 주요 개인 정보 보호 기능과 여기에 관련된 페르소나의 예가 [이 섹션](#personal-data)에 제시되어 있습니다.
 
 
 ### 동의, 보존 및 역할 {#consent}
@@ -142,4 +142,4 @@ Adobe Campaign은 특정 개인 정보 보호 요청에 대해 데이터 컨트�
 >
 >GDPR(General Data Protection Regulation)과 같은 규정에서는 회사가 쿠키를 설치하기 전에 웹 사이트 사용자의 계약을 요구하는 것을 명시합니다. 인증 요청을 통해 사이트에 웹 추적 도구가 설치되어 있음을 사용자에게 알려야 합니다.
 
-또한 메시지에 [추적된 링크](../../designing/using/links.md#about-tracked-urls)를 추가하여 게재 및 수신자 행동의 영향을 [추적 지표](../../reporting/using/tracking-indicators.md) 기본 보고서에서 측정하거나 [전용 보고서](../../reporting/using/about-dynamic-reports.md)를 만들 수도 있습니다.
+또한 메시지에 [추적된 링크](../../designing/using/links.md#about-tracked-urls)를 추가하여 게재 및 수신자 행동의 영향을 [추적 지표](../../reporting/using/tracking-indicators.md) 기본 제공 보고서에서 측정하거나 [전용 보고서](../../reporting/using/about-dynamic-reports.md)를 만들 수도 있습니다.

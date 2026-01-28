@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Adobe는 법률적 조언을 제공하지 않습니다. 따라서 사용자가 �
 
 Adobe Campaign은 이미 사용자 지정된 데이터 필드나 서비스 한 두개를 통해 이용하는 것보다 더 많은 수준에서 동의를 관리할 수 있는 기능을 제공하고 있습니다.
 
-마케터는 진행 방법에 대한 지침을 얻기 위해 법률 자문을 구하고 Adobe Campaign에 내장된 기능을 이용해야 합니다.
+마케터는 진행 방법에 대한 지침을 얻기 위해 법률 자문을 구하고 Adobe Campaign의 기본 제공 기능을 최대한 활용해야 합니다.
 
 예를 들어 Adobe Campaign에서 데이터 모델을 확장하여 사용자가 옵트인을 선택한 경우뿐만 아니라 옵트인의 타임스탬프 및 정확한 동의 범위를 캡처하는 일부 유형의 지표를 추적합니다.
 
