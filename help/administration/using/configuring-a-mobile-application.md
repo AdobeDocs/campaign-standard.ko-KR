@@ -1,14 +1,14 @@
 ---
 title: 모바일 애플리케이션 구성
-description: Experience Platform SDK를 사용하여 푸시 알림 또는 인앱 메시지를 보내도록 Adobe Campaign을 구성하는 방법에 대해 알아봅니다
+description: Experience Platform SDK을 사용하여 푸시 알림 또는 인앱 메시지를 보내도록 Adobe Campaign을 구성하는 방법에 대해 알아봅니다
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
+source-git-commit: c1914c855011868c76debebbea87d7416faaf0dc
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1309'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch은 Adobe Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과 제품 설명서에 몇 가지 용어 변경 사항이 적용되었습니다. 용어 변경에 대한 통합 참고 자료는 [다음 문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ko){target="_blank"}를 참조하십시오.
+> Adobe Experience Platform Launch은 Adobe Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과 제품 설명서에 몇 가지 용어 변경 사항이 적용되었습니다. 용어 변경에 대한 통합 참고 자료는 [다음 문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"}를 참조하십시오.
 
 푸시 알림 및 인앱 구현은 전문가 사용자가 수행해야 합니다. 도움이 필요하면 Adobe 계정 담당자 또는 전문 서비스 파트너에게 문의하십시오.
 
@@ -40,10 +40,10 @@ Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지�
 
 1. 사용자에게 Adobe Campaign Standard에 필요한 권한이 있는지, Adobe Experience Platform에 있는 태그가 있는지 확인합니다.
 
-   * Adobe Campaign Standard에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필의 일부인지 확인합니다. 이 단계에서는 사용자가 Adobe Campaign Standard에 로그인하고, Experience Platform SDK 모바일 앱 페이지로 이동하고, 데이터 수집 UI에서 만든 모바일 앱 속성을 볼 수 있습니다.
+   * Adobe Campaign Standard에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필의 일부인지 확인합니다. 이 단계에서는 사용자가 Adobe Campaign Standard에 로그인하고 Experience Platform SDK 모바일 앱 페이지로 이동한 다음, 데이터 수집 UI에서 만든 모바일 앱 속성을 볼 수 있습니다.
 
    * 데이터 수집 UI에서 IMS 사용자가 Experience Platform Launch 제품 프로필의 일부인지 확인합니다.
-이 단계에서는 사용자가 데이터 수집 UI에 로그인하여 속성을 만들고 볼 수 있습니다. 데이터 수집 UI의 제품 프로필에 대한 자세한 내용은 [제품 프로필 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=ko#gain-admin-rights-for-a-tags-product-profile)를 참조하십시오. 제품 프로필에 회사 또는 속성에 대해 설정된 권한이 없어야 하지만 사용자는 계속 로그인할 수 있어야 합니다.
+이 단계에서는 사용자가 데이터 수집 UI에 로그인하여 속성을 만들고 볼 수 있습니다. 데이터 수집 UI의 제품 프로필에 대한 자세한 내용은 [제품 프로필 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)를 참조하십시오. 제품 프로필에 회사 또는 속성에 대해 설정된 권한이 없어야 하지만 사용자는 계속 로그인할 수 있어야 합니다.
 
    확장 설치, 앱 게시, 환경 구성 등과 같은 추가 작업을 완료하려면 제품 프로필에서 권한을 설정해야 합니다.
 
@@ -123,7 +123,7 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방�
 
 1. 이 구성을 적용하려면 변경 사항을 데이터 수집 UI에 게시해야 합니다.
 
-   자세한 내용은 [Publish 구성](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)을 참조하세요.
+   자세한 내용은 [구성 게시](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)를 참조하십시오.
 
 ## Adobe Campaign의 채널별 애플리케이션 구성 {#channel-specific-config}
 
@@ -143,32 +143,32 @@ Launch 기술 워크플로우에서 모바일 앱 AEPSDK를 동기화하는 방�
 
    ![](assets/launch_7.png)
 
-1. **[!UICONTROL Add]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
    이제 인앱 메시지를 만들 때 트리거 탭에서 이벤트를 사용할 수 있습니다. 자세한 내용은 [인앱 메시지 준비 및 보내기](../../channels/using/preparing-and-sending-an-in-app-message.md)를 참조하십시오.
 
 1. 모바일 응용 프로그램 대시보드의 **[!UICONTROL Device-specific settings]** 섹션에서 각 장치에 대해 응용 프로그램 세부 정보를 제공합니다.
 
-   +++*  iOS용
+   +++ iOS용
 
-     다음 애플리케이션 세부 정보를 입력합니다.
+   다음 애플리케이션 세부 정보를 입력합니다.
 
-      * **앱 ID(iOS 번들 ID)**: 번들 ID에 대한 자세한 내용은 [Apple 설명서](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"}를 참조하세요.
-      * **iOS 인증서(P8) 파일**: .p8 인증 키를 끌어서 놓습니다. .p8 인증 파일을 생성하는 방법에 대한 지침은 [Apple 개발자 계정](https://developer.apple.com/account/ios/authkey/create){target="_blank"}을 참조하세요.
-      * **키 ID**: 키 ID에 대한 자세한 내용은 [Apple 설명서](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}를 참조하세요.
-      * **iOS 팀 ID**: iOS 팀 ID에 대한 자세한 내용은 [Apple 설명서](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}를 참조하십시오.
+   * **앱 ID(iOS 번들 ID)**: 번들 ID에 대한 자세한 내용은 [Apple 설명서](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"}를 참조하세요.
+   * **iOS 인증서(P8) 파일**: .p8 인증 키를 끌어서 놓습니다. .p8 인증 파일을 생성하는 방법에 대한 지침은 [Apple 개발자 계정](https://developer.apple.com/account/ios/authkey/create){target="_blank"}을 참조하세요.
+   * **키 ID**: 키 ID에 대한 자세한 내용은 [Apple 설명서](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}를 참조하세요.
+   * **iOS 팀 ID**: iOS 팀 ID에 대한 자세한 내용은 [Apple 설명서](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}를 참조하십시오.
 
-        ![](assets/mobile_app_ios_config.png)
-   +++
+         ![](assets/mobile_app_ios_config.png)
+     +++
 
-   +++*  Android용
+   +++ Android용
 
-     다음 애플리케이션 세부 정보를 입력합니다.
+   다음 애플리케이션 세부 정보를 입력합니다.
 
-      * **앱 ID(Android 패키지 이름)**: 패키지 이름에 대한 자세한 내용은 [Android 설명서](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"}를 참조하십시오.
-      * **Android 키(Json) 파일**: .json 개인 키 파일을 끌어서 놓습니다. .json 개인 키 파일을 생성하는 방법에 대한 지침은 [Firebase용 개발자 설명서](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}를 참조하십시오.
+   * **앱 ID(Android 패키지 이름)**: 패키지 이름에 대한 자세한 내용은 [Android 설명서](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"}를 참조하십시오.
+   * **Android 키(Json) 파일**: .json 개인 키 파일을 끌어서 놓습니다. .json 개인 키 파일을 생성하는 방법에 대한 지침은 [Firebase용 개발자 설명서](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}를 참조하십시오.
 
-        ![](assets/mobile_app_android_config.png)
+     ![](assets/mobile_app_android_config.png)
    +++
 
 1. 인증서가 업로드되면 업로드가 성공했음을 알리고 인증서의 만료 날짜를 표시하는 메시지가 표시됩니다.
