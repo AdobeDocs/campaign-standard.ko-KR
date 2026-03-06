@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
+source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 89%
+source-wordcount: '1754'
+ht-degree: 90%
 
 ---
 
@@ -18,6 +18,7 @@ ht-degree: 89%
 + 릴리스 정보 {#release-notes}
    + [최신 릴리스](rn/using/release-notes.md)
    + 이전 릴리스 {#previous-releases}
+      + [2025](rn/using/release-notes-2025.md)
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -51,7 +52,7 @@ ht-degree: 89%
 + 프로필 및 대상자 {#profiles-and-audiences}
    + [프로필 및 대상자 시작하기](audiences/using/get-started-profiles-and-audiences.md)
    + 프로필 관리 {#managing-profiles}
-      + [프로필 기본 정보](audiences/using/about-profiles.md)
+      + [프로필 정보](audiences/using/about-profiles.md)
       + [프로필 만들기](audiences/using/creating-profiles.md)
       + [프로필 편집](audiences/using/editing-profiles.md)
       + [통합 고객 프로필](audiences/using/integrated-customer-profile.md)
@@ -296,7 +297,7 @@ ht-degree: 89%
       + [워크플로 호출 시 매개 변수 정의](automating/using/defining-parameters-calling-workflow.md)
       + [이벤트 변수 모니터링](automating/using/monitoring-events-variables.md)
       + [외부 매개 변수를 사용하여 워크플로 사용자 정의](automating/using/customizing-workflow-external-parameters.md)
-      + [활용 사례](automating/using/use-case-calling-workflow.md)
+      + [사용 사례](automating/using/use-case-calling-workflow.md)
    + 타겟팅 활동 {#targeting-activities}
       + [타겟팅 활동 기본 정보](automating/using/about-targeting-activities.md)
       + [쿼리](automating/using/query.md)
@@ -372,7 +373,7 @@ ht-degree: 89%
       + 데이터 관리 {#data-management}
          + [데이터베이스로 파일 대상자 조정](automating/using/reconcile-file-audience-with-database.md)
          + [가져온 파일에서 데이터 중복 제거](automating/using/deduplicating-data-imported-file.md)
-         + [&#x200B; 파일에 포함된 데이터로 프로필 데이터 보강](automating/using/enriching-profile-data-file.md)
+         + [ 파일에 포함된 데이터로 프로필 데이터 보강](automating/using/enriching-profile-data-file.md)
          + [외부 신호 활동 및 데이터 가져오기](automating/using/external-signal-data-import.md)
          + [외부 데이터로 데이터베이스 업데이트](automating/using/update-database-file.md)
          + [자동 파일 다운로드를 기반으로 데이터 업데이트](automating/using/update-data-automatic-download.md)
@@ -441,7 +442,7 @@ ht-degree: 89%
    + 모바일 채널 구성 {#configuring-mobile}
       + [푸시 추적 구현](administration/using/push-tracking.md)
       + [iOS 이미지 및 비디오 추가](administration/using/image-push-notification.md)
-      + [&#x200B; 푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
+      + [ 푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
       + [로컬 알림 추적 구현](administration/using/local-tracking.md)
       + [Adobe Experience Platform 동기화의 태그 FAQ](administration/using/syncwithlaunch-faq.md)
       + [Experience Platform SDK 통합 FAQ](administration/using/aep-faq.md)
@@ -501,11 +502,11 @@ ht-degree: 89%
    + 조직 단위 관리 {#managing-organizational-units}
       + [프로필의 조직 단위 검색](api/using/retrieving-an-organizational-unit.md)
       + [프로필의 조직 단위 업데이트](api/using/updating-profile-organizational-unit.md)
-      + [조직 단위 특성 업데이트](api/using/updating-organizational-unit-attributes.md)
+      + [조직 단위 속성 업데이트](api/using/updating-organizational-unit-attributes.md)
    + 지리 단위 관리 {#managing-geographical-units}
       + [프로필의 지리 단위 검색](api/using/retrieving-a-geographical-unit.md)
       + [프로필의 지리 단위 업데이트](api/using/updating-a-geographical-unit.md)
-      + [지리 단위 특성 업데이트](api/using/updating-geographical-unit-attributes.md)
+      + [지리 단위 속성 업데이트](api/using/updating-geographical-unit-attributes.md)
    + [문제 해결](api/using/troubleshooting.md)
 + [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
 
