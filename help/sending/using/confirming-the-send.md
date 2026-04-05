@@ -90,7 +90,7 @@ KPI를 업데이트하는 데 너무 오래 걸리거나 전송 로그의 결과
 
 각 전자 메일의 **[!UICONTROL Summary]** 보기에서 **[!UICONTROL Delivered]** 비율은 100%에서 시작하다가 소프트 바운스와 하드 바운스가 다시 보고됨에 따라 게재 [유효 기간](../../administration/using/configuring-email-channel.md#validity-period-parameters) 동안 점진적으로 감소합니다<!--from the Enhanced MTA to Campaign-->.
 
-실제로 모든 메시지는 Campaign에서 Enhanced MTA(메시지 전송 에이전트)로 성공적으로 릴레이되는 즉시 **[!UICONTROL Sent]**&#x200B;전송 로그[에 ](../../sending/using/monitoring-a-delivery.md#sending-logs)(으)로 표시됩니다. 해당 메시지에 대한 [바운스](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 통신되지 않는 한 또는 통신될 때까지 이 상태는 유지됩니다.
+실제로 모든 메시지는 Campaign에서 Enhanced MTA(메시지 전송 에이전트)로 성공적으로 릴레이되는 즉시 **[!UICONTROL Sent]**&#x200B;전송 로그[에 &#x200B;](../../sending/using/monitoring-a-delivery.md#sending-logs)(으)로 표시됩니다. 해당 메시지에 대한 [바운스](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 통신되지 않는 한 또는 통신될 때까지 이 상태는 유지됩니다.
 
 하드 바운스 메시지가 Enhanced MTA에서 다시 보고되면 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 **[!UICONTROL Delivered]** 비율이 그에 따라 감소합니다.
 
