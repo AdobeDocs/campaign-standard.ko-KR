@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 6%
@@ -68,7 +68,7 @@ ht-degree: 6%
    >
    >이벤트가 트랜잭션 메시지 전송을 트리거하려면 방금 만든 메시지를 수정하고 게시해야 합니다. [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md) 및 [게시](../../channels/using/publishing-transactional-message.md) 섹션을 참조하십시오. 또한 [이 트리거 이벤트를 통합](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)하여 웹 사이트에 통합해야 합니다.
 
-1. Adobe Campaign에서 이 이벤트 구성과 관련된 이벤트를 받기 시작하면 **[!UICONTROL History]** 섹션 아래의 **[!UICONTROL Latest transactional events]** 링크를 클릭하여 서드파티 서비스에서 보내고 Adobe Campaign에서 처리한 최신 이벤트에 액세스할 수 있습니다.
+1. Adobe Campaign에서 이 이벤트 구성과 관련된 이벤트를 받기 시작하면 **[!UICONTROL Latest transactional events]** 섹션 아래의 **[!UICONTROL History]** 링크를 클릭하여 서드파티 서비스에서 보내고 Adobe Campaign에서 처리한 최신 이벤트에 액세스할 수 있습니다.
 
 ![](assets/message-center_latest-events.png)
 
@@ -88,13 +88,15 @@ ht-degree: 6%
 
 새 REST API를 생성하려면 **[!UICONTROL Publish]** 단추를 클릭하십시오.
 
-<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
+<!--
+## Transactional messaging publication process {#transactional-messaging-pub-process}
 
 The chart below illustrates the transactional messaging publication process.
 
 ![](assets/message-center_pub-process.png)
 
-For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
+For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).
+-->
 
 ## 이벤트 삭제 {#deleting-an-event}
 

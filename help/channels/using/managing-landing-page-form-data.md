@@ -9,7 +9,7 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 12%
@@ -60,7 +60,7 @@ ht-degree: 12%
    >
    >랜딩 페이지는 **[!UICONTROL Profiles]** 또는 **[!UICONTROL Service]** 리소스로만 매핑할 수 있습니다.
 
-   이 예제에서는 랜딩 페이지의 **이름** 필드를 **[!UICONTROL Profiles]** 리소스의 **[!UICONTROL Last name]** 필드에 매핑합니다.
+   이 예제에서는 랜딩 페이지의 **이름** 필드를 **[!UICONTROL Last name]** 리소스의 **[!UICONTROL Profiles]** 필드에 매핑합니다.
 
    ![](assets/lp_database-field-example.png)
 
@@ -156,9 +156,11 @@ ht-degree: 12%
 
      ![](assets/lp_show_source.png)
 
-     <!--Manually insert a checkbox, such as in the example below:
+     <!--
+      Manually insert a checkbox, such as in the example below:
 
-      <!--Click **[!UICONTROL Hide source]**.-->
+      Click **[!UICONTROL Hide source]**.
+      -->
 
 1. 확인란을 선택해야 합니다.
 
@@ -172,7 +174,7 @@ ht-degree: 12%
    >
    >**[!UICONTROL Agreement]** 요소가 Campaign 데이터베이스의 필드에 매핑되지 않았습니다.
 
-1. 확인란 고급 속성에 액세스하려면 **[!UICONTROL Form data]** 옆에 있는 ![](assets/lp-properties-icon.png) 아이콘을 클릭합니다.
+1. 확인란 고급 속성에 액세스하려면 ![](assets/lp-properties-icon.png) 옆에 있는 **[!UICONTROL Form data]** 아이콘을 클릭합니다.
 
 1. 필요한 경우 메시지를 편집할 수 있습니다.
 
@@ -184,6 +186,6 @@ ht-degree: 12%
    >
    >이 작업은 기본적으로 필수이며 변경할 수 없습니다.
 
-1. **[!UICONTROL Confirm]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 이제 랜딩 페이지가 표시될 때마다 양식을 제출하기 전에 이 확인란을 선택해야 합니다. 이 확인란을 활성화하지 않으면 경고가 표시되고 사용자가 양식을 제출할 수 없습니다.

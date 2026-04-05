@@ -3,13 +3,13 @@ title: 캠페인 게재 모범 사례
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: 게재 디자인 및 Adobe Campaign 전송과 관련된 모범 사례에 대해 알아봅니다.
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 7%

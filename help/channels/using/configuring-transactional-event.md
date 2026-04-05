@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -105,7 +105,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 보내려면 먼저 이
 
 확장된 **[!UICONTROL Profile and services Ext API]**&#x200B;의 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 있습니다. 자세한 내용은 [API 확장: 확장 게시](../../developing/using/step-2-publish-the-extension.md)를 참조하십시오.
 
-이 정보는 새 리소스에도 저장할 수 있습니다. 이 경우 리소스는 직접 또는 다른 테이블을 통해 **[!UICONTROL Profile]** 또는 **[!UICONTROL Service]** 리소스에 연결되어 있어야 합니다. 예를 들어 아래 구성에서 **[!UICONTROL Product]** 리소스가 **[!UICONTROL Profile]** 리소스에 연결된 경우 제품 범주 또는 ID와 같은 **[!UICONTROL Product]** 리소스의 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 있습니다.
+이 정보는 새 리소스에도 저장할 수 있습니다. 이 경우 리소스는 직접 또는 다른 테이블을 통해 **[!UICONTROL Profile]** 또는 **[!UICONTROL Service]** 리소스에 연결되어 있어야 합니다. 예를 들어 아래 구성에서 **[!UICONTROL Product]** 리소스가 **[!UICONTROL Product]** 리소스에 연결된 경우 제품 범주 또는 ID와 같은 **[!UICONTROL Profile]** 리소스의 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 있습니다.
 
 ![](assets/message-center_usecaseschema.png)
 
@@ -201,7 +201,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 보내려면 먼저 이
 
 1. 이벤트 구성을 만들 때 **[!UICONTROL Profile event]** 타겟팅 차원을 선택합니다([이벤트 만들기](#creating-an-event) 참조).
 1. 트랜잭션 메시지를 개인화하려면 이벤트에 필드를 추가하십시오([이벤트 특성 정의](#defining-the-event-attributes) 참조). 데이터 보강 기능을 만들려면 필드를 하나 이상 추가해야 합니다. Adobe Campaign 데이터베이스의 개인화 필드를 사용할 수 있으므로 **이름** 및 **성**&#x200B;과 같은 다른 필드는 만들 필요가 없습니다.
-1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하기 위해 데이터 보강(이벤트 보강[&#128279;](#enriching-the-transactional-message-content) 참조)을 만들고 이 데이터 보강(3&rbrace;)을 선택합니다.**[!UICONTROL Targeting enrichment]**
+1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하기 위해 데이터 보강(이벤트 보강[ 참조)을 만들고 이 데이터 보강(3})을 선택합니다.](#enriching-the-transactional-message-content)**[!UICONTROL Targeting enrichment]**
 
    >[!IMPORTANT]
    >
@@ -215,7 +215,8 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 보내려면 먼저 이
 
 1. 웹 사이트에 이벤트를 통합합니다([이벤트 트리거 통합](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) 참조).
 
-<!--### Transactional SMS messages {#transactional-sms}
+<!--
+### Transactional SMS messages {#transactional-sms}
 
 The steps to configure an  event to send an SMS transactional message are the same as for the email channel. The only differences are as follows:
 
@@ -223,7 +224,8 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 * When previewing the event corresponding to an event-based transactional SMS, the REST API contains an attribute specifying the mobile phone instead of the email address.
 
-* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).-->
+* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).
+-->
 
 ### 트랜잭션 푸시 알림 {#transactional-push-notifications}
 

@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 70%
@@ -38,7 +38,8 @@ ht-degree: 70%
 * [트랜잭션 메시지 게시 취소](#unpublishing-a-transactional-message)
 * [이벤트 게시](../../channels/using/publishing-transactional-event.md)
 
-<!--## Testing a transactional message {#testing-a-transactional-message}
+<!--
+## Testing a transactional message {#testing-a-transactional-message}
 
 You first need to create a specific test profile that will allow you to properly check the transactional message.
 
@@ -84,7 +85,8 @@ Once you have created one or more specific test profiles and saved your transact
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.
+-->
 
 ## 트랜잭션 메시지 게시 {#publishing-a-transactional-message}
 
@@ -107,7 +109,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 예를 들어 메시지에 포함된 데이터를 수정하기 위해 **[!UICONTROL Pause]** 버튼을 사용하여 트랜잭션 메시지 게시를 일시 중단할 수 있습니다. 그러면 이벤트는 더 이상 처리되지 않고 대신 Adobe Campaign 데이터베이스의 큐에 보관됩니다.
 
-대기 중인 이벤트는 REST API에 정의된 기간([REST API 설명서](../../api/using/managing-transactional-messages.md) 참조) 동안이나 트리거 핵심 서비스를 사용하는 경우에는 트리거 이벤트([Adobe Experience Cloud Triggers 정보](../../integrating/using/about-adobe-experience-cloud-triggers.md) 참조) 동안 유지됩니다.
+대기 중인 이벤트는 REST API에 정의된 기간([REST API 설명서](../../api/using/managing-transactional-messages.md) 참조) 동안이나 트리거 핵심 서비스를 사용하는 경우에는 트리거 이벤트([Adobe Experience Cloud 트리거 정보](../../integrating/using/about-adobe-experience-cloud-triggers.md) 참조) 동안 보관됩니다.
 
 ![](assets/message-center_pause.png)
 
@@ -153,7 +155,8 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 * **기본 제공 이벤트 템플릿의 트랜잭션 메시지(내부 트랜잭션 메시지)**: 내부 트랜잭션 메시지가 해당 내부 이벤트와 연결된 유일한 메시지인 경우 삭제할 수 없습니다. 먼저 복제하거나 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** 메뉴를 통해 다른 트랜잭션 메시지를 만들어야 합니다.
 
-<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
+<!--
+## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
@@ -245,4 +248,5 @@ In the retry process, the sending logs of the new execution delivery are not imm
 
 You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.
+-->

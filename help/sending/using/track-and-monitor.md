@@ -3,13 +3,13 @@ title: 메시지 추적 및 모니터링
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Adobe Campaign을 통해 보낸 메시지를 추적하고 수신자가 게재에 어떻게 반응하는지를 확인할 수 있습니다
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 3%
@@ -44,7 +44,7 @@ ht-degree: 3%
 
 ## 동적 보고서 {#dyn-reports}
 
-동적 보고서를 사용하면 완전히 맞춤화가 가능한 실시간 보고서를 만들어 캠페인을 모니터링할 수 있습니다. Dimension, 지표 및 시각화를 사용하여 캠페인이 수신자에게 미치는 영향과 성공을 측정할 수 있습니다.
+동적 보고서를 사용하면 완전히 맞춤화가 가능한 실시간 보고서를 만들어 캠페인을 모니터링할 수 있습니다. 차원, 지표 및 시각화를 사용하여 캠페인이 수신자에게 미치는 영향과 성공을 측정할 수 있습니다.
 
 **팁** - 기본 제공 보고서를 사용하여 캠페인을 모니터링할 수 있지만 지표나 차원을 보고서에 끌어다 놓아 해당 보고서를 사용자 지정할 수도 있습니다.
 
@@ -52,7 +52,7 @@ ht-degree: 3%
 
 ## 핫 클릭
 
-핫 클릭 보고서는 각 링크에 대한 클릭 비율이 포함된 메시지 콘텐츠(HTML 및/또는 텍스트)를 표시합니다. 각 다이내믹 콘텐츠의 클릭 비율을 표시함으로써 수신자에게 가장 매력적인 콘텐츠를 측정할 수 있습니다.
+핫 클릭 보고서는 각 링크의 클릭 비율이 포함된 메시지 콘텐츠(HTML 및/또는 텍스트)를 제공합니다. 각 다이내믹 콘텐츠의 클릭 비율을 표시함으로써 수신자에게 가장 매력적인 콘텐츠를 측정할 수 있습니다.
 
 자세한 내용은 [핫 클릭 보고서](../../reporting/using/hot-clicks.md)를 참조하세요.
 

@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 22%
+source-wordcount: '1366'
+ht-degree: 23%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 22%
 
 게재 보안 향상 및 최적화 모범 사례를 더 알아보려면 [이 페이지](../../sending/using/delivery-best-practices.md)를 참조하십시오.
 
-### 차단 목록에 추가하다 방역 {#quarantine-vs-denylist}
+### 방역 {#quarantine-vs-denylist}
 
 차단 목록에 추가하다와 동일한 객체에는 적용되지 않습니다.
 
@@ -43,13 +43,13 @@ ht-degree: 22%
 
 * 반면 **차단 목록**&#x200B;을 사용하면 지정된 채널에 대해 구독 취소(옵트아웃) 후와 같이 **프로필**&#x200B;이(가) 더 이상 게재의 타겟이 되지 않습니다. 예를 들어 이메일 채널에 대한 차단 목록에 추가하다의 프로필에 두 개의 이메일 주소가 있는 경우 두 주소 모두 게재에서 제외됩니다. 차단 목록에 추가하다 프로세스에 대한 자세한 내용은 [Campaign의 옵트인 및 옵트아웃 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)를 참조하세요.
 
-  프로필이 프로필의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL No longer contact (on denylist)]** 섹션에서 하나 이상의 채널에 대해 차단 목록에 추가하다에 있는지 확인할 수 있습니다. [이 섹션](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)을 참조하십시오.
+  프로필이 프로필의 **[!UICONTROL No longer contact (on denylist)]** 탭에 있는 **[!UICONTROL General]** 섹션에서 하나 이상의 채널에 대해 차단 목록에 추가하다에 있는지 확인할 수 있습니다. [이 섹션](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)을 참조하십시오.
 
 >[!NOTE]
 >
 >격리에는 받는 사람이 스팸 메시지를 보고하거나 &quot;STOP&quot;과 같은 키워드를 사용하여 SMS 메시지에 회신하는 경우 적용되는 **차단 목록에서** 상태가 포함됩니다. 이 경우 프로필의 관련 주소 또는 전화 번호가 **[!UICONTROL On denylist]** 상태로 격리됩니다. STOP SMS 메시지 관리에 대한 자세한 내용은 [이 섹션](../../channels/using/managing-incoming-sms.md#managing-stop-sms)을 참조하세요.
 
-&lt;!—사용자가 SMS 게재에서 옵트아웃하기 위해 STOP과 같은 키워드로 SMS 메시지에 답장하는 경우, 이메일 옵트아웃 프로세스에서처럼 프로필이 차단 목록에 추가하다에 추가되지 않습니다. 대신 프로필의 전화 번호가 **[!UICONTROL On denylist]** 상태로 격리됩니다. 이 상태는 전화번호만 참조합니다. 즉, 프로필은 이메일 메시지를 계속 수신하게 됩니다.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages. Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## 격리된 주소 확인 {#identifying-quarantined-addresses}
 
@@ -93,7 +93,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ![](assets/quarantines-create-button.png)
 
-주소(또는 전화번호 등) 정의 및 채널 유형. 격리 목록에 있는 상태와 오류 이유를 설정할 수 있습니다. 오류가 발생한 날짜, 오류 수를 표시하고 오류 텍스트를 입력할 수도 있습니다. 필요한 경우 드롭다운 목록에서 주소로 전송된 마지막 게재를 선택합니다.
+주소(또는 전화번호 등)와 채널 유형을 정의합니다. 격리 목록에 있는 상태와 오류 이유를 설정할 수 있습니다. 오류가 발생한 날짜, 오류 수를 표시하고 오류 텍스트를 입력할 수도 있습니다. 필요한 경우 드롭다운 목록에서 주소로 전송된 마지막 게재를 선택합니다.
 
 ![](assets/quarantines-create-last-delivery.png)
 
@@ -107,7 +107,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 * **[!UICONTROL Erroneous]** 상태의 주소는 성공적으로 배달되면 격리 목록에서 제거됩니다.
 * 마지막 소프트 바운스가 10일 이상 전에 발생한 경우 **[!UICONTROL Erroneous]** 상태의 주소가 격리 목록에서 제거됩니다. 소프트 오류 관리에 대한 자세한 내용은 [이 섹션](#soft-error-management)을 참조하세요.
-* **[!UICONTROL Mailbox full]** 오류와 함께 반송된 **[!UICONTROL Erroneous]** 상태의 주소는 30일 후 격리 목록에서 제거됩니다.
+* **[!UICONTROL Erroneous]** 오류와 함께 반송된 **[!UICONTROL Mailbox full]** 상태의 주소는 30일 후 격리 목록에서 제거됩니다.
 
 상태가 **[!UICONTROL Valid]**(으)로 변경됩니다.
 
@@ -144,14 +144,14 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
   예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
 
-* `MM/DD/YYYY HH:MM:SS AM` 또는 이후 **업데이트 상태(@lastModified)**
+* **또는 이후**&#x200B;업데이트 상태(@lastModified)`MM/DD/YYYY HH:MM:SS AM`
 * **업데이트 상태(@lastModified)**(`MM/DD/YYYY HH:MM:SS PM` 또는 이전)
 
 영향을 받는 받는 받는 받는 받는 사람 목록이 있으면 **[!UICONTROL Update data]** 활동을 추가하여 전자 메일 주소 상태를 **[!UICONTROL Valid]**(으)로 설정하여 **[!UICONTROL Database cleanup]** 워크플로우에 의해 격리 목록에서 제거됩니다. 격리 테이블에서 삭제할 수도 있습니다.
 
 ## 주소를 격리하는 조건 {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당된 이유에 따라 격리를 관리합니다([게재 실패 유형 및 이유](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)와 [반송 메일 자격](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 참조).
+Adobe Campaign은 게재 실패 유형 및 오류 메시지 선별 중에 할당된 이유에 따라 격리를 관리합니다([게재 실패 유형 및 이유](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)와 [바운스 이메일 선별](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 참조).
 
 * **무시된 오류**: 오류가 무시된 경우 주소가 격리되지 않습니다.
 * **하드 오류**: 해당 이메일 주소가 즉시 격리됩니다.
@@ -162,7 +162,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
   When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
   -->
 
-사용자가 전자 메일을 스팸 처리하면([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops)) 메시지가 자동으로 Adobe에서 관리하는 기술 사서함으로 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL On denylist]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은 푸시 차단 목록에 있지 않으므로 SMS 메시지와 알림을 계속 수신하게 됩니다.
+사용자가 이메일을 스팸 처리하면([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)) 메시지가 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL On denylist]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은 푸시 차단 목록에 있지 않으므로 SMS 메시지와 알림을 계속 수신하게 됩니다.
 
 >[!NOTE]
 >
@@ -178,7 +178,9 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 자격 중에 할당
 
 [게재 기간](../../administration/using/configuring-email-channel.md#validity-period-parameters) 동안 다시 시도합니다. 오류 카운터가 제한 임계값에 도달하면 주소가 격리됩니다. 자세한 내용은 [일시적 게재 실패 후 다시 시도](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)를 참조하세요.
 
-<!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
-The error counter threshold can be modified.-->
+<!--
+In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
+The error counter threshold can be modified.
+-->
 
 10일 이상 전에 마지막으로 중요한 오류가 발생한 경우 오류 카운터가 다시 초기화됩니다. 그러면 주소 상태가 **Valid**(으)로 변경되고 **데이터베이스 정리** 워크플로우에 의해 격리 목록에서 삭제됩니다. 기술 워크플로우에 대한 자세한 내용은 [이 섹션](../../administration/using/technical-workflows.md#list-of-technical-workflows)을 참조하세요.
