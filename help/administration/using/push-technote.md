@@ -57,7 +57,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * 이 이전 버전의 SDK을 계속 사용하는 경우 Adobe Experience Platform SDK으로 구현을 업데이트해야 합니다. [이 문서](sdkv4-migration.md)에서 Adobe Experience Platform SDK으로 마이그레이션하는 방법을 알아봅니다.
 
-* 아래 단계를 수행하기 전에 Adobe Experience Platform Data Collection Mobile에서 **모바일 앱 구성** 권한이 있는지 확인하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* 아래 단계를 수행하기 전에 Adobe Experience Platform Data Collection Mobile에서 **모바일 앱 구성** 권한이 있는지 확인하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=ko#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### 전환 절차 {#fcm-transition-steps}
