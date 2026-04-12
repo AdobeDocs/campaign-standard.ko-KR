@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '1754'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 90%
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
-      + [2021](rn/using/release-notes-2021.md)
-      + [2020](rn/using/release-notes-2020.md)
-      + [2019](rn/using/release-notes-2019.md)
-      + [2018](rn/using/release-notes-2018.md)
-      + [2017](rn/using/release-notes-2017.md)
+      + {hide-from-toc}[2021](rn/using/release-notes-2021.md)
+      + {hide-from-toc}[2020](rn/using/release-notes-2020.md)
+      + {hide-from-toc}[2019](rn/using/release-notes-2019.md)
+      + {hide-from-toc}[2018](rn/using/release-notes-2018.md)
+      + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [릴리스 계획](rn/using/release-planning.md)
    + [지원 종료 기능](rn/using/deprecated-features.md)
-   + [추적된 URL 서명 문제](rn/using/tracked-urls.md)
-   + [최신 설명서 업데이트](rn/using/documentation-updates.md)
+   + {hide-from-toc}[추적된 URL 서명 문제](rn/using/tracked-urls.md)
+   + {hide-from-toc}[최신 설명서 업데이트](rn/using/documentation-updates.md)
 + 시작 {#getting-started}
    + [Adobe Campaign Standard 기본 정보](start/using/about-campaign-standard.md)
    + 인터페이스 살펴보기 {#discovering-the-interface}
@@ -48,7 +48,7 @@ ht-degree: 90%
       + [개인 정보 보호 관리](start/using/privacy-management.md)
       + [개인 정보 보호 요청](start/using/privacy-requests.md)
       + [개인 정보 FAQ](start/using/privacy-faq.md)
-   + [도움말 및 지원 옵션](support.md)
+   + {hide-from-toc}[도움말 및 지원 옵션](support.md)
 + 프로필 및 대상자 {#profiles-and-audiences}
    + [프로필 및 대상자 시작하기](audiences/using/get-started-profiles-and-audiences.md)
    + 프로필 관리 {#managing-profiles}
@@ -373,7 +373,7 @@ ht-degree: 90%
       + 데이터 관리 {#data-management}
          + [데이터베이스로 파일 대상자 조정](automating/using/reconcile-file-audience-with-database.md)
          + [가져온 파일에서 데이터 중복 제거](automating/using/deduplicating-data-imported-file.md)
-         + [&#x200B; 파일에 포함된 데이터로 프로필 데이터 보강](automating/using/enriching-profile-data-file.md)
+         + [ 파일에 포함된 데이터로 프로필 데이터 보강](automating/using/enriching-profile-data-file.md)
          + [외부 신호 활동 및 데이터 가져오기](automating/using/external-signal-data-import.md)
          + [외부 데이터로 데이터베이스 업데이트](automating/using/update-database-file.md)
          + [자동 파일 다운로드를 기반으로 데이터 업데이트](automating/using/update-data-automatic-download.md)
@@ -437,12 +437,12 @@ ht-degree: 90%
    + 채널 구성 {#configuring-channels}
       + [채널 구성 기본 정보](administration/using/about-channel-configuration.md)
       + [이메일 채널 구성](administration/using/configuring-email-channel.md)
-      + [ISP 중단 후 바운스 선별 업데이트](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[ISP 중단 후 바운스 자격 업데이트](administration/using/update-bounce-qualification.md)
       + [모바일 애플리케이션 구성](administration/using/configuring-a-mobile-application.md)
    + 모바일 채널 구성 {#configuring-mobile}
       + [푸시 추적 구현](administration/using/push-tracking.md)
       + [iOS 이미지 및 비디오 추가](administration/using/image-push-notification.md)
-      + [&#x200B; 푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
+      + [ 푸시 알림 페이로드 구조 이해](administration/using/push-payload.md)
       + [로컬 알림 추적 구현](administration/using/local-tracking.md)
       + [Adobe Experience Platform 동기화의 태그 FAQ](administration/using/syncwithlaunch-faq.md)
       + [Experience Platform SDK 통합 FAQ](administration/using/aep-faq.md)

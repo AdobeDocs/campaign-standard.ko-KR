@@ -4,9 +4,8 @@ description: 이 페이지에는 Adobe Campaign Standard의 2017년 릴리스가
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '4572'
 ht-degree: 3%
@@ -43,10 +42,10 @@ ht-degree: 3%
 _플랫폼_
 
 * 큰 압축 파일의 압축이 제대로 풀리지 않는 문제를 해결했습니다.
-* 브랜드 관리 보안이 개선되었습니다. 브랜드 이름과 발신자 주소 수정은 이제 Adobe 기술 관리자용으로 예약되었습니다.
-* 보안을 강화하기 위해 사용자 생성 컨텐츠(이미지, 미러 페이지, 랜딩 페이지 등) 더 이상 adobe.com 도메인에서 제공할 수 없습니다. 이제 브랜딩을 사용하여 고유한 도메인을 사용하여 이러한 리소스를 처리하는 것이 필수입니다.
+* 브랜드 관리 보안이 개선되었습니다. 이제 브랜드 이름과 발신자 주소 수정이 Adobe 기술 관리자용으로 예약되었습니다.
+* 보안을 강화하기 위해 사용자 생성 컨텐츠(이미지, 미러 페이지, 랜딩 페이지 등)는 더 이상 adobe.com 도메인에서 제공할 수 없습니다. 이제 브랜딩을 사용하여 고유한 도메인을 사용하여 이러한 리소스를 처리하는 것이 필수입니다.
 * 마케팅 활동을 표시하고 필터링할 때 발생하는 인터페이스 문제를 수정했습니다.
-* 구독 날짜 필드가 POST REST API 호출로 업데이트되지 않는 문제를 수정했습니다.
+* 구독 날짜 필드가 POST Rest API 호출로 업데이트되지 않는 문제를 수정했습니다.
 
 _전자 메일, SMS 메시지 및 DM_
 
@@ -302,7 +301,7 @@ _푸시 알림_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Creative SDK의 이미지 편집 기능 향상<br /> </td> 
+   <td> Creative SDK<br />의 이미지 편집 기능 개선 </td> 
    <td> 이제 Creative SDK에서 제공하는 전체 기능 세트에 액세스하여 이메일 또는 랜딩 페이지를 편집할 때 콘텐츠 편집기에서 직접 이미지를 개선할 수 있습니다.<br /> 이 기능을 사용하려면 추가 Creative Cloud 솔루션을 가져올 필요가 없습니다.<br /> 자세한 내용은 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">자세한 설명서</a>.<br />를 참조하세요. </td> 
   </tr> 
   <tr> 
@@ -427,7 +426,7 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> 관심 영역 데이터<br /> </td> 
-   <td> 관심 영역 데이터는 Adobe Campaign을 모바일용 Adobe Analytics과 통합합니다. 브랜드는 사용자가 브랜드의 앱을 열 때 사용자의 모바일 위치(<strong>관심 영역</strong>)에서 데이터를 수집할 수 있습니다. 이를 통해 브랜드는 Adobe Campaign 워크플로우를 활용하여 사용자의 위치를 기반으로 개인화된 메시지를 보낼 수 있습니다. 이 채널은 Mobile Core 서비스의 SDK를 활용합니다.<br /> 이 기능을 사용하려면 유료 솔루션인 Analytics for Mobile이 필요합니다.<br /> 자세한 내용은 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">자세한 설명서</a>.<br />를 참조하세요. </td> 
+   <td> 관심 영역 데이터는 Adobe Campaign을 모바일용 Adobe Analytics과 통합합니다. 브랜드는 사용자가 브랜드의 앱을 열 때 사용자의 모바일 위치(<strong>관심 영역</strong>)에서 데이터를 수집할 수 있습니다. 이를 통해 브랜드는 Adobe Campaign 워크플로우를 활용하여 사용자의 위치를 기반으로 개인화된 메시지를 보낼 수 있습니다. 이 채널은 Mobile Core Service의 SDK을 활용합니다.<br /> 이 기능을 사용하려면 유료 솔루션인 Analytics for Mobile이 필요합니다.<br /> 자세한 내용은 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">자세한 설명서</a>.<br />를 참조하세요. </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
@@ -510,7 +509,7 @@ _일반_
 
 _전자 메일 및 SMS 메시지_
 
-* 을(를) 포함하는 HTML 컨텐츠가 있는 게재 템플릿과 관련된 문제를 해결했습니다.
+* 다음을 포함하는 HTML 콘텐츠의 게재 템플릿과 관련된 문제를 수정했습니다.
 
 _푸시 알림_
 
@@ -523,12 +522,12 @@ _워크플로_
 
 * 이벤트 리소스(예: rtEvent)의 쿼리 미리보기를 방지할 수 있는 문제를 수정했습니다.
 * **[!UICONTROL Load file]** 활동에서 생성된 거부 파일은 이제 아웃바운드 전환에서 검색하고 다음 활동에서 처리할 수 있습니다. 예를 들어 **[!UICONTROL Transfer file]** 을(를) 사용하여 SFTP 서버를 통해 거부 파일을 업로드합니다.
-* **[!UICONTROL Segmentation]**&#x200B;의 **[!UICONTROL General]** 탭에서 **[!UICONTROL Temporary resource]**&#x200B;을(를) 선택한 경우 사용자가 세그먼트의 모집단을 제한할 수 없는 문제를 해결했습니다.
+* **[!UICONTROL Temporary resource]**&#x200B;의 **[!UICONTROL General]** 탭에서 **[!UICONTROL Segmentation]**&#x200B;을(를) 선택한 경우 사용자가 세그먼트의 모집단을 제한할 수 없는 문제를 해결했습니다.
 * 10분마다 두 번 이상 워크플로우를 트리거하도록 **[!UICONTROL Scheduler]** 활동을 설정할 수 없습니다.
-* **[!UICONTROL Union]** 활동에서 **[!UICONTROL Use common columns]**&#x200B;이(가) 제대로 작동하지 않는 문제를 해결했습니다.
+* **[!UICONTROL Use common columns]** 활동에서 **[!UICONTROL Union]**&#x200B;이(가) 제대로 작동하지 않는 문제를 해결했습니다.
 
 _통합_
 
 * Adobe Campaign에서 이벤트 트리거를 배포할 때 오류가 발생했을 수 있는 문제를 해결했습니다. 이 오류는 &quot;30일 후에 반환될 가능성&quot; 메타데이터를 Adobe Marketing Cloud의 포기 트리거에 추가할 때 발생했습니다.
 * People 핵심 서비스에서 대상을 가져올 때 기술 워크플로우가 Target Dimension 필드를 지우는 문제를 해결했습니다. 후속 쿼리에서 가져온 대상자를 검색할 수 없습니다.
-* **[!UICONTROL Share in Adobe Marketing Cloud]** 옵션을 선택한 경우 워크플로우의 **[!UICONTROL Save audience]** 활동이 실패하는 문제를 해결했습니다.
+* **[!UICONTROL Save audience]** 옵션을 선택한 경우 워크플로우의 **[!UICONTROL Share in Adobe Marketing Cloud]** 활동이 실패하는 문제를 해결했습니다.
