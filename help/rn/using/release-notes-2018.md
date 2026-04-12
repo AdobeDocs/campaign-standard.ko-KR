@@ -306,7 +306,7 @@ _사용자 정의 리소스_
      <li> 이메일 콘텐츠 템플릿을 만들고 저장하고 저장된 템플릿을 활용하여 이메일 만들기 확장 </li> 
      <li> 콘텐츠 조각(예: 머리글, 바닥글, 문서 등)을 만들고 저장하여 콘텐츠 생성을 간소화하고 브랜드 일관성을 보장합니다 </li> 
      <li> 드래그 앤 드롭 인터페이스에서 만든 것과 버튼 클릭으로 이메일의 HTML을 직접 편집하는 것 사이에서 원활하게 전환할 수 있습니다 </li> 
-    </ul> Creative Designer for Email은 영어로만 사용할 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a>를 참조하고 이 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">비디오</a>를 시청하세요.<br /> </td> 
+    </ul> Creative Designer for Email은 영어로만 사용할 수 있습니다.<br /> 자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a>를 참조하고 이 <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">비디오</a>를 시청하세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 다국어 푸시 게재<br /> </td> 

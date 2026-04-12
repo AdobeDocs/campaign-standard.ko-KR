@@ -112,7 +112,7 @@ ht-degree: 97%
 * 이제 사용자 지정 리소스를 게시할 때 준비 후 확인 팝업이 표시됩니다.
 * 사용자 지정 리소스에 실패할 때 표시되는 팝업 메시지가 더 명확해졌습니다.
 * 실행 오류를 방지하기 위해 워크플로의 표현식 편집기가 개선되었습니다. [새 함수](../../automating/using/customizing-workflow-external-parameters.md)를 사용할 수 있습니다. 이 새 함수는 외부 매개 변수를 사용한 워크플로를 호출한 후 이벤트 변수를 사용할 수 있도록 하는 모든 활동에서 사용할 수 있습니다. 또한 이제 함수 설명과 함께 도구 설명이 표현식 편집기에 표시됩니다.
-* [트랜잭션 이벤트 목록에 새 필터가 추가되었습니다. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) 이 매개 변수를 사용하면 이벤트 수신의 마지막 시간과 해당 상태에 따라 이벤트 구성을 필터링할 수 있습니다.
+* [트랜잭션 이벤트 목록에 새 필터가 추가되었습니다. &#x200B;](../../channels/using/configuring-transactional-event.md#searching-transactional-events) 이 매개 변수를 사용하면 이벤트 수신의 마지막 시간과 해당 상태에 따라 이벤트 구성을 필터링할 수 있습니다.
 * 패키지를 내보낼 때 표시되는 로그는 오류가 발생한 경우 발생하는 오류에 대해 보다 구체적이고 자세히 작성되었습니다.
 * 이제 메시지를 보낸 후 [추적된 URL](../../sending/using/tracking-messages.md) 목록을 검색, 필터링 및 내보낼 수 있습니다.
 * [Adobe Experience Platform Launch와 Campaign 간의 자동 동기화](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)는 이제 일반적으로 사용할 수 있으며 기본적으로 활성화됩니다.
@@ -248,7 +248,7 @@ ht-degree: 97%
 **향상된 이메일 디자이너**
 
 * 이제 이메일 디자이너가 엄격한 W3C보다 더 유연한 HTML 서식을 처리할 수 있습니다. (CAMP-42529)
-*  콘텐츠 블록의 이미지 옆에 링크가 표시되지 않도록 [클릭 가능한 이미지](../../designing/using/links.md#inserting-a-link) 문제를 수정했습니다. (CAMP-41586)
+* 콘텐츠 블록의 이미지 옆에 링크가 표시되지 않도록 [클릭 가능한 이미지](../../designing/using/links.md#inserting-a-link) 문제를 수정했습니다. (CAMP-41586)
 * 템플릿에서 [추적된 URL](../../designing/using/links.md#about-tracked-urls)에 카테고리를 추가했을 때 랜딩 페이지로 리디렉션되지 않는 문제를 수정했습니다. (CAMP-41537)
 * Outlook 내 버튼 패딩 문제를 수정했습니다.
 * HTML 태그가 일반 텍스트로 표시되는 문제를 수정했습니다.
