@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '1754'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 90%
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
-      + [2021](rn/using/release-notes-2021.md)
-      + [2020](rn/using/release-notes-2020.md)
-      + [2019](rn/using/release-notes-2019.md)
-      + [2018](rn/using/release-notes-2018.md)
-      + [2017](rn/using/release-notes-2017.md)
+      + {hide-from-toc}[2021](rn/using/release-notes-2021.md)
+      + {hide-from-toc}[2020](rn/using/release-notes-2020.md)
+      + {hide-from-toc}[2019](rn/using/release-notes-2019.md)
+      + {hide-from-toc}[2018](rn/using/release-notes-2018.md)
+      + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [릴리스 계획](rn/using/release-planning.md)
    + [지원 종료 기능](rn/using/deprecated-features.md)
-   + [추적된 URL 서명 문제](rn/using/tracked-urls.md)
-   + [최신 설명서 업데이트](rn/using/documentation-updates.md)
+   + {hide-from-toc}[추적된 URL 서명 문제](rn/using/tracked-urls.md)
+   + {hide-from-toc}[최신 설명서 업데이트](rn/using/documentation-updates.md)
 + 시작 {#getting-started}
    + [Adobe Campaign Standard 기본 정보](start/using/about-campaign-standard.md)
    + 인터페이스 살펴보기 {#discovering-the-interface}
@@ -48,7 +48,7 @@ ht-degree: 90%
       + [개인 정보 보호 관리](start/using/privacy-management.md)
       + [개인 정보 보호 요청](start/using/privacy-requests.md)
       + [개인 정보 FAQ](start/using/privacy-faq.md)
-   + [도움말 및 지원 옵션](support.md)
+   + {hide-from-toc}[도움말 및 지원 옵션](support.md)
 + 프로필 및 대상자 {#profiles-and-audiences}
    + [프로필 및 대상자 시작하기](audiences/using/get-started-profiles-and-audiences.md)
    + 프로필 관리 {#managing-profiles}
@@ -437,7 +437,7 @@ ht-degree: 90%
    + 채널 구성 {#configuring-channels}
       + [채널 구성 기본 정보](administration/using/about-channel-configuration.md)
       + [이메일 채널 구성](administration/using/configuring-email-channel.md)
-      + [ISP 중단 후 바운스 선별 업데이트](administration/using/update-bounce-qualification.md)
+      + {hide-from-toc}[ISP 중단 후 바운스 자격 업데이트](administration/using/update-bounce-qualification.md)
       + [모바일 애플리케이션 구성](administration/using/configuring-a-mobile-application.md)
    + 모바일 채널 구성 {#configuring-mobile}
       + [푸시 추적 구현](administration/using/push-tracking.md)

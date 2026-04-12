@@ -7,9 +7,8 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '5267'
 ht-degree: 97%
@@ -18,9 +17,9 @@ ht-degree: 97%
 
 # 2020년 릴리스 정보{#release-notes-2020}
 
-![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
+![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko).
 
-![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
+![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko).
 
 ## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
 
@@ -117,7 +116,7 @@ ht-degree: 97%
 * 패키지를 내보낼 때 표시되는 로그는 오류가 발생한 경우 발생하는 오류에 대해 보다 구체적이고 자세히 작성되었습니다.
 * 이제 메시지를 보낸 후 [추적된 URL](../../sending/using/tracking-messages.md) 목록을 검색, 필터링 및 내보낼 수 있습니다.
 * [Adobe Experience Platform Launch와 Campaign 간의 자동 동기화](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)는 이제 일반적으로 사용할 수 있으며 기본적으로 활성화됩니다.
-* 전송 증명 내보내기를 제거하여 워크플로 내보내기 패키지의 크기가 최적화되었습니다.
+* 전송 교정쇄 내보내기를 제거하여 워크플로 내보내기 패키지의 크기가 최적화되었습니다.
 * **파일 전송** 활동에 다운로드한 파일의 크기를 표시하는 새 메시지가 추가되었습니다 .
 * 잘못된 세션 토큰에 대한 오류 메시지가 개선되었습니다.
 * 이제 새로운 메커니즘으로 추적 이벤트가 프록시에서 추적 로그 및 보고에 추가되지 않습니다.
@@ -125,7 +124,7 @@ ht-degree: 97%
 * 보고 작업 공간의 레이블이 개선되었습니다.
 * 트랜잭션 메시지에서 기술 개체가 삭제되지 않도록 새 유효성 검사 단계가 추가되었습니다.
 * 문제 해결을 개선하기 위해 트랜잭션 메시지의 **실행 목록** 탭에 게재 상태에 대한 새 필터가 추가되었습니다.
-* 성능을 향상시키고 실행 시간을 최적화하기 위해 350명 이상의 고객을 위한 사전 분석에서 식별된 표의 사용 상태를 기반으로 사용되지 않는 인덱스가 제거되었습니다. 영향을 받은 표는 다음과 같습니다. nmsaddressStatus, nmscampaign, nmsdelivery, nmslandingpage, nmsprogram, nmsseedmember, nmsseedmember, nmsservice, nmssubhistorcp, nmsaudience, xtworkflow
+* 성능을 향상시키고 실행 시간을 최적화하기 위해 350명 이상의 고객을 위한 사전 분석에서 식별된 테이블의 사용 상태를 기반으로 사용되지 않는 인덱스가 제거되었습니다. 영향을 받은 테이블은 다음과 같습니다. nmsaddressStatus, nmscampaign, nmsdelivery, nmslandingpage, nmsprogram, nmsseedmember, nmsseedmember, nmsservice, nmssubhistorcp, nmsaudience, xtworkflow
 
 **패치**
 
@@ -142,8 +141,8 @@ ht-degree: 97%
 * URL에서 콘텐츠를 가져올 때 핫 클릭 보고서 비율이 표시되지 않는 문제를 해결했습니다. (CAMP-44468)
 * 프로필 대체 컨텍스트에서 사용할 프로필을 선택할 때 시간 초과 오류가 표시되는 문제를 해결했습니다. (CAMP-44746)
 * 잘못된 링크 정의가 포함된 사용자 지정 리소스를 배포한 후 인스턴스가 작동하지 않는 문제를 해결했습니다. (CAMP-44406)
-* 게재를 복사하여 캠페인 템플릿에 붙여넣은 후 빈 연결된 엔터티(유형, 브랜드 등)를 만드는 문제가 해결되었습니다. (CAMP-44765)
-* 데이터베이스 충돌 또는 Azure에서 간단한 데이터베이스를 다시 시작하는 경우 게재 준비 테이블을 잘못 처리하여 증명을 보낼 수 없는 문제를 해결했습니다.
+* 게재를 캠페인 템플릿에 복사하여 붙여넣은 후 빈 연결된 엔티티(유형화, 브랜드 등)를 생성하는 문제를 해결했습니다. (CAMP-44765)
+* 데이터베이스 충돌 또는 Azure에서 간단한 데이터베이스를 다시 시작하는 경우 게재 준비 테이블을 잘못 처리하여 교정쇄를 보낼 수 없는 문제를 해결했습니다.
 * 다국어 콘텐츠로 구성된 게재에서 Experience Manager 콘텐츠가 포함된 링크를 삭제하지 못하는 문제를 해결했습니다. (CAMP-44029)
 * 차원을 필터링하려고 할 때 오류 메시지를 표시할 수 있는 동적 보고서의 문제를 수정했습니다.  (CAMP-43097)
 * 특정 링크 정의를 포함하는 사용자 지정 리소스로 구성된 인스턴스의 프로필에 액세스하려고 할 때 빈 화면이 표시되는 문제를 수정했습니다. (CAMP-41009)
@@ -160,7 +159,7 @@ ht-degree: 97%
 * 동일한 게재에서 여러 이메일 주소를 여러 번 타겟팅하는 트랜잭션 메시지를 전송할 때 발생하는 문제를 해결했습니다. (CAMP-44202)
 * targetData 개인화에 프로필 대체를 사용할 때 발생하는 오류를 수정했습니다. (CAMP-44996)
 * 패키지에서 게재 템플릿을 내보낼 때 게재 미리 보기가 실패하는 문제를 해결했습니다. (CAMP-44084)
-* 사용자 지정 대상 매핑을 사용할 때 증명을 테스트 프로필로 보낼 수 없는 문제를 수정했습니다. (CAMP-43701)
+* 사용자 지정 대상 매핑을 사용할 때 교정쇄를 테스트 프로필로 보낼 수 없는 문제를 수정했습니다. (CAMP-43701)
 * **대상자 읽기** 활동을 사용하고 **프로필** 이외의 타기팅 차원으로 구성된 대상자를 타기팅할 때 워크플로에서 발생하는 오류를 수정했습니다.  (CAMP-41885)
 * updateEventsStatus **기술 워크플로**&#x200B;가 이벤트 내역을 검색하는 데 너무 많은 시간이 소요되었을 때 오류가 발생하는 문제를 해결했습니다(워크플로가 중지되었을 때). 문제를 해결하기 위해 미사용 &quot;sumQueueTime&quot; 집계 필드를 워크플로에서 제거했습니다. (CAMP-43920)
 * 사용자 지정 리소스를 배포할 때 발생하는 메모리 문제를 해결했습니다. (CAMP-42909)
@@ -174,7 +173,7 @@ ht-degree: 97%
 * 사용자 지정 리소스의 **텍스트 검색 옵션에서 고려할 필드 지정**&#x200B;을 선택할 때 발생하는 문제를 해결했습니다. 필드 목록이 비어 있는 경우 사용자 지정 리소스 게시가 실패합니다.
 * 대량의 데이터가 있는 사용자 지정 리소스의 개요를 표시할 때 발생하는 성능 문제를 해결했습니다.
 * 프로필 대체를 사용하여 게재를 가져올 수 없는 문제를 수정했습니다.
-* 프로필 대체를 사용할 때 게재를 예약한 경우 증명을 즉시 보낼 수 없는 문제를 수정했습니다.
+* 프로필 대체를 사용할 때 게재를 예약한 경우 교정쇄를 즉시 보낼 수 없는 문제를 수정했습니다.
 * 모바일 애플리케이션용 Android 키를 업로드할 때 발생하는 문제를 해결했습니다. 키를 업로드한 후 나타나는 메시지에 이전 키의 값이 표시됩니다.
 * 속성이 없는 컬렉션으로 이벤트 구성을 만든 후 트랜잭션 메시지에서 테스트 프로필을 만들 수 없는 문제를 해결했습니다.
 * 집계를 사용하여 새 필터를 만든 후 사용자 지정 리소스에 게시하지 못하는 문제를 수정했습니다.
@@ -190,7 +189,7 @@ ht-degree: 97%
 
 ## 릴리스 20.3 - 2020년 5월 {#release-20-3---may-2020}
 
-**새로운 소식**
+**새로운 기능**
 
 <table> 
 <thead> 
@@ -201,7 +200,7 @@ ht-degree: 97%
 <tbody> 
 <tr> 
 <td> <p>태국 개인 정보 보호법(PDPA)은 태국에서 적용되는 데이터 보호 요구 사항을 통합 및 현대화한 새로운 개인 정보 보호법입니다. 이 규정은 해당 국가에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.</p>
-<p>Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보유 설정 및 사용자 역할 등) 이외에도 Adobe는 이 기회를 통해 사용자의 PDPA에 대한 준비를 돕기 위해 추가 기능을 포함하고 있습니다.</p>
+<p>Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 등) 이외에도 Adobe는 이 기회를 통해 사용자의 PDPA에 대한 준비를 돕기 위해 추가 기능을 포함하고 있습니다.</p>
 <ul>
 <li>액세스 권한 및 삭제 권한: Adobe는 GDPR 및 CCPA에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#righttoaccess">자세히 알아보기</a> </li>
 <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 핵심 서비스에 PDPA 규정 유형이 추가되었습니다. 이 방법은 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다. <a href="../../rn/using/deprecated-features.md">사용이 중단되거나 제거된 기능 문서</a>를 참조하십시오.</p></li>
@@ -223,7 +222,7 @@ ht-degree: 97%
   <td> <p><strong>외부 API</strong> 활동이 Beta에서 GA로 전환됩니다. 이 릴리스에서는 JSON 반응형 본문 파서가 더 유연해집니다. 이제 다음을 수행할 수 있습니다.</p>
 <ul>
 <li>중첩된 JSON을 최대 깊이 10수준으로 구문 분석합니다. </li>
-<li>선택한 속성을 JSON의 리프 노드로 구문 분석하고 단일 표의 행으로 병합합니다.</li>
+<li>선택한 속성을 JSON의 리프 노드로 구문 분석하고 단일 테이블의 행으로 병합합니다.</li>
 <li>JSON에서 배열 개체를 선택하고 사용할 때 개체 이름을 "data"로 지정하거나 최상위 수준에 둘 필요가 없습니다.</li>
 </ul>
 <p><strong>주의:</strong> 고객은 워크플로에서 GA 외부 API 활동으로 <strong>모든 Beta 외부 API 활동을 대체</strong>해야 합니다. 외부 API의 Beta 버전을 사용하는 워크플로는 20.3에서 작동하지 않습니다.</p>
@@ -236,9 +235,9 @@ ht-degree: 97%
 **추가 기능** (7월 13일부터 시작)
 
 * **AI 기반의 전송 시간 최적화 및 프로필 점수 책정** - 이제 고객 여정의 디자인과 게재를 최적화하여 각 개인의 참여 선호도를 예측할 수 있습니다. Journey AI를 기반으로 하는 Adobe Campaign은 참여 지표 기록을 기반으로 공개 비율, 최적의 전송 시간, 가능한 이탈률을 분석하고 예측합니다. [자세히 알아보기](../../sending/using/predictive.md)
-* Adobe **브라질의 새로운 개인 정보 보호 규정** - Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 쉽게 대처할 수 있도록 도와줍니다. 개인 정보 보호 요청을 만들 때 Adobe 개인 정보 보호 핵심 서비스에 LGPD 규정이 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)
+* **브라질의 새로운 개인 정보 보호 규정** - Adobe은 Campaign에서 이미 사용 가능한 개인 정보 보호 기능 외에도 브라질의 LGPD(Lei Geral de Proteçao de Datos)에 쉽게 대처할 수 있도록 도와줍니다. 개인 정보 보호 요청을 만들 때 Adobe 개인 정보 보호 핵심 서비스에 LGPD 규정이 추가되었습니다. [자세히 알아보기](https://helpx.adobe.com/kr/campaign/kb/campaign-privacy-overview.html)
 
-**향상된 기능**
+**개선 사항**
 
 * **접두사** 필드에서 [타겟팅 프로필을 사용하여 메시지 테스트](../../sending/using/testing-messages-using-target.md)에 사용할 수 있는 문자 수가 32자에서 500자로 늘었습니다.
 * 한 인스턴스에 게시할 수 있는 최대 실시간 이벤트 수가 350개에서 2000개로 늘었습니다. (CAMP-41608)
@@ -263,7 +262,7 @@ ht-degree: 97%
 * 이제 랜딩 페이지의 체크박스를 필수로 지정할 수 있습니다.
 * 다이내믹 보고서의 CSV 파일을 다운로드할 때 200개 행 제한을 제거했습니다. 이제 보고서의 모든 행을 포함할 수 있습니다. (CAMP-40810)
 * 다국어 이메일에 대한 기본 언어 목록에 미국 스페인어(ES-US)를 추가했습니다. (CAMP-42279)
-* 이제 파일 전송 활동으로 다운로드한 파일은 X일 후 삭제됩니다. 여기서 X는 워크플로 속성의 **실행** 메뉴 아래에 있는 **일 단위 기록** 필드로 결정됩니다. [자세한 내용](../../automating/using/managing-execution-options.md)
+* 이제 파일 전송 활동으로 다운로드한 파일은 X일 후 삭제됩니다. 여기서 X는 워크플로 속성의 **실행** 메뉴 아래에 있는 **일 단위 기록** 필드로 결정됩니다. [자세히 보기](../../automating/using/managing-execution-options.md)
 
 **Experience Platform 통합**
 
@@ -275,26 +274,26 @@ ht-degree: 97%
 * 프로필 리소스를 사용자 정의 리소스로 확장한 경우 프로필의 마케팅 기록이 표시되지 않는 문제를 수정했습니다. (CAMP-41009)
 * 편집기를 열 때 기본 랜딩 페이지 템플릿의 콘텐츠가 프랑스어로 표시되는 문제를 수정했습니다. (CAMP-41639)
 * 다이내믹 콘텐츠가 있는 푸시 알림에 이모지가 표시되지 않는 문제를 수정했습니다. (CAMP-40715)
-* **중복 제거** 활동 시 아웃바운드 보조 항목 전환 중 하나에 잘못된 세그먼트 코드가 할당될 수 있는 문제를 수정했습니다. (CAMP-41400)
+* **중복 제거** 활동 시 아웃바운드 여집합 전환 중 하나에 잘못된 세그먼트 코드가 할당될 수 있는 문제를 수정했습니다. (CAMP-41400)
 * 예약된 보고서가 삭제되지 않는 오류를 수정했습니다. (CAMP-41302)
 * 게재 대시보드와 **게재 요약** 보고서 간에 불일치가 발생하는 문제를 수정했습니다 . (CAMP-41145)
 * 다운로드한 보고서에서 문자가 겹쳐 표시되는 문제를 수정했습니다.
-* 증명 대체에서 게재 미리 보기가 작동하지 않는 문제를 수정했습니다.
+* 교정쇄 대체에서 게재 미리 보기가 작동하지 않는 문제를 수정했습니다.
 * 인앱 로컬 알림의 사용자 정의 필드를 삭제할 때 발생하는 오류를 수정했습니다.
 * 워크플로의 **종료** 또는 **파일 전송** 활동에서 charIndex 함수가 작동하지 않는 문제를 수정했습니다.
 * 워크플로에서 연결된 타겟 리소스를 포함하는 두 개의 입력 활동과 **데이터 보강** 활동을 함께 사용할 때 발생할 수 있는 문제를 수정했습니다. (CAMP-42133)
 * 알 수 없는 함수를 사용할 때 워크플로가 실행되지 않는 문제를 수정했습니다. (CAMP-41873)
-* 워크플로에서 아웃바운드 보조 항목 전환이 있는 여러 **저장 대상** 활동을 사용해 대상자를 생성할 때 발생할 수 있는 문제를 수정했습니다.  (CAMP-39992)
+* 워크플로에서 아웃바운드 여집합 전환이 있는 여러 **저장 대상** 활동을 사용해 대상자를 생성할 때 발생할 수 있는 문제를 수정했습니다.  (CAMP-39992)
 * 트랜잭션 이메일에서 개인화를 사용할 때 데이터 불일치가 발생하는 문제를 수정했습니다. (CAMP-41842)
 * 푸시 알림 게재에서 사용자 정의 필드를 삭제할 때 발생하는 문제를 수정했습니다. (CAMP-37586)
 * 사용자가 보고서를 변경할 수 없는 오류를 수정했습니다. (CAMP-42505)
 
 
-CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/cp-icon.png) **새 컨트롤 패널 5월 릴리스**&#x200B;입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)
+CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/cp-icon.png) **새 컨트롤 패널 5월 릴리스**&#x200B;입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko).
 
 ## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
 
-**새로운 소식**
+**새로운 기능**
 
 <table> 
  <thead> 
@@ -305,7 +304,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
  <tbody> 
   <tr> 
    <td> <p>이제 Azure Blob 저장소 커넥터를 사용하여 <strong>파일 전송</strong> 워크플로 활동을 통해 데이터를 Adobe Campaign으로 가져오거나 내보낼 수 있습니다. </p>
-    <p>자세한 내용은 <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">세부 설명서</a>를 참조하십시오.</p>
+    <p>자세한 내용은 <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">세부 설명서</a>를 참조하세요.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -330,11 +329,11 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 >
 >Google TXT 레코드 관리, 데이터베이스 공간 모니터링 및 이메일 경고 등 새로운 기능이 4월에 Campaign 컨트롤 패널에서 릴리스됩니다. 이러한 기능에 대한 자세한 내용은 [컨트롤 패널 릴리스 정보](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko)를 참조하십시오.
 
-**향상된 기능**
+**개선 사항**
 
-* 트랜잭션 메시지 사용자 경험이 향상되었으며 인터페이스 일관성이 개선되었습니다. [자세한 내용](../../channels/using/getting-started-with-transactional-msg.md)
-* 이제 Campaign Standard에서 워크플로의 추가 데이터를 사용하여 테스트 프로필에 증명을 전송할 수 있습니다.
-* 외부 API 활동에 대한 보호 기능이 업데이트되었습니다. [자세한 내용](../../automating/using/external-api.md)
+* 트랜잭션 메시지 사용자 경험이 향상되었으며 인터페이스 일관성이 개선되었습니다. [자세히 보기](../../channels/using/getting-started-with-transactional-msg.md)
+* 이제 Campaign Standard에서 워크플로의 추가 데이터를 사용하여 테스트 프로필에 교정쇄를 전송할 수 있습니다.
+* 외부 API 활동에 대한 보호 기능이 업데이트되었습니다. [자세히 보기](../../automating/using/external-api.md)
 
 **향상된 이메일 디자이너**
 
@@ -360,7 +359,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 
 >[!NOTE]
 >
->현재 Campaign Standard의 Adobe Experience Platform 기능은 Beta 버전으로, 사전 통지 없이 수시로 업데이트될 수 있습니다. 세부 설명서 Experience Platform 데이터 커넥터, 대상 을 참조하십시오.
+>현재 Campaign Standard의 Adobe Experience Platform 기능은 Beta 버전으로, 사전 통지 없이 수시로 업데이트될 수 있습니다. 자세한 설명서 Experience Platform 데이터 커넥터, Audience 대상을 참조하십시오.
 
 * 이제 Campaign은 워크플로 로그에서 10분마다 현재 실행 중인 작업에 의해 이미 처리된 레코드 수를 표시합니다.
 * 데이터베이스에서 삭제된 Adobe Experience Platform 프로필을 가져올 때 발생할 수 있는 문제를 수정했습니다.
@@ -369,8 +368,8 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 **패치**
 
 * **별칭** 필드에 공백을 추가한 다음 새 행 항목을 만들 때 발생할 수 있는 **데이터 보강** 워크플로 활동 문제를 수정했습니다. (CAMP-39229)
-* 증명 메시지를 보낼 때 모든 테스트 프로필을 타겟팅하는 문제를 수정했습니다.
-* 이벤트 구성을 게시 취소하고 삭제한 후 발생하는 문제를 수정했습니다. [자세한 내용](../../channels/using/publishing-transactional-event.md#deleting-an-event)
+* 교정쇄 메시지를 보낼 때 모든 테스트 프로필을 타기팅하는 문제를 수정했습니다.
+* 이벤트 구성을 게시 취소하고 삭제한 후 발생하는 문제를 수정했습니다. [자세히 보기](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * 워크플로를 변경할 때 **저장** 버튼이 사라지는 문제를 수정했습니다.
 * 개인 정보 보호 요청을 처리한 후 Campaign에서 수동으로 삭제할 때 발생하고 정리 후에도 요청과 관련된 데이터가 삭제되지 않도록 방지되는 문제를 수정했습니다.
 * Adobe Experience Manager에서 특수 문자가 포함된 메시지를 미리 보거나 전송할 때 발생할 수 있는 문제를 수정했습니다.
@@ -395,7 +394,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 
 ## 릴리스 20.1 - 2020년 2월 {#release-20-1---february-2020}
 
-**새로운 소식**
+**새로운 기능**
 
 
 <table> 
@@ -428,15 +427,15 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
  </tbody> 
 </table>
 
-**향상된 기능**
+**개선 사항**
 
-* 향상된 MTA의 글로벌 가용성: 이제 메시지(트랜잭션 메시지 포함)는 개선된 전송 인프라를 제공하는 Adobe Campaign Enhanced MTA에 의해 전송되며, 이를 통해 게재 능력, 처리량 및 반송 처리를 향상시킬 수 있습니다. [자세한 내용](https://helpx.adobe.com/kr/campaign/kb/campaign-enhanced-mta.html)
+* 향상된 MTA의 글로벌 가용성: 이제 메시지(트랜잭션 메시지 포함)는 개선된 전송 인프라를 제공하는 Adobe Campaign Enhanced MTA에 의해 전송되며, 이를 통해 게재 능력, 처리량 및 반송 처리를 향상시킬 수 있습니다. [자세히 보기](https://helpx.adobe.com/kr/campaign/kb/campaign-enhanced-mta.html)
 
 * 시간대 관리가 향상되었습니다. 이제 전체 워크플로에 대한 [특정 시간대](../../automating/using/building-a-workflow.md)를 정의할 수 있습니다. 선택한 시간대가 모든 워크플로의 활동에 적용됩니다. 이제 운영자나 서버에 대해 구성된 시간대에 대한 정보가 인터페이스에 표시됩니다(로그에, 시간대를 선택한 후 표시). (CAMP-37672)
 
-* 이제 Campaign Standard API를 사용하여 호출 URL에 `_forcePagination=true` 매개 변수를 추가하여 큰 테이블을 사용할 때 페이지 매김을 수행할 수 있습니다. [자세한 내용](../../api/using/pagination.md)
+* 이제 Campaign Standard API를 사용하여 호출 URL에 `_forcePagination=true` 매개 변수를 추가하여 큰 테이블을 사용할 때 페이지 매김을 수행할 수 있습니다. [자세히 보기](../../api/using/pagination.md)
 
-* 이제 모든 타겟팅 차원에 대한 게재 로그 및 추적 로그 리소스에서 각 로그의 고유 식별자인 게재 로그 ID를 사용할 수 있습니다. 예를 들어 내보내기 시 전송 또는 추적 로그를 식별할 수 있습니다. [자세한 내용](../../automating/using/exporting-logs.md)
+* 이제 모든 타겟팅 차원에 대한 게재 로그 및 추적 로그 리소스에서 각 로그의 고유 식별자인 게재 로그 ID를 사용할 수 있습니다. 예를 들어 내보내기 시 전송 또는 추적 로그를 식별할 수 있습니다. [자세히 보기](../../automating/using/exporting-logs.md)
 
 **향상된 이메일 디자이너**
 
