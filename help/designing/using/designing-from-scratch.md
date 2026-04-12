@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1230'
 ht-degree: 22%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 22%
 1. 이메일을 미리 봅니다.
 1. 콘텐츠를 저장하고 대상자를 정의하고 전송을 적절하게 예약했는지 확인한 후 메시지를 계속 진행합니다.
 
-이 [소개 비디오](https://video.tv.adobe.com/v/330106/?autoplay=true&hidetitle=true&captions=kor)를 확인할 수도 있습니다.
+이 [소개 비디오](https://video.tv.adobe.com/v/330106/?captions=kor&autoplay=true&hidetitle=true)를 확인할 수도 있습니다.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ ht-degree: 22%
 전자 메일 구조를 편집하려면:
 
 1. 기존 콘텐츠를 열거나 새 이메일 콘텐츠를 만듭니다.
-1. 왼쪽의 **+** 아이콘을 선택하여 **[!UICONTROL Structure components]**&#x200B;에 액세스합니다.
+1. 왼쪽의 **[!UICONTROL Structure components]**+**아이콘을 선택하여**&#x200B;에 액세스합니다.
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ ht-degree: 22%
 
 1. 하나 이상의 열로 구성된 여러 구조 구성 요소를 사용할 수 있습니다.
 
-   **[!UICONTROL n:n column]** 구성 요소를 선택하여 선택한 열 수(3과 10 사이)를 정의합니다. 각 열의 아래쪽에 있는 화살표를 이동하여 각 열의 폭을 정의할 수도 있습니다.
+   **[!UICONTROL n:n열]** 구성 요소를 선택하여 선택한 열 수(3~10)를 정의합니다. 각 열의 아래쪽에 있는 화살표를 이동하여 각 열의 폭을 정의할 수도 있습니다.
 
    ![](assets/email_designer_n-n-column.png)
 
