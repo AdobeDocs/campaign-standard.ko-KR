@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '7259'
+ht-degree: 100%
 
 ---
 
@@ -244,7 +244,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 **트랜잭션 메시지 제한** 섹션을 [여기](../../channels/using/transactional-messaging-limitations.md)로 이동했습니다.
 
-**전송 준비** 섹션이[&#x200B; 여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
+**전송 준비** 섹션이[ 여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
 
 ## 2020년 7월 {#doc-updates-july-2020}
 
