@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: tm+mt
-source-wordcount: '1248'
+workflow-type: ht
+source-wordcount: '1254'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 100%
 ### 수정 사항{#rn-fixes}
 
 * 예약된 시간보다 1시간 전에 트리거된 예약된 보고서 문제를 수정했습니다. (CAMP-51502)
-* 전송 로그(nms:broadLogRcp)와 일치하지 않는 게재 대시보드의 게재 지표에 관한 문제를 해결했습니다. (CAMP-51127)
+* 게재 대시보드의 게재 표시기가 전송 로그(nms:broadLogRcp)와 일치하지 않는 문제를 해결했습니다. (CAMP-51127)
 * ACS 커넥터(Prime Offer)에서 사용자 지정 리소스 확장을 할 수 없는 문제를 해결했습니다. (CAMP-51033)
 * 지연을 방지하기 위해 개인 정보 보호 요청 응답에 대한 게시 프로세스를 개선했습니다. (CAMP-50613)
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 **패치**
 
 * 다중 변형을 포함한 게재로 PDF 생성 작업이 실패하는 다이내믹 보고서의 **지금 보고서 보내기** 문제를 해결했습니다. (CAMP-49120)
-* AEM(Adobe Experience Manager)의 복제된 컨텐츠가 동일한 키(cq:uuid)를 공유하면 사용자가 Adobe Campaign Standard 게재에서 AEM 컨텐츠를 새로 고치거나 연결을 끊을 수 없는 문제를 해결했습니다. (CAMP-49161)
+* Adobe Experience Manager(AEM)의 복제된 콘텐츠가 동일한 키(cq:uuid)를 공유하는 경우 사용자가 Adobe Campaign Standard 게재에서 AEM 콘텐츠를 새로 고치거나 연결을 끊을 수 없는 문제를 해결했습니다. (CAMP-49161)
 * 페이지를 로드할 수 없거나 게재를 열 수 없거나 보류 중인 수정 사항을 저장할 수 없는 인스턴스에 액세스할 때 발생하는 오류를 해결했습니다. (CAMP-50195)
 * 게재 경고 기준에 의해 적용된 필드 **게재 필터**&#x200B;가 채워지지 않은 경우 해당 기준을 열 수 없는 문제를 해결했습니다. (CAMP-49093)
 * 인앱 게재의 **보조** 버튼을 편집할 때 변경 사항을 고려하지 않는 문제를 해결했습니다. (CAMP-50250)
