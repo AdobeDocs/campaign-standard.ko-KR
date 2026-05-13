@@ -9,9 +9,14 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/XHdVIRoy03LIXLHPLXexhNG2hg2JJYnwglQLUc6i2WU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: 824
 ht-degree: 10%
 
 ---
@@ -96,4 +101,4 @@ Adobe Campaign에서 브랜드 사용 및 구성에 대한 자세한 내용은 �
 
 템플릿에 브랜드를 연결하는 방법에 대한 자세한 내용은 [전자 메일에 브랜드 할당](../../administration/using/branding.md#assigning-a-brand-to-an-email)을 참조하십시오.
 
-이 섹션[에서 브랜드 &#x200B;](../../administration/using/branding.md#creating-a-brand)을(를) 만들고 구성하는 방법을 알아보세요.
+이 섹션](../../administration/using/branding.md#creating-a-brand)에서 브랜드 [을(를) 만들고 구성하는 방법을 알아보세요.

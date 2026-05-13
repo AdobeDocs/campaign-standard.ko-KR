@@ -9,10 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/eYHAXWPC6z7AhWv1qGoiBRZlN5nSp1-PiYOjCbVdU0g
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 3%
+source-wordcount: 619
+ht-degree: 4%
 
 ---
 
@@ -50,9 +54,9 @@ ht-degree: 3%
 
    ![](assets/aem_acs_7.png)
 
-1. **[!UICONTROL Complete]** 창에서 **[!UICONTROL Newsletter review]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Complete work item]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Complete work item]** 창에서 **[!UICONTROL Complete]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Newsletter review]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Complete]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Newsletter approval]**&#x200B;을(를) 클릭합니다. 콘텐츠 및 전송 매개 변수가 정의되면 Adobe Campaign Standard에서 이메일 승인, 준비 및 전송을 진행할 수 있습니다.
+1. **[!UICONTROL Complete]**&#x200B;을(를) 클릭한 뒤 **[!UICONTROL Newsletter approval]**&#x200B;을(를) 클릭합니다. 콘텐츠 및 전송 매개 변수가 정의되면 Adobe Campaign Standard에서 이메일 승인, 준비 및 전송을 진행할 수 있습니다.
 
    ![](assets/aem_acs_8.png)
 
@@ -130,4 +134,4 @@ ht-degree: 3%
    >
    >승인되지 않은 AEM 콘텐츠를 사용하는 경우 Adobe Campaign에서 이메일을 보낼 수 없습니다.
 
-대상자는 **[!UICONTROL Preferred languages]**&#x200B;에 설정된 **[!UICONTROL Profiles]**&#x200B;에 따라 전자 메일을 받게 됩니다. 프로필 및 기본 언어를 편집하는 방법에 대한 자세한 내용은 이 [페이지](../../audiences/using/editing-profiles.md)를 참조하세요.
+대상자는 **[!UICONTROL Profiles]**&#x200B;에 설정된 **[!UICONTROL Preferred languages]**&#x200B;에 따라 전자 메일을 받게 됩니다. 프로필 및 기본 언어를 편집하는 방법에 대한 자세한 내용은 이 [페이지](../../audiences/using/editing-profiles.md)를 참조하세요.

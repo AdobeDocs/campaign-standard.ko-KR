@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/EIgHueEXE0D-R3WjbgMK9SJ5Hpjmt3dwPTiTDVJoQxg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 4%
+source-wordcount: 796
+ht-degree: 7%
 
 ---
 
@@ -100,7 +107,7 @@ Audience Manager 내에는 Adobe Campaign(MID)와 Adobe Campaign(DeclortedId)의
 
    ![](assets/integration_aam_2.png)
 
-1. **[!UICONTROL Adobe Campaign]** 드롭다운에서 **[!UICONTROL Data Source/ Alias]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Data Source/ Alias]** 드롭다운에서 **[!UICONTROL Adobe Campaign]**&#x200B;을(를) 선택합니다.
 1. Adobe에서 제공한 **[!UICONTROL AAM Destination ID]**&#x200B;을(를) 입력하십시오.
 
    ![](assets/integration_aam_3.png)
@@ -119,7 +126,7 @@ Audience Manager 내에는 Adobe Campaign(MID)와 Adobe Campaign(DeclortedId)의
 
 >[!NOTE]
 >
->**[!UICONTROL AAM Destination ID]** Campaign-Triggers 통합[에 대한 공유 데이터 원본을 구성하는 경우에는 &#x200B;](../../integrating/using/configuring-triggers-in-experience-cloud.md) 필드가 필요하지 않습니다. **[!UICONTROL Priority]**&#x200B;은(는) 트리거 - Campaign 통합을 구성할 때만 필요합니다. 우선 순위는 어떤 데이터 Source이 먼저 구성될지 결정합니다. 우선 순위는 1 또는 100과 같은 임의의 숫자일 수 있습니다. 우선순위가 높을수록 조정 시 선호도가 높아집니다.
+>[Campaign-Triggers 통합](../../integrating/using/configuring-triggers-in-experience-cloud.md)에 대한 공유 데이터 원본을 구성하는 경우에는 **[!UICONTROL AAM Destination ID]** 필드가 필요하지 않습니다. **[!UICONTROL Priority]**&#x200B;은(는) 트리거 - Campaign 통합을 구성할 때만 필요합니다. 우선 순위는 어떤 데이터 Source이 먼저 구성될지 결정합니다. 우선 순위는 1 또는 100과 같은 임의의 숫자일 수 있습니다. 우선순위가 높을수록 조정 시 선호도가 높아집니다.
 
 ### 3단계: Campaign 추적 서버 구성 {#step-3--configure-campaign-tracking-server}
 
@@ -133,7 +140,7 @@ People 핵심 서비스 또는 Audience Manager와의 통합을 구성하려면 
 
 ### 4단계: 방문자 ID 서비스 구성 {#step-4--configure-the-visitor-id-service}
 
-웹 속성이나 웹 사이트에서 방문자 ID 서비스가 구성된 적이 없는 경우 다음 [문서](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=ko)를 참조하여 서비스 또는 다음 [비디오](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)를 구성하는 방법을 알아보십시오.
+웹 속성이나 웹 사이트에서 방문자 ID 서비스가 구성된 적이 없는 경우 다음 [문서](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html)를 참조하여 서비스 또는 다음 [비디오](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)를 구성하는 방법을 알아보십시오.
 
 Experience Cloud ID 서비스의 `setCustomerID` 함수를 사용하여 선언된 ID와 고객 식별자를 통합 코드 `AdobeCampaignID`과(와) 동기화합니다. `AdobeCampaignID`은(는) [2단계: 데이터 원본 구성](#step-2--configure-the-data-sources)에서 구성된 받는 사람 데이터 Source에 설정된 조정 키 값과 일치해야 합니다.
 

@@ -8,9 +8,12 @@ feature: Workflows
 old-role: Data Architect
 role: Developer
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/mfBrdOii5qQZfqOs8VR4zuFM9CacwW-YwaYJm4U-Lt4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: 566
 ht-degree: 4%
 
 ---
@@ -74,7 +77,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 **관련 항목:**
 
-* [파일 로드 활동](../../automating/using/load-file.md)
+* [파일 활동 로드](../../automating/using/load-file.md)
 * [파일 활동 추출](../../automating/using/extract-file.md)
 
 ## 델타 모드에서 가져오기 {#importing-in-delta-mode}

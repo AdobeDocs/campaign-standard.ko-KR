@@ -9,9 +9,15 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/F0EDpvoHNd-fQYxgk5CD-3dlStrW1OhOdlQ6k4tH-c8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '982'
+source-wordcount: 996
 ht-degree: 16%
 
 ---
@@ -71,7 +77,7 @@ Users without this role will see the following message:
 
 ![](assets/sending_delivery.png)
 
-KPI를 업데이트하는 데 너무 오래 걸리거나 전송 로그의 결과를 반영하지 않는 경우 **[!UICONTROL Compute stats]** 창에서 **[!UICONTROL Deployment]** 단추를 클릭하십시오.
+KPI를 업데이트하는 데 너무 오래 걸리거나 전송 로그의 결과를 반영하지 않는 경우 **[!UICONTROL Deployment]** 창에서 **[!UICONTROL Compute stats]** 단추를 클릭하십시오.
 
 ![](assets/sending_delivery7.png)
 
@@ -90,7 +96,7 @@ KPI를 업데이트하는 데 너무 오래 걸리거나 전송 로그의 결과
 
 각 전자 메일의 **[!UICONTROL Summary]** 보기에서 **[!UICONTROL Delivered]** 비율은 100%에서 시작하다가 소프트 바운스와 하드 바운스가 다시 보고됨에 따라 게재 [유효 기간](../../administration/using/configuring-email-channel.md#validity-period-parameters) 동안 점진적으로 감소합니다<!--from the Enhanced MTA to Campaign-->.
 
-실제로 모든 메시지는 Campaign에서 Enhanced MTA(메시지 전송 에이전트)로 성공적으로 릴레이되는 즉시 **[!UICONTROL Sent]**&#x200B;전송 로그[에 &#x200B;](../../sending/using/monitoring-a-delivery.md#sending-logs)(으)로 표시됩니다. 해당 메시지에 대한 [바운스](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 통신되지 않는 한 또는 통신될 때까지 이 상태는 유지됩니다.
+실제로 모든 메시지는 Campaign에서 Enhanced MTA(메시지 전송 에이전트)로 성공적으로 릴레이되는 즉시 [전송 로그](../../sending/using/monitoring-a-delivery.md#sending-logs)에 **[!UICONTROL Sent]**(으)로 표시됩니다. 해당 메시지에 대한 [바운스](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)가 Enhanced MTA에서 Campaign으로 다시 통신되지 않는 한 또는 통신될 때까지 이 상태는 유지됩니다.
 
 하드 바운스 메시지가 Enhanced MTA에서 다시 보고되면 상태가 **[!UICONTROL Sent]**&#x200B;에서 **[!UICONTROL Failed]**(으)로 변경되고 **[!UICONTROL Delivered]** 비율이 그에 따라 감소합니다.
 

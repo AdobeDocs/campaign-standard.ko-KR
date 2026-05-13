@@ -8,10 +8,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/6ZIy8zcUJpMGPTBoq3y3in1EOjJko8btTdmUX-nh1WM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 59%
+source-wordcount: 1347
+ht-degree: 55%
 
 ---
 
@@ -35,7 +41,7 @@ ht-degree: 59%
 
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#metrics-for-deliverability)
+* [바운스수](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 메시지에 대한 게재 실패 식별 {#identifying-delivery-failures-for-a-message}
 
@@ -75,8 +81,8 @@ ht-degree: 59%
 
 
 **관련 항목:**
-* [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#hard-bounces)
-* [소프트 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#soft-bounces)
+* [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [소프트 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 일시적 게재 실패 후 다시 시도 {#retries-after-a-delivery-temporary-failure}
 
@@ -90,13 +96,13 @@ ht-degree: 59%
 
 >[!IMPORTANT]
 >
->**이제 Campaign 게재의&#x200B;**&#x200B;[!UICONTROL Delivery duration]&#x200B;**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+>**이제 Campaign 게재의&#x200B;**[!UICONTROL Delivery duration]**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
 예를 들어 게재를 위한 다시 시도가 1일 후 중지되도록 하려면 게재 기간을 **1d**(으)로 설정할 수 있으며 다시 시도 큐의 메시지는 1일 후 제거됩니다.
 
 >[!NOTE]
 >
->메시지가 최대 3.5일 동안 다시 시도 큐에 있고 배달에 실패하면 시간이 초과되고 <!--from **[!UICONTROL Sent]**-->게재 로그&#x200B;**[!UICONTROL Failed]**&#x200B;에서 [(으)로 &#x200B;](../../sending/using/monitoring-a-delivery.md#delivery-logs) 상태가 업데이트됩니다.
+>메시지가 최대 3.5일 동안 다시 시도 큐에 있고 배달에 실패하면 시간이 초과되고 [게재 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs)에서 **[!UICONTROL Failed]**(으)로 <!--from **[!UICONTROL Sent]**--> 상태가 업데이트됩니다.
 
 <!--
 MOVED TO configuring-email-channel.md > LEGACY SETTINGS
@@ -120,7 +126,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 왼쪽 상단에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;을(를) 선택하고 **[!UICONTROL Bounce mails]**&#x200B;을(를) 선택하십시오. 이 규칙에 대한 자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#email-processing-rules)을 참조하세요.
 
-바운스 및 다양한 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#metrics-for-deliverability)을 참조하세요.
+바운스 및 다양한 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)을 참조하세요.
 
 <!--
 MOVED TO configuring-email-channel.md > LEGACY SETTINGS

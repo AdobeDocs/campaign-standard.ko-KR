@@ -9,9 +9,14 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: dff72856-d28c-45c4-a073-12cc25f51f23
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/fFTJTgKfIhII-D6pefx9hqnX3a022odFZS5AAmNK1Ao
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: 193
 ht-degree: 100%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 100%
 
 Campaign Standard를 사용하면 메시지가 유효하고 품질 기준을 충족하는지 확인하기 위해 메시지를 **유형화**&#x200B;에 연결할 수 있습니다.
 
-유형화는 메시지 분석 단계 동안 실행되는 **유형화 규칙** 세트입니다. 이메일에 항상 특정 요소(예: 구독 취소 링크 또는 제목 줄)가 포함되어 있는지 확인하거나 그룹을 의도한 타겟(구독 취소자, 경쟁 업체 또는 비충성 고객)에서 제외하는 필터링 규칙이 있는지 확인할 수 있습니다.
+유형화는 메시지 분석 단계 동안 실행되는 **유형화 규칙** 세트입니다. 이메일에 항상 특정 요소(예: 구독 취소 링크 또는 제목 줄)가 포함되어 있는지 확인하거나 그룹을 의도한 타겟(구독 취소자, 경쟁 업체 또는 비로열티 고객)에서 제외하는 필터링 규칙이 있는지 확인할 수 있습니다.
 
 ![](assets/typology_messagelink.png)
 

@@ -9,9 +9,15 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+TQID: https://experienceleague.adobe.com/z-rDsGlbZEzyIA-lxwtu-ujfxkeiblDnhK-jsXviFGQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: 642
 ht-degree: 88%
 
 ---
@@ -60,7 +66,7 @@ DM 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사
 
 1. 테스트 프로필을 추가한 경우([테스트 및 트랩 프로필 추가](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles) 참조) 최종 파일을 준비하기 전에 게재를 테스트할 수 있습니다. 선택한 테스트 프로필만 포함된 샘플 파일을 만들 수 있습니다.
 
-   **[!UICONTROL Test]**&#x200B;을(를) 클릭하여 샘플 파일을 생성합니다. 왼쪽 상단 모서리에서 **[!UICONTROL Summary]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Proofs]**&#x200B;을(를) 선택합니다. 화면 왼쪽에서 증명을 선택하고 **[!UICONTROL Download file]**&#x200B;을(를) 클릭합니다 .
+   **[!UICONTROL Test]**&#x200B;을(를) 클릭하여 샘플 파일을 생성합니다. 왼쪽 상단 모서리에서 **[!UICONTROL Summary]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Proofs]**&#x200B;을(를) 선택합니다. 화면 왼쪽에서 교정쇄를 선택하고 **[!UICONTROL Download file]**&#x200B;을(를) 클릭합니다 .
 
    >[!NOTE]
    >
@@ -78,7 +84,7 @@ DM 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사
 
    >[!NOTE]
    >
-   >캠페인에서 과하게 요청된 프로필을 자동으로 제외하는 전역 크로스 채널 피로도 규칙을 설정할 수 있습니다. [피로도 규칙](../../sending/using/fatigue-rules.md)을 참조하십시오.
+   >캠페인에서 과잉 복제된 프로필을 자동으로 제외하는 글로벌 크로스채널 피로 규칙을 설정할 수 있습니다. [피로 규칙](../../sending/using/fatigue-rules.md)을 참조하십시오.
 
 1. **[!UICONTROL Explore file]**&#x200B;을(를) 클릭하여 파일의 처음 100개 줄을 미리 보기합니다.
 

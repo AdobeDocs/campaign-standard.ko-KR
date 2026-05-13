@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/dkAPwzqgld7-LbCyzuz24CnRMjmepFIxG6F0HRBuh8c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 96%
+source-wordcount: 575
+ht-degree: 85%
 
 ---
 
@@ -31,7 +35,7 @@ ht-degree: 96%
 
 중복을 제거하는 동안 인바운드 전환이 개별적으로 처리됩니다. 예를 들어, 프로필 &#39;A&#39;가 쿼리 1의 결과에 있고 쿼리 2의 결과에도 있는 경우 중복 제거되지 않습니다.
 
-따라서 중복 제거에는 인바운드 전환이 하나만 있는 것이 좋습니다. 이를 위해 조합 활동, 교차 활동 등과 같은 타겟팅 요구에 해당하는 활동을 사용하여 서로 다른 쿼리를 결합할 수 있습니다. 예제:
+따라서 중복 제거에는 인바운드 전환이 하나만 있는 것이 좋습니다. 이를 위해 결합 활동, 교차 활동 등과 같은 타겟팅 요구에 해당하는 활동을 사용하여 다양한 쿼리를 결합할 수 있습니다. 예:
 
 ![](assets/dedup_bonnepratique.png)
 

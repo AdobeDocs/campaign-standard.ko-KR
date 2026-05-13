@@ -9,10 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/D4-ExbGPm1p4iWBL1msW5P3-K2xeE6Gg6byZDl6WqPI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 61%
+source-wordcount: 744
+ht-degree: 53%
 
 ---
 
@@ -47,7 +51,7 @@ ht-degree: 61%
 >
 >지연된 이벤트는 아직 실행 게재에 할당되지 않았기 때문에 트랜잭션 메시지 전송 로그에 나타나지 않습니다.
 
-예를 들어, 콘텐츠가 올바르지 않거나, 액세스 권한 또는 브랜딩에 문제가 있거나, 유형 분류 규칙 등을 적용하는 경우, 오류 발견 등으로 이벤트를 실행 게재에 할당할 수 없습니다. 이 경우 메시지를 일시 중지하고 편집하여 문제를 해결하고 다시 게시할 수 있습니다. 그러면 다시 시도 시스템이 새 실행 게재에 할당합니다.
+예를 들어, 콘텐츠가 올바르지 않거나, 액세스 권한 또는 브랜딩에 문제가 있거나, 유형화 규칙 적용 시 오류가 감지되었기 때문에 이벤트를 실행 게재에 할당할 수 없습니다. 이 경우 메시지를 일시 중지하고 편집하여 문제를 해결하고 다시 게시할 수 있습니다. 그러면 다시 시도 시스템이 새 실행 게재에 할당합니다.
 
 ### 메시지 전송 다시 시도 프로세스 {#message-sending-retry-process}
 
@@ -105,7 +109,7 @@ ht-degree: 61%
 
 **[!UICONTROL Address on denylist]** 유형화 규칙이 옵트아웃한 프로필의 수신자를 모두 제외합니다.
 
-이 규칙은 **[!UICONTROL Profile]** 표를 기반으로 하는 모든 트랜잭션 메시지에 적용되는 특정 유형화 중 일부입니다.
+이 규칙은 **[!UICONTROL Profile]** 테이블을 기반으로 하는 모든 트랜잭션 메시지에 적용되는 특정 유형화 중 일부입니다.
 
 ![](assets/message-center_marketing_typology.png)
 

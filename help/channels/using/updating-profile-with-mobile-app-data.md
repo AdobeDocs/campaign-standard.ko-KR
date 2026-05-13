@@ -9,9 +9,13 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: 1006
 ht-degree: 2%
 
 ---
@@ -23,7 +27,7 @@ ht-degree: 2%
 이 페이지에서는 모바일 애플리케이션이 일정에 따라 수집 PII 데이터를 보낸 후 프로필 데이터를 생성/업데이트하는 워크플로우를 개발하는 단계를 설명합니다.
 
 * **PII**&#x200B;은(는) &quot;개인 식별 정보&quot;를 의미합니다. Campaign 데이터베이스의 프로필 테이블에 표시되지 않는 정보를 포함하여 모든 데이터일 수 있습니다(예: Analytics for Mobile [관심 영역](../../integrating/using/about-campaign-points-of-interest-data-integration.md)). PII는 모바일 앱 개발자에 의해 정의되며, 일반적으로 마케터와 함께 합니다.
-* **PII 수집**&#x200B;은(는) 모바일 앱에서 Adobe Campaign Standard의 Rest API에 대한 HTTP POST 작업입니다.
+* **PII 수집**&#x200B;은(는) 모바일 앱에서 Adobe Campaign Standard의 REST API에 대한 HTTP-POST 작업입니다.
 
 이 사용 사례의 목표는 모바일 애플리케이션에서 반환된 PII 데이터에 프로필 관련 데이터가 포함된 경우 Campaign Standard 프로필을 만들거나 업데이트하는 것입니다.
 
@@ -32,7 +36,7 @@ ht-degree: 2%
 모바일 앱 구독 데이터를 기반으로 프로필을 만들거나 업데이트하기 전에 Campaign Standard에서 푸시 알림을 활성화하기 위해 따라야 할 몇 가지 구성 단계가 있습니다.
 
 1. [모바일 애플리케이션 만들기](../../administration/using/configuring-a-mobile-application.md)
-1. [Adobe Mobile SDK를 모바일 애플리케이션과 통합](../../administration/using/supported-mobile-use-cases.md).
+1. [모바일 애플리케이션과 Adobe Mobile SDK 통합](../../administration/using/supported-mobile-use-cases.md).
 1. [푸시 알림을 보내도록 Adobe Campaign 구성](../../administration/using/configuring-a-mobile-application.md).
 
 ## 1단계 - 푸시 알림/구독에 대한 프로필 리소스 확장
@@ -114,13 +118,13 @@ Campaign Standard에서 워크플로우를 사용하면 관리자가 AppSubscrip
 
 1. **[!UICONTROL Fields to update]** 탭에서 **[!UICONTROL Create element]** 단추를 클릭한 다음 appSubscriptionRcp 테이블(**[!UICONTROL Source]** 필드)의 필드를 프로필 테이블(**[!UICONTROL Destination]** 필드)의 업데이트할 필드와 매핑합니다.
 
-1. **[!UICONTROL Enabled if]** 필드에 식을 추가하여 원본 필드에 값이 포함된 경우에만 프로필 테이블의 해당 필드가 업데이트되도록 합니다. 이렇게 하려면 목록에서 필드를 선택한 다음 &quot;!=&#39;&#39;&#39;&#39; 표현식(표현식 편집기에서 Source 필드가 `[target/@cusEmail]`인 경우 `[target/@cusEmail] != ''"` 형식이어야 함).
+1. **[!UICONTROL Enabled if]** 필드에 식을 추가하여 원본 필드에 값이 포함된 경우에만 프로필 테이블의 해당 필드가 업데이트되도록 합니다. 이렇게 하려면 목록에서 필드를 선택한 다음 &quot;!=&#39;&#39;&quot; 식을 추가합니다(표현식 편집기에서 Source 필드가 `[target/@cusEmail]`인 경우 `[target/@cusEmail] != ''"`을(를) 입력해야 합니다.).
 
    ![](assets/update_profile8.png)
 
 >[!NOTE]
 >
->이 경우 워크플로에서 업데이트를 수행하지만 **[!UICONTROL Incremental query]**&#x200B;을(를) 기반으로 하므로 데이터가 삽입되기만 합니다. 쿼리를 변경하면 삽입되거나 업데이트되는 데이터에 영향을 줄 수 있습니다.
+>이 경우 워크플로에서 업데이트를 수행하지만 **[!UICONTROL Incremental query]**을(를) 기반으로 하므로 데이터가 삽입되기만 합니다. 쿼리를 변경하면 삽입되거나 업데이트되는 데이터에 영향을 줄 수 있습니다.
 >또한 업데이트할 필드 탭의 설정은 특정 조건에서 삽입하거나 업데이트할 필드를 결정합니다. 이러한 설정은 각 애플리케이션 또는 고객에 대해 고유할 수 있습니다.
 >appSubscriptionRcp 데이터를 기반으로 프로필에서 레코드를 업데이트하면 유효성 검사 없이 사용자의 개인 정보가 변경될 수 있으므로 이러한 설정을 구성할 때 의도하지 않은 결과가 발생할 수 있으므로 주의하십시오.
 

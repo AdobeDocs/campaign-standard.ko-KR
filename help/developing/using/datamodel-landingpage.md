@@ -9,10 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/-9eD752Kgh4kFoeiKTRJH78rm0BVInrZ84-5M7--dfY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 7%
+source-wordcount: 1819
+ht-degree: 8%
 
 ---
 
@@ -90,12 +94,12 @@ ht-degree: 7%
       <tr>
          <td>생성됨</td>
          <td>생성일</td>
-         <td>일자 </td>
+         <td>날짜 </td>
          <td> </td>
       </tr>
       <tr>
          <td>createdBy (userBase)</td>
-         <td>제작자</td>
+         <td>생성자</td>
          <td>링크 </td>
          <td> </td>
       </tr>
@@ -232,9 +236,9 @@ ht-degree: 7%
          <td> </td>
       </tr>
       <tr>
-         <td>종료</td>
-         <td>만료일</td>
-         <td>일자 </td>
+         <td>끝</td>
+         <td>만료 일자</td>
+         <td>날짜 </td>
          <td> </td>
       </tr>
       <tr>
@@ -306,7 +310,7 @@ ht-degree: 7%
       <tr>
          <td>마지막 수정일</td>
          <td>마지막 수정일</td>
-         <td>일자 </td>
+         <td>날짜 </td>
          <td> </td>
       </tr>
       <tr>
@@ -387,7 +391,7 @@ ht-degree: 7%
       <tr>
          <td>발행일</td>
          <td>게시일</td>
-         <td>일자 </td>
+         <td>날짜 </td>
          <td> </td>
       </tr>
       <tr>
@@ -437,7 +441,7 @@ ht-degree: 7%
       <tr>
          <td>시작</td>
          <td>배포일</td>
-         <td>일자 </td>
+         <td>날짜 </td>
          <td> </td>
       </tr>
       <tr>
@@ -456,7 +460,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>targetResource</td>
-         <td>타겟팅 차원</td>
+         <td>타기팅 차원</td>
          <td>문자열(255)</td>
          <td> </td>
       </tr>
@@ -741,11 +745,11 @@ ht-degree: 7%
         </tr>
         <tr>
         <td>startDate</td>
-        <td>일자</td>
+        <td>날짜</td>
         </tr>
         <tr>
         <td>endDate</td>
-        <td>일자</td>
+        <td>날짜</td>
         </tr>
     </table>
 
@@ -758,10 +762,10 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>일자</td>
+    <td>날짜</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>일자</td>
+    <td>날짜</td>
     </tr>
 </table>

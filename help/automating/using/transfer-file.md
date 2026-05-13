@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/tl7zyRjRGu9XFjQbPnubDvwqTY-HV7DDPDfOdiKHSi4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 76%
+source-wordcount: 1172
+ht-degree: 73%
 
 ---
 
@@ -65,7 +70,7 @@ ht-degree: 76%
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**: 이 옵션은 **[!UICONTROL File listing]** 탭에서 **[!UICONTROL General]** 작업을 선택할 때 사용할 수 있습니다. 이 옵션을 통해 서버에 있는 모든 파일을 **변수.파일명** 이벤트 변수로 색인화할 수 있습니다. 이때 파일 이름은 **&#39;n&#39;** 문자로 구분됩니다.
+   * **[!UICONTROL List all files]**: 이 옵션은 **[!UICONTROL General]** 탭에서 **[!UICONTROL File listing]** 작업을 선택할 때 사용할 수 있습니다. 이 옵션을 통해 서버에 있는 모든 파일을 **변수.파일명** 이벤트 변수로 색인화할 수 있습니다. 이때 파일 이름은 **&#39;n&#39;** 문자로 구분됩니다.
 
 1. **[!UICONTROL Advanced options]** 탭의 **[!UICONTROL If no files are found]** 섹션에서 활동 시작 시 오류 또는 존재하지 않는 파일이 감지될 경우 실행할 작업을 구성할 수 있습니다.
 
@@ -148,8 +153,8 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 **[!UICONTROL File(s) present on the Adobe Campaign server]** 프로토콜은 복구할 파일이 포함된 저장소에 해당합니다.
 메타문자 또는 와일드카드(예: &#42; 또는 ?) 를 사용하여 파일을 필터링할 수 있습니다.
 
-**[!UICONTROL Define a file path]** 또는 **[!UICONTROL Use a dynamic file path]**&#x200B;을(를) 원할 경우 선택합니다.
-**[!UICONTROL Use a dynamic file path]** 옵션을 선택하면 표준 표현식 및 이벤트 변수를 사용하여 전송할 파일의 이름을 개인화할 수 있습니다. 자세한 정보는 이 [페이지](../../automating/using/customizing-workflow-external-parameters.md)를 참조하십시오.
+**[!UICONTROL Define a file path]**&#x200B;하거나 **[!UICONTROL Use a dynamic file path]**
+**[!UICONTROL Use a dynamic file path]** 옵션을 사용하면 표준 표현식 및 이벤트 변수를 사용하여 전송할 파일의 이름을 개인화할 수 있습니다. 자세한 정보는 이 [페이지](../../automating/using/customizing-workflow-external-parameters.md)를 참조하십시오.
 
 경로는 Adobe Campaign 서버의 저장소 공간 디렉토리에 대한 상대적 경로여야 합니다. 파일은 **sftp&lt;인스턴스명>/** 디렉토리에 있습니다. 또한 저장소 공간 위의 디렉토리는 검색할 수 없습니다.
 
@@ -163,7 +168,7 @@ Microsoft Azure Blob 프로토콜을 사용하면 Microsoft Azure Blob 저장소
 
 ## 내역 설정 {#historization-settings}
 
-**[!UICONTROL Transfer file]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일이 전용 폴더에 저장됩니다.  워크플로의 각 **[!UICONTROL Transfer file]** 활동마다 폴더가 하나씩 생성됩니다. 따라서 서버의 물리적 공간을 유지하려면 이 폴더의 크기를 제한할 수 있어야 합니다.
+**[!UICONTROL Transfer file]** 활동이 실행될 때마다 업로드 또는 다운로드한 파일이 전용 폴더에 저장됩니다. 워크플로의 각 **[!UICONTROL Transfer file]** 활동마다 폴더가 하나씩 생성됩니다. 따라서 서버의 물리적 공간을 유지하려면 이 폴더의 크기를 제한할 수 있어야 합니다.
 
 이를 위해 **[!UICONTROL Transfer File]** 활동의 **[!UICONTROL Advanced options]**&#x200B;에서 **[!UICONTROL Historization settings]**&#x200B;을(를) 정의할 수 있습니다.
 

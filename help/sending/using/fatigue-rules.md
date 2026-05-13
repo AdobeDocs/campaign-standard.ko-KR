@@ -8,10 +8,16 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/yzZqni5CgzXiOBFYrKXbUjfSbpMRdxKAMeSuZL2hiuk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2374'
-ht-degree: 98%
+source-wordcount: 2398
+ht-degree: 97%
 
 ---
 
@@ -107,7 +113,7 @@ ht-degree: 98%
 
 **게재 유형**
 
-피로도 규칙은 일회성 게재, 반복 게재, 워크플로 게재 및 트랜잭션 메시지와 같은 모든 게재 유형과 호환됩니다. 
+피로도 규칙은 일회성 게재, 반복 게재, 워크플로 게재 및 트랜잭션 메시지와 같은 모든 게재 유형과 호환됩니다.
 
 **트랜잭션 메시지**&#x200B;는 리마케팅 메시지와 같은 마케팅 메시지(타겟팅 프로필)뿐만 아니라 이벤트(rtEvent)를 타겟팅하는 서비스 메시지를 전송하는 데 사용할 수 있습니다. 피로도 규칙은 마케팅 메시지(타겟팅 프로필)와만 호환됩니다. 이벤트 트랜잭션 메시지는 프로필 정보를 포함하지 않으므로 (프로필이 보강이 된 경우에도) 피로도 규칙과 호환되지 않습니다. 트랜잭션 메시지에서 마케팅 메시지를 지원하면 **마케팅 트랜잭션 메시지를 포함한 모든 채널에 피로도 규칙을 적용**&#x200B;할 수 있습니다.
 

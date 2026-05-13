@@ -9,16 +9,21 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 342911c5-0746-4205-b380-be195b9cb82a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LZNc1yJEI9GGnxAs-eLhrDoX91RtZKXRMhqQxkiSN-g
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 542
 ht-degree: 95%
 
 ---
 
 # 필터 정의 구성{#configuring-filter-definition}
 
-**[!UICONTROL Filter definition]** 탭에서 사용자가 대상자를 정의할 때와 같이 복잡한 쿼리를 만들 때 직접 액세스할 수 있는 고급 필터를 만들 수 있습니다. 
+**[!UICONTROL Filter definition]** 탭에서 사용자가 대상자를 정의할 때와 같이 복잡한 쿼리를 만들 때 직접 액세스할 수 있는 고급 필터를 만들 수 있습니다.
 
 워크플로, 대상자 및 REST API를 통해 리소스를 채우고 해당 데이터에 액세스할 수 있으므로 이 단계는 필수가 아닙니다.
 
@@ -28,20 +33,20 @@ ht-degree: 95%
 
 예를 들어 지난 3개월 내에 특정 금액보다 큰 트랜잭션을 모두 선택할 수 있게 해주는 필터를 만들 수 있습니다.
 
-이렇게 하려면 **[!UICONTROL Profiles]** 리소스를 확장한 뒤 (이전에 만든) 트랜잭션 표에 연결하는 필터를 정의해야 합니다. 필터에는 트랜잭션 값이 주어진 매개 변수 이상이어야 하며 트랜잭션 날짜가 지난 3개월에 해당하는 범위 안에 있어야 함을 나타내는 규칙을 적용합니다.
+이렇게 하려면 **[!UICONTROL Profiles]** 리소스를 확장한 뒤 (이전에 만든) 트랜잭션 테이블에 연결하는 필터를 정의해야 합니다. 필터에는 트랜잭션 값이 주어진 매개 변수 이상이어야 하며 트랜잭션 날짜가 지난 3개월에 해당하는 범위 안에 있어야 함을 나타내는 규칙을 적용합니다.
 
-1. 먼저 트랜잭션 표를 만들고 게시했는지 확인합니다. [리소스 만들기 또는 확장](../../developing/using/creating-or-extending-the-resource.md)을 참조하십시오.
+1. 먼저 트랜잭션 테이블을 만들고 게시했는지 확인합니다. [리소스 만들기 또는 확장](../../developing/using/creating-or-extending-the-resource.md)을 참조하십시오.
 
    >[!NOTE]
    >
-   >여기에서는 사용자 지정 트랜잭션 표의 예시를 사용합니다. 표는 비즈니스 요구 사항에 맞추어 조정하십시오.
+   >여기에서는 사용자 지정 트랜잭션 테이블의 예시를 사용합니다. 표는 비즈니스 요구 사항에 맞추어 조정하십시오.
 
 1. **[!UICONTROL Profiles]** 리소스의 트랜잭션 표와 관련된 필터를 정의하기에 앞서 이 테이블에 대한 링크를 정의하고 변경 사항을 게시합니다. [다른 리소스와 연결된 링크 정의](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)와 [데이터베이스 구조 업데이트](../../developing/using/updating-the-database-structure.md)를 참조하십시오.
-1. 새 필터 정의 화면의 **[!UICONTROL Definition]** 탭에서 트랜잭션 표를 선택합니다.
+1. 새 필터 정의 화면의 **[!UICONTROL Definition]** 탭에서 트랜잭션 테이블을 선택합니다.
 
    ![](assets/custom_resource_filter-definition_example-empty.png)
 
-1. **[!UICONTROL Add a rule - Profiles/Transactions]** 창에서 트랜잭션 표를 작업 영역으로 끌어다 놓습니다. 그 다음 표시되는 창에서 사용할 필드를 선택합니다.
+1. **[!UICONTROL Add a rule - Profiles/Transactions]** 창에서 트랜잭션 테이블을 작업 영역으로 끌어다 놓습니다. 그 다음 표시되는 창에서 사용할 필드를 선택합니다.
 
    ![](assets/custom_resource_filter-definition_example-field.png)
 

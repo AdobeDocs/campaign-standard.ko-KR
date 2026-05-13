@@ -9,9 +9,14 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
+TQID: https://experienceleague.adobe.com/QybG0D0D6-Fa6bfpjD-sI7WrQbxDelc0IBVC4BcWLlg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: 503
 ht-degree: 79%
 
 ---
@@ -32,7 +37,7 @@ ht-degree: 79%
 
   ![](assets/sending_delivery1.png)
 
-  로그에는 게재 및 증명과 관련된 모든 메시지가 포함되어 있습니다. 특정 아이콘을 통해 오류나 경고를 확인할 수 있습니다. 자세한 내용은 [메시지 승인](../../sending/using/previewing-messages.md)을 참조하십시오.
+  로그에는 게재 및 교정쇄와 관련된 모든 메시지가 포함되어 있습니다. 특정 아이콘을 통해 오류나 경고를 확인할 수 있습니다. 자세한 내용은 [메시지 승인](../../sending/using/previewing-messages.md)을 참조하십시오.
 
   **[!UICONTROL Export list]** 버튼을 클릭하여 로그를 내보낼 수 있습니다.
 
@@ -55,7 +60,7 @@ ht-degree: 79%
 
 ## 게재 로그 {#delivery-logs}
 
-### 로그 전송 {#sending-logs}
+### 전송 로그 {#sending-logs}
 
 **[!UICONTROL Sending logs]** 탭에는 이 게재의 모든 발생 내역이 표시됩니다. 보낸 메시지 및 상태 목록이 여기에 저장됩니다. 여기에서 각 수신자에 대한 게재 상태를 볼 수 있습니다.
 

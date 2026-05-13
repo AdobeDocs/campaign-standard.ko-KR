@@ -9,9 +9,14 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: 434
 ht-degree: 99%
 
 ---
@@ -42,7 +47,7 @@ SMS 메시지를 개인화하는 원칙은 [이메일](../../designing/using/per
 
 **[!UICONTROL From]** 옵션을 사용하면 문자열을 사용하여 SMS 메시지의 발신자명을 개인화할 수 있습니다. 발신자명이란 수신자의 휴대전화에서 SMS 메시지를 보낸 사람으로 표시되는 이름입니다.
 
-이 필드가 비어 있는 경우 외부 계정에서 제공하는 소스 번호가 표시됩니다. 소스 번호가 제공되지 않는 경우 짧은 코드가 사용됩니다. SMS 게재와 관련된 외부 계정은 [SMS 라우팅 정의 &#x200B;](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) 섹션에 나와 있습니다.
+이 필드가 비어 있는 경우 외부 계정에서 제공하는 소스 번호가 표시됩니다. 소스 번호가 제공되지 않는 경우 짧은 코드가 사용됩니다. SMS 게재와 관련된 외부 계정은 [SMS 라우팅 정의 ](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) 섹션에 나와 있습니다.
 
 ![](assets/sms_creation_8.png)
 

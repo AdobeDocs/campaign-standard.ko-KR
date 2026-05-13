@@ -1,5 +1,5 @@
 ---
-title: 프로필 기본 정보
+title: 프로필 정보
 description: 연락처는 Campaign 데이터베이스에 프로필로 저장되고 전체 라이프 사이클에 업데이트됩니다.
 audience: audiences
 content-type: reference
@@ -9,16 +9,21 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 65310e00-567f-4fae-89bc-b1d5591fca77
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/8netKX93BsN9JxgyckV44tpKK5uPjFMrrnD8F4FCpJM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 100%
+source-wordcount: 155
+ht-degree: 74%
 
 ---
 
-# 프로필 기본 정보{#about-profiles}
+# 프로필 정보{#about-profiles}
 
-Adobe Campaign을 사용하면 생성, 가져오기, 타겟팅, 작업 추적, 업데이트 등 전체 라이프 사이클에서 연락처를 관리할 수 있습니다. 연락처는 데이터베이스에 성, 이름, 주소, 구독, 게재 등 연결된 정보가 포함된 프로필로 저장됩니다.
+Adobe Campaign을 사용하면 생성, 가져오기, 타깃팅, 작업 추적, 업데이트 등 전체 라이프 사이클에서 연락처를 관리할 수 있습니다. 연락처는 데이터베이스에 성, 이름, 주소, 구독, 게재 등 연결된 정보가 포함된 프로필로 저장됩니다.
 
 >[!NOTE]
 >

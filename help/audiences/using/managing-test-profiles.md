@@ -9,10 +9,15 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/csDw0anKGvAW22BcB5p0Rb1bHYA2NvdWpLVIWtZrC98
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 94%
+source-wordcount: 454
+ht-degree: 91%
 
 ---
 
@@ -28,8 +33,8 @@ ht-degree: 94%
 
 테스트 프로필에는 가상 연락처 정보 또는 발신자가 제어하는 연락처 정보가 포함되어 있으므로 다음 컨텍스트의 메시지에 사용할 수 있습니다.
 
-* **증명**&#x200B;을 보내는 경우: 증명은 최종 게재를 수신자에게 보내기 전에 메시지를 확인하는 데 사용되는 특정 메시지입니다. 증명 테스트 프로필은 콘텐츠 및 포맷과 관련한 게재 확인을 담당합니다. [증명 보내기](../../sending/using/sending-proofs.md)를 참조하십시오.
-* **이메일 렌더링**&#x200B;의 경우: 이메일 렌더링 테스트 프로필은 메시지를 수신한 받은 편지함에 따라 메시지가 표시되는 방식을 확인하는 데 사용됩니다. 예를 들어 웹 메일, 메시지 서비스, 모바일 등이 있습니다. [이메일 렌더링](../../sending/using/email-rendering.md)을 참조하십시오.
+* **교정쇄**&#x200B;를 보내는 경우: 교정쇄는 최종 게재를 수신자에게 보내기 전에 메시지를 확인하는 데 사용되는 특정 메시지입니다. 교정쇄 테스트 프로필은 콘텐츠 및 포맷과 관련한 게재 확인을 담당합니다. [교정쇄 보내기](../../sending/using/sending-proofs.md)를 참조하십시오.
+* **이메일 렌더링**&#x200B;의 경우: 이메일 렌더링 테스트 프로필은 메시지를 수신한 받은 편지함에 따라 메시지가 표시되는 방식을 확인하는 데 사용됩니다. 예를 들어 웹 메일, 메시지 서비스, 모바일 등이 있습니다. [전자 메일 렌더링](../../sending/using/email-rendering.md)을 참조하세요.
 
   **이메일 렌더링** 사용은 읽기 전용입니다. 이러한 용도의 테스트 프로필은 Adobe Campaign에서 바로 사용할 수 있습니다.
 
@@ -82,6 +87,6 @@ ht-degree: 94%
 
 이 비디오는 테스트 프로필을 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31890?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3fc286a9-bba4-4e3d-95cd-600eed4943e7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/wVo-oDNJNFmaNcb7p6fACNIfrPG-2Y-VbXxXG0P8XTQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: 229
 ht-degree: 68%
 
 ---
@@ -46,7 +50,7 @@ ht-degree: 68%
      ![](assets/wkf_data_export9.png)
 
 1. 활동을 확인합니다.
-1. [&#x200B; 활동 뒤에 &#x200B;](../../automating/using/transfer-file.md)파일 전송&#x200B;**[!UICONTROL Extract file]** 활동을 끌어다 놓아 외부 계정에서 추출 파일을 복구합니다.
+1. **[!UICONTROL Extract file]** 활동 뒤에 [파일 전송](../../automating/using/transfer-file.md) 활동을 끌어다 놓아 외부 계정에서 추출 파일을 복구합니다.
 1. 활동을 열고 **[!UICONTROL File upload]** 작업을 선택합니다.
 
    ![](assets/wkf_data_export11.png)

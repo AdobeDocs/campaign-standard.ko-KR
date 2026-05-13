@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 358194f9-34ce-4dd5-b9b2-1a7d541879ab
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/NMHm-sHLhsjMqprniSnxca27zpoxGEhRGKlt1IJXfVg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: 202
 ht-degree: 6%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 6%
 
 고객의 온라인 상태를 추적하는 것 외에도 고객의 실제 위치를 활용할 수도 있습니다. Adobe Analytics for Mobile과의 통합을 통해 Adobe Campaign을 사용하여 모바일 애플리케이션 구독자에게 위치 기반 마케팅 메시지를 보낼 수 있습니다.
 
-관심 영역 은 레이블과 연결된 위도, 경도 및 반경으로 구성됩니다. [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ko) 인터페이스에 정의되어 있습니다.
+관심 영역 은 레이블과 연결된 위도, 경도 및 반경으로 구성됩니다. [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) 인터페이스에 정의되어 있습니다.
 
 구독자가 모바일 애플리케이션을 열 때 위치가 관심 영역과 일치하는 경우 Adobe Campaign은 Experience Cloud 모바일 SDK을 통해 데이터를 캡처합니다. 이 정보를 사용하여 사용자의 위치를 기반으로 개인화된 메시지(예: 이메일, 푸시 알림, SMS 메시지)를 보낼 수 있습니다.
 

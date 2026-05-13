@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/WpIRNQtob-mtXSfXYBklwkcObjScygqUrHWRnJOscrM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: 961
 ht-degree: 0%
 
 ---
@@ -38,7 +43,7 @@ OAuth 액세스 토큰을 사용하면 통합 도구가 웹 API를 통해 Micros
 
 주요 단계는 다음 비디오에 요약되어 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/34837?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 OAuth 액세스 토큰을 생성하려면 아래에 설명된 단계를 수행합니다.
 
@@ -124,7 +129,7 @@ Dynamics 365 앱을 Campaign Standard 환경에 통합하려면 아래 단계를
 또는 이 [링크](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}(으)로 이동할 수 있습니다.
 1. 지침에 따라 Dynamics 365 인스턴스용 앱을 설치하십시오.
 1. 설치가 완료되면 Dynamics 365 인스턴스로 이동하여 관리자로 로그인합니다.
-1. 오른쪽 상단의 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다. 상단 배너에서 **[!UICONTROL Settings]** 옆에 있는 드롭다운을 클릭하고 **[!UICONTROL Processes]**&#x200B;에서 **[!UICONTROL Process Center]**&#x200B;을(를) 클릭합니다.
+1. 오른쪽 상단의 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다. 상단 배너에서 **[!UICONTROL Settings]** 옆에 있는 드롭다운을 클릭하고 **[!UICONTROL Process Center]**&#x200B;에서 **[!UICONTROL Processes]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Adobe Campaign Email Bounce]** 작업을 검색하고 클릭합니다.
 1. **[!UICONTROL Administration]** 탭에서 맨 위 리본에서 **[!UICONTROL Actions]**&#x200B;을(를) 클릭하여 이전에 만든 Adobe API 응용 프로그램 사용자로 소유자를 변경한 다음 **[!UICONTROL Assign to another User]** 옵션을 선택하고 드롭다운에서 **[!UICONTROL Adobe API application user]**&#x200B;을(를) 선택하여 할당합니다.
 1. 프로세스를 다시 활성화합니다.

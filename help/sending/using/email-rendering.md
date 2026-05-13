@@ -8,9 +8,14 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LTrGN21kDYUVuUOAY55S1cITYYhCVE9O-wJm0ubrtzI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: 516
 ht-degree: 79%
 
 ---
@@ -46,7 +51,7 @@ Adobe Campaign에서 **전자 메일 렌더링을** 위해 사용할 수 있는 
 
    >[!NOTE]
    >
-   >**[!UICONTROL Proof + Email rendering]** 옵션을 사용하면 증명 전송과 전자 메일 렌더링 기능을 동시에 사용할 수 있습니다. 증명된 수신인에 의해 메시지를 승인받을 수 있으며 동시에 타겟팅된 받은 편지함에 따라 메시지가 수신되는 방식을 테스트할 수 있습니다. 이 경우 테스트 프로필 증명을 선택해야 합니다. [테스트 프로필 정보](../../audiences/using/managing-test-profiles.md)를 참조하십시오.
+   >**[!UICONTROL Proof + Email rendering]** 옵션을 사용하면 교정쇄 전송과 전자 메일 렌더링 기능을 동시에 사용할 수 있습니다. 교정쇄 수신인에 의해 메시지를 승인받을 수 있으며 동시에 타기팅된 받은 편지함에 따라 메시지가 수신되는 방식을 테스트할 수 있습니다. 이 경우 교정쇄 테스트 프로필을 선택해야 합니다. [테스트 프로필 정보](../../audiences/using/managing-test-profiles.md)를 참조하십시오.
 
    테스트 게재가 전송됩니다.
 
@@ -63,7 +68,7 @@ Adobe Campaign에서 **전자 메일 렌더링을** 위해 사용할 수 있는 
 **관련 항목**:
 
 * [이메일 만들기](../../channels/using/creating-an-email.md)
-* [증명 보내기](../../sending/using/sending-proofs.md)
+* [교정쇄 보내기](../../sending/using/sending-proofs.md)
 * [쿼리 편집기](../../automating/using/editing-queries.md#about-query-editor)
 
 ## 전자 메일 렌더링 보고서 {#email-rendering-report-description}

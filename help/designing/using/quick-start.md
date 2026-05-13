@@ -1,5 +1,5 @@
 ---
-title: 이메일 디자이너 시작
+title: 이메일 디자이너 시작하기
 description: 이메일 Designer을 사용하여 이메일 콘텐츠 작성을 시작합니다.
 audience: designing
 content-type: reference
@@ -8,14 +8,20 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 942
 ht-degree: 5%
 
 ---
 
-# 이메일 디자이너 시작 {#quick-start}
+# 이메일 디자이너 시작하기 {#quick-start}
 
 이메일 Designer은 이메일을 만드는 네 가지 방법을 제공합니다.
 
@@ -98,7 +104,7 @@ ht-degree: 5%
 
   ![](assets/html-component-source-code.png)
 
-  HTML에 익숙한 경우 **[!UICONTROL Html]** 콘텐츠 구성 요소를 사용하여 원래 바닥글에서 HTML 코드를 복사하여 붙여 넣을 수 있습니다. 자세한 내용은 [콘텐츠 구성 요소 정보](../../designing/using/designing-from-scratch.md#about-content-components)를 참조하세요.
+  HTML에 익숙하다면 **[!UICONTROL Html]** 콘텐츠 구성 요소를 사용하여 원본 바닥글에서 HTML 코드를 복사하여 붙여 넣을 수 있습니다. 자세한 내용은 [콘텐츠 구성 요소 정보](../../designing/using/designing-from-scratch.md#about-content-components)를 참조하세요.
 
   ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -136,9 +142,9 @@ ht-degree: 5%
 
 여러 이메일에서 재사용하기 위해 결합할 수 있는 모듈식 템플릿 및 조각의 프레임워크를 구축하려면 이메일 HTML을 이메일 Designer 템플릿으로 변환하는 것을 고려해야 합니다.
 
-### HTML 컨텐츠 변환 {#converting-an-html-content}
+### HTML 콘텐츠 변환 {#converting-an-html-content}
 
-이 사용 사례에서는 HTML 이메일을 이메일 Designer 구성 요소로 빠르게 변환할 수 있습니다. 이 항목에 대한 자세한 내용은 [HTML 내용 변환](../../designing/using/using-existing-content.md#converting-an-html-content)을 참조하십시오.
+이 사용 사례에서는 HTML 이메일을 이메일 Designer 구성 요소로 빠르게 변환할 수 있습니다. 이 항목에 대한 자세한 내용은 [HTML 콘텐츠 변환](../../designing/using/using-existing-content.md#converting-an-html-content)을 참조하십시오.
 
 >[!CAUTION]
 >
@@ -151,6 +157,6 @@ ht-degree: 5%
 
 ### HTML 이메일 가져오기 및 편집 {#compatibility-mode}
 
-컨텐츠를 업로드할 때 컨텐츠를 완전히 준수하고 이메일 Designer의 WYSIWYG 편집기를 사용하여 편집할 수 있도록 특정 태깅이 포함되어야 합니다.
+콘텐츠를 업로드할 때 이메일 Designer의 WYSIWYG 편집기를 사용하여 완전히 준수하고 편집할 수 있는 특정 태깅을 포함해야 합니다.
 
 기존 전자 메일을 Designer 호환 전자 메일로 변환하는 방법에 대한 자세한 내용은 [이 섹션](../../designing/using/using-existing-content.md#compatibility-mode)을 참조하세요.

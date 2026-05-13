@@ -8,10 +8,16 @@ feature: Workflows
 old-role: Data Architect
 role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/CRJAsj2UgL585S0Ao1krhAUgvWCZLSoDPpK8KJoqF9M
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 70%
+source-wordcount: 235
+ht-degree: 72%
 
 ---
 
@@ -36,7 +42,7 @@ ht-degree: 70%
 * [추가 데이터를 사용하여 이메일 개인화](../../automating/using/personalizing-email-with-additional-data.md)
 * [반복 푸시 알림 보내기](../../automating/using/recurring-push-notifications.md)
 
-## 세분화 및 타겟팅 {#segmentation-and-targeting}
+## 세분화 및 타기팅 {#segmentation-and-targeting}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
@@ -54,7 +60,7 @@ ht-degree: 70%
 
 * [데이터베이스로 파일 대상자 조정](../../automating/using/reconcile-file-audience-with-database.md)
 * [가져온 파일에서 데이터 중복 제거](../../automating/using/deduplicating-data-imported-file.md)
-* [&#x200B; 파일에 포함된 데이터로 프로필 데이터 보강](../../automating/using/enriching-profile-data-file.md)
+* [파일에 포함된 데이터로 프로필 데이터 보강](../../automating/using/enriching-profile-data-file.md)
 * [외부 신호 활동 및 데이터 가져오기](../../automating/using/external-signal-data-import.md)
 * [외부 데이터로 데이터베이스 업데이트](../../automating/using/update-database-file.md)
 * [자동 파일 다운로드를 기반으로 데이터 업데이트](../../automating/using/update-data-automatic-download.md)

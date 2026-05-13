@@ -10,9 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/38gc6pZv3d9g2c9X1F3Xhx97xt-mwj-Ey03ZdAwWvgo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e656c701-3899-4db3-989c-de0980ddfffa
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: 1063
 ht-degree: 98%
 
 ---
@@ -48,7 +54,7 @@ ht-degree: 98%
 패키지를 내보내는 단계는 [패키지 내보내기](#exporting-a-package) 섹션에 설명되어 있습니다.
 
 * **[!UICONTROL Platform]** 패키지는 기술 구성 시 추가한 모든 리소스(사용자 정의 리소스, 사용자 정의 리소스 세트, 트리거 및 **[!UICONTROL System]** 유형 애플리케이션 옵션)를 다시 그룹화합니다.
-* **[!UICONTROL Administration]** 패키지는 비즈니스 구성 시 추가한 모든 개체(캠페인 템플릿, 콘텐츠 템플릿, 게재 템플릿, 랜딩 페이지 템플릿, 프로그램 템플릿 및 워크플로 템플릿 등)를 다시 그룹화합니다. 
+* **[!UICONTROL Administration]** 패키지는 비즈니스 구성 시 추가한 모든 개체(캠페인 템플릿, 콘텐츠 템플릿, 게재 템플릿, 랜딩 페이지 템플릿, 프로그램 템플릿 및 워크플로 템플릿 등)를 다시 그룹화합니다.
 
   여기에는 콘텐츠 블록, 타겟 매핑, 외부 계정, 조직 단위, **[!UICONTROL User]** 유형 애플리케이션 옵션, 역할, 유형화, 유형화 규칙 및 사용자 등의 개체도 포함됩니다.
 

@@ -9,16 +9,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/WNces333l4PxdT4I8xKFrKi-wpWJlUDVFQOftlIq4U8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: 1054
 ht-degree: 2%
 
 ---
 
 # Adobe Campaign Standard 사용 사례를 지원하기 위한 태그 규칙 구성 {#configuring-rules-launch}
 
-데이터 수집 UI에서 데이터 요소 및 규칙을 만들어 모바일 애플리케이션에서 [!DNL Adobe Campaign Standard] (으)로 PII 및 기타 데이터를 보냅니다.
+데이터 수집 UI에서 데이터 요소 및 규칙을 만들어 모바일 애플리케이션에서 [!DNL Adobe Campaign Standard]&#x200B;(으)로 PII 및 기타 데이터를 보냅니다.
 
 데이터 수집 UI의 모든 구성 변경 사항이 적용되도록 하려면 이러한 변경 사항을 게시해야 합니다. 자세한 내용은 [게시](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)를 참조하십시오.
 
@@ -77,7 +81,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->모바일 앱에서 Adobe Campaign으로 PII 정보를 보내려면 SDK API를 구현해야 합니다. 자세한 내용을 보려면 [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)(으)로 이동하십시오.
+>모바일 앱에서 Adobe Campaign으로 PII 정보를 보내려면 SDK API를 구현해야 합니다. 자세한 내용을 보려면 [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii)&#x200B;(으)로 이동하십시오.
 
 PII 데이터를 [!DNL Adobe Campaign Standard]에 보내려면 데이터 수집 UI에 규칙을 만드십시오.
 
@@ -89,7 +93,7 @@ PII 데이터를 [!DNL Adobe Campaign Standard]에 보내려면 데이터 수집
 
 1. **[!UICONTROL Extension]** 드롭다운에서 **[!UICONTROL Mobile Core]**&#x200B;을(를) 선택합니다. **[!UICONTROL Event type]** 드롭다운에서 **[!UICONTROL Collect PII]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Keep changes]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Keep changes]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Actions]** 섹션에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
@@ -161,7 +165,7 @@ PII 데이터를 [!DNL Adobe Campaign Standard]에 보내려면 데이터 수집
 
 1. **[!UICONTROL Extension]** 드롭다운에서 **[!UICONTROL Adobe Campaign Standard]**&#x200B;을(를) 선택합니다. **[!UICONTROL Event type]** 드롭다운에서 **[!UICONTROL In-App click tracking]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Keep changes]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Keep changes]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Actions]** 섹션에서 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 

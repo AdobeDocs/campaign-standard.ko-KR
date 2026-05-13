@@ -10,16 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/z40XwpSoXzB0KpOs44BVIkxbUWAZShPIyb9l0QHUXZs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: 254
 ht-degree: 87%
 
 ---
 
 # 데이터베이스로 파일 대상자 조정 {#example--reconcile-a-file-audience-with-the-database}
 
-이 예제에서는 **[!UICONTROL Read audience]** 활동을 사용하여 파일 가져오기로 직접 만든 대상자를 조정하는 방법을 보여줍니다. 
+이 예제에서는 **[!UICONTROL Read audience]** 활동을 사용하여 파일 가져오기로 직접 만든 대상자를 조정하는 방법을 보여줍니다.
 
 파일 가져오기를 수행할 때 콘텐츠를 대상자에 직접 저장할 수 있습니다. 이 대상자는 파일 대상자이며, 데이터는 데이터베이스 리소스에 연결되어 있지 않습니다.
 

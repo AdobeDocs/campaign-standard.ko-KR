@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 37%
+source-wordcount: 315
+ht-degree: 42%
 
 ---
 
@@ -29,8 +33,8 @@ ht-degree: 37%
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL email]** 연산자로 **[!UICONTROL is not empty]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어서 놓고 값이 **[!UICONTROL no longer contact by email]**&#x200B;인 **[!UICONTROL no]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL is not empty]** 연산자로 **[!UICONTROL email]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어서 놓고 값이 **[!UICONTROL no]**&#x200B;인 **[!UICONTROL no longer contact by email]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/wf-complement-query.png)
@@ -45,7 +49,7 @@ ht-degree: 37%
 1. 전자 메일 속성을 입력하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 전자 메일 레이아웃을 만들려면 **[!UICONTROL Using the Email Designer]**&#x200B;을(를) 클릭합니다.
 1. 요소를 삽입하거나 기존 템플릿을 선택합니다.
-1. 각 위치에 맞는 오퍼를 사용하여 전자 메일을 개인화할 수 있습니다. 자세한 내용은 [전자 메일 디자인](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)을 참조하세요.
+1. 각 위치에 맞는 제안을 통해 전자 메일을 개인화할 수 있습니다.자세한 내용은 [전자 메일 디자인](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)을 참조하십시오.
 1. 레이아웃을 확인하려면&#x200B;**[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -55,8 +59,8 @@ ht-degree: 37%
 1. **[!UICONTROL Duration]**&#x200B;에서 ![](assets/duration-icon.png)을(를) 클릭하고 하루를 선택하십시오.
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 **[!UICONTROL Query activity]**&#x200B;을(를) 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 연산자 **[!UICONTROL Tracking Logs]**&#x200B;을(를) 사용하여 **[!UICONTROL exists]**&#x200B;을(를) 끌어서 놓습니다.
-1. **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;에서 연산자 **[!UICONTROL delivery]**&#x200B;을(를) 사용하여 **[!UICONTROL is equal to]**&#x200B;을(를) 끌어다 놓고 게재를 값으로 선택합니다.
+1. **[!UICONTROL Shortcuts]**&#x200B;에서 연산자 **[!UICONTROL exists]**&#x200B;을(를) 사용하여 **[!UICONTROL Tracking Logs]**&#x200B;을(를) 끌어서 놓습니다.
+1. **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;에서 연산자 **[!UICONTROL is equal to]**&#x200B;을(를) 사용하여 **[!UICONTROL delivery]**&#x200B;을(를) 끌어다 놓고 게재를 값으로 선택합니다.
 1. **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;에서 **[!UICONTROL type]**&#x200B;을(를) 끌어서 놓고 **[!UICONTROL Open]**&#x200B;을(를) 값으로 선택합니다.
 1. **[!UICONTROL except]**(으)로 규칙 사이의 연산자를 선택하십시오.
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.

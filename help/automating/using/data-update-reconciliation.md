@@ -1,6 +1,6 @@
 ---
 title: 조정을 사용한 데이터 업데이트
-description: 다음 예제에서는 새 클라이언트를 포함하는 가져온 파일에서 직접 프로필 대상을 만드는 워크플로우를 보여 줍니다.
+description: 다음 예제에서는 새로운 고객을 포함하는 파일을 가져와 직접 대상자 프로필을 만드는 워크플로를 보여줍니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/cEXfESw1LZcrQVlLsgrlDB8J2aGz4zCoSUrIAshECo0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 33%
+source-wordcount: 128
+ht-degree: 49%
 
 ---
 
@@ -38,7 +42,7 @@ ht-degree: 33%
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* 로드된 파일의 각 열을 프로필 차원 열에 연결하는 [조정](../../automating/using/reconciliation.md) 활동. 식별할 수 없는 파일 레코드(데이터 누락, 호환되지 않는 데이터 형식 등)는 최종 대상 데이터의 무결성을 유지하기 위해 무시됩니다.
+* 로드된 파일의 각 열을 프로필 차원 열에 연결하는 [조정](../../automating/using/reconciliation.md) 활동. 식별할 수 없는 파일 레코드(데이터 누락, 호환되지 않는 데이터 형식 등)입니다. 최종 대상 데이터의 무결성을 유지하기 위해 무시됩니다.
 
   ![](assets/identification_example1.png)
 

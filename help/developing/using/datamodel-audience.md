@@ -7,10 +7,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/Fd12meY1UY9hZudGc18wtTTi2cVWWvN9wth8JSLzBQA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 36%
+source-wordcount: 213
+ht-degree: 40%
 
 ---
 
@@ -69,14 +73,14 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>count</td>
-                  <td>횟수</td>
+                  <td>계수</td>
                   <td>정수 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countDate</td>
                   <td>날짜 계산</td>
-                  <td>일자 </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,12 +92,12 @@ ht-degree: 36%
                <tr>
                   <td>생성됨</td>
                   <td>생성일</td>
-                  <td>일자 </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>제작자</td>
+                  <td>생성자</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -118,7 +122,7 @@ ht-degree: 36%
                <tr>
                   <td>expirationDate</td>
                   <td>만료 일자</td>
-                  <td>일자 </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -160,7 +164,7 @@ ht-degree: 36%
                <tr>
                   <td>마지막 수정일</td>
                   <td>마지막 수정일</td>
-                  <td>일자 </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>

@@ -8,10 +8,15 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/ThX9BHPlbOlav6-5z8P1ruwSc2-phnvnkqjLaSZO3Fs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 3%
+source-wordcount: 662
+ht-degree: 4%
 
 ---
 
@@ -25,7 +30,7 @@ ht-degree: 3%
 
 | 레이블 | 채널 | 설명 |
 | ---------|----------|---------|
-| **[!UICONTROL Address not specified]** | 모두 | 지정된 주소(이메일, 우편 주소 등)가 없는 대상 모집단은 제외합니다. 을(를) 선택합니다. |
+| **[!UICONTROL Address not specified]** | 모두 | 지정된 주소(선택한 채널에 따른 이메일, 우편 주소 등)가 없는 대상 모집단을 제외합니다. |
 | **[!UICONTROL Address on denylist]** | 모두 | 차단 목록에 추가하다에 있는 주소는 제외합니다. |
 | **[!UICONTROL Duplicate]** | 모두 | 대상 모집단 **[!UICONTROL Address]** 필드를 기반으로 중복을 제외합니다. |
 | **[!UICONTROL Exclude mobile applications]** | 모바일 애플리케이션 | 메시지에 정의된 모바일 애플리케이션과 일치하지 않는 앱 구독을 제외합니다. |
@@ -38,7 +43,7 @@ ht-degree: 3%
 이러한 기본 필터링 규칙 외에도 두 가지 제외 규칙을 사용할 수 있습니다.
 
 * **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
-* **[!UICONTROL Exclusion of domains]**( **[!UICONTROL domainExclusions]** ).
+* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
 
 전자 메일 분석 중에 이러한 규칙은 수신자 전자 메일 주소를 게재 가능성 인스턴스에서 관리되는 암호화된 전역 제외 목록에 포함된 금지된 주소 또는 도메인 이름과 비교합니다. 일치하는 항목이 있으면 메시지가 해당 수신자에게 전송되지 않습니다.
 

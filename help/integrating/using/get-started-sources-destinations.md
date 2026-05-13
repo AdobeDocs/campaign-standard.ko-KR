@@ -7,10 +7,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/r1rASYXuo-xeKH80eZVYG-jUhxy93GuTa8CIDyouSNY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 13%
+source-wordcount: 314
+ht-degree: 18%
 
 ---
 
@@ -30,13 +36,13 @@ Adobe Experience Platform을 사용하면 Campaign Standard과 Adobe Real-time C
 
 Adobe 실시간 고객 데이터 플랫폼, 대상 및 소스에 대한 자세한 개요는 다음 페이지를 참조하십시오.
 
-* [Adobe 실시간 고객 데이터 플랫폼](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko)
+* [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko)
 * [대상 설명서](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=ko)
 * [소스 설명서](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ko)
 
 ## Campaign Standard과 Adobe Experience Platform 연결
 
-Adobe Experience Platform과 Campaign Standard 간에 데이터를 공유하려면 먼저 Adobe Campaign을 **대상**(으)로 연결하고 AWS S3 또는 Azure blob 저장소 위치를 Adobe experience Platform의 **Source**(으)로 연결해야 합니다.
+Adobe Experience Platform과 Campaign Standard 간에 데이터를 공유하려면 먼저 Adobe Campaign을 **대상**(으)로 연결하고 AWS S3 또는 Azure Blob 저장소 위치를 Adobe Experience Platform에서 **Source**(으)로 연결해야 합니다.
 
 커넥터가 구성되면 워크플로우를 사용하여 Campaign Standard으로 데이터 가져오기 또는 내보내기를 설정할 수 있습니다.
 

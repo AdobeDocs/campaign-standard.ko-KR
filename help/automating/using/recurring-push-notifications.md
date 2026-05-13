@@ -6,9 +6,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/aoMhXQxtQb9tDFW4eon-N7tw6ViTSMmwhpDl17zVwMQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: 484
 ht-degree: 5%
 
 ---
@@ -49,7 +54,7 @@ ht-degree: 5%
 
    * **[!UICONTROL Recurring notification]** 옵션을 선택합니다.
    * 푸시 알림 콘텐츠를 정의합니다. 푸시 알림 콘텐츠에 대한 자세한 내용은 이 [섹션](../../channels/using/preparing-and-sending-a-push-notification.md)을 참조하세요.
-   * **[!UICONTROL Schedule]** 블록에서 **[!UICONTROL Messages to be sent automatically on the time zone specified below]**&#x200B;을(를) 선택합니다. 여기서는 **[!UICONTROL Time zone of the contact date]** 워크플로우의 **[!UICONTROL Scheduler]** 태평양(Pacific)을 선택했습니다.
+   * **[!UICONTROL Schedule]** 블록에서 **[!UICONTROL Messages to be sent automatically on the time zone specified below]**&#x200B;을(를) 선택합니다. 여기서는 **[!UICONTROL Scheduler]** 워크플로우의 **[!UICONTROL Time zone of the contact date]** 태평양(Pacific)을 선택했습니다.
    * **[!UICONTROL Optimize the sending time per recipient]** 필드에서 **[!UICONTROL Send at the recipient's time zone]**&#x200B;을(를) 선택합니다.
 
      ![](assets/wkf_push_example_4.png)

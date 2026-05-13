@@ -9,10 +9,15 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/w2qeBwrGka2XfN76lvkL7fjdAErUcHdxNvF7Jb6KYIk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 4%
+source-wordcount: 767
+ht-degree: 9%
 
 ---
 
@@ -32,7 +37,7 @@ ht-degree: 4%
 
   **팁** - 이를 방지하려면 최상의 성능을 보장하도록 팀의 다른 구성원과 게재 일정을 조정하십시오.
 
-* [워크플로우 실행](../../automating/using/about-workflow-execution.md): 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. [이 페이지의 &#x200B;](../../automating/using/monitoring-workflow-execution.md)에 나열된 지침을 따르십시오. 자세한 내용은 [워크플로우 모범 사례](../../automating/using/best-practices-workflows.md) 섹션을 참조하세요.
+* [워크플로우 실행](../../automating/using/about-workflow-execution.md): 플랫폼 성능 문제를 방지하려면 워크플로우를 모니터링해야 합니다. [이 페이지의 ](../../automating/using/monitoring-workflow-execution.md)에 나열된 지침을 따르십시오. 자세한 내용은 [워크플로우 모범 사례](../../automating/using/best-practices-workflows.md) 섹션을 참조하세요.
 
 * [Campaign Campaign 컨트롤 패널 기능](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ko)을 활용하여 [성능 모니터링](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ko) 기능을 사용하여 플랫폼을 모니터링할 수 있습니다.
 
@@ -52,7 +57,7 @@ ht-degree: 4%
 
    * 이메일의 전달성을 확인할 때는 데이터 품질, 메시지 및 콘텐츠, 전송 인프라, 신뢰도 등 네 가지 주요 카테고리에 중점을 두어야 합니다. 이 항목에 대한 자세한 내용은 [이 섹션](../../sending/using/about-deliverability.md)을 참조하세요.
 
-* 새 플랫폼을 시작할 때 [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=ko#transition-process)에 설명된 권장 사항을 적용하십시오.
+* 새 플랫폼을 시작할 때 [이 페이지](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)에 설명된 권장 사항을 적용하십시오.
 
 * 도움이 필요하면 Adobe 담당자에게 문의하십시오.
 
@@ -64,7 +69,7 @@ ht-degree: 4%
 
 **팁**
 
-* 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외됩니다. 이 수신자는 타겟팅되지 않습니다. 이렇게 하면 오류율이 게재 속도에 중요한 영향을 미치므로 게재 속도가 빨라집니다. 예를 들어 받은 편지함이 가득 찼거나 주소가 없는 경우 이메일 주소를 격리할 수 있습니다. [자세히 알아보기](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외됩니다. 이 수신자는 타겟팅되지 않습니다. 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다. 예를 들어 받은 편지함이 가득 찼거나 주소가 없는 경우 이메일 주소를 격리할 수 있습니다. [자세히 알아보기](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../sending/using/understanding-quarantine-management.md)을 참조하십시오.
 

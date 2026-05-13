@@ -9,9 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/zWvKFZRoejIDaRFEF8cxypI-4MLgNYSG2RYBiZLmOJs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 610
 ht-degree: 6%
 
 ---
@@ -68,7 +73,7 @@ ht-degree: 6%
    >
    >이벤트가 트랜잭션 메시지 전송을 트리거하려면 방금 만든 메시지를 수정하고 게시해야 합니다. [트랜잭션 메시지 편집](../../channels/using/editing-transactional-message.md) 및 [게시](../../channels/using/publishing-transactional-message.md) 섹션을 참조하십시오. 또한 [이 트리거 이벤트를 통합](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)하여 웹 사이트에 통합해야 합니다.
 
-1. Adobe Campaign에서 이 이벤트 구성과 관련된 이벤트를 받기 시작하면 **[!UICONTROL Latest transactional events]** 섹션 아래의 **[!UICONTROL History]** 링크를 클릭하여 서드파티 서비스에서 보내고 Adobe Campaign에서 처리한 최신 이벤트에 액세스할 수 있습니다.
+1. Adobe Campaign에서 이 이벤트 구성과 관련된 이벤트를 받기 시작하면 **[!UICONTROL History]** 섹션 아래의 **[!UICONTROL Latest transactional events]** 링크를 클릭하여 서드파티 서비스에서 보내고 Adobe Campaign에서 처리한 최신 이벤트에 액세스할 수 있습니다.
 
 ![](assets/message-center_latest-events.png)
 

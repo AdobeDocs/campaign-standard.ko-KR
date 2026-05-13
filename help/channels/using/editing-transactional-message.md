@@ -9,10 +9,15 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/jad-jiasYpiF89F-rL0d0v30ZpdE4uiPJYICbtkBDWY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 27%
+source-wordcount: 663
+ht-degree: 26%
 
 ---
 
@@ -73,7 +78,7 @@ ht-degree: 27%
 
    ![](assets/message-center_7.png)
 
-1. 메시지의 내용을 보강할 수도 있습니다. 이렇게 하려면 이벤트 구성에 연결된 테이블의 필드를 추가합니다([이벤트 강화](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 참조). 이 예제에서는 **[!UICONTROL Title (salutation)]** > **[!UICONTROL Profile]** > **[!UICONTROL Context]**&#x200B;을(를) 통해 **[!UICONTROL Real-time event]** 테이블에서 **[!UICONTROL Event context]** 필드를 선택합니다.
+1. 메시지의 내용을 보강할 수도 있습니다. 이렇게 하려면 이벤트 구성에 연결된 테이블의 필드를 추가합니다([이벤트 강화](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 참조). 이 예제에서는 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;을(를) 통해 **[!UICONTROL Profile]** 테이블에서 **[!UICONTROL Title (salutation)]** 필드를 선택합니다.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -100,7 +105,7 @@ When editing the content of a transactional email, you can create product listin
 
 To add a list of abandoned products in a transactional message, follow the steps below.
 
-You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=ko#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
+You can also watch [this set of videos](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) explaining the steps that are required to configure product listings in a transactional email.
 
 >[!NOTE]
 >

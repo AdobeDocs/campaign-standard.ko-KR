@@ -8,10 +8,15 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/eR4kpesC5-G0rsM3FecB4uqiPFNE4Q3K-iJJoZ09iuM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: 725
+ht-degree: 2%
 
 ---
 
@@ -21,13 +26,13 @@ ht-degree: 0%
 
 아래 리소스를 확인하십시오.
 
-* [비디오 Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=ko)
+* [비디오 튜토리얼](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [블로그 게시물](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [커뮤니티 페이지](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ko)
+* [커뮤니티 페이지](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ## Campaign 확장 API setLinkageField 및 resetLinkageField의 목적은 무엇입니까? {#extensions-apis}
 
-인앱 메시지는 Campaign에서 SDK에 의해 가져오므로, PII 데이터가 포함된 인앱 메시지가 악의적인 손에 들어가지 않도록 하는 보안 메커니즘을 제공하려고 합니다. 따라서 디바이스로의 메시지 보안 전달을 보장하기 위해 다음과 같은 메커니즘이 마련되어 있습니다.
+인앱 메시지는 Campaign에서 SDK에 의해 가져오므로 PII 데이터가 포함된 인앱 메시지가 악의적인 손에 들어가지 않도록 하는 보안 메커니즘을 제공하려고 합니다. 따라서 디바이스로의 메시지 보안 전달을 보장하기 위해 다음과 같은 메커니즘이 마련되어 있습니다.
 
 * 고객은 모바일 프로필 필드(appSubscriberRcp 테이블) 필드를 개인적이며 특정 정보가 안전하게 전달되도록 하려는 경우 민감으로 표시합니다.
 * 이렇게 표시된 필드는 추가 보안 메커니즘이 내장된 프로필 템플릿(appSubscriber 템플릿 또는 브로드캐스트 템플릿 아님)에서만 사용할 수 있습니다.

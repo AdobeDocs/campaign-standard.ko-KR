@@ -7,10 +7,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/kGtxG4yKA8Uxzc0hZbZFk1VLiVM9FPTvCoIoMd--n4M
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 39%
+source-wordcount: 222
+ht-degree: 45%
 
 ---
 
@@ -40,12 +43,12 @@ ht-degree: 39%
                <tr>
                   <td>생성됨</td>
                   <td>생성일</td>
-                  <td>일자 </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
-                  <td>제작자</td>
+                  <td>생성자</td>
                   <td>링크 </td>
                   <td> </td>
                </tr>
@@ -62,9 +65,9 @@ ht-degree: 39%
                   <td> </td>
                </tr>
                <tr>
-                  <td>종료</td>
+                  <td>끝</td>
                   <td>종료 일자</td>
-                  <td>일자 </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,7 +103,7 @@ ht-degree: 39%
                <tr>
                   <td>마지막 수정일</td>
                   <td>마지막 수정일</td>
-                  <td>일자 </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -166,7 +169,7 @@ ht-degree: 39%
                <tr>
                   <td>시작</td>
                   <td>시작 일자</td>
-                  <td>일자 </td>
+                  <td>날짜 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -195,7 +198,7 @@ ht-degree: 39%
                </tr>
                <tr>
                   <td>targetResource</td>
-                  <td>타겟팅 차원</td>
+                  <td>타기팅 차원</td>
                   <td>문자열(255)</td>
                   <td> </td>
                </tr>
@@ -254,11 +257,11 @@ ht-degree: 39%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>일자</td>
+    <td>날짜</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>일자</td>
+    <td>날짜</td>
     </tr>
 </table>
 
@@ -270,7 +273,7 @@ ht-degree: 39%
 <th>유형</th>
 </tr>
 <tr>
-<td>channel</td>
+<td>채널</td>
 <td>열거</td>
 </tr>
 </table>

@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/1-9VY3TjBBHAb-7bFikis3Ue5eWy5KXKSR4hXxXDLwc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: 213
 ht-degree: 98%
 
 ---
@@ -33,7 +37,7 @@ ht-degree: 98%
 
 1. **[!UICONTROL Fork]** 활동을 워크플로로 끌어서 놓습니다.
 1. 쿼리와 같은 앞에 오는 다른 활동과 연결합니다.
-1. 활동을 선택한 다음 나타나는 바로 가기의 ![](assets/edit_darkgrey-24px.png) 단추를 사용하여 활동을 엽니다.
+1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. 아웃바운드 전환 수를 만들기, 삭제 또는 복제하여 지정합니다. 이름과 레이블을 지정할 수도 있습니다.
 1. 활동 구성을 확인하고 워크플로를 저장합니다.
 

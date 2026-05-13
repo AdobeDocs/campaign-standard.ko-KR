@@ -9,10 +9,15 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Uqi4pPlzFEn-MLvjRPOU5Tu3tC1BDvOM49U1LKbA2lE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 6%
+source-wordcount: 819
+ht-degree: 8%
 
 ---
 
@@ -31,7 +36,7 @@ ht-degree: 6%
 * [구독 취소 링크](#opt-out) 및 랜딩 페이지: 구독 취소 링크는 필수입니다. 표시 및 유효해야 하며 양식이 제대로 작동해야 합니다.
 * 미리 보기: Adobe Campaign에서 제공하는 도구를 사용하여 이메일([스팸 방지 분석](#anti-spam-analysis), [이메일 렌더링](#message-responsiveness)) 내용을 확인하고 최적화합니다.
 
-콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=ko)를 참조하세요.
+콘텐츠를 디자인할 때 게재 능력을 최적화하는 추가 팁은 [Adobe 게재 가능성 모범 사례 안내서](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html)를 참조하세요.
 
 >[!NOTE]
 >
@@ -51,7 +56,7 @@ ht-degree: 6%
 
 Adobe Campaign을 사용하면 수신자의 경험을 개선하여 이메일을 열 수 있으므로 메시지를 개인화할 수 있습니다. 자세한 내용은 [이 섹션](../../designing/using/personalization.md)을 참조하십시오.
 
-메시지 열람률을 높이기 위해 수신자당 보내는 시간을 수동으로 정의할 수도 있습니다. 각 프로필은 가능한 한 지정된 날짜 및 시간에 메시지를 수신합니다. 자세한 내용은 [보내는 시간 최적화](../../sending/using/optimizing-the-sending-time.md)를 참조하세요.
+메시지 열람률을 높이기 위해 수신자당 보내는 시간을 수동으로 정의할 수도 있습니다. 각 프로필은 가능한 한 지정된 날짜와 시간에 메시지를 수신합니다. 자세한 내용은 [보내는 시간 최적화](../../sending/using/optimizing-the-sending-time.md)를 참조하세요.
 
 ## 옵트아웃 링크 및 양식 {#opt-out}
 

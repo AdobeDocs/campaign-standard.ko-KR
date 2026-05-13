@@ -9,9 +9,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+TQID: https://experienceleague.adobe.com/UyKD0H4ffjVDfJRubitjN0pJs2DQbswTlOPNzvU6zLo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: 475
 ht-degree: 1%
 
 ---
@@ -32,11 +39,11 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 
 문제가 지속되면 상업용 또는 게재 기능 서비스 또는 Adobe Campaign 지원 센터에 문의하십시오.
 
-## 차단 목록에 추가하다 격리 대 격리 {#denylist-versus-quarantine}
+## 격리 대 격리 {#denylist-versus-quarantine}
 
-* 차단 목록에 추가하다 **전자 메일 주소와 격리된 전자 메일 주소의 차이점은 무엇입니까?**
+* **전자 메일 주소와 격리된 전자 메일 주소의 차이점은 무엇입니까?**
 
-   * **[!UICONTROL On denylist]** 상태는 [피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops)의 결과입니다(사용자가 메시지를 스팸으로 보고할 때).
+   * **[!UICONTROL On denylist]** 상태는 [피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)의 결과입니다(사용자가 메시지를 스팸으로 보고할 때).
 
    * 상태 **[!UICONTROL Quarantined]**&#x200B;은(는) 소프트 또는 하드 바운스의 결과입니다.
 
@@ -60,7 +67,7 @@ ISP에 대해 항상 동일한 오류 메시지가 표시되는 경우 ISP에서
 
   IP 주소가 차단 목록에 추가하다에 있는지 확인하려면 다음과 같이 다양한 웹 사이트를 사용하여 확인할 수 있습니다.
    * [MX 도구 상자](https://mxtoolbox.com/)
-   * [내 IP 주소](https://whatismyipaddress.com)
+   * [내 IP 주소는 무엇입니까](https://whatismyipaddress.com)
 
   일반적으로 IP 주소 검사 결과는 차단 목록에 추가하다 웹 사이트의 세부 정보와 IP 주소를 차단한 이름이 포함된 목록을 반환합니다.
 

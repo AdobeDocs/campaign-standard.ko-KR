@@ -9,10 +9,13 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/lpfCIMUH03d9zMB-R1Uq9ZwxnD1G-LG8b-iN3TQc7o8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 95%
+source-wordcount: 2020
+ht-degree: 92%
 
 ---
 
@@ -221,7 +224,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 문자열을 날짜 + 시간대로 변환.<br /> 예: ToDateTimeWithTimezone("2019-02-19 08:09:00", "아시아/테헤란")<br /> </td> 
+   <td> 문자열을 날짜 + 시간대로 변환합니다.<br /> 예: ToDateTimeWithTimezone("2019-02-19 08:09:00", "아시아/테헤란")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;문자열&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -657,7 +660,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
-   <td> AES 알고리즘(CBC 블록 모드)을 사용하여 키(2번째 매개 변수)와 초기화 벡터(3번째 매개 변수)가 있는 문자열(1번째 매개 변수) 암호화. 키 및 초기화 벡터는 (<strong>\x</strong>로 시작하는) 16진수로 제공되어야 합니다. 결과는 <strong>\x</strong>없이 16진수로 표시됩니다.<br /> 키 크기는 128비트, 192비트, 256비트(16, 24, 32개의 16진수 문자)가 될 수 있지만 키와 동일한 길이의 임의 IV 및 256비트를 사용하는 것이 좋습니다.<br /> </td> 
+   <td> AES 알고리즘(CBC 블록 모드)을 사용하여 키(2번째 매개 변수)와 초기화 벡터(3번째 매개 변수)가 있는 문자열(1번째 매개 변수) 암호화. 키 및 초기화 벡터는 (<strong>\x</strong>로 시작하는) 16진수로 제공되어야 합니다. 결과는 <strong>\x</strong>.<br /> 없이 16진수로 표시됩니다. 키 크기는 128비트, 192비트, 256비트(16, 24, 32개의 16진수 문자)가 될 수 있지만 키와 동일한 길이의 임의 IV 및 256비트를 사용하는 것이 좋습니다.<br /> </td> 
    <td> encryption_aescbcEncrypt(&lt;문자열&gt;, &lt;문자열&gt;, &lt;문자열&gt;)<br /> 예: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 

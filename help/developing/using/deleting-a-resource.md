@@ -8,10 +8,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/cDShxyrLISaGidkLNnhtMwZHbo8SlRie6DTV0yVR6IY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 14%
+source-wordcount: 251
+ht-degree: 15%
 
 ---
 
@@ -33,7 +36,7 @@ ht-degree: 14%
 
    ![](assets/schema_extension_uc26.png)
 
-1. **[!UICONTROL Ok]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Ok]**&#x200B;을(를) 클릭합니다.
 
    >[!IMPORTANT]
    >
@@ -45,7 +48,7 @@ ht-degree: 14%
    >
    >기본 제공 **Profiles (profile)** 리소스의 확장 초안을 다시 만드는 경우 정의한 **Test profile (seedMember)** 확장 초안도 다시 만들어야 합니다. 프로필 리소스 확장에 대한 자세한 내용은 [이 섹션](../../developing/using/extending-the-profile-resource-with-a-new-field.md)을 참조하세요.
 
-1. 리소스를 Publish 합니다. 자세한 단계는 [사용자 지정 리소스 게시](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)를 참조하세요.
+1. 리소스를 게시합니다. 자세한 단계는 [사용자 지정 리소스 게시](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)를 참조하세요.
 
    그런 다음 리소스가 **초안** 모드로 전환되고 활성화 상태는 **[!UICONTROL Inactive]**&#x200B;입니다.
 

@@ -9,10 +9,15 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/EAQzeoYku9S-ZThn-x3IBpLetTHqO2zNeY1ZsWQKVPE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 95%
+source-wordcount: 560
+ht-degree: 88%
 
 ---
 
@@ -22,17 +27,17 @@ ht-degree: 95%
 
 유형화 규칙은 메시지를 보내기 전에 메시지를 확인하고 필터링할 수 있는 비즈니스 규칙입니다. 사용 가능한 유형화 규칙 유형은 다음과 같습니다.
 
-* **필터링** 규칙: 이 유형의 규칙을 사용하면 격리된 프로필 또는 특정 수의 메시지를 이미 보낸 프로필과 같은 쿼리에 정의된 기준에 따라 메시지 대상의 한 부분을 제외할 수 있습니다. 자세한 정보는 [이 섹션](../../sending/using/filtering-rules.md)을 참조하십시오.
+* **필터링** 규칙: 이 유형의 규칙을 사용하면 격리된 프로필 또는 특정 수의 메시지를 이미 보낸 프로필과 같은 쿼리에 정의된 기준에 따라 메시지 대상의 한 부분을 제외할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../sending/using/filtering-rules.md)을 참조하십시오.
 
-* **피로** 규칙: 이 유형의 규칙을 사용하면 프로필당 최대 메시지 수를 정의하여 과도한 요청을 방지할 수 있습니다. 자세한 정보는 [이 섹션](../../sending/using/fatigue-rules.md)을 참조하십시오.
+* **피로** 규칙: 이 유형의 규칙을 사용하면 프로필당 최대 메시지 수를 정의하여 과도한 요청을 방지할 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../sending/using/fatigue-rules.md)을 참조하십시오.
 
-* **제어** 규칙: 이 유형의 규칙을 사용하면 메시지를 보내기 전에 문자 표시, SMS 메시지 크기, 주소 형식 등과 같은 메시지의 유효성 및 품질을 확인할 수 있습니다. 자세한 정보는 [이 섹션](../../sending/using/control-rules.md)을 참조하십시오.
+* **제어** 규칙: 이 유형의 규칙을 사용하면 메시지를 보내기 전에 문자 표시, SMS 메시지 크기, 주소 형식 등과 같은 메시지의 유효성 및 품질을 확인할 수 있습니다. 자세한 정보는 [이 섹션](../../sending/using/control-rules.md)을 참조하세요.
 
 유형화 규칙은 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** 메뉴에서 사용할 수 있습니다.
 
 기본적으로 몇 가지 기본 **필터링** 및 **제어** 유형 규칙을 사용할 수 있습니다. [필터링 규칙](../../sending/using/filtering-rules.md) 및 [제어 규칙](../../sending/using/control-rules.md) 섹션에 자세히 설명되어 있습니다.
 
-필요에 따라, 읽기 전용이며 수정할 수 없는 **[!UICONTROL Control]** 규칙을 제외하고 기존 유형 분류 규칙을 수정하거나 새 유형을 만들 수 있습니다. 
+필요에 따라, 읽기 전용이며 수정할 수 없는 **[!UICONTROL Control]** 규칙을 제외하고 기존 유형 분류 규칙을 수정하거나 새 유형을 만들 수 있습니다.
 
 ## 유형화 규칙 만들기 {#creating-a-typology-rule}
 

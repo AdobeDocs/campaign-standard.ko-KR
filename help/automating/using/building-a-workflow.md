@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/8i3WYf4v5Xh6Ih7YWT71OxHJfAd-6aUqUDcP2RjY1NI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: 990
 ht-degree: 90%
 
 ---
@@ -112,7 +119,7 @@ ht-degree: 90%
 
 워크플로 활동이 서로 연결되면 원하는 **레이블**&#x200B;로 전환을 개인화할 수 있습니다. 이렇게 하려면 전환을 두 번 클릭하여 해당 속성에 액세스합니다.
 
-또한, **[!UICONTROL Targeting]** 및 **[!UICONTROL Data management (ETL)]** 활동을 통해 아웃바운드 전환에 대한 **세그먼트 코드**&#x200B;를 정의할 수 있습니다. 그런 다음 마케팅 캠페인의 효율성을 측정하기 위해 이러한 세그먼트 코드를 기반으로 보고서를 만들 수 있습니다. 자세한 정보는 [이 섹션](../../reporting/using/creating-a-report-workflow-segment.md)을 참조하십시오.
+또한, **[!UICONTROL Targeting]** 및 **[!UICONTROL Data management (ETL)]** 활동을 통해 아웃바운드 전환에 대한 **세그먼트 코드**&#x200B;를 정의할 수 있습니다. 그런 다음 마케팅 캠페인의 효율성을 측정하기 위해 이러한 세그먼트 코드를 기반으로 보고서를 만들 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/creating-a-report-workflow-segment.md)을 참조하십시오.
 
 **워크플로 사용 사례:**
 
@@ -136,6 +143,6 @@ ht-degree: 90%
 
 이 비디오는 워크플로우를 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31889?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

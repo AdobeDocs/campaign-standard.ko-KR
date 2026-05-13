@@ -10,10 +10,14 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 91%
+source-wordcount: 1368
+ht-degree: 90%
 
 ---
 
@@ -35,7 +39,7 @@ ht-degree: 91%
 
 다음을 수행할 수 있습니다.
 
-* 파일 구조를 사용하여 다른 파일의 데이터(**[!UICONTROL Transfer file]** 활동을 사용하여 복구)에 적용하거나, 
+* 파일 구조를 사용하여 다른 파일의 데이터(**[!UICONTROL Transfer file]** 활동을 사용하여 복구)에 적용하거나,
 * 파일의 구조와 데이터를 사용하여 Adobe Campaign으로 가져옵니다.
 
 >[!IMPORTANT]
@@ -57,8 +61,8 @@ ht-degree: 91%
 >
 >샘플 파일의 데이터는 활동 구성에 사용하지만 가져오지는 않습니다. 데이터가 적은 샘플 파일을 사용하는 것을 추천합니다.
 
-1. **[!UICONTROL Load file]** 활동을 워크플로에 끌어다 놓습니다.
-1. 해당 활동을 선택하면 나타나는 빠른 작업 목록에서 ![](assets/edit_darkgrey-24px.png) 버튼을 눌러 창을 엽니다.
+1. **[!UICONTROL Load file]** 활동을 워크플로로 끌어서 놓습니다.
+1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. 최종 파일을 가져올 때의 예상 구조를 정의하기 위한 샘플 파일을 업로드합니다.
 
    ![](assets/wkf_file_loading.png)
@@ -90,7 +94,7 @@ ht-degree: 91%
 
    **[!UICONTROL Column definition]** 탭에서는 각 열의 데이터 구조를 정확히 지정할 수 있습니다. 이를 통해 오류가 없는 데이터를 가져오고(예를 들면 null 관리 사용) 이 데이터를 Adobe Campaign 데이터베이스에 이미 있는 유형에 맞추어 향후 작업을 용이하게 할 수 있습니다.
 
-   예를 들어 열의 레이블을 변경하거나, 유형(문자열, 정수, 날짜 등)을 선택하거나, 오류 처리를 지정할 수도 있습니다.
+   예를 들어 열의 레이블을 변경하고 해당 유형(문자열, 정수, 날짜 등)을 선택할 수 있습니다. 오류 처리를 지정할 수도 있습니다.
 
    자세한 내용은 [열 포맷](#column-format) 섹션을 참조하십시오.
 
@@ -154,7 +158,7 @@ ht-degree: 91%
    * **[!UICONTROL Reject the line]**: 전체 줄을 처리하지 않습니다.
    * **[!UICONTROL Use a default value]**: 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
    * **[!UICONTROL Use a default value in case the value is not remapped]**: 잘못된 값에 대한 매핑(위의 **[!UICONTROL Remapping of values]** 옵션 참조)이 정의되어 있지 않은 경우, 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
-   * **[!UICONTROL Reject the line when there is no remapping value]**: 잘못된 값에 대한 매핑이 정의되어 있지 않은 경우, 전체 줄을 처리하지 않습니다(위의 **[!UICONTROL Remapping of values]** 옵션 참조). 
+   * **[!UICONTROL Reject the line when there is no remapping value]**: 잘못된 값에 대한 매핑이 정의되어 있지 않은 경우, 전체 줄을 처리하지 않습니다(위의 **[!UICONTROL Remapping of values]** 옵션 참조).
 
   >[!NOTE]
   >

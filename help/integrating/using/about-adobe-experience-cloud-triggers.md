@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/NfIVRjLZxnXW8fCz7PWplxkn6AUyfb1llEIncmIchSM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 91%
+source-wordcount: 481
+ht-degree: 90%
 
 ---
 
@@ -31,7 +36,7 @@ Adobe Campaign에서 이전에 만든 트리거를 선택하고, 데이터마트
 
 **관련 항목:**
 
-* [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=ko)에서 트리거의 여러 유형에 대해 알아봅니다.
+* [Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html)에서 트리거의 여러 유형에 대해 알아봅니다.
 * [사이트 활동에 기반한 리마케팅 메시지 트리거](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) 비디오를 시청합니다.
 * 두 가지 [중단 트리거 사용 사례](../../integrating/using/abandonment-triggers-use-cases.md)를 살펴봅니다.
 

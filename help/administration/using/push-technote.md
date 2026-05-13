@@ -6,10 +6,15 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/yBsPSuZxxsrM6Q2wzM7ctsrtUi2txyV8Nx4naMPfuMo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 2%
+source-wordcount: 1210
+ht-degree: 4%
 
 ---
 
@@ -57,7 +62,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * 이 이전 버전의 SDK을 계속 사용하는 경우 Adobe Experience Platform SDK으로 구현을 업데이트해야 합니다. [이 문서](sdkv4-migration.md)에서 Adobe Experience Platform SDK으로 마이그레이션하는 방법을 알아봅니다.
 
-* 아래 단계를 수행하기 전에 Adobe Experience Platform Data Collection Mobile에서 **모바일 앱 구성** 권한이 있는지 확인하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=ko#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* 아래 단계를 수행하기 전에 Adobe Experience Platform Data Collection Mobile에서 **모바일 앱 구성** 권한이 있는지 확인하십시오. [자세히 알아보기](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### 전환 절차 {#fcm-transition-steps}
@@ -80,7 +85,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
    ![](assets/push_technote_3.png)
 
-1. **저장** 단추를 클릭합니다.
+1. **저장** 버튼을 클릭합니다.
 
 >[!NOTE]
 >
@@ -122,7 +127,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 #### 필수 구성 요소 {#ios-transition-prerequisites}
 
-* **24.1 릴리스**&#x200B;에서 [토큰 기반 인증](../../rn/using/release-notes.md) 모드 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 필수 조건은 환경을 [최신 Campaign Standard 릴리스](../../rn/using/release-notes.md)(으)로 업그레이드하는 것입니다.
+* [24.1 릴리스](../../rn/using/release-notes.md)에서 **토큰 기반 인증** 모드 지원이 추가되었습니다. 환경이 이전 버전에서 실행 중인 경우 이 변경을 위한 필수 조건은 환경을 [최신 Campaign Standard 릴리스](../../rn/using/release-notes.md)(으)로 업그레이드하는 것입니다.
 
 * 서버에서 사용하는 토큰을 생성하려면 APNs 인증 토큰 서명 키가 필요합니다. [Apple 개발자 설명서](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}에 설명된 대로 Apple 개발자 계정에서 이 키를 요청합니다.
 

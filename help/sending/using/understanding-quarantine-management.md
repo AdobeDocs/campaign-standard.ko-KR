@@ -8,9 +8,16 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/w2tAC7xLJRx9ObytKLbKQHTJT-FV5WEuufxIHzy34Vg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: 1381
 ht-degree: 23%
 
 ---
@@ -43,7 +50,7 @@ ht-degree: 23%
 
 * 반면 **차단 목록**&#x200B;을 사용하면 지정된 채널에 대해 구독 취소(옵트아웃) 후와 같이 **프로필**&#x200B;이(가) 더 이상 게재의 타겟이 되지 않습니다. 예를 들어 이메일 채널에 대한 차단 목록에 추가하다의 프로필에 두 개의 이메일 주소가 있는 경우 두 주소 모두 게재에서 제외됩니다. 차단 목록에 추가하다 프로세스에 대한 자세한 내용은 [Campaign의 옵트인 및 옵트아웃 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)를 참조하세요.
 
-  프로필이 프로필의 **[!UICONTROL No longer contact (on denylist)]** 탭에 있는 **[!UICONTROL General]** 섹션에서 하나 이상의 채널에 대해 차단 목록에 추가하다에 있는지 확인할 수 있습니다. [이 섹션](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)을 참조하십시오.
+  프로필이 프로필의 **[!UICONTROL General]** 탭에 있는 **[!UICONTROL No longer contact (on denylist)]** 섹션에서 하나 이상의 채널에 대해 차단 목록에 추가하다에 있는지 확인할 수 있습니다. [이 섹션](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -93,7 +100,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ![](assets/quarantines-create-button.png)
 
-주소(또는 전화번호 등)와 채널 유형을 정의합니다. 격리 목록에 있는 상태와 오류 이유를 설정할 수 있습니다. 오류가 발생한 날짜, 오류 수를 표시하고 오류 텍스트를 입력할 수도 있습니다. 필요한 경우 드롭다운 목록에서 주소로 전송된 마지막 게재를 선택합니다.
+주소(또는 전화번호 등) 정의 및 채널 유형. 격리 목록에 있는 상태와 오류 이유를 설정할 수 있습니다. 오류가 발생한 날짜, 오류 수를 표시하고 오류 텍스트를 입력할 수도 있습니다. 필요한 경우 드롭다운 목록에서 주소로 전송된 마지막 게재를 선택합니다.
 
 ![](assets/quarantines-create-last-delivery.png)
 
@@ -107,7 +114,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 * **[!UICONTROL Erroneous]** 상태의 주소는 성공적으로 배달되면 격리 목록에서 제거됩니다.
 * 마지막 소프트 바운스가 10일 이상 전에 발생한 경우 **[!UICONTROL Erroneous]** 상태의 주소가 격리 목록에서 제거됩니다. 소프트 오류 관리에 대한 자세한 내용은 [이 섹션](#soft-error-management)을 참조하세요.
-* **[!UICONTROL Erroneous]** 오류와 함께 반송된 **[!UICONTROL Mailbox full]** 상태의 주소는 30일 후 격리 목록에서 제거됩니다.
+* **[!UICONTROL Mailbox full]** 오류와 함께 반송된 **[!UICONTROL Erroneous]** 상태의 주소는 30일 후 격리 목록에서 제거됩니다.
 
 상태가 **[!UICONTROL Valid]**(으)로 변경됩니다.
 
@@ -144,7 +151,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
   예를 들어 &quot;support.ISP.com&quot;은 &quot;support.apple.com&quot; 또는 &quot;support.google.com&quot;일 수 있습니다.
 
-* **또는 이후**&#x200B;업데이트 상태(@lastModified)`MM/DD/YYYY HH:MM:SS AM`
+* `MM/DD/YYYY HH:MM:SS AM` 또는 이후 **업데이트 상태(@lastModified)**
 * **업데이트 상태(@lastModified)**(`MM/DD/YYYY HH:MM:SS PM` 또는 이전)
 
 영향을 받는 받는 받는 받는 받는 사람 목록이 있으면 **[!UICONTROL Update data]** 활동을 추가하여 전자 메일 주소 상태를 **[!UICONTROL Valid]**(으)로 설정하여 **[!UICONTROL Database cleanup]** 워크플로우에 의해 격리 목록에서 제거됩니다. 격리 테이블에서 삭제할 수도 있습니다.
@@ -162,7 +169,7 @@ Adobe Campaign은 게재 실패 유형 및 오류 메시지 선별 중에 할당
   When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
   -->
 
-사용자가 이메일을 스팸 처리하면([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ko#feedback-loops)) 메시지가 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL On denylist]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은 푸시 차단 목록에 있지 않으므로 SMS 메시지와 알림을 계속 수신하게 됩니다.
+사용자가 이메일을 스팸 처리하면([피드백 루프](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)) 메시지가 Adobe에서 관리하는 기술 사서함으로 자동 리디렉션됩니다. 그러면 사용자의 이메일 주소가 자동으로 **[!UICONTROL On denylist]** 상태로 격리됩니다. 이 상태는 주소만 참조하고, 프로필은 푸시 차단 목록에 있지 않으므로 SMS 메시지와 알림을 계속 수신하게 됩니다.
 
 >[!NOTE]
 >

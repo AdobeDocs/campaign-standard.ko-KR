@@ -9,9 +9,12 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/u3VuLGtTmsM-4wztLfsNhGIX2F-aVI1HTtaCqXinBPw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: 1177
 ht-degree: 1%
 
 ---
@@ -40,7 +43,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Load file]** 활동을 구성합니다.
 
-   * 샘플 파일을 업로드하여 예상 구조를 정의합니다. 샘플 파일에는 가져오기에 필요한 열을 제외한 몇 줄만 포함되어야 합니다. 파일 형식을 확인 및 편집하여 각 열의 유형(텍스트, 날짜, 정수 등)이 올바르게 설정되었는지 확인합니다. 예제:
+   * 샘플 파일을 업로드하여 예상 구조를 정의합니다. 샘플 파일에는 가져오기에 필요한 열을 제외한 몇 줄만 포함되어야 합니다. 파일 형식을 확인 및 편집하여 각 열의 유형(텍스트, 날짜, 정수 등)이 올바르게 설정되었는지 확인합니다. 예:
 
      ```
      lastname;firstname;birthdate;email;crmID
@@ -80,7 +83,7 @@ ht-degree: 1%
 
    * 처음 두 하위 집합에서 선택되지 않은 모든 레코드가 **[!UICONTROL Complement]**&#x200B;에서 선택됩니다.
 
-1. 이전에 구성한 **[!UICONTROL Update data]** 활동의 첫 번째 아웃바운드 전환 뒤에 있는 **[!UICONTROL Segmentation]** 활동을 구성합니다.
+1. 이전에 구성한 **[!UICONTROL Segmentation]** 활동의 첫 번째 아웃바운드 전환 뒤에 있는 **[!UICONTROL Update data]** 활동을 구성합니다.
 
    * 인바운드 전환에 데이터베이스에 이미 있는 수신자만 포함되므로 **[!UICONTROL Update]**&#x200B;을(를) **[!UICONTROL Operation type]**(으)로 선택합니다.
    * **[!UICONTROL Identification]** 탭에서 **[!UICONTROL Using reconciliation criteria]**&#x200B;을(를) 선택하고 **[!UICONTROL Dimension to update]** - 이 경우 프로필 - 및 **[!UICONTROL Reconciliation]** 활동에서 만든 링크 간의 키를 정의합니다. 이 예제에서는 **CRM ID** 사용자 지정 필드가 사용됩니다.
@@ -106,7 +109,7 @@ ht-degree: 1%
 
    ![](assets/import_template_example7.png)
 
-1. 이전에 구성한 **[!UICONTROL Update data]** 활동 뒤에 있는 **[!UICONTROL Deduplication]** 활동을 구성하십시오.
+1. 이전에 구성한 **[!UICONTROL Deduplication]** 활동 뒤에 있는 **[!UICONTROL Update data]** 활동을 구성하십시오.
 
    * 인바운드 전환에 데이터베이스에 없는 프로필만 있으므로 **[!UICONTROL Insert only]**&#x200B;을(를) **[!UICONTROL Operation type]**(으)로 선택합니다.
    * **[!UICONTROL Identification]** 탭에서 **[!UICONTROL Using reconciliation criteria]**&#x200B;을(를) 선택하고 **[!UICONTROL Dimension to update]** - 이 경우 프로필 - 및 **[!UICONTROL Reconciliation]** 활동에서 만든 링크 간의 키를 정의합니다. 이 예제에서는 **CRM ID** 사용자 지정 필드가 사용됩니다.
