@@ -5,10 +5,26 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 26616ecc-a009-485c-b13d-d4e0c23969f2
-source-git-commit: 85f3a3d8fe9e41eaa78fac955bc2d0f3f3d2c35e
+TQID: https://experienceleague.adobe.com/L1RnV5WNdVWVn8oRUtFp4BDW-GzuP6xWZXpFYgupbQs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 96%
+source-wordcount: 516
+ht-degree: 91%
 
 ---
 
@@ -23,7 +39,7 @@ ht-degree: 96%
 
 이 버전부터 서비스 계정(JWT) 자격 증명이 Adobe에 의해 더 이상 사용되지 않으며, Adobe 솔루션 및 앱과 Campaign 아웃바운드 통합이 이제 OAuth 서버 간 자격 증명을 사용합니다. Adobe은 Campaign-Analytics 통합 또는 Experience Cloud Triggers 통합과 같은 아웃바운드 통합을 위해 JWT를 OAuth로 마이그레이션합니다.
 
-Campaign과 인바운드 통합을 구현했으며 [Campaign API](../../api/using/get-started-apis.md)를 사용하는 경우 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}에서 설명하는 대로 기술 계정을 마이그레이션해야 합니다. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**&#x200B;부터 사용할 수 없습니다.
+Campaign과 인바운드 통합을 구현했으며 [Campaign API](../../api/using/get-started-apis.md)를 사용하는 경우 [이 설명서](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}에 설명된 대로 기술 계정을 마이그레이션해야 합니다. 기존 서비스 계정(JWT) 자격 증명은 **2025년 1월 27일**&#x200B;부터 사용할 수 없습니다.
 
 ### 해결 사항 {#summer-24-rn-fixes}
 

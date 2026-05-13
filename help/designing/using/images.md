@@ -8,9 +8,18 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/XYTeliw80GkBHk3-1DFWD-CE-85irbDAAjcuOSbQvLI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: 303
 ht-degree: 3%
 
 ---
@@ -29,7 +38,7 @@ ht-degree: 3%
 
 >[!CAUTION]
 >
->전자 메일의 HTML 버전을 편집하여 이미지를 직접 추가하도록 선택한 경우 HTML 페이지의 &lt;script> 태그에서 **외부 파일을 호출해서는 안 됩니다**. 이러한 파일은 Adobe Campaign 서버로 가져오지 않습니다.
+>HTML 버전의 전자 메일을 편집하여 이미지를 직접 추가하도록 선택한 경우 HTML 페이지의 **외부 파일(&lt;script> 태그**)을 호출해서는 안 됩니다. 이러한 파일은 Adobe Campaign 서버로 가져오지 않습니다.
 
 ### 이메일에 이미지 삽입 {#inserting-images-in-an-email}
 
@@ -55,7 +64,7 @@ ht-degree: 3%
 * **이미지 제목**&#x200B;을 통해 이미지의 제목을 정의할 수 있습니다.
 * **대체 텍스트**(전자 메일) 또는 **캡션**(랜딩 페이지)을 사용하면 이미지에 연결된 캡션을 정의할 수 있습니다(**대체** HTML 특성에 해당).
 * 전자 메일을 편집할 때 **스타일**&#x200B;을 사용하여 이미지 크기, 배경 및 테두리를 지정할 수 있습니다.
-* 랜딩 페이지를 편집할 때 **Dimension**&#x200B;에서 이미지 크기를 픽셀 단위로 지정할 수 있습니다.
+* 랜딩 페이지를 편집할 때 **치수**&#x200B;를 사용하여 이미지 크기를 픽셀 단위로 지정할 수 있습니다.
 
 편집기를 사용하면 형식이 브라우저와 호환되는 **모든 이미지 형식** 작업을 수행할 수 있습니다. 편집기와 호환되려면 다음과 같이 **&quot;Flash&quot; 형식 애니메이션**&#x200B;을(를) HTML 페이지에 삽입해야 합니다.
 

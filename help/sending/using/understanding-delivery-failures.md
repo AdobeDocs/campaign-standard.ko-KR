@@ -8,10 +8,23 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/6ZIy8zcUJpMGPTBoq3y3in1EOjJko8btTdmUX-nh1WM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 59%
+source-wordcount: 1347
+ht-degree: 55%
 
 ---
 
@@ -35,7 +48,7 @@ ht-degree: 59%
 
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#metrics-for-deliverability)
+* [바운스수](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#metrics-for-deliverability)
 
 ## 메시지에 대한 게재 실패 식별 {#identifying-delivery-failures-for-a-message}
 
@@ -96,7 +109,7 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->메시지가 최대 3.5일 동안 다시 시도 큐에 있고 배달에 실패하면 시간이 초과되고 <!--from **[!UICONTROL Sent]**-->게재 로그&#x200B;**[!UICONTROL Failed]**&#x200B;에서 [(으)로 &#x200B;](../../sending/using/monitoring-a-delivery.md#delivery-logs) 상태가 업데이트됩니다.
+>메시지가 최대 3.5일 동안 다시 시도 큐에 있고 배달에 실패하면 시간이 초과되고 [게재 로그](../../sending/using/monitoring-a-delivery.md#delivery-logs)에서 **[!UICONTROL Failed]**(으)로 <!--from **[!UICONTROL Sent]**--> 상태가 업데이트됩니다.
 
 <!--
 MOVED TO configuring-email-channel.md > LEGACY SETTINGS

@@ -9,9 +9,18 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/RWC1QVnb36uYdmvYN4N4yUeaVATJ2RdI7G8vXkJqR0o
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: 840
 ht-degree: 12%
 
 ---
@@ -60,7 +69,7 @@ ht-degree: 12%
    >
    >랜딩 페이지는 **[!UICONTROL Profiles]** 또는 **[!UICONTROL Service]** 리소스로만 매핑할 수 있습니다.
 
-   이 예제에서는 랜딩 페이지의 **이름** 필드를 **[!UICONTROL Last name]** 리소스의 **[!UICONTROL Profiles]** 필드에 매핑합니다.
+   이 예제에서는 랜딩 페이지의 **이름** 필드를 **[!UICONTROL Profiles]** 리소스의 **[!UICONTROL Last name]** 필드에 매핑합니다.
 
    ![](assets/lp_database-field-example.png)
 
@@ -174,7 +183,7 @@ ht-degree: 12%
    >
    >**[!UICONTROL Agreement]** 요소가 Campaign 데이터베이스의 필드에 매핑되지 않았습니다.
 
-1. 확인란 고급 속성에 액세스하려면 ![](assets/lp-properties-icon.png) 옆에 있는 **[!UICONTROL Form data]** 아이콘을 클릭합니다.
+1. 확인란 고급 속성에 액세스하려면 **[!UICONTROL Form data]** 옆에 있는 ![](assets/lp-properties-icon.png) 아이콘을 클릭합니다.
 
 1. 필요한 경우 메시지를 편집할 수 있습니다.
 

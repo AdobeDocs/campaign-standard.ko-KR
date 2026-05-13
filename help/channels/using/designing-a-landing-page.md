@@ -9,10 +9,19 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 93%
+source-wordcount: 1684
+ht-degree: 90%
 
 ---
 
@@ -51,7 +60,7 @@ ht-degree: 93%
 
 ![](assets/des_lp_content_8.png)
 
-1. 화면의 왼쪽에 있는 **팔레트**&#x200B;를 사용하면 선택한 블록에 연결된 일반 옵션을 수정할 수 있습니다. 수정할 수 있는 옵션은 다음과 같습니다. 배경색, 테두리, 텍스트 정렬, 표시 여부 조건 등 [개인화 필드 삽입](../../designing/using/personalization.md#inserting-a-personalization-field)을 참조하십시오.
+1. 화면의 왼쪽에 있는 **팔레트**&#x200B;를 사용하면 선택한 블록에 연결된 일반 옵션을 수정할 수 있습니다. 수정할 수 있는 옵션은 다음과 같습니다. 배경색, 테두리, 텍스트 정렬, 표시 여부 조건 등 [개인화 필드 삽입](../../designing/using/personalization.md#inserting-a-personalization-field)을 참조하세요.
 1. **작업 모음**&#x200B;에는 페이지에 대한 일반 옵션이 포함되어 있습니다. 템플릿을 선택하고 디스플레이 모드를 변경할 수 있습니다.
 1. 기본 **편집 영역**&#x200B;에서는 이미지에 링크 삽입, 글꼴 변경, 필드 삭제 등과 같은 상황별 도구 모음을 사용하여 콘텐츠와 직접 상호 작용할 수 있습니다.
 
@@ -190,7 +199,7 @@ ht-degree: 93%
    <td> <img height="21px" src="assets/textbold_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">굵은 글씨체</span> <br /> </td> 
    <td> 텍스트 요소<br /> </td> 
-   <td> 선택한 텍스트에 굵은 스타일을 추가합니다(텍스트를 <strong>&lt;strong&gt;</strong><strong>&lt;/strong&gt;</strong> 태그로 래핑).<br /> </td> 
+   <td> 선택한 텍스트에 굵은 스타일을 추가합니다(텍스트를 <strong><strong></strong>&lt;strong&gt;</strong>&lt;/strong&gt; 태그로 래핑).<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/textitalic_darkgrey-24px.png" /> <br /> </td> 
@@ -257,7 +266,7 @@ ht-degree: 93%
 
 ![](assets/des_lp_content_3.png)
 
-블록의 요소에 대해 정의된 매개 변수(링크, 개인화 필드, 콘텐츠 블록 등)는 팔레트에서 언제든지 수정할 수 있습니다.
+블록의 요소에 대해 정의된 매개 변수(링크, 개인화 필드, 콘텐츠 블록 등) 팔레트에서 언제든지 수정할 수 있습니다.
 
 ![](assets/des_lp_content_4.png)
 

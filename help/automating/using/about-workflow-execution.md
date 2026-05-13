@@ -10,9 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Fgr5Fy5R3xAe5QUwkNFA3k1y-nHDC5uqeCIJeEx7axI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: 354
 ht-degree: 8%
 
 ---
@@ -25,7 +36,7 @@ ht-degree: 8%
 >
 > Adobe에서는 고객이 20개 이상의 활성 워크플로우 실행을 동시에 실행하지 않도록 하고, 시간에 따라 워크플로우 실행의 우선 순위를 지정하고 분산하도록 권장합니다. 자세한 내용은 [이 페이지](../../automating/using/best-practices-workflows.md)에 제공된 모범 사례를 참조하세요.
 
-실행 관련 작업(시작, 중지, 일시 중지 등)은 **비동기** 프로세스입니다. 명령이 저장되며 서버에서 해당 명령을 적용할 수 있게 되면 적용됩니다.
+실행 관련 작업(시작, 중지, 일시 중지 등) **비동기** 프로세스입니다. 명령이 저장되며 서버에서 해당 명령을 적용할 수 있게 되면 적용됩니다.
 
 워크플로우에서 각 활동의 결과는 일반적으로 화살표로 표시되는 전환을 통해 다음 활동으로 전송됩니다.
 
@@ -43,7 +54,7 @@ ht-degree: 8%
 
 전환을 열어 워크플로를 실행하는 중 또는 후에 전송된 데이터가 올바른지 확인할 수 있습니다. 데이터 및 데이터 구조를 볼 수 있습니다.
 
-기본적으로 워크플로우의 마지막 전환에 대한 세부 정보에만 액세스할 수 있습니다. 이전 활동의 결과에 액세스하려면 워크플로우를 시작하기 전에 워크플로우 속성의 **[!UICONTROL Keep interim results]** 섹션에서 **[!UICONTROL Execution]** 옵션을 선택해야 합니다.
+기본적으로 워크플로우의 마지막 전환에 대한 세부 정보에만 액세스할 수 있습니다. 이전 활동의 결과에 액세스하려면 워크플로우를 시작하기 전에 워크플로우 속성의 **[!UICONTROL Execution]** 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택해야 합니다.
 
 >[!NOTE]
 >

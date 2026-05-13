@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 8d9820a4-3c44-45f5-815e-4ed48a96276d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/QYiEaFY1ourFhYa3WzJY8GiyljHaREFdoQU1h8FBln8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: 425
 ht-degree: 1%
 
 ---
@@ -33,7 +40,7 @@ Campaign Standard에서 워크플로 엔진은 워크플로 인스턴스가 한 
 
 이전 워크플로우 실행에서 하나 이상의 작업이 아직 보류 중인지 확인하려면 **[!UICONTROL Query]** 및 **[!UICONTROL Test]** 활동을 사용해야 합니다.
 
-1. **[!UICONTROL Query]** 활동 뒤에 **[!UICONTROL Scheduler]** 활동을 추가한 다음 다음과 같이 구성합니다.
+1. **[!UICONTROL Scheduler]** 활동 뒤에 **[!UICONTROL Query]** 활동을 추가한 다음 다음과 같이 구성합니다.
 
 1. 활동의 리소스를 **[!UICONTROL WorkflowTaskDetail]**(으)로 변경합니다. 즉, 워크플로의 현재 작업을 대상으로 합니다.
 
@@ -51,7 +58,7 @@ Campaign Standard에서 워크플로 엔진은 워크플로 인스턴스가 한 
 
    * 두 번째 규칙은 워크플로우의 이전 실행에서 생성된 작업이 여전히 활성(보류 중)인지 여부를 결정하며, 이는 실행 상태가 0인 경우에 해당합니다.
 
-1. **[!UICONTROL Test]** 활동에서 반환된 보류 중인 작업의 수를 확인하려면 **[!UICONTROL Query]** 활동을 추가하십시오. 이렇게 하려면 두 개의 아웃바운드 전환을 구성합니다.
+1. **[!UICONTROL Query]** 활동에서 반환된 보류 중인 작업의 수를 확인하려면 **[!UICONTROL Test]** 활동을 추가하십시오. 이렇게 하려면 두 개의 아웃바운드 전환을 구성합니다.
 
    ![](assets/scheduled-wkf-test.png)
 

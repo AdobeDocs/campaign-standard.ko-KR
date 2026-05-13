@@ -1,5 +1,5 @@
 ---
-title: 열람수
+title: 열람 수
 description: 열기 보고서를 통해 다양한 기준에 따라 가장 많이 본 게재를 알아봅니다.
 audience: reporting
 content-type: reference
@@ -9,14 +9,23 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 654957b0-98b5-43f2-8699-4531859ef76e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/pCko-Lo5p5WJg-5dzeC1uqgPIub6UThWnNAyJDp0Bwc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: 64
 ht-degree: 9%
 
 ---
 
-# 열람수{#opens}
+# 열람 수{#opens}
 
 **[!UICONTROL Opens]** 보고서는 수신자가 가장 많이 본 게재 항목을 식별합니다.
 

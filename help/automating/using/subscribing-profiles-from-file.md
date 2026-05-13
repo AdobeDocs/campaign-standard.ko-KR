@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/5W-TDffLY-3PfPrNq6AsoiCripfouAusuV8-sO9EYcM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: 238
 ht-degree: 53%
 
 ---
@@ -48,7 +55,7 @@ ht-degree: 53%
 
   ![](assets/subscription_activity_example3.png)
 
-* 임시 리소스의 [전자 메일](../../automating/using/deduplication.md) 필드(조정 결과)를 기반으로 한 **중복 제거**&#x200B;는 모든 중복을 식별합니다. 파일에서 가져온 데이터에 중복된 항목이 있으면 모든 데이터에 대한 서비스 구독이 실패합니다.
+* 임시 리소스의 **전자 메일** 필드(조정 결과)를 기반으로 한 [중복 제거](../../automating/using/deduplication.md)는 모든 중복을 식별합니다. 파일에서 가져온 데이터에 중복된 항목이 있으면 모든 데이터에 대한 서비스 구독이 실패합니다.
 
   ![](assets/subscription_activity_example5.png)
 

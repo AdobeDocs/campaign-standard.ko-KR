@@ -9,9 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/F-zxGFIsIDW-Xc5hMICIAwHOVDpChxl-AjyCJLjR-v4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 601
 ht-degree: 0%
 
 ---
@@ -52,7 +64,7 @@ Adobe I/O을 사용하면 Adobe Campaign Standard 및 기타 Adobe 제품에 대
 
 1. [Adobe Developer Console](https://console.adobe.io/home#)&#x200B;(으)로 이동하여 화면 오른쪽 상단의 드롭다운 메뉴에서 Adobe 조직 ID를 선택합니다.
 
-1. **[!UICONTROL Create new project]** 아래의 **[!UICONTROL Quick Start]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Quick Start]** 아래의 **[!UICONTROL Create new project]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/adobeIO1.png)
 

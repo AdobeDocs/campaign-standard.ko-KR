@@ -9,10 +9,24 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/gPeRyclF6wtJj0D3iN19ZwaxTGu-BoznkpccCQgO6XE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 3%
+source-wordcount: 1726
+ht-degree: 4%
 
 ---
 
@@ -68,7 +82,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 보내려면 먼저 이
 
 각 요소 자체가 여러 속성을 포함하는 요소의 컬렉션을 이벤트 콘텐츠에 추가할 수 있습니다.
 
-이 컬렉션은 트랜잭션 전자 메일에서 [제품 목록](../../designing/using/using-product-listings.md)을 메시지 콘텐츠에 추가할 수 있습니다(예: 가격, 참조 번호, 수량 등 포함 제품 목록). 를 참조하십시오.
+이 컬렉션은 트랜잭션 전자 메일에서 목록의 각 제품에 대한 가격, 참조 번호, 수량 등과 함께 제품 목록과 같은 메시지 콘텐츠에 [제품 목록](../../designing/using/using-product-listings.md)을 추가할 수 있습니다.
 
 1. **[!UICONTROL Collections]** 섹션에서 **[!UICONTROL Create element]** 단추를 클릭합니다.
 
@@ -105,7 +119,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 보내려면 먼저 이
 
 확장된 **[!UICONTROL Profile and services Ext API]**&#x200B;의 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 있습니다. 자세한 내용은 [API 확장: 확장 게시](../../developing/using/step-2-publish-the-extension.md)를 참조하십시오.
 
-이 정보는 새 리소스에도 저장할 수 있습니다. 이 경우 리소스는 직접 또는 다른 테이블을 통해 **[!UICONTROL Profile]** 또는 **[!UICONTROL Service]** 리소스에 연결되어 있어야 합니다. 예를 들어 아래 구성에서 **[!UICONTROL Product]** 리소스가 **[!UICONTROL Product]** 리소스에 연결된 경우 제품 범주 또는 ID와 같은 **[!UICONTROL Profile]** 리소스의 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 있습니다.
+이 정보는 새 리소스에도 저장할 수 있습니다. 이 경우 리소스는 직접 또는 다른 테이블을 통해 **[!UICONTROL Profile]** 또는 **[!UICONTROL Service]** 리소스에 연결되어 있어야 합니다. 예를 들어 아래 구성에서 **[!UICONTROL Product]** 리소스가 **[!UICONTROL Profile]** 리소스에 연결된 경우 제품 범주 또는 ID와 같은 **[!UICONTROL Product]** 리소스의 정보로 트랜잭션 메시지 콘텐츠를 보강할 수 있습니다.
 
 ![](assets/message-center_usecaseschema.png)
 
@@ -201,7 +215,7 @@ Adobe Campaign을 사용하여 트랜잭션 메시지를 보내려면 먼저 이
 
 1. 이벤트 구성을 만들 때 **[!UICONTROL Profile event]** 타겟팅 차원을 선택합니다([이벤트 만들기](#creating-an-event) 참조).
 1. 트랜잭션 메시지를 개인화하려면 이벤트에 필드를 추가하십시오([이벤트 특성 정의](#defining-the-event-attributes) 참조). 데이터 보강 기능을 만들려면 필드를 하나 이상 추가해야 합니다. Adobe Campaign 데이터베이스의 개인화 필드를 사용할 수 있으므로 **이름** 및 **성**&#x200B;과 같은 다른 필드는 만들 필요가 없습니다.
-1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하기 위해 데이터 보강(이벤트 보강[&#x200B; 참조)을 만들고 이 데이터 보강(3&rbrace;)을 선택합니다.](#enriching-the-transactional-message-content)**[!UICONTROL Targeting enrichment]**
+1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하기 위해 데이터 보강(이벤트 보강[&#128279;](#enriching-the-transactional-message-content) 참조)을 만들고 이 데이터 보강(3&rbrace;)을 선택합니다.**[!UICONTROL Targeting enrichment]**
 
    >[!IMPORTANT]
    >

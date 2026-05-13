@@ -6,9 +6,17 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
-source-git-commit: 64da7ac09e1b0fbf13ba1e563b6dc7be995b1640
+TQID: https://experienceleague.adobe.com/EE3jnXvxis0E3rnCRqLX2Gc9Aivhx2d4o3l8dZnFzgQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: 497
 ht-degree: 3%
 
 ---
@@ -30,7 +38,7 @@ ht-degree: 3%
 * **워크플로우 감사 추적**: 활동 및 워크플로우에 대한 마지막 수정 사항과 다음과 같은 워크플로우 상태를 확인합니다.
 
    * 생성일
-   * 수정일
+   * 수정됨
    * 삭제됨
    * 워크플로우 시작
    * 워크플로우 일시 중지
@@ -115,4 +123,4 @@ ht-degree: 3%
 
    ![](assets/audit-trail_6.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.

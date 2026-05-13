@@ -9,10 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/fk0D9lHTMGS6deq5PqwzmrZeLexPDqSiVcaeJ4YJrq8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 39%
+source-wordcount: 709
+ht-degree: 42%
 
 ---
 
@@ -34,11 +45,11 @@ ht-degree: 39%
 
 ## 구성 {#configuration}
 
-1. **[!UICONTROL Query]** 활동을 워크플로우로 끌어서 놓습니다. **[!UICONTROL Query]** 탭의 **[!UICONTROL Properties]** 활동 타깃팅 차원은 4단계에서 선택한 템플릿에 따라 업데이트해야 합니다.
+1. **[!UICONTROL Query]** 활동을 워크플로우로 끌어서 놓습니다. **[!UICONTROL Properties]** 탭의 **[!UICONTROL Query]** 활동 타깃팅 차원은 4단계에서 선택한 템플릿에 따라 업데이트해야 합니다.
 
-   * **[!UICONTROL mobileApp (mobileAppV5)]** 템플릿에 대한 타겟팅 차원을 **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**(으)로 설정해야 합니다.
-   * **[!UICONTROL profile (profile)]** 템플릿에 대한 타겟팅 차원을 **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**(으)로 설정해야 합니다.
-   * 타겟팅 차원은 **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`템플릿에 대해]**)**[!UICONTROL Target users based on their Mobile profile (inApp)]**(으)로 설정되어야 합니다.
+   * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** 템플릿에 대한 타겟팅 차원을 **[!UICONTROL mobileApp (mobileAppV5)]**(으)로 설정해야 합니다.
+   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** 템플릿에 대한 타겟팅 차원을 **[!UICONTROL profile (profile)]**(으)로 설정해야 합니다.
+   * 타겟팅 차원은 **[!UICONTROL Target users based on their Mobile profile (inApp)]** 템플릿에 대해 **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]**(으)로 설정되어야 합니다.
 
 1. **[!UICONTROL In-App delivery]** 활동을 워크플로로 끌어서 놓습니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.

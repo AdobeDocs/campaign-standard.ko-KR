@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/a5CeNJPuLV7KLkYo44ME3Pd2XVGOwM6ncLGjlupiRgc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: 1116
 ht-degree: 96%
 
 ---
@@ -78,7 +85,7 @@ ht-degree: 96%
 
 ![](assets/subscription_activity_example1.png)
 
-* **[!UICONTROL Load file]** 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다. 
+* **[!UICONTROL Load file]** 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다.
 
   이 예제에서 로드된 파일은 .csv 형식으로 되어 있으며 다음 데이터를 포함합니다.
 
@@ -117,7 +124,7 @@ ht-degree: 96%
 
 ![](assets/subscription_activity_example1.png)
 
-* **[!UICONTROL Load file]** 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다. 
+* **[!UICONTROL Load file]** 활동은 프로필 파일을 로드하고 가져온 열의 구조를 정의합니다.
 
   이 예제에서 로드된 파일은 .csv 형식으로 되어 있으며 다음 데이터를 포함합니다.
 

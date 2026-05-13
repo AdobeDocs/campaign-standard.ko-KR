@@ -8,10 +8,22 @@ feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LHlfIZ24iApQfr6dL-x-nQViltSetibBgt1slLDsRi4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 21%
+source-wordcount: 348
+ht-degree: 22%
 
 ---
 
@@ -31,7 +43,7 @@ ht-degree: 21%
 
 Campaign에서 사용하는 데이터는 **미리 정의된 데이터 모델**&#x200B;에 정의된 다른 리소스를 통해 정의됩니다. 데이터 모델은 게재, 대상, 랜딩 페이지, 프로필 등의 마케팅 관련 리소스 세트에 대한 기본 SQL 구조를 표시합니다. 각 리소스에는 연결된 필터가 포함되어 있으므로 리소스를 탐색할 수 있습니다.
 
-**진단** 메뉴를 사용하면 데이터 스키마, 웹 페이지, 필터 등 Campaign Standard에서 생성한 기술 개체를 나열할 수 있으므로 데이터 모델과 변경된 모든 사항을 모니터링할 수 있습니다.
+**진단** 메뉴를 사용하면 Campaign Standard에서 생성한 기술 개체(데이터 스키마, 웹 페이지, 필터 등)를 나열하여 데이터 모델과 변경된 모든 항목을 모니터링할 수 있습니다.
 
 자세한 내용:
 
@@ -44,7 +56,7 @@ Campaign에서 사용하는 데이터는 **미리 정의된 데이터 모델**&#
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standard을 사용하면 **사전 정의된 데이터 모델을 보강**&#x200B;하여 고유한 리소스를 만들거나(예: 구매 또는 제품 테이블 추가) 새 필드를 사용하여 기존 리소스를 확장할 수 있습니다. 또한 생성된 새 리소스 및 필드를 통해 탐색을 최적화하도록 Campaign 화면을 구성할 수 있습니다.
+Campaign Standard을 사용하면 **사전 정의된 데이터 모델을 보강**&#x200B;하여 고유한 리소스(예: 구매 또는 제품 테이블 추가)를 만들거나 기존 리소스를 새 필드로 확장할 수 있습니다. 또한 생성된 새 리소스 및 필드를 통해 탐색을 최적화하도록 Campaign 화면을 구성할 수 있습니다.
 
 또한 사용자 지정 리소스 프로필에 대한 API 확장 필드에 노출하기 위해 **Campaign Standard REST API를 확장**&#x200B;할 수 있습니다. 예를 들어 청구 시스템에서 생성된 프로모션 코드로 고객 프로필을 업데이트할 수 있습니다.
 
@@ -59,7 +71,7 @@ Campaign Standard을 사용하면 **사전 정의된 데이터 모델을 보강*
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Campaign Standard API를 사용하여 Adobe Campaign Standard에 대한 통합을 만들고 Campaign과 사용하는 기술 패널을 연결하여 고유한 에코시스템을 구축합니다. [Campaign Standard REST API 시작](../../api/using/get-started-apis.md)
+Campaign Standard API를 사용하면 Adobe Campaign Standard에 대한 통합을 만들고 Campaign과 사용하는 기술 패널을 연결하여 고유한 에코시스템을 구축할 수 있습니다. [Campaign Standard REST API 시작](../../api/using/get-started-apis.md)
 
 ## 추가 리소스
 

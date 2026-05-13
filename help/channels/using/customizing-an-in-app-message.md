@@ -9,9 +9,19 @@ feature: In App
 role: User
 level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/QhRAK2kBrSzvgyXK84KTPHS3wPJF7X17e5foclRPXIc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: 1004
 ht-degree: 97%
 
 ---
@@ -162,7 +172,7 @@ ht-degree: 97%
 
 1. 사용자가 **[!UICONTROL Deeplink URL]** 필드에서 로컬 알림과 상호 작용할 때 리디렉션할 대상을 지정합니다.
 1. 페이로드에서 사용자 지정 데이터를 키-값 쌍 형태로 전달하려면 로컬 알림에 사용자 지정 필드를 추가할 수 있습니다. **[!UICONTROL Custom fields]** 카테고리에서 **[!UICONTROL Create an element]** 버튼을 클릭합니다.
-1. **[!UICONTROL Keys]**&#x200B;을(를) 입력한 후 각 키와 연관된 **[!UICONTROL Values]**&#x200B;을(를) 입력합니다.
+1. **[!UICONTROL Keys]**&#x200B;을(를) 입력한 후 각 키와 연결된 **[!UICONTROL Values]**&#x200B;을(를) 입력합니다.
 
    사용자 지정 필드의 처리 및 용도는 전적으로 모바일 앱에 따라 다릅니다.
 

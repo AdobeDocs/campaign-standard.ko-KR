@@ -9,9 +9,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
+TQID: https://experienceleague.adobe.com/dfZ-v5Mfq7-u8GvDulzONuDGj4Ff2sCmPSFggeYuqPM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: 842
 ht-degree: 94%
 
 ---
@@ -48,7 +55,7 @@ A/B 테스트의 특정 컨텍스트에서 다음을 수행합니다.
 1. 생성 마법사의 네 번째 단계에서 A/B 테스트 매개 변수를 정의합니다.
 
    * **[!UICONTROL Number of variants]**: 2개 또는 3개의 변형을 사용하도록 선택할 수 있습니다. 3개의 변형을 선택하는 경우 마법사에서 이 단계를 확인한 후에는 이 선택을 수정할 수 없습니다.
-   * **[!UICONTROL Winning strategy]**: 채택 변형을 결정하는 데 사용할 기준을 선택합니다. 
+   * **[!UICONTROL Winning strategy]**: 채택 변형을 결정하는 데 사용할 기준을 선택합니다.
    * **[!UICONTROL Target breakdown]**: 각 변형을 받을 타겟의 비율을 선택합니다. 나머지 비율은 일단 결정되면 채택된 변형을 받게 됩니다. 타겟 프로필이 임의로 선택됩니다.
 
      >[!NOTE]
@@ -62,7 +69,7 @@ A/B 테스트의 특정 컨텍스트에서 다음을 수행합니다.
 
    ![](assets/ab_parameters.png)
 
-1. A/B 테스트 매개 변수가 정의되면 마법사의 다음 단계로 전달하여 이메일 콘텐츠를 정의합니다. 선택한 템플릿에 따라 여러 제목, 여러 발신자 이름 또는 여러 가지 다른 콘텐츠를 정의할 수 있습니다. 회전식을 사용하여 요소의 다른 변형 간을 탐색합니다. 자세한 정보는 [콘텐츠 편집기](../../designing/using/designing-content-in-adobe-campaign.md) 섹션을 참조하십시오.
+1. A/B 테스트 매개 변수가 정의되면 마법사의 다음 단계로 전달하여 이메일 콘텐츠를 정의합니다. 선택한 템플릿에 따라 여러 제목, 여러 발신자 이름 또는 여러 가지 다른 콘텐츠를 정의할 수 있습니다. 슬라이드를 사용하여 요소의 다양한 변형 간을 탐색합니다. 자세한 정보는 [콘텐츠 편집기](../../designing/using/designing-content-in-adobe-campaign.md) 섹션을 참조하십시오.
 
    ![](assets/create_ab_testing2.png)
 
@@ -73,7 +80,7 @@ A/B 테스트의 특정 컨텍스트에서 다음을 수행합니다.
    ![](assets/create_ab_testing3.png)
 
 1. 전송 타겟 및 메시지 수를 분석하기 위해 이메일 전송을 준비합니다. [전송 준비](../../sending/using/preparing-the-send.md) 섹션을 참조하십시오.
-1. A/B 테스트를 보내기 전에 증명을 보내 이메일을 확인합니다.
+1. A/B 테스트를 보내기 전에 교정쇄를 보내 이메일을 확인합니다.
 1. 준비가 완료되면 테스트 전송을 확인합니다. 확인되면 A/B 테스트 매개 변수는 수정할 수 없습니다.
 
    A/B 테스트는 **[!UICONTROL Schedule]**&#x200B;에 정의된 날짜에 시작됩니다. **[!UICONTROL A/B test]** 및 **[!UICONTROL Deployment]** 블록을 사용하여 진행 상황을 추적할 수 있습니다.

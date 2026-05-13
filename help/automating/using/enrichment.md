@@ -1,5 +1,5 @@
 ---
-title: 데이터 보강
+title: 보강
 description: 데이터 보강 활동은 워크플로에서 처리할 추가 데이터를 정의할 수 있는 고급 활동입니다.
 audience: automating
 content-type: reference
@@ -10,9 +10,18 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/rLzftfHfSB9qAilDcyex3HCJWkdPzg8i56l2jUPSMIw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: 546
 ht-degree: 95%
 
 ---
@@ -27,7 +36,7 @@ ht-degree: 95%
 
 ## 사용 컨텍스트 {#context-of-use}
 
-일반적으로 **[!UICONTROL Enrichment]** 활동은 타겟팅 활동 다음이나 파일을 가져온 후 타겟팅된 데이터를 사용할 수 있는 활동 전에 사용됩니다.
+일반적으로 **[!UICONTROL Enrichment]** 활동은 다음의 타겟팅 활동 또는 파일을 가져온 후 타겟팅된 데이터를 사용할 수 있는 활동 전에 사용됩니다.
 
 이 활동은 **[!UICONTROL Query]** 활동보다 더 많은 고급 데이터 보강 기능을 포함하고 있습니다. 일부 간단한 데이터 보강은 [쿼리 활동](../../automating/using/query.md#enriching-data)에서 직접 수행할 수 있습니다.
 
@@ -42,8 +51,8 @@ ht-degree: 95%
 
 **[!UICONTROL Enrichment]** 활동을 구성하는 방법:
 
-1. **[!UICONTROL Enrichment]** 활동을 워크플로로 끌어다 놓습니다.
-1. 활동을 선택한 다음 나타나는 바로 가기의 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 엽니다.
+1. **[!UICONTROL Enrichment]** 활동을 워크플로로 끌어서 놓습니다.
+1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. 활동에 여러 개의 인바운드 전환이 있는 경우 **[!UICONTROL Primary set]**&#x200B;을(를) 선택합니다 . 이 활동에 구성된 추가 데이터는 아웃바운드 전환의 기본 세트에 추가됩니다.
 
    기본 세트에 이미 추가 데이터가 포함되어 있는 경우 해당 데이터를 유지하거나 제거할 수 있습니다. **[!UICONTROL Keep all additional data from the main set]** 옵션을 선택 취소하면 **[!UICONTROL Enrichment]**&#x200B;에 구성된 추가 데이터만 아웃바운드 전환에 유지됩니다.
@@ -66,7 +75,7 @@ ht-degree: 95%
 
 1. 활동의 **[!UICONTROL Additional data]** 탭에서 추가 데이터를 정의합니다. 기본 세트의 타겟팅 차원과 관련된 추가 데이터(단순 필드, 집계 및 컬렉션)나 **[!UICONTROL Enrichment]** 활동의 **[!UICONTROL Advanced relations]** 탭에서 만든 링크를 기준으로 정의할 수 있습니다.
 
-   [데이터 보강](../../automating/using/query.md#enriching-data) 섹션을 참조하십시오.
+   [데이터 강화](../../automating/using/query.md#enriching-data) 섹션을 참조하십시오.
 
 1. 활동 구성을 확인하고 워크플로를 저장합니다.
 

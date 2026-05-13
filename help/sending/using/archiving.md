@@ -8,9 +8,18 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/azrQgfcyinGmbmazAdX8-9zBVYqew1j3DS4sb2FaU-4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: 365
 ht-degree: 5%
 
 ---
@@ -27,10 +36,10 @@ ht-degree: 5%
 >
 >Adobe Campaign 자체는 보관된 파일을 관리하지 않습니다. 원하는 메시지를 외부 시스템을 사용하여 처리하고 보관할 수 있는 전용 주소로 전송할 수 있습니다.
 
-## Recommendations 및 제한 사항 {#recommendations-and-limitations}
+## 권장 사항 및 제한 사항 {#recommendations-and-limitations}
 
 * 이 기능은 선택 사항입니다. 라이선스 계약을 확인하고 계정 관리자에게 문의하여 기능을 활성화하십시오.
-* 선택한 BCC 주소를 구성할 Adobe 팀에 제공해야 합니다.
+* 선택한 BCC 주소를 Adobe 팀에 제공해야 합니다. 이 팀은 사용자를 위해 BCC를 구성합니다.
 * 숨은 참조 이메일 주소는 하나만 사용할 수 있습니다.
 * 성공적으로 전송된 이메일만 고려됩니다. 바운스 수는 없습니다.
 * 개인정보 보호를 위해 BCC 이메일은 PII(개인 식별 정보)를 안전하게 저장할 수 있는 보관 시스템에 의해 처리되어야 합니다.

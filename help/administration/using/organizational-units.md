@@ -6,9 +6,19 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/OjO9gSlb5OKrPgK2vNQsmEjJ3ykPPULZR5KOb5BenlU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: 844
 ht-degree: 4%
 
 ---
@@ -41,11 +51,11 @@ ht-degree: 4%
 
 조직 단위를 사용하면 사용자가 연결된 조직에 따라 인스턴스를 필터링할 수 있습니다. 이 단위는 인스턴스의 지역, 국가 또는 브랜드를 나타낼 수 있습니다.
 
-이전에 두 명의 사용자에게 서로 다른 역할을 가진 보안 그룹을 만들었습니다. 한 명의 사용자는 보안 그룹 관리자와 Geometrixx에게 할당되고, 다른 사용자는 보안 그룹 표준 사용자와 Geometrixx 옷에 속합니다. 전체 예제는 [보안 그룹 만들기 및 사용자 할당](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)을 참조하십시오.
+이전에 두 명의 사용자에게 서로 다른 역할을 가진 보안 그룹을 만들었습니다. 한 명의 사용자는 보안 그룹 Administrators 및 Geometrixx에 할당되고, 다른 한 명의 사용자는 보안 그룹 Standard user 및 Geometrixx Clothes에 속합니다. 전체 예제는 [보안 그룹 만들기 및 사용자 할당](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)을 참조하십시오.
 
-이제 Geometrixx 의류 및 Geometrixx 보안 그룹에 대한 조직 단위를 만들어야 합니다.
+이제 Geometrixx Clothes 및 Geometrixx 보안 그룹에 대한 조직 단위를 만들어야 합니다.
 
-1. Adobe 캠페인 고급 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**&#x200B;을(를) 선택합니다.
+1. Adobe campaign 고급 메뉴에서 **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**&#x200B;을(를) 선택합니다.
 1. 조직 단위 구성을 시작하려면 **[!UICONTROL Create]**&#x200B;을(를) 클릭하십시오.
 
    ![](assets/manage_units_1.png)
@@ -56,11 +66,11 @@ ht-degree: 4%
    ![](assets/manage_units_2.png)
 
 1. 마지막으로 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 보안 그룹에 새 조직 단위를 할당합니다.
-1. 상위 단위가 이전에 생성된 단위인 Geometrixx이 되어야 한다는 점을 제외하고 Geometrixx Clothes 단위에 대해 동일한 절차를 수행합니다.
+1. 상위 단위가 이전에 생성된 단위인 Geometrixx 단위여야 한다는 점을 제외하고 Geometrixx Clothes 단위에 대해 동일한 절차를 수행합니다.
 
    ![](assets/manage_units_3.png)
 
-서로 다른 보안 그룹에 서로 다른 장치를 할당하는 것의 영향을 확인하기 위해 관리자 및 Geometrixx 그룹에 할당된 사용자는 표준 사용자 및 Geometrixx 의류에 할당된 다른 사용자가 액세스할 수 있거나 액세스할 수 없는 항목을 보기 위해 두 개의 이메일 템플릿을 만듭니다.
+서로 다른 장치를 서로 다른 보안 그룹에 할당하면 미치는 영향을 확인하기 위해 관리자 및 Geometrixx 그룹에 할당된 사용자는 두 개의 이메일 템플릿을 만들어 표준 사용자 및 Geometrixx Clothes에 할당된 다른 사용자가 액세스할 수 있거나 액세스할 수 없는 항목을 확인합니다.
 
 1. 고급 메뉴에서 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**&#x200B;을(를) 선택합니다.
 1. 기존 템플릿을 복제하고 필요에 따라 개인화합니다. 자세한 내용은 [템플릿 정보](../../start/using/marketing-activity-templates.md) 섹션을 참조하세요.
@@ -76,11 +86,11 @@ ht-degree: 4%
 
 1. 이전에 만든 Geometrixx Clothes 조직 단위에 할당된 두 번째 템플릿을 만들려면 동일한 절차를 따르십시오.
 
-**표준 사용자** 및 **Geometrixx 의류** 그룹에 할당된 사용자는 두 템플릿을 모두 볼 수 있습니다. 조직 단위의 계층 구조 때문에 Geometrixx Clothes 단위에 연결된 템플릿에 대한 읽기 및 쓰기 액세스 권한과 Geometrixx 단위에 연결된 템플릿에 대한 읽기 전용 액세스 권한을 갖게 됩니다.
+**표준 사용자** 및 **Geometrixx 의류** 그룹에 할당된 사용자는 두 템플릿을 모두 볼 수 있습니다. 조직 단위의 계층 구조로 인해, Geometrixx Clothes 단위에 연결된 템플릿에 대한 읽기 및 쓰기 액세스 권한과 Geometrixx 단위에 연결된 템플릿에 대한 읽기 전용 액세스 권한을 갖게 됩니다.
 
 ![](assets/manage_units_7.png)
 
-Geometrixx 의류 단위는 Geometrixx의 하위 단위이므로 사용자가 Geometrixx 템플릿을 수정하려고 할 때 다음 메시지가 나타납니다.
+Geometrixx Clothes 장치는 Geometrixx의 하위 단위이므로 사용자가 Geometrixx 템플릿을 수정하려고 하면 다음 메시지가 표시됩니다.
 
 ![](assets/manage_units_8.png)
 
@@ -108,7 +118,7 @@ Geometrixx 조직 단위가 있는 프로필은 읽기 전용이지만 사용자
 
    ![](assets/user_management_9.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 1. 사용자 지정 리소스를 다시 게시하여 구조를 업데이트합니다. 게시 프로세스에 대한 자세한 내용은 [구조 업데이트](../../developing/using/updating-the-database-structure.md) 섹션을 참조하십시오.
 
 조직 단위 필드가 **[!UICONTROL Access authorization]** 섹션의 프로필에 추가됩니다.

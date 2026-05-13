@@ -6,10 +6,26 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/FKO2q2Cn5rO8aKh0d88eaFi7p1Xa608fOmEZiCRazBc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b4ecd69f-2adf-4219-bc47-c9cd9a53c118
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 12%
+source-wordcount: 647
+ht-degree: 15%
 
 ---
 
@@ -19,10 +35,10 @@ ht-degree: 12%
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">관리 메뉴</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">사용자 및 보안</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">채널 구성</a></p></td>
-<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">응용 프로그램 설정</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">애플리케이션 설정</a></p></td></tr>
 </table>
 
-Adobe Campaign은 클라우드 기반 솔루션으로서, 관리자에게 애플리케이션을 구성하는 다양한 방법을 제공합니다. 인프라 구성은 Adobe이 수행하지만 기능 관리자는 아래에 설명된 다양한 구성 작업을 수행할 수 있습니다.
+Adobe Campaign은 클라우드 기반 솔루션으로서, 관리자에게 애플리케이션을 구성하는 다양한 방법을 제공합니다. 인프라 구성은 Adobe에서 수행하지만 기능 관리자는 아래에 설명된 다양한 구성 작업을 수행할 수 있습니다.
 
 >[!NOTE]
 >
@@ -81,11 +97,11 @@ Adobe Experience Platform SDK를 사용하여 인앱 메시지 및 푸시 알림
 * [SMS 채널 구성](../../administration/using/configuring-sms-channel.md)
 * [모바일 애플리케이션 구성](../../administration/using/configuring-a-mobile-application.md)
 
-## 응용 프로그램 설정 {#application-settings}
+## 애플리케이션 설정 {#application-settings}
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 
-Campaign Standard은 요구 사항에 맞게 구성할 수 있는 다양한 애플리케이션 요소와 함께 제공됩니다.
+Campaign Standard에는 사용자의 요구 사항에 맞게 구성할 수 있는 다양한 애플리케이션 요소가 포함되어 있습니다.
 
 Adobe Campaign을 외부 서버에 연결하는 데 사용되는 **외부 계정**&#x200B;을(를) 설정합니다. Campaign Standard 대상 매핑에 액세스하고 **기술 워크플로우**&#x200B;를 사용하여 플랫폼을 모니터링합니다.
 

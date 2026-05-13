@@ -9,9 +9,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6516c71a-efa8-4778-82bb-10615378f985
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PSAzSStMFWofMteBu3jMSizD2kj1M9F7-0iO3dcugjY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: 320
 ht-degree: 3%
 
 ---
@@ -40,7 +47,7 @@ Analytics에 있는 **[!UICONTROL dimensions]** 캠페인은 다음과 같습니
   </tr> 
   <tr> 
    <td> 게재 ID<br /> </td> 
-   <td> Campaign에 표시되는 게재 내부 이름.<br /> 예를 들어 DM1은 매주 하위 게재를 보내도록 예약된 반복 게재입니다. DM2, DM3 및 DM4는 처음 3주에 전송됩니다. 그러면 게재 ID 차원에 모든 게재, 즉 DM1에서 DM4까지의 결과가 표시됩니다. <br /> </td> 
+   <td> Campaign에 표시되는 게재의 내부 이름입니다.<br /> 예를 들어 DM1은 매주 하위 게재를 보내도록 예약된 반복 게재입니다. DM2, DM3 및 DM4는 처음 3주에 전송됩니다. 그러면 게재 ID 차원에 모든 게재, 즉 DM1에서 DM4까지의 결과가 표시됩니다. <br /> </td> 
   </tr> 
   <tr> 
    <td> 게재 레이블<br /> </td> 

@@ -8,10 +8,19 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz---s3NRdSbweBFhTAMgSw4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 3%
+source-wordcount: 445
+ht-degree: 7%
 
 ---
 
@@ -21,7 +30,7 @@ ht-degree: 3%
 
 콘텐츠 블록 및 콘텐츠 조각 은 여러 이메일에서 공통되는 재사용 가능한 콘텐츠 조각입니다. 이메일 일관성을 보장하고 이메일 생성을 최적화/표준화하는 데 사용됩니다. 콘텐츠 블록과 콘텐츠 조각의 차이점은 가능한 사용자 지정 수준입니다.
 
-* 콘텐츠 블록은 HTML 코드가 수동으로 삽입되는 순수 HTML(사용자에게 친숙한 UI가 아니라 직접 소스 코드)입니다. HTML 지식이 있는 사람을 대상으로 하지만, 콘텐츠 조각에서 사용할 수 없는 개인화 수준을 허용합니다.
+* 콘텐츠 블록은 HTML 코드가 수동으로 삽입되는 순수 HTML입니다(사용자에게 친숙한 UI가 아니라 직접 소스 코드). HTML 지식이 있는 사용자를 대상으로 하지만, 콘텐츠 조각에서 사용할 수 없는 개인화 수준을 허용합니다.
 
 * 콘텐츠 조각 은 사용자에게 친숙한 UI를 사용하여 이메일 Designer을 통해 만든 콘텐츠의 시각적 부분입니다. 단, 콘텐츠를 개인화할 수는 없습니다. 개인화가 필요한 경우 콘텐츠 블록을 통해서만 수행할 수 있습니다.
 
@@ -34,7 +43,7 @@ HTML 이동 경로를 사용하여 패딩을 추가할 수 있습니다.
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. 패딩을 추가할 요소를 클릭합니다.
-1. HTML 탐색 표시에서 상위 태그를 클릭합니다.
+1. HTML 이동 경로에서 상위 태그를 클릭합니다.
 이제 이 요소에 패딩을 추가할 수 있습니다.
 
 ## 이메일 Designer에서 HTML 콘텐츠를 가져올 수 있습니까?

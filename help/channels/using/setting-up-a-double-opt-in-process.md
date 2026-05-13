@@ -8,9 +8,20 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+TQID: https://experienceleague.adobe.com/uEAfmHvm5tpDoCp9nEQeveyH0oBvmP24IvkUy73QPSw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: 1172
 ht-degree: 86%
 
 ---
@@ -51,11 +62,11 @@ ht-degree: 86%
 
    /context/profile/blackList
 
-   값을 **false**&#x200B;로 설정하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+   값을 **거짓**&#x200B;로 설정하고 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   이 컨텍스트는 이메일을 보낼 수 있도록 &#39;차단 목록 시&#39; 필드를 제거합니다. 확인되지 않은 프로필로 이메일을 보내는 것을 방지하기 위해 첫 번째 랜딩 페이지에서 이 필드를 **true**&#x200B;로 설정했음을 나중에 확인할 수 있습니다. 자세한 내용은 [3단계: 확보 랜딩 페이지 만들기](#step-3--create-the-acquisition-landing-page)를 참조하십시오.
+   이 컨텍스트는 이메일을 보낼 수 있도록 &#39;차단 목록 시&#39; 필드를 제거합니다. 확인되지 않은 프로필로 이메일을 보내는 것을 방지하기 위해 첫 번째 랜딩 페이지에서 이 필드를 **참**&#x200B;로 설정했음을 나중에 확인할 수 있습니다. 자세한 내용은 [3단계: 확보 랜딩 페이지 만들기](#step-3--create-the-acquisition-landing-page)를 참조하십시오.
 
 1. 랜딩 페이지의 콘텐츠를 사용자 지정합니다. 예를 들어 개인화된 데이터를 표시하고 확인 버튼의 레이블을 &#39;여기를 클릭하여 내 구독 확인&#39;으로 변경할 수 있습니다.
 
@@ -87,7 +98,7 @@ ht-degree: 86%
 
    ![](assets/optin_eventcreate_join.png)
 
-   서비스를 사용해야 하는 경우 **[!UICONTROL Service]** 타겟 리소스를 추가하고 **[!UICONTROL serviceName]** 필드에 매핑합니다. 자세한 내용은 참조하십시오. 
+   서비스를 사용해야 하는 경우 **[!UICONTROL Service]** 타겟 리소스를 추가하고 **[!UICONTROL serviceName]** 필드에 매핑합니다. 자세한 내용은 참조하십시오.
 
 1. 드롭다운 목록에서 **[!UICONTROL Profile]**&#x200B;을(를) **[!UICONTROL Targeting enrichment]**(으)로 선택합니다.
 1. 이벤트를 게시하려면 **[!UICONTROL Publish]**&#x200B;을(를) 클릭합니다.
@@ -130,7 +141,7 @@ ht-degree: 86%
 
    /context/profile/blackList
 
-   값을 **true**&#x200B;로 설정합니다.
+   값을 **참**&#x200B;로 설정합니다.
 
    이는 차단 목록에 추가하다에 을 강제로 추가하고 동의를 확인하지 않은 방문자에게 메시지를 보내지 않기 위해 필수입니다. CONFIRMATION 랜딩 페이지의 유효성 검사에서는 확인 후 이 필드를 **false**&#x200B;로 설정합니다. 자세한 내용은 [1단계: 확인 랜딩 페이지 만들기](#step-1--create-the-confirmation-landing-page)를 참조하십시오.
 

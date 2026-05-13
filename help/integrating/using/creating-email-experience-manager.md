@@ -9,9 +9,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/EP76tPp3-TEsjgg91-p7dFhtHScLS0O2YOqUb2kun3E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: 515
 ht-degree: 0%
 
 ---
@@ -61,9 +72,9 @@ Adobe Campaign과 관련된 몇 가지 템플릿을 사용할 수 있습니다. 
 
 Adobe Experience Manager에서 이메일 콘텐츠를 만들려면 다음 작업을 수행하십시오.
 
-1. 사이드 킥에서 **[!UICONTROL Plain text]** > **[!UICONTROL Page properties]** 탭에 액세스하여 제목과 전자 메일의 **[!UICONTROL Email]** 버전을 편집합니다.
+1. 사이드 킥에서 **[!UICONTROL Page properties]** > **[!UICONTROL Email]** 탭에 액세스하여 제목과 전자 메일의 **[!UICONTROL Plain text]** 버전을 편집합니다.
 
-1. **[!UICONTROL Personalization fields]** 구성 요소를 통해 **[!UICONTROL Text & Personalization]** 추가. 각 구성 요소는 이미지 삽입, 개인화 추가 등의 특정 용도에 해당합니다.
+1. **[!UICONTROL Text & Personalization]** 구성 요소를 통해 **[!UICONTROL Personalization fields]** 추가. 각 구성 요소는 이미지 삽입, 개인화 추가 등의 특정 용도에 해당합니다.
 
    자세한 내용은 다음 비디오를 시청하십시오.
 

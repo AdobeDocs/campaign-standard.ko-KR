@@ -6,9 +6,31 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a658c786-869b-4194-a780-2594d663adda
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: 1227
 ht-degree: 81%
 
 ---
@@ -95,14 +117,14 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 * [프로그램 및 캠페인 관리](../../start/using/programs-and-campaigns.md): 다양한 유형의 활동(이메일, SMS 메시지, 푸시 알림, 워크플로, 랜딩 페이지)을 포함하는 마케팅 캠페인을 만듭니다.
 * [프로필](../../audiences/using/about-profiles.md) 및 [테스트 프로필](../../audiences/using/managing-test-profiles.md) 관리: 게재 시 타겟팅할 확인 및 테스트 수신자를 관리합니다. 이름, 성, 연락처 정보, 구독, 이메일 등의 정보를 추가합니다.
-* [메시지 만들기 및 보내기](../../sending/using/confirming-the-send.md): 메시지를 만들고, 대상자를 선택하고, 메시지 콘텐츠와 개인화 요소를 정의하고, 증명을 보내고, 대상자에게 최종 메시지를 보냅니다.
+* [메시지 만들기 및 보내기](../../sending/using/confirming-the-send.md): 메시지를 만들고, 대상자를 선택하고, 메시지 콘텐츠와 개인화 요소를 정의하고, 교정쇄를 보내고, 대상자에게 최종 메시지를 보냅니다.
 * [랜딩 페이지 만들기 및 게시](../../channels/using/getting-started-with-landing-pages.md): 고객에게 제공할 서비스 세트(구독이나 구독 취소 양식 등)를 만들고 관리합니다.
 * [캠페인 워크플로 만들기 및 실행](../../automating/using/building-a-workflow.md): 워크플로를 사용하여 캠페인 프로세스를 자동화합니다.
 * [사용 가능한 보고서](../../reporting/using/defining-the-report-period.md)를 통해 마케팅 활동을 모니터링합니다.
 
 ## 사용자 만들기 {#creating-a-user}
 
-인스턴스에 사용자를 추가하려면 먼저 Adobe Campaign Standard에서 관리하기 전에 Admin Console에서 사용자를 만들어야 합니다.
+인스턴스에 사용자를 추가하려면 먼저 Admin Console에서 사용자를 만든 후 Adobe Campaign Standard에서 관리해야 합니다.
 
 1. 고급 메뉴에서 **[!UICONTROL Administration > Users & Security > Users]**&#x200B;을(를) 선택하고 **[!UICONTROL User administration]**&#x200B;을(를) 클릭하여 Admin Console에 액세스합니다.
 
@@ -156,6 +178,6 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 이 비디오는 사용자 액세스 권한을 관리하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36113?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/36113?captions=kor&quality=12)
 
-추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

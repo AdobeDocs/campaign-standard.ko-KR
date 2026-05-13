@@ -9,9 +9,22 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: 30d0c2552bea3a7cbd8500be4e8c0c74e5a40a99
+TQID: https://experienceleague.adobe.com/jxyxboMVl7lyXQZmiOqQX-kZukFyUtMZSAUMVBtoRak
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: 629
 ht-degree: 2%
 
 ---
@@ -61,7 +74,7 @@ Campaign을 통해 보낸 SMS 메시지에 프로필이 답장할 경우 수행�
 
    ![](assets/sms_mo.png)
 
-1. **[!UICONTROL Save]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 1. SMS 게재 **[!UICONTROL Properties]**&#x200B;의 **[!UICONTROL Advanced parameters]**&#x200B;에서 특정 **[!UICONTROL Short code]**&#x200B;을(를) 설정하여 옵트아웃한 수신자를 자동으로 제외할 수 있습니다. 자세한 내용은 [이 섹션](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)을 참조하세요.
 

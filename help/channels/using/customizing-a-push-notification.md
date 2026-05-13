@@ -9,9 +9,19 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+TQID: https://experienceleague.adobe.com/dS7csVOV5g64DQCssB9Nzz2ByX3t1gAe2HXdGJo1N50
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: 1509
 ht-degree: 93%
 
 ---
@@ -97,7 +107,7 @@ ht-degree: 93%
 1. 푸시 알림을 열고 **[!UICONTROL Advanced options]** 섹션에 액세스합니다.
 1. 푸시 알림을 받을 때 실행 가능한 버튼을 표시하려면 **[!UICONTROL Category]** 필드에 사전 정의된 카테고리 이름을 입력합니다.
 
-   모바일 애플리케이션 개발자는 애플리케이션에서 카테고리 ID와 버튼의 예상 동작을 정의해야 합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html)(**카테고리 및 실행 가능한 알림 구성** 섹션) 또는 [Android 개발자 설명서](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)를 참조하십시오.
+   모바일 애플리케이션 개발자는 애플리케이션에서 카테고리 ID와 버튼의 예상 동작을 정의해야 합니다. 자세한 내용은 [Apple 개발자 설명서](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html)&#x200B;(**카테고리 및 실행 가능한 알림 구성** 섹션) 또는 [Android 개발자 설명서](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)를 참조하십시오.
 
    ![](assets/push_notif_advanced_9.png)
 

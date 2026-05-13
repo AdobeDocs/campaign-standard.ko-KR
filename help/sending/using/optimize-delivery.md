@@ -9,10 +9,20 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/w2qeBwrGka2XfN76lvkL7fjdAErUcHdxNvF7Jb6KYIk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 4%
+source-wordcount: 767
+ht-degree: 9%
 
 ---
 
@@ -64,7 +74,7 @@ ht-degree: 4%
 
 **팁**
 
-* 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외됩니다. 이 수신자는 타겟팅되지 않습니다. 이렇게 하면 오류율이 게재 속도에 중요한 영향을 미치므로 게재 속도가 빨라집니다. 예를 들어 받은 편지함이 가득 찼거나 주소가 없는 경우 이메일 주소를 격리할 수 있습니다. [자세히 알아보기](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* 주소가 격리된 수신자는 기본적으로 게재 분석 중에 제외됩니다. 이 수신자는 타겟팅되지 않습니다. 이를 통해 게재 속도를 높일 수 있습니다. 오류율은 게재 속도에 상당한 영향을 미치기 때문입니다. 예를 들어 받은 편지함이 가득 찼거나 주소가 없는 경우 이메일 주소를 격리할 수 있습니다. [자세히 알아보기](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign은 반환된 오류 유형에 따라 잘못된 주소를 관리합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../sending/using/understanding-quarantine-management.md)을 참조하십시오.
 

@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/oyXhQ4Fgx2-cooFelMxsoFiP1qx48-ZQ1eoAudNivF8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 77%
+source-wordcount: 190
+ht-degree: 80%
 
 ---
 
@@ -38,7 +45,7 @@ ht-degree: 77%
 **관련 항목:**
 
 * [함수 목록](../../automating/using/list-of-functions.md)
-* [외부 매개 변수로 워크플로우 호출](../../automating/using/calling-a-workflow-with-external-parameters.md)
+* [외부 매개 변수로 워크플로 호출](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
 ## 구성 {#configuration}
 
@@ -50,7 +57,7 @@ ht-degree: 77%
 
    * ![](assets/extsignal_picker.png): 워크플로우에서 사용할 수 있는 모든 변수 중에서 events 변수를 선택합니다([이 페이지](../../automating/using/customizing-workflow-external-parameters.md) 참조).
 
-     예를 들어 [&#x200B; 변수를 사용하여 &#x200B;](../../automating/using/transfer-file.md)파일 전송&#x200B;**[!UICONTROL filesCount]** 활동 후 다운로드한 파일 수를 확인할 수 있습니다.
+     예를 들어 **[!UICONTROL filesCount]** 변수를 사용하여 [파일 전송](../../automating/using/transfer-file.md) 활동 후 다운로드한 파일 수를 확인할 수 있습니다.
 
      ![](assets/wkf_test_activity_variables.png)
 

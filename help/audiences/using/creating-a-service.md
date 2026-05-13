@@ -9,9 +9,16 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/uSoAvkY4kGrVnzSmHbgj1gd4YKPFFzSBC-4maW-9VEw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: 442
 ht-degree: 92%
 
 ---
@@ -22,7 +29,7 @@ ht-degree: 92%
 
 ![](assets/do-not-localize/how-to-video.png) [비디오에서 이 기능 살펴보기](#video)
 
-서비스를 구성하려면 다음을 수행합니다. 
+서비스를 구성하려면 다음을 수행합니다.
 
 1. Adobe Campaign 로고를 통해 고급 메뉴 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Services]**&#x200B;에서 새 서비스를 추가하거나 기존 서비스를 선택합니다. 새 서비스를 만드는 경우 화면에 표시된 단계를 따르기만 하면 됩니다.
 
@@ -65,6 +72,6 @@ ht-degree: 92%
 
 이 비디오는 서비스를 만들고 구독을 관리하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31893?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/31893?captions=kor&quality=12)
 
-추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

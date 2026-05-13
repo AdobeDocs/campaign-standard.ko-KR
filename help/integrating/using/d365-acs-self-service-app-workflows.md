@@ -9,9 +9,18 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/YTcYEg46GzZ83wU8cfw8UgRbcUNzTVSwhjILIq1n6Ss
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: 660
 ht-degree: 0%
 
 ---
@@ -35,11 +44,11 @@ Microsoft Dynamics 365에 대한 **캠페인**
 
 **옵트인/옵트아웃**
 
-옵트아웃 상태(예: Microsoft Dynamics)는 Microsoft Dynamics 365에서 Adobe Campaign으로 또는 Adobe Campaign에서 차단 목록에 추가하다 365로 동기화할 수 있습니다. 데이터는 또한 양방향으로 동기화(즉, 양방향으로 데이터 흐름)될 수 있다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)
+옵트아웃 상태(예: Microsoft Dynamics)는 Microsoft Dynamics 365에서 Adobe Campaign으로 또는 Adobe Campaign에서 차단 목록에 추가하다 365로 동기화할 수 있습니다. 데이터는 또한 양방향으로 동기화(즉, 양방향으로 데이터 흐름)될 수 있다. [자세히 알아보기](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!IMPORTANT]
 >
->Microsoft Dynamics Adobe Campaign Standard 또는 Microsoft Dynamics 365에 변경 사항을 게시하기 전에 **Campaign 365에서 Campaign**&#x200B;으로 워크플로우를 중지하는 것이 좋습니다. 이러한 변경 사항에는 현재 통합에서 사용 중인 리소스/엔티티(및 관련 필드), 링크, 식별자 열 등에 대한 업데이트가 포함됩니다. 이렇게 하지 않으면 데이터가 손실되거나 워크플로우가 예기치 않게 중지될 수 있습니다.
+>Adobe Campaign Standard 또는 Microsoft Dynamics 365에 변경 사항을 게시하기 전에 **Campaign 365에서 Campaign**&#x200B;으로 워크플로우를 중지하는 것이 좋습니다. 이러한 변경 사항에는 현재 통합에서 사용 중인 리소스/엔티티(및 관련 필드), 링크, 식별자 열 등에 대한 업데이트가 포함됩니다. 이렇게 하지 않으면 데이터가 손실되거나 워크플로우가 예기치 않게 중지될 수 있습니다.
 
 ## 워크플로 백로그
 

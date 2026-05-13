@@ -8,9 +8,23 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/STHpDRtsdjT7OMDg3aOtVHdzqLokzOxvM2PI0ho9WLA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: 395
 ht-degree: 84%
 
 ---
@@ -39,7 +53,7 @@ Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수
 
    ![](assets/profile_creation_1.png)
 
-1. **[!UICONTROL Create]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
    ![](assets/profile_creation.png)
 
@@ -55,9 +69,9 @@ Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수
      > 휴대폰 번호는 프로필 테이블에서 항상 국제 형식(`+<country><number>`)이어야 합니다.
 
    * **[!UICONTROL No longer contact]** 카테고리는 프로필이 채널 구독을 취소하면 즉시 업데이트됩니다.
-   * **[!UICONTROL Address]** 카테고리에는 우편 주소가 있으며, 프로필에 [DM](../../channels/using/about-direct-mail.md)을 보낼 수 있는 **[!UICONTROL Address specified]** 옵션도 선택되어 있어야 합니다. **[!UICONTROL Address specified]** 옵션이 선택되어 있지 않은 프로필은 모든 DM 게재에서 제외됩니다. 
+   * **[!UICONTROL Address]** 카테고리에는 우편 주소가 있으며, 프로필에 [DM](../../channels/using/about-direct-mail.md)을 보낼 수 있는 **[!UICONTROL Address specified]** 옵션도 선택되어 있어야 합니다. **[!UICONTROL Address specified]** 옵션이 선택되어 있지 않은 프로필은 모든 DM 게재에서 제외됩니다.
    * **[!UICONTROL Access authorization]** 범주는 [권한 관리](../../administration/using/about-access-management.md)에 대한 프로필의 조직 단위를 나타냅니다. 프로필에 조직 필드를 추가하려면 [프로필 파티션 나누기](../../administration/using/organizational-units.md#partitioning-profiles) 섹션을 참조하십시오.
-   * **[!UICONTROL Traceability]** 카테고리는 프로필을 만들거나 수정한 사용자에 대한 정보로 자동 업데이트됩니다. 
+   * **[!UICONTROL Traceability]** 카테고리는 프로필을 만들거나 수정한 사용자에 대한 정보로 자동 업데이트됩니다.
 
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 프로필을 저장합니다.
 
@@ -70,6 +84,6 @@ Campaign에서 프로필을 만들거나 업데이트하기 위해 다음을 수
 
 이 비디오는 워크플로우로 프로필을 가져오는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/31896?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/31896?captions=kor&quality=12)
 
-추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

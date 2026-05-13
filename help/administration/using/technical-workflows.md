@@ -6,10 +6,23 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
+TQID: https://experienceleague.adobe.com/imU-lsjNUEb2VZ-hLLAobuJ0UFlFqygQD-KE80hRpG0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 74%
+source-wordcount: 799
+ht-degree: 63%
 
 ---
 
@@ -51,7 +64,7 @@ ht-degree: 74%
   <tr> 
    <td> <span class="uicontrol">게재 템플릿에서 머리글 복사</span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> 이 워크플로우는 전자 메일 게재 템플릿에 대해 설정된 SMTP 헤더를 해당 하위 템플릿 비게재 항목에 복사합니다. 이 워크플로우에서는 이메일 마케팅 게재만 선택합니다. SMTP 헤더는 트랜잭션 게재 및 증명 게재에 복사되지 않습니다. <br> 이 워크플로는 주기적으로 실행되지 않습니다. 사용자는 사용 단위로 시작해야 합니다. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> 인스턴스에 많은 게재가 있는 경우 <strong>응용 프로그램 설정</strong>에서 NmsCleanup_DeliveryPurgeDelay 옵션을 업데이트할 수 있습니다. 템플릿의 SMTP 헤더를 변경한 경우 변경 후 워크플로우를 다시 실행하여 수정된 헤더가 비템플릿 게재에 복사되도록 해야 합니다.<a href="data-retention.md#deliveries">자세히 알아보기</a>
+   <td> 이 워크플로우는 전자 메일 게재 템플릿에 대해 설정된 SMTP 헤더를 해당 하위 템플릿 비게재 항목에 복사합니다. 이 워크플로우에서는 이메일 마케팅 게재만 선택합니다. SMTP 헤더는 트랜잭션 게재 및 증명 게재에 복사되지 않습니다. <br> 이 워크플로우는 정기적으로 실행되지 않습니다. 사용자는 사용 단위로 시작해야 합니다. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> 인스턴스에 많은 양의 게재가 있는 경우 <strong>응용 프로그램 설정</strong>에서 NmsCleanup_DeliveryPurgeDelay 옵션을 업데이트할 수 있습니다. 템플릿의 SMTP 헤더를 변경한 경우 변경 후 워크플로우를 다시 실행하여 수정된 헤더가 비템플릿 게재에 복사되도록 해야 합니다.<a href="data-retention.md#deliveries">자세히 알아보기</a>
    <br /> </td> 
   </tr> 
   <tr> 
@@ -77,7 +90,7 @@ ht-degree: 74%
   <tr> 
    <td> <span class="uicontrol">메시지 센터 로컬 아카이빙</span> <br /> </td> 
    <td> <span class="uicontrol">mcSynch_local</span> <br /> </td> 
-   <td> 이 워크플로는 실시간 이벤트를 기록 표로 아카이빙합니다. 기본적으로 매시간 시작됩니다.<br /> </td> 
+   <td> 이 워크플로는 실시간 이벤트를 기록 테이블로 아카이빙합니다. 기본적으로 매시간 시작됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">합계 보고</span> <br /> </td> 
@@ -118,12 +131,12 @@ ht-degree: 74%
   <tr> 
    <td> <span class="uicontrol">이벤트 상태 업데이트</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> 이 워크플로를 통해 이벤트 상태를 지정할 수 있습니다. 다음 이벤트 상태를 사용할 수 있습니다.<br /> <strong>보류 중</strong>: 이벤트가 큐에 있습니다. 메시지 템플릿이 아직 할당되지 않았습니다.<br /> <span class="uicontrol">게재 보류 중</span> : 이벤트가 큐에 있고 메시지 템플릿이 할당되어 게재에 의해 처리되는 중입니다.<br /> <strong>전송됨</strong>: 이 상태는 게재 로그에서 복사됩니다. 게재가 보내졌다는 뜻입니다.<br /> <strong>게재에서 무시됨</strong>: 이 상태는 게재 로그에서 복사됩니다. 게재가 무시되었다는 뜻입니다.<br /> <strong>게재 실패</strong>: 이 상태는 게재 로그에서 복사됩니다. 게재에 실패했다는 뜻입니다.<br /> <span class="uicontrol">이벤트가 고려되지 않음</span> : 이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.<br /> </td> 
+   <td> 이 워크플로를 통해 이벤트 상태를 지정할 수 있습니다. 다음 이벤트 상태를 사용할 수 있습니다.<br /> <strong>보류 중</strong>: 이벤트가 큐에 있습니다. 메시지 템플릿이 아직 할당되지 않았습니다.<br /> <span class="uicontrol">게재 보류 중</span> : 이벤트가 큐에 있고 메시지 템플릿이 할당되어 게재에 의해 처리되는 중입니다.<br /> <strong>전송됨</strong>: 이 상태는 게재 로그에서 복사됩니다. 게재가 전송되었음을 의미합니다.<br /> <strong>게재에서 무시됨</strong>: 이 상태는 게재 로그에서 복사됩니다. 게재가 무시되었음을 의미합니다.<br /> <strong>게재 실패</strong>: 이 상태는 게재 로그에서 복사됩니다. 게재가 실패했음을 의미합니다.<br /> <span class="uicontrol">이벤트가 고려되지 않음</span> : 이벤트를 메시지 템플릿에 연결할 수 없습니다. 이벤트가 처리되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">게재 능력을 위한 업데이트</span> <br /> </td> 
    <td> <span class="uicontrol">게재능력업데이트</span> <br /> </td> 
-   <td> 이 워크플로를 통해 반송 규칙 자격 규칙 목록과 플랫폼에 있는 도메인 및 MX 목록을 만들 수 있습니다. 이 워크플로는 HTTPS가 열려 있는 경우에만 작동합니다. 기본적으로 오전 2시에 자동 시작됩니다.<br /> </td> 
+   <td> 이 워크플로를 통해 바운스 규칙 선별 규칙 목록과 플랫폼에 있는 도메인 및 MX 목록을 만들 수 있습니다. 이 워크플로는 HTTPS가 열려 있는 경우에만 작동합니다. 기본적으로 오전 2시에 자동 시작됩니다.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

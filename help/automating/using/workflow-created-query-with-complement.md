@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/izYw31zECkoshId42u-txOEJKhc2Y2ZgxHj5ei-3C44
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: 241
 ht-degree: 39%
 
 ---
@@ -29,8 +36,8 @@ ht-degree: 39%
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [쿼리](../../automating/using/query.md) 활동을 끌어다 놓습니다.
 1. 활동을 두 번 클릭합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL email]** 연산자로 **[!UICONTROL is not empty]**&#x200B;을(를) 선택합니다.
-1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어서 놓고 값이 **[!UICONTROL no longer contact by email]**&#x200B;인 **[!UICONTROL no]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어다 놓고 **[!UICONTROL is not empty]** 연산자로 **[!UICONTROL email]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Shortcuts]**&#x200B;에서 **[!UICONTROL Profiles]**&#x200B;을(를) 끌어서 놓고 값이 **[!UICONTROL no]**&#x200B;인 **[!UICONTROL no longer contact by email]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 ![](assets/wf-complement-query.png)
@@ -39,7 +46,7 @@ ht-degree: 39%
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;에서 [세분화](../../automating/using/segmentation.md) 활동을 끌어다 놓고 두 번 클릭합니다.
 1. 세그먼트를 마우스로 가리킨 다음 ![](assets/edit_darkgrey-24px.png)을(를) 클릭하여 올해 데이터베이스에 추가된 고객을 대상으로 합니다.
-1. **[!UICONTROL Profiles]**&#x200B;을(를) 끌어서 놓고 필터 형식이 **[!UICONTROL Created]**&#x200B;인 **[!UICONTROL Relative]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Profiles]**&#x200B;을(를) 끌어서 놓고 필터 형식이 **[!UICONTROL Relative]**&#x200B;인 **[!UICONTROL Created]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Level of precision]**&#x200B;을(를) **[!UICONTROL Year]**(으)로 변경하고 **[!UICONTROL This year]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Confirm]**&#x200B;을(를) 두 번 클릭합니다.
 1. **[!UICONTROL Advanced Options]**&#x200B;에서 **[!UICONTROL Generate complement]**&#x200B;을(를) 선택하여 나머지 수신자를 타겟팅하는 세그먼트를 만드십시오.

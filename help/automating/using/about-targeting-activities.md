@@ -9,10 +9,21 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PPDlvoeHKNpeLfYe4qYFq7mzQUb3oR7XkrMK-jQFpmY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 35%
+source-wordcount: 437
+ht-degree: 54%
 
 ---
 
@@ -37,7 +48,7 @@ ht-degree: 35%
 * [중복 제거](../../automating/using/deduplication.md)
 * [데이터 보강](../../automating/using/enrichment.md)
 
-**[!UICONTROL Targeting]** 활동을 통해 아웃바운드 전환에 대해 **세그먼트 코드**&#x200B;을(를) 정의할 수 있습니다. 그런 다음 마케팅 캠페인의 효율성을 측정하기 위해 이러한 세그먼트 코드를 기반으로 보고서를 만들 수 있습니다. 자세한 정보는 [이 섹션](../../reporting/using/creating-a-report-workflow-segment.md)을 참조하십시오.
+**[!UICONTROL Targeting]** 활동을 통해 아웃바운드 전환에 대해 **세그먼트 코드**&#x200B;을(를) 정의할 수 있습니다. 그런 다음 마케팅 캠페인의 효율성을 측정하기 위해 이러한 세그먼트 코드를 기반으로 보고서를 만들 수 있습니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../reporting/using/creating-a-report-workflow-segment.md)을 참조하십시오.
 
 ## 데이터 선택 {#selecting-data}
 
@@ -45,7 +56,7 @@ ht-degree: 35%
 
 * **[!UICONTROL Query]** 활동을 통해 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다. [쿼리](../../automating/using/query.md) 섹션을 참조하십시오.
 * **[!UICONTROL Incremental query]** 활동을 통해 Adobe Campaign 데이터베이스에서 요소 모집단을 필터링하고 추출할 수 있습니다. 이 활동이 실행될 때마다 이전 실행의 결과가 제외됩니다. 이렇게 하면 새 요소만 타겟팅할 수 있습니다. [증분 쿼리](../../automating/using/incremental-query.md) 섹션.
-* **[!UICONTROL Read audience]** 활동을 사용하면 기존 대상자를 검색하고 추가 필터링 조건을 적용하여 정교화할 수 있습니다. [대상자 읽기](../../automating/using/read-audience.md) 섹션을 참조하십시오.
+* **[!UICONTROL Read audience]** 활동을 사용하면 기존 대상자를 검색하고 추가 필터링 조건을 적용하여 정교화할 수 있습니다.[대상자 읽기](../../automating/using/read-audience.md) 섹션을 참조하십시오.
 
 ## 데이터 세그먼트화 {#segmenting-data}
 
@@ -53,14 +64,14 @@ Adobe Campaign을 사용하면 인바운드 데이터에 대한 세트를 처리
 
 * **[!UICONTROL Union]** 활동을 사용하면 여러 활동의 결과를 하나의 타겟으로 다시 그룹화할 수 있습니다. [합집합](../../automating/using/union.md) 섹션을 참조하십시오.
 * **[!UICONTROL Intersection]** 활동을 사용하면 활동에서 다른 인바운드 모집단에 공통되는 요소만 유지할 수 있습니다. [교차](../../automating/using/intersection.md) 섹션을 참조하십시오.
-* **[!UICONTROL Exclusion]** 활동을 사용하면 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다. [제외](../../automating/using/exclusion.md) 섹션을 참조하십시오.
-* **[!UICONTROL Segmentation]** 활동을 사용하면 워크플로 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다. 활동이 끝나면 한 번의 전환이나 다른 전환으로 처리할 수 있습니다. [세그먼테이션](../../automating/using/segmentation.md) 섹션을 참조하십시오.
+* **[!UICONTROL Exclusion]** 활동을 통해 특정 기준에 따라 한 모집단에서 요소를 제외할 수 있습니다. [제외](../../automating/using/exclusion.md) 섹션을 참조하십시오.
+* **[!UICONTROL Segmentation]** 활동을 사용하면 워크플로 앞에 배치된 활동으로 계산된 모집단에서 하나 또는 여러 개의 세그먼트를 만들 수 있습니다. 활동 종료 시점에 단일 전환 또는 여러 전환으로 처리할 수 있습니다. [세그먼테이션](../../automating/using/segmentation.md) 섹션을 참조하십시오.
 
 ## 데이터 강화 {#enriching-data}
 
 식별되고 수집된 데이터는 대상 구성을 최적화하기 위해 보강, 집계 및 조작될 수 있다. 데이터 마트에서 모델링되지 않은 데이터를 포함하여 타겟팅 프로세스를 단순화하고 최적화할 수 있습니다.
 
-**[!UICONTROL Additional data]** 및 **[!UICONTROL Query]** 활동의 **[!UICONTROL Incremental query]** 탭에서 쿼리로 타겟팅한 데이터를 보강하고 이 데이터를 다음 워크플로우 활동으로 전송하여 활용할 수 있습니다. 특히 다음을 추가할 수 있습니다.
+**[!UICONTROL Query]** 및 **[!UICONTROL Incremental query]** 활동의 **[!UICONTROL Additional data]** 탭에서 쿼리로 타겟팅한 데이터를 보강하고 이 데이터를 다음 워크플로우 활동으로 전송하여 활용할 수 있습니다. 특히 다음을 추가할 수 있습니다.
 
 * 단순 데이터
 * 집계

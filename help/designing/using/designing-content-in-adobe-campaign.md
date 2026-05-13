@@ -8,10 +8,23 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+TQID: https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 84%
+source-wordcount: 1263
+ht-degree: 83%
 
 ---
 
@@ -22,7 +35,7 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 이메일 Designer을 사용하면 드래그하여 놓기를 통해 개인화된 매력적인 이메일을 만들 수 있습니다
 인터페이스. 처음부터 빈 화면으로 시작하거나 기존 콘텐츠 조각 또는 템플릿을 활용하는 경우 프로모션 또는 트랜잭션 방식으로 모든 이메일 콘텐츠를 디자인하고 세부적으로 조정할 수 있습니다.
 
-반응형 디자인에 최적화된 HTML을 게재하기 위해 빌드된 이메일 디자이너는 가시성 조건과 동적 콘텐츠를 직접 사용자 인터페이스를 통해 이메일, 템플릿 또는 조각으로 손쉽게 정의하고 적용할 수 있습니다. 단추를 클릭하면 끌어서 놓기 인터페이스와 HTML 코드 간을 원활하게 전환할 수 있습니다.
+반응형 디자인에 최적화된 HTML을 게재하기 위해 빌드된 이메일 디자이너는 가시성 조건과 동적 콘텐츠를 직접 사용자 인터페이스를 통해 이메일, 템플릿 또는 조각으로 손쉽게 정의하고 적용할 수 있습니다. 단추를 클릭하면 드래그 앤 드롭 인터페이스와 HTML 코드 간에 원활하게 전환할 수 있습니다.
 
 이메일 디자이너를 사용하면 이메일 콘텐츠를 만들고 이메일 콘텐츠 템플릿을 사용할 수 있습니다. 간단한 이메일, 트랜잭션 이메일, A/B 테스트 이메일, 다국어 이메일 및 반복 이메일과 호환됩니다.
 
@@ -166,6 +179,6 @@ CSS 충돌 문제와 같은 문제를 방지하려면 콘텐츠를 최신 버전
 
 이 비디오에서는 이메일 Designer에 대한 개요를 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/330106?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/330106?captions=kor&quality=12)
 
 이메일 Designer을 시작하려면 이메일 Designer의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 집합](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ko#GettingStarted)을 시청하십시오

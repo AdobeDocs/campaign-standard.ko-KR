@@ -8,9 +8,17 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/HRFz5Z-KxO7lUO-gXexQ3CHvb9JtCfJWSJY0ocZW-r8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1039
 ht-degree: 92%
 
 ---
@@ -27,7 +35,7 @@ ht-degree: 92%
 
 * [1단계: 프로필 리소스 확장](#step-1--extend-the-profile-resource)
 * [2단계: 테스트 프로필 확장](#step-2--extend-the-test-profile)
-* [3단계: 사용자 지정 리소스 Publish](#step-3--publish-your-custom-resource)
+* [3단계: 사용자 지정 리소스 게시](#step-3--publish-your-custom-resource)
 * [4단계: 워크플로우를 통해 프로필 업데이트 및 타겟팅](#step-4--update-and-target-profiles-with-a-workflow)
 
 그러면 프로필에 다음 필드가 추가되어 게재 시 타겟팅할 수 있습니다.
@@ -36,7 +44,7 @@ ht-degree: 92%
 
 관련 항목:
 
-* [사용자 지정 리소스 기본 정보](../../developing/using/data-model-concepts.md)
+* [사용자 정의 리소스 정보](../../developing/using/data-model-concepts.md)
 * [프로필 관리](../../audiences/using/about-profiles.md)
 * [테스트 프로필 관리](../../audiences/using/managing-test-profiles.md)
 
@@ -119,7 +127,7 @@ ht-degree: 92%
 
 이제 프로필과 테스트 프로필 모두에서 새 필드를 사용할 수 있습니다. 올바르게 구성될 수 있도록 사용자 정의 리소스를 게시해야 합니다.
 
-## 3단계: 사용자 지정 리소스 Publish {#step-3--publish-your-custom-resource}
+## 3단계: 사용자 지정 리소스 게시 {#step-3--publish-your-custom-resource}
 
 리소스 변경 사항을 적용하고 리소스를 사용하려면 데이터베이스 업데이트를 수행해야 합니다.
 
@@ -170,7 +178,7 @@ ht-degree: 92%
 
 1. **[!UICONTROL Marketing activities]** 탭에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Workflow]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Query]** 활동을 끌어다 놓아 필요한 프로필 또는 대상자를 타겟팅합니다.
-1. **[!UICONTROL Email delivery]** 활동을 끌어다 놓아 랜딩 페이지 링크가 포함될 이메일을 구성합니다.  **[!UICONTROL Add an outbound transition with the population]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Email delivery]** 활동을 끌어다 놓아 랜딩 페이지 링크가 포함될 이메일을 구성합니다. **[!UICONTROL Add an outbound transition with the population]**&#x200B;을(를) 선택합니다.
 
    ![](assets/schema_extension_uc3.png)
 

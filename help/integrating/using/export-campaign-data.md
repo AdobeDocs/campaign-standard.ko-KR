@@ -7,10 +7,24 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/wevJB72xRacTndQ1-VOyKHOtRak0UKJT2V-pzUd6d-Q
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: b70f632b-2cfd-43d0-9266-284281100d70
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 5%
+source-wordcount: 537
+ht-degree: 6%
 
 ---
 
@@ -18,11 +32,11 @@ ht-degree: 5%
 
 Campaign Standard 데이터를 Adobe Real-time Customer Data Platform(RTCDP)으로 내보내려면 먼저 공유할 데이터를 Amazon 스토리지 서비스(S3) 또는 Azure Blob 스토리지 위치로 내보낼 워크플로우를 Campaign Standard에 빌드해야 합니다.
 
-워크플로우를 구성하고 데이터를 저장소 위치로 전송하면 S3 또는 Azure Blob 저장소 위치를 Adobe Experience Platform의 **Source**(으)로 연결해야 합니다.
+워크플로우를 구성하고 데이터를 저장소 위치로 보낸 후 S3 또는 Azure Blob 저장소 위치를 Adobe Experience Platform의 **Source**(으)로 연결해야 합니다.
 
 >[!NOTE]
 >
->Campaign 생성 데이터만(예: 전송, 열기, 클릭 등) Adobe Experience Platform으로 내보내는 것이 좋습니다. CRM과 같은 타사 소스에서 수집된 데이터는 Adobe Experience Platform으로 직접 가져와야 합니다.
+>Campaign 생성 데이터만 내보내는 것이 좋습니다(예: 전송, 열기, 클릭 등). Adobe Experience Platform으로. CRM과 같은 타사 소스에서 수집된 데이터는 Adobe Experience Platform으로 직접 가져와야 합니다.
 
 ## Campaign Standard에서 내보내기 워크플로우 만들기
 
@@ -56,7 +70,7 @@ Amazon 저장소 서비스(S3) 또는 Azure Blob 저장소 위치를 Adobe exper
 
 1. Adobe Experience Platform **[!UICONTROL Sources]** 메뉴에서 저장소 위치에 대한 연결을 만듭니다.
 
-   * [Amazon S3 원본 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=ko)
+   * [Amazon S3 소스 연결 만들기](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=ko)
    * [Azure Blob 커넥터](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=ko)
 
    >[!NOTE]

@@ -8,10 +8,18 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/r55Y65MfV0YNU5XLTeD3e--ZlHlcqUxH88HV2o3qec0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 93%
+source-wordcount: 1037
+ht-degree: 89%
 
 ---
 
@@ -65,14 +73,14 @@ ht-degree: 93%
 
 **랜딩 페이지 테스트**
 
-* 랜딩 페이지는 프로필에서만 작동하며 테스트 프로필에 대해서는 작동하지 않습니다. 즉, 랜딩 페이지는 이메일 증명의 일부로 테스트할 수 없습니다.
+* 랜딩 페이지는 프로필에서만 작동하며 테스트 프로필에 대해서는 작동하지 않습니다. 즉, 랜딩 페이지는 이메일 교정쇄의 일부로 테스트할 수 없습니다.
 
 ## 1단계 - 랜딩 페이지 템플릿 구성 {#configure-the-landing-page-template}
 
 랜딩 페이지를 설정하기에 앞서, 첫 번째 단계는 필요에 맞는 랜딩 페이지 템플릿을 구성하는 것입니다. 템플릿을 준비하고 나면 이를 기반으로 하는 모든 랜딩 페이지가 원하는 매개 변수로 사전 구성됩니다.
 
 1. 고급 메뉴에서 Adobe Campaign 로고를 통해 **[!UICONTROL Resources]**/**[!UICONTROL Templates]**/**[!UICONTROL Landing page templates]**&#x200B;을(를) 선택한 다음 사용할 템플릿을 복제합니다.
-1. 템플릿 속성에서 랜딩 페이지에 공통으로 포함해야 하는 매개 변수를 모두 지정합니다. 예를 들면 타겟팅 차원, 식별되거나 식별되지 않는 방문자에 대한 페이지 액세스 매개 변수, 방문자에 의한 양식 유효성 검사에 대한 특정 작업, 콘텐츠에 사용할 브랜드/로고 등이 있습니다. 랜딩 페이지 속성에 대한 자세한 정보는 [이 섹션](../../channels/using/configuring-landing-page.md)을 참조하십시오.
+1. 템플릿 속성에서 랜딩 페이지에 공통으로 포함해야 하는 매개 변수를 모두 지정합니다. 예를 들어 타겟팅 차원, 식별되거나 식별되지 않는 방문자에 대한 페이지 액세스 매개 변수, 방문자의 양식 유효성 검사에 대한 특정 작업, 콘텐츠에 사용할 브랜드/로고 등이 있습니다. 랜딩 페이지 속성에 대한 자세한 정보는 [이 섹션](../../channels/using/configuring-landing-page.md)을 참조하세요.
 1. 수정 사항을 저장합니다.
 
 랜딩 페이지 템플릿에 대한 자세한 정보는 [이 섹션](../../channels/using/getting-started-with-landing-pages.md)을 참조하십시오.
@@ -96,7 +104,7 @@ ht-degree: 93%
 
 ## 3단계 - 랜딩 페이지 디자인 {#design-the-landing-page}
 
-이제 랜딩 페이지의 콘텐츠를 정의할 수 있습니다. 랜딩 페이지에는 기본적으로 메인 콘텐츠 페이지, 확인 페이지, 오류 페이지의 세 페이지가 포함되며, 스크롤 화살표를 통해 액세스할 수 있습니다. 
+이제 랜딩 페이지의 콘텐츠를 정의할 수 있습니다. 랜딩 페이지에는 기본적으로 메인 콘텐츠 페이지, 확인 페이지, 오류 페이지의 세 페이지가 포함되며, 스크롤 화살표를 통해 액세스할 수 있습니다.
 
 ![](assets/lp-steps4.png)
 
@@ -120,7 +128,7 @@ ht-degree: 93%
 
 랜딩 페이지를 테스트하는 방법에 대한 자세한 내용은 [이 섹션](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)을 참조하십시오.
 
-## 5단계 - 랜딩 페이지 Publish {#publish-the-landing-page}
+## 5단계 - 랜딩 페이지 게시 {#publish-the-landing-page}
 
 테스트가 성공하면 대시보드의 작업 표시줄에 있는 **[!UICONTROL Publish]** 버튼을 사용하여 랜딩 페이지를 게시할 수 있습니다. 모니터링 블록에 게시의 진행 상황과 상태가 표시됩니다.
 
@@ -136,6 +144,6 @@ ht-degree: 93%
 
 이 비디오는 랜딩 페이지를 만들고 편집하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36318?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/36318?captions=kor&quality=12)
 
-추가 Campaign Standard 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
+추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

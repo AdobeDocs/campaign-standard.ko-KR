@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 18%
+source-wordcount: 520
+ht-degree: 22%
 
 ---
 
@@ -50,6 +57,6 @@ Adobe Campaign을 사용하면 대상자/세그먼트를 다른 Adobe Experience
 
   예를 들어 암호화된 이메일 주소 또는 SMS 번호를 해독하는 기능을 사용하면 Adobe Campaign 데이터베이스에 해당 프로필이 없는 경우에도 트리거된 메시지를 사용자에게 보낼 수 있습니다.
 
-다음 다이어그램은 이 통합의 작동 방식을 자세히 설명합니다. 여기서 AAM은 Adobe Audience Manager을 나타내고 ACS는 Adobe Campaign Standard을 나타냅니다.
+다음 다이어그램은 이 통합이 작동하는 방식을 자세히 설명합니다. 여기서 AAM은 Adobe Audience Manager을 나타내고 ACS는 Adobe Campaign Standard을 나타냅니다.
 
 ![](assets/aam_diagram.png)

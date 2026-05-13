@@ -1,5 +1,5 @@
 ---
-title: 예약
+title: 스케줄러
 description: 예약 활동을 통해 워크플로나 활동의 시작 시점을 예약할 수 있습니다.
 audience: automating
 content-type: reference
@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: 877
 ht-degree: 52%
 
 ---
@@ -46,7 +53,7 @@ ht-degree: 52%
 
 1. **[!UICONTROL Scheduler]** 활동을 워크플로로 끌어서 놓습니다.
 1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
-1. **[!UICONTROL Execution frequency]**&#x200B;을(를) 지정합니다. 
+1. **[!UICONTROL Execution frequency]**&#x200B;을(를) 지정합니다.
 
    * **[!UICONTROL Once]**: 워크플로가 한 번 실행됩니다.
    * **[!UICONTROL Several times a day]**: 워크플로우가 하루에 여러 번 규칙적으로 실행됩니다.
@@ -75,7 +82,7 @@ ht-degree: 52%
          >
          >이 옵션을 사용하면 일별, 월별 또는 연간 반복 빈도도 가능합니다. 이 경우 워크플로우는 하루에 여러 번 실행되지 않고 이 필드에 지정한 빈도에 따라 실행됩니다.
          >
-         > 워크플로우가 하루에 여러 번 실행되지 않고 대신 매일, 매월 또는 매년 실행해야 하는 경우 **[!UICONTROL Daily]** 드롭다운 목록에서 사용할 수 있는 **[!UICONTROL Monthly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL Execution frequency]** 옵션을 사용하는 것이 좋습니다.
+         > 워크플로우가 하루에 여러 번 실행되지 않고 대신 매일, 매월 또는 매년 실행해야 하는 경우 **[!UICONTROL Execution frequency]** 드롭다운 목록에서 사용할 수 있는 **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** 또는 **[!UICONTROL Yearly]** 옵션을 사용하는 것이 좋습니다.
 
       1. **[!UICONTROL Start]**/**[!UICONTROL End]** 시간 필드에서 워크플로 실행을 시작하고 종료해야 하는 시간을 정의합니다.
 

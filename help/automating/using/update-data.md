@@ -10,9 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/ad9kmTbPPHVESELYoejgAaUcSy-JgBL00xW7OMW2NUo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 473
 ht-degree: 97%
 
 ---
@@ -37,7 +48,7 @@ ht-degree: 97%
 ## 구성 {#configuration}
 
 1. **[!UICONTROL Update data]** 활동을 워크플로로 끌어서 놓습니다.
-1. 활동을 선택한 다음 나타나는 빠른 작업의 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
+1. 활동을 선택한 다음 나타나는 빠른 작업에서 ![](assets/edit_darkgrey-24px.png) 버튼을 사용하여 활동을 엽니다.
 1. 작업을 수행할 **[!UICONTROL Operation type]**&#x200B;을 지정합니다.
 
    * **[!UICONTROL Insert or update]**: 데이터베이스에 레코드가 존재하는 경우 데이터를 삽입하거나 업데이트합니다.

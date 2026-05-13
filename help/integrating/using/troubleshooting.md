@@ -9,9 +9,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: 350
 ht-degree: 0%
 
 ---
@@ -47,6 +58,6 @@ Audience Manager 또는 People 핵심 서비스와의 통합을 사용하는 동
    * AES용 **암호화 IV**(초기화 벡터)
    * **채널**(전자 메일/SMS/기타): 이 필드에서는 전자 메일 주소 및 SMS 번호의 암호를 직접 해독할 수 있습니다. 조정 키가 **채널** 필드의 설정과 일치하는지 확인하십시오. &quot;기타&quot;를 선택하면 이 특정 암호 해독이 발생하지 않으며 조정 키가 데이터를 조정하는 데 사용됩니다.
 
-  기술 워크플로우가 중지 또는 일시 중지되었으므로 Experience Cloud 대상이 공유되지 않을 수 있습니다. 데이터 원본에서 직접 **[!UICONTROL Import shared audience]** 옵션을 클릭하여 **[!UICONTROL Show ImportShared Audience workflow]** 워크플로에 액세스합니다.
+  기술 워크플로우가 중지 또는 일시 중지되었으므로 Experience Cloud 대상이 공유되지 않을 수 있습니다. 데이터 원본에서 직접 **[!UICONTROL Show ImportShared Audience workflow]** 옵션을 클릭하여 **[!UICONTROL Import shared audience]** 워크플로에 액세스합니다.
 
 People 핵심 서비스를 통해 대상자를 공유하거나 대상자를 가져올 때 일부 데이터가 누락될 수 있습니다. ID(&#39;방문자 ID&#39; 또는 &#39;선언된 ID&#39;)가 프로필 차원과 조정될 수 있는 레코드만 전송됩니다. Adobe Campaign에서 인식하지 못하는 사람 핵심 서비스 세그먼트의 ID는 가져오지 않습니다.

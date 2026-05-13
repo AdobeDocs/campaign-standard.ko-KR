@@ -1,6 +1,6 @@
 ---
 title: 구성 요소 목록
-description: 여기에서 사용 가능한 모든 구성 요소 목록 찾기     동적 보고서와 해당 정의.
+description: 동적 보고서에서 사용할 수 있는 모든 구성 요소와 그 정의를 여기에서 확인하십시오.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -8,10 +8,19 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/NWtd6wo3BgCFapPO6lVQAcVk8KUud-ioDf1-6MzXfw0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 0%
+source-wordcount: 1333
+ht-degree: 1%
 
 ---
 
@@ -83,7 +92,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> 프로필<br /> </td> 
-   <td> 프로필 리소스 확장 중에 만들어진 기본 및 사용자 지정 프로필 필드를 다시 그룹화합니다. 자세한 내용은 이 <a href="../../developing/using/key-steps-to-add-a-resource.md">페이지</a> 또는 이 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">예제</a>를 참조하세요.<br /> 프로필 필드에 연결된 사용자 지정 리소스가 게시되는 즉시 이 차원의 데이터를 검색합니다.<br /> </td> 
+   <td> 프로필 리소스 확장 중에 생성된 기본 및 사용자 지정 프로필 필드를 다시 그룹화합니다. 자세한 내용은 이 <a href="../../developing/using/key-steps-to-add-a-resource.md">페이지</a> 또는 이 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">예제</a>을(를) 참조하십시오.<br /> 프로필 필드에 연결된 사용자 지정 리소스가 게시되는 즉시 이 차원의 데이터가 검색됩니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> 푸시 플랫폼<br /> </td> 
@@ -151,8 +160,8 @@ ht-degree: 0%
    <td> 스팸 또는 정크 메일로 선언된 받는 사람의 수입니다.<br /> </td> 
   </tr> 
   <tr> 
-   <td> 차단 목록에 추가하다 속도<br /> </td> 
-   <td> 차단 목록에 추가하다 게재 비율(<br />) </td> 
+   <td> 속도<br /> </td> 
+   <td> 게재 비율(<br />) </td> 
   </tr> 
   <tr> 
    <td> 바운스 + 오류<br /> </td> 

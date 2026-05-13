@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 95%
+source-wordcount: 1103
+ht-degree: 92%
 
 ---
 
@@ -102,7 +107,7 @@ JavaScript 표현식은 하나 이상의 조건으로 구성되며 다음 구문
 
 * 각 조건은 **&lt;컨텍스트> &lt;비교 연산자> &lt;값2>** 형식을 취합니다.
 
-   * **&lt;컨텍스트>**&#x200B;는 컨텍스트를 지정할 수 있는 필드 또는 함수입니다. 예를 들어 **context.profile@email**&#x200B;의 프로필 이메일 주소 또는 **context.profile.firstName.length()**&#x200B;의 프로필 이름의 문자 수가 있습니다.
+   * **&lt;컨텍스트>**&#x200B;는 컨텍스트를 지정할 수 있는 필드 또는 함수입니다. 예를 들어 프로필의 이메일 주소는 **context.profile.@email**&#x200B;이고, 프로필 이름의 문자 수는 **context.profile.firstName.length()**&#x200B;입니다.
    * **&lt;비교 연산자>**&#x200B;는 [비교 연산자](../../automating/using/advanced-expression-editing.md#comparison-operators) 섹션에 나열된 연산자 중 하나입니다. 이 연산자는 **&lt;컨텍스트>**&#x200B;와 **&lt;값2>** 간의 비교 방법을 정의합니다.
    * **&lt;값2>**&#x200B;는 수동으로 입력되는 필드, 함수 또는 값입니다.
 
@@ -180,7 +185,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
    <td> !=<br /> </td> 
    <td> !=<br /> </td> 
    <td> 첫 번째 값은 두 번째 값과 달라야 합니다.<br /> </td> 
-   <td> <strong>@language != English</strong>는 영어를 사용하지 않는 프로필을 검색합니다.<br /> </td> 
+   <td> <strong>@language != English</strong>은(는) 영어를 사용하지 않는 프로필을 검색합니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">포함</span> <br /> </td> 
@@ -201,7 +206,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
    <td> NOT<br /> </td> 
    <td> N/A<br /> </td> 
    <td> <span class="uicontrol">비슷함</span>과 유사합니다. 입력한 값을 복구할 수 없습니다. 여기서도 입력한 값은 <span class="uicontrol">%</span> 와일드카드 문자를 포함해야 합니다.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. 여기서 수신자는 'Smi%h'(Smith 등)라는 이름에 해당하므로 반환되지 않습니다.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. 여기에서 수신자는 'Smi%h'(Smith 등)라는 이름에 해당합니다. 결과로 반환되지 않습니다.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">비어 있음</span> <br /> </td> 

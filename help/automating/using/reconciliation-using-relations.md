@@ -1,6 +1,6 @@
 ---
 title: 관계를 사용한 데이터 조정
-description: 다음 예제에서는 파일의 구매 데이터를 사용하여 데이터베이스를 업데이트하는 워크플로우를 보여 줍니다.
+description: 다음 예제에서는 파일에 있는 구매 데이터를 사용하여 데이터베이스를 업데이트하는 워크플로를 보여줍니다.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,10 +10,17 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 81%
+source-wordcount: 338
+ht-degree: 86%
 
 ---
 
@@ -48,7 +55,7 @@ ht-degree: 81%
   2015-05-19 09:06:00;mail9@email.com;ZZ6
   ```
 
-* 구매 데이터를 데이터베이스 프로필과 제품에 바인딩하는 [조정](../../automating/using/reconciliation.md) 활동. 따라서 파일 데이터와 프로필 테이블 및 제품 테이블 간의 관계를 정의해야 합니다. 해당 활동의 **[!UICONTROL Relations]** 탭에서 이 구성을 수행합니다. 
+* 구매 데이터를 데이터베이스 프로필과 제품에 바인딩하는 [조정](../../automating/using/reconciliation.md) 활동. 따라서 파일 데이터와 프로필 테이블 및 제품 테이블 간의 관계를 정의해야 합니다. 해당 활동의 **[!UICONTROL Relations]** 탭에서 이 구성을 수행합니다.
 
    * **프로필**&#x200B;과의 관계: 파일의 **고객** 열은 **프로필** 차원의 **이메일** 필드에 연결됩니다.
    * **제품**&#x200B;과의 관계: 파일의 **제품** 열은 **프로필** 차원의 **제품 코드** 필드에 연결됩니다.

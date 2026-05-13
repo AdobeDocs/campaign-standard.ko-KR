@@ -8,10 +8,22 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/LROFX17EE6zvJRbH4P--NjtiJLwanqeudAKzwnQj0BI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: 455
+ht-degree: 3%
 
 ---
 
@@ -51,18 +63,18 @@ Campaign Standard은 마케팅 데이터베이스를 확장하는 데 도움이 
 
 ## Microsoft Dynamics 365에서 프로필 동기화
 
-Microsoft Dynamics 365와 Campaign Standard을 통합하면 Microsoft Dynamics 365의 연락처 데이터를 Campaign 데이터베이스에 전달할 수 있습니다.
+Microsoft Dynamics 365와 Campaign Standard을 통합하면 Microsoft Dynamics 365의 연락처 데이터를 Campaign 데이터베이스로 전달할 수 있습니다.
 그러면 이러한 연락처는 프로필 목록에 표시되며 마케팅 캠페인에서 타겟팅할 수 있습니다.
 
 이 통합에 대한 자세한 내용은 [전용 설명서](../../integrating/using/d365-acs-get-started.md)를 참조하세요.
 
 >[!NOTE]
 >
->Campaign Standard-Microsoft Dynamics 365 커넥터는 현재 제한된 가용성이며 설명서에 자세히 나와 있는 몇 가지 제한 사항이 있습니다.
+>Campaign Standard-Microsoft Dynamics 365 커넥터는 현재 제한적 가용성이며, 이 커넥터에는 설명서에 자세히 나와 있는 몇 가지 제한 사항이 있습니다.
 
 ## API 호출을 통해 데이터 가져오기
 
-Campaign Standard API를 사용하면 프로필 또는 서비스의 만들기, 업데이트 또는 삭제와 같이 데이터베이스를 업데이트하는 작업을 수행할 수 있습니다.
+Campaign Standard API를 사용하면 프로필 또는 서비스의 생성, 업데이트 또는 삭제와 같은 데이터베이스 업데이트 작업을 수행할 수 있습니다.
 
 API 사용 방법에 대한 자세한 내용은 [전용 설명서](../../api/using/get-started-apis.md)를 참조하세요.
 

@@ -10,10 +10,25 @@ old-role: Data Architect
 role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/yE5oFC7pHpJPh1NC0jMvVu-VfY-sFhgbSB4tqw55R-M
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 4%
+source-wordcount: 845
+ht-degree: 5%
 
 ---
 
@@ -53,7 +68,7 @@ ht-degree: 4%
 
 두 활동을 연결하려면 연결할 때까지 첫 번째 활동에서 다음 활동으로 화살표 끝을 이동합니다. 이전 활동에 연결하기 위해 활동을 뒤로 화살표의 지점으로 이동할 수도 있습니다. 활동을 이동하면 연결된 상태가 유지됩니다.
 
-데이터를 처리하는 다음 활동에는 중간 모집단이 포함됩니다. 워크플로 속성의 **[!UICONTROL Keep interim results]** 섹션에서 **[!UICONTROL Execution]** 옵션을 선택하면 해당 옵션에 액세스할 수 있습니다.
+데이터를 처리하는 다음 활동에는 중간 모집단이 포함됩니다. 워크플로 속성의 **[!UICONTROL Execution]** 섹션에서 **[!UICONTROL Keep interim results]** 옵션을 선택하면 해당 옵션에 액세스할 수 있습니다.
 
 >[!CAUTION]
 >

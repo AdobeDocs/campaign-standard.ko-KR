@@ -8,10 +8,27 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
+TQID: https://experienceleague.adobe.com/D3wg-eUkV7-ci9tbK2QK-uNaZBSj8e481WYc-XZr7KA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 75%
+source-wordcount: 1270
+ht-degree: 73%
 
 ---
 
@@ -51,7 +68,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 탐색 원칙은 다음과 같습니다.
 
-* 페이지의 왼쪽 상단 모서리에 있는 **Adobe** 로고를 사용하면 고급 기능 및 구성에 액세스할 수 있습니다. 메뉴는 프로필 및 권한에 따라 다릅니다.
+* 페이지 왼쪽 상단 모서리에 있는 **Adobe** 로고를 사용하면 고급 기능 및 구성에 액세스할 수 있습니다. 메뉴는 프로필 및 권한에 따라 다릅니다.
 
   고급 메뉴는 [고급 메뉴](#advanced-menu) 섹션에 표시됩니다.
 
@@ -64,7 +81,7 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 ### 도움말 {#help}
 
-오른쪽 상단 모서리에서 **도움말** 아이콘을 통해 Adobe Experience League을 제품에 넣을 수 있습니다.
+오른쪽 상단 모서리에서 **도움말** 아이콘이 Adobe Experience League를 제품에 표시합니다.
 
 ![](assets/ux_help.png)
 
@@ -124,11 +141,11 @@ Adobe Campaign을 사용하면 다양한 메뉴와 화면을 통해 캠페인을
 
 중앙 영역의 콘텐츠 및 표시 포맷은 다를 수 있습니다.
 
-* 프로그램, 캠페인, 프로필 등과 같은 다양한 요소를 보여주는 **목록** . 이러한 요소는 **[!UICONTROL Card]** 또는 **[!UICONTROL List]** 모드에서 볼 수 있습니다. 모드 변경 버튼을 사용하여 모드 간 전환합니다. 각 요소는 표시기를 표시합니다.
+* 프로그램, 캠페인, 프로필 등과 같은 다양한 요소를 보여주는 **목록**&#x200B;입니다. 이러한 요소는 **[!UICONTROL Card]** 또는 **[!UICONTROL List]** 모드에서 볼 수 있습니다. 모드 변경 버튼을 사용하여 모드 간 전환합니다. 각 요소는 표시기를 표시합니다.
 
   ![](assets/ux_liste.png)
 
-  카운터에서 요소의 수를 알 수 있습니다. 이 숫자가 30을 초과하는 경우 총 개수를 얻으려면 이 카운터를 클릭해야 합니다. 
+  카운터에서 요소의 수를 알 수 있습니다. 이 숫자가 30을 초과하는 경우 총 개수를 얻으려면 이 카운터를 클릭해야 합니다.
 
 * 활동에 연결된 모든 매개 변수의 개요를 보여주는 **대시보드**. 이 화면에는 서로 다른 개념을 별도로 구분하고 구성할 수 있는 대화형 영역이 포함되어 있습니다.
 

@@ -10,9 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/zcoFbPtWA5lcopKI6FfXdj3I3Ypvl6FZvAiZMh7oDw0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: 863
 ht-degree: 84%
 
 ---
@@ -38,9 +49,9 @@ ht-degree: 84%
 
 프로그램 또는 선택한 캠페인에서 새 워크플로를 만듭니다.
 
-1. **[!UICONTROL Marketing Activities]**&#x200B;에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭하고 **[!UICONTROL Workflow]**&#x200B;을(를) 선택합니다 .
+1. **[!UICONTROL Marketing Activities]**&#x200B;에서 **[!UICONTROL Create]**&#x200B;을(를) 클릭하고 **[!UICONTROL Workflow]**&#x200B;을(를) 선택합니다.
 1. 워크플로 유형으로 **[!UICONTROL New Workflow]**&#x200B;을(를) 선택하고 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
-1. 워크플로의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+1. 워크플로의 속성을 입력하고 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다 .
 
 워크플로를 만드는 자세한 단계는 [워크플로 작성](../../automating/using/building-a-workflow.md) 섹션에 나와 있습니다.
 
@@ -64,7 +75,7 @@ ht-degree: 84%
 
 ## 세분화 활동 만들기 {#creating-segmentation-activity}
 
-쿼리 활동에서 타겟을 식별한 후에는 이메일과 SMS를 받는 대상을 두 개의 다른 모집단으로 세분화하는 조건을 선택해야 합니다. 
+쿼리 활동에서 타겟을 식별한 후에는 이메일과 SMS를 받는 대상을 두 개의 다른 모집단으로 세분화하는 조건을 선택해야 합니다.
 
 쿼리에서 업스트림으로 계산한 모집단에서 하나 또는 여러 개의 세그먼트를 만들려면 [세그먼테이션](../../automating/using/segmentation.md) 활동을 사용해야 합니다.
 

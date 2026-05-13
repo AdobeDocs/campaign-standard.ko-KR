@@ -9,9 +9,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/-YjlK1Op8P08sxb--BOHl8AWyciX4BqPnCPQ3lpD3Co
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: 189
 ht-degree: 13%
 
 ---
@@ -32,7 +43,7 @@ ht-degree: 13%
 1. **[!UICONTROL Create element]** 단추를 클릭하여 매개 변수를 추가한 다음 이름과 값을 입력합니다.
 
    * **[!UICONTROL Name]**: **[!UICONTROL External signal]** 활동에서 선언된 이름입니다([이 페이지](../../automating/using/declaring-parameters-external-signal.md) 참조).
-   * **[!UICONTROL Value]**: 매개 변수에 할당할 값입니다. 값은 **이 섹션**&#x200B;에 설명된 [표준 구문](../../automating/using/advanced-expression-editing.md#standard-syntax)을 따라야 합니다.
+   * **[!UICONTROL Value]**: 매개 변수에 할당할 값입니다. 값은 [이 섹션](../../automating/using/advanced-expression-editing.md#standard-syntax)에 설명된 **표준 구문**&#x200B;을 따라야 합니다.
 
    ![](assets/extsignal_definingparameters_2.png)
 

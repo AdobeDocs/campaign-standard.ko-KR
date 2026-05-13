@@ -8,10 +8,26 @@ feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2038'
-ht-degree: 2%
+source-wordcount: 2045
+ht-degree: 3%
 
 ---
 
@@ -29,7 +45,7 @@ ht-degree: 2%
 * 하드 바운스 오류 비율이 잘못된 게재
 * 보류 중인 상태가 평소보다 긴 게재
 * 낮은 처리량의 게재
-* 게재 진행 중
+* 진행 중인 게재
 
 경고 수신자는 Adobe Campaign에서 처리 중인 게재를 모니터링하고 실행에 문제가 있을 때 적절한 작업을 수행할 수 있습니다.
 
@@ -46,7 +62,7 @@ ht-degree: 2%
 
 ![](assets/delivery-alerting_notification.png)
 
-## 게재 경고 대시보드 {#delivery-alerting-dashboards}
+## 게재 알림 대시보드 {#delivery-alerting-dashboards}
 
 ### 게재 경고 대시보드 정보 {#about-delivery-alerting-dashboards}
 
@@ -85,12 +101,12 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 1. **[!UICONTROL Alert group]** 드롭다운 목록에서 알림을 보낼 수신자 그룹을 선택합니다. 그룹을 수정하거나 만들려면 [보안 그룹 만들기 및 사용자 할당](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)을 참조하세요.
 1. **[!UICONTROL Delivery alerting criteria]** 섹션에서 **[!UICONTROL Create element]**&#x200B;을(를) 클릭하여 기준을 추가합니다. [경고 조건 정보](#about-alerting-criteria)를 참조하세요.
-1. **[!UICONTROL Edit properties]** 단추를 선택하십시오. **[!UICONTROL Criteria parameters]** 탭에서 기준을 적용하는 방법을 정의합니다. [기준 매개 변수](#criteria-parameters)를 참조하십시오.
+1. **[!UICONTROL Edit properties]** 버튼을 선택합니다. **[!UICONTROL Criteria parameters]** 탭에서 기준을 적용하는 방법을 정의합니다. [기준 매개 변수](#criteria-parameters)를 참조하십시오.
 1. **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 대시보드를 저장합니다.
 
 이제 게재가 이 대시보드에서 정의한 기준을 만족할 때마다 지정된 사용자 그룹에 경고 알림이 전송됩니다.
 
-## 게재 경고 기준 {#delivery-alerting-criteria}
+## 게재 알림 기준 {#delivery-alerting-criteria}
 
 ### 경고 기준 정보 {#about-alerting-criteria}
 
@@ -132,7 +148,7 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 **관련 항목:**
 
-* [로그 전송](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [전송 로그](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [경고 빈도](#alerting-frequency)
 * [마케팅 활동 아이콘 및 상태](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 

@@ -9,9 +9,28 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
+TQID: https://experienceleague.adobe.com/vveKWyxi6u44BmNqzEVeMwPvtvP8uWhAI-4UMD2CnVU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: 996
 ht-degree: 8%
 
 ---
@@ -20,11 +39,11 @@ ht-degree: 8%
 
 트랜잭션 메시지는 웹 사이트와 같은 공급자가 실시간으로 전송하는 개별적이고 고유한 통신입니다. 수신자가 확인하거나 확정하려는 중요한 정보가 포함되어 있기 때문에 특히 기대됩니다.
 
-* **기한이 언제입니까?** 이 메시지에는 중요한 정보가 포함되어 있으므로 사용자는 이 메시지가 실시간으로 전송될 것으로 예상합니다. 따라서 트리거되는 이벤트와 메시지 도착 사이의 지연 시간이 매우 짧아야 합니다.
+* **기한이 언제입니까?** 이 메시지에는 중요한 정보가 포함되어 있으므로 사용자는 실시간으로 전송될 것으로 예상합니다. 따라서 트리거되는 이벤트와 메시지 도착 사이의 지연 시간이 매우 짧아야 합니다.
 
-* **중요한 이유** 일반적으로 트랜잭션 메시지의 열기 비율이 높습니다. 따라서 고객 관계를 정의하므로 고객의 행동에 강력한 영향을 줄 수 있으므로 신중하게 설계해야 합니다.
+* **중요한 이유** 일반적으로 트랜잭션 메시지는 오픈율이 높습니다. 따라서 고객 관계를 정의하므로 고객의 행동에 강력한 영향을 줄 수 있으므로 신중하게 설계해야 합니다.
 
-* **예?** 계정 만들기, 주문 배송 확인, 청구서, 암호 변경 확인 메시지 또는 고객이 웹 사이트를 열람한 후 알림 등이 환영 메시지가 될 수 있습니다.
+* **예?** 계정 생성, 주문 배송 확인, 청구서, 암호 변경 확인 메시지, 고객이 웹 사이트를 열람한 후 알림 등이 환영 메시지가 될 수 있습니다.
 
 Adobe Campaign에서는 이 기능을 사용자 지정 트랜잭션 메시지로 변환할 이벤트를 전송하는 정보 시스템과 통합할 수 있습니다.
 
@@ -109,7 +128,7 @@ Adobe Campaign에서 개인화된 트랜잭션 메시지를 만들고 관리할 
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-이벤트를 만든 후에는 이 이벤트의 트리거를 웹 사이트에 통합해야 합니다.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> 웹 사이트 웹 개발자는 **Adobe Campaign Standard REST API**&#x200B;를 사용해야 합니다.
+이벤트를 만든 후에는 이 이벤트의 트리거를 웹 사이트에 통합해야 합니다.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> 이렇게 하려면 웹 사이트 웹 개발자가 **Adobe Campaign Standard REST API**&#x200B;를 사용해야 합니다.
 
 | 트리거 구현 | 사용자 | 작업 | 결과 |
 | --- |--- |--- |--- |

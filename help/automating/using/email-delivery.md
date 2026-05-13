@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/HRzEDtHhZR88rvKjYSJOqmu1u9gEQGLtul0W86XajCM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: 862
 ht-degree: 88%
 
 ---
@@ -75,7 +82,7 @@ ht-degree: 88%
 1. 기본적으로 **[!UICONTROL Email delivery]** 활동에는 아웃바운드 전환이 포함되지 않습니다. **[!UICONTROL Email delivery]** 활동에 아웃바운드 전환을 추가하려면 고급 활동 옵션의 ![](assets/dlv_activity_params-24px.png) 탭(활동의 빠른 작업에 있는 **[!UICONTROL General]** 버튼)으로 이동한 다음 옵션 중 하나를 선택합니다.
 
    * **[!UICONTROL Add outbound transition without the population]**: 인바운드 전환과 정확히 동일한 모집단을 포함하는 아웃바운드 전환을 생성할 수 있습니다.
-   * **[!UICONTROL Add outbound transition with the population]**: 이메일을 전송한 모집단을 포함하는 아웃바운드 전환을 생성할 수 있습니다. 게재를 준비하는 동안 제외된 타겟 멤버(격리, 잘못된 이메일 등)는 이 전환에서 제외됩니다.
+   * **[!UICONTROL Add outbound transition with the population]**: 이메일을 전송한 모집단을 포함하는 아웃바운드 전환을 생성할 수 있습니다. 게재를 준비하는 동안 제외된 타겟 멤버(격리, 잘못된 이메일 등) 은(는) 이 전환에서 제외됩니다.
 
 1. 활동 구성을 확인하고 워크플로를 저장합니다.
 

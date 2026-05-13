@@ -6,10 +6,20 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
+TQID: https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 65%
+source-wordcount: 990
+ht-degree: 66%
 
 ---
 
@@ -74,7 +84,7 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
    ![](assets/create_security_1.png)
 
-1. **[!UICONTROL Campaign Standard- instance name - ID of the security group]** 구문을 정확히 따라 **[!UICONTROL Profile name]**&#x200B;을(를) 입력하고 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다. 
+1. **[!UICONTROL Campaign Standard- instance name - ID of the security group]** 구문을 정확히 따라 **[!UICONTROL Profile name]**&#x200B;을(를) 입력하고 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
    선택한 ID는 Adobe Campaign에서 보안 그룹을 만들 때 사용됩니다.
 
@@ -101,7 +111,7 @@ Admin Console에서 보안 그룹을 변경하면 사용자가 Adobe Campaign에
 
    ![](assets/manage_security_group_3.png)
 
-   한 사용자가 여러 그룹에 있는 경우에는, 
+   한 사용자가 여러 그룹에 있는 경우에는,
 
    * 여러 그룹의 역할이 누적됩니다. 여기서는 사용자가 두 개의 다른 그룹에 있습니다. 하나는 역할에 해당하며, 다른 하나는 단위에 해당합니다.
    * 사용할 계층에서 가장 높은 위치에 있는 것은 단위입니다([조직 단위](../../administration/using/organizational-units.md) 섹션의 예제 참조).

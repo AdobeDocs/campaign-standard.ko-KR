@@ -8,9 +8,20 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/OqhCjOt2SS-vKiuXSCmjgzJ1TNoFu1FHqL4cER0-o0g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: 279
 ht-degree: 4%
 
 ---
@@ -27,7 +38,7 @@ ht-degree: 4%
 
    구성 요소 테이블은 다음 네 가지 범주로 나뉩니다.
 
-   * **Dimension**: 게재 로그에서 수신자의 브라우저, 도메인 또는 게재 성공 등 세부 정보를 가져옵니다.
+   * **차원**: 게재 로그에서 수신자의 브라우저나 도메인 또는 게재 성공 등 세부 정보를 가져옵니다.
    * **지표**: 메시지 상태에 대한 세부 정보를 가져옵니다. 예를 들어 메시지가 게재되고 사용자가 해당 메시지를 연 경우,
    * **[!UICONTROL Segments]**: 받는 사람의 나이 범위에 따라 데이터를 필터링합니다. **[!UICONTROL Segments]**&#x200B;을(를) 자유 형식 테이블 또는 패널의 상단 막대에서 직접 끌어서 놓을 수 있습니다.
 

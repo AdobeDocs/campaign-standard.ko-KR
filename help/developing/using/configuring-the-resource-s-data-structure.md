@@ -9,9 +9,19 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/Ol-6IkRGAr7OGkXQgHhMSYhPfjmg-DY7s2dr6wxFenU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: 1666
 ht-degree: 98%
 
 ---
@@ -26,7 +36,7 @@ ht-degree: 98%
 * [식별 키](#defining-identification-keys)
 * [색인](#defining-indexes)
 * [링크](#defining-links-with-other-resources)
-* [로그 전송](#defining-sending-logs-extension)
+* [전송 로그](#defining-sending-logs-extension)
 
 ## 리소스에 필드 추가 {#adding-fields-to-a-resource}
 
@@ -47,7 +57,7 @@ ht-degree: 98%
 
    ![](assets/schema_extension_24.png)
 
-1. **[!UICONTROL Field definition]** 화면에서 대상자 및 타겟팅에 사용할 카테고리를 정의하거나 설명을 추가할 수 있습니다. 
+1. **[!UICONTROL Field definition]** 화면에서 대상자 및 타겟팅에 사용할 카테고리를 정의하거나 설명을 추가할 수 있습니다.
 
    ![](assets/schema_extension_5.png)
 
