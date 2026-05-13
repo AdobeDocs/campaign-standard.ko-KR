@@ -9,11 +9,16 @@ role: User
 level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 TQID: https://experienceleague.adobe.com/uEAfmHvm5tpDoCp9nEQeveyH0oBvmP24IvkUy73QPSw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1172
@@ -33,7 +38,7 @@ ht-degree: 86%
 
 이를 설정하려면 다음을 수행해야 합니다.
 
-1. 방문자가 등록하고 구독할 수 있도록 랜딩 페이지를 만들고 게시합니다. 이 랜딩 페이지는 웹 사이트에서 사용할 수 있습니다. 이 랜딩 페이지를 작성하고 제출한 방문자가 최종 유효성 검사 전에 커뮤니케이션을 받지 않도록 데이터베이스에 저장되지만 차단 목록에 추가됩니다(Campaign의 [차단 목록에 추가하다 관리 참조{1).](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+1. 방문자가 등록하고 구독할 수 있도록 랜딩 페이지를 만들고 게시합니다. 이 랜딩 페이지는 웹 사이트에서 사용할 수 있습니다. 이 랜딩 페이지를 작성하고 제출한 방문자가 최종 유효성 검사 전에 커뮤니케이션을 받지 않도록 데이터베이스에 저장되지만 차단 목록에 추가됩니다(Campaign의 [차단 목록에 추가하다 관리 참조&lbrace;1).](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 1. 확인 링크가 포함된 옵트인 이메일을 자동으로 작성하여 전송합니다. 이 이메일은 랜딩 페이지를 제출한 모집단을 타겟팅합니다. 이는 &#39;옵트아웃&#39; 프로필을 타겟팅할 수 있는 이메일 템플릿을 기반으로 합니다.
 1. 확인 랜딩 페이지로 리디렉션합니다. 이 최종 랜딩 페이지에는 확인 버튼이 표시됩니다. 방문자는 이 버튼을 클릭해야 합니다. 확인이 완료되면 전송할 환영 이메일을 디자인할 수 있으며, 예를 들어 새 수신자를 위해 이메일에 특별 오퍼를 추가할 수 있습니다.
 

@@ -11,12 +11,21 @@ role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 TQID: https://experienceleague.adobe.com/WawqBqpb7YnKbppo9-qkZ8agDBJ-ybjJOV305F-5t0w
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1214
@@ -158,7 +167,7 @@ Adobe Campaign은 워크플로 문제를 더 잘 이해할 수 있도록 다양�
 1. 워크플로 작업 영역에서 **[!UICONTROL Edit properties]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL General]** > **[!UICONTROL Execution]**&#x200B;에서 **[!UICONTROL Save SQL queries in the log]**&#x200B;및 옵션 **[!UICONTROL Execute in the engine]**&#x200B;을 선택하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
-****&#x200B;로그에서 SQL 쿼리를 보려면
+**&#x200B;**&#x200B;로그에서 SQL 쿼리를 보려면
 1. **[!UICONTROL Log and Tasks]**&#x200B;을(를) 클릭 합니다.
 1. **[!UICONTROL Logs]**&#x200B;탭에서 **[!UICONTROL Search]**&#x200B;패널을 엽니다.
 1. **[!UICONTROL Display SQL logs only]**&#x200B;을(를) 확인 합니다.

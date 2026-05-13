@@ -10,9 +10,12 @@ role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 TQID: https://experienceleague.adobe.com/bvy-7wuqsSH-ZYxQrx2Nlbjp-HXHvzAK-CwdkSlb1FM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1006
@@ -124,7 +127,7 @@ Campaign Standard에서 워크플로우를 사용하면 관리자가 AppSubscrip
 
 >[!NOTE]
 >
->이 경우 워크플로에서 업데이트를 수행하지만 **[!UICONTROL Incremental query]**을(를) 기반으로 하므로 데이터가 삽입되기만 합니다. 쿼리를 변경하면 삽입되거나 업데이트되는 데이터에 영향을 줄 수 있습니다.
+>이 경우 워크플로에서 업데이트를 수행하지만 **[!UICONTROL Incremental query]**&#x200B;을(를) 기반으로 하므로 데이터가 삽입되기만 합니다. 쿼리를 변경하면 삽입되거나 업데이트되는 데이터에 영향을 줄 수 있습니다.
 >또한 업데이트할 필드 탭의 설정은 특정 조건에서 삽입하거나 업데이트할 필드를 결정합니다. 이러한 설정은 각 애플리케이션 또는 고객에 대해 고유할 수 있습니다.
 >appSubscriptionRcp 데이터를 기반으로 프로필에서 레코드를 업데이트하면 유효성 검사 없이 사용자의 개인 정보가 변경될 수 있으므로 이러한 설정을 구성할 때 의도하지 않은 결과가 발생할 수 있으므로 주의하십시오.
 
