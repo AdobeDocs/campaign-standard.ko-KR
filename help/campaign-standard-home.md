@@ -20,10 +20,10 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: add46d6ff37deb4309146447f5a9026842368cf3
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 91%
+source-wordcount: 238
+ht-degree: 94%
 
 ---
 
@@ -121,9 +121,9 @@ Campaign 및 RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>유용한 페이지</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html" target="_blank">제품 설명</a> - <a href="rn/using/deprecated-features.md">사용되지 않거나 제거된 기능</a> - <a href="rn/using/release-planning.md">릴리스 계획</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html" target="_blank">제품 설명</a> - <a href="rn/using/deprecated-features.md">사용되지 않거나 제거된 기능</a> - <a href="rn/using/release-planning.md">릴리스 계획</a> - <a href="https://experienceleague.adobe.com/ko/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">전자 메일 추적 픽셀 및 CNIL 지침</a>
 </td>
 <td><strong>기술 리소스</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 트리거</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html" target="blank">기술 노트</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko" target="_blank">Campaign 컨트롤 패널 설명서</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko">오류 메시지 목록</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 트리거</a> - <a href="api/using/get-started-apis.md">캠페인 API</a> - <a href="https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html" target="blank">기술 정보</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko" target="_blank">Campaign 컨트롤 패널 설명서</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko">오류 메시지 목록</a>
 </td>
 </tr></table>
