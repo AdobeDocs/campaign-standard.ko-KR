@@ -11,16 +11,13 @@ role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
 workflow-type: tm+mt
-source-wordcount: 357
-ht-degree: 35%
+source-wordcount: 346
+ht-degree: 32%
 
 ---
 
@@ -55,7 +52,7 @@ ht-degree: 35%
 
 ### 실행 당일 생성된 프로필 검색 {#retrieving-profiles-created-on-the-same-day}
 
-1. **[!UICONTROL Profile]**&#x200B;에서 **[!UICONTROL Created]** 필드를 끌어서 놓습니다. **[!UICONTROL Advanced Mode]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Profile]**&#x200B;에서 **[!UICONTROL Created]** 필드를 끌어서 놓고 **[!UICONTROL Advanced Mode]**을(를) 클릭합니다.
    ![](assets/advanced_mode.png)
 1. **[!UICONTROL list of functions]**&#x200B;에서 **[!UICONTROL Date]** 노드에서 **[!UICONTROL Day]**&#x200B;을(를) 두 번 클릭합니다.
 1. **[!UICONTROL Created]** 필드를 인수로 삽입합니다.
@@ -67,7 +64,7 @@ ht-degree: 35%
 
 다음으로 끝남:
 
-```Day(@created) = Day(GetDate())```
+`Day(@created) = Day(GetDate())`
 
 ![](assets/day_creation_query.png)
 
@@ -84,11 +81,11 @@ ht-degree: 35%
 
 이 문제를 해결해야 합니다.
 
-``` Month(@created) = Month(GetDate()) ```
+`Month(@created) = Month(GetDate())`
 
 마지막 쿼리가 표시됩니다.
 
-```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
+`Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())`
 
 ![](assets/expression_editor_1.png)
 
@@ -102,7 +99,7 @@ ht-degree: 35%
 1. 전자 메일 레이아웃을 만들려면 **[!UICONTROL Email Designer]**&#x200B;을(를) 클릭합니다.
 1. 요소를 삽입하거나 기존 템플릿을 선택합니다.
 1. 필드 및 링크를 사용하여 이메일을 개인화합니다.
-자세한 내용은 [전자 메일 디자인](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)을 참조하십시오.
+자세한 내용은 [전자 메일 디자인](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)을 참조하세요.
 1. 레이아웃을 확인하려면&#x200B;**[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
