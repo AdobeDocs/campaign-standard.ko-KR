@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -174,7 +174,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> 외부 API 활동(공개 Beta)<br /> </td> 
-   <td> <p>보다 심층적인 개인화를 위해 외부 API 활동을 사용하면 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O Runtime 또는 Adobe Experience Cloud REST 엔드포인트(예: 데이터 플랫폼, 타겟, 분석, 캠페인)일 수 있습니다.</p><p>이 기능은 현재 공개 베타 버전에 제공됩니다.</p><p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ko">방법 비디오</a>를 참조하십시오.</p></td> 
+   <td> <p>보다 심층적인 개인화를 위해 외부 API 활동을 사용하면 REST API 호출을 통해 외부 시스템의 데이터를 워크플로우로 가져올 수 있습니다. REST 엔드포인트는 고객 관리 시스템, Adobe I/O Runtime 또는 Adobe Experience Cloud REST 엔드포인트(예: 데이터 플랫폼, Target, Analytics, 캠페인)일 수 있습니다.</p><p>이 기능은 현재 공개 베타 버전에 제공됩니다.</p><p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ko">방법 비디오</a>를 참조하십시오.</p></td> 
   </tr> 
   <tr> 
    <td> 워크플로우 세그먼트 <br />에 대한 보고서 </td> 
@@ -503,7 +503,7 @@ ht-degree: 10%
 
 **기타 변경 사항**
 
-* Adobe Campaign 및 Adobe Experience Cloud은 2019년 봄 및 Campaign Standard 19.2 릴리스부터 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정입니다. Microsoft Edge 또는 기타 지원되는 브라우저로 전환하십시오. [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md) 페이지를 참조하세요.
+* Adobe Campaign 및 Adobe Experience Cloud는 2019년 봄 및 Campaign Standard 19.2 릴리스부터 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정입니다. Microsoft Edge 또는 기타 지원되는 브라우저로 전환하십시오. [사용되지 않거나 제거된 기능](../../rn/using/deprecated-features.md) 페이지를 참조하세요.
 * 프로필 리소스의 **국가 코드** 필드 이름이 **국가/지역 코드**(으)로 바뀌었습니다.
 
 **패치**
@@ -633,3 +633,4 @@ ht-degree: 10%
 * SMS 메시지에 대해 전송 처리량이 개선되고 안정되었습니다.
 * SMS 메시지에서 &quot;~&quot; 문자를 사용할 수 없는 문제를 해결했습니다. (CAMP-29172)
 * 전송 시간 최적화 옵션을 사용하여 게재 문제를 해결했습니다. (CAMP-29231)
+
