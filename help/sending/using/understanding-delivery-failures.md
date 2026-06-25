@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 1347
 ht-degree: 55%
@@ -84,7 +84,7 @@ ht-degree: 55%
 | **[!UICONTROL Not connected]** | 무시됨 | 메시지가 전송될 때 프로필의 휴대폰은 꺼져 있거나 네트워크에 연결되어 있지 않습니다. |
 | **[!UICONTROL Invalid domain]** | 소프트 | 이메일 주소의 도메인이 잘못되었거나 더 이상 존재하지 않습니다. 이 프로필은 오류 수가 5개에 도달할 때까지 다시 타겟팅됩니다. 이후 레코드가 격리 상태로 설정되며 다시 시도되지 않습니다. |
 | **[!UICONTROL Text too long]** | 무시됨 | SMS 메시지의 문자 수가 한도를 초과합니다. 자세한 내용은 [SMS 인코딩, 길이 및 음역](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)을 참조하십시오. |
-| **[!UICONTROL Character not supported by encoding]** | 무시됨 | SMS 메시지에 인코딩에서 지원하지 않는 문자가 하나 이상 포함되어 있습니다. 자세한 내용은 [문자 테이블 - GSM 표준](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)을 참조하십시오. |
+| **[!UICONTROL Character not supported by encoding]** | 무시됨 | SMS 메시지에 인코딩에서 지원하지 않는 문자가 하나 이상 포함되어 있습니다. 자세한 내용은 [문자 테이블 - GSM 표준](../../administration/using/configuring-sms-channel.md#table-of-characters-gsm-standard)을 참조하십시오. |
 
 
 **관련 항목:**

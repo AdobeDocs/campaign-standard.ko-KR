@@ -39,7 +39,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5380
 ht-degree: 94%
@@ -52,7 +52,7 @@ ht-degree: 94%
 
 ![](assets/do-not-localize/cp-icon.png) CNAME과 새로운 데이터베이스 모니터링 기능을 사용하는 도메인 구성이 포함된 **새로운 10월 컨트롤 패널 릴리스**. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko).
 
-## 릴리스 20.4 - 2020년 10월 {#release-20-4---october-2020}
+## 릴리스 20.4 - 2020년 10월 {#release-20-4-october-2020}
 
 **새로운 기능**
 
@@ -218,7 +218,7 @@ ht-degree: 94%
 
 
 
-## 릴리스 20.3 - 2020년 5월 {#release-20-3---may-2020}
+## 릴리스 20.3 - 2020년 5월 {#release-20-3-may-2020}
 
 **새로운 기능**
 
@@ -322,7 +322,7 @@ ht-degree: 94%
 
 CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/cp-icon.png) **새 컨트롤 패널 5월 릴리스**&#x200B;입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko).
 
-## 릴리스 20.2 - 2020년 4월 {#release-20-2---april-2020}
+## 릴리스 20.2 - 2020년 4월 {#release-20-2-april-2020}
 
 **새로운 기능**
 
@@ -407,15 +407,15 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 * 여러 인바운드 전환이 있는 활동을 실행할 때 워크플로에서 발생할 수 있는 문제를 수정했습니다.
 * 표준 사용자가 워크플로 쿼리 또는 게재에서 타겟 차원으로 &#39;애플리케이션 구독&#39;을 사용하지 못하는 문제를 수정했습니다. (CAMP-37618)
 
-## 릴리스 20.1.4 - 2020년 2월 {#release-20-1-4---february-2020}
+## 릴리스 20.1.4 - 2020년 2월 {#release-20-1-4-february-2020}
 
 * 기존 워크플로에서 **대상자 읽기** 활동을 열 때 발생하는 문제를 수정했습니다. (CAMP-41002)
 
-## 릴리스 20.1.3 - 2020년 2월 {#release-20-1-3---february-2020}
+## 릴리스 20.1.3 - 2020년 2월 {#release-20-1-3-february-2020}
 
 * 루프홀을 사용하는 고객을 위해 CAMP-39273의 20.1에 소개한 회귀 문제를 수정했습니다. CAMP-39273이 복귀되었습니다.
 
-## 릴리스 20.1.2 - 2020년 2월 {#release-20-1-2---february-2020}
+## 릴리스 20.1.2 - 2020년 2월 {#release-20-1-2-february-2020}
 
 **향상된 이메일 디자이너**
 
@@ -423,7 +423,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 * 다이내믹 콘텐츠를 사용할 때 공백이 추가되는 문제를 수정했습니다. (CAMP-40605)
 * 트랜잭션 이메일 템플릿을 구성할 때 발생하는 문제를 수정했습니다. (CAMP-40604)
 
-## 릴리스 20.1 - 2020년 2월 {#release-20-1---february-2020}
+## 릴리스 20.1 - 2020년 2월 {#release-20-1-february-2020}
 
 **새로운 기능**
 
