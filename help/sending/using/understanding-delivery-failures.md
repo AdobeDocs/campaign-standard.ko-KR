@@ -9,19 +9,12 @@ role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 TQID: https://experienceleague.adobe.com/6ZIy8zcUJpMGPTBoq3y3in1EOjJko8btTdmUX-nh1WM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 1347
 ht-degree: 55%
@@ -48,7 +41,7 @@ ht-degree: 55%
 
 * [격리 관리 이해](../../sending/using/understanding-quarantine-management.md)
 * [Campaign의 옵트인 및 옵트아웃 기본 정보](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [바운스수](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#metrics-for-deliverability)
+* [바운스수](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## 메시지에 대한 게재 실패 식별 {#identifying-delivery-failures-for-a-message}
 
@@ -84,12 +77,12 @@ ht-degree: 55%
 | **[!UICONTROL Not connected]** | 무시됨 | 메시지가 전송될 때 프로필의 휴대폰은 꺼져 있거나 네트워크에 연결되어 있지 않습니다. |
 | **[!UICONTROL Invalid domain]** | 소프트 | 이메일 주소의 도메인이 잘못되었거나 더 이상 존재하지 않습니다. 이 프로필은 오류 수가 5개에 도달할 때까지 다시 타겟팅됩니다. 이후 레코드가 격리 상태로 설정되며 다시 시도되지 않습니다. |
 | **[!UICONTROL Text too long]** | 무시됨 | SMS 메시지의 문자 수가 한도를 초과합니다. 자세한 내용은 [SMS 인코딩, 길이 및 음역](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)을 참조하십시오. |
-| **[!UICONTROL Character not supported by encoding]** | 무시됨 | SMS 메시지에 인코딩에서 지원하지 않는 문자가 하나 이상 포함되어 있습니다. 자세한 내용은 [문자 테이블 - GSM 표준](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)을 참조하십시오. |
+| **[!UICONTROL Character not supported by encoding]** | 무시됨 | SMS 메시지에 인코딩에서 지원하지 않는 문자가 하나 이상 포함되어 있습니다. 자세한 내용은 [문자 테이블 - GSM 표준](../../administration/using/configuring-sms-channel.md#table-of-characters-gsm-standard)을 참조하십시오. |
 
 
 **관련 항목:**
-* [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#hard-bounces)
-* [소프트 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#soft-bounces)
+* [하드 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [소프트 바운스](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 일시적 게재 실패 후 다시 시도 {#retries-after-a-delivery-temporary-failure}
 
@@ -103,7 +96,7 @@ ht-degree: 55%
 
 >[!IMPORTANT]
 >
->**이제 Campaign 게재의&#x200B;**&#x200B;[!UICONTROL Delivery duration]&#x200B;**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
+>**이제 Campaign 게재의&#x200B;**[!UICONTROL Delivery duration]**매개 변수는 3.5일 이내로 설정된 경우에만 사용됩니다.** 3.5일 이상의 값을 정의하면 고려되지 않습니다.
 
 예를 들어 게재를 위한 다시 시도가 1일 후 중지되도록 하려면 게재 기간을 **1d**(으)로 설정할 수 있으며 다시 시도 큐의 메시지는 1일 후 제거됩니다.
 
@@ -133,7 +126,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 비동기 반송은 **[!UICONTROL Inbound email]** 규칙을 통해 inMail 프로세스에 의해 계속 검증됩니다. 이러한 규칙에 액세스하려면 왼쪽 상단에서 **Adobe** 로고를 클릭한 다음 **[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;을(를) 선택하고 **[!UICONTROL Bounce mails]**&#x200B;을(를) 선택하십시오. 이 규칙에 대한 자세한 내용은 [이 섹션](../../administration/using/configuring-email-channel.md#email-processing-rules)을 참조하세요.
 
-바운스 및 다양한 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ko#metrics-for-deliverability)을 참조하세요.
+바운스 및 다양한 종류의 바운스에 대한 자세한 내용은 [이 섹션](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)을 참조하세요.
 
 <!--
 MOVED TO configuring-email-channel.md > LEGACY SETTINGS

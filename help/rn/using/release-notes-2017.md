@@ -6,34 +6,13 @@ role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 4540
 ht-degree: 3%
@@ -42,7 +21,7 @@ ht-degree: 3%
 
 # 2017년 릴리스 정보{#release-notes}
 
-## 릴리스 17.10 - 2017년 10월 {#release-17-10---october-2017}
+## 릴리스 17.10 - 2017년 10월 {#release-17-10-october-2017}
 
 **새 기능**
 
@@ -121,7 +100,7 @@ _사용자 정의 리소스_
 * 목록 화면에서 데이터 없이 사용자 지정 리소스 행을 표시할 수 있는 문제를 해결했습니다.
 * &#39;False&#39; 값이 있는 부울 유형 필드가 사용자 지정 리소스에 표시되지 않는 문제를 해결했습니다.
 
-## 릴리스 17.9 - 2017년 9월 {#release-17-9---september-2017}
+## 릴리스 17.9 - 2017년 9월 {#release-17-9-september-2017}
 
 **새 기능**
 
@@ -193,7 +172,7 @@ _프로필 및 대상자_
 * 이제 Adobe Campaign에서 활성 프로필 수를 표시하는 보고서를 제공합니다. 이 보고서는 정보용일 뿐이며, 청구에 직접적인 영향을 주지 않습니다. 자세한 내용은 [세부 설명서](../../audiences/using/active-profiles.md)를 참조하세요.
 * 프로필 및 서비스 API를 사용할 때 프로필이 서비스를 구독할 수 없는 문제를 해결했습니다.
 
-## 릴리스 17.7 - 2017년 7월 {#release-17-7---july-2017}
+## 릴리스 17.7 - 2017년 7월 {#release-17-7-july-2017}
 
 **새 기능**
 
@@ -269,7 +248,7 @@ _워크플로_
 * 반복 게재 만들기 마법사에서 아웃바운드 전환을 설정할 수 없는 문제를 수정했습니다.
 * 값이 많은 열거형으로 사용자 지정 리소스 필드를 기반으로 하는 워크플로우 쿼리 활동을 사용할 때 발생하는 문제를 해결했습니다
 
-## 릴리스 17.5 - 2017년 5월 {#release-17-5---may-2017}
+## 릴리스 17.5 - 2017년 5월 {#release-17-5-may-2017}
 
 **새 기능**
 
@@ -283,7 +262,7 @@ _워크플로_
  <tbody> 
   <tr> 
    <td> DM<br /> </td> 
-   <td> Adobe Campaign Standard의 첫 번째 오프라인 채널인 DM을 통해 디지털 장벽을 깨고 물리적 세계로 연결합니다. 이 기능을 사용하면 DM 공급자가 크로스 채널 캠페인의 일부로 필요로 하는 파일을 개인화하고 생성할 수 있습니다. 다이렉트 메일을 활용하여 고객을 다시 참여시키거나 고객 경험을 앱이나 웹 사이트 또는 스토어로 유도하는 강력한 촉각적 터치포인트로 강화합니다.<br /> 자세한 내용은 <a href="../../channels/using/about-direct-mail.md">자세한 설명서</a>.<br />를 참조하세요. </td> 
+   <td> 디지털 장벽을 뚫고 Adobe Campaign Standard의 첫 번째 오프라인 채널인 DM을 통해 물리적 세계로 연결합니다. 이 기능을 사용하면 DM 공급자가 크로스 채널 캠페인의 일부로 필요로 하는 파일을 개인화하고 생성할 수 있습니다. 다이렉트 메일을 활용하여 고객을 다시 참여시키거나 고객 경험을 앱이나 웹 사이트 또는 스토어로 유도하는 강력한 촉각적 터치포인트로 강화합니다.<br /> 자세한 내용은 <a href="../../channels/using/about-direct-mail.md">자세한 설명서</a>.<br />를 참조하세요. </td> 
   </tr> 
   <tr> 
    <td> 이메일 BCC<br /> </td> 
@@ -316,7 +295,7 @@ _푸시 알림_
 * 프로필의 마케팅 기록에서 푸시 이벤트를 클릭할 수 없는 문제를 수정했습니다.
 * 워크플로우에서 푸시 알림 사용이 개선되었습니다.
 
-## 릴리스 17.4 - 2017년 4월 {#release-17-4---april-2017}
+## 릴리스 17.4 - 2017년 4월 {#release-17-4-april-2017}
 
 **새 기능**
 
@@ -401,7 +380,7 @@ _푸시 알림_
 * MCPNS에서 만들지 못한 모바일 앱에 연결된 Android 애플리케이션을 만들 때 오류 메시지가 표시되지 않던 문제를 수정했습니다.
 * 사용자가 자동 알림에 사운드를 추가할 수 있는 문제를 해결했습니다.
 
-## 릴리스 17.2 - 2017년 3월 {#release-17-2---march-2017}
+## 릴리스 17.2 - 2017년 3월 {#release-17-2-march-2017}
 
 **새 기능**
 
@@ -484,7 +463,7 @@ _워크플로_
 * **[!UICONTROL Load file]** 활동의 거부 전환 콘텐츠를 읽지 못하는 문제를 해결했습니다.
 * **[!UICONTROL Load file]** 활동을 구성할 때 스왑된 열이 제대로 고려되지 않는 문제를 해결했습니다.
 
-## 릴리스 17.1 - 2017년 1월 {#release-17-1---january-2017}
+## 릴리스 17.1 - 2017년 1월 {#release-17-1-january-2017}
 
 **새 기능**
 

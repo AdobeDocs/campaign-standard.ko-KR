@@ -4,11 +4,9 @@ description: 추적된 URL 서명 문제
 hide: true
 exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
 TQID: https://experienceleague.adobe.com/6R8s1OkdU0TWD2Qo1DnI33T-FsiV4kVNkn942k0o5-Q
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 100%
@@ -25,7 +23,7 @@ ht-degree: 100%
 
 **영향을 받습니까?**
 
-이메일 링크 추적에 대한 서명 메커니즘이 2020년 10월에 [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020)으로 도입되었으며 모든 고객에 대해 기본적으로 활성화되어 있기 때문에 일부 Campaign Standard 사용자는 영향을 받습니다.
+이메일 링크 추적에 대한 서명 메커니즘이 2020년 10월에 [Campaign Standard 20.4](release-notes-2020.md#release-20-4-october-2020)으로 도입되었으며 모든 고객에 대해 기본적으로 활성화되어 있기 때문에 일부 Campaign Standard 사용자는 영향을 받습니다.
 
 **업데이트 방법**
 
