@@ -6,12 +6,33 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5217
@@ -313,7 +334,7 @@ _사용자 정의 리소스_
      <li> 이메일 콘텐츠 템플릿을 만들고 저장하고 저장된 템플릿을 활용하여 이메일 만들기 확장 </li> 
      <li> 콘텐츠 조각(예: 머리글, 바닥글, 문서 등) 만들기 및 저장 콘텐츠 생성 간소화 및 브랜드 일관성 보장 </li> 
      <li> 드래그 앤 드롭 인터페이스에서 만든 것과 버튼 클릭으로 이메일의 HTML을 직접 편집하는 것 사이에서 원활하게 전환할 수 있습니다 </li> 
-    </ul> Creative Designer for Email은 영어로만 제공됩니다.<br /> 자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a>를 참조하세요. 이 <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">비디오</a>를 보세요.<br /> </td> 
+    </ul> Creative Designer for Email은 영어로만 제공됩니다.<br /> 자세한 내용은 <a href="../../designing/using/designing-content-in-adobe-campaign.md">자세한 설명서</a>를 참조하세요. 이 <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">비디오</a>를 보세요.<br /> </td> 
   </tr> 
   <tr> 
    <td> 다국어 푸시 게재<br /> </td> 
