@@ -10,25 +10,13 @@ level: Beginner
 hide: true
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
 TQID: https://experienceleague.adobe.com/PMS6AkxTQdW2TmqSY1f1eJaBauin62PcxPlkCFGFQNA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
@@ -457,3 +445,4 @@ ht-degree: 100%
 * **이메일 디자이너** 미리 보기에서 프로필을 검색할 때 테스트 프로필 목록이 새로 고침되지 않는 문제를 해결했습니다. (CAMP-45265)
 * **이메일 디자이너** 미리 보기에서 프로필을 검색할 때 사용자 지정 테스트 프로필이 목록에 표시되지 않는 문제를 해결했습니다. (CAMP-45589)
 * **게재 요약 보고서**&#x200B;에서 트렌드 그래픽을 생성할 때 일치하지 않는 날짜가 표시되는 문제를 해결했습니다. (CAMP-45521)
+
