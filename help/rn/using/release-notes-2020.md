@@ -9,40 +9,16 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
-  - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: a2002dba-5e37-4dff-8e04-1cc3ec73558cid: af6750fd-3c1b-4ad2-9fe3-99e81510998did: d1110311-2ca4-442b-be37-088a6db845eeid: eb007b6d-6e57-46ab-9485-3f24d6102304id: f5293531-9312-4099-bfa3-9e67df6a8750id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 5380
-ht-degree: 94%
+source-wordcount: 5439
+ht-degree: 95%
 
 ---
 
@@ -64,9 +40,8 @@ ht-degree: 94%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>이제 <strong>컨트롤 그룹</strong>을 사용하여 대상의 일부를 제외하여 캠페인의 영향을 측정할 수 있습니다. 그러면 메시지를 받은 대상 모집단과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기반으로 향후 캠페인에서 컨트롤 그룹을 타겟팅할 수도 있습니다.
-</p>
-<p>자세한 내용은 <a href="../../sending/using/control-group.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=ko">방법 비디오</a>를 참조하십시오.
+  <td> <p>이제 <strong>컨트롤 그룹</strong>을 사용하여 대상자의 일부를 제외하여 캠페인의 영향을 측정할 수 있습니다. 그러면 메시지를 받은 대상 모집단과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기준으로 향후 캠페인에서 컨트롤 그룹을 타겟팅할 수도 있습니다.</p>
+<p>자세한 내용은 <a href="../../sending/using/control-group.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">방법 비디오</a>를 참조하십시오.
 </p>
 </td> 
 </tr> 
@@ -81,8 +56,7 @@ ht-degree: 94%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>이제 Adobe Campaign은 <strong>외부 API</strong> 워크플로우 활동에서 인증을 위해 OAuth를 지원합니다. 이 새로운 기능을 통해 OAuth 지원이 필요한 시스템과 통신할 수 있습니다.
-</p>
+  <td> <p>이제 Adobe Campaign은 <strong>외부 API</strong> 워크플로 활동에서 인증을 위해 OAuth를 지원합니다. 이 새로운 기능을 통해 OAuth 지원이 필요한 시스템과 통신할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a>를 참조하십시오.
 </p>
 </td> 
@@ -102,8 +76,8 @@ ht-degree: 94%
   <p>여정 AI는 고급 ML(기계 학습)을 사용하여 기업이 각 개인의 참여 선호도를 예측하여 고객 여정의 디자인과 게재를 최적화할 수 있도록 합니다.</p>
   <P>Journey AI는 다음 두 가지 ML 기능으로 구성됩니다.</p>
 <ul> 
-     <li> <strong>예측 참여 점수 책정</strong> - 고객이 선호하는 참여 수준을 지능적으로 식별하여 메시지를 보다 효과적으로 타겟팅하고 개인화하여 전환율과 유지율을 높일 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=ko">방법 비디오</a>보기</li> 
-     <li> <strong>예측 전송 시간 최적화</strong> - 캠페인의 각 개인에게 이메일을 보내는 가장 적합한 시간을 예측하여 참여율을 높이고 이메일 캠페인 ROI를 향상시킬 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=ko">방법 비디오</a>보기</li>
+     <li> <strong>예측 참여 점수 책정</strong> - 고객이 선호하는 참여 수준을 지능적으로 식별하여 메시지를 보다 효과적으로 타겟팅하고 개인화하여 전환율과 유지율을 높일 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">방법 비디오</a>보기</li> 
+     <li> <strong>예측 전송 시간 최적화</strong> - 캠페인의 각 개인에게 이메일을 보내는 가장 적합한 시간을 예측하여 참여율을 높이고 이메일 캠페인 ROI를 향상시킬 수 있습니다. <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">방법 비디오</a>보기</li>
     </ul>
   <p>Journey AI를 시작하는 방법을 알려면 <a href="../../sending/using/predictive.md">자세한 설명서</a>를 검토하고 계정 담당자에게 문의하십시오. Journey AI는 기존 Campaign 고객에게 무료로 제공되지만 구현 비용은 약 50시간 정도 입니다.</p>
     </td> 
@@ -143,7 +117,7 @@ ht-degree: 94%
 * 이제 사용자 지정 리소스를 게시할 때 준비 후 확인 팝업이 표시됩니다.
 * 사용자 지정 리소스에 실패할 때 표시되는 팝업 메시지가 더 명확해졌습니다.
 * 실행 오류를 방지하기 위해 워크플로의 표현식 편집기가 개선되었습니다. [새 함수](../../automating/using/customizing-workflow-external-parameters.md)를 사용할 수 있습니다. 이 새 함수는 외부 매개 변수를 사용한 워크플로를 호출한 후 이벤트 변수를 사용할 수 있도록 하는 모든 활동에서 사용할 수 있습니다. 또한 이제 함수 설명과 함께 도구 설명이 표현식 편집기에 표시됩니다.
-* [트랜잭션 이벤트 목록에 새 필터가 추가되었습니다. &#x200B;](../../channels/using/configuring-transactional-event.md#searching-transactional-events) 이 매개 변수를 사용하면 이벤트 수신의 마지막 시간과 해당 상태에 따라 이벤트 구성을 필터링할 수 있습니다.
+* [트랜잭션 이벤트 목록에 새 필터가 추가되었습니다. ](../../channels/using/configuring-transactional-event.md#searching-transactional-events) 이 매개 변수를 사용하면 이벤트 수신의 마지막 시간과 해당 상태에 따라 이벤트 구성을 필터링할 수 있습니다.
 * 패키지를 내보낼 때 표시되는 로그는 오류가 발생한 경우 발생하는 오류에 대해 보다 구체적이고 자세히 작성되었습니다.
 * 이제 메시지를 보낸 후 [추적된 URL](../../sending/using/tracking-messages.md) 목록을 검색, 필터링 및 내보낼 수 있습니다.
 * [Adobe Experience Platform Launch와 Campaign 간의 자동 동기화](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)는 이제 일반적으로 사용할 수 있으며 기본적으로 활성화됩니다.
@@ -236,7 +210,7 @@ ht-degree: 94%
 <li>액세스 권한 및 삭제 권한: Adobe는 GDPR 및 CCPA에 추가된 기능을 활용하고 있습니다. <a href="https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#righttoaccess">자세히 알아보기</a> </li>
 <li><p>개인 정보 보호 요청을 만들 때 개인 정보 보호 핵심 서비스에 PDPA 규정 유형이 추가되었습니다. 이 방법은 모든 액세스 및 삭제 요청에 사용해야 합니다. 액세스 및 삭제 요청에 대한 Campaign API 및 인터페이스는 더 이상 사용되지 않습니다.  <a href="../../rn/using/deprecated-features.md">사용이 중단되거나 제거된 기능 문서</a>를 참조하십시오.</p></li>
 </ul>
-<p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=ko">방법 비디오</a>를 참조하십시오.</p>
+<p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">방법 비디오</a>를 참조하십시오.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -257,7 +231,7 @@ ht-degree: 94%
 <li>JSON에서 배열 개체를 선택하고 사용할 때 개체 이름을 "data"로 지정하거나 최상위 수준에 둘 필요가 없습니다.</li>
 </ul>
 <p><strong>주의:</strong> 고객은 워크플로에서 GA 외부 API 활동으로 <strong>모든 Beta 외부 API 활동을 대체</strong>해야 합니다.  외부 API의 Beta 버전을 사용하는 워크플로는 20.3에서 작동하지 않습니다.</p>
-<p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ko">방법 비디오</a>를 참조하십시오.</p>
+<p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">방법 비디오</a>를 참조하십시오.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -350,7 +324,7 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
  <tbody> 
   <tr> 
    <td> <p>이제 테스트 프로필 외에도 실제 타겟팅된 프로필에서 이메일을 테스트할 수 있습니다. 이를 통해 사용자 지정 필드, 워크플로의 추가 데이터를 포함한 동적 및 개인화된 정보 등 프로필에서 받게 될 메시지를 정확하게 표현할 수 있습니다. </p>
-    <p>자세한 내용은 <a href="../../sending/using/testing-messages-using-target.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=ko">튜토리얼 비디오</a>를 참조하십시오. </p>
+    <p>자세한 내용은 <a href="../../sending/using/testing-messages-using-target.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">튜토리얼 비디오</a>를 참조하십시오. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -515,4 +489,5 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 * 인앱 메시지를 보낼 때 전송 로그 화면에 주소가 표시되지 않는 문제를 수정했습니다.
 * SMS 전송 로그가 정확한 반송 수로 업데이트되지 않는 문제를 수정했습니다. (CAMP-38395)
 * 애플리케이션 구독 게시물 호출에서 푸시 알림 토큰을 업데이트하도록 허용하는 루프홀을 수정했습니다. (CAMP-39273)
+
 
