@@ -28,8 +28,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+workflow-type: tm+mt
 source-wordcount: 4728
 ht-degree: 100%
 
@@ -457,4 +457,5 @@ ht-degree: 100%
 * **이메일 디자이너** 미리 보기에서 프로필을 검색할 때 테스트 프로필 목록이 새로 고침되지 않는 문제를 해결했습니다. (CAMP-45265)
 * **이메일 디자이너** 미리 보기에서 프로필을 검색할 때 사용자 지정 테스트 프로필이 목록에 표시되지 않는 문제를 해결했습니다. (CAMP-45589)
 * **게재 요약 보고서**&#x200B;에서 트렌드 그래픽을 생성할 때 일치하지 않는 날짜가 표시되는 문제를 해결했습니다. (CAMP-45521)
+
 

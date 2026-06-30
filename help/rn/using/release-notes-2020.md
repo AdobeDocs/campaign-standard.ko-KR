@@ -39,10 +39,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
-source-wordcount: 5380
-ht-degree: 94%
+source-wordcount: 5439
+ht-degree: 95%
 
 ---
 
@@ -64,8 +64,7 @@ ht-degree: 94%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>이제 <strong>컨트롤 그룹</strong>을 사용하여 대상의 일부를 제외하여 캠페인의 영향을 측정할 수 있습니다. 그러면 메시지를 받은 대상 모집단과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기반으로 향후 캠페인에서 컨트롤 그룹을 타겟팅할 수도 있습니다.
-</p>
+  <td> <p>이제 <strong>컨트롤 그룹</strong>을 사용하여 대상자의 일부를 제외하여 캠페인의 영향을 측정할 수 있습니다. 그러면 메시지를 받은 대상 모집단과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기준으로 향후 캠페인에서 컨트롤 그룹을 타겟팅할 수도 있습니다.</p>
 <p>자세한 내용은 <a href="../../sending/using/control-group.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=ko">방법 비디오</a>를 참조하십시오.
 </p>
 </td> 
@@ -81,8 +80,7 @@ ht-degree: 94%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>이제 Adobe Campaign은 <strong>외부 API</strong> 워크플로우 활동에서 인증을 위해 OAuth를 지원합니다. 이 새로운 기능을 통해 OAuth 지원이 필요한 시스템과 통신할 수 있습니다.
-</p>
+  <td> <p>이제 Adobe Campaign은 <strong>외부 API</strong> 워크플로 활동에서 인증을 위해 OAuth를 지원합니다. 이 새로운 기능을 통해 OAuth 지원이 필요한 시스템과 통신할 수 있습니다.</p>
 <p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a>를 참조하십시오.
 </p>
 </td> 
@@ -515,4 +513,5 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 * 인앱 메시지를 보낼 때 전송 로그 화면에 주소가 표시되지 않는 문제를 수정했습니다.
 * SMS 전송 로그가 정확한 반송 수로 업데이트되지 않는 문제를 수정했습니다. (CAMP-38395)
 * 애플리케이션 구독 게시물 호출에서 푸시 알림 토큰을 업데이트하도록 허용하는 루프홀을 수정했습니다. (CAMP-39273)
+
 
