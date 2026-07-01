@@ -39,7 +39,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 5439
 ht-degree: 95%
@@ -513,5 +513,3 @@ CNAME 하위 도메인에 대한 인증서 갱신과 ![](assets/do-not-localize/
 * 인앱 메시지를 보낼 때 전송 로그 화면에 주소가 표시되지 않는 문제를 수정했습니다.
 * SMS 전송 로그가 정확한 반송 수로 업데이트되지 않는 문제를 수정했습니다. (CAMP-38395)
 * 애플리케이션 구독 게시물 호출에서 푸시 알림 토큰을 업데이트하도록 허용하는 루프홀을 수정했습니다. (CAMP-39273)
-
-

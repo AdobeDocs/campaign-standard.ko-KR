@@ -33,7 +33,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 4623
 ht-degree: 3%
@@ -555,5 +555,3 @@ _통합_
 * Adobe Campaign에서 이벤트 트리거를 배포할 때 오류가 발생했을 수 있는 문제를 해결했습니다. 이 오류는 &quot;30일 후에 반환될 가능성&quot; 메타데이터를 Adobe Marketing Cloud의 포기 트리거에 추가할 때 발생했습니다.
 * People 핵심 서비스에서 대상을 가져올 때 기술 워크플로우가 Target Dimension 필드를 지우는 문제를 해결했습니다. 후속 쿼리에서 가져온 대상자를 검색할 수 없습니다.
 * **[!UICONTROL Share in Adobe Marketing Cloud]** 옵션을 선택한 경우 워크플로우의 **[!UICONTROL Save audience]** 활동이 실패하는 문제를 해결했습니다.
-
-

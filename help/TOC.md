@@ -4,13 +4,12 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard의 제품 설명서입니다.
 title: Campaign Standard 안내서
 breadcrumb-title: Campaign Standard 설명서
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Campaign Standard 설명서 {#using}
 
@@ -509,4 +508,3 @@ ht-degree: 100%
       + [지리 단위 속성 업데이트](api/using/updating-geographical-unit-attributes.md)
    + [문제 해결](api/using/troubleshooting.md)
 + [Campaign 컨트롤 패널](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko)
-
