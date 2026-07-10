@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
 workflow-type: tm+mt
-source-wordcount: '7629'
-ht-degree: 100%
+source-wordcount: '7650'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
 
+
+## 2026년 6월 {#doc-updates-june-2026}
+
+이메일 추적 픽셀 및 관련 Adobe Campaign Standard 기능에 대한 CNIL 지침에 대한 페이지를 추가했습니다. [자세히 보기](../../administration/using/cnil-pixel-tracking.md)
 
 ## 릴리스 24.1 - 2024년 겨울 {#release-24-1}
 
@@ -588,7 +592,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 다이내믹 보고서의 지표 계산 섹션을 업데이트했습니다. [자세히 보기](../../reporting/using/indicator-calculation.md)
 
-다이내믹 보고 호환성 테이블을 추가했습니다. 이 테이블을 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ko)
+다이내믹 보고 호환성 테이블을 추가했습니다. 이 테이블을 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 워크플로에 대한 함수 목록이 업데이트되었습니다. [자세히 보기](../../automating/using/list-of-functions.md)
 
@@ -866,7 +870,7 @@ Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니
 
 게재를 준비하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세히 보기](../../sending/using/preparing-the-send.md)
 
-허가 목록이 포함된 섹션을 제거했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)&#x200B;(PDF)
+허가 목록이 포함된 섹션을 제거했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)&#x200B;(PDF)
 
 SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세히 보기](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1038,7 +1042,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 Adobe Campaign을 통한 사용자 핵심 서비스 또는 Audience Manager 통합을 구성하기 위한 지침을 추가했습니다. [자세히 보기](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-승인 테이블에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)
+승인 테이블에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 업데이트했습니다.
 
