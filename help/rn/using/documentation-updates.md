@@ -6,10 +6,10 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
 workflow-type: tm+mt
-source-wordcount: '7629'
-ht-degree: 100%
+source-wordcount: '7650'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
 
+
+## 2026년 6월 {#doc-updates-june-2026}
+
+이메일 추적 픽셀 및 관련 Adobe Campaign Standard 기능에 대한 CNIL 지침에 대한 페이지를 추가했습니다. [자세히 보기](../../administration/using/cnil-pixel-tracking.md)
 
 ## 릴리스 24.1 - 2024년 겨울 {#release-24-1}
 
@@ -244,7 +248,7 @@ Journey AI 통합 - [자세한 내용](../../sending/using/predictive.md)
 
 **트랜잭션 메시지 제한** 섹션을 [여기](../../channels/using/transactional-messaging-limitations.md)로 이동했습니다.
 
-**전송 준비** 섹션이[ 여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
+**전송 준비** 섹션이[&#x200B; 여기](../../sending/using/preparing-the-send.md)로 이동했습니다.
 
 ## 2020년 7월 {#doc-updates-july-2020}
 
