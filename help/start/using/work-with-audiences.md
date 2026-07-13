@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 6%
+source-wordcount: '789'
+ht-degree: 9%
 
 ---
 
@@ -43,9 +43,9 @@ ht-degree: 6%
 
 Adobe Campaign 프로필은 데이터베이스에 저장된 모든 연락처를 나타냅니다. 각 프로필은 데이터베이스의 한 항목에 해당하며, 여기에는 해당 프로필이 타겟팅되고 검증되고 개별적으로 추적되는 데 필요한 정보가 포함되어 있습니다. 즉, 프로필은 클라이언트, 잠재 고객, 뉴스레터를 구독한 개인, 수신자, 사용자 또는 조직에 따른 기타 모든 단체일 수 있습니다.
 
-**자세히 알아보기**
+**자세히 보기**
 
-* [프로필 기본 정보](../../audiences/using/about-profiles.md)
+* [프로필 정보](../../audiences/using/about-profiles.md)
 * [조직의 활성 프로필 수에 액세스](../../audiences/using/active-profiles.md)
 
 ## 데이터베이스 강화 {#populating-database}
@@ -74,34 +74,33 @@ Campaign Standard은 마케팅 데이터베이스를 확장하는 데 도움이 
 
 랜딩 페이지에 대한 자세한 내용은 [전용 설명서](../../channels/using/getting-started-with-landing-pages.md)를 참조하세요.
 
-**자세히 알아보기**
+**자세히 보기**
 
 * xxxx
 * xxxx
 
 ### Microsoft Dynamics 365에서 프로필 동기화
 
-Microsoft Dynamics 365와 Campaign Standard을 통합하면 Microsoft Dynamics 365의 연락처 데이터를 Campaign 데이터베이스로 전달할 수 있습니다.
-그러면 이러한 연락처는 프로필 목록에 표시되며 마케팅 캠페인에서 타겟팅할 수 있습니다. 이 통합에 대한 자세한 내용은 [전용 설명서](../../integrating/using/d365-acs-get-started.md)를 참조하세요.
+Microsoft Dynamics 365와 Campaign Standard을 통합하면 Microsoft Dynamics 365의 연락처 데이터를 Campaign 데이터베이스로 전달할 수 있습니다.그러면 이러한 연락처는 프로필 목록에 표시되며 마케팅 캠페인에서 타겟팅할 수 있습니다. 이 통합에 대한 자세한 내용은 [전용 설명서](../../integrating/using/d365-acs-get-started.md)를 참조하세요.
 
 >[!NOTE]
 >
->Campaign Standard-Microsoft Dynamics 365 커넥터는 현재 제한된 가용성이며 설명서에 자세히 나와 있는 몇 가지 제한 사항이 있습니다.
+>Campaign Standard-Microsoft Dynamics 365 커넥터는 현재 제한적 가용성이며, 이 커넥터에는 설명서에 자세히 나와 있는 몇 가지 제한 사항이 있습니다.
 
-**자세히 알아보기**
+**자세히 보기**
 
 * xxxx
 * xxxx
 
 ### API 호출을 통해 데이터 가져오기
 
-Campaign Standard API를 사용하면 프로필 또는 서비스의 만들기, 업데이트 또는 삭제와 같이 데이터베이스를 업데이트하는 작업을 수행할 수 있습니다. API 사용 방법에 대한 자세한 내용은 [전용 설명서](../../api/using/get-started-apis.md)를 참조하세요.
+Campaign Standard API를 사용하면 프로필 또는 서비스의 생성, 업데이트 또는 삭제와 같은 데이터베이스 업데이트 작업을 수행할 수 있습니다. API 사용 방법에 대한 자세한 내용은 [전용 설명서](../../api/using/get-started-apis.md)를 참조하세요.
 
 >[!CAUTION]
 >
 >API 호출을 통해 프로필을 대량으로 만들거나 업데이트하기 전에 라이선스 계약에 해당하는 크기 제한 사항을 확인하십시오. 자세한 정보는 이 [페이지](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)를 참조하십시오.
 
-**자세히 알아보기**
+**자세히 보기**
 
 * xxxx
 * xxxx
@@ -114,20 +113,20 @@ Adobe Campaign은 관련성 있고 효과적인 메시지를 전달하고 효과
 
 워크플로우 및 쿼리 편집기 덕분에 보유한 정보, 활동, 언어, 환경 설정 또는 마케팅 내역에 따라 다양한 캠페인이 타겟팅하는 대상을 구축할 수 있습니다. 이를 통해 구독한 프로필 등을 필터링하거나 기준을 제한 없이 타겟 대상자를 만들 수 있습니다.
 
-**자세히 알아보기**
+**자세히 보기**
 
 * [대상자 기본 정보](../../audiences/using/about-audiences.md)
 * [대상자 만들기](../../audiences/using/creating-audiences.md)
 
-## 개인 정보 관리 {#privacy-management}
+## 개인 정보 보호 관리 {#privacy-management}
 
 <img width="60px" alt="조건" src="assets/icon_privacy.svg"/>
 
-GDPR은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 EU에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다. Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 외에도 데이터 처리자로서의 역할에서 이 기회를 포착하여 추가 기능을 포함하여 특정 GDPR 요청에 대한 데이터 컨트롤러로서의 준비를 용이하게 합니다.
+GDPR은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 유럽 연합에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다. Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 외에도 데이터 처리자로서의 역할에서 이 기회를 포착하여 추가 기능을 포함하여 특정 GDPR 요청에 대한 데이터 컨트롤러로서의 준비를 용이하게 합니다.
 
 GDPR을 준수하는 데 도움이 되는 Adobe Campaign에서 제공하는 도구 및 기능에 대한 자세한 내용은 [이 섹션](../../start/using/privacy.md)을 참조하세요.
 
-**자세히 알아보기**
+**자세히 보기**
 
 * xxxx
 * xxxx
