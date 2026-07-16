@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 10%
+source-wordcount: '294'
+ht-degree: 23%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 10%
 
 <img width="60px" alt="조건" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 알아보기**
+**자세히 보기**
 
 * xxxx
 * xxxx
@@ -52,9 +52,9 @@ Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libe
 
 <img width="60px" alt="조건" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 알아보기**
+**자세히 보기**
 
 * xxxx
 * xxxx
@@ -63,9 +63,9 @@ Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libe
 
 <img width="60px" alt="조건" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 알아보기**
+**자세히 보기**
 
 * xxxx
 * xxxx
@@ -74,9 +74,9 @@ Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libe
 
 <img width="60px" alt="조건" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 전정 태반 mauris libero, non congue sapien rhoncus id. 정수 luctus blandit ligula. 누라 키스 차량 아우구, 라시니아 리수스. Nunc paretra fringilla enim eu sussipit. Mauris consectetur maximus euismod. Cras와 vehicula nulla. Aenean tellus quam, tritique quis risus consectetur, pulvinar elementum dui.
 
-**자세히 알아보기**
+**자세히 보기**
 
 * xxxx
 * xxxx
