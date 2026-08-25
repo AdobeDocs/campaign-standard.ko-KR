@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
-workflow-type: ht
-source-wordcount: '7650'
+source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+workflow-type: tm+mt
+source-wordcount: '7568'
 ht-degree: 100%
 
 ---
@@ -452,8 +452,6 @@ Microsoft Dynamics 365 통합(GA) - [자세한 내용](../../integrating/using/d
 
 **릴리스와 함께 제공되는 기타 설명서 업데이트**
 
-Adobe Campaign에 대한 오류 메시지 목록이 업데이트되었습니다. [자세히 보기](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
-
 GDPR 시작 가이드가 개선되고 보강되었습니다. 이제 GDPR 및 CCPA를 포함한 개인 정보 관리 문서입니다. [자세히 보기](https://helpx.adobe.com/content/help/ko/campaign/kb/campaign-privacy.html)
 
 트랜잭션 메시지 게시 프로세스를 설명하는 새로운 차트를 추가했습니다. [자세히 보기](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
@@ -534,8 +532,6 @@ Adobe Campaign Standard에서 사용자를 만드는 방법을 자세히 설명�
 
 워크플로 모범 사례에 대한 새로운 섹션을 추가했습니다. [자세히 보기](../../automating/using/best-practices-workflows.md)
 
-Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세히 보기](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
-
 사용자 정의 리소스 설명서에 경고를 추가했습니다. 사용자 정의 리소스 ID에는 최대 30자를 사용하는 것이 좋습니다. 이는 사용자 정의 리소스 필드, 키, 색인 및 링크에도 적용됩니다. [자세히 보기](../../developing/using/creating-or-extending-the-resource.md)
 
 ## 2019년 6월 - 7월 {#doc-updates-2019}
@@ -545,8 +541,6 @@ Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트�
 복합 식별 키를 사용하여 프로필을 호출하는 방법에 대한 사용 사례를 추가했습니다. [자세히 보기](../../developing/using/uc-calling-resource-id-key.md)
 
 매개 변수가 있는 워크플로를 호출할 때 합계 기간이 없는 반복 게재의 사용에 대한 추천 사항이 추가되었습니다. [자세히 보기](../../automating/using/calling-a-workflow-with-external-parameters.md)
-
-Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세히 보기](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
 사용자 정의 리소스 설명서에 경고를 추가했습니다. 사용자 정의 리소스 ID에는 최대 30자를 사용하는 것이 좋습니다. 이는 사용자 정의 리소스 필드, 키, 색인 및 링크에도 적용됩니다. [자세히 보기](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -592,7 +586,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 다이내믹 보고서의 지표 계산 섹션을 업데이트했습니다. [자세히 보기](../../reporting/using/indicator-calculation.md)
 
-다이내믹 보고 호환성 테이블을 추가했습니다. 이 테이블을 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ko)
+다이내믹 보고 호환성 테이블을 추가했습니다. 이 테이블을 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 워크플로에 대한 함수 목록이 업데이트되었습니다. [자세히 보기](../../automating/using/list-of-functions.md)
 
@@ -653,8 +647,6 @@ Adobe Campaign의 다양한 이메일 작성 옵션을 비교하는 새로운 �
 Adobe Campaign Standard 푸시 알림에서 이미지를 표시하는 방법에 대한 새로운 기술 정보를 추가했습니다. [자세히 보기](../../administration/using/image-push-notification.md)
 
 푸시 추적 구현에 대한 새로운 기술 정보를 추가했습니다. [자세히 보기](../../administration/using/push-tracking.md)
-
-Campaign Standard 및 Classic에 대한 오류 메시지 목록을 업데이트했습니다. [자세히 보기](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ko)
 
 트리거 - Campaign 통합 설명서를 업데이트했습니다. [자세히 보기](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -870,7 +862,7 @@ Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니
 
 게재를 준비하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세히 보기](../../sending/using/preparing-the-send.md)
 
-허가 목록이 포함된 섹션을 제거했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)&#x200B;(PDF)
+허가 목록이 포함된 섹션을 제거했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)&#x200B;(PDF)
 
 SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세히 보기](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1042,7 +1034,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 Adobe Campaign을 통한 사용자 핵심 서비스 또는 Audience Manager 통합을 구성하기 위한 지침을 추가했습니다. [자세히 보기](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-승인 테이블에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)
+승인 테이블에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 업데이트했습니다.
 
