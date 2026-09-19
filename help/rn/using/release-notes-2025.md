@@ -4,14 +4,12 @@ description: 이 페이지에는 Adobe Campaign Standard의 2025년 릴리스가
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89114
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+exl-id: 9046db34-f610-4721-b6eb-92334149366d
+source-git-commit: 4e39100c19fa7bd943b16e3ed87b8c2d82bdf814
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 94%
-
 ---
-
 # 2025년 릴리스 정보 {#release-notes-2025}
 
 ## 릴리스 25.2 - 2025년 여름 릴리스 {#summer-25}
@@ -58,4 +56,3 @@ ht-degree: 94%
 * 과금 프로세스의 성능 문제 해결(CAMP-56796)
 * JSSP 웹 페이지의 `>` 문자와 관련된 HTML 인코딩 문제 해결(CAMP-56497)
 * 동적 보고에서 **선택한 행에 표시** 옵션을 사용할 때의 문제 해결(CAMP-55895)
-
