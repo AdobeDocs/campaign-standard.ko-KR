@@ -6,11 +6,10 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 95%
+source-wordcount: '791'
+ht-degree: 96%
 
 ---
-
 
 # 가져오기 템플릿 정의{#defining-import-templates}
 
@@ -25,14 +24,14 @@ ht-degree: 95%
 * **[!UICONTROL Update Direct mail quarantines and delivery logs]**: 이 템플릿은 격리와 DM의 게재 로그를 업데이트하는 새 가져오기의 토대 역할을 합니다. 이 템플릿의 워크플로에는 다음 활동이 포함됩니다.
 * **[!UICONTROL Import data]**: 이 템플릿은 파일의 데이터를 데이터베이스에 삽입하는 새 가져오기의 토대 역할을 합니다. 이 템플릿의 워크플로에는 다음 활동이 포함됩니다.
 
-   * **[!UICONTROL Load file]**: 이 활동을 사용하면 Adobe Campaign 서버에 파일을 업로드할 수 있습니다.
-   * **[!UICONTROL Update data]**: 이 활동을 사용하면 파일의 데이터를 데이터베이스에 삽입할 수 있습니다.
+  * **[!UICONTROL Load file]**: 이 활동을 사용하면 Adobe Campaign 서버에 파일을 업로드할 수 있습니다.
+  * **[!UICONTROL Update data]**: 이 활동을 사용하면 파일의 데이터를 데이터베이스에 삽입할 수 있습니다.
 
 * **[!UICONTROL Import list]**: 이 템플릿은 파일의 데이터에서 **목록** 유형 대상자를 만드는 새 가져오기의 토대 역할을 합니다. 이 템플릿의 워크플로에는 다음 활동이 포함됩니다.
 
-   * **[!UICONTROL Load file]**: 이 활동을 사용하면 Adobe Campaign 서버에 파일을 업로드할 수 있습니다.
-   * **[!UICONTROL Reconciliation]**: 이 활동을 사용하면 타겟팅 차원을 가져온 데이터에 연결할 수 있습니다. 이를 통해 **목록** 유형 대상자를 만들 수 있습니다. 가져온 데이터의 타겟팅 차원을 알 수 없는 경우 이 대상자는 **파일** 유형이 됩니다. [타겟팅 차원 및 리소스](../../automating/using/query.md#targeting-dimensions-and-resources)를 참조하십시오.
-   * **[!UICONTROL Save audience]**: 이 활동을 사용하면 가져온 데이터를 **목록** 유형 대상자의 형태로 저장할 수 있습니다. 저장되는 대상자의 이름은 사용자가 가져온 파일의 이름에 해당하며, 가져온 날짜 및 시간을 표시하는 접미사가 추가됩니다. &#39;profiles_20150406_151448&#39;을 예로 들 수 있습니다.
+  * **[!UICONTROL Load file]**: 이 활동을 사용하면 Adobe Campaign 서버에 파일을 업로드할 수 있습니다.
+  * **[!UICONTROL Reconciliation]**: 이 활동을 사용하면 타겟팅 차원을 가져온 데이터에 연결할 수 있습니다. 이를 통해 **목록** 유형 대상자를 만들 수 있습니다. 가져온 데이터의 타겟팅 차원을 알 수 없는 경우 이 대상자는 **파일** 유형이 됩니다. [타겟팅 차원 및 리소스](../../automating/using/query.md#targeting-dimensions-and-resources)를 참조하십시오.
+  * **[!UICONTROL Save audience]**: 이 활동을 사용하면 가져온 데이터를 **목록** 유형 대상자의 형태로 저장할 수 있습니다. 저장되는 대상자의 이름은 사용자가 가져온 파일의 이름에 해당하며, 가져온 날짜 및 시간을 표시하는 접미사가 추가됩니다. &#39;profiles_20150406_151448&#39;을 예로 들 수 있습니다.
 
 기본 템플릿은 읽기 전용이며 표준 사용자에게는 보이지 않습니다. 사용자가 사용할 수 있는 템플릿을 만들려면 다음 단계를 수행하십시오.
 
