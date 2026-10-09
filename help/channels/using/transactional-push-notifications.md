@@ -158,7 +158,7 @@ Adobe Campaign을 사용하여 모바일 애플리케이션에서 알림을 받�
    >
    >데이터 보강 기능을 만들려면 필드를 하나 이상 추가해야 합니다. Adobe Campaign 데이터베이스의 개인화 필드를 사용할 수 있으므로 **이름** 및 **성**&#x200B;과 같은 다른 필드는 만들 필요가 없습니다.
 
-1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하기 위해 데이터 보강(이벤트 보강](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 참조)을 만들고 이 데이터 보강(3})을 선택합니다.[**[!UICONTROL Targeting enrichment]**
+1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하기 위해 데이터 보강(이벤트 보강[&#128279;](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 참조)을 만들고 이 데이터 보강(3&rbrace;)을 선택합니다.**[!UICONTROL Targeting enrichment]**
 
    >[!IMPORTANT]
    >
