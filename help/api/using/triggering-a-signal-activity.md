@@ -12,17 +12,18 @@ exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
 TQID: https://experienceleague.adobe.com/IrP8XxePz8vqhGyE9xyRa8cy6Rkgc4qyiVaZw1kOeZY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Developer
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '323'
 ht-degree: 2%
-
 ---
-
 # 신호 활동 트리거 {#triggering-a-signal-activity}
 
 Adobe Campaign Standard 워크플로에서는 하나 이상의 **외부 신호** 활동이 있을 수 있습니다. 이러한 활동은 트리거되기를 기다리는 &#39;리스너&#39;입니다.
