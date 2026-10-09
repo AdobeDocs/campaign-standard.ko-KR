@@ -11,19 +11,21 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 TQID: https://experienceleague.adobe.com/RK13F3Nw-2wxI9rKip-XKDJ3xi0hgpwI-F1uGcKoFKM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 1238
+source-wordcount: '1238'
 ht-degree: 18%
-
 ---
-
 # 이메일 디자인 기초 {#designing-an-email-content-from-scratch}
 
 이메일 콘텐츠 에디션을 마스터하는 방법에 대해 알아봅니다. 이메일 Designer을 사용하면 사전 정의된 고유한 콘텐츠로 시작하거나 사용하지 않고 이메일 및 템플릿을 만들 수 있습니다.
@@ -39,7 +41,7 @@ ht-degree: 18%
 1. 이메일을 미리 봅니다.
 1. 콘텐츠를 저장하고 대상자를 정의하고 전송을 적절하게 예약했는지 확인한 후 메시지를 계속 진행합니다.
 
-이 [소개 비디오](https://video.tv.adobe.com/v/330106/?captions=kor&autoplay=true&hidetitle=true)를 확인할 수도 있습니다.
+이 [소개 비디오](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)를 확인할 수도 있습니다.
 
 >[!NOTE]
 >

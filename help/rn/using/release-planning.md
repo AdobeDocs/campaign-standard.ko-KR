@@ -11,17 +11,18 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 TQID: https://experienceleague.adobe.com/J9pNnea7LEzzIOs3B8lLWG7DhVI-iytVfpArC3Xdy94
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Beginner
+source-git-commit: 85ffa7d709dc970ab5315fb76577c457380b40f8
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 100%
-
+source-wordcount: '417'
+ht-degree: 94%
 ---
-
 # 릴리스 계획 {#release-planning}
 
 Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔루션을 지속적으로 개선합니다.
@@ -30,39 +31,13 @@ Adobe는 새로운 기능, 개선 사항 및 수정 사항을 추가하여 솔�
 
 업그레이드는 두 단계로 배포됩니다. 먼저 Stage 인스턴스가 업그레이드되어 고객이 새로운 기능을 테스트하고 필요한 경우 구성을 변경할 수 있습니다. 그런 다음 프로덕션 인스턴스가 업그레이드됩니다.
 
-모든 릴리스 날짜는 변경될 수 있습니다. 업데이트를 확인하려면 이 페이지를 정기적으로 방문하십시오. 아래에 표시된 기간 동안 환경이 연속적으로 업데이트됩니다. 정확한 날짜는 각 고객에게 이메일로 전달됩니다.
+모든 릴리스 날짜는 변경될 수 있습니다. 업데이트를 확인하려면 이 페이지를 정기적으로 방문하십시오. 환경 업데이트는 지속적으로 이루어집니다. 정확한 날짜는 각 고객에게 이메일로 전달됩니다.
 
 ## 릴리스 26.3 {#release-26-3-release}
 
 이 릴리스에 대한 자세한 내용은 스테이징 환경 업그레이드가 시작될 때 [릴리스 정보](release-notes.md)에서 확인할 수 있습니다.
 
-<table>
- <thead>
-  <tr>
-   <th> 환경 </th>
-   <th> 날짜</th>
-   <!--
-   <th> General Availability </th>
-   -->
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>단계 </td>
-   <td>8월 </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
-  <tr>
-   <td>프로덕션 </td>
-   <td>9월 </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
- </tbody>
-</table>
+릴리스 26.3에 대한 업그레이드 날짜는 아직 사용할 수 없습니다. 업데이트를 확인하려면 이 페이지를 정기적으로 방문하십시오.
 
 ## 질문 및 답변 {#questions-and-answers}
 
