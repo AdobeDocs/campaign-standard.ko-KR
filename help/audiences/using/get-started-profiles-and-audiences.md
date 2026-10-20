@@ -87,7 +87,7 @@ Campaign을 사용할 때는 **쉬운 옵트인 및 옵트아웃 메커니즘**&
 
 >[!IMPORTANT]
 >
->[Adobe Campaign 허용 사용 정책](https://www.adobe.com/legal/terms/aup.html)을 준수해야 합니다.
+>[Adobe Campaign 허용 사용 정책](https://www.adobe.com/kr/legal/terms/aup.html)을 준수해야 합니다.
 
 자세한 내용:
 
