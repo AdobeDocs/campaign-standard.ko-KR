@@ -114,7 +114,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 * [새로운 기능을 개발하여 기본 제공 기능 향상](../../developing/using/data-model-concepts.md): 사용자 정의 리소스를 관리하고 진단 도구에 액세스합니다.
 * [인스턴스 매개 변수 설정](../../administration/using/branding.md): 다양한 브랜드를 정의하고 설정(로고, 추적 관리, 랜딩 페이지에 액세스하기 위한 URL 도메인 등)을 구성합니다.
 * [데이터 패키지 내보내기 및 가져오기](../../automating/using/managing-packages.md): 구조화된 XML 파일을 통해 다양한 Adobe Campaign 인스턴스 간에 리소스를 교환합니다.
-* [로그를 내보내고](../../automating/using/exporting-logs.md)[가져오기 템플릿을 정의](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)합니다.
+* [로그를 내보내고](../../automating/using/exporting-logs.md) [가져오기 템플릿을 정의](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)합니다.
 
 ### 고급 사용자 {#advanced-users}
 
@@ -128,7 +128,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 * [템플릿 관리](../../start/using/marketing-activity-templates.md): 템플릿을 관리하여 필요에 따라 마케팅 활동의 특정 매개 변수를 사전 구성합니다.
 * [쿼리 만들기](../../automating/using/editing-queries.md#about-query-editor) 및 [대상자 관리](../../audiences/using/about-audiences.md): 쿼리를 수동으로 사용하거나 전용 워크플로를 자동으로 사용하여 대상자를 만듭니다.
 * [고급 표현식 편집 수행](../../automating/using/editing-queries.md#about-query-editor): 고급 함수를 사용하여 날짜, 문자열, 숫자 필드, 정렬 등의 특정 쿼리 수행에 사용할 값을 조정합니다.
-* [목록을 내보내고](../../automating/using/exporting-lists.md)[기존 가져오기 템플릿을 사용하여 데이터를 가져옵니다](../../automating/using/importing-data-with-import-templates.md).
+* [목록을 내보내고](../../automating/using/exporting-lists.md) [기존 가져오기 템플릿을 사용하여 데이터를 가져옵니다](../../automating/using/importing-data-with-import-templates.md).
 
 ### 기본 사용자 {#basic-users}
 

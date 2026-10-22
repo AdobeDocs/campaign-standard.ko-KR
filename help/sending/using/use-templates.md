@@ -111,4 +111,4 @@ Adobe Campaign에서 브랜드 사용 및 구성에 대한 자세한 내용은 �
 
 템플릿에 브랜드를 연결하는 방법에 대한 자세한 내용은 [전자 메일에 브랜드 할당](../../administration/using/branding.md#assigning-a-brand-to-an-email)을 참조하십시오.
 
-이 섹션](../../administration/using/branding.md#creating-a-brand)에서 브랜드 [을(를) 만들고 구성하는 방법을 알아보세요.
+이 섹션[&#128279;](../../administration/using/branding.md#creating-a-brand)에서 브랜드 을(를) 만들고 구성하는 방법을 알아보세요.
