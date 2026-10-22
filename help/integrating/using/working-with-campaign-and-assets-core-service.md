@@ -59,5 +59,5 @@ Assets 핵심 서비스와의 통합이 [기능 관리자](../../administration/
 
 **관련 항목:**
 
-* [Assets 및 공유](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [Assets 및 공유](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=ko)
 * [콘텐츠 편집기](../../designing/using/personalization.md#example-email-personalization)

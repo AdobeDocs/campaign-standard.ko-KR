@@ -53,14 +53,14 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 >
 >API 또는 Adobe Experience Platform 인터페이스를 통해 수행할 수 있습니다. 자세한 내용은 다음 전용 설명서를 참조하십시오.
 >
->* [실시간 고객 프로필에 대한 데이터 세트 활성화](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
->* [API를 사용하여 실시간 고객 프로필 및 ID 서비스에 대한 데이터 집합 구성](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
+>* [실시간 고객 프로필에 대한 데이터 세트 활성화](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=ko)
+>* [API를 사용하여 실시간 고객 프로필 및 ID 서비스에 대한 데이터 집합 구성](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=ko)
 
 ## 주요 개념 {#key-concepts}
 
 * 기본 매핑은 Campaign Standard에서 기본적으로 제공되는 필드에만 사용할 수 있습니다. 모든 사용자 정의 필드 및 리소스를 수집하려면 각 고객이 고유한 매핑을 정의해야 합니다.
 
-* Adobe Experience Platform 데이터 커넥터는 정기적으로 플랫폼을 통해 프로필 데이터를 푸시합니다. &#x200B; 간격 기간은 15분입니다. 이 값은 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html)를 사용하여 수정할 수 있습니다.
+* Adobe Experience Platform 데이터 커넥터는 정기적으로 플랫폼을 통해 프로필 데이터를 푸시합니다. &#x200B; 간격 기간은 15분입니다. 이 값은 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko)를 사용하여 수정할 수 있습니다.
 
 * 데이터 엔지니어는 Campaign에서 Adobe Experience Platform으로의 매핑을 게시, 수정 및 일시 중지할 수 있습니다.
 
@@ -74,7 +74,7 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 * Experience Cloud ID 서비스(ECID)는 기본적으로 Experience 이벤트와 함께 전송되는 장치 식별자입니다.
 
-  방문자에게 할당된 고유한 영구 ID이며, Platform ID 서비스에서 다른 Experience Cloud 솔루션에서 동일한 방문자와 해당 데이터를 식별하는 데 사용할 수 있습니다. 자세한 내용은 [Experience Cloud ID 서비스 도움말](https://experienceleague.adobe.com/docs/id-service/using/home.html)을 참조하세요.
+  방문자에게 할당된 고유한 영구 ID이며, Platform ID 서비스에서 다른 Experience Cloud 솔루션에서 동일한 방문자와 해당 데이터를 식별하는 데 사용할 수 있습니다. 자세한 내용은 [Experience Cloud ID 서비스 도움말](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)을 참조하세요.
 
   >[!NOTE]
   >
@@ -84,7 +84,7 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 * 구독 이벤트의 기본 전송은 지원되지 않습니다. 구독 이벤트를 전송하기 위해 Adobe Experience Platform에서 해당 XDM 및 데이터 세트를 만든 다음 이러한 데이터에 대한 사용자 지정 데이터 매핑을 구성할 수 있습니다.
 
-* 개인 정보 보호 요청(액세스 및 삭제 작업 모두)과 관련하여 고객은 [개인 정보 보호 핵심 서비스](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)를 통해 Campaign용 요청과 Adobe Experience Platform용 요청을 별도로 수행해야 합니다. 자세한 내용은 Campaign의 [개인 정보 보호 요청 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ko#getting-started) 및 [개인 정보 보호 요청 관리](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)를 참조하십시오.
+* 개인 정보 보호 요청(액세스 및 삭제 작업 모두)과 관련하여 고객은 [개인 정보 보호 핵심 서비스](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko#how-to-use-privacy-service-to-manage-privacy-job-requests)를 통해 Campaign용 요청과 Adobe Experience Platform용 요청을 별도로 수행해야 합니다. 자세한 내용은 Campaign의 [개인 정보 보호 요청 정보](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ko#getting-started) 및 [개인 정보 보호 요청 관리](https://helpx.adobe.com/kr/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)를 참조하십시오.
 
 * 각 XDM 필드에 대해 Adobe Experience Platform에서 DULE 레이블을 지정해야 합니다. DULE 레이블을 적용하는 것은 고객의 책임입니다.
 
@@ -98,4 +98,4 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Adobe Experience Platform 데이터 커넥터와 관련된 추가 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)에서 볼 수 있습니다.
+Adobe Experience Platform 데이터 커넥터와 관련된 추가 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=ko)에서 볼 수 있습니다.

@@ -76,7 +76,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 **관련 항목:**
 
-* [사용자 권한 관리](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html) 비디오
+* [사용자 권한 관리](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=ko) 비디오
 * [역할 목록](../../administration/using/list-of-roles.md)
 * [권한 목록](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 

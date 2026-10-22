@@ -101,7 +101,7 @@ Campaign을 사용할 때는 **쉬운 옵트인 및 옵트아웃 메커니즘**&
 
 >[!IMPORTANT]
 >
->[Adobe Campaign 허용 사용 정책](https://www.adobe.com/legal/terms/aup.html)을 준수해야 합니다.
+>[Adobe Campaign 허용 사용 정책](https://www.adobe.com/kr/legal/terms/aup.html)을 준수해야 합니다.
 
 자세한 내용:
 
@@ -124,4 +124,4 @@ Campaign의 개인 정보 및 동의와 이를 관리하는 방법은 [이 섹�
 * [Microsoft Dynamics 365 작업](../../integrating/using/d365-acs-get-started.md)
 * [Adobe 공유 대상](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [워크플로우를 사용하여 프로필 가져오기](../../automating/using/creating-import-workflow-templates.md)
-* [프로필 및 대상자 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [프로필 및 대상자 비디오](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=ko)

@@ -49,7 +49,7 @@ Experience Platform SDK 애플리케이션을 사용하여 푸시 알림 및 인
 
 Adobe Experience Platform SDK 및 Campaign Standard 통합에 대한 자세한 내용은 아래 리소스를 참조하십시오.
 
-* Launch/Mobile [개요 비디오](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
+* Launch/Mobile [개요 비디오](https://www.adobe.com/kr/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
 * Launch/Mobile [팁 및 트릭 안내서](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Campaign Standard과 Adobe Campaign Classic 모두에서 Adobe Experience Platform SDK 통합을 사용할 수 있습니까? {#aep-validity}

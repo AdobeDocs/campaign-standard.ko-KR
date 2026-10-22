@@ -58,7 +58,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->배치를 실시간 고객 프로필 또는 ID 서비스에 수집하려면 데이터 세트가 [실시간 고객 프로필에 대해 활성화되어야 합니다](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>배치를 실시간 고객 프로필 또는 ID 서비스에 수집하려면 데이터 세트가 [실시간 고객 프로필에 대해 활성화되어야 합니다](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=ko).
 >
 >선택한 데이터 세트가 기존 데이터 매핑에서 이미 사용 중인 경우 Adobe Experience Platform에서 데이터를 덮어쓸 수 있다는 경고가 표시됩니다. 이 문제는 동일한 데이터 세트를 사용하는 데이터 매핑에 몇 가지 일반적인 수신자가 있을 때 발생할 수 있습니다.
 
@@ -78,7 +78,7 @@ Campaign Standard에 정의된 확장 리소스는 모든 기본 필드를 좋�
 
 API를 통해 XDM 확장을 사용자 지정하고 매핑을 더 잘 제어할 수 있도록 고유한 확장을 정의할 수 있습니다.
 
-XDM API에 대한 자세한 내용은 [스키마 레지스트리 API 자습서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)를 참조하십시오.
+XDM API에 대한 자세한 내용은 [스키마 레지스트리 API 자습서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하십시오.
 
 열거형 필드를 매핑하려면 표현식 편집기를 사용하여 XDM 값에 해당하는 각 열거형 값을 정의해야 합니다. 예를 들어 postaladdressfield를 다음과 같이 정의해야 합니다.
 

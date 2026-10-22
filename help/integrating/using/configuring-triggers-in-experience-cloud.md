@@ -115,7 +115,7 @@ Campaign에서 사용할 수 있도록 Adobe Experience Cloud 트리거를 만�
 
 Experience Cloud에서 새 트리거를 만들고 웹 사이트에서 사용되는 보고서 세트를 선택해야 합니다. 트리거가 실행될 수 있도록 올바른 차원을 선택해야 합니다.
 
-[Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html)를 참조하세요.
+[Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ko)를 참조하세요.
 
 ## 모범 사례 및 제한 사항 트리거 {#triggers-best-practices-and-limitations}
 

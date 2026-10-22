@@ -85,5 +85,5 @@ Campaign Standard API를 사용하면 Adobe Campaign Standard에 대한 통합�
 
 ## 추가 리소스
 
-* [사용자 지정 리소스 내보내기/가져오기](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [사용자 지정 리소스 내보내기/가져오기](https://helpx.adobe.com/kr/campaign/kb/acs-get-started-with-cusres.html)
 * [Campaign에서 Adobe Experience Platform으로 데이터 내보내기](../../integrating/using/export-campaign-data.md)
