@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-TQID: https://experienceleague.adobe.com/eSWqj-qyCQkrDNHl-7Pc6It5oBFHSBNG3-F0aoNiRYY
+TQID: 'https://experienceleague.adobe.com/eSWqj-qyCQkrDNHl-7Pc6It5oBFHSBNG3-F0aoNiRYY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 431
+source-wordcount: '431'
 ht-degree: 1%
-
 ---
-
 # Microsoft Dynamics 365 셀프서비스 앱과 Adobe Campaign Standard 통합 액세스
 
 이 구성을 사용하려면 조직의 Experience Cloud(EC) 관리자와 협력해야 합니다. 셀프서비스 통합 애플리케이션 인터페이스에 액세스할 수 있도록 하는 데 필요한 초기 단계입니다. 도구에 대한 액세스 권한을 보유하고 나면 데이터에 대한 연결을 설정하고 Adobe Campaign과 Microsoft Dynamics 365 간의 데이터 흐름을 구성할 수 있습니다.
@@ -38,15 +47,15 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> 이 단계를 수행하려면 조직의 Experience Cloud에서 **관리자** 역할이 필요합니다.
+> 이 단계를 수행하려면 조직에 Experience Cloud에서 **관리자** 역할이 필요합니다.
 >
 
-1. https://experience.adobe.com/으로 이동한 다음 Adobe Experience Cloud에 로그인합니다.
+1. https://experience.adobe.com/ 로 이동하여 Adobe Experience Cloud에 로그인합니다.
 1. **Admin Console**&#x200B;에 액세스합니다.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. Experience Cloud 솔루션에 액세스하려면 **[!UICONTROL Products]**&#x200B;을(를) 클릭하십시오.
+1. **[!UICONTROL Products]**&#x200B;을(를) 클릭하여 Experience Cloud 솔루션에 액세스합니다.
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 

@@ -6,29 +6,40 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-TQID: https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc
+TQID: 'https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: '1460'
 ht-degree: 3%
-
 ---
-
 # 모바일 애플리케이션 구성{#configuring-a-mobile-application}
 
 ## Adobe Experience Platform SDK를 사용하여 모바일 애플리케이션 구성 {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch은 Adobe Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과 제품 설명서에 몇 가지 용어 변경 사항이 적용되었습니다. 용어 변경에 대한 통합 참고 자료는 [다음 문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ko){target="_blank"}를 참조하십시오.
+> Adobe Experience Platform Launch은 Adobe Experience Platform의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과 제품 설명서에 몇 가지 용어 변경 사항이 적용되었습니다. 용어 변경에 대한 통합 참고 자료는 [다음 문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"}를 참조하십시오.
 
 푸시 알림 및 인앱 구현은 전문가 사용자가 수행해야 합니다. 도움이 필요하면 Adobe 계정 담당자 또는 전문 서비스 파트너에게 문의하십시오.
 
@@ -52,7 +63,7 @@ Adobe Experience Platform SDK를 사용하여 Adobe Campaign Standard에서 지�
    * Adobe Campaign Standard에서 IMS 사용자가 표준 사용자 및 관리자 제품 프로필의 일부인지 확인합니다. 이 단계에서는 사용자가 Adobe Campaign Standard에 로그인하고 Experience Platform SDK 모바일 앱 페이지로 이동한 다음, 데이터 수집 UI에서 만든 모바일 앱 속성을 볼 수 있습니다.
 
    * 데이터 수집 UI에서 IMS 사용자가 Experience Platform Launch 제품 프로필의 일부인지 확인합니다.
-이 단계에서는 사용자가 데이터 수집 UI에 로그인하여 속성을 만들고 볼 수 있습니다. 데이터 수집 UI의 제품 프로필에 대한 자세한 내용은 [제품 프로필 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=ko#gain-admin-rights-for-a-tags-product-profile)를 참조하십시오. 제품 프로필에 회사 또는 속성에 대해 설정된 권한이 없어야 하지만 사용자는 계속 로그인할 수 있어야 합니다.
+     이 단계에서는 사용자가 데이터 수집 UI에 로그인하여 속성을 만들고 볼 수 있습니다. 데이터 수집 UI의 제품 프로필에 대한 자세한 내용은 [제품 프로필 만들기](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)를 참조하십시오. 제품 프로필에 회사 또는 속성에 대해 설정된 권한이 없어야 하지만 사용자는 계속 로그인할 수 있어야 합니다.
 
    확장 설치, 앱 게시, 환경 구성 등과 같은 추가 작업을 완료하려면 제품 프로필에서 권한을 설정해야 합니다.
 

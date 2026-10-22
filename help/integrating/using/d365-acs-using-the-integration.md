@@ -9,23 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
-TQID: https://experienceleague.adobe.com/T42oZtcNQdBw12kOIe6Xdfn6AYiyp-nn6KL6rywjwU0
+TQID: 'https://experienceleague.adobe.com/T42oZtcNQdBw12kOIe6Xdfn6AYiyp-nn6KL6rywjwU0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1680
+source-wordcount: '1680'
 ht-degree: 0%
-
 ---
-
 # Microsoft Dynamics 365 통합 사용
 
 Microsoft Dynamics 365와의 Adobe Campaign Standard 통합에서 수행하는 몇 가지 데이터 흐름이 있습니다. 이러한 흐름은 [이 페이지](../../integrating/using/d365-acs-self-service-app-workflows.md)에 자세히 설명되어 있습니다.
@@ -145,7 +158,7 @@ Dynamics 사용자에 대한 타임라인 보기를 보려면 아래를 참조�
 
 * 숨겨진 하위 레코드가 있고 이 레코드에 액세스할 수 없는 상황이 발생하는 경우 일시적으로 카디널리티 링크 형식을 **0 또는 1개의 카디널리티 단순 링크**(으)로 변경하여 해당 레코드에 액세스할 수 있습니다.
 
-Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 섹션[&#128279;](../../developing/using/key-steps-to-add-a-resource.md)에서 을(를) 찾을 수 있습니다.
+Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 섹션](../../developing/using/key-steps-to-add-a-resource.md)에서 [을(를) 찾을 수 있습니다.
 
 ### 이메일 마케팅 이벤트 흐름{#email-marketing-event-flow}
 

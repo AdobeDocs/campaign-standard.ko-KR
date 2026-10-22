@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-TQID: https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw
+TQID: 'https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 886
+source-wordcount: '886'
 ht-degree: 79%
-
 ---
-
 # 세분화{#segmentation}
 
 ## 설명 {#description}
@@ -104,8 +113,8 @@ ht-degree: 79%
 1. 필요한 경우 **[!UICONTROL Advanced options]** 탭에서 매개 변수를 편집합니다.
 
    * **[!UICONTROL Enable overlapping of outbound populations]** 옵션은 여러 세그먼트에 속하는 프로필을 관리하는 방법을 정의합니다.
-      * 옵션이 활성화되지 않으면 **[!UICONTROL Segmentation]** 활동에서는 프로필이 여러 하위 집합의 기준을 만족하더라도 프로필이 여러 출력 전환에 존재하지 않는지 확인합니다.
-      * 옵션이 활성화되면 프로필이 필터 기준을 충족하는 경우 여러 하위 집합에서 프로필을 찾을 수 있습니다.
+     * 옵션이 활성화되지 않으면 **[!UICONTROL Segmentation]** 활동에서는 프로필이 여러 하위 집합의 기준을 만족하더라도 프로필이 여러 출력 전환에 존재하지 않는지 확인합니다.
+     * 옵션이 활성화되면 프로필이 필터 기준을 충족하는 경우 여러 하위 집합에서 프로필을 찾을 수 있습니다.
    * 남겨 두려는 세그먼트 코드가 인바운드 모집단에 이미 할당된 경우 **[!UICONTROL Concatenate the code of each segment]** 옵션을 선택합니다. 활동에 지정된 세그먼트 코드가 초기 세그먼트 코드에 추가됩니다.
    * 나머지 모집단을 활용해야 하는 경우 **[!UICONTROL Generate complement]** 옵션을 선택하십시오. [사용 사례: 보충 자료를 사용하여 게재 만들기](../../automating/using/workflow-created-query-with-complement.md)를 참조하세요.
 

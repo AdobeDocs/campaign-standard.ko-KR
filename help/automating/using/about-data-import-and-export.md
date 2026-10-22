@@ -9,18 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
-TQID: https://experienceleague.adobe.com/WP1mlY9lQQu5qWqIx5L89VE6MxnOhxoYewTWAYwfFTI
+TQID: 'https://experienceleague.adobe.com/WP1mlY9lQQu5qWqIx5L89VE6MxnOhxoYewTWAYwfFTI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: '324'
 ht-degree: 24%
-
 ---
-
 # 데이터 가져오기 및 내보내기 기본 정보{#about-data-import-and-export}
 
 비즈니스 요구 사항에 따라 Adobe Campaign을 사용하여 데이터를 가져오고 내보내는 몇 가지 방법이 있습니다.
@@ -29,8 +40,8 @@ ht-degree: 24%
 * **목록**: 모든 목록 화면을 구성하고 표시된 데이터를 별도의 파일로 내보낼 수 있습니다.
 * **워크플로우**: 파일에서 데이터를 가져와서 데이터베이스를 업데이트하거나 전자 메일을 보내는 데 사용합니다. 파일로 내보낼 데이터를 선택할 수도 있습니다. 워크플로우는 프로필 가져오기와 같은 정기적인 업데이트를 자동화하는 가장 좋은 방법입니다.
 
-   * **[!UICONTROL Load file]** 활동을 통해 데이터를 Adobe Campaign에서 사용할 수 있도록 하나의 구조화된 양식으로 가져올 수 있습니다. 파일 로드 활동을 통한 데이터 가져오기는 일시적이며, 가져온 데이터를 Adobe Campaign 데이터베이스에 완전히 통합하려면 다른 활동이 필요합니다. 이 활동을 사용하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/load-file.md)을 참조하세요.
-   * **[!UICONTROL Transfer file]** 활동을 사용하면 Adobe Campaign에서 파일을 받거나 보내고, 파일이 있는지 테스트하거나, 파일 목록을 만들 수 있습니다. 외부 소스에서 파일을 검색해야 하는 경우 **[!UICONTROL Load file]** 전에 이 활동을 사용할 수 있습니다. 이 활동을 사용하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/transfer-file.md)을 참조하세요.
+  * **[!UICONTROL Load file]** 활동을 통해 데이터를 Adobe Campaign에서 사용할 수 있도록 하나의 구조화된 양식으로 가져올 수 있습니다. 파일 로드 활동을 통한 데이터 가져오기는 일시적이며, 가져온 데이터를 Adobe Campaign 데이터베이스에 완전히 통합하려면 다른 활동이 필요합니다. 이 활동을 사용하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/load-file.md)을 참조하세요.
+  * **[!UICONTROL Transfer file]** 활동을 사용하면 Adobe Campaign에서 파일을 받거나 보내고, 파일이 있는지 테스트하거나, 파일 목록을 만들 수 있습니다. 외부 소스에서 파일을 검색해야 하는 경우 **[!UICONTROL Load file]** 전에 이 활동을 사용할 수 있습니다. 이 활동을 사용하는 방법에 대한 자세한 내용은 [이 섹션](../../automating/using/transfer-file.md)을 참조하세요.
 
 가져오기 프로세스를 디자인할 때는 필요에 맞게 조정할 수 있는 워크플로우 템플릿을 사용하는 것이 좋습니다. 데이터를 가져오기 위해 워크플로 템플릿을 설정하는 방법에 대한 자세한 내용은 [이 사용 사례](../../automating/using/creating-import-workflow-templates.md)를 참조하십시오.
 

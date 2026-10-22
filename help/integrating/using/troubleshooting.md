@@ -9,24 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-TQID: https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY
+TQID: 'https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 0%
-
 ---
-
 # 문제 해결{#troubleshooting}
 
 Audience Manager 또는 People 핵심 서비스와의 통합을 사용하는 동안 오류가 발생할 수 있습니다.
@@ -37,8 +49,8 @@ Audience Manager 또는 People 핵심 서비스와의 통합을 사용하는 동
 
   **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**&#x200B;에서 다음 외부 S3 계정이 올바르게 구성되었는지 확인하십시오. 앞서 언급한 S3 서버는 프로비저닝 중에 구성되어야 합니다.
 
-   * **[!UICONTROL importSharedAudience]**: 대상자 가져오기 전용 S3 계정
-   * **[!UICONTROL exportSharedAudience]**: 대상자 내보내기 전용 S3 계정입니다.
+  * **[!UICONTROL importSharedAudience]**: 대상자 가져오기 전용 S3 계정
+  * **[!UICONTROL exportSharedAudience]**: 대상자 내보내기 전용 S3 계정입니다.
 
 * **공유 데이터 원본**
 
@@ -54,9 +66,9 @@ Audience Manager 또는 People 핵심 서비스와의 통합을 사용하는 동
 
   AES 암호화 알고리즘을 선택한 경우 다음 추가 필드를 올바르게 설정해야 합니다.
 
-   * AES용 **암호화 키**
-   * AES용 **암호화 IV**(초기화 벡터)
-   * **채널**(전자 메일/SMS/기타): 이 필드에서는 전자 메일 주소 및 SMS 번호의 암호를 직접 해독할 수 있습니다. 조정 키가 **채널** 필드의 설정과 일치하는지 확인하십시오. &quot;기타&quot;를 선택하면 이 특정 암호 해독이 발생하지 않으며 조정 키가 데이터를 조정하는 데 사용됩니다.
+  * AES용 **암호화 키**
+  * AES용 **암호화 IV**(초기화 벡터)
+  * **채널**(전자 메일/SMS/기타): 이 필드에서는 전자 메일 주소 및 SMS 번호의 암호를 직접 해독할 수 있습니다. 조정 키가 **채널** 필드의 설정과 일치하는지 확인하십시오. &quot;기타&quot;를 선택하면 이 특정 암호 해독이 발생하지 않으며 조정 키가 데이터를 조정하는 데 사용됩니다.
 
   기술 워크플로우가 중지 또는 일시 중지되었으므로 Experience Cloud 대상이 공유되지 않을 수 있습니다. 데이터 원본에서 직접 **[!UICONTROL Show ImportShared Audience workflow]** 옵션을 클릭하여 **[!UICONTROL Import shared audience]** 워크플로에 액세스합니다.
 

@@ -3,18 +3,20 @@ title: ISP 중단 후 바운스 선별 업데이트
 description: ISP 중단 후 바운스 자격을 업데이트하는 방법을 알아봅니다.
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
+TQID: 'https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '446'
 ht-degree: 3%
-
 ---
-
 # ISP 중단 후 바운스 선별 업데이트 {#update-bounce-qualification.md}
 
 ## 컨텍스트
@@ -23,7 +25,7 @@ ISP가 중단되는 경우 Campaign을 통해 보낸 이메일이 수신자에�
 
 2020년 12월, Gmail의 글로벌 문제로 인해 유효한 Gmail 전자 메일 주소로 전송된 일부 전자 메일 메시지가 바운스 다음 응답과 함께 Gmail 서버에서 잘못된 전자 메일 주소로 잘못 하드 바운스되었습니다. *&quot;550-5.1.1 연결하려고 시도한 전자 메일 계정이 존재하지 않습니다.&quot;*
 
-Google은 이 문제를 일으킨 Gmail 중단 및 중단은 12월 14일 6:55AM에서 시작되어 12월 15일 EST 6:09PM에서 종료되었다고 밝혔습니다. 또한 데이터 분석에서는 12월 16일 2:06AM EST에서 Gmail 바운스의 매우 짧은 급증을 보여주었으며, 12월 15일 오후 2:00 EST에서 6:30 EST 사이에 가장 많이 발생했습니다.
+Google은 이 문제를 일으킨 Gmail 중단과 운영 중단이 12월 14일 오전 6시 55분에 시작되어 12월 15일 오후 6시 9분 EST에서 종료되었다고 밝혔습니다. 또한 데이터 분석에서는 12월 16일 오전 2시 6분 EST에서 Gmail 바운스의 매우 짧은 급증을 보여주었으며, 12월 15일 오후 2시~오후 6시 30분 EST 사이에 가장 많은 수가 발생했습니다.
 
 >[!NOTE]
 >

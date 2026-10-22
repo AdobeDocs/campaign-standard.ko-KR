@@ -10,25 +10,38 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
+TQID: 'https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2262
+source-wordcount: '2262'
 ht-degree: 92%
-
 ---
-
 # 외부 API {#external-api}
 
 ## 설명 {#description}
@@ -108,7 +121,7 @@ JSON 파서는 일부 예외를 제외하고 표준 JSON 구조 패턴 유형을
 
 샘플 JSON 정의에는 **다음 특성**&#x200B;이 있어야 합니다.
 
-* **배열 요소**&#x200B;에는 첫 번째 수준 속성이 포함되어야 합니다(더 깊은 레벨은 지원되지 않음).
+* **배열 요소**에는 첫 번째 수준 속성이 포함되어야 합니다(더 깊은 레벨은 지원되지 않음).
   **속성 이름**&#x200B;은 출력 임시 테이블의 출력 스키마에 대한 열 이름이 됩니다.
 * 캡처할 **JSON 요소**&#x200B;는 JSON 응답 내에 10 이하의 중첩 수준이어야 합니다.
 * **열 이름** 정의는 &quot;data&quot; 배열의 첫 번째 요소를 기반으로 합니다.

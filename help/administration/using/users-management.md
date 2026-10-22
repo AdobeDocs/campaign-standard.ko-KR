@@ -6,42 +6,63 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-TQID: https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA
+TQID: 'https://experienceleague.adobe.com/i2k6ljZYcDA4Fg4lqWm7LffeNukHA4SlvHUg3-ljsmA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1227
+source-wordcount: '1227'
 ht-degree: 81%
-
 ---
-
 # 사용자 관리{#users-management}
 
 ## 사용자 기본 정보 {#about-users}
 
 Adobe Campaign을 사용하면 사용자에게 역할 세트를 할당하여 인터페이스에서 액세스 가능한 부분을 정의할 수 있습니다.
 
-특정 역할 및 이에 해당하는 권한은 다음 섹션에 자세히 설명되어 있습니다. [역할 이해](../../administration/using/list-of-roles.md) 및 [권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)
+특정 역할 및 이에 해당하는 권한은 다음 섹션에 자세히 설명되어 있습니다. [역할 이해](../../administration/using/list-of-roles.md) 및 [권한](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 관리자는 Admin Console에서 사용자를 관리할 수 있습니다. 그러면 사용자는 Adobe Campaign과 자동으로 동기화됩니다. 자세한 내용은 [Admin Console](https://helpx.adobe.com/kr/enterprise/using/users.html) 설명서를 참조하세요.
 
@@ -55,9 +76,9 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 **관련 항목:**
 
-* [사용자 권한 관리](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=ko) 비디오
+* [사용자 권한 관리](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html) 비디오
 * [역할 목록](../../administration/using/list-of-roles.md)
-* [권한 목록](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)
+* [권한 목록](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## 사용자 유형 {#type-of-users}
 
@@ -93,7 +114,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 * [새로운 기능을 개발하여 기본 제공 기능 향상](../../developing/using/data-model-concepts.md): 사용자 정의 리소스를 관리하고 진단 도구에 액세스합니다.
 * [인스턴스 매개 변수 설정](../../administration/using/branding.md): 다양한 브랜드를 정의하고 설정(로고, 추적 관리, 랜딩 페이지에 액세스하기 위한 URL 도메인 등)을 구성합니다.
 * [데이터 패키지 내보내기 및 가져오기](../../automating/using/managing-packages.md): 구조화된 XML 파일을 통해 다양한 Adobe Campaign 인스턴스 간에 리소스를 교환합니다.
-* [로그를 내보내고](../../automating/using/exporting-logs.md) [가져오기 템플릿을 정의](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)합니다.
+* [로그를 내보내고](../../automating/using/exporting-logs.md)[가져오기 템플릿을 정의](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)합니다.
 
 ### 고급 사용자 {#advanced-users}
 
@@ -107,7 +128,7 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 * [템플릿 관리](../../start/using/marketing-activity-templates.md): 템플릿을 관리하여 필요에 따라 마케팅 활동의 특정 매개 변수를 사전 구성합니다.
 * [쿼리 만들기](../../automating/using/editing-queries.md#about-query-editor) 및 [대상자 관리](../../audiences/using/about-audiences.md): 쿼리를 수동으로 사용하거나 전용 워크플로를 자동으로 사용하여 대상자를 만듭니다.
 * [고급 표현식 편집 수행](../../automating/using/editing-queries.md#about-query-editor): 고급 함수를 사용하여 날짜, 문자열, 숫자 필드, 정렬 등의 특정 쿼리 수행에 사용할 값을 조정합니다.
-* [목록을 내보내고](../../automating/using/exporting-lists.md) [기존 가져오기 템플릿을 사용하여 데이터를 가져옵니다](../../automating/using/importing-data-with-import-templates.md).
+* [목록을 내보내고](../../automating/using/exporting-lists.md)[기존 가져오기 템플릿을 사용하여 데이터를 가져옵니다](../../automating/using/importing-data-with-import-templates.md).
 
 ### 기본 사용자 {#basic-users}
 
@@ -178,6 +199,6 @@ Adobe Campaign에서 사용자 관리 인터페이스에 액세스하려면 **[!
 
 이 비디오는 사용자 액세스 권한을 관리하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/36113?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
 추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.

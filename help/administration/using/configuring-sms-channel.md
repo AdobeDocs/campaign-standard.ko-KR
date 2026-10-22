@@ -6,13 +6,25 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 87%
-
+source-wordcount: '1624'
+ht-degree: 88%
 ---
-
 # SMS 채널 구성{#configuring-sms-channel}
 
 SMS 메시지를 전송하려면 관리자가 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** 메뉴 아래에 하나 이상의 외부 계정을 구성해야 합니다.
@@ -302,8 +314,8 @@ Adobe Campaign은 **[!UICONTROL DATA_CODING]** 필드를 통해 인코딩이 사
 
 * **[!UICONTROL Define a specific mapping of encodings]** 기능을 선택하지 않으면 커넥터가 일반 동작을 수행합니다.
 
-   * 이는 GSM 인코딩을 사용하여 **data_coding = 0** 값을 할당하려고 합니다.
-   * GSM 인코딩이 실패할 경우 **UCS2** 인코딩을 사용하여 **data_coding = 8** 값을 할당합니다 .
+  * 이는 GSM 인코딩을 사용하여 **data_coding = 0** 값을 할당하려고 합니다.
+  * GSM 인코딩이 실패할 경우 **UCS2** 인코딩을 사용하여 **data_coding = 8** 값을 할당합니다 .
 
   ![](assets/sms_data_coding.png)
 
@@ -349,6 +361,6 @@ SMS 템플릿의 **[!UICONTROL Send]** 섹션에서 다음을 수행합니다.
 
 * **[!UICONTROL Transmission mode]** 필드에서는 SMS 메시지의 게재 방법을 결정할 수 있습니다.
 
-   * **[!UICONTROL Saved on SIM card]**: 메시지가 수신자의 전화 SIM 카드에 저장됩니다.
-   * **[!UICONTROL Saved on mobile]**: 메시지가 전화의 내부 메모리에 저장됩니다.
-   * **[!UICONTROL Flash]**: 메시지가 수신자의 휴대전화에 알림으로 표시된 뒤 저장되지 않고 사라집니다.
+  * **[!UICONTROL Saved on SIM card]**: 메시지가 수신자의 전화 SIM 카드에 저장됩니다.
+  * **[!UICONTROL Saved on mobile]**: 메시지가 전화의 내부 메모리에 저장됩니다.
+  * **[!UICONTROL Flash]**: 메시지가 수신자의 휴대전화에 알림으로 표시된 뒤 저장되지 않고 사라집니다.

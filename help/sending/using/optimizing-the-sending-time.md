@@ -8,22 +8,29 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
-TQID: https://experienceleague.adobe.com/FjL5t1ohvrgDdqLiCr03z1Nbq6IukIBysKkmXJ7561c
+TQID: 'https://experienceleague.adobe.com/FjL5t1ohvrgDdqLiCr03z1Nbq6IukIBysKkmXJ7561c'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 0d3d7867-163e-5570-9cfc-7132e55fb049
+    internal-label: Send Time Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Optimization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 279
-ht-degree: 74%
-
+source-wordcount: '283'
+ht-degree: 73%
 ---
-
 # 보내는 시간 최적화{#optimizing-the-sending-time}
 
 메시지 열람률을 향상시키기 위해 수신자마다 보내는 시간을 수동으로 정의할 수 있습니다. 각 프로필은 가능한 한 지정된 날짜와 시간에 메시지를 수신합니다.
@@ -41,11 +48,11 @@ ht-degree: 74%
 
 * **[!UICONTROL No optimization]**: 메시지가 사용자의 시간대에 전송됩니다.
 
-  예를 들어 시간대가 GMT+1이고 **[!UICONTROL Start sending from]** 필드에 오전 9시:00을 입력하면 GMT+3 시간대에 있는 수신자는 해당 수신자의 현지 시간으로 오전 11시:00에 메시지를 수신하게 됩니다.
+  예를 들어 시간대가 GMT+1이고 **[!UICONTROL Start sending from]** 필드에 오전 9시를 입력하면 GMT+3 시간대에 있는 수신자는 해당 수신자의 현지 시간으로 오전 11시에 메시지를 수신하게 됩니다.
 
 * **[!UICONTROL Send at the recipient's time zone]**: 모든 수신자는 시간대를 고려하여 메시지를 수신하게 됩니다.
 
-  예를 들어 **[!UICONTROL Start sending from]** 필드에 오전 9:00시를 입력하면 GMT+3 시간대에 있는 수신자는 해당 수신자의 현지 시간으로 오전 9:00시에 메시지를 수신하게 됩니다.
+  예를 들어 **[!UICONTROL Start sending from]** 필드에 오전 9시를 입력하면 GMT+3 시간대에 있는 수신자는 해당 수신자의 현지 시간으로 오전 9시에 메시지를 수신하게 됩니다.
 
   [수신자의 시간대에 맞추어 메시지 보내기](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)를 참조하십시오.
 

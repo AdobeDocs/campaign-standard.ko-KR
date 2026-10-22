@@ -8,24 +8,29 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-TQID: https://experienceleague.adobe.com/tRlMSUm-bynVDmN2YClSdIvfWmwmh-9sNublU2wFnpo
+TQID: 'https://experienceleague.adobe.com/tRlMSUm-bynVDmN2YClSdIvfWmwmh-9sNublU2wFnpo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Accessibility
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 661
-ht-degree: 100%
-
+source-wordcount: '663'
+ht-degree: 95%
 ---
-
 # Adobe Campaign Standard의 접근성 {#accessibility-acs}
 
 Adobe Campaign Standard Workspace의 접근성 지원에 대해 알아봅니다.
@@ -40,11 +45,11 @@ Adobe Campaign Standard에서는 대비, 레이블, 구조화된 콘텐츠, 키�
 
 Adobe Campaign Standard 사용자 인터페이스에서는 저시력 또는 색각 이상이 있는 사용자가 편하게 볼 수 있도록 애플리케이션의 충분한 대비를 제공하려 노력하고 있습니다.
 
-* 큰 텍스트와 제목이 3:1의 명암비를 충족하도록 향상되었습니다.
+* 대비 비율 3:1을 충족하도록 큰 텍스트와 제목이 향상되었습니다.
 
   ![](assets/accessibility_2.png)
 
-* 애플리케이션의 도움말 콘텐츠와 본문이 4.5:1 명암비를 충족하도록 업데이트되었습니다.
+* 애플리케이션의 도움말 콘텐츠와 본문이 대비 비율 4.5:1을 충족하도록 업데이트되었습니다.
 
 * 배경색과 전경색 간의 대비를 개선하기 위해 워크플로의 일시 중지 및 취소 아이콘이 업데이트되었습니다.
 
@@ -60,7 +65,7 @@ Adobe Campaign Standard 사용자 인터페이스를 사용하면 시각적 요�
 
   ![](assets/accessibility_3.png)
 
-* 마우스로 가리키거나 초점이 맞춰질 때 나타나는 콘텐츠는 사용자가 해제할 수 있으며 다른 콘텐츠를 가리지 않습니다.
+* 마우스로 가리키거나 초점이 맞춰진 콘텐츠는 사용자가 해제할 수 있으며 다른 콘텐츠를 가리지 않습니다.
 
   ![](assets/accessibility_4.png)
 

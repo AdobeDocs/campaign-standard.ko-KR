@@ -9,27 +9,37 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-TQID: https://experienceleague.adobe.com/5NImytAekQWkqNUg9l3qwa2FM1jPpchNBlY-9jeXkG0
+TQID: 'https://experienceleague.adobe.com/5NImytAekQWkqNUg9l3qwa2FM1jPpchNBlY-9jeXkG0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1043
+source-wordcount: '1062'
 ht-degree: 7%
-
 ---
-
 # 개인화된 콘텐츠 작성 {#build-personalized-content}
 
 메시지 콘텐츠를 디자인할 때 게재를 실행할 수 없는 일반적인 문제를 방지하십시오. 대부분의 경우, 가능한 오류는 [개인화](../../designing/using/personalization.md), [기존 콘텐츠를 사용](../../designing/using/using-existing-content.md) 및 [HTML 콘텐츠 전환](../../designing/using/using-existing-content.md#converting-an-html-content) 및 [이미지](../../designing/using/images.md)과(와) 관련된 것입니다.
@@ -84,7 +94,7 @@ Personalization 기본 사항은 [이 섹션](../../designing/using/personalizat
 
 **팁**: 사람의 실수는 항상 가능하므로 보낼 때마다 옵트아웃 링크가 올바르게 작동하는지 확인하세요. 예를 들어 증명을 보낼 때 링크가 유효한지, 양식이 온라인 상태인지, 이 받는 사람에게 더 이상 연락하지 않음 필드가 예로 변경되었는지 확인합니다.
 
-이 섹션[&#128279;](../../designing/using/personalization.md#adding-a-content-block)에서 옵트아웃 링크 을(를) 삽입하는 방법을 알아봅니다.
+이 섹션](../../designing/using/personalization.md#adding-a-content-block)에서 옵트아웃 링크 [을(를) 삽입하는 방법을 알아봅니다.
 
 ### 이메일 크기 {#email-size}
 
@@ -114,7 +124,7 @@ Adobe에서는 최대 메시지 크기 기본값을 유지하는 것이 좋습�
 
 기본적으로 SMS의 글자 수는 GSM(이동통신 글로벌 시스템) 표준을 충족합니다. GSM 인코딩을 사용하는 SMS 메시지는 SMS당 160자, 또는 여러 부분으로 나누어 전송되는 메시지의 경우 153자로 제한됩니다.
 
-변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 **[!UICONTROL External account]**&#x200B;의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
+변환은 GSM 표준에서 고려하지 않는 SMS 문자를 다른 문자로 바꾸는 작업입니다. SMS 메시지의 콘텐츠에 개인화 필드를 삽입하면 GSM 인코딩에서 고려하지 않는 문자가 들어갈 수 있습니다. 해당 **[!UICONTROL External account]**의 SMPP 채널 설정 탭에서 해당 상자를 선택하여 문자 변환을 승인할 수 있습니다.
 자세한 내용은 [이 섹션](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)을 참조하세요.
 
 **팁**:

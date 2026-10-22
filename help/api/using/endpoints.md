@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 11%
-
+source-wordcount: '248'
+ht-degree: 10%
 ---
-
 # 엔드포인트 {#endpoints}
 
 Adobe Campaign REST API에 사용할 수 있는 엔드포인트:
@@ -25,12 +37,12 @@ Adobe Campaign REST API에 사용할 수 있는 엔드포인트:
 * **/&lt;transactionalAPI>**: 트랜잭션 메시지 API와 상호 작용합니다(트랜잭션 메시지 API 끝점의 이름은 인스턴스 구성에 따라 다름). 이 작업에 대한 자세한 정보는 [이 섹션](../../api/using/managing-transactional-messages.md)을 참조하십시오.
 * **/workflow/execution**: 워크플로우와 상호 작용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../api/using/controlling-a-workflow.md)을 참조하십시오.
 * **/privacy/privacyTool**: 개인 정보 보호 요청의 자동 프로세스를 허용하도록 개인 정보 보호 API와 상호 작용합니다. 이 작업에 대한 자세한 정보는 [이 섹션](../../api/using/creating-a-privacy-request.md)을 참조하십시오.
-* **/history**: 프로필의 마케팅 내역을 검색합니다. Campaign의 통합 고객 프로필에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/kr/campaign/standard/audiences/using/integrated-customer-profile.html)를 참조하세요.
+* **/history**: 프로필의 마케팅 내역을 검색합니다. Campaign의 통합 고객 프로필에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)를 참조하세요.
 
 기본적으로 **profileAndServices** 및 **profileAndServicesExt** API에 사용할 수 있는 기본 리소스는 다음과 같습니다.
 
-* **/profile**: Campaign 데이터베이스의 프로필과 상호 작용합니다. 서비스에 프로필을 추가하려면 **/service** 끝점을 사용하세요. Campaign의 프로필에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/kr/campaign/standard/audiences/using/about-profiles.html)를 참조하세요.
-* **/service**: 구독 서비스를 관리합니다. Campaign의 서비스에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/kr/campaign/standard/audiences/using/creating-a-service.html)를 참조하세요.
+* **/profile**: Campaign 데이터베이스의 프로필과 상호 작용합니다. 서비스에 프로필을 추가하려면 **/service** 끝점을 사용하세요. Campaign의 프로필에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)를 참조하세요.
+* **/service**: 구독 서비스를 관리합니다. Campaign의 서비스에 대한 자세한 내용은 [Campaign 설명서](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)를 참조하세요.
 
 >[!NOTE]
 >

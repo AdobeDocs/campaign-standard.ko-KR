@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '249'
 ht-degree: 0%
-
 ---
-
 # Experience Data Model 개요 {#experience-data-model-overview}
 
 >[!IMPORTANT]
@@ -33,7 +48,7 @@ XDM Workspace은 데이터 스키마를 보고, 만들고, 확장할 수 있는 
 
 XDM 사용자 인터페이스에 액세스하려면 Adobe Experience Platform을 엽니다. XDM 스키마를 생성하거나 확장하려면 데이터 모델 창으로 이동합니다.
 
-전체 [XDM Workspace 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)를 참조하세요.
+전체 [XDM Workspace 설명서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)를 참조하세요.
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +63,4 @@ XDM 스키마 API를 통해 다음 작업을 수행할 수 있습니다.
 * 스키마 설명자 보기
 * 스키마 설명자 만들기, 업데이트 및 삭제
 
-API 호출 조작에 대한 모든 세부 정보는 [개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ko)에서 확인할 수 있습니다.
+API 호출 조작에 대한 모든 세부 정보는 [개발자 안내서](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)에서 확인할 수 있습니다.

@@ -4,15 +4,23 @@ description: Adobe Campaign Standard을 사용하여 트랜잭션 푸시 알림�
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-context-tags: null
+context-tags:
 feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-TQID: https://experienceleague.adobe.com/iL7T6x6t2hi3QAw5osARvnBAqTPTXsFnLBCAq4H1B0k
+TQID: 'https://experienceleague.adobe.com/iL7T6x6t2hi3QAw5osARvnBAqTPTXsFnLBCAq4H1B0k'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -22,7 +30,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 3%
@@ -158,7 +166,7 @@ Adobe Campaign을 사용하여 모바일 애플리케이션에서 알림을 받�
    >
    >데이터 보강 기능을 만들려면 필드를 하나 이상 추가해야 합니다. Adobe Campaign 데이터베이스의 개인화 필드를 사용할 수 있으므로 **이름** 및 **성**&#x200B;과 같은 다른 필드는 만들 필요가 없습니다.
 
-1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하기 위해 데이터 보강(이벤트 보강[&#128279;](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 참조)을 만들고 이 데이터 보강(3&rbrace;)을 선택합니다.**[!UICONTROL Targeting enrichment]**
+1. 이벤트를 **[!UICONTROL Profile]** 리소스에 연결하기 위해 데이터 보강(이벤트 보강](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) 참조)을 만들고 이 데이터 보강(3})을 선택합니다.[**[!UICONTROL Targeting enrichment]**
 
    >[!IMPORTANT]
    >

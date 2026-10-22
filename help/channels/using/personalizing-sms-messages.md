@@ -9,22 +9,32 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-TQID: https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E
+TQID: 'https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 99%
-
 ---
-
 # SMS 메시지 개인화{#personalizing-sms-messages}
 
 SMS 메시지를 개인화하는 원칙은 [이메일](../../designing/using/personalization.md#inserting-a-personalization-field)과 동일합니다. 그럼에도 불구하고 음역 옵션이 인코딩에 영향을 줄 수 있고 전송할 SMS 메시지 수에 영향을 줄 수 있기 때문에 반드시 알고 있어야 합니다. 자세한 내용은 [음역 및 SMS 길이](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 섹션을 참조하십시오.
@@ -36,8 +46,8 @@ SMS 메시지를 개인화하는 원칙은 [이메일](../../designing/using/per
 * &#39;John Smith&#39;라는 이름의 수신자의 경우 특수 문자가 없으므로 Adobe Campaign은 SMS 메시지당 최대 160자를 승인하는 GSM 인코딩을 선택합니다. 따라서 메시지는 단일 부분으로 전송됩니다.
 * &#39;Raphaël Forêt&#39;라는 이름의 수신자의 경우 &#39;ë&#39; 및 &#39;ê&#39;를 GSM로 인코딩할 수 없습니다. Adobe Campaign은 음역을 활성화했는지 여부에 따라 다음 두 가지 동작 중에서 선택할 수 있습니다.
 
-   * 음역이 승인된 경우 &#39;ë&#39; 및 &#39;ê&#39;가 &#39;e&#39;로 대체되므로 GSM 인코딩을 사용할 수 있으며 SMS에는 최대 160자를 사용할 수 있습니다. 이 메시지는 단일 SMS 메시지로 전송되지만 약간 변경됩니다.
-   * 음역이 승인되지 않은 경우 Adobe Campaign에서 메시지를 이진 포맷(유니코드)으로 보내도록 선택합니다. 따라서 모든 문자가 그대로 전송됩니다. 유니코드의 SMS 메시지는 70자로 제한되므로 Adobe Campaign에서 메시지를 두 부분으로 보내야 합니다.
+  * 음역이 승인된 경우 &#39;ë&#39; 및 &#39;ê&#39;가 &#39;e&#39;로 대체되므로 GSM 인코딩을 사용할 수 있으며 SMS에는 최대 160자를 사용할 수 있습니다. 이 메시지는 단일 SMS 메시지로 전송되지만 약간 변경됩니다.
+  * 음역이 승인되지 않은 경우 Adobe Campaign에서 메시지를 이진 포맷(유니코드)으로 보내도록 선택합니다. 따라서 모든 문자가 그대로 전송됩니다. 유니코드의 SMS 메시지는 70자로 제한되므로 Adobe Campaign에서 메시지를 두 부분으로 보내야 합니다.
 
 >[!NOTE]
 >
@@ -51,7 +61,7 @@ SMS 메시지를 개인화하는 원칙은 [이메일](../../designing/using/per
 
 **[!UICONTROL From]** 옵션을 사용하면 문자열을 사용하여 SMS 메시지의 발신자명을 개인화할 수 있습니다. 발신자명이란 수신자의 휴대전화에서 SMS 메시지를 보낸 사람으로 표시되는 이름입니다.
 
-이 필드가 비어 있는 경우 외부 계정에서 제공하는 소스 번호가 표시됩니다. 소스 번호가 제공되지 않는 경우 짧은 코드가 사용됩니다. SMS 게재와 관련된 외부 계정은 [SMS 라우팅 정의 &#x200B;](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) 섹션에 나와 있습니다.
+이 필드가 비어 있는 경우 외부 계정에서 제공하는 소스 번호가 표시됩니다. 소스 번호가 제공되지 않는 경우 짧은 코드가 사용됩니다. SMS 게재와 관련된 외부 계정은 [SMS 라우팅 정의 ](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) 섹션에 나와 있습니다.
 
 ![](assets/sms_creation_8.png)
 

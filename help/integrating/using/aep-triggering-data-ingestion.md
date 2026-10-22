@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '466'
 ht-degree: 6%
-
 ---
-
 # API를 통한 데이터 수집 트리거 {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
@@ -110,7 +125,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 >
 >XDM 매핑 요청 상태 및 관련 작업에 대한 자세한 정보는 **[!UICONTROL Status of data export to platform]** 메뉴의 Campaign Standard 인터페이스에서 사용할 수 있습니다([매핑 활성화](../../integrating/using/aep-mapping-activation.md) 참조).
 
-GET 작업이 아래 정보를 반환합니다.
+GET 작업은 아래 정보를 반환합니다.
 
 * **batchId**: 이 필드는 일괄 처리 준비 및 업로드 후 오류가 발생한 경우에만 채워집니다.
 * **정보**: XDM 매핑 ID,

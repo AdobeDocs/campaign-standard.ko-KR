@@ -6,25 +6,37 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-TQID: https://experienceleague.adobe.com/Xq6Jl-yj32NitaJw6OPSbiRf0unmeCXVkAMfvecMAUs
+TQID: 'https://experienceleague.adobe.com/Xq6Jl-yj32NitaJw6OPSbiRf0unmeCXVkAMfvecMAUs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: '1271'
 ht-degree: 1%
-
 ---
-
 # 모바일 애플리케이션을 SDK v4에서 Adobe Experience Platform SDK로 마이그레이션하는 방법 {#sdkv4-migration}
 
 
@@ -137,7 +149,7 @@ A: **[!UICONTROL Organizational unit]** ALL의 관리자는 두 모바일 애플
 ### Q: SDK v4 모바일 애플리케이션 조직 구성 단위가 A로 설정되고 Adobe Experience Platform SDK 애플리케이션이 B(조직 구성 단위 A의 형제)로 설정된 경우. 모바일 애플리케이션을 마이그레이션하려면 어떻게 해야 합니까? {#aep-org-unit}
 
 A: Adobe Experience Platform SDK 응용 프로그램은 형제 **[!UICONTROL Organizational unit]**&#x200B;의 자산이며, 모바일 응용 프로그램은 **[!UICONTROL Organizational unit]** A의 사용자에게 표시되지 않습니다. 모바일 응용 프로그램은 **[!UICONTROL Organizational unit]** ALL의 관리자가 사용할 수 있지만 이 관리자에게 모바일 응용 프로그램을 마이그레이션하지 않는 것이 좋습니다.
-이 경우 모바일 응용 프로그램을 동일한 **[!UICONTROL Organizational unit]** 또는 상위 링크가 있는 **[!UICONTROL Organizational unit]**&#x200B;에서 이동해야 합니다.
+이 경우 모바일 응용 프로그램을 동일한 **[!UICONTROL Organizational unit]** 또는 상위 링크가 있는 **[!UICONTROL Organizational unit]**에서 이동해야 합니다.
 **[!UICONTROL Organizational unit]**&#x200B;에 대한 자세한 내용은 이 [섹션](../../administration/using/organizational-units.md)을 참조하세요.
 
 ### Q: Adobe Experience Platform SDK 모바일 애플리케이션(v4 모바일 애플리케이션에서 마이그레이션됨) 페이지의 푸시 채널 설정 드롭다운 아래에 업로드된 날짜/이름과 같은 정보가 Android 키 또는 iOS 인증서에 대해 표시되지 않습니다 {#no-information-v5}

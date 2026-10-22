@@ -8,26 +8,36 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-TQID: https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E
+TQID: 'https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: '1263'
 ht-degree: 83%
-
 ---
-
 # Campaign 이메일 디자이너{#designing-content-in-adobe-campaign}
 
 Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해야 합니다.
@@ -46,9 +56,9 @@ Adobe Campaign에서 이메일을 만든 후에는 해당 콘텐츠를 정의해
 * 이메일 콘텐츠를 만드는 방법을 알아보려면 [이메일 디자이너 시작](../../designing/using/quick-start.md)을 참조하십시오.
 * 이메일 디자이너에 대한 개요는 [이메일 디자이너 사용](../../designing/using/designing-content-in-adobe-campaign.md)을 참조하십시오.
 * 콘텐츠 빌드에 대한 자세한 내용은 다음을 참조하십시오.
-   * 처음부터 하려면 [처음부터 이메일 디자인](../../designing/using/designing-from-scratch.md)을 참조하십시오.
-   * 기존 콘텐츠를 사용하려면 [기존 콘텐츠 사용](../../designing/using/using-existing-content.md)을 참조하십시오.
-   * Creative Cloud 통합 기능을 사용하면 [다중 솔루션 이메일 디자인](../../designing/using/using-integrations.md)을 참조하십시오.
+  * 처음부터 하려면 [처음부터 이메일 디자인](../../designing/using/designing-from-scratch.md)을 참조하십시오.
+  * 기존 콘텐츠를 사용하려면 [기존 콘텐츠 사용](../../designing/using/using-existing-content.md)을 참조하십시오.
+  * Creative Cloud 통합 기능을 사용하면 [다중 솔루션 이메일 디자인](../../designing/using/using-integrations.md)을 참조하십시오.
 * 개인화에 대한 자세한 내용은 [개인화](../../designing/using/personalization.md)를 참조하십시오.
 
 이메일을 만들 때 미리 정의된 템플릿을 사용하거나 다른 소스에서 기존 콘텐츠를 로드하도록 선택할 수 있습니다. [기존 콘텐츠 선택](../../designing/using/using-existing-content.md#selecting-an-existing-content)을 참조하십시오.
@@ -179,6 +189,6 @@ CSS 충돌 문제와 같은 문제를 방지하려면 콘텐츠를 최신 버전
 
 이 비디오에서는 이메일 Designer에 대한 개요를 제공합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/330106?captions=kor&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-이메일 Designer을 시작하려면 이메일 Designer의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 집합](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ko#GettingStarted)을 시청하십시오
+이메일 Designer을 시작하려면 이메일 Designer의 일반적인 기능과 이메일을 처음부터 디자인하거나 템플릿을 사용하는 방법을 설명하는 이 [비디오 집합](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)을 시청하십시오

@@ -8,22 +8,32 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
-TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
+TQID: 'https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 445
+source-wordcount: '445'
 ht-degree: 7%
-
 ---
-
 # 이메일 Designer FAQ
 
 ## 콘텐츠 블록과 콘텐츠 조각의 차이점은 무엇입니까?
@@ -43,7 +53,8 @@ HTML 이동 경로를 사용하여 패딩을 추가할 수 있습니다.
    ![](assets/do-not-localize/breadcrumb.png)
 
 1. 패딩을 추가할 요소를 클릭합니다.
-1. HTML 이동 경로에서 상위 태그를 클릭합니다.이제 이 요소에 패딩을 추가할 수 있습니다.
+1. HTML 이동 경로에서 상위 태그를 클릭합니다.
+이제 이 요소에 패딩을 추가할 수 있습니다.
 
 ## 이메일 Designer에서 HTML 콘텐츠를 가져올 수 있습니까?
 
@@ -53,7 +64,8 @@ HTML 이동 경로를 사용하여 패딩을 추가할 수 있습니다.
 
 ## 첫 번째 이메일 콘텐츠를 만들려면 어떻게 해야 합니까?
 
-우선 홈페이지에서 이메일을 만듭니다.그런 다음 이메일에 콘텐츠를 추가하려면 구조 구성 요소를 추가하고 해당 구성 요소에 콘텐츠 구성 요소를 삽입해야 합니다.
+우선 홈페이지에서 이메일을 만듭니다.
+그런 다음 이메일에 콘텐츠를 추가하려면 구조 구성 요소를 추가하고 해당 구성 요소에 콘텐츠 구성 요소를 삽입해야 합니다.
 
 자세한 내용은 [처음부터 전자 메일 만들기](../../designing/using/quick-start.md#from-scratch-email)를 참조하세요.
 

@@ -5,41 +5,66 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
+TQID: 'https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
+    internal-label: Points of Interest
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+    internal-label: Dreamweaver integration
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Insights
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 4623
+source-wordcount: '4623'
 ht-degree: 3%
-
 ---
-
 # 2017년 릴리스 정보{#release-notes}
 
 ## 릴리스 17.10 - 2017년 10월 {#release-17-10-october-2017}
@@ -423,7 +448,8 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> 수동 전송 시간 최적화<br /> </td> 
-   <td> 이제 게재 수준에서 또는 워크플로우를 사용하여 수신자당 사용자 지정 전송 시간을 수동으로 정의할 수 있습니다. <br /> 두 가지 새로운 옵션을 사용할 수 있습니다. <br /> <ul> 
+   <td> 이제 게재 수준에서 또는 워크플로우를 사용하여 수신자당 사용자 지정 전송 시간을 수동으로 정의할 수 있습니다. <br /> 두 가지 새로운 옵션을 사용할 수 있습니다. <br /> 
+    <ul> 
      <li> 모든 수신자는 시간대를 고려하여 메시지를 수신합니다. </li> 
      <li> 각 수신자는 수식으로 정의된 계산된 날짜 및 시간에 메시지를 수신합니다. </li> 
     </ul> 자세한 내용은 <a href="../../sending/using/optimizing-the-sending-time.md">자세한 설명서</a>.<br />를 참조하세요. </td> 
@@ -441,7 +467,8 @@ _푸시 알림_
   </tr> 
   <tr> 
    <td> 워크플로우: 새 신호 활동<br /> </td> 
-   <td> 새 <span class="uicontrol">신호</span> 활동을 사용하여 다른 워크플로우에서 워크플로우를 트리거합니다.<br /> 한 워크플로우를 다른 워크플로우에서 시작할 수 있으므로 보다 복잡한 고객 여정을 지원할 수 있습니다. 고객 여정을 더 잘 모니터링하고 문제가 있을 경우 대응할 수 있습니다.<br /> 여러 워크플로우 활동이 업데이트되었습니다. <br /> <ul> 
+   <td> 새 <span class="uicontrol">신호</span> 활동을 사용하여 다른 워크플로우에서 워크플로우를 트리거합니다.<br /> 한 워크플로우를 다른 워크플로우에서 시작할 수 있으므로 보다 복잡한 고객 여정을 지원할 수 있습니다. 고객 여정을 더 잘 모니터링하고 문제가 있을 경우 대응할 수 있습니다.<br /> 여러 워크플로우 활동이 업데이트되었습니다. <br /> 
+    <ul> 
      <li> <span class="uicontrol">종료</span> 활동: 새 탭에서 이 활동이 실행된 후에 트리거할 워크플로우를 지정할 수 있습니다. </li> 
      <li> <span class="uicontrol">데이터 업데이트</span> 활동: 새로운 빈 아웃바운드 전환을 사용하여 다른 워크플로우를 트리거하는 <strong>End</strong> 활동을 추가합니다. 빈 아웃바운드 전환은 데이터를 전달하지 않으며, 시스템에서 불필요한 공간을 사용하지 않습니다. </li> 
     </ul> 자세한 내용은 <a href="../../automating/using/external-signal.md">자세한 설명서</a>.<br />를 참조하세요. </td> 
@@ -496,14 +523,16 @@ _워크플로_
  <tbody> 
   <tr> 
    <td> 외부 보고에 대한 로그 내보내기<br /> </td> 
-   <td> 게재 및 추적 로그와 같은 로그를 내보내 원하는 보고 또는 BI 도구에서 처리합니다. 증분 쿼리와 함께 간단한 워크플로우를 사용하여 새 로그의 일반 내보내기를 자동화할 수 있습니다.<br /> 리소스 선택기에서 로그 리소스를 사용할 수 있을 뿐만 아니라 <a href="../../automating/using/incremental-query.md">증분 쿼리</a> 및 <a href="../../automating/using/extract-file.md">파일 추출</a> 활동에 대한 기능이 향상되었습니다.<br /> <ul> 
+   <td> 게재 및 추적 로그와 같은 로그를 내보내 원하는 보고 또는 BI 도구에서 처리합니다. 증분 쿼리와 함께 간단한 워크플로우를 사용하여 새 로그의 일반 내보내기를 자동화할 수 있습니다.<br /> 리소스 선택기에서 로그 리소스를 사용할 수 있을 뿐만 아니라 <a href="../../automating/using/incremental-query.md">증분 쿼리</a> 및 <a href="../../automating/using/extract-file.md">파일 추출</a> 활동에 대한 기능이 향상되었습니다.<br /> 
+    <ul> 
      <li> 이제 <span class="uicontrol">증분 쿼리</span>를 통해 날짜 필드를 사용하여 새 데이터나 업데이트된 데이터를 검색할 수 있습니다. 이전에는 마지막 실행 이후 업데이트된 경우에도 이전 실행의 모든 결과가 자동으로 제외되었습니다. </li> 
      <li> <span class="uicontrol">파일 추출</span>에서 이제 ID 대신 열거형 값에 대한 레이블을 내보낼 수 있습니다. </li> 
     </ul> 이러한 활동은 모든 지역 및 조직 단위에 액세스할 수 있는 관리자가 사용할 수 있습니다.<br /> 로그 내보내기에 대한 자세한 내용은 <a href="../../automating/using/exporting-logs.md">자세한 설명서</a>.<br />를 참조하세요. </td> 
   </tr> 
   <tr> 
    <td> 트랜잭션 메시지를 위한 마케팅 기능<br /> </td> 
-   <td> 이제 마케터는 고객 마케팅 프로필을 기반으로 트랜잭션 메시지를 보낼 수 있습니다. 이렇게 하면 다음과 같은 작업을 수행할 수 있습니다.<br /> <ul> 
+   <td> 이제 마케터는 고객 마케팅 프로필을 기반으로 트랜잭션 메시지를 보낼 수 있습니다. 이렇게 하면 다음과 같은 작업을 수행할 수 있습니다.<br /> 
+    <ul> 
      <li> <span class="uicontrol">차단 목록에 주소 지정</span> 과 같은 마케팅 토폴로지 규칙을 적용합니다. </li> 
      <li> 메시지에 구독 취소 링크를 포함합니다. </li> 
      <li> 트랜잭션 메시지를 글로벌 게재 보고서에 추가합니다. </li> 

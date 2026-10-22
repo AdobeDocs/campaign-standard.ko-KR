@@ -8,25 +8,34 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-TQID: https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o
+TQID: 'https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Troubleshooting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1208
+source-wordcount: '1218'
 ht-degree: 3%
-
 ---
-
 # 문제 해결{#troubleshooting}
 
 이 섹션에서는 동적 보고와 관련된 일반적인 질문을 확인할 수 있습니다.
@@ -211,16 +220,16 @@ P1은 첫 번째 날에 이메일을 두 번 연 다음 두 번째 날에 세 �
 
   예제:
 
-   * 프로필 A가 서로 다른 3일에 이메일을 여는 경우 일별 분류는 A를 3개의 행으로 표시하지만 헤더에서 A는 1로 계산됩니다.
+  * 프로필 A가 서로 다른 3일에 이메일을 여는 경우 일별 분류는 A를 3개의 행으로 표시하지만 헤더에서 A는 1로 계산됩니다.
 
-   * 프로필 A가 같은 날 이메일에서 서로 다른 세 개의 링크를 클릭하는 경우, 추적 URL을 통한 분류는 세 행에 A를 표시하지만, 헤더에서 A는 1로 계산됩니다. 장치 및 브라우저별 분류에도 동일하게 적용됩니다.
+  * 프로필 A가 같은 날 이메일에서 서로 다른 세 개의 링크를 클릭하는 경우, 추적 URL을 통한 분류는 세 행에 A를 표시하지만, 헤더에서 A는 1로 계산됩니다. 장치 및 브라우저별 분류에도 동일하게 적용됩니다.
 
 * **열린 지표**: 열린 횟수는 실제 열린 이벤트와 고유 클릭 이벤트(수신자 ID당)의 합계를 집계하여 결정됩니다. 단, 열린 이벤트가 없으면 이메일 링크를 클릭할 수 없으므로 열린 이벤트가 발생하지 않은 경우는 제외합니다.
 
   예제:
 
-   * 프로필 A가 추적된 이메일을 열면(URL U1 포함) URL이 null로 표시되어 있는 열기 이벤트로 등록됩니다. 나중에 U1을 클릭하면 클릭 이벤트가 생성됩니다. A가 U1을 클릭하는 것도 오픈 이벤트로 계산되지만, U1에 대한 특정 오픈 이벤트는 없습니다. 따라서 A는 열린 고유 카운트에서 한 번만 카운트됩니다.
+  * 프로필 A가 추적된 이메일을 열면(URL U1 포함) URL이 null로 표시되어 있는 열기 이벤트로 등록됩니다. 나중에 U1을 클릭하면 클릭 이벤트가 생성됩니다. A가 U1을 클릭하는 것도 오픈 이벤트로 계산되지만, U1에 대한 특정 오픈 이벤트는 없습니다. 따라서 A는 열린 고유 카운트에서 한 번만 카운트됩니다.
 
-   * 프로필 R은 1일에 이메일을 열어 열기 이벤트를 등록하고 링크를 클릭합니다. 이후 2일 동안 R은 이메일을 다시 열고 링크를 다시 클릭하여 매일 클릭 이벤트를 생성합니다. R의 참여는 미결 번호에서 매일 추적되지만, R은 열 헤더에서 고유 참여에 초점을 맞춰 한 번만 카운트됩니다.
+  * 프로필 R은 1일에 이메일을 열어 열기 이벤트를 등록하고 링크를 클릭합니다. 이후 2일 동안 R은 이메일을 다시 열고 링크를 다시 클릭하여 매일 클릭 이벤트를 생성합니다. R의 참여는 미결 번호에서 매일 추적되지만, R은 열 헤더에서 고유 참여에 초점을 맞춰 한 번만 카운트됩니다.
 
 * **무효화된 이벤트**: 보고서에서 무효화된 이벤트는 처음에 성공으로 표시되었지만 다시 시도 후 최종적으로 실패한 게재 시도를 의미합니다. 이는 -1의 수로 표시됩니다. 혼동을 방지하기 위해 이러한 음수 카운트는 표시된 게재 지표 번호에서 제외됩니다. 따라서 게재 지표에 대한 모든 행의 합계가 열 헤더 번호와 일치하지 않을 수 있습니다.

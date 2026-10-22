@@ -9,24 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-TQID: https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU
+TQID: 'https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1346
+source-wordcount: '1346'
 ht-degree: 3%
-
 ---
-
 # Campaign-Points of Interest 데이터 통합 구성{#configuring-campaign-points-of-interest-data-integration}
 
 ## Adobe Experience Platform SDK와 Campaign-Points of Interest 데이터 통합 구성 {#configuring-campaign-poi-aep-sdk}
@@ -46,7 +58,7 @@ Adobe Experience Platform SDK으로 구성된 모바일 애플리케이션에서
 1. 그런 다음 데이터 수집 UI에서 관심 포인트와 Adobe Campaign 간 모바일 사용 사례를 지원하는 규칙을 만들어야 합니다.\
    이 규칙은 사용자가 지역 기반 **[!UICONTROL Point of Interest]**&#x200B;을(를) 입력할 때 트리거됩니다. 규칙을 만들려면 이 [페이지](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback)를 참조하세요.
 
-1. 위치에 **[!UICONTROL Points of Interest]**&#x200B;을(를) 정의합니다. [관심 영역 만들기](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=ko)를 참조하세요.
+1. 위치에 **[!UICONTROL Points of Interest]**&#x200B;을(를) 정의합니다. [관심 영역 만들기](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html)를 참조하세요.
 
 1. Adobe Campaign에서 모바일 애플리케이션 및 수집된 위치 데이터에 액세스해야 합니다. [위치 데이터를 수집하는 데 사용되는 모바일 앱에 액세스](#accessing-mobile-apps-used-to-collect-location-data) 및 [수집된 위치 데이터에 액세스](#accessing-collected-location-data)를 참조하십시오.
 
@@ -174,7 +186,7 @@ Adobe Campaign에 설정된 모바일 애플리케이션 매개 변수에서 찾
 
 >[!NOTE]
 >
->포스트백 구성에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=ko)를 참조하세요.
+>포스트백 구성에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html)를 참조하세요.
 
 ### 모바일 애플리케이션에 SDK 통합 {#integrating-the-sdk-into-a-mobile-application}
 
@@ -189,11 +201,11 @@ Mobile Core Service의 소프트웨어 개발 키트(SDK)를 사용하면 모바
 1. Adobe Mobile Services 인터페이스로 이동합니다.
 1. 애플리케이션을 추가합니다.
 
-   Mobile Services에서 응용 프로그램을 관리하는 방법에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html?lang=ko)를 참조하세요.
+   Mobile Services에서 응용 프로그램을 관리하는 방법에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html)를 참조하세요.
 
 1. 관심 영역을 정의합니다.
 
-   관심 영역 관리에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html?lang=ko)를 참조하세요.
+   관심 영역 관리에 대한 자세한 내용은 [Adobe Mobile Services 설명서](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html)를 참조하세요.
 
 ### 구독자의 관심 영역 데이터 수집 {#collecting-subscribers--points-of-interest-data}
 

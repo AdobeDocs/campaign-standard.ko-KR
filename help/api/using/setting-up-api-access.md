@@ -9,23 +9,35 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 5%
-
+source-wordcount: '497'
+ht-degree: 6%
 ---
-
 # API 액세스 설정 {#setting-up-api-access}
 
 Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다. 이러한 각 단계는 [Adobe Developer 설명서](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)에 자세히 설명되어 있습니다.
 
 >[!IMPORTANT]
 >
->[Adobe Developer](https://developer.adobe.com/)에서 인증서를 관리하려면 조직에 대한 **시스템 관리자** 권한 또는 Admin Console의 [개발자 계정](https://helpx.adobe.com/kr/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
+>[Adobe Developer](https://developer.adobe.com/)에서 인증서를 관리하려면 조직에 대한 **시스템 관리자** 권한 또는 Admin Console의 [개발자 계정](https://helpx.adobe.com/enterprise/using/manage-developers.html)이 있는지 확인하십시오.
 
 1. **디지털 인증서가 있는지 확인**&#x200B;하거나 필요한 경우 만드십시오. 인증서와 함께 제공되는 공개 및 개인 키는 다음 단계에서 필요합니다.
-1. **Adobe Developer**&#x200B;에서 [Adobe Campaign 서비스에 대한 새 통합을 만들고](https://developer.adobe.com/) 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
+1. [Adobe Developer](https://developer.adobe.com/)에서 **Adobe Campaign 서비스에 대한 새 통합을 만들고** 구성합니다. 그러면 자격 증명이 생성됩니다(API 키, 클라이언트 암호...).
 1. **이전에 생성한 자격 증명에서 JSON 웹 토큰(JWT)을 만들고** 개인 키로 서명합니다. JWT는 Adobe에서 ID를 확인하고 API에 대한 액세스 권한을 부여하는 데 필요한 모든 ID 및 보안 정보를 인코딩합니다.
 
    >[!IMPORTANT]
@@ -49,8 +61,8 @@ Adobe Campaign Standard API 액세스는 아래 단계를 통해 설정됩니다
 
 * **&lt;조직>**: 개인 조직 ID이며, Adobe에서 각 인스턴스에 대해 하나의 조직 ID를 제공합니다.
 
-   * &lt;조직> : 프로덕션 인스턴스,
-   * &lt;ORGANIZATION-mkt-stage>: 단계 인스턴스입니다.
+  * &lt;조직> : 프로덕션 인스턴스,
+  * &lt;ORGANIZATION-mkt-stage>: 단계 인스턴스입니다.
 
   조직 ID 값을 얻으려면 관리자 또는 Adobe 기술 담당자에게 문의하십시오. 라이선스 목록에서 새 통합을 만들 때 Adobe I/O에서 검색할 수도 있습니다(<a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer 설명서</a> 참조).
 

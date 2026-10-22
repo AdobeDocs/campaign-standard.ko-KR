@@ -8,29 +8,42 @@ feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-TQID: https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc
+TQID: 'https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: 458b98fa-9d41-55f3-9c8e-3aeb5c95457a
+    internal-label: Proofs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2045
+source-wordcount: '2045'
 ht-degree: 3%
-
 ---
-
 # 게재 실패 시 경고 받기{#receiving-alerts-when-failures-happen}
 
 ## 게재 경고 기본 정보 {#about-delivery-alerting}
@@ -247,41 +260,41 @@ Adobe Campaign 인터페이스에서 다음을 수행할 수 있습니다.
 
 * **[!UICONTROL Deliveries failed]**: 이 기준은 잘못된 상태의 모든 게재를 알려줍니다. 다음과 같은 이유 때문일 수 있습니다.
 
-   * 게재 서버(MTA, 메시지 전송 에이전트) 문제
-   * Adobe Campaign 게재 서버와 수신 서버 간의 연결 시간 제한
-   * 전달성 문제
-   * 잘못된 워크플로
+  * 게재 서버(MTA, 메시지 전송 에이전트) 문제
+  * Adobe Campaign 게재 서버와 수신 서버 간의 연결 시간 제한
+  * 전달성 문제
+  * 잘못된 워크플로
 
   워크플로우로 게재가 트리거되는 경우 해당 워크플로우가 올바르게 시작되었는지 확인합니다. 자세한 내용은 [워크플로우 실행](../../automating/using/about-workflow-execution.md)을 참조하십시오. 그렇지 않으면 Adobe Campaign 관리자에게 연락하여 문제를 해결하십시오.
 
 * **[!UICONTROL Deliveries with preparation failed]**: 다음 경우 게재를 준비하는 동안 오류가 발생할 수 있습니다.
 
-   * 게재에 제목이 없습니다.
-   * 개인화 필드에 잘못된 구문이 있습니다.
-   * 대상이 누락되었습니다.
-   * 게재가 크기 제한을 초과합니다.
+  * 게재에 제목이 없습니다.
+  * 개인화 필드에 잘못된 구문이 있습니다.
+  * 대상이 누락되었습니다.
+  * 게재가 크기 제한을 초과합니다.
 
   자세한 내용은 [전송 준비](../../sending/using/preparing-the-send.md)를 참조하세요. 그러나 이러한 오류는 일반적으로 메시지 분석 중에 발견됩니다. [제어 규칙](../../sending/using/control-rules.md)을 참조하세요.
 
 * **[!UICONTROL Delivery with bad error ratio for soft bounces]** 경고의 가능한 원인은 다음과 같습니다.
 
-   * 수신자의 서버가 다운되었습니다.
-   * 받는 사람의 사서함이 가득 찼습니다.
+  * 수신자의 서버가 다운되었습니다.
+  * 받는 사람의 사서함이 가득 찼습니다.
 
   자세한 내용은 게재 로그의 **[!UICONTROL Exclusion logs]** 및 **[!UICONTROL Exclusion causes]** 탭을 확인하십시오. [제외 로그](../../sending/using/monitoring-a-delivery.md#exclusion-logs)를 참조하세요.
 
   **[!UICONTROL Delivery with bad error ratio for hard bounces]** 경고의 가능한 원인은 다음과 같습니다.
 
-   * 수신자가 차단 목록에 추가하다에 추가되어 더 이상 연락하지 않습니다.
-   * 수신자의 이메일 주소가 존재하지 않습니다.
-   * 받는 사람의 도메인이 존재하지 않습니다.
-   * 수신자 서버가 게재를 차단하고 있습니다.
+  * 수신자가 차단 목록에 추가하다에 추가되어 더 이상 연락하지 않습니다.
+  * 수신자의 이메일 주소가 존재하지 않습니다.
+  * 받는 사람의 도메인이 존재하지 않습니다.
+  * 수신자 서버가 게재를 차단하고 있습니다.
 
   소프트 및 하드 바운스 오류를 방지하려면 아래 모범 사례를 따르십시오.
 
-   * 격리된 수신자와 같이 게재 분석 중에 메시지 대상의 한 부분을 제외하도록 필터링 유형화 규칙을 작성합니다. [필터링 규칙 만들기](../../sending/using/filtering-rules.md)를 참조하십시오.
-   * 적절한 격리 관리 프로세스를 유지하기 위해 고객 데이터베이스를 정기적으로 업데이트합니다. [격리 정보](../../sending/using/understanding-quarantine-management.md#about-quarantines)를 참조하세요.
-   * 일반적으로 최대한 전달성을 향상시킵니다. Adobe Campaign [게재 기능](../../sending/using/about-deliverability.md) 세부 설명서를 참조하고 도움이 필요하면 Adobe Campaign 관리자에게 문의하십시오.
+  * 격리된 수신자와 같이 게재 분석 중에 메시지 대상의 한 부분을 제외하도록 필터링 유형화 규칙을 작성합니다. [필터링 규칙 만들기](../../sending/using/filtering-rules.md)를 참조하십시오.
+  * 적절한 격리 관리 프로세스를 유지하기 위해 고객 데이터베이스를 정기적으로 업데이트합니다. [격리 정보](../../sending/using/understanding-quarantine-management.md#about-quarantines)를 참조하세요.
+  * 일반적으로 최대한 전달성을 향상시킵니다. Adobe Campaign [게재 기능](../../sending/using/about-deliverability.md) 세부 설명서를 참조하고 도움이 필요하면 Adobe Campaign 관리자에게 문의하십시오.
 
 * **[!UICONTROL Deliveries with long start pending]**: 일반적으로 MTA(메시지 전송 에이전트) 수준에서 문제가 있음을 의미합니다. 실행 프로세스에서 일부 리소스를 사용할 수 있을 때까지 기다리고 있습니다. MTA가 시작되지 않았을 수 있습니다.
 

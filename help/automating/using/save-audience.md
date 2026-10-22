@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+TQID: 'https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: '803'
 ht-degree: 99%
-
 ---
-
 # 대상자 저장{#save-audience}
 
 ## 설명 {#description}
@@ -51,18 +60,18 @@ ht-degree: 99%
 
    * **[!UICONTROL Update an existing audience]**: 기존 대상자를 선택하고 업데이트 유형을 선택합니다.
 
-      * **[!UICONTROL Replace audience content with new data]**: 전체 대상자의 콘텐츠가 바뀝니다. 이전 데이터는 손실됩니다. 대상자 저장 활동의 인바운드 전환에서 수집한 데이터만 유지됩니다.
-      * **[!UICONTROL Complete audience with new data]**: 이전 대상자 데이터가 유지되고 대상자 저장 활동의 인바운드 전환에서 수집한 데이터가 여기에 추가됩니다.
+     * **[!UICONTROL Replace audience content with new data]**: 전체 대상자의 콘텐츠가 바뀝니다. 이전 데이터는 손실됩니다. 대상자 저장 활동의 인바운드 전환에서 수집한 데이터만 유지됩니다.
+     * **[!UICONTROL Complete audience with new data]**: 이전 대상자 데이터가 유지되고 대상자 저장 활동의 인바운드 전환에서 수집한 데이터가 여기에 추가됩니다.
 
    * **[!UICONTROL Create then update an audience]**: 대상자의 이름을 입력하고 업데이트 유형을 선택합니다. 대상자가 아직 존재하지 않는 경우 새로 만들어집니다. 이미 존재하는 경우 선택한 모드에 따라 업데이트됩니다.
 
-      * **[!UICONTROL Replace audience content with new data]**: 전체 대상자의 콘텐츠가 바뀝니다. 이전 데이터는 손실됩니다. 대상자 저장 활동의 인바운드 전환에서 수집한 데이터만 유지됩니다.
+     * **[!UICONTROL Replace audience content with new data]**: 전체 대상자의 콘텐츠가 바뀝니다. 이전 데이터는 손실됩니다. 대상자 저장 활동의 인바운드 전환에서 수집한 데이터만 유지됩니다.
 
-        경고: 이 옵션은 업데이트한 대상자의 대상자 유형과 타겟팅 차원을 지웁니다.
+       경고: 이 옵션은 업데이트한 대상자의 대상자 유형과 타겟팅 차원을 지웁니다.
 
-      * **[!UICONTROL Complete audience with new data]**: 이전 대상자 데이터가 유지되고 대상자 저장 활동의 인바운드 전환에서 수집한 데이터가 여기에 추가됩니다.
+     * **[!UICONTROL Complete audience with new data]**: 이전 대상자 데이터가 유지되고 대상자 저장 활동의 인바운드 전환에서 수집한 데이터가 여기에 추가됩니다.
 
-        경고: 업데이트한 대상자의 대상자 유형 또는 타겟팅 차원이 워크플로의 현재 구성과 호환되지 않는 경우, 이 옵션을 사용하면 오류가 발생합니다. 예를 들어 쿼리에서 얻은 프로필로 파일 유형 대상자를 완성할 수는 없습니다.
+       경고: 업데이트한 대상자의 대상자 유형 또는 타겟팅 차원이 워크플로의 현재 구성과 호환되지 않는 경우, 이 옵션을 사용하면 오류가 발생합니다. 예를 들어 쿼리에서 얻은 프로필로 파일 유형 대상자를 완성할 수는 없습니다.
 
    * **[!UICONTROL Create a new audience]**: 만들 대상자의 이름을 입력합니다. 대상자를 만든 시간과 날짜가 대상자 이름에 자동으로 추가됩니다. 이를 통해 워크플로를 실행할 때마다 대상자가 고유해집니다.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: 타겟팅한 프로필이 있고 대상자를 Adobe Experience Cloud로 내보내고 싶은 경우, 이 옵션을 선택한 뒤 기존 공유 대상자를 선택하거나 새 대상자를 만듭니다.

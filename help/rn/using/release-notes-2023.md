@@ -5,24 +5,36 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 5817c4d2-4788-4695-bf9a-ec04cc042190
-TQID: https://experienceleague.adobe.com/YpZ3cQVh6CeVyCkOChGYLBUo1dMueoWh1AkFj3ycRwk
+TQID: 'https://experienceleague.adobe.com/YpZ3cQVh6CeVyCkOChGYLBUo1dMueoWh1AkFj3ycRwk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 463
+source-wordcount: '463'
 ht-degree: 100%
-
 ---
-
 # 2023년 릴리스 정보 {#release-notes-2023}
 
 ## 릴리스 23.2 - 2023년 가을/겨울 릴리스 {#fall-23}
@@ -41,9 +53,9 @@ ht-degree: 100%
 
 * **지역화** - 메시지를 받을 프로필 그룹을 참조할 때 &quot;대상자&quot;라는 용어의 번역이 다음 언어의 모든 Digital Experience 제품에서 일치합니다.
 
-   * 독일어: Zielgruppe
-   * 포르투갈어(브라질): público-alvo
-   * 스페인어: público destinatario
+  * 독일어: Zielgruppe
+  * 포르투갈어(브라질): público-alvo
+  * 스페인어: público destinatario
 
   이러한 변경 사항은 다음 UI 및 설명서 릴리스를 통해 점진적으로 적용됩니다.
 
@@ -64,9 +76,9 @@ ht-degree: 100%
 * 푸시 메시지 서비스의 지원을 개선하기 위해 서비스를 최신화했습니다. (CAMP-47959)
 * SMS 메시지 서비스의 안정성을 개선했습니다. (CAMP-52217)
 * Adobe는 애플리케이션의 전반적인 사용 편의성을 개선하기 위해 접근성 관련 여러 가지를 수정했습니다. 다음은 접근성 개선의 몇 가지 예시입니다.
-   * 다양한 화면에서 인터페이스의 키보드 접근성을 최적화했습니다.
-   * 터치 스크린 사용자의 애플리케이션 사용성을 개선했습니다.
-   * 인터페이스 전반적으로 여러 항목의 색상을 변경하여 가시성을 높였습니다.
+  * 다양한 화면에서 인터페이스의 키보드 접근성을 최적화했습니다.
+  * 터치 스크린 사용자의 애플리케이션 사용성을 개선했습니다.
+  * 인터페이스 전반적으로 여러 항목의 색상을 변경하여 가시성을 높였습니다.
 
 ### 기타 변경 사항 {#e-rn-changes}
 

@@ -10,22 +10,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-TQID: https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I
+TQID: 'https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Email marketing
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1854
+source-wordcount: '1854'
 ht-degree: 0%
-
 ---
-
 # 데이터 동기화
 
 Microsoft Dynamics 365에서 Campaign으로 테이블을 동기화하고 Campaign 마케팅 지표를 Microsoft Dynamics 365로 동기화할 수 있습니다. 동기화는 세 개의 전용 기술 워크플로우(**[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**)를 통해 실행됩니다. [자세한 정보](../../integrating/using/d365-acs-self-service-app-workflows.md)를 보려면 이 섹션을 참조하세요.
@@ -48,25 +58,25 @@ Microsoft Dynamics 365에서 Campaign으로 테이블을 동기화하고 Campaig
 
 * **[!UICONTROL ACTIONS]**: 가능한 작업이 아래에 나열되어 있습니다.
 
-   * 이 매핑을 편집하려면 **[!UICONTROL Edit]** 아이콘을 클릭하십시오.
+  * 이 매핑을 편집하려면 **[!UICONTROL Edit]** 아이콘을 클릭하십시오.
 
-   * 테이블 매핑을 삭제하려면 **[!UICONTROL Delete]** 아이콘을 사용하십시오.
+  * 테이블 매핑을 삭제하려면 **[!UICONTROL Delete]** 아이콘을 사용하십시오.
 
-   * **[!UICONTROL Replay Data]** 아이콘을 클릭하여 Microsoft Dynamics 365 테이블의 모든 데이터를 다시 동기화합니다. 일반적으로 통합 애플리케이션은 최근에 변경된 Microsoft Dynamics 365의 데이터만 동기화합니다.  그러나 경우에 따라(예: 변경 또는 실수를 한 경우) 모든 데이터를 다시 동기화할 수 있습니다.  이러한 경우 이 단추를 클릭하고 다음에 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로를 중지/시작하면 데이터가 동기화되기 시작합니다.
+  * **[!UICONTROL Replay Data]** 아이콘을 클릭하여 Microsoft Dynamics 365 테이블의 모든 데이터를 다시 동기화합니다. 일반적으로 통합 애플리케이션은 최근에 변경된 Microsoft Dynamics 365의 데이터만 동기화합니다.  그러나 경우에 따라(예: 변경 또는 실수를 한 경우) 모든 데이터를 다시 동기화할 수 있습니다.  이러한 경우 이 단추를 클릭하고 다음에 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로를 중지/시작하면 데이터가 동기화되기 시작합니다.
 
-     **[!UICONTROL Replay Data]** 단추를 클릭하고 검사에 성공하면 아이콘이 비활성화됩니다. 이는 이 테이블 매핑 쌍의 데이터가 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로우의 다음 실행과 다시 동기화됨을 나타냅니다.
+    **[!UICONTROL Replay Data]** 단추를 클릭하고 검사에 성공하면 아이콘이 비활성화됩니다. 이는 이 테이블 매핑 쌍의 데이터가 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로우의 다음 실행과 다시 동기화됨을 나타냅니다.
 
-     다음에 해당하는 경우 데이터를 재생하도록 선택할 수 없습니다.
+    다음에 해당하는 경우 데이터를 재생하도록 선택할 수 없습니다.
 
-      * **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로와 연결된 백로그 지표에 2,000,000개 이상의 항목이 있는 경우(**[!UICONTROL Workflows]** 페이지에 표시됨)
-      * Microsoft Dynamics 365 테이블에 2,000,000개 이상의 레코드가 있는 경우
+    * **[!UICONTROL Microsoft Dynamics 365 to Campaign]** 워크플로와 연결된 백로그 지표에 2,000,000개 이상의 항목이 있는 경우(**[!UICONTROL Workflows]** 페이지에 표시됨)
+    * Microsoft Dynamics 365 테이블에 2,000,000개 이상의 레코드가 있는 경우
 
-     다시 동기화해야 하는 레코드 수는 다양합니다. 레코드 수가 많은 경우 동기화 프로세스를 완료하는 데 시간이 걸릴 수 있습니다. 동기화 프로세스를 완료하기 위해 통합 응용 프로그램이 작동하므로 **[!UICONTROL Workflows]** 페이지에서 **[!UICONTROL Backlog]** 지표를 참조하십시오.
+    다시 동기화해야 하는 레코드 수는 다양합니다. 레코드 수가 많은 경우 동기화 프로세스를 완료하는 데 시간이 걸릴 수 있습니다. 동기화 프로세스를 완료하기 위해 통합 응용 프로그램이 작동하므로 **[!UICONTROL Workflows]** 페이지에서 **[!UICONTROL Backlog]** 지표를 참조하십시오.
 
-     >[!IMPORTANT]
-     >
-     > Adobe Campaign Standard 또는 Microsoft Dynamics 365에 변경 사항을 게시할 때 통합 워크플로우를 중지하는 것이 좋습니다. 적용 가능한 변경 사항에는 현재 통합에서 사용 중인 리소스/엔티티(및 관련 필드), 링크, 식별자 열 등에 대한 업데이트가 포함됩니다.
-     >
+    >[!IMPORTANT]
+    >
+    > Adobe Campaign Standard 또는 Microsoft Dynamics 365에 변경 사항을 게시할 때 통합 워크플로우를 중지하는 것이 좋습니다. 적용 가능한 변경 사항에는 현재 통합에서 사용 중인 리소스/엔티티(및 관련 필드), 링크, 식별자 열 등에 대한 업데이트가 포함됩니다.
+    >
 
 ## 새 매핑 만들기 {#add-a-new-mapping}
 

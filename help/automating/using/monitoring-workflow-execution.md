@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
-TQID: https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc
+TQID: 'https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: '580'
 ht-degree: 6%
-
 ---
-
 # 워크플로 실행 모니터링 {#monitoring}
 
 ## 워크플로우 로그 및 작업 {#workflow-log-and-tasks}
@@ -70,11 +79,11 @@ ht-degree: 6%
 
 * **[!UICONTROL In case of error]**: 활동에 오류가 발생하는 경우 수행할 작업을 지정할 수 있습니다. 다음 두 가지 옵션을 사용할 수 있습니다.
 
-   * **프로세스 일시 중단**: 워크플로가 자동으로 일시 중단됩니다. 그러면 워크플로 상태가 **잘못됨**&#x200B;이고 연결된 색상은 빨간색으로 바뀝니다. 문제가 해결되면 워크플로우를 다시 시작합니다.
-   * **무시**: 활동이 실행되지 않으며 따라서 해당 활동 뒤에 오는 활동도 동일한 분기에 없습니다. 이는 반복 작업에 유용할 수 있습니다. 분기에 업스트림에 스케줄러가 있는 경우 다음 실행 날짜에 트리거되어야 합니다.
+  * **프로세스 일시 중단**: 워크플로가 자동으로 일시 중단됩니다. 그러면 워크플로 상태가 **잘못됨**&#x200B;이고 연결된 색상은 빨간색으로 바뀝니다. 문제가 해결되면 워크플로우를 다시 시작합니다.
+  * **무시**: 활동이 실행되지 않으며 따라서 해당 활동 뒤에 오는 활동도 동일한 분기에 없습니다. 이는 반복 작업에 유용할 수 있습니다. 분기에 업스트림에 스케줄러가 있는 경우 다음 실행 날짜에 트리거되어야 합니다.
 
 * **[!UICONTROL Consecutive errors]** : 워크플로 실행이 자동으로 일시 중단되기 전에 승인된 여러 개의 연속 오류를 정의할 수 있습니다.
 
-   * 지정한 수가 **[!UICONTROL 0]**&#x200B;인 경우 또는 지정한 수에 도달하지 않는 한 오류가 발생한 활동은 무시됩니다. 다른 워크플로우 분기는 정상적으로 실행됩니다.
+  * 지정한 수가 **[!UICONTROL 0]**&#x200B;인 경우 또는 지정한 수에 도달하지 않는 한 오류가 발생한 활동은 무시됩니다. 다른 워크플로우 분기는 정상적으로 실행됩니다.
 
-   * 지정한 수에 도달하면 전체 워크플로우가 일시 중단되어 **[!UICONTROL Erroneous]**&#x200B;이(가) 됩니다. 감독자가 정의된 경우 전자 메일로 자동으로 알림이 전송됩니다. [Adobe Campaign 알림](../../administration/using/sending-internal-notifications.md)을 참조하십시오.
+  * 지정한 수에 도달하면 전체 워크플로우가 일시 중단되어 **[!UICONTROL Erroneous]**&#x200B;이(가) 됩니다. 감독자가 정의된 경우 전자 메일로 자동으로 알림이 전송됩니다. [Adobe Campaign 알림](../../administration/using/sending-internal-notifications.md)을 참조하십시오.

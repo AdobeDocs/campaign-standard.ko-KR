@@ -6,27 +6,40 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-TQID: https://experienceleague.adobe.com/V4W1ZeT4iyA7SJXdVH-MQJLiJQN9WYGu-aghFFpj32c
+TQID: 'https://experienceleague.adobe.com/V4W1ZeT4iyA7SJXdVH-MQJLiJQN9WYGu-aghFFpj32c'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1820
+source-wordcount: '1809'
 ht-degree: 78%
-
 ---
-
 # 외부 계정{#external-accounts}
 
 외부 계정은 Adobe Campaign 외부에 있는 서버에 대한 액세스를 구성하고 테스트할 수 있는 구성입니다.
@@ -95,7 +108,7 @@ ETL 목적으로 파일 및 데이터를 관리할 때 이러한 파일은 Adobe
 
 또한 SFTP 연결을 시작하려는 퍼블릭 IP는 Campaign 인스턴스의 허용 목록에 추가하다에 추가해야 합니다. 인증에 사용할 공개 키를 제공하면서 [지원 티켓](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html)을 통해 허용 목록에 추가하다에 IP 주소를 추가하도록 요청할 수 있습니다.
 
-SFTP 서버는 컨트롤 패널에서 관리할 수 있습니다. 자세한 내용은 [컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ko)를 참조하십시오.
+SFTP 서버는 컨트롤 패널에서 관리할 수 있습니다. 자세한 내용은 [컨트롤 패널 설명서](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html)를 참조하십시오.
 
 >[!NOTE]
 >

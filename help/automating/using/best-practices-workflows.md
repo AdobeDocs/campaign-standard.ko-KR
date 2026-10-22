@@ -10,29 +10,38 @@ old-role: Data Architect
 role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-TQID: https://experienceleague.adobe.com/WawqBqpb7YnKbppo9-qkZ8agDBJ-ybjJOV305F-5t0w
+TQID: 'https://experienceleague.adobe.com/WawqBqpb7YnKbppo9-qkZ8agDBJ-ybjJOV305F-5t0w'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1214
+source-wordcount: '1219'
 ht-degree: 77%
-
 ---
-
 # 워크플로 모범 사례{#workflow-best-practices}
 
 Adobe Campaign을 사용하면 광범위한 작업을 수행하는 모든 유형의 워크플로를 설정할 수 있습니다. 하지만 워크플로를 설계 및 실행할 때 잘못된 구현으로 인해 성능, 오류 및 플랫폼 문제가 발생할 수 있으므로 매우 신중해야 합니다. 모범 사례 및 문제 해결 팁은 아래에 나와 있습니다.
@@ -167,7 +176,7 @@ Adobe Campaign은 워크플로 문제를 더 잘 이해할 수 있도록 다양�
 1. 워크플로 작업 영역에서 **[!UICONTROL Edit properties]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL General]** > **[!UICONTROL Execution]**&#x200B;에서 **[!UICONTROL Save SQL queries in the log]**&#x200B;및 옵션 **[!UICONTROL Execute in the engine]**&#x200B;을 선택하고 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
-**&#x200B;**&#x200B;로그에서 SQL 쿼리를 보려면
+****&#x200B;로그에서 SQL 쿼리를 보려면
 1. **[!UICONTROL Log and Tasks]**&#x200B;을(를) 클릭 합니다.
 1. **[!UICONTROL Logs]**&#x200B;탭에서 **[!UICONTROL Search]**&#x200B;패널을 엽니다.
 1. **[!UICONTROL Display SQL logs only]**&#x200B;을(를) 확인 합니다.

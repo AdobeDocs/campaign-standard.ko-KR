@@ -9,26 +9,42 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+TQID: 'https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2582
+source-wordcount: '2582'
 ht-degree: 1%
-
 ---
-
 # 모범 사례 및 제한 사항 {#acs-msdyn-best-practices}
 
 ## 데이터 관리 {#acs-msdyn-manage-data}
@@ -160,7 +176,7 @@ EMEA 또는 APAC 지역에 있는 경우 이 통합의 일부로 일부 데이�
 
 * 숨겨진 하위 레코드가 있고 이 레코드에 액세스할 수 없는 상황이 발생하는 경우 일시적으로 카디널리티 링크 형식을 **0 또는 1개의 카디널리티 단순 링크**(으)로 변경하여 해당 레코드에 액세스할 수 있습니다.
 
-Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 섹션[&#128279;](../../developing/using/key-steps-to-add-a-resource.md)에서 을(를) 찾을 수 있습니다.
+Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 섹션](../../developing/using/key-steps-to-add-a-resource.md)에서 [을(를) 찾을 수 있습니다.
 
 ### 통합 가드 레일
 
@@ -170,13 +186,13 @@ Campaign 사용자 지정 리소스에 대한 보다 포괄적인 개요는 이 
 
   다음을 사용하여 통합에서 엔진 호출 볼륨을 추정합니다.
 
-   * 레코드 삽입(즉, 새 레코드): 1개의 엔진 호출
-   * 삭제 기록: 엔진 호출 1개
-   * 레코드 업데이트: 2개의 엔진 호출(대상 레코드가 소스 레코드와 동일한 경우(즉, 캠페인 레코드가 변경되지 않은 경우) 1개의 호출만)
+  * 레코드 삽입(즉, 새 레코드): 1개의 엔진 호출
+  * 삭제 기록: 엔진 호출 1개
+  * 레코드 업데이트: 2개의 엔진 호출(대상 레코드가 소스 레코드와 동일한 경우(즉, 캠페인 레코드가 변경되지 않은 경우) 1개의 호출만)
 
   전체 Campaign 엔진 호출 볼륨을 예측할 때는 랜딩 페이지, WebApps, JSSP, API, 모바일 앱 등록 등을 포함하여 엔진 호출의 다른 소스를 고려하는 것이 중요합니다.
 
-  여기에서 Adobe Campaign Standard 패키지 정보를 보십시오. [https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)
+  여기에서 Adobe Campaign Standard 패키지 정보를 보십시오. [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html)
 
 * 통합은 Campaign의 리소스에 대한 초기 동기화에 대해 최대 1,500만 개의 총 레코드를 지원합니다. 증분 동기화는 Adobe Campaign Standard 패키지에 의해 제한됩니다.
 
