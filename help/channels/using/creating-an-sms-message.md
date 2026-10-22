@@ -110,6 +110,6 @@ SMS 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유�
 
 이 비디오는 SMS 게재를 만드는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/31897/?captions=kor&quality=12)
 
 추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
