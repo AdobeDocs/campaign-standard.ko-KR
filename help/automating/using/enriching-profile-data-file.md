@@ -10,23 +10,34 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-TQID: https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4
+TQID: 'https://experienceleague.adobe.com/M6lCo6PjkTiTa1mwADcrEKr2cTrWvGIzTncDR0HMKa4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 531
+source-wordcount: '531'
 ht-degree: 79%
-
 ---
-
 # 파일에 포함된 데이터로 프로필 데이터 보강 {#enriching-profile-data-with-data-contained-in-a-file}
 
 이 예에서는 파일에 포함된 구매 데이터를 사용하여 프로필 데이터를 보강하는 방법을 보여줍니다. 구매 데이터는 서드파티 시스템에 저장되어 있다고 가정합니다. 각 프로필 파일에 여러 개의 구매를 저장할 수 있습니다. 워크플로의 최종 목표는 두 개 이상의 항목을 구매한 대상 프로필로 전자 메일을 보내 충성도에 대한 감사를 표시하는 것입니다.
@@ -56,37 +67,37 @@ ht-degree: 79%
 
   링크가 만들어지면 두 세트의 **[!UICONTROL Additional data]**(이)가 추가됩니다.
 
-   * 각 프로필의 마지막 2개 트랜잭션에 해당하는 2개 라인의 컬렉션입니다. 이 컬렉션에는 제품 이름, 트랜잭션 날짜 및 제품 가격이 추가 데이터로 추가됩니다. 데이터에 내림차순 정렬이 적용됩니다. 컬렉션을 만들려면 **[!UICONTROL Additional data]** 탭에서 다음을 수행하십시오.
+  * 각 프로필의 마지막 2개 트랜잭션에 해당하는 2개 라인의 컬렉션입니다. 이 컬렉션에는 제품 이름, 트랜잭션 날짜 및 제품 가격이 추가 데이터로 추가됩니다. 데이터에 내림차순 정렬이 적용됩니다. 컬렉션을 만들려면 **[!UICONTROL Additional data]** 탭에서 다음을 수행하십시오.
 
-     활동의&#x200B;**[!UICONTROL Advanced relations]** 탭에서 이전에 정의된 링크를 선택합니다.
+    활동의&#x200B;**[!UICONTROL Advanced relations]** 탭에서 이전에 정의된 링크를 선택합니다.
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     **[!UICONTROL Collection]**&#x200B;을(를) 확인하고 검색할 라인의 수를 지정합니다(이 예제에서는 2개). 이 화면에서 컬렉션의 **[!UICONTROL Alias]** 및 **[!UICONTROL Label]**&#x200B;을(를) 사용자 지정할 수 있습니다. 이러한 값은 이 컬렉션을 참조할 때 워크플로의 다음 활동에서 표시됩니다.
+    **[!UICONTROL Collection]**&#x200B;을(를) 확인하고 검색할 라인의 수를 지정합니다(이 예제에서는 2개). 이 화면에서 컬렉션의 **[!UICONTROL Alias]** 및 **[!UICONTROL Label]**&#x200B;을(를) 사용자 지정할 수 있습니다. 이러한 값은 이 컬렉션을 참조할 때 워크플로의 다음 활동에서 표시됩니다.
 
-     ![](assets/enrichment_example_workflow4.png)
+    ![](assets/enrichment_example_workflow4.png)
 
-     **[!UICONTROL Data]**(이)가 컬렉션을 유지하게 하려면 최종 게재에 사용할 열을 선택합니다.
+    **[!UICONTROL Data]**(이)가 컬렉션을 유지하게 하려면 최종 게재에 사용할 열을 선택합니다.
 
-     ![](assets/enrichment_example_workflow6.png)
+    ![](assets/enrichment_example_workflow6.png)
 
-     트랜잭션 날짜에 내림차순 정렬을 적용하여 최신 트랜잭션을 검색합니다.
+    트랜잭션 날짜에 내림차순 정렬을 적용하여 최신 트랜잭션을 검색합니다.
 
-     ![](assets/enrichment_example_workflow7.png)
+    ![](assets/enrichment_example_workflow7.png)
 
-   * 각 프로필에 대한 총 트랜잭션 수를 계산하는 집계입니다. 이 집계는 나중에 최소 두 개 이상의 트랜잭션을 기록한 프로필을 필터링하는 데 사용됩니다. 합계를 만들려면 **[!UICONTROL Additional data]** 탭에서 다음을 수행합니다.
+  * 각 프로필에 대한 총 트랜잭션 수를 계산하는 집계입니다. 이 집계는 나중에 최소 두 개 이상의 트랜잭션을 기록한 프로필을 필터링하는 데 사용됩니다. 합계를 만들려면 **[!UICONTROL Additional data]** 탭에서 다음을 수행합니다.
 
-     활동의&#x200B;**[!UICONTROL Advanced relations]** 탭에서 이전에 정의된 링크를 선택합니다.
+    활동의&#x200B;**[!UICONTROL Advanced relations]** 탭에서 이전에 정의된 링크를 선택합니다.
 
-     ![](assets/enrichment_example_workflow3.png)
+    ![](assets/enrichment_example_workflow3.png)
 
-     **[!UICONTROL Aggregate]**&#x200B;을(를) 선택합니다.
+    **[!UICONTROL Aggregate]**&#x200B;을(를) 선택합니다.
 
-     ![](assets/enrichment_example_workflow8.png)
+    ![](assets/enrichment_example_workflow8.png)
 
-     **[!UICONTROL Data]**&#x200B;을(를) 유지하기 위해&#x200B;**Count All** 집계를 정의합니다. 필요한 경우 다음 활동에서 더 빠르게 찾기 위해 사용자 지정 별칭을 지정합니다.
+    **[!UICONTROL Data]**&#x200B;을(를) 유지하기 위해&#x200B;**Count All** 집계를 정의합니다. 필요한 경우 다음 활동에서 더 빠르게 찾기 위해 사용자 지정 별칭을 지정합니다.
 
-     ![](assets/enrichment_example_workflow9.png)
+    ![](assets/enrichment_example_workflow9.png)
 
 * 최소 두 개 이상의 트랜잭션을 기록한 초기 대상의 프로필을 검색하는 세그먼트가 하나만 있는 [Segmentation](../../automating/using/segmentation.md) 활동. 트랜잭션이 하나만 있는 프로필은 제외됩니다. 이를 위해 이전에 정의한 집계에서 세분화의 쿼리가 수행됩니다.
 

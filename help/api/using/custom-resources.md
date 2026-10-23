@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '217'
 ht-degree: 3%
-
 ---
-
 # 사용자 정의 리소스 {#custom-resources}
 
 Adobe Campaign에는 다양한 리소스를 통해 데이터를 정의하는 데이터 모델이 사전 정의되어 있습니다. 리소스를 확장하여 제공되는 데이터 모델을 보강하여 구매 또는 제품 테이블과 같은 사용자 지정 필드 또는 사용자 지정 테이블을 추가할 수 있습니다.
@@ -38,7 +50,7 @@ Adobe Campaign에는 다양한 리소스를 통해 데이터를 정의하는 데
 
 ***샘플 요청***
 
-확장된 profileAndServicesExt 리소스에 액세스하기 위한 샘플 GET 요청.
+확장된 profileAndServicesExt 리소스에 액세스하기 위한 샘플 GET 요청입니다.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -77,4 +89,4 @@ Adobe Campaign에는 다양한 리소스를 통해 데이터를 정의하는 데
 
 * [데이터 모델 기본 개념](../../developing/using/data-model-concepts.md)
 * [API 확장](../../developing/using/about-extending-the-api.md)
-* [다른 리소스와 연결된 링크 정의](https://helpx.adobe.com/kr/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [다른 리소스와의 링크 정의](https://helpx.adobe.com/kr/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

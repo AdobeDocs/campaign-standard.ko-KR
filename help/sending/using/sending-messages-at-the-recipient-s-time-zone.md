@@ -8,22 +8,32 @@ feature: Proofs
 role: User
 level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
-TQID: https://experienceleague.adobe.com/0ZBuZihQqaowNG6y5gzkh5Vpz86e6pjmTRd5bNDPGxg
+TQID: 'https://experienceleague.adobe.com/0ZBuZihQqaowNG6y5gzkh5Vpz86e6pjmTRd5bNDPGxg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
+subfeature_v2:
+  - id: 458b98fa-9d41-55f3-9c8e-3aeb5c95457a
+    internal-label: Proofs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: '384'
 ht-degree: 69%
-
 ---
-
 # 수신자의 시간대에 맞추어 메시지 보내기{#sending-messages-at-the-recipient-s-time-zone}
 
 날짜와 시간이 중요한 캠페인을 관리할 때 각 수신자의 현지 시간을 고려하여 게재를 예약할 수 있습니다. 수신자는 사용자가 예약한 시간에 이메일, SMS 또는 푸시 알림을 수신자의 시간대로 수신하게 됩니다.
@@ -34,7 +44,7 @@ ht-degree: 69%
 
 수신자의 시간대에 게재를 보내려면 워크플로에서 **[!UICONTROL Scheduler]** 활동을 사용할 수도 있습니다. 자세한 정보는 이 [페이지](../../automating/using/scheduler.md)를 참조하십시오.
 
-다음 예에서는 발렌타인 데이에만 유효한 프로모션 코드를 전 세계 모든 고객에게 전송하려고 합니다. 하루 동안 사용하기에 충분한 시간을 제공하기 위해 모든 고객은 시간대에 따라 2월 14일 오전 8:00에 메시지를 수신해야 합니다.
+다음 예에서는 발렌타인 데이에만 유효한 프로모션 코드를 전 세계 모든 고객에게 전송하려고 합니다. 하루 동안 사용하기에 충분한 시간을 제공하기 위해 모든 고객은 시간대에 따라 2월 14일 오전 8시에 메시지를 수신해야 합니다.
 
 1. **[!UICONTROL Marketing activities]** 탭에서 게재 만들기를 시작합니다(이 예제의 경우 이메일). 게재 만들기에 대한 자세한 내용은 이 [섹션](../../channels/using/creating-an-email.md)을 참조하십시오.
 1. 발렌타인 데이 이메일을 디자인한 후 **[!UICONTROL Create]**&#x200B;을(를) 클릭하여 게재 대시보드에 액세스합니다. 이메일 디자인에 대한 자세한 내용은 이 [페이지](../../designing/using/personalization.md#example-email-personalization)를 참조하십시오.
@@ -45,7 +55,7 @@ ht-degree: 69%
 
    ![](assets/send-time_opt_valentine_2.png)
 
-1. 아래에 지정된 **[!UICONTROL Messages to be sent automatically on the date]** 옵션을 선택합니다. 그런 다음 **[!UICONTROL Start sending from]** 필드에서 연락 날짜를 설정하여(이 예제의 경우 2월 14일 오전 8:00) 모든 수신자가 발렌타인 데이에 받을 수 있도록 합니다.
+1. 아래에 지정된 **[!UICONTROL Messages to be sent automatically on the date]** 옵션을 선택합니다. 그런 다음 **[!UICONTROL Start sending from]** 필드에서 연락 날짜를 설정하여(이 예제의 경우 2월 14일 오전 8시) 모든 수신자가 발렌타인 데이에 받을 수 있도록 합니다.
 
    ![](assets/send-time_opt_valentine.png)
 
@@ -63,4 +73,4 @@ ht-degree: 69%
 
    ![](assets/send-time_opt_valentine_4.png)
 
-어디에 있든 모든 수신자는 2월 14일, 현지 시간으로 오전 8시에 메시지를 받게 됩니다.:00
+어디에 있든 모든 수신자는 2월 14일, 현지 시간으로 오전 8시에 메시지를 받게 됩니다.

@@ -8,24 +8,34 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-TQID: https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI
+TQID: 'https://experienceleague.adobe.com/p90XYfq1xHy3wLT6XX8itIHZer0Ix3FS6aq2r2u2HhI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Optimization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: '1072'
 ht-degree: 2%
-
 ---
-
 # 보내는 날짜 계산{#computing-the-sending-date}
 
 특정 날짜 및 시간에 각 수신자에게 메시지를 전송하는 수식을 정의할 수 있습니다.
@@ -38,7 +48,7 @@ ht-degree: 2%
 
 스팸으로 표시되지 않도록 하기 위해 다양한 시간에 걸쳐 대량의 이메일을 배포하여 전송된 볼륨을 점진적으로 늘릴 수 있습니다. 이를 통해 시작 단계를 원활하게 발전시키고 잘못된 주소의 전체 비율을 줄일 수 있습니다.
 
-예를 들어 타겟 대상을 임의로 세그먼트화하여 게재를 5개의 배치로 보낼 수 있습니다. 대상 대상의 10%를 나타내는 첫 번째 배치는 6월 1일 오전 10:00(으)로 전송되고, 24시간 후 대상의 15%를 나타내는 두 번째 배치가 전송되는 방식입니다.
+예를 들어 타겟 대상을 임의로 세그먼트화하여 게재를 5개의 배치로 보낼 수 있습니다. 대상 대상의 10%를 나타내는 첫 번째 배치는 6월 1일 오전 10시에 전송되고, 대상 대상의 15%를 나타내는 두 번째 배치는 24시간 후에 전송됩니다.
 
 워크플로우를 사용하여 이 작업을 예약할 수 있습니다.
 
@@ -52,7 +62,7 @@ ht-degree: 2%
 
    * **[!UICONTROL Segment code]** 필드 입력: 메시지를 보낼 날짜 및 시간을 수동으로 입력합니다.
 
-     예를 들어 첫 번째 배치를 6월 1일 오전 10:00 GMT+1에 전송하려고 합니다. **`YYYY-MM-DD hh:mm:ss+tz`** 형식을 사용하십시오.
+     예를 들어 6월 1일 오전 10시 GMT+1에 첫 번째 배치를 전송하려고 합니다. **`YYYY-MM-DD hh:mm:ss+tz`** 형식을 사용하십시오.
 
      ![](assets/send-time_opt_segment_configuration.png)
 
@@ -60,9 +70,9 @@ ht-degree: 2%
 
      나머지 세그먼트에 대해 다음 배치를 다음과 같이 정의합니다.
 
-      * **2017-06-03 10:00:00+01**
-      * **2017-06-04 10:00:00+01**
-      * **2017-06-05 10:00:00+01**
+     * **2017-06-03 10:00:00+01**
+     * **2017-06-04 10:00:00+01**
+     * **2017-06-05 10:00:00+01**
 
    * **[!UICONTROL Limit the population of this segment]** 옵션을 선택해야 합니다.
 
@@ -128,10 +138,10 @@ ht-degree: 2%
 
    * 세그먼트 코드를 다음과 같이 정의합니다.
 
-      * 오전 8시~오전 10시: **0** :00:00메시지는 오전 8:00(연락일)에 대상 모집단의 첫 번째 분기로 전송됩니다.
-      * 오전 10:00 - 오후 12:00: **2**. 메시지는 오전 10:00(연락일 + 2시간)에 대상 모집단의 2분기로 전송됩니다.
-      * 오후 2:00 - 오후 4:00: **6**. 12:00 PM에서 2:00 PM 사이에 콜센터를 종료하는 경우 오후 2:00 PM에 대상 모집단의 3/4분기에 메시지가 전송됩니다(연락 날짜 + 6시간).
-      * 오후 4:00 - 오후 6:00: **8**. 오후 4:00시(연락 날짜 + 8시간)에 대상 모집단의 마지막 분기로 메시지가 전송됩니다.
+     * 오전 8시~오전 10시: **0**. 메시지는 오전 8시(연락 날짜)에 대상 모집단의 1분기로 전송됩니다.
+     * 오전 10시~오후 12시: **2**. 메시지는 오전 10시(연락일 + 2시간)에 대상 모집단의 2분기로 전송됩니다.
+     * 오후 2시~오후 4시: **6**. 12:00 PM에서 2:00 PM 사이에 콜센터를 종료하는 경우 오후 2:00에 대상 모집단의 3/4분기에 메시지가 전송됩니다(연락일 + 6시간).
+     * 오후 4:00 - 오후 6:00: **8**. 메시지는 오후 4시(연락 날짜 + 8시간)에 대상 모집단의 마지막 분기로 전송됩니다.
 
      >[!NOTE]
      >
@@ -149,7 +159,7 @@ ht-degree: 2%
 1. **[!UICONTROL Messages to be sent automatically on the date specified below]**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Start sending from]** 필드에서 연락 날짜를 정의합니다.
 
-   이 예제에서는 5월 25일 오전 8시:00를 선택합니다.
+   이 예에서는 5월 25일 오전 8시를 선택합니다.
 
 1. 전송 시간 최적화 드롭다운 메뉴에서 **[!UICONTROL Send at a custom date defined by a formula]**&#x200B;을(를) 선택하고 **[!UICONTROL Edit an expression]** 단추를 클릭합니다.
 
@@ -181,7 +191,7 @@ ht-degree: 2%
 
 1. 표현식을 저장하려면 확인하십시오. 일정을 확인하고 게재를 저장하고 워크플로우를 실행합니다.
 
-* 첫 번째 세그먼트는 연락 날짜(5월 25일 오전 8:00)에 메시지를 수신하게 됩니다.
-* 두 번째 세그먼트는 2시간 후(5월 25일 오전 10:00) 메시지를 수신하게 됩니다.
-* 세 번째 세그먼트는 6시간 후(5월 25일 오후 2:00시) 메시지를 수신하게 됩니다.
-* 네 번째 세그먼트는 8시간 후(5월 25일 오후 4:00시) 메시지를 수신하게 됩니다.
+* 첫 번째 세그먼트는 연락 날짜 (5월 25일 오전 8시)에 메시지를 수신하게 됩니다.
+* 두 번째 세그먼트는 2시간 후(5월 25일 오전 10시) 메시지를 수신하게 됩니다.
+* 세 번째 세그먼트는 6시간 후(5월 25일 오후 2시) 메시지를 수신하게 됩니다.
+* 네 번째 세그먼트는 8시간 후(5월 25일 오후 4시) 메시지를 수신하게 됩니다.

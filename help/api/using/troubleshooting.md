@@ -6,22 +6,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-TQID: https://experienceleague.adobe.com/uXYP0rBCW5loGzDKt--hLMmUZqfu7XxVn2qL0xgAcek
+TQID: 'https://experienceleague.adobe.com/uXYP0rBCW5loGzDKt--hLMmUZqfu7XxVn2qL0xgAcek'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Troubleshooting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 352
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # API 문제 해결 {#troubleshooting}
 
 * **Adobe.io 콘솔로 이동하면 다음 오류가 발생합니다. &quot;Adobe I/O 콘솔은 엔터프라이즈 계정의 일부 구성원만 사용할 수 있습니다. 액세스 권한이 있다고 생각되면 시스템 관리자에게 문의하십시오.&quot;**
@@ -84,7 +91,7 @@ ht-degree: 0%
 }
 ```
 
-* **Adobe.io에 대한 요청을 수행하면 {&quot;code&quot;:500, &quot;message&quot;:&quot;죄송합니다. 문제가 발생했습니다. URI를 확인하고 다시 시도하십시오.&quot;}**
+* **Adobe.io에 대한 요청을 하면 {&quot;code&quot;:500, &quot;message&quot;:&quot;죄송합니다. 문제가 발생했습니다. URI를 확인하고 다시 시도하십시오.&quot;}**
 
 Adobe.io에서 잘못된 URI를 선언합니다. 요청하는 URI가 유효하지 않을 가능성이 높습니다. Adobe.io에서 Campaign 서비스를 선택하면 가능한 organization_ids 목록이 있는 선택기가 표시됩니다. 선택한 항목이 URL에 입력한 내용인지 확인해야 합니다.
 

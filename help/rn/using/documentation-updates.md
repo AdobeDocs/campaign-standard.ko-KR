@@ -6,13 +6,28 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '7568'
 ht-degree: 100%
-
 ---
-
 # 설명서 업데이트{#documentation-updates}
 
 이 페이지에는 Adobe Campaign [릴리스 정보](../../rn/using/release-notes.md)와 Adobe Campaign Standard 설명서의 모든 새로운 업데이트 목록이 있습니다.
@@ -586,7 +601,7 @@ Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 �
 
 다이내믹 보고서의 지표 계산 섹션을 업데이트했습니다. [자세히 보기](../../reporting/using/indicator-calculation.md)
 
-다이내믹 보고 호환성 테이블을 추가했습니다. 이 테이블을 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ko)
+다이내믹 보고 호환성 테이블을 추가했습니다. 이 테이블을 통해 차원과 지표 간 호환성을 더 잘 이해할 수 있습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 워크플로에 대한 함수 목록이 업데이트되었습니다. [자세히 보기](../../automating/using/list-of-functions.md)
 
@@ -862,7 +877,7 @@ Campaign과 Adobe 솔루션 통합에 대한 URL이 대부분 변경되었습니
 
 게재를 준비하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세히 보기](../../sending/using/preparing-the-send.md)
 
-허가 목록이 포함된 섹션을 제거했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)&#x200B;(PDF)
+허가 목록이 포함된 섹션을 제거했습니다. [자세한 내용](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)&#x200B;(PDF)
 
 SMS 자동 답장을 사용하는 방법에 대한 단계별 사용 사례를 추가했습니다. [자세히 보기](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1034,7 +1049,7 @@ Campaign에서 Analytics로 KPI 공유 - [자세한 내용](../../integrating/us
 
 Adobe Campaign을 통한 사용자 핵심 서비스 또는 Audience Manager 통합을 구성하기 위한 지침을 추가했습니다. [자세히 보기](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-승인 테이블에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ko)
+승인 테이블에서 몇 가지 특정 역할의 기능을 더 명확하게 수정했습니다. [자세히 보기](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign에서 바로 사용할 수 있는 상황별 도움말 링크를 업데이트했습니다.
 

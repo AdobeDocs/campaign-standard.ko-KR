@@ -8,23 +8,34 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-TQID: https://experienceleague.adobe.com/0kuFE3F4zrJzydRFdByb6Jz1lNUA1wrpL70bXWwxYIA
+TQID: 'https://experienceleague.adobe.com/0kuFE3F4zrJzydRFdByb6Jz1lNUA1wrpL70bXWwxYIA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 485
+source-wordcount: '485'
 ht-degree: 23%
-
 ---
-
 # 메시지 추적{#tracking-messages}
 
 ## 추적 기본 정보 {#about-tracking}
@@ -38,7 +49,7 @@ ht-degree: 23%
 Adobe Campaign은 다음 두 가지 유형의 쿠키를 사용합니다.
 
 * 세션 쿠키(nlid). 여기에는 연락처로 보낸 전자 메일의 식별자(broadlogId)와 메시지 템플릿의 식별자(deliveryId)가 포함됩니다. 이 URL은 연락처가 Adobe Campaign이 보낸 전자 메일에 포함된 URL을 클릭할 때 추가되며, 이를 통해 웹에서 해당 동작을 추적할 수 있습니다. 브라우저를 닫으면 이 세션 쿠키가 자동으로 지워집니다. 연락처는 브라우저가 쿠키를 거부하도록 구성할 수 있습니다.
-* Adobe Experience Cloud 솔루션 간에 공유되는 쿠키입니다. 이렇게 하면 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 이 쿠키의 설명은 [여기](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ko)에서 사용할 수 있습니다.
+* Adobe Experience Cloud 솔루션 간에 공유되는 쿠키입니다. 따라서 웹 사이트를 방문할 때 Experience Cloud 솔루션과 상호 작용하는 사용자를 식별할 수 있습니다. 이 쿠키의 설명은 [여기](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ko)에서 사용할 수 있습니다.
 
 Adobe Campaign Standard을 사용하여 추적하면 다음 기능에 액세스할 수 있습니다.
 

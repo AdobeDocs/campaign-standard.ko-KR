@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
+TQID: 'https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 315
-ht-degree: 42%
-
+source-wordcount: '321'
+ht-degree: 41%
 ---
-
 # 열지 않은 사용자에게 새 게재를 보내는 워크플로우 재타겟팅{#retargeting-delivery-to-non-openers}
 
 고객에게 이메일을 보낸 다음 메일을 열지 않은 고객에게 SMS를 보낼 수 있습니다.

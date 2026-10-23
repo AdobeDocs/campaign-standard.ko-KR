@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 3%
-
+source-wordcount: '792'
+ht-degree: 4%
 ---
-
 # Adobe Experience Platform 데이터 커넥터 기본 정보 {#about-aep-data-connector}
 
 >[!IMPORTANT]
@@ -45,7 +60,7 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 * 기본 매핑은 Campaign Standard에서 기본적으로 제공되는 필드에만 사용할 수 있습니다. 모든 사용자 정의 필드 및 리소스를 수집하려면 각 고객이 고유한 매핑을 정의해야 합니다.
 
-* Adobe Experience Platform 데이터 커넥터는 정기적으로 플랫폼을 통해 프로필 데이터를 푸시합니다&#x200B;. 간격은 15분입니다. 이 값은 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko)를 사용하여 수정할 수 있습니다.
+* Adobe Experience Platform 데이터 커넥터는 정기적으로 플랫폼을 통해 프로필 데이터를 푸시합니다. &#x200B; 간격 기간은 15분입니다. 이 값은 [Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ko)를 사용하여 수정할 수 있습니다.
 
 * 데이터 엔지니어는 Campaign에서 Adobe Experience Platform으로의 매핑을 게시, 수정 및 일시 중지할 수 있습니다.
 
@@ -57,7 +72,7 @@ Adobe Experience Platform Data Connector는 Adobe Campaign Standard 사용자 �
 
 * 추적 로그 및 Broadlog 데이터는 Adobe Experience Platform에 경험 이벤트로 자동으로 수집됩니다. 이 수집은 실시간으로 Adobe Experience Platform으로 스트리밍됩니다.
 
-* Experience Cloud ID 서비스(ECID)는 기본적으로 Experience Events와 함께 전송되는 장치 식별자입니다.
+* Experience Cloud ID 서비스(ECID)는 기본적으로 Experience 이벤트와 함께 전송되는 장치 식별자입니다.
 
   방문자에게 할당된 고유한 영구 ID이며, Platform ID 서비스에서 다른 Experience Cloud 솔루션에서 동일한 방문자와 해당 데이터를 식별하는 데 사용할 수 있습니다. 자세한 내용은 [Experience Cloud ID 서비스 도움말](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ko)을 참조하세요.
 

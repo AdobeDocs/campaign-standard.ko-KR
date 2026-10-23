@@ -4,13 +4,16 @@ description: 'Adobe Campaign Standard에서 목록 화면 표시 및 작업을 �
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 9%
-
 ---
-
 
 # 프로필 및 대상자 작업
 
@@ -81,7 +84,8 @@ Campaign Standard은 마케팅 데이터베이스를 확장하는 데 도움이 
 
 ### Microsoft Dynamics 365에서 프로필 동기화
 
-Microsoft Dynamics 365와 Campaign Standard을 통합하면 Microsoft Dynamics 365의 연락처 데이터를 Campaign 데이터베이스로 전달할 수 있습니다.그러면 이러한 연락처는 프로필 목록에 표시되며 마케팅 캠페인에서 타겟팅할 수 있습니다. 이 통합에 대한 자세한 내용은 [전용 설명서](../../integrating/using/d365-acs-get-started.md)를 참조하세요.
+Microsoft Dynamics 365와 Campaign Standard을 통합하면 Microsoft Dynamics 365의 연락처 데이터를 Campaign 데이터베이스로 전달할 수 있습니다.
+그러면 이러한 연락처는 프로필 목록에 표시되며 마케팅 캠페인에서 타겟팅할 수 있습니다. 이 통합에 대한 자세한 내용은 [전용 설명서](../../integrating/using/d365-acs-get-started.md)를 참조하세요.
 
 >[!NOTE]
 >

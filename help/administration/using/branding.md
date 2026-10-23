@@ -7,26 +7,38 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-TQID: https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek
+TQID: 'https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1310
+source-wordcount: '1310'
 ht-degree: 73%
-
 ---
-
 # 브랜딩{#branding}
 
 ## 브랜드 이미지 기본 정보 {#about-brand-identity}
@@ -59,20 +71,20 @@ ht-degree: 73%
 
   ![](assets/branding_01.png)
 
-   * 인터페이스에 표시되는 **레이블**
-   * **브랜드 이름**
-   * 브랜드의 **웹 사이트 URL** 및 **웹 사이트 레이블**
-   * **브랜드 로고**
+  * 인터페이스에 표시되는 **레이블**
+  * **브랜드 이름**
+  * 브랜드의 **웹 사이트 URL** 및 **웹 사이트 레이블**
+  * **브랜드 로고**
 
 * **[!UICONTROL Header parameters of sent emails]**&#x200B;는 캠페인 수신자가 보게 되는 내용을 개인화합니다. 이 섹션에는 다음 필드가 포함되어 있습니다.
 
   ![](assets/branding_04_header.png)
 
-   * 브랜드 이메일 주소가 있는 **발신자(이메일 주소)**.
-   * 브랜드 이름이 있는 **발신자(이름)**.
-   * 고객이 회신할 수 있는 이메일 주소가 있는 **회신 대상(이메일 주소)**.
-   * 브랜드 이름이 있는 **회신 대상(이름)**.
-   * 오류가 발생한 경우 사용할 이메일 주소가 있는 **오류(이메일 주소)**.
+  * 브랜드 이메일 주소가 있는 **발신자(이메일 주소)**.
+  * 브랜드 이름이 있는 **발신자(이름)**.
+  * 고객이 회신할 수 있는 이메일 주소가 있는 **회신 대상(이메일 주소)**.
+  * 브랜드 이름이 있는 **회신 대상(이름)**.
+  * 오류가 발생한 경우 사용할 이메일 주소가 있는 **오류(이메일 주소)**.
 
   >[!IMPORTANT]
   >
@@ -82,9 +94,9 @@ ht-degree: 73%
 
   ![](assets/configure_branding_04.png)
 
-   * 사용자가 만드는 다른 랜딩 페이지를 호스팅 및 액세스하는 데 사용되는 **애플리케이션 서버의 외부 URL**.
-   * 게재 중 추적된 URL로 사용되는 **추적 서버의 외부 URL**.
-   * 게재에서 기본 미러 페이지로 사용되는 **미러 페이지 서버의 외부 URL**.
+  * 사용자가 만드는 다른 랜딩 페이지를 호스팅 및 액세스하는 데 사용되는 **애플리케이션 서버의 외부 URL**.
+  * 게재 중 추적된 URL로 사용되는 **추적 서버의 외부 URL**.
+  * 게재에서 기본 미러 페이지로 사용되는 **미러 페이지 서버의 외부 URL**.
 
   >[!NOTE]
   >

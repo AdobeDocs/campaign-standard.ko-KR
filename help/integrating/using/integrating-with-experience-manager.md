@@ -9,31 +9,42 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
-TQID: https://experienceleague.adobe.com/OuQgaZgJVeL04fw3rvn5nydbp2fOSdQOVpiFhrUcEl4
+TQID: 'https://experienceleague.adobe.com/OuQgaZgJVeL04fw3rvn5nydbp2fOSdQOVpiFhrUcEl4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Experience Manager integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Data management
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: '685'
 ht-degree: 1%
-
 ---
-
 # Campaign-Experience Manager 통합 기본 정보{#integrating-with-experience-manager}
 
 Adobe Campaign Standard과 Adobe Experience Manager 간의 이러한 통합을 통해 Adobe Experience Manager에서 만든 콘텐츠를 Adobe Campaign 이메일에 사용할 수 있습니다.
@@ -69,15 +80,15 @@ Adobe Campaign Standard은 Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 및 6.5�
 * **기본 구성 요소를 빠르게 시작하십시오.**
 
   템플릿이 복잡하지 않은 경우 Adobe Experience Manager for Adobe Campaign Standard의 기본 구성 요소를 사용하여 빠르게 시작할 수 있습니다.
-Experience Manager에는 사용을 시작할 수 있는 7가지 기본 구성 요소가 있습니다.
+  Experience Manager에는 사용을 시작할 수 있는 7가지 기본 구성 요소가 있습니다.
 
-   * 제목
-   * 이미지
-   * 링크
-   * Scene7 이미지 템플릿
-   * 타깃팅된 참조
-   * 텍스트 및 이미지
-   * 텍스트 및 Personalization
+  * 제목
+  * 이미지
+  * 링크
+  * Scene7 이미지 템플릿
+  * 타깃팅된 참조
+  * 텍스트 및 이미지
+  * 텍스트 및 Personalization
 
 * **이메일에 대한 HTML과 웹에 대한 HTML이 다릅니다**
 
@@ -86,11 +97,11 @@ Experience Manager에는 사용을 시작할 수 있는 7가지 기본 구성 �
 * **템플릿에서 콘텐츠를 연결 해제하고 다시 사용합니다.**
 
   Campaign Standard에서 이메일을 설정하고 Experience Manager 템플릿을 선택할 때는 아직 다른 캠페인에 연결되지 않은 템플릿만 선택할 수 있습니다. 그렇지 않으면 한 캠페인에 대해 Adobe Experience Manager의 콘텐츠를 변경하고 새로 고치는 경우 다른 캠페인의 콘텐츠에 의도하지 않게 영향을 줄 수 있습니다.
-이를 방지하기 위해 템플릿 사용이 완료되면 연결을 해제하여 다시 사용할 수 있습니다. 템플릿을 선택하고 **[!UICONTROL Delete the link with Adobe Experience Manager content]**&#x200B;을(를) 클릭하면 됩니다.
+  이를 방지하기 위해 템플릿 사용이 완료되면 연결을 해제하여 다시 사용할 수 있습니다. 템플릿을 선택하고 **[!UICONTROL Delete the link with Adobe Experience Manager content]**&#x200B;을(를) 클릭하면 됩니다.
 
 * **Adobe Experience Manager을 사용하여 Adobe Campaign Standard에 대한 다양한 전자 메일을 만듭니다.**
 
   이 통합을 사용하면 세분화를 통해 하나의 이메일을 여러 버전으로 쉽게 전환할 수 있습니다.
-Adobe Experience Manager에서 세그먼테이션을 설정하는 방법과 타겟팅된 콘텐츠로 이메일을 만드는 방법에 대해 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html?lang=ko#setting-up-segmentation-in-aem)를 참조하세요.
+  Adobe Experience Manager에서 세그먼테이션을 설정하는 방법과 타겟팅된 콘텐츠로 이메일을 만드는 방법에 대해 알아보려면 이 [페이지](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html?lang=ko#setting-up-segmentation-in-aem)를 참조하세요.
 
 * **성공적으로 동기화하려면 Experience Manager의 세그먼트 이름이 Campaign 정확한 세그먼트 이름과 일치해야 합니다.**

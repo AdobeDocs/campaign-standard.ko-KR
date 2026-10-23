@@ -9,24 +9,34 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-TQID: https://experienceleague.adobe.com/z-rDsGlbZEzyIA-lxwtu-ujfxkeiblDnhK-jsXviFGQ
+TQID: 'https://experienceleague.adobe.com/z-rDsGlbZEzyIA-lxwtu-ujfxkeiblDnhK-jsXviFGQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+    internal-label: Direct mail
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '642'
 ht-degree: 88%
-
 ---
-
 # DM 만들기{#creating-the-direct-mail}
 
 DM 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사합니다. 다음 단계에서는 이 채널과 관련된 구성을 설명합니다. 기타 옵션에 대한 자세한 내용은 [이메일 만들기](../../channels/using/creating-an-email.md)를 참조하십시오.
@@ -89,7 +99,7 @@ DM 게재를 만드는 것은 일반 이메일을 만드는 것과 매우 유사
 
    >[!NOTE]
    >
-   >캠페인에서 과잉 복제된 프로필을 자동으로 제외하는 글로벌 크로스채널 피로 규칙을 설정할 수 있습니다. [피로 규칙](../../sending/using/fatigue-rules.md)을 참조하십시오.
+   >캠페인에서 과하게 요청된 프로필을 자동으로 제외하는 전역 크로스 채널 피로도 규칙을 설정할 수 있습니다. [피로 규칙](../../sending/using/fatigue-rules.md)을 참조하십시오.
 
 1. **[!UICONTROL Explore file]**&#x200B;을(를) 클릭하여 파일의 처음 100개 줄을 미리 보기합니다.
 

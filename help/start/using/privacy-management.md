@@ -8,24 +8,36 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-TQID: https://experienceleague.adobe.com/tL7Q38crTPVAkdCQ4Lti4sDDwX0tijO-b-FySgBOgeI
+TQID: 'https://experienceleague.adobe.com/tL7Q38crTPVAkdCQ4Lti4sDDwX0tijO-b-FySgBOgeI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
+subfeature_v2:
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: '851'
 ht-degree: 100%
-
 ---
-
 # 개인 정보 보호 관리 {#privacy-management}
 
 Adobe Campaign은 GDPR, CCPA, PDPA 및 LGPD와 같은 [개인 정보 보호 규정](#privacy-management-regulations)을 준수하는 데 도움이 되는 다양한 도구를 제공합니다.
@@ -60,8 +72,8 @@ Adobe Campaign의 기능은 다음과 같은 규정을 준수하는 데 도움�
 
 * **GDPR**([General Data Protection Regulation](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en))은 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 개인 정보 보호법입니다. 다음의 링크를 통해 GDPR에 대한 일반적인 정보를 확인하십시오.
 
-   * https://www.adobe.com/kr/privacy/general-data-protection-regulation.html
-   * https://www.adobe.com/kr/marketing-cloud/campaign/general-data-protection-regulation.html
+  * https://www.adobe.com/kr/privacy/general-data-protection-regulation.html
+  * https://www.adobe.com/kr/marketing-cloud/campaign/general-data-protection-regulation.html
 
 * **CCPA**([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&division=3.&title=1.81.5.&part=4.&chapter=&article=))는 캘리포니아 거주자들에게 개인 정보에 대한 새로운 권리를 제공하고 캘리포니아에서 비즈니스를 수행하는 특정 엔터티에 데이터 보호 책임을 부과합니다.
 * **PDPA**([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/))은 태국에 대한 데이터 보호 요구 사항을 통합하고 현대화한 새로운 개인 정보 보호법입니다.
@@ -71,7 +83,7 @@ Adobe Campaign의 기능은 다음과 같은 규정을 준수하는 데 도움�
 
 >[!NOTE]
 >
->개인 데이터 및 데이터를 관리하는 다른 엔터티(데이터 컨트롤러, 데이터 프로세서 및 데이터 주체)에 대한 자세한 내용은 [개인 데이터 및 가상 사용자를 참조하십시오](../../start/using/privacy.md#personal-data).
+>개인 데이터 및 데이터를 관리하는 다양한 엔터티(데이터 컨트롤러, 데이터 프로세서 및 데이터 주체)에 대한 자세한 내용은 [개인 데이터 및 가상 사용자를 참조하십시오](../../start/using/privacy.md#personal-data).
 
 ## 액세스 권리 및 잊혀질 권리 {#right-access-forgotten}
 

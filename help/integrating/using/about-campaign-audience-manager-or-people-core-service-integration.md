@@ -9,20 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-TQID: https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc
+TQID: 'https://experienceleague.adobe.com/3fzlYFnLX04veuXAXTrUz4jM-Q-P3d--eqyY9xrYiIc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 520
+source-wordcount: '520'
 ht-degree: 22%
-
 ---
-
 # Campaign-Audience Manager 또는 People 핵심 서비스 통합 기본 정보{#about-campaign-audience-manager-or-people-core-service-integration}
 
 >[!CAUTION]
@@ -38,8 +47,8 @@ Adobe Campaign을 사용하면 대상자/세그먼트를 다른 Adobe Experience
 
 * **방문자 ID**: 이 유형의 ID를 사용하면 Adobe Experience Cloud 방문자와 Adobe Campaign 프로필을 조정할 수 있습니다. Adobe IMS를 통해 연결이 활성화되는 즉시 Marketing Cloud Visitor ID Service가 활성화되고, 이는 Adobe Campaign에서 사용하는 영구 쿠키를 대체합니다. 이렇게 하면 방문자를 식별한 다음 프로필에 연결할 수 있습니다.
   <br>Adobe Campaign을 통해 보낸 전자 메일에서 프로필이 클릭되는 즉시 방문자 ID가 프로필에 연결됩니다.
-   * 프로필에 이미 방문자 ID가 있는 경우 프로필의 브라우저 데이터를 사용하여 Adobe Campaign에서 복구하고 프로필을 방문자 ID에 자동으로 연결할 수 있습니다.
-   * 방문자 ID가 없으면 새 ID가 만들어집니다. 이 방문자 ID는 프로필 추적 로그에 저장됩니다.
+  * 프로필에 이미 방문자 ID가 있는 경우 프로필의 브라우저 데이터를 사용하여 Adobe Campaign에서 복구하고 프로필을 방문자 ID에 자동으로 연결할 수 있습니다.
+  * 방문자 ID가 없으면 새 ID가 만들어집니다. 이 방문자 ID는 프로필 추적 로그에 저장됩니다.
 
   그러면 이 ID는 동일한 CNAME을 사용하는 다른 Adobe Marketing Cloud 애플리케이션에서 인식됩니다.
 

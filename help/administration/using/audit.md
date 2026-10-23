@@ -6,21 +6,34 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
-TQID: https://experienceleague.adobe.com/EE3jnXvxis0E3rnCRqLX2Gc9Aivhx2d4o3l8dZnFzgQ
+TQID: 'https://experienceleague.adobe.com/EE3jnXvxis0E3rnCRqLX2Gc9Aivhx2d4o3l8dZnFzgQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 3%
-
 ---
-
 # 감사 추적 {#audit}
 
 **[!UICONTROL Audit trail]**&#x200B;을(를) 통해 인스턴스 내에서 수행한 변경 내용의 전체 기록에 액세스할 수 있습니다.
@@ -37,19 +50,19 @@ ht-degree: 3%
 
 * **워크플로우 감사 추적**: 활동 및 워크플로우에 대한 마지막 수정 사항과 다음과 같은 워크플로우 상태를 확인합니다.
 
-   * 생성일
-   * 수정됨
-   * 삭제됨
-   * 워크플로우 시작
-   * 워크플로우 일시 중지
-   * 워크플로우 중지
-   * 워크플로우 다시 시작
-   * 워크플로우 정리
-   * 워크플로우 시뮬레이트
-   * 워크플로 절전 모드 해제
-   * 워크플로우 즉시 정지
-   * 동일한 사용자로 워크플로우 다시 시작
-   * 알 수 없는 워크플로 다시 시작 명령
+  * 생성일
+  * 수정됨
+  * 삭제됨
+  * 워크플로우 시작
+  * 워크플로우 일시 중지
+  * 워크플로우 중지
+  * 워크플로우 다시 시작
+  * 워크플로우 정리
+  * 워크플로우 시뮬레이트
+  * 워크플로 절전 모드 해제
+  * 워크플로우 즉시 정지
+  * 동일한 사용자로 워크플로우 다시 시작
+  * 알 수 없는 워크플로 다시 시작 명령
 
   **[!UICONTROL Workflows]**&#x200B;에 대한 자세한 내용은 이 [페이지](../../automating/using/get-started-workflows.md)를 참조하세요.
 

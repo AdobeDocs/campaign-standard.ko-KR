@@ -9,24 +9,34 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
-TQID: https://experienceleague.adobe.com/8VXdc-QOidRcDvgr5vMn-5bxHKYO6TnZS80FDsuA-GU
+TQID: 'https://experienceleague.adobe.com/8VXdc-QOidRcDvgr5vMn-5bxHKYO6TnZS80FDsuA-GU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: ede6e1ec-9279-415e-b828-a09735018d48
+    internal-label: Direct mail
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer journeys
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 456
+source-wordcount: '456'
 ht-degree: 84%
-
 ---
-
 # DM 기본 정보{#about-direct-mail}
 
 DM은 다이렉트 메일 공급자가 요구하는 파일을 개인화하고 생성할 수 있는 오프라인 채널입니다. DM을 통해 고객 여정의 온오프라인 채널을 혼합하여 운영할 수 있습니다.

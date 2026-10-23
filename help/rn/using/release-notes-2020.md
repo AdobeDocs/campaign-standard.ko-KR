@@ -8,44 +8,72 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
+TQID: 'https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
   - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+    internal-label: Data retention
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Experience Platform integration
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 5439
+source-wordcount: '5439'
 ht-degree: 95%
-
 ---
-
 # 2020년 릴리스 정보{#release-notes-2020}
 
 ![](assets/do-not-localize/cp-icon.png) 활성 프로필 모니터링, 하위 도메인 게재 기능 감사 및 GPG 키 관리가 포함된 **새로운 제어판 6월 릴리스** . [자세히 알아보기](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ko).
@@ -64,7 +92,8 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>이제 <strong>컨트롤 그룹</strong>을 사용하여 대상자의 일부를 제외하여 캠페인의 영향을 측정할 수 있습니다. 그러면 메시지를 받은 대상 모집단과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기준으로 향후 캠페인에서 컨트롤 그룹을 타겟팅할 수도 있습니다.</p>
+  <td> <p>이제 <strong>컨트롤 그룹</strong>을 사용하여 대상자의 일부를 제외하여 캠페인의 영향을 측정할 수 있습니다. 그러면 메시지를 받은 대상 모집단과 타겟팅되지 않은 연락처의 동작을 비교할 수 있습니다. 전송 로그를 기준으로 향후 캠페인에서 컨트롤 그룹을 타겟팅할 수도 있습니다.
+</p>
 <p>자세한 내용은 <a href="../../sending/using/control-group.md">세부 설명서</a> 및 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=ko">방법 비디오</a>를 참조하십시오.
 </p>
 </td> 
@@ -80,7 +109,8 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>이제 Adobe Campaign은 <strong>외부 API</strong> 워크플로 활동에서 인증을 위해 OAuth를 지원합니다. 이 새로운 기능을 통해 OAuth 지원이 필요한 시스템과 통신할 수 있습니다.</p>
+  <td> <p>이제 Adobe Campaign은 <strong>외부 API</strong> 워크플로 활동에서 인증을 위해 OAuth를 지원합니다. 이 새로운 기능을 통해 OAuth 지원이 필요한 시스템과 통신할 수 있습니다.
+</p>
 <p>자세한 내용은 <a href="../../automating/using/external-api.md">세부 설명서</a>를 참조하십시오.
 </p>
 </td> 

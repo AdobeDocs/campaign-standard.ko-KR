@@ -9,28 +9,40 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-TQID: https://experienceleague.adobe.com/EIgHueEXE0D-R3WjbgMK9SJ5Hpjmt3dwPTiTDVJoQxg
+TQID: 'https://experienceleague.adobe.com/EIgHueEXE0D-R3WjbgMK9SJ5Hpjmt3dwPTiTDVJoQxg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: a8512b64-d668-4084-b4f0-34baa899e306
+    internal-label: People Core Service integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 796
+source-wordcount: '796'
 ht-degree: 7%
-
 ---
-
 # Audience Manager 또는 People 핵심 서비스와의 프로비전 및 구성{#integration-with-audience-manager-or-people-core-service}
 
 Adobe Campaign의 Audience Manager 및 People 코어의 프로비전 및 구성은 두 가지 단계를 수행합니다. [Adobe에 요청 제출](#submitting-request-to-adobe) 및 [Adobe Campaign에서 통합 구성](#configuring-the-integration-in-adobe-campaign).
@@ -150,6 +162,6 @@ People 핵심 서비스 또는 Audience Manager와의 통합을 구성하려면 
 
 웹 속성이나 웹 사이트에서 방문자 ID 서비스가 구성된 적이 없는 경우 다음 [문서](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=ko)를 참조하여 서비스 또는 다음 [비디오](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)를 구성하는 방법을 알아보십시오.
 
-Experience Cloud ID 서비스의 `setCustomerID` 함수를 사용하여 선언된 ID와 고객 식별자를 통합 코드 `AdobeCampaignID`과(와) 동기화합니다. `AdobeCampaignID`은(는) [2단계: 데이터 원본 구성](#step-2--configure-the-data-sources)에서 구성된 받는 사람 데이터 Source에 설정된 조정 키 값과 일치해야 합니다.
+Experience Cloud ID 서비스의 `setCustomerID` 함수를 사용하여 선언된 ID로 고객 식별자를 통합 코드 `AdobeCampaignID`과(와) 동기화합니다. `AdobeCampaignID`은(는) [2단계: 데이터 원본 구성](#step-2--configure-the-data-sources)에서 구성된 받는 사람 데이터 Source에 설정된 조정 키 값과 일치해야 합니다.
 
 구성 및 프로비저닝이 완료되었으므로 이제 통합을 사용하여 대상자 또는 세그먼트를 가져오고 내보낼 수 있습니다.

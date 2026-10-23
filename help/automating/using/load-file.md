@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+TQID: 'https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1368
+source-wordcount: '1368'
 ht-degree: 90%
-
 ---
-
 # 파일 로드 {#load-file}
 
 ## 설명 {#description}
@@ -143,25 +152,25 @@ ht-degree: 90%
 * **[!UICONTROL Data type]**: 각 열에 필요한 데이터 형식을 지정합니다.
 * **[!UICONTROL Format and separators]**, **속성**: 텍스트, 시간, 날짜, 숫자 값 포맷의 속성과 열 컨텍스트에 따른 구분자를 지정합니다.
 
-   * **[!UICONTROL Maximum number of characters]**: 문자열 유형 열의 최대 글자 수를 지정합니다.
+  * **[!UICONTROL Maximum number of characters]**: 문자열 유형 열의 최대 글자 수를 지정합니다.
 
-     길이가 고정된 열로 구성된 파일을 로드할 경우 이 필드를 입력해야 합니다.
+    길이가 고정된 열로 구성된 파일을 로드할 경우 이 필드를 입력해야 합니다.
 
-   * **[!UICONTROL Letter case management]**: **텍스트** 데이터에 대소문자 프로세스를 적용할지 여부를 정의합니다.
-   * **[!UICONTROL White space management]**: **텍스트** 데이터의 문자열에서 특정 공백을 무시할지 여부를 지정합니다.
-   * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**: **날짜**, **시간**, **날짜 및 시간** 데이터의 포맷을 지정합니다.
-   * **[!UICONTROL Format]**: **정수** 및 **부동수** 데이터의 숫자 값 포맷을 정의할 수 있습니다.
-   * **[!UICONTROL Separator]**: **날짜**, **시간**, **날짜 및 시간**, **정수** 및 **부동수** 데이터에 대해 
-열 컨텍스트에 따른 구분자(숫자 값에 천 단위 구분자를 적용할지 십 단위 구분자를 적용할지, 날짜 및 시간에 어떤 구분자를 쓸지)를 정의합니다.
+  * **[!UICONTROL Letter case management]**: **텍스트** 데이터에 대소문자 프로세스를 적용할지 여부를 정의합니다.
+  * **[!UICONTROL White space management]**: **텍스트** 데이터의 문자열에서 특정 공백을 무시할지 여부를 지정합니다.
+  * **[!UICONTROL Time format]**, **[!UICONTROL Date format]**: **날짜**, **시간**, **날짜 및 시간** 데이터의 포맷을 지정합니다.
+  * **[!UICONTROL Format]**: **정수** 및 **부동수** 데이터의 숫자 값 포맷을 정의할 수 있습니다.
+  * **[!UICONTROL Separator]**: **날짜**, **시간**, **날짜 및 시간**, **정수** 및 **부동수** 데이터에 대해 
+    열 컨텍스트에 따른 구분자(숫자 값에 천 단위 구분자를 적용할지 십 단위 구분자를 적용할지, 날짜 및 시간에 어떤 구분자를 쓸지)를 정의합니다.
 
 * **[!UICONTROL Remapping of values]**: 이 필드는 열 세부 사항 구성에서만 사용할 수 있습니다. 이 필드를 통해 특정 값을 가져올 때 변형할 수 있습니다. 예를 들어 &quot;셋&quot;을 &quot;3&quot;으로 변환할 수 있습니다.
 * **[!UICONTROL Error processing]**: 오류가 발생하는 경우의 비헤이비어를 정의합니다.
 
-   * **[!UICONTROL Ignore the value]**: 값이 무시됩니다. 워크플로 실행 로그에 경고가 생성됩니다.
-   * **[!UICONTROL Reject the line]**: 전체 줄을 처리하지 않습니다.
-   * **[!UICONTROL Use a default value]**: 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
-   * **[!UICONTROL Use a default value in case the value is not remapped]**: 잘못된 값에 대한 매핑(위의 **[!UICONTROL Remapping of values]** 옵션 참조)이 정의되어 있지 않은 경우, 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
-   * **[!UICONTROL Reject the line when there is no remapping value]**: 잘못된 값에 대한 매핑이 정의되어 있지 않은 경우, 전체 줄을 처리하지 않습니다(위의 **[!UICONTROL Remapping of values]** 옵션 참조).
+  * **[!UICONTROL Ignore the value]**: 값이 무시됩니다. 워크플로 실행 로그에 경고가 생성됩니다.
+  * **[!UICONTROL Reject the line]**: 전체 줄을 처리하지 않습니다.
+  * **[!UICONTROL Use a default value]**: 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
+  * **[!UICONTROL Use a default value in case the value is not remapped]**: 잘못된 값에 대한 매핑(위의 **[!UICONTROL Remapping of values]** 옵션 참조)이 정의되어 있지 않은 경우, 오류를 일으키는 값을 **[!UICONTROL Default value]** 필드에 정의된 기본값으로 바꿉니다.
+  * **[!UICONTROL Reject the line when there is no remapping value]**: 잘못된 값에 대한 매핑이 정의되어 있지 않은 경우, 전체 줄을 처리하지 않습니다(위의 **[!UICONTROL Remapping of values]** 옵션 참조).
 
   >[!NOTE]
   >
@@ -170,6 +179,6 @@ ht-degree: 90%
 * **[!UICONTROL Default value]**: 선택한 오류 처리에 따라 기본값을 지정합니다.
 * **[!UICONTROL Empty value management]**: 데이터를 로드하는 동안 빈 값을 관리하는 방법을 지정합니다.
 
-   * **[!UICONTROL Generate an error for numerical fields]**: 숫자 필드에 대해서만 오류를 생성하고, 다른 필드의 경우 NULL 값을 삽입합니다.
-   * **[!UICONTROL Insert NULL in the corresponding field]**: 빈 값을 허용합니다. 따라서 NULL 값이 삽입됩니다.
-   * **[!UICONTROL Generate an error]**: 값이 비어 있는 경우 오류를 생성합니다.
+  * **[!UICONTROL Generate an error for numerical fields]**: 숫자 필드에 대해서만 오류를 생성하고, 다른 필드의 경우 NULL 값을 삽입합니다.
+  * **[!UICONTROL Insert NULL in the corresponding field]**: 빈 값을 허용합니다. 따라서 NULL 값이 삽입됩니다.
+  * **[!UICONTROL Generate an error]**: 값이 비어 있는 경우 오류를 생성합니다.

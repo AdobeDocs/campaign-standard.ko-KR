@@ -8,23 +8,34 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-TQID: https://experienceleague.adobe.com/QMERUwGatI5VLYzyUgA4dZxLkozubYyYBgueoJ6gZzI
+TQID: 'https://experienceleague.adobe.com/QMERUwGatI5VLYzyUgA4dZxLkozubYyYBgueoJ6gZzI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Insights
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 3%
-
 ---
-
 # 보고 인터페이스{#reporting-interface}
 
 예를 들어, 상단 도구 모음을 사용하여 보고서를 수정, 저장 또는 인쇄할 수 있습니다.
@@ -121,37 +132,37 @@ ht-degree: 3%
 
 * **[!UICONTROL Send report now]**: 일회성 이메일을 통해 선택한 수신자 목록으로 보고서를 보냅니다.
 
-   1. 필요한 경우 **[!UICONTROL Send report]** 창에서 설명을 추가합니다.
+  1. 필요한 경우 **[!UICONTROL Send report]** 창에서 설명을 추가합니다.
 
-      ![](assets/tab_share_4.png)
+     ![](assets/tab_share_4.png)
 
-   1. 드롭다운에서 수신자를 선택합니다. 조직 외부의 사용자는 선택할 수 없습니다.
-   1. 반복 전자 메일을 보내려면 **[!UICONTROL Show scheduling options]**&#x200B;을(를) 선택하십시오. **[!UICONTROL Share]** 탭에서 **[!UICONTROL Send Report on schedule]**&#x200B;을(를) 선택하여 이 작업을 수행할 수도 있습니다.
-   1. **[!UICONTROL Send now]**&#x200B;을(를) 클릭합니다. 그러면 수신자는 보고서가 첨부된 이메일을 받게 됩니다.
+  1. 드롭다운에서 수신자를 선택합니다. 조직 외부의 사용자는 선택할 수 없습니다.
+  1. 반복 전자 메일을 보내려면 **[!UICONTROL Show scheduling options]**&#x200B;을(를) 선택하십시오. **[!UICONTROL Share]** 탭에서 **[!UICONTROL Send Report on schedule]**&#x200B;을(를) 선택하여 이 작업을 수행할 수도 있습니다.
+  1. **[!UICONTROL Send now]**&#x200B;을(를) 클릭합니다. 그러면 수신자는 보고서가 첨부된 이메일을 받게 됩니다.
 
 * **[!UICONTROL Send report on schedule]**: 보고서를 예약하고 받는 사람에게 반복 전자 메일을 보냅니다.
 
-   1. 필요한 경우 **[!UICONTROL Send report]** 창에서 설명을 추가합니다.
-   1. 드롭다운에서 수신자를 선택합니다. 조직 외부의 사용자는 선택할 수 없습니다.
+  1. 필요한 경우 **[!UICONTROL Send report]** 창에서 설명을 추가합니다.
+  1. 드롭다운에서 수신자를 선택합니다. 조직 외부의 사용자는 선택할 수 없습니다.
 
-      ![](assets/tab_share_5.png)
+     ![](assets/tab_share_5.png)
 
-   1. 시작 및 종료 날짜를 선택하여 **[!UICONTROL Starting on]** 및 **[!UICONTROL Ending on]** 필드에서 이메일 유효성을 구성합니다.
-   1. 이메일을 보낼 빈도를 선택합니다.
+  1. 시작 및 종료 날짜를 선택하여 **[!UICONTROL Starting on]** 및 **[!UICONTROL Ending on]** 필드에서 이메일 유효성을 구성합니다.
+  1. 이메일을 보낼 빈도를 선택합니다.
 
-      ![](assets/tab_share_2.png)
+     ![](assets/tab_share_2.png)
 
-   1. **[!UICONTROL Send on schedule]**&#x200B;을(를) 클릭하면 선택한 빈도에 따라 받는 사람이 반복 전자 메일을 받게 됩니다.
+  1. **[!UICONTROL Send on schedule]**&#x200B;을(를) 클릭하면 선택한 빈도에 따라 받는 사람이 반복 전자 메일을 받게 됩니다.
 
 * **[!UICONTROL Scheduled reports]**: 예약된 보고서를 모두 찾아서 구성합니다.
 
-   1. **[!UICONTROL Scheduled reports]** 창에서 되풀이하여 보내는 보고서를 모두 찾습니다.
+  1. **[!UICONTROL Scheduled reports]** 창에서 되풀이하여 보내는 보고서를 모두 찾습니다.
 
-      ![](assets/tab_share_3.png)
+     ![](assets/tab_share_3.png)
 
-   1. 예약된 보고서 중 하나를 삭제하려면 삭제할 예약된 보고서를 선택한 다음 **[!UICONTROL Delete the section]**&#x200B;을(를) 클릭합니다.
-   1. 예약된 보고서를 구성하거나 확인하려면 변경해야 하는 보고서를 바로 클릭합니다.
-   1. **[!UICONTROL Edit scheduled report]** 창이 나타나면 이제 필요한 경우 전자 메일의 받는 사람 또는 빈도를 변경할 수 있습니다.
+  1. 예약된 보고서 중 하나를 삭제하려면 삭제할 예약된 보고서를 선택한 다음 **[!UICONTROL Delete the section]**&#x200B;을(를) 클릭합니다.
+  1. 예약된 보고서를 구성하거나 확인하려면 변경해야 하는 보고서를 바로 클릭합니다.
+  1. **[!UICONTROL Edit scheduled report]** 창이 나타나면 이제 필요한 경우 전자 메일의 받는 사람 또는 빈도를 변경할 수 있습니다.
 
 그러면 타겟팅된 사용자는 받은 편지함에 바로 보고서가 첨부된 이메일을 받게 됩니다. 사용자는 항상 각 반복 이메일에 포함된 구독 취소 링크를 사용하여 반복 이메일 수신을 중단할 수 있습니다.
 

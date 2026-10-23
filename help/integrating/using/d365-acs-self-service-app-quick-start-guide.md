@@ -10,22 +10,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-TQID: https://experienceleague.adobe.com/tVdAYIiQsxqtt8UyvRdrIBZO0EpjrPQx6lfkxHC9CSk
+TQID: 'https://experienceleague.adobe.com/tVdAYIiQsxqtt8UyvRdrIBZO0EpjrPQx6lfkxHC9CSk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1102
-ht-degree: 0%
-
+source-wordcount: '1113'
+ht-degree: 1%
 ---
-
 # 셀프서비스 통합 앱 시작 {#gs-self-service-app}
 
 Microsoft Dynamics 365 셀프서비스 통합 애플리케이션과 Adobe Campaign Standard을 통합하면 데이터 흐름을 구성하고, 실행 여부 및 환경을 제어할 수 있습니다. 그러나 셀프 서비스 통합 응용 프로그램을 사용하기 전에 몇 가지 전제 조건을 완료해야 합니다.
@@ -150,7 +160,7 @@ UI를 처음 탐색하면 다음과 같은 머리글이 있는 페이지가 표�
 
 * **정보**: 저작권 정보를 포함하여 응용 프로그램에 대한 정보가 포함된 대화 상자가 표시됩니다.
 
-### 탐색 표시 {#app-breadcrumbs}
+### 이동 경로 {#app-breadcrumbs}
 
 앱을 탐색할 때 일부 화면 상단에 이동 경로가 표시됩니다.
 

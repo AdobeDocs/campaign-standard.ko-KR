@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 3%
-
 ---
-
 # Adobe Experience Platform 대상자 타기팅 {#targeting-aep-audiences}
 
 >[!IMPORTANT]
@@ -29,7 +44,7 @@ ht-degree: 3%
 
 1. 워크플로우에 **[!UICONTROL Read audience]** 활동을 추가한 다음 엽니다.
 
-1. **[!UICONTROL Adobe Experience Platform]**&#x200B;에서 **[!UICONTROL Type of audience]** 옵션을 선택한 다음 원하는 대상을 추가합니다.
+1. **[!UICONTROL Type of audience]**&#x200B;에서 **[!UICONTROL Adobe Experience Platform]** 옵션을 선택한 다음 원하는 대상을 추가합니다.
 
    ![](assets/aep_wkf_readaudience.png)
 

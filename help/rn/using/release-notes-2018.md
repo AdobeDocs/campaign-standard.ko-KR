@@ -5,41 +5,64 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
+TQID: 'https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Target integration
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 5477
+source-wordcount: '5477'
 ht-degree: 3%
-
 ---
-
 # 2018년 릴리스 정보{#release-notes}
 
 ## 릴리스 18.9 - 2018년 9월 {#release-18-9-september-2018}
@@ -230,7 +253,8 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td> 게재 로그 확장<br /> </td> 
-   <td> 게재 로그 확장을 사용하면 워크플로우에서 나오는 프로필 데이터 및 세그먼트 코드로 전송 로그를 확장할 수 있습니다. 그런 다음 이 정보를 동적 보고서에서 사용할 수 있으며 게재를 보낼 때 일부 정보의 스냅숏을 유지할 수 있도록 해줍니다.<br /> 두 가지 사용 사례 <br />이(가) 더 있습니다. <ul> 
+   <td> 게재 로그 확장을 사용하면 워크플로우에서 나오는 프로필 데이터 및 세그먼트 코드로 전송 로그를 확장할 수 있습니다. 그런 다음 이 정보를 동적 보고서에서 사용할 수 있으며 게재를 보낼 때 일부 정보의 스냅숏을 유지할 수 있도록 해줍니다.<br /> 두 가지 사용 사례 <br />이(가) 더 있습니다. 
+    <ul> 
      <li> "동결된" 데이터로 확장 브로드로그 내보내기: 마케터로서 세그먼트 코드가 "A"(워크플로우 엔진에서 제공)와 같은 모든 프로필을 내보내고 싶습니다. </li> 
      <li> "동결된" 데이터에 대한 세그멘테이션: 마케터로서 마지막 전송 이후 충성도 포인트를 1000개나 획득한 모든 프로필 또는 세그먼트 코드가 "A"인 위치를 <strong>다시 타깃팅</strong>하려고 합니다. </li> 
     </ul> 자세한 내용은 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">자세한 설명서</a>.<br />를 참조하세요. </td> 
@@ -319,14 +343,16 @@ _사용자 정의 리소스_
  <tbody> 
   <tr> 
    <td> 유럽 연합 개인 정보 보호 규정(GDPR)<br /> </td> 
-   <td> GDPR은 2018년 5월 25일부터 시행되는 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 EU에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.<br /> Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 외에도 데이터 처리자로서의 역할에서 특정 GDPR 요청에 대한 데이터 컨트롤러로서의 준비를 용이하게 하기 위해 추가 기능을 포함하는 기회를 포착하고 있습니다. <br /> <ul> 
+   <td> GDPR은 2018년 5월 25일부터 시행되는 데이터 보호 요구 사항을 통합하고 현대화한 유럽 연합의 새로운 개인 정보 보호법입니다. GDPR은 EU에 거주하는 데이터 주체의 데이터를 보유하고 있는 Adobe Campaign 고객에게 적용됩니다.<br /> Adobe Campaign에서 이미 사용 가능한 개인 정보 보호 기능(동의 관리, 데이터 보존 설정 및 사용자 역할 포함) 외에도 데이터 처리자로서의 역할에서 특정 GDPR 요청에 대한 데이터 컨트롤러로서의 준비를 용이하게 하기 위해 추가 기능을 포함하는 기회를 포착하고 있습니다. <br /> 
+    <ul> 
      <li> 액세스 권한: 데이터 주체는 Adobe Campaign에 저장된 데이터를 포함하여 데이터 제어자가 캡처한 개인 데이터의 사본을 받을 수 있습니다. </li> 
      <li> 삭제 권한: 데이터 주체가 데이터 제어자에 의해 캡처된 개인 데이터(Adobe Campaign에 저장된 데이터 포함)를 삭제할 수 있는 권한을 부여합니다. </li> 
     </ul> 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=ko">자세한 설명서</a>.<br />를 참조하세요. </td> 
   </tr> 
   <tr> 
    <td> 이메일(Beta)용 Creative Designer<br /> </td> 
-   <td> Adobe Campaign의 새로운 Creative Designer은 Campaign에 완전히 통합된 생성 환경을 제공하여 단일 코드 행을 스크립팅하지 않고도 개인화된 매력적인 이메일을 빠르고 간편하게 시각적으로 만들 수 있습니다. Creative Designer은 강력한 드래그 앤 드롭 인터페이스를 통해 사용자가 빈 슬레이트에서 시작하는지, 기존 콘텐츠 조각 또는 템플릿을 활용하는지 여부에 관계없이 이메일 작성의 크기를 조정할 수 있도록 지원합니다. <br /> 주요 기능:<br /> <ul> 
+   <td> Adobe Campaign의 새로운 Creative Designer은 Campaign에 완전히 통합된 생성 환경을 제공하여 단일 코드 행을 스크립팅하지 않고도 개인화된 매력적인 이메일을 빠르고 간편하게 시각적으로 만들 수 있습니다. Creative Designer은 강력한 드래그 앤 드롭 인터페이스를 통해 사용자가 빈 슬레이트에서 시작하는지, 기존 콘텐츠 조각 또는 템플릿을 활용하는지 여부에 관계없이 이메일 작성의 크기를 조정할 수 있도록 지원합니다. <br /> 주요 기능:<br /> 
+    <ul> 
      <li> 기본 Creative Cloud 통합으로 증강된 드래그 앤 드롭 인터페이스를 통해 완전히 개인화된 반응형 이메일을 시각적으로 디자인하고 만듭니다 </li> 
      <li> 이메일 콘텐츠 템플릿을 만들고 저장하고 저장된 템플릿을 활용하여 이메일 만들기 확장 </li> 
      <li> 콘텐츠 조각(예: 머리글, 바닥글, 문서 등) 만들기 및 저장 콘텐츠 생성 간소화 및 브랜드 일관성 보장 </li> 
@@ -339,7 +365,8 @@ _사용자 정의 리소스_
   </tr> 
   <tr> 
    <td> 트랜잭션 메시지에서 사용자 지정 리소스 사용<br /> </td> 
-   <td> 기본 제공 필드 외에도 이제 트랜잭션 메시지를 통해 사용자 지정 리소스를 사용하여 메시지 콘텐츠를 보강할 수 있습니다.<br /> 예: <br /> <ul> 
+   <td> 기본 제공 필드 외에도 이제 트랜잭션 메시지를 통해 사용자 지정 리소스를 사용하여 메시지 콘텐츠를 보강할 수 있습니다.<br /> 예: <br /> 
+    <ul> 
      <li> 사용자 정의 필드를 조정 기준으로 활용하여 트랜잭션 메시지를 프로필에 일치 </li> 
      <li> 전체 프로필, 서비스 및 연결된 데이터를 활용하여 트랜잭션 메시지를 더욱 개인화할 수 있습니다 </li> 
     </ul> 자세한 내용은 <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">자세한 설명서</a>.<br />를 참조하세요. </td> 
@@ -478,7 +505,8 @@ Campaign 인터페이스에서 상황별 도움말 링크를 사용할 때 몇 �
   </tr> 
   <tr> 
    <td> 새 기능 푸시<br /> </td> 
-   <td> 푸시 메시지 미리 보기 - 푸시 알림 콘텐츠 편집기 내에서 iOS 및 Android 장치의 푸시 알림을 미리 보고 배달을 테스트하거나 실행하기 전에 받는 사람에게 표시되는 내용을 정확히 확인합니다.<br /> 자세한 내용은 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">자세한 설명서</a>.<br />를 참조하세요. 컨텐츠 이용 가능 - 앱이 오랫동안 열리지 않을 경우 해당 데이터가 오래된 것일 수 있습니다. 이로 인해 사용자가 앱을 최종 여는 시점에 데이터를 업데이트하거나 교체해야 하므로 앱 사용이 지연될 수 있습니다. 콘텐츠 이용 가능 기능의 지원 추가로, Adobe Campaign 사용자는 푸시 알림을 전달할 때 앱을 깨워 백그라운드에서 해당 데이터를 새로 고칠 수 있으므로, 사용자의 인앱 경험에 대한 일관성과 제어를 향상시킬 수 있습니다.<br /> 가변 컨텐츠 - 가변 컨텐츠 기능 지원의 추가로, Adobe Campaign 사용자는 이제 모바일 앱 확장 프로그램을 활용하여 Adobe Campaign에서 보낸 푸시 알림 도착에 대한 프레젠테이션 또는 컨텐츠를 수정할 수 있습니다. 예를 들어 사용자는 가변 콘텐츠를 활용하여 <br />에 액세스할 수 있습니다. <ul> 
+   <td> 푸시 메시지 미리 보기 - 푸시 알림 콘텐츠 편집기 내에서 iOS 및 Android 장치의 푸시 알림을 미리 보고 배달을 테스트하거나 실행하기 전에 받는 사람에게 표시되는 내용을 정확히 확인합니다.<br /> 자세한 내용은 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">자세한 설명서</a>.<br />를 참조하세요. 컨텐츠 이용 가능 - 앱이 오랫동안 열리지 않을 경우 해당 데이터가 오래된 것일 수 있습니다. 이로 인해 사용자가 앱을 최종 여는 시점에 데이터를 업데이트하거나 교체해야 하므로 앱 사용이 지연될 수 있습니다. 콘텐츠 이용 가능 기능의 지원 추가로, Adobe Campaign 사용자는 푸시 알림을 전달할 때 앱을 깨워 백그라운드에서 해당 데이터를 새로 고칠 수 있으므로, 사용자의 인앱 경험에 대한 일관성과 제어를 향상시킬 수 있습니다.<br /> 가변 컨텐츠 - 가변 컨텐츠 기능 지원의 추가로, Adobe Campaign 사용자는 이제 모바일 앱 확장 프로그램을 활용하여 Adobe Campaign에서 보낸 푸시 알림 도착에 대한 프레젠테이션 또는 컨텐츠를 수정할 수 있습니다. 예를 들어 사용자는 가변 콘텐츠를 활용하여 <br />에 액세스할 수 있습니다. 
+    <ul> 
      <li> 암호화된 형식으로 전달된 데이터 해독 </li> 
      <li> 이미지 또는 기타 미디어 파일을 다운로드하고 알림에 첨부 파일로 추가합니다. </li> 
      <li> 알림의 본문 또는 제목 텍스트 변경 </li> 

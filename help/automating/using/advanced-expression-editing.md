@@ -10,18 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+TQID: 'https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1103
+source-wordcount: '1115'
 ht-degree: 92%
-
 ---
-
 # 고급 표현식 편집{#advanced-expression-editing}
 
 ## 고급 표현식 편집 기본 정보 {#about-advanced-expression-editing}
@@ -78,9 +89,9 @@ ht-degree: 92%
 
 * 각 조건은 **&lt;값1> &lt;비교 연산자> &lt;값2>** 형식을 취합니다.
 
-   * **&lt;값1>**&#x200B;은 필드 또는 함수입니다. 예를 들어 프로필이 생성된 날짜의 경우 **@created** 또는 프로필이 생성된 연도의 경우 **Year(@created)**&#x200B;가 있습니다.
-   * **&lt;비교 연산자>**&#x200B;는 [비교 연산자](../../automating/using/advanced-expression-editing.md#comparison-operators) 섹션에 나열된 연산자 중 하나입니다. 이 연산자는 **&lt;값1>**&#x200B;과 **&lt;값2>** 간의 비교 방법을 정의합니다.
-   * **&lt;값2>**&#x200B;는 수동으로 입력되는 필드, 함수 또는 값입니다.
+  * **&lt;값1>**&#x200B;은 필드 또는 함수입니다. 예를 들어 프로필이 생성된 날짜의 경우 **@created** 또는 프로필이 생성된 연도의 경우 **Year(@created)**&#x200B;가 있습니다.
+  * **&lt;비교 연산자>**&#x200B;는 [비교 연산자](../../automating/using/advanced-expression-editing.md#comparison-operators) 섹션에 나열된 연산자 중 하나입니다. 이 연산자는 **&lt;값1>**&#x200B;과 **&lt;값2>** 간의 비교 방법을 정의합니다.
+  * **&lt;값2>**&#x200B;는 수동으로 입력되는 필드, 함수 또는 값입니다.
 
   >[!NOTE]
   >
@@ -88,8 +99,8 @@ ht-degree: 92%
 
 * 여러 조건을 사용하려면 논리 연산자를 사용하여 결합할 수 있습니다.
 
-   * **[!UICONTROL AND]**: 두 가지 조건이 교차됩니다.
-   * **[!UICONTROL OR]**: 두 가지 조건이 결합됩니다.
+  * **[!UICONTROL AND]**: 두 가지 조건이 교차됩니다.
+  * **[!UICONTROL OR]**: 두 가지 조건이 결합됩니다.
 
 예제:
 
@@ -107,9 +118,9 @@ JavaScript 표현식은 하나 이상의 조건으로 구성되며 다음 구문
 
 * 각 조건은 **&lt;컨텍스트> &lt;비교 연산자> &lt;값2>** 형식을 취합니다.
 
-   * **&lt;컨텍스트>**&#x200B;는 컨텍스트를 지정할 수 있는 필드 또는 함수입니다. 예를 들어 프로필의 이메일 주소는 **context.profile.@email**&#x200B;이고, 프로필 이름의 문자 수는 **context.profile.firstName.length()**&#x200B;입니다.
-   * **&lt;비교 연산자>**&#x200B;는 [비교 연산자](../../automating/using/advanced-expression-editing.md#comparison-operators) 섹션에 나열된 연산자 중 하나입니다. 이 연산자는 **&lt;컨텍스트>**&#x200B;와 **&lt;값2>** 간의 비교 방법을 정의합니다.
-   * **&lt;값2>**&#x200B;는 수동으로 입력되는 필드, 함수 또는 값입니다.
+  * **&lt;컨텍스트>**&#x200B;는 컨텍스트를 지정할 수 있는 필드 또는 함수입니다. 예를 들어 프로필의 이메일 주소는 **context.profile.@email**&#x200B;이고, 프로필 이름의 문자 수는 **context.profile.firstName.length()**&#x200B;입니다.
+  * **&lt;비교 연산자>**&#x200B;는 [비교 연산자](../../automating/using/advanced-expression-editing.md#comparison-operators) 섹션에 나열된 연산자 중 하나입니다. 이 연산자는 **&lt;컨텍스트>**&#x200B;와 **&lt;값2>** 간의 비교 방법을 정의합니다.
+  * **&lt;값2>**&#x200B;는 수동으로 입력되는 필드, 함수 또는 값입니다.
 
   >[!NOTE]
   >
@@ -117,8 +128,8 @@ JavaScript 표현식은 하나 이상의 조건으로 구성되며 다음 구문
 
 * 여러 조건을 사용하려면 논리 연산자를 사용하여 결합할 수 있습니다.
 
-   * **[!UICONTROL &&]**: 두 가지 조건이 교차됩니다.
-   * **[!UICONTROL ||]**: 두 가지 조건이 결합됩니다.
+  * **[!UICONTROL &&]**: 두 가지 조건이 교차됩니다.
+  * **[!UICONTROL ||]**: 두 가지 조건이 결합됩니다.
 
 예제:
 

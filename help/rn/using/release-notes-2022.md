@@ -5,25 +5,38 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-TQID: https://experienceleague.adobe.com/XeyIUqddLskoYUTD8zF1emb99O6HoL0gJrJlbX4V438
+TQID: 'https://experienceleague.adobe.com/XeyIUqddLskoYUTD8zF1emb99O6HoL0gJrJlbX4V438'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1254
+source-wordcount: '1254'
 ht-degree: 100%
-
 ---
-
 # 2022년 릴리스 정보{#release-notes-2022}
 
 ## 릴리스 22.3.2 {#feb-23}
@@ -57,10 +70,10 @@ ht-degree: 100%
 
 * **접근성** - Adobe는 애플리케이션의 전반적인 사용 편의성을 개선하기 위해 많은 접근성을 수정했습니다. 이러한 기능은 현재 얼리어답터 세트에만 활성화되어 있으며 향후 릴리스에서 모든 고객에게 롤아웃될 예정입니다. 접근성 개선의 예는 다음과 같습니다.
 
-   * 각 화면에 집중 가능한 요소에 대해 눈에 보이는 포커스 표시기가 있는지 확인합니다.
-   * 보다 쉬운 탐색을 위해 페이지 랜드마크 만들기
-   * 여러 컨트롤에 대한 이름, 역할, 값, 상태 추가
-   * 기본 화면에서 동적 포커스 순서에서 발생하는 문제 해결
+  * 각 화면에 집중 가능한 요소에 대해 눈에 보이는 포커스 표시기가 있는지 확인합니다.
+  * 보다 쉬운 탐색을 위해 페이지 랜드마크 만들기
+  * 여러 컨트롤에 대한 이름, 역할, 값, 상태 추가
+  * 기본 화면에서 동적 포커스 순서에서 발생하는 문제 해결
 
 
 **패치**

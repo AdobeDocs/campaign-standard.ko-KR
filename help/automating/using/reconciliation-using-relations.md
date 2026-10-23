@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-TQID: https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik
+TQID: 'https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: '338'
 ht-degree: 86%
-
 ---
-
 # 관계를 사용한 데이터 조정 {#reconciliation-relations}
 
 다음 예제에서는 파일에 있는 구매 데이터를 사용하여 데이터베이스를 업데이트하는 워크플로를 보여줍니다. 구매 데이터에는 고객 이메일 및 제품 코드 등 다른 차원의 요소를 참조하는 데이터가 포함됩니다.
@@ -38,9 +47,9 @@ ht-degree: 86%
 
 * 가져올 파일의 데이터를 로드하여 검색하는 [파일 로드](../../automating/using/load-file.md) 활동. 가져온 파일에는 다음 데이터가 포함됩니다.
 
-   * 트랜잭션 날짜
-   * 고객 이메일 주소
-   * 구매한 제품 코드
+  * 트랜잭션 날짜
+  * 고객 이메일 주소
+  * 구매한 제품 코드
 
   ```
   date;client;product
@@ -57,8 +66,8 @@ ht-degree: 86%
 
 * 구매 데이터를 데이터베이스 프로필과 제품에 바인딩하는 [조정](../../automating/using/reconciliation.md) 활동. 따라서 파일 데이터와 프로필 테이블 및 제품 테이블 간의 관계를 정의해야 합니다. 해당 활동의 **[!UICONTROL Relations]** 탭에서 이 구성을 수행합니다.
 
-   * **프로필**&#x200B;과의 관계: 파일의 **고객** 열은 **프로필** 차원의 **이메일** 필드에 연결됩니다.
-   * **제품**&#x200B;과의 관계: 파일의 **제품** 열은 **프로필** 차원의 **제품 코드** 필드에 연결됩니다.
+  * **프로필**&#x200B;과의 관계: 파일의 **고객** 열은 **프로필** 차원의 **이메일** 필드에 연결됩니다.
+  * **제품**&#x200B;과의 관계: 파일의 **제품** 열은 **프로필** 차원의 **제품 코드** 필드에 연결됩니다.
 
   연결된 차원의 외래 키를 참조할 수 있도록 인바운드 데이터에 열이 추가됩니다.
 
