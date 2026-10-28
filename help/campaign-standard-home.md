@@ -35,9 +35,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '584'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Adobe Campaign Standard 설명서 {#campaign-standard-documentation}
 
@@ -133,9 +133,9 @@ Campaign 및 RTCDP(실시간 고객 데이터 플랫폼) 간에 데이터를 공
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>유용한 페이지</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html" target="_blank">제품 설명</a> - <a href="rn/using/deprecated-features.md">사용되지 않거나 제거된 기능</a> - <a href="rn/using/release-planning.md">릴리스 계획</a> - <a href="administration/using/cnil-pixel-tracking.md">전자 메일 추적 픽셀에 대한 CNIL 지침</a>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko" target="_blank">튜토리얼</a> - <a href="https://helpx.adobe.com/kr/legal/product-descriptions/campaign-standard.html" target="_blank">제품 설명</a> - <a href="rn/using/deprecated-features.md">사용이 중단되거나 제거된 기능</a> - <a href="rn/using/release-planning.md">출시 계획</a> - <a href="administration/using/cnil-pixel-tracking.md">이메일 추적 픽셀 관련한 CNIL 지침</a>
 </td>
 <td><strong>기술 리소스</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 트리거</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html" target="blank">기술 노트</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko" target="_blank">Campaign 컨트롤 패널 설명서</a>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud 트리거</a> - <a href="api/using/get-started-apis.md">캠페인 API</a> - <a href="https://helpx.adobe.com/kr/campaign/kb/acs-article-list.html" target="blank">기술 노트</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ko" target="_blank">컨트롤 패널 문서</a>
 </td>
 </tr></table>

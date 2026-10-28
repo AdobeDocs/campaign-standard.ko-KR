@@ -27,9 +27,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Adobe Campaign Standard의 접근성 {#accessibility-acs}
 
@@ -45,11 +45,11 @@ Adobe Campaign Standard에서는 대비, 레이블, 구조화된 콘텐츠, 키�
 
 Adobe Campaign Standard 사용자 인터페이스에서는 저시력 또는 색각 이상이 있는 사용자가 편하게 볼 수 있도록 애플리케이션의 충분한 대비를 제공하려 노력하고 있습니다.
 
-* 대비 비율 3:1을 충족하도록 큰 텍스트와 제목이 향상되었습니다.
+* 큰 텍스트와 제목이 3:1 대비율을 충족하도록 개선되었습니다.
 
   ![](assets/accessibility_2.png)
 
-* 애플리케이션의 도움말 콘텐츠와 본문이 대비 비율 4.5:1을 충족하도록 업데이트되었습니다.
+* 앱의 도움말 콘텐츠와 본문이 4.5:1 대비 비율을 충족하도록 업데이트되었습니다.
 
 * 배경색과 전경색 간의 대비를 개선하기 위해 워크플로의 일시 중지 및 취소 아이콘이 업데이트되었습니다.
 
