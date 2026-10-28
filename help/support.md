@@ -28,7 +28,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
 ht-degree: 100%
 ---
@@ -137,7 +137,7 @@ FAQ, 모범 사례, 온라인 리소스 및 지원 포털을 통해 지원을 �
 
 ### 전문가에게 물어보세요!
 
-Campaign 커뮤니티 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ko)
+Campaign 커뮤니티 가입: 기존 질문에서 답변을 검색하거나 커뮤니티에 질문을 할 수 있습니다. [대화에 참여](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### 티켓 만들기 또는 채팅 시작
 
