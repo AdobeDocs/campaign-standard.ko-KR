@@ -127,7 +127,7 @@ URL에서 기존 콘텐츠를 검색하려면 아래 단계를 따르십시오.
 
 비디오에서 이 기능을 살펴보십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507639?captions=kor&quality=12)
 
 추가 Campaign Standard 사용 방법 비디오를 [여기](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ko)에서 사용할 수 있습니다.
 
